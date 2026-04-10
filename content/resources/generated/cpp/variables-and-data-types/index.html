@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables, Data Types, and Type Casting - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Understand int, float, double, char, bool, sizeof, type casting, auto keyword, and constants.">
+    <meta name="keywords" content="variables, data types, and type casting, c++ tutorial, c++ variables, data types, and type casting, learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/variables-and-data-types">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/variables-and-data-types">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/variables-and-data-types">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/variables-and-data-types">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/variables-and-data-types">
+    <meta property="og:title" content="Variables, Data Types, and Type Casting - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Understand int, float, double, char, bool, sizeof, type casting, auto keyword, and constants.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/variables-and-data-types">
+    <meta name="twitter:title" content="Variables, Data Types, and Type Casting - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Understand int, float, double, char, bool, sizeof, type casting, auto keyword, and constants.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Variables, Data Types, and Type Casting",
+    "description": "Understand int, float, double, char, bool, sizeof, type casting, auto keyword, and constants.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/variables-and-data-types"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/variables-and-data-types"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Variables, Data Types, and Type Casting",
+        "item": "https://learn.modernagecoders.com/resources/cpp/variables-and-data-types"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Integer Overflow in Multiplication",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "100000 x 100000 = 10^10, which exceeds <code>INT_MAX</code> (~2.1 x 10^9). The multiplication happens in <code>int</code> precision and overflows before the result is stored. Even if <code>result</code> is <code>long long</code>, if both operands are <code>int</code>, the multiplication is done in <code>int</code>. At least one operand must be <code>long long</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Assigning a Negative Value to unsigned int",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Assigning -1 to an <code>unsigned int</code> wraps around using modular arithmetic: -1 mod 2^32 = 4,294,967,295 (<code>UINT_MAX</code>). This is well-defined in C++ but almost always a bug. Never use unsigned types for values that could be negative. A common trap: <code>string::find()</code> returns <code>string::npos</code> which is an unsigned value."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using = Instead of == and Getting Implicit Conversion",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In C++, <code>x = 5</code> inside an <code>if</code> is legal -- it assigns 5 to x and then evaluates the result (5, which is truthy). This is a classic bug. Compile with <code>-Wall</code> to get a warning. Some programmers write <code>if (5 == x)</code> (Yoda conditions) to catch this, since <code>5 = x</code> would cause a compiler error."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Floating Point Precision Loss",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>float</code> has only about 7 significant decimal digits. The value 123456789 has 9 digits, so precision is lost. <code>double</code> has about 15 significant digits, which is sufficient. In competitive programming, always use <code>double</code> for floating-point values unless you have a specific reason to use <code>float</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Uninitialized Variable Contains Garbage",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Unlike Java (which initializes to 0) or Python (which requires assignment), C++ does NOT initialize local variables. An uninitialized variable contains whatever was previously in that memory location. This is <strong>undefined behavior</strong> and a common source of hard-to-find bugs. Always initialize your variables."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Variables, Data Types, and Type Casting</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 3</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">25 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Variables, Data Types, and Type Casting</h1>
+            <a href="/resources/cpp/variables-and-data-types/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Variables and Data Types in C++?</h2><p>A <strong>variable</strong> is a named storage location in memory that holds a value of a specific type. A <strong>data type</strong> tells the compiler how much memory to allocate and how to interpret the bits stored there. C++ is a <strong>statically typed</strong> language, meaning every variable must have its type declared at compile time and that type cannot change during execution.</p><p>Understanding data types is foundational. When you write <code>int x = 42;</code>, you are telling the compiler: allocate 4 bytes of memory, label that location <code>x</code>, interpret the bits as a signed 32-bit integer, and store the value 42 there. Every decision you make in C++ -- from choosing <code>int</code> vs <code>long long</code> for a counter, to using <code>double</code> vs <code>float</code> for precision, to understanding why <code>char</code> arithmetic works -- traces back to data types.</p><h3>Fundamental Data Types at a Glance</h3><table><tr><th>Type</th><th>Size (typical)</th><th>Range</th><th>Use Case</th></tr><tr><td><code>bool</code></td><td>1 byte</td><td>true (1) or false (0)</td><td>Flags, conditions</td></tr><tr><td><code>char</code></td><td>1 byte</td><td>-128 to 127 or 0 to 255</td><td>Characters, ASCII</td></tr><tr><td><code>short</code></td><td>2 bytes</td><td>-32,768 to 32,767</td><td>Small integers</td></tr><tr><td><code>int</code></td><td>4 bytes</td><td>-2,147,483,648 to 2,147,483,647</td><td>General integers</td></tr><tr><td><code>long</code></td><td>4 or 8 bytes</td><td>At least -2B to +2B</td><td>Platform-dependent</td></tr><tr><td><code>long long</code></td><td>8 bytes</td><td>-9.2 x 10^18 to 9.2 x 10^18</td><td>Large integers, CP</td></tr><tr><td><code>unsigned int</code></td><td>4 bytes</td><td>0 to 4,294,967,295</td><td>Non-negative only</td></tr><tr><td><code>float</code></td><td>4 bytes</td><td>~7 decimal digits precision</td><td>Low-precision decimals</td></tr><tr><td><code>double</code></td><td>8 bytes</td><td>~15 decimal digits precision</td><td>High-precision decimals</td></tr><tr><td><code>long double</code></td><td>8-16 bytes</td><td>~18-19 decimal digits</td><td>Extended precision</td></tr></table>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Data Types Critical in C++?</h2><p>In Python, you can write <code>x = 42</code> and then <code>x = "hello"</code> without any issue. Python figures out the type at runtime. C++ does not work that way. The type is fixed at compile time, and this rigidity is a feature, not a limitation.</p><h3>1. Memory Efficiency</h3><p>In competitive programming, you might create arrays of 10^7 elements. Using <code>long long</code> (8 bytes) instead of <code>int</code> (4 bytes) doubles your memory usage from 40MB to 80MB. Knowing your type sizes lets you stay within memory limits. In embedded systems, choosing <code>short</code> over <code>int</code> can be the difference between fitting in RAM or not.</p><h3>2. Avoiding Overflow Bugs</h3><p>The most common bug in competitive programming is integer overflow. If a problem says the answer can be up to 10^18, using <code>int</code> (max ~2 x 10^9) will silently overflow and give wrong answers. You need <code>long long</code>. Understanding type ranges prevents hours of debugging.</p><h3>3. Interview Relevance</h3><p>Interviewers at companies like Google, Amazon, and Microsoft frequently ask about type sizes, overflow behavior, implicit conversions, and the difference between <code>float</code> and <code>double</code>. Questions like "what happens when you assign a negative value to an unsigned int?" or "what is the output of <code>(int)3.9</code>?" are standard fare.</p><h3>4. Type Safety and Correctness</h3><p>C++ type casting rules can introduce subtle bugs. Implicit conversions (int to float, char to int) happen silently. Understanding when and how conversions occur prevents bugs in production code and competitive submissions alike.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>Variable Declaration and Initialization</h3><p>C++ provides three ways to initialize variables:</p><ul><li><strong>Copy initialization:</strong> <code>int x = 10;</code> -- the classic C-style assignment.</li><li><strong>Direct initialization:</strong> <code>int x(10);</code> -- uses parentheses, commonly seen with class constructors.</li><li><strong>Brace initialization (C++11):</strong> <code>int x{10};</code> -- the modern, safest form. Brace initialization <strong>prevents narrowing conversions</strong>. If you write <code>int x{3.5};</code>, the compiler will produce an error because 3.5 cannot be stored in an int without losing data. This does NOT happen with <code>int x = 3.5;</code> (which silently truncates to 3).</li></ul><h3>sizeof() Operator</h3><p>The <code>sizeof</code> operator returns the size in bytes of a type or variable. It is evaluated at <strong>compile time</strong>, not runtime -- no actual computation happens when the program runs. The result type is <code>size_t</code> (an unsigned integer type). You can use it with types (<code>sizeof(int)</code>) or with variables (<code>sizeof(x)</code>).</p><h3>Type Ranges and Overflow</h3><p>Every integer type has a fixed range determined by its size and whether it is signed or unsigned. When a value exceeds this range, <strong>overflow</strong> occurs. For unsigned types, overflow wraps around (modular arithmetic). For signed types, overflow is <strong>undefined behavior</strong> in C++ -- the compiler can do anything, including producing unexpected results or optimizing away your overflow checks.</p><p>Key limits (from <code>&lt;climits&gt;</code>):</p><ul><li><code>INT_MAX</code> = 2,147,483,647 (approximately 2.1 x 10^9)</li><li><code>INT_MIN</code> = -2,147,483,648</li><li><code>LLONG_MAX</code> = 9,223,372,036,854,775,807 (approximately 9.2 x 10^18)</li><li><code>UINT_MAX</code> = 4,294,967,295</li></ul><h3>Implicit vs Explicit Type Casting</h3><p><strong>Implicit casting</strong> (type coercion) happens automatically when the compiler converts one type to another. The general rule is that smaller/less precise types are promoted to larger/more precise types:</p><ul><li><code>char</code> -> <code>int</code> -> <code>long</code> -> <code>long long</code> -> <code>float</code> -> <code>double</code></li><li>When you write <code>int a = 5; double b = a;</code>, the int 5 is implicitly converted to double 5.0.</li><li>Dangerous direction: <code>double d = 3.99; int n = d;</code> -- this silently truncates to 3.</li></ul><p><strong>Explicit casting</strong> is when you intentionally force a conversion:</p><ul><li><strong>C-style cast:</strong> <code>(int)3.7</code> or <code>(double)5</code> -- works but is not type-safe.</li><li><strong>static_cast (C++ style):</strong> <code>static_cast&lt;int&gt;(3.7)</code> -- preferred in modern C++ because it is checked at compile time and makes your intent explicit. It will not let you do dangerous casts (like casting between unrelated pointer types).</li></ul><h3>The auto Keyword (C++11)</h3><p>The <code>auto</code> keyword tells the compiler to deduce the type from the initializer. <code>auto x = 42;</code> makes <code>x</code> an <code>int</code>. <code>auto y = 3.14;</code> makes <code>y</code> a <code>double</code>. The variable still has a fixed type -- it is determined at compile time, not runtime. <code>auto</code> is especially useful with complex types like iterators: <code>auto it = myMap.begin();</code> instead of <code>map&lt;string, int&gt;::iterator it = myMap.begin();</code>.</p><h3>const and constexpr</h3><p><code>const</code> means "this value will not change after initialization." It is a promise to the compiler. <code>const int MAX_SIZE = 100;</code> prevents accidental modification.</p><p><code>constexpr</code> (C++11) is stronger: it means "this value is known at compile time." <code>constexpr int SQUARE = 5 * 5;</code> guarantees the computation happens during compilation, not at runtime. Use <code>constexpr</code> for values that are truly compile-time constants. Use <code>const</code> for values that should not change but might be computed at runtime.</p><h3>ASCII Values and char Arithmetic</h3><p>Every <code>char</code> in C++ is stored as an integer (its ASCII value). <code>'A'</code> is 65, <code>'a'</code> is 97, <code>'0'</code> is 48. Because chars are integers, you can perform arithmetic on them:</p><ul><li><code>'A' + 1</code> gives 66 (which is <code>'B'</code>)</li><li><code>'a' - 'A'</code> gives 32 (the difference between lowercase and uppercase)</li><li><code>char c = '5'; int digit = c - '0';</code> converts the character '5' to the integer 5</li></ul><p>This is heavily used in competitive programming for character manipulation without using library functions.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">All Fundamental Data Types</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;climits&gt;
+#include &lt;cfloat&gt;
+using namespace std;
+
+int main() {
+    bool flag = true;
+    char letter = &#39;A&#39;;
+    short s = 32000;
+    int num = 100000;
+    long l = 100000L;
+    long long ll = 9000000000000LL;
+    unsigned int u = 4000000000U;
+    float f = 3.14f;
+    double d = 3.141592653589793;
+    long double ld = 3.141592653589793238L;
+
+    cout &lt;&lt; &quot;bool: &quot; &lt;&lt; flag &lt;&lt; &quot; (size: &quot; &lt;&lt; sizeof(bool) &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;char: &quot; &lt;&lt; letter &lt;&lt; &quot; (size: &quot; &lt;&lt; sizeof(char) &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;short: &quot; &lt;&lt; s &lt;&lt; &quot; (size: &quot; &lt;&lt; sizeof(short) &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;int: &quot; &lt;&lt; num &lt;&lt; &quot; (size: &quot; &lt;&lt; sizeof(int) &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;long: &quot; &lt;&lt; l &lt;&lt; &quot; (size: &quot; &lt;&lt; sizeof(long) &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;long long: &quot; &lt;&lt; ll &lt;&lt; &quot; (size: &quot; &lt;&lt; sizeof(long long) &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;unsigned int: &quot; &lt;&lt; u &lt;&lt; &quot; (size: &quot; &lt;&lt; sizeof(unsigned int) &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;float: &quot; &lt;&lt; f &lt;&lt; &quot; (size: &quot; &lt;&lt; sizeof(float) &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;double: &quot; &lt;&lt; d &lt;&lt; &quot; (size: &quot; &lt;&lt; sizeof(double) &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;long double: &quot; &lt;&lt; ld &lt;&lt; &quot; (size: &quot; &lt;&lt; sizeof(long double) &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">This demonstrates every fundamental data type with its suffix (<code>L</code> for long, <code>LL</code> for long long, <code>U</code> for unsigned, <code>f</code> for float) and its size using <code>sizeof</code>. Note that <code>bool</code> prints as 1 (true) or 0 (false), not as the word "true".</div><div class="code-example-output">bool: 1 (size: 1)
+char: A (size: 1)
+short: 32000 (size: 2)
+int: 100000 (size: 4)
+long: 100000 (size: 4)
+long long: 9000000000000 (size: 8)
+unsigned int: 4000000000 (size: 4)
+float: 3.14 (size: 4)
+double: 3.14159 (size: 8)
+long double: 3.14159 (size: 16)</div></div>
+<div class="code-example"><div class="code-example-title">Three Ways to Initialize Variables</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    // Copy initialization (C-style)
+    int a = 10;
+
+    // Direct initialization
+    int b(20);
+
+    // Brace initialization (C++11) -- prevents narrowing
+    int c{30};
+
+    cout &lt;&lt; &quot;Copy: &quot; &lt;&lt; a &lt;&lt; endl;
+    cout &lt;&lt; &quot;Direct: &quot; &lt;&lt; b &lt;&lt; endl;
+    cout &lt;&lt; &quot;Brace: &quot; &lt;&lt; c &lt;&lt; endl;
+
+    // Narrowing: this compiles with = but NOT with {}
+    // int d{3.5};  // ERROR: narrowing conversion
+    int d = 3.5;    // Compiles, d becomes 3 (truncated)
+    cout &lt;&lt; &quot;Narrowed: &quot; &lt;&lt; d &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">C++ offers three initialization syntaxes. Brace initialization <code>{}</code> is the safest because it rejects narrowing conversions at compile time. With <code>=</code> or <code>()</code>, the compiler silently truncates <code>3.5</code> to <code>3</code>. In interviews, this is a common question: what happens with <code>int x{3.5}</code> vs <code>int x = 3.5</code>?</div><div class="code-example-output">Copy: 10
+Direct: 20
+Brace: 30
+Narrowed: 3</div></div>
+<div class="code-example"><div class="code-example-title">Integer Overflow Demonstration</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;climits&gt;
+using namespace std;
+
+int main() {
+    int maxInt = INT_MAX;
+    cout &lt;&lt; &quot;INT_MAX: &quot; &lt;&lt; maxInt &lt;&lt; endl;
+    cout &lt;&lt; &quot;INT_MAX + 1: &quot; &lt;&lt; maxInt + 1 &lt;&lt; endl;  // Undefined behavior!
+
+    unsigned int u = 0;
+    cout &lt;&lt; &quot;Unsigned 0 - 1: &quot; &lt;&lt; u - 1 &lt;&lt; endl;  // Wraps to UINT_MAX
+
+    short s = 32767;
+    s = s + 1;
+    cout &lt;&lt; &quot;short 32767 + 1: &quot; &lt;&lt; s &lt;&lt; endl;  // Wraps to -32768
+
+    cout &lt;&lt; &quot;INT_MAX: &quot; &lt;&lt; INT_MAX &lt;&lt; endl;
+    cout &lt;&lt; &quot;INT_MIN: &quot; &lt;&lt; INT_MIN &lt;&lt; endl;
+    cout &lt;&lt; &quot;LLONG_MAX: &quot; &lt;&lt; LLONG_MAX &lt;&lt; endl;
+    cout &lt;&lt; &quot;UINT_MAX: &quot; &lt;&lt; UINT_MAX &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Overflow is the most common bug in competitive programming. When <code>INT_MAX</code> (2,147,483,647) is incremented, signed overflow occurs -- this is technically undefined behavior, but on most systems it wraps to <code>INT_MIN</code> (-2,147,483,648). Unsigned overflow is well-defined: <code>0 - 1</code> for unsigned int wraps to <code>UINT_MAX</code> (4,294,967,295). Always use <code>long long</code> when values can exceed 2 x 10^9.</div><div class="code-example-output">INT_MAX: 2147483647
+INT_MAX + 1: -2147483648
+Unsigned 0 - 1: 4294967295
+short 32767 + 1: -32768
+INT_MAX: 2147483647
+INT_MIN: -2147483648
+LLONG_MAX: 9223372036854775807
+UINT_MAX: 4294967295</div></div>
+<div class="code-example"><div class="code-example-title">Implicit and Explicit Type Casting</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    // Implicit: int to double (safe, no data loss)
+    int a = 7;
+    double b = a;  // 7 becomes 7.0
+    cout &lt;&lt; &quot;int to double: &quot; &lt;&lt; b &lt;&lt; endl;
+
+    // Implicit: double to int (dangerous, truncates)
+    double pi = 3.14159;
+    int truncated = pi;  // 3.14159 becomes 3
+    cout &lt;&lt; &quot;double to int: &quot; &lt;&lt; truncated &lt;&lt; endl;
+
+    // Explicit: C-style cast
+    double x = 9.8;
+    int y = (int)x;
+    cout &lt;&lt; &quot;C-style cast: &quot; &lt;&lt; y &lt;&lt; endl;
+
+    // Explicit: static_cast (modern C++, preferred)
+    double m = 7.65;
+    int n = static_cast&lt;int&gt;(m);
+    cout &lt;&lt; &quot;static_cast: &quot; &lt;&lt; n &lt;&lt; endl;
+
+    // Integer division fix
+    int p = 7, q = 2;
+    cout &lt;&lt; &quot;7 / 2 (int): &quot; &lt;&lt; p / q &lt;&lt; endl;
+    cout &lt;&lt; &quot;7 / 2 (cast): &quot; &lt;&lt; static_cast&lt;double&gt;(p) / q &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Implicit conversion from <code>int</code> to <code>double</code> is safe (widening). Converting <code>double</code> to <code>int</code> truncates the decimal part (not rounding -- 3.9 becomes 3, not 4). <code>static_cast</code> is preferred over C-style casts because it is checked at compile time. The last example shows the classic integer division fix: cast one operand to <code>double</code> before dividing.</div><div class="code-example-output">int to double: 7
+double to int: 3
+C-style cast: 9
+static_cast: 7
+7 / 2 (int): 3
+7 / 2 (cast): 3.5</div></div>
+<div class="code-example"><div class="code-example-title">auto Keyword and const/constexpr</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    auto x = 42;        // int
+    auto y = 3.14;      // double
+    auto z = &#39;A&#39;;       // char
+    auto w = true;      // bool
+    auto s = &quot;Hello&quot;;   // const char* (NOT string)
+
+    cout &lt;&lt; &quot;x (int): &quot; &lt;&lt; x &lt;&lt; &quot;, size: &quot; &lt;&lt; sizeof(x) &lt;&lt; endl;
+    cout &lt;&lt; &quot;y (double): &quot; &lt;&lt; y &lt;&lt; &quot;, size: &quot; &lt;&lt; sizeof(y) &lt;&lt; endl;
+    cout &lt;&lt; &quot;z (char): &quot; &lt;&lt; z &lt;&lt; &quot;, size: &quot; &lt;&lt; sizeof(z) &lt;&lt; endl;
+    cout &lt;&lt; &quot;w (bool): &quot; &lt;&lt; w &lt;&lt; &quot;, size: &quot; &lt;&lt; sizeof(w) &lt;&lt; endl;
+
+    const int MAX_MARKS = 100;
+    // MAX_MARKS = 200;  // ERROR: assignment of read-only variable
+
+    constexpr int SQUARE = 5 * 5;  // Computed at compile time
+    constexpr double PI = 3.14159265358979;
+
+    cout &lt;&lt; &quot;MAX_MARKS: &quot; &lt;&lt; MAX_MARKS &lt;&lt; endl;
+    cout &lt;&lt; &quot;SQUARE: &quot; &lt;&lt; SQUARE &lt;&lt; endl;
+    cout &lt;&lt; &quot;PI: &quot; &lt;&lt; PI &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>auto</code> deduces the type from the assigned value. Note that <code>auto s = "Hello"</code> deduces to <code>const char*</code>, not <code>std::string</code>. <code>const</code> prevents modification after initialization. <code>constexpr</code> guarantees compile-time evaluation -- the value is baked into the binary. Use <code>constexpr</code> for true constants (pi, max sizes) and <code>const</code> for values that should not change but may be computed at runtime.</div><div class="code-example-output">x (int): 42, size: 4
+y (double): 3.14, size: 8
+z (char): A, size: 1
+w (bool): 1, size: 1
+MAX_MARKS: 100
+SQUARE: 25
+PI: 3.14159</div></div>
+<div class="code-example"><div class="code-example-title">ASCII Values and char Arithmetic</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    char ch = &#39;A&#39;;
+    cout &lt;&lt; &quot;Character: &quot; &lt;&lt; ch &lt;&lt; endl;
+    cout &lt;&lt; &quot;ASCII value: &quot; &lt;&lt; (int)ch &lt;&lt; endl;
+
+    // char arithmetic
+    cout &lt;&lt; &quot;&#39;A&#39; + 1 = &quot; &lt;&lt; (char)(&#39;A&#39; + 1) &lt;&lt; &quot; (ASCII &quot; &lt;&lt; &#39;A&#39; + 1 &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;&#39;a&#39; - &#39;A&#39; = &quot; &lt;&lt; &#39;a&#39; - &#39;A&#39; &lt;&lt; endl;  // 32
+    cout &lt;&lt; &quot;&#39;Z&#39; - &#39;A&#39; = &quot; &lt;&lt; &#39;Z&#39; - &#39;A&#39; &lt;&lt; endl;  // 25
+
+    // Convert char digit to int
+    char digit = &#39;7&#39;;
+    int value = digit - &#39;0&#39;;  // &#39;7&#39; - &#39;0&#39; = 55 - 48 = 7
+    cout &lt;&lt; &quot;char &#39;&quot; &lt;&lt; digit &lt;&lt; &quot;&#39; to int: &quot; &lt;&lt; value &lt;&lt; endl;
+
+    // Convert lowercase to uppercase
+    char lower = &#39;m&#39;;
+    char upper = lower - 32;  // or lower - (&#39;a&#39; - &#39;A&#39;)
+    cout &lt;&lt; lower &lt;&lt; &quot; to uppercase: &quot; &lt;&lt; upper &lt;&lt; endl;
+
+    // Print all uppercase letters
+    cout &lt;&lt; &quot;A-Z: &quot;;
+    for (char c = &#39;A&#39;; c &lt;= &#39;Z&#39;; c++) {
+        cout &lt;&lt; c;
+    }
+    cout &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Every <code>char</code> is an integer internally. <code>'A'</code> is 65, <code>'a'</code> is 97, <code>'0'</code> is 48. The expression <code>c - '0'</code> converts a digit character to its numeric value -- this is used constantly in competitive programming when parsing input character by character. The difference between <code>'a'</code> and <code>'A'</code> is always 32, which enables case conversion without library functions.</div><div class="code-example-output">Character: A
+ASCII value: 65
+&#39;A&#39; + 1 = B (ASCII 66)
+&#39;a&#39; - &#39;A&#39; = 32
+&#39;Z&#39; - &#39;A&#39; = 25
+char &#39;7&#39; to int: 7
+m to uppercase: M
+A-Z: ABCDEFGHIJKLMNOPQRSTUVWXYZ</div></div>
+<div class="code-example"><div class="code-example-title">Type Limits from &lt;climits&gt; and &lt;cfloat&gt;</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;climits&gt;
+#include &lt;cfloat&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;=== Integer Limits ===&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;CHAR_MIN: &quot; &lt;&lt; CHAR_MIN &lt;&lt; endl;
+    cout &lt;&lt; &quot;CHAR_MAX: &quot; &lt;&lt; CHAR_MAX &lt;&lt; endl;
+    cout &lt;&lt; &quot;SHRT_MIN: &quot; &lt;&lt; SHRT_MIN &lt;&lt; endl;
+    cout &lt;&lt; &quot;SHRT_MAX: &quot; &lt;&lt; SHRT_MAX &lt;&lt; endl;
+    cout &lt;&lt; &quot;INT_MIN:  &quot; &lt;&lt; INT_MIN &lt;&lt; endl;
+    cout &lt;&lt; &quot;INT_MAX:  &quot; &lt;&lt; INT_MAX &lt;&lt; endl;
+    cout &lt;&lt; &quot;LLONG_MIN: &quot; &lt;&lt; LLONG_MIN &lt;&lt; endl;
+    cout &lt;&lt; &quot;LLONG_MAX: &quot; &lt;&lt; LLONG_MAX &lt;&lt; endl;
+    cout &lt;&lt; &quot;UINT_MAX:  &quot; &lt;&lt; UINT_MAX &lt;&lt; endl;
+
+    cout &lt;&lt; &quot;\n=== Floating Point Limits ===&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;FLT_MIN: &quot; &lt;&lt; FLT_MIN &lt;&lt; endl;
+    cout &lt;&lt; &quot;FLT_MAX: &quot; &lt;&lt; FLT_MAX &lt;&lt; endl;
+    cout &lt;&lt; &quot;DBL_MIN: &quot; &lt;&lt; DBL_MIN &lt;&lt; endl;
+    cout &lt;&lt; &quot;DBL_MAX: &quot; &lt;&lt; DBL_MAX &lt;&lt; endl;
+    cout &lt;&lt; &quot;FLT_DIG (decimal digits): &quot; &lt;&lt; FLT_DIG &lt;&lt; endl;
+    cout &lt;&lt; &quot;DBL_DIG (decimal digits): &quot; &lt;&lt; DBL_DIG &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">The headers <code>&lt;climits&gt;</code> and <code>&lt;cfloat&gt;</code> define macros for the minimum and maximum values of each type. <code>FLT_DIG</code> is 6 (float has ~7 significant digits) and <code>DBL_DIG</code> is 15 (double has ~15-16 significant digits). These macros are essential for competitive programming to check if your values fit in a given type.</div><div class="code-example-output">=== Integer Limits ===
+CHAR_MIN: -128
+CHAR_MAX: 127
+SHRT_MIN: -32768
+SHRT_MAX: 32767
+INT_MIN:  -2147483648
+INT_MAX:  2147483647
+LLONG_MIN: -9223372036854775808
+LLONG_MAX: 9223372036854775807
+UINT_MAX:  4294967295
+
+=== Floating Point Limits ===
+FLT_MIN: 1.17549e-38
+FLT_MAX: 3.40282e+38
+DBL_MIN: 2.22507e-308
+DBL_MAX: 1.79769e+308
+FLT_DIG (decimal digits): 6
+DBL_DIG (decimal digits): 15</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Integer Overflow in Multiplication</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int a = 100000;
+    int b = 100000;
+    int result = a * b;  // Overflows!
+    cout &lt;&lt; result &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="error-message">Prints 1410065408 instead of 10000000000 (silent overflow, no compiler error)</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    long long a = 100000;
+    long long b = 100000;
+    long long result = a * b;
+    cout &lt;&lt; result &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="mistake-explanation">100000 x 100000 = 10^10, which exceeds <code>INT_MAX</code> (~2.1 x 10^9). The multiplication happens in <code>int</code> precision and overflows before the result is stored. Even if <code>result</code> is <code>long long</code>, if both operands are <code>int</code>, the multiplication is done in <code>int</code>. At least one operand must be <code>long long</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Assigning a Negative Value to unsigned int</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    unsigned int x = -1;
+    cout &lt;&lt; x &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="error-message">Prints 4294967295 instead of -1 (no compiler error by default)</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = -1;  // Use signed int for negative values
+    cout &lt;&lt; x &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="mistake-explanation">Assigning -1 to an <code>unsigned int</code> wraps around using modular arithmetic: -1 mod 2^32 = 4,294,967,295 (<code>UINT_MAX</code>). This is well-defined in C++ but almost always a bug. Never use unsigned types for values that could be negative. A common trap: <code>string::find()</code> returns <code>string::npos</code> which is an unsigned value.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using = Instead of == and Getting Implicit Conversion</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = 0;
+    if (x = 5) {  // Assignment, not comparison!
+        cout &lt;&lt; &quot;This always executes&quot; &lt;&lt; endl;
+    }
+    cout &lt;&lt; &quot;x is now: &quot; &lt;&lt; x &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="error-message">x becomes 5 (assigned), and the if condition is true (5 is non-zero). No compiler error.</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = 0;
+    if (x == 5) {  // Comparison
+        cout &lt;&lt; &quot;x is 5&quot; &lt;&lt; endl;
+    }
+    cout &lt;&lt; &quot;x is still: &quot; &lt;&lt; x &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="mistake-explanation">In C++, <code>x = 5</code> inside an <code>if</code> is legal -- it assigns 5 to x and then evaluates the result (5, which is truthy). This is a classic bug. Compile with <code>-Wall</code> to get a warning. Some programmers write <code>if (5 == x)</code> (Yoda conditions) to catch this, since <code>5 = x</code> would cause a compiler error.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Floating Point Precision Loss</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    float f = 123456789.0f;
+    cout &lt;&lt; f &lt;&lt; endl;  // Loses precision!
+    return 0;
+}</code></pre></div><div class="error-message">Prints 123456792 instead of 123456789 (float has only ~7 digits of precision)</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    double d = 123456789.0;
+    cout &lt;&lt; d &lt;&lt; endl;  // double has ~15 digits of precision
+    return 0;
+}</code></pre></div><div class="mistake-explanation"><code>float</code> has only about 7 significant decimal digits. The value 123456789 has 9 digits, so precision is lost. <code>double</code> has about 15 significant digits, which is sufficient. In competitive programming, always use <code>double</code> for floating-point values unless you have a specific reason to use <code>float</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Uninitialized Variable Contains Garbage</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x;
+    cout &lt;&lt; x &lt;&lt; endl;  // Garbage value!
+    return 0;
+}</code></pre></div><div class="error-message">Prints unpredictable garbage value (could be anything: 0, -858993460, 32767, etc.)</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = 0;  // Always initialize
+    cout &lt;&lt; x &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="mistake-explanation">Unlike Java (which initializes to 0) or Python (which requires assignment), C++ does NOT initialize local variables. An uninitialized variable contains whatever was previously in that memory location. This is <strong>undefined behavior</strong> and a common source of hard-to-find bugs. Always initialize your variables.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>C++ has primitive types: bool (1 byte), char (1 byte), short (2 bytes), int (4 bytes), long (4/8 bytes), long long (8 bytes), float (4 bytes), double (8 bytes). Use sizeof() to check sizes.</li>
+<li>Variables can be initialized three ways: copy (int x = 10), direct (int x(10)), and brace (int x{10}). Brace initialization prevents narrowing conversions and is the safest form.</li>
+<li>Integer overflow is the most common CP bug. INT_MAX is ~2.1 x 10^9. Use long long for values up to ~9.2 x 10^18. Signed overflow is undefined behavior; unsigned overflow wraps around.</li>
+<li>Implicit casting follows a promotion hierarchy: char -&gt; int -&gt; long -&gt; long long -&gt; float -&gt; double. Narrowing (double to int) silently truncates the decimal part.</li>
+<li>Explicit casting: C-style (int)x works but is not type-safe. static_cast&lt;int&gt;(x) is preferred in modern C++ because it is compile-time checked.</li>
+<li>The auto keyword (C++11) deduces the type from the initializer. The type is still fixed at compile time. auto x = 42 makes x an int, not a dynamic type.</li>
+<li>const prevents modification after initialization. constexpr guarantees compile-time evaluation. Use constexpr for true constants like pi or array sizes.</li>
+<li>Characters are stored as ASCII integers. &#39;A&#39; is 65, &#39;a&#39; is 97, &#39;0&#39; is 48. char arithmetic (c - &#39;0&#39;, c - &#39;A&#39;, c + 32) is used extensively in competitive programming.</li>
+<li>Use &lt;climits&gt; for INT_MAX, INT_MIN, LLONG_MAX and &lt;cfloat&gt; for FLT_MAX, DBL_MAX. These are essential for checking if values fit in a type.</li>
+<li>float has ~7 decimal digits of precision, double has ~15. Always prefer double over float in competitive programming and general use.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/setting-up-and-first-program" class="related-topic-link">Setting Up C++ and Your First Program</a>
+<a href="/resources/cpp/operators-in-cpp" class="related-topic-link">Operators in C++</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/setting-up-and-first-program" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Setting Up C++ and Your First Program</span>
+        </a>
+            <a href="/resources/cpp/operators-in-cpp" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Operators in C++</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/variables-and-data-types/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

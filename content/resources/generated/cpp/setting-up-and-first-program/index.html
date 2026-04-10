@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting Up C++ and Your First Program - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Install a C++ compiler, set up an IDE, and write your first program with cout, cin, and the main function.">
+    <meta name="keywords" content="setting up c++ and your first program, c++ tutorial, c++ setting up c++ and your first program, learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/setting-up-and-first-program">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/setting-up-and-first-program">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/setting-up-and-first-program">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/setting-up-and-first-program">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/setting-up-and-first-program">
+    <meta property="og:title" content="Setting Up C++ and Your First Program - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Install a C++ compiler, set up an IDE, and write your first program with cout, cin, and the main function.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/setting-up-and-first-program">
+    <meta name="twitter:title" content="Setting Up C++ and Your First Program - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Install a C++ compiler, set up an IDE, and write your first program with cout, cin, and the main function.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Setting Up C++ and Your First Program",
+    "description": "Install a C++ compiler, set up an IDE, and write your first program with cout, cin, and the main function.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/setting-up-and-first-program"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/setting-up-and-first-program"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Setting Up C++ and Your First Program",
+        "item": "https://learn.modernagecoders.com/resources/cpp/setting-up-and-first-program"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting the Semicolon",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every statement in C++ must end with a semicolon. The compiler error often points to the line AFTER the missing semicolon, which confuses beginners. In this case, the error says there is a problem before the second <code>cout</code>, but the actual fix is adding <code>;</code> to the first line."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Writing Main Instead of main",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "C++ is case-sensitive. The entry point must be exactly <code>main</code> (all lowercase). <code>Main</code>, <code>MAIN</code>, or <code>mAiN</code> are all different identifiers and will not be recognized as the program entry point. The linker will report that it cannot find <code>main</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using cin to Read Full Name (Gets Only First Word)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>cin &gt;&gt;</code> reads until the first whitespace character. To read an entire line including spaces, use <code>getline(cin, name)</code>. This is covered in detail in Chapter 5, but it is important to know early that <code>cin &gt;&gt;</code> has this limitation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Missing #include <string> When Using std::string",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "While many compilers include <code>&lt;string&gt;</code> implicitly through <code>&lt;iostream&gt;</code>, this is not guaranteed by the standard. Always explicitly include <code>#include &lt;string&gt;</code> when using <code>std::string</code>. Relying on implicit includes makes your code non-portable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Single Quotes for Strings",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In C++, single quotes <code>'</code> are for <strong>single characters</strong> only (e.g., <code>'A'</code>, <code>'5'</code>, <code>'\\n'</code>). Double quotes <code>\"</code> are for <strong>strings</strong> (sequences of characters). <code>'Hello'</code> is a multi-character literal, which has implementation-defined behavior and will likely print a garbage integer value instead of the word Hello."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Setting Up C++ and Your First Program</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 2</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">22 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Setting Up C++ and Your First Program</h1>
+            <a href="/resources/cpp/setting-up-and-first-program/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>Setting Up Your C++ Environment</h2><p>Before you can write and run C++ programs, you need two things: a <strong>text editor or IDE</strong> to write code, and a <strong>compiler</strong> to convert your code into an executable program. Unlike Python or JavaScript where you can run code with just an interpreter, C++ requires compilation -- your source code must be translated into machine code before it can run.</p><p>This chapter walks you through installing a C++ compiler on any operating system, setting up an editor, and writing your very first program. By the end, you will be able to write, compile, and run C++ programs from your terminal.</p><h3>What You Need</h3><table><tr><th>Component</th><th>Purpose</th><th>Recommendation</th></tr><tr><td>Compiler</td><td>Converts C++ source code to executable</td><td>g++ (part of GCC)</td></tr><tr><td>Text Editor / IDE</td><td>Write and manage code</td><td>VS Code with C/C++ extension</td></tr><tr><td>Terminal</td><td>Run compilation commands</td><td>Built-in terminal in VS Code</td></tr></table>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Does Setup Matter?</h2><p>Many beginners skip environment setup and use online compilers exclusively. While online compilers are fine for learning basics, understanding the local setup process is critical for several reasons:</p><h3>1. Real-World Development</h3><p>No professional developer uses an online compiler. Real projects have multiple files, libraries, build systems (Make, CMake), and debuggers. Setting up a local environment teaches you the fundamentals of how software development actually works.</p><h3>2. Competitive Programming</h3><p>In competitions like ICPC and Google Code Jam, you often code locally and submit files. A properly configured local setup with fast compilation and testing saves crucial minutes during contests.</p><h3>3. Debugging</h3><p>Online compilers give you limited error information. A local setup with a debugger (GDB, LLDB) lets you step through code line by line, inspect variables, and find bugs efficiently.</p><h3>4. Understanding the Toolchain</h3><p>Knowing what g++ does, what flags it accepts, and how compilation works makes you a better programmer. When you get a "linker error" or "undefined reference," you will know what it means and how to fix it.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>Installing g++ on Different Platforms</h3><h4>Windows (MinGW-w64)</h4><p>Windows does not come with a C++ compiler. The most popular free option is <strong>MinGW-w64</strong>, which provides g++ for Windows:</p><ol><li>Download the MinGW-w64 installer from <code>https://www.mingw-w64.org/</code> or install via MSYS2.</li><li>During installation, select <code>x86_64</code> architecture and <code>posix</code> threads.</li><li>Add the <code>bin</code> directory to your system's PATH environment variable (e.g., <code>C:\mingw64\bin</code>).</li><li>Open Command Prompt and verify: <code>g++ --version</code>.</li></ol><p>Alternatively, install via <strong>MSYS2</strong>: run <code>pacman -S mingw-w64-x86_64-gcc</code> in the MSYS2 terminal.</p><h4>macOS</h4><p>macOS provides Clang (which is compatible with g++) via Xcode Command Line Tools:</p><ol><li>Open Terminal and run: <code>xcode-select --install</code></li><li>Verify: <code>g++ --version</code> (this actually invokes Clang on macOS, but it is fully compatible)</li></ol><h4>Linux (Ubuntu/Debian)</h4><p>Most Linux distributions have g++ available in their package manager:</p><ol><li>Open Terminal and run: <code>sudo apt update && sudo apt install g++</code></li><li>Verify: <code>g++ --version</code></li></ol><h3>Compiling from the Terminal</h3><p>The basic compilation command is:</p><pre><code>g++ filename.cpp -o outputname</code></pre><p>This compiles <code>filename.cpp</code> and creates an executable called <code>outputname</code>. To run it:</p><ul><li>Linux/macOS: <code>./outputname</code></li><li>Windows: <code>outputname.exe</code> or just <code>outputname</code></li></ul><p>Useful g++ flags:</p><table><tr><th>Flag</th><th>Purpose</th></tr><tr><td><code>-o name</code></td><td>Name the output executable</td></tr><tr><td><code>-std=c++17</code></td><td>Use C++17 standard</td></tr><tr><td><code>-Wall</code></td><td>Enable all common warnings</td></tr><tr><td><code>-Wextra</code></td><td>Enable extra warnings</td></tr><tr><td><code>-g</code></td><td>Include debug information (for GDB)</td></tr><tr><td><code>-O2</code></td><td>Optimization level 2 (for competitive programming)</td></tr><tr><td><code>-fsanitize=address</code></td><td>Detect memory errors at runtime</td></tr></table><h3>IDEs and Editors for C++</h3><table><tr><th>Editor/IDE</th><th>Pros</th><th>Best For</th></tr><tr><td>VS Code + C/C++ Extension</td><td>Free, lightweight, excellent IntelliSense, integrated terminal</td><td>All levels</td></tr><tr><td>Code::Blocks</td><td>Free, simple, built-in compiler on Windows</td><td>Beginners</td></tr><tr><td>CLion (JetBrains)</td><td>Best debugger, CMake integration, refactoring tools</td><td>Serious projects (paid, free for students)</td></tr><tr><td>Vim/Neovim</td><td>Terminal-based, extremely fast, programmable</td><td>Advanced users, competitive programming</td></tr></table><h3>Anatomy of a C++ Program</h3><p>Every C++ program has a specific structure. Let us break down each part:</p><h4>1. #include &lt;iostream&gt;</h4><p>This is a <strong>preprocessor directive</strong>. It tells the preprocessor to include the contents of the <code>&lt;iostream&gt;</code> header file. This header provides <code>cout</code> (console output), <code>cin</code> (console input), <code>endl</code> (newline + flush), and other I/O facilities. Without this line, you cannot use any of these.</p><h4>2. using namespace std;</h4><p>The C++ standard library puts everything inside the <code>std</code> namespace to avoid name conflicts. Without this line, you would need to write <code>std::cout</code>, <code>std::cin</code>, <code>std::endl</code> everywhere. The <code>using namespace std;</code> directive imports all names from the <code>std</code> namespace into the global scope, so you can write just <code>cout</code>.</p><h4>3. int main()</h4><p>This is the <strong>entry point</strong> of every C++ program. When you run the executable, execution starts from the first line inside <code>main()</code>. The <code>int</code> return type means main returns an integer to the operating system. <code>return 0;</code> means success; any non-zero value means an error occurred.</p><h4>4. Statements and Semicolons</h4><p>Every statement in C++ must end with a <strong>semicolon</strong> (<code>;</code>). This is how the compiler knows where one statement ends and the next begins. Forgetting a semicolon is the single most common syntax error for beginners.</p><h4>5. Comments</h4><p>C++ supports two types of comments:</p><ul><li><code>//</code> Single-line comment: everything after <code>//</code> on that line is ignored by the compiler.</li><li><code>/* ... */</code> Multi-line comment: everything between <code>/*</code> and <code>*/</code> is ignored, even across multiple lines.</li></ul><h4>6. cout and the Insertion Operator (&lt;&lt;)</h4><p><code>cout</code> stands for "character output" and sends data to the standard output (your terminal). The <code>&lt;&lt;</code> operator is called the <strong>insertion operator</strong> because it inserts data into the output stream. You can chain multiple <code>&lt;&lt;</code> operators to output several values in sequence.</p><h4>7. cin and the Extraction Operator (&gt;&gt;)</h4><p><code>cin</code> stands for "character input" and reads data from the standard input (your keyboard). The <code>&gt;&gt;</code> operator is called the <strong>extraction operator</strong> because it extracts data from the input stream and stores it in a variable. <code>cin &gt;&gt;</code> reads until the first whitespace character (space, tab, or newline).</p><h4>8. endl vs \n</h4><p>Both <code>endl</code> and <code>'\n'</code> produce a newline. The difference: <code>endl</code> also <strong>flushes the output buffer</strong>, forcing all buffered data to be written immediately. <code>'\n'</code> just adds a newline without flushing. In competitive programming, use <code>'\n'</code> because buffer flushing is slow when done repeatedly.</p><h4>9. Case Sensitivity</h4><p>C++ is <strong>case-sensitive</strong>. <code>Main</code> is not the same as <code>main</code>. <code>Cout</code> is not the same as <code>cout</code>. <code>Int</code> is not the same as <code>int</code>. Every keyword and identifier must match its exact casing.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Hello World - The Complete First Program</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;Hello, World!&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">This is the canonical first C++ program. Line 1 includes the iostream header for I/O. Line 2 imports the std namespace. Line 4 declares the main function. Line 5 prints <code>Hello, World!</code> followed by a newline. Line 6 returns 0 to indicate success. Compile with <code>g++ hello.cpp -o hello</code> and run with <code>./hello</code>.</div><div class="code-example-output">Hello, World!</div></div>
+<div class="code-example"><div class="code-example-title">Multiple cout Statements and Chaining</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    // Separate cout statements
+    cout &lt;&lt; &quot;Name: Rohan&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Age: 20&quot; &lt;&lt; endl;
+
+    // Chaining multiple values in one cout
+    cout &lt;&lt; &quot;Branch: &quot; &lt;&lt; &quot;CSE&quot; &lt;&lt; &quot;, Year: &quot; &lt;&lt; 3 &lt;&lt; endl;
+
+    // Mixing strings and expressions
+    cout &lt;&lt; &quot;2 + 3 = &quot; &lt;&lt; 2 + 3 &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">You can have multiple <code>cout</code> statements, or chain multiple values in a single <code>cout</code> using the <code>&lt;&lt;</code> operator. String literals go in double quotes. Numbers and expressions are printed as their values -- <code>2 + 3</code> is evaluated to <code>5</code> before printing.</div><div class="code-example-output">Name: Rohan
+Age: 20
+Branch: CSE, Year: 3
+2 + 3 = 5</div></div>
+<div class="code-example"><div class="code-example-title">Reading Input with cin</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int age;
+    string name;
+    float gpa;
+
+    cout &lt;&lt; &quot;Enter your name: &quot;;
+    cin &gt;&gt; name;
+
+    cout &lt;&lt; &quot;Enter your age: &quot;;
+    cin &gt;&gt; age;
+
+    cout &lt;&lt; &quot;Enter your GPA: &quot;;
+    cin &gt;&gt; gpa;
+
+    cout &lt;&lt; &quot;\nHello, &quot; &lt;&lt; name &lt;&lt; &quot;!&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Age: &quot; &lt;&lt; age &lt;&lt; &quot;, GPA: &quot; &lt;&lt; gpa &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>cin &gt;&gt;</code> reads one token (separated by whitespace) from the keyboard and stores it in the variable. The variable type determines how the input is parsed: <code>int</code> reads an integer, <code>float</code> reads a decimal number, <code>string</code> reads one word. Note: <code>cin &gt;&gt; name</code> reads only the first word. If you type "Rahul Sharma", only "Rahul" is stored.</div><div class="code-example-output">Enter your name: Ankit
+Enter your age: 21
+Enter your GPA: 8.7
+
+Hello, Ankit!
+Age: 21, GPA: 8.7</div></div>
+<div class="code-example"><div class="code-example-title">Comments - Single Line and Multi Line</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+// This is a single-line comment
+// The compiler ignores everything after //
+
+/*
+  This is a multi-line comment.
+  It can span multiple lines.
+  Useful for explaining complex logic
+  or temporarily disabling blocks of code.
+*/
+
+int main() {
+    // Print a greeting
+    cout &lt;&lt; &quot;Welcome to C++&quot; &lt;&lt; endl;  // inline comment
+
+    /* cout &lt;&lt; &quot;This line is commented out&quot;; */
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Single-line comments start with <code>//</code> and extend to the end of the line. Multi-line comments start with <code>/*</code> and end with <code>*/</code>. Comments are completely ignored by the compiler. Use them to explain your logic, document your code, or temporarily disable code during debugging. Inline comments (after code on the same line) are common for brief explanations.</div><div class="code-example-output">Welcome to C++</div></div>
+<div class="code-example"><div class="code-example-title">Without &#39;using namespace std&#39; - Using std:: Prefix</div><pre><code class="language-python">#include &lt;iostream&gt;
+
+int main() {
+    std::cout &lt;&lt; &quot;Method 1: Using std:: prefix&quot; &lt;&lt; std::endl;
+
+    // You can also import specific names
+    using std::cout;
+    using std::endl;
+
+    cout &lt;&lt; &quot;Method 2: Selective using&quot; &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Without <code>using namespace std;</code>, you must prefix every standard library name with <code>std::</code>. Alternatively, you can import specific names with <code>using std::cout;</code>. This selective approach is preferred in large projects because it avoids name collisions while keeping code readable. In competitive programming, <code>using namespace std;</code> is fine.</div><div class="code-example-output">Method 1: Using std:: prefix
+Method 2: Selective using</div></div>
+<div class="code-example"><div class="code-example-title">Multiple Inputs on One Line</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int a, b, c;
+
+    cout &lt;&lt; &quot;Enter three numbers separated by spaces: &quot;;
+    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+
+    cout &lt;&lt; &quot;You entered: &quot; &lt;&lt; a &lt;&lt; &quot;, &quot; &lt;&lt; b &lt;&lt; &quot;, &quot; &lt;&lt; c &lt;&lt; endl;
+    cout &lt;&lt; &quot;Sum: &quot; &lt;&lt; a + b + c &lt;&lt; endl;
+    cout &lt;&lt; &quot;Average: &quot; &lt;&lt; (a + b + c) / 3.0 &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">You can chain multiple <code>&gt;&gt;</code> operators to read multiple values in one statement. <code>cin &gt;&gt; a &gt;&gt; b &gt;&gt; c</code> reads three integers separated by whitespace (spaces, tabs, or newlines). Note the use of <code>3.0</code> instead of <code>3</code> in the average calculation -- dividing by <code>3.0</code> (a double) forces floating-point division. If we used <code>3</code>, integer division would truncate the decimal part.</div><div class="code-example-output">Enter three numbers separated by spaces: 10 20 30
+You entered: 10, 20, 30
+Sum: 60
+Average: 20</div></div>
+<div class="code-example"><div class="code-example-title">Escape Sequences in C++</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;Newline: Hello\nWorld&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Tab: Col1\tCol2\tCol3&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Backslash: C:\\Users\\Priya&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Double quote: She said \&quot;Hello\&quot;&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Single quote: It\&#39;s working&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Null character size: &quot; &lt;&lt; sizeof(&#39;\0&#39;) &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Escape sequences start with a backslash <code>\</code> and represent special characters. <code>\n</code> is newline, <code>\t</code> is tab, <code>\\</code> is a literal backslash, <code>\"</code> is a literal double quote inside a string, <code>\'</code> is a literal single quote, and <code>\0</code> is the null character (used to terminate C-strings). These work inside both string literals and character literals.</div><div class="code-example-output">Newline: Hello
+World
+Tab: Col1	Col2	Col3
+Backslash: C:\Users\Priya
+Double quote: She said &quot;Hello&quot;
+Single quote: It&#39;s working
+Null character size: 1</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting the Semicolon</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;Hello&quot; &lt;&lt; endl
+    cout &lt;&lt; &quot;World&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="error-message">error: expected &#39;;&#39; before &#39;cout&#39;</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;Hello&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;World&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="mistake-explanation">Every statement in C++ must end with a semicolon. The compiler error often points to the line AFTER the missing semicolon, which confuses beginners. In this case, the error says there is a problem before the second <code>cout</code>, but the actual fix is adding <code>;</code> to the first line.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Writing Main Instead of main</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int Main() {
+    cout &lt;&lt; &quot;Hello&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="error-message">undefined reference to &#39;main&#39; (linker error)</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;Hello&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="mistake-explanation">C++ is case-sensitive. The entry point must be exactly <code>main</code> (all lowercase). <code>Main</code>, <code>MAIN</code>, or <code>mAiN</code> are all different identifiers and will not be recognized as the program entry point. The linker will report that it cannot find <code>main</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using cin to Read Full Name (Gets Only First Word)</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    string name;
+    cout &lt;&lt; &quot;Enter your full name: &quot;;
+    cin &gt;&gt; name;  // Only reads first word!
+    cout &lt;&lt; &quot;Hello, &quot; &lt;&lt; name &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="error-message">No error, but if user types &#39;Rahul Sharma&#39;, only &#39;Rahul&#39; is stored in name.</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+int main() {
+    string name;
+    cout &lt;&lt; &quot;Enter your full name: &quot;;
+    getline(cin, name);  // Reads the entire line
+    cout &lt;&lt; &quot;Hello, &quot; &lt;&lt; name &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="mistake-explanation"><code>cin &gt;&gt;</code> reads until the first whitespace character. To read an entire line including spaces, use <code>getline(cin, name)</code>. This is covered in detail in Chapter 5, but it is important to know early that <code>cin &gt;&gt;</code> has this limitation.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Missing #include &lt;string&gt; When Using std::string</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    string name = &quot;Kavya&quot;;
+    cout &lt;&lt; name &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="error-message">May compile on some compilers (because iostream indirectly includes string), but may fail on others with: error: &#39;string&#39; was not declared in this scope</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+int main() {
+    string name = &quot;Kavya&quot;;
+    cout &lt;&lt; name &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="mistake-explanation">While many compilers include <code>&lt;string&gt;</code> implicitly through <code>&lt;iostream&gt;</code>, this is not guaranteed by the standard. Always explicitly include <code>#include &lt;string&gt;</code> when using <code>std::string</code>. Relying on implicit includes makes your code non-portable.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Single Quotes for Strings</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &#39;Hello&#39; &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="error-message">warning: multi-character character constant / unexpected numeric output</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;Hello&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="mistake-explanation">In C++, single quotes <code>'</code> are for <strong>single characters</strong> only (e.g., <code>'A'</code>, <code>'5'</code>, <code>'\n'</code>). Double quotes <code>"</code> are for <strong>strings</strong> (sequences of characters). <code>'Hello'</code> is a multi-character literal, which has implementation-defined behavior and will likely print a garbage integer value instead of the word Hello.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>To write C++ programs, you need a compiler (g++) and an editor (VS Code recommended). Install MinGW-w64 on Windows, use xcode-select --install on macOS, or sudo apt install g++ on Linux.</li>
+<li>Compile with: g++ filename.cpp -o output. Run with: ./output (Linux/Mac) or output.exe (Windows). Useful flags: -std=c++17, -Wall, -O2.</li>
+<li>#include &lt;iostream&gt; is required for cout and cin. It is a preprocessor directive that copies the iostream header into your file before compilation.</li>
+<li>&#39;using namespace std;&#39; lets you write cout instead of std::cout. In large projects, prefer std:: prefix or selective &#39;using std::cout;&#39; to avoid name collisions.</li>
+<li>int main() is the entry point of every C++ program. It must return int. return 0 means success; non-zero means error.</li>
+<li>cout &lt;&lt; sends data to standard output (screen). cin &gt;&gt; reads data from standard input (keyboard). The &lt;&lt; and &gt;&gt; operators can be chained.</li>
+<li>endl inserts a newline AND flushes the buffer. &#39;\n&#39; inserts only a newline (faster). Use &#39;\n&#39; in competitive programming for better performance.</li>
+<li>C++ has two comment styles: // for single-line and /* */ for multi-line. Comments are ignored by the compiler.</li>
+<li>C++ is case-sensitive: main is not Main. Strings use double quotes (&quot;text&quot;). Single characters use single quotes (&#39;A&#39;).</li>
+<li>Every statement must end with a semicolon (;). Forgetting semicolons is the most common beginner error.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/introduction-to-cpp" class="related-topic-link">Introduction to C++</a>
+<a href="/resources/cpp/variables-and-data-types" class="related-topic-link">Variables, Data Types, and Type Casting</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/introduction-to-cpp" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Introduction to C++</span>
+        </a>
+            <a href="/resources/cpp/variables-and-data-types" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Variables, Data Types, and Type Casting</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/setting-up-and-first-program/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

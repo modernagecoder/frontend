@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Dynamic Memory Allocation (new, delete) | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="54+ practice questions on Dynamic Memory Allocation (new, delete) in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="dynamic memory allocation (new, delete) practice, c++ questions, c++ practice problems, dynamic memory allocation (new, delete) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation/practice">
+    <meta property="og:title" content="Practice Questions - Dynamic Memory Allocation (new, delete) | C++ | Modern Age Coders">
+    <meta property="og:description" content="54+ practice questions on Dynamic Memory Allocation (new, delete) in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation/practice">
+    <meta name="twitter:title" content="Practice Questions - Dynamic Memory Allocation (new, delete) | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="54+ practice questions on Dynamic Memory Allocation (new, delete) in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Dynamic Memory Allocation (new, delete)",
+    "description": "54+ practice questions on Dynamic Memory Allocation (new, delete) in C++.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Dynamic Memory Allocation (new, delete)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Dynamic Memory Allocation (new, delete)",
+        "item": "https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/dynamic-memory-allocation">Dynamic Memory Allocation (new, delete)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 12</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">54 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Dynamic Memory Allocation (new, delete)</h1>
+            <a href="/resources/cpp/dynamic-memory-allocation" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">5</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>int* p = new int(42);
+cout << *p;
+delete p;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">new int(42) allocates an int on the heap and initializes it to 42.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>42</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int* arr = new int[3]();
+cout << arr[0] << " " << arr[1] << " " << arr[2];
+delete[] arr;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">The parentheses () after new int[3] value-initialize all elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>0 0 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int* p = new int(10);
+*p += 5;
+cout << *p;
+delete p;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">*p += 5 adds 5 to the value stored at the heap location.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 100;
+int* p = &x;
+int* q = new int(200);
+cout << *p << " " << *q;
+delete q;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">p points to a stack variable; q points to a heap variable.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>100 200</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int* arr = new int[5]{10, 20, 30, 40, 50};
+int sum = 0;
+for (int i = 0; i < 5; i++) {
+    sum += arr[i];
+}
+cout << sum;
+delete[] arr;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Sum all five elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>150</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Box {
+public:
+    int value;
+    Box(int v) : value(v) {
+        cout << "Box(" << v << ") ";
+    }
+    ~Box() {
+        cout << "~Box(" << value << ") ";
+    }
+};
+
+Box* b = new Box(42);
+cout << b->value << " ";
+delete b;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">new calls the constructor, delete calls the destructor.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Box(42) 42 ~Box(42) </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int** matrix = new int*[2];
+matrix[0] = new int[2]{1, 2};
+matrix[1] = new int[2]{3, 4};
+cout << matrix[0][0] + matrix[1][1];
+
+delete[] matrix[0];
+delete[] matrix[1];
+delete[] matrix;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">matrix[0][0] is the top-left, matrix[1][1] is the bottom-right.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int* p = new int(10);
+int* q = p;         // q points to same memory
+*q = 20;
+cout << *p << endl;
+delete p;
+// delete q;  // Would this be correct?</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Both p and q point to the same heap memory. Only one delete is needed.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>20</code><br>(Deleting q would be a double-free error since p already freed the memory)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Counter {
+    static int count;
+public:
+    Counter() { count++; cout << "+" << count << " "; }
+    ~Counter() { cout << "-" << count << " "; count--; }
+};
+int Counter::count = 0;
+
+Counter* arr = new Counter[3];
+cout << "| ";
+delete[] arr;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">new[] calls the constructor for each element. delete[] calls the destructor for each element in reverse order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>+1 +2 +3 | -3 -2 -1 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include <memory>
+using namespace std;
+
+auto p1 = make_shared<int>(10);
+cout << "count: " << p1.use_count() << endl;
+{
+    auto p2 = p1;
+    *p2 += 5;
+    cout << "count: " << p1.use_count() << endl;
+    cout << "value: " << *p1 << endl;
+}
+cout << "count: " << p1.use_count() << endl;
+cout << "value: " << *p1 << endl;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">shared_ptr uses reference counting. Copying increments the count; destruction decrements it.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>count: 1</code><br><code>count: 2</code><br><code>value: 15</code><br><code>count: 1</code><br><code>value: 15</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between stack memory and heap memory?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Think about lifetime, speed, size, and who manages the memory.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><strong>Stack:</strong> Automatic allocation/deallocation, very fast, limited size (1-8 MB), variables destroyed at scope end. <strong>Heap:</strong> Manual allocation (new) and deallocation (delete), slower, much larger (limited by system RAM), variables persist until explicitly freed.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is a memory leak? How does it happen?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Think about what happens when you lose the pointer to heap memory.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">A memory leak occurs when dynamically allocated memory (via <code>new</code>) is never freed (via <code>delete</code>). It happens when: (1) a pointer to heap memory goes out of scope without delete, (2) a pointer is reassigned without freeing the old memory, (3) an exception is thrown before delete is reached.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int* p = new int;
+*p = 7;
+int* q = new int;
+*q = 3;
+cout << *p + *q;
+delete p;
+delete q;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Each new allocates a separate int. Add the dereferenced values.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int* createArray(int size) {
+    int* arr = new int[size];
+    for (int i = 0; i < size; i++)
+        arr[i] = i * 2;
+    return arr;
+}
+
+int* data = createArray(4);
+for (int i = 0; i < 4; i++)
+    cout << data[i] << " ";
+delete[] data;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">The function allocates on the heap and returns the pointer. The caller frees it.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>0 2 4 6 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is RAII and why is it important in C++?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Think about tying resource lifetime to object lifetime.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><strong>RAII (Resource Acquisition Is Initialization)</strong> means acquiring resources in the constructor and releasing them in the destructor. When the object goes out of scope, the destructor runs automatically, ensuring cleanup even if an exception is thrown. This eliminates memory leaks, file handle leaks, and lock leaks.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Tracker {
+public:
+    string name;
+    Tracker(string n) : name(n) { cout << "C:" << name << " "; }
+    ~Tracker() { cout << "D:" << name << " "; }
+};
+
+Tracker t1("stack");
+cout << "| ";
+Tracker* t2 = new Tracker("heap");
+cout << "| ";
+delete t2;
+cout << "| ";</code></pre><p>(Assume this is inside main, and t1 is a local variable)</p></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Stack objects are destroyed at scope end; heap objects are destroyed at delete.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>C:stack | C:heap | D:heap | </code><br>(D:stack would print after main returns)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include <memory>
+using namespace std;
+
+auto p1 = make_unique<int>(100);
+cout << *p1 << endl;
+auto p2 = move(p1);       // transfer ownership
+cout << *p2 << endl;
+if (p1 == nullptr)
+    cout << "p1 is null" << endl;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">unique_ptr cannot be copied but can be moved. After move, the source becomes nullptr.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>100</code><br><code>100</code><br><code>p1 is null</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int** arr = new int*[3];
+for (int i = 0; i < 3; i++) {
+    arr[i] = new int(i * 10);
+}
+for (int i = 0; i < 3; i++) {
+    cout << *arr[i] << " ";
+}
+for (int i = 0; i < 3; i++) {
+    delete arr[i];
+}
+delete[] arr;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">arr is an array of pointers, each pointing to a single int on the heap.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>0 10 20 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the difference between unique_ptr, shared_ptr, and weak_ptr?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about ownership semantics.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><strong>unique_ptr:</strong> Sole ownership. Cannot be copied, only moved. Memory freed when it goes out of scope. Use for exclusive ownership. <strong>shared_ptr:</strong> Shared ownership via reference counting. Memory freed when the last shared_ptr is destroyed. Use when multiple parts of code need the same resource. <strong>weak_ptr:</strong> Non-owning observer of a shared_ptr. Does not affect the reference count. Used to break circular references.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which operator is used to allocate memory on the heap in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> malloc</li><li><span class="mcq-option-label">B.</span> alloc</li><li><span class="mcq-option-label">C.</span> new</li><li><span class="mcq-option-label">D.</span> create</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>new</code> operator allocates memory on the heap in C++. <code>malloc</code> (A) is a C function that also works in C++ but does not call constructors. <code>alloc</code> (B) and <code>create</code> (D) are not C++ operators.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What must you use to free memory allocated with new int[10]?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> delete</li><li><span class="mcq-option-label">B.</span> delete[]</li><li><span class="mcq-option-label">C.</span> free</li><li><span class="mcq-option-label">D.</span> remove</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>new[]</code> must be paired with <code>delete[]</code>. Plain <code>delete</code> (A) is for single allocations. <code>free</code> (C) is for C's malloc. <code>remove</code> (D) is not a memory management operator.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Where is dynamically allocated memory stored?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Stack</li><li><span class="mcq-option-label">B.</span> Heap</li><li><span class="mcq-option-label">C.</span> Code segment</li><li><span class="mcq-option-label">D.</span> Register</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Memory allocated with <code>new</code> resides on the heap. Local variables go on the stack (A). The code segment (C) stores compiled instructions. Registers (D) are CPU storage, not programmer-accessible.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is a memory leak?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Accessing freed memory</li><li><span class="mcq-option-label">B.</span> Allocated memory that is never freed</li><li><span class="mcq-option-label">C.</span> A null pointer dereference</li><li><span class="mcq-option-label">D.</span> Using stack memory for large allocations</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> A memory leak is dynamically allocated memory that the program never frees. Accessing freed memory (A) is a dangling pointer issue. Null pointer dereference (C) is a different bug. Using stack for large data (D) risks stack overflow, not a leak.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does new int[5]() do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Allocates 5 ints with garbage values</li><li><span class="mcq-option-label">B.</span> Allocates 5 ints all initialized to 0</li><li><span class="mcq-option-label">C.</span> Allocates 5 ints all initialized to 5</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> The parentheses <code>()</code> after the array size perform value-initialization, which initializes all elements to 0 for primitive types. Without the parentheses, elements would be uninitialized (A).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What happens if you call delete on a stack variable?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The variable is freed</li><li><span class="mcq-option-label">B.</span> Nothing happens</li><li><span class="mcq-option-label">C.</span> Undefined behavior</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> Calling <code>delete</code> on memory not allocated with <code>new</code> is undefined behavior. It can corrupt the heap allocator and crash the program. The compiler does not catch this error (D is false).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is the typical size of the stack in a C++ program?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1 KB</li><li><span class="mcq-option-label">B.</span> 1-8 MB</li><li><span class="mcq-option-label">C.</span> 1 GB</li><li><span class="mcq-option-label">D.</span> Unlimited</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> The default stack size is typically 1-8 MB depending on the operating system and compiler. Exceeding this limit causes a stack overflow. The heap (not the stack) can grow to use most available system memory.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What does RAII stand for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Runtime Allocation Is Instant</li><li><span class="mcq-option-label">B.</span> Resource Allocation Is Inherited</li><li><span class="mcq-option-label">C.</span> Resource Acquisition Is Initialization</li><li><span class="mcq-option-label">D.</span> Runtime Acquisition Is Initialization</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> RAII (Resource Acquisition Is Initialization) ties resource lifetime to object lifetime. Resources are acquired in the constructor and released in the destructor, ensuring automatic cleanup.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What happens if new fails to allocate memory?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Returns nullptr</li><li><span class="mcq-option-label">B.</span> Returns NULL</li><li><span class="mcq-option-label">C.</span> Throws std::bad_alloc exception</li><li><span class="mcq-option-label">D.</span> Silently returns garbage</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> By default, <code>new</code> throws <code>std::bad_alloc</code> if allocation fails. If you want nullptr instead, use the nothrow version: <code>int* p = new(nothrow) int;</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which smart pointer allows shared ownership of a resource?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> unique_ptr</li><li><span class="mcq-option-label">B.</span> shared_ptr</li><li><span class="mcq-option-label">C.</span> weak_ptr</li><li><span class="mcq-option-label">D.</span> auto_ptr</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>shared_ptr</code> uses reference counting to allow multiple pointers to share ownership. <code>unique_ptr</code> (A) is exclusive ownership. <code>weak_ptr</code> (C) is a non-owning observer. <code>auto_ptr</code> (D) is deprecated since C++11.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is wrong with this code?<br><pre><code>unique_ptr<int> p1 = make_unique<int>(10);
+unique_ptr<int> p2 = p1;</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> make_unique is not valid C++</li><li><span class="mcq-option-label">B.</span> unique_ptr cannot be copied</li><li><span class="mcq-option-label">C.</span> unique_ptr cannot hold int</li><li><span class="mcq-option-label">D.</span> There is no error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>unique_ptr</code> has exclusive ownership and its copy constructor is deleted. You must use <code>move</code>: <code>unique_ptr<int> p2 = move(p1);</code>. After the move, p1 becomes nullptr.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">In what order should a dynamic 2D array (int**) be deallocated?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> delete[] the outer array first, then each row</li><li><span class="mcq-option-label">B.</span> delete[] each row first, then the outer array</li><li><span class="mcq-option-label">C.</span> Use a single delete[] on the outer array</li><li><span class="mcq-option-label">D.</span> Order does not matter</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Each row must be freed first (<code>delete[] matrix[i]</code>), then the outer array (<code>delete[] matrix</code>). If you free the outer array first (A), you lose the pointers to the rows and cannot free them.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is double-free?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Calling delete on a null pointer</li><li><span class="mcq-option-label">B.</span> Calling delete twice on the same heap memory</li><li><span class="mcq-option-label">C.</span> Calling delete[] instead of delete</li><li><span class="mcq-option-label">D.</span> Allocating memory twice with new</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> Double-free is calling <code>delete</code> on the same pointer twice. It is undefined behavior that can corrupt the heap allocator. Deleting a null pointer (A) is safe and does nothing.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Dynamic Array with User Input</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a program that reads n from the user, dynamically allocates an array of n integers, reads n values from the user, prints them in reverse order, and properly frees the memory.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">4
+10 20 30 40</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Reverse: 40 30 20 10</div>
+                </div><div class="challenge-constraints">Use new[] to allocate and delete[] to free. Do not use vector.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int n;
+    cin &gt;&gt; n;
+    int* arr = new int[n];
+    for (int i = 0; i &lt; n; i++) cin &gt;&gt; arr[i];
+    cout &lt;&lt; &quot;Reverse: &quot;;
+    for (int i = n - 1; i &gt;= 0; i--) cout &lt;&lt; arr[i] &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+    delete[] arr;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Dynamic String Array</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Dynamically allocate an array of n strings, read names from the user, and print them with their index. Free the memory properly.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">3
+Arjun Priya Kavitha</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">0: Arjun
+1: Priya
+2: Kavitha</div>
+                </div><div class="challenge-constraints">Use new string[n] and delete[]. Use getline or cin for input.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+int main() {
+    int n;
+    cin &gt;&gt; n;
+    string* names = new string[n];
+    for (int i = 0; i &lt; n; i++) cin &gt;&gt; names[i];
+    for (int i = 0; i &lt; n; i++) cout &lt;&lt; i &lt;&lt; &quot;: &quot; &lt;&lt; names[i] &lt;&lt; endl;
+    delete[] names;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Resizable Array (Manual)</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a class ResizableArray that starts with capacity 4. It has push(int val) which adds an element, doubling capacity if full. It has print() which prints all elements. Use new/delete internally.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(Push 1, 2, 3, 4, 5, 6)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Elements: 1 2 3 4 5 6
+Capacity: 8</div>
+                </div><div class="challenge-constraints">Implement manual resizing using new/delete. Double the capacity when full.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class ResizableArray {
+    int* data;
+    int size;
+    int capacity;
+
+    void resize() {
+        capacity *= 2;
+        int* newData = new int[capacity];
+        for (int i = 0; i &lt; size; i++) newData[i] = data[i];
+        delete[] data;
+        data = newData;
+    }
+
+public:
+    ResizableArray() : size(0), capacity(4) {
+        data = new int[capacity];
+    }
+    ~ResizableArray() { delete[] data; }
+
+    void push(int val) {
+        if (size == capacity) resize();
+        data[size++] = val;
+    }
+
+    void print() {
+        cout &lt;&lt; &quot;Elements: &quot;;
+        for (int i = 0; i &lt; size; i++) cout &lt;&lt; data[i] &lt;&lt; &quot; &quot;;
+        cout &lt;&lt; endl;
+        cout &lt;&lt; &quot;Capacity: &quot; &lt;&lt; capacity &lt;&lt; endl;
+    }
+};
+
+int main() {
+    ResizableArray arr;
+    for (int i = 1; i &lt;= 6; i++) arr.push(i);
+    arr.print();
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Dynamic Matrix Addition</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a program that dynamically allocates two m x n matrices, fills them with user input, computes their sum in a third dynamic matrix, prints the result, and frees all memory.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">2 2
+1 2
+3 4
+5 6
+7 8</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Sum:
+6 8
+10 12</div>
+                </div><div class="challenge-constraints">Use int** for all matrices. Free all memory in reverse order.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int** allocMatrix(int r, int c) {
+    int** m = new int*[r];
+    for (int i = 0; i &lt; r; i++) m[i] = new int[c];
+    return m;
+}
+
+void freeMatrix(int** m, int r) {
+    for (int i = 0; i &lt; r; i++) delete[] m[i];
+    delete[] m;
+}
+
+int main() {
+    int r, c;
+    cin &gt;&gt; r &gt;&gt; c;
+    int** a = allocMatrix(r, c);
+    int** b = allocMatrix(r, c);
+    int** sum = allocMatrix(r, c);
+
+    for (int i = 0; i &lt; r; i++)
+        for (int j = 0; j &lt; c; j++) cin &gt;&gt; a[i][j];
+    for (int i = 0; i &lt; r; i++)
+        for (int j = 0; j &lt; c; j++) cin &gt;&gt; b[i][j];
+    for (int i = 0; i &lt; r; i++)
+        for (int j = 0; j &lt; c; j++) sum[i][j] = a[i][j] + b[i][j];
+
+    cout &lt;&lt; &quot;Sum:&quot; &lt;&lt; endl;
+    for (int i = 0; i &lt; r; i++) {
+        for (int j = 0; j &lt; c; j++) cout &lt;&lt; sum[i][j] &lt;&lt; &quot; &quot;;
+        cout &lt;&lt; endl;
+    }
+
+    freeMatrix(a, r);
+    freeMatrix(b, r);
+    freeMatrix(sum, r);
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Student Database with Dynamic Objects</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a Student class with name and marks. Dynamically allocate an array of n Student objects on the heap, fill with user data, find the topper, and print all students. Free memory properly.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">3
+Rahul 85
+Priya 92
+Arun 78</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">All Students:
+1. Rahul - 85
+2. Priya - 92
+3. Arun - 78
+Topper: Priya (92)</div>
+                </div><div class="challenge-constraints">Use new Student[n] and delete[]. Implement a display() method in the class.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int marks;
+    Student() : name(&quot;&quot;), marks(0) {}
+    Student(string n, int m) : name(n), marks(m) {}
+    void display(int idx) {
+        cout &lt;&lt; idx &lt;&lt; &quot;. &quot; &lt;&lt; name &lt;&lt; &quot; - &quot; &lt;&lt; marks &lt;&lt; endl;
+    }
+};
+
+int main() {
+    int n;
+    cin &gt;&gt; n;
+    Student* students = new Student[n];
+    for (int i = 0; i &lt; n; i++) {
+        string name; int marks;
+        cin &gt;&gt; name &gt;&gt; marks;
+        students[i] = Student(name, marks);
+    }
+
+    cout &lt;&lt; &quot;All Students:&quot; &lt;&lt; endl;
+    for (int i = 0; i &lt; n; i++) students[i].display(i + 1);
+
+    int topIdx = 0;
+    for (int i = 1; i &lt; n; i++)
+        if (students[i].marks &gt; students[topIdx].marks) topIdx = i;
+    cout &lt;&lt; &quot;Topper: &quot; &lt;&lt; students[topIdx].name &lt;&lt; &quot; (&quot; &lt;&lt; students[topIdx].marks &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+
+    delete[] students;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: RAII Wrapper for Dynamic Array</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Implement a SafeArray class that wraps a dynamic int array with RAII. The class should support: constructor(int size), destructor, operator[] for access, size() method, and fill(int value). Demonstrate that memory is freed automatically without explicit delete.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Array created with size 5
+Filled: 42 42 42 42 42
+Modified: 42 42 99 42 42
+Array destroyed (5 elements freed)</div>
+                </div><div class="challenge-constraints">The destructor must free the memory. No manual delete should be needed outside the class.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class SafeArray {
+    int* data;
+    int len;
+public:
+    SafeArray(int n) : len(n), data(new int[n]()) {
+        cout &lt;&lt; &quot;Array created with size &quot; &lt;&lt; n &lt;&lt; endl;
+    }
+    ~SafeArray() {
+        delete[] data;
+        cout &lt;&lt; &quot;Array destroyed (&quot; &lt;&lt; len &lt;&lt; &quot; elements freed)&quot; &lt;&lt; endl;
+    }
+    int&amp; operator[](int i) { return data[i]; }
+    int size() const { return len; }
+    void fill(int val) {
+        for (int i = 0; i &lt; len; i++) data[i] = val;
+    }
+    void print() {
+        for (int i = 0; i &lt; len; i++) cout &lt;&lt; data[i] &lt;&lt; &quot; &quot;;
+        cout &lt;&lt; endl;
+    }
+};
+
+int main() {
+    SafeArray arr(5);
+    arr.fill(42);
+    cout &lt;&lt; &quot;Filled: &quot;;
+    arr.print();
+    arr[2] = 99;
+    cout &lt;&lt; &quot;Modified: &quot;;
+    arr.print();
+    // No delete needed! Destructor handles cleanup
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/pointers-in-cpp/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Pointers and References</span>
+        </a>
+            <a href="/resources/cpp/oop-classes-and-objects/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">OOP - Classes, Objects, and Constructors</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/dynamic-memory-allocation" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Reinforcement Learning Basics | AI and Machine Learning | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="50+ practice questions on Reinforcement Learning Basics in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="reinforcement learning basics practice, ai and machine learning questions, ai and machine learning practice problems, reinforcement learning basics exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/reinforcement-learning-basics/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/reinforcement-learning-basics/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/reinforcement-learning-basics/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/reinforcement-learning-basics/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/reinforcement-learning-basics/practice">
+    <meta property="og:title" content="Practice Questions - Reinforcement Learning Basics | AI and Machine Learning | Modern Age Coders">
+    <meta property="og:description" content="50+ practice questions on Reinforcement Learning Basics in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/reinforcement-learning-basics/practice">
+    <meta name="twitter:title" content="Practice Questions - Reinforcement Learning Basics | AI and Machine Learning | Modern Age Coders">
+    <meta name="twitter:description" content="50+ practice questions on Reinforcement Learning Basics in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Reinforcement Learning Basics",
+    "description": "50+ practice questions on Reinforcement Learning Basics in AI and Machine Learning.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Reinforcement Learning Basics"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/reinforcement-learning-basics/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Reinforcement Learning Basics",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/reinforcement-learning-basics"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/reinforcement-learning-basics/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning/reinforcement-learning-basics">Reinforcement Learning Basics</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 23</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">50 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Reinforcement Learning Basics</h1>
+            <a href="/resources/ai-and-machine-learning/reinforcement-learning-basics" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>rl_components = ["Agent", "Environment", "State", "Action", "Reward", "Policy"]
+for i, comp in enumerate(rl_components, 1):
+    print(f"{i}. {comp}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">enumerate with start=1 gives 1-based indexing.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>1. Agent</code><br><code>2. Environment</code><br><code>3. State</code><br><code>4. Action</code><br><code>5. Reward</code><br><code>6. Policy</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>learning_types = {
+    "Supervised": "Labeled data",
+    "Unsupervised": "No labels",
+    "Reinforcement": "Reward signal"
+}
+for lt, feedback in learning_types.items():
+    print(f"{lt}: {feedback}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Dictionary iteration produces key-value pairs in insertion order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>Supervised: Labeled data</code><br><code>Unsupervised: No labels</code><br><code>Reinforcement: Reward signal</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>import random
+random.seed(42)
+
+epsilon = 0.3
+choices = []
+for _ in range(10):
+    if random.random() < epsilon:
+        choices.append("explore")
+    else:
+        choices.append("exploit")
+
+explore_count = choices.count("explore")
+exploit_count = choices.count("exploit")
+print(f"Explore: {explore_count}, Exploit: {exploit_count}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">With epsilon=0.3, about 30% of actions will be random (explore).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>Explore: 3, Exploit: 7</code> (approximately, exact depends on seed)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>gamma_values = [0.0, 0.5, 0.9, 0.99, 1.0]
+for g in gamma_values:
+    if g == 0:
+        desc = "only immediate reward"
+    elif g < 0.9:
+        desc = "moderate future value"
+    elif g < 1.0:
+        desc = "high future value"
+    else:
+        desc = "equal value (may diverge)"
+    print(f"gamma={g}: {desc}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">gamma controls how much the agent values future rewards vs immediate ones.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>gamma=0.0: only immediate reward</code><br><code>gamma=0.5: moderate future value</code><br><code>gamma=0.9: high future value</code><br><code>gamma=0.99: high future value</code><br><code>gamma=1.0: equal value (may diverge)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+
+# Q-table for a 3-state, 2-action environment
+Q = np.zeros((3, 2))
+print(f"Initial Q-table:\n{Q}")
+
+# Update Q(state=0, action=1) using Bellman equation
+state, action = 0, 1
+reward = 5.0
+next_state = 2
+alpha = 0.1
+gamma = 0.9
+
+best_next_q = np.max(Q[next_state])
+td_target = reward + gamma * best_next_q
+td_error = td_target - Q[state][action]
+Q[state][action] += alpha * td_error
+
+print(f"\nAfter update: Q[{state}][{action}] = {Q[state][action]}")
+print(f"TD target: {td_target}")
+print(f"TD error: {td_error}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Q starts at 0. TD target = reward + gamma * max(Q[next_state]) = 5 + 0.9 * 0.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>Initial Q-table:</code><br><code>[[0. 0.]</code><br><code> [0. 0.]</code><br><code> [0. 0.]]</code><br><br><code>After update: Q[0][1] = 0.5</code><br><code>TD target: 5.0</code><br><code>TD error: 5.0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def compute_return(rewards, gamma):
+    G = 0
+    for r in reversed(rewards):
+        G = r + gamma * G
+    return round(G, 3)
+
+rewards = [1, 1, 1, 10]  # reward at each timestep
+print(f"gamma=0.0: G = {compute_return(rewards, 0.0)}")
+print(f"gamma=0.5: G = {compute_return(rewards, 0.5)}")
+print(f"gamma=0.9: G = {compute_return(rewards, 0.9)}")
+print(f"gamma=1.0: G = {compute_return(rewards, 1.0)}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">The return is computed backwards: G = r + gamma * G. Start from the last reward.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>gamma=0.0: G = 1</code><br><code>gamma=0.5: G = 2.625</code><br><code>gamma=0.9: G = 10.539</code><br><code>gamma=1.0: G = 13</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+
+def epsilon_greedy(Q_state, epsilon):
+    if np.random.random() < epsilon:
+        return np.random.randint(len(Q_state))  # Random
+    return np.argmax(Q_state)  # Best
+
+np.random.seed(0)
+Q_state = [2.5, 8.1, 1.3, 5.0]  # Q-values for 4 actions
+
+# With epsilon=0 (pure exploitation)
+print(f"Q-values: {Q_state}")
+print(f"Best action (epsilon=0): {np.argmax(Q_state)}")
+
+# Track exploration vs exploitation over 1000 trials
+epsilon = 0.2
+actions = [epsilon_greedy(Q_state, epsilon) for _ in range(1000)]
+from collections import Counter
+counts = Counter(actions)
+for a in sorted(counts):
+    print(f"Action {a}: {counts[a]} times ({counts[a]/10:.1f}%)")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Action 1 has the highest Q-value (8.1). With epsilon=0.2, ~80% exploit (action 1), ~20% random.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Q-values: [2.5, 8.1, 1.3, 5.0]</code><br><code>Best action (epsilon=0): 1</code><br><code>Action 0: ~50 times (5%)</code><br><code>Action 1: ~850 times (85%)</code><br><code>Action 2: ~50 times (5%)</code><br><code>Action 3: ~50 times (5%)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+
+# Simulate Q-Learning for 5 updates on a single state-action pair
+Q = 0.0  # Initial Q-value for one (state, action) pair
+alpha = 0.1
+gamma = 0.9
+
+# Simulated transitions: (reward, max_next_Q)
+transitions = [
+    (1.0, 0.0),
+    (1.0, 0.1),
+    (0.0, 0.5),
+    (1.0, 0.8),
+    (1.0, 1.0)
+]
+
+for i, (reward, max_next_q) in enumerate(transitions):
+    td_target = reward + gamma * max_next_q
+    td_error = td_target - Q
+    Q = Q + alpha * td_error
+    print(f"Step {i+1}: R={reward}, maxQ'={max_next_q}, "
+          f"target={td_target:.3f}, error={td_error:.3f}, Q={Q:.4f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Apply the Q-learning update: Q += alpha * (R + gamma * maxQ' - Q) at each step.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8">Each step shows the Bellman update: the Q-value gradually increases as the agent observes rewards and higher future values.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between exploration and exploitation in RL?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Think about trying new restaurants vs going to your favorite one.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><strong>Exploitation</strong> means choosing the action that currently has the highest estimated value -- using what the agent has already learned. <strong>Exploration</strong> means trying actions the agent has not tried much, potentially discovering better strategies. The dilemma: too much exploitation means the agent might miss better options; too much exploration means the agent wastes time on suboptimal actions instead of using what it knows. The epsilon-greedy strategy balances this: with probability epsilon, explore (random action); otherwise, exploit (best known action). Epsilon typically decays from 1.0 to 0.01 during training.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does DQN use a separate target network instead of using the same Q-network for both prediction and target computation?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Think about what happens when the target keeps changing every time you update the network.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">If the same network is used for both Q-value prediction and target computation, every weight update changes the target values too. This creates a <strong>moving target problem</strong>: the network is trying to match targets that shift with every gradient step, causing oscillation or divergence. The target network is a separate copy of the Q-network that is updated less frequently (every N episodes or via soft updates). This provides <strong>stable, fixed targets</strong> for several training steps, allowing the Q-network to converge toward them before the targets shift again.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the Bellman equation in Q-Learning, and why is it the foundation of the algorithm?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Think about how the value of a state-action pair relates to the immediate reward plus future value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">The Bellman equation states: <code>Q(s, a) = R(s,a) + gamma * max_a'(Q(s', a'))</code>. It says the value of taking action a in state s equals the immediate reward R plus the discounted value of the best action in the next state s'. This creates a <strong>recursive relationship</strong>: the value of the current state depends on the values of future states. Q-Learning uses this to iteratively update a Q-table: <code>Q(s,a) += alpha * [R + gamma * max(Q(s',a')) - Q(s,a)]</code>. The term in brackets is the <strong>temporal difference (TD) error</strong> -- the gap between the target (Bellman estimate) and the current Q-value. By reducing this error over many updates, Q-values converge to the true optimal values.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import torch
+import torch.nn as nn
+
+# Simple DQN for CartPole
+class DQN(nn.Module):
+    def __init__(self, state_dim, action_dim):
+        super().__init__()
+        self.net = nn.Sequential(
+            nn.Linear(state_dim, 64),
+            nn.ReLU(),
+            nn.Linear(64, 64),
+            nn.ReLU(),
+            nn.Linear(64, action_dim)
+        )
+    
+    def forward(self, x):
+        return self.net(x)
+
+model = DQN(4, 2)  # CartPole: 4 state dims, 2 actions
+params = sum(p.numel() for p in model.parameters())
+print(f"Total parameters: {params}")
+
+# Test forward pass
+state = torch.randn(1, 4)  # Single state
+q_values = model(state)
+print(f"Q-values shape: {q_values.shape}")
+print(f"Best action: {q_values.argmax().item()}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Count params: Linear(4,64) + Linear(64,64) + Linear(64,2). Include biases.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Total parameters: 4738</code><br><code>Q-values shape: torch.Size([1, 2])</code><br><code>Best action: 0 or 1 (random, untrained)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is RLHF (Reinforcement Learning from Human Feedback) and how is it used to align LLMs like ChatGPT?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Think about how human preferences can be turned into a reward signal for RL.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">RLHF aligns LLMs with human preferences in three steps: (1) <strong>Supervised fine-tuning</strong>: Train the LLM on high-quality human-written responses. (2) <strong>Reward model training</strong>: Human raters rank multiple model outputs for the same prompt. These rankings train a reward model that predicts how much a human would prefer a given response. (3) <strong>PPO optimization</strong>: The LLM (as the RL agent) generates responses (actions), and the reward model provides reward signals. The LLM's policy is optimized using PPO (Proximal Policy Optimization) to maximize the reward while staying close to the original model (KL penalty prevents the model from diverging too far).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>rl_apps = ["AlphaGo", "Robotics", "Recommendations", "RLHF", "Data center cooling"]
+for i, app in enumerate(rl_apps, 1):
+    print(f"{i}. {app}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">5 real-world RL applications.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>1. AlphaGo</code><br><code>2. Robotics</code><br><code>3. Recommendations</code><br><code>4. RLHF</code><br><code>5. Data center cooling</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+
+def compare_q_values(Q_before, Q_after, state):
+    print(f"Before training: {Q_before[state]}")
+    print(f"After training:  {Q_after[state]}")
+    print(f"Best action before: {np.argmax(Q_before[state])}")
+    print(f"Best action after:  {np.argmax(Q_after[state])}")
+
+Q_before = {0: [0.0, 0.0, 0.0, 0.0]}
+Q_after = {0: [0.5, 8.2, 1.3, 0.7]}
+
+compare_q_values(Q_before, Q_after, 0)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Before training, all Q-values are 0. After training, action 1 has the highest value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>Before training: [0.0, 0.0, 0.0, 0.0]</code><br><code>After training:  [0.5, 8.2, 1.3, 0.7]</code><br><code>Best action before: 0</code><br><code>Best action after:  1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from collections import deque
+
+buf = deque(maxlen=5)
+for i in range(8):
+    buf.append(f"exp_{i}")
+
+print(f"Buffer size: {len(buf)}")
+print(f"Contents: {list(buf)}")
+print(f"Oldest: {buf[0]}")
+print(f"Newest: {buf[-1]}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">deque with maxlen=5 drops oldest when full. After 8 pushes, only last 5 remain.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>Buffer size: 5</code><br><code>Contents: ['exp_3', 'exp_4', 'exp_5', 'exp_6', 'exp_7']</code><br><code>Oldest: exp_3</code><br><code>Newest: exp_7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between on-policy and off-policy RL? Give an example of each.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Think about whether the data-collecting policy matches the policy being learned.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><strong>On-policy</strong>: The agent learns about the same policy it uses to collect data. The behavior policy and target policy are identical. Example: SARSA uses the actual next action taken. <strong>Off-policy</strong>: The agent can learn about a different (usually optimal) policy while following an exploratory behavior policy. Example: Q-Learning always uses max Q(s',a') regardless of the action actually taken. Off-policy enables experience replay (reusing old data) and is more sample-efficient. On-policy is generally more stable but requires fresh data for each update.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>rl_milestones = [
+    ("AlphaGo", "Go", 2016),
+    ("AlphaZero", "Chess + Go", 2017),
+    ("OpenAI Five", "Dota 2", 2019),
+    ("AlphaStar", "StarCraft II", 2019)
+]
+for name, game, year in rl_milestones:
+    print(f"{year}: {name} mastered {game}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Tuple unpacking in a for loop.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>2016: AlphaGo mastered Go</code><br><code>2017: AlphaZero mastered Chess + Go</code><br><code>2019: OpenAI Five mastered Dota 2</code><br><code>2019: AlphaStar mastered StarCraft II</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>epsilon = 1.0
+decay = 0.9
+for step in range(6):
+    print(f"Step {step}: epsilon = {epsilon:.4f}")
+    epsilon *= decay</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Multiply epsilon by 0.9 each step. 1.0 * 0.9 = 0.9, * 0.9 = 0.81, etc.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>Step 0: epsilon = 1.0000</code><br><code>Step 1: epsilon = 0.9000</code><br><code>Step 2: epsilon = 0.8100</code><br><code>Step 3: epsilon = 0.7290</code><br><code>Step 4: epsilon = 0.6561</code><br><code>Step 5: epsilon = 0.5905</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+
+# Simulate experience replay buffer
+buffer = []
+for i in range(10):
+    experience = (f"s{i}", f"a{i%2}", i * 0.5, f"s{i+1}")
+    buffer.append(experience)
+
+print(f"Buffer size: {len(buffer)}")
+print(f"First: {buffer[0]}")
+print(f"Last: {buffer[-1]}")
+
+# Random sample of 3
+np.random.seed(42)
+indices = np.random.choice(len(buffer), 3, replace=False)
+print(f"\nSampled indices: {sorted(indices)}")
+for idx in sorted(indices):
+    print(f"  {buffer[idx]}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">10 experiences are stored. Random sample draws 3 non-consecutive transitions.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>Buffer size: 10</code><br><code>First: ('s0', 'a0', 0.0, 's1')</code><br><code>Last: ('s9', 'a1', 4.5, 's10')</code><br><code>Sampled indices: [varies]</code><br>Three random experiences from the buffer.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def cartpole_state_meaning(state):
+    names = ["Cart Position", "Cart Velocity", "Pole Angle", "Pole Angular Vel"]
+    for name, val in zip(names, state):
+        print(f"  {name:20s}: {val:+.4f}")
+
+state = [0.0312, -0.1547, 0.0285, 0.3021]
+print("CartPole State:")
+cartpole_state_meaning(state)
+
+# Check if pole is falling
+angle = state[2]
+print(f"\nPole angle: {angle:.4f} rad ({abs(angle)*180/3.14159:.1f} degrees)")
+print(f"Falling? {abs(angle) > 0.2095}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">CartPole has 4 state variables. The episode ends when angle exceeds ~12 degrees (0.2095 rad).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>CartPole State:</code><br><code>  Cart Position      : +0.0312</code><br><code>  Cart Velocity      : -0.1547</code><br><code>  Pole Angle         : +0.0285</code><br><code>  Pole Angular Vel   : +0.3021</code><br><br><code>Pole angle: 0.0285 rad (1.6 degrees)</code><br><code>Falling? False</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import torch
+import torch.nn as nn
+
+# Experience replay sampling and DQN loss computation
+def compute_dqn_loss(q_net, target_net, batch, gamma=0.99):
+    states, actions, rewards, next_states, dones = batch
+    
+    states = torch.FloatTensor(states)
+    actions = torch.LongTensor(actions)
+    rewards = torch.FloatTensor(rewards)
+    next_states = torch.FloatTensor(next_states)
+    dones = torch.FloatTensor(dones)
+    
+    # Current Q-values for taken actions
+    current_q = q_net(states).gather(1, actions.unsqueeze(1)).squeeze(1)
+    
+    # Target Q-values
+    with torch.no_grad():
+        next_q = target_net(next_states).max(1)[0]
+        target_q = rewards + gamma * next_q * (1 - dones)
+    
+    loss = nn.MSELoss()(current_q, target_q)
+    return loss
+
+# Dummy networks and batch
+q_net = nn.Sequential(nn.Linear(4, 32), nn.ReLU(), nn.Linear(32, 2))
+target_net = nn.Sequential(nn.Linear(4, 32), nn.ReLU(), nn.Linear(32, 2))
+target_net.load_state_dict(q_net.state_dict())
+
+batch = (
+    [[0.1, 0.2, 0.3, 0.4], [0.5, 0.6, 0.7, 0.8]],  # states
+    [0, 1],                                             # actions
+    [1.0, 1.0],                                         # rewards
+    [[0.2, 0.3, 0.4, 0.5], [0.6, 0.7, 0.8, 0.9]],    # next_states
+    [0.0, 0.0]                                          # dones (not done)
+)
+
+loss = compute_dqn_loss(q_net, target_net, batch)
+print(f"DQN Loss: {loss.item():.6f}")
+print(f"Loss > 0: {loss.item() > 0}")
+print(f"Loss type: {type(loss).__name__}")</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">The loss is MSE between predicted Q-values and Bellman targets.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>DQN Loss: [some small positive value]</code><br><code>Loss > 0: True</code><br><code>Loss type: Tensor</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Nidhi wants to build an RL agent that learns to play a simple board game. Should she use Q-Learning with a Q-table or DQN? What factors should she consider?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Think about the size of the state space and action space.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">If the board game has a <strong>small, discrete state space</strong> (e.g., tic-tac-toe has about 5,500 valid states), a <strong>Q-table</strong> is simpler, faster, and guaranteed to converge. If the game has a <strong>large or continuous state space</strong> (e.g., chess has ~10^43 possible positions), a Q-table is impractical and Nidhi should use <strong>DQN</strong> which can generalize across similar states. Other factors: Q-tables are easier to implement and debug, require no GPU, and are fully interpretable (you can read the exact Q-values). DQN requires more hyperparameter tuning, training data, and compute, but handles complex environments that Q-tables cannot.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Compare Q-Learning and Policy Gradient methods. What are the advantages and disadvantages of each? When would Vikram choose Policy Gradients over Q-Learning?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Think about discrete vs continuous action spaces and the nature of what each method learns.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><strong>Q-Learning</strong> learns a value function and derives the policy (pick the action with highest Q-value). Pros: sample-efficient, works well with discrete actions. Cons: struggles with continuous action spaces, may converge to suboptimal solutions due to function approximation errors. <strong>Policy Gradient</strong> methods directly optimize the policy (a probability distribution over actions). Pros: naturally handles continuous action spaces, can learn stochastic policies, more theoretically grounded. Cons: high variance, less sample-efficient, may converge to local optima. Vikram should choose Policy Gradients when: the action space is continuous (e.g., controlling a robot's joint angles), a stochastic policy is needed (e.g., game theory scenarios where randomization is optimal), or when using actor-critic methods like PPO for complex environments.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain Experience Replay in DQN. Why is random sampling from a buffer better than training on consecutive transitions?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Think about what happens when a model trains on correlated data sequences.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">Experience Replay stores past transitions (s, a, r, s', done) in a buffer and trains on randomly sampled batches. This is better than consecutive training for three reasons: (1) <strong>Breaks temporal correlations</strong>: consecutive transitions are highly correlated (similar states, same part of the environment). Neural networks trained on correlated data overfit to recent patterns and forget earlier learning. Random sampling provides diverse, decorrelated training data. (2) <strong>Data efficiency</strong>: each experience can be reused for multiple training updates instead of being used once and discarded. (3) <strong>Stability</strong>: the training distribution is smoother (a mix of many experiences) rather than shifting rapidly as the agent moves through different parts of the environment.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>rl_vs_others = {
+    "Supervised": "Labeled data (x, y)",
+    "Unsupervised": "Unlabeled data (x)",
+    "Reinforcement": "Reward signal from environment"
+}
+for paradigm, feedback in rl_vs_others.items():
+    print(f"{paradigm:15s} uses: {feedback}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Three ML paradigms with different types of feedback.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>Supervised      uses: Labeled data (x, y)</code><br><code>Unsupervised    uses: Unlabeled data (x)</code><br><code>Reinforcement   uses: Reward signal from environment</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def q_learning_update(Q_sa, reward, max_Q_next, alpha, gamma):
+    target = reward + gamma * max_Q_next
+    td_error = target - Q_sa
+    new_Q = Q_sa + alpha * td_error
+    return round(new_Q, 4), round(td_error, 4)
+
+# State-action Q-value starts at 0
+Q = 0.0
+alpha, gamma = 0.1, 0.9
+
+updates = [(1.0, 0.0), (1.0, 0.5), (0.0, 1.0), (1.0, 1.2)]
+for reward, max_next_q in updates:
+    Q, td_err = q_learning_update(Q, reward, max_next_q, alpha, gamma)
+    print(f"R={reward}, maxQ'={max_next_q} -> Q={Q}, TD_err={td_err}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Apply Bellman update: Q += alpha * (R + gamma * maxQ' - Q) at each step.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">Each line shows the Q-value incrementally increasing as the agent observes rewards and estimates of future value.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+
+def evaluate_policy(Q_table, env_size=4):
+    actions = ["Up", "Right", "Down", "Left"]
+    policy = {}
+    for state in Q_table:
+        best_action = actions[np.argmax(Q_table[state])]
+        policy[state] = best_action
+    return policy
+
+# Simulated Q-table for a 2x2 grid
+Q = {
+    (0,0): [0.1, 0.8, 0.3, 0.1],  # Best: Right
+    (0,1): [0.1, 0.1, 0.9, 0.1],  # Best: Down
+    (1,0): [0.1, 0.7, 0.1, 0.1],  # Best: Right
+    (1,1): [0.0, 0.0, 0.0, 0.0],  # Goal state
+}
+
+policy = evaluate_policy(Q)
+for state, action in sorted(policy.items()):
+    print(f"State {state}: {action}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">argmax selects the action with the highest Q-value at each state.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>State (0, 0): Right</code><br><code>State (0, 1): Down</code><br><code>State (1, 0): Right</code><br><code>State (1, 1): Up</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between a policy and a value function in RL?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">One tells the agent what to do, the other tells the agent how good a situation is.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">A <strong>policy</strong> (pi) is the agent's strategy: it maps states to actions, telling the agent what to do in each situation. It can be deterministic (one action per state) or stochastic (probability distribution over actions). A <strong>value function</strong> V(s) estimates how good a state is by predicting the expected cumulative reward from that state forward. The <strong>Q-function</strong> Q(s,a) estimates how good a specific action is in a given state. The relationship: a greedy policy selects the action that maximizes the Q-function at each state.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is reward shaping important in RL, and what risks does it introduce?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Think about sparse vs dense rewards and how shaping can accidentally change the optimal policy.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13">Reward shaping adds intermediate rewards to guide the agent toward the goal, solving the <strong>sparse reward problem</strong> where the agent only receives reward at the goal (making it hard to learn). Example: adding a small reward proportional to distance traveled toward the goal. Risks: (1) <strong>Reward hacking</strong>: the agent may find unintended ways to maximize shaped rewards without achieving the actual goal. (2) <strong>Optimal policy change</strong>: poorly designed shaping can change the optimal policy (the agent does what earns shaped rewards instead of the real objective). (3) <strong>Human bias</strong>: the designer's assumptions about 'good' intermediate states may be wrong. Potential-based reward shaping (PBRS) is a theoretically safe method that preserves the optimal policy while providing denser feedback.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What type of feedback does an RL agent receive from the environment?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Labeled training examples</li><li><span class="mcq-option-label">B.</span> A reward signal (numerical value)</li><li><span class="mcq-option-label">C.</span> Cluster assignments</li><li><span class="mcq-option-label">D.</span> Feature importance rankings</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> An RL agent receives a numerical reward signal after taking actions. Positive rewards encourage the action, negative rewards discourage it. This is different from supervised learning (labeled examples) or unsupervised learning (no explicit feedback).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">In epsilon-greedy strategy, what does the agent do when random() < epsilon?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Takes the best known action</li><li><span class="mcq-option-label">B.</span> Takes a random action (explores)</li><li><span class="mcq-option-label">C.</span> Stops the episode</li><li><span class="mcq-option-label">D.</span> Resets the environment</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> When random() < epsilon, the agent explores by taking a random action. Otherwise (1-epsilon probability), it exploits by taking the action with the highest Q-value. Higher epsilon means more exploration.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does the discount factor gamma control in RL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The learning rate</li><li><span class="mcq-option-label">B.</span> How much the agent values future rewards vs immediate rewards</li><li><span class="mcq-option-label">C.</span> The number of actions available</li><li><span class="mcq-option-label">D.</span> The size of the neural network</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Gamma between 0 and 1 determines the importance of future rewards. Gamma=0 means the agent only cares about the immediate reward. Gamma=0.99 means future rewards are nearly as valuable as immediate ones.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is a Q-table?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A neural network for RL</li><li><span class="mcq-option-label">B.</span> A lookup table that stores expected cumulative rewards for each state-action pair</li><li><span class="mcq-option-label">C.</span> A database of training examples</li><li><span class="mcq-option-label">D.</span> A queue of actions to take</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> A Q-table maps (state, action) pairs to their estimated Q-values (expected cumulative rewards). The Q-learning algorithm updates this table using the Bellman equation as the agent gains experience.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What is the Markov property in an MDP?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Actions must be reversible</li><li><span class="mcq-option-label">B.</span> The future depends only on the current state, not on history</li><li><span class="mcq-option-label">C.</span> All rewards must be positive</li><li><span class="mcq-option-label">D.</span> The environment must be deterministic</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> The Markov property states that the probability of the next state depends only on the current state and action, not on the sequence of states that preceded it. This memoryless property makes RL tractable.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the TD (Temporal Difference) error in Q-Learning?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The time taken for one episode</li><li><span class="mcq-option-label">B.</span> The difference between the Bellman target and the current Q-value estimate</li><li><span class="mcq-option-label">C.</span> The number of steps in an episode</li><li><span class="mcq-option-label">D.</span> The change in epsilon over time</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> TD error = [R + gamma * max(Q(s',a'))] - Q(s,a). It is the difference between the target value (from the Bellman equation) and the current estimate. Q-learning updates Q by alpha * TD error, driving the error toward zero.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Why does DQN use experience replay?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To speed up the environment simulation</li><li><span class="mcq-option-label">B.</span> To break temporal correlations and provide diverse training data</li><li><span class="mcq-option-label">C.</span> To increase the number of actions available</li><li><span class="mcq-option-label">D.</span> To reduce the model size</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> Consecutive transitions are correlated, causing unstable training. Experience replay stores past transitions in a buffer and trains on random batches, breaking correlations and providing diverse, decorrelated training data.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What function does env.step(action) return in Gymnasium?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only the next state</li><li><span class="mcq-option-label">B.</span> next_state, reward, terminated, truncated, info</li><li><span class="mcq-option-label">C.</span> reward and done flag only</li><li><span class="mcq-option-label">D.</span> The action&#39;s Q-value</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>env.step(action)</code> returns a 5-tuple: next_state (new observation), reward (numerical feedback), terminated (episode ended due to environment rules), truncated (episode ended due to time limit), and info (diagnostic information).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What RL technique is used to align LLMs like ChatGPT with human preferences?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Q-Learning</li><li><span class="mcq-option-label">B.</span> Deep Q-Network</li><li><span class="mcq-option-label">C.</span> RLHF (Reinforcement Learning from Human Feedback)</li><li><span class="mcq-option-label">D.</span> Monte Carlo Tree Search</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> RLHF trains a reward model from human preference rankings, then uses PPO to optimize the LLM's policy to maximize this learned reward while staying close to the original model. This makes LLMs helpful, harmless, and honest.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">In CartPole, what causes the episode to end (terminate)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The agent takes 10 actions</li><li><span class="mcq-option-label">B.</span> The pole angle exceeds ~12 degrees or the cart moves too far</li><li><span class="mcq-option-label">C.</span> The reward reaches zero</li><li><span class="mcq-option-label">D.</span> The agent chooses the same action twice</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> CartPole terminates when the pole angle exceeds +/-12 degrees (0.2095 radians) or the cart position exceeds +/-2.4 units from center. The agent gets reward +1 for every step the pole stays upright, up to a maximum of 500 steps.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the role of the target network in DQN?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It generates training data</li><li><span class="mcq-option-label">B.</span> It provides stable target Q-values by updating less frequently than the main Q-network</li><li><span class="mcq-option-label">C.</span> It replaces the Q-network after training</li><li><span class="mcq-option-label">D.</span> It computes the loss function</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> The target network is a copy of the Q-network that is updated only periodically (every N episodes). It computes stable target Q-values for the Bellman equation, preventing the moving target problem where the Q-network chases its own changing predictions.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Why is Q-Learning called a 'model-free' algorithm?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It does not use any neural networks</li><li><span class="mcq-option-label">B.</span> It does not require a model of the environment&#39;s transition dynamics</li><li><span class="mcq-option-label">C.</span> It works without any rewards</li><li><span class="mcq-option-label">D.</span> It does not need a Q-table</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> 'Model-free' means Q-Learning does not need to know the transition probabilities P(s'|s,a) or the reward function R(s,a). It learns directly from experience -- the agent takes actions, observes outcomes, and updates Q-values. Model-based methods, in contrast, learn or use a model of the environment to plan ahead.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What problem does Q-Learning face when applied to environments with continuous state spaces?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It runs too slowly</li><li><span class="mcq-option-label">B.</span> The Q-table becomes impractically large or infinite since continuous values are rarely revisited</li><li><span class="mcq-option-label">C.</span> The rewards become negative</li><li><span class="mcq-option-label">D.</span> The agent cannot take actions</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> With continuous states (float values), almost no state is visited twice, so the Q-table has millions of unique entries with values of 0. Learning is impossible because Q-values are never updated. Solutions: discretize the state space (lose precision) or use DQN (neural network as function approximator).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the key difference between on-policy and off-policy RL algorithms?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> On-policy is faster, off-policy is more accurate</li><li><span class="mcq-option-label">B.</span> On-policy learns about the policy being followed; off-policy can learn about a different policy than the one generating data</li><li><span class="mcq-option-label">C.</span> On-policy uses neural networks; off-policy uses tables</li><li><span class="mcq-option-label">D.</span> There is no difference</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> On-policy methods (SARSA, PPO) learn about the same policy that generates actions. Off-policy methods (Q-Learning, DQN) can learn about the optimal policy while following a different exploration policy (like epsilon-greedy). Off-policy is more sample-efficient because it can reuse old data (experience replay).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which algorithm defeated the world champion at Go in 2016?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Deep Q-Network</li><li><span class="mcq-option-label">B.</span> AlphaGo (using Monte Carlo Tree Search + deep RL)</li><li><span class="mcq-option-label">C.</span> SARSA</li><li><span class="mcq-option-label">D.</span> Vanilla Policy Gradient</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> AlphaGo (DeepMind, 2016) defeated Lee Sedol at Go using a combination of deep convolutional neural networks, Monte Carlo Tree Search, supervised learning from human games, and reinforcement learning through self-play. Its successor AlphaZero learned entirely from self-play.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What does the agent receive from the environment after taking an action?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A training dataset</li><li><span class="mcq-option-label">B.</span> The next state, a reward signal, and a done flag</li><li><span class="mcq-option-label">C.</span> The model&#39;s weights</li><li><span class="mcq-option-label">D.</span> A label for the action</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> After the agent takes an action, the environment returns: the next state (new observation), a reward signal (numerical feedback), and a done flag (whether the episode has ended). This tuple is the fundamental data unit in RL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What is the purpose of the replay buffer in DQN?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To replay the game for the user</li><li><span class="mcq-option-label">B.</span> To store past experiences and sample random batches for training</li><li><span class="mcq-option-label">C.</span> To store the model weights</li><li><span class="mcq-option-label">D.</span> To increase the action space</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> The replay buffer stores past transitions (s, a, r, s', done) and provides random batches for training. This breaks temporal correlations between consecutive transitions and provides diverse training data, which is essential for stable DQN training.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What RL algorithm learns a Q-table mapping state-action pairs to expected cumulative rewards?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Linear Regression</li><li><span class="mcq-option-label">B.</span> Q-Learning</li><li><span class="mcq-option-label">C.</span> K-Means</li><li><span class="mcq-option-label">D.</span> Random Forest</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> Q-Learning is a model-free RL algorithm that maintains a Q-table storing the expected cumulative reward for each (state, action) pair. It updates values using the Bellman equation as the agent interacts with the environment.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">What is PPO (Proximal Policy Optimization) and why is it popular?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A value-based method for small state spaces</li><li><span class="mcq-option-label">B.</span> A policy gradient method that constrains policy updates for stable training</li><li><span class="mcq-option-label">C.</span> A supervised learning algorithm for classification</li><li><span class="mcq-option-label">D.</span> A method for compressing neural networks</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> PPO is a policy gradient method that limits how much the policy can change in each update (via a clipping mechanism). This prevents large, destabilizing updates while still making progress. PPO is used in RLHF for aligning LLMs and is the default choice for many complex RL tasks.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">Why is epsilon typically decayed during Q-learning training?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To make the model smaller over time</li><li><span class="mcq-option-label">B.</span> To gradually shift from exploration to exploitation as the agent learns</li><li><span class="mcq-option-label">C.</span> To reduce the learning rate</li><li><span class="mcq-option-label">D.</span> To increase the discount factor</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> Early in training, the agent knows little, so high epsilon (lots of exploration) helps discover good strategies. As training progresses and Q-values improve, lower epsilon (more exploitation) lets the agent use what it has learned. A minimum epsilon (e.g., 0.01) ensures some exploration continues.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <p>Coding challenges coming soon.</p>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/ai-and-machine-learning/generative-ai-and-diffusion-models/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Generative AI - GANs, VAEs, and Diffusion Models</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/ml-ops-and-model-deployment/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">MLOps and Model Deployment</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/ai-and-machine-learning/reinforcement-learning-basics" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical) | AI and Machine Learning | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="55+ practice questions on Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical) in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="unsupervised learning - clustering (k-means, dbscan, hierarchical) practice, ai and machine learning questions, ai and machine learning practice problems, unsupervised learning - clustering (k-means, dbscan, hierarchical) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering/practice">
+    <meta property="og:title" content="Practice Questions - Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical) | AI and Machine Learning | Modern Age Coders">
+    <meta property="og:description" content="55+ practice questions on Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical) in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering/practice">
+    <meta name="twitter:title" content="Practice Questions - Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical) | AI and Machine Learning | Modern Age Coders">
+    <meta name="twitter:description" content="55+ practice questions on Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical) in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical)",
+    "description": "55+ practice questions on Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical) in AI and Machine Learning.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical)",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning/unsupervised-learning-clustering">Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 11</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">55 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical)</h1>
+            <a href="/resources/ai-and-machine-learning/unsupervised-learning-clustering" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>from sklearn.cluster import KMeans
+import numpy as np
+
+X = np.array([[1, 2], [1, 4], [1, 0], [10, 2], [10, 4], [10, 0]])
+km = KMeans(n_clusters=2, random_state=42, n_init=10)
+labels = km.fit_predict(X)
+print(labels)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">K-Means groups points that are close together. The first three points are near x=1, the last three near x=10.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>[1 1 1 0 0 0]</code> (or <code>[0 0 0 1 1 1]</code> -- cluster label numbers may vary but the grouping is the same)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the fundamental difference between supervised and unsupervised learning?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Think about whether the training data has labels or not.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2">In <strong>supervised learning</strong>, the training data has labels (known outputs for each input), and the model learns to predict these labels. In <strong>unsupervised learning</strong>, the training data has <strong>no labels</strong> -- the model must discover patterns, structures, or groupings on its own.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Name three real-world applications of clustering.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Think about grouping customers, detecting fraud, and organizing documents.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3">1. <strong>Customer segmentation</strong>: Grouping customers by purchasing behavior for targeted marketing. 2. <strong>Anomaly detection</strong>: Identifying fraud transactions that do not belong to any normal cluster. 3. <strong>Document grouping</strong>: Organizing news articles or emails into topic groups automatically.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does the K in K-Means represent?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">It is a parameter you must choose before running the algorithm.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4">K represents the <strong>number of clusters</strong> you want the algorithm to find. You must specify K before running K-Means. The algorithm then partitions the data into exactly K groups.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.cluster import KMeans
+import numpy as np
+
+X = np.array([[0, 0], [1, 0], [0, 1], [10, 10], [11, 10], [10, 11]])
+km = KMeans(n_clusters=2, random_state=0, n_init=10)
+km.fit(X)
+print(km.cluster_centers_.shape)
+print(km.inertia_)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">cluster_centers_ has shape (K, n_features). Inertia is the sum of squared distances to centroids.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>(2, 2)</code><br>A small inertia value (approximately 2.0 to 4.0) because the clusters are tight.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the elbow method and why is it used?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">It helps choose the number of clusters K by looking at how inertia changes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">The elbow method plots the number of clusters (K) on the x-axis versus the <strong>inertia</strong> (within-cluster sum of squared distances) on the y-axis. As K increases, inertia decreases. The <strong>elbow point</strong> is where the rate of decrease sharply changes (the curve bends). This suggests the optimal K beyond which adding more clusters gives diminishing returns.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.cluster import DBSCAN
+import numpy as np
+
+X = np.array([[1, 2], [2, 2], [2, 3], [8, 7], [8, 8], [25, 80]])
+db = DBSCAN(eps=1.5, min_samples=2)
+labels = db.fit_predict(X)
+print(labels)
+print(f"Noise points: {list(labels).count(-1)}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Points within eps=1.5 of each other form clusters. The point at [25, 80] is far from everything else.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>[0 0 0 1 1 -1]</code><br><code>Noise points: 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What are the two key parameters of DBSCAN, and what does each control?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">One controls the neighborhood radius and the other controls the minimum density.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><strong>eps (epsilon)</strong>: The maximum distance between two points for them to be considered neighbors. <strong>min_samples</strong>: The minimum number of points within eps distance required for a point to be considered a core point (part of a dense region).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between a core point, a border point, and a noise point in DBSCAN?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">It depends on how many neighbors a point has within eps distance.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><strong>Core point</strong>: Has at least min_samples points within eps distance (including itself). It is in the dense interior of a cluster. <strong>Border point</strong>: Has fewer than min_samples neighbors but is within eps distance of a core point. It sits on the edge of a cluster. <strong>Noise point</strong>: Has fewer than min_samples neighbors and is not within eps of any core point. Labeled -1 by DBSCAN.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.cluster import AgglomerativeClustering
+import numpy as np
+
+X = np.array([[1, 1], [1.5, 1.5], [5, 5], [5.5, 5.5], [9, 9], [9.5, 9.5]])
+agg = AgglomerativeClustering(n_clusters=3, linkage='ward')
+labels = agg.fit_predict(X)
+print(labels)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Ward linkage minimizes within-cluster variance. Points near each other get grouped together.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>[0 0 1 1 2 2]</code> (label numbers may vary but pairs are grouped together)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the silhouette score and what range of values can it take?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">It measures how similar a point is to its own cluster compared to other clusters.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">The silhouette score measures clustering quality. For each point, it compares the average distance to points in its own cluster (a) versus the average distance to points in the nearest other cluster (b). The formula is: <strong>(b - a) / max(a, b)</strong>. The score ranges from <strong>-1 to +1</strong>. +1 means the point is far from other clusters and close to its own. 0 means it is on the boundary. -1 means it is likely in the wrong cluster.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.cluster import KMeans
+import numpy as np
+
+X = np.array([[1, 1], [1, 2], [2, 1], [10, 10], [10, 11], [11, 10]])
+km = KMeans(n_clusters=2, random_state=42, n_init=10)
+km.fit(X)
+print(km.predict([[1.5, 1.5]]))
+print(km.predict([[10.5, 10.5]]))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">predict() assigns new points to the nearest existing centroid.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>[1]</code> (or <code>[0]</code>) for the point near (1,1)<br><code>[0]</code> (or <code>[1]</code>) for the point near (10,10)<br>The two predictions will have different labels.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to find the optimal K for K-Means using silhouette score. Use <code>make_blobs(n_samples=300, centers=4, random_state=42)</code>. Test K from 2 to 8 and print the best K.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Loop through K values, compute silhouette_score for each, and pick the K with the highest score.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><pre><code>from sklearn.cluster import KMeans
+from sklearn.datasets import make_blobs
+from sklearn.metrics import silhouette_score
+
+X, _ = make_blobs(n_samples=300, centers=4, random_state=42)
+
+best_k = 2
+best_score = -1
+for k in range(2, 9):
+    km = KMeans(n_clusters=k, random_state=42, n_init=10)
+    labels = km.fit_predict(X)
+    score = silhouette_score(X, labels)
+    print(f"K={k}: silhouette={score:.4f}")
+    if score > best_score:
+        best_score = score
+        best_k = k
+
+print(f"Best K: {best_k} with silhouette score: {best_score:.4f}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain why K-Means fails on crescent-shaped (moon) data but DBSCAN succeeds.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Think about how each algorithm defines cluster membership.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14">K-Means assigns each point to the <strong>nearest centroid</strong> and creates <strong>Voronoi partitions</strong> (straight-line boundaries). For crescent shapes, the centroid of each crescent is in the space between them, causing K-Means to draw a straight line that splits both crescents incorrectly. DBSCAN follows the <strong>density</strong> of points along each crescent. Since points within each crescent are densely connected, DBSCAN traces the shape correctly regardless of curvature.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the difference between agglomerative and divisive hierarchical clustering? Which is more commonly used and why?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">One starts from individual points and merges; the other starts from one big cluster and splits.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><strong>Agglomerative (bottom-up)</strong>: Starts with each data point as its own cluster. At each step, the two closest clusters are merged. Continues until all points are in one cluster. <strong>Divisive (top-down)</strong>: Starts with all points in one cluster. At each step, the most heterogeneous cluster is split. Continues until each point is its own cluster. Agglomerative is more commonly used because it is computationally cheaper -- O(n^2 log n) for agglomerative vs O(2^n) for optimal divisive splits.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code to apply DBSCAN on <code>make_moons(n_samples=300, noise=0.1, random_state=42)</code>. Scale the data, find the clusters, and print the number of clusters and noise points.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Use StandardScaler before DBSCAN. Count clusters excluding the -1 label.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><pre><code>from sklearn.cluster import DBSCAN
+from sklearn.datasets import make_moons
+from sklearn.preprocessing import StandardScaler
+
+X, _ = make_moons(n_samples=300, noise=0.1, random_state=42)
+X_scaled = StandardScaler().fit_transform(X)
+
+db = DBSCAN(eps=0.3, min_samples=5)
+labels = db.fit_predict(X_scaled)
+
+n_clusters = len(set(labels)) - (1 if -1 in labels else 0)
+n_noise = list(labels).count(-1)
+
+print(f"Clusters: {n_clusters}")
+print(f"Noise points: {n_noise}")
+print(f"Points per cluster:")
+for lbl in sorted(set(labels)):
+    name = "Noise" if lbl == -1 else f"Cluster {lbl}"
+    print(f"  {name}: {list(labels).count(lbl)}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why does K-Means use the <code>init='k-means++'</code> initialization strategy by default in sklearn? What problem does it solve?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Random initialization can lead to poor convergence. K-Means++ provides a smarter starting point.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">Random initialization can place centroids close together or in suboptimal locations, causing K-Means to converge to a <strong>local minimum</strong> (a solution that is not globally optimal). <code>k-means++</code> selects initial centroids that are <strong>far apart from each other</strong>: the first centroid is chosen randomly, and each subsequent centroid is selected with probability proportional to its squared distance from the nearest existing centroid. This ensures centroids start spread across the data, leading to faster convergence and better final clusters.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to cluster the Iris dataset (without using the labels) using K-Means with K=3, and then compare the cluster assignments to the actual species labels using a crosstab.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Use KMeans(n_clusters=3), fit_predict on iris.data, then pd.crosstab to compare labels.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><pre><code>import pandas as pd
+from sklearn.cluster import KMeans
+from sklearn.datasets import load_iris
+
+iris = load_iris()
+km = KMeans(n_clusters=3, random_state=42, n_init=10)
+clusters = km.fit_predict(iris.data)
+
+print("Cluster vs Actual Species:")
+print(pd.crosstab(clusters, iris.target, rownames=['Cluster'], colnames=['Species']))</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain the difference between K-Means inertia and silhouette score. When would they give conflicting recommendations for K?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Inertia always improves with more K. Silhouette can peak at a lower K.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><strong>Inertia</strong> measures within-cluster sum of squared distances. It always decreases as K increases (more clusters = tighter clusters). <strong>Silhouette score</strong> measures how well each point fits its cluster versus neighboring clusters, ranging from -1 to +1, and can decrease when K is too high. They conflict when increasing K reduces inertia slightly but fragments natural clusters, causing silhouette to drop.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.cluster import KMeans
+import numpy as np
+
+X = np.array([[0, 0], [10, 10]])
+km = KMeans(n_clusters=2, random_state=42, n_init=10)
+km.fit(X)
+print(km.labels_)
+print(km.inertia_)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">With 2 points and 2 clusters, each point is its own centroid.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>[1 0]</code> (or <code>[0 1]</code>)<br><code>0.0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is image compression using K-Means? Explain the process.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">Each pixel has an RGB color. K-Means groups similar colors together.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21">Image compression with K-Means reduces the number of distinct colors in an image. Each pixel is treated as a 3D data point (R, G, B values). K-Means clusters all pixels into K clusters. Each pixel is then replaced by its cluster centroid color. An image with millions of unique colors is reduced to K colors (e.g., 16 or 32), significantly reducing file size while preserving visual quality.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code to apply both K-Means and Agglomerative Clustering on the Iris dataset (K=3 for both) and compare their silhouette scores.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">Fit both models, compute silhouette_score for each, and print which is higher.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22"><pre><code>from sklearn.cluster import KMeans, AgglomerativeClustering
+from sklearn.datasets import load_iris
+from sklearn.metrics import silhouette_score
+from sklearn.preprocessing import StandardScaler
+
+iris = load_iris()
+X = StandardScaler().fit_transform(iris.data)
+
+km = KMeans(n_clusters=3, random_state=42, n_init=10)
+km_labels = km.fit_predict(X)
+km_sil = silhouette_score(X, km_labels)
+
+agg = AgglomerativeClustering(n_clusters=3, linkage='ward')
+agg_labels = agg.fit_predict(X)
+agg_sil = silhouette_score(X, agg_labels)
+
+print(f"K-Means silhouette: {km_sil:.4f}")
+print(f"Agglomerative silhouette: {agg_sil:.4f}")
+print(f"Winner: {'K-Means' if km_sil > agg_sil else 'Agglomerative'}")</code></pre></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.cluster import KMeans
+import numpy as np
+
+X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
+km = KMeans(n_clusters=1, random_state=42, n_init=10)
+km.fit(X)
+print(km.cluster_centers_)
+print(km.labels_)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">With K=1, all points belong to one cluster. The centroid is the mean of all points.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>[[0.5 0.5]]</code><br><code>[0 0 0 0]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.cluster import DBSCAN
+import numpy as np
+
+X = np.array([[1, 1], [100, 100], [200, 200]])
+db = DBSCAN(eps=5, min_samples=2)
+labels = db.fit_predict(X)
+print(labels)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">All three points are far apart. With eps=5 and min_samples=2, no point has a neighbor within distance 5.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>[-1 -1 -1]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why must you scale features before applying K-Means or DBSCAN?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">These algorithms use distance. What happens if one feature has a much larger range than another?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">K-Means and DBSCAN both use <strong>Euclidean distance</strong>. If features have different scales (e.g., income in thousands vs age in years), the large-scale feature dominates the distance calculation and the small-scale feature is effectively ignored. Scaling (using StandardScaler or MinMaxScaler) ensures all features contribute equally to the distance.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.metrics import silhouette_score
+from sklearn.cluster import KMeans
+import numpy as np
+
+X = np.array([[0, 0], [0.1, 0.1], [10, 10], [10.1, 10.1]])
+km = KMeans(n_clusters=2, random_state=42, n_init=10)
+labels = km.fit_predict(X)
+score = silhouette_score(X, labels)
+print(f"Score: {score:.4f}")
+print(f"Score > 0.9: {score > 0.9}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Two very tight, well-separated clusters should have a silhouette score close to +1.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Score: 0.9965</code> (approximately)<br><code>Score > 0.9: True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code that generates blob data with 3 centers, runs K-Means with K=3, and prints the cluster sizes (number of points per cluster).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Use make_blobs, fit KMeans, then count labels using np.bincount or a loop.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><pre><code>from sklearn.cluster import KMeans
+from sklearn.datasets import make_blobs
+import numpy as np
+
+X, _ = make_blobs(n_samples=300, centers=3, random_state=42)
+km = KMeans(n_clusters=3, random_state=42, n_init=10)
+labels = km.fit_predict(X)
+
+print("Cluster sizes:")
+for i in range(3):
+    size = np.sum(labels == i)
+    print(f"  Cluster {i}: {size} points")
+print(f"Total: {len(labels)}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">A data scientist runs K-Means with K=5 on customer data. The silhouette score is 0.15. What does this indicate, and what should they try next?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">A silhouette score near 0 means clusters are overlapping or poorly defined.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">A silhouette score of 0.15 indicates <strong>poor clustering</strong> -- clusters overlap significantly and points are not well-separated. The data scientist should: 1. Try different values of K (the true number of clusters might not be 5). 2. Scale the features if not already done. 3. Try different algorithms (DBSCAN if clusters are non-spherical). 4. Examine whether the features used are actually meaningful for clustering. 5. Visualize the data using PCA or t-SNE to understand its structure.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.cluster import DBSCAN
+import numpy as np
+
+X = np.array([[1, 1], [1.1, 1.1], [1.2, 1.2], [1.3, 1.3], [10, 10]])
+db = DBSCAN(eps=0.5, min_samples=3)
+labels = db.fit_predict(X)
+print(labels)
+print(f"Clusters: {len(set(labels)) - (1 if -1 in labels else 0)}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">The first four points are very close together. The last point is far away and alone.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>[0 0 0 0 -1]</code><br><code>Clusters: 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Raghav runs DBSCAN on a dataset and gets 0 clusters (all points labeled as noise). What are two possible reasons and how should he fix each?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Think about what makes points noise in DBSCAN: eps and min_samples.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">1. <strong>eps is too small</strong>: If eps is smaller than the typical distance between neighboring points, no point will have enough neighbors to be a core point. Fix: increase eps. Use the k-distance plot to choose an appropriate eps. 2. <strong>min_samples is too high</strong>: If min_samples is larger than the number of points in any natural cluster, no dense regions can form. Fix: decrease min_samples. A common starting point is min_samples = 2 * n_features. Also check if the data is <strong>not scaled</strong> -- distances between points might be much larger than expected if features have vastly different scales.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code to compare K-Means and DBSCAN on <code>make_circles(n_samples=300, noise=0.05, factor=0.5, random_state=42)</code>. Print the silhouette score for each algorithm.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Scale the data. Run KMeans(n_clusters=2) and DBSCAN(eps=0.3, min_samples=5). Handle DBSCAN noise for silhouette.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>from sklearn.cluster import KMeans, DBSCAN
+from sklearn.datasets import make_circles
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import silhouette_score
+
+X, _ = make_circles(n_samples=300, noise=0.05, factor=0.5, random_state=42)
+X_scaled = StandardScaler().fit_transform(X)
+
+# K-Means
+km = KMeans(n_clusters=2, random_state=42, n_init=10)
+km_labels = km.fit_predict(X_scaled)
+km_sil = silhouette_score(X_scaled, km_labels)
+
+# DBSCAN
+db = DBSCAN(eps=0.3, min_samples=5)
+db_labels = db.fit_predict(X_scaled)
+mask = db_labels != -1
+db_sil = silhouette_score(X_scaled[mask], db_labels[mask]) if len(set(db_labels[mask])) >= 2 else -1
+
+print(f"K-Means silhouette: {km_sil:.4f}")
+print(f"DBSCAN silhouette:  {db_sil:.4f}")
+print(f"DBSCAN wins: {db_sil > km_sil}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain the four linkage methods in hierarchical clustering (single, complete, average, ward). Which is the default in sklearn and why?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Each measures inter-cluster distance differently. Ward minimizes variance.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><strong>Single linkage</strong>: Distance = minimum distance between any two points in the two clusters. Produces elongated chains. <strong>Complete linkage</strong>: Distance = maximum distance between any two points. Produces compact clusters. <strong>Average linkage</strong>: Distance = average of all pairwise distances between points in the two clusters. A balance between single and complete. <strong>Ward linkage</strong>: Merges the pair of clusters that causes the smallest increase in total within-cluster variance. Default in sklearn because it produces the most balanced, compact clusters similar to K-Means output.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a function <code>find_best_eps(X, min_samples)</code> that returns a suggested eps value for DBSCAN using the k-distance method. Use NearestNeighbors to find the distance to the k-th neighbor, sort them, and return the distance at the 90th percentile as the suggested eps.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Use NearestNeighbors(n_neighbors=min_samples), fit, kneighbors, sort distances, take 90th percentile.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>import numpy as np
+from sklearn.neighbors import NearestNeighbors
+
+def find_best_eps(X, min_samples):
+    nn = NearestNeighbors(n_neighbors=min_samples)
+    nn.fit(X)
+    distances, _ = nn.kneighbors(X)
+    k_distances = np.sort(distances[:, min_samples - 1])
+    suggested_eps = np.percentile(k_distances, 90)
+    return suggested_eps
+
+# Test it
+from sklearn.datasets import make_blobs
+from sklearn.preprocessing import StandardScaler
+
+X, _ = make_blobs(n_samples=300, centers=3, random_state=42)
+X_scaled = StandardScaler().fit_transform(X)
+eps = find_best_eps(X_scaled, min_samples=5)
+print(f"Suggested eps: {eps:.4f}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Meera has a dataset with clusters of very different densities -- one tight cluster with 50 points and one sparse cluster with 200 points. Which algorithm would struggle and which would work? Explain.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">DBSCAN uses a single eps. Can one eps value capture both tight and sparse clusters?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><strong>DBSCAN struggles</strong> with varying density clusters. A single eps value cannot capture both a tight cluster (needing small eps) and a sparse cluster (needing large eps). A small eps would fragment the sparse cluster; a large eps would merge the tight cluster with noise. <strong>K-Means</strong> would handle this better because it does not depend on density -- it assigns points to the nearest centroid regardless of cluster compactness. Alternatively, <strong>HDBSCAN</strong> (Hierarchical DBSCAN) handles varying densities by building a hierarchy of DBSCAN solutions at different eps values.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which of the following is NOT a clustering algorithm?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> K-Means</li><li><span class="mcq-option-label">B.</span> DBSCAN</li><li><span class="mcq-option-label">C.</span> Logistic Regression</li><li><span class="mcq-option-label">D.</span> Agglomerative Clustering</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> Logistic Regression is a supervised classification algorithm, not a clustering algorithm. K-Means, DBSCAN, and Agglomerative Clustering are all unsupervised clustering algorithms.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does DBSCAN label a point that does not belong to any cluster?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> -1</li><li><span class="mcq-option-label">C.</span> NaN</li><li><span class="mcq-option-label">D.</span> None</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> DBSCAN labels noise points (outliers) as -1. These are points that do not have enough neighbors within eps distance to be core points and are not reachable from any core point.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does the elbow method help determine in K-Means?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The best features to use</li><li><span class="mcq-option-label">B.</span> The optimal number of clusters (K)</li><li><span class="mcq-option-label">C.</span> The learning rate</li><li><span class="mcq-option-label">D.</span> The number of iterations</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> The elbow method plots K versus inertia (within-cluster sum of squares). The 'elbow' point -- where the curve bends and starts to flatten -- suggests the optimal number of clusters.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is the range of the silhouette score?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0 to 1</li><li><span class="mcq-option-label">B.</span> -1 to 1</li><li><span class="mcq-option-label">C.</span> 0 to 100</li><li><span class="mcq-option-label">D.</span> -inf to +inf</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> The silhouette score ranges from -1 (worst, point is in the wrong cluster) to +1 (best, point is well-matched to its own cluster and separated from others). 0 indicates the point is on the boundary between clusters.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which of the following statements about K-Means is TRUE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> K-Means can find any shape of cluster</li><li><span class="mcq-option-label">B.</span> K-Means automatically determines the number of clusters</li><li><span class="mcq-option-label">C.</span> K-Means requires you to specify K (number of clusters) beforehand</li><li><span class="mcq-option-label">D.</span> K-Means is immune to outliers</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> K-Means requires K as input. It cannot determine the number of clusters automatically (A is wrong -- it assumes spherical clusters, B is wrong -- K must be specified, D is wrong -- outliers can pull centroids).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does <code>KMeans.inertia_</code> measure?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The number of iterations to converge</li><li><span class="mcq-option-label">B.</span> The sum of squared distances from points to their assigned centroids</li><li><span class="mcq-option-label">C.</span> The accuracy of clustering</li><li><span class="mcq-option-label">D.</span> The number of noise points</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> Inertia (also called within-cluster sum of squares or WCSS) is the sum of squared distances from each point to its assigned centroid. Lower inertia means tighter clusters. It always decreases as K increases.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Priya has data with crescent-shaped clusters. Which algorithm should she use?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> K-Means</li><li><span class="mcq-option-label">B.</span> Linear Regression</li><li><span class="mcq-option-label">C.</span> DBSCAN</li><li><span class="mcq-option-label">D.</span> Naive Bayes</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> DBSCAN can find arbitrarily shaped clusters because it follows density, not distance to centroids. K-Means (A) assumes spherical clusters and would fail. Linear Regression (B) and Naive Bayes (D) are supervised algorithms, not clustering algorithms.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">In DBSCAN, what is a 'core point'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A point at the center of the dataset</li><li><span class="mcq-option-label">B.</span> A point with at least min_samples neighbors within eps distance</li><li><span class="mcq-option-label">C.</span> The first point processed by the algorithm</li><li><span class="mcq-option-label">D.</span> A point that belongs to exactly one cluster</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> A core point has at least min_samples points (including itself) within a radius of eps. Core points form the dense interior of clusters. Points near core points but without enough neighbors themselves are border points.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which hierarchical clustering linkage method minimizes within-cluster variance?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Single linkage</li><li><span class="mcq-option-label">B.</span> Complete linkage</li><li><span class="mcq-option-label">C.</span> Average linkage</li><li><span class="mcq-option-label">D.</span> Ward linkage</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: D</strong><br><strong>D is correct.</strong> Ward linkage merges clusters that result in the minimum increase in total within-cluster variance. It produces compact, balanced clusters similar to K-Means. Single linkage (A) uses minimum distance and can create chains.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is a dendrogram?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A type of neural network</li><li><span class="mcq-option-label">B.</span> A tree diagram showing the order of cluster merges in hierarchical clustering</li><li><span class="mcq-option-label">C.</span> A plot of K versus inertia</li><li><span class="mcq-option-label">D.</span> A scatter plot of clustered data</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> A dendrogram is a tree-shaped diagram that shows how hierarchical clustering progressively merges (or splits) clusters. The height at which branches merge indicates the distance between clusters. Cutting the dendrogram at a specific height gives a flat clustering.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Arjun scales his data with StandardScaler before DBSCAN. Why is this important?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> StandardScaler speeds up DBSCAN</li><li><span class="mcq-option-label">B.</span> DBSCAN only accepts values between 0 and 1</li><li><span class="mcq-option-label">C.</span> Unscaled features with different ranges distort distance calculations, making eps meaningless</li><li><span class="mcq-option-label">D.</span> StandardScaler removes outliers automatically</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> DBSCAN uses Euclidean distance. If income is in thousands and age is in years, the income feature dominates the distance. A single eps value cannot meaningfully capture neighborhood proximity when features have vastly different scales. Scaling ensures all features contribute equally.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What happens if you increase eps in DBSCAN while keeping min_samples constant?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> More noise points, fewer clusters</li><li><span class="mcq-option-label">B.</span> Fewer noise points, clusters may merge into fewer larger clusters</li><li><span class="mcq-option-label">C.</span> No effect on results</li><li><span class="mcq-option-label">D.</span> More clusters with smaller sizes</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> A larger eps means a wider neighborhood radius. More points become neighbors, more core points form, and previously separate clusters may merge. Fewer points are classified as noise because they now fall within eps of some core point.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Which of the following is an advantage of DBSCAN over K-Means?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> DBSCAN is always faster</li><li><span class="mcq-option-label">B.</span> DBSCAN does not require specifying the number of clusters</li><li><span class="mcq-option-label">C.</span> DBSCAN always produces better silhouette scores</li><li><span class="mcq-option-label">D.</span> DBSCAN works better in high-dimensional spaces</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> DBSCAN automatically determines the number of clusters based on density. K-Means requires K as input. DBSCAN is not always faster (A), does not always produce better silhouette scores (C), and actually struggles in high dimensions (D) due to the curse of dimensionality.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Kavitha runs K-Means 10 times with different random seeds on the same data with the same K. She gets different cluster assignments each time. What causes this?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The data changes between runs</li><li><span class="mcq-option-label">B.</span> Different random initializations lead to different local optima</li><li><span class="mcq-option-label">C.</span> K-Means has a random component in its distance calculation</li><li><span class="mcq-option-label">D.</span> The sklearn implementation has a bug</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> K-Means is sensitive to initialization. Different random starting centroids can lead the algorithm to converge to different local optima. This is why sklearn's KMeans uses n_init=10 by default (runs 10 times, keeps the best result) and init='k-means++' for smarter initialization.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">A dataset has varying density clusters -- one very tight and one very spread out. Which algorithm handles this BEST?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> K-Means</li><li><span class="mcq-option-label">B.</span> DBSCAN</li><li><span class="mcq-option-label">C.</span> HDBSCAN</li><li><span class="mcq-option-label">D.</span> Agglomerative Clustering with single linkage</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> HDBSCAN (Hierarchical DBSCAN) handles varying density by building a hierarchy of DBSCAN solutions at different eps values. Standard DBSCAN (B) uses a single eps and struggles with varying densities. K-Means (A) does not consider density at all. Single linkage (D) can create chaining artifacts.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the time complexity of K-Means clustering?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(n)</li><li><span class="mcq-option-label">B.</span> O(n * k * i * d) where n=points, k=clusters, i=iterations, d=dimensions</li><li><span class="mcq-option-label">C.</span> O(n^2)</li><li><span class="mcq-option-label">D.</span> O(n * log n)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> In each iteration, K-Means computes the distance from each of n points to each of k centroids in d dimensions, then updates centroids. This gives O(n * k * d) per iteration, and with i iterations total: O(n * k * i * d). This is efficient for large datasets, which is why K-Means is so popular.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Suresh uses silhouette_score() to compare K=2 (score=0.65) and K=5 (score=0.42) on the same dataset. What should he conclude?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> K=5 is better because more clusters means better fit</li><li><span class="mcq-option-label">B.</span> K=2 is better because it has a higher silhouette score</li><li><span class="mcq-option-label">C.</span> He should also consider the elbow method and domain knowledge before deciding</li><li><span class="mcq-option-label">D.</span> The scores are not comparable for different K values</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> While K=2 has a higher silhouette score, the best K depends on multiple factors. The silhouette score favors fewer, well-separated clusters. The elbow method might suggest a different K, and domain knowledge (e.g., the business needs 5 customer segments) should also be considered. No single metric should be the sole decision-maker.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">In agglomerative hierarchical clustering, what is the 'chaining effect'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> When clusters form a perfect chain-like sequence</li><li><span class="mcq-option-label">B.</span> When single linkage connects two clusters through a chain of intermediate points, creating elongated clusters</li><li><span class="mcq-option-label">C.</span> When the algorithm runs indefinitely</li><li><span class="mcq-option-label">D.</span> When all points end up in one cluster too early</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> The chaining effect is a known problem with single linkage. If a chain of points connects two distinct clusters (each pair close enough), single linkage merges them because it only considers the minimum distance between any two points. Complete or Ward linkage avoids this by considering all or variance-based distances.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">What is the main goal of clustering?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Predict a target variable</li><li><span class="mcq-option-label">B.</span> Group similar data points together without labels</li><li><span class="mcq-option-label">C.</span> Reduce the number of features</li><li><span class="mcq-option-label">D.</span> Remove outliers from the dataset</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> Clustering groups similar data points together based on their features, without any predefined labels. Prediction (A) is supervised learning. Dimensionality reduction (C) is a separate task. While DBSCAN can detect outliers (D), that is a side effect, not the main goal of clustering.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">Rohit runs K-Means with K=3 and gets inertia=500. He runs it again with K=4 and gets inertia=480. Should he use K=4?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, lower inertia is always better</li><li><span class="mcq-option-label">B.</span> No, the small improvement (4%) suggests K=3 is at or past the elbow point</li><li><span class="mcq-option-label">C.</span> He should always use the maximum K possible</li><li><span class="mcq-option-label">D.</span> Inertia is not a valid metric for K-Means</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> Inertia always decreases as K increases (trivially, K=n gives inertia=0). The elbow method looks for where the decrease becomes marginal. A drop from 500 to 480 (4% improvement) after the curve has flattened suggests K=3 is at or past the elbow. Adding more clusters gives diminishing returns.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 21</div>
+                <div class="question-text">Which statement about the silhouette score is TRUE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It can only be computed for K-Means</li><li><span class="mcq-option-label">B.</span> It requires labeled data to compute</li><li><span class="mcq-option-label">C.</span> A score of -0.5 indicates most points are closer to a neighboring cluster than their own</li><li><span class="mcq-option-label">D.</span> It is always positive for good clusterings</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-21"><strong>Answer: C</strong><br><strong>C is correct.</strong> A negative silhouette score means b(i) < a(i), meaning the point is closer to the nearest other cluster than to its own cluster -- it is likely misassigned. Silhouette works for any clustering algorithm (A is wrong), does not need labels (B is wrong), and can be negative (D is wrong).</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <p>Coding challenges coming soon.</p>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/ai-and-machine-learning/model-evaluation-and-tuning/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Model Evaluation, Cross-Validation, and Hyperparameter Tuning</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/dimensionality-reduction/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Dimensionality Reduction - PCA and t-SNE</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/ai-and-machine-learning/unsupervised-learning-clustering" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

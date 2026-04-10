@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competitive Programming Patterns in C++ - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Fast I/O, common CP patterns, two pointers, sliding window, prefix sums, and optimization techniques.">
+    <meta name="keywords" content="competitive programming patterns in c++, c++ tutorial, c++ competitive programming patterns in c++, learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/competitive-programming-patterns">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/competitive-programming-patterns">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/competitive-programming-patterns">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/competitive-programming-patterns">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/competitive-programming-patterns">
+    <meta property="og:title" content="Competitive Programming Patterns in C++ - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Fast I/O, common CP patterns, two pointers, sliding window, prefix sums, and optimization techniques.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/competitive-programming-patterns">
+    <meta name="twitter:title" content="Competitive Programming Patterns in C++ - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Fast I/O, common CP patterns, two pointers, sliding window, prefix sums, and optimization techniques.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Competitive Programming Patterns in C++",
+    "description": "Fast I/O, common CP patterns, two pointers, sliding window, prefix sums, and optimization techniques.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/competitive-programming-patterns"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/competitive-programming-patterns"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Competitive Programming Patterns in C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp/competitive-programming-patterns"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting Fast I/O (Causes TLE on Large Inputs)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>ios_base::sync_with_stdio(false)</code> disables synchronization between C and C++ I/O streams. <code>cin.tie(nullptr)</code> unties cin from cout so cout is not flushed before every cin. Add these two lines at the start of every competitive programming solution."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Integer Overflow in Prefix Sum or Binary Search",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use <code>long long</code> for prefix sums, cumulative products, and binary search bounds. Compute midpoint as <code>lo + (hi - lo) / 2</code> instead of <code>(lo + hi) / 2</code> to avoid overflow."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Off-by-One in Sliding Window Size",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When the window right end is at index i, the window contains elements from i-k+1 to i (inclusive). The element leaving is at index i-k. Always verify window boundaries with a small example."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Binary Search on Answer with Wrong Bounds",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use consistent binary search templates. The <code>lo <= hi</code> template with <code>lo = mid + 1</code> and <code>hi = mid - 1</code> is the safest and avoids infinite loops. Always move both pointers past mid."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Bit Shift on Signed Negative Numbers",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For bit manipulation, prefer unsigned integers. Right-shifting unsigned values always fills with zeros (logical shift). If you must use signed integers, be aware that the behavior of right-shift on negatives varies by compiler."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Competitive Programming Patterns in C++</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 24</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Competitive Programming Patterns in C++</h1>
+            <a href="/resources/cpp/competitive-programming-patterns/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Competitive Programming Patterns?</h2><p><strong>Competitive programming patterns</strong> are reusable algorithmic templates that solve broad categories of problems efficiently. Instead of inventing a solution from scratch for every problem, experienced competitive programmers recognize the pattern and apply a known technique.</p><p>The most important patterns in competitive programming are:</p><ul><li><strong>Fast I/O</strong> -- critical for large inputs on online judges</li><li><strong>Two Pointers</strong> -- scan from both ends or use two markers</li><li><strong>Sliding Window</strong> -- maintain a window of elements that slides across the array</li><li><strong>Prefix Sum</strong> -- precompute cumulative sums for O(1) range queries</li><li><strong>Binary Search on Answer</strong> -- binary search the solution space, not the array</li><li><strong>Bit Manipulation</strong> -- use bitwise operations for O(1) tricks</li><li><strong>Greedy</strong> -- make the locally optimal choice at each step</li></ul><pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+// Fast I/O setup (use in every CP solution)
+void fastIO() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+}
+
+int main() {
+    fastIO();
+
+    // Two pointers: find pair with given sum in sorted array
+    vector&lt;int&gt; v = {1, 3, 5, 7, 9, 11};
+    int target = 12;
+    int left = 0, right = v.size() - 1;
+    while (left &lt; right) {
+        int sum = v[left] + v[right];
+        if (sum == target) {
+            cout &lt;&lt; v[left] &lt;&lt; " + " &lt;&lt; v[right] &lt;&lt; " = " &lt;&lt; target &lt;&lt; endl;
+            break;
+        } else if (sum &lt; target) left++;
+        else right--;
+    }
+    return 0;
+}</code></pre><p>When Siddharth says "this is a sliding window problem" or Ananya says "binary search on the answer," the pattern immediately narrows the solution approach and implementation time.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Competitive Programming Patterns Important?</h2><h3>1. Speed in Contests</h3><p>In a timed contest (Codeforces, CodeChef, ICPC), recognizing the pattern is 80% of solving the problem. If you see "find a subarray with maximum sum of length k," you immediately think sliding window. If you see "minimize the maximum value," you think binary search on answer. Pattern recognition saves critical minutes.</p><h3>2. Reducing O(n^2) to O(n) or O(n log n)</h3><p>Most competitive programming patterns exist to reduce brute-force time complexity. Two pointers reduces O(n^2) pair finding to O(n). Sliding window reduces O(n*k) subarray problems to O(n). Prefix sums reduce O(n) per range query to O(1). These optimizations are the difference between TLE and AC.</p><h3>3. Structured Problem Solving</h3><p>Patterns provide a mental framework: read the problem, identify constraints, match a pattern, implement the template. This structured approach works far better than ad-hoc coding, especially under pressure.</p><h3>4. Interview Preparation</h3><p>Top tech companies (Google, Amazon, Microsoft, Flipkart, Uber) heavily test these patterns. Two pointers, sliding window, prefix sums, and bit manipulation appear in the majority of coding interviews. Mastering these patterns directly translates to interview success.</p><h3>5. Building Blocks for Advanced Algorithms</h3><p>These basic patterns are building blocks for advanced techniques. Segment trees build on prefix sums. Convex hull trick builds on binary search. Network flow uses greedy and BFS. Mastering the basics makes advanced algorithms approachable.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><p><strong>Competitive programming patterns</strong> are reusable algorithmic templates that solve broad categories of problems efficiently. Instead of inventing a solution from scratch for every problem, experienced competitive programmers recognize the pattern and apply a known technique.</p><p>The most important patterns in competitive programming are:</p><ul><li><strong>Fast I/O</strong> -- critical for large inputs on online judges</li><li><strong>Two Pointers</strong> -- scan from both ends or use two markers</li><li><strong>Sliding Window</strong> -- maintain a window of elements that slides across the array</li><li><strong>Prefix Sum</strong> -- precompute cumulative sums for O(1) range queries</li><li><strong>Binary Search on Answer</strong> -- binary search the solution space, not the array</li><li><strong>Bit Manipulation</strong> -- use bitwise operations for O(1) tricks</li><li><strong>Greedy</strong> -- make the locally optimal choice at each step</li></ul><pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+// Fast I/O setup (use in every CP solution)
+void fastIO() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+}
+
+int main() {
+    fastIO();
+
+    // Two pointers: find pair with given sum in sorted array
+    vector&lt;int&gt; v = {1, 3, 5, 7, 9, 11};
+    int target = 12;
+    int left = 0, right = v.size() - 1;
+    while (left &lt; right) {
+        int sum = v[left] + v[right];
+        if (sum == target) {
+            cout &lt;&lt; v[left] &lt;&lt; " + " &lt;&lt; v[right] &lt;&lt; " = " &lt;&lt; target &lt;&lt; endl;
+            break;
+        } else if (sum &lt; target) left++;
+        else right--;
+    }
+    return 0;
+}</code></pre><p>When Siddharth says "this is a sliding window problem" or Ananya says "binary search on the answer," the pattern immediately narrows the solution approach and implementation time.</p><h3>1. Speed in Contests</h3><p>In a timed contest (Codeforces, CodeChef, ICPC), recognizing the pattern is 80% of solving the problem. If you see "find a subarray with maximum sum of length k," you immediately think sliding window. If you see "minimize the maximum value," you think binary search on answer. Pattern recognition saves critical minutes.</p><h3>2. Reducing O(n^2) to O(n) or O(n log n)</h3><p>Most competitive programming patterns exist to reduce brute-force time complexity. Two pointers reduces O(n^2) pair finding to O(n). Sliding window reduces O(n*k) subarray problems to O(n). Prefix sums reduce O(n) per range query to O(1). These optimizations are the difference between TLE and AC.</p><h3>3. Structured Problem Solving</h3><p>Patterns provide a mental framework: read the problem, identify constraints, match a pattern, implement the template. This structured approach works far better than ad-hoc coding, especially under pressure.</p><h3>4. Interview Preparation</h3><p>Top tech companies (Google, Amazon, Microsoft, Flipkart, Uber) heavily test these patterns. Two pointers, sliding window, prefix sums, and bit manipulation appear in the majority of coding interviews. Mastering these patterns directly translates to interview success.</p><h3>5. Building Blocks for Advanced Algorithms</h3><p>These basic patterns are building blocks for advanced techniques. Segment trees build on prefix sums. Convex hull trick builds on binary search. Network flow uses greedy and BFS. Mastering the basics makes advanced algorithms approachable.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Two Pointers: Container With Most Water</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    vector&lt;int&gt; height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+    int left = 0, right = height.size() - 1;
+    int maxWater = 0;
+
+    while (left &lt; right) {
+        int width = right - left;
+        int h = min(height[left], height[right]);
+        maxWater = max(maxWater, width * h);
+
+        // Move the shorter side inward
+        if (height[left] &lt; height[right])
+            left++;
+        else
+            right--;
+    }
+
+    cout &lt;&lt; &quot;Max water: &quot; &lt;&lt; maxWater &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">The two-pointer technique works on sorted arrays or problems where moving one pointer reduces the search space. Here, we start from both ends and always move the shorter side inward because keeping the shorter side cannot improve the area. This reduces O(n^2) brute force to O(n).</div><div class="code-example-output">Max water: 49</div></div>
+<div class="code-example"><div class="code-example-title">Sliding Window: Maximum Sum Subarray of Size K</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    vector&lt;int&gt; arr = {2, 1, 5, 1, 3, 2, 8, 4, 3};
+    int k = 3;
+    int n = arr.size();
+
+    // Compute sum of first window
+    int windowSum = 0;
+    for (int i = 0; i &lt; k; i++)
+        windowSum += arr[i];
+
+    int maxSum = windowSum;
+    int startIdx = 0;
+
+    // Slide the window: add right element, remove left element
+    for (int i = k; i &lt; n; i++) {
+        windowSum += arr[i] - arr[i - k];
+        if (windowSum &gt; maxSum) {
+            maxSum = windowSum;
+            startIdx = i - k + 1;
+        }
+    }
+
+    cout &lt;&lt; &quot;Max sum: &quot; &lt;&lt; maxSum &lt;&lt; endl;
+    cout &lt;&lt; &quot;Subarray: &quot;;
+    for (int i = startIdx; i &lt; startIdx + k; i++)
+        cout &lt;&lt; arr[i] &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">The sliding window technique maintains a window of size k that slides one position at a time. Instead of recomputing the sum from scratch (O(k) per position), we add the new element and remove the old one (O(1) per position). Total complexity: O(n) instead of O(n*k).</div><div class="code-example-output">Max sum: 14
+Subarray: 2 8 4</div></div>
+<div class="code-example"><div class="code-example-title">Sliding Window: Longest Substring Without Repeating Characters</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+#include &lt;unordered_map&gt;
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    string s = &quot;abcabcbb&quot;;
+    unordered_map&lt;char, int&gt; lastSeen;
+    int maxLen = 0, start = 0;
+    int bestStart = 0;
+
+    for (int end = 0; end &lt; (int)s.size(); end++) {
+        if (lastSeen.count(s[end]) &amp;&amp; lastSeen[s[end]] &gt;= start)
+            start = lastSeen[s[end]] + 1;
+
+        lastSeen[s[end]] = end;
+        if (end - start + 1 &gt; maxLen) {
+            maxLen = end - start + 1;
+            bestStart = start;
+        }
+    }
+
+    cout &lt;&lt; &quot;Longest substring: &quot; &lt;&lt; s.substr(bestStart, maxLen) &lt;&lt; endl;
+    cout &lt;&lt; &quot;Length: &quot; &lt;&lt; maxLen &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">This is a variable-size sliding window. We expand the right end and shrink the left end when a duplicate is found within the current window. The <code>lastSeen</code> map tracks the most recent index of each character, allowing O(1) duplicate detection. Total: O(n) time, O(min(n, alphabet_size)) space.</div><div class="code-example-output">Longest substring: abc
+Length: 3</div></div>
+<div class="code-example"><div class="code-example-title">Prefix Sum: Subarray Sum Equals K</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;unordered_map&gt;
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    vector&lt;int&gt; nums = {1, 1, 1, 2, -1, 2};
+    int k = 3;
+
+    unordered_map&lt;int, int&gt; prefixCount;
+    prefixCount[0] = 1;  // Empty prefix has sum 0
+    int sum = 0, count = 0;
+
+    for (int num : nums) {
+        sum += num;
+        // If (sum - k) was a previous prefix sum,
+        // then the subarray between them sums to k
+        if (prefixCount.count(sum - k))
+            count += prefixCount[sum - k];
+        prefixCount[sum]++;
+    }
+
+    cout &lt;&lt; &quot;Subarrays with sum &quot; &lt;&lt; k &lt;&lt; &quot;: &quot; &lt;&lt; count &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">This is the prefix sum + hash map pattern. If prefix[j] - prefix[i] = k, then the subarray from i+1 to j sums to k. We store prefix sum frequencies in a hash map. For each position, we check if (current_sum - k) exists as a previous prefix sum. This solves the problem in O(n) instead of O(n^2).</div><div class="code-example-output">Subarrays with sum 3: 4</div></div>
+<div class="code-example"><div class="code-example-title">Binary Search on Answer: Minimum Maximum Pages Allocation</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+#include &lt;numeric&gt;
+using namespace std;
+
+// Can we allocate books to m students with max pages = maxPages?
+bool canAllocate(vector&lt;int&gt;&amp; books, int m, int maxPages) {
+    int students = 1, currentPages = 0;
+    for (int pages : books) {
+        if (pages &gt; maxPages) return false;  // Single book exceeds limit
+        if (currentPages + pages &gt; maxPages) {
+            students++;
+            currentPages = pages;
+        } else {
+            currentPages += pages;
+        }
+    }
+    return students &lt;= m;
+}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    vector&lt;int&gt; books = {12, 34, 67, 90};
+    int students = 2;
+
+    int lo = *max_element(books.begin(), books.end());
+    int hi = accumulate(books.begin(), books.end(), 0);
+    int answer = hi;
+
+    while (lo &lt;= hi) {
+        int mid = lo + (hi - lo) / 2;
+        if (canAllocate(books, students, mid)) {
+            answer = mid;
+            hi = mid - 1;
+        } else {
+            lo = mid + 1;
+        }
+    }
+
+    cout &lt;&lt; &quot;Minimum maximum pages: &quot; &lt;&lt; answer &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">Binary search on the answer: instead of searching for an element, we binary search the solution space. Here the answer (maximum pages any student reads) lies between max(books) and sum(books). For each candidate answer, we check feasibility with a greedy allocation. Total: O(n log(sum)) time. This pattern appears in hundreds of competitive programming problems.</div><div class="code-example-output">Minimum maximum pages: 113</div></div>
+<div class="code-example"><div class="code-example-title">Bit Manipulation: Common Tricks</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int n = 42;  // Binary: 101010
+
+    // Check if ith bit is set (0-indexed from right)
+    int i = 3;
+    cout &lt;&lt; &quot;Bit &quot; &lt;&lt; i &lt;&lt; &quot; of &quot; &lt;&lt; n &lt;&lt; &quot;: &quot; &lt;&lt; ((n &gt;&gt; i) &amp; 1) &lt;&lt; endl;
+
+    // Set the ith bit
+    int setResult = n | (1 &lt;&lt; 0);  // Set bit 0: 101010 -&gt; 101011
+    cout &lt;&lt; &quot;After setting bit 0: &quot; &lt;&lt; setResult &lt;&lt; endl;
+
+    // Clear the ith bit
+    int clearResult = n &amp; ~(1 &lt;&lt; 1);  // Clear bit 1: 101010 -&gt; 101000
+    cout &lt;&lt; &quot;After clearing bit 1: &quot; &lt;&lt; clearResult &lt;&lt; endl;
+
+    // Toggle the ith bit
+    int toggleResult = n ^ (1 &lt;&lt; 3);  // Toggle bit 3: 101010 -&gt; 100010
+    cout &lt;&lt; &quot;After toggling bit 3: &quot; &lt;&lt; toggleResult &lt;&lt; endl;
+
+    // Check if power of 2
+    for (int x : {1, 4, 6, 8, 16, 15}) {
+        bool isPow2 = (x &gt; 0) &amp;&amp; ((x &amp; (x - 1)) == 0);
+        cout &lt;&lt; x &lt;&lt; &quot; is &quot; &lt;&lt; (isPow2 ? &quot;&quot; : &quot;not &quot;) &lt;&lt; &quot;power of 2&quot; &lt;&lt; endl;
+    }
+
+    // Count set bits (popcount)
+    int x = 29;  // 11101 -&gt; 4 set bits
+    cout &lt;&lt; &quot;Set bits in &quot; &lt;&lt; x &lt;&lt; &quot;: &quot; &lt;&lt; __builtin_popcount(x) &lt;&lt; endl;
+
+    // XOR properties: a ^ a = 0, a ^ 0 = a
+    // Find the single number in array where every other appears twice
+    int arr[] = {4, 1, 2, 1, 2};
+    int single = 0;
+    for (int val : arr) single ^= val;
+    cout &lt;&lt; &quot;Single number: &quot; &lt;&lt; single &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Bit manipulation provides O(1) operations for common tasks. Check bit: <code>(n >> i) & 1</code>. Set bit: <code>n | (1 << i)</code>. Clear bit: <code>n & ~(1 << i)</code>. Toggle bit: <code>n ^ (1 << i)</code>. Power of 2: <code>n & (n-1) == 0</code>. XOR to find the unique element: pairs cancel out since a ^ a = 0. <code>__builtin_popcount</code> counts set bits in O(1).</div><div class="code-example-output">Bit 3 of 42: 1
+After setting bit 0: 43
+After clearing bit 1: 40
+After toggling bit 3: 34
+1 is power of 2
+4 is power of 2
+6 is not power of 2
+8 is power of 2
+16 is power of 2
+15 is not power of 2
+Set bits in 29: 4
+Single number: 4</div></div>
+<div class="code-example"><div class="code-example-title">Greedy: Activity Selection Problem</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    // {start, end} times
+    vector&lt;pair&lt;int,int&gt;&gt; activities = {
+        {1, 4}, {3, 5}, {0, 6}, {5, 7}, {3, 8},
+        {5, 9}, {6, 10}, {8, 11}, {8, 12}, {2, 13}, {12, 14}
+    };
+
+    // Greedy: sort by end time, pick non-overlapping
+    sort(activities.begin(), activities.end(),
+        [](const pair&lt;int,int&gt;&amp; a, const pair&lt;int,int&gt;&amp; b) {
+            return a.second &lt; b.second;
+        });
+
+    vector&lt;pair&lt;int,int&gt;&gt; selected;
+    int lastEnd = -1;
+    for (auto&amp; [start, end] : activities) {
+        if (start &gt;= lastEnd) {
+            selected.push_back({start, end});
+            lastEnd = end;
+        }
+    }
+
+    cout &lt;&lt; &quot;Maximum activities: &quot; &lt;&lt; selected.size() &lt;&lt; endl;
+    for (auto&amp; [s, e] : selected)
+        cout &lt;&lt; &quot;[&quot; &lt;&lt; s &lt;&lt; &quot;, &quot; &lt;&lt; e &lt;&lt; &quot;] &quot;;
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">The greedy algorithm makes the locally optimal choice at each step. For activity selection, the greedy strategy is: sort by end time and always pick the next compatible activity (the one that starts after the current one ends). This provably gives the maximum number of non-overlapping activities. Greedy works when the problem has the greedy choice property and optimal substructure.</div><div class="code-example-output">Maximum activities: 4
+[1, 4] [5, 7] [8, 11] [12, 14]</div></div>
+<div class="code-example"><div class="code-example-title">Greedy: Fractional Knapsack</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    // {value, weight}
+    vector&lt;pair&lt;double, double&gt;&gt; items = {
+        {60, 10}, {100, 20}, {120, 30}
+    };
+    double capacity = 50;
+
+    // Sort by value/weight ratio in descending order
+    sort(items.begin(), items.end(),
+        [](const pair&lt;double,double&gt;&amp; a, const pair&lt;double,double&gt;&amp; b) {
+            return (a.first / a.second) &gt; (b.first / b.second);
+        });
+
+    double totalValue = 0;
+    double remaining = capacity;
+
+    for (auto&amp; [value, weight] : items) {
+        if (remaining &gt;= weight) {
+            // Take the whole item
+            totalValue += value;
+            remaining -= weight;
+            cout &lt;&lt; &quot;Take full item: value=&quot; &lt;&lt; value &lt;&lt; &quot;, weight=&quot; &lt;&lt; weight &lt;&lt; endl;
+        } else if (remaining &gt; 0) {
+            // Take a fraction
+            double fraction = remaining / weight;
+            totalValue += value * fraction;
+            cout &lt;&lt; &quot;Take &quot; &lt;&lt; (fraction * 100) &lt;&lt; &quot;% of item: value=&quot; &lt;&lt; value
+                 &lt;&lt; &quot;, weight=&quot; &lt;&lt; weight &lt;&lt; endl;
+            remaining = 0;
+        }
+    }
+
+    cout &lt;&lt; &quot;Total value: &quot; &lt;&lt; totalValue &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">Fractional knapsack is solvable by greedy: sort items by value-to-weight ratio and take as much of the highest-ratio item as possible. Unlike 0/1 knapsack (which requires dynamic programming), fractional knapsack allows taking fractions of items, making the greedy approach optimal.</div><div class="code-example-output">Take full item: value=60, weight=10
+Take full item: value=100, weight=20
+Take 66.6667% of item: value=120, weight=30
+Total value: 240</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting Fast I/O (Causes TLE on Large Inputs)</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int n;
+    cin &gt;&gt; n;  // Slow! cin syncs with C stdio
+    // Processing large input causes TLE
+}</code></pre></div><div class="error-message">By default, cin/cout sync with C&#39;s scanf/printf, adding overhead. For inputs with 10^5+ elements, this can cause Time Limit Exceeded on online judges.</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int n;
+    cin &gt;&gt; n;  // Now fast!
+    // Process efficiently
+}</code></pre></div><div class="mistake-explanation"><code>ios_base::sync_with_stdio(false)</code> disables synchronization between C and C++ I/O streams. <code>cin.tie(nullptr)</code> unties cin from cout so cout is not flushed before every cin. Add these two lines at the start of every competitive programming solution.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Integer Overflow in Prefix Sum or Binary Search</h3>
+                <div class="wrong-code"><pre><code class="language-python">vector&lt;int&gt; v(100000, 1000000);
+int sum = 0;
+for (int x : v) sum += x;  // Overflow! sum exceeds INT_MAX
+
+int lo = 0, hi = 2000000000;
+int mid = (lo + hi) / 2;  // Overflow when lo + hi &gt; INT_MAX</code></pre></div><div class="error-message">int stores up to ~2.1 billion. Prefix sums and binary search midpoints can exceed this, causing silent overflow and wrong answers.</div><div class="correct-code"><pre><code class="language-python">vector&lt;int&gt; v(100000, 1000000);
+long long sum = 0;
+for (int x : v) sum += x;  // Use long long
+
+long long lo = 0, hi = 2000000000;
+long long mid = lo + (hi - lo) / 2;  // Overflow-safe midpoint</code></pre></div><div class="mistake-explanation">Use <code>long long</code> for prefix sums, cumulative products, and binary search bounds. Compute midpoint as <code>lo + (hi - lo) / 2</code> instead of <code>(lo + hi) / 2</code> to avoid overflow.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Off-by-One in Sliding Window Size</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Sliding window of size k, but window has k+1 elements
+for (int i = k; i &lt; n; i++) {
+    windowSum += arr[i] - arr[i - k - 1];  // Wrong index!
+}</code></pre></div><div class="error-message">When sliding a window of size k, the element leaving the window is at index i-k, not i-k-1. Off-by-one errors are the most common bug in sliding window problems.</div><div class="correct-code"><pre><code class="language-python">// Correct: element leaving is at index i-k
+for (int i = k; i &lt; n; i++) {
+    windowSum += arr[i] - arr[i - k];  // Correct!
+}</code></pre></div><div class="mistake-explanation">When the window right end is at index i, the window contains elements from i-k+1 to i (inclusive). The element leaving is at index i-k. Always verify window boundaries with a small example.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Binary Search on Answer with Wrong Bounds</h3>
+                <div class="wrong-code"><pre><code class="language-python">int lo = 0, hi = n;
+while (lo &lt; hi) {
+    int mid = lo + (hi - lo) / 2;
+    if (canDo(mid))
+        hi = mid;  // But never check lo == hi
+    else
+        lo = mid;  // Infinite loop when lo + 1 == hi!
+}</code></pre></div><div class="error-message">When lo = mid (not mid + 1), the search can get stuck in an infinite loop because lo never advances past mid when lo + 1 == hi.</div><div class="correct-code"><pre><code class="language-python">// Pattern 1: lo &lt;= hi (inclusive bounds)
+int lo = minVal, hi = maxVal;
+while (lo &lt;= hi) {
+    int mid = lo + (hi - lo) / 2;
+    if (canDo(mid)) {
+        answer = mid;
+        hi = mid - 1;
+    } else {
+        lo = mid + 1;
+    }
+}
+// answer is the result</code></pre></div><div class="mistake-explanation">Use consistent binary search templates. The <code>lo <= hi</code> template with <code>lo = mid + 1</code> and <code>hi = mid - 1</code> is the safest and avoids infinite loops. Always move both pointers past mid.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Bit Shift on Signed Negative Numbers</h3>
+                <div class="wrong-code"><pre><code class="language-python">int x = -1;
+int result = x &gt;&gt; 1;
+// Implementation-defined behavior!</code></pre></div><div class="error-message">Right-shifting a negative signed integer is implementation-defined in C++. The result depends on the compiler (arithmetic vs logical shift). This can cause wrong answers on different judges.</div><div class="correct-code"><pre><code class="language-python">unsigned int x = 0xFFFFFFFF;  // Use unsigned for bit manipulation
+unsigned int result = x &gt;&gt; 1;
+// Or use unsigned explicitly:
+int n = -5;
+unsigned int bits = (unsigned int)n;
+cout &lt;&lt; __builtin_popcount(bits) &lt;&lt; endl;</code></pre></div><div class="mistake-explanation">For bit manipulation, prefer unsigned integers. Right-shifting unsigned values always fills with zeros (logical shift). If you must use signed integers, be aware that the behavior of right-shift on negatives varies by compiler.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Fast I/O is mandatory in competitive programming. Add ios_base::sync_with_stdio(false) and cin.tie(nullptr) at the start of every solution. This alone can prevent TLE on problems with large inputs.</li>
+<li>Two pointers technique uses two indices that move toward each other (or in the same direction) to solve problems in O(n). Classic applications: pair sum in sorted array, container with most water, removing duplicates, and merging sorted arrays.</li>
+<li>Sliding window maintains a fixed or variable-size window that slides across the array. Fixed window: max sum subarray of size k. Variable window: longest substring without repeating characters. Both reduce O(n*k) or O(n^2) to O(n).</li>
+<li>Prefix sum precomputes cumulative sums so that range sum queries are O(1): sum(l, r) = prefix[r] - prefix[l-1]. The prefix sum + hash map pattern solves subarray sum equals k in O(n).</li>
+<li>Binary search on the answer binary searches the solution space instead of the array. The pattern is: define a range [lo, hi] for the answer, check feasibility with a greedy/simulation function, and narrow the range. Complexity: O(n log(answer_range)).</li>
+<li>Bit manipulation provides O(1) operations: check bit ((n &gt;&gt; i) &amp; 1), set bit (n | (1 &lt;&lt; i)), clear bit (n &amp; ~(1 &lt;&lt; i)), toggle bit (n ^ (1 &lt;&lt; i)), power of 2 check (n &amp; (n-1) == 0), count set bits (__builtin_popcount).</li>
+<li>XOR has three key properties: a ^ a = 0, a ^ 0 = a, and XOR is commutative/associative. This allows finding the single non-duplicate element in O(n) time O(1) space by XORing all elements.</li>
+<li>Greedy algorithms make the locally optimal choice at each step. Activity selection: sort by end time, pick non-overlapping. Fractional knapsack: sort by value/weight ratio. Greedy works only when the problem has the greedy choice property.</li>
+<li>Always use long long for prefix sums and binary search bounds to avoid integer overflow. Compute midpoint as lo + (hi - lo) / 2 instead of (lo + hi) / 2.</li>
+<li>Time complexity analysis is essential: O(n) solutions handle n up to 10^7, O(n log n) handles up to 10^6, O(n^2) handles up to 10^4, and O(2^n) handles up to about 20. Always check constraints before choosing an approach.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/smart-pointers-and-memory" class="related-topic-link">Smart Pointers and Modern Memory Management</a>
+<a href="/resources/cpp/modern-cpp-features" class="related-topic-link">Modern C++ Features (C++11 to C++20)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/smart-pointers-and-memory" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Smart Pointers and Modern Memory Management</span>
+        </a>
+            <a href="/resources/cpp/modern-cpp-features" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Modern C++ Features (C++11 to C++20)</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/competitive-programming-patterns/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

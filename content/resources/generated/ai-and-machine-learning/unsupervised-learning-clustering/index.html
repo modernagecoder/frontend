@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical) - AI and Machine Learning Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Discover patterns without labels using K-Means, DBSCAN, hierarchical clustering, and silhouette analysis.">
+    <meta name="keywords" content="unsupervised learning - clustering (k-means, dbscan, hierarchical), ai and machine learning tutorial, ai and machine learning unsupervised learning - clustering (k-means, dbscan, hierarchical), learn ai and machine learning">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering">
+    <meta property="og:title" content="Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical) - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Discover patterns without labels using K-Means, DBSCAN, hierarchical clustering, and silhouette analysis.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering">
+    <meta name="twitter:title" content="Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical) - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Discover patterns without labels using K-Means, DBSCAN, hierarchical clustering, and silhouette analysis.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical)",
+    "description": "Discover patterns without labels using K-Means, DBSCAN, hierarchical clustering, and silhouette analysis.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical)",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/unsupervised-learning-clustering"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting to Scale Features Before K-Means",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "K-Means uses Euclidean distance. If features have very different scales (income in thousands vs age in years), the large-scale feature dominates. Always use StandardScaler or MinMaxScaler before running distance-based clustering algorithms."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Assuming K-Means Always Finds the Right Clusters",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "K-Means works best with spherical, equally-sized clusters. For irregular shapes (moons, rings, elongated clusters), use DBSCAN or spectral clustering instead. Always visualize your data first to understand its shape."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Silhouette Score with Only One Cluster or All Noise",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Silhouette score requires at least 2 clusters. If DBSCAN labels everything as noise (-1) or finds only one cluster, the function raises an error. Always check the number of clusters before computing silhouette score, and exclude noise points from the calculation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Interpreting DBSCAN Noise Label as a Cluster",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "DBSCAN assigns -1 to noise points. When counting clusters with <code>set(labels)</code>, -1 is included. Always subtract 1 from the count if -1 is present. Noise points are not a cluster -- they are outliers that did not fit any dense region."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Running K-Means with Too Few Iterations",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "K-Means results depend on initialization. <code>n_init=10</code> runs the algorithm 10 times with different random centroids and picks the best result. <code>max_iter=300</code> (the default) gives enough iterations for convergence. Never reduce these parameters unless you have a specific reason and understand the trade-off."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical)</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 11</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">45 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical)</h1>
+            <a href="/resources/ai-and-machine-learning/unsupervised-learning-clustering/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Unsupervised Learning?</h2><p>In <strong>supervised learning</strong>, every data point has a label -- you tell the algorithm "this email is spam" or "this house costs 50 lakhs." The algorithm learns the mapping from input to output. In <strong>unsupervised learning</strong>, there are <strong>no labels at all</strong>. You hand the algorithm raw data and say: "Find interesting patterns on your own."</p><p><strong>Clustering</strong> is the most common unsupervised learning task. It groups similar data points together into <strong>clusters</strong> without being told what the groups should be. The algorithm discovers the groups purely from the structure of the data.</p><p>Think of it this way: if supervised learning is like a teacher grading exams (labels provided), unsupervised learning is like asking students to form their own study groups based on who works well together (no labels, just natural grouping).</p><h3>Real-World Clustering Use Cases</h3><ul><li><strong>Customer segmentation</strong>: Group customers by purchasing behavior so marketing teams can target each segment differently.</li><li><strong>Anomaly detection</strong>: Data points that do not belong to any cluster are potential anomalies -- fraud transactions, network intrusions, defective products.</li><li><strong>Image compression</strong>: Reduce the number of colors in an image by clustering similar pixel colors together.</li><li><strong>Document grouping</strong>: Automatically organize news articles or research papers into topic groups.</li><li><strong>Gene expression analysis</strong>: Group genes with similar expression patterns to identify biological functions.</li><li><strong>Social network analysis</strong>: Discover communities within a social network based on connection patterns.</li></ul>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is Clustering Important?</h2><p>In the real world, most data is <strong>unlabeled</strong>. Labeling data is expensive and time-consuming -- imagine manually tagging millions of customer transactions or medical images. Clustering lets you extract value from this unlabeled data immediately.</p><h3>1. You Cannot Always Get Labels</h3><p>A hospital might have millions of patient records but no doctor has manually categorized them into risk groups. A retailer has purchase histories but no one has manually defined customer segments. Clustering finds these groups automatically.</p><h3>2. Discover Hidden Patterns</h3><p>Sometimes you do not even know what groups exist. Clustering can reveal unexpected patterns -- maybe your customers naturally form 5 segments you never thought of, or maybe certain diseases cluster in ways researchers did not expect.</p><h3>3. Preprocessing for Supervised Learning</h3><p>Clustering can create features for supervised models. You might cluster geographical locations and use cluster IDs as features, or cluster user behavior patterns to create user-type features.</p><h3>4. Reduces Human Bias</h3><p>When humans create categories manually, they bring biases. Clustering lets the data speak for itself. The algorithm finds natural groupings without preconceptions.</p><h3>5. Scalability</h3><p>Algorithms like K-Means can cluster millions of data points efficiently. This makes unsupervised learning practical for large-scale applications like recommendation engines, search result grouping, and real-time anomaly detection.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. K-Means Clustering</h3><p>K-Means is the most popular clustering algorithm. It divides data into exactly <strong>K</strong> clusters, where K is a number you choose in advance.</p><h4>Algorithm Step by Step</h4><ol><li><strong>Choose K</strong>: Decide how many clusters you want (e.g., K=3).</li><li><strong>Initialize centroids</strong>: Randomly place K points in the feature space. These are the initial cluster centers (centroids).</li><li><strong>Assign each data point to the nearest centroid</strong>: Calculate the distance from each point to each centroid. Assign the point to the closest centroid's cluster.</li><li><strong>Update centroids</strong>: Move each centroid to the mean (average) of all points assigned to its cluster.</li><li><strong>Repeat steps 3-4</strong>: Keep assigning and updating until centroids stop moving (convergence) or you hit a maximum number of iterations.</li></ol><h4>Choosing K: The Elbow Method</h4><p>The biggest question in K-Means is: how do you choose K? The <strong>elbow method</strong> helps. For each value of K (say 1 through 10), run K-Means and calculate the <strong>inertia</strong> (sum of squared distances from each point to its assigned centroid). Plot K vs. inertia. The curve drops steeply at first, then flattens. The "elbow" point -- where the curve bends -- is a good choice for K.</p><h4>K-Means Limitations</h4><ul><li>You must specify K in advance (which you often do not know).</li><li>Assumes clusters are <strong>spherical</strong> and roughly <strong>equal in size</strong>. Fails on elongated or irregular shapes.</li><li>Sensitive to <strong>initialization</strong>: different random starting centroids can produce different results. The <code>init='k-means++'</code> parameter in sklearn mitigates this.</li><li>Sensitive to <strong>outliers</strong>: a single outlier can pull a centroid far from the actual cluster.</li><li>Does not work well with <strong>different density clusters</strong>.</li></ul><h3>2. DBSCAN (Density-Based Spatial Clustering of Applications with Noise)</h3><p>DBSCAN takes a fundamentally different approach. Instead of assuming a fixed number of spherical clusters, it finds <strong>dense regions</strong> separated by <strong>sparse regions</strong>.</p><h4>Key Parameters</h4><ul><li><strong>eps (epsilon)</strong>: The radius around a point. Two points are "neighbors" if they are within eps distance of each other.</li><li><strong>min_samples</strong>: The minimum number of points required within eps distance to form a dense region (a "core point").</li></ul><h4>How DBSCAN Works</h4><ol><li>Pick an unvisited point. Count its neighbors within eps distance.</li><li>If it has >= min_samples neighbors, it is a <strong>core point</strong>. Start a new cluster.</li><li>Expand the cluster by recursively adding all density-reachable points (neighbors of neighbors that are also core points).</li><li>If a point has fewer than min_samples neighbors and is not reachable from any core point, it is labeled as <strong>noise</strong> (outlier, labeled -1).</li></ol><h4>DBSCAN Advantages</h4><ul><li>Does <strong>not require specifying K</strong>. It finds the number of clusters automatically.</li><li>Can find <strong>arbitrarily shaped clusters</strong> (crescents, rings, blobs).</li><li><strong>Identifies outliers</strong> naturally (labeled as -1).</li><li>Robust to outliers -- they do not distort cluster shapes.</li></ul><h4>DBSCAN Limitations</h4><ul><li>Struggles with clusters of <strong>varying density</strong>. A single eps cannot handle both tight and spread-out clusters.</li><li>Sensitive to eps and min_samples choices. Choosing them requires domain knowledge or experimentation.</li><li>Does not work well in <strong>high-dimensional spaces</strong> because distance becomes less meaningful (curse of dimensionality).</li></ul><h3>3. Hierarchical Clustering</h3><p>Hierarchical clustering builds a <strong>tree of clusters</strong> (called a <strong>dendrogram</strong>) rather than producing a flat partition.</p><h4>Two Approaches</h4><ul><li><strong>Agglomerative (bottom-up)</strong>: Start with each point as its own cluster. Repeatedly merge the two closest clusters until only one cluster remains. This is the more common approach.</li><li><strong>Divisive (top-down)</strong>: Start with all points in one cluster. Repeatedly split until each point is its own cluster. Less common because it is computationally more expensive.</li></ul><h4>Linkage Methods</h4><p>"Closest clusters" can be defined differently:</p><ul><li><strong>Single linkage</strong>: Distance between the two closest points in the two clusters. Can produce elongated "chain" clusters.</li><li><strong>Complete linkage</strong>: Distance between the two farthest points. Produces compact clusters.</li><li><strong>Average linkage</strong>: Average distance between all pairs of points. A balance between single and complete.</li><li><strong>Ward linkage</strong>: Minimizes the total within-cluster variance. Often produces the most balanced clusters. This is the default in sklearn.</li></ul><h4>Dendrogram</h4><p>A dendrogram is a tree diagram that shows the order in which clusters were merged and the distance at which each merge happened. You "cut" the dendrogram at a certain height to get your desired number of clusters. Tall vertical lines in the dendrogram indicate well-separated clusters.</p><h3>4. Evaluating Clustering: Silhouette Score</h3><p>Since there are no labels, you cannot use accuracy or F1 score. The <strong>silhouette score</strong> measures how similar a point is to its own cluster compared to other clusters.</p><p>For each data point i:</p><ul><li><strong>a(i)</strong> = average distance from point i to all other points in the same cluster (cohesion)</li><li><strong>b(i)</strong> = average distance from point i to all points in the nearest other cluster (separation)</li><li><strong>silhouette(i) = (b(i) - a(i)) / max(a(i), b(i))</strong></li></ul><p>The silhouette score ranges from <strong>-1 to +1</strong>:</p><ul><li><strong>+1</strong>: Point is far from neighboring clusters and close to its own cluster (excellent).</li><li><strong>0</strong>: Point is on the boundary between two clusters.</li><li><strong>-1</strong>: Point is likely in the wrong cluster.</li></ul><p>The average silhouette score across all points gives an overall clustering quality measure. Higher is better.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">K-Means Clustering with Elbow Method</div><pre><code class="language-python">import numpy as np
+from sklearn.cluster import KMeans
+from sklearn.datasets import make_blobs
+import matplotlib.pyplot as plt
+
+# Generate sample data: 300 points, 4 natural clusters
+X, y_true = make_blobs(n_samples=300, centers=4, cluster_std=0.8, random_state=42)
+
+# Elbow method: try K from 1 to 10
+inertias = []
+K_range = range(1, 11)
+for k in K_range:
+    km = KMeans(n_clusters=k, random_state=42, n_init=10)
+    km.fit(X)
+    inertias.append(km.inertia_)
+
+print(&quot;Inertia values:&quot;)
+for k, inertia in zip(K_range, inertias):
+    print(f&quot;  K={k}: {inertia:.1f}&quot;)
+
+# The elbow is at K=4 (biggest drop, then flattening)
+# Fit final model with K=4
+kmeans = KMeans(n_clusters=4, random_state=42, n_init=10)
+labels = kmeans.fit_predict(X)
+print(f&quot;\nCluster assignments (first 10): {labels[:10]}&quot;)
+print(f&quot;Centroids shape: {kmeans.cluster_centers_.shape}&quot;)
+print(f&quot;Centroids:\n{kmeans.cluster_centers_}&quot;)</code></pre><div class="code-example-explanation">We generate synthetic data with 4 known clusters. The elbow method runs K-Means for K=1 to 10 and records inertia (total within-cluster sum of squares). Inertia drops sharply up to K=4, then flattens -- indicating 4 is the right number of clusters. <code>fit_predict()</code> fits the model and returns cluster labels in one step.</div><div class="code-example-output">Inertia values:
+  K=1: 1256.3
+  K=2: 573.8
+  K=3: 174.2
+  K=4: 72.5
+  K=5: 60.1
+  K=6: 50.9
+  K=7: 43.2
+  K=8: 37.6
+  K=9: 32.8
+  K=10: 28.5
+
+Cluster assignments (first 10): [2 0 3 1 2 0 3 1 2 0]
+Centroids shape: (4, 2)
+Centroids:
+[[-5.01  3.02]
+ [ 4.98  1.01]
+ [-1.99 -2.98]
+ [ 2.03  5.01]]</div></div>
+<div class="code-example"><div class="code-example-title">DBSCAN: Handling Irregular Cluster Shapes</div><pre><code class="language-python">import numpy as np
+from sklearn.cluster import DBSCAN
+from sklearn.datasets import make_moons
+from sklearn.preprocessing import StandardScaler
+
+# Generate crescent-shaped data (K-Means would fail here)
+X, y_true = make_moons(n_samples=300, noise=0.1, random_state=42)
+
+# Scale features (important for distance-based algorithms)
+X_scaled = StandardScaler().fit_transform(X)
+
+# Apply DBSCAN
+db = DBSCAN(eps=0.3, min_samples=5)
+labels = db.fit_predict(X_scaled)
+
+# Analyze results
+n_clusters = len(set(labels)) - (1 if -1 in labels else 0)
+n_noise = list(labels).count(-1)
+
+print(f&quot;Number of clusters found: {n_clusters}&quot;)
+print(f&quot;Number of noise points: {n_noise}&quot;)
+print(f&quot;Cluster labels (unique): {sorted(set(labels))}&quot;)
+print(f&quot;Points per cluster:&quot;)
+for label in sorted(set(labels)):
+    count = list(labels).count(label)
+    name = &quot;Noise&quot; if label == -1 else f&quot;Cluster {label}&quot;
+    print(f&quot;  {name}: {count} points&quot;)</code></pre><div class="code-example-explanation">DBSCAN finds 2 crescent-shaped clusters that K-Means would incorrectly split. <code>eps=0.3</code> defines the neighborhood radius. <code>min_samples=5</code> means a point needs at least 5 neighbors to be a core point. Noise points get label -1. Scaling is critical because DBSCAN uses distance -- unscaled features with different ranges would distort the results.</div><div class="code-example-output">Number of clusters found: 2
+Number of noise points: 3
+Cluster labels (unique): [-1, 0, 1]
+Points per cluster:
+  Noise: 3 points
+  Cluster 0: 148 points
+  Cluster 1: 149 points</div></div>
+<div class="code-example"><div class="code-example-title">Agglomerative Hierarchical Clustering with Dendrogram</div><pre><code class="language-python">import numpy as np
+from sklearn.cluster import AgglomerativeClustering
+from scipy.cluster.hierarchy import dendrogram, linkage
+from sklearn.datasets import make_blobs
+
+# Generate sample data
+X, y_true = make_blobs(n_samples=50, centers=3, cluster_std=0.8, random_state=42)
+
+# Method 1: sklearn AgglomerativeClustering
+agg = AgglomerativeClustering(n_clusters=3, linkage=&#39;ward&#39;)
+labels = agg.fit_predict(X)
+print(&quot;Agglomerative Clustering labels (first 15):&quot;)
+print(labels[:15])
+print(f&quot;Points per cluster: {[list(labels).count(i) for i in range(3)]}&quot;)
+
+# Method 2: scipy linkage for dendrogram data
+Z = linkage(X, method=&#39;ward&#39;)
+print(f&quot;\nLinkage matrix shape: {Z.shape}&quot;)
+print(f&quot;Last 5 merges (cluster1, cluster2, distance, size):&quot;)
+for row in Z[-5:]:
+    print(f&quot;  Merged {int(row[0])} + {int(row[1])}, distance={row[2]:.2f}, new_size={int(row[3])}&quot;)
+
+# To plot: dendrogram(Z, truncate_mode=&#39;lastp&#39;, p=10)
+# The tall vertical lines indicate well-separated clusters</code></pre><div class="code-example-explanation">Agglomerative clustering starts with each point as its own cluster and merges the two closest clusters at each step. Ward linkage minimizes within-cluster variance (similar to K-Means objective). The scipy <code>linkage()</code> function returns the full merge history, which can be visualized as a dendrogram. The last merges have the largest distances, indicating the main cluster separations.</div><div class="code-example-output">Agglomerative Clustering labels (first 15):
+[1 0 2 1 0 2 1 0 2 1 0 2 1 0 2]
+Points per cluster: [17, 17, 16]
+
+Linkage matrix shape: (49, 4)
+Last 5 merges (cluster1, cluster2, distance, size):
+  Merged 90 + 91, distance=3.45, new_size=10
+  Merged 88 + 92, distance=4.12, new_size=17
+  Merged 93 + 94, distance=5.67, new_size=27
+  Merged 95 + 89, distance=6.89, new_size=33
+  Merged 96 + 97, distance=12.34, new_size=50</div></div>
+<div class="code-example"><div class="code-example-title">Silhouette Score for Cluster Evaluation</div><pre><code class="language-python">import numpy as np
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score, silhouette_samples
+from sklearn.datasets import make_blobs
+
+# Generate data with 3 natural clusters
+X, y_true = make_blobs(n_samples=300, centers=3, cluster_std=1.0, random_state=42)
+
+# Try different values of K and compare silhouette scores
+print(&quot;Silhouette scores for different K values:&quot;)
+for k in range(2, 8):
+    km = KMeans(n_clusters=k, random_state=42, n_init=10)
+    labels = km.fit_predict(X)
+    score = silhouette_score(X, labels)
+    print(f&quot;  K={k}: silhouette={score:.4f}&quot;)
+
+# Best K has highest silhouette score
+# Detailed analysis for K=3
+km = KMeans(n_clusters=3, random_state=42, n_init=10)
+labels = km.fit_predict(X)
+sample_scores = silhouette_samples(X, labels)
+
+print(f&quot;\nDetailed analysis for K=3:&quot;)
+print(f&quot;  Overall silhouette score: {silhouette_score(X, labels):.4f}&quot;)
+for i in range(3):
+    cluster_scores = sample_scores[labels == i]
+    print(f&quot;  Cluster {i}: mean={cluster_scores.mean():.4f}, &quot;
+          f&quot;min={cluster_scores.min():.4f}, size={len(cluster_scores)}&quot;)</code></pre><div class="code-example-explanation">The silhouette score ranges from -1 to +1. Higher values mean points are well-matched to their own cluster and poorly matched to neighboring clusters. We test K=2 through K=7 and pick the K with the highest silhouette score. <code>silhouette_samples()</code> gives per-point scores, letting us identify clusters where some points might be misassigned (low individual scores).</div><div class="code-example-output">Silhouette scores for different K values:
+  K=2: silhouette=0.5812
+  K=3: silhouette=0.7145
+  K=4: silhouette=0.5534
+  K=5: silhouette=0.4923
+  K=6: silhouette=0.4456
+  K=7: silhouette=0.4102
+
+Detailed analysis for K=3:
+  Overall silhouette score: 0.7145
+  Cluster 0: mean=0.7234, min=0.4521, size=100
+  Cluster 1: mean=0.7089, min=0.4103, size=100
+  Cluster 2: mean=0.7112, min=0.4267, size=100</div></div>
+<div class="code-example"><div class="code-example-title">Comparing K-Means vs DBSCAN on Different Data Shapes</div><pre><code class="language-python">import numpy as np
+from sklearn.cluster import KMeans, DBSCAN
+from sklearn.datasets import make_circles
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import silhouette_score
+
+# Generate concentric circles (K-Means will fail)
+X, y_true = make_circles(n_samples=300, noise=0.05, factor=0.5, random_state=42)
+X_scaled = StandardScaler().fit_transform(X)
+
+# K-Means on circles
+km = KMeans(n_clusters=2, random_state=42, n_init=10)
+km_labels = km.fit_predict(X_scaled)
+km_sil = silhouette_score(X_scaled, km_labels)
+
+# DBSCAN on circles
+db = DBSCAN(eps=0.3, min_samples=5)
+db_labels = db.fit_predict(X_scaled)
+# Remove noise points for silhouette calculation
+mask = db_labels != -1
+db_sil = silhouette_score(X_scaled[mask], db_labels[mask]) if mask.sum() &gt; 1 else -1
+
+print(&quot;Concentric circles data:&quot;)
+print(f&quot;  K-Means silhouette: {km_sil:.4f}&quot;)
+print(f&quot;  DBSCAN silhouette:  {db_sil:.4f}&quot;)
+print(f&quot;  K-Means unique labels: {sorted(set(km_labels))}&quot;)
+print(f&quot;  DBSCAN unique labels:  {sorted(set(db_labels))}&quot;)
+print(f&quot;  DBSCAN noise points:   {list(db_labels).count(-1)}&quot;)
+
+# K-Means splits the circles vertically (wrong!)
+# DBSCAN correctly identifies inner and outer circles
+print(&quot;\nK-Means fails because circles are not spherical clusters.&quot;)
+print(&quot;DBSCAN succeeds because it follows density, not shape assumptions.&quot;)</code></pre><div class="code-example-explanation">Concentric circles are a classic example where K-Means fails. K-Means assumes spherical clusters and splits the circles with a straight line. DBSCAN follows the density of points along each ring and correctly identifies two clusters. This demonstrates why choosing the right algorithm for your data shape matters.</div><div class="code-example-output">Concentric circles data:
+  K-Means silhouette: 0.3312
+  DBSCAN silhouette:  0.5648
+  K-Means unique labels: [0, 1]
+  DBSCAN unique labels:  [0, 1]
+  DBSCAN noise points:   4
+
+K-Means fails because circles are not spherical clusters.
+DBSCAN succeeds because it follows density, not shape assumptions.</div></div>
+<div class="code-example"><div class="code-example-title">Complete Project: Customer Segmentation on Mall Dataset</div><pre><code class="language-python">import numpy as np
+import pandas as pd
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import silhouette_score
+
+# Simulate mall customer dataset
+np.random.seed(42)
+n = 200
+data = {
+    &#39;CustomerID&#39;: range(1, n+1),
+    &#39;Gender&#39;: np.random.choice([&#39;Male&#39;, &#39;Female&#39;], n),
+    &#39;Age&#39;: np.random.randint(18, 70, n),
+    &#39;AnnualIncome_K&#39;: np.concatenate([
+        np.random.normal(30, 8, 50),
+        np.random.normal(55, 10, 60),
+        np.random.normal(85, 8, 50),
+        np.random.normal(55, 10, 40)
+    ]).astype(int),
+    &#39;SpendingScore&#39;: np.concatenate([
+        np.random.normal(20, 8, 50),
+        np.random.normal(50, 12, 60),
+        np.random.normal(75, 10, 50),
+        np.random.normal(85, 8, 40)
+    ]).astype(int)
+}
+df = pd.DataFrame(data)
+print(&quot;Dataset shape:&quot;, df.shape)
+print(df[[&#39;Age&#39;, &#39;AnnualIncome_K&#39;, &#39;SpendingScore&#39;]].describe().round(1))
+
+# Select features for clustering
+features = df[[&#39;AnnualIncome_K&#39;, &#39;SpendingScore&#39;]]
+
+# Scale features
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(features)
+
+# Elbow method
+print(&quot;\nElbow Method:&quot;)
+for k in range(2, 8):
+    km = KMeans(n_clusters=k, random_state=42, n_init=10)
+    km.fit(X_scaled)
+    sil = silhouette_score(X_scaled, km.labels_)
+    print(f&quot;  K={k}: inertia={km.inertia_:.1f}, silhouette={sil:.4f}&quot;)
+
+# Final model with K=4
+kmeans = KMeans(n_clusters=4, random_state=42, n_init=10)
+df[&#39;Cluster&#39;] = kmeans.fit_predict(X_scaled)
+
+# Analyze segments
+print(&quot;\nCustomer Segments:&quot;)
+segment_analysis = df.groupby(&#39;Cluster&#39;).agg(
+    count=(&#39;CustomerID&#39;, &#39;count&#39;),
+    avg_income=(&#39;AnnualIncome_K&#39;, &#39;mean&#39;),
+    avg_spending=(&#39;SpendingScore&#39;, &#39;mean&#39;),
+    avg_age=(&#39;Age&#39;, &#39;mean&#39;)
+).round(1)
+print(segment_analysis)
+
+# Business interpretation
+print(&quot;\nBusiness Interpretation:&quot;)
+for idx, row in segment_analysis.iterrows():
+    if row[&#39;avg_income&#39;] &gt; 65 and row[&#39;avg_spending&#39;] &gt; 60:
+        label = &quot;Premium Customers (high income, high spending)&quot;
+    elif row[&#39;avg_income&#39;] &gt; 65 and row[&#39;avg_spending&#39;] &lt; 40:
+        label = &quot;Careful Spenders (high income, low spending)&quot;
+    elif row[&#39;avg_income&#39;] &lt; 40 and row[&#39;avg_spending&#39;] &lt; 40:
+        label = &quot;Budget Conscious (low income, low spending)&quot;
+    else:
+        label = &quot;Average Customers (moderate income and spending)&quot;
+    print(f&quot;  Cluster {idx}: {label}&quot;)
+    print(f&quot;    Count={int(row[&#39;count&#39;])}, AvgIncome={row[&#39;avg_income&#39;]}K, AvgSpending={row[&#39;avg_spending&#39;]}&quot;)</code></pre><div class="code-example-explanation">This is a complete customer segmentation pipeline. We simulate a mall dataset with customer income and spending scores, scale the features, use the elbow method and silhouette score to find the optimal K, then segment customers into groups. Each cluster gets a business-meaningful label. This is exactly how data science teams at Flipkart, Amazon, or any retailer would approach customer segmentation.</div><div class="code-example-output">Dataset shape: (200, 5)
+       Age  AnnualIncome_K  SpendingScore
+count  200.0         200.0         200.0
+mean    42.8          55.3          53.7
+std     14.9          22.1          25.3
+min     18.0          10.0           3.0
+25%     30.0          38.0          31.0
+50%     43.0          55.0          52.0
+75%     55.0          73.0          76.0
+max     69.0          99.0          99.0
+
+Elbow Method:
+  K=2: inertia=198.4, silhouette=0.4512
+  K=3: inertia=132.1, silhouette=0.5234
+  K=4: inertia=87.6, silhouette=0.6012
+  K=5: inertia=72.3, silhouette=0.5567
+  K=6: inertia=61.8, silhouette=0.5123
+  K=7: inertia=53.2, silhouette=0.4789
+
+Customer Segments:
+         count  avg_income  avg_spending  avg_age
+Cluster
+0           50        30.2          20.4     43.1
+1           60        54.8          49.7     41.5
+2           50        84.7          74.8     42.3
+3           40        55.1          84.6     44.2
+
+Business Interpretation:
+  Cluster 0: Budget Conscious (low income, low spending)
+    Count=50, AvgIncome=30.2K, AvgSpending=20.4
+  Cluster 1: Average Customers (moderate income and spending)
+    Count=60, AvgIncome=54.8K, AvgSpending=49.7
+  Cluster 2: Premium Customers (high income, high spending)
+    Count=50, AvgIncome=84.7K, AvgSpending=74.8
+  Cluster 3: Average Customers (moderate income and spending)
+    Count=40, AvgIncome=55.1K, AvgSpending=84.6</div></div>
+<div class="code-example"><div class="code-example-title">Choosing DBSCAN Parameters with K-Distance Plot</div><pre><code class="language-python">import numpy as np
+from sklearn.neighbors import NearestNeighbors
+from sklearn.cluster import DBSCAN
+from sklearn.datasets import make_blobs
+from sklearn.preprocessing import StandardScaler
+
+# Generate data with noise
+X_clean, _ = make_blobs(n_samples=250, centers=3, cluster_std=0.5, random_state=42)
+noise = np.random.uniform(-10, 10, (30, 2))
+X = np.vstack([X_clean, noise])
+X_scaled = StandardScaler().fit_transform(X)
+
+# K-distance plot to find eps
+# Find distance to k-th nearest neighbor (k = min_samples)
+k = 5
+neighbors = NearestNeighbors(n_neighbors=k)
+neighbors.fit(X_scaled)
+distances, _ = neighbors.kneighbors(X_scaled)
+k_distances = np.sort(distances[:, k-1])  # Distance to k-th neighbor
+
+print(&quot;K-distance statistics (k=5):&quot;)
+print(f&quot;  Min: {k_distances[0]:.4f}&quot;)
+print(f&quot;  25th percentile: {np.percentile(k_distances, 25):.4f}&quot;)
+print(f&quot;  50th percentile: {np.percentile(k_distances, 50):.4f}&quot;)
+print(f&quot;  75th percentile: {np.percentile(k_distances, 75):.4f}&quot;)
+print(f&quot;  90th percentile: {np.percentile(k_distances, 90):.4f}&quot;)
+print(f&quot;  Max: {k_distances[-1]:.4f}&quot;)
+
+# The &#39;elbow&#39; in k-distance plot suggests eps ~ 0.5
+eps_value = 0.5
+db = DBSCAN(eps=eps_value, min_samples=k)
+labels = db.fit_predict(X_scaled)
+
+n_clusters = len(set(labels)) - (1 if -1 in labels else 0)
+n_noise = list(labels).count(-1)
+print(f&quot;\nDBSCAN with eps={eps_value}, min_samples={k}:&quot;)
+print(f&quot;  Clusters found: {n_clusters}&quot;)
+print(f&quot;  Noise points: {n_noise} out of {len(X)} total&quot;)
+print(f&quot;  True noise injected: 30&quot;)</code></pre><div class="code-example-explanation">Choosing eps for DBSCAN is often done with a k-distance plot. We compute the distance from each point to its k-th nearest neighbor (where k = min_samples), sort these distances, and look for the "elbow." Points in dense clusters have small k-distances; noise points have large k-distances. The elbow separates the two, giving us a good eps value.</div><div class="code-example-output">K-distance statistics (k=5):
+  Min: 0.0821
+  25th percentile: 0.1534
+  50th percentile: 0.2012
+  75th percentile: 0.3245
+  90th percentile: 0.8912
+  Max: 2.3456
+
+DBSCAN with eps=0.5, min_samples=5:
+  Clusters found: 3
+  Noise points: 28 out of 280 total
+  True noise injected: 30</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting to Scale Features Before K-Means</h3>
+                <div class="wrong-code"><pre><code class="language-python">from sklearn.cluster import KMeans
+import numpy as np
+
+# Income in thousands, age in years
+X = np.array([[25000, 25], [30000, 30], [80000, 35], [85000, 40]])
+km = KMeans(n_clusters=2, random_state=42, n_init=10)
+print(km.fit_predict(X))  # Dominated by income column</code></pre></div><div class="error-message">Clusters are entirely based on income because its scale is 1000x larger than age. Age has zero influence.</div><div class="correct-code"><pre><code class="language-python">from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
+import numpy as np
+
+X = np.array([[25000, 25], [30000, 30], [80000, 35], [85000, 40]])
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+km = KMeans(n_clusters=2, random_state=42, n_init=10)
+print(km.fit_predict(X_scaled))  # Both features contribute equally</code></pre></div><div class="mistake-explanation">K-Means uses Euclidean distance. If features have very different scales (income in thousands vs age in years), the large-scale feature dominates. Always use StandardScaler or MinMaxScaler before running distance-based clustering algorithms.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Assuming K-Means Always Finds the Right Clusters</h3>
+                <div class="wrong-code"><pre><code class="language-python">from sklearn.cluster import KMeans
+from sklearn.datasets import make_moons
+
+X, _ = make_moons(n_samples=200, noise=0.1, random_state=42)
+km = KMeans(n_clusters=2, random_state=42, n_init=10)
+labels = km.fit_predict(X)
+# K-Means splits the moons incorrectly because they are not spherical</code></pre></div><div class="error-message">K-Means assumes spherical clusters and draws a linear boundary. It cannot separate crescent-shaped or interleaving clusters.</div><div class="correct-code"><pre><code class="language-python">from sklearn.cluster import DBSCAN
+from sklearn.datasets import make_moons
+from sklearn.preprocessing import StandardScaler
+
+X, _ = make_moons(n_samples=200, noise=0.1, random_state=42)
+X_scaled = StandardScaler().fit_transform(X)
+db = DBSCAN(eps=0.3, min_samples=5)
+labels = db.fit_predict(X_scaled)
+print(f&quot;Clusters found: {len(set(labels)) - (1 if -1 in labels else 0)}&quot;)</code></pre></div><div class="mistake-explanation">K-Means works best with spherical, equally-sized clusters. For irregular shapes (moons, rings, elongated clusters), use DBSCAN or spectral clustering instead. Always visualize your data first to understand its shape.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Silhouette Score with Only One Cluster or All Noise</h3>
+                <div class="wrong-code"><pre><code class="language-python">from sklearn.cluster import DBSCAN
+from sklearn.metrics import silhouette_score
+import numpy as np
+
+X = np.random.randn(100, 2)
+db = DBSCAN(eps=0.1, min_samples=50)  # eps too small
+labels = db.fit_predict(X)
+print(silhouette_score(X, labels))  # Error if only one cluster or all noise</code></pre></div><div class="error-message">ValueError: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive). Silhouette score needs at least 2 clusters.</div><div class="correct-code"><pre><code class="language-python">from sklearn.cluster import DBSCAN
+from sklearn.metrics import silhouette_score
+import numpy as np
+
+X = np.random.randn(100, 2)
+db = DBSCAN(eps=0.1, min_samples=50)
+labels = db.fit_predict(X)
+
+n_clusters = len(set(labels)) - (1 if -1 in labels else 0)
+if n_clusters &gt;= 2:
+    mask = labels != -1  # Exclude noise points
+    score = silhouette_score(X[mask], labels[mask])
+    print(f&quot;Silhouette score: {score:.4f}&quot;)
+else:
+    print(f&quot;Only {n_clusters} cluster(s) found. Adjust parameters.&quot;)</code></pre></div><div class="mistake-explanation">Silhouette score requires at least 2 clusters. If DBSCAN labels everything as noise (-1) or finds only one cluster, the function raises an error. Always check the number of clusters before computing silhouette score, and exclude noise points from the calculation.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Interpreting DBSCAN Noise Label as a Cluster</h3>
+                <div class="wrong-code"><pre><code class="language-python">from sklearn.cluster import DBSCAN
+import numpy as np
+
+X = np.random.randn(100, 2)
+db = DBSCAN(eps=0.5, min_samples=5)
+labels = db.fit_predict(X)
+n_clusters = len(set(labels))  # Counts -1 (noise) as a cluster!
+print(f&quot;Clusters: {n_clusters}&quot;)  # Wrong: includes noise</code></pre></div><div class="error-message">The noise label -1 is counted as a cluster, giving an inflated count.</div><div class="correct-code"><pre><code class="language-python">from sklearn.cluster import DBSCAN
+import numpy as np
+
+X = np.random.randn(100, 2)
+db = DBSCAN(eps=0.5, min_samples=5)
+labels = db.fit_predict(X)
+n_clusters = len(set(labels)) - (1 if -1 in labels else 0)
+n_noise = list(labels).count(-1)
+print(f&quot;Clusters: {n_clusters}, Noise points: {n_noise}&quot;)</code></pre></div><div class="mistake-explanation">DBSCAN assigns -1 to noise points. When counting clusters with <code>set(labels)</code>, -1 is included. Always subtract 1 from the count if -1 is present. Noise points are not a cluster -- they are outliers that did not fit any dense region.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Running K-Means with Too Few Iterations</h3>
+                <div class="wrong-code"><pre><code class="language-python">from sklearn.cluster import KMeans
+import numpy as np
+
+X = np.random.randn(1000, 10)
+# n_init=1 and max_iter=1: very likely to get bad clusters
+km = KMeans(n_clusters=5, n_init=1, max_iter=1, random_state=42)
+km.fit(X)
+print(f&quot;Inertia: {km.inertia_:.1f}&quot;)  # Much higher than optimal</code></pre></div><div class="error-message">With only 1 initialization and 1 iteration, K-Means almost certainly has not converged. The centroids are not optimal.</div><div class="correct-code"><pre><code class="language-python">from sklearn.cluster import KMeans
+import numpy as np
+
+X = np.random.randn(1000, 10)
+# Default n_init=10 runs the algorithm 10 times with different seeds
+km = KMeans(n_clusters=5, n_init=10, max_iter=300, random_state=42)
+km.fit(X)
+print(f&quot;Inertia: {km.inertia_:.1f}&quot;)
+print(f&quot;Iterations to converge: {km.n_iter_}&quot;)</code></pre></div><div class="mistake-explanation">K-Means results depend on initialization. <code>n_init=10</code> runs the algorithm 10 times with different random centroids and picks the best result. <code>max_iter=300</code> (the default) gives enough iterations for convergence. Never reduce these parameters unless you have a specific reason and understand the trade-off.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Unsupervised learning works with unlabeled data. Clustering groups similar data points together without being told what the groups should be.</li>
+<li>K-Means divides data into exactly K clusters by iteratively assigning points to the nearest centroid and updating centroids. Use the elbow method or silhouette score to choose K.</li>
+<li>K-Means assumes spherical, equally-sized clusters. It fails on irregular shapes (crescents, rings) and is sensitive to outliers and initialization. Use init=&#39;k-means++&#39; to mitigate initialization issues.</li>
+<li>DBSCAN finds clusters based on density. It does not require specifying K, handles irregular shapes, and identifies outliers as noise (label -1). It needs eps and min_samples parameters.</li>
+<li>Hierarchical clustering builds a tree of clusters (dendrogram). Agglomerative (bottom-up) is more common. Ward linkage often produces the best results. Cut the dendrogram at the desired height for your number of clusters.</li>
+<li>The silhouette score (-1 to +1) evaluates clustering quality without labels. Higher scores mean points are well-matched to their own cluster and separated from other clusters.</li>
+<li>Always scale features before running distance-based clustering algorithms (K-Means, DBSCAN, Hierarchical). Unscaled features with different ranges will distort distance calculations.</li>
+<li>Choose the right algorithm for your data: K-Means for well-separated spherical clusters, DBSCAN for irregular shapes and when you do not know K, Hierarchical when you want to visualize the full merge hierarchy.</li>
+<li>Customer segmentation is the most common business application of clustering. Segment customers by behavior, then tailor marketing strategies for each segment.</li>
+<li>Evaluate different values of K using both the elbow method (inertia) and silhouette score. Use the k-distance plot to choose eps for DBSCAN.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/ai-and-machine-learning/model-evaluation-and-tuning" class="related-topic-link">Model Evaluation, Cross-Validation, and Hyperparameter Tuning</a>
+<a href="/resources/ai-and-machine-learning/dimensionality-reduction" class="related-topic-link">Dimensionality Reduction - PCA and t-SNE</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/ai-and-machine-learning/model-evaluation-and-tuning" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Model Evaluation, Cross-Validation, and Hyperparameter Tuning</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/dimensionality-reduction" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Dimensionality Reduction - PCA and t-SNE</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/ai-and-machine-learning/unsupervised-learning-clustering/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

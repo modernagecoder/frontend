@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Modern C++ Features (C++11 to C++20) | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="54+ practice questions on Modern C++ Features (C++11 to C++20) in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="modern c++ features (c++11 to c++20) practice, c++ questions, c++ practice problems, modern c++ features (c++11 to c++20) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/modern-cpp-features/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/modern-cpp-features/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/modern-cpp-features/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/modern-cpp-features/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/modern-cpp-features/practice">
+    <meta property="og:title" content="Practice Questions - Modern C++ Features (C++11 to C++20) | C++ | Modern Age Coders">
+    <meta property="og:description" content="54+ practice questions on Modern C++ Features (C++11 to C++20) in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/modern-cpp-features/practice">
+    <meta name="twitter:title" content="Practice Questions - Modern C++ Features (C++11 to C++20) | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="54+ practice questions on Modern C++ Features (C++11 to C++20) in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Modern C++ Features (C++11 to C++20)",
+    "description": "54+ practice questions on Modern C++ Features (C++11 to C++20) in C++.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Modern C++ Features (C++11 to C++20)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/modern-cpp-features/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Modern C++ Features (C++11 to C++20)",
+        "item": "https://learn.modernagecoders.com/resources/cpp/modern-cpp-features"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/modern-cpp-features/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/modern-cpp-features">Modern C++ Features (C++11 to C++20)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 25</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">54 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Modern C++ Features (C++11 to C++20)</h1>
+            <a href="/resources/cpp/modern-cpp-features" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto x = 42;
+auto y = 3.14;
+cout &lt;&lt; sizeof(x) &lt;&lt; " " &lt;&lt; sizeof(y);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">auto deduces int for 42 and double for 3.14.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>4 8</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {10, 20, 30};
+for (auto x : v) x *= 2;
+for (auto x : v) cout &lt;&lt; x &lt;&lt; " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">auto x (not auto& x) creates a copy.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>10 20 30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {10, 20, 30};
+for (auto&amp; x : v) x *= 2;
+for (auto x : v) cout &lt;&lt; x &lt;&lt; " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">auto& x is a reference -- modifying x modifies the vector.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>20 40 60</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto sq = [](int x) { return x * x; };
+cout &lt;&lt; sq(5) &lt;&lt; " " &lt;&lt; sq(3);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Lambda that squares its argument.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>25 9</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">int a = 10;
+auto add = [a](int x) { return x + a; };
+a = 20;
+cout &lt;&lt; add(5);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Capture by value copies the value at the time of lambda creation.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">int a = 10;
+auto add = [&amp;a](int x) { return x + a; };
+a = 20;
+cout &lt;&lt; add(5);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Capture by reference: the lambda sees the current value of a.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>25</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">pair&lt;string, int&gt; p = {"Arjun", 85};
+auto [name, marks] = p;
+marks = 90;
+cout &lt;&lt; p.second &lt;&lt; " " &lt;&lt; marks;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Structured bindings create copies by default (auto, not auto&).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>85 90</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">pair&lt;string, int&gt; p = {"Arjun", 85};
+auto&amp; [name, marks] = p;
+marks = 90;
+cout &lt;&lt; p.second;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">auto& structured bindings are references.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>90</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">constexpr int fib(int n) {
+    if (n &lt;= 1) return n;
+    return fib(n - 1) + fib(n - 2);
+}
+cout &lt;&lt; fib(7);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">constexpr recursive Fibonacci.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>13</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto print = [](auto x) { cout &lt;&lt; x &lt;&lt; " "; };
+print(42);
+print(3.14);
+print("hello");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Generic lambda (C++14): auto parameter works like a template.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>42 3.14 hello</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto counter = [n = 0]() mutable { return ++n; };
+cout &lt;&lt; counter() &lt;&lt; " " &lt;&lt; counter() &lt;&lt; " " &lt;&lt; counter();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Init capture (n = 0) creates a variable inside the lambda. mutable allows modification.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>1 2 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">optional&lt;int&gt; val;
+cout &lt;&lt; val.has_value() &lt;&lt; " ";
+val = 42;
+cout &lt;&lt; val.has_value() &lt;&lt; " " &lt;&lt; val.value() &lt;&lt; " ";
+val.reset();
+cout &lt;&lt; val.value_or(-1);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">optional can hold a value or be empty. value_or returns the default if empty.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>0 1 42 -1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">enum class Direction { Up = 1, Down = 2, Left = 3, Right = 4 };
+Direction d = Direction::Left;
+cout &lt;&lt; static_cast&lt;int&gt;(d);
+// cout &lt;&lt; d;  // Would NOT compile: no implicit conversion</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">enum class requires explicit cast to int.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto p = make_pair(10, 20);
+cout &lt;&lt; p.first &lt;&lt; " " &lt;&lt; p.second;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">make_pair creates a pair. auto deduces pair<int,int>.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>10 20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3, 4, 5};
+auto sum = [](const vector&lt;int&gt;&amp; vec) {
+    int s = 0;
+    for (auto x : vec) s += x;
+    return s;
+};
+cout &lt;&lt; sum(v);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Lambda that computes the sum of a vector.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">constexpr int square(int x) { return x * x; }
+constexpr int a = square(3);
+constexpr int b = square(4);
+cout &lt;&lt; a + b;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">constexpr evaluates at compile time.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>25</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto apply = [](auto f, auto x) { return f(x); };
+auto twice = [](int x) { return x * 2; };
+auto negate = [](int x) { return -x; };
+cout &lt;&lt; apply(twice, 5) &lt;&lt; " " &lt;&lt; apply(negate, 3);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Higher-order generic lambda: takes a function and an argument.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>10 -3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">using IntVec = vector&lt;int&gt;;
+IntVec v = {5, 10, 15};
+cout &lt;&lt; v.size() &lt;&lt; " " &lt;&lt; v[2];</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">using creates a type alias. IntVec is vector<int>.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>3 15</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">int* p = nullptr;
+cout &lt;&lt; (p == nullptr);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">nullptr is the type-safe null pointer constant.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v{1, 2, 3, 4, 5};
+cout &lt;&lt; v.size();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Uniform initialization with braces creates a vector with 5 elements.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto add = [](int a, int b) { return a + b; };
+cout &lt;&lt; add(10, 20);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Lambda that adds two integers.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {5, 3, 1, 4, 2};
+sort(v.begin(), v.end(), [](int a, int b) { return a &gt; b; });
+cout &lt;&lt; v[0] &lt;&lt; " " &lt;&lt; v[4];</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Lambda comparator returns true if a should come before b.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>5 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto [a, b, c] = tuple{10, 20, 30};
+cout &lt;&lt; a + b + c;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Structured bindings unpack a tuple.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>60</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">map&lt;string, int&gt; m = {{"a", 1}, {"b", 2}};
+if (auto it = m.find("b"); it != m.end())
+    cout &lt;&lt; it-&gt;second;
+else
+    cout &lt;&lt; "not found";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">C++17 if-with-initializer: the variable is scoped to the if/else.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">constexpr int N = 5;
+int arr[N] = {1, 2, 3, 4, 5};
+cout &lt;&lt; arr[N - 1];</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">constexpr values can be used as array sizes.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3, 4, 5};
+auto even = [](int x) { return x % 2 == 0; };
+int cnt = count_if(v.begin(), v.end(), even);
+auto it = find_if(v.begin(), v.end(), even);
+cout &lt;&lt; cnt &lt;&lt; " " &lt;&lt; *it;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">count_if counts matching elements. find_if finds the first match.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>2 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto make_adder = [](int n) {
+    return [n](int x) { return x + n; };
+};
+auto add5 = make_adder(5);
+auto add10 = make_adder(10);
+cout &lt;&lt; add5(3) &lt;&lt; " " &lt;&lt; add10(3);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">A lambda that returns a lambda (closure factory).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>8 13</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto fib = [](auto self, int n) -&gt; int {
+    if (n &lt;= 1) return n;
+    return self(self, n - 1) + self(self, n - 2);
+};
+cout &lt;&lt; fib(fib, 8);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">A recursive lambda using the self-passing trick.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>21</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between capture by value [x] and capture by reference [&x] in lambdas?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think about when the value is read and whether modifications are visible.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><strong>Capture by value [x]</strong> copies the variable at lambda creation time. The lambda has its own copy; changes to the original do not affect the lambda, and the lambda cannot modify the original (unless <code>mutable</code> is used, which modifies the copy). <strong>Capture by reference [&x]</strong> stores a reference to the original variable. The lambda always sees the current value, and modifications through the lambda affect the original.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What problems does C++20 concepts solve that SFINAE and enable_if had?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Think about error messages and readability.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">SFINAE (Substitution Failure Is Not An Error) and <code>enable_if</code> produce extremely cryptic error messages when template constraints are violated -- often dozens of lines of nested template instantiation errors. <strong>Concepts</strong> provide clear, readable error messages like "T does not satisfy Numeric." They also make the intent readable in the code itself: <code>template&lt;Numeric T&gt;</code> is immediately clear, while <code>template&lt;typename T, typename = enable_if_t&lt;is_arithmetic_v&lt;T&gt;&gt;&gt;</code> is nearly unreadable.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does the auto keyword do in C++11?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Declares a variable with automatic storage duration</li><li><span class="mcq-option-label">B.</span> Deduces the type of a variable from its initializer</li><li><span class="mcq-option-label">C.</span> Makes a variable constant</li><li><span class="mcq-option-label">D.</span> Allocates memory automatically</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> In C++11, <code>auto</code> was repurposed for type deduction. The compiler infers the type from the initializer expression.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What is nullptr in C++11?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> An integer constant with value 0</li><li><span class="mcq-option-label">B.</span> A type-safe null pointer constant</li><li><span class="mcq-option-label">C.</span> A null reference</li><li><span class="mcq-option-label">D.</span> A void pointer</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>nullptr</code> has type <code>std::nullptr_t</code> and unambiguously represents a null pointer, unlike <code>NULL</code> which is an integer 0.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which C++ standard introduced lambdas?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> C++03</li><li><span class="mcq-option-label">B.</span> C++11</li><li><span class="mcq-option-label">C.</span> C++14</li><li><span class="mcq-option-label">D.</span> C++17</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Lambda expressions were introduced in C++11. C++14 added generic lambdas (auto parameters).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does constexpr mean?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The variable is constant and cannot be modified</li><li><span class="mcq-option-label">B.</span> The expression can be evaluated at compile time</li><li><span class="mcq-option-label">C.</span> The expression is evaluated lazily</li><li><span class="mcq-option-label">D.</span> The variable is stored in read-only memory</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>constexpr</code> indicates that a function or variable can be evaluated at compile time when given constant arguments. It can also be called at runtime.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What is the syntax for a range-based for loop?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> for (auto x in container)</li><li><span class="mcq-option-label">B.</span> for (auto x : container)</li><li><span class="mcq-option-label">C.</span> foreach (auto x : container)</li><li><span class="mcq-option-label">D.</span> for (x &lt;- container)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> The C++11 range-based for loop uses the colon syntax: <code>for (auto x : container)</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the difference between enum and enum class?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> enum class is faster</li><li><span class="mcq-option-label">B.</span> enum class is scoped and does not implicitly convert to int</li><li><span class="mcq-option-label">C.</span> enum class allows string values</li><li><span class="mcq-option-label">D.</span> No difference, enum class is just an alias</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>enum class</code> (scoped enumeration) requires the scope operator (<code>Color::Red</code>) and does not implicitly convert to int. Regular <code>enum</code> pollutes the enclosing scope and allows implicit int conversion.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does [&] in a lambda capture clause mean?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Capture nothing</li><li><span class="mcq-option-label">B.</span> Capture all used variables by reference</li><li><span class="mcq-option-label">C.</span> Capture all used variables by value</li><li><span class="mcq-option-label">D.</span> Capture the this pointer</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>[&]</code> captures all variables used in the lambda by reference. <code>[=]</code> captures all by value. <code>[this]</code> captures the this pointer.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which C++ standard introduced structured bindings (auto [x, y] = pair)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> C++11</li><li><span class="mcq-option-label">B.</span> C++14</li><li><span class="mcq-option-label">C.</span> C++17</li><li><span class="mcq-option-label">D.</span> C++20</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Structured bindings were introduced in C++17. They work with pairs, tuples, arrays, and structs with public members.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does std::optional represent?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A pointer that may be null</li><li><span class="mcq-option-label">B.</span> A value that may or may not exist</li><li><span class="mcq-option-label">C.</span> An optional function parameter</li><li><span class="mcq-option-label">D.</span> A compile-time optional feature</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>std::optional&lt;T&gt;</code> either contains a value of type T or is empty (<code>nullopt</code>). It replaces sentinel values like -1 or nullptr for indicating missing data.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is string_view in C++17?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A mutable string</li><li><span class="mcq-option-label">B.</span> A non-owning, read-only reference to a string or substring</li><li><span class="mcq-option-label">C.</span> A compressed string representation</li><li><span class="mcq-option-label">D.</span> A Unicode string type</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>string_view</code> provides a lightweight, non-owning view into character data. It avoids copying strings when you only need to read them.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What does the spaceship operator (<=>) do in C++20?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Performs bitwise comparison</li><li><span class="mcq-option-label">B.</span> Generates all six comparison operators (==, !=, &lt;, &gt;, &lt;=, &gt;=) from a single definition</li><li><span class="mcq-option-label">C.</span> Compares pointers</li><li><span class="mcq-option-label">D.</span> Performs string comparison</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> The three-way comparison operator <code>&lt;=&gt;</code> returns a comparison category (strong_ordering, weak_ordering, partial_ordering). With <code>= default</code>, the compiler generates all six comparison operators automatically.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What are C++20 concepts?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Object-oriented design patterns</li><li><span class="mcq-option-label">B.</span> Named constraints on template parameters that produce clear error messages</li><li><span class="mcq-option-label">C.</span> Abstract base classes</li><li><span class="mcq-option-label">D.</span> Runtime type checks</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Concepts are named compile-time predicates that constrain template parameters. They replace SFINAE with readable syntax and produce clear error messages when constraints are not met.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does auto [x, y] = make_pair(1, 2); do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Creates a pair and assigns first to x and second to y</li><li><span class="mcq-option-label">B.</span> Creates two separate pairs</li><li><span class="mcq-option-label">C.</span> Creates a tuple of two elements</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: A</strong><br><strong>A is correct.</strong> Structured bindings decompose the pair: x gets first (1), y gets second (2). This eliminates the need for .first and .second.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the advantage of using over typedef?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> using is faster at runtime</li><li><span class="mcq-option-label">B.</span> using supports template aliases, typedef does not</li><li><span class="mcq-option-label">C.</span> typedef is deprecated</li><li><span class="mcq-option-label">D.</span> No advantage, they are identical</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>using</code> supports template aliases: <code>template&lt;typename T&gt; using Vec = vector&lt;T&gt;;</code>. This is impossible with <code>typedef</code>. The syntax is also more readable: <code>using F = int(*)(double);</code> vs <code>typedef int(*F)(double);</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does the mutable keyword do in a lambda?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Makes the lambda thread-safe</li><li><span class="mcq-option-label">B.</span> Allows the lambda to modify variables captured by value</li><li><span class="mcq-option-label">C.</span> Makes the lambda callable multiple times</li><li><span class="mcq-option-label">D.</span> Allows the lambda to be assigned to a different function</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> By default, variables captured by value are const inside the lambda. <code>mutable</code> removes this restriction, allowing the lambda to modify its captured copies (not the originals).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the correct way to declare a lambda that takes no parameters and returns void?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> auto f = [];</li><li><span class="mcq-option-label">B.</span> auto f = []() {};</li><li><span class="mcq-option-label">C.</span> auto f = lambda {};</li><li><span class="mcq-option-label">D.</span> auto f = () =&gt; {};</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> The syntax is <code>[]() {}</code>: empty capture, no parameters, empty body. The parentheses can be omitted if there are no parameters: <code>[] {}</code> is also valid.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Which C++ standard introduced generic lambdas (auto parameters)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> C++11</li><li><span class="mcq-option-label">B.</span> C++14</li><li><span class="mcq-option-label">C.</span> C++17</li><li><span class="mcq-option-label">D.</span> C++20</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> C++14 introduced generic lambdas where parameters can be declared with <code>auto</code>, making the lambda act like a template function.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What does value_or(default) do on a std::optional?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Sets the value to default</li><li><span class="mcq-option-label">B.</span> Returns the value if present, otherwise returns default</li><li><span class="mcq-option-label">C.</span> Throws if the value equals default</li><li><span class="mcq-option-label">D.</span> Compares the value with default</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>value_or(default)</code> returns the contained value if the optional has one, or the specified default if it is empty (nullopt).</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Sort Structs Using Lambda Comparator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a vector of Student structs (name, marks, grade). Sort by marks descending using a lambda. Print the sorted list using range-based for with structured bindings.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">{&quot;Arjun&quot;, 85, &#39;B&#39;}, {&quot;Priya&quot;, 92, &#39;A&#39;}, {&quot;Kiran&quot;, 78, &#39;B&#39;}, {&quot;Neha&quot;, 92, &#39;A&#39;}</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Neha: 92 (A)
+Priya: 92 (A)
+Arjun: 85 (B)
+Kiran: 78 (B)</div>
+                </div><div class="challenge-constraints">Use auto, lambda, range-based for, and structured bindings. No old-style loops.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+struct Student {
+    string name;
+    int marks;
+    char grade;
+};
+
+int main() {
+    vector&lt;Student&gt; students = {
+        {&quot;Arjun&quot;, 85, &#39;B&#39;}, {&quot;Priya&quot;, 92, &#39;A&#39;},
+        {&quot;Kiran&quot;, 78, &#39;B&#39;}, {&quot;Neha&quot;, 92, &#39;A&#39;}
+    };
+    sort(students.begin(), students.end(),
+        [](const Student&amp; a, const Student&amp; b) {
+            if (a.marks != b.marks) return a.marks &gt; b.marks;
+            return a.name &lt; b.name;
+        });
+    for (const auto&amp; [name, marks, grade] : students)
+        cout &lt;&lt; name &lt;&lt; &quot;: &quot; &lt;&lt; marks &lt;&lt; &quot; (&quot; &lt;&lt; grade &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Build a Closure Factory for Math Operations</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a function that returns a lambda. Given an operation string ("add", "multiply", "power"), return a lambda that performs that operation with a fixed operand. Demonstrate calling the returned lambdas.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">makeOp(&quot;add&quot;, 5), makeOp(&quot;multiply&quot;, 3), makeOp(&quot;power&quot;, 2)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">add5(10) = 15
+mul3(10) = 30
+pow2(10) = 100</div>
+                </div><div class="challenge-constraints">Use C++14 generic lambdas and closures. No if/else chains inside the lambdas themselves.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;functional&gt;
+#include &lt;cmath&gt;
+using namespace std;
+
+function&lt;int(int)&gt; makeOp(const string&amp; op, int n) {
+    if (op == &quot;add&quot;)
+        return [n](int x) { return x + n; };
+    if (op == &quot;multiply&quot;)
+        return [n](int x) { return x * n; };
+    if (op == &quot;power&quot;)
+        return [n](int x) { return (int)pow(x, n); };
+    return [](int x) { return x; };
+}
+
+int main() {
+    auto add5 = makeOp(&quot;add&quot;, 5);
+    auto mul3 = makeOp(&quot;multiply&quot;, 3);
+    auto pow2 = makeOp(&quot;power&quot;, 2);
+    cout &lt;&lt; &quot;add5(10) = &quot; &lt;&lt; add5(10) &lt;&lt; endl;
+    cout &lt;&lt; &quot;mul3(10) = &quot; &lt;&lt; mul3(10) &lt;&lt; endl;
+    cout &lt;&lt; &quot;pow2(10) = &quot; &lt;&lt; pow2(10) &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Compile-Time Lookup Table with constexpr</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a constexpr function that computes factorial. Use it to build a compile-time array of factorials from 0! to 12!. Print the table at runtime.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Factorials 0 to 12</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">0! = 1
+1! = 1
+2! = 2
+...
+12! = 479001600</div>
+                </div><div class="challenge-constraints">The factorial table must be computed entirely at compile time using constexpr.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;array&gt;
+using namespace std;
+
+constexpr long long factorial(int n) {
+    long long result = 1;
+    for (int i = 2; i &lt;= n; i++)
+        result *= i;
+    return result;
+}
+
+template&lt;size_t... Is&gt;
+constexpr auto makeFactTable(index_sequence&lt;Is...&gt;) {
+    return array&lt;long long, sizeof...(Is)&gt;{factorial(Is)...};
+}
+
+constexpr auto factTable = makeFactTable(make_index_sequence&lt;13&gt;{});
+
+int main() {
+    for (int i = 0; i &lt;= 12; i++)
+        cout &lt;&lt; i &lt;&lt; &quot;! = &quot; &lt;&lt; factTable[i] &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Transform and Filter with Lambdas (Functional Pipeline)</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given a vector of integers, use STL algorithms with lambdas to: (1) filter out odd numbers, (2) square the remaining even numbers, (3) sum the results. Use erase-remove idiom, transform, and accumulate.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Even numbers: 2 4 6 8 10
+Squared: 4 16 36 64 100
+Sum of squares: 220</div>
+                </div><div class="challenge-constraints">Use lambdas with remove_if, transform, and accumulate. No manual loops.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+#include &lt;numeric&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+    // Step 1: Remove odd numbers
+    v.erase(remove_if(v.begin(), v.end(), [](int x) { return x % 2 != 0; }), v.end());
+    cout &lt;&lt; &quot;Even numbers: &quot;;
+    for (auto x : v) cout &lt;&lt; x &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+
+    // Step 2: Square each element
+    transform(v.begin(), v.end(), v.begin(), [](int x) { return x * x; });
+    cout &lt;&lt; &quot;Squared: &quot;;
+    for (auto x : v) cout &lt;&lt; x &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+
+    // Step 3: Sum
+    auto sum = accumulate(v.begin(), v.end(), 0);
+    cout &lt;&lt; &quot;Sum of squares: &quot; &lt;&lt; sum &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Optional-Based Safe Division with Error Handling</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function safeDivide that returns optional<double>. Return nullopt for division by zero. Chain multiple operations and handle the optional results.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">safeDivide(10, 3), safeDivide(10, 0), safeDivide(100, 4)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">10 / 3 = 3.33333
+10 / 0 = error (division by zero)
+100 / 4 = 25</div>
+                </div><div class="challenge-constraints">Use std::optional. No exceptions or error codes.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;optional&gt;
+using namespace std;
+
+optional&lt;double&gt; safeDivide(double a, double b) {
+    if (b == 0) return nullopt;
+    return a / b;
+}
+
+void printResult(double a, double b) {
+    auto result = safeDivide(a, b);
+    cout &lt;&lt; a &lt;&lt; &quot; / &quot; &lt;&lt; b &lt;&lt; &quot; = &quot;;
+    if (result)
+        cout &lt;&lt; result.value() &lt;&lt; endl;
+    else
+        cout &lt;&lt; &quot;error (division by zero)&quot; &lt;&lt; endl;
+}
+
+int main() {
+    printResult(10, 3);
+    printResult(10, 0);
+    printResult(100, 4);
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Generic Sorting with Concepts (C++20)</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a generic sortAndPrint function constrained by a concept that requires the type to be sortable (has begin/end iterators and elements support <). Demonstrate with vectors of int, string, and double.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">vector&lt;int&gt;{5,3,1}, vector&lt;string&gt;{&quot;Kiran&quot;,&quot;Arjun&quot;,&quot;Priya&quot;}, vector&lt;double&gt;{3.14,1.41,2.72}</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">1 3 5
+Arjun Kiran Priya
+1.41 2.72 3.14</div>
+                </div><div class="challenge-constraints">Use C++20 concepts and requires clause.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+#include &lt;concepts&gt;
+#include &lt;string&gt;
+using namespace std;
+
+template&lt;typename C&gt;
+concept Sortable = requires(C c) {
+    { c.begin() } -&gt; input_or_output_iterator;
+    { c.end() } -&gt; input_or_output_iterator;
+    requires totally_ordered&lt;typename C::value_type&gt;;
+};
+
+void sortAndPrint(Sortable auto&amp; container) {
+    sort(container.begin(), container.end());
+    for (const auto&amp; x : container) cout &lt;&lt; x &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+}
+
+int main() {
+    vector&lt;int&gt; ints = {5, 3, 1};
+    vector&lt;string&gt; strs = {&quot;Kiran&quot;, &quot;Arjun&quot;, &quot;Priya&quot;};
+    vector&lt;double&gt; dbls = {3.14, 1.41, 2.72};
+    sortAndPrint(ints);
+    sortAndPrint(strs);
+    sortAndPrint(dbls);
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/competitive-programming-patterns/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Competitive Programming Patterns in C++</span>
+        </a>
+            
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/modern-cpp-features" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

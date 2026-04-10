@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Conditional Statements (if, else, switch) | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="57+ practice questions on Conditional Statements (if, else, switch) in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="conditional statements (if, else, switch) practice, c++ questions, c++ practice problems, conditional statements (if, else, switch) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/conditional-statements/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/conditional-statements/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/conditional-statements/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/conditional-statements/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/conditional-statements/practice">
+    <meta property="og:title" content="Practice Questions - Conditional Statements (if, else, switch) | C++ | Modern Age Coders">
+    <meta property="og:description" content="57+ practice questions on Conditional Statements (if, else, switch) in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/conditional-statements/practice">
+    <meta name="twitter:title" content="Practice Questions - Conditional Statements (if, else, switch) | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="57+ practice questions on Conditional Statements (if, else, switch) in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Conditional Statements (if, else, switch)",
+    "description": "57+ practice questions on Conditional Statements (if, else, switch) in C++.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Conditional Statements (if, else, switch)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/conditional-statements/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Conditional Statements (if, else, switch)",
+        "item": "https://learn.modernagecoders.com/resources/cpp/conditional-statements"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/conditional-statements/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/conditional-statements">Conditional Statements (if, else, switch)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 6</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">57 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Conditional Statements (if, else, switch)</h1>
+            <a href="/resources/cpp/conditional-statements" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 10;
+if (x > 5) {
+    cout << "Yes";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Check if 10 > 5.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Yes</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int a = 3, b = 7;
+if (a > b) {
+    cout << a;
+} else {
+    cout << b;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Compare 3 and 7.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int num = 0;
+if (num) {
+    cout << "Truthy";
+} else {
+    cout << "Falsy";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">In C++, what is the truthiness of 0?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>Falsy</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 15;
+if (x >= 10 && x <= 20) {
+    cout << "In range";
+} else {
+    cout << "Out of range";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Check if 15 is between 10 and 20 inclusive.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>In range</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int a = 5, b = 10;
+int result = (a > b) ? a : b;
+cout << result;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Ternary: if condition is false, the value after : is used.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>char ch = 'B';
+switch (ch) {
+    case 'A': cout << "Alpha"; break;
+    case 'B': cout << "Beta"; break;
+    case 'C': cout << "Gamma"; break;
+    default: cout << "Unknown";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">ch is 'B', find the matching case.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Beta</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 5;
+if (x = 0) {
+    cout << "Zero";
+} else {
+    cout << "Not zero";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Notice the single = sign in the condition.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Not zero</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int day = 3;
+switch (day) {
+    case 1: cout << "Mon ";
+    case 2: cout << "Tue ";
+    case 3: cout << "Wed ";
+    case 4: cout << "Thu ";
+            break;
+    case 5: cout << "Fri ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">No break after case 3. What happens?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Wed Thu </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int a = 10, b = 20, c = 15;
+if (a > b) {
+    if (a > c) cout << a;
+    else cout << c;
+} else {
+    if (b > c) cout << b;
+    else cout << c;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">This finds the maximum of three numbers.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 5;
+if (x > 10);
+{
+    cout << "Hello";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Notice the semicolon after the if condition.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>Hello</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int marks = 75;
+if (marks >= 90)
+    cout << "A";
+else if (marks >= 80)
+    cout << "B";
+else if (marks >= 70)
+    cout << "C";
+else
+    cout << "D";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Check conditions top to bottom. Which is the first to be true?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = -5;
+int abs = (x >= 0) ? x : -x;
+cout << abs;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">x is negative. Which branch of the ternary is taken?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int a = 1, b = 0;
+if (a > 0)
+    if (b > 0)
+        cout << "Both positive";
+else
+    cout << "Not both positive";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Dangling else: which if does the else bind to?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>Not both positive</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 3;
+switch (x) {
+    default: cout << "D ";
+    case 1: cout << "1 "; break;
+    case 2: cout << "2 ";
+    case 3: cout << "3 ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">default does not have to be at the end. And case 3 has no break.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>3 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 5;
+switch (x) {
+    default: cout << "D ";
+    case 1: cout << "1 "; break;
+    case 2: cout << "2 ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">No case matches x = 5. Where does execution start?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>D 1 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int a = 5, b = 3;
+cout << ((a > b) ? (a - b) : (b - a)) << endl;
+cout << ((a < b) ? (a - b) : (b - a)) << endl;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Evaluate each ternary condition separately.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>2</code><br><code>-2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">In C++, what values are considered truthy and falsy when used in an if condition?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Think about zero versus non-zero.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">In C++, <code>0</code> is falsy and every <strong>non-zero</strong> value is truthy. This includes negative numbers: <code>if (-1)</code> is true. For pointers, <code>nullptr</code> (which is 0) is falsy, and any valid pointer is truthy.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the dangling else problem in C++? How do you avoid it?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Think about which if an else binds to when there are no braces.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18">The dangling else problem occurs when an else could associate with more than one if statement. C++ resolves it by binding else to the <strong>nearest unmatched if</strong>, regardless of indentation. To avoid ambiguity, always use curly braces <code>{}</code> around if and else bodies, even for single statements.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why can you not use a string or a floating-point number in a switch expression in C++?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Think about how switch is implemented at the machine level.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19">The switch statement is typically compiled into a jump table or binary search on case values, both of which require integral (integer/char/enum) constants for efficient comparison. Floating-point numbers have precision issues (0.1 + 0.2 != 0.3), making exact comparison unreliable. Strings are objects, not integral types, and comparing them requires calling functions rather than simple integer comparison.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 2;
+int y = (x > 0) - (x < 0);
+cout << y;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Boolean expressions evaluate to 0 or 1 in C++.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>1</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a program that takes an integer and prints whether it is positive, negative, or zero.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Use if-else if-else with two conditions.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><pre><code>#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cin >> n;
+    if (n > 0) cout << "Positive" << endl;
+    else if (n < 0) cout << "Negative" << endl;
+    else cout << "Zero" << endl;
+    return 0;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int a = 10;
+if (a == 10)
+    cout << "Ten ";
+cout << "Done";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Without braces, only the first statement after if is in the body.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>Ten Done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 7;
+if (x > 5 && x < 10)
+    cout << "Yes";
+else
+    cout << "No";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Is 7 greater than 5 AND less than 10?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>Yes</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 5;
+if (x > 3)
+    if (x > 10)
+        cout << "A";
+    else
+        cout << "B";
+else
+    cout << "C";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Apply the dangling else rule carefully.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>B</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a program that takes a character and checks if it is a vowel or consonant (assume lowercase English letters only).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Use switch-case with fall-through for the 5 vowels.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><pre><code>#include <iostream>
+using namespace std;
+int main() {
+    char ch;
+    cin >> ch;
+    switch (ch) {
+        case 'a': case 'e': case 'i': case 'o': case 'u':
+            cout << ch << " is a vowel" << endl;
+            break;
+        default:
+            cout << ch << " is a consonant" << endl;
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int a = 5, b = 10, c = 5;
+if (a == c)
+    cout << "A ";
+if (a == b)
+    cout << "B ";
+if (b != c)
+    cout << "C ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">These are three separate if statements, not if-else if.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>A C </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 10;
+if (x > 5 || x < 3) {
+    cout << "Yes";
+} else {
+    cout << "No";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">With ||, if the first condition is true, the whole expression is true.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>Yes</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int a = 2, b = 3, c = 4;
+int result = (a > b) ? a : (b > c) ? b : c;
+cout << result;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Evaluate the outer ternary first, then the nested one.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 0;
+switch (x) {
+    case 0:
+        cout << "Zero ";
+    case 1:
+        cout << "One ";
+    default:
+        cout << "Default ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">No break statements anywhere. What happens after case 0 matches?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>Zero One Default </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a program that checks if a given year is a leap year.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Leap if divisible by 4, but not 100, unless also divisible by 400.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><pre><code>#include <iostream>
+using namespace std;
+int main() {
+    int year;
+    cin >> year;
+    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+        cout << year << " is a leap year" << endl;
+    else
+        cout << year << " is not a leap year" << endl;
+    return 0;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int a = 5;
+if (a > 2)
+    cout << "A ";
+if (a > 3)
+    cout << "B ";
+if (a > 4)
+    cout << "C ";
+if (a > 5)
+    cout << "D ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Each if is independent. Check all four conditions.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>A B C </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a program that takes three integers and prints them in ascending order using only if-else statements (no arrays or sorting algorithms).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Compare pairs and rearrange using swaps or nested conditions.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><pre><code>#include <iostream>
+using namespace std;
+int main() {
+    int a, b, c;
+    cin >> a >> b >> c;
+    if (a > b) { int t = a; a = b; b = t; }
+    if (b > c) { int t = b; b = c; c = t; }
+    if (a > b) { int t = a; a = b; b = t; }
+    cout << a << " " << b << " " << c << endl;
+    return 0;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 1;
+if (x)
+    if (x - 1)
+        cout << "A";
+    else
+        cout << "B";
+else
+    cout << "C";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">x is 1 (truthy). x-1 is 0 (falsy). Apply the dangling else rule.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>B</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is the output of if (0) cout << "Yes"; else cout << "No";?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes</li><li><span class="mcq-option-label">B.</span> No</li><li><span class="mcq-option-label">C.</span> Compilation error</li><li><span class="mcq-option-label">D.</span> No output</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> In C++, 0 is falsy. The condition is false, so the else block executes and prints No.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which of the following is the correct ternary operator syntax in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> condition ? true : false</li><li><span class="mcq-option-label">B.</span> condition : true ? false</li><li><span class="mcq-option-label">C.</span> if condition then true else false</li><li><span class="mcq-option-label">D.</span> condition ?? true : false</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: A</strong><br><strong>A is correct.</strong> The ternary syntax is <code>condition ? value_if_true : value_if_false</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What happens when no case matches in a switch and there is no default?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Compilation error</li><li><span class="mcq-option-label">B.</span> Runtime error</li><li><span class="mcq-option-label">C.</span> The switch block is skipped entirely</li><li><span class="mcq-option-label">D.</span> The first case executes</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> If no case matches and there is no default, the entire switch body is skipped. No error occurs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which data types can be used in a switch expression in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> int, char, float</li><li><span class="mcq-option-label">B.</span> int, char, string</li><li><span class="mcq-option-label">C.</span> int, char, enum</li><li><span class="mcq-option-label">D.</span> Any data type</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> switch requires an integral or enumeration type: int, char, short, long, bool, or enum. float, double, and string are not allowed.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">In C++, what is the value of the expression (5 > 3)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> true</li><li><span class="mcq-option-label">B.</span> 1</li><li><span class="mcq-option-label">C.</span> 5</li><li><span class="mcq-option-label">D.</span> Both A and B</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: D</strong><br><strong>D is correct.</strong> In C++, a boolean true has the integer value 1. The expression (5 > 3) evaluates to true, which is 1 when used in an integer context.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the output?<br><code>int x = 5; if (x = 10) cout << x; else cout << 0;</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 5</li><li><span class="mcq-option-label">B.</span> 10</li><li><span class="mcq-option-label">C.</span> 0</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> x = 10 is an assignment, not comparison. It assigns 10 to x and returns 10, which is truthy. So the if body runs and prints x, which is now 10.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">In the dangling else problem, the else binds to:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The first if in the code</li><li><span class="mcq-option-label">B.</span> The if matching the indentation</li><li><span class="mcq-option-label">C.</span> The nearest unmatched if</li><li><span class="mcq-option-label">D.</span> It causes a compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> C++ ignores indentation. The else always associates with the nearest preceding if that does not already have an else.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What does the break statement do inside a switch-case?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Exits the program</li><li><span class="mcq-option-label">B.</span> Exits the current function</li><li><span class="mcq-option-label">C.</span> Exits the switch block</li><li><span class="mcq-option-label">D.</span> Skips to the default case</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> break exits the switch block entirely, preventing fall-through to subsequent cases.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the output?<br><code>int x = 3; switch(x) { case 1: case 2: case 3: cout << "Low"; break; case 4: case 5: cout << "High"; break; }</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Low</li><li><span class="mcq-option-label">B.</span> High</li><li><span class="mcq-option-label">C.</span> LowHigh</li><li><span class="mcq-option-label">D.</span> No output</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: A</strong><br><strong>A is correct.</strong> x is 3, which matches case 3. Cases 1, 2, 3 are grouped via fall-through. The break after cout << "Low" prevents further execution.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which of the following is an infinite loop caused by a conditional bug?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> if (true) {}</li><li><span class="mcq-option-label">B.</span> while (x = 1) { x++; }</li><li><span class="mcq-option-label">C.</span> for (int i=0; i&lt;10; i++) {}</li><li><span class="mcq-option-label">D.</span> switch(1) { default: break; }</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> x = 1 is an assignment (not comparison). It assigns 1 to x every iteration and returns 1 (truthy), so the loop never ends. The x++ has no effect because x is reset to 1 at the start of each check.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the output?<br><code>int a = 0, b = 0; if (a++ && ++b) cout << a << b; else cout << a << b;</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 00</li><li><span class="mcq-option-label">B.</span> 10</li><li><span class="mcq-option-label">C.</span> 11</li><li><span class="mcq-option-label">D.</span> 01</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> a++ returns 0 (post-increment: uses old value), which is falsy. Due to short-circuit evaluation, ++b is never executed. After the expression, a is 1 (incremented) and b is 0 (never touched). The else branch prints 10.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the output?<br><code>int x = 10; int y = (x > 5) ? (x < 15) ? 1 : 2 : 3; cout << y;</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1</li><li><span class="mcq-option-label">B.</span> 2</li><li><span class="mcq-option-label">C.</span> 3</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: A</strong><br><strong>A is correct.</strong> Outer ternary: x > 5 (true), so evaluate inner ternary: x < 15 (true), returns 1. y = 1.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the value of z?<br><code>int x = 5, y = 10; int z = (x > 0) + (y > 0) + (x + y > 0);</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> 1</li><li><span class="mcq-option-label">C.</span> 3</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> Each boolean expression evaluates to 1 (true): (5>0)=1, (10>0)=1, (15>0)=1. Sum: 1+1+1=3. This exploits boolean-to-integer conversion in C++.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Can the default case appear before other cases in a switch block?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, it must be the last case</li><li><span class="mcq-option-label">B.</span> Yes, and it works correctly</li><li><span class="mcq-option-label">C.</span> Yes, but it causes undefined behavior</li><li><span class="mcq-option-label">D.</span> Only if there are no other cases</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> The default case can appear anywhere in the switch block. If no case matches, execution jumps to default regardless of its position. Fall-through rules still apply from default to subsequent cases.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Triangle Type Checker</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Take three side lengths from the user and determine if they form a valid triangle. If valid, print whether it is equilateral, isosceles, or scalene.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter three sides: 5 5 5</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Equilateral triangle</div>
+                </div><div class="challenge-constraints">Triangle inequality: sum of any two sides must be greater than the third side.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int a, b, c;
+    cout &lt;&lt; &quot;Enter three sides: &quot;;
+    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+    if (a + b &gt; c &amp;&amp; b + c &gt; a &amp;&amp; a + c &gt; b) {
+        if (a == b &amp;&amp; b == c)
+            cout &lt;&lt; &quot;Equilateral triangle&quot; &lt;&lt; endl;
+        else if (a == b || b == c || a == c)
+            cout &lt;&lt; &quot;Isosceles triangle&quot; &lt;&lt; endl;
+        else
+            cout &lt;&lt; &quot;Scalene triangle&quot; &lt;&lt; endl;
+    } else {
+        cout &lt;&lt; &quot;Not a valid triangle&quot; &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Simple Calculator with switch</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Build a calculator that takes two numbers and an operator (+, -, *, /) and prints the result. Handle division by zero.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">12 * 5</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">12 * 5 = 60</div>
+                </div><div class="challenge-constraints">Use switch-case on the operator character. Print an error for division by zero and unknown operators.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    double a, b;
+    char op;
+    cin &gt;&gt; a &gt;&gt; op &gt;&gt; b;
+    switch (op) {
+        case &#39;+&#39;: cout &lt;&lt; a &lt;&lt; &quot; + &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; a + b &lt;&lt; endl; break;
+        case &#39;-&#39;: cout &lt;&lt; a &lt;&lt; &quot; - &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; a - b &lt;&lt; endl; break;
+        case &#39;*&#39;: cout &lt;&lt; a &lt;&lt; &quot; * &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; a * b &lt;&lt; endl; break;
+        case &#39;/&#39;: 
+            if (b != 0) cout &lt;&lt; a &lt;&lt; &quot; / &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; a / b &lt;&lt; endl;
+            else cout &lt;&lt; &quot;Error: division by zero&quot; &lt;&lt; endl;
+            break;
+        default: cout &lt;&lt; &quot;Unknown operator&quot; &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Quadratic Equation Solver</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Take coefficients a, b, c of a quadratic equation ax^2 + bx + c = 0. Compute the discriminant and print the nature and values of roots.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter a b c: 1 -5 6</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Two distinct real roots: 3 and 2</div>
+                </div><div class="challenge-constraints">Handle three cases: discriminant &gt; 0 (two real roots), == 0 (one repeated root), &lt; 0 (complex roots). Use sqrt() from &lt;cmath&gt;.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;cmath&gt;
+using namespace std;
+int main() {
+    double a, b, c;
+    cout &lt;&lt; &quot;Enter a b c: &quot;;
+    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+    double disc = b * b - 4 * a * c;
+    if (disc &gt; 0) {
+        double r1 = (-b + sqrt(disc)) / (2 * a);
+        double r2 = (-b - sqrt(disc)) / (2 * a);
+        cout &lt;&lt; &quot;Two distinct real roots: &quot; &lt;&lt; r1 &lt;&lt; &quot; and &quot; &lt;&lt; r2 &lt;&lt; endl;
+    } else if (disc == 0) {
+        double r = -b / (2 * a);
+        cout &lt;&lt; &quot;One repeated root: &quot; &lt;&lt; r &lt;&lt; endl;
+    } else {
+        double real = -b / (2 * a);
+        double imag = sqrt(-disc) / (2 * a);
+        cout &lt;&lt; &quot;Complex roots: &quot; &lt;&lt; real &lt;&lt; &quot; + &quot; &lt;&lt; imag &lt;&lt; &quot;i and &quot; &lt;&lt; real &lt;&lt; &quot; - &quot; &lt;&lt; imag &lt;&lt; &quot;i&quot; &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Income Tax Calculator</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Calculate income tax using Indian tax slabs: 0-250000: nil, 250001-500000: 5%, 500001-1000000: 20%, above 1000000: 30%. Tax is computed on each slab separately (not flat rate on total income).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter annual income: 750000</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Tax: 37500</div>
+                </div><div class="challenge-constraints">Use if-else if chain. Compute tax incrementally for each slab.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    double income;
+    cout &lt;&lt; &quot;Enter annual income: &quot;;
+    cin &gt;&gt; income;
+    double tax = 0;
+    if (income &gt; 1000000) {
+        tax += (income - 1000000) * 0.30;
+        income = 1000000;
+    }
+    if (income &gt; 500000) {
+        tax += (income - 500000) * 0.20;
+        income = 500000;
+    }
+    if (income &gt; 250000) {
+        tax += (income - 250000) * 0.05;
+    }
+    cout &lt;&lt; &quot;Tax: &quot; &lt;&lt; tax &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Min/Max of Four Numbers Without Library</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Take four integers and find the minimum and maximum using only ternary operators. Do not use any library functions or arrays.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter four numbers: 12 5 23 8</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Min: 5
+Max: 23</div>
+                </div><div class="challenge-constraints">Use chained ternary operators. No min/max functions, no arrays, no loops.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int a, b, c, d;
+    cout &lt;&lt; &quot;Enter four numbers: &quot;;
+    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c &gt;&gt; d;
+    int minAB = (a &lt; b) ? a : b;
+    int minCD = (c &lt; d) ? c : d;
+    int minVal = (minAB &lt; minCD) ? minAB : minCD;
+    int maxAB = (a &gt; b) ? a : b;
+    int maxCD = (c &gt; d) ? c : d;
+    int maxVal = (maxAB &gt; maxCD) ? maxAB : maxCD;
+    cout &lt;&lt; &quot;Min: &quot; &lt;&lt; minVal &lt;&lt; endl;
+    cout &lt;&lt; &quot;Max: &quot; &lt;&lt; maxVal &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Day Name with switch and Weekday/Weekend</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Take a day number (1-7) and print the day name. Also print whether it is a weekday or weekend.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter day (1-7): 6</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Saturday (Weekend)</div>
+                </div><div class="challenge-constraints">Use switch for the day name. Use a second condition (or grouped switch) for weekday/weekend.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int day;
+    cout &lt;&lt; &quot;Enter day (1-7): &quot;;
+    cin &gt;&gt; day;
+    string name;
+    bool weekend = false;
+    switch (day) {
+        case 1: name = &quot;Monday&quot;; break;
+        case 2: name = &quot;Tuesday&quot;; break;
+        case 3: name = &quot;Wednesday&quot;; break;
+        case 4: name = &quot;Thursday&quot;; break;
+        case 5: name = &quot;Friday&quot;; break;
+        case 6: name = &quot;Saturday&quot;; weekend = true; break;
+        case 7: name = &quot;Sunday&quot;; weekend = true; break;
+        default: cout &lt;&lt; &quot;Invalid day&quot; &lt;&lt; endl; return 1;
+    }
+    cout &lt;&lt; name &lt;&lt; (weekend ? &quot; (Weekend)&quot; : &quot; (Weekday)&quot;) &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Character Classifier</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Take a character and classify it as: uppercase letter, lowercase letter, digit, whitespace, or special character. Print the ASCII value as well.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter a character: @</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">@ is a special character (ASCII: 64)</div>
+                </div><div class="challenge-constraints">Use if-else if with character ranges (&#39;A&#39;-&#39;Z&#39;, &#39;a&#39;-&#39;z&#39;, &#39;0&#39;-&#39;9&#39;). Do not use library functions like isupper().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    char ch;
+    cout &lt;&lt; &quot;Enter a character: &quot;;
+    cin &gt;&gt; ch;
+    cout &lt;&lt; ch &lt;&lt; &quot; is &quot;;
+    if (ch &gt;= &#39;A&#39; &amp;&amp; ch &lt;= &#39;Z&#39;)
+        cout &lt;&lt; &quot;an uppercase letter&quot;;
+    else if (ch &gt;= &#39;a&#39; &amp;&amp; ch &lt;= &#39;z&#39;)
+        cout &lt;&lt; &quot;a lowercase letter&quot;;
+    else if (ch &gt;= &#39;0&#39; &amp;&amp; ch &lt;= &#39;9&#39;)
+        cout &lt;&lt; &quot;a digit&quot;;
+    else if (ch == &#39; &#39; || ch == &#39;\t&#39; || ch == &#39;\n&#39;)
+        cout &lt;&lt; &quot;a whitespace character&quot;;
+    else
+        cout &lt;&lt; &quot;a special character&quot;;
+    cout &lt;&lt; &quot; (ASCII: &quot; &lt;&lt; (int)ch &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/input-output-and-formatting/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Input, Output, and Formatting</span>
+        </a>
+            <a href="/resources/cpp/loops-in-cpp/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Loops (for, while, do-while) and Patterns</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/conditional-statements" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

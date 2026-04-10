@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Encapsulation, Access Specifiers, and Friend Functions | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="52+ practice questions on Encapsulation, Access Specifiers, and Friend Functions in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="encapsulation, access specifiers, and friend functions practice, c++ questions, c++ practice problems, encapsulation, access specifiers, and friend functions exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers/practice">
+    <meta property="og:title" content="Practice Questions - Encapsulation, Access Specifiers, and Friend Functions | C++ | Modern Age Coders">
+    <meta property="og:description" content="52+ practice questions on Encapsulation, Access Specifiers, and Friend Functions in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers/practice">
+    <meta name="twitter:title" content="Practice Questions - Encapsulation, Access Specifiers, and Friend Functions | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="52+ practice questions on Encapsulation, Access Specifiers, and Friend Functions in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Encapsulation, Access Specifiers, and Friend Functions",
+    "description": "52+ practice questions on Encapsulation, Access Specifiers, and Friend Functions in C++.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Encapsulation, Access Specifiers, and Friend Functions"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Encapsulation, Access Specifiers, and Friend Functions",
+        "item": "https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/encapsulation-and-access-specifiers">Encapsulation, Access Specifiers, and Friend Functions</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 14</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">52 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Encapsulation, Access Specifiers, and Friend Functions</h1>
+            <a href="/resources/cpp/encapsulation-and-access-specifiers" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Box {
+private:
+    int val;
+public:
+    Box(int v) : val(v) {}
+    int getVal() const { return val; }
+};
+int main() {
+    Box b(10);
+    cout &lt;&lt; b.getVal() &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">val is private but getVal() is a public getter that returns it.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What happens when you compile this code?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Secret {
+private:
+    int x;
+public:
+    Secret(int v) : x(v) {}
+};
+int main() {
+    Secret s(5);
+    cout &lt;&lt; s.x &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">x is a private member. Can main() access it directly?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2">Compilation error: <code>'x' is a private member of 'Secret'</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+struct Point {
+    int x, y;
+};
+int main() {
+    Point p;
+    p.x = 3;
+    p.y = 4;
+    cout &lt;&lt; p.x &lt;&lt; ", " &lt;&lt; p.y &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">struct members are public by default, unlike class members.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>3, 4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Counter {
+    int count;
+public:
+    Counter() : count(0) {}
+    void increment() { count++; }
+    int getCount() const { return count; }
+};
+int main() {
+    Counter c;
+    c.increment();
+    c.increment();
+    c.increment();
+    cout &lt;&lt; c.getCount() &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">count starts at 0 and is incremented three times. getCount() returns it.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Pair {
+private:
+    int a, b;
+public:
+    Pair(int x, int y) : a(x), b(y) {}
+    friend int sum(const Pair&amp; p);
+};
+int sum(const Pair&amp; p) {
+    return p.a + p.b;
+}
+int main() {
+    Pair p(10, 20);
+    cout &lt;&lt; sum(p) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">sum() is a friend function of Pair, so it can access private members a and b.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+protected:
+    int x;
+public:
+    Base(int v) : x(v) {}
+};
+class Derived : public Base {
+public:
+    Derived(int v) : Base(v) {}
+    void show() { cout &lt;&lt; x &lt;&lt; endl; }
+};
+int main() {
+    Derived d(42);
+    d.show();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">x is protected in Base. Can Derived access it?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>42</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+private:
+    int val;
+public:
+    A(int v) : val(v) {}
+    friend class B;
+};
+class B {
+public:
+    void show(const A&amp; a) {
+        cout &lt;&lt; a.val &lt;&lt; endl;
+    }
+    void modify(A&amp; a, int v) {
+        a.val = v;
+    }
+};
+int main() {
+    A a(100);
+    B b;
+    b.show(a);
+    b.modify(a, 200);
+    b.show(a);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">B is a friend class of A, so all of B's methods can access A's private members.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>100</code><br><code>200</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Tracker {
+    mutable int count;
+    int data;
+public:
+    Tracker(int d) : data(d), count(0) {}
+    int getData() const {
+        count++;
+        return data;
+    }
+    int getCount() const { return count; }
+};
+int main() {
+    const Tracker t(99);
+    cout &lt;&lt; t.getData() &lt;&lt; endl;
+    cout &lt;&lt; t.getData() &lt;&lt; endl;
+    cout &lt;&lt; "Count: " &lt;&lt; t.getCount() &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">t is const, but count is mutable. Can getData() modify count?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>99</code><br><code>99</code><br><code>Count: 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What happens when you compile this code?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+private:
+    int x = 10;
+    friend class B;
+};
+class B {
+    int y = 20;
+};
+class C : public B {
+public:
+    void test(A&amp; a) {
+        cout &lt;&lt; a.x &lt;&lt; endl;
+    }
+};
+int main() {
+    A a;
+    C c;
+    c.test(a);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">B is a friend of A. Does C inherit that friendship?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">Compilation error: <code>'x' is a private member of 'A'</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Validator {
+private:
+    int value;
+public:
+    Validator(int v) : value(0) { setValue(v); }
+    void setValue(int v) {
+        if (v &gt;= 0 &amp;&amp; v &lt;= 100) value = v;
+    }
+    int getValue() const { return value; }
+};
+int main() {
+    Validator v1(50);
+    cout &lt;&lt; v1.getValue() &lt;&lt; endl;
+    v1.setValue(200);
+    cout &lt;&lt; v1.getValue() &lt;&lt; endl;
+    v1.setValue(75);
+    cout &lt;&lt; v1.getValue() &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">setValue only accepts values between 0 and 100 inclusive.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>50</code><br><code>50</code><br><code>75</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Outer {
+private:
+    int x;
+public:
+    Outer(int v) : x(v) {}
+    class Inner {
+    public:
+        void show(const Outer&amp; o) {
+            cout &lt;&lt; o.x &lt;&lt; endl;
+        }
+    };
+};
+int main() {
+    Outer o(42);
+    Outer::Inner in;
+    in.show(o);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Inner is a nested class inside Outer. In C++11+, nested classes can access private members of the enclosing class.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>42</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+private:
+    int a;
+protected:
+    int b;
+public:
+    int c;
+    Base() : a(1), b(2), c(3) {}
+    friend void showBase(const Base&amp; b);
+};
+class Derived : public Base {
+public:
+    void test() {
+        // cout &lt;&lt; a;  // Error
+        cout &lt;&lt; b &lt;&lt; " " &lt;&lt; c &lt;&lt; endl;
+    }
+};
+void showBase(const Base&amp; obj) {
+    cout &lt;&lt; obj.a &lt;&lt; " " &lt;&lt; obj.b &lt;&lt; " " &lt;&lt; obj.c &lt;&lt; endl;
+}
+int main() {
+    Derived d;
+    d.test();
+    showBase(d);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Derived can access protected and public. The friend function can access everything in Base. Can the friend access Derived's Base part?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>2 3</code><br><code>1 2 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Matrix {
+    int data[2][2];
+public:
+    Matrix(int a, int b, int c, int d) {
+        data[0][0]=a; data[0][1]=b; data[1][0]=c; data[1][1]=d;
+    }
+    friend Matrix operator+(const Matrix&amp; a, const Matrix&amp; b);
+    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Matrix&amp; m);
+};
+Matrix operator+(const Matrix&amp; a, const Matrix&amp; b) {
+    return Matrix(
+        a.data[0][0]+b.data[0][0], a.data[0][1]+b.data[0][1],
+        a.data[1][0]+b.data[1][0], a.data[1][1]+b.data[1][1]
+    );
+}
+ostream&amp; operator&lt;&lt;(ostream&amp; os, const Matrix&amp; m) {
+    os &lt;&lt; m.data[0][0] &lt;&lt; " " &lt;&lt; m.data[0][1] &lt;&lt; endl;
+    os &lt;&lt; m.data[1][0] &lt;&lt; " " &lt;&lt; m.data[1][1];
+    return os;
+}
+int main() {
+    Matrix a(1, 2, 3, 4), b(5, 6, 7, 8);
+    Matrix c = a + b;
+    cout &lt;&lt; c &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Both operator+ and operator<< are friend functions. They can access the private data array directly.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>6 8</code><br><code>10 12</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Account {
+private:
+    double balance;
+    mutable int txnCount;
+public:
+    Account(double b) : balance(b), txnCount(0) {}
+    double getBalance() const {
+        txnCount++;
+        return balance;
+    }
+    void deposit(double amt) {
+        if (amt &gt; 0) { balance += amt; txnCount++; }
+    }
+    int getTxnCount() const { return txnCount; }
+};
+int main() {
+    Account a(1000);
+    a.deposit(500);
+    cout &lt;&lt; a.getBalance() &lt;&lt; endl;
+    cout &lt;&lt; a.getBalance() &lt;&lt; endl;
+    a.deposit(200);
+    cout &lt;&lt; a.getTxnCount() &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Both deposit and getBalance increment txnCount. How many total increments?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>1500</code><br><code>1500</code><br><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Encloser {
+private:
+    int secret;
+public:
+    Encloser(int s) : secret(s) {}
+    class Nested {
+        int own;
+    public:
+        Nested(int o) : own(o) {}
+        void reveal(const Encloser&amp; e) {
+            cout &lt;&lt; "Nested own: " &lt;&lt; own &lt;&lt; endl;
+            cout &lt;&lt; "Encloser secret: " &lt;&lt; e.secret &lt;&lt; endl;
+        }
+    };
+};
+int main() {
+    Encloser e(42);
+    Encloser::Nested n(99);
+    n.reveal(e);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">In C++11+, nested classes can access private members of the enclosing class. The nested class has its own separate data.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>Nested own: 99</code><br><code>Encloser secret: 42</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Config {
+private:
+    int mode;
+    mutable bool accessed;
+public:
+    Config(int m) : mode(m), accessed(false) {}
+    int getMode() const {
+        accessed = true;
+        return mode;
+    }
+    bool wasAccessed() const { return accessed; }
+};
+int main() {
+    const Config c(5);
+    cout &lt;&lt; c.wasAccessed() &lt;&lt; endl;
+    cout &lt;&lt; c.getMode() &lt;&lt; endl;
+    cout &lt;&lt; c.wasAccessed() &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">c is const. accessed is mutable. getMode() sets accessed to true.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>0</code><br><code>5</code><br><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Range {
+private:
+    int low, high;
+public:
+    Range(int l, int h) : low(l), high(h) {}
+    bool contains(int v) const { return v &gt;= low &amp;&amp; v &lt;= high; }
+    friend Range merge(const Range&amp; a, const Range&amp; b);
+    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Range&amp; r);
+};
+Range merge(const Range&amp; a, const Range&amp; b) {
+    return Range(min(a.low, b.low), max(a.high, b.high));
+}
+ostream&amp; operator&lt;&lt;(ostream&amp; os, const Range&amp; r) {
+    os &lt;&lt; "[" &lt;&lt; r.low &lt;&lt; ", " &lt;&lt; r.high &lt;&lt; "]";
+    return os;
+}
+int main() {
+    Range a(1, 5), b(3, 8);
+    Range c = merge(a, b);
+    cout &lt;&lt; c &lt;&lt; endl;
+    cout &lt;&lt; c.contains(6) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">merge is a friend that accesses private low/high directly. It creates a range from min(lows) to max(highs).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>[1, 8]</code><br><code>1</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between private and protected access specifiers in C++?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Think about who can access each: only the class itself, or also derived classes?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">Private members are accessible only within the class that defines them. Protected members are accessible within the class and also in any class derived from it. Neither is accessible from outside code (e.g., main()).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the only difference between a struct and a class in C++?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Think about what access level members have if you do not specify one.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">The only difference is the default access specifier. In a struct, members and inheritance are public by default. In a class, they are private by default.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Wrapper {
+    int val;
+public:
+    Wrapper(int v) : val(v) {}
+    int get() const { return val; }
+    void set(int v) { val = v; }
+};
+int main() {
+    Wrapper w(10);
+    w.set(25);
+    cout &lt;&lt; w.get() &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">val is private by default in a class. set() modifies it, get() returns it.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>25</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Circle {
+private:
+    double radius;
+public:
+    Circle(double r) : radius(r) {}
+    double getArea() const { return 3.14 * radius * radius; }
+    friend bool isEqual(const Circle&amp; a, const Circle&amp; b);
+};
+bool isEqual(const Circle&amp; a, const Circle&amp; b) {
+    return a.radius == b.radius;
+}
+int main() {
+    Circle c1(5), c2(5), c3(10);
+    cout &lt;&lt; isEqual(c1, c2) &lt;&lt; endl;
+    cout &lt;&lt; isEqual(c1, c3) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">isEqual is a friend function that compares the private radius members directly.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>1</code><br><code>0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Temperature {
+private:
+    double celsius;
+public:
+    Temperature(double c) : celsius(c) {}
+    double getCelsius() const { return celsius; }
+    double getFahrenheit() const { return celsius * 9.0 / 5.0 + 32; }
+    void setCelsius(double c) {
+        if (c &gt;= -273.15) celsius = c;
+    }
+};
+int main() {
+    Temperature t(100);
+    cout &lt;&lt; t.getCelsius() &lt;&lt; endl;
+    cout &lt;&lt; t.getFahrenheit() &lt;&lt; endl;
+    t.setCelsius(-300);
+    cout &lt;&lt; t.getCelsius() &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">setCelsius rejects values below absolute zero (-273.15). -300 is invalid.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>100</code><br><code>212</code><br><code>100</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What happens when you compile this code?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+private:
+    int x = 10;
+};
+class B {
+public:
+    void show(const A&amp; a) {
+        cout &lt;&lt; a.x &lt;&lt; endl;
+    }
+};
+int main() {
+    A a;
+    B b;
+    b.show(a);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">B is NOT declared as a friend of A. Can B access A's private members?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">Compilation error: <code>'x' is a private member of 'A'</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Sensor {
+private:
+    double reading;
+    mutable int readCount;
+public:
+    Sensor(double r) : reading(r), readCount(0) {}
+    double getReading() const { readCount++; return reading; }
+    void calibrate(double offset) { reading += offset; readCount++; }
+    int getReadCount() const { return readCount; }
+};
+int main() {
+    Sensor s(25.0);
+    s.getReading();
+    s.getReading();
+    s.calibrate(0.5);
+    s.getReading();
+    cout &lt;&lt; s.getReading() &lt;&lt; endl;
+    cout &lt;&lt; s.getReadCount() &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Count every call that increments readCount: getReading (4 calls) + calibrate (1 call).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>25.5</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Data {
+private:
+    int arr[3];
+public:
+    Data(int a, int b, int c) { arr[0]=a; arr[1]=b; arr[2]=c; }
+    int operator[](int i) const {
+        if (i &lt; 0 || i &gt;= 3) return -1;
+        return arr[i];
+    }
+    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Data&amp; d);
+};
+ostream&amp; operator&lt;&lt;(ostream&amp; os, const Data&amp; d) {
+    os &lt;&lt; d.arr[0] &lt;&lt; " " &lt;&lt; d.arr[1] &lt;&lt; " " &lt;&lt; d.arr[2];
+    return os;
+}
+int main() {
+    Data d(10, 20, 30);
+    cout &lt;&lt; d[0] &lt;&lt; " " &lt;&lt; d[1] &lt;&lt; " " &lt;&lt; d[5] &lt;&lt; endl;
+    cout &lt;&lt; d &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">operator[] returns -1 for out-of-bounds. operator<< is a friend that prints the private array.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>10 20 -1</code><br><code>10 20 30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Engine {
+private:
+    int hp;
+    friend class Car;
+public:
+    Engine(int h) : hp(h) {}
+};
+class Car {
+    string model;
+    Engine engine;
+public:
+    Car(string m, int hp) : model(m), engine(hp) {}
+    void upgrade(int extraHp) {
+        engine.hp += extraHp;
+    }
+    void show() const {
+        cout &lt;&lt; model &lt;&lt; ": " &lt;&lt; engine.hp &lt;&lt; " HP" &lt;&lt; endl;
+    }
+};
+int main() {
+    Car c("Tata Nexon", 120);
+    c.show();
+    c.upgrade(30);
+    c.show();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Car is a friend class of Engine, so it can access Engine's private hp member.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>Tata Nexon: 120 HP</code><br><code>Tata Nexon: 150 HP</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+protected:
+    int x;
+public:
+    Base(int v) : x(v) {}
+};
+class D1 : public Base {
+public:
+    D1(int v) : Base(v) {}
+    void set(int v) { x = v; }
+    int get() const { return x; }
+};
+class D2 : public Base {
+public:
+    D2(int v) : Base(v) {}
+    void showOther(const D1&amp; d) {
+        // cout &lt;&lt; d.x;  // Error even though x is protected!
+        cout &lt;&lt; "Cannot access sibling protected" &lt;&lt; endl;
+    }
+    int get() const { return x; }
+};
+int main() {
+    D1 d1(10);
+    D2 d2(20);
+    cout &lt;&lt; d1.get() &lt;&lt; endl;
+    cout &lt;&lt; d2.get() &lt;&lt; endl;
+    d2.showOther(d1);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">A derived class can access protected members of its own Base subobject, but not of a sibling derived class's Base subobject.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>10</code><br><code>20</code><br><code>Cannot access sibling protected</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is the default access specifier for members of a class in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> public</li><li><span class="mcq-option-label">B.</span> protected</li><li><span class="mcq-option-label">C.</span> private</li><li><span class="mcq-option-label">D.</span> friend</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> In a <code>class</code>, the default access specifier is <code>private</code>. In a <code>struct</code>, it is <code>public</code>. This is the only difference between <code>class</code> and <code>struct</code> in C++.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which access specifier allows derived classes to access a base class member but not outside code?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> private</li><li><span class="mcq-option-label">B.</span> protected</li><li><span class="mcq-option-label">C.</span> public</li><li><span class="mcq-option-label">D.</span> friend</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>protected</code> members are accessible within the class and its derived classes, but not from outside code like <code>main()</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is encapsulation in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Inheriting from multiple classes</li><li><span class="mcq-option-label">B.</span> Bundling data and methods together while restricting direct access to internal state</li><li><span class="mcq-option-label">C.</span> Overloading operators</li><li><span class="mcq-option-label">D.</span> Using templates for generic programming</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Encapsulation is the OOP principle of bundling data and the methods that operate on it into a class, while hiding internal state behind a controlled public interface.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is the role of a getter function in encapsulation?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To modify a private member</li><li><span class="mcq-option-label">B.</span> To provide read-only access to a private member</li><li><span class="mcq-option-label">C.</span> To delete a private member</li><li><span class="mcq-option-label">D.</span> To make a member public</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> A getter provides controlled read-only access to a private member. It should be marked <code>const</code> to indicate it does not modify the object.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">A friend function of a class can access which members?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only public members</li><li><span class="mcq-option-label">B.</span> Only protected members</li><li><span class="mcq-option-label">C.</span> Public and protected, but not private</li><li><span class="mcq-option-label">D.</span> All members including private</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: D</strong><br><strong>D is correct.</strong> A friend function has access to all members of the class, including private and protected members. That is the entire purpose of the friend declaration.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which of the following is true about the mutable keyword?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It makes a member function const</li><li><span class="mcq-option-label">B.</span> It allows modifying a member in a const member function</li><li><span class="mcq-option-label">C.</span> It makes a class abstract</li><li><span class="mcq-option-label">D.</span> It prevents inheritance</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>mutable</code> keyword on a data member allows it to be modified even in <code>const</code> member functions or on <code>const</code> objects.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Which statement about friendship in C++ is TRUE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Friendship is inherited by derived classes</li><li><span class="mcq-option-label">B.</span> Friendship is always mutual between two classes</li><li><span class="mcq-option-label">C.</span> Friendship is not inherited, not mutual, and not transitive</li><li><span class="mcq-option-label">D.</span> Friendship can only be granted to classes, not functions</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> Friendship in C++ is explicitly one-directional, not inherited by derived classes, and not transitive. Each friendship must be explicitly declared.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">In which scenario is the mutable keyword most appropriate?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> When a member should never be modified</li><li><span class="mcq-option-label">B.</span> When caching a computed result in a const method</li><li><span class="mcq-option-label">C.</span> When making a constructor explicit</li><li><span class="mcq-option-label">D.</span> When preventing object copying</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> The classic use of <code>mutable</code> is for caching: a <code>const</code> method computes a result and caches it in a <code>mutable</code> member so future calls are faster, without changing the logical state of the object.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What happens if you call a non-const member function on a const object?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The function runs normally</li><li><span class="mcq-option-label">B.</span> The function is silently skipped</li><li><span class="mcq-option-label">C.</span> Compilation error</li><li><span class="mcq-option-label">D.</span> Runtime exception</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> A <code>const</code> object can only call <code>const</code> member functions. Calling a non-const member function on a const object or through a const reference is a compilation error.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">A nested class in C++11+ has access to which members of the enclosing class?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only public members</li><li><span class="mcq-option-label">B.</span> Public and protected members</li><li><span class="mcq-option-label">C.</span> All members including private (given an instance)</li><li><span class="mcq-option-label">D.</span> No members of the enclosing class</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> In C++11 and later, a nested class is implicitly a friend of the enclosing class. It can access all members (including private) of the enclosing class, provided it has an instance of the enclosing class to work with.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Why should getter functions be marked const?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To make them faster</li><li><span class="mcq-option-label">B.</span> So they can be called on const objects and const references</li><li><span class="mcq-option-label">C.</span> To prevent them from returning a value</li><li><span class="mcq-option-label">D.</span> To make the returned value immutable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> Marking a getter <code>const</code> allows it to be called on <code>const</code> objects and through <code>const</code> references/pointers. Without <code>const</code>, the getter cannot be used in any context that expects constness.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the difference between friend function and friend class?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No difference, they are the same</li><li><span class="mcq-option-label">B.</span> friend function grants access to one function; friend class grants access to all member functions of that class</li><li><span class="mcq-option-label">C.</span> friend class is inherited; friend function is not</li><li><span class="mcq-option-label">D.</span> friend function can modify members; friend class can only read them</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> A <code>friend</code> function declaration grants access to one specific function. A <code>friend class</code> declaration grants access to all member functions of the specified class. Neither is inherited.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Can a derived class access protected members of a sibling derived class's base subobject?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, protected means any derived class can access it</li><li><span class="mcq-option-label">B.</span> No, protected access only applies to the class&#39;s own inheritance path</li><li><span class="mcq-option-label">C.</span> Yes, but only if they share the same base class</li><li><span class="mcq-option-label">D.</span> Yes, but only through a friend function</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> Protected access in C++ is more restrictive than many expect. A derived class can access protected members of its own base subobject, but not protected members through a reference to a different derived type, even if they share the same base.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which of the following operators MUST be overloaded as a friend (non-member) function when the left operand is not your class?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> operator[]</li><li><span class="mcq-option-label">B.</span> operator=</li><li><span class="mcq-option-label">C.</span> operator&lt;&lt;</li><li><span class="mcq-option-label">D.</span> operator()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>operator&lt;&lt;</code> is typically used with <code>cout</code> (which is <code>ostream</code>) as the left operand. Since we cannot add member functions to <code>ostream</code>, we must overload it as a non-member (friend) function.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the default access specifier for members of a struct in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> private</li><li><span class="mcq-option-label">B.</span> protected</li><li><span class="mcq-option-label">C.</span> public</li><li><span class="mcq-option-label">D.</span> friend</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> In a <code>struct</code>, the default access specifier is <code>public</code>. In a <code>class</code>, it is <code>private</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Can a member function of one class be declared as a friend of another class?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, only standalone functions can be friends</li><li><span class="mcq-option-label">B.</span> Yes, a specific member function of one class can be a friend of another</li><li><span class="mcq-option-label">C.</span> Only static member functions can be friends</li><li><span class="mcq-option-label">D.</span> Only constructors can be friends</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> A specific member function of one class can be declared as a friend of another class using <code>friend void OtherClass::method();</code>. This grants friendship to only that specific method.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What is the relationship between encapsulation and abstraction?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are the same concept</li><li><span class="mcq-option-label">B.</span> Encapsulation hides data; abstraction hides complexity by exposing only essential features</li><li><span class="mcq-option-label">C.</span> Abstraction is about data hiding; encapsulation is about interfaces</li><li><span class="mcq-option-label">D.</span> They are unrelated OOP concepts</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> Encapsulation bundles data and methods while restricting access (data hiding). Abstraction hides complexity and shows only the relevant interface. Encapsulation is a mechanism that helps achieve abstraction.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What happens if a class has no public constructors?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The class can still be instantiated normally</li><li><span class="mcq-option-label">B.</span> Objects can only be created through friend functions or static factory methods</li><li><span class="mcq-option-label">C.</span> The compiler generates a public default constructor</li><li><span class="mcq-option-label">D.</span> The class becomes abstract</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> If all constructors are private or protected, objects cannot be created from outside the class. They can only be created through friend functions, static factory methods, or member functions.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">Which of the following best describes a setter function?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A function that reads a private member</li><li><span class="mcq-option-label">B.</span> A function that modifies a private member with validation</li><li><span class="mcq-option-label">C.</span> A function that deletes a private member</li><li><span class="mcq-option-label">D.</span> A function that makes a member public</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> A setter provides controlled write access to a private member, typically including validation logic to ensure the new value is valid before assignment.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">In which scenario would using a friend function be preferred over a public getter?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> When you want to hide the data from everyone</li><li><span class="mcq-option-label">B.</span> When two tightly coupled functions need efficient access to multiple private members without getter overhead</li><li><span class="mcq-option-label">C.</span> When you want to make the data public</li><li><span class="mcq-option-label">D.</span> Friend functions should never be used</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> When performance-critical code (like operator overloading or tightly coupled utility functions) needs to access multiple private members, friend functions avoid the overhead and verbosity of multiple getter calls.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Bank Account with Full Encapsulation</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a BankAccount class with private members: accountNumber (string), holderName (string), and balance (double). Provide a constructor, getters for all fields, deposit() and withdraw() methods with validation (no negative amounts, cannot withdraw more than balance). Print the result of several operations.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Account: ACC001, Priya, initial balance 5000. Deposit 2000. Withdraw 3000. Withdraw 5000.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">ACC001 - Priya: 5000
+Deposit 2000: Success. Balance: 7000
+Withdraw 3000: Success. Balance: 4000
+Withdraw 5000: Failed. Balance: 4000</div>
+                </div><div class="challenge-constraints">All data members must be private. Validate all inputs. Use const on getters.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class BankAccount {
+private:
+    string accountNumber;
+    string holderName;
+    double balance;
+
+public:
+    BankAccount(string acc, string name, double bal)
+        : accountNumber(acc), holderName(name), balance(bal &gt;= 0 ? bal : 0) {}
+
+    string getAccountNumber() const { return accountNumber; }
+    string getHolderName() const { return holderName; }
+    double getBalance() const { return balance; }
+
+    bool deposit(double amount) {
+        if (amount &lt;= 0) return false;
+        balance += amount;
+        return true;
+    }
+
+    bool withdraw(double amount) {
+        if (amount &lt;= 0 || amount &gt; balance) return false;
+        balance -= amount;
+        return true;
+    }
+};
+
+int main() {
+    BankAccount acc(&quot;ACC001&quot;, &quot;Priya&quot;, 5000);
+    cout &lt;&lt; acc.getAccountNumber() &lt;&lt; &quot; - &quot; &lt;&lt; acc.getHolderName()
+         &lt;&lt; &quot;: &quot; &lt;&lt; acc.getBalance() &lt;&lt; endl;
+
+    if (acc.deposit(2000))
+        cout &lt;&lt; &quot;Deposit 2000: Success. Balance: &quot; &lt;&lt; acc.getBalance() &lt;&lt; endl;
+
+    if (acc.withdraw(3000))
+        cout &lt;&lt; &quot;Withdraw 3000: Success. Balance: &quot; &lt;&lt; acc.getBalance() &lt;&lt; endl;
+
+    if (!acc.withdraw(5000))
+        cout &lt;&lt; &quot;Withdraw 5000: Failed. Balance: &quot; &lt;&lt; acc.getBalance() &lt;&lt; endl;
+
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Friend Function: Distance Between Two Points</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a Point class with private x and y coordinates. Use a friend function to compute the Euclidean distance between two points. Also overload operator<< as a friend to print points in (x, y) format. Demonstrate with three points.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Point A(0, 0), B(3, 4), C(6, 8)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A = (0, 0)
+B = (3, 4)
+C = (6, 8)
+Distance A-B: 5
+Distance A-C: 10
+Distance B-C: 5</div>
+                </div><div class="challenge-constraints">x and y must be private. Use friend functions for distance and operator&lt;&lt;. Use cmath for sqrt.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;cmath&gt;
+using namespace std;
+
+class Point {
+private:
+    double x, y;
+public:
+    Point(double x, double y) : x(x), y(y) {}
+    friend double distance(const Point&amp; a, const Point&amp; b);
+    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Point&amp; p);
+};
+
+double distance(const Point&amp; a, const Point&amp; b) {
+    double dx = a.x - b.x;
+    double dy = a.y - b.y;
+    return sqrt(dx * dx + dy * dy);
+}
+
+ostream&amp; operator&lt;&lt;(ostream&amp; os, const Point&amp; p) {
+    os &lt;&lt; &quot;(&quot; &lt;&lt; p.x &lt;&lt; &quot;, &quot; &lt;&lt; p.y &lt;&lt; &quot;)&quot;;
+    return os;
+}
+
+int main() {
+    Point a(0, 0), b(3, 4), c(6, 8);
+    cout &lt;&lt; &quot;A = &quot; &lt;&lt; a &lt;&lt; endl;
+    cout &lt;&lt; &quot;B = &quot; &lt;&lt; b &lt;&lt; endl;
+    cout &lt;&lt; &quot;C = &quot; &lt;&lt; c &lt;&lt; endl;
+    cout &lt;&lt; &quot;Distance A-B: &quot; &lt;&lt; distance(a, b) &lt;&lt; endl;
+    cout &lt;&lt; &quot;Distance A-C: &quot; &lt;&lt; distance(a, c) &lt;&lt; endl;
+    cout &lt;&lt; &quot;Distance B-C: &quot; &lt;&lt; distance(b, c) &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Inventory System with Friend Class</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a Product class with private name, price, and quantity. Create a StoreManager friend class that can restock (increase quantity), apply a discount (reduce price by percentage), and generate a report showing all private details. Demonstrate with two products.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Product1: Laptop, 50000, 10. Product2: Mouse, 500, 100. Restock laptop +5. Discount mouse 10%.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Laptop: Rs.50000, Qty: 10
+Mouse: Rs.500, Qty: 100
+Restocked Laptop: Qty: 15
+Discounted Mouse: Rs.450
+Report: Laptop Rs.50000 x15 | Mouse Rs.450 x100</div>
+                </div><div class="challenge-constraints">All Product members must be private. StoreManager must be a friend class. Do not use getters for manager operations.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Product {
+private:
+    string name;
+    double price;
+    int quantity;
+public:
+    Product(string n, double p, int q) : name(n), price(p), quantity(q) {}
+    friend class StoreManager;
+};
+
+class StoreManager {
+public:
+    void restock(Product&amp; p, int amount) {
+        p.quantity += amount;
+        cout &lt;&lt; &quot;Restocked &quot; &lt;&lt; p.name &lt;&lt; &quot;: Qty: &quot; &lt;&lt; p.quantity &lt;&lt; endl;
+    }
+    void applyDiscount(Product&amp; p, double percent) {
+        p.price -= p.price * percent / 100;
+        cout &lt;&lt; &quot;Discounted &quot; &lt;&lt; p.name &lt;&lt; &quot;: Rs.&quot; &lt;&lt; p.price &lt;&lt; endl;
+    }
+    void report(const Product&amp; a, const Product&amp; b) const {
+        cout &lt;&lt; &quot;Report: &quot; &lt;&lt; a.name &lt;&lt; &quot; Rs.&quot; &lt;&lt; a.price &lt;&lt; &quot; x&quot; &lt;&lt; a.quantity
+             &lt;&lt; &quot; | &quot; &lt;&lt; b.name &lt;&lt; &quot; Rs.&quot; &lt;&lt; b.price &lt;&lt; &quot; x&quot; &lt;&lt; b.quantity &lt;&lt; endl;
+    }
+    void show(const Product&amp; p) const {
+        cout &lt;&lt; p.name &lt;&lt; &quot;: Rs.&quot; &lt;&lt; p.price &lt;&lt; &quot;, Qty: &quot; &lt;&lt; p.quantity &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Product laptop(&quot;Laptop&quot;, 50000, 10);
+    Product mouse(&quot;Mouse&quot;, 500, 100);
+    StoreManager mgr;
+    mgr.show(laptop);
+    mgr.show(mouse);
+    mgr.restock(laptop, 5);
+    mgr.applyDiscount(mouse, 10);
+    mgr.report(laptop, mouse);
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Cache with mutable and Nested Iterator</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a NumberList class that stores an array of integers. It has a mutable cached sum and a mutable cacheValid flag. The getSum() const method computes and caches the sum on first call, returns cached value on subsequent calls. Add a nested Iterator class that traverses the list. Demonstrate invalidation when add() is called.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">List: {10, 20, 30}. getSum twice. add(40). getSum again.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Computing sum...
+Sum: 60
+Sum (cached): 60
+Added 40
+Computing sum...
+Sum: 100</div>
+                </div><div class="challenge-constraints">Use mutable for cache members. getSum() must be const. Nested Iterator must access private data. Show cache invalidation.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class NumberList {
+private:
+    int* data;
+    int size;
+    int capacity;
+    mutable int cachedSum;
+    mutable bool cacheValid;
+
+public:
+    NumberList(int cap) : capacity(cap), size(0), cachedSum(0), cacheValid(false) {
+        data = new int[capacity];
+    }
+
+    void add(int val) {
+        if (size &lt; capacity) {
+            data[size++] = val;
+            cacheValid = false;
+            cout &lt;&lt; &quot;Added &quot; &lt;&lt; val &lt;&lt; endl;
+        }
+    }
+
+    int getSum() const {
+        if (!cacheValid) {
+            cout &lt;&lt; &quot;Computing sum...&quot; &lt;&lt; endl;
+            cachedSum = 0;
+            for (int i = 0; i &lt; size; i++) cachedSum += data[i];
+            cacheValid = true;
+        } else {
+            cout &lt;&lt; &quot;Sum (cached): &quot;;
+            return cachedSum;
+        }
+        return cachedSum;
+    }
+
+    class Iterator {
+        const NumberList&amp; list;
+        int index;
+    public:
+        Iterator(const NumberList&amp; l) : list(l), index(0) {}
+        bool hasNext() const { return index &lt; list.size; }
+        int next() { return list.data[index++]; }
+    };
+
+    Iterator iterator() const { return Iterator(*this); }
+
+    ~NumberList() { delete[] data; }
+};
+
+int main() {
+    NumberList list(10);
+    list.add(10); list.add(20); list.add(30);
+    cout &lt;&lt; &quot;Sum: &quot; &lt;&lt; list.getSum() &lt;&lt; endl;
+    cout &lt;&lt; list.getSum() &lt;&lt; endl;
+    list.add(40);
+    cout &lt;&lt; &quot;Sum: &quot; &lt;&lt; list.getSum() &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Student Record System with Complete Encapsulation</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a Student class with private name, rollNumber, marks array (5 subjects), and mutable accessLog count. Provide getters, a setMarks method that validates (0-100), a getPercentage() const method, and a getGrade() const method. Create a Teacher friend class that can modify marks and access all private data. Create a nested Comparator class with a static method to compare two students by percentage.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Student Kavya, roll 101, marks {85, 90, 78, 92, 88}. Student Ravi, roll 102, marks {70, 65, 80, 72, 68}.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Kavya (101): 86.6% - Grade A
+Ravi (102): 71% - Grade B
+Higher: Kavya
+Teacher updated Ravi marks[1] to 95
+Ravi (102): 77% - Grade B</div>
+                </div><div class="challenge-constraints">All data private. mutable accessLog. Friend class Teacher. Nested Comparator. Validate marks 0-100.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Student {
+private:
+    string name;
+    int rollNumber;
+    int marks[5];
+    mutable int accessLog;
+
+public:
+    Student(string n, int roll, int m[5]) : name(n), rollNumber(roll), accessLog(0) {
+        for (int i = 0; i &lt; 5; i++) marks[i] = (m[i] &gt;= 0 &amp;&amp; m[i] &lt;= 100) ? m[i] : 0;
+    }
+
+    string getName() const { accessLog++; return name; }
+    int getRoll() const { accessLog++; return rollNumber; }
+
+    double getPercentage() const {
+        accessLog++;
+        int total = 0;
+        for (int i = 0; i &lt; 5; i++) total += marks[i];
+        return total / 5.0;
+    }
+
+    string getGrade() const {
+        double pct = getPercentage();
+        if (pct &gt;= 80) return &quot;A&quot;;
+        if (pct &gt;= 60) return &quot;B&quot;;
+        if (pct &gt;= 40) return &quot;C&quot;;
+        return &quot;F&quot;;
+    }
+
+    friend class Teacher;
+
+    class Comparator {
+    public:
+        static const Student&amp; higher(const Student&amp; a, const Student&amp; b) {
+            return (a.getPercentage() &gt;= b.getPercentage()) ? a : b;
+        }
+    };
+};
+
+class Teacher {
+public:
+    void setMark(Student&amp; s, int index, int mark) {
+        if (index &gt;= 0 &amp;&amp; index &lt; 5 &amp;&amp; mark &gt;= 0 &amp;&amp; mark &lt;= 100) {
+            s.marks[index] = mark;
+            cout &lt;&lt; &quot;Teacher updated &quot; &lt;&lt; s.name &lt;&lt; &quot; marks[&quot; &lt;&lt; index &lt;&lt; &quot;] to &quot; &lt;&lt; mark &lt;&lt; endl;
+        }
+    }
+};
+
+int main() {
+    int m1[] = {85, 90, 78, 92, 88};
+    int m2[] = {70, 65, 80, 72, 68};
+    Student kavya(&quot;Kavya&quot;, 101, m1);
+    Student ravi(&quot;Ravi&quot;, 102, m2);
+
+    cout &lt;&lt; kavya.getName() &lt;&lt; &quot; (&quot; &lt;&lt; kavya.getRoll() &lt;&lt; &quot;): &quot;
+         &lt;&lt; kavya.getPercentage() &lt;&lt; &quot;% - Grade &quot; &lt;&lt; kavya.getGrade() &lt;&lt; endl;
+    cout &lt;&lt; ravi.getName() &lt;&lt; &quot; (&quot; &lt;&lt; ravi.getRoll() &lt;&lt; &quot;): &quot;
+         &lt;&lt; ravi.getPercentage() &lt;&lt; &quot;% - Grade &quot; &lt;&lt; ravi.getGrade() &lt;&lt; endl;
+
+    const Student&amp; top = Student::Comparator::higher(kavya, ravi);
+    cout &lt;&lt; &quot;Higher: &quot; &lt;&lt; top.getName() &lt;&lt; endl;
+
+    Teacher t;
+    t.setMark(ravi, 1, 95);
+    cout &lt;&lt; ravi.getName() &lt;&lt; &quot; (&quot; &lt;&lt; ravi.getRoll() &lt;&lt; &quot;): &quot;
+         &lt;&lt; ravi.getPercentage() &lt;&lt; &quot;% - Grade &quot; &lt;&lt; ravi.getGrade() &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/oop-classes-and-objects/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">OOP - Classes, Objects, and Constructors</span>
+        </a>
+            <a href="/resources/cpp/inheritance-in-cpp/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Inheritance in C++</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/encapsulation-and-access-specifiers" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

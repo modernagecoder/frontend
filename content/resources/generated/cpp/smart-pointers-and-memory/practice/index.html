@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Smart Pointers and Modern Memory Management | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="53+ practice questions on Smart Pointers and Modern Memory Management in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="smart pointers and modern memory management practice, c++ questions, c++ practice problems, smart pointers and modern memory management exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/smart-pointers-and-memory/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/smart-pointers-and-memory/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/smart-pointers-and-memory/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/smart-pointers-and-memory/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/smart-pointers-and-memory/practice">
+    <meta property="og:title" content="Practice Questions - Smart Pointers and Modern Memory Management | C++ | Modern Age Coders">
+    <meta property="og:description" content="53+ practice questions on Smart Pointers and Modern Memory Management in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/smart-pointers-and-memory/practice">
+    <meta name="twitter:title" content="Practice Questions - Smart Pointers and Modern Memory Management | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="53+ practice questions on Smart Pointers and Modern Memory Management in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Smart Pointers and Modern Memory Management",
+    "description": "53+ practice questions on Smart Pointers and Modern Memory Management in C++.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Smart Pointers and Modern Memory Management"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/smart-pointers-and-memory/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Smart Pointers and Modern Memory Management",
+        "item": "https://learn.modernagecoders.com/resources/cpp/smart-pointers-and-memory"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/smart-pointers-and-memory/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/smart-pointers-and-memory">Smart Pointers and Modern Memory Management</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 23</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">53 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Smart Pointers and Modern Memory Management</h1>
+            <a href="/resources/cpp/smart-pointers-and-memory" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto p = make_unique&lt;int&gt;(42);
+cout &lt;&lt; *p;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">make_unique creates a unique_ptr. Dereference with * to get the value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>42</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto p = make_shared&lt;int&gt;(99);
+cout &lt;&lt; p.use_count();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">A freshly created shared_ptr has a use_count of 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto p1 = make_shared&lt;int&gt;(10);
+auto p2 = p1;
+auto p3 = p1;
+cout &lt;&lt; p1.use_count();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Each copy of shared_ptr increments the reference count.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">unique_ptr&lt;int&gt; p1 = make_unique&lt;int&gt;(5);
+unique_ptr&lt;int&gt; p2 = move(p1);
+cout &lt;&lt; (p1 == nullptr) &lt;&lt; " " &lt;&lt; *p2;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">After move, the source unique_ptr becomes nullptr.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>1 5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto p = make_unique&lt;int&gt;(7);
+cout &lt;&lt; (p ? "valid" : "null");
+p.reset();
+cout &lt;&lt; " " &lt;&lt; (p ? "valid" : "null");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">reset() releases the managed object and sets the pointer to nullptr.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>valid null</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto p1 = make_shared&lt;int&gt;(50);
+{
+    auto p2 = p1;
+    cout &lt;&lt; p1.use_count() &lt;&lt; " ";
+}
+cout &lt;&lt; p1.use_count() &lt;&lt; " " &lt;&lt; *p1;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">When p2 goes out of scope, use_count decreases.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>2 1 50</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto sp = make_shared&lt;int&gt;(100);
+weak_ptr&lt;int&gt; wp = sp;
+cout &lt;&lt; wp.use_count() &lt;&lt; " " &lt;&lt; wp.expired() &lt;&lt; " ";
+sp.reset();
+cout &lt;&lt; wp.use_count() &lt;&lt; " " &lt;&lt; wp.expired();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">weak_ptr does not affect use_count. expired() returns true when the object no longer exists.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>1 0 0 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto sp = make_shared&lt;int&gt;(77);
+weak_ptr&lt;int&gt; wp = sp;
+auto locked = wp.lock();
+cout &lt;&lt; (locked ? to_string(*locked) : "null") &lt;&lt; " ";
+cout &lt;&lt; sp.use_count();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">lock() returns a shared_ptr, incrementing use_count.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>77 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">struct X {
+    int val;
+    X(int v) : val(v) { cout &lt;&lt; "X(" &lt;&lt; val &lt;&lt; ") ";
+    }
+    ~X() { cout &lt;&lt; "~X(" &lt;&lt; val &lt;&lt; ") "; }
+};
+
+{
+    auto p = make_unique&lt;X&gt;(1);
+    auto q = make_unique&lt;X&gt;(2);
+}
+cout &lt;&lt; "done";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Destructors run in reverse order of construction when leaving scope.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>X(1) X(2) ~X(2) ~X(1) done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto p = make_unique&lt;int&gt;(10);
+int* raw = p.get();
+cout &lt;&lt; *raw &lt;&lt; " ";
+p.reset();
+cout &lt;&lt; (p == nullptr);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">get() returns the raw pointer without releasing ownership. After reset(), p is null.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>10 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto p = make_shared&lt;int&gt;(55);
+auto q = move(p);
+cout &lt;&lt; (p == nullptr) &lt;&lt; " " &lt;&lt; q.use_count() &lt;&lt; " " &lt;&lt; *q;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Moving a shared_ptr transfers ownership without changing use_count.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>1 1 55</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">class A {
+public:
+    A() { cout &lt;&lt; "A "; }
+    ~A() { cout &lt;&lt; "~A "; }
+};
+
+vector&lt;unique_ptr&lt;A&gt;&gt; v;
+v.push_back(make_unique&lt;A&gt;());
+v.push_back(make_unique&lt;A&gt;());
+cout &lt;&lt; "clear ";
+v.clear();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Clearing a vector of unique_ptrs destroys all managed objects.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>A A clear ~A ~A</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto p = make_shared&lt;int&gt;(25);
+auto q = p;
+auto r = p;
+r.reset();
+cout &lt;&lt; p.use_count() &lt;&lt; " " &lt;&lt; *p;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">reset() releases one owner. Others remain.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>2 25</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto p = make_unique&lt;int&gt;(100);
+auto q = make_unique&lt;int&gt;(200);
+p.swap(q);
+cout &lt;&lt; *p &lt;&lt; " " &lt;&lt; *q;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">swap exchanges the managed pointers between two unique_ptrs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>200 100</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">weak_ptr&lt;int&gt; wp;
+{
+    auto sp = make_shared&lt;int&gt;(42);
+    wp = sp;
+    cout &lt;&lt; wp.expired() &lt;&lt; " ";
+}
+cout &lt;&lt; wp.expired();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">When the last shared_ptr is destroyed, the weak_ptr expires.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>0 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">struct Obj {
+    int val;
+    Obj(int v) : val(v) { cout &lt;&lt; "C" &lt;&lt; v &lt;&lt; " "; }
+    ~Obj() { cout &lt;&lt; "D" &lt;&lt; val &lt;&lt; " "; }
+};
+auto p = make_unique&lt;Obj&gt;(1);
+p = make_unique&lt;Obj&gt;(2);
+cout &lt;&lt; "end ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Assigning a new unique_ptr destroys the old managed object first.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>C1 C2 D1 end D2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto p = make_shared&lt;int&gt;(10);
+auto q = make_shared&lt;int&gt;(20);
+cout &lt;&lt; (p == q) &lt;&lt; " ";
+q = p;
+cout &lt;&lt; (p == q) &lt;&lt; " " &lt;&lt; *q;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Smart pointer comparison checks if they point to the same object.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>0 1 10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto p = make_unique&lt;int&gt;(50);
+int* raw = p.release();
+cout &lt;&lt; (p == nullptr) &lt;&lt; " " &lt;&lt; *raw;
+delete raw;  // Must manually delete after release!</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">release() transfers ownership to the raw pointer and sets unique_ptr to null.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>1 50</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto p = make_unique&lt;string&gt;("Hello");
+cout &lt;&lt; p-&gt;size() &lt;&lt; " " &lt;&lt; (*p)[0];</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">unique_ptr uses -> to access the managed object's members.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>5 H</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">shared_ptr&lt;int&gt; p1 = make_shared&lt;int&gt;(10);
+shared_ptr&lt;int&gt; p2 = p1;
+*p2 = 20;
+cout &lt;&lt; *p1;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">p1 and p2 point to the same int.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto p1 = make_unique&lt;int&gt;(100);
+auto p2 = make_unique&lt;int&gt;(200);
+swap(p1, p2);
+cout &lt;&lt; *p1 &lt;&lt; " " &lt;&lt; *p2;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">swap exchanges the managed pointers.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>200 100</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">unique_ptr&lt;int[]&gt; arr = make_unique&lt;int[]&gt;(4);
+for (int i = 0; i &lt; 4; i++) arr[i] = (i + 1) * 10;
+cout &lt;&lt; arr[0] &lt;&lt; " " &lt;&lt; arr[3];</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">unique_ptr<int[]> supports array subscript operator [].</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>10 40</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto sp = make_shared&lt;int&gt;(30);
+weak_ptr&lt;int&gt; wp = sp;
+sp = make_shared&lt;int&gt;(60);
+auto locked = wp.lock();
+cout &lt;&lt; (locked ? "alive" : "dead");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">After sp is reassigned, what happens to the original int(30)?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>dead</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">struct Node {
+    int val;
+    unique_ptr&lt;Node&gt; next;
+    Node(int v) : val(v), next(nullptr) {}
+};
+
+auto head = make_unique&lt;Node&gt;(1);
+head-&gt;next = make_unique&lt;Node&gt;(2);
+head-&gt;next-&gt;next = make_unique&lt;Node&gt;(3);
+
+auto curr = head.get();
+while (curr) {
+    cout &lt;&lt; curr-&gt;val &lt;&lt; " ";
+    curr = curr-&gt;next.get();
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">get() returns a raw non-owning pointer for traversal.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>1 2 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">class B {
+public:
+    B() { cout &lt;&lt; "B "; }
+    B(const B&amp;) { cout &lt;&lt; "Bc "; }
+    B(B&amp;&amp;) noexcept { cout &lt;&lt; "Bm "; }
+    ~B() { cout &lt;&lt; "~B "; }
+};
+
+B b1;
+B b2 = b1;
+B b3 = move(b1);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Copy constructor is called for b2, move constructor for b3.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>B Bc Bm ~B ~B ~B</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is RAII and why is it fundamental to modern C++?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Think about tying resource lifetime to object lifetime.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><strong>RAII (Resource Acquisition Is Initialization)</strong> means that resources (memory, files, locks, sockets) are acquired in a constructor and released in a destructor. Since C++ guarantees destructor execution when objects go out of scope (including during stack unwinding from exceptions), RAII ensures resources are always properly cleaned up without explicit cleanup code. Smart pointers are the most common example of RAII.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">When should you use unique_ptr vs shared_ptr vs weak_ptr?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about ownership semantics.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">Use <code>unique_ptr</code> when there is a single clear owner of the resource (the most common case). Use <code>shared_ptr</code> when multiple parts of the code need to share ownership and the resource should only be deleted when all owners are done. Use <code>weak_ptr</code> to observe a shared resource without preventing its deletion, or to break circular references between shared_ptrs.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the difference between the Rule of Three, Rule of Five, and Rule of Zero?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Think about which special member functions you need to define.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><strong>Rule of Three</strong> (C++03): if you define any of destructor, copy constructor, or copy assignment, define all three. <strong>Rule of Five</strong> (C++11): adds move constructor and move assignment to the three. <strong>Rule of Zero</strong>: prefer using types that manage their own resources (smart pointers, std::string, std::vector) so you do not need to define any of the five. Modern C++ strongly favors the Rule of Zero.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto p = make_shared&lt;vector&lt;int&gt;&gt;(vector&lt;int&gt;{10, 20, 30});
+cout &lt;&lt; p-&gt;size() &lt;&lt; " " &lt;&lt; (*p)[1];</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">shared_ptr to a vector. Use -> for member access.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>3 20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">auto sp = make_shared&lt;int&gt;(10);
+weak_ptr&lt;int&gt; wp = sp;
+auto sp2 = wp.lock();
+cout &lt;&lt; sp.use_count() &lt;&lt; " ";
+sp.reset();
+sp2.reset();
+cout &lt;&lt; wp.expired();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">lock() creates a new shared_ptr. Both sp and sp2 must be reset for the object to be deleted.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>2 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">unique_ptr&lt;int&gt; p;
+cout &lt;&lt; (p == nullptr) &lt;&lt; " ";
+p = make_unique&lt;int&gt;(99);
+cout &lt;&lt; (p == nullptr) &lt;&lt; " " &lt;&lt; *p;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">A default-constructed unique_ptr is nullptr.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>1 0 99</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">struct Widget {
+    int id;
+    Widget(int i) : id(i) {}
+};
+auto w = make_unique&lt;Widget&gt;(42);
+cout &lt;&lt; w-&gt;id &lt;&lt; " ";
+w-&gt;id = 100;
+cout &lt;&lt; w-&gt;id;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">unique_ptr provides -> for accessing members of the managed object.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14"><code>42 100</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which header provides unique_ptr, shared_ptr, and weak_ptr?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;pointer&gt;</li><li><span class="mcq-option-label">B.</span> &lt;memory&gt;</li><li><span class="mcq-option-label">C.</span> &lt;smart_ptr&gt;</li><li><span class="mcq-option-label">D.</span> &lt;utility&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> All smart pointers are defined in the <code>&lt;memory&gt;</code> header.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does RAII stand for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Runtime Automatic Initialization Interface</li><li><span class="mcq-option-label">B.</span> Resource Acquisition Is Initialization</li><li><span class="mcq-option-label">C.</span> Reference And Iterator Integration</li><li><span class="mcq-option-label">D.</span> Random Access Is Implemented</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> RAII ties resource lifetime to object lifetime. Resources are acquired in constructors and released in destructors.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Can you copy a unique_ptr?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, like any other object</li><li><span class="mcq-option-label">B.</span> No, but you can move it with std::move</li><li><span class="mcq-option-label">C.</span> Yes, but only within the same scope</li><li><span class="mcq-option-label">D.</span> No, and you cannot move it either</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> unique_ptr has a deleted copy constructor. It can only be moved, which transfers exclusive ownership to the destination.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does use_count() return for a shared_ptr?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The number of bytes allocated</li><li><span class="mcq-option-label">B.</span> The number of shared_ptr instances sharing ownership</li><li><span class="mcq-option-label">C.</span> The number of times the pointer was dereferenced</li><li><span class="mcq-option-label">D.</span> The memory address as an integer</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>use_count()</code> returns the number of shared_ptr objects that share ownership of the managed resource.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What is the preferred way to create a unique_ptr?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> unique_ptr&lt;int&gt; p = new int(42);</li><li><span class="mcq-option-label">B.</span> auto p = make_unique&lt;int&gt;(42);</li><li><span class="mcq-option-label">C.</span> unique_ptr&lt;int&gt; p(42);</li><li><span class="mcq-option-label">D.</span> auto p = unique_ptr&lt;int&gt;(42);</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>make_unique</code> is exception-safe and clearly expresses intent. Never use raw <code>new</code> with smart pointers.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does weak_ptr::lock() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A raw pointer</li><li><span class="mcq-option-label">B.</span> A unique_ptr</li><li><span class="mcq-option-label">C.</span> A shared_ptr (or empty shared_ptr if expired)</li><li><span class="mcq-option-label">D.</span> A boolean indicating if the object exists</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>lock()</code> returns a <code>shared_ptr</code> that shares ownership with the existing shared_ptrs. If the managed object has been deleted, it returns an empty shared_ptr.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is the primary purpose of weak_ptr?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To be faster than shared_ptr</li><li><span class="mcq-option-label">B.</span> To replace unique_ptr in multi-threaded code</li><li><span class="mcq-option-label">C.</span> To break circular references between shared_ptrs</li><li><span class="mcq-option-label">D.</span> To provide array access for smart pointers</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>weak_ptr</code> does not increment the reference count, breaking cycles that would otherwise prevent shared_ptrs from ever reaching use_count 0.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What happens to a unique_ptr after std::move?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It still points to the same object</li><li><span class="mcq-option-label">B.</span> It becomes nullptr</li><li><span class="mcq-option-label">C.</span> It is deleted</li><li><span class="mcq-option-label">D.</span> It points to a copy of the object</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> After <code>std::move</code>, the source unique_ptr becomes <code>nullptr</code>. Ownership is transferred to the destination.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the advantage of make_shared over using new with shared_ptr?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> make_shared is slower but more readable</li><li><span class="mcq-option-label">B.</span> make_shared performs a single allocation (object + control block together)</li><li><span class="mcq-option-label">C.</span> make_shared allows custom deleters</li><li><span class="mcq-option-label">D.</span> make_shared creates a unique_ptr internally</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>make_shared</code> allocates the control block (reference counts) and the object in a single heap allocation, improving cache locality and performance.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What does p.get() return for a smart pointer?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A copy of the smart pointer</li><li><span class="mcq-option-label">B.</span> The raw pointer without transferring ownership</li><li><span class="mcq-option-label">C.</span> The reference count</li><li><span class="mcq-option-label">D.</span> A weak_ptr to the managed object</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>get()</code> returns the raw pointer managed by the smart pointer. The smart pointer retains ownership. Use this for interoperability with APIs that require raw pointers.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is an rvalue reference (&&) used for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Double indirection (pointer to pointer)</li><li><span class="mcq-option-label">B.</span> Logical AND of two references</li><li><span class="mcq-option-label">C.</span> Binding to temporary objects to enable move semantics</li><li><span class="mcq-option-label">D.</span> Creating constant references</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> Rvalue references (<code>&&</code>) bind to temporaries and moved-from objects, enabling move constructors and move assignment operators to steal resources instead of copying.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What does the Rule of Zero state?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Never define any constructors</li><li><span class="mcq-option-label">B.</span> Use zero-cost abstractions only</li><li><span class="mcq-option-label">C.</span> Prefer types that manage their own resources so you need no custom destructor, copy, or move operations</li><li><span class="mcq-option-label">D.</span> Always initialize variables to zero</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> The Rule of Zero says: if your class uses smart pointers and other RAII types for all resources, the compiler-generated defaults are correct and you need zero special member functions.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What happens if you create two shared_ptrs from the same raw pointer?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They share the same control block</li><li><span class="mcq-option-label">B.</span> Double deletion -- undefined behavior</li><li><span class="mcq-option-label">C.</span> One becomes a weak_ptr automatically</li><li><span class="mcq-option-label">D.</span> A compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> Each shared_ptr creates its own control block, both thinking they are the sole owner. When both go out of scope, they both try to delete the same pointer, causing undefined behavior (double free).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does std::move actually do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Moves the object to a different memory location</li><li><span class="mcq-option-label">B.</span> Deletes the source object</li><li><span class="mcq-option-label">C.</span> Casts the argument to an rvalue reference, enabling the move constructor/assignment to be called</li><li><span class="mcq-option-label">D.</span> Creates a deep copy</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>std::move</code> is just a cast to <code>T&&</code>. It does not move anything by itself. The actual moving happens in the move constructor or move assignment operator that gets selected because of the rvalue reference.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does p.reset() do on a unique_ptr?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Resets the value to zero</li><li><span class="mcq-option-label">B.</span> Deletes the managed object and sets the pointer to nullptr</li><li><span class="mcq-option-label">C.</span> Transfers ownership to another pointer</li><li><span class="mcq-option-label">D.</span> Resets the reference count to 1</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>reset()</code> deletes the currently managed object and sets the smart pointer to <code>nullptr</code>. You can also pass a new raw pointer to <code>reset(new_ptr)</code> to manage a different object.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Why should you mark move constructors and move assignment operators as noexcept?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It makes them faster</li><li><span class="mcq-option-label">B.</span> STL containers use move only if the move operation is noexcept; otherwise they fall back to copy for exception safety</li><li><span class="mcq-option-label">C.</span> It is required by the standard</li><li><span class="mcq-option-label">D.</span> It prevents the function from being called</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> Containers like <code>vector</code> use move during reallocation only if the move constructor is <code>noexcept</code>. If it might throw, the container falls back to copying to maintain the strong exception guarantee.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Build a Unique Pointer Linked List</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a singly linked list using unique_ptr where each node owns the next node. Insert 5 values and traverse the list printing each value.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Values: 10, 20, 30, 40, 50</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">10 -&gt; 20 -&gt; 30 -&gt; 40 -&gt; 50 -&gt; null</div>
+                </div><div class="challenge-constraints">Use unique_ptr&lt;Node&gt; for the next pointer. No raw new/delete.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;memory&gt;
+using namespace std;
+
+struct Node {
+    int val;
+    unique_ptr&lt;Node&gt; next;
+    Node(int v) : val(v), next(nullptr) {}
+};
+
+int main() {
+    auto head = make_unique&lt;Node&gt;(10);
+    auto curr = head.get();
+    for (int v : {20, 30, 40, 50}) {
+        curr-&gt;next = make_unique&lt;Node&gt;(v);
+        curr = curr-&gt;next.get();
+    }
+    curr = head.get();
+    while (curr) {
+        cout &lt;&lt; curr-&gt;val &lt;&lt; &quot; -&gt; &quot;;
+        curr = curr-&gt;next.get();
+    }
+    cout &lt;&lt; &quot;null&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Shared Resource Counter</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a shared_ptr to an integer. Pass it to 3 different functions that each store a copy. Print use_count after each step and verify it returns to 1 after all functions complete.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Initial value: 42</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Created: count=1
+After share1: count=2
+After share2: count=3
+After share3: count=4
+All released: count=1
+Value: 42</div>
+                </div><div class="challenge-constraints">Use shared_ptr. Demonstrate reference counting.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;memory&gt;
+#include &lt;vector&gt;
+using namespace std;
+
+int main() {
+    auto p = make_shared&lt;int&gt;(42);
+    cout &lt;&lt; &quot;Created: count=&quot; &lt;&lt; p.use_count() &lt;&lt; endl;
+
+    vector&lt;shared_ptr&lt;int&gt;&gt; holders;
+    for (int i = 1; i &lt;= 3; i++) {
+        holders.push_back(p);
+        cout &lt;&lt; &quot;After share&quot; &lt;&lt; i &lt;&lt; &quot;: count=&quot; &lt;&lt; p.use_count() &lt;&lt; endl;
+    }
+    holders.clear();
+    cout &lt;&lt; &quot;All released: count=&quot; &lt;&lt; p.use_count() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Value: &quot; &lt;&lt; *p &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Factory Function Returning unique_ptr</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a factory function that returns different shapes (Circle, Rectangle) as unique_ptr<Shape>. Use polymorphism to call area() on each shape.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Circle(5.0), Rectangle(4.0, 6.0)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Circle area: 78.5398
+Rectangle area: 24</div>
+                </div><div class="challenge-constraints">Use unique_ptr for ownership. Virtual functions for polymorphism.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;memory&gt;
+#include &lt;cmath&gt;
+using namespace std;
+
+class Shape {
+public:
+    virtual double area() const = 0;
+    virtual ~Shape() = default;
+};
+
+class Circle : public Shape {
+    double r;
+public:
+    Circle(double radius) : r(radius) {}
+    double area() const override { return M_PI * r * r; }
+};
+
+class Rectangle : public Shape {
+    double w, h;
+public:
+    Rectangle(double width, double height) : w(width), h(height) {}
+    double area() const override { return w * h; }
+};
+
+unique_ptr&lt;Shape&gt; createShape(const string&amp; type, double a, double b = 0) {
+    if (type == &quot;circle&quot;) return make_unique&lt;Circle&gt;(a);
+    if (type == &quot;rectangle&quot;) return make_unique&lt;Rectangle&gt;(a, b);
+    return nullptr;
+}
+
+int main() {
+    auto c = createShape(&quot;circle&quot;, 5.0);
+    auto r = createShape(&quot;rectangle&quot;, 4.0, 6.0);
+    cout &lt;&lt; &quot;Circle area: &quot; &lt;&lt; c-&gt;area() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Rectangle area: &quot; &lt;&lt; r-&gt;area() &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Break a Circular Reference with weak_ptr</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a Person class where each person can have a best friend. First demonstrate the memory leak with shared_ptr (circular reference), then fix it using weak_ptr.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Arjun&#39;s best friend is Priya, Priya&#39;s best friend is Arjun</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Arjun created
+Priya created
+Arjun&#39;s friend: Priya
+Priya destroyed
+Arjun destroyed</div>
+                </div><div class="challenge-constraints">Use weak_ptr for the bestFriend pointer. Demonstrate lock() for safe access.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;memory&gt;
+using namespace std;
+
+class Person {
+public:
+    string name;
+    weak_ptr&lt;Person&gt; bestFriend;  // weak_ptr breaks the cycle
+    Person(string n) : name(n) { cout &lt;&lt; name &lt;&lt; &quot; created&quot; &lt;&lt; endl; }
+    ~Person() { cout &lt;&lt; name &lt;&lt; &quot; destroyed&quot; &lt;&lt; endl; }
+    void showFriend() {
+        if (auto f = bestFriend.lock())
+            cout &lt;&lt; name &lt;&lt; &quot;&#39;s friend: &quot; &lt;&lt; f-&gt;name &lt;&lt; endl;
+        else
+            cout &lt;&lt; name &lt;&lt; &quot; has no friend&quot; &lt;&lt; endl;
+    }
+};
+
+int main() {
+    auto arjun = make_shared&lt;Person&gt;(&quot;Arjun&quot;);
+    auto priya = make_shared&lt;Person&gt;(&quot;Priya&quot;);
+    arjun-&gt;bestFriend = priya;
+    priya-&gt;bestFriend = arjun;
+    arjun-&gt;showFriend();
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Implement a Simple Resource Pool with shared_ptr</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a simple connection pool that hands out shared_ptr<Connection> objects. Track how many connections are active using use_count. When all shared_ptrs to a connection are released, the connection returns to the pool.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Get 2 connections, release 1, check active count</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Connection 1 created
+Connection 2 created
+Active connections: 2
+Releasing connection 2
+Active connections: 1</div>
+                </div><div class="challenge-constraints">Use shared_ptr and weak_ptr. No raw pointers.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;memory&gt;
+#include &lt;vector&gt;
+using namespace std;
+
+class Connection {
+    int id;
+public:
+    Connection(int i) : id(i) { cout &lt;&lt; &quot;Connection &quot; &lt;&lt; id &lt;&lt; &quot; created&quot; &lt;&lt; endl; }
+    ~Connection() { cout &lt;&lt; &quot;Connection &quot; &lt;&lt; id &lt;&lt; &quot; destroyed&quot; &lt;&lt; endl; }
+    int getId() const { return id; }
+};
+
+class Pool {
+    vector&lt;weak_ptr&lt;Connection&gt;&gt; connections;
+    int nextId = 1;
+public:
+    shared_ptr&lt;Connection&gt; getConnection() {
+        auto conn = make_shared&lt;Connection&gt;(nextId++);
+        connections.push_back(conn);
+        return conn;
+    }
+    int activeCount() {
+        int count = 0;
+        for (auto&amp; wp : connections)
+            if (!wp.expired()) count++;
+        return count;
+    }
+};
+
+int main() {
+    Pool pool;
+    auto c1 = pool.getConnection();
+    {
+        auto c2 = pool.getConnection();
+        cout &lt;&lt; &quot;Active connections: &quot; &lt;&lt; pool.activeCount() &lt;&lt; endl;
+        cout &lt;&lt; &quot;Releasing connection 2&quot; &lt;&lt; endl;
+    }
+    cout &lt;&lt; &quot;Active connections: &quot; &lt;&lt; pool.activeCount() &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/file-handling-in-cpp/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">File Handling (ifstream, ofstream, fstream)</span>
+        </a>
+            <a href="/resources/cpp/competitive-programming-patterns/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Competitive Programming Patterns in C++</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/smart-pointers-and-memory" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

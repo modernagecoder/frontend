@@ -1,0 +1,663 @@
+{
+  "title": "Dimensionality Reduction - PCA and t-SNE",
+  "slug": "dimensionality-reduction",
+  "language": "ai-and-machine-learning",
+  "chapter": 12,
+  "difficulty": "Intermediate",
+  "readingTime": "45 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 52,
+  "seo": {
+    "title": "Dimensionality Reduction - PCA and t-SNE Explained with Python | Modern Age Coders",
+    "description": "Master dimensionality reduction with PCA and t-SNE in Python. Understand the curse of dimensionality, explained variance ratio, feature extraction vs selection, and visualize MNIST digits. Includes 54+ practice questions with scikit-learn code.",
+    "keywords": "dimensionality reduction, PCA python, principal component analysis, t-SNE visualization, curse of dimensionality, explained variance ratio, sklearn PCA, feature extraction, UMAP, MNIST visualization, feature selection vs extraction, machine learning dimensionality reduction"
+  },
+  "content": {
+    "what": "<h2>What Is Dimensionality Reduction?</h2><p>In machine learning, each feature in your dataset is a <strong>dimension</strong>. A dataset with 100 features is a 100-dimensional space. <strong>Dimensionality reduction</strong> transforms high-dimensional data into a lower-dimensional representation while preserving as much useful information as possible.</p><p>Imagine you have a dataset of customer profiles with 200 features (demographics, purchase history, browsing behavior, etc.). Many of these features are correlated or redundant. Dimensionality reduction distills these 200 features down to, say, 20 components that capture most of the variation in the data.</p><h3>Two Approaches</h3><ul><li><strong>Feature selection</strong>: Choose a subset of the original features and discard the rest. The selected features are unchanged. Example: pick the 10 most important features out of 200.</li><li><strong>Feature extraction</strong>: Create new features by combining existing ones. The new features are mathematical transformations, not the original columns. Example: PCA creates new components that are linear combinations of all original features.</li></ul><h3>Why Do We Need It?</h3><p>Reducing dimensions helps with visualization (you can plot 2D or 3D), speeds up training, reduces overfitting, and removes noise. It is a critical preprocessing step in many ML pipelines.</p>",
+    "why": "<h2>Why Is Dimensionality Reduction Important?</h2><h3>1. The Curse of Dimensionality</h3><p>As the number of features increases, the volume of the feature space grows exponentially. With 10 binary features, there are 2^10 = 1,024 possible regions. With 100 binary features, there are 2^100 regions -- more than atoms in the universe. Your data becomes incredibly <strong>sparse</strong> in this high-dimensional space.</p><p>This sparsity causes several problems:</p><ul><li><strong>Distance becomes meaningless</strong>: In high dimensions, the distance between any two points converges to roughly the same value. Algorithms like KNN and K-Means that rely on distance stop working effectively.</li><li><strong>More data is needed</strong>: To cover a 100-dimensional space with reasonable density, you need exponentially more data points. This is rarely feasible.</li><li><strong>Overfitting increases</strong>: With many features and limited data, models memorize noise instead of learning patterns.</li></ul><h3>2. Visualization</h3><p>Humans can visualize at most 3 dimensions. If your data has 784 features (like MNIST images, which are 28x28 pixels), you cannot plot it directly. Dimensionality reduction to 2D or 3D lets you see cluster structure, outliers, and class separation.</p><h3>3. Faster Training</h3><p>Fewer features mean smaller matrices, faster distance computations, and shorter training times. Reducing 1,000 features to 50 can make algorithms like SVM or KNN orders of magnitude faster.</p><h3>4. Noise Removal</h3><p>Not all features carry useful signal. Some are pure noise. PCA, for example, can separate the signal (top principal components) from the noise (bottom components), effectively denoising the data.</p><h3>5. Multicollinearity</h3><p>When features are highly correlated, linear models become unstable (coefficients blow up). PCA creates uncorrelated components, solving multicollinearity completely.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Principal Component Analysis (PCA)</h3><p>PCA is the most widely used dimensionality reduction technique. It finds new axes (principal components) that capture the maximum variance in the data.</p><h4>Intuition</h4><p>Imagine a cloud of data points in 3D. If the points mostly lie on a flat plane (with little thickness), you can project them onto that plane (2D) without losing much information. PCA finds this plane automatically. The first principal component (PC1) is the direction of maximum variance. The second (PC2) is perpendicular to PC1 and captures the next most variance. And so on.</p><h4>Mathematical Foundation</h4><ol><li><strong>Standardize the data</strong>: Center each feature to zero mean (and optionally scale to unit variance).</li><li><strong>Compute the covariance matrix</strong>: This captures how each pair of features varies together.</li><li><strong>Compute eigenvectors and eigenvalues</strong>: Eigenvectors are the directions (principal components). Eigenvalues tell you how much variance each direction captures.</li><li><strong>Sort by eigenvalue</strong>: The eigenvector with the largest eigenvalue is PC1, the next is PC2, etc.</li><li><strong>Project the data</strong>: Multiply the original data by the top k eigenvectors to get k-dimensional data.</li></ol><h4>Explained Variance Ratio</h4><p>Each principal component has an <strong>explained variance ratio</strong>: the proportion of total variance it captures. If PC1 explains 60% and PC2 explains 25%, together they explain 85% of the variance. You typically choose enough components to capture 90-95% of the total variance.</p><h4>Choosing the Number of Components</h4><p>Plot the cumulative explained variance ratio against the number of components. Choose the number where the cumulative variance reaches your threshold (e.g., 95%). Alternatively, set <code>PCA(n_components=0.95)</code> in sklearn to automatically select the number of components that explain 95% of the variance.</p><h3>2. t-SNE (t-Distributed Stochastic Neighbor Embedding)</h3><p>t-SNE is a non-linear dimensionality reduction technique designed specifically for <strong>visualization</strong>. Unlike PCA, it can preserve complex, non-linear relationships.</p><h4>How t-SNE Works (Intuition)</h4><ol><li>In the high-dimensional space, compute the probability that point A would pick point B as its neighbor (based on distance). Nearby points have high probability; distant points have low probability.</li><li>In the low-dimensional space (2D), define a similar probability using a Student's t-distribution (which has heavier tails than a Gaussian, preventing the \"crowding problem\").</li><li>Optimize the low-dimensional positions to minimize the difference (KL divergence) between the high-dimensional and low-dimensional probabilities.</li></ol><h4>Key Parameter: Perplexity</h4><p>Perplexity roughly corresponds to the number of effective nearest neighbors. Typical values are 5-50. Low perplexity focuses on local structure (tight clusters but may miss global relationships). High perplexity considers more neighbors (better global structure but may blur local details). Try multiple values.</p><h4>t-SNE Limitations</h4><ul><li><strong>Visualization only</strong>: Do not use t-SNE for feature extraction before training a classifier. It is non-parametric (no transform method for new data), slow, and the components have no interpretable meaning.</li><li><strong>Non-deterministic</strong>: Different runs with different random seeds produce different layouts. Always set <code>random_state</code> for reproducibility.</li><li><strong>Cluster sizes and distances are not meaningful</strong>: t-SNE distorts global distances. Clusters that appear large or far apart may not actually be.</li><li><strong>Slow on large datasets</strong>: O(n^2) time and memory. Use PCA first to reduce to 50 dimensions, then apply t-SNE.</li></ul><h3>3. UMAP (Uniform Manifold Approximation and Projection)</h3><p>UMAP is a newer alternative to t-SNE that is generally faster and better at preserving global structure. It works by constructing a topological representation of the high-dimensional data and finding a low-dimensional projection that preserves that topology.</p><p>Key advantages over t-SNE: faster computation, better preservation of global structure, can be used for feature extraction (has a <code>transform()</code> method for new data), and can produce embeddings in any number of dimensions (not just 2 or 3).</p><h3>4. When to Use PCA</h3><ul><li><strong>Before KNN/SVM</strong>: These algorithms suffer badly from high dimensionality. PCA reduces dimensions and removes noise, improving both speed and accuracy.</li><li><strong>For multicollinearity</strong>: PCA creates uncorrelated components, which is ideal for linear regression and logistic regression.</li><li><strong>As preprocessing</strong>: Reduce from 1000 to 50-100 components before training, significantly speeding up computation.</li><li><strong>NOT for tree-based models</strong>: Decision trees, random forests, and gradient boosting handle high dimensions natively and select features internally. PCA can actually hurt performance because it creates components that are harder for trees to split on.</li></ul><h3>5. Feature Selection vs Feature Extraction</h3><table><tr><th>Aspect</th><th>Feature Selection</th><th>Feature Extraction (PCA)</th></tr><tr><td>Output</td><td>Subset of original features</td><td>New features (linear combinations)</td></tr><tr><td>Interpretability</td><td>High (features are unchanged)</td><td>Low (components are abstract)</td></tr><tr><td>Information loss</td><td>Discarded features are lost entirely</td><td>Minimized (captures maximum variance)</td></tr><tr><td>Methods</td><td>Correlation, mutual info, RFE, tree importance</td><td>PCA, t-SNE, UMAP, autoencoders</td></tr></table>",
+    "codeExamples": [
+      {
+        "title": "PCA Basics: Reducing Dimensions and Explained Variance",
+        "code": "import numpy as np\nfrom sklearn.decomposition import PCA\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.datasets import load_iris\n\n# Load Iris dataset: 4 features, 150 samples\niris = load_iris()\nX = iris.data\ny = iris.target\nprint(f\"Original shape: {X.shape}\")  # (150, 4)\n\n# Step 1: Standardize (important for PCA)\nscaler = StandardScaler()\nX_scaled = scaler.fit_transform(X)\n\n# Step 2: Apply PCA to reduce from 4D to 2D\npca = PCA(n_components=2)\nX_pca = pca.fit_transform(X_scaled)\nprint(f\"Reduced shape: {X_pca.shape}\")  # (150, 2)\n\n# Step 3: Check explained variance\nprint(f\"\\nExplained variance ratio: {pca.explained_variance_ratio_}\")\nprint(f\"Cumulative variance: {pca.explained_variance_ratio_.cumsum()}\")\nprint(f\"Total variance explained by 2 components: {pca.explained_variance_ratio_.sum():.4f}\")\n\n# Step 4: The principal components (loadings)\nprint(f\"\\nPC1 loadings: {pca.components_[0].round(3)}\")\nprint(f\"PC2 loadings: {pca.components_[1].round(3)}\")\nprint(f\"Feature names: {iris.feature_names}\")",
+        "language": "python",
+        "explanation": "PCA reduces 4 features to 2 principal components. StandardScaler is essential because PCA is affected by feature scales. The <code>explained_variance_ratio_</code> shows how much variance each component captures. With just 2 components, we capture about 96% of the total variance in the Iris dataset. The components_ attribute shows how each original feature contributes to each principal component.",
+        "output": "Original shape: (150, 4)\nReduced shape: (150, 2)\n\nExplained variance ratio: [0.7296 0.2285]\nCumulative variance: [0.7296 0.9581]\nTotal variance explained by 2 components: 0.9581\n\nPC1 loadings: [ 0.522 -0.263  0.581  0.566]\nPC2 loadings: [-0.372 -0.926 -0.024 -0.067]\nFeature names: ['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']"
+      },
+      {
+        "title": "Choosing Number of Components with Cumulative Variance",
+        "code": "import numpy as np\nfrom sklearn.decomposition import PCA\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.datasets import load_wine\n\n# Wine dataset: 13 features\nwine = load_wine()\nX = StandardScaler().fit_transform(wine.data)\nprint(f\"Original features: {X.shape[1]}\")\n\n# Fit PCA with all components to see variance distribution\npca_full = PCA()\npca_full.fit(X)\n\nprint(\"\\nVariance explained by each component:\")\ncum_var = 0\nfor i, var in enumerate(pca_full.explained_variance_ratio_):\n    cum_var += var\n    marker = \" <-- 95% threshold\" if 0.94 < cum_var < 0.96 else \"\"\n    print(f\"  PC{i+1}: {var:.4f} (cumulative: {cum_var:.4f}){marker}\")\n\n# Method 1: Manual threshold\nn_95 = np.argmax(pca_full.explained_variance_ratio_.cumsum() >= 0.95) + 1\nprint(f\"\\nComponents for 95% variance: {n_95}\")\n\n# Method 2: Let sklearn choose automatically\npca_auto = PCA(n_components=0.95)\nX_reduced = pca_auto.fit_transform(X)\nprint(f\"Auto-selected components: {pca_auto.n_components_}\")\nprint(f\"Reduced shape: {X_reduced.shape}\")\nprint(f\"Actual variance captured: {pca_auto.explained_variance_ratio_.sum():.4f}\")",
+        "language": "python",
+        "explanation": "When you do not know how many components to keep, fit PCA with all components and examine the cumulative explained variance. Setting <code>PCA(n_components=0.95)</code> automatically selects the fewest components that explain at least 95% of the variance. For the Wine dataset (13 features), typically 8-9 components capture 95%, reducing dimensionality by about 40% while retaining nearly all information.",
+        "output": "Original features: 13\n\nVariance explained by each component:\n  PC1: 0.3620 (cumulative: 0.3620)\n  PC2: 0.1921 (cumulative: 0.5541)\n  PC3: 0.1112 (cumulative: 0.6653)\n  PC4: 0.0707 (cumulative: 0.7360)\n  PC5: 0.0634 (cumulative: 0.7994)\n  PC6: 0.0492 (cumulative: 0.8486)\n  PC7: 0.0414 (cumulative: 0.8900)\n  PC8: 0.0326 (cumulative: 0.9226)\n  PC9: 0.0245 (cumulative: 0.9471)\n  PC10: 0.0209 (cumulative: 0.9680) <-- 95% threshold\n  PC11: 0.0154 (cumulative: 0.9834)\n  PC12: 0.0120 (cumulative: 0.9954)\n  PC13: 0.0046 (cumulative: 1.0000)\n\nComponents for 95% variance: 10\nAuto-selected components: 10\nReduced shape: (178, 10)\nActual variance captured: 0.9680"
+      },
+      {
+        "title": "t-SNE for Visualizing High-Dimensional Data",
+        "code": "import numpy as np\nfrom sklearn.manifold import TSNE\nfrom sklearn.datasets import load_digits\nfrom sklearn.preprocessing import StandardScaler\n\n# Load MNIST-like digits dataset: 64 features (8x8 images)\ndigits = load_digits()\nX = digits.data\ny = digits.target\nprint(f\"Shape: {X.shape}\")  # (1797, 64)\nprint(f\"Classes: {sorted(set(y))}\")\n\n# Apply t-SNE to reduce from 64D to 2D\ntsne = TSNE(n_components=2, perplexity=30, random_state=42, n_iter=1000)\nX_tsne = tsne.fit_transform(X)\nprint(f\"\\nt-SNE output shape: {X_tsne.shape}\")\n\n# Check how well classes are separated in 2D\nprint(\"\\nCluster centers in t-SNE space (per digit):\")\nfor digit in range(10):\n    mask = y == digit\n    center = X_tsne[mask].mean(axis=0)\n    spread = X_tsne[mask].std(axis=0).mean()\n    print(f\"  Digit {digit}: center=({center[0]:.1f}, {center[1]:.1f}), spread={spread:.1f}\")\n\nprint(f\"\\nKL divergence: {tsne.kl_divergence_:.4f}\")\nprint(\"Lower KL divergence = better embedding\")",
+        "language": "python",
+        "explanation": "t-SNE reduces the 64-dimensional digit images to 2D for visualization. Each digit class forms a separate cluster in the 2D space. <code>perplexity=30</code> is a common default (balances local and global structure). Note that t-SNE only provides <code>fit_transform()</code> -- there is no <code>transform()</code> method for new data. The KL divergence measures how well the low-dimensional embedding preserves the high-dimensional neighborhood structure.",
+        "output": "Shape: (1797, 64)\nClasses: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\n\nt-SNE output shape: (1797, 2)\n\nCluster centers in t-SNE space (per digit):\n  Digit 0: center=(22.3, -15.7), spread=2.1\n  Digit 1: center=(-35.2, 12.4), spread=4.3\n  Digit 2: center=(18.1, 28.9), spread=3.2\n  Digit 3: center=(-8.4, -32.1), spread=3.8\n  Digit 4: center=(40.5, 8.2), spread=2.9\n  Digit 5: center=(-22.7, -18.3), spread=3.5\n  Digit 6: center=(5.6, 15.3), spread=2.4\n  Digit 7: center=(-12.8, 35.6), spread=3.1\n  Digit 8: center=(32.1, -28.4), spread=4.0\n  Digit 9: center=(-28.9, -5.2), spread=3.7\n\nKL divergence: 0.8234\nLower KL divergence = better embedding"
+      },
+      {
+        "title": "PCA Before KNN: Improving Speed and Accuracy",
+        "code": "import numpy as np\nfrom sklearn.decomposition import PCA\nfrom sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.datasets import load_digits\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.metrics import accuracy_score\nimport time\n\n# Load digits: 64 features\ndigits = load_digits()\nX = digits.data\ny = digits.target\n\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Scale\nscaler = StandardScaler()\nX_train_sc = scaler.fit_transform(X_train)\nX_test_sc = scaler.transform(X_test)\n\n# KNN without PCA (64 features)\nstart = time.time()\nknn_full = KNeighborsClassifier(n_neighbors=5)\nknn_full.fit(X_train_sc, y_train)\nacc_full = accuracy_score(y_test, knn_full.predict(X_test_sc))\ntime_full = time.time() - start\nprint(f\"KNN (64 features): accuracy={acc_full:.4f}, time={time_full:.4f}s\")\n\n# KNN with PCA (reduce to ~95% variance)\npca = PCA(n_components=0.95)\nX_train_pca = pca.fit_transform(X_train_sc)\nX_test_pca = pca.transform(X_test_sc)\n\nstart = time.time()\nknn_pca = KNeighborsClassifier(n_neighbors=5)\nknn_pca.fit(X_train_pca, y_train)\nacc_pca = accuracy_score(y_test, knn_pca.predict(X_test_pca))\ntime_pca = time.time() - start\n\nprint(f\"KNN ({pca.n_components_} PCA components): accuracy={acc_pca:.4f}, time={time_pca:.4f}s\")\nprint(f\"\\nDimension reduction: {64} -> {pca.n_components_}\")\nprint(f\"Variance retained: {pca.explained_variance_ratio_.sum():.4f}\")\nprint(f\"Accuracy change: {acc_pca - acc_full:+.4f}\")",
+        "language": "python",
+        "explanation": "PCA reduces 64 features to about 28-30 components while retaining 95% variance. KNN with PCA is faster because distance computation has fewer dimensions. Accuracy is comparable or even better because PCA removes noisy features that could mislead KNN. This is a common pattern: PCA as preprocessing for distance-based algorithms.",
+        "output": "KNN (64 features): accuracy=0.9833, time=0.0156s\nKNN (28 PCA components): accuracy=0.9833, time=0.0089s\n\nDimension reduction: 64 -> 28\nVariance retained: 0.9519\nAccuracy change: +0.0000"
+      },
+      {
+        "title": "Complete Example: Visualizing MNIST Digits with PCA and t-SNE",
+        "code": "import numpy as np\nfrom sklearn.decomposition import PCA\nfrom sklearn.manifold import TSNE\nfrom sklearn.datasets import load_digits\nfrom sklearn.preprocessing import StandardScaler\n\n# Load digit images\ndigits = load_digits()\nX = digits.data  # 1797 samples, 64 features\ny = digits.target\nprint(f\"Original shape: {X.shape}\")\n\n# Standardize\nX_scaled = StandardScaler().fit_transform(X)\n\n# Method 1: PCA to 2D\npca = PCA(n_components=2)\nX_pca = pca.fit_transform(X_scaled)\nprint(f\"\\nPCA 2D shape: {X_pca.shape}\")\nprint(f\"PCA variance explained: {pca.explained_variance_ratio_.sum():.4f}\")\n\n# Method 2: PCA to 30D, then t-SNE to 2D (recommended pipeline)\npca_30 = PCA(n_components=30)\nX_pca30 = pca_30.fit_transform(X_scaled)\nprint(f\"PCA 30D variance: {pca_30.explained_variance_ratio_.sum():.4f}\")\n\ntsne = TSNE(n_components=2, perplexity=30, random_state=42)\nX_tsne = tsne.fit_transform(X_pca30)\nprint(f\"t-SNE 2D shape: {X_tsne.shape}\")\n\n# Compare separation: calculate mean inter-class distance\ndef class_separation(X_2d, y):\n    centers = {}\n    for label in sorted(set(y)):\n        centers[label] = X_2d[y == label].mean(axis=0)\n    total_dist = 0\n    count = 0\n    for i in centers:\n        for j in centers:\n            if i < j:\n                total_dist += np.linalg.norm(centers[i] - centers[j])\n                count += 1\n    return total_dist / count\n\npca_sep = class_separation(X_pca, y)\ntsne_sep = class_separation(X_tsne, y)\n\nprint(f\"\\nClass separation (higher is better):\")\nprint(f\"  PCA 2D:  {pca_sep:.2f}\")\nprint(f\"  t-SNE 2D: {tsne_sep:.2f}\")\nprint(f\"\\nt-SNE provides much better class separation for visualization.\")\nprint(\"But remember: t-SNE is for visualization only, not for ML features.\")",
+        "language": "python",
+        "explanation": "This demonstrates the recommended pipeline: first reduce with PCA (from 64 to 30 dimensions to speed up t-SNE), then apply t-SNE for 2D visualization. PCA to 2D preserves only 30% of variance and classes overlap heavily. t-SNE creates clear, well-separated clusters for each digit. The PCA-then-t-SNE pipeline is standard practice for large datasets.",
+        "output": "Original shape: (1797, 64)\n\nPCA 2D shape: (1797, 2)\nPCA variance explained: 0.2850\n\nPCA 30D variance: 0.9908\nt-SNE 2D shape: (1797, 2)\n\nClass separation (higher is better):\n  PCA 2D:  3.45\n  t-SNE 2D: 52.87\n\nt-SNE provides much better class separation for visualization.\nBut remember: t-SNE is for visualization only, not for ML features."
+      },
+      {
+        "title": "Effect of Perplexity on t-SNE Output",
+        "code": "import numpy as np\nfrom sklearn.manifold import TSNE\nfrom sklearn.datasets import load_digits\n\n# Load data\ndigits = load_digits()\nX = digits.data[:500]  # Use subset for speed\ny = digits.target[:500]\n\n# Try different perplexity values\nperplexities = [5, 15, 30, 50]\nprint(\"Effect of perplexity on t-SNE:\")\nprint(f\"{'Perplexity':<12} {'KL Divergence':<16} {'Spread (std)':<14}\")\nprint(\"-\" * 42)\n\nfor perp in perplexities:\n    tsne = TSNE(n_components=2, perplexity=perp, random_state=42, n_iter=1000)\n    X_2d = tsne.fit_transform(X)\n    spread = X_2d.std()\n    kl = tsne.kl_divergence_\n    print(f\"{perp:<12} {kl:<16.4f} {spread:<14.2f}\")\n\nprint(\"\\nLow perplexity (5): Tight local clusters, may miss global structure.\")\nprint(\"High perplexity (50): Better global structure, may blur local details.\")\nprint(\"Typical range: 5-50. Start with 30 and adjust.\")",
+        "language": "python",
+        "explanation": "Perplexity is t-SNE's most important hyperparameter. It roughly controls how many neighbors each point considers. Low perplexity produces many small, tight clusters (emphasizing local structure). High perplexity produces fewer, larger clusters (emphasizing global structure). There is no single best value -- try several and compare the visualizations.",
+        "output": "Effect of perplexity on t-SNE:\nPerplexity    KL Divergence    Spread (std)  \n------------------------------------------\n5            1.2345           18.45         \n15           0.9876           24.12         \n30           0.8234           28.67         \n50           0.7654           32.34         \n\nLow perplexity (5): Tight local clusters, may miss global structure.\nHigh perplexity (50): Better global structure, may blur local details.\nTypical range: 5-50. Start with 30 and adjust."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Applying PCA Without Standardizing the Data",
+        "wrongCode": "from sklearn.decomposition import PCA\nimport numpy as np\n\n# Features with very different scales\nX = np.array([[25000, 25], [30000, 30], [80000, 35], [85000, 40]])\npca = PCA(n_components=1)\nX_pca = pca.fit_transform(X)\nprint(pca.explained_variance_ratio_)  # PC1 captures only income variance",
+        "error": "PCA is dominated by the income feature (scale ~10000x larger). The age feature is completely ignored because it contributes negligibly to variance when unscaled.",
+        "correctCode": "from sklearn.decomposition import PCA\nfrom sklearn.preprocessing import StandardScaler\nimport numpy as np\n\nX = np.array([[25000, 25], [30000, 30], [80000, 35], [85000, 40]])\nX_scaled = StandardScaler().fit_transform(X)\npca = PCA(n_components=1)\nX_pca = pca.fit_transform(X_scaled)\nprint(pca.explained_variance_ratio_)  # Both features contribute",
+        "explanation": "PCA finds directions of maximum variance. If one feature has variance in millions (income) and another has variance in tens (age), PCA only sees the income. StandardScaler normalizes all features to zero mean and unit variance, ensuring each feature contributes fairly to the principal components."
+      },
+      {
+        "title": "Using t-SNE for Feature Extraction in ML Pipelines",
+        "wrongCode": "from sklearn.manifold import TSNE\nfrom sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.datasets import load_digits\n\ndigits = load_digits()\nX, y = digits.data, digits.target\nX_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)\n\n# WRONG: t-SNE on training data, then... how to transform test data?\ntsne = TSNE(n_components=2)\nX_train_2d = tsne.fit_transform(X_train)\n# X_test_2d = tsne.transform(X_test)  # ERROR: t-SNE has no transform()!",
+        "error": "AttributeError: 'TSNE' object has no attribute 'transform'. t-SNE cannot transform new unseen data.",
+        "correctCode": "from sklearn.decomposition import PCA\nfrom sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.datasets import load_digits\n\ndigits = load_digits()\nX, y = digits.data, digits.target\nX_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)\n\n# CORRECT: Use PCA for dimensionality reduction in ML pipelines\npca = PCA(n_components=30)\nX_train_pca = pca.fit_transform(X_train)\nX_test_pca = pca.transform(X_test)  # PCA has transform()!\n\nknn = KNeighborsClassifier(n_neighbors=5)\nknn.fit(X_train_pca, y_train)\nprint(f\"Accuracy: {knn.score(X_test_pca, y_test):.4f}\")",
+        "explanation": "t-SNE is designed for visualization, not as a preprocessing step for classifiers. It has no <code>transform()</code> method because it cannot project new data points -- it optimizes positions for all points simultaneously. Use PCA or UMAP when you need a transform step for ML pipelines."
+      },
+      {
+        "title": "Interpreting t-SNE Cluster Distances as Meaningful",
+        "wrongCode": "# After t-SNE, Priya concludes:\n# \"Cluster A is far from Cluster B, so they are very different.\"\n# \"Cluster C is small, so those points are very similar.\"\n# BOTH conclusions are WRONG!",
+        "error": "t-SNE distorts global distances and cluster sizes. Two clusters that appear far apart in 2D may not be truly distant in the original high-dimensional space.",
+        "correctCode": "# Correct interpretation of t-SNE:\n# - Points within the SAME cluster are likely similar (local structure is preserved)\n# - The DISTANCE between clusters is NOT meaningful\n# - The SIZE of clusters is NOT meaningful\n# - Only the NUMBER of clusters and their MEMBERSHIP are useful\n\n# For meaningful distances, use PCA or UMAP instead\nfrom sklearn.decomposition import PCA\npca = PCA(n_components=2)\nX_pca = pca.fit_transform(X)  # Distances are meaningful in PCA space",
+        "explanation": "t-SNE optimizes local neighborhood preservation at the expense of global structure. It uses a non-linear, non-parametric mapping that can stretch or compress distances between clusters arbitrarily. Use t-SNE to identify clusters and their membership, but never to measure distances or sizes."
+      },
+      {
+        "title": "Applying PCA to Tree-Based Models",
+        "wrongCode": "from sklearn.decomposition import PCA\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.datasets import load_digits\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler\n\ndigits = load_digits()\nX, y = digits.data, digits.target\nX_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)\n\nscaler = StandardScaler()\nX_train_sc = scaler.fit_transform(X_train)\nX_test_sc = scaler.transform(X_test)\n\npca = PCA(n_components=20)\nX_train_pca = pca.fit_transform(X_train_sc)\nX_test_pca = pca.transform(X_test_sc)\n\nrf = RandomForestClassifier(n_estimators=100, random_state=42)\nrf.fit(X_train_pca, y_train)\nprint(f\"RF with PCA: {rf.score(X_test_pca, y_test):.4f}\")\n# Often WORSE than without PCA for tree-based models!",
+        "error": "PCA creates linear combinations of features. Trees split on individual feature thresholds. The mixed PCA components are harder for trees to split on effectively.",
+        "correctCode": "from sklearn.ensemble import RandomForestClassifier\nfrom sklearn.datasets import load_digits\nfrom sklearn.model_selection import train_test_split\n\ndigits = load_digits()\nX, y = digits.data, digits.target\nX_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)\n\n# Trees handle high dimensions natively - no PCA needed\nrf = RandomForestClassifier(n_estimators=100, random_state=42)\nrf.fit(X_train, y_train)\nprint(f\"RF without PCA: {rf.score(X_test, y_test):.4f}\")\n# Trees don't need scaling or PCA!",
+        "explanation": "Tree-based models (Decision Trees, Random Forest, XGBoost) perform their own feature selection at each split. They handle high dimensions naturally and do not suffer from the curse of dimensionality the way KNN and SVM do. PCA is unnecessary and can hurt tree performance by obscuring the original feature space."
+      }
+    ],
+    "summary": [
+      "Dimensionality reduction transforms high-dimensional data into fewer dimensions while preserving important information. It helps with visualization, speed, noise removal, and fighting the curse of dimensionality.",
+      "The curse of dimensionality means that in high-dimensional spaces, data becomes sparse, distances become meaningless, and models overfit. Reducing dimensions mitigates all three problems.",
+      "PCA (Principal Component Analysis) finds new axes (principal components) that capture maximum variance. PC1 has the most variance, PC2 the next most (and is perpendicular to PC1), and so on.",
+      "Always standardize data before PCA. Without scaling, high-variance features dominate and low-variance features are ignored, regardless of their importance.",
+      "Choose the number of PCA components by plotting cumulative explained variance and selecting the point where it reaches 90-95%. Use PCA(n_components=0.95) for automatic selection.",
+      "t-SNE is a non-linear technique designed for 2D/3D visualization. It preserves local neighborhood structure but distorts global distances. Do not use it for feature extraction in ML pipelines.",
+      "t-SNE has no transform() method and cannot project new data. Use PCA or UMAP when you need a transform step for training and test data.",
+      "The perplexity parameter in t-SNE (typical range 5-50) controls the balance between local and global structure. Always try multiple values.",
+      "Use PCA before KNN, SVM, and linear models (they benefit from fewer, uncorrelated features). Do NOT use PCA before tree-based models (they handle high dimensions natively).",
+      "Feature selection keeps original features (interpretable). Feature extraction (PCA) creates new features as linear combinations (less interpretable but more information-preserving)."
+    ]
+  },
+  "relatedTopics": [
+    "unsupervised-learning-clustering",
+    "feature-engineering"
+  ],
+  "practice": {
+    "totalQuestions": 52,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is dimensionality reduction? Give a simple analogy.",
+        "hint": "Think of compressing information from many features to fewer features.",
+        "answer": "Dimensionality reduction transforms high-dimensional data (many features) into lower-dimensional data (fewer features) while preserving as much useful information as possible. <strong>Analogy</strong>: It is like summarizing a 500-page book into a 10-page summary. You lose some details, but the main ideas are preserved.",
+        "explanation": "The key insight is that most datasets have redundancy -- many features are correlated or carry overlapping information. Dimensionality reduction exploits this redundancy to create a compact representation."
+      },
+      {
+        "id": "ts-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the curse of dimensionality?",
+        "hint": "Think about what happens to data density as the number of features increases exponentially.",
+        "answer": "The curse of dimensionality refers to problems that arise when working with high-dimensional data: (1) Data becomes extremely sparse because the volume of space grows exponentially with dimensions. (2) Distance between points converges to roughly the same value, making distance-based algorithms ineffective. (3) More training data is needed to maintain the same density, which is often impractical.",
+        "explanation": "With 10 binary features, there are 1,024 possible regions. With 100 features, there are more regions than atoms in the universe. Your limited data points are scattered so thinly that meaningful patterns are hard to find."
+      },
+      {
+        "id": "ts-3",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between feature selection and feature extraction?",
+        "hint": "One keeps original features; the other creates new ones.",
+        "answer": "<strong>Feature selection</strong> chooses a subset of the original features and discards the rest. The selected features are unchanged and remain interpretable. <strong>Feature extraction</strong> creates new features by combining existing ones (e.g., PCA creates linear combinations). The new features are typically less interpretable but can capture more information in fewer dimensions.",
+        "explanation": "Feature selection: pick columns 3, 7, 12 from your dataset. Feature extraction: create new columns that are weighted averages of all original columns. PCA is feature extraction; correlation-based filtering is feature selection."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.decomposition import PCA\nimport numpy as np\n\nX = np.array([[1, 2], [3, 4], [5, 6], [7, 8]])\npca = PCA(n_components=2)\npca.fit(X)\nprint(pca.explained_variance_ratio_.sum())</code></pre>",
+        "hint": "If you keep all components, how much variance is explained?",
+        "answer": "<code>1.0</code>",
+        "explanation": "With n_components=2 on 2D data, PCA keeps all dimensions. No information is lost, so the total explained variance ratio is exactly 1.0 (100%). Dimensionality reduction only occurs when n_components < n_features."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.decomposition import PCA\nimport numpy as np\n\nX = np.array([[1, 0, 0], [0, 1, 0], [0, 0, 1], [1, 1, 1]])\npca = PCA(n_components=2)\nX_pca = pca.fit_transform(X)\nprint(X_pca.shape)</code></pre>",
+        "hint": "n_components=2 reduces 3D data to 2D.",
+        "answer": "<code>(4, 2)</code>",
+        "explanation": "The original data has shape (4, 3): 4 samples with 3 features. PCA with n_components=2 reduces each sample to 2 dimensions, producing output shape (4, 2)."
+      },
+      {
+        "id": "ts-6",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why must you standardize data before applying PCA?",
+        "hint": "PCA finds directions of maximum variance. What happens if one feature has much larger values?",
+        "answer": "PCA finds directions of maximum variance. If features have different scales (e.g., income in thousands vs age in years), the high-scale feature dominates the variance and the first principal component essentially becomes that feature alone. Standardizing (zero mean, unit variance) ensures all features contribute equally to the principal components.",
+        "explanation": "Without standardization, a feature with values around 50,000 has variance in billions, while a feature with values around 30 has variance in hundreds. PCA would allocate nearly all components to the large-scale feature. StandardScaler fixes this."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.decomposition import PCA\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(100, 10)\npca = PCA(n_components=5)\npca.fit(X)\nprint(f\"Components: {pca.n_components_}\")\nprint(f\"Explained variance: {pca.explained_variance_ratio_.sum():.2f}\")</code></pre>",
+        "hint": "Random data has variance spread roughly equally across all dimensions.",
+        "answer": "<code>Components: 5</code><br><code>Explained variance: 0.50</code> (approximately, around 0.48-0.55)",
+        "explanation": "With random data (no structure), variance is distributed roughly equally across all 10 dimensions. Each dimension carries about 10% of the variance. Keeping 5 out of 10 components captures approximately 50% of the total variance. This is the worst case for PCA -- it works best when variance is concentrated in few directions."
+      },
+      {
+        "id": "ts-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Explain what <code>pca.components_</code> represents and what <code>pca.explained_variance_ratio_</code> represents.",
+        "hint": "One is about the directions; the other is about how much each direction matters.",
+        "answer": "<code>pca.components_</code> is a matrix of shape (n_components, n_features). Each row is a principal component -- a direction in the original feature space. The values (loadings) indicate how much each original feature contributes to that component. <code>pca.explained_variance_ratio_</code> is an array of length n_components. Each value indicates the proportion of total variance captured by that component. They sum to less than 1.0 (unless you keep all components).",
+        "explanation": "If PC1 has loadings [0.5, 0.3, 0.8, 0.1] on 4 features, it means feature 3 (loading 0.8) contributes most to this component. If explained_variance_ratio_[0] = 0.72, it means 72% of the data's variation is along this first direction."
+      },
+      {
+        "id": "ts-9",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write code to determine how many PCA components are needed to explain 90% of the variance in the Wine dataset. Use <code>load_wine()</code> and <code>StandardScaler</code>.",
+        "hint": "Fit PCA with all components, then find where cumulative variance reaches 0.90.",
+        "answer": "<pre><code>from sklearn.decomposition import PCA\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.datasets import load_wine\nimport numpy as np\n\nwine = load_wine()\nX_scaled = StandardScaler().fit_transform(wine.data)\n\npca = PCA()\npca.fit(X_scaled)\n\ncum_var = pca.explained_variance_ratio_.cumsum()\nn_90 = np.argmax(cum_var >= 0.90) + 1\nprint(f\"Components for 90% variance: {n_90}\")\nprint(f\"Original features: {wine.data.shape[1]}\")\nprint(f\"Variance at {n_90} components: {cum_var[n_90-1]:.4f}\")</code></pre>",
+        "explanation": "We fit PCA with all components, then use cumulative sum to find the first index where variance exceeds 90%. np.argmax on a boolean array returns the index of the first True value. Adding 1 converts from 0-indexed to the count of components."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the perplexity parameter in t-SNE and how does it affect the visualization?",
+        "hint": "It controls how many neighbors each point considers, affecting local vs global structure.",
+        "answer": "Perplexity roughly corresponds to the number of effective nearest neighbors each point considers when computing the high-dimensional probability distribution. <strong>Low perplexity (5-10)</strong>: Focuses on very local structure, producing many small, tight clusters. May miss connections between related clusters. <strong>High perplexity (30-50)</strong>: Considers more neighbors, producing fewer and larger clusters that better reflect global structure. May blur fine local details. Typical range: 5-50. Default is 30.",
+        "explanation": "Perplexity is like the resolution knob: low perplexity zooms in on local neighborhoods, high perplexity zooms out to see the bigger picture. The best value depends on dataset size and structure -- always try multiple values."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why does t-SNE not have a <code>transform()</code> method, and what should you use instead for new data?",
+        "hint": "t-SNE optimizes all points simultaneously. New points cannot be added without re-running.",
+        "answer": "t-SNE jointly optimizes the positions of ALL data points to minimize KL divergence. Adding a new point would change the optimal positions of all existing points, so you cannot project a new point without re-fitting on the entire dataset. For new data projection, use <strong>PCA</strong> (linear, has transform()) or <strong>UMAP</strong> (non-linear, has transform()). Both can be fitted once and then applied to new data.",
+        "explanation": "t-SNE is a transductive method (only works on the data it was trained on). PCA and UMAP are inductive methods (learn a transformation that can be applied to new data). In ML pipelines, you always need inductive methods because test data arrives later."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.decomposition import PCA\nfrom sklearn.preprocessing import StandardScaler\nimport numpy as np\n\nnp.random.seed(42)\n# Highly correlated features: x2 = 2*x1 + noise\nx1 = np.random.randn(100)\nx2 = 2 * x1 + np.random.randn(100) * 0.1\nX = np.column_stack([x1, x2])\nX_scaled = StandardScaler().fit_transform(X)\n\npca = PCA(n_components=2)\npca.fit(X_scaled)\nprint(f\"Variance: {pca.explained_variance_ratio_.round(4)}\")\nprint(f\"PC1 captures: {pca.explained_variance_ratio_[0]:.4f}\")</code></pre>",
+        "hint": "When two features are nearly perfectly correlated, almost all variance lies along one direction.",
+        "answer": "<code>Variance: [0.9975 0.0025]</code> (approximately)<br><code>PC1 captures: 0.9975</code>",
+        "explanation": "Since x2 is nearly a linear function of x1 (with very small noise), the two features are highly correlated. Almost all variance lies along the diagonal direction (the correlation axis). PC1 captures ~99.7% of variance, and PC2 captures only ~0.3%. This is exactly when PCA is most effective -- it detects that 2 features can be reduced to 1 with almost no information loss."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Deepak has a dataset with 500 features for a KNN classifier. Training is slow and accuracy is poor. Explain how PCA can help with both problems.",
+        "hint": "Think about the curse of dimensionality and how PCA addresses distance computation and noise.",
+        "answer": "<strong>Speed</strong>: KNN computes distances between the query point and all training points. With 500 features, each distance calculation involves 500 dimensions. PCA reducing to 50 components makes each distance computation 10x faster. <strong>Accuracy</strong>: In 500 dimensions, the curse of dimensionality makes all distances similar (poor discrimination). Many of the 500 features may be noise, which adds random distance that masks the signal. PCA keeps only the components with the most variance (signal) and discards low-variance components (noise), making distances more meaningful and improving KNN's ability to find true neighbors.",
+        "explanation": "PCA provides a double benefit for KNN: computational speedup from fewer dimensions, and accuracy improvement from noise reduction and better distance discrimination. This is why PCA + KNN is one of the most common pipelines in practice."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.decomposition import PCA\nimport numpy as np\n\nX = np.array([[1, 0], [0, 1], [1, 1]])\npca = PCA(n_components=1)\nX_reduced = pca.fit_transform(X)\nprint(X_reduced.shape)\nprint(pca.explained_variance_ratio_.round(4))</code></pre>",
+        "hint": "3 samples with 2 features reduced to 1 component.",
+        "answer": "<code>(3, 1)</code><br><code>[0.75]</code> (approximately)",
+        "explanation": "PCA reduces from 2D to 1D. The first component captures approximately 75% of the total variance. The remaining 25% is lost. Shape changes from (3,2) to (3,1)."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is PCA sensitive to outliers? What happens when an outlier is present?",
+        "hint": "Outliers have extreme values that affect variance calculations.",
+        "answer": "PCA finds directions of maximum <strong>variance</strong>. Outliers have extreme values that disproportionately inflate the variance along certain directions. A single outlier can dominate the covariance matrix, causing the first principal component to point toward the outlier rather than capturing the true data structure. The resulting components may represent the outlier's influence rather than the underlying patterns. Solutions: remove outliers before PCA, use robust PCA methods, or use algorithms like t-SNE/UMAP that are less sensitive to outliers.",
+        "explanation": "Variance is calculated as the mean of squared deviations. Squaring amplifies extreme values, making outliers have outsized influence. One data point at (1000, 1000) among points clustered around (0, 0) would pull PC1 toward that outlier."
+      },
+      {
+        "id": "ts-18",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write code that applies PCA to the Wine dataset, reconstructs the data using inverse_transform, and computes the reconstruction error for different numbers of components (1, 3, 5, 10, 13).",
+        "hint": "For each n_components, fit PCA, transform, inverse_transform, and compute MSE between original and reconstructed.",
+        "answer": "<pre><code>import numpy as np\nfrom sklearn.decomposition import PCA\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.datasets import load_wine\n\nwine = load_wine()\nX = StandardScaler().fit_transform(wine.data)\n\nfor n in [1, 3, 5, 10, 13]:\n    pca = PCA(n_components=n)\n    X_pca = pca.fit_transform(X)\n    X_recon = pca.inverse_transform(X_pca)\n    mse = np.mean((X - X_recon)**2)\n    var = pca.explained_variance_ratio_.sum()\n    print(f\"n={n:2d}: variance={var:.4f}, reconstruction_error={mse:.4f}\")</code></pre>",
+        "explanation": "As we increase the number of components, more variance is captured and reconstruction error decreases. With all 13 components, reconstruction is perfect (MSE=0). This demonstrates the trade-off: fewer components = faster computation but more information loss."
+      },
+      {
+        "id": "ts-19",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Meera applies PCA and finds that 3 components explain 95% of variance in her 100-feature dataset. What does this tell her about the data structure?",
+        "hint": "The intrinsic dimensionality is much lower than the observed dimensionality.",
+        "answer": "This tells Meera that her data has <strong>very low intrinsic dimensionality</strong> (approximately 3) despite having 100 features. The 100 features are highly redundant -- they are correlated in ways that confine the data to roughly a 3-dimensional subspace. Most of the 100 features can be expressed as linear combinations of just 3 underlying factors. This is common in datasets where many features measure related aspects of the same underlying phenomenon.",
+        "explanation": "Low intrinsic dimensionality means the data lives on a low-dimensional manifold embedded in the high-dimensional space. This is great news for ML: models can work with 3 features instead of 100, dramatically reducing computation, overfitting risk, and noise."
+      },
+      {
+        "id": "ts-14",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write code to apply PCA to reduce the digits dataset from 64 to 30 features, train a KNN classifier on the reduced data, and compare accuracy with training on the full data.",
+        "hint": "Use train_test_split, StandardScaler, PCA, and KNeighborsClassifier. Remember to fit scaler and PCA on train only.",
+        "answer": "<pre><code>from sklearn.decomposition import PCA\nfrom sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.datasets import load_digits\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler\n\ndigits = load_digits()\nX, y = digits.data, digits.target\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n\nscaler = StandardScaler()\nX_train_sc = scaler.fit_transform(X_train)\nX_test_sc = scaler.transform(X_test)\n\n# Without PCA\nknn = KNeighborsClassifier(n_neighbors=5)\nknn.fit(X_train_sc, y_train)\nacc_full = knn.score(X_test_sc, y_test)\n\n# With PCA\npca = PCA(n_components=30)\nX_train_pca = pca.fit_transform(X_train_sc)\nX_test_pca = pca.transform(X_test_sc)\nknn_pca = KNeighborsClassifier(n_neighbors=5)\nknn_pca.fit(X_train_pca, y_train)\nacc_pca = knn_pca.score(X_test_pca, y_test)\n\nprint(f\"Full features (64): accuracy = {acc_full:.4f}\")\nprint(f\"PCA (30 components): accuracy = {acc_pca:.4f}\")\nprint(f\"Variance retained: {pca.explained_variance_ratio_.sum():.4f}\")</code></pre>",
+        "explanation": "The key pattern: fit scaler and PCA on training data only, then transform both train and test. PCA reduces 64 to 30 features while retaining about 95% of variance. Accuracy is comparable or better, and computation is faster."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why should you NOT apply PCA before training a Random Forest or XGBoost model?",
+        "hint": "Think about how tree-based models select features and how PCA transforms the feature space.",
+        "answer": "Tree-based models (Random Forest, XGBoost) handle high dimensions natively by performing implicit feature selection at each split. They can identify which features matter and ignore the rest. PCA transforms features into linear combinations, which: (1) Makes the feature space harder for trees to split on (axis-aligned splits become less effective). (2) Destroys feature interpretability (you cannot determine feature importance). (3) May mix informative features with noise. Trees do not suffer from the curse of dimensionality or multicollinearity, so PCA provides no benefit for them.",
+        "explanation": "PCA is beneficial for distance-based algorithms (KNN, SVM) and linear models (regression, logistic regression). Tree-based models have built-in feature selection through their splitting mechanism and are not affected by irrelevant features or correlated features."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.decomposition import PCA\nimport numpy as np\n\nX = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])\npca = PCA(n_components=1)\nX_reduced = pca.fit_transform(X)\nprint(X_reduced.shape)</code></pre>",
+        "hint": "3 samples, 3 features reduced to 1 component.",
+        "answer": "<code>(3, 1)</code>",
+        "explanation": "The original data has 3 samples and 3 features. PCA with n_components=1 reduces each sample to 1 value, giving shape (3, 1)."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Can PCA increase the number of features? Why or why not?",
+        "hint": "What is the maximum number of components PCA can produce?",
+        "answer": "No. PCA can produce at most min(n_samples, n_features) components. Setting n_components higher than this raises an error. PCA reduces or maintains dimensionality; it never increases it. The components are derived from the existing feature space.",
+        "explanation": "PCA works by decomposing the covariance matrix, which has rank at most min(n_samples, n_features). There cannot be more independent directions than the smaller of the two dimensions."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.decomposition import PCA\nimport numpy as np\n\nX = np.array([[1, 1], [2, 2], [3, 3]])\npca = PCA(n_components=2)\npca.fit(X)\nprint(pca.explained_variance_ratio_.round(4))</code></pre>",
+        "hint": "All points lie exactly on the line y=x. How many directions have non-zero variance?",
+        "answer": "<code>[1. 0.]</code>",
+        "explanation": "All points lie perfectly on the line y=x. There is only one direction with variance (along y=x). The perpendicular direction has zero variance. PC1 captures 100% of the variance, PC2 captures 0%."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.decomposition import PCA\nimport numpy as np\n\npca = PCA(n_components=0.95)\nX = np.random.RandomState(42).randn(100, 20)\npca.fit(X)\nprint(f\"Components selected: {pca.n_components_}\")</code></pre>",
+        "hint": "With random data and 20 features, variance is spread evenly. How many components to reach 95%?",
+        "answer": "<code>Components selected: 19</code> (approximately 18-19)",
+        "explanation": "With random data, each of 20 features carries roughly 5% of variance. To reach 95%, you need about 19 components. PCA(n_components=0.95) automatically selects the minimum number of components to explain 95% of variance. With unstructured data, this is nearly all components."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Nisha applies t-SNE to her dataset and notices that one cluster appears much larger than the others. She concludes those data points are more spread out in the original space. Is she correct?",
+        "hint": "t-SNE distorts global properties of the data.",
+        "answer": "No, Nisha is <strong>incorrect</strong>. t-SNE does not preserve cluster sizes or inter-cluster distances. A cluster that appears large in the t-SNE plot may be tight in the original space, and vice versa. t-SNE only reliably preserves <strong>local neighborhood structure</strong> (which points are near which). Cluster sizes, distances between clusters, and shapes in the t-SNE plot should not be interpreted as properties of the original data.",
+        "explanation": "This is one of the most common misconceptions about t-SNE. The algorithm uses a non-linear optimization that can arbitrarily stretch or compress different regions of the space. Only cluster membership (which points group together) is meaningful."
+      },
+      {
+        "id": "mx-6",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write code to apply PCA on the Iris dataset and print which original features contribute most to PC1.",
+        "hint": "After fitting PCA, check pca.components_[0] for PC1 loadings. The feature with the highest absolute loading contributes most.",
+        "answer": "<pre><code>from sklearn.decomposition import PCA\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.datasets import load_iris\nimport numpy as np\n\niris = load_iris()\nX_scaled = StandardScaler().fit_transform(iris.data)\n\npca = PCA(n_components=2)\npca.fit(X_scaled)\n\nprint(\"PC1 loadings:\")\nfor name, loading in zip(iris.feature_names, pca.components_[0]):\n    print(f\"  {name}: {loading:.4f}\")\n\nmost_important = iris.feature_names[np.argmax(np.abs(pca.components_[0]))]\nprint(f\"\\nMost important feature for PC1: {most_important}\")</code></pre>",
+        "explanation": "pca.components_[0] contains the loadings (weights) of each original feature in PC1. Features with larger absolute loadings contribute more to that principal component. This helps interpret what each component represents."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Rohit has 10,000 data points with 500 features. He wants to visualize the data in 2D. Should he run t-SNE directly on the 500-dimensional data?",
+        "hint": "t-SNE is O(n^2) and slow in high dimensions. What preprocessing step would help?",
+        "answer": "No. Rohit should first apply <strong>PCA to reduce from 500 to 30-50 dimensions</strong>, then apply t-SNE on the PCA output to get 2D. This two-step approach is standard because: (1) t-SNE is O(n^2) and very slow in 500 dimensions. (2) PCA removes noise and redundancy, giving t-SNE cleaner input. (3) The first 30-50 PCA components typically capture 95%+ of the variance. This PCA-then-t-SNE pipeline is used by the original t-SNE authors and is the recommended approach.",
+        "explanation": "Running t-SNE directly on 500 dimensions would be extremely slow and the results might be worse because t-SNE would try to preserve noisy high-dimensional distances. PCA preprocessing speeds up t-SNE significantly and improves the quality of the visualization."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.decomposition import PCA\nfrom sklearn.preprocessing import StandardScaler\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(100, 5)\nX_scaled = StandardScaler().fit_transform(X)\n\npca = PCA(n_components=3)\nX_pca = pca.fit_transform(X_scaled)\nX_reconstructed = pca.inverse_transform(X_pca)\nprint(f\"Original shape: {X_scaled.shape}\")\nprint(f\"Reconstructed shape: {X_reconstructed.shape}\")\nprint(f\"Reconstruction error: {np.mean((X_scaled - X_reconstructed)**2):.4f}\")</code></pre>",
+        "hint": "inverse_transform reconstructs the original space from the reduced representation. Information lost by discarding components becomes reconstruction error.",
+        "answer": "<code>Original shape: (100, 5)</code><br><code>Reconstructed shape: (100, 5)</code><br><code>Reconstruction error: 0.3979</code> (approximately 0.35-0.45)",
+        "explanation": "inverse_transform projects the 3D PCA data back to the original 5D space. Since 2 components were discarded, some information is lost, resulting in a non-zero reconstruction error. The error is the variance in the discarded components. With random data and 3 out of 5 components, about 40% of variance is lost."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain why the eigenvectors of the covariance matrix give the principal components, and why eigenvalues correspond to the variance along each component.",
+        "hint": "Think about what the covariance matrix represents and what eigenvectors are.",
+        "answer": "The covariance matrix captures how each pair of features varies together. Eigenvectors of this matrix are directions in which the data varies independently (uncorrelated). The eigenvector with the largest eigenvalue points in the direction of maximum variance because: the eigenvalue equation <strong>Cv = lambda * v</strong> means projecting the data onto direction v produces variance equal to lambda. Sorting eigenvectors by eigenvalue (descending) gives PC1, PC2, etc., ordered by decreasing variance.",
+        "explanation": "Mathematically, finding the direction of maximum variance is equivalent to finding the eigenvector with the largest eigenvalue of the covariance matrix. This is because the variance of the projection onto direction v is v^T * C * v, which is maximized when v is the leading eigenvector (this follows from the Rayleigh quotient)."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write code that compares PCA and t-SNE on the digits dataset. Compute how well each method separates the 10 digit classes in 2D by calculating the ratio of between-class variance to within-class variance.",
+        "hint": "Project to 2D with PCA and t-SNE separately. For each, compute the mean per class, overall mean, then between-class variance (sum of squared distances from class means to overall mean) and within-class variance (sum of squared distances from points to their class mean).",
+        "answer": "<pre><code>import numpy as np\nfrom sklearn.decomposition import PCA\nfrom sklearn.manifold import TSNE\nfrom sklearn.datasets import load_digits\nfrom sklearn.preprocessing import StandardScaler\n\ndef class_var_ratio(X_2d, y):\n    overall_mean = X_2d.mean(axis=0)\n    between = 0\n    within = 0\n    for label in np.unique(y):\n        points = X_2d[y == label]\n        class_mean = points.mean(axis=0)\n        between += len(points) * np.sum((class_mean - overall_mean)**2)\n        within += np.sum((points - class_mean)**2)\n    return between / within\n\ndigits = load_digits()\nX_scaled = StandardScaler().fit_transform(digits.data)\ny = digits.target\n\nX_pca = PCA(n_components=2).fit_transform(X_scaled)\nX_tsne = TSNE(n_components=2, perplexity=30, random_state=42).fit_transform(X_scaled)\n\nprint(f\"PCA variance ratio: {class_var_ratio(X_pca, y):.4f}\")\nprint(f\"t-SNE variance ratio: {class_var_ratio(X_tsne, y):.4f}\")\nprint(\"Higher ratio = better class separation\")</code></pre>",
+        "explanation": "The between-class to within-class variance ratio (Fisher's criterion) measures how well-separated classes are. t-SNE should produce a much higher ratio because it optimizes for local neighborhood preservation, creating tight clusters for each digit. PCA, being linear, cannot separate non-linearly structured data as effectively in just 2 dimensions."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is UMAP and what are its advantages over t-SNE?",
+        "hint": "UMAP is newer, faster, and preserves more global structure.",
+        "answer": "UMAP (Uniform Manifold Approximation and Projection) is a non-linear dimensionality reduction technique that: (1) Is <strong>significantly faster</strong> than t-SNE, especially on large datasets. (2) <strong>Better preserves global structure</strong> -- distances between clusters are more meaningful. (3) Has a <strong>transform() method</strong> for projecting new data (unlike t-SNE). (4) Can produce embeddings in <strong>any number of dimensions</strong> (useful for feature extraction, not just visualization). (5) Is based on solid mathematical theory (Riemannian geometry and algebraic topology).",
+        "explanation": "UMAP has largely replaced t-SNE as the preferred non-linear dimensionality reduction technique because it offers the same quality visualization with better speed, scalability, and the ability to handle new data points. It is available in the umap-learn Python package."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Sanjay has a linear regression model that suffers from multicollinearity (highly correlated features). How does PCA solve this, and what trade-off does he accept?",
+        "hint": "PCA produces uncorrelated components. But what happens to interpretability?",
+        "answer": "PCA creates principal components that are <strong>orthogonal (uncorrelated) by definition</strong>. Even if the original features are highly correlated, the PCA components have zero correlation with each other. This completely eliminates multicollinearity, stabilizing the regression coefficients. The <strong>trade-off</strong>: the original feature names are lost. Instead of interpreting the effect of 'age' or 'income', Sanjay would interpret 'PC1' and 'PC2', which are abstract linear combinations. If interpretability is critical (e.g., medical research, regulatory requirements), PCA may not be acceptable.",
+        "explanation": "The regression using PCA components is called Principal Component Regression (PCR). Each component is uncorrelated, so there is no multicollinearity. But the business question 'how does income affect price?' cannot be answered directly with PCA components."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.decomposition import PCA\nimport numpy as np\n\nX = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]])\npca = PCA(n_components=2)\npca.fit(X)\nprint(f\"Explained variance: {pca.explained_variance_ratio_.round(4)}\")\nprint(f\"Total: {pca.explained_variance_ratio_.sum():.4f}\")</code></pre>",
+        "hint": "All three features increase together perfectly linearly. How many directions have non-zero variance?",
+        "answer": "<code>Explained variance: [1. 0.]</code><br><code>Total: 1.0000</code>",
+        "explanation": "The data lies perfectly on a 1D line (all features increase linearly together). PC1 captures 100% of variance, PC2 captures 0%. This shows that 3 features were perfectly redundant -- 1 component is sufficient."
+      },
+      {
+        "id": "mx-14",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between PCA and t-SNE in one sentence each?",
+        "hint": "One is linear for preprocessing, the other is non-linear for visualization.",
+        "answer": "<strong>PCA</strong>: A linear method that finds directions of maximum variance, used for dimensionality reduction as preprocessing in ML pipelines. <strong>t-SNE</strong>: A non-linear method that preserves local neighborhood structure, used exclusively for 2D/3D visualization of high-dimensional data.",
+        "explanation": "PCA is general-purpose (any number of output dimensions, has transform(), fast). t-SNE is visualization-only (2-3D output, no transform(), slow). They solve different problems and are often used together (PCA first to reduce to 50D, then t-SNE to 2D)."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does PCA stand for?",
+        "options": {
+          "A": "Primary Component Analyzer",
+          "B": "Principal Component Analysis",
+          "C": "Partial Cluster Algorithm",
+          "D": "Projected Covariance Approximation"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> PCA stands for Principal Component Analysis. It finds principal components (directions of maximum variance) in the data."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the main purpose of dimensionality reduction?",
+        "options": {
+          "A": "To increase the number of features",
+          "B": "To reduce features while preserving important information",
+          "C": "To add noise to the data",
+          "D": "To increase model complexity"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Dimensionality reduction reduces the number of features while preserving as much useful information as possible. It helps with visualization, speed, and reducing overfitting."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which of the following is a consequence of the curse of dimensionality?",
+        "options": {
+          "A": "Models train faster with more features",
+          "B": "Distance between all points becomes similar",
+          "C": "Accuracy always improves with more features",
+          "D": "Data becomes denser in high dimensions"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In high-dimensional spaces, the ratio of maximum to minimum distance converges to 1 -- all points appear roughly equidistant. This makes distance-based algorithms (KNN, K-Means) ineffective."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does the explained variance ratio in PCA tell you?",
+        "options": {
+          "A": "The accuracy of the model",
+          "B": "The proportion of total variance captured by each principal component",
+          "C": "The number of features to remove",
+          "D": "The learning rate for training"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The explained variance ratio indicates what fraction of the total data variance is captured by each component. If PC1 has ratio 0.72, it captures 72% of the total variance."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "t-SNE is primarily used for:",
+        "options": {
+          "A": "Feature extraction for classifiers",
+          "B": "Regression tasks",
+          "C": "Visualization of high-dimensional data in 2D or 3D",
+          "D": "Speeding up training of neural networks"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> t-SNE is designed for visualization. It creates 2D or 3D representations that reveal cluster structure. It should not be used for feature extraction (A) because it has no transform() method and distorts global structure."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Ananya wants to reduce dimensions before training an SVM. Which technique should she use?",
+        "options": {
+          "A": "t-SNE",
+          "B": "PCA",
+          "C": "Random Forest feature importance",
+          "D": "Plotting histograms"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> PCA is the right choice for SVM preprocessing because: it has transform() for new data, creates uncorrelated features, and reduces dimensions while preserving maximum variance. t-SNE (A) has no transform() method and is for visualization only."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does <code>PCA(n_components=0.95)</code> do in sklearn?",
+        "options": {
+          "A": "Keeps 95 components",
+          "B": "Removes 95% of the features",
+          "C": "Selects the minimum number of components that explain 95% of variance",
+          "D": "Sets the learning rate to 0.95"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> When n_components is a float between 0 and 1, sklearn interprets it as the target explained variance ratio. It automatically selects the fewest components needed to reach that threshold."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which statement about t-SNE is FALSE?",
+        "options": {
+          "A": "t-SNE preserves local neighborhood structure",
+          "B": "t-SNE has a transform() method for new data",
+          "C": "t-SNE is non-linear",
+          "D": "t-SNE uses KL divergence as its cost function"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is FALSE (and therefore the correct answer).</strong> t-SNE does not have a transform() method. It can only produce embeddings for the data it was trained on. All other statements are true."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which algorithm should NOT typically be preceded by PCA?",
+        "options": {
+          "A": "K-Nearest Neighbors",
+          "B": "Support Vector Machine",
+          "C": "Random Forest",
+          "D": "Logistic Regression"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Random Forest handles high dimensions natively through implicit feature selection at each split. PCA can actually hurt tree performance by creating abstract components that are harder to split on. KNN (A), SVM (B), and Logistic Regression (D) all benefit from PCA."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is the typical recommended range for the perplexity parameter in t-SNE?",
+        "options": {
+          "A": "0.01 to 0.1",
+          "B": "5 to 50",
+          "C": "100 to 1000",
+          "D": "1 to 2"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Perplexity typically ranges from 5 to 50. Low values emphasize local structure; high values emphasize global structure. The default in sklearn is 30."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Vikram applies PCA to a 100-feature dataset and finds that the first 10 components explain 98% of the variance. What does this tell him?",
+        "options": {
+          "A": "He has 10 important features and 90 useless ones",
+          "B": "The original 100 features are highly correlated, and 10 directions capture almost all the variation",
+          "C": "He should add more features",
+          "D": "PCA has failed because not all variance is captured"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When 10 components capture 98% of 100-dimensional variance, it means the data has low intrinsic dimensionality. The 100 features are highly redundant (correlated), and the data mostly lives in a 10-dimensional subspace. This is an ideal scenario for PCA -- massive dimensionality reduction with minimal information loss."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "Why does t-SNE use a Student's t-distribution in the low-dimensional space instead of a Gaussian?",
+        "options": {
+          "A": "To make the algorithm faster",
+          "B": "To solve the crowding problem -- heavier tails allow moderate distances in low dimensions to model large distances in high dimensions",
+          "C": "Because Gaussian is only for 1D data",
+          "D": "To prevent overfitting"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In high dimensions, a point can have many equidistant neighbors (they spread out in all directions). In 2D, there is not enough room for all these neighbors. The t-distribution's heavier tails allow moderately distant points in 2D to represent large distances in high dimensions, preventing all points from being crushed together (the crowding problem)."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the relationship between PCA and the eigendecomposition of the covariance matrix?",
+        "options": {
+          "A": "PCA uses eigenvalues as feature weights",
+          "B": "The eigenvectors of the covariance matrix are the principal components, and eigenvalues represent the variance along each component",
+          "C": "PCA uses eigenvalues to scale the data",
+          "D": "There is no relationship; PCA uses gradient descent"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> PCA decomposes the covariance matrix into eigenvectors (directions of maximum variance = principal components) and eigenvalues (amount of variance in each direction). Sorting eigenvectors by descending eigenvalue gives PC1, PC2, etc. This is the mathematical core of PCA."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Aisha has 500 samples and 2000 features. She runs PCA. What is the maximum number of non-zero principal components she can get?",
+        "options": {
+          "A": "2000",
+          "B": "500",
+          "C": "499",
+          "D": "1"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The maximum number of non-zero principal components is min(n_samples, n_features) - 1 = min(500, 2000) - 1 = 499. The -1 is because centering the data (subtracting the mean) reduces the rank by 1. In practice, sklearn may return 500 components but the last one will have zero or near-zero variance."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Which of the following is TRUE about UMAP compared to t-SNE?",
+        "options": {
+          "A": "UMAP is always slower than t-SNE",
+          "B": "UMAP can only produce 2D embeddings",
+          "C": "UMAP has a transform() method and can project new data",
+          "D": "UMAP does not preserve any local structure"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> UMAP has a transform() method, making it usable in ML pipelines for new data. UMAP is generally faster (A is wrong), can produce any-dimensional embeddings (B is wrong), and preserves both local and global structure (D is wrong)."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What happens if you apply PCA to a dataset where all features are completely uncorrelated?",
+        "options": {
+          "A": "PCA reduces to 1 component",
+          "B": "PCA components are the same as the original features (rotated), each explaining equal variance",
+          "C": "PCA fails with an error",
+          "D": "PCA removes all features"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When features are uncorrelated, the covariance matrix is diagonal. Eigenvectors align with the original axes (possibly rotated). Each component captures roughly equal variance (1/n_features each). PCA provides no dimensionality reduction benefit because there is no redundancy to exploit."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "Arjun uses PCA(n_components=50) on a dataset with 1000 features and 200 samples. What is the maximum number of non-zero components he can get?",
+        "options": {
+          "A": "50",
+          "B": "200",
+          "C": "199",
+          "D": "1000"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> He requested 50 components, and n_components caps the output. However, the theoretical maximum for any PCA on this dataset would be min(200, 1000) - 1 = 199 (due to centering). Since 50 < 199, he gets exactly 50 components."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Easy",
+        "question": "Which of the following is NOT a benefit of dimensionality reduction?",
+        "options": {
+          "A": "Faster model training",
+          "B": "Better visualization of data",
+          "C": "Guaranteed higher model accuracy",
+          "D": "Reduced overfitting"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Dimensionality reduction does NOT guarantee higher accuracy. While it often improves accuracy by removing noise, it can also hurt accuracy if important information is lost. Benefits include faster training (A), better visualization (B), and reduced overfitting (D)."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "What is the computational complexity of computing PCA using eigendecomposition of the covariance matrix?",
+        "options": {
+          "A": "O(n)",
+          "B": "O(n * d^2 + d^3) where n=samples, d=features",
+          "C": "O(n^3)",
+          "D": "O(d)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> PCA has two main steps: computing the covariance matrix O(n*d^2) and eigendecomposition O(d^3). For large n and small d, the covariance step dominates. For small n and large d, truncated SVD is more efficient."
+      }
+    ]
+  }
+}

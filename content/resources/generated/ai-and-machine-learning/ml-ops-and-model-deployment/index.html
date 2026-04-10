@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLOps and Model Deployment - AI and Machine Learning Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Deploy ML models with Flask/FastAPI, Docker basics, model versioning, monitoring, and production best practices.">
+    <meta name="keywords" content="mlops and model deployment, ai and machine learning tutorial, ai and machine learning mlops and model deployment, learn ai and machine learning">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/ml-ops-and-model-deployment">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/ml-ops-and-model-deployment">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/ml-ops-and-model-deployment">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/ml-ops-and-model-deployment">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/ml-ops-and-model-deployment">
+    <meta property="og:title" content="MLOps and Model Deployment - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Deploy ML models with Flask/FastAPI, Docker basics, model versioning, monitoring, and production best practices.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/ml-ops-and-model-deployment">
+    <meta name="twitter:title" content="MLOps and Model Deployment - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Deploy ML models with Flask/FastAPI, Docker basics, model versioning, monitoring, and production best practices.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "MLOps and Model Deployment",
+    "description": "Deploy ML models with Flask/FastAPI, Docker basics, model versioning, monitoring, and production best practices.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/ml-ops-and-model-deployment"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/ml-ops-and-model-deployment"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "MLOps and Model Deployment",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/ml-ops-and-model-deployment"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Loading the Model on Every Request",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Load the model once when the application starts and keep it in memory. All subsequent requests use the in-memory model, which is orders of magnitude faster than reading from disk. If the model is too large for memory, consider model compression, quantization, or batch processing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Pinning Dependency Versions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always pin exact dependency versions for ML deployments. Model serialization (pickle/joblib) depends on the exact library version. A model saved with scikit-learn 1.3 may not deserialize correctly with 1.4. Use <code>pip freeze</code> to capture exact versions after verifying everything works."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Validating Input Data in the API",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always validate API inputs: check JSON is valid, required fields exist, data types are correct, array lengths match model expectations, and values are not NaN. Return clear 400 error messages for bad requests. FastAPI with Pydantic handles much of this automatically, which is one reason it is preferred for ML APIs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Ignoring Model Monitoring After Deployment",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Monitor three things after deployment: (1) Data drift -- are incoming features still similar to training data? (2) Performance metrics -- is accuracy/F1 still acceptable? (3) Operational health -- latency, error rates, throughput. Set up automated alerts (email, Slack, PagerDuty) when metrics drop below thresholds. Schedule regular retraining when drift is detected."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">MLOps and Model Deployment</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 24</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">MLOps and Model Deployment</h1>
+            <a href="/resources/ai-and-machine-learning/ml-ops-and-model-deployment/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is MLOps?</h2><p><strong>MLOps (Machine Learning Operations)</strong> is the set of practices, tools, and workflows that bring machine learning models from research notebooks to reliable, scalable production systems. Just as DevOps bridges the gap between software development and operations, MLOps bridges the gap between ML model development and deployment.</p><pre><code># The ML lifecycle that MLOps manages:
+# 1. Data Collection & Processing
+# 2. Feature Engineering
+# 3. Model Training & Experimentation
+# 4. Model Evaluation & Validation
+# 5. Model Packaging & Deployment
+# 6. Monitoring & Maintenance
+# 7. Retraining (loop back to step 1)</code></pre><p>The core problem MLOps solves: most ML models never reach production. Studies show that 87% of ML projects never make it past the experimentation phase. Models that do deploy often degrade over time due to data drift, lack of monitoring, and no automated retraining pipeline. MLOps provides the infrastructure and processes to deploy models reliably, monitor their performance, and keep them updated.</p><p>Key MLOps components include: model serialization (saving/loading models), API serving (Flask, FastAPI), containerization (Docker), model versioning (MLflow), monitoring (data drift detection), and CI/CD pipelines for automated testing and deployment.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is MLOps Important?</h2><h3>1. Bridging the Gap Between Notebooks and Production</h3><p>Meera built an excellent sentiment classifier in a Jupyter notebook with 95% accuracy. But without MLOps, that model sits in a notebook that only she can run, on her local machine, with specific library versions. MLOps transforms this into a deployable, reproducible, scalable service that her entire team -- and thousands of users -- can access via an API.</p><h3>2. Reproducibility and Versioning</h3><p>ML experiments involve many moving parts: training data, feature engineering code, hyperparameters, model architecture, library versions, and random seeds. Without proper versioning, it is impossible to reproduce a result or roll back to a previous model when a new one performs worse. MLflow and similar tools track all these variables.</p><h3>3. Continuous Model Improvement</h3><p>The real world changes. Customer behavior shifts, language evolves, economic conditions fluctuate. A model trained on 2024 data may perform poorly on 2026 data. MLOps provides monitoring to detect performance degradation and pipelines to automatically retrain and redeploy models.</p><h3>4. Scaling ML Impact</h3><p>A model serving one prediction at a time in a notebook is very different from serving 10,000 predictions per second in production. MLOps provides the infrastructure (containerization, load balancing, auto-scaling) to handle production workloads.</p><h3>5. Industry Demand</h3><p>MLOps Engineer is one of the fastest-growing roles in India and globally. Companies that have built ML models are now investing heavily in deploying and maintaining them. Knowledge of Flask/FastAPI, Docker, MLflow, and cloud deployment platforms is increasingly required for ML Engineer roles.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The ML Pipeline</h3><p>An ML pipeline automates the flow from raw data to deployed model:</p><pre><code># ML Pipeline stages:
+# Data -> Preprocess -> Feature Engineering -> Train -> Evaluate -> Deploy -> Monitor
+#   ^                                                                          |
+#   |--- Retrain when performance drops (detected by monitoring) <-------------|</code></pre><p>Each stage should be: <strong>versioned</strong> (track changes), <strong>reproducible</strong> (same input = same output), <strong>automated</strong> (no manual steps), and <strong>monitored</strong> (know when something breaks).</p><h3>2. Saving Models: pickle, joblib, model.save()</h3><p>Before deploying a model, you need to serialize (save) it to a file:</p><pre><code>import pickle
+import joblib
+from sklearn.ensemble import RandomForestClassifier
+
+# Train a model
+model = RandomForestClassifier(n_estimators=100)
+model.fit(X_train, y_train)
+
+# Method 1: pickle
+with open("model.pkl", "wb") as f:
+    pickle.dump(model, f)
+
+# Load
+with open("model.pkl", "rb") as f:
+    loaded_model = pickle.load(f)
+
+# Method 2: joblib (better for large numpy arrays)
+joblib.dump(model, "model.joblib")
+loaded_model = joblib.load("model.joblib")
+
+# Method 3: Keras/TensorFlow model.save()
+# model.save("model.keras")  # Saves architecture + weights + optimizer
+# loaded = tf.keras.models.load_model("model.keras")</code></pre><p>Choose pickle for general Python objects, joblib for scikit-learn models (better with large numpy arrays), and framework-specific methods (.save() for Keras, torch.save() for PyTorch) for deep learning models.</p><h3>3. Building an API with Flask</h3><p>Flask is the simplest way to serve an ML model as a REST API:</p><pre><code>from flask import Flask, request, jsonify
+import joblib
+
+app = Flask(__name__)
+model = joblib.load("model.joblib")
+
+@app.route("/predict", methods=["POST"])
+def predict():
+    data = request.get_json()
+    features = [data["features"]]  # Expect JSON: {"features": [1.2, 3.4, ...]}
+    prediction = model.predict(features)
+    return jsonify({"prediction": int(prediction[0])})
+
+@app.route("/health", methods=["GET"])
+def health():
+    return jsonify({"status": "healthy"})
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)</code></pre><p>Flask is synchronous and best for simple, low-to-medium traffic deployments.</p><h3>4. Building with FastAPI</h3><p>FastAPI is modern, fast, and automatically generates interactive API documentation:</p><pre><code>from fastapi import FastAPI
+from pydantic import BaseModel
+import joblib
+import numpy as np
+
+app = FastAPI(title="ML Prediction API")
+model = joblib.load("model.joblib")
+
+class PredictionRequest(BaseModel):
+    features: list[float]
+
+class PredictionResponse(BaseModel):
+    prediction: int
+    confidence: float
+
+@app.post("/predict", response_model=PredictionResponse)
+async def predict(req: PredictionRequest):
+    features = np.array(req.features).reshape(1, -1)
+    prediction = model.predict(features)[0]
+    confidence = max(model.predict_proba(features)[0])
+    return PredictionResponse(prediction=int(prediction), confidence=float(confidence))
+
+@app.get("/health")
+async def health():
+    return {"status": "healthy"}</code></pre><p>Advantages over Flask: automatic request validation (via Pydantic), auto-generated Swagger docs at /docs, async support for higher concurrency, and type hints for better IDE support.</p><h3>5. Docker Basics for ML</h3><p>Docker packages your application, model, and all dependencies into a portable <strong>container</strong> that runs identically on any machine:</p><pre><code># Dockerfile for ML API
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy application code and model
+COPY app.py .
+COPY model.joblib .
+
+# Expose port
+EXPOSE 8000
+
+# Run the API
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre><p>Why containerize? It eliminates "works on my machine" problems, ensures consistent dependencies, and makes deployment to any cloud provider straightforward.</p><pre><code># Docker commands:
+# docker build -t ml-api .          # Build image
+# docker run -p 8000:8000 ml-api    # Run container
+# docker push ml-api:latest         # Push to registry</code></pre><h3>6. Model Serving Patterns</h3><ul><li><strong>Real-time (Online) Serving</strong>: API endpoint that returns predictions immediately. Best for interactive applications (chatbots, recommendation widgets). Flask, FastAPI, or cloud endpoints.</li><li><strong>Batch Serving</strong>: Process large datasets periodically (hourly, daily). Best for non-time-critical tasks (daily reports, email personalization). Use cron jobs, Airflow, or cloud batch services.</li><li><strong>Streaming Serving</strong>: Process data as it arrives in real-time streams (Kafka, Kinesis). Best for continuous monitoring (fraud detection, anomaly detection).</li></ul><h3>7. Model Monitoring</h3><p>Deployed models degrade over time. Key things to monitor:</p><ul><li><strong>Data Drift</strong>: The distribution of incoming data changes from what the model was trained on. Example: a loan approval model trained on pre-pandemic data encounters pandemic-era applications with different income patterns.</li><li><strong>Concept Drift</strong>: The relationship between features and the target changes. Example: what constitutes spam email evolves as spammers change tactics.</li><li><strong>Performance Decay</strong>: Model accuracy, latency, or throughput degradation over time.</li></ul><pre><code># Simple data drift detection using statistical tests
+from scipy import stats
+import numpy as np
+
+def detect_drift(reference_data, new_data, threshold=0.05):
+    """Detect data drift using Kolmogorov-Smirnov test."""
+    results = []
+    for col in range(reference_data.shape[1]):
+        stat, p_value = stats.ks_2samp(reference_data[:, col], new_data[:, col])
+        drift_detected = p_value < threshold
+        results.append({"feature": col, "p_value": p_value, "drift": drift_detected})
+    return results</code></pre><h3>8. Model Versioning with MLflow</h3><p>MLflow tracks experiments, packages models, and manages deployments:</p><pre><code>import mlflow
+import mlflow.sklearn
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
+
+# Start an experiment
+mlflow.set_experiment("sentiment-classifier")
+
+with mlflow.start_run():
+    # Log hyperparameters
+    mlflow.log_param("n_estimators", 100)
+    mlflow.log_param("max_depth", 10)
+    
+    # Train model
+    model = RandomForestClassifier(n_estimators=100, max_depth=10)
+    model.fit(X_train, y_train)
+    
+    # Log metrics
+    accuracy = accuracy_score(y_test, model.predict(X_test))
+    mlflow.log_metric("accuracy", accuracy)
+    
+    # Log model
+    mlflow.sklearn.log_model(model, "model")
+    
+    print(f"Run ID: {mlflow.active_run().info.run_id}")
+    print(f"Accuracy: {accuracy:.4f}")</code></pre><h3>9. CI/CD for ML</h3><p>CI/CD (Continuous Integration/Continuous Deployment) automates testing and deployment:</p><ul><li><strong>CI</strong>: On every code push, automatically run tests (data validation, model performance checks, unit tests).</li><li><strong>CD</strong>: Automatically deploy the model to staging/production if all tests pass.</li></ul><pre><code># GitHub Actions workflow for ML CI/CD (.github/workflows/ml-pipeline.yml)
+# name: ML Pipeline
+# on: push
+# jobs:
+#   test:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+#       - name: Install dependencies
+#         run: pip install -r requirements.txt
+#       - name: Run data validation
+#         run: python tests/test_data.py
+#       - name: Run model tests
+#         run: python tests/test_model.py
+#       - name: Build Docker image
+#         run: docker build -t ml-api .
+#       - name: Deploy to staging
+#         if: github.ref == 'refs/heads/main'
+#         run: ./deploy.sh staging</code></pre><h3>10. Cloud Deployment Options</h3><ul><li><strong>AWS SageMaker</strong>: End-to-end ML platform with built-in training, deployment, and monitoring. Managed infrastructure.</li><li><strong>GCP Vertex AI</strong>: Google's unified ML platform. Integrated with BigQuery and TensorFlow.</li><li><strong>Hugging Face Spaces</strong>: Free hosting for ML demos. Great for prototyping and showcasing models.</li><li><strong>Azure ML</strong>: Microsoft's ML platform with AutoML and MLOps pipelines.</li><li><strong>Self-hosted</strong>: Deploy on a VPS (DigitalOcean, EC2) with Docker + nginx. Full control but more operational burden.</li></ul>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Complete FastAPI ML Deployment</div><pre><code class="language-python"># app.py -- FastAPI ML prediction service
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel, Field
+import joblib
+import numpy as np
+from datetime import datetime
+
+app = FastAPI(
+    title=&quot;Sentiment Classifier API&quot;,
+    description=&quot;Classifies text sentiment as positive or negative&quot;,
+    version=&quot;1.0.0&quot;
+)
+
+# Load model and vectorizer at startup
+model = joblib.load(&quot;sentiment_model.joblib&quot;)
+vectorizer = joblib.load(&quot;tfidf_vectorizer.joblib&quot;)
+
+# Request/Response schemas
+class TextRequest(BaseModel):
+    text: str = Field(..., min_length=1, max_length=5000, 
+                      description=&quot;Text to classify&quot;)
+
+class PredictionResponse(BaseModel):
+    text: str
+    sentiment: str
+    confidence: float
+    model_version: str
+    timestamp: str
+
+class HealthResponse(BaseModel):
+    status: str
+    model_loaded: bool
+    timestamp: str
+
+@app.post(&quot;/predict&quot;, response_model=PredictionResponse)
+async def predict(request: TextRequest):
+    try:
+        # Vectorize text
+        features = vectorizer.transform([request.text])
+        
+        # Predict
+        prediction = model.predict(features)[0]
+        proba = model.predict_proba(features)[0]
+        confidence = float(max(proba))
+        sentiment = &quot;positive&quot; if prediction == 1 else &quot;negative&quot;
+        
+        return PredictionResponse(
+            text=request.text,
+            sentiment=sentiment,
+            confidence=round(confidence, 4),
+            model_version=&quot;1.0.0&quot;,
+            timestamp=datetime.now().isoformat()
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get(&quot;/health&quot;, response_model=HealthResponse)
+async def health_check():
+    return HealthResponse(
+        status=&quot;healthy&quot;,
+        model_loaded=model is not None,
+        timestamp=datetime.now().isoformat()
+    )
+
+# Run with: uvicorn app:app --host 0.0.0.0 --port 8000
+# Docs at: http://localhost:8000/docs
+print(&quot;FastAPI app defined with /predict and /health endpoints&quot;)
+print(&quot;Run: uvicorn app:app --host 0.0.0.0 --port 8000&quot;)</code></pre><div class="code-example-explanation">This production-ready FastAPI app serves a sentiment classifier. Pydantic models validate incoming requests (min/max length) and define response schemas. The <code>/predict</code> endpoint takes text, vectorizes it, runs the model, and returns prediction with confidence. The <code>/health</code> endpoint enables load balancers and monitoring systems to check if the service is running. Auto-generated Swagger docs are available at <code>/docs</code>.</div><div class="code-example-output">FastAPI app defined with /predict and /health endpoints
+Run: uvicorn app:app --host 0.0.0.0 --port 8000</div></div>
+<div class="code-example"><div class="code-example-title">Saving and Loading Models with Different Methods</div><pre><code class="language-python">import pickle
+import joblib
+import numpy as np
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.datasets import make_classification
+import os
+import time
+
+# Create a model
+X, y = make_classification(n_samples=1000, n_features=20, random_state=42)
+model = RandomForestClassifier(n_estimators=100, random_state=42)
+model.fit(X, y)
+print(f&quot;Model accuracy: {model.score(X, y):.4f}&quot;)
+
+# Method 1: pickle
+start = time.time()
+with open(&quot;model.pkl&quot;, &quot;wb&quot;) as f:
+    pickle.dump(model, f)
+pickle_time = time.time() - start
+pickle_size = os.path.getsize(&quot;model.pkl&quot;) / 1024
+
+with open(&quot;model.pkl&quot;, &quot;rb&quot;) as f:
+    model_pkl = pickle.load(f)
+print(f&quot;\npickle: {pickle_size:.1f} KB, save time: {pickle_time:.4f}s&quot;)
+print(f&quot;  Predictions match: {np.array_equal(model.predict(X[:5]), model_pkl.predict(X[:5]))}&quot;)
+
+# Method 2: joblib
+start = time.time()
+joblib.dump(model, &quot;model.joblib&quot;)
+joblib_time = time.time() - start
+joblib_size = os.path.getsize(&quot;model.joblib&quot;) / 1024
+
+model_jl = joblib.load(&quot;model.joblib&quot;)
+print(f&quot;\njoblib: {joblib_size:.1f} KB, save time: {joblib_time:.4f}s&quot;)
+print(f&quot;  Predictions match: {np.array_equal(model.predict(X[:5]), model_jl.predict(X[:5]))}&quot;)
+
+# Method 3: joblib with compression
+start = time.time()
+joblib.dump(model, &quot;model_compressed.joblib&quot;, compress=3)
+comp_time = time.time() - start
+comp_size = os.path.getsize(&quot;model_compressed.joblib&quot;) / 1024
+print(f&quot;\njoblib (compressed): {comp_size:.1f} KB, save time: {comp_time:.4f}s&quot;)
+print(f&quot;  Compression ratio: {joblib_size/comp_size:.1f}x&quot;)
+
+# Cleanup
+for f in [&quot;model.pkl&quot;, &quot;model.joblib&quot;, &quot;model_compressed.joblib&quot;]:
+    os.remove(f)</code></pre><div class="code-example-explanation">Three methods for saving scikit-learn models: pickle (standard Python serialization), joblib (optimized for numpy arrays, slightly faster for ML models), and joblib with compression (smaller files, slower save/load). All methods produce identical predictions. Joblib with compression is best for deployment where file size matters. For Keras models, use <code>model.save()</code>; for PyTorch, use <code>torch.save(model.state_dict())</code>.</div><div class="code-example-output">Model accuracy: 1.0000
+
+pickle: 1247.3 KB, save time: 0.0312s
+  Predictions match: True
+
+joblib: 1189.5 KB, save time: 0.0287s
+  Predictions match: True
+
+joblib (compressed): 312.8 KB, save time: 0.1456s
+  Compression ratio: 3.8x</div></div>
+<div class="code-example"><div class="code-example-title">Docker Configuration for ML API</div><pre><code class="language-python"># This example shows the Docker configuration files needed
+
+# === Dockerfile ===
+dockerfile_content = &quot;&quot;&quot;FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install system dependencies (if needed for numpy/scipy)
+RUN apt-get update &amp;&amp; apt-get install -y --no-install-recommends \\
+    build-essential &amp;&amp; rm -rf /var/lib/apt/lists/*
+
+# Copy and install Python dependencies first (layer caching)
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy application code and model
+COPY app.py .
+COPY model.joblib .
+COPY vectorizer.joblib .
+
+# Create non-root user for security
+RUN useradd -m appuser &amp;&amp; chown -R appuser /app
+USER appuser
+
+# Expose port and set healthcheck
+EXPOSE 8000
+HEALTHCHECK --interval=30s --timeout=5s \\
+    CMD curl -f http://localhost:8000/health || exit 1
+
+# Run with uvicorn
+CMD [&quot;uvicorn&quot;, &quot;app:app&quot;, &quot;--host&quot;, &quot;0.0.0.0&quot;, &quot;--port&quot;, &quot;8000&quot;]
+&quot;&quot;&quot;
+
+# === requirements.txt ===
+requirements_content = &quot;&quot;&quot;fastapi==0.109.0
+uvicorn==0.27.0
+joblib==1.3.2
+scikit-learn==1.4.0
+numpy==1.26.3
+pydantic==2.5.3
+&quot;&quot;&quot;
+
+# === docker-compose.yml ===
+compose_content = &quot;&quot;&quot;version: &#39;3.8&#39;
+services:
+  ml-api:
+    build: .
+    ports:
+      - &quot;8000:8000&quot;
+    environment:
+      - MODEL_PATH=/app/model.joblib
+    healthcheck:
+      test: [&quot;CMD&quot;, &quot;curl&quot;, &quot;-f&quot;, &quot;http://localhost:8000/health&quot;]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+&quot;&quot;&quot;
+
+print(&quot;=== Dockerfile ===&quot;)
+print(dockerfile_content)
+print(&quot;=== requirements.txt ===&quot;)
+print(requirements_content)
+print(&quot;=== Docker Commands ===&quot;)
+print(&quot;docker build -t ml-api .&quot;)
+print(&quot;docker run -p 8000:8000 ml-api&quot;)
+print(&quot;docker-compose up --build&quot;)
+print(&quot;\nKey Docker concepts:&quot;)
+print(&quot;  Image: Blueprint (read-only template)&quot;)
+print(&quot;  Container: Running instance of an image&quot;)
+print(&quot;  Layer caching: Dependencies installed before code for faster rebuilds&quot;)
+print(&quot;  Non-root user: Security best practice&quot;)</code></pre><div class="code-example-explanation">This shows the complete Docker setup for deploying an ML API. Key practices: install dependencies before copying code (leverages Docker layer caching for faster rebuilds), pin exact library versions (reproducibility), run as non-root user (security), include a health check (monitoring), and use docker-compose for easy orchestration. The <code>--no-cache-dir</code> flag reduces image size by not caching pip downloads.</div><div class="code-example-output">=== Dockerfile ===
+[Dockerfile content printed]
+=== requirements.txt ===
+[requirements.txt content printed]
+=== Docker Commands ===
+docker build -t ml-api .
+docker run -p 8000:8000 ml-api
+docker-compose up --build
+
+Key Docker concepts:
+  Image: Blueprint (read-only template)
+  Container: Running instance of an image
+  Layer caching: Dependencies installed before code for faster rebuilds
+  Non-root user: Security best practice</div></div>
+<div class="code-example"><div class="code-example-title">MLflow Experiment Tracking</div><pre><code class="language-python">import mlflow
+import mlflow.sklearn
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.datasets import make_classification
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, f1_score
+
+# Create dataset
+X, y = make_classification(n_samples=2000, n_features=20, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Set experiment
+mlflow.set_experiment(&quot;model-comparison&quot;)
+
+# Define experiments
+experiments = [
+    (&quot;LogisticRegression&quot;, LogisticRegression(max_iter=200)),
+    (&quot;RandomForest&quot;, RandomForestClassifier(n_estimators=100, random_state=42)),
+    (&quot;GradientBoosting&quot;, GradientBoostingClassifier(n_estimators=100, random_state=42))
+]
+
+results = []
+for name, model in experiments:
+    with mlflow.start_run(run_name=name):
+        # Log model type
+        mlflow.log_param(&quot;model_type&quot;, name)
+        
+        # Train
+        model.fit(X_train, y_train)
+        predictions = model.predict(X_test)
+        
+        # Calculate metrics
+        accuracy = accuracy_score(y_test, predictions)
+        f1 = f1_score(y_test, predictions)
+        
+        # Log metrics
+        mlflow.log_metric(&quot;accuracy&quot;, accuracy)
+        mlflow.log_metric(&quot;f1_score&quot;, f1)
+        
+        # Log model artifact
+        mlflow.sklearn.log_model(model, &quot;model&quot;)
+        
+        results.append((name, accuracy, f1))
+        print(f&quot;{name:25s} | Accuracy: {accuracy:.4f} | F1: {f1:.4f}&quot;)
+
+# Summary
+print(&quot;\n=== Experiment Summary ===&quot;)
+best = max(results, key=lambda x: x[1])
+print(f&quot;Best model: {best[0]} (Accuracy: {best[1]:.4f})&quot;)
+print(&quot;\nAll runs logged in MLflow. View with: mlflow ui&quot;)</code></pre><div class="code-example-explanation">MLflow tracks experiments with parameters, metrics, and model artifacts. Each <code>mlflow.start_run()</code> creates a new run. <code>log_param()</code> records hyperparameters, <code>log_metric()</code> records performance metrics, and <code>log_model()</code> saves the trained model. All runs are stored and viewable in the MLflow UI (<code>mlflow ui</code>). This enables comparing experiments, reproducing results, and selecting the best model for deployment.</div><div class="code-example-output">LogisticRegression        | Accuracy: 0.9225 | F1: 0.9218
+RandomForest              | Accuracy: 0.9650 | F1: 0.9644
+GradientBoosting          | Accuracy: 0.9575 | F1: 0.9569
+
+=== Experiment Summary ===
+Best model: RandomForest (Accuracy: 0.9650)
+
+All runs logged in MLflow. View with: mlflow ui</div></div>
+<div class="code-example"><div class="code-example-title">Data Drift Detection</div><pre><code class="language-python">import numpy as np
+from scipy import stats
+
+def detect_data_drift(reference_data, production_data, feature_names, alpha=0.05):
+    &quot;&quot;&quot;
+    Detect data drift using Kolmogorov-Smirnov test.
+    Compares the distribution of each feature between reference and production data.
+    &quot;&quot;&quot;
+    results = []
+    
+    for i, name in enumerate(feature_names):
+        ref_col = reference_data[:, i]
+        prod_col = production_data[:, i]
+        
+        # KS test: null hypothesis = same distribution
+        ks_stat, p_value = stats.ks_2samp(ref_col, prod_col)
+        drift = p_value &lt; alpha
+        
+        results.append({
+            &quot;feature&quot;: name,
+            &quot;ks_statistic&quot;: round(ks_stat, 4),
+            &quot;p_value&quot;: round(p_value, 4),
+            &quot;drift_detected&quot;: drift
+        })
+    
+    return results
+
+# Simulate training data (reference) and production data
+np.random.seed(42)
+n_samples = 1000
+
+# Reference data (training distribution)
+ref_data = np.column_stack([
+    np.random.normal(0, 1, n_samples),      # Feature A: mean=0, std=1
+    np.random.normal(5, 2, n_samples),      # Feature B: mean=5, std=2
+    np.random.uniform(0, 10, n_samples),    # Feature C: uniform 0-10
+])
+
+# Production data (with drift on Feature B)
+prod_data = np.column_stack([
+    np.random.normal(0, 1, n_samples),      # Feature A: NO drift
+    np.random.normal(7, 2.5, n_samples),    # Feature B: DRIFTED (mean 5-&gt;7, std 2-&gt;2.5)
+    np.random.uniform(0, 10, n_samples),    # Feature C: NO drift
+])
+
+feature_names = [&quot;Feature A&quot;, &quot;Feature B&quot;, &quot;Feature C&quot;]
+results = detect_data_drift(ref_data, prod_data, feature_names)
+
+print(&quot;=== Data Drift Report ===&quot;)
+print(f&quot;{&#39;Feature&#39;:12s} | {&#39;KS Stat&#39;:8s} | {&#39;P-Value&#39;:8s} | {&#39;Drift?&#39;:8s}&quot;)
+print(&quot;-&quot; * 46)
+for r in results:
+    drift_str = &quot;YES&quot; if r[&quot;drift_detected&quot;] else &quot;No&quot;
+    print(f&quot;{r[&#39;feature&#39;]:12s} | {r[&#39;ks_statistic&#39;]:8.4f} | {r[&#39;p_value&#39;]:8.4f} | {drift_str:8s}&quot;)
+
+drifted = [r for r in results if r[&quot;drift_detected&quot;]]
+print(f&quot;\nDrifted features: {len(drifted)}/{len(results)}&quot;)
+if drifted:
+    print(&quot;Action: Investigate drifted features and consider retraining the model.&quot;)</code></pre><div class="code-example-explanation">Data drift detection compares the statistical distribution of production data against training data. The Kolmogorov-Smirnov test measures the maximum distance between two cumulative distribution functions. A low p-value (below alpha=0.05) indicates statistically significant distribution change. In this example, Feature B drifted (mean shifted from 5 to 7), which the KS test detects. When drift is found, investigate the cause and consider retraining the model.</div><div class="code-example-output">=== Data Drift Report ===
+Feature      | KS Stat  | P-Value  | Drift?  
+----------------------------------------------
+Feature A    |   0.0310 |   0.7123 | No      
+Feature B    |   0.2850 |   0.0000 | YES     
+Feature C    |   0.0280 |   0.8012 | No      
+
+Drifted features: 1/3
+Action: Investigate drifted features and consider retraining the model.</div></div>
+<div class="code-example"><div class="code-example-title">Flask ML API with Request Logging</div><pre><code class="language-python">from flask import Flask, request, jsonify
+import joblib
+import numpy as np
+import json
+from datetime import datetime
+import logging
+
+# Setup logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+app = Flask(__name__)
+
+# Simulated model for demonstration
+class SimpleModel:
+    def predict(self, X):
+        return (np.sum(X, axis=1) &gt; 0).astype(int)
+    def predict_proba(self, X):
+        scores = 1 / (1 + np.exp(-np.sum(X, axis=1)))
+        return np.column_stack([1 - scores, scores])
+
+model = SimpleModel()
+
+# Request logging
+prediction_log = []
+
+@app.route(&quot;/predict&quot;, methods=[&quot;POST&quot;])
+def predict():
+    start_time = datetime.now()
+    data = request.get_json()
+    
+    if &quot;features&quot; not in data:
+        return jsonify({&quot;error&quot;: &quot;Missing &#39;features&#39; in request&quot;}), 400
+    
+    features = np.array(data[&quot;features&quot;]).reshape(1, -1)
+    prediction = int(model.predict(features)[0])
+    proba = model.predict_proba(features)[0]
+    confidence = float(max(proba))
+    
+    # Log the prediction
+    latency_ms = (datetime.now() - start_time).total_seconds() * 1000
+    log_entry = {
+        &quot;timestamp&quot;: start_time.isoformat(),
+        &quot;features&quot;: data[&quot;features&quot;],
+        &quot;prediction&quot;: prediction,
+        &quot;confidence&quot;: confidence,
+        &quot;latency_ms&quot;: round(latency_ms, 2)
+    }
+    prediction_log.append(log_entry)
+    logger.info(f&quot;Prediction: {prediction} | Confidence: {confidence:.3f} | Latency: {latency_ms:.2f}ms&quot;)
+    
+    return jsonify({
+        &quot;prediction&quot;: prediction,
+        &quot;confidence&quot;: round(confidence, 4),
+        &quot;latency_ms&quot;: round(latency_ms, 2)
+    })
+
+@app.route(&quot;/health&quot;, methods=[&quot;GET&quot;])
+def health():
+    return jsonify({&quot;status&quot;: &quot;healthy&quot;, &quot;total_predictions&quot;: len(prediction_log)})
+
+@app.route(&quot;/metrics&quot;, methods=[&quot;GET&quot;])
+def metrics():
+    if not prediction_log:
+        return jsonify({&quot;message&quot;: &quot;No predictions yet&quot;})
+    
+    latencies = [log[&quot;latency_ms&quot;] for log in prediction_log]
+    return jsonify({
+        &quot;total_predictions&quot;: len(prediction_log),
+        &quot;avg_latency_ms&quot;: round(np.mean(latencies), 2),
+        &quot;p99_latency_ms&quot;: round(np.percentile(latencies, 99), 2),
+        &quot;avg_confidence&quot;: round(np.mean([log[&quot;confidence&quot;] for log in prediction_log]), 4)
+    })
+
+print(&quot;Flask ML API with logging and metrics&quot;)
+print(&quot;Endpoints: /predict (POST), /health (GET), /metrics (GET)&quot;)
+print(&quot;Run: flask run --port 5000&quot;)</code></pre><div class="code-example-explanation">This production-grade Flask API includes request logging (track every prediction), latency measurement (performance monitoring), a health endpoint (for load balancers), and a metrics endpoint (aggregate statistics). In production, logs would go to a centralized system (ELK stack, CloudWatch) and metrics would feed into dashboards (Grafana, Datadog). The <code>/metrics</code> endpoint provides average and P99 latency plus average confidence -- key operational metrics.</div><div class="code-example-output">Flask ML API with logging and metrics
+Endpoints: /predict (POST), /health (GET), /metrics (GET)
+Run: flask run --port 5000</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Loading the Model on Every Request</h3>
+                <div class="wrong-code"><pre><code class="language-python">from flask import Flask, request, jsonify
+import joblib
+
+app = Flask(__name__)
+
+@app.route(&quot;/predict&quot;, methods=[&quot;POST&quot;])
+def predict():
+    # WRONG: Loading model on every request
+    model = joblib.load(&quot;model.joblib&quot;)  # Disk I/O on every request!
+    data = request.get_json()
+    prediction = model.predict([data[&quot;features&quot;]])
+    return jsonify({&quot;prediction&quot;: int(prediction[0])})</code></pre></div><div class="error-message">Loading the model from disk on every request adds 100-500ms of latency per request. For a service handling 100 requests per second, this makes the API unusable.</div><div class="correct-code"><pre><code class="language-python">from flask import Flask, request, jsonify
+import joblib
+
+app = Flask(__name__)
+
+# CORRECT: Load model once at startup
+model = joblib.load(&quot;model.joblib&quot;)  # Loaded once, stays in memory
+
+@app.route(&quot;/predict&quot;, methods=[&quot;POST&quot;])
+def predict():
+    data = request.get_json()
+    prediction = model.predict([data[&quot;features&quot;]])  # Fast -- model already in memory
+    return jsonify({&quot;prediction&quot;: int(prediction[0])})</code></pre></div><div class="mistake-explanation">Load the model once when the application starts and keep it in memory. All subsequent requests use the in-memory model, which is orders of magnitude faster than reading from disk. If the model is too large for memory, consider model compression, quantization, or batch processing.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Pinning Dependency Versions</h3>
+                <div class="wrong-code"><pre><code class="language-python"># requirements.txt -- WRONG: no version pinning
+scikit-learn
+numpy
+flask
+joblib</code></pre></div><div class="error-message">Without pinned versions, pip install may install different versions on different machines or at different times. A model trained with scikit-learn 1.3 may fail to load with scikit-learn 1.5 due to serialization changes.</div><div class="correct-code"><pre><code class="language-python"># requirements.txt -- CORRECT: exact version pinning
+scikit-learn==1.4.0
+numpy==1.26.3
+flask==3.0.1
+joblib==1.3.2
+python==3.11
+
+# Even better: use a lock file
+# pip freeze &gt; requirements.txt  (captures exact versions)
+# Or use poetry/pipenv for dependency management</code></pre></div><div class="mistake-explanation">Always pin exact dependency versions for ML deployments. Model serialization (pickle/joblib) depends on the exact library version. A model saved with scikit-learn 1.3 may not deserialize correctly with 1.4. Use <code>pip freeze</code> to capture exact versions after verifying everything works.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Validating Input Data in the API</h3>
+                <div class="wrong-code"><pre><code class="language-python">@app.route(&quot;/predict&quot;, methods=[&quot;POST&quot;])
+def predict():
+    data = request.get_json()
+    # WRONG: No input validation
+    prediction = model.predict([data[&quot;features&quot;]])
+    return jsonify({&quot;prediction&quot;: int(prediction[0])})
+
+# What if:
+# - data is None (invalid JSON)?
+# - &quot;features&quot; key is missing?
+# - features has wrong number of elements?
+# - features contains NaN or strings?
+# All will cause unhandled 500 errors</code></pre></div><div class="error-message">Without input validation, malformed requests cause cryptic 500 errors. Missing keys, wrong data types, incorrect feature counts, or NaN values all crash the prediction endpoint with unhelpful error messages.</div><div class="correct-code"><pre><code class="language-python">from flask import Flask, request, jsonify
+import numpy as np
+
+EXPECTED_FEATURES = 20  # Model expects 20 features
+
+@app.route(&quot;/predict&quot;, methods=[&quot;POST&quot;])
+def predict():
+    data = request.get_json()
+    
+    # Validate request
+    if data is None:
+        return jsonify({&quot;error&quot;: &quot;Invalid JSON&quot;}), 400
+    if &quot;features&quot; not in data:
+        return jsonify({&quot;error&quot;: &quot;Missing &#39;features&#39; field&quot;}), 400
+    
+    features = data[&quot;features&quot;]
+    if not isinstance(features, list):
+        return jsonify({&quot;error&quot;: &quot;&#39;features&#39; must be a list&quot;}), 400
+    if len(features) != EXPECTED_FEATURES:
+        return jsonify({&quot;error&quot;: f&quot;Expected {EXPECTED_FEATURES} features, got {len(features)}&quot;}), 400
+    
+    try:
+        features_array = np.array(features, dtype=float).reshape(1, -1)
+        if np.any(np.isnan(features_array)):
+            return jsonify({&quot;error&quot;: &quot;Features contain NaN values&quot;}), 400
+    except (ValueError, TypeError):
+        return jsonify({&quot;error&quot;: &quot;Features must be numeric&quot;}), 400
+    
+    prediction = model.predict(features_array)
+    return jsonify({&quot;prediction&quot;: int(prediction[0])})</code></pre></div><div class="mistake-explanation">Always validate API inputs: check JSON is valid, required fields exist, data types are correct, array lengths match model expectations, and values are not NaN. Return clear 400 error messages for bad requests. FastAPI with Pydantic handles much of this automatically, which is one reason it is preferred for ML APIs.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Ignoring Model Monitoring After Deployment</h3>
+                <div class="wrong-code"><pre><code class="language-python"># WRONG: Deploy and forget
+# 1. Train model on January 2025 data
+# 2. Deploy to production
+# 3. Never check if it is still working
+# 4. Six months later: model accuracy has dropped from 95% to 72%
+#    because customer behavior changed (concept drift)
+#    and no one noticed for months</code></pre></div><div class="error-message">Without monitoring, model degradation goes undetected. Data distribution changes, concept drift, and upstream data quality issues silently reduce model accuracy, causing incorrect predictions that hurt users and business metrics.</div><div class="correct-code"><pre><code class="language-python"># CORRECT: Monitor deployed models
+import numpy as np
+from scipy import stats
+
+class ModelMonitor:
+    def __init__(self, reference_data, alert_threshold=0.05):
+        self.reference = reference_data
+        self.threshold = alert_threshold
+        self.predictions = []
+    
+    def log_prediction(self, features, prediction, ground_truth=None):
+        self.predictions.append({
+            &quot;features&quot;: features,
+            &quot;prediction&quot;: prediction,
+            &quot;ground_truth&quot;: ground_truth
+        })
+    
+    def check_data_drift(self, recent_features):
+        for col in range(self.reference.shape[1]):
+            _, p_val = stats.ks_2samp(self.reference[:, col], recent_features[:, col])
+            if p_val &lt; self.threshold:
+                print(f&quot;ALERT: Data drift detected in feature {col} (p={p_val:.4f})&quot;)
+    
+    def check_accuracy(self, window=100):
+        labeled = [p for p in self.predictions[-window:] if p[&quot;ground_truth&quot;] is not None]
+        if labeled:
+            accuracy = sum(1 for p in labeled if p[&quot;prediction&quot;] == p[&quot;ground_truth&quot;]) / len(labeled)
+            if accuracy &lt; 0.85:
+                print(f&quot;ALERT: Accuracy dropped to {accuracy:.2%}&quot;)
+
+print(&quot;Set up: data drift checks, accuracy monitoring, alerting&quot;)</code></pre></div><div class="mistake-explanation">Monitor three things after deployment: (1) Data drift -- are incoming features still similar to training data? (2) Performance metrics -- is accuracy/F1 still acceptable? (3) Operational health -- latency, error rates, throughput. Set up automated alerts (email, Slack, PagerDuty) when metrics drop below thresholds. Schedule regular retraining when drift is detected.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>MLOps (Machine Learning Operations) bridges the gap between ML model development and production deployment. It addresses the fact that 87% of ML projects never reach production by providing tools and processes for reliable model serving, monitoring, and maintenance.</li>
+<li>Models are serialized (saved) using pickle (general Python objects), joblib (optimized for scikit-learn with large numpy arrays), model.save() for Keras, or torch.save() for PyTorch. Always pin library versions because serialization depends on exact versions.</li>
+<li>Flask provides the simplest way to serve ML models via REST APIs. Define a /predict endpoint that accepts JSON, runs the model, and returns predictions. Load the model once at startup, not on every request.</li>
+<li>FastAPI is preferred over Flask for ML APIs because of automatic request validation (Pydantic), auto-generated Swagger docs, async support for higher concurrency, and built-in type hints. Use Pydantic BaseModel classes for request/response schemas.</li>
+<li>Docker packages your application, model, and all dependencies into a portable container. Key Dockerfile practices: pin base image version, install dependencies before copying code (layer caching), run as non-root user, and include a health check endpoint.</li>
+<li>Model serving patterns include real-time (API endpoints for immediate predictions), batch (periodic processing of large datasets), and streaming (continuous processing of data streams). Choose based on latency requirements and data volume.</li>
+<li>Model monitoring tracks data drift (incoming data distribution changes), concept drift (feature-target relationships change), and performance decay (accuracy/latency degradation). Use statistical tests like Kolmogorov-Smirnov to detect distributional changes.</li>
+<li>MLflow tracks ML experiments by logging parameters, metrics, and model artifacts for each run. It enables reproducibility (exact experiment recreation), comparison (which model is best), and versioning (roll back to any previous model).</li>
+<li>CI/CD for ML automates testing (data validation, model performance checks) and deployment (build Docker image, deploy to staging/production). GitHub Actions, Jenkins, or cloud-specific tools trigger these pipelines on code changes.</li>
+<li>Cloud deployment options: AWS SageMaker (managed end-to-end), GCP Vertex AI (Google ecosystem), Hugging Face Spaces (free demos), Azure ML (Microsoft ecosystem), or self-hosted Docker on VPS (full control). Choose based on scale, budget, and existing infrastructure.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/ai-and-machine-learning/reinforcement-learning-basics" class="related-topic-link">Reinforcement Learning Basics</a>
+<a href="/resources/ai-and-machine-learning/ai-ethics-and-career-guide" class="related-topic-link">AI Ethics, Responsible AI, and Career Roadmap</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/ai-and-machine-learning/reinforcement-learning-basics" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Reinforcement Learning Basics</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/ai-ethics-and-career-guide" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">AI Ethics, Responsible AI, and Career Roadmap</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/ai-and-machine-learning/ml-ops-and-model-deployment/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

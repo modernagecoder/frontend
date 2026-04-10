@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - STL Algorithms and Iterators | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="58+ practice questions on STL Algorithms and Iterators in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="stl algorithms and iterators practice, c++ questions, c++ practice problems, stl algorithms and iterators exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators/practice">
+    <meta property="og:title" content="Practice Questions - STL Algorithms and Iterators | C++ | Modern Age Coders">
+    <meta property="og:description" content="58+ practice questions on STL Algorithms and Iterators in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators/practice">
+    <meta name="twitter:title" content="Practice Questions - STL Algorithms and Iterators | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="58+ practice questions on STL Algorithms and Iterators in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - STL Algorithms and Iterators",
+    "description": "58+ practice questions on STL Algorithms and Iterators in C++.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "STL Algorithms and Iterators"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "STL Algorithms and Iterators",
+        "item": "https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/stl-algorithms-and-iterators">STL Algorithms and Iterators</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 21</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">58 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; STL Algorithms and Iterators</h1>
+            <a href="/resources/cpp/stl-algorithms-and-iterators" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {5, 3, 1, 4, 2};
+sort(v.begin(), v.end());
+for (int x : v) cout &lt;&lt; x &lt;&lt; " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">sort arranges elements in ascending order by default.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>1 2 3 4 5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {5, 3, 1, 4, 2};
+sort(v.begin(), v.end(), greater&lt;int&gt;());
+cout &lt;&lt; v[0] &lt;&lt; " " &lt;&lt; v[4];</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">greater<int>() sorts in descending order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>5 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {10, 20, 30, 40, 50};
+auto it = v.begin() + 2;
+cout &lt;&lt; *it;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">begin() points to the first element. Adding 2 moves two positions forward.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3, 4, 5};
+int sum = accumulate(v.begin(), v.end(), 0);
+cout &lt;&lt; sum;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">accumulate adds all elements starting from the initial value 0.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3, 4, 5};
+reverse(v.begin(), v.end());
+cout &lt;&lt; v[0] &lt;&lt; " " &lt;&lt; v[4];</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">reverse flips the entire range.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>5 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {3, 1, 4, 1, 5, 9};
+auto it = min_element(v.begin(), v.end());
+cout &lt;&lt; *it &lt;&lt; " " &lt;&lt; (it - v.begin());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">min_element returns an iterator to the smallest element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>1 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 3, 3, 3, 5, 7, 9};
+auto lo = lower_bound(v.begin(), v.end(), 3);
+auto hi = upper_bound(v.begin(), v.end(), 3);
+cout &lt;&lt; (lo - v.begin()) &lt;&lt; " " &lt;&lt; (hi - v.begin()) &lt;&lt; " " &lt;&lt; (hi - lo);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">lower_bound returns first >= 3, upper_bound returns first > 3.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>1 4 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3, 4, 5};
+rotate(v.begin(), v.begin() + 2, v.end());
+for (int x : v) cout &lt;&lt; x &lt;&lt; " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">rotate moves the element pointed to by the second argument to the first position.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>3 4 5 1 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3, 4, 5};
+int product = accumulate(v.begin(), v.end(), 1, multiplies&lt;int&gt;());
+cout &lt;&lt; product;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">multiplies<int>() replaces addition with multiplication. The initial value is 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>120</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3, 4, 5};
+vector&lt;int&gt; prefix(5);
+partial_sum(v.begin(), v.end(), prefix.begin());
+cout &lt;&lt; prefix[2] &lt;&lt; " " &lt;&lt; prefix[4];</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">partial_sum computes running totals: prefix[i] = v[0] + v[1] + ... + v[i].</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>6 15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3, 2, 4, 2, 5};
+v.erase(remove(v.begin(), v.end(), 2), v.end());
+cout &lt;&lt; v.size() &lt;&lt; ": ";
+for (int x : v) cout &lt;&lt; x &lt;&lt; " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">remove moves non-2 elements forward, erase shrinks the vector.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>4: 1 3 4 5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 1, 2, 2, 3, 3, 3};
+auto last = unique(v.begin(), v.end());
+cout &lt;&lt; (last - v.begin());
+v.erase(last, v.end());
+cout &lt;&lt; " " &lt;&lt; v.size();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">unique removes consecutive duplicates and returns an iterator to the new logical end.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>3 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {5, 2, 8, 1, 9, 3};
+nth_element(v.begin(), v.begin() + 2, v.end());
+cout &lt;&lt; v[2];</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">nth_element places the element that would be at position 2 in a sorted array.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">string s = "CBA";
+prev_permutation(s.begin(), s.end());
+cout &lt;&lt; s &lt;&lt; endl;
+prev_permutation(s.begin(), s.end());
+cout &lt;&lt; s;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">prev_permutation generates the lexicographically previous permutation.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>CAB</code><br><code>BCA</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3, 4, 5};
+cout &lt;&lt; *v.begin() &lt;&lt; " " &lt;&lt; *(v.end() - 1);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">begin() points to first element. end() points past the last, so end()-1 is the last element.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>1 5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {10, 20, 30, 40, 50};
+auto it = find(v.begin(), v.end(), 30);
+cout &lt;&lt; (it - v.begin());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">find returns an iterator to the found element.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v(5);
+iota(v.begin(), v.end(), 3);
+for (int x : v) cout &lt;&lt; x &lt;&lt; " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">iota fills with incrementing values starting from the second argument.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>3 4 5 6 7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3, 4, 5, 6};
+int cnt = count_if(v.begin(), v.end(), [](int x) { return x % 2 == 0; });
+cout &lt;&lt; cnt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">count_if counts elements satisfying the predicate.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3, 4};
+vector&lt;int&gt; result(4);
+transform(v.begin(), v.end(), result.begin(), [](int x) { return x * x; });
+for (int x : result) cout &lt;&lt; x &lt;&lt; " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">transform applies the lambda to each element.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>1 4 9 16</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; a = {1, 2, 3};
+vector&lt;int&gt; b = {4, 5, 6};
+int dot = inner_product(a.begin(), a.end(), b.begin(), 0);
+cout &lt;&lt; dot;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">inner_product computes sum of element-wise products.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>32</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3, 4, 5};
+vector&lt;int&gt; w(5);
+fill(w.begin(), w.end(), 7);
+cout &lt;&lt; accumulate(w.begin(), w.end(), 0);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">fill sets all elements to 7. accumulate sums them.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>35</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;pair&lt;string,int&gt;&gt; v = {{"Arjun",85}, {"Priya",92}, {"Kiran",78}};
+sort(v.begin(), v.end(), [](const pair&lt;string,int&gt;&amp; a, const pair&lt;string,int&gt;&amp; b) {
+    return a.second &gt; b.second;
+});
+cout &lt;&lt; v[0].first &lt;&lt; " " &lt;&lt; v[2].first;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Sorting by second element in descending order.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>Priya Kiran</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3};
+sort(v.begin(), v.end());
+int count = 0;
+do { count++; } while (next_permutation(v.begin(), v.end()));
+cout &lt;&lt; count;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Starting from sorted, how many permutations does next_permutation generate?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {3, 1, 4, 1, 5, 9, 2, 6};
+auto [lo, hi] = minmax_element(v.begin(), v.end());
+cout &lt;&lt; *lo &lt;&lt; " " &lt;&lt; *hi &lt;&lt; " " &lt;&lt; (hi - lo);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">minmax_element returns iterators to the min and max elements.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>1 9 4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3, 4, 5};
+replace_if(v.begin(), v.end(), [](int x) { return x &gt; 3; }, 0);
+for (int x : v) cout &lt;&lt; x &lt;&lt; " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">replace_if replaces elements matching the predicate with the given value.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>1 2 3 0 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between stable_sort and sort? When would you use stable_sort?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Think about what happens to elements with equal keys.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>sort</code> is O(n log n) but does not preserve the relative order of equal elements. <code>stable_sort</code> is also O(n log n) but guarantees that equal elements maintain their original order. Use <code>stable_sort</code> when sorting students by marks and wanting students with the same marks to remain in their original order (e.g., alphabetical order from a previous sort).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is lower_bound more useful than binary_search in competitive programming?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Think about what each returns.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>binary_search</code> returns only a <code>bool</code> (true/false). <code>lower_bound</code> returns an <strong>iterator</strong> to the first element >= the target value. This gives you the position, which lets you: (1) find the actual index, (2) count occurrences using upper_bound - lower_bound, (3) find the nearest value if the exact value does not exist. In competitive programming, you almost always need the position, not just existence.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which header provides sort, find, and binary_search?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;vector&gt;</li><li><span class="mcq-option-label">B.</span> &lt;algorithm&gt;</li><li><span class="mcq-option-label">C.</span> &lt;numeric&gt;</li><li><span class="mcq-option-label">D.</span> &lt;iterator&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>&lt;algorithm&gt;</code> header provides sort, find, binary_search, reverse, rotate, and most STL algorithms.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does accumulate (from <numeric>) do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Sorts a range</li><li><span class="mcq-option-label">B.</span> Finds the maximum element</li><li><span class="mcq-option-label">C.</span> Computes a fold/reduce (sum by default)</li><li><span class="mcq-option-label">D.</span> Reverses a range</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>accumulate</code> folds a range using an operation (addition by default). You can pass a custom binary operation like <code>multiplies&lt;int&gt;()</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does v.end() point to?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The last element</li><li><span class="mcq-option-label">B.</span> One position past the last element</li><li><span class="mcq-option-label">C.</span> The first element</li><li><span class="mcq-option-label">D.</span> nullptr</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>end()</code> returns a past-the-end iterator. It does not point to any element and must not be dereferenced.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which algorithm finds the first occurrence of a value in an unsorted range?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> binary_search</li><li><span class="mcq-option-label">B.</span> lower_bound</li><li><span class="mcq-option-label">C.</span> find</li><li><span class="mcq-option-label">D.</span> search</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>find</code> performs a linear search and works on unsorted ranges. <code>binary_search</code> and <code>lower_bound</code> require sorted ranges.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What type of iterator does std::vector provide?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Input Iterator</li><li><span class="mcq-option-label">B.</span> Forward Iterator</li><li><span class="mcq-option-label">C.</span> Bidirectional Iterator</li><li><span class="mcq-option-label">D.</span> Random Access Iterator</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: D</strong><br><strong>D is correct.</strong> <code>std::vector</code> provides random-access iterators, which support +, -, [], and comparison operators in O(1).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the time complexity of std::sort?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(n)</li><li><span class="mcq-option-label">B.</span> O(n log n) average, O(n^2) worst</li><li><span class="mcq-option-label">C.</span> O(n log n) guaranteed</li><li><span class="mcq-option-label">D.</span> O(n^2)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>std::sort</code> uses introsort (hybrid of quicksort, heapsort, and insertion sort), which guarantees O(n log n) worst-case.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does lower_bound return when the target value is not in the sorted range?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> end() iterator</li><li><span class="mcq-option-label">B.</span> Iterator to the first element greater than the target</li><li><span class="mcq-option-label">C.</span> Iterator to the last element less than the target</li><li><span class="mcq-option-label">D.</span> An invalid iterator</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>lower_bound</code> returns an iterator to the first element >= the target. If the target is not present, this is the first element greater than it (the insertion point).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What does std::remove actually do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Erases matching elements from the container</li><li><span class="mcq-option-label">B.</span> Moves non-matching elements to the front and returns a new logical end</li><li><span class="mcq-option-label">C.</span> Returns a count of removed elements</li><li><span class="mcq-option-label">D.</span> Sets matching elements to zero</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>remove</code> does not change the container's size. It rearranges elements so that non-removed ones are at the front and returns an iterator to the new logical end. Use the erase-remove idiom to actually shrink the container.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which algorithm would you use to compute prefix sums?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> accumulate</li><li><span class="mcq-option-label">B.</span> partial_sum</li><li><span class="mcq-option-label">C.</span> inner_product</li><li><span class="mcq-option-label">D.</span> transform</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>partial_sum</code> computes running totals: result[i] = v[0] + v[1] + ... + v[i]. <code>accumulate</code> computes only the final total.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Why can't you use std::sort on a std::list?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> list does not support the &lt; operator</li><li><span class="mcq-option-label">B.</span> list has bidirectional iterators, but sort requires random-access iterators</li><li><span class="mcq-option-label">C.</span> list is always sorted</li><li><span class="mcq-option-label">D.</span> sort only works on arrays</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>std::sort</code> requires random-access iterators for O(1) index arithmetic. <code>std::list</code> provides only bidirectional iterators. Use the member function <code>lst.sort()</code> instead.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the time complexity of nth_element?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(n log n)</li><li><span class="mcq-option-label">B.</span> O(n)</li><li><span class="mcq-option-label">C.</span> O(n^2)</li><li><span class="mcq-option-label">D.</span> O(log n)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>nth_element</code> uses introselect (a hybrid of quickselect and median-of-medians) and runs in O(n) on average. It places the nth element in its correct sorted position without fully sorting the range.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What does next_permutation return when the sequence is in descending order (last permutation)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> true and produces the next permutation</li><li><span class="mcq-option-label">B.</span> false and sorts the sequence to the first permutation</li><li><span class="mcq-option-label">C.</span> false and leaves the sequence unchanged</li><li><span class="mcq-option-label">D.</span> Throws an exception</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> When the sequence is the last permutation (fully descending), <code>next_permutation</code> wraps around to the first permutation (ascending) and returns false.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the difference between partial_sort(begin, begin+k, end) and sorting the entire range?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No difference</li><li><span class="mcq-option-label">B.</span> partial_sort is O(n log k) and only guarantees the first k elements are sorted</li><li><span class="mcq-option-label">C.</span> partial_sort is O(k log k) and only sorts the first k</li><li><span class="mcq-option-label">D.</span> partial_sort sorts the last k elements</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>partial_sort</code> has O(n log k) complexity. It places the k smallest elements in sorted order at the beginning. The remaining elements are in unspecified order. This is faster than full sort when k is much smaller than n.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does equal_range return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A bool indicating if the value exists</li><li><span class="mcq-option-label">B.</span> An iterator to the value</li><li><span class="mcq-option-label">C.</span> A pair of iterators (lower_bound, upper_bound)</li><li><span class="mcq-option-label">D.</span> The count of the value</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>equal_range</code> returns a <code>pair&lt;iterator, iterator&gt;</code> where first = lower_bound and second = upper_bound. The distance between them is the count of the value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does iota(v.begin(), v.end(), 5) fill the vector with?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> All elements set to 5</li><li><span class="mcq-option-label">B.</span> 5, 6, 7, 8, ... (incrementing from 5)</li><li><span class="mcq-option-label">C.</span> 0, 1, 2, 3, ... (ignoring the 5)</li><li><span class="mcq-option-label">D.</span> 5, 10, 15, 20, ... (multiples of 5)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>iota</code> fills the range with sequentially increasing values starting from the third argument. Each element is one more than the previous.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What does reverse(v.begin(), v.end()) do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Sorts in descending order</li><li><span class="mcq-option-label">B.</span> Reverses the elements in the range</li><li><span class="mcq-option-label">C.</span> Rotates the elements left</li><li><span class="mcq-option-label">D.</span> Returns a reversed copy</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>reverse</code> reverses the elements in-place. It does not sort and does not return a copy.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Sort Students by Marks, Break Ties by Name</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given a vector of pairs where each pair is {name, marks}, sort the students by marks in descending order. If two students have the same marks, sort them alphabetically by name.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">{&quot;Arjun&quot;, 85}, {&quot;Priya&quot;, 92}, {&quot;Kiran&quot;, 85}, {&quot;Neha&quot;, 92}, {&quot;Ravi&quot;, 78}</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Neha 92
+Priya 92
+Arjun 85
+Kiran 85
+Ravi 78</div>
+                </div><div class="challenge-constraints">Use sort with a custom lambda comparator. Do not write your own sorting algorithm.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    vector&lt;pair&lt;string, int&gt;&gt; students = {
+        {&quot;Arjun&quot;, 85}, {&quot;Priya&quot;, 92}, {&quot;Kiran&quot;, 85}, {&quot;Neha&quot;, 92}, {&quot;Ravi&quot;, 78}
+    };
+    sort(students.begin(), students.end(),
+        [](const pair&lt;string,int&gt;&amp; a, const pair&lt;string,int&gt;&amp; b) {
+            if (a.second != b.second) return a.second &gt; b.second;
+            return a.first &lt; b.first;
+        });
+    for (auto&amp; [name, marks] : students)
+        cout &lt;&lt; name &lt;&lt; &quot; &quot; &lt;&lt; marks &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Count Elements in Range Using Binary Search</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given a sorted vector and two values L and R, count the number of elements in the range [L, R] (inclusive) using lower_bound and upper_bound. Do not use a loop to count.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">v = {1, 3, 3, 5, 7, 7, 7, 9, 11}, L = 3, R = 7</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Count in [3, 7]: 6</div>
+                </div><div class="challenge-constraints">Use lower_bound and upper_bound. O(log n) time complexity.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; v = {1, 3, 3, 5, 7, 7, 7, 9, 11};
+    int L = 3, R = 7;
+    auto lo = lower_bound(v.begin(), v.end(), L);
+    auto hi = upper_bound(v.begin(), v.end(), R);
+    cout &lt;&lt; &quot;Count in [&quot; &lt;&lt; L &lt;&lt; &quot;, &quot; &lt;&lt; R &lt;&lt; &quot;]: &quot; &lt;&lt; (hi - lo) &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Remove Duplicates From Unsorted Vector</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given an unsorted vector, remove all duplicate elements and keep only unique values in sorted order. Use sort and the erase-remove idiom with unique.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">{5, 3, 1, 3, 5, 2, 1, 4, 2}</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">1 2 3 4 5</div>
+                </div><div class="challenge-constraints">Use sort + unique + erase. Do not use a set or map.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; v = {5, 3, 1, 3, 5, 2, 1, 4, 2};
+    sort(v.begin(), v.end());
+    v.erase(unique(v.begin(), v.end()), v.end());
+    for (int x : v) cout &lt;&lt; x &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Find Kth Largest Element Without Full Sort</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given a vector of n integers, find the kth largest element using nth_element in O(n) average time. Do not fully sort the array.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">v = {3, 2, 1, 5, 6, 4}, k = 2</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">2nd largest element: 5</div>
+                </div><div class="challenge-constraints">Use nth_element. O(n) average time complexity.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; v = {3, 2, 1, 5, 6, 4};
+    int k = 2;
+    nth_element(v.begin(), v.begin() + k - 1, v.end(), greater&lt;int&gt;());
+    cout &lt;&lt; k &lt;&lt; &quot;nd largest element: &quot; &lt;&lt; v[k - 1] &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Generate All Permutations and Count Those Divisible by K</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given a vector of single-digit numbers, generate all permutations, form the number from each permutation, and count how many are divisible by a given value K.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">digits = {1, 2, 3}, K = 3</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">123 divisible by 3
+132 divisible by 3
+213 divisible by 3
+231 divisible by 3
+312 divisible by 3
+321 divisible by 3
+Count: 6</div>
+                </div><div class="challenge-constraints">Use sort + next_permutation. Assume digits fit in an int.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; digits = {1, 2, 3};
+    int K = 3;
+    sort(digits.begin(), digits.end());
+    int count = 0;
+    do {
+        int num = 0;
+        for (int d : digits) num = num * 10 + d;
+        if (num % K == 0) {
+            cout &lt;&lt; num &lt;&lt; &quot; divisible by &quot; &lt;&lt; K &lt;&lt; endl;
+            count++;
+        }
+    } while (next_permutation(digits.begin(), digits.end()));
+    cout &lt;&lt; &quot;Count: &quot; &lt;&lt; count &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Range Sum Queries Using partial_sum</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given an array and multiple queries of the form (L, R), answer each query with the sum of elements from index L to R (inclusive) in O(1) per query using prefix sums built with partial_sum.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">v = {2, 4, 6, 8, 10}, queries = {(1,3), (0,4), (2,2)}</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Sum [1, 3] = 18
+Sum [0, 4] = 30
+Sum [2, 2] = 6</div>
+                </div><div class="challenge-constraints">Use partial_sum to build prefix array. Each query must be O(1).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;numeric&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; v = {2, 4, 6, 8, 10};
+    vector&lt;int&gt; prefix(v.size());
+    partial_sum(v.begin(), v.end(), prefix.begin());
+
+    auto rangeSum = [&amp;](int l, int r) {
+        return prefix[r] - (l &gt; 0 ? prefix[l - 1] : 0);
+    };
+
+    vector&lt;pair&lt;int,int&gt;&gt; queries = {{1,3}, {0,4}, {2,2}};
+    for (auto [l, r] : queries)
+        cout &lt;&lt; &quot;Sum [&quot; &lt;&lt; l &lt;&lt; &quot;, &quot; &lt;&lt; r &lt;&lt; &quot;] = &quot; &lt;&lt; rangeSum(l, r) &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/stl-containers/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">STL Containers - vector, list, map, set, stack, queue</span>
+        </a>
+            <a href="/resources/cpp/file-handling-in-cpp/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">File Handling (ifstream, ofstream, fstream)</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/stl-algorithms-and-iterators" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

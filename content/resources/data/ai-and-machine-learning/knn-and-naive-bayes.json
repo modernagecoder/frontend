@@ -1,0 +1,574 @@
+{
+  "title": "KNN and Naive Bayes Classifiers",
+  "slug": "knn-and-naive-bayes",
+  "language": "ai-and-machine-learning",
+  "chapter": 9,
+  "difficulty": "Intermediate",
+  "readingTime": "50 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 52,
+  "seo": {
+    "title": "KNN and Naive Bayes - Distance Metrics, Bayes Theorem, Spam Detection | Modern Age Coders",
+    "description": "Master K-Nearest Neighbors and Naive Bayes classifiers: distance metrics (Euclidean, Manhattan), choosing K, curse of dimensionality, Bayes theorem, Gaussian/Multinomial/Bernoulli NB, KNN from scratch, spam detection. 55 practice questions with Python code.",
+    "keywords": "knn classifier, k nearest neighbors, naive bayes, bayes theorem, knn python, naive bayes spam detection, euclidean distance, manhattan distance, gaussian naive bayes, multinomial naive bayes, knn from scratch, knn vs naive bayes, sklearn kneighborsclassifier"
+  },
+  "content": {
+    "what": "<h2>What Is K-Nearest Neighbors (KNN)?</h2><p><strong>K-Nearest Neighbors</strong> is one of the simplest and most intuitive ML algorithms. The idea is: to classify a new point, look at the K closest training points and let them vote. The majority class among those K neighbors is the prediction.</p><pre><code># KNN in one sentence:\n# \"Tell me who your neighbors are, and I will tell you who you are.\"\n#\n# How KNN classifies a new point (star):\n#\n#   x x x     o o\n#   x x         o o\n#     x  *    o o     (K=3: 2 nearest are 'x', 1 is 'o')\n#   x x       o o      -> Prediction: 'x' (majority vote)\n#              o o\n#\n# K=3: look at the 3 closest points, majority class wins</code></pre><p>KNN is a <strong>lazy learner</strong>: it does not actually learn a model during training. It just stores the training data. All the computation happens at prediction time when it searches for the K nearest neighbors.</p><h2>What Is Naive Bayes?</h2><p><strong>Naive Bayes</strong> is a probabilistic classifier based on Bayes' theorem. It calculates the probability of each class given the features, and predicts the class with the highest probability. The \"naive\" part comes from the assumption that all features are <strong>independent</strong> of each other (which is rarely true in practice, yet the algorithm works surprisingly well).</p><pre><code># Bayes' Theorem:\n# P(Class | Features) = P(Features | Class) * P(Class) / P(Features)\n#\n# For classification, we compare:\n# P(Spam | words) vs P(Not Spam | words)\n#\n# The class with higher posterior probability wins.\n#\n# \"Naive\" assumption: features are independent\n# P(word1, word2, word3 | Spam) = P(word1|Spam) * P(word2|Spam) * P(word3|Spam)\n# This simplification makes computation tractable.</code></pre>",
+    "why": "<h2>Why Learn KNN and Naive Bayes?</h2><h3>1. KNN: Zero Training, Instant Understanding</h3><p>KNN requires no training phase at all. Aarav can explain it to anyone in 30 seconds: \"Find the K closest points and vote.\" This makes it perfect for prototyping and baselines. When a new ML project starts, KNN is often the first algorithm tried.</p><h3>2. Naive Bayes: Fast, Scalable, and Surprisingly Effective</h3><p>Naive Bayes is extremely fast to train (one pass through the data) and predict (just multiply probabilities). Despite its \"naive\" independence assumption, it works remarkably well for text classification, spam filtering, and sentiment analysis. Gmail's spam filter was originally based on Naive Bayes.</p><h3>3. Different Strengths, Perfect for Comparison</h3><p>KNN is distance-based (geometric intuition) while Naive Bayes is probability-based (statistical intuition). Understanding both gives you two fundamentally different approaches to classification. Comparing them on the same dataset teaches you when each approach excels.</p><h3>4. Foundation for Advanced Methods</h3><p>KNN is the foundation for recommendation systems (\"users who bought this also bought...\"). Naive Bayes is the foundation for more sophisticated probabilistic models like Bayesian networks and topic models (LDA). Understanding these simple versions prepares you for the advanced ones.</p><h3>5. Interview Favorites</h3><p>Both KNN and Naive Bayes are extremely popular in ML interviews. Interviewers love asking: \"Implement KNN from scratch\", \"Explain Bayes' theorem with an example\", \"When would KNN fail?\", \"Why is it called naive?\"</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>Part 1: K-Nearest Neighbors (KNN)</h3><h4>1.1 How KNN Works</h4><pre><code># KNN Algorithm:\n# 1. Store all training data (no actual training)\n# 2. For a new point:\n#    a. Calculate distance from the new point to ALL training points\n#    b. Sort by distance\n#    c. Pick the K closest points (neighbors)\n#    d. For classification: majority vote among K neighbors\n#    e. For regression: average of K neighbors' values</code></pre><h4>1.2 Distance Metrics</h4><p>KNN needs a way to measure \"closeness\". The most common distance metrics are:</p><pre><code># Euclidean Distance (L2): sqrt(sum((x_i - y_i)^2))\n# - Most common, works well for continuous features\n# - Sensitive to scale (must normalize features!)\n# Example: distance between (1,2) and (4,6)\n# = sqrt((4-1)^2 + (6-2)^2) = sqrt(9+16) = sqrt(25) = 5.0\n\n# Manhattan Distance (L1): sum(|x_i - y_i|)\n# - Sum of absolute differences\n# - Better for high-dimensional data or grid-like movement\n# Example: distance between (1,2) and (4,6)\n# = |4-1| + |6-2| = 3 + 4 = 7\n\n# Minkowski Distance (Lp): (sum(|x_i - y_i|^p))^(1/p)\n# - Generalization: p=2 is Euclidean, p=1 is Manhattan</code></pre><h4>1.3 Choosing K</h4><pre><code># Small K (e.g., K=1):\n# - Very sensitive to noise (one noisy neighbor can flip the prediction)\n# - Complex decision boundary (overfitting)\n# - Low bias, high variance\n#\n# Large K (e.g., K=50):\n# - Very smooth boundary (may miss local patterns)\n# - Less sensitive to noise (underfitting)\n# - High bias, low variance\n#\n# Rule of thumb: start with K = sqrt(N) where N = training set size\n# Always use odd K for binary classification (avoids ties)\n# Use cross-validation to find the best K</code></pre><h4>1.4 Curse of Dimensionality</h4><p>KNN struggles in high-dimensional spaces. As the number of features increases, the concept of \"distance\" becomes meaningless because all points become approximately equidistant. This is the <strong>curse of dimensionality</strong>.</p><pre><code># In 1D: 10 points cover the space well\n# In 2D: need 10^2 = 100 points\n# In 10D: need 10^10 points to cover the space!\n#\n# Solution: use dimensionality reduction (PCA) before KNN\n# or use feature selection to reduce the number of features</code></pre><h4>1.5 Importance of Scaling</h4><p>Since KNN uses distances, feature scaling is critical. A feature with range [0, 100000] will dominate over a feature with range [0, 1].</p><h3>Part 2: Naive Bayes</h3><h4>2.1 Bayes' Theorem Recap</h4><pre><code># Bayes' Theorem:\n# P(A|B) = P(B|A) * P(A) / P(B)\n#\n# In ML terms:\n# P(Class|Features) = P(Features|Class) * P(Class) / P(Features)\n#\n# posterior = likelihood * prior / evidence\n#\n# Since P(Features) is the same for all classes, we compare:\n# P(Class_k|Features) proportional to P(Features|Class_k) * P(Class_k)\n#\n# Example: Is this email spam?\n# P(Spam|\"free money\") proportional to P(\"free money\"|Spam) * P(Spam)\n# P(Not Spam|\"free money\") proportional to P(\"free money\"|Not Spam) * P(Not Spam)</code></pre><h4>2.2 The \"Naive\" Independence Assumption</h4><p>Computing P(Features|Class) for many features simultaneously is intractable. The naive assumption simplifies this by assuming all features are independent:</p><pre><code># Without naive assumption (intractable):\n# P(x1, x2, x3, ..., xn | Class) = ??? (need exponential data)\n#\n# With naive assumption:\n# P(x1, x2, x3, ..., xn | Class) = P(x1|Class) * P(x2|Class) * ... * P(xn|Class)\n#\n# Each P(xi|Class) can be estimated from data easily!\n# This is why it is called \"Naive\" Bayes.</code></pre><h4>2.3 Types of Naive Bayes</h4><pre><code># 1. Gaussian Naive Bayes (GaussianNB)\n#    - Features are continuous and assumed to follow a normal distribution\n#    - P(x_i|Class) = (1/sqrt(2*pi*sigma^2)) * exp(-(x_i - mu)^2 / (2*sigma^2))\n#    - Use for: continuous features (height, weight, temperature)\n#\n# 2. Multinomial Naive Bayes (MultinomialNB)\n#    - Features are discrete counts (word frequencies, occurrence counts)\n#    - P(x_i|Class) = (count of x_i in Class + alpha) / (total words in Class + alpha*vocab_size)\n#    - Use for: text classification (bag-of-words, TF-IDF)\n#\n# 3. Bernoulli Naive Bayes (BernoulliNB)\n#    - Features are binary (present/absent, 0/1)\n#    - P(x_i=1|Class) = (count of docs with x_i in Class + alpha) / (total docs in Class + 2*alpha)\n#    - Use for: binary features, document classification (word present or not)</code></pre><h4>2.4 Laplace Smoothing</h4><p>If a word never appears in spam emails during training, P(word|Spam) = 0, which would make the entire product 0 (one unseen word kills the entire prediction). <strong>Laplace smoothing</strong> (alpha=1) adds a small count to prevent zero probabilities.</p><pre><code># Without smoothing: P(\"cryptocurrency\"|Spam) = 0/100 = 0\n# With smoothing (alpha=1): P(\"cryptocurrency\"|Spam) = (0+1)/(100+V) where V = vocab size\n# Now the probability is small but not zero.</code></pre>",
+    "codeExamples": [
+      {
+        "title": "KNN from Scratch with NumPy",
+        "code": "import numpy as np\nfrom collections import Counter\n\nclass KNNClassifier:\n    def __init__(self, k=3):\n        self.k = k\n    \n    def fit(self, X, y):\n        \"\"\"Store training data (no actual training).\"\"\"\n        self.X_train = np.array(X)\n        self.y_train = np.array(y)\n    \n    def euclidean_distance(self, x1, x2):\n        return np.sqrt(np.sum((x1 - x2) ** 2))\n    \n    def predict_single(self, x):\n        # Calculate distances to all training points\n        distances = [self.euclidean_distance(x, x_train)\n                     for x_train in self.X_train]\n        \n        # Get K nearest neighbor indices\n        k_indices = np.argsort(distances)[:self.k]\n        k_labels = self.y_train[k_indices]\n        \n        # Majority vote\n        most_common = Counter(k_labels).most_common(1)\n        return most_common[0][0]\n    \n    def predict(self, X):\n        return np.array([self.predict_single(x) for x in X])\n    \n    def score(self, X, y):\n        predictions = self.predict(X)\n        return np.mean(predictions == y)\n\n# Generate data\nnp.random.seed(42)\n# Class 0: centered around (2, 2)\nX0 = np.random.randn(30, 2) + np.array([2, 2])\n# Class 1: centered around (6, 6)  \nX1 = np.random.randn(30, 2) + np.array([6, 6])\nX = np.vstack([X0, X1])\ny = np.array([0]*30 + [1]*30)\n\n# Shuffle\nidx = np.random.permutation(60)\nX, y = X[idx], y[idx]\n\n# Split\nX_train, X_test = X[:48], X[48:]\ny_train, y_test = y[:48], y[48:]\n\n# Train and evaluate with different K\nfor k in [1, 3, 5, 7, 11]:\n    knn = KNNClassifier(k=k)\n    knn.fit(X_train, y_train)\n    train_acc = knn.score(X_train, y_train)\n    test_acc = knn.score(X_test, y_test)\n    print(f\"K={k:2d}: Train={train_acc:.3f}, Test={test_acc:.3f}\")\n\n# Predict for a specific point\nknn = KNNClassifier(k=3)\nknn.fit(X_train, y_train)\npoint = np.array([4, 4])\npred = knn.predict_single(point)\nprint(f\"\\nPrediction for point {point}: Class {pred}\")",
+        "language": "python",
+        "explanation": "This from-scratch implementation shows every step: computing Euclidean distances to all training points, finding the K nearest, and performing majority voting. K=1 overfits (100% train, lower test). Larger K values smooth the decision boundary. The algorithm stores all training data -- no model is learned during fit().",
+        "output": "K= 1: Train=1.000, Test=0.917\nK= 3: Train=0.979, Test=1.000\nK= 5: Train=0.979, Test=1.000\nK= 7: Train=0.979, Test=1.000\nK=11: Train=0.979, Test=1.000\n\nPrediction for point [4, 4]: Class 0"
+      },
+      {
+        "title": "KNN with Scikit-Learn and Finding Optimal K",
+        "code": "import numpy as np\nimport matplotlib.pyplot as plt\nfrom sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.datasets import load_iris\nfrom sklearn.metrics import classification_report\n\n# Load iris dataset\niris = load_iris()\nX, y = iris.data, iris.target\n\n# Split and scale\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42, stratify=y\n)\nscaler = StandardScaler()\nX_train_s = scaler.fit_transform(X_train)\nX_test_s = scaler.transform(X_test)\n\n# Find optimal K using cross-validation\nk_range = range(1, 31)\ncv_scores = []\nfor k in k_range:\n    knn = KNeighborsClassifier(n_neighbors=k)\n    scores = cross_val_score(knn, X_train_s, y_train, cv=5)\n    cv_scores.append(scores.mean())\n\nbest_k = k_range[np.argmax(cv_scores)]\nprint(f\"Best K: {best_k} (CV accuracy: {max(cv_scores):.4f})\")\n\n# Plot K vs accuracy\nplt.figure(figsize=(10, 5))\nplt.plot(k_range, cv_scores, 'bo-', markersize=4)\nplt.axvline(x=best_k, color='r', linestyle='--', label=f'Best K={best_k}')\nplt.xlabel('K (Number of Neighbors)')\nplt.ylabel('Cross-Validation Accuracy')\nplt.title('KNN: Finding Optimal K')\nplt.legend()\nplt.grid(True, alpha=0.3)\nplt.show()\n\n# Train final model with best K\nknn_best = KNeighborsClassifier(n_neighbors=best_k)\nknn_best.fit(X_train_s, y_train)\ny_pred = knn_best.predict(X_test_s)\n\nprint(f\"\\nTest Accuracy: {knn_best.score(X_test_s, y_test):.4f}\")\nprint(f\"\\nClassification Report:\")\nprint(classification_report(y_test, y_pred, target_names=iris.target_names))",
+        "language": "python",
+        "explanation": "Cross-validation is the standard way to choose K. We train KNN with K=1 to 30 and pick the K with the highest CV accuracy. Scaling is critical: iris features have different ranges (sepal length 4-8 cm vs petal width 0-2.5 cm). Without scaling, larger features dominate distance calculations.",
+        "output": "Best K: 7 (CV accuracy: 0.9667)\n\nTest Accuracy: 0.9667\n\nClassification Report:\n              precision    recall  f1-score   support\n\n      setosa       1.00      1.00      1.00        10\n  versicolor       0.91      1.00      0.95        10\n   virginica       1.00      0.90      0.95        10\n\n    accuracy                           0.97        30\n   macro avg       0.97      0.97      0.97        30\nweighted avg       0.97      0.97      0.97        30"
+      },
+      {
+        "title": "Naive Bayes: Gaussian, Multinomial, and Bernoulli",
+        "code": "import numpy as np\nfrom sklearn.naive_bayes import GaussianNB, MultinomialNB, BernoulliNB\nfrom sklearn.datasets import load_iris, fetch_20newsgroups\nfrom sklearn.model_selection import train_test_split, cross_val_score\nfrom sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer\nfrom sklearn.metrics import accuracy_score\n\n# 1. Gaussian Naive Bayes (continuous features)\nprint(\"=== Gaussian Naive Bayes ===\")\niris = load_iris()\nX_train, X_test, y_train, y_test = train_test_split(\n    iris.data, iris.target, test_size=0.3, random_state=42\n)\n\ngnb = GaussianNB()\ngnb.fit(X_train, y_train)\nprint(f\"Iris accuracy: {gnb.score(X_test, y_test):.4f}\")\nprint(f\"Class prior probabilities: {np.round(gnb.class_prior_, 3)}\")\nprint(f\"Feature means per class:\")\nfor i, name in enumerate(iris.target_names):\n    print(f\"  {name}: {np.round(gnb.theta_[i], 2)}\")\n\n# 2. Multinomial Naive Bayes (word counts / TF-IDF)\nprint(f\"\\n=== Multinomial Naive Bayes ===\")\ntexts = [\n    \"free money win lottery prize\",\n    \"congratulations you won free gift\",\n    \"claim your free reward now\",\n    \"limited offer free discount sale\",\n    \"meeting scheduled for tomorrow\",\n    \"project deadline next week\",\n    \"team lunch plans for friday\",\n    \"quarterly report due monday\",\n    \"free lunch tomorrow everyone invited\",\n    \"submit your expense report free\"\n]\nlabels = [1, 1, 1, 1, 0, 0, 0, 0, 0, 0]  # 1=spam, 0=not spam\n\nvectorizer = CountVectorizer()\nX_text = vectorizer.fit_transform(texts)\n\nmnb = MultinomialNB(alpha=1.0)  # alpha=1 is Laplace smoothing\nmnb.fit(X_text, labels)\n\n# Predict new emails\nnew_emails = [\"free money for you\", \"meeting tomorrow at office\"]\nX_new = vectorizer.transform(new_emails)\npredictions = mnb.predict(X_new)\nfor email, pred in zip(new_emails, predictions):\n    print(f\"  '{email}' -> {'Spam' if pred == 1 else 'Not Spam'}\")\n\n# 3. Bernoulli Naive Bayes (binary features)\nprint(f\"\\n=== Bernoulli Naive Bayes ===\")\n# Create binary features (word present or not)\nX_binary = (X_text > 0).astype(int)\nbnb = BernoulliNB(alpha=1.0)\nbnb.fit(X_binary, labels)\nprint(f\"Bernoulli NB accuracy on training: {bnb.score(X_binary, labels):.4f}\")",
+        "language": "python",
+        "explanation": "GaussianNB assumes continuous features follow normal distributions (good for iris, numerical data). MultinomialNB works with word counts or TF-IDF (good for text classification). BernoulliNB works with binary features (word present/absent). Laplace smoothing (alpha=1) prevents zero probabilities for unseen words.",
+        "output": "=== Gaussian Naive Bayes ===\nIris accuracy: 0.9778\nClass prior probabilities: [0.343 0.324 0.333]\nFeature means per class:\n  setosa: [4.97 3.38 1.48 0.25]\n  versicolor: [5.91 2.78 4.21 1.31]\n  virginica: [6.62 2.97 5.57 2.01]\n\n=== Multinomial Naive Bayes ===\n  'free money for you' -> Spam\n  'meeting tomorrow at office' -> Not Spam\n\n=== Bernoulli Naive Bayes ===\nBernoulli NB accuracy on training: 1.0000"
+      },
+      {
+        "title": "KNN vs Naive Bayes: Head-to-Head Comparison",
+        "code": "import numpy as np\nfrom sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.naive_bayes import GaussianNB\nfrom sklearn.model_selection import cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.datasets import make_classification, make_moons\nimport time\n\nprint(\"=== Dataset 1: Linear Pattern ===\")\nX1, y1 = make_classification(n_samples=500, n_features=10,\n                              n_informative=5, random_state=42)\nscaler = StandardScaler()\nX1_s = scaler.fit_transform(X1)\n\nknn = KNeighborsClassifier(n_neighbors=5)\nnb = GaussianNB()\n\nknn_scores = cross_val_score(knn, X1_s, y1, cv=5)\nnb_scores = cross_val_score(nb, X1, y1, cv=5)  # NB doesn't need scaling\n\nprint(f\"KNN (K=5): {knn_scores.mean():.3f} +/- {knn_scores.std():.3f}\")\nprint(f\"Naive Bayes: {nb_scores.mean():.3f} +/- {nb_scores.std():.3f}\")\n\nprint(f\"\\n=== Dataset 2: Non-linear Pattern (Moons) ===\")\nX2, y2 = make_moons(n_samples=500, noise=0.3, random_state=42)\nX2_s = scaler.fit_transform(X2)\n\nknn_scores2 = cross_val_score(knn, X2_s, y2, cv=5)\nnb_scores2 = cross_val_score(nb, X2, y2, cv=5)\n\nprint(f\"KNN (K=5): {knn_scores2.mean():.3f} +/- {knn_scores2.std():.3f}\")\nprint(f\"Naive Bayes: {nb_scores2.mean():.3f} +/- {nb_scores2.std():.3f}\")\n\nprint(f\"\\n=== Speed Comparison (10,000 samples) ===\")\nX3, y3 = make_classification(n_samples=10000, n_features=20, random_state=42)\nX3_s = scaler.fit_transform(X3)\n\nstart = time.time()\nknn.fit(X3_s[:8000], y3[:8000])\nknn.predict(X3_s[8000:])\nt_knn = time.time() - start\n\nstart = time.time()\nnb.fit(X3[:8000], y3[:8000])\nnb.predict(X3[8000:])\nt_nb = time.time() - start\n\nprint(f\"KNN: {t_knn:.4f}s\")\nprint(f\"NB:  {t_nb:.4f}s\")\nprint(f\"NB is {t_knn/t_nb:.1f}x faster\")\n\nprint(f\"\\n=== Summary ===\")\nprint(\"KNN: Better for non-linear patterns, needs scaling, slow at prediction\")\nprint(\"NB:  Better for high-dimensional/text data, fast, no scaling needed\")",
+        "language": "python",
+        "explanation": "On linear data, both perform similarly. On non-linear data (moons), KNN significantly outperforms NB because NB assumes Gaussian features and linear boundaries. However, NB is dramatically faster because it learns parameters in one pass while KNN must compute distances for every prediction. The right choice depends on your data and requirements.",
+        "output": "=== Dataset 1: Linear Pattern ===\nKNN (K=5): 0.870 +/- 0.024\nNaive Bayes: 0.864 +/- 0.021\n\n=== Dataset 2: Non-linear Pattern (Moons) ===\nKNN (K=5): 0.926 +/- 0.018\nNaive Bayes: 0.854 +/- 0.030\n\n=== Speed Comparison (10,000 samples) ===\nKNN: 0.1523s\nNB:  0.0024s\nNB is 63.5x faster\n\n=== Summary ===\nKNN: Better for non-linear patterns, needs scaling, slow at prediction\nNB:  Better for high-dimensional/text data, fast, no scaling needed"
+      },
+      {
+        "title": "Spam Detection with Multinomial Naive Bayes",
+        "code": "import numpy as np\nfrom sklearn.naive_bayes import MultinomialNB\nfrom sklearn.feature_extraction.text import TfidfVectorizer\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import classification_report, confusion_matrix\nfrom sklearn.pipeline import Pipeline\n\n# Simulated email dataset\nemails = [\n    # Spam emails\n    \"Congratulations you have won a free iPhone click here\",\n    \"Free money transfer to your account immediately\",\n    \"Win a free vacation package limited time offer\",\n    \"Claim your prize money now free gift card\",\n    \"Earn money from home free registration no experience\",\n    \"Free trial offer click below to claim your reward\",\n    \"You are selected for a free laptop giveaway\",\n    \"Urgent your account will be closed send password\",\n    \"Make money fast guaranteed income work from home\",\n    \"Limited offer discount sale free shipping today only\",\n    \"Free casino bonus play now and win big prizes\",\n    \"Congratulations your email won the lottery jackpot\",\n    \"Double your income with this free investment guide\",\n    \"Free credit score check no obligation required\",\n    \"Get rich quick scheme guaranteed money back\",\n    # Not spam emails  \n    \"Meeting scheduled for tomorrow at 3 PM in conference room\",\n    \"Please review the quarterly report and provide feedback\",\n    \"Team lunch at the new restaurant this Friday\",\n    \"Reminder project deadline is next Monday\",\n    \"Can you send me the updated budget spreadsheet\",\n    \"The client meeting has been rescheduled to Thursday\",\n    \"Please find the attached invoice for last month\",\n    \"Happy birthday Priya team celebration at noon\",\n    \"We need to discuss the new feature requirements\",\n    \"The server maintenance is scheduled for this weekend\",\n    \"Updated the documentation please review before release\",\n    \"Great job on the presentation yesterday everyone\",\n    \"Could you help me debug this API endpoint issue\",\n    \"The code review for the payment module is pending\",\n    \"Welcome Rohan to the engineering team orientation Monday\",\n]\nlabels = [1]*15 + [0]*15  # 1=spam, 0=not spam\n\n# Split data\nX_train, X_test, y_train, y_test = train_test_split(\n    emails, labels, test_size=0.3, random_state=42, stratify=labels\n)\n\n# Create pipeline: TF-IDF + Multinomial NB\npipeline = Pipeline([\n    ('tfidf', TfidfVectorizer(stop_words='english', max_features=500)),\n    ('nb', MultinomialNB(alpha=1.0))\n])\n\npipeline.fit(X_train, y_train)\ny_pred = pipeline.predict(X_test)\n\nprint(f\"Accuracy: {pipeline.score(X_test, y_test):.4f}\")\nprint(f\"\\nClassification Report:\")\nprint(classification_report(y_test, y_pred, target_names=['Not Spam', 'Spam']))\nprint(f\"Confusion Matrix:\")\nprint(confusion_matrix(y_test, y_pred))\n\n# Predict new emails\nnew_emails = [\n    \"Free money waiting for you click now\",\n    \"Can we reschedule tomorrow's meeting to 4 PM\",\n    \"Congratulations you won a free trip to Goa\",\n    \"The deployment was successful no issues found\"\n]\nprint(f\"\\nNew email predictions:\")\npredictions = pipeline.predict(new_emails)\nproba = pipeline.predict_proba(new_emails)\nfor email, pred, prob in zip(new_emails, predictions, proba):\n    label = 'SPAM' if pred == 1 else 'NOT SPAM'\n    conf = max(prob) * 100\n    print(f\"  [{label:8s}] ({conf:.0f}% confident) \\\"{email}\\\"\")",
+        "language": "python",
+        "explanation": "This complete spam detection pipeline uses TF-IDF to convert text into numerical features and Multinomial NB for classification. The pipeline abstraction makes it easy to preprocess and predict in one step. Naive Bayes excels at text classification because the naive independence assumption works reasonably well for word features.",
+        "output": "Accuracy: 0.8889\n\nClassification Report:\n              precision    recall  f1-score   support\n\n    Not Spam       0.83      1.00      0.91         5\n        Spam       1.00      0.75      0.86         4\n\n    accuracy                           0.89         9\n   macro avg       0.92      0.88      0.89         9\nweighted avg       0.91      0.89      0.89         9\n\nConfusion Matrix:\n[[5 0]\n [1 3]]\n\nNew email predictions:\n  [SPAM    ] (92% confident) \"Free money waiting for you click now\"\n  [NOT SPAM] (87% confident) \"Can we reschedule tomorrow's meeting to 4 PM\"\n  [SPAM    ] (88% confident) \"Congratulations you won a free trip to Goa\"\n  [NOT SPAM] (95% confident) \"The deployment was successful no issues found\""
+      },
+      {
+        "title": "Distance Metrics Comparison and Visualization",
+        "code": "import numpy as np\nimport matplotlib.pyplot as plt\nfrom sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.datasets import make_classification\nfrom sklearn.model_selection import cross_val_score\nfrom sklearn.preprocessing import StandardScaler\n\n# Custom distance calculation\ndef euclidean(a, b):\n    return np.sqrt(np.sum((a - b) ** 2))\n\ndef manhattan(a, b):\n    return np.sum(np.abs(a - b))\n\ndef chebyshev(a, b):\n    return np.max(np.abs(a - b))\n\n# Compare distances for two points\np1 = np.array([1, 2])\np2 = np.array([4, 6])\n\nprint(\"Distance from (1,2) to (4,6):\")\nprint(f\"  Euclidean:  {euclidean(p1, p2):.2f}\")\nprint(f\"  Manhattan:  {manhattan(p1, p2):.2f}\")\nprint(f\"  Chebyshev:  {chebyshev(p1, p2):.2f}\")\n\n# Compare metrics on a dataset\nX, y = make_classification(n_samples=300, n_features=10,\n                            n_informative=5, random_state=42)\nscaler = StandardScaler()\nX_s = scaler.fit_transform(X)\n\nprint(f\"\\nCross-validation accuracy by distance metric:\")\nmetrics = ['euclidean', 'manhattan', 'chebyshev', 'minkowski']\nfor metric in metrics:\n    knn = KNeighborsClassifier(n_neighbors=5, metric=metric)\n    scores = cross_val_score(knn, X_s, y, cv=5)\n    print(f\"  {metric:12s}: {scores.mean():.3f} +/- {scores.std():.3f}\")\n\n# Visualize what K-neighborhoods look like\nfig, axes = plt.subplots(1, 3, figsize=(15, 5))\nnp.random.seed(42)\nX_vis = np.random.randn(50, 2)\nquery = np.array([0, 0])\n\nfor ax, metric_name, metric_func in zip(axes,\n    ['Euclidean', 'Manhattan', 'Chebyshev'],\n    [euclidean, manhattan, chebyshev]):\n    \n    distances = [metric_func(query, x) for x in X_vis]\n    sorted_idx = np.argsort(distances)\n    k_nearest = sorted_idx[:5]\n    \n    ax.scatter(X_vis[:, 0], X_vis[:, 1], c='gray', alpha=0.5, s=30)\n    ax.scatter(X_vis[k_nearest, 0], X_vis[k_nearest, 1],\n               c='red', s=100, zorder=5, label='5 Nearest')\n    ax.scatter(*query, c='blue', s=200, marker='*', zorder=6, label='Query')\n    ax.set_title(f'{metric_name} Distance')\n    ax.legend()\n    ax.grid(True, alpha=0.3)\n    ax.set_aspect('equal')\n\nplt.tight_layout()\nplt.show()",
+        "language": "python",
+        "explanation": "Different distance metrics can produce different neighbors. Euclidean is the straight-line distance (most common). Manhattan sums absolute differences (like navigating a grid). Chebyshev uses the maximum difference along any dimension. For most tabular data, Euclidean performs best. Manhattan can be better for high-dimensional or sparse data.",
+        "output": "Distance from (1,2) to (4,6):\n  Euclidean:  5.00\n  Manhattan:  7.00\n  Chebyshev:  4.00\n\nCross-validation accuracy by distance metric:\n  euclidean   : 0.870 +/- 0.024\n  manhattan   : 0.867 +/- 0.028\n  chebyshev   : 0.843 +/- 0.031\n  minkowski   : 0.870 +/- 0.024"
+      },
+      {
+        "title": "Bayes Theorem in Action: Medical Diagnosis Example",
+        "code": "import numpy as np\n\ndef bayes_theorem(prior, likelihood, evidence):\n    \"\"\"Calculate posterior probability using Bayes' theorem.\"\"\"\n    return (likelihood * prior) / evidence\n\n# Example: Medical test for a disease\n# - Disease prevalence (prior): 1% of population has the disease\n# - Test sensitivity (P(positive|disease)): 99%\n# - Test specificity (P(negative|no disease)): 95%\n\nP_disease = 0.01          # Prior: P(Disease)\nP_no_disease = 0.99       # Prior: P(No Disease)\nP_pos_given_disease = 0.99  # Sensitivity: P(Positive | Disease)\nP_neg_given_no_disease = 0.95  # Specificity: P(Negative | No Disease)\nP_pos_given_no_disease = 1 - P_neg_given_no_disease  # False positive rate = 0.05\n\n# P(Positive) = P(Pos|Disease)*P(Disease) + P(Pos|No Disease)*P(No Disease)\nP_positive = P_pos_given_disease * P_disease + P_pos_given_no_disease * P_no_disease\n\n# Bayes' Theorem: P(Disease | Positive)\nP_disease_given_pos = bayes_theorem(P_disease, P_pos_given_disease, P_positive)\n\nprint(\"Medical Diagnosis Example\")\nprint(\"=\" * 50)\nprint(f\"Disease prevalence:     {P_disease:.2%}\")\nprint(f\"Test sensitivity:       {P_pos_given_disease:.2%}\")\nprint(f\"Test specificity:       {P_neg_given_no_disease:.2%}\")\nprint(f\"False positive rate:    {P_pos_given_no_disease:.2%}\")\nprint(f\"\\nP(Positive test):       {P_positive:.4f} ({P_positive:.2%})\")\nprint(f\"P(Disease | Positive):  {P_disease_given_pos:.4f} ({P_disease_given_pos:.2%})\")\n\nprint(f\"\\nSurprising result: Even with a 99% accurate test,\")\nprint(f\"a positive result only means {P_disease_given_pos:.1%} chance of disease!\")\nprint(f\"This is because the disease is rare (1%), so most positives are false positives.\")\n\n# What if we test again (independent test)?\nP_disease_after_second = bayes_theorem(\n    P_disease_given_pos,  # New prior after first test\n    P_pos_given_disease,  # Same sensitivity\n    P_pos_given_disease * P_disease_given_pos + P_pos_given_no_disease * (1 - P_disease_given_pos)\n)\nprint(f\"\\nAfter SECOND positive test: {P_disease_after_second:.1%} chance of disease\")",
+        "language": "python",
+        "explanation": "This illustrates Bayes' theorem with a classic medical example. Despite a 99% accurate test, a positive result only means ~17% chance of disease because the disease is rare. Most positive results are false positives from the healthy 99%. This counter-intuitive result is why understanding Bayes' theorem is essential. After a second independent positive test, the probability jumps to ~80%.",
+        "output": "Medical Diagnosis Example\n==================================================\nDisease prevalence:     1.00%\nTest sensitivity:       99.00%\nTest specificity:       95.00%\nFalse positive rate:    5.00%\n\nP(Positive test):       0.0594 (5.94%)\nP(Disease | Positive):  0.1667 (16.67%)\n\nSurprising result: Even with a 99% accurate test,\na positive result only means 16.7% chance of disease!\nThis is because the disease is rare (1%), so most positives are false positives.\n\nAfter SECOND positive test: 79.8% chance of disease"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Not Scaling Features Before KNN",
+        "wrongCode": "from sklearn.neighbors import KNeighborsClassifier\n\n# Feature 1: age (20-60), Feature 2: salary (20000-200000)\nX = [[25, 30000], [30, 45000], [50, 150000]]\ny = [0, 0, 1]\n\nknn = KNeighborsClassifier(n_neighbors=1)\nknn.fit(X, y)\n# Distance dominated by salary (range 170,000 vs age range 30)",
+        "error": "No error, but salary dominates all distance calculations. Two people with different ages but similar salaries will always be considered \"close\", ignoring the age difference entirely.",
+        "correctCode": "from sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.preprocessing import StandardScaler\n\nX = [[25, 30000], [30, 45000], [50, 150000]]\ny = [0, 0, 1]\n\nscaler = StandardScaler()\nX_scaled = scaler.fit_transform(X)\n\nknn = KNeighborsClassifier(n_neighbors=1)\nknn.fit(X_scaled, y)\n# Now both features contribute equally to distance",
+        "explanation": "KNN uses distances, so features must be on the same scale. Use StandardScaler (zero mean, unit variance) or MinMaxScaler (0 to 1). Always fit the scaler on training data only, then transform both train and test data."
+      },
+      {
+        "title": "Using Even K for Binary Classification",
+        "wrongCode": "from sklearn.neighbors import KNeighborsClassifier\n\n# K=4 can cause ties in binary classification\nknn = KNeighborsClassifier(n_neighbors=4)  # 2 vs 2 tie possible!\nknn.fit(X_train, y_train)\n# If 2 neighbors are class 0 and 2 are class 1, the result is ambiguous",
+        "error": "No error, but with even K, ties are possible. Scikit-learn breaks ties by choosing the class that appears first in the training data, which is arbitrary.",
+        "correctCode": "from sklearn.neighbors import KNeighborsClassifier\n\n# Use odd K for binary classification to avoid ties\nknn = KNeighborsClassifier(n_neighbors=5)\nknn.fit(X_train, y_train)\n# With K=5, there is always a majority (3 vs 2 or 4 vs 1 or 5 vs 0)",
+        "explanation": "For binary classification, always use odd K values (3, 5, 7, ...) to guarantee a majority vote. For multi-class classification, ties can still occur with odd K, but they are less likely. Scikit-learn uses distance-weighted voting to break ties when weights='distance'."
+      },
+      {
+        "title": "Applying Naive Bayes to Data with Strong Feature Dependencies",
+        "wrongCode": "from sklearn.naive_bayes import GaussianNB\n\n# Features are highly correlated (height in cm AND height in inches)\n# NB assumes independence -- this violates the assumption badly\nX = [[170, 67], [180, 71], [160, 63], [175, 69]]  # cm, inches\ny = [0, 1, 0, 1]\n\nnb = GaussianNB()\nnb.fit(X, y)\n# The model double-counts the height information",
+        "error": "No error, but the model effectively counts the same information twice. It treats height_cm and height_inches as independent features, which inflates the importance of height relative to other features.",
+        "correctCode": "from sklearn.naive_bayes import GaussianNB\n\n# Remove one of the correlated features\n# Keep only height in cm\nX = [[170], [180], [160], [175]]\ny = [0, 1, 0, 1]\n\nnb = GaussianNB()\nnb.fit(X, y)\n# Or use feature selection/PCA to remove correlated features",
+        "explanation": "Naive Bayes assumes feature independence. Highly correlated features (like height in cm and inches) violate this assumption and lead to overconfident, biased predictions. Remove duplicate or highly correlated features before training, or use PCA to decorrelate features."
+      },
+      {
+        "title": "Using MultinomialNB with Negative Feature Values",
+        "wrongCode": "from sklearn.naive_bayes import MultinomialNB\nfrom sklearn.preprocessing import StandardScaler\n\n# StandardScaler creates negative values\nscaler = StandardScaler()\nX_scaled = scaler.fit_transform(X)  # Contains negative values!\n\nmnb = MultinomialNB()\nmnb.fit(X_scaled, y)  # ValueError: negative values!",
+        "error": "ValueError: Negative values in data passed to MultinomialNB (input X).",
+        "correctCode": "from sklearn.naive_bayes import MultinomialNB, GaussianNB\nfrom sklearn.preprocessing import MinMaxScaler\n\n# Option 1: Use MinMaxScaler (all values >= 0)\nscaler = MinMaxScaler()\nX_scaled = scaler.fit_transform(X)\nmnb = MultinomialNB()\nmnb.fit(X_scaled, y)  # Works!\n\n# Option 2: Use GaussianNB (handles negative values)\ngnb = GaussianNB()\ngnb.fit(X, y)  # Works with any values!",
+        "explanation": "MultinomialNB requires non-negative features because it models feature counts (word frequencies). StandardScaler produces negative values. Use MinMaxScaler instead, or switch to GaussianNB for continuous features. For text data, use CountVectorizer or TfidfVectorizer which produce non-negative values."
+      }
+    ],
+    "summary": [
+      "KNN classifies by finding the K closest training points and taking a majority vote. It is a lazy learner: no model is trained, all computation happens at prediction time.",
+      "Distance metrics: Euclidean (sqrt of sum of squared differences, most common), Manhattan (sum of absolute differences, good for high dimensions), Minkowski (generalization).",
+      "Choosing K: Small K (1-3) overfits (complex boundary, noisy). Large K underfits (smooth boundary, misses patterns). Use cross-validation to find optimal K. Use odd K for binary classification.",
+      "KNN requires feature scaling (distances are scale-dependent). It suffers from the curse of dimensionality in high-dimensional spaces.",
+      "Naive Bayes uses Bayes theorem: P(Class|Features) is proportional to P(Features|Class) * P(Class). It assumes feature independence (\"naive\").",
+      "Three types: GaussianNB (continuous features, assumes normal distribution), MultinomialNB (word counts/TF-IDF, for text), BernoulliNB (binary features, word present/absent).",
+      "Laplace smoothing (alpha=1) prevents zero probabilities for unseen features. Without it, one unseen word makes the entire probability zero.",
+      "Naive Bayes is extremely fast (training is O(n*d), prediction is O(d)) and works well for text classification, spam filtering, and high-dimensional data.",
+      "KNN vs Naive Bayes: KNN is better for non-linear patterns and small datasets. NB is better for text data, high-dimensional data, and when speed matters.",
+      "KNN prediction is slow (O(n*d) per prediction -- must compute distance to all training points). Consider using KD-tree or Ball-tree for faster lookup.",
+      "Both algorithms are strong baselines and frequently asked about in ML interviews. Know how to implement KNN from scratch and explain Bayes theorem with a real example."
+    ]
+  },
+  "relatedTopics": ["support-vector-machines", "model-evaluation-and-tuning"],
+  "practice": {
+    "totalQuestions": 52,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>import numpy as np\n\n# Euclidean distance\na = np.array([1, 2])\nb = np.array([4, 6])\ndist = np.sqrt(np.sum((a - b) ** 2))\nprint(f\"Distance: {dist:.1f}\")</code></pre>",
+        "hint": "Euclidean distance: sqrt((4-1)^2 + (6-2)^2) = sqrt(9+16).",
+        "answer": "<code>Distance: 5.0</code>",
+        "explanation": "Euclidean distance = sqrt((4-1)^2 + (6-2)^2) = sqrt(9 + 16) = sqrt(25) = 5.0. This is the straight-line distance between the two points."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\n# Manhattan distance\na = np.array([1, 2])\nb = np.array([4, 6])\ndist = np.sum(np.abs(a - b))\nprint(f\"Manhattan: {dist}\")</code></pre>",
+        "hint": "Manhattan distance: |4-1| + |6-2|.",
+        "answer": "<code>Manhattan: 7</code>",
+        "explanation": "Manhattan distance = |4-1| + |6-2| = 3 + 4 = 7. This is the distance you would travel if you could only move along grid lines (like streets in Manhattan)."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier\nimport numpy as np\n\nX = np.array([[1], [2], [3], [7], [8], [9]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\nknn = KNeighborsClassifier(n_neighbors=3)\nknn.fit(X, y)\nprint(knn.predict([[5]]))\nprint(knn.predict([[2]]))</code></pre>",
+        "hint": "For x=5, the 3 nearest points are 3, 7, 8. For x=2, the 3 nearest are 1, 2, 3.",
+        "answer": "<code>[1]</code><br><code>[0]</code>",
+        "explanation": "For x=5: 3 nearest are 3 (class 0, dist=2), 7 (class 1, dist=2), 8 (class 1, dist=3). Vote: 2 class 1 vs 1 class 0 -> predict 1. For x=2: 3 nearest are 1(0), 2(0), 3(0). All class 0 -> predict 0."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB\nimport numpy as np\n\nX = np.array([[1], [2], [3], [7], [8], [9]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\nnb = GaussianNB()\nnb.fit(X, y)\n\nprint(f\"Class means: {nb.theta_.flatten()}\")\nprint(f\"Prediction for [5]: {nb.predict([[5]])[0]}\")</code></pre>",
+        "hint": "GaussianNB computes mean and variance for each class. Class 0 mean ~ 2, Class 1 mean ~ 8.",
+        "answer": "<code>Class means: [2. 8.]</code><br><code>Prediction for [5]: 1</code>",
+        "explanation": "Class 0 mean = (1+2+3)/3 = 2.0. Class 1 mean = (7+8+9)/3 = 8.0. For x=5, it is closer to class 1 mean (distance 3) than class 0 mean (distance 3), but the prediction depends on the variance. With equal priors and equal variance, the decision boundary is at the midpoint (5), and the model predicts class 1."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier\nimport numpy as np\n\nX = np.array([[0, 0], [1, 0], [0, 1], [10, 10], [11, 10], [10, 11]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\nknn = KNeighborsClassifier(n_neighbors=1)\nknn.fit(X, y)\nprint(knn.predict([[5, 5]]))\nprint(knn.predict([[0.5, 0.5]]))</code></pre>",
+        "hint": "K=1 means the prediction is the class of the single nearest neighbor.",
+        "answer": "<code>[0]</code><br><code>[0]</code>",
+        "explanation": "For [5,5] with K=1: nearest neighbor is [1,0] (class 0, dist=5.83) or one of the class 0 points. Actually, [0,1] is at dist=sqrt(25+16)=sqrt(41)=6.4 and [10,10] is at dist=sqrt(25+25)=7.07. Closest is a class 0 point. For [0.5,0.5]: nearest is [0,0] or [1,0] or [0,1], all class 0."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier\nimport numpy as np\n\nX = np.array([[1], [2], [3], [4], [5], [6], [7], [8], [9], [10]])\ny = np.array([0, 0, 0, 0, 0, 1, 1, 1, 1, 1])\n\nfor k in [1, 3, 5, 9]:\n    knn = KNeighborsClassifier(n_neighbors=k)\n    knn.fit(X, y)\n    pred = knn.predict([[5.5]])[0]\n    print(f\"K={k}: predict([5.5]) = {pred}\")</code></pre>",
+        "hint": "5.5 is right at the boundary. As K increases, more neighbors from both sides are included.",
+        "answer": "<code>K=1: predict([5.5]) = 1</code><br><code>K=3: predict([5.5]) = 1</code><br><code>K=5: predict([5.5]) = 1</code><br><code>K=9: predict([5.5]) = 0</code>",
+        "explanation": "K=1: nearest is 6 (class 1). K=3: nearest are 5(0), 6(1), 7(1) -> 2 vs 1, class 1. K=5: nearest are 4(0), 5(0), 6(1), 7(1), 8(1) -> 3 vs 2, class 1. K=9: nearest are 2-10, 5 class 0 vs 4 class 1 -> class 0. Larger K smooths the boundary and shifts the prediction."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB\nimport numpy as np\n\nX = np.array([[1, 10], [2, 20], [3, 30],\n              [10, 1], [20, 2], [30, 3]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\nnb = GaussianNB()\nnb.fit(X, y)\n\nproba = nb.predict_proba([[5, 5]])[0]\nprint(f\"P(class 0): {proba[0]:.3f}\")\nprint(f\"P(class 1): {proba[1]:.3f}\")\nprint(f\"Prediction: {nb.predict([[5, 5]])[0]}\")</code></pre>",
+        "hint": "Class 0 has high values in feature 2, class 1 has high values in feature 1. [5,5] is in between.",
+        "answer": "<code>P(class 0): 0.500</code><br><code>P(class 1): 0.500</code><br><code>Prediction: 0</code>",
+        "explanation": "Point [5,5] is equidistant from both class means. Class 0 mean = [2, 20] and class 1 mean = [20, 2]. With equal priors (3 samples each), the model is maximally uncertain. The prediction defaults to the first class (0) when probabilities are exactly equal."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code># Bayes theorem calculation\nP_spam = 0.3       # 30% of emails are spam\nP_not_spam = 0.7   # 70% are not spam\n\n# P(\"free\" | spam) = 0.8\n# P(\"free\" | not spam) = 0.1\nP_free_given_spam = 0.8\nP_free_given_not_spam = 0.1\n\n# P(spam | \"free\") = ?\nP_free = P_free_given_spam * P_spam + P_free_given_not_spam * P_not_spam\nP_spam_given_free = (P_free_given_spam * P_spam) / P_free\n\nprint(f\"P(free): {P_free:.3f}\")\nprint(f\"P(spam | free): {P_spam_given_free:.3f}\")</code></pre>",
+        "hint": "Apply Bayes theorem: P(spam|free) = P(free|spam) * P(spam) / P(free).",
+        "answer": "<code>P(free): 0.310</code><br><code>P(spam | free): 0.774</code>",
+        "explanation": "P(free) = 0.8*0.3 + 0.1*0.7 = 0.24 + 0.07 = 0.31. P(spam|free) = 0.8*0.3/0.31 = 0.24/0.31 = 0.774. An email containing \"free\" has a 77.4% chance of being spam, up from the prior of 30%. The word \"free\" is a strong spam indicator."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.preprocessing import StandardScaler\nimport numpy as np\n\n# Feature 1: age (20-60), Feature 2: salary (20000-200000)\nX = np.array([[25, 30000], [30, 40000], [55, 180000]])\ny = np.array([0, 0, 1])\n\n# Without scaling\nknn1 = KNeighborsClassifier(n_neighbors=1)\nknn1.fit(X, y)\npred1 = knn1.predict([[40, 100000]])[0]\n\n# With scaling\nscaler = StandardScaler()\nX_s = scaler.fit_transform(X)\ntest_s = scaler.transform([[40, 100000]])\nknn2 = KNeighborsClassifier(n_neighbors=1)\nknn2.fit(X_s, y)\npred2 = knn2.predict(test_s)[0]\n\nprint(f\"Without scaling: {pred1}\")\nprint(f\"With scaling: {pred2}\")</code></pre>",
+        "hint": "Without scaling, salary (range 150K) dominates over age (range 30). The nearest neighbor changes.",
+        "answer": "<code>Without scaling: 0</code><br><code>With scaling: 1</code>",
+        "explanation": "Without scaling, distance is dominated by salary. [40, 100000] is closest to [30, 40000] (salary diff = 60000) rather than [55, 180000] (salary diff = 80000), so it predicts class 0. With scaling, age and salary contribute equally. The point [40, 100000] is more balanced between both features, and the nearest neighbor changes to class 1."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.naive_bayes import MultinomialNB\nfrom sklearn.feature_extraction.text import CountVectorizer\nimport numpy as np\n\ntexts = [\"free money\", \"free gift\", \"free prize\",\n         \"work meeting\", \"project deadline\", \"team lunch\"]\nlabels = [1, 1, 1, 0, 0, 0]  # 1=spam\n\nvectorizer = CountVectorizer()\nX = vectorizer.fit_transform(texts)\n\nprint(f\"Vocabulary: {sorted(vectorizer.vocabulary_.keys())}\")\nprint(f\"Feature matrix shape: {X.shape}\")\n\nmnb = MultinomialNB(alpha=1.0)\nmnb.fit(X, labels)\n\ntest_emails = [\"free lunch\", \"free money gift\"]\nX_test = vectorizer.transform(test_emails)\nfor email, pred in zip(test_emails, mnb.predict(X_test)):\n    print(f\"\\\"{email}\\\" -> {'Spam' if pred == 1 else 'Not Spam'}\")</code></pre>",
+        "hint": "\"free\" appears only in spam. \"lunch\" appears only in non-spam. \"free lunch\" has conflicting signals.",
+        "answer": "<code>Vocabulary: ['deadline', 'free', 'gift', 'lunch', 'meeting', 'money', 'prize', 'project', 'team', 'work']</code><br><code>Feature matrix shape: (6, 10)</code><br><code>\"free lunch\" -> Spam</code><br><code>\"free money gift\" -> Spam</code>",
+        "explanation": "\"free lunch\" contains \"free\" (strong spam signal) and \"lunch\" (weak non-spam signal). The spam prior is balanced (3/6), but \"free\" appears in all 3 spam emails and 0 non-spam emails, making it a very strong spam indicator that outweighs \"lunch\". \"free money gift\" has 3 spam words, so it is confidently classified as spam."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.model_selection import cross_val_score\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(200, 2)\ny = (X[:, 0]**2 + X[:, 1]**2 < 1).astype(int)  # Circular boundary\n\nresults = {}\nfor k in [1, 5, 15, 50, 100]:\n    knn = KNeighborsClassifier(n_neighbors=k)\n    scores = cross_val_score(knn, X, y, cv=5)\n    results[k] = scores.mean()\n    print(f\"K={k:3d}: CV accuracy = {scores.mean():.3f}\")\n\nbest_k = max(results, key=results.get)\nprint(f\"\\nBest K: {best_k}\")</code></pre>",
+        "hint": "Circular boundary is non-linear. Small K captures it well but may overfit. Very large K underfits.",
+        "answer": "<code>K=  1: CV accuracy = 0.925</code><br><code>K=  5: CV accuracy = 0.950</code><br><code>K= 15: CV accuracy = 0.935</code><br><code>K= 50: CV accuracy = 0.890</code><br><code>K=100: CV accuracy = 0.760</code><br><code>Best K: 5</code>",
+        "explanation": "K=1 overfits slightly (noisy boundary). K=5 is optimal (smooth circular boundary). K=15 starts losing the circular pattern. K=50 and K=100 underfit badly because they average too many neighbors, destroying the local circular structure. KNN is naturally good at capturing non-linear boundaries."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB\nimport numpy as np\n\nnp.random.seed(42)\n\n# Generate data where NB assumption is violated\n# Features are highly correlated (x2 = x1 + noise)\nX_train = np.random.randn(100, 1)\nX_train = np.column_stack([X_train, X_train + np.random.normal(0, 0.1, (100, 1))])\ny_train = (X_train[:, 0] > 0).astype(int)\n\nX_test = np.random.randn(50, 1)\nX_test = np.column_stack([X_test, X_test + np.random.normal(0, 0.1, (50, 1))])\ny_test = (X_test[:, 0] > 0).astype(int)\n\nnb = GaussianNB()\nnb.fit(X_train, y_train)\n\nprint(f\"Training accuracy: {nb.score(X_train, y_train):.3f}\")\nprint(f\"Test accuracy: {nb.score(X_test, y_test):.3f}\")\nprint(f\"NB still works despite correlated features!\")</code></pre>",
+        "hint": "The features are nearly identical (highly correlated). NB assumes independence but may still work.",
+        "answer": "<code>Training accuracy: 0.990</code><br><code>Test accuracy: 0.980</code><br><code>NB still works despite correlated features!</code>",
+        "explanation": "Despite features being highly correlated (violating the naive independence assumption), Naive Bayes still achieves excellent accuracy. This is a well-known phenomenon: NB's probability estimates may be poorly calibrated, but the decision boundary (which class has higher probability) is often correct. NB is robust to assumption violations."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier\nimport numpy as np\n\nX = np.array([[1, 1], [2, 2], [3, 3], [7, 7], [8, 8], [9, 9]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\nknn_uniform = KNeighborsClassifier(n_neighbors=3, weights='uniform')\nknn_distance = KNeighborsClassifier(n_neighbors=3, weights='distance')\n\nknn_uniform.fit(X, y)\nknn_distance.fit(X, y)\n\nprint(f\"Uniform weights: {knn_uniform.predict([[4, 4]])[0]}\")\nprint(f\"Distance weights: {knn_distance.predict([[4, 4]])[0]}\")</code></pre>",
+        "hint": "With uniform weights, all 3 neighbors vote equally. With distance weights, closer neighbors have more influence.",
+        "answer": "<code>Uniform weights: 0</code><br><code>Distance weights: 0</code>",
+        "explanation": "For point [4,4], the 3 nearest neighbors are [3,3] (class 0, dist=1.41), [2,2] (class 0, dist=2.83), and [7,7] (class 1, dist=4.24). Uniform: 2 votes for class 0, 1 for class 1 -> class 0. Distance: class 0 has weight 1/1.41 + 1/2.83 = 1.06, class 1 has weight 1/4.24 = 0.24 -> class 0. Both agree."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB\nimport numpy as np\n\nnp.random.seed(42)\n# 3-class problem\nX = np.vstack([\n    np.random.randn(30, 2) + [0, 0],\n    np.random.randn(30, 2) + [5, 0],\n    np.random.randn(30, 2) + [2.5, 4]\n])\ny = np.array([0]*30 + [1]*30 + [2]*30)\n\nnb = GaussianNB()\nnb.fit(X, y)\n\n# Predict probabilities for center point\nproba = nb.predict_proba([[2.5, 1.5]])[0]\nfor i, p in enumerate(proba):\n    print(f\"P(class {i}): {p:.3f}\")\nprint(f\"Prediction: {nb.predict([[2.5, 1.5]])[0]}\")</code></pre>",
+        "hint": "Point [2.5, 1.5] is roughly equidistant from all three class centers.",
+        "answer": "<code>P(class 0): 0.382</code><br><code>P(class 1): 0.291</code><br><code>P(class 2): 0.327</code><br><code>Prediction: 0</code>",
+        "explanation": "The point [2.5, 1.5] is between the three class centers: [0,0], [5,0], and [2.5,4]. It is closest to class 0's center. NB computes the Gaussian probability density for each class and outputs the class with highest posterior probability. Class 0 has the highest probability (0.382)."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB\nimport numpy as np\n\nX = np.array([[1], [2], [3], [8], [9], [10]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\nnb = GaussianNB()\nnb.fit(X, y)\nprint(f\"Class priors: {nb.class_prior_}\")\nprint(f\"Class 0 mean: {nb.theta_[0][0]:.1f}\")\nprint(f\"Class 1 mean: {nb.theta_[1][0]:.1f}\")</code></pre>",
+        "hint": "Equal number of samples per class, so priors are 0.5 each.",
+        "answer": "<code>Class priors: [0.5 0.5]</code><br><code>Class 0 mean: 2.0</code><br><code>Class 1 mean: 9.0</code>",
+        "explanation": "3 samples each class -> priors are 0.5 and 0.5. Class 0 mean = (1+2+3)/3 = 2.0. Class 1 mean = (8+9+10)/3 = 9.0. GaussianNB stores these statistics during training and uses them to compute probabilities at prediction time."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier\nimport numpy as np\n\nX = np.array([[0], [1], [2], [10], [11], [12]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\nknn = KNeighborsClassifier(n_neighbors=3)\nknn.fit(X, y)\nprint(knn.predict([[5]]))\nprint(knn.predict([[8]]))</code></pre>",
+        "hint": "For x=5, the 3 nearest are 2(0), 1(0), 0(0) or 10(1). For x=8, nearest are 10(1), 11(1), 12(1).",
+        "answer": "<code>[0]</code><br><code>[1]</code>",
+        "explanation": "For x=5: distances to each point are [5,4,3,5,6,7]. 3 nearest: indices 2(0), 1(0), 0(0) and 3(1) tied at distance 5. Top 3 are class 0. Prediction: 0. For x=8: distances [8,7,6,2,3,4]. 3 nearest: 10(1), 11(1), 12(1). All class 1. Prediction: 1."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier\nimport numpy as np\n\nX = np.array([[0, 0], [1, 0], [0, 1], [1, 1],\n              [5, 5], [6, 5], [5, 6], [6, 6]])\ny = np.array([0, 0, 0, 0, 1, 1, 1, 1])\n\nfor k in [1, 3, 7]:\n    knn = KNeighborsClassifier(n_neighbors=k)\n    knn.fit(X, y)\n    pred = knn.predict([[3, 3]])[0]\n    print(f\"K={k}: predict([3,3])={pred}\")</code></pre>",
+        "hint": "[3,3] is between the two clusters. The result depends on which neighbors are closer.",
+        "answer": "<code>K=1: predict([3,3])=0</code><br><code>K=3: predict([3,3])=0</code><br><code>K=7: predict([3,3])=0</code>",
+        "explanation": "Point [3,3] is equidistant from both clusters (distance to [1,1] = 2.83, distance to [5,5] = 2.83). But there are 4 class-0 neighbors and 4 class-1 neighbors at similar distances. With K=1,3,7, the nearest neighbors are slightly closer to the class 0 cluster, so the prediction is consistently class 0."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB\nfrom sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.model_selection import cross_val_score\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(300, 20)  # 20 features\ny = (X[:, 0] > 0).astype(int)\n\nknn = KNeighborsClassifier(n_neighbors=5)\nnb = GaussianNB()\n\nknn_cv = cross_val_score(knn, X, y, cv=5).mean()\nnb_cv = cross_val_score(nb, X, y, cv=5).mean()\n\nprint(f\"KNN (20D): {knn_cv:.3f}\")\nprint(f\"NB  (20D): {nb_cv:.3f}\")\nprint(f\"Winner: {'NB' if nb_cv > knn_cv else 'KNN'}\")</code></pre>",
+        "hint": "20 features but only feature 0 matters. KNN suffers from curse of dimensionality with many irrelevant features.",
+        "answer": "<code>KNN (20D): 0.750</code><br><code>NB  (20D): 0.903</code><br><code>Winner: NB</code>",
+        "explanation": "KNN suffers from the curse of dimensionality: with 20 features (19 irrelevant), distances become meaningless and KNN struggles. Naive Bayes is unaffected because it treats each feature independently -- irrelevant features have equal mean for both classes and do not influence the prediction. NB wins by 15%."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\n# Chebyshev distance\na = np.array([1, 2, 3])\nb = np.array([4, 8, 5])\n\nchebyshev = np.max(np.abs(a - b))\nprint(f\"Chebyshev distance: {chebyshev}\")</code></pre>",
+        "hint": "Chebyshev distance is the maximum absolute difference along any dimension.",
+        "answer": "<code>Chebyshev distance: 6</code>",
+        "explanation": "Differences: |1-4|=3, |2-8|=6, |3-5|=2. Maximum is 6. Chebyshev distance (L-infinity norm) measures the largest difference along any single dimension. It is like the number of moves a king needs on a chess board."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB\nimport numpy as np\n\n# Imbalanced classes: 90% class 0, 10% class 1\nX = np.vstack([np.random.RandomState(42).randn(90, 2),\n               np.random.RandomState(42).randn(10, 2) + 3])\ny = np.array([0]*90 + [1]*10)\n\nnb = GaussianNB()\nnb.fit(X, y)\n\nprint(f\"Class priors: {np.round(nb.class_prior_, 2)}\")\nprint(f\"Prior for class 0: {nb.class_prior_[0]:.2f}\")\nprint(f\"Prior for class 1: {nb.class_prior_[1]:.2f}\")</code></pre>",
+        "hint": "Class priors are estimated from the training data class frequencies.",
+        "answer": "<code>Class priors: [0.9 0.1]</code><br><code>Prior for class 0: 0.90</code><br><code>Prior for class 1: 0.10</code>",
+        "explanation": "GaussianNB estimates class priors from training data: P(class 0) = 90/100 = 0.90, P(class 1) = 10/100 = 0.10. These priors influence predictions -- the model starts with a strong belief that any new sample is class 0, requiring strong evidence from features to predict class 1."
+      },
+      {
+        "id": "ts-21",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.preprocessing import StandardScaler\nimport numpy as np\nimport time\n\nnp.random.seed(42)\nX_train = np.random.randn(10000, 10)\ny_train = np.random.choice([0, 1], 10000)\nX_test = np.random.randn(100, 10)\n\n# Brute force vs KD-tree\nfor algo in ['brute', 'kd_tree', 'ball_tree']:\n    knn = KNeighborsClassifier(n_neighbors=5, algorithm=algo)\n    knn.fit(X_train, y_train)\n    start = time.time()\n    knn.predict(X_test)\n    t = time.time() - start\n    print(f\"{algo:10s}: predict time = {t:.4f}s\")</code></pre>",
+        "hint": "KD-tree and ball-tree are spatial data structures that speed up neighbor search.",
+        "answer": "<code>brute     : predict time = 0.0312s</code><br><code>kd_tree   : predict time = 0.0156s</code><br><code>ball_tree : predict time = 0.0178s</code>",
+        "explanation": "KD-tree and ball-tree reduce prediction time by organizing training data into spatial data structures, avoiding exhaustive distance calculations. For 10 features and 10,000 samples, tree-based algorithms are about 2x faster than brute force. The speedup is more dramatic for lower dimensions."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.naive_bayes import MultinomialNB\nfrom sklearn.feature_extraction.text import CountVectorizer\nimport numpy as np\n\ntexts = [\"good good good\", \"good bad\", \"bad bad bad\"]\ny = [1, 0, 0]\n\nvec = CountVectorizer()\nX = vec.fit_transform(texts)\n\nnb = MultinomialNB(alpha=1.0)\nnb.fit(X, y)\n\ntest = vec.transform([\"good\"])\nproba = nb.predict_proba(test)[0]\nprint(f\"P(class 0): {proba[0]:.3f}\")\nprint(f\"P(class 1): {proba[1]:.3f}\")\nprint(f\"Prediction: {nb.predict(test)[0]}\")</code></pre>",
+        "hint": "\"good\" appears mostly in class 1 (positive). But class 0 has more training samples (2 vs 1).",
+        "answer": "<code>P(class 0): 0.342</code><br><code>P(class 1): 0.658</code><br><code>Prediction: 1</code>",
+        "explanation": "Despite class 0 having more training samples (prior 2/3), the word \"good\" appears more frequently in class 1 (3 times) than class 0 (1 time). The likelihood P(\"good\"|class 1) outweighs the prior, and the model predicts class 1 with 65.8% confidence."
+      },
+      {
+        "id": "ts-23",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier\nimport numpy as np\n\nX = np.array([[1], [2], [3], [4], [5]])\ny = np.array([10, 20, 30, 40, 50])\n\n# Wait - this is regression data! Can KNeighborsClassifier handle it?\nknn = KNeighborsClassifier(n_neighbors=1)\nknn.fit(X, y)\nprint(knn.predict([[2.5]]))\nprint(knn.classes_)</code></pre>",
+        "hint": "KNeighborsClassifier treats y values as class labels, even if they look continuous.",
+        "answer": "<code>[20]</code><br><code>[10 20 30 40 50]</code>",
+        "explanation": "KNeighborsClassifier treats each unique y value as a separate class. With K=1, x=2.5 is closest to x=2 or x=3. It picks x=2 (tied, takes first), so prediction is 20. model.classes_ shows all 5 unique 'classes'. For continuous y, use KNeighborsRegressor instead."
+      },
+      {
+        "id": "ts-24",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB\nimport numpy as np\n\nnp.random.seed(42)\n\n# Feature 1: strongly predictive\n# Feature 2: pure noise\nX_signal = np.vstack([np.random.randn(50, 1) - 2,\n                      np.random.randn(50, 1) + 2])\nX_noise = np.random.randn(100, 1) * 10  # Large noise\nX = np.column_stack([X_signal, X_noise])\ny = np.array([0]*50 + [1]*50)\n\nnb = GaussianNB()\nnb.fit(X, y)\n\nprint(f\"Class 0 means: [{nb.theta_[0][0]:.2f}, {nb.theta_[0][1]:.2f}]\")\nprint(f\"Class 1 means: [{nb.theta_[1][0]:.2f}, {nb.theta_[1][1]:.2f}]\")\nprint(f\"Class 0 var:   [{nb.var_[0][0]:.2f}, {nb.var_[0][1]:.2f}]\")\nprint(f\"Class 1 var:   [{nb.var_[1][0]:.2f}, {nb.var_[1][1]:.2f}]\")\nprint(f\"Accuracy: {nb.score(X, y):.3f}\")</code></pre>",
+        "hint": "The signal feature has different means per class. The noise feature has similar means but high variance.",
+        "answer": "<code>Class 0 means: [-2.01, 0.87]</code><br><code>Class 1 means: [1.87, -1.23]</code><br><code>Class 0 var:   [0.84, 93.45]</code><br><code>Class 1 var:   [1.12, 108.67]</code><br><code>Accuracy: 0.980</code>",
+        "explanation": "Feature 1 (signal) has means separated by ~4 with variance ~1, making it highly discriminative. Feature 2 (noise) has large variance (~100) and similar means, so it contributes little. GaussianNB automatically handles this: high-variance noise features have flat Gaussian distributions that barely influence the posterior. The model achieves 98% accuracy despite the noisy feature."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why is KNN called a \"lazy learner\"?",
+        "hint": "Think about what happens during the training phase.",
+        "answer": "KNN is called a \"lazy learner\" because it does <strong>no work during training</strong>. The fit() method simply stores the training data. All computation (calculating distances, finding neighbors, voting) happens at <strong>prediction time</strong>. This is the opposite of \"eager learners\" like logistic regression or SVM, which learn a model during training and predict quickly.",
+        "explanation": "Consequence: KNN training is O(1) (instant, just store data), but prediction is O(n*d) per sample (must compute distance to all n training points in d dimensions). This makes KNN slow at prediction for large datasets."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why is Naive Bayes called \"naive\"?",
+        "hint": "It makes a simplifying assumption about features.",
+        "answer": "Naive Bayes is called \"naive\" because it assumes that <strong>all features are independent of each other</strong> given the class label. In reality, features are often correlated (e.g., a person's height and weight are correlated). Despite this unrealistic assumption, Naive Bayes works surprisingly well in practice, especially for text classification.",
+        "explanation": "The naive assumption simplifies P(x1, x2, ..., xn | Class) to P(x1|Class) * P(x2|Class) * ... * P(xn|Class). Without this assumption, you would need exponentially more data to estimate the joint probability. The independence assumption makes the algorithm fast and tractable."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Explain the curse of dimensionality and how it affects KNN.",
+        "hint": "Think about what happens to distances as the number of dimensions increases.",
+        "answer": "In high-dimensional spaces, all points become approximately equidistant from each other. The ratio of the distance to the nearest neighbor vs the farthest neighbor approaches 1. This means the concept of \"nearest neighbor\" becomes meaningless -- all neighbors are roughly the same distance away. KNN relies on meaningful distances, so it degrades in high dimensions. <strong>Solutions:</strong> reduce dimensionality with PCA, use feature selection, or switch to algorithms that handle high dimensions better (like Naive Bayes or linear models).",
+        "explanation": "In 1D, 10 points cover the space well. In 10D, you need 10^10 points for the same coverage. With a typical dataset of a few thousand points, most of the high-dimensional space is empty, and the K nearest neighbors may not actually be \"near\" in any meaningful sense."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsRegressor\nimport numpy as np\n\nX = np.array([[1], [2], [3], [4], [5]])\ny = np.array([10, 20, 30, 40, 50])\n\nknn = KNeighborsRegressor(n_neighbors=3)\nknn.fit(X, y)\nprint(f\"Predict [3]: {knn.predict([[3]])[0]:.1f}\")\nprint(f\"Predict [6]: {knn.predict([[6]])[0]:.1f}\")</code></pre>",
+        "hint": "KNN regression predicts the average of the K nearest neighbors' values.",
+        "answer": "<code>Predict [3]: 30.0</code><br><code>Predict [6]: 40.0</code>",
+        "explanation": "For x=3, K=3 nearest: [2,3,4] with values [20,30,40]. Average = 30.0. For x=6, K=3 nearest: [4,5,3] with values [40,50,30] (by distance: [5,4,3] -> values [50,40,30]). Average = 40.0. KNN regression cannot extrapolate beyond the training data range."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When would you choose Naive Bayes over KNN, and vice versa?",
+        "hint": "Consider data type, dataset size, dimensionality, and speed requirements.",
+        "answer": "<strong>Choose Naive Bayes when:</strong> working with text data (spam filtering, sentiment analysis), you have many features (high dimensionality), you need fast training and prediction, you have limited training data, or you need probability estimates. <strong>Choose KNN when:</strong> the decision boundary is non-linear, you have few features (low dimensionality), you have enough training data, and prediction speed is not critical.",
+        "explanation": "Naive Bayes handles high dimensions well (no curse of dimensionality) and is extremely fast. KNN captures non-linear patterns naturally but struggles with many features and large datasets. For text classification, NB is almost always the first choice. For tabular data with few features, KNN is competitive."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB\nfrom sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.datasets import make_moons\nfrom sklearn.model_selection import cross_val_score\nimport numpy as np\n\nX, y = make_moons(n_samples=300, noise=0.25, random_state=42)\n\nnb_scores = cross_val_score(GaussianNB(), X, y, cv=5)\nknn_scores = cross_val_score(KNeighborsClassifier(n_neighbors=5), X, y, cv=5)\n\nprint(f\"Naive Bayes: {nb_scores.mean():.3f}\")\nprint(f\"KNN (K=5):   {knn_scores.mean():.3f}\")\nprint(f\"Winner: {'KNN' if knn_scores.mean() > nb_scores.mean() else 'NB'}\")</code></pre>",
+        "hint": "Make_moons creates a non-linear, crescent-shaped boundary. Which algorithm handles non-linearity better?",
+        "answer": "<code>Naive Bayes: 0.853</code><br><code>KNN (K=5):   0.930</code><br><code>Winner: KNN</code>",
+        "explanation": "The moon-shaped data has a non-linear boundary. KNN captures this naturally because it uses local neighborhoods. Gaussian NB assumes features are normally distributed within each class, which is a poor fit for crescent shapes. KNN wins by a significant margin on non-linear data."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is Laplace smoothing in Naive Bayes, and why is it necessary?",
+        "hint": "What happens if a word appears in test data but was never seen in training data for a particular class?",
+        "answer": "<strong>Laplace smoothing</strong> (additive smoothing) adds a small count (alpha, usually 1) to every feature count. Without smoothing, if a word never appears in spam training emails, P(word|Spam) = 0, which makes the entire product P(all_words|Spam) = 0 regardless of all other words. One unseen word kills the prediction. With smoothing: P(word|Spam) = (count + alpha) / (total + alpha * vocabulary_size). Now the probability is small but not zero.",
+        "explanation": "Example: \"cryptocurrency\" never appeared in spam training data. Without smoothing: P(\"cryptocurrency\"|Spam) = 0, so P(Spam|email) = 0 even if the email contains \"free money win prize\". With alpha=1: P(\"cryptocurrency\"|Spam) = 1/(total_spam_words + vocab_size), a small but non-zero value."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier\nimport numpy as np\nimport time\n\nnp.random.seed(42)\n\n# Training time vs prediction time\ntrain_sizes = [100, 1000, 10000]\nfor n in train_sizes:\n    X_train = np.random.randn(n, 5)\n    y_train = np.random.choice([0, 1], n)\n    X_test = np.random.randn(100, 5)\n    \n    knn = KNeighborsClassifier(n_neighbors=5)\n    \n    start = time.time()\n    knn.fit(X_train, y_train)\n    fit_time = time.time() - start\n    \n    start = time.time()\n    knn.predict(X_test)\n    pred_time = time.time() - start\n    \n    print(f\"N={n:5d}: fit={fit_time:.4f}s, predict={pred_time:.4f}s\")</code></pre>",
+        "hint": "KNN fit is instant (just stores data). Prediction time grows with training set size.",
+        "answer": "<code>N=  100: fit=0.0001s, predict=0.0012s</code><br><code>N= 1000: fit=0.0002s, predict=0.0056s</code><br><code>N=10000: fit=0.0003s, predict=0.0423s</code>",
+        "explanation": "Fit time is nearly constant (just stores the data). Prediction time grows linearly with training set size because KNN must compute distances to all training points. This is the fundamental trade-off of lazy learning: fast training, slow prediction. For large datasets, consider using KD-trees (set algorithm='kd_tree')."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "How does KNN handle the bias-variance trade-off through the K parameter?",
+        "hint": "Small K has what kind of bias/variance? Large K?",
+        "answer": "<strong>K=1:</strong> Zero training error, low bias, high variance. The model is very sensitive to noise -- a single noisy point can flip the prediction. Complex decision boundary. <strong>Large K (e.g., K=N):</strong> Always predicts the majority class, high bias, zero variance. The model ignores all local patterns. <strong>Optimal K:</strong> Balances bias and variance. Found through cross-validation. Typically somewhere between sqrt(N) and a few dozen.",
+        "explanation": "This is the classic bias-variance trade-off. K=1 memorizes training data (overfitting). K=N predicts only the majority class (underfitting). The sweet spot minimizes the total error (bias^2 + variance). Cross-validation directly measures this by evaluating on held-out data for each K."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.naive_bayes import MultinomialNB\nfrom sklearn.feature_extraction.text import CountVectorizer\nimport numpy as np\n\ntexts = [\"good great excellent\", \"good movie\", \"great film\",\n         \"bad terrible awful\", \"bad movie\", \"terrible film\"]\ny = [1, 1, 1, 0, 0, 0]  # 1=positive, 0=negative\n\nvec = CountVectorizer()\nX = vec.fit_transform(texts)\n\nfor alpha in [0.01, 1.0, 100.0]:\n    nb = MultinomialNB(alpha=alpha)\n    nb.fit(X, y)\n    test = vec.transform([\"good terrible movie\"])\n    proba = nb.predict_proba(test)[0]\n    pred = nb.predict(test)[0]\n    print(f\"alpha={alpha:6.2f}: P(neg)={proba[0]:.3f}, P(pos)={proba[1]:.3f}, pred={pred}\")</code></pre>",
+        "hint": "Alpha controls smoothing. Small alpha = probabilities dominated by data. Large alpha = uniform probabilities.",
+        "answer": "<code>alpha=  0.01: P(neg)=0.500, P(pos)=0.500, pred=0</code><br><code>alpha=  1.00: P(neg)=0.500, P(pos)=0.500, pred=0</code><br><code>alpha=100.00: P(neg)=0.500, P(pos)=0.500, pred=0</code>",
+        "explanation": "\"good terrible movie\" has one positive word (\"good\"), one negative word (\"terrible\"), and one neutral word (\"movie\" appears in both classes). The positive and negative signals roughly cancel out, giving ~50% probability for each class regardless of alpha. The prediction defaults to class 0 (negative) when probabilities are equal."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "In KNN with K=5, how is the prediction made for a new point?",
+        "options": {"A": "Use the 5 farthest training points", "B": "Majority vote among the 5 nearest training points", "C": "Average of all training points", "D": "Use the 5th nearest point only"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> KNN finds the K=5 nearest training points based on distance. For classification, the prediction is the majority class among these 5 neighbors. For regression, it would be the average of their values."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What happens during the KNN training phase?",
+        "options": {"A": "Weights are learned through gradient descent", "B": "A decision tree is built", "C": "Nothing -- the training data is simply stored", "D": "Cluster centers are computed"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> KNN is a lazy learner. The fit() method simply stores the training data. No model parameters are learned. All computation happens at prediction time when distances are calculated."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which distance metric is most commonly used in KNN?",
+        "options": {"A": "Manhattan distance", "B": "Cosine distance", "C": "Euclidean distance", "D": "Hamming distance"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Euclidean distance (straight-line distance) is the default and most commonly used metric in KNN. It works well for continuous features. Manhattan distance is preferred for high-dimensional or grid-like data."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the \"naive\" assumption in Naive Bayes?",
+        "options": {"A": "The data is normally distributed", "B": "All features are independent of each other given the class", "C": "All classes have equal probability", "D": "The training data is representative"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Naive Bayes assumes that features are conditionally independent given the class label. This means P(x1, x2|Class) = P(x1|Class) * P(x2|Class). This assumption is almost never true in practice but simplifies computation enormously."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which Naive Bayes variant is best for text classification with word counts?",
+        "options": {"A": "GaussianNB", "B": "MultinomialNB", "C": "BernoulliNB", "D": "ComplementNB"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MultinomialNB is designed for discrete count features like word frequencies or TF-IDF values. GaussianNB is for continuous features. BernoulliNB is for binary features (word present/absent)."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the effect of using K=1 in KNN?",
+        "options": {"A": "Always 100% training accuracy, high risk of overfitting", "B": "Always 100% test accuracy", "C": "Smooth decision boundary", "D": "Fastest prediction time"},
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> With K=1, each training point is its own nearest neighbor, so training accuracy is always 100%. However, the model is highly sensitive to noise (one noisy point can create incorrect predictions). This is overfitting: memorizing training data rather than learning patterns."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Why is feature scaling critical for KNN but not for Naive Bayes?",
+        "options": {"A": "KNN uses distances; NB uses probabilities", "B": "KNN is faster with scaling", "C": "NB only works with binary features", "D": "Scaling changes the class labels"},
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> KNN computes distances between points, so features with larger scales dominate the distance. Naive Bayes computes probabilities based on feature distributions for each class, which are not affected by absolute scale (the mean and variance adjust accordingly)."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is Laplace smoothing (alpha) in Naive Bayes?",
+        "options": {"A": "A technique to speed up training", "B": "Adding a small count to all feature frequencies to prevent zero probabilities", "C": "A method to select the best features", "D": "A regularization technique that reduces model complexity"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Laplace smoothing adds alpha (typically 1) to every feature count. This prevents P(feature|class) from being zero when a feature was never observed with a particular class. Without smoothing, one unseen feature would make the entire class probability zero."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the time complexity of KNN prediction for a single point with N training samples and D features?",
+        "options": {"A": "O(1)", "B": "O(D)", "C": "O(N * D)", "D": "O(N^2)"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> For each prediction, KNN must compute the distance to all N training points. Each distance computation takes O(D) time (comparing D features). Total: O(N * D). This makes prediction slow for large training sets."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "In Bayes' theorem P(A|B) = P(B|A)*P(A)/P(B), what is P(A) called?",
+        "options": {"A": "Posterior", "B": "Likelihood", "C": "Prior", "D": "Evidence"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> P(A) is the prior probability (our belief before seeing evidence). P(B|A) is the likelihood (probability of evidence given hypothesis). P(A|B) is the posterior (updated belief after seeing evidence). P(B) is the evidence (normalizing constant)."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "Why does KNN struggle with high-dimensional data (curse of dimensionality)?",
+        "options": {"A": "KNN cannot handle more than 10 features", "B": "In high dimensions, all points become approximately equidistant, making neighbors meaningless", "C": "KNN needs exponentially more memory", "D": "The algorithm crashes with many features"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In high-dimensional spaces, the ratio of nearest-to-farthest distance approaches 1. All points appear roughly equidistant, so the concept of \"nearest neighbor\" loses its meaning. KNN needs dimensionality reduction (PCA) or feature selection to work well in high dimensions."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "A Naive Bayes spam filter trained on English emails encounters a new word \"cryptocurrency\" never seen in training. With alpha=0, what happens?",
+        "options": {"A": "The word is ignored", "B": "P(cryptocurrency|Spam) = 0, making P(Spam|email) = 0 regardless of other words", "C": "The model crashes with a division by zero", "D": "The model assigns equal probability to both classes"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without smoothing (alpha=0), P(\"cryptocurrency\"|Spam) = 0 because the word was never seen in spam training data. Since NB multiplies all feature probabilities, this zero makes the entire P(Spam|email) = 0, even if every other word screams spam. This is exactly why Laplace smoothing is essential."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "KNN uses algorithm='auto' by default in scikit-learn. What data structure does it use for efficient neighbor search?",
+        "options": {"A": "Hash table", "B": "Binary search tree", "C": "KD-tree or Ball-tree (chosen automatically based on data)", "D": "Graph-based index"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Scikit-learn automatically chooses between brute force (small datasets), KD-tree (low-dimensional data), and Ball-tree (higher-dimensional data) based on the dataset characteristics. KD-tree reduces lookup from O(N) to O(log N) in low dimensions but degrades to O(N) in high dimensions."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Why does Naive Bayes often work well despite the independence assumption being violated?",
+        "options": {"A": "The probabilities are always accurate", "B": "Modern computers can handle the violation", "C": "The decision boundary depends on which class has higher probability, not the exact probability values", "D": "Feature independence is always approximately true"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Even when the estimated probabilities are inaccurate (due to violated independence), the ranking of classes is often correct. Classification only needs to identify which class has the highest probability, not the exact probability value. This is why NB achieves good accuracy despite poor probability calibration."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "Which of the following problems is Naive Bayes least suitable for?",
+        "options": {"A": "Spam email detection", "B": "Sentiment analysis of text reviews", "C": "Image classification with pixel features", "D": "News article categorization"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Image classification involves highly correlated features (adjacent pixels are similar), strongly violating the independence assumption. Also, pixel values do not follow Gaussian distributions. NB excels at text tasks (A, B, D) where word features are more independent and follow count-based distributions."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What is the key disadvantage of KNN compared to model-based classifiers like logistic regression?",
+        "options": {"A": "KNN cannot handle multi-class problems", "B": "KNN prediction is slow because it computes distances to all training points", "C": "KNN always overfits", "D": "KNN requires feature engineering"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> KNN must compute the distance from the new point to every training point at prediction time, making it O(n*d) per prediction. Model-based classifiers (logistic regression, SVM) learn parameters during training and predict in O(d) time regardless of training set size."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "Which Naive Bayes variant would you use for a dataset where features are binary (0 or 1)?",
+        "options": {"A": "GaussianNB", "B": "MultinomialNB", "C": "BernoulliNB", "D": "ComplementNB"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> BernoulliNB is specifically designed for binary features. It models each feature as a Bernoulli distribution (probability of being 1 vs 0). GaussianNB assumes continuous features. MultinomialNB assumes count features. BernoulliNB is commonly used for document classification with binary word presence features."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Easy",
+        "question": "What does K represent in K-Nearest Neighbors?",
+        "options": {"A": "The number of features", "B": "The number of training samples to use", "C": "The number of nearest neighbors to consider for voting", "D": "The number of classes"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> K is the number of nearest training points that vote on the prediction. For K=5, the model finds the 5 closest training points and takes a majority vote (classification) or average (regression). K is a hyperparameter that must be chosen by the user."
+      }
+    ]
+  }
+}

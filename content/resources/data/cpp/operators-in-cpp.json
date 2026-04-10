@@ -1,0 +1,720 @@
+{
+  "title": "Operators in C++",
+  "slug": "operators-in-cpp",
+  "language": "cpp",
+  "chapter": 4,
+  "difficulty": "Beginner",
+  "readingTime": "25 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 57,
+  "seo": {
+    "title": "Operators in C++ - Arithmetic, Relational, Logical, Bitwise, Ternary & Precedence | Modern Age Coders",
+    "description": "Master all C++ operators: arithmetic, relational, logical, bitwise, assignment, increment/decrement, ternary, sizeof, comma operator, operator precedence, and short-circuit evaluation. 57 practice questions.",
+    "keywords": "c++ operators, arithmetic operators c++, bitwise operators c++, ternary operator c++, operator precedence c++, pre increment post increment, short circuit evaluation, logical operators c++, modulus operator c++, c++ operator examples"
+  },
+  "content": {
+    "what": "<h2>What Are Operators in C++?</h2><p>An <strong>operator</strong> is a symbol that tells the compiler to perform a specific mathematical, logical, or data manipulation operation on one or more operands. Operators are the building blocks of every expression in C++. When you write <code>a + b</code>, the <code>+</code> is an operator and <code>a</code> and <code>b</code> are operands.</p><p>C++ has one of the richest operator sets among programming languages. Unlike Python (which has no bitwise shift or ternary <code>?:</code> in the same sense) or Java (which lacks unsigned right shift in the same way), C++ gives you direct control over bit-level operations, memory addresses, and more.</p><h3>Categories of C++ Operators</h3><table><tr><th>Category</th><th>Operators</th><th>Example</th></tr><tr><td>Arithmetic</td><td><code>+ - * / %</code></td><td><code>a + b</code>, <code>a % b</code></td></tr><tr><td>Relational</td><td><code>== != &lt; &gt; &lt;= &gt;=</code></td><td><code>a == b</code>, <code>a &lt; b</code></td></tr><tr><td>Logical</td><td><code>&amp;&amp; || !</code></td><td><code>a &amp;&amp; b</code>, <code>!a</code></td></tr><tr><td>Bitwise</td><td><code>&amp; | ^ ~ &lt;&lt; &gt;&gt;</code></td><td><code>a &amp; b</code>, <code>a &lt;&lt; 2</code></td></tr><tr><td>Assignment</td><td><code>= += -= *= /= %= &amp;= |= ^= &lt;&lt;= &gt;&gt;=</code></td><td><code>a += 5</code></td></tr><tr><td>Increment/Decrement</td><td><code>++ --</code></td><td><code>++a</code>, <code>a++</code></td></tr><tr><td>Ternary</td><td><code>?:</code></td><td><code>a &gt; b ? a : b</code></td></tr><tr><td>sizeof</td><td><code>sizeof</code></td><td><code>sizeof(int)</code></td></tr><tr><td>Comma</td><td><code>,</code></td><td><code>(a=1, b=2, a+b)</code></td></tr></table>",
+    "why": "<h2>Why Master Operators?</h2><p>Operators appear in every single line of meaningful C++ code. Understanding them deeply -- especially edge cases like integer division, modulus with negatives, pre vs post increment in expressions, and bitwise tricks -- separates average programmers from strong ones.</p><h3>1. Competitive Programming</h3><p>Bitwise operators are essential for bitmask DP, subset enumeration, and efficient flag manipulation. Knowing that <code>n &amp; (n-1)</code> clears the lowest set bit, or that <code>x ^ x = 0</code>, saves time in contests. Short-circuit evaluation is used for safe null checks and boundary conditions.</p><h3>2. Interview Questions</h3><p>Questions like \"What is the output of <code>cout &lt;&lt; (5 &gt; 3 ? 10 : 20)</code>?\" or \"What is <code>-7 % 3</code> in C++?\" or \"Explain the difference between <code>++i</code> and <code>i++</code>\" appear in almost every technical screening at companies like Amazon, Flipkart, and Infosys.</p><h3>3. Writing Correct Code</h3><p>Operator precedence bugs are among the most subtle in C++. <code>a &amp; b == 0</code> does NOT check if the AND of a and b is zero -- it checks if <code>b == 0</code> first (because <code>==</code> has higher precedence than <code>&amp;</code>). Knowing precedence prevents these traps.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>Arithmetic Operators</h3><p>The five arithmetic operators are <code>+</code> (addition), <code>-</code> (subtraction), <code>*</code> (multiplication), <code>/</code> (division), and <code>%</code> (modulus/remainder).</p><p><strong>Integer Division:</strong> When both operands are integers, <code>/</code> performs integer division (truncation toward zero). <code>7 / 2</code> is <code>3</code>, not <code>3.5</code>. <code>-7 / 2</code> is <code>-3</code> (truncated toward zero), not <code>-4</code>. If you want floating-point division, cast at least one operand: <code>(double)7 / 2</code> gives <code>3.5</code>.</p><p><strong>Modulus with Negatives:</strong> In C++11 and later, the result of <code>%</code> takes the sign of the dividend (left operand). <code>-7 % 3</code> is <code>-1</code>. <code>7 % -3</code> is <code>1</code>. <code>-7 % -3</code> is <code>-1</code>. This is guaranteed by the standard since C++11.</p><h3>Relational Operators</h3><p>These compare two values and return a <code>bool</code> (true/false, printed as 1/0): <code>==</code> (equal), <code>!=</code> (not equal), <code>&lt;</code> (less than), <code>&gt;</code> (greater than), <code>&lt;=</code> (less or equal), <code>&gt;=</code> (greater or equal). Chaining like <code>1 &lt; x &lt; 10</code> does NOT work as expected in C++ -- it evaluates left to right: <code>(1 &lt; x)</code> gives 0 or 1, then <code>0 &lt; 10</code> or <code>1 &lt; 10</code> is always true.</p><h3>Logical Operators</h3><p><code>&amp;&amp;</code> (AND), <code>||</code> (OR), <code>!</code> (NOT). These work on boolean values and use <strong>short-circuit evaluation</strong>: in <code>a &amp;&amp; b</code>, if <code>a</code> is false, <code>b</code> is never evaluated. In <code>a || b</code>, if <code>a</code> is true, <code>b</code> is never evaluated. This is not just an optimization -- it is a correctness tool: <code>ptr != NULL &amp;&amp; ptr-&gt;val == 5</code> safely avoids dereferencing a null pointer.</p><h3>Bitwise Operators</h3><p>These operate on individual bits:</p><ul><li><code>&amp;</code> (AND): Each bit is 1 only if both bits are 1. <code>5 &amp; 3</code> = <code>0101 &amp; 0011</code> = <code>0001</code> = 1.</li><li><code>|</code> (OR): Each bit is 1 if either bit is 1. <code>5 | 3</code> = <code>0101 | 0011</code> = <code>0111</code> = 7.</li><li><code>^</code> (XOR): Each bit is 1 if exactly one bit is 1. <code>5 ^ 3</code> = <code>0101 ^ 0011</code> = <code>0110</code> = 6.</li><li><code>~</code> (NOT/complement): Flips every bit. <code>~0</code> gives -1 (all bits set to 1 in two's complement).</li><li><code>&lt;&lt;</code> (left shift): <code>x &lt;&lt; n</code> multiplies x by 2^n. <code>1 &lt;&lt; 3</code> = 8.</li><li><code>&gt;&gt;</code> (right shift): <code>x &gt;&gt; n</code> divides x by 2^n (for non-negative values). <code>16 &gt;&gt; 2</code> = 4.</li></ul><h3>Pre-increment vs Post-increment</h3><p><code>++x</code> (pre-increment): increments x, then returns the new value. <code>x++</code> (post-increment): returns the current value of x, then increments it. In a standalone statement <code>x++;</code> vs <code>++x;</code>, the effect is identical. The difference matters in expressions: <code>int a = ++x;</code> gives a the incremented value, while <code>int a = x++;</code> gives a the old value.</p><h3>Ternary Operator</h3><p>Syntax: <code>condition ? value_if_true : value_if_false</code>. It is the only ternary (three-operand) operator in C++. <code>int max = (a &gt; b) ? a : b;</code> is a compact alternative to an if-else block. Ternary can be nested but should not be -- nested ternaries are unreadable.</p><h3>Comma Operator</h3><p>The comma operator evaluates both operands and returns the value of the right operand. <code>int x = (1, 2, 3);</code> assigns 3 to x. It is rarely used directly but appears in for loops: <code>for (int i=0, j=10; i&lt;j; i++, j--)</code>.</p><h3>Operator Precedence (Highest to Lowest, simplified)</h3><table><tr><th>Precedence</th><th>Operators</th></tr><tr><td>1 (highest)</td><td><code>() [] -&gt; . ::</code></td></tr><tr><td>2</td><td><code>++ -- (postfix) sizeof</code></td></tr><tr><td>3</td><td><code>++ -- (prefix) ! ~ + - (unary) * &amp; (dereference/address)</code></td></tr><tr><td>4</td><td><code>* / %</code></td></tr><tr><td>5</td><td><code>+ -</code></td></tr><tr><td>6</td><td><code>&lt;&lt; &gt;&gt;</code></td></tr><tr><td>7</td><td><code>&lt; &lt;= &gt; &gt;=</code></td></tr><tr><td>8</td><td><code>== !=</code></td></tr><tr><td>9</td><td><code>&amp;</code> (bitwise AND)</td></tr><tr><td>10</td><td><code>^</code> (bitwise XOR)</td></tr><tr><td>11</td><td><code>|</code> (bitwise OR)</td></tr><tr><td>12</td><td><code>&amp;&amp;</code></td></tr><tr><td>13</td><td><code>||</code></td></tr><tr><td>14</td><td><code>?:</code></td></tr><tr><td>15</td><td><code>= += -= *= /= %=</code> etc.</td></tr><tr><td>16 (lowest)</td><td><code>,</code></td></tr></table><p>The critical trap: bitwise operators (<code>&amp; | ^</code>) have <strong>lower</strong> precedence than relational operators (<code>== != &lt; &gt;</code>). So <code>x &amp; 1 == 0</code> is parsed as <code>x &amp; (1 == 0)</code> = <code>x &amp; 0</code> = 0. Always use parentheses: <code>(x &amp; 1) == 0</code>.</p>",
+    "codeExamples": [
+      {
+        "title": "Arithmetic Operators and Integer Division",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 17, b = 5;\n\n    cout << \"a + b = \" << a + b << endl;   // 22\n    cout << \"a - b = \" << a - b << endl;   // 12\n    cout << \"a * b = \" << a * b << endl;   // 85\n    cout << \"a / b = \" << a / b << endl;   // 3 (integer division)\n    cout << \"a % b = \" << a % b << endl;   // 2 (remainder)\n\n    // Float division vs int division\n    cout << \"17 / 5 (int): \" << 17 / 5 << endl;          // 3\n    cout << \"17.0 / 5 (double): \" << 17.0 / 5 << endl;   // 3.4\n\n    // Modulus with negatives (C++11 guaranteed)\n    cout << \"-7 % 3 = \" << -7 % 3 << endl;    // -1\n    cout << \"7 % -3 = \" << 7 % -3 << endl;    // 1\n    cout << \"-7 % -3 = \" << -7 % -3 << endl;  // -1\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Integer division truncates toward zero: <code>17/5=3</code>, not 3.4. For float division, at least one operand must be a floating-point type. The modulus result takes the sign of the dividend (left operand) since C++11. <code>-7 % 3 = -1</code> because -7 = (-2)*3 + (-1).",
+        "output": "a + b = 22\na - b = 12\na * b = 85\na / b = 3\na % b = 2\n17 / 5 (int): 3\n17.0 / 5 (double): 3.4\n-7 % 3 = -1\n7 % -3 = 1\n-7 % -3 = -1"
+      },
+      {
+        "title": "Pre-increment vs Post-increment",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int x = 5;\n    int a = ++x;  // Pre: increment first, then assign\n    cout << \"After ++x: x=\" << x << \", a=\" << a << endl;  // x=6, a=6\n\n    int y = 5;\n    int b = y++;  // Post: assign first, then increment\n    cout << \"After y++: y=\" << y << \", b=\" << b << endl;  // y=6, b=5\n\n    // In a standalone statement, both are identical\n    int m = 10;\n    m++;  // m becomes 11\n    ++m;  // m becomes 12\n    cout << \"m = \" << m << endl;\n\n    // Pre-decrement and post-decrement\n    int p = 10;\n    cout << \"--p = \" << --p << endl;  // 9\n    cout << \"p-- = \" << p-- << endl;  // 9 (prints current, then decrements)\n    cout << \"p   = \" << p << endl;    // 8\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>++x</code> increments first, then returns the new value (6). <code>y++</code> returns the current value (5) first, then increments y to 6. This distinction matters in expressions but not in standalone statements. In for loops, <code>i++</code> and <code>++i</code> are functionally identical for primitive types.",
+        "output": "After ++x: x=6, a=6\nAfter y++: y=6, b=5\nm = 12\n--p = 9\np-- = 9\np   = 8"
+      },
+      {
+        "title": "Bitwise Operators",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 5;  // 0101 in binary\n    int b = 3;  // 0011 in binary\n\n    cout << \"a & b  = \" << (a & b) << endl;   // 0001 = 1 (AND)\n    cout << \"a | b  = \" << (a | b) << endl;   // 0111 = 7 (OR)\n    cout << \"a ^ b  = \" << (a ^ b) << endl;   // 0110 = 6 (XOR)\n    cout << \"~a     = \" << (~a) << endl;       // -6 (bitwise NOT)\n    cout << \"a << 1 = \" << (a << 1) << endl;  // 1010 = 10 (left shift)\n    cout << \"a >> 1 = \" << (a >> 1) << endl;  // 0010 = 2 (right shift)\n\n    // Useful bitwise tricks\n    int n = 12;\n    cout << \"\\n--- Bitwise Tricks ---\" << endl;\n    cout << \"Check if \" << n << \" is even: \" << ((n & 1) == 0) << endl;\n    cout << \"Multiply \" << n << \" by 4: \" << (n << 2) << endl;\n    cout << \"Divide \" << n << \" by 2: \" << (n >> 1) << endl;\n\n    // XOR swap\n    int x = 10, y = 20;\n    x ^= y;\n    y ^= x;\n    x ^= y;\n    cout << \"After XOR swap: x=\" << x << \", y=\" << y << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Bitwise AND (<code>&</code>) keeps bits that are 1 in both. OR (<code>|</code>) keeps bits that are 1 in either. XOR (<code>^</code>) keeps bits that differ. Left shift (<code>&lt;&lt;</code>) multiplies by 2^n. Right shift (<code>&gt;&gt;</code>) divides by 2^n. The XOR swap trick swaps two values without a temp variable. <code>n &amp; 1</code> checks the last bit to determine even/odd.",
+        "output": "a & b  = 1\na | b  = 7\na ^ b  = 6\n~a     = -6\na << 1 = 10\na >> 1 = 2\n\n--- Bitwise Tricks ---\nCheck if 12 is even: 1\nMultiply 12 by 4: 48\nDivide 12 by 2: 6\nAfter XOR swap: x=20, y=10"
+      },
+      {
+        "title": "Logical Operators and Short-Circuit Evaluation",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 5, b = 0;\n\n    cout << \"a && b: \" << (a && b) << endl;   // 0 (5 is true, 0 is false)\n    cout << \"a || b: \" << (a || b) << endl;   // 1 (5 is true)\n    cout << \"!a: \" << (!a) << endl;            // 0 (not true = false)\n    cout << \"!b: \" << (!b) << endl;            // 1 (not false = true)\n\n    // Short-circuit demonstration\n    int x = 0;\n    bool result = (x != 0) && (10 / x > 1);  // Safe! 10/x never executes\n    cout << \"Short-circuit AND: \" << result << endl;\n\n    int y = 5;\n    bool result2 = (y > 0) || (10 / 0 > 1);  // Safe! 10/0 never executes\n    cout << \"Short-circuit OR: \" << result2 << endl;\n\n    // Truthiness: any non-zero is true\n    cout << \"\\n(42 && -1): \" << (42 && -1) << endl;    // 1 (both non-zero)\n    cout << \"(0 || 100): \" << (0 || 100) << endl;      // 1 (100 is non-zero)\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Short-circuit evaluation is critical for safety. In <code>(x != 0) &amp;&amp; (10 / x > 1)</code>, if x is 0, the first condition is false and the division is never executed -- preventing a division by zero crash. The same logic applies to null pointer checks: <code>ptr != NULL &amp;&amp; ptr->val</code>.",
+        "output": "a && b: 0\na || b: 1\n!a: 0\n!b: 1\nShort-circuit AND: 0\nShort-circuit OR: 1\n\n(42 && -1): 1\n(0 || 100): 1"
+      },
+      {
+        "title": "Ternary Operator and Comma Operator",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 15, b = 20;\n\n    // Ternary operator\n    int maxVal = (a > b) ? a : b;\n    cout << \"Max of \" << a << \" and \" << b << \": \" << maxVal << endl;\n\n    // Ternary for absolute value\n    int x = -7;\n    int absX = (x >= 0) ? x : -x;\n    cout << \"Absolute value of \" << x << \": \" << absX << endl;\n\n    // Nested ternary (readable version)\n    int marks = 75;\n    string grade = (marks >= 90) ? \"A\" :\n                   (marks >= 80) ? \"B\" :\n                   (marks >= 70) ? \"C\" :\n                   (marks >= 60) ? \"D\" : \"F\";\n    cout << \"Grade for \" << marks << \": \" << grade << endl;\n\n    // Comma operator\n    int y = (1, 2, 3);  // y = 3 (last expression)\n    cout << \"Comma result: \" << y << endl;\n\n    // Comma in for loop\n    for (int i = 0, j = 10; i < j; i++, j--) {\n        cout << \"i=\" << i << \" j=\" << j << \"  \";\n    }\n    cout << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The ternary operator <code>?:</code> is a compact if-else. It returns a value, so it can be used in assignments and expressions. The comma operator evaluates all operands left to right and returns the last one. It is most commonly seen in for loops to update multiple variables.",
+        "output": "Max of 15 and 20: 20\nAbsolute value of -7: 7\nGrade for 75: C\nComma result: 3\ni=0 j=10  i=1 j=9  i=2 j=8  i=3 j=7  i=4 j=6  "
+      },
+      {
+        "title": "Operator Precedence Traps",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    // Trap 1: Bitwise vs relational precedence\n    int x = 5;\n    cout << \"x & 1 == 0: \" << (x & 1 == 0) << endl;      // Parsed as x & (1==0) = 5 & 0 = 0\n    cout << \"(x & 1) == 0: \" << ((x & 1) == 0) << endl;    // Correct: (5 & 1) = 1, 1==0 = false\n\n    // Trap 2: Multiplication before addition\n    cout << \"2 + 3 * 4 = \" << 2 + 3 * 4 << endl;  // 14, not 20\n\n    // Trap 3: Assignment in condition\n    int a = 0;\n    if (a = 5) {  // Assignment, not comparison! a becomes 5, condition is true\n        cout << \"a = 5 was assigned (truthy)\" << endl;\n    }\n\n    // Trap 4: Chained comparisons do not work as expected\n    int val = 5;\n    // This does NOT check if 1 < val < 10\n    cout << \"1 < 5 < 3: \" << (1 < 5 < 3) << endl;  // (true < 3) = (1 < 3) = true!\n    // Correct way:\n    cout << \"1 < val && val < 10: \" << (1 < val && val < 10) << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The most dangerous precedence trap is bitwise operators having lower precedence than relational operators. <code>x & 1 == 0</code> is parsed as <code>x & (1 == 0)</code>, not <code>(x & 1) == 0</code>. Always use parentheses with bitwise operators. Chained comparisons like <code>1 < x < 10</code> do not work in C++ -- they evaluate left to right, giving unexpected results.",
+        "output": "x & 1 == 0: 0\n(x & 1) == 0: 0\n2 + 3 * 4 = 14\na = 5 was assigned (truthy)\n1 < 5 < 3: 1\n1 < val && val < 10: 1"
+      },
+      {
+        "title": "Assignment Operators and sizeof",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int x = 10;\n    cout << \"x = \" << x << endl;\n\n    x += 5;   // x = x + 5\n    cout << \"x += 5: \" << x << endl;   // 15\n\n    x -= 3;   // x = x - 3\n    cout << \"x -= 3: \" << x << endl;   // 12\n\n    x *= 2;   // x = x * 2\n    cout << \"x *= 2: \" << x << endl;   // 24\n\n    x /= 4;   // x = x / 4\n    cout << \"x /= 4: \" << x << endl;   // 6\n\n    x %= 4;   // x = x % 4\n    cout << \"x %= 4: \" << x << endl;   // 2\n\n    x <<= 3;  // x = x << 3 (multiply by 8)\n    cout << \"x <<= 3: \" << x << endl;  // 16\n\n    x >>= 1;  // x = x >> 1 (divide by 2)\n    cout << \"x >>= 1: \" << x << endl;  // 8\n\n    // sizeof as an operator\n    cout << \"\\nsizeof(x): \" << sizeof(x) << endl;\n    cout << \"sizeof(int): \" << sizeof(int) << endl;\n    cout << \"sizeof(x + 1.0): \" << sizeof(x + 1.0) << endl;  // double\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Compound assignment operators combine an operation with assignment. <code>x += 5</code> is shorthand for <code>x = x + 5</code>. Bitwise shift assignments (<code>&lt;&lt;=</code>, <code>&gt;&gt;=</code>) are useful for power-of-2 multiplications. <code>sizeof</code> is an operator (not a function) that returns the size in bytes. It is evaluated at compile time.",
+        "output": "x = 10\nx += 5: 15\nx -= 3: 12\nx *= 2: 24\nx /= 4: 6\nx %= 4: 2\nx <<= 3: 16\nx >>= 1: 8\n\nsizeof(x): 4\nsizeof(int): 4\nsizeof(x + 1.0): 8"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Bitwise Operator Precedence Trap",
+        "wrongCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int x = 6;\n    if (x & 1 == 0) {\n        cout << \"Even\" << endl;\n    } else {\n        cout << \"Odd\" << endl;\n    }\n    return 0;\n}",
+        "error": "Prints 'Odd' even though 6 is even. The expression is parsed as x & (1 == 0) = 6 & 0 = 0 (false).",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int x = 6;\n    if ((x & 1) == 0) {\n        cout << \"Even\" << endl;\n    } else {\n        cout << \"Odd\" << endl;\n    }\n    return 0;\n}",
+        "explanation": "The <code>==</code> operator has higher precedence than <code>&</code>. So <code>x & 1 == 0</code> is parsed as <code>x & (1 == 0)</code> = <code>x & 0</code> = 0. Always wrap bitwise operations in parentheses when comparing: <code>(x & 1) == 0</code>."
+      },
+      {
+        "title": "Using = Instead of == in Conditions",
+        "wrongCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int x = 5;\n    if (x = 10) {  // Assignment, not comparison!\n        cout << \"x is 10\" << endl;\n    }\n    return 0;\n}",
+        "error": "Always prints 'x is 10' because x=10 assigns 10 and returns 10 (truthy). No compiler error.",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int x = 5;\n    if (x == 10) {  // Comparison\n        cout << \"x is 10\" << endl;\n    }\n    return 0;\n}",
+        "explanation": "Single <code>=</code> is assignment, double <code>==</code> is comparison. The assignment <code>x = 10</code> sets x to 10 and returns 10, which is truthy. Compile with <code>-Wall</code> to get a warning about this. Some programmers use Yoda conditions (<code>10 == x</code>) to catch this."
+      },
+      {
+        "title": "Integer Division When Expecting Float Result",
+        "wrongCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int total = 7;\n    int count = 2;\n    double average = total / count;\n    cout << \"Average: \" << average << endl;\n    return 0;\n}",
+        "error": "Prints 3 instead of 3.5. The division is done in int first, then converted to double.",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int total = 7;\n    int count = 2;\n    double average = static_cast<double>(total) / count;\n    cout << \"Average: \" << average << endl;\n    return 0;\n}",
+        "explanation": "When both operands of <code>/</code> are <code>int</code>, integer division is performed, giving 3. The 3 is then stored as 3.0 in the double. To get 3.5, cast at least one operand to <code>double</code> before dividing."
+      },
+      {
+        "title": "Confusing Pre-increment and Post-increment in Expressions",
+        "wrongCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int x = 5;\n    int y = x++;  // Programmer expected y to be 6\n    cout << \"y = \" << y << endl;  // Prints 5, not 6!\n    return 0;\n}",
+        "error": "y is 5, not 6. Post-increment returns the old value.",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int x = 5;\n    int y = ++x;  // Pre-increment: increment first, then assign\n    cout << \"y = \" << y << endl;  // Prints 6\n    return 0;\n}",
+        "explanation": "<code>x++</code> returns the current value of x (5), then increments x to 6. The assignment captures the old value. <code>++x</code> increments first (x becomes 6), then returns 6. Use pre-increment when you need the updated value in the same expression."
+      }
+    ],
+    "summary": [
+      "Arithmetic operators: + - * / %. Integer division truncates toward zero. 7/2 is 3, -7/2 is -3. Use casting for float division.",
+      "Modulus with negatives: result takes the sign of the dividend (left operand). -7 % 3 = -1, 7 % -3 = 1.",
+      "Relational operators (== != < > <= >=) return bool (0 or 1). Do not chain comparisons: 1 < x < 10 does not work as expected.",
+      "Logical operators (&&, ||, !) use short-circuit evaluation. In a && b, if a is false, b is not evaluated. This is used for safe null/boundary checks.",
+      "Bitwise operators (& | ^ ~ << >>) operate on individual bits. & checks even/odd (n & 1), << multiplies by 2^n, >> divides by 2^n.",
+      "Pre-increment (++x) increments then returns new value. Post-increment (x++) returns current value then increments. In standalone statements, both are equivalent.",
+      "Ternary operator: condition ? value_if_true : value_if_false. Compact alternative to if-else for simple cases.",
+      "The comma operator evaluates all operands left to right and returns the last one. Most common in for loops with multiple variables.",
+      "Critical precedence trap: bitwise operators (& | ^) have lower precedence than relational (== !=). Always parenthesize: (x & 1) == 0, not x & 1 == 0.",
+      "sizeof is an operator (not a function) evaluated at compile time. sizeof(x + 1.0) returns 8 because the expression type is double."
+    ]
+  },
+  "relatedTopics": ["variables-and-data-types", "input-output-and-formatting"],
+  "practice": {
+    "totalQuestions": 57,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; 10 + 3 &lt;&lt; endl;\n    cout &lt;&lt; 10 - 3 &lt;&lt; endl;\n    cout &lt;&lt; 10 * 3 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Basic arithmetic operations.",
+        "answer": "<code>13</code><br><code>7</code><br><code>30</code>",
+        "explanation": "Simple arithmetic: 10+3=13, 10-3=7, 10*3=30. No surprises here."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; 17 / 5 &lt;&lt; endl;\n    cout &lt;&lt; 17 % 5 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Integer division truncates. Modulus gives remainder.",
+        "answer": "<code>3</code><br><code>2</code>",
+        "explanation": "<code>17 / 5 = 3</code> (truncated, not 3.4). <code>17 % 5 = 2</code> (remainder: 17 = 3*5 + 2)."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; (10 &gt; 5) &lt;&lt; endl;\n    cout &lt;&lt; (10 == 5) &lt;&lt; endl;\n    cout &lt;&lt; (10 != 5) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Relational operators return 1 (true) or 0 (false).",
+        "answer": "<code>1</code><br><code>0</code><br><code>1</code>",
+        "explanation": "<code>10 > 5</code> is true (1). <code>10 == 5</code> is false (0). <code>10 != 5</code> is true (1)."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = 5;\n    x += 3;\n    cout &lt;&lt; x &lt;&lt; endl;\n    x *= 2;\n    cout &lt;&lt; x &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "+= adds and assigns, *= multiplies and assigns.",
+        "answer": "<code>8</code><br><code>16</code>",
+        "explanation": "<code>x += 3</code> makes x = 5+3 = 8. Then <code>x *= 2</code> makes x = 8*2 = 16."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 10;\n    cout &lt;&lt; ++a &lt;&lt; endl;\n    cout &lt;&lt; a &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Pre-increment: increment first, then use the value.",
+        "answer": "<code>11</code><br><code>11</code>",
+        "explanation": "<code>++a</code> increments a to 11, then returns 11 for printing. The second <code>cout</code> also prints 11 since a is now 11."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 10;\n    cout &lt;&lt; a++ &lt;&lt; endl;\n    cout &lt;&lt; a &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Post-increment: use the value first, then increment.",
+        "answer": "<code>10</code><br><code>11</code>",
+        "explanation": "<code>a++</code> returns the current value of a (10) for printing, then increments a to 11. The second line prints 11."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; -7 % 3 &lt;&lt; endl;\n    cout &lt;&lt; 7 % -3 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "In C++11, the result of % takes the sign of the left operand.",
+        "answer": "<code>-1</code><br><code>1</code>",
+        "explanation": "Since C++11, the modulus result takes the sign of the dividend (left operand). <code>-7 % 3 = -1</code> (negative left). <code>7 % -3 = 1</code> (positive left)."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 5, b = 3;\n    cout &lt;&lt; (a &amp; b) &lt;&lt; endl;\n    cout &lt;&lt; (a | b) &lt;&lt; endl;\n    cout &lt;&lt; (a ^ b) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Convert to binary: 5 = 0101, 3 = 0011.",
+        "answer": "<code>1</code><br><code>7</code><br><code>6</code>",
+        "explanation": "In binary: 5=0101, 3=0011. AND: 0001=1. OR: 0111=7. XOR: 0110=6."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; (1 &lt;&lt; 3) &lt;&lt; endl;\n    cout &lt;&lt; (16 &gt;&gt; 2) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Left shift multiplies by 2^n. Right shift divides by 2^n.",
+        "answer": "<code>8</code><br><code>4</code>",
+        "explanation": "<code>1 &lt;&lt; 3</code> = 1 * 2^3 = 8. <code>16 &gt;&gt; 2</code> = 16 / 2^2 = 4. Shift operators are fast alternatives to multiplication and division by powers of 2."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = 5;\n    cout &lt;&lt; (x &gt; 3 ? \"Yes\" : \"No\") &lt;&lt; endl;\n    cout &lt;&lt; (x &gt; 10 ? \"Yes\" : \"No\") &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Ternary operator: condition ? true_value : false_value.",
+        "answer": "<code>Yes</code><br><code>No</code>",
+        "explanation": "First ternary: 5 > 3 is true, so \"Yes\". Second: 5 > 10 is false, so \"No\"."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = 5;\n    cout &lt;&lt; (x &amp; 1 == 0) &lt;&lt; endl;\n    cout &lt;&lt; ((x &amp; 1) == 0) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "== has higher precedence than &.",
+        "answer": "<code>0</code><br><code>0</code>",
+        "explanation": "First: <code>x & 1 == 0</code> is parsed as <code>x & (1 == 0)</code> = <code>5 & 0</code> = 0. Second: <code>(x & 1) == 0</code> = <code>(5 & 1) == 0</code> = <code>1 == 0</code> = 0. Both give 0 but for different reasons. 5 is odd, so (5 & 1) is 1."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 3;\n    int b = (a++, ++a, a + 10);\n    cout &lt;&lt; a &lt;&lt; \" \" &lt;&lt; b &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Comma operator evaluates all operands left to right, returns the last.",
+        "answer": "<code>5 15</code>",
+        "explanation": "Step by step: <code>a++</code> returns 3 but a becomes 4. <code>++a</code> increments a to 5 and returns 5. <code>a + 10</code> = 15. The comma operator returns the last value, so b = 15. a is 5."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between <code>/</code> and <code>%</code> operators?",
+        "hint": "One gives the quotient, the other gives the remainder.",
+        "answer": "<code>/</code> gives the quotient (result of division). <code>%</code> gives the remainder. For <code>17 / 5</code>: quotient = 3, remainder = 2. The identity is: <code>a == (a/b)*b + (a%b)</code>.",
+        "explanation": "Integer division truncates toward zero. Modulus gives the remainder. Together they satisfy the mathematical relationship: dividend = quotient * divisor + remainder."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is short-circuit evaluation? Why is it useful?",
+        "hint": "What happens to the right operand when the left operand determines the result?",
+        "answer": "In <code>a &amp;&amp; b</code>, if <code>a</code> is false, <code>b</code> is not evaluated (result must be false). In <code>a || b</code>, if <code>a</code> is true, <code>b</code> is not evaluated (result must be true). This is useful for safety: <code>ptr != NULL &amp;&amp; ptr-&gt;val == 5</code> prevents accessing a null pointer.",
+        "explanation": "Short-circuit evaluation is a correctness tool, not just a performance optimization. It allows you to write safe compound conditions where the second check depends on the first being true."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 0;\n    int b = (a++ || ++a);\n    cout &lt;&lt; a &lt;&lt; \" \" &lt;&lt; b &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "a++ returns 0 (falsy), so the right side of || must be evaluated.",
+        "answer": "<code>2 1</code>",
+        "explanation": "<code>a++</code> returns 0 (a becomes 1). Since 0 is falsy, the right side of <code>||</code> is evaluated. <code>++a</code> increments a from 1 to 2 and returns 2 (truthy). The <code>||</code> result is 1 (true). So a=2, b=1."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is <code>x ^ x</code> always 0 and <code>x ^ 0</code> always x? How is this used in competitive programming?",
+        "hint": "Think about what XOR does to identical bits.",
+        "answer": "XOR of identical bits gives 0 (1^1=0, 0^0=0), so <code>x ^ x = 0</code>. XOR with 0 leaves each bit unchanged (1^0=1, 0^0=0), so <code>x ^ 0 = x</code>. In CP, this is used to find the single unique element in an array where every other element appears twice: XOR all elements and pairs cancel out.",
+        "explanation": "The classic problem: given an array where every element appears twice except one, find the unique element. XOR all elements: duplicates cancel (<code>a ^ a = 0</code>) and the unique element remains (<code>0 ^ x = x</code>). O(n) time, O(1) space."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; (1 &lt; 5 &lt; 3) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "C++ does not support chained comparisons like Python.",
+        "answer": "<code>1</code>",
+        "explanation": "<code>1 < 5</code> evaluates to <code>true</code> (1). Then <code>1 < 3</code> evaluates to <code>true</code> (1). This is NOT checking if 5 is between 1 and 3. Correct way: <code>1 < x && x < 3</code>."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; (~0) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "~0 flips all bits. In two's complement, what is that?",
+        "answer": "<code>-1</code>",
+        "explanation": "<code>~0</code> flips all bits of 0 (all zeros become all ones). In two's complement representation, all bits set to 1 is -1. This is true regardless of int size."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = 10;\n    cout &lt;&lt; !x &lt;&lt; endl;\n    cout &lt;&lt; !!x &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "! converts non-zero to 0 and 0 to 1.",
+        "answer": "<code>0</code><br><code>1</code>",
+        "explanation": "<code>!10</code> = 0 (NOT of any non-zero value is 0). <code>!!10</code> = <code>!0</code> = 1. Double negation <code>!!</code> converts any value to its boolean equivalent (0 or 1)."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 6;\n    cout &lt;&lt; (a &amp; 1) &lt;&lt; endl;\n    a = 7;\n    cout &lt;&lt; (a &amp; 1) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "& 1 checks the last bit. Even numbers have last bit 0, odd have 1.",
+        "answer": "<code>0</code><br><code>1</code>",
+        "explanation": "6 in binary is 110 -- last bit is 0, so <code>6 & 1 = 0</code> (even). 7 in binary is 111 -- last bit is 1, so <code>7 & 1 = 1</code> (odd). This is the fastest way to check even/odd."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 20, b = 3;\n    cout &lt;&lt; a / b &lt;&lt; \" \" &lt;&lt; a % b &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "20 divided by 3 gives quotient 6 and remainder 2.",
+        "answer": "<code>6 2</code>",
+        "explanation": "<code>20 / 3 = 6</code> (integer division truncates). <code>20 % 3 = 2</code> (remainder: 20 = 6*3 + 2)."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; (5 &gt; 3 &amp;&amp; 2 &lt; 4) &lt;&lt; endl;\n    cout &lt;&lt; (5 &gt; 3 &amp;&amp; 2 &gt; 4) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "&& is true only when both operands are true.",
+        "answer": "<code>1</code><br><code>0</code>",
+        "explanation": "First: both <code>5 > 3</code> (true) and <code>2 < 4</code> (true) are true, so AND is true (1). Second: <code>2 > 4</code> is false, so AND is false (0)."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = 5;\n    int a = x++;\n    int b = ++x;\n    cout &lt;&lt; a &lt;&lt; \" \" &lt;&lt; b &lt;&lt; \" \" &lt;&lt; x &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Track x: starts at 5, post-increment, then pre-increment.",
+        "answer": "<code>5 7 7</code>",
+        "explanation": "<code>x++</code>: a gets 5, x becomes 6. <code>++x</code>: x becomes 7, b gets 7. Final: a=5, b=7, x=7."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 12, b = 5;\n    int max = (a &gt; b) ? a : b;\n    int min = (a &lt; b) ? a : b;\n    cout &lt;&lt; max &lt;&lt; \" \" &lt;&lt; min &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Ternary operator selects based on condition.",
+        "answer": "<code>12 5</code>",
+        "explanation": "<code>a > b</code> is true (12 > 5), so max = a = 12. <code>a < b</code> is false, so min = b = 5."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int n = 7;\n    cout &lt;&lt; (n ^ n) &lt;&lt; endl;\n    cout &lt;&lt; (n ^ 0) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "XOR of a number with itself is 0. XOR with 0 is the number itself.",
+        "answer": "<code>0</code><br><code>7</code>",
+        "explanation": "<code>n ^ n = 0</code> (every bit cancels: 1^1=0, 0^0=0). <code>n ^ 0 = n</code> (XOR with 0 leaves bits unchanged). These are fundamental XOR properties."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = 10;\n    int y = 20;\n    x ^= y;\n    y ^= x;\n    x ^= y;\n    cout &lt;&lt; x &lt;&lt; \" \" &lt;&lt; y &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "This is the XOR swap algorithm.",
+        "answer": "<code>20 10</code>",
+        "explanation": "XOR swap: After <code>x ^= y</code>, x holds x^y. After <code>y ^= x</code>, y holds y^(x^y) = x. After <code>x ^= y</code>, x holds (x^y)^x = y. The values are swapped without a temp variable."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that reads two integers and prints which one is larger using the ternary operator. If they are equal, print \"Equal\".",
+        "hint": "Use nested ternary: (a > b) ? ... : (a < b) ? ... : \"Equal\"",
+        "answer": "<pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a, b;\n    cin &gt;&gt; a &gt;&gt; b;\n    cout &lt;&lt; ((a &gt; b) ? \"First is larger\" : (a &lt; b) ? \"Second is larger\" : \"Equal\") &lt;&lt; endl;\n    return 0;\n}</code></pre>\nInput: 7 3\nOutput: First is larger",
+        "explanation": "The nested ternary first checks if a > b. If not, it checks if a < b. If neither, they are equal."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 5;\n    cout &lt;&lt; (a &lt;&lt; 1) &lt;&lt; endl;\n    cout &lt;&lt; (a &lt;&lt; 2) &lt;&lt; endl;\n    cout &lt;&lt; (a &lt;&lt; 3) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Left shift by n multiplies by 2^n.",
+        "answer": "<code>10</code><br><code>20</code><br><code>40</code>",
+        "explanation": "<code>5 &lt;&lt; 1</code> = 5 * 2^1 = 10. <code>5 &lt;&lt; 2</code> = 5 * 2^2 = 20. <code>5 &lt;&lt; 3</code> = 5 * 2^3 = 40."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program that checks if a given integer is a power of 2 using bitwise operators only (no loops or division).",
+        "hint": "A power of 2 has exactly one bit set. n & (n-1) clears the lowest set bit.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int n;\n    cin &gt;&gt; n;\n    if (n &gt; 0 &amp;&amp; (n &amp; (n - 1)) == 0) {\n        cout &lt;&lt; n &lt;&lt; \" is a power of 2\" &lt;&lt; endl;\n    } else {\n        cout &lt;&lt; n &lt;&lt; \" is NOT a power of 2\" &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>\nInput: 16\nOutput: 16 is a power of 2",
+        "explanation": "A power of 2 has exactly one bit set (e.g., 16 = 10000). <code>n - 1</code> flips all bits below and including that bit (15 = 01111). <code>n & (n-1)</code> = 0 only for powers of 2. The <code>n > 0</code> check handles 0 and negatives."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = 2;\n    int y = (x *= 3, x += 2, x);\n    cout &lt;&lt; x &lt;&lt; \" \" &lt;&lt; y &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Comma operator: evaluate all, return the last.",
+        "answer": "<code>8 8</code>",
+        "explanation": "<code>x *= 3</code>: x becomes 6. <code>x += 2</code>: x becomes 8. The comma operator returns the last value: x = 8. So y = 8."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "How do you check if a number is even or odd using bitwise operators?",
+        "hint": "Even numbers have their last bit as 0.",
+        "answer": "Use <code>(n &amp; 1)</code>. If the result is 0, n is even. If the result is 1, n is odd. This works because the last bit of any integer determines its parity. <code>n &amp; 1</code> isolates the last bit.",
+        "explanation": "This is faster than <code>n % 2 == 0</code> (though modern compilers optimize both to the same machine code). In competitive programming, <code>n & 1</code> is the idiomatic way to check parity."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; sizeof(3 + 4) &lt;&lt; endl;\n    cout &lt;&lt; sizeof(3 + 4.0) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "3+4 is int. 3+4.0 promotes to double.",
+        "answer": "<code>4</code><br><code>8</code>",
+        "explanation": "<code>3 + 4</code>: both int, result is int (4 bytes). <code>3 + 4.0</code>: 4.0 is double, so 3 is promoted to double, result is double (8 bytes). sizeof evaluates the type, not the value."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the result of <code>17 / 5</code> in C++ when both operands are int?",
+        "options": {
+          "A": "3",
+          "B": "3.4",
+          "C": "4",
+          "D": "3.0"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> Integer division truncates the decimal part. 17 / 5 = 3 with remainder 2. The .4 is discarded."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which operator is used to find the remainder in C++?",
+        "options": {
+          "A": "/",
+          "B": "%",
+          "C": "\\",
+          "D": "mod"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>%</code> operator (modulus) returns the remainder of integer division. <code>17 % 5 = 2</code>."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does the <code>&&</code> operator do in C++?",
+        "options": {
+          "A": "Bitwise AND",
+          "B": "Logical AND",
+          "C": "Address-of",
+          "D": "Reference"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&&</code> is logical AND. <code>&</code> (single ampersand) is bitwise AND. <code>&</code> is also the address-of operator in pointer contexts."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the output of <code>cout << (10 > 5);</code>?",
+        "options": {
+          "A": "true",
+          "B": "1",
+          "C": "10",
+          "D": "5"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Relational operators return a <code>bool</code>. By default, <code>cout</code> prints bool values as integers: true = 1, false = 0."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does the ternary operator <code>?:</code> do?",
+        "options": {
+          "A": "Declares three variables",
+          "B": "Loops three times",
+          "C": "Returns one of two values based on a condition",
+          "D": "Performs three operations"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>condition ? value_if_true : value_if_false</code> evaluates the condition and returns one of two values. It is a compact if-else expression."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the value of <code>-7 % 3</code> in C++11?",
+        "options": {
+          "A": "2",
+          "B": "-2",
+          "C": "1",
+          "D": "-1"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> In C++11 and later, the result of <code>%</code> takes the sign of the left operand (dividend). Since -7 is negative, the result is -1. Verify: -7 = (-2)*3 + (-1)."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>++x</code> and <code>x++</code>?",
+        "options": {
+          "A": "No difference",
+          "B": "++x increments first then returns new value; x++ returns current value then increments",
+          "C": "x++ increments by 2",
+          "D": "++x can only be used with int"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Pre-increment (<code>++x</code>) increments first, then returns the new value. Post-increment (<code>x++</code>) saves the current value, increments, then returns the saved (old) value."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is <code>5 & 3</code>?",
+        "options": {
+          "A": "1",
+          "B": "7",
+          "C": "6",
+          "D": "8"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> 5 = 0101, 3 = 0011. Bitwise AND: 0001 = 1. Each bit is 1 only if both corresponding bits are 1."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is <code>1 << 10</code>?",
+        "options": {
+          "A": "10",
+          "B": "100",
+          "C": "1024",
+          "D": "512"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>1 &lt;&lt; 10</code> = 1 * 2^10 = 1024. Left shifting 1 by n positions gives 2^n."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "In the expression <code>a & b == 0</code>, which operator is evaluated first?",
+        "options": {
+          "A": "& (bitwise AND)",
+          "B": "== (equality)",
+          "C": "Both have equal precedence",
+          "D": "It depends on the compiler"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>==</code> has higher precedence than <code>&</code>. So <code>a & b == 0</code> is parsed as <code>a & (b == 0)</code>, not <code>(a & b) == 0</code>. This is a notorious C++ precedence trap."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is <code>~0</code> in C++ (assuming 32-bit int)?",
+        "options": {
+          "A": "0",
+          "B": "1",
+          "C": "-1",
+          "D": "2147483647"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>~0</code> flips all bits: 00...00 becomes 11...11. In two's complement, all bits set to 1 represents -1. This is true regardless of int size."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What does <code>n & (n - 1)</code> do?",
+        "options": {
+          "A": "Checks if n is odd",
+          "B": "Returns n-1",
+          "C": "Clears the lowest set bit of n",
+          "D": "Sets all bits of n"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>n & (n-1)</code> clears the lowest (rightmost) set bit of n. For example, 12 (1100) & 11 (1011) = 8 (1000). This is used to check if n is a power of 2: if <code>n & (n-1) == 0</code> and n > 0, then n is a power of 2."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the result of <code>int x = (2, 3, 5);</code>?",
+        "options": {
+          "A": "2",
+          "B": "3",
+          "C": "5",
+          "D": "Compilation error"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The comma operator evaluates all operands left to right and returns the value of the last operand. So <code>(2, 3, 5)</code> evaluates 2, then 3, then returns 5."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the output of the following?<br><code>int a = 5; cout << (a++ + ++a);</code>",
+        "options": {
+          "A": "11",
+          "B": "12",
+          "C": "10",
+          "D": "Undefined behavior"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> Modifying a variable more than once in the same expression without an intervening sequence point is <strong>undefined behavior</strong> in C++. The compiler can produce any result. Never write expressions like <code>a++ + ++a</code>."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Which of the following correctly checks if bit position k (0-indexed from right) is set in integer n?",
+        "options": {
+          "A": "n & k",
+          "B": "n & (1 << k)",
+          "C": "n | (1 << k)",
+          "D": "n ^ (1 << k)"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>1 &lt;&lt; k</code> creates a mask with only bit k set. <code>n & (1 &lt;&lt; k)</code> isolates bit k. If the result is non-zero, bit k is set. Option A checks if any common bits exist between n and k. Option C sets bit k. Option D toggles bit k."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What is the result of <code>10 % 3</code>?",
+        "options": {
+          "A": "3",
+          "B": "1",
+          "C": "0",
+          "D": "3.33"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>10 % 3 = 1</code> because 10 = 3*3 + 1. The modulus operator returns the remainder of integer division."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "What is the value of <code>5 | 3</code>?",
+        "options": {
+          "A": "1",
+          "B": "6",
+          "C": "7",
+          "D": "8"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> 5 = 0101, 3 = 0011. Bitwise OR: 0111 = 7. Each bit is 1 if either corresponding bit is 1."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What does short-circuit evaluation mean for <code>false && someFunction()</code>?",
+        "options": {
+          "A": "someFunction() is always called",
+          "B": "someFunction() is never called",
+          "C": "The result is true",
+          "D": "Compilation error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> With <code>&&</code>, if the left operand is false, the entire expression must be false regardless of the right operand. So <code>someFunction()</code> is never called. This is short-circuit evaluation."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "What is the output of <code>cout << (true + true + false);</code>?",
+        "options": {
+          "A": "2",
+          "B": "true",
+          "C": "1",
+          "D": "Compilation error"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> In arithmetic expressions, <code>true</code> is promoted to 1 and <code>false</code> to 0. So <code>1 + 1 + 0 = 2</code>."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Swap Two Numbers Without Temp Variable",
+        "difficulty": "Easy",
+        "description": "Write a C++ program that reads two integers and swaps them using the XOR swap technique (no temporary variable, no arithmetic swap). Print the values before and after swapping.",
+        "sampleInput": "10 20",
+        "sampleOutput": "Before: a=10, b=20\nAfter: a=20, b=10",
+        "constraints": "Do not use a third variable. Use only XOR (^) operations.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int a, b;\n    cin >> a >> b;\n    cout << \"Before: a=\" << a << \", b=\" << b << endl;\n    a ^= b;\n    b ^= a;\n    a ^= b;\n    cout << \"After: a=\" << a << \", b=\" << b << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Bit Counter",
+        "difficulty": "Medium",
+        "description": "Write a program that reads a non-negative integer and counts the number of 1-bits (set bits) in its binary representation using n & (n-1) technique. Also print the binary representation.",
+        "sampleInput": "13",
+        "sampleOutput": "Binary of 13: 1101\nNumber of set bits: 3",
+        "constraints": "Use the n & (n-1) trick to count bits. Print binary by checking each bit from MSB to LSB.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int n;\n    cin >> n;\n    int original = n;\n    \n    // Print binary\n    cout << \"Binary of \" << original << \": \";\n    bool started = false;\n    for (int i = 31; i >= 0; i--) {\n        if (n & (1 << i)) {\n            started = true;\n            cout << 1;\n        } else if (started) {\n            cout << 0;\n        }\n    }\n    if (!started) cout << 0;\n    cout << endl;\n    \n    // Count set bits\n    int count = 0;\n    int temp = original;\n    while (temp) {\n        temp = temp & (temp - 1);\n        count++;\n    }\n    cout << \"Number of set bits: \" << count << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "All Operators Calculator",
+        "difficulty": "Easy",
+        "description": "Write a program that reads two integers a and b, then prints the result of all arithmetic operations (+, -, *, /, %), all relational comparisons (==, !=, <, >, <=, >=), and the bitwise AND, OR, XOR.",
+        "sampleInput": "15 4",
+        "sampleOutput": "15 + 4 = 19\n15 - 4 = 11\n15 * 4 = 60\n15 / 4 = 3\n15 % 4 = 3\n15 == 4: 0\n15 != 4: 1\n15 < 4: 0\n15 > 4: 1\n15 <= 4: 0\n15 >= 4: 1\n15 & 4 = 4\n15 | 4 = 15\n15 ^ 4 = 11",
+        "constraints": "Handle all operators. Print results clearly with labels.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int a, b;\n    cin >> a >> b;\n    cout << a << \" + \" << b << \" = \" << a + b << endl;\n    cout << a << \" - \" << b << \" = \" << a - b << endl;\n    cout << a << \" * \" << b << \" = \" << a * b << endl;\n    cout << a << \" / \" << b << \" = \" << a / b << endl;\n    cout << a << \" % \" << b << \" = \" << a % b << endl;\n    cout << a << \" == \" << b << \": \" << (a == b) << endl;\n    cout << a << \" != \" << b << \": \" << (a != b) << endl;\n    cout << a << \" < \" << b << \": \" << (a < b) << endl;\n    cout << a << \" > \" << b << \": \" << (a > b) << endl;\n    cout << a << \" <= \" << b << \": \" << (a <= b) << endl;\n    cout << a << \" >= \" << b << \": \" << (a >= b) << endl;\n    cout << a << \" & \" << b << \" = \" << (a & b) << endl;\n    cout << a << \" | \" << b << \" = \" << (a | b) << endl;\n    cout << a << \" ^ \" << b << \" = \" << (a ^ b) << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Find Unique Element (XOR)",
+        "difficulty": "Medium",
+        "description": "Write a program that reads n integers where every element appears exactly twice except one element which appears once. Find the unique element using XOR. Input: first line is n, second line has n space-separated integers.",
+        "sampleInput": "5\n2 3 5 3 2",
+        "sampleOutput": "Unique element: 5",
+        "constraints": "O(n) time, O(1) space. Use the property that a ^ a = 0 and a ^ 0 = a.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int n;\n    cin >> n;\n    int result = 0;\n    for (int i = 0; i < n; i++) {\n        int x;\n        cin >> x;\n        result ^= x;\n    }\n    cout << \"Unique element: \" << result << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Precedence Demonstrator",
+        "difficulty": "Hard",
+        "description": "Write a program that demonstrates 5 operator precedence traps. For each, show the expression, the result with default precedence, and the result with explicit parentheses. Include: bitwise vs relational, multiplication vs addition, logical vs bitwise, shift vs addition, and assignment in condition.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Trap 1: x & 1 == 0  => 0 (parsed as x & (1==0))\nTrap 1: (x & 1) == 0 => 1 (correct)\n...",
+        "constraints": "Use specific examples with actual values. Explain each trap in output.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int x = 6;\n    cout << \"Trap 1: x=6, x & 1 == 0  => \" << (x & 1 == 0) << \" (parsed as x & (1==0))\" << endl;\n    cout << \"Trap 1: x=6, (x & 1) == 0 => \" << ((x & 1) == 0) << \" (correct: 6 is even)\" << endl;\n    \n    cout << \"Trap 2: 2 + 3 * 4 = \" << 2 + 3 * 4 << \" (not 20)\" << endl;\n    cout << \"Trap 2: (2 + 3) * 4 = \" << (2 + 3) * 4 << \" (correct if you want 20)\" << endl;\n    \n    cout << \"Trap 3: 1 << 2 + 1 = \" << (1 << 2 + 1) << \" (parsed as 1 << (2+1) = 8)\" << endl;\n    cout << \"Trap 3: (1 << 2) + 1 = \" << ((1 << 2) + 1) << \" (correct: 5)\" << endl;\n    \n    cout << \"Trap 4: 1 < 5 < 3 = \" << (1 < 5 < 3) << \" (parsed as (1<5) < 3 = 1 < 3 = true)\" << endl;\n    int val = 5;\n    cout << \"Trap 4: 1 < val && val < 3 = \" << (1 < val && val < 3) << \" (correct: false)\" << endl;\n    \n    cout << \"Trap 5: 3 | 4 == 4 = \" << (3 | 4 == 4) << \" (parsed as 3 | (4==4) = 3 | 1 = 3)\" << endl;\n    cout << \"Trap 5: (3 | 4) == 4 = \" << ((3 | 4) == 4) << \" (correct: 7 == 4 = false)\" << endl;\n    \n    return 0;\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Power of 2 Checker with Bit Position",
+        "difficulty": "Medium",
+        "description": "Write a program that reads an integer n. If n is a power of 2, print which power it is (e.g., 16 is 2^4). If not, print the nearest lower and higher powers of 2. Use bitwise operators only.",
+        "sampleInput": "16",
+        "sampleOutput": "16 is 2^4",
+        "constraints": "Use n & (n-1) to check power of 2. Use bit shifting to find the power.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int n;\n    cin >> n;\n    if (n > 0 && (n & (n - 1)) == 0) {\n        int power = 0;\n        int temp = n;\n        while (temp > 1) {\n            temp >>= 1;\n            power++;\n        }\n        cout << n << \" is 2^\" << power << endl;\n    } else {\n        int lower = 1, upper = 1;\n        int lp = 0, up = 0;\n        while (lower * 2 < n) {\n            lower <<= 1;\n            lp++;\n        }\n        upper = lower << 1;\n        up = lp + 1;\n        cout << n << \" is NOT a power of 2\" << endl;\n        cout << \"Lower: 2^\" << lp << \" = \" << lower << endl;\n        cout << \"Upper: 2^\" << up << \" = \" << upper << endl;\n    }\n    return 0;\n}"
+      }
+    ]
+  }
+}

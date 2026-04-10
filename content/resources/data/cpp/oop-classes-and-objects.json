@@ -1,0 +1,469 @@
+{
+  "title": "OOP - Classes, Objects, and Constructors in C++",
+  "slug": "oop-classes-and-objects",
+  "language": "cpp",
+  "chapter": 13,
+  "difficulty": "Intermediate",
+  "readingTime": "40 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 60,
+  "seo": {
+    "title": "Classes and Objects in C++ - Constructors, Destructors, this Pointer, Static Members | Modern Age Coders",
+    "description": "Learn C++ OOP including classes, objects, constructors (default, parameterized, copy), destructors, initializer lists, this pointer, static members, const member functions, and sizeof with classes. Includes 60+ practice questions with output prediction and coding challenges.",
+    "keywords": "c++ classes and objects, c++ constructor, c++ destructor, c++ copy constructor, c++ this pointer, c++ static members, c++ initializer list, c++ OOP, c++ class vs struct, c++ constructor overloading interview questions"
+  },
+  "content": {
+    "what": "<h2>What Are Classes and Objects in C++?</h2><p><strong>Object-Oriented Programming (OOP)</strong> is a programming paradigm built around four pillars: <strong>Encapsulation</strong>, <strong>Abstraction</strong>, <strong>Inheritance</strong>, and <strong>Polymorphism</strong>. C++ was one of the first languages to bring OOP to systems programming.</p><p>A <strong>class</strong> is a user-defined data type that bundles data (member variables) and functions (member functions or methods) that operate on that data. Think of a class as a blueprint -- it defines what an object will look like and what it can do.</p><p>An <strong>object</strong> is an instance of a class. If <code>Student</code> is a class (blueprint), then <code>rahul</code> and <code>priya</code> are objects (actual students created from that blueprint).</p><h3>Creating a Class</h3><pre><code>class Student {\npublic:\n    string name;       // data member\n    int rollNo;        // data member\n\n    void display() {   // member function\n        cout << name << \" - \" << rollNo << endl;\n    }\n};</code></pre><h3>Creating Objects</h3><pre><code>Student s1;              // create an object\ns1.name = \"Rahul\";       // access member with dot operator\ns1.rollNo = 101;\ns1.display();            // call member function</code></pre><h3>class vs struct in C++</h3><p>In C++, <code>class</code> and <code>struct</code> are almost identical. The only difference is the <strong>default access specifier</strong>: members of a <code>class</code> are <code>private</code> by default, while members of a <code>struct</code> are <code>public</code> by default. In practice, <code>struct</code> is typically used for simple data holders, and <code>class</code> for objects with behavior.</p>",
+    "why": "<h2>Why Are Classes and Objects Important?</h2><h3>1. Organize Complex Code</h3><p>Without OOP, a large program is a collection of functions and global variables. With classes, related data and behavior are bundled together. A <code>BankAccount</code> class keeps <code>balance</code>, <code>deposit()</code>, and <code>withdraw()</code> in one place instead of scattered across the codebase.</p><h3>2. Data Protection</h3><p>Access specifiers (<code>private</code>, <code>public</code>, <code>protected</code>) control who can access what. You can hide internal implementation details and expose only a clean interface. This prevents accidental corruption of data and makes code easier to maintain.</p><h3>3. Constructors Ensure Valid State</h3><p>A constructor runs automatically when an object is created, ensuring that every object starts in a valid state. Without constructors, programmers must remember to call an initialization function manually -- a common source of bugs.</p><h3>4. Destructors Prevent Resource Leaks</h3><p>A destructor runs automatically when an object is destroyed, cleaning up resources (memory, files, network connections). Combined with RAII, this makes C++ resource management both safe and automatic.</p><h3>5. Interview and Placement Essential</h3><p>Constructor and destructor call order, copy constructors, the this pointer, and static members are among the most frequently asked topics in C++ interviews. Companies like Microsoft, Amazon, and Goldman Sachs test these extensively in campus placements.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Access Specifiers</h3><p>C++ provides three access specifiers:</p><p><strong>public:</strong> Members accessible from anywhere (inside and outside the class).</p><p><strong>private:</strong> Members accessible only inside the class. This is the default for <code>class</code>.</p><p><strong>protected:</strong> Members accessible inside the class and in derived classes (inheritance). Covered in detail in the encapsulation chapter.</p><pre><code>class Account {\nprivate:\n    double balance;      // only accessible inside the class\npublic:\n    void deposit(double amount) {\n        balance += amount;   // OK: accessing private member inside the class\n    }\n    double getBalance() {\n        return balance;\n    }\n};\n\nAccount acc;\n// acc.balance = 1000;  // ERROR: balance is private\nacc.deposit(1000);       // OK: deposit is public</code></pre><h3>2. Constructors</h3><p>A constructor is a special member function that is called automatically when an object is created. It has the same name as the class and no return type.</p><p><strong>Default Constructor:</strong> Takes no arguments. If you do not write any constructor, the compiler generates one (but it does nothing for primitive types).</p><pre><code>class Point {\npublic:\n    int x, y;\n    Point() {          // default constructor\n        x = 0;\n        y = 0;\n    }\n};</code></pre><p><strong>Parameterized Constructor:</strong> Takes arguments to initialize the object.</p><pre><code>class Point {\npublic:\n    int x, y;\n    Point(int x, int y) {\n        this->x = x;\n        this->y = y;\n    }\n};\nPoint p(3, 4);  // calls parameterized constructor</code></pre><p><strong>Copy Constructor:</strong> Takes a reference to an object of the same class and creates a copy. If not written, the compiler generates a shallow copy constructor.</p><pre><code>class Point {\npublic:\n    int x, y;\n    Point(const Point& other) {   // copy constructor\n        x = other.x;\n        y = other.y;\n    }\n};\nPoint p1(3, 4);\nPoint p2(p1);    // copy constructor called\nPoint p3 = p1;   // also calls copy constructor</code></pre><p><strong>Constructor Overloading:</strong> A class can have multiple constructors with different parameter lists.</p><pre><code>class Rectangle {\npublic:\n    int width, height;\n    Rectangle() : width(0), height(0) {}\n    Rectangle(int side) : width(side), height(side) {}  // square\n    Rectangle(int w, int h) : width(w), height(h) {}\n};</code></pre><h3>3. Initializer List</h3><p>An initializer list initializes member variables directly, rather than assigning them inside the constructor body. It is placed after the constructor parameter list, prefixed with a colon.</p><pre><code>class Student {\n    string name;\n    int rollNo;\n    const int batchYear;  // const must be initialized via initializer list\npublic:\n    Student(string n, int r, int y) : name(n), rollNo(r), batchYear(y) {}\n};</code></pre><p>Initializer lists are <strong>required</strong> for: const members, reference members, and base class constructors. They are also more efficient because they initialize directly rather than default-constructing and then assigning.</p><h3>4. Destructors</h3><p>A destructor is called automatically when an object is destroyed (goes out of scope or is deleted). It has the same name as the class with a tilde (~) prefix and no parameters.</p><pre><code>class FileHandler {\n    FILE* file;\npublic:\n    FileHandler(const char* name) {\n        file = fopen(name, \"r\");\n        cout << \"File opened\" << endl;\n    }\n    ~FileHandler() {\n        if (file) fclose(file);\n        cout << \"File closed\" << endl;\n    }\n};</code></pre><p>Destructors are called in the <strong>reverse order</strong> of construction. If objects A, B, C are created in that order, their destructors run in order C, B, A.</p><h3>5. The this Pointer</h3><p><code>this</code> is a pointer to the current object. It is available in all non-static member functions. Common uses:</p><p>1. Disambiguate member variables from parameters with the same name.</p><p>2. Return the current object from a method (for chaining).</p><p>3. Pass the current object to another function.</p><pre><code>class Counter {\n    int count;\npublic:\n    Counter(int count) {\n        this->count = count;   // this->count is the member, count is the parameter\n    }\n    Counter& increment() {\n        this->count++;\n        return *this;          // return the current object for chaining\n    }\n};\n\nCounter c(0);\nc.increment().increment().increment();  // chaining: count = 3</code></pre><h3>6. Static Members</h3><p><strong>Static variables</strong> are shared across all objects of a class. There is only one copy, regardless of how many objects exist. They are declared with the <code>static</code> keyword inside the class and must be defined outside.</p><p><strong>Static functions</strong> can only access static members. They do not have a <code>this</code> pointer because they are not tied to any object.</p><pre><code>class Student {\n    static int count;    // shared across all objects\npublic:\n    string name;\n    Student(string n) : name(n) { count++; }\n    ~Student() { count--; }\n    static int getCount() { return count; }  // static function\n};\nint Student::count = 0;   // definition outside class\n\nStudent s1(\"Rahul\"), s2(\"Priya\");\ncout << Student::getCount();  // 2 (called on the class, not an object)</code></pre><h3>7. const Member Functions</h3><p>A <code>const</code> member function promises not to modify any member variable. It is declared by placing <code>const</code> after the parameter list.</p><pre><code>class Circle {\n    double radius;\npublic:\n    Circle(double r) : radius(r) {}\n    double area() const {          // const: does not modify any member\n        // radius = 10;             // ERROR: cannot modify in const function\n        return 3.14159 * radius * radius;\n    }\n};\n\nconst Circle c(5);\ncout << c.area();   // OK: area() is const</code></pre><p>A <code>const</code> object can only call <code>const</code> member functions.</p><h3>8. sizeof with Classes</h3><p>The size of a class object depends on its data members (not member functions). The compiler may add <strong>padding</strong> bytes for alignment.</p><pre><code>class A {\n    char c;    // 1 byte\n    int i;     // 4 bytes\n    char d;    // 1 byte\n};\n// sizeof(A) is typically 12 (not 6) due to padding\n\nclass B {\n    int i;     // 4 bytes\n    char c;    // 1 byte\n    char d;    // 1 byte\n};\n// sizeof(B) is typically 8 (better packing)</code></pre><p>An empty class has <code>sizeof</code> 1 (not 0) to ensure distinct addresses for different objects.</p>",
+    "codeExamples": [
+      {
+        "title": "Creating a Class with Data Members and Member Functions",
+        "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Student {\npublic:\n    string name;\n    int rollNo;\n    double marks;\n\n    void display() {\n        cout << \"Name: \" << name << endl;\n        cout << \"Roll No: \" << rollNo << endl;\n        cout << \"Marks: \" << marks << endl;\n    }\n\n    bool isPassing() {\n        return marks >= 40.0;\n    }\n};\n\nint main() {\n    Student s1;\n    s1.name = \"Rahul\";\n    s1.rollNo = 101;\n    s1.marks = 87.5;\n    s1.display();\n    cout << \"Passing: \" << (s1.isPassing() ? \"Yes\" : \"No\") << endl;\n\n    Student s2;\n    s2.name = \"Deepa\";\n    s2.rollNo = 102;\n    s2.marks = 35.0;\n    s2.display();\n    cout << \"Passing: \" << (s2.isPassing() ? \"Yes\" : \"No\") << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The <code>Student</code> class bundles three data members and two member functions. Each object (<code>s1</code>, <code>s2</code>) has its own copy of the data members. Member functions are shared -- the same code operates on different objects' data.",
+        "output": "Name: Rahul\nRoll No: 101\nMarks: 87.5\nPassing: Yes\nName: Deepa\nRoll No: 102\nMarks: 35\nPassing: No"
+      },
+      {
+        "title": "Constructors -- Default, Parameterized, and Overloading",
+        "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Rectangle {\n    int width, height;\npublic:\n    Rectangle() : width(0), height(0) {\n        cout << \"Default constructor\" << endl;\n    }\n    Rectangle(int side) : width(side), height(side) {\n        cout << \"Square constructor: \" << side << endl;\n    }\n    Rectangle(int w, int h) : width(w), height(h) {\n        cout << \"Rectangle constructor: \" << w << \"x\" << h << endl;\n    }\n    int area() const { return width * height; }\n    void display() const {\n        cout << width << \" x \" << height << \" = \" << area() << endl;\n    }\n};\n\nint main() {\n    Rectangle r1;         // default\n    Rectangle r2(5);      // square\n    Rectangle r3(4, 6);   // rectangle\n\n    r1.display();\n    r2.display();\n    r3.display();\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Three constructors handle different initialization scenarios. The compiler selects the correct constructor based on the number and types of arguments. The initializer list (<code>: width(w), height(h)</code>) initializes members directly without first default-constructing them.",
+        "output": "Default constructor\nSquare constructor: 5\nRectangle constructor: 4x6\n0 x 0 = 0\n5 x 5 = 25\n4 x 6 = 24"
+      },
+      {
+        "title": "Copy Constructor and Destructor Call Order",
+        "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Box {\n    string label;\npublic:\n    Box(string l) : label(l) {\n        cout << \"Constructor: \" << label << endl;\n    }\n    Box(const Box& other) : label(other.label + \"_copy\") {\n        cout << \"Copy constructor: \" << label << endl;\n    }\n    ~Box() {\n        cout << \"Destructor: \" << label << endl;\n    }\n    string getLabel() const { return label; }\n};\n\nint main() {\n    Box b1(\"Alpha\");\n    Box b2(\"Beta\");\n    Box b3 = b1;       // copy constructor\n    Box b4(b2);        // copy constructor\n\n    cout << \"\\n--- Objects created ---\" << endl;\n    cout << b3.getLabel() << endl;\n    cout << b4.getLabel() << endl;\n    cout << \"--- End of main ---\\n\" << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The copy constructor creates a new object from an existing one. Both <code>Box b3 = b1</code> and <code>Box b4(b2)</code> invoke the copy constructor. Destructors run in reverse order of construction: b4 is destroyed first, then b3, b2, and finally b1. This LIFO order is guaranteed by the C++ standard.",
+        "output": "Constructor: Alpha\nConstructor: Beta\nCopy constructor: Alpha_copy\nCopy constructor: Beta_copy\n\n--- Objects created ---\nAlpha_copy\nBeta_copy\n--- End of main ---\n\nDestructor: Beta_copy\nDestructor: Alpha_copy\nDestructor: Beta\nDestructor: Alpha"
+      },
+      {
+        "title": "The this Pointer and Method Chaining",
+        "code": "#include <iostream>\nusing namespace std;\n\nclass Builder {\n    string result;\npublic:\n    Builder() : result(\"\") {}\n\n    Builder& add(const string& text) {\n        this->result += text;\n        return *this;          // return reference to current object\n    }\n\n    Builder& addLine(const string& text) {\n        this->result += text + \"\\n\";\n        return *this;\n    }\n\n    void print() const {\n        cout << result;\n    }\n};\n\nint main() {\n    Builder b;\n    b.addLine(\"Name: Kavitha\")\n     .addLine(\"Roll: 201\")\n     .add(\"Branch: CSE\");\n\n    b.print();\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Each method returns <code>*this</code> (a reference to the current object), enabling method chaining. <code>this</code> is a pointer to the object on which the method is called. <code>*this</code> dereferences it to get the object itself. This pattern is used in builder APIs, stream operators, and fluent interfaces.",
+        "output": "Name: Kavitha\nRoll: 201\nBranch: CSE"
+      },
+      {
+        "title": "Static Members -- Shared Across All Objects",
+        "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Employee {\n    static int nextId;\n    int id;\n    string name;\npublic:\n    Employee(string n) : name(n), id(nextId++) {\n        cout << \"Created: \" << name << \" (ID: \" << id << \")\" << endl;\n    }\n    ~Employee() {\n        cout << \"Destroyed: \" << name << \" (ID: \" << id << \")\" << endl;\n    }\n    static int getNextId() { return nextId; }\n    void display() const {\n        cout << \"  \" << id << \": \" << name << endl;\n    }\n};\nint Employee::nextId = 1;  // static member definition\n\nint main() {\n    Employee e1(\"Arun\");\n    Employee e2(\"Sneha\");\n    Employee e3(\"Vikram\");\n\n    cout << \"\\nAll employees:\" << endl;\n    e1.display();\n    e2.display();\n    e3.display();\n\n    cout << \"\\nNext ID will be: \" << Employee::getNextId() << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>nextId</code> is a static member shared by all Employee objects. Each constructor increments it, so every employee gets a unique ID. The static function <code>getNextId()</code> is called on the class itself (<code>Employee::getNextId()</code>), not on an object. Static members must be defined outside the class.",
+        "output": "Created: Arun (ID: 1)\nCreated: Sneha (ID: 2)\nCreated: Vikram (ID: 3)\n\nAll employees:\n  1: Arun\n  2: Sneha\n  3: Vikram\n\nNext ID will be: 4\n\nDestroyed: Vikram (ID: 3)\nDestroyed: Sneha (ID: 2)\nDestroyed: Arun (ID: 1)"
+      },
+      {
+        "title": "const Member Functions and sizeof with Padding",
+        "code": "#include <iostream>\nusing namespace std;\n\nclass Circle {\n    double radius;\npublic:\n    Circle(double r) : radius(r) {}\n    double area() const {\n        return 3.14159 * radius * radius;\n    }\n    double circumference() const {\n        return 2 * 3.14159 * radius;\n    }\n    // Non-const function can modify members\n    void scale(double factor) {\n        radius *= factor;\n    }\n};\n\nclass PaddingDemo {\n    char a;    // 1 byte\n    int b;     // 4 bytes\n    char c;    // 1 byte\n};\n\nclass NoPaddingDemo {\n    int b;     // 4 bytes\n    char a;    // 1 byte\n    char c;    // 1 byte\n};\n\nclass Empty {};\n\nint main() {\n    const Circle c1(5.0);\n    cout << \"Area: \" << c1.area() << endl;\n    cout << \"Circumference: \" << c1.circumference() << endl;\n    // c1.scale(2.0);  // ERROR: c1 is const, scale() is not const\n\n    Circle c2(3.0);\n    c2.scale(2.0);     // OK: c2 is not const\n    cout << \"Scaled area: \" << c2.area() << endl;\n\n    cout << \"\\nsizeof(PaddingDemo): \" << sizeof(PaddingDemo) << endl;\n    cout << \"sizeof(NoPaddingDemo): \" << sizeof(NoPaddingDemo) << endl;\n    cout << \"sizeof(Empty): \" << sizeof(Empty) << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "A <code>const</code> object (<code>c1</code>) can only call <code>const</code> member functions. <code>area()</code> and <code>circumference()</code> are const, so they work. <code>scale()</code> is non-const, so calling it on c1 would be a compile error. For sizeof, the compiler adds padding bytes for alignment: PaddingDemo has 3 bytes of padding (total 12), while NoPaddingDemo packs better (total 8). An empty class has size 1.",
+        "output": "Area: 78.5397\nCircumference: 31.4159\nScaled area: 113.097\n\nsizeof(PaddingDemo): 12\nsizeof(NoPaddingDemo): 8\nsizeof(Empty): 1"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting to Define Static Members Outside the Class",
+        "wrongCode": "class Counter {\n    static int count;  // declaration only\npublic:\n    Counter() { count++; }\n};\n\n// Missing: int Counter::count = 0;\n\nCounter c;  // LINKER ERROR",
+        "error": "undefined reference to 'Counter::count'",
+        "correctCode": "class Counter {\n    static int count;\npublic:\n    Counter() { count++; }\n};\nint Counter::count = 0;  // definition outside the class\n\nCounter c;  // OK",
+        "explanation": "A static member declared inside a class is only a declaration. You must define it outside the class (typically in the .cpp file) with <code>int Counter::count = 0;</code>. Without this, the linker cannot find the actual storage for the variable."
+      },
+      {
+        "title": "Using Parentheses for Default Construction (Most Vexing Parse)",
+        "wrongCode": "class Widget {\npublic:\n    Widget() { cout << \"Created\" << endl; }\n};\n\nWidget w();  // This is NOT an object declaration!",
+        "error": "No error, but w is treated as a function declaration (returns Widget, takes no arguments). The constructor is never called.",
+        "correctCode": "Widget w;      // C++ default construction (no parentheses)\nWidget w2{};   // C++11 brace initialization\n// Both create a Widget object and call the default constructor",
+        "explanation": "This is the \"most vexing parse\" in C++. <code>Widget w();</code> is parsed as a function declaration, not an object creation. Use <code>Widget w;</code> or <code>Widget w{};</code> for default construction."
+      },
+      {
+        "title": "Not Using Initializer List for const Members",
+        "wrongCode": "class Config {\n    const int maxSize;\npublic:\n    Config(int size) {\n        maxSize = size;  // ERROR: cannot assign to const member\n    }\n};",
+        "error": "error: assignment of read-only member 'Config::maxSize'",
+        "correctCode": "class Config {\n    const int maxSize;\npublic:\n    Config(int size) : maxSize(size) {}  // initializer list\n};",
+        "explanation": "A <code>const</code> member cannot be assigned -- it must be initialized. The initializer list (<code>: maxSize(size)</code>) initializes the member directly during construction. The same applies to reference members."
+      },
+      {
+        "title": "Calling Non-const Method on a const Object",
+        "wrongCode": "class Counter {\n    int count;\npublic:\n    Counter() : count(0) {}\n    void increment() { count++; }\n    int getCount() { return count; }  // not const!\n};\n\nconst Counter c;\ncout << c.getCount();  // ERROR",
+        "error": "error: passing 'const Counter' as 'this' argument discards qualifiers",
+        "correctCode": "class Counter {\n    int count;\npublic:\n    Counter() : count(0) {}\n    void increment() { count++; }\n    int getCount() const { return count; }  // now const\n};\n\nconst Counter c;\ncout << c.getCount();  // OK",
+        "explanation": "A <code>const</code> object can only call <code>const</code> member functions. If <code>getCount()</code> does not modify any member, mark it <code>const</code>. As a rule, all member functions that do not modify the object should be const."
+      },
+      {
+        "title": "Shallow Copy with Pointers (Missing Deep Copy Constructor)",
+        "wrongCode": "class Array {\n    int* data;\n    int size;\npublic:\n    Array(int n) : size(n), data(new int[n]()) {}\n    ~Array() { delete[] data; }\n};\n\nArray a(5);\nArray b = a;  // shallow copy: b.data = a.data (same address!)\n// When b is destroyed, it frees data.\n// When a is destroyed, it tries to free the same data: DOUBLE FREE!",
+        "error": "Double-free or heap corruption at runtime. Both objects' destructors free the same memory.",
+        "correctCode": "class Array {\n    int* data;\n    int size;\npublic:\n    Array(int n) : size(n), data(new int[n]()) {}\n    Array(const Array& other) : size(other.size), data(new int[other.size]) {\n        for (int i = 0; i < size; i++) data[i] = other.data[i];  // deep copy\n    }\n    ~Array() { delete[] data; }\n};",
+        "explanation": "The compiler-generated copy constructor does a shallow copy (copies the pointer value). Both objects then point to the same heap memory. When either is destroyed, the other has a dangling pointer. Write a deep copy constructor that allocates new memory and copies the contents."
+      }
+    ],
+    "summary": [
+      "A class bundles data members and member functions into a single unit. An object is an instance of a class.",
+      "In C++, class members are private by default; struct members are public by default. This is the only difference between class and struct.",
+      "Constructors are called automatically when an object is created. Types: default (no args), parameterized (with args), copy (from another object).",
+      "Constructor overloading allows multiple constructors with different parameter lists. The compiler selects the right one based on the arguments.",
+      "Initializer lists (: member(value)) initialize members directly. Required for const members, reference members, and base class constructors.",
+      "Destructors (~ClassName) are called automatically when objects go out of scope or are deleted. They run in reverse order of construction.",
+      "The this pointer is an implicit pointer to the current object in non-static member functions. Use it to disambiguate names and enable method chaining.",
+      "Static members are shared across all objects. Static functions can only access static members and have no this pointer.",
+      "const member functions promise not to modify any member. A const object can only call const member functions.",
+      "sizeof a class depends on data members and padding. Member functions do not contribute to size. An empty class has sizeof 1."
+    ]
+  },
+  "relatedTopics": ["dynamic-memory-allocation", "encapsulation-and-access-specifiers"],
+  "practice": {
+    "totalQuestions": 60,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Greet {\npublic:\n    Greet() { cout << \"Hello \"; }\n    ~Greet() { cout << \"Bye \"; }\n};\n\nint main() {\n    Greet g;\n    cout << \"World \";\n}</code></pre>",
+        "hint": "The constructor runs when g is created. The destructor runs when main ends.",
+        "answer": "<code>Hello World Bye </code>",
+        "explanation": "The constructor prints \"Hello\" when <code>g</code> is created. \"World\" is printed next. When main returns, <code>g</code> is destroyed and the destructor prints \"Bye\"."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Box {\npublic:\n    int value;\n    Box() : value(0) {}\n    Box(int v) : value(v) {}\n};\n\nBox a;\nBox b(10);\ncout << a.value << \" \" << b.value;</code></pre>",
+        "hint": "Box a calls the default constructor. Box b(10) calls the parameterized constructor.",
+        "answer": "<code>0 10</code>",
+        "explanation": "<code>Box a</code> calls the default constructor, setting value to 0. <code>Box b(10)</code> calls the parameterized constructor, setting value to 10."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Counter {\npublic:\n    static int count;\n    Counter() { count++; }\n};\nint Counter::count = 0;\n\nCounter a, b, c;\ncout << Counter::count;</code></pre>",
+        "hint": "Static members are shared. Each constructor increments the same count.",
+        "answer": "<code>3</code>",
+        "explanation": "<code>count</code> is static (shared). Each of the three constructors increments it by 1. After creating a, b, c: count = 3."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Point {\npublic:\n    int x, y;\n    Point(int x, int y) {\n        this->x = x;\n        this->y = y;\n    }\n};\n\nPoint p(3, 7);\ncout << p.x << \" \" << p.y;</code></pre>",
+        "hint": "this->x refers to the member; x refers to the parameter.",
+        "answer": "<code>3 7</code>",
+        "explanation": "<code>this->x</code> is the member variable, <code>x</code> is the constructor parameter. <code>this->x = x</code> assigns the parameter value to the member."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class A {\npublic:\n    A() { cout << \"A \"; }\n    ~A() { cout << \"~A \"; }\n};\n\nint main() {\n    A a1;\n    A a2;\n    A a3;\n    cout << \"| \";\n}</code></pre>",
+        "hint": "Destructors run in reverse order of construction.",
+        "answer": "<code>A A A | ~A ~A ~A </code>",
+        "explanation": "Three objects are created: a1, a2, a3 (printing \"A\" each time). When main ends, destructors run in reverse order: a3, a2, a1."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Tag {\n    string name;\npublic:\n    Tag(string n) : name(n) { cout << \"+\" << name << \" \"; }\n    Tag(const Tag& t) : name(t.name + \"_c\") { cout << \"C:\" << name << \" \"; }\n    ~Tag() { cout << \"-\" << name << \" \"; }\n};\n\nTag t1(\"X\");\nTag t2 = t1;</code></pre><p>(Assume this is inside main)</p>",
+        "hint": "Tag t2 = t1 invokes the copy constructor. Destructors run in reverse.",
+        "answer": "<code>+X C:X_c </code><br>(After main: <code>-X_c -X </code>)",
+        "explanation": "<code>Tag t1(\"X\")</code> calls the parameterized constructor: +X. <code>Tag t2 = t1</code> calls the copy constructor: C:X_c. When main ends, destructors run in reverse: -X_c (t2), then -X (t1)."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Chain {\n    int val;\npublic:\n    Chain(int v) : val(v) {}\n    Chain& add(int n) {\n        val += n;\n        return *this;\n    }\n    void print() const {\n        cout << val;\n    }\n};\n\nChain c(10);\nc.add(5).add(3).add(2).print();</code></pre>",
+        "hint": "Each add() returns *this, allowing the next call on the same object.",
+        "answer": "<code>20</code>",
+        "explanation": "<code>c</code> starts with val = 10. <code>add(5)</code>: val = 15. <code>add(3)</code>: val = 18. <code>add(2)</code>: val = 20. Each call returns <code>*this</code>, so the chain continues on the same object."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Item {\n    static int created;\n    static int alive;\npublic:\n    Item() { created++; alive++; }\n    ~Item() { alive--; }\n    static void stats() {\n        cout << \"Created: \" << created << \", Alive: \" << alive << endl;\n    }\n};\nint Item::created = 0;\nint Item::alive = 0;\n\nint main() {\n    Item a, b;\n    Item::stats();\n    {\n        Item c;\n        Item::stats();\n    }\n    Item::stats();\n}</code></pre>",
+        "hint": "c is destroyed when the inner block ends. created never decreases.",
+        "answer": "<code>Created: 2, Alive: 2</code><br><code>Created: 3, Alive: 3</code><br><code>Created: 3, Alive: 2</code>",
+        "explanation": "After a and b: created=2, alive=2. After c: created=3, alive=3. After inner block ends (c destroyed): created=3, alive=2."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class A {\npublic:\n    A() { cout << \"A() \"; }\n    A(int x) { cout << \"A(\" << x << \") \"; }\n    A(const A& a) { cout << \"A(copy) \"; }\n    ~A() { cout << \"~A \"; }\n};\n\nA func() {\n    A local(5);\n    return local;\n}\n\nint main() {\n    A obj = func();\n    cout << \"| \";\n}</code></pre>",
+        "hint": "The copy constructor may or may not be called due to copy elision (NRVO). Without elision: local is constructed, copied, destroyed. With elision: only one construction.",
+        "answer": "Without copy elision: <code>A(5) A(copy) ~A | ~A </code><br>With copy elision (common): <code>A(5) | ~A </code>",
+        "explanation": "The compiler may perform Named Return Value Optimization (NRVO), eliminating the copy. Without NRVO: local is constructed with A(5), then copied into obj, then local is destroyed. With NRVO (which most modern compilers do): local is constructed directly in obj's memory. Since C++17, this elision is mandatory in many cases."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class Nested {\npublic:\n    Nested() { cout << \"N \"; }\n    ~Nested() { cout << \"~N \"; }\n};\n\nclass Outer {\n    Nested n1;\n    Nested n2;\npublic:\n    Outer() { cout << \"O \"; }\n    ~Outer() { cout << \"~O \"; }\n};\n\nOuter obj;</code></pre>",
+        "hint": "Member objects are constructed before the class constructor body. Destruction is in reverse.",
+        "answer": "<code>N N O </code><br>(After main: <code>~O ~N ~N </code>)",
+        "explanation": "Members n1 and n2 are constructed in declaration order before Outer's constructor body runs: N N O. Destruction is in reverse: Outer's destructor runs first (~O), then members in reverse order (~N ~N for n2 then n1)."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class Val {\n    int x;\npublic:\n    Val(int v = 0) : x(v) { cout << \"C:\" << x << \" \"; }\n    ~Val() { cout << \"D:\" << x << \" \"; }\n};\n\nVal arr[3] = {Val(10), Val(20)};</code></pre><p>(Assume inside main)</p>",
+        "hint": "The third element uses the default argument value. Destructors run in reverse.",
+        "answer": "<code>C:10 C:20 C:0 </code><br>(After main: <code>D:0 D:20 D:10 </code>)",
+        "explanation": "arr[0] is Val(10), arr[1] is Val(20), and arr[2] uses the default argument (Val(0)). Destructors run in reverse array order: arr[2], arr[1], arr[0]."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between a class and a struct in C++?",
+        "hint": "Think about the default access specifier.",
+        "answer": "In C++, the <strong>only</strong> difference is the default access specifier: <code>class</code> members are <code>private</code> by default, while <code>struct</code> members are <code>public</code> by default. In every other respect (constructors, destructors, inheritance, virtual functions), they are identical.",
+        "explanation": "In practice, struct is used for plain data holders (like POD types or simple groupings), and class is used when the type has behavior, invariants, or encapsulation. This is a convention, not a language requirement."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>struct Point {\n    int x, y;\n};\n\nPoint p;\np.x = 5;\np.y = 10;\ncout << p.x + p.y;</code></pre>",
+        "hint": "struct members are public by default.",
+        "answer": "<code>15</code>",
+        "explanation": "In a struct, <code>x</code> and <code>y</code> are public by default. They can be accessed directly. 5 + 10 = 15."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Num {\npublic:\n    int val;\n    Num(int v) : val(v) {}\n};\n\nNum a(5), b(3);\ncout << a.val * b.val;</code></pre>",
+        "hint": "Two objects with their own val members.",
+        "answer": "<code>15</code>",
+        "explanation": "<code>a.val</code> is 5, <code>b.val</code> is 3. Product is 15."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Scope {\npublic:\n    string name;\n    Scope(string n) : name(n) { cout << \"+\" << name << \" \"; }\n    ~Scope() { cout << \"-\" << name << \" \"; }\n};\n\nint main() {\n    Scope a(\"A\");\n    {\n        Scope b(\"B\");\n        Scope c(\"C\");\n    }\n    Scope d(\"D\");\n}</code></pre>",
+        "hint": "B and C are destroyed at the end of the inner block. A and D are destroyed at the end of main.",
+        "answer": "<code>+A +B +C -C -B +D -D -A </code>",
+        "explanation": "A is created first. Then B and C are created inside the block. When the block ends, C and B are destroyed (reverse order). D is created after the block. When main ends, D and A are destroyed (reverse order)."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why should you use initializer lists instead of assignment in constructor bodies?",
+        "hint": "Think about const members, reference members, and efficiency.",
+        "answer": "Initializer lists directly initialize members, while assignment in the body first default-constructs and then assigns. Initializer lists are: (1) <strong>Required</strong> for const members, reference members, and base class constructors. (2) <strong>More efficient</strong> for class-type members (avoids unnecessary default construction + assignment). (3) Members are initialized in declaration order regardless of the list order.",
+        "explanation": "For primitive types, the performance difference is negligible. For class types like std::string, the initializer list calls the copy constructor once, while body assignment calls the default constructor then the copy assignment operator -- two operations instead of one."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Demo {\n    int x;\npublic:\n    Demo(int val) : x(val) {}\n    void show() const {\n        cout << x << \" \";\n    }\n};\n\nconst Demo d(42);\nd.show();\n// d.x = 10;  // Would this work?</code></pre>",
+        "hint": "d is const, so only const member functions can be called, and no members can be modified.",
+        "answer": "<code>42 </code><br>(d.x = 10 would fail because x is private AND d is const)",
+        "explanation": "<code>show()</code> is const, so calling it on a const object is fine. <code>d.x = 10</code> would fail for two reasons: x is private, and d is const."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class A {\npublic:\n    int x;\n    A() : x(0) {}\n    A(int v) : x(v) {}\n    A(const A& other) : x(other.x) {\n        cout << \"copy(\" << x << \") \";\n    }\n};\n\nvoid func(A obj) {\n    cout << obj.x << \" \";\n}\n\nA a(10);\nfunc(a);</code></pre>",
+        "hint": "Passing by value triggers the copy constructor.",
+        "answer": "<code>copy(10) 10 </code>",
+        "explanation": "The function takes <code>A</code> by value. Passing <code>a</code> to <code>func</code> invokes the copy constructor to create the parameter <code>obj</code>. The copy constructor prints \"copy(10)\", then the function prints obj.x which is 10."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is sizeof the following class?<br><pre><code>class Mystery {\n    double d;    // 8 bytes\n    char c;      // 1 byte\n    int i;       // 4 bytes\n};\ncout << sizeof(Mystery);</code></pre>",
+        "hint": "Think about alignment. double requires 8-byte alignment.",
+        "answer": "<code>16</code>",
+        "explanation": "<code>d</code> occupies bytes 0-7 (8 bytes). <code>c</code> occupies byte 8 (1 byte). 3 bytes of padding (bytes 9-11) to align <code>i</code> to a 4-byte boundary. <code>i</code> occupies bytes 12-15 (4 bytes). Total: 16 bytes. The struct must also be padded to a multiple of the largest member's alignment (8), so 16 is the final size."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class Singleton {\n    static Singleton* instance;\n    int value;\n    Singleton(int v) : value(v) {}\npublic:\n    static Singleton* get(int v) {\n        if (!instance)\n            instance = new Singleton(v);\n        return instance;\n    }\n    int getValue() const { return value; }\n};\nSingleton* Singleton::instance = nullptr;\n\ncout << Singleton::get(42)->getValue() << endl;\ncout << Singleton::get(99)->getValue() << endl;</code></pre>",
+        "hint": "The first call creates the instance. The second call returns the existing one.",
+        "answer": "<code>42</code><br><code>42</code>",
+        "explanation": "The first call creates a Singleton with value 42. The second call finds that <code>instance</code> is not null, so it returns the existing instance (still value 42). The argument 99 is ignored. This is the Singleton design pattern."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the default access specifier for members of a class in C++?",
+        "options": {"A": "public", "B": "private", "C": "protected", "D": "internal"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In a <code>class</code>, members are <code>private</code> by default. In a <code>struct</code>, members are <code>public</code> by default. <code>internal</code> (D) is not a C++ access specifier."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is a constructor in C++?",
+        "options": {"A": "A function that returns an object", "B": "A special member function called automatically when an object is created", "C": "A function that destroys an object", "D": "A function that copies an object"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A constructor has the same name as the class, no return type, and is called automatically when an object is created. C describes a destructor, D describes a copy operation."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is the correct syntax for a destructor of class MyClass?",
+        "options": {"A": "void ~MyClass()", "B": "~MyClass()", "C": "delete MyClass()", "D": "MyClass::destroy()"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A destructor is named <code>~ClassName()</code> with no return type and no parameters. It cannot return void (A is wrong), is not the delete operator (C), and has a specific syntax (not a regular named method like D)."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does the this pointer hold in a member function?",
+        "options": {"A": "The address of the class definition", "B": "The address of the current object", "C": "The address of the first member variable", "D": "nullptr by default"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>this</code> is a pointer to the object on which the member function is being called. It allows the function to refer to the invoking object."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "In what order are destructors called for local objects?",
+        "options": {"A": "Same order as construction", "B": "Reverse order of construction", "C": "Alphabetical order", "D": "Random order"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> C++ guarantees that destructors of local objects are called in the reverse order of their construction. This is LIFO (last in, first out) behavior."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Which of the following REQUIRES an initializer list?",
+        "options": {"A": "Initializing an int member", "B": "Initializing a const member", "C": "Initializing a public member", "D": "Initializing a static member"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A <code>const</code> member must be initialized (not assigned) at construction time, which requires an initializer list. The same applies to reference members and base class constructors. Static members (D) are defined outside the class."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What can a static member function access?",
+        "options": {"A": "Both static and non-static members", "B": "Only non-static members", "C": "Only static members", "D": "Nothing -- static functions are empty"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A static member function does not have a <code>this</code> pointer, so it cannot access non-static members (which require an object). It can only access static members of the class."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the sizeof an empty class in C++?",
+        "options": {"A": "0", "B": "1", "C": "4", "D": "Depends on the compiler"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> An empty class has sizeof 1 (not 0). This ensures that every object has a unique address. If it were 0, two objects of the same empty class could have the same address, violating the identity principle."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Hard",
+        "question": "When is the copy constructor called?",
+        "options": {"A": "Only when using = in a declaration", "B": "When passing an object by value, returning by value, or using = in a declaration", "C": "Only when explicitly called with ClassName(obj)", "D": "When assigning one object to another after both are initialized"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The copy constructor is called in three scenarios: (1) <code>T obj2 = obj1;</code> in a declaration, (2) passing an object by value to a function, (3) returning an object by value (unless elided). D describes the copy assignment operator (<code>operator=</code>), not the copy constructor."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "What is the \"most vexing parse\" in C++?",
+        "options": {"A": "A syntax error when overloading operators", "B": "A declaration that looks like an object creation but is parsed as a function declaration", "C": "An error caused by missing semicolons", "D": "A conflict between class and struct keywords"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>Widget w();</code> looks like creating a Widget with the default constructor, but C++ parses it as a function declaration (a function named w that returns Widget). Use <code>Widget w;</code> or <code>Widget w{};</code> instead."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "In which order are member objects constructed and destroyed?",
+        "options": {"A": "Constructed and destroyed in declaration order", "B": "Constructed in declaration order, destroyed in reverse order", "C": "Constructed in initializer list order, destroyed in reverse", "D": "Random order determined by the compiler"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Member objects are always constructed in the order they are declared in the class (not the initializer list order), and destroyed in reverse. This is guaranteed by the C++ standard."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What happens if a class has a pointer member and uses the compiler-generated copy constructor?",
+        "options": {"A": "The pointer member is set to nullptr", "B": "A deep copy of the pointed-to data is made", "C": "A shallow copy is made (both objects point to the same memory)", "D": "Compilation error"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The compiler-generated copy constructor performs a memberwise (shallow) copy. For pointer members, this means both the original and the copy point to the same address. This leads to double-free bugs if the destructor frees the memory."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "Which keyword prevents a member from being modified in a const member function?",
+        "options": {"A": "volatile", "B": "mutable reverses this restriction", "C": "static", "D": "const after the parameter list"},
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> Placing <code>const</code> after the parameter list (<code>int getValue() const</code>) makes the function a const member function that cannot modify any member. <code>mutable</code> (B) is the keyword that allows a member to be modified even in a const function, but the question asks what prevents modification."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Student Class with Constructors",
+        "difficulty": "Easy",
+        "description": "Create a Student class with name (string) and marks (double). Write a default constructor (name=\"Unknown\", marks=0), a parameterized constructor, and a display() method. Create 3 students and display them.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Unknown - 0\nRahul - 85.5\nPriya - 92.3",
+        "constraints": "Use initializer lists. Mark display() as const.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Student {\n    string name;\n    double marks;\npublic:\n    Student() : name(\"Unknown\"), marks(0) {}\n    Student(string n, double m) : name(n), marks(m) {}\n    void display() const {\n        cout << name << \" - \" << marks << endl;\n    }\n};\n\nint main() {\n    Student s1;\n    Student s2(\"Rahul\", 85.5);\n    Student s3(\"Priya\", 92.3);\n    s1.display();\n    s2.display();\n    s3.display();\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Counter with Static Members",
+        "difficulty": "Easy",
+        "description": "Create a Counter class with a static member totalCount that tracks how many Counter objects currently exist. The constructor increments it, the destructor decrements it. Add a static function getCount(). Demonstrate by creating and destroying objects in different scopes.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Count: 2\nCount: 3\nCount: 2\nCount: 0",
+        "constraints": "Use static member variable and static function. Define static member outside the class.",
+        "solution": "#include <iostream>\nusing namespace std;\n\nclass Counter {\n    static int totalCount;\npublic:\n    Counter() { totalCount++; }\n    ~Counter() { totalCount--; }\n    static int getCount() { return totalCount; }\n};\nint Counter::totalCount = 0;\n\nint main() {\n    Counter a, b;\n    cout << \"Count: \" << Counter::getCount() << endl;  // 2\n    {\n        Counter c;\n        cout << \"Count: \" << Counter::getCount() << endl;  // 3\n    }\n    cout << \"Count: \" << Counter::getCount() << endl;  // 2\n    return 0;\n    // After main, a and b are destroyed\n}\n// Final count would be 0"
+      },
+      {
+        "id": "cc-3",
+        "title": "BankAccount with Encapsulation",
+        "difficulty": "Medium",
+        "description": "Create a BankAccount class with private members: accountHolder (string), balance (double). Provide a parameterized constructor, deposit(double), withdraw(double) with validation (no negative amounts, no overdraft), and display() const. Track total accounts created using a static member.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Arjun: Rs.10000\nDeposited Rs.5000. New balance: Rs.15000\nWithdrew Rs.3000. New balance: Rs.12000\nInsufficient balance!\nTotal accounts: 2",
+        "constraints": "All data members must be private. Validate inputs. Use initializer list.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass BankAccount {\n    string holder;\n    double balance;\n    static int totalAccounts;\npublic:\n    BankAccount(string h, double b) : holder(h), balance(b) {\n        totalAccounts++;\n    }\n    void deposit(double amount) {\n        if (amount <= 0) { cout << \"Invalid amount!\" << endl; return; }\n        balance += amount;\n        cout << \"Deposited Rs.\" << amount << \". New balance: Rs.\" << balance << endl;\n    }\n    void withdraw(double amount) {\n        if (amount <= 0) { cout << \"Invalid amount!\" << endl; return; }\n        if (amount > balance) { cout << \"Insufficient balance!\" << endl; return; }\n        balance -= amount;\n        cout << \"Withdrew Rs.\" << amount << \". New balance: Rs.\" << balance << endl;\n    }\n    void display() const {\n        cout << holder << \": Rs.\" << balance << endl;\n    }\n    static int getTotalAccounts() { return totalAccounts; }\n};\nint BankAccount::totalAccounts = 0;\n\nint main() {\n    BankAccount acc1(\"Arjun\", 10000);\n    BankAccount acc2(\"Meera\", 5000);\n    acc1.display();\n    acc1.deposit(5000);\n    acc1.withdraw(3000);\n    acc1.withdraw(20000);\n    cout << \"Total accounts: \" << BankAccount::getTotalAccounts() << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Deep Copy Constructor for Dynamic Array Class",
+        "difficulty": "Medium",
+        "description": "Create an IntArray class that wraps a dynamic int array. Implement: constructor(int size), deep copy constructor, destructor, set(int index, int value), get(int index), and display(). Demonstrate that modifying the copy does not affect the original.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Original: 10 20 30\nCopy: 10 20 30\nAfter modifying copy:\nOriginal: 10 20 30\nCopy: 10 99 30",
+        "constraints": "Implement a deep copy constructor. The destructor must free memory. Demonstrate independence of original and copy.",
+        "solution": "#include <iostream>\nusing namespace std;\n\nclass IntArray {\n    int* data;\n    int size;\npublic:\n    IntArray(int n) : size(n), data(new int[n]()) {}\n    IntArray(const IntArray& other) : size(other.size), data(new int[other.size]) {\n        for (int i = 0; i < size; i++) data[i] = other.data[i];\n    }\n    ~IntArray() { delete[] data; }\n    void set(int i, int val) { data[i] = val; }\n    int get(int i) const { return data[i]; }\n    void display() const {\n        for (int i = 0; i < size; i++) cout << data[i] << \" \";\n        cout << endl;\n    }\n};\n\nint main() {\n    IntArray original(3);\n    original.set(0, 10);\n    original.set(1, 20);\n    original.set(2, 30);\n    cout << \"Original: \";\n    original.display();\n\n    IntArray copy = original;  // deep copy\n    cout << \"Copy: \";\n    copy.display();\n\n    copy.set(1, 99);\n    cout << \"After modifying copy:\" << endl;\n    cout << \"Original: \";\n    original.display();\n    cout << \"Copy: \";\n    copy.display();\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Method Chaining -- QueryBuilder",
+        "difficulty": "Hard",
+        "description": "Create a QueryBuilder class that builds a SQL-like query string using method chaining. Methods: select(string columns), from(string table), where(string condition), orderBy(string column), build() which returns the final query string. Each method returns *this.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "SELECT name, marks FROM students WHERE marks > 80 ORDER BY marks",
+        "constraints": "Use the this pointer and return *this from each method. Use const for build().",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass QueryBuilder {\n    string query;\npublic:\n    QueryBuilder& select(const string& cols) {\n        query = \"SELECT \" + cols;\n        return *this;\n    }\n    QueryBuilder& from(const string& table) {\n        query += \" FROM \" + table;\n        return *this;\n    }\n    QueryBuilder& where(const string& condition) {\n        query += \" WHERE \" + condition;\n        return *this;\n    }\n    QueryBuilder& orderBy(const string& col) {\n        query += \" ORDER BY \" + col;\n        return *this;\n    }\n    string build() const { return query; }\n};\n\nint main() {\n    QueryBuilder qb;\n    string query = qb.select(\"name, marks\")\n                     .from(\"students\")\n                     .where(\"marks > 80\")\n                     .orderBy(\"marks\")\n                     .build();\n    cout << query << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Matrix Class with Operator Overloading Preview",
+        "difficulty": "Hard",
+        "description": "Create a Matrix class for 2x2 matrices. Implement: constructor(4 values), copy constructor, display(), add(const Matrix&) that returns a new Matrix with the sum, and a static identity() that returns the 2x2 identity matrix. Demonstrate all operations.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Matrix A:\n1 2\n3 4\nMatrix B:\n5 6\n7 8\nA + B:\n6 8\n10 12\nIdentity:\n1 0\n0 1",
+        "constraints": "Use initializer list. Pass by const reference. Use const member functions where appropriate.",
+        "solution": "#include <iostream>\nusing namespace std;\n\nclass Matrix {\n    int data[2][2];\npublic:\n    Matrix(int a, int b, int c, int d) {\n        data[0][0] = a; data[0][1] = b;\n        data[1][0] = c; data[1][1] = d;\n    }\n    Matrix(const Matrix& other) {\n        for (int i = 0; i < 2; i++)\n            for (int j = 0; j < 2; j++)\n                data[i][j] = other.data[i][j];\n    }\n    Matrix add(const Matrix& other) const {\n        return Matrix(\n            data[0][0] + other.data[0][0],\n            data[0][1] + other.data[0][1],\n            data[1][0] + other.data[1][0],\n            data[1][1] + other.data[1][1]\n        );\n    }\n    static Matrix identity() {\n        return Matrix(1, 0, 0, 1);\n    }\n    void display() const {\n        for (int i = 0; i < 2; i++) {\n            for (int j = 0; j < 2; j++)\n                cout << data[i][j] << \" \";\n            cout << endl;\n        }\n    }\n};\n\nint main() {\n    Matrix a(1, 2, 3, 4);\n    Matrix b(5, 6, 7, 8);\n    cout << \"Matrix A:\" << endl;\n    a.display();\n    cout << \"Matrix B:\" << endl;\n    b.display();\n    Matrix c = a.add(b);\n    cout << \"A + B:\" << endl;\n    c.display();\n    cout << \"Identity:\" << endl;\n    Matrix::identity().display();\n    return 0;\n}"
+      }
+    ]
+  }
+}

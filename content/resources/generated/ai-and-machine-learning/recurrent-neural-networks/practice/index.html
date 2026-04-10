@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Recurrent Neural Networks (RNN) and LSTM | AI and Machine Learning | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="53+ practice questions on Recurrent Neural Networks (RNN) and LSTM in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="recurrent neural networks (rnn) and lstm practice, ai and machine learning questions, ai and machine learning practice problems, recurrent neural networks (rnn) and lstm exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/recurrent-neural-networks/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/recurrent-neural-networks/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/recurrent-neural-networks/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/recurrent-neural-networks/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/recurrent-neural-networks/practice">
+    <meta property="og:title" content="Practice Questions - Recurrent Neural Networks (RNN) and LSTM | AI and Machine Learning | Modern Age Coders">
+    <meta property="og:description" content="53+ practice questions on Recurrent Neural Networks (RNN) and LSTM in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/recurrent-neural-networks/practice">
+    <meta name="twitter:title" content="Practice Questions - Recurrent Neural Networks (RNN) and LSTM | AI and Machine Learning | Modern Age Coders">
+    <meta name="twitter:description" content="53+ practice questions on Recurrent Neural Networks (RNN) and LSTM in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Recurrent Neural Networks (RNN) and LSTM",
+    "description": "53+ practice questions on Recurrent Neural Networks (RNN) and LSTM in AI and Machine Learning.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Recurrent Neural Networks (RNN) and LSTM"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/recurrent-neural-networks/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Recurrent Neural Networks (RNN) and LSTM",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/recurrent-neural-networks"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/recurrent-neural-networks/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning/recurrent-neural-networks">Recurrent Neural Networks (RNN) and LSTM</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 18</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">53 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Recurrent Neural Networks (RNN) and LSTM</h1>
+            <a href="/resources/ai-and-machine-learning/recurrent-neural-networks" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What type of data are RNNs specifically designed to process?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Think about data where order matters.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">RNNs are designed for <strong>sequential data</strong> -- data where the order of elements matters. Examples: text (sequences of words), time series (sequences of measurements), audio (sequences of sound samples), video (sequences of frames), DNA (sequences of nucleotides). The key property is that the meaning depends on the order.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the hidden state in an RNN?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">It is the RNN's memory of what it has seen so far.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2">The hidden state is a vector (e.g., 128 dimensions) that represents the RNN's memory of the sequence seen so far. At each time step, the hidden state is updated based on the current input and the previous hidden state. After processing the full sequence, the final hidden state encodes a compressed summary of the entire sequence. It is the mechanism by which information flows from earlier time steps to later ones.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output shape?<br><pre><code>model = tf.keras.Sequential([
+    Embedding(10000, 64, input_length=100),
+    LSTM(128),
+    Dense(1, activation='sigmoid')
+])
+print(model.output_shape)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">The last Dense layer has 1 unit with sigmoid.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>(None, 1)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output shape of Bidirectional(LSTM(64))?<br><pre><code>layer = Bidirectional(LSTM(64))
+# Input: (batch, 50, 32)
+# Output: ?</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Bidirectional concatenates forward and backward outputs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>(None, 128)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does pad_sequences produce?<br><pre><code>from tensorflow.keras.preprocessing.sequence import pad_sequences
+
+seqs = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
+padded = pad_sequences(seqs, maxlen=4, padding='post')
+print(padded)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">padding='post' adds zeros at the end. maxlen=4 limits the length.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>[[1, 2, 3, 0], [4, 5, 0, 0], [6, 7, 8, 9]]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does the Embedding layer do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">It converts integer word indices to dense vectors.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">The Embedding layer converts integer word indices into dense floating-point vectors. For example, Embedding(10000, 64) creates a lookup table of 10000 words, each mapped to a 64-dimensional vector. When the input is [42, 315, 18], the layer looks up the 64-dim vector for each index. These vectors are learned during training, so semantically similar words end up with similar vectors. It replaces the need for one-hot encoding, which would be sparse and high-dimensional.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output shape at each layer?<br><pre><code>model = tf.keras.Sequential([
+    Embedding(5000, 32, input_length=50),
+    LSTM(64, return_sequences=True),
+    LSTM(32),
+    Dense(5, activation='softmax')
+])
+for layer in model.layers:
+    print(f"{layer.name}: {layer.output_shape}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">return_sequences=True returns 3D output; False returns 2D.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>embedding: (None, 50, 32)</code><br><code>lstm: (None, 50, 64)</code><br><code>lstm_1: (None, 32)</code><br><code>dense: (None, 5)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Explain the vanishing gradient problem in vanilla RNNs. Why does it happen and what is its practical effect?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Gradients are multiplied by the weight matrix at each time step during backpropagation.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8">During backpropagation through time, gradients flow backward from the output through each time step. At each step, the gradient is multiplied by the weight matrix W_hh. If the largest eigenvalue of W_hh is less than 1, these repeated multiplications cause the gradient to shrink exponentially -- after N steps, the gradient is roughly proportional to (eigenvalue)^N, which approaches zero. Practical effect: the network cannot learn dependencies between events more than ~10-20 steps apart. In a 500-word review, the network cannot connect information from the beginning to the end.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What are the three gates in an LSTM? Briefly explain what each does.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Forget, Input, and Output gates.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><strong>Forget Gate</strong>: Examines the previous hidden state and current input, outputs a value between 0 and 1 for each cell state element. Decides what information to discard from the cell state (0 = forget completely, 1 = keep fully). <strong>Input Gate</strong>: Decides what new information to store in the cell state. A sigmoid determines which values to update. A tanh creates candidate new values. Together they add new information to memory. <strong>Output Gate</strong>: Decides what to output from the cell state. A sigmoid determines which parts of the cell state to expose as the hidden state output. The cell state is the internal memory; the output gate controls what the outside world sees.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">How many parameters does this LSTM layer have?<br><pre><code>layer = LSTM(32, input_shape=(10, 16))
+layer.build(input_shape=(None, 10, 16))
+print(layer.count_params())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">LSTM has 4 gates, each with weights for input and hidden state, plus biases.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>6272</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When should you use a Bidirectional RNN vs a unidirectional RNN?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">It depends on whether future context is available.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">Use <strong>Bidirectional</strong> when the complete sequence is available and future context helps: text classification, sentiment analysis, named entity recognition, question answering. The backward pass provides information from later in the sequence that helps understand earlier tokens. Use <strong>Unidirectional</strong> when future data is not available: real-time prediction (next word prediction), time series forecasting (predicting future values), speech recognition (processing audio as it arrives), any streaming/online application.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is wrong with this code, and what error will it produce?<br><pre><code>model = tf.keras.Sequential([
+    Embedding(10000, 64),
+    LSTM(64),                          # return_sequences=False
+    LSTM(32, return_sequences=True),   # Expects 3D input
+    Dense(1, activation='sigmoid')
+])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">The first LSTM outputs 2D but the second expects 3D.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">The first LSTM has <code>return_sequences=False</code> (default), so it outputs 2D shape (batch, 64). The second LSTM expects 3D input (batch, timesteps, features). This raises: <code>ValueError: Input 0 of layer 'lstm_1' is incompatible with the layer: expected ndim=3, found ndim=2</code>. Fix: set <code>return_sequences=True</code> on the first LSTM.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">How does GRU differ from LSTM? What are the trade-offs?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">GRU has 2 gates instead of 3 and no separate cell state.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">LSTM has 3 gates (forget, input, output) and a separate cell state. GRU has 2 gates (update, reset) and no separate cell state -- it merges cell state and hidden state. The update gate in GRU combines the roles of LSTM's forget and input gates. Trade-offs: GRU has ~25% fewer parameters (faster training, less memory), is simpler to implement and understand, and performs comparably to LSTM on most tasks. LSTM may have an edge on tasks requiring very long-range dependencies because its separate cell state provides a more stable memory pathway. In practice, the performance difference is usually small.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the total number of trainable parameters?<br><pre><code>model = tf.keras.Sequential([
+    Embedding(5000, 32, input_length=100),
+    Bidirectional(LSTM(64)),
+    Dense(1, activation='sigmoid')
+])
+print(model.count_params())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Embedding: vocab * dim. Bidirectional LSTM: 2 * LSTM params. Dense: input * output + bias.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14">Embedding: 5000 * 32 = 160,000. BiLSTM: 2 * 4 * ((32+64)*64 + 64) = 2 * 4 * (6144+64) = 2 * 24,832 = 49,664. Dense: (128*1) + 1 = 129. Total: <code>209,793</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why does the cell state update equation C_t = f_t * C_(t-1) + i_t * C_candidate solve the vanishing gradient problem?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Compare multiplication by a weight matrix (vanilla RNN) vs element-wise multiplication and addition (LSTM).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">In a vanilla RNN, the hidden state is updated by multiplying by the weight matrix W_hh, which causes gradients to shrink (or explode) exponentially. In LSTM, the cell state is updated through element-wise multiplication (f_t * C_(t-1)) and addition (+ i_t * C_candidate). The forget gate f_t is bounded between 0 and 1 by sigmoid. When f_t is close to 1, the gradient flows through almost unchanged (multiplying by ~1 preserves it). The addition operation has a gradient of 1, meaning it does not cause the gradient to shrink at all. Together, this creates a gradient highway where information (and gradients) can flow across many time steps without vanishing.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the shape of the Embedding output?<br><pre><code>layer = Embedding(10000, 64, input_length=50)
+# Input: (batch, 50) -- integer indices
+# Output: ?</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Each integer is replaced by a 64-dimensional vector.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>(None, 50, 64)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>num_words=10000</code> mean in Tokenizer?<br><pre><code>tokenizer = Tokenizer(num_words=10000, oov_token='<OOV>')
+tokenizer.fit_on_texts(texts)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">It limits the vocabulary size.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">It keeps only the 10,000 most frequent words in the vocabulary. Words that are not in the top 10,000 are replaced with the OOV (out-of-vocabulary) token. This limits the vocabulary size, which reduces the Embedding layer size and prevents rare words from adding noise.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why do we normalize time series data before feeding it to an LSTM?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Similar to why we normalize images for CNNs.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">LSTM gates use sigmoid and tanh activations, which are sensitive to input scale. Large input values cause saturation (sigmoid outputs near 0 or 1, tanh outputs near -1 or 1), leading to vanishing gradients. Normalized data (mean=0, std=1 or range [0,1]) keeps values in a range where activations and gradients are most effective. This leads to faster convergence and better performance. After prediction, denormalize the output to get values in the original scale.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does <code>oov_token='&lt;OOV&gt;'</code> handle?<br><pre><code>tokenizer = Tokenizer(num_words=100, oov_token='<OOV>')
+tokenizer.fit_on_texts(["I love coding"])
+new_seq = tokenizer.texts_to_sequences(["I love dancing"])
+print(new_seq)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">'dancing' was not in the training texts.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>[[2, 3, 1]]</code> where 1 is the OOV token index (replacing 'dancing').</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">How does the sliding window technique work for time series?<br><pre><code>import numpy as np
+data = np.array([10, 20, 30, 40, 50, 60, 70])
+SEQ_LEN = 3
+
+X, y = [], []
+for i in range(len(data) - SEQ_LEN):
+    X.append(data[i:i+SEQ_LEN])
+    y.append(data[i+SEQ_LEN])
+
+print(f"X: {np.array(X)}")
+print(f"y: {np.array(y)}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Each window of 3 values predicts the next value.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>X: [[10, 20, 30], [20, 30, 40], [30, 40, 50], [40, 50, 60]]</code><br><code>y: [40, 50, 60, 70]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does LSTM have approximately 4x the parameters of SimpleRNN with the same number of units?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Count the gates in LSTM.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">LSTM has 4 sets of weight matrices (forget gate, input gate, candidate cell, output gate), while SimpleRNN has only 1 set. Each gate in LSTM has its own input-to-hidden weights, hidden-to-hidden weights, and biases -- the same three components as a full SimpleRNN. So LSTM with 64 units is effectively 4 SimpleRNNs with 64 units each, resulting in approximately 4x the parameters.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does truncating='post' do in pad_sequences?<br><pre><code>seqs = [[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]]
+padded = pad_sequences(seqs, maxlen=5, truncating='post')
+print(padded)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">The sequence is too long and must be truncated to maxlen.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>[[1, 2, 3, 4, 5]]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What output shape does return_sequences produce?<br><pre><code>import tensorflow as tf
+
+# return_sequences=False (default)
+layer_false = tf.keras.layers.LSTM(64)
+out_false = layer_false(tf.random.normal((8, 20, 32)))
+print(f"False: {out_false.shape}")
+
+# return_sequences=True
+layer_true = tf.keras.layers.LSTM(64, return_sequences=True)
+out_true = layer_true(tf.random.normal((8, 20, 32)))
+print(f"True: {out_true.shape}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">False returns the last state only. True returns state at every step.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>False: (8, 64)</code><br><code>True: (8, 20, 64)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Nikhil built an LSTM for sentiment analysis. Training accuracy is 95% but test accuracy is 72%. What should he do?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Large gap between train and test indicates overfitting.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">The model is overfitting. Nikhil should: (1) Add Dropout layers between LSTM and Dense layers (0.3-0.5). (2) Add recurrent_dropout parameter to LSTM (e.g., LSTM(64, dropout=0.3, recurrent_dropout=0.2)) to apply dropout to both input and recurrent connections. (3) Reduce model complexity (fewer units, fewer layers). (4) Add L2 regularization to Dense layers. (5) Use a pre-trained embedding (Word2Vec, GloVe) instead of learning from scratch, which requires less data. (6) Reduce the embedding dimension. (7) Consider using a smaller vocabulary (num_words). (8) Ensure the dataset is large enough and not imbalanced.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is the cell state update in LSTM based on addition (C_t = f * C_old + i * C_new) rather than concatenation or other operations?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Think about gradient flow during backpropagation.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">Addition has a gradient of 1 during backpropagation. When computing dLoss/dC_(t-1), the addition term contributes a gradient that flows through unchanged. This is the key property that prevents vanishing gradients. If concatenation were used, you would need a weight matrix to combine the concatenated values, reintroducing the multiplicative gradient problem. If a different non-linear operation were used, it would compress or distort the gradient. The element-wise multiplication by f_t (forget gate) is bounded [0,1], so it can selectively preserve gradients. Addition plus gated multiplication is the minimal mechanism that provides both selective memory and gradient preservation.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">How many parameters does GRU(64, input_shape=(20, 32)) have?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">GRU has 3 weight matrices (update, reset, candidate) instead of LSTM's 4.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>18,816</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Ananya has a dataset where each sample is a patient's vital signs recorded every hour for 48 hours. She wants to predict whether the patient will need ICU admission. How should she structure the LSTM input and output?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Think about the input shape: (batch, timesteps, features) and the classification output.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">Input shape should be (batch_size, 48, num_features) where 48 is the number of time steps (hours) and num_features is the number of vital signs (e.g., heart rate, blood pressure, temperature = 3 features). She should normalize each feature independently. The model should end with LSTM(units, return_sequences=False) to get one representation per patient, followed by Dense layers with sigmoid output for binary classification (ICU yes/no). Use binary_crossentropy loss. If data is imbalanced (few ICU admissions), use class_weight in model.fit() and evaluate with precision/recall rather than just accuracy.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the effective vocabulary size of this Embedding layer?<br><pre><code>tokenizer = Tokenizer(num_words=5000, oov_token='<OOV>')
+tokenizer.fit_on_texts(train_texts)
+
+model = tf.keras.Sequential([
+    Embedding(input_dim=5000, output_dim=64),
+    ...
+])
+
+# Is input_dim=5000 correct?</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">With oov_token, the actual vocabulary includes index 0 (padding) and index 1 (OOV).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13">This may cause an issue. With <code>oov_token='&lt;OOV&gt;'</code>, the OOV token gets index 1, and word indices start from 2. <code>num_words=5000</code> means indices 0-4999 are used. But because index 0 is reserved for padding and index 1 for OOV, there are effectively 4998 real words. The Embedding <code>input_dim</code> should be at least 5001 to safely handle all indices. Using 5000 could cause an index-out-of-range error for the 5000th word.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What type of neural network is specifically designed for sequential data?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> CNN</li><li><span class="mcq-option-label">B.</span> RNN</li><li><span class="mcq-option-label">C.</span> Autoencoder</li><li><span class="mcq-option-label">D.</span> GAN</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> RNNs (Recurrent Neural Networks) are designed for sequential data where order matters (text, time series, audio). CNNs are for spatial data (images). Autoencoders and GANs are generative models.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does the hidden state in an RNN represent?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The model&#39;s weights</li><li><span class="mcq-option-label">B.</span> A compressed summary of the sequence seen so far</li><li><span class="mcq-option-label">C.</span> The learning rate</li><li><span class="mcq-option-label">D.</span> The number of layers</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> The hidden state is a vector that encodes a compressed summary of all elements processed so far in the sequence. It is updated at each time step and serves as the RNN's memory.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What problem does LSTM solve that vanilla RNNs cannot?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Image classification</li><li><span class="mcq-option-label">B.</span> The vanishing gradient problem in long sequences</li><li><span class="mcq-option-label">C.</span> Unsupervised learning</li><li><span class="mcq-option-label">D.</span> Parallel processing</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> LSTM solves the vanishing gradient problem through its cell state and gating mechanisms. This allows it to learn long-range dependencies that vanilla RNNs cannot capture.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does pad_sequences do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Encrypts the sequences for security</li><li><span class="mcq-option-label">B.</span> Makes all sequences the same length by adding zeros</li><li><span class="mcq-option-label">C.</span> Converts text to binary</li><li><span class="mcq-option-label">D.</span> Removes duplicate sequences</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> pad_sequences adds zeros to shorter sequences and truncates longer sequences so all sequences have the same length. Neural networks require fixed-size input.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does the Embedding layer convert?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Images to text</li><li><span class="mcq-option-label">B.</span> Float values to integers</li><li><span class="mcq-option-label">C.</span> Integer word indices to dense float vectors</li><li><span class="mcq-option-label">D.</span> Dense vectors to sparse vectors</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> The Embedding layer maps each integer index to a dense floating-point vector (e.g., 64 dimensions). This is more efficient and meaningful than one-hot encoding.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">How many gates does an LSTM cell have?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1</li><li><span class="mcq-option-label">B.</span> 2</li><li><span class="mcq-option-label">C.</span> 3</li><li><span class="mcq-option-label">D.</span> 4</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> LSTM has 3 gates: forget gate (what to discard), input gate (what to add), and output gate (what to output). There is also a cell candidate computation, but it is not technically a gate.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does return_sequences=True do in an LSTM layer?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Returns the model&#39;s weights</li><li><span class="mcq-option-label">B.</span> Returns hidden states at every time step, not just the last</li><li><span class="mcq-option-label">C.</span> Returns the input sequences unchanged</li><li><span class="mcq-option-label">D.</span> Returns the loss at each training step</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> return_sequences=True returns the hidden state at every time step (3D output: batch, timesteps, units). False returns only the last hidden state (2D: batch, units). True is needed when stacking RNN layers.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is the main difference between GRU and LSTM?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> GRU is for images, LSTM is for text</li><li><span class="mcq-option-label">B.</span> GRU has 2 gates and no separate cell state; LSTM has 3 gates and a cell state</li><li><span class="mcq-option-label">C.</span> GRU is always better than LSTM</li><li><span class="mcq-option-label">D.</span> LSTM cannot process long sequences</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> GRU has 2 gates (update, reset) and merges cell state with hidden state. LSTM has 3 gates (forget, input, output) and a separate cell state. GRU is simpler with fewer parameters but similar performance.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the input shape required for LSTM layers in Keras?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> (batch_size, features)</li><li><span class="mcq-option-label">B.</span> (batch_size, height, width, channels)</li><li><span class="mcq-option-label">C.</span> (batch_size, timesteps, features)</li><li><span class="mcq-option-label">D.</span> (batch_size, timesteps)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> LSTM requires 3D input: (batch_size, timesteps, features). Even with a single feature, the features dimension must be present. For text, the Embedding layer converts 2D input to 3D.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What does Bidirectional(LSTM(64)) output?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A 64-dimensional vector</li><li><span class="mcq-option-label">B.</span> A 128-dimensional vector (64 forward + 64 backward)</li><li><span class="mcq-option-label">C.</span> Two separate 64-dimensional vectors</li><li><span class="mcq-option-label">D.</span> A 32-dimensional vector (64 / 2)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Bidirectional runs a forward LSTM (64 units) and a backward LSTM (64 units), then concatenates their outputs by default: 64 + 64 = 128. The merge_mode parameter can change this behavior.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Why does LSTM use addition (not multiplication) to update the cell state?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Addition is computationally cheaper</li><li><span class="mcq-option-label">B.</span> Addition preserves gradients during backpropagation, preventing vanishing gradients</li><li><span class="mcq-option-label">C.</span> Multiplication would make values too large</li><li><span class="mcq-option-label">D.</span> Addition is required by the Keras API</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> The gradient of addition is 1, meaning gradients flow through without shrinking. This is the fundamental mechanism that prevents vanishing gradients in LSTM. Multiplication by the weight matrix (as in vanilla RNN) causes exponential gradient decay.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">For a GRU layer with input_dim=32 and units=64, approximately how many parameters does it have?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ~6,000</li><li><span class="mcq-option-label">B.</span> ~12,000</li><li><span class="mcq-option-label">C.</span> ~19,000</li><li><span class="mcq-option-label">D.</span> ~25,000</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> GRU has 3 weight matrices. Each: (input_dim + units) * units + units = (32+64)*64 + 64 = 6208. Total: 3 * 6208 = 18,624 (approximately 19,000).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">When stacking 3 LSTM layers, which must have return_sequences=True?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only the first layer</li><li><span class="mcq-option-label">B.</span> Only the last layer</li><li><span class="mcq-option-label">C.</span> The first and second layers (all except the last)</li><li><span class="mcq-option-label">D.</span> All three layers</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> All layers except the last must use return_sequences=True. Each LSTM expects 3D input (batch, timesteps, features). The first two layers must output the full sequence so the next layer receives 3D input. The last layer can use False for classification.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which of the following is NOT a suitable use case for Bidirectional RNNs?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Text classification</li><li><span class="mcq-option-label">B.</span> Named entity recognition</li><li><span class="mcq-option-label">C.</span> Real-time stock price prediction</li><li><span class="mcq-option-label">D.</span> Sentiment analysis</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> Real-time stock price prediction cannot use a bidirectional RNN because future data is not available at prediction time. The backward RNN would need future data. Bidirectional works when the full sequence is available (text classification, NER, sentiment analysis).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does LSTM stand for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Long Sequential Token Memory</li><li><span class="mcq-option-label">B.</span> Long Short-Term Memory</li><li><span class="mcq-option-label">C.</span> Large Scale Training Model</li><li><span class="mcq-option-label">D.</span> Linear Sequence Transform Module</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> LSTM stands for Long Short-Term Memory. The name reflects its ability to remember information over long time spans (long-term) while also handling short-term patterns.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the purpose of padding in sequence preprocessing?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To add noise to the data</li><li><span class="mcq-option-label">B.</span> To make all sequences the same length for batch processing</li><li><span class="mcq-option-label">C.</span> To encrypt the sequences</li><li><span class="mcq-option-label">D.</span> To remove short sequences</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> Neural networks require fixed-size input tensors. Padding adds zeros to shorter sequences so all sequences have the same length, enabling efficient batch processing.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What activation function do LSTM gates use?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ReLU</li><li><span class="mcq-option-label">B.</span> Softmax</li><li><span class="mcq-option-label">C.</span> Sigmoid</li><li><span class="mcq-option-label">D.</span> Linear</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> LSTM gates (forget, input, output) use sigmoid activation, which outputs values between 0 and 1. This allows gates to act as soft switches: 0 = completely closed, 1 = completely open. The cell candidate uses tanh.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">How many parameters does Embedding(10000, 64) have?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10,000</li><li><span class="mcq-option-label">B.</span> 64</li><li><span class="mcq-option-label">C.</span> 640,000</li><li><span class="mcq-option-label">D.</span> 10,064</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: C</strong><br><strong>C is correct.</strong> An Embedding layer creates a lookup table of vocab_size x embedding_dim. 10000 words x 64 dimensions = 640,000 trainable parameters.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">What is the cell state in LSTM?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The number of cells in the network</li><li><span class="mcq-option-label">B.</span> A separate memory pathway that carries information across time steps with minimal modification</li><li><span class="mcq-option-label">C.</span> The learning rate for each cell</li><li><span class="mcq-option-label">D.</span> The batch size used during training</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> The cell state is a vector that acts as a conveyor belt for information. It flows through time steps with only element-wise multiplication and addition (not matrix multiplication), preserving gradients and enabling long-range memory.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">Which layer in Keras converts word indices to dense vectors?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Dense</li><li><span class="mcq-option-label">B.</span> LSTM</li><li><span class="mcq-option-label">C.</span> Embedding</li><li><span class="mcq-option-label">D.</span> Flatten</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: C</strong><br><strong>C is correct.</strong> The Embedding layer maps integer word indices to dense floating-point vectors. Embedding(10000, 64) maps each of 10000 possible word indices to a 64-dimensional vector.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 21</div>
+                <div class="question-text">What is the difference between padding='pre' and padding='post' in pad_sequences?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> pre adds zeros before the sequence; post adds zeros after</li><li><span class="mcq-option-label">B.</span> pre pads with ones; post pads with zeros</li><li><span class="mcq-option-label">C.</span> pre is faster; post is more accurate</li><li><span class="mcq-option-label">D.</span> pre truncates from the start; post truncates from the end</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-21"><strong>Answer: A</strong><br><strong>A is correct.</strong> padding='pre' adds zeros at the beginning of shorter sequences: [0, 0, 1, 2, 3]. padding='post' adds zeros at the end: [1, 2, 3, 0, 0]. The default is 'pre'. For LSTMs, 'pre' often works better because the last elements (real data) are closest to the output.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 22</div>
+                <div class="question-text">Why is dropout applied differently during training and inference in LSTM?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Dropout is not used in LSTMs</li><li><span class="mcq-option-label">B.</span> During training, neurons are randomly dropped to prevent overfitting; during inference, all neurons are active for deterministic predictions</li><li><span class="mcq-option-label">C.</span> During inference, more neurons are dropped</li><li><span class="mcq-option-label">D.</span> Dropout only affects the final Dense layer</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-22"><strong>Answer: B</strong><br><strong>B is correct.</strong> During training, dropout randomly zeroes neurons to prevent co-adaptation and reduce overfitting. During inference (predict/evaluate), all neurons are active and outputs are scaled to compensate. This ensures predictions are deterministic and use the model's full capacity.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 23</div>
+                <div class="question-text">What does recurrent_dropout do in Keras LSTM?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Drops entire recurrent layers</li><li><span class="mcq-option-label">B.</span> Applies dropout to the recurrent connections (hidden-to-hidden weights)</li><li><span class="mcq-option-label">C.</span> Removes time steps from the sequence</li><li><span class="mcq-option-label">D.</span> Reduces the number of LSTM units</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-23"><strong>Answer: B</strong><br><strong>B is correct.</strong> recurrent_dropout applies dropout to the connections between time steps (the recurrent/hidden-to-hidden connections). Regular dropout applies to the input connections. Using both provides better regularization for LSTMs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 24</div>
+                <div class="question-text">What is the key advantage of GRU over LSTM?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> GRU always achieves higher accuracy</li><li><span class="mcq-option-label">B.</span> GRU has fewer parameters (2 gates vs 3), making it faster to train with comparable performance</li><li><span class="mcq-option-label">C.</span> GRU can handle longer sequences</li><li><span class="mcq-option-label">D.</span> GRU does not suffer from vanishing gradients</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-24"><strong>Answer: B</strong><br><strong>B is correct.</strong> GRU has approximately 75% of LSTM's parameters (2 gates vs 3, no separate cell state). It trains faster and requires less memory while achieving comparable performance on most tasks. LSTM may have a slight edge on tasks requiring very long-range memory.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 25</div>
+                <div class="question-text">Which of the following is NOT a suitable application for RNNs?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Sentiment analysis of text</li><li><span class="mcq-option-label">B.</span> Image classification of static photos</li><li><span class="mcq-option-label">C.</span> Time series forecasting</li><li><span class="mcq-option-label">D.</span> Speech recognition</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-25"><strong>Answer: B</strong><br><strong>B is correct.</strong> Static image classification is best handled by CNNs, not RNNs. RNNs are designed for sequential data where order matters: text, time series, audio, and video. A single static image has no sequential structure.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <p>Coding challenges coming soon.</p>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/ai-and-machine-learning/convolutional-neural-networks/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Convolutional Neural Networks (CNN) for Computer Vision</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/natural-language-processing/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Natural Language Processing (NLP) Fundamentals</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/ai-and-machine-learning/recurrent-neural-networks" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

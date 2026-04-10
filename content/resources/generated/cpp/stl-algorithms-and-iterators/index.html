@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STL Algorithms and Iterators - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Use sort, find, binary_search, accumulate, transform, and iterators to write efficient C++ code.">
+    <meta name="keywords" content="stl algorithms and iterators, c++ tutorial, c++ stl algorithms and iterators, learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators">
+    <meta property="og:title" content="STL Algorithms and Iterators - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Use sort, find, binary_search, accumulate, transform, and iterators to write efficient C++ code.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators">
+    <meta name="twitter:title" content="STL Algorithms and Iterators - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Use sort, find, binary_search, accumulate, transform, and iterators to write efficient C++ code.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "STL Algorithms and Iterators",
+    "description": "Use sort, find, binary_search, accumulate, transform, and iterators to write efficient C++ code.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "STL Algorithms and Iterators",
+        "item": "https://learn.modernagecoders.com/resources/cpp/stl-algorithms-and-iterators"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">STL Algorithms and Iterators</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 21</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">STL Algorithms and Iterators</h1>
+            <a href="/resources/cpp/stl-algorithms-and-iterators/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are STL Algorithms and Iterators?</h2><p>The <strong>Standard Template Library (STL)</strong> provides a rich collection of generic algorithms that operate on containers through <strong>iterators</strong>. Instead of writing loops manually, you use algorithms like <code>sort</code>, <code>find</code>, <code>binary_search</code>, <code>accumulate</code>, and <code>transform</code> that are already optimized, tested, and correct.</p><p>An <strong>iterator</strong> is a generalized pointer that provides a uniform way to traverse any STL container. Iterators decouple algorithms from containers -- <code>std::sort</code> works on vectors, arrays, and deques without knowing anything about their internal structure.</p><pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+#include &lt;numeric&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; v = {5, 2, 8, 1, 9, 3};
+
+    // Without STL: manual loop to find max
+    int maxVal = v[0];
+    for (int i = 1; i &lt; v.size(); i++)
+        if (v[i] &gt; maxVal) maxVal = v[i];
+
+    // With STL: one line
+    auto it = max_element(v.begin(), v.end());
+    cout &lt;&lt; "Max: " &lt;&lt; *it &lt;&lt; endl;  // 9
+
+    sort(v.begin(), v.end());
+    // v is now {1, 2, 3, 5, 8, 9}
+
+    int sum = accumulate(v.begin(), v.end(), 0);
+    cout &lt;&lt; "Sum: " &lt;&lt; sum &lt;&lt; endl;  // 28
+    return 0;
+}</code></pre><p>When Raghav says "use <code>lower_bound</code> on the sorted array," every competitive programmer knows exactly what that means -- a binary search for the first element not less than a given value, in O(log n) time.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are STL Algorithms and Iterators Important?</h2><h3>1. Competitive Programming Speed</h3><p>In competitive programming, writing a correct binary search or sorting algorithm from scratch wastes precious time. STL algorithms like <code>sort</code>, <code>lower_bound</code>, <code>next_permutation</code>, and <code>accumulate</code> let you solve problems in minutes instead of hours. Neha can sort a million elements with one line instead of implementing quicksort from scratch.</p><h3>2. Correctness and Optimization</h3><p>STL algorithms are implemented by compiler vendors (GCC, Clang, MSVC) and are heavily optimized. <code>std::sort</code> uses introsort (a hybrid of quicksort, heapsort, and insertion sort) with O(n log n) worst-case guarantee. Writing a better sort by hand is extremely unlikely.</p><h3>3. Abstraction Through Iterators</h3><p>Iterators provide a uniform interface across all containers. The same <code>find</code> algorithm works on <code>vector</code>, <code>list</code>, <code>deque</code>, and even raw arrays. You write the algorithm once using iterators and it works everywhere.</p><h3>4. Lambda Expressions Enable Custom Logic</h3><p>C++11 lambdas let you pass custom comparators and predicates inline. Sorting a vector of pairs by second element, filtering elements that satisfy a condition, or transforming data becomes a one-liner with lambdas.</p><h3>5. Placement and Interview Relevance</h3><p>Companies like Google, Amazon, Microsoft, Flipkart, and Directi expect candidates to be fluent with STL algorithms. Interview problems frequently require sorting with custom comparators, binary search with lower_bound/upper_bound, and efficient use of accumulate and transform.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Iterator Types</h3><p>C++ defines five categories of iterators, each with different capabilities:</p><table><tr><th>Iterator Type</th><th>Operations</th><th>Containers</th></tr><tr><td>Input Iterator</td><td>Read, increment (++), single-pass</td><td>istream_iterator</td></tr><tr><td>Output Iterator</td><td>Write, increment (++), single-pass</td><td>ostream_iterator, back_inserter</td></tr><tr><td>Forward Iterator</td><td>Read/Write, increment (++), multi-pass</td><td>forward_list, unordered_set</td></tr><tr><td>Bidirectional Iterator</td><td>Read/Write, increment/decrement (++/--)</td><td>list, set, map</td></tr><tr><td>Random Access Iterator</td><td>Read/Write, +, -, [], comparison</td><td>vector, deque, array</td></tr></table><pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; v = {10, 20, 30, 40, 50};
+
+    // begin() and end()
+    auto it = v.begin();       // points to first element
+    cout &lt;&lt; *it &lt;&lt; endl;      // 10
+
+    it++;                       // move forward
+    cout &lt;&lt; *it &lt;&lt; endl;      // 20
+
+    // Random access: jump directly
+    cout &lt;&lt; *(v.begin() + 3) &lt;&lt; endl;  // 40
+
+    // auto with iterators (C++11)
+    for (auto it = v.begin(); it != v.end(); ++it)
+        cout &lt;&lt; *it &lt;&lt; " ";   // 10 20 30 40 50
+    cout &lt;&lt; endl;
+
+    // Reverse iterators
+    for (auto rit = v.rbegin(); rit != v.rend(); ++rit)
+        cout &lt;&lt; *rit &lt;&lt; " ";  // 50 40 30 20 10
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre><h3>2. Sorting Algorithms</h3><p>The <code>&lt;algorithm&gt;</code> header provides multiple sorting functions, each with different guarantees:</p><pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; v = {5, 2, 8, 1, 9, 3, 7, 4, 6};
+
+    // sort: O(n log n), not stable, uses introsort
+    sort(v.begin(), v.end());
+    // v = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+    // sort descending with custom comparator
+    sort(v.begin(), v.end(), greater&lt;int&gt;());
+    // v = {9, 8, 7, 6, 5, 4, 3, 2, 1}
+
+    // stable_sort: O(n log n), preserves order of equal elements
+    vector&lt;pair&lt;int,string&gt;&gt; students = {{85,"Arjun"}, {90,"Priya"}, {85,"Kiran"}};
+    stable_sort(students.begin(), students.end(),
+        [](const pair&lt;int,string&gt;&amp; a, const pair&lt;int,string&gt;&amp; b) {
+            return a.first &gt; b.first;  // sort by marks descending
+        });
+    // {90,Priya}, {85,Arjun}, {85,Kiran} -- Arjun before Kiran (stable)
+
+    // partial_sort: sort only first k elements, O(n log k)
+    vector&lt;int&gt; w = {5, 2, 8, 1, 9, 3};
+    partial_sort(w.begin(), w.begin() + 3, w.end());
+    // First 3 are sorted: {1, 2, 3, ...rest unspecified}
+
+    // nth_element: place nth element in correct position, O(n)
+    vector&lt;int&gt; x = {5, 2, 8, 1, 9, 3};
+    nth_element(x.begin(), x.begin() + 2, x.end());
+    // x[2] is the element that would be at index 2 if sorted (3)
+    // elements before it are &lt;= 3, elements after are &gt;= 3
+    return 0;
+}</code></pre><h3>3. Searching Algorithms</h3><pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; v = {1, 3, 5, 7, 9, 11, 13};
+
+    // find: linear search, O(n)
+    auto it = find(v.begin(), v.end(), 7);
+    if (it != v.end())
+        cout &lt;&lt; "Found 7 at index " &lt;&lt; (it - v.begin()) &lt;&lt; endl;  // 3
+
+    // binary_search: returns bool, O(log n), requires sorted range
+    bool found = binary_search(v.begin(), v.end(), 5);
+    cout &lt;&lt; "5 exists: " &lt;&lt; found &lt;&lt; endl;  // 1 (true)
+
+    // lower_bound: first element &gt;= value, O(log n)
+    auto lb = lower_bound(v.begin(), v.end(), 6);
+    cout &lt;&lt; "lower_bound(6): " &lt;&lt; *lb &lt;&lt; endl;  // 7
+
+    // upper_bound: first element &gt; value, O(log n)
+    auto ub = upper_bound(v.begin(), v.end(), 7);
+    cout &lt;&lt; "upper_bound(7): " &lt;&lt; *ub &lt;&lt; endl;  // 9
+
+    // equal_range: pair of (lower_bound, upper_bound)
+    vector&lt;int&gt; w = {1, 3, 3, 3, 5, 7};
+    auto [lo, hi] = equal_range(w.begin(), w.end(), 3);
+    cout &lt;&lt; "Count of 3: " &lt;&lt; (hi - lo) &lt;&lt; endl;  // 3
+    return 0;
+}</code></pre><h3>4. Modifying Algorithms</h3><pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; v = {1, 2, 3, 4, 5};
+
+    // reverse
+    reverse(v.begin(), v.end());  // {5, 4, 3, 2, 1}
+
+    // rotate: rotate left by 2 positions
+    vector&lt;int&gt; w = {1, 2, 3, 4, 5};
+    rotate(w.begin(), w.begin() + 2, w.end());  // {3, 4, 5, 1, 2}
+
+    // unique: removes consecutive duplicates (must sort first for all dupes)
+    vector&lt;int&gt; x = {1, 1, 2, 2, 3, 3, 3};
+    auto last = unique(x.begin(), x.end());
+    x.erase(last, x.end());  // {1, 2, 3}
+
+    // remove: moves elements to end, returns new logical end
+    vector&lt;int&gt; y = {1, 2, 3, 2, 4, 2};
+    auto newEnd = remove(y.begin(), y.end(), 2);
+    y.erase(newEnd, y.end());  // {1, 3, 4}
+
+    // replace
+    vector&lt;int&gt; z = {1, 2, 3, 2, 4};
+    replace(z.begin(), z.end(), 2, 99);  // {1, 99, 3, 99, 4}
+
+    // transform: apply a function to each element
+    vector&lt;int&gt; src = {1, 2, 3, 4};
+    vector&lt;int&gt; dst(4);
+    transform(src.begin(), src.end(), dst.begin(),
+        [](int x) { return x * x; });
+    // dst = {1, 4, 9, 16}
+
+    // fill
+    vector&lt;int&gt; f(5);
+    fill(f.begin(), f.end(), 42);  // {42, 42, 42, 42, 42}
+
+    for (int val : dst) cout &lt;&lt; val &lt;&lt; " ";
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre><h3>5. Numeric Algorithms (&lt;numeric&gt;)</h3><pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;numeric&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; v = {1, 2, 3, 4, 5};
+
+    // accumulate: sum (or custom fold)
+    int sum = accumulate(v.begin(), v.end(), 0);
+    cout &lt;&lt; "Sum: " &lt;&lt; sum &lt;&lt; endl;  // 15
+
+    // accumulate with custom operation (product)
+    int product = accumulate(v.begin(), v.end(), 1, multiplies&lt;int&gt;());
+    cout &lt;&lt; "Product: " &lt;&lt; product &lt;&lt; endl;  // 120
+
+    // partial_sum: prefix sums
+    vector&lt;int&gt; prefix(5);
+    partial_sum(v.begin(), v.end(), prefix.begin());
+    // prefix = {1, 3, 6, 10, 15}
+
+    // inner_product: dot product
+    vector&lt;int&gt; a = {1, 2, 3};
+    vector&lt;int&gt; b = {4, 5, 6};
+    int dot = inner_product(a.begin(), a.end(), b.begin(), 0);
+    cout &lt;&lt; "Dot product: " &lt;&lt; dot &lt;&lt; endl;  // 1*4 + 2*5 + 3*6 = 32
+
+    // iota: fill with incrementing values
+    vector&lt;int&gt; seq(5);
+    iota(seq.begin(), seq.end(), 10);
+    // seq = {10, 11, 12, 13, 14}
+
+    for (int val : prefix) cout &lt;&lt; val &lt;&lt; " ";
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre><h3>6. Min/Max Algorithms</h3><pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; v = {3, 1, 4, 1, 5, 9, 2, 6};
+
+    auto minIt = min_element(v.begin(), v.end());
+    auto maxIt = max_element(v.begin(), v.end());
+    cout &lt;&lt; "Min: " &lt;&lt; *minIt &lt;&lt; " at index " &lt;&lt; (minIt - v.begin()) &lt;&lt; endl;
+    cout &lt;&lt; "Max: " &lt;&lt; *maxIt &lt;&lt; " at index " &lt;&lt; (maxIt - v.begin()) &lt;&lt; endl;
+
+    // minmax_element: both in one pass
+    auto [lo, hi] = minmax_element(v.begin(), v.end());
+    cout &lt;&lt; "Min: " &lt;&lt; *lo &lt;&lt; ", Max: " &lt;&lt; *hi &lt;&lt; endl;
+    return 0;
+}</code></pre><h3>7. Permutations</h3><pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; v = {1, 2, 3};
+
+    // Generate all permutations
+    sort(v.begin(), v.end());  // must start sorted for all permutations
+    do {
+        for (int x : v) cout &lt;&lt; x &lt;&lt; " ";
+        cout &lt;&lt; endl;
+    } while (next_permutation(v.begin(), v.end()));
+    // Output:
+    // 1 2 3
+    // 1 3 2
+    // 2 1 3
+    // 2 3 1
+    // 3 1 2
+    // 3 2 1
+
+    // prev_permutation: lexicographically previous
+    vector&lt;int&gt; w = {3, 2, 1};
+    prev_permutation(w.begin(), w.end());
+    // w = {3, 1, 2}
+    return 0;
+}</code></pre><h3>8. Lambda Expressions with Algorithms</h3><pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+#include &lt;numeric&gt;
+using namespace std;
+
+int main() {
+    // Sort vector of pairs by second element
+    vector&lt;pair&lt;string, int&gt;&gt; students = {
+        {"Arjun", 85}, {"Priya", 92}, {"Kiran", 78}, {"Neha", 92}
+    };
+    sort(students.begin(), students.end(),
+        [](const pair&lt;string,int&gt;&amp; a, const pair&lt;string,int&gt;&amp; b) {
+            return a.second &gt; b.second;  // descending by marks
+        });
+    for (auto&amp; [name, marks] : students)
+        cout &lt;&lt; name &lt;&lt; ": " &lt;&lt; marks &lt;&lt; endl;
+
+    // count_if with lambda
+    vector&lt;int&gt; v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int evenCount = count_if(v.begin(), v.end(),
+        [](int x) { return x % 2 == 0; });
+    cout &lt;&lt; "Even count: " &lt;&lt; evenCount &lt;&lt; endl;  // 5
+
+    // Capture variables in lambda
+    int threshold = 5;
+    int above = count_if(v.begin(), v.end(),
+        [threshold](int x) { return x &gt; threshold; });
+    cout &lt;&lt; "Above " &lt;&lt; threshold &lt;&lt; ": " &lt;&lt; above &lt;&lt; endl;  // 5
+
+    // remove_if with lambda (erase-remove idiom)
+    vector&lt;int&gt; w = {1, 2, 3, 4, 5, 6};
+    w.erase(
+        remove_if(w.begin(), w.end(), [](int x) { return x % 2 == 0; }),
+        w.end()
+    );
+    // w = {1, 3, 5}
+    return 0;
+}</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <p>No code examples available yet.</p>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <p>No common mistakes listed for this topic.</p>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <p>Summary coming soon.</p>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/stl-containers" class="related-topic-link">STL Containers - vector, list, map, set, stack, queue</a>
+<a href="/resources/cpp/file-handling-in-cpp" class="related-topic-link">File Handling (ifstream, ofstream, fstream)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/stl-containers" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">STL Containers - vector, list, map, set, stack, queue</span>
+        </a>
+            <a href="/resources/cpp/file-handling-in-cpp" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">File Handling (ifstream, ofstream, fstream)</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/stl-algorithms-and-iterators/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

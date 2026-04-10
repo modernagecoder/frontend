@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Functions, Overloading, and Recursion | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="60+ practice questions on Functions, Overloading, and Recursion in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="functions, overloading, and recursion practice, c++ questions, c++ practice problems, functions, overloading, and recursion exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/functions-in-cpp/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/functions-in-cpp/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/functions-in-cpp/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/functions-in-cpp/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/functions-in-cpp/practice">
+    <meta property="og:title" content="Practice Questions - Functions, Overloading, and Recursion | C++ | Modern Age Coders">
+    <meta property="og:description" content="60+ practice questions on Functions, Overloading, and Recursion in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/functions-in-cpp/practice">
+    <meta name="twitter:title" content="Practice Questions - Functions, Overloading, and Recursion | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="60+ practice questions on Functions, Overloading, and Recursion in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Functions, Overloading, and Recursion",
+    "description": "60+ practice questions on Functions, Overloading, and Recursion in C++.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Functions, Overloading, and Recursion"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/functions-in-cpp/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Functions, Overloading, and Recursion",
+        "item": "https://learn.modernagecoders.com/resources/cpp/functions-in-cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/functions-in-cpp/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/functions-in-cpp">Functions, Overloading, and Recursion</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 8</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">60 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Functions, Overloading, and Recursion</h1>
+            <a href="/resources/cpp/functions-in-cpp" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>void greet() {
+    cout << "Hello!";
+}
+int main() {
+    greet();
+    greet();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">greet() is called twice.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Hello!Hello!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int add(int a, int b) {
+    return a + b;
+}
+int main() {
+    cout << add(3, 7);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">add returns the sum of its arguments.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>void modify(int x) {
+    x = 99;
+}
+int main() {
+    int a = 5;
+    modify(a);
+    cout << a;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Is this pass-by-value or pass-by-reference?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>void modify(int& x) {
+    x = 99;
+}
+int main() {
+    int a = 5;
+    modify(a);
+    cout << a;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Note the & in the parameter.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>99</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int square(int n) {
+    return n * n;
+}
+int main() {
+    cout << square(4) + square(3);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Compute each function call, then add.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>25</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>void swap(int a, int b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
+int main() {
+    int x = 10, y = 20;
+    swap(x, y);
+    cout << x << " " << y;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Are a and b copies or references?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>10 20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int add(int a, int b) { return a + b; }
+double add(double a, double b) { return a + b; }
+
+int main() {
+    cout << add(3, 5) << " ";
+    cout << add(3.5, 2.5);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">The compiler selects the overloaded version based on argument types.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>8 6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>void print(int a, int b = 10, int c = 20) {
+    cout << a << " " << b << " " << c << endl;
+}
+int main() {
+    print(1);
+    print(1, 2);
+    print(1, 2, 3);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Default arguments fill in from right to left.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>1 10 20</code><br><code>1 2 20</code><br><code>1 2 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int factorial(int n) {
+    if (n <= 1) return 1;
+    return n * factorial(n - 1);
+}
+int main() {
+    cout << factorial(5);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Trace: 5 * 4 * 3 * 2 * 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>120</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int fib(int n) {
+    if (n <= 1) return n;
+    return fib(n - 1) + fib(n - 2);
+}
+int main() {
+    for (int i = 0; i < 7; i++)
+        cout << fib(i) << " ";
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Fibonacci: 0, 1, 1, 2, 3, 5, 8.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>0 1 1 2 3 5 8 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>void modify(int* p) {
+    *p = *p + 10;
+}
+int main() {
+    int a = 5;
+    modify(&a);
+    cout << a;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">*p dereferences the pointer to access the value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Trace the recursive calls. What is the output?<br><pre><code>int sumDigits(int n) {
+    if (n == 0) return 0;
+    return (n % 10) + sumDigits(n / 10);
+}
+int main() {
+    cout << sumDigits(1234);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">1234 % 10 = 4, 1234 / 10 = 123. Recurse on 123.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int power(int base, int exp) {
+    if (exp == 0) return 1;
+    return base * power(base, exp - 1);
+}
+int main() {
+    cout << power(2, 8);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">2^8 = 256.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>256</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>void mystery(int n) {
+    if (n == 0) return;
+    mystery(n / 2);
+    cout << n % 2;
+}
+int main() {
+    mystery(13);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">The print happens after the recursive call. Think about what n % 2 and n / 2 do.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>1101</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between pass-by-value and pass-by-reference in C++?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Think about copies vs aliases.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><strong>Pass-by-value</strong> creates a copy of the argument. Changes to the parameter do not affect the original. <strong>Pass-by-reference</strong> (using &) creates an alias to the original variable. Changes to the parameter directly affect the original.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is function overloading? Can two functions differ only in return type?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Think about how the compiler decides which function to call.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">Function overloading allows multiple functions with the same name but different <strong>parameter lists</strong> (different number or types). The compiler selects the correct version based on the arguments at the call site. Two functions that differ <strong>only in return type</strong> cannot be overloaded because the compiler cannot determine which to call from the function call alone.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is tail recursion? Why is it significant for optimization?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Think about what happens after the recursive call returns.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">Tail recursion is when the recursive call is the <strong>last operation</strong> in the function -- there is no pending computation after the call returns. Example: <code>return factorial(n-1, acc*n)</code> is tail-recursive; <code>return n * factorial(n-1)</code> is not (multiplication is pending). Some compilers can optimize tail recursion into a loop (tail call optimization), eliminating stack frame overhead and preventing stack overflow.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>void func(int a, int b = 5) {
+    cout << a + b << " ";
+}
+void func(int a) {
+    cout << a << " ";
+}
+int main() {
+    func(10, 20);
+    func(10);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Does func(10) match the first function (using default) or the second?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18">Compilation error: ambiguous call</div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Trace the recursion. What is the output?<br><pre><code>void printReverse(int n) {
+    if (n == 0) return;
+    cout << n % 10 << " ";
+    printReverse(n / 10);
+}
+int main() {
+    printReverse(5432);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">The print happens before the recursive call.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>2 3 4 5 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int countDown(int n) {
+    if (n <= 0) return 0;
+    cout << n << " ";
+    return 1 + countDown(n - 1);
+}
+int main() {
+    int count = countDown(4);
+    cout << endl << "Count: " << count;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">The function prints and counts how many times it runs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>4 3 2 1 </code><br><code>Count: 4</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a function <code>bool isEven(int n)</code> that returns true if n is even and false otherwise. Call it from main.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Check n % 2 == 0.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><pre><code>#include <iostream>
+using namespace std;
+bool isEven(int n) {
+    return n % 2 == 0;
+}
+int main() {
+    int x;
+    cin >> x;
+    cout << x << (isEven(x) ? " is even" : " is odd") << endl;
+    return 0;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int max(int a, int b) {
+    return (a > b) ? a : b;
+}
+int main() {
+    cout << max(15, 8) << " " << max(3, 12);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">max returns the larger of two values.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>15 12</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>void increment(int& a, int& b) {
+    a++;
+    b++;
+}
+int main() {
+    int x = 10, y = 20;
+    increment(x, y);
+    increment(x, y);
+    cout << x << " " << y;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Both parameters are references. increment is called twice.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>12 22</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int multiply(int a, int b = 2) {
+    return a * b;
+}
+int main() {
+    cout << multiply(5) << " " << multiply(5, 3);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">b defaults to 2 when not provided.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>10 15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Trace the recursion. What is the output?<br><pre><code>int gcd(int a, int b) {
+    if (b == 0) return a;
+    return gcd(b, a % b);
+}
+int main() {
+    cout << gcd(48, 18);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">This is the Euclidean algorithm. Trace: gcd(48,18) -> gcd(18,12) -> gcd(12,6) -> gcd(6,0).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a function that takes an array and its size and returns the sum of all elements. Use pass-by-pointer for the array.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">An array decays to a pointer when passed to a function.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>#include <iostream>
+using namespace std;
+int arraySum(int* arr, int size) {
+    int sum = 0;
+    for (int i = 0; i < size; i++) {
+        sum += arr[i];
+    }
+    return sum;
+}
+int main() {
+    int arr[] = {10, 20, 30, 40, 50};
+    cout << "Sum: " << arraySum(arr, 5) << endl;
+    return 0;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int f(int n) {
+    if (n <= 0) return 0;
+    if (n == 1) return 1;
+    return f(n - 1) + f(n - 2);
+}
+int main() {
+    cout << f(6);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">This computes the nth Fibonacci number.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>8</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">How many times is the function f called when computing f(5)?<br><pre><code>int f(int n) {
+    if (n <= 1) return n;
+    return f(n-1) + f(n-2);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Draw the recursion tree.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>15</code> times</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>void fun(int n) {
+    if (n > 0) {
+        fun(n - 1);
+        cout << n << " ";
+        fun(n - 1);
+    }
+}
+int main() {
+    fun(3);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Each call makes two recursive calls. Print happens between them.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>1 2 1 3 1 2 1 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write overloaded functions <code>display</code> that print an int, a double, and a string, each on a new line.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Three functions with the same name, different parameter types.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><pre><code>#include <iostream>
+#include <string>
+using namespace std;
+void display(int x) { cout << "int: " << x << endl; }
+void display(double x) { cout << "double: " << x << endl; }
+void display(string x) { cout << "string: " << x << endl; }
+int main() {
+    display(42);
+    display(3.14);
+    display(string("Hello"));
+    return 0;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int count = 0;
+void recurse(int n) {
+    count++;
+    if (n <= 1) return;
+    recurse(n / 2);
+}
+int main() {
+    recurse(16);
+    cout << count;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">n halves each time: 16, 8, 4, 2, 1.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a recursive function to check if a string is a palindrome. Use pass-by-reference for the string.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Compare first and last characters, then recurse on the substring between them.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><pre><code>#include <iostream>
+#include <string>
+using namespace std;
+bool isPalindrome(const string& s, int left, int right) {
+    if (left >= right) return true;
+    if (s[left] != s[right]) return false;
+    return isPalindrome(s, left + 1, right - 1);
+}
+int main() {
+    string s;
+    cin >> s;
+    cout << (isPalindrome(s, 0, s.length() - 1) ? "Palindrome" : "Not palindrome") << endl;
+    return 0;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int func(int n) {
+    if (n == 0) return 1;
+    return 2 * func(n - 1);
+}
+int main() {
+    cout << func(5);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Trace: func(5) = 2*func(4) = 2*2*func(3) = ...</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>32</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is a function prototype in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The function body</li><li><span class="mcq-option-label">B.</span> A declaration of the function&#39;s name, return type, and parameter types before its definition</li><li><span class="mcq-option-label">C.</span> A function without a return type</li><li><span class="mcq-option-label">D.</span> A function that calls itself</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> A prototype declares the function signature (return type, name, parameters) so the compiler knows it exists before it is defined.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What is the default parameter passing mechanism in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Pass-by-reference</li><li><span class="mcq-option-label">B.</span> Pass-by-pointer</li><li><span class="mcq-option-label">C.</span> Pass-by-value</li><li><span class="mcq-option-label">D.</span> Pass-by-name</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> Unless you use & (reference) or * (pointer), C++ passes arguments by value (copies).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which keyword is used for a function that does not return a value?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> null</li><li><span class="mcq-option-label">B.</span> void</li><li><span class="mcq-option-label">C.</span> none</li><li><span class="mcq-option-label">D.</span> empty</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> void indicates the function returns nothing.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is the base case in recursion?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The first call to the function</li><li><span class="mcq-option-label">B.</span> The condition that stops the recursion</li><li><span class="mcq-option-label">C.</span> The last line of the function</li><li><span class="mcq-option-label">D.</span> The maximum stack depth</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> The base case is the condition where the function returns without making another recursive call, stopping the recursion.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which of the following is NOT a valid overloading?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> int func(int a) and int func(double a)</li><li><span class="mcq-option-label">B.</span> int func(int a) and int func(int a, int b)</li><li><span class="mcq-option-label">C.</span> int func(int a) and double func(int a)</li><li><span class="mcq-option-label">D.</span> void func(int a) and void func(int a, int b)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> int func(int) and double func(int) differ only in return type. Return type alone does not distinguish overloaded functions.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Where must default arguments be placed in a function's parameter list?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Leftmost parameters only</li><li><span class="mcq-option-label">B.</span> Rightmost parameters only</li><li><span class="mcq-option-label">C.</span> Any position</li><li><span class="mcq-option-label">D.</span> Only the first parameter</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> Default arguments must be specified from right to left. You cannot have a non-default parameter after a default one.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What happens if a recursive function has no base case?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Compilation error</li><li><span class="mcq-option-label">B.</span> Returns 0</li><li><span class="mcq-option-label">C.</span> Stack overflow / infinite recursion</li><li><span class="mcq-option-label">D.</span> The function never executes</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> Without a base case, the function calls itself infinitely, filling the call stack until it overflows, causing a crash.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is the time complexity of the naive recursive Fibonacci function fib(n)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(n)</li><li><span class="mcq-option-label">B.</span> O(n log n)</li><li><span class="mcq-option-label">C.</span> O(2^n)</li><li><span class="mcq-option-label">D.</span> O(n^2)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Each call branches into two recursive calls, creating a binary tree of calls. The total number of calls is approximately 2^n, making it exponential.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">How many moves does Tower of Hanoi require for n disks?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> n^2</li><li><span class="mcq-option-label">B.</span> 2n</li><li><span class="mcq-option-label">C.</span> 2^n - 1</li><li><span class="mcq-option-label">D.</span> n!</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> The recurrence T(n) = 2*T(n-1) + 1 with T(1) = 1 solves to T(n) = 2^n - 1.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What does the inline keyword do in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Makes the function run faster by using multithreading</li><li><span class="mcq-option-label">B.</span> Hints the compiler to replace the function call with the function body</li><li><span class="mcq-option-label">C.</span> Forces the function to be defined inside main()</li><li><span class="mcq-option-label">D.</span> Makes the function recursive</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> inline is a hint to replace the call with the body, eliminating call overhead. The compiler may ignore it for large or complex functions.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is printed?<br><code>void f(int n) { if(n>0) { f(n-1); cout << n << " "; } } int main() { f(4); }</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 4 3 2 1</li><li><span class="mcq-option-label">B.</span> 1 2 3 4</li><li><span class="mcq-option-label">C.</span> 4 3 2 1 0</li><li><span class="mcq-option-label">D.</span> 0 1 2 3 4</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> The print happens after the recursive call returns. So the deepest call (n=1) prints first, then n=2, n=3, n=4. Output: 1 2 3 4.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">When passing a large object to a function for read-only access, which is the best approach?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Pass-by-value</li><li><span class="mcq-option-label">B.</span> Pass-by-pointer</li><li><span class="mcq-option-label">C.</span> Pass-by-const-reference</li><li><span class="mcq-option-label">D.</span> Pass as a global variable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>const&</code> avoids the overhead of copying (unlike pass-by-value) while preventing modification (unlike plain reference). It is the standard practice for read-only access to large objects.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does a function return if it has a non-void return type but no return statement?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> null</li><li><span class="mcq-option-label">C.</span> Compilation error</li><li><span class="mcq-option-label">D.</span> Undefined behavior</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: D</strong><br><strong>D is correct.</strong> In C++, reaching the end of a non-void function without a return statement is undefined behavior. The compiler may warn but does not guarantee an error. main() is the only exception (implicitly returns 0).</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Recursive Sum of Array</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a recursive function that computes the sum of elements in an integer array.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Array: {1, 2, 3, 4, 5}</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Sum: 15</div>
+                </div><div class="challenge-constraints">Use recursion with the array, starting index, and size as parameters.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int arraySum(int arr[], int n) {
+    if (n &lt;= 0) return 0;
+    return arr[n - 1] + arraySum(arr, n - 1);
+}
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    cout &lt;&lt; &quot;Sum: &quot; &lt;&lt; arraySum(arr, 5) &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Reverse a String Using Recursion</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a recursive function that reverses a string and returns the result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">hello</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">olleh</div>
+                </div><div class="challenge-constraints">Use recursion. Base case: empty or single character string.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+string reverseStr(const string&amp; s) {
+    if (s.length() &lt;= 1) return s;
+    return reverseStr(s.substr(1)) + s[0];
+}
+int main() {
+    string s;
+    cin &gt;&gt; s;
+    cout &lt;&lt; reverseStr(s) &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Power Function (Efficient)</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a recursive function that computes base^exp in O(log exp) time using the fast exponentiation method: if exp is even, power(b, e) = power(b, e/2)^2; if odd, b * power(b, e-1).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">2 ^ 10</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">1024</div>
+                </div><div class="challenge-constraints">Must be O(log n) recursive calls, not O(n).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+long long fastPow(int base, int exp) {
+    if (exp == 0) return 1;
+    if (exp % 2 == 0) {
+        long long half = fastPow(base, exp / 2);
+        return half * half;
+    }
+    return base * fastPow(base, exp - 1);
+}
+int main() {
+    cout &lt;&lt; fastPow(2, 10) &lt;&lt; endl;
+    cout &lt;&lt; fastPow(3, 7) &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Tower of Hanoi</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Implement the Tower of Hanoi for n disks. Print each move and the total number of moves.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">n = 3</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Move disk 1 from A to C
+... (7 moves total)</div>
+                </div><div class="challenge-constraints">Use recursion with from, to, and auxiliary pegs as char parameters.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int moveCount = 0;
+void hanoi(int n, char from, char to, char aux) {
+    if (n == 1) {
+        cout &lt;&lt; &quot;Move disk 1 from &quot; &lt;&lt; from &lt;&lt; &quot; to &quot; &lt;&lt; to &lt;&lt; endl;
+        moveCount++;
+        return;
+    }
+    hanoi(n - 1, from, aux, to);
+    cout &lt;&lt; &quot;Move disk &quot; &lt;&lt; n &lt;&lt; &quot; from &quot; &lt;&lt; from &lt;&lt; &quot; to &quot; &lt;&lt; to &lt;&lt; endl;
+    moveCount++;
+    hanoi(n - 1, aux, to, from);
+}
+int main() {
+    int n;
+    cin &gt;&gt; n;
+    hanoi(n, &#39;A&#39;, &#39;C&#39;, &#39;B&#39;);
+    cout &lt;&lt; &quot;Total moves: &quot; &lt;&lt; moveCount &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Function Overloading: Area Calculator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write overloaded area() functions for circle (radius), rectangle (length, width), and triangle (base, height). Print results from main.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Circle r=5, Rectangle 4x6, Triangle b=3 h=8</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Circle: 78.5398
+Rectangle: 24
+Triangle: 12</div>
+                </div><div class="challenge-constraints">Three overloaded functions with different parameter signatures.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+double area(double radius) { return 3.14159 * radius * radius; }
+int area(int length, int width) { return length * width; }
+double area(int base, double height) { return 0.5 * base * height; }
+int main() {
+    cout &lt;&lt; &quot;Circle: &quot; &lt;&lt; area(5.0) &lt;&lt; endl;
+    cout &lt;&lt; &quot;Rectangle: &quot; &lt;&lt; area(4, 6) &lt;&lt; endl;
+    cout &lt;&lt; &quot;Triangle: &quot; &lt;&lt; area(3, 8.0) &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Count Digits Recursively</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a recursive function that counts the number of digits in a positive integer.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter number: 12345</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Digits: 5</div>
+                </div><div class="challenge-constraints">Base case: n &lt; 10 (single digit). Recursive case: 1 + countDigits(n / 10).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int countDigits(int n) {
+    if (n &lt; 10) return 1;
+    return 1 + countDigits(n / 10);
+}
+int main() {
+    int n;
+    cout &lt;&lt; &quot;Enter number: &quot;;
+    cin &gt;&gt; n;
+    cout &lt;&lt; &quot;Digits: &quot; &lt;&lt; countDigits(n) &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Binary Search Using Recursion</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Implement binary search recursively on a sorted array. Return the index of the target or -1 if not found.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Array: {2, 5, 8, 12, 16, 23, 38, 56, 72, 91}, target = 23</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Found at index: 5</div>
+                </div><div class="challenge-constraints">Pass the array, left index, right index, and target as parameters. Each call halves the search space.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int binarySearch(int arr[], int left, int right, int target) {
+    if (left &gt; right) return -1;
+    int mid = left + (right - left) / 2;
+    if (arr[mid] == target) return mid;
+    if (arr[mid] &gt; target) return binarySearch(arr, left, mid - 1, target);
+    return binarySearch(arr, mid + 1, right, target);
+}
+int main() {
+    int arr[] = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
+    int n = 10, target = 23;
+    int idx = binarySearch(arr, 0, n - 1, target);
+    if (idx != -1) cout &lt;&lt; &quot;Found at index: &quot; &lt;&lt; idx &lt;&lt; endl;
+    else cout &lt;&lt; &quot;Not found&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/loops-in-cpp/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Loops (for, while, do-while) and Patterns</span>
+        </a>
+            <a href="/resources/cpp/arrays-in-cpp/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Arrays and Multidimensional Arrays</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/functions-in-cpp" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - STL Containers - vector, list, map, set, stack, queue | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="61+ practice questions on STL Containers - vector, list, map, set, stack, queue in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="stl containers - vector, list, map, set, stack, queue practice, c++ questions, c++ practice problems, stl containers - vector, list, map, set, stack, queue exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/stl-containers/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/stl-containers/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/stl-containers/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/stl-containers/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/stl-containers/practice">
+    <meta property="og:title" content="Practice Questions - STL Containers - vector, list, map, set, stack, queue | C++ | Modern Age Coders">
+    <meta property="og:description" content="61+ practice questions on STL Containers - vector, list, map, set, stack, queue in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/stl-containers/practice">
+    <meta name="twitter:title" content="Practice Questions - STL Containers - vector, list, map, set, stack, queue | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="61+ practice questions on STL Containers - vector, list, map, set, stack, queue in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - STL Containers - vector, list, map, set, stack, queue",
+    "description": "61+ practice questions on STL Containers - vector, list, map, set, stack, queue in C++.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "STL Containers - vector, list, map, set, stack, queue"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/stl-containers/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "STL Containers - vector, list, map, set, stack, queue",
+        "item": "https://learn.modernagecoders.com/resources/cpp/stl-containers"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/stl-containers/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/stl-containers">STL Containers - vector, list, map, set, stack, queue</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 20</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">61 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; STL Containers - vector, list, map, set, stack, queue</h1>
+            <a href="/resources/cpp/stl-containers" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">15</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {10, 20, 30};
+v.push_back(40);
+cout &lt;&lt; v.size() &lt;&lt; " " &lt;&lt; v[3];</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">push_back adds to the end. Size increases by 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>4 40</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">set&lt;int&gt; s = {5, 2, 8, 2, 1, 5};
+cout &lt;&lt; s.size();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">set stores unique elements only.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">set&lt;int&gt; s = {30, 10, 20};
+for (int x : s) cout &lt;&lt; x &lt;&lt; " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">set maintains sorted order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>10 20 30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">stack&lt;int&gt; st;
+st.push(10);
+st.push(20);
+st.push(30);
+cout &lt;&lt; st.top();
+st.pop();
+cout &lt;&lt; " " &lt;&lt; st.top();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Stack is LIFO. top() shows the last pushed element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>30 20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">queue&lt;int&gt; q;
+q.push(10);
+q.push(20);
+q.push(30);
+cout &lt;&lt; q.front() &lt;&lt; " " &lt;&lt; q.back();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Queue is FIFO. front() is the first element pushed.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>10 30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">map&lt;string, int&gt; m;
+m["Kiran"] = 78;
+m["Arjun"] = 85;
+for (auto&amp; [k, v] : m) cout &lt;&lt; k &lt;&lt; " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">map iterates in sorted order of keys.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Arjun Kiran</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v;
+v.reserve(10);
+v.push_back(1);
+v.push_back(2);
+cout &lt;&lt; v.size() &lt;&lt; " " &lt;&lt; v.capacity();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">reserve() sets capacity but does not change size.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>2 10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">priority_queue&lt;int&gt; pq;
+pq.push(10);
+pq.push(50);
+pq.push(30);
+pq.push(20);
+cout &lt;&lt; pq.top();
+pq.pop();
+cout &lt;&lt; " " &lt;&lt; pq.top();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">priority_queue is a max-heap by default.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>50 30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">priority_queue&lt;int, vector&lt;int&gt;, greater&lt;int&gt;&gt; pq;
+pq.push(30);
+pq.push(10);
+pq.push(50);
+cout &lt;&lt; pq.top();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">greater<int> creates a min-heap.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">multiset&lt;int&gt; ms = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};
+cout &lt;&lt; ms.count(5) &lt;&lt; " " &lt;&lt; ms.count(7);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">multiset allows duplicates. count() returns the number of occurrences.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>3 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">map&lt;string, int&gt; m;
+m["Priya"] = 92;
+m["Arjun"] = 85;
+cout &lt;&lt; m.size() &lt;&lt; endl;
+m["Ravi"];  // Access non-existent key
+cout &lt;&lt; m.size() &lt;&lt; " " &lt;&lt; m["Ravi"];</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">The [] operator on map creates a default entry if the key does not exist.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>2</code><br><code>3 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">set&lt;int&gt; s = {1, 3, 5, 7, 9};
+auto lb = s.lower_bound(4);
+auto ub = s.upper_bound(7);
+cout &lt;&lt; *lb &lt;&lt; " " &lt;&lt; *ub;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">lower_bound returns first element >= value. upper_bound returns first element > value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>5 9</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">map&lt;int, string&gt; m = {{3, "C"}, {1, "A"}, {2, "B"}};
+auto it = m.begin();
+cout &lt;&lt; it-&gt;first &lt;&lt; ":" &lt;&lt; it-&gt;second &lt;&lt; " ";
+++it; ++it;
+cout &lt;&lt; it-&gt;first &lt;&lt; ":" &lt;&lt; it-&gt;second;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">map iterates in sorted order of keys.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>1:A 3:C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v;
+cout &lt;&lt; v.size() &lt;&lt; " ";
+v.resize(5, 42);
+cout &lt;&lt; v.size() &lt;&lt; " " &lt;&lt; v[0] &lt;&lt; " " &lt;&lt; v[4] &lt;&lt; " ";
+v.resize(3);
+cout &lt;&lt; v.size() &lt;&lt; " " &lt;&lt; v[2];</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">resize(n, val) changes size. If growing, new elements get val. If shrinking, excess elements are removed.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>0 5 42 42 3 42</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">deque&lt;int&gt; dq = {20, 30, 40};
+dq.push_front(10);
+dq.push_back(50);
+dq.pop_front();
+dq.pop_back();
+cout &lt;&lt; dq.front() &lt;&lt; " " &lt;&lt; dq.back() &lt;&lt; " " &lt;&lt; dq[1];</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">push_front/push_back add to ends, pop_front/pop_back remove from ends.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>20 40 30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">set&lt;int&gt; s = {5, 10, 15, 20, 25};
+auto it = s.find(15);
+if (it != s.end()) s.erase(it);
+for (int x : s) cout &lt;&lt; x &lt;&lt; " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">find returns an iterator. erase(iterator) removes that element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>5 10 20 25</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">map&lt;int, string&gt; m = {{1,"one"}, {2,"two"}, {3,"three"}};
+for (auto it = m.begin(); it != m.end(); ) {
+    if (it-&gt;first % 2 == 0)
+        it = m.erase(it);
+    else
+        ++it;
+}
+for (auto&amp; [k, v] : m) cout &lt;&lt; k &lt;&lt; ":" &lt;&lt; v &lt;&lt; " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">erase returns iterator to next element. Only erase even keys.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>1:one 3:three</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3};
+v.insert(v.end(), {4, 5, 6});
+cout &lt;&lt; v.size() &lt;&lt; " " &lt;&lt; v.back();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">insert with initializer_list appends multiple elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>6 6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">priority_queue&lt;pair&lt;int,string&gt;, vector&lt;pair&lt;int,string&gt;&gt;, greater&lt;pair&lt;int,string&gt;&gt;&gt; pq;
+pq.push({3, "Kiran"});
+pq.push({1, "Arjun"});
+pq.push({2, "Priya"});
+cout &lt;&lt; pq.top().second;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Min-heap with pairs. Pairs compare lexicographically (first element first).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>Arjun</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v;
+cout &lt;&lt; v.empty() &lt;&lt; " ";
+v.push_back(10);
+cout &lt;&lt; v.empty() &lt;&lt; " " &lt;&lt; v.front();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">empty() returns true (1) if the vector has no elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>1 0 10</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {1, 2, 3, 4, 5};
+v.pop_back();
+v.pop_back();
+cout &lt;&lt; v.size() &lt;&lt; " " &lt;&lt; v.back();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">pop_back removes the last element.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>3 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">set&lt;int&gt; s = {10, 20, 30};
+s.insert(20);
+s.insert(40);
+cout &lt;&lt; s.size();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Inserting a duplicate into a set has no effect.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">stack&lt;char&gt; st;
+st.push('A');
+st.push('B');
+st.push('C');
+st.pop();
+cout &lt;&lt; st.top() &lt;&lt; " " &lt;&lt; st.size();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Stack is LIFO. pop() removes the top element.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>B 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">map&lt;char, int&gt; freq;
+string s = "banana";
+for (char c : s) freq[c]++;
+cout &lt;&lt; freq['a'] &lt;&lt; " " &lt;&lt; freq['n'] &lt;&lt; " " &lt;&lt; freq.size();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">freq[c]++ increments the count for each character.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>3 2 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">set&lt;int&gt; s = {1, 2, 3, 4, 5};
+s.erase(3);
+cout &lt;&lt; s.count(3) &lt;&lt; " " &lt;&lt; s.size();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">erase removes the element. count checks if it exists.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>0 4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">vector&lt;int&gt; v = {10, 20, 30};
+v.insert(v.begin() + 1, 15);
+for (int x : v) cout &lt;&lt; x &lt;&lt; " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">insert(pos, val) inserts val before the given position.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>10 15 20 30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">unordered_map&lt;string, int&gt; m;
+m["Arjun"] = 85;
+m["Priya"] = 92;
+cout &lt;&lt; (m.find("Arjun") != m.end()) &lt;&lt; " ";
+cout &lt;&lt; (m.find("Kiran") != m.end());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">find() returns end() if the key is not found.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>1 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">priority_queue&lt;int&gt; pq;
+for (int x : {4, 1, 7, 3, 8, 2}) pq.push(x);
+int sum = 0;
+while (pq.size() &gt; 3) {
+    sum += pq.top();
+    pq.pop();
+}
+cout &lt;&lt; sum &lt;&lt; " " &lt;&lt; pq.top();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Max-heap pops the largest elements first. Stop when 3 elements remain.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>19 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">multimap&lt;string, int&gt; mm;
+mm.insert({"Arjun", 85});
+mm.insert({"Arjun", 90});
+mm.insert({"Arjun", 78});
+mm.insert({"Priya", 92});
+cout &lt;&lt; mm.count("Arjun") &lt;&lt; " " &lt;&lt; mm.size();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">multimap allows duplicate keys.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>3 4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">set&lt;int&gt; s = {10, 20, 30, 40, 50};
+auto it1 = s.lower_bound(25);
+auto it2 = s.upper_bound(30);
+auto it3 = s.lower_bound(60);
+cout &lt;&lt; *it1 &lt;&lt; " " &lt;&lt; *it2 &lt;&lt; " " &lt;&lt; (it3 == s.end());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">lower_bound(25) returns first >= 25. upper_bound(30) returns first > 30. lower_bound(60) returns end() if no element >= 60.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>30 40 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">map&lt;int, int&gt; m = {{1, 10}, {2, 20}, {3, 30}};
+m[2] = 25;
+m.erase(1);
+m.insert({4, 40});
+for (auto&amp; [k, v] : m) cout &lt;&lt; k &lt;&lt; ":" &lt;&lt; v &lt;&lt; " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">[] overwrites existing values. erase removes by key. insert adds new entries.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>2:25 3:30 4:40</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When would you choose unordered_map over map?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Think about time complexity and ordering requirements.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>unordered_map</code> provides O(1) average-case for insert, find, and erase, compared to O(log n) for <code>map</code>. Choose <code>unordered_map</code> when you do not need sorted order and want faster operations. Choose <code>map</code> when you need sorted iteration, lower_bound/upper_bound, or when the key type does not have a hash function.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why does the erase-iterate pattern require special care with maps and sets? Show the correct pattern.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Think about iterator invalidation.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13">When you erase an element from a map/set using an iterator, that iterator is invalidated. If you increment it after erasing, the behavior is undefined. The correct pattern is: <code>it = m.erase(it)</code> which returns an iterator to the next valid element. Alternatively, use <code>m.erase(it++)</code> which copies the iterator, increments the original, then erases the copy.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">unordered_map&lt;string, int&gt; m;
+m["a"] = 1;
+m["b"] = 2;
+m["c"] = 3;
+cout &lt;&lt; m.size() &lt;&lt; " " &lt;&lt; m.count("b") &lt;&lt; " " &lt;&lt; m.count("d");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">count returns 1 if key exists, 0 if not.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14"><code>3 1 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">set&lt;int&gt; a = {1, 2, 3, 4, 5};
+set&lt;int&gt; b = {3, 4, 5, 6, 7};
+vector&lt;int&gt; result;
+set_intersection(a.begin(), a.end(), b.begin(), b.end(), back_inserter(result));
+for (int x : result) cout &lt;&lt; x &lt;&lt; " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-15">set_intersection finds common elements between two sorted ranges.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-15"><code>3 4 5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">stack&lt;int&gt; st;
+st.push(1);
+st.push(2);
+st.push(3);
+cout &lt;&lt; st.size() &lt;&lt; " ";
+while (!st.empty()) {
+    cout &lt;&lt; st.top() &lt;&lt; " ";
+    st.pop();
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-16">Stack is LIFO. Elements come out in reverse order.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-16"><code>3 3 2 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">queue&lt;string&gt; q;
+q.push("Arjun");
+q.push("Priya");
+q.push("Kiran");
+q.pop();
+cout &lt;&lt; q.front() &lt;&lt; " " &lt;&lt; q.size();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-17">Queue is FIFO. pop removes the front element.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-17"><code>Priya 2</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which STL container stores elements in sorted order with no duplicates?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> vector</li><li><span class="mcq-option-label">B.</span> set</li><li><span class="mcq-option-label">C.</span> unordered_set</li><li><span class="mcq-option-label">D.</span> list</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>set</code> stores unique elements in sorted order using a balanced BST. <code>unordered_set</code> is unsorted, <code>vector</code> and <code>list</code> maintain insertion order.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What is the time complexity of push_back on a vector (amortized)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(1)</li><li><span class="mcq-option-label">B.</span> O(log n)</li><li><span class="mcq-option-label">C.</span> O(n)</li><li><span class="mcq-option-label">D.</span> O(n log n)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>push_back</code> is amortized O(1). Occasionally it triggers a reallocation (O(n)), but averaged over many operations, it is O(1).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which container follows the Last-In-First-Out (LIFO) principle?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> queue</li><li><span class="mcq-option-label">B.</span> deque</li><li><span class="mcq-option-label">C.</span> stack</li><li><span class="mcq-option-label">D.</span> priority_queue</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>stack</code> is LIFO -- the last element pushed is the first to be popped. <code>queue</code> is FIFO.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does v.at(i) do differently from v[i] for a vector?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No difference</li><li><span class="mcq-option-label">B.</span> at(i) throws out_of_range if i is out of bounds</li><li><span class="mcq-option-label">C.</span> at(i) is faster</li><li><span class="mcq-option-label">D.</span> at(i) returns a reference while [] returns a copy</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>at(i)</code> performs bounds checking and throws <code>std::out_of_range</code> if the index is invalid. <code>[]</code> has no bounds checking and causes undefined behavior on invalid access.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What is the default behavior of priority_queue in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Min-heap (smallest element at top)</li><li><span class="mcq-option-label">B.</span> Max-heap (largest element at top)</li><li><span class="mcq-option-label">C.</span> FIFO queue</li><li><span class="mcq-option-label">D.</span> Sorted array</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>priority_queue</code> is a max-heap by default. The largest element is always at the top. Use <code>greater&lt;T&gt;</code> to create a min-heap.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the time complexity of find() on a set?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(1)</li><li><span class="mcq-option-label">B.</span> O(log n)</li><li><span class="mcq-option-label">C.</span> O(n)</li><li><span class="mcq-option-label">D.</span> O(n log n)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>set</code> uses a balanced BST internally, so find() is O(log n). For O(1) average lookup, use <code>unordered_set</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What happens when you use map[key] and the key does not exist?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Returns -1</li><li><span class="mcq-option-label">B.</span> Throws an exception</li><li><span class="mcq-option-label">C.</span> Inserts a new entry with a default-constructed value</li><li><span class="mcq-option-label">D.</span> Returns end() iterator</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>[]</code> operator on a map inserts a default-constructed value (0 for int, empty string for string) if the key does not exist. This is a common source of bugs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which container provides O(1) push/pop at both ends AND random access?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> vector</li><li><span class="mcq-option-label">B.</span> list</li><li><span class="mcq-option-label">C.</span> deque</li><li><span class="mcq-option-label">D.</span> stack</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>deque</code> supports O(1) push_front/push_back, pop_front/pop_back, AND random access via []. <code>vector</code> does not have efficient push_front. <code>list</code> does not have random access.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the difference between set and multiset?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> set is sorted, multiset is unsorted</li><li><span class="mcq-option-label">B.</span> multiset allows duplicate elements, set does not</li><li><span class="mcq-option-label">C.</span> multiset uses a hash table, set uses a BST</li><li><span class="mcq-option-label">D.</span> set allows duplicates, multiset does not</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> Both <code>set</code> and <code>multiset</code> are sorted and use balanced BSTs. The only difference is that <code>multiset</code> allows duplicate elements.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">How do you create a min-heap using priority_queue?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> priority_queue&lt;int, min&gt;</li><li><span class="mcq-option-label">B.</span> priority_queue&lt;int, vector&lt;int&gt;, greater&lt;int&gt;&gt;</li><li><span class="mcq-option-label">C.</span> priority_queue&lt;int, vector&lt;int&gt;, less&lt;int&gt;&gt;</li><li><span class="mcq-option-label">D.</span> min_priority_queue&lt;int&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> The full template is <code>priority_queue&lt;type, container, comparator&gt;</code>. Using <code>greater&lt;int&gt;</code> reverses the comparison, making the smallest element the top.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the worst-case time complexity of find() on unordered_map?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(1)</li><li><span class="mcq-option-label">B.</span> O(log n)</li><li><span class="mcq-option-label">C.</span> O(n)</li><li><span class="mcq-option-label">D.</span> O(n log n)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>unordered_map</code> has O(1) average-case but O(n) worst-case due to hash collisions. If all keys hash to the same bucket, every operation degrades to linear time.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Why can you NOT use pair<int,int> as a key in unordered_map without a custom hash?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> pair does not support comparison</li><li><span class="mcq-option-label">B.</span> pair does not have a default std::hash specialization</li><li><span class="mcq-option-label">C.</span> unordered_map does not support composite keys</li><li><span class="mcq-option-label">D.</span> pair is not a standard type</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>unordered_map</code> requires <code>std::hash&lt;Key&gt;</code> to be defined. There is no standard hash for <code>std::pair</code>. You must provide a custom hash functor or use <code>map</code> which only requires <code>operator&lt;</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does vector::reserve(100) do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Sets the size to 100 and fills with zeros</li><li><span class="mcq-option-label">B.</span> Allocates memory for at least 100 elements without changing size</li><li><span class="mcq-option-label">C.</span> Limits the vector to a maximum of 100 elements</li><li><span class="mcq-option-label">D.</span> Creates 100 copies of the vector</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>reserve()</code> only allocates memory (sets capacity) without changing the size or adding elements. Use <code>resize()</code> to actually change the size.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What internal data structure does std::set use?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Hash table</li><li><span class="mcq-option-label">B.</span> Sorted array</li><li><span class="mcq-option-label">C.</span> Red-black tree (balanced BST)</li><li><span class="mcq-option-label">D.</span> B-tree</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> All major implementations (GCC libstdc++, Clang libc++, MSVC) use a red-black tree for <code>set</code>, <code>map</code>, <code>multiset</code>, and <code>multimap</code>. This guarantees O(log n) operations.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which container adaptor should you use for BFS (Breadth-First Search)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> stack</li><li><span class="mcq-option-label">B.</span> queue</li><li><span class="mcq-option-label">C.</span> priority_queue</li><li><span class="mcq-option-label">D.</span> deque</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> BFS requires FIFO processing: explore nodes in the order they are discovered. <code>queue</code> provides exactly this behavior. <code>stack</code> would give DFS. <code>priority_queue</code> is used for Dijkstra's algorithm.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What does v.clear() do on a vector?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Deletes the vector object</li><li><span class="mcq-option-label">B.</span> Removes all elements, size becomes 0, capacity may remain</li><li><span class="mcq-option-label">C.</span> Sets all elements to zero</li><li><span class="mcq-option-label">D.</span> Frees all allocated memory</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>clear()</code> removes all elements and sets size to 0, but the allocated memory (capacity) is typically not freed. To free memory, use the swap trick: <code>vector&lt;int&gt;().swap(v)</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What is the time complexity of push and pop on a priority_queue?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(1) for both</li><li><span class="mcq-option-label">B.</span> O(log n) for push, O(1) for pop</li><li><span class="mcq-option-label">C.</span> O(log n) for both push and pop</li><li><span class="mcq-option-label">D.</span> O(n) for push, O(log n) for pop</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>priority_queue</code> uses a binary heap. Both push (sift-up) and pop (sift-down) require O(log n) time. <code>top()</code> is O(1).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Which container should you use for frequency counting when you need sorted output?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> unordered_map</li><li><span class="mcq-option-label">B.</span> map</li><li><span class="mcq-option-label">C.</span> vector</li><li><span class="mcq-option-label">D.</span> set</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>map</code> stores key-value pairs sorted by key. When you iterate over a frequency map, keys appear in sorted order. <code>unordered_map</code> gives faster counting but unsorted iteration.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Frequency Count and Print in Sorted Order</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given a string, count the frequency of each character and print the characters in sorted order along with their counts.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">&quot;programming&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">a:1 g:2 i:1 m:2 n:1 o:1 p:1 r:2</div>
+                </div><div class="challenge-constraints">Use a map&lt;char, int&gt; for automatic sorted order.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;map&gt;
+using namespace std;
+
+int main() {
+    string s = &quot;programming&quot;;
+    map&lt;char, int&gt; freq;
+    for (char c : s) freq[c]++;
+    for (auto&amp; [ch, cnt] : freq)
+        cout &lt;&lt; ch &lt;&lt; &quot;:&quot; &lt;&lt; cnt &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Check If Parentheses Are Balanced Using Stack</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given a string containing parentheses '(', ')', '{', '}', '[', ']', determine if the input string is valid. An input string is valid if open brackets are closed by the same type and in the correct order.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">&quot;{[()]}&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Valid</div>
+                </div><div class="challenge-constraints">Use a stack. Time complexity O(n).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;stack&gt;
+using namespace std;
+
+int main() {
+    string s = &quot;{[()]}&quot;;
+    stack&lt;char&gt; st;
+    bool valid = true;
+    for (char c : s) {
+        if (c == &#39;(&#39; || c == &#39;{&#39; || c == &#39;[&#39;)
+            st.push(c);
+        else {
+            if (st.empty()) { valid = false; break; }
+            char top = st.top(); st.pop();
+            if ((c == &#39;)&#39; &amp;&amp; top != &#39;(&#39;) ||
+                (c == &#39;}&#39; &amp;&amp; top != &#39;{&#39;) ||
+                (c == &#39;]&#39; &amp;&amp; top != &#39;[&#39;))
+                { valid = false; break; }
+        }
+    }
+    if (!st.empty()) valid = false;
+    cout &lt;&lt; (valid ? &quot;Valid&quot; : &quot;Invalid&quot;) &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Two Sum Using Unordered Map</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given a vector of integers and a target, find two indices such that the numbers at those indices add up to the target. Assume exactly one solution exists.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">nums = {2, 7, 11, 15}, target = 9</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Indices: 0 1</div>
+                </div><div class="challenge-constraints">Use unordered_map for O(n) time complexity.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;unordered_map&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; nums = {2, 7, 11, 15};
+    int target = 9;
+    unordered_map&lt;int, int&gt; seen;
+    for (int i = 0; i &lt; (int)nums.size(); i++) {
+        int complement = target - nums[i];
+        if (seen.count(complement)) {
+            cout &lt;&lt; &quot;Indices: &quot; &lt;&lt; seen[complement] &lt;&lt; &quot; &quot; &lt;&lt; i &lt;&lt; endl;
+            break;
+        }
+        seen[nums[i]] = i;
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Merge K Sorted Arrays Using Priority Queue</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given K sorted arrays, merge them into one sorted array. Use a min-heap (priority_queue with greater<>) to always extract the smallest current element.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">arrays = {{1, 4, 7}, {2, 5, 8}, {3, 6, 9}}</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">1 2 3 4 5 6 7 8 9</div>
+                </div><div class="challenge-constraints">Use priority_queue&lt;tuple&lt;int,int,int&gt;, vector&lt;...&gt;, greater&lt;...&gt;&gt; storing {value, array_index, element_index}. Time: O(N log K).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;queue&gt;
+#include &lt;tuple&gt;
+using namespace std;
+
+int main() {
+    vector&lt;vector&lt;int&gt;&gt; arrays = {{1, 4, 7}, {2, 5, 8}, {3, 6, 9}};
+    using T = tuple&lt;int, int, int&gt;;  // {value, array_idx, elem_idx}
+    priority_queue&lt;T, vector&lt;T&gt;, greater&lt;T&gt;&gt; pq;
+
+    for (int i = 0; i &lt; (int)arrays.size(); i++)
+        pq.push({arrays[i][0], i, 0});
+
+    while (!pq.empty()) {
+        auto [val, ai, ei] = pq.top();
+        pq.pop();
+        cout &lt;&lt; val &lt;&lt; &quot; &quot;;
+        if (ei + 1 &lt; (int)arrays[ai].size())
+            pq.push({arrays[ai][ei + 1], ai, ei + 1});
+    }
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Find First Non-Repeating Character Using Map and Queue</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given a stream of characters, find the first non-repeating character at each step. If all characters repeat, print -1.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">&quot;aabcbcd&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">a -1 b b b b d</div>
+                </div><div class="challenge-constraints">Use a queue to track order and an unordered_map for frequency. Process character by character.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;queue&gt;
+#include &lt;unordered_map&gt;
+using namespace std;
+
+int main() {
+    string stream = &quot;aabcbcd&quot;;
+    queue&lt;char&gt; q;
+    unordered_map&lt;char, int&gt; freq;
+    for (char c : stream) {
+        freq[c]++;
+        q.push(c);
+        while (!q.empty() &amp;&amp; freq[q.front()] &gt; 1)
+            q.pop();
+        if (q.empty())
+            cout &lt;&lt; &quot;-1 &quot;;
+        else
+            cout &lt;&lt; q.front() &lt;&lt; &quot; &quot;;
+    }
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Find K Closest Points to Origin Using Max-Heap</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given n points in 2D space, find the K closest points to the origin (0, 0). Use a max-heap of size K to maintain the K closest points seen so far.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">points = {{3,3}, {5,-1}, {-2,4}, {1,1}, {-3,-2}}, K = 3</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Closest 3 points: (1,1) (-3,-2) (-2,4)</div>
+                </div><div class="challenge-constraints">Use priority_queue with custom comparator. Time: O(n log K).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;queue&gt;
+using namespace std;
+
+int main() {
+    vector&lt;pair&lt;int,int&gt;&gt; points = {{3,3}, {5,-1}, {-2,4}, {1,1}, {-3,-2}};
+    int K = 3;
+
+    // Max-heap: pop the farthest among the K closest
+    auto dist = [](const pair&lt;int,int&gt;&amp; p) {
+        return p.first * p.first + p.second * p.second;
+    };
+    auto cmp = [&amp;](const pair&lt;int,int&gt;&amp; a, const pair&lt;int,int&gt;&amp; b) {
+        return dist(a) &lt; dist(b);  // max-heap by distance
+    };
+    priority_queue&lt;pair&lt;int,int&gt;, vector&lt;pair&lt;int,int&gt;&gt;, decltype(cmp)&gt; pq(cmp);
+
+    for (auto&amp; p : points) {
+        pq.push(p);
+        if ((int)pq.size() &gt; K) pq.pop();
+    }
+
+    cout &lt;&lt; &quot;Closest &quot; &lt;&lt; K &lt;&lt; &quot; points: &quot;;
+    while (!pq.empty()) {
+        auto [x, y] = pq.top(); pq.pop();
+        cout &lt;&lt; &quot;(&quot; &lt;&lt; x &lt;&lt; &quot;,&quot; &lt;&lt; y &lt;&lt; &quot;) &quot;;
+    }
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/exception-handling-in-cpp/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Exception Handling (try, catch, throw)</span>
+        </a>
+            <a href="/resources/cpp/stl-algorithms-and-iterators/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">STL Algorithms and Iterators</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/stl-containers" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

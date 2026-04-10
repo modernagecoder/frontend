@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators in C++ - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Master arithmetic, relational, logical, bitwise, assignment, and ternary operators with precedence rules.">
+    <meta name="keywords" content="operators in c++, c++ tutorial, c++ operators in c++, learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/operators-in-cpp">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/operators-in-cpp">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/operators-in-cpp">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/operators-in-cpp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/operators-in-cpp">
+    <meta property="og:title" content="Operators in C++ - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Master arithmetic, relational, logical, bitwise, assignment, and ternary operators with precedence rules.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/operators-in-cpp">
+    <meta name="twitter:title" content="Operators in C++ - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Master arithmetic, relational, logical, bitwise, assignment, and ternary operators with precedence rules.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Operators in C++",
+    "description": "Master arithmetic, relational, logical, bitwise, assignment, and ternary operators with precedence rules.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/operators-in-cpp"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/operators-in-cpp"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Operators in C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp/operators-in-cpp"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Bitwise Operator Precedence Trap",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>==</code> operator has higher precedence than <code>&</code>. So <code>x & 1 == 0</code> is parsed as <code>x & (1 == 0)</code> = <code>x & 0</code> = 0. Always wrap bitwise operations in parentheses when comparing: <code>(x & 1) == 0</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using = Instead of == in Conditions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Single <code>=</code> is assignment, double <code>==</code> is comparison. The assignment <code>x = 10</code> sets x to 10 and returns 10, which is truthy. Compile with <code>-Wall</code> to get a warning about this. Some programmers use Yoda conditions (<code>10 == x</code>) to catch this."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Integer Division When Expecting Float Result",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When both operands of <code>/</code> are <code>int</code>, integer division is performed, giving 3. The 3 is then stored as 3.0 in the double. To get 3.5, cast at least one operand to <code>double</code> before dividing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing Pre-increment and Post-increment in Expressions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>x++</code> returns the current value of x (5), then increments x to 6. The assignment captures the old value. <code>++x</code> increments first (x becomes 6), then returns 6. Use pre-increment when you need the updated value in the same expression."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Operators in C++</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 4</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">25 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Operators in C++</h1>
+            <a href="/resources/cpp/operators-in-cpp/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Operators in C++?</h2><p>An <strong>operator</strong> is a symbol that tells the compiler to perform a specific mathematical, logical, or data manipulation operation on one or more operands. Operators are the building blocks of every expression in C++. When you write <code>a + b</code>, the <code>+</code> is an operator and <code>a</code> and <code>b</code> are operands.</p><p>C++ has one of the richest operator sets among programming languages. Unlike Python (which has no bitwise shift or ternary <code>?:</code> in the same sense) or Java (which lacks unsigned right shift in the same way), C++ gives you direct control over bit-level operations, memory addresses, and more.</p><h3>Categories of C++ Operators</h3><table><tr><th>Category</th><th>Operators</th><th>Example</th></tr><tr><td>Arithmetic</td><td><code>+ - * / %</code></td><td><code>a + b</code>, <code>a % b</code></td></tr><tr><td>Relational</td><td><code>== != &lt; &gt; &lt;= &gt;=</code></td><td><code>a == b</code>, <code>a &lt; b</code></td></tr><tr><td>Logical</td><td><code>&amp;&amp; || !</code></td><td><code>a &amp;&amp; b</code>, <code>!a</code></td></tr><tr><td>Bitwise</td><td><code>&amp; | ^ ~ &lt;&lt; &gt;&gt;</code></td><td><code>a &amp; b</code>, <code>a &lt;&lt; 2</code></td></tr><tr><td>Assignment</td><td><code>= += -= *= /= %= &amp;= |= ^= &lt;&lt;= &gt;&gt;=</code></td><td><code>a += 5</code></td></tr><tr><td>Increment/Decrement</td><td><code>++ --</code></td><td><code>++a</code>, <code>a++</code></td></tr><tr><td>Ternary</td><td><code>?:</code></td><td><code>a &gt; b ? a : b</code></td></tr><tr><td>sizeof</td><td><code>sizeof</code></td><td><code>sizeof(int)</code></td></tr><tr><td>Comma</td><td><code>,</code></td><td><code>(a=1, b=2, a+b)</code></td></tr></table>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Master Operators?</h2><p>Operators appear in every single line of meaningful C++ code. Understanding them deeply -- especially edge cases like integer division, modulus with negatives, pre vs post increment in expressions, and bitwise tricks -- separates average programmers from strong ones.</p><h3>1. Competitive Programming</h3><p>Bitwise operators are essential for bitmask DP, subset enumeration, and efficient flag manipulation. Knowing that <code>n &amp; (n-1)</code> clears the lowest set bit, or that <code>x ^ x = 0</code>, saves time in contests. Short-circuit evaluation is used for safe null checks and boundary conditions.</p><h3>2. Interview Questions</h3><p>Questions like "What is the output of <code>cout &lt;&lt; (5 &gt; 3 ? 10 : 20)</code>?" or "What is <code>-7 % 3</code> in C++?" or "Explain the difference between <code>++i</code> and <code>i++</code>" appear in almost every technical screening at companies like Amazon, Flipkart, and Infosys.</p><h3>3. Writing Correct Code</h3><p>Operator precedence bugs are among the most subtle in C++. <code>a &amp; b == 0</code> does NOT check if the AND of a and b is zero -- it checks if <code>b == 0</code> first (because <code>==</code> has higher precedence than <code>&amp;</code>). Knowing precedence prevents these traps.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>Arithmetic Operators</h3><p>The five arithmetic operators are <code>+</code> (addition), <code>-</code> (subtraction), <code>*</code> (multiplication), <code>/</code> (division), and <code>%</code> (modulus/remainder).</p><p><strong>Integer Division:</strong> When both operands are integers, <code>/</code> performs integer division (truncation toward zero). <code>7 / 2</code> is <code>3</code>, not <code>3.5</code>. <code>-7 / 2</code> is <code>-3</code> (truncated toward zero), not <code>-4</code>. If you want floating-point division, cast at least one operand: <code>(double)7 / 2</code> gives <code>3.5</code>.</p><p><strong>Modulus with Negatives:</strong> In C++11 and later, the result of <code>%</code> takes the sign of the dividend (left operand). <code>-7 % 3</code> is <code>-1</code>. <code>7 % -3</code> is <code>1</code>. <code>-7 % -3</code> is <code>-1</code>. This is guaranteed by the standard since C++11.</p><h3>Relational Operators</h3><p>These compare two values and return a <code>bool</code> (true/false, printed as 1/0): <code>==</code> (equal), <code>!=</code> (not equal), <code>&lt;</code> (less than), <code>&gt;</code> (greater than), <code>&lt;=</code> (less or equal), <code>&gt;=</code> (greater or equal). Chaining like <code>1 &lt; x &lt; 10</code> does NOT work as expected in C++ -- it evaluates left to right: <code>(1 &lt; x)</code> gives 0 or 1, then <code>0 &lt; 10</code> or <code>1 &lt; 10</code> is always true.</p><h3>Logical Operators</h3><p><code>&amp;&amp;</code> (AND), <code>||</code> (OR), <code>!</code> (NOT). These work on boolean values and use <strong>short-circuit evaluation</strong>: in <code>a &amp;&amp; b</code>, if <code>a</code> is false, <code>b</code> is never evaluated. In <code>a || b</code>, if <code>a</code> is true, <code>b</code> is never evaluated. This is not just an optimization -- it is a correctness tool: <code>ptr != NULL &amp;&amp; ptr-&gt;val == 5</code> safely avoids dereferencing a null pointer.</p><h3>Bitwise Operators</h3><p>These operate on individual bits:</p><ul><li><code>&amp;</code> (AND): Each bit is 1 only if both bits are 1. <code>5 &amp; 3</code> = <code>0101 &amp; 0011</code> = <code>0001</code> = 1.</li><li><code>|</code> (OR): Each bit is 1 if either bit is 1. <code>5 | 3</code> = <code>0101 | 0011</code> = <code>0111</code> = 7.</li><li><code>^</code> (XOR): Each bit is 1 if exactly one bit is 1. <code>5 ^ 3</code> = <code>0101 ^ 0011</code> = <code>0110</code> = 6.</li><li><code>~</code> (NOT/complement): Flips every bit. <code>~0</code> gives -1 (all bits set to 1 in two's complement).</li><li><code>&lt;&lt;</code> (left shift): <code>x &lt;&lt; n</code> multiplies x by 2^n. <code>1 &lt;&lt; 3</code> = 8.</li><li><code>&gt;&gt;</code> (right shift): <code>x &gt;&gt; n</code> divides x by 2^n (for non-negative values). <code>16 &gt;&gt; 2</code> = 4.</li></ul><h3>Pre-increment vs Post-increment</h3><p><code>++x</code> (pre-increment): increments x, then returns the new value. <code>x++</code> (post-increment): returns the current value of x, then increments it. In a standalone statement <code>x++;</code> vs <code>++x;</code>, the effect is identical. The difference matters in expressions: <code>int a = ++x;</code> gives a the incremented value, while <code>int a = x++;</code> gives a the old value.</p><h3>Ternary Operator</h3><p>Syntax: <code>condition ? value_if_true : value_if_false</code>. It is the only ternary (three-operand) operator in C++. <code>int max = (a &gt; b) ? a : b;</code> is a compact alternative to an if-else block. Ternary can be nested but should not be -- nested ternaries are unreadable.</p><h3>Comma Operator</h3><p>The comma operator evaluates both operands and returns the value of the right operand. <code>int x = (1, 2, 3);</code> assigns 3 to x. It is rarely used directly but appears in for loops: <code>for (int i=0, j=10; i&lt;j; i++, j--)</code>.</p><h3>Operator Precedence (Highest to Lowest, simplified)</h3><table><tr><th>Precedence</th><th>Operators</th></tr><tr><td>1 (highest)</td><td><code>() [] -&gt; . ::</code></td></tr><tr><td>2</td><td><code>++ -- (postfix) sizeof</code></td></tr><tr><td>3</td><td><code>++ -- (prefix) ! ~ + - (unary) * &amp; (dereference/address)</code></td></tr><tr><td>4</td><td><code>* / %</code></td></tr><tr><td>5</td><td><code>+ -</code></td></tr><tr><td>6</td><td><code>&lt;&lt; &gt;&gt;</code></td></tr><tr><td>7</td><td><code>&lt; &lt;= &gt; &gt;=</code></td></tr><tr><td>8</td><td><code>== !=</code></td></tr><tr><td>9</td><td><code>&amp;</code> (bitwise AND)</td></tr><tr><td>10</td><td><code>^</code> (bitwise XOR)</td></tr><tr><td>11</td><td><code>|</code> (bitwise OR)</td></tr><tr><td>12</td><td><code>&amp;&amp;</code></td></tr><tr><td>13</td><td><code>||</code></td></tr><tr><td>14</td><td><code>?:</code></td></tr><tr><td>15</td><td><code>= += -= *= /= %=</code> etc.</td></tr><tr><td>16 (lowest)</td><td><code>,</code></td></tr></table><p>The critical trap: bitwise operators (<code>&amp; | ^</code>) have <strong>lower</strong> precedence than relational operators (<code>== != &lt; &gt;</code>). So <code>x &amp; 1 == 0</code> is parsed as <code>x &amp; (1 == 0)</code> = <code>x &amp; 0</code> = 0. Always use parentheses: <code>(x &amp; 1) == 0</code>.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Arithmetic Operators and Integer Division</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int a = 17, b = 5;
+
+    cout &lt;&lt; &quot;a + b = &quot; &lt;&lt; a + b &lt;&lt; endl;   // 22
+    cout &lt;&lt; &quot;a - b = &quot; &lt;&lt; a - b &lt;&lt; endl;   // 12
+    cout &lt;&lt; &quot;a * b = &quot; &lt;&lt; a * b &lt;&lt; endl;   // 85
+    cout &lt;&lt; &quot;a / b = &quot; &lt;&lt; a / b &lt;&lt; endl;   // 3 (integer division)
+    cout &lt;&lt; &quot;a % b = &quot; &lt;&lt; a % b &lt;&lt; endl;   // 2 (remainder)
+
+    // Float division vs int division
+    cout &lt;&lt; &quot;17 / 5 (int): &quot; &lt;&lt; 17 / 5 &lt;&lt; endl;          // 3
+    cout &lt;&lt; &quot;17.0 / 5 (double): &quot; &lt;&lt; 17.0 / 5 &lt;&lt; endl;   // 3.4
+
+    // Modulus with negatives (C++11 guaranteed)
+    cout &lt;&lt; &quot;-7 % 3 = &quot; &lt;&lt; -7 % 3 &lt;&lt; endl;    // -1
+    cout &lt;&lt; &quot;7 % -3 = &quot; &lt;&lt; 7 % -3 &lt;&lt; endl;    // 1
+    cout &lt;&lt; &quot;-7 % -3 = &quot; &lt;&lt; -7 % -3 &lt;&lt; endl;  // -1
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Integer division truncates toward zero: <code>17/5=3</code>, not 3.4. For float division, at least one operand must be a floating-point type. The modulus result takes the sign of the dividend (left operand) since C++11. <code>-7 % 3 = -1</code> because -7 = (-2)*3 + (-1).</div><div class="code-example-output">a + b = 22
+a - b = 12
+a * b = 85
+a / b = 3
+a % b = 2
+17 / 5 (int): 3
+17.0 / 5 (double): 3.4
+-7 % 3 = -1
+7 % -3 = 1
+-7 % -3 = -1</div></div>
+<div class="code-example"><div class="code-example-title">Pre-increment vs Post-increment</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int x = 5;
+    int a = ++x;  // Pre: increment first, then assign
+    cout &lt;&lt; &quot;After ++x: x=&quot; &lt;&lt; x &lt;&lt; &quot;, a=&quot; &lt;&lt; a &lt;&lt; endl;  // x=6, a=6
+
+    int y = 5;
+    int b = y++;  // Post: assign first, then increment
+    cout &lt;&lt; &quot;After y++: y=&quot; &lt;&lt; y &lt;&lt; &quot;, b=&quot; &lt;&lt; b &lt;&lt; endl;  // y=6, b=5
+
+    // In a standalone statement, both are identical
+    int m = 10;
+    m++;  // m becomes 11
+    ++m;  // m becomes 12
+    cout &lt;&lt; &quot;m = &quot; &lt;&lt; m &lt;&lt; endl;
+
+    // Pre-decrement and post-decrement
+    int p = 10;
+    cout &lt;&lt; &quot;--p = &quot; &lt;&lt; --p &lt;&lt; endl;  // 9
+    cout &lt;&lt; &quot;p-- = &quot; &lt;&lt; p-- &lt;&lt; endl;  // 9 (prints current, then decrements)
+    cout &lt;&lt; &quot;p   = &quot; &lt;&lt; p &lt;&lt; endl;    // 8
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>++x</code> increments first, then returns the new value (6). <code>y++</code> returns the current value (5) first, then increments y to 6. This distinction matters in expressions but not in standalone statements. In for loops, <code>i++</code> and <code>++i</code> are functionally identical for primitive types.</div><div class="code-example-output">After ++x: x=6, a=6
+After y++: y=6, b=5
+m = 12
+--p = 9
+p-- = 9
+p   = 8</div></div>
+<div class="code-example"><div class="code-example-title">Bitwise Operators</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int a = 5;  // 0101 in binary
+    int b = 3;  // 0011 in binary
+
+    cout &lt;&lt; &quot;a &amp; b  = &quot; &lt;&lt; (a &amp; b) &lt;&lt; endl;   // 0001 = 1 (AND)
+    cout &lt;&lt; &quot;a | b  = &quot; &lt;&lt; (a | b) &lt;&lt; endl;   // 0111 = 7 (OR)
+    cout &lt;&lt; &quot;a ^ b  = &quot; &lt;&lt; (a ^ b) &lt;&lt; endl;   // 0110 = 6 (XOR)
+    cout &lt;&lt; &quot;~a     = &quot; &lt;&lt; (~a) &lt;&lt; endl;       // -6 (bitwise NOT)
+    cout &lt;&lt; &quot;a &lt;&lt; 1 = &quot; &lt;&lt; (a &lt;&lt; 1) &lt;&lt; endl;  // 1010 = 10 (left shift)
+    cout &lt;&lt; &quot;a &gt;&gt; 1 = &quot; &lt;&lt; (a &gt;&gt; 1) &lt;&lt; endl;  // 0010 = 2 (right shift)
+
+    // Useful bitwise tricks
+    int n = 12;
+    cout &lt;&lt; &quot;\n--- Bitwise Tricks ---&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Check if &quot; &lt;&lt; n &lt;&lt; &quot; is even: &quot; &lt;&lt; ((n &amp; 1) == 0) &lt;&lt; endl;
+    cout &lt;&lt; &quot;Multiply &quot; &lt;&lt; n &lt;&lt; &quot; by 4: &quot; &lt;&lt; (n &lt;&lt; 2) &lt;&lt; endl;
+    cout &lt;&lt; &quot;Divide &quot; &lt;&lt; n &lt;&lt; &quot; by 2: &quot; &lt;&lt; (n &gt;&gt; 1) &lt;&lt; endl;
+
+    // XOR swap
+    int x = 10, y = 20;
+    x ^= y;
+    y ^= x;
+    x ^= y;
+    cout &lt;&lt; &quot;After XOR swap: x=&quot; &lt;&lt; x &lt;&lt; &quot;, y=&quot; &lt;&lt; y &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Bitwise AND (<code>&</code>) keeps bits that are 1 in both. OR (<code>|</code>) keeps bits that are 1 in either. XOR (<code>^</code>) keeps bits that differ. Left shift (<code>&lt;&lt;</code>) multiplies by 2^n. Right shift (<code>&gt;&gt;</code>) divides by 2^n. The XOR swap trick swaps two values without a temp variable. <code>n &amp; 1</code> checks the last bit to determine even/odd.</div><div class="code-example-output">a &amp; b  = 1
+a | b  = 7
+a ^ b  = 6
+~a     = -6
+a &lt;&lt; 1 = 10
+a &gt;&gt; 1 = 2
+
+--- Bitwise Tricks ---
+Check if 12 is even: 1
+Multiply 12 by 4: 48
+Divide 12 by 2: 6
+After XOR swap: x=20, y=10</div></div>
+<div class="code-example"><div class="code-example-title">Logical Operators and Short-Circuit Evaluation</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int a = 5, b = 0;
+
+    cout &lt;&lt; &quot;a &amp;&amp; b: &quot; &lt;&lt; (a &amp;&amp; b) &lt;&lt; endl;   // 0 (5 is true, 0 is false)
+    cout &lt;&lt; &quot;a || b: &quot; &lt;&lt; (a || b) &lt;&lt; endl;   // 1 (5 is true)
+    cout &lt;&lt; &quot;!a: &quot; &lt;&lt; (!a) &lt;&lt; endl;            // 0 (not true = false)
+    cout &lt;&lt; &quot;!b: &quot; &lt;&lt; (!b) &lt;&lt; endl;            // 1 (not false = true)
+
+    // Short-circuit demonstration
+    int x = 0;
+    bool result = (x != 0) &amp;&amp; (10 / x &gt; 1);  // Safe! 10/x never executes
+    cout &lt;&lt; &quot;Short-circuit AND: &quot; &lt;&lt; result &lt;&lt; endl;
+
+    int y = 5;
+    bool result2 = (y &gt; 0) || (10 / 0 &gt; 1);  // Safe! 10/0 never executes
+    cout &lt;&lt; &quot;Short-circuit OR: &quot; &lt;&lt; result2 &lt;&lt; endl;
+
+    // Truthiness: any non-zero is true
+    cout &lt;&lt; &quot;\n(42 &amp;&amp; -1): &quot; &lt;&lt; (42 &amp;&amp; -1) &lt;&lt; endl;    // 1 (both non-zero)
+    cout &lt;&lt; &quot;(0 || 100): &quot; &lt;&lt; (0 || 100) &lt;&lt; endl;      // 1 (100 is non-zero)
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Short-circuit evaluation is critical for safety. In <code>(x != 0) &amp;&amp; (10 / x > 1)</code>, if x is 0, the first condition is false and the division is never executed -- preventing a division by zero crash. The same logic applies to null pointer checks: <code>ptr != NULL &amp;&amp; ptr->val</code>.</div><div class="code-example-output">a &amp;&amp; b: 0
+a || b: 1
+!a: 0
+!b: 1
+Short-circuit AND: 0
+Short-circuit OR: 1
+
+(42 &amp;&amp; -1): 1
+(0 || 100): 1</div></div>
+<div class="code-example"><div class="code-example-title">Ternary Operator and Comma Operator</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int a = 15, b = 20;
+
+    // Ternary operator
+    int maxVal = (a &gt; b) ? a : b;
+    cout &lt;&lt; &quot;Max of &quot; &lt;&lt; a &lt;&lt; &quot; and &quot; &lt;&lt; b &lt;&lt; &quot;: &quot; &lt;&lt; maxVal &lt;&lt; endl;
+
+    // Ternary for absolute value
+    int x = -7;
+    int absX = (x &gt;= 0) ? x : -x;
+    cout &lt;&lt; &quot;Absolute value of &quot; &lt;&lt; x &lt;&lt; &quot;: &quot; &lt;&lt; absX &lt;&lt; endl;
+
+    // Nested ternary (readable version)
+    int marks = 75;
+    string grade = (marks &gt;= 90) ? &quot;A&quot; :
+                   (marks &gt;= 80) ? &quot;B&quot; :
+                   (marks &gt;= 70) ? &quot;C&quot; :
+                   (marks &gt;= 60) ? &quot;D&quot; : &quot;F&quot;;
+    cout &lt;&lt; &quot;Grade for &quot; &lt;&lt; marks &lt;&lt; &quot;: &quot; &lt;&lt; grade &lt;&lt; endl;
+
+    // Comma operator
+    int y = (1, 2, 3);  // y = 3 (last expression)
+    cout &lt;&lt; &quot;Comma result: &quot; &lt;&lt; y &lt;&lt; endl;
+
+    // Comma in for loop
+    for (int i = 0, j = 10; i &lt; j; i++, j--) {
+        cout &lt;&lt; &quot;i=&quot; &lt;&lt; i &lt;&lt; &quot; j=&quot; &lt;&lt; j &lt;&lt; &quot;  &quot;;
+    }
+    cout &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">The ternary operator <code>?:</code> is a compact if-else. It returns a value, so it can be used in assignments and expressions. The comma operator evaluates all operands left to right and returns the last one. It is most commonly seen in for loops to update multiple variables.</div><div class="code-example-output">Max of 15 and 20: 20
+Absolute value of -7: 7
+Grade for 75: C
+Comma result: 3
+i=0 j=10  i=1 j=9  i=2 j=8  i=3 j=7  i=4 j=6  </div></div>
+<div class="code-example"><div class="code-example-title">Operator Precedence Traps</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    // Trap 1: Bitwise vs relational precedence
+    int x = 5;
+    cout &lt;&lt; &quot;x &amp; 1 == 0: &quot; &lt;&lt; (x &amp; 1 == 0) &lt;&lt; endl;      // Parsed as x &amp; (1==0) = 5 &amp; 0 = 0
+    cout &lt;&lt; &quot;(x &amp; 1) == 0: &quot; &lt;&lt; ((x &amp; 1) == 0) &lt;&lt; endl;    // Correct: (5 &amp; 1) = 1, 1==0 = false
+
+    // Trap 2: Multiplication before addition
+    cout &lt;&lt; &quot;2 + 3 * 4 = &quot; &lt;&lt; 2 + 3 * 4 &lt;&lt; endl;  // 14, not 20
+
+    // Trap 3: Assignment in condition
+    int a = 0;
+    if (a = 5) {  // Assignment, not comparison! a becomes 5, condition is true
+        cout &lt;&lt; &quot;a = 5 was assigned (truthy)&quot; &lt;&lt; endl;
+    }
+
+    // Trap 4: Chained comparisons do not work as expected
+    int val = 5;
+    // This does NOT check if 1 &lt; val &lt; 10
+    cout &lt;&lt; &quot;1 &lt; 5 &lt; 3: &quot; &lt;&lt; (1 &lt; 5 &lt; 3) &lt;&lt; endl;  // (true &lt; 3) = (1 &lt; 3) = true!
+    // Correct way:
+    cout &lt;&lt; &quot;1 &lt; val &amp;&amp; val &lt; 10: &quot; &lt;&lt; (1 &lt; val &amp;&amp; val &lt; 10) &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">The most dangerous precedence trap is bitwise operators having lower precedence than relational operators. <code>x & 1 == 0</code> is parsed as <code>x & (1 == 0)</code>, not <code>(x & 1) == 0</code>. Always use parentheses with bitwise operators. Chained comparisons like <code>1 < x < 10</code> do not work in C++ -- they evaluate left to right, giving unexpected results.</div><div class="code-example-output">x &amp; 1 == 0: 0
+(x &amp; 1) == 0: 0
+2 + 3 * 4 = 14
+a = 5 was assigned (truthy)
+1 &lt; 5 &lt; 3: 1
+1 &lt; val &amp;&amp; val &lt; 10: 1</div></div>
+<div class="code-example"><div class="code-example-title">Assignment Operators and sizeof</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int x = 10;
+    cout &lt;&lt; &quot;x = &quot; &lt;&lt; x &lt;&lt; endl;
+
+    x += 5;   // x = x + 5
+    cout &lt;&lt; &quot;x += 5: &quot; &lt;&lt; x &lt;&lt; endl;   // 15
+
+    x -= 3;   // x = x - 3
+    cout &lt;&lt; &quot;x -= 3: &quot; &lt;&lt; x &lt;&lt; endl;   // 12
+
+    x *= 2;   // x = x * 2
+    cout &lt;&lt; &quot;x *= 2: &quot; &lt;&lt; x &lt;&lt; endl;   // 24
+
+    x /= 4;   // x = x / 4
+    cout &lt;&lt; &quot;x /= 4: &quot; &lt;&lt; x &lt;&lt; endl;   // 6
+
+    x %= 4;   // x = x % 4
+    cout &lt;&lt; &quot;x %= 4: &quot; &lt;&lt; x &lt;&lt; endl;   // 2
+
+    x &lt;&lt;= 3;  // x = x &lt;&lt; 3 (multiply by 8)
+    cout &lt;&lt; &quot;x &lt;&lt;= 3: &quot; &lt;&lt; x &lt;&lt; endl;  // 16
+
+    x &gt;&gt;= 1;  // x = x &gt;&gt; 1 (divide by 2)
+    cout &lt;&lt; &quot;x &gt;&gt;= 1: &quot; &lt;&lt; x &lt;&lt; endl;  // 8
+
+    // sizeof as an operator
+    cout &lt;&lt; &quot;\nsizeof(x): &quot; &lt;&lt; sizeof(x) &lt;&lt; endl;
+    cout &lt;&lt; &quot;sizeof(int): &quot; &lt;&lt; sizeof(int) &lt;&lt; endl;
+    cout &lt;&lt; &quot;sizeof(x + 1.0): &quot; &lt;&lt; sizeof(x + 1.0) &lt;&lt; endl;  // double
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Compound assignment operators combine an operation with assignment. <code>x += 5</code> is shorthand for <code>x = x + 5</code>. Bitwise shift assignments (<code>&lt;&lt;=</code>, <code>&gt;&gt;=</code>) are useful for power-of-2 multiplications. <code>sizeof</code> is an operator (not a function) that returns the size in bytes. It is evaluated at compile time.</div><div class="code-example-output">x = 10
+x += 5: 15
+x -= 3: 12
+x *= 2: 24
+x /= 4: 6
+x %= 4: 2
+x &lt;&lt;= 3: 16
+x &gt;&gt;= 1: 8
+
+sizeof(x): 4
+sizeof(int): 4
+sizeof(x + 1.0): 8</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Bitwise Operator Precedence Trap</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = 6;
+    if (x &amp; 1 == 0) {
+        cout &lt;&lt; &quot;Even&quot; &lt;&lt; endl;
+    } else {
+        cout &lt;&lt; &quot;Odd&quot; &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><div class="error-message">Prints &#39;Odd&#39; even though 6 is even. The expression is parsed as x &amp; (1 == 0) = 6 &amp; 0 = 0 (false).</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = 6;
+    if ((x &amp; 1) == 0) {
+        cout &lt;&lt; &quot;Even&quot; &lt;&lt; endl;
+    } else {
+        cout &lt;&lt; &quot;Odd&quot; &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><div class="mistake-explanation">The <code>==</code> operator has higher precedence than <code>&</code>. So <code>x & 1 == 0</code> is parsed as <code>x & (1 == 0)</code> = <code>x & 0</code> = 0. Always wrap bitwise operations in parentheses when comparing: <code>(x & 1) == 0</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using = Instead of == in Conditions</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = 5;
+    if (x = 10) {  // Assignment, not comparison!
+        cout &lt;&lt; &quot;x is 10&quot; &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><div class="error-message">Always prints &#39;x is 10&#39; because x=10 assigns 10 and returns 10 (truthy). No compiler error.</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = 5;
+    if (x == 10) {  // Comparison
+        cout &lt;&lt; &quot;x is 10&quot; &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><div class="mistake-explanation">Single <code>=</code> is assignment, double <code>==</code> is comparison. The assignment <code>x = 10</code> sets x to 10 and returns 10, which is truthy. Compile with <code>-Wall</code> to get a warning about this. Some programmers use Yoda conditions (<code>10 == x</code>) to catch this.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Integer Division When Expecting Float Result</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int total = 7;
+    int count = 2;
+    double average = total / count;
+    cout &lt;&lt; &quot;Average: &quot; &lt;&lt; average &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="error-message">Prints 3 instead of 3.5. The division is done in int first, then converted to double.</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int total = 7;
+    int count = 2;
+    double average = static_cast&lt;double&gt;(total) / count;
+    cout &lt;&lt; &quot;Average: &quot; &lt;&lt; average &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="mistake-explanation">When both operands of <code>/</code> are <code>int</code>, integer division is performed, giving 3. The 3 is then stored as 3.0 in the double. To get 3.5, cast at least one operand to <code>double</code> before dividing.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing Pre-increment and Post-increment in Expressions</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = 5;
+    int y = x++;  // Programmer expected y to be 6
+    cout &lt;&lt; &quot;y = &quot; &lt;&lt; y &lt;&lt; endl;  // Prints 5, not 6!
+    return 0;
+}</code></pre></div><div class="error-message">y is 5, not 6. Post-increment returns the old value.</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = 5;
+    int y = ++x;  // Pre-increment: increment first, then assign
+    cout &lt;&lt; &quot;y = &quot; &lt;&lt; y &lt;&lt; endl;  // Prints 6
+    return 0;
+}</code></pre></div><div class="mistake-explanation"><code>x++</code> returns the current value of x (5), then increments x to 6. The assignment captures the old value. <code>++x</code> increments first (x becomes 6), then returns 6. Use pre-increment when you need the updated value in the same expression.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Arithmetic operators: + - * / %. Integer division truncates toward zero. 7/2 is 3, -7/2 is -3. Use casting for float division.</li>
+<li>Modulus with negatives: result takes the sign of the dividend (left operand). -7 % 3 = -1, 7 % -3 = 1.</li>
+<li>Relational operators (== != &lt; &gt; &lt;= &gt;=) return bool (0 or 1). Do not chain comparisons: 1 &lt; x &lt; 10 does not work as expected.</li>
+<li>Logical operators (&amp;&amp;, ||, !) use short-circuit evaluation. In a &amp;&amp; b, if a is false, b is not evaluated. This is used for safe null/boundary checks.</li>
+<li>Bitwise operators (&amp; | ^ ~ &lt;&lt; &gt;&gt;) operate on individual bits. &amp; checks even/odd (n &amp; 1), &lt;&lt; multiplies by 2^n, &gt;&gt; divides by 2^n.</li>
+<li>Pre-increment (++x) increments then returns new value. Post-increment (x++) returns current value then increments. In standalone statements, both are equivalent.</li>
+<li>Ternary operator: condition ? value_if_true : value_if_false. Compact alternative to if-else for simple cases.</li>
+<li>The comma operator evaluates all operands left to right and returns the last one. Most common in for loops with multiple variables.</li>
+<li>Critical precedence trap: bitwise operators (&amp; | ^) have lower precedence than relational (== !=). Always parenthesize: (x &amp; 1) == 0, not x &amp; 1 == 0.</li>
+<li>sizeof is an operator (not a function) evaluated at compile time. sizeof(x + 1.0) returns 8 because the expression type is double.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/variables-and-data-types" class="related-topic-link">Variables, Data Types, and Type Casting</a>
+<a href="/resources/cpp/input-output-and-formatting" class="related-topic-link">Input, Output, and Formatting</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/variables-and-data-types" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Variables, Data Types, and Type Casting</span>
+        </a>
+            <a href="/resources/cpp/input-output-and-formatting" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Input, Output, and Formatting</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/operators-in-cpp/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

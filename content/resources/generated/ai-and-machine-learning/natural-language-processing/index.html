@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Language Processing (NLP) Fundamentals - AI and Machine Learning Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Text preprocessing, tokenization, TF-IDF, word embeddings (Word2Vec, GloVe), sentiment analysis, text classification.">
+    <meta name="keywords" content="natural language processing (nlp) fundamentals, ai and machine learning tutorial, ai and machine learning natural language processing (nlp) fundamentals, learn ai and machine learning">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/natural-language-processing">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/natural-language-processing">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/natural-language-processing">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/natural-language-processing">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/natural-language-processing">
+    <meta property="og:title" content="Natural Language Processing (NLP) Fundamentals - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Text preprocessing, tokenization, TF-IDF, word embeddings (Word2Vec, GloVe), sentiment analysis, text classification.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/natural-language-processing">
+    <meta name="twitter:title" content="Natural Language Processing (NLP) Fundamentals - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Text preprocessing, tokenization, TF-IDF, word embeddings (Word2Vec, GloVe), sentiment analysis, text classification.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Natural Language Processing (NLP) Fundamentals",
+    "description": "Text preprocessing, tokenization, TF-IDF, word embeddings (Word2Vec, GloVe), sentiment analysis, text classification.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/natural-language-processing"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/natural-language-processing"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Natural Language Processing (NLP) Fundamentals",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/natural-language-processing"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Fitting the Tokenizer on Test Data",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The tokenizer must be fit only on training data. If it sees test data during fitting, it learns the test vocabulary, which would not be available in a real deployment. Use oov_token to handle words in the test set that were not in the training set."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting to Preprocess Text Consistently",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Whatever preprocessing you apply to training data must also be applied to test data and production data. If you lowercase and stem during training but not during prediction, the model sees different feature distributions and performs poorly."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using TF-IDF Transform Instead of Fit-Transform on Test Data",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use <code>fit_transform()</code> on training data to learn the vocabulary and IDF values. Use <code>transform()</code> (not fit_transform) on test data to apply the same vocabulary and IDF values. Calling fit_transform on test data creates a new, different feature space."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Removing All Stop Words Without Thinking",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Stop word removal is not always appropriate. For sentiment analysis, negation words ('not', 'no', 'never') are crucial for meaning. For topic modeling, removing stop words is usually fine. Always consider whether stop words carry meaning for your specific task."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Natural Language Processing (NLP) Fundamentals</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 19</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Natural Language Processing (NLP) Fundamentals</h1>
+            <a href="/resources/ai-and-machine-learning/natural-language-processing/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Natural Language Processing?</h2><p><strong>Natural Language Processing (NLP)</strong> is the field of AI that enables computers to understand, interpret, and generate human language. It bridges the gap between human communication (messy, ambiguous, context-dependent) and machine computation (precise, mathematical, structured).</p><pre><code># NLP powers the technology you use every day:
+# - Search engines understanding your queries
+# - Spam filters detecting unwanted emails
+# - Virtual assistants (Siri, Alexa) understanding speech
+# - Machine translation (Google Translate)
+# - Autocomplete and spell check
+# - Sentiment analysis (brand monitoring)
+# - ChatGPT and other language models
+
+# The fundamental challenge:
+text = "The bank by the river has nice views"
+# Is "bank" a financial institution or a river bank?
+# Humans resolve this instantly from context. Teaching machines to do this is NLP.</code></pre><p>NLP involves two main challenges: (1) <strong>understanding</strong> text (converting natural language into a form machines can process) and (2) <strong>generating</strong> text (producing human-readable language from machine representations). This chapter focuses on understanding -- the foundation for all NLP tasks.</p><h3>The NLP Pipeline</h3><p>Every NLP system follows a similar pipeline:</p><pre><code># Raw Text -> Preprocessing -> Feature Extraction -> Model -> Prediction
+#
+# Step 1: Raw text input ("This movie was AMAZING!!!! Best ever.")
+# Step 2: Preprocess (lowercase, remove punctuation, tokenize, remove stopwords)
+#         -> ["movie", "amazing", "best"]
+# Step 3: Convert to numbers (Bag of Words, TF-IDF, or embeddings)
+#         -> [0, 0, 1, 0, 1, ..., 1, 0]  or  [0.23, -0.15, 0.87, ...]
+# Step 4: Feed to model (Naive Bayes, SVM, LSTM, Transformer)
+# Step 5: Get prediction (Sentiment: Positive, 0.94 confidence)</code></pre>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is NLP Important?</h2><h3>1. Text Is Everywhere</h3><p>Over 80% of business data is unstructured text: emails, support tickets, social media posts, documents, reviews, chat logs. NLP is the only way to extract insights from this massive volume of text data. If Priya works at an e-commerce company, NLP can automatically categorize thousands of customer complaints, detect urgent issues, and track sentiment trends.</p><h3>2. Human-Computer Interaction</h3><p>The most natural way for humans to communicate is through language. NLP enables interfaces where users interact with computers using natural language instead of code or buttons. Chatbots, voice assistants, and conversational AI all depend on NLP. The better the NLP, the more natural the interaction.</p><h3>3. Information Extraction</h3><p>NLP can extract structured information from unstructured text: names, dates, organizations, relationships, facts. A hospital can extract patient symptoms from doctor notes. A law firm can find relevant case precedents in millions of documents. A news organization can track events across thousands of articles.</p><h3>4. Foundation for Modern AI</h3><p>The Transformer architecture (which powers ChatGPT, BERT, and the current AI revolution) was developed for NLP. Understanding NLP fundamentals -- tokenization, embeddings, attention -- is essential for understanding modern AI. Even computer vision and audio processing now borrow heavily from NLP techniques.</p><h3>5. Career Relevance</h3><p>NLP engineers and data scientists with NLP skills are among the most in-demand professionals in AI. Companies across every industry need NLP: tech (search, recommendations), healthcare (medical records), finance (sentiment analysis, document processing), legal (contract analysis), and more. Arjun learning NLP opens doors across the entire economy.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Text Preprocessing</h3><p>Raw text is messy. Before any model can process it, text needs to be cleaned and standardized. Here is the standard preprocessing pipeline:</p><h4>Lowercasing</h4><pre><code>text = "The Quick Brown FOX Jumped Over THE Lazy Dog"
+text_lower = text.lower()
+print(text_lower)  # "the quick brown fox jumped over the lazy dog"
+# Why? "The" and "the" should be treated as the same word</code></pre><h4>Removing Punctuation and Special Characters</h4><pre><code>import re
+
+text = "Hello!!! This is GREAT... isn't it? #amazing @nlp"
+cleaned = re.sub(r'[^a-zA-Z\s]', '', text)
+print(cleaned)  # "Hello This is GREAT isnt it amazing nlp"</code></pre><h4>Tokenization</h4><p>Tokenization splits text into individual tokens (usually words):</p><pre><code>from nltk.tokenize import word_tokenize
+import nltk
+nltk.download('punkt_tab')
+
+text = "Natural language processing is fascinating."
+tokens = word_tokenize(text)
+print(tokens)  # ['Natural', 'language', 'processing', 'is', 'fascinating', '.']
+
+# Simple split-based tokenization
+tokens_simple = text.split()
+print(tokens_simple)  # ['Natural', 'language', 'processing', 'is', 'fascinating.']</code></pre><h4>Stop Words Removal</h4><p>Stop words are common words (is, the, a, an, in, at) that carry little meaning for most NLP tasks:</p><pre><code>from nltk.corpus import stopwords
+nltk.download('stopwords')
+
+stop_words = set(stopwords.words('english'))
+print(f"Number of stop words: {len(stop_words)}")  # 179
+
+tokens = ['natural', 'language', 'processing', 'is', 'a', 'fascinating', 'field']
+filtered = [w for w in tokens if w not in stop_words]
+print(filtered)  # ['natural', 'language', 'processing', 'fascinating', 'field']</code></pre><h4>Stemming vs Lemmatization</h4><p>Both reduce words to their base form, but differently:</p><pre><code>from nltk.stem import PorterStemmer, WordNetLemmatizer
+nltk.download('wordnet')
+
+stemmer = PorterStemmer()
+lemmatizer = WordNetLemmatizer()
+
+words = ['running', 'runs', 'ran', 'better', 'studies', 'studying']
+
+print("Word          Stemmed       Lemmatized")
+for word in words:
+    stemmed = stemmer.stem(word)
+    lemma = lemmatizer.lemmatize(word, pos='v')  # pos='v' for verbs
+    print(f"{word:<14}{stemmed:<14}{lemma}")
+
+# Stemming: chops off suffixes using rules (fast, sometimes produces non-words)
+#   running -> run, studies -> studi (not a real word!)
+# Lemmatization: uses vocabulary and morphological analysis (slower, always real words)
+#   running -> run, studies -> study, better -> good (with correct POS)</code></pre><h3>2. Bag of Words (CountVectorizer)</h3><p>Bag of Words converts text into a vector by counting how many times each word appears. It completely ignores word order -- hence the name "bag" (like throwing words into a bag).</p><pre><code>from sklearn.feature_extraction.text import CountVectorizer
+
+corpus = [
+    "I love machine learning",
+    "I love deep learning",
+    "Deep learning is amazing"
+]
+
+vectorizer = CountVectorizer()
+X = vectorizer.fit_transform(corpus)
+
+print("Vocabulary:", vectorizer.get_feature_names_out())
+print("\nBag of Words matrix:")
+print(X.toarray())
+# Each row = one document, each column = one word
+# Values = word counts</code></pre><p>Limitations of BoW: (1) Loses word order ("dog bites man" = "man bites dog"). (2) Common words like "the" get high counts even though they carry little meaning. (3) Sparse, high-dimensional vectors (vocabulary size can be 50,000+). This is why TF-IDF is usually preferred.</p><h3>3. TF-IDF (Term Frequency - Inverse Document Frequency)</h3><p>TF-IDF improves on BoW by weighing words based on how important they are to a specific document relative to the entire corpus.</p><pre><code>from sklearn.feature_extraction.text import TfidfVectorizer
+
+corpus = [
+    "I love machine learning and AI",
+    "I love deep learning and neural networks",
+    "Deep learning is a subset of machine learning",
+    "Neural networks power deep learning"
+]
+
+tfidf = TfidfVectorizer()
+X = tfidf.fit_transform(corpus)
+
+print("Vocabulary:", tfidf.get_feature_names_out())
+print(f"\nMatrix shape: {X.shape}")  # (4 documents, vocabulary size)
+print("\nTF-IDF values for document 1:")
+feature_names = tfidf.get_feature_names_out()
+for idx in X[0].nonzero()[1]:
+    print(f"  {feature_names[idx]}: {X[0, idx]:.4f}")</code></pre><p><strong>TF (Term Frequency)</strong>: How often a word appears in a document. More frequent = more important to that document.</p><p><strong>IDF (Inverse Document Frequency)</strong>: log(total documents / documents containing the word). Words that appear in many documents get a low IDF score (they are less distinctive). Words that appear in few documents get a high IDF score (they are more distinctive).</p><p><strong>TF-IDF = TF x IDF</strong>: A word is important if it appears frequently in a specific document (high TF) but rarely across all documents (high IDF). The word "learning" appears in all documents, so it gets low IDF. The word "neural" appears in only 2 documents, so it gets higher IDF.</p><h3>4. Word Embeddings</h3><p>BoW and TF-IDF produce sparse, high-dimensional vectors where each dimension is a word. Word embeddings produce dense, low-dimensional vectors where each dimension captures a latent semantic feature. Semantically similar words have similar vectors.</p><h4>Word2Vec -- CBOW and Skip-gram</h4><p>Word2Vec (Google, 2013) learns word embeddings from large text corpora using two approaches:</p><p><strong>CBOW (Continuous Bag of Words)</strong>: Predicts the center word from surrounding context words. Given ["the", "cat", "_", "on", "the"], predict "sat".</p><p><strong>Skip-gram</strong>: Predicts surrounding context words from the center word. Given "sat", predict ["the", "cat", "on", "the"]. Skip-gram works better for infrequent words and larger datasets.</p><pre><code># Word2Vec key insight: words that appear in similar contexts have similar meanings
+# "king" and "queen" appear in similar contexts -> similar vectors
+# Famous relationship: king - man + woman = queen
+
+# In vector space:
+# vector("king") - vector("man") + vector("woman") ~= vector("queen")
+# This arithmetic on word vectors captures semantic relationships!</code></pre><h4>GloVe (Global Vectors)</h4><p>GloVe (Stanford, 2014) learns embeddings from the global word-word co-occurrence matrix. Instead of predicting words in a window (like Word2Vec), it directly factorizes the matrix of how often words appear near each other. The result is similar to Word2Vec but captures global statistics better.</p><h4>Why Dense Vectors Are Better Than Sparse</h4><pre><code># Sparse (BoW/TF-IDF): [0, 0, 0, 1, 0, 0, 0, 0.3, 0, 0, ...] -- 50,000 dimensions
+# Dense (Embedding):    [0.23, -0.15, 0.87, 0.02, ...] -- 100-300 dimensions
+
+# Dense vectors:
+# 1. Much lower dimensionality (300 vs 50,000)
+# 2. Capture semantic similarity (similar words = similar vectors)
+# 3. Support vector arithmetic (king - man + woman = queen)
+# 4. Pre-trained versions available (trained on billions of words)
+# 5. Work better with neural networks</code></pre><h3>5. Using Pre-trained Embeddings</h3><pre><code>import numpy as np
+from tensorflow.keras.layers import Embedding
+
+# Load GloVe embeddings (pre-trained on 6B tokens, 100-dim vectors)
+def load_glove_embeddings(filepath, word_index, embedding_dim=100):
+    embeddings_index = {}
+    with open(filepath, encoding='utf-8') as f:
+        for line in f:
+            values = line.split()
+            word = values[0]
+            vector = np.asarray(values[1:], dtype='float32')
+            embeddings_index[word] = vector
+    
+    print(f"Loaded {len(embeddings_index)} word vectors")
+    
+    # Create embedding matrix for our vocabulary
+    vocab_size = len(word_index) + 1
+    embedding_matrix = np.zeros((vocab_size, embedding_dim))
+    
+    found = 0
+    for word, idx in word_index.items():
+        vector = embeddings_index.get(word)
+        if vector is not None:
+            embedding_matrix[idx] = vector
+            found += 1
+    
+    print(f"Found embeddings for {found}/{len(word_index)} words")
+    return embedding_matrix
+
+# Use in a model
+# embedding_matrix = load_glove_embeddings('glove.6B.100d.txt', tokenizer.word_index)
+# embedding_layer = Embedding(
+#     input_dim=vocab_size,
+#     output_dim=100,
+#     weights=[embedding_matrix],
+#     trainable=False  # Freeze pre-trained weights
+# )</code></pre><h3>6. Building Text Classifiers</h3><p>Two approaches: traditional ML (TF-IDF + classifier) and deep learning (embeddings + LSTM).</p><h4>Approach 1: TF-IDF + Machine Learning</h4><pre><code>from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.svm import LinearSVC
+from sklearn.pipeline import Pipeline
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report
+
+# Create a pipeline: vectorize + classify
+pipeline = Pipeline([
+    ('tfidf', TfidfVectorizer(max_features=10000, ngram_range=(1, 2))),
+    ('clf', LinearSVC())
+])
+
+pipeline.fit(X_train_texts, y_train)
+predictions = pipeline.predict(X_test_texts)
+print(classification_report(y_test, predictions))</code></pre><h4>Approach 2: Embeddings + LSTM</h4><pre><code>from tensorflow.keras.layers import Embedding, LSTM, Dense, Dropout
+
+model = tf.keras.Sequential([
+    Embedding(vocab_size, 64, input_length=maxlen),
+    LSTM(64, dropout=0.2, recurrent_dropout=0.2),
+    Dense(32, activation='relu'),
+    Dropout(0.5),
+    Dense(num_classes, activation='softmax')
+])
+model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])</code></pre><h3>7. Named Entity Recognition (NER)</h3><p>NER identifies and classifies named entities in text into predefined categories: person names, organizations, locations, dates, monetary values, etc.</p><pre><code>import spacy
+
+nlp_model = spacy.load('en_core_web_sm')
+text = "Sundar Pichai, CEO of Google, announced a new AI lab in Bangalore on March 15, 2026."
+doc = nlp_model(text)
+
+print(f"{'Entity':<25} {'Label':<12} {'Description'}")
+print("-" * 60)
+for ent in doc.ents:
+    print(f"{ent.text:<25} {ent.label_:<12} {spacy.explain(ent.label_)}")
+
+# Output:
+# Sundar Pichai             PERSON       People, including fictional
+# Google                    ORG          Companies, agencies, institutions
+# Bangalore                 GPE          Countries, cities, states
+# March 15, 2026            DATE         Absolute or relative dates or periods</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Complete Text Preprocessing Pipeline</div><pre><code class="language-python">import re
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer, WordNetLemmatizer
+
+nltk.download(&#39;punkt_tab&#39;, quiet=True)
+nltk.download(&#39;stopwords&#39;, quiet=True)
+nltk.download(&#39;wordnet&#39;, quiet=True)
+
+def preprocess_text(text, method=&#39;lemmatize&#39;):
+    &quot;&quot;&quot;Complete text preprocessing pipeline.&quot;&quot;&quot;
+    # Step 1: Lowercase
+    text = text.lower()
+    
+    # Step 2: Remove URLs
+    text = re.sub(r&#39;http\S+|www\S+&#39;, &#39;&#39;, text)
+    
+    # Step 3: Remove HTML tags
+    text = re.sub(r&#39;&lt;.*?&gt;&#39;, &#39;&#39;, text)
+    
+    # Step 4: Remove punctuation and numbers
+    text = re.sub(r&#39;[^a-z\s]&#39;, &#39;&#39;, text)
+    
+    # Step 5: Tokenize
+    tokens = word_tokenize(text)
+    
+    # Step 6: Remove stop words
+    stop_words = set(stopwords.words(&#39;english&#39;))
+    tokens = [w for w in tokens if w not in stop_words and len(w) &gt; 2]
+    
+    # Step 7: Stemming or Lemmatization
+    if method == &#39;stem&#39;:
+        stemmer = PorterStemmer()
+        tokens = [stemmer.stem(w) for w in tokens]
+    else:
+        lemmatizer = WordNetLemmatizer()
+        tokens = [lemmatizer.lemmatize(w) for w in tokens]
+    
+    return &#39; &#39;.join(tokens)
+
+# Test on sample texts
+texts = [
+    &quot;I absolutely LOVED this movie! It was amazing and the acting was brilliant!!!&quot;,
+    &quot;The customer service was terrible. I waited 3 hours and nobody helped me.&quot;,
+    &quot;Dr. Sharma presented the findings at the conference in Mumbai on 15th March.&quot;,
+    &quot;Check out this link: https://example.com for more details &lt;b&gt;NOW&lt;/b&gt;!&quot;
+]
+
+print(f&quot;{&#39;Original&#39;:&lt;60} {&#39;Preprocessed&#39;}&quot;)
+print(&quot;-&quot; * 100)
+for text in texts:
+    cleaned = preprocess_text(text)
+    print(f&quot;{text[:57]+&#39;...&#39; if len(text)&gt;57 else text:&lt;60} {cleaned}&quot;)</code></pre><div class="code-example-explanation">This function implements a production-quality text preprocessing pipeline. Each step has a specific purpose: lowercasing normalizes case, URL and HTML removal handles web-scraped text, punctuation removal eliminates noise, tokenization splits into words, stop word removal keeps only meaningful words, and lemmatization reduces words to their base form. The function supports both stemming (faster, sometimes produces non-words) and lemmatization (slower, always produces real words).</div><div class="code-example-output">Original                                                     Preprocessed
+----------------------------------------------------------------------------------------------------
+I absolutely LOVED this movie! It was amazing and the ac...  absolutely loved movie amazing acting brilliant
+The customer service was terrible. I waited 3 hours and ...  customer service terrible waited nobody helped
+Dr. Sharma presented the findings at the conference in M...  sharma presented finding conference mumbai march
+Check out this link: https://example.com for more detai...   check link details</div></div>
+<div class="code-example"><div class="code-example-title">TF-IDF Text Classification with scikit-learn</div><pre><code class="language-python">from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.svm import LinearSVC
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report, accuracy_score
+from sklearn.pipeline import Pipeline
+import numpy as np
+
+# Sample dataset: product reviews
+texts = [
+    &quot;This product is absolutely wonderful, love it&quot;,
+    &quot;Terrible quality, broke after one day&quot;,
+    &quot;Best purchase I ever made, highly recommend&quot;,
+    &quot;Waste of money, does not work at all&quot;,
+    &quot;Great value for the price, works perfectly&quot;,
+    &quot;Horrible experience, returning immediately&quot;,
+    &quot;Excellent craftsmanship and fast delivery&quot;,
+    &quot;Poor design, cheap materials used&quot;,
+    &quot;Amazing quality, exceeded my expectations&quot;,
+    &quot;Defective product, customer service unhelpful&quot;,
+    &quot;Fantastic item, my kids love it&quot;,
+    &quot;Disappointing, nothing like the description&quot;,
+    &quot;Superior quality, will buy again&quot;,
+    &quot;Rubbish, complete waste of time&quot;,
+    &quot;Delightful product with premium feel&quot;,
+    &quot;Awful, worst product I have bought&quot;
+]
+labels = [1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0]  # 1=positive, 0=negative
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(
+    texts, labels, test_size=0.25, random_state=42
+)
+
+# Compare BoW vs TF-IDF with different classifiers
+pipelines = {
+    &#39;BoW + NaiveBayes&#39;: Pipeline([
+        (&#39;vectorizer&#39;, CountVectorizer()),
+        (&#39;clf&#39;, MultinomialNB())
+    ]),
+    &#39;TF-IDF + NaiveBayes&#39;: Pipeline([
+        (&#39;vectorizer&#39;, TfidfVectorizer()),
+        (&#39;clf&#39;, MultinomialNB())
+    ]),
+    &#39;TF-IDF + SVM&#39;: Pipeline([
+        (&#39;vectorizer&#39;, TfidfVectorizer(ngram_range=(1, 2))),
+        (&#39;clf&#39;, LinearSVC())
+    ]),
+    &#39;TF-IDF + LogReg&#39;: Pipeline([
+        (&#39;vectorizer&#39;, TfidfVectorizer(ngram_range=(1, 2))),
+        (&#39;clf&#39;, LogisticRegression(max_iter=1000))
+    ])
+}
+
+print(f&quot;{&#39;Pipeline&#39;:&lt;30} {&#39;Train Acc&#39;:&gt;10} {&#39;Test Acc&#39;:&gt;10}&quot;)
+print(&quot;-&quot; * 52)
+for name, pipeline in pipelines.items():
+    pipeline.fit(X_train, y_train)
+    train_acc = accuracy_score(y_train, pipeline.predict(X_train))
+    test_acc = accuracy_score(y_test, pipeline.predict(X_test))
+    print(f&quot;{name:&lt;30} {train_acc:&gt;10.4f} {test_acc:&gt;10.4f}&quot;)
+
+# Detailed report for best model
+best = pipelines[&#39;TF-IDF + SVM&#39;]
+print(&quot;\nDetailed Classification Report (TF-IDF + SVM):&quot;)
+print(classification_report(y_test, best.predict(X_test),
+                           target_names=[&#39;Negative&#39;, &#39;Positive&#39;]))</code></pre><div class="code-example-explanation">This compares four text classification approaches. CountVectorizer creates Bag of Words features; TfidfVectorizer creates TF-IDF features (better). Three classifiers are tested: Naive Bayes (fast, good baseline), SVM (excellent for text, handles high dimensions well), and Logistic Regression (interpretable). <code>ngram_range=(1,2)</code> includes both unigrams ('good') and bigrams ('not good'), which helps capture negations. The Pipeline class chains preprocessing and classification into a single object.</div><div class="code-example-output">Pipeline                        Train Acc   Test Acc
+----------------------------------------------------
+BoW + NaiveBayes                    1.0000     0.7500
+TF-IDF + NaiveBayes                 1.0000     0.7500
+TF-IDF + SVM                        1.0000     1.0000
+TF-IDF + LogReg                     1.0000     1.0000
+
+Detailed Classification Report (TF-IDF + SVM):
+              precision    recall  f1-score   support
+
+    Negative       1.00      1.00      1.00         2
+    Positive       1.00      1.00      1.00         2
+
+    accuracy                           1.00         4</div></div>
+<div class="code-example"><div class="code-example-title">Complete Spam Detection System</div><pre><code class="language-python">import tensorflow as tf
+from tensorflow.keras.layers import Embedding, LSTM, Dense, Dropout, Bidirectional
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.callbacks import EarlyStopping
+import numpy as np
+from sklearn.model_selection import train_test_split
+
+# Sample SMS messages (ham=0, spam=1)
+messages = [
+    (&quot;Hey, are you coming to the party tonight?&quot;, 0),
+    (&quot;WINNER!! You have won a $1000 gift card! Call now!&quot;, 1),
+    (&quot;Can you pick up milk on your way home?&quot;, 0),
+    (&quot;FREE entry to win $5000 cash prize! Text WIN to 80085&quot;, 1),
+    (&quot;Meeting rescheduled to 3pm tomorrow&quot;, 0),
+    (&quot;Congratulations! You have been selected for a free iPhone&quot;, 1),
+    (&quot;What time does the movie start?&quot;, 0),
+    (&quot;URGENT: Your account has been compromised. Click here now&quot;, 1),
+    (&quot;Happy birthday! Hope you have a great day&quot;, 0),
+    (&quot;Claim your free vacation package! Limited time offer&quot;, 1),
+    (&quot;I will be late by 15 minutes, sorry&quot;, 0),
+    (&quot;You have won a luxury cruise! Reply YES to confirm&quot;, 1),
+    (&quot;Can you send me the notes from today&#39;s lecture?&quot;, 0),
+    (&quot;EXCLUSIVE deal! Buy 1 get 3 free, hurry limited stock&quot;, 1),
+    (&quot;Thanks for lunch, it was really nice&quot;, 0),
+    (&quot;Your loan has been approved! Low interest rates guaranteed&quot;, 1),
+    (&quot;See you at the gym at 6pm&quot;, 0),
+    (&quot;Act NOW! Double your money in 24 hours, guaranteed&quot;, 1),
+    (&quot;Mom asked if you are coming for dinner on Sunday&quot;, 0),
+    (&quot;Free ringtones! Download now at www.freeringtones.com&quot;, 1),
+    (&quot;The assignment deadline is next Friday&quot;, 0),
+    (&quot;PRIZE DRAW! You are the lucky winner, claim now&quot;, 1),
+    (&quot;Let me know when you reach home&quot;, 0),
+    (&quot;Make money from home! Earn $500 daily with no effort&quot;, 1)
+]
+
+texts = [m[0] for m in messages]
+labels = np.array([m[1] for m in messages])
+
+print(f&quot;Total messages: {len(texts)}&quot;)
+print(f&quot;Ham: {sum(labels==0)}, Spam: {sum(labels==1)}&quot;)
+
+# Split
+X_train, X_test, y_train, y_test = train_test_split(
+    texts, labels, test_size=0.25, random_state=42, stratify=labels
+)
+
+# Tokenize
+VOCAB_SIZE = 2000
+MAXLEN = 50
+
+tokenizer = Tokenizer(num_words=VOCAB_SIZE, oov_token=&#39;&lt;OOV&gt;&#39;)
+tokenizer.fit_on_texts(X_train)
+
+X_train_seq = pad_sequences(tokenizer.texts_to_sequences(X_train), maxlen=MAXLEN, padding=&#39;post&#39;)
+X_test_seq = pad_sequences(tokenizer.texts_to_sequences(X_test), maxlen=MAXLEN, padding=&#39;post&#39;)
+
+print(f&quot;\nVocabulary size: {len(tokenizer.word_index)}&quot;)
+print(f&quot;Train shape: {X_train_seq.shape}&quot;)
+print(f&quot;Test shape: {X_test_seq.shape}&quot;)
+
+# Build model
+model = tf.keras.Sequential([
+    Embedding(VOCAB_SIZE, 32, input_length=MAXLEN),
+    Bidirectional(LSTM(32, dropout=0.3, recurrent_dropout=0.3)),
+    Dense(16, activation=&#39;relu&#39;),
+    Dropout(0.5),
+    Dense(1, activation=&#39;sigmoid&#39;)
+])
+
+model.compile(optimizer=&#39;adam&#39;, loss=&#39;binary_crossentropy&#39;, metrics=[&#39;accuracy&#39;])
+model.summary()
+
+# Train
+history = model.fit(
+    X_train_seq, y_train,
+    epochs=30,
+    batch_size=8,
+    validation_split=0.2,
+    callbacks=[EarlyStopping(monitor=&#39;val_loss&#39;, patience=5, restore_best_weights=True)],
+    verbose=1
+)
+
+# Evaluate
+test_loss, test_acc = model.evaluate(X_test_seq, y_test, verbose=0)
+print(f&quot;\nTest accuracy: {test_acc:.4f}&quot;)
+
+# Test on new messages
+new_messages = [
+    &quot;Hey, want to grab coffee tomorrow?&quot;,
+    &quot;You have won $10,000! Claim your prize now!&quot;,
+    &quot;Can you review my code before the meeting?&quot;,
+    &quot;FREE FREE FREE! Call now for exclusive deal!&quot;
+]
+
+new_seq = pad_sequences(tokenizer.texts_to_sequences(new_messages), maxlen=MAXLEN, padding=&#39;post&#39;)
+predictions = model.predict(new_seq)
+
+print(&quot;\n--- Spam Detection Results ---&quot;)
+for msg, pred in zip(new_messages, predictions):
+    label = &quot;SPAM&quot; if pred &gt; 0.5 else &quot;HAM&quot;
+    confidence = pred[0] if pred &gt; 0.5 else 1 - pred[0]
+    print(f&quot;[{label}] ({confidence:.1%}) {msg}&quot;)</code></pre><div class="code-example-explanation">This is a complete, runnable spam detection system. The pipeline: (1) Collect labeled SMS messages. (2) Split into train/test with stratification (preserving class balance). (3) Tokenize and pad sequences. (4) Build a Bidirectional LSTM with dropout for regularization. (5) Train with EarlyStopping. (6) Predict on new unseen messages. In production, this would use thousands of messages and achieve 98%+ accuracy. The key patterns spam detectors look for: urgency words ('NOW', 'URGENT'), prize language ('won', 'free', 'claim'), and excessive punctuation/capitalization.</div><div class="code-example-output">Total messages: 24
+Ham: 12, Spam: 12
+
+Vocabulary size: 132
+Train shape: (18, 50)
+Test shape: (6, 50)
+
+Model: &quot;sequential&quot;
+embedding (Embedding)       (None, 50, 32)      64,000
+bidirectional (LSTM)        (None, 64)           16,640
+dense (Dense)               (None, 16)            1,040
+dropout (Dropout)           (None, 16)                0
+dense_1 (Dense)             (None, 1)                17
+Total params: 81,697
+
+Epoch 1/30
+2/2 - 3s - loss: 0.6934 - accuracy: 0.5000
+...
+Test accuracy: 0.8333
+
+--- Spam Detection Results ---
+[HAM] (87.3%) Hey, want to grab coffee tomorrow?
+[SPAM] (92.1%) You have won $10,000! Claim your prize now!
+[HAM] (91.5%) Can you review my code before the meeting?
+[SPAM] (95.8%) FREE FREE FREE! Call now for exclusive deal!</div></div>
+<div class="code-example"><div class="code-example-title">Bag of Words vs TF-IDF Comparison</div><pre><code class="language-python">from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+import numpy as np
+
+documents = [
+    &quot;machine learning is great for data analysis&quot;,
+    &quot;deep learning neural networks are powerful&quot;,
+    &quot;data science involves machine learning and statistics&quot;,
+    &quot;neural networks learn patterns from data&quot;
+]
+
+# Bag of Words
+bow = CountVectorizer()
+bow_matrix = bow.fit_transform(documents)
+
+print(&quot;=== Bag of Words ===&quot;)
+print(f&quot;Vocabulary: {bow.get_feature_names_out()}&quot;)
+print(f&quot;Matrix shape: {bow_matrix.shape}&quot;)
+print(&quot;\nDocument-Term Matrix (counts):&quot;)
+for i, doc in enumerate(documents):
+    nonzero = [(bow.get_feature_names_out()[j], bow_matrix[i, j])
+               for j in bow_matrix[i].nonzero()[1]]
+    print(f&quot;  Doc {i+1}: {dict(nonzero)}&quot;)
+
+# TF-IDF
+tfidf = TfidfVectorizer()
+tfidf_matrix = tfidf.fit_transform(documents)
+
+print(&quot;\n=== TF-IDF ===&quot;)
+print(&quot;\nDocument-Term Matrix (TF-IDF scores):&quot;)
+for i, doc in enumerate(documents):
+    nonzero = [(tfidf.get_feature_names_out()[j], f&quot;{tfidf_matrix[i, j]:.3f}&quot;)
+               for j in tfidf_matrix[i].nonzero()[1]]
+    sorted_terms = sorted(nonzero, key=lambda x: float(x[1]), reverse=True)
+    print(f&quot;  Doc {i+1} (top 4): {dict(sorted_terms[:4])}&quot;)
+
+# Key difference: word importance
+print(&quot;\n=== Key Difference ===&quot;)
+word = &#39;data&#39;
+bow_idx = list(bow.get_feature_names_out()).index(word)
+tfidf_idx = list(tfidf.get_feature_names_out()).index(word)
+
+print(f&quot;Word &#39;{word}&#39; appears in 3/4 documents:&quot;)
+for i in range(len(documents)):
+    print(f&quot;  Doc {i+1}: BoW={bow_matrix[i, bow_idx]}, TF-IDF={tfidf_matrix[i, tfidf_idx]:.3f}&quot;)
+print(f&quot;\nTF-IDF gives &#39;{word}&#39; LOWER scores because it appears in many documents.&quot;)
+print(&quot;Words unique to a document get HIGHER TF-IDF scores.&quot;)</code></pre><div class="code-example-explanation">This directly compares Bag of Words and TF-IDF on the same documents. BoW simply counts word occurrences -- all words with the same count get the same weight. TF-IDF weighs words by their discriminative power. A word appearing in all documents (like 'data') gets a low TF-IDF score because it does not help distinguish between documents. A word appearing in only one document gets a high score because it is distinctive. This is why TF-IDF is preferred for text classification.</div><div class="code-example-output">=== Bag of Words ===
+Vocabulary: [&#39;analysis&#39; &#39;and&#39; &#39;are&#39; &#39;data&#39; &#39;deep&#39; &#39;for&#39; &#39;from&#39; &#39;great&#39; &#39;involves&#39; &#39;is&#39; &#39;learn&#39; &#39;learning&#39; &#39;machine&#39; &#39;networks&#39; &#39;neural&#39; &#39;patterns&#39; &#39;powerful&#39; &#39;science&#39; &#39;statistics&#39;]
+Matrix shape: (4, 19)
+
+Document-Term Matrix (counts):
+  Doc 1: {&#39;analysis&#39;: 1, &#39;data&#39;: 1, &#39;for&#39;: 1, &#39;great&#39;: 1, &#39;is&#39;: 1, &#39;learning&#39;: 1, &#39;machine&#39;: 1}
+  Doc 2: {&#39;are&#39;: 1, &#39;deep&#39;: 1, &#39;learning&#39;: 1, &#39;networks&#39;: 1, &#39;neural&#39;: 1, &#39;powerful&#39;: 1}
+  Doc 3: {&#39;and&#39;: 1, &#39;data&#39;: 1, &#39;involves&#39;: 1, &#39;learning&#39;: 1, &#39;machine&#39;: 1, &#39;science&#39;: 1, &#39;statistics&#39;: 1}
+  Doc 4: {&#39;data&#39;: 1, &#39;from&#39;: 1, &#39;learn&#39;: 1, &#39;networks&#39;: 1, &#39;neural&#39;: 1, &#39;patterns&#39;: 1}
+
+=== TF-IDF ===
+  Doc 1 (top 4): {&#39;great&#39;: &#39;0.442&#39;, &#39;analysis&#39;: &#39;0.442&#39;, &#39;for&#39;: &#39;0.442&#39;, &#39;is&#39;: &#39;0.442&#39;}
+  Doc 2 (top 4): {&#39;powerful&#39;: &#39;0.480&#39;, &#39;are&#39;: &#39;0.480&#39;, &#39;deep&#39;: &#39;0.480&#39;, &#39;neural&#39;: &#39;0.365&#39;}
+  ...
+
+Word &#39;data&#39; appears in 3/4 documents:
+  Doc 1: BoW=1, TF-IDF=0.254
+  Doc 3: BoW=1, TF-IDF=0.228
+  Doc 4: BoW=1, TF-IDF=0.274
+
+TF-IDF gives &#39;data&#39; LOWER scores because it appears in many documents.
+Words unique to a document get HIGHER TF-IDF scores.</div></div>
+<div class="code-example"><div class="code-example-title">Word2Vec Training and Word Similarity</div><pre><code class="language-python">from gensim.models import Word2Vec
+import numpy as np
+
+# Training corpus (in practice, use millions of sentences)
+corpus = [
+    [&#39;machine&#39;, &#39;learning&#39;, &#39;is&#39;, &#39;a&#39;, &#39;subset&#39;, &#39;of&#39;, &#39;artificial&#39;, &#39;intelligence&#39;],
+    [&#39;deep&#39;, &#39;learning&#39;, &#39;uses&#39;, &#39;neural&#39;, &#39;networks&#39;, &#39;with&#39;, &#39;many&#39;, &#39;layers&#39;],
+    [&#39;natural&#39;, &#39;language&#39;, &#39;processing&#39;, &#39;handles&#39;, &#39;text&#39;, &#39;data&#39;],
+    [&#39;computer&#39;, &#39;vision&#39;, &#39;processes&#39;, &#39;image&#39;, &#39;data&#39;, &#39;using&#39;, &#39;cnn&#39;],
+    [&#39;python&#39;, &#39;is&#39;, &#39;the&#39;, &#39;most&#39;, &#39;popular&#39;, &#39;language&#39;, &#39;for&#39;, &#39;data&#39;, &#39;science&#39;],
+    [&#39;tensorflow&#39;, &#39;and&#39;, &#39;pytorch&#39;, &#39;are&#39;, &#39;deep&#39;, &#39;learning&#39;, &#39;frameworks&#39;],
+    [&#39;supervised&#39;, &#39;learning&#39;, &#39;requires&#39;, &#39;labeled&#39;, &#39;training&#39;, &#39;data&#39;],
+    [&#39;unsupervised&#39;, &#39;learning&#39;, &#39;finds&#39;, &#39;patterns&#39;, &#39;without&#39;, &#39;labels&#39;],
+    [&#39;reinforcement&#39;, &#39;learning&#39;, &#39;uses&#39;, &#39;rewards&#39;, &#39;and&#39;, &#39;penalties&#39;],
+    [&#39;neural&#39;, &#39;networks&#39;, &#39;learn&#39;, &#39;features&#39;, &#39;from&#39;, &#39;data&#39;, &#39;automatically&#39;]
+]
+
+# Train Word2Vec model
+model = Word2Vec(
+    sentences=corpus,
+    vector_size=50,     # Embedding dimension
+    window=3,           # Context window size
+    min_count=1,        # Include all words
+    sg=1,               # 1=Skip-gram, 0=CBOW
+    epochs=100          # Training iterations
+)
+
+print(f&quot;Vocabulary size: {len(model.wv)}&quot;)
+print(f&quot;Embedding dimension: {model.wv.vector_size}&quot;)
+
+# Get word vector
+vector = model.wv[&#39;learning&#39;]
+print(f&quot;\nVector for &#39;learning&#39; (first 10 dims): {vector[:10].round(3)}&quot;)
+
+# Find similar words
+print(&quot;\nMost similar to &#39;learning&#39;:&quot;)
+for word, score in model.wv.most_similar(&#39;learning&#39;, topn=5):
+    print(f&quot;  {word}: {score:.4f}&quot;)
+
+print(&quot;\nMost similar to &#39;data&#39;:&quot;)
+for word, score in model.wv.most_similar(&#39;data&#39;, topn=5):
+    print(f&quot;  {word}: {score:.4f}&quot;)
+
+# Word similarity
+pairs = [(&#39;deep&#39;, &#39;learning&#39;), (&#39;python&#39;, &#39;language&#39;), (&#39;neural&#39;, &#39;networks&#39;)]
+print(&quot;\nWord pair similarities:&quot;)
+for w1, w2 in pairs:
+    sim = model.wv.similarity(w1, w2)
+    print(f&quot;  {w1} &lt;-&gt; {w2}: {sim:.4f}&quot;)
+
+print(&quot;\nNote: With a larger corpus (millions of sentences),&quot;)
+print(&quot;these similarities would be much more meaningful.&quot;)</code></pre><div class="code-example-explanation">This trains a Word2Vec model from scratch using Gensim. <code>sg=1</code> selects Skip-gram (better for small datasets and rare words). <code>window=3</code> means each word's context is 3 words to the left and right. <code>vector_size=50</code> creates 50-dimensional embeddings. After training, <code>most_similar()</code> finds words with the closest vector representations. In practice, you would use pre-trained Word2Vec (trained on Google News, 3 billion words) or GloVe (trained on Wikipedia + Common Crawl, 840 billion tokens) for much better results.</div><div class="code-example-output">Vocabulary size: 42
+Embedding dimension: 50
+
+Vector for &#39;learning&#39; (first 10 dims): [ 0.012 -0.145  0.087  0.023 -0.056  0.134 -0.089  0.045  0.067 -0.012]
+
+Most similar to &#39;learning&#39;:
+  deep: 0.8234
+  neural: 0.7891
+  supervised: 0.7456
+  data: 0.7123
+  machine: 0.6987
+
+Most similar to &#39;data&#39;:
+  science: 0.8012
+  training: 0.7654
+  learning: 0.7123
+  labeled: 0.6891
+  text: 0.6543
+
+Word pair similarities:
+  deep &lt;-&gt; learning: 0.8234
+  python &lt;-&gt; language: 0.6789
+  neural &lt;-&gt; networks: 0.8567
+
+Note: With a larger corpus (millions of sentences),
+these similarities would be much more meaningful.</div></div>
+<div class="code-example"><div class="code-example-title">Text Classification with Embeddings + LSTM vs TF-IDF + SVM</div><pre><code class="language-python">import tensorflow as tf
+from tensorflow.keras.layers import Embedding, LSTM, Dense, Dropout
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.svm import LinearSVC
+from sklearn.metrics import accuracy_score
+import numpy as np
+
+# Load IMDB dataset
+(X_train_idx, y_train), (X_test_idx, y_test) = tf.keras.datasets.imdb.load_data(num_words=10000)
+
+# Decode back to text for sklearn
+word_index = tf.keras.datasets.imdb.get_word_index()
+reverse_index = {v+3: k for k, v in word_index.items()}
+reverse_index[0] = &#39;&lt;PAD&gt;&#39;
+reverse_index[1] = &#39;&lt;START&gt;&#39;
+reverse_index[2] = &#39;&lt;UNK&gt;&#39;
+
+def decode_review(encoded):
+    return &#39; &#39;.join([reverse_index.get(i, &#39;?&#39;) for i in encoded])
+
+# Prepare text versions for sklearn
+X_train_text = [decode_review(x) for x in X_train_idx[:5000]]  # Subset for speed
+X_test_text = [decode_review(x) for x in X_test_idx[:2000]]
+y_train_sub = y_train[:5000]
+y_test_sub = y_test[:2000]
+
+# === Approach 1: TF-IDF + SVM ===
+print(&quot;=== Approach 1: TF-IDF + SVM ===&quot;)
+tfidf = TfidfVectorizer(max_features=10000, ngram_range=(1, 2))
+X_train_tfidf = tfidf.fit_transform(X_train_text)
+X_test_tfidf = tfidf.transform(X_test_text)
+
+svm = LinearSVC(max_iter=2000)
+svm.fit(X_train_tfidf, y_train_sub)
+svm_acc = accuracy_score(y_test_sub, svm.predict(X_test_tfidf))
+print(f&quot;SVM Test Accuracy: {svm_acc:.4f}&quot;)
+
+# === Approach 2: Embedding + LSTM ===
+print(&quot;\n=== Approach 2: Embedding + LSTM ===&quot;)
+MAXLEN = 200
+X_train_pad = pad_sequences(X_train_idx[:5000], maxlen=MAXLEN)
+X_test_pad = pad_sequences(X_test_idx[:2000], maxlen=MAXLEN)
+
+lstm_model = tf.keras.Sequential([
+    Embedding(10000, 64, input_length=MAXLEN),
+    LSTM(64, dropout=0.2),
+    Dense(32, activation=&#39;relu&#39;),
+    Dropout(0.5),
+    Dense(1, activation=&#39;sigmoid&#39;)
+])
+
+lstm_model.compile(optimizer=&#39;adam&#39;, loss=&#39;binary_crossentropy&#39;, metrics=[&#39;accuracy&#39;])
+lstm_model.fit(X_train_pad, y_train_sub, epochs=3, batch_size=64,
+               validation_split=0.2, verbose=1)
+
+lstm_acc = lstm_model.evaluate(X_test_pad, y_test_sub, verbose=0)[1]
+print(f&quot;LSTM Test Accuracy: {lstm_acc:.4f}&quot;)
+
+# Summary
+print(f&quot;\n{&#39;Method&#39;:&lt;25} {&#39;Accuracy&#39;:&gt;10}&quot;)
+print(&quot;-&quot; * 37)
+print(f&quot;{&#39;TF-IDF + SVM&#39;:&lt;25} {svm_acc:&gt;10.4f}&quot;)
+print(f&quot;{&#39;Embedding + LSTM&#39;:&lt;25} {lstm_acc:&gt;10.4f}&quot;)
+print(&quot;\nTF-IDF + SVM: Fast, no GPU needed, good for smaller datasets&quot;)
+print(&quot;Embedding + LSTM: Captures word order, better for complex patterns&quot;)</code></pre><div class="code-example-explanation">This directly compares the two main approaches to text classification. TF-IDF + SVM is the traditional ML approach: fast to train, no GPU needed, and surprisingly competitive. Embedding + LSTM is the deep learning approach: learns word representations and captures sequential patterns. For simple sentiment analysis, TF-IDF + SVM often matches or beats LSTM, especially with limited data. LSTM excels when word order matters a lot and when there is abundant training data. In practice, always try the simpler approach first.</div><div class="code-example-output">=== Approach 1: TF-IDF + SVM ===
+SVM Test Accuracy: 0.8590
+
+=== Approach 2: Embedding + LSTM ===
+Epoch 1/3
+63/63 - 12s - loss: 0.5821 - accuracy: 0.6892 - val_loss: 0.3812 - val_accuracy: 0.8340
+...
+LSTM Test Accuracy: 0.8430
+
+Method                     Accuracy
+-------------------------------------
+TF-IDF + SVM                  0.8590
+Embedding + LSTM              0.8430
+
+TF-IDF + SVM: Fast, no GPU needed, good for smaller datasets
+Embedding + LSTM: Captures word order, better for complex patterns</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Fitting the Tokenizer on Test Data</h3>
+                <div class="wrong-code"><pre><code class="language-python">tokenizer = Tokenizer(num_words=5000)
+# Fitting on ALL data including test -- data leakage!
+tokenizer.fit_on_texts(all_texts)  # Includes test texts
+
+X_train = tokenizer.texts_to_sequences(train_texts)
+X_test = tokenizer.texts_to_sequences(test_texts)</code></pre></div><div class="error-message">No error thrown, but this is data leakage. The tokenizer learns vocabulary from test data, which inflates performance metrics and gives a false sense of accuracy.</div><div class="correct-code"><pre><code class="language-python">tokenizer = Tokenizer(num_words=5000, oov_token=&#39;&lt;OOV&gt;&#39;)
+# Fit ONLY on training data
+tokenizer.fit_on_texts(train_texts)
+
+X_train = tokenizer.texts_to_sequences(train_texts)
+X_test = tokenizer.texts_to_sequences(test_texts)  # Unknown words become &lt;OOV&gt;</code></pre></div><div class="mistake-explanation">The tokenizer must be fit only on training data. If it sees test data during fitting, it learns the test vocabulary, which would not be available in a real deployment. Use oov_token to handle words in the test set that were not in the training set.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting to Preprocess Text Consistently</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Training data is preprocessed
+train_texts = [preprocess(text) for text in raw_train]
+tfidf.fit(train_texts)
+
+# But test data is not preprocessed!
+predictions = pipeline.predict(raw_test)  # Raw text, not preprocessed!</code></pre></div><div class="error-message">Poor predictions because the test data format does not match the training data format. Words that would have been lowercased or stemmed during training appear in their original form.</div><div class="correct-code"><pre><code class="language-python"># Apply the SAME preprocessing to both train and test
+train_texts = [preprocess(text) for text in raw_train]
+test_texts = [preprocess(text) for text in raw_test]
+
+tfidf.fit(train_texts)
+predictions = pipeline.predict(test_texts)</code></pre></div><div class="mistake-explanation">Whatever preprocessing you apply to training data must also be applied to test data and production data. If you lowercase and stem during training but not during prediction, the model sees different feature distributions and performs poorly.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using TF-IDF Transform Instead of Fit-Transform on Test Data</h3>
+                <div class="wrong-code"><pre><code class="language-python">tfidf = TfidfVectorizer()
+# Correct: fit_transform on train
+X_train = tfidf.fit_transform(train_texts)
+# Wrong: fit_transform on test (re-learns vocabulary!)
+X_test = tfidf.fit_transform(test_texts)  # Data leakage!</code></pre></div><div class="error-message">The test data gets a different vocabulary and different IDF values. Features do not align between train and test, causing completely wrong predictions.</div><div class="correct-code"><pre><code class="language-python">tfidf = TfidfVectorizer()
+X_train = tfidf.fit_transform(train_texts)  # fit AND transform
+X_test = tfidf.transform(test_texts)         # ONLY transform (use train vocabulary)</code></pre></div><div class="mistake-explanation">Use <code>fit_transform()</code> on training data to learn the vocabulary and IDF values. Use <code>transform()</code> (not fit_transform) on test data to apply the same vocabulary and IDF values. Calling fit_transform on test data creates a new, different feature space.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Removing All Stop Words Without Thinking</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Blindly removing all stop words
+from nltk.corpus import stopwords
+stop_words = set(stopwords.words(&#39;english&#39;))
+
+# But for sentiment analysis, &#39;not&#39; is critical!
+text = &quot;This movie was not good&quot;
+tokens = [w for w in text.split() if w not in stop_words]
+# tokens = [&#39;movie&#39;, &#39;good&#39;]  -- meaning reversed!</code></pre></div><div class="error-message">Removing &#39;not&#39; changes &#39;not good&#39; to &#39;good&#39;, completely reversing the sentiment. The model sees positive sentiment where the actual text is negative.</div><div class="correct-code"><pre><code class="language-python"># Option 1: Use bigrams to capture &#39;not good&#39;
+tfidf = TfidfVectorizer(ngram_range=(1, 2))  # Includes &#39;not good&#39; as a feature
+
+# Option 2: Customize stop words list
+custom_stops = set(stopwords.words(&#39;english&#39;)) - {&#39;not&#39;, &#39;no&#39;, &#39;nor&#39;, &#39;never&#39;}
+tokens = [w for w in text.split() if w not in custom_stops]
+
+# Option 3: Do not remove stop words for sentiment analysis</code></pre></div><div class="mistake-explanation">Stop word removal is not always appropriate. For sentiment analysis, negation words ('not', 'no', 'never') are crucial for meaning. For topic modeling, removing stop words is usually fine. Always consider whether stop words carry meaning for your specific task.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>NLP is the field of AI that enables computers to understand and process human language. The standard pipeline is: raw text -&gt; preprocessing -&gt; feature extraction -&gt; model -&gt; prediction. Every step must be consistent between training and production.</li>
+<li>Text preprocessing includes lowercasing, removing punctuation and special characters, tokenization (splitting into words), stop words removal (removing common words like &#39;the&#39;, &#39;is&#39;), and stemming or lemmatization (reducing to base form). Stemming is faster but may produce non-words; lemmatization is slower but always produces valid words.</li>
+<li>Bag of Words (CountVectorizer) counts word occurrences in each document, producing a sparse matrix. It ignores word order. TF-IDF (TfidfVectorizer) improves on BoW by weighting words by their importance: words common across all documents get lower scores, while distinctive words get higher scores.</li>
+<li>TF-IDF = Term Frequency x Inverse Document Frequency. TF measures how often a word appears in a document. IDF = log(total_docs / docs_containing_word) measures how distinctive a word is across the corpus. Words that appear everywhere (like &#39;the&#39;) get low IDF; rare words get high IDF.</li>
+<li>Word embeddings (Word2Vec, GloVe) map words to dense, low-dimensional vectors where similar words have similar vectors. Word2Vec uses CBOW (predict center from context) or Skip-gram (predict context from center). GloVe uses global co-occurrence statistics. Dense vectors capture semantic relationships that sparse vectors cannot.</li>
+<li>Pre-trained embeddings (GloVe, Word2Vec) trained on billions of words can be loaded and used in your models. This is a form of transfer learning for NLP -- the embeddings already understand word relationships. Set trainable=False to freeze them or True to fine-tune for your task.</li>
+<li>Two approaches to text classification: (1) TF-IDF + traditional ML (Naive Bayes, SVM, Logistic Regression) -- fast, no GPU needed, good for small-medium datasets. (2) Embeddings + LSTM -- captures word order, better for complex patterns, needs more data and GPU. Always try the simpler approach first.</li>
+<li>Named Entity Recognition (NER) identifies and classifies entities in text: person names, organizations, locations, dates. Libraries like spaCy provide pre-trained NER models. NER is essential for information extraction from unstructured text.</li>
+<li>Critical NLP pitfalls: fit the tokenizer/vectorizer only on training data (never on test data), apply the same preprocessing to all data, use transform() (not fit_transform()) on test data, and be careful with stop word removal in sentiment analysis (negation words like &#39;not&#39; are important).</li>
+<li>For spam detection, the key features are urgency words, prize language, excessive capitalization, and URLs. A simple TF-IDF + SVM pipeline can achieve 98%+ accuracy on spam detection. Bigrams (ngram_range=(1,2)) help capture phrases like &#39;not spam&#39; and &#39;free offer&#39;.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/ai-and-machine-learning/recurrent-neural-networks" class="related-topic-link">Recurrent Neural Networks (RNN) and LSTM</a>
+<a href="/resources/ai-and-machine-learning/transformers-and-attention" class="related-topic-link">Transformers and Attention Mechanism</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/ai-and-machine-learning/recurrent-neural-networks" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Recurrent Neural Networks (RNN) and LSTM</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/transformers-and-attention" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Transformers and Attention Mechanism</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/ai-and-machine-learning/natural-language-processing/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

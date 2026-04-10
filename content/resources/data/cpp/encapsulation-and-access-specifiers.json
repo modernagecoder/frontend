@@ -1,0 +1,585 @@
+{
+  "title": "Encapsulation, Access Specifiers, and Friend Functions",
+  "slug": "encapsulation-and-access-specifiers",
+  "language": "cpp",
+  "chapter": 14,
+  "difficulty": "Intermediate",
+  "readingTime": "50 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 52,
+  "seo": {
+    "title": "Encapsulation in C++ - Access Specifiers, Friend Functions, Getters/Setters | Modern Age Coders",
+    "description": "Master encapsulation in C++ including private/protected/public access specifiers, getters and setters, friend functions, friend classes, mutable keyword, and nested classes. 54+ interview-focused practice questions with compilable code.",
+    "keywords": "c++ encapsulation, access specifiers c++, friend function c++, friend class c++, getters setters c++, mutable keyword c++, nested class c++, private protected public c++, data hiding c++, c++ encapsulation interview questions"
+  },
+  "content": {
+    "what": "<h2>What Is Encapsulation in C++?</h2><p><strong>Encapsulation</strong> is the bundling of data (member variables) and the methods (member functions) that operate on that data into a single unit called a class, while restricting direct access to some of the object's components. It is the mechanism that enforces <strong>data hiding</strong> in C++.</p><p>In practical terms, encapsulation means making member variables <code>private</code> and providing controlled access through <code>public</code> getter and setter functions. The outside world interacts with the object only through its public interface, never touching internal state directly.</p><pre><code>class BankAccount {\nprivate:\n    double balance;    // Hidden from outside\n    string accountId;  // Hidden from outside\n\npublic:\n    BankAccount(string id, double initial) : accountId(id), balance(initial) {}\n\n    // Getter: read-only access\n    double getBalance() const { return balance; }\n    string getId() const { return accountId; }\n\n    // Setter: controlled write access with validation\n    void deposit(double amount) {\n        if (amount &gt; 0) balance += amount;\n    }\n\n    bool withdraw(double amount) {\n        if (amount &gt; 0 &amp;&amp; amount &lt;= balance) {\n            balance -= amount;\n            return true;\n        }\n        return false;\n    }\n};</code></pre><p>Without encapsulation, anyone could write <code>account.balance = -5000;</code> and corrupt the object's state. With encapsulation, the <code>withdraw()</code> method enforces the invariant that balance cannot go negative.</p><p>C++ provides three access specifiers to control visibility: <code>private</code> (accessible only within the class), <code>protected</code> (accessible within the class and its derived classes), and <code>public</code> (accessible from anywhere). C++ also provides <code>friend</code> functions and <code>friend</code> classes as a controlled escape hatch to grant specific external entities access to private members.</p>",
+    "why": "<h2>Why Does Encapsulation Matter?</h2><p>Encapsulation is one of the four pillars of Object-Oriented Programming (along with inheritance, polymorphism, and abstraction). In C++, understanding access control is essential because the language gives the programmer explicit control over what is visible and what is hidden.</p><h3>1. Data Integrity and Invariant Enforcement</h3><p>When Arjun makes the <code>age</code> field private and exposes a <code>setAge(int a)</code> method that rejects negative values, he guarantees that no part of the codebase can ever create a <code>Student</code> with a negative age. Without encapsulation, any function could write <code>student.age = -10;</code> and the program would silently accept it.</p><h3>2. Interview and Placement Essential</h3><p>Every OOP interview at companies like TCS, Infosys, Wipro, Amazon, and Microsoft includes questions on access specifiers, the difference between private and protected, when to use friend functions, and the tradeoffs of exposing internal state. The <code>friend</code> keyword is a particularly common interview topic because it breaks encapsulation in a controlled way.</p><h3>3. Decoupling Interface from Implementation</h3><p>When Kavya changes the internal representation of a <code>Date</code> class from three separate integers (day, month, year) to a single Unix timestamp, the public interface (<code>getDay()</code>, <code>getMonth()</code>, <code>getYear()</code>) remains unchanged. Client code does not need to be modified at all. This is only possible because the internal data was private.</p><h3>4. The friend Keyword: Controlled Access</h3><p>Sometimes two classes are so tightly coupled that forcing everything through getters/setters is inefficient or awkward. C++ provides <code>friend</code> as a deliberate, controlled way to grant access. Understanding when friend is appropriate (operator overloading, tightly coupled classes) versus when it violates encapsulation is critical for writing clean C++ code.</p><h3>5. The mutable Keyword: Logical Constness</h3><p>The <code>mutable</code> keyword allows modifying a member even in a <code>const</code> member function. This is used for caching, logging, and mutex locking where the external state of the object is logically unchanged even though some internal bookkeeping data is modified. This is an advanced topic frequently asked in senior-level interviews.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Access Specifiers: private, protected, public</h3><p>C++ has three access specifiers that control who can access class members:</p><pre><code>class Example {\nprivate:\n    int secret;       // Only accessible within Example\n\nprotected:\n    int inherited;    // Accessible in Example and derived classes\n\npublic:\n    int visible;      // Accessible from anywhere\n\n    Example() : secret(1), inherited(2), visible(3) {}\n};\n\nclass Child : public Example {\npublic:\n    void test() {\n        // cout &lt;&lt; secret;     // Error: private in Example\n        cout &lt;&lt; inherited;    // OK: protected, accessible in derived\n        cout &lt;&lt; visible;      // OK: public\n    }\n};\n\nint main() {\n    Example e;\n    // cout &lt;&lt; e.secret;     // Error: private\n    // cout &lt;&lt; e.inherited;  // Error: protected\n    cout &lt;&lt; e.visible;      // OK: public\n}</code></pre><p><strong>Default access:</strong> In a <code>class</code>, the default is <code>private</code>. In a <code>struct</code>, the default is <code>public</code>. This is the only difference between class and struct in C++.</p><h3>2. Getters and Setters</h3><p>Getters provide read access to private data. Setters provide write access with validation. This pattern is the primary mechanism for enforcing encapsulation.</p><pre><code>class Student {\nprivate:\n    string name;\n    int age;\n    double gpa;\n\npublic:\n    Student(string n, int a, double g) : name(n), age(a), gpa(g) {}\n\n    // Getters (const: promise not to modify object)\n    string getName() const { return name; }\n    int getAge() const { return age; }\n    double getGpa() const { return gpa; }\n\n    // Setters (with validation)\n    void setAge(int a) {\n        if (a &gt;= 0 &amp;&amp; a &lt;= 150) age = a;\n    }\n\n    void setGpa(double g) {\n        if (g &gt;= 0.0 &amp;&amp; g &lt;= 10.0) gpa = g;\n    }\n};</code></pre><p>The <code>const</code> after the getter function signature is important: it tells the compiler (and the reader) that calling this function does not modify the object. This allows calling getters on <code>const</code> references and pointers.</p><h3>3. Friend Functions</h3><p>A <code>friend</code> function is a non-member function that has access to the private and protected members of a class. The class grants friendship by declaring the function inside the class body with the <code>friend</code> keyword.</p><pre><code>class Box {\nprivate:\n    double length, width, height;\n\npublic:\n    Box(double l, double w, double h) : length(l), width(w), height(h) {}\n\n    // Grant friendship to this function\n    friend double volume(const Box&amp; b);\n    friend bool isLarger(const Box&amp; a, const Box&amp; b);\n};\n\n// Not a member function, but can access private members\ndouble volume(const Box&amp; b) {\n    return b.length * b.width * b.height;\n}\n\nbool isLarger(const Box&amp; a, const Box&amp; b) {\n    return volume(a) &gt; volume(b);\n}</code></pre><p>Key points about friend functions:</p><ul><li>Declared inside the class, defined outside (no <code>Box::</code> scope)</li><li>Not a member: no <code>this</code> pointer</li><li>Can access private and protected members of the class</li><li>Friendship is not inherited (a friend of Base is not automatically a friend of Derived)</li><li>Friendship is not mutual (if A is a friend of B, B is not automatically a friend of A)</li><li>Friendship is not transitive (if A is a friend of B, and B is a friend of C, A is not a friend of C)</li></ul><h3>4. Friend Classes</h3><p>An entire class can be declared as a friend. All member functions of the friend class can then access the private members of the granting class.</p><pre><code>class Engine {\nprivate:\n    int horsepower;\n    double temperature;\n\npublic:\n    Engine(int hp) : horsepower(hp), temperature(90.0) {}\n    friend class Mechanic;  // Mechanic can access everything in Engine\n};\n\nclass Mechanic {\npublic:\n    void diagnose(const Engine&amp; e) {\n        // Can access private members of Engine\n        cout &lt;&lt; \"HP: \" &lt;&lt; e.horsepower &lt;&lt; endl;\n        cout &lt;&lt; \"Temp: \" &lt;&lt; e.temperature &lt;&lt; endl;\n    }\n    void tune(Engine&amp; e, int newHp) {\n        e.horsepower = newHp;  // Direct access to private member\n    }\n};</code></pre><p>Use friend classes sparingly. They are appropriate when two classes are tightly coupled (e.g., an iterator class that needs access to a container's internals), but overuse breaks encapsulation.</p><h3>5. The mutable Keyword</h3><p>The <code>mutable</code> keyword allows a member to be modified even when the object is accessed through a <code>const</code> reference or when the member function is <code>const</code>. This is used for internal bookkeeping that does not affect the logical state of the object.</p><pre><code>class DataCache {\nprivate:\n    int data;\n    mutable int accessCount;  // Can be modified in const methods\n    mutable bool cacheValid;\n    mutable int cachedResult;\n\npublic:\n    DataCache(int d) : data(d), accessCount(0), cacheValid(false), cachedResult(0) {}\n\n    int getData() const {\n        accessCount++;  // OK: mutable\n        return data;\n    }\n\n    int expensiveCompute() const {\n        accessCount++;\n        if (!cacheValid) {\n            cachedResult = data * data + data;  // Cache the result\n            cacheValid = true;\n        }\n        return cachedResult;\n    }\n\n    int getAccessCount() const { return accessCount; }\n};</code></pre><p>Common uses of <code>mutable</code>: caching/memoization, access counters, mutex locks in const methods, lazy initialization.</p><h3>6. Nested Classes</h3><p>A class defined inside another class is called a nested class. The nested class can access private members of the enclosing class (in C++11 and later).</p><pre><code>class LinkedList {\nprivate:\n    struct Node {  // Nested class (private)\n        int data;\n        Node* next;\n        Node(int d) : data(d), next(nullptr) {}\n    };\n\n    Node* head;\n\npublic:\n    LinkedList() : head(nullptr) {}\n\n    void push(int val) {\n        Node* newNode = new Node(val);\n        newNode-&gt;next = head;\n        head = newNode;\n    }\n\n    void print() const {\n        Node* curr = head;\n        while (curr) {\n            cout &lt;&lt; curr-&gt;data &lt;&lt; \" \";\n            curr = curr-&gt;next;\n        }\n        cout &lt;&lt; endl;\n    }\n\n    ~LinkedList() {\n        while (head) {\n            Node* temp = head;\n            head = head-&gt;next;\n            delete temp;\n        }\n    }\n};</code></pre><p>The <code>Node</code> struct is an implementation detail. By making it private, no outside code can create or manipulate <code>Node</code> objects directly. This is encapsulation at the class design level.</p><h3>7. struct vs class in C++</h3><p>In C++, <code>struct</code> and <code>class</code> are nearly identical. The only difference is default access: <code>struct</code> members are <code>public</code> by default, while <code>class</code> members are <code>private</code> by default. The same applies to inheritance: <code>struct Derived : Base</code> is public inheritance by default, while <code>class Derived : Base</code> is private inheritance by default.</p><pre><code>struct Point {\n    int x, y;  // public by default\n};\n\nclass Point2 {\n    int x, y;  // private by default\npublic:\n    Point2(int a, int b) : x(a), y(b) {}\n    int getX() const { return x; }\n};</code></pre>",
+    "codeExamples": [
+    {
+      "title": "Encapsulation with Getters, Setters, and Validation",
+      "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Employee {\nprivate:\n    string name;\n    int age;\n    double salary;\n\npublic:\n    Employee(string n, int a, double s) : name(n), age(0), salary(0) {\n        setAge(a);\n        setSalary(s);\n    }\n\n    string getName() const { return name; }\n    int getAge() const { return age; }\n    double getSalary() const { return salary; }\n\n    void setAge(int a) {\n        if (a >= 18 && a <= 65) age = a;\n        else cout << \"Invalid age: \" << a << endl;\n    }\n\n    void setSalary(double s) {\n        if (s >= 0) salary = s;\n        else cout << \"Invalid salary: \" << s << endl;\n    }\n\n    void display() const {\n        cout << name << \", Age: \" << age << \", Salary: \" << salary << endl;\n    }\n};\n\nint main() {\n    Employee e(\"Arjun\", 25, 50000);\n    e.display();\n\n    e.setAge(200);\n    e.setSalary(-1000);\n    e.display();\n\n    e.setAge(30);\n    e.setSalary(60000);\n    e.display();\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "The <code>Employee</code> class keeps <code>name</code>, <code>age</code>, and <code>salary</code> private. The setters validate input before modifying state: age must be 18-65, salary must be non-negative. Invalid values are rejected. This prevents corrupt object state.",
+      "output": "Arjun, Age: 25, Salary: 50000\nInvalid age: 200\nInvalid salary: -1000\nArjun, Age: 25, Salary: 50000\nArjun, Age: 30, Salary: 60000"
+    },
+    {
+      "title": "Access Specifiers: private, protected, public",
+      "code": "#include <iostream>\nusing namespace std;\n\nclass Base {\nprivate:\n    int pvt;\nprotected:\n    int prot;\npublic:\n    int pub;\n    Base() : pvt(1), prot(2), pub(3) {}\n    void showAll() const {\n        cout << \"private=\" << pvt << \" protected=\" << prot << \" public=\" << pub << endl;\n    }\n};\n\nclass Derived : public Base {\npublic:\n    void access() {\n        // cout << pvt;  // Error: private member of Base\n        cout << \"Derived accesses protected: \" << prot << endl;\n        cout << \"Derived accesses public: \" << pub << endl;\n    }\n};\n\nint main() {\n    Base b;\n    // cout << b.pvt;   // Error: private\n    // cout << b.prot;  // Error: protected\n    cout << \"Main accesses public: \" << b.pub << endl;\n    b.showAll();\n\n    Derived d;\n    d.access();\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "<code>private</code> members are only accessible within the class itself. <code>protected</code> members are accessible in the class and its derived classes. <code>public</code> members are accessible everywhere. This is demonstrated by trying to access each from <code>main()</code> and from a derived class.",
+      "output": "Main accesses public: 3\nprivate=1 protected=2 public=3\nDerived accesses protected: 2\nDerived accesses public: 3"
+    },
+    {
+      "title": "Friend Function Accessing Private Members",
+      "code": "#include <iostream>\nusing namespace std;\n\nclass Rectangle {\nprivate:\n    double length, width;\n\npublic:\n    Rectangle(double l, double w) : length(l), width(w) {}\n\n    friend double area(const Rectangle& r);\n    friend bool isBigger(const Rectangle& a, const Rectangle& b);\n    friend ostream& operator<<(ostream& os, const Rectangle& r);\n};\n\ndouble area(const Rectangle& r) {\n    return r.length * r.width;\n}\n\nbool isBigger(const Rectangle& a, const Rectangle& b) {\n    return area(a) > area(b);\n}\n\nostream& operator<<(ostream& os, const Rectangle& r) {\n    os << \"Rect(\" << r.length << \" x \" << r.width << \")\";\n    return os;\n}\n\nint main() {\n    Rectangle r1(5, 3), r2(4, 4);\n    cout << r1 << \" area = \" << area(r1) << endl;\n    cout << r2 << \" area = \" << area(r2) << endl;\n    cout << \"r1 bigger? \" << (isBigger(r1, r2) ? \"Yes\" : \"No\") << endl;\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "The <code>area()</code> and <code>isBigger()</code> functions are not members of <code>Rectangle</code>, but because they are declared as <code>friend</code>, they can access <code>length</code> and <code>width</code> directly. The <code>operator&lt;&lt;</code> must be a friend because its left operand is <code>ostream</code>.",
+      "output": "Rect(5 x 3) area = 15\nRect(4 x 4) area = 16\nr1 bigger? No"
+    },
+    {
+      "title": "Friend Class: Full Access to Another Class",
+      "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Patient {\nprivate:\n    string name;\n    int age;\n    string diagnosis;\n\npublic:\n    Patient(string n, int a, string d) : name(n), age(a), diagnosis(d) {}\n    friend class Doctor;\n};\n\nclass Doctor {\npublic:\n    void examine(const Patient& p) {\n        cout << \"Examining \" << p.name << \", age \" << p.age << endl;\n        cout << \"Diagnosis: \" << p.diagnosis << endl;\n    }\n    void updateDiagnosis(Patient& p, string newDiag) {\n        p.diagnosis = newDiag;\n        cout << \"Updated diagnosis for \" << p.name << \": \" << p.diagnosis << endl;\n    }\n};\n\nint main() {\n    Patient p(\"Ravi\", 28, \"Flu\");\n    Doctor doc;\n    doc.examine(p);\n    doc.updateDiagnosis(p, \"Viral Fever\");\n    doc.examine(p);\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "<code>Doctor</code> is declared as a <code>friend class</code> of <code>Patient</code>. This means every member function of <code>Doctor</code> can access the private members of <code>Patient</code>. The relationship is one-directional: <code>Patient</code> cannot access <code>Doctor</code>'s private members.",
+      "output": "Examining Ravi, age 28\nDiagnosis: Flu\nUpdated diagnosis for Ravi: Viral Fever\nExamining Ravi, age 28\nDiagnosis: Viral Fever"
+    },
+    {
+      "title": "The mutable Keyword for Logical Constness",
+      "code": "#include <iostream>\nusing namespace std;\n\nclass Counter {\nprivate:\n    int value;\n    mutable int readCount;\n\npublic:\n    Counter(int v) : value(v), readCount(0) {}\n\n    int getValue() const {\n        readCount++;  // OK because readCount is mutable\n        return value;\n    }\n\n    int getReadCount() const { return readCount; }\n};\n\nint main() {\n    const Counter c(42);\n    cout << \"Value: \" << c.getValue() << endl;\n    cout << \"Value: \" << c.getValue() << endl;\n    cout << \"Value: \" << c.getValue() << endl;\n    cout << \"Read count: \" << c.getReadCount() << endl;\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "Even though <code>c</code> is <code>const</code> and <code>getValue()</code> is a <code>const</code> method, the <code>mutable</code> keyword on <code>readCount</code> allows it to be incremented. The logical state of the object (its value) is unchanged, but the bookkeeping (how many times it was read) is tracked.",
+      "output": "Value: 42\nValue: 42\nValue: 42\nRead count: 3"
+    },
+    {
+      "title": "Nested Class as Implementation Detail",
+      "code": "#include <iostream>\nusing namespace std;\n\nclass Stack {\nprivate:\n    struct Node {\n        int data;\n        Node* next;\n        Node(int d, Node* n) : data(d), next(n) {}\n    };\n    Node* top;\n    int count;\n\npublic:\n    Stack() : top(nullptr), count(0) {}\n\n    void push(int val) {\n        top = new Node(val, top);\n        count++;\n    }\n\n    int pop() {\n        if (!top) throw runtime_error(\"Stack empty\");\n        int val = top->data;\n        Node* temp = top;\n        top = top->next;\n        delete temp;\n        count--;\n        return val;\n    }\n\n    int size() const { return count; }\n    bool empty() const { return top == nullptr; }\n\n    ~Stack() {\n        while (top) {\n            Node* temp = top;\n            top = top->next;\n            delete temp;\n        }\n    }\n};\n\nint main() {\n    Stack s;\n    s.push(10);\n    s.push(20);\n    s.push(30);\n    cout << \"Size: \" << s.size() << endl;\n    cout << \"Pop: \" << s.pop() << endl;\n    cout << \"Pop: \" << s.pop() << endl;\n    cout << \"Size: \" << s.size() << endl;\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "The <code>Node</code> struct is a private nested class inside <code>Stack</code>. No code outside <code>Stack</code> can create, access, or even know about <code>Node</code>. This is proper encapsulation of implementation details. Users interact only with <code>push()</code>, <code>pop()</code>, <code>size()</code>, and <code>empty()</code>.",
+      "output": "Size: 3\nPop: 30\nPop: 20\nSize: 1"
+    },
+    {
+      "title": "struct vs class Default Access",
+      "code": "#include <iostream>\nusing namespace std;\n\nstruct PointStruct {\n    int x, y;  // public by default\n    PointStruct(int a, int b) : x(a), y(b) {}\n};\n\nclass PointClass {\n    int x, y;  // private by default\npublic:\n    PointClass(int a, int b) : x(a), y(b) {}\n    int getX() const { return x; }\n    int getY() const { return y; }\n};\n\nint main() {\n    PointStruct ps(3, 4);\n    cout << \"Struct: \" << ps.x << \", \" << ps.y << endl;\n\n    PointClass pc(5, 6);\n    // cout << pc.x;  // Error: private\n    cout << \"Class: \" << pc.getX() << \", \" << pc.getY() << endl;\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "In a <code>struct</code>, members are <code>public</code> by default, so <code>ps.x</code> works directly. In a <code>class</code>, members are <code>private</code> by default, so <code>pc.x</code> would fail and getters are needed. This is the only functional difference between <code>struct</code> and <code>class</code> in C++.",
+      "output": "Struct: 3, 4\nClass: 5, 6"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Making All Members Public (No Encapsulation)",
+      "wrongCode": "class Student {\npublic:\n    string name;\n    int age;\n    double gpa;\n};\n\nStudent s;\ns.age = -5;    // No validation!\ns.gpa = 99.9;  // Invalid GPA accepted!",
+      "error": "Any code can set invalid values because there is no access control. The object can enter an inconsistent state.",
+      "correctCode": "class Student {\nprivate:\n    string name;\n    int age;\n    double gpa;\npublic:\n    Student(string n, int a, double g) : name(n), age(0), gpa(0) {\n        setAge(a); setGpa(g);\n    }\n    void setAge(int a) { if (a >= 0 && a <= 150) age = a; }\n    void setGpa(double g) { if (g >= 0 && g <= 10) gpa = g; }\n    int getAge() const { return age; }\n    double getGpa() const { return gpa; }\n};",
+      "explanation": "Private members with validated setters ensure the object always holds valid data. Without encapsulation, there is no defense against invalid assignments."
+    },
+    {
+      "title": "Forgetting const on Getter Functions",
+      "wrongCode": "class Account {\n    double balance;\npublic:\n    Account(double b) : balance(b) {}\n    double getBalance() { return balance; }  // Missing const!\n};\n\nvoid print(const Account& a) {\n    cout << a.getBalance();  // Error: calling non-const on const reference\n}",
+      "error": "Compilation error: cannot call non-const member function on a const object or reference.",
+      "correctCode": "class Account {\n    double balance;\npublic:\n    Account(double b) : balance(b) {}\n    double getBalance() const { return balance; }  // const!\n};\n\nvoid print(const Account& a) {\n    cout << a.getBalance();  // OK now\n}",
+      "explanation": "Getter functions should always be <code>const</code> because they do not modify the object. Without <code>const</code>, they cannot be called on <code>const</code> objects or through <code>const</code> references, breaking the ability to pass objects by const reference."
+    },
+    {
+      "title": "Confusing protected with private in Derived Classes",
+      "wrongCode": "class Base {\nprivate:\n    int secret;\npublic:\n    Base(int s) : secret(s) {}\n};\n\nclass Derived : public Base {\npublic:\n    Derived(int s) : Base(s) {}\n    void reveal() {\n        cout << secret;  // Error: secret is private in Base!\n    }\n};",
+      "error": "Compilation error: 'secret' is a private member of 'Base'. Private members are not accessible in derived classes.",
+      "correctCode": "class Base {\nprotected:\n    int secret;  // Changed to protected\npublic:\n    Base(int s) : secret(s) {}\n};\n\nclass Derived : public Base {\npublic:\n    Derived(int s) : Base(s) {}\n    void reveal() {\n        cout << secret;  // OK: protected is accessible in derived\n    }\n};",
+      "explanation": "Use <code>protected</code> instead of <code>private</code> when derived classes need access. Private members are invisible to all derived classes. This is one of the most common access specifier mistakes."
+    },
+    {
+      "title": "Assuming Friendship Is Inherited or Mutual",
+      "wrongCode": "class A {\nprivate:\n    int x = 10;\n    friend class B;\n};\n\nclass B {\nprivate:\n    int y = 20;\n};\n\nclass C : public B {\npublic:\n    void test(A& a) {\n        cout << a.x;  // Error: C is not a friend of A!\n    }\n};\n\nvoid test(A& a, B& b) {\n    // A cannot access b.y just because B is a friend of A\n    // Friendship is not mutual\n}",
+      "error": "Compilation error: friendship is not inherited. C inherits from B, but B's friendship with A does not transfer to C.",
+      "correctCode": "class A {\nprivate:\n    int x = 10;\n    friend class B;\n    friend class C;  // Explicitly grant friendship to C\n};\n\nclass B {\nprivate:\n    int y = 20;\n    friend class A;  // Explicitly grant mutual friendship if needed\n};\n\nclass C : public B {\npublic:\n    void test(A& a) {\n        cout << a.x;  // OK: C is now a friend of A\n    }\n};",
+      "explanation": "Friendship in C++ is not inherited (derived classes do not get it), not mutual (A friends B does not mean B friends A), and not transitive (A friends B, B friends C does not mean A friends C). Each friendship must be explicitly declared."
+    },
+    {
+      "title": "Modifying Members in a const Method Without mutable",
+      "wrongCode": "class Logger {\n    int callCount;  // Not mutable!\npublic:\n    Logger() : callCount(0) {}\n    void log(const string& msg) const {\n        callCount++;  // Error: modifying member in const method!\n        cout << msg << endl;\n    }\n};",
+      "error": "Compilation error: cannot modify non-mutable member 'callCount' in a const member function.",
+      "correctCode": "class Logger {\n    mutable int callCount;  // mutable!\npublic:\n    Logger() : callCount(0) {}\n    void log(const string& msg) const {\n        callCount++;  // OK: mutable allows modification in const method\n        cout << msg << endl;\n    }\n    int getCallCount() const { return callCount; }\n};",
+      "explanation": "If a member needs to be modified in a <code>const</code> method (for bookkeeping, caching, etc.), mark it <code>mutable</code>. Without <code>mutable</code>, the compiler enforces that <code>const</code> methods cannot modify any member."
+    }
+  ],
+  "summary": [
+    "Encapsulation bundles data and methods into a class while restricting direct access to internal state. It enforces data hiding and integrity.",
+    "C++ has three access specifiers: private (class only), protected (class + derived classes), and public (accessible everywhere).",
+    "In a class, the default access is private. In a struct, the default access is public. This is the only difference between class and struct in C++.",
+    "Getters provide read access to private members. Setters provide controlled write access with validation. Getters should always be marked const.",
+    "A friend function is a non-member function that can access private and protected members of the class that declares it as friend.",
+    "A friend class grants all its member functions access to the private members of the declaring class. Friendship is not inherited, not mutual, and not transitive.",
+    "The mutable keyword allows a member variable to be modified in const member functions. Use it for caching, counters, and mutex locks.",
+    "Nested classes (classes defined inside other classes) are used to hide implementation details like nodes in a linked list or stack.",
+    "Always prefer private data with public methods over public data. This allows changing the internal representation without affecting client code.",
+    "The friend keyword should be used sparingly. Legitimate uses include operator<< overloading, tightly coupled helper classes, and iterator patterns."
+  ]
+  },
+  "relatedTopics": ["oop-classes-and-objects", "inheritance-in-cpp"],
+  "practice": {
+    "totalQuestions": 52,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Box {\nprivate:\n    int val;\npublic:\n    Box(int v) : val(v) {}\n    int getVal() const { return val; }\n};\nint main() {\n    Box b(10);\n    cout &lt;&lt; b.getVal() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "val is private but getVal() is a public getter that returns it.",
+        "answer": "<code>10</code>",
+        "explanation": "The constructor initializes <code>val</code> to 10. The public <code>getVal()</code> method provides read access to the private member. It returns 10."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What happens when you compile this code?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Secret {\nprivate:\n    int x;\npublic:\n    Secret(int v) : x(v) {}\n};\nint main() {\n    Secret s(5);\n    cout &lt;&lt; s.x &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "x is a private member. Can main() access it directly?",
+        "answer": "Compilation error: <code>'x' is a private member of 'Secret'</code>",
+        "explanation": "The member <code>x</code> is <code>private</code>, so it cannot be accessed outside the class. Only member functions and friend functions of <code>Secret</code> can access <code>x</code>."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nstruct Point {\n    int x, y;\n};\nint main() {\n    Point p;\n    p.x = 3;\n    p.y = 4;\n    cout &lt;&lt; p.x &lt;&lt; \", \" &lt;&lt; p.y &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "struct members are public by default, unlike class members.",
+        "answer": "<code>3, 4</code>",
+        "explanation": "In a <code>struct</code>, members are <code>public</code> by default. So <code>p.x</code> and <code>p.y</code> can be accessed directly from <code>main()</code>."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Counter {\n    int count;\npublic:\n    Counter() : count(0) {}\n    void increment() { count++; }\n    int getCount() const { return count; }\n};\nint main() {\n    Counter c;\n    c.increment();\n    c.increment();\n    c.increment();\n    cout &lt;&lt; c.getCount() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "count starts at 0 and is incremented three times. getCount() returns it.",
+        "answer": "<code>3</code>",
+        "explanation": "<code>count</code> is private (default in class). It is initialized to 0 and incremented 3 times through the public <code>increment()</code> method. <code>getCount()</code> returns 3."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Pair {\nprivate:\n    int a, b;\npublic:\n    Pair(int x, int y) : a(x), b(y) {}\n    friend int sum(const Pair&amp; p);\n};\nint sum(const Pair&amp; p) {\n    return p.a + p.b;\n}\nint main() {\n    Pair p(10, 20);\n    cout &lt;&lt; sum(p) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "sum() is a friend function of Pair, so it can access private members a and b.",
+        "answer": "<code>30</code>",
+        "explanation": "The <code>sum()</code> function is declared as a <code>friend</code> of <code>Pair</code>, so it can access the private members <code>a</code> and <code>b</code> directly. It returns 10 + 20 = 30."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\nprotected:\n    int x;\npublic:\n    Base(int v) : x(v) {}\n};\nclass Derived : public Base {\npublic:\n    Derived(int v) : Base(v) {}\n    void show() { cout &lt;&lt; x &lt;&lt; endl; }\n};\nint main() {\n    Derived d(42);\n    d.show();\n    return 0;\n}</code></pre>",
+        "hint": "x is protected in Base. Can Derived access it?",
+        "answer": "<code>42</code>",
+        "explanation": "<code>x</code> is <code>protected</code> in <code>Base</code>, so <code>Derived</code> can access it directly. The constructor passes 42 to <code>Base</code>, and <code>show()</code> prints 42."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\nprivate:\n    int val;\npublic:\n    A(int v) : val(v) {}\n    friend class B;\n};\nclass B {\npublic:\n    void show(const A&amp; a) {\n        cout &lt;&lt; a.val &lt;&lt; endl;\n    }\n    void modify(A&amp; a, int v) {\n        a.val = v;\n    }\n};\nint main() {\n    A a(100);\n    B b;\n    b.show(a);\n    b.modify(a, 200);\n    b.show(a);\n    return 0;\n}</code></pre>",
+        "hint": "B is a friend class of A, so all of B's methods can access A's private members.",
+        "answer": "<code>100</code><br><code>200</code>",
+        "explanation": "<code>B</code> is a <code>friend class</code> of <code>A</code>, so <code>B::show()</code> and <code>B::modify()</code> can access <code>A::val</code> directly. First show prints 100, then modify changes it to 200, and the second show prints 200."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Tracker {\n    mutable int count;\n    int data;\npublic:\n    Tracker(int d) : data(d), count(0) {}\n    int getData() const {\n        count++;\n        return data;\n    }\n    int getCount() const { return count; }\n};\nint main() {\n    const Tracker t(99);\n    cout &lt;&lt; t.getData() &lt;&lt; endl;\n    cout &lt;&lt; t.getData() &lt;&lt; endl;\n    cout &lt;&lt; \"Count: \" &lt;&lt; t.getCount() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "t is const, but count is mutable. Can getData() modify count?",
+        "answer": "<code>99</code><br><code>99</code><br><code>Count: 2</code>",
+        "explanation": "Even though <code>t</code> is <code>const</code>, the <code>mutable</code> keyword on <code>count</code> allows it to be modified in <code>const</code> methods. <code>getData()</code> is called twice, incrementing <code>count</code> to 2 each time."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens when you compile this code?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\nprivate:\n    int x = 10;\n    friend class B;\n};\nclass B {\n    int y = 20;\n};\nclass C : public B {\npublic:\n    void test(A&amp; a) {\n        cout &lt;&lt; a.x &lt;&lt; endl;\n    }\n};\nint main() {\n    A a;\n    C c;\n    c.test(a);\n    return 0;\n}</code></pre>",
+        "hint": "B is a friend of A. Does C inherit that friendship?",
+        "answer": "Compilation error: <code>'x' is a private member of 'A'</code>",
+        "explanation": "Friendship is not inherited. <code>B</code> is a friend of <code>A</code>, but <code>C</code> (which derives from <code>B</code>) is not. <code>C</code> cannot access <code>A</code>'s private members."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Validator {\nprivate:\n    int value;\npublic:\n    Validator(int v) : value(0) { setValue(v); }\n    void setValue(int v) {\n        if (v &gt;= 0 &amp;&amp; v &lt;= 100) value = v;\n    }\n    int getValue() const { return value; }\n};\nint main() {\n    Validator v1(50);\n    cout &lt;&lt; v1.getValue() &lt;&lt; endl;\n    v1.setValue(200);\n    cout &lt;&lt; v1.getValue() &lt;&lt; endl;\n    v1.setValue(75);\n    cout &lt;&lt; v1.getValue() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "setValue only accepts values between 0 and 100 inclusive.",
+        "answer": "<code>50</code><br><code>50</code><br><code>75</code>",
+        "explanation": "The constructor sets value to 50 (valid). <code>setValue(200)</code> is rejected because 200 > 100, so value stays 50. <code>setValue(75)</code> is valid, so value becomes 75."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Outer {\nprivate:\n    int x;\npublic:\n    Outer(int v) : x(v) {}\n    class Inner {\n    public:\n        void show(const Outer&amp; o) {\n            cout &lt;&lt; o.x &lt;&lt; endl;\n        }\n    };\n};\nint main() {\n    Outer o(42);\n    Outer::Inner in;\n    in.show(o);\n    return 0;\n}</code></pre>",
+        "hint": "Inner is a nested class inside Outer. In C++11+, nested classes can access private members of the enclosing class.",
+        "answer": "<code>42</code>",
+        "explanation": "In C++11 and later, a nested class is implicitly a friend of the enclosing class. <code>Inner::show()</code> can access <code>Outer::x</code> even though <code>x</code> is private."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\nprivate:\n    int a;\nprotected:\n    int b;\npublic:\n    int c;\n    Base() : a(1), b(2), c(3) {}\n    friend void showBase(const Base&amp; b);\n};\nclass Derived : public Base {\npublic:\n    void test() {\n        // cout &lt;&lt; a;  // Error\n        cout &lt;&lt; b &lt;&lt; \" \" &lt;&lt; c &lt;&lt; endl;\n    }\n};\nvoid showBase(const Base&amp; obj) {\n    cout &lt;&lt; obj.a &lt;&lt; \" \" &lt;&lt; obj.b &lt;&lt; \" \" &lt;&lt; obj.c &lt;&lt; endl;\n}\nint main() {\n    Derived d;\n    d.test();\n    showBase(d);\n    return 0;\n}</code></pre>",
+        "hint": "Derived can access protected and public. The friend function can access everything in Base. Can the friend access Derived's Base part?",
+        "answer": "<code>2 3</code><br><code>1 2 3</code>",
+        "explanation": "<code>Derived::test()</code> can access <code>b</code> (protected) and <code>c</code> (public) but not <code>a</code> (private). The friend function <code>showBase()</code> can access all three members of <code>Base</code>, even when called with a <code>Derived</code> object (which contains a <code>Base</code> subobject)."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Matrix {\n    int data[2][2];\npublic:\n    Matrix(int a, int b, int c, int d) {\n        data[0][0]=a; data[0][1]=b; data[1][0]=c; data[1][1]=d;\n    }\n    friend Matrix operator+(const Matrix&amp; a, const Matrix&amp; b);\n    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Matrix&amp; m);\n};\nMatrix operator+(const Matrix&amp; a, const Matrix&amp; b) {\n    return Matrix(\n        a.data[0][0]+b.data[0][0], a.data[0][1]+b.data[0][1],\n        a.data[1][0]+b.data[1][0], a.data[1][1]+b.data[1][1]\n    );\n}\nostream&amp; operator&lt;&lt;(ostream&amp; os, const Matrix&amp; m) {\n    os &lt;&lt; m.data[0][0] &lt;&lt; \" \" &lt;&lt; m.data[0][1] &lt;&lt; endl;\n    os &lt;&lt; m.data[1][0] &lt;&lt; \" \" &lt;&lt; m.data[1][1];\n    return os;\n}\nint main() {\n    Matrix a(1, 2, 3, 4), b(5, 6, 7, 8);\n    Matrix c = a + b;\n    cout &lt;&lt; c &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Both operator+ and operator<< are friend functions. They can access the private data array directly.",
+        "answer": "<code>6 8</code><br><code>10 12</code>",
+        "explanation": "Both <code>operator+</code> and <code>operator&lt;&lt;</code> are friend functions that access the private <code>data</code> array directly. Element-wise addition: (1+5, 2+6, 3+7, 4+8) = (6, 8, 10, 12)."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Account {\nprivate:\n    double balance;\n    mutable int txnCount;\npublic:\n    Account(double b) : balance(b), txnCount(0) {}\n    double getBalance() const {\n        txnCount++;\n        return balance;\n    }\n    void deposit(double amt) {\n        if (amt &gt; 0) { balance += amt; txnCount++; }\n    }\n    int getTxnCount() const { return txnCount; }\n};\nint main() {\n    Account a(1000);\n    a.deposit(500);\n    cout &lt;&lt; a.getBalance() &lt;&lt; endl;\n    cout &lt;&lt; a.getBalance() &lt;&lt; endl;\n    a.deposit(200);\n    cout &lt;&lt; a.getTxnCount() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Both deposit and getBalance increment txnCount. How many total increments?",
+        "answer": "<code>1500</code><br><code>1500</code><br><code>4</code>",
+        "explanation": "Initial balance is 1000. <code>deposit(500)</code> makes it 1500 and increments txnCount to 1. First <code>getBalance()</code> returns 1500 and increments to 2. Second <code>getBalance()</code> returns 1500 and increments to 3. <code>deposit(200)</code> increments to 4. Final txnCount is 4."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Encloser {\nprivate:\n    int secret;\npublic:\n    Encloser(int s) : secret(s) {}\n    class Nested {\n        int own;\n    public:\n        Nested(int o) : own(o) {}\n        void reveal(const Encloser&amp; e) {\n            cout &lt;&lt; \"Nested own: \" &lt;&lt; own &lt;&lt; endl;\n            cout &lt;&lt; \"Encloser secret: \" &lt;&lt; e.secret &lt;&lt; endl;\n        }\n    };\n};\nint main() {\n    Encloser e(42);\n    Encloser::Nested n(99);\n    n.reveal(e);\n    return 0;\n}</code></pre>",
+        "hint": "In C++11+, nested classes can access private members of the enclosing class. The nested class has its own separate data.",
+        "answer": "<code>Nested own: 99</code><br><code>Encloser secret: 42</code>",
+        "explanation": "The <code>Nested</code> class has its own member <code>own</code> (99). Since it is a nested class of <code>Encloser</code>, it can access <code>Encloser::secret</code> (42) in C++11+. The nested class needs an <code>Encloser</code> object to access its members."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Config {\nprivate:\n    int mode;\n    mutable bool accessed;\npublic:\n    Config(int m) : mode(m), accessed(false) {}\n    int getMode() const {\n        accessed = true;\n        return mode;\n    }\n    bool wasAccessed() const { return accessed; }\n};\nint main() {\n    const Config c(5);\n    cout &lt;&lt; c.wasAccessed() &lt;&lt; endl;\n    cout &lt;&lt; c.getMode() &lt;&lt; endl;\n    cout &lt;&lt; c.wasAccessed() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "c is const. accessed is mutable. getMode() sets accessed to true.",
+        "answer": "<code>0</code><br><code>5</code><br><code>1</code>",
+        "explanation": "Initially <code>accessed</code> is false (0). After calling <code>getMode()</code>, the <code>mutable</code> member <code>accessed</code> is set to true (1), even though <code>c</code> is <code>const</code>."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Range {\nprivate:\n    int low, high;\npublic:\n    Range(int l, int h) : low(l), high(h) {}\n    bool contains(int v) const { return v &gt;= low &amp;&amp; v &lt;= high; }\n    friend Range merge(const Range&amp; a, const Range&amp; b);\n    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Range&amp; r);\n};\nRange merge(const Range&amp; a, const Range&amp; b) {\n    return Range(min(a.low, b.low), max(a.high, b.high));\n}\nostream&amp; operator&lt;&lt;(ostream&amp; os, const Range&amp; r) {\n    os &lt;&lt; \"[\" &lt;&lt; r.low &lt;&lt; \", \" &lt;&lt; r.high &lt;&lt; \"]\";\n    return os;\n}\nint main() {\n    Range a(1, 5), b(3, 8);\n    Range c = merge(a, b);\n    cout &lt;&lt; c &lt;&lt; endl;\n    cout &lt;&lt; c.contains(6) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "merge is a friend that accesses private low/high directly. It creates a range from min(lows) to max(highs).",
+        "answer": "<code>[1, 8]</code><br><code>1</code>",
+        "explanation": "<code>merge(a, b)</code> creates Range(min(1,3), max(5,8)) = Range(1, 8). The friend functions access private members directly. <code>contains(6)</code> returns true (1) because 6 is between 1 and 8."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between private and protected access specifiers in C++?",
+        "hint": "Think about who can access each: only the class itself, or also derived classes?",
+        "answer": "Private members are accessible only within the class that defines them. Protected members are accessible within the class and also in any class derived from it. Neither is accessible from outside code (e.g., main()).",
+        "explanation": "Use <code>private</code> when no derived class should ever access the member. Use <code>protected</code> when derived classes need access but outside code should not. This distinction is critical for inheritance hierarchies."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the only difference between a struct and a class in C++?",
+        "hint": "Think about what access level members have if you do not specify one.",
+        "answer": "The only difference is the default access specifier. In a struct, members and inheritance are public by default. In a class, they are private by default.",
+        "explanation": "Functionally, <code>struct</code> and <code>class</code> are identical in C++. You can have member functions, constructors, destructors, inheritance, and virtual functions in both. The convention is to use <code>struct</code> for simple data aggregates and <code>class</code> for objects with invariants."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Wrapper {\n    int val;\npublic:\n    Wrapper(int v) : val(v) {}\n    int get() const { return val; }\n    void set(int v) { val = v; }\n};\nint main() {\n    Wrapper w(10);\n    w.set(25);\n    cout &lt;&lt; w.get() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "val is private by default in a class. set() modifies it, get() returns it.",
+        "answer": "<code>25</code>",
+        "explanation": "The constructor sets <code>val</code> to 10. <code>set(25)</code> changes it to 25. <code>get()</code> returns 25. The private member is accessed only through public methods."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Circle {\nprivate:\n    double radius;\npublic:\n    Circle(double r) : radius(r) {}\n    double getArea() const { return 3.14 * radius * radius; }\n    friend bool isEqual(const Circle&amp; a, const Circle&amp; b);\n};\nbool isEqual(const Circle&amp; a, const Circle&amp; b) {\n    return a.radius == b.radius;\n}\nint main() {\n    Circle c1(5), c2(5), c3(10);\n    cout &lt;&lt; isEqual(c1, c2) &lt;&lt; endl;\n    cout &lt;&lt; isEqual(c1, c3) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "isEqual is a friend function that compares the private radius members directly.",
+        "answer": "<code>1</code><br><code>0</code>",
+        "explanation": "The friend function <code>isEqual()</code> compares private <code>radius</code> values directly. c1 and c2 both have radius 5 (equal, prints 1). c1 (5) and c3 (10) differ (prints 0)."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Temperature {\nprivate:\n    double celsius;\npublic:\n    Temperature(double c) : celsius(c) {}\n    double getCelsius() const { return celsius; }\n    double getFahrenheit() const { return celsius * 9.0 / 5.0 + 32; }\n    void setCelsius(double c) {\n        if (c &gt;= -273.15) celsius = c;\n    }\n};\nint main() {\n    Temperature t(100);\n    cout &lt;&lt; t.getCelsius() &lt;&lt; endl;\n    cout &lt;&lt; t.getFahrenheit() &lt;&lt; endl;\n    t.setCelsius(-300);\n    cout &lt;&lt; t.getCelsius() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "setCelsius rejects values below absolute zero (-273.15). -300 is invalid.",
+        "answer": "<code>100</code><br><code>212</code><br><code>100</code>",
+        "explanation": "Initial celsius is 100. Fahrenheit = 100 * 9/5 + 32 = 212. <code>setCelsius(-300)</code> is rejected because -300 < -273.15 (absolute zero). Celsius remains 100."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens when you compile this code?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\nprivate:\n    int x = 10;\n};\nclass B {\npublic:\n    void show(const A&amp; a) {\n        cout &lt;&lt; a.x &lt;&lt; endl;\n    }\n};\nint main() {\n    A a;\n    B b;\n    b.show(a);\n    return 0;\n}</code></pre>",
+        "hint": "B is NOT declared as a friend of A. Can B access A's private members?",
+        "answer": "Compilation error: <code>'x' is a private member of 'A'</code>",
+        "explanation": "<code>B</code> is not a friend of <code>A</code>, so <code>B::show()</code> cannot access <code>A::x</code>. To fix this, either add <code>friend class B;</code> inside <code>A</code>, or provide a public getter in <code>A</code>."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Sensor {\nprivate:\n    double reading;\n    mutable int readCount;\npublic:\n    Sensor(double r) : reading(r), readCount(0) {}\n    double getReading() const { readCount++; return reading; }\n    void calibrate(double offset) { reading += offset; readCount++; }\n    int getReadCount() const { return readCount; }\n};\nint main() {\n    Sensor s(25.0);\n    s.getReading();\n    s.getReading();\n    s.calibrate(0.5);\n    s.getReading();\n    cout &lt;&lt; s.getReading() &lt;&lt; endl;\n    cout &lt;&lt; s.getReadCount() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Count every call that increments readCount: getReading (4 calls) + calibrate (1 call).",
+        "answer": "<code>25.5</code><br><code>5</code>",
+        "explanation": "Initial reading is 25.0. Two <code>getReading()</code> calls increment readCount to 2. <code>calibrate(0.5)</code> makes reading 25.5 and increments to 3. Two more <code>getReading()</code> calls increment to 5. The last getReading returns 25.5."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Data {\nprivate:\n    int arr[3];\npublic:\n    Data(int a, int b, int c) { arr[0]=a; arr[1]=b; arr[2]=c; }\n    int operator[](int i) const {\n        if (i &lt; 0 || i &gt;= 3) return -1;\n        return arr[i];\n    }\n    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Data&amp; d);\n};\nostream&amp; operator&lt;&lt;(ostream&amp; os, const Data&amp; d) {\n    os &lt;&lt; d.arr[0] &lt;&lt; \" \" &lt;&lt; d.arr[1] &lt;&lt; \" \" &lt;&lt; d.arr[2];\n    return os;\n}\nint main() {\n    Data d(10, 20, 30);\n    cout &lt;&lt; d[0] &lt;&lt; \" \" &lt;&lt; d[1] &lt;&lt; \" \" &lt;&lt; d[5] &lt;&lt; endl;\n    cout &lt;&lt; d &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "operator[] returns -1 for out-of-bounds. operator<< is a friend that prints the private array.",
+        "answer": "<code>10 20 -1</code><br><code>10 20 30</code>",
+        "explanation": "<code>d[0]</code> returns 10, <code>d[1]</code> returns 20, <code>d[5]</code> is out of bounds so returns -1. The <code>operator&lt;&lt;</code> friend function accesses the private array directly to print all three elements."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Engine {\nprivate:\n    int hp;\n    friend class Car;\npublic:\n    Engine(int h) : hp(h) {}\n};\nclass Car {\n    string model;\n    Engine engine;\npublic:\n    Car(string m, int hp) : model(m), engine(hp) {}\n    void upgrade(int extraHp) {\n        engine.hp += extraHp;\n    }\n    void show() const {\n        cout &lt;&lt; model &lt;&lt; \": \" &lt;&lt; engine.hp &lt;&lt; \" HP\" &lt;&lt; endl;\n    }\n};\nint main() {\n    Car c(\"Tata Nexon\", 120);\n    c.show();\n    c.upgrade(30);\n    c.show();\n    return 0;\n}</code></pre>",
+        "hint": "Car is a friend class of Engine, so it can access Engine's private hp member.",
+        "answer": "<code>Tata Nexon: 120 HP</code><br><code>Tata Nexon: 150 HP</code>",
+        "explanation": "<code>Car</code> is a <code>friend class</code> of <code>Engine</code>, so it can directly access <code>engine.hp</code> (private). The upgrade adds 30 to the 120 HP, making it 150 HP."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\nprotected:\n    int x;\npublic:\n    Base(int v) : x(v) {}\n};\nclass D1 : public Base {\npublic:\n    D1(int v) : Base(v) {}\n    void set(int v) { x = v; }\n    int get() const { return x; }\n};\nclass D2 : public Base {\npublic:\n    D2(int v) : Base(v) {}\n    void showOther(const D1&amp; d) {\n        // cout &lt;&lt; d.x;  // Error even though x is protected!\n        cout &lt;&lt; \"Cannot access sibling protected\" &lt;&lt; endl;\n    }\n    int get() const { return x; }\n};\nint main() {\n    D1 d1(10);\n    D2 d2(20);\n    cout &lt;&lt; d1.get() &lt;&lt; endl;\n    cout &lt;&lt; d2.get() &lt;&lt; endl;\n    d2.showOther(d1);\n    return 0;\n}</code></pre>",
+        "hint": "A derived class can access protected members of its own Base subobject, but not of a sibling derived class's Base subobject.",
+        "answer": "<code>10</code><br><code>20</code><br><code>Cannot access sibling protected</code>",
+        "explanation": "Each derived class can access the <code>protected</code> member <code>x</code> in its own inherited <code>Base</code> part. But <code>D2</code> cannot access <code>x</code> through a <code>D1</code> reference because protected access is limited to the class's own inheritance path, not sibling objects."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the default access specifier for members of a class in C++?",
+        "options": {"A": "public", "B": "protected", "C": "private", "D": "friend"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In a <code>class</code>, the default access specifier is <code>private</code>. In a <code>struct</code>, it is <code>public</code>. This is the only difference between <code>class</code> and <code>struct</code> in C++."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which access specifier allows derived classes to access a base class member but not outside code?",
+        "options": {"A": "private", "B": "protected", "C": "public", "D": "friend"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>protected</code> members are accessible within the class and its derived classes, but not from outside code like <code>main()</code>."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is encapsulation in C++?",
+        "options": {"A": "Inheriting from multiple classes", "B": "Bundling data and methods together while restricting direct access to internal state", "C": "Overloading operators", "D": "Using templates for generic programming"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Encapsulation is the OOP principle of bundling data and the methods that operate on it into a class, while hiding internal state behind a controlled public interface."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the role of a getter function in encapsulation?",
+        "options": {"A": "To modify a private member", "B": "To provide read-only access to a private member", "C": "To delete a private member", "D": "To make a member public"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A getter provides controlled read-only access to a private member. It should be marked <code>const</code> to indicate it does not modify the object."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "A friend function of a class can access which members?",
+        "options": {"A": "Only public members", "B": "Only protected members", "C": "Public and protected, but not private", "D": "All members including private"},
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> A friend function has access to all members of the class, including private and protected members. That is the entire purpose of the friend declaration."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which of the following is true about the mutable keyword?",
+        "options": {"A": "It makes a member function const", "B": "It allows modifying a member in a const member function", "C": "It makes a class abstract", "D": "It prevents inheritance"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>mutable</code> keyword on a data member allows it to be modified even in <code>const</code> member functions or on <code>const</code> objects."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Which statement about friendship in C++ is TRUE?",
+        "options": {"A": "Friendship is inherited by derived classes", "B": "Friendship is always mutual between two classes", "C": "Friendship is not inherited, not mutual, and not transitive", "D": "Friendship can only be granted to classes, not functions"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Friendship in C++ is explicitly one-directional, not inherited by derived classes, and not transitive. Each friendship must be explicitly declared."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "In which scenario is the mutable keyword most appropriate?",
+        "options": {"A": "When a member should never be modified", "B": "When caching a computed result in a const method", "C": "When making a constructor explicit", "D": "When preventing object copying"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The classic use of <code>mutable</code> is for caching: a <code>const</code> method computes a result and caches it in a <code>mutable</code> member so future calls are faster, without changing the logical state of the object."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What happens if you call a non-const member function on a const object?",
+        "options": {"A": "The function runs normally", "B": "The function is silently skipped", "C": "Compilation error", "D": "Runtime exception"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A <code>const</code> object can only call <code>const</code> member functions. Calling a non-const member function on a const object or through a const reference is a compilation error."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "A nested class in C++11+ has access to which members of the enclosing class?",
+        "options": {"A": "Only public members", "B": "Public and protected members", "C": "All members including private (given an instance)", "D": "No members of the enclosing class"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In C++11 and later, a nested class is implicitly a friend of the enclosing class. It can access all members (including private) of the enclosing class, provided it has an instance of the enclosing class to work with."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Why should getter functions be marked const?",
+        "options": {"A": "To make them faster", "B": "So they can be called on const objects and const references", "C": "To prevent them from returning a value", "D": "To make the returned value immutable"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Marking a getter <code>const</code> allows it to be called on <code>const</code> objects and through <code>const</code> references/pointers. Without <code>const</code>, the getter cannot be used in any context that expects constness."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the difference between friend function and friend class?",
+        "options": {"A": "No difference, they are the same", "B": "friend function grants access to one function; friend class grants access to all member functions of that class", "C": "friend class is inherited; friend function is not", "D": "friend function can modify members; friend class can only read them"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A <code>friend</code> function declaration grants access to one specific function. A <code>friend class</code> declaration grants access to all member functions of the specified class. Neither is inherited."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Can a derived class access protected members of a sibling derived class's base subobject?",
+        "options": {"A": "Yes, protected means any derived class can access it", "B": "No, protected access only applies to the class's own inheritance path", "C": "Yes, but only if they share the same base class", "D": "Yes, but only through a friend function"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Protected access in C++ is more restrictive than many expect. A derived class can access protected members of its own base subobject, but not protected members through a reference to a different derived type, even if they share the same base."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which of the following operators MUST be overloaded as a friend (non-member) function when the left operand is not your class?",
+        "options": {"A": "operator[]", "B": "operator=", "C": "operator<<", "D": "operator()"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>operator&lt;&lt;</code> is typically used with <code>cout</code> (which is <code>ostream</code>) as the left operand. Since we cannot add member functions to <code>ostream</code>, we must overload it as a non-member (friend) function."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "What is the default access specifier for members of a struct in C++?",
+        "options": {"A": "private", "B": "protected", "C": "public", "D": "friend"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In a <code>struct</code>, the default access specifier is <code>public</code>. In a <code>class</code>, it is <code>private</code>."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "Can a member function of one class be declared as a friend of another class?",
+        "options": {"A": "No, only standalone functions can be friends", "B": "Yes, a specific member function of one class can be a friend of another", "C": "Only static member functions can be friends", "D": "Only constructors can be friends"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A specific member function of one class can be declared as a friend of another class using <code>friend void OtherClass::method();</code>. This grants friendship to only that specific method."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is the relationship between encapsulation and abstraction?",
+        "options": {"A": "They are the same concept", "B": "Encapsulation hides data; abstraction hides complexity by exposing only essential features", "C": "Abstraction is about data hiding; encapsulation is about interfaces", "D": "They are unrelated OOP concepts"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Encapsulation bundles data and methods while restricting access (data hiding). Abstraction hides complexity and shows only the relevant interface. Encapsulation is a mechanism that helps achieve abstraction."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "What happens if a class has no public constructors?",
+        "options": {"A": "The class can still be instantiated normally", "B": "Objects can only be created through friend functions or static factory methods", "C": "The compiler generates a public default constructor", "D": "The class becomes abstract"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> If all constructors are private or protected, objects cannot be created from outside the class. They can only be created through friend functions, static factory methods, or member functions."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Easy",
+        "question": "Which of the following best describes a setter function?",
+        "options": {"A": "A function that reads a private member", "B": "A function that modifies a private member with validation", "C": "A function that deletes a private member", "D": "A function that makes a member public"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A setter provides controlled write access to a private member, typically including validation logic to ensure the new value is valid before assignment."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "In which scenario would using a friend function be preferred over a public getter?",
+        "options": {"A": "When you want to hide the data from everyone", "B": "When two tightly coupled functions need efficient access to multiple private members without getter overhead", "C": "When you want to make the data public", "D": "Friend functions should never be used"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When performance-critical code (like operator overloading or tightly coupled utility functions) needs to access multiple private members, friend functions avoid the overhead and verbosity of multiple getter calls."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Bank Account with Full Encapsulation",
+        "difficulty": "Easy",
+        "description": "Create a BankAccount class with private members: accountNumber (string), holderName (string), and balance (double). Provide a constructor, getters for all fields, deposit() and withdraw() methods with validation (no negative amounts, cannot withdraw more than balance). Print the result of several operations.",
+        "sampleInput": "Account: ACC001, Priya, initial balance 5000. Deposit 2000. Withdraw 3000. Withdraw 5000.",
+        "sampleOutput": "ACC001 - Priya: 5000\nDeposit 2000: Success. Balance: 7000\nWithdraw 3000: Success. Balance: 4000\nWithdraw 5000: Failed. Balance: 4000",
+        "constraints": "All data members must be private. Validate all inputs. Use const on getters.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass BankAccount {\nprivate:\n    string accountNumber;\n    string holderName;\n    double balance;\n\npublic:\n    BankAccount(string acc, string name, double bal)\n        : accountNumber(acc), holderName(name), balance(bal >= 0 ? bal : 0) {}\n\n    string getAccountNumber() const { return accountNumber; }\n    string getHolderName() const { return holderName; }\n    double getBalance() const { return balance; }\n\n    bool deposit(double amount) {\n        if (amount <= 0) return false;\n        balance += amount;\n        return true;\n    }\n\n    bool withdraw(double amount) {\n        if (amount <= 0 || amount > balance) return false;\n        balance -= amount;\n        return true;\n    }\n};\n\nint main() {\n    BankAccount acc(\"ACC001\", \"Priya\", 5000);\n    cout << acc.getAccountNumber() << \" - \" << acc.getHolderName()\n         << \": \" << acc.getBalance() << endl;\n\n    if (acc.deposit(2000))\n        cout << \"Deposit 2000: Success. Balance: \" << acc.getBalance() << endl;\n\n    if (acc.withdraw(3000))\n        cout << \"Withdraw 3000: Success. Balance: \" << acc.getBalance() << endl;\n\n    if (!acc.withdraw(5000))\n        cout << \"Withdraw 5000: Failed. Balance: \" << acc.getBalance() << endl;\n\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Friend Function: Distance Between Two Points",
+        "difficulty": "Medium",
+        "description": "Create a Point class with private x and y coordinates. Use a friend function to compute the Euclidean distance between two points. Also overload operator<< as a friend to print points in (x, y) format. Demonstrate with three points.",
+        "sampleInput": "Point A(0, 0), B(3, 4), C(6, 8)",
+        "sampleOutput": "A = (0, 0)\nB = (3, 4)\nC = (6, 8)\nDistance A-B: 5\nDistance A-C: 10\nDistance B-C: 5",
+        "constraints": "x and y must be private. Use friend functions for distance and operator<<. Use cmath for sqrt.",
+        "solution": "#include <iostream>\n#include <cmath>\nusing namespace std;\n\nclass Point {\nprivate:\n    double x, y;\npublic:\n    Point(double x, double y) : x(x), y(y) {}\n    friend double distance(const Point& a, const Point& b);\n    friend ostream& operator<<(ostream& os, const Point& p);\n};\n\ndouble distance(const Point& a, const Point& b) {\n    double dx = a.x - b.x;\n    double dy = a.y - b.y;\n    return sqrt(dx * dx + dy * dy);\n}\n\nostream& operator<<(ostream& os, const Point& p) {\n    os << \"(\" << p.x << \", \" << p.y << \")\";\n    return os;\n}\n\nint main() {\n    Point a(0, 0), b(3, 4), c(6, 8);\n    cout << \"A = \" << a << endl;\n    cout << \"B = \" << b << endl;\n    cout << \"C = \" << c << endl;\n    cout << \"Distance A-B: \" << distance(a, b) << endl;\n    cout << \"Distance A-C: \" << distance(a, c) << endl;\n    cout << \"Distance B-C: \" << distance(b, c) << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Inventory System with Friend Class",
+        "difficulty": "Medium",
+        "description": "Create a Product class with private name, price, and quantity. Create a StoreManager friend class that can restock (increase quantity), apply a discount (reduce price by percentage), and generate a report showing all private details. Demonstrate with two products.",
+        "sampleInput": "Product1: Laptop, 50000, 10. Product2: Mouse, 500, 100. Restock laptop +5. Discount mouse 10%.",
+        "sampleOutput": "Laptop: Rs.50000, Qty: 10\nMouse: Rs.500, Qty: 100\nRestocked Laptop: Qty: 15\nDiscounted Mouse: Rs.450\nReport: Laptop Rs.50000 x15 | Mouse Rs.450 x100",
+        "constraints": "All Product members must be private. StoreManager must be a friend class. Do not use getters for manager operations.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Product {\nprivate:\n    string name;\n    double price;\n    int quantity;\npublic:\n    Product(string n, double p, int q) : name(n), price(p), quantity(q) {}\n    friend class StoreManager;\n};\n\nclass StoreManager {\npublic:\n    void restock(Product& p, int amount) {\n        p.quantity += amount;\n        cout << \"Restocked \" << p.name << \": Qty: \" << p.quantity << endl;\n    }\n    void applyDiscount(Product& p, double percent) {\n        p.price -= p.price * percent / 100;\n        cout << \"Discounted \" << p.name << \": Rs.\" << p.price << endl;\n    }\n    void report(const Product& a, const Product& b) const {\n        cout << \"Report: \" << a.name << \" Rs.\" << a.price << \" x\" << a.quantity\n             << \" | \" << b.name << \" Rs.\" << b.price << \" x\" << b.quantity << endl;\n    }\n    void show(const Product& p) const {\n        cout << p.name << \": Rs.\" << p.price << \", Qty: \" << p.quantity << endl;\n    }\n};\n\nint main() {\n    Product laptop(\"Laptop\", 50000, 10);\n    Product mouse(\"Mouse\", 500, 100);\n    StoreManager mgr;\n    mgr.show(laptop);\n    mgr.show(mouse);\n    mgr.restock(laptop, 5);\n    mgr.applyDiscount(mouse, 10);\n    mgr.report(laptop, mouse);\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Cache with mutable and Nested Iterator",
+        "difficulty": "Hard",
+        "description": "Create a NumberList class that stores an array of integers. It has a mutable cached sum and a mutable cacheValid flag. The getSum() const method computes and caches the sum on first call, returns cached value on subsequent calls. Add a nested Iterator class that traverses the list. Demonstrate invalidation when add() is called.",
+        "sampleInput": "List: {10, 20, 30}. getSum twice. add(40). getSum again.",
+        "sampleOutput": "Computing sum...\nSum: 60\nSum (cached): 60\nAdded 40\nComputing sum...\nSum: 100",
+        "constraints": "Use mutable for cache members. getSum() must be const. Nested Iterator must access private data. Show cache invalidation.",
+        "solution": "#include <iostream>\nusing namespace std;\n\nclass NumberList {\nprivate:\n    int* data;\n    int size;\n    int capacity;\n    mutable int cachedSum;\n    mutable bool cacheValid;\n\npublic:\n    NumberList(int cap) : capacity(cap), size(0), cachedSum(0), cacheValid(false) {\n        data = new int[capacity];\n    }\n\n    void add(int val) {\n        if (size < capacity) {\n            data[size++] = val;\n            cacheValid = false;\n            cout << \"Added \" << val << endl;\n        }\n    }\n\n    int getSum() const {\n        if (!cacheValid) {\n            cout << \"Computing sum...\" << endl;\n            cachedSum = 0;\n            for (int i = 0; i < size; i++) cachedSum += data[i];\n            cacheValid = true;\n        } else {\n            cout << \"Sum (cached): \";\n            return cachedSum;\n        }\n        return cachedSum;\n    }\n\n    class Iterator {\n        const NumberList& list;\n        int index;\n    public:\n        Iterator(const NumberList& l) : list(l), index(0) {}\n        bool hasNext() const { return index < list.size; }\n        int next() { return list.data[index++]; }\n    };\n\n    Iterator iterator() const { return Iterator(*this); }\n\n    ~NumberList() { delete[] data; }\n};\n\nint main() {\n    NumberList list(10);\n    list.add(10); list.add(20); list.add(30);\n    cout << \"Sum: \" << list.getSum() << endl;\n    cout << list.getSum() << endl;\n    list.add(40);\n    cout << \"Sum: \" << list.getSum() << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Student Record System with Complete Encapsulation",
+        "difficulty": "Hard",
+        "description": "Create a Student class with private name, rollNumber, marks array (5 subjects), and mutable accessLog count. Provide getters, a setMarks method that validates (0-100), a getPercentage() const method, and a getGrade() const method. Create a Teacher friend class that can modify marks and access all private data. Create a nested Comparator class with a static method to compare two students by percentage.",
+        "sampleInput": "Student Kavya, roll 101, marks {85, 90, 78, 92, 88}. Student Ravi, roll 102, marks {70, 65, 80, 72, 68}.",
+        "sampleOutput": "Kavya (101): 86.6% - Grade A\nRavi (102): 71% - Grade B\nHigher: Kavya\nTeacher updated Ravi marks[1] to 95\nRavi (102): 77% - Grade B",
+        "constraints": "All data private. mutable accessLog. Friend class Teacher. Nested Comparator. Validate marks 0-100.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Student {\nprivate:\n    string name;\n    int rollNumber;\n    int marks[5];\n    mutable int accessLog;\n\npublic:\n    Student(string n, int roll, int m[5]) : name(n), rollNumber(roll), accessLog(0) {\n        for (int i = 0; i < 5; i++) marks[i] = (m[i] >= 0 && m[i] <= 100) ? m[i] : 0;\n    }\n\n    string getName() const { accessLog++; return name; }\n    int getRoll() const { accessLog++; return rollNumber; }\n\n    double getPercentage() const {\n        accessLog++;\n        int total = 0;\n        for (int i = 0; i < 5; i++) total += marks[i];\n        return total / 5.0;\n    }\n\n    string getGrade() const {\n        double pct = getPercentage();\n        if (pct >= 80) return \"A\";\n        if (pct >= 60) return \"B\";\n        if (pct >= 40) return \"C\";\n        return \"F\";\n    }\n\n    friend class Teacher;\n\n    class Comparator {\n    public:\n        static const Student& higher(const Student& a, const Student& b) {\n            return (a.getPercentage() >= b.getPercentage()) ? a : b;\n        }\n    };\n};\n\nclass Teacher {\npublic:\n    void setMark(Student& s, int index, int mark) {\n        if (index >= 0 && index < 5 && mark >= 0 && mark <= 100) {\n            s.marks[index] = mark;\n            cout << \"Teacher updated \" << s.name << \" marks[\" << index << \"] to \" << mark << endl;\n        }\n    }\n};\n\nint main() {\n    int m1[] = {85, 90, 78, 92, 88};\n    int m2[] = {70, 65, 80, 72, 68};\n    Student kavya(\"Kavya\", 101, m1);\n    Student ravi(\"Ravi\", 102, m2);\n\n    cout << kavya.getName() << \" (\" << kavya.getRoll() << \"): \"\n         << kavya.getPercentage() << \"% - Grade \" << kavya.getGrade() << endl;\n    cout << ravi.getName() << \" (\" << ravi.getRoll() << \"): \"\n         << ravi.getPercentage() << \"% - Grade \" << ravi.getGrade() << endl;\n\n    const Student& top = Student::Comparator::higher(kavya, ravi);\n    cout << \"Higher: \" << top.getName() << endl;\n\n    Teacher t;\n    t.setMark(ravi, 1, 95);\n    cout << ravi.getName() << \" (\" << ravi.getRoll() << \"): \"\n         << ravi.getPercentage() << \"% - Grade \" << ravi.getGrade() << endl;\n    return 0;\n}"
+      }
+    ]
+  }
+}

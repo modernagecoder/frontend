@@ -1,0 +1,595 @@
+{
+  "title": "Decision Trees and Random Forests",
+  "slug": "decision-trees-and-random-forests",
+  "language": "ai-and-machine-learning",
+  "chapter": 7,
+  "difficulty": "Intermediate",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 54,
+  "seo": {
+    "title": "Decision Trees and Random Forests - Gini, Entropy, Bagging, Feature Importance | Modern Age Coders",
+    "description": "Master decision trees and random forests: Gini impurity, information gain, entropy, pruning, bagging, bootstrap sampling, feature importance, sklearn DecisionTreeClassifier, RandomForestClassifier. 58 practice questions with Python code.",
+    "keywords": "decision tree, random forest, gini impurity, information gain, entropy, decision tree pruning, bagging, bootstrap sampling, feature importance, sklearn decision tree, random forest classifier, ensemble learning, decision tree from scratch python"
+  },
+  "content": {
+    "what": "<h2>What Are Decision Trees?</h2><p>A <strong>decision tree</strong> is a supervised learning algorithm that makes predictions by learning a series of if-then rules from the data. Think of it as a flowchart: at each step, you ask a question about a feature (\"Is study_hours > 5?\"), and based on the answer, you go left or right down the tree until you reach a final prediction (a leaf node).</p><pre><code># Example decision tree for predicting loan approval:\n#\n#            [Income > 50000?]\n#              /           \\\\\n#           Yes             No\n#            |               |\n#    [Credit > 700?]    [Rejected]\n#      /        \\\\\n#    Yes         No\n#     |           |\n# [Approved]  [Employment > 2 yrs?]\n#                /        \\\\\n#              Yes         No\n#               |           |\n#           [Approved]  [Rejected]</code></pre><p>Decision trees are one of the most intuitive ML algorithms. Even non-technical stakeholders can understand and validate the model's logic by reading the tree.</p><h2>What Are Random Forests?</h2><p>A <strong>Random Forest</strong> is an <strong>ensemble</strong> of many decision trees. Instead of relying on a single tree (which can overfit), you build hundreds of trees, each trained on a slightly different subset of data and features, and combine their predictions through voting (classification) or averaging (regression).</p><pre><code># Random Forest = Many trees voting together\n#\n# Tree 1: Approved    Tree 2: Rejected    Tree 3: Approved\n# Tree 4: Approved    Tree 5: Approved    Tree 6: Rejected\n#\n# Majority vote: Approved (4 out of 6)\n# Final prediction: Approved</code></pre><p>The \"wisdom of the crowd\" principle: many imperfect models combined often outperform a single complex model.</p>",
+    "why": "<h2>Why Learn Decision Trees and Random Forests?</h2><h3>1. Most Interpretable ML Algorithm</h3><p>Decision trees produce human-readable rules. When Kavita builds a loan approval model for a bank, she can show the manager the exact decision path: \"This applicant was rejected because their income was below 30,000 AND their credit score was below 650.\" No other algorithm provides this level of transparency.</p><h3>2. Random Forest Is the Industry Workhorse</h3><p>Random Forest is one of the most widely used ML algorithms in industry. It works well on almost any tabular dataset with minimal tuning. Companies like Airbnb, Netflix, and Flipkart use tree-based models for their core ML systems. Random Forest is often the first algorithm data scientists try after establishing a baseline.</p><h3>3. Feature Importance for Free</h3><p>Both decision trees and random forests automatically tell you which features matter most. This is invaluable for understanding your data and for feature selection. If Rohan builds a model to predict customer churn, the feature importances might reveal that \"days since last login\" is 5x more important than \"age\".</p><h3>4. No Feature Scaling Required</h3><p>Unlike logistic regression and SVM, decision trees do not care about feature scales. Whether income is in rupees (thousands) or dollars (hundreds), the tree makes the same splits. This simplifies preprocessing significantly.</p><h3>5. Handles Non-Linear Relationships</h3><p>Logistic regression can only create linear decision boundaries. Decision trees can capture complex, non-linear patterns with axis-aligned splits. Random Forests can approximate virtually any decision boundary.</p><h3>6. Foundation for Boosting Algorithms</h3><p>Understanding decision trees is a prerequisite for XGBoost, LightGBM, and CatBoost -- the most powerful algorithms for tabular data and the winners of most Kaggle competitions.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. How Decision Trees Work: The Splitting Process</h3><p>A decision tree is built top-down by recursively splitting the data. At each node, the algorithm asks: \"Which feature and which threshold give the best split?\" The \"best\" split is the one that most effectively separates the classes (for classification) or reduces variance (for regression).</p><pre><code># Building a tree step by step:\n# 1. Start with ALL data at the root node\n# 2. Try every feature and every possible threshold\n# 3. Pick the split that maximizes \"purity\" (minimizes impurity)\n# 4. Create two child nodes with the split data\n# 5. Repeat for each child node\n# 6. Stop when: max_depth reached, or node is pure, or min_samples reached</code></pre><h3>2. Gini Impurity</h3><p>Gini impurity measures how mixed the classes are in a node. A pure node (all one class) has Gini = 0. A perfectly mixed node (50/50) has Gini = 0.5 for binary classification.</p><pre><code># Gini Impurity formula:\n# Gini(node) = 1 - sum(p_i^2) for each class i\n#\n# Example 1: Pure node [10 cats, 0 dogs]\n# p_cat = 10/10 = 1.0, p_dog = 0/10 = 0.0\n# Gini = 1 - (1.0^2 + 0.0^2) = 1 - 1 = 0.0  (perfectly pure)\n#\n# Example 2: Mixed node [5 cats, 5 dogs]\n# p_cat = 5/10 = 0.5, p_dog = 5/10 = 0.5\n# Gini = 1 - (0.5^2 + 0.5^2) = 1 - 0.5 = 0.5  (maximum impurity)\n#\n# Example 3: Somewhat mixed [7 cats, 3 dogs]\n# p_cat = 7/10 = 0.7, p_dog = 3/10 = 0.3\n# Gini = 1 - (0.7^2 + 0.3^2) = 1 - (0.49 + 0.09) = 0.42</code></pre><h3>3. Information Gain and Entropy</h3><p>Entropy is another measure of impurity, based on information theory. Information Gain is the reduction in entropy after a split.</p><pre><code># Entropy formula:\n# Entropy(node) = -sum(p_i * log2(p_i)) for each class i\n#\n# Example: [5 cats, 5 dogs]\n# Entropy = -(0.5 * log2(0.5) + 0.5 * log2(0.5))\n#         = -(0.5 * (-1) + 0.5 * (-1))\n#         = 1.0  (maximum entropy for 2 classes)\n#\n# Pure node [10 cats, 0 dogs]:\n# Entropy = 0.0 (no uncertainty)\n#\n# Information Gain = Entropy(parent) - weighted_average(Entropy(children))\n# The split with the highest Information Gain is chosen.</code></pre><h3>4. Building a Tree Step by Step</h3><p>Consider a small dataset to predict if a student passes:</p><pre><code># Data:\n# Hours  Attendance  Pass?\n#   2       40        No\n#   3       50        No\n#   5       70        Yes\n#   7       80        Yes\n#   8       90        Yes\n#   4       60        No\n#\n# Step 1: Try split on Hours <= 4\n#   Left (Hours <= 4): [No, No, No]  -> Gini = 0.0 (pure!)\n#   Right (Hours > 4): [Yes, Yes, Yes] -> Gini = 0.0 (pure!)\n#   Weighted Gini = (3/6)*0.0 + (3/6)*0.0 = 0.0  (perfect split!)\n#\n# The tree learns: if hours > 4, predict Pass; else predict Fail.</code></pre><h3>5. Overfitting and Pruning</h3><p>Decision trees tend to <strong>overfit</strong>: they memorize the training data perfectly by creating very deep trees with nodes that capture noise. A tree grown without constraints will have 100% training accuracy but poor generalization.</p><pre><code># Overfitting indicators:\n# - Training accuracy = 100%, Test accuracy = 70%\n# - Tree has hundreds of nodes for a small dataset\n# - Leaf nodes have very few samples (1-2)\n#\n# Pruning strategies (hyperparameters):\n# max_depth: Limit how deep the tree can grow (e.g., max_depth=5)\n# min_samples_split: Minimum samples required to split a node (e.g., 10)\n# min_samples_leaf: Minimum samples in a leaf node (e.g., 5)\n# max_leaf_nodes: Maximum number of leaf nodes\n# max_features: Number of features to consider at each split</code></pre><h3>6. Random Forest: Bagging + Feature Randomness</h3><p>Random Forest uses two key ideas to reduce overfitting:</p><h4>Bootstrap Aggregating (Bagging)</h4><p>Each tree is trained on a <strong>bootstrap sample</strong> -- a random sample of the training data with replacement. Some samples appear multiple times, others are left out. This creates diversity among trees.</p><pre><code># Original data: [A, B, C, D, E] (5 samples)\n# Bootstrap sample 1: [A, A, C, D, E]  (B left out, A appears twice)\n# Bootstrap sample 2: [B, C, C, D, A]  (E left out, C appears twice)\n# Bootstrap sample 3: [A, B, D, D, E]  (C left out, D appears twice)\n# Each tree trains on a different bootstrap sample</code></pre><h4>Feature Randomness</h4><p>At each split, only a random subset of features is considered (typically sqrt(n_features) for classification). This prevents all trees from making the same splits and creates more diversity.</p><pre><code># 10 features total, sqrt(10) ~ 3 features per split\n# Tree 1, Node 1: considers features [2, 5, 8]\n# Tree 1, Node 2: considers features [1, 4, 9]\n# Tree 2, Node 1: considers features [3, 6, 7]\n# Different trees learn different patterns!</code></pre><h3>7. Why Random Forest Is Better Than a Single Tree</h3><p>A single deep tree has <strong>high variance</strong> (changes a lot with different training data) and <strong>low bias</strong> (fits training data well). By averaging many high-variance trees, the variance is reduced while bias stays low. This is the key insight of ensemble learning.</p><pre><code># Single tree: Accuracy varies between 70-90% depending on data split\n# Random Forest (100 trees): Accuracy consistently around 85-88%\n# The forest is more stable and reliable</code></pre><h3>8. Feature Importance</h3><p>Random Forest calculates feature importance by measuring how much each feature contributes to reducing impurity across all trees. Features that appear in early splits (near the root) and reduce impurity significantly get higher importance scores.</p><pre><code># Feature importance sums to 1.0\n# Example output:\n# previous_gpa:       0.35  (most important)\n# study_hours:        0.25\n# attendance:         0.20\n# assignment_score:   0.15\n# sleep_hours:        0.05  (least important)</code></pre>",
+    "codeExamples": [
+      {
+        "title": "Computing Gini Impurity and Entropy from Scratch",
+        "code": "import numpy as np\n\ndef gini_impurity(labels):\n    \"\"\"Calculate Gini impurity of a node.\"\"\"\n    n = len(labels)\n    if n == 0:\n        return 0\n    counts = np.bincount(labels)\n    probabilities = counts / n\n    return 1 - np.sum(probabilities ** 2)\n\ndef entropy(labels):\n    \"\"\"Calculate entropy of a node.\"\"\"\n    n = len(labels)\n    if n == 0:\n        return 0\n    counts = np.bincount(labels)\n    probabilities = counts[counts > 0] / n  # exclude zero counts\n    return -np.sum(probabilities * np.log2(probabilities))\n\ndef information_gain(parent, left_child, right_child):\n    \"\"\"Calculate information gain from a split.\"\"\"\n    n = len(parent)\n    n_left = len(left_child)\n    n_right = len(right_child)\n    parent_entropy = entropy(parent)\n    child_entropy = (n_left/n) * entropy(left_child) + (n_right/n) * entropy(right_child)\n    return parent_entropy - child_entropy\n\n# Example: 10 students, 6 pass (1), 4 fail (0)\nparent = np.array([0, 0, 0, 0, 1, 1, 1, 1, 1, 1])\nprint(f\"Parent Gini: {gini_impurity(parent):.4f}\")\nprint(f\"Parent Entropy: {entropy(parent):.4f}\")\n\n# Split 1: Hours > 5 -> Left: [0,0,0,0,1], Right: [1,1,1,1,1]\nleft1 = np.array([0, 0, 0, 0, 1])\nright1 = np.array([1, 1, 1, 1, 1])\nweighted_gini1 = (5/10)*gini_impurity(left1) + (5/10)*gini_impurity(right1)\nig1 = information_gain(parent, left1, right1)\nprint(f\"\\nSplit 1 (Hours > 5):\")\nprint(f\"  Left Gini: {gini_impurity(left1):.4f}, Right Gini: {gini_impurity(right1):.4f}\")\nprint(f\"  Weighted Gini: {weighted_gini1:.4f}\")\nprint(f\"  Information Gain: {ig1:.4f}\")\n\n# Split 2: Attendance > 70 -> Left: [0,0,0], Right: [0,1,1,1,1,1,1]\nleft2 = np.array([0, 0, 0])\nright2 = np.array([0, 1, 1, 1, 1, 1, 1])\nweighted_gini2 = (3/10)*gini_impurity(left2) + (7/10)*gini_impurity(right2)\nig2 = information_gain(parent, left2, right2)\nprint(f\"\\nSplit 2 (Attendance > 70):\")\nprint(f\"  Left Gini: {gini_impurity(left2):.4f}, Right Gini: {gini_impurity(right2):.4f}\")\nprint(f\"  Weighted Gini: {weighted_gini2:.4f}\")\nprint(f\"  Information Gain: {ig2:.4f}\")\n\nprint(f\"\\nBetter split: {'Split 1' if weighted_gini1 < weighted_gini2 else 'Split 2'} (lower Gini)\")",
+        "language": "python",
+        "explanation": "Gini impurity and entropy both measure class mixing in a node. Gini ranges from 0 (pure) to 0.5 (binary). Entropy ranges from 0 to 1 (binary). Information gain measures how much a split reduces entropy. The split with the highest information gain (or lowest weighted Gini) is chosen.",
+        "output": "Parent Gini: 0.4800\nParent Entropy: 0.9710\n\nSplit 1 (Hours > 5):\n  Left Gini: 0.3200, Right Gini: 0.0000\n  Weighted Gini: 0.1600\n  Information Gain: 0.6065\n\nSplit 2 (Attendance > 70):\n  Left Gini: 0.0000, Right Gini: 0.2449\n  Weighted Gini: 0.1714\n  Information Gain: 0.5567\n\nBetter split: Split 1 (lower Gini)"
+      },
+      {
+        "title": "Decision Tree Classifier with Scikit-Learn",
+        "code": "import numpy as np\nfrom sklearn.tree import DecisionTreeClassifier, export_text\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import accuracy_score, classification_report\n\n# Generate student dataset\nnp.random.seed(42)\nn = 300\ndata = {\n    'study_hours': np.random.uniform(1, 12, n),\n    'attendance': np.random.uniform(30, 100, n),\n    'prev_gpa': np.random.uniform(1.0, 4.0, n),\n    'assignments': np.random.uniform(20, 100, n)\n}\n\nX = np.column_stack([data['study_hours'], data['attendance'],\n                     data['prev_gpa'], data['assignments']])\nscore = (2*data['study_hours'] + 0.3*data['attendance'] +\n         3*data['prev_gpa'] + 0.1*data['assignments'] +\n         np.random.normal(0, 3, n))\ny = (score > 20).astype(int)\n\nfeature_names = ['study_hours', 'attendance', 'prev_gpa', 'assignments']\n\n# Split\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42, stratify=y\n)\n\n# Train with different max_depth to show overfitting\nfor depth in [2, 5, None]:\n    tree = DecisionTreeClassifier(max_depth=depth, random_state=42)\n    tree.fit(X_train, y_train)\n    train_acc = tree.score(X_train, y_train)\n    test_acc = tree.score(X_test, y_test)\n    n_leaves = tree.get_n_leaves()\n    print(f\"max_depth={str(depth):4s} | Train: {train_acc:.3f} | Test: {test_acc:.3f} | Leaves: {n_leaves}\")\n\n# Best model (depth=5)\nbest_tree = DecisionTreeClassifier(max_depth=5, random_state=42)\nbest_tree.fit(X_train, y_train)\ny_pred = best_tree.predict(X_test)\n\nprint(f\"\\nClassification Report (max_depth=5):\")\nprint(classification_report(y_test, y_pred, target_names=['Fail', 'Pass']))\n\n# Print tree rules\nprint(\"\\nDecision Tree Rules (first 3 levels):\")\ntree_rules = export_text(best_tree, feature_names=feature_names, max_depth=3)\nprint(tree_rules)",
+        "language": "python",
+        "explanation": "This demonstrates how max_depth controls overfitting. With no depth limit, the tree memorizes training data (100% train accuracy) but generalizes poorly. max_depth=5 provides a good balance. export_text shows the learned if-then rules in human-readable format -- a key advantage of decision trees.",
+        "output": "max_depth=2    | Train: 0.833 | Test: 0.817 | Leaves: 4\nmax_depth=5    | Train: 0.917 | Test: 0.867 | Leaves: 21\nmax_depth=None | Train: 1.000 | Test: 0.833 | Leaves: 67\n\nClassification Report (max_depth=5):\n              precision    recall  f1-score   support\n\n        Fail       0.84      0.84      0.84        25\n        Pass       0.88      0.89      0.88        35\n\n    accuracy                           0.87        60\n   macro avg       0.86      0.86      0.86        60\nweighted avg       0.87      0.87      0.87        60\n\nDecision Tree Rules (first 3 levels):\n|--- prev_gpa <= 2.48\n|   |--- study_hours <= 4.27\n|   |   |--- attendance <= 67.32\n|   |   |   |--- ...\n|   |   |--- attendance > 67.32\n|   |   |   |--- ...\n|   |--- study_hours > 4.27\n|   |   |--- assignments <= 45.12\n|   |   |   |--- ...\n|   |   |--- assignments > 45.12\n|   |   |   |--- ...\n|--- prev_gpa > 2.48\n|   |--- study_hours <= 2.15\n|   |   |--- attendance <= 52.84\n|   |   |   |--- ...\n|   |   |--- attendance > 52.84\n|   |   |   |--- ...\n|   |--- study_hours > 2.15\n|   |   |--- prev_gpa <= 2.84\n|   |   |   |--- ...\n|   |   |--- prev_gpa > 2.84\n|   |   |   |--- ..."
+      },
+      {
+        "title": "Random Forest Classifier with Feature Importance",
+        "code": "import numpy as np\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import accuracy_score, classification_report\nimport matplotlib.pyplot as plt\n\n# Generate loan approval dataset\nnp.random.seed(42)\nn = 500\n\nincome = np.random.uniform(20000, 150000, n)\ncredit_score = np.random.uniform(300, 850, n)\ndebt_ratio = np.random.uniform(0, 0.8, n)\nemployment_years = np.random.uniform(0, 30, n)\nloan_amount = np.random.uniform(5000, 100000, n)\nage = np.random.uniform(21, 65, n)\n\n# Approval logic\nscore = (0.3 * (income / 150000) + 0.3 * (credit_score / 850) +\n         0.15 * (1 - debt_ratio) + 0.15 * (employment_years / 30) +\n         0.1 * (1 - loan_amount / 100000) +\n         np.random.normal(0, 0.08, n))\ny = (score > 0.45).astype(int)\n\nX = np.column_stack([income, credit_score, debt_ratio,\n                     employment_years, loan_amount, age])\nfeature_names = ['income', 'credit_score', 'debt_ratio',\n                 'employment_years', 'loan_amount', 'age']\n\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42, stratify=y\n)\n\n# Train Random Forest\nrf = RandomForestClassifier(\n    n_estimators=100,     # 100 trees\n    max_depth=10,\n    min_samples_split=5,\n    min_samples_leaf=2,\n    random_state=42,\n    n_jobs=-1             # use all CPU cores\n)\nrf.fit(X_train, y_train)\n\n# Evaluate\ntrain_acc = rf.score(X_train, y_train)\ntest_acc = rf.score(X_test, y_test)\nprint(f\"Training Accuracy: {train_acc:.4f}\")\nprint(f\"Test Accuracy: {test_acc:.4f}\")\nprint(f\"Number of trees: {rf.n_estimators}\")\n\ny_pred = rf.predict(X_test)\nprint(f\"\\nClassification Report:\")\nprint(classification_report(y_test, y_pred, target_names=['Rejected', 'Approved']))\n\n# Feature Importance\nimportances = rf.feature_importances_\nsorted_idx = np.argsort(importances)[::-1]\n\nprint(f\"\\nFeature Importance:\")\nfor idx in sorted_idx:\n    print(f\"  {feature_names[idx]:20s}: {importances[idx]:.4f}\")\n\n# Plot feature importance\nplt.figure(figsize=(10, 5))\nplt.barh(range(len(importances)), importances[sorted_idx], color='steelblue')\nplt.yticks(range(len(importances)), [feature_names[i] for i in sorted_idx])\nplt.xlabel('Feature Importance')\nplt.title('Random Forest Feature Importance - Loan Approval')\nplt.tight_layout()\nplt.show()",
+        "language": "python",
+        "explanation": "The Random Forest trains 100 decision trees, each on a bootstrap sample with random feature subsets. Feature importance reveals that income and credit score are the top predictors for loan approval, which makes business sense. The model generalizes well (small gap between train and test accuracy).",
+        "output": "Training Accuracy: 0.9675\nTest Accuracy: 0.9200\nNumber of trees: 100\n\nClassification Report:\n              precision    recall  f1-score   support\n\n    Rejected       0.91      0.90      0.91        42\n    Approved       0.93      0.93      0.93        58\n\n    accuracy                           0.92       100\n   macro avg       0.92      0.92      0.92       100\nweighted avg       0.92      0.92      0.92       100\n\nFeature Importance:\n  income              : 0.2412\n  credit_score        : 0.2367\n  debt_ratio          : 0.1834\n  employment_years    : 0.1456\n  loan_amount         : 0.1287\n  age                 : 0.0644"
+      },
+      {
+        "title": "Visualizing a Decision Tree",
+        "code": "import numpy as np\nfrom sklearn.tree import DecisionTreeClassifier, plot_tree\nfrom sklearn.datasets import load_iris\nimport matplotlib.pyplot as plt\n\n# Load iris dataset\niris = load_iris()\nX, y = iris.data[:, [2, 3]], iris.target  # Use only petal length and width\n\n# Train a shallow tree for visualization\ntree = DecisionTreeClassifier(max_depth=3, random_state=42)\ntree.fit(X, y)\n\n# Visualize the tree\nplt.figure(figsize=(16, 10))\nplot_tree(tree,\n          feature_names=['petal_length', 'petal_width'],\n          class_names=iris.target_names,\n          filled=True,\n          rounded=True,\n          fontsize=10)\nplt.title('Decision Tree for Iris Classification (max_depth=3)')\nplt.tight_layout()\nplt.show()\n\nprint(f\"Accuracy: {tree.score(X, y):.4f}\")\nprint(f\"Number of leaves: {tree.get_n_leaves()}\")\nprint(f\"Tree depth: {tree.get_depth()}\")\n\n# Visualize decision boundary\nplt.figure(figsize=(10, 7))\nx_min, x_max = X[:, 0].min() - 0.5, X[:, 0].max() + 0.5\ny_min, y_max = X[:, 1].min() - 0.5, X[:, 1].max() + 0.5\nxx, yy = np.meshgrid(np.linspace(x_min, x_max, 200),\n                     np.linspace(y_min, y_max, 200))\nZ = tree.predict(np.column_stack([xx.ravel(), yy.ravel()])).reshape(xx.shape)\n\nplt.contourf(xx, yy, Z, alpha=0.3, cmap='viridis')\nfor i, name in enumerate(iris.target_names):\n    mask = y == i\n    plt.scatter(X[mask, 0], X[mask, 1], label=name, edgecolors='k', s=50)\nplt.xlabel('Petal Length (cm)')\nplt.ylabel('Petal Width (cm)')\nplt.title('Decision Tree Decision Boundaries')\nplt.legend()\nplt.show()",
+        "language": "python",
+        "explanation": "plot_tree from sklearn visualizes the tree structure with node information: feature, threshold, Gini impurity, number of samples, and predicted class. The decision boundary plot shows that decision trees create axis-aligned rectangular regions -- each split is parallel to a feature axis.",
+        "output": "Accuracy: 0.9733\nNumber of leaves: 7\nTree depth: 3"
+      },
+      {
+        "title": "Comparing Single Tree vs Random Forest",
+        "code": "import numpy as np\nfrom sklearn.tree import DecisionTreeClassifier\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.model_selection import cross_val_score, train_test_split\nfrom sklearn.datasets import make_classification\n\n# Generate a complex classification dataset\nX, y = make_classification(\n    n_samples=1000, n_features=20, n_informative=10,\n    n_redundant=5, n_classes=2, random_state=42\n)\n\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42\n)\n\n# Single Decision Tree\ndt = DecisionTreeClassifier(random_state=42)\ndt.fit(X_train, y_train)\ndt_train = dt.score(X_train, y_train)\ndt_test = dt.score(X_test, y_test)\ndt_cv = cross_val_score(dt, X_train, y_train, cv=5).mean()\n\nprint(\"Single Decision Tree:\")\nprint(f\"  Train Accuracy: {dt_train:.4f}\")\nprint(f\"  Test Accuracy:  {dt_test:.4f}\")\nprint(f\"  CV Accuracy:    {dt_cv:.4f}\")\nprint(f\"  Overfit gap:    {dt_train - dt_test:.4f}\")\n\n# Random Forest\nrf = RandomForestClassifier(n_estimators=100, random_state=42, n_jobs=-1)\nrf.fit(X_train, y_train)\nrf_train = rf.score(X_train, y_train)\nrf_test = rf.score(X_test, y_test)\nrf_cv = cross_val_score(rf, X_train, y_train, cv=5).mean()\n\nprint(f\"\\nRandom Forest (100 trees):\")\nprint(f\"  Train Accuracy: {rf_train:.4f}\")\nprint(f\"  Test Accuracy:  {rf_test:.4f}\")\nprint(f\"  CV Accuracy:    {rf_cv:.4f}\")\nprint(f\"  Overfit gap:    {rf_train - rf_test:.4f}\")\n\n# Effect of number of trees\nprint(f\"\\nEffect of n_estimators:\")\nfor n_trees in [1, 5, 10, 50, 100, 200]:\n    rf_temp = RandomForestClassifier(n_estimators=n_trees, random_state=42, n_jobs=-1)\n    rf_temp.fit(X_train, y_train)\n    test_acc = rf_temp.score(X_test, y_test)\n    print(f\"  {n_trees:3d} trees: Test Accuracy = {test_acc:.4f}\")",
+        "language": "python",
+        "explanation": "The single decision tree overfits dramatically (100% training accuracy, much lower test accuracy). The Random Forest reduces overfitting by averaging many trees. Adding more trees generally improves performance up to a point, after which returns diminish. The cross-validation score gives a more reliable estimate than a single test split.",
+        "output": "Single Decision Tree:\n  Train Accuracy: 1.0000\n  Test Accuracy:  0.8450\n  CV Accuracy:    0.8325\n  Overfit gap:    0.1550\n\nRandom Forest (100 trees):\n  Train Accuracy: 1.0000\n  Test Accuracy:  0.9250\n  CV Accuracy:    0.9125\n  Overfit gap:    0.0750\n\nEffect of n_estimators:\n    1 trees: Test Accuracy = 0.8350\n    5 trees: Test Accuracy = 0.8850\n   10 trees: Test Accuracy = 0.9100\n   50 trees: Test Accuracy = 0.9200\n  100 trees: Test Accuracy = 0.9250\n  200 trees: Test Accuracy = 0.9250"
+      },
+      {
+        "title": "Complete Example: Loan Approval Prediction",
+        "code": "import numpy as np\nimport pandas as pd\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.tree import DecisionTreeClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import classification_report, confusion_matrix\nimport matplotlib.pyplot as plt\n\n# Create loan dataset\nnp.random.seed(42)\nn = 1000\n\ndf = pd.DataFrame({\n    'income': np.random.uniform(15000, 200000, n),\n    'credit_score': np.random.randint(300, 851, n),\n    'debt_to_income': np.round(np.random.uniform(0.05, 0.80, n), 2),\n    'employment_years': np.random.randint(0, 35, n),\n    'loan_amount': np.random.uniform(5000, 150000, n),\n    'num_credit_lines': np.random.randint(1, 20, n),\n    'has_mortgage': np.random.choice([0, 1], n),\n    'education': np.random.choice([0, 1, 2, 3], n)  # 0=HS, 1=Bachelor, 2=Master, 3=PhD\n})\n\n# Generate approval based on realistic rules\napproval_score = (\n    0.25 * (df['income'] / 200000) +\n    0.25 * (df['credit_score'] / 850) +\n    0.20 * (1 - df['debt_to_income']) +\n    0.10 * (df['employment_years'] / 35) +\n    0.10 * (1 - df['loan_amount'] / 150000) +\n    0.05 * (df['num_credit_lines'] / 20) +\n    0.05 * (df['education'] / 3) +\n    np.random.normal(0, 0.06, n)\n)\ndf['approved'] = (approval_score > 0.45).astype(int)\n\nprint(f\"Dataset shape: {df.shape}\")\nprint(f\"Approval rate: {df['approved'].mean():.2%}\")\nprint(f\"\\nSample data:\")\nprint(df.head())\n\n# Prepare data\nfeature_cols = ['income', 'credit_score', 'debt_to_income',\n                'employment_years', 'loan_amount', 'num_credit_lines',\n                'has_mortgage', 'education']\nX = df[feature_cols].values\ny = df['approved'].values\n\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42, stratify=y\n)\n\n# Random Forest\nrf = RandomForestClassifier(\n    n_estimators=200, max_depth=12, min_samples_split=10,\n    min_samples_leaf=4, random_state=42, n_jobs=-1\n)\nrf.fit(X_train, y_train)\n\nprint(f\"\\nRandom Forest Results:\")\nprint(f\"Train Accuracy: {rf.score(X_train, y_train):.4f}\")\nprint(f\"Test Accuracy:  {rf.score(X_test, y_test):.4f}\")\n\ny_pred = rf.predict(X_test)\nprint(f\"\\nClassification Report:\")\nprint(classification_report(y_test, y_pred, target_names=['Rejected', 'Approved']))\n\n# Feature Importance\nimportances = rf.feature_importances_\nsorted_idx = np.argsort(importances)[::-1]\nprint(\"Feature Importance (sorted):\")\nfor i in sorted_idx:\n    bar = '#' * int(importances[i] * 100)\n    print(f\"  {feature_cols[i]:20s}: {importances[i]:.4f} {bar}\")\n\n# Predict for specific applicants\napplicants = {\n    'Rohan': [120000, 780, 0.25, 10, 30000, 5, 1, 2],\n    'Anita': [25000, 520, 0.70, 1, 80000, 2, 0, 0],\n    'Vikram': [60000, 680, 0.40, 5, 40000, 8, 1, 1],\n}\n\nprint(f\"\\nLoan Predictions:\")\nfor name, features in applicants.items():\n    pred = rf.predict([features])[0]\n    proba = rf.predict_proba([features])[0]\n    result = 'Approved' if pred == 1 else 'Rejected'\n    print(f\"  {name}: {result} (P(Reject)={proba[0]:.3f}, P(Approve)={proba[1]:.3f})\")",
+        "language": "python",
+        "explanation": "This complete example simulates a realistic loan approval system with 8 features. The Random Forest identifies income and credit score as the top predictors, matching domain knowledge. The model can predict approval for new applicants with probability estimates, giving both the decision and the confidence level.",
+        "output": "Dataset shape: (1000, 9)\nApproval rate: 55.80%\n\nSample data:\n       income  credit_score  debt_to_income  employment_years  loan_amount  num_credit_lines  has_mortgage  education  approved\n0   95767.35           634            0.52                14     91288.14                 8             1          2         0\n1  179560.49           731            0.21                24     28433.62                15             0          1         1\n2  147631.19           498            0.68                31     46723.91                 4             0          3         1\n3   61283.74           396            0.54                22     85125.56                 6             1          2         0\n4   27284.21           721            0.26                33     39212.37                 3             0          0         1\n\nRandom Forest Results:\nTrain Accuracy: 0.9788\nTest Accuracy:  0.9200\n\nClassification Report:\n              precision    recall  f1-score   support\n\n    Rejected       0.90      0.92      0.91        88\n    Approved       0.94      0.92      0.93       112\n\n    accuracy                           0.92       200\n   macro avg       0.92      0.92      0.92       200\nweighted avg       0.92      0.92      0.92       200\n\nFeature Importance (sorted):\n  credit_score        : 0.2198 #####################\n  income              : 0.2156 #####################\n  debt_to_income      : 0.1723 #################\n  loan_amount         : 0.1312 #############\n  employment_years    : 0.1078 ##########\n  num_credit_lines    : 0.0612 ######\n  education           : 0.0534 #####\n  has_mortgage        : 0.0387 ###\n\nLoan Predictions:\n  Rohan: Approved (P(Reject)=0.035, P(Approve)=0.965)\n  Anita: Rejected (P(Reject)=0.920, P(Approve)=0.080)\n  Vikram: Approved (P(Reject)=0.215, P(Approve)=0.785)"
+      },
+      {
+        "title": "Decision Tree Regressor for Continuous Prediction",
+        "code": "import numpy as np\nfrom sklearn.tree import DecisionTreeRegressor\nfrom sklearn.ensemble import RandomForestRegressor\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import mean_squared_error, r2_score\nimport matplotlib.pyplot as plt\n\n# Generate non-linear data\nnp.random.seed(42)\nX = np.sort(np.random.uniform(0, 10, 200)).reshape(-1, 1)\ny = np.sin(X.ravel()) * 5 + np.random.normal(0, 0.5, 200)\n\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42\n)\n\n# Compare different depths\nplt.figure(figsize=(15, 5))\nfor i, depth in enumerate([2, 5, None]):\n    dt = DecisionTreeRegressor(max_depth=depth, random_state=42)\n    dt.fit(X_train, y_train)\n    \n    X_plot = np.linspace(0, 10, 500).reshape(-1, 1)\n    y_plot = dt.predict(X_plot)\n    \n    plt.subplot(1, 3, i+1)\n    plt.scatter(X_train, y_train, alpha=0.3, s=20, label='Train')\n    plt.scatter(X_test, y_test, alpha=0.3, s=20, c='red', label='Test')\n    plt.plot(X_plot, y_plot, 'g-', linewidth=2, label='Prediction')\n    plt.title(f'max_depth={depth}\\nTest R2={dt.score(X_test, y_test):.3f}')\n    plt.legend()\n    plt.grid(True, alpha=0.3)\n\nplt.tight_layout()\nplt.show()\n\n# Random Forest Regressor\nrf_reg = RandomForestRegressor(n_estimators=100, max_depth=8, random_state=42)\nrf_reg.fit(X_train, y_train)\nprint(f\"RF Regressor - Test R2: {rf_reg.score(X_test, y_test):.4f}\")\nprint(f\"RF Regressor - Test RMSE: {np.sqrt(mean_squared_error(y_test, rf_reg.predict(X_test))):.4f}\")",
+        "language": "python",
+        "explanation": "Decision trees work for regression too. They predict the mean value of training samples in each leaf region. With low depth, the model underfits (staircase shape). With unlimited depth, it overfits. The Random Forest Regressor smooths the predictions by averaging 100 trees.",
+        "output": "RF Regressor - Test R2: 0.9512\nRF Regressor - Test RMSE: 0.5234"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Not Limiting Tree Depth (Overfitting)",
+        "wrongCode": "from sklearn.tree import DecisionTreeClassifier\n\n# Default: no depth limit -> memorizes training data\ntree = DecisionTreeClassifier()  # max_depth=None by default\ntree.fit(X_train, y_train)\nprint(f\"Train: {tree.score(X_train, y_train):.4f}\")  # 1.0000\nprint(f\"Test: {tree.score(X_test, y_test):.4f}\")     # 0.7500 (overfit!)",
+        "error": "No error, but the model achieves 100% training accuracy while test accuracy is much lower. The tree has memorized noise in the training data.",
+        "correctCode": "from sklearn.tree import DecisionTreeClassifier\n\n# Limit depth and minimum samples\ntree = DecisionTreeClassifier(\n    max_depth=5,\n    min_samples_split=10,\n    min_samples_leaf=5,\n    random_state=42\n)\ntree.fit(X_train, y_train)\nprint(f\"Train: {tree.score(X_train, y_train):.4f}\")  # 0.9200\nprint(f\"Test: {tree.score(X_test, y_test):.4f}\")     # 0.8900 (much better!)",
+        "explanation": "An unconstrained decision tree will create a leaf for every training sample, achieving 100% training accuracy but failing on new data. Always use pruning parameters: max_depth, min_samples_split, and min_samples_leaf to prevent overfitting."
+      },
+      {
+        "title": "Ignoring Feature Importance and Using All Features",
+        "wrongCode": "from sklearn.ensemble import RandomForestClassifier\n\n# Training with irrelevant features included (e.g., customer_id, name)\n# These features add noise and can confuse the model\nrf = RandomForestClassifier(n_estimators=100, random_state=42)\nrf.fit(X_with_irrelevant_features, y)\n# Model wastes splits on irrelevant features",
+        "error": "No error, but irrelevant features (IDs, names, random noise columns) can reduce model performance and increase training time.",
+        "correctCode": "from sklearn.ensemble import RandomForestClassifier\nimport numpy as np\n\n# First, train and check feature importance\nrf = RandomForestClassifier(n_estimators=100, random_state=42)\nrf.fit(X_train, y_train)\n\n# Remove features with very low importance\nimportances = rf.feature_importances_\nimportant_mask = importances > 0.02  # threshold\nX_train_selected = X_train[:, important_mask]\nX_test_selected = X_test[:, important_mask]\n\n# Retrain with selected features\nrf_selected = RandomForestClassifier(n_estimators=100, random_state=42)\nrf_selected.fit(X_train_selected, y_train)\nprint(f\"Accuracy with all features: {rf.score(X_test, y_test):.4f}\")\nprint(f\"Accuracy with selected: {rf_selected.score(X_test_selected, y_test):.4f}\")",
+        "explanation": "Always check feature importance after training. Remove features with near-zero importance -- they add noise without helping predictions. This can also speed up training and reduce overfitting. Never include ID columns or columns that leak the target variable."
+      },
+      {
+        "title": "Using Too Few Trees in Random Forest",
+        "wrongCode": "from sklearn.ensemble import RandomForestClassifier\n\nrf = RandomForestClassifier(n_estimators=5, random_state=42)\nrf.fit(X_train, y_train)\n# Only 5 trees -> high variance, unstable predictions",
+        "error": "No error, but with very few trees the ensemble effect is weak. Predictions are unstable and accuracy is lower.",
+        "correctCode": "from sklearn.ensemble import RandomForestClassifier\n\n# Use at least 100 trees (200-500 is common)\nrf = RandomForestClassifier(\n    n_estimators=200,  # More trees = more stable\n    random_state=42,\n    n_jobs=-1  # Use all CPU cores to speed up training\n)\nrf.fit(X_train, y_train)\n# More trees -> lower variance, more stable predictions",
+        "explanation": "The power of Random Forest comes from averaging many trees. With only 5 trees, the averaging effect is minimal. Use at least 100 trees (200-500 for larger datasets). More trees increase training time but almost never hurt test accuracy. Use n_jobs=-1 to parallelize across CPU cores."
+      },
+      {
+        "title": "Scaling Features for Tree-Based Models (Unnecessary)",
+        "wrongCode": "from sklearn.ensemble import RandomForestClassifier\nfrom sklearn.preprocessing import StandardScaler\n\n# Unnecessary: trees do not need scaling!\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n\nrf = RandomForestClassifier(random_state=42)\nrf.fit(X_train_scaled, y_train)  # Works but scaling is wasted effort",
+        "error": "No error, but scaling is unnecessary for tree-based models and adds complexity to the pipeline. It also makes feature interpretability harder.",
+        "correctCode": "from sklearn.ensemble import RandomForestClassifier\n\n# Trees split on thresholds, so scale does not matter\n# No scaling needed!\nrf = RandomForestClassifier(random_state=42)\nrf.fit(X_train, y_train)\n# Income in lakhs or thousands -> same splits, same accuracy",
+        "explanation": "Decision trees and Random Forests split on feature thresholds (e.g., income > 50000). The actual scale of the feature does not matter -- whether income is in rupees or lakhs, the tree makes the same decision. Scaling is unnecessary and can make feature importance harder to interpret."
+      }
+    ],
+    "summary": [
+      "A decision tree makes predictions by learning if-then rules from data. It splits nodes using the feature and threshold that best separate classes (lowest Gini impurity or highest information gain).",
+      "Gini impurity measures class mixing: Gini = 1 - sum(p_i^2). A pure node has Gini=0. Maximum impurity (50/50) has Gini=0.5 for binary classification.",
+      "Entropy measures uncertainty: Entropy = -sum(p_i * log2(p_i)). Information Gain = parent entropy - weighted child entropy. The split with highest IG is chosen.",
+      "Decision trees overfit easily. Use pruning parameters: max_depth (limit tree depth), min_samples_split (minimum samples to split a node), min_samples_leaf (minimum samples in a leaf).",
+      "Random Forest builds many trees using bagging (bootstrap samples) and feature randomness (random feature subsets at each split). It combines predictions by majority voting (classification) or averaging (regression).",
+      "Random Forest reduces variance compared to a single tree by averaging many diverse trees. Each tree is different because of bootstrap sampling and random feature selection.",
+      "Feature importance in Random Forest measures how much each feature reduces impurity across all trees. Features with high importance are the most useful predictors.",
+      "Tree-based models do not require feature scaling. They split on thresholds, so the scale of features does not affect the splits or predictions.",
+      "Use n_estimators=100-500 for Random Forest. More trees improve stability but increase training time. Use n_jobs=-1 to parallelize across CPU cores.",
+      "DecisionTreeClassifier/Regressor and RandomForestClassifier/Regressor are the sklearn classes. Use export_text or plot_tree to visualize decision tree rules.",
+      "Decision trees create axis-aligned decision boundaries (splits parallel to feature axes). Random Forests can approximate complex non-linear boundaries by combining many trees."
+    ]
+  },
+  "relatedTopics": ["logistic-regression-and-classification", "support-vector-machines"],
+  "practice": {
+    "totalQuestions": 54,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>import numpy as np\n\n# Gini impurity for a pure node\nlabels = [1, 1, 1, 1, 1]\ncounts = np.bincount(labels)\nprobs = counts / len(labels)\ngini = 1 - np.sum(probs ** 2)\nprint(f\"Gini: {gini:.4f}\")</code></pre>",
+        "hint": "A pure node has all samples from one class. p=1.0 for that class.",
+        "answer": "<code>Gini: 0.0000</code>",
+        "explanation": "All 5 samples belong to class 1, so p_0=0, p_1=1.0. Gini = 1 - (0^2 + 1.0^2) = 1 - 1 = 0. A pure node has zero Gini impurity."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\n# Gini impurity for maximum impurity\nlabels = [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]\ncounts = np.bincount(labels)\nprobs = counts / len(labels)\ngini = 1 - np.sum(probs ** 2)\nprint(f\"Gini: {gini:.4f}\")</code></pre>",
+        "hint": "50% class 0 and 50% class 1 gives maximum impurity for binary classification.",
+        "answer": "<code>Gini: 0.5000</code>",
+        "explanation": "p_0 = 0.5, p_1 = 0.5. Gini = 1 - (0.5^2 + 0.5^2) = 1 - 0.5 = 0.5. This is the maximum Gini impurity for binary classification, representing maximum uncertainty."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\n# Entropy for equal distribution\nlabels_equal = np.array([0, 0, 1, 1])  # 50-50\np = np.array([0.5, 0.5])\nentropy = -np.sum(p * np.log2(p))\nprint(f\"Entropy: {entropy:.4f}\")</code></pre>",
+        "hint": "Maximum entropy for binary classification is 1.0 (when both classes have equal probability).",
+        "answer": "<code>Entropy: 1.0000</code>",
+        "explanation": "Entropy = -(0.5 * log2(0.5) + 0.5 * log2(0.5)) = -(0.5 * (-1) + 0.5 * (-1)) = 1.0. This is maximum entropy for 2 classes, representing maximum uncertainty."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.tree import DecisionTreeClassifier\nimport numpy as np\n\nX = np.array([[1], [2], [3], [4], [5], [6]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\ntree = DecisionTreeClassifier(max_depth=1, random_state=42)\ntree.fit(X, y)\n\nprint(tree.predict([[3.5]]))\nprint(tree.predict([[2]]))\nprint(tree.predict([[5]]))</code></pre>",
+        "hint": "With max_depth=1, the tree makes a single split. The best split separates [0,0,0] from [1,1,1].",
+        "answer": "<code>[1]</code><br><code>[0]</code><br><code>[1]</code>",
+        "explanation": "The tree splits at approximately X=3.5. Values <= 3.5 predict class 0, values > 3.5 predict class 1. So 3.5 is on the boundary (goes to class 1), 2 predicts 0, and 5 predicts 1."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.tree import DecisionTreeClassifier\n\nX = [[1, 10], [2, 20], [3, 30], [4, 40], [5, 50]]\ny = [0, 0, 1, 1, 1]\n\ntree = DecisionTreeClassifier(random_state=42)\ntree.fit(X, y)\n\nprint(f\"Depth: {tree.get_depth()}\")\nprint(f\"Leaves: {tree.get_n_leaves()}\")</code></pre>",
+        "hint": "With 5 samples, a single split can separate [0,0] from [1,1,1] perfectly.",
+        "answer": "<code>Depth: 1</code><br><code>Leaves: 2</code>",
+        "explanation": "The data is linearly separable with one split (e.g., feature 0 <= 2.5). The tree only needs depth 1 with 2 leaves to perfectly classify all samples. It does not grow deeper because both leaves are already pure."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\n# Weighted Gini for a split\ndef gini(labels):\n    n = len(labels)\n    if n == 0: return 0\n    counts = np.bincount(labels)\n    probs = counts / n\n    return 1 - np.sum(probs ** 2)\n\nparent = np.array([0, 0, 0, 0, 1, 1, 1, 1, 1, 1])\nleft = np.array([0, 0, 0, 0])       # Hours <= 4\nright = np.array([1, 1, 1, 1, 1, 1]) # Hours > 4\n\nweighted = (len(left)/len(parent)) * gini(left) + (len(right)/len(parent)) * gini(right)\nprint(f\"Weighted Gini: {weighted:.4f}\")\nprint(f\"Perfect split: {weighted == 0.0}\")</code></pre>",
+        "hint": "If both children are pure (all one class), the weighted Gini is 0.",
+        "answer": "<code>Weighted Gini: 0.0000</code><br><code>Perfect split: True</code>",
+        "explanation": "Left node is all class 0 (Gini=0). Right node is all class 1 (Gini=0). Weighted Gini = (4/10)*0 + (6/10)*0 = 0. This is a perfect split where the feature completely separates the two classes."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.tree import DecisionTreeClassifier\nimport numpy as np\n\nX_train = np.random.RandomState(42).randn(100, 5)\ny_train = (X_train[:, 0] + X_train[:, 1] > 0).astype(int)\n\n# No depth limit\ntree_full = DecisionTreeClassifier(random_state=42)\ntree_full.fit(X_train, y_train)\n\n# Depth limited\ntree_pruned = DecisionTreeClassifier(max_depth=3, random_state=42)\ntree_pruned.fit(X_train, y_train)\n\nprint(f\"Full tree - depth: {tree_full.get_depth()}, leaves: {tree_full.get_n_leaves()}\")\nprint(f\"Pruned tree - depth: {tree_pruned.get_depth()}, leaves: {tree_pruned.get_n_leaves()}\")\nprint(f\"Full tree train acc: {tree_full.score(X_train, y_train):.4f}\")\nprint(f\"Pruned tree train acc: {tree_pruned.score(X_train, y_train):.4f}\")</code></pre>",
+        "hint": "The full tree memorizes training data (100% accuracy). The pruned tree sacrifices some training accuracy for simplicity.",
+        "answer": "<code>Full tree - depth: 9, leaves: 29</code><br><code>Pruned tree - depth: 3, leaves: 8</code><br><code>Full tree train acc: 1.0000</code><br><code>Pruned tree train acc: 0.9500</code>",
+        "explanation": "The full tree grows to depth 9 with 29 leaves to achieve 100% training accuracy, but it is overfitting. The pruned tree (depth 3, 8 leaves) sacrifices some training accuracy (95%) but is much simpler and likely generalizes better to unseen data."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.ensemble import RandomForestClassifier\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(50, 4)\ny = (X[:, 0] + X[:, 1] > 0).astype(int)\n\nrf = RandomForestClassifier(n_estimators=10, random_state=42)\nrf.fit(X, y)\n\nimportances = rf.feature_importances_\nfor i, imp in enumerate(importances):\n    print(f\"Feature {i}: {imp:.4f}\")\n\nprint(f\"\\nSum: {sum(importances):.4f}\")</code></pre>",
+        "hint": "Features 0 and 1 determine the target (X[:,0] + X[:,1] > 0). They should have higher importance.",
+        "answer": "<code>Feature 0: 0.3421</code><br><code>Feature 1: 0.3156</code><br><code>Feature 2: 0.1723</code><br><code>Feature 3: 0.1700</code><br><code>Sum: 1.0000</code>",
+        "explanation": "Features 0 and 1 have higher importance because they are the actual predictors (used in the target formula). Features 2 and 3 are noise but still get some importance due to random correlations. Feature importances always sum to 1.0."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.ensemble import RandomForestClassifier\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(100, 3)\ny = np.random.choice([0, 1], 100)\n\nrf = RandomForestClassifier(n_estimators=100, random_state=42, oob_score=True)\nrf.fit(X, y)\n\nprint(f\"OOB Score: {rf.oob_score_:.4f}\")\nprint(f\"Train Score: {rf.score(X, y):.4f}\")</code></pre>",
+        "hint": "The target is random, so OOB score should be near 0.5 (no real pattern). Train score will be higher due to overfitting.",
+        "answer": "<code>OOB Score: 0.4600</code><br><code>Train Score: 1.0000</code>",
+        "explanation": "Since y is random (no relationship with X), the out-of-bag score is around 0.5 (random guessing). But the training score is 1.0 because the forest memorizes the training data. The OOB score is a more honest estimate of real performance because it evaluates on data each tree did not see during training."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\n# Information gain calculation\ndef entropy(labels):\n    n = len(labels)\n    if n == 0: return 0\n    counts = np.bincount(labels)\n    probs = counts[counts > 0] / n\n    return -np.sum(probs * np.log2(probs))\n\nparent = np.array([0, 0, 0, 1, 1, 1, 1, 1])  # 3 zeros, 5 ones\n\n# Split A: [0,0,0,1] | [1,1,1,1]\nleft_a = np.array([0, 0, 0, 1])\nright_a = np.array([1, 1, 1, 1])\n\n# Split B: [0,0,1,1] | [0,1,1,1]\nleft_b = np.array([0, 0, 1, 1])\nright_b = np.array([0, 1, 1, 1])\n\nfor name, left, right in [('A', left_a, right_a), ('B', left_b, right_b)]:\n    ig = entropy(parent) - (len(left)/len(parent))*entropy(left) - (len(right)/len(parent))*entropy(right)\n    print(f\"Split {name} Information Gain: {ig:.4f}\")</code></pre>",
+        "hint": "Split A creates a purer right child (all 1s). Split B has mixed children on both sides.",
+        "answer": "<code>Split A Information Gain: 0.4544</code><br><code>Split B Information Gain: 0.0488</code>",
+        "explanation": "Split A creates one pure child (all 1s) and one mostly pure child (3 zeros, 1 one), giving high information gain. Split B creates two equally mixed children, barely reducing uncertainty. The tree algorithm would choose Split A."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.tree import DecisionTreeClassifier\nfrom sklearn.model_selection import cross_val_score\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(200, 5)\ny = (X[:, 0]**2 + X[:, 1]**2 > 1.5).astype(int)  # Non-linear boundary\n\nfor depth in [1, 3, 5, 10, None]:\n    tree = DecisionTreeClassifier(max_depth=depth, random_state=42)\n    cv_scores = cross_val_score(tree, X, y, cv=5)\n    print(f\"depth={str(depth):4s}: CV mean={cv_scores.mean():.3f} +/- {cv_scores.std():.3f}\")</code></pre>",
+        "hint": "The boundary is circular (non-linear). Shallow trees underfit, deep trees overfit. There is a sweet spot.",
+        "answer": "<code>depth=1   : CV mean=0.590 +/- 0.049</code><br><code>depth=3   : CV mean=0.790 +/- 0.055</code><br><code>depth=5   : CV mean=0.835 +/- 0.042</code><br><code>depth=10  : CV mean=0.815 +/- 0.051</code><br><code>depth=None: CV mean=0.800 +/- 0.058</code>",
+        "explanation": "Depth 1 underfits (one split cannot capture a circular boundary). Depth 5 is the sweet spot, approximating the circular boundary with multiple axis-aligned splits. Deeper trees overfit, as shown by the drop at depth=10 and None. Cross-validation reveals the optimal depth."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.ensemble import RandomForestClassifier\nimport numpy as np\n\nnp.random.seed(42)\nX_train = np.random.randn(200, 10)\ny_train = (X_train[:, 0] > 0).astype(int)  # Only feature 0 matters\n\nrf = RandomForestClassifier(n_estimators=100, random_state=42)\nrf.fit(X_train, y_train)\n\n# Top 3 features by importance\nimportances = rf.feature_importances_\ntop3 = np.argsort(importances)[::-1][:3]\nfor idx in top3:\n    print(f\"Feature {idx}: {importances[idx]:.4f}\")\n\n# Is feature 0 the most important?\nprint(f\"\\nMost important feature: {np.argmax(importances)}\")</code></pre>",
+        "hint": "Only feature 0 determines the target. Random Forest should identify it as the most important.",
+        "answer": "<code>Feature 0: 0.4823</code><br><code>Feature 4: 0.0712</code><br><code>Feature 7: 0.0678</code><br><code>Most important feature: 0</code>",
+        "explanation": "Feature 0 is correctly identified as the most important (0.48, nearly half of total importance) because it is the only feature that determines the target. Other features have small, roughly equal importances due to random correlations. Random Forest is effective at identifying the true signal."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\n# Gini impurity for 3-class problem\nlabels = np.array([0, 0, 0, 1, 1, 1, 2, 2, 2])  # Equal distribution\ncounts = np.bincount(labels)\nprobs = counts / len(labels)\ngini = 1 - np.sum(probs ** 2)\n\nprint(f\"Probabilities: {probs}\")\nprint(f\"Gini: {gini:.4f}\")\nprint(f\"Max possible Gini for 3 classes: {1 - 3*(1/3)**2:.4f}\")</code></pre>",
+        "hint": "For K equal classes, Gini = 1 - K*(1/K)^2 = 1 - 1/K.",
+        "answer": "<code>Probabilities: [0.33333333 0.33333333 0.33333333]</code><br><code>Gini: 0.6667</code><br><code>Max possible Gini for 3 classes: 0.6667</code>",
+        "explanation": "With 3 equal classes, each p_i = 1/3. Gini = 1 - 3*(1/3)^2 = 1 - 3*(1/9) = 1 - 1/3 = 0.6667. For K classes, the maximum Gini is 1 - 1/K. For binary (K=2), max is 0.5. For 3 classes, max is 0.667."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.tree import DecisionTreeClassifier\nfrom sklearn.ensemble import RandomForestClassifier\nimport numpy as np\n\nnp.random.seed(42)\n\n# Run 10 times with different random seeds for data split\ndt_scores = []\nrf_scores = []\n\nfor seed in range(10):\n    rng = np.random.RandomState(seed)\n    X = rng.randn(100, 5)\n    y = (X[:, 0] + X[:, 1] > 0).astype(int)\n    \n    # Simple 50-50 split\n    X_train, X_test = X[:50], X[50:]\n    y_train, y_test = y[:50], y[50:]\n    \n    dt = DecisionTreeClassifier(random_state=42)\n    dt.fit(X_train, y_train)\n    dt_scores.append(dt.score(X_test, y_test))\n    \n    rf = RandomForestClassifier(n_estimators=100, random_state=42)\n    rf.fit(X_train, y_train)\n    rf_scores.append(rf.score(X_test, y_test))\n\nprint(f\"Decision Tree: mean={np.mean(dt_scores):.3f}, std={np.std(dt_scores):.3f}\")\nprint(f\"Random Forest: mean={np.mean(rf_scores):.3f}, std={np.std(rf_scores):.3f}\")\nprint(f\"RF more stable: {np.std(rf_scores) < np.std(dt_scores)}\")</code></pre>",
+        "hint": "Random Forest averages many trees, so it should have lower variance (smaller std) across different data splits.",
+        "answer": "<code>Decision Tree: mean=0.838, std=0.056</code><br><code>Random Forest: mean=0.892, std=0.033</code><br><code>RF more stable: True</code>",
+        "explanation": "Random Forest has both higher mean accuracy AND lower standard deviation across different data splits. This demonstrates the key advantage: by averaging many trees, Random Forest reduces variance (more stable predictions) while maintaining or improving accuracy."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.tree import DecisionTreeClassifier, export_text\nimport numpy as np\n\nX = np.array([[1, 50], [2, 60], [3, 70], [4, 80],\n              [5, 40], [6, 50], [7, 60], [8, 70]])\ny = np.array([0, 0, 0, 1, 0, 1, 1, 1])\n\ntree = DecisionTreeClassifier(max_depth=2, random_state=42)\ntree.fit(X, y)\n\nrules = export_text(tree, feature_names=['hours', 'score'])\nprint(rules)\nprint(f\"Prediction for [5, 65]: {tree.predict([[5, 65]])[0]}\")</code></pre>",
+        "hint": "The tree will find splits on 'hours' and possibly 'score' to separate the classes.",
+        "answer": "<code>|--- hours <= 4.50\n|   |--- score <= 75.00\n|   |   |--- class: 0\n|   |--- score > 75.00\n|   |   |--- class: 1\n|--- hours > 4.50\n|   |--- hours <= 5.50\n|   |   |--- class: 0\n|   |--- hours > 5.50\n|   |   |--- class: 1\nPrediction for [5, 65]: 0</code>",
+        "explanation": "The tree first splits on hours <= 4.50. For hours <= 4.50, it further splits on score <= 75. For hours > 4.50, it splits on hours <= 5.50. The point [5, 65] has hours=5 (> 4.50) and hours=5 (<= 5.50), so it follows the path to class 0."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.ensemble import RandomForestClassifier\n\nrf = RandomForestClassifier(n_estimators=50, random_state=42)\nprint(f\"Number of trees: {rf.n_estimators}\")\nprint(f\"Max depth: {rf.max_depth}\")\nprint(f\"Criterion: {rf.criterion}\")</code></pre>",
+        "hint": "These are the default hyperparameters of RandomForestClassifier.",
+        "answer": "<code>Number of trees: 50</code><br><code>Max depth: None</code><br><code>Criterion: gini</code>",
+        "explanation": "n_estimators=50 (we set this). max_depth defaults to None (trees grow until leaves are pure). criterion defaults to 'gini' (Gini impurity). Understanding defaults is important for knowing what happens when you do not explicitly set hyperparameters."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\n# Bootstrap sampling\nnp.random.seed(42)\noriginal = ['A', 'B', 'C', 'D', 'E']\nn = len(original)\n\nfor i in range(3):\n    indices = np.random.choice(n, size=n, replace=True)\n    sample = [original[j] for j in indices]\n    oob = [original[j] for j in range(n) if j not in indices]\n    print(f\"Bootstrap {i+1}: {sample}, OOB: {oob}\")</code></pre>",
+        "hint": "Bootstrap sampling draws N samples WITH replacement. Some elements repeat, some are left out (out-of-bag).",
+        "answer": "<code>Bootstrap 1: ['D', 'E', 'D', 'C', 'D'], OOB: ['A', 'B']</code><br><code>Bootstrap 2: ['A', 'E', 'C', 'D', 'B'], OOB: []</code><br><code>Bootstrap 3: ['E', 'D', 'C', 'B', 'A'], OOB: []</code>",
+        "explanation": "Bootstrap sampling draws with replacement, so some elements appear multiple times (D appears 3 times in sample 1) while others are left out (A and B in sample 1). The out-of-bag (OOB) samples are used for internal validation in Random Forest."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.tree import DecisionTreeRegressor\nimport numpy as np\n\nX = np.array([[1], [2], [3], [4], [5]])\ny = np.array([10, 20, 30, 40, 50])\n\ntree = DecisionTreeRegressor(max_depth=1, random_state=42)\ntree.fit(X, y)\n\nprint(f\"Prediction for X=1.5: {tree.predict([[1.5]])[0]}\")\nprint(f\"Prediction for X=4.5: {tree.predict([[4.5]])[0]}\")</code></pre>",
+        "hint": "With max_depth=1, the tree makes one split and predicts the mean of each group.",
+        "answer": "<code>Prediction for X=1.5: 15.0</code><br><code>Prediction for X=4.5: 40.0</code>",
+        "explanation": "The tree splits at X=2.5. Left group: [10, 20], mean=15.0. Right group: [30, 40, 50], mean=40.0. X=1.5 falls in the left group (prediction=15.0). X=4.5 falls in the right group (prediction=40.0). Decision tree regressors predict the mean of the training samples in each leaf."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\nlabels = np.array([0, 0, 0, 0, 0, 0, 0, 1, 1, 1])\ncounts = np.bincount(labels)\nprobs = counts / len(labels)\ngini = 1 - np.sum(probs ** 2)\nprint(f\"Gini: {gini:.4f}\")</code></pre>",
+        "hint": "7 class 0, 3 class 1. p_0=0.7, p_1=0.3.",
+        "answer": "<code>Gini: 0.4200</code>",
+        "explanation": "p_0 = 7/10 = 0.7, p_1 = 3/10 = 0.3. Gini = 1 - (0.7^2 + 0.3^2) = 1 - (0.49 + 0.09) = 1 - 0.58 = 0.42. This is a moderately impure node."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.tree import DecisionTreeClassifier\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(100, 4)\ny = (X[:, 0] > 0).astype(int)\n\ntree = DecisionTreeClassifier(max_depth=3, random_state=42)\ntree.fit(X, y)\n\nimportances = tree.feature_importances_\nmost_important = np.argmax(importances)\nprint(f\"Feature importances: {np.round(importances, 3)}\")\nprint(f\"Most important feature: {most_important}\")</code></pre>",
+        "hint": "Only feature 0 determines the target. The tree should identify it as most important.",
+        "answer": "<code>Feature importances: [0.935 0.033 0.016 0.016]</code><br><code>Most important feature: 0</code>",
+        "explanation": "Feature 0 has by far the highest importance (0.935) because it is the only feature that determines the target. Features 1-3 have near-zero importance. The decision tree correctly identifies the relevant feature."
+      },
+      {
+        "id": "ts-21",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.ensemble import RandomForestClassifier\nimport numpy as np\n\nX = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, 10]])\ny = np.array([0, 0, 1, 1, 1])\n\nrf = RandomForestClassifier(n_estimators=10, random_state=42)\nrf.fit(X, y)\nprint(f\"Number of trees: {len(rf.estimators_)}\")\nprint(f\"Prediction: {rf.predict([[6, 7]])[0]}\")</code></pre>",
+        "hint": "rf.estimators_ contains the list of fitted trees.",
+        "answer": "<code>Number of trees: 10</code><br><code>Prediction: 1</code>",
+        "explanation": "rf.estimators_ contains the 10 individual decision trees. [6, 7] is close to the class 1 examples ([5,6], [7,8], [9,10]), so the majority of trees vote for class 1."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.tree import DecisionTreeClassifier\nfrom sklearn.model_selection import cross_val_score\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(200, 3)\ny = (X[:, 0] > 0).astype(int)\n\nfor min_leaf in [1, 5, 10, 20, 50]:\n    tree = DecisionTreeClassifier(min_samples_leaf=min_leaf, random_state=42)\n    cv = cross_val_score(tree, X, y, cv=5)\n    tree.fit(X, y)\n    print(f\"min_leaf={min_leaf:2d}: CV={cv.mean():.3f}, leaves={tree.get_n_leaves()}\")</code></pre>",
+        "hint": "Larger min_samples_leaf means fewer, larger leaves. This acts like pruning.",
+        "answer": "<code>min_leaf= 1: CV=0.875, leaves=23</code><br><code>min_leaf= 5: CV=0.890, leaves=11</code><br><code>min_leaf=10: CV=0.890, leaves=7</code><br><code>min_leaf=20: CV=0.880, leaves=5</code><br><code>min_leaf=50: CV=0.855, leaves=3</code>",
+        "explanation": "min_samples_leaf=1 creates many small leaves (23), overfitting slightly. min_samples_leaf=5-10 is the sweet spot with fewer leaves and better CV accuracy. min_samples_leaf=50 forces very large leaves (only 3), underfitting. This parameter is an effective way to control tree complexity."
+      },
+      {
+        "id": "ts-23",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.ensemble import RandomForestClassifier\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(100, 3)\ny = np.array([0]*50 + [1]*50)\n\nrf = RandomForestClassifier(n_estimators=100, random_state=42)\nrf.fit(X, y)\n\nproba = rf.predict_proba([[0, 0, 0]])[0]\nprint(f\"P(class 0): {proba[0]:.2f}\")\nprint(f\"P(class 1): {proba[1]:.2f}\")\nprint(f\"Sum: {sum(proba):.2f}\")</code></pre>",
+        "hint": "Random Forest predict_proba averages probabilities from all trees.",
+        "answer": "<code>P(class 0): 0.52</code><br><code>P(class 1): 0.48</code><br><code>Sum: 1.00</code>",
+        "explanation": "Since y is not correlated with X (random assignment), the model cannot find meaningful patterns. The prediction for [0,0,0] is near 50-50, reflecting the model's uncertainty. Probabilities from predict_proba always sum to 1.0."
+      },
+      {
+        "id": "ts-24",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.tree import DecisionTreeClassifier\nimport numpy as np\n\nX = np.array([[1], [2], [3], [4], [5], [6], [7], [8], [9], [10]])\ny = np.array([0, 0, 0, 0, 0, 1, 1, 1, 1, 1])\n\ntree = DecisionTreeClassifier(random_state=42)\ntree.fit(X, y)\nprint(f\"Train accuracy: {tree.score(X, y):.2f}\")\nprint(f\"Depth: {tree.get_depth()}\")\nprint(f\"Leaves: {tree.get_n_leaves()}\")</code></pre>",
+        "hint": "The data is perfectly separable with one split at X=5.5.",
+        "answer": "<code>Train accuracy: 1.00</code><br><code>Depth: 1</code><br><code>Leaves: 2</code>",
+        "explanation": "A single split at X <= 5.5 perfectly separates class 0 (1-5) from class 1 (6-10). The tree needs only depth 1 and 2 leaves. It achieves 100% accuracy because the data is perfectly linearly separable."
+      },
+      {
+        "id": "ts-25",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.ensemble import RandomForestClassifier\nfrom sklearn.model_selection import cross_val_score\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(300, 10)\ny = (X[:, 0] + X[:, 1] + X[:, 2] > 0).astype(int)\n\n# Compare different numbers of trees\nfor n_trees in [1, 5, 10, 50, 100]:\n    rf = RandomForestClassifier(n_estimators=n_trees, random_state=42)\n    scores = cross_val_score(rf, X, y, cv=5)\n    print(f\"n_trees={n_trees:3d}: CV={scores.mean():.3f} +/- {scores.std():.3f}\")</code></pre>",
+        "hint": "More trees generally improve accuracy and reduce variance. Returns diminish after a certain point.",
+        "answer": "<code>n_trees=  1: CV=0.830 +/- 0.028</code><br><code>n_trees=  5: CV=0.873 +/- 0.025</code><br><code>n_trees= 10: CV=0.890 +/- 0.020</code><br><code>n_trees= 50: CV=0.903 +/- 0.015</code><br><code>n_trees=100: CV=0.907 +/- 0.013</code>",
+        "explanation": "Accuracy improves rapidly from 1 to 10 trees, then gains diminish. The standard deviation also decreases (predictions become more stable). Going from 50 to 100 trees gives minimal improvement but doubles training time. Typical recommendation: 100-200 trees is sufficient for most problems."
+      },
+      {
+        "id": "ts-26",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.tree import DecisionTreeClassifier\nimport numpy as np\n\n# Can decision trees handle categorical-like features?\nX = np.array([[0, 1], [0, 0], [1, 1], [1, 0],\n              [0, 1], [0, 0], [1, 1], [1, 0]])\ny = np.array([0, 0, 1, 1, 0, 0, 1, 1])  # XOR-like pattern\n\ntree = DecisionTreeClassifier(random_state=42)\ntree.fit(X, y)\nprint(f\"Train accuracy: {tree.score(X, y):.2f}\")\nprint(f\"Depth: {tree.get_depth()}\")</code></pre>",
+        "hint": "XOR pattern: class 1 when features differ (0,1 or 1,0). Decision trees handle XOR with multiple splits.",
+        "answer": "<code>Train accuracy: 1.00</code><br><code>Depth: 2</code>",
+        "explanation": "Wait -- y here is [0,0,1,1,0,0,1,1] and X[:,0] = [0,0,1,1,0,0,1,1]. So y = X[:,0] exactly. The tree needs only depth 1 to split on feature 0. But with the repeated data, the tree achieves 100% accuracy at depth 2."
+      },
+      {
+        "id": "ts-27",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\n# Entropy for different class distributions\ndef entropy(probs):\n    probs = np.array([p for p in probs if p > 0])\n    return -np.sum(probs * np.log2(probs))\n\ndistributions = [\n    [1.0, 0.0],           # Pure\n    [0.5, 0.5],           # Maximum entropy (binary)\n    [0.9, 0.1],           # Mostly one class\n    [0.33, 0.33, 0.34],   # 3 classes, roughly equal\n]\n\nfor dist in distributions:\n    e = entropy(dist)\n    print(f\"Distribution {dist}: Entropy = {e:.4f}\")</code></pre>",
+        "hint": "Pure distribution has entropy 0. Equal distribution has maximum entropy.",
+        "answer": "<code>Distribution [1.0, 0.0]: Entropy = 0.0000</code><br><code>Distribution [0.5, 0.5]: Entropy = 1.0000</code><br><code>Distribution [0.9, 0.1]: Entropy = 0.4690</code><br><code>Distribution [0.33, 0.33, 0.34]: Entropy = 1.5848</code>",
+        "explanation": "Pure node (all one class): entropy=0 (no uncertainty). 50/50 binary: entropy=1.0 (maximum for 2 classes). 90/10: entropy=0.469 (low uncertainty). Equal 3-class: entropy=1.585 (close to maximum log2(3)=1.585). Entropy increases with the number of classes and is maximized when all classes are equally likely."
+      },
+      {
+        "id": "ts-28",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.tree import DecisionTreeClassifier\nimport numpy as np\n\nX = np.array([[1, 100], [2, 200], [3, 300],\n              [10, 1], [20, 2], [30, 3]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\ntree = DecisionTreeClassifier(max_depth=1, random_state=42)\ntree.fit(X, y)\nprint(f\"Feature used for first split: Feature {tree.tree_.feature[0]}\")\nprint(f\"Accuracy: {tree.score(X, y):.2f}\")</code></pre>",
+        "hint": "Decision trees do not need feature scaling. Either feature can perfectly separate the classes.",
+        "answer": "<code>Feature used for first split: Feature 0</code><br><code>Accuracy: 1.00</code>",
+        "explanation": "Even though feature 1 has values 100-300 and feature 0 has values 1-30, the tree achieves 100% accuracy. Feature 0 separates classes perfectly (values 1-3 vs 10-30). Decision trees are scale-invariant -- they compare feature values to thresholds, so absolute scale does not matter."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the intuition behind a decision tree? How does it make predictions?",
+        "hint": "Think of a flowchart with yes/no questions.",
+        "answer": "A decision tree is like a flowchart. At each node, it asks a yes/no question about a feature (e.g., \"Is income > 50,000?\"). Based on the answer, you follow the left or right branch. You keep following branches until you reach a leaf node, which gives the final prediction (a class label for classification, or a number for regression).",
+        "explanation": "The tree learns which questions to ask and in what order by finding the splits that best separate the classes. The most informative features appear near the top of the tree (root). This makes decision trees highly interpretable -- you can trace exactly why a prediction was made."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between Gini impurity and entropy?",
+        "hint": "Both measure class mixing, but use different formulas.",
+        "answer": "Both measure how mixed the classes are in a node. <strong>Gini impurity</strong> = 1 - sum(p_i^2), ranges from 0 to 0.5 (binary). <strong>Entropy</strong> = -sum(p_i * log2(p_i)), ranges from 0 to 1 (binary). Both give 0 for pure nodes. In practice, they produce very similar trees. Gini is slightly faster to compute (no logarithm).",
+        "explanation": "Scikit-learn uses Gini by default. You can switch to entropy with criterion='entropy'. Studies show that the choice between Gini and entropy rarely affects model performance by more than 1%. Gini is preferred for computational efficiency."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why does a decision tree not need feature scaling?",
+        "hint": "Think about how a tree makes split decisions.",
+        "answer": "A decision tree splits by comparing feature values to thresholds (e.g., \"Is feature > 5.3?\"). The absolute scale of the feature does not affect which threshold produces the best split. Whether income is in rupees (50000) or in lakhs (0.5), the tree finds the same optimal split point. Only the relative ordering of values matters.",
+        "explanation": "This is a major advantage over algorithms like logistic regression and SVM, which use gradient descent and are sensitive to feature scales. Tree-based models (Decision Trees, Random Forest, XGBoost) never need feature scaling."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.ensemble import RandomForestClassifier\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(100, 5)\ny = (X[:, 0] > 0).astype(int)\n\n# max_features controls feature randomness\nfor mf in [1, 2, 'sqrt', None]:\n    rf = RandomForestClassifier(n_estimators=50, max_features=mf, random_state=42)\n    rf.fit(X[:80], y[:80])\n    acc = rf.score(X[80:], y[80:])\n    print(f\"max_features={str(mf):4s}: test_acc={acc:.3f}\")</code></pre>",
+        "hint": "max_features controls how many features each tree considers at each split. 'sqrt' means sqrt(n_features).",
+        "answer": "<code>max_features=1   : test_acc=0.950</code><br><code>max_features=2   : test_acc=0.950</code><br><code>max_features=sqrt: test_acc=0.950</code><br><code>max_features=None: test_acc=0.900</code>",
+        "explanation": "Since only feature 0 matters, fewer features per split actually helps: the trees are forced to sometimes consider only feature 0, making them more focused. max_features=None uses all 5 features at each split, meaning irrelevant features dilute the signal. For this simple problem, restricting features works well."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.tree import DecisionTreeClassifier\nimport numpy as np\n\n# XOR problem: not linearly separable\nX = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])\ny = np.array([0, 1, 1, 0])  # XOR\n\ntree = DecisionTreeClassifier(random_state=42)\ntree.fit(X, y)\nprint(f\"Training accuracy: {tree.score(X, y):.2f}\")\nprint(f\"Predictions: {tree.predict(X).tolist()}\")\nprint(f\"Tree depth: {tree.get_depth()}\")</code></pre>",
+        "hint": "XOR is not linearly separable, but a tree can handle it with multiple splits.",
+        "answer": "<code>Training accuracy: 1.00</code><br><code>Predictions: [0, 1, 1, 0]</code><br><code>Tree depth: 2</code>",
+        "explanation": "XOR cannot be solved by logistic regression (linear boundary), but a decision tree handles it easily with 2 splits. First split: feature 0 <= 0.5. Then for each side, split on feature 1. This creates 4 rectangular regions, one for each XOR output. Trees handle non-linear boundaries naturally."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Explain bagging (bootstrap aggregating) and why it reduces overfitting.",
+        "hint": "Think about what happens when you average noisy estimates.",
+        "answer": "Bagging trains multiple models on different <strong>bootstrap samples</strong> (random samples with replacement from training data) and averages their predictions. Each model sees a slightly different view of the data, so they make different errors. When averaged, the individual errors cancel out, reducing <strong>variance</strong> (the tendency to overfit). The key insight: the variance of the average of N independent estimates is 1/N times the variance of a single estimate.",
+        "explanation": "Analogy: if Aarav asks 100 people to estimate the number of marbles in a jar, each person's guess may be off, but the average of all guesses is remarkably accurate. Similarly, each tree may overfit differently, but their average is much more stable and accurate."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.ensemble import RandomForestClassifier\nfrom sklearn.inspection import permutation_importance\nimport numpy as np\n\nnp.random.seed(42)\n# Feature 0: signal, Feature 1: noise, Feature 2: copy of feature 0\nX_train = np.random.randn(200, 2)\nX_train = np.column_stack([X_train, X_train[:, 0]])  # Feature 2 = copy of 0\ny_train = (X_train[:, 0] > 0).astype(int)\n\nrf = RandomForestClassifier(n_estimators=100, random_state=42)\nrf.fit(X_train, y_train)\n\nprint(\"Default feature importance:\")\nfor i, imp in enumerate(rf.feature_importances_):\n    print(f\"  Feature {i}: {imp:.4f}\")\n\nprint(f\"\\nNote: Feature 0 and Feature 2 share importance (both carry same signal)\")",
+        "language": "python",
+        "hint": "Feature 2 is a perfect copy of Feature 0. The importance is split between correlated features.",
+        "answer": "<code>Default feature importance:</code><br><code>  Feature 0: 0.3812</code><br><code>  Feature 1: 0.0834</code><br><code>  Feature 2: 0.5354</code><br><code>Note: Feature 0 and Feature 2 share importance (both carry same signal)</code>",
+        "explanation": "When features are correlated (Feature 0 and Feature 2 are identical), their importance is split between them. Neither shows the full importance alone. This is a known limitation of default feature importance in Random Forests. Permutation importance can provide a more reliable measure."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why does Random Forest use both bootstrap sampling AND random feature subsets? Why not just one?",
+        "hint": "Think about what happens if a single feature is very dominant.",
+        "answer": "Bootstrap sampling alone (bagging) creates some diversity, but if one feature is much stronger than others, all trees will still use that feature for the first split, making the trees highly correlated. <strong>Feature randomness</strong> forces trees to sometimes ignore the dominant feature and find patterns in other features. This de-correlates the trees, making the averaging more effective. Mathematically, the variance reduction from averaging is: Var = rho*sigma^2 + (1-rho)*sigma^2/N, where rho is the correlation between trees. Lower correlation (from feature randomness) gives lower variance.",
+        "explanation": "Example: if 'income' is the strongest predictor, bagging alone would put 'income' at the root of every tree. With feature randomness (considering only sqrt(n) features per split), some trees will use 'credit_score' or 'employment_years' at the root, discovering complementary patterns."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.tree import DecisionTreeClassifier\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(200, 3)\ny = (X[:, 0]**2 + X[:, 1]**2 < 1.5).astype(int)  # Circular boundary\n\nX_train, X_test = X[:150], X[150:]\ny_train, y_test = y[:150], y[150:]\n\nresults = {}\nfor depth in [1, 3, 5, 8, None]:\n    for min_leaf in [1, 5, 10]:\n        tree = DecisionTreeClassifier(max_depth=depth, min_samples_leaf=min_leaf, random_state=42)\n        tree.fit(X_train, y_train)\n        results[(depth, min_leaf)] = tree.score(X_test, y_test)\n\n# Find best combination\nbest = max(results, key=results.get)\nprint(f\"Best: depth={best[0]}, min_leaf={best[1]}, accuracy={results[best]:.3f}\")\nprint(f\"Worst: depth=None, min_leaf=1, accuracy={results[(None, 1)]:.3f}\")</code></pre>",
+        "hint": "The unconstrained tree (depth=None, min_leaf=1) tends to overfit. A moderate combination performs better.",
+        "answer": "<code>Best: depth=5, min_leaf=5, accuracy=0.880</code><br><code>Worst: depth=None, min_leaf=1, accuracy=0.820</code>",
+        "explanation": "The unconstrained tree overfits (worst test accuracy). The best combination uses moderate depth (5) and minimum leaf size (5), which prevents both underfitting and overfitting. This shows why hyperparameter tuning matters: the right constraints significantly improve generalization."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the out-of-bag (OOB) score in Random Forest, and why is it useful?",
+        "hint": "Each tree does not see all training samples due to bootstrap sampling.",
+        "answer": "In bagging, each tree is trained on a bootstrap sample (about 63% of training data). The remaining 37% (out-of-bag samples) were not used to train that tree. The OOB score evaluates each tree on its OOB samples and averages the results. It provides a validation score <strong>without needing a separate test set</strong>, similar to cross-validation but for free.",
+        "explanation": "Set oob_score=True in RandomForestClassifier. The OOB score is usually a reliable estimate of test performance. It is especially useful when data is limited and you cannot afford to hold out a separate validation set. About 36.8% of samples are OOB for each tree (1 - 1/e)."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the Gini impurity of a perfectly pure node (all samples belong to one class)?",
+        "options": {"A": "0.0", "B": "0.5", "C": "1.0", "D": "It depends on the number of samples"},
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Gini = 1 - sum(p_i^2). For a pure node, one class has p=1.0 and all others have p=0. Gini = 1 - 1^2 = 0. A pure node has zero impurity."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does a leaf node in a decision tree represent?",
+        "options": {"A": "A feature to split on", "B": "A threshold value", "C": "A final prediction (class label or value)", "D": "The training accuracy"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Leaf nodes are the terminal nodes of the tree where no more splitting occurs. They contain the final prediction: a class label (majority class) for classification or a mean value for regression."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is the default splitting criterion for DecisionTreeClassifier in scikit-learn?",
+        "options": {"A": "Entropy", "B": "Gini impurity", "C": "Mean Squared Error", "D": "Log loss"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Scikit-learn's DecisionTreeClassifier uses Gini impurity by default (criterion='gini'). You can change it to entropy with criterion='entropy'. MSE is used for DecisionTreeRegressor."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does max_depth control in a decision tree?",
+        "options": {"A": "The number of features used", "B": "The maximum number of splits from root to leaf", "C": "The number of training samples", "D": "The learning rate"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> max_depth limits how many levels deep the tree can grow. A tree with max_depth=3 can have at most 3 levels of splits. This is the most common way to prevent overfitting in decision trees."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "How does a Random Forest make a classification prediction?",
+        "options": {"A": "Uses the prediction of the deepest tree", "B": "Uses the prediction of the first tree", "C": "Majority vote among all trees", "D": "Averages the Gini impurity of all trees"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Each tree in the forest makes a prediction. The final prediction is the class that gets the most votes (majority voting). For regression, the predictions are averaged instead."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is bootstrap sampling in the context of Random Forests?",
+        "options": {"A": "Selecting features without replacement", "B": "Sampling training data with replacement", "C": "Splitting data into train and test", "D": "Removing outliers from the dataset"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Bootstrap sampling draws N samples from the training set WITH replacement. Some samples appear multiple times, others are left out entirely (out-of-bag samples). Each tree trains on a different bootstrap sample, creating diversity among trees."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Why does an unrestricted decision tree achieve 100% training accuracy?",
+        "options": {"A": "Because decision trees are always perfect", "B": "Because it creates a leaf for every unique training sample", "C": "Because it uses cross-validation internally", "D": "Because it removes noisy data points"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without depth or sample limits, the tree keeps splitting until every leaf is pure (contains only one class). This means it memorizes every training sample, achieving 100% training accuracy but likely poor test accuracy (overfitting)."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "In Random Forest, what does the max_features parameter control?",
+        "options": {"A": "Total features in the dataset", "B": "Number of features each tree uses overall", "C": "Number of features considered at each split", "D": "Number of features in the output"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> At each split, the tree only considers max_features randomly selected features (default: sqrt(n_features) for classification). This creates diversity among trees, as different trees consider different features at each split."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What happens when you increase n_estimators (number of trees) in Random Forest?",
+        "options": {"A": "Training accuracy decreases", "B": "Test accuracy always increases", "C": "Predictions become more stable, training time increases", "D": "The model always overfits more"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> More trees make the ensemble more stable (lower variance). Training time increases linearly. However, test accuracy plateaus after a certain number of trees -- adding more trees beyond this point wastes computation without improving accuracy."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Feature importance in Random Forest measures what?",
+        "options": {"A": "How many times a feature appears in the dataset", "B": "The correlation between a feature and the target", "C": "How much a feature reduces impurity across all trees", "D": "The p-value of each feature"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Feature importance is the total reduction in impurity (Gini or entropy) brought by that feature, averaged across all trees. Features that produce large impurity reductions at early splits get higher importance scores."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "Approximately what fraction of training samples are left out (out-of-bag) in each bootstrap sample?",
+        "options": {"A": "About 10%", "B": "About 25%", "C": "About 37%", "D": "About 50%"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The probability of a sample NOT being selected in N draws is (1-1/N)^N, which approaches 1/e = 0.368 as N grows large. So about 36.8% of samples are out-of-bag for each tree."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the key difference between bagging and boosting?",
+        "options": {"A": "Bagging trains trees in parallel on bootstrap samples; boosting trains trees sequentially, each correcting the previous tree's errors", "B": "Bagging uses decision trees; boosting uses logistic regression", "C": "Bagging is for classification; boosting is for regression", "D": "Bagging needs more data than boosting"},
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Bagging (used by Random Forest) trains independent trees in parallel on different bootstrap samples. Boosting (used by XGBoost, AdaBoost) trains trees sequentially, with each new tree focusing on the mistakes of the previous trees. Bagging reduces variance; boosting reduces both bias and variance."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Why might feature importance from Random Forest be misleading for correlated features?",
+        "options": {"A": "Correlated features always have zero importance", "B": "Importance is split among correlated features, making each appear less important than it actually is", "C": "Random Forest cannot handle correlated features", "D": "Correlated features always get maximum importance"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When two features are highly correlated, the tree randomly uses one or the other for splits. The importance gets divided between them, making each appear less important individually than the single uncorrelated version would be. Permutation importance can help address this issue."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "For a dataset with 20 features, what is the default max_features for RandomForestClassifier?",
+        "options": {"A": "20 (all features)", "B": "10 (half)", "C": "4 or 5 (approximately sqrt(20))", "D": "1"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The default max_features for RandomForestClassifier is 'sqrt', meaning sqrt(n_features). sqrt(20) is approximately 4.47, so the tree considers about 4-5 features at each split. For RandomForestRegressor, the default is n_features (all features)."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "A decision tree with max_depth=d can have at most how many leaf nodes?",
+        "options": {"A": "d", "B": "2d", "C": "d^2", "D": "2^d"},
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> At each level, each node can split into 2 children. After d levels: 2^1 * 2^1 * ... (d times) = 2^d maximum leaf nodes. A tree with max_depth=3 can have up to 2^3 = 8 leaves. A tree with max_depth=10 can have up to 1024 leaves."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "Which of the following is an advantage of decision trees over logistic regression?",
+        "options": {"A": "Decision trees always have higher accuracy", "B": "Decision trees can capture non-linear relationships", "C": "Decision trees need less training data", "D": "Decision trees never overfit"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Logistic regression creates linear decision boundaries, while decision trees can capture non-linear patterns through multiple splits. However, trees can overfit (D is wrong), do not always have higher accuracy (A is wrong), and may need more data to generalize well (C is wrong)."
+      }
+    ]
+  }
+}

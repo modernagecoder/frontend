@@ -1,0 +1,768 @@
+{
+  "title": "STL Containers - vector, list, map, set, stack, queue",
+  "slug": "stl-containers",
+  "language": "cpp",
+  "chapter": 20,
+  "difficulty": "Advanced",
+  "readingTime": "60 min",
+  "lastUpdated": "2026-04-10",
+  "seo": {
+    "title": "C++ STL Containers - vector, list, map, set, stack, queue, priority_queue | Modern Age Coders",
+    "description": "Master C++ STL containers: vector, list, deque, set, multiset, map, multimap, unordered_set, unordered_map, stack, queue, and priority_queue. Includes time complexity comparison, custom comparators, and 62+ practice questions for competitive programming.",
+    "keywords": "c++ stl containers, c++ vector, c++ map, c++ set, c++ stack, c++ queue, c++ priority_queue, c++ unordered_map, c++ multiset, competitive programming c++ containers"
+  },
+  "content": {
+    "what": "<h2>What Are STL Containers?</h2><p>The <strong>Standard Template Library (STL)</strong> provides a collection of generic, type-safe container classes that store and organize data. Instead of writing your own linked list, binary search tree, or hash table from scratch, you use battle-tested containers like <code>vector</code>, <code>set</code>, <code>map</code>, and <code>unordered_map</code> that are already optimized and correct.</p><p>STL containers are divided into four categories:</p><ul><li><strong>Sequence containers</strong> -- store elements in a linear order: <code>vector</code>, <code>list</code>, <code>deque</code></li><li><strong>Associative containers</strong> -- store elements in sorted order using a balanced BST: <code>set</code>, <code>multiset</code>, <code>map</code>, <code>multimap</code></li><li><strong>Unordered containers</strong> -- store elements using hash tables for O(1) average access: <code>unordered_set</code>, <code>unordered_map</code></li><li><strong>Container adaptors</strong> -- wrap other containers with a restricted interface: <code>stack</code>, <code>queue</code>, <code>priority_queue</code></li></ul><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;vector&gt;\n#include &lt;set&gt;\n#include &lt;map&gt;\n#include &lt;stack&gt;\nusing namespace std;\n\nint main() {\n    // Sequence: ordered by insertion\n    vector&lt;int&gt; v = {5, 2, 8, 2, 1};\n\n    // Associative: sorted, unique\n    set&lt;int&gt; s(v.begin(), v.end());\n    // s = {1, 2, 5, 8} -- sorted, duplicates removed\n\n    // Associative: key-value, sorted by key\n    map&lt;string, int&gt; marks;\n    marks[\"Arjun\"] = 85;\n    marks[\"Priya\"] = 92;\n\n    // Container adaptor: LIFO\n    stack&lt;int&gt; st;\n    st.push(10);\n    st.push(20);\n    cout &lt;&lt; st.top() &lt;&lt; endl;  // 20\n    return 0;\n}</code></pre><p>When Rohan says \"use a map for frequency counting\" or Meera says \"use a priority_queue for the greedy approach,\" every competitive programmer immediately knows the data structure and its time complexities.</p>",
+    "why": "<h2>Why Are STL Containers Important?</h2><h3>1. Competitive Programming Efficiency</h3><p>In competitive programming, choosing the right container is half the solution. Need O(log n) lookups with sorted order? Use <code>set</code> or <code>map</code>. Need O(1) average lookups? Use <code>unordered_map</code>. Need a max-heap? Use <code>priority_queue</code>. Knowing which container to use and its time complexity directly determines whether your solution passes within the time limit.</p><h3>2. Correct by Construction</h3><p>STL containers handle memory management, resizing, rebalancing, and rehashing automatically. A <code>vector</code> grows dynamically, a <code>set</code> stays balanced, and an <code>unordered_map</code> rehashes when the load factor is too high. Implementing these from scratch is error-prone and time-consuming.</p><h3>3. Type Safety and Generic Programming</h3><p>STL containers are templates -- <code>vector&lt;int&gt;</code>, <code>map&lt;string, int&gt;</code>, <code>set&lt;pair&lt;int,int&gt;&gt;</code> -- providing compile-time type checking. You cannot accidentally insert a string into a <code>vector&lt;int&gt;</code>.</p><h3>4. Interoperability with STL Algorithms</h3><p>All STL containers expose iterators, making them compatible with STL algorithms like <code>sort</code>, <code>find</code>, <code>accumulate</code>, and <code>transform</code>. This uniform interface is one of the most powerful features of the STL.</p><h3>5. Interview and Placement Relevance</h3><p>Companies like Google, Amazon, Microsoft, Flipkart, and Razorpay expect fluency with STL containers. Interview problems frequently require choosing the right container, understanding time complexities, and using containers like <code>map</code>, <code>set</code>, and <code>priority_queue</code> effectively.</p>",
+    "codeExamples": [
+      {
+        "title": "Vector: Dynamic Array with Random Access",
+        "code": "#include <iostream>\n#include <vector>\nusing namespace std;\n\nint main() {\n    vector<int> v;\n    v.push_back(10);\n    v.push_back(20);\n    v.push_back(30);\n\n    // Access by index\n    cout << \"v[1] = \" << v[1] << endl;\n    cout << \"v.at(2) = \" << v.at(2) << endl;\n\n    // Size vs Capacity\n    cout << \"Size: \" << v.size() << endl;\n    cout << \"Capacity: \" << v.capacity() << endl;\n\n    // Reserve to avoid reallocations\n    v.reserve(100);\n    cout << \"After reserve(100), Capacity: \" << v.capacity() << endl;\n\n    // Resize changes size (fills with default value)\n    v.resize(5, 0);\n    for (int x : v) cout << x << \" \";\n    cout << endl;\n\n    // pop_back removes last element\n    v.pop_back();\n    cout << \"After pop_back, size: \" << v.size() << endl;\n\n    // clear removes all\n    v.clear();\n    cout << \"After clear, size: \" << v.size() << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Vector is the most commonly used container in C++. <code>push_back</code> is amortized O(1), random access via <code>[]</code> or <code>at()</code> is O(1). The key difference: <code>[]</code> has no bounds checking while <code>at()</code> throws <code>out_of_range</code>. Use <code>reserve()</code> when you know the approximate size upfront to avoid repeated reallocations.",
+        "output": "v[1] = 20\nv.at(2) = 30\nSize: 3\nCapacity: 4\nAfter reserve(100), Capacity: 100\n10 20 30 0 0\nAfter pop_back, size: 4\nAfter clear, size: 0"
+      },
+      {
+        "title": "Set and Multiset: Sorted Unique and Sorted with Duplicates",
+        "code": "#include <iostream>\n#include <set>\nusing namespace std;\n\nint main() {\n    // set: sorted, unique elements\n    set<int> s = {5, 2, 8, 2, 1, 5};\n    cout << \"Set: \";\n    for (int x : s) cout << x << \" \";\n    cout << endl;  // 1 2 5 8\n\n    s.insert(3);\n    s.insert(2);  // duplicate, ignored\n    cout << \"After insert 3 and 2: \";\n    for (int x : s) cout << x << \" \";\n    cout << endl;\n\n    // find and count\n    if (s.find(3) != s.end()) cout << \"3 found\" << endl;\n    cout << \"count(2) = \" << s.count(2) << endl;  // 0 or 1\n\n    // lower_bound and upper_bound\n    auto lb = s.lower_bound(3);  // first >= 3\n    auto ub = s.upper_bound(5);  // first > 5\n    cout << \"lower_bound(3) = \" << *lb << endl;\n    cout << \"upper_bound(5) = \" << *ub << endl;\n\n    // multiset: allows duplicates\n    multiset<int> ms = {5, 2, 8, 2, 1, 5};\n    cout << \"Multiset: \";\n    for (int x : ms) cout << x << \" \";\n    cout << endl;  // 1 2 2 5 5 8\n    cout << \"count(2) = \" << ms.count(2) << endl;  // 2\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "A <code>set</code> stores unique elements in sorted order using a balanced BST (usually red-black tree). All operations -- insert, find, count, erase, lower_bound, upper_bound -- are O(log n). A <code>multiset</code> allows duplicates while maintaining sorted order. Use <code>set</code> when you need sorted unique values and O(log n) lookups.",
+        "output": "Set: 1 2 5 8\nAfter insert 3 and 2: 1 2 3 5 8\n3 found\ncount(2) = 1\nlower_bound(3) = 3\nupper_bound(5) = 8\nMultiset: 1 2 2 5 5 8\ncount(2) = 2"
+      },
+      {
+        "title": "Map and Multimap: Key-Value Pairs Sorted by Key",
+        "code": "#include <iostream>\n#include <map>\nusing namespace std;\n\nint main() {\n    // map: sorted by key, unique keys\n    map<string, int> marks;\n    marks[\"Arjun\"] = 85;\n    marks[\"Priya\"] = 92;\n    marks[\"Kiran\"] = 78;\n    marks.insert({\"Neha\", 88});\n\n    // Iterate (sorted by key)\n    for (auto& [name, score] : marks)\n        cout << name << \": \" << score << endl;\n\n    // Access with [] (creates if missing!) vs at() (throws if missing)\n    marks[\"Ravi\"];  // Creates entry with value 0!\n    cout << \"Ravi (auto-created): \" << marks[\"Ravi\"] << endl;\n\n    // Safe access with find\n    auto it = marks.find(\"Priya\");\n    if (it != marks.end())\n        cout << \"Found Priya: \" << it->second << endl;\n\n    // Frequency counting pattern\n    string text = \"hello world\";\n    map<char, int> freq;\n    for (char c : text) freq[c]++;\n    for (auto& [ch, cnt] : freq)\n        cout << ch << \":\" << cnt << \" \";\n    cout << endl;\n\n    // multimap: allows duplicate keys\n    multimap<string, int> scores;\n    scores.insert({\"Arjun\", 85});\n    scores.insert({\"Arjun\", 90});\n    cout << \"Arjun count: \" << scores.count(\"Arjun\") << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "A <code>map</code> stores key-value pairs sorted by key using a balanced BST. All operations are O(log n). The <code>[]</code> operator is dangerous because it inserts a default-constructed value if the key does not exist. Use <code>find()</code> or <code>at()</code> for safe access. The frequency counting pattern (<code>freq[c]++</code>) is one of the most common uses of map in competitive programming.",
+        "output": "Arjun: 85\nKiran: 78\nNeha: 88\nPriya: 92\nRavi (auto-created): 0\nFound Priya: 92\n :1 d:1 e:1 h:1 l:3 o:2 r:1 w:1\nArjun count: 2"
+      },
+      {
+        "title": "Unordered Map and Unordered Set: O(1) Average Lookups",
+        "code": "#include <iostream>\n#include <unordered_map>\n#include <unordered_set>\nusing namespace std;\n\nint main() {\n    // unordered_set: hash-based, O(1) average, no order\n    unordered_set<int> us = {5, 2, 8, 2, 1};\n    us.insert(3);\n    cout << \"Contains 3? \" << (us.count(3) ? \"Yes\" : \"No\") << endl;\n\n    // unordered_map: hash-based key-value, O(1) average\n    unordered_map<string, int> marks;\n    marks[\"Arjun\"] = 85;\n    marks[\"Priya\"] = 92;\n    marks[\"Kiran\"] = 78;\n\n    // Fast frequency counting (faster than map for large inputs)\n    string text = \"competitive programming\";\n    unordered_map<char, int> freq;\n    for (char c : text) freq[c]++;\n    cout << \"Frequency of 'e': \" << freq['e'] << endl;\n\n    // Two Sum problem: classic unordered_map usage\n    vector<int> nums = {2, 7, 11, 15};\n    int target = 9;\n    unordered_map<int, int> seen;\n    for (int i = 0; i < nums.size(); i++) {\n        int complement = target - nums[i];\n        if (seen.count(complement)) {\n            cout << \"Pair found: [\" << seen[complement] << \", \" << i << \"]\" << endl;\n            break;\n        }\n        seen[nums[i]] = i;\n    }\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Unordered containers use hash tables for O(1) average-case insert, find, and erase. They are faster than <code>set</code>/<code>map</code> for most cases but do not maintain sorted order. The Two Sum problem is a classic example where <code>unordered_map</code> gives an O(n) solution instead of O(n log n) with sorted containers.",
+        "output": "Contains 3? Yes\nFrequency of 'e': 2\nPair found: [0, 1]"
+      },
+      {
+        "title": "Stack, Queue, and Priority Queue: Container Adaptors",
+        "code": "#include <iostream>\n#include <stack>\n#include <queue>\nusing namespace std;\n\nint main() {\n    // Stack: LIFO\n    stack<int> st;\n    st.push(10);\n    st.push(20);\n    st.push(30);\n    cout << \"Stack top: \" << st.top() << endl;\n    st.pop();\n    cout << \"After pop, top: \" << st.top() << endl;\n    cout << \"Stack size: \" << st.size() << endl;\n\n    // Queue: FIFO\n    queue<int> q;\n    q.push(10);\n    q.push(20);\n    q.push(30);\n    cout << \"Queue front: \" << q.front() << \", back: \" << q.back() << endl;\n    q.pop();\n    cout << \"After pop, front: \" << q.front() << endl;\n\n    // Priority Queue: max-heap by default\n    priority_queue<int> pq;\n    pq.push(30);\n    pq.push(10);\n    pq.push(50);\n    pq.push(20);\n    cout << \"Max-heap top: \" << pq.top() << endl;\n    pq.pop();\n    cout << \"After pop: \" << pq.top() << endl;\n\n    // Min-heap using greater<int>\n    priority_queue<int, vector<int>, greater<int>> minPQ;\n    minPQ.push(30);\n    minPQ.push(10);\n    minPQ.push(50);\n    minPQ.push(20);\n    cout << \"Min-heap top: \" << minPQ.top() << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Container adaptors provide restricted interfaces over other containers. <code>stack</code> is LIFO (push/pop/top), <code>queue</code> is FIFO (push/pop/front/back), and <code>priority_queue</code> is a max-heap by default. For a min-heap, pass <code>greater&lt;int&gt;</code> as the third template argument. All push/pop operations are O(log n) for priority_queue and O(1) for stack/queue.",
+        "output": "Stack top: 30\nAfter pop, top: 20\nStack size: 2\nQueue front: 10, back: 30\nAfter pop, front: 20\nMax-heap top: 50\nAfter pop: 30\nMin-heap top: 10"
+      },
+      {
+        "title": "Priority Queue with Custom Comparator for Dijkstra-Style Processing",
+        "code": "#include <iostream>\n#include <queue>\n#include <vector>\nusing namespace std;\n\nint main() {\n    // Custom comparator: process by shortest distance first\n    // pair<distance, node>\n    using P = pair<int, int>;\n    priority_queue<P, vector<P>, greater<P>> pq;\n\n    pq.push({5, 1});   // node 1, distance 5\n    pq.push({2, 3});   // node 3, distance 2\n    pq.push({8, 2});   // node 2, distance 8\n    pq.push({1, 4});   // node 4, distance 1\n\n    cout << \"Processing order (shortest distance first):\" << endl;\n    while (!pq.empty()) {\n        auto [dist, node] = pq.top();\n        pq.pop();\n        cout << \"Node \" << node << \", distance \" << dist << endl;\n    }\n\n    // Custom struct with lambda comparator\n    struct Task {\n        string name;\n        int priority;\n    };\n    auto cmp = [](const Task& a, const Task& b) {\n        return a.priority < b.priority;  // higher priority first\n    };\n    priority_queue<Task, vector<Task>, decltype(cmp)> taskQ(cmp);\n    taskQ.push({\"Debug\", 3});\n    taskQ.push({\"Deploy\", 5});\n    taskQ.push({\"Test\", 4});\n\n    cout << \"\\nTask processing order:\" << endl;\n    while (!taskQ.empty()) {\n        auto& t = taskQ.top();\n        cout << t.name << \" (priority \" << t.priority << \")\" << endl;\n        taskQ.pop();\n    }\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "This shows the Dijkstra-style min-heap pattern using <code>priority_queue</code> with <code>greater&lt;pair&lt;int,int&gt;&gt;</code>. Pairs are compared lexicographically, so smallest distance comes first. The second example demonstrates a custom struct with a lambda comparator passed via <code>decltype</code>. This pattern appears in graph algorithms, task scheduling, and event-driven simulations.",
+        "output": "Processing order (shortest distance first):\nNode 4, distance 1\nNode 3, distance 2\nNode 1, distance 5\nNode 2, distance 8\n\nTask processing order:\nDeploy (priority 5)\nTest (priority 4)\nDebug (priority 3)"
+      },
+      {
+        "title": "List and Deque: Insert/Remove at Both Ends",
+        "code": "#include <iostream>\n#include <list>\n#include <deque>\nusing namespace std;\n\nint main() {\n    // list: doubly-linked list, O(1) insert/erase anywhere with iterator\n    list<int> lst = {10, 20, 30};\n    lst.push_front(5);\n    lst.push_back(40);\n    auto it = lst.begin();\n    advance(it, 2);  // move to 3rd element\n    lst.insert(it, 15);  // insert before 3rd element\n\n    cout << \"List: \";\n    for (int x : lst) cout << x << \" \";\n    cout << endl;\n\n    lst.remove(20);  // remove all occurrences of 20\n    cout << \"After remove(20): \";\n    for (int x : lst) cout << x << \" \";\n    cout << endl;\n\n    // deque: double-ended queue, O(1) push/pop at both ends + random access\n    deque<int> dq = {20, 30, 40};\n    dq.push_front(10);\n    dq.push_back(50);\n    cout << \"Deque: \";\n    for (int x : dq) cout << x << \" \";\n    cout << endl;\n    cout << \"dq[2] = \" << dq[2] << endl;  // random access!\n\n    dq.pop_front();\n    dq.pop_back();\n    cout << \"After pop front and back: \";\n    for (int x : dq) cout << x << \" \";\n    cout << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "A <code>list</code> is a doubly-linked list with O(1) insert/erase at any position (given an iterator) but no random access. A <code>deque</code> (double-ended queue) supports O(1) push/pop at both ends AND random access via <code>[]</code>. Use <code>list</code> when you need frequent insertions/deletions in the middle. Use <code>deque</code> when you need fast operations at both ends plus random access.",
+        "output": "List: 5 10 15 30 40\nAfter remove(20): 5 10 15 30 40\nDeque: 10 20 30 40 50\ndq[2] = 30\nAfter pop front and back: 20 30 40"
+      },
+      {
+        "title": "Time Complexity Comparison of STL Containers",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"=== STL Container Time Complexity ===\"   << endl;\n    cout << endl;\n    cout << \"SEQUENCE CONTAINERS:\"                    << endl;\n    cout << \"vector:  access O(1) | push_back O(1)* | insert O(n) | find O(n)\"  << endl;\n    cout << \"list:    access O(n) | push_front O(1)  | insert O(1) | find O(n)\"  << endl;\n    cout << \"deque:   access O(1) | push_front O(1)  | insert O(n) | find O(n)\"  << endl;\n    cout << endl;\n    cout << \"ASSOCIATIVE CONTAINERS (balanced BST):\"  << endl;\n    cout << \"set:     insert O(log n) | find O(log n) | erase O(log n) | sorted\" << endl;\n    cout << \"map:     insert O(log n) | find O(log n) | []/at O(log n) | sorted\" << endl;\n    cout << \"multiset/multimap: same as set/map but allow duplicates\"             << endl;\n    cout << endl;\n    cout << \"UNORDERED CONTAINERS (hash table):\"      << endl;\n    cout << \"unordered_set: insert O(1)* | find O(1)* | erase O(1)* | no order\" << endl;\n    cout << \"unordered_map: insert O(1)* | find O(1)* | []/at O(1)* | no order\" << endl;\n    cout << \"* = amortized / average case\"            << endl;\n    cout << endl;\n    cout << \"CONTAINER ADAPTORS:\"                     << endl;\n    cout << \"stack:          push O(1) | pop O(1) | top O(1)\"                   << endl;\n    cout << \"queue:          push O(1) | pop O(1) | front O(1)\"                 << endl;\n    cout << \"priority_queue: push O(log n) | pop O(log n) | top O(1)\"           << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "This reference program prints the time complexity of every major STL container operation. In competitive programming, choosing the wrong container (e.g., map when unordered_map suffices) can be the difference between TLE and AC. Memorize these complexities.",
+        "output": "=== STL Container Time Complexity ===\n\nSEQUENCE CONTAINERS:\nvector:  access O(1) | push_back O(1)* | insert O(n) | find O(n)\nlist:    access O(n) | push_front O(1)  | insert O(1) | find O(n)\ndeque:   access O(1) | push_front O(1)  | insert O(n) | find O(n)\n\nASSOCIATIVE CONTAINERS (balanced BST):\nset:     insert O(log n) | find O(log n) | erase O(log n) | sorted\nmap:     insert O(log n) | find O(log n) | []/at O(log n) | sorted\nmultiset/multimap: same as set/map but allow duplicates\n\nUNORDERED CONTAINERS (hash table):\nunordered_set: insert O(1)* | find O(1)* | erase O(1)* | no order\nunordered_map: insert O(1)* | find O(1)* | []/at O(1)* | no order\n* = amortized / average case\n\nCONTAINER ADAPTORS:\nstack:          push O(1) | pop O(1) | top O(1)\nqueue:          push O(1) | pop O(1) | front O(1)\npriority_queue: push O(log n) | pop O(log n) | top O(1)"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using map[] for Lookup Instead of find()",
+        "wrongCode": "map<string, int> m;\nm[\"Arjun\"] = 85;\nif (m[\"Priya\"] > 0)\n    cout << \"Priya found\" << endl;\n// Bug: m[\"Priya\"] was just created with value 0!",
+        "error": "The [] operator on a map creates a new entry with a default-constructed value if the key does not exist. This silently inserts unwanted entries and can corrupt your data.",
+        "correctCode": "map<string, int> m;\nm[\"Arjun\"] = 85;\nauto it = m.find(\"Priya\");\nif (it != m.end())\n    cout << \"Priya found: \" << it->second << endl;\nelse\n    cout << \"Priya not found\" << endl;",
+        "explanation": "Use <code>find()</code> or <code>count()</code> to check existence without inserting. The <code>[]</code> operator should only be used when you want to create or overwrite an entry."
+      },
+      {
+        "title": "Modifying a set Element Directly",
+        "wrongCode": "set<int> s = {10, 20, 30};\nauto it = s.find(20);\n*it = 25;  // Compilation error!",
+        "error": "Elements in a set are const because modifying them could break the sorted order maintained by the internal BST. The set would no longer be valid.",
+        "correctCode": "set<int> s = {10, 20, 30};\ns.erase(20);\ns.insert(25);\n// s = {10, 25, 30}",
+        "explanation": "To change a value in a set, you must erase the old value and insert the new one. This ensures the sorted invariant is maintained. The same applies to keys in a map."
+      },
+      {
+        "title": "Forgetting That priority_queue Is a Max-Heap by Default",
+        "wrongCode": "priority_queue<int> pq;\npq.push(10);\npq.push(30);\npq.push(20);\ncout << pq.top() << endl;  // Prints 30, not 10!\n// Programmer expected min-heap behavior",
+        "error": "C++ priority_queue is a max-heap by default. The largest element is at the top. If you need a min-heap, you must explicitly specify greater<int>.",
+        "correctCode": "priority_queue<int, vector<int>, greater<int>> pq;  // min-heap\npq.push(10);\npq.push(30);\npq.push(20);\ncout << pq.top() << endl;  // 10 (smallest first)",
+        "explanation": "The default <code>priority_queue&lt;int&gt;</code> uses <code>less&lt;int&gt;</code> internally, which creates a max-heap. For a min-heap, specify all three template parameters: <code>priority_queue&lt;int, vector&lt;int&gt;, greater&lt;int&gt;&gt;</code>."
+      },
+      {
+        "title": "Iterating and Erasing from a Map/Set Simultaneously (Wrong Way)",
+        "wrongCode": "map<string, int> m = {{\"a\", 1}, {\"b\", 2}, {\"c\", 3}};\nfor (auto it = m.begin(); it != m.end(); ++it) {\n    if (it->second < 3)\n        m.erase(it);  // Iterator invalidated!\n}",
+        "error": "Erasing an element from a map/set invalidates the iterator pointing to that element. Incrementing an invalidated iterator is undefined behavior.",
+        "correctCode": "map<string, int> m = {{\"a\", 1}, {\"b\", 2}, {\"c\", 3}};\nfor (auto it = m.begin(); it != m.end(); ) {\n    if (it->second < 3)\n        it = m.erase(it);  // erase returns next valid iterator\n    else\n        ++it;\n}",
+        "explanation": "In C++11 and later, <code>erase()</code> on associative containers returns an iterator to the next element. Use this return value instead of manually incrementing. Notice the <code>++it</code> is in the else branch, not in the for loop header."
+      },
+      {
+        "title": "Using unordered_map/unordered_set with Unhashable Types",
+        "wrongCode": "unordered_set<pair<int,int>> s;\ns.insert({1, 2});  // Compilation error!",
+        "error": "std::pair does not have a default hash function, so it cannot be used directly in unordered containers. You need a custom hash or use an ordered set instead.",
+        "correctCode": "// Option 1: Use ordered set (simpler)\nset<pair<int,int>> s;\ns.insert({1, 2});\n\n// Option 2: Custom hash for unordered_set\nstruct PairHash {\n    size_t operator()(const pair<int,int>& p) const {\n        return hash<long long>()(((long long)p.first << 32) | p.second);\n    }\n};\nunordered_set<pair<int,int>, PairHash> us;\nus.insert({1, 2});",
+        "explanation": "Unordered containers require a hash function for the key type. Built-in types (int, string) have default hashes, but <code>pair</code>, <code>tuple</code>, and custom structs do not. Either provide a custom hash functor or use the ordered variants (<code>set</code>, <code>map</code>) which only need <code>operator&lt;</code>."
+      }
+    ],
+    "summary": [
+      "Sequence containers store elements in insertion order. vector provides O(1) random access and amortized O(1) push_back but O(n) insertion in the middle. list provides O(1) insertion/deletion anywhere with an iterator but no random access. deque provides O(1) push/pop at both ends plus random access.",
+      "Associative containers (set, multiset, map, multimap) use balanced BSTs internally. All operations are O(log n). Elements are always sorted. set stores unique values, multiset allows duplicates, map stores unique key-value pairs, multimap allows duplicate keys.",
+      "Unordered containers (unordered_set, unordered_map) use hash tables. Average-case operations are O(1), worst-case O(n). They do not maintain any order. Use them when you need fast lookups and do not care about order.",
+      "Container adaptors wrap other containers with restricted interfaces. stack (LIFO), queue (FIFO), and priority_queue (heap). priority_queue is a max-heap by default; use greater<T> for a min-heap.",
+      "The map [] operator inserts a default value if the key does not exist. Use find() or count() for safe lookups. The at() method throws out_of_range if the key is missing.",
+      "For competitive programming: use vector for arrays, unordered_map for frequency counting, set for sorted unique elements, and priority_queue for greedy algorithms. Know the time complexity of every operation.",
+      "vector::reserve() pre-allocates memory without changing size. vector::resize() changes the size. Use reserve() when you know the approximate number of elements to avoid reallocations.",
+      "Elements in a set/map cannot be modified in place because it would break the sorted invariant. Erase the old element and insert the new one instead.",
+      "When erasing from a map/set while iterating, use the iterator returned by erase() to avoid iterator invalidation. The pattern is: it = container.erase(it).",
+      "Choose the right container based on your needs: sorted order with O(log n) -> set/map, O(1) average lookup -> unordered_set/unordered_map, LIFO -> stack, FIFO -> queue, priority processing -> priority_queue."
+    ],
+    "explanation": "<h2>Detailed Explanation</h2><p>The <strong>Standard Template Library (STL)</strong> provides a collection of generic, type-safe container classes that store and organize data. Instead of writing your own linked list, binary search tree, or hash table from scratch, you use battle-tested containers like <code>vector</code>, <code>set</code>, <code>map</code>, and <code>unordered_map</code> that are already optimized and correct.</p><p>STL containers are divided into four categories:</p><ul><li><strong>Sequence containers</strong> -- store elements in a linear order: <code>vector</code>, <code>list</code>, <code>deque</code></li><li><strong>Associative containers</strong> -- store elements in sorted order using a balanced BST: <code>set</code>, <code>multiset</code>, <code>map</code>, <code>multimap</code></li><li><strong>Unordered containers</strong> -- store elements using hash tables for O(1) average access: <code>unordered_set</code>, <code>unordered_map</code></li><li><strong>Container adaptors</strong> -- wrap other containers with a restricted interface: <code>stack</code>, <code>queue</code>, <code>priority_queue</code></li></ul><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;vector&gt;\n#include &lt;set&gt;\n#include &lt;map&gt;\n#include &lt;stack&gt;\nusing namespace std;\n\nint main() {\n    // Sequence: ordered by insertion\n    vector&lt;int&gt; v = {5, 2, 8, 2, 1};\n\n    // Associative: sorted, unique\n    set&lt;int&gt; s(v.begin(), v.end());\n    // s = {1, 2, 5, 8} -- sorted, duplicates removed\n\n    // Associative: key-value, sorted by key\n    map&lt;string, int&gt; marks;\n    marks[\"Arjun\"] = 85;\n    marks[\"Priya\"] = 92;\n\n    // Container adaptor: LIFO\n    stack&lt;int&gt; st;\n    st.push(10);\n    st.push(20);\n    cout &lt;&lt; st.top() &lt;&lt; endl;  // 20\n    return 0;\n}</code></pre><p>When Rohan says \"use a map for frequency counting\" or Meera says \"use a priority_queue for the greedy approach,\" every competitive programmer immediately knows the data structure and its time complexities.</p><h3>1. Competitive Programming Efficiency</h3><p>In competitive programming, choosing the right container is half the solution. Need O(log n) lookups with sorted order? Use <code>set</code> or <code>map</code>. Need O(1) average lookups? Use <code>unordered_map</code>. Need a max-heap? Use <code>priority_queue</code>. Knowing which container to use and its time complexity directly determines whether your solution passes within the time limit.</p><h3>2. Correct by Construction</h3><p>STL containers handle memory management, resizing, rebalancing, and rehashing automatically. A <code>vector</code> grows dynamically, a <code>set</code> stays balanced, and an <code>unordered_map</code> rehashes when the load factor is too high. Implementing these from scratch is error-prone and time-consuming.</p><h3>3. Type Safety and Generic Programming</h3><p>STL containers are templates -- <code>vector&lt;int&gt;</code>, <code>map&lt;string, int&gt;</code>, <code>set&lt;pair&lt;int,int&gt;&gt;</code> -- providing compile-time type checking. You cannot accidentally insert a string into a <code>vector&lt;int&gt;</code>.</p><h3>4. Interoperability with STL Algorithms</h3><p>All STL containers expose iterators, making them compatible with STL algorithms like <code>sort</code>, <code>find</code>, <code>accumulate</code>, and <code>transform</code>. This uniform interface is one of the most powerful features of the STL.</p><h3>5. Interview and Placement Relevance</h3><p>Companies like Google, Amazon, Microsoft, Flipkart, and Razorpay expect fluency with STL containers. Interview problems frequently require choosing the right container, understanding time complexities, and using containers like <code>map</code>, <code>set</code>, and <code>priority_queue</code> effectively.</p>"
+  },
+  "relatedTopics": [
+    "exception-handling-in-cpp",
+    "stl-algorithms-and-iterators"
+  ],
+  "practice": {
+    "totalQuestions": 61,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v = {10, 20, 30};\nv.push_back(40);\ncout &lt;&lt; v.size() &lt;&lt; \" \" &lt;&lt; v[3];</code></pre>",
+        "hint": "push_back adds to the end. Size increases by 1.",
+        "answer": "<code>4 40</code>",
+        "explanation": "push_back adds 40 to the end. The vector now has 4 elements: {10, 20, 30, 40}. v[3] = 40."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">set&lt;int&gt; s = {5, 2, 8, 2, 1, 5};\ncout &lt;&lt; s.size();</code></pre>",
+        "hint": "set stores unique elements only.",
+        "answer": "<code>4</code>",
+        "explanation": "set removes duplicates. The unique elements are {1, 2, 5, 8}, so size is 4."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">set&lt;int&gt; s = {30, 10, 20};\nfor (int x : s) cout &lt;&lt; x &lt;&lt; \" \";</code></pre>",
+        "hint": "set maintains sorted order.",
+        "answer": "<code>10 20 30</code>",
+        "explanation": "set stores elements in sorted (ascending) order regardless of insertion order."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">stack&lt;int&gt; st;\nst.push(10);\nst.push(20);\nst.push(30);\ncout &lt;&lt; st.top();\nst.pop();\ncout &lt;&lt; \" \" &lt;&lt; st.top();</code></pre>",
+        "hint": "Stack is LIFO. top() shows the last pushed element.",
+        "answer": "<code>30 20</code>",
+        "explanation": "After pushing 10, 20, 30: top is 30. After pop, top becomes 20."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">queue&lt;int&gt; q;\nq.push(10);\nq.push(20);\nq.push(30);\ncout &lt;&lt; q.front() &lt;&lt; \" \" &lt;&lt; q.back();</code></pre>",
+        "hint": "Queue is FIFO. front() is the first element pushed.",
+        "answer": "<code>10 30</code>",
+        "explanation": "Queue is FIFO. front() returns the first pushed (10), back() returns the last pushed (30)."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">map&lt;string, int&gt; m;\nm[\"Kiran\"] = 78;\nm[\"Arjun\"] = 85;\nfor (auto&amp; [k, v] : m) cout &lt;&lt; k &lt;&lt; \" \";</code></pre>",
+        "hint": "map iterates in sorted order of keys.",
+        "answer": "<code>Arjun Kiran</code>",
+        "explanation": "map stores entries sorted by key. \"Arjun\" comes before \"Kiran\" alphabetically."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v;\nv.reserve(10);\nv.push_back(1);\nv.push_back(2);\ncout &lt;&lt; v.size() &lt;&lt; \" \" &lt;&lt; v.capacity();</code></pre>",
+        "hint": "reserve() sets capacity but does not change size.",
+        "answer": "<code>2 10</code>",
+        "explanation": "reserve(10) allocates memory for 10 elements but size remains 0 until elements are added. After two push_back calls, size is 2 but capacity is 10."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">priority_queue&lt;int&gt; pq;\npq.push(10);\npq.push(50);\npq.push(30);\npq.push(20);\ncout &lt;&lt; pq.top();\npq.pop();\ncout &lt;&lt; \" \" &lt;&lt; pq.top();</code></pre>",
+        "hint": "priority_queue is a max-heap by default.",
+        "answer": "<code>50 30</code>",
+        "explanation": "Max-heap: top is the largest element (50). After pop, the next largest (30) becomes top."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">priority_queue&lt;int, vector&lt;int&gt;, greater&lt;int&gt;&gt; pq;\npq.push(30);\npq.push(10);\npq.push(50);\ncout &lt;&lt; pq.top();</code></pre>",
+        "hint": "greater<int> creates a min-heap.",
+        "answer": "<code>10</code>",
+        "explanation": "With greater&lt;int&gt;, the priority_queue becomes a min-heap. The smallest element (10) is at the top."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">multiset&lt;int&gt; ms = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};\ncout &lt;&lt; ms.count(5) &lt;&lt; \" \" &lt;&lt; ms.count(7);</code></pre>",
+        "hint": "multiset allows duplicates. count() returns the number of occurrences.",
+        "answer": "<code>3 0</code>",
+        "explanation": "The value 5 appears 3 times in the multiset. The value 7 does not appear, so count is 0."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">map&lt;string, int&gt; m;\nm[\"Priya\"] = 92;\nm[\"Arjun\"] = 85;\ncout &lt;&lt; m.size() &lt;&lt; endl;\nm[\"Ravi\"];  // Access non-existent key\ncout &lt;&lt; m.size() &lt;&lt; \" \" &lt;&lt; m[\"Ravi\"];</code></pre>",
+        "hint": "The [] operator on map creates a default entry if the key does not exist.",
+        "answer": "<code>2</code><br><code>3 0</code>",
+        "explanation": "Initially 2 entries. Accessing m[\"Ravi\"] with [] creates a new entry with default int value 0. Size becomes 3."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">set&lt;int&gt; s = {1, 3, 5, 7, 9};\nauto lb = s.lower_bound(4);\nauto ub = s.upper_bound(7);\ncout &lt;&lt; *lb &lt;&lt; \" \" &lt;&lt; *ub;</code></pre>",
+        "hint": "lower_bound returns first element >= value. upper_bound returns first element > value.",
+        "answer": "<code>5 9</code>",
+        "explanation": "lower_bound(4) points to 5 (first element >= 4). upper_bound(7) points to 9 (first element > 7)."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">map&lt;int, string&gt; m = {{3, \"C\"}, {1, \"A\"}, {2, \"B\"}};\nauto it = m.begin();\ncout &lt;&lt; it-&gt;first &lt;&lt; \":\" &lt;&lt; it-&gt;second &lt;&lt; \" \";\n++it; ++it;\ncout &lt;&lt; it-&gt;first &lt;&lt; \":\" &lt;&lt; it-&gt;second;</code></pre>",
+        "hint": "map iterates in sorted order of keys.",
+        "answer": "<code>1:A 3:C</code>",
+        "explanation": "Map is sorted by key: {1:A, 2:B, 3:C}. begin() points to {1,A}. After two increments, it points to {3,C}."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v;\ncout &lt;&lt; v.size() &lt;&lt; \" \";\nv.resize(5, 42);\ncout &lt;&lt; v.size() &lt;&lt; \" \" &lt;&lt; v[0] &lt;&lt; \" \" &lt;&lt; v[4] &lt;&lt; \" \";\nv.resize(3);\ncout &lt;&lt; v.size() &lt;&lt; \" \" &lt;&lt; v[2];</code></pre>",
+        "hint": "resize(n, val) changes size. If growing, new elements get val. If shrinking, excess elements are removed.",
+        "answer": "<code>0 5 42 42 3 42</code>",
+        "explanation": "Initially empty (size 0). resize(5, 42) fills with 42. resize(3) shrinks to first 3 elements (all 42)."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">deque&lt;int&gt; dq = {20, 30, 40};\ndq.push_front(10);\ndq.push_back(50);\ndq.pop_front();\ndq.pop_back();\ncout &lt;&lt; dq.front() &lt;&lt; \" \" &lt;&lt; dq.back() &lt;&lt; \" \" &lt;&lt; dq[1];</code></pre>",
+        "hint": "push_front/push_back add to ends, pop_front/pop_back remove from ends.",
+        "answer": "<code>20 40 30</code>",
+        "explanation": "After push_front(10) and push_back(50): {10, 20, 30, 40, 50}. After pop_front and pop_back: {20, 30, 40}. front=20, back=40, dq[1]=30."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">set&lt;int&gt; s = {5, 10, 15, 20, 25};\nauto it = s.find(15);\nif (it != s.end()) s.erase(it);\nfor (int x : s) cout &lt;&lt; x &lt;&lt; \" \";</code></pre>",
+        "hint": "find returns an iterator. erase(iterator) removes that element.",
+        "answer": "<code>5 10 20 25</code>",
+        "explanation": "find(15) returns an iterator to 15. erase(it) removes it. Remaining sorted set: {5, 10, 20, 25}."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">map&lt;int, string&gt; m = {{1,\"one\"}, {2,\"two\"}, {3,\"three\"}};\nfor (auto it = m.begin(); it != m.end(); ) {\n    if (it-&gt;first % 2 == 0)\n        it = m.erase(it);\n    else\n        ++it;\n}\nfor (auto&amp; [k, v] : m) cout &lt;&lt; k &lt;&lt; \":\" &lt;&lt; v &lt;&lt; \" \";</code></pre>",
+        "hint": "erase returns iterator to next element. Only erase even keys.",
+        "answer": "<code>1:one 3:three</code>",
+        "explanation": "Erase key 2 (even). Keys 1 and 3 remain. The it = m.erase(it) pattern safely iterates while erasing."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v = {1, 2, 3};\nv.insert(v.end(), {4, 5, 6});\ncout &lt;&lt; v.size() &lt;&lt; \" \" &lt;&lt; v.back();</code></pre>",
+        "hint": "insert with initializer_list appends multiple elements.",
+        "answer": "<code>6 6</code>",
+        "explanation": "insert at end() appends {4, 5, 6}. Vector becomes {1,2,3,4,5,6}. Size=6, back()=6."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">priority_queue&lt;pair&lt;int,string&gt;, vector&lt;pair&lt;int,string&gt;&gt;, greater&lt;pair&lt;int,string&gt;&gt;&gt; pq;\npq.push({3, \"Kiran\"});\npq.push({1, \"Arjun\"});\npq.push({2, \"Priya\"});\ncout &lt;&lt; pq.top().second;</code></pre>",
+        "hint": "Min-heap with pairs. Pairs compare lexicographically (first element first).",
+        "answer": "<code>Arjun</code>",
+        "explanation": "Min-heap: smallest pair is {1, \"Arjun\"} (compared by first element). top().second = \"Arjun\"."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v;\ncout &lt;&lt; v.empty() &lt;&lt; \" \";\nv.push_back(10);\ncout &lt;&lt; v.empty() &lt;&lt; \" \" &lt;&lt; v.front();</code></pre>",
+        "hint": "empty() returns true (1) if the vector has no elements.",
+        "answer": "<code>1 0 10</code>",
+        "explanation": "Initially empty (true=1). After push_back, not empty (false=0). front() returns 10."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v = {1, 2, 3, 4, 5};\nv.pop_back();\nv.pop_back();\ncout &lt;&lt; v.size() &lt;&lt; \" \" &lt;&lt; v.back();</code></pre>",
+        "hint": "pop_back removes the last element.",
+        "answer": "<code>3 3</code>",
+        "explanation": "Two pop_back calls remove 5 and 4. Remaining: {1, 2, 3}. Size is 3, back() is 3."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">set&lt;int&gt; s = {10, 20, 30};\ns.insert(20);\ns.insert(40);\ncout &lt;&lt; s.size();</code></pre>",
+        "hint": "Inserting a duplicate into a set has no effect.",
+        "answer": "<code>4</code>",
+        "explanation": "20 already exists, so insert(20) is ignored. insert(40) adds a new element. Size: {10, 20, 30, 40} = 4."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">stack&lt;char&gt; st;\nst.push('A');\nst.push('B');\nst.push('C');\nst.pop();\ncout &lt;&lt; st.top() &lt;&lt; \" \" &lt;&lt; st.size();</code></pre>",
+        "hint": "Stack is LIFO. pop() removes the top element.",
+        "answer": "<code>B 2</code>",
+        "explanation": "After pushing A, B, C: top is C. pop() removes C. Top becomes B. Size is 2."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">map&lt;char, int&gt; freq;\nstring s = \"banana\";\nfor (char c : s) freq[c]++;\ncout &lt;&lt; freq['a'] &lt;&lt; \" \" &lt;&lt; freq['n'] &lt;&lt; \" \" &lt;&lt; freq.size();</code></pre>",
+        "hint": "freq[c]++ increments the count for each character.",
+        "answer": "<code>3 2 3</code>",
+        "explanation": "In \"banana\": 'a' appears 3 times, 'n' appears 2 times, 'b' appears 1 time. Three unique characters, so map size is 3."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">set&lt;int&gt; s = {1, 2, 3, 4, 5};\ns.erase(3);\ncout &lt;&lt; s.count(3) &lt;&lt; \" \" &lt;&lt; s.size();</code></pre>",
+        "hint": "erase removes the element. count checks if it exists.",
+        "answer": "<code>0 4</code>",
+        "explanation": "erase(3) removes 3 from the set. count(3) returns 0 (not found). Size is now 4."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v = {10, 20, 30};\nv.insert(v.begin() + 1, 15);\nfor (int x : v) cout &lt;&lt; x &lt;&lt; \" \";</code></pre>",
+        "hint": "insert(pos, val) inserts val before the given position.",
+        "answer": "<code>10 15 20 30</code>",
+        "explanation": "insert at begin()+1 inserts 15 before index 1 (before 20). Result: {10, 15, 20, 30}."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">unordered_map&lt;string, int&gt; m;\nm[\"Arjun\"] = 85;\nm[\"Priya\"] = 92;\ncout &lt;&lt; (m.find(\"Arjun\") != m.end()) &lt;&lt; \" \";\ncout &lt;&lt; (m.find(\"Kiran\") != m.end());</code></pre>",
+        "hint": "find() returns end() if the key is not found.",
+        "answer": "<code>1 0</code>",
+        "explanation": "\"Arjun\" exists, so find returns a valid iterator (not end), comparison is true (1). \"Kiran\" does not exist, so find returns end, comparison is false (0)."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">priority_queue&lt;int&gt; pq;\nfor (int x : {4, 1, 7, 3, 8, 2}) pq.push(x);\nint sum = 0;\nwhile (pq.size() &gt; 3) {\n    sum += pq.top();\n    pq.pop();\n}\ncout &lt;&lt; sum &lt;&lt; \" \" &lt;&lt; pq.top();</code></pre>",
+        "hint": "Max-heap pops the largest elements first. Stop when 3 elements remain.",
+        "answer": "<code>19 3</code>",
+        "explanation": "Elements in max-heap order: 8, 7, 4, 3, 2, 1. Pop until 3 remain: pop 8 (sum=8), pop 7 (sum=15), pop 4 (sum=19). Remaining: {3, 2, 1}. Top = 3."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">multimap&lt;string, int&gt; mm;\nmm.insert({\"Arjun\", 85});\nmm.insert({\"Arjun\", 90});\nmm.insert({\"Arjun\", 78});\nmm.insert({\"Priya\", 92});\ncout &lt;&lt; mm.count(\"Arjun\") &lt;&lt; \" \" &lt;&lt; mm.size();</code></pre>",
+        "hint": "multimap allows duplicate keys.",
+        "answer": "<code>3 4</code>",
+        "explanation": "\"Arjun\" appears 3 times as a key. Total entries: 3 (Arjun) + 1 (Priya) = 4."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">set&lt;int&gt; s = {10, 20, 30, 40, 50};\nauto it1 = s.lower_bound(25);\nauto it2 = s.upper_bound(30);\nauto it3 = s.lower_bound(60);\ncout &lt;&lt; *it1 &lt;&lt; \" \" &lt;&lt; *it2 &lt;&lt; \" \" &lt;&lt; (it3 == s.end());</code></pre>",
+        "hint": "lower_bound(25) returns first >= 25. upper_bound(30) returns first > 30. lower_bound(60) returns end() if no element >= 60.",
+        "answer": "<code>30 40 1</code>",
+        "explanation": "lower_bound(25) -> 30 (first >= 25). upper_bound(30) -> 40 (first > 30). lower_bound(60) -> end() since 60 > all elements."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">map&lt;int, int&gt; m = {{1, 10}, {2, 20}, {3, 30}};\nm[2] = 25;\nm.erase(1);\nm.insert({4, 40});\nfor (auto&amp; [k, v] : m) cout &lt;&lt; k &lt;&lt; \":\" &lt;&lt; v &lt;&lt; \" \";</code></pre>",
+        "hint": "[] overwrites existing values. erase removes by key. insert adds new entries.",
+        "answer": "<code>2:25 3:30 4:40</code>",
+        "explanation": "m[2]=25 overwrites 20 with 25. erase(1) removes key 1. insert({4,40}) adds key 4. Sorted output: 2:25, 3:30, 4:40."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When would you choose unordered_map over map?",
+        "hint": "Think about time complexity and ordering requirements.",
+        "answer": "<code>unordered_map</code> provides O(1) average-case for insert, find, and erase, compared to O(log n) for <code>map</code>. Choose <code>unordered_map</code> when you do not need sorted order and want faster operations. Choose <code>map</code> when you need sorted iteration, lower_bound/upper_bound, or when the key type does not have a hash function.",
+        "explanation": "In competitive programming, unordered_map is preferred for frequency counting and hash-based lookups. However, map is needed when the problem requires sorted order or range queries. Also, unordered_map has O(n) worst-case due to hash collisions, which can be exploited by adversarial inputs in some judges."
+      },
+      {
+        "id": "mx-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why does the erase-iterate pattern require special care with maps and sets? Show the correct pattern.",
+        "hint": "Think about iterator invalidation.",
+        "answer": "When you erase an element from a map/set using an iterator, that iterator is invalidated. If you increment it after erasing, the behavior is undefined. The correct pattern is: <code>it = m.erase(it)</code> which returns an iterator to the next valid element. Alternatively, use <code>m.erase(it++)</code> which copies the iterator, increments the original, then erases the copy.",
+        "explanation": "This is a common bug in competitive programming and interviews. The key insight is that <code>erase()</code> on associative containers returns the next iterator in C++11 and later. Use <code>it = m.erase(it)</code> in the branch that erases, and <code>++it</code> in the else branch."
+      },
+      {
+        "id": "mx-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">unordered_map&lt;string, int&gt; m;\nm[\"a\"] = 1;\nm[\"b\"] = 2;\nm[\"c\"] = 3;\ncout &lt;&lt; m.size() &lt;&lt; \" \" &lt;&lt; m.count(\"b\") &lt;&lt; \" \" &lt;&lt; m.count(\"d\");</code></pre>",
+        "hint": "count returns 1 if key exists, 0 if not.",
+        "answer": "<code>3 1 0</code>",
+        "explanation": "Three entries. \"b\" exists (count=1). \"d\" does not exist (count=0)."
+      },
+      {
+        "id": "mx-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">set&lt;int&gt; a = {1, 2, 3, 4, 5};\nset&lt;int&gt; b = {3, 4, 5, 6, 7};\nvector&lt;int&gt; result;\nset_intersection(a.begin(), a.end(), b.begin(), b.end(), back_inserter(result));\nfor (int x : result) cout &lt;&lt; x &lt;&lt; \" \";</code></pre>",
+        "hint": "set_intersection finds common elements between two sorted ranges.",
+        "answer": "<code>3 4 5</code>",
+        "explanation": "The intersection of {1,2,3,4,5} and {3,4,5,6,7} is {3,4,5}. set_intersection works because sets are sorted."
+      },
+      {
+        "id": "mx-16",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">stack&lt;int&gt; st;\nst.push(1);\nst.push(2);\nst.push(3);\ncout &lt;&lt; st.size() &lt;&lt; \" \";\nwhile (!st.empty()) {\n    cout &lt;&lt; st.top() &lt;&lt; \" \";\n    st.pop();\n}</code></pre>",
+        "hint": "Stack is LIFO. Elements come out in reverse order.",
+        "answer": "<code>3 3 2 1</code>",
+        "explanation": "Size is 3. Popping: 3 (top), 2, 1. LIFO order."
+      },
+      {
+        "id": "mx-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">queue&lt;string&gt; q;\nq.push(\"Arjun\");\nq.push(\"Priya\");\nq.push(\"Kiran\");\nq.pop();\ncout &lt;&lt; q.front() &lt;&lt; \" \" &lt;&lt; q.size();</code></pre>",
+        "hint": "Queue is FIFO. pop removes the front element.",
+        "answer": "<code>Priya 2</code>",
+        "explanation": "FIFO: push Arjun, Priya, Kiran. pop removes Arjun (front). New front is Priya. Size is 2."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which STL container stores elements in sorted order with no duplicates?",
+        "options": {
+          "A": "vector",
+          "B": "set",
+          "C": "unordered_set",
+          "D": "list"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>set</code> stores unique elements in sorted order using a balanced BST. <code>unordered_set</code> is unsorted, <code>vector</code> and <code>list</code> maintain insertion order."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the time complexity of push_back on a vector (amortized)?",
+        "options": {
+          "A": "O(1)",
+          "B": "O(log n)",
+          "C": "O(n)",
+          "D": "O(n log n)"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>push_back</code> is amortized O(1). Occasionally it triggers a reallocation (O(n)), but averaged over many operations, it is O(1)."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which container follows the Last-In-First-Out (LIFO) principle?",
+        "options": {
+          "A": "queue",
+          "B": "deque",
+          "C": "stack",
+          "D": "priority_queue"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>stack</code> is LIFO -- the last element pushed is the first to be popped. <code>queue</code> is FIFO."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does v.at(i) do differently from v[i] for a vector?",
+        "options": {
+          "A": "No difference",
+          "B": "at(i) throws out_of_range if i is out of bounds",
+          "C": "at(i) is faster",
+          "D": "at(i) returns a reference while [] returns a copy"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>at(i)</code> performs bounds checking and throws <code>std::out_of_range</code> if the index is invalid. <code>[]</code> has no bounds checking and causes undefined behavior on invalid access."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is the default behavior of priority_queue in C++?",
+        "options": {
+          "A": "Min-heap (smallest element at top)",
+          "B": "Max-heap (largest element at top)",
+          "C": "FIFO queue",
+          "D": "Sorted array"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>priority_queue</code> is a max-heap by default. The largest element is always at the top. Use <code>greater&lt;T&gt;</code> to create a min-heap."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the time complexity of find() on a set?",
+        "options": {
+          "A": "O(1)",
+          "B": "O(log n)",
+          "C": "O(n)",
+          "D": "O(n log n)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>set</code> uses a balanced BST internally, so find() is O(log n). For O(1) average lookup, use <code>unordered_set</code>."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What happens when you use map[key] and the key does not exist?",
+        "options": {
+          "A": "Returns -1",
+          "B": "Throws an exception",
+          "C": "Inserts a new entry with a default-constructed value",
+          "D": "Returns end() iterator"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>[]</code> operator on a map inserts a default-constructed value (0 for int, empty string for string) if the key does not exist. This is a common source of bugs."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which container provides O(1) push/pop at both ends AND random access?",
+        "options": {
+          "A": "vector",
+          "B": "list",
+          "C": "deque",
+          "D": "stack"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>deque</code> supports O(1) push_front/push_back, pop_front/pop_back, AND random access via []. <code>vector</code> does not have efficient push_front. <code>list</code> does not have random access."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the difference between set and multiset?",
+        "options": {
+          "A": "set is sorted, multiset is unsorted",
+          "B": "multiset allows duplicate elements, set does not",
+          "C": "multiset uses a hash table, set uses a BST",
+          "D": "set allows duplicates, multiset does not"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Both <code>set</code> and <code>multiset</code> are sorted and use balanced BSTs. The only difference is that <code>multiset</code> allows duplicate elements."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "How do you create a min-heap using priority_queue?",
+        "options": {
+          "A": "priority_queue<int, min>",
+          "B": "priority_queue<int, vector<int>, greater<int>>",
+          "C": "priority_queue<int, vector<int>, less<int>>",
+          "D": "min_priority_queue<int>"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The full template is <code>priority_queue&lt;type, container, comparator&gt;</code>. Using <code>greater&lt;int&gt;</code> reverses the comparison, making the smallest element the top."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the worst-case time complexity of find() on unordered_map?",
+        "options": {
+          "A": "O(1)",
+          "B": "O(log n)",
+          "C": "O(n)",
+          "D": "O(n log n)"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>unordered_map</code> has O(1) average-case but O(n) worst-case due to hash collisions. If all keys hash to the same bucket, every operation degrades to linear time."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "Why can you NOT use pair<int,int> as a key in unordered_map without a custom hash?",
+        "options": {
+          "A": "pair does not support comparison",
+          "B": "pair does not have a default std::hash specialization",
+          "C": "unordered_map does not support composite keys",
+          "D": "pair is not a standard type"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>unordered_map</code> requires <code>std::hash&lt;Key&gt;</code> to be defined. There is no standard hash for <code>std::pair</code>. You must provide a custom hash functor or use <code>map</code> which only requires <code>operator&lt;</code>."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What does vector::reserve(100) do?",
+        "options": {
+          "A": "Sets the size to 100 and fills with zeros",
+          "B": "Allocates memory for at least 100 elements without changing size",
+          "C": "Limits the vector to a maximum of 100 elements",
+          "D": "Creates 100 copies of the vector"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>reserve()</code> only allocates memory (sets capacity) without changing the size or adding elements. Use <code>resize()</code> to actually change the size."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What internal data structure does std::set use?",
+        "options": {
+          "A": "Hash table",
+          "B": "Sorted array",
+          "C": "Red-black tree (balanced BST)",
+          "D": "B-tree"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> All major implementations (GCC libstdc++, Clang libc++, MSVC) use a red-black tree for <code>set</code>, <code>map</code>, <code>multiset</code>, and <code>multimap</code>. This guarantees O(log n) operations."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "Which container adaptor should you use for BFS (Breadth-First Search)?",
+        "options": {
+          "A": "stack",
+          "B": "queue",
+          "C": "priority_queue",
+          "D": "deque"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> BFS requires FIFO processing: explore nodes in the order they are discovered. <code>queue</code> provides exactly this behavior. <code>stack</code> would give DFS. <code>priority_queue</code> is used for Dijkstra's algorithm."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What does v.clear() do on a vector?",
+        "options": {
+          "A": "Deletes the vector object",
+          "B": "Removes all elements, size becomes 0, capacity may remain",
+          "C": "Sets all elements to zero",
+          "D": "Frees all allocated memory"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>clear()</code> removes all elements and sets size to 0, but the allocated memory (capacity) is typically not freed. To free memory, use the swap trick: <code>vector&lt;int&gt;().swap(v)</code>."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is the time complexity of push and pop on a priority_queue?",
+        "options": {
+          "A": "O(1) for both",
+          "B": "O(log n) for push, O(1) for pop",
+          "C": "O(log n) for both push and pop",
+          "D": "O(n) for push, O(log n) for pop"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>priority_queue</code> uses a binary heap. Both push (sift-up) and pop (sift-down) require O(log n) time. <code>top()</code> is O(1)."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "Which container should you use for frequency counting when you need sorted output?",
+        "options": {
+          "A": "unordered_map",
+          "B": "map",
+          "C": "vector",
+          "D": "set"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>map</code> stores key-value pairs sorted by key. When you iterate over a frequency map, keys appear in sorted order. <code>unordered_map</code> gives faster counting but unsorted iteration."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Frequency Count and Print in Sorted Order",
+        "difficulty": "Easy",
+        "description": "Given a string, count the frequency of each character and print the characters in sorted order along with their counts.",
+        "sampleInput": "\"programming\"",
+        "sampleOutput": "a:1 g:2 i:1 m:2 n:1 o:1 p:1 r:2",
+        "constraints": "Use a map<char, int> for automatic sorted order.",
+        "solution": "#include <iostream>\n#include <map>\nusing namespace std;\n\nint main() {\n    string s = \"programming\";\n    map<char, int> freq;\n    for (char c : s) freq[c]++;\n    for (auto& [ch, cnt] : freq)\n        cout << ch << \":\" << cnt << \" \";\n    cout << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Check If Parentheses Are Balanced Using Stack",
+        "difficulty": "Easy",
+        "description": "Given a string containing parentheses '(', ')', '{', '}', '[', ']', determine if the input string is valid. An input string is valid if open brackets are closed by the same type and in the correct order.",
+        "sampleInput": "\"{[()]}\"",
+        "sampleOutput": "Valid",
+        "constraints": "Use a stack. Time complexity O(n).",
+        "solution": "#include <iostream>\n#include <stack>\nusing namespace std;\n\nint main() {\n    string s = \"{[()]}\";\n    stack<char> st;\n    bool valid = true;\n    for (char c : s) {\n        if (c == '(' || c == '{' || c == '[')\n            st.push(c);\n        else {\n            if (st.empty()) { valid = false; break; }\n            char top = st.top(); st.pop();\n            if ((c == ')' && top != '(') ||\n                (c == '}' && top != '{') ||\n                (c == ']' && top != '['))\n                { valid = false; break; }\n        }\n    }\n    if (!st.empty()) valid = false;\n    cout << (valid ? \"Valid\" : \"Invalid\") << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Two Sum Using Unordered Map",
+        "difficulty": "Medium",
+        "description": "Given a vector of integers and a target, find two indices such that the numbers at those indices add up to the target. Assume exactly one solution exists.",
+        "sampleInput": "nums = {2, 7, 11, 15}, target = 9",
+        "sampleOutput": "Indices: 0 1",
+        "constraints": "Use unordered_map for O(n) time complexity.",
+        "solution": "#include <iostream>\n#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    vector<int> nums = {2, 7, 11, 15};\n    int target = 9;\n    unordered_map<int, int> seen;\n    for (int i = 0; i < (int)nums.size(); i++) {\n        int complement = target - nums[i];\n        if (seen.count(complement)) {\n            cout << \"Indices: \" << seen[complement] << \" \" << i << endl;\n            break;\n        }\n        seen[nums[i]] = i;\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Merge K Sorted Arrays Using Priority Queue",
+        "difficulty": "Hard",
+        "description": "Given K sorted arrays, merge them into one sorted array. Use a min-heap (priority_queue with greater<>) to always extract the smallest current element.",
+        "sampleInput": "arrays = {{1, 4, 7}, {2, 5, 8}, {3, 6, 9}}",
+        "sampleOutput": "1 2 3 4 5 6 7 8 9",
+        "constraints": "Use priority_queue<tuple<int,int,int>, vector<...>, greater<...>> storing {value, array_index, element_index}. Time: O(N log K).",
+        "solution": "#include <iostream>\n#include <vector>\n#include <queue>\n#include <tuple>\nusing namespace std;\n\nint main() {\n    vector<vector<int>> arrays = {{1, 4, 7}, {2, 5, 8}, {3, 6, 9}};\n    using T = tuple<int, int, int>;  // {value, array_idx, elem_idx}\n    priority_queue<T, vector<T>, greater<T>> pq;\n\n    for (int i = 0; i < (int)arrays.size(); i++)\n        pq.push({arrays[i][0], i, 0});\n\n    while (!pq.empty()) {\n        auto [val, ai, ei] = pq.top();\n        pq.pop();\n        cout << val << \" \";\n        if (ei + 1 < (int)arrays[ai].size())\n            pq.push({arrays[ai][ei + 1], ai, ei + 1});\n    }\n    cout << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Find First Non-Repeating Character Using Map and Queue",
+        "difficulty": "Medium",
+        "description": "Given a stream of characters, find the first non-repeating character at each step. If all characters repeat, print -1.",
+        "sampleInput": "\"aabcbcd\"",
+        "sampleOutput": "a -1 b b b b d",
+        "constraints": "Use a queue to track order and an unordered_map for frequency. Process character by character.",
+        "solution": "#include <iostream>\n#include <queue>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    string stream = \"aabcbcd\";\n    queue<char> q;\n    unordered_map<char, int> freq;\n    for (char c : stream) {\n        freq[c]++;\n        q.push(c);\n        while (!q.empty() && freq[q.front()] > 1)\n            q.pop();\n        if (q.empty())\n            cout << \"-1 \";\n        else\n            cout << q.front() << \" \";\n    }\n    cout << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Find K Closest Points to Origin Using Max-Heap",
+        "difficulty": "Hard",
+        "description": "Given n points in 2D space, find the K closest points to the origin (0, 0). Use a max-heap of size K to maintain the K closest points seen so far.",
+        "sampleInput": "points = {{3,3}, {5,-1}, {-2,4}, {1,1}, {-3,-2}}, K = 3",
+        "sampleOutput": "Closest 3 points: (1,1) (-3,-2) (-2,4)",
+        "constraints": "Use priority_queue with custom comparator. Time: O(n log K).",
+        "solution": "#include <iostream>\n#include <vector>\n#include <queue>\nusing namespace std;\n\nint main() {\n    vector<pair<int,int>> points = {{3,3}, {5,-1}, {-2,4}, {1,1}, {-3,-2}};\n    int K = 3;\n\n    // Max-heap: pop the farthest among the K closest\n    auto dist = [](const pair<int,int>& p) {\n        return p.first * p.first + p.second * p.second;\n    };\n    auto cmp = [&](const pair<int,int>& a, const pair<int,int>& b) {\n        return dist(a) < dist(b);  // max-heap by distance\n    };\n    priority_queue<pair<int,int>, vector<pair<int,int>>, decltype(cmp)> pq(cmp);\n\n    for (auto& p : points) {\n        pq.push(p);\n        if ((int)pq.size() > K) pq.pop();\n    }\n\n    cout << \"Closest \" << K << \" points: \";\n    while (!pq.empty()) {\n        auto [x, y] = pq.top(); pq.pop();\n        cout << \"(\" << x << \",\" << y << \") \";\n    }\n    cout << endl;\n    return 0;\n}"
+      }
+    ]
+  }
+}

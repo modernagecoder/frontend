@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - File Handling (ifstream, ofstream, fstream) | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="52+ practice questions on File Handling (ifstream, ofstream, fstream) in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="file handling (ifstream, ofstream, fstream) practice, c++ questions, c++ practice problems, file handling (ifstream, ofstream, fstream) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/file-handling-in-cpp/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/file-handling-in-cpp/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/file-handling-in-cpp/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/file-handling-in-cpp/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/file-handling-in-cpp/practice">
+    <meta property="og:title" content="Practice Questions - File Handling (ifstream, ofstream, fstream) | C++ | Modern Age Coders">
+    <meta property="og:description" content="52+ practice questions on File Handling (ifstream, ofstream, fstream) in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/file-handling-in-cpp/practice">
+    <meta name="twitter:title" content="Practice Questions - File Handling (ifstream, ofstream, fstream) | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="52+ practice questions on File Handling (ifstream, ofstream, fstream) in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - File Handling (ifstream, ofstream, fstream)",
+    "description": "52+ practice questions on File Handling (ifstream, ofstream, fstream) in C++.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "File Handling (ifstream, ofstream, fstream)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/file-handling-in-cpp/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "File Handling (ifstream, ofstream, fstream)",
+        "item": "https://learn.modernagecoders.com/resources/cpp/file-handling-in-cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/file-handling-in-cpp/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/file-handling-in-cpp">File Handling (ifstream, ofstream, fstream)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 22</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">52 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; File Handling (ifstream, ofstream, fstream)</h1>
+            <a href="/resources/cpp/file-handling-in-cpp" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">5</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this code write to output.txt?<br><pre><code class="language-cpp">ofstream file("output.txt");
+file &lt;&lt; "Hello" &lt;&lt; endl;
+file &lt;&lt; "World" &lt;&lt; endl;
+file.close();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">endl writes a newline and flushes the buffer.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">The file contains two lines:<br><code>Hello</code><br><code>World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">ofstream out("test.txt");
+out &lt;&lt; "Line 1" &lt;&lt; endl;
+out.close();
+
+ofstream out2("test.txt");
+out2 &lt;&lt; "Line 2" &lt;&lt; endl;
+out2.close();
+
+ifstream in("test.txt");
+string line;
+while (getline(in, line)) cout &lt;&lt; line &lt;&lt; endl;
+in.close();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Default ofstream mode is ios::out which truncates the file.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>Line 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">ofstream out("test.txt");
+out &lt;&lt; "Line 1" &lt;&lt; endl;
+out.close();
+
+ofstream out2("test.txt", ios::app);
+out2 &lt;&lt; "Line 2" &lt;&lt; endl;
+out2.close();
+
+ifstream in("test.txt");
+string line;
+while (getline(in, line)) cout &lt;&lt; line &lt;&lt; endl;
+in.close();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">ios::app means append -- do not truncate.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>Line 1</code><br><code>Line 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">ofstream out("nums.txt");
+out &lt;&lt; "10 20 30" &lt;&lt; endl;
+out.close();
+
+ifstream in("nums.txt");
+int a, b, c;
+in &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+cout &lt;&lt; a + b + c;
+in.close();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">>> reads whitespace-separated values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>60</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">ofstream out("test.txt");
+out &lt;&lt; "ABCDEFGHIJ";
+out.close();
+
+ifstream in("test.txt");
+in.seekg(5);
+char ch;
+in.get(ch);
+cout &lt;&lt; ch &lt;&lt; " " &lt;&lt; in.tellg();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">seekg(5) moves to the 6th byte (0-indexed).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>F 6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">ifstream file("nonexistent.txt");
+cout &lt;&lt; file.is_open() &lt;&lt; " ";
+cout &lt;&lt; file.good() &lt;&lt; " ";
+cout &lt;&lt; file.fail();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">The file does not exist.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>0 0 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">ofstream out("data.txt");
+out &lt;&lt; "Arjun Kumar 85";
+out.close();
+
+ifstream in("data.txt");
+string word;
+int count = 0;
+while (in &gt;&gt; word) count++;
+cout &lt;&lt; count;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">>> reads whitespace-separated tokens.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">ofstream out("data.txt");
+out &lt;&lt; "Arjun Kumar 85";
+out.close();
+
+ifstream in("data.txt");
+string line;
+int count = 0;
+while (getline(in, line)) count++;
+cout &lt;&lt; count;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">getline reads the entire line including spaces.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">struct Data { int x; int y; };
+
+Data d1 = {10, 20};
+ofstream out("data.bin", ios::binary);
+out.write(reinterpret_cast&lt;char*&gt;(&amp;d1), sizeof(Data));
+out.close();
+
+ifstream in("data.bin", ios::binary);
+Data d2;
+in.read(reinterpret_cast&lt;char*&gt;(&amp;d2), sizeof(Data));
+cout &lt;&lt; d2.x &lt;&lt; " " &lt;&lt; d2.y;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Binary write stores the exact bytes of the struct.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>10 20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">ofstream out("test.txt");
+out &lt;&lt; "Hello World";
+out.close();
+
+ifstream in("test.txt", ios::binary);
+in.seekg(0, ios::end);
+cout &lt;&lt; in.tellg();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">seekg(0, ios::end) moves to the end of the file. tellg() returns the position.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>11</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between ios::app and ios::ate?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Both position at the end, but they differ in what happens during writes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>ios::app</code> (append) always writes to the end of the file, regardless of any seekp calls. Every write operation is guaranteed to append. <code>ios::ate</code> (at end) positions the cursor at the end when the file is opened, but you can seekp to any position and write there. <code>ios::app</code> is safer for log files where you always want to append.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why should you never use while(!file.eof()) as a loop condition?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Think about when the eof flag is actually set.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">The <code>eof()</code> flag is set only <strong>after</strong> a read operation fails, not when the last successful read reaches the end of data. Using <code>while(!eof())</code> causes the loop to execute one extra time after the last valid read: the read fails, the old data is processed again, and then eof is detected. The correct pattern is <code>while(getline(file, line))</code> or <code>while(file >> var)</code>, where the read result is the condition.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">ofstream file("greet.txt");
+file &lt;&lt; "Hello ";
+file &lt;&lt; "World";
+file.close();
+
+ifstream in("greet.txt");
+string content;
+getline(in, content);
+cout &lt;&lt; content.length();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">There is no endl between Hello and World.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>11</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What happens when you run this code?<br><pre><code class="language-cpp">ofstream file;
+file &lt;&lt; "Hello";
+file.close();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">The file was never opened.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">Nothing is written anywhere. The stream is in a failed state because no file was opened. The <code>&lt;&lt;</code> operation silently fails.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">ofstream out("test.txt");
+for (int i = 1; i &lt;= 5; i++)
+    out &lt;&lt; i &lt;&lt; " ";
+out.close();
+
+ifstream in("test.txt");
+int sum = 0, num;
+while (in &gt;&gt; num) sum += num;
+cout &lt;&lt; sum;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">The file contains "1 2 3 4 5 ".</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">ofstream out("test.txt");
+out &lt;&lt; "Name: Arjun" &lt;&lt; endl;
+out &lt;&lt; "Age: 20" &lt;&lt; endl;
+out.close();
+
+ifstream in("test.txt");
+string line;
+int lineCount = 0;
+while (getline(in, line)) {
+    if (line.find("Age") != string::npos)
+        cout &lt;&lt; line;
+    lineCount++;
+}
+cout &lt;&lt; " (" &lt;&lt; lineCount &lt;&lt; " lines)";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">find() returns string::npos if the substring is not found.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Age: 20 (2 lines)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">struct Point { int x; int y; };
+Point p1 = {3, 7};
+
+ofstream out("point.bin", ios::binary);
+out.write(reinterpret_cast&lt;char*&gt;(&amp;p1), sizeof(Point));
+out.close();
+
+ifstream in("point.bin", ios::binary);
+in.seekg(0, ios::end);
+cout &lt;&lt; in.tellg();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">sizeof(Point) is typically sizeof(int) + sizeof(int).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>8</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-cpp">ofstream out("seq.txt");
+for (int i = 0; i &lt; 3; i++)
+    out &lt;&lt; i &lt;&lt; endl;
+out.close();
+
+ifstream in("seq.txt");
+int val;
+while (!in.eof()) {
+    in &gt;&gt; val;
+    cout &lt;&lt; val &lt;&lt; " ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">This uses the problematic while(!eof()) pattern.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>0 1 2 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between ifstream, ofstream, and fstream?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Think about read-only, write-only, and read-write.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>ifstream</code> opens files for reading only (input). <code>ofstream</code> opens files for writing only (output, truncates by default). <code>fstream</code> can do both reading and writing, but you must specify the mode explicitly (e.g., <code>ios::in | ios::out</code>). Use the most restrictive type that meets your needs.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is reinterpret_cast<char*> used for in binary file I/O?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">write() and read() expect a char* pointer.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>write()</code> and <code>read()</code> take a <code>char*</code> (pointer to bytes) and a byte count. <code>reinterpret_cast&lt;char*&gt;</code> converts a pointer to any type (struct, int, etc.) into a <code>char*</code>, telling the compiler to treat the memory as raw bytes. This allows writing the raw memory representation of any object to a file.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is random access possible in binary files with fixed-size records but not in text files with variable-length lines?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about how you calculate the byte position of record N.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">In binary files with fixed-size records (e.g., all records are sizeof(Student) = 64 bytes), the byte offset of record N is exactly <code>N * sizeof(Student)</code>. You can seekg to that position in O(1). In text files, each line can have a different length ("Arjun" is 5 chars, "Raghunath" is 9 chars), so you cannot compute the byte offset of line N without reading all preceding lines. Text files require sequential access.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which header provides ifstream, ofstream, and fstream?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;iostream&gt;</li><li><span class="mcq-option-label">B.</span> &lt;fstream&gt;</li><li><span class="mcq-option-label">C.</span> &lt;sstream&gt;</li><li><span class="mcq-option-label">D.</span> &lt;fileio&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>&lt;fstream&gt;</code> header provides all file stream classes: ifstream, ofstream, and fstream.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What is the default mode for ofstream?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ios::in</li><li><span class="mcq-option-label">B.</span> ios::out (truncate the file)</li><li><span class="mcq-option-label">C.</span> ios::app</li><li><span class="mcq-option-label">D.</span> ios::binary</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> ofstream defaults to <code>ios::out</code>, which truncates the file if it exists. Use <code>ios::app</code> to append instead.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which function reads an entire line including spaces from a file?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> file &gt;&gt; line</li><li><span class="mcq-option-label">B.</span> file.read()</li><li><span class="mcq-option-label">C.</span> getline(file, line)</li><li><span class="mcq-option-label">D.</span> file.get()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>getline(file, line)</code> reads until the newline, including spaces. The <code>&gt;&gt;</code> operator stops at whitespace.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does file.is_open() return if the file was not found?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> true</li><li><span class="mcq-option-label">B.</span> false</li><li><span class="mcq-option-label">C.</span> -1</li><li><span class="mcq-option-label">D.</span> Throws an exception</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>is_open()</code> returns false if the file could not be opened for any reason (not found, permission denied, etc.).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does ios::app mode do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Opens the file in binary mode</li><li><span class="mcq-option-label">B.</span> Truncates the file before writing</li><li><span class="mcq-option-label">C.</span> Appends all writes to the end of the file</li><li><span class="mcq-option-label">D.</span> Opens for reading only</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>ios::app</code> ensures every write goes to the end of the file, preserving existing content.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does seekg(0, ios::end) followed by tellg() give you?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The first character of the file</li><li><span class="mcq-option-label">B.</span> The last character of the file</li><li><span class="mcq-option-label">C.</span> The file size in bytes</li><li><span class="mcq-option-label">D.</span> The number of lines in the file</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> Seeking to the end and calling <code>tellg()</code> returns the byte position at the end, which equals the file size.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does reinterpret_cast<char*>(&obj) do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Converts the object to a string</li><li><span class="mcq-option-label">B.</span> Converts the object&#39;s memory address to a char pointer for byte-level access</li><li><span class="mcq-option-label">C.</span> Creates a copy of the object</li><li><span class="mcq-option-label">D.</span> Serializes the object to JSON</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>reinterpret_cast&lt;char*&gt;</code> tells the compiler to treat the memory at that address as raw bytes (char*). This is required for <code>write()</code> and <code>read()</code> which operate on byte buffers.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is the correct way to read integers from a file until end?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> while (!file.eof()) { file &gt;&gt; num; process(num); }</li><li><span class="mcq-option-label">B.</span> while (file &gt;&gt; num) { process(num); }</li><li><span class="mcq-option-label">C.</span> while (file.good()) { file &gt;&gt; num; process(num); }</li><li><span class="mcq-option-label">D.</span> while (true) { file &gt;&gt; num; if (file.eof()) break; process(num); }</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>file &gt;&gt; num</code> returns the stream, which converts to false when the read fails. This is the idiomatic and correct pattern. Options A and C process the last value twice.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the difference between seekg and seekp?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> seekg is for text files, seekp is for binary files</li><li><span class="mcq-option-label">B.</span> seekg sets the read position, seekp sets the write position</li><li><span class="mcq-option-label">C.</span> seekg is absolute, seekp is relative</li><li><span class="mcq-option-label">D.</span> They are identical</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>seekg</code> (seek get) positions the read pointer. <code>seekp</code> (seek put) positions the write pointer. In an fstream, both may be needed.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Why must you use ios::binary when using write() and read() for struct I/O?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Binary mode is faster</li><li><span class="mcq-option-label">B.</span> Text mode may translate certain bytes (like newline), corrupting the data</li><li><span class="mcq-option-label">C.</span> write() and read() only work in binary mode</li><li><span class="mcq-option-label">D.</span> Binary mode compresses the data</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> In text mode, the runtime may translate \n to \r\n (Windows) or vice versa. If the struct's raw bytes happen to contain 0x0A (\n byte), this translation corrupts the data. Binary mode performs no translation.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">How do you calculate the byte position of the Nth record in a binary file with fixed-size records?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> N * sizeof(Record) + 1</li><li><span class="mcq-option-label">B.</span> N * sizeof(Record)</li><li><span class="mcq-option-label">C.</span> You cannot calculate it; you must read sequentially</li><li><span class="mcq-option-label">D.</span> (N + 1) * sizeof(Record)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> With 0-based indexing, record N starts at byte position <code>N * sizeof(Record)</code>. Use seekg with this value for O(1) random access.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What happens if you open a file with ofstream (default mode) that already contains data?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> New data is appended after existing data</li><li><span class="mcq-option-label">B.</span> The file is truncated (existing data is erased) before writing</li><li><span class="mcq-option-label">C.</span> An error occurs</li><li><span class="mcq-option-label">D.</span> New data overwrites starting at position 0 but does not truncate</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> The default mode for ofstream is <code>ios::out</code>, which implies <code>ios::trunc</code>. The file is truncated to zero length before any new data is written.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">How do you combine file modes in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ios::in + ios::out</li><li><span class="mcq-option-label">B.</span> ios::in &amp; ios::out</li><li><span class="mcq-option-label">C.</span> ios::in | ios::out</li><li><span class="mcq-option-label">D.</span> ios::in, ios::out</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> File modes are combined using the bitwise OR operator (<code>|</code>). Example: <code>ios::in | ios::out | ios::binary</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does file.close() do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Deletes the file</li><li><span class="mcq-option-label">B.</span> Flushes the buffer and releases the file handle</li><li><span class="mcq-option-label">C.</span> Resets the read position to the beginning</li><li><span class="mcq-option-label">D.</span> Marks the file as read-only</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>close()</code> flushes any buffered data to disk and releases the OS file handle. The file remains on disk.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Word Frequency Counter from File</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Read a text file word by word and count the frequency of each word. Print the words and their counts in alphabetical order. Use a map to store counts.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">File content: &quot;the cat sat on the mat the cat&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">cat: 2
+mat: 1
+on: 1
+sat: 1
+the: 3</div>
+                </div><div class="challenge-constraints">Use ifstream with &gt;&gt; to read words. Use map&lt;string, int&gt; for counting.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;fstream&gt;
+#include &lt;map&gt;
+#include &lt;string&gt;
+using namespace std;
+
+int main() {
+    ofstream out(&quot;text.txt&quot;);
+    out &lt;&lt; &quot;the cat sat on the mat the cat&quot;;
+    out.close();
+
+    ifstream in(&quot;text.txt&quot;);
+    map&lt;string, int&gt; freq;
+    string word;
+    while (in &gt;&gt; word) freq[word]++;
+    in.close();
+
+    for (auto&amp; [w, c] : freq)
+        cout &lt;&lt; w &lt;&lt; &quot;: &quot; &lt;&lt; c &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Student Marks CSV Parser and Topper Finder</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a CSV file with student name, maths, physics, chemistry marks. Read the CSV, calculate total marks for each student, and find the topper. Use stringstream to parse comma-separated values.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Arjun,85,90,78
+Priya,92,88,95
+Kiran,78,82,80</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Arjun: Total=253
+Priya: Total=275
+Kiran: Total=240
+Topper: Priya (275)</div>
+                </div><div class="challenge-constraints">Use getline for reading lines, stringstream for parsing. Do not hardcode the number of students.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;fstream&gt;
+#include &lt;sstream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+int main() {
+    ofstream out(&quot;marks.csv&quot;);
+    out &lt;&lt; &quot;Arjun,85,90,78&quot; &lt;&lt; endl;
+    out &lt;&lt; &quot;Priya,92,88,95&quot; &lt;&lt; endl;
+    out &lt;&lt; &quot;Kiran,78,82,80&quot; &lt;&lt; endl;
+    out.close();
+
+    ifstream in(&quot;marks.csv&quot;);
+    string line, topperName;
+    int topperTotal = 0;
+
+    while (getline(in, line)) {
+        stringstream ss(line);
+        string name, token;
+        getline(ss, name, &#39;,&#39;);
+        int total = 0;
+        while (getline(ss, token, &#39;,&#39;))
+            total += stoi(token);
+        cout &lt;&lt; name &lt;&lt; &quot;: Total=&quot; &lt;&lt; total &lt;&lt; endl;
+        if (total &gt; topperTotal) {
+            topperTotal = total;
+            topperName = name;
+        }
+    }
+    cout &lt;&lt; &quot;Topper: &quot; &lt;&lt; topperName &lt;&lt; &quot; (&quot; &lt;&lt; topperTotal &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    in.close();
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Binary Student Database with Search and Update</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Implement a student database using binary file I/O. Support: (1) Add student record, (2) Display all records, (3) Search by roll number, (4) Update marks by roll number. Use seekg/seekp for in-place updates.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Add {101, Arjun, 85}, {102, Priya, 78}. Update roll 102 marks to 95. Display all.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">101: Arjun, Marks: 85
+102: Priya, Marks: 95</div>
+                </div><div class="challenge-constraints">Use fixed-size struct with char array for name (not string). Use seekg/seekp for O(1) updates.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;fstream&gt;
+#include &lt;cstring&gt;
+using namespace std;
+
+struct Student {
+    int rollNo;
+    char name[30];
+    double marks;
+};
+
+void addStudent(const string&amp; fname, int roll, const char* name, double marks) {
+    Student s;
+    s.rollNo = roll;
+    strcpy(s.name, name);
+    s.marks = marks;
+    ofstream file(fname, ios::binary | ios::app);
+    file.write(reinterpret_cast&lt;char*&gt;(&amp;s), sizeof(Student));
+    file.close();
+}
+
+void updateMarks(const string&amp; fname, int roll, double newMarks) {
+    fstream file(fname, ios::in | ios::out | ios::binary);
+    Student s;
+    while (file.read(reinterpret_cast&lt;char*&gt;(&amp;s), sizeof(Student))) {
+        if (s.rollNo == roll) {
+            s.marks = newMarks;
+            file.seekp(-static_cast&lt;int&gt;(sizeof(Student)), ios::cur);
+            file.write(reinterpret_cast&lt;char*&gt;(&amp;s), sizeof(Student));
+            break;
+        }
+    }
+    file.close();
+}
+
+void displayAll(const string&amp; fname) {
+    ifstream file(fname, ios::binary);
+    Student s;
+    while (file.read(reinterpret_cast&lt;char*&gt;(&amp;s), sizeof(Student)))
+        cout &lt;&lt; s.rollNo &lt;&lt; &quot;: &quot; &lt;&lt; s.name &lt;&lt; &quot;, Marks: &quot; &lt;&lt; s.marks &lt;&lt; endl;
+    file.close();
+}
+
+int main() {
+    string fname = &quot;students.dat&quot;;
+    ofstream clear(fname, ios::trunc); clear.close();
+
+    addStudent(fname, 101, &quot;Arjun&quot;, 85);
+    addStudent(fname, 102, &quot;Priya&quot;, 78);
+    updateMarks(fname, 102, 95);
+    displayAll(fname);
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Config File Parser with Default Values</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a config file parser that reads key=value pairs, skips comment lines (starting with #) and empty lines. Provide a get method that returns a default value if the key is not found.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value"># Config file
+host=localhost
+port=3306
+debug=true</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">host = localhost
+port = 3306
+debug = true
+timeout = 30 (default)</div>
+                </div><div class="challenge-constraints">Use map&lt;string, string&gt; for storage. Support # comments and empty lines. Provide a get(key, default) method.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;fstream&gt;
+#include &lt;sstream&gt;
+#include &lt;string&gt;
+#include &lt;map&gt;
+using namespace std;
+
+class Config {
+    map&lt;string, string&gt; data;
+public:
+    void load(const string&amp; filename) {
+        ifstream file(filename);
+        string line;
+        while (getline(file, line)) {
+            if (line.empty() || line[0] == &#39;#&#39;) continue;
+            size_t pos = line.find(&#39;=&#39;);
+            if (pos != string::npos)
+                data[line.substr(0, pos)] = line.substr(pos + 1);
+        }
+        file.close();
+    }
+    string get(const string&amp; key, const string&amp; defaultVal = &quot;&quot;) {
+        auto it = data.find(key);
+        return it != data.end() ? it-&gt;second : defaultVal;
+    }
+    void display() {
+        for (auto&amp; [k, v] : data) cout &lt;&lt; k &lt;&lt; &quot; = &quot; &lt;&lt; v &lt;&lt; endl;
+    }
+};
+
+int main() {
+    ofstream out(&quot;app.conf&quot;);
+    out &lt;&lt; &quot;# Config file&quot; &lt;&lt; endl;
+    out &lt;&lt; &quot;host=localhost&quot; &lt;&lt; endl;
+    out &lt;&lt; &quot;port=3306&quot; &lt;&lt; endl;
+    out &lt;&lt; &quot;debug=true&quot; &lt;&lt; endl;
+    out.close();
+
+    Config config;
+    config.load(&quot;app.conf&quot;);
+    config.display();
+    cout &lt;&lt; &quot;timeout = &quot; &lt;&lt; config.get(&quot;timeout&quot;, &quot;30&quot;) &lt;&lt; &quot; (default)&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: File-based Leaderboard System</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a leaderboard system that stores player names and scores in a text file. Support adding new scores, reading all scores, sorting by score (descending), and displaying the top N players. The file persists between program runs.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Add: Arjun 850, Priya 920, Kiran 780, Neha 920. Display top 3.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">=== Top 3 ===
+1. Neha: 920
+2. Priya: 920
+3. Arjun: 850</div>
+                </div><div class="challenge-constraints">Read from file, sort in memory, display. Handle the case where the file does not exist.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;fstream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+#include &lt;string&gt;
+using namespace std;
+
+struct Player {
+    string name;
+    int score;
+};
+
+void addScore(const string&amp; fname, const string&amp; name, int score) {
+    ofstream file(fname, ios::app);
+    file &lt;&lt; name &lt;&lt; &quot; &quot; &lt;&lt; score &lt;&lt; endl;
+    file.close();
+}
+
+vector&lt;Player&gt; loadScores(const string&amp; fname) {
+    vector&lt;Player&gt; players;
+    ifstream file(fname);
+    string name;
+    int score;
+    while (file &gt;&gt; name &gt;&gt; score)
+        players.push_back({name, score});
+    file.close();
+    return players;
+}
+
+void showTop(const string&amp; fname, int n) {
+    auto players = loadScores(fname);
+    sort(players.begin(), players.end(),
+        [](const Player&amp; a, const Player&amp; b) { return a.score &gt; b.score; });
+    cout &lt;&lt; &quot;=== Top &quot; &lt;&lt; n &lt;&lt; &quot; ===&quot; &lt;&lt; endl;
+    for (int i = 0; i &lt; min(n, (int)players.size()); i++)
+        cout &lt;&lt; i + 1 &lt;&lt; &quot;. &quot; &lt;&lt; players[i].name &lt;&lt; &quot;: &quot; &lt;&lt; players[i].score &lt;&lt; endl;
+}
+
+int main() {
+    string fname = &quot;leaderboard.txt&quot;;
+    ofstream clear(fname, ios::trunc); clear.close();
+
+    addScore(fname, &quot;Arjun&quot;, 850);
+    addScore(fname, &quot;Priya&quot;, 920);
+    addScore(fname, &quot;Kiran&quot;, 780);
+    addScore(fname, &quot;Neha&quot;, 920);
+    showTop(fname, 3);
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/stl-algorithms-and-iterators/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">STL Algorithms and Iterators</span>
+        </a>
+            <a href="/resources/cpp/smart-pointers-and-memory/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Smart Pointers and Modern Memory Management</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/file-handling-in-cpp" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

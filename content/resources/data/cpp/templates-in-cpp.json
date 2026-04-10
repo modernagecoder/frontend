@@ -1,0 +1,579 @@
+{
+  "title": "Templates - Function and Class Templates",
+  "slug": "templates-in-cpp",
+  "language": "cpp",
+  "chapter": 18,
+  "difficulty": "Advanced",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 52,
+  "seo": {
+    "title": "C++ Templates - Function Templates, Class Templates, Specialization, Variadic | Modern Age Coders",
+    "description": "Master C++ templates including function templates, class templates, template specialization (full and partial), multiple template parameters, non-type parameters, variadic templates, auto/decltype, and how STL is built on templates. 54+ interview-focused practice questions.",
+    "keywords": "c++ templates, function template c++, class template c++, template specialization c++, variadic templates c++, non-type template parameter c++, partial specialization c++, auto decltype c++, c++ templates interview questions, STL templates c++"
+  },
+  "content": {
+    "what": "<h2>What Are Templates in C++?</h2><p><strong>Templates</strong> are a compile-time mechanism in C++ that allow you to write generic code that works with any data type. Instead of writing separate functions or classes for <code>int</code>, <code>double</code>, <code>string</code>, etc., you write a single template, and the compiler generates the specific versions (called <strong>template instantiations</strong>) as needed.</p><p>C++ supports two kinds of templates: <strong>function templates</strong> and <strong>class templates</strong>.</p><pre><code>// Function template: works with any type T\ntemplate&lt;typename T&gt;\nT maxOf(T a, T b) {\n    return (a &gt; b) ? a : b;\n}\n\n// Class template: works with any type T\ntemplate&lt;typename T&gt;\nclass Box {\n    T value;\npublic:\n    Box(T v) : value(v) {}\n    T get() const { return value; }\n};\n\n// Usage:\nint m1 = maxOf(10, 20);           // T = int\ndouble m2 = maxOf(3.14, 2.71);    // T = double\nBox&lt;string&gt; b(\"Arjun\");           // T = string\ncout &lt;&lt; b.get() &lt;&lt; endl;          // Arjun</code></pre><p>Templates are the foundation of the entire C++ Standard Template Library (STL). Containers like <code>vector&lt;T&gt;</code>, <code>map&lt;K,V&gt;</code>, <code>stack&lt;T&gt;</code>, and algorithms like <code>sort()</code>, <code>find()</code>, and <code>accumulate()</code> are all implemented as templates.</p><p>C++ templates also support <strong>specialization</strong> (providing custom implementations for specific types), <strong>non-type parameters</strong> (passing values like integers as template arguments), and <strong>variadic templates</strong> (accepting any number of template arguments).</p>",
+    "why": "<h2>Why Do Templates Matter?</h2><p>Templates are one of the most powerful features of C++. They enable generic programming, which is a paradigm complementary to object-oriented programming. Understanding templates is essential for using the STL effectively and for writing professional C++ code.</p><h3>1. Code Reuse Without Runtime Overhead</h3><p>When Arjun writes a <code>template&lt;typename T&gt; T maxOf(T a, T b)</code>, the compiler generates optimized code for each type used. Unlike virtual functions (which have vtable overhead), templates are resolved entirely at compile time with zero runtime cost.</p><h3>2. The STL Is Built on Templates</h3><p>Every STL container (<code>vector</code>, <code>map</code>, <code>set</code>, <code>queue</code>), every algorithm (<code>sort</code>, <code>find</code>, <code>transform</code>), and every utility (<code>pair</code>, <code>tuple</code>, <code>optional</code>) is a template. You cannot use the STL without understanding templates.</p><h3>3. Top Interview Topic for Product Companies</h3><p>Companies like Google, Microsoft, Amazon, and Flipkart ask template questions in C++ interviews. Topics include template argument deduction, specialization, SFINAE (Substitution Failure Is Not An Error), and compile-time computation.</p><h3>4. Type Safety Without Sacrifice</h3><p>Before templates, C programmers used <code>void*</code> pointers for generic code, losing all type safety. Templates give you generic code that is fully type-checked at compile time. If Kavya accidentally passes a <code>string</code> where an <code>int</code> is expected, the compiler catches it immediately.</p><h3>5. Compile-Time Computation</h3><p>Templates can be used for compile-time computation (template metaprogramming). Factorial, Fibonacci, and type traits can all be computed at compile time, resulting in zero runtime cost. This is the basis of modern C++ libraries like <code>&lt;type_traits&gt;</code>.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Function Templates</h3><p>A function template defines a blueprint for a function. The compiler generates a concrete function for each type used.</p><pre><code>template&lt;typename T&gt;\nT add(T a, T b) {\n    return a + b;\n}\n\n// Explicit instantiation:\nint r1 = add&lt;int&gt;(3, 4);         // 7\ndouble r2 = add&lt;double&gt;(3.5, 4.5); // 8.0\n\n// Implicit deduction (compiler deduces T):\nint r3 = add(3, 4);               // T deduced as int\ndouble r4 = add(3.5, 4.5);        // T deduced as double</code></pre><p>The compiler deduces the template argument from the function arguments. If the arguments have different types (e.g., <code>add(3, 4.5)</code>), deduction fails and you must specify explicitly: <code>add&lt;double&gt;(3, 4.5)</code>.</p><h3>2. Multiple Template Parameters</h3><p>A template can have multiple type parameters:</p><pre><code>template&lt;typename T, typename U&gt;\nauto multiply(T a, U b) -&gt; decltype(a * b) {\n    return a * b;\n}\n\ncout &lt;&lt; multiply(3, 4.5) &lt;&lt; endl;    // 13.5 (int * double = double)\ncout &lt;&lt; multiply(2.0, 3) &lt;&lt; endl;    // 6.0</code></pre><h3>3. Class Templates</h3><p>A class template defines a blueprint for a class. You must specify the template arguments explicitly when creating objects (prior to C++17 CTAD).</p><pre><code>template&lt;typename T&gt;\nclass Stack {\n    T* data;\n    int top;\n    int capacity;\npublic:\n    Stack(int cap) : capacity(cap), top(-1) { data = new T[cap]; }\n    ~Stack() { delete[] data; }\n\n    void push(T val) {\n        if (top &lt; capacity - 1) data[++top] = val;\n    }\n\n    T pop() {\n        if (top &gt;= 0) return data[top--];\n        throw runtime_error(\"Stack empty\");\n    }\n\n    bool empty() const { return top == -1; }\n    int size() const { return top + 1; }\n};\n\nStack&lt;int&gt; intStack(10);\nintStack.push(42);\n\nStack&lt;string&gt; strStack(5);\nstrStack.push(\"Kavya\");</code></pre><h3>4. Non-Type Template Parameters</h3><p>Template parameters can be values (integers, pointers, etc.), not just types:</p><pre><code>template&lt;typename T, int N&gt;\nclass FixedArray {\n    T data[N];\npublic:\n    T&amp; operator[](int i) { return data[i]; }\n    int size() const { return N; }\n};\n\nFixedArray&lt;int, 5&gt; arr;     // Array of 5 ints, size known at compile time\nFixedArray&lt;double, 10&gt; arr2; // Array of 10 doubles\n\n// N must be a compile-time constant\n// FixedArray&lt;int, n&gt; arr3;  // Error if n is a runtime variable</code></pre><p>Non-type parameters must be compile-time constants. They enable compile-time computation and zero-overhead abstractions like <code>std::array&lt;T, N&gt;</code>.</p><h3>5. Template Specialization</h3><p><strong>Full specialization</strong> provides a completely custom implementation for a specific type:</p><pre><code>// Primary template\ntemplate&lt;typename T&gt;\nclass Printer {\npublic:\n    void print(T val) { cout &lt;&lt; \"Value: \" &lt;&lt; val &lt;&lt; endl; }\n};\n\n// Full specialization for const char*\ntemplate&lt;&gt;\nclass Printer&lt;const char*&gt; {\npublic:\n    void print(const char* val) { cout &lt;&lt; \"String: \\\"\" &lt;&lt; val &lt;&lt; \"\\\"\" &lt;&lt; endl; }\n};\n\n// Full specialization for bool\ntemplate&lt;&gt;\nclass Printer&lt;bool&gt; {\npublic:\n    void print(bool val) { cout &lt;&lt; \"Bool: \" &lt;&lt; (val ? \"true\" : \"false\") &lt;&lt; endl; }\n};\n\nPrinter&lt;int&gt; p1;         p1.print(42);       // Value: 42\nPrinter&lt;const char*&gt; p2; p2.print(\"Ravi\");   // String: \"Ravi\"\nPrinter&lt;bool&gt; p3;        p3.print(true);     // Bool: true</code></pre><p><strong>Partial specialization</strong> specializes some template parameters while leaving others generic. It is only available for class templates, not function templates:</p><pre><code>// Primary template\ntemplate&lt;typename T, typename U&gt;\nclass Pair {\npublic:\n    void info() { cout &lt;&lt; \"Generic Pair\" &lt;&lt; endl; }\n};\n\n// Partial specialization: both types are the same\ntemplate&lt;typename T&gt;\nclass Pair&lt;T, T&gt; {\npublic:\n    void info() { cout &lt;&lt; \"Same-type Pair\" &lt;&lt; endl; }\n};\n\n// Partial specialization: second type is int\ntemplate&lt;typename T&gt;\nclass Pair&lt;T, int&gt; {\npublic:\n    void info() { cout &lt;&lt; \"Pair with int second\" &lt;&lt; endl; }\n};\n\nPair&lt;double, string&gt; p1;  p1.info(); // Generic Pair\nPair&lt;int, int&gt; p2;        p2.info(); // Same-type Pair\nPair&lt;string, int&gt; p3;     p3.info(); // Pair with int second</code></pre><h3>6. Function Template Specialization</h3><p>Function templates can be fully specialized (but not partially specialized):</p><pre><code>template&lt;typename T&gt;\nvoid display(T val) {\n    cout &lt;&lt; \"Generic: \" &lt;&lt; val &lt;&lt; endl;\n}\n\ntemplate&lt;&gt;\nvoid display&lt;bool&gt;(bool val) {\n    cout &lt;&lt; \"Bool: \" &lt;&lt; (val ? \"true\" : \"false\") &lt;&lt; endl;\n}\n\ndisplay(42);     // Generic: 42\ndisplay(true);   // Bool: true</code></pre><h3>7. Variadic Templates (C++11)</h3><p>Variadic templates accept any number of template arguments using a parameter pack:</p><pre><code>// Base case: no arguments\nvoid print() {\n    cout &lt;&lt; endl;\n}\n\n// Recursive case: peel off first argument, recurse on rest\ntemplate&lt;typename T, typename... Args&gt;\nvoid print(T first, Args... rest) {\n    cout &lt;&lt; first &lt;&lt; \" \";\n    print(rest...);  // Expand the pack\n}\n\nprint(1, 2.5, \"Arjun\", 'A', true);\n// Output: 1 2.5 Arjun A 1</code></pre><p>The <code>...</code> is the <strong>pack expansion</strong> operator. <code>Args...</code> is a template parameter pack, and <code>rest...</code> is a function parameter pack.</p><h3>8. auto and decltype</h3><p><code>auto</code> lets the compiler deduce the type of a variable. <code>decltype</code> gives you the type of an expression without evaluating it:</p><pre><code>auto x = 42;          // int\nauto y = 3.14;        // double\nauto z = \"hello\";     // const char*\n\nint a = 5;\ndecltype(a) b = 10;   // b is int (same type as a)\n\ntemplate&lt;typename T, typename U&gt;\nauto add(T a, U b) -&gt; decltype(a + b) {\n    return a + b;\n}\n\nauto result = add(3, 4.5);  // result is double (7.5)</code></pre><h3>9. Default Template Arguments</h3><p>Template parameters can have default values:</p><pre><code>template&lt;typename T = int, int N = 10&gt;\nclass Buffer {\n    T data[N];\npublic:\n    int size() const { return N; }\n};\n\nBuffer&lt;&gt; b1;              // T=int, N=10\nBuffer&lt;double&gt; b2;        // T=double, N=10\nBuffer&lt;char, 256&gt; b3;     // T=char, N=256</code></pre>",
+    "codeExamples": [
+    {
+      "title": "Function Template with Type Deduction",
+      "code": "#include <iostream>\nusing namespace std;\n\ntemplate<typename T>\nT maxOf(T a, T b) {\n    return (a > b) ? a : b;\n}\n\ntemplate<typename T>\nvoid swapValues(T& a, T& b) {\n    T temp = a;\n    a = b;\n    b = temp;\n}\n\nint main() {\n    cout << maxOf(10, 20) << endl;\n    cout << maxOf(3.14, 2.71) << endl;\n    cout << maxOf(string(\"Arjun\"), string(\"Kavya\")) << endl;\n\n    int a = 5, b = 10;\n    swapValues(a, b);\n    cout << \"After swap: \" << a << \", \" << b << endl;\n\n    string s1 = \"Hello\", s2 = \"World\";\n    swapValues(s1, s2);\n    cout << \"After swap: \" << s1 << \", \" << s2 << endl;\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "The compiler deduces <code>T</code> from the arguments. <code>maxOf(10, 20)</code> deduces T=int. <code>maxOf(string, string)</code> deduces T=string (uses lexicographic comparison). <code>swapValues</code> takes references and swaps in-place.",
+      "output": "20\n3.14\nKavya\nAfter swap: 10, 5\nAfter swap: World, Hello"
+    },
+    {
+      "title": "Class Template: Generic Stack",
+      "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\ntemplate<typename T>\nclass Stack {\n    T* data;\n    int top;\n    int capacity;\npublic:\n    Stack(int cap) : capacity(cap), top(-1) {\n        data = new T[cap];\n    }\n    ~Stack() { delete[] data; }\n\n    void push(T val) {\n        if (top < capacity - 1) data[++top] = val;\n        else cout << \"Stack full\" << endl;\n    }\n\n    T pop() {\n        if (top >= 0) return data[top--];\n        throw runtime_error(\"Stack empty\");\n    }\n\n    T peek() const {\n        if (top >= 0) return data[top];\n        throw runtime_error(\"Stack empty\");\n    }\n\n    bool empty() const { return top == -1; }\n    int size() const { return top + 1; }\n};\n\nint main() {\n    Stack<int> intStack(5);\n    intStack.push(10);\n    intStack.push(20);\n    intStack.push(30);\n    cout << \"Top: \" << intStack.peek() << endl;\n    cout << \"Pop: \" << intStack.pop() << endl;\n    cout << \"Size: \" << intStack.size() << endl;\n\n    Stack<string> strStack(3);\n    strStack.push(\"Ravi\");\n    strStack.push(\"Priya\");\n    cout << \"Top: \" << strStack.peek() << endl;\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "The <code>Stack</code> class template works with any type. <code>Stack&lt;int&gt;</code> creates a stack of integers, <code>Stack&lt;string&gt;</code> creates a stack of strings. The compiler generates separate class definitions for each instantiation.",
+      "output": "Top: 30\nPop: 30\nSize: 2\nTop: Priya"
+    },
+    {
+      "title": "Non-Type Template Parameters",
+      "code": "#include <iostream>\nusing namespace std;\n\ntemplate<typename T, int N>\nclass FixedArray {\n    T data[N];\npublic:\n    void set(int i, T val) {\n        if (i >= 0 && i < N) data[i] = val;\n    }\n    T get(int i) const {\n        if (i >= 0 && i < N) return data[i];\n        throw out_of_range(\"Index out of bounds\");\n    }\n    int size() const { return N; }\n};\n\ntemplate<int N>\nint factorial() {\n    return N * factorial<N - 1>();\n}\n\ntemplate<>\nint factorial<0>() {\n    return 1;\n}\n\nint main() {\n    FixedArray<int, 5> arr;\n    for (int i = 0; i < 5; i++) arr.set(i, i * 10);\n    for (int i = 0; i < arr.size(); i++) cout << arr.get(i) << \" \";\n    cout << endl;\n\n    FixedArray<double, 3> darr;\n    darr.set(0, 1.1); darr.set(1, 2.2); darr.set(2, 3.3);\n    for (int i = 0; i < darr.size(); i++) cout << darr.get(i) << \" \";\n    cout << endl;\n\n    cout << \"5! = \" << factorial<5>() << endl;\n    cout << \"10! = \" << factorial<10>() << endl;\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "<code>FixedArray&lt;int, 5&gt;</code> creates an array of exactly 5 ints, with size known at compile time. <code>factorial&lt;5&gt;()</code> computes 5! at compile time using template recursion with a base case specialization for N=0.",
+      "output": "0 10 20 30 40 \n1.1 2.2 3.3 \n5! = 120\n10! = 3628800"
+    },
+    {
+      "title": "Template Specialization (Full and Partial)",
+      "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\n// Primary template\ntemplate<typename T>\nclass TypeName {\npublic:\n    static string name() { return \"unknown\"; }\n};\n\n// Full specializations\ntemplate<> class TypeName<int> {\npublic:\n    static string name() { return \"int\"; }\n};\n\ntemplate<> class TypeName<double> {\npublic:\n    static string name() { return \"double\"; }\n};\n\ntemplate<> class TypeName<string> {\npublic:\n    static string name() { return \"string\"; }\n};\n\n// Partial specialization for pointers\ntemplate<typename T>\nclass TypeName<T*> {\npublic:\n    static string name() { return \"pointer to \" + TypeName<T>::name(); }\n};\n\nint main() {\n    cout << TypeName<int>::name() << endl;\n    cout << TypeName<double>::name() << endl;\n    cout << TypeName<string>::name() << endl;\n    cout << TypeName<char>::name() << endl;\n    cout << TypeName<int*>::name() << endl;\n    cout << TypeName<double*>::name() << endl;\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "Full specializations provide custom implementations for <code>int</code>, <code>double</code>, and <code>string</code>. The partial specialization <code>TypeName&lt;T*&gt;</code> matches any pointer type and recursively uses the base type's name. <code>char</code> falls through to the primary template (\"unknown\").",
+      "output": "int\ndouble\nstring\nunknown\npointer to int\npointer to double"
+    },
+    {
+      "title": "Variadic Templates",
+      "code": "#include <iostream>\nusing namespace std;\n\n// Base case\nvoid print() {\n    cout << endl;\n}\n\n// Recursive variadic template\ntemplate<typename T, typename... Args>\nvoid print(T first, Args... rest) {\n    cout << first;\n    if (sizeof...(rest) > 0) cout << \", \";\n    print(rest...);\n}\n\n// Variadic sum\ntemplate<typename T>\nT sum(T val) {\n    return val;\n}\n\ntemplate<typename T, typename... Args>\nT sum(T first, Args... rest) {\n    return first + sum(rest...);\n}\n\nint main() {\n    print(1, 2.5, \"Arjun\", 'A', true);\n    print(\"Hello\", \"World\");\n\n    cout << \"Sum: \" << sum(1, 2, 3, 4, 5) << endl;\n    cout << \"Sum: \" << sum(1.5, 2.5, 3.0) << endl;\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "The <code>print</code> function accepts any number of arguments of any types. It peels off the first argument, prints it, and recurses on the rest. <code>sizeof...(rest)</code> returns the number of remaining arguments. The <code>sum</code> function adds all arguments together.",
+      "output": "1, 2.5, Arjun, A, 1\nHello, World\nSum: 15\nSum: 7"
+    },
+    {
+      "title": "auto, decltype, and Trailing Return Types",
+      "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\ntemplate<typename T, typename U>\nauto add(T a, U b) -> decltype(a + b) {\n    return a + b;\n}\n\ntemplate<typename T, typename U>\nauto multiply(T a, U b) {\n    return a * b;  // C++14: return type deduced\n}\n\nint main() {\n    auto r1 = add(3, 4.5);      // double\n    auto r2 = add(string(\"Hello, \"), string(\"World\"));\n    auto r3 = multiply(3, 4);    // int\n    auto r4 = multiply(2.5, 4);  // double\n\n    cout << r1 << endl;\n    cout << r2 << endl;\n    cout << r3 << endl;\n    cout << r4 << endl;\n\n    // decltype usage\n    int x = 10;\n    decltype(x) y = 20;  // y is int\n    decltype(x + 0.5) z = 3.14;  // z is double\n    cout << y << \" \" << z << endl;\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "<code>auto</code> and <code>decltype</code> enable type deduction. The trailing return type <code>-&gt; decltype(a + b)</code> tells the compiler to deduce the return type from the expression <code>a + b</code>. In C++14, the return type can be deduced automatically without a trailing return type.",
+      "output": "7.5\nHello, World\n12\n10\n20 3.14"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Mismatched Types in Template Argument Deduction",
+      "wrongCode": "template<typename T>\nT maxOf(T a, T b) {\n    return (a > b) ? a : b;\n}\n\nint main() {\n    cout << maxOf(3, 4.5);  // Error: T deduced as int AND double\n}",
+      "error": "Compilation error: deduced conflicting types for T. 3 deduces int, 4.5 deduces double.",
+      "correctCode": "// Option 1: Explicit template argument\ncout << maxOf<double>(3, 4.5);\n\n// Option 2: Two template parameters\ntemplate<typename T, typename U>\nauto maxOf(T a, U b) -> decltype(a > b ? a : b) {\n    return (a > b) ? a : b;\n}\ncout << maxOf(3, 4.5);  // OK",
+      "explanation": "When a single template parameter <code>T</code> is used for both arguments, both arguments must deduce the same type. Either specify the type explicitly or use two separate template parameters."
+    },
+    {
+      "title": "Forgetting template<> in Full Specialization",
+      "wrongCode": "template<typename T>\nvoid display(T val) {\n    cout << val << endl;\n}\n\n// Missing template<>\nvoid display(bool val) {  // This is an overload, not a specialization!\n    cout << (val ? \"true\" : \"false\") << endl;\n}",
+      "error": "This creates a function overload, not a template specialization. Both exist and overload resolution picks the non-template version for bool. This may seem to work but has different behavior with template argument deduction.",
+      "correctCode": "template<typename T>\nvoid display(T val) {\n    cout << val << endl;\n}\n\ntemplate<>  // Required for specialization!\nvoid display<bool>(bool val) {\n    cout << (val ? \"true\" : \"false\") << endl;\n}",
+      "explanation": "Template full specialization requires the <code>template&lt;&gt;</code> prefix. Without it, you create an overload rather than a specialization. Overloads and specializations have different rules for resolution."
+    },
+    {
+      "title": "Using Runtime Variables as Non-Type Template Parameters",
+      "wrongCode": "template<int N>\nvoid printN() {\n    cout << N << endl;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    printN<n>();  // Error: n is not a compile-time constant!\n}",
+      "error": "Compilation error: non-type template argument is not a constant expression. Template parameters must be known at compile time.",
+      "correctCode": "template<int N>\nvoid printN() {\n    cout << N << endl;\n}\n\nint main() {\n    constexpr int n = 10;  // Compile-time constant\n    printN<n>();  // OK\n    printN<42>(); // OK\n}",
+      "explanation": "Non-type template parameters must be compile-time constants (<code>constexpr</code>, <code>const</code> initialized with literals, or literal values). Runtime values cannot be template arguments because templates are resolved at compile time."
+    },
+    {
+      "title": "Defining Template Member Functions in .cpp Files",
+      "wrongCode": "// stack.h\ntemplate<typename T>\nclass Stack {\n    T* data;\npublic:\n    Stack(int n);\n    void push(T val);\n};\n\n// stack.cpp\n#include \"stack.h\"\ntemplate<typename T>\nStack<T>::Stack(int n) { data = new T[n]; }\n\ntemplate<typename T>\nvoid Stack<T>::push(T val) { /* ... */ }\n\n// main.cpp\n#include \"stack.h\"\nStack<int> s(10);  // Linker error: undefined reference",
+      "error": "Linker error. The compiler needs to see the full template definition when instantiating. If the definition is in a .cpp file, main.cpp cannot see it.",
+      "correctCode": "// stack.h (put everything in the header)\ntemplate<typename T>\nclass Stack {\n    T* data;\npublic:\n    Stack(int n) { data = new T[n]; }\n    void push(T val) { /* ... */ }\n};\n\n// main.cpp\n#include \"stack.h\"\nStack<int> s(10);  // OK: compiler sees full definition",
+      "explanation": "Template definitions must be visible to the compiler at the point of instantiation. In practice, this means template code goes in header files, not .cpp files. This is a fundamental difference from non-template code."
+    },
+    {
+      "title": "Partial Specialization of Function Templates",
+      "wrongCode": "// Trying to partially specialize a function template\ntemplate<typename T, typename U>\nvoid process(T a, U b) {\n    cout << \"Generic\" << endl;\n}\n\n// Partial specialization: U is int\ntemplate<typename T>\nvoid process<T, int>(T a, int b) {  // Error!\n    cout << \"U is int\" << endl;\n}",
+      "error": "Compilation error: function templates cannot be partially specialized. Only class templates support partial specialization.",
+      "correctCode": "// Use overloading instead of partial specialization\ntemplate<typename T, typename U>\nvoid process(T a, U b) {\n    cout << \"Generic\" << endl;\n}\n\n// Overload with second parameter as int\ntemplate<typename T>\nvoid process(T a, int b) {\n    cout << \"U is int\" << endl;\n}\n\nprocess(3.14, \"hello\");  // Generic\nprocess(3.14, 42);       // U is int",
+      "explanation": "C++ does not allow partial specialization of function templates. Use function overloading instead. Overload resolution will pick the more specific version when the second argument is <code>int</code>."
+    }
+  ],
+  "summary": [
+    "Templates are a compile-time mechanism for generic programming. The compiler generates type-specific code (instantiations) from templates with zero runtime overhead.",
+    "Function templates use template<typename T> before the function. The compiler can deduce T from arguments (implicit deduction) or you can specify it explicitly (explicit instantiation).",
+    "Class templates use template<typename T> before the class. Prior to C++17, you must specify template arguments explicitly when creating objects: Stack<int> s(10).",
+    "Non-type template parameters (template<int N>) accept compile-time constant values. They enable fixed-size arrays, compile-time factorial, and zero-overhead abstractions.",
+    "Full specialization (template<>) provides a custom implementation for a specific type. Both function and class templates support full specialization.",
+    "Partial specialization specializes some template parameters while leaving others generic. Only class templates support partial specialization; function templates use overloading instead.",
+    "Variadic templates (template<typename... Args>) accept any number of arguments. They use recursive peeling (process first, recurse on rest) with a base case for zero arguments.",
+    "auto deduces variable types from initializers. decltype gives the type of an expression. Trailing return types (-> decltype(a+b)) combine with templates for generic return types.",
+    "Template definitions must be in header files because the compiler needs the full definition at the point of instantiation. Separating into .h and .cpp causes linker errors.",
+    "The entire C++ STL (vector, map, sort, find, etc.) is built on templates. Understanding templates is prerequisite for effective STL usage."
+  ]
+  },
+  "relatedTopics": ["abstraction-and-interfaces", "exception-handling-in-cpp"],
+  "practice": {
+    "totalQuestions": 52,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T&gt;\nT add(T a, T b) {\n    return a + b;\n}\nint main() {\n    cout &lt;&lt; add(3, 4) &lt;&lt; endl;\n    cout &lt;&lt; add(2.5, 3.5) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "T is deduced from arguments: int for (3,4), double for (2.5,3.5).",
+        "answer": "<code>7</code><br><code>6</code>",
+        "explanation": "<code>add(3, 4)</code> deduces T=int, returns 7. <code>add(2.5, 3.5)</code> deduces T=double, returns 6.0 which prints as 6."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T&gt;\nclass Wrapper {\n    T val;\npublic:\n    Wrapper(T v) : val(v) {}\n    T get() const { return val; }\n};\nint main() {\n    Wrapper&lt;int&gt; w1(42);\n    Wrapper&lt;string&gt; w2(\"Arjun\");\n    cout &lt;&lt; w1.get() &lt;&lt; endl;\n    cout &lt;&lt; w2.get() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Wrapper<int> stores an int. Wrapper<string> stores a string.",
+        "answer": "<code>42</code><br><code>Arjun</code>",
+        "explanation": "<code>Wrapper&lt;int&gt;</code> stores 42. <code>Wrapper&lt;string&gt;</code> stores \"Arjun\". The <code>get()</code> method returns the stored value."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T&gt;\nT maxOf(T a, T b) {\n    return (a &gt; b) ? a : b;\n}\nint main() {\n    cout &lt;&lt; maxOf(10, 20) &lt;&lt; endl;\n    cout &lt;&lt; maxOf('A', 'Z') &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "maxOf works with any type that supports >. Chars are compared by ASCII values.",
+        "answer": "<code>20</code><br><code>Z</code>",
+        "explanation": "<code>maxOf(10, 20)</code> returns 20. <code>maxOf('A', 'Z')</code> compares ASCII values (65 vs 90), returns 'Z'."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T, int N&gt;\nclass Array {\n    T data[N];\npublic:\n    void fill(T val) {\n        for (int i = 0; i &lt; N; i++) data[i] = val;\n    }\n    void print() const {\n        for (int i = 0; i &lt; N; i++) cout &lt;&lt; data[i] &lt;&lt; \" \";\n        cout &lt;&lt; endl;\n    }\n    int size() const { return N; }\n};\nint main() {\n    Array&lt;int, 4&gt; arr;\n    arr.fill(7);\n    arr.print();\n    cout &lt;&lt; \"Size: \" &lt;&lt; arr.size() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "N=4 is a non-type template parameter. The array has exactly 4 elements filled with 7.",
+        "answer": "<code>7 7 7 7 </code><br><code>Size: 4</code>",
+        "explanation": "<code>Array&lt;int, 4&gt;</code> creates a fixed-size array of 4 ints. <code>fill(7)</code> sets all elements to 7. <code>size()</code> returns N=4."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T&gt;\nvoid display(T val) {\n    cout &lt;&lt; \"Generic: \" &lt;&lt; val &lt;&lt; endl;\n}\ntemplate&lt;&gt;\nvoid display&lt;bool&gt;(bool val) {\n    cout &lt;&lt; \"Bool: \" &lt;&lt; (val ? \"true\" : \"false\") &lt;&lt; endl;\n}\nint main() {\n    display(42);\n    display(3.14);\n    display(true);\n    return 0;\n}</code></pre>",
+        "hint": "display<bool> is fully specialized. Other types use the generic version.",
+        "answer": "<code>Generic: 42</code><br><code>Generic: 3.14</code><br><code>Bool: true</code>",
+        "explanation": "<code>display(42)</code> and <code>display(3.14)</code> use the generic template. <code>display(true)</code> matches the full specialization for <code>bool</code>."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T, typename U&gt;\nauto multiply(T a, U b) -&gt; decltype(a * b) {\n    return a * b;\n}\nint main() {\n    cout &lt;&lt; multiply(3, 4) &lt;&lt; endl;\n    cout &lt;&lt; multiply(3, 4.5) &lt;&lt; endl;\n    cout &lt;&lt; multiply(2.5, 4) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "The return type is deduced from a*b. int*int=int, int*double=double.",
+        "answer": "<code>12</code><br><code>13.5</code><br><code>10</code>",
+        "explanation": "<code>3*4=12</code> (int). <code>3*4.5=13.5</code> (double). <code>2.5*4=10.0</code> (double, prints as 10)."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nvoid print() { cout &lt;&lt; endl; }\ntemplate&lt;typename T, typename... Args&gt;\nvoid print(T first, Args... rest) {\n    cout &lt;&lt; first &lt;&lt; \" \";\n    print(rest...);\n}\nint main() {\n    print(1, 2, 3);\n    print(\"Kavya\", 25, 'A');\n    return 0;\n}</code></pre>",
+        "hint": "Variadic template peels off the first argument and recurses. Base case prints newline.",
+        "answer": "<code>1 2 3 </code><br><code>Kavya 25 A </code>",
+        "explanation": "First call: print(1,2,3) -> prints 1, print(2,3) -> prints 2, print(3) -> prints 3, print() -> newline. Second call follows the same pattern."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T&gt;\nclass Pair {\n    T first, second;\npublic:\n    Pair(T a, T b) : first(a), second(b) {}\n    T getFirst() const { return first; }\n    T getSecond() const { return second; }\n    T sum() const { return first + second; }\n};\nint main() {\n    Pair&lt;int&gt; p1(10, 20);\n    Pair&lt;double&gt; p2(1.5, 2.5);\n    cout &lt;&lt; p1.sum() &lt;&lt; endl;\n    cout &lt;&lt; p2.sum() &lt;&lt; endl;\n    Pair&lt;string&gt; p3(\"Hello, \", \"World\");\n    cout &lt;&lt; p3.sum() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "sum() uses operator+ which works for int, double, and string (concatenation).",
+        "answer": "<code>30</code><br><code>4</code><br><code>Hello, World</code>",
+        "explanation": "<code>Pair&lt;int&gt;::sum()</code> returns 10+20=30. <code>Pair&lt;double&gt;::sum()</code> returns 1.5+2.5=4.0 (prints as 4). <code>Pair&lt;string&gt;::sum()</code> concatenates strings."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T&gt;\nclass Info {\npublic:\n    static string type() { return \"unknown\"; }\n};\ntemplate&lt;&gt; class Info&lt;int&gt; {\npublic:\n    static string type() { return \"int\"; }\n};\ntemplate&lt;&gt; class Info&lt;double&gt; {\npublic:\n    static string type() { return \"double\"; }\n};\ntemplate&lt;typename T&gt;\nclass Info&lt;T*&gt; {\npublic:\n    static string type() { return \"pointer to \" + Info&lt;T&gt;::type(); }\n};\nint main() {\n    cout &lt;&lt; Info&lt;int&gt;::type() &lt;&lt; endl;\n    cout &lt;&lt; Info&lt;float&gt;::type() &lt;&lt; endl;\n    cout &lt;&lt; Info&lt;int*&gt;::type() &lt;&lt; endl;\n    cout &lt;&lt; Info&lt;double*&gt;::type() &lt;&lt; endl;\n    cout &lt;&lt; Info&lt;int**&gt;::type() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "int* matches partial specialization T*. int** matches T* where T=int*, which recursively uses T* again.",
+        "answer": "<code>int</code><br><code>unknown</code><br><code>pointer to int</code><br><code>pointer to double</code><br><code>pointer to pointer to int</code>",
+        "explanation": "<code>Info&lt;int&gt;</code> uses full specialization. <code>Info&lt;float&gt;</code> has no specialization, uses primary (\"unknown\"). <code>Info&lt;int*&gt;</code> matches partial specialization T* with T=int. <code>Info&lt;int**&gt;</code> matches T* with T=int*, which recursively matches T* with T=int."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;int N&gt;\nstruct Factorial {\n    static const int value = N * Factorial&lt;N-1&gt;::value;\n};\ntemplate&lt;&gt;\nstruct Factorial&lt;0&gt; {\n    static const int value = 1;\n};\nint main() {\n    cout &lt;&lt; Factorial&lt;5&gt;::value &lt;&lt; endl;\n    cout &lt;&lt; Factorial&lt;0&gt;::value &lt;&lt; endl;\n    cout &lt;&lt; Factorial&lt;8&gt;::value &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Compile-time recursion. Factorial<5> = 5 * Factorial<4> = 5*4*3*2*1*1 = 120.",
+        "answer": "<code>120</code><br><code>1</code><br><code>40320</code>",
+        "explanation": "This is template metaprogramming. <code>Factorial&lt;5&gt;::value</code> = 5*4*3*2*1 = 120. <code>Factorial&lt;0&gt;::value</code> = 1 (base case). <code>Factorial&lt;8&gt;::value</code> = 40320. All computed at compile time."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T, typename U&gt;\nclass Pair {\npublic:\n    void info() { cout &lt;&lt; \"Generic\" &lt;&lt; endl; }\n};\ntemplate&lt;typename T&gt;\nclass Pair&lt;T, T&gt; {\npublic:\n    void info() { cout &lt;&lt; \"Same types\" &lt;&lt; endl; }\n};\ntemplate&lt;typename T&gt;\nclass Pair&lt;T, int&gt; {\npublic:\n    void info() { cout &lt;&lt; \"Second is int\" &lt;&lt; endl; }\n};\nint main() {\n    Pair&lt;double, string&gt; p1; p1.info();\n    Pair&lt;double, double&gt; p2; p2.info();\n    Pair&lt;string, int&gt; p3; p3.info();\n    Pair&lt;int, int&gt; p4; p4.info();\n    return 0;\n}</code></pre>",
+        "hint": "Pair<int,int> could match both <T,T> and <T,int>. Which is more specialized?",
+        "answer": "<code>Generic</code><br><code>Same types</code><br><code>Second is int</code><br><code>Same types</code>",
+        "explanation": "<code>Pair&lt;double, string&gt;</code> matches generic. <code>Pair&lt;double, double&gt;</code> matches &lt;T,T&gt;. <code>Pair&lt;string, int&gt;</code> matches &lt;T,int&gt;. <code>Pair&lt;int, int&gt;</code> could match both &lt;T,T&gt; and &lt;T,int&gt;, but &lt;T,T&gt; is more specialized (both parameters constrained) so it wins."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T&gt;\nT sum(T val) { return val; }\ntemplate&lt;typename T, typename... Args&gt;\nT sum(T first, Args... rest) {\n    return first + sum(rest...);\n}\nint main() {\n    cout &lt;&lt; sum(1, 2, 3, 4, 5) &lt;&lt; endl;\n    cout &lt;&lt; sum(10) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "sum(1,2,3,4,5) = 1 + sum(2,3,4,5) = 1+2+sum(3,4,5) = ... = 15. sum(10) hits base case directly.",
+        "answer": "<code>15</code><br><code>10</code>",
+        "explanation": "<code>sum(1,2,3,4,5)</code> recursively adds: 1+2+3+4+5 = 15. <code>sum(10)</code> matches the single-argument base case, returning 10."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T&gt;\nT square(T x) { return x * x; }\nint main() {\n    cout &lt;&lt; square(5) &lt;&lt; endl;\n    cout &lt;&lt; square(2.5) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "square(5) deduces T=int. square(2.5) deduces T=double.",
+        "answer": "<code>25</code><br><code>6.25</code>",
+        "explanation": "<code>square(5)</code> returns 5*5=25 (int). <code>square(2.5)</code> returns 2.5*2.5=6.25 (double)."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\ntemplate&lt;typename T&gt;\nbool isEqual(T a, T b) { return a == b; }\nint main() {\n    cout &lt;&lt; isEqual(10, 10) &lt;&lt; endl;\n    cout &lt;&lt; isEqual(string(\"Ravi\"), string(\"Ravi\")) &lt;&lt; endl;\n    cout &lt;&lt; isEqual(3.14, 3.15) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "isEqual compares using ==. Works for int, string, and double.",
+        "answer": "<code>1</code><br><code>1</code><br><code>0</code>",
+        "explanation": "10==10 is true (1). \"Ravi\"==\"Ravi\" is true (1). 3.14==3.15 is false (0)."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T, int N&gt;\nT arraySum(T (&amp;arr)[N]) {\n    T total = T();\n    for (int i = 0; i &lt; N; i++) total += arr[i];\n    return total;\n}\nint main() {\n    int a[] = {10, 20, 30};\n    double b[] = {1.5, 2.5};\n    cout &lt;&lt; arraySum(a) &lt;&lt; endl;\n    cout &lt;&lt; arraySum(b) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Both T and N are deduced from the array reference. T() initializes to 0 for numeric types.",
+        "answer": "<code>60</code><br><code>4</code>",
+        "explanation": "<code>arraySum(a)</code> deduces T=int, N=3. Sum=10+20+30=60. <code>arraySum(b)</code> deduces T=double, N=2. Sum=1.5+2.5=4.0 (prints as 4)."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T&gt;\nclass MinMax {\n    T minVal, maxVal;\npublic:\n    MinMax(T a, T b) {\n        minVal = (a &lt; b) ? a : b;\n        maxVal = (a &gt; b) ? a : b;\n    }\n    T getMin() const { return minVal; }\n    T getMax() const { return maxVal; }\n};\nint main() {\n    MinMax&lt;int&gt; m(30, 10);\n    cout &lt;&lt; m.getMin() &lt;&lt; \" \" &lt;&lt; m.getMax() &lt;&lt; endl;\n    MinMax&lt;string&gt; s(\"Arjun\", \"Priya\");\n    cout &lt;&lt; s.getMin() &lt;&lt; \" \" &lt;&lt; s.getMax() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "MinMax sorts two values. Strings are compared lexicographically.",
+        "answer": "<code>10 30</code><br><code>Arjun Priya</code>",
+        "explanation": "For ints: min(30,10)=10, max=30. For strings: \"Arjun\" < \"Priya\" lexicographically, so min=Arjun, max=Priya."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T&gt;\nvoid show(T val) { cout &lt;&lt; \"value: \" &lt;&lt; val &lt;&lt; endl; }\ntemplate&lt;typename T&gt;\nvoid show(T* ptr) { cout &lt;&lt; \"pointer: \" &lt;&lt; *ptr &lt;&lt; endl; }\ntemplate&lt;&gt;\nvoid show&lt;int&gt;(int val) { cout &lt;&lt; \"int: \" &lt;&lt; val &lt;&lt; endl; }\nint main() {\n    int x = 42;\n    show(x);\n    show(&amp;x);\n    show(3.14);\n    show(&amp;x + 0);\n    return 0;\n}</code></pre>",
+        "hint": "show(x) matches the int specialization. show(&x) matches the pointer overload. show(3.14) matches generic.",
+        "answer": "<code>int: 42</code><br><code>pointer: 42</code><br><code>value: 3.14</code><br><code>pointer: 42</code>",
+        "explanation": "<code>show(x)</code> matches int specialization. <code>show(&amp;x)</code> matches pointer overload. <code>show(3.14)</code> matches generic T. <code>show(&amp;x + 0)</code> is still int*, matches pointer overload."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T, typename U = T&gt;\nclass Container {\n    T first;\n    U second;\npublic:\n    Container(T a, U b) : first(a), second(b) {}\n    void show() { cout &lt;&lt; first &lt;&lt; \" \" &lt;&lt; second &lt;&lt; endl; }\n};\nint main() {\n    Container&lt;int&gt; c1(10, 20);\n    Container&lt;int, double&gt; c2(10, 3.14);\n    c1.show();\n    c2.show();\n    return 0;\n}</code></pre>",
+        "hint": "Container<int> uses default U=int. Container<int,double> specifies U=double.",
+        "answer": "<code>10 20</code><br><code>10 3.14</code>",
+        "explanation": "<code>Container&lt;int&gt;</code> uses default U=T=int, so both are int. <code>Container&lt;int, double&gt;</code> has T=int and U=double."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between a function template and a template function?",
+        "hint": "One is the blueprint, the other is the generated code.",
+        "answer": "A function template is the blueprint (template<typename T> T add(T a, T b)). A template function is a specific instantiation generated by the compiler (e.g., add<int> is a template function). The template is the code you write; the template function is the code the compiler generates.",
+        "explanation": "The distinction is: the template is the generic definition, and the instantiation (template function) is the concrete version for a specific type. The compiler generates one instantiation per unique set of template arguments used."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why must template definitions be placed in header files?",
+        "hint": "Think about what the compiler needs to see at the point of instantiation.",
+        "answer": "The compiler needs to see the full template definition to generate code for a specific type. If the definition is in a .cpp file, other translation units cannot see it and the linker reports undefined references.",
+        "explanation": "Templates are not compiled into object code until instantiated. The compiler needs the complete source of the template at every point where it is used. Putting template code in .cpp files separates the definition from the usage, causing linker errors."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T&gt;\nvoid print(T val) {\n    cout &lt;&lt; val &lt;&lt; endl;\n}\nint main() {\n    print(42);\n    print(3.14);\n    print(\"Ravi\");\n    return 0;\n}</code></pre>",
+        "hint": "The template deduces T from each argument.",
+        "answer": "<code>42</code><br><code>3.14</code><br><code>Ravi</code>",
+        "explanation": "The compiler generates three versions: <code>print&lt;int&gt;</code>, <code>print&lt;double&gt;</code>, and <code>print&lt;const char*&gt;</code>. Each prints its argument."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T = int&gt;\nclass Container {\n    T val;\npublic:\n    Container(T v) : val(v) {}\n    T get() const { return val; }\n};\nint main() {\n    Container&lt;&gt; c1(100);\n    Container&lt;double&gt; c2(3.14);\n    cout &lt;&lt; c1.get() &lt;&lt; endl;\n    cout &lt;&lt; c2.get() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Container<> uses the default type int. Container<double> overrides the default.",
+        "answer": "<code>100</code><br><code>3.14</code>",
+        "explanation": "<code>Container&lt;&gt;</code> uses the default template argument <code>int</code>. <code>Container&lt;double&gt;</code> explicitly specifies <code>double</code>."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens when you compile this code?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T&gt;\nT add(T a, T b) { return a + b; }\nint main() {\n    cout &lt;&lt; add(3, 4.5) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "T is deduced from both arguments. 3 deduces int, 4.5 deduces double. Do they match?",
+        "answer": "Compilation error: deduced conflicting types for parameter T (int vs double).",
+        "explanation": "Both arguments must deduce the same type for T. 3 deduces int, 4.5 deduces double. These conflict. Fix: <code>add&lt;double&gt;(3, 4.5)</code> or use two template parameters."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T, int N&gt;\nT sumArray(T (&amp;arr)[N]) {\n    T total = T();\n    for (int i = 0; i &lt; N; i++) total += arr[i];\n    return total;\n}\nint main() {\n    int a[] = {1, 2, 3, 4, 5};\n    double b[] = {1.5, 2.5, 3.5};\n    cout &lt;&lt; sumArray(a) &lt;&lt; endl;\n    cout &lt;&lt; sumArray(b) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "The template deduces both T and N from the array reference. N is the array size.",
+        "answer": "<code>15</code><br><code>7.5</code>",
+        "explanation": "<code>sumArray(a)</code> deduces T=int, N=5. Sum = 1+2+3+4+5 = 15. <code>sumArray(b)</code> deduces T=double, N=3. Sum = 1.5+2.5+3.5 = 7.5."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T&gt;\nclass Box {\n    T val;\npublic:\n    Box(T v) : val(v) {}\n    bool operator&gt;(const Box&amp; other) const { return val &gt; other.val; }\n    T get() const { return val; }\n};\ntemplate&lt;typename T&gt;\nBox&lt;T&gt; maxBox(Box&lt;T&gt; a, Box&lt;T&gt; b) {\n    return (a &gt; b) ? a : b;\n}\nint main() {\n    Box&lt;int&gt; a(10), b(20);\n    cout &lt;&lt; maxBox(a, b).get() &lt;&lt; endl;\n    Box&lt;string&gt; s1(\"Arjun\"), s2(\"Priya\");\n    cout &lt;&lt; maxBox(s1, s2).get() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "maxBox uses the > operator which Box overloads. For strings, > uses lexicographic comparison.",
+        "answer": "<code>20</code><br><code>Priya</code>",
+        "explanation": "<code>maxBox(a, b)</code> compares 10 > 20 (false), returns b (20). <code>maxBox(s1, s2)</code> compares \"Arjun\" > \"Priya\" (false lexicographically), returns s2 (\"Priya\")."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename T&gt;\nvoid process(T val) {\n    cout &lt;&lt; \"Value: \" &lt;&lt; val &lt;&lt; endl;\n}\ntemplate&lt;typename T&gt;\nvoid process(T* ptr) {\n    cout &lt;&lt; \"Pointer to: \" &lt;&lt; *ptr &lt;&lt; endl;\n}\ntemplate&lt;&gt;\nvoid process&lt;int&gt;(int val) {\n    cout &lt;&lt; \"Int: \" &lt;&lt; val &lt;&lt; endl;\n}\nint main() {\n    int x = 42;\n    process(x);\n    process(&amp;x);\n    process(3.14);\n    return 0;\n}</code></pre>",
+        "hint": "Overload resolution: process(x) matches both generic T and specialization int. Specialization wins for exact match. process(&x) matches the pointer overload.",
+        "answer": "<code>Int: 42</code><br><code>Pointer to: 42</code><br><code>Value: 3.14</code>",
+        "explanation": "<code>process(x)</code> matches the <code>int</code> specialization. <code>process(&amp;x)</code> matches the pointer overload <code>process(T*)</code>. <code>process(3.14)</code> matches the generic template with T=double."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;int N&gt;\nstruct Fib {\n    static const int value = Fib&lt;N-1&gt;::value + Fib&lt;N-2&gt;::value;\n};\ntemplate&lt;&gt; struct Fib&lt;0&gt; { static const int value = 0; };\ntemplate&lt;&gt; struct Fib&lt;1&gt; { static const int value = 1; };\nint main() {\n    cout &lt;&lt; Fib&lt;0&gt;::value &lt;&lt; endl;\n    cout &lt;&lt; Fib&lt;1&gt;::value &lt;&lt; endl;\n    cout &lt;&lt; Fib&lt;6&gt;::value &lt;&lt; endl;\n    cout &lt;&lt; Fib&lt;10&gt;::value &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55. Index 6 = 8, index 10 = 55.",
+        "answer": "<code>0</code><br><code>1</code><br><code>8</code><br><code>55</code>",
+        "explanation": "Compile-time Fibonacci. Fib<6> = Fib<5>+Fib<4> = 5+3 = 8. Fib<10> = 55. All computed by the compiler."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\ntemplate&lt;typename... Args&gt;\nint countArgs(Args... args) {\n    return sizeof...(args);\n}\nint main() {\n    cout &lt;&lt; countArgs() &lt;&lt; endl;\n    cout &lt;&lt; countArgs(1) &lt;&lt; endl;\n    cout &lt;&lt; countArgs(1, 2.5, \"three\", 'A') &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "sizeof...(args) returns the number of arguments in the parameter pack at compile time.",
+        "answer": "<code>0</code><br><code>1</code><br><code>4</code>",
+        "explanation": "<code>sizeof...(args)</code> is a compile-time operator that returns the number of elements in a parameter pack. Empty pack = 0, one argument = 1, four arguments = 4."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the keyword used to define a template in C++?",
+        "options": {"A": "generic", "B": "template", "C": "typename", "D": "class"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>template</code> keyword is used before the function or class to define a template. <code>typename</code> and <code>class</code> are used inside the template parameter list."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the difference between template<typename T> and template<class T>?",
+        "options": {"A": "typename works with built-in types, class with user-defined types", "B": "They are identical in template parameter declarations", "C": "class allows default arguments, typename does not", "D": "typename is for function templates, class for class templates"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In template parameter declarations, <code>typename</code> and <code>class</code> are interchangeable. Both accept any type (built-in or user-defined). The convention is to use <code>typename</code> in modern C++."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "When does the compiler generate code from a template?",
+        "options": {"A": "At runtime", "B": "When the template is defined", "C": "When the template is instantiated (used with specific types)", "D": "During linking"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Templates are instantiated at compile time when they are used with specific type arguments. The compiler generates a separate version of the function/class for each unique set of template arguments."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is a non-type template parameter?",
+        "options": {"A": "A parameter with no type", "B": "A compile-time constant value (like int) used as a template argument", "C": "A parameter that accepts only void", "D": "A parameter that is ignored by the compiler"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Non-type template parameters accept compile-time constant values, such as integers, pointers, or enums. Example: <code>template&lt;int N&gt;</code> where N must be a compile-time constant."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which C++ library is entirely built on templates?",
+        "options": {"A": "stdio.h", "B": "math.h", "C": "The Standard Template Library (STL)", "D": "pthread.h"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The STL (containers like vector, map; algorithms like sort, find; utilities like pair, tuple) is entirely implemented using templates."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Which of the following supports partial specialization?",
+        "options": {"A": "Function templates only", "B": "Class templates only", "C": "Both function and class templates", "D": "Neither"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Only class templates support partial specialization. Function templates must use overloading as an alternative to partial specialization."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does sizeof...(Args) return in a variadic template?",
+        "options": {"A": "The total memory size of all arguments", "B": "The number of arguments in the parameter pack", "C": "The size of the largest argument", "D": "Zero always"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>sizeof...(Args)</code> is a compile-time operator that returns the number of elements in a template parameter pack or function parameter pack."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the purpose of decltype in C++?",
+        "options": {"A": "To declare a new type", "B": "To get the type of an expression at compile time without evaluating it", "C": "To convert types at runtime", "D": "To delete a type definition"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>decltype(expr)</code> yields the type of the expression <code>expr</code> at compile time. It does not evaluate the expression. It is commonly used in trailing return types."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What happens when you put template definitions in a .cpp file?",
+        "options": {"A": "The code compiles and links normally", "B": "Compilation succeeds but linking fails with undefined reference errors", "C": "The code runs slower", "D": "The template is ignored"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The .cpp file compiles fine, but other translation units cannot see the template definition and cannot instantiate it. The linker cannot find the generated code, resulting in undefined reference errors."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "What is SFINAE in C++ templates?",
+        "options": {"A": "A compiler optimization technique", "B": "Substitution Failure Is Not An Error: if template argument substitution fails, the template is silently discarded", "C": "A runtime error handling mechanism", "D": "A memory allocation strategy"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> SFINAE means that when the compiler tries to instantiate a template and substitution of template arguments makes the declaration ill-formed, the template is silently removed from the overload set instead of causing a compilation error."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the output of Pair<int, int> p; p.info(); given partial specializations <T,T> and <T,int>?",
+        "options": {"A": "Ambiguous, compilation error", "B": "Generic Pair", "C": "Same-type Pair (the <T,T> specialization wins)", "D": "Pair with int second"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> When <code>Pair&lt;int, int&gt;</code> matches both <code>&lt;T,T&gt;</code> and <code>&lt;T,int&gt;</code>, the compiler uses partial ordering rules. <code>&lt;T,T&gt;</code> is more specialized because it constrains both parameters, so it wins."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "In a variadic template, what does the ... (ellipsis) do in print(rest...)?",
+        "options": {"A": "Converts rest to a C-style variadic argument", "B": "Expands the parameter pack, passing each element as a separate argument", "C": "Concatenates all arguments into one", "D": "Discards all remaining arguments"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>...</code> after a parameter pack name is the pack expansion operator. <code>rest...</code> expands to <code>arg1, arg2, arg3, ...</code>, passing each element as a separate argument to the recursive call."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Easy",
+        "question": "What is the advantage of templates over void* for generic programming?",
+        "options": {"A": "Templates are faster at runtime", "B": "Templates provide full type safety at compile time while void* loses all type information", "C": "Templates use less memory", "D": "void* cannot store integers"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Templates preserve complete type information and enable compile-time type checking. <code>void*</code> erases type information, requiring manual casts that can cause runtime errors if incorrect."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Easy",
+        "question": "Can a template have both type and non-type parameters?",
+        "options": {"A": "No, a template must have only one kind of parameter", "B": "Yes, for example template<typename T, int N>", "C": "Only class templates can mix them", "D": "Only with C++17 or later"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Templates can freely mix type parameters (<code>typename T</code>) and non-type parameters (<code>int N</code>). Example: <code>template&lt;typename T, int N&gt; class Array</code>."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "What is the difference between full specialization and partial specialization?",
+        "options": {"A": "Full specialization provides implementation for all types; partial for some", "B": "Full specialization fixes all template parameters; partial fixes some while leaving others generic", "C": "They are the same thing", "D": "Full is for classes; partial is for functions"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Full specialization (<code>template&lt;&gt;</code>) provides a specific implementation for a complete set of template arguments. Partial specialization fixes some parameters while leaving others generic."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What does template argument deduction mean?",
+        "options": {"A": "The programmer must always specify template arguments", "B": "The compiler automatically determines template arguments from function call arguments", "C": "The template arguments are deduced at runtime", "D": "Only class templates support deduction"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When calling a function template, the compiler can deduce the template arguments from the types of the function arguments. For example, <code>maxOf(3, 4)</code> deduces T=int."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is template metaprogramming?",
+        "options": {"A": "Writing templates that generate code at runtime", "B": "Using templates to perform computations at compile time through recursive instantiation", "C": "A way to avoid using templates", "D": "Using macros instead of templates"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Template metaprogramming uses recursive template instantiation and specialization to perform computations at compile time. Examples include compile-time factorial, Fibonacci, and type traits."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Why can function templates not be partially specialized?",
+        "options": {"A": "It is a compiler limitation that will be fixed in future standards", "B": "The C++ standard prohibits it; function overloading serves the same purpose", "C": "Function templates do not support any specialization", "D": "They can be partially specialized in C++20"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The C++ standard does not allow partial specialization of function templates. Instead, function overloading achieves the same effect. Overload resolution is more intuitive for functions than partial specialization would be."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "What is CTAD (Class Template Argument Deduction) introduced in C++17?",
+        "options": {"A": "A way to prevent template argument deduction", "B": "Allows the compiler to deduce class template arguments from constructor arguments without explicit specification", "C": "A new way to specialize templates", "D": "A debugging tool for templates"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Prior to C++17, you had to write <code>pair&lt;int, double&gt; p(1, 2.5);</code>. With CTAD, you can write <code>pair p(1, 2.5);</code> and the compiler deduces the template arguments from the constructor arguments."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Generic Pair Class with Comparison",
+        "difficulty": "Easy",
+        "description": "Create a class template Pair<T, U> that stores two values of possibly different types. Provide getFirst(), getSecond(), and overload operator== to compare two pairs. Demonstrate with int/string and double/double pairs.",
+        "sampleInput": "Pair<int, string>(1, \"Arjun\") and Pair<int, string>(1, \"Arjun\"); Pair<double, double>(3.14, 2.71)",
+        "sampleOutput": "(1, Arjun)\n(1, Arjun)\nEqual: 1\n(3.14, 2.71)",
+        "constraints": "Use two template parameters. Overload == and <<.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\n\ntemplate<typename T, typename U>\nclass Pair {\n    T first;\n    U second;\npublic:\n    Pair(T f, U s) : first(f), second(s) {}\n    T getFirst() const { return first; }\n    U getSecond() const { return second; }\n    bool operator==(const Pair& other) const {\n        return first == other.first && second == other.second;\n    }\n    friend ostream& operator<<(ostream& os, const Pair& p) {\n        os << \"(\" << p.first << \", \" << p.second << \")\";\n        return os;\n    }\n};\n\nint main() {\n    Pair<int, string> p1(1, \"Arjun\"), p2(1, \"Arjun\");\n    cout << p1 << endl;\n    cout << p2 << endl;\n    cout << \"Equal: \" << (p1 == p2) << endl;\n\n    Pair<double, double> p3(3.14, 2.71);\n    cout << p3 << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Generic Sorting with Function Templates",
+        "difficulty": "Medium",
+        "description": "Write a function template bubbleSort that sorts an array of any type T in ascending order. Write a function template printArray that prints the array. Demonstrate with int, double, and string arrays.",
+        "sampleInput": "int: {5, 2, 8, 1, 9}, double: {3.14, 1.41, 2.71}, string: {\"Ravi\", \"Arjun\", \"Kavya\"}",
+        "sampleOutput": "int: 1 2 5 8 9\ndouble: 1.41 2.71 3.14\nstring: Arjun Kavya Ravi",
+        "constraints": "Use template<typename T> for both functions. Use reference to array or pointer+size.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\n\ntemplate<typename T>\nvoid bubbleSort(T arr[], int n) {\n    for (int i = 0; i < n - 1; i++) {\n        for (int j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                T temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n}\n\ntemplate<typename T>\nvoid printArray(T arr[], int n) {\n    for (int i = 0; i < n; i++) {\n        cout << arr[i];\n        if (i < n - 1) cout << \" \";\n    }\n    cout << endl;\n}\n\nint main() {\n    int ints[] = {5, 2, 8, 1, 9};\n    bubbleSort(ints, 5);\n    cout << \"int: \"; printArray(ints, 5);\n\n    double doubles[] = {3.14, 1.41, 2.71};\n    bubbleSort(doubles, 3);\n    cout << \"double: \"; printArray(doubles, 3);\n\n    string strings[] = {\"Ravi\", \"Arjun\", \"Kavya\"};\n    bubbleSort(strings, 3);\n    cout << \"string: \"; printArray(strings, 3);\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Type-Safe Generic Stack with Specialization",
+        "difficulty": "Medium",
+        "description": "Create a class template Stack<T> with push, pop, peek, size, and empty. Create a full specialization Stack<bool> that stores bools efficiently by printing a special message on push/pop. Demonstrate both the generic and specialized versions.",
+        "sampleInput": "Stack<int>: push 10, 20, 30. Pop. Stack<bool>: push true, false. Pop.",
+        "sampleOutput": "Pushed int: 30\nPeek: 30\nPopped: 30\nSize: 2\nPushed bool: true\nPushed bool: false\nPopped bool: false",
+        "constraints": "Full specialization for bool. Show different behavior for bool vs generic.",
+        "solution": "#include <iostream>\nusing namespace std;\n\ntemplate<typename T>\nclass Stack {\n    T data[100];\n    int top;\npublic:\n    Stack() : top(-1) {}\n    void push(T val) {\n        data[++top] = val;\n        cout << \"Pushed int: \" << val << endl;\n    }\n    T pop() {\n        T val = data[top--];\n        cout << \"Popped: \" << val << endl;\n        return val;\n    }\n    T peek() const { return data[top]; }\n    int size() const { return top + 1; }\n    bool empty() const { return top == -1; }\n};\n\ntemplate<>\nclass Stack<bool> {\n    bool data[100];\n    int top;\npublic:\n    Stack() : top(-1) {}\n    void push(bool val) {\n        data[++top] = val;\n        cout << \"Pushed bool: \" << (val ? \"true\" : \"false\") << endl;\n    }\n    bool pop() {\n        bool val = data[top--];\n        cout << \"Popped bool: \" << (val ? \"true\" : \"false\") << endl;\n        return val;\n    }\n    bool peek() const { return data[top]; }\n    int size() const { return top + 1; }\n    bool empty() const { return top == -1; }\n};\n\nint main() {\n    Stack<int> intStack;\n    intStack.push(10);\n    intStack.push(20);\n    intStack.push(30);\n    cout << \"Peek: \" << intStack.peek() << endl;\n    intStack.pop();\n    cout << \"Size: \" << intStack.size() << endl;\n\n    Stack<bool> boolStack;\n    boolStack.push(true);\n    boolStack.push(false);\n    boolStack.pop();\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Compile-Time Power Calculation",
+        "difficulty": "Hard",
+        "description": "Create a template metaprogram Power<Base, Exp> that computes Base^Exp at compile time. Specialize for Exp=0 (result is 1). Also create a variadic template function printAll that prints any number of arguments. Demonstrate both.",
+        "sampleInput": "Power<2,10>, Power<3,4>, Power<5,0>. printAll(1, 2.5, \"Priya\", true).",
+        "sampleOutput": "2^10 = 1024\n3^4 = 81\n5^0 = 1\n1 2.5 Priya 1",
+        "constraints": "Use template recursion for Power. Use variadic templates for printAll. All Power values computed at compile time.",
+        "solution": "#include <iostream>\nusing namespace std;\n\ntemplate<int Base, int Exp>\nstruct Power {\n    static const long long value = Base * Power<Base, Exp - 1>::value;\n};\n\ntemplate<int Base>\nstruct Power<Base, 0> {\n    static const long long value = 1;\n};\n\nvoid printAll() { cout << endl; }\n\ntemplate<typename T, typename... Args>\nvoid printAll(T first, Args... rest) {\n    cout << first;\n    if (sizeof...(rest) > 0) cout << \" \";\n    printAll(rest...);\n}\n\nint main() {\n    cout << \"2^10 = \" << Power<2, 10>::value << endl;\n    cout << \"3^4 = \" << Power<3, 4>::value << endl;\n    cout << \"5^0 = \" << Power<5, 0>::value << endl;\n    printAll(1, 2.5, \"Priya\", true);\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Generic Matrix with Non-Type Parameters",
+        "difficulty": "Hard",
+        "description": "Create a class template Matrix<T, Rows, Cols> using non-type template parameters for dimensions. Implement set(), get(), operator+ (for same-dimension matrices), and a print method. Demonstrate with 2x3 int matrices and 2x2 double matrices.",
+        "sampleInput": "Matrix A(2x3): {1,2,3,4,5,6}. Matrix B(2x3): {6,5,4,3,2,1}. C = A + B.",
+        "sampleOutput": "A:\n1 2 3\n4 5 6\nB:\n6 5 4\n3 2 1\nA+B:\n7 7 7\n7 7 7",
+        "constraints": "Use non-type template parameters for Rows and Cols. Size known at compile time. operator+ only compiles for matching dimensions.",
+        "solution": "#include <iostream>\nusing namespace std;\n\ntemplate<typename T, int Rows, int Cols>\nclass Matrix {\n    T data[Rows][Cols];\npublic:\n    Matrix() {\n        for (int i = 0; i < Rows; i++)\n            for (int j = 0; j < Cols; j++)\n                data[i][j] = T();\n    }\n\n    void set(int r, int c, T val) { data[r][c] = val; }\n    T get(int r, int c) const { return data[r][c]; }\n\n    Matrix operator+(const Matrix& other) const {\n        Matrix result;\n        for (int i = 0; i < Rows; i++)\n            for (int j = 0; j < Cols; j++)\n                result.data[i][j] = data[i][j] + other.data[i][j];\n        return result;\n    }\n\n    void print() const {\n        for (int i = 0; i < Rows; i++) {\n            for (int j = 0; j < Cols; j++) {\n                cout << data[i][j];\n                if (j < Cols - 1) cout << \" \";\n            }\n            cout << endl;\n        }\n    }\n};\n\nint main() {\n    Matrix<int, 2, 3> A, B;\n    int val = 1;\n    for (int i = 0; i < 2; i++)\n        for (int j = 0; j < 3; j++) {\n            A.set(i, j, val);\n            B.set(i, j, 7 - val);\n            val++;\n        }\n\n    cout << \"A:\" << endl; A.print();\n    cout << \"B:\" << endl; B.print();\n    Matrix<int, 2, 3> C = A + B;\n    cout << \"A+B:\" << endl; C.print();\n    return 0;\n}"
+      }
+    ]
+  }
+}

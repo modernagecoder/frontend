@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance in C++ - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Implement single, multiple, multilevel, and hierarchical inheritance with access control and constructor chaining.">
+    <meta name="keywords" content="inheritance in c++, c++ tutorial, c++ inheritance in c++, learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp">
+    <meta property="og:title" content="Inheritance in C++ - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Implement single, multiple, multilevel, and hierarchical inheritance with access control and constructor chaining.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp">
+    <meta name="twitter:title" content="Inheritance in C++ - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Implement single, multiple, multilevel, and hierarchical inheritance with access control and constructor chaining.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Inheritance in C++",
+    "description": "Implement single, multiple, multilevel, and hierarchical inheritance with access control and constructor chaining.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Inheritance in C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting to Call Base Class Constructor",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If the base class does not have a default constructor, the derived class must explicitly call a base constructor in its initializer list. The compiler cannot automatically construct the base without the required argument."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Ambiguous Member Access in Diamond Inheritance",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Without virtual inheritance, the diamond creates two copies of the base class. Access to shared members is ambiguous. Either disambiguate with scope resolution or use virtual inheritance to maintain a single copy."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Calling Virtual Base Constructor from Most Derived Class",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In virtual inheritance, intermediate classes' calls to the virtual base constructor are ignored. Only the most derived class's call takes effect. If Leaf does not call <code>Base(x)</code>, the default <code>Base()</code> is used."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing Method Hiding with Overriding",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hiding occurs when a derived class defines a function with the same name as a base class non-virtual function. The base version is hidden but not overridden. For polymorphism, the base function must be <code>virtual</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrong Constructor Order Assumption",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Base class constructors are called in the order they appear in the class definition, not the order in the initializer list. Always match your initializer list order to the declaration order to avoid confusion and compiler warnings."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Inheritance in C++</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 15</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">60 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Inheritance in C++</h1>
+            <a href="/resources/cpp/inheritance-in-cpp/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Inheritance in C++?</h2><p><strong>Inheritance</strong> is the mechanism by which one class (the <strong>derived class</strong>) acquires the properties and behaviors of another class (the <strong>base class</strong>). It establishes an "is-a" relationship: a <code>Dog</code> is an <code>Animal</code>, a <code>Car</code> is a <code>Vehicle</code>.</p><p>The derived class inherits all non-private members of the base class and can add its own members or override base class methods.</p><pre><code>class Animal {
+protected:
+    string name;
+public:
+    Animal(string n) : name(n) {}
+    void eat() { cout &lt;&lt; name &lt;&lt; " eats" &lt;&lt; endl; }
+};
+
+class Dog : public Animal {
+public:
+    Dog(string n) : Animal(n) {}
+    void bark() { cout &lt;&lt; name &lt;&lt; " barks" &lt;&lt; endl; }
+};
+
+Dog d("Tommy");
+d.eat();   // Inherited from Animal
+d.bark();  // Defined in Dog</code></pre><p>C++ supports five types of inheritance: <strong>single</strong> (one base, one derived), <strong>multiple</strong> (multiple bases, one derived), <strong>multilevel</strong> (chain of derivations), <strong>hierarchical</strong> (one base, multiple derived), and <strong>hybrid</strong> (combination of types). C++ also provides three modes of inheritance (<code>public</code>, <code>protected</code>, <code>private</code>) that control how base class members are accessible in the derived class.</p><p>Unlike Java or Python, C++ supports <strong>multiple inheritance</strong>, which brings the <strong>diamond problem</strong> and the need for <strong>virtual inheritance</strong>. These are among the most asked topics in C++ interviews.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Does Inheritance Matter?</h2><p>Inheritance is one of the four pillars of Object-Oriented Programming. In C++, inheritance is more powerful (and more dangerous) than in Java or Python because of multiple inheritance, access mode control, and the diamond problem.</p><h3>1. Code Reuse Without Duplication</h3><p>When Arjun creates a <code>SavingsAccount</code> class that inherits from <code>BankAccount</code>, he gets all the deposit, withdraw, and balance-tracking logic for free. He only writes the interest calculation code. Without inheritance, he would copy-paste hundreds of lines into every account type.</p><h3>2. Constructor/Destructor Order Is a Top Interview Topic</h3><p>Every major tech interview asks: "In what order are constructors and destructors called in an inheritance chain?" The answer (base first, derived last for construction; reverse for destruction) is fundamental. With multiple inheritance, the order follows the declaration order, not the initializer list order.</p><h3>3. The Diamond Problem</h3><p>When Kavya creates a class that inherits from two classes that share a common base, the derived class gets two copies of the base class members. This is the <strong>diamond problem</strong>. C++ solves it with <strong>virtual inheritance</strong>, ensuring only one copy of the shared base exists. This topic appears in almost every C++ interview at product companies.</p><h3>4. Access Mode Control</h3><p>C++ is unique in offering <code>public</code>, <code>protected</code>, and <code>private</code> inheritance. This controls how base class members appear in the derived class. <code>public</code> inheritance preserves the base's access levels (is-a relationship). <code>private</code> inheritance makes all base members private (implemented-in-terms-of relationship).</p><h3>5. Foundation for Polymorphism</h3><p>Without inheritance, there is no polymorphism. Virtual functions, abstract classes, and interfaces all require an inheritance hierarchy. Understanding inheritance is the prerequisite for understanding virtual dispatch, the vtable, and dynamic_cast.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Single Inheritance</h3><p>One base class, one derived class. The simplest and most common form.</p><pre><code>class Shape {
+protected:
+    string color;
+public:
+    Shape(string c) : color(c) {}
+    void showColor() { cout &lt;&lt; "Color: " &lt;&lt; color &lt;&lt; endl; }
+};
+
+class Circle : public Shape {
+    double radius;
+public:
+    Circle(string c, double r) : Shape(c), radius(r) {}
+    double area() { return 3.14159 * radius * radius; }
+};</code></pre><h3>2. Multilevel Inheritance</h3><p>A chain of derivations: A -&gt; B -&gt; C. Each class inherits from the one above it.</p><pre><code>class Animal {
+public:
+    void breathe() { cout &lt;&lt; "Breathing" &lt;&lt; endl; }
+};
+
+class Mammal : public Animal {
+public:
+    void feedMilk() { cout &lt;&lt; "Feeding milk" &lt;&lt; endl; }
+};
+
+class Dog : public Mammal {
+public:
+    void bark() { cout &lt;&lt; "Barking" &lt;&lt; endl; }
+};
+
+Dog d;
+d.breathe();   // From Animal
+d.feedMilk();  // From Mammal
+d.bark();      // From Dog</code></pre><h3>3. Hierarchical Inheritance</h3><p>One base class, multiple derived classes. Each derived class independently extends the base.</p><pre><code>class Vehicle {
+protected:
+    int speed;
+public:
+    Vehicle(int s) : speed(s) {}
+    void showSpeed() { cout &lt;&lt; speed &lt;&lt; " km/h" &lt;&lt; endl; }
+};
+
+class Car : public Vehicle {
+public:
+    Car(int s) : Vehicle(s) {}
+    void honk() { cout &lt;&lt; "Beep beep" &lt;&lt; endl; }
+};
+
+class Bike : public Vehicle {
+public:
+    Bike(int s) : Vehicle(s) {}
+    void wheelie() { cout &lt;&lt; "Wheelie!" &lt;&lt; endl; }
+};</code></pre><h3>4. Multiple Inheritance</h3><p>A class inherits from two or more base classes. C++ supports this directly, unlike Java (which uses interfaces instead).</p><pre><code>class Printable {
+public:
+    void print() { cout &lt;&lt; "Printing..." &lt;&lt; endl; }
+};
+
+class Scannable {
+public:
+    void scan() { cout &lt;&lt; "Scanning..." &lt;&lt; endl; }
+};
+
+class AllInOne : public Printable, public Scannable {
+public:
+    void copy() {
+        scan();
+        print();
+    }
+};
+
+AllInOne device;
+device.print();   // From Printable
+device.scan();    // From Scannable
+device.copy();    // Own method</code></pre><h3>5. The Diamond Problem</h3><p>When two base classes share a common base, the derived class gets two copies of the shared base's members. This creates ambiguity.</p><pre><code>class Person {
+protected:
+    string name;
+public:
+    Person(string n) : name(n) { cout &lt;&lt; "Person(" &lt;&lt; n &lt;&lt; ")" &lt;&lt; endl; }
+};
+
+class Student : public Person {
+public:
+    Student(string n) : Person(n) { cout &lt;&lt; "Student" &lt;&lt; endl; }
+};
+
+class Employee : public Person {
+public:
+    Employee(string n) : Person(n) { cout &lt;&lt; "Employee" &lt;&lt; endl; }
+};
+
+class TA : public Student, public Employee {
+public:
+    // Person is constructed TWICE: once via Student, once via Employee
+    TA(string n) : Student(n), Employee(n) { cout &lt;&lt; "TA" &lt;&lt; endl; }
+    // ta.name is ambiguous: Student::name or Employee::name?
+};</code></pre><p>This is called the <strong>diamond problem</strong> because the inheritance diagram looks like a diamond shape.</p><h3>6. Virtual Inheritance (Solution to Diamond Problem)</h3><p>Virtual inheritance ensures that only one copy of the shared base class exists in the derived object.</p><pre><code>class Person {
+protected:
+    string name;
+public:
+    Person(string n = "") : name(n) { cout &lt;&lt; "Person(" &lt;&lt; n &lt;&lt; ")" &lt;&lt; endl; }
+};
+
+class Student : virtual public Person {
+public:
+    Student(string n) : Person(n) { cout &lt;&lt; "Student" &lt;&lt; endl; }
+};
+
+class Employee : virtual public Person {
+public:
+    Employee(string n) : Person(n) { cout &lt;&lt; "Employee" &lt;&lt; endl; }
+};
+
+class TA : public Student, public Employee {
+public:
+    // With virtual inheritance, the MOST DERIVED class (TA)
+    // must call the virtual base's constructor directly
+    TA(string n) : Person(n), Student(n), Employee(n) {
+        cout &lt;&lt; "TA" &lt;&lt; endl;
+    }
+    void show() { cout &lt;&lt; name &lt;&lt; endl; }  // No ambiguity: one copy
+};</code></pre><p>Key rules of virtual inheritance:</p><ul><li>The most derived class is responsible for calling the virtual base class constructor</li><li>If the most derived class does not call it, the default constructor is used</li><li>The virtual base is constructed first, before any non-virtual bases</li><li>There is a small runtime overhead (extra pointer per virtual base)</li></ul><h3>7. Public, Protected, and Private Inheritance</h3><p>The inheritance mode controls how base class members appear in the derived class:</p><pre><code>// class Derived : public Base
+//   public    -&gt; public
+//   protected -&gt; protected
+//   private   -&gt; NOT accessible
+
+// class Derived : protected Base
+//   public    -&gt; protected
+//   protected -&gt; protected
+//   private   -&gt; NOT accessible
+
+// class Derived : private Base
+//   public    -&gt; private
+//   protected -&gt; private
+//   private   -&gt; NOT accessible</code></pre><p>Public inheritance models "is-a" (a Dog IS an Animal). Private inheritance models "implemented-in-terms-of" (a Stack uses a List internally but is not a List). Protected inheritance is rarely used in practice.</p><h3>8. Constructor and Destructor Order</h3><p>Constructors are called base-to-derived. Destructors are called derived-to-base (reverse order). With multiple inheritance, the order follows the order of base class declarations in the class definition.</p><pre><code>class A {
+public:
+    A() { cout &lt;&lt; "A()" &lt;&lt; endl; }
+    ~A() { cout &lt;&lt; "~A()" &lt;&lt; endl; }
+};
+
+class B {
+public:
+    B() { cout &lt;&lt; "B()" &lt;&lt; endl; }
+    ~B() { cout &lt;&lt; "~B()" &lt;&lt; endl; }
+};
+
+class C : public A, public B {
+public:
+    C() { cout &lt;&lt; "C()" &lt;&lt; endl; }
+    ~C() { cout &lt;&lt; "~C()" &lt;&lt; endl; }
+};
+
+// Creating C c; prints: A() B() C()
+// Destroying c prints:  ~C() ~B() ~A()</code></pre><h3>9. Method Overriding</h3><p>A derived class can provide its own version of a base class method. If the method is not virtual, the version called depends on the pointer/reference type (static binding). If virtual, it depends on the actual object type (dynamic binding).</p><pre><code>class Base {
+public:
+    void show() { cout &lt;&lt; "Base" &lt;&lt; endl; }
+    virtual void display() { cout &lt;&lt; "Base display" &lt;&lt; endl; }
+    virtual ~Base() {}
+};
+
+class Derived : public Base {
+public:
+    void show() { cout &lt;&lt; "Derived" &lt;&lt; endl; }         // Hides Base::show
+    void display() override { cout &lt;&lt; "Derived display" &lt;&lt; endl; }  // Overrides
+};
+
+Base* b = new Derived();
+b-&gt;show();      // "Base" (static binding, not virtual)
+b-&gt;display();   // "Derived display" (dynamic binding, virtual)
+delete b;</code></pre><h3>10. Calling Base Class Methods from Derived</h3><p>A derived class can explicitly call a base class method using the scope resolution operator:</p><pre><code>class Base {
+public:
+    void greet() { cout &lt;&lt; "Hello from Base" &lt;&lt; endl; }
+};
+
+class Derived : public Base {
+public:
+    void greet() {
+        Base::greet();  // Explicitly call base version
+        cout &lt;&lt; "Hello from Derived" &lt;&lt; endl;
+    }
+};</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Single and Multilevel Inheritance</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Animal {
+protected:
+    string name;
+public:
+    Animal(string n) : name(n) { cout &lt;&lt; &quot;Animal(&quot; &lt;&lt; name &lt;&lt; &quot;)&quot; &lt;&lt; endl; }
+    ~Animal() { cout &lt;&lt; &quot;~Animal()&quot; &lt;&lt; endl; }
+    void breathe() { cout &lt;&lt; name &lt;&lt; &quot; breathes&quot; &lt;&lt; endl; }
+};
+
+class Mammal : public Animal {
+public:
+    Mammal(string n) : Animal(n) { cout &lt;&lt; &quot;Mammal()&quot; &lt;&lt; endl; }
+    ~Mammal() { cout &lt;&lt; &quot;~Mammal()&quot; &lt;&lt; endl; }
+    void feedMilk() { cout &lt;&lt; name &lt;&lt; &quot; feeds milk&quot; &lt;&lt; endl; }
+};
+
+class Dog : public Mammal {
+public:
+    Dog(string n) : Mammal(n) { cout &lt;&lt; &quot;Dog()&quot; &lt;&lt; endl; }
+    ~Dog() { cout &lt;&lt; &quot;~Dog()&quot; &lt;&lt; endl; }
+    void bark() { cout &lt;&lt; name &lt;&lt; &quot; barks&quot; &lt;&lt; endl; }
+};
+
+int main() {
+    cout &lt;&lt; &quot;--- Creating Dog ---&quot; &lt;&lt; endl;
+    Dog d(&quot;Tommy&quot;);
+    d.breathe();
+    d.feedMilk();
+    d.bark();
+    cout &lt;&lt; &quot;--- Destroying Dog ---&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">This shows multilevel inheritance: Dog -> Mammal -> Animal. Constructors are called base-to-derived (Animal, Mammal, Dog). Destructors are called derived-to-base (Dog, Mammal, Animal). The Dog object has access to methods from all levels.</div><div class="code-example-output">--- Creating Dog ---
+Animal(Tommy)
+Mammal()
+Dog()
+Tommy breathes
+Tommy feeds milk
+Tommy barks
+--- Destroying Dog ---
+~Dog()
+~Mammal()
+~Animal()</div></div>
+<div class="code-example"><div class="code-example-title">Multiple Inheritance</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Flyable {
+public:
+    void fly() { cout &lt;&lt; &quot;Flying&quot; &lt;&lt; endl; }
+};
+
+class Swimmable {
+public:
+    void swim() { cout &lt;&lt; &quot;Swimming&quot; &lt;&lt; endl; }
+};
+
+class Duck : public Flyable, public Swimmable {
+public:
+    void quack() { cout &lt;&lt; &quot;Quack!&quot; &lt;&lt; endl; }
+};
+
+int main() {
+    Duck d;
+    d.fly();
+    d.swim();
+    d.quack();
+    return 0;
+}</code></pre><div class="code-example-explanation">The <code>Duck</code> class inherits from both <code>Flyable</code> and <code>Swimmable</code>. It gets <code>fly()</code> from <code>Flyable</code> and <code>swim()</code> from <code>Swimmable</code>, plus its own <code>quack()</code>. This is multiple inheritance.</div><div class="code-example-output">Flying
+Swimming
+Quack!</div></div>
+<div class="code-example"><div class="code-example-title">Diamond Problem Without Virtual Inheritance</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Person {
+protected:
+    string name;
+public:
+    Person(string n) : name(n) {
+        cout &lt;&lt; &quot;Person(&quot; &lt;&lt; n &lt;&lt; &quot;) constructed&quot; &lt;&lt; endl;
+    }
+};
+
+class Student : public Person {
+public:
+    Student(string n) : Person(n) {
+        cout &lt;&lt; &quot;Student constructed&quot; &lt;&lt; endl;
+    }
+    void study() { cout &lt;&lt; name &lt;&lt; &quot; studies&quot; &lt;&lt; endl; }
+};
+
+class Employee : public Person {
+public:
+    Employee(string n) : Person(n) {
+        cout &lt;&lt; &quot;Employee constructed&quot; &lt;&lt; endl;
+    }
+    void work() { cout &lt;&lt; name &lt;&lt; &quot; works&quot; &lt;&lt; endl; }
+};
+
+class TA : public Student, public Employee {
+public:
+    TA(string n) : Student(n), Employee(n) {
+        cout &lt;&lt; &quot;TA constructed&quot; &lt;&lt; endl;
+    }
+    void assist() {
+        Student::study();
+        Employee::work();
+    }
+};
+
+int main() {
+    TA ta(&quot;Kavya&quot;);
+    // ta.name;  // Error: ambiguous (Student::name or Employee::name?)
+    ta.Student::study();
+    ta.Employee::work();
+    ta.assist();
+    return 0;
+}</code></pre><div class="code-example-explanation">Without virtual inheritance, <code>Person</code> is constructed twice: once through <code>Student</code>, once through <code>Employee</code>. There are two separate <code>name</code> members, causing ambiguity if accessed directly. You must use <code>Student::name</code> or <code>Employee::name</code> to disambiguate.</div><div class="code-example-output">Person(Kavya) constructed
+Student constructed
+Person(Kavya) constructed
+Employee constructed
+TA constructed
+Kavya studies
+Kavya works
+Kavya studies
+Kavya works</div></div>
+<div class="code-example"><div class="code-example-title">Diamond Problem Solved with Virtual Inheritance</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Person {
+protected:
+    string name;
+public:
+    Person(string n = &quot;&quot;) : name(n) {
+        cout &lt;&lt; &quot;Person(&quot; &lt;&lt; n &lt;&lt; &quot;) constructed&quot; &lt;&lt; endl;
+    }
+};
+
+class Student : virtual public Person {
+public:
+    Student(string n) : Person(n) {
+        cout &lt;&lt; &quot;Student constructed&quot; &lt;&lt; endl;
+    }
+    void study() { cout &lt;&lt; name &lt;&lt; &quot; studies&quot; &lt;&lt; endl; }
+};
+
+class Employee : virtual public Person {
+public:
+    Employee(string n) : Person(n) {
+        cout &lt;&lt; &quot;Employee constructed&quot; &lt;&lt; endl;
+    }
+    void work() { cout &lt;&lt; name &lt;&lt; &quot; works&quot; &lt;&lt; endl; }
+};
+
+class TA : public Student, public Employee {
+public:
+    TA(string n) : Person(n), Student(n), Employee(n) {
+        cout &lt;&lt; &quot;TA constructed&quot; &lt;&lt; endl;
+    }
+    void show() { cout &lt;&lt; &quot;TA: &quot; &lt;&lt; name &lt;&lt; endl; }
+};
+
+int main() {
+    TA ta(&quot;Kavya&quot;);
+    ta.study();
+    ta.work();
+    ta.show();
+    return 0;
+}</code></pre><div class="code-example-explanation">With <code>virtual public</code> inheritance, <code>Person</code> is constructed only once, and the most derived class (<code>TA</code>) must call <code>Person</code>'s constructor. There is now only one <code>name</code> member, so no ambiguity exists. This is the standard solution to the diamond problem.</div><div class="code-example-output">Person(Kavya) constructed
+Student constructed
+Employee constructed
+TA constructed
+Kavya studies
+Kavya works
+TA: Kavya</div></div>
+<div class="code-example"><div class="code-example-title">Public vs Protected vs Private Inheritance</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Base {
+public:
+    int pub;
+protected:
+    int prot;
+private:
+    int priv;
+public:
+    Base() : pub(1), prot(2), priv(3) {}
+};
+
+class PubDerived : public Base {
+public:
+    void test() {
+        cout &lt;&lt; &quot;public: pub=&quot; &lt;&lt; pub &lt;&lt; &quot; prot=&quot; &lt;&lt; prot &lt;&lt; endl;
+        // priv not accessible
+    }
+};
+
+class ProtDerived : protected Base {
+public:
+    void test() {
+        cout &lt;&lt; &quot;protected: pub=&quot; &lt;&lt; pub &lt;&lt; &quot; prot=&quot; &lt;&lt; prot &lt;&lt; endl;
+    }
+};
+
+class PrivDerived : private Base {
+public:
+    void test() {
+        cout &lt;&lt; &quot;private: pub=&quot; &lt;&lt; pub &lt;&lt; &quot; prot=&quot; &lt;&lt; prot &lt;&lt; endl;
+    }
+};
+
+int main() {
+    PubDerived pd;
+    pd.test();
+    cout &lt;&lt; &quot;main accesses pd.pub: &quot; &lt;&lt; pd.pub &lt;&lt; endl;
+
+    ProtDerived ptd;
+    ptd.test();
+    // ptd.pub;  // Error: pub became protected
+
+    PrivDerived pvd;
+    pvd.test();
+    // pvd.pub;  // Error: pub became private
+
+    return 0;
+}</code></pre><div class="code-example-explanation">With <code>public</code> inheritance, base public remains public, base protected remains protected. With <code>protected</code> inheritance, both become protected. With <code>private</code> inheritance, both become private. In all cases, base private members are never accessible in derived classes.</div><div class="code-example-output">public: pub=1 prot=2
+main accesses pd.pub: 1
+protected: pub=1 prot=2
+private: pub=1 prot=2</div></div>
+<div class="code-example"><div class="code-example-title">Constructor/Destructor Order with Multiple Inheritance</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class A {
+public:
+    A() { cout &lt;&lt; &quot;A() &quot;; }
+    ~A() { cout &lt;&lt; &quot;~A() &quot;; }
+};
+
+class B {
+public:
+    B() { cout &lt;&lt; &quot;B() &quot;; }
+    ~B() { cout &lt;&lt; &quot;~B() &quot;; }
+};
+
+class C {
+public:
+    C() { cout &lt;&lt; &quot;C() &quot;; }
+    ~C() { cout &lt;&lt; &quot;~C() &quot;; }
+};
+
+class D : public B, public A {
+    C c;
+public:
+    D() { cout &lt;&lt; &quot;D() &quot;; }
+    ~D() { cout &lt;&lt; &quot;~D() &quot;; }
+};
+
+int main() {
+    cout &lt;&lt; &quot;Create: &quot;;
+    D d;
+    cout &lt;&lt; endl &lt;&lt; &quot;Destroy: &quot;;
+    return 0;
+}</code></pre><div class="code-example-explanation">Construction order: base classes in declaration order (B, A), then member objects (C), then derived constructor (D). Destruction is the exact reverse: ~D, ~C, ~A, ~B. The order in the initializer list does not matter; the declaration order in the class definition determines construction order.</div><div class="code-example-output">Create: B() A() C() D() 
+Destroy: ~D() ~C() ~A() ~B() </div></div>
+<div class="code-example"><div class="code-example-title">Method Overriding and Base Class Method Call</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Printer {
+public:
+    virtual void print() {
+        cout &lt;&lt; &quot;Generic print&quot; &lt;&lt; endl;
+    }
+    virtual ~Printer() {}
+};
+
+class ColorPrinter : public Printer {
+public:
+    void print() override {
+        Printer::print();  // Call base version first
+        cout &lt;&lt; &quot;With color!&quot; &lt;&lt; endl;
+    }
+};
+
+class PhotoPrinter : public ColorPrinter {
+public:
+    void print() override {
+        ColorPrinter::print();  // Call parent version
+        cout &lt;&lt; &quot;High resolution!&quot; &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Printer* p = new PhotoPrinter();
+    p-&gt;print();
+    delete p;
+    return 0;
+}</code></pre><div class="code-example-explanation">Each derived class overrides <code>print()</code> but also calls the base version using scope resolution (<code>Base::method()</code>). This creates a chain: PhotoPrinter calls ColorPrinter::print(), which calls Printer::print(). This pattern is common for extending rather than replacing base behavior.</div><div class="code-example-output">Generic print
+With color!
+High resolution!</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting to Call Base Class Constructor</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Base {
+    int x;
+public:
+    Base(int v) : x(v) {}
+};
+
+class Derived : public Base {
+public:
+    Derived() {}  // Error: no default constructor for Base!
+};</code></pre></div><div class="error-message">Compilation error: no matching constructor for Base. Base requires an int argument but Derived&#39;s constructor does not provide one.</div><div class="correct-code"><pre><code class="language-python">class Base {
+    int x;
+public:
+    Base(int v) : x(v) {}
+};
+
+class Derived : public Base {
+public:
+    Derived() : Base(0) {}   // Explicitly call Base(int)
+    Derived(int v) : Base(v) {}
+};</code></pre></div><div class="mistake-explanation">If the base class does not have a default constructor, the derived class must explicitly call a base constructor in its initializer list. The compiler cannot automatically construct the base without the required argument.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Ambiguous Member Access in Diamond Inheritance</h3>
+                <div class="wrong-code"><pre><code class="language-python">class A {
+public:
+    int x = 10;
+};
+class B : public A {};
+class C : public A {};
+class D : public B, public C {
+public:
+    void show() {
+        cout &lt;&lt; x;  // Error: ambiguous!
+    }
+};</code></pre></div><div class="error-message">Compilation error: reference to &#39;x&#39; is ambiguous. D has two copies of A::x (one via B, one via C).</div><div class="correct-code"><pre><code class="language-python">// Option 1: Disambiguate with scope
+class D : public B, public C {
+public:
+    void show() {
+        cout &lt;&lt; B::x;  // Explicitly choose B&#39;s copy
+    }
+};
+
+// Option 2: Use virtual inheritance
+class B : virtual public A {};
+class C : virtual public A {};
+class D : public B, public C {
+public:
+    void show() {
+        cout &lt;&lt; x;  // OK: only one copy of A
+    }
+};</code></pre></div><div class="mistake-explanation">Without virtual inheritance, the diamond creates two copies of the base class. Access to shared members is ambiguous. Either disambiguate with scope resolution or use virtual inheritance to maintain a single copy.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Calling Virtual Base Constructor from Most Derived Class</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Base {
+public:
+    Base(int x) { cout &lt;&lt; &quot;Base(&quot; &lt;&lt; x &lt;&lt; &quot;)&quot; &lt;&lt; endl; }
+};
+class Mid : virtual public Base {
+public:
+    Mid(int x) : Base(x) { cout &lt;&lt; &quot;Mid&quot; &lt;&lt; endl; }
+};
+class Leaf : public Mid {
+public:
+    Leaf(int x) : Mid(x) {}  // Base default constructor called!
+};</code></pre></div><div class="error-message">With virtual inheritance, the most derived class (Leaf) must call the virtual base constructor directly. If it does not, the default constructor of Base is called (if one exists), which may not be intended.</div><div class="correct-code"><pre><code class="language-python">class Leaf : public Mid {
+public:
+    Leaf(int x) : Base(x), Mid(x) {}  // Leaf calls Base directly
+};</code></pre></div><div class="mistake-explanation">In virtual inheritance, intermediate classes' calls to the virtual base constructor are ignored. Only the most derived class's call takes effect. If Leaf does not call <code>Base(x)</code>, the default <code>Base()</code> is used.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing Method Hiding with Overriding</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Base {
+public:
+    void show() { cout &lt;&lt; &quot;Base&quot; &lt;&lt; endl; }
+};
+class Derived : public Base {
+public:
+    void show() { cout &lt;&lt; &quot;Derived&quot; &lt;&lt; endl; }
+};
+
+Base* b = new Derived();
+b-&gt;show();  // Prints &quot;Base&quot; (not overridden!)</code></pre></div><div class="error-message">Prints &quot;Base&quot; instead of &quot;Derived&quot;. Without the virtual keyword, show() in Derived hides Base::show() but does not override it. The call is resolved at compile time.</div><div class="correct-code"><pre><code class="language-python">class Base {
+public:
+    virtual void show() { cout &lt;&lt; &quot;Base&quot; &lt;&lt; endl; }
+    virtual ~Base() {}
+};
+class Derived : public Base {
+public:
+    void show() override { cout &lt;&lt; &quot;Derived&quot; &lt;&lt; endl; }
+};
+
+Base* b = new Derived();
+b-&gt;show();  // Prints &quot;Derived&quot; (properly overridden)
+delete b;</code></pre></div><div class="mistake-explanation">Hiding occurs when a derived class defines a function with the same name as a base class non-virtual function. The base version is hidden but not overridden. For polymorphism, the base function must be <code>virtual</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrong Constructor Order Assumption</h3>
+                <div class="wrong-code"><pre><code class="language-python">class A {};
+class B {};
+
+// Declaration order: B first, then A
+class C : public B, public A {
+public:
+    // Initializer list order does not determine construction order!
+    C() : A(), B() {}  // A() listed first, but B is constructed first
+};</code></pre></div><div class="error-message">Some compilers will warn: &#39;A&#39; will be initialized after &#39;B&#39;. The construction order is determined by the declaration order in the class definition (B, A), not the initializer list order.</div><div class="correct-code"><pre><code class="language-python">class C : public B, public A {
+public:
+    C() : B(), A() {}  // Match initializer list to declaration order
+};</code></pre></div><div class="mistake-explanation">Base class constructors are called in the order they appear in the class definition, not the order in the initializer list. Always match your initializer list order to the declaration order to avoid confusion and compiler warnings.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Inheritance allows a derived class to acquire members of a base class. The syntax is class Derived : access-mode Base.</li>
+<li>C++ supports five types of inheritance: single, multiple, multilevel, hierarchical, and hybrid. Java does not support multiple class inheritance; C++ does.</li>
+<li>Public inheritance preserves base access levels (is-a). Protected inheritance makes public members protected. Private inheritance makes all inherited members private (implemented-in-terms-of).</li>
+<li>Constructors are called base-to-derived. Destructors are called derived-to-base. With multiple inheritance, the order follows the declaration order in the class definition.</li>
+<li>The diamond problem occurs when a class inherits from two classes that share a common base. Without virtual inheritance, the derived class gets two copies of the base.</li>
+<li>Virtual inheritance (class Derived : virtual public Base) ensures only one copy of the shared base exists. The most derived class must call the virtual base constructor.</li>
+<li>A derived class can override a base class method. Without the virtual keyword, this is hiding (static binding). With virtual, it is true overriding (dynamic binding).</li>
+<li>Use Base::method() to explicitly call a base class method from a derived class.</li>
+<li>Private members of a base class are never accessible in derived classes, regardless of the inheritance mode. Protected members are accessible in derived classes.</li>
+<li>In virtual inheritance, the virtual base class is constructed first, before any non-virtual bases. The most derived class is responsible for its initialization.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/encapsulation-and-access-specifiers" class="related-topic-link">Encapsulation, Access Specifiers, and Friend Functions</a>
+<a href="/resources/cpp/polymorphism-in-cpp" class="related-topic-link">Polymorphism - Virtual Functions and Operator Overloading</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/encapsulation-and-access-specifiers" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Encapsulation, Access Specifiers, and Friend Functions</span>
+        </a>
+            <a href="/resources/cpp/polymorphism-in-cpp" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Polymorphism - Virtual Functions and Operator Overloading</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/inheritance-in-cpp/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

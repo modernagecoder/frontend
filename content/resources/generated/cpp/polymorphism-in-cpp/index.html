@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymorphism - Virtual Functions and Operator Overloading - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Master compile-time (overloading) and runtime (virtual functions, vtable) polymorphism and operator overloading.">
+    <meta name="keywords" content="polymorphism - virtual functions and operator overloading, c++ tutorial, c++ polymorphism - virtual functions and operator overloading, learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp">
+    <meta property="og:title" content="Polymorphism - Virtual Functions and Operator Overloading - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Master compile-time (overloading) and runtime (virtual functions, vtable) polymorphism and operator overloading.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp">
+    <meta name="twitter:title" content="Polymorphism - Virtual Functions and Operator Overloading - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Master compile-time (overloading) and runtime (virtual functions, vtable) polymorphism and operator overloading.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Polymorphism - Virtual Functions and Operator Overloading",
+    "description": "Master compile-time (overloading) and runtime (virtual functions, vtable) polymorphism and operator overloading.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Polymorphism - Virtual Functions and Operator Overloading",
+        "item": "https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting the virtual Keyword (No Polymorphism)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Without the <code>virtual</code> keyword, C++ uses static binding. The function called depends on the pointer/reference type, not the object type. Add <code>virtual</code> to enable dynamic dispatch via the vtable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Missing Virtual Destructor (Memory Leak)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If any class has virtual functions or is intended as a base class, its destructor must be virtual. Otherwise, deleting a derived object through a base pointer causes undefined behavior and likely memory/resource leaks."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Object Slicing When Passing by Value",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Passing a derived object by value to a base class parameter copies only the base portion. The derived data and vtable pointer are lost. Always use references or pointers for polymorphic parameters."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing Prefix and Postfix ++ Operator Overloading",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Prefix <code>++</code> takes no parameters and returns <code>*this</code> by reference. Postfix <code>++</code> takes a dummy <code>int</code> parameter and returns a copy of the old value. Getting these mixed up is a common interview mistake."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using dynamic_cast Without Virtual Functions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>dynamic_cast</code> relies on RTTI, which requires a vtable. A class must have at least one virtual function for <code>dynamic_cast</code> to work. Without it, use <code>static_cast</code> (but without runtime safety)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Overloading << as a Member Function",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>&lt;&lt;</code> and <code>&gt;&gt;</code> operators must be non-member (usually friend) functions because the left operand is <code>ostream</code>/<code>istream</code>, not your class. As a member function, the left operand would have to be your class object."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Polymorphism - Virtual Functions and Operator Overloading</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 16</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Polymorphism - Virtual Functions and Operator Overloading</h1>
+            <a href="/resources/cpp/polymorphism-in-cpp/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Polymorphism in C++?</h2><p><strong>Polymorphism</strong> means "many forms." In C++, it refers to the ability of a single function name, operator, or object reference to behave differently depending on the context. A base class pointer can point to a derived class object, and the function that gets called depends on the actual object type when virtual functions are used.</p><p>C++ supports two distinct types of polymorphism:</p><pre><code>// 1. Compile-time polymorphism (Function Overloading)
+class Calculator {
+public:
+    int add(int a, int b) { return a + b; }
+    double add(double a, double b) { return a + b; }
+};
+
+// 2. Runtime polymorphism (Virtual Functions)
+class Animal {
+public:
+    virtual void sound() { cout &lt;&lt; "Some sound" &lt;&lt; endl; }
+    virtual ~Animal() {}
+};
+class Dog : public Animal {
+public:
+    void sound() override { cout &lt;&lt; "Bark" &lt;&lt; endl; }
+};
+
+Animal* a = new Dog();
+a-&gt;sound();  // Bark (runtime decision via vtable)
+delete a;    // Calls Dog destructor then Animal destructor</code></pre><p>In the first case, the compiler resolves which <code>add</code> to call based on argument types. In the second case, the decision happens at runtime through a mechanism called the <strong>vtable</strong> (virtual table). The <code>virtual</code> keyword is what enables runtime polymorphism in C++. Without it, the base class version would always be called regardless of the actual object type.</p><p>C++ also supports <strong>operator overloading</strong>, which is a form of compile-time polymorphism where you redefine the meaning of operators like <code>+</code>, <code>-</code>, <code>==</code>, <code>&lt;&lt;</code>, and <code>[]</code> for user-defined types.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Does Polymorphism Matter?</h2><p>Polymorphism is one of the four pillars of Object-Oriented Programming. In C++, it is more nuanced than in Java or Python because the programmer must explicitly opt into runtime polymorphism using the <code>virtual</code> keyword, and must understand the underlying vtable mechanism.</p><h3>1. Extensibility Without Modification</h3><p>When Arjun writes a function that accepts a <code>Shape*</code> pointer, it works with <code>Circle</code>, <code>Rectangle</code>, <code>Triangle</code>, or any future shape subclass. He does not modify existing code when a new shape is added. This is the Open-Closed Principle.</p><h3>2. The vtable Mechanism Is a Top Interview Topic</h3><p>Every major tech company asks about vtable and vptr in C++ interviews. Understanding how the compiler creates a virtual function table, how each object gets a hidden vptr, and how dynamic dispatch works through this table is essential for placements at companies like Google, Microsoft, Amazon, and Flipkart.</p><h3>3. Operator Overloading Makes User-Defined Types Feel Native</h3><p>When Kavya defines a <code>Matrix</code> class and overloads <code>+</code>, <code>*</code>, and <code>&lt;&lt;</code>, she can write <code>Matrix C = A + B;</code> instead of <code>Matrix C = A.add(B);</code>. This makes user-defined types as intuitive as built-in types.</p><h3>4. Resource Safety Requires Virtual Destructors</h3><p>If Ravi deletes a derived class object through a base class pointer without a virtual destructor, the derived destructor never runs. This causes memory leaks and resource leaks. Understanding virtual destructors is critical for writing safe C++ code.</p><h3>5. Competitive Programming and System Design</h3><p>While competitive programming favors templates over virtual functions (to avoid vtable overhead), understanding polymorphism is essential for system design rounds, low-level design problems, and building real-world applications like game engines, GUI frameworks, and plugin architectures.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Compile-Time Polymorphism: Function Overloading</h3><p>Function overloading allows multiple functions with the same name but different parameter lists. The compiler resolves which function to call at compile time based on argument types and count.</p><pre><code>class MathUtils {
+public:
+    int add(int a, int b) { return a + b; }
+    int add(int a, int b, int c) { return a + b + c; }
+    double add(double a, double b) { return a + b; }
+};
+
+MathUtils m;
+cout &lt;&lt; m.add(2, 3) &lt;&lt; endl;       // 5 (int, int)
+cout &lt;&lt; m.add(2, 3, 4) &lt;&lt; endl;    // 9 (int, int, int)
+cout &lt;&lt; m.add(2.5, 3.5) &lt;&lt; endl;   // 6.0 (double, double)</code></pre><h3>2. Operator Overloading</h3><p>C++ allows redefining operators for user-defined types. You can overload most operators as member functions or friend functions.</p><pre><code>class Complex {
+    double real, imag;
+public:
+    Complex(double r = 0, double i = 0) : real(r), imag(i) {}
+
+    // + operator (member function)
+    Complex operator+(const Complex&amp; other) const {
+        return Complex(real + other.real, imag + other.imag);
+    }
+
+    // == operator
+    bool operator==(const Complex&amp; other) const {
+        return real == other.real &amp;&amp; imag == other.imag;
+    }
+
+    // Prefix ++
+    Complex&amp; operator++() {
+        ++real;
+        return *this;
+    }
+
+    // Postfix ++
+    Complex operator++(int) {
+        Complex temp = *this;
+        ++real;
+        return temp;
+    }
+
+    // &lt;&lt; operator (must be friend, not member)
+    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Complex&amp; c) {
+        os &lt;&lt; c.real &lt;&lt; " + " &lt;&lt; c.imag &lt;&lt; "i";
+        return os;
+    }
+};</code></pre><p>Rules of operator overloading:</p><ul><li>Cannot overload: <code>::</code>, <code>.</code>, <code>.*</code>, <code>?:</code>, <code>sizeof</code>, <code>typeid</code></li><li>Cannot create new operators</li><li>Cannot change the number of operands (binary stays binary)</li><li><code>=</code>, <code>()</code>, <code>[]</code>, <code>-&gt;</code> must be member functions</li><li><code>&lt;&lt;</code> and <code>&gt;&gt;</code> are typically overloaded as friend functions</li><li>At least one operand must be a user-defined type</li></ul><h3>3. The [] and () Operators</h3><pre><code>class Array {
+    int* data;
+    int size;
+public:
+    Array(int n) : size(n), data(new int[n]()) {}
+    ~Array() { delete[] data; }
+
+    int&amp; operator[](int index) {
+        if (index &lt; 0 || index &gt;= size)
+            throw out_of_range("Index out of bounds");
+        return data[index];
+    }
+};
+
+class Multiplier {
+    int factor;
+public:
+    Multiplier(int f) : factor(f) {}
+    int operator()(int x) const { return x * factor; }  // functor
+};
+
+Multiplier triple(3);
+cout &lt;&lt; triple(10) &lt;&lt; endl;  // 30</code></pre><h3>4. Runtime Polymorphism: Virtual Functions</h3><p>When a function is declared <code>virtual</code> in the base class, C++ uses dynamic dispatch to call the correct version based on the actual object type at runtime.</p><pre><code>class Shape {
+public:
+    virtual double area() const { return 0; }
+    virtual string name() const { return "Shape"; }
+    virtual ~Shape() {}
+};
+
+class Circle : public Shape {
+    double radius;
+public:
+    Circle(double r) : radius(r) {}
+    double area() const override { return 3.14159 * radius * radius; }
+    string name() const override { return "Circle"; }
+};
+
+class Rectangle : public Shape {
+    double w, h;
+public:
+    Rectangle(double w, double h) : w(w), h(h) {}
+    double area() const override { return w * h; }
+    string name() const override { return "Rectangle"; }
+};
+
+Shape* s = new Circle(5);
+cout &lt;&lt; s-&gt;name() &lt;&lt; ": " &lt;&lt; s-&gt;area() &lt;&lt; endl;  // Circle: 78.5398
+delete s;</code></pre><h3>5. vtable and vptr Mechanism</h3><p>When a class has at least one virtual function, the compiler creates a <strong>vtable</strong> (virtual function table) for that class. The vtable is an array of function pointers, one for each virtual function. Each object of that class contains a hidden <strong>vptr</strong> (virtual pointer) that points to the class's vtable.</p><pre><code>// Conceptual layout:
+// Shape vtable:     [&amp;Shape::area, &amp;Shape::name, &amp;Shape::~Shape]
+// Circle vtable:    [&amp;Circle::area, &amp;Circle::name, &amp;Circle::~Circle]
+// Rectangle vtable: [&amp;Rectangle::area, &amp;Rectangle::name, &amp;Rectangle::~Rectangle]
+
+// When you call s-&gt;area():
+// 1. Follow s-&gt;vptr to the vtable
+// 2. Look up the area() slot
+// 3. Call the function pointer found there</code></pre><p>This is why virtual function calls have a small overhead compared to non-virtual calls: one extra pointer dereference. Each object with virtual functions is also slightly larger (by one pointer, typically 8 bytes on 64-bit systems) due to the hidden vptr.</p><h3>6. Virtual Destructor</h3><p>If you delete a derived class object through a base class pointer, and the base class destructor is not virtual, only the base destructor runs. The derived destructor is skipped, causing resource leaks.</p><pre><code>class Base {
+public:
+    Base() { cout &lt;&lt; "Base constructed" &lt;&lt; endl; }
+    virtual ~Base() { cout &lt;&lt; "Base destroyed" &lt;&lt; endl; }
+};
+
+class Derived : public Base {
+    int* data;
+public:
+    Derived() : data(new int[100]) { cout &lt;&lt; "Derived constructed" &lt;&lt; endl; }
+    ~Derived() { delete[] data; cout &lt;&lt; "Derived destroyed" &lt;&lt; endl; }
+};
+
+Base* b = new Derived();
+delete b;
+// With virtual ~Base(): Derived destroyed, then Base destroyed (correct)
+// Without virtual ~Base(): Only Base destroyed (memory leak!)</code></pre><p><strong>Rule:</strong> If a class has any virtual function, it should have a virtual destructor. If a class is designed to be a base class, always make its destructor virtual.</p><h3>7. Pure Virtual Functions</h3><p>A pure virtual function has no implementation in the base class and forces derived classes to provide one:</p><pre><code>class Shape {
+public:
+    virtual double area() const = 0;  // pure virtual
+    virtual ~Shape() {}
+};
+// Shape s;  // Error: cannot instantiate abstract class</code></pre><h3>8. dynamic_cast and RTTI</h3><p><code>dynamic_cast</code> provides safe downcasting at runtime. It checks whether the cast is valid using RTTI (Runtime Type Information). If the cast fails, it returns <code>nullptr</code> for pointers or throws <code>bad_cast</code> for references.</p><pre><code>class Animal {
+public:
+    virtual ~Animal() {}
+};
+class Dog : public Animal {
+public:
+    void fetch() { cout &lt;&lt; "Fetching" &lt;&lt; endl; }
+};
+class Cat : public Animal {};
+
+Animal* a = new Dog();
+Dog* d = dynamic_cast&lt;Dog*&gt;(a);  // succeeds, d != nullptr
+Cat* c = dynamic_cast&lt;Cat*&gt;(a);  // fails, c == nullptr
+
+if (d) d-&gt;fetch();
+if (c) cout &lt;&lt; "This never prints" &lt;&lt; endl;
+
+// typeid (also RTTI)
+cout &lt;&lt; typeid(*a).name() &lt;&lt; endl;  // implementation-defined, but identifies Dog
+delete a;</code></pre><p><code>dynamic_cast</code> requires the base class to have at least one virtual function (i.e., it needs the vptr/vtable to work).</p><h3>9. The Slicing Problem</h3><p>When a derived class object is passed by value to a function expecting a base class parameter, the derived part is "sliced off." Only the base class portion is copied.</p><pre><code>class Base {
+public:
+    virtual void show() { cout &lt;&lt; "Base" &lt;&lt; endl; }
+};
+class Derived : public Base {
+    int extra;
+public:
+    Derived() : extra(42) {}
+    void show() override { cout &lt;&lt; "Derived: " &lt;&lt; extra &lt;&lt; endl; }
+};
+
+void display(Base b) {  // Passed by VALUE - slicing!
+    b.show();  // Always prints "Base"
+}
+
+void displayCorrect(Base&amp; b) {  // Passed by REFERENCE - no slicing
+    b.show();  // Prints "Derived: 42" if b is Derived
+}
+
+Derived d;
+display(d);         // Base (sliced!)
+displayCorrect(d);  // Derived: 42 (correct)</code></pre><p><strong>Rule:</strong> Always pass polymorphic objects by pointer or reference, never by value.</p><h3>10. override and final Keywords (C++11)</h3><p>The <code>override</code> keyword explicitly marks a function as overriding a base class virtual function. If the signature does not match, the compiler reports an error. The <code>final</code> keyword prevents further overriding.</p><pre><code>class Base {
+public:
+    virtual void foo(int x) {}
+    virtual void bar() {}
+};
+
+class Derived : public Base {
+public:
+    void foo(int x) override {}   // OK: matches Base::foo
+    // void foo(double x) override {}  // Error: no matching base function
+    void bar() override final {}  // OK, but no further override allowed
+};
+
+class Derived2 : public Derived {
+public:
+    // void bar() override {}  // Error: bar is final in Derived
+};</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Compile-Time Polymorphism: Function Overloading</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Calculator {
+public:
+    int add(int a, int b) { return a + b; }
+    int add(int a, int b, int c) { return a + b + c; }
+    double add(double a, double b) { return a + b; }
+    string add(string a, string b) { return a + b; }
+};
+
+int main() {
+    Calculator calc;
+    cout &lt;&lt; calc.add(10, 20) &lt;&lt; endl;
+    cout &lt;&lt; calc.add(10, 20, 30) &lt;&lt; endl;
+    cout &lt;&lt; calc.add(2.5, 3.5) &lt;&lt; endl;
+    cout &lt;&lt; calc.add(string(&quot;Hello&quot;), string(&quot; World&quot;)) &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">The <code>Calculator</code> class has four <code>add</code> methods with different parameter types or counts. The compiler picks the correct method based on argument types at compile time. This is compile-time polymorphism (static binding).</div><div class="code-example-output">30
+60
+6
+Hello World</div></div>
+<div class="code-example"><div class="code-example-title">Operator Overloading: +, ==, &lt;&lt;, prefix/postfix ++</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Complex {
+    double real, imag;
+public:
+    Complex(double r = 0, double i = 0) : real(r), imag(i) {}
+
+    Complex operator+(const Complex&amp; other) const {
+        return Complex(real + other.real, imag + other.imag);
+    }
+
+    bool operator==(const Complex&amp; other) const {
+        return real == other.real &amp;&amp; imag == other.imag;
+    }
+
+    Complex&amp; operator++() {       // Prefix
+        ++real;
+        return *this;
+    }
+
+    Complex operator++(int) {     // Postfix
+        Complex temp = *this;
+        ++real;
+        return temp;
+    }
+
+    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Complex&amp; c) {
+        os &lt;&lt; c.real &lt;&lt; &quot; + &quot; &lt;&lt; c.imag &lt;&lt; &quot;i&quot;;
+        return os;
+    }
+};
+
+int main() {
+    Complex a(3, 4), b(1, 2);
+    Complex c = a + b;
+    cout &lt;&lt; &quot;a + b = &quot; &lt;&lt; c &lt;&lt; endl;
+    cout &lt;&lt; &quot;a == b: &quot; &lt;&lt; (a == b) &lt;&lt; endl;
+
+    cout &lt;&lt; &quot;Before ++: &quot; &lt;&lt; a &lt;&lt; endl;
+    ++a;
+    cout &lt;&lt; &quot;After prefix ++: &quot; &lt;&lt; a &lt;&lt; endl;
+    Complex old = a++;
+    cout &lt;&lt; &quot;Postfix ++ returned: &quot; &lt;&lt; old &lt;&lt; endl;
+    cout &lt;&lt; &quot;After postfix ++: &quot; &lt;&lt; a &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">This demonstrates overloading <code>+</code> (binary), <code>==</code> (comparison), prefix <code>++</code> (returns reference), and postfix <code>++</code> (takes dummy <code>int</code> parameter, returns copy). The <code>&lt;&lt;</code> operator must be a friend function because the left operand is <code>ostream</code>, not our class.</div><div class="code-example-output">a + b = 4 + 6i
+a == b: 0
+Before ++: 3 + 4i
+After prefix ++: 4 + 4i
+Postfix ++ returned: 4 + 4i
+After postfix ++: 5 + 4i</div></div>
+<div class="code-example"><div class="code-example-title">Runtime Polymorphism: Virtual Functions and Dynamic Dispatch</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Animal {
+public:
+    virtual void sound() const { cout &lt;&lt; &quot;Some generic sound&quot; &lt;&lt; endl; }
+    virtual ~Animal() {}
+};
+
+class Dog : public Animal {
+public:
+    void sound() const override { cout &lt;&lt; &quot;Bark&quot; &lt;&lt; endl; }
+};
+
+class Cat : public Animal {
+public:
+    void sound() const override { cout &lt;&lt; &quot;Meow&quot; &lt;&lt; endl; }
+};
+
+class Cow : public Animal {
+public:
+    void sound() const override { cout &lt;&lt; &quot;Moo&quot; &lt;&lt; endl; }
+};
+
+int main() {
+    Animal* animals[] = { new Dog(), new Cat(), new Cow(), new Animal() };
+    for (int i = 0; i &lt; 4; i++) {
+        animals[i]-&gt;sound();
+    }
+    for (int i = 0; i &lt; 4; i++) {
+        delete animals[i];
+    }
+    return 0;
+}</code></pre><div class="code-example-explanation">All pointers are of type <code>Animal*</code>, but the actual objects are <code>Dog</code>, <code>Cat</code>, <code>Cow</code>, and <code>Animal</code>. Because <code>sound()</code> is virtual, the vtable mechanism ensures the correct overridden version is called at runtime. The virtual destructor ensures proper cleanup.</div><div class="code-example-output">Bark
+Meow
+Moo
+Some generic sound</div></div>
+<div class="code-example"><div class="code-example-title">Virtual Destructor: Why It Is Needed</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Base {
+public:
+    Base() { cout &lt;&lt; &quot;Base constructed&quot; &lt;&lt; endl; }
+    virtual ~Base() { cout &lt;&lt; &quot;Base destroyed&quot; &lt;&lt; endl; }
+};
+
+class Derived : public Base {
+    int* data;
+public:
+    Derived() : data(new int[1000]) {
+        cout &lt;&lt; &quot;Derived constructed (allocated 1000 ints)&quot; &lt;&lt; endl;
+    }
+    ~Derived() {
+        delete[] data;
+        cout &lt;&lt; &quot;Derived destroyed (freed memory)&quot; &lt;&lt; endl;
+    }
+};
+
+int main() {
+    cout &lt;&lt; &quot;--- Deleting through base pointer ---&quot; &lt;&lt; endl;
+    Base* b = new Derived();
+    delete b;  // Both destructors run because ~Base is virtual
+
+    cout &lt;&lt; &quot;\n--- Deleting directly ---&quot; &lt;&lt; endl;
+    Derived* d = new Derived();
+    delete d;
+    return 0;
+}</code></pre><div class="code-example-explanation">With <code>virtual ~Base()</code>, deleting a <code>Derived</code> object through a <code>Base*</code> pointer correctly calls both destructors. Without the virtual keyword, only <code>~Base()</code> would run, leaking the dynamically allocated <code>data</code> array. This is one of the most common memory leak causes in C++.</div><div class="code-example-output">--- Deleting through base pointer ---
+Base constructed
+Derived constructed (allocated 1000 ints)
+Derived destroyed (freed memory)
+Base destroyed
+
+--- Deleting directly ---
+Base constructed
+Derived constructed (allocated 1000 ints)
+Derived destroyed (freed memory)
+Base destroyed</div></div>
+<div class="code-example"><div class="code-example-title">dynamic_cast for Safe Downcasting and RTTI</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;typeinfo&gt;
+using namespace std;
+
+class Vehicle {
+public:
+    virtual void start() { cout &lt;&lt; &quot;Vehicle starts&quot; &lt;&lt; endl; }
+    virtual ~Vehicle() {}
+};
+
+class Car : public Vehicle {
+public:
+    void start() override { cout &lt;&lt; &quot;Car starts with key&quot; &lt;&lt; endl; }
+    void openTrunk() { cout &lt;&lt; &quot;Trunk opened&quot; &lt;&lt; endl; }
+};
+
+class Bike : public Vehicle {
+public:
+    void start() override { cout &lt;&lt; &quot;Bike kick-started&quot; &lt;&lt; endl; }
+    void doWheelie() { cout &lt;&lt; &quot;Wheelie!&quot; &lt;&lt; endl; }
+};
+
+void process(Vehicle* v) {
+    v-&gt;start();
+    cout &lt;&lt; &quot;Type: &quot; &lt;&lt; typeid(*v).name() &lt;&lt; endl;
+
+    if (Car* c = dynamic_cast&lt;Car*&gt;(v)) {
+        c-&gt;openTrunk();
+    } else if (Bike* b = dynamic_cast&lt;Bike*&gt;(v)) {
+        b-&gt;doWheelie();
+    }
+}
+
+int main() {
+    Vehicle* v1 = new Car();
+    Vehicle* v2 = new Bike();
+    Vehicle* v3 = new Vehicle();
+
+    process(v1);
+    cout &lt;&lt; &quot;---&quot; &lt;&lt; endl;
+    process(v2);
+    cout &lt;&lt; &quot;---&quot; &lt;&lt; endl;
+    process(v3);
+
+    delete v1;
+    delete v2;
+    delete v3;
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>dynamic_cast</code> safely downcasts at runtime. If the actual object does not match the target type, it returns <code>nullptr</code> for pointers. <code>typeid(*v).name()</code> returns an implementation-defined name of the actual type. Both <code>dynamic_cast</code> and <code>typeid</code> are part of RTTI and require at least one virtual function in the base class.</div><div class="code-example-output">Car starts with key
+Type: 3Car
+Trunk opened
+---
+Bike kick-started
+Type: 4Bike
+Wheelie!
+---
+Vehicle starts
+Type: 7Vehicle</div></div>
+<div class="code-example"><div class="code-example-title">The Slicing Problem</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Base {
+public:
+    virtual void show() const { cout &lt;&lt; &quot;Base::show&quot; &lt;&lt; endl; }
+    virtual ~Base() {}
+};
+
+class Derived : public Base {
+    int value;
+public:
+    Derived(int v) : value(v) {}
+    void show() const override { cout &lt;&lt; &quot;Derived::show, value=&quot; &lt;&lt; value &lt;&lt; endl; }
+};
+
+void byValue(Base b) {
+    b.show();  // Always Base::show (sliced!)
+}
+
+void byReference(const Base&amp; b) {
+    b.show();  // Correct polymorphic call
+}
+
+void byPointer(const Base* b) {
+    b-&gt;show();  // Correct polymorphic call
+}
+
+int main() {
+    Derived d(42);
+
+    cout &lt;&lt; &quot;Pass by value (slicing):&quot; &lt;&lt; endl;
+    byValue(d);
+
+    cout &lt;&lt; &quot;Pass by reference (correct):&quot; &lt;&lt; endl;
+    byReference(d);
+
+    cout &lt;&lt; &quot;Pass by pointer (correct):&quot; &lt;&lt; endl;
+    byPointer(&amp;d);
+
+    return 0;
+}</code></pre><div class="code-example-explanation">When <code>Derived</code> is passed by value to a function expecting <code>Base</code>, the derived part (including <code>value</code>) is sliced off. The copy constructor copies only the <code>Base</code> portion. Passing by reference or pointer preserves the full object and enables polymorphism. This is a very common C++ interview question.</div><div class="code-example-output">Pass by value (slicing):
+Base::show
+Pass by reference (correct):
+Derived::show, value=42
+Pass by pointer (correct):
+Derived::show, value=42</div></div>
+<div class="code-example"><div class="code-example-title">Overloading [] and () Operators</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+
+class SafeArray {
+    int* data;
+    int size;
+public:
+    SafeArray(int n) : size(n), data(new int[n]()) {}
+    ~SafeArray() { delete[] data; }
+
+    int&amp; operator[](int index) {
+        if (index &lt; 0 || index &gt;= size)
+            throw out_of_range(&quot;Index out of bounds&quot;);
+        return data[index];
+    }
+
+    int getSize() const { return size; }
+};
+
+class Multiplier {
+    int factor;
+public:
+    Multiplier(int f) : factor(f) {}
+    int operator()(int x) const { return x * factor; }
+};
+
+int main() {
+    SafeArray arr(5);
+    for (int i = 0; i &lt; 5; i++) arr[i] = i * 10;
+    for (int i = 0; i &lt; 5; i++) cout &lt;&lt; arr[i] &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+
+    try {
+        arr[10] = 99;  // Throws out_of_range
+    } catch (const out_of_range&amp; e) {
+        cout &lt;&lt; &quot;Error: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+    }
+
+    Multiplier triple(3);
+    Multiplier square(0);  // Not really square, just demonstrating ()
+    cout &lt;&lt; &quot;triple(7) = &quot; &lt;&lt; triple(7) &lt;&lt; endl;
+    cout &lt;&lt; &quot;triple(12) = &quot; &lt;&lt; triple(12) &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">The <code>[]</code> operator provides array-like access with bounds checking. The <code>()</code> operator creates a functor (function object), which is heavily used in STL algorithms. Both must be member functions. Returning <code>int&amp;</code> from <code>[]</code> allows both reading and writing.</div><div class="code-example-output">0 10 20 30 40 
+Error: Index out of bounds
+triple(7) = 21
+triple(12) = 36</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting the virtual Keyword (No Polymorphism)</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Base {
+public:
+    void show() { cout &lt;&lt; &quot;Base&quot; &lt;&lt; endl; }  // NOT virtual
+};
+class Derived : public Base {
+public:
+    void show() { cout &lt;&lt; &quot;Derived&quot; &lt;&lt; endl; }
+};
+
+Base* b = new Derived();
+b-&gt;show();  // Prints &quot;Base&quot; (wrong!)
+delete b;</code></pre></div><div class="error-message">Prints &quot;Base&quot; instead of &quot;Derived&quot;. Without virtual, the call is resolved at compile time based on the pointer type (Base*), not the actual object type.</div><div class="correct-code"><pre><code class="language-python">class Base {
+public:
+    virtual void show() { cout &lt;&lt; &quot;Base&quot; &lt;&lt; endl; }  // virtual!
+    virtual ~Base() {}
+};
+class Derived : public Base {
+public:
+    void show() override { cout &lt;&lt; &quot;Derived&quot; &lt;&lt; endl; }
+};
+
+Base* b = new Derived();
+b-&gt;show();  // Prints &quot;Derived&quot; (correct)
+delete b;</code></pre></div><div class="mistake-explanation">Without the <code>virtual</code> keyword, C++ uses static binding. The function called depends on the pointer/reference type, not the object type. Add <code>virtual</code> to enable dynamic dispatch via the vtable.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Missing Virtual Destructor (Memory Leak)</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Base {
+public:
+    ~Base() { cout &lt;&lt; &quot;~Base&quot; &lt;&lt; endl; }  // NOT virtual
+};
+class Derived : public Base {
+    int* arr;
+public:
+    Derived() : arr(new int[100]) {}
+    ~Derived() { delete[] arr; cout &lt;&lt; &quot;~Derived&quot; &lt;&lt; endl; }
+};
+
+Base* b = new Derived();
+delete b;  // Only ~Base runs. ~Derived is skipped. Memory leak!</code></pre></div><div class="error-message">Only &quot;~Base&quot; prints. The Derived destructor never runs, so the int[100] array is leaked. This is undefined behavior.</div><div class="correct-code"><pre><code class="language-python">class Base {
+public:
+    virtual ~Base() { cout &lt;&lt; &quot;~Base&quot; &lt;&lt; endl; }
+};
+class Derived : public Base {
+    int* arr;
+public:
+    Derived() : arr(new int[100]) {}
+    ~Derived() { delete[] arr; cout &lt;&lt; &quot;~Derived&quot; &lt;&lt; endl; }
+};
+
+Base* b = new Derived();
+delete b;  // ~Derived then ~Base. No leak.</code></pre></div><div class="mistake-explanation">If any class has virtual functions or is intended as a base class, its destructor must be virtual. Otherwise, deleting a derived object through a base pointer causes undefined behavior and likely memory/resource leaks.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Object Slicing When Passing by Value</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Shape {
+public:
+    virtual void draw() { cout &lt;&lt; &quot;Shape&quot; &lt;&lt; endl; }
+};
+class Circle : public Shape {
+public:
+    void draw() override { cout &lt;&lt; &quot;Circle&quot; &lt;&lt; endl; }
+};
+
+void render(Shape s) {  // Pass by value: slicing!
+    s.draw();
+}
+
+Circle c;
+render(c);  // Prints &quot;Shape&quot; (wrong!)</code></pre></div><div class="error-message">Prints &quot;Shape&quot; instead of &quot;Circle&quot;. The Circle object is sliced to a Shape when copied by value.</div><div class="correct-code"><pre><code class="language-python">void render(const Shape&amp; s) {  // Pass by reference
+    s.draw();
+}
+
+Circle c;
+render(c);  // Prints &quot;Circle&quot; (correct)</code></pre></div><div class="mistake-explanation">Passing a derived object by value to a base class parameter copies only the base portion. The derived data and vtable pointer are lost. Always use references or pointers for polymorphic parameters.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing Prefix and Postfix ++ Operator Overloading</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Counter {
+    int val;
+public:
+    Counter(int v) : val(v) {}
+    Counter operator++() {     // Intended as prefix
+        Counter temp = *this;  // Wrong: this is postfix logic
+        val++;
+        return temp;
+    }
+};</code></pre></div><div class="error-message">The prefix ++ should return the incremented object by reference, not a copy of the old value. This code behaves like postfix ++.</div><div class="correct-code"><pre><code class="language-python">class Counter {
+    int val;
+public:
+    Counter(int v) : val(v) {}
+
+    Counter&amp; operator++() {      // Prefix: increment, return *this
+        ++val;
+        return *this;
+    }
+
+    Counter operator++(int) {    // Postfix: save old, increment, return old
+        Counter temp = *this;
+        ++val;
+        return temp;
+    }
+};</code></pre></div><div class="mistake-explanation">Prefix <code>++</code> takes no parameters and returns <code>*this</code> by reference. Postfix <code>++</code> takes a dummy <code>int</code> parameter and returns a copy of the old value. Getting these mixed up is a common interview mistake.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using dynamic_cast Without Virtual Functions</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Base {
+public:
+    void show() { cout &lt;&lt; &quot;Base&quot; &lt;&lt; endl; }
+    // No virtual functions!
+};
+class Derived : public Base {};
+
+Base* b = new Derived();
+Derived* d = dynamic_cast&lt;Derived*&gt;(b);  // Compilation error!</code></pre></div><div class="error-message">Compilation error: &#39;Base&#39; is not polymorphic. dynamic_cast requires the source type to have at least one virtual function.</div><div class="correct-code"><pre><code class="language-python">class Base {
+public:
+    virtual void show() { cout &lt;&lt; &quot;Base&quot; &lt;&lt; endl; }
+    virtual ~Base() {}
+};
+class Derived : public Base {};
+
+Base* b = new Derived();
+Derived* d = dynamic_cast&lt;Derived*&gt;(b);  // OK: Base is polymorphic
+if (d) cout &lt;&lt; &quot;Cast succeeded&quot; &lt;&lt; endl;
+delete b;</code></pre></div><div class="mistake-explanation"><code>dynamic_cast</code> relies on RTTI, which requires a vtable. A class must have at least one virtual function for <code>dynamic_cast</code> to work. Without it, use <code>static_cast</code> (but without runtime safety).</div>
+            </div>
+<div class="mistake-card">
+                <h3>Overloading &lt;&lt; as a Member Function</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Point {
+    int x, y;
+public:
+    Point(int x, int y) : x(x), y(y) {}
+    ostream&amp; operator&lt;&lt;(ostream&amp; os) {  // Member function
+        os &lt;&lt; &quot;(&quot; &lt;&lt; x &lt;&lt; &quot;, &quot; &lt;&lt; y &lt;&lt; &quot;)&quot;;
+        return os;
+    }
+};
+
+Point p(3, 4);
+cout &lt;&lt; p;  // Error! This calls cout.operator&lt;&lt;(p), not p.operator&lt;&lt;(cout)</code></pre></div><div class="error-message">Compilation error. When &lt;&lt; is a member function of Point, the left operand must be Point: p &lt;&lt; cout works but cout &lt;&lt; p does not.</div><div class="correct-code"><pre><code class="language-python">class Point {
+    int x, y;
+public:
+    Point(int x, int y) : x(x), y(y) {}
+    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Point&amp; p) {
+        os &lt;&lt; &quot;(&quot; &lt;&lt; p.x &lt;&lt; &quot;, &quot; &lt;&lt; p.y &lt;&lt; &quot;)&quot;;
+        return os;
+    }
+};
+
+Point p(3, 4);
+cout &lt;&lt; p;  // Works: calls operator&lt;&lt;(cout, p)</code></pre></div><div class="mistake-explanation">The <code>&lt;&lt;</code> and <code>&gt;&gt;</code> operators must be non-member (usually friend) functions because the left operand is <code>ostream</code>/<code>istream</code>, not your class. As a member function, the left operand would have to be your class object.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>C++ supports two types of polymorphism: compile-time (function overloading, operator overloading) and runtime (virtual functions).</li>
+<li>Function overloading allows multiple functions with the same name but different parameter lists. The compiler resolves which to call at compile time.</li>
+<li>Operator overloading lets you redefine operators (+, -, ==, &lt;&lt;, &gt;&gt;, [], (), ++, etc.) for user-defined types. You cannot overload ::, ., .*, ?:, sizeof, or typeid.</li>
+<li>The &lt;&lt; and &gt;&gt; operators must be overloaded as friend (non-member) functions. =, (), [], and -&gt; must be member functions.</li>
+<li>Prefix ++ returns *this by reference (no parameter). Postfix ++ takes a dummy int parameter and returns a copy of the old value.</li>
+<li>Runtime polymorphism requires the virtual keyword. Without it, function calls are resolved at compile time based on the pointer/reference type.</li>
+<li>The vtable is a per-class array of function pointers for virtual functions. Each object with virtual functions has a hidden vptr pointing to its class&#39;s vtable. This adds one pointer of overhead per object.</li>
+<li>A virtual destructor is mandatory when deleting derived objects through base pointers. Without it, the derived destructor is skipped, causing memory leaks and undefined behavior.</li>
+<li>dynamic_cast provides safe downcasting at runtime. It returns nullptr for failed pointer casts and throws bad_cast for failed reference casts. It requires RTTI (at least one virtual function).</li>
+<li>The slicing problem occurs when a derived object is passed by value to a base parameter. The derived part is sliced off. Always use references or pointers for polymorphic parameters.</li>
+<li>The override keyword (C++11) ensures a function actually overrides a base class virtual function. The final keyword prevents further overriding.</li>
+<li>typeid (from &lt;typeinfo&gt;) returns type information at runtime. It works with polymorphic types (those with virtual functions) to identify the actual object type.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/inheritance-in-cpp" class="related-topic-link">Inheritance in C++</a>
+<a href="/resources/cpp/abstraction-and-interfaces" class="related-topic-link">Abstract Classes, Pure Virtual Functions, and Interfaces</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/inheritance-in-cpp" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Inheritance in C++</span>
+        </a>
+            <a href="/resources/cpp/abstraction-and-interfaces" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Abstract Classes, Pure Virtual Functions, and Interfaces</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/polymorphism-in-cpp/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

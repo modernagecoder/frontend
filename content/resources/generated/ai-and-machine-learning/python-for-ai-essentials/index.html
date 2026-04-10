@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python for AI - NumPy, Pandas, and Matplotlib - AI and Machine Learning Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Master the essential Python libraries for AI: NumPy for math, Pandas for data, and Matplotlib for visualization.">
+    <meta name="keywords" content="python for ai - numpy, pandas, and matplotlib, ai and machine learning tutorial, ai and machine learning python for ai - numpy, pandas, and matplotlib, learn ai and machine learning">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials">
+    <meta property="og:title" content="Python for AI - NumPy, Pandas, and Matplotlib - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Master the essential Python libraries for AI: NumPy for math, Pandas for data, and Matplotlib for visualization.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials">
+    <meta name="twitter:title" content="Python for AI - NumPy, Pandas, and Matplotlib - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Master the essential Python libraries for AI: NumPy for math, Pandas for data, and Matplotlib for visualization.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Python for AI - NumPy, Pandas, and Matplotlib",
+    "description": "Master the essential Python libraries for AI: NumPy for math, Pandas for data, and Matplotlib for visualization.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Python for AI - NumPy, Pandas, and Matplotlib",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using Python Lists Instead of NumPy Arrays for Math",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Python's <code>*</code> operator on lists performs repetition, not element-wise multiplication. <code>[1, 2] * 2</code> gives <code>[1, 2, 1, 2]</code>. NumPy arrays perform element-wise operations: <code>np.array([1, 2]) * 2</code> gives <code>[2, 4]</code>. Always use NumPy arrays for numerical computations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting Parentheses in Pandas Multi-Condition Filtering",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In Pandas, when combining multiple conditions with <code>&</code> (AND) or <code>|</code> (OR), each individual condition MUST be wrapped in parentheses. This is because Python's operator precedence evaluates <code>&</code> before <code>></code>. Without parentheses, Python tries to compute <code>20 & df['marks']</code> first, which causes the error."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing loc (Label) with iloc (Integer Position)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>loc</code> selects by label (the index name). <code>iloc</code> selects by integer position (0, 1, 2...). With custom string indices, <code>iloc['x']</code> fails because iloc expects integers. A key difference: <code>loc[0:2]</code> includes index 2 (label-inclusive), while <code>iloc[0:2]</code> excludes index 2 (position-exclusive, like Python slicing)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Modifying a Slice of DataFrame Without .copy()",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When you filter a DataFrame, Pandas may return a view (reference to original data) or a copy, depending on the operation. Modifying a view can unexpectedly change the original DataFrame or may not work at all. Using <code>.copy()</code> creates an independent copy that you can safely modify. This is one of the most common Pandas gotchas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using plt.show() in Scripts Without Saving First",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In Matplotlib, <code>plt.show()</code> displays the figure and then clears it. If you call <code>plt.savefig()</code> after <code>plt.show()</code>, you get a blank image. Always save before showing. In non-interactive environments (scripts, servers), use <code>matplotlib.use('Agg')</code> and only <code>savefig()</code> without <code>show()</code>."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Python for AI - NumPy, Pandas, and Matplotlib</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 2</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">30 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Python for AI - NumPy, Pandas, and Matplotlib</h1>
+            <a href="/resources/ai-and-machine-learning/python-for-ai-essentials/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are NumPy, Pandas, and Matplotlib?</h2><p>Before you can build any AI or ML model, you need to be fluent in three foundational Python libraries. These are the tools that every data scientist and ML engineer uses daily, and mastering them is non-negotiable.</p><p><strong>NumPy (Numerical Python)</strong> is the foundation of all numerical computing in Python. It provides fast, memory-efficient arrays and a massive collection of mathematical functions. Every ML library (scikit-learn, TensorFlow, PyTorch) is built on top of NumPy. When scikit-learn takes your data, it converts it to NumPy arrays internally.</p><p><strong>Pandas (Python Data Analysis Library)</strong> is built on top of NumPy and provides high-level data structures for working with tabular data -- think of it as Excel on steroids. Its core data structure, the DataFrame, lets you read CSV files, filter rows, group data, handle missing values, and perform complex data transformations with simple, readable code.</p><p><strong>Matplotlib</strong> is the foundational plotting library in Python. It lets you create line charts, scatter plots, bar charts, histograms, pie charts, and more. Visualization is crucial in ML because you need to understand your data before training models, and you need to visualize model performance after training.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are These Libraries Essential for AI/ML?</h2><h3>1. ML Runs on Arrays, Not Lists</h3><p>Python lists are flexible but slow for numerical operations. A NumPy array of 1 million numbers can be multiplied by 2 in milliseconds, while a Python list would need a slow loop. Every ML algorithm internally works with NumPy arrays for speed.</p><h3>2. Real Data Is Messy</h3><p>Real-world datasets have missing values, duplicates, wrong data types, and inconsistent formatting. Pandas gives you the tools to clean, transform, and prepare data for ML. Data preprocessing typically takes 60-80% of an ML project's time, and Pandas is your primary tool for it.</p><h3>3. You Cannot Build Good Models Without Understanding Your Data</h3><p>Matplotlib lets you visualize distributions, relationships, outliers, and patterns in your data. A scatter plot might reveal that two features are strongly correlated. A histogram might show that your data is heavily skewed. These insights guide your modeling decisions.</p><h3>4. These Libraries Work Together</h3><p>NumPy handles the math, Pandas handles the data, Matplotlib handles the visualization, and scikit-learn handles the ML. They are designed to work seamlessly together. A Pandas DataFrame can be plotted directly with Matplotlib, and its values can be extracted as NumPy arrays for scikit-learn.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>Part 1: NumPy</h3><h4>Creating Arrays</h4><p>NumPy arrays are created using <code>np.array()</code>, <code>np.zeros()</code>, <code>np.ones()</code>, <code>np.arange()</code>, <code>np.linspace()</code>, and <code>np.random</code> functions. Unlike Python lists, NumPy arrays must contain elements of the same data type, which enables fast vectorized operations.</p><h4>Array Operations (Vectorization)</h4><p>The most powerful feature of NumPy is <strong>vectorization</strong> -- performing operations on entire arrays without writing loops. When you write <code>arr * 2</code>, NumPy multiplies every element by 2 in optimized C code. This is 10-100x faster than a Python loop. All arithmetic operators (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>**</code>) work element-wise on arrays.</p><h4>Broadcasting</h4><p>Broadcasting is NumPy's way of handling operations between arrays of different shapes. When you add a scalar to an array (<code>arr + 5</code>), NumPy "broadcasts" the scalar to match the array's shape. Broadcasting also works between arrays: a (3, 3) array can be added to a (3,) array, with the smaller array being repeated across the rows.</p><h4>Indexing and Slicing</h4><p>NumPy supports powerful indexing: basic indexing (<code>arr[0]</code>), slicing (<code>arr[1:4]</code>), boolean indexing (<code>arr[arr > 5]</code>), and fancy indexing (<code>arr[[0, 2, 4]]</code>). Boolean indexing is especially useful for filtering data in ML.</p><h4>Reshaping</h4><p><code>arr.reshape(rows, cols)</code> changes the shape of an array without changing its data. This is critical in ML where scikit-learn expects 2D input. <code>reshape(-1, 1)</code> converts a 1D array to a column vector. The <code>-1</code> means "calculate this dimension automatically."</p><h4>Mathematical Functions</h4><p>NumPy provides <code>np.sum()</code>, <code>np.mean()</code>, <code>np.std()</code>, <code>np.min()</code>, <code>np.max()</code>, <code>np.sqrt()</code>, <code>np.exp()</code>, <code>np.log()</code>, and many more. These work on entire arrays and can operate along specific axes (rows or columns).</p><h4>Dot Product and Matrix Multiplication</h4><p>The dot product (<code>np.dot()</code> or <code>@</code> operator) is fundamental to ML. Linear regression, neural networks, and many other algorithms are based on matrix multiplication. <code>np.dot(a, b)</code> computes the dot product of two arrays.</p><h3>Part 2: Pandas</h3><h4>Series and DataFrame</h4><p>A <strong>Series</strong> is a 1D labeled array (like a column in a spreadsheet). A <strong>DataFrame</strong> is a 2D labeled data structure (like a spreadsheet or SQL table). DataFrames are the primary data structure you will use. Each column in a DataFrame is a Series.</p><h4>Reading Data</h4><p><code>pd.read_csv('file.csv')</code> reads a CSV file into a DataFrame. Pandas also supports Excel (<code>read_excel</code>), JSON (<code>read_json</code>), SQL (<code>read_sql</code>), and many other formats.</p><h4>Exploring Data</h4><p><code>df.head()</code> shows the first 5 rows. <code>df.tail()</code> shows the last 5. <code>df.info()</code> shows data types and non-null counts. <code>df.describe()</code> shows statistical summaries (mean, std, min, max, quartiles). <code>df.shape</code> gives (rows, columns). These are the first commands you run on any new dataset.</p><h4>Selecting Data</h4><p>Select columns: <code>df['column_name']</code> or <code>df.column_name</code>. Select rows by label: <code>df.loc[row_label]</code>. Select rows by position: <code>df.iloc[row_index]</code>. Select with conditions: <code>df[df['age'] > 20]</code>.</p><h4>Handling Missing Values</h4><p><code>df.isnull().sum()</code> counts missing values per column. <code>df.dropna()</code> removes rows with missing values. <code>df.fillna(value)</code> fills missing values with a specified value (often the mean or median). Handling missing data correctly is crucial for ML.</p><h4>GroupBy and Aggregation</h4><p><code>df.groupby('column').mean()</code> groups rows by a column and computes the mean of each group. This is essential for understanding patterns in categorical data -- for example, average salary by department.</p><h4>Merge and Join</h4><p><code>pd.merge(df1, df2, on='key')</code> combines two DataFrames based on a common column, similar to SQL JOIN. This is used when your data is spread across multiple tables.</p><h3>Part 3: Matplotlib</h3><h4>Basic Plots</h4><p><code>plt.plot(x, y)</code> creates a line chart. <code>plt.scatter(x, y)</code> creates a scatter plot. <code>plt.bar(categories, values)</code> creates a bar chart. <code>plt.hist(data, bins)</code> creates a histogram. <code>plt.pie(sizes, labels)</code> creates a pie chart.</p><h4>Customization</h4><p><code>plt.title()</code>, <code>plt.xlabel()</code>, <code>plt.ylabel()</code> add labels. <code>plt.legend()</code> adds a legend. <code>plt.grid(True)</code> adds a grid. <code>plt.figure(figsize=(10, 6))</code> sets the figure size. <code>plt.savefig('plot.png')</code> saves the figure to a file.</p><h4>Subplots</h4><p><code>fig, axes = plt.subplots(2, 2)</code> creates a 2x2 grid of plots. This is useful for comparing multiple visualizations side by side. Each subplot is accessed via <code>axes[row][col]</code>.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">NumPy Basics: Creating and Operating on Arrays</div><pre><code class="language-python">import numpy as np
+
+# Creating arrays
+arr1 = np.array([1, 2, 3, 4, 5])
+arr2 = np.zeros(5)
+arr3 = np.ones((2, 3))
+arr4 = np.arange(0, 10, 2)       # [0, 2, 4, 6, 8]
+arr5 = np.linspace(0, 1, 5)      # 5 evenly spaced between 0 and 1
+
+print(&quot;Array:&quot;, arr1)
+print(&quot;Zeros:&quot;, arr2)
+print(&quot;Ones (2x3):\n&quot;, arr3)
+print(&quot;Arange:&quot;, arr4)
+print(&quot;Linspace:&quot;, arr5)
+
+# Vectorized operations (no loops needed!)
+print(&quot;\narr1 * 2:&quot;, arr1 * 2)
+print(&quot;arr1 ** 2:&quot;, arr1 ** 2)
+print(&quot;arr1 + 10:&quot;, arr1 + 10)
+print(&quot;Sum:&quot;, np.sum(arr1))
+print(&quot;Mean:&quot;, np.mean(arr1))
+print(&quot;Std Dev:&quot;, np.std(arr1).round(2))</code></pre><div class="code-example-explanation">NumPy provides multiple ways to create arrays. <code>np.zeros()</code> and <code>np.ones()</code> create arrays filled with 0s or 1s. <code>np.arange()</code> is like Python's range but returns an array. <code>np.linspace()</code> creates evenly spaced numbers between two endpoints. All arithmetic operations are vectorized, meaning they operate on every element simultaneously without loops.</div><div class="code-example-output">Array: [1 2 3 4 5]
+Zeros: [0. 0. 0. 0. 0.]
+Ones (2x3):
+ [[1. 1. 1.]
+ [1. 1. 1.]]
+Arange: [0 2 4 6 8]
+Linspace: [0.   0.25 0.5  0.75 1.  ]
+
+arr1 * 2: [ 2  4  6  8 10]
+arr1 ** 2: [ 1  4  9 16 25]
+arr1 + 10: [11 12 13 14 15]
+Sum: 15
+Mean: 3.0
+Std Dev: 1.41</div></div>
+<div class="code-example"><div class="code-example-title">NumPy Indexing, Slicing, and Boolean Filtering</div><pre><code class="language-python">import numpy as np
+
+marks = np.array([85, 42, 91, 38, 76, 55, 67, 29, 93, 44])
+print(&quot;All marks:&quot;, marks)
+
+# Basic indexing and slicing
+print(&quot;First mark:&quot;, marks[0])
+print(&quot;Last mark:&quot;, marks[-1])
+print(&quot;First 3 marks:&quot;, marks[:3])
+print(&quot;Every other mark:&quot;, marks[::2])
+
+# Boolean indexing (filtering)
+passed = marks[marks &gt;= 40]
+failed = marks[marks &lt; 40]
+print(&quot;\nPassed (&gt;= 40):&quot;, passed)
+print(&quot;Failed (&lt; 40):&quot;, failed)
+print(&quot;Number passed:&quot;, len(passed))
+
+# 2D array indexing
+matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(&quot;\nMatrix:\n&quot;, matrix)
+print(&quot;Row 0:&quot;, matrix[0])
+print(&quot;Element [1][2]:&quot;, matrix[1, 2])
+print(&quot;Column 1:&quot;, matrix[:, 1])</code></pre><div class="code-example-explanation">NumPy indexing is more powerful than Python list indexing. <strong>Boolean indexing</strong> is the most important for ML: <code>marks[marks >= 40]</code> returns only elements where the condition is True. For 2D arrays, use <code>matrix[row, col]</code> notation. <code>matrix[:, 1]</code> selects all rows from column 1. This syntax is used constantly in data preprocessing.</div><div class="code-example-output">All marks: [85 42 91 38 76 55 67 29 93 44]
+First mark: 85
+Last mark: 44
+First 3 marks: [85 42 91]
+Every other mark: [85 91 76 67 93]
+
+Passed (&gt;= 40): [85 42 91 76 55 67 93 44]
+Failed (&lt; 40): [38 29]
+Number passed: 8
+
+Matrix:
+ [[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+Row 0: [1 2 3]
+Element [1][2]: 6
+Column 1: [2 5 8]</div></div>
+<div class="code-example"><div class="code-example-title">NumPy Reshape, Dot Product, and Matrix Multiplication</div><pre><code class="language-python">import numpy as np
+
+# Reshaping - critical for ML
+arr = np.arange(1, 13)
+print(&quot;Original (1D):&quot;, arr)
+print(&quot;Shape:&quot;, arr.shape)
+
+reshaped = arr.reshape(3, 4)
+print(&quot;\nReshaped (3x4):\n&quot;, reshaped)
+print(&quot;Shape:&quot;, reshaped.shape)
+
+# Column vector for sklearn
+col_vector = arr[:5].reshape(-1, 1)
+print(&quot;\nColumn vector:\n&quot;, col_vector)
+print(&quot;Shape:&quot;, col_vector.shape)
+
+# Dot product (fundamental to ML)
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+print(&quot;\nDot product (1*4 + 2*5 + 3*6):&quot;, np.dot(a, b))
+
+# Matrix multiplication
+A = np.array([[1, 2], [3, 4]])
+B = np.array([[5, 6], [7, 8]])
+print(&quot;\nMatrix A:\n&quot;, A)
+print(&quot;Matrix B:\n&quot;, B)
+print(&quot;A @ B:\n&quot;, A @ B)</code></pre><div class="code-example-explanation"><code>reshape(-1, 1)</code> is the most common reshape in ML -- it turns a 1D array into a 2D column vector that scikit-learn accepts. The dot product (<code>np.dot</code> or <code>@</code>) is the foundation of linear models: linear regression computes <code>y = X @ weights + bias</code>. Matrix multiplication with <code>@</code> follows the rule: rows of A multiplied by columns of B.</div><div class="code-example-output">Original (1D): [ 1  2  3  4  5  6  7  8  9 10 11 12]
+Shape: (12,)
+
+Reshaped (3x4):
+ [[ 1  2  3  4]
+ [ 5  6  7  8]
+ [ 9 10 11 12]]
+Shape: (3, 4)
+
+Column vector:
+ [[1]
+ [2]
+ [3]
+ [4]
+ [5]]
+Shape: (5, 1)
+
+Dot product (1*4 + 2*5 + 3*6): 32
+
+Matrix A:
+ [[1 2]
+ [3 4]]
+Matrix B:
+ [[5 6]
+ [7 8]]
+A @ B:
+ [[19 22]
+ [43 50]]</div></div>
+<div class="code-example"><div class="code-example-title">Pandas: Creating DataFrames and Basic Exploration</div><pre><code class="language-python">import pandas as pd
+
+# Create DataFrame from dictionary
+data = {
+    &#39;Name&#39;: [&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Rohan&#39;, &#39;Ananya&#39;, &#39;Vikram&#39;],
+    &#39;Age&#39;: [20, 22, 21, 23, 20],
+    &#39;Branch&#39;: [&#39;CSE&#39;, &#39;ECE&#39;, &#39;CSE&#39;, &#39;IT&#39;, &#39;ECE&#39;],
+    &#39;CGPA&#39;: [8.5, 9.1, 7.8, 8.9, 7.2],
+    &#39;Placed&#39;: [True, True, False, True, False]
+}
+df = pd.DataFrame(data)
+
+print(&quot;DataFrame:&quot;)
+print(df)
+print(&quot;\nShape:&quot;, df.shape)
+print(&quot;\nColumn types:&quot;)
+print(df.dtypes)
+print(&quot;\nStatistical summary:&quot;)
+print(df.describe().round(2))
+print(&quot;\nBranch value counts:&quot;)
+print(df[&#39;Branch&#39;].value_counts())</code></pre><div class="code-example-explanation">A DataFrame is created from a dictionary where keys become column names. <code>df.shape</code> gives (5, 5) meaning 5 rows and 5 columns. <code>df.dtypes</code> shows the data type of each column. <code>df.describe()</code> gives count, mean, std, min, max, and quartiles for numerical columns. <code>value_counts()</code> counts unique values in a column. These are the first things you check when exploring any dataset.</div><div class="code-example-output">DataFrame:
+     Name  Age Branch  CGPA  Placed
+0   Aarav   20    CSE   8.5    True
+1   Priya   22    ECE   9.1    True
+2   Rohan   21    CSE   7.8   False
+3  Ananya   23     IT   8.9    True
+4  Vikram   20    ECE   7.2   False
+
+Shape: (5, 5)
+
+Column types:
+Name       object
+Age         int64
+Branch     object
+CGPA      float64
+Placed       bool
+dtype: object
+
+Statistical summary:
+        Age  CGPA
+count  5.00  5.00
+mean  21.20  8.30
+std    1.30  0.78
+min   20.00  7.20
+max   23.00  9.10
+
+Branch value counts:
+CSE    2
+ECE    2
+IT     1</div></div>
+<div class="code-example"><div class="code-example-title">Pandas: Filtering, loc/iloc, and GroupBy</div><pre><code class="language-python">import pandas as pd
+
+df = pd.DataFrame({
+    &#39;Name&#39;: [&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Rohan&#39;, &#39;Ananya&#39;, &#39;Vikram&#39;, &#39;Meera&#39;],
+    &#39;Department&#39;: [&#39;CSE&#39;, &#39;ECE&#39;, &#39;CSE&#39;, &#39;IT&#39;, &#39;ECE&#39;, &#39;CSE&#39;],
+    &#39;Marks&#39;: [85, 92, 78, 88, 65, 95],
+    &#39;Attendance&#39;: [90, 95, 70, 85, 60, 98]
+})
+
+# Filtering rows
+print(&quot;Students with marks &gt; 80:&quot;)
+print(df[df[&#39;Marks&#39;] &gt; 80])
+
+# Multiple conditions
+print(&quot;\nCSE students with marks &gt; 80:&quot;)
+print(df[(df[&#39;Department&#39;] == &#39;CSE&#39;) &amp; (df[&#39;Marks&#39;] &gt; 80)])
+
+# loc (label-based) and iloc (position-based)
+print(&quot;\nloc[0:2, &#39;Name&#39;:&#39;Marks&#39;]:&quot;)
+print(df.loc[0:2, &#39;Name&#39;:&#39;Marks&#39;])
+print(&quot;\niloc[0:2, 0:3]:&quot;)
+print(df.iloc[0:2, 0:3])
+
+# GroupBy
+print(&quot;\nAverage marks by department:&quot;)
+print(df.groupby(&#39;Department&#39;)[&#39;Marks&#39;].mean().round(1))
+
+# Apply function
+df[&#39;Grade&#39;] = df[&#39;Marks&#39;].apply(lambda x: &#39;A&#39; if x &gt;= 85 else &#39;B&#39; if x &gt;= 70 else &#39;C&#39;)
+print(&quot;\nWith grades:&quot;)
+print(df[[&#39;Name&#39;, &#39;Marks&#39;, &#39;Grade&#39;]])</code></pre><div class="code-example-explanation">Filtering with conditions is essential for data analysis. Use <code>&</code> for AND and <code>|</code> for OR (with parentheses around each condition). <code>loc</code> selects by label (inclusive on both ends), while <code>iloc</code> selects by integer position (exclusive on the end, like Python slicing). <code>groupby()</code> groups data and applies aggregate functions like mean, sum, count. <code>apply()</code> applies a custom function to every element in a column.</div><div class="code-example-output">Students with marks &gt; 80:
+     Name Department  Marks  Attendance
+0   Aarav        CSE     85          90
+1   Priya        ECE     92          95
+3  Ananya         IT     88          85
+5   Meera        CSE     95          98
+
+CSE students with marks &gt; 80:
+    Name Department  Marks  Attendance
+0  Aarav        CSE     85          90
+5  Meera        CSE     95          98
+
+loc[0:2, &#39;Name&#39;:&#39;Marks&#39;]:
+    Name Department  Marks
+0  Aarav        CSE     85
+1  Priya        ECE     92
+2  Rohan        CSE     78
+
+iloc[0:2, 0:3]:
+    Name Department  Marks
+0  Aarav        CSE     85
+1  Priya        ECE     92
+
+Average marks by department:
+Department
+CSE    86.0
+ECE    78.5
+IT     88.0
+
+With grades:
+     Name  Marks Grade
+0   Aarav     85     A
+1   Priya     92     A
+2   Rohan     78     B
+3  Ananya     88     A
+4  Vikram     65     C
+5   Meera     95     A</div></div>
+<div class="code-example"><div class="code-example-title">Pandas: Handling Missing Values</div><pre><code class="language-python">import pandas as pd
+import numpy as np
+
+# Create DataFrame with missing values
+df = pd.DataFrame({
+    &#39;Name&#39;: [&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Rohan&#39;, &#39;Ananya&#39;, &#39;Vikram&#39;],
+    &#39;Age&#39;: [20, np.nan, 21, 23, np.nan],
+    &#39;Marks&#39;: [85, 92, np.nan, 88, 65],
+    &#39;City&#39;: [&#39;Delhi&#39;, &#39;Mumbai&#39;, None, &#39;Pune&#39;, &#39;Delhi&#39;]
+})
+
+print(&quot;Original DataFrame:&quot;)
+print(df)
+
+# Detect missing values
+print(&quot;\nMissing values per column:&quot;)
+print(df.isnull().sum())
+
+# Fill missing numerical values with median
+df[&#39;Age&#39;] = df[&#39;Age&#39;].fillna(df[&#39;Age&#39;].median())
+df[&#39;Marks&#39;] = df[&#39;Marks&#39;].fillna(df[&#39;Marks&#39;].mean())
+
+# Fill missing categorical values with mode
+df[&#39;City&#39;] = df[&#39;City&#39;].fillna(df[&#39;City&#39;].mode()[0])
+
+print(&quot;\nAfter filling missing values:&quot;)
+print(df)
+print(&quot;\nMissing values now:&quot;)
+print(df.isnull().sum())</code></pre><div class="code-example-explanation">Missing data is extremely common in real datasets. <code>isnull().sum()</code> counts missing values per column. For numerical columns, filling with the <strong>median</strong> (robust to outliers) or <strong>mean</strong> (sensitive to outliers) is standard practice. For categorical columns, filling with the <strong>mode</strong> (most frequent value) is typical. <code>dropna()</code> removes rows with missing values entirely, but this loses data. The choice between filling and dropping depends on how much data is missing and why it is missing.</div><div class="code-example-output">Original DataFrame:
+     Name   Age  Marks    City
+0   Aarav  20.0   85.0   Delhi
+1   Priya   NaN   92.0  Mumbai
+2   Rohan  21.0    NaN    None
+3  Ananya  23.0   88.0    Pune
+4  Vikram   NaN   65.0   Delhi
+
+Missing values per column:
+Name     0
+Age      2
+Marks    1
+City     1
+dtype: int64
+
+After filling missing values:
+     Name   Age  Marks    City
+0   Aarav  20.0  85.00   Delhi
+1   Priya  21.0  92.00  Mumbai
+2   Rohan  21.0  82.50   Delhi
+3  Ananya  23.0  88.00    Pune
+4  Vikram  21.0  65.00   Delhi
+
+Missing values now:
+Name     0
+Age      0
+Marks    0
+City     0
+dtype: int64</div></div>
+<div class="code-example"><div class="code-example-title">Matplotlib: Creating Multiple Types of Plots</div><pre><code class="language-python">import matplotlib
+matplotlib.use(&#39;Agg&#39;)  # Non-interactive backend
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Data
+students = [&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Rohan&#39;, &#39;Ananya&#39;, &#39;Vikram&#39;]
+marks = [85, 92, 78, 88, 65]
+
+# Create a 2x2 grid of plots
+fig, axes = plt.subplots(2, 2, figsize=(12, 10))
+fig.suptitle(&#39;Student Performance Dashboard&#39;, fontsize=16, fontweight=&#39;bold&#39;)
+
+# Bar chart
+colors = [&#39;#a855f7&#39;, &#39;#06b6d4&#39;, &#39;#f59e0b&#39;, &#39;#22c55e&#39;, &#39;#ef4444&#39;]
+axes[0][0].bar(students, marks, color=colors)
+axes[0][0].set_title(&#39;Marks by Student&#39;)
+axes[0][0].set_ylabel(&#39;Marks&#39;)
+axes[0][0].axhline(y=np.mean(marks), color=&#39;red&#39;, linestyle=&#39;--&#39;, label=&#39;Average&#39;)
+axes[0][0].legend()
+
+# Histogram
+np.random.seed(42)
+all_marks = np.random.normal(70, 15, 200).clip(0, 100)
+axes[0][1].hist(all_marks, bins=15, color=&#39;#06b6d4&#39;, edgecolor=&#39;black&#39;, alpha=0.7)
+axes[0][1].set_title(&#39;Marks Distribution (200 students)&#39;)
+axes[0][1].set_xlabel(&#39;Marks&#39;)
+axes[0][1].set_ylabel(&#39;Frequency&#39;)
+
+# Scatter plot
+hours = np.array([2, 4, 3, 5, 1, 6, 3.5, 7, 4.5, 8])
+scores = np.array([50, 70, 55, 80, 40, 85, 60, 95, 75, 98])
+axes[1][0].scatter(hours, scores, color=&#39;#a855f7&#39;, s=100, edgecolors=&#39;black&#39;)
+axes[1][0].set_title(&#39;Study Hours vs Scores&#39;)
+axes[1][0].set_xlabel(&#39;Study Hours&#39;)
+axes[1][0].set_ylabel(&#39;Score&#39;)
+
+# Pie chart
+branches = [&#39;CSE&#39;, &#39;ECE&#39;, &#39;IT&#39;, &#39;Mech&#39;]
+counts = [45, 30, 15, 10]
+axes[1][1].pie(counts, labels=branches, autopct=&#39;%1.0f%%&#39;,
+               colors=[&#39;#a855f7&#39;, &#39;#06b6d4&#39;, &#39;#f59e0b&#39;, &#39;#22c55e&#39;])
+axes[1][1].set_title(&#39;Students by Branch&#39;)
+
+plt.tight_layout()
+plt.savefig(&#39;student_dashboard.png&#39;, dpi=100, bbox_inches=&#39;tight&#39;)
+print(&quot;Dashboard saved as &#39;student_dashboard.png&#39;&quot;)
+print(&quot;Created: bar chart, histogram, scatter plot, and pie chart&quot;)</code></pre><div class="code-example-explanation"><code>plt.subplots(2, 2)</code> creates a 2x2 grid of subplots. Bar charts compare values across categories. Histograms show the distribution of a variable. Scatter plots reveal relationships between two variables (here, study hours and scores show a positive correlation). Pie charts show proportions of a whole. <code>plt.tight_layout()</code> prevents overlapping. <code>plt.savefig()</code> saves the figure to a file.</div><div class="code-example-output">Dashboard saved as &#39;student_dashboard.png&#39;
+Created: bar chart, histogram, scatter plot, and pie chart</div></div>
+<div class="code-example"><div class="code-example-title">Complete Data Analysis Pipeline: NumPy + Pandas + Matplotlib</div><pre><code class="language-python">import numpy as np
+import pandas as pd
+import matplotlib
+matplotlib.use(&#39;Agg&#39;)
+import matplotlib.pyplot as plt
+
+# Generate synthetic student data
+np.random.seed(42)
+n = 100
+data = {
+    &#39;Hours_Studied&#39;: np.random.uniform(1, 10, n).round(1),
+    &#39;Attendance&#39;: np.random.uniform(50, 100, n).round(1),
+    &#39;Marks&#39;: np.random.uniform(30, 100, n).round(1)
+}
+df = pd.DataFrame(data)
+
+# Analysis with Pandas
+print(&quot;=== Dataset Overview ===&quot;)
+print(f&quot;Shape: {df.shape}&quot;)
+print(f&quot;\nSummary Statistics:&quot;)
+print(df.describe().round(2))
+
+# Compute correlation
+print(f&quot;\n=== Correlations ===&quot;)
+corr = df.corr().round(3)
+print(corr)
+
+# Add Pass/Fail column
+df[&#39;Result&#39;] = df[&#39;Marks&#39;].apply(lambda x: &#39;Pass&#39; if x &gt;= 40 else &#39;Fail&#39;)
+print(f&quot;\n=== Pass/Fail Distribution ===&quot;)
+print(df[&#39;Result&#39;].value_counts())
+print(f&quot;\nAverage marks of passed: {df[df[&#39;Result&#39;]==&#39;Pass&#39;][&#39;Marks&#39;].mean():.1f}&quot;)
+print(f&quot;Average marks of failed: {df[df[&#39;Result&#39;]==&#39;Fail&#39;][&#39;Marks&#39;].mean():.1f}&quot;)
+
+# Save analysis plot
+fig, ax = plt.subplots(1, 1, figsize=(8, 6))
+ax.scatter(df[&#39;Hours_Studied&#39;], df[&#39;Marks&#39;], alpha=0.6, c=&#39;#a855f7&#39;)
+ax.set_xlabel(&#39;Hours Studied&#39;)
+ax.set_ylabel(&#39;Marks&#39;)
+ax.set_title(&#39;Hours Studied vs Marks&#39;)
+plt.savefig(&#39;analysis.png&#39;)
+print(&quot;\nPlot saved as &#39;analysis.png&#39;&quot;)</code></pre><div class="code-example-explanation">This demonstrates a complete mini data analysis pipeline. NumPy generates synthetic data (simulating real-world randomness). Pandas creates a DataFrame for easy manipulation. We compute descriptive statistics and correlations. We add derived features (Pass/Fail) using <code>apply()</code>. Finally, Matplotlib creates a scatter plot to visualize the relationship. This workflow is exactly what you do in the EDA (Exploratory Data Analysis) phase of any ML project.</div><div class="code-example-output">=== Dataset Overview ===
+Shape: (100, 3)
+
+Summary Statistics:
+       Hours_Studied  Attendance  Marks
+count         100.00      100.00 100.00
+mean            5.39       74.85  64.97
+std             2.68       14.62  20.23
+min             1.00       50.30  30.10
+max            10.00       99.90  99.80
+
+=== Correlations ===
+               Hours_Studied  Attendance  Marks
+Hours_Studied          1.000      -0.021  0.048
+Attendance            -0.021       1.000 -0.043
+Marks                  0.048      -0.043  1.000
+
+=== Pass/Fail Distribution ===
+Pass    85
+Fail    15
+
+Average marks of passed: 71.2
+Average marks of failed: 34.8
+
+Plot saved as &#39;analysis.png&#39;</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using Python Lists Instead of NumPy Arrays for Math</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Trying to multiply a list by 2
+marks = [85, 92, 78, 88, 65]
+result = marks * 2
+print(result)  # Repeats the list, not element-wise multiplication!</code></pre></div><div class="error-message">No error, but output is [85, 92, 78, 88, 65, 85, 92, 78, 88, 65] (list repeated, not multiplied)</div><div class="correct-code"><pre><code class="language-python">import numpy as np
+
+marks = np.array([85, 92, 78, 88, 65])
+result = marks * 2
+print(result)  # [170 184 156 176 130] - element-wise multiplication!</code></pre></div><div class="mistake-explanation">Python's <code>*</code> operator on lists performs repetition, not element-wise multiplication. <code>[1, 2] * 2</code> gives <code>[1, 2, 1, 2]</code>. NumPy arrays perform element-wise operations: <code>np.array([1, 2]) * 2</code> gives <code>[2, 4]</code>. Always use NumPy arrays for numerical computations.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting Parentheses in Pandas Multi-Condition Filtering</h3>
+                <div class="wrong-code"><pre><code class="language-python">import pandas as pd
+
+df = pd.DataFrame({&#39;age&#39;: [20, 25, 30], &#39;marks&#39;: [80, 90, 70]})
+# Missing parentheses around each condition
+result = df[df[&#39;age&#39;] &gt; 20 &amp; df[&#39;marks&#39;] &gt; 75]</code></pre></div><div class="error-message">ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().</div><div class="correct-code"><pre><code class="language-python">import pandas as pd
+
+df = pd.DataFrame({&#39;age&#39;: [20, 25, 30], &#39;marks&#39;: [80, 90, 70]})
+# Each condition MUST be in parentheses
+result = df[(df[&#39;age&#39;] &gt; 20) &amp; (df[&#39;marks&#39;] &gt; 75)]
+print(result)</code></pre></div><div class="mistake-explanation">In Pandas, when combining multiple conditions with <code>&</code> (AND) or <code>|</code> (OR), each individual condition MUST be wrapped in parentheses. This is because Python's operator precedence evaluates <code>&</code> before <code>></code>. Without parentheses, Python tries to compute <code>20 & df['marks']</code> first, which causes the error.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing loc (Label) with iloc (Integer Position)</h3>
+                <div class="wrong-code"><pre><code class="language-python">import pandas as pd
+
+df = pd.DataFrame({&#39;A&#39;: [10, 20, 30]}, index=[&#39;x&#39;, &#39;y&#39;, &#39;z&#39;])
+print(df.iloc[&#39;x&#39;])  # iloc expects integer, not label!</code></pre></div><div class="error-message">TypeError: Cannot index by location index with a non-integer key</div><div class="correct-code"><pre><code class="language-python">import pandas as pd
+
+df = pd.DataFrame({&#39;A&#39;: [10, 20, 30]}, index=[&#39;x&#39;, &#39;y&#39;, &#39;z&#39;])
+
+# loc uses labels
+print(&quot;loc[&#39;x&#39;]:&quot;, df.loc[&#39;x&#39;].values)  # Uses label &#39;x&#39;
+
+# iloc uses integer positions
+print(&quot;iloc[0]:&quot;, df.iloc[0].values)     # Uses position 0</code></pre></div><div class="mistake-explanation"><code>loc</code> selects by label (the index name). <code>iloc</code> selects by integer position (0, 1, 2...). With custom string indices, <code>iloc['x']</code> fails because iloc expects integers. A key difference: <code>loc[0:2]</code> includes index 2 (label-inclusive), while <code>iloc[0:2]</code> excludes index 2 (position-exclusive, like Python slicing).</div>
+            </div>
+<div class="mistake-card">
+                <h3>Modifying a Slice of DataFrame Without .copy()</h3>
+                <div class="wrong-code"><pre><code class="language-python">import pandas as pd
+
+df = pd.DataFrame({&#39;A&#39;: [1, 2, 3], &#39;B&#39;: [4, 5, 6]})
+subset = df[df[&#39;A&#39;] &gt; 1]
+subset[&#39;C&#39;] = subset[&#39;A&#39;] * 10  # SettingWithCopyWarning!</code></pre></div><div class="error-message">SettingWithCopyWarning: A value is trying to be set on a copy of a slice from a DataFrame.</div><div class="correct-code"><pre><code class="language-python">import pandas as pd
+
+df = pd.DataFrame({&#39;A&#39;: [1, 2, 3], &#39;B&#39;: [4, 5, 6]})
+subset = df[df[&#39;A&#39;] &gt; 1].copy()  # Explicit copy
+subset[&#39;C&#39;] = subset[&#39;A&#39;] * 10
+print(subset)</code></pre></div><div class="mistake-explanation">When you filter a DataFrame, Pandas may return a view (reference to original data) or a copy, depending on the operation. Modifying a view can unexpectedly change the original DataFrame or may not work at all. Using <code>.copy()</code> creates an independent copy that you can safely modify. This is one of the most common Pandas gotchas.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using plt.show() in Scripts Without Saving First</h3>
+                <div class="wrong-code"><pre><code class="language-python">import matplotlib.pyplot as plt
+
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()  # Shows the plot but does not save it
+# plt.savefig(&#39;plot.png&#39;)  # This would save a blank image after show()!</code></pre></div><div class="error-message">No error, but calling savefig() after show() saves a blank image because show() clears the figure.</div><div class="correct-code"><pre><code class="language-python">import matplotlib.pyplot as plt
+
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.title(&#39;My Plot&#39;)
+plt.savefig(&#39;plot.png&#39;, dpi=150, bbox_inches=&#39;tight&#39;)  # Save BEFORE show
+plt.show()  # Show after saving
+print(&quot;Plot saved successfully&quot;)</code></pre></div><div class="mistake-explanation">In Matplotlib, <code>plt.show()</code> displays the figure and then clears it. If you call <code>plt.savefig()</code> after <code>plt.show()</code>, you get a blank image. Always save before showing. In non-interactive environments (scripts, servers), use <code>matplotlib.use('Agg')</code> and only <code>savefig()</code> without <code>show()</code>.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>NumPy provides fast, memory-efficient arrays and vectorized operations. All ML libraries are built on NumPy. Use np.array() to create arrays, and arithmetic operators (+, -, *, /) for element-wise operations without loops.</li>
+<li>NumPy key functions: np.zeros(), np.ones(), np.arange(), np.linspace() for creation. np.sum(), np.mean(), np.std(), np.min(), np.max() for statistics. np.dot() or @ for matrix multiplication.</li>
+<li>NumPy boolean indexing (arr[arr &gt; 5]) is essential for filtering data. reshape(-1, 1) converts 1D arrays to 2D column vectors required by scikit-learn.</li>
+<li>Pandas DataFrame is the primary data structure for tabular data. Create with pd.DataFrame(dict) or pd.read_csv(&#39;file.csv&#39;). Explore with .head(), .info(), .describe(), .shape, .dtypes.</li>
+<li>Pandas filtering: df[df[&#39;col&#39;] &gt; value] for single condition. df[(cond1) &amp; (cond2)] for multiple conditions (parentheses required). loc selects by label, iloc selects by position.</li>
+<li>Handling missing values: df.isnull().sum() to detect, df.fillna(value) to fill (mean/median for numbers, mode for categories), df.dropna() to remove. GroupBy: df.groupby(&#39;col&#39;).agg_func().</li>
+<li>Matplotlib creates line plots (plt.plot), scatter plots (plt.scatter), bar charts (plt.bar), histograms (plt.hist), pie charts (plt.pie). Always add titles, labels, and legends for clarity.</li>
+<li>plt.subplots(rows, cols) creates grids of plots for dashboards. plt.savefig() saves figures. Always save before plt.show(). Use figsize parameter to control plot dimensions.</li>
+<li>These three libraries form a pipeline: NumPy handles numerical computation, Pandas handles data manipulation and cleaning, Matplotlib handles visualization. They work seamlessly together.</li>
+<li>In ML projects, you typically spend 60-80% of time on data preparation (Pandas) and exploration (Matplotlib), and only 20-40% on actual model building. Mastering these tools makes you a more effective ML practitioner.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/ai-and-machine-learning/introduction-to-ai-and-ml" class="related-topic-link">Introduction to AI and Machine Learning</a>
+<a href="/resources/ai-and-machine-learning/mathematics-for-ml" class="related-topic-link">Mathematics for Machine Learning</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/ai-and-machine-learning/introduction-to-ai-and-ml" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Introduction to AI and Machine Learning</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/mathematics-for-ml" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Mathematics for Machine Learning</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/ai-and-machine-learning/python-for-ai-essentials/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

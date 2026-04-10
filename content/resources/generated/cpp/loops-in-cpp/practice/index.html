@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Loops (for, while, do-while) and Patterns | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="62+ practice questions on Loops (for, while, do-while) and Patterns in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="loops (for, while, do-while) and patterns practice, c++ questions, c++ practice problems, loops (for, while, do-while) and patterns exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/loops-in-cpp/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/loops-in-cpp/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/loops-in-cpp/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/loops-in-cpp/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/loops-in-cpp/practice">
+    <meta property="og:title" content="Practice Questions - Loops (for, while, do-while) and Patterns | C++ | Modern Age Coders">
+    <meta property="og:description" content="62+ practice questions on Loops (for, while, do-while) and Patterns in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/loops-in-cpp/practice">
+    <meta name="twitter:title" content="Practice Questions - Loops (for, while, do-while) and Patterns | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="62+ practice questions on Loops (for, while, do-while) and Patterns in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Loops (for, while, do-while) and Patterns",
+    "description": "62+ practice questions on Loops (for, while, do-while) and Patterns in C++.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Loops (for, while, do-while) and Patterns"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/loops-in-cpp/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Loops (for, while, do-while) and Patterns",
+        "item": "https://learn.modernagecoders.com/resources/cpp/loops-in-cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/loops-in-cpp/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/loops-in-cpp">Loops (for, while, do-while) and Patterns</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 7</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">62 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Loops (for, while, do-while) and Patterns</h1>
+            <a href="/resources/cpp/loops-in-cpp" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 1; i <= 5; i++) {
+    cout << i << " ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">i goes from 1 to 5 inclusive.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>1 2 3 4 5 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 5; i >= 1; i--) {
+    cout << i << " ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Counting downward from 5 to 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>5 4 3 2 1 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 1;
+while (x <= 3) {
+    cout << "Hello" << endl;
+    x++;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">x starts at 1 and increments to 4.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>Hello</code><br><code>Hello</code><br><code>Hello</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int n = 10;
+do {
+    cout << n << " ";
+    n++;
+} while (n < 5);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">do-while executes the body at least once.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>10 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 0; i < 5; i++) {
+    cout << i << " ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Starts at 0, goes up to but not including 5.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>0 1 2 3 4 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 1; i <= 4; i++) {
+    if (i == 3) continue;
+    cout << i << " ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">continue skips the rest of the current iteration.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>1 2 4 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 1; i <= 3; i++) {
+    for (int j = 1; j <= 2; j++) {
+        cout << i << j << " ";
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Inner loop runs completely for each outer iteration.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>11 12 21 22 31 32 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">How many times does "Hello" print?<br><pre><code>for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 4; j++) {
+        cout << "Hello" << endl;
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Outer: 3 iterations. Inner: 4 iterations each.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>12</code> times</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int sum = 0;
+for (int i = 1; i <= 10; i++) {
+    if (i % 2 == 0) sum += i;
+}
+cout << sum;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Sum of even numbers from 1 to 10.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int i = 5;
+while (i > 0) {
+    cout << i << " ";
+    i -= 2;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">i decreases by 2 each time: 5, 3, 1, -1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>5 3 1 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 1; i <= 3; i++) {
+    for (int j = 1; j <= i; j++) {
+        cout << "* ";
+    }
+    cout << endl;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Row i has i stars.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>* </code><br><code>* * </code><br><code>* * * </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 0; i < 5; i++) {
+    if (i == 3) break;
+    cout << i << " ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">break exits the loop entirely when i equals 3.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>0 1 2 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 1;
+for (int i = 1; i <= 4; i++) {
+    x *= i;
+}
+cout << x;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">This computes 1 * 1 * 2 * 3 * 4.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>24</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 1; i <= 3; i++) {
+    for (int j = 1; j <= 3; j++) {
+        if (i == j) continue;
+        cout << i << j << " ";
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">continue in the inner loop skips pairs where i equals j.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>12 13 21 23 31 32 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 100; i >= 1; i /= 3) {
+    cout << i << " ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Integer division: 100/3=33, 33/3=11, 11/3=3, 3/3=1, 1/3=0.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>100 33 11 3 1 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int num = 1;
+for (int i = 1; i <= 4; i++) {
+    for (int j = 1; j <= i; j++) {
+        cout << num++ << " ";
+    }
+    cout << endl;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">This is Floyd's Triangle. num increments continuously.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>1 </code><br><code>2 3 </code><br><code>4 5 6 </code><br><code>7 8 9 10 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between a while loop and a do-while loop?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Think about when the condition is checked.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">A <code>while</code> loop checks the condition <strong>before</strong> each iteration; if false initially, the body never executes. A <code>do-while</code> loop checks the condition <strong>after</strong> each iteration, so the body always executes at least once.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">In a range-based for loop, what is the difference between <code>for (auto x : arr)</code> and <code>for (auto& x : arr)</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Think about copies vs references.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>auto x</code> creates a <strong>copy</strong> of each element. Modifying x does not change the array. <code>auto& x</code> creates a <strong>reference</strong> to each element. Modifying x directly changes the array element.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain the row-column approach to analyzing pattern problems. How do you determine the formula for spaces and stars?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Think about what changes from row to row.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19">The row-column approach: (1) Identify the number of rows (outer loop, variable i). (2) For each row, count the number of spaces and the number of characters (stars/numbers). (3) Express these counts as functions of i and the total rows n. For a pyramid: spaces = n - i, stars = 2*i - 1. (4) Write inner loops based on these formulas.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 3; j++) {
+        if (j == 1) break;
+        cout << i << j << " ";
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">break exits only the inner loop.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>00 10 20 </code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a program that prints even numbers from 2 to 20 using a for loop.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Start at 2, increment by 2.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><pre><code>for (int i = 2; i <= 20; i += 2) {
+    cout << i << " ";
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int sum = 0;
+for (int i = 1; i <= 5; i++) {
+    sum = sum + i;
+}
+cout << sum;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Add 1 + 2 + 3 + 4 + 5.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int i = 0;
+while (i < 5) {
+    i++;
+    if (i == 3) continue;
+    cout << i << " ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">i is incremented before the continue check.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>1 2 4 5 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a program to check if a number N is prime using a for loop.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Check divisors from 2 to sqrt(N). If any divides N, it is not prime.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><pre><code>#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    int n;
+    cin >> n;
+    if (n <= 1) { cout << "Not prime" << endl; return 0; }
+    bool isPrime = true;
+    for (int i = 2; i <= sqrt(n); i++) {
+        if (n % i == 0) { isPrime = false; break; }
+    }
+    cout << (isPrime ? "Prime" : "Not prime") << endl;
+    return 0;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 2; i <= 10; i += 3) {
+    cout << i << " ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">i starts at 2 and increases by 3: 2, 5, 8, 11.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>2 5 8 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int i = 1;
+do {
+    cout << i << " ";
+    i *= 2;
+} while (i <= 16);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">i doubles: 1, 2, 4, 8, 16, then 32.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>1 2 4 8 16 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 1; i <= 4; i++) {
+    for (int j = 1; j <= 4 - i; j++) {
+        cout << "  ";
+    }
+    for (int j = 1; j <= i; j++) {
+        cout << i << " ";
+    }
+    cout << endl;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Row i has (4-i) double-spaces followed by i copies of the number i.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>      1 </code><br><code>    2 2 </code><br><code>  3 3 3 </code><br><code>4 4 4 4 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int count = 0;
+for (int i = 2; i <= 20; i++) {
+    bool isPrime = true;
+    for (int j = 2; j < i; j++) {
+        if (i % j == 0) { isPrime = false; break; }
+    }
+    if (isPrime) count++;
+}
+cout << count;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Count prime numbers from 2 to 20.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>8</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int arr[] = {3, 7, 2, 8, 1};
+int n = 5;
+for (int i = 0; i < n - 1; i++) {
+    for (int j = 0; j < n - 1 - i; j++) {
+        if (arr[j] > arr[j + 1]) {
+            int temp = arr[j];
+            arr[j] = arr[j + 1];
+            arr[j + 1] = temp;
+        }
+    }
+}
+for (int i = 0; i < n; i++) cout << arr[i] << " ";</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">This is the bubble sort algorithm.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>1 2 3 7 8 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a program that prints all numbers from 1 to 50 that are divisible by both 3 and 5.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">n % 15 == 0 means divisible by both 3 and 5.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><pre><code>for (int i = 1; i <= 50; i++) {
+    if (i % 3 == 0 && i % 5 == 0) {
+        cout << i << " ";
+    }
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int n = 5;
+int result = 1;
+for (int i = n; i >= 1; i--) {
+    result *= i;
+}
+cout << result;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">This computes 5 * 4 * 3 * 2 * 1.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>120</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int count = 0;
+for (int i = 1; i <= 100; i++) {
+    if (i % 7 == 0) count++;
+}
+cout << count;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Count multiples of 7 from 1 to 100.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>14</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 1; i <= 4; i++) {
+    for (int j = i; j <= 4; j++) {
+        cout << j << " ";
+    }
+    cout << endl;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Row i prints numbers from i to 4.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>1 2 3 4 </code><br><code>2 3 4 </code><br><code>3 4 </code><br><code>4 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 1; i <= 4; i++) {
+    for (int j = 1; j <= i; j++) {
+        cout << (i + j - 1) << " ";
+    }
+    cout << endl;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">Compute (i + j - 1) for each cell.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14"><code>1 </code><br><code>2 3 </code><br><code>3 4 5 </code><br><code>4 5 6 7 </code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which loop is best when the number of iterations is known in advance?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> while</li><li><span class="mcq-option-label">B.</span> do-while</li><li><span class="mcq-option-label">C.</span> for</li><li><span class="mcq-option-label">D.</span> Range-based for</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> The for loop is designed for counted iterations with its init-condition-update structure.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">How many times does the loop body execute?<br><code>for (int i = 0; i < 10; i++) { ... }</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 9</li><li><span class="mcq-option-label">B.</span> 10</li><li><span class="mcq-option-label">C.</span> 11</li><li><span class="mcq-option-label">D.</span> Infinite</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> i takes values 0 through 9 (10 values). When i = 10, 10 < 10 is false.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which loop always executes its body at least once?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> for</li><li><span class="mcq-option-label">B.</span> while</li><li><span class="mcq-option-label">C.</span> do-while</li><li><span class="mcq-option-label">D.</span> Range-based for</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> do-while checks its condition after the body executes, guaranteeing at least one execution.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is the correct syntax for a range-based for loop in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> for (int x in arr)</li><li><span class="mcq-option-label">B.</span> for (auto x : arr)</li><li><span class="mcq-option-label">C.</span> foreach (auto x : arr)</li><li><span class="mcq-option-label">D.</span> for each (auto x in arr)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> C++11 range-based for syntax is <code>for (type variable : container)</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does the continue statement do inside a loop?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Exits the loop entirely</li><li><span class="mcq-option-label">B.</span> Skips to the next iteration</li><li><span class="mcq-option-label">C.</span> Pauses the loop</li><li><span class="mcq-option-label">D.</span> Restarts the loop from the beginning</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> continue skips the remaining body of the current iteration and jumps to the next iteration.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which creates an infinite loop in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> for (int i = 0; i &lt; 10; i++) {}</li><li><span class="mcq-option-label">B.</span> while (false) {}</li><li><span class="mcq-option-label">C.</span> for (;;) {}</li><li><span class="mcq-option-label">D.</span> do {} while (false);</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> for (;;) has no condition, which defaults to true, creating an infinite loop.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What happens if you put a semicolon after for (int i = 0; i < 5; i++); ?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Compilation error</li><li><span class="mcq-option-label">B.</span> The loop runs with an empty body</li><li><span class="mcq-option-label">C.</span> The loop does not run at all</li><li><span class="mcq-option-label">D.</span> Infinite loop</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> The semicolon acts as an empty statement, becoming the loop body. The loop runs 5 times doing nothing.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">In a range-based for loop, how do you modify array elements in-place?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> for (auto x : arr)</li><li><span class="mcq-option-label">B.</span> for (auto&amp; x : arr)</li><li><span class="mcq-option-label">C.</span> for (const auto x : arr)</li><li><span class="mcq-option-label">D.</span> for (auto* x : arr)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> auto& creates a reference, allowing modifications to affect the original array. Plain auto creates a copy.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does break do inside a nested loop?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Exits all loops</li><li><span class="mcq-option-label">B.</span> Exits only the innermost loop</li><li><span class="mcq-option-label">C.</span> Exits the function</li><li><span class="mcq-option-label">D.</span> Causes a compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> break exits only the innermost enclosing loop. The outer loop continues normally.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is the time complexity of this code?<br><code>for (int i = 0; i < n; i++) { for (int j = 0; j < n; j++) { ... } }</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(n)</li><li><span class="mcq-option-label">B.</span> O(n log n)</li><li><span class="mcq-option-label">C.</span> O(n^2)</li><li><span class="mcq-option-label">D.</span> O(2^n)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> The outer loop runs n times, and for each, the inner loop runs n times. Total: n * n = O(n^2).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">How many iterations does this loop execute?<br><code>for (int i = 1; i < 1000; i *= 2) { ... }</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 500</li><li><span class="mcq-option-label">B.</span> 10</li><li><span class="mcq-option-label">C.</span> 999</li><li><span class="mcq-option-label">D.</span> Infinite</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> i doubles: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512. Next: 1024 >= 1000, stop. 10 iterations (log2(1000) is approximately 10).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the output?<br><code>int x = 0; for (int i = 0; i < 3; i++) for (int j = 0; j <= i; j++) x++; cout << x;</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 3</li><li><span class="mcq-option-label">B.</span> 6</li><li><span class="mcq-option-label">C.</span> 9</li><li><span class="mcq-option-label">D.</span> 12</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> i=0: j runs 0 to 0 (1 increment). i=1: j runs 0 to 1 (2 increments). i=2: j runs 0 to 2 (3 increments). Total: 1+2+3=6.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Why is calling strlen(s) in a for loop condition a performance problem?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> strlen() modifies the string</li><li><span class="mcq-option-label">B.</span> strlen() is O(n), making the loop O(n^2)</li><li><span class="mcq-option-label">C.</span> strlen() causes undefined behavior</li><li><span class="mcq-option-label">D.</span> strlen() only works with std::string</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> strlen() scans the entire C-string to find \0, which is O(n). Calling it in every loop iteration makes the loop O(n^2) instead of O(n). Store the length in a variable before the loop.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the output?<br><code>for (int i = 0; i < 3; i++) cout << "Hi "; cout << "Done";</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Hi Hi Hi Done</li><li><span class="mcq-option-label">B.</span> Hi Hi Hi </li><li><span class="mcq-option-label">C.</span> Hi Done Hi Done Hi Done</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: A</strong><br><strong>A is correct.</strong> Without braces, only the first statement after for is in the loop body. So "Hi " prints 3 times, then "Done" prints once outside the loop.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Sum of Digits</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Take an integer N from the user and calculate the sum of its digits using a while loop. Example: 1234 -> 1+2+3+4 = 10.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter a number: 1234</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Sum of digits: 10</div>
+                </div><div class="challenge-constraints">Use % 10 to get the last digit and / 10 to remove it.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int n;
+    cout &lt;&lt; &quot;Enter a number: &quot;;
+    cin &gt;&gt; n;
+    int sum = 0, temp = n;
+    while (temp &gt; 0) {
+        sum += temp % 10;
+        temp /= 10;
+    }
+    cout &lt;&lt; &quot;Sum of digits: &quot; &lt;&lt; sum &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Reverse a Number</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Take an integer and print its reverse. Example: 12345 -> 54321.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter a number: 12345</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Reversed: 54321</div>
+                </div><div class="challenge-constraints">Use a while loop with % 10 and / 10.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int n;
+    cout &lt;&lt; &quot;Enter a number: &quot;;
+    cin &gt;&gt; n;
+    int reversed = 0;
+    while (n &gt; 0) {
+        reversed = reversed * 10 + n % 10;
+        n /= 10;
+    }
+    cout &lt;&lt; &quot;Reversed: &quot; &lt;&lt; reversed &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Right-Aligned Number Triangle</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Print a right-aligned triangle of numbers for N rows. Row i should have numbers 1 to i, right-aligned with leading spaces.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">n = 5</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">        1
+      1 2
+    1 2 3
+  1 2 3 4
+1 2 3 4 5</div>
+                </div><div class="challenge-constraints">Use nested loops. Compute spaces as 2*(n-i).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int n = 5;
+    for (int i = 1; i &lt;= n; i++) {
+        for (int j = 1; j &lt;= n - i; j++) cout &lt;&lt; &quot;  &quot;;
+        for (int j = 1; j &lt;= i; j++) cout &lt;&lt; j &lt;&lt; &quot; &quot;;
+        cout &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Diamond Star Pattern</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Print a diamond pattern of stars for N rows (upper half). The total height should be 2*N - 1.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">n = 4</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *</div>
+                </div><div class="challenge-constraints">Upper half: spaces = n-i, stars = 2*i-1. Lower half: mirror of the upper half.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int n = 4;
+    for (int i = 1; i &lt;= n; i++) {
+        for (int j = 1; j &lt;= n - i; j++) cout &lt;&lt; &quot; &quot;;
+        for (int j = 1; j &lt;= 2 * i - 1; j++) cout &lt;&lt; &quot;*&quot;;
+        cout &lt;&lt; endl;
+    }
+    for (int i = n - 1; i &gt;= 1; i--) {
+        for (int j = 1; j &lt;= n - i; j++) cout &lt;&lt; &quot; &quot;;
+        for (int j = 1; j &lt;= 2 * i - 1; j++) cout &lt;&lt; &quot;*&quot;;
+        cout &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Pascal&#39;s Triangle</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Print the first N rows of Pascal's Triangle. Each element is the sum of the two elements above it.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">n = 6</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+1 5 10 10 5 1</div>
+                </div><div class="challenge-constraints">Use the combinatorial formula: C(n, r) = C(n, r-1) * (n - r + 1) / r. No factorial functions needed.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int n = 6;
+    for (int i = 0; i &lt; n; i++) {
+        int val = 1;
+        for (int j = 0; j &lt;= i; j++) {
+            cout &lt;&lt; val &lt;&lt; &quot; &quot;;
+            val = val * (i - j) / (j + 1);
+        }
+        cout &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Hollow Rectangle</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Print a hollow rectangle of stars with R rows and C columns. Only the border positions should have stars; interior positions should have spaces.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">rows = 4, cols = 6</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">******
+*    *
+*    *
+******</div>
+                </div><div class="challenge-constraints">A position (i, j) is on the border if i == 1 or i == R or j == 1 or j == C.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int r = 4, c = 6;
+    for (int i = 1; i &lt;= r; i++) {
+        for (int j = 1; j &lt;= c; j++) {
+            if (i == 1 || i == r || j == 1 || j == c)
+                cout &lt;&lt; &quot;*&quot;;
+            else
+                cout &lt;&lt; &quot; &quot;;
+        }
+        cout &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: GCD Using Euclidean Algorithm</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Find the GCD of two numbers using the Euclidean algorithm with a while loop.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter two numbers: 48 18</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">GCD: 6</div>
+                </div><div class="challenge-constraints">Use while loop: while (b != 0) { temp = b; b = a % b; a = temp; }</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int a, b;
+    cout &lt;&lt; &quot;Enter two numbers: &quot;;
+    cin &gt;&gt; a &gt;&gt; b;
+    int origA = a, origB = b;
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    cout &lt;&lt; &quot;GCD of &quot; &lt;&lt; origA &lt;&lt; &quot; and &quot; &lt;&lt; origB &lt;&lt; &quot;: &quot; &lt;&lt; a &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Armstrong Number Checker</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Check if a number is an Armstrong number. An N-digit number is Armstrong if the sum of its digits, each raised to the power N, equals the number itself. Example: 153 = 1^3 + 5^3 + 3^3 = 153.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter a number: 153</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">153 is an Armstrong number</div>
+                </div><div class="challenge-constraints">First count digits, then compute sum of powers using a loop.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;cmath&gt;
+using namespace std;
+int main() {
+    int n;
+    cout &lt;&lt; &quot;Enter a number: &quot;;
+    cin &gt;&gt; n;
+    int digits = 0, temp = n;
+    while (temp &gt; 0) { digits++; temp /= 10; }
+    int sum = 0;
+    temp = n;
+    while (temp &gt; 0) {
+        int d = temp % 10;
+        sum += pow(d, digits);
+        temp /= 10;
+    }
+    cout &lt;&lt; n &lt;&lt; (sum == n ? &quot; is&quot; : &quot; is not&quot;) &lt;&lt; &quot; an Armstrong number&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/conditional-statements/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Conditional Statements (if, else, switch)</span>
+        </a>
+            <a href="/resources/cpp/functions-in-cpp/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Functions, Overloading, and Recursion</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/loops-in-cpp" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

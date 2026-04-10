@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Polymorphism - Virtual Functions and Operator Overloading | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="58+ practice questions on Polymorphism - Virtual Functions and Operator Overloading in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="polymorphism - virtual functions and operator overloading practice, c++ questions, c++ practice problems, polymorphism - virtual functions and operator overloading exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp/practice">
+    <meta property="og:title" content="Practice Questions - Polymorphism - Virtual Functions and Operator Overloading | C++ | Modern Age Coders">
+    <meta property="og:description" content="58+ practice questions on Polymorphism - Virtual Functions and Operator Overloading in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp/practice">
+    <meta name="twitter:title" content="Practice Questions - Polymorphism - Virtual Functions and Operator Overloading | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="58+ practice questions on Polymorphism - Virtual Functions and Operator Overloading in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Polymorphism - Virtual Functions and Operator Overloading",
+    "description": "58+ practice questions on Polymorphism - Virtual Functions and Operator Overloading in C++.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Polymorphism - Virtual Functions and Operator Overloading"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Polymorphism - Virtual Functions and Operator Overloading",
+        "item": "https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/polymorphism-in-cpp/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/polymorphism-in-cpp">Polymorphism - Virtual Functions and Operator Overloading</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 16</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">58 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Polymorphism - Virtual Functions and Operator Overloading</h1>
+            <a href="/resources/cpp/polymorphism-in-cpp" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Animal {
+public:
+    virtual void sound() { cout &lt;&lt; "Animal sound" &lt;&lt; endl; }
+    virtual ~Animal() {}
+};
+class Dog : public Animal {
+public:
+    void sound() override { cout &lt;&lt; "Bark" &lt;&lt; endl; }
+};
+int main() {
+    Animal* a = new Dog();
+    a-&gt;sound();
+    delete a;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The pointer type is Animal*, but the actual object is Dog. sound() is virtual.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Bark</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Calc {
+public:
+    int add(int a, int b) { return a + b; }
+    double add(double a, double b) { return a + b; }
+};
+int main() {
+    Calc c;
+    cout &lt;&lt; c.add(3, 4) &lt;&lt; endl;
+    cout &lt;&lt; c.add(3.0, 4.0) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">The compiler selects the matching overloaded function based on argument types.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>7</code><br><code>7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    virtual void show() { cout &lt;&lt; "A" &lt;&lt; endl; }
+    virtual ~A() {}
+};
+class B : public A {
+public:
+    void show() override { cout &lt;&lt; "B" &lt;&lt; endl; }
+};
+class C : public B {
+public:
+    void show() override { cout &lt;&lt; "C" &lt;&lt; endl; }
+};
+int main() {
+    A* obj = new C();
+    obj-&gt;show();
+    delete obj;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">C extends B extends A. The actual object is C. show() is virtual.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    void greet() { cout &lt;&lt; "Hello from Base" &lt;&lt; endl; }
+};
+class Derived : public Base {
+};
+int main() {
+    Base* b = new Derived();
+    b-&gt;greet();
+    delete b;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">greet() is NOT virtual. Derived does not override it.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Hello from Base</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    void show() { cout &lt;&lt; "Base" &lt;&lt; endl; }
+};
+class Derived : public Base {
+public:
+    void show() { cout &lt;&lt; "Derived" &lt;&lt; endl; }
+};
+int main() {
+    Base* b = new Derived();
+    b-&gt;show();
+    Derived* d = new Derived();
+    d-&gt;show();
+    delete b;
+    delete d;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">show() is NOT virtual. The call depends on the pointer type.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>Base</code><br><code>Derived</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    virtual void display() { cout &lt;&lt; "Base::display" &lt;&lt; endl; }
+    void show() { cout &lt;&lt; "Base::show" &lt;&lt; endl; }
+    virtual ~Base() {}
+};
+class Derived : public Base {
+public:
+    void display() override { cout &lt;&lt; "Derived::display" &lt;&lt; endl; }
+    void show() { cout &lt;&lt; "Derived::show" &lt;&lt; endl; }
+};
+int main() {
+    Base* b = new Derived();
+    b-&gt;display();
+    b-&gt;show();
+    delete b;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">display() is virtual but show() is not. How does this affect the call?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Derived::display</code><br><code>Base::show</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    int x = 10;
+    virtual void show() { cout &lt;&lt; x &lt;&lt; endl; }
+    virtual ~Base() {}
+};
+class Derived : public Base {
+public:
+    int x = 20;
+    void show() override { cout &lt;&lt; x &lt;&lt; endl; }
+};
+int main() {
+    Base* b = new Derived();
+    cout &lt;&lt; b-&gt;x &lt;&lt; endl;
+    b-&gt;show();
+    delete b;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Data members are not polymorphic. Virtual functions are polymorphic.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>10</code><br><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Shape {
+public:
+    virtual void draw() { cout &lt;&lt; "Shape" &lt;&lt; endl; }
+    virtual ~Shape() {}
+};
+class Circle : public Shape {
+public:
+    void draw() override { cout &lt;&lt; "Circle" &lt;&lt; endl; }
+};
+void render(Shape s) {
+    s.draw();
+}
+int main() {
+    Circle c;
+    render(c);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">The function takes Shape by value, not by reference or pointer.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Shape</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Complex {
+    int real, imag;
+public:
+    Complex(int r = 0, int i = 0) : real(r), imag(i) {}
+    Complex operator+(const Complex&amp; c) const {
+        return Complex(real + c.real, imag + c.imag);
+    }
+    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Complex&amp; c) {
+        os &lt;&lt; c.real &lt;&lt; "+" &lt;&lt; c.imag &lt;&lt; "i";
+        return os;
+    }
+};
+int main() {
+    Complex a(3, 4), b(1, 2);
+    Complex c = a + b;
+    cout &lt;&lt; c &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">a + b calls operator+(b) on a. The << operator is a friend function.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>4+6i</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Counter {
+    int val;
+public:
+    Counter(int v) : val(v) {}
+    Counter&amp; operator++() { ++val; return *this; }
+    Counter operator++(int) { Counter t = *this; ++val; return t; }
+    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Counter&amp; c) {
+        os &lt;&lt; c.val; return os;
+    }
+};
+int main() {
+    Counter c(5);
+    cout &lt;&lt; ++c &lt;&lt; endl;
+    cout &lt;&lt; c++ &lt;&lt; endl;
+    cout &lt;&lt; c &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Prefix ++ increments first then returns. Postfix ++ returns old value then increments.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>6</code><br><code>6</code><br><code>7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    virtual void test() { cout &lt;&lt; "Base::test" &lt;&lt; endl; }
+    virtual ~Base() {}
+};
+class Mid : public Base {
+public:
+    void test() override { cout &lt;&lt; "Mid::test" &lt;&lt; endl; }
+};
+class Leaf : public Mid {
+public:
+    void test() override { cout &lt;&lt; "Leaf::test" &lt;&lt; endl; }
+};
+int main() {
+    Base* b1 = new Mid();
+    Base* b2 = new Leaf();
+    Mid* m1 = new Leaf();
+    b1-&gt;test();
+    b2-&gt;test();
+    m1-&gt;test();
+    delete b1; delete b2; delete m1;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">All calls resolve to the actual object type because test() is virtual throughout.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>Mid::test</code><br><code>Leaf::test</code><br><code>Leaf::test</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    Base() { cout &lt;&lt; "Base()" &lt;&lt; endl; }
+    virtual ~Base() { cout &lt;&lt; "~Base()" &lt;&lt; endl; }
+};
+class Derived : public Base {
+public:
+    Derived() { cout &lt;&lt; "Derived()" &lt;&lt; endl; }
+    ~Derived() { cout &lt;&lt; "~Derived()" &lt;&lt; endl; }
+};
+int main() {
+    Base* b = new Derived();
+    delete b;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">The destructor is virtual. Both destructors should run in reverse order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Base()</code><br><code>Derived()</code><br><code>~Derived()</code><br><code>~Base()</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    virtual void show() { cout &lt;&lt; "Base" &lt;&lt; endl; display(); }
+    virtual void display() { cout &lt;&lt; "Base::display" &lt;&lt; endl; }
+    virtual ~Base() {}
+};
+class Derived : public Base {
+public:
+    void display() override { cout &lt;&lt; "Derived::display" &lt;&lt; endl; }
+};
+int main() {
+    Base* b = new Derived();
+    b-&gt;show();
+    delete b;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">show() is inherited from Base. But display() is overridden. When show() calls display(), which version runs?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>Base</code><br><code>Derived::display</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    Base() {
+        cout &lt;&lt; "Base ctor" &lt;&lt; endl;
+        init();
+    }
+    virtual void init() { cout &lt;&lt; "Base::init" &lt;&lt; endl; }
+    virtual ~Base() {}
+};
+class Derived : public Base {
+    int val;
+public:
+    Derived() : val(42) {
+        cout &lt;&lt; "Derived ctor, val=" &lt;&lt; val &lt;&lt; endl;
+    }
+    void init() override { cout &lt;&lt; "Derived::init, val=" &lt;&lt; val &lt;&lt; endl; }
+};
+int main() {
+    Derived d;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">During Base constructor, the vtable points to Base's vtable, not Derived's. What does init() call?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>Base ctor</code><br><code>Base::init</code><br><code>Derived ctor, val=42</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Animal {
+public:
+    virtual void sound() = 0;
+    virtual ~Animal() {}
+};
+class Dog : public Animal {
+public:
+    void sound() override { cout &lt;&lt; "Bark" &lt;&lt; endl; }
+};
+class GoldenRetriever : public Dog {
+public:
+    void sound() override { cout &lt;&lt; "Friendly Bark" &lt;&lt; endl; }
+};
+int main() {
+    Animal* a1 = new Dog();
+    Animal* a2 = new GoldenRetriever();
+    Dog* d1 = new GoldenRetriever();
+    a1-&gt;sound();
+    a2-&gt;sound();
+    d1-&gt;sound();
+    delete a1; delete a2; delete d1;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">sound() is pure virtual in Animal. Both Dog and GoldenRetriever override it.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>Bark</code><br><code>Friendly Bark</code><br><code>Friendly Bark</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    virtual void func(int x) { cout &lt;&lt; "Base::func(int) " &lt;&lt; x &lt;&lt; endl; }
+    virtual ~Base() {}
+};
+class Derived : public Base {
+public:
+    void func(int x) override { cout &lt;&lt; "Derived::func(int) " &lt;&lt; x &lt;&lt; endl; }
+    void func(double x) { cout &lt;&lt; "Derived::func(double) " &lt;&lt; x &lt;&lt; endl; }
+};
+int main() {
+    Base* b = new Derived();
+    b-&gt;func(10);
+    b-&gt;func(10.5);
+    delete b;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Base only declares func(int). func(double) in Derived is not visible through a Base pointer.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>Derived::func(int) 10</code><br><code>Derived::func(int) 10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    virtual void show() const { cout &lt;&lt; "Base" &lt;&lt; endl; }
+    virtual ~Base() {}
+};
+class Derived : public Base {
+public:
+    void show() { cout &lt;&lt; "Derived" &lt;&lt; endl; }
+};
+int main() {
+    Base* b = new Derived();
+    b-&gt;show();
+    delete b;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Base::show() is const but Derived::show() is not const. Are they the same signature?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>Base</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Animal {
+public:
+    virtual ~Animal() {}
+};
+class Dog : public Animal {};
+class Cat : public Animal {};
+int main() {
+    Animal* a = new Dog();
+    Dog* d = dynamic_cast&lt;Dog*&gt;(a);
+    Cat* c = dynamic_cast&lt;Cat*&gt;(a);
+    cout &lt;&lt; (d != nullptr) &lt;&lt; endl;
+    cout &lt;&lt; (c != nullptr) &lt;&lt; endl;
+    delete a;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">dynamic_cast returns nullptr when the cast is invalid for pointers.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>1</code><br><code>0</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Printer {
+public:
+    void print(int x) { cout &lt;&lt; "int: " &lt;&lt; x &lt;&lt; endl; }
+    void print(double x) { cout &lt;&lt; "double: " &lt;&lt; x &lt;&lt; endl; }
+    void print(const string&amp; x) { cout &lt;&lt; "string: " &lt;&lt; x &lt;&lt; endl; }
+};
+int main() {
+    Printer p;
+    p.print(42);
+    p.print(3.14);
+    p.print(string("Arjun"));
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Three overloaded print functions with different parameter types.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>int: 42</code><br><code>double: 3.14</code><br><code>string: Arjun</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Point {
+    int x, y;
+public:
+    Point(int x, int y) : x(x), y(y) {}
+    bool operator==(const Point&amp; p) const {
+        return x == p.x &amp;&amp; y == p.y;
+    }
+};
+int main() {
+    Point a(3, 4), b(3, 4), c(1, 2);
+    cout &lt;&lt; (a == b) &lt;&lt; endl;
+    cout &lt;&lt; (a == c) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">The == operator compares both x and y values.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>1</code><br><code>0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Vehicle {
+public:
+    virtual void start() { cout &lt;&lt; "Vehicle" &lt;&lt; endl; }
+    virtual ~Vehicle() {}
+};
+class Car : public Vehicle {
+public:
+    void start() override { cout &lt;&lt; "Car" &lt;&lt; endl; }
+};
+class Bike : public Vehicle {
+public:
+    void start() override { cout &lt;&lt; "Bike" &lt;&lt; endl; }
+};
+int main() {
+    Vehicle* v[] = { new Car(), new Bike(), new Vehicle() };
+    for (int i = 0; i &lt; 3; i++) {
+        v[i]-&gt;start();
+        delete v[i];
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">An array of base class pointers, each pointing to a different type.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>Car</code><br><code>Bike</code><br><code>Vehicle</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between compile-time and runtime polymorphism in C++?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Think about when the function to call is decided: compilation or execution.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4">Compile-time polymorphism (static binding) is resolved by the compiler. It includes function overloading and operator overloading. Runtime polymorphism (dynamic binding) is resolved at execution time using virtual functions and the vtable mechanism. It requires inheritance and the virtual keyword.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    virtual void func() { cout &lt;&lt; "Base" &lt;&lt; endl; }
+    virtual ~Base() {}
+};
+class Derived : public Base {
+public:
+    void func() override { cout &lt;&lt; "Derived" &lt;&lt; endl; }
+};
+int main() {
+    Derived d;
+    Base&amp; ref = d;
+    ref.func();
+    Base b = d;  // Copy by value
+    b.func();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">References preserve polymorphism. Copying by value does not.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>Derived</code><br><code>Base</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Matrix {
+    int data[2][2];
+public:
+    Matrix(int a, int b, int c, int d) {
+        data[0][0]=a; data[0][1]=b; data[1][0]=c; data[1][1]=d;
+    }
+    Matrix operator+(const Matrix&amp; m) const {
+        return Matrix(data[0][0]+m.data[0][0], data[0][1]+m.data[0][1],
+                      data[1][0]+m.data[1][0], data[1][1]+m.data[1][1]);
+    }
+    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Matrix&amp; m) {
+        os &lt;&lt; m.data[0][0] &lt;&lt; " " &lt;&lt; m.data[0][1] &lt;&lt; endl;
+        os &lt;&lt; m.data[1][0] &lt;&lt; " " &lt;&lt; m.data[1][1];
+        return os;
+    }
+};
+int main() {
+    Matrix a(1,2,3,4), b(5,6,7,8);
+    Matrix c = a + b;
+    cout &lt;&lt; c &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">The + operator adds corresponding elements of two 2x2 matrices.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>6 8</code><br><code>10 12</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the vtable and vptr mechanism? How does it enable runtime polymorphism?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Think about what the compiler generates for classes with virtual functions.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">When a class has at least one virtual function, the compiler creates a vtable (virtual function table) for that class, which is an array of function pointers. Each object of that class contains a hidden vptr (virtual pointer) that points to its class's vtable. When a virtual function is called through a base pointer, the program follows the vptr to the vtable and calls the function pointer at the appropriate slot. This is how the correct overridden function is called at runtime.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Num {
+    int val;
+public:
+    Num(int v) : val(v) {}
+    Num operator-() const { return Num(-val); }
+    Num operator-(const Num&amp; n) const { return Num(val - n.val); }
+    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Num&amp; n) {
+        os &lt;&lt; n.val; return os;
+    }
+};
+int main() {
+    Num a(10), b(3);
+    cout &lt;&lt; -a &lt;&lt; endl;
+    cout &lt;&lt; (a - b) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Unary minus (negation) and binary minus (subtraction) are different operators.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>-10</code><br><code>7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    virtual void f() { cout &lt;&lt; "A::f" &lt;&lt; endl; }
+    void g() { cout &lt;&lt; "A::g" &lt;&lt; endl; f(); }
+    virtual ~A() {}
+};
+class B : public A {
+public:
+    void f() override { cout &lt;&lt; "B::f" &lt;&lt; endl; }
+    void g() { cout &lt;&lt; "B::g" &lt;&lt; endl; f(); }
+};
+int main() {
+    A* p = new B();
+    p-&gt;g();
+    cout &lt;&lt; "---" &lt;&lt; endl;
+    B* q = new B();
+    q-&gt;g();
+    delete p; delete q;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">g() is NOT virtual. Through A*, A::g() runs. But f() inside g() IS virtual.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>A::g</code><br><code>B::f</code><br><code>---</code><br><code>B::g</code><br><code>B::f</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    virtual Base* clone() {
+        cout &lt;&lt; "Base clone" &lt;&lt; endl;
+        return new Base(*this);
+    }
+    virtual ~Base() {}
+};
+class Derived : public Base {
+    int x;
+public:
+    Derived(int x) : x(x) {}
+    Derived* clone() override {
+        cout &lt;&lt; "Derived clone, x=" &lt;&lt; x &lt;&lt; endl;
+        return new Derived(*this);
+    }
+};
+int main() {
+    Base* b = new Derived(42);
+    Base* copy = b-&gt;clone();
+    delete b;
+    delete copy;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Derived::clone() returns Derived* instead of Base*. Is this a valid override?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>Derived clone, x=42</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why must the << operator be overloaded as a friend function (or non-member function) rather than a member function?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think about which object is the left operand of <<.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">When you write cout << obj, the left operand is cout (an ostream object), not your class object. If << were a member function of your class, the syntax would be obj << cout (your object on the left), which is backwards. A friend function takes ostream& as the first parameter and your object as the second, matching the natural cout << obj syntax.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Shape {
+public:
+    virtual void draw() = 0;
+    virtual ~Shape() {}
+};
+class Circle : public Shape {
+public:
+    void draw() override { cout &lt;&lt; "Circle" &lt;&lt; endl; }
+};
+class Square : public Shape {
+public:
+    void draw() override { cout &lt;&lt; "Square" &lt;&lt; endl; }
+};
+int main() {
+    Shape* shapes[] = { new Circle(), new Square(), new Circle() };
+    for (int i = 0; i &lt; 3; i++) {
+        shapes[i]-&gt;draw();
+    }
+    for (int i = 0; i &lt; 3; i++) delete shapes[i];
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Pure virtual function. Each derived class provides its own implementation.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>Circle</code><br><code>Square</code><br><code>Circle</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class SafeArray {
+    int arr[5];
+public:
+    SafeArray() { for(int i=0;i&lt;5;i++) arr[i]=i*10; }
+    int&amp; operator[](int i) {
+        if(i&lt;0||i&gt;=5) { cout&lt;&lt;"OOB"&lt;&lt;endl; return arr[0]; }
+        return arr[i];
+    }
+};
+int main() {
+    SafeArray sa;
+    cout &lt;&lt; sa[2] &lt;&lt; endl;
+    sa[3] = 99;
+    cout &lt;&lt; sa[3] &lt;&lt; endl;
+    cout &lt;&lt; sa[10] &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">The [] operator returns a reference, allowing both read and write. Index 10 is out of bounds.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>20</code><br><code>99</code><br><code>OOB</code><br><code>0</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which keyword enables runtime polymorphism in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> static</li><li><span class="mcq-option-label">B.</span> virtual</li><li><span class="mcq-option-label">C.</span> override</li><li><span class="mcq-option-label">D.</span> dynamic</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>virtual</code> keyword tells the compiler to use dynamic dispatch (vtable lookup) instead of static binding. Without it, the function called depends on the pointer type, not the actual object type.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which of the following is compile-time polymorphism?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Virtual functions</li><li><span class="mcq-option-label">B.</span> Function overloading</li><li><span class="mcq-option-label">C.</span> Dynamic dispatch</li><li><span class="mcq-option-label">D.</span> Pure virtual functions</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> Function overloading is resolved at compile time based on argument types and count. Virtual functions, dynamic dispatch, and pure virtual functions are all related to runtime polymorphism.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which operator CANNOT be overloaded in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> +</li><li><span class="mcq-option-label">B.</span> []</li><li><span class="mcq-option-label">C.</span> ::</li><li><span class="mcq-option-label">D.</span> &lt;&lt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> The scope resolution operator <code>::</code> cannot be overloaded. Other operators that cannot be overloaded include <code>.</code>, <code>.*</code>, <code>?:</code>, <code>sizeof</code>, and <code>typeid</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is the purpose of a virtual destructor?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To make the constructor virtual</li><li><span class="mcq-option-label">B.</span> To ensure the derived class destructor runs when deleting through a base pointer</li><li><span class="mcq-option-label">C.</span> To prevent object creation</li><li><span class="mcq-option-label">D.</span> To make the class abstract</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> Without a virtual destructor, deleting a derived object through a base pointer only calls the base destructor. A virtual destructor ensures the correct destructor chain runs, preventing resource leaks.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What distinguishes prefix ++ from postfix ++ in operator overloading?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Prefix takes an int parameter, postfix takes none</li><li><span class="mcq-option-label">B.</span> Postfix takes a dummy int parameter, prefix takes none</li><li><span class="mcq-option-label">C.</span> They have different names</li><li><span class="mcq-option-label">D.</span> Prefix returns void, postfix returns a copy</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> Prefix <code>operator++()</code> takes no parameters and returns a reference. Postfix <code>operator++(int)</code> takes a dummy <code>int</code> parameter (never used) and returns a copy of the old value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the slicing problem in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Cutting an array in half</li><li><span class="mcq-option-label">B.</span> Losing derived class data when passing by value to a base class parameter</li><li><span class="mcq-option-label">C.</span> A compilation error with virtual functions</li><li><span class="mcq-option-label">D.</span> Memory corruption during downcasting</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> When a derived object is passed by value to a function expecting a base class, only the base portion is copied. The derived class data members and vtable pointer are lost (sliced off).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does dynamic_cast return when a pointer cast fails?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Throws bad_cast</li><li><span class="mcq-option-label">B.</span> Returns nullptr</li><li><span class="mcq-option-label">C.</span> Returns 0</li><li><span class="mcq-option-label">D.</span> Undefined behavior</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> For pointer casts, <code>dynamic_cast</code> returns <code>nullptr</code> on failure. For reference casts, it throws <code>std::bad_cast</code>. This makes pointer-based <code>dynamic_cast</code> safe to check with an if statement.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">How much extra memory does a vtable pointer add to each object?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0 bytes</li><li><span class="mcq-option-label">B.</span> 4 bytes always</li><li><span class="mcq-option-label">C.</span> One pointer size (typically 4 or 8 bytes)</li><li><span class="mcq-option-label">D.</span> Depends on the number of virtual functions</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Each object with virtual functions has one hidden vptr (virtual pointer), which is one pointer in size (4 bytes on 32-bit, 8 bytes on 64-bit systems). The vtable itself is per-class, not per-object, so its size does not affect object size.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which operators MUST be overloaded as member functions?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> + and -</li><li><span class="mcq-option-label">B.</span> &lt;&lt; and &gt;&gt;</li><li><span class="mcq-option-label">C.</span> =, [], (), and -&gt;</li><li><span class="mcq-option-label">D.</span> == and !=</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> The assignment (<code>=</code>), subscript (<code>[]</code>), function call (<code>()</code>), and arrow (<code>-&gt;</code>) operators must be overloaded as non-static member functions. All other operators can be either member or non-member.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What does the override keyword do in C++11?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Makes a function virtual</li><li><span class="mcq-option-label">B.</span> Ensures the function actually overrides a base class virtual function</li><li><span class="mcq-option-label">C.</span> Prevents the function from being overridden</li><li><span class="mcq-option-label">D.</span> Makes the function pure virtual</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>override</code> is a compile-time check. If the function signature does not match any virtual function in the base class, the compiler reports an error. This catches subtle bugs like const-mismatch or typos.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What happens when a virtual function is called inside a base class constructor?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The derived version runs</li><li><span class="mcq-option-label">B.</span> The base version runs</li><li><span class="mcq-option-label">C.</span> Compilation error</li><li><span class="mcq-option-label">D.</span> Undefined behavior</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> During the base class constructor, the vtable pointer still points to the base class's vtable (the derived part is not yet constructed). So the base version of the virtual function is called. This is different from Java.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is RTTI in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Runtime Type Information - mechanism for dynamic_cast and typeid</li><li><span class="mcq-option-label">B.</span> A compiler optimization</li><li><span class="mcq-option-label">C.</span> A template feature</li><li><span class="mcq-option-label">D.</span> A memory management technique</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: A</strong><br><strong>A is correct.</strong> RTTI (Runtime Type Information) is the mechanism that enables <code>dynamic_cast</code> and <code>typeid</code> to work at runtime. It requires at least one virtual function in the class hierarchy. Some compilers allow disabling RTTI with <code>-fno-rtti</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+public:
+    virtual void f() { cout &lt;&lt; "A"; }
+    virtual ~A() {}
+};
+class B : public A {
+public:
+    void f() override { cout &lt;&lt; "B"; }
+};
+void test(A a) { a.f(); }
+int main() { test(B()); }</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A</li><li><span class="mcq-option-label">B.</span> B</li><li><span class="mcq-option-label">C.</span> Compilation error</li><li><span class="mcq-option-label">D.</span> Undefined behavior</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: A</strong><br><strong>A is correct.</strong> The function <code>test()</code> takes <code>A</code> by value. When <code>B()</code> is passed, slicing occurs: only the <code>A</code> portion is copied. The sliced copy's vtable points to <code>A</code>'s vtable, so <code>A::f()</code> is called.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which of the following is true about pure virtual functions?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A class with a pure virtual function can be instantiated</li><li><span class="mcq-option-label">B.</span> A pure virtual function cannot have a definition in the base class</li><li><span class="mcq-option-label">C.</span> A pure virtual function makes the class abstract</li><li><span class="mcq-option-label">D.</span> Pure virtual functions are resolved at compile time</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> A class with at least one pure virtual function (<code>= 0</code>) is abstract and cannot be instantiated. Contrary to option B, a pure virtual function CAN have a definition in the base class (callable via <code>Base::func()</code>).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does the final keyword do when applied to a virtual function?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Makes the function non-virtual</li><li><span class="mcq-option-label">B.</span> Prevents the function from being overridden in further derived classes</li><li><span class="mcq-option-label">C.</span> Makes the function a constant expression</li><li><span class="mcq-option-label">D.</span> Prevents the class from being inherited</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>final</code> on a virtual function prevents any derived class from overriding it further. On a class, <code>final</code> prevents inheritance. They serve different purposes depending on context.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the minimum requirement for dynamic_cast to work?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The class must be a template</li><li><span class="mcq-option-label">B.</span> The source type must have at least one virtual function</li><li><span class="mcq-option-label">C.</span> Both types must be in the same translation unit</li><li><span class="mcq-option-label">D.</span> The class must have a default constructor</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>dynamic_cast</code> uses RTTI, which requires the vtable/vptr mechanism. A class must have at least one virtual function for the compiler to generate RTTI. Without it, <code>dynamic_cast</code> causes a compilation error.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What is a covariant return type in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A function that returns void</li><li><span class="mcq-option-label">B.</span> An overriding function that returns a more derived pointer/reference type than the base function</li><li><span class="mcq-option-label">C.</span> A template return type</li><li><span class="mcq-option-label">D.</span> A function returning auto</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> If a base class virtual function returns <code>Base*</code>, the derived class override can return <code>Derived*</code>. This is called a covariant return type. The return type must be a pointer or reference to a class derived from the original return type.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Shape Area Calculator with Virtual Functions</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create an abstract Shape class with a pure virtual area() method. Create Circle (radius), Rectangle (width, height), and Triangle (base, height) subclasses. Store pointers in a Shape* array and compute total area using a loop.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Circle radius=5, Rectangle 4x6, Triangle base=3 height=8</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Circle area: 78.54
+Rectangle area: 24.00
+Triangle area: 12.00
+Total area: 114.54</div>
+                </div><div class="challenge-constraints">Use virtual functions. Use override keyword. Include virtual destructor. Do not pass objects by value.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;cmath&gt;
+using namespace std;
+
+class Shape {
+public:
+    virtual double area() const = 0;
+    virtual string name() const = 0;
+    virtual ~Shape() {}
+};
+
+class Circle : public Shape {
+    double radius;
+public:
+    Circle(double r) : radius(r) {}
+    double area() const override { return M_PI * radius * radius; }
+    string name() const override { return &quot;Circle&quot;; }
+};
+
+class Rectangle : public Shape {
+    double w, h;
+public:
+    Rectangle(double w, double h) : w(w), h(h) {}
+    double area() const override { return w * h; }
+    string name() const override { return &quot;Rectangle&quot;; }
+};
+
+class Triangle : public Shape {
+    double base, height;
+public:
+    Triangle(double b, double h) : base(b), height(h) {}
+    double area() const override { return 0.5 * base * height; }
+    string name() const override { return &quot;Triangle&quot;; }
+};
+
+int main() {
+    Shape* shapes[] = { new Circle(5), new Rectangle(4, 6), new Triangle(3, 8) };
+    double total = 0;
+    for (int i = 0; i &lt; 3; i++) {
+        double a = shapes[i]-&gt;area();
+        printf(&quot;%s area: %.2f\n&quot;, shapes[i]-&gt;name().c_str(), a);
+        total += a;
+    }
+    printf(&quot;Total area: %.2f\n&quot;, total);
+    for (int i = 0; i &lt; 3; i++) delete shapes[i];
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Complex Number Class with Full Operator Overloading</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a Complex class with operator overloading for +, -, *, ==, !=, prefix ++, postfix ++, unary -, <<, and >>. Test all operators.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">a = (3, 4), b = (1, 2)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">a + b = 4+6i
+a - b = 2+2i
+a * b = -5+10i
+a == b: 0
+-a = -3-4i</div>
+                </div><div class="challenge-constraints">Use const references for parameters. Return by value for binary operators. Use friend for &lt;&lt; and &gt;&gt;.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Complex {
+    double real, imag;
+public:
+    Complex(double r = 0, double i = 0) : real(r), imag(i) {}
+    Complex operator+(const Complex&amp; c) const { return Complex(real+c.real, imag+c.imag); }
+    Complex operator-(const Complex&amp; c) const { return Complex(real-c.real, imag-c.imag); }
+    Complex operator*(const Complex&amp; c) const {
+        return Complex(real*c.real - imag*c.imag, real*c.imag + imag*c.real);
+    }
+    Complex operator-() const { return Complex(-real, -imag); }
+    bool operator==(const Complex&amp; c) const { return real==c.real &amp;&amp; imag==c.imag; }
+    bool operator!=(const Complex&amp; c) const { return !(*this == c); }
+    Complex&amp; operator++() { ++real; return *this; }
+    Complex operator++(int) { Complex t = *this; ++real; return t; }
+    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Complex&amp; c) {
+        os &lt;&lt; c.real;
+        if (c.imag &gt;= 0) os &lt;&lt; &quot;+&quot;;
+        os &lt;&lt; c.imag &lt;&lt; &quot;i&quot;;
+        return os;
+    }
+    friend istream&amp; operator&gt;&gt;(istream&amp; is, Complex&amp; c) {
+        is &gt;&gt; c.real &gt;&gt; c.imag;
+        return is;
+    }
+};
+
+int main() {
+    Complex a(3, 4), b(1, 2);
+    cout &lt;&lt; &quot;a + b = &quot; &lt;&lt; (a + b) &lt;&lt; endl;
+    cout &lt;&lt; &quot;a - b = &quot; &lt;&lt; (a - b) &lt;&lt; endl;
+    cout &lt;&lt; &quot;a * b = &quot; &lt;&lt; (a * b) &lt;&lt; endl;
+    cout &lt;&lt; &quot;a == b: &quot; &lt;&lt; (a == b) &lt;&lt; endl;
+    cout &lt;&lt; &quot;-a = &quot; &lt;&lt; -a &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Payment Processor with dynamic_cast</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a Payment base class with virtual process(double). Create CreditCard (has cardNumber), UPI (has upiId), and NetBanking subclasses. Write a processAndLog function that uses dynamic_cast to detect the payment type and log extra details.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Amount = 1500.0</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Credit Card: Processing 1500 with card ending 4321
+UPI: Processing 1500 via ravi@upi
+Net Banking: Processing 1500 via bank transfer
+Unknown payment type for amount 1500</div>
+                </div><div class="challenge-constraints">Use dynamic_cast for safe downcasting. Use virtual destructor. Demonstrate nullptr check.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Payment {
+public:
+    virtual void process(double amount) { cout &lt;&lt; &quot;Processing &quot; &lt;&lt; amount &lt;&lt; endl; }
+    virtual ~Payment() {}
+};
+
+class CreditCard : public Payment {
+    string cardNum;
+public:
+    CreditCard(string num) : cardNum(num) {}
+    void process(double amount) override {
+        cout &lt;&lt; &quot;Credit Card: Processing &quot; &lt;&lt; amount &lt;&lt; &quot; with card ending &quot; &lt;&lt; cardNum.substr(cardNum.size()-4) &lt;&lt; endl;
+    }
+};
+
+class UPI : public Payment {
+    string upiId;
+public:
+    UPI(string id) : upiId(id) {}
+    void process(double amount) override {
+        cout &lt;&lt; &quot;UPI: Processing &quot; &lt;&lt; amount &lt;&lt; &quot; via &quot; &lt;&lt; upiId &lt;&lt; endl;
+    }
+};
+
+class NetBanking : public Payment {
+public:
+    void process(double amount) override {
+        cout &lt;&lt; &quot;Net Banking: Processing &quot; &lt;&lt; amount &lt;&lt; &quot; via bank transfer&quot; &lt;&lt; endl;
+    }
+};
+
+void processAndLog(Payment* p, double amount) {
+    if (dynamic_cast&lt;CreditCard*&gt;(p) || dynamic_cast&lt;UPI*&gt;(p) || dynamic_cast&lt;NetBanking*&gt;(p)) {
+        p-&gt;process(amount);
+    } else {
+        cout &lt;&lt; &quot;Unknown payment type for amount &quot; &lt;&lt; amount &lt;&lt; endl;
+    }
+}
+
+int main() {
+    Payment* payments[] = { new CreditCard(&quot;1234567890124321&quot;), new UPI(&quot;ravi@upi&quot;), new NetBanking(), new Payment() };
+    for (int i = 0; i &lt; 4; i++) {
+        processAndLog(payments[i], 1500);
+        delete payments[i];
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: SafeArray with [] Operator and Functor</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a SafeArray class that wraps a dynamic array with bounds-checked [] operator. Also create a Transform functor class with operator() that applies a transformation to each element. Use them together to double every element.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Array: {1, 2, 3, 4, 5}, Transform: double each element</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Before: 1 2 3 4 5
+After: 2 4 6 8 10</div>
+                </div><div class="challenge-constraints">Return reference from []. Throw out_of_range for invalid index. Functor takes int, returns int.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+
+class SafeArray {
+    int* data;
+    int sz;
+public:
+    SafeArray(int n) : sz(n), data(new int[n]()) {}
+    ~SafeArray() { delete[] data; }
+    int&amp; operator[](int i) {
+        if (i &lt; 0 || i &gt;= sz) throw out_of_range(&quot;Index out of bounds&quot;);
+        return data[i];
+    }
+    int size() const { return sz; }
+};
+
+class Transform {
+    int factor;
+public:
+    Transform(int f) : factor(f) {}
+    int operator()(int x) const { return x * factor; }
+};
+
+int main() {
+    SafeArray arr(5);
+    for (int i = 0; i &lt; 5; i++) arr[i] = i + 1;
+
+    cout &lt;&lt; &quot;Before:&quot;;
+    for (int i = 0; i &lt; 5; i++) cout &lt;&lt; &quot; &quot; &lt;&lt; arr[i];
+    cout &lt;&lt; endl;
+
+    Transform doubler(2);
+    for (int i = 0; i &lt; 5; i++) arr[i] = doubler(arr[i]);
+
+    cout &lt;&lt; &quot;After:&quot;;
+    for (int i = 0; i &lt; 5; i++) cout &lt;&lt; &quot; &quot; &lt;&lt; arr[i];
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Employee Payroll with Virtual Functions and RTTI</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create an abstract Employee class with pure virtual salary(). Create FullTime (monthly), PartTime (hourly rate * hours), Intern (stipend), and Contractor (daily rate * days) subclasses. Process an array of Employee* pointers. Use typeid to print the type of each employee. Compute total payroll.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">FullTime=50000, PartTime=500/hr*80hrs, Intern=15000, Contractor=3000/day*20days</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Arjun [FullTime]: 50000
+Kavya [PartTime]: 40000
+Ravi [Intern]: 15000
+Priya [Contractor]: 60000
+Total payroll: 165000</div>
+                </div><div class="challenge-constraints">Use pure virtual functions. Use typeid for RTTI. Virtual destructor required. Do not slice objects.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;typeinfo&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Employee {
+protected:
+    string name;
+public:
+    Employee(string n) : name(n) {}
+    virtual double salary() const = 0;
+    string getName() const { return name; }
+    virtual ~Employee() {}
+};
+
+class FullTime : public Employee {
+    double monthly;
+public:
+    FullTime(string n, double m) : Employee(n), monthly(m) {}
+    double salary() const override { return monthly; }
+};
+
+class PartTime : public Employee {
+    double rate; int hours;
+public:
+    PartTime(string n, double r, int h) : Employee(n), rate(r), hours(h) {}
+    double salary() const override { return rate * hours; }
+};
+
+class Intern : public Employee {
+    double stipend;
+public:
+    Intern(string n, double s) : Employee(n), stipend(s) {}
+    double salary() const override { return stipend; }
+};
+
+class Contractor : public Employee {
+    double dailyRate; int days;
+public:
+    Contractor(string n, double r, int d) : Employee(n), dailyRate(r), days(d) {}
+    double salary() const override { return dailyRate * days; }
+};
+
+int main() {
+    Employee* team[] = {
+        new FullTime(&quot;Arjun&quot;, 50000),
+        new PartTime(&quot;Kavya&quot;, 500, 80),
+        new Intern(&quot;Ravi&quot;, 15000),
+        new Contractor(&quot;Priya&quot;, 3000, 20)
+    };
+    double total = 0;
+    for (int i = 0; i &lt; 4; i++) {
+        double s = team[i]-&gt;salary();
+        cout &lt;&lt; team[i]-&gt;getName() &lt;&lt; &quot; [&quot; &lt;&lt; typeid(*team[i]).name() &lt;&lt; &quot;]: &quot; &lt;&lt; s &lt;&lt; endl;
+        total += s;
+    }
+    cout &lt;&lt; &quot;Total payroll: &quot; &lt;&lt; total &lt;&lt; endl;
+    for (int i = 0; i &lt; 4; i++) delete team[i];
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/inheritance-in-cpp/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Inheritance in C++</span>
+        </a>
+            <a href="/resources/cpp/abstraction-and-interfaces/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Abstract Classes, Pure Virtual Functions, and Interfaces</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/polymorphism-in-cpp" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

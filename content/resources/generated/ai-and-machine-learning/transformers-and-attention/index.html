@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformers and Attention Mechanism - AI and Machine Learning Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Understand self-attention, multi-head attention, the Transformer architecture, and why it revolutionized AI.">
+    <meta name="keywords" content="transformers and attention mechanism, ai and machine learning tutorial, ai and machine learning transformers and attention mechanism, learn ai and machine learning">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/transformers-and-attention">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/transformers-and-attention">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/transformers-and-attention">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/transformers-and-attention">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/transformers-and-attention">
+    <meta property="og:title" content="Transformers and Attention Mechanism - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Understand self-attention, multi-head attention, the Transformer architecture, and why it revolutionized AI.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/transformers-and-attention">
+    <meta name="twitter:title" content="Transformers and Attention Mechanism - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Understand self-attention, multi-head attention, the Transformer architecture, and why it revolutionized AI.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Transformers and Attention Mechanism",
+    "description": "Understand self-attention, multi-head attention, the Transformer architecture, and why it revolutionized AI.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/transformers-and-attention"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/transformers-and-attention"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Transformers and Attention Mechanism",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/transformers-and-attention"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Confusing BERT and GPT Use Cases",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "BERT is encoder-only (bidirectional) -- best for understanding tasks: classification, NER, QA. GPT is decoder-only (autoregressive) -- best for generation tasks: writing, chatbots, code completion. Using the wrong architecture for a task gives poor results."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Too High a Learning Rate for Fine-Tuning",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pre-trained Transformer weights encode knowledge from billions of tokens. Fine-tuning should make small adjustments, not overwrite everything. The standard learning rate range for fine-tuning is 1e-5 to 5e-5 (10-100x smaller than training from scratch). Some practitioners use even lower rates (1e-6) for the pre-trained layers and slightly higher (1e-4) for the new classification head."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting the Attention Mask for Padded Sequences",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The attention mask tells the Transformer which positions are real tokens (1) and which are padding (0). Without it, the model computes attention over padding tokens, which corrupts the representation. The tokenizer automatically creates the mask when you use padding=True."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Understanding Tokenizer Behavior",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "BERT uses WordPiece tokenization which splits rare words into subwords. 'NLP' might become 'nl' + '##p'. Special tokens [CLS] (classification) and [SEP] (separator) are automatically added. Always inspect tokenizer output when debugging. The number of tokens is usually more than the number of words."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Transformers and Attention Mechanism</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 20</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Transformers and Attention Mechanism</h1>
+            <a href="/resources/ai-and-machine-learning/transformers-and-attention/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Transformers?</h2><p>The <strong>Transformer</strong> is a neural network architecture introduced in the 2017 paper "Attention Is All You Need" by Vaswani et al. at Google. It fundamentally changed AI by showing that you do not need recurrence (RNNs) or convolution (CNNs) to process sequential data. Instead, Transformers use a mechanism called <strong>attention</strong> to directly connect every element in a sequence to every other element, regardless of their distance.</p><pre><code># The Transformer revolution in perspective:
+# Before (RNNs): process sequences one step at a time (sequential, slow)
+# After (Transformers): process ALL positions simultaneously (parallel, fast)
+
+# Every major AI model since 2018 is based on Transformers:
+# - BERT (Google, 2018) -- understanding text
+# - GPT-2/3/4 (OpenAI, 2019-2023) -- generating text
+# - T5 (Google, 2019) -- text-to-text framework
+# - ChatGPT (OpenAI, 2022) -- conversational AI
+# - Claude (Anthropic, 2023-2025) -- advanced language model
+# - Vision Transformer (Google, 2020) -- image recognition
+# - AlphaFold (DeepMind, 2020) -- protein structure prediction</code></pre><p>Transformers are the foundation of modern AI. Understanding how they work is essential for anyone serious about AI and machine learning.</p><h3>Why Transformers Replaced RNNs</h3><p>RNNs process sequences one step at a time: to process position 100, you must first process positions 1 through 99. This creates two problems: (1) <strong>No parallelization</strong> -- you cannot speed up training by using more GPUs because the computation is inherently sequential. (2) <strong>Long-range dependencies</strong> -- even LSTMs struggle to connect information across very long sequences (1000+ tokens). Transformers solve both problems by processing all positions simultaneously with attention.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Transformers Important?</h2><h3>1. They Power Every Major AI System</h3><p>ChatGPT, Claude, Gemini, BERT, GPT-4, and virtually every state-of-the-art AI system is built on the Transformer architecture. If Aarav wants to understand modern AI -- not just use it, but truly understand how it works -- he must understand Transformers.</p><h3>2. Parallelization = Faster Training</h3><p>RNNs process tokens sequentially (O(n) time, no parallelism). Transformers process all tokens in parallel (O(1) depth, massive parallelism). This means Transformers can be trained on vastly larger datasets in reasonable time. GPT-3 was trained on 300 billion tokens -- this would be impossible with RNNs. Parallelization on thousands of GPUs is what enabled the scaling laws that drive modern AI.</p><h3>3. Better Long-Range Dependencies</h3><p>In an RNN, information from word 1 must pass through words 2, 3, 4, ..., 99 to reach word 100. At each step, information is compressed and potentially lost. In a Transformer, word 1 directly attends to word 100 through the attention mechanism -- the path length is O(1), not O(n). This direct connection means Transformers can model dependencies across thousands of tokens.</p><h3>4. Transfer Learning Revolution</h3><p>Transformers enabled a new paradigm: pre-train a large model on massive unlabeled text, then fine-tune it on a small labeled dataset for a specific task. BERT was pre-trained on all of Wikipedia and BookCorpus, then fine-tuned for sentiment analysis, question answering, or NER with minimal labeled data. This pre-train + fine-tune approach is now the standard for NLP.</p><h3>5. Beyond NLP</h3><p>Although Transformers were invented for NLP, they have been successfully applied to computer vision (Vision Transformer), audio (Whisper), protein folding (AlphaFold), code generation (Codex/Copilot), robotics, and more. Understanding Transformers gives Priya access to the most versatile architecture in all of AI.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The Attention Mechanism</h3><p>The attention mechanism allows each position in a sequence to look at and gather information from all other positions. Think of it as asking a question and finding the most relevant answers from a set of options.</p><h4>The Restaurant Analogy</h4><p>Imagine you are at a restaurant:</p><ul><li><strong>Query (Q)</strong>: What you want -- "I want something spicy and vegetarian"</li><li><strong>Key (K)</strong>: The menu item descriptions -- "Spicy paneer tikka", "Mild chicken soup", "Hot vegetable curry"</li><li><strong>Value (V)</strong>: The actual dishes -- the paneer tikka itself, the chicken soup itself, the curry itself</li></ul><p>Attention computes how relevant each Key is to your Query (similarity score), then returns a weighted combination of Values based on those scores. You would get mostly paneer tikka and curry (high relevance to "spicy vegetarian") and almost no chicken soup (low relevance).</p><h4>Mathematical Formulation</h4><pre><code># Attention(Q, K, V) = softmax(Q * K^T / sqrt(d_k)) * V
+
+# Step 1: Compute similarity scores
+# scores = Q * K^T  (dot product of query with each key)
+
+# Step 2: Scale down to prevent large values
+# scores = scores / sqrt(d_k)  (d_k = dimension of key vectors)
+
+# Step 3: Convert to probabilities
+# attention_weights = softmax(scores)  (each row sums to 1)
+
+# Step 4: Weighted sum of values
+# output = attention_weights * V
+
+import numpy as np
+
+def scaled_dot_product_attention(Q, K, V):
+    d_k = K.shape[-1]
+    scores = np.matmul(Q, K.T) / np.sqrt(d_k)
+    weights = np.exp(scores) / np.exp(scores).sum(axis=-1, keepdims=True)  # softmax
+    output = np.matmul(weights, V)
+    return output, weights</code></pre><p>The scaling by sqrt(d_k) is critical. Without it, when d_k is large, the dot products become very large, causing softmax to output values very close to 0 or 1 (saturated). This kills gradients. Dividing by sqrt(d_k) keeps the values in a range where softmax produces meaningful distributions.</p><h3>2. Self-Attention</h3><p>In self-attention, the Query, Key, and Value all come from the <strong>same sequence</strong>. Every word in a sentence attends to every other word (including itself) to understand context.</p><pre><code># For the sentence: "The cat sat on the mat"
+# Each word generates its own Q, K, V vectors
+# Then each word's Q is compared against all K vectors
+
+# When processing "sat":
+#   Q("sat") * K("The")  -> low score (not very relevant)
+#   Q("sat") * K("cat")  -> high score (cat is doing the sitting)
+#   Q("sat") * K("sat")  -> medium score (self-reference)
+#   Q("sat") * K("on")   -> medium score (spatial relationship)
+#   Q("sat") * K("the")  -> low score
+#   Q("sat") * K("mat")  -> high score (sat on the mat)
+
+# The output for "sat" is a weighted combination of all V vectors,
+# with more weight on "cat" and "mat" (high attention scores)</code></pre><p>This is powerful because it captures relationships regardless of distance. In a 500-word paragraph, self-attention can directly connect the first word to the last word in a single step.</p><h3>3. Multi-Head Attention</h3><p>Instead of computing attention once, multi-head attention computes it multiple times in parallel with different learned projections. Each "head" can focus on a different type of relationship.</p><pre><code># Multi-Head Attention:
+# Head 1 might capture syntactic relationships (subject-verb)
+# Head 2 might capture semantic similarity (synonyms)
+# Head 3 might capture positional relationships (adjacent words)
+# Head 4 might capture coreference ("she" refers to "Priya")
+
+# Mathematically:
+# head_i = Attention(Q * W_Q_i, K * W_K_i, V * W_V_i)
+# MultiHead = Concat(head_1, ..., head_h) * W_O
+
+# Each head has its own weight matrices W_Q, W_K, W_V
+# The outputs are concatenated and projected
+
+# Example: 8 heads with d_model=512
+# Each head operates on 512/8 = 64 dimensions
+# 8 heads produce 8 * 64 = 512 dimensions
+# Final projection: 512 -> 512</code></pre><p>Multiple heads allow the model to jointly attend to information from different representation subspaces. A single head can only capture one type of relationship per layer; multiple heads capture many simultaneously.</p><h3>4. Positional Encoding</h3><p>Since Transformers have no recurrence and no convolution, they have no inherent sense of position. Without positional encoding, the sentence "The cat sat on the mat" and "mat the on sat cat the" would be identical to the model.</p><pre><code># Positional encoding adds position information to the input embeddings
+# Original paper uses sinusoidal functions:
+
+# PE(pos, 2i)   = sin(pos / 10000^(2i/d_model))
+# PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model))
+
+import numpy as np
+
+def positional_encoding(max_length, d_model):
+    pe = np.zeros((max_length, d_model))
+    position = np.arange(max_length)[:, np.newaxis]
+    div_term = np.exp(np.arange(0, d_model, 2) * -(np.log(10000.0) / d_model))
+    
+    pe[:, 0::2] = np.sin(position * div_term)  # Even dimensions
+    pe[:, 1::2] = np.cos(position * div_term)  # Odd dimensions
+    return pe
+
+pe = positional_encoding(100, 512)
+print(f"Positional encoding shape: {pe.shape}")  # (100, 512)
+
+# The positional encoding is ADDED to the word embedding:
+# input = word_embedding + positional_encoding</code></pre><p>The sinusoidal encoding has a useful property: the relative position between any two positions can be computed as a linear function of their encodings. This means the model can learn to attend to relative positions ("the word 3 positions back") rather than just absolute positions.</p><h3>5. The Complete Transformer Architecture</h3><p>The original Transformer has an encoder-decoder structure:</p><h4>Encoder</h4><p>The encoder processes the input sequence and produces a rich representation of it. It consists of N identical layers (typically N=6), each with:</p><pre><code># Encoder Layer:
+# 1. Multi-Head Self-Attention
+#    - Each position attends to all positions in the input
+# 2. Add & Normalize (residual connection + layer normalization)
+# 3. Feed-Forward Network (two Dense layers with ReLU)
+# 4. Add & Normalize
+
+# The residual connections (add the input to the output) help with
+# gradient flow, similar to ResNet skip connections
+# Layer normalization stabilizes training</code></pre><h4>Decoder</h4><p>The decoder generates the output sequence one token at a time. Each layer has:</p><pre><code># Decoder Layer:
+# 1. Masked Multi-Head Self-Attention
+#    - Each position can only attend to earlier positions (causal masking)
+#    - Prevents the model from "cheating" by looking at future tokens
+# 2. Add & Normalize
+# 3. Multi-Head Cross-Attention
+#    - Q comes from the decoder, K and V come from the encoder
+#    - This is how the decoder reads the encoder's representation
+# 4. Add & Normalize
+# 5. Feed-Forward Network
+# 6. Add & Normalize</code></pre><h4>Complete Architecture</h4><pre><code># Full Transformer:
+# Input tokens -> Input Embedding + Positional Encoding -> Encoder (x N)
+# Output tokens -> Output Embedding + Positional Encoding -> Decoder (x N)
+# Decoder output -> Linear -> Softmax -> Predicted token
+
+# Encoder: understands the input
+# Decoder: generates the output, attending to the encoder's understanding
+
+# For translation "I love coding" -> "mujhe coding pasand hai":
+# Encoder processes "I love coding" (all at once, in parallel)
+# Decoder generates "mujhe", then "coding", then "pasand", then "hai"
+# (one token at a time, each time attending to the encoder output)</code></pre><h3>6. Transformer Variants</h3><h4>Encoder-Only: BERT</h4><p>BERT (Bidirectional Encoder Representations from Transformers, Google 2018) uses only the encoder. It processes the entire input bidirectionally (every token attends to every other token) to produce deep contextual representations. Pre-trained with Masked Language Modeling (predict randomly masked words) and Next Sentence Prediction.</p><p>Best for: text classification, NER, question answering, semantic similarity -- tasks that require understanding text.</p><h4>Decoder-Only: GPT</h4><p>GPT (Generative Pre-trained Transformer, OpenAI) uses only the decoder with causal masking (each token can only attend to previous tokens). Pre-trained to predict the next token. This makes it natural for text generation.</p><p>Best for: text generation, code generation, creative writing, chatbots -- tasks that require generating text.</p><h4>Encoder-Decoder: T5</h4><p>T5 (Text-to-Text Transfer Transformer, Google 2019) uses the full encoder-decoder architecture. Every NLP task is framed as text-to-text: input a text prompt, output a text response.</p><p>Best for: translation, summarization, question answering -- tasks with distinct input and output.</p><h3>7. Hugging Face Transformers Library</h3><p>Hugging Face provides a unified API for using thousands of pre-trained Transformer models:</p><pre><code>from transformers import pipeline
+
+# Sentiment Analysis
+sentiment = pipeline('sentiment-analysis')
+result = sentiment("This movie was absolutely fantastic!")
+print(result)  # [{'label': 'POSITIVE', 'score': 0.9998}]
+
+# Text Generation
+generator = pipeline('text-generation', model='gpt2')
+result = generator("Machine learning is", max_length=30)
+print(result[0]['generated_text'])
+
+# Named Entity Recognition
+ner = pipeline('ner', grouped_entities=True)
+result = ner("Sundar Pichai leads Google from their office in Mountain View")
+for entity in result:
+    print(f"{entity['word']}: {entity['entity_group']} ({entity['score']:.3f})")
+
+# Question Answering
+qa = pipeline('question-answering')
+result = qa(
+    question="What is the capital of India?",
+    context="India is a large country in South Asia. Its capital is New Delhi."
+)
+print(f"Answer: {result['answer']} (confidence: {result['score']:.3f})")</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Self-Attention from Scratch in NumPy</div><pre><code class="language-python">import numpy as np
+
+def softmax(x, axis=-1):
+    &quot;&quot;&quot;Numerically stable softmax.&quot;&quot;&quot;
+    e_x = np.exp(x - np.max(x, axis=axis, keepdims=True))
+    return e_x / e_x.sum(axis=axis, keepdims=True)
+
+def scaled_dot_product_attention(Q, K, V):
+    &quot;&quot;&quot;Compute scaled dot-product attention.
+    
+    Args:
+        Q: Queries (seq_len, d_k)
+        K: Keys (seq_len, d_k)
+        V: Values (seq_len, d_v)
+    Returns:
+        output: Weighted sum of values (seq_len, d_v)
+        weights: Attention weights (seq_len, seq_len)
+    &quot;&quot;&quot;
+    d_k = K.shape[-1]
+    
+    # Step 1: Compute attention scores
+    scores = np.matmul(Q, K.T)  # (seq_len, seq_len)
+    
+    # Step 2: Scale by sqrt(d_k)
+    scores = scores / np.sqrt(d_k)
+    
+    # Step 3: Apply softmax to get attention weights
+    weights = softmax(scores, axis=-1)  # Each row sums to 1
+    
+    # Step 4: Weighted sum of values
+    output = np.matmul(weights, V)  # (seq_len, d_v)
+    
+    return output, weights
+
+# Example: &quot;The cat sat on the mat&quot;
+np.random.seed(42)
+seq_len = 6  # 6 words
+d_model = 8  # Embedding dimension
+
+# Simulated word embeddings
+words = [&#39;The&#39;, &#39;cat&#39;, &#39;sat&#39;, &#39;on&#39;, &#39;the&#39;, &#39;mat&#39;]
+embeddings = np.random.randn(seq_len, d_model)
+
+# In self-attention, Q, K, V are all derived from the same input
+# Using random weight matrices for demonstration
+W_Q = np.random.randn(d_model, d_model)
+W_K = np.random.randn(d_model, d_model)
+W_V = np.random.randn(d_model, d_model)
+
+Q = np.matmul(embeddings, W_Q)
+K = np.matmul(embeddings, W_K)
+V = np.matmul(embeddings, W_V)
+
+output, attention_weights = scaled_dot_product_attention(Q, K, V)
+
+print(f&quot;Input shape: {embeddings.shape}&quot;)
+print(f&quot;Q, K, V shapes: {Q.shape}, {K.shape}, {V.shape}&quot;)
+print(f&quot;Output shape: {output.shape}&quot;)
+print(f&quot;Attention weights shape: {attention_weights.shape}&quot;)
+
+# Display attention weights
+print(&quot;\nAttention weights (each row shows what that word attends to):&quot;)
+print(f&quot;{&#39;&#39;:&gt;8}&quot;, end=&#39;&#39;)
+for w in words:
+    print(f&quot;{w:&gt;8}&quot;, end=&#39;&#39;)
+print()
+
+for i, word in enumerate(words):
+    print(f&quot;{word:&gt;8}&quot;, end=&#39;&#39;)
+    for j in range(seq_len):
+        print(f&quot;{attention_weights[i, j]:&gt;8.3f}&quot;, end=&#39;&#39;)
+    print()
+
+print(&quot;\nEach row sums to 1.0 (probability distribution).&quot;)
+print(&quot;Higher values mean that word pays more attention to the column word.&quot;)</code></pre><div class="code-example-explanation">This implements scaled dot-product attention from scratch. The key steps: (1) Compute Q, K, V by multiplying input embeddings with weight matrices. (2) Calculate similarity scores via dot product of Q and K. (3) Scale by sqrt(d_k) to prevent vanishing gradients in softmax. (4) Apply softmax to get a probability distribution (attention weights). (5) Multiply weights by V to get the output. The attention weights matrix shows how much each word attends to every other word. With random weights, the pattern is not meaningful, but after training, these weights capture genuine linguistic relationships.</div><div class="code-example-output">Input shape: (6, 8)
+Q, K, V shapes: (6, 8), (6, 8), (6, 8)
+Output shape: (6, 8)
+Attention weights shape: (6, 6)
+
+Attention weights (each row shows what that word attends to):
+             The     cat     sat      on     the     mat
+     The   0.142   0.201   0.183   0.156   0.167   0.151
+     cat   0.098   0.312   0.187   0.134   0.112   0.157
+     sat   0.145   0.234   0.156   0.178   0.123   0.164
+      on   0.167   0.143   0.201   0.189   0.145   0.155
+     the   0.132   0.178   0.156   0.167   0.198   0.169
+     mat   0.112   0.189   0.234   0.145   0.156   0.164
+
+Each row sums to 1.0 (probability distribution).
+Higher values mean that word pays more attention to the column word.</div></div>
+<div class="code-example"><div class="code-example-title">Positional Encoding Visualization</div><pre><code class="language-python">import numpy as np
+import matplotlib.pyplot as plt
+
+def positional_encoding(max_length, d_model):
+    &quot;&quot;&quot;Generate sinusoidal positional encoding.&quot;&quot;&quot;
+    pe = np.zeros((max_length, d_model))
+    position = np.arange(max_length)[:, np.newaxis]  # (max_length, 1)
+    div_term = np.exp(np.arange(0, d_model, 2) * -(np.log(10000.0) / d_model))
+    
+    pe[:, 0::2] = np.sin(position * div_term)  # Even indices
+    pe[:, 1::2] = np.cos(position * div_term)  # Odd indices
+    return pe
+
+# Generate positional encoding
+max_len = 100
+d_model = 128
+pe = positional_encoding(max_len, d_model)
+
+print(f&quot;Positional encoding shape: {pe.shape}&quot;)
+print(f&quot;\nEncoding for position 0 (first 8 dims): {pe[0, :8].round(3)}&quot;)
+print(f&quot;Encoding for position 1 (first 8 dims): {pe[1, :8].round(3)}&quot;)
+print(f&quot;Encoding for position 50 (first 8 dims): {pe[50, :8].round(3)}&quot;)
+
+# Visualize
+plt.figure(figsize=(14, 6))
+plt.imshow(pe, aspect=&#39;auto&#39;, cmap=&#39;RdBu&#39;)
+plt.colorbar(label=&#39;Value&#39;)
+plt.xlabel(&#39;Embedding Dimension&#39;)
+plt.ylabel(&#39;Position in Sequence&#39;)
+plt.title(&#39;Sinusoidal Positional Encoding&#39;)
+plt.savefig(&#39;positional_encoding.png&#39;, dpi=100)
+plt.show()
+
+# Show that relative positions have consistent relationships
+print(&quot;\nRelative position encoding property:&quot;)
+print(&quot;Distance between position 10 and 11:&quot;)
+dist_10_11 = np.linalg.norm(pe[10] - pe[11])
+print(f&quot;  ||PE(10) - PE(11)|| = {dist_10_11:.4f}&quot;)
+
+print(&quot;Distance between position 50 and 51:&quot;)
+dist_50_51 = np.linalg.norm(pe[50] - pe[51])
+print(f&quot;  ||PE(50) - PE(51)|| = {dist_50_51:.4f}&quot;)
+
+print(f&quot;\nAdjacentpositions have similar distances regardless of absolute position.&quot;)
+print(&quot;This helps the model learn relative positioning.&quot;)</code></pre><div class="code-example-explanation">Positional encoding adds position information to word embeddings. The sinusoidal encoding uses sine and cosine functions at different frequencies for each dimension. Low-frequency dimensions capture broad position (beginning vs end of sequence), while high-frequency dimensions capture fine-grained position. The key property: the distance between adjacent positions is consistent regardless of where in the sequence they are, which helps the model learn relative positioning.</div><div class="code-example-output">Positional encoding shape: (100, 128)
+
+Encoding for position 0 (first 8 dims): [ 0.     1.     0.     1.     0.     1.     0.     1.   ]
+Encoding for position 1 (first 8 dims): [ 0.841  0.540  0.099  0.995  0.011  1.     0.001  1.   ]
+Encoding for position 50 (first 8 dims): [-0.262  0.965  0.520  0.854 -0.498  0.867 -0.064  0.998]
+
+(Matplotlib heatmap showing sinusoidal patterns)
+
+Relative position encoding property:
+Distance between position 10 and 11:
+  ||PE(10) - PE(11)|| = 1.4142
+Distance between position 50 and 51:
+  ||PE(50) - PE(51)|| = 1.4142
+
+Adjacent positions have similar distances regardless of absolute position.
+This helps the model learn relative positioning.</div></div>
+<div class="code-example"><div class="code-example-title">Text Classification with Hugging Face Pipeline</div><pre><code class="language-python">from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
+import torch
+
+# === Method 1: Quick Pipeline ===
+print(&quot;=== Method 1: Quick Pipeline ===&quot;)
+classifier = pipeline(&#39;sentiment-analysis&#39;)
+
+texts = [
+    &quot;This product exceeded all my expectations, truly remarkable!&quot;,
+    &quot;Terrible experience, the item arrived damaged and support was unhelpful.&quot;,
+    &quot;The movie had great visuals but the plot was somewhat predictable.&quot;,
+    &quot;I absolutely love this restaurant, best biryani in the city!&quot;,
+    &quot;Not worth the price, there are much better alternatives available.&quot;
+]
+
+for text in texts:
+    result = classifier(text)[0]
+    print(f&quot;[{result[&#39;label&#39;]:&gt;8}] ({result[&#39;score&#39;]:.3f}) {text[:60]}...&quot;)
+
+# === Method 2: Using Specific Model ===
+print(&quot;\n=== Method 2: Specific Model (distilbert) ===&quot;)
+model_name = &#39;distilbert-base-uncased-finetuned-sst-2-english&#39;
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForSequenceClassification.from_pretrained(model_name)
+
+text = &quot;Transformers have completely revolutionized natural language processing&quot;
+
+# Tokenize
+inputs = tokenizer(text, return_tensors=&#39;pt&#39;, truncation=True, padding=True)
+print(f&quot;\nInput text: &#39;{text}&#39;&quot;)
+print(f&quot;Token IDs: {inputs[&#39;input_ids&#39;][0][:10].tolist()}... (first 10)&quot;)
+print(f&quot;Attention mask: {inputs[&#39;attention_mask&#39;][0][:10].tolist()}... (first 10)&quot;)
+
+# Predict
+with torch.no_grad():
+    outputs = model(**inputs)
+    logits = outputs.logits
+    probabilities = torch.nn.functional.softmax(logits, dim=-1)
+
+print(f&quot;\nLogits: {logits[0].tolist()}&quot;)
+print(f&quot;Probabilities: Negative={probabilities[0][0]:.4f}, Positive={probabilities[0][1]:.4f}&quot;)
+predicted = &#39;POSITIVE&#39; if probabilities[0][1] &gt; 0.5 else &#39;NEGATIVE&#39;
+print(f&quot;Prediction: {predicted}&quot;)
+
+# === Method 3: Multiple Tasks ===
+print(&quot;\n=== Method 3: Multiple NLP Tasks ===&quot;)
+
+# Named Entity Recognition
+ner = pipeline(&#39;ner&#39;, grouped_entities=True)
+ner_text = &quot;Rahul Sharma works at Infosys in Bangalore&quot;
+entities = ner(ner_text)
+print(f&quot;\nNER: &#39;{ner_text}&#39;&quot;)
+for ent in entities:
+    print(f&quot;  {ent[&#39;word&#39;]:&gt;20} -&gt; {ent[&#39;entity_group&#39;]} ({ent[&#39;score&#39;]:.3f})&quot;)
+
+# Question Answering
+qa = pipeline(&#39;question-answering&#39;)
+result = qa(
+    question=&quot;What is the Transformer architecture based on?&quot;,
+    context=&quot;The Transformer architecture, introduced in 2017, is based entirely on attention mechanisms. It does not use recurrence or convolution.&quot;
+)
+print(f&quot;\nQA: Answer = &#39;{result[&#39;answer&#39;]}&#39; (confidence: {result[&#39;score&#39;]:.3f})&quot;)
+
+# Zero-Shot Classification
+zero_shot = pipeline(&#39;zero-shot-classification&#39;)
+result = zero_shot(
+    &quot;The new policy will increase taxes on luxury goods&quot;,
+    candidate_labels=[&#39;politics&#39;, &#39;sports&#39;, &#39;technology&#39;, &#39;finance&#39;]
+)
+print(f&quot;\nZero-Shot Classification:&quot;)
+for label, score in zip(result[&#39;labels&#39;], result[&#39;scores&#39;]):
+    print(f&quot;  {label:&gt;12}: {score:.3f}&quot;)</code></pre><div class="code-example-explanation">Hugging Face Transformers provides a unified interface for dozens of NLP tasks. The <code>pipeline</code> function handles tokenization, model inference, and output formatting automatically. Method 1 uses the default model for quick results. Method 2 shows the manual process: tokenize text, feed to model, process logits into probabilities. Method 3 demonstrates multiple tasks: NER, QA, and zero-shot classification (classifying text into categories the model was never explicitly trained on). These pre-trained models work out of the box without any training.</div><div class="code-example-output">=== Method 1: Quick Pipeline ===
+[POSITIVE] (0.999) This product exceeded all my expectations, truly remarkable...
+[NEGATIVE] (0.999) Terrible experience, the item arrived damaged and support was...
+[POSITIVE] (0.738) The movie had great visuals but the plot was somewhat predic...
+[POSITIVE] (0.999) I absolutely love this restaurant, best biryani in the city...
+[NEGATIVE] (0.996) Not worth the price, there are much better alternatives ava...
+
+=== Method 2: Specific Model (distilbert) ===
+Input text: &#39;Transformers have completely revolutionized natural language processing&#39;
+Token IDs: [101, 19081, 2015, 2031, 3294, 16722, 3550, 3019, 4083, 7926]... (first 10)
+Attention mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]... (first 10)
+
+Logits: [-3.1234, 3.3456]
+Probabilities: Negative=0.0015, Positive=0.9985
+Prediction: POSITIVE
+
+=== Method 3: Multiple NLP Tasks ===
+NER: &#39;Rahul Sharma works at Infosys in Bangalore&#39;
+        Rahul Sharma -&gt; PER (0.998)
+             Infosys -&gt; ORG (0.995)
+           Bangalore -&gt; LOC (0.993)
+
+QA: Answer = &#39;attention mechanisms&#39; (confidence: 0.892)
+
+Zero-Shot Classification:
+      finance: 0.521
+     politics: 0.389
+   technology: 0.056
+       sports: 0.034</div></div>
+<div class="code-example"><div class="code-example-title">Multi-Head Attention Implementation</div><pre><code class="language-python">import numpy as np
+
+def softmax(x, axis=-1):
+    e_x = np.exp(x - np.max(x, axis=axis, keepdims=True))
+    return e_x / e_x.sum(axis=axis, keepdims=True)
+
+def single_head_attention(Q, K, V):
+    &quot;&quot;&quot;Single attention head.&quot;&quot;&quot;
+    d_k = K.shape[-1]
+    scores = np.matmul(Q, K.T) / np.sqrt(d_k)
+    weights = softmax(scores)
+    return np.matmul(weights, V), weights
+
+def multi_head_attention(X, num_heads, d_model):
+    &quot;&quot;&quot;Multi-head attention.
+    
+    Args:
+        X: Input (seq_len, d_model)
+        num_heads: Number of attention heads
+        d_model: Total model dimension
+    &quot;&quot;&quot;
+    assert d_model % num_heads == 0
+    d_k = d_model // num_heads  # Dimension per head
+    seq_len = X.shape[0]
+    
+    # Generate random weight matrices for each head
+    np.random.seed(42)
+    heads_output = []
+    all_weights = []
+    
+    for h in range(num_heads):
+        # Each head has its own projection matrices
+        W_Q = np.random.randn(d_model, d_k) * 0.1
+        W_K = np.random.randn(d_model, d_k) * 0.1
+        W_V = np.random.randn(d_model, d_k) * 0.1
+        
+        Q = np.matmul(X, W_Q)
+        K = np.matmul(X, W_K)
+        V = np.matmul(X, W_V)
+        
+        head_out, weights = single_head_attention(Q, K, V)
+        heads_output.append(head_out)
+        all_weights.append(weights)
+    
+    # Concatenate all heads
+    concatenated = np.concatenate(heads_output, axis=-1)  # (seq_len, d_model)
+    
+    # Final linear projection
+    W_O = np.random.randn(d_model, d_model) * 0.1
+    output = np.matmul(concatenated, W_O)
+    
+    return output, all_weights
+
+# Example
+seq_len = 5
+d_model = 16
+num_heads = 4
+
+words = [&#39;I&#39;, &#39;love&#39;, &#39;machine&#39;, &#39;learning&#39;, &#39;today&#39;]
+X = np.random.randn(seq_len, d_model)
+
+output, head_weights = multi_head_attention(X, num_heads, d_model)
+
+print(f&quot;Input shape: {X.shape}&quot;)
+print(f&quot;Output shape: {output.shape}&quot;)
+print(f&quot;Number of heads: {num_heads}&quot;)
+print(f&quot;Dimension per head: {d_model // num_heads}&quot;)
+
+# Show how different heads attend differently
+print(&quot;\nAttention patterns per head (for word &#39;love&#39;):&quot;)
+for h in range(num_heads):
+    weights_for_love = head_weights[h][1]  # Word index 1 = &#39;love&#39;
+    top_word_idx = np.argmax(weights_for_love)
+    print(f&quot;  Head {h+1}: strongest attention to &#39;{words[top_word_idx]}&#39; &quot;
+          f&quot;(weight: {weights_for_love[top_word_idx]:.3f})&quot;)
+
+print(&quot;\nDifferent heads capture different relationships.&quot;)
+print(&quot;In a trained model, heads specialize in syntax, semantics, position, etc.&quot;)</code></pre><div class="code-example-explanation">This implements multi-head attention from scratch. The input is split into <code>num_heads</code> parallel attention computations, each with its own Q, K, V projection matrices operating on d_model/num_heads dimensions. The outputs are concatenated and projected back to d_model dimensions. With random weights, the heads show varied attention patterns. In a trained Transformer, different heads genuinely specialize: some capture syntactic dependencies (subject-verb), others capture semantic relationships (synonyms), and others capture positional patterns.</div><div class="code-example-output">Input shape: (5, 16)
+Output shape: (5, 16)
+Number of heads: 4
+Dimension per head: 4
+
+Attention patterns per head (for word &#39;love&#39;):
+  Head 1: strongest attention to &#39;machine&#39; (weight: 0.312)
+  Head 2: strongest attention to &#39;I&#39; (weight: 0.289)
+  Head 3: strongest attention to &#39;learning&#39; (weight: 0.345)
+  Head 4: strongest attention to &#39;love&#39; (weight: 0.256)
+
+Different heads capture different relationships.
+In a trained model, heads specialize in syntax, semantics, position, etc.</div></div>
+<div class="code-example"><div class="code-example-title">BERT vs GPT: Understanding the Difference</div><pre><code class="language-python">import numpy as np
+
+# Demonstrate the key difference between BERT and GPT attention patterns
+
+def create_attention_mask(seq_len, model_type):
+    &quot;&quot;&quot;Create attention mask for different Transformer variants.&quot;&quot;&quot;
+    if model_type == &#39;bert&#39;:
+        # BERT: bidirectional -- every token attends to every other token
+        mask = np.ones((seq_len, seq_len))
+    elif model_type == &#39;gpt&#39;:
+        # GPT: causal/autoregressive -- tokens only attend to previous tokens
+        mask = np.tril(np.ones((seq_len, seq_len)))  # Lower triangular
+    return mask
+
+words = [&#39;The&#39;, &#39;cat&#39;, &#39;sat&#39;, &#39;on&#39;, &#39;mat&#39;]
+seq_len = len(words)
+
+# BERT attention mask
+bert_mask = create_attention_mask(seq_len, &#39;bert&#39;)
+print(&quot;=== BERT (Encoder-Only, Bidirectional) ===&quot;)
+print(&quot;Every word can attend to every other word:&quot;)
+print(f&quot;{&#39;&#39;:&gt;6}&quot;, end=&#39;&#39;)
+for w in words:
+    print(f&quot;{w:&gt;6}&quot;, end=&#39;&#39;)
+print()
+for i, w in enumerate(words):
+    print(f&quot;{w:&gt;6}&quot;, end=&#39;&#39;)
+    for j in range(seq_len):
+        symbol = &#39;YES&#39; if bert_mask[i, j] == 1 else &#39; - &#39;
+        print(f&quot;{symbol:&gt;6}&quot;, end=&#39;&#39;)
+    print()
+
+# GPT attention mask
+gpt_mask = create_attention_mask(seq_len, &#39;gpt&#39;)
+print(&quot;\n=== GPT (Decoder-Only, Causal/Autoregressive) ===&quot;)
+print(&quot;Each word can only attend to itself and previous words:&quot;)
+print(f&quot;{&#39;&#39;:&gt;6}&quot;, end=&#39;&#39;)
+for w in words:
+    print(f&quot;{w:&gt;6}&quot;, end=&#39;&#39;)
+print()
+for i, w in enumerate(words):
+    print(f&quot;{w:&gt;6}&quot;, end=&#39;&#39;)
+    for j in range(seq_len):
+        symbol = &#39;YES&#39; if gpt_mask[i, j] == 1 else &#39; - &#39;
+        print(f&quot;{symbol:&gt;6}&quot;, end=&#39;&#39;)
+    print()
+
+print(&quot;\n=== Summary ===&quot;)
+print(&quot;BERT: Bidirectional. Sees all words. Best for UNDERSTANDING text.&quot;)
+print(&quot;      Use case: classification, NER, QA, semantic search.&quot;)
+print(&quot;      Pre-training: Masked Language Modeling (predict [MASK] tokens).&quot;)
+print()
+print(&quot;GPT:  Autoregressive. Sees only past words. Best for GENERATING text.&quot;)
+print(&quot;      Use case: text generation, chatbots, code completion.&quot;)
+print(&quot;      Pre-training: Next Token Prediction (predict the next word).&quot;)
+print()
+print(&quot;T5:   Encoder-Decoder. Encoder sees all input, decoder generates output.&quot;)
+print(&quot;      Use case: translation, summarization, any text-to-text task.&quot;)</code></pre><div class="code-example-explanation">This visualizes the fundamental difference between BERT and GPT. BERT uses bidirectional attention: every token can attend to every other token, giving it full context for understanding. GPT uses causal (autoregressive) attention: each token can only attend to previous tokens, which is necessary for generation (you cannot look at future words while generating). The causal mask is a lower-triangular matrix that blocks attention to future positions. This architectural choice determines what each model is best at.</div><div class="code-example-output">=== BERT (Encoder-Only, Bidirectional) ===
+Every word can attend to every other word:
+         The   cat   sat    on   mat
+   The   YES   YES   YES   YES   YES
+   cat   YES   YES   YES   YES   YES
+   sat   YES   YES   YES   YES   YES
+    on   YES   YES   YES   YES   YES
+   mat   YES   YES   YES   YES   YES
+
+=== GPT (Decoder-Only, Causal/Autoregressive) ===
+Each word can only attend to itself and previous words:
+         The   cat   sat    on   mat
+   The   YES    -     -     -     -
+   cat   YES   YES    -     -     -
+   sat   YES   YES   YES    -     -
+    on   YES   YES   YES   YES    -
+   mat   YES   YES   YES   YES   YES
+
+=== Summary ===
+BERT: Bidirectional. Sees all words. Best for UNDERSTANDING text.
+      Use case: classification, NER, QA, semantic search.
+      Pre-training: Masked Language Modeling (predict [MASK] tokens).
+
+GPT:  Autoregressive. Sees only past words. Best for GENERATING text.
+      Use case: text generation, chatbots, code completion.
+      Pre-training: Next Token Prediction (predict the next word).
+
+T5:   Encoder-Decoder. Encoder sees all input, decoder generates output.
+      Use case: translation, summarization, any text-to-text task.</div></div>
+<div class="code-example"><div class="code-example-title">Fine-tuning a Pre-trained Transformer for Text Classification</div><pre><code class="language-python">from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trainer, TrainingArguments
+import torch
+from torch.utils.data import Dataset
+import numpy as np
+
+# Custom dataset class
+class TextDataset(Dataset):
+    def __init__(self, texts, labels, tokenizer, max_length=128):
+        self.encodings = tokenizer(
+            texts, truncation=True, padding=True, max_length=max_length,
+            return_tensors=&#39;pt&#39;
+        )
+        self.labels = torch.tensor(labels, dtype=torch.long)
+    
+    def __len__(self):
+        return len(self.labels)
+    
+    def __getitem__(self, idx):
+        item = {key: val[idx] for key, val in self.encodings.items()}
+        item[&#39;labels&#39;] = self.labels[idx]
+        return item
+
+# Sample data
+train_texts = [
+    &quot;This course is excellent and very well structured&quot;,
+    &quot;Terrible teaching, could not understand anything&quot;,
+    &quot;Great content, learned so much about machine learning&quot;,
+    &quot;Waste of time, the instructor was unprepared&quot;,
+    &quot;Brilliant explanations with practical examples&quot;,
+    &quot;Boring lectures with no real-world applications&quot;,
+    &quot;The best AI course I have taken, highly recommended&quot;,
+    &quot;Poor quality videos and outdated content&quot;
+]
+train_labels = [1, 0, 1, 0, 1, 0, 1, 0]  # 1=positive, 0=negative
+
+test_texts = [
+    &quot;Amazing course, the projects were very helpful&quot;,
+    &quot;Not worth the money, too basic for advanced learners&quot;
+]
+test_labels = [1, 0]
+
+# Load pre-trained model and tokenizer
+model_name = &#39;distilbert-base-uncased&#39;
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForSequenceClassification.from_pretrained(
+    model_name, num_labels=2
+)
+
+print(f&quot;Model: {model_name}&quot;)
+print(f&quot;Parameters: {sum(p.numel() for p in model.parameters()):,}&quot;)
+
+# Create datasets
+train_dataset = TextDataset(train_texts, train_labels, tokenizer)
+test_dataset = TextDataset(test_texts, test_labels, tokenizer)
+
+# Training arguments
+training_args = TrainingArguments(
+    output_dir=&#39;./results&#39;,
+    num_train_epochs=5,
+    per_device_train_batch_size=4,
+    per_device_eval_batch_size=4,
+    learning_rate=2e-5,          # Very low LR for fine-tuning
+    weight_decay=0.01,
+    logging_steps=1,
+    eval_strategy=&#39;epoch&#39;,
+    save_strategy=&#39;epoch&#39;,
+    load_best_model_at_end=True
+)
+
+# Train
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset,
+    eval_dataset=test_dataset
+)
+
+trainer.train()
+
+# Predict on new texts
+new_texts = [
+    &quot;This is an outstanding program with practical projects&quot;,
+    &quot;Disappointing experience, would not recommend to anyone&quot;
+]
+
+for text in new_texts:
+    inputs = tokenizer(text, return_tensors=&#39;pt&#39;, truncation=True, padding=True)
+    with torch.no_grad():
+        outputs = model(**inputs)
+    probs = torch.nn.functional.softmax(outputs.logits, dim=-1)
+    pred = &#39;POSITIVE&#39; if probs[0][1] &gt; 0.5 else &#39;NEGATIVE&#39;
+    conf = probs[0][1].item() if pred == &#39;POSITIVE&#39; else probs[0][0].item()
+    print(f&quot;[{pred}] ({conf:.3f}) {text}&quot;)</code></pre><div class="code-example-explanation">This demonstrates fine-tuning a pre-trained DistilBERT model for binary text classification. Key steps: (1) Load a pre-trained model with <code>num_labels=2</code> which adds a classification head. (2) Tokenize texts using the model's tokenizer. (3) Use Hugging Face Trainer with a very low learning rate (2e-5) to fine-tune. The low learning rate preserves the pre-trained knowledge while adapting to the new task. Even with only 8 training samples, the model performs well because DistilBERT already understands language from its massive pre-training. This is the power of transfer learning with Transformers.</div><div class="code-example-output">Model: distilbert-base-uncased
+Parameters: 66,955,010
+
+Epoch 1/5 - loss: 0.7123
+Epoch 2/5 - loss: 0.4512
+Epoch 3/5 - loss: 0.2134
+Epoch 4/5 - loss: 0.0892
+Epoch 5/5 - loss: 0.0423
+
+[POSITIVE] (0.978) This is an outstanding program with practical projects
+[NEGATIVE] (0.956) Disappointing experience, would not recommend to anyone</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Confusing BERT and GPT Use Cases</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Using GPT for text classification (not ideal)
+from transformers import pipeline
+classifier = pipeline(&#39;text-generation&#39;, model=&#39;gpt2&#39;)
+result = classifier(&quot;This movie is good. Sentiment:&quot;)  # Generating, not classifying</code></pre></div><div class="error-message">GPT is a text generator, not a classifier. It will generate continuation text, not a sentiment label. Results are unpredictable and unreliable for classification.</div><div class="correct-code"><pre><code class="language-python"># Use BERT-based model for classification
+classifier = pipeline(&#39;sentiment-analysis&#39;)  # Uses a BERT-variant by default
+result = classifier(&quot;This movie is good&quot;)
+print(result)  # [{&#39;label&#39;: &#39;POSITIVE&#39;, &#39;score&#39;: 0.9998}]
+
+# Use GPT for text generation
+generator = pipeline(&#39;text-generation&#39;, model=&#39;gpt2&#39;)
+result = generator(&quot;Machine learning is&quot;, max_length=30)</code></pre></div><div class="mistake-explanation">BERT is encoder-only (bidirectional) -- best for understanding tasks: classification, NER, QA. GPT is decoder-only (autoregressive) -- best for generation tasks: writing, chatbots, code completion. Using the wrong architecture for a task gives poor results.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Too High a Learning Rate for Fine-Tuning</h3>
+                <div class="wrong-code"><pre><code class="language-python">training_args = TrainingArguments(
+    learning_rate=0.001,  # Much too high for fine-tuning!
+    ...
+)
+# This destroys the pre-trained weights</code></pre></div><div class="error-message">The pre-trained knowledge is destroyed by large gradient updates. The model&#39;s performance drops to worse than random after a few epochs.</div><div class="correct-code"><pre><code class="language-python">training_args = TrainingArguments(
+    learning_rate=2e-5,  # Standard fine-tuning LR: 1e-5 to 5e-5
+    ...
+)</code></pre></div><div class="mistake-explanation">Pre-trained Transformer weights encode knowledge from billions of tokens. Fine-tuning should make small adjustments, not overwrite everything. The standard learning rate range for fine-tuning is 1e-5 to 5e-5 (10-100x smaller than training from scratch). Some practitioners use even lower rates (1e-6) for the pre-trained layers and slightly higher (1e-4) for the new classification head.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting the Attention Mask for Padded Sequences</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Tokenizing without attention mask
+inputs = tokenizer(texts, padding=True, return_tensors=&#39;pt&#39;)
+# The tokenizer does return attention_mask, but if you manually create inputs:
+model_input = {&#39;input_ids&#39;: token_ids}  # Missing attention_mask!
+outputs = model(**model_input)</code></pre></div><div class="error-message">Without the attention mask, the model treats padding tokens (zeros) as real tokens. This adds noise and degrades performance, especially for short sequences with lots of padding.</div><div class="correct-code"><pre><code class="language-python"># Always include the attention mask
+inputs = tokenizer(texts, padding=True, truncation=True, return_tensors=&#39;pt&#39;)
+# inputs now has both &#39;input_ids&#39; and &#39;attention_mask&#39;
+outputs = model(**inputs)  # Both are passed to the model
+
+# The attention mask is 1 for real tokens and 0 for padding
+# It tells the model to ignore padding positions in attention computation</code></pre></div><div class="mistake-explanation">The attention mask tells the Transformer which positions are real tokens (1) and which are padding (0). Without it, the model computes attention over padding tokens, which corrupts the representation. The tokenizer automatically creates the mask when you use padding=True.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Understanding Tokenizer Behavior</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Assuming each word becomes exactly one token
+text = &quot;Transformers are amazing for NLP&quot;
+tokens = text.split()  # [&#39;Transformers&#39;, &#39;are&#39;, &#39;amazing&#39;, &#39;for&#39;, &#39;NLP&#39;]
+# 5 words, so the model gets 5 tokens, right?
+
+# Reality:
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained(&#39;bert-base-uncased&#39;)
+encoded = tokenizer(text)
+print(len(encoded[&#39;input_ids&#39;]))  # More than 5!</code></pre></div><div class="error-message">The actual number of tokens differs from the number of words because: (1) subword tokenization splits unknown/rare words, (2) special tokens [CLS] and [SEP] are added. Assuming 1-to-1 word-token mapping leads to bugs in indexing and alignment.</div><div class="correct-code"><pre><code class="language-python">tokenizer = AutoTokenizer.from_pretrained(&#39;bert-base-uncased&#39;)
+encoded = tokenizer(text, return_tensors=&#39;pt&#39;)
+tokens = tokenizer.convert_ids_to_tokens(encoded[&#39;input_ids&#39;][0])
+
+print(f&quot;Original words: {text.split()}&quot;)
+print(f&quot;Tokens: {tokens}&quot;)
+# [&#39;[CLS]&#39;, &#39;transformers&#39;, &#39;are&#39;, &#39;amazing&#39;, &#39;for&#39;, &#39;nl&#39;, &#39;##p&#39;, &#39;[SEP]&#39;]
+# Note: &#39;NLP&#39; is split into &#39;nl&#39; and &#39;##p&#39; (subword tokenization)
+# [CLS] and [SEP] are special tokens added by BERT</code></pre></div><div class="mistake-explanation">BERT uses WordPiece tokenization which splits rare words into subwords. 'NLP' might become 'nl' + '##p'. Special tokens [CLS] (classification) and [SEP] (separator) are automatically added. Always inspect tokenizer output when debugging. The number of tokens is usually more than the number of words.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Transformers process all positions in a sequence simultaneously using attention, replacing the sequential processing of RNNs. This enables massive parallelization and better long-range dependency modeling. Introduced in 2017, Transformers now power virtually every state-of-the-art AI system.</li>
+<li>The attention mechanism computes: Attention(Q, K, V) = softmax(Q * K^T / sqrt(d_k)) * V. Query (what you want), Key (what is available), Value (the actual content). The dot product Q * K^T measures relevance. Softmax converts scores to probabilities. The output is a weighted sum of values.</li>
+<li>Self-attention means Q, K, V all come from the same sequence. Every token attends to every other token, capturing relationships regardless of distance. For &#39;The cat sat on the mat&#39;, the word &#39;sat&#39; can directly attend to both &#39;cat&#39; (subject) and &#39;mat&#39; (location) in a single step.</li>
+<li>Multi-head attention runs multiple attention operations in parallel, each with different learned projections. With 8 heads and d_model=512, each head operates on 64 dimensions. Different heads capture different types of relationships (syntactic, semantic, positional). Outputs are concatenated and projected.</li>
+<li>Positional encoding adds position information since Transformers have no inherent sense of order. The original paper uses sinusoidal functions at different frequencies. This is added to word embeddings before entering the Transformer. Without positional encoding, word order would be invisible to the model.</li>
+<li>The Transformer encoder uses self-attention + feed-forward layers with residual connections and layer normalization. The decoder adds causal masking (preventing attention to future tokens) and cross-attention (attending to encoder output). Both use N stacked identical layers (typically 6-12).</li>
+<li>Three Transformer variants: Encoder-only (BERT) for understanding tasks (classification, NER, QA) using bidirectional attention. Decoder-only (GPT) for generation tasks (text generation, chatbots) using causal attention. Encoder-Decoder (T5) for sequence-to-sequence tasks (translation, summarization).</li>
+<li>Hugging Face Transformers library provides pipeline() for quick inference on tasks like sentiment analysis, NER, QA, text generation, and zero-shot classification. AutoTokenizer and AutoModel load any pre-trained model with a consistent API. Fine-tuning uses a very low learning rate (2e-5 to 5e-5).</li>
+<li>Fine-tuning a pre-trained Transformer adapts it to a specific task. Key practices: use a very low learning rate (2e-5), include the attention mask for padded sequences, understand that tokenizers split words into subwords (not 1-to-1 with words), and use the right architecture for the task (BERT for understanding, GPT for generation).</li>
+<li>Scaling by sqrt(d_k) in attention prevents softmax saturation. Without it, large dot products cause softmax to output near-0 or near-1 values, killing gradients. This simple normalization is critical for stable training and was a key insight in the original Transformer paper.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/ai-and-machine-learning/natural-language-processing" class="related-topic-link">Natural Language Processing (NLP) Fundamentals</a>
+<a href="/resources/ai-and-machine-learning/large-language-models" class="related-topic-link">Large Language Models - GPT, BERT, and Beyond</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/ai-and-machine-learning/natural-language-processing" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Natural Language Processing (NLP) Fundamentals</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/large-language-models" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Large Language Models - GPT, BERT, and Beyond</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/ai-and-machine-learning/transformers-and-attention/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

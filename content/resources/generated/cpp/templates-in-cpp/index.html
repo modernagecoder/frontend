@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templates - Function and Class Templates - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Write generic code with function templates, class templates, template specialization, and variadic templates.">
+    <meta name="keywords" content="templates - function and class templates, c++ tutorial, c++ templates - function and class templates, learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/templates-in-cpp">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/templates-in-cpp">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/templates-in-cpp">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/templates-in-cpp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/templates-in-cpp">
+    <meta property="og:title" content="Templates - Function and Class Templates - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Write generic code with function templates, class templates, template specialization, and variadic templates.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/templates-in-cpp">
+    <meta name="twitter:title" content="Templates - Function and Class Templates - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Write generic code with function templates, class templates, template specialization, and variadic templates.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Templates - Function and Class Templates",
+    "description": "Write generic code with function templates, class templates, template specialization, and variadic templates.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/templates-in-cpp"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/templates-in-cpp"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Templates - Function and Class Templates",
+        "item": "https://learn.modernagecoders.com/resources/cpp/templates-in-cpp"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Mismatched Types in Template Argument Deduction",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When a single template parameter <code>T</code> is used for both arguments, both arguments must deduce the same type. Either specify the type explicitly or use two separate template parameters."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting template<> in Full Specialization",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Template full specialization requires the <code>template&lt;&gt;</code> prefix. Without it, you create an overload rather than a specialization. Overloads and specializations have different rules for resolution."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Runtime Variables as Non-Type Template Parameters",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Non-type template parameters must be compile-time constants (<code>constexpr</code>, <code>const</code> initialized with literals, or literal values). Runtime values cannot be template arguments because templates are resolved at compile time."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Defining Template Member Functions in .cpp Files",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Template definitions must be visible to the compiler at the point of instantiation. In practice, this means template code goes in header files, not .cpp files. This is a fundamental difference from non-template code."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Partial Specialization of Function Templates",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "C++ does not allow partial specialization of function templates. Use function overloading instead. Overload resolution will pick the more specific version when the second argument is <code>int</code>."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Templates - Function and Class Templates</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 18</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Templates - Function and Class Templates</h1>
+            <a href="/resources/cpp/templates-in-cpp/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Templates in C++?</h2><p><strong>Templates</strong> are a compile-time mechanism in C++ that allow you to write generic code that works with any data type. Instead of writing separate functions or classes for <code>int</code>, <code>double</code>, <code>string</code>, etc., you write a single template, and the compiler generates the specific versions (called <strong>template instantiations</strong>) as needed.</p><p>C++ supports two kinds of templates: <strong>function templates</strong> and <strong>class templates</strong>.</p><pre><code>// Function template: works with any type T
+template&lt;typename T&gt;
+T maxOf(T a, T b) {
+    return (a &gt; b) ? a : b;
+}
+
+// Class template: works with any type T
+template&lt;typename T&gt;
+class Box {
+    T value;
+public:
+    Box(T v) : value(v) {}
+    T get() const { return value; }
+};
+
+// Usage:
+int m1 = maxOf(10, 20);           // T = int
+double m2 = maxOf(3.14, 2.71);    // T = double
+Box&lt;string&gt; b("Arjun");           // T = string
+cout &lt;&lt; b.get() &lt;&lt; endl;          // Arjun</code></pre><p>Templates are the foundation of the entire C++ Standard Template Library (STL). Containers like <code>vector&lt;T&gt;</code>, <code>map&lt;K,V&gt;</code>, <code>stack&lt;T&gt;</code>, and algorithms like <code>sort()</code>, <code>find()</code>, and <code>accumulate()</code> are all implemented as templates.</p><p>C++ templates also support <strong>specialization</strong> (providing custom implementations for specific types), <strong>non-type parameters</strong> (passing values like integers as template arguments), and <strong>variadic templates</strong> (accepting any number of template arguments).</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Do Templates Matter?</h2><p>Templates are one of the most powerful features of C++. They enable generic programming, which is a paradigm complementary to object-oriented programming. Understanding templates is essential for using the STL effectively and for writing professional C++ code.</p><h3>1. Code Reuse Without Runtime Overhead</h3><p>When Arjun writes a <code>template&lt;typename T&gt; T maxOf(T a, T b)</code>, the compiler generates optimized code for each type used. Unlike virtual functions (which have vtable overhead), templates are resolved entirely at compile time with zero runtime cost.</p><h3>2. The STL Is Built on Templates</h3><p>Every STL container (<code>vector</code>, <code>map</code>, <code>set</code>, <code>queue</code>), every algorithm (<code>sort</code>, <code>find</code>, <code>transform</code>), and every utility (<code>pair</code>, <code>tuple</code>, <code>optional</code>) is a template. You cannot use the STL without understanding templates.</p><h3>3. Top Interview Topic for Product Companies</h3><p>Companies like Google, Microsoft, Amazon, and Flipkart ask template questions in C++ interviews. Topics include template argument deduction, specialization, SFINAE (Substitution Failure Is Not An Error), and compile-time computation.</p><h3>4. Type Safety Without Sacrifice</h3><p>Before templates, C programmers used <code>void*</code> pointers for generic code, losing all type safety. Templates give you generic code that is fully type-checked at compile time. If Kavya accidentally passes a <code>string</code> where an <code>int</code> is expected, the compiler catches it immediately.</p><h3>5. Compile-Time Computation</h3><p>Templates can be used for compile-time computation (template metaprogramming). Factorial, Fibonacci, and type traits can all be computed at compile time, resulting in zero runtime cost. This is the basis of modern C++ libraries like <code>&lt;type_traits&gt;</code>.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Function Templates</h3><p>A function template defines a blueprint for a function. The compiler generates a concrete function for each type used.</p><pre><code>template&lt;typename T&gt;
+T add(T a, T b) {
+    return a + b;
+}
+
+// Explicit instantiation:
+int r1 = add&lt;int&gt;(3, 4);         // 7
+double r2 = add&lt;double&gt;(3.5, 4.5); // 8.0
+
+// Implicit deduction (compiler deduces T):
+int r3 = add(3, 4);               // T deduced as int
+double r4 = add(3.5, 4.5);        // T deduced as double</code></pre><p>The compiler deduces the template argument from the function arguments. If the arguments have different types (e.g., <code>add(3, 4.5)</code>), deduction fails and you must specify explicitly: <code>add&lt;double&gt;(3, 4.5)</code>.</p><h3>2. Multiple Template Parameters</h3><p>A template can have multiple type parameters:</p><pre><code>template&lt;typename T, typename U&gt;
+auto multiply(T a, U b) -&gt; decltype(a * b) {
+    return a * b;
+}
+
+cout &lt;&lt; multiply(3, 4.5) &lt;&lt; endl;    // 13.5 (int * double = double)
+cout &lt;&lt; multiply(2.0, 3) &lt;&lt; endl;    // 6.0</code></pre><h3>3. Class Templates</h3><p>A class template defines a blueprint for a class. You must specify the template arguments explicitly when creating objects (prior to C++17 CTAD).</p><pre><code>template&lt;typename T&gt;
+class Stack {
+    T* data;
+    int top;
+    int capacity;
+public:
+    Stack(int cap) : capacity(cap), top(-1) { data = new T[cap]; }
+    ~Stack() { delete[] data; }
+
+    void push(T val) {
+        if (top &lt; capacity - 1) data[++top] = val;
+    }
+
+    T pop() {
+        if (top &gt;= 0) return data[top--];
+        throw runtime_error("Stack empty");
+    }
+
+    bool empty() const { return top == -1; }
+    int size() const { return top + 1; }
+};
+
+Stack&lt;int&gt; intStack(10);
+intStack.push(42);
+
+Stack&lt;string&gt; strStack(5);
+strStack.push("Kavya");</code></pre><h3>4. Non-Type Template Parameters</h3><p>Template parameters can be values (integers, pointers, etc.), not just types:</p><pre><code>template&lt;typename T, int N&gt;
+class FixedArray {
+    T data[N];
+public:
+    T&amp; operator[](int i) { return data[i]; }
+    int size() const { return N; }
+};
+
+FixedArray&lt;int, 5&gt; arr;     // Array of 5 ints, size known at compile time
+FixedArray&lt;double, 10&gt; arr2; // Array of 10 doubles
+
+// N must be a compile-time constant
+// FixedArray&lt;int, n&gt; arr3;  // Error if n is a runtime variable</code></pre><p>Non-type parameters must be compile-time constants. They enable compile-time computation and zero-overhead abstractions like <code>std::array&lt;T, N&gt;</code>.</p><h3>5. Template Specialization</h3><p><strong>Full specialization</strong> provides a completely custom implementation for a specific type:</p><pre><code>// Primary template
+template&lt;typename T&gt;
+class Printer {
+public:
+    void print(T val) { cout &lt;&lt; "Value: " &lt;&lt; val &lt;&lt; endl; }
+};
+
+// Full specialization for const char*
+template&lt;&gt;
+class Printer&lt;const char*&gt; {
+public:
+    void print(const char* val) { cout &lt;&lt; "String: \"" &lt;&lt; val &lt;&lt; "\"" &lt;&lt; endl; }
+};
+
+// Full specialization for bool
+template&lt;&gt;
+class Printer&lt;bool&gt; {
+public:
+    void print(bool val) { cout &lt;&lt; "Bool: " &lt;&lt; (val ? "true" : "false") &lt;&lt; endl; }
+};
+
+Printer&lt;int&gt; p1;         p1.print(42);       // Value: 42
+Printer&lt;const char*&gt; p2; p2.print("Ravi");   // String: "Ravi"
+Printer&lt;bool&gt; p3;        p3.print(true);     // Bool: true</code></pre><p><strong>Partial specialization</strong> specializes some template parameters while leaving others generic. It is only available for class templates, not function templates:</p><pre><code>// Primary template
+template&lt;typename T, typename U&gt;
+class Pair {
+public:
+    void info() { cout &lt;&lt; "Generic Pair" &lt;&lt; endl; }
+};
+
+// Partial specialization: both types are the same
+template&lt;typename T&gt;
+class Pair&lt;T, T&gt; {
+public:
+    void info() { cout &lt;&lt; "Same-type Pair" &lt;&lt; endl; }
+};
+
+// Partial specialization: second type is int
+template&lt;typename T&gt;
+class Pair&lt;T, int&gt; {
+public:
+    void info() { cout &lt;&lt; "Pair with int second" &lt;&lt; endl; }
+};
+
+Pair&lt;double, string&gt; p1;  p1.info(); // Generic Pair
+Pair&lt;int, int&gt; p2;        p2.info(); // Same-type Pair
+Pair&lt;string, int&gt; p3;     p3.info(); // Pair with int second</code></pre><h3>6. Function Template Specialization</h3><p>Function templates can be fully specialized (but not partially specialized):</p><pre><code>template&lt;typename T&gt;
+void display(T val) {
+    cout &lt;&lt; "Generic: " &lt;&lt; val &lt;&lt; endl;
+}
+
+template&lt;&gt;
+void display&lt;bool&gt;(bool val) {
+    cout &lt;&lt; "Bool: " &lt;&lt; (val ? "true" : "false") &lt;&lt; endl;
+}
+
+display(42);     // Generic: 42
+display(true);   // Bool: true</code></pre><h3>7. Variadic Templates (C++11)</h3><p>Variadic templates accept any number of template arguments using a parameter pack:</p><pre><code>// Base case: no arguments
+void print() {
+    cout &lt;&lt; endl;
+}
+
+// Recursive case: peel off first argument, recurse on rest
+template&lt;typename T, typename... Args&gt;
+void print(T first, Args... rest) {
+    cout &lt;&lt; first &lt;&lt; " ";
+    print(rest...);  // Expand the pack
+}
+
+print(1, 2.5, "Arjun", 'A', true);
+// Output: 1 2.5 Arjun A 1</code></pre><p>The <code>...</code> is the <strong>pack expansion</strong> operator. <code>Args...</code> is a template parameter pack, and <code>rest...</code> is a function parameter pack.</p><h3>8. auto and decltype</h3><p><code>auto</code> lets the compiler deduce the type of a variable. <code>decltype</code> gives you the type of an expression without evaluating it:</p><pre><code>auto x = 42;          // int
+auto y = 3.14;        // double
+auto z = "hello";     // const char*
+
+int a = 5;
+decltype(a) b = 10;   // b is int (same type as a)
+
+template&lt;typename T, typename U&gt;
+auto add(T a, U b) -&gt; decltype(a + b) {
+    return a + b;
+}
+
+auto result = add(3, 4.5);  // result is double (7.5)</code></pre><h3>9. Default Template Arguments</h3><p>Template parameters can have default values:</p><pre><code>template&lt;typename T = int, int N = 10&gt;
+class Buffer {
+    T data[N];
+public:
+    int size() const { return N; }
+};
+
+Buffer&lt;&gt; b1;              // T=int, N=10
+Buffer&lt;double&gt; b2;        // T=double, N=10
+Buffer&lt;char, 256&gt; b3;     // T=char, N=256</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Function Template with Type Deduction</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+template&lt;typename T&gt;
+T maxOf(T a, T b) {
+    return (a &gt; b) ? a : b;
+}
+
+template&lt;typename T&gt;
+void swapValues(T&amp; a, T&amp; b) {
+    T temp = a;
+    a = b;
+    b = temp;
+}
+
+int main() {
+    cout &lt;&lt; maxOf(10, 20) &lt;&lt; endl;
+    cout &lt;&lt; maxOf(3.14, 2.71) &lt;&lt; endl;
+    cout &lt;&lt; maxOf(string(&quot;Arjun&quot;), string(&quot;Kavya&quot;)) &lt;&lt; endl;
+
+    int a = 5, b = 10;
+    swapValues(a, b);
+    cout &lt;&lt; &quot;After swap: &quot; &lt;&lt; a &lt;&lt; &quot;, &quot; &lt;&lt; b &lt;&lt; endl;
+
+    string s1 = &quot;Hello&quot;, s2 = &quot;World&quot;;
+    swapValues(s1, s2);
+    cout &lt;&lt; &quot;After swap: &quot; &lt;&lt; s1 &lt;&lt; &quot;, &quot; &lt;&lt; s2 &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">The compiler deduces <code>T</code> from the arguments. <code>maxOf(10, 20)</code> deduces T=int. <code>maxOf(string, string)</code> deduces T=string (uses lexicographic comparison). <code>swapValues</code> takes references and swaps in-place.</div><div class="code-example-output">20
+3.14
+Kavya
+After swap: 10, 5
+After swap: World, Hello</div></div>
+<div class="code-example"><div class="code-example-title">Class Template: Generic Stack</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+template&lt;typename T&gt;
+class Stack {
+    T* data;
+    int top;
+    int capacity;
+public:
+    Stack(int cap) : capacity(cap), top(-1) {
+        data = new T[cap];
+    }
+    ~Stack() { delete[] data; }
+
+    void push(T val) {
+        if (top &lt; capacity - 1) data[++top] = val;
+        else cout &lt;&lt; &quot;Stack full&quot; &lt;&lt; endl;
+    }
+
+    T pop() {
+        if (top &gt;= 0) return data[top--];
+        throw runtime_error(&quot;Stack empty&quot;);
+    }
+
+    T peek() const {
+        if (top &gt;= 0) return data[top];
+        throw runtime_error(&quot;Stack empty&quot;);
+    }
+
+    bool empty() const { return top == -1; }
+    int size() const { return top + 1; }
+};
+
+int main() {
+    Stack&lt;int&gt; intStack(5);
+    intStack.push(10);
+    intStack.push(20);
+    intStack.push(30);
+    cout &lt;&lt; &quot;Top: &quot; &lt;&lt; intStack.peek() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Pop: &quot; &lt;&lt; intStack.pop() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Size: &quot; &lt;&lt; intStack.size() &lt;&lt; endl;
+
+    Stack&lt;string&gt; strStack(3);
+    strStack.push(&quot;Ravi&quot;);
+    strStack.push(&quot;Priya&quot;);
+    cout &lt;&lt; &quot;Top: &quot; &lt;&lt; strStack.peek() &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">The <code>Stack</code> class template works with any type. <code>Stack&lt;int&gt;</code> creates a stack of integers, <code>Stack&lt;string&gt;</code> creates a stack of strings. The compiler generates separate class definitions for each instantiation.</div><div class="code-example-output">Top: 30
+Pop: 30
+Size: 2
+Top: Priya</div></div>
+<div class="code-example"><div class="code-example-title">Non-Type Template Parameters</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+template&lt;typename T, int N&gt;
+class FixedArray {
+    T data[N];
+public:
+    void set(int i, T val) {
+        if (i &gt;= 0 &amp;&amp; i &lt; N) data[i] = val;
+    }
+    T get(int i) const {
+        if (i &gt;= 0 &amp;&amp; i &lt; N) return data[i];
+        throw out_of_range(&quot;Index out of bounds&quot;);
+    }
+    int size() const { return N; }
+};
+
+template&lt;int N&gt;
+int factorial() {
+    return N * factorial&lt;N - 1&gt;();
+}
+
+template&lt;&gt;
+int factorial&lt;0&gt;() {
+    return 1;
+}
+
+int main() {
+    FixedArray&lt;int, 5&gt; arr;
+    for (int i = 0; i &lt; 5; i++) arr.set(i, i * 10);
+    for (int i = 0; i &lt; arr.size(); i++) cout &lt;&lt; arr.get(i) &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+
+    FixedArray&lt;double, 3&gt; darr;
+    darr.set(0, 1.1); darr.set(1, 2.2); darr.set(2, 3.3);
+    for (int i = 0; i &lt; darr.size(); i++) cout &lt;&lt; darr.get(i) &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+
+    cout &lt;&lt; &quot;5! = &quot; &lt;&lt; factorial&lt;5&gt;() &lt;&lt; endl;
+    cout &lt;&lt; &quot;10! = &quot; &lt;&lt; factorial&lt;10&gt;() &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>FixedArray&lt;int, 5&gt;</code> creates an array of exactly 5 ints, with size known at compile time. <code>factorial&lt;5&gt;()</code> computes 5! at compile time using template recursion with a base case specialization for N=0.</div><div class="code-example-output">0 10 20 30 40 
+1.1 2.2 3.3 
+5! = 120
+10! = 3628800</div></div>
+<div class="code-example"><div class="code-example-title">Template Specialization (Full and Partial)</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+// Primary template
+template&lt;typename T&gt;
+class TypeName {
+public:
+    static string name() { return &quot;unknown&quot;; }
+};
+
+// Full specializations
+template&lt;&gt; class TypeName&lt;int&gt; {
+public:
+    static string name() { return &quot;int&quot;; }
+};
+
+template&lt;&gt; class TypeName&lt;double&gt; {
+public:
+    static string name() { return &quot;double&quot;; }
+};
+
+template&lt;&gt; class TypeName&lt;string&gt; {
+public:
+    static string name() { return &quot;string&quot;; }
+};
+
+// Partial specialization for pointers
+template&lt;typename T&gt;
+class TypeName&lt;T*&gt; {
+public:
+    static string name() { return &quot;pointer to &quot; + TypeName&lt;T&gt;::name(); }
+};
+
+int main() {
+    cout &lt;&lt; TypeName&lt;int&gt;::name() &lt;&lt; endl;
+    cout &lt;&lt; TypeName&lt;double&gt;::name() &lt;&lt; endl;
+    cout &lt;&lt; TypeName&lt;string&gt;::name() &lt;&lt; endl;
+    cout &lt;&lt; TypeName&lt;char&gt;::name() &lt;&lt; endl;
+    cout &lt;&lt; TypeName&lt;int*&gt;::name() &lt;&lt; endl;
+    cout &lt;&lt; TypeName&lt;double*&gt;::name() &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">Full specializations provide custom implementations for <code>int</code>, <code>double</code>, and <code>string</code>. The partial specialization <code>TypeName&lt;T*&gt;</code> matches any pointer type and recursively uses the base type's name. <code>char</code> falls through to the primary template ("unknown").</div><div class="code-example-output">int
+double
+string
+unknown
+pointer to int
+pointer to double</div></div>
+<div class="code-example"><div class="code-example-title">Variadic Templates</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+// Base case
+void print() {
+    cout &lt;&lt; endl;
+}
+
+// Recursive variadic template
+template&lt;typename T, typename... Args&gt;
+void print(T first, Args... rest) {
+    cout &lt;&lt; first;
+    if (sizeof...(rest) &gt; 0) cout &lt;&lt; &quot;, &quot;;
+    print(rest...);
+}
+
+// Variadic sum
+template&lt;typename T&gt;
+T sum(T val) {
+    return val;
+}
+
+template&lt;typename T, typename... Args&gt;
+T sum(T first, Args... rest) {
+    return first + sum(rest...);
+}
+
+int main() {
+    print(1, 2.5, &quot;Arjun&quot;, &#39;A&#39;, true);
+    print(&quot;Hello&quot;, &quot;World&quot;);
+
+    cout &lt;&lt; &quot;Sum: &quot; &lt;&lt; sum(1, 2, 3, 4, 5) &lt;&lt; endl;
+    cout &lt;&lt; &quot;Sum: &quot; &lt;&lt; sum(1.5, 2.5, 3.0) &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">The <code>print</code> function accepts any number of arguments of any types. It peels off the first argument, prints it, and recurses on the rest. <code>sizeof...(rest)</code> returns the number of remaining arguments. The <code>sum</code> function adds all arguments together.</div><div class="code-example-output">1, 2.5, Arjun, A, 1
+Hello, World
+Sum: 15
+Sum: 7</div></div>
+<div class="code-example"><div class="code-example-title">auto, decltype, and Trailing Return Types</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+template&lt;typename T, typename U&gt;
+auto add(T a, U b) -&gt; decltype(a + b) {
+    return a + b;
+}
+
+template&lt;typename T, typename U&gt;
+auto multiply(T a, U b) {
+    return a * b;  // C++14: return type deduced
+}
+
+int main() {
+    auto r1 = add(3, 4.5);      // double
+    auto r2 = add(string(&quot;Hello, &quot;), string(&quot;World&quot;));
+    auto r3 = multiply(3, 4);    // int
+    auto r4 = multiply(2.5, 4);  // double
+
+    cout &lt;&lt; r1 &lt;&lt; endl;
+    cout &lt;&lt; r2 &lt;&lt; endl;
+    cout &lt;&lt; r3 &lt;&lt; endl;
+    cout &lt;&lt; r4 &lt;&lt; endl;
+
+    // decltype usage
+    int x = 10;
+    decltype(x) y = 20;  // y is int
+    decltype(x + 0.5) z = 3.14;  // z is double
+    cout &lt;&lt; y &lt;&lt; &quot; &quot; &lt;&lt; z &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>auto</code> and <code>decltype</code> enable type deduction. The trailing return type <code>-&gt; decltype(a + b)</code> tells the compiler to deduce the return type from the expression <code>a + b</code>. In C++14, the return type can be deduced automatically without a trailing return type.</div><div class="code-example-output">7.5
+Hello, World
+12
+10
+20 3.14</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Mismatched Types in Template Argument Deduction</h3>
+                <div class="wrong-code"><pre><code class="language-python">template&lt;typename T&gt;
+T maxOf(T a, T b) {
+    return (a &gt; b) ? a : b;
+}
+
+int main() {
+    cout &lt;&lt; maxOf(3, 4.5);  // Error: T deduced as int AND double
+}</code></pre></div><div class="error-message">Compilation error: deduced conflicting types for T. 3 deduces int, 4.5 deduces double.</div><div class="correct-code"><pre><code class="language-python">// Option 1: Explicit template argument
+cout &lt;&lt; maxOf&lt;double&gt;(3, 4.5);
+
+// Option 2: Two template parameters
+template&lt;typename T, typename U&gt;
+auto maxOf(T a, U b) -&gt; decltype(a &gt; b ? a : b) {
+    return (a &gt; b) ? a : b;
+}
+cout &lt;&lt; maxOf(3, 4.5);  // OK</code></pre></div><div class="mistake-explanation">When a single template parameter <code>T</code> is used for both arguments, both arguments must deduce the same type. Either specify the type explicitly or use two separate template parameters.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting template&lt;&gt; in Full Specialization</h3>
+                <div class="wrong-code"><pre><code class="language-python">template&lt;typename T&gt;
+void display(T val) {
+    cout &lt;&lt; val &lt;&lt; endl;
+}
+
+// Missing template&lt;&gt;
+void display(bool val) {  // This is an overload, not a specialization!
+    cout &lt;&lt; (val ? &quot;true&quot; : &quot;false&quot;) &lt;&lt; endl;
+}</code></pre></div><div class="error-message">This creates a function overload, not a template specialization. Both exist and overload resolution picks the non-template version for bool. This may seem to work but has different behavior with template argument deduction.</div><div class="correct-code"><pre><code class="language-python">template&lt;typename T&gt;
+void display(T val) {
+    cout &lt;&lt; val &lt;&lt; endl;
+}
+
+template&lt;&gt;  // Required for specialization!
+void display&lt;bool&gt;(bool val) {
+    cout &lt;&lt; (val ? &quot;true&quot; : &quot;false&quot;) &lt;&lt; endl;
+}</code></pre></div><div class="mistake-explanation">Template full specialization requires the <code>template&lt;&gt;</code> prefix. Without it, you create an overload rather than a specialization. Overloads and specializations have different rules for resolution.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Runtime Variables as Non-Type Template Parameters</h3>
+                <div class="wrong-code"><pre><code class="language-python">template&lt;int N&gt;
+void printN() {
+    cout &lt;&lt; N &lt;&lt; endl;
+}
+
+int main() {
+    int n;
+    cin &gt;&gt; n;
+    printN&lt;n&gt;();  // Error: n is not a compile-time constant!
+}</code></pre></div><div class="error-message">Compilation error: non-type template argument is not a constant expression. Template parameters must be known at compile time.</div><div class="correct-code"><pre><code class="language-python">template&lt;int N&gt;
+void printN() {
+    cout &lt;&lt; N &lt;&lt; endl;
+}
+
+int main() {
+    constexpr int n = 10;  // Compile-time constant
+    printN&lt;n&gt;();  // OK
+    printN&lt;42&gt;(); // OK
+}</code></pre></div><div class="mistake-explanation">Non-type template parameters must be compile-time constants (<code>constexpr</code>, <code>const</code> initialized with literals, or literal values). Runtime values cannot be template arguments because templates are resolved at compile time.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Defining Template Member Functions in .cpp Files</h3>
+                <div class="wrong-code"><pre><code class="language-python">// stack.h
+template&lt;typename T&gt;
+class Stack {
+    T* data;
+public:
+    Stack(int n);
+    void push(T val);
+};
+
+// stack.cpp
+#include &quot;stack.h&quot;
+template&lt;typename T&gt;
+Stack&lt;T&gt;::Stack(int n) { data = new T[n]; }
+
+template&lt;typename T&gt;
+void Stack&lt;T&gt;::push(T val) { /* ... */ }
+
+// main.cpp
+#include &quot;stack.h&quot;
+Stack&lt;int&gt; s(10);  // Linker error: undefined reference</code></pre></div><div class="error-message">Linker error. The compiler needs to see the full template definition when instantiating. If the definition is in a .cpp file, main.cpp cannot see it.</div><div class="correct-code"><pre><code class="language-python">// stack.h (put everything in the header)
+template&lt;typename T&gt;
+class Stack {
+    T* data;
+public:
+    Stack(int n) { data = new T[n]; }
+    void push(T val) { /* ... */ }
+};
+
+// main.cpp
+#include &quot;stack.h&quot;
+Stack&lt;int&gt; s(10);  // OK: compiler sees full definition</code></pre></div><div class="mistake-explanation">Template definitions must be visible to the compiler at the point of instantiation. In practice, this means template code goes in header files, not .cpp files. This is a fundamental difference from non-template code.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Partial Specialization of Function Templates</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Trying to partially specialize a function template
+template&lt;typename T, typename U&gt;
+void process(T a, U b) {
+    cout &lt;&lt; &quot;Generic&quot; &lt;&lt; endl;
+}
+
+// Partial specialization: U is int
+template&lt;typename T&gt;
+void process&lt;T, int&gt;(T a, int b) {  // Error!
+    cout &lt;&lt; &quot;U is int&quot; &lt;&lt; endl;
+}</code></pre></div><div class="error-message">Compilation error: function templates cannot be partially specialized. Only class templates support partial specialization.</div><div class="correct-code"><pre><code class="language-python">// Use overloading instead of partial specialization
+template&lt;typename T, typename U&gt;
+void process(T a, U b) {
+    cout &lt;&lt; &quot;Generic&quot; &lt;&lt; endl;
+}
+
+// Overload with second parameter as int
+template&lt;typename T&gt;
+void process(T a, int b) {
+    cout &lt;&lt; &quot;U is int&quot; &lt;&lt; endl;
+}
+
+process(3.14, &quot;hello&quot;);  // Generic
+process(3.14, 42);       // U is int</code></pre></div><div class="mistake-explanation">C++ does not allow partial specialization of function templates. Use function overloading instead. Overload resolution will pick the more specific version when the second argument is <code>int</code>.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Templates are a compile-time mechanism for generic programming. The compiler generates type-specific code (instantiations) from templates with zero runtime overhead.</li>
+<li>Function templates use template&lt;typename T&gt; before the function. The compiler can deduce T from arguments (implicit deduction) or you can specify it explicitly (explicit instantiation).</li>
+<li>Class templates use template&lt;typename T&gt; before the class. Prior to C++17, you must specify template arguments explicitly when creating objects: Stack&lt;int&gt; s(10).</li>
+<li>Non-type template parameters (template&lt;int N&gt;) accept compile-time constant values. They enable fixed-size arrays, compile-time factorial, and zero-overhead abstractions.</li>
+<li>Full specialization (template&lt;&gt;) provides a custom implementation for a specific type. Both function and class templates support full specialization.</li>
+<li>Partial specialization specializes some template parameters while leaving others generic. Only class templates support partial specialization; function templates use overloading instead.</li>
+<li>Variadic templates (template&lt;typename... Args&gt;) accept any number of arguments. They use recursive peeling (process first, recurse on rest) with a base case for zero arguments.</li>
+<li>auto deduces variable types from initializers. decltype gives the type of an expression. Trailing return types (-&gt; decltype(a+b)) combine with templates for generic return types.</li>
+<li>Template definitions must be in header files because the compiler needs the full definition at the point of instantiation. Separating into .h and .cpp causes linker errors.</li>
+<li>The entire C++ STL (vector, map, sort, find, etc.) is built on templates. Understanding templates is prerequisite for effective STL usage.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/abstraction-and-interfaces" class="related-topic-link">Abstract Classes, Pure Virtual Functions, and Interfaces</a>
+<a href="/resources/cpp/exception-handling-in-cpp" class="related-topic-link">Exception Handling (try, catch, throw)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/abstraction-and-interfaces" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Abstract Classes, Pure Virtual Functions, and Interfaces</span>
+        </a>
+            <a href="/resources/cpp/exception-handling-in-cpp" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Exception Handling (try, catch, throw)</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/templates-in-cpp/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

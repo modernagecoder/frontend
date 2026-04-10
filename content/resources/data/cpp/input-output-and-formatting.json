@@ -1,0 +1,663 @@
+{
+  "title": "Input, Output, and Formatting",
+  "slug": "input-output-and-formatting",
+  "language": "cpp",
+  "chapter": 5,
+  "difficulty": "Beginner",
+  "readingTime": "25 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 52,
+  "seo": {
+    "title": "Input, Output & Formatting in C++ - cin, cout, getline, iomanip, Fast I/O | Modern Age Coders",
+    "description": "Master C++ input/output: cout/cin chaining, getline, cin.ignore(), cin.clear(), iomanip (setw, setprecision, fixed, setfill), endl vs newline, cerr/clog, printf/scanf, and fast I/O for competitive programming. 52 practice questions.",
+    "keywords": "c++ input output, cin cout, getline c++, cin.ignore, iomanip c++, setw setprecision, fixed c++, fast io c++, ios_base sync_with_stdio, endl vs newline, printf scanf c++, cerr clog"
+  },
+  "content": {
+    "what": "<h2>What Is Input/Output in C++?</h2><p>Input/Output (I/O) in C++ is handled through <strong>streams</strong>. A stream is an abstraction that represents a sequence of bytes flowing between your program and an external device (keyboard, screen, file). The <code>&lt;iostream&gt;</code> header provides four predefined stream objects:</p><table><tr><th>Stream</th><th>Type</th><th>Purpose</th><th>Default Device</th></tr><tr><td><code>cin</code></td><td><code>istream</code></td><td>Standard input</td><td>Keyboard</td></tr><tr><td><code>cout</code></td><td><code>ostream</code></td><td>Standard output</td><td>Screen (buffered)</td></tr><tr><td><code>cerr</code></td><td><code>ostream</code></td><td>Standard error</td><td>Screen (unbuffered)</td></tr><tr><td><code>clog</code></td><td><code>ostream</code></td><td>Standard log</td><td>Screen (buffered)</td></tr></table><p>The <code>&lt;&lt;</code> operator (insertion) sends data to an output stream. The <code>&gt;&gt;</code> operator (extraction) reads data from an input stream. These operators can be <strong>chained</strong>: <code>cout &lt;&lt; \"x = \" &lt;&lt; x &lt;&lt; endl;</code> chains three outputs in one statement.</p>",
+    "why": "<h2>Why Is I/O Knowledge Critical?</h2><h3>1. Competitive Programming</h3><p>The difference between TLE (Time Limit Exceeded) and AC (Accepted) is often just I/O speed. Using <code>endl</code> instead of <code>'\\n'</code> can make your program 10x slower when printing millions of lines. <code>ios_base::sync_with_stdio(false)</code> and <code>cin.tie(NULL)</code> are the first two lines of every competitive programmer's template.</p><h3>2. The cin Buffer Problem</h3><p>One of the most frustrating bugs beginners face is <code>getline</code> reading an empty string after <code>cin &gt;&gt;</code>. Understanding the input buffer -- that <code>cin &gt;&gt;</code> leaves the newline character in the buffer, which <code>getline</code> immediately reads -- prevents hours of confusion. This is asked in interviews.</p><h3>3. Formatted Output</h3><p>When problems require specific formatting (fixed decimal places, right-aligned columns, zero-padded numbers), you need <code>&lt;iomanip&gt;</code> manipulators. Interview coding rounds sometimes specify exact output formats. Without <code>setprecision</code>, <code>fixed</code>, and <code>setw</code>, matching the expected output is impossible.</p><h3>4. Interview Topics</h3><p>\"Explain the difference between <code>endl</code> and <code>'\\n'</code>\" is a classic question. \"What does <code>cin.ignore()</code> do?\" and \"Why use <code>cerr</code> instead of <code>cout</code>?\" appear in systems programming interviews.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>cout and cin Chaining</h3><p>Both <code>&lt;&lt;</code> and <code>&gt;&gt;</code> return a reference to the stream, enabling chaining. <code>cout &lt;&lt; a &lt;&lt; \" \" &lt;&lt; b;</code> is equivalent to <code>((cout &lt;&lt; a) &lt;&lt; \" \") &lt;&lt; b;</code>. Similarly, <code>cin &gt;&gt; a &gt;&gt; b;</code> reads two values separated by whitespace.</p><h3>getline(cin, str)</h3><p><code>cin &gt;&gt;</code> reads until the first whitespace character (space, tab, newline) and leaves the delimiter in the buffer. To read an entire line including spaces, use <code>getline(cin, str)</code>. It reads until the newline character, consumes the newline, and stores everything before it in <code>str</code>.</p><h3>The cin Buffer Problem: cin.ignore() and cin.clear()</h3><p>When you use <code>cin &gt;&gt; n</code> followed by <code>getline(cin, str)</code>, the <code>&gt;&gt;</code> operator leaves the newline (<code>'\\n'</code>) in the input buffer. <code>getline</code> then reads that leftover newline immediately, producing an empty string. The fix is <code>cin.ignore()</code> between them, which discards the leftover newline.</p><p><code>cin.ignore(numeric_limits&lt;streamsize&gt;::max(), '\\n')</code> discards everything up to and including the next newline -- the most robust form.</p><p><code>cin.clear()</code> resets the error state of cin. If the user enters a string when cin expects an int, cin enters a <strong>fail state</strong> and all subsequent reads fail silently. <code>cin.clear()</code> resets this state, and <code>cin.ignore()</code> clears the bad input from the buffer.</p><h3>iomanip Formatting</h3><p>The <code>&lt;iomanip&gt;</code> header provides manipulators for formatted output:</p><ul><li><code>setw(n)</code>: Sets the minimum field width for the NEXT output only. If the output is shorter than n, it is padded (right-aligned by default).</li><li><code>setprecision(n)</code>: Sets the number of significant digits (or decimal places if used with <code>fixed</code>).</li><li><code>fixed</code>: Switches to fixed-point notation. After <code>fixed</code>, <code>setprecision(n)</code> means n decimal places.</li><li><code>scientific</code>: Switches to scientific notation (e.g., 3.14e+00).</li><li><code>left</code> / <code>right</code>: Sets alignment for setw padding.</li><li><code>setfill(c)</code>: Sets the fill character for setw padding (default is space).</li><li><code>boolalpha</code>: Prints bool as \"true\"/\"false\" instead of 1/0.</li></ul><h3>endl vs '\\n'</h3><p><code>endl</code> does two things: inserts a newline AND flushes the output buffer. <code>'\\n'</code> only inserts a newline. Flushing forces the buffered data to be written to the screen immediately. In competitive programming, flushing after every line is wasteful -- the buffer is flushed automatically when the program ends or when the buffer is full. Using <code>'\\n'</code> instead of <code>endl</code> can be 5-10x faster when printing many lines.</p><h3>cerr and clog</h3><p><code>cerr</code> is unbuffered -- output appears immediately without waiting for a flush. It is used for error messages and debug output because even if the program crashes, the error message will have been printed. <code>clog</code> is buffered, used for log messages. In competitive programming, <code>cerr</code> is useful for debug prints that are ignored by the judge (judges only check <code>cout</code>/<code>stdout</code>).</p><h3>C-style I/O: printf and scanf</h3><p><code>printf</code> and <code>scanf</code> from C are available in C++ via <code>&lt;cstdio&gt;</code>. They use format specifiers: <code>%d</code> (int), <code>%f</code> (float/double), <code>%c</code> (char), <code>%s</code> (C-string), <code>%lld</code> (long long). <code>printf</code> is sometimes preferred for formatted output because the format string is more compact than chaining iomanip manipulators.</p><h3>Fast I/O for Competitive Programming</h3><p>The competitive programming I/O template:</p><pre><code>ios_base::sync_with_stdio(false);\ncin.tie(NULL);</code></pre><p><code>ios_base::sync_with_stdio(false)</code> disconnects C++ streams from C streams, removing synchronization overhead. <code>cin.tie(NULL)</code> unties cin from cout, so cout is not flushed before every cin read. After these two lines, do NOT mix C I/O (printf/scanf) with C++ I/O (cout/cin).</p>",
+    "codeExamples": [
+      {
+        "title": "cout and cin Chaining",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    // Output chaining\n    int a = 10, b = 20;\n    cout << \"a = \" << a << \", b = \" << b << endl;\n\n    // Input chaining\n    int x, y, z;\n    cout << \"Enter three numbers: \";\n    cin >> x >> y >> z;\n    cout << \"Sum: \" << x + y + z << endl;\n\n    // Multiple types in one chain\n    string name;\n    int age;\n    cout << \"Enter name and age: \";\n    cin >> name >> age;\n    cout << name << \" is \" << age << \" years old.\" << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The <code>&lt;&lt;</code> and <code>&gt;&gt;</code> operators return the stream object, enabling chaining. <code>cin &gt;&gt; x &gt;&gt; y &gt;&gt; z</code> reads three whitespace-separated values. Note that <code>cin &gt;&gt; name</code> reads only the first word (stops at whitespace).",
+        "output": "a = 10, b = 20\nEnter three numbers: 3 5 7\nSum: 15\nEnter name and age: Priya 21\nPriya is 21 years old."
+      },
+      {
+        "title": "getline and the cin Buffer Problem",
+        "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    int rollNo;\n    string fullName;\n\n    cout << \"Enter roll number: \";\n    cin >> rollNo;\n\n    // WRONG: getline reads the leftover '\\n' from cin >>\n    // getline(cin, fullName);  // fullName would be empty!\n\n    // FIX: ignore the leftover newline\n    cin.ignore();  // Discard the '\\n' left by cin >>\n\n    cout << \"Enter full name: \";\n    getline(cin, fullName);\n\n    cout << \"Roll: \" << rollNo << endl;\n    cout << \"Name: \" << fullName << endl;\n\n    // Reading multiple lines\n    string line1, line2;\n    cout << \"Enter address (2 lines):\" << endl;\n    getline(cin, line1);\n    getline(cin, line2);\n    cout << \"Line 1: \" << line1 << endl;\n    cout << \"Line 2: \" << line2 << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "After <code>cin &gt;&gt; rollNo</code>, the newline from pressing Enter remains in the buffer. Without <code>cin.ignore()</code>, <code>getline</code> immediately reads that newline and stores an empty string. <code>cin.ignore()</code> discards one character (the leftover newline). Always use <code>cin.ignore()</code> when switching from <code>&gt;&gt;</code> to <code>getline</code>.",
+        "output": "Enter roll number: 101\nEnter full name: Rahul Sharma\nRoll: 101\nName: Rahul Sharma\nEnter address (2 lines):\n42 MG Road\nNew Delhi 110001\nLine 1: 42 MG Road\nLine 2: New Delhi 110001"
+      },
+      {
+        "title": "iomanip: setw, setprecision, fixed, setfill",
+        "code": "#include <iostream>\n#include <iomanip>\nusing namespace std;\n\nint main() {\n    // setprecision without fixed: total significant digits\n    double pi = 3.141592653589793;\n    cout << \"Default: \" << pi << endl;\n    cout << \"setprecision(3): \" << setprecision(3) << pi << endl;\n    cout << \"setprecision(10): \" << setprecision(10) << pi << endl;\n\n    // fixed + setprecision: decimal places\n    cout << fixed;\n    cout << \"fixed + setprecision(2): \" << setprecision(2) << pi << endl;\n    cout << \"fixed + setprecision(6): \" << setprecision(6) << pi << endl;\n\n    // Reset to default\n    cout << defaultfloat;\n\n    // setw and alignment\n    cout << \"\\n--- Table ---\" << endl;\n    cout << left << setw(15) << \"Name\" << right << setw(10) << \"Marks\" << endl;\n    cout << left << setw(15) << \"Ananya\" << right << setw(10) << 95 << endl;\n    cout << left << setw(15) << \"Vikram\" << right << setw(10) << 87 << endl;\n    cout << left << setw(15) << \"Deepa\" << right << setw(10) << 92 << endl;\n\n    // setfill for zero-padding\n    cout << \"\\n--- Zero Padding ---\" << endl;\n    for (int i = 1; i <= 5; i++) {\n        cout << \"Item \" << setfill('0') << setw(3) << i << endl;\n    }\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Without <code>fixed</code>, <code>setprecision(n)</code> controls total significant digits. With <code>fixed</code>, it controls decimal places. <code>setw</code> sets the minimum width for the next output only (it resets after each use). <code>left</code>/<code>right</code> control alignment within the setw field. <code>setfill('0')</code> uses zeros for padding instead of spaces.",
+        "output": "Default: 3.14159\nsetprecision(3): 3.14\nsetprecision(10): 3.141592654\nfixed + setprecision(2): 3.14\nfixed + setprecision(6): 3.141593\n\n--- Table ---\nName                Marks\nAnanya                 95\nVikram                 87\nDeepa                  92\n\n--- Zero Padding ---\nItem 001\nItem 002\nItem 003\nItem 004\nItem 005"
+      },
+      {
+        "title": "endl vs '\\n' Performance",
+        "code": "#include <iostream>\n#include <chrono>\nusing namespace std;\n\nint main() {\n    const int N = 100000;\n\n    // Timing with endl\n    auto start1 = chrono::high_resolution_clock::now();\n    for (int i = 0; i < N; i++) {\n        cout << i << endl;  // Flushes every iteration\n    }\n    auto end1 = chrono::high_resolution_clock::now();\n\n    // Timing with '\\n'\n    auto start2 = chrono::high_resolution_clock::now();\n    for (int i = 0; i < N; i++) {\n        cout << i << '\\n';  // No flush\n    }\n    auto end2 = chrono::high_resolution_clock::now();\n\n    auto ms1 = chrono::duration_cast<chrono::milliseconds>(end1 - start1).count();\n    auto ms2 = chrono::duration_cast<chrono::milliseconds>(end2 - start2).count();\n\n    cerr << \"endl: \" << ms1 << \" ms\" << endl;\n    cerr << \"'\\\\n': \" << ms2 << \" ms\" << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>endl</code> flushes the buffer after every write. With 100,000 iterations, this means 100,000 flushes vs zero flushes with <code>'\\n'</code>. The difference is dramatic -- typically 5-10x slower. Note we print timing to <code>cerr</code> to keep it separate from the numbered output. In competitive programming, always use <code>'\\n'</code>.",
+        "output": "(100000 numbers printed)\nendl: ~350 ms\n'\\n': ~50 ms"
+      },
+      {
+        "title": "cerr, clog, and Debug Output",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    // cout: standard output (buffered)\n    cout << \"This goes to stdout\" << endl;\n\n    // cerr: standard error (unbuffered) -- appears immediately\n    cerr << \"Error: something went wrong!\" << endl;\n\n    // clog: standard log (buffered)\n    clog << \"Log: program started\" << endl;\n\n    // In competitive programming, use cerr for debugging\n    // The judge only checks stdout (cout)\n    int arr[] = {3, 1, 4, 1, 5};\n    int n = 5;\n    cerr << \"DEBUG: array = \";\n    for (int i = 0; i < n; i++) cerr << arr[i] << \" \";\n    cerr << endl;\n\n    // Your actual answer\n    int sum = 0;\n    for (int i = 0; i < n; i++) sum += arr[i];\n    cout << sum << endl;  // Only this is checked by the judge\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>cerr</code> is unbuffered -- output appears immediately even if the program crashes. In competitive programming, debug prints to <code>cerr</code> are not checked by the judge (which only compares <code>stdout</code>). This means you can leave debug output in your submission without getting Wrong Answer.",
+        "output": "This goes to stdout\nError: something went wrong!\nLog: program started\nDEBUG: array = 3 1 4 1 5\n14"
+      },
+      {
+        "title": "Fast I/O Template for Competitive Programming",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    // Fast I/O: must be the first two lines\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n\n    // After these lines, do NOT use printf/scanf\n    // Do NOT use endl -- use '\\n'\n\n    int t;\n    cin >> t;\n    while (t--) {\n        int n;\n        cin >> n;\n        long long sum = 0;\n        for (int i = 0; i < n; i++) {\n            int x;\n            cin >> x;\n            sum += x;\n        }\n        cout << sum << '\\n';\n    }\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>ios_base::sync_with_stdio(false)</code> disconnects C++ I/O from C I/O, removing synchronization overhead. <code>cin.tie(NULL)</code> prevents cout from being flushed before every cin operation. Together, these make cin/cout as fast as scanf/printf. After using these, never mix C and C++ I/O in the same program.",
+        "output": "(Processes t test cases, each with n numbers, printing their sum)"
+      },
+      {
+        "title": "printf and scanf (C-style I/O)",
+        "code": "#include <cstdio>\nusing namespace std;\n\nint main() {\n    // printf with format specifiers\n    int age = 20;\n    double gpa = 8.75;\n    char grade = 'A';\n\n    printf(\"Age: %d\\n\", age);\n    printf(\"GPA: %.2f\\n\", gpa);    // 2 decimal places\n    printf(\"Grade: %c\\n\", grade);\n\n    // Formatted table with printf\n    printf(\"\\n%-15s %5s %10s\\n\", \"Name\", \"Roll\", \"Marks\");\n    printf(\"%-15s %5d %10.1f\\n\", \"Arjun\", 101, 92.5);\n    printf(\"%-15s %5d %10.1f\\n\", \"Kavitha\", 102, 88.0);\n    printf(\"%-15s %5d %10.1f\\n\", \"Ravi\", 103, 95.3);\n\n    // scanf for input\n    int x;\n    printf(\"\\nEnter a number: \");\n    scanf(\"%d\", &x);  // Note the & (address-of operator)\n    printf(\"You entered: %d\\n\", x);\n\n    // Zero-padding with printf\n    for (int i = 1; i <= 5; i++) {\n        printf(\"Item %03d\\n\", i);  // 3-digit zero-padded\n    }\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>printf</code> uses format specifiers: <code>%d</code> (int), <code>%.2f</code> (double with 2 decimal places), <code>%c</code> (char), <code>%s</code> (C-string). <code>%-15s</code> means left-aligned in 15 chars. <code>%03d</code> means zero-padded to 3 digits. <code>scanf</code> requires the address of the variable (<code>&amp;x</code>). printf formatting is more concise than cout + iomanip for tabular output.",
+        "output": "Age: 20\nGPA: 8.75\nGrade: A\n\nName             Roll      Marks\nArjun             101       92.5\nKavitha           102       88.0\nRavi              103       95.3\n\nEnter a number: 42\nYou entered: 42\nItem 001\nItem 002\nItem 003\nItem 004\nItem 005"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "getline Reads Empty String After cin >>",
+        "wrongCode": "#include <iostream>\n#include <string>\nusing namespace std;\nint main() {\n    int n;\n    string name;\n    cout << \"Enter number: \";\n    cin >> n;\n    cout << \"Enter name: \";\n    getline(cin, name);  // Reads empty string!\n    cout << \"Name: '\" << name << \"'\" << endl;\n    return 0;\n}",
+        "error": "name is empty. getline reads the leftover '\\n' from cin >> n immediately.",
+        "correctCode": "#include <iostream>\n#include <string>\nusing namespace std;\nint main() {\n    int n;\n    string name;\n    cout << \"Enter number: \";\n    cin >> n;\n    cin.ignore();  // Discard the leftover '\\n'\n    cout << \"Enter name: \";\n    getline(cin, name);\n    cout << \"Name: '\" << name << \"'\" << endl;\n    return 0;\n}",
+        "explanation": "After <code>cin &gt;&gt; n</code>, the newline character from pressing Enter remains in the buffer. <code>getline</code> reads until the next newline -- which is immediately available -- producing an empty string. <code>cin.ignore()</code> discards that leftover newline. This is the most common beginner I/O bug in C++."
+      },
+      {
+        "title": "Using endl in Competitive Programming (Performance)",
+        "wrongCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int n = 1000000;\n    for (int i = 0; i < n; i++) {\n        cout << i << endl;  // Flushes 1 million times!\n    }\n    return 0;\n}",
+        "error": "Time Limit Exceeded. endl flushes the buffer every iteration, making output 5-10x slower.",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    int n = 1000000;\n    for (int i = 0; i < n; i++) {\n        cout << i << '\\n';  // No flush, much faster\n    }\n    return 0;\n}",
+        "explanation": "<code>endl</code> inserts a newline AND flushes the buffer. <code>'\\n'</code> only inserts a newline. In competitive programming, use <code>'\\n'</code> and add fast I/O at the top. The buffer flushes automatically when the program ends."
+      },
+      {
+        "title": "Mixing C and C++ I/O After sync_with_stdio(false)",
+        "wrongCode": "#include <iostream>\n#include <cstdio>\nusing namespace std;\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    cout << \"Hello from cout\" << '\\n';\n    printf(\"Hello from printf\\n\");  // Undefined behavior!\n    return 0;\n}",
+        "error": "Output may be interleaved or out of order. After disabling sync, mixing cout and printf is undefined.",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    cout << \"Hello from cout\" << '\\n';\n    cout << \"Hello again from cout\" << '\\n';\n    // Use ONLY cout/cin after sync_with_stdio(false)\n    return 0;\n}",
+        "explanation": "<code>ios_base::sync_with_stdio(false)</code> disconnects C++ streams from C streams. After this, using <code>printf</code>/<code>scanf</code> alongside <code>cout</code>/<code>cin</code> causes undefined behavior -- output may appear in wrong order or get lost."
+      },
+      {
+        "title": "setw Only Affects the Next Output",
+        "wrongCode": "#include <iostream>\n#include <iomanip>\nusing namespace std;\nint main() {\n    cout << setw(10);\n    cout << 42 << 99 << endl;  // Only 42 is padded!\n    return 0;\n}",
+        "error": "Output is '        4299' not '        42        99'. setw only affects the very next output.",
+        "correctCode": "#include <iostream>\n#include <iomanip>\nusing namespace std;\nint main() {\n    cout << setw(10) << 42 << setw(10) << 99 << endl;\n    return 0;\n}",
+        "explanation": "<code>setw</code> is consumed by the next output operation and then resets. You must write <code>setw</code> before EVERY value you want padded. Other manipulators like <code>setprecision</code>, <code>fixed</code>, <code>left</code>, and <code>setfill</code> are persistent -- they stay in effect until changed."
+      }
+    ],
+    "summary": [
+      "C++ I/O uses streams: cin (input), cout (output), cerr (error, unbuffered), clog (log, buffered). Include <iostream> for all four.",
+      "cin >> reads until whitespace. getline(cin, str) reads the entire line including spaces. Always use cin.ignore() when switching from >> to getline.",
+      "The cin buffer problem: cin >> leaves '\\n' in the buffer. getline reads that '\\n' immediately, producing an empty string. Fix with cin.ignore().",
+      "cin.clear() resets the error state after bad input. cin.ignore() discards characters from the buffer. Use both together to recover from invalid input.",
+      "endl inserts a newline AND flushes the buffer. '\\n' only inserts a newline. Use '\\n' in competitive programming for 5-10x faster output.",
+      "iomanip manipulators: setw(n) sets minimum width (next output only), setprecision(n) sets precision, fixed switches to decimal places, setfill(c) changes padding character.",
+      "setw resets after each use. setprecision, fixed, left, right, and setfill are persistent (stay in effect until changed).",
+      "cerr is unbuffered and writes to stderr. In competitive programming, use cerr for debug output -- judges only check stdout (cout).",
+      "printf/scanf from C are available via <cstdio>. printf uses format specifiers (%d, %f, %s, %c). printf is more compact for formatted tables.",
+      "Fast I/O template: ios_base::sync_with_stdio(false) + cin.tie(NULL). After this, do NOT mix C I/O (printf/scanf) with C++ I/O (cout/cin)."
+    ]
+  },
+  "relatedTopics": ["operators-in-cpp", "conditional-statements"],
+  "practice": {
+    "totalQuestions": 52,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Hello\" &lt;&lt; \" \" &lt;&lt; \"World\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Multiple << operators chain outputs sequentially.",
+        "answer": "<code>Hello World</code>",
+        "explanation": "The chained <code>&lt;&lt;</code> operators output each string in sequence: \"Hello\", then \" \", then \"World\", producing <code>Hello World</code>."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Line 1\" &lt;&lt; '\\n' &lt;&lt; \"Line 2\" &lt;&lt; '\\n';\n    return 0;\n}</code></pre>",
+        "hint": "'\\n' inserts a newline character.",
+        "answer": "<code>Line 1</code><br><code>Line 2</code>",
+        "explanation": "<code>'\\n'</code> inserts a newline just like <code>endl</code>, but without flushing the buffer. The output is two lines."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 3, b = 7;\n    cout &lt;&lt; a &lt;&lt; \"+\" &lt;&lt; b &lt;&lt; \"=\" &lt;&lt; a + b &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "The expression a + b is evaluated before printing.",
+        "answer": "<code>3+7=10</code>",
+        "explanation": "Each chained output prints in sequence: 3, then \"+\", then 7, then \"=\", then the result of <code>a + b</code> (10)."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;iomanip&gt;\nusing namespace std;\nint main() {\n    double pi = 3.14159265;\n    cout &lt;&lt; fixed &lt;&lt; setprecision(2) &lt;&lt; pi &lt;&lt; endl;\n    cout &lt;&lt; setprecision(5) &lt;&lt; pi &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "fixed makes setprecision control decimal places. setprecision is persistent.",
+        "answer": "<code>3.14</code><br><code>3.14159</code>",
+        "explanation": "<code>fixed</code> switches to fixed-point mode. <code>setprecision(2)</code> shows 2 decimal places: 3.14. Then <code>setprecision(5)</code> shows 5 decimal places: 3.14159. Both <code>fixed</code> and the new precision persist."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;iomanip&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; setw(8) &lt;&lt; 42 &lt;&lt; 99 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "setw only affects the very next output.",
+        "answer": "<code>      4299</code>",
+        "explanation": "<code>setw(8)</code> applies only to 42, padding it to 8 characters (6 spaces + \"42\"). Then 99 is printed with no padding because setw resets after each use."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;iomanip&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; setfill('*') &lt;&lt; setw(10) &lt;&lt; 42 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "setfill changes the padding character from space to '*'.",
+        "answer": "<code>********42</code>",
+        "explanation": "<code>setfill('*')</code> changes the padding character to asterisks. <code>setw(10)</code> pads to 10 characters. Since 42 is 2 characters, 8 asterisks are prepended (right-aligned by default)."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;iomanip&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; left &lt;&lt; setw(10) &lt;&lt; \"Name\" &lt;&lt; right &lt;&lt; setw(5) &lt;&lt; \"Age\" &lt;&lt; endl;\n    cout &lt;&lt; left &lt;&lt; setw(10) &lt;&lt; \"Sneha\" &lt;&lt; right &lt;&lt; setw(5) &lt;&lt; 20 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "left/right control alignment within the setw field.",
+        "answer": "<code>Name          Age</code><br><code>Sneha          20</code>",
+        "explanation": "<code>left</code> left-aligns within the setw field. <code>right</code> right-aligns. \"Name\" is left-aligned in 10 chars, \"Age\" is right-aligned in 5 chars. Same for the data row."
+      },
+      {
+        "id": "ts-8",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between <code>endl</code> and <code>'\\n'</code>?",
+        "hint": "Both produce a newline, but one does extra work.",
+        "answer": "<code>endl</code> inserts a newline AND flushes the output buffer. <code>'\\n'</code> only inserts a newline without flushing. In competitive programming, <code>'\\n'</code> is preferred because flushing after every line is slow.",
+        "explanation": "Flushing means forcing all buffered data to be written to the screen immediately. With millions of outputs, the overhead of flushing each time can cause TLE. The buffer flushes automatically when the program ends."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why does <code>getline</code> read an empty string after <code>cin &gt;&gt;</code>? How do you fix it?",
+        "hint": "cin >> leaves a character in the buffer.",
+        "answer": "<code>cin &gt;&gt;</code> reads a value but leaves the newline character (<code>'\\n'</code>) in the input buffer. When <code>getline</code> is called next, it immediately finds that <code>'\\n'</code> and returns an empty string. Fix: use <code>cin.ignore()</code> between <code>cin &gt;&gt;</code> and <code>getline</code> to discard the leftover newline.",
+        "explanation": "This is the most common I/O bug in C++. <code>cin.ignore()</code> discards one character (the <code>'\\n'</code>). For a more robust version: <code>cin.ignore(numeric_limits&lt;streamsize&gt;::max(), '\\n')</code> discards everything up to and including the newline."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What do <code>ios_base::sync_with_stdio(false)</code> and <code>cin.tie(NULL)</code> do?",
+        "hint": "They disable two synchronization mechanisms for faster I/O.",
+        "answer": "<code>ios_base::sync_with_stdio(false)</code> disconnects C++ streams from C streams, removing synchronization overhead. <code>cin.tie(NULL)</code> unties cin from cout so cout is not flushed before every cin read. Together they make cin/cout as fast as scanf/printf. After using them, do NOT mix printf/scanf with cout/cin.",
+        "explanation": "By default, C++ synchronizes its streams with C streams so you can mix printf and cout. This synchronization has overhead. Disabling it is safe as long as you use only C++ I/O afterward."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;iomanip&gt;\nusing namespace std;\nint main() {\n    double x = 3.14159;\n    cout &lt;&lt; setprecision(3) &lt;&lt; x &lt;&lt; endl;\n    cout &lt;&lt; fixed &lt;&lt; setprecision(3) &lt;&lt; x &lt;&lt; endl;\n    cout &lt;&lt; scientific &lt;&lt; setprecision(3) &lt;&lt; x &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Without fixed/scientific, setprecision controls total significant digits.",
+        "answer": "<code>3.14</code><br><code>3.142</code><br><code>3.142e+00</code>",
+        "explanation": "Without <code>fixed</code>/<code>scientific</code>, <code>setprecision(3)</code> means 3 total significant digits: 3.14. With <code>fixed</code>, it means 3 decimal places: 3.142. With <code>scientific</code>, it means 3 decimal places in scientific notation: 3.142e+00."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; boolalpha;\n    cout &lt;&lt; (5 &gt; 3) &lt;&lt; endl;\n    cout &lt;&lt; (5 &lt; 3) &lt;&lt; endl;\n    cout &lt;&lt; noboolalpha;\n    cout &lt;&lt; (5 &gt; 3) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "boolalpha prints true/false as words.",
+        "answer": "<code>true</code><br><code>false</code><br><code>1</code>",
+        "explanation": "<code>boolalpha</code> makes cout print boolean values as \"true\"/\"false\" instead of 1/0. <code>noboolalpha</code> reverts to numeric output."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the difference between <code>cerr</code> and <code>cout</code>? When would you use <code>cerr</code>?",
+        "hint": "Think about buffering and what happens during a crash.",
+        "answer": "<code>cout</code> writes to stdout and is <strong>buffered</strong> -- output may sit in a buffer before being displayed. <code>cerr</code> writes to stderr and is <strong>unbuffered</strong> -- output appears immediately. Use <code>cerr</code> for error messages (they appear even if the program crashes) and for debug output in competitive programming (judges only check stdout).",
+        "explanation": "If a program crashes, buffered cout data may be lost. cerr output is guaranteed to appear because it is unbuffered. In CP, debug prints to cerr are invisible to the judge, so you can leave them in your submission."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;cstdio&gt;\nint main() {\n    printf(\"%d + %d = %d\\n\", 3, 4, 3 + 4);\n    return 0;\n}</code></pre>",
+        "hint": "%d is the format specifier for integers in printf.",
+        "answer": "<code>3 + 4 = 7</code>",
+        "explanation": "<code>printf</code> replaces each <code>%d</code> with the corresponding integer argument in order: 3, 4, 7. The <code>\\n</code> adds a newline."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;cstdio&gt;\nint main() {\n    printf(\"%.3f\\n\", 3.14159);\n    printf(\"%10d\\n\", 42);\n    printf(\"%-10d|\\n\", 42);\n    return 0;\n}</code></pre>",
+        "hint": "%.3f means 3 decimal places. %10d means right-aligned in 10 chars. %-10d means left-aligned.",
+        "answer": "<code>3.142</code><br><code>        42</code><br><code>42        |</code>",
+        "explanation": "<code>%.3f</code> prints with 3 decimal places (rounds 3.14159 to 3.142). <code>%10d</code> right-aligns 42 in 10 characters. <code>%-10d</code> left-aligns 42 in 10 characters."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What does <code>cin.clear()</code> do and when is it needed?",
+        "hint": "What happens when cin >> expects an int but receives a letter?",
+        "answer": "<code>cin.clear()</code> resets the error flags on the cin stream. When <code>cin &gt;&gt;</code> fails (e.g., user enters 'abc' when an int is expected), cin enters a <strong>fail state</strong>. All subsequent cin reads silently fail. <code>cin.clear()</code> resets this state. You also need <code>cin.ignore()</code> to clear the bad input from the buffer.",
+        "explanation": "After a failed read: (1) <code>cin.clear()</code> resets the fail flag. (2) <code>cin.ignore(numeric_limits&lt;streamsize&gt;::max(), '\\n')</code> discards the bad input. Then cin is ready for new input."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = 42;\n    cout &lt;&lt; \"x\" &lt;&lt; endl;\n    cout &lt;&lt; x &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "\"x\" is a string literal. x (without quotes) is the variable.",
+        "answer": "<code>x</code><br><code>42</code>",
+        "explanation": "<code>\"x\"</code> (in quotes) prints the literal character x. <code>x</code> (no quotes) prints the value of the variable x, which is 42."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;iomanip&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; setfill('0');\n    for (int i = 1; i &lt;= 3; i++) {\n        cout &lt;&lt; setw(4) &lt;&lt; i &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "setfill('0') persists. setw(4) must be repeated for each output.",
+        "answer": "<code>0001</code><br><code>0002</code><br><code>0003</code>",
+        "explanation": "<code>setfill('0')</code> is persistent -- it stays in effect. <code>setw(4)</code> is applied before each number, padding with zeros. Each number is displayed as 4 digits with leading zeros."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"A\" &lt;&lt; endl;\n    cerr &lt;&lt; \"B\" &lt;&lt; endl;\n    cout &lt;&lt; \"C\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "cerr writes to stderr, cout writes to stdout. Both appear on screen.",
+        "answer": "<code>A</code><br><code>B</code><br><code>C</code>",
+        "explanation": "Both <code>cout</code> and <code>cerr</code> output to the terminal. The order is A, B, C. Note: if you redirect stdout (<code>./a.out > output.txt</code>), only A and C go to the file. B still appears on screen."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Hello\\tWorld\\n\";\n    cout &lt;&lt; \"Line\\\\2\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "\\t is tab, \\n is newline, \\\\ is a literal backslash.",
+        "answer": "<code>Hello\tWorld</code><br><code>Line\\2</code>",
+        "explanation": "<code>\\t</code> inserts a tab character. <code>\\n</code> inserts a newline. <code>\\\\</code> prints a single backslash (the first backslash escapes the second)."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;iomanip&gt;\nusing namespace std;\nint main() {\n    double x = 0.1 + 0.2;\n    cout &lt;&lt; x &lt;&lt; endl;\n    cout &lt;&lt; fixed &lt;&lt; setprecision(17) &lt;&lt; x &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "0.1 and 0.2 cannot be represented exactly in binary floating point.",
+        "answer": "<code>0.3</code><br><code>0.30000000000000004</code>",
+        "explanation": "0.1 and 0.2 cannot be represented exactly in IEEE 754 binary. The sum is not exactly 0.3 -- it is 0.30000000000000004... Default cout hides this, but with 17 decimal places the imprecision is revealed."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that reads a student's name (full name with spaces), roll number (integer), and CGPA (decimal). Print them in a formatted way.",
+        "hint": "Use cin >> for roll number, cin.ignore() + getline for name.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\n#include &lt;iomanip&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    int roll;\n    string name;\n    double cgpa;\n    cout &lt;&lt; \"Enter roll number: \";\n    cin &gt;&gt; roll;\n    cin.ignore();\n    cout &lt;&lt; \"Enter full name: \";\n    getline(cin, name);\n    cout &lt;&lt; \"Enter CGPA: \";\n    cin &gt;&gt; cgpa;\n    cout &lt;&lt; \"Roll: \" &lt;&lt; roll &lt;&lt; endl;\n    cout &lt;&lt; \"Name: \" &lt;&lt; name &lt;&lt; endl;\n    cout &lt;&lt; \"CGPA: \" &lt;&lt; fixed &lt;&lt; setprecision(2) &lt;&lt; cgpa &lt;&lt; endl;\n    return 0;\n}</code></pre>\nInput: 101, Amit Kumar, 8.75\nOutput:\nRoll: 101\nName: Amit Kumar\nCGPA: 8.75",
+        "explanation": "cin >> roll reads the integer. cin.ignore() discards the leftover newline. getline reads the full name including spaces. cin >> cgpa reads the decimal. fixed + setprecision(2) shows exactly 2 decimal places."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;iomanip&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; setw(5) &lt;&lt; left &lt;&lt; 1 &lt;&lt; setw(5) &lt;&lt; left &lt;&lt; 2 &lt;&lt; setw(5) &lt;&lt; left &lt;&lt; 3 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Each number is left-aligned in a 5-character field.",
+        "answer": "<code>1    2    3    </code>",
+        "explanation": "Each number is placed in a 5-character wide field, left-aligned. 1 takes 1 char, followed by 4 spaces. Same for 2 and 3."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = 5;\n    cout &lt;&lt; \"Value: \" &lt;&lt; x &lt;&lt; \", Double: \" &lt;&lt; x * 2;\n    cout &lt;&lt; '\\n';\n    cout &lt;&lt; \"Address size: \" &lt;&lt; sizeof(&amp;x) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "&x is a pointer. sizeof a pointer depends on the system (32-bit vs 64-bit).",
+        "answer": "<code>Value: 5, Double: 10</code><br><code>Address size: 8</code>",
+        "explanation": "The first line chains multiple outputs. <code>x * 2</code> is 10. <code>sizeof(&amp;x)</code> gives the size of a pointer, which is 8 bytes on a 64-bit system."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program that reads n floating-point numbers and prints each with exactly 4 decimal places, right-aligned in a field of width 12.",
+        "hint": "Use fixed, setprecision(4), and setw(12) for each number.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\n#include &lt;iomanip&gt;\nusing namespace std;\nint main() {\n    int n;\n    cin &gt;&gt; n;\n    cout &lt;&lt; fixed &lt;&lt; setprecision(4);\n    for (int i = 0; i &lt; n; i++) {\n        double x;\n        cin &gt;&gt; x;\n        cout &lt;&lt; setw(12) &lt;&lt; x &lt;&lt; '\\n';\n    }\n    return 0;\n}</code></pre>\nInput: 3 3.14 100.5 0.001\nOutput:\n      3.1400\n    100.5000\n      0.0010",
+        "explanation": "<code>fixed</code> and <code>setprecision(4)</code> are persistent -- set once. <code>setw(12)</code> must be repeated for each output. Right alignment is the default."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why should you not use <code>endl</code> in competitive programming? What should you use instead?",
+        "hint": "Think about what endl does beyond adding a newline.",
+        "answer": "<code>endl</code> inserts a newline AND flushes the output buffer. Flushing forces the OS to write buffered data to the screen immediately. When printing millions of lines, this flush operation after each line causes a massive slowdown (5-10x). Use <code>'\\n'</code> instead, which only adds a newline. The buffer flushes automatically when the program ends.",
+        "explanation": "Combined with <code>ios_base::sync_with_stdio(false)</code> and <code>cin.tie(NULL)</code>, using <code>'\\n'</code> instead of <code>endl</code> makes C++ I/O competitive with C's scanf/printf."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;cstdio&gt;\nint main() {\n    printf(\"%05d\\n\", 42);\n    printf(\"%8.2f\\n\", 3.14159);\n    return 0;\n}</code></pre>",
+        "hint": "%05d means zero-padded to 5 digits. %8.2f means 8 chars wide with 2 decimal places.",
+        "answer": "<code>00042</code><br><code>    3.14</code>",
+        "explanation": "<code>%05d</code> pads 42 to 5 digits with leading zeros: 00042. <code>%8.2f</code> formats 3.14159 to 2 decimal places (3.14) in a field of width 8, right-aligned."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;iomanip&gt;\nusing namespace std;\nint main() {\n    double d = 123456789.123456789;\n    cout &lt;&lt; d &lt;&lt; endl;\n    cout &lt;&lt; fixed &lt;&lt; setprecision(9) &lt;&lt; d &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "double has ~15 significant digits. The number has 18 digits total.",
+        "answer": "<code>1.23457e+08</code><br><code>123456789.123456791</code>",
+        "explanation": "Default cout for large doubles uses scientific notation with 6 significant digits: 1.23457e+08. With <code>fixed</code> and 9 decimal places, the full precision is shown, but the last few digits are slightly off because <code>double</code> has only ~15-16 significant digits."
+      },
+      {
+        "id": "mx-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program that keeps reading integers until the user enters a non-integer (like a letter). Use cin.fail() to detect bad input and cin.clear() + cin.ignore() to recover. Print the sum of valid integers.",
+        "hint": "After cin >> fails, cin.fail() returns true.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\n#include &lt;limits&gt;\nusing namespace std;\nint main() {\n    int sum = 0, x;\n    cout &lt;&lt; \"Enter integers (non-integer to stop): \";\n    while (cin &gt;&gt; x) {\n        sum += x;\n    }\n    cout &lt;&lt; \"Sum: \" &lt;&lt; sum &lt;&lt; endl;\n    return 0;\n}</code></pre>\nInput: 10 20 30 abc\nOutput: Sum: 60",
+        "explanation": "<code>cin &gt;&gt; x</code> returns a truthy stream when successful and a falsy stream when it fails. The while loop reads integers until a non-integer is encountered. At that point, cin enters fail state and the loop ends."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Tab:\\tEnd\" &lt;&lt; endl;\n    cout &lt;&lt; \"Quote: \\\"hello\\\"\" &lt;&lt; endl;\n    cout &lt;&lt; \"Backslash: \\\\\" &lt;&lt; endl;\n    cout &lt;&lt; \"Null char: \" &lt;&lt; '\\0' &lt;&lt; \"end\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Escape sequences: \\t, \\\", \\\\, \\0.",
+        "answer": "<code>Tab:\tEnd</code><br><code>Quote: \"hello\"</code><br><code>Backslash: \\</code><br><code>Null char: end</code>",
+        "explanation": "<code>\\t</code> = tab. <code>\\\"</code> = literal double quote. <code>\\\\</code> = single backslash. <code>\\0</code> is the null character (invisible), so \"end\" follows immediately."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which header file is needed for <code>setw</code> and <code>setprecision</code>?",
+        "options": {
+          "A": "<iostream>",
+          "B": "<iomanip>",
+          "C": "<cstdio>",
+          "D": "<string>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;iomanip&gt;</code> (input/output manipulation) provides <code>setw</code>, <code>setprecision</code>, <code>setfill</code>, <code>fixed</code>, <code>left</code>, <code>right</code>, and other formatting manipulators."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does <code>cin.ignore()</code> do?",
+        "options": {
+          "A": "Ignores the next cin statement",
+          "B": "Discards one character from the input buffer",
+          "C": "Clears the error state of cin",
+          "D": "Resets cin to its default state"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>cin.ignore()</code> discards one character from the input buffer. It is commonly used to remove the leftover newline after <code>cin &gt;&gt;</code> before calling <code>getline</code>."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does <code>endl</code> do that <code>'\\n'</code> does not?",
+        "options": {
+          "A": "Inserts two newlines",
+          "B": "Flushes the output buffer",
+          "C": "Resets formatting",
+          "D": "Clears the screen"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>endl</code> inserts a newline AND flushes the output buffer. <code>'\\n'</code> only inserts a newline. Flushing forces buffered output to appear on screen immediately."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which stream is unbuffered?",
+        "options": {
+          "A": "cout",
+          "B": "cin",
+          "C": "cerr",
+          "D": "clog"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>cerr</code> is unbuffered -- output appears immediately. <code>cout</code> and <code>clog</code> are buffered. This makes <code>cerr</code> reliable for error messages even if the program crashes."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does <code>cin >> x</code> stop reading at?",
+        "options": {
+          "A": "End of line only",
+          "B": "First whitespace character (space, tab, or newline)",
+          "C": "End of file only",
+          "D": "After exactly one character"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>cin &gt;&gt;</code> skips leading whitespace and reads until the next whitespace character. This is why it cannot read full names with spaces -- it stops at the first space."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Which manipulator is NOT persistent (resets after one use)?",
+        "options": {
+          "A": "fixed",
+          "B": "setprecision",
+          "C": "setw",
+          "D": "setfill"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>setw</code> only affects the very next output and then resets. All other listed manipulators (<code>fixed</code>, <code>setprecision</code>, <code>setfill</code>) are persistent -- they stay in effect until changed."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does <code>ios_base::sync_with_stdio(false)</code> do?",
+        "options": {
+          "A": "Makes I/O asynchronous",
+          "B": "Disconnects C++ streams from C streams for faster I/O",
+          "C": "Disables all buffering",
+          "D": "Enables multi-threaded I/O"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> It disconnects C++ streams (cin/cout) from C streams (stdin/stdout), removing synchronization overhead. This makes C++ I/O significantly faster but prevents mixing C and C++ I/O."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the printf format specifier for printing a double with 2 decimal places?",
+        "options": {
+          "A": "%d",
+          "B": "%2f",
+          "C": "%.2f",
+          "D": "%f2"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>%.2f</code> prints a floating-point number with exactly 2 decimal places. <code>%d</code> is for integers. <code>%2f</code> means minimum width 2 (not 2 decimal places)."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "After <code>cin >> n</code> followed by <code>getline(cin, s)</code>, what does s contain?",
+        "options": {
+          "A": "The next line of input",
+          "B": "An empty string",
+          "C": "The same value as n",
+          "D": "Compilation error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>cin &gt;&gt; n</code> leaves the newline in the buffer. <code>getline</code> reads that newline immediately and stores an empty string. Fix with <code>cin.ignore()</code> between them."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "What does <code>cin.tie(NULL)</code> do?",
+        "options": {
+          "A": "Ties cin to a file",
+          "B": "Prevents cout from being flushed before cin reads",
+          "C": "Disables cin completely",
+          "D": "Makes cin read from stderr"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> By default, cout is flushed before every cin operation (so prompts appear before input). <code>cin.tie(NULL)</code> removes this tie, preventing automatic flushing. This speeds up I/O in competitive programming."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What does <code>cout << fixed << setprecision(0) << 3.7;</code> print?",
+        "options": {
+          "A": "3",
+          "B": "4",
+          "C": "3.7",
+          "D": "3."
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>fixed</code> with <code>setprecision(0)</code> means zero decimal places. The value 3.7 is rounded to the nearest integer: 4. Note this is rounding, not truncation."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "Which of the following is TRUE about mixing C and C++ I/O after <code>sync_with_stdio(false)</code>?",
+        "options": {
+          "A": "It is perfectly safe",
+          "B": "It causes compilation error",
+          "C": "Output may be interleaved or out of order",
+          "D": "It only affects input, not output"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> After disabling synchronization, C streams (printf/stdout) and C++ streams (cout) maintain separate buffers. Output may appear in unexpected order. It compiles fine but produces undefined output ordering."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Easy",
+        "question": "What does <code>getline(cin, s)</code> do that <code>cin >> s</code> does not?",
+        "options": {
+          "A": "Reads until end of file",
+          "B": "Reads the entire line including spaces",
+          "C": "Reads exactly one character",
+          "D": "Reads binary data"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>cin >> s</code> stops reading at the first whitespace. <code>getline(cin, s)</code> reads until the newline character, capturing spaces and tabs."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "What does <code>setprecision(3)</code> do WITHOUT <code>fixed</code>?",
+        "options": {
+          "A": "Shows 3 decimal places",
+          "B": "Shows 3 total significant digits",
+          "C": "Rounds to nearest 3",
+          "D": "No effect"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Without <code>fixed</code>, <code>setprecision(n)</code> controls the total number of significant digits. For example, <code>setprecision(3)</code> displays 3.14159 as 3.14 (3 significant digits)."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What is the printf format specifier for <code>long long</code>?",
+        "options": {
+          "A": "%d",
+          "B": "%ld",
+          "C": "%lld",
+          "D": "%f"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>%lld</code> is the format specifier for <code>long long</code> in printf/scanf. <code>%d</code> is for int, <code>%ld</code> is for long. Using the wrong specifier causes undefined behavior."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "Which escape sequence produces a tab character?",
+        "options": {
+          "A": "\\n",
+          "B": "\\t",
+          "C": "\\s",
+          "D": "\\b"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>\\t</code> is the tab character. <code>\\n</code> is newline. <code>\\b</code> is backspace. <code>\\s</code> is not a valid escape sequence in C++."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Formatted Student Report Card",
+        "difficulty": "Easy",
+        "description": "Read a student's name (full name with spaces), roll number, and marks in 5 subjects. Print a formatted report card with the name, roll number, each subject mark (2 decimal places), total, and percentage. Use setw for alignment.",
+        "sampleInput": "101\nMeera Krishnan\n85.5 90.0 78.5 92.0 88.5",
+        "sampleOutput": "Roll Number: 101\nStudent Name: Meera Krishnan\n--------------------------\nSubject 1:        85.50\nSubject 2:        90.00\nSubject 3:        78.50\nSubject 4:        92.00\nSubject 5:        88.50\n--------------------------\nTotal:           434.50\nPercentage:       86.90%",
+        "constraints": "Use cin.ignore() between cin >> and getline. Use fixed, setprecision(2), and setw for formatting.",
+        "solution": "#include <iostream>\n#include <iomanip>\n#include <string>\nusing namespace std;\nint main() {\n    int roll;\n    string name;\n    double marks[5], total = 0;\n    cin >> roll;\n    cin.ignore();\n    getline(cin, name);\n    for (int i = 0; i < 5; i++) {\n        cin >> marks[i];\n        total += marks[i];\n    }\n    cout << \"Roll Number: \" << roll << endl;\n    cout << \"Student Name: \" << name << endl;\n    cout << \"--------------------------\" << endl;\n    cout << fixed << setprecision(2);\n    for (int i = 0; i < 5; i++) {\n        cout << \"Subject \" << i + 1 << \":\" << setw(13) << marks[i] << endl;\n    }\n    cout << \"--------------------------\" << endl;\n    cout << \"Total:\" << setw(16) << total << endl;\n    cout << \"Percentage:\" << setw(11) << (total / 5.0) << \"%\" << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Multiplication Table Formatter",
+        "difficulty": "Easy",
+        "description": "Read an integer n and print its multiplication table from 1 to 10. Each line should be formatted as: n x i = result, with the result right-aligned in a field of width 4.",
+        "sampleInput": "7",
+        "sampleOutput": "7 x  1 =    7\n7 x  2 =   14\n7 x  3 =   21\n...\n7 x 10 =   70",
+        "constraints": "Use setw for alignment of both the multiplier and the result.",
+        "solution": "#include <iostream>\n#include <iomanip>\nusing namespace std;\nint main() {\n    int n;\n    cin >> n;\n    for (int i = 1; i <= 10; i++) {\n        cout << n << \" x \" << setw(2) << i << \" = \" << setw(4) << n * i << endl;\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Interactive Calculator with Error Recovery",
+        "difficulty": "Medium",
+        "description": "Write a calculator that reads two numbers and an operator (+, -, *, /). Handle division by zero and invalid input. If cin fails (user enters a non-number), use cin.clear() and cin.ignore() to recover and prompt again.",
+        "sampleInput": "10 / 3",
+        "sampleOutput": "10 / 3 = 3.33",
+        "constraints": "Use cin.fail(), cin.clear(), cin.ignore(). Print result with 2 decimal places. Handle division by zero.",
+        "solution": "#include <iostream>\n#include <iomanip>\n#include <limits>\nusing namespace std;\nint main() {\n    double a, b;\n    char op;\n    cout << \"Enter: number operator number\" << endl;\n    while (!(cin >> a >> op >> b)) {\n        cout << \"Invalid input. Try again: \" << endl;\n        cin.clear();\n        cin.ignore(numeric_limits<streamsize>::max(), '\\n');\n    }\n    cout << fixed << setprecision(2);\n    if (op == '+') cout << a << \" + \" << b << \" = \" << a + b << endl;\n    else if (op == '-') cout << a << \" - \" << b << \" = \" << a - b << endl;\n    else if (op == '*') cout << a << \" * \" << b << \" = \" << a * b << endl;\n    else if (op == '/') {\n        if (b == 0) cout << \"Error: Division by zero\" << endl;\n        else cout << a << \" / \" << b << \" = \" << a / b << endl;\n    } else cout << \"Unknown operator\" << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Fast I/O Speed Test",
+        "difficulty": "Medium",
+        "description": "Write a program that reads t test cases. For each test case, read n and then n integers. Print the sum of each test case on a new line. Use fast I/O (sync_with_stdio, cin.tie) and '\\n' instead of endl.",
+        "sampleInput": "2\n3 1 2 3\n4 10 20 30 40",
+        "sampleOutput": "6\n100",
+        "constraints": "Must use ios_base::sync_with_stdio(false) and cin.tie(NULL). Must use '\\n' instead of endl.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    int t;\n    cin >> t;\n    while (t--) {\n        int n;\n        cin >> n;\n        long long sum = 0;\n        for (int i = 0; i < n; i++) {\n            int x;\n            cin >> x;\n            sum += x;\n        }\n        cout << sum << '\\n';\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Receipt Printer",
+        "difficulty": "Hard",
+        "description": "Write a program that reads the number of items n, then for each item reads the name (may contain spaces) and price. Print a formatted receipt with item names left-aligned in 20 chars, prices right-aligned in 10 chars (2 decimal places), a separator line, and the total.",
+        "sampleInput": "3\nMasala Dosa\n120.00\nFilter Coffee\n40.50\nGulab Jamun\n60.00",
+        "sampleOutput": "-------- RECEIPT --------\nMasala Dosa              120.00\nFilter Coffee             40.50\nGulab Jamun               60.00\n------------------------------\nTotal                    220.50",
+        "constraints": "Use getline for names, cin >> for prices, cin.ignore() between them. Use iomanip for formatting.",
+        "solution": "#include <iostream>\n#include <iomanip>\n#include <string>\nusing namespace std;\nint main() {\n    int n;\n    cin >> n;\n    cin.ignore();\n    string names[100];\n    double prices[100];\n    double total = 0;\n    for (int i = 0; i < n; i++) {\n        getline(cin, names[i]);\n        cin >> prices[i];\n        cin.ignore();\n        total += prices[i];\n    }\n    cout << \"-------- RECEIPT --------\" << endl;\n    cout << fixed << setprecision(2);\n    for (int i = 0; i < n; i++) {\n        cout << left << setw(20) << names[i] << right << setw(10) << prices[i] << endl;\n    }\n    cout << \"------------------------------\" << endl;\n    cout << left << setw(20) << \"Total\" << right << setw(10) << total << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Number Base Converter",
+        "difficulty": "Hard",
+        "description": "Write a program that reads an integer and prints it in decimal, octal, hexadecimal (lowercase and uppercase) using cout manipulators (dec, oct, hex, uppercase). Also print using printf format specifiers.",
+        "sampleInput": "255",
+        "sampleOutput": "Decimal:     255\nOctal:       377\nHex (lower): ff\nHex (upper): FF",
+        "constraints": "Use cout with dec, oct, hex, uppercase manipulators. Also demonstrate printf with %d, %o, %x, %X.",
+        "solution": "#include <iostream>\n#include <iomanip>\n#include <cstdio>\nusing namespace std;\nint main() {\n    int n;\n    cin >> n;\n    cout << \"Decimal:     \" << dec << n << endl;\n    cout << \"Octal:       \" << oct << n << endl;\n    cout << \"Hex (lower): \" << hex << n << endl;\n    cout << \"Hex (upper): \" << hex << uppercase << n << endl;\n    cout << nouppercase << dec;\n    printf(\"\\nUsing printf:\\n\");\n    printf(\"Decimal:     %d\\n\", n);\n    printf(\"Octal:       %o\\n\", n);\n    printf(\"Hex (lower): %x\\n\", n);\n    printf(\"Hex (upper): %X\\n\", n);\n    return 0;\n}"
+      }
+    ]
+  }
+}

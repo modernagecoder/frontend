@@ -6,7 +6,7 @@
   "difficulty": "Advanced",
   "readingTime": "55 min",
   "lastUpdated": "2026-04-09",
-  "totalQuestions": 40,
+  "totalQuestions": 50,
   "seo": {
     "title": "Advanced Array and Object Patterns in JavaScript - Chaining, Destructuring, Data Processing | Modern Age Coders",
     "description": "Master advanced JavaScript patterns: method chaining (filter-map-reduce), nested destructuring, computed properties, Object.keys/values/entries, deep cloning, grouping data, sorting objects, removing duplicates, flattening arrays, and real-world data processing. Includes 56+ practice questions.",
@@ -115,7 +115,7 @@
   },
   "relatedTopics": ["project-todo-app-with-storage", "closures-scope-and-hoisting"],
   "practice": {
-    "totalQuestions": 40,
+    "totalQuestions": 50,
     "topicSpecific": [
       {
         "id": "ts-1",

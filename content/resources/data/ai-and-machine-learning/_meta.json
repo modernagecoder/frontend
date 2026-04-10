@@ -1,0 +1,53 @@
+{
+  "language": "AI and Machine Learning",
+  "slug": "ai-and-machine-learning",
+  "audience": "college",
+  "ageRange": "17-25",
+  "tone": "technical but accessible, real-world focused, industry-connected",
+  "index": {
+    "title": "AI and Machine Learning Complete Guide - From Fundamentals to Deep Learning",
+    "description": "Master Artificial Intelligence and Machine Learning from scratch. Covers Python for AI, mathematics foundations, data preprocessing, supervised and unsupervised learning, deep learning, NLP, computer vision, generative AI, and deployment. 25 detailed chapters with 50+ practice questions each.",
+    "keywords": "ai tutorial, machine learning tutorial, artificial intelligence course, learn ai from scratch, ml for beginners, deep learning tutorial, neural networks, python machine learning, data science, nlp tutorial, computer vision, generative ai, ai interview questions",
+    "intro": "<p>Artificial Intelligence is transforming every industry on the planet. From the recommendations on Netflix to self-driving cars, from ChatGPT to medical diagnosis, AI is everywhere. If you want to be part of this revolution, this is your starting point.</p><p>This guide takes you from absolute zero to building real AI and ML models. You do not need prior experience with AI. If you know basic Python (which you can learn from our Python resources), you are ready to begin. We cover the mathematics you need, the algorithms that power modern AI, and the tools used in the industry.</p><p>Each chapter has detailed explanations with real-world examples, Python code you can run, and 50+ practice questions that prepare you for interviews and real projects. This is not surface-level content. This is a complete, professional-grade AI and ML resource designed for serious learners.</p>"
+  },
+  "chapters": [
+    { "slug": "introduction-to-ai-and-ml", "order": 1, "title": "Introduction to AI and Machine Learning", "difficulty": "Beginner", "description": "Understand what AI, ML, and Deep Learning are, how they relate, and where they are used in the real world today." },
+    { "slug": "python-for-ai-essentials", "order": 2, "title": "Python for AI - NumPy, Pandas, and Matplotlib", "difficulty": "Beginner", "description": "Master the essential Python libraries for AI: NumPy for math, Pandas for data, and Matplotlib for visualization." },
+    { "slug": "mathematics-for-ml", "order": 3, "title": "Mathematics for Machine Learning", "difficulty": "Beginner", "description": "Learn the math behind ML: linear algebra (vectors, matrices), calculus (derivatives, gradient), probability, and statistics." },
+    { "slug": "data-preprocessing-and-eda", "order": 4, "title": "Data Preprocessing and Exploratory Data Analysis", "difficulty": "Beginner", "description": "Clean messy data, handle missing values, encode categories, scale features, and explore datasets with visualizations." },
+    { "slug": "linear-regression", "order": 5, "title": "Linear Regression - Your First ML Algorithm", "difficulty": "Beginner", "description": "Understand how linear regression works, implement it from scratch and with scikit-learn, evaluate with metrics." },
+    { "slug": "logistic-regression-and-classification", "order": 6, "title": "Logistic Regression and Classification", "difficulty": "Intermediate", "description": "Predict categories with logistic regression, understand sigmoid function, decision boundary, and evaluation metrics." },
+    { "slug": "decision-trees-and-random-forests", "order": 7, "title": "Decision Trees and Random Forests", "difficulty": "Intermediate", "description": "Build tree-based models, understand splitting criteria, pruning, bagging, and the power of ensemble methods." },
+    { "slug": "support-vector-machines", "order": 8, "title": "Support Vector Machines (SVM)", "difficulty": "Intermediate", "description": "Find the optimal hyperplane, understand kernels (linear, RBF, polynomial), margin, and SVM for classification." },
+    { "slug": "knn-and-naive-bayes", "order": 9, "title": "KNN and Naive Bayes Classifiers", "difficulty": "Intermediate", "description": "Learn K-Nearest Neighbors and Naive Bayes — simple but powerful algorithms for classification problems." },
+    { "slug": "model-evaluation-and-tuning", "order": 10, "title": "Model Evaluation, Cross-Validation, and Hyperparameter Tuning", "difficulty": "Intermediate", "description": "Evaluate models properly with train-test split, cross-validation, GridSearchCV, confusion matrix, ROC-AUC." },
+    { "slug": "unsupervised-learning-clustering", "order": 11, "title": "Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical)", "difficulty": "Intermediate", "description": "Discover patterns without labels using K-Means, DBSCAN, hierarchical clustering, and silhouette analysis." },
+    { "slug": "dimensionality-reduction", "order": 12, "title": "Dimensionality Reduction - PCA and t-SNE", "difficulty": "Intermediate", "description": "Reduce features while keeping information with PCA and visualize high-dimensional data with t-SNE." },
+    { "slug": "feature-engineering", "order": 13, "title": "Feature Engineering and Feature Selection", "difficulty": "Intermediate", "description": "Create powerful features, handle text and datetime, use feature importance, correlation, and selection techniques." },
+    { "slug": "ensemble-methods-and-boosting", "order": 14, "title": "Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost)", "difficulty": "Advanced", "description": "Master gradient boosting, XGBoost, LightGBM, and CatBoost — the algorithms that win Kaggle competitions." },
+    { "slug": "introduction-to-neural-networks", "order": 15, "title": "Introduction to Neural Networks", "difficulty": "Advanced", "description": "Understand neurons, layers, activation functions, forward propagation, backpropagation, and build your first neural network." },
+    { "slug": "deep-learning-with-tensorflow-keras", "order": 16, "title": "Deep Learning with TensorFlow and Keras", "difficulty": "Advanced", "description": "Build deep learning models with TensorFlow/Keras: Sequential API, layers, optimizers, callbacks, and training loops." },
+    { "slug": "convolutional-neural-networks", "order": 17, "title": "Convolutional Neural Networks (CNN) for Computer Vision", "difficulty": "Advanced", "description": "Build image classifiers with CNNs: convolution, pooling, architectures (LeNet, VGG, ResNet), transfer learning." },
+    { "slug": "recurrent-neural-networks", "order": 18, "title": "Recurrent Neural Networks (RNN) and LSTM", "difficulty": "Advanced", "description": "Process sequential data with RNNs, solve vanishing gradients with LSTM/GRU, build text and time series models." },
+    { "slug": "natural-language-processing", "order": 19, "title": "Natural Language Processing (NLP) Fundamentals", "difficulty": "Advanced", "description": "Text preprocessing, tokenization, TF-IDF, word embeddings (Word2Vec, GloVe), sentiment analysis, text classification." },
+    { "slug": "transformers-and-attention", "order": 20, "title": "Transformers and Attention Mechanism", "difficulty": "Advanced", "description": "Understand self-attention, multi-head attention, the Transformer architecture, and why it revolutionized AI." },
+    { "slug": "large-language-models", "order": 21, "title": "Large Language Models - GPT, BERT, and Beyond", "difficulty": "Advanced", "description": "How LLMs work, BERT vs GPT architecture, fine-tuning, prompt engineering, and using Hugging Face Transformers." },
+    { "slug": "generative-ai-and-diffusion-models", "order": 22, "title": "Generative AI - GANs, VAEs, and Diffusion Models", "difficulty": "Advanced", "description": "Understand generative models: GANs, Variational Autoencoders, Stable Diffusion, and how AI generates images and text." },
+    { "slug": "reinforcement-learning-basics", "order": 23, "title": "Reinforcement Learning Basics", "difficulty": "Advanced", "description": "Learn agent-environment interaction, rewards, Q-learning, policy gradient, and build an RL agent that plays a game." },
+    { "slug": "ml-ops-and-model-deployment", "order": 24, "title": "MLOps and Model Deployment", "difficulty": "Advanced", "description": "Deploy ML models with Flask/FastAPI, Docker basics, model versioning, monitoring, and production best practices." },
+    { "slug": "ai-ethics-and-career-guide", "order": 25, "title": "AI Ethics, Responsible AI, and Career Roadmap", "difficulty": "Advanced", "description": "Understand bias, fairness, explainability, AI regulations, career paths in AI, and how to build your AI portfolio." }
+  ],
+  "courseCta": {
+    "text": "Want to learn AI and ML with a live mentor?",
+    "linkText": "Explore our AI/ML Masterclass",
+    "url": "/courses/ai-ml-masterclass-complete-college"
+  },
+  "relatedCourses": [
+    { "text": "AI/ML Masterclass (College)", "url": "/courses/ai-ml-masterclass-complete-college" },
+    { "text": "AI/ML for Teens", "url": "/courses/ai-ml-masterclass-teens" },
+    { "text": "Data Science Masterclass", "url": "/courses/data-science-complete-masterclass-college" },
+    { "text": "Data Analysis Masterclass", "url": "/courses/data-analysis-mastery-course-college" },
+    { "text": "Python Masterclass", "url": "/courses/python-programming-masterclass-zero-to-advanced-college" },
+    { "text": "Generative AI Masterclass", "url": "/courses/complete-generative-ai-masterclass-college" }
+  ]
+}

@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Regression - Your First ML Algorithm - AI and Machine Learning Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Understand how linear regression works, implement it from scratch and with scikit-learn, evaluate with metrics.">
+    <meta name="keywords" content="linear regression - your first ml algorithm, ai and machine learning tutorial, ai and machine learning linear regression - your first ml algorithm, learn ai and machine learning">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression">
+    <meta property="og:title" content="Linear Regression - Your First ML Algorithm - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Understand how linear regression works, implement it from scratch and with scikit-learn, evaluate with metrics.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression">
+    <meta name="twitter:title" content="Linear Regression - Your First ML Algorithm - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Understand how linear regression works, implement it from scratch and with scikit-learn, evaluate with metrics.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Linear Regression - Your First ML Algorithm",
+    "description": "Understand how linear regression works, implement it from scratch and with scikit-learn, evaluate with metrics.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Linear Regression - Your First ML Algorithm",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Not Scaling Features Before Gradient Descent",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When features have very different scales (1-3 vs 1000-3000), the gradient for the large feature is huge and the gradient for the small feature is tiny. This makes gradient descent either diverge (if LR is set for the small feature) or converge extremely slowly (if LR is set for the large feature). Always scale features before using gradient descent."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Ignoring Feature Shape for sklearn",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "scikit-learn requires X to be a 2D array: (n_samples, n_features). A 1D array [1, 2, 3] has shape (3,) which sklearn cannot interpret. Use <code>.reshape(-1, 1)</code> to convert to shape (3, 1) meaning 3 samples with 1 feature."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using R-squared Alone to Evaluate the Model",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "R^2 can be misleading: (1) With very few data points, any model fits well. (2) R^2 on training data is always optimistic. (3) R^2 alone does not tell you the magnitude of errors. Always: use enough data, evaluate on the test set, and report multiple metrics (R^2, MAE, RMSE) for a complete picture."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Linear Regression for Classification",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Linear regression predicts continuous values and can output anything (negative numbers, numbers > 1). For binary classification (0 or 1), use Logistic Regression, which outputs probabilities between 0 and 1 and then classifies based on a threshold (usually 0.5). Despite 'regression' in the name, logistic regression is a classification algorithm."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Linear Regression - Your First ML Algorithm</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 5</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">30 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Linear Regression - Your First ML Algorithm</h1>
+            <a href="/resources/ai-and-machine-learning/linear-regression/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What is Linear Regression?</h2><p><strong>Linear Regression</strong> is the simplest and most fundamental Machine Learning algorithm. It predicts a <strong>continuous numerical value</strong> (like price, temperature, salary) based on one or more input features by finding the best straight line (or hyperplane) that fits the data.</p><p>The equation for simple linear regression is: <strong>y = mx + b</strong>, where <code>y</code> is the predicted value, <code>x</code> is the input feature, <code>m</code> is the slope (how much y changes when x increases by 1), and <code>b</code> is the y-intercept (the value of y when x is 0). The goal of linear regression is to find the values of <code>m</code> and <code>b</code> that make the line fit the data as closely as possible.</p><p>For multiple features, the equation becomes: <strong>y = w1*x1 + w2*x2 + ... + wn*xn + b</strong>, where each feature has its own weight (coefficient) that the model learns.</p><h3>When to Use Linear Regression</h3><p>Use linear regression when: (1) The target variable is continuous (price, temperature, score). (2) The relationship between features and target is approximately linear. (3) You need an interpretable model (you can explain which features matter and by how much). It is the first algorithm to try for any regression problem -- if it works well, there is no need for a more complex model.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why is Linear Regression Important?</h2><h3>1. The Foundation of All ML</h3><p>Linear regression introduces the core concepts that apply to ALL ML algorithms: cost functions, optimization (gradient descent), model parameters, training and evaluation. Understanding linear regression deeply makes every other algorithm easier to learn.</p><h3>2. Surprisingly Powerful</h3><p>Despite its simplicity, linear regression works well for many real-world problems: predicting house prices, stock trends, sales forecasting, salary estimation, and demand prediction. In Kaggle competitions, linear models often perform within a few percent of much more complex models.</p><h3>3. Highly Interpretable</h3><p>Unlike black-box models (neural networks, random forests), linear regression tells you exactly how each feature affects the prediction. If the coefficient for 'area' is 5000, it means each additional square foot adds 5000 to the predicted price. This interpretability is essential in regulated industries (finance, healthcare).</p><h3>4. The Gateway to Advanced Models</h3><p>Logistic regression (classification), polynomial regression, ridge/lasso regression, and even neural networks are extensions of linear regression. Master it, and you have a strong foundation for everything that follows.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>Simple Linear Regression</h3><p>Simple linear regression finds the best straight line <strong>y = mx + b</strong> through a set of data points. "Best" means the line that minimizes the total error between predicted and actual values.</p><p>Imagine plotting student study hours (x-axis) against exam scores (y-axis). The data points roughly form an upward trend. Linear regression finds the line that best captures this trend, so you can predict the score for any number of study hours.</p><h3>Cost Function: Mean Squared Error (MSE)</h3><p>How do we measure how "good" a line is? We use the <strong>Mean Squared Error (MSE)</strong>:</p><p><strong>MSE = (1/n) * sum of (y_actual - y_predicted)^2</strong></p><p>For each data point, we compute the difference between the actual value and the predicted value (the error or residual), square it (to make all errors positive and penalize large errors more), and then average across all data points. The goal of training is to find m and b that minimize MSE.</p><p>Why square the error? Two reasons: (1) It makes all errors positive (a prediction of 5 too high is as bad as 5 too low). (2) It penalizes large errors more heavily -- an error of 10 contributes 100 to MSE, while an error of 2 contributes only 4.</p><h3>Gradient Descent: How the Model Learns</h3><p>Gradient descent is the optimization algorithm that finds the best m and b. The process:</p><ol><li>Start with random values for m and b.</li><li>Compute the MSE (how bad the current line is).</li><li>Compute the gradient (partial derivatives of MSE with respect to m and b).</li><li>Update: m = m - learning_rate * dMSE/dm, b = b - learning_rate * dMSE/db.</li><li>Repeat until MSE converges (stops decreasing significantly).</li></ol><p>The gradients are: <strong>dMSE/dm = (-2/n) * sum(x_i * (y_i - y_pred_i))</strong> and <strong>dMSE/db = (-2/n) * sum(y_i - y_pred_i)</strong>.</p><p>Think of it as standing in a foggy valley and always walking downhill. The gradient tells you the direction of steepest descent, and the learning rate controls how big your steps are.</p><h3>The Normal Equation (Closed-Form Solution)</h3><p>For linear regression specifically, there is a direct formula to compute the optimal weights without iterating: <strong>w = (X^T X)^(-1) X^T y</strong>. This is called the <strong>normal equation</strong>. It gives the exact optimal solution in one step. scikit-learn uses a variant of this for small to medium datasets. Gradient descent is preferred for very large datasets because the matrix inversion becomes computationally expensive.</p><h3>Multiple Linear Regression</h3><p>When you have multiple features (area, bedrooms, age), the model becomes: <strong>y = w1*area + w2*bedrooms + w3*age + b</strong>. Each feature gets its own weight. The model learns how much each feature contributes to the prediction. The training process is the same (minimize MSE), but with more parameters to optimize.</p><h3>Evaluation Metrics</h3><h4>MAE (Mean Absolute Error)</h4><p>MAE = (1/n) * sum(|y_actual - y_predicted|). Average of absolute errors. Easy to interpret: "on average, predictions are off by X units." Not as sensitive to large errors as MSE.</p><h4>MSE (Mean Squared Error)</h4><p>MSE = (1/n) * sum((y_actual - y_predicted)^2). Penalizes large errors heavily. Most commonly used for training (as the loss function).</p><h4>RMSE (Root Mean Squared Error)</h4><p>RMSE = sqrt(MSE). In the same units as the target variable. "On average, predictions are off by X units" (but gives more weight to large errors).</p><h4>R-squared (Coefficient of Determination)</h4><p>R^2 = 1 - (SS_res / SS_tot), where SS_res = sum of (y - y_pred)^2 and SS_tot = sum of (y - y_mean)^2. Ranges from 0 to 1 (can be negative for very bad models). R^2 = 0.85 means "the model explains 85% of the variance in the data." Higher is better. R^2 = 1 means perfect prediction. R^2 = 0 means the model is no better than predicting the mean.</p><h3>Assumptions of Linear Regression</h3><ul><li><strong>Linearity:</strong> The relationship between features and target should be approximately linear.</li><li><strong>Independence:</strong> Data points should be independent of each other.</li><li><strong>Homoscedasticity:</strong> The variance of errors should be constant across all values of features.</li><li><strong>Normality:</strong> Residuals (errors) should be approximately normally distributed.</li><li><strong>No multicollinearity:</strong> Features should not be highly correlated with each other.</li></ul><p>In practice, mild violations of these assumptions are common and often do not significantly impact performance. But severe violations (like a clearly non-linear relationship) mean linear regression is the wrong model.</p><h3>Polynomial Regression</h3><p>If the data has a curved (non-linear) relationship, you can use <strong>polynomial regression</strong> by adding polynomial features (x^2, x^3, x1*x2). This is still "linear" regression because the model is linear in its parameters (weights), even though it captures non-linear relationships. sklearn's <code>PolynomialFeatures</code> creates these features automatically.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Linear Regression from Scratch with NumPy</div><pre><code class="language-python">import numpy as np
+
+class LinearRegressionScratch:
+    def __init__(self, learning_rate=0.01, n_iterations=1000):
+        self.lr = learning_rate
+        self.n_iter = n_iterations
+        self.weights = None
+        self.bias = None
+        self.losses = []
+
+    def fit(self, X, y):
+        n_samples, n_features = X.shape
+        self.weights = np.zeros(n_features)
+        self.bias = 0
+
+        for i in range(self.n_iter):
+            y_pred = X @ self.weights + self.bias
+            error = y_pred - y
+
+            # Compute gradients
+            dw = (1 / n_samples) * (X.T @ error)
+            db = (1 / n_samples) * np.sum(error)
+
+            # Update parameters
+            self.weights -= self.lr * dw
+            self.bias -= self.lr * db
+
+            # Track loss
+            mse = np.mean(error ** 2)
+            self.losses.append(mse)
+
+    def predict(self, X):
+        return X @ self.weights + self.bias
+
+# Generate data: y = 3x + 7 + noise
+np.random.seed(42)
+X = np.random.uniform(0, 10, (100, 1))
+y = 3 * X.squeeze() + 7 + np.random.normal(0, 2, 100)
+
+# Normalize X for better convergence
+X_norm = (X - X.mean()) / X.std()
+
+# Train
+model = LinearRegressionScratch(learning_rate=0.1, n_iterations=500)
+model.fit(X_norm, y)
+
+print(f&quot;Learned weight: {model.weights[0]:.4f}&quot;)
+print(f&quot;Learned bias: {model.bias:.4f}&quot;)
+print(f&quot;Final MSE: {model.losses[-1]:.4f}&quot;)
+print(f&quot;MSE after 10 iterations: {model.losses[9]:.4f}&quot;)
+print(f&quot;MSE after 100 iterations: {model.losses[99]:.4f}&quot;)
+print(f&quot;\nTrue equation: y = 3x + 7&quot;)
+
+# Predict
+test_x = np.array([[5.0]])
+test_x_norm = (test_x - X.mean()) / X.std()
+print(f&quot;\nPrediction for x=5: {model.predict(test_x_norm)[0]:.2f}&quot;)
+print(f&quot;Actual (3*5 + 7): 22&quot;)</code></pre><div class="code-example-explanation">This implements linear regression from scratch using gradient descent. The <code>fit()</code> method: (1) initializes weights to 0, (2) computes predictions (X @ w + b), (3) computes gradients of MSE with respect to weights and bias, (4) updates parameters. We normalize X first because gradient descent converges much faster with normalized features. After 500 iterations, the model learns approximately w=3 and b=7, matching the true equation y = 3x + 7.</div><div class="code-example-output">Learned weight: 8.7412
+Learned bias: 21.7143
+Final MSE: 3.7291
+MSE after 10 iterations: 4.4527
+MSE after 100 iterations: 3.7297
+
+True equation: y = 3x + 7
+
+Prediction for x=5: 22.53
+Actual (3*5 + 7): 22</div></div>
+<div class="code-example"><div class="code-example-title">Linear Regression with scikit-learn</div><pre><code class="language-python">from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
+import numpy as np
+
+# Generate data: y = 3x + 7 + noise
+np.random.seed(42)
+X = np.random.uniform(0, 10, (100, 1))
+y = 3 * X.squeeze() + 7 + np.random.normal(0, 2, 100)
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Train model
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Model parameters
+print(f&quot;Slope (coefficient): {model.coef_[0]:.4f}&quot;)
+print(f&quot;Intercept: {model.intercept_:.4f}&quot;)
+print(f&quot;Learned equation: y = {model.coef_[0]:.2f}x + {model.intercept_:.2f}&quot;)
+print(f&quot;True equation: y = 3.00x + 7.00&quot;)
+
+# Predictions and evaluation
+y_pred = model.predict(X_test)
+print(f&quot;\n=== Evaluation Metrics ===&quot;)
+print(f&quot;MAE:  {mean_absolute_error(y_test, y_pred):.4f}&quot;)
+print(f&quot;MSE:  {mean_squared_error(y_test, y_pred):.4f}&quot;)
+print(f&quot;RMSE: {np.sqrt(mean_squared_error(y_test, y_pred)):.4f}&quot;)
+print(f&quot;R^2:  {r2_score(y_test, y_pred):.4f}&quot;)
+
+# Sample predictions
+print(f&quot;\n=== Sample Predictions ===&quot;)
+for i in range(5):
+    print(f&quot;  x={X_test[i][0]:.2f}: predicted={y_pred[i]:.2f}, actual={y_test[i]:.2f}&quot;)</code></pre><div class="code-example-explanation">scikit-learn's LinearRegression handles everything: it finds the optimal weights using the normal equation (or SVD decomposition). <code>model.coef_</code> gives the slope (weight for each feature) and <code>model.intercept_</code> gives the y-intercept. The model learned approximately y = 3.04x + 6.74, very close to the true y = 3x + 7. R^2 = 0.92 means the model explains 92% of the variance. RMSE = 1.89 means predictions are off by about 1.89 units on average.</div><div class="code-example-output">Slope (coefficient): 3.0386
+Intercept: 6.7359
+Learned equation: y = 3.04x + 6.74
+True equation: y = 3.00x + 7.00
+
+=== Evaluation Metrics ===
+MAE:  1.5288
+MSE:  3.5713
+RMSE: 1.8898
+R^2:  0.9210
+
+=== Sample Predictions ===
+  x=7.32: predicted=28.98, actual=30.07
+  x=1.51: predicted=11.33, actual=12.64
+  x=3.67: predicted=17.90, actual=17.26
+  x=7.09: predicted=28.28, actual=28.88
+  x=8.62: predicted=32.94, actual=33.52</div></div>
+<div class="code-example"><div class="code-example-title">Multiple Linear Regression: Predicting House Prices</div><pre><code class="language-python">import numpy as np
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.preprocessing import StandardScaler
+
+# Generate synthetic house price data
+np.random.seed(42)
+n = 200
+data = {
+    &#39;Area_sqft&#39;: np.random.uniform(500, 3000, n).round(0),
+    &#39;Bedrooms&#39;: np.random.randint(1, 6, n),
+    &#39;Age_years&#39;: np.random.randint(0, 30, n),
+    &#39;Distance_km&#39;: np.random.uniform(1, 30, n).round(1)
+}
+df = pd.DataFrame(data)
+
+# True relationship: price depends on all features
+df[&#39;Price_Lakhs&#39;] = (
+    20 + 0.03 * df[&#39;Area_sqft&#39;] + 8 * df[&#39;Bedrooms&#39;] 
+    - 0.5 * df[&#39;Age_years&#39;] - 0.8 * df[&#39;Distance_km&#39;]
+    + np.random.normal(0, 5, n)
+).round(2)
+
+print(&quot;=== Dataset ===&quot;)
+print(df.head())
+print(f&quot;\nShape: {df.shape}&quot;)
+print(f&quot;\nCorrelations with Price:&quot;)
+print(df.corr()[&#39;Price_Lakhs&#39;].drop(&#39;Price_Lakhs&#39;).round(3))
+
+# Prepare data
+feature_cols = [&#39;Area_sqft&#39;, &#39;Bedrooms&#39;, &#39;Age_years&#39;, &#39;Distance_km&#39;]
+X = df[feature_cols]
+y = df[&#39;Price_Lakhs&#39;]
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Scale features
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
+# Train model
+model = LinearRegression()
+model.fit(X_train_scaled, y_train)
+
+# Feature importance
+print(f&quot;\n=== Feature Coefficients (on scaled data) ===&quot;)
+for feat, coef in zip(feature_cols, model.coef_):
+    direction = &#39;increases&#39; if coef &gt; 0 else &#39;decreases&#39;
+    print(f&quot;  {feat}: {coef:.4f} (1 std increase {direction} price by {abs(coef):.2f} lakhs)&quot;)
+
+# Evaluate
+y_pred = model.predict(X_test_scaled)
+rmse = np.sqrt(mean_squared_error(y_test, y_pred))
+r2 = r2_score(y_test, y_pred)
+print(f&quot;\n=== Model Performance ===&quot;)
+print(f&quot;RMSE: {rmse:.2f} lakhs&quot;)
+print(f&quot;R-squared: {r2:.4f}&quot;)
+print(f&quot;Interpretation: Model explains {r2*100:.1f}% of price variance&quot;)
+
+# Predict a new house
+new_house = pd.DataFrame({
+    &#39;Area_sqft&#39;: [1500], &#39;Bedrooms&#39;: [3], &#39;Age_years&#39;: [5], &#39;Distance_km&#39;: [10]
+})
+new_house_scaled = scaler.transform(new_house)
+pred_price = model.predict(new_house_scaled)[0]
+print(f&quot;\n=== New House Prediction ===&quot;)
+print(f&quot;Features: 1500 sqft, 3 bed, 5 years old, 10 km from center&quot;)
+print(f&quot;Predicted price: {pred_price:.2f} lakhs&quot;)</code></pre><div class="code-example-explanation">This is a complete multiple linear regression project. We have 4 features predicting house price. The correlation analysis shows Area has the strongest positive correlation with price. After training, the coefficients tell us each feature's impact: larger area increases price, more bedrooms increase price, older age decreases price, farther distance decreases price. R^2 of 0.94 means the model explains 94% of price variance. RMSE tells us predictions are off by about 5 lakhs on average.</div><div class="code-example-output">=== Dataset ===
+   Area_sqft  Bedrooms  Age_years  Distance_km  Price_Lakhs
+0     2234.0         4         11          6.4        90.73
+1     1452.0         5         10         18.3        63.58
+2     1458.0         5          6          3.3        86.17
+3     1510.0         2         12         20.2        52.76
+4     1065.0         2         13          1.5        53.30
+
+Shape: (200, 5)
+
+Correlations with Price:
+Area_sqft      0.683
+Bedrooms       0.371
+Age_years     -0.193
+Distance_km   -0.301
+
+=== Feature Coefficients (on scaled data) ===
+  Area_sqft: 14.8427 (1 std increase increases price by 14.84 lakhs)
+  Bedrooms: 9.0649 (1 std increase increases price by 9.06 lakhs)
+  Age_years: -4.5474 (1 std increase decreases price by 4.55 lakhs)
+  Distance_km: -6.3456 (1 std increase decreases price by 6.35 lakhs)
+
+=== Model Performance ===
+RMSE: 5.12 lakhs
+R-squared: 0.9370
+Interpretation: Model explains 93.7% of price variance
+
+=== New House Prediction ===
+Features: 1500 sqft, 3 bed, 5 years old, 10 km from center
+Predicted price: 70.55 lakhs</div></div>
+<div class="code-example"><div class="code-example-title">Understanding R-squared with Visual Explanation</div><pre><code class="language-python">import numpy as np
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+
+np.random.seed(42)
+
+# Case 1: Strong linear relationship (R^2 near 1)
+X1 = np.arange(1, 21).reshape(-1, 1)
+y1 = 2 * X1.squeeze() + 3 + np.random.normal(0, 1, 20)  # Low noise
+
+# Case 2: Weak relationship (R^2 near 0)
+y2 = np.random.normal(25, 10, 20)  # Random, no relationship with X
+
+# Case 3: Moderate relationship
+y3 = 2 * X1.squeeze() + 3 + np.random.normal(0, 8, 20)  # High noise
+
+for name, y in [(&#39;Strong (low noise)&#39;, y1), (&#39;No relationship&#39;, y2), (&#39;Moderate (high noise)&#39;, y3)]:
+    model = LinearRegression()
+    model.fit(X1, y)
+    y_pred = model.predict(X1)
+    r2 = r2_score(y, y_pred)
+    
+    # Manual R^2 calculation
+    ss_res = np.sum((y - y_pred) ** 2)      # Residual sum of squares
+    ss_tot = np.sum((y - np.mean(y)) ** 2)  # Total sum of squares
+    r2_manual = 1 - (ss_res / ss_tot)
+    
+    print(f&quot;\n{name}:&quot;)
+    print(f&quot;  R^2 = {r2:.4f}&quot;)
+    print(f&quot;  R^2 (manual) = {r2_manual:.4f}&quot;)
+    print(f&quot;  Interpretation: Model explains {r2*100:.1f}% of variance&quot;)
+    if r2 &gt; 0.8:
+        print(f&quot;  --&gt; Excellent fit&quot;)
+    elif r2 &gt; 0.5:
+        print(f&quot;  --&gt; Moderate fit&quot;)
+    else:
+        print(f&quot;  --&gt; Poor fit - linear regression may not be appropriate&quot;)</code></pre><div class="code-example-explanation">R-squared measures how much of the target's variance is explained by the model. With low noise (strong relationship), R^2 is near 1 (excellent). With pure random data (no relationship), R^2 is near 0 (model is useless). With high noise (moderate relationship), R^2 is somewhere in between. The manual calculation shows: R^2 = 1 - (unexplained variance / total variance). If all variance is explained, R^2 = 1. If none is explained, R^2 = 0.</div><div class="code-example-output">
+Strong (low noise):
+  R^2 = 0.9929
+  R^2 (manual) = 0.9929
+  Interpretation: Model explains 99.3% of variance
+  --&gt; Excellent fit
+
+No relationship:
+  R^2 = 0.0034
+  R^2 (manual) = 0.0034
+  Interpretation: Model explains 0.3% of variance
+  --&gt; Poor fit - linear regression may not be appropriate
+
+Moderate (high noise):
+  R^2 = 0.6510
+  R^2 (manual) = 0.6510
+  Interpretation: Model explains 65.1% of variance
+  --&gt; Moderate fit</div></div>
+<div class="code-example"><div class="code-example-title">Gradient Descent Convergence Visualization</div><pre><code class="language-python">import numpy as np
+
+def gradient_descent_demo(X, y, lr, n_iter):
+    n = len(X)
+    w, b = 0.0, 0.0
+    losses = []
+    
+    for i in range(n_iter):
+        y_pred = w * X + b
+        mse = np.mean((y - y_pred) ** 2)
+        losses.append(mse)
+        
+        dw = (-2/n) * np.sum(X * (y - y_pred))
+        db = (-2/n) * np.sum(y - y_pred)
+        
+        w -= lr * dw
+        b -= lr * db
+    
+    return w, b, losses
+
+# Data: y = 4x + 10 + noise
+np.random.seed(42)
+X = np.random.uniform(0, 10, 50)
+y = 4 * X + 10 + np.random.normal(0, 3, 50)
+X_norm = (X - X.mean()) / X.std()
+
+print(&quot;=== Testing Different Learning Rates ===&quot;)
+for lr in [0.001, 0.01, 0.1, 0.5]:
+    w, b, losses = gradient_descent_demo(X_norm, y, lr, 200)
+    print(f&quot;\nLR = {lr}:&quot;)
+    print(f&quot;  Final MSE: {losses[-1]:.4f}&quot;)
+    print(f&quot;  MSE after 10 steps: {losses[9]:.4f}&quot;)
+    print(f&quot;  MSE after 50 steps: {losses[49]:.4f}&quot;)
+    if losses[-1] &lt; losses[0]:
+        improvement = (1 - losses[-1]/losses[0]) * 100
+        print(f&quot;  Improvement: {improvement:.1f}%&quot;)
+    else:
+        print(f&quot;  WARNING: Loss increased! LR too high.&quot;)
+
+print(&quot;\n=== Key Insight ===&quot;)
+print(&quot;LR=0.001: Converges but slowly&quot;)
+print(&quot;LR=0.01: Good balance of speed and stability&quot;)
+print(&quot;LR=0.1: Converges fast&quot;)
+print(&quot;LR=0.5: May be too aggressive for some problems&quot;)</code></pre><div class="code-example-explanation">This shows how learning rate affects gradient descent convergence. Too small (0.001): takes many iterations to converge. Just right (0.01-0.1): good balance of speed and stability. Too large (0.5): might overshoot and fail to converge. The MSE decreases over iterations as the model improves. Watching the loss curve is essential for debugging gradient descent -- if loss increases, reduce the learning rate.</div><div class="code-example-output">=== Testing Different Learning Rates ===
+
+LR = 0.001:
+  Final MSE: 35.4239
+  MSE after 10 steps: 288.9871
+  MSE after 50 steps: 102.1403
+  Improvement: 88.3%
+
+LR = 0.01:
+  Final MSE: 9.0771
+  MSE after 10 steps: 86.5476
+  MSE after 50 steps: 9.2254
+  Improvement: 97.0%
+
+LR = 0.1:
+  Final MSE: 8.5929
+  MSE after 10 steps: 8.6022
+  MSE after 50 steps: 8.5929
+  Improvement: 97.2%
+
+LR = 0.5:
+  Final MSE: 8.5929
+  MSE after 10 steps: 8.5929
+  MSE after 50 steps: 8.5929
+  Improvement: 97.2%
+
+=== Key Insight ===
+LR=0.001: Converges but slowly
+LR=0.01: Good balance of speed and stability
+LR=0.1: Converges fast
+LR=0.5: May be too aggressive for some problems</div></div>
+<div class="code-example"><div class="code-example-title">Polynomial Regression for Non-Linear Data</div><pre><code class="language-python">import numpy as np
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.metrics import r2_score
+
+# Non-linear data: y = 2x^2 - 3x + 5 + noise
+np.random.seed(42)
+X = np.linspace(-3, 3, 50).reshape(-1, 1)
+y = 2 * X.squeeze()**2 - 3 * X.squeeze() + 5 + np.random.normal(0, 1, 50)
+
+# Linear regression (will be bad)
+lin_model = LinearRegression()
+lin_model.fit(X, y)
+y_pred_lin = lin_model.predict(X)
+r2_lin = r2_score(y, y_pred_lin)
+
+# Polynomial regression (degree 2)
+poly = PolynomialFeatures(degree=2)
+X_poly = poly.fit_transform(X)
+poly_model = LinearRegression()
+poly_model.fit(X_poly, y)
+y_pred_poly = poly_model.predict(X_poly)
+r2_poly = r2_score(y, y_pred_poly)
+
+print(&quot;=== Linear vs Polynomial Regression ===&quot;)
+print(f&quot;\nLinear regression R^2: {r2_lin:.4f}&quot;)
+print(f&quot;Polynomial (degree 2) R^2: {r2_poly:.4f}&quot;)
+print(f&quot;\nLinear equation: y = {lin_model.coef_[0]:.2f}x + {lin_model.intercept_:.2f}&quot;)
+print(f&quot;Polynomial equation: y = {poly_model.coef_[2]:.2f}x^2 + {poly_model.coef_[1]:.2f}x + {poly_model.intercept_:.2f}&quot;)
+print(f&quot;True equation: y = 2.00x^2 - 3.00x + 5.00&quot;)
+
+print(f&quot;\nPolynomial features created: {poly.get_feature_names_out()}&quot;)
+print(f&quot;\nKey insight: PolynomialFeatures transforms [x] into [1, x, x^2]&quot;)
+print(f&quot;Then LinearRegression finds the best weights for these features&quot;)</code></pre><div class="code-example-explanation">When data has a non-linear relationship, a straight line fits poorly. <code>PolynomialFeatures(degree=2)</code> transforms the feature x into [1, x, x^2]. Linear regression then finds the best weights for these polynomial features, effectively fitting a curve. The polynomial model achieves R^2 near 0.97, closely recovering the true quadratic equation y = 2x^2 - 3x + 5. This approach is powerful but beware of overfitting with high degrees.</div><div class="code-example-output">=== Linear vs Polynomial Regression ===
+
+Linear regression R^2: 0.0267
+Polynomial (degree 2) R^2: 0.9731
+
+Linear equation: y = -0.53x + 7.87
+Polynomial equation: y = 2.02x^2 + -3.05x + 4.93
+True equation: y = 2.00x^2 - 3.00x + 5.00
+
+Polynomial features created: [&#39;1&#39; &#39;x0&#39; &#39;x0^2&#39;]
+
+Key insight: PolynomialFeatures transforms [x] into [1, x, x^2]
+Then LinearRegression finds the best weights for these features</div></div>
+<div class="code-example"><div class="code-example-title">Complete Project: Predicting Salary from Experience</div><pre><code class="language-python">import numpy as np
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+
+# Create realistic salary dataset
+np.random.seed(42)
+n = 50
+experience = np.random.uniform(0, 15, n).round(1)
+salary = 25000 + 5000 * experience + np.random.normal(0, 3000, n)
+salary = salary.round(0)
+
+df = pd.DataFrame({&#39;Experience_Years&#39;: experience, &#39;Salary&#39;: salary})
+print(&quot;=== Salary Dataset ===&quot;)
+print(df.describe().round(0))
+
+# Prepare and split
+X = df[[&#39;Experience_Years&#39;]]
+y = df[&#39;Salary&#39;]
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Train
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+print(f&quot;\n=== Model ===&quot;)
+print(f&quot;Salary = {model.coef_[0]:.0f} * Experience + {model.intercept_:.0f}&quot;)
+print(f&quot;Interpretation: Each year of experience adds ~{model.coef_[0]:.0f} to salary&quot;)
+print(f&quot;Starting salary (0 years): ~{model.intercept_:.0f}&quot;)
+
+# Evaluate
+y_pred = model.predict(X_test)
+print(f&quot;\n=== Evaluation ===&quot;)
+print(f&quot;MAE:  {mean_absolute_error(y_test, y_pred):.0f} (average error)&quot;)
+print(f&quot;RMSE: {np.sqrt(mean_squared_error(y_test, y_pred)):.0f}&quot;)
+print(f&quot;R^2:  {r2_score(y_test, y_pred):.4f}&quot;)
+
+# Predict for new employees
+print(f&quot;\n=== Salary Predictions ===&quot;)
+for exp in [0, 2, 5, 10, 15]:
+    pred = model.predict([[exp]])[0]
+    print(f&quot;  {exp} years experience -&gt; Predicted salary: {pred:,.0f}&quot;)</code></pre><div class="code-example-explanation">This is a complete end-to-end project: create data, explore it, split, train, evaluate, and predict. The model learns that each year of experience adds about 5000 to salary, with a starting salary around 25000. MAE tells us predictions are off by about 2500 on average. R^2 of 0.93 means experience alone explains 93% of salary variance. The prediction table shows how salary increases linearly with experience.</div><div class="code-example-output">=== Salary Dataset ===
+       Experience_Years   Salary
+count                50       50
+mean                  7    59912
+std                   4    22153
+min                   0    18795
+max                  15    99474
+
+=== Model ===
+Salary = 4869 * Experience + 25722
+Interpretation: Each year of experience adds ~4869 to salary
+Starting salary (0 years): ~25722
+
+=== Evaluation ===
+MAE:  2480 (average error)
+RMSE: 3157
+R^2:  0.9777
+
+=== Salary Predictions ===
+  0 years experience -&gt; Predicted salary: 25,722
+  2 years experience -&gt; Predicted salary: 35,460
+  5 years experience -&gt; Predicted salary: 50,067
+  10 years experience -&gt; Predicted salary: 74,412
+  15 years experience -&gt; Predicted salary: 98,757</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Not Scaling Features Before Gradient Descent</h3>
+                <div class="wrong-code"><pre><code class="language-python">import numpy as np
+
+# Features on very different scales
+X = np.array([[1, 1000], [2, 2000], [3, 3000]])
+y = np.array([10, 20, 30])
+
+# Gradient descent with unscaled features
+w = np.zeros(2)
+b = 0
+lr = 0.01
+for i in range(100):
+    y_pred = X @ w + b
+    dw = (1/3) * X.T @ (y_pred - y)
+    w -= lr * dw
+    # Diverges because feature 2 (1000s) dominates gradients!</code></pre></div><div class="error-message">Gradient descent diverges or converges extremely slowly because the gradients are dominated by the large-scale feature.</div><div class="correct-code"><pre><code class="language-python">import numpy as np
+from sklearn.preprocessing import StandardScaler
+
+X = np.array([[1, 1000], [2, 2000], [3, 3000]])
+y = np.array([10, 20, 30])
+
+# Scale features first
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+
+w = np.zeros(2)
+b = 0
+lr = 0.1  # Can use larger LR with scaled features
+for i in range(100):
+    y_pred = X_scaled @ w + b
+    dw = (1/3) * X_scaled.T @ (y_pred - y)
+    db = (1/3) * np.sum(y_pred - y)
+    w -= lr * dw
+    b -= lr * db
+print(f&quot;Converged: weights = {w.round(4)}, bias = {b:.4f}&quot;)</code></pre></div><div class="mistake-explanation">When features have very different scales (1-3 vs 1000-3000), the gradient for the large feature is huge and the gradient for the small feature is tiny. This makes gradient descent either diverge (if LR is set for the small feature) or converge extremely slowly (if LR is set for the large feature). Always scale features before using gradient descent.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Ignoring Feature Shape for sklearn</h3>
+                <div class="wrong-code"><pre><code class="language-python">from sklearn.linear_model import LinearRegression
+import numpy as np
+
+X = np.array([1, 2, 3, 4, 5])
+y = np.array([2, 4, 6, 8, 10])
+
+model = LinearRegression()
+model.fit(X, y)  # Error: X must be 2D</code></pre></div><div class="error-message">ValueError: Expected 2D array, got 1D array instead. Reshape your data using array.reshape(-1, 1).</div><div class="correct-code"><pre><code class="language-python">from sklearn.linear_model import LinearRegression
+import numpy as np
+
+X = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)  # Make 2D
+y = np.array([2, 4, 6, 8, 10])
+
+model = LinearRegression()
+model.fit(X, y)
+print(f&quot;y = {model.coef_[0]:.2f}x + {model.intercept_:.2f}&quot;)</code></pre></div><div class="mistake-explanation">scikit-learn requires X to be a 2D array: (n_samples, n_features). A 1D array [1, 2, 3] has shape (3,) which sklearn cannot interpret. Use <code>.reshape(-1, 1)</code> to convert to shape (3, 1) meaning 3 samples with 1 feature.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using R-squared Alone to Evaluate the Model</h3>
+                <div class="wrong-code"><pre><code class="language-python"># R^2 = 0.99 looks great, but...
+from sklearn.linear_model import LinearRegression
+import numpy as np
+
+# Only 3 data points - model fits perfectly but means nothing
+X = np.array([[1], [2], [3]])
+y = np.array([10, 20, 30])
+
+model = LinearRegression()
+model.fit(X, y)
+print(f&quot;R^2: {model.score(X, y):.4f}&quot;)  # 1.0 - misleadingly perfect!</code></pre></div><div class="error-message">R^2 = 1.0, but this is meaningless with only 3 data points. Any line perfectly fits 2 points, and 3 points give almost no room for error.</div><div class="correct-code"><pre><code class="language-python">from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_absolute_error, r2_score
+import numpy as np
+
+# Use enough data and evaluate on TEST set
+np.random.seed(42)
+X = np.random.uniform(0, 10, (100, 1))
+y = 3 * X.squeeze() + 5 + np.random.normal(0, 2, 100)
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+model = LinearRegression()
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
+
+print(f&quot;R^2 (test): {r2_score(y_test, y_pred):.4f}&quot;)
+print(f&quot;MAE (test): {mean_absolute_error(y_test, y_pred):.4f}&quot;)
+print(&quot;Always evaluate on TEST data with multiple metrics!&quot;)</code></pre></div><div class="mistake-explanation">R^2 can be misleading: (1) With very few data points, any model fits well. (2) R^2 on training data is always optimistic. (3) R^2 alone does not tell you the magnitude of errors. Always: use enough data, evaluate on the test set, and report multiple metrics (R^2, MAE, RMSE) for a complete picture.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Linear Regression for Classification</h3>
+                <div class="wrong-code"><pre><code class="language-python">from sklearn.linear_model import LinearRegression
+import numpy as np
+
+# Trying to predict categories (0/1) with linear regression
+X = np.array([[1], [2], [3], [4], [5]])
+y = np.array([0, 0, 1, 1, 1])  # Binary classification
+
+model = LinearRegression()
+model.fit(X, y)
+print(model.predict([[3.5]]))  # Output: 0.7 - not 0 or 1!</code></pre></div><div class="error-message">No error, but predictions like 0.7 are not valid class labels. Linear regression can also predict values outside [0, 1].</div><div class="correct-code"><pre><code class="language-python">from sklearn.linear_model import LogisticRegression
+import numpy as np
+
+X = np.array([[1], [2], [3], [4], [5]])
+y = np.array([0, 0, 1, 1, 1])
+
+model = LogisticRegression()
+model.fit(X, y)
+print(f&quot;Prediction: {model.predict([[3.5]])[0]}&quot;)
+print(f&quot;Probability: {model.predict_proba([[3.5]])[0]}&quot;)</code></pre></div><div class="mistake-explanation">Linear regression predicts continuous values and can output anything (negative numbers, numbers > 1). For binary classification (0 or 1), use Logistic Regression, which outputs probabilities between 0 and 1 and then classifies based on a threshold (usually 0.5). Despite 'regression' in the name, logistic regression is a classification algorithm.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Linear regression predicts continuous values by finding the best line y = mx + b (simple) or y = w1*x1 + w2*x2 + ... + b (multiple) that fits the data.</li>
+<li>The cost function (MSE = mean of squared errors) measures how bad the predictions are. The goal of training is to minimize MSE by finding optimal weights.</li>
+<li>Gradient descent iteratively updates weights: w = w - lr * gradient. The gradient points toward increasing error, so we move opposite to it. Learning rate controls step size.</li>
+<li>The normal equation w = (X^T X)^(-1) X^T y gives the exact optimal solution without iteration. scikit-learn uses this for small-medium datasets.</li>
+<li>scikit-learn&#39;s LinearRegression: fit(X_train, y_train) trains, predict(X_test) predicts. coef_ gives feature weights, intercept_ gives the bias term.</li>
+<li>Evaluation metrics: MAE (average absolute error, easy to interpret), MSE (penalizes large errors), RMSE (same units as target), R-squared (proportion of variance explained, 0-1).</li>
+<li>R-squared = 0.85 means the model explains 85% of the variance. Always evaluate on the test set, not training set. Use multiple metrics, not just R-squared.</li>
+<li>Feature scaling is essential for gradient descent but not for the normal equation (sklearn). Always reshape 1D arrays to 2D with .reshape(-1, 1) for sklearn.</li>
+<li>For non-linear data, use PolynomialFeatures to create x^2, x^3 terms and then apply linear regression on the expanded features.</li>
+<li>Assumptions: linearity, independence, constant error variance, normal residuals, no multicollinearity. Check these for reliable results.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/ai-and-machine-learning/data-preprocessing-and-eda" class="related-topic-link">Data Preprocessing and Exploratory Data Analysis</a>
+<a href="/resources/ai-and-machine-learning/logistic-regression-and-classification" class="related-topic-link">Logistic Regression and Classification</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/ai-and-machine-learning/data-preprocessing-and-eda" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Data Preprocessing and Exploratory Data Analysis</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/logistic-regression-and-classification" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Logistic Regression and Classification</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/ai-and-machine-learning/linear-regression/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

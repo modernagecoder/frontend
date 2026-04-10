@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Linear Regression - Your First ML Algorithm | AI and Machine Learning | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="58+ practice questions on Linear Regression - Your First ML Algorithm in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="linear regression - your first ml algorithm practice, ai and machine learning questions, ai and machine learning practice problems, linear regression - your first ml algorithm exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression/practice">
+    <meta property="og:title" content="Practice Questions - Linear Regression - Your First ML Algorithm | AI and Machine Learning | Modern Age Coders">
+    <meta property="og:description" content="58+ practice questions on Linear Regression - Your First ML Algorithm in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression/practice">
+    <meta name="twitter:title" content="Practice Questions - Linear Regression - Your First ML Algorithm | AI and Machine Learning | Modern Age Coders">
+    <meta name="twitter:description" content="58+ practice questions on Linear Regression - Your First ML Algorithm in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Linear Regression - Your First ML Algorithm",
+    "description": "58+ practice questions on Linear Regression - Your First ML Algorithm in AI and Machine Learning.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Linear Regression - Your First ML Algorithm"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Linear Regression - Your First ML Algorithm",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/linear-regression/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning/linear-regression">Linear Regression - Your First ML Algorithm</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 5</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">58 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Linear Regression - Your First ML Algorithm</h1>
+            <a href="/resources/ai-and-machine-learning/linear-regression" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write Python code to train a simple linear regression model using scikit-learn on the data: X = [1, 2, 3, 4, 5], y = [3, 5, 7, 9, 11]. Print the slope and intercept.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Use LinearRegression().fit(). Remember to reshape X.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><pre><code>from sklearn.linear_model import LinearRegression
+import numpy as np
+X = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)
+y = np.array([3, 5, 7, 9, 11])
+model = LinearRegression()
+model.fit(X, y)
+print(f'Slope: {model.coef_[0]:.2f}')
+print(f'Intercept: {model.intercept_:.2f}')
+print(f'Equation: y = {model.coef_[0]:.2f}x + {model.intercept_:.2f}')</code></pre>
+Output: Slope: 2.00, Intercept: 1.00</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does R-squared = 0.85 mean in simple terms?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Think about how much of the variation in y is explained by the model.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2">R-squared = 0.85 means the model explains 85% of the variance (variation) in the target variable. The remaining 15% is unexplained variance (due to noise, missing features, or non-linear relationships). Higher R-squared is better, with 1.0 being a perfect fit.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">A linear regression model has equation y = 3x + 5. What is the predicted value for x = 10?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Substitute x = 10 into y = 3x + 5.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>y = 3(10) + 5 = 35</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write code to predict the value for x=6 using a trained linear regression model.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">After model.fit(), use model.predict([[6]]).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><pre><code>from sklearn.linear_model import LinearRegression
+import numpy as np
+X = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)
+y = np.array([10, 20, 30, 40, 50])
+model = LinearRegression()
+model.fit(X, y)
+prediction = model.predict([[6]])
+print(f'Prediction for x=6: {prediction[0]:.2f}')</code></pre>
+Output: Prediction for x=6: 60.00</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the cost function used in linear regression and why do we square the errors?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">MSE = mean of (actual - predicted)^2. Think about positive vs negative errors.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5">The cost function is <strong>Mean Squared Error (MSE)</strong>: MSE = (1/n) * sum((y_actual - y_predicted)^2). We square errors for two reasons: (1) It makes all errors positive (overpredicting by 5 and underpredicting by 5 are equally bad). (2) It penalizes large errors more than small ones (an error of 10 contributes 100, while an error of 2 contributes only 4). This encourages the model to avoid large mistakes.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to calculate MAE, MSE, RMSE, and R-squared for actual values [3, 5, 7, 9] and predicted values [2.8, 5.2, 6.5, 9.1].</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Use sklearn.metrics functions or compute manually with numpy.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><pre><code>import numpy as np
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+y_actual = np.array([3, 5, 7, 9])
+y_pred = np.array([2.8, 5.2, 6.5, 9.1])
+print(f'MAE: {mean_absolute_error(y_actual, y_pred):.4f}')
+print(f'MSE: {mean_squared_error(y_actual, y_pred):.4f}')
+print(f'RMSE: {np.sqrt(mean_squared_error(y_actual, y_pred)):.4f}')
+print(f'R^2: {r2_score(y_actual, y_pred):.4f}')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Implement one step of gradient descent for the model y = wx + b. Given w=0, b=0, X=[1, 2, 3], y=[2, 4, 6], learning_rate=0.1, compute the new w and b after one update.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Compute predictions, errors, gradients, then update.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><pre><code>import numpy as np
+X = np.array([1, 2, 3])
+y = np.array([2, 4, 6])
+w, b, lr = 0.0, 0.0, 0.1
+
+y_pred = w * X + b
+error = y_pred - y
+dw = (2/3) * np.sum(X * error)
+db = (2/3) * np.sum(error)
+w_new = w - lr * dw
+b_new = b - lr * db
+print(f'Old: w={w}, b={b}')
+print(f'Gradients: dw={dw:.4f}, db={db:.4f}')
+print(f'New: w={w_new:.4f}, b={b_new:.4f}')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between simple and multiple linear regression?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Think about the number of input features.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><strong>Simple linear regression</strong> has one input feature: y = mx + b (one slope). <strong>Multiple linear regression</strong> has two or more input features: y = w1*x1 + w2*x2 + ... + b (one weight per feature). Multiple regression captures the combined effect of several features on the target. For example, house price depends on area AND bedrooms AND location, not just one feature.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Implement gradient descent for linear regression from scratch. Train on data y = 2x + 3 + noise for 100 iterations and print the learned equation.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Initialize w=0, b=0. Compute gradients of MSE. Update w and b each iteration.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><pre><code>import numpy as np
+np.random.seed(42)
+X = np.random.uniform(0, 10, 50)
+y = 2 * X + 3 + np.random.normal(0, 1, 50)
+X_norm = (X - X.mean()) / X.std()
+w, b, lr = 0.0, 0.0, 0.1
+for i in range(100):
+    y_pred = w * X_norm + b
+    dw = (2/50) * np.sum(X_norm * (y_pred - y))
+    db = (2/50) * np.sum(y_pred - y)
+    w -= lr * dw
+    b -= lr * db
+mse = np.mean((y - (w * X_norm + b))**2)
+print(f'Learned w={w:.4f}, b={b:.4f}, MSE={mse:.4f}')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the normal equation and when would you use gradient descent instead?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Normal equation: w = (X^T X)^(-1) X^T y. Think about computational cost.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">The <strong>normal equation</strong> w = (X^T X)^(-1) X^T y computes the optimal weights directly in one step. Use it when: (1) the number of features is small to moderate (< 10,000), (2) the data fits in memory. Use <strong>gradient descent</strong> when: (1) the dataset is very large, (2) there are many features (matrix inversion is O(n^3) in features), (3) the problem is not purely linear (gradient descent is more general).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Train a multiple linear regression model with 3 features and print the coefficient for each feature to understand which one matters most.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Use model.coef_ to get weights for each feature.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><pre><code>import numpy as np
+from sklearn.linear_model import LinearRegression
+np.random.seed(42)
+X = np.random.randn(100, 3)
+y = 5*X[:, 0] + 2*X[:, 1] + 0.1*X[:, 2] + np.random.normal(0, 0.5, 100)
+model = LinearRegression()
+model.fit(X, y)
+features = ['Feature 1', 'Feature 2', 'Feature 3']
+for feat, coef in zip(features, model.coef_):
+    print(f'{feat}: coefficient = {coef:.4f}')
+print(f'Intercept: {model.intercept_:.4f}')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is MSE if actual values are [10, 20, 30] and predictions are [12, 18, 33]?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">MSE = mean of squared differences: ((10-12)^2 + (20-18)^2 + (30-33)^2) / 3.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>MSE = ((-2)^2 + (2)^2 + (-3)^2) / 3 = (4 + 4 + 9) / 3 = 17/3 = 5.667</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What are the assumptions of linear regression? What happens when they are violated?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Think about linearity, independence, constant variance, normal errors, no multicollinearity.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">(1) <strong>Linearity:</strong> Relationship must be linear. Violation: curved patterns in residuals, poor predictions. Fix: polynomial features or non-linear model. (2) <strong>Independence:</strong> Observations should be independent. Violation: autocorrelation in time series. (3) <strong>Homoscedasticity:</strong> Error variance should be constant. Violation: fan-shaped residual plot. Fix: log-transform target. (4) <strong>Normal residuals:</strong> Errors should be approximately normal. Mild violation is OK for predictions, affects confidence intervals. (5) <strong>No multicollinearity:</strong> Features should not be highly correlated. Violation: unstable coefficients. Fix: drop one of correlated features or use Ridge regression.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write code to make predictions for x = [1, 5, 10, 15, 20] using a trained model and display them in a nice format.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Train a model first, then predict an array of values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><pre><code>from sklearn.linear_model import LinearRegression
+import numpy as np
+X_train = np.array([2, 4, 6, 8]).reshape(-1, 1)
+y_train = np.array([15, 25, 35, 45])
+model = LinearRegression()
+model.fit(X_train, y_train)
+test_values = [1, 5, 10, 15, 20]
+for x in test_values:
+    pred = model.predict([[x]])[0]
+    print(f'x = {x:2d} -> predicted y = {pred:.2f}')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Compare linear regression and polynomial regression (degree 2 and 3) on non-linear data. Print R-squared for each.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Use PolynomialFeatures(degree=n) with LinearRegression.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><pre><code>import numpy as np
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.metrics import r2_score
+np.random.seed(42)
+X = np.linspace(0, 5, 50).reshape(-1, 1)
+y = X.squeeze()**2 + np.random.normal(0, 2, 50)
+for deg in [1, 2, 3]:
+    poly = PolynomialFeatures(degree=deg)
+    X_poly = poly.fit_transform(X)
+    model = LinearRegression()
+    model.fit(X_poly, y)
+    r2 = r2_score(y, model.predict(X_poly))
+    print(f'Degree {deg}: R^2 = {r2:.4f}')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to train a linear regression model to predict salary from years of experience. Use the data: experience=[1,3,5,7,10,12,15], salary=[30,45,60,75,95,110,130] (in thousands). Print the model equation and predict salary for 8 years experience.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Train with LinearRegression, access coef_ and intercept_.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><pre><code>from sklearn.linear_model import LinearRegression
+import numpy as np
+exp = np.array([1, 3, 5, 7, 10, 12, 15]).reshape(-1, 1)
+sal = np.array([30, 45, 60, 75, 95, 110, 130])
+model = LinearRegression()
+model.fit(exp, sal)
+print(f'Equation: salary = {model.coef_[0]:.2f} * experience + {model.intercept_:.2f}')
+pred = model.predict([[8]])[0]
+print(f'Predicted salary for 8 years: {pred:.2f}K')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between MAE and RMSE? When would you prefer one over the other?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Think about sensitivity to large errors.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><strong>MAE</strong> (Mean Absolute Error) treats all errors equally: an error of 10 counts as 10. <strong>RMSE</strong> (Root Mean Squared Error) penalizes large errors more: an error of 10 counts as 100 (squared) before averaging and square-rooting. Use MAE when all errors are equally important and you want a straightforward interpretation. Use RMSE when large errors are particularly undesirable (e.g., predicting medical dosages where a large error is dangerous).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Use the normal equation w = (X^T X)^(-1) X^T y to solve linear regression without sklearn. Compare with sklearn's solution.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Add a column of 1s to X for the bias term. Use np.linalg.inv().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><pre><code>import numpy as np
+from sklearn.linear_model import LinearRegression
+np.random.seed(42)
+x = np.random.uniform(0, 10, 50)
+y = 3 * x + 7 + np.random.normal(0, 2, 50)
+X = np.column_stack([np.ones(50), x])
+w_normal = np.linalg.inv(X.T @ X) @ X.T @ y
+model = LinearRegression()
+model.fit(x.reshape(-1, 1), y)
+print(f'Normal equation: y = {w_normal[1]:.4f}x + {w_normal[0]:.4f}')
+print(f'sklearn: y = {model.coef_[0]:.4f}x + {model.intercept_:.4f}')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">A linear regression model on house prices has coefficients: area=50, bedrooms=100000, intercept=500000. What is the predicted price for a house with area=1200 sqft and 3 bedrooms?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">price = 50 * area + 100000 * bedrooms + 500000.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>price = 50 * 1200 + 100000 * 3 + 500000 = 60000 + 300000 + 500000 = 860000</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the gradient in gradient descent? What direction does it point?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Think about the direction of steepest change.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20">The gradient is a vector of partial derivatives of the loss function with respect to each model parameter. It points in the <strong>direction of steepest increase</strong> of the loss function. In gradient descent, we move in the <strong>opposite</strong> direction (steepest decrease) to minimize the loss: w_new = w_old - learning_rate * gradient.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write code to compute MSE manually for actual=[10, 20, 30] and predicted=[12, 18, 28] using NumPy.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">MSE = np.mean((y_actual - y_predicted) ** 2).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><pre><code>import numpy as np
+actual = np.array([10, 20, 30])
+predicted = np.array([12, 18, 28])
+mse = np.mean((actual - predicted) ** 2)
+print(f'MSE: {mse:.4f}')
+print(f'RMSE: {np.sqrt(mse):.4f}')</code></pre>
+Output: MSE: 5.3333, RMSE: 2.3094</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Kavitha's model has R^2 = 0.95 on training data but R^2 = 0.60 on test data. What is happening and how should she fix it?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Big gap between train and test performance indicates a specific problem.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">The model is <strong>overfitting</strong>: it memorized the training data (including noise) instead of learning the general pattern. Fixes: (1) Use more training data. (2) Reduce model complexity (fewer features, lower polynomial degree). (3) Use regularization (Ridge or Lasso regression). (4) Use cross-validation to tune hyperparameters.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Generate synthetic data y = 5x1 + 2x2 + noise, train a model, and print which feature is more important based on coefficients.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">The feature with the larger absolute coefficient is more important (if features are on the same scale).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><pre><code>import numpy as np
+from sklearn.linear_model import LinearRegression
+np.random.seed(42)
+X = np.random.randn(100, 2)
+y = 5*X[:, 0] + 2*X[:, 1] + np.random.normal(0, 0.5, 100)
+model = LinearRegression()
+model.fit(X, y)
+for i, coef in enumerate(model.coef_):
+    print(f'Feature {i+1}: coefficient = {coef:.4f}')
+more_important = 'Feature 1' if abs(model.coef_[0]) > abs(model.coef_[1]) else 'Feature 2'
+print(f'More important: {more_important}')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code to plot the learning curve: MSE vs iteration number for gradient descent training. Show how MSE decreases over 200 iterations.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Store MSE at each iteration in a list, then describe the trend.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><pre><code>import numpy as np
+np.random.seed(42)
+X = np.random.uniform(0, 10, 50)
+y = 2*X + 5 + np.random.normal(0, 1, 50)
+X_norm = (X - X.mean()) / X.std()
+w, b, lr = 0.0, 0.0, 0.1
+losses = []
+for i in range(200):
+    y_pred = w*X_norm + b
+    mse = np.mean((y - y_pred)**2)
+    losses.append(mse)
+    dw = (2/50)*np.sum(X_norm*(y_pred - y))
+    db = (2/50)*np.sum(y_pred - y)
+    w -= lr * dw
+    b -= lr * db
+print(f'MSE at step 0: {losses[0]:.2f}')
+print(f'MSE at step 10: {losses[10]:.2f}')
+print(f'MSE at step 50: {losses[50]:.2f}')
+print(f'MSE at step 200: {losses[-1]:.2f}')
+print(f'MSE converged: loss barely changes after ~50 iterations')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain why polynomial regression with degree 20 on 30 data points is a bad idea, even if it gives R^2 = 0.99 on training data.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Think about the number of parameters vs the number of data points.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">With degree 20, the model has 21 parameters (coefficients for x^0 through x^20). With only 30 data points, the model has almost as many parameters as data points. It will perfectly fit the training data (memorizing each point) but generalize terribly to new data. This is <strong>severe overfitting</strong>. The R^2 of 0.99 on training data is misleading -- the test R^2 would likely be much lower or even negative. Use cross-validation to choose the right polynomial degree.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write code to access and print the coefficient and intercept of a trained sklearn LinearRegression model.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">model.coef_ for weights, model.intercept_ for bias.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>from sklearn.linear_model import LinearRegression
+import numpy as np
+X = np.array([[1], [2], [3], [4]])
+y = np.array([10, 20, 30, 40])
+model = LinearRegression()
+model.fit(X, y)
+print(f'Coefficient (slope): {model.coef_[0]}')
+print(f'Intercept: {model.intercept_}')
+print(f'Equation: y = {model.coef_[0]}x + {model.intercept_}')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to evaluate a linear regression model on test data and print all four metrics: MAE, MSE, RMSE, R-squared.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Use sklearn.metrics functions on y_test and y_pred.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><pre><code>import numpy as np
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+np.random.seed(42)
+X = np.random.uniform(0, 10, (100, 1))
+y = 3*X.squeeze() + 5 + np.random.normal(0, 2, 100)
+X_tr, X_te, y_tr, y_te = train_test_split(X, y, test_size=0.2, random_state=42)
+model = LinearRegression().fit(X_tr, y_tr)
+y_pred = model.predict(X_te)
+print(f'MAE:  {mean_absolute_error(y_te, y_pred):.4f}')
+print(f'MSE:  {mean_squared_error(y_te, y_pred):.4f}')
+print(f'RMSE: {np.sqrt(mean_squared_error(y_te, y_pred)):.4f}')
+print(f'R^2:  {r2_score(y_te, y_pred):.4f}')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does the intercept (b) represent in the equation y = mx + b?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">What is y when x = 0?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">The intercept <strong>b</strong> is the predicted value of y when all features are 0. In the equation y = 3*experience + 25000, the intercept 25000 represents the predicted salary for someone with 0 years of experience (the starting salary). In some contexts, the intercept may not have a meaningful interpretation (e.g., if x=0 is not realistic).</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Linear regression is used to predict:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Categories (like cat or dog)</li><li><span class="mcq-option-label">B.</span> Continuous numerical values (like price or temperature)</li><li><span class="mcq-option-label">C.</span> True or False values</li><li><span class="mcq-option-label">D.</span> Text data</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> Linear regression is a regression algorithm that predicts continuous numerical values. For categorical predictions, use classification algorithms like logistic regression or decision trees.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What is the equation for simple linear regression?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> y = ax^2 + bx + c</li><li><span class="mcq-option-label">B.</span> y = mx + b</li><li><span class="mcq-option-label">C.</span> y = e^x</li><li><span class="mcq-option-label">D.</span> y = log(x)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> Simple linear regression fits a straight line y = mx + b, where m is the slope and b is the y-intercept. Option A is quadratic (polynomial), C is exponential, and D is logarithmic.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does the slope (m) in y = mx + b represent?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The value of y when x is 0</li><li><span class="mcq-option-label">B.</span> How much y changes when x increases by 1</li><li><span class="mcq-option-label">C.</span> The average value of y</li><li><span class="mcq-option-label">D.</span> The total error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> The slope m represents the rate of change: for every 1 unit increase in x, y changes by m units. If m = 3, each unit of x adds 3 to y. Option A describes the intercept b.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which cost function does linear regression minimize?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Cross-Entropy</li><li><span class="mcq-option-label">B.</span> Mean Absolute Error</li><li><span class="mcq-option-label">C.</span> Mean Squared Error</li><li><span class="mcq-option-label">D.</span> Accuracy</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> Linear regression minimizes MSE (Mean Squared Error). Cross-entropy is for classification. MAE could be used but MSE is standard because it is differentiable everywhere and has a unique minimum. Accuracy is a classification metric.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does R-squared = 0 mean?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The model is perfect</li><li><span class="mcq-option-label">B.</span> The model is no better than predicting the mean of y for every sample</li><li><span class="mcq-option-label">C.</span> All predictions are exactly wrong</li><li><span class="mcq-option-label">D.</span> There is no data to evaluate</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> R^2 = 0 means the model explains none of the variance in y -- it performs equally to simply predicting the mean for every sample. R^2 = 1 means perfect. R^2 can be negative for very bad models (worse than predicting the mean).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">In gradient descent, what happens if the learning rate is too small?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The model diverges</li><li><span class="mcq-option-label">B.</span> The model converges very slowly</li><li><span class="mcq-option-label">C.</span> The model converges to a wrong answer</li><li><span class="mcq-option-label">D.</span> Nothing - small learning rate is always better</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> A very small learning rate means tiny steps toward the minimum. The model will eventually converge to the correct answer but may take thousands or millions of iterations. Too large a learning rate causes divergence (option A).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is the purpose of the .reshape(-1, 1) operation before fitting sklearn models?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To normalize the data</li><li><span class="mcq-option-label">B.</span> To convert a 1D array to a 2D array (samples x features)</li><li><span class="mcq-option-label">C.</span> To remove missing values</li><li><span class="mcq-option-label">D.</span> To shuffle the data</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> sklearn requires feature data (X) to be 2D: (n_samples, n_features). A 1D array has shape (n,) which sklearn cannot interpret. reshape(-1, 1) converts it to (n, 1), meaning n samples with 1 feature.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is multicollinearity and why is it a problem for linear regression?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> When features are independent of each other</li><li><span class="mcq-option-label">B.</span> When features are highly correlated with each other, making coefficients unstable</li><li><span class="mcq-option-label">C.</span> When the target variable is non-numeric</li><li><span class="mcq-option-label">D.</span> When there are too many data points</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> Multicollinearity occurs when features are highly correlated (e.g., area_sqft and area_sqm). This makes individual coefficients unreliable (they can flip signs or have huge values) because the model cannot determine each feature's individual contribution. Fix: remove one of the correlated features or use Ridge regression.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">A model has MAE = 5 and RMSE = 10. What does the large gap between them suggest?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The model is well-calibrated</li><li><span class="mcq-option-label">B.</span> There are some large outlier errors</li><li><span class="mcq-option-label">C.</span> The model is underfitting</li><li><span class="mcq-option-label">D.</span> The data has no outliers</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> RMSE penalizes large errors more (squaring). If RMSE >> MAE, some predictions have very large errors that inflate RMSE but barely affect MAE. For example, most errors might be 3-5, but a few are 20-30. Those outlier errors contribute 400-900 to MSE (before averaging) but only 20-30 to MAE.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is the normal equation in linear regression?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> y = mx + b</li><li><span class="mcq-option-label">B.</span> w = (X^T X)^(-1) X^T y</li><li><span class="mcq-option-label">C.</span> MSE = mean((y - y_pred)^2)</li><li><span class="mcq-option-label">D.</span> w = w - lr * gradient</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> The normal equation w = (X^T X)^(-1) X^T y directly computes the optimal weights without iteration. It gives the exact solution to the least squares problem. Option D is the gradient descent update rule (iterative). Option C is the MSE formula.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What does model.predict(X) return in sklearn?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The model&#39;s accuracy</li><li><span class="mcq-option-label">B.</span> The predicted values for input X</li><li><span class="mcq-option-label">C.</span> The model&#39;s coefficients</li><li><span class="mcq-option-label">D.</span> The training loss</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>predict(X)</code> takes feature data and returns the model's predictions. For linear regression, it computes X @ coef_ + intercept_ for each sample.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">PolynomialFeatures(degree=3) transforms the feature x into:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [x, x^2, x^3]</li><li><span class="mcq-option-label">B.</span> [1, x, x^2, x^3]</li><li><span class="mcq-option-label">C.</span> [x^3]</li><li><span class="mcq-option-label">D.</span> [x, 2x, 3x]</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> PolynomialFeatures(degree=3) creates [1, x, x^2, x^3] (including the bias term 1 and all powers up to 3). This allows linear regression to fit cubic curves while remaining linear in its parameters.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Which of the following is NOT an assumption of linear regression?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The relationship between features and target is linear</li><li><span class="mcq-option-label">B.</span> Residuals are normally distributed</li><li><span class="mcq-option-label">C.</span> All features must be on the same scale</li><li><span class="mcq-option-label">D.</span> Features should not be highly correlated with each other</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct (it is NOT an assumption).</strong> Linear regression does not require features to be on the same scale -- the normal equation and sklearn handle different scales fine. However, scaling IS needed if you use gradient descent. The actual assumptions are: linearity (A), normal residuals (B), and no multicollinearity (D).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">If the coefficient for 'bedrooms' in a house price model is 150000, what does it mean?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Each bedroom costs 150000 to build</li><li><span class="mcq-option-label">B.</span> Each additional bedroom is associated with a 150000 increase in predicted price, holding other features constant</li><li><span class="mcq-option-label">C.</span> Houses with bedrooms cost 150000</li><li><span class="mcq-option-label">D.</span> 150000 is the R-squared for bedrooms</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> In multiple regression, each coefficient represents the change in the predicted target for a one-unit increase in that feature, <strong>while holding all other features constant</strong>. So each additional bedroom adds 150000 to the predicted price, assuming area, location, etc. remain the same.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the gradient of MSE with respect to weight w for simple linear regression y = wx + b?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> (2/n) * sum(x * (y_pred - y))</li><li><span class="mcq-option-label">B.</span> (2/n) * sum(y_pred - y)</li><li><span class="mcq-option-label">C.</span> (1/n) * sum(y - y_pred)</li><li><span class="mcq-option-label">D.</span> sum(x^2)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: A</strong><br><strong>A is correct.</strong> The partial derivative of MSE with respect to w is (2/n) * sum(x_i * (y_pred_i - y_i)). This tells us how the loss changes when we adjust w. Option B is the gradient with respect to b (the bias). These gradients are used in gradient descent to update w and b.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Linear Regression from Scratch</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Implement a LinearRegressionGD class with fit(X, y) and predict(X) methods using gradient descent. It should store the loss history. Train it on y = 4x + 10 + noise data (100 points). Print the learned equation and final MSE. Compare with sklearn.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">100 data points from y = 4x + 10 + noise</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Scratch: y = 3.98x + 10.12, MSE = 4.23
+sklearn: y = 3.98x + 10.12</div>
+                </div><div class="challenge-constraints">Normalize X before training. Use learning_rate=0.1, iterations=500.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">import numpy as np
+from sklearn.linear_model import LinearRegression
+
+class LinearRegressionGD:
+    def __init__(self, lr=0.1, n_iter=500):
+        self.lr = lr
+        self.n_iter = n_iter
+        self.losses = []
+    def fit(self, X, y):
+        n = len(X)
+        self.w = np.zeros(X.shape[1])
+        self.b = 0.0
+        for _ in range(self.n_iter):
+            y_pred = X @ self.w + self.b
+            self.losses.append(np.mean((y - y_pred)**2))
+            self.w -= self.lr * (1/n) * X.T @ (y_pred - y)
+            self.b -= self.lr * (1/n) * np.sum(y_pred - y)
+    def predict(self, X): return X @ self.w + self.b
+
+np.random.seed(42)
+x = np.random.uniform(0, 10, 100)
+y = 4*x + 10 + np.random.normal(0, 2, 100)
+X = ((x - x.mean()) / x.std()).reshape(-1, 1)
+
+my_model = LinearRegressionGD()
+my_model.fit(X, y)
+print(f&#39;Scratch: w={my_model.w[0]:.4f}, b={my_model.b:.4f}, MSE={my_model.losses[-1]:.4f}&#39;)
+
+sk_model = LinearRegression().fit(X, y)
+print(f&#39;sklearn: w={sk_model.coef_[0]:.4f}, b={sk_model.intercept_:.4f}&#39;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: House Price Predictor</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a synthetic house price dataset with features: area (500-3000), bedrooms (1-5), age (0-30), distance_to_city (1-25). Price = 20 + 0.03*area + 8*bedrooms - 0.5*age + noise. Train a model, evaluate it, and predict price for a specific house.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">200 synthetic houses</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Model equation, R-squared, RMSE, and prediction for [1500, 3, 5, 10]</div>
+                </div><div class="challenge-constraints">Use StandardScaler. Print feature coefficients.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">import numpy as np
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import r2_score, mean_squared_error
+
+np.random.seed(42)
+n = 200
+df = pd.DataFrame({&#39;Area&#39;: np.random.uniform(500, 3000, n).round(0), &#39;Beds&#39;: np.random.randint(1, 6, n), &#39;Age&#39;: np.random.randint(0, 30, n), &#39;Distance&#39;: np.random.uniform(1, 25, n).round(1)})
+df[&#39;Price&#39;] = (20 + 0.03*df[&#39;Area&#39;] + 8*df[&#39;Beds&#39;] - 0.5*df[&#39;Age&#39;] + np.random.normal(0, 5, n)).round(2)
+
+X = df.drop(&#39;Price&#39;, axis=1)
+y = df[&#39;Price&#39;]
+X_tr, X_te, y_tr, y_te = train_test_split(X, y, test_size=0.2, random_state=42)
+scaler = StandardScaler()
+X_tr_s = scaler.fit_transform(X_tr)
+X_te_s = scaler.transform(X_te)
+
+model = LinearRegression().fit(X_tr_s, y_tr)
+y_pred = model.predict(X_te_s)
+print(f&#39;R^2: {r2_score(y_te, y_pred):.4f}&#39;)
+print(f&#39;RMSE: {np.sqrt(mean_squared_error(y_te, y_pred)):.2f}&#39;)
+for feat, coef in zip(X.columns, model.coef_):
+    print(f&#39;{feat}: {coef:.4f}&#39;)
+new = scaler.transform([[1500, 3, 5, 10]])
+print(f&#39;Prediction for [1500, 3, 5, 10]: {model.predict(new)[0]:.2f}&#39;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Model Comparison: Linear vs Polynomial</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Generate non-linear data: y = 0.5*x^2 - 2*x + 10 + noise. Train linear (degree 1), quadratic (degree 2), and cubic (degree 3) models. Print R-squared for each on test data. Determine the best degree.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">80 data points from y = 0.5x^2 - 2x + 10 + noise</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Degree 1 R^2: 0.35, Degree 2 R^2: 0.95, Degree 3 R^2: 0.95</div>
+                </div><div class="challenge-constraints">Split 80/20. Use random_state=42.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">import numpy as np
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import r2_score
+
+np.random.seed(42)
+X = np.random.uniform(-5, 5, 80).reshape(-1, 1)
+y = 0.5*X.squeeze()**2 - 2*X.squeeze() + 10 + np.random.normal(0, 2, 80)
+X_tr, X_te, y_tr, y_te = train_test_split(X, y, test_size=0.2, random_state=42)
+
+best_r2, best_deg = -1, 0
+for deg in [1, 2, 3]:
+    poly = PolynomialFeatures(degree=deg)
+    X_tr_p = poly.fit_transform(X_tr)
+    X_te_p = poly.transform(X_te)
+    model = LinearRegression().fit(X_tr_p, y_tr)
+    r2 = r2_score(y_te, model.predict(X_te_p))
+    print(f&#39;Degree {deg}: R^2 = {r2:.4f}&#39;)
+    if r2 &gt; best_r2: best_r2, best_deg = r2, deg
+print(f&#39;Best: degree {best_deg} (R^2 = {best_r2:.4f}&#39;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Salary Prediction with Feature Analysis</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a dataset mapping years of experience to salary. Train a linear regression model. Print the equation, evaluate with all 4 metrics, and predict salaries for 0, 5, 10, 15, and 20 years experience.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">experience = [1,2,3,4,5,6,8,10,12,15], salary in thousands</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Equation, metrics, prediction table</div>
+                </div><div class="challenge-constraints">Use meaningful salary values (e.g., 25-130K range).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">import numpy as np
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+
+np.random.seed(42)
+exp = np.array([1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 1.5, 3.5, 7, 9, 11, 14, 4.5, 6.5, 8.5, 13]).reshape(-1, 1)
+sal = 25 + 7*exp.squeeze() + np.random.normal(0, 3, 20)
+
+X_tr, X_te, y_tr, y_te = train_test_split(exp, sal, test_size=0.2, random_state=42)
+model = LinearRegression().fit(X_tr, y_tr)
+y_pred = model.predict(X_te)
+
+print(f&#39;Equation: salary = {model.coef_[0]:.2f} * experience + {model.intercept_:.2f}&#39;)
+print(f&#39;MAE: {mean_absolute_error(y_te, y_pred):.2f}K&#39;)
+print(f&#39;RMSE: {np.sqrt(mean_squared_error(y_te, y_pred)):.2f}K&#39;)
+print(f&#39;R^2: {r2_score(y_te, y_pred):.4f}&#39;)
+print(&#39;\nPredictions:&#39;)
+for yr in [0, 5, 10, 15, 20]:
+    print(f&#39;  {yr} years -&gt; {model.predict([[yr]])[0]:.1f}K&#39;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Learning Rate Experiment</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Implement gradient descent for linear regression and test 5 different learning rates: 0.001, 0.01, 0.05, 0.1, 0.5. For each, run 200 iterations and report: final MSE, whether it converged, and the number of iterations to reach MSE < 5.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">50 data points from y = 3x + 10 + noise</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Table comparing all 5 learning rates</div>
+                </div><div class="challenge-constraints">Normalize features. Use random_state=42.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">import numpy as np
+
+np.random.seed(42)
+X = np.random.uniform(0, 10, 50)
+y = 3*X + 10 + np.random.normal(0, 2, 50)
+X_norm = (X - X.mean()) / X.std()
+
+print(f&#39;{&quot;LR&quot;:&lt;8}{&quot;Final MSE&quot;:&lt;12}{&quot;Converged&quot;:&lt;12}{&quot;Steps to MSE&lt;5&quot;}&#39;)
+print(&#39;-&#39; * 44)
+for lr in [0.001, 0.01, 0.05, 0.1, 0.5]:
+    w, b = 0.0, 0.0
+    steps_to_5 = &#39;N/A&#39;
+    for i in range(200):
+        y_pred = w*X_norm + b
+        mse = np.mean((y - y_pred)**2)
+        if mse &lt; 5 and steps_to_5 == &#39;N/A&#39;:
+            steps_to_5 = str(i)
+        dw = (2/50)*np.sum(X_norm*(y_pred-y))
+        db = (2/50)*np.sum(y_pred-y)
+        w -= lr*dw
+        b -= lr*db
+    final_mse = np.mean((y-(w*X_norm+b))**2)
+    converged = &#39;Yes&#39; if final_mse &lt; 10 else &#39;No&#39;
+    print(f&#39;{lr:&lt;8}{final_mse:&lt;12.4f}{converged:&lt;12}{steps_to_5}&#39;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: End-to-End ML Pipeline: Student Score Predictor</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a complete ML pipeline: (1) Generate data with 3 features (hours_studied, attendance, previous_score) and target (final_score). (2) Perform EDA (describe, correlations). (3) Preprocess (handle missing values, scale). (4) Train-test split. (5) Train LinearRegression. (6) Evaluate with all metrics. (7) Predict for a new student.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">150 synthetic student records with some missing values</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Complete pipeline output: EDA, training, evaluation, prediction</div>
+                </div><div class="challenge-constraints">Include missing value handling and feature scaling.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">import numpy as np
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+
+np.random.seed(42)
+n = 150
+df = pd.DataFrame({
+    &#39;Hours&#39;: np.random.uniform(1, 10, n).round(1),
+    &#39;Attendance&#39;: np.random.uniform(40, 100, n).round(1),
+    &#39;Prev_Score&#39;: np.random.uniform(30, 90, n).round(1)
+})
+df[&#39;Final&#39;] = (10 + 5*df[&#39;Hours&#39;] + 0.3*df[&#39;Attendance&#39;] + 0.4*df[&#39;Prev_Score&#39;] + np.random.normal(0, 5, n)).round(1).clip(0, 100)
+df.loc[np.random.choice(n, 10), &#39;Hours&#39;] = np.nan
+df.loc[np.random.choice(n, 5), &#39;Attendance&#39;] = np.nan
+
+print(&#39;=== EDA ===&#39;)
+print(f&#39;Shape: {df.shape}&#39;)
+print(f&#39;Missing: {df.isnull().sum().to_dict()}&#39;)
+print(f&#39;Correlations with Final:&#39;)
+print(df.corr()[&#39;Final&#39;].drop(&#39;Final&#39;).round(3))
+
+df[&#39;Hours&#39;] = df[&#39;Hours&#39;].fillna(df[&#39;Hours&#39;].median())
+df[&#39;Attendance&#39;] = df[&#39;Attendance&#39;].fillna(df[&#39;Attendance&#39;].median())
+
+X = df.drop(&#39;Final&#39;, axis=1)
+y = df[&#39;Final&#39;]
+X_tr, X_te, y_tr, y_te = train_test_split(X, y, test_size=0.2, random_state=42)
+scaler = StandardScaler()
+X_tr_s = scaler.fit_transform(X_tr)
+X_te_s = scaler.transform(X_te)
+
+model = LinearRegression().fit(X_tr_s, y_tr)
+y_pred = model.predict(X_te_s)
+
+print(f&#39;\n=== Evaluation ===&#39;)
+print(f&#39;MAE: {mean_absolute_error(y_te, y_pred):.2f}&#39;)
+print(f&#39;RMSE: {np.sqrt(mean_squared_error(y_te, y_pred)):.2f}&#39;)
+print(f&#39;R^2: {r2_score(y_te, y_pred):.4f}&#39;)
+
+for feat, coef in zip(X.columns, model.coef_):
+    print(f&#39;{feat}: {coef:.4f}&#39;)
+
+new_student = scaler.transform([[6, 85, 70]])
+print(f&#39;\nNew student (6hrs, 85% att, 70 prev): {model.predict(new_student)[0]:.1f}&#39;)</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/ai-and-machine-learning/data-preprocessing-and-eda/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Data Preprocessing and Exploratory Data Analysis</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/logistic-regression-and-classification/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Logistic Regression and Classification</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/ai-and-machine-learning/linear-regression" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

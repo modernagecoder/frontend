@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern C++ Features (C++11 to C++20) - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Lambda expressions, auto, range-based for, move semantics, constexpr, structured bindings, and concepts.">
+    <meta name="keywords" content="modern c++ features (c++11 to c++20), c++ tutorial, c++ modern c++ features (c++11 to c++20), learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/modern-cpp-features">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/modern-cpp-features">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/modern-cpp-features">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/modern-cpp-features">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/modern-cpp-features">
+    <meta property="og:title" content="Modern C++ Features (C++11 to C++20) - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Lambda expressions, auto, range-based for, move semantics, constexpr, structured bindings, and concepts.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/modern-cpp-features">
+    <meta name="twitter:title" content="Modern C++ Features (C++11 to C++20) - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Lambda expressions, auto, range-based for, move semantics, constexpr, structured bindings, and concepts.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Modern C++ Features (C++11 to C++20)",
+    "description": "Lambda expressions, auto, range-based for, move semantics, constexpr, structured bindings, and concepts.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/modern-cpp-features"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/modern-cpp-features"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Modern C++ Features (C++11 to C++20)",
+        "item": "https://learn.modernagecoders.com/resources/cpp/modern-cpp-features"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using auto When the Type Is Unclear or Surprising",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use <code>auto</code> when the type is obvious from context (iterators, lambda results, make_unique results). Use explicit types when the deduced type might be surprising or when you want a specific type."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Capturing by Reference in a Lambda That Outlives the Scope",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Capture by value (<code>[count]</code>) when the lambda outlives the captured variable's scope. Use <code>mutable</code> to allow modification of the captured copy. Only capture by reference when you are certain the referenced variable will outlive the lambda."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting That constexpr Functions Must Be Evaluable at Compile Time",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A <code>constexpr</code> function must be evaluable at compile time when given constant arguments. It can still be called at runtime with non-constant arguments. Keep constexpr functions pure: no I/O, no global state modification."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using string_view After the Source String Is Destroyed",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>string_view</code> should primarily be used for function parameters and local references to existing strings. Never return a <code>string_view</code> that refers to a local variable. If you need to return string data, return <code>std::string</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Structured Bindings with Wrong Number of Variables",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The number of variables in a structured binding must exactly match the number of members. For pairs, use 2 variables. For tuples, use the exact tuple size. For structs, match the number of public non-static data members."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Modern C++ Features (C++11 to C++20)</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 25</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Modern C++ Features (C++11 to C++20)</h1>
+            <a href="/resources/cpp/modern-cpp-features/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Modern C++ Features?</h2><p><strong>Modern C++</strong> refers to the language features introduced from C++11 onward. C++11 was a landmark release that fundamentally transformed the language, followed by incremental improvements in C++14, C++17, and C++20. These features make C++ safer, more expressive, and more productive while maintaining zero-cost abstractions.</p><p>Key categories of modern features:</p><ul><li><strong>C++11</strong> -- auto, range-based for, lambdas, nullptr, enum class, constexpr, move semantics, smart pointers, uniform initialization, using aliases</li><li><strong>C++14</strong> -- generic lambdas, return type deduction, relaxed constexpr</li><li><strong>C++17</strong> -- structured bindings, if with initializer, optional/variant/any, string_view, filesystem</li><li><strong>C++20</strong> -- concepts, ranges, the spaceship operator (&lt;=&gt;), coroutines</li></ul><pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    // C++11: auto, range-based for, lambda
+    vector&lt;int&gt; v = {5, 2, 8, 1, 9};
+
+    // Old C++03 way
+    for (vector&lt;int&gt;::iterator it = v.begin(); it != v.end(); ++it)
+        cout &lt;&lt; *it &lt;&lt; " ";
+    cout &lt;&lt; endl;
+
+    // Modern C++11 way
+    sort(v.begin(), v.end(), [](int a, int b) { return a &gt; b; });
+    for (auto x : v) cout &lt;&lt; x &lt;&lt; " ";
+    cout &lt;&lt; endl;
+
+    // C++17: structured bindings
+    auto [minIt, maxIt] = minmax_element(v.begin(), v.end());
+    cout &lt;&lt; "Min: " &lt;&lt; *minIt &lt;&lt; ", Max: " &lt;&lt; *maxIt &lt;&lt; endl;
+    return 0;
+}</code></pre><p>When Harish writes <code>auto [key, value] = *m.begin()</code> or Deepika writes <code>auto f = [&amp;](int x) { return x * x; }</code>, they are using modern C++ idioms that make code shorter, safer, and more readable than the equivalent C++03 code.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Modern C++ Features Important?</h2><h3>1. Drastically Reduced Boilerplate</h3><p><code>auto</code> eliminates verbose type declarations. Range-based for loops eliminate iterator boilerplate. Lambdas eliminate the need for separate function objects. Structured bindings eliminate <code>.first</code> and <code>.second</code>. Modern C++ lets you express intent directly instead of fighting the type system.</p><h3>2. Safety Without Runtime Cost</h3><p><code>nullptr</code> prevents integer-pointer ambiguity bugs. <code>enum class</code> prevents implicit conversions. <code>constexpr</code> moves computation to compile-time. Smart pointers prevent memory leaks. These features add safety at zero or near-zero runtime cost -- a core C++ principle.</p><h3>3. Competitive Programming Speed</h3><p>In competitive programming, modern features save precious minutes: <code>auto</code> avoids typing long iterator types, range-based for is faster to write, lambdas enable inline comparators, and structured bindings simplify pair/tuple access.</p><h3>4. Industry Standard</h3><p>Every major C++ codebase (Google, Meta, Microsoft, Bloomberg, game engines) uses C++17 or later. Job interviews and production code expect fluency with modern features. Writing C++03-style code in 2026 is a red flag.</p><h3>5. Foundation for Advanced Patterns</h3><p>C++20 concepts enable constrained templates (no more cryptic SFINAE errors). Ranges enable composable, lazy data pipelines. These features make advanced C++ patterns accessible to a wider audience.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><p><strong>Modern C++</strong> refers to the language features introduced from C++11 onward. C++11 was a landmark release that fundamentally transformed the language, followed by incremental improvements in C++14, C++17, and C++20. These features make C++ safer, more expressive, and more productive while maintaining zero-cost abstractions.</p><p>Key categories of modern features:</p><ul><li><strong>C++11</strong> -- auto, range-based for, lambdas, nullptr, enum class, constexpr, move semantics, smart pointers, uniform initialization, using aliases</li><li><strong>C++14</strong> -- generic lambdas, return type deduction, relaxed constexpr</li><li><strong>C++17</strong> -- structured bindings, if with initializer, optional/variant/any, string_view, filesystem</li><li><strong>C++20</strong> -- concepts, ranges, the spaceship operator (&lt;=&gt;), coroutines</li></ul><pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    // C++11: auto, range-based for, lambda
+    vector&lt;int&gt; v = {5, 2, 8, 1, 9};
+
+    // Old C++03 way
+    for (vector&lt;int&gt;::iterator it = v.begin(); it != v.end(); ++it)
+        cout &lt;&lt; *it &lt;&lt; " ";
+    cout &lt;&lt; endl;
+
+    // Modern C++11 way
+    sort(v.begin(), v.end(), [](int a, int b) { return a &gt; b; });
+    for (auto x : v) cout &lt;&lt; x &lt;&lt; " ";
+    cout &lt;&lt; endl;
+
+    // C++17: structured bindings
+    auto [minIt, maxIt] = minmax_element(v.begin(), v.end());
+    cout &lt;&lt; "Min: " &lt;&lt; *minIt &lt;&lt; ", Max: " &lt;&lt; *maxIt &lt;&lt; endl;
+    return 0;
+}</code></pre><p>When Harish writes <code>auto [key, value] = *m.begin()</code> or Deepika writes <code>auto f = [&amp;](int x) { return x * x; }</code>, they are using modern C++ idioms that make code shorter, safer, and more readable than the equivalent C++03 code.</p><h3>1. Drastically Reduced Boilerplate</h3><p><code>auto</code> eliminates verbose type declarations. Range-based for loops eliminate iterator boilerplate. Lambdas eliminate the need for separate function objects. Structured bindings eliminate <code>.first</code> and <code>.second</code>. Modern C++ lets you express intent directly instead of fighting the type system.</p><h3>2. Safety Without Runtime Cost</h3><p><code>nullptr</code> prevents integer-pointer ambiguity bugs. <code>enum class</code> prevents implicit conversions. <code>constexpr</code> moves computation to compile-time. Smart pointers prevent memory leaks. These features add safety at zero or near-zero runtime cost -- a core C++ principle.</p><h3>3. Competitive Programming Speed</h3><p>In competitive programming, modern features save precious minutes: <code>auto</code> avoids typing long iterator types, range-based for is faster to write, lambdas enable inline comparators, and structured bindings simplify pair/tuple access.</p><h3>4. Industry Standard</h3><p>Every major C++ codebase (Google, Meta, Microsoft, Bloomberg, game engines) uses C++17 or later. Job interviews and production code expect fluency with modern features. Writing C++03-style code in 2026 is a red flag.</p><h3>5. Foundation for Advanced Patterns</h3><p>C++20 concepts enable constrained templates (no more cryptic SFINAE errors). Ranges enable composable, lazy data pipelines. These features make advanced C++ patterns accessible to a wider audience.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">C++11: auto, Range-Based For, and Uniform Initialization</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;map&gt;
+using namespace std;
+
+int main() {
+    // auto deduces the type
+    auto x = 42;          // int
+    auto pi = 3.14;       // double
+    auto name = &quot;Arjun&quot;s; // string (with s suffix)
+
+    // Range-based for loop (replaces iterator boilerplate)
+    vector&lt;int&gt; v = {10, 20, 30, 40, 50};
+    for (auto val : v)
+        cout &lt;&lt; val &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+
+    // By reference (avoids copy)
+    for (auto&amp; val : v)
+        val *= 2;
+    for (const auto&amp; val : v)
+        cout &lt;&lt; val &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+
+    // Uniform initialization with braces
+    int a{42};
+    vector&lt;int&gt; w{1, 2, 3, 4, 5};
+    map&lt;string, int&gt; marks{{&quot;Arjun&quot;, 85}, {&quot;Priya&quot;, 92}};
+
+    // auto with iterators (no more verbose type names)
+    auto it = marks.find(&quot;Arjun&quot;);
+    if (it != marks.end())
+        cout &lt;&lt; it-&gt;first &lt;&lt; &quot;: &quot; &lt;&lt; it-&gt;second &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>auto</code> lets the compiler deduce the type, eliminating verbose declarations like <code>map&lt;string, int&gt;::iterator</code>. Range-based for replaces manual iterator loops. Uniform initialization with <code>{}</code> prevents narrowing conversions (e.g., <code>int x{3.14}</code> is a compile error). These three features alone make C++11 code dramatically cleaner than C++03.</div><div class="code-example-output">10 20 30 40 50
+20 40 60 80 100
+Arjun: 85</div></div>
+<div class="code-example"><div class="code-example-title">C++11: Lambdas and Capture Modes</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+int main() {
+    // Basic lambda: [capture](params) -&gt; return_type { body }
+    auto square = [](int x) { return x * x; };
+    cout &lt;&lt; &quot;square(5) = &quot; &lt;&lt; square(5) &lt;&lt; endl;
+
+    // Capture by value [=] and by reference [&amp;]
+    int factor = 3;
+    auto multiply = [factor](int x) { return x * factor; };
+    cout &lt;&lt; &quot;multiply(7) = &quot; &lt;&lt; multiply(7) &lt;&lt; endl;
+
+    // Capture by reference to modify
+    int total = 0;
+    vector&lt;int&gt; v = {1, 2, 3, 4, 5};
+    for_each(v.begin(), v.end(), [&amp;total](int x) { total += x; });
+    cout &lt;&lt; &quot;Total: &quot; &lt;&lt; total &lt;&lt; endl;
+
+    // Lambda as comparator for sort
+    vector&lt;pair&lt;string, int&gt;&gt; students = {
+        {&quot;Arjun&quot;, 85}, {&quot;Priya&quot;, 92}, {&quot;Kiran&quot;, 78}
+    };
+    sort(students.begin(), students.end(),
+        [](const pair&lt;string, int&gt;&amp; a, const pair&lt;string, int&gt;&amp; b) {
+            return a.second &gt; b.second;  // sort by marks descending
+        });
+    for (auto&amp; [name, marks] : students)
+        cout &lt;&lt; name &lt;&lt; &quot;: &quot; &lt;&lt; marks &lt;&lt; endl;
+
+    // Mutable lambda (modify captured-by-value variables)
+    int counter = 0;
+    auto inc = [counter]() mutable { return ++counter; };
+    cout &lt;&lt; inc() &lt;&lt; &quot; &quot; &lt;&lt; inc() &lt;&lt; &quot; &quot; &lt;&lt; inc() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Original counter: &quot; &lt;&lt; counter &lt;&lt; endl;  // unchanged
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Lambdas are anonymous functions: <code>[capture](params){ body }</code>. Capture modes: <code>[x]</code> by value, <code>[&x]</code> by reference, <code>[=]</code> all by value, <code>[&]</code> all by reference. The <code>mutable</code> keyword allows modifying captured-by-value variables (the copy, not the original). Lambdas are essential for STL algorithms, custom comparators, and callbacks.</div><div class="code-example-output">square(5) = 25
+multiply(7) = 21
+Total: 15
+Priya: 92
+Arjun: 85
+Kiran: 78
+1 2 3
+Original counter: 0</div></div>
+<div class="code-example"><div class="code-example-title">C++11: nullptr, enum class, constexpr</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+// nullptr replaces NULL
+void process(int n) { cout &lt;&lt; &quot;int: &quot; &lt;&lt; n &lt;&lt; endl; }
+void process(int* p) { cout &lt;&lt; &quot;pointer: &quot; &lt;&lt; p &lt;&lt; endl; }
+
+// enum class: strongly typed, no implicit conversion
+enum class Color { Red, Green, Blue };
+enum class Size { Small, Medium, Large };
+
+// constexpr: compile-time computation
+constexpr int factorial(int n) {
+    return (n &lt;= 1) ? 1 : n * factorial(n - 1);
+}
+
+constexpr int fibonacci(int n) {
+    if (n &lt;= 1) return n;
+    int a = 0, b = 1;
+    for (int i = 2; i &lt;= n; i++) {
+        int temp = a + b;
+        a = b;
+        b = temp;
+    }
+    return b;
+}
+
+int main() {
+    // nullptr: unambiguous null pointer
+    int* ptr = nullptr;
+    // process(NULL);    // Ambiguous! NULL is 0 (int)
+    process(nullptr);    // Calls process(int*)
+    process(42);         // Calls process(int)
+
+    // enum class: scoped, no implicit int conversion
+    Color c = Color::Red;
+    // int x = c;        // ERROR: no implicit conversion
+    int x = static_cast&lt;int&gt;(c);  // Explicit: 0
+    cout &lt;&lt; &quot;Color value: &quot; &lt;&lt; x &lt;&lt; endl;
+
+    // constexpr: evaluated at compile time
+    constexpr int fact5 = factorial(5);   // Computed at compile time!
+    constexpr int fib10 = fibonacci(10);  // Also compile time
+    cout &lt;&lt; &quot;5! = &quot; &lt;&lt; fact5 &lt;&lt; endl;
+    cout &lt;&lt; &quot;fib(10) = &quot; &lt;&lt; fib10 &lt;&lt; endl;
+
+    // constexpr array size
+    constexpr int N = 1024;
+    int arr[N];  // Valid: N is known at compile time
+    cout &lt;&lt; &quot;Array size: &quot; &lt;&lt; N &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>nullptr</code> is a type-safe null pointer constant that resolves overload ambiguity (unlike NULL which is just 0). <code>enum class</code> creates scoped enumerations with no implicit int conversion, preventing accidental comparisons between unrelated enums. <code>constexpr</code> functions are evaluated at compile time when given constant arguments, enabling zero-runtime-cost computations.</div><div class="code-example-output">pointer: 0
+int: 42
+Color value: 0
+5! = 120
+fib(10) = 55
+Array size: 1024</div></div>
+<div class="code-example"><div class="code-example-title">C++14: Generic Lambdas and Return Type Deduction</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;string&gt;
+using namespace std;
+
+int main() {
+    // Generic lambda (C++14): auto parameters
+    auto print = [](auto x) { cout &lt;&lt; x &lt;&lt; &quot; &quot;; };
+    print(42);       // int
+    print(3.14);     // double
+    print(&quot;hello&quot;);  // const char*
+    cout &lt;&lt; endl;
+
+    // Generic lambda as comparator
+    auto maxOf = [](auto a, auto b) { return (a &gt; b) ? a : b; };
+    cout &lt;&lt; &quot;max(3, 7) = &quot; &lt;&lt; maxOf(3, 7) &lt;&lt; endl;
+    cout &lt;&lt; &quot;max(3.14, 2.71) = &quot; &lt;&lt; maxOf(3.14, 2.71) &lt;&lt; endl;
+
+    // Return type deduction (C++14)
+    auto add = [](auto a, auto b) { return a + b; };
+    cout &lt;&lt; &quot;add(2, 3) = &quot; &lt;&lt; add(2, 3) &lt;&lt; endl;
+    cout &lt;&lt; &quot;add(2.5, 3.7) = &quot; &lt;&lt; add(2.5, 3.7) &lt;&lt; endl;
+    cout &lt;&lt; &quot;add strings: &quot; &lt;&lt; add(string(&quot;Hello&quot;), string(&quot; World&quot;)) &lt;&lt; endl;
+
+    // C++14: auto return type deduction for functions
+    // auto multiply(int a, int b) { return a * b; }  // Valid in C++14
+
+    // Generic lambda for sorting any vector
+    auto sortAndPrint = [](auto&amp; vec) {
+        sort(vec.begin(), vec.end());
+        for (const auto&amp; x : vec) cout &lt;&lt; x &lt;&lt; &quot; &quot;;
+        cout &lt;&lt; endl;
+    };
+
+    vector&lt;int&gt; ints = {5, 3, 1, 4, 2};
+    vector&lt;string&gt; strs = {&quot;Kiran&quot;, &quot;Arjun&quot;, &quot;Priya&quot;};
+    sortAndPrint(ints);
+    sortAndPrint(strs);
+
+    return 0;
+}</code></pre><div class="code-example-explanation">C++14 generic lambdas use <code>auto</code> for parameters, making them work like templates. The compiler generates a separate function for each type used. Return type deduction lets the compiler figure out the return type automatically. These features make lambdas as powerful as template functions but with inline convenience.</div><div class="code-example-output">42 3.14 hello
+max(3, 7) = 7
+max(3.14, 2.71) = 3.14
+add(2, 3) = 5
+add(2.5, 3.7) = 6.2
+add strings: Hello World
+1 2 3 4 5
+Arjun Kiran Priya</div></div>
+<div class="code-example"><div class="code-example-title">C++17: Structured Bindings, If-Init, and optional</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;map&gt;
+#include &lt;optional&gt;
+#include &lt;string&gt;
+#include &lt;tuple&gt;
+using namespace std;
+
+// Function returning optional (may or may not have a value)
+optional&lt;int&gt; findIndex(const vector&lt;int&gt;&amp; v, int target) {
+    for (int i = 0; i &lt; (int)v.size(); i++)
+        if (v[i] == target) return i;
+    return nullopt;  // No value
+}
+
+tuple&lt;string, int, double&gt; getStudent() {
+    return {&quot;Arjun&quot;, 85, 9.2};
+}
+
+int main() {
+    // Structured bindings: unpack pairs, tuples, structs
+    auto [name, marks, gpa] = getStudent();
+    cout &lt;&lt; name &lt;&lt; &quot;: &quot; &lt;&lt; marks &lt;&lt; &quot;, GPA: &quot; &lt;&lt; gpa &lt;&lt; endl;
+
+    // Structured bindings with maps
+    map&lt;string, int&gt; scores = {{&quot;Arjun&quot;, 85}, {&quot;Priya&quot;, 92}, {&quot;Kiran&quot;, 78}};
+    for (auto&amp; [student, score] : scores)
+        cout &lt;&lt; student &lt;&lt; &quot;: &quot; &lt;&lt; score &lt;&lt; endl;
+
+    // If with initializer (C++17)
+    if (auto it = scores.find(&quot;Priya&quot;); it != scores.end())
+        cout &lt;&lt; &quot;Found Priya: &quot; &lt;&lt; it-&gt;second &lt;&lt; endl;
+    else
+        cout &lt;&lt; &quot;Priya not found&quot; &lt;&lt; endl;
+    // it is not accessible here (scoped to the if)
+
+    // std::optional
+    vector&lt;int&gt; v = {10, 20, 30, 40, 50};
+    auto result = findIndex(v, 30);
+    if (result.has_value())
+        cout &lt;&lt; &quot;Found at index: &quot; &lt;&lt; result.value() &lt;&lt; endl;
+    else
+        cout &lt;&lt; &quot;Not found&quot; &lt;&lt; endl;
+
+    auto missing = findIndex(v, 99);
+    cout &lt;&lt; &quot;99 found? &quot; &lt;&lt; missing.has_value() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Default: &quot; &lt;&lt; missing.value_or(-1) &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">C++17 structured bindings (<code>auto [x, y] = pair</code>) eliminate <code>.first</code>/<code>.second</code> boilerplate. If-with-initializer limits variable scope to the if/else block. <code>std::optional</code> represents a value that may or may not exist, replacing sentinel values (-1, nullptr) with an explicit type.</div><div class="code-example-output">Arjun: 85, GPA: 9.2
+Arjun: 85
+Kiran: 78
+Priya: 92
+Found Priya: 92
+Found at index: 2
+99 found? 0
+Default: -1</div></div>
+<div class="code-example"><div class="code-example-title">C++17: string_view and using Aliases</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+#include &lt;string_view&gt;
+#include &lt;vector&gt;
+using namespace std;
+
+// string_view: non-owning reference to string data (zero-copy)
+void greet(string_view name) {
+    cout &lt;&lt; &quot;Hello, &quot; &lt;&lt; name &lt;&lt; &quot;!&quot; &lt;&lt; endl;
+}
+
+// Count words without copying the string
+int countWords(string_view text) {
+    int count = 0;
+    bool inWord = false;
+    for (char c : text) {
+        if (c != &#39; &#39; &amp;&amp; !inWord) { count++; inWord = true; }
+        else if (c == &#39; &#39;) inWord = false;
+    }
+    return count;
+}
+
+// using alias (C++11): cleaner than typedef
+using StringVec = vector&lt;string&gt;;
+using ScoreMap = map&lt;string, int&gt;;
+template&lt;typename T&gt;
+using Vec = vector&lt;T&gt;;  // Template alias!
+
+int main() {
+    // string_view works with string, const char*, and substrings
+    string s = &quot;Vikram Sharma&quot;;
+    greet(s);              // From string
+    greet(&quot;Priya&quot;);        // From literal (no string construction!)
+
+    string_view sv = s;
+    cout &lt;&lt; &quot;First name: &quot; &lt;&lt; sv.substr(0, 6) &lt;&lt; endl;  // Zero-copy substring
+    cout &lt;&lt; &quot;Words: &quot; &lt;&lt; countWords(&quot;Modern C++ is powerful&quot;) &lt;&lt; endl;
+
+    // using aliases in action
+    StringVec names = {&quot;Arjun&quot;, &quot;Priya&quot;, &quot;Kiran&quot;};
+    Vec&lt;int&gt; numbers = {1, 2, 3, 4, 5};  // Template alias
+    for (auto&amp; name : names) cout &lt;&lt; name &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>string_view</code> is a non-owning, read-only view into string data. It avoids copying when you just need to read a string. It works with <code>std::string</code>, C-string literals, and substrings. <code>using</code> aliases (C++11) replace <code>typedef</code> with cleaner syntax and support template aliases, which <code>typedef</code> cannot.</div><div class="code-example-output">Hello, Vikram Sharma!
+Hello, Priya!
+First name: Vikram
+Words: 4
+Arjun Priya Kiran</div></div>
+<div class="code-example"><div class="code-example-title">C++20: Concepts and the Spaceship Operator</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;concepts&gt;
+#include &lt;compare&gt;
+#include &lt;string&gt;
+using namespace std;
+
+// Concept: constrain template parameters
+template&lt;typename T&gt;
+concept Numeric = is_arithmetic_v&lt;T&gt;;
+
+template&lt;typename T&gt;
+concept Printable = requires(T t) {
+    { cout &lt;&lt; t } -&gt; same_as&lt;ostream&amp;&gt;;
+};
+
+// Function using concept (clear error messages!)
+template&lt;Numeric T&gt;
+T add(T a, T b) {
+    return a + b;
+}
+
+// Abbreviated function template with auto + concept
+void printValue(Printable auto val) {
+    cout &lt;&lt; &quot;Value: &quot; &lt;&lt; val &lt;&lt; endl;
+}
+
+// Spaceship operator &lt;=&gt; : three-way comparison
+struct Student {
+    string name;
+    int marks;
+
+    // Compiler generates ==, !=, &lt;, &gt;, &lt;=, &gt;= from &lt;=&gt;
+    auto operator&lt;=&gt;(const Student&amp;) const = default;
+};
+
+struct Score {
+    int value;
+    // Custom spaceship: compare by value
+    auto operator&lt;=&gt;(const Score&amp; other) const {
+        return value &lt;=&gt; other.value;
+    }
+    bool operator==(const Score&amp; other) const = default;
+};
+
+int main() {
+    // Concepts in action
+    cout &lt;&lt; add(3, 4) &lt;&lt; endl;       // OK: int is Numeric
+    cout &lt;&lt; add(2.5, 3.7) &lt;&lt; endl;   // OK: double is Numeric
+    // add(&quot;a&quot;, &quot;b&quot;);                // ERROR: string is not Numeric (clear message!)
+
+    printValue(42);
+    printValue(&quot;hello&quot;);
+
+    // Spaceship operator
+    Student s1{&quot;Arjun&quot;, 85}, s2{&quot;Priya&quot;, 92};
+    cout &lt;&lt; (s1 &lt; s2) &lt;&lt; endl;   // Compares name first, then marks
+
+    Score a{85}, b{92}, c{85};
+    cout &lt;&lt; (a &lt; b) &lt;&lt; &quot; &quot; &lt;&lt; (a == c) &lt;&lt; &quot; &quot; &lt;&lt; (b &gt; a) &lt;&lt; endl;
+
+    // Three-way comparison result
+    auto result = a &lt;=&gt; b;
+    if (result &lt; 0) cout &lt;&lt; &quot;a &lt; b&quot; &lt;&lt; endl;
+    else if (result &gt; 0) cout &lt;&lt; &quot;a &gt; b&quot; &lt;&lt; endl;
+    else cout &lt;&lt; &quot;a == b&quot; &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">C++20 <code>concepts</code> constrain template parameters with readable requirements. Instead of cryptic SFINAE errors, you get clear messages like "T does not satisfy Numeric." The <code>&lt;=&gt;</code> (spaceship) operator generates all six comparison operators from a single declaration. <code>= default</code> asks the compiler to generate memberwise comparison. These features make generic C++ dramatically more approachable.</div><div class="code-example-output">7
+6.2
+Value: 42
+Value: hello
+1
+1 1 1
+a &lt; b</div></div>
+<div class="code-example"><div class="code-example-title">Old vs Modern C++: Before and After Comparison</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;map&gt;
+#include &lt;algorithm&gt;
+#include &lt;memory&gt;
+#include &lt;numeric&gt;
+using namespace std;
+
+int main() {
+    // === VARIABLE DECLARATION ===
+    // Old: explicit types everywhere
+    map&lt;string, vector&lt;int&gt;&gt;::iterator oldIt;
+    // Modern: auto
+    auto modernMap = map&lt;string, vector&lt;int&gt;&gt;{{&quot;Arjun&quot;, {85, 90, 78}}};
+    auto it = modernMap.begin();
+
+    // === ITERATION ===
+    vector&lt;int&gt; v = {1, 2, 3, 4, 5};
+    // Old:
+    for (vector&lt;int&gt;::iterator i = v.begin(); i != v.end(); ++i)
+        cout &lt;&lt; *i &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+    // Modern:
+    for (auto x : v) cout &lt;&lt; x &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+
+    // === NULL POINTER ===
+    // Old: NULL (which is 0, an int)
+    int* oldPtr = NULL;
+    // Modern: nullptr (type-safe)
+    int* newPtr = nullptr;
+
+    // === FUNCTION OBJECTS ===
+    // Old: write a whole struct
+    struct OldCompare {
+        bool operator()(int a, int b) { return a &gt; b; }
+    };
+    sort(v.begin(), v.end(), OldCompare());
+    // Modern: lambda
+    sort(v.begin(), v.end(), [](int a, int b) { return a &gt; b; });
+
+    // === MEMORY MANAGEMENT ===
+    // Old: raw new/delete
+    int* oldArr = new int[5];
+    delete[] oldArr;
+    // Modern: smart pointer
+    auto smartArr = make_unique&lt;int[]&gt;(5);
+
+    // === TYPE ALIASES ===
+    // Old: typedef
+    typedef vector&lt;pair&lt;string, int&gt;&gt; OldType;
+    // Modern: using
+    using ModernType = vector&lt;pair&lt;string, int&gt;&gt;;
+
+    cout &lt;&lt; &quot;Modern C++ is cleaner and safer!&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">This program shows the same operations in old C++03 style and modern C++11/17 style. Every modern replacement is shorter, safer, or both. The transformation is dramatic: <code>auto</code> replaces verbose types, range-based for replaces iterator loops, <code>nullptr</code> replaces <code>NULL</code>, lambdas replace function objects, smart pointers replace raw <code>new/delete</code>, and <code>using</code> replaces <code>typedef</code>.</div><div class="code-example-output">1 2 3 4 5
+1 2 3 4 5
+Modern C++ is cleaner and safer!</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using auto When the Type Is Unclear or Surprising</h3>
+                <div class="wrong-code"><pre><code class="language-python">auto x = 3.14f;  // float, not double!
+auto y = {1, 2, 3};  // initializer_list&lt;int&gt;, not vector!
+auto z = &quot;hello&quot;;  // const char*, not string!</code></pre></div><div class="error-message">auto deduces the exact type of the initializer, which may not be what you expect. 3.14f is float, not double. A braced list is initializer_list, not vector. A string literal is const char*, not std::string.</div><div class="correct-code"><pre><code class="language-python">double x = 3.14;           // Explicit when type matters
+vector&lt;int&gt; y = {1, 2, 3}; // Explicit vector
+string z = &quot;hello&quot;;        // Explicit string
+// Or use auto with the right initializer:
+auto x2 = 3.14;            // double (no f suffix)
+auto z2 = &quot;hello&quot;s;        // string (with s suffix)</code></pre></div><div class="mistake-explanation">Use <code>auto</code> when the type is obvious from context (iterators, lambda results, make_unique results). Use explicit types when the deduced type might be surprising or when you want a specific type.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Capturing by Reference in a Lambda That Outlives the Scope</h3>
+                <div class="wrong-code"><pre><code class="language-python">auto createCounter() {
+    int count = 0;
+    return [&amp;count]() { return ++count; };  // Dangling reference!
+}
+auto counter = createCounter();
+cout &lt;&lt; counter() &lt;&lt; endl;  // Undefined behavior!</code></pre></div><div class="error-message">The lambda captures count by reference, but count is destroyed when createCounter returns. The lambda now holds a dangling reference. Calling it is undefined behavior.</div><div class="correct-code"><pre><code class="language-python">auto createCounter() {
+    int count = 0;
+    return [count]() mutable { return ++count; };  // Capture by value
+}
+auto counter = createCounter();
+cout &lt;&lt; counter() &lt;&lt; endl;  // Safe: 1</code></pre></div><div class="mistake-explanation">Capture by value (<code>[count]</code>) when the lambda outlives the captured variable's scope. Use <code>mutable</code> to allow modification of the captured copy. Only capture by reference when you are certain the referenced variable will outlive the lambda.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting That constexpr Functions Must Be Evaluable at Compile Time</h3>
+                <div class="wrong-code"><pre><code class="language-python">constexpr int readInput() {
+    int x;
+    cin &gt;&gt; x;  // ERROR: cin is not constexpr
+    return x;
+}</code></pre></div><div class="error-message">constexpr functions can only use operations that are evaluable at compile time. I/O operations, dynamic memory allocation (in C++11), and non-constexpr function calls are not allowed.</div><div class="correct-code"><pre><code class="language-python">constexpr int square(int x) {
+    return x * x;  // Pure computation, no I/O
+}
+
+constexpr int result = square(5);  // Evaluated at compile time
+int runtime = square(n);  // Can also be called at runtime</code></pre></div><div class="mistake-explanation">A <code>constexpr</code> function must be evaluable at compile time when given constant arguments. It can still be called at runtime with non-constant arguments. Keep constexpr functions pure: no I/O, no global state modification.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using string_view After the Source String Is Destroyed</h3>
+                <div class="wrong-code"><pre><code class="language-python">string_view getDangling() {
+    string s = &quot;temporary&quot;;
+    return string_view(s);  // s destroyed, view is dangling!
+}
+string_view sv = getDangling();
+cout &lt;&lt; sv &lt;&lt; endl;  // Undefined behavior!</code></pre></div><div class="error-message">string_view is a non-owning reference. If the underlying string is destroyed, the string_view becomes a dangling pointer. Accessing it is undefined behavior.</div><div class="correct-code"><pre><code class="language-python">// Option 1: Return string, not string_view
+string getSafe() {
+    string s = &quot;temporary&quot;;
+    return s;  // Move semantics, efficient
+}
+
+// Option 2: Use string_view only for function parameters
+void process(string_view sv) {
+    cout &lt;&lt; sv &lt;&lt; endl;  // Safe: caller owns the string
+}</code></pre></div><div class="mistake-explanation"><code>string_view</code> should primarily be used for function parameters and local references to existing strings. Never return a <code>string_view</code> that refers to a local variable. If you need to return string data, return <code>std::string</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Structured Bindings with Wrong Number of Variables</h3>
+                <div class="wrong-code"><pre><code class="language-python">pair&lt;int, string&gt; p = {1, &quot;hello&quot;};
+auto [a, b, c] = p;  // ERROR: pair has 2 elements, not 3</code></pre></div><div class="error-message">Structured bindings require the exact number of variables to match the number of elements in the pair, tuple, or struct. Mismatching counts is a compile error.</div><div class="correct-code"><pre><code class="language-python">pair&lt;int, string&gt; p = {1, &quot;hello&quot;};
+auto [a, b] = p;  // Correct: 2 variables for pair
+cout &lt;&lt; a &lt;&lt; &quot; &quot; &lt;&lt; b &lt;&lt; endl;
+
+tuple&lt;int, string, double&gt; t = {1, &quot;hello&quot;, 3.14};
+auto [x, y, z] = t;  // Correct: 3 variables for 3-element tuple</code></pre></div><div class="mistake-explanation">The number of variables in a structured binding must exactly match the number of members. For pairs, use 2 variables. For tuples, use the exact tuple size. For structs, match the number of public non-static data members.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>C++11 auto deduces types from initializers, eliminating verbose type declarations. Use it for iterators, lambda results, and make_unique/make_shared results. Avoid it when the deduced type might be surprising.</li>
+<li>Range-based for loops (for (auto x : container)) replace manual iterator loops. Use auto&amp; for references (modify or avoid copy), const auto&amp; for read-only access to non-trivial types.</li>
+<li>Lambdas [capture](params){ body } are anonymous functions. Capture by value [x], by reference [&amp;x], all by value [=], or all by reference [&amp;]. Use mutable to modify by-value captures. Lambdas are essential for STL algorithm comparators and callbacks.</li>
+<li>nullptr is a type-safe null pointer (replaces NULL which is just 0). enum class is a scoped enumeration with no implicit int conversion. constexpr enables compile-time evaluation of functions and variables.</li>
+<li>C++14 generic lambdas use auto parameters, working like templates. Return type deduction lets the compiler infer the return type. These make lambdas as powerful as template functions.</li>
+<li>C++17 structured bindings (auto [x, y] = pair) unpack pairs, tuples, and structs. If-with-initializer (if (auto x = expr; condition)) limits variable scope. std::optional represents a value that may not exist.</li>
+<li>C++17 string_view is a non-owning, read-only view into string data. It avoids copies when passing strings to functions. Never let a string_view outlive its source string.</li>
+<li>C++20 concepts constrain template parameters with readable requirements, replacing SFINAE with clear error messages. The spaceship operator (&lt;=&gt;) generates all six comparison operators from a single declaration.</li>
+<li>Modern C++ follows the Rule of Zero: use smart pointers, std::string, and std::vector so the compiler-generated constructors and destructors do the right thing. No manual new/delete.</li>
+<li>The evolution from C++03 to C++20 makes the language dramatically safer and more productive: auto reduces boilerplate, lambdas replace function objects, smart pointers prevent leaks, constexpr moves computation to compile time, and concepts make templates readable.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/competitive-programming-patterns" class="related-topic-link">Competitive Programming Patterns in C++</a>
+<a href="/resources/cpp/introduction-to-cpp" class="related-topic-link">Introduction to C++</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/competitive-programming-patterns" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Competitive Programming Patterns in C++</span>
+        </a>
+            
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/modern-cpp-features/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

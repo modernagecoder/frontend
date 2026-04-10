@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Arrays and Multidimensional Arrays | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="59+ practice questions on Arrays and Multidimensional Arrays in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="arrays and multidimensional arrays practice, c++ questions, c++ practice problems, arrays and multidimensional arrays exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/arrays-in-cpp/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/arrays-in-cpp/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/arrays-in-cpp/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/arrays-in-cpp/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/arrays-in-cpp/practice">
+    <meta property="og:title" content="Practice Questions - Arrays and Multidimensional Arrays | C++ | Modern Age Coders">
+    <meta property="og:description" content="59+ practice questions on Arrays and Multidimensional Arrays in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/arrays-in-cpp/practice">
+    <meta name="twitter:title" content="Practice Questions - Arrays and Multidimensional Arrays | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="59+ practice questions on Arrays and Multidimensional Arrays in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Arrays and Multidimensional Arrays",
+    "description": "59+ practice questions on Arrays and Multidimensional Arrays in C++.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Arrays and Multidimensional Arrays"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/arrays-in-cpp/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Arrays and Multidimensional Arrays",
+        "item": "https://learn.modernagecoders.com/resources/cpp/arrays-in-cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/arrays-in-cpp/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/arrays-in-cpp">Arrays and Multidimensional Arrays</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 9</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">59 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Arrays and Multidimensional Arrays</h1>
+            <a href="/resources/cpp/arrays-in-cpp" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">14</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[5] = {10, 20, 30, 40, 50};
+    cout &lt;&lt; arr[0] &lt;&lt; " " &lt;&lt; arr[4] &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Arrays are 0-indexed. arr[0] is first, arr[4] is last.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>10 50</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[5] = {1, 2};
+    for (int i = 0; i &lt; 5; i++) {
+        cout &lt;&lt; arr[i] &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Partial initialization fills remaining elements with 0.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>1 2 0 0 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[] = {5, 10, 15, 20};
+    cout &lt;&lt; sizeof(arr) &lt;&lt; endl;
+    cout &lt;&lt; sizeof(arr) / sizeof(arr[0]) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">4 ints * 4 bytes = 16 bytes. 16 / 4 = 4 elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>16</code><br><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+void func(int arr[]) {
+    cout &lt;&lt; sizeof(arr) &lt;&lt; endl;
+}
+int main() {
+    int arr[5] = {1, 2, 3, 4, 5};
+    cout &lt;&lt; sizeof(arr) &lt;&lt; endl;
+    func(arr);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">In the function, arr decays to a pointer.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>20</code><br><code>8</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+void modify(int arr[]) {
+    arr[0] = 99;
+}
+int main() {
+    int arr[] = {1, 2, 3};
+    modify(arr);
+    cout &lt;&lt; arr[0] &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Arrays are passed by pointer, so modifications affect the original.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>99</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int mat[2][3] = {{1, 2, 3}, {4, 5, 6}};
+    cout &lt;&lt; mat[0][2] &lt;&lt; " " &lt;&lt; mat[1][0] &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">mat[row][col]. Row 0 col 2 = 3. Row 1 col 0 = 4.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>3 4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[] = {5, 3, 8, 1, 9, 2};
+    int n = 6;
+    int maxVal = arr[0];
+    for (int i = 1; i &lt; n; i++) {
+        if (arr[i] &gt; maxVal) maxVal = arr[i];
+    }
+    cout &lt;&lt; maxVal &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Track the running maximum through the array.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>9</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[] = {4, 2, 7, 1, 5};
+    int n = 5;
+    // One pass of bubble sort
+    for (int j = 0; j &lt; n - 1; j++) {
+        if (arr[j] &gt; arr[j + 1]) {
+            swap(arr[j], arr[j + 1]);
+        }
+    }
+    for (int i = 0; i &lt; n; i++) cout &lt;&lt; arr[i] &lt;&lt; " ";
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">One pass of bubble sort moves the largest element to the end.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>2 4 1 5 7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between <code>int arr[5];</code> declared locally vs globally?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Think about initialization and memory location.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">A local (inside main/function) array is stored on the <strong>stack</strong> and contains <strong>garbage values</strong> (uninitialized). A global (outside all functions) array is stored in the <strong>data segment</strong> and is automatically <strong>initialized to 0</strong>. Global arrays can also be much larger without stack overflow.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is binary search O(log n) while linear search is O(n)?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">How many elements does each eliminate per step?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">Linear search checks elements one by one -- worst case checks all n elements. Binary search halves the search range each step by comparing with the middle element. After k steps, the range is n/2^k. When n/2^k = 1, k = log2(n). So binary search needs at most log2(n) comparisons.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[3] = {10, 20, 30};
+    int* ptr = arr;
+    cout &lt;&lt; *ptr &lt;&lt; " " &lt;&lt; *(ptr + 1) &lt;&lt; " " &lt;&lt; *(ptr + 2) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">An array name is a pointer to the first element. Pointer arithmetic accesses subsequent elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>10 20 30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    int n = 5;
+    int left = 0, right = n - 1;
+    while (left &lt; right) {
+        swap(arr[left], arr[right]);
+        left++;
+        right--;
+    }
+    for (int i = 0; i &lt; n; i++) cout &lt;&lt; arr[i] &lt;&lt; " ";
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Two-pointer technique for reversing.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>5 4 3 2 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the difference between <code>int arr[5]</code> and <code>vector&lt;int&gt; vec(5)</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Think about size flexibility, memory location, and bounds checking.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">Array: fixed size (5), stored on stack (local) or data segment (global), no bounds checking, sizeof gives total bytes (20). Vector: dynamic size (can grow/shrink), stored on heap, <code>at()</code> provides bounds checking, <code>sizeof</code> gives struct size (24), provides <code>size()</code>, <code>push_back()</code>, and other member functions.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int a[2][2] = {{1, 2}, {3, 4}};
+    cout &lt;&lt; sizeof(a) &lt;&lt; endl;
+    cout &lt;&lt; sizeof(a[0]) &lt;&lt; endl;
+    cout &lt;&lt; sizeof(a[0][0]) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">a is 2x2 = 4 ints. a[0] is a row of 2 ints. a[0][0] is one int.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>16</code><br><code>8</code><br><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[5] = {};
+    for (int i = 0; i &lt; 5; i++) cout &lt;&lt; arr[i] &lt;&lt; " ";
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Empty braces {} zero-initialize the array in C++11.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>0 0 0 0 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a function that takes an integer array and its size, and returns the sum of all elements.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Loop through the array and accumulate the sum.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int arraySum(int arr[], int n) {
+    int sum = 0;
+    for (int i = 0; i &lt; n; i++) sum += arr[i];
+    return sum;
+}
+int main() {
+    int arr[] = {3, 7, 2, 8, 5};
+    cout &lt;&lt; arraySum(arr, 5) &lt;&lt; endl;
+    return 0;
+}</code></pre>
+Output: 25</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[] = {1, 3, 5, 7, 9};
+    int low = 0, high = 4, target = 5;
+    while (low &lt;= high) {
+        int mid = (low + high) / 2;
+        if (arr[mid] == target) {
+            cout &lt;&lt; "Found at " &lt;&lt; mid &lt;&lt; endl;
+            break;
+        }
+        if (arr[mid] &lt; target) low = mid + 1;
+        else high = mid - 1;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Binary search: mid = (0+4)/2 = 2. arr[2] = 5 == target.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>Found at 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[] = {3, 1, 4, 1, 5};
+    int n = 5;
+    // Selection sort: find min and place at front
+    for (int i = 0; i &lt; n - 1; i++) {
+        int minIdx = i;
+        for (int j = i + 1; j &lt; n; j++) {
+            if (arr[j] &lt; arr[minIdx]) minIdx = j;
+        }
+        swap(arr[i], arr[minIdx]);
+    }
+    for (int i = 0; i &lt; n; i++) cout &lt;&lt; arr[i] &lt;&lt; " ";
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Selection sort finds the minimum in the unsorted portion and places it at the beginning.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>1 1 3 4 5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[3];
+    arr[0] = 10;
+    arr[1] = 20;
+    arr[2] = 30;
+    cout &lt;&lt; arr[0] + arr[1] + arr[2] &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Elements are assigned individually, then summed.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>60</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int arr[5];  // Global
+int main() {
+    int brr[5];  // Local
+    cout &lt;&lt; arr[0] &lt;&lt; endl;
+    // cout &lt;&lt; brr[0]; // Garbage!
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Global arrays are zero-initialized. Local arrays are not.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>arr[i]</code> and <code>*(arr + i)</code> in C++?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">Think about pointer arithmetic and array access.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21">They are exactly equivalent. <code>arr[i]</code> is syntactic sugar for <code>*(arr + i)</code>. The array name <code>arr</code> decays to a pointer to the first element. Adding <code>i</code> advances the pointer by <code>i * sizeof(element)</code> bytes. Dereferencing with <code>*</code> gives the value.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[] = {10, 20, 30, 40, 50};
+    int n = 5;
+    int sum = 0;
+    for (int i = 0; i &lt; n; i += 2) {
+        sum += arr[i];
+    }
+    cout &lt;&lt; sum &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">The loop increments by 2, so it visits indices 0, 2, 4.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22"><code>90</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int a[2][3] = {{1,2,3},{4,5,6}};
+    cout &lt;&lt; a[0][2] + a[1][0] &lt;&lt; endl;
+    cout &lt;&lt; sizeof(a) / sizeof(a[0][0]) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-23">a[0][2] is 3, a[1][0] is 4. Total elements = 2*3 = 6.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-23"><code>7</code><br><code>6</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[4] = {10, 20, 30, 40};
+    arr[1] = 99;
+    cout &lt;&lt; arr[1] &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Array elements can be modified by index.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>99</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[] = {5, 10, 15};
+    for (int x : arr) {
+        cout &lt;&lt; x * 2 &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Range-based for loop iterates over all elements. x is a copy.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>10 20 30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[3][3] = {
+        {1, 0, 0},
+        {0, 1, 0},
+        {0, 0, 1}
+    };
+    int trace = 0;
+    for (int i = 0; i &lt; 3; i++) {
+        trace += arr[i][i];
+    }
+    cout &lt;&lt; trace &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">The trace is the sum of diagonal elements (where row == column).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a program that reads 5 integers into an array and prints them in reverse order.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Read into arr[0..4], then print from arr[4] down to arr[0].</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[5];
+    for (int i = 0; i &lt; 5; i++) cin &gt;&gt; arr[i];
+    for (int i = 4; i &gt;= 0; i--) cout &lt;&lt; arr[i] &lt;&lt; " ";
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre>
+Input: 1 2 3 4 5
+Output: 5 4 3 2 1</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[] = {2, 4, 6, 8, 10};
+    int n = 5;
+    // Prefix sum
+    for (int i = 1; i &lt; n; i++) {
+        arr[i] += arr[i - 1];
+    }
+    for (int i = 0; i &lt; n; i++) cout &lt;&lt; arr[i] &lt;&lt; " ";
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Each element becomes the sum of all elements up to and including itself.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>2 6 12 20 30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[] = {5, 2, 8, 1, 9};
+    int n = 5;
+    // Insertion sort
+    for (int i = 1; i &lt; n; i++) {
+        int key = arr[i];
+        int j = i - 1;
+        while (j &gt;= 0 &amp;&amp; arr[j] &gt; key) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = key;
+    }
+    for (int i = 0; i &lt; n; i++) cout &lt;&lt; arr[i] &lt;&lt; " ";
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Insertion sort inserts each element into its correct position in the sorted portion.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>1 2 5 8 9</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a function that takes a 2D array (3x3) and prints the transpose (rows become columns).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Transpose: transposed[j][i] = original[i][j].</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int mat[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
+    int trans[3][3];
+    for (int i = 0; i &lt; 3; i++)
+        for (int j = 0; j &lt; 3; j++)
+            trans[j][i] = mat[i][j];
+    for (int i = 0; i &lt; 3; i++) {
+        for (int j = 0; j &lt; 3; j++)
+            cout &lt;&lt; trans[i][j] &lt;&lt; " ";
+        cout &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre>
+Output:
+1 4 7
+2 5 8
+3 6 9</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[] = {1, 3, 5, 7, 9, 11};
+    int n = 6, target = 7;
+    int low = 0, high = n - 1, steps = 0;
+    while (low &lt;= high) {
+        steps++;
+        int mid = low + (high - low) / 2;
+        if (arr[mid] == target) {
+            cout &lt;&lt; "Found at " &lt;&lt; mid &lt;&lt; " in " &lt;&lt; steps &lt;&lt; " steps" &lt;&lt; endl;
+            break;
+        }
+        if (arr[mid] &lt; target) low = mid + 1;
+        else high = mid - 1;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Trace binary search: mid = 2, arr[2]=5 < 7, mid = 4, arr[4]=9 > 7, mid = 3, arr[3]=7 found.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>Found at 3 in 3 steps</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a program that reads n integers and finds the second largest element without sorting.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Track both the largest and second largest in one pass.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>#include &lt;iostream&gt;
+#include &lt;climits&gt;
+using namespace std;
+int main() {
+    int n;
+    cin &gt;&gt; n;
+    int arr[100];
+    for (int i = 0; i &lt; n; i++) cin &gt;&gt; arr[i];
+    int first = INT_MIN, second = INT_MIN;
+    for (int i = 0; i &lt; n; i++) {
+        if (arr[i] &gt; first) {
+            second = first;
+            first = arr[i];
+        } else if (arr[i] &gt; second &amp;&amp; arr[i] != first) {
+            second = arr[i];
+        }
+    }
+    cout &lt;&lt; "Second largest: " &lt;&lt; second &lt;&lt; endl;
+    return 0;
+}</code></pre>
+Input: 5 12 35 1 10 34
+Output: Second largest: 34</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why should you use <code>mid = low + (high - low) / 2</code> instead of <code>mid = (low + high) / 2</code> in binary search?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Think about what happens when low and high are both large.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>(low + high)</code> can overflow if both are close to <code>INT_MAX</code>. For example, if low = 2 billion and high = 2 billion, their sum exceeds <code>INT_MAX</code> and overflows. <code>low + (high - low) / 2</code> computes the difference first (which fits in int) and avoids overflow.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[5] = {0};
+    arr[2] = 42;
+    for (int i = 0; i &lt; 5; i++) cout &lt;&lt; arr[i] &lt;&lt; " ";
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">{0} initializes all elements to 0. Then one element is changed.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>0 0 42 0 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    int n = 5;
+    // Left rotate by 2
+    int temp1 = arr[0], temp2 = arr[1];
+    for (int i = 0; i &lt; n - 2; i++) {
+        arr[i] = arr[i + 2];
+    }
+    arr[n - 2] = temp1;
+    arr[n - 1] = temp2;
+    for (int i = 0; i &lt; n; i++) cout &lt;&lt; arr[i] &lt;&lt; " ";
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Left rotation by 2 moves first 2 elements to the end.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>3 4 5 1 2</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is the index of the last element in <code>int arr[10]</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10</li><li><span class="mcq-option-label">B.</span> 9</li><li><span class="mcq-option-label">C.</span> 11</li><li><span class="mcq-option-label">D.</span> 0</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> Arrays are 0-indexed. An array of size 10 has indices 0 through 9. Accessing arr[10] is out of bounds.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does <code>int arr[5] = {1, 2};</code> initialize the remaining elements to?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Garbage values</li><li><span class="mcq-option-label">B.</span> 1</li><li><span class="mcq-option-label">C.</span> 0</li><li><span class="mcq-option-label">D.</span> -1</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> Partial initialization fills remaining elements with 0. So arr = {1, 2, 0, 0, 0}.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is the time complexity of accessing <code>arr[i]</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(n)</li><li><span class="mcq-option-label">B.</span> O(log n)</li><li><span class="mcq-option-label">C.</span> O(1)</li><li><span class="mcq-option-label">D.</span> O(n^2)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> Array access is O(1) because the address is calculated directly: base_address + i * sizeof(element). No iteration is needed.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What happens when an array is passed to a function in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A copy of the array is created</li><li><span class="mcq-option-label">B.</span> It decays to a pointer to the first element</li><li><span class="mcq-option-label">C.</span> The function receives a reference</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> Arrays decay to pointers when passed to functions. The function receives a pointer to arr[0], not a copy. Changes made inside the function affect the original array.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What is the time complexity of binary search?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(n)</li><li><span class="mcq-option-label">B.</span> O(n^2)</li><li><span class="mcq-option-label">C.</span> O(log n)</li><li><span class="mcq-option-label">D.</span> O(n log n)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> Binary search halves the search range each step, giving O(log n) time complexity. It requires the array to be sorted.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the time complexity of bubble sort in the worst case?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(n)</li><li><span class="mcq-option-label">B.</span> O(n log n)</li><li><span class="mcq-option-label">C.</span> O(n^2)</li><li><span class="mcq-option-label">D.</span> O(log n)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> Bubble sort has two nested loops, each up to n iterations. Worst case (reverse sorted array) requires O(n^2) comparisons and swaps.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">How are elements of a 2D array <code>int a[3][4]</code> stored in memory?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Column-major order</li><li><span class="mcq-option-label">B.</span> Row-major order</li><li><span class="mcq-option-label">C.</span> Random order</li><li><span class="mcq-option-label">D.</span> Depends on the compiler</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> C++ stores 2D arrays in row-major order: all elements of row 0 first, then row 1, then row 2. This affects cache performance when iterating.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is <code>sizeof(arr)</code> inside a function where arr is passed as <code>int arr[]</code> on a 64-bit system?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Size of the entire array</li><li><span class="mcq-option-label">B.</span> 4</li><li><span class="mcq-option-label">C.</span> 8</li><li><span class="mcq-option-label">D.</span> 0</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Inside the function, arr is a pointer (not an array). On a 64-bit system, sizeof(pointer) = 8 bytes, regardless of the original array size.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which sorting algorithm has the best performance on a nearly sorted array?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Bubble sort</li><li><span class="mcq-option-label">B.</span> Selection sort</li><li><span class="mcq-option-label">C.</span> Insertion sort</li><li><span class="mcq-option-label">D.</span> All are equal</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> Insertion sort has O(n) best-case performance on a nearly sorted array because the inner while loop rarely executes. Bubble sort (with optimization) is also O(n) best case, but insertion sort is generally faster in practice.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Why should large arrays in competitive programming be declared globally?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Global arrays are faster to access</li><li><span class="mcq-option-label">B.</span> Global arrays are auto-initialized to 0 and avoid stack overflow</li><li><span class="mcq-option-label">C.</span> Global arrays support dynamic sizing</li><li><span class="mcq-option-label">D.</span> Global arrays have bounds checking</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Local arrays go on the stack (limited to ~1-8 MB). Global arrays go in the data segment (much larger). Global arrays are also automatically zero-initialized, avoiding garbage values.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the correct way to get the number of elements in an array <code>int arr[10]</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> arr.length()</li><li><span class="mcq-option-label">B.</span> arr.size()</li><li><span class="mcq-option-label">C.</span> sizeof(arr) / sizeof(arr[0])</li><li><span class="mcq-option-label">D.</span> len(arr)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> C++ arrays do not have member functions like length() or size(). sizeof(arr) gives total bytes, divided by sizeof(one element) gives the count.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">When passing a 2D array to a function, which dimension can be omitted?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Both dimensions</li><li><span class="mcq-option-label">B.</span> The row dimension (first)</li><li><span class="mcq-option-label">C.</span> The column dimension (second)</li><li><span class="mcq-option-label">D.</span> Neither</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> The column dimension must be specified for the compiler to calculate memory offsets. <code>void f(int arr[][4], int rows)</code> is valid. <code>void f(int arr[][], int rows, int cols)</code> is NOT valid.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does <code>int arr[5] = {};</code> do in C++11?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Creates an empty array</li><li><span class="mcq-option-label">B.</span> Zero-initializes all 5 elements</li><li><span class="mcq-option-label">C.</span> Compilation error</li><li><span class="mcq-option-label">D.</span> Leaves elements uninitialized</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> In C++11, empty brace initialization <code>= {}</code> zero-initializes all elements. The array has 5 elements, all set to 0.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the best-case time complexity of insertion sort?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(n^2)</li><li><span class="mcq-option-label">B.</span> O(n log n)</li><li><span class="mcq-option-label">C.</span> O(n)</li><li><span class="mcq-option-label">D.</span> O(1)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> When the array is already sorted, insertion sort's inner while loop never executes. Each element is compared once with its predecessor and stays in place. Total: O(n) comparisons.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the maximum size of a local array (on the stack) in most systems?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ~100 elements</li><li><span class="mcq-option-label">B.</span> ~10,000 elements</li><li><span class="mcq-option-label">C.</span> ~250,000 elements (about 1 MB for int)</li><li><span class="mcq-option-label">D.</span> Unlimited</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> The default stack size is typically 1-8 MB. For int arrays (4 bytes each), ~250,000 elements fit in 1 MB. For larger arrays, use global declaration or dynamic allocation.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">In binary search, what does <code>low + (high - low) / 2</code> avoid compared to <code>(low + high) / 2</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Division by zero</li><li><span class="mcq-option-label">B.</span> Integer overflow</li><li><span class="mcq-option-label">C.</span> Negative indices</li><li><span class="mcq-option-label">D.</span> Off-by-one errors</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> If low and high are both close to INT_MAX, <code>low + high</code> overflows. <code>low + (high - low) / 2</code> computes the difference first, which is always non-negative and fits in an int.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What is the time complexity of linear search?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(1)</li><li><span class="mcq-option-label">B.</span> O(log n)</li><li><span class="mcq-option-label">C.</span> O(n)</li><li><span class="mcq-option-label">D.</span> O(n^2)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> Linear search checks each element one by one. In the worst case, it checks all n elements before finding the target (or confirming absence).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Which sorting algorithm is stable (preserves relative order of equal elements)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Selection sort</li><li><span class="mcq-option-label">B.</span> Insertion sort</li><li><span class="mcq-option-label">C.</span> Neither</li><li><span class="mcq-option-label">D.</span> Both</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> Insertion sort is stable because it only moves elements past those that are strictly greater. Selection sort is NOT stable because the swap operation can change the relative order of equal elements.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Array Rotation</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a program that left rotates an array by k positions. Read n (array size), k (rotation count), and n integers. Print the rotated array.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">5 2
+1 2 3 4 5</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">3 4 5 1 2</div>
+                </div><div class="challenge-constraints">1 &lt;= n &lt;= 1000, 0 &lt;= k &lt;= n. Use O(n) extra space.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int n, k;
+    cin &gt;&gt; n &gt;&gt; k;
+    int arr[1000], temp[1000];
+    for (int i = 0; i &lt; n; i++) cin &gt;&gt; arr[i];
+    for (int i = 0; i &lt; n; i++) temp[i] = arr[(i + k) % n];
+    for (int i = 0; i &lt; n; i++) cout &lt;&lt; temp[i] &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Merge Two Sorted Arrays</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given two sorted arrays of sizes n and m, merge them into a single sorted array without using any sorting function. Print the merged array.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">3 4
+1 3 5
+2 4 6 8</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">1 2 3 4 5 6 8</div>
+                </div><div class="challenge-constraints">Use the two-pointer merge technique. O(n+m) time.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int n, m;
+    cin &gt;&gt; n &gt;&gt; m;
+    int a[1000], b[1000], c[2000];
+    for (int i = 0; i &lt; n; i++) cin &gt;&gt; a[i];
+    for (int i = 0; i &lt; m; i++) cin &gt;&gt; b[i];
+    int i = 0, j = 0, k = 0;
+    while (i &lt; n &amp;&amp; j &lt; m) {
+        if (a[i] &lt;= b[j]) c[k++] = a[i++];
+        else c[k++] = b[j++];
+    }
+    while (i &lt; n) c[k++] = a[i++];
+    while (j &lt; m) c[k++] = b[j++];
+    for (int i = 0; i &lt; k; i++) cout &lt;&lt; c[i] &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Matrix Diagonal Sum</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Read a square matrix of size n x n. Print the sum of the primary diagonal (top-left to bottom-right) and the secondary diagonal (top-right to bottom-left). If n is odd, subtract the center element once (it is counted in both diagonals).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">3
+1 2 3
+4 5 6
+7 8 9</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Primary diagonal sum: 15
+Secondary diagonal sum: 15
+Total (without double-counting center): 25</div>
+                </div><div class="challenge-constraints">1 &lt;= n &lt;= 100. Handle odd n to avoid double-counting the center element.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int n;
+    cin &gt;&gt; n;
+    int mat[100][100];
+    for (int i = 0; i &lt; n; i++)
+        for (int j = 0; j &lt; n; j++)
+            cin &gt;&gt; mat[i][j];
+    int primary = 0, secondary = 0;
+    for (int i = 0; i &lt; n; i++) {
+        primary += mat[i][i];
+        secondary += mat[i][n - 1 - i];
+    }
+    int total = primary + secondary;
+    if (n % 2 == 1) total -= mat[n/2][n/2];
+    cout &lt;&lt; &quot;Primary diagonal sum: &quot; &lt;&lt; primary &lt;&lt; endl;
+    cout &lt;&lt; &quot;Secondary diagonal sum: &quot; &lt;&lt; secondary &lt;&lt; endl;
+    cout &lt;&lt; &quot;Total (without double-counting center): &quot; &lt;&lt; total &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Find Duplicate in Array</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given an array of n integers where each element is between 1 and n-1, find the duplicate element. There is exactly one duplicate. Do NOT use extra space (no hash map or extra array).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">5
+1 3 4 2 2</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Duplicate: 2</div>
+                </div><div class="challenge-constraints">O(n) time, O(1) space. Use the tortoise and hare (Floyd&#39;s cycle detection) approach.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int n;
+    cin &gt;&gt; n;
+    int arr[100001];
+    for (int i = 0; i &lt; n; i++) cin &gt;&gt; arr[i];
+    // Floyd&#39;s cycle detection
+    int slow = arr[0], fast = arr[0];
+    do {
+        slow = arr[slow];
+        fast = arr[arr[fast]];
+    } while (slow != fast);
+    slow = arr[0];
+    while (slow != fast) {
+        slow = arr[slow];
+        fast = arr[fast];
+    }
+    cout &lt;&lt; &quot;Duplicate: &quot; &lt;&lt; slow &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Spiral Matrix Print</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Read a matrix of size m x n and print its elements in spiral order (clockwise: right, down, left, up, repeat).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">3 4
+1 2 3 4
+5 6 7 8
+9 10 11 12</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">1 2 3 4 8 12 11 10 9 5 6 7</div>
+                </div><div class="challenge-constraints">Handle rectangular matrices (not necessarily square). Use four boundary variables.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int m, n;
+    cin &gt;&gt; m &gt;&gt; n;
+    int mat[100][100];
+    for (int i = 0; i &lt; m; i++)
+        for (int j = 0; j &lt; n; j++)
+            cin &gt;&gt; mat[i][j];
+    int top = 0, bottom = m - 1, left = 0, right = n - 1;
+    while (top &lt;= bottom &amp;&amp; left &lt;= right) {
+        for (int j = left; j &lt;= right; j++) cout &lt;&lt; mat[top][j] &lt;&lt; &quot; &quot;;
+        top++;
+        for (int i = top; i &lt;= bottom; i++) cout &lt;&lt; mat[i][right] &lt;&lt; &quot; &quot;;
+        right--;
+        if (top &lt;= bottom) {
+            for (int j = right; j &gt;= left; j--) cout &lt;&lt; mat[bottom][j] &lt;&lt; &quot; &quot;;
+            bottom--;
+        }
+        if (left &lt;= right) {
+            for (int i = bottom; i &gt;= top; i--) cout &lt;&lt; mat[i][left] &lt;&lt; &quot; &quot;;
+            left++;
+        }
+    }
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Kadane&#39;s Algorithm - Maximum Subarray Sum</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given an array of n integers (may include negatives), find the contiguous subarray with the maximum sum. Print the maximum sum and the subarray boundaries.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">8
+-2 1 -3 4 -1 2 1 -5</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Maximum subarray sum: 6
+Subarray: index 3 to 6</div>
+                </div><div class="challenge-constraints">Use Kadane&#39;s algorithm. O(n) time, O(1) space.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;climits&gt;
+using namespace std;
+int main() {
+    int n;
+    cin &gt;&gt; n;
+    int arr[100000];
+    for (int i = 0; i &lt; n; i++) cin &gt;&gt; arr[i];
+    int maxSum = INT_MIN, currentSum = 0;
+    int start = 0, end = 0, tempStart = 0;
+    for (int i = 0; i &lt; n; i++) {
+        currentSum += arr[i];
+        if (currentSum &gt; maxSum) {
+            maxSum = currentSum;
+            start = tempStart;
+            end = i;
+        }
+        if (currentSum &lt; 0) {
+            currentSum = 0;
+            tempStart = i + 1;
+        }
+    }
+    cout &lt;&lt; &quot;Maximum subarray sum: &quot; &lt;&lt; maxSum &lt;&lt; endl;
+    cout &lt;&lt; &quot;Subarray: index &quot; &lt;&lt; start &lt;&lt; &quot; to &quot; &lt;&lt; end &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/functions-in-cpp/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Functions, Overloading, and Recursion</span>
+        </a>
+            <a href="/resources/cpp/strings-in-cpp/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Strings - C-style and std::string</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/arrays-in-cpp" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

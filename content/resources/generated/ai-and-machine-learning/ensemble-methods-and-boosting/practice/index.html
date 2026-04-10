@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost) | AI and Machine Learning | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="56+ practice questions on Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost) in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="ensemble methods - boosting (xgboost, lightgbm, catboost) practice, ai and machine learning questions, ai and machine learning practice problems, ensemble methods - boosting (xgboost, lightgbm, catboost) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/ensemble-methods-and-boosting/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/ensemble-methods-and-boosting/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/ensemble-methods-and-boosting/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/ensemble-methods-and-boosting/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/ensemble-methods-and-boosting/practice">
+    <meta property="og:title" content="Practice Questions - Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost) | AI and Machine Learning | Modern Age Coders">
+    <meta property="og:description" content="56+ practice questions on Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost) in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/ensemble-methods-and-boosting/practice">
+    <meta name="twitter:title" content="Practice Questions - Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost) | AI and Machine Learning | Modern Age Coders">
+    <meta name="twitter:description" content="56+ practice questions on Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost) in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost)",
+    "description": "56+ practice questions on Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost) in AI and Machine Learning.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/ensemble-methods-and-boosting/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost)",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/ensemble-methods-and-boosting"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/ensemble-methods-and-boosting/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning/ensemble-methods-and-boosting">Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 14</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">56 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost)</h1>
+            <a href="/resources/ai-and-machine-learning/ensemble-methods-and-boosting" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is ensemble learning? Give a real-world analogy.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Think about combining opinions from multiple people versus relying on one person.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">Ensemble learning combines multiple individual models (weak learners) to produce a single stronger prediction. <strong>Analogy</strong>: It is like asking 100 doctors for a diagnosis instead of just one. Each doctor might make occasional mistakes, but the majority opinion is almost always correct. Similarly, combining many imperfect models produces a more accurate and robust prediction than any single model alone.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between bagging and boosting?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">One trains models independently, the other trains them sequentially.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><strong>Bagging</strong>: Trains multiple models <strong>independently</strong> on random subsets of data, then averages their predictions. Each model has equal weight. Reduces variance (overfitting). Example: Random Forest. <strong>Boosting</strong>: Trains models <strong>sequentially</strong>, where each new model focuses on correcting the errors of previous models. Later models may have higher weight. Reduces both bias and variance. Examples: XGBoost, LightGBM, CatBoost.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does the learning_rate parameter control in gradient boosting?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">It controls how much each tree contributes to the final prediction.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3">The learning rate (also called eta or shrinkage) controls the <strong>contribution of each tree</strong> to the ensemble. With learning_rate=0.1, each tree's prediction is multiplied by 0.1 before being added. A smaller learning rate means each tree has less impact, requiring more trees for the same performance but typically generalizing better. Common values: 0.01 to 0.3.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Name three advantages of XGBoost over plain decision trees.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Think about regularization, handling missing values, and combining multiple trees.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4">1. <strong>Ensemble of trees</strong>: XGBoost combines hundreds of trees, each correcting the errors of the previous ones, producing much more accurate predictions than a single tree. 2. <strong>Regularization</strong>: L1 and L2 regularization on leaf weights prevent overfitting, which single decision trees are prone to. 3. <strong>Missing value handling</strong>: XGBoost learns the optimal direction for missing values at each split, eliminating the need for manual imputation.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from xgboost import XGBClassifier
+import numpy as np
+
+X = np.array([[1, 2], [3, 4], [5, 6], [7, 8]])
+y = np.array([0, 0, 1, 1])
+
+xgb = XGBClassifier(n_estimators=10, random_state=42, eval_metric='logloss')
+xgb.fit(X, y)
+print(xgb.predict(np.array([[2, 3], [6, 7]])))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Points near (1,2) and (3,4) should be class 0. Points near (5,6) and (7,8) should be class 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>[0 1]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Explain how gradient boosting builds trees sequentially. What does each new tree try to learn?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Each tree learns the errors (residuals) of the current ensemble.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">Gradient boosting starts with a simple prediction (e.g., the mean). Then: (1) Compute <strong>residuals</strong> = actual - current prediction. (2) Train a new tree to <strong>predict these residuals</strong> (the errors). (3) Add the new tree's predictions (multiplied by the learning rate) to the running prediction. (4) Repeat. Each new tree does not predict the original target -- it predicts what the current ensemble got wrong. By adding corrections iteratively, the ensemble gradually improves its predictions.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between depth-wise and leaf-wise tree growth? Which algorithm uses which?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">XGBoost grows all leaves at the same level. LightGBM grows the leaf that reduces loss the most.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><strong>Depth-wise (level-wise)</strong>: Grows all leaves at the same depth before moving to the next level. Produces balanced trees. Used by <strong>XGBoost</strong>. <strong>Leaf-wise</strong>: Grows the single leaf that achieves the maximum loss reduction, regardless of depth. Produces unbalanced trees that can be deeper on one side. Used by <strong>LightGBM</strong>. Leaf-wise growth is typically more accurate per tree (larger loss reduction per split) but can overfit more easily, which is why LightGBM uses num_leaves as the primary complexity control.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is XGBoost's native handling of missing values an advantage? How does it work?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">XGBoost learns which direction (left or right) to send missing values at each tree split.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8">When a feature has missing values at a particular split, XGBoost tries sending all missing values to the <strong>left child</strong> and computes the gain, then tries sending them to the <strong>right child</strong> and computes the gain. It picks the direction that gives the best gain. This means: (1) You do not need to impute missing values manually. (2) The optimal treatment of missing data is learned from the data itself. (3) Different splits can handle missing values differently (left at one split, right at another). This is better than a single imputation strategy because the best treatment of missingness can vary across the feature space.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to train an XGBoost classifier with early stopping on the breast cancer dataset. Print the number of trees used and the test accuracy.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Use XGBClassifier with n_estimators=500, early_stopping_rounds=20, and eval_set.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><pre><code>from xgboost import XGBClassifier
+from sklearn.datasets import load_breast_cancer
+from sklearn.model_selection import train_test_split
+
+data = load_breast_cancer()
+X_train, X_test, y_train, y_test = train_test_split(
+    data.data, data.target, test_size=0.2, random_state=42)
+
+xgb = XGBClassifier(
+    n_estimators=500,
+    learning_rate=0.05,
+    max_depth=5,
+    eval_metric='logloss',
+    early_stopping_rounds=20,
+    random_state=42
+)
+xgb.fit(X_train, y_train, eval_set=[(X_test, y_test)], verbose=False)
+
+print(f"Trees used: {xgb.best_iteration + 1} out of 500")
+print(f"Test accuracy: {xgb.score(X_test, y_test):.4f}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What are the three main advantages of LightGBM over XGBoost?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Think about speed, tree growth strategy, and handling large datasets.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">1. <strong>Faster training</strong>: Histogram-based splitting is O(n) compared to XGBoost's sort-based splitting which is O(n log n). On large datasets, LightGBM can be 5-10x faster. 2. <strong>Leaf-wise growth</strong>: Produces more accurate trees per iteration because it always splits the most informative leaf, unlike XGBoost which splits all leaves at the same depth. 3. <strong>Memory efficiency</strong>: GOSS (smart sampling) and EFB (feature bundling) reduce the effective dataset size, allowing LightGBM to handle very large datasets that XGBoost might struggle with.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain the concept of regularization in XGBoost. What do reg_alpha (L1) and reg_lambda (L2) regularize?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">They regularize the leaf weight values, not the feature weights like in linear models.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><strong>reg_lambda (L2)</strong> adds a penalty proportional to the <strong>square of leaf weights</strong> to the objective function. This shrinks leaf values toward zero, preventing any single leaf from having an extreme prediction. It makes the model smoother and more robust. <strong>reg_alpha (L1)</strong> adds a penalty proportional to the <strong>absolute value of leaf weights</strong>. This encourages sparsity -- some leaves may get exactly zero weight, effectively pruning parts of the tree. In XGBoost's objective: <code>Objective = Loss + gamma*T + 0.5*lambda*sum(w^2) + alpha*sum(|w|)</code> where T is the number of leaves and w are leaf weights. gamma penalizes tree complexity (more leaves), while lambda and alpha penalize large leaf values.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is CatBoost's 'ordered boosting' and what problem does it solve?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">It addresses target leakage that occurs when computing target statistics for categorical encoding.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">In standard gradient boosting with target encoding, the target statistics (e.g., mean target per category) are computed using all training data including the current sample. This creates <strong>prediction shift</strong> -- a form of target leakage where the model's prediction for a sample is partially based on that sample's own target value. CatBoost's ordered boosting solves this by maintaining a <strong>random permutation</strong> of the training data. When computing target statistics for sample i, it only uses samples that come before i in the permutation. This ensures no sample's target value leaks into its own encoding, producing more honest estimates and better generalization.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code to use GridSearchCV to find the best max_depth and learning_rate for XGBoost on the breast cancer dataset.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Define a param_grid with max_depth (3, 5, 7) and learning_rate (0.01, 0.05, 0.1). Use GridSearchCV with cv=5.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><pre><code>from xgboost import XGBClassifier
+from sklearn.datasets import load_breast_cancer
+from sklearn.model_selection import train_test_split, GridSearchCV
+
+data = load_breast_cancer()
+X_train, X_test, y_train, y_test = train_test_split(
+    data.data, data.target, test_size=0.2, random_state=42)
+
+param_grid = {
+    'max_depth': [3, 5, 7],
+    'learning_rate': [0.01, 0.05, 0.1]
+}
+
+grid = GridSearchCV(
+    XGBClassifier(n_estimators=200, random_state=42, eval_metric='logloss'),
+    param_grid, cv=5, scoring='accuracy', n_jobs=-1
+)
+grid.fit(X_train, y_train)
+
+print(f"Best params: {grid.best_params_}")
+print(f"Best CV accuracy: {grid.best_score_:.4f}")
+print(f"Test accuracy: {grid.score(X_test, y_test):.4f}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Vikram is deciding between XGBoost, LightGBM, and CatBoost for his project. His dataset has 5 million rows, 200 features, and 30 of those features are categorical. Which algorithm should he use and why?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Consider dataset size, number of categorical features, and training speed.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><strong>CatBoost</strong> is the best choice because: (1) 30 categorical features is a significant portion. CatBoost handles them natively with ordered target encoding, avoiding the need for one-hot encoding (which would create potentially hundreds of sparse features) or label encoding (which creates false ordinal relationships). (2) While LightGBM is generally faster, CatBoost's native categorical handling avoids the preprocessing overhead. (3) On large datasets with many categoricals, CatBoost typically achieves the best accuracy with minimal tuning. <strong>Alternative</strong>: If training speed is the top priority and categoricals have low cardinality (few unique values), LightGBM with one-hot encoding could be faster.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain what subsample and colsample_bytree do in XGBoost and why they help prevent overfitting.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">They introduce randomness into each tree, similar to Random Forest's approach.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><strong>subsample</strong> (0.5-1.0): Each tree is trained on a random fraction of the training data. With subsample=0.8, each tree sees only 80% of the rows, making each tree slightly different and reducing the chance of memorizing specific training patterns. <strong>colsample_bytree</strong> (0.3-1.0): Each tree only considers a random subset of features. With colsample_bytree=0.8, each tree uses only 80% of the features, forcing the model to learn from different feature combinations. Both introduce <strong>stochasticity</strong> that prevents the model from overfitting to specific patterns in the full training set. This is the same principle as Random Forest's random subspace method. Combined, they significantly reduce overfitting, especially on small or noisy datasets.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from xgboost import XGBClassifier
+
+xgb = XGBClassifier(n_estimators=100, max_depth=3)
+print(xgb.get_params()['max_depth'])
+print(xgb.get_params()['n_estimators'])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">get_params() returns all hyperparameters as a dictionary.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>3</code><br><code>100</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Priya has a dataset with 50 numerical features and 10 categorical features (each with 100+ categories). She needs the best accuracy. Which boosting library should she choose and why?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Consider how each library handles high-cardinality categorical features.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><strong>CatBoost</strong> is the best choice because: (1) 10 categorical features with 100+ categories each would require one-hot encoding for XGBoost/LightGBM, creating 1000+ sparse features. (2) CatBoost handles these natively using ordered target encoding, preserving the information without the sparsity problem. (3) CatBoost's encoding is provably unbiased (no target leakage), unlike manual target encoding. For XGBoost/LightGBM, one-hot encoding high-cardinality categoricals creates very sparse data that can hurt tree-based model performance.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code to train XGBoost on the breast cancer dataset with 5-fold cross-validation and print the mean and standard deviation of accuracy scores.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Use cross_val_score with XGBClassifier and cv=5.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><pre><code>from xgboost import XGBClassifier
+from sklearn.datasets import load_breast_cancer
+from sklearn.model_selection import cross_val_score
+
+data = load_breast_cancer()
+xgb = XGBClassifier(n_estimators=100, max_depth=5, learning_rate=0.1,
+                    random_state=42, eval_metric='logloss')
+
+scores = cross_val_score(xgb, data.data, data.target, cv=5, scoring='accuracy')
+print(f"CV Scores: {scores.round(4)}")
+print(f"Mean: {scores.mean():.4f} +/- {scores.std():.4f}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does n_estimators mean in XGBoost?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">It is the number of boosting rounds.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><strong>n_estimators</strong> is the number of boosting rounds, which equals the number of trees in the ensemble. Each round adds one decision tree that corrects the errors of the previous trees. More trees generally improve performance up to a point, after which they cause overfitting. Use early stopping to find the optimal number automatically.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is a boosting "round" or "iteration" in XGBoost?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Each round adds one more tree to the ensemble.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20">One boosting round trains one additional decision tree and adds its predictions (scaled by the learning rate) to the current ensemble. After n_estimators rounds, the ensemble has n_estimators trees.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why is gradient boosting called 'gradient' boosting?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Think about how it uses gradients to find the direction of improvement.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">It is called 'gradient' boosting because each new tree is trained on the <strong>negative gradient of the loss function</strong> (i.e., the residuals). This is equivalent to performing gradient descent in function space: each tree is a step that reduces the overall loss. Just as gradient descent finds the minimum of a function by following the negative gradient, gradient boosting finds the best prediction function by adding trees that follow the negative gradient of the loss.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from xgboost import XGBClassifier
+
+xgb = XGBClassifier(n_estimators=100, max_depth=5)
+print(type(xgb))
+print(xgb.get_params()['n_estimators'])
+print(xgb.get_params()['max_depth'])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">XGBClassifier is a class, and get_params() returns the hyperparameters.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>&lt;class 'xgboost.sklearn.XGBClassifier'&gt;</code><br><code>100</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is early stopping and why is it important for gradient boosting?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">It stops training when the model stops improving on validation data.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">Early stopping monitors the model's performance on a <strong>validation set</strong> during training. If the performance does not improve for a specified number of rounds (early_stopping_rounds), training stops. It is important because: (1) It <strong>automatically finds the optimal number of trees</strong>, preventing overfitting. (2) It <strong>saves computation time</strong> by not training unnecessary trees. (3) It acts as a form of <strong>regularization</strong>. Without early stopping, you must guess n_estimators, and too many trees cause overfitting while too few cause underfitting.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from xgboost import XGBClassifier
+import numpy as np
+
+X = np.array([[1, 2], [3, 4], [5, 6], [7, 8]])
+y = np.array([0, 0, 1, 1])
+
+xgb = XGBClassifier(n_estimators=50, random_state=42, eval_metric='logloss')
+xgb.fit(X, y)
+probs = xgb.predict_proba(np.array([[4, 5]]))
+print(f"Shape: {probs.shape}")
+print(f"Class probabilities: {probs.round(3)}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">predict_proba returns probabilities for each class. Point (4,5) is between the two clusters.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Shape: (1, 2)</code><br><code>Class probabilities: [[0.3xx 0.6xx]]</code> (approximately, class 1 has higher probability since (4,5) is closer to the class 1 region)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to extract and display the top 5 most important features from a trained XGBoost model on the Iris dataset.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Use xgb.feature_importances_ and sort them.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><pre><code>from xgboost import XGBClassifier
+from sklearn.datasets import load_iris
+import numpy as np
+
+iris = load_iris()
+xgb = XGBClassifier(n_estimators=100, random_state=42, eval_metric='mlogloss')
+xgb.fit(iris.data, iris.target)
+
+importances = xgb.feature_importances_
+sorted_idx = np.argsort(importances)[::-1]
+
+print("Feature importance ranking:")
+for i, idx in enumerate(sorted_idx):
+    print(f"  {i+1}. {iris.feature_names[idx]}: {importances[idx]:.4f}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does scale_pos_weight do in XGBoost and when should you use it?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">It handles class imbalance by weighting the minority class.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><strong>scale_pos_weight</strong> controls the balance of positive and negative weights in the loss function. Setting it to the ratio of negative to positive samples (e.g., 950/50 = 19 for a 95%/5% split) tells XGBoost to weight positive (minority) class errors 19x more than negative class errors. Use it when your dataset has <strong>class imbalance</strong> and the minority class is important (e.g., fraud detection where frauds are rare but must be caught). Without it, the model may learn to predict the majority class for everything, achieving high accuracy but zero recall on the minority class.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Ananya trains XGBoost with learning_rate=0.5 and 50 trees. Her training accuracy is 99% but test accuracy is 72%. What should she change?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">The large gap between training and test accuracy indicates overfitting.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">The 27% gap between train (99%) and test (72%) accuracy indicates <strong>severe overfitting</strong>. Ananya should: (1) <strong>Reduce learning_rate</strong> to 0.05 and increase n_estimators (with early stopping). (2) <strong>Reduce max_depth</strong> (e.g., from default 6 to 3-4). (3) <strong>Add regularization</strong>: increase reg_lambda (L2) or reg_alpha (L1). (4) <strong>Increase subsampling</strong>: set subsample=0.7 and colsample_bytree=0.7. (5) <strong>Increase min_child_weight</strong>: prevents splits on very small leaf groups. All these changes reduce model complexity and the training accuracy will drop, but the test accuracy should improve.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">On tabular/structured data, gradient boosting often outperforms deep learning. Why?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Think about inductive biases, sample efficiency, and the structure of tabular data.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">Gradient boosting outperforms deep learning on tabular data because: (1) <strong>Better inductive bias</strong>: Trees naturally handle feature interactions, different scales, and missing values. Neural networks require careful feature engineering, scaling, and architecture design. (2) <strong>Sample efficiency</strong>: Trees learn effectively from thousands of samples. Deep learning typically needs millions. Most real-world tabular datasets have thousands to hundreds of thousands of rows. (3) <strong>No spatial/temporal structure</strong>: Deep learning excels when data has spatial structure (images -- CNNs) or temporal structure (text, time series -- RNNs/Transformers). Tabular data has no such structure for deep learning to exploit. (4) <strong>Regularization</strong>: XGBoost has well-understood regularization. Deep learning regularization is harder to tune. (5) <strong>Training speed</strong>: Boosting trains in minutes vs hours for deep learning.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code that trains XGBoost and LightGBM on the same dataset and compares their accuracy and training time.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Use time.time() to measure training duration. Use make_classification for the dataset.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>import numpy as np
+import time
+from xgboost import XGBClassifier
+import lightgbm as lgb
+from sklearn.datasets import make_classification
+from sklearn.model_selection import train_test_split
+
+X, y = make_classification(n_samples=20000, n_features=30, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# XGBoost
+start = time.time()
+xgb = XGBClassifier(n_estimators=200, max_depth=6, learning_rate=0.1,
+                    random_state=42, eval_metric='logloss')
+xgb.fit(X_train, y_train)
+xgb_time = time.time() - start
+xgb_acc = xgb.score(X_test, y_test)
+
+# LightGBM
+start = time.time()
+lgbm = lgb.LGBMClassifier(n_estimators=200, num_leaves=31, learning_rate=0.1,
+                           random_state=42, verbose=-1)
+lgbm.fit(X_train, y_train)
+lgb_time = time.time() - start
+lgb_acc = lgbm.score(X_test, y_test)
+
+print(f"XGBoost:  accuracy={xgb_acc:.4f}, time={xgb_time:.3f}s")
+print(f"LightGBM: accuracy={lgb_acc:.4f}, time={lgb_time:.3f}s")
+print(f"LightGBM is {xgb_time/lgb_time:.1f}x faster")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the relationship between max_depth and num_leaves in LightGBM? Why is num_leaves more important?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">LightGBM uses leaf-wise growth. The number of leaves directly controls tree complexity.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">In LightGBM, <strong>num_leaves</strong> is the primary tree complexity control because LightGBM grows trees <strong>leaf-wise</strong> (always splitting the leaf with the maximum gain), not depth-wise. A tree with num_leaves=31 can have varying depth -- some branches may be deep while others are shallow. max_depth is secondary and acts as a safety limit. The relationship: a balanced binary tree with depth d has 2^d leaves. So num_leaves should generally be <strong>less than 2^max_depth</strong> to avoid overfitting. For example, max_depth=7 supports up to 128 leaves, but setting num_leaves=31 constrains the tree to be much simpler. Setting max_depth=-1 (unlimited) and controlling complexity solely through num_leaves is the recommended approach.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a complete churn prediction pipeline: generate a synthetic dataset with 5 features, engineer 2 new features, train XGBoost with early stopping, and print accuracy, AUC, and top 3 features.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Create features like tenure*monthly_charges and charges_per_tenure. Use classification_report and roc_auc_score.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>import numpy as np
+import pandas as pd
+from xgboost import XGBClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, roc_auc_score
+
+np.random.seed(42)
+n = 1500
+df = pd.DataFrame({
+    'tenure': np.random.randint(1, 72, n),
+    'monthly_charges': np.random.normal(60, 20, n).round(2),
+    'total_charges': np.random.normal(2500, 1200, n).round(2),
+    'contract_length': np.random.choice([1, 12, 24], n, p=[0.5, 0.3, 0.2]),
+    'support_calls': np.random.poisson(2, n)
+})
+churn_prob = (0.3*(df['contract_length']==1) + 0.2*(df['tenure']<12) + 0.1*(df['support_calls']>3)).clip(0,1)
+df['churned'] = (np.random.random(n) < churn_prob).astype(int)
+
+# Feature engineering
+df['charges_per_tenure'] = df['total_charges'] / (df['tenure'] + 1)
+df['tenure_x_contract'] = df['tenure'] * df['contract_length']
+
+X = df.drop('churned', axis=1)
+y = df['churned']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+xgb = XGBClassifier(n_estimators=500, learning_rate=0.05, max_depth=5,
+                    eval_metric='auc', early_stopping_rounds=20, random_state=42)
+xgb.fit(X_train, y_train, eval_set=[(X_test, y_test)], verbose=False)
+
+y_pred = xgb.predict(X_test)
+y_prob = xgb.predict_proba(X_test)[:, 1]
+print(f"Accuracy: {accuracy_score(y_test, y_pred):.4f}")
+print(f"ROC-AUC: {roc_auc_score(y_test, y_prob):.4f}")
+print(f"Trees used: {xgb.best_iteration + 1}")
+top3 = np.argsort(xgb.feature_importances_)[-3:][::-1]
+print("Top 3 features:")
+for idx in top3:
+    print(f"  {X.columns[idx]}: {xgb.feature_importances_[idx]:.4f}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain what colsample_bytree, colsample_bylevel, and colsample_bynode do in XGBoost. How do they differ?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Each controls feature subsampling at a different granularity: per tree, per depth level, or per split.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><strong>colsample_bytree</strong>: Randomly samples a fraction of features once per tree. All splits in that tree use the same feature subset. <strong>colsample_bylevel</strong>: Randomly samples features at each depth level within a tree. Different depths may use different features. <strong>colsample_bynode</strong>: Randomly samples features at each individual split. Maximum randomness -- each split considers a different feature subset. They can be combined multiplicatively: if colsample_bytree=0.8 and colsample_bylevel=0.8, each level uses 64% (0.8 * 0.8) of the original features. More aggressive subsampling increases diversity among trees and reduces overfitting, but too much can hurt performance.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Can you use XGBoost for regression problems, or is it only for classification?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Think about XGBRegressor.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13">XGBoost works for <strong>both classification and regression</strong>. Use <code>XGBClassifier</code> for classification (predicting categories) and <code>XGBRegressor</code> for regression (predicting continuous values). The only difference is the loss function: log loss for classification, squared error for regression. The tree-building process is the same.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from xgboost import XGBClassifier
+import numpy as np
+
+xgb = XGBClassifier(n_estimators=10, random_state=42, eval_metric='logloss')
+X = np.array([[1], [2], [3], [4], [5]])
+y = np.array([0, 0, 1, 1, 1])
+xgb.fit(X, y)
+print(xgb.predict(np.array([[2.5]])))
+print(xgb.predict_proba(np.array([[2.5]])).round(3))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">2.5 is exactly between the 0 and 1 regions. The model should be uncertain.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14"><code>[1]</code> (or <code>[0]</code>, borderline case)<br>Probabilities close to <code>[[0.45 0.55]]</code> (near 50/50, reflecting uncertainty)</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which of the following is a boosting algorithm?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Random Forest</li><li><span class="mcq-option-label">B.</span> K-Means</li><li><span class="mcq-option-label">C.</span> XGBoost</li><li><span class="mcq-option-label">D.</span> PCA</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> XGBoost is a boosting algorithm that trains trees sequentially to correct errors. Random Forest (A) is bagging. K-Means (B) is clustering. PCA (D) is dimensionality reduction.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does 'early stopping' prevent in gradient boosting?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Underfitting</li><li><span class="mcq-option-label">B.</span> Overfitting</li><li><span class="mcq-option-label">C.</span> Missing values</li><li><span class="mcq-option-label">D.</span> Feature scaling issues</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> Early stopping halts training when validation performance stops improving, preventing the model from training too many trees and overfitting to the training data.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">In gradient boosting, what does each new tree try to predict?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The original target values</li><li><span class="mcq-option-label">B.</span> The residuals (errors) of the current ensemble</li><li><span class="mcq-option-label">C.</span> The feature importances</li><li><span class="mcq-option-label">D.</span> Random noise</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Each new tree is trained on the residuals (actual - current prediction), meaning it learns to correct the errors of all previous trees combined.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which library handles categorical features natively without manual encoding?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> XGBoost</li><li><span class="mcq-option-label">B.</span> LightGBM</li><li><span class="mcq-option-label">C.</span> CatBoost</li><li><span class="mcq-option-label">D.</span> scikit-learn</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> CatBoost (Categorical Boosting) was specifically designed to handle categorical features natively using ordered target encoding. XGBoost and LightGBM require manual encoding.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which parameter should you always pair with a high n_estimators value in XGBoost?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> max_features</li><li><span class="mcq-option-label">B.</span> early_stopping_rounds</li><li><span class="mcq-option-label">C.</span> kernel</li><li><span class="mcq-option-label">D.</span> n_components</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> With high n_estimators (e.g., 5000), early_stopping_rounds prevents overfitting by stopping training when validation performance plateaus. Without it, all trees are trained regardless of whether they improve performance.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the primary advantage of LightGBM over XGBoost?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Better accuracy on small datasets</li><li><span class="mcq-option-label">B.</span> Native categorical feature handling</li><li><span class="mcq-option-label">C.</span> Significantly faster training on large datasets due to histogram-based splitting</li><li><span class="mcq-option-label">D.</span> Does not require any hyperparameter tuning</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> LightGBM's histogram-based splitting is O(n) vs XGBoost's O(n log n), making it much faster on large datasets. CatBoost (B) is the one with native categorical handling. All algorithms benefit from tuning (D is wrong).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">How does XGBoost handle missing values?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It imputes them with the mean before training</li><li><span class="mcq-option-label">B.</span> It removes rows with missing values</li><li><span class="mcq-option-label">C.</span> It learns the optimal direction (left or right) for missing values at each split</li><li><span class="mcq-option-label">D.</span> It treats missing values as zero</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> At each split, XGBoost tries sending missing values both left and right, picks the direction with the best gain, and saves this decision. Different splits can handle missing values differently, adapting to the data.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What happens if you set learning_rate=1.0 with many trees?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The model trains faster and better</li><li><span class="mcq-option-label">B.</span> Each tree contributes 100% of its prediction, causing severe overfitting</li><li><span class="mcq-option-label">C.</span> Learning rate does not affect the model</li><li><span class="mcq-option-label">D.</span> The model becomes more regularized</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> With learning_rate=1.0, each tree's full prediction is added to the ensemble. This is very aggressive -- the model quickly memorizes training data and overfits. Lower learning rates (0.01-0.1) with early stopping are recommended.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Meera has 95% class 0 and 5% class 1 in her dataset. Which XGBoost parameter helps with this?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> max_depth</li><li><span class="mcq-option-label">B.</span> learning_rate</li><li><span class="mcq-option-label">C.</span> scale_pos_weight</li><li><span class="mcq-option-label">D.</span> n_estimators</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> scale_pos_weight handles class imbalance by weighting positive (minority) class samples higher. Setting it to 95/5 = 19 makes the model pay 19x more attention to the minority class, preventing it from always predicting class 0.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">In LightGBM, which parameter is the PRIMARY control for tree complexity?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> max_depth</li><li><span class="mcq-option-label">B.</span> n_estimators</li><li><span class="mcq-option-label">C.</span> num_leaves</li><li><span class="mcq-option-label">D.</span> learning_rate</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> LightGBM uses leaf-wise tree growth, so num_leaves (default 31) is the primary control for how complex each tree can be. max_depth is secondary (set to -1 by default). This is different from XGBoost where max_depth is primary.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Why does gradient boosting on tabular data often outperform deep learning?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Gradient boosting is always more accurate than deep learning</li><li><span class="mcq-option-label">B.</span> Tabular data lacks spatial/temporal structure that deep learning exploits, and trees handle feature interactions and different scales naturally</li><li><span class="mcq-option-label">C.</span> Deep learning cannot process numerical features</li><li><span class="mcq-option-label">D.</span> Gradient boosting uses more parameters</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> Deep learning excels on data with spatial structure (images/CNNs) or sequential structure (text/RNNs). Tabular data has no such structure. Trees naturally handle mixed feature types, different scales, missing values, and feature interactions without the extensive preprocessing that neural networks require.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the relationship between learning_rate and n_estimators in gradient boosting?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They should both be set to the same value</li><li><span class="mcq-option-label">B.</span> Smaller learning_rate requires more trees (higher n_estimators) to achieve the same performance</li><li><span class="mcq-option-label">C.</span> Larger learning_rate requires more trees</li><li><span class="mcq-option-label">D.</span> They are completely independent</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Lower learning rate means each tree contributes less, so more trees are needed. The total 'model capacity' is approximately learning_rate * n_estimators. A common strategy: set learning_rate=0.05, n_estimators=5000, and use early stopping to find the optimal tree count.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Rohan runs XGBoost with subsample=0.7, colsample_bytree=0.8, and colsample_bylevel=0.9. What fraction of features does each split see?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0.7 * 0.8 * 0.9 = 0.504</li><li><span class="mcq-option-label">B.</span> 0.8 * 0.9 = 0.72</li><li><span class="mcq-option-label">C.</span> 0.8 only (colsample_bytree dominates)</li><li><span class="mcq-option-label">D.</span> The minimum of the three = 0.7</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> subsample controls row sampling (not feature sampling). colsample_bytree and colsample_bylevel are multiplied together for feature sampling: 0.8 * 0.9 = 0.72, meaning each split at each level sees 72% of the original features. Row sampling (subsample=0.7) means each tree trains on 70% of the data, but this is independent of feature sampling.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What problem does CatBoost's 'ordered boosting' solve?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It makes training faster</li><li><span class="mcq-option-label">B.</span> It solves the prediction shift (target leakage) that occurs with traditional target encoding in gradient boosting</li><li><span class="mcq-option-label">C.</span> It orders features by importance</li><li><span class="mcq-option-label">D.</span> It ensures trees are built in a specific order</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> In standard gradient boosting with target encoding, each sample's encoding uses the target values of all samples, including itself (target leakage). Ordered boosting uses random permutations to ensure that when computing target statistics for a sample, only previous samples in the permutation are used. This produces unbiased estimates and better generalization.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which of the following is an example of bagging?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> XGBoost</li><li><span class="mcq-option-label">B.</span> Random Forest</li><li><span class="mcq-option-label">C.</span> LightGBM</li><li><span class="mcq-option-label">D.</span> CatBoost</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Random Forest is the classic bagging algorithm: it trains many decision trees independently on random bootstrap samples of the data and averages their predictions. XGBoost (A), LightGBM (C), and CatBoost (D) are all boosting algorithms.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the effect of decreasing the learning_rate in gradient boosting from 0.3 to 0.01?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Training becomes faster</li><li><span class="mcq-option-label">B.</span> Fewer trees are needed</li><li><span class="mcq-option-label">C.</span> Each tree contributes less, requiring more trees but often producing better generalization</li><li><span class="mcq-option-label">D.</span> The model underfits regardless of the number of trees</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: C</strong><br><strong>C is correct.</strong> A lower learning rate means each tree's prediction is scaled down more (multiplied by 0.01 instead of 0.3). More trees are needed to reach the same model capacity, but the ensemble is more robust and generalizes better. Training is slower (A is wrong) and more trees are needed (B is wrong).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What is the purpose of reg_lambda (L2 regularization) in XGBoost?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It controls the number of trees</li><li><span class="mcq-option-label">B.</span> It penalizes the square of leaf weight values to prevent extreme predictions</li><li><span class="mcq-option-label">C.</span> It sets the learning rate</li><li><span class="mcq-option-label">D.</span> It controls the maximum depth of trees</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> reg_lambda adds L2 regularization on leaf weights: lambda * sum(w^2). This shrinks leaf values toward zero, preventing any leaf from making extreme predictions. Higher reg_lambda = more regularization = smoother, more conservative model.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What does the term "weak learner" mean in ensemble methods?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A model with no training data</li><li><span class="mcq-option-label">B.</span> A model that performs only slightly better than random guessing</li><li><span class="mcq-option-label">C.</span> A model with very high accuracy</li><li><span class="mcq-option-label">D.</span> A model that uses only one feature</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> A weak learner performs only marginally better than random chance. Boosting combines many weak learners (shallow trees) to create a strong learner.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">What is the typical maximum depth of individual trees in gradient boosting?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1 (decision stumps)</li><li><span class="mcq-option-label">B.</span> 3-10 (shallow trees)</li><li><span class="mcq-option-label">C.</span> 50-100 (deep trees)</li><li><span class="mcq-option-label">D.</span> Unlimited depth</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> Gradient boosting uses shallow trees (depth 3-10). The ensemble of many shallow trees captures complexity without individual trees overfitting.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">Why does XGBoost use second-order gradients (Hessian) while standard gradient boosting uses only first-order?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Second-order gradients are faster to compute</li><li><span class="mcq-option-label">B.</span> Second-order information provides better loss approximation, leading to more accurate splits</li><li><span class="mcq-option-label">C.</span> First-order gradients do not work for classification</li><li><span class="mcq-option-label">D.</span> Second-order gradients reduce memory usage</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> XGBoost uses a second-order Taylor expansion. The Hessian provides curvature information for better splits and natural regularization.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 21</div>
+                <div class="question-text">Which of the following is TRUE about gradient boosting?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Trees are trained independently in parallel</li><li><span class="mcq-option-label">B.</span> Trees are trained sequentially, each correcting errors of previous ones</li><li><span class="mcq-option-label">C.</span> Only one tree is used</li><li><span class="mcq-option-label">D.</span> Trees are trained on random subsets ignoring errors</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-21"><strong>Answer: B</strong><br><strong>B is correct.</strong> Gradient boosting trains trees sequentially, each fitting the residuals of the current ensemble.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 22</div>
+                <div class="question-text">Deepa wants to speed up LightGBM training without losing accuracy. Which parameter should she increase?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> n_estimators</li><li><span class="mcq-option-label">B.</span> max_depth</li><li><span class="mcq-option-label">C.</span> min_child_samples</li><li><span class="mcq-option-label">D.</span> learning_rate</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-22"><strong>Answer: C</strong><br><strong>C is correct.</strong> Increasing min_child_samples prevents very small leaves, reducing complexity and training time while acting as regularization.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <p>Coding challenges coming soon.</p>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/ai-and-machine-learning/feature-engineering/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Feature Engineering and Feature Selection</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/introduction-to-neural-networks/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Introduction to Neural Networks</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/ai-and-machine-learning/ensemble-methods-and-boosting" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

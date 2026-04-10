@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Python for AI - NumPy, Pandas, and Matplotlib | AI and Machine Learning | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="62+ practice questions on Python for AI - NumPy, Pandas, and Matplotlib in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="python for ai - numpy, pandas, and matplotlib practice, ai and machine learning questions, ai and machine learning practice problems, python for ai - numpy, pandas, and matplotlib exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials/practice">
+    <meta property="og:title" content="Practice Questions - Python for AI - NumPy, Pandas, and Matplotlib | AI and Machine Learning | Modern Age Coders">
+    <meta property="og:description" content="62+ practice questions on Python for AI - NumPy, Pandas, and Matplotlib in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials/practice">
+    <meta name="twitter:title" content="Practice Questions - Python for AI - NumPy, Pandas, and Matplotlib | AI and Machine Learning | Modern Age Coders">
+    <meta name="twitter:description" content="62+ practice questions on Python for AI - NumPy, Pandas, and Matplotlib in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Python for AI - NumPy, Pandas, and Matplotlib",
+    "description": "62+ practice questions on Python for AI - NumPy, Pandas, and Matplotlib in AI and Machine Learning.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Python for AI - NumPy, Pandas, and Matplotlib"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Python for AI - NumPy, Pandas, and Matplotlib",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/python-for-ai-essentials/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning/python-for-ai-essentials">Python for AI - NumPy, Pandas, and Matplotlib</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 2</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">62 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Python for AI - NumPy, Pandas, and Matplotlib</h1>
+            <a href="/resources/ai-and-machine-learning/python-for-ai-essentials" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+arr = np.array([1, 2, 3]) * 2
+print(arr)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">NumPy performs element-wise multiplication.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>[2 4 6]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+print(np.zeros(3))
+print(np.ones((2, 2)))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">zeros creates an array of zeros, ones creates an array of ones.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>[0. 0. 0.]</code><br><code>[[1. 1.]
+ [1. 1.]]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+arr = np.array([10, 20, 30, 40, 50])
+print(arr[1:4])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">NumPy slicing works like Python list slicing: start (inclusive) to end (exclusive).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>[20 30 40]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write code to create a NumPy array of numbers from 0 to 9 and compute the sum, mean, and standard deviation.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Use np.arange(10) to create the array, then np.sum(), np.mean(), np.std().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><pre><code>import numpy as np
+
+arr = np.arange(10)
+print(f"Array: {arr}")
+print(f"Sum: {np.sum(arr)}")
+print(f"Mean: {np.mean(arr)}")
+print(f"Std: {np.std(arr):.2f}")</code></pre>
+Output: Sum: 45, Mean: 4.5, Std: 2.87</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+arr = np.array([10, 25, 5, 40, 15])
+print(arr[arr > 12])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">This is boolean indexing -- it returns elements where the condition is True.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>[25 40 15]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+arr = np.arange(6).reshape(2, 3)
+print(arr)
+print(arr.shape)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">reshape(2, 3) turns a 1D array of 6 elements into a 2x3 matrix.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>[[0 1 2]
+ [3 4 5]]</code><br><code>(2, 3)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to compute the dot product of vectors [1, 2, 3] and [4, 5, 6] using NumPy. What is the mathematical calculation?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Dot product = (1*4) + (2*5) + (3*6). Use np.dot().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><pre><code>import numpy as np
+
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+result = np.dot(a, b)
+print(f"Dot product: {result}")
+print(f"Calculation: (1*4) + (2*5) + (3*6) = {1*4 + 2*5 + 3*6}")</code></pre>
+Output: Dot product: 32</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write Pandas code to create a DataFrame with 3 students (Name, Marks) and print only the student with the highest marks.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Use df[df['Marks'] == df['Marks'].max()] or df.loc[df['Marks'].idxmax()].</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><pre><code>import pandas as pd
+
+df = pd.DataFrame({
+    'Name': ['Aarav', 'Priya', 'Rohan'],
+    'Marks': [85, 92, 78]
+})
+
+top_student = df.loc[df['Marks'].idxmax()]
+print(f"Top student: {top_student['Name']} with {top_student['Marks']} marks")</code></pre>
+Output: Top student: Priya with 92 marks</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write Pandas code to filter students with marks greater than 80 from this DataFrame: Name=['Aarav','Priya','Rohan','Ananya'], Marks=[85, 42, 91, 38].</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Use df[df['Marks'] > 80].</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><pre><code>import pandas as pd
+
+df = pd.DataFrame({
+    'Name': ['Aarav', 'Priya', 'Rohan', 'Ananya'],
+    'Marks': [85, 42, 91, 38]
+})
+
+high_scorers = df[df['Marks'] > 80]
+print(high_scorers)</code></pre>
+Output:
+    Name  Marks
+0  Aarav     85
+2  Rohan     91</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to find and fill missing values in a Pandas DataFrame. Create a DataFrame where the 'Salary' column has two NaN values.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Use np.nan to create missing values, isnull().sum() to detect, and fillna() to fill.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><pre><code>import pandas as pd
+import numpy as np
+
+df = pd.DataFrame({
+    'Employee': ['Aarav', 'Priya', 'Rohan', 'Ananya'],
+    'Salary': [50000, np.nan, 60000, np.nan]
+})
+
+print("Before:")
+print(df)
+print(f"Missing values: {df['Salary'].isnull().sum()}")
+
+df['Salary'] = df['Salary'].fillna(df['Salary'].median())
+print("\nAfter filling with median:")
+print(df)</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import pandas as pd
+df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+print(df.iloc[0:2])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">iloc uses integer position indexing. 0:2 means positions 0 and 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>   A  B
+0  1  4
+1  2  5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code to group students by their department and calculate the average marks for each department.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Use df.groupby('Department')['Marks'].mean().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><pre><code>import pandas as pd
+
+df = pd.DataFrame({
+    'Name': ['Aarav', 'Priya', 'Rohan', 'Ananya', 'Vikram', 'Meera'],
+    'Department': ['CSE', 'ECE', 'CSE', 'IT', 'ECE', 'CSE'],
+    'Marks': [85, 92, 78, 88, 65, 95]
+})
+
+avg_by_dept = df.groupby('Department')['Marks'].mean().round(1)
+print("Average marks by department:")
+print(avg_by_dept)</code></pre>
+Output: CSE 86.0, ECE 78.5, IT 88.0</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+A = np.array([[1, 2], [3, 4]])
+B = np.array([[5, 6], [7, 8]])
+print(A @ B)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Matrix multiplication: row of A dot column of B.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>[[19 22]
+ [43 50]]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write NumPy code to generate 1000 random numbers from a normal distribution with mean=50 and std=10, then find what percentage of values fall between 40 and 60.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Use np.random.normal(). Count values between 40 and 60 using boolean indexing.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><pre><code>import numpy as np
+np.random.seed(42)
+
+data = np.random.normal(loc=50, scale=10, size=1000)
+in_range = np.sum((data >= 40) & (data <= 60))
+pct = in_range / len(data) * 100
+print(f"Values between 40-60: {in_range} out of 1000")
+print(f"Percentage: {pct:.1f}%")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+arr = np.array([5, 10, 15, 20])
+print(np.sum(arr))
+print(np.mean(arr))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Sum adds all elements. Mean is sum divided by count.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>50</code><br><code>12.5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write Pandas code to add a new column 'Grade' to a DataFrame based on marks: A if marks >= 90, B if >= 75, C if >= 60, else F.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Use df['Marks'].apply(lambda x: ...) with conditional logic.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><pre><code>import pandas as pd
+
+df = pd.DataFrame({
+    'Name': ['Aarav', 'Priya', 'Rohan', 'Ananya'],
+    'Marks': [95, 78, 62, 45]
+})
+
+def assign_grade(marks):
+    if marks >= 90: return 'A'
+    elif marks >= 75: return 'B'
+    elif marks >= 60: return 'C'
+    else: return 'F'
+
+df['Grade'] = df['Marks'].apply(assign_grade)
+print(df)</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+print(np.sum(arr, axis=0))
+print(np.sum(arr, axis=1))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">axis=0 sums along columns (down). axis=1 sums along rows (across).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>[5 7 9]</code><br><code>[ 6 15]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code to merge two DataFrames: one with student names and IDs, another with IDs and marks. Join them on the 'ID' column.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Use pd.merge(df1, df2, on='ID').</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><pre><code>import pandas as pd
+
+students = pd.DataFrame({
+    'ID': [101, 102, 103],
+    'Name': ['Aarav', 'Priya', 'Rohan']
+})
+
+marks = pd.DataFrame({
+    'ID': [101, 102, 103],
+    'Marks': [85, 92, 78]
+})
+
+result = pd.merge(students, marks, on='ID')
+print(result)</code></pre>
+Output:
+    ID   Name  Marks
+0  101  Aarav     85
+1  102  Priya     92
+2  103  Rohan     78</div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write Matplotlib code to create a bar chart showing marks of 4 students with student names on x-axis, marks on y-axis, a title, and labels.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Use plt.bar(names, marks), plt.title(), plt.xlabel(), plt.ylabel().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><pre><code>import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+
+names = ['Aarav', 'Priya', 'Rohan', 'Ananya']
+marks = [85, 92, 78, 88]
+
+plt.figure(figsize=(8, 5))
+plt.bar(names, marks, color=['#a855f7', '#06b6d4', '#f59e0b', '#22c55e'])
+plt.title('Student Marks Comparison')
+plt.xlabel('Students')
+plt.ylabel('Marks')
+plt.savefig('bar_chart.png')
+print("Bar chart saved")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>import pandas as pd
+df = pd.DataFrame({'Name': ['Aarav', 'Priya', 'Rohan'], 'Age': [20, 22, 21]})
+print(df.shape)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">shape returns (rows, columns).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>(3, 2)</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+arr = np.array([1, 2, 3, 4])
+print(arr + arr)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Adding two arrays performs element-wise addition.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>[2 4 6 8]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write code to create a Pandas Series from a list [10, 20, 30, 40] with custom index ['a', 'b', 'c', 'd'] and print the element at index 'c'.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Use pd.Series(data, index=custom_index).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><pre><code>import pandas as pd
+
+s = pd.Series([10, 20, 30, 40], index=['a', 'b', 'c', 'd'])
+print(s)
+print(f"\nElement at 'c': {s['c']}")</code></pre>
+Output: Element at 'c': 30</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+arr = np.array([3, 1, 4, 1, 5, 9])
+print(np.max(arr))
+print(np.argmax(arr))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">max returns the maximum value, argmax returns the INDEX of the maximum.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>9</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import pandas as pd
+df = pd.DataFrame({'X': [1, 2, 3], 'Y': [4, 5, 6]})
+print(df['X'].sum())
+print(df.sum())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Sum on a column gives a scalar. Sum on a DataFrame gives column-wise sums.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>6</code><br><code>X     6
+Y    15
+dtype: int64</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to create a 3x3 identity matrix using NumPy and verify that multiplying it with any vector gives the same vector.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Use np.eye(3) for the identity matrix. Multiply with np.dot().</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><pre><code>import numpy as np
+
+I = np.eye(3)
+print("Identity matrix:\n", I)
+
+v = np.array([5, 10, 15])
+result = I @ v
+print(f"\nI @ {v} = {result}")
+print(f"Same as original? {np.array_equal(v, result)}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write Pandas code to read a DataFrame with some missing values and create a summary showing: total rows, missing values per column, and percentage missing per column.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Use isnull().sum() and divide by len(df) * 100.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>import pandas as pd
+import numpy as np
+
+df = pd.DataFrame({
+    'Age': [25, np.nan, 30, np.nan, 28],
+    'Salary': [50000, 60000, np.nan, 70000, 55000],
+    'City': ['Delhi', None, 'Mumbai', 'Pune', None]
+})
+
+print(f"Total rows: {len(df)}")
+print(f"\nMissing values:")
+for col in df.columns:
+    missing = df[col].isnull().sum()
+    pct = missing / len(df) * 100
+    print(f"  {col}: {missing} ({pct:.0f}%)")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+arr = np.array([[10, 20, 30], [40, 50, 60]])
+print(arr.T)
+print(arr.T.shape)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">T transposes the matrix (swaps rows and columns).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>[[10 40]
+ [20 50]
+ [30 60]]</code><br><code>(3, 2)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a complete mini analysis: create a DataFrame with 5 students and their marks in 3 subjects, compute total and average marks, sort by average descending, and display the result.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Use df['Total'] = df[['Math', 'Science', 'English']].sum(axis=1) for row-wise sum.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><pre><code>import pandas as pd
+
+df = pd.DataFrame({
+    'Name': ['Aarav', 'Priya', 'Rohan', 'Ananya', 'Vikram'],
+    'Math': [85, 92, 78, 88, 65],
+    'Science': [90, 88, 72, 95, 70],
+    'English': [78, 95, 80, 82, 75]
+})
+
+df['Total'] = df[['Math', 'Science', 'English']].sum(axis=1)
+df['Average'] = df['Total'] / 3
+df = df.sort_values('Average', ascending=False)
+print(df.round(1).to_string(index=False))</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write NumPy code to create a random array of 5 integers between 1 and 100 and print the minimum and maximum values.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Use np.random.randint(1, 101, size=5).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>import numpy as np
+np.random.seed(42)
+
+arr = np.random.randint(1, 101, size=5)
+print(f"Array: {arr}")
+print(f"Min: {np.min(arr)}")
+print(f"Max: {np.max(arr)}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import pandas as pd
+df = pd.DataFrame({'A': [1, 1, 2, 2], 'B': [10, 20, 30, 40]})
+result = df.groupby('A')['B'].agg(['sum', 'mean', 'count'])
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">GroupBy groups rows by column A, then applies sum, mean, and count to column B.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>   sum  mean  count
+A                   
+1   30  15.0      2
+2   70  35.0      2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code to normalize an array of marks to the range [0, 1] using Min-Max scaling: (x - min) / (max - min).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Find min and max of the array, then apply the formula element-wise.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>import numpy as np
+
+marks = np.array([30, 45, 78, 92, 55, 67, 88, 41])
+min_val = np.min(marks)
+max_val = np.max(marks)
+normalized = (marks - min_val) / (max_val - min_val)
+
+print(f"Original marks: {marks}")
+print(f"Min: {min_val}, Max: {max_val}")
+print(f"Normalized (0-1): {np.round(normalized, 3)}")
+print(f"Min normalized: {normalized.min():.1f}, Max normalized: {normalized.max():.1f}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import pandas as pd
+df = pd.DataFrame({'A': [1, 2, 3], 'B': ['x', 'y', 'z']})
+print(df.dtypes)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Pandas infers data types automatically. Numbers become int64, strings become object.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>A     int64
+B    object
+dtype: object</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does np.array([1, 2, 3]) * 3 produce?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [1, 2, 3, 1, 2, 3, 1, 2, 3]</li><li><span class="mcq-option-label">B.</span> [3, 6, 9]</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> [1, 2, 3, 3]</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> NumPy performs element-wise multiplication: each element is multiplied by 3. This is vectorization -- no loops needed. Option A would be the result if this were a Python list (<code>[1,2,3] * 3</code> repeats the list).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does df.head() do in Pandas?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Displays the column names</li><li><span class="mcq-option-label">B.</span> Displays the first 5 rows of the DataFrame</li><li><span class="mcq-option-label">C.</span> Displays the data types</li><li><span class="mcq-option-label">D.</span> Displays summary statistics</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>df.head()</code> returns the first 5 rows by default. You can pass a number like <code>df.head(10)</code> to see more. <code>df.columns</code> shows column names. <code>df.dtypes</code> shows data types. <code>df.describe()</code> shows statistics.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which NumPy function creates an array of evenly spaced values between two endpoints?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> np.arange()</li><li><span class="mcq-option-label">B.</span> np.linspace()</li><li><span class="mcq-option-label">C.</span> np.zeros()</li><li><span class="mcq-option-label">D.</span> np.random.rand()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>np.linspace(0, 1, 5)</code> creates 5 evenly spaced values between 0 and 1: [0, 0.25, 0.5, 0.75, 1]. <code>np.arange()</code> uses a step size (not a count). <code>np.zeros()</code> creates an array of zeros. <code>np.random.rand()</code> creates random values.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is the output of np.arange(0, 10, 2)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [0, 2, 4, 6, 8, 10]</li><li><span class="mcq-option-label">B.</span> [0, 2, 4, 6, 8]</li><li><span class="mcq-option-label">C.</span> [2, 4, 6, 8, 10]</li><li><span class="mcq-option-label">D.</span> [0, 1, 2, 3, 4]</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>np.arange(start, stop, step)</code> creates values from 0 to 10 (exclusive) with step 2. The values are [0, 2, 4, 6, 8]. The stop value (10) is excluded, just like Python's range().</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">In Pandas, what is the difference between loc and iloc?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> loc is for rows, iloc is for columns</li><li><span class="mcq-option-label">B.</span> loc uses label-based indexing, iloc uses integer position-based indexing</li><li><span class="mcq-option-label">C.</span> They are the same thing</li><li><span class="mcq-option-label">D.</span> loc is faster than iloc</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>loc</code> selects data by label (e.g., <code>df.loc['row_name', 'col_name']</code>). <code>iloc</code> selects by integer position (e.g., <code>df.iloc[0, 1]</code>). Important: <code>loc</code> slicing is inclusive on both ends, while <code>iloc</code> slicing excludes the end (like Python).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does arr.reshape(-1, 1) do to a 1D NumPy array with 5 elements?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Flattens it to shape (5,)</li><li><span class="mcq-option-label">B.</span> Converts it to shape (5, 1) -- a column vector</li><li><span class="mcq-option-label">C.</span> Converts it to shape (1, 5) -- a row vector</li><li><span class="mcq-option-label">D.</span> Raises an error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>reshape(-1, 1)</code> creates a 2D array with 1 column. The <code>-1</code> means 'calculate the number of rows automatically' (5 elements / 1 column = 5 rows). This gives shape (5, 1), which is what scikit-learn expects for single-feature input.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does df.isnull().sum() return for a Pandas DataFrame?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Total number of missing values in the entire DataFrame</li><li><span class="mcq-option-label">B.</span> Number of missing values in each column</li><li><span class="mcq-option-label">C.</span> True or False for each cell</li><li><span class="mcq-option-label">D.</span> Number of non-null values in each column</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>df.isnull()</code> creates a boolean DataFrame (True where values are missing). <code>.sum()</code> sums each column (True counts as 1, False as 0), giving the count of missing values per column. To get the total, use <code>df.isnull().sum().sum()</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is the correct way to filter a Pandas DataFrame for rows where age > 20 AND marks > 80?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> df[df[&#39;age&#39;] &gt; 20 and df[&#39;marks&#39;] &gt; 80]</li><li><span class="mcq-option-label">B.</span> df[(df[&#39;age&#39;] &gt; 20) &amp; (df[&#39;marks&#39;] &gt; 80)]</li><li><span class="mcq-option-label">C.</span> df[df[&#39;age&#39;] &gt; 20 &amp; df[&#39;marks&#39;] &gt; 80]</li><li><span class="mcq-option-label">D.</span> df.filter(age &gt; 20, marks &gt; 80)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> In Pandas, you must use <code>&</code> (not <code>and</code>) for element-wise AND, and each condition must be in parentheses. Option A uses Python's <code>and</code> which does not work with Series. Option C has incorrect precedence without parentheses.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What type of plot is best for showing the distribution of a single numerical variable?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Scatter plot</li><li><span class="mcq-option-label">B.</span> Bar chart</li><li><span class="mcq-option-label">C.</span> Histogram</li><li><span class="mcq-option-label">D.</span> Pie chart</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> Histograms show the frequency distribution of a single variable by dividing values into bins and counting occurrences. Scatter plots show relationships between two variables. Bar charts compare categories. Pie charts show proportions of a whole.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is broadcasting in NumPy?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Sending arrays to multiple processors</li><li><span class="mcq-option-label">B.</span> Automatically expanding smaller arrays to match larger arrays for element-wise operations</li><li><span class="mcq-option-label">C.</span> Converting arrays to different data types</li><li><span class="mcq-option-label">D.</span> Distributing data across multiple machines</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Broadcasting is NumPy's mechanism for performing operations between arrays of different shapes. When you write <code>np.array([1, 2, 3]) + 5</code>, NumPy broadcasts the scalar 5 to match the array shape, effectively adding [5, 5, 5]. This also works between differently shaped arrays following specific rules.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What does df.groupby('Department')['Salary'].mean() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The overall mean salary</li><li><span class="mcq-option-label">B.</span> The mean salary for each department</li><li><span class="mcq-option-label">C.</span> A list of all salaries</li><li><span class="mcq-option-label">D.</span> The Department column</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>groupby('Department')</code> groups the rows by unique values in the Department column. <code>['Salary'].mean()</code> then computes the average salary within each group. The result is a Series indexed by department names with mean salaries as values.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the shape of np.array([[1, 2, 3], [4, 5, 6]]).T?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> (2, 3)</li><li><span class="mcq-option-label">B.</span> (3, 2)</li><li><span class="mcq-option-label">C.</span> (6,)</li><li><span class="mcq-option-label">D.</span> (1, 6)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> The original array has shape (2, 3) -- 2 rows and 3 columns. Transposing (<code>.T</code>) swaps rows and columns, giving shape (3, 2) -- 3 rows and 2 columns. Transpose is essential in ML for operations like computing the normal equation in linear regression: <code>(X.T @ X)^(-1) @ X.T @ y</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does pd.read_csv('data.csv') do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Creates a new CSV file</li><li><span class="mcq-option-label">B.</span> Reads a CSV file into a Pandas DataFrame</li><li><span class="mcq-option-label">C.</span> Reads a CSV file into a NumPy array</li><li><span class="mcq-option-label">D.</span> Opens a CSV file in a text editor</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>pd.read_csv()</code> reads a CSV (Comma Separated Values) file and returns a Pandas DataFrame. This is the most common way to load data in ML projects. Pandas also supports <code>read_excel()</code>, <code>read_json()</code>, and <code>read_sql()</code> for other formats.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the output of np.dot(np.array([1, 2, 3]), np.array([4, 5, 6]))?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [4, 10, 18]</li><li><span class="mcq-option-label">B.</span> 32</li><li><span class="mcq-option-label">C.</span> [[4, 5, 6], [8, 10, 12], [12, 15, 18]]</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> The dot product of two 1D arrays is a scalar: (1*4) + (2*5) + (3*6) = 4 + 10 + 18 = 32. Option A would be element-wise multiplication (<code>arr1 * arr2</code>). The dot product is a single number that measures the similarity between two vectors.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which Matplotlib function creates a scatter plot?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> plt.plot()</li><li><span class="mcq-option-label">B.</span> plt.bar()</li><li><span class="mcq-option-label">C.</span> plt.scatter()</li><li><span class="mcq-option-label">D.</span> plt.hist()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>plt.scatter(x, y)</code> creates a scatter plot showing individual data points. <code>plt.plot()</code> creates line charts. <code>plt.bar()</code> creates bar charts. <code>plt.hist()</code> creates histograms. Scatter plots are essential in ML for visualizing relationships between features.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: NumPy Statistics Calculator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a NumPy array of exam marks: [72, 85, 90, 65, 78, 92, 55, 88, 76, 81]. Calculate and print: count, sum, mean, median, standard deviation, minimum, maximum, and range (max - min).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">marks = [72, 85, 90, 65, 78, 92, 55, 88, 76, 81]</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Count: 10
+Sum: 782
+Mean: 78.2
+Median: 79.5
+Std: 10.79
+Min: 55
+Max: 92
+Range: 37</div>
+                </div><div class="challenge-constraints">Use NumPy functions only. Do not use Python built-in functions.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">import numpy as np
+
+marks = np.array([72, 85, 90, 65, 78, 92, 55, 88, 76, 81])
+
+print(f&quot;Count: {len(marks)}&quot;)
+print(f&quot;Sum: {np.sum(marks)}&quot;)
+print(f&quot;Mean: {np.mean(marks)}&quot;)
+print(f&quot;Median: {np.median(marks)}&quot;)
+print(f&quot;Std: {np.std(marks):.2f}&quot;)
+print(f&quot;Min: {np.min(marks)}&quot;)
+print(f&quot;Max: {np.max(marks)}&quot;)
+print(f&quot;Range: {np.max(marks) - np.min(marks)}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Pandas Student Report Card Generator</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a DataFrame with 6 students, their marks in Math, Science, and English. Add columns for Total, Average, and Grade (A: avg >= 85, B: >= 70, C: >= 55, F: below 55). Sort by Average descending and print the report.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Students: Aarav, Priya, Rohan, Ananya, Vikram, Meera</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Complete report card sorted by average marks</div>
+                </div><div class="challenge-constraints">Use Pandas operations. No manual calculations.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">import pandas as pd
+
+df = pd.DataFrame({
+    &#39;Name&#39;: [&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Rohan&#39;, &#39;Ananya&#39;, &#39;Vikram&#39;, &#39;Meera&#39;],
+    &#39;Math&#39;: [85, 92, 55, 88, 45, 95],
+    &#39;Science&#39;: [90, 88, 60, 95, 50, 91],
+    &#39;English&#39;: [78, 95, 52, 82, 48, 88]
+})
+
+subjects = [&#39;Math&#39;, &#39;Science&#39;, &#39;English&#39;]
+df[&#39;Total&#39;] = df[subjects].sum(axis=1)
+df[&#39;Average&#39;] = (df[&#39;Total&#39;] / 3).round(1)
+
+def grade(avg):
+    if avg &gt;= 85: return &#39;A&#39;
+    if avg &gt;= 70: return &#39;B&#39;
+    if avg &gt;= 55: return &#39;C&#39;
+    return &#39;F&#39;
+
+df[&#39;Grade&#39;] = df[&#39;Average&#39;].apply(grade)
+df = df.sort_values(&#39;Average&#39;, ascending=False)
+print(df.to_string(index=False))</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Missing Data Handler</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a DataFrame with intentional missing values (use np.nan). Write a function that: (1) reports missing values per column, (2) fills numerical columns with median, (3) fills categorical columns with mode, (4) verifies no missing values remain.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">DataFrame with Name, Age (2 NaN), Salary (1 NaN), City (1 None)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Missing values report, filled DataFrame, verification</div>
+                </div><div class="challenge-constraints">Handle numerical and categorical columns differently.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">import pandas as pd
+import numpy as np
+
+df = pd.DataFrame({
+    &#39;Name&#39;: [&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Rohan&#39;, &#39;Ananya&#39;, &#39;Vikram&#39;],
+    &#39;Age&#39;: [25, np.nan, 30, np.nan, 28],
+    &#39;Salary&#39;: [50000, 60000, np.nan, 70000, 55000],
+    &#39;City&#39;: [&#39;Delhi&#39;, None, &#39;Mumbai&#39;, &#39;Pune&#39;, None]
+})
+
+print(&#39;Before cleaning:&#39;)
+print(df)
+print(f&#39;\nMissing values:\n{df.isnull().sum()}&#39;)
+
+for col in df.select_dtypes(include=&#39;number&#39;).columns:
+    df[col] = df[col].fillna(df[col].median())
+
+for col in df.select_dtypes(include=&#39;object&#39;).columns:
+    df[col] = df[col].fillna(df[col].mode()[0])
+
+print(&#39;\nAfter cleaning:&#39;)
+print(df)
+print(f&#39;\nMissing values remaining: {df.isnull().sum().sum()}&#39;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Data Visualization Dashboard</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Generate synthetic data for 200 students with: hours_studied (1-10), attendance_pct (40-100), and marks (correlated with hours). Create a 2x2 dashboard with: (1) histogram of marks, (2) scatter plot of hours vs marks, (3) bar chart of average marks by attendance category (Low/Medium/High), (4) box plot of marks. Save as 'dashboard.png'.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">np.random.seed(42), 200 synthetic student records</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">dashboard.png saved with 4 subplots</div>
+                </div><div class="challenge-constraints">Use NumPy for data generation, Pandas for manipulation, Matplotlib for plotting.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">import numpy as np
+import pandas as pd
+import matplotlib
+matplotlib.use(&#39;Agg&#39;)
+import matplotlib.pyplot as plt
+
+np.random.seed(42)
+n = 200
+hours = np.random.uniform(1, 10, n)
+attendance = np.random.uniform(40, 100, n)
+marks = 30 + 5 * hours + np.random.normal(0, 8, n)
+marks = np.clip(marks, 0, 100)
+
+df = pd.DataFrame({&#39;Hours&#39;: hours.round(1), &#39;Attendance&#39;: attendance.round(1), &#39;Marks&#39;: marks.round(1)})
+df[&#39;Att_Category&#39;] = pd.cut(df[&#39;Attendance&#39;], bins=[0, 60, 80, 100], labels=[&#39;Low&#39;, &#39;Medium&#39;, &#39;High&#39;])
+
+fig, axes = plt.subplots(2, 2, figsize=(14, 10))
+fig.suptitle(&#39;Student Performance Dashboard&#39;, fontsize=16)
+
+axes[0][0].hist(df[&#39;Marks&#39;], bins=20, color=&#39;#a855f7&#39;, edgecolor=&#39;black&#39;)
+axes[0][0].set_title(&#39;Marks Distribution&#39;)
+axes[0][0].set_xlabel(&#39;Marks&#39;)
+
+axes[0][1].scatter(df[&#39;Hours&#39;], df[&#39;Marks&#39;], alpha=0.5, c=&#39;#06b6d4&#39;, s=30)
+axes[0][1].set_title(&#39;Study Hours vs Marks&#39;)
+axes[0][1].set_xlabel(&#39;Hours Studied&#39;)
+axes[0][1].set_ylabel(&#39;Marks&#39;)
+
+avg_by_att = df.groupby(&#39;Att_Category&#39;)[&#39;Marks&#39;].mean()
+axes[1][0].bar(avg_by_att.index.astype(str), avg_by_att.values, color=[&#39;#ef4444&#39;, &#39;#f59e0b&#39;, &#39;#22c55e&#39;])
+axes[1][0].set_title(&#39;Avg Marks by Attendance&#39;)
+
+axes[1][1].boxplot(df[&#39;Marks&#39;])
+axes[1][1].set_title(&#39;Marks Box Plot&#39;)
+
+plt.tight_layout()
+plt.savefig(&#39;dashboard.png&#39;, dpi=100)
+print(&#39;Dashboard saved as dashboard.png&#39;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Matrix Operations for ML</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Implement the following using NumPy: (1) Create a 3x3 matrix A and a 3x1 vector b. (2) Compute A transposed. (3) Compute A @ b (matrix-vector multiplication). (4) Compute the inverse of A using np.linalg.inv(). (5) Verify that A @ A_inv equals the identity matrix (use np.allclose).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">A = [[2, 1, 0], [1, 3, 1], [0, 1, 2]], b = [[1], [2], [3]]</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Transpose, product, inverse, and identity verification</div>
+                </div><div class="challenge-constraints">Use NumPy&#39;s linalg module. Round results to 2 decimal places.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">import numpy as np
+
+A = np.array([[2, 1, 0], [1, 3, 1], [0, 1, 2]])
+b = np.array([[1], [2], [3]])
+
+print(&#39;Matrix A:\n&#39;, A)
+print(&#39;\nA transposed:\n&#39;, A.T)
+print(&#39;\nA @ b:\n&#39;, A @ b)
+
+A_inv = np.linalg.inv(A)
+print(&#39;\nA inverse:\n&#39;, np.round(A_inv, 2))
+
+identity = A @ A_inv
+print(&#39;\nA @ A_inv:\n&#39;, np.round(identity, 2))
+print(&#39;\nIs identity matrix?&#39;, np.allclose(identity, np.eye(3)))</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Complete Data Analysis: CSV-like Data Pipeline</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Simulate reading a dataset: create a DataFrame with 50 employee records (Name, Department, Salary with some NaN, Experience). Perform a complete analysis: (1) show shape and info, (2) handle missing salaries with department-wise median, (3) add 'Salary_Level' column (Low/Medium/High), (4) groupby department and show average salary and count, (5) find the top 3 highest-paid employees.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">50 synthetic employee records with some missing salaries</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Complete analysis report with cleaned data and insights</div>
+                </div><div class="challenge-constraints">Use Pandas for all operations. Make the output readable.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">import pandas as pd
+import numpy as np
+
+np.random.seed(42)
+n = 50
+depts = np.random.choice([&#39;Engineering&#39;, &#39;Marketing&#39;, &#39;Sales&#39;, &#39;HR&#39;], n)
+salaries = np.where(depts == &#39;Engineering&#39;, np.random.normal(90000, 15000, n),
+           np.where(depts == &#39;Marketing&#39;, np.random.normal(70000, 10000, n),
+           np.where(depts == &#39;Sales&#39;, np.random.normal(60000, 12000, n),
+           np.random.normal(55000, 8000, n))))
+
+df = pd.DataFrame({
+    &#39;Name&#39;: [f&#39;Employee_{i}&#39; for i in range(1, n+1)],
+    &#39;Department&#39;: depts,
+    &#39;Salary&#39;: salaries.round(0),
+    &#39;Experience&#39;: np.random.randint(1, 20, n)
+})
+df.loc[np.random.choice(n, 8, replace=False), &#39;Salary&#39;] = np.nan
+
+print(f&#39;Shape: {df.shape}&#39;)
+print(f&#39;Missing salaries: {df[&quot;Salary&quot;].isnull().sum()}&#39;)
+
+df[&#39;Salary&#39;] = df.groupby(&#39;Department&#39;)[&#39;Salary&#39;].transform(lambda x: x.fillna(x.median()))
+print(f&#39;Missing after fill: {df[&quot;Salary&quot;].isnull().sum()}&#39;)
+
+df[&#39;Salary_Level&#39;] = pd.cut(df[&#39;Salary&#39;], bins=[0, 55000, 80000, float(&#39;inf&#39;)], labels=[&#39;Low&#39;, &#39;Medium&#39;, &#39;High&#39;])
+
+print(&#39;\nDepartment Summary:&#39;)
+print(df.groupby(&#39;Department&#39;).agg(
+    Avg_Salary=(&#39;Salary&#39;, &#39;mean&#39;),
+    Count=(&#39;Salary&#39;, &#39;count&#39;)
+).round(0))
+
+print(&#39;\nTop 3 Highest Paid:&#39;)
+print(df.nlargest(3, &#39;Salary&#39;)[[&#39;Name&#39;, &#39;Department&#39;, &#39;Salary&#39;]].to_string(index=False))</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/ai-and-machine-learning/introduction-to-ai-and-ml/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Introduction to AI and Machine Learning</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/mathematics-for-ml/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Mathematics for Machine Learning</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/ai-and-machine-learning/python-for-ai-essentials" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Inheritance in C++ | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="58+ practice questions on Inheritance in C++ in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="inheritance in c++ practice, c++ questions, c++ practice problems, inheritance in c++ exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp/practice">
+    <meta property="og:title" content="Practice Questions - Inheritance in C++ | C++ | Modern Age Coders">
+    <meta property="og:description" content="58+ practice questions on Inheritance in C++ in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp/practice">
+    <meta name="twitter:title" content="Practice Questions - Inheritance in C++ | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="58+ practice questions on Inheritance in C++ in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Inheritance in C++",
+    "description": "58+ practice questions on Inheritance in C++ in C++.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Inheritance in C++"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Inheritance in C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/inheritance-in-cpp/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/inheritance-in-cpp">Inheritance in C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 15</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">58 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Inheritance in C++</h1>
+            <a href="/resources/cpp/inheritance-in-cpp" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    A() { cout &lt;&lt; "A "; }
+};
+class B : public A {
+public:
+    B() { cout &lt;&lt; "B "; }
+};
+int main() {
+    B b;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Constructor order: base first, then derived.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>A B </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    int x;
+    Base() : x(10) {}
+};
+class Derived : public Base {
+public:
+    int y;
+    Derived() : y(20) {}
+};
+int main() {
+    Derived d;
+    cout &lt;&lt; d.x &lt;&lt; " " &lt;&lt; d.y &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Derived inherits x from Base. Both x and y are public.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>10 20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    A() { cout &lt;&lt; "A "; }
+    ~A() { cout &lt;&lt; "~A "; }
+};
+class B : public A {
+public:
+    B() { cout &lt;&lt; "B "; }
+    ~B() { cout &lt;&lt; "~B "; }
+};
+int main() {
+    B b;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Constructors: base first. Destructors: derived first (reverse order).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>A B ~B ~A </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Animal {
+public:
+    void eat() { cout &lt;&lt; "Eating" &lt;&lt; endl; }
+};
+class Dog : public Animal {
+public:
+    void bark() { cout &lt;&lt; "Barking" &lt;&lt; endl; }
+};
+int main() {
+    Dog d;
+    d.eat();
+    d.bark();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Dog inherits eat() from Animal and has its own bark().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Eating</code><br><code>Barking</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    A() { cout &lt;&lt; "A "; }
+};
+class B : public A {
+public:
+    B() { cout &lt;&lt; "B "; }
+};
+class C : public B {
+public:
+    C() { cout &lt;&lt; "C "; }
+};
+int main() {
+    C c;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Multilevel inheritance: A -> B -> C. Constructors run top to bottom.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>A B C </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    A() { cout &lt;&lt; "A "; }
+    ~A() { cout &lt;&lt; "~A "; }
+};
+class B {
+public:
+    B() { cout &lt;&lt; "B "; }
+    ~B() { cout &lt;&lt; "~B "; }
+};
+class C : public A, public B {
+public:
+    C() { cout &lt;&lt; "C "; }
+    ~C() { cout &lt;&lt; "~C "; }
+};
+int main() {
+    C c;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Multiple inheritance: base classes constructed in declaration order (A first, then B).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>A B C ~C ~B ~A </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    void show() { cout &lt;&lt; "Base" &lt;&lt; endl; }
+};
+class Derived : public Base {
+public:
+    void show() { cout &lt;&lt; "Derived" &lt;&lt; endl; }
+};
+int main() {
+    Derived d;
+    d.show();
+    d.Base::show();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">d.show() calls Derived's version. d.Base::show() explicitly calls the base version.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Derived</code><br><code>Base</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    A(int x) { cout &lt;&lt; "A(" &lt;&lt; x &lt;&lt; ") "; }
+};
+class B : public A {
+public:
+    B(int x) : A(x * 2) { cout &lt;&lt; "B(" &lt;&lt; x &lt;&lt; ") "; }
+};
+class C : public B {
+public:
+    C(int x) : B(x + 1) { cout &lt;&lt; "C(" &lt;&lt; x &lt;&lt; ") "; }
+};
+int main() {
+    C c(5);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">C(5) calls B(6), which calls A(12). Trace the values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>A(12) B(6) C(5) </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+protected:
+    int x;
+public:
+    Base(int v) : x(v) {}
+};
+class D1 : public Base {
+public:
+    D1(int v) : Base(v) {}
+    int get() { return x; }
+};
+class D2 : public Base {
+public:
+    D2(int v) : Base(v) {}
+    int get() { return x * 2; }
+};
+int main() {
+    D1 a(10);
+    D2 b(10);
+    cout &lt;&lt; a.get() &lt;&lt; " " &lt;&lt; b.get() &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">D1 and D2 both inherit from Base but compute differently from the protected x.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>10 20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    A() { cout &lt;&lt; "A "; }
+};
+class B {
+public:
+    B() { cout &lt;&lt; "B "; }
+};
+class C : public B, public A {
+    A memberA;
+    B memberB;
+public:
+    C() { cout &lt;&lt; "C "; }
+};
+int main() {
+    C c;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Order: base classes (declaration order B, A), then members (declaration order memberA, memberB), then C's body.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>B A A B C </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    A() { cout &lt;&lt; "A "; }
+};
+class B : virtual public A {
+public:
+    B() { cout &lt;&lt; "B "; }
+};
+class C : virtual public A {
+public:
+    C() { cout &lt;&lt; "C "; }
+};
+class D : public B, public C {
+public:
+    D() { cout &lt;&lt; "D "; }
+};
+int main() {
+    D d;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Virtual base A is constructed only once, before any non-virtual bases. Then B, C, D.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>A B C D </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    int x;
+    A() : x(0) {}
+};
+class B : public A {};
+class C : public A {};
+class D : public B, public C {
+public:
+    void set(int v) {
+        B::x = v;
+        C::x = v * 10;
+    }
+    void show() {
+        cout &lt;&lt; B::x &lt;&lt; " " &lt;&lt; C::x &lt;&lt; endl;
+    }
+};
+int main() {
+    D d;
+    d.set(5);
+    d.show();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Without virtual inheritance, D has two separate copies of A. B::x and C::x are different variables.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>5 50</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    int x;
+    Base(int v) : x(v) { cout &lt;&lt; "Base(" &lt;&lt; v &lt;&lt; ") "; }
+};
+class Mid : virtual public Base {
+public:
+    Mid(int v) : Base(v) { cout &lt;&lt; "Mid(" &lt;&lt; v &lt;&lt; ") "; }
+};
+class Leaf : public Mid {
+public:
+    Leaf(int v) : Base(v * 10), Mid(v) { cout &lt;&lt; "Leaf(" &lt;&lt; v &lt;&lt; ") "; }
+};
+int main() {
+    Leaf l(3);
+    cout &lt;&lt; endl &lt;&lt; l.x &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">In virtual inheritance, the most derived class (Leaf) calls the virtual base constructor. Mid's call to Base is ignored.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>Base(30) Mid(3) Leaf(3) </code><br><code>30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    A() { cout &lt;&lt; "A "; }
+    ~A() { cout &lt;&lt; "~A "; }
+};
+class B : virtual public A {
+public:
+    B() { cout &lt;&lt; "B "; }
+    ~B() { cout &lt;&lt; "~B "; }
+};
+class C : virtual public A {
+public:
+    C() { cout &lt;&lt; "C "; }
+    ~C() { cout &lt;&lt; "~C "; }
+};
+class D : public B, public C {
+public:
+    D() { cout &lt;&lt; "D "; }
+    ~D() { cout &lt;&lt; "~D "; }
+};
+int main() {
+    D d;
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Virtual base A constructed once, first. Destruction is reverse of construction.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>A B C D </code><br><code>~D ~C ~B ~A </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    void show() { cout &lt;&lt; "Base" &lt;&lt; endl; }
+};
+class Derived : private Base {
+public:
+    void test() {
+        show();  // OK: private inheritance, but accessible inside Derived
+    }
+};
+int main() {
+    Derived d;
+    d.test();
+    // d.show();  // Error: show() is private in Derived's context
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">With private inheritance, base public members become private in derived. Accessible inside Derived but not outside.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>Base</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class X {
+public:
+    X() { cout &lt;&lt; "X "; }
+};
+class Y {
+public:
+    Y() { cout &lt;&lt; "Y "; }
+};
+class A : virtual public X {
+public:
+    A() { cout &lt;&lt; "A "; }
+};
+class B : virtual public X, virtual public Y {
+public:
+    B() { cout &lt;&lt; "B "; }
+};
+class C : public A, public B {
+public:
+    C() { cout &lt;&lt; "C "; }
+};
+int main() {
+    C c;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Virtual bases are constructed first (in the order they first appear): X then Y. Then non-virtual: A, B. Then C.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>X Y A B C </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Greet {
+public:
+    void hello() { cout &lt;&lt; "Hello "; }
+};
+class D1 : public Greet {
+public:
+    void hello() { cout &lt;&lt; "Hi "; }
+};
+class D2 : public D1 {
+public:
+    void test() {
+        hello();
+        D1::hello();
+        Greet::hello();
+    }
+};
+int main() {
+    D2 d;
+    d.test();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">hello() without qualifier calls the nearest version (D1). Scope resolution calls specific versions.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>Hi Hi Hello </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What happens when you compile this?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+private:
+    int secret;
+public:
+    Base(int s) : secret(s) {}
+};
+class Derived : public Base {
+public:
+    Derived(int s) : Base(s) {}
+    void show() {
+        cout &lt;&lt; secret &lt;&lt; endl;
+    }
+};
+int main() {
+    Derived d(10);
+    d.show();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">secret is private in Base. Can Derived access it directly?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18">Compilation error: <code>'secret' is a private member of 'Base'</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Vehicle {
+public:
+    Vehicle() { cout &lt;&lt; "V "; }
+};
+class Car : public Vehicle {
+public:
+    Car() { cout &lt;&lt; "C "; }
+};
+class SportsCar : public Car {
+public:
+    SportsCar() { cout &lt;&lt; "S "; }
+};
+int main() {
+    SportsCar sc;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Multilevel: Vehicle -> Car -> SportsCar. Constructors run base to derived.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>V C S </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    Base(int x) { cout &lt;&lt; "B(" &lt;&lt; x &lt;&lt; ") "; }
+    ~Base() { cout &lt;&lt; "~B "; }
+};
+class Derived : public Base {
+public:
+    Derived(int x) : Base(x * 2) { cout &lt;&lt; "D(" &lt;&lt; x &lt;&lt; ") "; }
+    ~Derived() { cout &lt;&lt; "~D "; }
+};
+int main() {
+    Derived d(5);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Derived(5) calls Base(10). Constructors: base first. Destructors: derived first.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>B(10) D(5) ~D ~B </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    int x;
+    A(int v = 0) : x(v) { cout &lt;&lt; "A(" &lt;&lt; v &lt;&lt; ") "; }
+};
+class B : virtual public A {
+public:
+    B(int v) : A(v) { cout &lt;&lt; "B "; }
+};
+class C : virtual public A {
+public:
+    C(int v) : A(v) { cout &lt;&lt; "C "; }
+};
+class D : public B, public C {
+public:
+    D(int v) : A(v * 10), B(v), C(v) { cout &lt;&lt; "D "; }
+};
+int main() {
+    D d(5);
+    cout &lt;&lt; d.x &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">Most derived class D calls A(50). B and C's calls to A are ignored. Only one A exists.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21"><code>A(50) B C D 50</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Animal {
+public:
+    string sound() { return "..."; }
+};
+class Cat : public Animal {
+public:
+    string sound() { return "Meow"; }
+};
+class Kitten : public Cat {
+public:
+    string sound() { return "Mew"; }
+};
+int main() {
+    Kitten k;
+    cout &lt;&lt; k.sound() &lt;&lt; endl;
+    cout &lt;&lt; k.Cat::sound() &lt;&lt; endl;
+    cout &lt;&lt; k.Animal::sound() &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">Direct call uses Kitten's version. Scope resolution calls the specific class version.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22"><code>Mew</code><br><code>Meow</code><br><code>...</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class X { public: X() { cout &lt;&lt; "X "; } ~X() { cout &lt;&lt; "~X "; } };
+class Y { public: Y() { cout &lt;&lt; "Y "; } ~Y() { cout &lt;&lt; "~Y "; } };
+class Z : public Y, public X {
+public:
+    Z() { cout &lt;&lt; "Z "; }
+    ~Z() { cout &lt;&lt; "~Z "; }
+};
+int main() { Z z; cout &lt;&lt; endl; return 0; }</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-23">Declaration order is Y, X. Construction follows declaration order, not alphabetical.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-23"><code>Y X Z </code><br><code>~Z ~X ~Y </code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What are the five types of inheritance in C++?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Think about how many base and derived classes are involved and how they connect.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">Single (one base, one derived), Multiple (two or more bases, one derived), Multilevel (chain: A -> B -> C), Hierarchical (one base, multiple derived), and Hybrid (combination of two or more types).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">In what order are constructors called in a multilevel inheritance chain A -> B -> C?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Think top to bottom.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">A's constructor first, then B's, then C's. Destructors run in the reverse order: ~C, ~B, ~A.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Shape {
+public:
+    void draw() { cout &lt;&lt; "Shape" &lt;&lt; endl; }
+};
+class Circle : public Shape {
+public:
+    void draw() { cout &lt;&lt; "Circle" &lt;&lt; endl; }
+};
+int main() {
+    Circle c;
+    c.draw();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">The Circle object calls its own draw(), which hides Base::draw().</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>Circle</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Parent {
+public:
+    Parent() { cout &lt;&lt; "Parent "; }
+    ~Parent() { cout &lt;&lt; "~Parent "; }
+};
+class Child : public Parent {
+public:
+    Child() { cout &lt;&lt; "Child "; }
+    ~Child() { cout &lt;&lt; "~Child "; }
+};
+int main() {
+    Child* c = new Child();
+    delete c;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Dynamic allocation. Constructor: Parent then Child. Destructor: Child then Parent.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Parent Child ~Child ~Parent </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    void greet() { cout &lt;&lt; "Hello from A" &lt;&lt; endl; }
+};
+class B {
+public:
+    void greet() { cout &lt;&lt; "Hello from B" &lt;&lt; endl; }
+};
+class C : public A, public B {
+public:
+    void greetBoth() {
+        A::greet();
+        B::greet();
+    }
+};
+int main() {
+    C c;
+    c.greetBoth();
+    c.A::greet();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">c.greet() would be ambiguous, but A::greet() and B::greet() disambiguate.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>Hello from A</code><br><code>Hello from B</code><br><code>Hello from A</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    void show() { cout &lt;&lt; "Base" &lt;&lt; endl; }
+};
+class Mid : public Base {
+public:
+    void show() {
+        Base::show();
+        cout &lt;&lt; "Mid" &lt;&lt; endl;
+    }
+};
+class Leaf : public Mid {
+public:
+    void show() {
+        Mid::show();
+        cout &lt;&lt; "Leaf" &lt;&lt; endl;
+    }
+};
+int main() {
+    Leaf l;
+    l.show();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Leaf::show calls Mid::show, which calls Base::show. The chain unfolds.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>Base</code><br><code>Mid</code><br><code>Leaf</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+protected:
+    int val;
+public:
+    Base(int v) : val(v) {}
+};
+class Derived : protected Base {
+public:
+    Derived(int v) : Base(v) {}
+    int get() { return val; }
+};
+class GrandChild : public Derived {
+public:
+    GrandChild(int v) : Derived(v) {}
+    int getDouble() { return val * 2; }
+};
+int main() {
+    GrandChild g(5);
+    cout &lt;&lt; g.get() &lt;&lt; " " &lt;&lt; g.getDouble() &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">protected inheritance makes Base's protected val stay protected in Derived. GrandChild can still access it.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>5 10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class V {
+public:
+    int x;
+    V(int v = 0) : x(v) { cout &lt;&lt; "V(" &lt;&lt; v &lt;&lt; ") "; }
+};
+class A : virtual public V {
+public:
+    A(int v) : V(v) { cout &lt;&lt; "A "; }
+};
+class B : virtual public V {
+public:
+    B(int v) : V(v) { cout &lt;&lt; "B "; }
+};
+class C : public A, public B {
+public:
+    C(int v) : V(v * 100), A(v), B(v) { cout &lt;&lt; "C "; }
+};
+int main() {
+    C c(3);
+    cout &lt;&lt; endl &lt;&lt; c.x &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">The most derived class C calls V(300). A and B's calls to V are ignored.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>V(300) A B C </code><br><code>300</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    int x;
+    A(int v = 0) : x(v) {}
+};
+class B : virtual public A {
+public:
+    B(int v) : A(v) {}
+};
+class C : virtual public A {
+public:
+    C(int v) : A(v) {}
+};
+class D : public B, public C {
+public:
+    D(int v) : A(v), B(v + 1), C(v + 2) {}
+};
+int main() {
+    D d(10);
+    cout &lt;&lt; d.x &lt;&lt; " " &lt;&lt; d.B::x &lt;&lt; " " &lt;&lt; d.C::x &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">With virtual inheritance, there is only one A. B::x and C::x both refer to the same x.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>10 10 10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    Base() { cout &lt;&lt; "Base "; }
+    ~Base() { cout &lt;&lt; "~Base "; }
+};
+class Member {
+public:
+    Member() { cout &lt;&lt; "Member "; }
+    ~Member() { cout &lt;&lt; "~Member "; }
+};
+class Derived : public Base {
+    Member m1;
+    Member m2;
+public:
+    Derived() { cout &lt;&lt; "Derived "; }
+    ~Derived() { cout &lt;&lt; "~Derived "; }
+};
+int main() {
+    Derived d;
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Order: base, members (in declaration order), then derived. Destruction is reverse.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>Base Member Member Derived </code><br><code>~Derived ~Member ~Member ~Base </code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is the syntax for public inheritance in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> class Derived extends Base</li><li><span class="mcq-option-label">B.</span> class Derived : public Base</li><li><span class="mcq-option-label">C.</span> class Derived implements Base</li><li><span class="mcq-option-label">D.</span> class Derived -&gt; Base</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> C++ uses the colon syntax: <code>class Derived : public Base</code>. Java uses <code>extends</code> (A) and <code>implements</code> (C). The arrow syntax (D) is not valid.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">In single inheritance, how many base classes does a derived class have?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Zero</li><li><span class="mcq-option-label">B.</span> Exactly one</li><li><span class="mcq-option-label">C.</span> Two</li><li><span class="mcq-option-label">D.</span> Unlimited</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> Single inheritance involves exactly one base class and one derived class. Multiple inheritance involves two or more base classes.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is the order of constructor calls in inheritance?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Derived first, then Base</li><li><span class="mcq-option-label">B.</span> Base first, then Derived</li><li><span class="mcq-option-label">C.</span> Random order</li><li><span class="mcq-option-label">D.</span> Only Base constructor runs</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> The base class constructor always runs before the derived class constructor. This ensures the base part is fully initialized before the derived part uses it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which inheritance type is NOT supported in Java but IS supported in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Single inheritance</li><li><span class="mcq-option-label">B.</span> Multilevel inheritance</li><li><span class="mcq-option-label">C.</span> Multiple class inheritance</li><li><span class="mcq-option-label">D.</span> Hierarchical inheritance</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> Java does not support multiple class inheritance (a class extending two classes). C++ supports it. Java uses interfaces instead.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">With public inheritance, how do base class public members appear in the derived class?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> private</li><li><span class="mcq-option-label">B.</span> protected</li><li><span class="mcq-option-label">C.</span> public</li><li><span class="mcq-option-label">D.</span> Not accessible</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> Public inheritance preserves access levels: base public stays public, base protected stays protected. This models the "is-a" relationship.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the diamond problem in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A class that inherits from itself</li><li><span class="mcq-option-label">B.</span> A class that inherits from two classes that share a common base, causing duplicate base members</li><li><span class="mcq-option-label">C.</span> A class with no constructor</li><li><span class="mcq-option-label">D.</span> A circular dependency between header files</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> The diamond problem occurs when class D inherits from B and C, and both B and C inherit from A. Without virtual inheritance, D gets two copies of A's members.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">How does virtual inheritance solve the diamond problem?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> By preventing multiple inheritance entirely</li><li><span class="mcq-option-label">B.</span> By ensuring only one copy of the shared virtual base exists in the most derived class</li><li><span class="mcq-option-label">C.</span> By making all members public</li><li><span class="mcq-option-label">D.</span> By converting classes to structs</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> Virtual inheritance ensures that a shared base class is included only once in the inheritance hierarchy, regardless of how many paths lead to it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">In virtual inheritance, who is responsible for calling the virtual base class constructor?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The immediate derived class</li><li><span class="mcq-option-label">B.</span> The most derived class</li><li><span class="mcq-option-label">C.</span> The compiler automatically handles it</li><li><span class="mcq-option-label">D.</span> The virtual base itself</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> With virtual inheritance, the most derived class in the hierarchy must call the virtual base class constructor. Intermediate classes' calls to the virtual base constructor are ignored.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">With private inheritance, how do base class public members appear in the derived class?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> public</li><li><span class="mcq-option-label">B.</span> protected</li><li><span class="mcq-option-label">C.</span> private</li><li><span class="mcq-option-label">D.</span> Not accessible at all</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> Private inheritance makes all inherited members private in the derived class. They are accessible within the derived class but not from outside or from further derived classes.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What determines the order of base class construction in multiple inheritance?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The order in the initializer list</li><li><span class="mcq-option-label">B.</span> Alphabetical order</li><li><span class="mcq-option-label">C.</span> The order of declaration in the class definition</li><li><span class="mcq-option-label">D.</span> The size of each base class</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> Base classes are constructed in the order they appear in the class definition (<code>class D : public B, public A</code> constructs B first, then A), regardless of the initializer list order.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">In a virtual inheritance hierarchy, when are virtual bases constructed relative to non-virtual bases?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> After all non-virtual bases</li><li><span class="mcq-option-label">B.</span> Before all non-virtual bases</li><li><span class="mcq-option-label">C.</span> Interleaved based on declaration order</li><li><span class="mcq-option-label">D.</span> It depends on the compiler</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> Virtual base classes are always constructed first, before any non-virtual base classes, regardless of where they appear in the inheritance declarations.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the difference between method hiding and method overriding?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are the same thing</li><li><span class="mcq-option-label">B.</span> Hiding uses virtual, overriding does not</li><li><span class="mcq-option-label">C.</span> Hiding occurs without virtual (static binding); overriding occurs with virtual (dynamic binding)</li><li><span class="mcq-option-label">D.</span> Hiding only works with private methods</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> When a derived class defines a method with the same name as a non-virtual base method, it hides the base version (resolved at compile time). When the base method is virtual and the derived method has the same signature, it overrides it (resolved at runtime via vtable).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">If class D : private Base, can a class E : public D access Base's originally public members?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, because E inherits publicly from D</li><li><span class="mcq-option-label">B.</span> No, because Base&#39;s members became private in D and are not accessible to E</li><li><span class="mcq-option-label">C.</span> Yes, but only if E uses a friend function</li><li><span class="mcq-option-label">D.</span> Yes, through protected access</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> Private inheritance makes all Base members private in D. When E inherits from D, those members are not accessible to E (private members are not inherited further).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What happens if the most derived class does NOT explicitly call the virtual base constructor?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Compilation error</li><li><span class="mcq-option-label">B.</span> The default constructor of the virtual base is called</li><li><span class="mcq-option-label">C.</span> The intermediate class&#39;s call is used</li><li><span class="mcq-option-label">D.</span> The program crashes at runtime</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> If the most derived class does not explicitly call the virtual base constructor, the compiler uses the default constructor (if available). If no default constructor exists, it is a compilation error.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Can a derived class access the private members of its base class?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, always</li><li><span class="mcq-option-label">B.</span> Only with public inheritance</li><li><span class="mcq-option-label">C.</span> No, private members are never accessible in derived classes</li><li><span class="mcq-option-label">D.</span> Only if the base class is a struct</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> Private members of a base class are never directly accessible in derived classes, regardless of the inheritance mode (public, protected, or private).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Which type of inheritance models the 'implemented-in-terms-of' relationship?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> public inheritance</li><li><span class="mcq-option-label">B.</span> protected inheritance</li><li><span class="mcq-option-label">C.</span> private inheritance</li><li><span class="mcq-option-label">D.</span> virtual inheritance</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: C</strong><br><strong>C is correct.</strong> Private inheritance means the derived class uses the base class's implementation but does not expose it. This models 'implemented-in-terms-of' rather than 'is-a'.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What is hierarchical inheritance?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A chain of classes inheriting from each other</li><li><span class="mcq-option-label">B.</span> One base class with multiple derived classes</li><li><span class="mcq-option-label">C.</span> A class inheriting from multiple base classes</li><li><span class="mcq-option-label">D.</span> Inheritance using virtual keyword</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> Hierarchical inheritance has one base class and multiple derived classes that independently extend it. Example: Shape is the base; Circle, Rectangle, Triangle are derived.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">In multiple inheritance, if both base classes have a method with the same name, what happens when the derived class calls it?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The first base class method is called</li><li><span class="mcq-option-label">B.</span> The second base class method is called</li><li><span class="mcq-option-label">C.</span> Compilation error due to ambiguity</li><li><span class="mcq-option-label">D.</span> Both methods are called</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: C</strong><br><strong>C is correct.</strong> If both base classes have a method with the same name and the derived class does not override it, calling the method is ambiguous and causes a compilation error. Use scope resolution (Base1::method()) to disambiguate.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">What is the destructor order in single inheritance (Base -> Derived)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Base first, then Derived</li><li><span class="mcq-option-label">B.</span> Derived first, then Base</li><li><span class="mcq-option-label">C.</span> Only Derived destructor runs</li><li><span class="mcq-option-label">D.</span> Random order</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> Destructors run in the reverse of construction order. For single inheritance, the derived destructor runs first, then the base destructor.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">What happens when you try to convert a Derived* to Base* with private inheritance?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Implicit conversion works normally</li><li><span class="mcq-option-label">B.</span> Only explicit static_cast works</li><li><span class="mcq-option-label">C.</span> The conversion is not allowed outside Derived&#39;s member functions and friends</li><li><span class="mcq-option-label">D.</span> Runtime error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: C</strong><br><strong>C is correct.</strong> With private inheritance, the base class is a private implementation detail. The derived-to-base conversion is only accessible inside the derived class's own member functions and friends, not from outside code.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: University Hierarchy with Multilevel Inheritance</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a Person class (name, age), a Student class that extends Person (rollNumber, semester), and a GraduateStudent that extends Student (thesisTopic, advisor). Show constructor/destructor order and demonstrate accessing inherited members.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Name: Priya, Age: 23, Roll: 101, Semester: 6, Thesis: ML in Healthcare, Advisor: Dr. Mehta</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Person(Priya) Student(101) GraduateStudent()
+Priya, 23, Roll: 101, Sem: 6
+Thesis: ML in Healthcare, Advisor: Dr. Mehta
+~GraduateStudent ~Student ~Person</div>
+                </div><div class="challenge-constraints">Use protected for name and age. Call base constructors explicitly. Show destruction order.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Person {
+protected:
+    string name;
+    int age;
+public:
+    Person(string n, int a) : name(n), age(a) {
+        cout &lt;&lt; &quot;Person(&quot; &lt;&lt; name &lt;&lt; &quot;) &quot;;
+    }
+    ~Person() { cout &lt;&lt; &quot;~Person &quot;; }
+};
+
+class Student : public Person {
+protected:
+    int rollNumber;
+    int semester;
+public:
+    Student(string n, int a, int r, int s)
+        : Person(n, a), rollNumber(r), semester(s) {
+        cout &lt;&lt; &quot;Student(&quot; &lt;&lt; rollNumber &lt;&lt; &quot;) &quot;;
+    }
+    ~Student() { cout &lt;&lt; &quot;~Student &quot;; }
+    void showStudent() {
+        cout &lt;&lt; name &lt;&lt; &quot;, &quot; &lt;&lt; age &lt;&lt; &quot;, Roll: &quot; &lt;&lt; rollNumber
+             &lt;&lt; &quot;, Sem: &quot; &lt;&lt; semester &lt;&lt; endl;
+    }
+};
+
+class GraduateStudent : public Student {
+    string thesis;
+    string advisor;
+public:
+    GraduateStudent(string n, int a, int r, int s, string t, string adv)
+        : Student(n, a, r, s), thesis(t), advisor(adv) {
+        cout &lt;&lt; &quot;GraduateStudent()&quot; &lt;&lt; endl;
+    }
+    ~GraduateStudent() { cout &lt;&lt; &quot;~GraduateStudent &quot;; }
+    void showAll() {
+        showStudent();
+        cout &lt;&lt; &quot;Thesis: &quot; &lt;&lt; thesis &lt;&lt; &quot;, Advisor: &quot; &lt;&lt; advisor &lt;&lt; endl;
+    }
+};
+
+int main() {
+    GraduateStudent g(&quot;Priya&quot;, 23, 101, 6, &quot;ML in Healthcare&quot;, &quot;Dr. Mehta&quot;);
+    g.showAll();
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Multiple Inheritance: Printable + Loggable</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a Printable class with a print() method and a Loggable class with a log() method. Create a Document class that inherits from both and has a title and content. Document's print() should call the base print logic and add its own. Demonstrate multiple inheritance.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Title: Report, Content: Quarterly earnings up 15%</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[Printable] Sending to printer...
+Document: Report
+Quarterly earnings up 15%
+[Loggable] Logged at timestamp
+Document Report logged</div>
+                </div><div class="challenge-constraints">Use multiple inheritance. Call base class methods with scope resolution.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Printable {
+public:
+    void print() { cout &lt;&lt; &quot;[Printable] Sending to printer...&quot; &lt;&lt; endl; }
+};
+
+class Loggable {
+public:
+    void log() { cout &lt;&lt; &quot;[Loggable] Logged at timestamp&quot; &lt;&lt; endl; }
+};
+
+class Document : public Printable, public Loggable {
+    string title;
+    string content;
+public:
+    Document(string t, string c) : title(t), content(c) {}
+    void print() {
+        Printable::print();
+        cout &lt;&lt; &quot;Document: &quot; &lt;&lt; title &lt;&lt; endl;
+        cout &lt;&lt; content &lt;&lt; endl;
+    }
+    void log() {
+        Loggable::log();
+        cout &lt;&lt; &quot;Document &quot; &lt;&lt; title &lt;&lt; &quot; logged&quot; &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Document doc(&quot;Report&quot;, &quot;Quarterly earnings up 15%&quot;);
+    doc.print();
+    doc.log();
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Diamond Problem with Virtual Inheritance</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a Device base class (serialNumber, powerOn/powerOff). Create Printer (printDoc) and Scanner (scanDoc) that virtually inherit from Device. Create AllInOne that inherits from both Printer and Scanner. Demonstrate that Device is constructed only once and the serial number is shared.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Serial: DEV-2026-001</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Device(DEV-2026-001) constructed
+Printer constructed
+Scanner constructed
+AllInOne constructed
+Serial: DEV-2026-001
+Powering on DEV-2026-001
+Printing document...
+Scanning document...
+Powering off DEV-2026-001</div>
+                </div><div class="challenge-constraints">Use virtual inheritance. Most derived class must call Device constructor. Show that serial number is not duplicated.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Device {
+protected:
+    string serialNumber;
+    bool isOn;
+public:
+    Device(string sn = &quot;&quot;) : serialNumber(sn), isOn(false) {
+        cout &lt;&lt; &quot;Device(&quot; &lt;&lt; sn &lt;&lt; &quot;) constructed&quot; &lt;&lt; endl;
+    }
+    void powerOn() {
+        isOn = true;
+        cout &lt;&lt; &quot;Powering on &quot; &lt;&lt; serialNumber &lt;&lt; endl;
+    }
+    void powerOff() {
+        isOn = false;
+        cout &lt;&lt; &quot;Powering off &quot; &lt;&lt; serialNumber &lt;&lt; endl;
+    }
+    string getSerial() const { return serialNumber; }
+};
+
+class Printer : virtual public Device {
+public:
+    Printer(string sn) : Device(sn) {
+        cout &lt;&lt; &quot;Printer constructed&quot; &lt;&lt; endl;
+    }
+    void printDoc() {
+        cout &lt;&lt; &quot;Printing document...&quot; &lt;&lt; endl;
+    }
+};
+
+class Scanner : virtual public Device {
+public:
+    Scanner(string sn) : Device(sn) {
+        cout &lt;&lt; &quot;Scanner constructed&quot; &lt;&lt; endl;
+    }
+    void scanDoc() {
+        cout &lt;&lt; &quot;Scanning document...&quot; &lt;&lt; endl;
+    }
+};
+
+class AllInOne : public Printer, public Scanner {
+public:
+    AllInOne(string sn) : Device(sn), Printer(sn), Scanner(sn) {
+        cout &lt;&lt; &quot;AllInOne constructed&quot; &lt;&lt; endl;
+    }
+};
+
+int main() {
+    AllInOne aio(&quot;DEV-2026-001&quot;);
+    cout &lt;&lt; &quot;Serial: &quot; &lt;&lt; aio.getSerial() &lt;&lt; endl;
+    aio.powerOn();
+    aio.printDoc();
+    aio.scanDoc();
+    aio.powerOff();
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Access Control Demonstration</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a Base class with one public, one protected, and one private member. Create three derived classes: PublicChild (public inheritance), ProtectedChild (protected inheritance), and PrivateChild (private inheritance). In each, demonstrate which members are accessible inside the derived class and from main(). Create a GrandChild of PrivateChild to show that private inheritance stops further access.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Base members: pub=1, prot=2, priv=3</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">PublicChild: pub=1 prot=2 (priv not accessible)
+main: pd.pub=1 (prot, priv not accessible)
+ProtectedChild: pub=1 prot=2 (priv not accessible)
+main: cannot access any through ProtectedChild
+PrivateChild: pub=1 prot=2 (priv not accessible)
+GrandChild: cannot access any Base members</div>
+                </div><div class="challenge-constraints">Show access results clearly. Use comments to indicate compilation errors.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Base {
+public:
+    int pub;
+protected:
+    int prot;
+private:
+    int priv;
+public:
+    Base() : pub(1), prot(2), priv(3) {}
+};
+
+class PublicChild : public Base {
+public:
+    void show() {
+        cout &lt;&lt; &quot;PublicChild: pub=&quot; &lt;&lt; pub &lt;&lt; &quot; prot=&quot; &lt;&lt; prot
+             &lt;&lt; &quot; (priv not accessible)&quot; &lt;&lt; endl;
+    }
+};
+
+class ProtectedChild : protected Base {
+public:
+    void show() {
+        cout &lt;&lt; &quot;ProtectedChild: pub=&quot; &lt;&lt; pub &lt;&lt; &quot; prot=&quot; &lt;&lt; prot
+             &lt;&lt; &quot; (priv not accessible)&quot; &lt;&lt; endl;
+    }
+};
+
+class PrivateChild : private Base {
+public:
+    void show() {
+        cout &lt;&lt; &quot;PrivateChild: pub=&quot; &lt;&lt; pub &lt;&lt; &quot; prot=&quot; &lt;&lt; prot
+             &lt;&lt; &quot; (priv not accessible)&quot; &lt;&lt; endl;
+    }
+};
+
+class GrandChild : public PrivateChild {
+public:
+    void show() {
+        // Cannot access pub or prot: they became private in PrivateChild
+        cout &lt;&lt; &quot;GrandChild: cannot access any Base members&quot; &lt;&lt; endl;
+    }
+};
+
+int main() {
+    PublicChild pc;
+    pc.show();
+    cout &lt;&lt; &quot;main: pd.pub=&quot; &lt;&lt; pc.pub &lt;&lt; &quot; (prot, priv not accessible)&quot; &lt;&lt; endl;
+
+    ProtectedChild ptc;
+    ptc.show();
+    cout &lt;&lt; &quot;main: cannot access any through ProtectedChild&quot; &lt;&lt; endl;
+
+    PrivateChild pvc;
+    pvc.show();
+
+    GrandChild gc;
+    gc.show();
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Constructor Order Tracer with Virtual and Non-Virtual Bases</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a class hierarchy with virtual and non-virtual bases to demonstrate the exact construction and destruction order. Classes: V1 (virtual base), V2 (virtual base), N1 (non-virtual), N2 (non-virtual). Class Mid1 : virtual V1, N1. Class Mid2 : virtual V2, N2. Class Final : Mid1, Mid2. Print construction and destruction order.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Creating Final object</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">V1() V2() N1() Mid1() N2() Mid2() Final()
+~Final() ~Mid2() ~N2() ~Mid1() ~N1() ~V2() ~V1()</div>
+                </div><div class="challenge-constraints">Show that virtual bases are constructed first (before any non-virtual bases). Destruction is exact reverse.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class V1 {
+public:
+    V1() { cout &lt;&lt; &quot;V1() &quot;; }
+    ~V1() { cout &lt;&lt; &quot;~V1() &quot;; }
+};
+
+class V2 {
+public:
+    V2() { cout &lt;&lt; &quot;V2() &quot;; }
+    ~V2() { cout &lt;&lt; &quot;~V2() &quot;; }
+};
+
+class N1 {
+public:
+    N1() { cout &lt;&lt; &quot;N1() &quot;; }
+    ~N1() { cout &lt;&lt; &quot;~N1() &quot;; }
+};
+
+class N2 {
+public:
+    N2() { cout &lt;&lt; &quot;N2() &quot;; }
+    ~N2() { cout &lt;&lt; &quot;~N2() &quot;; }
+};
+
+class Mid1 : virtual public V1, public N1 {
+public:
+    Mid1() { cout &lt;&lt; &quot;Mid1() &quot;; }
+    ~Mid1() { cout &lt;&lt; &quot;~Mid1() &quot;; }
+};
+
+class Mid2 : virtual public V2, public N2 {
+public:
+    Mid2() { cout &lt;&lt; &quot;Mid2() &quot;; }
+    ~Mid2() { cout &lt;&lt; &quot;~Mid2() &quot;; }
+};
+
+class Final : public Mid1, public Mid2 {
+public:
+    Final() { cout &lt;&lt; &quot;Final()&quot; &lt;&lt; endl; }
+    ~Final() { cout &lt;&lt; &quot;~Final() &quot;; }
+};
+
+int main() {
+    Final f;
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/encapsulation-and-access-specifiers/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Encapsulation, Access Specifiers, and Friend Functions</span>
+        </a>
+            <a href="/resources/cpp/polymorphism-in-cpp/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Polymorphism - Virtual Functions and Operator Overloading</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/inheritance-in-cpp" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

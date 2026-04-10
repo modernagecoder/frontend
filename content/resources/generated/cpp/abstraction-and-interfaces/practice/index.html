@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Abstract Classes, Pure Virtual Functions, and Interfaces | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="52+ practice questions on Abstract Classes, Pure Virtual Functions, and Interfaces in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="abstract classes, pure virtual functions, and interfaces practice, c++ questions, c++ practice problems, abstract classes, pure virtual functions, and interfaces exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces/practice">
+    <meta property="og:title" content="Practice Questions - Abstract Classes, Pure Virtual Functions, and Interfaces | C++ | Modern Age Coders">
+    <meta property="og:description" content="52+ practice questions on Abstract Classes, Pure Virtual Functions, and Interfaces in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces/practice">
+    <meta name="twitter:title" content="Practice Questions - Abstract Classes, Pure Virtual Functions, and Interfaces | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="52+ practice questions on Abstract Classes, Pure Virtual Functions, and Interfaces in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Abstract Classes, Pure Virtual Functions, and Interfaces",
+    "description": "52+ practice questions on Abstract Classes, Pure Virtual Functions, and Interfaces in C++.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Abstract Classes, Pure Virtual Functions, and Interfaces"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Abstract Classes, Pure Virtual Functions, and Interfaces",
+        "item": "https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/abstraction-and-interfaces">Abstract Classes, Pure Virtual Functions, and Interfaces</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 17</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">52 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Abstract Classes, Pure Virtual Functions, and Interfaces</h1>
+            <a href="/resources/cpp/abstraction-and-interfaces" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What happens when you try to compile this code?<br><pre><code>class Animal {
+public:
+    virtual void sound() = 0;
+    virtual ~Animal() {}
+};
+
+int main() {
+    Animal a;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Animal has a pure virtual function. Can you create an object of it?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">Compilation error: cannot declare variable 'a' to be of abstract type 'Animal'.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Shape {
+public:
+    virtual double area() const = 0;
+    virtual ~Shape() {}
+};
+class Square : public Shape {
+    double side;
+public:
+    Square(double s) : side(s) {}
+    double area() const override { return side * side; }
+};
+int main() {
+    Shape* s = new Square(5);
+    cout &lt;&lt; s-&gt;area() &lt;&lt; endl;
+    delete s;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Square implements area(), so it is concrete. The pointer type is Shape*.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>25</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Does this code compile?<br><pre><code>class Printable {
+public:
+    virtual void print() const = 0;
+    virtual ~Printable() {}
+};
+class Report : public Printable {
+    // print() not implemented
+};
+int main() {
+    Report r;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Report does not implement print(). Is it still abstract?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3">Compilation error: cannot declare variable 'r' to be of abstract type 'Report'.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Vehicle {
+public:
+    virtual void start() = 0;
+    void honk() { cout &lt;&lt; "Beep!" &lt;&lt; endl; }
+    virtual ~Vehicle() {}
+};
+class Car : public Vehicle {
+public:
+    void start() override { cout &lt;&lt; "Car started" &lt;&lt; endl; }
+};
+int main() {
+    Car c;
+    c.start();
+    c.honk();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">honk() is a non-virtual function in the abstract class. Car inherits it.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Car started</code><br><code>Beep!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class IGreeter {
+public:
+    virtual void greet(const string&amp; name) const = 0;
+    virtual ~IGreeter() {}
+};
+class FormalGreeter : public IGreeter {
+public:
+    void greet(const string&amp; name) const override {
+        cout &lt;&lt; "Good morning, " &lt;&lt; name &lt;&lt; endl;
+    }
+};
+class CasualGreeter : public IGreeter {
+public:
+    void greet(const string&amp; name) const override {
+        cout &lt;&lt; "Hey, " &lt;&lt; name &lt;&lt; "!" &lt;&lt; endl;
+    }
+};
+int main() {
+    IGreeter* g1 = new FormalGreeter();
+    IGreeter* g2 = new CasualGreeter();
+    g1-&gt;greet("Arjun");
+    g2-&gt;greet("Kavya");
+    delete g1; delete g2;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Two concrete classes implementing the same interface, called through interface pointers.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>Good morning, Arjun</code><br><code>Hey, Kavya!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    virtual void show() = 0;
+    virtual ~Base() {}
+};
+void Base::show() {
+    cout &lt;&lt; "Base default" &lt;&lt; endl;
+}
+class Derived : public Base {
+public:
+    void show() override {
+        Base::show();
+        cout &lt;&lt; "Derived extra" &lt;&lt; endl;
+    }
+};
+int main() {
+    Derived d;
+    d.show();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">A pure virtual function can have a definition. Derived calls it with Base::show().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Base default</code><br><code>Derived extra</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class AbstractBase {
+public:
+    virtual ~AbstractBase() = 0;
+    void work() { cout &lt;&lt; "Working" &lt;&lt; endl; }
+};
+AbstractBase::~AbstractBase() { cout &lt;&lt; "~AbstractBase" &lt;&lt; endl; }
+
+class Concrete : public AbstractBase {
+public:
+    ~Concrete() override { cout &lt;&lt; "~Concrete" &lt;&lt; endl; }
+};
+int main() {
+    AbstractBase* p = new Concrete();
+    p-&gt;work();
+    delete p;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Pure virtual destructor makes the class abstract. It still needs a definition.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Working</code><br><code>~Concrete</code><br><code>~AbstractBase</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class IPrint {
+public:
+    virtual void print() const = 0;
+    virtual ~IPrint() {}
+};
+class ISave {
+public:
+    virtual void save() const = 0;
+    virtual ~ISave() {}
+};
+class Doc : public IPrint, public ISave {
+    string content;
+public:
+    Doc(string c) : content(c) {}
+    void print() const override { cout &lt;&lt; "Print: " &lt;&lt; content &lt;&lt; endl; }
+    void save() const override { cout &lt;&lt; "Save: " &lt;&lt; content &lt;&lt; endl; }
+};
+int main() {
+    Doc d("Hello World");
+    IPrint* p = &amp;d;
+    ISave* s = &amp;d;
+    p-&gt;print();
+    s-&gt;save();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Doc implements two interfaces. Each interface pointer can access only its own methods.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Print: Hello World</code><br><code>Save: Hello World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Animal {
+public:
+    virtual void sound() const = 0;
+    virtual void move() const = 0;
+    virtual ~Animal() {}
+};
+class Pet : public Animal {
+public:
+    void move() const override { cout &lt;&lt; "Walks at home" &lt;&lt; endl; }
+};
+class Dog : public Pet {
+public:
+    void sound() const override { cout &lt;&lt; "Bark" &lt;&lt; endl; }
+};
+int main() {
+    Dog d;
+    d.sound();
+    d.move();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Pet implements move() but not sound(). Dog implements sound(). Together, all pure virtuals are covered.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>Bark</code><br><code>Walks at home</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    virtual void f() = 0;
+    virtual ~A() {}
+};
+void A::f() { cout &lt;&lt; "A::f" &lt;&lt; endl; }
+
+class B : public A {
+public:
+    void f() override { cout &lt;&lt; "B::f" &lt;&lt; endl; }
+};
+class C : public A {
+public:
+    void f() override {
+        A::f();
+        cout &lt;&lt; "C::f" &lt;&lt; endl;
+    }
+};
+int main() {
+    A* arr[] = { new B(), new C() };
+    for (int i = 0; i &lt; 2; i++) {
+        arr[i]-&gt;f();
+        cout &lt;&lt; "---" &lt;&lt; endl;
+        delete arr[i];
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">B ignores A::f(). C calls A::f() explicitly before adding its own output.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>B::f</code><br><code>---</code><br><code>A::f</code><br><code>C::f</code><br><code>---</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Does this code compile? If so, what is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Shape {
+public:
+    virtual double area() const = 0;
+    virtual ~Shape() {}
+};
+class Circle : public Shape {
+    double r;
+public:
+    Circle(double r) : r(r) {}
+    double area() const override { return 3.14 * r * r; }
+};
+void printArea(Shape s) {
+    cout &lt;&lt; s.area() &lt;&lt; endl;
+}
+int main() {
+    Circle c(5);
+    printArea(c);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">printArea takes Shape by value. Can you copy an abstract type?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">Compilation error: cannot declare parameter 's' to be of abstract type 'Shape'.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class IEngine {
+public:
+    virtual void start() = 0;
+    virtual ~IEngine() {}
+};
+class IElectric {
+public:
+    virtual int battery() const = 0;
+    virtual ~IElectric() {}
+};
+class HybridCar : public IEngine, public IElectric {
+public:
+    void start() override { cout &lt;&lt; "Hybrid started" &lt;&lt; endl; }
+    int battery() const override { return 85; }
+};
+int main() {
+    HybridCar h;
+    IEngine* e = &amp;h;
+    IElectric* el = &amp;h;
+    e-&gt;start();
+    cout &lt;&lt; "Battery: " &lt;&lt; el-&gt;battery() &lt;&lt; "%" &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">HybridCar implements two interfaces. Each pointer accesses only its interface's methods.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Hybrid started</code><br><code>Battery: 85%</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    virtual void f() { cout &lt;&lt; "Base::f" &lt;&lt; endl; }
+    virtual void g() = 0;
+    virtual ~Base() {}
+};
+class Mid : public Base {
+public:
+    void g() override { cout &lt;&lt; "Mid::g" &lt;&lt; endl; }
+};
+class Leaf : public Mid {
+public:
+    void f() override { cout &lt;&lt; "Leaf::f" &lt;&lt; endl; }
+};
+int main() {
+    Base* b = new Leaf();
+    b-&gt;f();
+    b-&gt;g();
+    delete b;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">f() is virtual (not pure) in Base, overridden in Leaf. g() is pure virtual in Base, implemented in Mid, inherited by Leaf.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>Leaf::f</code><br><code>Mid::g</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Shape {
+public:
+    virtual void draw() const = 0;
+    virtual ~Shape() { cout &lt;&lt; "~Shape" &lt;&lt; endl; }
+};
+class Circle : public Shape {
+public:
+    void draw() const override { cout &lt;&lt; "Circle" &lt;&lt; endl; }
+    ~Circle() { cout &lt;&lt; "~Circle" &lt;&lt; endl; }
+};
+class ColoredCircle : public Circle {
+    string color;
+public:
+    ColoredCircle(string c) : color(c) {}
+    void draw() const override { cout &lt;&lt; color &lt;&lt; " Circle" &lt;&lt; endl; }
+    ~ColoredCircle() { cout &lt;&lt; "~ColoredCircle" &lt;&lt; endl; }
+};
+int main() {
+    Shape* s = new ColoredCircle("Red");
+    s-&gt;draw();
+    delete s;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Three-level hierarchy. Virtual destructor. All three destructors should run.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>Red Circle</code><br><code>~ColoredCircle</code><br><code>~Circle</code><br><code>~Shape</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What makes a class abstract in C++?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Think about pure virtual functions.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">A class is abstract if it has at least one pure virtual function (declared with = 0). An abstract class cannot be instantiated directly. Only concrete derived classes that implement all pure virtual functions can be instantiated.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How do you create an interface in C++?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">C++ does not have an interface keyword.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">In C++, an interface is created by writing a class with only pure virtual functions and a virtual destructor, with no data members. By convention, interface names are often prefixed with 'I' (e.g., IDrawable, ISerializable).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Calculator {
+public:
+    virtual int compute(int a, int b) const = 0;
+    virtual ~Calculator() {}
+};
+class Adder : public Calculator {
+public:
+    int compute(int a, int b) const override { return a + b; }
+};
+class Multiplier : public Calculator {
+public:
+    int compute(int a, int b) const override { return a * b; }
+};
+int main() {
+    Calculator* c1 = new Adder();
+    Calculator* c2 = new Multiplier();
+    cout &lt;&lt; c1-&gt;compute(3, 4) &lt;&lt; endl;
+    cout &lt;&lt; c2-&gt;compute(3, 4) &lt;&lt; endl;
+    delete c1; delete c2;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Two concrete classes implementing the same abstract interface.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>7</code><br><code>12</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class A {
+public:
+    virtual void f() = 0;
+    void g() { cout &lt;&lt; "A::g calls f: "; f(); }
+    virtual ~A() {}
+};
+class B : public A {
+public:
+    void f() override { cout &lt;&lt; "B::f" &lt;&lt; endl; }
+};
+int main() {
+    B b;
+    b.g();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">g() is non-virtual in A. It calls f() which is virtual. Which f() runs?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>A::g calls f: B::f</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Can a pure virtual function have a definition in C++? If so, how is it called?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Think about providing a default implementation that derived classes can optionally use.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">Yes, a pure virtual function can have a definition (body) provided outside the class. The class is still abstract and cannot be instantiated. Derived classes can call the base definition using Base::func(). This allows providing optional default behavior while still forcing derived classes to override.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Shape {
+public:
+    virtual double area() const = 0;
+    virtual ~Shape() {}
+    bool isLargerThan(const Shape&amp; other) const {
+        return area() &gt; other.area();
+    }
+};
+class Circle : public Shape {
+    double r;
+public:
+    Circle(double r) : r(r) {}
+    double area() const override { return 3.14 * r * r; }
+};
+class Square : public Shape {
+    double s;
+public:
+    Square(double s) : s(s) {}
+    double area() const override { return s * s; }
+};
+int main() {
+    Circle c(5);
+    Square sq(8);
+    cout &lt;&lt; c.isLargerThan(sq) &lt;&lt; endl;
+    cout &lt;&lt; sq.isLargerThan(c) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">isLargerThan is non-virtual and calls the virtual area() on both this and other.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>1</code><br><code>0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the abstract destructor pattern and when would you use it?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Think about a class where all methods have implementations but you still want it to be abstract.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">The abstract destructor pattern declares the destructor as pure virtual (virtual ~Base() = 0) while providing a definition outside the class. This makes the class abstract even when all other methods have implementations. You use it when you want to prevent direct instantiation of a base class that has no pure virtual behavior methods.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class ILog {
+public:
+    virtual void log(const string&amp; msg) const = 0;
+    virtual ~ILog() {}
+};
+class INotify {
+public:
+    virtual void notify(const string&amp; msg) const = 0;
+    virtual ~INotify() {}
+};
+class Service : public ILog, public INotify {
+public:
+    void log(const string&amp; msg) const override {
+        cout &lt;&lt; "[LOG] " &lt;&lt; msg &lt;&lt; endl;
+    }
+    void notify(const string&amp; msg) const override {
+        cout &lt;&lt; "[NOTIFY] " &lt;&lt; msg &lt;&lt; endl;
+    }
+};
+void doLog(const ILog&amp; logger) { logger.log("System started"); }
+void doNotify(const INotify&amp; notifier) { notifier.notify("Alert!"); }
+int main() {
+    Service s;
+    doLog(s);
+    doNotify(s);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Service implements two interfaces. Each function accepts a different interface reference.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>[LOG] System started</code><br><code>[NOTIFY] Alert!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Base {
+public:
+    virtual void action() = 0;
+    virtual ~Base() = 0;
+};
+Base::~Base() { cout &lt;&lt; "~Base" &lt;&lt; endl; }
+void Base::action() { cout &lt;&lt; "Base::action" &lt;&lt; endl; }
+
+class Mid : public Base {
+public:
+    void action() override {
+        Base::action();
+        cout &lt;&lt; "Mid::action" &lt;&lt; endl;
+    }
+    ~Mid() override { cout &lt;&lt; "~Mid" &lt;&lt; endl; }
+};
+class Leaf : public Mid {
+public:
+    void action() override {
+        Mid::action();
+        cout &lt;&lt; "Leaf::action" &lt;&lt; endl;
+    }
+    ~Leaf() override { cout &lt;&lt; "~Leaf" &lt;&lt; endl; }
+};
+int main() {
+    Base* p = new Leaf();
+    p-&gt;action();
+    delete p;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Each level calls the parent's action() before adding its own. The destructor chain runs in reverse.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>Base::action</code><br><code>Mid::action</code><br><code>Leaf::action</code><br><code>~Leaf</code><br><code>~Mid</code><br><code>~Base</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Does this code compile?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class IComparable {
+public:
+    virtual bool lessThan(const IComparable&amp; other) const = 0;
+    virtual ~IComparable() {}
+};
+class Score : public IComparable {
+    int val;
+public:
+    Score(int v) : val(v) {}
+    bool lessThan(const IComparable&amp; other) const override {
+        const Score&amp; s = dynamic_cast&lt;const Score&amp;&gt;(other);
+        return val &lt; s.val;
+    }
+};
+int main() {
+    Score a(85), b(92);
+    cout &lt;&lt; a.lessThan(b) &lt;&lt; endl;
+    cout &lt;&lt; b.lessThan(a) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">dynamic_cast on a reference throws bad_cast on failure. Here both are Score objects.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>1</code><br><code>0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is multiple inheritance of interfaces safer than multiple inheritance of concrete classes?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think about data members and the diamond problem.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">Interfaces (classes with only pure virtual functions) have no data members and no implementation. Multiple inheritance of interfaces cannot cause data duplication, ambiguous member access, or the diamond problem's data ambiguity. With concrete classes, multiple inheritance can lead to duplicate base class subobjects, ambiguous function calls, and the need for virtual inheritance.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What makes a class abstract in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Using the abstract keyword</li><li><span class="mcq-option-label">B.</span> Having at least one pure virtual function</li><li><span class="mcq-option-label">C.</span> Having a private constructor</li><li><span class="mcq-option-label">D.</span> Having no data members</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> C++ does not have an <code>abstract</code> keyword. A class is abstract if it has at least one pure virtual function (declared with <code>= 0</code>).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">How is a pure virtual function declared?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> virtual void func() = 0;</li><li><span class="mcq-option-label">B.</span> pure virtual void func();</li><li><span class="mcq-option-label">C.</span> abstract void func();</li><li><span class="mcq-option-label">D.</span> void func() = delete;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: A</strong><br><strong>A is correct.</strong> A pure virtual function is declared with <code>= 0</code> at the end. <code>= delete</code> is a different feature that explicitly deletes a function.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Can you create an object of an abstract class?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, always</li><li><span class="mcq-option-label">B.</span> No, never</li><li><span class="mcq-option-label">C.</span> Yes, if it has a constructor</li><li><span class="mcq-option-label">D.</span> Yes, if it has data members</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Abstract classes cannot be instantiated. You can have pointers and references to an abstract class type, but the actual object must be a concrete derived class.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is an interface in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A class declared with the interface keyword</li><li><span class="mcq-option-label">B.</span> A class with only pure virtual functions and a virtual destructor</li><li><span class="mcq-option-label">C.</span> Any class with virtual functions</li><li><span class="mcq-option-label">D.</span> A struct with public members</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> C++ has no <code>interface</code> keyword. By convention, an interface is a class with only pure virtual functions (and typically a virtual destructor), with no data members or implementations.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What happens if a derived class does not implement all pure virtual functions?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Runtime error</li><li><span class="mcq-option-label">B.</span> The missing functions return default values</li><li><span class="mcq-option-label">C.</span> The derived class is also abstract</li><li><span class="mcq-option-label">D.</span> The compiler uses the base class version</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> If a derived class does not implement all pure virtual functions from its base, it inherits the remaining pure virtual functions and is itself abstract. It cannot be instantiated.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Can a pure virtual function have a definition (body)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, that defeats the purpose</li><li><span class="mcq-option-label">B.</span> Yes, defined outside the class; derived classes call it with Base::func()</li><li><span class="mcq-option-label">C.</span> Yes, but only inside the class body</li><li><span class="mcq-option-label">D.</span> No, it causes a compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> A pure virtual function can have a definition provided outside the class body. The class is still abstract. Derived classes can call it with <code>Base::func()</code> to use the default behavior.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is required when using a pure virtual destructor?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Nothing special</li><li><span class="mcq-option-label">B.</span> A definition must be provided outside the class</li><li><span class="mcq-option-label">C.</span> The derived class must not have a destructor</li><li><span class="mcq-option-label">D.</span> The class must have no other virtual functions</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> A pure virtual destructor must have a definition provided outside the class because destructors are always called in the inheritance chain. Without the definition, you get a linker error.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Why is multiple inheritance of interfaces generally safe?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Because interfaces use virtual inheritance by default</li><li><span class="mcq-option-label">B.</span> Because interfaces have no data members, avoiding diamond problem ambiguity</li><li><span class="mcq-option-label">C.</span> Because C++ prevents multiple interface inheritance</li><li><span class="mcq-option-label">D.</span> Because interfaces are templates</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> The diamond problem's ambiguity comes from duplicate data members. Interfaces have no data members and no implementation, so inheriting from multiple interfaces cannot cause data duplication or ambiguous member access.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which of the following can an abstract class have?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only pure virtual functions</li><li><span class="mcq-option-label">B.</span> Both pure virtual and non-virtual functions, plus data members</li><li><span class="mcq-option-label">C.</span> Only static functions</li><li><span class="mcq-option-label">D.</span> Only a destructor</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> An abstract class can have pure virtual functions, regular virtual functions, non-virtual functions, data members, constructors, and destructors. It just needs at least one pure virtual function to be abstract.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Can you have a pointer or reference to an abstract class?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, abstract classes cannot be used as types</li><li><span class="mcq-option-label">B.</span> Only pointers, not references</li><li><span class="mcq-option-label">C.</span> Yes, both pointers and references are allowed</li><li><span class="mcq-option-label">D.</span> Only references, not pointers</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> You can have <code>Shape* s</code> or <code>Shape&amp; s</code> where <code>Shape</code> is abstract. The actual object must be concrete. This is the foundation of runtime polymorphism.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the output?<br><pre><code>class A { public: virtual void f() = 0; virtual ~A(){} };
+void A::f() { cout &lt;&lt; "A"; }
+class B : public A { public: void f() override { A::f(); cout &lt;&lt; "B"; } };
+int main() { B b; b.f(); }</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A</li><li><span class="mcq-option-label">B.</span> AB</li><li><span class="mcq-option-label">C.</span> B</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>B::f()</code> calls <code>A::f()</code> which prints "A", then prints "B". The result is "AB". A pure virtual function with a definition can be called explicitly.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Which statement about abstract classes is FALSE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> An abstract class can have constructors</li><li><span class="mcq-option-label">B.</span> An abstract class can have data members</li><li><span class="mcq-option-label">C.</span> You can create arrays of abstract class objects</li><li><span class="mcq-option-label">D.</span> You can have arrays of pointers to abstract class</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct (it is the false statement).</strong> You cannot create arrays of abstract class objects because that would require instantiating the abstract class. You CAN have arrays of pointers (<code>Shape* arr[10]</code>) or references to abstract types.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">When should you use an abstract class instead of an interface?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> When you want multiple inheritance</li><li><span class="mcq-option-label">B.</span> When you need shared data members or partial implementation among derived classes</li><li><span class="mcq-option-label">C.</span> When you want compile-time polymorphism</li><li><span class="mcq-option-label">D.</span> When you want to use templates</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> Use an abstract class when derived classes share common data or implementation. Use an interface when you only want to define a contract with no shared state or implementation.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Shape Hierarchy with Abstract Base</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create an abstract Shape class with pure virtual area() and perimeter(). Implement Circle, Rectangle, and Triangle. Store pointers in a Shape* array. Print each shape's name, area, and perimeter.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Circle r=5, Rectangle 4x6, Triangle 3-4-5</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Circle: area=78.54, perimeter=31.42
+Rectangle: area=24.00, perimeter=20.00
+Triangle: area=6.00, perimeter=12.00</div>
+                </div><div class="challenge-constraints">Use pure virtual functions. Use override. Include virtual destructor.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;cmath&gt;
+using namespace std;
+
+class Shape {
+public:
+    virtual double area() const = 0;
+    virtual double perimeter() const = 0;
+    virtual string name() const = 0;
+    virtual ~Shape() {}
+};
+
+class Circle : public Shape {
+    double r;
+public:
+    Circle(double r) : r(r) {}
+    double area() const override { return M_PI * r * r; }
+    double perimeter() const override { return 2 * M_PI * r; }
+    string name() const override { return &quot;Circle&quot;; }
+};
+
+class Rectangle : public Shape {
+    double w, h;
+public:
+    Rectangle(double w, double h) : w(w), h(h) {}
+    double area() const override { return w * h; }
+    double perimeter() const override { return 2 * (w + h); }
+    string name() const override { return &quot;Rectangle&quot;; }
+};
+
+class Triangle : public Shape {
+    double a, b, c;
+public:
+    Triangle(double a, double b, double c) : a(a), b(b), c(c) {}
+    double area() const override {
+        double s = (a + b + c) / 2;
+        return sqrt(s * (s-a) * (s-b) * (s-c));
+    }
+    double perimeter() const override { return a + b + c; }
+    string name() const override { return &quot;Triangle&quot;; }
+};
+
+int main() {
+    Shape* shapes[] = { new Circle(5), new Rectangle(4, 6), new Triangle(3, 4, 5) };
+    for (int i = 0; i &lt; 3; i++) {
+        printf(&quot;%s: area=%.2f, perimeter=%.2f\n&quot;,
+               shapes[i]-&gt;name().c_str(), shapes[i]-&gt;area(), shapes[i]-&gt;perimeter());
+        delete shapes[i];
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Multiple Interface Implementation</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create interfaces IReadable (with read()), IWritable (with write(string)), and IClosable (with close()). Create a File class that implements all three. Create a process() function that takes an IReadable& and reads, and a save() function that takes an IWritable& and writes.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">File operations</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Reading from data.txt
+Writing &#39;Hello World&#39; to data.txt
+Closing data.txt</div>
+                </div><div class="challenge-constraints">Each interface should have only pure virtual functions and virtual destructor. Use references.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class IReadable {
+public:
+    virtual string read() const = 0;
+    virtual ~IReadable() {}
+};
+
+class IWritable {
+public:
+    virtual void write(const string&amp; data) = 0;
+    virtual ~IWritable() {}
+};
+
+class IClosable {
+public:
+    virtual void close() = 0;
+    virtual ~IClosable() {}
+};
+
+class File : public IReadable, public IWritable, public IClosable {
+    string filename;
+public:
+    File(string name) : filename(name) {}
+    string read() const override {
+        cout &lt;&lt; &quot;Reading from &quot; &lt;&lt; filename &lt;&lt; endl;
+        return &quot;file contents&quot;;
+    }
+    void write(const string&amp; data) override {
+        cout &lt;&lt; &quot;Writing &#39;&quot; &lt;&lt; data &lt;&lt; &quot;&#39; to &quot; &lt;&lt; filename &lt;&lt; endl;
+    }
+    void close() override {
+        cout &lt;&lt; &quot;Closing &quot; &lt;&lt; filename &lt;&lt; endl;
+    }
+};
+
+void process(const IReadable&amp; r) { r.read(); }
+void save(IWritable&amp; w, const string&amp; data) { w.write(data); }
+
+int main() {
+    File f(&quot;data.txt&quot;);
+    process(f);
+    save(f, &quot;Hello World&quot;);
+    f.close();
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Database Abstraction Layer</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create an abstract Database class with pure virtual connect(), query(string), and disconnect(). Add a non-virtual executeWithLog(string) that logs and calls query(). Implement MySQL and PostgreSQL classes. Process an array of Database* pointers.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Two databases, each executing a query</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[LOG] SELECT * FROM users
+MySQL: Executing &#39;SELECT * FROM users&#39;
+[LOG] SELECT * FROM users
+PostgreSQL: Executing &#39;SELECT * FROM users&#39;</div>
+                </div><div class="challenge-constraints">Use abstract class with mixed pure virtual and non-virtual. Demonstrate that non-virtual methods call virtual methods polymorphically.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Database {
+public:
+    virtual void connect() = 0;
+    virtual string query(const string&amp; sql) = 0;
+    virtual void disconnect() = 0;
+    virtual ~Database() {}
+
+    void executeWithLog(const string&amp; sql) {
+        cout &lt;&lt; &quot;[LOG] &quot; &lt;&lt; sql &lt;&lt; endl;
+        query(sql);
+    }
+};
+
+class MySQL : public Database {
+public:
+    void connect() override { cout &lt;&lt; &quot;MySQL connected&quot; &lt;&lt; endl; }
+    string query(const string&amp; sql) override {
+        cout &lt;&lt; &quot;MySQL: Executing &#39;&quot; &lt;&lt; sql &lt;&lt; &quot;&#39;&quot; &lt;&lt; endl;
+        return &quot;mysql result&quot;;
+    }
+    void disconnect() override { cout &lt;&lt; &quot;MySQL disconnected&quot; &lt;&lt; endl; }
+};
+
+class PostgreSQL : public Database {
+public:
+    void connect() override { cout &lt;&lt; &quot;PostgreSQL connected&quot; &lt;&lt; endl; }
+    string query(const string&amp; sql) override {
+        cout &lt;&lt; &quot;PostgreSQL: Executing &#39;&quot; &lt;&lt; sql &lt;&lt; &quot;&#39;&quot; &lt;&lt; endl;
+        return &quot;pg result&quot;;
+    }
+    void disconnect() override { cout &lt;&lt; &quot;PostgreSQL disconnected&quot; &lt;&lt; endl; }
+};
+
+int main() {
+    Database* dbs[] = { new MySQL(), new PostgreSQL() };
+    for (int i = 0; i &lt; 2; i++) {
+        dbs[i]-&gt;connect();
+        dbs[i]-&gt;executeWithLog(&quot;SELECT * FROM users&quot;);
+        dbs[i]-&gt;disconnect();
+        cout &lt;&lt; &quot;---&quot; &lt;&lt; endl;
+        delete dbs[i];
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Plugin System with Interface</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create an IPlugin interface with name(), version(), initialize(), execute(string), and shutdown(). Create LogPlugin and CachePlugin implementations. Create a PluginManager that stores IPlugin* pointers and has loadAll(), runAll(string command), and unloadAll() methods.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Run all plugins with command &#39;process-data&#39;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Loading LogPlugin v1.0...
+Loading CachePlugin v2.1...
+LogPlugin: Logging &#39;process-data&#39;
+CachePlugin: Caching &#39;process-data&#39;
+Unloading CachePlugin...
+Unloading LogPlugin...</div>
+                </div><div class="challenge-constraints">Interface must have only pure virtual functions. Manager must work with IPlugin* only.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class IPlugin {
+public:
+    virtual string name() const = 0;
+    virtual string version() const = 0;
+    virtual void initialize() = 0;
+    virtual void execute(const string&amp; cmd) = 0;
+    virtual void shutdown() = 0;
+    virtual ~IPlugin() {}
+};
+
+class LogPlugin : public IPlugin {
+public:
+    string name() const override { return &quot;LogPlugin&quot;; }
+    string version() const override { return &quot;1.0&quot;; }
+    void initialize() override { cout &lt;&lt; &quot;Loading &quot; &lt;&lt; name() &lt;&lt; &quot; v&quot; &lt;&lt; version() &lt;&lt; &quot;...&quot; &lt;&lt; endl; }
+    void execute(const string&amp; cmd) override { cout &lt;&lt; name() &lt;&lt; &quot;: Logging &#39;&quot; &lt;&lt; cmd &lt;&lt; &quot;&#39;&quot; &lt;&lt; endl; }
+    void shutdown() override { cout &lt;&lt; &quot;Unloading &quot; &lt;&lt; name() &lt;&lt; &quot;...&quot; &lt;&lt; endl; }
+};
+
+class CachePlugin : public IPlugin {
+public:
+    string name() const override { return &quot;CachePlugin&quot;; }
+    string version() const override { return &quot;2.1&quot;; }
+    void initialize() override { cout &lt;&lt; &quot;Loading &quot; &lt;&lt; name() &lt;&lt; &quot; v&quot; &lt;&lt; version() &lt;&lt; &quot;...&quot; &lt;&lt; endl; }
+    void execute(const string&amp; cmd) override { cout &lt;&lt; name() &lt;&lt; &quot;: Caching &#39;&quot; &lt;&lt; cmd &lt;&lt; &quot;&#39;&quot; &lt;&lt; endl; }
+    void shutdown() override { cout &lt;&lt; &quot;Unloading &quot; &lt;&lt; name() &lt;&lt; &quot;...&quot; &lt;&lt; endl; }
+};
+
+class PluginManager {
+    vector&lt;IPlugin*&gt; plugins;
+public:
+    void addPlugin(IPlugin* p) { plugins.push_back(p); }
+    void loadAll() { for (auto* p : plugins) p-&gt;initialize(); }
+    void runAll(const string&amp; cmd) { for (auto* p : plugins) p-&gt;execute(cmd); }
+    void unloadAll() {
+        for (int i = plugins.size()-1; i &gt;= 0; i--) plugins[i]-&gt;shutdown();
+    }
+    ~PluginManager() { for (auto* p : plugins) delete p; }
+};
+
+int main() {
+    PluginManager mgr;
+    mgr.addPlugin(new LogPlugin());
+    mgr.addPlugin(new CachePlugin());
+    mgr.loadAll();
+    mgr.runAll(&quot;process-data&quot;);
+    mgr.unloadAll();
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/polymorphism-in-cpp/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Polymorphism - Virtual Functions and Operator Overloading</span>
+        </a>
+            <a href="/resources/cpp/templates-in-cpp/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Templates - Function and Class Templates</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/abstraction-and-interfaces" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

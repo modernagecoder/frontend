@@ -1,0 +1,607 @@
+{
+  "title": "Python for AI - NumPy, Pandas, and Matplotlib",
+  "slug": "python-for-ai-essentials",
+  "language": "python",
+  "chapter": 2,
+  "difficulty": "Beginner",
+  "readingTime": "30 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 62,
+  "seo": {
+    "title": "Python for AI - NumPy, Pandas, Matplotlib Tutorial for Machine Learning | Modern Age Coders",
+    "description": "Master NumPy arrays, Pandas DataFrames, and Matplotlib visualizations for AI and Machine Learning. Covers array operations, data manipulation, plotting, and 62 practice questions with runnable Python code.",
+    "keywords": "numpy tutorial, pandas tutorial, matplotlib tutorial, python for data science, python for machine learning, numpy arrays, pandas dataframe, data visualization python, python ml libraries, numpy operations, pandas filtering, matplotlib plots"
+  },
+  "content": {
+    "what": "<h2>What Are NumPy, Pandas, and Matplotlib?</h2><p>Before you can build any AI or ML model, you need to be fluent in three foundational Python libraries. These are the tools that every data scientist and ML engineer uses daily, and mastering them is non-negotiable.</p><p><strong>NumPy (Numerical Python)</strong> is the foundation of all numerical computing in Python. It provides fast, memory-efficient arrays and a massive collection of mathematical functions. Every ML library (scikit-learn, TensorFlow, PyTorch) is built on top of NumPy. When scikit-learn takes your data, it converts it to NumPy arrays internally.</p><p><strong>Pandas (Python Data Analysis Library)</strong> is built on top of NumPy and provides high-level data structures for working with tabular data -- think of it as Excel on steroids. Its core data structure, the DataFrame, lets you read CSV files, filter rows, group data, handle missing values, and perform complex data transformations with simple, readable code.</p><p><strong>Matplotlib</strong> is the foundational plotting library in Python. It lets you create line charts, scatter plots, bar charts, histograms, pie charts, and more. Visualization is crucial in ML because you need to understand your data before training models, and you need to visualize model performance after training.</p>",
+    "why": "<h2>Why Are These Libraries Essential for AI/ML?</h2><h3>1. ML Runs on Arrays, Not Lists</h3><p>Python lists are flexible but slow for numerical operations. A NumPy array of 1 million numbers can be multiplied by 2 in milliseconds, while a Python list would need a slow loop. Every ML algorithm internally works with NumPy arrays for speed.</p><h3>2. Real Data Is Messy</h3><p>Real-world datasets have missing values, duplicates, wrong data types, and inconsistent formatting. Pandas gives you the tools to clean, transform, and prepare data for ML. Data preprocessing typically takes 60-80% of an ML project's time, and Pandas is your primary tool for it.</p><h3>3. You Cannot Build Good Models Without Understanding Your Data</h3><p>Matplotlib lets you visualize distributions, relationships, outliers, and patterns in your data. A scatter plot might reveal that two features are strongly correlated. A histogram might show that your data is heavily skewed. These insights guide your modeling decisions.</p><h3>4. These Libraries Work Together</h3><p>NumPy handles the math, Pandas handles the data, Matplotlib handles the visualization, and scikit-learn handles the ML. They are designed to work seamlessly together. A Pandas DataFrame can be plotted directly with Matplotlib, and its values can be extracted as NumPy arrays for scikit-learn.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>Part 1: NumPy</h3><h4>Creating Arrays</h4><p>NumPy arrays are created using <code>np.array()</code>, <code>np.zeros()</code>, <code>np.ones()</code>, <code>np.arange()</code>, <code>np.linspace()</code>, and <code>np.random</code> functions. Unlike Python lists, NumPy arrays must contain elements of the same data type, which enables fast vectorized operations.</p><h4>Array Operations (Vectorization)</h4><p>The most powerful feature of NumPy is <strong>vectorization</strong> -- performing operations on entire arrays without writing loops. When you write <code>arr * 2</code>, NumPy multiplies every element by 2 in optimized C code. This is 10-100x faster than a Python loop. All arithmetic operators (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>**</code>) work element-wise on arrays.</p><h4>Broadcasting</h4><p>Broadcasting is NumPy's way of handling operations between arrays of different shapes. When you add a scalar to an array (<code>arr + 5</code>), NumPy \"broadcasts\" the scalar to match the array's shape. Broadcasting also works between arrays: a (3, 3) array can be added to a (3,) array, with the smaller array being repeated across the rows.</p><h4>Indexing and Slicing</h4><p>NumPy supports powerful indexing: basic indexing (<code>arr[0]</code>), slicing (<code>arr[1:4]</code>), boolean indexing (<code>arr[arr > 5]</code>), and fancy indexing (<code>arr[[0, 2, 4]]</code>). Boolean indexing is especially useful for filtering data in ML.</p><h4>Reshaping</h4><p><code>arr.reshape(rows, cols)</code> changes the shape of an array without changing its data. This is critical in ML where scikit-learn expects 2D input. <code>reshape(-1, 1)</code> converts a 1D array to a column vector. The <code>-1</code> means \"calculate this dimension automatically.\"</p><h4>Mathematical Functions</h4><p>NumPy provides <code>np.sum()</code>, <code>np.mean()</code>, <code>np.std()</code>, <code>np.min()</code>, <code>np.max()</code>, <code>np.sqrt()</code>, <code>np.exp()</code>, <code>np.log()</code>, and many more. These work on entire arrays and can operate along specific axes (rows or columns).</p><h4>Dot Product and Matrix Multiplication</h4><p>The dot product (<code>np.dot()</code> or <code>@</code> operator) is fundamental to ML. Linear regression, neural networks, and many other algorithms are based on matrix multiplication. <code>np.dot(a, b)</code> computes the dot product of two arrays.</p><h3>Part 2: Pandas</h3><h4>Series and DataFrame</h4><p>A <strong>Series</strong> is a 1D labeled array (like a column in a spreadsheet). A <strong>DataFrame</strong> is a 2D labeled data structure (like a spreadsheet or SQL table). DataFrames are the primary data structure you will use. Each column in a DataFrame is a Series.</p><h4>Reading Data</h4><p><code>pd.read_csv('file.csv')</code> reads a CSV file into a DataFrame. Pandas also supports Excel (<code>read_excel</code>), JSON (<code>read_json</code>), SQL (<code>read_sql</code>), and many other formats.</p><h4>Exploring Data</h4><p><code>df.head()</code> shows the first 5 rows. <code>df.tail()</code> shows the last 5. <code>df.info()</code> shows data types and non-null counts. <code>df.describe()</code> shows statistical summaries (mean, std, min, max, quartiles). <code>df.shape</code> gives (rows, columns). These are the first commands you run on any new dataset.</p><h4>Selecting Data</h4><p>Select columns: <code>df['column_name']</code> or <code>df.column_name</code>. Select rows by label: <code>df.loc[row_label]</code>. Select rows by position: <code>df.iloc[row_index]</code>. Select with conditions: <code>df[df['age'] > 20]</code>.</p><h4>Handling Missing Values</h4><p><code>df.isnull().sum()</code> counts missing values per column. <code>df.dropna()</code> removes rows with missing values. <code>df.fillna(value)</code> fills missing values with a specified value (often the mean or median). Handling missing data correctly is crucial for ML.</p><h4>GroupBy and Aggregation</h4><p><code>df.groupby('column').mean()</code> groups rows by a column and computes the mean of each group. This is essential for understanding patterns in categorical data -- for example, average salary by department.</p><h4>Merge and Join</h4><p><code>pd.merge(df1, df2, on='key')</code> combines two DataFrames based on a common column, similar to SQL JOIN. This is used when your data is spread across multiple tables.</p><h3>Part 3: Matplotlib</h3><h4>Basic Plots</h4><p><code>plt.plot(x, y)</code> creates a line chart. <code>plt.scatter(x, y)</code> creates a scatter plot. <code>plt.bar(categories, values)</code> creates a bar chart. <code>plt.hist(data, bins)</code> creates a histogram. <code>plt.pie(sizes, labels)</code> creates a pie chart.</p><h4>Customization</h4><p><code>plt.title()</code>, <code>plt.xlabel()</code>, <code>plt.ylabel()</code> add labels. <code>plt.legend()</code> adds a legend. <code>plt.grid(True)</code> adds a grid. <code>plt.figure(figsize=(10, 6))</code> sets the figure size. <code>plt.savefig('plot.png')</code> saves the figure to a file.</p><h4>Subplots</h4><p><code>fig, axes = plt.subplots(2, 2)</code> creates a 2x2 grid of plots. This is useful for comparing multiple visualizations side by side. Each subplot is accessed via <code>axes[row][col]</code>.</p>",
+    "codeExamples": [
+      {
+        "title": "NumPy Basics: Creating and Operating on Arrays",
+        "code": "import numpy as np\n\n# Creating arrays\narr1 = np.array([1, 2, 3, 4, 5])\narr2 = np.zeros(5)\narr3 = np.ones((2, 3))\narr4 = np.arange(0, 10, 2)       # [0, 2, 4, 6, 8]\narr5 = np.linspace(0, 1, 5)      # 5 evenly spaced between 0 and 1\n\nprint(\"Array:\", arr1)\nprint(\"Zeros:\", arr2)\nprint(\"Ones (2x3):\\n\", arr3)\nprint(\"Arange:\", arr4)\nprint(\"Linspace:\", arr5)\n\n# Vectorized operations (no loops needed!)\nprint(\"\\narr1 * 2:\", arr1 * 2)\nprint(\"arr1 ** 2:\", arr1 ** 2)\nprint(\"arr1 + 10:\", arr1 + 10)\nprint(\"Sum:\", np.sum(arr1))\nprint(\"Mean:\", np.mean(arr1))\nprint(\"Std Dev:\", np.std(arr1).round(2))",
+        "language": "python",
+        "explanation": "NumPy provides multiple ways to create arrays. <code>np.zeros()</code> and <code>np.ones()</code> create arrays filled with 0s or 1s. <code>np.arange()</code> is like Python's range but returns an array. <code>np.linspace()</code> creates evenly spaced numbers between two endpoints. All arithmetic operations are vectorized, meaning they operate on every element simultaneously without loops.",
+        "output": "Array: [1 2 3 4 5]\nZeros: [0. 0. 0. 0. 0.]\nOnes (2x3):\n [[1. 1. 1.]\n [1. 1. 1.]]\nArange: [0 2 4 6 8]\nLinspace: [0.   0.25 0.5  0.75 1.  ]\n\narr1 * 2: [ 2  4  6  8 10]\narr1 ** 2: [ 1  4  9 16 25]\narr1 + 10: [11 12 13 14 15]\nSum: 15\nMean: 3.0\nStd Dev: 1.41"
+      },
+      {
+        "title": "NumPy Indexing, Slicing, and Boolean Filtering",
+        "code": "import numpy as np\n\nmarks = np.array([85, 42, 91, 38, 76, 55, 67, 29, 93, 44])\nprint(\"All marks:\", marks)\n\n# Basic indexing and slicing\nprint(\"First mark:\", marks[0])\nprint(\"Last mark:\", marks[-1])\nprint(\"First 3 marks:\", marks[:3])\nprint(\"Every other mark:\", marks[::2])\n\n# Boolean indexing (filtering)\npassed = marks[marks >= 40]\nfailed = marks[marks < 40]\nprint(\"\\nPassed (>= 40):\", passed)\nprint(\"Failed (< 40):\", failed)\nprint(\"Number passed:\", len(passed))\n\n# 2D array indexing\nmatrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])\nprint(\"\\nMatrix:\\n\", matrix)\nprint(\"Row 0:\", matrix[0])\nprint(\"Element [1][2]:\", matrix[1, 2])\nprint(\"Column 1:\", matrix[:, 1])",
+        "language": "python",
+        "explanation": "NumPy indexing is more powerful than Python list indexing. <strong>Boolean indexing</strong> is the most important for ML: <code>marks[marks >= 40]</code> returns only elements where the condition is True. For 2D arrays, use <code>matrix[row, col]</code> notation. <code>matrix[:, 1]</code> selects all rows from column 1. This syntax is used constantly in data preprocessing.",
+        "output": "All marks: [85 42 91 38 76 55 67 29 93 44]\nFirst mark: 85\nLast mark: 44\nFirst 3 marks: [85 42 91]\nEvery other mark: [85 91 76 67 93]\n\nPassed (>= 40): [85 42 91 76 55 67 93 44]\nFailed (< 40): [38 29]\nNumber passed: 8\n\nMatrix:\n [[1 2 3]\n [4 5 6]\n [7 8 9]]\nRow 0: [1 2 3]\nElement [1][2]: 6\nColumn 1: [2 5 8]"
+      },
+      {
+        "title": "NumPy Reshape, Dot Product, and Matrix Multiplication",
+        "code": "import numpy as np\n\n# Reshaping - critical for ML\narr = np.arange(1, 13)\nprint(\"Original (1D):\", arr)\nprint(\"Shape:\", arr.shape)\n\nreshaped = arr.reshape(3, 4)\nprint(\"\\nReshaped (3x4):\\n\", reshaped)\nprint(\"Shape:\", reshaped.shape)\n\n# Column vector for sklearn\ncol_vector = arr[:5].reshape(-1, 1)\nprint(\"\\nColumn vector:\\n\", col_vector)\nprint(\"Shape:\", col_vector.shape)\n\n# Dot product (fundamental to ML)\na = np.array([1, 2, 3])\nb = np.array([4, 5, 6])\nprint(\"\\nDot product (1*4 + 2*5 + 3*6):\", np.dot(a, b))\n\n# Matrix multiplication\nA = np.array([[1, 2], [3, 4]])\nB = np.array([[5, 6], [7, 8]])\nprint(\"\\nMatrix A:\\n\", A)\nprint(\"Matrix B:\\n\", B)\nprint(\"A @ B:\\n\", A @ B)",
+        "language": "python",
+        "explanation": "<code>reshape(-1, 1)</code> is the most common reshape in ML -- it turns a 1D array into a 2D column vector that scikit-learn accepts. The dot product (<code>np.dot</code> or <code>@</code>) is the foundation of linear models: linear regression computes <code>y = X @ weights + bias</code>. Matrix multiplication with <code>@</code> follows the rule: rows of A multiplied by columns of B.",
+        "output": "Original (1D): [ 1  2  3  4  5  6  7  8  9 10 11 12]\nShape: (12,)\n\nReshaped (3x4):\n [[ 1  2  3  4]\n [ 5  6  7  8]\n [ 9 10 11 12]]\nShape: (3, 4)\n\nColumn vector:\n [[1]\n [2]\n [3]\n [4]\n [5]]\nShape: (5, 1)\n\nDot product (1*4 + 2*5 + 3*6): 32\n\nMatrix A:\n [[1 2]\n [3 4]]\nMatrix B:\n [[5 6]\n [7 8]]\nA @ B:\n [[19 22]\n [43 50]]"
+      },
+      {
+        "title": "Pandas: Creating DataFrames and Basic Exploration",
+        "code": "import pandas as pd\n\n# Create DataFrame from dictionary\ndata = {\n    'Name': ['Aarav', 'Priya', 'Rohan', 'Ananya', 'Vikram'],\n    'Age': [20, 22, 21, 23, 20],\n    'Branch': ['CSE', 'ECE', 'CSE', 'IT', 'ECE'],\n    'CGPA': [8.5, 9.1, 7.8, 8.9, 7.2],\n    'Placed': [True, True, False, True, False]\n}\ndf = pd.DataFrame(data)\n\nprint(\"DataFrame:\")\nprint(df)\nprint(\"\\nShape:\", df.shape)\nprint(\"\\nColumn types:\")\nprint(df.dtypes)\nprint(\"\\nStatistical summary:\")\nprint(df.describe().round(2))\nprint(\"\\nBranch value counts:\")\nprint(df['Branch'].value_counts())",
+        "language": "python",
+        "explanation": "A DataFrame is created from a dictionary where keys become column names. <code>df.shape</code> gives (5, 5) meaning 5 rows and 5 columns. <code>df.dtypes</code> shows the data type of each column. <code>df.describe()</code> gives count, mean, std, min, max, and quartiles for numerical columns. <code>value_counts()</code> counts unique values in a column. These are the first things you check when exploring any dataset.",
+        "output": "DataFrame:\n     Name  Age Branch  CGPA  Placed\n0   Aarav   20    CSE   8.5    True\n1   Priya   22    ECE   9.1    True\n2   Rohan   21    CSE   7.8   False\n3  Ananya   23     IT   8.9    True\n4  Vikram   20    ECE   7.2   False\n\nShape: (5, 5)\n\nColumn types:\nName       object\nAge         int64\nBranch     object\nCGPA      float64\nPlaced       bool\ndtype: object\n\nStatistical summary:\n        Age  CGPA\ncount  5.00  5.00\nmean  21.20  8.30\nstd    1.30  0.78\nmin   20.00  7.20\nmax   23.00  9.10\n\nBranch value counts:\nCSE    2\nECE    2\nIT     1"
+      },
+      {
+        "title": "Pandas: Filtering, loc/iloc, and GroupBy",
+        "code": "import pandas as pd\n\ndf = pd.DataFrame({\n    'Name': ['Aarav', 'Priya', 'Rohan', 'Ananya', 'Vikram', 'Meera'],\n    'Department': ['CSE', 'ECE', 'CSE', 'IT', 'ECE', 'CSE'],\n    'Marks': [85, 92, 78, 88, 65, 95],\n    'Attendance': [90, 95, 70, 85, 60, 98]\n})\n\n# Filtering rows\nprint(\"Students with marks > 80:\")\nprint(df[df['Marks'] > 80])\n\n# Multiple conditions\nprint(\"\\nCSE students with marks > 80:\")\nprint(df[(df['Department'] == 'CSE') & (df['Marks'] > 80)])\n\n# loc (label-based) and iloc (position-based)\nprint(\"\\nloc[0:2, 'Name':'Marks']:\")\nprint(df.loc[0:2, 'Name':'Marks'])\nprint(\"\\niloc[0:2, 0:3]:\")\nprint(df.iloc[0:2, 0:3])\n\n# GroupBy\nprint(\"\\nAverage marks by department:\")\nprint(df.groupby('Department')['Marks'].mean().round(1))\n\n# Apply function\ndf['Grade'] = df['Marks'].apply(lambda x: 'A' if x >= 85 else 'B' if x >= 70 else 'C')\nprint(\"\\nWith grades:\")\nprint(df[['Name', 'Marks', 'Grade']])",
+        "language": "python",
+        "explanation": "Filtering with conditions is essential for data analysis. Use <code>&</code> for AND and <code>|</code> for OR (with parentheses around each condition). <code>loc</code> selects by label (inclusive on both ends), while <code>iloc</code> selects by integer position (exclusive on the end, like Python slicing). <code>groupby()</code> groups data and applies aggregate functions like mean, sum, count. <code>apply()</code> applies a custom function to every element in a column.",
+        "output": "Students with marks > 80:\n     Name Department  Marks  Attendance\n0   Aarav        CSE     85          90\n1   Priya        ECE     92          95\n3  Ananya         IT     88          85\n5   Meera        CSE     95          98\n\nCSE students with marks > 80:\n    Name Department  Marks  Attendance\n0  Aarav        CSE     85          90\n5  Meera        CSE     95          98\n\nloc[0:2, 'Name':'Marks']:\n    Name Department  Marks\n0  Aarav        CSE     85\n1  Priya        ECE     92\n2  Rohan        CSE     78\n\niloc[0:2, 0:3]:\n    Name Department  Marks\n0  Aarav        CSE     85\n1  Priya        ECE     92\n\nAverage marks by department:\nDepartment\nCSE    86.0\nECE    78.5\nIT     88.0\n\nWith grades:\n     Name  Marks Grade\n0   Aarav     85     A\n1   Priya     92     A\n2   Rohan     78     B\n3  Ananya     88     A\n4  Vikram     65     C\n5   Meera     95     A"
+      },
+      {
+        "title": "Pandas: Handling Missing Values",
+        "code": "import pandas as pd\nimport numpy as np\n\n# Create DataFrame with missing values\ndf = pd.DataFrame({\n    'Name': ['Aarav', 'Priya', 'Rohan', 'Ananya', 'Vikram'],\n    'Age': [20, np.nan, 21, 23, np.nan],\n    'Marks': [85, 92, np.nan, 88, 65],\n    'City': ['Delhi', 'Mumbai', None, 'Pune', 'Delhi']\n})\n\nprint(\"Original DataFrame:\")\nprint(df)\n\n# Detect missing values\nprint(\"\\nMissing values per column:\")\nprint(df.isnull().sum())\n\n# Fill missing numerical values with median\ndf['Age'] = df['Age'].fillna(df['Age'].median())\ndf['Marks'] = df['Marks'].fillna(df['Marks'].mean())\n\n# Fill missing categorical values with mode\ndf['City'] = df['City'].fillna(df['City'].mode()[0])\n\nprint(\"\\nAfter filling missing values:\")\nprint(df)\nprint(\"\\nMissing values now:\")\nprint(df.isnull().sum())",
+        "language": "python",
+        "explanation": "Missing data is extremely common in real datasets. <code>isnull().sum()</code> counts missing values per column. For numerical columns, filling with the <strong>median</strong> (robust to outliers) or <strong>mean</strong> (sensitive to outliers) is standard practice. For categorical columns, filling with the <strong>mode</strong> (most frequent value) is typical. <code>dropna()</code> removes rows with missing values entirely, but this loses data. The choice between filling and dropping depends on how much data is missing and why it is missing.",
+        "output": "Original DataFrame:\n     Name   Age  Marks    City\n0   Aarav  20.0   85.0   Delhi\n1   Priya   NaN   92.0  Mumbai\n2   Rohan  21.0    NaN    None\n3  Ananya  23.0   88.0    Pune\n4  Vikram   NaN   65.0   Delhi\n\nMissing values per column:\nName     0\nAge      2\nMarks    1\nCity     1\ndtype: int64\n\nAfter filling missing values:\n     Name   Age  Marks    City\n0   Aarav  20.0  85.00   Delhi\n1   Priya  21.0  92.00  Mumbai\n2   Rohan  21.0  82.50   Delhi\n3  Ananya  23.0  88.00    Pune\n4  Vikram  21.0  65.00   Delhi\n\nMissing values now:\nName     0\nAge      0\nMarks    0\nCity     0\ndtype: int64"
+      },
+      {
+        "title": "Matplotlib: Creating Multiple Types of Plots",
+        "code": "import matplotlib\nmatplotlib.use('Agg')  # Non-interactive backend\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# Data\nstudents = ['Aarav', 'Priya', 'Rohan', 'Ananya', 'Vikram']\nmarks = [85, 92, 78, 88, 65]\n\n# Create a 2x2 grid of plots\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfig.suptitle('Student Performance Dashboard', fontsize=16, fontweight='bold')\n\n# Bar chart\ncolors = ['#a855f7', '#06b6d4', '#f59e0b', '#22c55e', '#ef4444']\naxes[0][0].bar(students, marks, color=colors)\naxes[0][0].set_title('Marks by Student')\naxes[0][0].set_ylabel('Marks')\naxes[0][0].axhline(y=np.mean(marks), color='red', linestyle='--', label='Average')\naxes[0][0].legend()\n\n# Histogram\nnp.random.seed(42)\nall_marks = np.random.normal(70, 15, 200).clip(0, 100)\naxes[0][1].hist(all_marks, bins=15, color='#06b6d4', edgecolor='black', alpha=0.7)\naxes[0][1].set_title('Marks Distribution (200 students)')\naxes[0][1].set_xlabel('Marks')\naxes[0][1].set_ylabel('Frequency')\n\n# Scatter plot\nhours = np.array([2, 4, 3, 5, 1, 6, 3.5, 7, 4.5, 8])\nscores = np.array([50, 70, 55, 80, 40, 85, 60, 95, 75, 98])\naxes[1][0].scatter(hours, scores, color='#a855f7', s=100, edgecolors='black')\naxes[1][0].set_title('Study Hours vs Scores')\naxes[1][0].set_xlabel('Study Hours')\naxes[1][0].set_ylabel('Score')\n\n# Pie chart\nbranches = ['CSE', 'ECE', 'IT', 'Mech']\ncounts = [45, 30, 15, 10]\naxes[1][1].pie(counts, labels=branches, autopct='%1.0f%%',\n               colors=['#a855f7', '#06b6d4', '#f59e0b', '#22c55e'])\naxes[1][1].set_title('Students by Branch')\n\nplt.tight_layout()\nplt.savefig('student_dashboard.png', dpi=100, bbox_inches='tight')\nprint(\"Dashboard saved as 'student_dashboard.png'\")\nprint(\"Created: bar chart, histogram, scatter plot, and pie chart\")",
+        "language": "python",
+        "explanation": "<code>plt.subplots(2, 2)</code> creates a 2x2 grid of subplots. Bar charts compare values across categories. Histograms show the distribution of a variable. Scatter plots reveal relationships between two variables (here, study hours and scores show a positive correlation). Pie charts show proportions of a whole. <code>plt.tight_layout()</code> prevents overlapping. <code>plt.savefig()</code> saves the figure to a file.",
+        "output": "Dashboard saved as 'student_dashboard.png'\nCreated: bar chart, histogram, scatter plot, and pie chart"
+      },
+      {
+        "title": "Complete Data Analysis Pipeline: NumPy + Pandas + Matplotlib",
+        "code": "import numpy as np\nimport pandas as pd\nimport matplotlib\nmatplotlib.use('Agg')\nimport matplotlib.pyplot as plt\n\n# Generate synthetic student data\nnp.random.seed(42)\nn = 100\ndata = {\n    'Hours_Studied': np.random.uniform(1, 10, n).round(1),\n    'Attendance': np.random.uniform(50, 100, n).round(1),\n    'Marks': np.random.uniform(30, 100, n).round(1)\n}\ndf = pd.DataFrame(data)\n\n# Analysis with Pandas\nprint(\"=== Dataset Overview ===\")\nprint(f\"Shape: {df.shape}\")\nprint(f\"\\nSummary Statistics:\")\nprint(df.describe().round(2))\n\n# Compute correlation\nprint(f\"\\n=== Correlations ===\")\ncorr = df.corr().round(3)\nprint(corr)\n\n# Add Pass/Fail column\ndf['Result'] = df['Marks'].apply(lambda x: 'Pass' if x >= 40 else 'Fail')\nprint(f\"\\n=== Pass/Fail Distribution ===\")\nprint(df['Result'].value_counts())\nprint(f\"\\nAverage marks of passed: {df[df['Result']=='Pass']['Marks'].mean():.1f}\")\nprint(f\"Average marks of failed: {df[df['Result']=='Fail']['Marks'].mean():.1f}\")\n\n# Save analysis plot\nfig, ax = plt.subplots(1, 1, figsize=(8, 6))\nax.scatter(df['Hours_Studied'], df['Marks'], alpha=0.6, c='#a855f7')\nax.set_xlabel('Hours Studied')\nax.set_ylabel('Marks')\nax.set_title('Hours Studied vs Marks')\nplt.savefig('analysis.png')\nprint(\"\\nPlot saved as 'analysis.png'\")",
+        "language": "python",
+        "explanation": "This demonstrates a complete mini data analysis pipeline. NumPy generates synthetic data (simulating real-world randomness). Pandas creates a DataFrame for easy manipulation. We compute descriptive statistics and correlations. We add derived features (Pass/Fail) using <code>apply()</code>. Finally, Matplotlib creates a scatter plot to visualize the relationship. This workflow is exactly what you do in the EDA (Exploratory Data Analysis) phase of any ML project.",
+        "output": "=== Dataset Overview ===\nShape: (100, 3)\n\nSummary Statistics:\n       Hours_Studied  Attendance  Marks\ncount         100.00      100.00 100.00\nmean            5.39       74.85  64.97\nstd             2.68       14.62  20.23\nmin             1.00       50.30  30.10\nmax            10.00       99.90  99.80\n\n=== Correlations ===\n               Hours_Studied  Attendance  Marks\nHours_Studied          1.000      -0.021  0.048\nAttendance            -0.021       1.000 -0.043\nMarks                  0.048      -0.043  1.000\n\n=== Pass/Fail Distribution ===\nPass    85\nFail    15\n\nAverage marks of passed: 71.2\nAverage marks of failed: 34.8\n\nPlot saved as 'analysis.png'"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Python Lists Instead of NumPy Arrays for Math",
+        "wrongCode": "# Trying to multiply a list by 2\nmarks = [85, 92, 78, 88, 65]\nresult = marks * 2\nprint(result)  # Repeats the list, not element-wise multiplication!",
+        "error": "No error, but output is [85, 92, 78, 88, 65, 85, 92, 78, 88, 65] (list repeated, not multiplied)",
+        "correctCode": "import numpy as np\n\nmarks = np.array([85, 92, 78, 88, 65])\nresult = marks * 2\nprint(result)  # [170 184 156 176 130] - element-wise multiplication!",
+        "explanation": "Python's <code>*</code> operator on lists performs repetition, not element-wise multiplication. <code>[1, 2] * 2</code> gives <code>[1, 2, 1, 2]</code>. NumPy arrays perform element-wise operations: <code>np.array([1, 2]) * 2</code> gives <code>[2, 4]</code>. Always use NumPy arrays for numerical computations."
+      },
+      {
+        "title": "Forgetting Parentheses in Pandas Multi-Condition Filtering",
+        "wrongCode": "import pandas as pd\n\ndf = pd.DataFrame({'age': [20, 25, 30], 'marks': [80, 90, 70]})\n# Missing parentheses around each condition\nresult = df[df['age'] > 20 & df['marks'] > 75]",
+        "error": "ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().",
+        "correctCode": "import pandas as pd\n\ndf = pd.DataFrame({'age': [20, 25, 30], 'marks': [80, 90, 70]})\n# Each condition MUST be in parentheses\nresult = df[(df['age'] > 20) & (df['marks'] > 75)]\nprint(result)",
+        "explanation": "In Pandas, when combining multiple conditions with <code>&</code> (AND) or <code>|</code> (OR), each individual condition MUST be wrapped in parentheses. This is because Python's operator precedence evaluates <code>&</code> before <code>></code>. Without parentheses, Python tries to compute <code>20 & df['marks']</code> first, which causes the error."
+      },
+      {
+        "title": "Confusing loc (Label) with iloc (Integer Position)",
+        "wrongCode": "import pandas as pd\n\ndf = pd.DataFrame({'A': [10, 20, 30]}, index=['x', 'y', 'z'])\nprint(df.iloc['x'])  # iloc expects integer, not label!",
+        "error": "TypeError: Cannot index by location index with a non-integer key",
+        "correctCode": "import pandas as pd\n\ndf = pd.DataFrame({'A': [10, 20, 30]}, index=['x', 'y', 'z'])\n\n# loc uses labels\nprint(\"loc['x']:\", df.loc['x'].values)  # Uses label 'x'\n\n# iloc uses integer positions\nprint(\"iloc[0]:\", df.iloc[0].values)     # Uses position 0",
+        "explanation": "<code>loc</code> selects by label (the index name). <code>iloc</code> selects by integer position (0, 1, 2...). With custom string indices, <code>iloc['x']</code> fails because iloc expects integers. A key difference: <code>loc[0:2]</code> includes index 2 (label-inclusive), while <code>iloc[0:2]</code> excludes index 2 (position-exclusive, like Python slicing)."
+      },
+      {
+        "title": "Modifying a Slice of DataFrame Without .copy()",
+        "wrongCode": "import pandas as pd\n\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nsubset = df[df['A'] > 1]\nsubset['C'] = subset['A'] * 10  # SettingWithCopyWarning!",
+        "error": "SettingWithCopyWarning: A value is trying to be set on a copy of a slice from a DataFrame.",
+        "correctCode": "import pandas as pd\n\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nsubset = df[df['A'] > 1].copy()  # Explicit copy\nsubset['C'] = subset['A'] * 10\nprint(subset)",
+        "explanation": "When you filter a DataFrame, Pandas may return a view (reference to original data) or a copy, depending on the operation. Modifying a view can unexpectedly change the original DataFrame or may not work at all. Using <code>.copy()</code> creates an independent copy that you can safely modify. This is one of the most common Pandas gotchas."
+      },
+      {
+        "title": "Using plt.show() in Scripts Without Saving First",
+        "wrongCode": "import matplotlib.pyplot as plt\n\nplt.plot([1, 2, 3], [4, 5, 6])\nplt.show()  # Shows the plot but does not save it\n# plt.savefig('plot.png')  # This would save a blank image after show()!",
+        "error": "No error, but calling savefig() after show() saves a blank image because show() clears the figure.",
+        "correctCode": "import matplotlib.pyplot as plt\n\nplt.plot([1, 2, 3], [4, 5, 6])\nplt.title('My Plot')\nplt.savefig('plot.png', dpi=150, bbox_inches='tight')  # Save BEFORE show\nplt.show()  # Show after saving\nprint(\"Plot saved successfully\")",
+        "explanation": "In Matplotlib, <code>plt.show()</code> displays the figure and then clears it. If you call <code>plt.savefig()</code> after <code>plt.show()</code>, you get a blank image. Always save before showing. In non-interactive environments (scripts, servers), use <code>matplotlib.use('Agg')</code> and only <code>savefig()</code> without <code>show()</code>."
+      }
+    ],
+    "summary": [
+      "NumPy provides fast, memory-efficient arrays and vectorized operations. All ML libraries are built on NumPy. Use np.array() to create arrays, and arithmetic operators (+, -, *, /) for element-wise operations without loops.",
+      "NumPy key functions: np.zeros(), np.ones(), np.arange(), np.linspace() for creation. np.sum(), np.mean(), np.std(), np.min(), np.max() for statistics. np.dot() or @ for matrix multiplication.",
+      "NumPy boolean indexing (arr[arr > 5]) is essential for filtering data. reshape(-1, 1) converts 1D arrays to 2D column vectors required by scikit-learn.",
+      "Pandas DataFrame is the primary data structure for tabular data. Create with pd.DataFrame(dict) or pd.read_csv('file.csv'). Explore with .head(), .info(), .describe(), .shape, .dtypes.",
+      "Pandas filtering: df[df['col'] > value] for single condition. df[(cond1) & (cond2)] for multiple conditions (parentheses required). loc selects by label, iloc selects by position.",
+      "Handling missing values: df.isnull().sum() to detect, df.fillna(value) to fill (mean/median for numbers, mode for categories), df.dropna() to remove. GroupBy: df.groupby('col').agg_func().",
+      "Matplotlib creates line plots (plt.plot), scatter plots (plt.scatter), bar charts (plt.bar), histograms (plt.hist), pie charts (plt.pie). Always add titles, labels, and legends for clarity.",
+      "plt.subplots(rows, cols) creates grids of plots for dashboards. plt.savefig() saves figures. Always save before plt.show(). Use figsize parameter to control plot dimensions.",
+      "These three libraries form a pipeline: NumPy handles numerical computation, Pandas handles data manipulation and cleaning, Matplotlib handles visualization. They work seamlessly together.",
+      "In ML projects, you typically spend 60-80% of time on data preparation (Pandas) and exploration (Matplotlib), and only 20-40% on actual model building. Mastering these tools makes you a more effective ML practitioner."
+    ]
+  },
+  "relatedTopics": ["introduction-to-ai-and-ml", "mathematics-for-ml"],
+  "practice": {
+    "totalQuestions": 62,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import numpy as np\narr = np.array([1, 2, 3]) * 2\nprint(arr)</code></pre>",
+        "hint": "NumPy performs element-wise multiplication.",
+        "answer": "<code>[2 4 6]</code>",
+        "explanation": "NumPy multiplies every element by 2 simultaneously (vectorized operation). Unlike Python lists where <code>[1, 2, 3] * 2</code> repeats the list, NumPy performs element-wise arithmetic."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import numpy as np\nprint(np.zeros(3))\nprint(np.ones((2, 2)))</code></pre>",
+        "hint": "zeros creates an array of zeros, ones creates an array of ones.",
+        "answer": "<code>[0. 0. 0.]</code><br><code>[[1. 1.]\n [1. 1.]]</code>",
+        "explanation": "<code>np.zeros(3)</code> creates a 1D array of three zeros (as floats by default). <code>np.ones((2, 2))</code> creates a 2x2 matrix of ones. The tuple <code>(2, 2)</code> specifies the shape."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import numpy as np\narr = np.array([10, 20, 30, 40, 50])\nprint(arr[1:4])</code></pre>",
+        "hint": "NumPy slicing works like Python list slicing: start (inclusive) to end (exclusive).",
+        "answer": "<code>[20 30 40]</code>",
+        "explanation": "Slicing <code>[1:4]</code> returns elements at indices 1, 2, 3 (index 4 is excluded). This is the same as Python list slicing. NumPy slices return views (not copies), so modifying a slice modifies the original array."
+      },
+      {
+        "id": "ts-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write code to create a NumPy array of numbers from 0 to 9 and compute the sum, mean, and standard deviation.",
+        "hint": "Use np.arange(10) to create the array, then np.sum(), np.mean(), np.std().",
+        "answer": "<pre><code>import numpy as np\n\narr = np.arange(10)\nprint(f\"Array: {arr}\")\nprint(f\"Sum: {np.sum(arr)}\")\nprint(f\"Mean: {np.mean(arr)}\")\nprint(f\"Std: {np.std(arr):.2f}\")</code></pre>\nOutput: Sum: 45, Mean: 4.5, Std: 2.87",
+        "explanation": "<code>np.arange(10)</code> creates [0, 1, 2, ..., 9]. The sum of 0 to 9 is 45. The mean is 45/10 = 4.5. The standard deviation measures how spread out the values are from the mean."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\narr = np.array([10, 25, 5, 40, 15])\nprint(arr[arr > 12])</code></pre>",
+        "hint": "This is boolean indexing -- it returns elements where the condition is True.",
+        "answer": "<code>[25 40 15]</code>",
+        "explanation": "<code>arr > 12</code> creates a boolean array <code>[False, True, False, True, True]</code>. Using this as an index returns only the elements where the value is True: 25, 40, and 15. Boolean indexing is one of NumPy's most powerful features for data filtering."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\narr = np.arange(6).reshape(2, 3)\nprint(arr)\nprint(arr.shape)</code></pre>",
+        "hint": "reshape(2, 3) turns a 1D array of 6 elements into a 2x3 matrix.",
+        "answer": "<code>[[0 1 2]\n [3 4 5]]</code><br><code>(2, 3)</code>",
+        "explanation": "<code>np.arange(6)</code> creates [0, 1, 2, 3, 4, 5]. <code>reshape(2, 3)</code> arranges these into 2 rows and 3 columns. The total elements must match: 2 * 3 = 6. The shape attribute confirms the dimensions."
+      },
+      {
+        "id": "ts-7",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write code to compute the dot product of vectors [1, 2, 3] and [4, 5, 6] using NumPy. What is the mathematical calculation?",
+        "hint": "Dot product = (1*4) + (2*5) + (3*6). Use np.dot().",
+        "answer": "<pre><code>import numpy as np\n\na = np.array([1, 2, 3])\nb = np.array([4, 5, 6])\nresult = np.dot(a, b)\nprint(f\"Dot product: {result}\")\nprint(f\"Calculation: (1*4) + (2*5) + (3*6) = {1*4 + 2*5 + 3*6}\")</code></pre>\nOutput: Dot product: 32",
+        "explanation": "The dot product multiplies corresponding elements and sums the results: (1*4) + (2*5) + (3*6) = 4 + 10 + 18 = 32. In ML, the dot product is used in linear regression (<code>y = X @ w + b</code>), neural networks, and similarity measures."
+      },
+      {
+        "id": "ts-8",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write Pandas code to create a DataFrame with 3 students (Name, Marks) and print only the student with the highest marks.",
+        "hint": "Use df[df['Marks'] == df['Marks'].max()] or df.loc[df['Marks'].idxmax()].",
+        "answer": "<pre><code>import pandas as pd\n\ndf = pd.DataFrame({\n    'Name': ['Aarav', 'Priya', 'Rohan'],\n    'Marks': [85, 92, 78]\n})\n\ntop_student = df.loc[df['Marks'].idxmax()]\nprint(f\"Top student: {top_student['Name']} with {top_student['Marks']} marks\")</code></pre>\nOutput: Top student: Priya with 92 marks",
+        "explanation": "<code>df['Marks'].idxmax()</code> returns the index of the row with the maximum value in the Marks column. <code>df.loc[]</code> then selects that entire row. This is a common pattern for finding extremes in data."
+      },
+      {
+        "id": "ts-9",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write Pandas code to filter students with marks greater than 80 from this DataFrame: Name=['Aarav','Priya','Rohan','Ananya'], Marks=[85, 42, 91, 38].",
+        "hint": "Use df[df['Marks'] > 80].",
+        "answer": "<pre><code>import pandas as pd\n\ndf = pd.DataFrame({\n    'Name': ['Aarav', 'Priya', 'Rohan', 'Ananya'],\n    'Marks': [85, 42, 91, 38]\n})\n\nhigh_scorers = df[df['Marks'] > 80]\nprint(high_scorers)</code></pre>\nOutput:\n    Name  Marks\n0  Aarav     85\n2  Rohan     91",
+        "explanation": "The expression <code>df['Marks'] > 80</code> creates a boolean Series: [True, False, True, False]. Using this to index the DataFrame returns only rows where the condition is True. The original index (0, 2) is preserved."
+      },
+      {
+        "id": "ts-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write code to find and fill missing values in a Pandas DataFrame. Create a DataFrame where the 'Salary' column has two NaN values.",
+        "hint": "Use np.nan to create missing values, isnull().sum() to detect, and fillna() to fill.",
+        "answer": "<pre><code>import pandas as pd\nimport numpy as np\n\ndf = pd.DataFrame({\n    'Employee': ['Aarav', 'Priya', 'Rohan', 'Ananya'],\n    'Salary': [50000, np.nan, 60000, np.nan]\n})\n\nprint(\"Before:\")\nprint(df)\nprint(f\"Missing values: {df['Salary'].isnull().sum()}\")\n\ndf['Salary'] = df['Salary'].fillna(df['Salary'].median())\nprint(\"\\nAfter filling with median:\")\nprint(df)</code></pre>",
+        "explanation": "NaN (Not a Number) represents missing values in Pandas. <code>isnull().sum()</code> counts them. <code>fillna()</code> replaces NaN with the specified value. Using the median is preferred over mean because it is robust to outliers. The median of [50000, 60000] is 55000."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df.iloc[0:2])</code></pre>",
+        "hint": "iloc uses integer position indexing. 0:2 means positions 0 and 1.",
+        "answer": "<code>   A  B\n0  1  4\n1  2  5</code>",
+        "explanation": "<code>iloc[0:2]</code> selects rows at integer positions 0 and 1 (2 is excluded, following Python slicing convention). This returns the first two rows of the DataFrame."
+      },
+      {
+        "id": "ts-12",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write code to group students by their department and calculate the average marks for each department.",
+        "hint": "Use df.groupby('Department')['Marks'].mean().",
+        "answer": "<pre><code>import pandas as pd\n\ndf = pd.DataFrame({\n    'Name': ['Aarav', 'Priya', 'Rohan', 'Ananya', 'Vikram', 'Meera'],\n    'Department': ['CSE', 'ECE', 'CSE', 'IT', 'ECE', 'CSE'],\n    'Marks': [85, 92, 78, 88, 65, 95]\n})\n\navg_by_dept = df.groupby('Department')['Marks'].mean().round(1)\nprint(\"Average marks by department:\")\nprint(avg_by_dept)</code></pre>\nOutput: CSE 86.0, ECE 78.5, IT 88.0",
+        "explanation": "<code>groupby('Department')</code> groups rows by department. <code>['Marks'].mean()</code> computes the average marks for each group. CSE has (85+78+95)/3 = 86.0. This is one of the most used operations in data analysis."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import numpy as np\nA = np.array([[1, 2], [3, 4]])\nB = np.array([[5, 6], [7, 8]])\nprint(A @ B)</code></pre>",
+        "hint": "Matrix multiplication: row of A dot column of B.",
+        "answer": "<code>[[19 22]\n [43 50]]</code>",
+        "explanation": "Matrix multiplication (A @ B): Element [0,0] = 1*5 + 2*7 = 19. Element [0,1] = 1*6 + 2*8 = 22. Element [1,0] = 3*5 + 4*7 = 43. Element [1,1] = 3*6 + 4*8 = 50. Matrix multiplication is the core operation in linear regression and neural networks."
+      },
+      {
+        "id": "ts-14",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write NumPy code to generate 1000 random numbers from a normal distribution with mean=50 and std=10, then find what percentage of values fall between 40 and 60.",
+        "hint": "Use np.random.normal(). Count values between 40 and 60 using boolean indexing.",
+        "answer": "<pre><code>import numpy as np\nnp.random.seed(42)\n\ndata = np.random.normal(loc=50, scale=10, size=1000)\nin_range = np.sum((data >= 40) & (data <= 60))\npct = in_range / len(data) * 100\nprint(f\"Values between 40-60: {in_range} out of 1000\")\nprint(f\"Percentage: {pct:.1f}%\")</code></pre>",
+        "explanation": "For a normal distribution, approximately 68% of values fall within 1 standard deviation of the mean. With mean=50 and std=10, 1 std range is 40-60. The result should be close to 68%. This demonstrates the 68-95-99.7 rule (empirical rule) that is fundamental to statistics and ML."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import numpy as np\narr = np.array([5, 10, 15, 20])\nprint(np.sum(arr))\nprint(np.mean(arr))</code></pre>",
+        "hint": "Sum adds all elements. Mean is sum divided by count.",
+        "answer": "<code>50</code><br><code>12.5</code>",
+        "explanation": "Sum: 5 + 10 + 15 + 20 = 50. Mean: 50 / 4 = 12.5. These are basic but essential operations. In ML, you compute means for feature normalization, and sums for loss functions."
+      },
+      {
+        "id": "ts-16",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write Pandas code to add a new column 'Grade' to a DataFrame based on marks: A if marks >= 90, B if >= 75, C if >= 60, else F.",
+        "hint": "Use df['Marks'].apply(lambda x: ...) with conditional logic.",
+        "answer": "<pre><code>import pandas as pd\n\ndf = pd.DataFrame({\n    'Name': ['Aarav', 'Priya', 'Rohan', 'Ananya'],\n    'Marks': [95, 78, 62, 45]\n})\n\ndef assign_grade(marks):\n    if marks >= 90: return 'A'\n    elif marks >= 75: return 'B'\n    elif marks >= 60: return 'C'\n    else: return 'F'\n\ndf['Grade'] = df['Marks'].apply(assign_grade)\nprint(df)</code></pre>",
+        "explanation": "The <code>apply()</code> method runs a function on every element of a Series. Here it takes each mark value, passes it through <code>assign_grade()</code>, and creates a new column with the results. This is a common pattern for creating derived features in ML."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import numpy as np\narr = np.array([[1, 2, 3], [4, 5, 6]])\nprint(np.sum(arr, axis=0))\nprint(np.sum(arr, axis=1))</code></pre>",
+        "hint": "axis=0 sums along columns (down). axis=1 sums along rows (across).",
+        "answer": "<code>[5 7 9]</code><br><code>[ 6 15]</code>",
+        "explanation": "<code>axis=0</code> sums down each column: [1+4, 2+5, 3+6] = [5, 7, 9]. <code>axis=1</code> sums across each row: [1+2+3, 4+5+6] = [6, 15]. Understanding axis is critical for NumPy operations. Think of axis=0 as 'collapse rows' and axis=1 as 'collapse columns'."
+      },
+      {
+        "id": "ts-18",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write code to merge two DataFrames: one with student names and IDs, another with IDs and marks. Join them on the 'ID' column.",
+        "hint": "Use pd.merge(df1, df2, on='ID').",
+        "answer": "<pre><code>import pandas as pd\n\nstudents = pd.DataFrame({\n    'ID': [101, 102, 103],\n    'Name': ['Aarav', 'Priya', 'Rohan']\n})\n\nmarks = pd.DataFrame({\n    'ID': [101, 102, 103],\n    'Marks': [85, 92, 78]\n})\n\nresult = pd.merge(students, marks, on='ID')\nprint(result)</code></pre>\nOutput:\n    ID   Name  Marks\n0  101  Aarav     85\n1  102  Priya     92\n2  103  Rohan     78",
+        "explanation": "<code>pd.merge()</code> combines two DataFrames based on a common column (like SQL JOIN). The 'on' parameter specifies the key column. The default is an inner join (only matching keys). You can also use <code>how='left'</code>, <code>how='right'</code>, or <code>how='outer'</code> for different join types."
+      },
+      {
+        "id": "ts-19",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write Matplotlib code to create a bar chart showing marks of 4 students with student names on x-axis, marks on y-axis, a title, and labels.",
+        "hint": "Use plt.bar(names, marks), plt.title(), plt.xlabel(), plt.ylabel().",
+        "answer": "<pre><code>import matplotlib\nmatplotlib.use('Agg')\nimport matplotlib.pyplot as plt\n\nnames = ['Aarav', 'Priya', 'Rohan', 'Ananya']\nmarks = [85, 92, 78, 88]\n\nplt.figure(figsize=(8, 5))\nplt.bar(names, marks, color=['#a855f7', '#06b6d4', '#f59e0b', '#22c55e'])\nplt.title('Student Marks Comparison')\nplt.xlabel('Students')\nplt.ylabel('Marks')\nplt.savefig('bar_chart.png')\nprint(\"Bar chart saved\")</code></pre>",
+        "explanation": "<code>plt.bar()</code> creates a vertical bar chart. The first argument is categories (x-axis), the second is values (y-axis). Always add a title and axis labels to make plots self-explanatory. <code>figsize=(8, 5)</code> sets the figure to 8 inches wide and 5 inches tall."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import pandas as pd\ndf = pd.DataFrame({'Name': ['Aarav', 'Priya', 'Rohan'], 'Age': [20, 22, 21]})\nprint(df.shape)</code></pre>",
+        "hint": "shape returns (rows, columns).",
+        "answer": "<code>(3, 2)</code>",
+        "explanation": "<code>df.shape</code> returns a tuple (rows, columns). This DataFrame has 3 rows (students) and 2 columns (Name, Age). Checking shape is always the first thing you do with a new dataset."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import numpy as np\narr = np.array([1, 2, 3, 4])\nprint(arr + arr)</code></pre>",
+        "hint": "Adding two arrays performs element-wise addition.",
+        "answer": "<code>[2 4 6 8]</code>",
+        "explanation": "NumPy adds corresponding elements: [1+1, 2+2, 3+3, 4+4] = [2, 4, 6, 8]. This is element-wise addition, one of the most basic vectorized operations."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write code to create a Pandas Series from a list [10, 20, 30, 40] with custom index ['a', 'b', 'c', 'd'] and print the element at index 'c'.",
+        "hint": "Use pd.Series(data, index=custom_index).",
+        "answer": "<pre><code>import pandas as pd\n\ns = pd.Series([10, 20, 30, 40], index=['a', 'b', 'c', 'd'])\nprint(s)\nprint(f\"\\nElement at 'c': {s['c']}\")</code></pre>\nOutput: Element at 'c': 30",
+        "explanation": "A Pandas Series is a 1D labeled array. Unlike NumPy arrays which use only integer indices, Series can have custom labels. Accessing by label uses <code>s['c']</code>. Each column in a DataFrame is a Series."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\narr = np.array([3, 1, 4, 1, 5, 9])\nprint(np.max(arr))\nprint(np.argmax(arr))</code></pre>",
+        "hint": "max returns the maximum value, argmax returns the INDEX of the maximum.",
+        "answer": "<code>9</code><br><code>5</code>",
+        "explanation": "<code>np.max()</code> returns the largest value: 9. <code>np.argmax()</code> returns the INDEX of the largest value: 9 is at index 5. <code>argmax</code> is used in classification to convert probability arrays to class predictions."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import pandas as pd\ndf = pd.DataFrame({'X': [1, 2, 3], 'Y': [4, 5, 6]})\nprint(df['X'].sum())\nprint(df.sum())</code></pre>",
+        "hint": "Sum on a column gives a scalar. Sum on a DataFrame gives column-wise sums.",
+        "answer": "<code>6</code><br><code>X     6\nY    15\ndtype: int64</code>",
+        "explanation": "Summing a single column gives a scalar: 1+2+3 = 6. Summing the entire DataFrame gives the sum of each column: X = 6, Y = 15. Pandas operations default to column-wise (axis=0)."
+      },
+      {
+        "id": "mx-5",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write code to create a 3x3 identity matrix using NumPy and verify that multiplying it with any vector gives the same vector.",
+        "hint": "Use np.eye(3) for the identity matrix. Multiply with np.dot().",
+        "answer": "<pre><code>import numpy as np\n\nI = np.eye(3)\nprint(\"Identity matrix:\\n\", I)\n\nv = np.array([5, 10, 15])\nresult = I @ v\nprint(f\"\\nI @ {v} = {result}\")\nprint(f\"Same as original? {np.array_equal(v, result)}\")</code></pre>",
+        "explanation": "The identity matrix has 1s on the diagonal and 0s elsewhere. Multiplying any vector by the identity matrix gives the same vector (like multiplying a number by 1). The identity matrix is fundamental in linear algebra and ML: it appears in regularization, matrix inversion, and eigenvalue calculations."
+      },
+      {
+        "id": "mx-6",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write Pandas code to read a DataFrame with some missing values and create a summary showing: total rows, missing values per column, and percentage missing per column.",
+        "hint": "Use isnull().sum() and divide by len(df) * 100.",
+        "answer": "<pre><code>import pandas as pd\nimport numpy as np\n\ndf = pd.DataFrame({\n    'Age': [25, np.nan, 30, np.nan, 28],\n    'Salary': [50000, 60000, np.nan, 70000, 55000],\n    'City': ['Delhi', None, 'Mumbai', 'Pune', None]\n})\n\nprint(f\"Total rows: {len(df)}\")\nprint(f\"\\nMissing values:\")\nfor col in df.columns:\n    missing = df[col].isnull().sum()\n    pct = missing / len(df) * 100\n    print(f\"  {col}: {missing} ({pct:.0f}%)\")</code></pre>",
+        "explanation": "Understanding the extent of missing data is crucial before deciding how to handle it. If a column has 5% missing, filling with mean/median is reasonable. If 80% is missing, you might drop that column entirely. This summary is one of the first things you produce in any data analysis."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import numpy as np\narr = np.array([[10, 20, 30], [40, 50, 60]])\nprint(arr.T)\nprint(arr.T.shape)</code></pre>",
+        "hint": "T transposes the matrix (swaps rows and columns).",
+        "answer": "<code>[[10 40]\n [20 50]\n [30 60]]</code><br><code>(3, 2)</code>",
+        "explanation": "Transpose (<code>.T</code>) swaps rows and columns. A (2, 3) matrix becomes (3, 2). Row [10, 20, 30] becomes column [10, 20, 30]. Transpose is used frequently in ML for matrix operations like computing X^T @ X in linear regression."
+      },
+      {
+        "id": "mx-8",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a complete mini analysis: create a DataFrame with 5 students and their marks in 3 subjects, compute total and average marks, sort by average descending, and display the result.",
+        "hint": "Use df['Total'] = df[['Math', 'Science', 'English']].sum(axis=1) for row-wise sum.",
+        "answer": "<pre><code>import pandas as pd\n\ndf = pd.DataFrame({\n    'Name': ['Aarav', 'Priya', 'Rohan', 'Ananya', 'Vikram'],\n    'Math': [85, 92, 78, 88, 65],\n    'Science': [90, 88, 72, 95, 70],\n    'English': [78, 95, 80, 82, 75]\n})\n\ndf['Total'] = df[['Math', 'Science', 'English']].sum(axis=1)\ndf['Average'] = df['Total'] / 3\ndf = df.sort_values('Average', ascending=False)\nprint(df.round(1).to_string(index=False))</code></pre>",
+        "explanation": "<code>.sum(axis=1)</code> sums across columns (row-wise), giving each student's total. <code>sort_values('Average', ascending=False)</code> sorts from highest to lowest average. This type of analysis is common in data science: compute derived features, then rank or filter results."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write NumPy code to create a random array of 5 integers between 1 and 100 and print the minimum and maximum values.",
+        "hint": "Use np.random.randint(1, 101, size=5).",
+        "answer": "<pre><code>import numpy as np\nnp.random.seed(42)\n\narr = np.random.randint(1, 101, size=5)\nprint(f\"Array: {arr}\")\nprint(f\"Min: {np.min(arr)}\")\nprint(f\"Max: {np.max(arr)}\")</code></pre>",
+        "explanation": "<code>np.random.randint(low, high, size)</code> generates random integers from low (inclusive) to high (exclusive). <code>np.min()</code> and <code>np.max()</code> find the smallest and largest values. Setting <code>random_state</code> or <code>np.random.seed()</code> ensures reproducible results."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import pandas as pd\ndf = pd.DataFrame({'A': [1, 1, 2, 2], 'B': [10, 20, 30, 40]})\nresult = df.groupby('A')['B'].agg(['sum', 'mean', 'count'])\nprint(result)</code></pre>",
+        "hint": "GroupBy groups rows by column A, then applies sum, mean, and count to column B.",
+        "answer": "<code>   sum  mean  count\nA                   \n1   30  15.0      2\n2   70  35.0      2</code>",
+        "explanation": "Rows with A=1 have B values [10, 20]: sum=30, mean=15, count=2. Rows with A=2 have B values [30, 40]: sum=70, mean=35, count=2. The <code>.agg()</code> method applies multiple aggregation functions at once, which is very useful for data analysis."
+      },
+      {
+        "id": "mx-11",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write code to normalize an array of marks to the range [0, 1] using Min-Max scaling: (x - min) / (max - min).",
+        "hint": "Find min and max of the array, then apply the formula element-wise.",
+        "answer": "<pre><code>import numpy as np\n\nmarks = np.array([30, 45, 78, 92, 55, 67, 88, 41])\nmin_val = np.min(marks)\nmax_val = np.max(marks)\nnormalized = (marks - min_val) / (max_val - min_val)\n\nprint(f\"Original marks: {marks}\")\nprint(f\"Min: {min_val}, Max: {max_val}\")\nprint(f\"Normalized (0-1): {np.round(normalized, 3)}\")\nprint(f\"Min normalized: {normalized.min():.1f}, Max normalized: {normalized.max():.1f}\")</code></pre>",
+        "explanation": "Min-Max normalization scales values to [0, 1]. The minimum value maps to 0, the maximum maps to 1, and everything else is proportionally in between. This is a critical preprocessing step in ML because many algorithms (KNN, SVM, neural networks) are sensitive to feature scales. If one feature ranges 0-100 and another 0-1, the first will dominate distance calculations."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': ['x', 'y', 'z']})\nprint(df.dtypes)</code></pre>",
+        "hint": "Pandas infers data types automatically. Numbers become int64, strings become object.",
+        "answer": "<code>A     int64\nB    object\ndtype: object</code>",
+        "explanation": "Pandas automatically infers data types: integers become <code>int64</code>, floats become <code>float64</code>, and strings become <code>object</code>. Checking <code>dtypes</code> is important because ML algorithms require numerical input. Columns with <code>object</code> type (strings) need to be encoded before feeding to a model."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does np.array([1, 2, 3]) * 3 produce?",
+        "options": {"A": "[1, 2, 3, 1, 2, 3, 1, 2, 3]", "B": "[3, 6, 9]", "C": "Error", "D": "[1, 2, 3, 3]"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> NumPy performs element-wise multiplication: each element is multiplied by 3. This is vectorization -- no loops needed. Option A would be the result if this were a Python list (<code>[1,2,3] * 3</code> repeats the list)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does df.head() do in Pandas?",
+        "options": {"A": "Displays the column names", "B": "Displays the first 5 rows of the DataFrame", "C": "Displays the data types", "D": "Displays summary statistics"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>df.head()</code> returns the first 5 rows by default. You can pass a number like <code>df.head(10)</code> to see more. <code>df.columns</code> shows column names. <code>df.dtypes</code> shows data types. <code>df.describe()</code> shows statistics."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which NumPy function creates an array of evenly spaced values between two endpoints?",
+        "options": {"A": "np.arange()", "B": "np.linspace()", "C": "np.zeros()", "D": "np.random.rand()"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>np.linspace(0, 1, 5)</code> creates 5 evenly spaced values between 0 and 1: [0, 0.25, 0.5, 0.75, 1]. <code>np.arange()</code> uses a step size (not a count). <code>np.zeros()</code> creates an array of zeros. <code>np.random.rand()</code> creates random values."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the output of np.arange(0, 10, 2)?",
+        "options": {"A": "[0, 2, 4, 6, 8, 10]", "B": "[0, 2, 4, 6, 8]", "C": "[2, 4, 6, 8, 10]", "D": "[0, 1, 2, 3, 4]"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>np.arange(start, stop, step)</code> creates values from 0 to 10 (exclusive) with step 2. The values are [0, 2, 4, 6, 8]. The stop value (10) is excluded, just like Python's range()."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "In Pandas, what is the difference between loc and iloc?",
+        "options": {"A": "loc is for rows, iloc is for columns", "B": "loc uses label-based indexing, iloc uses integer position-based indexing", "C": "They are the same thing", "D": "loc is faster than iloc"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>loc</code> selects data by label (e.g., <code>df.loc['row_name', 'col_name']</code>). <code>iloc</code> selects by integer position (e.g., <code>df.iloc[0, 1]</code>). Important: <code>loc</code> slicing is inclusive on both ends, while <code>iloc</code> slicing excludes the end (like Python)."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does arr.reshape(-1, 1) do to a 1D NumPy array with 5 elements?",
+        "options": {"A": "Flattens it to shape (5,)", "B": "Converts it to shape (5, 1) -- a column vector", "C": "Converts it to shape (1, 5) -- a row vector", "D": "Raises an error"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>reshape(-1, 1)</code> creates a 2D array with 1 column. The <code>-1</code> means 'calculate the number of rows automatically' (5 elements / 1 column = 5 rows). This gives shape (5, 1), which is what scikit-learn expects for single-feature input."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does df.isnull().sum() return for a Pandas DataFrame?",
+        "options": {"A": "Total number of missing values in the entire DataFrame", "B": "Number of missing values in each column", "C": "True or False for each cell", "D": "Number of non-null values in each column"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>df.isnull()</code> creates a boolean DataFrame (True where values are missing). <code>.sum()</code> sums each column (True counts as 1, False as 0), giving the count of missing values per column. To get the total, use <code>df.isnull().sum().sum()</code>."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the correct way to filter a Pandas DataFrame for rows where age > 20 AND marks > 80?",
+        "options": {"A": "df[df['age'] > 20 and df['marks'] > 80]", "B": "df[(df['age'] > 20) & (df['marks'] > 80)]", "C": "df[df['age'] > 20 & df['marks'] > 80]", "D": "df.filter(age > 20, marks > 80)"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> In Pandas, you must use <code>&</code> (not <code>and</code>) for element-wise AND, and each condition must be in parentheses. Option A uses Python's <code>and</code> which does not work with Series. Option C has incorrect precedence without parentheses."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What type of plot is best for showing the distribution of a single numerical variable?",
+        "options": {"A": "Scatter plot", "B": "Bar chart", "C": "Histogram", "D": "Pie chart"},
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Histograms show the frequency distribution of a single variable by dividing values into bins and counting occurrences. Scatter plots show relationships between two variables. Bar charts compare categories. Pie charts show proportions of a whole."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "What is broadcasting in NumPy?",
+        "options": {"A": "Sending arrays to multiple processors", "B": "Automatically expanding smaller arrays to match larger arrays for element-wise operations", "C": "Converting arrays to different data types", "D": "Distributing data across multiple machines"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Broadcasting is NumPy's mechanism for performing operations between arrays of different shapes. When you write <code>np.array([1, 2, 3]) + 5</code>, NumPy broadcasts the scalar 5 to match the array shape, effectively adding [5, 5, 5]. This also works between differently shaped arrays following specific rules."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What does df.groupby('Department')['Salary'].mean() return?",
+        "options": {"A": "The overall mean salary", "B": "The mean salary for each department", "C": "A list of all salaries", "D": "The Department column"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>groupby('Department')</code> groups the rows by unique values in the Department column. <code>['Salary'].mean()</code> then computes the average salary within each group. The result is a Series indexed by department names with mean salaries as values."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the shape of np.array([[1, 2, 3], [4, 5, 6]]).T?",
+        "options": {"A": "(2, 3)", "B": "(3, 2)", "C": "(6,)", "D": "(1, 6)"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The original array has shape (2, 3) -- 2 rows and 3 columns. Transposing (<code>.T</code>) swaps rows and columns, giving shape (3, 2) -- 3 rows and 2 columns. Transpose is essential in ML for operations like computing the normal equation in linear regression: <code>(X.T @ X)^(-1) @ X.T @ y</code>."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Easy",
+        "question": "What does pd.read_csv('data.csv') do?",
+        "options": {"A": "Creates a new CSV file", "B": "Reads a CSV file into a Pandas DataFrame", "C": "Reads a CSV file into a NumPy array", "D": "Opens a CSV file in a text editor"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>pd.read_csv()</code> reads a CSV (Comma Separated Values) file and returns a Pandas DataFrame. This is the most common way to load data in ML projects. Pandas also supports <code>read_excel()</code>, <code>read_json()</code>, and <code>read_sql()</code> for other formats."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the output of np.dot(np.array([1, 2, 3]), np.array([4, 5, 6]))?",
+        "options": {"A": "[4, 10, 18]", "B": "32", "C": "[[4, 5, 6], [8, 10, 12], [12, 15, 18]]", "D": "Error"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The dot product of two 1D arrays is a scalar: (1*4) + (2*5) + (3*6) = 4 + 10 + 18 = 32. Option A would be element-wise multiplication (<code>arr1 * arr2</code>). The dot product is a single number that measures the similarity between two vectors."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "Which Matplotlib function creates a scatter plot?",
+        "options": {"A": "plt.plot()", "B": "plt.bar()", "C": "plt.scatter()", "D": "plt.hist()"},
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>plt.scatter(x, y)</code> creates a scatter plot showing individual data points. <code>plt.plot()</code> creates line charts. <code>plt.bar()</code> creates bar charts. <code>plt.hist()</code> creates histograms. Scatter plots are essential in ML for visualizing relationships between features."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "NumPy Statistics Calculator",
+        "difficulty": "Easy",
+        "description": "Create a NumPy array of exam marks: [72, 85, 90, 65, 78, 92, 55, 88, 76, 81]. Calculate and print: count, sum, mean, median, standard deviation, minimum, maximum, and range (max - min).",
+        "sampleInput": "marks = [72, 85, 90, 65, 78, 92, 55, 88, 76, 81]",
+        "sampleOutput": "Count: 10\nSum: 782\nMean: 78.2\nMedian: 79.5\nStd: 10.79\nMin: 55\nMax: 92\nRange: 37",
+        "constraints": "Use NumPy functions only. Do not use Python built-in functions.",
+        "solution": "import numpy as np\n\nmarks = np.array([72, 85, 90, 65, 78, 92, 55, 88, 76, 81])\n\nprint(f\"Count: {len(marks)}\")\nprint(f\"Sum: {np.sum(marks)}\")\nprint(f\"Mean: {np.mean(marks)}\")\nprint(f\"Median: {np.median(marks)}\")\nprint(f\"Std: {np.std(marks):.2f}\")\nprint(f\"Min: {np.min(marks)}\")\nprint(f\"Max: {np.max(marks)}\")\nprint(f\"Range: {np.max(marks) - np.min(marks)}\")"
+      },
+      {
+        "id": "cc-2",
+        "title": "Pandas Student Report Card Generator",
+        "difficulty": "Medium",
+        "description": "Create a DataFrame with 6 students, their marks in Math, Science, and English. Add columns for Total, Average, and Grade (A: avg >= 85, B: >= 70, C: >= 55, F: below 55). Sort by Average descending and print the report.",
+        "sampleInput": "Students: Aarav, Priya, Rohan, Ananya, Vikram, Meera",
+        "sampleOutput": "Complete report card sorted by average marks",
+        "constraints": "Use Pandas operations. No manual calculations.",
+        "solution": "import pandas as pd\n\ndf = pd.DataFrame({\n    'Name': ['Aarav', 'Priya', 'Rohan', 'Ananya', 'Vikram', 'Meera'],\n    'Math': [85, 92, 55, 88, 45, 95],\n    'Science': [90, 88, 60, 95, 50, 91],\n    'English': [78, 95, 52, 82, 48, 88]\n})\n\nsubjects = ['Math', 'Science', 'English']\ndf['Total'] = df[subjects].sum(axis=1)\ndf['Average'] = (df['Total'] / 3).round(1)\n\ndef grade(avg):\n    if avg >= 85: return 'A'\n    if avg >= 70: return 'B'\n    if avg >= 55: return 'C'\n    return 'F'\n\ndf['Grade'] = df['Average'].apply(grade)\ndf = df.sort_values('Average', ascending=False)\nprint(df.to_string(index=False))"
+      },
+      {
+        "id": "cc-3",
+        "title": "Missing Data Handler",
+        "difficulty": "Medium",
+        "description": "Create a DataFrame with intentional missing values (use np.nan). Write a function that: (1) reports missing values per column, (2) fills numerical columns with median, (3) fills categorical columns with mode, (4) verifies no missing values remain.",
+        "sampleInput": "DataFrame with Name, Age (2 NaN), Salary (1 NaN), City (1 None)",
+        "sampleOutput": "Missing values report, filled DataFrame, verification",
+        "constraints": "Handle numerical and categorical columns differently.",
+        "solution": "import pandas as pd\nimport numpy as np\n\ndf = pd.DataFrame({\n    'Name': ['Aarav', 'Priya', 'Rohan', 'Ananya', 'Vikram'],\n    'Age': [25, np.nan, 30, np.nan, 28],\n    'Salary': [50000, 60000, np.nan, 70000, 55000],\n    'City': ['Delhi', None, 'Mumbai', 'Pune', None]\n})\n\nprint('Before cleaning:')\nprint(df)\nprint(f'\\nMissing values:\\n{df.isnull().sum()}')\n\nfor col in df.select_dtypes(include='number').columns:\n    df[col] = df[col].fillna(df[col].median())\n\nfor col in df.select_dtypes(include='object').columns:\n    df[col] = df[col].fillna(df[col].mode()[0])\n\nprint('\\nAfter cleaning:')\nprint(df)\nprint(f'\\nMissing values remaining: {df.isnull().sum().sum()}')"
+      },
+      {
+        "id": "cc-4",
+        "title": "Data Visualization Dashboard",
+        "difficulty": "Hard",
+        "description": "Generate synthetic data for 200 students with: hours_studied (1-10), attendance_pct (40-100), and marks (correlated with hours). Create a 2x2 dashboard with: (1) histogram of marks, (2) scatter plot of hours vs marks, (3) bar chart of average marks by attendance category (Low/Medium/High), (4) box plot of marks. Save as 'dashboard.png'.",
+        "sampleInput": "np.random.seed(42), 200 synthetic student records",
+        "sampleOutput": "dashboard.png saved with 4 subplots",
+        "constraints": "Use NumPy for data generation, Pandas for manipulation, Matplotlib for plotting.",
+        "solution": "import numpy as np\nimport pandas as pd\nimport matplotlib\nmatplotlib.use('Agg')\nimport matplotlib.pyplot as plt\n\nnp.random.seed(42)\nn = 200\nhours = np.random.uniform(1, 10, n)\nattendance = np.random.uniform(40, 100, n)\nmarks = 30 + 5 * hours + np.random.normal(0, 8, n)\nmarks = np.clip(marks, 0, 100)\n\ndf = pd.DataFrame({'Hours': hours.round(1), 'Attendance': attendance.round(1), 'Marks': marks.round(1)})\ndf['Att_Category'] = pd.cut(df['Attendance'], bins=[0, 60, 80, 100], labels=['Low', 'Medium', 'High'])\n\nfig, axes = plt.subplots(2, 2, figsize=(14, 10))\nfig.suptitle('Student Performance Dashboard', fontsize=16)\n\naxes[0][0].hist(df['Marks'], bins=20, color='#a855f7', edgecolor='black')\naxes[0][0].set_title('Marks Distribution')\naxes[0][0].set_xlabel('Marks')\n\naxes[0][1].scatter(df['Hours'], df['Marks'], alpha=0.5, c='#06b6d4', s=30)\naxes[0][1].set_title('Study Hours vs Marks')\naxes[0][1].set_xlabel('Hours Studied')\naxes[0][1].set_ylabel('Marks')\n\navg_by_att = df.groupby('Att_Category')['Marks'].mean()\naxes[1][0].bar(avg_by_att.index.astype(str), avg_by_att.values, color=['#ef4444', '#f59e0b', '#22c55e'])\naxes[1][0].set_title('Avg Marks by Attendance')\n\naxes[1][1].boxplot(df['Marks'])\naxes[1][1].set_title('Marks Box Plot')\n\nplt.tight_layout()\nplt.savefig('dashboard.png', dpi=100)\nprint('Dashboard saved as dashboard.png')"
+      },
+      {
+        "id": "cc-5",
+        "title": "Matrix Operations for ML",
+        "difficulty": "Hard",
+        "description": "Implement the following using NumPy: (1) Create a 3x3 matrix A and a 3x1 vector b. (2) Compute A transposed. (3) Compute A @ b (matrix-vector multiplication). (4) Compute the inverse of A using np.linalg.inv(). (5) Verify that A @ A_inv equals the identity matrix (use np.allclose).",
+        "sampleInput": "A = [[2, 1, 0], [1, 3, 1], [0, 1, 2]], b = [[1], [2], [3]]",
+        "sampleOutput": "Transpose, product, inverse, and identity verification",
+        "constraints": "Use NumPy's linalg module. Round results to 2 decimal places.",
+        "solution": "import numpy as np\n\nA = np.array([[2, 1, 0], [1, 3, 1], [0, 1, 2]])\nb = np.array([[1], [2], [3]])\n\nprint('Matrix A:\\n', A)\nprint('\\nA transposed:\\n', A.T)\nprint('\\nA @ b:\\n', A @ b)\n\nA_inv = np.linalg.inv(A)\nprint('\\nA inverse:\\n', np.round(A_inv, 2))\n\nidentity = A @ A_inv\nprint('\\nA @ A_inv:\\n', np.round(identity, 2))\nprint('\\nIs identity matrix?', np.allclose(identity, np.eye(3)))"
+      },
+      {
+        "id": "cc-6",
+        "title": "Complete Data Analysis: CSV-like Data Pipeline",
+        "difficulty": "Hard",
+        "description": "Simulate reading a dataset: create a DataFrame with 50 employee records (Name, Department, Salary with some NaN, Experience). Perform a complete analysis: (1) show shape and info, (2) handle missing salaries with department-wise median, (3) add 'Salary_Level' column (Low/Medium/High), (4) groupby department and show average salary and count, (5) find the top 3 highest-paid employees.",
+        "sampleInput": "50 synthetic employee records with some missing salaries",
+        "sampleOutput": "Complete analysis report with cleaned data and insights",
+        "constraints": "Use Pandas for all operations. Make the output readable.",
+        "solution": "import pandas as pd\nimport numpy as np\n\nnp.random.seed(42)\nn = 50\ndepts = np.random.choice(['Engineering', 'Marketing', 'Sales', 'HR'], n)\nsalaries = np.where(depts == 'Engineering', np.random.normal(90000, 15000, n),\n           np.where(depts == 'Marketing', np.random.normal(70000, 10000, n),\n           np.where(depts == 'Sales', np.random.normal(60000, 12000, n),\n           np.random.normal(55000, 8000, n))))\n\ndf = pd.DataFrame({\n    'Name': [f'Employee_{i}' for i in range(1, n+1)],\n    'Department': depts,\n    'Salary': salaries.round(0),\n    'Experience': np.random.randint(1, 20, n)\n})\ndf.loc[np.random.choice(n, 8, replace=False), 'Salary'] = np.nan\n\nprint(f'Shape: {df.shape}')\nprint(f'Missing salaries: {df[\"Salary\"].isnull().sum()}')\n\ndf['Salary'] = df.groupby('Department')['Salary'].transform(lambda x: x.fillna(x.median()))\nprint(f'Missing after fill: {df[\"Salary\"].isnull().sum()}')\n\ndf['Salary_Level'] = pd.cut(df['Salary'], bins=[0, 55000, 80000, float('inf')], labels=['Low', 'Medium', 'High'])\n\nprint('\\nDepartment Summary:')\nprint(df.groupby('Department').agg(\n    Avg_Salary=('Salary', 'mean'),\n    Count=('Salary', 'count')\n).round(0))\n\nprint('\\nTop 3 Highest Paid:')\nprint(df.nlargest(3, 'Salary')[['Name', 'Department', 'Salary']].to_string(index=False))"
+      }
+    ]
+  }
+}

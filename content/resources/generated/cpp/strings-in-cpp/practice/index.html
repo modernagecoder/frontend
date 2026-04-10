@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Strings - C-style and std::string | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="56+ practice questions on Strings - C-style and std::string in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="strings - c-style and std::string practice, c++ questions, c++ practice problems, strings - c-style and std::string exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/strings-in-cpp/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/strings-in-cpp/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/strings-in-cpp/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/strings-in-cpp/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/strings-in-cpp/practice">
+    <meta property="og:title" content="Practice Questions - Strings - C-style and std::string | C++ | Modern Age Coders">
+    <meta property="og:description" content="56+ practice questions on Strings - C-style and std::string in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/strings-in-cpp/practice">
+    <meta name="twitter:title" content="Practice Questions - Strings - C-style and std::string | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="56+ practice questions on Strings - C-style and std::string in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Strings - C-style and std::string",
+    "description": "56+ practice questions on Strings - C-style and std::string in C++.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Strings - C-style and std::string"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/strings-in-cpp/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Strings - C-style and std::string",
+        "item": "https://learn.modernagecoders.com/resources/cpp/strings-in-cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/strings-in-cpp/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/strings-in-cpp">Strings - C-style and std::string</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 10</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">56 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Strings - C-style and std::string</h1>
+            <a href="/resources/cpp/strings-in-cpp" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;cstring&gt;
+using namespace std;
+int main() {
+    char s[] = "Hello";
+    cout &lt;&lt; strlen(s) &lt;&lt; endl;
+    cout &lt;&lt; sizeof(s) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">strlen counts characters before \0. sizeof counts total bytes including \0.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>5</code><br><code>6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "Hello";
+    cout &lt;&lt; s.length() &lt;&lt; endl;
+    cout &lt;&lt; s[1] &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">length() returns character count. Indexing is 0-based.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>5</code><br><code>e</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string a = "Hello";
+    string b = " World";
+    string c = a + b;
+    cout &lt;&lt; c &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">The + operator concatenates strings.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>Hello World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "Hello, World!";
+    cout &lt;&lt; s.substr(7, 5) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">substr(start_pos, length) extracts a substring.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "abcdefgh";
+    size_t pos = s.find("cde");
+    cout &lt;&lt; pos &lt;&lt; endl;
+    pos = s.find("xyz");
+    cout &lt;&lt; (pos == string::npos ? "Not found" : "Found") &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">find returns the starting index, or string::npos if not found.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>2</code><br><code>Not found</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "Hello";
+    s.insert(5, " World");
+    cout &lt;&lt; s &lt;&lt; endl;
+    s.erase(5, 6);
+    cout &lt;&lt; s &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">insert adds at position. erase removes from position.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Hello World</code><br><code>Hello</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    int n = 42;
+    string s = "Value: " + to_string(n);
+    cout &lt;&lt; s &lt;&lt; endl;
+    string num = "123";
+    cout &lt;&lt; stoi(num) + 7 &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">to_string converts number to string. stoi converts string to int.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Value: 42</code><br><code>130</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;cstring&gt;
+using namespace std;
+int main() {
+    char s1[] = "hello";
+    char s2[] = "hello";
+    if (s1 == s2) cout &lt;&lt; "Equal" &lt;&lt; endl;
+    else cout &lt;&lt; "Not equal" &lt;&lt; endl;
+    if (strcmp(s1, s2) == 0) cout &lt;&lt; "Content equal" &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">== compares addresses for C-strings. strcmp compares content.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Not equal</code><br><code>Content equal</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between <code>strlen(s)</code> and <code>sizeof(s)</code> for the C-string <code>char s[] = "Hello";</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">One counts characters, the other counts bytes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>strlen(s)</code> returns 5 -- the number of characters before the null terminator. <code>sizeof(s)</code> returns 6 -- the total size of the array including the null terminator <code>'\0'</code>. <code>strlen</code> is O(n) (scans until <code>'\0'</code>). <code>sizeof</code> is a compile-time constant.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is <code>string::npos</code> and when is it returned?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">It is the return value of find() when the substring is not found.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>string::npos</code> is a constant of type <code>size_t</code> with the maximum possible value (typically 18446744073709551615 on 64-bit). It is returned by <code>find()</code>, <code>rfind()</code>, and similar functions when the search string is not found. Always compare with <code>string::npos</code>, not with -1.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+int main() {
+    string s = "abcba";
+    string rev = s;
+    reverse(rev.begin(), rev.end());
+    cout &lt;&lt; (s == rev ? "Palindrome" : "Not") &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Reverse the string and compare with the original.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>Palindrome</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "Hello World";
+    s.replace(s.find("World"), 5, "C++");
+    cout &lt;&lt; s &lt;&lt; endl;
+    cout &lt;&lt; s.length() &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">find returns 6. replace(6, 5, "C++") replaces 5 chars with 3 chars.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Hello C++</code><br><code>9</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string a = "apple";
+    string b = "banana";
+    cout &lt;&lt; (a &lt; b) &lt;&lt; endl;
+    cout &lt;&lt; (a &gt; b) &lt;&lt; endl;
+    cout &lt;&lt; (a == "apple") &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">String comparison is lexicographic (dictionary order).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>1</code><br><code>0</code><br><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is the frequency array approach O(n) for anagram checking while the sorting approach is O(n log n)?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Think about what each approach does.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14">The frequency array approach iterates through each string once (O(n) each) and then checks 26 counts (O(1)). Total: O(n). The sorting approach sorts both strings (O(n log n) each) and then compares them (O(n)). Total: O(n log n). The frequency array is faster but only works for lowercase letters. For Unicode, sorting may be simpler.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "Hello";
+    s += " World";
+    s.append("!");
+    cout &lt;&lt; s &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">+= and append both concatenate to the end.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>Hello World!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "HELLO";
+    for (char &amp;c : s) {
+        c = c + 32;
+    }
+    cout &lt;&lt; s &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Adding 32 to an uppercase ASCII letter gives the lowercase version.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>hello</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "aababcabc";
+    int count = 0;
+    size_t pos = 0;
+    while ((pos = s.find("ab", pos)) != string::npos) {
+        count++;
+        pos++;  // Move past this match
+    }
+    cout &lt;&lt; count &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Count all occurrences of "ab" including overlapping ones.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "Hello";
+    s[0] = 'J';
+    cout &lt;&lt; s &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">std::string characters can be modified by index.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>Jello</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "12345";
+    int sum = 0;
+    for (char c : s) {
+        sum += c - '0';
+    }
+    cout &lt;&lt; sum &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">c - '0' converts a digit character to its integer value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is <code>strcpy</code> considered dangerous and what is the alternative?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Think about what happens when the source is longer than the destination.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>strcpy</code> copies characters until it finds <code>'\0'</code> with no bounds checking. If the source is longer than the destination buffer, it writes past the buffer boundary (buffer overflow). Alternatives: <code>strncpy</code> (copies at most n characters), or better yet, use <code>std::string</code> which manages memory automatically.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "Hello";
+    cout &lt;&lt; s[0] &lt;&lt; s[4] &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">s[0] is the first character, s[4] is the last.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>Ho</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;cstring&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; strcmp("abc", "abc") &lt;&lt; endl;
+    cout &lt;&lt; strcmp("abc", "abd") &lt;&lt; endl;
+    cout &lt;&lt; strcmp("abd", "abc") &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">strcmp returns 0, negative, or positive.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>0</code><br><code>-1</code><br><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "Hello World";
+    int count = 0;
+    for (char c : s) {
+        if (c == 'l') count++;
+    }
+    cout &lt;&lt; count &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Count how many 'l' characters are in "Hello World".</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a program that reads a string and prints it reversed without using any library reverse function.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Use a loop from the last index to 0.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s;
+    getline(cin, s);
+    for (int i = s.length() - 1; i &gt;= 0; i--) {
+        cout &lt;&lt; s[i];
+    }
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre>
+Input: Hello
+Output: olleH</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "123";
+    int n = stoi(s);
+    n *= 2;
+    s = to_string(n);
+    cout &lt;&lt; s &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Convert to int, double it, convert back to string.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>246</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "abcdef";
+    s.erase(2, 3);  // Remove 3 chars starting at index 2
+    cout &lt;&lt; s &lt;&lt; endl;
+    cout &lt;&lt; s.length() &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">erase(2, 3) removes characters at indices 2, 3, 4.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>abf</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a function that checks if a given string is a palindrome (ignoring case).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Convert to lowercase first, then use two-pointer comparison.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+#include &lt;cctype&gt;
+using namespace std;
+bool isPalindrome(string s) {
+    for (char &amp;c : s) c = tolower(c);
+    int l = 0, r = s.length() - 1;
+    while (l &lt; r) {
+        if (s[l] != s[r]) return false;
+        l++; r--;
+    }
+    return true;
+}
+int main() {
+    cout &lt;&lt; isPalindrome("Racecar") &lt;&lt; endl;  // 1
+    cout &lt;&lt; isPalindrome("Hello") &lt;&lt; endl;    // 0
+    cout &lt;&lt; isPalindrome("Madam") &lt;&lt; endl;    // 1
+    return 0;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "aaabbbccc";
+    int freq[26] = {0};
+    for (char c : s) freq[c - 'a']++;
+    for (int i = 0; i &lt; 26; i++) {
+        if (freq[i] &gt; 0) {
+            cout &lt;&lt; (char)('a' + i) &lt;&lt; ":" &lt;&lt; freq[i] &lt;&lt; " ";
+        }
+    }
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Build a frequency array and print characters with non-zero counts.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>a:3 b:3 c:3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a function that takes two strings and checks if they are anagrams using a frequency array.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Increment for string 1, decrement for string 2. All counts should be 0.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+bool isAnagram(string a, string b) {
+    if (a.length() != b.length()) return false;
+    int freq[26] = {0};
+    for (char c : a) freq[c - 'a']++;
+    for (char c : b) freq[c - 'a']--;
+    for (int i = 0; i &lt; 26; i++)
+        if (freq[i] != 0) return false;
+    return true;
+}
+int main() {
+    cout &lt;&lt; isAnagram("listen", "silent") &lt;&lt; endl;  // 1
+    cout &lt;&lt; isAnagram("hello", "world") &lt;&lt; endl;   // 0
+    return 0;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "the quick brown fox";
+    int words = 1;
+    for (char c : s) {
+        if (c == ' ') words++;
+    }
+    cout &lt;&lt; words &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Count spaces + 1 = number of words (assuming single spaces, no leading/trailing spaces).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "C++ Programming";
+    cout &lt;&lt; s.substr(0, 3) &lt;&lt; endl;
+    cout &lt;&lt; s.substr(4) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">substr(0, 3) gets first 3 chars. substr(4) gets from index 4 to end.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>C++</code><br><code>Programming</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = "Hello";
+    cout &lt;&lt; s.empty() &lt;&lt; endl;
+    s = "";
+    cout &lt;&lt; s.empty() &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">empty() returns true (1) if the string has 0 characters.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>0</code><br><code>1</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which header is needed for <code>strlen</code>, <code>strcpy</code>, <code>strcmp</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;string&gt;</li><li><span class="mcq-option-label">B.</span> &lt;cstring&gt;</li><li><span class="mcq-option-label">C.</span> &lt;iostream&gt;</li><li><span class="mcq-option-label">D.</span> &lt;cstdlib&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>&lt;cstring&gt;</code> provides C-string functions: <code>strlen</code>, <code>strcpy</code>, <code>strcat</code>, <code>strcmp</code>. <code>&lt;string&gt;</code> provides the <code>std::string</code> class.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What is the null terminator character in C-strings?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &#39;0&#39;</li><li><span class="mcq-option-label">B.</span> NULL</li><li><span class="mcq-option-label">C.</span> &#39;\0&#39;</li><li><span class="mcq-option-label">D.</span> &#39;\n&#39;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>'\0'</code> (ASCII 0) marks the end of a C-string. <code>'0'</code> is the digit zero (ASCII 48). <code>'\n'</code> is newline.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does <code>s.length()</code> return for <code>string s = "Hello";</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 4</li><li><span class="mcq-option-label">B.</span> 5</li><li><span class="mcq-option-label">C.</span> 6</li><li><span class="mcq-option-label">D.</span> Depends on the compiler</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>length()</code> returns the number of characters in the string: 5 for "Hello". Unlike C-strings, <code>std::string</code> does not count any null terminator in its length.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">How do you concatenate two <code>std::string</code> objects?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> strcat(s1, s2)</li><li><span class="mcq-option-label">B.</span> s1.concat(s2)</li><li><span class="mcq-option-label">C.</span> s1 + s2 or s1 += s2</li><li><span class="mcq-option-label">D.</span> s1.add(s2)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>std::string</code> overloads the <code>+</code> and <code>+=</code> operators for concatenation. <code>strcat</code> is for C-strings only. There is no <code>concat</code> or <code>add</code> method.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does <code>strcmp</code> return when two strings are equal?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1</li><li><span class="mcq-option-label">B.</span> -1</li><li><span class="mcq-option-label">C.</span> 0</li><li><span class="mcq-option-label">D.</span> true</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>strcmp</code> returns 0 when strings are equal, a negative value when the first is less, and a positive value when the first is greater.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does <code>string::find</code> return when the substring is not found?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> -1</li><li><span class="mcq-option-label">B.</span> 0</li><li><span class="mcq-option-label">C.</span> string::npos</li><li><span class="mcq-option-label">D.</span> NULL</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>find</code> returns <code>string::npos</code> (the maximum <code>size_t</code> value) when the substring is not found. Comparing with -1 works but <code>string::npos</code> is the correct idiom.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is the time complexity of <code>strlen()</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(1)</li><li><span class="mcq-option-label">B.</span> O(n)</li><li><span class="mcq-option-label">C.</span> O(log n)</li><li><span class="mcq-option-label">D.</span> O(n^2)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>strlen</code> scans from the beginning until it finds <code>'\0'</code>, making it O(n). In contrast, <code>std::string::length()</code> is O(1) because the length is stored internally.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What does <code>stoi("42abc")</code> return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> 42</li><li><span class="mcq-option-label">C.</span> Throws an exception</li><li><span class="mcq-option-label">D.</span> 42abc</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>stoi</code> reads as many characters as possible that form a valid integer: "42". The remaining "abc" is ignored. It returns 42. It would throw <code>invalid_argument</code> only if the string starts with a non-numeric character.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which approach is faster for anagram checking: sorting or frequency array?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Sorting: O(n) vs frequency array: O(n log n)</li><li><span class="mcq-option-label">B.</span> Both are O(n)</li><li><span class="mcq-option-label">C.</span> Frequency array: O(n) vs sorting: O(n log n)</li><li><span class="mcq-option-label">D.</span> Both are O(n^2)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> The frequency array approach iterates each string once: O(n). Sorting both strings is O(n log n). The frequency array is faster for lowercase-only strings (fixed 26-element array).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What does <code>char* s = "Hello";</code> vs <code>char s[] = "Hello";</code> differ in?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No difference</li><li><span class="mcq-option-label">B.</span> char* points to read-only memory; char[] is a writable copy</li><li><span class="mcq-option-label">C.</span> char[] is read-only; char* is writable</li><li><span class="mcq-option-label">D.</span> char* is faster</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>char* s = "Hello"</code> makes s point to a string literal in read-only memory (modifying it is undefined behavior). <code>char s[] = "Hello"</code> creates a writable copy in local memory.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the output of <code>cout << string("abc") + string("def");</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Compilation error</li><li><span class="mcq-option-label">B.</span> abcdef</li><li><span class="mcq-option-label">C.</span> abc def</li><li><span class="mcq-option-label">D.</span> abc+def</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>+</code> operator for <code>std::string</code> concatenates without any separator. "abc" + "def" = "abcdef".</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What does <code>c_str()</code> return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A std::string</li><li><span class="mcq-option-label">B.</span> A char array</li><li><span class="mcq-option-label">C.</span> A const char* (null-terminated C-string)</li><li><span class="mcq-option-label">D.</span> An integer</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>c_str()</code> returns a <code>const char*</code> pointing to a null-terminated C-string representation of the <code>std::string</code>. It is used when C APIs require a <code>char*</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the output of <code>string s = "abc"; cout << s + "def";</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> abcdef</li><li><span class="mcq-option-label">B.</span> abc def</li><li><span class="mcq-option-label">C.</span> Compilation error</li><li><span class="mcq-option-label">D.</span> abc+def</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: A</strong><br><strong>A is correct.</strong> The <code>+</code> operator concatenates std::string with a C-string literal. "abc" + "def" = "abcdef" with no separator.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does <code>s.substr(3)</code> return if <code>s = "HelloWorld"</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Hel</li><li><span class="mcq-option-label">B.</span> loWorld</li><li><span class="mcq-option-label">C.</span> Hel</li><li><span class="mcq-option-label">D.</span> World</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>substr(3)</code> with one argument returns everything from index 3 to the end. For "HelloWorld", characters from index 3 onward are "loWorld".</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does <code>stoi("abc")</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Returns 0</li><li><span class="mcq-option-label">B.</span> Returns -1</li><li><span class="mcq-option-label">C.</span> Throws invalid_argument exception</li><li><span class="mcq-option-label">D.</span> Returns the ASCII sum</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>stoi</code> throws <code>std::invalid_argument</code> when the string does not start with a valid integer representation. "abc" has no leading digits.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the correct way to read a full line of text including spaces?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> cin &gt;&gt; s</li><li><span class="mcq-option-label">B.</span> getline(cin, s)</li><li><span class="mcq-option-label">C.</span> cin.read(s)</li><li><span class="mcq-option-label">D.</span> scanf(&quot;%s&quot;, s)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>getline(cin, s)</code> reads the entire line including spaces. <code>cin >> s</code> stops at the first whitespace character.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Which is more efficient for checking string equality: sorting both then comparing, or using a frequency array?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Sorting: O(n) vs frequency: O(n log n)</li><li><span class="mcq-option-label">B.</span> Both are O(n)</li><li><span class="mcq-option-label">C.</span> Frequency array: O(n) vs sorting: O(n log n)</li><li><span class="mcq-option-label">D.</span> Both are O(n^2)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> Building a frequency array takes O(n). Sorting takes O(n log n). For anagram checking with lowercase letters, the frequency approach is asymptotically faster.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What does <code>to_string(3.14)</code> return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;3.14&quot;</li><li><span class="mcq-option-label">B.</span> &quot;3.140000&quot; (with many decimal places)</li><li><span class="mcq-option-label">C.</span> &quot;3&quot;</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>to_string</code> for floating-point numbers uses a default format with 6 decimal places, producing something like "3.140000". For controlled formatting, use stringstream with setprecision.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Count Vowels and Consonants</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Read a string (may contain spaces) and count the number of vowels (a, e, i, o, u -- case-insensitive) and consonants. Ignore non-alphabetic characters.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Hello World</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Vowels: 3
+Consonants: 7</div>
+                </div><div class="challenge-constraints">Use tolower() or char arithmetic for case conversion. Use isalpha() to filter.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+#include &lt;cctype&gt;
+using namespace std;
+int main() {
+    string s;
+    getline(cin, s);
+    int vowels = 0, consonants = 0;
+    for (char c : s) {
+        c = tolower(c);
+        if (isalpha(c)) {
+            if (c == &#39;a&#39; || c == &#39;e&#39; || c == &#39;i&#39; || c == &#39;o&#39; || c == &#39;u&#39;)
+                vowels++;
+            else
+                consonants++;
+        }
+    }
+    cout &lt;&lt; &quot;Vowels: &quot; &lt;&lt; vowels &lt;&lt; endl;
+    cout &lt;&lt; &quot;Consonants: &quot; &lt;&lt; consonants &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: First Non-Repeating Character</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given a string, find the first character that does not repeat. Print the character and its index. If all characters repeat, print 'None'.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">aabbcdd</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">First non-repeating: c at index 4</div>
+                </div><div class="challenge-constraints">Use a frequency array. Single pass to count, second pass to find first with count 1.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s;
+    getline(cin, s);
+    int freq[256] = {0};
+    for (char c : s) freq[(int)c]++;
+    for (int i = 0; i &lt; (int)s.length(); i++) {
+        if (freq[(int)s[i]] == 1) {
+            cout &lt;&lt; &quot;First non-repeating: &quot; &lt;&lt; s[i] &lt;&lt; &quot; at index &quot; &lt;&lt; i &lt;&lt; endl;
+            return 0;
+        }
+    }
+    cout &lt;&lt; &quot;None&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Remove All Occurrences of a Character</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Read a string and a character. Remove all occurrences of that character from the string. Print the resulting string and its length.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">programming
+m</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Result: prograing
+Length: 9</div>
+                </div><div class="challenge-constraints">Use erase and find in a loop, or build a new string. Do NOT use any external library.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s;
+    char ch;
+    getline(cin, s);
+    cin &gt;&gt; ch;
+    string result = &quot;&quot;;
+    for (char c : s) {
+        if (c != ch) result += c;
+    }
+    cout &lt;&lt; &quot;Result: &quot; &lt;&lt; result &lt;&lt; endl;
+    cout &lt;&lt; &quot;Length: &quot; &lt;&lt; result.length() &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Word Reverser</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Read a sentence and reverse the order of words. Do not reverse individual characters within words. Example: 'hello world' becomes 'world hello'.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">I love competitive programming</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">programming competitive love I</div>
+                </div><div class="challenge-constraints">Handle multiple spaces between words. Use string operations.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+#include &lt;vector&gt;
+using namespace std;
+int main() {
+    string s;
+    getline(cin, s);
+    vector&lt;string&gt; words;
+    string word = &quot;&quot;;
+    for (int i = 0; i &lt;= (int)s.length(); i++) {
+        if (i == (int)s.length() || s[i] == &#39; &#39;) {
+            if (!word.empty()) {
+                words.push_back(word);
+                word = &quot;&quot;;
+            }
+        } else {
+            word += s[i];
+        }
+    }
+    for (int i = words.size() - 1; i &gt;= 0; i--) {
+        cout &lt;&lt; words[i];
+        if (i &gt; 0) cout &lt;&lt; &quot; &quot;;
+    }
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Longest Palindromic Substring (Brute Force)</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given a string, find and print the longest substring that is a palindrome. If there are multiple of the same length, print the first one found.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">babad</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">bab</div>
+                </div><div class="challenge-constraints">O(n^3) brute force is acceptable. Check all substrings and verify palindrome.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+bool isPalindrome(string s) {
+    int l = 0, r = s.length() - 1;
+    while (l &lt; r) {
+        if (s[l] != s[r]) return false;
+        l++; r--;
+    }
+    return true;
+}
+int main() {
+    string s;
+    cin &gt;&gt; s;
+    string longest = &quot;&quot;;
+    for (int i = 0; i &lt; (int)s.length(); i++) {
+        for (int len = 1; len &lt;= (int)s.length() - i; len++) {
+            string sub = s.substr(i, len);
+            if (isPalindrome(sub) &amp;&amp; (int)sub.length() &gt; (int)longest.length()) {
+                longest = sub;
+            }
+        }
+    }
+    cout &lt;&lt; longest &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: String Compression (Run-Length Encoding)</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Implement basic string compression using run-length encoding. Consecutive duplicate characters are replaced with the character followed by the count. If the compressed string is not shorter, return the original.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">aabcccccaaa</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">a2b1c5a3</div>
+                </div><div class="challenge-constraints">Single pass. Handle edge cases: empty string, single character, no repeats.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s;
+    cin &gt;&gt; s;
+    if (s.empty()) {
+        cout &lt;&lt; s &lt;&lt; endl;
+        return 0;
+    }
+    string compressed = &quot;&quot;;
+    int count = 1;
+    for (int i = 1; i &lt;= (int)s.length(); i++) {
+        if (i &lt; (int)s.length() &amp;&amp; s[i] == s[i - 1]) {
+            count++;
+        } else {
+            compressed += s[i - 1];
+            compressed += to_string(count);
+            count = 1;
+        }
+    }
+    if ((int)compressed.length() &gt;= (int)s.length()) {
+        cout &lt;&lt; s &lt;&lt; endl;
+    } else {
+        cout &lt;&lt; compressed &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/arrays-in-cpp/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Arrays and Multidimensional Arrays</span>
+        </a>
+            <a href="/resources/cpp/pointers-in-cpp/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Pointers and References</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/strings-in-cpp" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

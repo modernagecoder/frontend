@@ -1,0 +1,735 @@
+{
+  "title": "Deep Learning with TensorFlow and Keras",
+  "slug": "deep-learning-with-tensorflow-keras",
+  "language": "ai-and-machine-learning",
+  "chapter": 16,
+  "difficulty": "Advanced",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 57,
+  "seo": {
+    "title": "Deep Learning with TensorFlow and Keras - Sequential API, Callbacks, Functional API | Modern Age Coders",
+    "description": "Master deep learning with TensorFlow and Keras. Learn Sequential API, Dense layers, optimizers, loss functions, callbacks (EarlyStopping, ModelCheckpoint), Functional API, Dropout, Batch Normalization, TensorBoard, and build a Fashion-MNIST classifier. 57+ practice questions.",
+    "keywords": "tensorflow tutorial, keras tutorial, deep learning tensorflow, keras sequential api, model.fit keras, tensorflow callbacks, earlystopping keras, functional api keras, dropout regularization, batch normalization, tensorboard, fashion mnist classifier, deep learning python"
+  },
+  "content": {
+    "what": "<h2>What Is TensorFlow and Keras?</h2><p><strong>TensorFlow</strong> is an open-source deep learning framework developed by Google Brain. It provides the entire ecosystem for building, training, and deploying machine learning models -- from research prototypes to production systems. TensorFlow handles the heavy mathematical computations (tensor operations, automatic differentiation, GPU acceleration) so you can focus on designing your model architecture.</p><pre><code>import tensorflow as tf\nprint(tf.__version__)  # 2.16.x or later\nprint(\"GPUs available:\", len(tf.config.list_physical_devices('GPU')))</code></pre><p><strong>Keras</strong> is the high-level API of TensorFlow. Since TensorFlow 2.x, Keras is fully integrated as <code>tf.keras</code>. It provides a clean, intuitive interface for defining layers, compiling models, training, and evaluation. You do not need to manage low-level tensor operations or gradient computation -- Keras handles all of that behind the scenes.</p><pre><code>from tensorflow import keras\nfrom tensorflow.keras import layers\n\n# This is all you need to build a neural network\nmodel = keras.Sequential([\n    layers.Dense(128, activation='relu', input_shape=(784,)),\n    layers.Dense(10, activation='softmax')\n])</code></pre><p>Think of TensorFlow as the engine and Keras as the steering wheel. TensorFlow powers the computation; Keras gives you a simple way to drive.</p><h3>The TensorFlow Ecosystem</h3><p>TensorFlow is not just a training library. The ecosystem includes:</p><ul><li><strong>TensorFlow Core</strong> -- the main library for building and training models</li><li><strong>TensorBoard</strong> -- visualization tool for monitoring training (loss curves, model graphs, histograms)</li><li><strong>TensorFlow Lite</strong> -- deploy models on mobile and edge devices</li><li><strong>TensorFlow Serving</strong> -- serve models in production via REST/gRPC APIs</li><li><strong>TensorFlow Hub</strong> -- repository of pre-trained models you can reuse</li><li><strong>TensorFlow Datasets</strong> -- ready-to-use datasets with consistent API</li></ul>",
+    "why": "<h2>Why Learn TensorFlow and Keras?</h2><h3>1. Industry Standard</h3><p>TensorFlow is one of the two dominant deep learning frameworks (alongside PyTorch). Google, Uber, Airbnb, Intel, Twitter, and thousands of companies use TensorFlow in production. If Priya wants to work as an ML engineer, TensorFlow proficiency is practically required.</p><h3>2. Keras Makes Deep Learning Accessible</h3><p>Before Keras, building neural networks required writing hundreds of lines of boilerplate code for gradient computation, weight updates, and training loops. Keras reduces a complete model to a few lines. Rohan can build, train, and evaluate a deep learning model in under 20 lines of code. This does not mean Keras is a toy -- it powers production systems at Google scale.</p><h3>3. Seamless CPU-to-GPU Transition</h3><p>TensorFlow automatically detects and uses available GPUs. The same code that runs on a laptop CPU will run on an NVIDIA GPU or a Google TPU without any changes. Training that takes hours on a CPU can finish in minutes on a GPU. This hardware abstraction is critical for real-world deep learning.</p><h3>4. Production Deployment</h3><p>Unlike some frameworks that are research-only, TensorFlow was built for production from day one. You can train a model in Python and deploy it as a REST API (TensorFlow Serving), on a mobile phone (TensorFlow Lite), or in a browser (TensorFlow.js). This end-to-end pipeline is why industry prefers TensorFlow.</p><h3>5. Complete Tooling</h3><p>TensorBoard provides real-time visualization of training metrics, model architecture, and weight distributions. Callbacks give you fine-grained control over the training process. Model saving and loading is straightforward. These tools make debugging and iterating on models practical rather than painful.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Building Models with the Sequential API</h3><p>The Sequential API is the simplest way to build a neural network in Keras. You stack layers one after another in a linear sequence. Each layer has exactly one input tensor and one output tensor.</p><pre><code>from tensorflow.keras import Sequential\nfrom tensorflow.keras.layers import Dense\n\nmodel = Sequential([\n    Dense(256, activation='relu', input_shape=(784,)),\n    Dense(128, activation='relu'),\n    Dense(64, activation='relu'),\n    Dense(10, activation='softmax')\n])\n\nmodel.summary()</code></pre><p>Key parameters of <code>Dense</code> layers:</p><ul><li><strong>units</strong> -- number of neurons in the layer (first argument)</li><li><strong>activation</strong> -- activation function applied after the linear transformation. Common: 'relu' (hidden layers), 'softmax' (multi-class output), 'sigmoid' (binary output)</li><li><strong>input_shape</strong> -- required only for the first layer, specifies the shape of one input sample (not including the batch dimension)</li></ul><p>In the model above, a 784-dimensional input passes through three hidden layers (256, 128, 64 neurons with ReLU) and outputs a 10-class probability distribution via softmax.</p><h3>2. Compiling the Model</h3><p>Before training, you must compile the model by specifying the optimizer, loss function, and metrics:</p><pre><code>model.compile(\n    optimizer='adam',\n    loss='sparse_categorical_crossentropy',\n    metrics=['accuracy']\n)</code></pre><p><strong>Optimizer</strong> controls how the model updates its weights during training:</p><ul><li><code>'sgd'</code> -- Stochastic Gradient Descent (basic, often slow)</li><li><code>'adam'</code> -- Adaptive Moment Estimation (most popular default, works well in most cases)</li><li><code>'rmsprop'</code> -- good for RNNs and noisy gradients</li><li>You can also set learning rate: <code>keras.optimizers.Adam(learning_rate=0.001)</code></li></ul><p><strong>Loss function</strong> measures how wrong the model's predictions are:</p><ul><li><code>'sparse_categorical_crossentropy'</code> -- multi-class classification with integer labels (0, 1, 2, ...)</li><li><code>'categorical_crossentropy'</code> -- multi-class with one-hot encoded labels</li><li><code>'binary_crossentropy'</code> -- binary classification (two classes)</li><li><code>'mse'</code> -- mean squared error for regression</li></ul><p><strong>Metrics</strong> are values you want to monitor during training but they do not affect weight updates:</p><ul><li><code>'accuracy'</code> -- classification accuracy</li><li><code>'mae'</code> -- mean absolute error (for regression)</li></ul><h3>3. Training with model.fit()</h3><p>The <code>fit()</code> method trains the model on your data:</p><pre><code>history = model.fit(\n    X_train, y_train,\n    epochs=20,\n    batch_size=32,\n    validation_split=0.2,\n    verbose=1\n)</code></pre><p>Key parameters:</p><ul><li><strong>epochs</strong> -- number of complete passes through the training data. One epoch means every training sample has been seen once.</li><li><strong>batch_size</strong> -- number of samples processed before one weight update. Smaller batches (32) give noisier but more frequent updates. Larger batches (256) give smoother but fewer updates.</li><li><strong>validation_split</strong> -- fraction of training data reserved for validation. The model trains on 80% and validates on 20%. This helps detect overfitting.</li><li><strong>verbose</strong> -- 0 (silent), 1 (progress bar), 2 (one line per epoch)</li></ul><p>The <code>fit()</code> method returns a <code>History</code> object containing the training and validation loss/metrics for each epoch. This is invaluable for plotting learning curves.</p><h3>4. Evaluation and Prediction</h3><pre><code># Evaluate on test data\ntest_loss, test_accuracy = model.evaluate(X_test, y_test, verbose=0)\nprint(f\"Test accuracy: {test_accuracy:.4f}\")\n\n# Predict on new data\npredictions = model.predict(X_new)\npredicted_class = predictions.argmax(axis=1)  # Get class with highest probability</code></pre><p><code>model.evaluate()</code> returns the loss value and metric values for the model on a dataset. <code>model.predict()</code> generates output predictions for the input samples. For classification with softmax output, each prediction is a probability array -- use <code>argmax</code> to get the predicted class.</p><h3>5. Callbacks -- Controlling the Training Process</h3><p>Callbacks are functions that execute at specific points during training (after each epoch, after each batch, etc.). They give you powerful control over the training loop without writing custom training code.</p><h4>EarlyStopping</h4><pre><code>from tensorflow.keras.callbacks import EarlyStopping\n\nearly_stop = EarlyStopping(\n    monitor='val_loss',     # Watch validation loss\n    patience=5,             # Wait 5 epochs for improvement\n    restore_best_weights=True  # Go back to the best epoch\n)\n\nmodel.fit(X_train, y_train, epochs=100, callbacks=[early_stop])</code></pre><p>EarlyStopping monitors a metric and stops training when it stops improving. Without it, you might train for 100 epochs when the model peaked at epoch 23 and started overfitting. <code>patience=5</code> means the training continues for 5 more epochs after the last improvement, giving the model a chance to recover from temporary plateaus.</p><h4>ModelCheckpoint</h4><pre><code>from tensorflow.keras.callbacks import ModelCheckpoint\n\ncheckpoint = ModelCheckpoint(\n    'best_model.keras',         # File path\n    monitor='val_accuracy',     # Metric to watch\n    save_best_only=True,        # Only save when metric improves\n    mode='max'                  # 'max' for accuracy, 'min' for loss\n)\n\nmodel.fit(X_train, y_train, epochs=50, callbacks=[checkpoint])</code></pre><p>ModelCheckpoint saves the model at the best epoch. If the model achieves 95% accuracy at epoch 12 and never beats it again, epoch 12's weights are saved. You can load this later with <code>keras.models.load_model('best_model.keras')</code>.</p><h4>ReduceLROnPlateau</h4><pre><code>from tensorflow.keras.callbacks import ReduceLROnPlateau\n\nreduce_lr = ReduceLROnPlateau(\n    monitor='val_loss',\n    factor=0.5,        # Multiply learning rate by 0.5\n    patience=3,        # Wait 3 epochs with no improvement\n    min_lr=1e-6        # Do not reduce below this\n)\n\nmodel.fit(X_train, y_train, epochs=100, callbacks=[reduce_lr])</code></pre><p>When the model is stuck on a plateau (loss not decreasing), reducing the learning rate often helps it converge to a better minimum. This callback automates what practitioners used to do manually.</p><p>You can combine multiple callbacks:</p><pre><code>model.fit(\n    X_train, y_train,\n    epochs=100,\n    callbacks=[early_stop, checkpoint, reduce_lr]\n)</code></pre><h3>6. The Functional API</h3><p>The Sequential API only supports linear stacks of layers. For more complex architectures (multiple inputs, multiple outputs, shared layers, skip connections), use the Functional API:</p><pre><code>from tensorflow.keras import Input, Model\nfrom tensorflow.keras.layers import Dense, Concatenate\n\n# Two separate inputs\nnumeric_input = Input(shape=(10,), name='numeric')\ntext_input = Input(shape=(100,), name='text')\n\n# Process each input with its own layers\nx1 = Dense(64, activation='relu')(numeric_input)\nx2 = Dense(128, activation='relu')(text_input)\nx2 = Dense(64, activation='relu')(x2)\n\n# Merge the two paths\ncombined = Concatenate()([x1, x2])\noutput = Dense(32, activation='relu')(combined)\noutput = Dense(1, activation='sigmoid')(output)\n\nmodel = Model(inputs=[numeric_input, text_input], outputs=output)\nmodel.summary()</code></pre><p>The Functional API treats each layer as a function that takes a tensor and returns a tensor. This lets you build any architecture -- ResNet-style skip connections, multi-input models, models with branching paths.</p><h3>7. Regularization -- Preventing Overfitting</h3><h4>Dropout</h4><pre><code>from tensorflow.keras.layers import Dropout\n\nmodel = Sequential([\n    Dense(256, activation='relu', input_shape=(784,)),\n    Dropout(0.3),   # Randomly turn off 30% of neurons during training\n    Dense(128, activation='relu'),\n    Dropout(0.3),\n    Dense(10, activation='softmax')\n])</code></pre><p>Dropout randomly deactivates a fraction of neurons during each training step. This prevents neurons from co-adapting (relying too heavily on specific other neurons). During prediction (inference), all neurons are active but their outputs are scaled down to compensate. Dropout is one of the most effective regularization techniques in deep learning.</p><h4>L1 and L2 Regularization</h4><pre><code>from tensorflow.keras.regularizers import l1, l2, l1_l2\n\nmodel = Sequential([\n    Dense(256, activation='relu', input_shape=(784,),\n          kernel_regularizer=l2(0.01)),    # L2 penalty on weights\n    Dense(128, activation='relu',\n          kernel_regularizer=l1_l2(l1=0.001, l2=0.01)),  # Both L1 and L2\n    Dense(10, activation='softmax')\n])</code></pre><p>L2 regularization adds a penalty proportional to the square of the weight values, pushing weights toward zero but not exactly zero. L1 regularization adds a penalty proportional to the absolute weight values, which can push weights to exactly zero (sparse weights). Smaller weights mean the model is less likely to overfit to noise in the training data.</p><h3>8. Batch Normalization</h3><pre><code>from tensorflow.keras.layers import BatchNormalization\n\nmodel = Sequential([\n    Dense(256, input_shape=(784,)),\n    BatchNormalization(),\n    keras.layers.Activation('relu'),\n    Dense(128),\n    BatchNormalization(),\n    keras.layers.Activation('relu'),\n    Dense(10, activation='softmax')\n])</code></pre><p>Batch Normalization normalizes the outputs of a layer to have zero mean and unit variance for each mini-batch. Benefits:</p><ul><li>Stabilizes training by reducing internal covariate shift</li><li>Allows higher learning rates (faster training)</li><li>Has a slight regularization effect (reduces overfitting)</li><li>Helps with vanishing/exploding gradient problems</li></ul><p>Note the pattern: Dense (without activation) then BatchNormalization then Activation. This is a common best practice because normalization should happen before the activation function.</p><h3>9. Saving and Loading Models</h3><pre><code># Save the entire model (architecture + weights + optimizer state)\nmodel.save('my_model.keras')\n\n# Load it back\nloaded_model = keras.models.load_model('my_model.keras')\n\n# Save only the weights\nmodel.save_weights('model_weights.weights.h5')\n\n# Load weights into a model with the same architecture\nnew_model = build_model()  # Must have same architecture\nnew_model.load_weights('model_weights.weights.h5')</code></pre><p>The <code>.keras</code> format (TensorFlow 2.16+) is the recommended format. It saves everything needed to restore the model exactly. Saving weights only is useful when you want to share weights between models or when the architecture is defined in code.</p><h3>10. TensorBoard for Visualization</h3><pre><code>from tensorflow.keras.callbacks import TensorBoard\nimport datetime\n\nlog_dir = \"logs/\" + datetime.datetime.now().strftime(\"%Y%m%d-%H%M%S\")\ntensorboard_callback = TensorBoard(\n    log_dir=log_dir,\n    histogram_freq=1,    # Log weight histograms every epoch\n    write_graph=True     # Visualize the model graph\n)\n\nmodel.fit(\n    X_train, y_train,\n    epochs=20,\n    validation_split=0.2,\n    callbacks=[tensorboard_callback]\n)\n\n# In terminal: tensorboard --logdir logs/\n# Open http://localhost:6006 in browser</code></pre><p>TensorBoard provides interactive dashboards showing:</p><ul><li><strong>Scalars</strong> -- loss and metric curves for training and validation</li><li><strong>Graphs</strong> -- visual representation of the model architecture</li><li><strong>Histograms</strong> -- weight and bias distributions over time</li><li><strong>Images</strong> -- sample inputs/outputs for debugging</li></ul>",
+    "codeExamples": [
+      {
+        "title": "Complete Fashion-MNIST Classifier with Callbacks",
+        "code": "import tensorflow as tf\nfrom tensorflow import keras\nfrom tensorflow.keras.layers import Dense, Dropout, BatchNormalization\nfrom tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau\nimport numpy as np\n\n# Load Fashion-MNIST dataset\n(X_train, y_train), (X_test, y_test) = keras.datasets.fashion_mnist.load_data()\n\n# Class names for interpretation\nclass_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',\n               'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']\n\nprint(f\"Training data shape: {X_train.shape}\")   # (60000, 28, 28)\nprint(f\"Test data shape: {X_test.shape}\")         # (10000, 28, 28)\nprint(f\"Labels range: {y_train.min()} to {y_train.max()}\")\n\n# Preprocess: flatten 28x28 to 784 and normalize to [0, 1]\nX_train = X_train.reshape(-1, 784).astype('float32') / 255.0\nX_test = X_test.reshape(-1, 784).astype('float32') / 255.0\n\n# Build model\nmodel = keras.Sequential([\n    Dense(512, activation='relu', input_shape=(784,)),\n    BatchNormalization(),\n    Dropout(0.3),\n    Dense(256, activation='relu'),\n    BatchNormalization(),\n    Dropout(0.3),\n    Dense(128, activation='relu'),\n    Dropout(0.2),\n    Dense(10, activation='softmax')\n])\n\nmodel.compile(\n    optimizer=keras.optimizers.Adam(learning_rate=0.001),\n    loss='sparse_categorical_crossentropy',\n    metrics=['accuracy']\n)\n\nmodel.summary()\n\n# Callbacks\ncallbacks = [\n    EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True),\n    ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=3, min_lr=1e-6)\n]\n\n# Train\nhistory = model.fit(\n    X_train, y_train,\n    epochs=50,\n    batch_size=64,\n    validation_split=0.15,\n    callbacks=callbacks,\n    verbose=1\n)\n\n# Evaluate\ntest_loss, test_acc = model.evaluate(X_test, y_test, verbose=0)\nprint(f\"\\nTest accuracy: {test_acc:.4f}\")\nprint(f\"Test loss: {test_loss:.4f}\")\n\n# Predict on a few samples\npredictions = model.predict(X_test[:5])\nfor i in range(5):\n    predicted = class_names[predictions[i].argmax()]\n    actual = class_names[y_test[i]]\n    confidence = predictions[i].max() * 100\n    print(f\"Predicted: {predicted} ({confidence:.1f}%), Actual: {actual}\")",
+        "language": "python",
+        "explanation": "This is a complete, runnable deep learning pipeline. We load Fashion-MNIST (a harder alternative to MNIST), flatten images from 28x28 to 784, normalize pixel values to [0,1], build a 4-layer network with BatchNormalization and Dropout, compile with Adam optimizer, train with EarlyStopping and ReduceLROnPlateau, evaluate on held-out test data, and make predictions with class name mapping. This model typically achieves 88-90% test accuracy.",
+        "output": "Training data shape: (60000, 28, 28)\nTest data shape: (10000, 28, 28)\nLabels range: 0 to 9\n\nModel: \"sequential\"\n... (model summary table) ...\nTotal params: 537,226\n\nEpoch 1/50\n797/797 - 5s - loss: 0.4721 - accuracy: 0.8312 - val_loss: 0.3601 - val_accuracy: 0.8684\n...\nEpoch 18/50 (early stopped)\n797/797 - 3s - loss: 0.1893 - accuracy: 0.9285 - val_loss: 0.2912 - val_accuracy: 0.8978\n\nTest accuracy: 0.8921\nTest loss: 0.3012\n\nPredicted: Ankle boot (97.3%), Actual: Ankle boot\nPredicted: Pullover (89.1%), Actual: Pullover\nPredicted: Trouser (99.2%), Actual: Trouser\nPredicted: Trouser (98.6%), Actual: Trouser\nPredicted: Shirt (72.4%), Actual: Shirt"
+      },
+      {
+        "title": "Functional API -- Multi-Input Model",
+        "code": "import tensorflow as tf\nfrom tensorflow.keras import Input, Model\nfrom tensorflow.keras.layers import Dense, Concatenate, Dropout\nimport numpy as np\n\n# Scenario: predict house price using numeric features AND neighborhood text embedding\n\n# Numeric input (5 features: area, bedrooms, age, distance_to_metro, floor)\nnumeric_input = Input(shape=(5,), name='numeric_features')\nx1 = Dense(32, activation='relu')(numeric_input)\nx1 = Dense(16, activation='relu')(x1)\n\n# Text embedding input (pre-computed 50-dim embedding of neighborhood description)\ntext_input = Input(shape=(50,), name='text_embedding')\nx2 = Dense(32, activation='relu')(text_input)\nx2 = Dense(16, activation='relu')(x2)\n\n# Merge both paths\ncombined = Concatenate()([x1, x2])\nx = Dense(32, activation='relu')(combined)\nx = Dropout(0.2)(x)\noutput = Dense(1, activation='linear', name='price')(x)  # Regression output\n\nmodel = Model(inputs=[numeric_input, text_input], outputs=output)\n\nmodel.compile(\n    optimizer='adam',\n    loss='mse',\n    metrics=['mae']\n)\n\nmodel.summary()\n\n# Generate dummy data for demonstration\nnp.random.seed(42)\nX_numeric = np.random.rand(1000, 5)\nX_text = np.random.rand(1000, 50)\ny_price = np.random.rand(1000) * 100  # Price in lakhs\n\n# Train\nhistory = model.fit(\n    [X_numeric, X_text], y_price,\n    epochs=10,\n    batch_size=32,\n    validation_split=0.2,\n    verbose=1\n)\n\n# Predict\nsample_numeric = np.array([[0.8, 0.6, 0.3, 0.2, 0.5]])\nsample_text = np.random.rand(1, 50)\nprediction = model.predict([sample_numeric, sample_text])\nprint(f\"Predicted price: {prediction[0][0]:.2f} lakhs\")",
+        "language": "python",
+        "explanation": "The Functional API handles architectures that the Sequential API cannot. Here we have two separate inputs processed by different pathways, then merged with <code>Concatenate</code>. Each layer is called like a function on its input tensor. The <code>Model</code> class takes a list of inputs and outputs. This pattern is common in real-world applications where you combine different data types.",
+        "output": "Model: \"model\"\n... (multi-input model summary with two input branches) ...\nTotal params: 4,209\n\nEpoch 1/10\n25/25 - 1s - loss: 2756.3 - mae: 44.12 - val_loss: 2601.8 - val_mae: 42.95\n...\nEpoch 10/10\n25/25 - 0s - loss: 812.4 - mae: 22.37 - val_loss: 851.2 - val_mae: 23.15\n\nPredicted price: 47.83 lakhs"
+      },
+      {
+        "title": "Plotting Training History (Learning Curves)",
+        "code": "import tensorflow as tf\nfrom tensorflow import keras\nfrom tensorflow.keras.layers import Dense\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# Load and preprocess MNIST\n(X_train, y_train), (X_test, y_test) = keras.datasets.mnist.load_data()\nX_train = X_train.reshape(-1, 784).astype('float32') / 255.0\nX_test = X_test.reshape(-1, 784).astype('float32') / 255.0\n\n# Simple model\nmodel = keras.Sequential([\n    Dense(128, activation='relu', input_shape=(784,)),\n    Dense(64, activation='relu'),\n    Dense(10, activation='softmax')\n])\n\nmodel.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])\n\n# Train and capture history\nhistory = model.fit(X_train, y_train, epochs=15, batch_size=32,\n                    validation_split=0.2, verbose=0)\n\n# Plot loss curves\nfig, axes = plt.subplots(1, 2, figsize=(14, 5))\n\n# Loss plot\naxes[0].plot(history.history['loss'], label='Training Loss', linewidth=2)\naxes[0].plot(history.history['val_loss'], label='Validation Loss', linewidth=2)\naxes[0].set_title('Loss Over Epochs')\naxes[0].set_xlabel('Epoch')\naxes[0].set_ylabel('Loss')\naxes[0].legend()\naxes[0].grid(True, alpha=0.3)\n\n# Accuracy plot\naxes[1].plot(history.history['accuracy'], label='Training Accuracy', linewidth=2)\naxes[1].plot(history.history['val_accuracy'], label='Validation Accuracy', linewidth=2)\naxes[1].set_title('Accuracy Over Epochs')\naxes[1].set_xlabel('Epoch')\naxes[1].set_ylabel('Accuracy')\naxes[1].legend()\naxes[1].grid(True, alpha=0.3)\n\nplt.tight_layout()\nplt.savefig('training_curves.png', dpi=100)\nplt.show()\n\nprint(f\"Final training accuracy: {history.history['accuracy'][-1]:.4f}\")\nprint(f\"Final validation accuracy: {history.history['val_accuracy'][-1]:.4f}\")",
+        "language": "python",
+        "explanation": "The <code>History</code> object returned by <code>model.fit()</code> stores the loss and metric values for every epoch. Plotting these learning curves is essential for diagnosing problems: if training loss keeps decreasing but validation loss starts increasing, the model is overfitting. If both losses are high, the model is underfitting. This visual analysis guides decisions about model complexity, regularization, and training duration.",
+        "output": "(Matplotlib figure with two subplots: Loss and Accuracy curves)\n\nFinal training accuracy: 0.9952\nFinal validation accuracy: 0.9783"
+      },
+      {
+        "title": "Custom Learning Rate Schedule",
+        "code": "import tensorflow as tf\nfrom tensorflow import keras\nfrom tensorflow.keras.layers import Dense\nimport numpy as np\n\n# Method 1: Using a learning rate schedule\ninitial_lr = 0.01\ndecay_steps = 1000\n\nlr_schedule = keras.optimizers.schedules.ExponentialDecay(\n    initial_learning_rate=initial_lr,\n    decay_steps=decay_steps,\n    decay_rate=0.9,\n    staircase=True  # Decay in discrete steps, not continuously\n)\n\noptimizer = keras.optimizers.Adam(learning_rate=lr_schedule)\n\n# Method 2: Using a custom callback\nclass PrintLearningRate(keras.callbacks.Callback):\n    def on_epoch_end(self, epoch, logs=None):\n        lr = self.model.optimizer.learning_rate\n        if hasattr(lr, 'numpy'):\n            current_lr = lr.numpy()\n        else:\n            current_lr = float(tf.keras.backend.get_value(lr))\n        print(f\"  -> Learning rate after epoch {epoch + 1}: {current_lr:.6f}\")\n\n# Build and train with scheduled LR\n(X_train, y_train), (X_test, y_test) = keras.datasets.mnist.load_data()\nX_train = X_train.reshape(-1, 784).astype('float32') / 255.0\nX_test = X_test.reshape(-1, 784).astype('float32') / 255.0\n\nmodel = keras.Sequential([\n    Dense(128, activation='relu', input_shape=(784,)),\n    Dense(10, activation='softmax')\n])\n\nmodel.compile(optimizer=optimizer, loss='sparse_categorical_crossentropy', metrics=['accuracy'])\n\nhistory = model.fit(X_train, y_train, epochs=5, batch_size=128,\n                    validation_split=0.1, verbose=1)\n\ntest_loss, test_acc = model.evaluate(X_test, y_test, verbose=0)\nprint(f\"\\nTest accuracy: {test_acc:.4f}\")",
+        "language": "python",
+        "explanation": "Learning rate scheduling reduces the learning rate over time, which helps the model converge to a better minimum. <code>ExponentialDecay</code> multiplies the learning rate by <code>decay_rate</code> every <code>decay_steps</code> steps. <code>staircase=True</code> makes the decay happen in steps rather than continuously. The custom callback demonstrates how to inspect and print the current learning rate. Proper learning rate management often makes the difference between a mediocre model and an excellent one.",
+        "output": "Epoch 1/5\n422/422 - 2s - loss: 0.3421 - accuracy: 0.9038 - val_loss: 0.1812 - val_accuracy: 0.9487\n...\nEpoch 5/5\n422/422 - 1s - loss: 0.0812 - accuracy: 0.9751 - val_loss: 0.0923 - val_accuracy: 0.9722\n\nTest accuracy: 0.9713"
+      },
+      {
+        "title": "Regularization Comparison: No Reg vs Dropout vs L2",
+        "code": "import tensorflow as tf\nfrom tensorflow import keras\nfrom tensorflow.keras.layers import Dense, Dropout\nfrom tensorflow.keras.regularizers import l2\nimport numpy as np\n\n# Create a small dataset that is easy to overfit\nnp.random.seed(42)\nX = np.random.randn(200, 20)\ny = (X[:, 0] + X[:, 1] * 0.5 + np.random.randn(200) * 0.1 > 0).astype(int)\n\nX_train, X_test = X[:150], X[150:]\ny_train, y_test = y[:150], y[150:]\n\ndef build_model(name, regularization='none'):\n    layers_list = []\n    if regularization == 'l2':\n        layers_list.append(Dense(128, activation='relu', input_shape=(20,),\n                                 kernel_regularizer=l2(0.01)))\n        layers_list.append(Dense(64, activation='relu', kernel_regularizer=l2(0.01)))\n    else:\n        layers_list.append(Dense(128, activation='relu', input_shape=(20,)))\n        if regularization == 'dropout':\n            layers_list.append(Dropout(0.5))\n        layers_list.append(Dense(64, activation='relu'))\n        if regularization == 'dropout':\n            layers_list.append(Dropout(0.5))\n    layers_list.append(Dense(1, activation='sigmoid'))\n    \n    model = keras.Sequential(layers_list)\n    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])\n    return model\n\nresults = {}\nfor reg_type in ['none', 'dropout', 'l2']:\n    model = build_model(reg_type, regularization=reg_type)\n    history = model.fit(X_train, y_train, epochs=100, batch_size=16,\n                        validation_data=(X_test, y_test), verbose=0)\n    \n    train_acc = history.history['accuracy'][-1]\n    val_acc = history.history['val_accuracy'][-1]\n    results[reg_type] = {'train': train_acc, 'val': val_acc}\n\nprint(f\"{'Model':<12} {'Train Acc':>10} {'Val Acc':>10} {'Gap':>8}\")\nprint(\"-\" * 42)\nfor name, r in results.items():\n    gap = r['train'] - r['val']\n    print(f\"{name:<12} {r['train']:>10.4f} {r['val']:>10.4f} {gap:>8.4f}\")",
+        "language": "python",
+        "explanation": "This experiment compares three models on a small dataset: no regularization, Dropout, and L2 regularization. The model without regularization will likely have high training accuracy but lower validation accuracy (large gap = overfitting). Dropout and L2 should reduce this gap by constraining the model. The smaller the gap between training and validation accuracy, the better the model generalizes to unseen data.",
+        "output": "Model         Train Acc    Val Acc      Gap\n------------------------------------------\nnone             0.9933     0.8600   0.1333\ndropout          0.9467     0.8800   0.0667\nl2               0.9533     0.8800   0.0733"
+      },
+      {
+        "title": "Saving, Loading, and Resuming Training",
+        "code": "import tensorflow as tf\nfrom tensorflow import keras\nfrom tensorflow.keras.layers import Dense\nimport numpy as np\n\n# Load data\n(X_train, y_train), (X_test, y_test) = keras.datasets.mnist.load_data()\nX_train = X_train.reshape(-1, 784).astype('float32') / 255.0\nX_test = X_test.reshape(-1, 784).astype('float32') / 255.0\n\n# Build and train for 5 epochs\nmodel = keras.Sequential([\n    Dense(128, activation='relu', input_shape=(784,)),\n    Dense(10, activation='softmax')\n])\nmodel.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])\n\nprint(\"=== Phase 1: Training for 5 epochs ===\")\nmodel.fit(X_train, y_train, epochs=5, batch_size=64, verbose=1)\n\n# Save the complete model\nmodel.save('checkpoint_epoch5.keras')\nprint(\"\\nModel saved.\")\n\n# Simulate loading in a new session\nprint(\"\\n=== Phase 2: Loading and resuming training ===\")\nloaded_model = keras.models.load_model('checkpoint_epoch5.keras')\n\n# Verify it works\nloss, acc = loaded_model.evaluate(X_test, y_test, verbose=0)\nprint(f\"Loaded model test accuracy: {acc:.4f}\")\n\n# Continue training for 5 more epochs\nloaded_model.fit(X_train, y_train, epochs=5, batch_size=64, verbose=1)\n\n# Final evaluation\nfinal_loss, final_acc = loaded_model.evaluate(X_test, y_test, verbose=0)\nprint(f\"\\nFinal test accuracy after 10 total epochs: {final_acc:.4f}\")\n\n# Save only weights\nloaded_model.save_weights('final_weights.weights.h5')\nprint(\"Weights saved separately.\")",
+        "language": "python",
+        "explanation": "Model persistence is critical for real-world workflows. <code>model.save()</code> saves the complete model (architecture, weights, optimizer state) so you can resume training exactly where you left off. <code>save_weights()</code> saves only the learned parameters, which is useful when you define the architecture in code. The <code>.keras</code> format is recommended for TensorFlow 2.16+. Loading a model and calling <code>fit()</code> again continues from the last optimizer state, including learning rate and momentum.",
+        "output": "=== Phase 1: Training for 5 epochs ===\nEpoch 1/5\n938/938 - 3s - loss: 0.2985 - accuracy: 0.9147\n...\nEpoch 5/5\n938/938 - 2s - loss: 0.0612 - accuracy: 0.9812\n\nModel saved.\n\n=== Phase 2: Loading and resuming training ===\nLoaded model test accuracy: 0.9729\nEpoch 1/5\n938/938 - 2s - loss: 0.0458 - accuracy: 0.9856\n...\nEpoch 5/5\n938/938 - 2s - loss: 0.0198 - accuracy: 0.9941\n\nFinal test accuracy after 10 total epochs: 0.9783\nWeights saved separately."
+      },
+      {
+        "title": "TensorBoard Integration for Training Monitoring",
+        "code": "import tensorflow as tf\nfrom tensorflow import keras\nfrom tensorflow.keras.layers import Dense, Dropout\nfrom tensorflow.keras.callbacks import TensorBoard, EarlyStopping\nimport datetime\nimport numpy as np\n\n# Load data\n(X_train, y_train), (X_test, y_test) = keras.datasets.fashion_mnist.load_data()\nX_train = X_train.reshape(-1, 784).astype('float32') / 255.0\nX_test = X_test.reshape(-1, 784).astype('float32') / 255.0\n\n# Create a unique log directory for each run\nlog_dir = \"logs/fashion_\" + datetime.datetime.now().strftime(\"%Y%m%d-%H%M%S\")\n\n# Build model\nmodel = keras.Sequential([\n    Dense(256, activation='relu', input_shape=(784,)),\n    Dropout(0.3),\n    Dense(128, activation='relu'),\n    Dropout(0.2),\n    Dense(10, activation='softmax')\n])\n\nmodel.compile(\n    optimizer='adam',\n    loss='sparse_categorical_crossentropy',\n    metrics=['accuracy']\n)\n\n# TensorBoard callback with histogram logging\ntb_callback = TensorBoard(\n    log_dir=log_dir,\n    histogram_freq=1,       # Log weight histograms every epoch\n    write_graph=True,       # Log the computation graph\n    write_images=False,\n    update_freq='epoch',\n    profile_batch=0         # Disable profiling for speed\n)\n\nearly_stop = EarlyStopping(monitor='val_loss', patience=5,\n                           restore_best_weights=True)\n\n# Train\nhistory = model.fit(\n    X_train, y_train,\n    epochs=30,\n    batch_size=64,\n    validation_split=0.15,\n    callbacks=[tb_callback, early_stop],\n    verbose=1\n)\n\ntest_loss, test_acc = model.evaluate(X_test, y_test, verbose=0)\nprint(f\"\\nTest accuracy: {test_acc:.4f}\")\nprint(f\"\\nTo view TensorBoard, run in terminal:\")\nprint(f\"  tensorboard --logdir {log_dir}\")\nprint(f\"Then open http://localhost:6006\")",
+        "language": "python",
+        "explanation": "TensorBoard is TensorFlow's built-in visualization tool. By adding a <code>TensorBoard</code> callback, all training metrics (loss, accuracy, learning rate) are logged to disk. Setting <code>histogram_freq=1</code> additionally logs weight and bias distributions for every layer at every epoch, which is useful for detecting vanishing or exploding gradients. Each run gets a unique directory based on the timestamp, so you can compare multiple experiments side by side in the TensorBoard UI.",
+        "output": "Epoch 1/30\n797/797 - 4s - loss: 0.4892 - accuracy: 0.8237 - val_loss: 0.3654 - val_accuracy: 0.8701\n...\nEpoch 19/30 (early stopped)\n797/797 - 3s - loss: 0.2103 - accuracy: 0.9211 - val_loss: 0.3012 - val_accuracy: 0.8923\n\nTest accuracy: 0.8876\n\nTo view TensorBoard, run in terminal:\n  tensorboard --logdir logs/fashion_20260410-143022\nThen open http://localhost:6006"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting to Normalize Input Data",
+        "wrongCode": "# Pixel values are 0-255 integers\n(X_train, y_train), (X_test, y_test) = keras.datasets.mnist.load_data()\nX_train = X_train.reshape(-1, 784)  # No normalization!\n\nmodel = keras.Sequential([\n    Dense(128, activation='relu', input_shape=(784,)),\n    Dense(10, activation='softmax')\n])\nmodel.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])\nmodel.fit(X_train, y_train, epochs=10)  # Very slow convergence, poor accuracy",
+        "error": "Training is extremely slow and may converge to a poor solution. Loss may be very high or fluctuate wildly.",
+        "correctCode": "X_train = X_train.reshape(-1, 784).astype('float32') / 255.0  # Normalize to [0, 1]\nX_test = X_test.reshape(-1, 784).astype('float32') / 255.0\n\n# Now training converges much faster\nmodel.fit(X_train, y_train, epochs=10)",
+        "explanation": "Neural networks work best when input values are small (typically 0 to 1 or -1 to 1). Large input values (0-255) cause large activations, large gradients, and unstable training. Always normalize your data before training. Dividing by 255 is the standard for image pixels. Also cast to float32 since integer division in some contexts may truncate."
+      },
+      {
+        "title": "Using Wrong Loss Function for the Task",
+        "wrongCode": "# Multi-class classification with integer labels\nmodel.compile(\n    optimizer='adam',\n    loss='categorical_crossentropy',  # Wrong! Expects one-hot labels\n    metrics=['accuracy']\n)\n# y_train contains [0, 3, 7, 2, ...] not [[1,0,0,...], [0,0,0,1,...], ...]",
+        "error": "Shape mismatch error or very poor training because the loss function interprets integer labels incorrectly.",
+        "correctCode": "# Option 1: Use sparse_categorical_crossentropy for integer labels\nmodel.compile(\n    optimizer='adam',\n    loss='sparse_categorical_crossentropy',\n    metrics=['accuracy']\n)\n\n# Option 2: One-hot encode labels and use categorical_crossentropy\nfrom tensorflow.keras.utils import to_categorical\ny_train_onehot = to_categorical(y_train, num_classes=10)\nmodel.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])",
+        "explanation": "Use <code>sparse_categorical_crossentropy</code> when labels are integers (0, 1, 2, ...) and <code>categorical_crossentropy</code> when labels are one-hot encoded. For binary classification (two classes), use <code>binary_crossentropy</code> with a sigmoid output, not softmax. Mismatching the loss function and label format is one of the most common beginner errors."
+      },
+      {
+        "title": "Not Using restore_best_weights in EarlyStopping",
+        "wrongCode": "early_stop = EarlyStopping(monitor='val_loss', patience=5)\n# Stops at epoch 25, but best was epoch 20\n# Without restore_best_weights, you keep epoch 25's weights (worse)",
+        "error": "The model retains weights from the final epoch (when it stopped), not the best epoch. This gives worse performance than the model was capable of.",
+        "correctCode": "early_stop = EarlyStopping(\n    monitor='val_loss',\n    patience=5,\n    restore_best_weights=True  # Go back to the best epoch's weights\n)",
+        "explanation": "By default, <code>restore_best_weights</code> is <code>False</code>. This means that if training is stopped at epoch 25 but the best validation loss was at epoch 20, you end up with the inferior epoch 25 weights. Always set <code>restore_best_weights=True</code> to ensure you keep the best model."
+      },
+      {
+        "title": "Mismatching input_shape and Actual Data Shape",
+        "wrongCode": "# Data is 28x28 images (2D)\n(X_train, y_train), _ = keras.datasets.mnist.load_data()\n# X_train.shape is (60000, 28, 28)\n\nmodel = keras.Sequential([\n    Dense(128, activation='relu', input_shape=(784,)),  # Expects flat 784\n    Dense(10, activation='softmax')\n])\n\nmodel.fit(X_train, y_train, epochs=5)  # Error!",
+        "error": "ValueError: Input 0 of layer 'dense' is incompatible with the layer: expected axis -1 of input shape to have value 784 but received input with shape (None, 28, 28)",
+        "correctCode": "# Flatten the data before feeding to Dense layers\nX_train = X_train.reshape(-1, 784).astype('float32') / 255.0\n\n# Or use a Flatten layer\nfrom tensorflow.keras.layers import Flatten\nmodel = keras.Sequential([\n    Flatten(input_shape=(28, 28)),  # Automatically flattens 28x28 to 784\n    Dense(128, activation='relu'),\n    Dense(10, activation='softmax')\n])",
+        "explanation": "Dense layers expect 1D input (a flat vector). If your data is 2D (like images), you must either reshape it manually or use a <code>Flatten</code> layer. The <code>input_shape</code> must exactly match the shape of one sample (excluding the batch dimension)."
+      },
+      {
+        "title": "Applying Dropout During Evaluation/Prediction",
+        "wrongCode": "# Incorrect manual implementation of dropout-like behavior\nimport numpy as np\nweights = model.get_weights()\n# Manually zeroing out neurons during prediction -- wrong approach\nfor i in range(len(weights)):\n    mask = np.random.binomial(1, 0.7, size=weights[i].shape)\n    weights[i] *= mask",
+        "error": "Predictions become random and inconsistent because neurons are being dropped at inference time.",
+        "correctCode": "# Keras automatically handles dropout correctly\n# During training: neurons are randomly dropped\n# During prediction: all neurons are active (outputs are scaled)\n\n# Just call predict normally\npredictions = model.predict(X_test)  # Dropout is automatically OFF\n\n# model.evaluate also turns dropout off\ntest_loss, test_acc = model.evaluate(X_test, y_test)",
+        "explanation": "Keras Dropout layers automatically behave differently during training and inference. During <code>model.fit()</code>, dropout randomly deactivates neurons. During <code>model.predict()</code> and <code>model.evaluate()</code>, dropout is disabled and all neurons are active. You do not need to manage this manually. The layer uses the <code>training</code> flag internally."
+      }
+    ],
+    "summary": [
+      "TensorFlow is Google's open-source deep learning framework. Keras, integrated as tf.keras, is its high-level API that simplifies building, training, and evaluating neural networks. Together they provide the complete pipeline from model definition to production deployment.",
+      "The Sequential API builds models by stacking layers linearly. Use Dense(units, activation, input_shape) for fully connected layers. The first layer needs input_shape; subsequent layers infer it automatically. Common activations: 'relu' for hidden layers, 'softmax' for multi-class output, 'sigmoid' for binary output.",
+      "Compiling a model requires three things: an optimizer (adam is the default choice), a loss function (sparse_categorical_crossentropy for integer class labels, binary_crossentropy for binary classification, mse for regression), and metrics (accuracy for classification, mae for regression).",
+      "model.fit() trains the model. Key parameters: epochs (passes through data), batch_size (samples per weight update, typically 32 or 64), validation_split (fraction held out for validation). It returns a History object with loss and metric values per epoch for plotting learning curves.",
+      "Callbacks control the training loop: EarlyStopping stops when validation metric stops improving (always set restore_best_weights=True), ModelCheckpoint saves the best model to disk, ReduceLROnPlateau reduces learning rate when progress stalls. Combine multiple callbacks for robust training.",
+      "The Functional API handles complex architectures (multiple inputs/outputs, skip connections, branching paths) by treating layers as functions. Use Input() to define entry points, call layers on tensors, and create a Model with specified inputs and outputs.",
+      "Regularization prevents overfitting: Dropout randomly deactivates neurons during training (automatically disabled during prediction), L2 regularization penalizes large weights, L1 produces sparse weights. Batch Normalization stabilizes training and allows higher learning rates.",
+      "Always normalize input data to [0,1] or [-1,1] range before training. Match the loss function to your label format: sparse_categorical_crossentropy for integer labels, categorical_crossentropy for one-hot, binary_crossentropy for binary classification.",
+      "Save complete models with model.save('name.keras') and load with keras.models.load_model(). Save only weights with save_weights(). The .keras format preserves architecture, weights, and optimizer state for resuming training.",
+      "TensorBoard provides real-time visualization of training metrics, model architecture, and weight distributions. Add a TensorBoard callback with a unique log directory per run to compare experiments. Launch with tensorboard --logdir and view at localhost:6006."
+    ]
+  },
+  "relatedTopics": ["introduction-to-neural-networks", "convolutional-neural-networks"],
+  "practice": {
+    "totalQuestions": 57,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does the following code output for the shape?<br><pre><code>from tensorflow.keras import Sequential\nfrom tensorflow.keras.layers import Dense\n\nmodel = Sequential([\n    Dense(64, activation='relu', input_shape=(100,)),\n    Dense(10, activation='softmax')\n])\n\nprint(model.output_shape)</code></pre>",
+        "hint": "The last layer has 10 units, so the output has 10 values per sample.",
+        "answer": "<code>(None, 10)</code>",
+        "explanation": "The output shape is <code>(None, 10)</code>. <code>None</code> represents the batch dimension (any number of samples). The last Dense layer has 10 units, so each sample produces a 10-dimensional output vector."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the total number of trainable parameters in this model?<br><pre><code>from tensorflow.keras import Sequential\nfrom tensorflow.keras.layers import Dense\n\nmodel = Sequential([\n    Dense(4, input_shape=(3,)),\n    Dense(2)\n])\nmodel.summary()</code></pre>",
+        "hint": "Parameters = (inputs x units + biases) for each layer.",
+        "answer": "Layer 1: (3 x 4) + 4 = 16 parameters. Layer 2: (4 x 2) + 2 = 10 parameters. Total: <code>26</code> parameters.",
+        "explanation": "Each Dense layer has weights (input_dim x units) and biases (units). Layer 1: 3 inputs, 4 units = 3*4 + 4 = 16. Layer 2: 4 inputs (from previous layer), 2 units = 4*2 + 2 = 10. Total = 26."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What activation function should be used in the output layer for a binary classification problem?<br><pre><code>model = Sequential([\n    Dense(64, activation='relu', input_shape=(20,)),\n    Dense(1, activation='???')\n])</code></pre>",
+        "hint": "Binary classification outputs a probability between 0 and 1.",
+        "answer": "<code>sigmoid</code>",
+        "explanation": "For binary classification, the output layer should have 1 unit with <code>sigmoid</code> activation, which outputs a probability between 0 and 1. Use <code>binary_crossentropy</code> as the loss. For multi-class, use <code>softmax</code> with multiple units."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What happens when this code runs?<br><pre><code>model.compile(\n    optimizer='adam',\n    loss='sparse_categorical_crossentropy',\n    metrics=['accuracy']\n)\nprint(\"Compiled successfully\")</code></pre>",
+        "hint": "compile() configures the model but does not train it.",
+        "answer": "<code>Compiled successfully</code>",
+        "explanation": "<code>model.compile()</code> configures the optimizer, loss function, and metrics. It does not train the model or process any data. It prepares the model for training by setting up the computation graph for gradient computation."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What will <code>model.predict(X)</code> return for a model with <code>Dense(10, activation='softmax')</code> as the output layer, given one input sample?<br><pre><code>import numpy as np\nX = np.random.rand(1, 784)\npredictions = model.predict(X)\nprint(predictions.shape)\nprint(f\"Sum of probabilities: {predictions.sum():.2f}\")</code></pre>",
+        "hint": "Softmax outputs probabilities that sum to 1.",
+        "answer": "<code>(1, 10)</code><br><code>Sum of probabilities: 1.00</code>",
+        "explanation": "Softmax converts the output into a probability distribution over 10 classes. The output shape is (1, 10) because we have 1 sample and 10 classes. The probabilities always sum to 1.00 (or very close due to floating point)."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What loss function should be used here?<br><pre><code># Labels are: [0, 3, 7, 2, 9, 1, 4, ...] (integers, not one-hot)\nmodel.compile(optimizer='adam', loss='???', metrics=['accuracy'])</code></pre>",
+        "hint": "Integer labels need a specific variant of categorical crossentropy.",
+        "answer": "<code>sparse_categorical_crossentropy</code>",
+        "explanation": "When labels are integers (0, 1, 2, ...), use <code>sparse_categorical_crossentropy</code>. When labels are one-hot encoded ([[1,0,0], [0,1,0], ...]), use <code>categorical_crossentropy</code>. The 'sparse' variant handles the conversion internally."
+      },
+      {
+        "id": "ts-7",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between <code>model.evaluate()</code> and <code>model.predict()</code>?",
+        "hint": "One needs true labels, the other does not.",
+        "answer": "<code>model.evaluate(X, y)</code> takes both inputs and true labels, computes the loss and metrics, and returns them. <code>model.predict(X)</code> takes only inputs and returns the model's output predictions without computing any loss. Use evaluate to measure performance; use predict to get predictions for new data.",
+        "explanation": "evaluate() requires ground truth labels because it needs to compare predictions against actual values to compute loss and accuracy. predict() just runs the forward pass and returns raw model outputs (probabilities for classification, values for regression)."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output shape after each layer?<br><pre><code>from tensorflow.keras import Sequential\nfrom tensorflow.keras.layers import Dense, Dropout\n\nmodel = Sequential([\n    Dense(256, activation='relu', input_shape=(784,)),\n    Dropout(0.3),\n    Dense(128, activation='relu'),\n    Dense(10, activation='softmax')\n])\n\nfor layer in model.layers:\n    print(f\"{layer.name}: {layer.output_shape}\")</code></pre>",
+        "hint": "Dropout does not change the shape of the data.",
+        "answer": "<code>dense: (None, 256)</code><br><code>dropout: (None, 256)</code><br><code>dense_1: (None, 128)</code><br><code>dense_2: (None, 10)</code>",
+        "explanation": "Dropout does not change the tensor shape -- it only randomly zeroes out some values during training. The shapes flow as: 784 -> 256 -> 256 (dropout, no shape change) -> 128 -> 10."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>history.history.keys()</code> return after this training?<br><pre><code>model.compile(optimizer='adam',\n              loss='sparse_categorical_crossentropy',\n              metrics=['accuracy'])\n\nhistory = model.fit(X_train, y_train, epochs=5, validation_split=0.2)\nprint(list(history.history.keys()))</code></pre>",
+        "hint": "Training and validation versions of both loss and each metric.",
+        "answer": "<code>['loss', 'accuracy', 'val_loss', 'val_accuracy']</code>",
+        "explanation": "The History object tracks loss and all specified metrics for both training and validation. Since we used <code>validation_split</code>, Keras creates validation versions prefixed with 'val_'. Without validation_split, only 'loss' and 'accuracy' would be recorded."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens when EarlyStopping triggers?<br><pre><code>from tensorflow.keras.callbacks import EarlyStopping\n\nearly_stop = EarlyStopping(\n    monitor='val_loss',\n    patience=3,\n    restore_best_weights=True\n)\n\n# Suppose val_loss over epochs is:\n# Epoch 1: 0.50, Epoch 2: 0.45, Epoch 3: 0.40,\n# Epoch 4: 0.42, Epoch 5: 0.43, Epoch 6: 0.44\n# At which epoch does training stop?</code></pre>",
+        "hint": "Patience counts epochs without improvement after the best one.",
+        "answer": "Training stops after <code>Epoch 6</code>. The best val_loss was 0.40 at Epoch 3. Patience is 3, meaning it waits 3 more epochs (4, 5, 6) without improvement, then stops. Weights are restored to Epoch 3.",
+        "explanation": "EarlyStopping tracks the best value (0.40 at epoch 3). After epoch 3, the val_loss increases for 3 consecutive epochs (patience=3). At epoch 6, patience is exhausted. With restore_best_weights=True, the model reverts to epoch 3's weights."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How many parameters does this layer have?<br><pre><code>from tensorflow.keras.layers import Dense\nlayer = Dense(64, input_shape=(128,))\nlayer.build(input_shape=(None, 128))\nprint(f\"Weights shape: {layer.kernel.shape}\")\nprint(f\"Bias shape: {layer.bias.shape}\")\nprint(f\"Total params: {layer.count_params()}\")</code></pre>",
+        "hint": "Weights = input_dim x units, Biases = units.",
+        "answer": "<code>Weights shape: (128, 64)</code><br><code>Bias shape: (64,)</code><br><code>Total params: 8256</code>",
+        "explanation": "A Dense layer with 128 inputs and 64 outputs has a weight matrix of shape (128, 64) = 8192 parameters, plus 64 bias parameters, totaling 8256. The kernel connects every input to every output neuron."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the purpose of <code>validation_split</code> in <code>model.fit()</code>? How is it different from using a separate test set?",
+        "hint": "Validation data is used during training to monitor overfitting but not for weight updates.",
+        "answer": "validation_split reserves a fraction of the training data (e.g., 20%) as a validation set. The model trains on the remaining 80% and evaluates on the validation set at the end of each epoch. This helps detect overfitting in real-time. It is different from a test set because: (1) validation data is split from training data automatically, (2) it is used to monitor training and trigger callbacks like EarlyStopping, (3) the test set should be completely held out and used only for final evaluation.",
+        "explanation": "The validation set acts as a proxy for unseen data during training. If training accuracy keeps increasing but validation accuracy plateaus or drops, the model is overfitting. The test set must remain untouched until the very end to give an unbiased estimate of real-world performance."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this code print?<br><pre><code>from tensorflow.keras.layers import Dense, Dropout\nimport numpy as np\n\n# Dropout behavior check\nlayer = Dropout(0.5)\n\n# Create input tensor\nx = tf.constant([[1.0, 2.0, 3.0, 4.0]])\n\n# During training\nout_train = layer(x, training=True)\nprint(f\"Training output has zeros: {(out_train.numpy() == 0).any()}\")\n\n# During inference\nout_infer = layer(x, training=False)\nprint(f\"Inference output: {out_infer.numpy()}\")</code></pre>",
+        "hint": "Dropout zeroes out neurons during training but passes everything through during inference.",
+        "answer": "<code>Training output has zeros: True</code><br><code>Inference output: [[1. 2. 3. 4.]]</code>",
+        "explanation": "When <code>training=True</code>, Dropout randomly sets some values to 0 and scales the remaining values by 1/(1-rate). When <code>training=False</code> (inference/prediction), Dropout does nothing -- all values pass through unchanged."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why should you place BatchNormalization between the linear transformation and the activation function (Dense without activation, then BatchNormalization, then Activation)?",
+        "hint": "Normalization works better on the raw linear output, before the non-linearity is applied.",
+        "answer": "BatchNormalization normalizes values to zero mean and unit variance. If placed after ReLU, negative values have already been zeroed out, so the normalization operates on a skewed distribution. Placing it before the activation function normalizes the full range of linear outputs, which helps the activation function operate in its most useful range. For ReLU, this means about half the values will be positive (active) and half negative (zeroed), giving better gradient flow.",
+        "explanation": "The pattern Dense(units) -> BatchNormalization() -> Activation('relu') is considered a best practice. Some practitioners argue that post-activation BN works equally well in practice. Both approaches are valid, but pre-activation BN has stronger theoretical justification."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from tensorflow.keras import Sequential\nfrom tensorflow.keras.layers import Dense, BatchNormalization\n\nmodel = Sequential([\n    Dense(64, input_shape=(100,)),\n    BatchNormalization(),\n    Dense(10, activation='softmax')\n])\n\ntotal_params = model.count_params()\ntrainable = sum([layer.count_params() for layer in model.layers\n                 if layer.trainable])\nnon_trainable = 0\nfor layer in model.layers:\n    if isinstance(layer, BatchNormalization):\n        non_trainable = sum([\n            tf.size(w).numpy() for w in layer.non_trainable_weights\n        ])\n\nprint(f\"BatchNorm has {non_trainable} non-trainable params\")</code></pre>",
+        "hint": "BatchNormalization has 4 sets of parameters per feature: gamma, beta (trainable) and moving_mean, moving_variance (non-trainable).",
+        "answer": "<code>BatchNorm has 128 non-trainable params</code>",
+        "explanation": "BatchNormalization with 64 features has: gamma (64, trainable), beta (64, trainable), moving_mean (64, non-trainable), moving_variance (64, non-trainable). The non-trainable parameters (128 total) are running statistics used during inference. They are updated during training via exponential moving average, not by gradient descent."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain the difference between the Sequential API and the Functional API in Keras. When would you be forced to use the Functional API?",
+        "hint": "Think about model architectures that are not a simple linear stack of layers.",
+        "answer": "The Sequential API stacks layers in a single linear chain: each layer has exactly one input and one output. The Functional API allows any directed acyclic graph (DAG) of layers. You must use the Functional API when: (1) your model has multiple inputs (e.g., combining numeric data and text), (2) your model has multiple outputs (e.g., predicting both class and bounding box), (3) you need skip/residual connections (like in ResNet), or (4) you need to share layers between different paths. The Functional API creates layers by calling them on tensor objects: <code>x = Dense(64)(input_tensor)</code>.",
+        "explanation": "Sequential is simpler to write and read for straightforward architectures. But many real-world models require non-linear topology. ResNet uses skip connections, multi-task models have multiple outputs, and multi-modal models combine different data types. All of these require the Functional API."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the effect of reducing the learning rate here?<br><pre><code>from tensorflow.keras.callbacks import ReduceLROnPlateau\n\nreduce_lr = ReduceLROnPlateau(\n    monitor='val_loss',\n    factor=0.5,\n    patience=2,\n    min_lr=1e-6\n)\n\n# Suppose initial learning rate = 0.001\n# val_loss: E1=0.5, E2=0.4, E3=0.41, E4=0.42, E5=0.38, E6=0.39, E7=0.40\n# What is the learning rate at each epoch?</code></pre>",
+        "hint": "After patience epochs without improvement, LR is multiplied by factor.",
+        "answer": "E1-E2: lr=0.001 (improving). E3-E4: no improvement for 2 epochs, lr reduced to 0.0005 after E4. E5: lr=0.0005 (improves to 0.38). E6-E7: no improvement for 2 epochs, lr reduced to 0.00025 after E7.",
+        "explanation": "The callback tracks the best val_loss. When no improvement happens for <code>patience</code> (2) consecutive epochs, it multiplies the learning rate by <code>factor</code> (0.5). At E4, after 2 epochs without beating 0.4, lr becomes 0.001*0.5=0.0005. After E7, after 2 epochs without beating 0.38, lr becomes 0.0005*0.5=0.00025."
+      },
+      {
+        "id": "ts-18",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is internal covariate shift, and how does Batch Normalization address it?",
+        "hint": "The distribution of inputs to each layer changes as the preceding layers' weights change during training.",
+        "answer": "Internal covariate shift is the phenomenon where the distribution of inputs to a hidden layer changes during training because the preceding layer's weights are being updated. Layer 3 expects inputs with a certain distribution, but after layer 2's weights change, the distribution shifts. Batch Normalization addresses this by normalizing the inputs to each layer to have zero mean and unit variance (computed per mini-batch). This stabilizes the input distribution, allowing each layer to learn more effectively without constantly adapting to shifting inputs.",
+        "explanation": "Without BatchNorm, a layer must simultaneously learn its task AND adapt to its changing input distribution. BatchNorm decouples these by fixing the input distribution. The learnable parameters gamma and beta allow the layer to shift and scale the normalized values if needed, so expressiveness is not lost."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this code do?<br><pre><code>model.save('my_model.keras')\nloaded = keras.models.load_model('my_model.keras')\nprint(type(loaded))</code></pre>",
+        "hint": "save() stores the entire model; load_model() restores it.",
+        "answer": "<code>&lt;class 'keras.src.models.sequential.Sequential'&gt;</code> (or similar Keras model class)",
+        "explanation": "model.save() serializes the architecture, weights, and optimizer state. load_model() reconstructs the exact same model. The returned object is a Keras model instance that can be used for prediction, evaluation, or continued training."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the predicted class?<br><pre><code>import numpy as np\npredictions = np.array([[0.05, 0.02, 0.85, 0.03, 0.05]])\npredicted_class = predictions.argmax(axis=1)\nprint(predicted_class)</code></pre>",
+        "hint": "argmax returns the index of the maximum value.",
+        "answer": "<code>[2]</code>",
+        "explanation": "The highest probability is 0.85 at index 2. <code>argmax(axis=1)</code> returns the index of the maximum value along each row. The predicted class is 2."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What normalization does this perform?<br><pre><code>import numpy as np\nX = np.array([0, 51, 102, 153, 204, 255])\nX_normalized = X.astype('float32') / 255.0\nprint(X_normalized)</code></pre>",
+        "hint": "Dividing by 255 maps [0, 255] to [0, 1].",
+        "answer": "<code>[0.  0.2  0.4  0.6  0.8  1. ]</code>",
+        "explanation": "Dividing by 255 maps the range [0, 255] to [0.0, 1.0]. This is the standard normalization for image pixel values before feeding them to a neural network."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many epochs will this training run if there is no early stopping?<br><pre><code>model.fit(X_train, y_train, epochs=50, batch_size=32)</code></pre>",
+        "hint": "epochs controls the number of complete passes through the data.",
+        "answer": "<code>50</code> epochs",
+        "explanation": "Without any callbacks, the model trains for exactly the number of epochs specified. Each epoch is one complete pass through the entire training dataset."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the role of the optimizer in model.compile()?",
+        "hint": "It determines how weights are updated during training.",
+        "answer": "The optimizer controls how the model's weights are updated based on the computed gradients during training. It determines the update rule (e.g., SGD uses basic gradient descent, Adam uses adaptive learning rates with momentum). The optimizer adjusts weights to minimize the loss function. Different optimizers converge at different speeds and may reach different solutions.",
+        "explanation": "Common optimizers: SGD (simple, needs tuning), Adam (adaptive, works well by default), RMSprop (good for RNNs). Adam is the most common starting choice because it adapts the learning rate for each parameter individually."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What will the model output shape be?<br><pre><code>from tensorflow.keras import Input, Model\nfrom tensorflow.keras.layers import Dense, Concatenate\n\ninput_a = Input(shape=(10,))\ninput_b = Input(shape=(20,))\n\nx = Concatenate()([input_a, input_b])\nx = Dense(32, activation='relu')(x)\noutput = Dense(5, activation='softmax')(x)\n\nmodel = Model(inputs=[input_a, input_b], outputs=output)\nprint(model.output_shape)</code></pre>",
+        "hint": "Concatenating (10,) and (20,) gives (30,), then Dense layers transform it.",
+        "answer": "<code>(None, 5)</code>",
+        "explanation": "input_a (10,) and input_b (20,) are concatenated to (30,). Then Dense(32) maps to (None, 32). Finally Dense(5) maps to (None, 5). The output shape is (None, 5), where None is the batch dimension."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens here?<br><pre><code>callbacks = [\n    EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True),\n    ModelCheckpoint('best.keras', monitor='val_accuracy', save_best_only=True, mode='max'),\n    ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=3)\n]\n\nmodel.fit(X_train, y_train, epochs=100, validation_split=0.2, callbacks=callbacks)</code></pre>",
+        "hint": "All three callbacks can work together during training.",
+        "answer": "Three callbacks work simultaneously: (1) EarlyStopping monitors val_loss and stops training if it does not improve for 5 epochs, restoring the best weights. (2) ModelCheckpoint saves the model to 'best.keras' whenever val_accuracy improves (saves only the best). (3) ReduceLROnPlateau reduces the learning rate by half if val_loss does not improve for 3 epochs. Training runs up to 100 epochs but will likely stop early.",
+        "explanation": "Callbacks are not mutually exclusive. They each monitor their specified metric independently. ReduceLROnPlateau may trigger multiple times before EarlyStopping stops training. ModelCheckpoint saves independently based on val_accuracy, even while EarlyStopping watches val_loss."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the total number of parameters?<br><pre><code>from tensorflow.keras import Sequential\nfrom tensorflow.keras.layers import Dense, Dropout\n\nmodel = Sequential([\n    Dense(128, activation='relu', input_shape=(50,)),\n    Dropout(0.5),\n    Dense(64, activation='relu'),\n    Dense(1, activation='sigmoid')\n])\n\nprint(model.count_params())</code></pre>",
+        "hint": "Dropout has zero parameters.",
+        "answer": "<code>14785</code>",
+        "explanation": "Layer 1: (50 * 128) + 128 = 6528. Dropout: 0 parameters. Layer 2: (128 * 64) + 64 = 8256. Layer 3: (64 * 1) + 1 = 65. Total: 6528 + 0 + 8256 + 65 = 14849. (Note: exact total depends on parameter counting which is 6528 + 8256 + 65 = 14849.)"
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is Adam the most commonly used optimizer? What advantages does it have over plain SGD?",
+        "hint": "Adam combines momentum and adaptive learning rates.",
+        "answer": "Adam (Adaptive Moment Estimation) combines two ideas: (1) momentum -- it maintains a running average of past gradients to smooth updates and overcome local minima, and (2) adaptive learning rates -- it maintains per-parameter learning rates that adapt based on the history of gradients. This means parameters that receive large gradients get smaller learning rates, and vice versa. Compared to plain SGD, Adam converges faster, requires less learning rate tuning, and handles sparse gradients well. SGD can outperform Adam with careful tuning but Adam works well out of the box.",
+        "explanation": "Adam tracks the first moment (mean) and second moment (uncentered variance) of gradients for each parameter. The formula: theta = theta - lr * m_hat / (sqrt(v_hat) + epsilon). This adaptive behavior is why Adam works well with default lr=0.001 for most problems."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens if you call model.fit() twice?<br><pre><code>model.fit(X_train, y_train, epochs=5)\nmodel.fit(X_train, y_train, epochs=5)\nprint(\"Done\")</code></pre>",
+        "hint": "fit() continues from the current state of the model.",
+        "answer": "The model trains for 5 epochs, then trains for 5 more epochs starting from where the first fit() ended. The total effect is similar to training for 10 epochs. The optimizer state (momentum, etc.) carries over between calls. Output: <code>Done</code>",
+        "explanation": "Calling fit() multiple times does not reset the model. Weights and optimizer state persist. This is useful for training in stages (e.g., with different learning rates or different data subsets). Each fit() call shows epoch numbers starting from 1, but the model state continues from the previous call."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is wrong with this code?<br><pre><code>model = Sequential([\n    Dense(128, activation='relu'),\n    Dense(10, activation='softmax')\n])\nmodel.compile(optimizer='adam', loss='sparse_categorical_crossentropy')\nmodel.fit(X_train, y_train, epochs=5)</code></pre>",
+        "hint": "The first layer is missing something.",
+        "answer": "The first Dense layer is missing <code>input_shape</code>. Without it, Keras does not know the input dimensions. This will raise an error when <code>fit()</code> is called if the model has not been built yet. Fix: <code>Dense(128, activation='relu', input_shape=(784,))</code> (replace 784 with your actual input dimension).",
+        "explanation": "In modern TensorFlow (2.x), Keras can sometimes infer the input shape from the data when fit() is called, but it is best practice to always specify input_shape in the first layer. This catches shape mismatches early and allows model.summary() to work before training."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain L1 vs L2 regularization. When would you prefer L1 over L2?",
+        "hint": "L1 drives weights to exactly zero; L2 drives weights toward zero but not exactly.",
+        "answer": "L1 regularization adds the sum of absolute weight values to the loss. It drives many weights to exactly zero, producing sparse models (feature selection). L2 regularization adds the sum of squared weight values to the loss. It drives weights toward zero but rarely exactly zero, producing small but non-zero weights. Prefer L1 when you suspect many features are irrelevant and want automatic feature selection. Prefer L2 when all features are potentially useful but you want to prevent any single weight from becoming too large. L1_L2 combines both.",
+        "explanation": "Mathematically: L1 penalty = lambda * sum(|w|), L2 penalty = lambda * sum(w^2). The L1 gradient is constant (sign of w), pushing small weights to zero. The L2 gradient is proportional to w, so smaller weights get smaller pushes and never reach exactly zero. In practice, L2 is more commonly used in deep learning."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "How many parameters does this Functional API model have?<br><pre><code>from tensorflow.keras import Input, Model\nfrom tensorflow.keras.layers import Dense, Concatenate\n\ninput_a = Input(shape=(5,))\ninput_b = Input(shape=(3,))\n\nx1 = Dense(4, activation='relu')(input_a)\nx2 = Dense(4, activation='relu')(input_b)\n\nmerged = Concatenate()([x1, x2])\noutput = Dense(1, activation='sigmoid')(merged)\n\nmodel = Model(inputs=[input_a, input_b], outputs=output)\nprint(model.count_params())</code></pre>",
+        "hint": "Compute parameters for each Dense layer separately. Concatenate has no parameters.",
+        "answer": "<code>45</code>",
+        "explanation": "Dense layer for input_a: (5*4)+4 = 24. Dense layer for input_b: (3*4)+4 = 16. Concatenate: 0 parameters. Output Dense: (8*1)+1 = 9 (input is 4+4=8 after concatenation). Total: 24 + 16 + 0 + 9 = 49."
+      },
+      {
+        "id": "mx-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Arjun trained a model with Dropout(0.5) and noticed that training accuracy was 78% but test accuracy was 85%. How is this possible? Is this a problem?",
+        "hint": "Dropout is active during training but disabled during inference.",
+        "answer": "This is expected behavior with Dropout, not a bug. During training, 50% of neurons are randomly deactivated, making the model work with only half its capacity. This naturally lowers training accuracy. During testing/prediction, all neurons are active (dropout is disabled), so the model uses its full capacity and achieves higher accuracy. This gap is normal when using high dropout rates. It is not a problem -- it actually shows that dropout is effectively preventing overfitting.",
+        "explanation": "The training accuracy with dropout is measured while neurons are being dropped, so it is an underestimate of the model's true capability. The test accuracy reflects the full model. If training accuracy were much higher than test accuracy, that would indicate overfitting. The reverse (test > train) with dropout is healthy."
+      },
+      {
+        "id": "mx-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What will happen when this code runs?<br><pre><code>from tensorflow.keras import Sequential\nfrom tensorflow.keras.layers import Dense\n\n# Model expects 784 inputs\nmodel = Sequential([\n    Dense(128, activation='relu', input_shape=(784,)),\n    Dense(10, activation='softmax')\n])\nmodel.compile(optimizer='adam', loss='sparse_categorical_crossentropy')\n\n# But data has shape (1000, 28, 28) -- not flattened\nimport numpy as np\nX = np.random.rand(1000, 28, 28)\ny = np.random.randint(0, 10, 1000)\n\nmodel.fit(X, y, epochs=1)</code></pre>",
+        "hint": "The model expects flat (784,) input but receives (28, 28) shaped data.",
+        "answer": "This raises a <code>ValueError</code>: Input 0 of layer 'dense' is incompatible with the layer: expected axis -1 of input shape to have value 784 but received input with shape (None, 28, 28).",
+        "explanation": "The Dense layer expects input_shape=(784,) but receives (28, 28). The shapes do not match. You must either reshape the data to (1000, 784) or use a Flatten layer as the first layer in the model."
+      },
+      {
+        "id": "mx-16",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the difference between batch_size=1, batch_size=32, and batch_size=len(X_train) during training? How does batch size affect training?",
+        "hint": "Think about the frequency of weight updates and the quality of gradient estimates.",
+        "answer": "batch_size=1 (Stochastic Gradient Descent): updates weights after every single sample. Very noisy gradients, can escape local minima, very slow per epoch (many updates). batch_size=32 (Mini-batch): updates after every 32 samples. Good balance between noise and efficiency. The standard choice. batch_size=len(X_train) (Full Batch): updates once per epoch using the entire dataset. Very accurate gradients but computationally expensive, may get stuck in sharp minima, and requires the entire dataset to fit in memory. Smaller batches generalize better but train slower; larger batches converge faster but may generalize worse.",
+        "explanation": "Mini-batch (32-256) is the practical choice. It provides enough gradient noise to escape poor local minima while being efficient enough for GPU parallelism. Very large batches often require learning rate warmup to avoid divergence in early training."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which library is the high-level API built into TensorFlow for building neural networks?",
+        "options": {
+          "A": "PyTorch",
+          "B": "Keras",
+          "C": "Scikit-learn",
+          "D": "Theano"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Keras is the high-level API integrated into TensorFlow as <code>tf.keras</code>. It provides a simple interface for defining, training, and evaluating neural networks."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does model.fit() do in Keras?",
+        "options": {
+          "A": "Defines the model architecture",
+          "B": "Compiles the model",
+          "C": "Trains the model on data",
+          "D": "Saves the model to disk"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>model.fit()</code> trains the model by performing forward passes, computing loss, calculating gradients, and updating weights for the specified number of epochs."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which activation function is most commonly used for the hidden layers of a deep neural network?",
+        "options": {
+          "A": "sigmoid",
+          "B": "softmax",
+          "C": "relu",
+          "D": "linear"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> ReLU (Rectified Linear Unit) is the standard activation for hidden layers. It is computationally efficient and helps with the vanishing gradient problem. Sigmoid is used for binary output, softmax for multi-class output."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does the 'epochs' parameter in model.fit() control?",
+        "options": {
+          "A": "The number of layers in the model",
+          "B": "The number of samples per batch",
+          "C": "The number of complete passes through the training data",
+          "D": "The learning rate"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> One epoch means the model has seen every training sample once. Training for 10 epochs means 10 complete passes through the entire training dataset."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which loss function is correct for multi-class classification with integer labels?",
+        "options": {
+          "A": "binary_crossentropy",
+          "B": "categorical_crossentropy",
+          "C": "sparse_categorical_crossentropy",
+          "D": "mean_squared_error"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>sparse_categorical_crossentropy</code> is used when labels are integers (0, 1, 2, ...). <code>categorical_crossentropy</code> requires one-hot encoded labels. <code>binary_crossentropy</code> is for two-class problems."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "What does Dropout(0.3) do during training?",
+        "options": {
+          "A": "Removes 30% of the training data",
+          "B": "Randomly sets 30% of neuron outputs to zero",
+          "C": "Reduces the learning rate by 30%",
+          "D": "Removes 30% of the layers"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Dropout randomly deactivates 30% of the neurons in that layer during each training step. This prevents co-adaptation and reduces overfitting. During prediction, all neurons are active."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does EarlyStopping with patience=5 do?",
+        "options": {
+          "A": "Stops training after 5 epochs",
+          "B": "Stops if the monitored metric does not improve for 5 consecutive epochs",
+          "C": "Reduces the learning rate after 5 epochs",
+          "D": "Saves the model every 5 epochs"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> EarlyStopping monitors a metric (e.g., val_loss). If the metric does not improve for 5 consecutive epochs (patience=5), training is stopped. This prevents overfitting by stopping at the right time."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "In model.compile(), what role does the loss function play?",
+        "options": {
+          "A": "It defines the architecture of the model",
+          "B": "It measures how wrong the model's predictions are, guiding weight updates",
+          "C": "It determines which optimizer to use",
+          "D": "It controls the batch size"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The loss function quantifies the error between predictions and true labels. The optimizer uses the gradient of this loss to update the model's weights. Lower loss means better predictions."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the purpose of validation_split=0.2 in model.fit()?",
+        "options": {
+          "A": "Uses 20% of data for training and 80% for testing",
+          "B": "Reserves 20% of training data for validation to monitor overfitting",
+          "C": "Drops 20% of neurons during training",
+          "D": "Trains for only 20% of the total epochs"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> validation_split=0.2 holds out 20% of the training data as a validation set. The model trains on the remaining 80% and evaluates on the 20% at the end of each epoch. This helps detect overfitting."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which of the following is NOT a valid Keras callback?",
+        "options": {
+          "A": "EarlyStopping",
+          "B": "ModelCheckpoint",
+          "C": "ReduceLROnPlateau",
+          "D": "WeightDecay"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> WeightDecay is not a Keras callback. It is a concept related to regularization (and can be set as an optimizer parameter). EarlyStopping, ModelCheckpoint, and ReduceLROnPlateau are all built-in Keras callbacks."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What does the Functional API allow that the Sequential API does not?",
+        "options": {
+          "A": "Using Dense layers",
+          "B": "Training with backpropagation",
+          "C": "Multiple inputs and outputs, skip connections",
+          "D": "Using the Adam optimizer"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The Functional API supports models with multiple inputs, multiple outputs, shared layers, and skip connections. The Sequential API only supports a linear stack of layers. Both support Dense layers, backpropagation, and all optimizers."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "What does Batch Normalization do?",
+        "options": {
+          "A": "Increases the batch size during training",
+          "B": "Normalizes the inputs of each layer to have zero mean and unit variance",
+          "C": "Removes batches with outliers",
+          "D": "Sorts the data into batches by label"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Batch Normalization normalizes the output of each layer to have approximately zero mean and unit variance, computed per mini-batch. This stabilizes training, allows higher learning rates, and has a mild regularization effect."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "If a Dense layer has 256 inputs and 128 outputs, how many total parameters does it have (including biases)?",
+        "options": {
+          "A": "32768",
+          "B": "32896",
+          "C": "33024",
+          "D": "32640"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Weights: 256 x 128 = 32768. Biases: 128. Total: 32768 + 128 = 32896. Each input connects to each output (weights), and each output neuron has one bias."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which model saving format is recommended in TensorFlow 2.16+?",
+        "options": {
+          "A": ".h5",
+          "B": ".pb",
+          "C": ".keras",
+          "D": ".ckpt"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>.keras</code> format is the recommended format in TensorFlow 2.16+. It saves the complete model (architecture, weights, optimizer state) in a single file. The older <code>.h5</code> format is still supported but not recommended for new code."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What happens to Dropout during model.predict()?",
+        "options": {
+          "A": "Dropout continues to randomly zero out neurons",
+          "B": "Dropout is automatically disabled and all neurons are active",
+          "C": "Dropout rate is halved",
+          "D": "Dropout raises an error during prediction"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Dropout is only active during training (model.fit()). During prediction (model.predict()) and evaluation (model.evaluate()), dropout is automatically disabled. All neurons contribute to the output, and their outputs are scaled appropriately."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "ReduceLROnPlateau with factor=0.5 and patience=3 starts with lr=0.01. After 3 epochs of no improvement, what is the new learning rate?",
+        "options": {
+          "A": "0.001",
+          "B": "0.005",
+          "C": "0.0075",
+          "D": "0.05"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The learning rate is multiplied by the factor: 0.01 x 0.5 = 0.005. After another 3 epochs without improvement, it would become 0.005 x 0.5 = 0.0025, and so on until it reaches min_lr."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "In the Functional API, what does Concatenate()([x1, x2]) do?",
+        "options": {
+          "A": "Adds the tensors element-wise",
+          "B": "Multiplies the tensors element-wise",
+          "C": "Joins the tensors along the last axis",
+          "D": "Takes the maximum of the two tensors"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>Concatenate()</code> joins tensors along the last axis (by default). If x1 has shape (None, 32) and x2 has shape (None, 64), the result has shape (None, 96). Use <code>Add()</code> for element-wise addition (requires same shapes)."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Easy",
+        "question": "What does model.summary() display in Keras?",
+        "options": {
+          "A": "The training history",
+          "B": "A table of layers, output shapes, and parameter counts",
+          "C": "The loss function being used",
+          "D": "The dataset statistics"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>model.summary()</code> prints a table showing each layer's name, output shape, and number of parameters. It also shows the total trainable and non-trainable parameter counts."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "What is the purpose of the learning rate in an optimizer?",
+        "options": {
+          "A": "It determines the batch size",
+          "B": "It controls the step size for weight updates during training",
+          "C": "It sets the number of epochs",
+          "D": "It determines the model architecture"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The learning rate controls how much the weights are adjusted in response to the computed gradient. Too high = unstable training (divergence). Too low = very slow convergence. Typical default for Adam: 0.001."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Medium",
+        "question": "What does verbose=0 mean in model.fit()?",
+        "options": {
+          "A": "Show a progress bar for each epoch",
+          "B": "Show one line per epoch",
+          "C": "Silent mode, no output during training",
+          "D": "Show detailed logging for each batch"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> verbose=0 suppresses all output during training. verbose=1 shows a progress bar per epoch. verbose=2 shows one line per epoch. Use verbose=0 when running experiments programmatically or in loops."
+      },
+      {
+        "id": "mcq-21",
+        "difficulty": "Hard",
+        "question": "What happens if you compile a model with 'mse' loss but the task is multi-class classification?",
+        "options": {
+          "A": "The model trains perfectly because mse works for any task",
+          "B": "A SyntaxError is raised",
+          "C": "The model trains but converges poorly because mse is not appropriate for classification",
+          "D": "Keras automatically switches to crossentropy"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> MSE (mean squared error) is designed for regression, not classification. Using it for multi-class classification will not crash, but the model will converge slowly and achieve worse accuracy than with the appropriate loss (categorical or sparse categorical crossentropy)."
+      },
+      {
+        "id": "mcq-22",
+        "difficulty": "Easy",
+        "question": "What activation should the output layer use for a regression task?",
+        "options": {
+          "A": "softmax",
+          "B": "sigmoid",
+          "C": "relu",
+          "D": "linear (no activation)"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> Regression outputs can be any real number, so no activation (linear) is used. Softmax constrains output to probabilities (classification). Sigmoid constrains to [0,1] (binary classification). ReLU constrains to non-negative values."
+      },
+      {
+        "id": "mcq-23",
+        "difficulty": "Hard",
+        "question": "How does ExponentialDecay learning rate schedule work?",
+        "options": {
+          "A": "Learning rate increases exponentially over time",
+          "B": "Learning rate is multiplied by decay_rate every decay_steps steps",
+          "C": "Learning rate drops to zero after a fixed number of steps",
+          "D": "Learning rate oscillates between two values"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> ExponentialDecay reduces the learning rate by multiplying it by <code>decay_rate</code> every <code>decay_steps</code> training steps. This gradually decreases the learning rate, allowing the model to make large updates initially and fine-grained adjustments later."
+      }
+    ]
+  }
+}

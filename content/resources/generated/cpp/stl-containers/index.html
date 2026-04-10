@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STL Containers - vector, list, map, set, stack, queue - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Master the Standard Template Library containers with their methods, time complexities, and use cases.">
+    <meta name="keywords" content="stl containers - vector, list, map, set, stack, queue, c++ tutorial, c++ stl containers - vector, list, map, set, stack, queue, learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/stl-containers">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/stl-containers">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/stl-containers">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/stl-containers">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/stl-containers">
+    <meta property="og:title" content="STL Containers - vector, list, map, set, stack, queue - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Master the Standard Template Library containers with their methods, time complexities, and use cases.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/stl-containers">
+    <meta name="twitter:title" content="STL Containers - vector, list, map, set, stack, queue - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Master the Standard Template Library containers with their methods, time complexities, and use cases.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "STL Containers - vector, list, map, set, stack, queue",
+    "description": "Master the Standard Template Library containers with their methods, time complexities, and use cases.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/stl-containers"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/stl-containers"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "STL Containers - vector, list, map, set, stack, queue",
+        "item": "https://learn.modernagecoders.com/resources/cpp/stl-containers"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using map[] for Lookup Instead of find()",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use <code>find()</code> or <code>count()</code> to check existence without inserting. The <code>[]</code> operator should only be used when you want to create or overwrite an entry."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Modifying a set Element Directly",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "To change a value in a set, you must erase the old value and insert the new one. This ensures the sorted invariant is maintained. The same applies to keys in a map."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting That priority_queue Is a Max-Heap by Default",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The default <code>priority_queue&lt;int&gt;</code> uses <code>less&lt;int&gt;</code> internally, which creates a max-heap. For a min-heap, specify all three template parameters: <code>priority_queue&lt;int, vector&lt;int&gt;, greater&lt;int&gt;&gt;</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Iterating and Erasing from a Map/Set Simultaneously (Wrong Way)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In C++11 and later, <code>erase()</code> on associative containers returns an iterator to the next element. Use this return value instead of manually incrementing. Notice the <code>++it</code> is in the else branch, not in the for loop header."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using unordered_map/unordered_set with Unhashable Types",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Unordered containers require a hash function for the key type. Built-in types (int, string) have default hashes, but <code>pair</code>, <code>tuple</code>, and custom structs do not. Either provide a custom hash functor or use the ordered variants (<code>set</code>, <code>map</code>) which only need <code>operator&lt;</code>."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">STL Containers - vector, list, map, set, stack, queue</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 20</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">60 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">STL Containers - vector, list, map, set, stack, queue</h1>
+            <a href="/resources/cpp/stl-containers/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are STL Containers?</h2><p>The <strong>Standard Template Library (STL)</strong> provides a collection of generic, type-safe container classes that store and organize data. Instead of writing your own linked list, binary search tree, or hash table from scratch, you use battle-tested containers like <code>vector</code>, <code>set</code>, <code>map</code>, and <code>unordered_map</code> that are already optimized and correct.</p><p>STL containers are divided into four categories:</p><ul><li><strong>Sequence containers</strong> -- store elements in a linear order: <code>vector</code>, <code>list</code>, <code>deque</code></li><li><strong>Associative containers</strong> -- store elements in sorted order using a balanced BST: <code>set</code>, <code>multiset</code>, <code>map</code>, <code>multimap</code></li><li><strong>Unordered containers</strong> -- store elements using hash tables for O(1) average access: <code>unordered_set</code>, <code>unordered_map</code></li><li><strong>Container adaptors</strong> -- wrap other containers with a restricted interface: <code>stack</code>, <code>queue</code>, <code>priority_queue</code></li></ul><pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;set&gt;
+#include &lt;map&gt;
+#include &lt;stack&gt;
+using namespace std;
+
+int main() {
+    // Sequence: ordered by insertion
+    vector&lt;int&gt; v = {5, 2, 8, 2, 1};
+
+    // Associative: sorted, unique
+    set&lt;int&gt; s(v.begin(), v.end());
+    // s = {1, 2, 5, 8} -- sorted, duplicates removed
+
+    // Associative: key-value, sorted by key
+    map&lt;string, int&gt; marks;
+    marks["Arjun"] = 85;
+    marks["Priya"] = 92;
+
+    // Container adaptor: LIFO
+    stack&lt;int&gt; st;
+    st.push(10);
+    st.push(20);
+    cout &lt;&lt; st.top() &lt;&lt; endl;  // 20
+    return 0;
+}</code></pre><p>When Rohan says "use a map for frequency counting" or Meera says "use a priority_queue for the greedy approach," every competitive programmer immediately knows the data structure and its time complexities.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are STL Containers Important?</h2><h3>1. Competitive Programming Efficiency</h3><p>In competitive programming, choosing the right container is half the solution. Need O(log n) lookups with sorted order? Use <code>set</code> or <code>map</code>. Need O(1) average lookups? Use <code>unordered_map</code>. Need a max-heap? Use <code>priority_queue</code>. Knowing which container to use and its time complexity directly determines whether your solution passes within the time limit.</p><h3>2. Correct by Construction</h3><p>STL containers handle memory management, resizing, rebalancing, and rehashing automatically. A <code>vector</code> grows dynamically, a <code>set</code> stays balanced, and an <code>unordered_map</code> rehashes when the load factor is too high. Implementing these from scratch is error-prone and time-consuming.</p><h3>3. Type Safety and Generic Programming</h3><p>STL containers are templates -- <code>vector&lt;int&gt;</code>, <code>map&lt;string, int&gt;</code>, <code>set&lt;pair&lt;int,int&gt;&gt;</code> -- providing compile-time type checking. You cannot accidentally insert a string into a <code>vector&lt;int&gt;</code>.</p><h3>4. Interoperability with STL Algorithms</h3><p>All STL containers expose iterators, making them compatible with STL algorithms like <code>sort</code>, <code>find</code>, <code>accumulate</code>, and <code>transform</code>. This uniform interface is one of the most powerful features of the STL.</p><h3>5. Interview and Placement Relevance</h3><p>Companies like Google, Amazon, Microsoft, Flipkart, and Razorpay expect fluency with STL containers. Interview problems frequently require choosing the right container, understanding time complexities, and using containers like <code>map</code>, <code>set</code>, and <code>priority_queue</code> effectively.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><p>The <strong>Standard Template Library (STL)</strong> provides a collection of generic, type-safe container classes that store and organize data. Instead of writing your own linked list, binary search tree, or hash table from scratch, you use battle-tested containers like <code>vector</code>, <code>set</code>, <code>map</code>, and <code>unordered_map</code> that are already optimized and correct.</p><p>STL containers are divided into four categories:</p><ul><li><strong>Sequence containers</strong> -- store elements in a linear order: <code>vector</code>, <code>list</code>, <code>deque</code></li><li><strong>Associative containers</strong> -- store elements in sorted order using a balanced BST: <code>set</code>, <code>multiset</code>, <code>map</code>, <code>multimap</code></li><li><strong>Unordered containers</strong> -- store elements using hash tables for O(1) average access: <code>unordered_set</code>, <code>unordered_map</code></li><li><strong>Container adaptors</strong> -- wrap other containers with a restricted interface: <code>stack</code>, <code>queue</code>, <code>priority_queue</code></li></ul><pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;set&gt;
+#include &lt;map&gt;
+#include &lt;stack&gt;
+using namespace std;
+
+int main() {
+    // Sequence: ordered by insertion
+    vector&lt;int&gt; v = {5, 2, 8, 2, 1};
+
+    // Associative: sorted, unique
+    set&lt;int&gt; s(v.begin(), v.end());
+    // s = {1, 2, 5, 8} -- sorted, duplicates removed
+
+    // Associative: key-value, sorted by key
+    map&lt;string, int&gt; marks;
+    marks["Arjun"] = 85;
+    marks["Priya"] = 92;
+
+    // Container adaptor: LIFO
+    stack&lt;int&gt; st;
+    st.push(10);
+    st.push(20);
+    cout &lt;&lt; st.top() &lt;&lt; endl;  // 20
+    return 0;
+}</code></pre><p>When Rohan says "use a map for frequency counting" or Meera says "use a priority_queue for the greedy approach," every competitive programmer immediately knows the data structure and its time complexities.</p><h3>1. Competitive Programming Efficiency</h3><p>In competitive programming, choosing the right container is half the solution. Need O(log n) lookups with sorted order? Use <code>set</code> or <code>map</code>. Need O(1) average lookups? Use <code>unordered_map</code>. Need a max-heap? Use <code>priority_queue</code>. Knowing which container to use and its time complexity directly determines whether your solution passes within the time limit.</p><h3>2. Correct by Construction</h3><p>STL containers handle memory management, resizing, rebalancing, and rehashing automatically. A <code>vector</code> grows dynamically, a <code>set</code> stays balanced, and an <code>unordered_map</code> rehashes when the load factor is too high. Implementing these from scratch is error-prone and time-consuming.</p><h3>3. Type Safety and Generic Programming</h3><p>STL containers are templates -- <code>vector&lt;int&gt;</code>, <code>map&lt;string, int&gt;</code>, <code>set&lt;pair&lt;int,int&gt;&gt;</code> -- providing compile-time type checking. You cannot accidentally insert a string into a <code>vector&lt;int&gt;</code>.</p><h3>4. Interoperability with STL Algorithms</h3><p>All STL containers expose iterators, making them compatible with STL algorithms like <code>sort</code>, <code>find</code>, <code>accumulate</code>, and <code>transform</code>. This uniform interface is one of the most powerful features of the STL.</p><h3>5. Interview and Placement Relevance</h3><p>Companies like Google, Amazon, Microsoft, Flipkart, and Razorpay expect fluency with STL containers. Interview problems frequently require choosing the right container, understanding time complexities, and using containers like <code>map</code>, <code>set</code>, and <code>priority_queue</code> effectively.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Vector: Dynamic Array with Random Access</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+using namespace std;
+
+int main() {
+    vector&lt;int&gt; v;
+    v.push_back(10);
+    v.push_back(20);
+    v.push_back(30);
+
+    // Access by index
+    cout &lt;&lt; &quot;v[1] = &quot; &lt;&lt; v[1] &lt;&lt; endl;
+    cout &lt;&lt; &quot;v.at(2) = &quot; &lt;&lt; v.at(2) &lt;&lt; endl;
+
+    // Size vs Capacity
+    cout &lt;&lt; &quot;Size: &quot; &lt;&lt; v.size() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Capacity: &quot; &lt;&lt; v.capacity() &lt;&lt; endl;
+
+    // Reserve to avoid reallocations
+    v.reserve(100);
+    cout &lt;&lt; &quot;After reserve(100), Capacity: &quot; &lt;&lt; v.capacity() &lt;&lt; endl;
+
+    // Resize changes size (fills with default value)
+    v.resize(5, 0);
+    for (int x : v) cout &lt;&lt; x &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+
+    // pop_back removes last element
+    v.pop_back();
+    cout &lt;&lt; &quot;After pop_back, size: &quot; &lt;&lt; v.size() &lt;&lt; endl;
+
+    // clear removes all
+    v.clear();
+    cout &lt;&lt; &quot;After clear, size: &quot; &lt;&lt; v.size() &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">Vector is the most commonly used container in C++. <code>push_back</code> is amortized O(1), random access via <code>[]</code> or <code>at()</code> is O(1). The key difference: <code>[]</code> has no bounds checking while <code>at()</code> throws <code>out_of_range</code>. Use <code>reserve()</code> when you know the approximate size upfront to avoid repeated reallocations.</div><div class="code-example-output">v[1] = 20
+v.at(2) = 30
+Size: 3
+Capacity: 4
+After reserve(100), Capacity: 100
+10 20 30 0 0
+After pop_back, size: 4
+After clear, size: 0</div></div>
+<div class="code-example"><div class="code-example-title">Set and Multiset: Sorted Unique and Sorted with Duplicates</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;set&gt;
+using namespace std;
+
+int main() {
+    // set: sorted, unique elements
+    set&lt;int&gt; s = {5, 2, 8, 2, 1, 5};
+    cout &lt;&lt; &quot;Set: &quot;;
+    for (int x : s) cout &lt;&lt; x &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;  // 1 2 5 8
+
+    s.insert(3);
+    s.insert(2);  // duplicate, ignored
+    cout &lt;&lt; &quot;After insert 3 and 2: &quot;;
+    for (int x : s) cout &lt;&lt; x &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+
+    // find and count
+    if (s.find(3) != s.end()) cout &lt;&lt; &quot;3 found&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;count(2) = &quot; &lt;&lt; s.count(2) &lt;&lt; endl;  // 0 or 1
+
+    // lower_bound and upper_bound
+    auto lb = s.lower_bound(3);  // first &gt;= 3
+    auto ub = s.upper_bound(5);  // first &gt; 5
+    cout &lt;&lt; &quot;lower_bound(3) = &quot; &lt;&lt; *lb &lt;&lt; endl;
+    cout &lt;&lt; &quot;upper_bound(5) = &quot; &lt;&lt; *ub &lt;&lt; endl;
+
+    // multiset: allows duplicates
+    multiset&lt;int&gt; ms = {5, 2, 8, 2, 1, 5};
+    cout &lt;&lt; &quot;Multiset: &quot;;
+    for (int x : ms) cout &lt;&lt; x &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;  // 1 2 2 5 5 8
+    cout &lt;&lt; &quot;count(2) = &quot; &lt;&lt; ms.count(2) &lt;&lt; endl;  // 2
+    return 0;
+}</code></pre><div class="code-example-explanation">A <code>set</code> stores unique elements in sorted order using a balanced BST (usually red-black tree). All operations -- insert, find, count, erase, lower_bound, upper_bound -- are O(log n). A <code>multiset</code> allows duplicates while maintaining sorted order. Use <code>set</code> when you need sorted unique values and O(log n) lookups.</div><div class="code-example-output">Set: 1 2 5 8
+After insert 3 and 2: 1 2 3 5 8
+3 found
+count(2) = 1
+lower_bound(3) = 3
+upper_bound(5) = 8
+Multiset: 1 2 2 5 5 8
+count(2) = 2</div></div>
+<div class="code-example"><div class="code-example-title">Map and Multimap: Key-Value Pairs Sorted by Key</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;map&gt;
+using namespace std;
+
+int main() {
+    // map: sorted by key, unique keys
+    map&lt;string, int&gt; marks;
+    marks[&quot;Arjun&quot;] = 85;
+    marks[&quot;Priya&quot;] = 92;
+    marks[&quot;Kiran&quot;] = 78;
+    marks.insert({&quot;Neha&quot;, 88});
+
+    // Iterate (sorted by key)
+    for (auto&amp; [name, score] : marks)
+        cout &lt;&lt; name &lt;&lt; &quot;: &quot; &lt;&lt; score &lt;&lt; endl;
+
+    // Access with [] (creates if missing!) vs at() (throws if missing)
+    marks[&quot;Ravi&quot;];  // Creates entry with value 0!
+    cout &lt;&lt; &quot;Ravi (auto-created): &quot; &lt;&lt; marks[&quot;Ravi&quot;] &lt;&lt; endl;
+
+    // Safe access with find
+    auto it = marks.find(&quot;Priya&quot;);
+    if (it != marks.end())
+        cout &lt;&lt; &quot;Found Priya: &quot; &lt;&lt; it-&gt;second &lt;&lt; endl;
+
+    // Frequency counting pattern
+    string text = &quot;hello world&quot;;
+    map&lt;char, int&gt; freq;
+    for (char c : text) freq[c]++;
+    for (auto&amp; [ch, cnt] : freq)
+        cout &lt;&lt; ch &lt;&lt; &quot;:&quot; &lt;&lt; cnt &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+
+    // multimap: allows duplicate keys
+    multimap&lt;string, int&gt; scores;
+    scores.insert({&quot;Arjun&quot;, 85});
+    scores.insert({&quot;Arjun&quot;, 90});
+    cout &lt;&lt; &quot;Arjun count: &quot; &lt;&lt; scores.count(&quot;Arjun&quot;) &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">A <code>map</code> stores key-value pairs sorted by key using a balanced BST. All operations are O(log n). The <code>[]</code> operator is dangerous because it inserts a default-constructed value if the key does not exist. Use <code>find()</code> or <code>at()</code> for safe access. The frequency counting pattern (<code>freq[c]++</code>) is one of the most common uses of map in competitive programming.</div><div class="code-example-output">Arjun: 85
+Kiran: 78
+Neha: 88
+Priya: 92
+Ravi (auto-created): 0
+Found Priya: 92
+ :1 d:1 e:1 h:1 l:3 o:2 r:1 w:1
+Arjun count: 2</div></div>
+<div class="code-example"><div class="code-example-title">Unordered Map and Unordered Set: O(1) Average Lookups</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;unordered_map&gt;
+#include &lt;unordered_set&gt;
+using namespace std;
+
+int main() {
+    // unordered_set: hash-based, O(1) average, no order
+    unordered_set&lt;int&gt; us = {5, 2, 8, 2, 1};
+    us.insert(3);
+    cout &lt;&lt; &quot;Contains 3? &quot; &lt;&lt; (us.count(3) ? &quot;Yes&quot; : &quot;No&quot;) &lt;&lt; endl;
+
+    // unordered_map: hash-based key-value, O(1) average
+    unordered_map&lt;string, int&gt; marks;
+    marks[&quot;Arjun&quot;] = 85;
+    marks[&quot;Priya&quot;] = 92;
+    marks[&quot;Kiran&quot;] = 78;
+
+    // Fast frequency counting (faster than map for large inputs)
+    string text = &quot;competitive programming&quot;;
+    unordered_map&lt;char, int&gt; freq;
+    for (char c : text) freq[c]++;
+    cout &lt;&lt; &quot;Frequency of &#39;e&#39;: &quot; &lt;&lt; freq[&#39;e&#39;] &lt;&lt; endl;
+
+    // Two Sum problem: classic unordered_map usage
+    vector&lt;int&gt; nums = {2, 7, 11, 15};
+    int target = 9;
+    unordered_map&lt;int, int&gt; seen;
+    for (int i = 0; i &lt; nums.size(); i++) {
+        int complement = target - nums[i];
+        if (seen.count(complement)) {
+            cout &lt;&lt; &quot;Pair found: [&quot; &lt;&lt; seen[complement] &lt;&lt; &quot;, &quot; &lt;&lt; i &lt;&lt; &quot;]&quot; &lt;&lt; endl;
+            break;
+        }
+        seen[nums[i]] = i;
+    }
+    return 0;
+}</code></pre><div class="code-example-explanation">Unordered containers use hash tables for O(1) average-case insert, find, and erase. They are faster than <code>set</code>/<code>map</code> for most cases but do not maintain sorted order. The Two Sum problem is a classic example where <code>unordered_map</code> gives an O(n) solution instead of O(n log n) with sorted containers.</div><div class="code-example-output">Contains 3? Yes
+Frequency of &#39;e&#39;: 2
+Pair found: [0, 1]</div></div>
+<div class="code-example"><div class="code-example-title">Stack, Queue, and Priority Queue: Container Adaptors</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;stack&gt;
+#include &lt;queue&gt;
+using namespace std;
+
+int main() {
+    // Stack: LIFO
+    stack&lt;int&gt; st;
+    st.push(10);
+    st.push(20);
+    st.push(30);
+    cout &lt;&lt; &quot;Stack top: &quot; &lt;&lt; st.top() &lt;&lt; endl;
+    st.pop();
+    cout &lt;&lt; &quot;After pop, top: &quot; &lt;&lt; st.top() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Stack size: &quot; &lt;&lt; st.size() &lt;&lt; endl;
+
+    // Queue: FIFO
+    queue&lt;int&gt; q;
+    q.push(10);
+    q.push(20);
+    q.push(30);
+    cout &lt;&lt; &quot;Queue front: &quot; &lt;&lt; q.front() &lt;&lt; &quot;, back: &quot; &lt;&lt; q.back() &lt;&lt; endl;
+    q.pop();
+    cout &lt;&lt; &quot;After pop, front: &quot; &lt;&lt; q.front() &lt;&lt; endl;
+
+    // Priority Queue: max-heap by default
+    priority_queue&lt;int&gt; pq;
+    pq.push(30);
+    pq.push(10);
+    pq.push(50);
+    pq.push(20);
+    cout &lt;&lt; &quot;Max-heap top: &quot; &lt;&lt; pq.top() &lt;&lt; endl;
+    pq.pop();
+    cout &lt;&lt; &quot;After pop: &quot; &lt;&lt; pq.top() &lt;&lt; endl;
+
+    // Min-heap using greater&lt;int&gt;
+    priority_queue&lt;int, vector&lt;int&gt;, greater&lt;int&gt;&gt; minPQ;
+    minPQ.push(30);
+    minPQ.push(10);
+    minPQ.push(50);
+    minPQ.push(20);
+    cout &lt;&lt; &quot;Min-heap top: &quot; &lt;&lt; minPQ.top() &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">Container adaptors provide restricted interfaces over other containers. <code>stack</code> is LIFO (push/pop/top), <code>queue</code> is FIFO (push/pop/front/back), and <code>priority_queue</code> is a max-heap by default. For a min-heap, pass <code>greater&lt;int&gt;</code> as the third template argument. All push/pop operations are O(log n) for priority_queue and O(1) for stack/queue.</div><div class="code-example-output">Stack top: 30
+After pop, top: 20
+Stack size: 2
+Queue front: 10, back: 30
+After pop, front: 20
+Max-heap top: 50
+After pop: 30
+Min-heap top: 10</div></div>
+<div class="code-example"><div class="code-example-title">Priority Queue with Custom Comparator for Dijkstra-Style Processing</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;queue&gt;
+#include &lt;vector&gt;
+using namespace std;
+
+int main() {
+    // Custom comparator: process by shortest distance first
+    // pair&lt;distance, node&gt;
+    using P = pair&lt;int, int&gt;;
+    priority_queue&lt;P, vector&lt;P&gt;, greater&lt;P&gt;&gt; pq;
+
+    pq.push({5, 1});   // node 1, distance 5
+    pq.push({2, 3});   // node 3, distance 2
+    pq.push({8, 2});   // node 2, distance 8
+    pq.push({1, 4});   // node 4, distance 1
+
+    cout &lt;&lt; &quot;Processing order (shortest distance first):&quot; &lt;&lt; endl;
+    while (!pq.empty()) {
+        auto [dist, node] = pq.top();
+        pq.pop();
+        cout &lt;&lt; &quot;Node &quot; &lt;&lt; node &lt;&lt; &quot;, distance &quot; &lt;&lt; dist &lt;&lt; endl;
+    }
+
+    // Custom struct with lambda comparator
+    struct Task {
+        string name;
+        int priority;
+    };
+    auto cmp = [](const Task&amp; a, const Task&amp; b) {
+        return a.priority &lt; b.priority;  // higher priority first
+    };
+    priority_queue&lt;Task, vector&lt;Task&gt;, decltype(cmp)&gt; taskQ(cmp);
+    taskQ.push({&quot;Debug&quot;, 3});
+    taskQ.push({&quot;Deploy&quot;, 5});
+    taskQ.push({&quot;Test&quot;, 4});
+
+    cout &lt;&lt; &quot;\nTask processing order:&quot; &lt;&lt; endl;
+    while (!taskQ.empty()) {
+        auto&amp; t = taskQ.top();
+        cout &lt;&lt; t.name &lt;&lt; &quot; (priority &quot; &lt;&lt; t.priority &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+        taskQ.pop();
+    }
+    return 0;
+}</code></pre><div class="code-example-explanation">This shows the Dijkstra-style min-heap pattern using <code>priority_queue</code> with <code>greater&lt;pair&lt;int,int&gt;&gt;</code>. Pairs are compared lexicographically, so smallest distance comes first. The second example demonstrates a custom struct with a lambda comparator passed via <code>decltype</code>. This pattern appears in graph algorithms, task scheduling, and event-driven simulations.</div><div class="code-example-output">Processing order (shortest distance first):
+Node 4, distance 1
+Node 3, distance 2
+Node 1, distance 5
+Node 2, distance 8
+
+Task processing order:
+Deploy (priority 5)
+Test (priority 4)
+Debug (priority 3)</div></div>
+<div class="code-example"><div class="code-example-title">List and Deque: Insert/Remove at Both Ends</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;list&gt;
+#include &lt;deque&gt;
+using namespace std;
+
+int main() {
+    // list: doubly-linked list, O(1) insert/erase anywhere with iterator
+    list&lt;int&gt; lst = {10, 20, 30};
+    lst.push_front(5);
+    lst.push_back(40);
+    auto it = lst.begin();
+    advance(it, 2);  // move to 3rd element
+    lst.insert(it, 15);  // insert before 3rd element
+
+    cout &lt;&lt; &quot;List: &quot;;
+    for (int x : lst) cout &lt;&lt; x &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+
+    lst.remove(20);  // remove all occurrences of 20
+    cout &lt;&lt; &quot;After remove(20): &quot;;
+    for (int x : lst) cout &lt;&lt; x &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+
+    // deque: double-ended queue, O(1) push/pop at both ends + random access
+    deque&lt;int&gt; dq = {20, 30, 40};
+    dq.push_front(10);
+    dq.push_back(50);
+    cout &lt;&lt; &quot;Deque: &quot;;
+    for (int x : dq) cout &lt;&lt; x &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+    cout &lt;&lt; &quot;dq[2] = &quot; &lt;&lt; dq[2] &lt;&lt; endl;  // random access!
+
+    dq.pop_front();
+    dq.pop_back();
+    cout &lt;&lt; &quot;After pop front and back: &quot;;
+    for (int x : dq) cout &lt;&lt; x &lt;&lt; &quot; &quot;;
+    cout &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">A <code>list</code> is a doubly-linked list with O(1) insert/erase at any position (given an iterator) but no random access. A <code>deque</code> (double-ended queue) supports O(1) push/pop at both ends AND random access via <code>[]</code>. Use <code>list</code> when you need frequent insertions/deletions in the middle. Use <code>deque</code> when you need fast operations at both ends plus random access.</div><div class="code-example-output">List: 5 10 15 30 40
+After remove(20): 5 10 15 30 40
+Deque: 10 20 30 40 50
+dq[2] = 30
+After pop front and back: 20 30 40</div></div>
+<div class="code-example"><div class="code-example-title">Time Complexity Comparison of STL Containers</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;=== STL Container Time Complexity ===&quot;   &lt;&lt; endl;
+    cout &lt;&lt; endl;
+    cout &lt;&lt; &quot;SEQUENCE CONTAINERS:&quot;                    &lt;&lt; endl;
+    cout &lt;&lt; &quot;vector:  access O(1) | push_back O(1)* | insert O(n) | find O(n)&quot;  &lt;&lt; endl;
+    cout &lt;&lt; &quot;list:    access O(n) | push_front O(1)  | insert O(1) | find O(n)&quot;  &lt;&lt; endl;
+    cout &lt;&lt; &quot;deque:   access O(1) | push_front O(1)  | insert O(n) | find O(n)&quot;  &lt;&lt; endl;
+    cout &lt;&lt; endl;
+    cout &lt;&lt; &quot;ASSOCIATIVE CONTAINERS (balanced BST):&quot;  &lt;&lt; endl;
+    cout &lt;&lt; &quot;set:     insert O(log n) | find O(log n) | erase O(log n) | sorted&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;map:     insert O(log n) | find O(log n) | []/at O(log n) | sorted&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;multiset/multimap: same as set/map but allow duplicates&quot;             &lt;&lt; endl;
+    cout &lt;&lt; endl;
+    cout &lt;&lt; &quot;UNORDERED CONTAINERS (hash table):&quot;      &lt;&lt; endl;
+    cout &lt;&lt; &quot;unordered_set: insert O(1)* | find O(1)* | erase O(1)* | no order&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;unordered_map: insert O(1)* | find O(1)* | []/at O(1)* | no order&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;* = amortized / average case&quot;            &lt;&lt; endl;
+    cout &lt;&lt; endl;
+    cout &lt;&lt; &quot;CONTAINER ADAPTORS:&quot;                     &lt;&lt; endl;
+    cout &lt;&lt; &quot;stack:          push O(1) | pop O(1) | top O(1)&quot;                   &lt;&lt; endl;
+    cout &lt;&lt; &quot;queue:          push O(1) | pop O(1) | front O(1)&quot;                 &lt;&lt; endl;
+    cout &lt;&lt; &quot;priority_queue: push O(log n) | pop O(log n) | top O(1)&quot;           &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">This reference program prints the time complexity of every major STL container operation. In competitive programming, choosing the wrong container (e.g., map when unordered_map suffices) can be the difference between TLE and AC. Memorize these complexities.</div><div class="code-example-output">=== STL Container Time Complexity ===
+
+SEQUENCE CONTAINERS:
+vector:  access O(1) | push_back O(1)* | insert O(n) | find O(n)
+list:    access O(n) | push_front O(1)  | insert O(1) | find O(n)
+deque:   access O(1) | push_front O(1)  | insert O(n) | find O(n)
+
+ASSOCIATIVE CONTAINERS (balanced BST):
+set:     insert O(log n) | find O(log n) | erase O(log n) | sorted
+map:     insert O(log n) | find O(log n) | []/at O(log n) | sorted
+multiset/multimap: same as set/map but allow duplicates
+
+UNORDERED CONTAINERS (hash table):
+unordered_set: insert O(1)* | find O(1)* | erase O(1)* | no order
+unordered_map: insert O(1)* | find O(1)* | []/at O(1)* | no order
+* = amortized / average case
+
+CONTAINER ADAPTORS:
+stack:          push O(1) | pop O(1) | top O(1)
+queue:          push O(1) | pop O(1) | front O(1)
+priority_queue: push O(log n) | pop O(log n) | top O(1)</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using map[] for Lookup Instead of find()</h3>
+                <div class="wrong-code"><pre><code class="language-python">map&lt;string, int&gt; m;
+m[&quot;Arjun&quot;] = 85;
+if (m[&quot;Priya&quot;] &gt; 0)
+    cout &lt;&lt; &quot;Priya found&quot; &lt;&lt; endl;
+// Bug: m[&quot;Priya&quot;] was just created with value 0!</code></pre></div><div class="error-message">The [] operator on a map creates a new entry with a default-constructed value if the key does not exist. This silently inserts unwanted entries and can corrupt your data.</div><div class="correct-code"><pre><code class="language-python">map&lt;string, int&gt; m;
+m[&quot;Arjun&quot;] = 85;
+auto it = m.find(&quot;Priya&quot;);
+if (it != m.end())
+    cout &lt;&lt; &quot;Priya found: &quot; &lt;&lt; it-&gt;second &lt;&lt; endl;
+else
+    cout &lt;&lt; &quot;Priya not found&quot; &lt;&lt; endl;</code></pre></div><div class="mistake-explanation">Use <code>find()</code> or <code>count()</code> to check existence without inserting. The <code>[]</code> operator should only be used when you want to create or overwrite an entry.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Modifying a set Element Directly</h3>
+                <div class="wrong-code"><pre><code class="language-python">set&lt;int&gt; s = {10, 20, 30};
+auto it = s.find(20);
+*it = 25;  // Compilation error!</code></pre></div><div class="error-message">Elements in a set are const because modifying them could break the sorted order maintained by the internal BST. The set would no longer be valid.</div><div class="correct-code"><pre><code class="language-python">set&lt;int&gt; s = {10, 20, 30};
+s.erase(20);
+s.insert(25);
+// s = {10, 25, 30}</code></pre></div><div class="mistake-explanation">To change a value in a set, you must erase the old value and insert the new one. This ensures the sorted invariant is maintained. The same applies to keys in a map.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting That priority_queue Is a Max-Heap by Default</h3>
+                <div class="wrong-code"><pre><code class="language-python">priority_queue&lt;int&gt; pq;
+pq.push(10);
+pq.push(30);
+pq.push(20);
+cout &lt;&lt; pq.top() &lt;&lt; endl;  // Prints 30, not 10!
+// Programmer expected min-heap behavior</code></pre></div><div class="error-message">C++ priority_queue is a max-heap by default. The largest element is at the top. If you need a min-heap, you must explicitly specify greater&lt;int&gt;.</div><div class="correct-code"><pre><code class="language-python">priority_queue&lt;int, vector&lt;int&gt;, greater&lt;int&gt;&gt; pq;  // min-heap
+pq.push(10);
+pq.push(30);
+pq.push(20);
+cout &lt;&lt; pq.top() &lt;&lt; endl;  // 10 (smallest first)</code></pre></div><div class="mistake-explanation">The default <code>priority_queue&lt;int&gt;</code> uses <code>less&lt;int&gt;</code> internally, which creates a max-heap. For a min-heap, specify all three template parameters: <code>priority_queue&lt;int, vector&lt;int&gt;, greater&lt;int&gt;&gt;</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Iterating and Erasing from a Map/Set Simultaneously (Wrong Way)</h3>
+                <div class="wrong-code"><pre><code class="language-python">map&lt;string, int&gt; m = {{&quot;a&quot;, 1}, {&quot;b&quot;, 2}, {&quot;c&quot;, 3}};
+for (auto it = m.begin(); it != m.end(); ++it) {
+    if (it-&gt;second &lt; 3)
+        m.erase(it);  // Iterator invalidated!
+}</code></pre></div><div class="error-message">Erasing an element from a map/set invalidates the iterator pointing to that element. Incrementing an invalidated iterator is undefined behavior.</div><div class="correct-code"><pre><code class="language-python">map&lt;string, int&gt; m = {{&quot;a&quot;, 1}, {&quot;b&quot;, 2}, {&quot;c&quot;, 3}};
+for (auto it = m.begin(); it != m.end(); ) {
+    if (it-&gt;second &lt; 3)
+        it = m.erase(it);  // erase returns next valid iterator
+    else
+        ++it;
+}</code></pre></div><div class="mistake-explanation">In C++11 and later, <code>erase()</code> on associative containers returns an iterator to the next element. Use this return value instead of manually incrementing. Notice the <code>++it</code> is in the else branch, not in the for loop header.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using unordered_map/unordered_set with Unhashable Types</h3>
+                <div class="wrong-code"><pre><code class="language-python">unordered_set&lt;pair&lt;int,int&gt;&gt; s;
+s.insert({1, 2});  // Compilation error!</code></pre></div><div class="error-message">std::pair does not have a default hash function, so it cannot be used directly in unordered containers. You need a custom hash or use an ordered set instead.</div><div class="correct-code"><pre><code class="language-python">// Option 1: Use ordered set (simpler)
+set&lt;pair&lt;int,int&gt;&gt; s;
+s.insert({1, 2});
+
+// Option 2: Custom hash for unordered_set
+struct PairHash {
+    size_t operator()(const pair&lt;int,int&gt;&amp; p) const {
+        return hash&lt;long long&gt;()(((long long)p.first &lt;&lt; 32) | p.second);
+    }
+};
+unordered_set&lt;pair&lt;int,int&gt;, PairHash&gt; us;
+us.insert({1, 2});</code></pre></div><div class="mistake-explanation">Unordered containers require a hash function for the key type. Built-in types (int, string) have default hashes, but <code>pair</code>, <code>tuple</code>, and custom structs do not. Either provide a custom hash functor or use the ordered variants (<code>set</code>, <code>map</code>) which only need <code>operator&lt;</code>.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Sequence containers store elements in insertion order. vector provides O(1) random access and amortized O(1) push_back but O(n) insertion in the middle. list provides O(1) insertion/deletion anywhere with an iterator but no random access. deque provides O(1) push/pop at both ends plus random access.</li>
+<li>Associative containers (set, multiset, map, multimap) use balanced BSTs internally. All operations are O(log n). Elements are always sorted. set stores unique values, multiset allows duplicates, map stores unique key-value pairs, multimap allows duplicate keys.</li>
+<li>Unordered containers (unordered_set, unordered_map) use hash tables. Average-case operations are O(1), worst-case O(n). They do not maintain any order. Use them when you need fast lookups and do not care about order.</li>
+<li>Container adaptors wrap other containers with restricted interfaces. stack (LIFO), queue (FIFO), and priority_queue (heap). priority_queue is a max-heap by default; use greater&lt;T&gt; for a min-heap.</li>
+<li>The map [] operator inserts a default value if the key does not exist. Use find() or count() for safe lookups. The at() method throws out_of_range if the key is missing.</li>
+<li>For competitive programming: use vector for arrays, unordered_map for frequency counting, set for sorted unique elements, and priority_queue for greedy algorithms. Know the time complexity of every operation.</li>
+<li>vector::reserve() pre-allocates memory without changing size. vector::resize() changes the size. Use reserve() when you know the approximate number of elements to avoid reallocations.</li>
+<li>Elements in a set/map cannot be modified in place because it would break the sorted invariant. Erase the old element and insert the new one instead.</li>
+<li>When erasing from a map/set while iterating, use the iterator returned by erase() to avoid iterator invalidation. The pattern is: it = container.erase(it).</li>
+<li>Choose the right container based on your needs: sorted order with O(log n) -&gt; set/map, O(1) average lookup -&gt; unordered_set/unordered_map, LIFO -&gt; stack, FIFO -&gt; queue, priority processing -&gt; priority_queue.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/exception-handling-in-cpp" class="related-topic-link">Exception Handling (try, catch, throw)</a>
+<a href="/resources/cpp/stl-algorithms-and-iterators" class="related-topic-link">STL Algorithms and Iterators</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/exception-handling-in-cpp" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Exception Handling (try, catch, throw)</span>
+        </a>
+            <a href="/resources/cpp/stl-algorithms-and-iterators" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">STL Algorithms and Iterators</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/stl-containers/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

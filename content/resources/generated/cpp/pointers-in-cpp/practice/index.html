@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Pointers and References | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="60+ practice questions on Pointers and References in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="pointers and references practice, c++ questions, c++ practice problems, pointers and references exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/pointers-in-cpp/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/pointers-in-cpp/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/pointers-in-cpp/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/pointers-in-cpp/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/pointers-in-cpp/practice">
+    <meta property="og:title" content="Practice Questions - Pointers and References | C++ | Modern Age Coders">
+    <meta property="og:description" content="60+ practice questions on Pointers and References in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/pointers-in-cpp/practice">
+    <meta name="twitter:title" content="Practice Questions - Pointers and References | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="60+ practice questions on Pointers and References in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Pointers and References",
+    "description": "60+ practice questions on Pointers and References in C++.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Pointers and References"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/pointers-in-cpp/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Pointers and References",
+        "item": "https://learn.modernagecoders.com/resources/cpp/pointers-in-cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/pointers-in-cpp/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/pointers-in-cpp">Pointers and References</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 11</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">60 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Pointers and References</h1>
+            <a href="/resources/cpp/pointers-in-cpp" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>int x = 10;
+int* p = &x;
+cout << *p;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The dereference operator (*) accesses the value at the address stored in the pointer.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int a = 5;
+int* p = &a;
+*p = 15;
+cout << a;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Modifying *p modifies the variable that p points to.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int arr[] = {10, 20, 30};
+cout << *arr;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">An array name decays to a pointer to its first element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 100;
+int& ref = x;
+ref = 200;
+cout << x;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">A reference is an alias for the original variable.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>200</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int* p = nullptr;
+if (p == nullptr)
+    cout << "null";
+else
+    cout << *p;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">nullptr means the pointer does not point to valid memory.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>null</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int arr[] = {10, 20, 30, 40, 50};
+int* p = arr;
+p += 2;
+cout << *p << endl;
+cout << *(p + 1) << endl;
+cout << p[-1] << endl;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">p += 2 advances the pointer by 2 elements. p[-1] is equivalent to *(p - 1).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>30</code><br><code>40</code><br><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 5;
+int* p = &x;
+int** pp = &p;
+
+cout << **pp << endl;
+**pp = 25;
+cout << x << endl;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">A pointer to pointer requires double dereferencing to reach the final value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>5</code><br><code>25</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>void modify(int* p) {
+    *p = *p + 10;
+}
+
+int x = 5;
+modify(&x);
+cout << x;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">The function receives a pointer to x and modifies the value at that address.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int arr[] = {1, 2, 3, 4, 5};
+int* p = arr + 4;
+cout << *p << endl;
+cout << p - arr << endl;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Pointer subtraction gives the number of elements between two addresses.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>5</code><br><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int arr[] = {10, 20, 30, 40};
+int* p = arr;
+int* q = arr + 3;
+
+cout << *p + *q << endl;
+cout << *(p + 1) + *(q - 1) << endl;
+cout << q - p << endl;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">p points to arr[0], q points to arr[3]. Compute each expression carefully.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>50</code><br><code>50</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>char str[] = "Hello";
+char* p = str;
+while (*p != '\0') {
+    cout << *p;
+    p++;
+}
+cout << endl;
+cout << p - str;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">The pointer traverses the string character by character until the null terminator.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>Hello</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 10, y = 20;
+const int* p = &x;
+cout << *p << endl;
+p = &y;
+cout << *p << endl;
+// *p = 30;  // Would this compile?</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">const int* means the value is read-only through the pointer, but the pointer can be reassigned.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>10</code><br><code>20</code><br>(The commented line would NOT compile: cannot modify value through pointer to const)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int arr[] = {5, 10, 15, 20, 25};
+int* p = arr;
+
+cout << *p++ << endl;
+cout << *p << endl;
+cout << *++p << endl;
+cout << ++*p << endl;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">*p++ dereferences first then increments the pointer. *++p increments the pointer first then dereferences. ++*p increments the value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>5</code><br><code>10</code><br><code>15</code><br><code>16</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int a = 3, b = 7;
+int* p = &a;
+int* q = &b;
+cout << *p + *q;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Dereference both pointers and add the values.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 10;
+int* p = &x;
+int& ref = x;
+*p = 20;
+cout << ref;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Both the pointer and the reference point to the same variable x.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between a null pointer and a wild pointer?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">One is intentionally set to nothing; the other was never set at all.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">A <strong>null pointer</strong> is explicitly set to <code>nullptr</code> -- it points to nothing and can be safely checked. A <strong>wild pointer</strong> is an uninitialized pointer that contains a garbage address. Dereferencing either is undefined behavior, but a null pointer can be checked (<code>if (p != nullptr)</code>), while a wild pointer gives no indication that it is invalid.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>int arr[] = {2, 4, 6, 8};
+int* p = arr;
+int sum = 0;
+for (int i = 0; i < 4; i++) {
+    sum += *(p + i);
+}
+cout << sum;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">*(p + i) accesses each element of the array through the pointer.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>void changePointer(int** pp, int* newAddr) {
+    *pp = newAddr;
+}
+
+int a = 10, b = 20;
+int* p = &a;
+cout << *p << endl;
+changePointer(&p, &b);
+cout << *p << endl;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">The function receives a pointer to pointer and changes what the original pointer points to.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>10</code><br><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When should you use a pointer instead of a reference in C++?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Think about null values, reassignment, and dynamic memory.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">Use pointers when: (1) the target might be null/optional, (2) you need to reassign to different objects during the lifetime, (3) you need pointer arithmetic, (4) you are working with <code>new</code>/<code>delete</code> (dynamic memory). Use references when: (1) the target is always valid, (2) you want cleaner syntax without <code>*</code> and <code>&</code>, (3) you are passing function parameters for modification.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int x = 5;
+int* p = &x;
+int** pp = &p;
+int*** ppp = &pp;
+
+cout << ***ppp << endl;
+***ppp = 99;
+cout << x << endl;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Three levels of indirection. Dereference three times to reach x.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>5</code><br><code>99</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>int a = 10, b = 20, c = 30;
+int* arr[] = {&a, &b, &c};
+int** p = arr;
+
+cout << **p << endl;
+p++;
+cout << **p << endl;
+cout << **(p + 1) << endl;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">arr is an array of pointers. p is a pointer to the first element of that array.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>10</code><br><code>20</code><br><code>30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>void mystery(int* a, int& b) {
+    *a += b;
+    b += *a;
+}
+
+int x = 3, y = 4;
+mystery(&x, y);
+cout << x << " " << y;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Both a and &b refer to the original variables. Trace the operations step by step.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>7 11</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does the & operator do when used with a variable?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Multiplies the variable by its address</li><li><span class="mcq-option-label">B.</span> Returns the memory address of the variable</li><li><span class="mcq-option-label">C.</span> Dereferences a pointer</li><li><span class="mcq-option-label">D.</span> Declares a reference variable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>&</code> operator, when used as a unary operator with a variable (e.g., <code>&x</code>), returns its memory address. In declarations like <code>int& ref = x</code>, it creates a reference (D), but the question asks about using it with an existing variable.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What is the correct way to declare a pointer to an integer in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> int p;</li><li><span class="mcq-option-label">B.</span> int *p;</li><li><span class="mcq-option-label">C.</span> pointer int p;</li><li><span class="mcq-option-label">D.</span> int &amp;p;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>int *p;</code> (or <code>int* p;</code>) declares a pointer to an integer. <code>int p;</code> (A) declares a regular integer. <code>pointer int p;</code> (C) is not valid C++ syntax. <code>int &p;</code> (D) declares a reference, which must be initialized.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What value should an uninitialized pointer be set to in modern C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> NULL</li><li><span class="mcq-option-label">C.</span> nullptr</li><li><span class="mcq-option-label">D.</span> void</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>nullptr</code> (C++11) is the type-safe null pointer constant. <code>NULL</code> (B) and <code>0</code> (A) work but are not type-safe -- they can be confused with integers. <code>void</code> (D) is a type, not a value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is the output of sizeof(int*) on a 64-bit system?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 4</li><li><span class="mcq-option-label">B.</span> 8</li><li><span class="mcq-option-label">C.</span> Depends on the type pointed to</li><li><span class="mcq-option-label">D.</span> Depends on the compiler</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> On a 64-bit system, all pointers are 8 bytes because they must be able to address the entire 64-bit address space. The size of a pointer does not depend on the type it points to -- <code>int*</code>, <code>double*</code>, and <code>char*</code> are all 8 bytes on 64-bit.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which statement about references in C++ is true?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A reference can be null</li><li><span class="mcq-option-label">B.</span> A reference can be reassigned to another variable after initialization</li><li><span class="mcq-option-label">C.</span> A reference must be initialized when declared</li><li><span class="mcq-option-label">D.</span> A reference requires dereferencing with * to access the value</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> A reference must be initialized at declaration and cannot be null (A is false) or reassigned to another variable (B is false). References are accessed directly without any dereference operator (D is false).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does the expression arr[i] internally translate to in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &amp;arr + i</li><li><span class="mcq-option-label">B.</span> *(arr + i)</li><li><span class="mcq-option-label">C.</span> arr * i</li><li><span class="mcq-option-label">D.</span> &amp;(arr + i)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> Array subscript <code>arr[i]</code> is syntactic sugar for <code>*(arr + i)</code>. The array name decays to a pointer to the first element, pointer arithmetic computes the address of the i-th element, and the dereference operator accesses the value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is the difference between const int* p and int* const p?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are the same</li><li><span class="mcq-option-label">B.</span> const int* p prevents modifying the value; int* const p prevents changing the pointer</li><li><span class="mcq-option-label">C.</span> const int* p prevents changing the pointer; int* const p prevents modifying the value</li><li><span class="mcq-option-label">D.</span> Both prevent modifying the value and the pointer</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>const int* p</code>: the value pointed to is const (cannot do *p = ...). <code>int* const p</code>: the pointer itself is const (cannot do p = ...). Read right-to-left: 'p is a const pointer to int' vs 'p is a pointer to const int'.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What happens when you increment a pointer of type double*?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The address increases by 1 byte</li><li><span class="mcq-option-label">B.</span> The address increases by 4 bytes</li><li><span class="mcq-option-label">C.</span> The address increases by 8 bytes (sizeof(double))</li><li><span class="mcq-option-label">D.</span> The address increases by the value it points to</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Pointer arithmetic is type-aware. Incrementing a <code>double*</code> advances the address by <code>sizeof(double)</code>, which is 8 bytes. This ensures the pointer moves to the next element in a double array.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is a dangling pointer?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A pointer set to nullptr</li><li><span class="mcq-option-label">B.</span> A pointer that points to freed or out-of-scope memory</li><li><span class="mcq-option-label">C.</span> A pointer that has never been initialized</li><li><span class="mcq-option-label">D.</span> A pointer to a const variable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> A dangling pointer points to memory that has been deallocated (via delete) or has gone out of scope (local variable of a returned function). A null pointer (A) is safe to check. An uninitialized pointer (C) is called a wild pointer. A pointer to const (D) is perfectly valid.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is the output?<br><pre><code>int arr[] = {1, 2, 3};
+cout << 2[arr];</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1</li><li><span class="mcq-option-label">B.</span> 2</li><li><span class="mcq-option-label">C.</span> 3</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>2[arr]</code> is valid C++. Since <code>arr[i]</code> is <code>*(arr + i)</code>, and addition is commutative, <code>2[arr]</code> is <code>*(2 + arr)</code> = <code>*(arr + 2)</code> = <code>arr[2]</code> = 3.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Which of the following is NOT possible with references in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Creating an array of references</li><li><span class="mcq-option-label">B.</span> Passing to a function by reference</li><li><span class="mcq-option-label">C.</span> Returning a reference from a function</li><li><span class="mcq-option-label">D.</span> Using a reference as a class member</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: A</strong><br><strong>A is correct.</strong> C++ does not allow arrays of references because references are not objects -- they do not have their own address or size. You can pass by reference (B), return references (C), and use reference members in classes (D, but they must be initialized in the constructor initializer list).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the result of subtracting two pointers of the same type?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The byte difference between the addresses</li><li><span class="mcq-option-label">B.</span> The number of elements between the two addresses</li><li><span class="mcq-option-label">C.</span> A pointer to the midpoint</li><li><span class="mcq-option-label">D.</span> Undefined behavior</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Subtracting two pointers of the same type yields a <code>ptrdiff_t</code> value representing the number of elements between them, not the byte difference. For <code>int*</code> where int is 4 bytes, if p2 - p1 = 3, the byte difference is 12 but the result is 3.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is wrong with this code?<br><pre><code>void* vp = new int(10);
+cout << *vp;</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> void* cannot hold the address of an int</li><li><span class="mcq-option-label">B.</span> new int(10) is invalid syntax</li><li><span class="mcq-option-label">C.</span> void* cannot be dereferenced without casting</li><li><span class="mcq-option-label">D.</span> There is no error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> A <code>void*</code> can hold any address (A is false), and <code>new int(10)</code> is valid (B is false). However, you cannot dereference a <code>void*</code> because the compiler does not know the size of the data. You must cast it first: <code>*(static_cast<int*>(vp))</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What happens if you use delete instead of delete[] on an array allocated with new[]?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only the first element is freed</li><li><span class="mcq-option-label">B.</span> All elements are freed correctly</li><li><span class="mcq-option-label">C.</span> Undefined behavior</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> Using <code>delete</code> on memory allocated with <code>new[]</code> is undefined behavior. The runtime may not call destructors for all elements and may corrupt internal bookkeeping. Always match <code>new</code> with <code>delete</code> and <code>new[]</code> with <code>delete[]</code>.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Reverse Array Using Pointers</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function reverseArray(int* arr, int size) that reverses an array in-place using pointer arithmetic (no indexing with []). Print the array before and after reversing.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Array: {1, 2, 3, 4, 5}</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Before: 1 2 3 4 5
+After: 5 4 3 2 1</div>
+                </div><div class="challenge-constraints">Use only pointer arithmetic and dereferencing. Do not use array subscript operator [].</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+void reverseArray(int* arr, int size) {
+    int* left = arr;
+    int* right = arr + size - 1;
+    while (left &lt; right) {
+        int temp = *left;
+        *left = *right;
+        *right = temp;
+        left++;
+        right--;
+    }
+}
+
+void printArray(int* arr, int size) {
+    for (int* p = arr; p &lt; arr + size; p++) {
+        cout &lt;&lt; *p &lt;&lt; &quot; &quot;;
+    }
+    cout &lt;&lt; endl;
+}
+
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    int size = 5;
+    cout &lt;&lt; &quot;Before: &quot;;
+    printArray(arr, size);
+    reverseArray(arr, size);
+    cout &lt;&lt; &quot;After: &quot;;
+    printArray(arr, size);
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: String Length Using Pointers</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function int strLen(const char* str) that returns the length of a C-string using pointer arithmetic. Do not use strlen().</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">&quot;Modern Age Coders&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Length: 17</div>
+                </div><div class="challenge-constraints">Use a pointer to traverse until the null terminator. Do not use any library function.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int strLen(const char* str) {
+    const char* p = str;
+    while (*p != &#39;\0&#39;) {
+        p++;
+    }
+    return p - str;
+}
+
+int main() {
+    const char* s = &quot;Modern Age Coders&quot;;
+    cout &lt;&lt; &quot;Length: &quot; &lt;&lt; strLen(s) &lt;&lt; endl;
+
+    const char* empty = &quot;&quot;;
+    cout &lt;&lt; &quot;Length of empty: &quot; &lt;&lt; strLen(empty) &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Swap Two Pointers</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function that takes two int** parameters and swaps what the original pointers point to. After the swap, the first pointer should point to the second variable and vice versa.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">a = 10, b = 20, p1 = &amp;a, p2 = &amp;b</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Before: *p1=10, *p2=20
+After: *p1=20, *p2=10</div>
+                </div><div class="challenge-constraints">The function must modify the original pointers using pointer-to-pointer. The values of a and b must NOT change.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+void swapPointers(int** pp1, int** pp2) {
+    int* temp = *pp1;
+    *pp1 = *pp2;
+    *pp2 = temp;
+}
+
+int main() {
+    int a = 10, b = 20;
+    int* p1 = &amp;a;
+    int* p2 = &amp;b;
+
+    cout &lt;&lt; &quot;Before: *p1=&quot; &lt;&lt; *p1 &lt;&lt; &quot;, *p2=&quot; &lt;&lt; *p2 &lt;&lt; endl;
+    swapPointers(&amp;p1, &amp;p2);
+    cout &lt;&lt; &quot;After: *p1=&quot; &lt;&lt; *p1 &lt;&lt; &quot;, *p2=&quot; &lt;&lt; *p2 &lt;&lt; endl;
+
+    // Verify a and b are unchanged
+    cout &lt;&lt; &quot;a=&quot; &lt;&lt; a &lt;&lt; &quot;, b=&quot; &lt;&lt; b &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Find Min and Max Using Pointers</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function findMinMax(int* arr, int size, int* min, int* max) that finds the minimum and maximum values in an array and stores them through pointers. The function should not return anything.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Array: {34, 12, 56, 7, 89, 23}</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Min: 7
+Max: 89</div>
+                </div><div class="challenge-constraints">Use pointer parameters for output. Traverse the array using pointer arithmetic.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+void findMinMax(int* arr, int size, int* min, int* max) {
+    *min = *arr;
+    *max = *arr;
+    for (int* p = arr + 1; p &lt; arr + size; p++) {
+        if (*p &lt; *min) *min = *p;
+        if (*p &gt; *max) *max = *p;
+    }
+}
+
+int main() {
+    int arr[] = {34, 12, 56, 7, 89, 23};
+    int min, max;
+    findMinMax(arr, 6, &amp;min, &amp;max);
+    cout &lt;&lt; &quot;Min: &quot; &lt;&lt; min &lt;&lt; endl;
+    cout &lt;&lt; &quot;Max: &quot; &lt;&lt; max &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Dynamic Array -- Create, Fill, and Print</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program that asks the user for a size n, dynamically allocates an array of n integers, fills it with the first n squares (1, 4, 9, ...), prints the array using pointer arithmetic, and properly deallocates the memory.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">n = 5</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Squares: 1 4 9 16 25</div>
+                </div><div class="challenge-constraints">Use new[] to allocate, pointer arithmetic to fill and print, and delete[] to free. Do not use vector.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int n;
+    cout &lt;&lt; &quot;Enter size: &quot;;
+    cin &gt;&gt; n;
+
+    int* arr = new int[n];
+
+    // Fill using pointer arithmetic
+    for (int* p = arr; p &lt; arr + n; p++) {
+        int idx = p - arr + 1;
+        *p = idx * idx;
+    }
+
+    // Print using pointer arithmetic
+    cout &lt;&lt; &quot;Squares: &quot;;
+    for (int* p = arr; p &lt; arr + n; p++) {
+        cout &lt;&lt; *p &lt;&lt; &quot; &quot;;
+    }
+    cout &lt;&lt; endl;
+
+    delete[] arr;
+    arr = nullptr;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Matrix Transpose Using Dynamic 2D Array</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Dynamically allocate a 3x3 matrix using an array of pointers (int**), fill it with values 1-9, transpose it, and print both the original and transposed matrices. Free all allocated memory.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Original:
+1 2 3
+4 5 6
+7 8 9
+
+Transposed:
+1 4 7
+2 5 8
+3 6 9</div>
+                </div><div class="challenge-constraints">Use int** for the 2D array. Allocate rows with new int*[rows] and each row with new int[cols]. Free in reverse order.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int rows = 3, cols = 3;
+
+    // Allocate original matrix
+    int** mat = new int*[rows];
+    for (int i = 0; i &lt; rows; i++)
+        mat[i] = new int[cols];
+
+    // Fill with 1-9
+    int val = 1;
+    for (int i = 0; i &lt; rows; i++)
+        for (int j = 0; j &lt; cols; j++)
+            mat[i][j] = val++;
+
+    // Print original
+    cout &lt;&lt; &quot;Original:&quot; &lt;&lt; endl;
+    for (int i = 0; i &lt; rows; i++) {
+        for (int j = 0; j &lt; cols; j++)
+            cout &lt;&lt; mat[i][j] &lt;&lt; &quot; &quot;;
+        cout &lt;&lt; endl;
+    }
+
+    // Allocate and compute transpose
+    int** trans = new int*[cols];
+    for (int i = 0; i &lt; cols; i++)
+        trans[i] = new int[rows];
+
+    for (int i = 0; i &lt; rows; i++)
+        for (int j = 0; j &lt; cols; j++)
+            trans[j][i] = mat[i][j];
+
+    // Print transpose
+    cout &lt;&lt; &quot;\nTransposed:&quot; &lt;&lt; endl;
+    for (int i = 0; i &lt; cols; i++) {
+        for (int j = 0; j &lt; rows; j++)
+            cout &lt;&lt; trans[i][j] &lt;&lt; &quot; &quot;;
+        cout &lt;&lt; endl;
+    }
+
+    // Free memory
+    for (int i = 0; i &lt; rows; i++) delete[] mat[i];
+    delete[] mat;
+    for (int i = 0; i &lt; cols; i++) delete[] trans[i];
+    delete[] trans;
+
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/strings-in-cpp/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Strings - C-style and std::string</span>
+        </a>
+            <a href="/resources/cpp/dynamic-memory-allocation/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Dynamic Memory Allocation (new, delete)</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/pointers-in-cpp" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

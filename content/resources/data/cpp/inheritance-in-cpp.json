@@ -1,0 +1,639 @@
+{
+  "title": "Inheritance in C++",
+  "slug": "inheritance-in-cpp",
+  "language": "cpp",
+  "chapter": 15,
+  "difficulty": "Intermediate",
+  "readingTime": "60 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "Inheritance in C++ - Types, Diamond Problem, Virtual Inheritance | Modern Age Coders",
+    "description": "Master inheritance in C++ including single, multiple, multilevel, hierarchical, and hybrid inheritance, public/protected/private inheritance access control, constructor and destructor order, method overriding, diamond problem, virtual inheritance, and virtual base classes. 60+ interview-focused practice questions.",
+    "keywords": "c++ inheritance, multiple inheritance c++, diamond problem c++, virtual inheritance c++, virtual base class c++, constructor order inheritance c++, method overriding c++, public private protected inheritance c++, c++ inheritance interview questions, hierarchical inheritance c++"
+  },
+  "content": {
+    "what": "<h2>What Is Inheritance in C++?</h2><p><strong>Inheritance</strong> is the mechanism by which one class (the <strong>derived class</strong>) acquires the properties and behaviors of another class (the <strong>base class</strong>). It establishes an \"is-a\" relationship: a <code>Dog</code> is an <code>Animal</code>, a <code>Car</code> is a <code>Vehicle</code>.</p><p>The derived class inherits all non-private members of the base class and can add its own members or override base class methods.</p><pre><code>class Animal {\nprotected:\n    string name;\npublic:\n    Animal(string n) : name(n) {}\n    void eat() { cout &lt;&lt; name &lt;&lt; \" eats\" &lt;&lt; endl; }\n};\n\nclass Dog : public Animal {\npublic:\n    Dog(string n) : Animal(n) {}\n    void bark() { cout &lt;&lt; name &lt;&lt; \" barks\" &lt;&lt; endl; }\n};\n\nDog d(\"Tommy\");\nd.eat();   // Inherited from Animal\nd.bark();  // Defined in Dog</code></pre><p>C++ supports five types of inheritance: <strong>single</strong> (one base, one derived), <strong>multiple</strong> (multiple bases, one derived), <strong>multilevel</strong> (chain of derivations), <strong>hierarchical</strong> (one base, multiple derived), and <strong>hybrid</strong> (combination of types). C++ also provides three modes of inheritance (<code>public</code>, <code>protected</code>, <code>private</code>) that control how base class members are accessible in the derived class.</p><p>Unlike Java or Python, C++ supports <strong>multiple inheritance</strong>, which brings the <strong>diamond problem</strong> and the need for <strong>virtual inheritance</strong>. These are among the most asked topics in C++ interviews.</p>",
+    "why": "<h2>Why Does Inheritance Matter?</h2><p>Inheritance is one of the four pillars of Object-Oriented Programming. In C++, inheritance is more powerful (and more dangerous) than in Java or Python because of multiple inheritance, access mode control, and the diamond problem.</p><h3>1. Code Reuse Without Duplication</h3><p>When Arjun creates a <code>SavingsAccount</code> class that inherits from <code>BankAccount</code>, he gets all the deposit, withdraw, and balance-tracking logic for free. He only writes the interest calculation code. Without inheritance, he would copy-paste hundreds of lines into every account type.</p><h3>2. Constructor/Destructor Order Is a Top Interview Topic</h3><p>Every major tech interview asks: \"In what order are constructors and destructors called in an inheritance chain?\" The answer (base first, derived last for construction; reverse for destruction) is fundamental. With multiple inheritance, the order follows the declaration order, not the initializer list order.</p><h3>3. The Diamond Problem</h3><p>When Kavya creates a class that inherits from two classes that share a common base, the derived class gets two copies of the base class members. This is the <strong>diamond problem</strong>. C++ solves it with <strong>virtual inheritance</strong>, ensuring only one copy of the shared base exists. This topic appears in almost every C++ interview at product companies.</p><h3>4. Access Mode Control</h3><p>C++ is unique in offering <code>public</code>, <code>protected</code>, and <code>private</code> inheritance. This controls how base class members appear in the derived class. <code>public</code> inheritance preserves the base's access levels (is-a relationship). <code>private</code> inheritance makes all base members private (implemented-in-terms-of relationship).</p><h3>5. Foundation for Polymorphism</h3><p>Without inheritance, there is no polymorphism. Virtual functions, abstract classes, and interfaces all require an inheritance hierarchy. Understanding inheritance is the prerequisite for understanding virtual dispatch, the vtable, and dynamic_cast.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Single Inheritance</h3><p>One base class, one derived class. The simplest and most common form.</p><pre><code>class Shape {\nprotected:\n    string color;\npublic:\n    Shape(string c) : color(c) {}\n    void showColor() { cout &lt;&lt; \"Color: \" &lt;&lt; color &lt;&lt; endl; }\n};\n\nclass Circle : public Shape {\n    double radius;\npublic:\n    Circle(string c, double r) : Shape(c), radius(r) {}\n    double area() { return 3.14159 * radius * radius; }\n};</code></pre><h3>2. Multilevel Inheritance</h3><p>A chain of derivations: A -&gt; B -&gt; C. Each class inherits from the one above it.</p><pre><code>class Animal {\npublic:\n    void breathe() { cout &lt;&lt; \"Breathing\" &lt;&lt; endl; }\n};\n\nclass Mammal : public Animal {\npublic:\n    void feedMilk() { cout &lt;&lt; \"Feeding milk\" &lt;&lt; endl; }\n};\n\nclass Dog : public Mammal {\npublic:\n    void bark() { cout &lt;&lt; \"Barking\" &lt;&lt; endl; }\n};\n\nDog d;\nd.breathe();   // From Animal\nd.feedMilk();  // From Mammal\nd.bark();      // From Dog</code></pre><h3>3. Hierarchical Inheritance</h3><p>One base class, multiple derived classes. Each derived class independently extends the base.</p><pre><code>class Vehicle {\nprotected:\n    int speed;\npublic:\n    Vehicle(int s) : speed(s) {}\n    void showSpeed() { cout &lt;&lt; speed &lt;&lt; \" km/h\" &lt;&lt; endl; }\n};\n\nclass Car : public Vehicle {\npublic:\n    Car(int s) : Vehicle(s) {}\n    void honk() { cout &lt;&lt; \"Beep beep\" &lt;&lt; endl; }\n};\n\nclass Bike : public Vehicle {\npublic:\n    Bike(int s) : Vehicle(s) {}\n    void wheelie() { cout &lt;&lt; \"Wheelie!\" &lt;&lt; endl; }\n};</code></pre><h3>4. Multiple Inheritance</h3><p>A class inherits from two or more base classes. C++ supports this directly, unlike Java (which uses interfaces instead).</p><pre><code>class Printable {\npublic:\n    void print() { cout &lt;&lt; \"Printing...\" &lt;&lt; endl; }\n};\n\nclass Scannable {\npublic:\n    void scan() { cout &lt;&lt; \"Scanning...\" &lt;&lt; endl; }\n};\n\nclass AllInOne : public Printable, public Scannable {\npublic:\n    void copy() {\n        scan();\n        print();\n    }\n};\n\nAllInOne device;\ndevice.print();   // From Printable\ndevice.scan();    // From Scannable\ndevice.copy();    // Own method</code></pre><h3>5. The Diamond Problem</h3><p>When two base classes share a common base, the derived class gets two copies of the shared base's members. This creates ambiguity.</p><pre><code>class Person {\nprotected:\n    string name;\npublic:\n    Person(string n) : name(n) { cout &lt;&lt; \"Person(\" &lt;&lt; n &lt;&lt; \")\" &lt;&lt; endl; }\n};\n\nclass Student : public Person {\npublic:\n    Student(string n) : Person(n) { cout &lt;&lt; \"Student\" &lt;&lt; endl; }\n};\n\nclass Employee : public Person {\npublic:\n    Employee(string n) : Person(n) { cout &lt;&lt; \"Employee\" &lt;&lt; endl; }\n};\n\nclass TA : public Student, public Employee {\npublic:\n    // Person is constructed TWICE: once via Student, once via Employee\n    TA(string n) : Student(n), Employee(n) { cout &lt;&lt; \"TA\" &lt;&lt; endl; }\n    // ta.name is ambiguous: Student::name or Employee::name?\n};</code></pre><p>This is called the <strong>diamond problem</strong> because the inheritance diagram looks like a diamond shape.</p><h3>6. Virtual Inheritance (Solution to Diamond Problem)</h3><p>Virtual inheritance ensures that only one copy of the shared base class exists in the derived object.</p><pre><code>class Person {\nprotected:\n    string name;\npublic:\n    Person(string n = \"\") : name(n) { cout &lt;&lt; \"Person(\" &lt;&lt; n &lt;&lt; \")\" &lt;&lt; endl; }\n};\n\nclass Student : virtual public Person {\npublic:\n    Student(string n) : Person(n) { cout &lt;&lt; \"Student\" &lt;&lt; endl; }\n};\n\nclass Employee : virtual public Person {\npublic:\n    Employee(string n) : Person(n) { cout &lt;&lt; \"Employee\" &lt;&lt; endl; }\n};\n\nclass TA : public Student, public Employee {\npublic:\n    // With virtual inheritance, the MOST DERIVED class (TA)\n    // must call the virtual base's constructor directly\n    TA(string n) : Person(n), Student(n), Employee(n) {\n        cout &lt;&lt; \"TA\" &lt;&lt; endl;\n    }\n    void show() { cout &lt;&lt; name &lt;&lt; endl; }  // No ambiguity: one copy\n};</code></pre><p>Key rules of virtual inheritance:</p><ul><li>The most derived class is responsible for calling the virtual base class constructor</li><li>If the most derived class does not call it, the default constructor is used</li><li>The virtual base is constructed first, before any non-virtual bases</li><li>There is a small runtime overhead (extra pointer per virtual base)</li></ul><h3>7. Public, Protected, and Private Inheritance</h3><p>The inheritance mode controls how base class members appear in the derived class:</p><pre><code>// class Derived : public Base\n//   public    -&gt; public\n//   protected -&gt; protected\n//   private   -&gt; NOT accessible\n\n// class Derived : protected Base\n//   public    -&gt; protected\n//   protected -&gt; protected\n//   private   -&gt; NOT accessible\n\n// class Derived : private Base\n//   public    -&gt; private\n//   protected -&gt; private\n//   private   -&gt; NOT accessible</code></pre><p>Public inheritance models \"is-a\" (a Dog IS an Animal). Private inheritance models \"implemented-in-terms-of\" (a Stack uses a List internally but is not a List). Protected inheritance is rarely used in practice.</p><h3>8. Constructor and Destructor Order</h3><p>Constructors are called base-to-derived. Destructors are called derived-to-base (reverse order). With multiple inheritance, the order follows the order of base class declarations in the class definition.</p><pre><code>class A {\npublic:\n    A() { cout &lt;&lt; \"A()\" &lt;&lt; endl; }\n    ~A() { cout &lt;&lt; \"~A()\" &lt;&lt; endl; }\n};\n\nclass B {\npublic:\n    B() { cout &lt;&lt; \"B()\" &lt;&lt; endl; }\n    ~B() { cout &lt;&lt; \"~B()\" &lt;&lt; endl; }\n};\n\nclass C : public A, public B {\npublic:\n    C() { cout &lt;&lt; \"C()\" &lt;&lt; endl; }\n    ~C() { cout &lt;&lt; \"~C()\" &lt;&lt; endl; }\n};\n\n// Creating C c; prints: A() B() C()\n// Destroying c prints:  ~C() ~B() ~A()</code></pre><h3>9. Method Overriding</h3><p>A derived class can provide its own version of a base class method. If the method is not virtual, the version called depends on the pointer/reference type (static binding). If virtual, it depends on the actual object type (dynamic binding).</p><pre><code>class Base {\npublic:\n    void show() { cout &lt;&lt; \"Base\" &lt;&lt; endl; }\n    virtual void display() { cout &lt;&lt; \"Base display\" &lt;&lt; endl; }\n    virtual ~Base() {}\n};\n\nclass Derived : public Base {\npublic:\n    void show() { cout &lt;&lt; \"Derived\" &lt;&lt; endl; }         // Hides Base::show\n    void display() override { cout &lt;&lt; \"Derived display\" &lt;&lt; endl; }  // Overrides\n};\n\nBase* b = new Derived();\nb-&gt;show();      // \"Base\" (static binding, not virtual)\nb-&gt;display();   // \"Derived display\" (dynamic binding, virtual)\ndelete b;</code></pre><h3>10. Calling Base Class Methods from Derived</h3><p>A derived class can explicitly call a base class method using the scope resolution operator:</p><pre><code>class Base {\npublic:\n    void greet() { cout &lt;&lt; \"Hello from Base\" &lt;&lt; endl; }\n};\n\nclass Derived : public Base {\npublic:\n    void greet() {\n        Base::greet();  // Explicitly call base version\n        cout &lt;&lt; \"Hello from Derived\" &lt;&lt; endl;\n    }\n};</code></pre>",
+    "codeExamples": [
+    {
+      "title": "Single and Multilevel Inheritance",
+      "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Animal {\nprotected:\n    string name;\npublic:\n    Animal(string n) : name(n) { cout << \"Animal(\" << name << \")\" << endl; }\n    ~Animal() { cout << \"~Animal()\" << endl; }\n    void breathe() { cout << name << \" breathes\" << endl; }\n};\n\nclass Mammal : public Animal {\npublic:\n    Mammal(string n) : Animal(n) { cout << \"Mammal()\" << endl; }\n    ~Mammal() { cout << \"~Mammal()\" << endl; }\n    void feedMilk() { cout << name << \" feeds milk\" << endl; }\n};\n\nclass Dog : public Mammal {\npublic:\n    Dog(string n) : Mammal(n) { cout << \"Dog()\" << endl; }\n    ~Dog() { cout << \"~Dog()\" << endl; }\n    void bark() { cout << name << \" barks\" << endl; }\n};\n\nint main() {\n    cout << \"--- Creating Dog ---\" << endl;\n    Dog d(\"Tommy\");\n    d.breathe();\n    d.feedMilk();\n    d.bark();\n    cout << \"--- Destroying Dog ---\" << endl;\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "This shows multilevel inheritance: Dog -> Mammal -> Animal. Constructors are called base-to-derived (Animal, Mammal, Dog). Destructors are called derived-to-base (Dog, Mammal, Animal). The Dog object has access to methods from all levels.",
+      "output": "--- Creating Dog ---\nAnimal(Tommy)\nMammal()\nDog()\nTommy breathes\nTommy feeds milk\nTommy barks\n--- Destroying Dog ---\n~Dog()\n~Mammal()\n~Animal()"
+    },
+    {
+      "title": "Multiple Inheritance",
+      "code": "#include <iostream>\nusing namespace std;\n\nclass Flyable {\npublic:\n    void fly() { cout << \"Flying\" << endl; }\n};\n\nclass Swimmable {\npublic:\n    void swim() { cout << \"Swimming\" << endl; }\n};\n\nclass Duck : public Flyable, public Swimmable {\npublic:\n    void quack() { cout << \"Quack!\" << endl; }\n};\n\nint main() {\n    Duck d;\n    d.fly();\n    d.swim();\n    d.quack();\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "The <code>Duck</code> class inherits from both <code>Flyable</code> and <code>Swimmable</code>. It gets <code>fly()</code> from <code>Flyable</code> and <code>swim()</code> from <code>Swimmable</code>, plus its own <code>quack()</code>. This is multiple inheritance.",
+      "output": "Flying\nSwimming\nQuack!"
+    },
+    {
+      "title": "Diamond Problem Without Virtual Inheritance",
+      "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Person {\nprotected:\n    string name;\npublic:\n    Person(string n) : name(n) {\n        cout << \"Person(\" << n << \") constructed\" << endl;\n    }\n};\n\nclass Student : public Person {\npublic:\n    Student(string n) : Person(n) {\n        cout << \"Student constructed\" << endl;\n    }\n    void study() { cout << name << \" studies\" << endl; }\n};\n\nclass Employee : public Person {\npublic:\n    Employee(string n) : Person(n) {\n        cout << \"Employee constructed\" << endl;\n    }\n    void work() { cout << name << \" works\" << endl; }\n};\n\nclass TA : public Student, public Employee {\npublic:\n    TA(string n) : Student(n), Employee(n) {\n        cout << \"TA constructed\" << endl;\n    }\n    void assist() {\n        Student::study();\n        Employee::work();\n    }\n};\n\nint main() {\n    TA ta(\"Kavya\");\n    // ta.name;  // Error: ambiguous (Student::name or Employee::name?)\n    ta.Student::study();\n    ta.Employee::work();\n    ta.assist();\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "Without virtual inheritance, <code>Person</code> is constructed twice: once through <code>Student</code>, once through <code>Employee</code>. There are two separate <code>name</code> members, causing ambiguity if accessed directly. You must use <code>Student::name</code> or <code>Employee::name</code> to disambiguate.",
+      "output": "Person(Kavya) constructed\nStudent constructed\nPerson(Kavya) constructed\nEmployee constructed\nTA constructed\nKavya studies\nKavya works\nKavya studies\nKavya works"
+    },
+    {
+      "title": "Diamond Problem Solved with Virtual Inheritance",
+      "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Person {\nprotected:\n    string name;\npublic:\n    Person(string n = \"\") : name(n) {\n        cout << \"Person(\" << n << \") constructed\" << endl;\n    }\n};\n\nclass Student : virtual public Person {\npublic:\n    Student(string n) : Person(n) {\n        cout << \"Student constructed\" << endl;\n    }\n    void study() { cout << name << \" studies\" << endl; }\n};\n\nclass Employee : virtual public Person {\npublic:\n    Employee(string n) : Person(n) {\n        cout << \"Employee constructed\" << endl;\n    }\n    void work() { cout << name << \" works\" << endl; }\n};\n\nclass TA : public Student, public Employee {\npublic:\n    TA(string n) : Person(n), Student(n), Employee(n) {\n        cout << \"TA constructed\" << endl;\n    }\n    void show() { cout << \"TA: \" << name << endl; }\n};\n\nint main() {\n    TA ta(\"Kavya\");\n    ta.study();\n    ta.work();\n    ta.show();\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "With <code>virtual public</code> inheritance, <code>Person</code> is constructed only once, and the most derived class (<code>TA</code>) must call <code>Person</code>'s constructor. There is now only one <code>name</code> member, so no ambiguity exists. This is the standard solution to the diamond problem.",
+      "output": "Person(Kavya) constructed\nStudent constructed\nEmployee constructed\nTA constructed\nKavya studies\nKavya works\nTA: Kavya"
+    },
+    {
+      "title": "Public vs Protected vs Private Inheritance",
+      "code": "#include <iostream>\nusing namespace std;\n\nclass Base {\npublic:\n    int pub;\nprotected:\n    int prot;\nprivate:\n    int priv;\npublic:\n    Base() : pub(1), prot(2), priv(3) {}\n};\n\nclass PubDerived : public Base {\npublic:\n    void test() {\n        cout << \"public: pub=\" << pub << \" prot=\" << prot << endl;\n        // priv not accessible\n    }\n};\n\nclass ProtDerived : protected Base {\npublic:\n    void test() {\n        cout << \"protected: pub=\" << pub << \" prot=\" << prot << endl;\n    }\n};\n\nclass PrivDerived : private Base {\npublic:\n    void test() {\n        cout << \"private: pub=\" << pub << \" prot=\" << prot << endl;\n    }\n};\n\nint main() {\n    PubDerived pd;\n    pd.test();\n    cout << \"main accesses pd.pub: \" << pd.pub << endl;\n\n    ProtDerived ptd;\n    ptd.test();\n    // ptd.pub;  // Error: pub became protected\n\n    PrivDerived pvd;\n    pvd.test();\n    // pvd.pub;  // Error: pub became private\n\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "With <code>public</code> inheritance, base public remains public, base protected remains protected. With <code>protected</code> inheritance, both become protected. With <code>private</code> inheritance, both become private. In all cases, base private members are never accessible in derived classes.",
+      "output": "public: pub=1 prot=2\nmain accesses pd.pub: 1\nprotected: pub=1 prot=2\nprivate: pub=1 prot=2"
+    },
+    {
+      "title": "Constructor/Destructor Order with Multiple Inheritance",
+      "code": "#include <iostream>\nusing namespace std;\n\nclass A {\npublic:\n    A() { cout << \"A() \"; }\n    ~A() { cout << \"~A() \"; }\n};\n\nclass B {\npublic:\n    B() { cout << \"B() \"; }\n    ~B() { cout << \"~B() \"; }\n};\n\nclass C {\npublic:\n    C() { cout << \"C() \"; }\n    ~C() { cout << \"~C() \"; }\n};\n\nclass D : public B, public A {\n    C c;\npublic:\n    D() { cout << \"D() \"; }\n    ~D() { cout << \"~D() \"; }\n};\n\nint main() {\n    cout << \"Create: \";\n    D d;\n    cout << endl << \"Destroy: \";\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "Construction order: base classes in declaration order (B, A), then member objects (C), then derived constructor (D). Destruction is the exact reverse: ~D, ~C, ~A, ~B. The order in the initializer list does not matter; the declaration order in the class definition determines construction order.",
+      "output": "Create: B() A() C() D() \nDestroy: ~D() ~C() ~A() ~B() "
+    },
+    {
+      "title": "Method Overriding and Base Class Method Call",
+      "code": "#include <iostream>\nusing namespace std;\n\nclass Printer {\npublic:\n    virtual void print() {\n        cout << \"Generic print\" << endl;\n    }\n    virtual ~Printer() {}\n};\n\nclass ColorPrinter : public Printer {\npublic:\n    void print() override {\n        Printer::print();  // Call base version first\n        cout << \"With color!\" << endl;\n    }\n};\n\nclass PhotoPrinter : public ColorPrinter {\npublic:\n    void print() override {\n        ColorPrinter::print();  // Call parent version\n        cout << \"High resolution!\" << endl;\n    }\n};\n\nint main() {\n    Printer* p = new PhotoPrinter();\n    p->print();\n    delete p;\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "Each derived class overrides <code>print()</code> but also calls the base version using scope resolution (<code>Base::method()</code>). This creates a chain: PhotoPrinter calls ColorPrinter::print(), which calls Printer::print(). This pattern is common for extending rather than replacing base behavior.",
+      "output": "Generic print\nWith color!\nHigh resolution!"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Forgetting to Call Base Class Constructor",
+      "wrongCode": "class Base {\n    int x;\npublic:\n    Base(int v) : x(v) {}\n};\n\nclass Derived : public Base {\npublic:\n    Derived() {}  // Error: no default constructor for Base!\n};",
+      "error": "Compilation error: no matching constructor for Base. Base requires an int argument but Derived's constructor does not provide one.",
+      "correctCode": "class Base {\n    int x;\npublic:\n    Base(int v) : x(v) {}\n};\n\nclass Derived : public Base {\npublic:\n    Derived() : Base(0) {}   // Explicitly call Base(int)\n    Derived(int v) : Base(v) {}\n};",
+      "explanation": "If the base class does not have a default constructor, the derived class must explicitly call a base constructor in its initializer list. The compiler cannot automatically construct the base without the required argument."
+    },
+    {
+      "title": "Ambiguous Member Access in Diamond Inheritance",
+      "wrongCode": "class A {\npublic:\n    int x = 10;\n};\nclass B : public A {};\nclass C : public A {};\nclass D : public B, public C {\npublic:\n    void show() {\n        cout << x;  // Error: ambiguous!\n    }\n};",
+      "error": "Compilation error: reference to 'x' is ambiguous. D has two copies of A::x (one via B, one via C).",
+      "correctCode": "// Option 1: Disambiguate with scope\nclass D : public B, public C {\npublic:\n    void show() {\n        cout << B::x;  // Explicitly choose B's copy\n    }\n};\n\n// Option 2: Use virtual inheritance\nclass B : virtual public A {};\nclass C : virtual public A {};\nclass D : public B, public C {\npublic:\n    void show() {\n        cout << x;  // OK: only one copy of A\n    }\n};",
+      "explanation": "Without virtual inheritance, the diamond creates two copies of the base class. Access to shared members is ambiguous. Either disambiguate with scope resolution or use virtual inheritance to maintain a single copy."
+    },
+    {
+      "title": "Not Calling Virtual Base Constructor from Most Derived Class",
+      "wrongCode": "class Base {\npublic:\n    Base(int x) { cout << \"Base(\" << x << \")\" << endl; }\n};\nclass Mid : virtual public Base {\npublic:\n    Mid(int x) : Base(x) { cout << \"Mid\" << endl; }\n};\nclass Leaf : public Mid {\npublic:\n    Leaf(int x) : Mid(x) {}  // Base default constructor called!\n};",
+      "error": "With virtual inheritance, the most derived class (Leaf) must call the virtual base constructor directly. If it does not, the default constructor of Base is called (if one exists), which may not be intended.",
+      "correctCode": "class Leaf : public Mid {\npublic:\n    Leaf(int x) : Base(x), Mid(x) {}  // Leaf calls Base directly\n};",
+      "explanation": "In virtual inheritance, intermediate classes' calls to the virtual base constructor are ignored. Only the most derived class's call takes effect. If Leaf does not call <code>Base(x)</code>, the default <code>Base()</code> is used."
+    },
+    {
+      "title": "Confusing Method Hiding with Overriding",
+      "wrongCode": "class Base {\npublic:\n    void show() { cout << \"Base\" << endl; }\n};\nclass Derived : public Base {\npublic:\n    void show() { cout << \"Derived\" << endl; }\n};\n\nBase* b = new Derived();\nb->show();  // Prints \"Base\" (not overridden!)",
+      "error": "Prints \"Base\" instead of \"Derived\". Without the virtual keyword, show() in Derived hides Base::show() but does not override it. The call is resolved at compile time.",
+      "correctCode": "class Base {\npublic:\n    virtual void show() { cout << \"Base\" << endl; }\n    virtual ~Base() {}\n};\nclass Derived : public Base {\npublic:\n    void show() override { cout << \"Derived\" << endl; }\n};\n\nBase* b = new Derived();\nb->show();  // Prints \"Derived\" (properly overridden)\ndelete b;",
+      "explanation": "Hiding occurs when a derived class defines a function with the same name as a base class non-virtual function. The base version is hidden but not overridden. For polymorphism, the base function must be <code>virtual</code>."
+    },
+    {
+      "title": "Wrong Constructor Order Assumption",
+      "wrongCode": "class A {};\nclass B {};\n\n// Declaration order: B first, then A\nclass C : public B, public A {\npublic:\n    // Initializer list order does not determine construction order!\n    C() : A(), B() {}  // A() listed first, but B is constructed first\n};",
+      "error": "Some compilers will warn: 'A' will be initialized after 'B'. The construction order is determined by the declaration order in the class definition (B, A), not the initializer list order.",
+      "correctCode": "class C : public B, public A {\npublic:\n    C() : B(), A() {}  // Match initializer list to declaration order\n};",
+      "explanation": "Base class constructors are called in the order they appear in the class definition, not the order in the initializer list. Always match your initializer list order to the declaration order to avoid confusion and compiler warnings."
+    }
+  ],
+  "summary": [
+    "Inheritance allows a derived class to acquire members of a base class. The syntax is class Derived : access-mode Base.",
+    "C++ supports five types of inheritance: single, multiple, multilevel, hierarchical, and hybrid. Java does not support multiple class inheritance; C++ does.",
+    "Public inheritance preserves base access levels (is-a). Protected inheritance makes public members protected. Private inheritance makes all inherited members private (implemented-in-terms-of).",
+    "Constructors are called base-to-derived. Destructors are called derived-to-base. With multiple inheritance, the order follows the declaration order in the class definition.",
+    "The diamond problem occurs when a class inherits from two classes that share a common base. Without virtual inheritance, the derived class gets two copies of the base.",
+    "Virtual inheritance (class Derived : virtual public Base) ensures only one copy of the shared base exists. The most derived class must call the virtual base constructor.",
+    "A derived class can override a base class method. Without the virtual keyword, this is hiding (static binding). With virtual, it is true overriding (dynamic binding).",
+    "Use Base::method() to explicitly call a base class method from a derived class.",
+    "Private members of a base class are never accessible in derived classes, regardless of the inheritance mode. Protected members are accessible in derived classes.",
+    "In virtual inheritance, the virtual base class is constructed first, before any non-virtual bases. The most derived class is responsible for its initialization."
+  ]
+  },
+  "relatedTopics": ["encapsulation-and-access-specifiers", "polymorphism-in-cpp"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\npublic:\n    A() { cout &lt;&lt; \"A \"; }\n};\nclass B : public A {\npublic:\n    B() { cout &lt;&lt; \"B \"; }\n};\nint main() {\n    B b;\n    return 0;\n}</code></pre>",
+        "hint": "Constructor order: base first, then derived.",
+        "answer": "<code>A B </code>",
+        "explanation": "When <code>B</code> is constructed, the base class <code>A</code> constructor runs first, then <code>B</code>'s constructor. Output: A B."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\npublic:\n    int x;\n    Base() : x(10) {}\n};\nclass Derived : public Base {\npublic:\n    int y;\n    Derived() : y(20) {}\n};\nint main() {\n    Derived d;\n    cout &lt;&lt; d.x &lt;&lt; \" \" &lt;&lt; d.y &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Derived inherits x from Base. Both x and y are public.",
+        "answer": "<code>10 20</code>",
+        "explanation": "<code>d.x</code> is inherited from <code>Base</code> (initialized to 10). <code>d.y</code> is defined in <code>Derived</code> (initialized to 20). Both are accessible because they are public."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\npublic:\n    A() { cout &lt;&lt; \"A \"; }\n    ~A() { cout &lt;&lt; \"~A \"; }\n};\nclass B : public A {\npublic:\n    B() { cout &lt;&lt; \"B \"; }\n    ~B() { cout &lt;&lt; \"~B \"; }\n};\nint main() {\n    B b;\n    return 0;\n}</code></pre>",
+        "hint": "Constructors: base first. Destructors: derived first (reverse order).",
+        "answer": "<code>A B ~B ~A </code>",
+        "explanation": "Construction: A first, then B. Destruction (reverse): ~B first, then ~A."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Animal {\npublic:\n    void eat() { cout &lt;&lt; \"Eating\" &lt;&lt; endl; }\n};\nclass Dog : public Animal {\npublic:\n    void bark() { cout &lt;&lt; \"Barking\" &lt;&lt; endl; }\n};\nint main() {\n    Dog d;\n    d.eat();\n    d.bark();\n    return 0;\n}</code></pre>",
+        "hint": "Dog inherits eat() from Animal and has its own bark().",
+        "answer": "<code>Eating</code><br><code>Barking</code>",
+        "explanation": "<code>Dog</code> inherits <code>eat()</code> from <code>Animal</code> and defines its own <code>bark()</code>. Both are accessible on a <code>Dog</code> object."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\npublic:\n    A() { cout &lt;&lt; \"A \"; }\n};\nclass B : public A {\npublic:\n    B() { cout &lt;&lt; \"B \"; }\n};\nclass C : public B {\npublic:\n    C() { cout &lt;&lt; \"C \"; }\n};\nint main() {\n    C c;\n    return 0;\n}</code></pre>",
+        "hint": "Multilevel inheritance: A -> B -> C. Constructors run top to bottom.",
+        "answer": "<code>A B C </code>",
+        "explanation": "Multilevel chain: <code>A</code> is constructed first, then <code>B</code>, then <code>C</code>."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\npublic:\n    A() { cout &lt;&lt; \"A \"; }\n    ~A() { cout &lt;&lt; \"~A \"; }\n};\nclass B {\npublic:\n    B() { cout &lt;&lt; \"B \"; }\n    ~B() { cout &lt;&lt; \"~B \"; }\n};\nclass C : public A, public B {\npublic:\n    C() { cout &lt;&lt; \"C \"; }\n    ~C() { cout &lt;&lt; \"~C \"; }\n};\nint main() {\n    C c;\n    return 0;\n}</code></pre>",
+        "hint": "Multiple inheritance: base classes constructed in declaration order (A first, then B).",
+        "answer": "<code>A B C ~C ~B ~A </code>",
+        "explanation": "Base classes are constructed in declaration order: A, B, then C. Destructors run in reverse: ~C, ~B, ~A."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\npublic:\n    void show() { cout &lt;&lt; \"Base\" &lt;&lt; endl; }\n};\nclass Derived : public Base {\npublic:\n    void show() { cout &lt;&lt; \"Derived\" &lt;&lt; endl; }\n};\nint main() {\n    Derived d;\n    d.show();\n    d.Base::show();\n    return 0;\n}</code></pre>",
+        "hint": "d.show() calls Derived's version. d.Base::show() explicitly calls the base version.",
+        "answer": "<code>Derived</code><br><code>Base</code>",
+        "explanation": "<code>d.show()</code> calls <code>Derived::show()</code> (hides the base version). <code>d.Base::show()</code> explicitly calls <code>Base::show()</code> using scope resolution."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\npublic:\n    A(int x) { cout &lt;&lt; \"A(\" &lt;&lt; x &lt;&lt; \") \"; }\n};\nclass B : public A {\npublic:\n    B(int x) : A(x * 2) { cout &lt;&lt; \"B(\" &lt;&lt; x &lt;&lt; \") \"; }\n};\nclass C : public B {\npublic:\n    C(int x) : B(x + 1) { cout &lt;&lt; \"C(\" &lt;&lt; x &lt;&lt; \") \"; }\n};\nint main() {\n    C c(5);\n    return 0;\n}</code></pre>",
+        "hint": "C(5) calls B(6), which calls A(12). Trace the values.",
+        "answer": "<code>A(12) B(6) C(5) </code>",
+        "explanation": "<code>C(5)</code> calls <code>B(5+1=6)</code>. <code>B(6)</code> calls <code>A(6*2=12)</code>. Construction order: A(12), B(6), C(5)."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\nprotected:\n    int x;\npublic:\n    Base(int v) : x(v) {}\n};\nclass D1 : public Base {\npublic:\n    D1(int v) : Base(v) {}\n    int get() { return x; }\n};\nclass D2 : public Base {\npublic:\n    D2(int v) : Base(v) {}\n    int get() { return x * 2; }\n};\nint main() {\n    D1 a(10);\n    D2 b(10);\n    cout &lt;&lt; a.get() &lt;&lt; \" \" &lt;&lt; b.get() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "D1 and D2 both inherit from Base but compute differently from the protected x.",
+        "answer": "<code>10 20</code>",
+        "explanation": "Both <code>D1</code> and <code>D2</code> inherit <code>x = 10</code> from <code>Base</code>. <code>D1::get()</code> returns x (10). <code>D2::get()</code> returns x*2 (20). This is hierarchical inheritance."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\npublic:\n    A() { cout &lt;&lt; \"A \"; }\n};\nclass B {\npublic:\n    B() { cout &lt;&lt; \"B \"; }\n};\nclass C : public B, public A {\n    A memberA;\n    B memberB;\npublic:\n    C() { cout &lt;&lt; \"C \"; }\n};\nint main() {\n    C c;\n    return 0;\n}</code></pre>",
+        "hint": "Order: base classes (declaration order B, A), then members (declaration order memberA, memberB), then C's body.",
+        "answer": "<code>B A A B C </code>",
+        "explanation": "Base classes first in declaration order: B, A. Then member objects in declaration order: memberA (A), memberB (B). Finally C's constructor body."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\npublic:\n    A() { cout &lt;&lt; \"A \"; }\n};\nclass B : virtual public A {\npublic:\n    B() { cout &lt;&lt; \"B \"; }\n};\nclass C : virtual public A {\npublic:\n    C() { cout &lt;&lt; \"C \"; }\n};\nclass D : public B, public C {\npublic:\n    D() { cout &lt;&lt; \"D \"; }\n};\nint main() {\n    D d;\n    return 0;\n}</code></pre>",
+        "hint": "Virtual base A is constructed only once, before any non-virtual bases. Then B, C, D.",
+        "answer": "<code>A B C D </code>",
+        "explanation": "With virtual inheritance, the virtual base <code>A</code> is constructed first (only once). Then non-virtual bases in declaration order: <code>B</code>, <code>C</code>. Finally <code>D</code>."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\npublic:\n    int x;\n    A() : x(0) {}\n};\nclass B : public A {};\nclass C : public A {};\nclass D : public B, public C {\npublic:\n    void set(int v) {\n        B::x = v;\n        C::x = v * 10;\n    }\n    void show() {\n        cout &lt;&lt; B::x &lt;&lt; \" \" &lt;&lt; C::x &lt;&lt; endl;\n    }\n};\nint main() {\n    D d;\n    d.set(5);\n    d.show();\n    return 0;\n}</code></pre>",
+        "hint": "Without virtual inheritance, D has two separate copies of A. B::x and C::x are different variables.",
+        "answer": "<code>5 50</code>",
+        "explanation": "Without virtual inheritance, <code>D</code> has two copies of <code>A</code>. <code>B::x</code> and <code>C::x</code> are separate variables. <code>set(5)</code> sets B::x to 5 and C::x to 50."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\npublic:\n    int x;\n    Base(int v) : x(v) { cout &lt;&lt; \"Base(\" &lt;&lt; v &lt;&lt; \") \"; }\n};\nclass Mid : virtual public Base {\npublic:\n    Mid(int v) : Base(v) { cout &lt;&lt; \"Mid(\" &lt;&lt; v &lt;&lt; \") \"; }\n};\nclass Leaf : public Mid {\npublic:\n    Leaf(int v) : Base(v * 10), Mid(v) { cout &lt;&lt; \"Leaf(\" &lt;&lt; v &lt;&lt; \") \"; }\n};\nint main() {\n    Leaf l(3);\n    cout &lt;&lt; endl &lt;&lt; l.x &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "In virtual inheritance, the most derived class (Leaf) calls the virtual base constructor. Mid's call to Base is ignored.",
+        "answer": "<code>Base(30) Mid(3) Leaf(3) </code><br><code>30</code>",
+        "explanation": "<code>Leaf(3)</code> calls <code>Base(30)</code> directly (most derived class responsibility). <code>Mid(3)</code>'s call to <code>Base(3)</code> is ignored. So x = 30."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\npublic:\n    A() { cout &lt;&lt; \"A \"; }\n    ~A() { cout &lt;&lt; \"~A \"; }\n};\nclass B : virtual public A {\npublic:\n    B() { cout &lt;&lt; \"B \"; }\n    ~B() { cout &lt;&lt; \"~B \"; }\n};\nclass C : virtual public A {\npublic:\n    C() { cout &lt;&lt; \"C \"; }\n    ~C() { cout &lt;&lt; \"~C \"; }\n};\nclass D : public B, public C {\npublic:\n    D() { cout &lt;&lt; \"D \"; }\n    ~D() { cout &lt;&lt; \"~D \"; }\n};\nint main() {\n    D d;\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Virtual base A constructed once, first. Destruction is reverse of construction.",
+        "answer": "<code>A B C D </code><br><code>~D ~C ~B ~A </code>",
+        "explanation": "Construction: virtual base A first, then B, C, D. Destruction reverses: ~D, ~C, ~B, ~A. The virtual base A is destroyed last, only once."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\npublic:\n    void show() { cout &lt;&lt; \"Base\" &lt;&lt; endl; }\n};\nclass Derived : private Base {\npublic:\n    void test() {\n        show();  // OK: private inheritance, but accessible inside Derived\n    }\n};\nint main() {\n    Derived d;\n    d.test();\n    // d.show();  // Error: show() is private in Derived's context\n    return 0;\n}</code></pre>",
+        "hint": "With private inheritance, base public members become private in derived. Accessible inside Derived but not outside.",
+        "answer": "<code>Base</code>",
+        "explanation": "With <code>private</code> inheritance, <code>Base::show()</code> becomes private in <code>Derived</code>. It is accessible inside <code>Derived</code>'s methods but not from <code>main()</code>. <code>d.test()</code> works because <code>test()</code> is public and calls <code>show()</code> internally."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass X {\npublic:\n    X() { cout &lt;&lt; \"X \"; }\n};\nclass Y {\npublic:\n    Y() { cout &lt;&lt; \"Y \"; }\n};\nclass A : virtual public X {\npublic:\n    A() { cout &lt;&lt; \"A \"; }\n};\nclass B : virtual public X, virtual public Y {\npublic:\n    B() { cout &lt;&lt; \"B \"; }\n};\nclass C : public A, public B {\npublic:\n    C() { cout &lt;&lt; \"C \"; }\n};\nint main() {\n    C c;\n    return 0;\n}</code></pre>",
+        "hint": "Virtual bases are constructed first (in the order they first appear): X then Y. Then non-virtual: A, B. Then C.",
+        "answer": "<code>X Y A B C </code>",
+        "explanation": "Virtual bases are constructed first in the order they first appear in the inheritance graph: X (from A), Y (from B). Then A, B in declaration order. Finally C."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Greet {\npublic:\n    void hello() { cout &lt;&lt; \"Hello \"; }\n};\nclass D1 : public Greet {\npublic:\n    void hello() { cout &lt;&lt; \"Hi \"; }\n};\nclass D2 : public D1 {\npublic:\n    void test() {\n        hello();\n        D1::hello();\n        Greet::hello();\n    }\n};\nint main() {\n    D2 d;\n    d.test();\n    return 0;\n}</code></pre>",
+        "hint": "hello() without qualifier calls the nearest version (D1). Scope resolution calls specific versions.",
+        "answer": "<code>Hi Hi Hello </code>",
+        "explanation": "<code>hello()</code> without qualifier calls <code>D1::hello()</code> (nearest in the chain). <code>D1::hello()</code> explicitly calls D1's version. <code>Greet::hello()</code> explicitly calls the original base version."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens when you compile this?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\nprivate:\n    int secret;\npublic:\n    Base(int s) : secret(s) {}\n};\nclass Derived : public Base {\npublic:\n    Derived(int s) : Base(s) {}\n    void show() {\n        cout &lt;&lt; secret &lt;&lt; endl;\n    }\n};\nint main() {\n    Derived d(10);\n    d.show();\n    return 0;\n}</code></pre>",
+        "hint": "secret is private in Base. Can Derived access it directly?",
+        "answer": "Compilation error: <code>'secret' is a private member of 'Base'</code>",
+        "explanation": "Private members of a base class are never accessible in derived classes, regardless of the inheritance mode. To allow access, change <code>secret</code> to <code>protected</code> or provide a public/protected getter."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Vehicle {\npublic:\n    Vehicle() { cout &lt;&lt; \"V \"; }\n};\nclass Car : public Vehicle {\npublic:\n    Car() { cout &lt;&lt; \"C \"; }\n};\nclass SportsCar : public Car {\npublic:\n    SportsCar() { cout &lt;&lt; \"S \"; }\n};\nint main() {\n    SportsCar sc;\n    return 0;\n}</code></pre>",
+        "hint": "Multilevel: Vehicle -> Car -> SportsCar. Constructors run base to derived.",
+        "answer": "<code>V C S </code>",
+        "explanation": "Constructors run from the topmost base to the most derived: Vehicle, Car, SportsCar."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\npublic:\n    Base(int x) { cout &lt;&lt; \"B(\" &lt;&lt; x &lt;&lt; \") \"; }\n    ~Base() { cout &lt;&lt; \"~B \"; }\n};\nclass Derived : public Base {\npublic:\n    Derived(int x) : Base(x * 2) { cout &lt;&lt; \"D(\" &lt;&lt; x &lt;&lt; \") \"; }\n    ~Derived() { cout &lt;&lt; \"~D \"; }\n};\nint main() {\n    Derived d(5);\n    return 0;\n}</code></pre>",
+        "hint": "Derived(5) calls Base(10). Constructors: base first. Destructors: derived first.",
+        "answer": "<code>B(10) D(5) ~D ~B </code>",
+        "explanation": "Derived(5) calls Base(5*2=10). Construction: B(10) then D(5). Destruction: ~D then ~B."
+      },
+      {
+        "id": "ts-21",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\npublic:\n    int x;\n    A(int v = 0) : x(v) { cout &lt;&lt; \"A(\" &lt;&lt; v &lt;&lt; \") \"; }\n};\nclass B : virtual public A {\npublic:\n    B(int v) : A(v) { cout &lt;&lt; \"B \"; }\n};\nclass C : virtual public A {\npublic:\n    C(int v) : A(v) { cout &lt;&lt; \"C \"; }\n};\nclass D : public B, public C {\npublic:\n    D(int v) : A(v * 10), B(v), C(v) { cout &lt;&lt; \"D \"; }\n};\nint main() {\n    D d(5);\n    cout &lt;&lt; d.x &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Most derived class D calls A(50). B and C's calls to A are ignored. Only one A exists.",
+        "answer": "<code>A(50) B C D 50</code>",
+        "explanation": "With virtual inheritance, D calls A(50). B(5) and C(5) calls to A are ignored. One copy of A with x=50."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Animal {\npublic:\n    string sound() { return \"...\"; }\n};\nclass Cat : public Animal {\npublic:\n    string sound() { return \"Meow\"; }\n};\nclass Kitten : public Cat {\npublic:\n    string sound() { return \"Mew\"; }\n};\nint main() {\n    Kitten k;\n    cout &lt;&lt; k.sound() &lt;&lt; endl;\n    cout &lt;&lt; k.Cat::sound() &lt;&lt; endl;\n    cout &lt;&lt; k.Animal::sound() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Direct call uses Kitten's version. Scope resolution calls the specific class version.",
+        "answer": "<code>Mew</code><br><code>Meow</code><br><code>...</code>",
+        "explanation": "<code>k.sound()</code> calls Kitten::sound. <code>k.Cat::sound()</code> calls Cat::sound. <code>k.Animal::sound()</code> calls Animal::sound. Scope resolution bypasses hiding."
+      },
+      {
+        "id": "ts-23",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass X { public: X() { cout &lt;&lt; \"X \"; } ~X() { cout &lt;&lt; \"~X \"; } };\nclass Y { public: Y() { cout &lt;&lt; \"Y \"; } ~Y() { cout &lt;&lt; \"~Y \"; } };\nclass Z : public Y, public X {\npublic:\n    Z() { cout &lt;&lt; \"Z \"; }\n    ~Z() { cout &lt;&lt; \"~Z \"; }\n};\nint main() { Z z; cout &lt;&lt; endl; return 0; }</code></pre>",
+        "hint": "Declaration order is Y, X. Construction follows declaration order, not alphabetical.",
+        "answer": "<code>Y X Z </code><br><code>~Z ~X ~Y </code>",
+        "explanation": "Construction order follows declaration: Y first, X second, then Z. Destruction reverses: ~Z, ~X, ~Y."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What are the five types of inheritance in C++?",
+        "hint": "Think about how many base and derived classes are involved and how they connect.",
+        "answer": "Single (one base, one derived), Multiple (two or more bases, one derived), Multilevel (chain: A -> B -> C), Hierarchical (one base, multiple derived), and Hybrid (combination of two or more types).",
+        "explanation": "C++ supports all five types. Java does not support multiple class inheritance (only interface inheritance). The diamond problem arises from hybrid inheritance combining multiple and hierarchical patterns."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "In what order are constructors called in a multilevel inheritance chain A -> B -> C?",
+        "hint": "Think top to bottom.",
+        "answer": "A's constructor first, then B's, then C's. Destructors run in the reverse order: ~C, ~B, ~A.",
+        "explanation": "Base class constructors always run before derived class constructors. This ensures the base part is fully initialized before the derived part attempts to use it. Destruction is the exact reverse."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Shape {\npublic:\n    void draw() { cout &lt;&lt; \"Shape\" &lt;&lt; endl; }\n};\nclass Circle : public Shape {\npublic:\n    void draw() { cout &lt;&lt; \"Circle\" &lt;&lt; endl; }\n};\nint main() {\n    Circle c;\n    c.draw();\n    return 0;\n}</code></pre>",
+        "hint": "The Circle object calls its own draw(), which hides Base::draw().",
+        "answer": "<code>Circle</code>",
+        "explanation": "<code>Circle::draw()</code> hides <code>Shape::draw()</code>. When called on a <code>Circle</code> object directly, the derived version runs."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Parent {\npublic:\n    Parent() { cout &lt;&lt; \"Parent \"; }\n    ~Parent() { cout &lt;&lt; \"~Parent \"; }\n};\nclass Child : public Parent {\npublic:\n    Child() { cout &lt;&lt; \"Child \"; }\n    ~Child() { cout &lt;&lt; \"~Child \"; }\n};\nint main() {\n    Child* c = new Child();\n    delete c;\n    return 0;\n}</code></pre>",
+        "hint": "Dynamic allocation. Constructor: Parent then Child. Destructor: Child then Parent.",
+        "answer": "<code>Parent Child ~Child ~Parent </code>",
+        "explanation": "Construction: Parent first, Child second. <code>delete c</code> calls ~Child first, ~Parent second."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\npublic:\n    void greet() { cout &lt;&lt; \"Hello from A\" &lt;&lt; endl; }\n};\nclass B {\npublic:\n    void greet() { cout &lt;&lt; \"Hello from B\" &lt;&lt; endl; }\n};\nclass C : public A, public B {\npublic:\n    void greetBoth() {\n        A::greet();\n        B::greet();\n    }\n};\nint main() {\n    C c;\n    c.greetBoth();\n    c.A::greet();\n    return 0;\n}</code></pre>",
+        "hint": "c.greet() would be ambiguous, but A::greet() and B::greet() disambiguate.",
+        "answer": "<code>Hello from A</code><br><code>Hello from B</code><br><code>Hello from A</code>",
+        "explanation": "Both <code>A</code> and <code>B</code> have <code>greet()</code>. Inside <code>greetBoth()</code>, scope resolution is used. <code>c.A::greet()</code> explicitly calls A's version."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\npublic:\n    void show() { cout &lt;&lt; \"Base\" &lt;&lt; endl; }\n};\nclass Mid : public Base {\npublic:\n    void show() {\n        Base::show();\n        cout &lt;&lt; \"Mid\" &lt;&lt; endl;\n    }\n};\nclass Leaf : public Mid {\npublic:\n    void show() {\n        Mid::show();\n        cout &lt;&lt; \"Leaf\" &lt;&lt; endl;\n    }\n};\nint main() {\n    Leaf l;\n    l.show();\n    return 0;\n}</code></pre>",
+        "hint": "Leaf::show calls Mid::show, which calls Base::show. The chain unfolds.",
+        "answer": "<code>Base</code><br><code>Mid</code><br><code>Leaf</code>",
+        "explanation": "<code>Leaf::show()</code> calls <code>Mid::show()</code>, which calls <code>Base::show()</code>. The calls chain: Base prints \"Base\", Mid prints \"Mid\", Leaf prints \"Leaf\"."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\nprotected:\n    int val;\npublic:\n    Base(int v) : val(v) {}\n};\nclass Derived : protected Base {\npublic:\n    Derived(int v) : Base(v) {}\n    int get() { return val; }\n};\nclass GrandChild : public Derived {\npublic:\n    GrandChild(int v) : Derived(v) {}\n    int getDouble() { return val * 2; }\n};\nint main() {\n    GrandChild g(5);\n    cout &lt;&lt; g.get() &lt;&lt; \" \" &lt;&lt; g.getDouble() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "protected inheritance makes Base's protected val stay protected in Derived. GrandChild can still access it.",
+        "answer": "<code>5 10</code>",
+        "explanation": "With <code>protected</code> inheritance, <code>val</code> (protected in Base) remains protected in <code>Derived</code>. <code>GrandChild</code> inherits publicly from <code>Derived</code>, so it can access <code>val</code>."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass V {\npublic:\n    int x;\n    V(int v = 0) : x(v) { cout &lt;&lt; \"V(\" &lt;&lt; v &lt;&lt; \") \"; }\n};\nclass A : virtual public V {\npublic:\n    A(int v) : V(v) { cout &lt;&lt; \"A \"; }\n};\nclass B : virtual public V {\npublic:\n    B(int v) : V(v) { cout &lt;&lt; \"B \"; }\n};\nclass C : public A, public B {\npublic:\n    C(int v) : V(v * 100), A(v), B(v) { cout &lt;&lt; \"C \"; }\n};\nint main() {\n    C c(3);\n    cout &lt;&lt; endl &lt;&lt; c.x &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "The most derived class C calls V(300). A and B's calls to V are ignored.",
+        "answer": "<code>V(300) A B C </code><br><code>300</code>",
+        "explanation": "With virtual inheritance, <code>C</code> (the most derived class) calls <code>V(300)</code>. <code>A</code> and <code>B</code>'s calls to <code>V</code> are ignored. There is only one <code>x</code>, and it equals 300."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\npublic:\n    int x;\n    A(int v = 0) : x(v) {}\n};\nclass B : virtual public A {\npublic:\n    B(int v) : A(v) {}\n};\nclass C : virtual public A {\npublic:\n    C(int v) : A(v) {}\n};\nclass D : public B, public C {\npublic:\n    D(int v) : A(v), B(v + 1), C(v + 2) {}\n};\nint main() {\n    D d(10);\n    cout &lt;&lt; d.x &lt;&lt; \" \" &lt;&lt; d.B::x &lt;&lt; \" \" &lt;&lt; d.C::x &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "With virtual inheritance, there is only one A. B::x and C::x both refer to the same x.",
+        "answer": "<code>10 10 10</code>",
+        "explanation": "Virtual inheritance means one shared <code>A</code>. <code>D</code> calls <code>A(10)</code>. <code>d.x</code>, <code>d.B::x</code>, and <code>d.C::x</code> all refer to the same <code>x = 10</code>."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\npublic:\n    Base() { cout &lt;&lt; \"Base \"; }\n    ~Base() { cout &lt;&lt; \"~Base \"; }\n};\nclass Member {\npublic:\n    Member() { cout &lt;&lt; \"Member \"; }\n    ~Member() { cout &lt;&lt; \"~Member \"; }\n};\nclass Derived : public Base {\n    Member m1;\n    Member m2;\npublic:\n    Derived() { cout &lt;&lt; \"Derived \"; }\n    ~Derived() { cout &lt;&lt; \"~Derived \"; }\n};\nint main() {\n    Derived d;\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Order: base, members (in declaration order), then derived. Destruction is reverse.",
+        "answer": "<code>Base Member Member Derived </code><br><code>~Derived ~Member ~Member ~Base </code>",
+        "explanation": "Construction: Base first, then members m1 and m2, then Derived body. Destruction reverses: ~Derived, ~m2 (~Member), ~m1 (~Member), ~Base."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the syntax for public inheritance in C++?",
+        "options": {"A": "class Derived extends Base", "B": "class Derived : public Base", "C": "class Derived implements Base", "D": "class Derived -> Base"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> C++ uses the colon syntax: <code>class Derived : public Base</code>. Java uses <code>extends</code> (A) and <code>implements</code> (C). The arrow syntax (D) is not valid."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "In single inheritance, how many base classes does a derived class have?",
+        "options": {"A": "Zero", "B": "Exactly one", "C": "Two", "D": "Unlimited"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Single inheritance involves exactly one base class and one derived class. Multiple inheritance involves two or more base classes."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is the order of constructor calls in inheritance?",
+        "options": {"A": "Derived first, then Base", "B": "Base first, then Derived", "C": "Random order", "D": "Only Base constructor runs"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The base class constructor always runs before the derived class constructor. This ensures the base part is fully initialized before the derived part uses it."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which inheritance type is NOT supported in Java but IS supported in C++?",
+        "options": {"A": "Single inheritance", "B": "Multilevel inheritance", "C": "Multiple class inheritance", "D": "Hierarchical inheritance"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Java does not support multiple class inheritance (a class extending two classes). C++ supports it. Java uses interfaces instead."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "With public inheritance, how do base class public members appear in the derived class?",
+        "options": {"A": "private", "B": "protected", "C": "public", "D": "Not accessible"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Public inheritance preserves access levels: base public stays public, base protected stays protected. This models the \"is-a\" relationship."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the diamond problem in C++?",
+        "options": {"A": "A class that inherits from itself", "B": "A class that inherits from two classes that share a common base, causing duplicate base members", "C": "A class with no constructor", "D": "A circular dependency between header files"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The diamond problem occurs when class D inherits from B and C, and both B and C inherit from A. Without virtual inheritance, D gets two copies of A's members."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "How does virtual inheritance solve the diamond problem?",
+        "options": {"A": "By preventing multiple inheritance entirely", "B": "By ensuring only one copy of the shared virtual base exists in the most derived class", "C": "By making all members public", "D": "By converting classes to structs"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Virtual inheritance ensures that a shared base class is included only once in the inheritance hierarchy, regardless of how many paths lead to it."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "In virtual inheritance, who is responsible for calling the virtual base class constructor?",
+        "options": {"A": "The immediate derived class", "B": "The most derived class", "C": "The compiler automatically handles it", "D": "The virtual base itself"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> With virtual inheritance, the most derived class in the hierarchy must call the virtual base class constructor. Intermediate classes' calls to the virtual base constructor are ignored."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "With private inheritance, how do base class public members appear in the derived class?",
+        "options": {"A": "public", "B": "protected", "C": "private", "D": "Not accessible at all"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Private inheritance makes all inherited members private in the derived class. They are accessible within the derived class but not from outside or from further derived classes."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What determines the order of base class construction in multiple inheritance?",
+        "options": {"A": "The order in the initializer list", "B": "Alphabetical order", "C": "The order of declaration in the class definition", "D": "The size of each base class"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Base classes are constructed in the order they appear in the class definition (<code>class D : public B, public A</code> constructs B first, then A), regardless of the initializer list order."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "In a virtual inheritance hierarchy, when are virtual bases constructed relative to non-virtual bases?",
+        "options": {"A": "After all non-virtual bases", "B": "Before all non-virtual bases", "C": "Interleaved based on declaration order", "D": "It depends on the compiler"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Virtual base classes are always constructed first, before any non-virtual base classes, regardless of where they appear in the inheritance declarations."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the difference between method hiding and method overriding?",
+        "options": {"A": "They are the same thing", "B": "Hiding uses virtual, overriding does not", "C": "Hiding occurs without virtual (static binding); overriding occurs with virtual (dynamic binding)", "D": "Hiding only works with private methods"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> When a derived class defines a method with the same name as a non-virtual base method, it hides the base version (resolved at compile time). When the base method is virtual and the derived method has the same signature, it overrides it (resolved at runtime via vtable)."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "If class D : private Base, can a class E : public D access Base's originally public members?",
+        "options": {"A": "Yes, because E inherits publicly from D", "B": "No, because Base's members became private in D and are not accessible to E", "C": "Yes, but only if E uses a friend function", "D": "Yes, through protected access"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Private inheritance makes all Base members private in D. When E inherits from D, those members are not accessible to E (private members are not inherited further)."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What happens if the most derived class does NOT explicitly call the virtual base constructor?",
+        "options": {"A": "Compilation error", "B": "The default constructor of the virtual base is called", "C": "The intermediate class's call is used", "D": "The program crashes at runtime"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> If the most derived class does not explicitly call the virtual base constructor, the compiler uses the default constructor (if available). If no default constructor exists, it is a compilation error."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "Can a derived class access the private members of its base class?",
+        "options": {"A": "Yes, always", "B": "Only with public inheritance", "C": "No, private members are never accessible in derived classes", "D": "Only if the base class is a struct"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Private members of a base class are never directly accessible in derived classes, regardless of the inheritance mode (public, protected, or private)."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "Which type of inheritance models the 'implemented-in-terms-of' relationship?",
+        "options": {"A": "public inheritance", "B": "protected inheritance", "C": "private inheritance", "D": "virtual inheritance"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Private inheritance means the derived class uses the base class's implementation but does not expose it. This models 'implemented-in-terms-of' rather than 'is-a'."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "What is hierarchical inheritance?",
+        "options": {"A": "A chain of classes inheriting from each other", "B": "One base class with multiple derived classes", "C": "A class inheriting from multiple base classes", "D": "Inheritance using virtual keyword"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Hierarchical inheritance has one base class and multiple derived classes that independently extend it. Example: Shape is the base; Circle, Rectangle, Triangle are derived."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "In multiple inheritance, if both base classes have a method with the same name, what happens when the derived class calls it?",
+        "options": {"A": "The first base class method is called", "B": "The second base class method is called", "C": "Compilation error due to ambiguity", "D": "Both methods are called"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> If both base classes have a method with the same name and the derived class does not override it, calling the method is ambiguous and causes a compilation error. Use scope resolution (Base1::method()) to disambiguate."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Easy",
+        "question": "What is the destructor order in single inheritance (Base -> Derived)?",
+        "options": {"A": "Base first, then Derived", "B": "Derived first, then Base", "C": "Only Derived destructor runs", "D": "Random order"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Destructors run in the reverse of construction order. For single inheritance, the derived destructor runs first, then the base destructor."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "What happens when you try to convert a Derived* to Base* with private inheritance?",
+        "options": {"A": "Implicit conversion works normally", "B": "Only explicit static_cast works", "C": "The conversion is not allowed outside Derived's member functions and friends", "D": "Runtime error"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> With private inheritance, the base class is a private implementation detail. The derived-to-base conversion is only accessible inside the derived class's own member functions and friends, not from outside code."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "University Hierarchy with Multilevel Inheritance",
+        "difficulty": "Easy",
+        "description": "Create a Person class (name, age), a Student class that extends Person (rollNumber, semester), and a GraduateStudent that extends Student (thesisTopic, advisor). Show constructor/destructor order and demonstrate accessing inherited members.",
+        "sampleInput": "Name: Priya, Age: 23, Roll: 101, Semester: 6, Thesis: ML in Healthcare, Advisor: Dr. Mehta",
+        "sampleOutput": "Person(Priya) Student(101) GraduateStudent()\nPriya, 23, Roll: 101, Sem: 6\nThesis: ML in Healthcare, Advisor: Dr. Mehta\n~GraduateStudent ~Student ~Person",
+        "constraints": "Use protected for name and age. Call base constructors explicitly. Show destruction order.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Person {\nprotected:\n    string name;\n    int age;\npublic:\n    Person(string n, int a) : name(n), age(a) {\n        cout << \"Person(\" << name << \") \";\n    }\n    ~Person() { cout << \"~Person \"; }\n};\n\nclass Student : public Person {\nprotected:\n    int rollNumber;\n    int semester;\npublic:\n    Student(string n, int a, int r, int s)\n        : Person(n, a), rollNumber(r), semester(s) {\n        cout << \"Student(\" << rollNumber << \") \";\n    }\n    ~Student() { cout << \"~Student \"; }\n    void showStudent() {\n        cout << name << \", \" << age << \", Roll: \" << rollNumber\n             << \", Sem: \" << semester << endl;\n    }\n};\n\nclass GraduateStudent : public Student {\n    string thesis;\n    string advisor;\npublic:\n    GraduateStudent(string n, int a, int r, int s, string t, string adv)\n        : Student(n, a, r, s), thesis(t), advisor(adv) {\n        cout << \"GraduateStudent()\" << endl;\n    }\n    ~GraduateStudent() { cout << \"~GraduateStudent \"; }\n    void showAll() {\n        showStudent();\n        cout << \"Thesis: \" << thesis << \", Advisor: \" << advisor << endl;\n    }\n};\n\nint main() {\n    GraduateStudent g(\"Priya\", 23, 101, 6, \"ML in Healthcare\", \"Dr. Mehta\");\n    g.showAll();\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Multiple Inheritance: Printable + Loggable",
+        "difficulty": "Medium",
+        "description": "Create a Printable class with a print() method and a Loggable class with a log() method. Create a Document class that inherits from both and has a title and content. Document's print() should call the base print logic and add its own. Demonstrate multiple inheritance.",
+        "sampleInput": "Title: Report, Content: Quarterly earnings up 15%",
+        "sampleOutput": "[Printable] Sending to printer...\nDocument: Report\nQuarterly earnings up 15%\n[Loggable] Logged at timestamp\nDocument Report logged",
+        "constraints": "Use multiple inheritance. Call base class methods with scope resolution.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Printable {\npublic:\n    void print() { cout << \"[Printable] Sending to printer...\" << endl; }\n};\n\nclass Loggable {\npublic:\n    void log() { cout << \"[Loggable] Logged at timestamp\" << endl; }\n};\n\nclass Document : public Printable, public Loggable {\n    string title;\n    string content;\npublic:\n    Document(string t, string c) : title(t), content(c) {}\n    void print() {\n        Printable::print();\n        cout << \"Document: \" << title << endl;\n        cout << content << endl;\n    }\n    void log() {\n        Loggable::log();\n        cout << \"Document \" << title << \" logged\" << endl;\n    }\n};\n\nint main() {\n    Document doc(\"Report\", \"Quarterly earnings up 15%\");\n    doc.print();\n    doc.log();\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Diamond Problem with Virtual Inheritance",
+        "difficulty": "Hard",
+        "description": "Create a Device base class (serialNumber, powerOn/powerOff). Create Printer (printDoc) and Scanner (scanDoc) that virtually inherit from Device. Create AllInOne that inherits from both Printer and Scanner. Demonstrate that Device is constructed only once and the serial number is shared.",
+        "sampleInput": "Serial: DEV-2026-001",
+        "sampleOutput": "Device(DEV-2026-001) constructed\nPrinter constructed\nScanner constructed\nAllInOne constructed\nSerial: DEV-2026-001\nPowering on DEV-2026-001\nPrinting document...\nScanning document...\nPowering off DEV-2026-001",
+        "constraints": "Use virtual inheritance. Most derived class must call Device constructor. Show that serial number is not duplicated.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Device {\nprotected:\n    string serialNumber;\n    bool isOn;\npublic:\n    Device(string sn = \"\") : serialNumber(sn), isOn(false) {\n        cout << \"Device(\" << sn << \") constructed\" << endl;\n    }\n    void powerOn() {\n        isOn = true;\n        cout << \"Powering on \" << serialNumber << endl;\n    }\n    void powerOff() {\n        isOn = false;\n        cout << \"Powering off \" << serialNumber << endl;\n    }\n    string getSerial() const { return serialNumber; }\n};\n\nclass Printer : virtual public Device {\npublic:\n    Printer(string sn) : Device(sn) {\n        cout << \"Printer constructed\" << endl;\n    }\n    void printDoc() {\n        cout << \"Printing document...\" << endl;\n    }\n};\n\nclass Scanner : virtual public Device {\npublic:\n    Scanner(string sn) : Device(sn) {\n        cout << \"Scanner constructed\" << endl;\n    }\n    void scanDoc() {\n        cout << \"Scanning document...\" << endl;\n    }\n};\n\nclass AllInOne : public Printer, public Scanner {\npublic:\n    AllInOne(string sn) : Device(sn), Printer(sn), Scanner(sn) {\n        cout << \"AllInOne constructed\" << endl;\n    }\n};\n\nint main() {\n    AllInOne aio(\"DEV-2026-001\");\n    cout << \"Serial: \" << aio.getSerial() << endl;\n    aio.powerOn();\n    aio.printDoc();\n    aio.scanDoc();\n    aio.powerOff();\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Access Control Demonstration",
+        "difficulty": "Medium",
+        "description": "Create a Base class with one public, one protected, and one private member. Create three derived classes: PublicChild (public inheritance), ProtectedChild (protected inheritance), and PrivateChild (private inheritance). In each, demonstrate which members are accessible inside the derived class and from main(). Create a GrandChild of PrivateChild to show that private inheritance stops further access.",
+        "sampleInput": "Base members: pub=1, prot=2, priv=3",
+        "sampleOutput": "PublicChild: pub=1 prot=2 (priv not accessible)\nmain: pd.pub=1 (prot, priv not accessible)\nProtectedChild: pub=1 prot=2 (priv not accessible)\nmain: cannot access any through ProtectedChild\nPrivateChild: pub=1 prot=2 (priv not accessible)\nGrandChild: cannot access any Base members",
+        "constraints": "Show access results clearly. Use comments to indicate compilation errors.",
+        "solution": "#include <iostream>\nusing namespace std;\n\nclass Base {\npublic:\n    int pub;\nprotected:\n    int prot;\nprivate:\n    int priv;\npublic:\n    Base() : pub(1), prot(2), priv(3) {}\n};\n\nclass PublicChild : public Base {\npublic:\n    void show() {\n        cout << \"PublicChild: pub=\" << pub << \" prot=\" << prot\n             << \" (priv not accessible)\" << endl;\n    }\n};\n\nclass ProtectedChild : protected Base {\npublic:\n    void show() {\n        cout << \"ProtectedChild: pub=\" << pub << \" prot=\" << prot\n             << \" (priv not accessible)\" << endl;\n    }\n};\n\nclass PrivateChild : private Base {\npublic:\n    void show() {\n        cout << \"PrivateChild: pub=\" << pub << \" prot=\" << prot\n             << \" (priv not accessible)\" << endl;\n    }\n};\n\nclass GrandChild : public PrivateChild {\npublic:\n    void show() {\n        // Cannot access pub or prot: they became private in PrivateChild\n        cout << \"GrandChild: cannot access any Base members\" << endl;\n    }\n};\n\nint main() {\n    PublicChild pc;\n    pc.show();\n    cout << \"main: pd.pub=\" << pc.pub << \" (prot, priv not accessible)\" << endl;\n\n    ProtectedChild ptc;\n    ptc.show();\n    cout << \"main: cannot access any through ProtectedChild\" << endl;\n\n    PrivateChild pvc;\n    pvc.show();\n\n    GrandChild gc;\n    gc.show();\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Constructor Order Tracer with Virtual and Non-Virtual Bases",
+        "difficulty": "Hard",
+        "description": "Create a class hierarchy with virtual and non-virtual bases to demonstrate the exact construction and destruction order. Classes: V1 (virtual base), V2 (virtual base), N1 (non-virtual), N2 (non-virtual). Class Mid1 : virtual V1, N1. Class Mid2 : virtual V2, N2. Class Final : Mid1, Mid2. Print construction and destruction order.",
+        "sampleInput": "Creating Final object",
+        "sampleOutput": "V1() V2() N1() Mid1() N2() Mid2() Final()\n~Final() ~Mid2() ~N2() ~Mid1() ~N1() ~V2() ~V1()",
+        "constraints": "Show that virtual bases are constructed first (before any non-virtual bases). Destruction is exact reverse.",
+        "solution": "#include <iostream>\nusing namespace std;\n\nclass V1 {\npublic:\n    V1() { cout << \"V1() \"; }\n    ~V1() { cout << \"~V1() \"; }\n};\n\nclass V2 {\npublic:\n    V2() { cout << \"V2() \"; }\n    ~V2() { cout << \"~V2() \"; }\n};\n\nclass N1 {\npublic:\n    N1() { cout << \"N1() \"; }\n    ~N1() { cout << \"~N1() \"; }\n};\n\nclass N2 {\npublic:\n    N2() { cout << \"N2() \"; }\n    ~N2() { cout << \"~N2() \"; }\n};\n\nclass Mid1 : virtual public V1, public N1 {\npublic:\n    Mid1() { cout << \"Mid1() \"; }\n    ~Mid1() { cout << \"~Mid1() \"; }\n};\n\nclass Mid2 : virtual public V2, public N2 {\npublic:\n    Mid2() { cout << \"Mid2() \"; }\n    ~Mid2() { cout << \"~Mid2() \"; }\n};\n\nclass Final : public Mid1, public Mid2 {\npublic:\n    Final() { cout << \"Final()\" << endl; }\n    ~Final() { cout << \"~Final() \"; }\n};\n\nint main() {\n    Final f;\n    return 0;\n}"
+      }
+    ]
+  }
+}

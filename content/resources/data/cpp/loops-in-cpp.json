@@ -1,0 +1,719 @@
+{
+  "title": "Loops (for, while, do-while) and Patterns",
+  "slug": "loops-in-cpp",
+  "language": "cpp",
+  "chapter": 7,
+  "difficulty": "Beginner",
+  "readingTime": "32 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 62,
+  "seo": {
+    "title": "Loops in C++ - for, while, do-while with Star and Number Patterns | Modern Age Coders",
+    "description": "Master C++ loops including for, while, do-while, range-based for, nested loops, break/continue, and pattern printing. Includes 62 practice questions with star patterns, number patterns, Floyd's triangle, Pascal's triangle, and output prediction.",
+    "keywords": "c++ for loop, c++ while loop, c++ do while loop, c++ pattern printing, c++ star pattern, c++ number pattern, c++ nested loops, c++ loop examples, c++ Floyd triangle, c++ Pascal triangle, c++ diamond pattern"
+  },
+  "content": {
+    "what": "<h2>What Are Loops?</h2><p>A <strong>loop</strong> is a control flow structure that repeats a block of code multiple times until a specified condition becomes false. Instead of writing the same statement 100 times, you write it once inside a loop and let the loop handle the repetition.</p><p>Consider printing numbers 1 to 1000. Without loops, you need 1000 cout statements. With a loop, you need 3 lines. Loops are one of the three fundamental building blocks of all programs, alongside sequences and conditionals.</p><p>C++ provides the following loop constructs:</p><ol><li><strong>for loop</strong> -- when you know the number of iterations in advance</li><li><strong>while loop</strong> -- when you want to repeat while a condition is true (condition checked before each iteration)</li><li><strong>do-while loop</strong> -- like while, but the body executes at least once (condition checked after each iteration)</li><li><strong>Range-based for loop (C++11)</strong> -- for iterating over arrays and containers without managing an index</li></ol>",
+    "why": "<h2>Why Are Loops Essential?</h2><h3>1. Eliminating Repetition</h3><p>Any task involving repetition requires loops. Printing a multiplication table, processing each element of an array, reading lines from a file, handling multiple requests in a server -- all are impossible without loops. They are the foundation of automation in programming.</p><h3>2. Processing Collections of Data</h3><p>Real programs work with collections: arrays, vectors, database rows, API responses. Loops let you iterate over each element, apply transformations, filter results, compute aggregates (sum, average, min, max), and search for specific values. Without loops, you cannot work with data of variable size.</p><h3>3. Algorithm Implementation</h3><p>Almost every algorithm uses loops. Searching (linear search, binary search), sorting (bubble sort, selection sort), matrix operations, string processing, mathematical computations (factorial, Fibonacci, prime checking) -- all require loops. For competitive programming and placements, loop mastery is non-negotiable.</p><h3>4. Pattern Printing</h3><p>Pattern printing problems are a staple of coding interviews and college exams. They train you to think systematically about nested loops: which row you are on, how many spaces to print, how many stars to print. Mastering patterns means mastering nested loop control flow.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The for Loop</h3><p>The most commonly used loop when you know (or can calculate) the number of iterations. It has three parts in the header: initialization, condition, and update.</p><pre><code>for (initialization; condition; update) {\n    // body\n}</code></pre><p>Execution flow:</p><ol><li><strong>Initialization</strong> executes once, at the very beginning.</li><li><strong>Condition</strong> is checked before each iteration. If true, the body executes. If false, the loop ends.</li><li><strong>Update</strong> executes after each iteration of the body.</li></ol><pre><code>for (int i = 1; i <= 5; i++) {\n    cout << i << \" \";\n}\n// Output: 1 2 3 4 5</code></pre><h4>Variations of for Loop</h4><ul><li><strong>Counting down:</strong> <code>for (int i = 10; i >= 1; i--)</code></li><li><strong>Step by 2:</strong> <code>for (int i = 0; i <= 20; i += 2)</code></li><li><strong>Multiple variables:</strong> <code>for (int i = 0, j = 10; i < j; i++, j--)</code></li><li><strong>Empty parts:</strong> Any of the three parts can be omitted: <code>for (;;)</code> is an infinite loop.</li></ul><h3>2. The while Loop</h3><p>The <code>while</code> loop repeats as long as its condition is true. The condition is checked <strong>before</strong> each iteration, so if the condition is false from the start, the body never executes.</p><pre><code>while (condition) {\n    // body\n}</code></pre><pre><code>int count = 1;\nwhile (count <= 5) {\n    cout << count << \" \";\n    count++;\n}\n// Output: 1 2 3 4 5</code></pre><p>If you forget <code>count++</code>, the condition is always true, causing an <strong>infinite loop</strong>.</p><h3>3. The do-while Loop</h3><p>The condition is checked <strong>after</strong> the body executes, guaranteeing at least one execution.</p><pre><code>do {\n    // body\n} while (condition);</code></pre><p>Note the semicolon after the while condition. It is required.</p><pre><code>int num = 10;\ndo {\n    cout << num << \" \";\n    num++;\n} while (num <= 5);\n// Output: 10</code></pre><p>Even though 10 <= 5 is false, the body runs once and prints 10.</p><h3>4. Range-based for Loop (C++11)</h3><p>A cleaner way to iterate over arrays and containers:</p><pre><code>int arr[] = {10, 20, 30, 40, 50};\nfor (auto x : arr) {\n    cout << x << \" \";\n}\n// Output: 10 20 30 40 50</code></pre><p>The variable <code>x</code> takes each element's value in order. To modify elements, use a reference: <code>for (auto& x : arr)</code>. The <code>auto</code> keyword lets the compiler deduce the type.</p><h3>5. break and continue</h3><p><strong>break</strong> exits the loop entirely. <strong>continue</strong> skips the rest of the current iteration and moves to the next.</p><pre><code>for (int i = 1; i <= 10; i++) {\n    if (i == 5) break;\n    cout << i << \" \";\n}\n// Output: 1 2 3 4</code></pre><pre><code>for (int i = 1; i <= 10; i++) {\n    if (i % 3 == 0) continue;\n    cout << i << \" \";\n}\n// Output: 1 2 4 5 7 8 10</code></pre><p>In nested loops, break and continue apply only to the <strong>innermost</strong> enclosing loop.</p><h3>6. Nested Loops</h3><p>A loop inside another loop. The inner loop completes all its iterations for each single iteration of the outer loop. If the outer loop runs N times and the inner runs M times, the innermost body executes N * M times.</p><pre><code>for (int i = 1; i <= 3; i++) {\n    for (int j = 1; j <= 4; j++) {\n        cout << \"* \";\n    }\n    cout << endl;\n}\n// 3 rows, 4 stars each</code></pre><h3>7. Pattern Printing: The Row-Column Approach</h3><p>Every pattern can be analyzed using the <strong>row-column approach</strong>:</p><ol><li>Identify the number of rows (outer loop variable <code>i</code>).</li><li>For each row, determine: how many spaces, how many stars/numbers/characters.</li><li>Express counts as functions of <code>i</code> and the total rows <code>n</code>.</li></ol><h4>Right-Aligned Triangle</h4><pre><code>int n = 5;\nfor (int i = 1; i <= n; i++) {\n    for (int j = 1; j <= i; j++) {\n        cout << \"* \";\n    }\n    cout << endl;\n}</code></pre><p>Row 1: 1 star. Row 2: 2 stars. Row i: i stars.</p><h4>Inverted Triangle</h4><pre><code>for (int i = n; i >= 1; i--) {\n    for (int j = 1; j <= i; j++) {\n        cout << \"* \";\n    }\n    cout << endl;\n}</code></pre><h4>Pyramid (Centered Triangle)</h4><pre><code>for (int i = 1; i <= n; i++) {\n    for (int j = 1; j <= n - i; j++) cout << \" \";   // spaces\n    for (int j = 1; j <= 2 * i - 1; j++) cout << \"*\"; // stars\n    cout << endl;\n}</code></pre><p>Row i has (n - i) spaces followed by (2*i - 1) stars.</p><h4>Diamond</h4><p>A diamond is an upper pyramid (rows 1 to n) followed by an inverted pyramid (rows n-1 to 1).</p><h4>Floyd's Triangle</h4><pre><code>int num = 1;\nfor (int i = 1; i <= n; i++) {\n    for (int j = 1; j <= i; j++) {\n        cout << num++ << \" \";\n    }\n    cout << endl;\n}</code></pre><p>Prints consecutive numbers: 1 / 2 3 / 4 5 6 / ...</p><h4>Pascal's Triangle</h4><pre><code>for (int i = 0; i < n; i++) {\n    int val = 1;\n    for (int j = 0; j <= i; j++) {\n        cout << val << \" \";\n        val = val * (i - j) / (j + 1);\n    }\n    cout << endl;\n}</code></pre><p>Each element is computed using the combinatorial formula: C(i, j) = C(i, j-1) * (i - j + 1) / j.</p><h3>8. Loop Optimization Tips</h3><ul><li><strong>Avoid recomputing in the condition:</strong> <code>for (int i = 0; i < strlen(s); i++)</code> calls strlen every iteration (O(n) each call, making the loop O(n^2)). Compute the length once before the loop.</li><li><strong>Use prefix increment:</strong> <code>++i</code> is generally at least as fast as <code>i++</code> (for iterators, prefix avoids creating a temporary copy).</li><li><strong>Break early:</strong> If searching for an element, break as soon as you find it instead of scanning the entire array.</li><li><strong>Minimize work inside the loop:</strong> Move invariant computations outside the loop body.</li></ul>",
+    "codeExamples": [
+      {
+        "title": "for Loop: Multiplication Table",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int num;\n    cout << \"Enter a number: \";\n    cin >> num;\n\n    for (int i = 1; i <= 10; i++) {\n        cout << num << \" x \" << i << \" = \" << num * i << endl;\n    }\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The for loop runs from i = 1 to i = 10. Each iteration prints one line of the multiplication table. The expression num * i computes the product inline.",
+        "output": "Enter a number: 7\n7 x 1 = 7\n7 x 2 = 14\n7 x 3 = 21\n7 x 4 = 28\n7 x 5 = 35\n7 x 6 = 42\n7 x 7 = 49\n7 x 8 = 56\n7 x 9 = 63\n7 x 10 = 70"
+      },
+      {
+        "title": "while Loop: Sum of Digits",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int n;\n    cout << \"Enter a number: \";\n    cin >> n;\n\n    int sum = 0;\n    int temp = n;\n    while (temp > 0) {\n        sum += temp % 10;\n        temp /= 10;\n    }\n\n    cout << \"Sum of digits of \" << n << \": \" << sum << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "temp % 10 extracts the last digit. temp /= 10 removes the last digit. The while loop repeats until all digits are processed (temp becomes 0). We use a temporary variable to preserve the original number for printing.",
+        "output": "Enter a number: 1234\nSum of digits of 1234: 10"
+      },
+      {
+        "title": "do-while Loop: Menu-Driven Program",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int choice;\n\n    do {\n        cout << \"\\n--- Menu ---\" << endl;\n        cout << \"1. Say Hello\" << endl;\n        cout << \"2. Say Goodbye\" << endl;\n        cout << \"3. Exit\" << endl;\n        cout << \"Choice: \";\n        cin >> choice;\n\n        switch (choice) {\n            case 1: cout << \"Hello!\" << endl; break;\n            case 2: cout << \"Goodbye!\" << endl; break;\n            case 3: cout << \"Exiting...\" << endl; break;\n            default: cout << \"Invalid choice.\" << endl;\n        }\n    } while (choice != 3);\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The do-while loop guarantees the menu displays at least once. The loop continues until the user enters 3. Inside, a switch-case handles each option. This is the classic use case for do-while.",
+        "output": "--- Menu ---\n1. Say Hello\n2. Say Goodbye\n3. Exit\nChoice: 1\nHello!\n\n--- Menu ---\n1. Say Hello\n2. Say Goodbye\n3. Exit\nChoice: 3\nExiting..."
+      },
+      {
+        "title": "Range-based for Loop with auto",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int marks[] = {85, 92, 78, 95, 88};\n\n    int total = 0;\n    for (auto m : marks) {\n        total += m;\n    }\n\n    cout << \"Total: \" << total << endl;\n    cout << \"Average: \" << (double)total / 5 << endl;\n\n    // Modify using reference\n    for (auto& m : marks) {\n        m += 5;  // Add 5 grace marks\n    }\n\n    cout << \"After grace marks: \";\n    for (auto m : marks) {\n        cout << m << \" \";\n    }\n    cout << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The first range-based for uses auto m (copy) to sum elements. The second uses auto& m (reference) to modify elements in-place. Without the &, changes to m would not affect the original array. This is a C++11 feature.",
+        "output": "Total: 438\nAverage: 87.6\nAfter grace marks: 90 97 83 100 93"
+      },
+      {
+        "title": "Star Pattern: Right Triangle and Pyramid",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int n = 5;\n\n    // Right triangle\n    cout << \"Right Triangle:\" << endl;\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= i; j++) {\n            cout << \"* \";\n        }\n        cout << endl;\n    }\n\n    cout << endl;\n\n    // Pyramid\n    cout << \"Pyramid:\" << endl;\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= n - i; j++) {\n            cout << \" \";\n        }\n        for (int j = 1; j <= 2 * i - 1; j++) {\n            cout << \"*\";\n        }\n        cout << endl;\n    }\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Right triangle: row i has i stars. Pyramid: row i has (n-i) leading spaces and (2*i-1) stars. The spaces push the stars to the right, centering them. In the pyramid, row 1 has 4 spaces and 1 star; row 5 has 0 spaces and 9 stars.",
+        "output": "Right Triangle:\n* \n* * \n* * * \n* * * * \n* * * * * \n\nPyramid:\n    *\n   ***\n  *****\n *******\n*********"
+      },
+      {
+        "title": "Number Pattern: Floyd's Triangle and Pascal's Triangle",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int n = 5;\n\n    // Floyd's Triangle\n    cout << \"Floyd's Triangle:\" << endl;\n    int num = 1;\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= i; j++) {\n            cout << num++ << \" \";\n        }\n        cout << endl;\n    }\n\n    cout << endl;\n\n    // Pascal's Triangle\n    cout << \"Pascal's Triangle:\" << endl;\n    for (int i = 0; i < n; i++) {\n        int val = 1;\n        for (int j = 0; j <= i; j++) {\n            cout << val << \" \";\n            val = val * (i - j) / (j + 1);\n        }\n        cout << endl;\n    }\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Floyd's Triangle uses a running counter (num) that increments across all rows. Row 1 has 1 number, row 2 has 2, etc. Pascal's Triangle computes each value using the combinatorial recurrence: C(i, j+1) = C(i, j) * (i - j) / (j + 1). This avoids computing factorials directly.",
+        "output": "Floyd's Triangle:\n1 \n2 3 \n4 5 6 \n7 8 9 10 \n11 12 13 14 15 \n\nPascal's Triangle:\n1 \n1 1 \n1 2 1 \n1 3 3 1 \n1 4 6 4 1"
+      },
+      {
+        "title": "Diamond Pattern",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int n = 5;\n\n    // Upper half (rows 1 to n)\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= n - i; j++) cout << \" \";\n        for (int j = 1; j <= 2 * i - 1; j++) cout << \"*\";\n        cout << endl;\n    }\n\n    // Lower half (rows n-1 to 1)\n    for (int i = n - 1; i >= 1; i--) {\n        for (int j = 1; j <= n - i; j++) cout << \" \";\n        for (int j = 1; j <= 2 * i - 1; j++) cout << \"*\";\n        cout << endl;\n    }\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "A diamond is a pyramid (rows 1 to n) followed by an inverted pyramid (rows n-1 to 1). Both halves use the same space-star formula. The upper half grows; the lower half shrinks. Total rows: 2n - 1.",
+        "output": "    *\n   ***\n  *****\n *******\n*********\n *******\n  *****\n   ***\n    *"
+      },
+      {
+        "title": "Character Pattern: Alphabet Triangle",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int n = 5;\n    for (int i = 1; i <= n; i++) {\n        char ch = 'A';\n        for (int j = 1; j <= i; j++) {\n            cout << ch++ << \" \";\n        }\n        cout << endl;\n    }\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Each row starts at 'A' and prints i characters. ch++ increments the character after printing (A becomes B, B becomes C, etc.). Row 1: A. Row 2: A B. Row 3: A B C. Characters are just integers in C++, so incrementing a char moves to the next letter.",
+        "output": "A \nA B \nA B C \nA B C D \nA B C D E"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Off-by-One Error in Loop Bounds",
+        "wrongCode": "// Intended: print 1 to 5\nfor (int i = 1; i < 5; i++) {\n    cout << i << \" \";\n}\n// Output: 1 2 3 4 (misses 5)",
+        "error": "Prints 1 through 4 instead of 1 through 5. The condition should be <= 5, not < 5.",
+        "correctCode": "for (int i = 1; i <= 5; i++) {\n    cout << i << \" \";\n}",
+        "explanation": "Off-by-one errors are the most common loop bug. For 1 to N inclusive, use <code>i <= N</code>. For array indices 0 to N-1, use <code>i < N</code>. Always verify the first and last values of your loop variable."
+      },
+      {
+        "title": "Infinite Loop Due to Missing Update",
+        "wrongCode": "int i = 1;\nwhile (i <= 5) {\n    cout << i << endl;\n    // Forgot i++;\n}",
+        "error": "Infinite loop. The program prints 1 forever because i never changes.",
+        "correctCode": "int i = 1;\nwhile (i <= 5) {\n    cout << i << endl;\n    i++;\n}",
+        "explanation": "In a while loop, you must update the loop variable inside the body. Forgetting to increment (or decrement) causes the condition to remain true forever. In a for loop, the update is in the header, making this mistake less likely."
+      },
+      {
+        "title": "Semicolon After for Loop Header",
+        "wrongCode": "for (int i = 0; i < 5; i++); {\n    cout << i << \" \";\n}\n// Compilation error: i is not declared in this scope",
+        "error": "The semicolon terminates the for loop with an empty body. The block runs once, and i is out of scope.",
+        "correctCode": "for (int i = 0; i < 5; i++) {\n    cout << i << \" \";\n}",
+        "explanation": "A semicolon after <code>for (...) ;</code> creates an empty loop body. The loop runs 5 times doing nothing. Then the block <code>{...}</code> executes once, but <code>i</code> is out of scope. This is a subtle bug."
+      },
+      {
+        "title": "Modifying Range-based for Variable Without Reference",
+        "wrongCode": "int arr[] = {1, 2, 3, 4, 5};\nfor (auto x : arr) {\n    x = x * 2;  // Does NOT modify the array!\n}\n// arr is still {1, 2, 3, 4, 5}",
+        "error": "Array elements are unchanged because x is a copy, not a reference to the element.",
+        "correctCode": "int arr[] = {1, 2, 3, 4, 5};\nfor (auto& x : arr) {\n    x = x * 2;  // Modifies the array\n}\n// arr is now {2, 4, 6, 8, 10}",
+        "explanation": "In a range-based for, <code>auto x</code> creates a copy of each element. To modify elements in-place, use <code>auto& x</code> (reference). This is a common C++ pitfall."
+      },
+      {
+        "title": "Using Wrong Variable in Nested Loop",
+        "wrongCode": "for (int i = 1; i <= 5; i++) {\n    for (int j = 1; j <= i; i++) {  // Bug: i++ instead of j++\n        cout << \"* \";\n    }\n    cout << endl;\n}",
+        "error": "Infinite loop or unexpected behavior. The inner loop increments i (the outer variable) instead of j.",
+        "correctCode": "for (int i = 1; i <= 5; i++) {\n    for (int j = 1; j <= i; j++) {\n        cout << \"* \";\n    }\n    cout << endl;\n}",
+        "explanation": "In nested loops, ensure each loop increments its own variable. Accidentally using the outer loop variable in the inner loop's update is a common copy-paste error that causes infinite loops."
+      },
+      {
+        "title": "Calling strlen() in Loop Condition",
+        "wrongCode": "char s[] = \"hello\";\nfor (int i = 0; i < strlen(s); i++) {\n    cout << s[i];\n}\n// Works but is O(n^2) because strlen is O(n) and called every iteration",
+        "error": "strlen() is called on every iteration, scanning the entire string each time. For a string of length n, this makes the loop O(n^2) instead of O(n).",
+        "correctCode": "char s[] = \"hello\";\nint len = strlen(s);\nfor (int i = 0; i < len; i++) {\n    cout << s[i];\n}",
+        "explanation": "Compute the length once before the loop and store it in a variable. This is especially important in competitive programming where O(n^2) can cause TLE on large inputs."
+      }
+    ],
+    "summary": [
+      "The for loop has three parts: initialization (runs once), condition (checked before each iteration), and update (runs after each iteration). Use it when the number of iterations is known.",
+      "The while loop checks its condition before each iteration. If the condition is false initially, the body never executes. Use it when the number of iterations is unknown.",
+      "The do-while loop checks its condition after each iteration, guaranteeing at least one execution. Use it for menus, input validation, and game loops. Remember the semicolon after while(condition);.",
+      "The range-based for loop (for(auto x : arr)) iterates over arrays and containers without an index. Use auto& to modify elements in-place; plain auto creates copies.",
+      "break exits the innermost loop entirely. continue skips the rest of the current iteration and moves to the next. Both affect only the nearest enclosing loop.",
+      "Nested loops: the inner loop completes all iterations for each outer iteration. Total iterations = outer * inner.",
+      "Pattern analysis uses the row-column approach: outer loop controls rows, inner loops control spaces and characters. Express character counts as functions of the row number and total rows.",
+      "Star patterns include right triangle (i stars in row i), inverted triangle (n-i+1 stars), pyramid (n-i spaces + 2i-1 stars), and diamond (pyramid + inverted pyramid).",
+      "Number patterns include Floyd's triangle (consecutive numbers) and Pascal's triangle (combinatorial values C(n,r)).",
+      "Avoid off-by-one errors by verifying the first and last values of loop variables. Use < for 0-based arrays, <= for 1-based counting.",
+      "Avoid calling O(n) functions like strlen() in loop conditions. Compute once and store in a variable.",
+      "Use prefix increment (++i) over postfix (i++) for non-primitive iterators to avoid creating temporary copies."
+    ]
+  },
+  "relatedTopics": [
+    "conditional-statements",
+    "functions-in-cpp"
+  ],
+  "practice": {
+    "totalQuestions": 62,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 5; i++) {\n    cout << i << \" \";\n}</code></pre>",
+        "hint": "i goes from 1 to 5 inclusive.",
+        "answer": "<code>1 2 3 4 5 </code>",
+        "explanation": "The loop starts at i = 1, increments by 1 each time, and stops when i > 5. Prints 1 through 5."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for (int i = 5; i >= 1; i--) {\n    cout << i << \" \";\n}</code></pre>",
+        "hint": "Counting downward from 5 to 1.",
+        "answer": "<code>5 4 3 2 1 </code>",
+        "explanation": "The loop starts at 5, decrements by 1, and stops when i < 1."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int x = 1;\nwhile (x <= 3) {\n    cout << \"Hello\" << endl;\n    x++;\n}</code></pre>",
+        "hint": "x starts at 1 and increments to 4.",
+        "answer": "<code>Hello</code><br><code>Hello</code><br><code>Hello</code>",
+        "explanation": "x = 1: print. x = 2: print. x = 3: print. x = 4: condition false. Three iterations."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int n = 10;\ndo {\n    cout << n << \" \";\n    n++;\n} while (n < 5);</code></pre>",
+        "hint": "do-while executes the body at least once.",
+        "answer": "<code>10 </code>",
+        "explanation": "The body runs first: prints 10, n becomes 11. Then checks 11 < 5 which is false. Loop exits. do-while always runs at least once."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for (int i = 0; i < 5; i++) {\n    cout << i << \" \";\n}</code></pre>",
+        "hint": "Starts at 0, goes up to but not including 5.",
+        "answer": "<code>0 1 2 3 4 </code>",
+        "explanation": "i starts at 0 and the condition is < 5 (not <=). So i takes values 0, 1, 2, 3, 4."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 4; i++) {\n    if (i == 3) continue;\n    cout << i << \" \";\n}</code></pre>",
+        "hint": "continue skips the rest of the current iteration.",
+        "answer": "<code>1 2 4 </code>",
+        "explanation": "When i = 3, continue skips the print. Values 1, 2, and 4 are printed; 3 is skipped."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 3; i++) {\n    for (int j = 1; j <= 2; j++) {\n        cout << i << j << \" \";\n    }\n}</code></pre>",
+        "hint": "Inner loop runs completely for each outer iteration.",
+        "answer": "<code>11 12 21 22 31 32 </code>",
+        "explanation": "i=1: j=1 (11), j=2 (12). i=2: j=1 (21), j=2 (22). i=3: j=1 (31), j=2 (32). Total: 3 * 2 = 6 outputs."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How many times does \"Hello\" print?<br><pre><code>for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 4; j++) {\n        cout << \"Hello\" << endl;\n    }\n}</code></pre>",
+        "hint": "Outer: 3 iterations. Inner: 4 iterations each.",
+        "answer": "<code>12</code> times",
+        "explanation": "Outer runs 3 times (i = 0, 1, 2). For each, inner runs 4 times. Total: 3 * 4 = 12."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int sum = 0;\nfor (int i = 1; i <= 10; i++) {\n    if (i % 2 == 0) sum += i;\n}\ncout << sum;</code></pre>",
+        "hint": "Sum of even numbers from 1 to 10.",
+        "answer": "<code>30</code>",
+        "explanation": "Even numbers: 2 + 4 + 6 + 8 + 10 = 30."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int i = 5;\nwhile (i > 0) {\n    cout << i << \" \";\n    i -= 2;\n}</code></pre>",
+        "hint": "i decreases by 2 each time: 5, 3, 1, -1.",
+        "answer": "<code>5 3 1 </code>",
+        "explanation": "i=5: print, i=3. i=3: print, i=1. i=1: print, i=-1. -1>0 false, exit."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 3; i++) {\n    for (int j = 1; j <= i; j++) {\n        cout << \"* \";\n    }\n    cout << endl;\n}</code></pre>",
+        "hint": "Row i has i stars.",
+        "answer": "<code>* </code><br><code>* * </code><br><code>* * * </code>",
+        "explanation": "Row 1: 1 star. Row 2: 2 stars. Row 3: 3 stars. This is a right-aligned triangle pattern."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (int i = 0; i < 5; i++) {\n    if (i == 3) break;\n    cout << i << \" \";\n}</code></pre>",
+        "hint": "break exits the loop entirely when i equals 3.",
+        "answer": "<code>0 1 2 </code>",
+        "explanation": "i=0: print. i=1: print. i=2: print. i=3: break exits. i=4 is never reached."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int x = 1;\nfor (int i = 1; i <= 4; i++) {\n    x *= i;\n}\ncout << x;</code></pre>",
+        "hint": "This computes 1 * 1 * 2 * 3 * 4.",
+        "answer": "<code>24</code>",
+        "explanation": "x starts at 1. i=1: x=1. i=2: x=2. i=3: x=6. i=4: x=24. This is 4! (factorial)."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 3; i++) {\n    for (int j = 1; j <= 3; j++) {\n        if (i == j) continue;\n        cout << i << j << \" \";\n    }\n}</code></pre>",
+        "hint": "continue in the inner loop skips pairs where i equals j.",
+        "answer": "<code>12 13 21 23 31 32 </code>",
+        "explanation": "Skipped pairs: (1,1), (2,2), (3,3). Remaining: 12, 13, 21, 23, 31, 32."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (int i = 100; i >= 1; i /= 3) {\n    cout << i << \" \";\n}</code></pre>",
+        "hint": "Integer division: 100/3=33, 33/3=11, 11/3=3, 3/3=1, 1/3=0.",
+        "answer": "<code>100 33 11 3 1 </code>",
+        "explanation": "i=100 (print), 33 (print), 11 (print), 3 (print), 1 (print), then i=0, 0>=1 false."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int num = 1;\nfor (int i = 1; i <= 4; i++) {\n    for (int j = 1; j <= i; j++) {\n        cout << num++ << \" \";\n    }\n    cout << endl;\n}</code></pre>",
+        "hint": "This is Floyd's Triangle. num increments continuously.",
+        "answer": "<code>1 </code><br><code>2 3 </code><br><code>4 5 6 </code><br><code>7 8 9 10 </code>",
+        "explanation": "Floyd's Triangle: row 1 has 1 number, row 2 has 2, etc. The counter num increments across all rows without resetting."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between a while loop and a do-while loop?",
+        "hint": "Think about when the condition is checked.",
+        "answer": "A <code>while</code> loop checks the condition <strong>before</strong> each iteration; if false initially, the body never executes. A <code>do-while</code> loop checks the condition <strong>after</strong> each iteration, so the body always executes at least once.",
+        "explanation": "Use do-while when the body must run at least once (menus, input validation). Use while when zero iterations is a valid scenario."
+      },
+      {
+        "id": "ts-18",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "In a range-based for loop, what is the difference between <code>for (auto x : arr)</code> and <code>for (auto& x : arr)</code>?",
+        "hint": "Think about copies vs references.",
+        "answer": "<code>auto x</code> creates a <strong>copy</strong> of each element. Modifying x does not change the array. <code>auto& x</code> creates a <strong>reference</strong> to each element. Modifying x directly changes the array element.",
+        "explanation": "Use auto& when you need to modify elements in-place. Use const auto& for read-only access to avoid unnecessary copies (important for large objects like strings or vectors)."
+      },
+      {
+        "id": "ts-19",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain the row-column approach to analyzing pattern problems. How do you determine the formula for spaces and stars?",
+        "hint": "Think about what changes from row to row.",
+        "answer": "The row-column approach: (1) Identify the number of rows (outer loop, variable i). (2) For each row, count the number of spaces and the number of characters (stars/numbers). (3) Express these counts as functions of i and the total rows n. For a pyramid: spaces = n - i, stars = 2*i - 1. (4) Write inner loops based on these formulas.",
+        "explanation": "Write out a few rows manually and observe the pattern. For row i in a pyramid of n rows: spaces go from n-1 down to 0, and stars go from 1 to 2n-1 in steps of 2. Always verify your formula for the first and last row."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n        if (j == 1) break;\n        cout << i << j << \" \";\n    }\n}</code></pre>",
+        "hint": "break exits only the inner loop.",
+        "answer": "<code>00 10 20 </code>",
+        "explanation": "For each i, the inner loop: j=0 (print i0), j=1 triggers break (exits inner loop). Outer loop continues. We get: 00, 10, 20."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that prints even numbers from 2 to 20 using a for loop.",
+        "hint": "Start at 2, increment by 2.",
+        "answer": "<pre><code>for (int i = 2; i <= 20; i += 2) {\n    cout << i << \" \";\n}</code></pre>",
+        "explanation": "Starting at 2 and incrementing by 2 ensures only even numbers. Alternative: start at 1, go to 20, and use if (i % 2 == 0)."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int sum = 0;\nfor (int i = 1; i <= 5; i++) {\n    sum = sum + i;\n}\ncout << sum;</code></pre>",
+        "hint": "Add 1 + 2 + 3 + 4 + 5.",
+        "answer": "<code>15</code>",
+        "explanation": "sum accumulates: 0+1=1, 1+2=3, 3+3=6, 6+4=10, 10+5=15."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int i = 0;\nwhile (i < 5) {\n    i++;\n    if (i == 3) continue;\n    cout << i << \" \";\n}</code></pre>",
+        "hint": "i is incremented before the continue check.",
+        "answer": "<code>1 2 4 5 </code>",
+        "explanation": "i increments first: i=1 (print), i=2 (print), i=3 (continue, skip print), i=4 (print), i=5 (print). Then 5<5 false, exit."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program to check if a number N is prime using a for loop.",
+        "hint": "Check divisors from 2 to sqrt(N). If any divides N, it is not prime.",
+        "answer": "<pre><code>#include <iostream>\n#include <cmath>\nusing namespace std;\nint main() {\n    int n;\n    cin >> n;\n    if (n <= 1) { cout << \"Not prime\" << endl; return 0; }\n    bool isPrime = true;\n    for (int i = 2; i <= sqrt(n); i++) {\n        if (n % i == 0) { isPrime = false; break; }\n    }\n    cout << (isPrime ? \"Prime\" : \"Not prime\") << endl;\n    return 0;\n}</code></pre>",
+        "explanation": "Checking up to sqrt(n) is sufficient because if n = a * b, then one of a or b must be <= sqrt(n). We break early on the first divisor found."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for (int i = 2; i <= 10; i += 3) {\n    cout << i << \" \";\n}</code></pre>",
+        "hint": "i starts at 2 and increases by 3: 2, 5, 8, 11.",
+        "answer": "<code>2 5 8 </code>",
+        "explanation": "i=2 (print), i=5 (print), i=8 (print), i=11 (11<=10 false, exit)."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int i = 1;\ndo {\n    cout << i << \" \";\n    i *= 2;\n} while (i <= 16);</code></pre>",
+        "hint": "i doubles: 1, 2, 4, 8, 16, then 32.",
+        "answer": "<code>1 2 4 8 16 </code>",
+        "explanation": "i=1 (print, i=2), i=2 (print, i=4), i=4 (print, i=8), i=8 (print, i=16), i=16 (print, i=32). Check: 32<=16 false."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 4; i++) {\n    for (int j = 1; j <= 4 - i; j++) {\n        cout << \"  \";\n    }\n    for (int j = 1; j <= i; j++) {\n        cout << i << \" \";\n    }\n    cout << endl;\n}</code></pre>",
+        "hint": "Row i has (4-i) double-spaces followed by i copies of the number i.",
+        "answer": "<code>      1 </code><br><code>    2 2 </code><br><code>  3 3 3 </code><br><code>4 4 4 4 </code>",
+        "explanation": "Row 1: 3 double-spaces, then \"1 \". Row 2: 2 double-spaces, then \"2 2 \". Row 3: 1 double-space, then \"3 3 3 \". Row 4: 0 spaces, then \"4 4 4 4 \"."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int count = 0;\nfor (int i = 2; i <= 20; i++) {\n    bool isPrime = true;\n    for (int j = 2; j < i; j++) {\n        if (i % j == 0) { isPrime = false; break; }\n    }\n    if (isPrime) count++;\n}\ncout << count;</code></pre>",
+        "hint": "Count prime numbers from 2 to 20.",
+        "answer": "<code>8</code>",
+        "explanation": "Primes from 2 to 20: 2, 3, 5, 7, 11, 13, 17, 19. Count = 8."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int arr[] = {3, 7, 2, 8, 1};\nint n = 5;\nfor (int i = 0; i < n - 1; i++) {\n    for (int j = 0; j < n - 1 - i; j++) {\n        if (arr[j] > arr[j + 1]) {\n            int temp = arr[j];\n            arr[j] = arr[j + 1];\n            arr[j + 1] = temp;\n        }\n    }\n}\nfor (int i = 0; i < n; i++) cout << arr[i] << \" \";</code></pre>",
+        "hint": "This is the bubble sort algorithm.",
+        "answer": "<code>1 2 3 7 8 </code>",
+        "explanation": "Bubble sort repeatedly compares adjacent elements and swaps them if they are in the wrong order. After sorting, the array is {1, 2, 3, 7, 8}."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that prints all numbers from 1 to 50 that are divisible by both 3 and 5.",
+        "hint": "n % 15 == 0 means divisible by both 3 and 5.",
+        "answer": "<pre><code>for (int i = 1; i <= 50; i++) {\n    if (i % 3 == 0 && i % 5 == 0) {\n        cout << i << \" \";\n    }\n}</code></pre>",
+        "explanation": "Numbers divisible by both 3 and 5 are divisible by 15: 15, 30, 45."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int n = 5;\nint result = 1;\nfor (int i = n; i >= 1; i--) {\n    result *= i;\n}\ncout << result;</code></pre>",
+        "hint": "This computes 5 * 4 * 3 * 2 * 1.",
+        "answer": "<code>120</code>",
+        "explanation": "This computes factorial: 5 * 4 * 3 * 2 * 1 = 120."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int count = 0;\nfor (int i = 1; i <= 100; i++) {\n    if (i % 7 == 0) count++;\n}\ncout << count;</code></pre>",
+        "hint": "Count multiples of 7 from 1 to 100.",
+        "answer": "<code>14</code>",
+        "explanation": "Multiples of 7 up to 100: 7, 14, 21, ..., 98. That is 100/7 = 14 (integer division)."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 4; i++) {\n    for (int j = i; j <= 4; j++) {\n        cout << j << \" \";\n    }\n    cout << endl;\n}</code></pre>",
+        "hint": "Row i prints numbers from i to 4.",
+        "answer": "<code>1 2 3 4 </code><br><code>2 3 4 </code><br><code>3 4 </code><br><code>4 </code>",
+        "explanation": "Row 1: j from 1 to 4. Row 2: j from 2 to 4. Row 3: j from 3 to 4. Row 4: j = 4 only."
+      },
+      {
+        "id": "mx-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 4; i++) {\n    for (int j = 1; j <= i; j++) {\n        cout << (i + j - 1) << \" \";\n    }\n    cout << endl;\n}</code></pre>",
+        "hint": "Compute (i + j - 1) for each cell.",
+        "answer": "<code>1 </code><br><code>2 3 </code><br><code>3 4 5 </code><br><code>4 5 6 7 </code>",
+        "explanation": "Row 1: (1+1-1)=1. Row 2: (2+1-1)=2, (2+2-1)=3. Row 3: 3, 4, 5. Row 4: 4, 5, 6, 7. Each row starts at i and increments by 1."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which loop is best when the number of iterations is known in advance?",
+        "options": {
+          "A": "while",
+          "B": "do-while",
+          "C": "for",
+          "D": "Range-based for"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The for loop is designed for counted iterations with its init-condition-update structure."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "How many times does the loop body execute?<br><code>for (int i = 0; i < 10; i++) { ... }</code>",
+        "options": {
+          "A": "9",
+          "B": "10",
+          "C": "11",
+          "D": "Infinite"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> i takes values 0 through 9 (10 values). When i = 10, 10 < 10 is false."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which loop always executes its body at least once?",
+        "options": {
+          "A": "for",
+          "B": "while",
+          "C": "do-while",
+          "D": "Range-based for"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> do-while checks its condition after the body executes, guaranteeing at least one execution."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the correct syntax for a range-based for loop in C++?",
+        "options": {
+          "A": "for (int x in arr)",
+          "B": "for (auto x : arr)",
+          "C": "foreach (auto x : arr)",
+          "D": "for each (auto x in arr)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> C++11 range-based for syntax is <code>for (type variable : container)</code>."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does the continue statement do inside a loop?",
+        "options": {
+          "A": "Exits the loop entirely",
+          "B": "Skips to the next iteration",
+          "C": "Pauses the loop",
+          "D": "Restarts the loop from the beginning"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> continue skips the remaining body of the current iteration and jumps to the next iteration."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Which creates an infinite loop in C++?",
+        "options": {
+          "A": "for (int i = 0; i < 10; i++) {}",
+          "B": "while (false) {}",
+          "C": "for (;;) {}",
+          "D": "do {} while (false);"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> for (;;) has no condition, which defaults to true, creating an infinite loop."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What happens if you put a semicolon after for (int i = 0; i < 5; i++); ?",
+        "options": {
+          "A": "Compilation error",
+          "B": "The loop runs with an empty body",
+          "C": "The loop does not run at all",
+          "D": "Infinite loop"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The semicolon acts as an empty statement, becoming the loop body. The loop runs 5 times doing nothing."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "In a range-based for loop, how do you modify array elements in-place?",
+        "options": {
+          "A": "for (auto x : arr)",
+          "B": "for (auto& x : arr)",
+          "C": "for (const auto x : arr)",
+          "D": "for (auto* x : arr)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> auto& creates a reference, allowing modifications to affect the original array. Plain auto creates a copy."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does break do inside a nested loop?",
+        "options": {
+          "A": "Exits all loops",
+          "B": "Exits only the innermost loop",
+          "C": "Exits the function",
+          "D": "Causes a compilation error"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> break exits only the innermost enclosing loop. The outer loop continues normally."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "What is the time complexity of this code?<br><code>for (int i = 0; i < n; i++) { for (int j = 0; j < n; j++) { ... } }</code>",
+        "options": {
+          "A": "O(n)",
+          "B": "O(n log n)",
+          "C": "O(n^2)",
+          "D": "O(2^n)"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The outer loop runs n times, and for each, the inner loop runs n times. Total: n * n = O(n^2)."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "How many iterations does this loop execute?<br><code>for (int i = 1; i < 1000; i *= 2) { ... }</code>",
+        "options": {
+          "A": "500",
+          "B": "10",
+          "C": "999",
+          "D": "Infinite"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> i doubles: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512. Next: 1024 >= 1000, stop. 10 iterations (log2(1000) is approximately 10)."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><code>int x = 0; for (int i = 0; i < 3; i++) for (int j = 0; j <= i; j++) x++; cout << x;</code>",
+        "options": {
+          "A": "3",
+          "B": "6",
+          "C": "9",
+          "D": "12"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> i=0: j runs 0 to 0 (1 increment). i=1: j runs 0 to 1 (2 increments). i=2: j runs 0 to 2 (3 increments). Total: 1+2+3=6."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Why is calling strlen(s) in a for loop condition a performance problem?",
+        "options": {
+          "A": "strlen() modifies the string",
+          "B": "strlen() is O(n), making the loop O(n^2)",
+          "C": "strlen() causes undefined behavior",
+          "D": "strlen() only works with std::string"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> strlen() scans the entire C-string to find \\0, which is O(n). Calling it in every loop iteration makes the loop O(n^2) instead of O(n). Store the length in a variable before the loop."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><code>for (int i = 0; i < 3; i++) cout << \"Hi \"; cout << \"Done\";</code>",
+        "options": {
+          "A": "Hi Hi Hi Done",
+          "B": "Hi Hi Hi ",
+          "C": "Hi Done Hi Done Hi Done",
+          "D": "Compilation error"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Without braces, only the first statement after for is in the loop body. So \"Hi \" prints 3 times, then \"Done\" prints once outside the loop."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Sum of Digits",
+        "difficulty": "Easy",
+        "description": "Take an integer N from the user and calculate the sum of its digits using a while loop. Example: 1234 -> 1+2+3+4 = 10.",
+        "sampleInput": "Enter a number: 1234",
+        "sampleOutput": "Sum of digits: 10",
+        "constraints": "Use % 10 to get the last digit and / 10 to remove it.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int n;\n    cout << \"Enter a number: \";\n    cin >> n;\n    int sum = 0, temp = n;\n    while (temp > 0) {\n        sum += temp % 10;\n        temp /= 10;\n    }\n    cout << \"Sum of digits: \" << sum << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Reverse a Number",
+        "difficulty": "Easy",
+        "description": "Take an integer and print its reverse. Example: 12345 -> 54321.",
+        "sampleInput": "Enter a number: 12345",
+        "sampleOutput": "Reversed: 54321",
+        "constraints": "Use a while loop with % 10 and / 10.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int n;\n    cout << \"Enter a number: \";\n    cin >> n;\n    int reversed = 0;\n    while (n > 0) {\n        reversed = reversed * 10 + n % 10;\n        n /= 10;\n    }\n    cout << \"Reversed: \" << reversed << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Right-Aligned Number Triangle",
+        "difficulty": "Medium",
+        "description": "Print a right-aligned triangle of numbers for N rows. Row i should have numbers 1 to i, right-aligned with leading spaces.",
+        "sampleInput": "n = 5",
+        "sampleOutput": "        1\n      1 2\n    1 2 3\n  1 2 3 4\n1 2 3 4 5",
+        "constraints": "Use nested loops. Compute spaces as 2*(n-i).",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int n = 5;\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= n - i; j++) cout << \"  \";\n        for (int j = 1; j <= i; j++) cout << j << \" \";\n        cout << endl;\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Diamond Star Pattern",
+        "difficulty": "Medium",
+        "description": "Print a diamond pattern of stars for N rows (upper half). The total height should be 2*N - 1.",
+        "sampleInput": "n = 4",
+        "sampleOutput": "   *\n  ***\n *****\n*******\n *****\n  ***\n   *",
+        "constraints": "Upper half: spaces = n-i, stars = 2*i-1. Lower half: mirror of the upper half.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int n = 4;\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= n - i; j++) cout << \" \";\n        for (int j = 1; j <= 2 * i - 1; j++) cout << \"*\";\n        cout << endl;\n    }\n    for (int i = n - 1; i >= 1; i--) {\n        for (int j = 1; j <= n - i; j++) cout << \" \";\n        for (int j = 1; j <= 2 * i - 1; j++) cout << \"*\";\n        cout << endl;\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Pascal's Triangle",
+        "difficulty": "Hard",
+        "description": "Print the first N rows of Pascal's Triangle. Each element is the sum of the two elements above it.",
+        "sampleInput": "n = 6",
+        "sampleOutput": "1\n1 1\n1 2 1\n1 3 3 1\n1 4 6 4 1\n1 5 10 10 5 1",
+        "constraints": "Use the combinatorial formula: C(n, r) = C(n, r-1) * (n - r + 1) / r. No factorial functions needed.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int n = 6;\n    for (int i = 0; i < n; i++) {\n        int val = 1;\n        for (int j = 0; j <= i; j++) {\n            cout << val << \" \";\n            val = val * (i - j) / (j + 1);\n        }\n        cout << endl;\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Hollow Rectangle",
+        "difficulty": "Medium",
+        "description": "Print a hollow rectangle of stars with R rows and C columns. Only the border positions should have stars; interior positions should have spaces.",
+        "sampleInput": "rows = 4, cols = 6",
+        "sampleOutput": "******\n*    *\n*    *\n******",
+        "constraints": "A position (i, j) is on the border if i == 1 or i == R or j == 1 or j == C.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int r = 4, c = 6;\n    for (int i = 1; i <= r; i++) {\n        for (int j = 1; j <= c; j++) {\n            if (i == 1 || i == r || j == 1 || j == c)\n                cout << \"*\";\n            else\n                cout << \" \";\n        }\n        cout << endl;\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-7",
+        "title": "GCD Using Euclidean Algorithm",
+        "difficulty": "Medium",
+        "description": "Find the GCD of two numbers using the Euclidean algorithm with a while loop.",
+        "sampleInput": "Enter two numbers: 48 18",
+        "sampleOutput": "GCD: 6",
+        "constraints": "Use while loop: while (b != 0) { temp = b; b = a % b; a = temp; }",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int a, b;\n    cout << \"Enter two numbers: \";\n    cin >> a >> b;\n    int origA = a, origB = b;\n    while (b != 0) {\n        int temp = b;\n        b = a % b;\n        a = temp;\n    }\n    cout << \"GCD of \" << origA << \" and \" << origB << \": \" << a << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-8",
+        "title": "Armstrong Number Checker",
+        "difficulty": "Hard",
+        "description": "Check if a number is an Armstrong number. An N-digit number is Armstrong if the sum of its digits, each raised to the power N, equals the number itself. Example: 153 = 1^3 + 5^3 + 3^3 = 153.",
+        "sampleInput": "Enter a number: 153",
+        "sampleOutput": "153 is an Armstrong number",
+        "constraints": "First count digits, then compute sum of powers using a loop.",
+        "solution": "#include <iostream>\n#include <cmath>\nusing namespace std;\nint main() {\n    int n;\n    cout << \"Enter a number: \";\n    cin >> n;\n    int digits = 0, temp = n;\n    while (temp > 0) { digits++; temp /= 10; }\n    int sum = 0;\n    temp = n;\n    while (temp > 0) {\n        int d = temp % 10;\n        sum += pow(d, digits);\n        temp /= 10;\n    }\n    cout << n << (sum == n ? \" is\" : \" is not\") << \" an Armstrong number\" << endl;\n    return 0;\n}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Generative AI - GANs, VAEs, and Diffusion Models | AI and Machine Learning | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="50+ practice questions on Generative AI - GANs, VAEs, and Diffusion Models in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="generative ai - gans, vaes, and diffusion models practice, ai and machine learning questions, ai and machine learning practice problems, generative ai - gans, vaes, and diffusion models exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/generative-ai-and-diffusion-models/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/generative-ai-and-diffusion-models/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/generative-ai-and-diffusion-models/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/generative-ai-and-diffusion-models/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/generative-ai-and-diffusion-models/practice">
+    <meta property="og:title" content="Practice Questions - Generative AI - GANs, VAEs, and Diffusion Models | AI and Machine Learning | Modern Age Coders">
+    <meta property="og:description" content="50+ practice questions on Generative AI - GANs, VAEs, and Diffusion Models in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/generative-ai-and-diffusion-models/practice">
+    <meta name="twitter:title" content="Practice Questions - Generative AI - GANs, VAEs, and Diffusion Models | AI and Machine Learning | Modern Age Coders">
+    <meta name="twitter:description" content="50+ practice questions on Generative AI - GANs, VAEs, and Diffusion Models in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Generative AI - GANs, VAEs, and Diffusion Models",
+    "description": "50+ practice questions on Generative AI - GANs, VAEs, and Diffusion Models in AI and Machine Learning.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Generative AI - GANs, VAEs, and Diffusion Models"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/generative-ai-and-diffusion-models/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Generative AI - GANs, VAEs, and Diffusion Models",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/generative-ai-and-diffusion-models"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/generative-ai-and-diffusion-models/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning/generative-ai-and-diffusion-models">Generative AI - GANs, VAEs, and Diffusion Models</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 22</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">50 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Generative AI - GANs, VAEs, and Diffusion Models</h1>
+            <a href="/resources/ai-and-machine-learning/generative-ai-and-diffusion-models" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">14</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>gen_types = ["Text", "Image", "Audio", "Video", "Code"]
+for i, t in enumerate(gen_types):
+    print(f"{i+1}. {t} Generation")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">enumerate gives index-value pairs. Indices start at 0, but we add 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>1. Text Generation</code><br><code>2. Image Generation</code><br><code>3. Audio Generation</code><br><code>4. Video Generation</code><br><code>5. Code Generation</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>gan_components = {"Generator": "creates fake data", "Discriminator": "detects fakes"}
+for component, role in gan_components.items():
+    print(f"{component}: {role}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Dictionary iteration produces key-value pairs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>Generator: creates fake data</code><br><code>Discriminator: detects fakes</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>import torch
+z = torch.randn(1, 100)
+print(f"Noise shape: {z.shape}")
+print(f"Mean: {z.mean():.1f}")
+print(f"Noise is input to: Generator")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">torch.randn samples from N(0,1). Shape is (1, 100).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>Noise shape: torch.Size([1, 100])</code><br><code>Mean: 0.0</code> (approximately)<br><code>Noise is input to: Generator</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>vae_loss_components = ["Reconstruction Loss", "KL Divergence"]
+for loss in vae_loss_components:
+    print(loss)
+print(f"Total components: {len(vae_loss_components)}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">VAE loss has exactly two components.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Reconstruction Loss</code><br><code>KL Divergence</code><br><code>Total components: 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import torch
+import torch.nn as nn
+
+G = nn.Sequential(
+    nn.Linear(64, 128),
+    nn.ReLU(),
+    nn.Linear(128, 784),
+    nn.Tanh()
+)
+
+z = torch.randn(4, 64)  # Batch of 4, noise dim 64
+fake = G(z)
+print(f"Input shape: {z.shape}")
+print(f"Output shape: {fake.shape}")
+print(f"Output range: [{fake.min():.2f}, {fake.max():.2f}]")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Linear(64,128) then Linear(128,784). Tanh outputs values in [-1, 1].</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>Input shape: torch.Size([4, 64])</code><br><code>Output shape: torch.Size([4, 784])</code><br><code>Output range: [-1.00, 1.00]</code> (approximately, within [-1, 1])</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import torch
+
+def reparameterize(mu, log_var):
+    std = torch.exp(0.5 * log_var)
+    eps = torch.randn_like(std)
+    return mu + std * eps
+
+mu = torch.zeros(3)      # Mean = 0
+log_var = torch.zeros(3)  # log(var) = 0, so var = 1, std = 1
+
+torch.manual_seed(42)
+z = reparameterize(mu, log_var)
+print(f"mu: {mu.tolist()}")
+print(f"std: {torch.exp(0.5 * log_var).tolist()}")
+print(f"z shape: {z.shape}")
+print(f"z is from N(0,1): approximately")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">When mu=0 and log_var=0, std=1. z = 0 + 1 * epsilon = epsilon, which is from N(0,1).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>mu: [0.0, 0.0, 0.0]</code><br><code>std: [1.0, 1.0, 1.0]</code><br><code>z shape: torch.Size([3])</code><br><code>z is from N(0,1): approximately</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def stable_diffusion_components():
+    components = [
+        ("CLIP Text Encoder", "Converts text prompt to embedding"),
+        ("U-Net Denoiser", "Predicts and removes noise in latent space"),
+        ("VAE Decoder", "Converts latent to pixel-space image")
+    ]
+    for name, role in components:
+        print(f"  {name}: {role}")
+    return len(components)
+
+print("Stable Diffusion Architecture:")
+n = stable_diffusion_components()
+print(f"Total components: {n}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Stable Diffusion has exactly 3 main components in its pipeline.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Stable Diffusion Architecture:</code><br><code>  CLIP Text Encoder: Converts text prompt to embedding</code><br><code>  U-Net Denoiser: Predicts and removes noise in latent space</code><br><code>  VAE Decoder: Converts latent to pixel-space image</code><br><code>Total components: 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def latent_efficiency():
+    pixel_size = 512 * 512 * 3    # 512x512 RGB image
+    latent_size = 64 * 64 * 4     # 64x64 latent with 4 channels
+    ratio = pixel_size / latent_size
+    return pixel_size, latent_size, ratio
+
+px, lt, r = latent_efficiency()
+print(f"Pixel space: {px:,} values")
+print(f"Latent space: {lt:,} values")
+print(f"Efficiency gain: {r:.1f}x")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Calculate total values for each space. 512*512*3 vs 64*64*4.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Pixel space: 786,432 values</code><br><code>Latent space: 16,384 values</code><br><code>Efficiency gain: 48.0x</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import torch
+import torch.nn as nn
+
+class SimpleDiscriminator(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.net = nn.Sequential(
+            nn.Linear(784, 128),
+            nn.LeakyReLU(0.2),
+            nn.Linear(128, 1),
+            nn.Sigmoid()
+        )
+    
+    def forward(self, x):
+        return self.net(x)
+
+D = SimpleDiscriminator()
+
+# Test with real-looking data (values near 1) and random noise
+real_like = torch.ones(2, 784) * 0.8
+noise = torch.randn(2, 784)
+
+with torch.no_grad():
+    real_out = D(real_like)
+    noise_out = D(noise)
+
+print(f"Real-like output shape: {real_out.shape}")
+print(f"Output range: [0, 1] (Sigmoid)")
+print(f"Before training, outputs are near: 0.5 (random)")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Before training, the discriminator has random weights, so it outputs values near 0.5 for any input.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>Real-like output shape: torch.Size([2, 1])</code><br><code>Output range: [0, 1] (Sigmoid)</code><br><code>Before training, outputs are near: 0.5 (random)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import torch
+
+def forward_diffusion(x_0, t, T=1000):
+    """Add noise proportional to timestep."""
+    beta_t = t / T  # Simplified linear schedule
+    alpha_t = 1 - beta_t
+    noise = torch.randn_like(x_0)
+    x_t = torch.sqrt(torch.tensor(alpha_t)) * x_0 + torch.sqrt(torch.tensor(beta_t)) * noise
+    return x_t
+
+x_0 = torch.ones(4)  # "Clean" signal
+for t in [0, 250, 500, 750, 1000]:
+    x_t = forward_diffusion(x_0, t)
+    signal_pct = round((1 - t/1000) * 100)
+    print(f"t={t:4d} | Signal: {signal_pct:3d}% | Mean: {x_t.mean():.3f} | Std: {x_t.std():.3f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">At t=0, the signal is pure. As t increases, noise dominates. At t=T, signal is nearly zero.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">The mean decreases from ~1.0 toward ~0.0 and std increases from ~0.0 toward ~1.0 as the timestep increases from 0 to 1000, showing the signal being gradually replaced by noise.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between a discriminative model and a generative model?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Think about what each type of model learns to do.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">A <strong>discriminative model</strong> learns the boundary between classes -- given input data, it predicts a label or category (P(label|data)). Examples: image classifiers, spam detectors. A <strong>generative model</strong> learns the underlying data distribution and can create new data samples (P(data) or P(data|condition)). Examples: GANs generating images, GPT generating text. Discriminative models answer "what is this?"; generative models answer "create something like this."</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is mode collapse in GANs, and why does it happen?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Think about what happens when the Generator finds one output that always fools the Discriminator.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><strong>Mode collapse</strong> occurs when the Generator produces only a small subset of possible outputs instead of the full diversity of the training data. For example, a GAN trained on all 10 digits might only generate '1' and '7'. This happens because the Generator finds a few outputs that consistently fool the Discriminator, so it has no incentive to produce diverse outputs. The Discriminator then adapts to detect those specific outputs, and the Generator switches to a different small set -- creating an oscillating cycle rather than convergence.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why do diffusion models work in latent space (Stable Diffusion) instead of directly in pixel space? What is the role of the VAE in this architecture?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Think about computational cost and the relationship between pixel space and latent space dimensions.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">Pixel-space diffusion operates on full-resolution images (e.g., 512x512x3 = 786,432 dimensions), making each denoising step extremely expensive computationally. <strong>Latent diffusion</strong> first uses a pre-trained VAE encoder to compress images to a much smaller latent space (64x64x4 = 16,384 dimensions -- 48x smaller). The diffusion process (adding and removing noise) happens entirely in this latent space. After denoising, the VAE decoder converts the clean latent back to a full-resolution image. This makes Stable Diffusion fast enough to run on consumer GPUs while maintaining high image quality.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain the reparameterization trick in VAEs. Why is it necessary, and how does it work?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Think about whether gradient descent can backpropagate through a random sampling operation.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14">The reparameterization trick solves a fundamental problem: backpropagation cannot compute gradients through a random sampling operation (z ~ N(mu, sigma)). The trick separates the stochastic part from the parameters: <code>z = mu + sigma * epsilon</code>, where epsilon ~ N(0,1) is a fixed random sample treated as a constant. Now, z is a deterministic function of mu and sigma (which we want to optimize) plus a fixed noise source. Gradients can flow through the multiplication and addition to update mu and sigma. Without this trick, the encoder's parameters could not be updated via gradient descent.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>gan_apps = ["Face generation", "Style transfer", "Super-resolution", "Data augmentation", "Image inpainting"]
+print(f"GAN Applications ({len(gan_apps)}):")
+for app in gan_apps:
+    print(f"  - {app}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Simple iteration over 5 GAN application areas.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>GAN Applications (5):</code><br><code>  - Face generation</code><br><code>  - Style transfer</code><br><code>  - Super-resolution</code><br><code>  - Data augmentation</code><br><code>  - Image inpainting</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import torch
+import torch.nn as nn
+
+activations = {
+    "Tanh": nn.Tanh(),
+    "Sigmoid": nn.Sigmoid(),
+    "LeakyReLU(0.2)": nn.LeakyReLU(0.2)
+}
+
+x = torch.tensor([-2.0, 0.0, 2.0])
+for name, act in activations.items():
+    out = act(x)
+    print(f"{name:15s}: [{out[0]:.3f}, {out[1]:.3f}, {out[2]:.3f}]")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Tanh output is [-1,1], Sigmoid is [0,1], LeakyReLU allows negative values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>Tanh           : [-0.964, 0.000, 0.964]</code><br><code>Sigmoid        : [0.119, 0.500, 0.881]</code><br><code>LeakyReLU(0.2) : [-0.400, 0.000, 2.000]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between conditional and unconditional image generation?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Think about whether the model receives guidance about what to generate.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><strong>Unconditional</strong>: Generate random images from the learned distribution with no control over content. Example: a GAN producing random faces. <strong>Conditional</strong>: Generate images based on some input condition -- a text prompt, class label, or another image. Example: Stable Diffusion generating from a text description. Conditioning gives control over the output and is essential for practical applications. Most modern models (Stable Diffusion, DALL-E) are conditional.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>ethical_concerns = ["Deepfakes", "Copyright", "Consent", "Misinformation"]
+for concern in ethical_concerns:
+    print(f"  Concern: {concern}")
+print(f"Total: {len(ethical_concerns)}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">4 ethical concerns related to generative AI.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>  Concern: Deepfakes</code><br><code>  Concern: Copyright</code><br><code>  Concern: Consent</code><br><code>  Concern: Misinformation</code><br><code>Total: 4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import torch
+
+def noise_schedule(T, schedule_type="linear"):
+    if schedule_type == "linear":
+        return torch.linspace(1e-4, 0.02, T)
+    elif schedule_type == "cosine":
+        steps = torch.arange(T + 1) / T
+        return 1 - torch.cos(steps * 3.14159 / 2)
+
+betas = noise_schedule(1000, "linear")
+print(f"Schedule length: {len(betas)}")
+print(f"Beta start: {betas[0]:.6f}")
+print(f"Beta end: {betas[-1]:.6f}")
+print(f"Beta range: [{betas.min():.6f}, {betas.max():.6f}]")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Linear schedule goes from 1e-4 to 0.02 over 1000 steps.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>Schedule length: 1000</code><br><code>Beta start: 0.000100</code><br><code>Beta end: 0.020000</code><br><code>Beta range: [0.000100, 0.020000]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import torch
+import torch.nn as nn
+
+class SimpleUNet(nn.Module):
+    def __init__(self, channels=1):
+        super().__init__()
+        self.encoder = nn.Sequential(
+            nn.Conv2d(channels, 32, 3, padding=1),
+            nn.ReLU(),
+            nn.Conv2d(32, 64, 3, padding=1),
+            nn.ReLU()
+        )
+        self.decoder = nn.Sequential(
+            nn.Conv2d(64, 32, 3, padding=1),
+            nn.ReLU(),
+            nn.Conv2d(32, channels, 3, padding=1)
+        )
+    
+    def forward(self, x):
+        encoded = self.encoder(x)
+        decoded = self.decoder(encoded)
+        return decoded
+
+model = SimpleUNet()
+params = sum(p.numel() for p in model.parameters())
+x = torch.randn(1, 1, 8, 8)
+out = model(x)
+print(f"Input shape: {x.shape}")
+print(f"Output shape: {out.shape}")
+print(f"Parameters: {params:,}")
+print(f"Same shape: {x.shape == out.shape}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">With padding=1 and 3x3 kernels, spatial dimensions are preserved.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>Input shape: torch.Size([1, 1, 8, 8])</code><br><code>Output shape: torch.Size([1, 1, 8, 8])</code><br><code>Parameters: ~24,000</code> (approximately)<br><code>Same shape: True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why have diffusion models largely replaced GANs for text-to-image generation despite being slower at inference?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">Consider training stability, output diversity, and conditioning capabilities.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21">Diffusion models replaced GANs for several reasons: (1) <strong>Training stability</strong>: Diffusion models use a simple MSE loss on noise prediction, while GANs require delicate adversarial balance and are prone to mode collapse. (2) <strong>Output diversity</strong>: GANs may miss modes (produce limited variety), while diffusion models naturally cover the full distribution. (3) <strong>Conditioning</strong>: Text conditioning integrates naturally with the iterative denoising process via cross-attention. (4) <strong>Latent diffusion</strong> made inference fast enough for practical use. The trade-off is speed: GANs need one forward pass, diffusion models need 20-100 steps. This is being addressed by distillation and faster schedulers.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>models = {
+    "GAN": 2014,
+    "VAE": 2013,
+    "Diffusion": 2020,
+    "Stable Diffusion": 2022
+}
+for name, year in models.items():
+    print(f"{name}: {year}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Simple dictionary iteration showing when each model type was introduced.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>GAN: 2014</code><br><code>VAE: 2013</code><br><code>Diffusion: 2020</code><br><code>Stable Diffusion: 2022</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>guidance_scales = [1.0, 7.5, 15.0, 30.0]
+for gs in guidance_scales:
+    if gs < 3:
+        quality = "ignores prompt"
+    elif gs <= 12:
+        quality = "balanced"
+    elif gs <= 20:
+        quality = "strong adherence"
+    else:
+        quality = "oversaturated"
+    print(f"Scale {gs:5.1f}: {quality}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Guidance scale controls prompt adherence. Too low ignores prompt, too high oversaturates.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>Scale   1.0: ignores prompt</code><br><code>Scale   7.5: balanced</code><br><code>Scale  15.0: strong adherence</code><br><code>Scale  30.0: oversaturated</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import torch
+import torch.nn as nn
+
+model = nn.Sequential(
+    nn.Linear(100, 256),
+    nn.ReLU(),
+    nn.Linear(256, 784),
+    nn.Tanh()
+)
+
+total_params = sum(p.numel() for p in model.parameters())
+print(f"Total parameters: {total_params:,}")
+
+# Break down
+for i, layer in enumerate(model):
+    if hasattr(layer, 'weight'):
+        w = layer.weight.numel()
+        b = layer.bias.numel()
+        print(f"Layer {i}: weight={w:,}, bias={b:,}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Linear(100,256) has 100*256 weights + 256 bias. Linear(256,784) has 256*784 + 784.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>Total parameters: 226,824</code><br><code>Layer 0: weight=25,600, bias=256</code><br><code>Layer 2: weight=200,704, bias=784</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def diffusion_steps_quality(steps):
+    if steps < 10:
+        return "very poor"
+    elif steps < 25:
+        return "rough preview"
+    elif steps < 50:
+        return "good quality"
+    elif steps < 100:
+        return "high quality"
+    else:
+        return "diminishing returns"
+
+for s in [5, 20, 30, 50, 100, 200]:
+    print(f"{s:3d} steps: {diffusion_steps_quality(s)}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">More denoising steps generally means better quality, but with diminishing returns.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>  5 steps: very poor</code><br><code> 20 steps: rough preview</code><br><code> 30 steps: good quality</code><br><code> 50 steps: high quality</code><br><code>100 steps: diminishing returns</code><br><code>200 steps: diminishing returns</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import torch
+
+# Simulate KL divergence for different distributions
+def kl_divergence(mu, log_var):
+    """KL(N(mu, var) || N(0, 1))"""
+    kl = -0.5 * torch.sum(1 + log_var - mu.pow(2) - log_var.exp())
+    return kl.item()
+
+# Case 1: Already N(0,1)
+kl1 = kl_divergence(torch.zeros(10), torch.zeros(10))
+print(f"N(0,1) vs N(0,1): KL = {kl1:.2f}")
+
+# Case 2: Shifted mean
+kl2 = kl_divergence(torch.ones(10) * 2, torch.zeros(10))
+print(f"N(2,1) vs N(0,1): KL = {kl2:.2f}")
+
+# Case 3: Different variance
+kl3 = kl_divergence(torch.zeros(10), torch.ones(10) * 2)
+print(f"N(0,e^2) vs N(0,1): KL = {kl3:.2f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">KL divergence is 0 when distributions match. It increases with divergence.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>N(0,1) vs N(0,1): KL = 0.00</code><br><code>N(2,1) vs N(0,1): KL = 20.00</code><br><code>N(0,e^2) vs N(0,1): KL = 23.19</code> (approximately)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import torch
+import torch.nn as nn
+
+def count_gan_params(noise_dim, hidden_sizes, output_dim):
+    g_params = 0
+    prev = noise_dim
+    for h in hidden_sizes:
+        g_params += prev * h + h  # Linear layer: weight + bias
+        prev = h
+    g_params += prev * output_dim + output_dim
+    
+    d_params = 0
+    prev = output_dim
+    for h in reversed(hidden_sizes):
+        d_params += prev * h + h
+        prev = h
+    d_params += prev * 1 + 1
+    
+    return g_params, d_params
+
+g, d = count_gan_params(100, [256, 512], 784)
+print(f"Generator: {g:,} params")
+print(f"Discriminator: {d:,} params")
+print(f"Total GAN: {g+d:,} params")
+print(f"G > D: {g > d}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Calculate each linear layer's params: in_dim * out_dim + out_dim (bias).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>Generator: 535,056 params</code><br><code>Discriminator: 534,017 params</code><br><code>Total GAN: 1,069,073 params</code><br><code>G > D: True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Deepa wants to generate synthetic training images for rare medical conditions where real patient data is scarce. Which generative model family would be most appropriate and why?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Consider which model produces the highest quality images and can be conditioned on specific attributes.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">Deepa should use a <strong>diffusion model</strong> (like Stable Diffusion fine-tuned on medical images) or a <strong>conditional GAN</strong> trained on available medical images. Diffusion models are preferred for their higher image quality, better training stability, and superior mode coverage (they generate more diverse samples, important for rare conditions). She could fine-tune a pre-trained diffusion model on available medical images, conditioning on the specific condition type. Important considerations: she must validate that synthetic images are medically accurate, get approval from medical ethics boards, and ensure the synthetic data does not perpetuate biases in the training set.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Compare GANs, VAEs, and Diffusion Models in terms of training stability, output quality, and mode coverage. When would Arjun choose each?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Think about the trade-offs: sharpness, diversity, ease of training.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><strong>GANs</strong>: Best output sharpness but unstable training (mode collapse, oscillation). Good for: style transfer, super-resolution, when sharpness matters most. <strong>VAEs</strong>: Stable training, smooth latent space (great for interpolation), but outputs tend to be blurry. Good for: latent space manipulation, anomaly detection, when you need a structured latent space. <strong>Diffusion Models</strong>: Best quality AND diversity, stable training, but slower inference (many denoising steps). Good for: high-quality image generation, text-to-image, when quality and diversity both matter. Arjun should choose VAEs for learning latent representations, GANs for real-time style transfer, and diffusion models for text-to-image generation.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What ethical concerns arise from generative AI's ability to create deepfakes, and what technical approaches exist to detect them?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about both the harms and the detection techniques.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">Key concerns: <strong>Misinformation</strong> (fake videos of politicians, fabricated news images), <strong>fraud</strong> (impersonating someone's voice or face), <strong>harassment</strong> (non-consensual fake intimate images), <strong>trust erosion</strong> (people stop trusting authentic content). Detection approaches: <strong>Spectral analysis</strong> (GAN-generated images have consistent frequency artifacts), <strong>biological signal detection</strong> (fake faces may lack natural blinking patterns or pulse signals), <strong>trained classifiers</strong> (models trained to distinguish real from generated images), <strong>watermarking</strong> (embedding invisible signatures in generated content, like C2PA and Google SynthID), and <strong>provenance tracking</strong> (blockchain-based content authentication). The arms race between generation and detection continues to escalate.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>diffusion_steps = {"Preview": 20, "Good": 50, "Best": 100}
+for quality, steps in diffusion_steps.items():
+    print(f"{quality:8s} quality: {steps} steps")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">More denoising steps = higher quality with diminishing returns.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>Preview  quality: 20 steps</code><br><code>Good     quality: 50 steps</code><br><code>Best     quality: 100 steps</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def prompt_quality(prompt):
+    elements = []
+    if any(w in prompt.lower() for w in ["photo", "painting", "render"]):
+        elements.append("style")
+    if any(w in prompt.lower() for w in ["detailed", "8k", "hd"]):
+        elements.append("quality")
+    if any(w in prompt.lower() for w in ["lighting", "sunset", "golden"]):
+        elements.append("lighting")
+    return elements
+
+prompts = [
+    "A cat",
+    "A cat, oil painting, highly detailed",
+    "A cat in golden sunset, photo, 8K, dramatic lighting"
+]
+for p in prompts:
+    elements = prompt_quality(p)
+    print(f"Elements: {len(elements)} | {p[:50]}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Better prompts include style, quality, and lighting specifications.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>Elements: 0 | A cat</code><br><code>Elements: 2 | A cat, oil painting, highly detailed</code><br><code>Elements: 3 | A cat in golden sunset, photo, 8K, dramatic lighting</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is classifier-free guidance (CFG) in Stable Diffusion, and why is it important?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Think about how the model balances following the prompt vs generating natural-looking images.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">Classifier-free guidance generates two predictions at each denoising step: one conditioned on the text prompt (conditional) and one without the prompt (unconditional). The final prediction amplifies the difference: <code>output = unconditional + scale * (conditional - unconditional)</code>. A guidance scale of 1.0 uses only the conditional prediction. Higher scales (7-12) amplify the text influence, making images more prompt-faithful. Too-high scales (20+) oversaturate the conditioning, producing artifacts. CFG is important because it gives users a single knob to control the quality-creativity tradeoff.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the difference between latent diffusion and pixel-space diffusion? Why was latent diffusion a breakthrough?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Think about dimensionality and computational cost.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><strong>Pixel-space diffusion</strong> operates directly on image pixels (e.g., 512x512x3 = 786,432 dimensions). Each denoising step requires processing this full resolution, making it extremely expensive computationally. Only organizations with massive GPU clusters could train and run these models. <strong>Latent diffusion</strong> (Rombach et al., 2022) first compresses images to a smaller latent space using a pre-trained VAE (64x64x4 = 16,384 dimensions, 48x smaller), performs diffusion in this compressed space, then decodes back to pixels. This was a breakthrough because it made high-quality image generation accessible: Stable Diffusion can run on a consumer GPU with 8GB VRAM. The quality loss from compression is minimal because the VAE's latent space preserves perceptual content.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What are the two components of a GAN?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Encoder and Decoder</li><li><span class="mcq-option-label">B.</span> Generator and Discriminator</li><li><span class="mcq-option-label">C.</span> Teacher and Student</li><li><span class="mcq-option-label">D.</span> Forward and Backward networks</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> A GAN consists of a Generator (creates fake data) and a Discriminator (classifies data as real or fake). They compete in an adversarial training process.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What activation function does a GAN Generator typically use in its output layer?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ReLU</li><li><span class="mcq-option-label">B.</span> Sigmoid</li><li><span class="mcq-option-label">C.</span> Tanh</li><li><span class="mcq-option-label">D.</span> Softmax</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> The Generator uses Tanh to output values in [-1, 1], matching the normalized range of training images. The Discriminator uses Sigmoid to output a probability in [0, 1].</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does the forward process in a diffusion model do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Generates an image from noise</li><li><span class="mcq-option-label">B.</span> Gradually adds noise to the data until it becomes pure noise</li><li><span class="mcq-option-label">C.</span> Classifies the image</li><li><span class="mcq-option-label">D.</span> Compresses the image to latent space</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> The forward (diffusion) process adds Gaussian noise progressively over T timesteps, gradually destroying the data until it becomes pure random noise. The reverse process then learns to undo this.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does the VAE loss function consist of?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only reconstruction loss</li><li><span class="mcq-option-label">B.</span> Reconstruction loss + KL divergence</li><li><span class="mcq-option-label">C.</span> Only KL divergence</li><li><span class="mcq-option-label">D.</span> Adversarial loss + reconstruction loss</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> VAE loss = reconstruction loss (how well the output matches the input) + KL divergence (regularizes the latent distribution toward N(0,1)). Both terms are necessary for a well-functioning VAE.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What is mode collapse in GANs?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The model runs out of memory</li><li><span class="mcq-option-label">B.</span> The Generator produces only a limited variety of outputs</li><li><span class="mcq-option-label">C.</span> The Discriminator always outputs 0.5</li><li><span class="mcq-option-label">D.</span> The training loss becomes NaN</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> Mode collapse occurs when the Generator finds a few outputs that fool the Discriminator and only produces those, ignoring the full diversity of the training data.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the reparameterization trick in VAEs?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A method to speed up training</li><li><span class="mcq-option-label">B.</span> Expressing z = mu + sigma * epsilon to make sampling differentiable</li><li><span class="mcq-option-label">C.</span> A way to reduce the number of parameters</li><li><span class="mcq-option-label">D.</span> A regularization technique to prevent overfitting</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> The reparameterization trick writes z = mu + sigma * epsilon (where epsilon ~ N(0,1)). This separates the stochastic part (epsilon) from the learnable parameters (mu, sigma), allowing gradients to flow through the sampling step during backpropagation.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Why does Stable Diffusion operate in latent space instead of pixel space?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Latent space produces better colors</li><li><span class="mcq-option-label">B.</span> It is computationally much more efficient (48x smaller dimensionality)</li><li><span class="mcq-option-label">C.</span> Pixel space is not supported by PyTorch</li><li><span class="mcq-option-label">D.</span> Latent space does not require a GPU</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> Latent space (64x64x4 = 16,384 values) is 48x smaller than pixel space (512x512x3 = 786,432 values). This makes each denoising step much faster and allows Stable Diffusion to run on consumer GPUs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is the role of CLIP in Stable Diffusion?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It generates the final image</li><li><span class="mcq-option-label">B.</span> It encodes the text prompt into a semantic embedding that guides image generation</li><li><span class="mcq-option-label">C.</span> It adds noise to the image</li><li><span class="mcq-option-label">D.</span> It compresses the image to latent space</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> CLIP (Contrastive Language-Image Pre-training) text encoder converts the text prompt into a numerical embedding. This embedding conditions the U-Net denoiser, guiding it to generate an image that matches the text description.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does guidance_scale (classifier-free guidance) control in Stable Diffusion?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The image resolution</li><li><span class="mcq-option-label">B.</span> How strongly the generated image follows the text prompt</li><li><span class="mcq-option-label">C.</span> The number of denoising steps</li><li><span class="mcq-option-label">D.</span> The model&#39;s memory usage</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> Guidance scale controls how much the generation is influenced by the text prompt. Higher values (7-12) produce more prompt-faithful images. Too high (20+) causes oversaturation and artifacts. Too low (1) produces images that largely ignore the prompt.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What neural network architecture is typically used in the reverse process of diffusion models?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ResNet</li><li><span class="mcq-option-label">B.</span> U-Net</li><li><span class="mcq-option-label">C.</span> VGG</li><li><span class="mcq-option-label">D.</span> Transformer (decoder-only)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> The U-Net architecture (encoder-decoder with skip connections) is used for the denoising step. Skip connections help preserve fine-grained spatial details while the encoder-decoder structure captures both local and global patterns.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Which GAN variant addresses the training instability caused by the Jensen-Shannon divergence in standard GANs?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> CycleGAN</li><li><span class="mcq-option-label">B.</span> Wasserstein GAN (WGAN)</li><li><span class="mcq-option-label">C.</span> StyleGAN</li><li><span class="mcq-option-label">D.</span> Pix2Pix</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> WGAN replaces the JS divergence with the Wasserstein distance (Earth Mover's distance), which provides smoother gradients even when the real and generated distributions do not overlap. This significantly stabilizes GAN training and reduces mode collapse.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the key difference between DALL-E 2 and Stable Diffusion?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> DALL-E 2 uses GANs while Stable Diffusion uses diffusion</li><li><span class="mcq-option-label">B.</span> DALL-E 2 is open-source while Stable Diffusion is closed</li><li><span class="mcq-option-label">C.</span> Stable Diffusion operates in latent space (open-source), while DALL-E 2 uses a different diffusion approach (closed-source)</li><li><span class="mcq-option-label">D.</span> There is no difference</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> Stable Diffusion (Stability AI) is open-source and uses latent diffusion (VAE-compressed space). DALL-E 2 (OpenAI) is closed-source and uses CLIP embeddings with a prior model + diffusion decoder. Stable Diffusion's open-source nature has driven widespread adoption and community innovation.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Why does the Discriminator in a GAN use LeakyReLU instead of ReLU?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> LeakyReLU is faster to compute</li><li><span class="mcq-option-label">B.</span> LeakyReLU allows small gradients for negative inputs, preventing dead neurons</li><li><span class="mcq-option-label">C.</span> ReLU is not supported in PyTorch</li><li><span class="mcq-option-label">D.</span> LeakyReLU produces values in [0, 1]</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> LeakyReLU (e.g., with slope 0.2 for negative values) prevents the 'dying ReLU' problem where neurons permanently output 0 for all inputs. In the Discriminator, dead neurons would stop gradient flow and halt training. LeakyReLU ensures gradients always flow.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the purpose of negative prompts in Stable Diffusion?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To generate the opposite of what is described</li><li><span class="mcq-option-label">B.</span> To guide the model away from producing undesired features in the output</li><li><span class="mcq-option-label">C.</span> To reduce computation time</li><li><span class="mcq-option-label">D.</span> To increase the resolution of the output</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> Negative prompts specify what the model should avoid in the generated image (e.g., 'blurry', 'low quality', 'watermark'). During classifier-free guidance, the model steers the generation away from the negative prompt embedding, improving output quality.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">In a VAE, what does KL divergence measure?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The reconstruction quality of the output</li><li><span class="mcq-option-label">B.</span> How different the learned latent distribution is from the prior N(0,1)</li><li><span class="mcq-option-label">C.</span> The training speed</li><li><span class="mcq-option-label">D.</span> The number of latent dimensions</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> KL divergence (Kullback-Leibler) measures how much the encoder's learned distribution Q(z|x) diverges from the standard normal prior P(z) = N(0,1). Minimizing KL divergence regularizes the latent space, making it smooth, continuous, and suitable for sampling new data.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What does the Generator in a GAN take as input?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Real images from the training set</li><li><span class="mcq-option-label">B.</span> Random noise sampled from a distribution</li><li><span class="mcq-option-label">C.</span> Labels from the dataset</li><li><span class="mcq-option-label">D.</span> Gradients from the Discriminator</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> The Generator takes random noise (typically from a Gaussian distribution) as input and transforms it into fake data that mimics the training distribution. Different noise vectors produce different generated outputs.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <p>Coding challenges coming soon.</p>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/ai-and-machine-learning/large-language-models/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Large Language Models - GPT, BERT, and Beyond</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/reinforcement-learning-basics/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Reinforcement Learning Basics</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/ai-and-machine-learning/generative-ai-and-diffusion-models" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

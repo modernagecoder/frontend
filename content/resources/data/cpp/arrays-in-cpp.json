@@ -1,0 +1,734 @@
+{
+  "title": "Arrays and Multidimensional Arrays",
+  "slug": "arrays-in-cpp",
+  "language": "cpp",
+  "chapter": 9,
+  "difficulty": "Intermediate",
+  "readingTime": "30 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 59,
+  "seo": {
+    "title": "Arrays & Multidimensional Arrays in C++ - Declaration, Sorting, Searching, 2D Arrays | Modern Age Coders",
+    "description": "Master C++ arrays: 1D and 2D array declaration, sizeof with arrays, passing arrays to functions, linear search, binary search, bubble sort, selection sort, insertion sort, reverse, max/min, and vector preview. 60 practice questions.",
+    "keywords": "c++ arrays, 2d array c++, array sorting c++, binary search c++, bubble sort c++, selection sort c++, insertion sort c++, passing array to function c++, sizeof array c++, array vs vector c++"
+  },
+  "content": {
+    "what": "<h2>What Are Arrays in C++?</h2><p>An <strong>array</strong> is a contiguous block of memory that stores multiple elements of the same data type. When you declare <code>int arr[5];</code>, the compiler allocates 5 consecutive <code>int</code>-sized slots (20 bytes total on most systems) in memory. Each element is accessed by its <strong>index</strong>, starting from 0. So <code>arr[0]</code> is the first element and <code>arr[4]</code> is the last.</p><p>Arrays are the most fundamental data structure in computer science. Virtually every algorithm -- sorting, searching, dynamic programming, graph traversal -- operates on arrays. Understanding how arrays work in memory (contiguous allocation, pointer decay, bounds) is essential for both competitive programming and systems-level interviews.</p><h3>Array Properties</h3><table><tr><th>Property</th><th>Detail</th></tr><tr><td>Declaration</td><td><code>int arr[N];</code> or <code>int arr[] = {1, 2, 3};</code></td></tr><tr><td>Index range</td><td>0 to N-1 (0-indexed)</td></tr><tr><td>Memory layout</td><td>Contiguous (elements are adjacent in memory)</td></tr><tr><td>Size</td><td>Fixed at compile time (for static arrays)</td></tr><tr><td>sizeof(arr)</td><td>Total bytes = sizeof(element) * number of elements</td></tr><tr><td>Access time</td><td>O(1) for any index (random access)</td></tr><tr><td>Passed to functions as</td><td>Pointer (decays to pointer to first element)</td></tr></table>",
+    "why": "<h2>Why Are Arrays Critical?</h2><h3>1. Foundation of Data Structures</h3><p>Vectors, stacks, queues, heaps, hash tables, and even strings are built on arrays internally. Understanding raw arrays means understanding how these higher-level structures work under the hood. When an interviewer asks \"what is the time complexity of push_back in vector?\", the answer involves understanding array reallocation.</p><h3>2. Competitive Programming</h3><p>Almost every CP problem involves arrays. Sorting, prefix sums, two-pointer technique, sliding window, binary search on sorted arrays -- these are all array-based algorithms. Global arrays of size 10^7 are common in CP (they go in the data segment, not the stack).</p><h3>3. Interview Algorithms</h3><p>The classic interview problems are array problems: find the maximum subarray (Kadane's), two sum, merge two sorted arrays, rotate an array, find duplicates, and sort without extra space. Interviewers expect you to think in terms of array indices, bounds, and in-place operations.</p><h3>4. Memory Understanding</h3><p>Arrays teach you about contiguous memory, cache locality (why iterating sequentially is fast), stack vs heap allocation, and pointer arithmetic. This understanding transfers to C, systems programming, and embedded development.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1D Array Declaration and Initialization</h3><p>There are several ways to declare and initialize arrays:</p><ul><li><code>int arr[5];</code> -- uninitialized (contains garbage values for local arrays).</li><li><code>int arr[5] = {1, 2, 3, 4, 5};</code> -- fully initialized.</li><li><code>int arr[5] = {1, 2};</code> -- partially initialized: first two are 1 and 2, rest are 0.</li><li><code>int arr[5] = {0};</code> -- all elements initialized to 0.</li><li><code>int arr[] = {1, 2, 3};</code> -- compiler deduces size as 3.</li><li><code>int arr[5] = {};</code> -- all elements initialized to 0 (C++11).</li></ul><p>Global arrays and static arrays are automatically initialized to 0. Local (stack) arrays are NOT initialized and contain garbage.</p><h3>sizeof with Arrays</h3><p><code>sizeof(arr)</code> returns the total bytes occupied by the array. To get the number of elements: <code>sizeof(arr) / sizeof(arr[0])</code>. This works ONLY when <code>arr</code> is the actual array, not a pointer. When an array is passed to a function, it decays to a pointer, and <code>sizeof</code> gives the pointer size (8 bytes on 64-bit), not the array size.</p><h3>Passing Arrays to Functions</h3><p>When you pass an array to a function, it <strong>decays to a pointer</strong> to the first element. The function receives a pointer, not a copy of the array. This means:</p><ul><li>The function can modify the original array (no copy is made).</li><li><code>sizeof</code> inside the function gives the pointer size, not the array size.</li><li>You must pass the size as a separate parameter.</li></ul><p>Function signature options: <code>void f(int arr[], int n)</code>, <code>void f(int* arr, int n)</code>, or <code>void f(int (&amp;arr)[5])</code> (reference to array of fixed size).</p><h3>2D Arrays</h3><p>A 2D array is an array of arrays. <code>int mat[3][4];</code> creates a 3-row, 4-column matrix. In memory, it is stored <strong>row-major</strong>: all elements of row 0 are stored first, then row 1, then row 2. Access: <code>mat[i][j]</code> gives the element at row i, column j.</p><p>When passing a 2D array to a function, you must specify the column count: <code>void f(int arr[][4], int rows)</code>. The number of columns is needed for the compiler to calculate memory offsets.</p><h3>Common Array Algorithms</h3><p><strong>Linear Search:</strong> O(n) -- scan each element until found. Works on unsorted arrays.</p><p><strong>Binary Search:</strong> O(log n) -- repeatedly halve the search range. Requires a sorted array.</p><p><strong>Bubble Sort:</strong> O(n^2) -- repeatedly swap adjacent elements if out of order. Simple but slow.</p><p><strong>Selection Sort:</strong> O(n^2) -- find the minimum in the unsorted portion and place it at the beginning.</p><p><strong>Insertion Sort:</strong> O(n^2) -- insert each element into its correct position in the sorted portion. Best for nearly sorted data.</p><p><strong>Reverse:</strong> O(n) -- swap elements from both ends moving toward the center.</p><p><strong>Max/Min:</strong> O(n) -- single pass with a running maximum or minimum.</p><h3>Array vs Vector (Preview)</h3><table><tr><th>Feature</th><th>Array</th><th>vector</th></tr><tr><td>Size</td><td>Fixed at compile time</td><td>Dynamic (grows/shrinks)</td></tr><tr><td>Bounds checking</td><td>None (undefined behavior)</td><td><code>at()</code> throws exception</td></tr><tr><td>sizeof</td><td>Total array bytes</td><td>Always 24 bytes (internal struct)</td></tr><tr><td>Passing to function</td><td>Decays to pointer</td><td>Passed by value (copy) or reference</td></tr><tr><td>Memory</td><td>Stack (local) or data segment (global)</td><td>Heap (dynamic)</td></tr><tr><td>Use case</td><td>Fixed-size, performance-critical</td><td>General purpose, flexible</td></tr></table>",
+    "codeExamples": [
+      {
+        "title": "Array Declaration, Initialization, and sizeof",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    // Different initialization styles\n    int a[5] = {10, 20, 30, 40, 50};\n    int b[5] = {1, 2};       // b = {1, 2, 0, 0, 0}\n    int c[5] = {0};           // c = {0, 0, 0, 0, 0}\n    int d[] = {7, 8, 9};      // Compiler deduces size = 3\n\n    // Print array a\n    cout << \"Array a: \";\n    for (int i = 0; i < 5; i++) {\n        cout << a[i] << \" \";\n    }\n    cout << endl;\n\n    // Print array b (partially initialized)\n    cout << \"Array b: \";\n    for (int i = 0; i < 5; i++) {\n        cout << b[i] << \" \";\n    }\n    cout << endl;\n\n    // sizeof trick for array length\n    int n = sizeof(d) / sizeof(d[0]);\n    cout << \"sizeof(d) = \" << sizeof(d) << \" bytes\" << endl;\n    cout << \"Number of elements in d: \" << n << endl;\n\n    // Range-based for loop (C++11)\n    cout << \"Array d: \";\n    for (int x : d) {\n        cout << x << \" \";\n    }\n    cout << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Partial initialization fills remaining elements with 0. <code>sizeof(d) / sizeof(d[0])</code> gives the number of elements (12 bytes / 4 bytes = 3). Range-based for loops provide a cleaner iteration syntax. Note: <code>int c[5] = {0}</code> initializes ALL elements to 0, not just the first.",
+        "output": "Array a: 10 20 30 40 50\nArray b: 1 2 0 0 0\nsizeof(d) = 12 bytes\nNumber of elements in d: 3\nArray d: 7 8 9"
+      },
+      {
+        "title": "Passing Arrays to Functions (Pointer Decay)",
+        "code": "#include <iostream>\nusing namespace std;\n\n// Array decays to pointer -- sizeof gives pointer size, not array size\nvoid printArray(int arr[], int n) {\n    cout << \"Inside function, sizeof(arr) = \" << sizeof(arr) << endl;  // 8 (pointer)\n    for (int i = 0; i < n; i++) {\n        cout << arr[i] << \" \";\n    }\n    cout << endl;\n}\n\n// Modifying array in function affects original\nvoid doubleElements(int arr[], int n) {\n    for (int i = 0; i < n; i++) {\n        arr[i] *= 2;\n    }\n}\n\nint main() {\n    int arr[] = {1, 2, 3, 4, 5};\n    int n = sizeof(arr) / sizeof(arr[0]);\n\n    cout << \"In main, sizeof(arr) = \" << sizeof(arr) << endl;  // 20 (5 * 4)\n    printArray(arr, n);\n\n    doubleElements(arr, n);\n    cout << \"After doubling: \";\n    printArray(arr, n);\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "When passed to a function, an array decays to a pointer to its first element. <code>sizeof(arr)</code> in main gives 20 (5 ints * 4 bytes), but inside the function it gives 8 (pointer size on 64-bit). Since the function receives a pointer to the original array, modifications persist -- no copy is made.",
+        "output": "In main, sizeof(arr) = 20\nInside function, sizeof(arr) = 8\n1 2 3 4 5\nInside function, sizeof(arr) = 8\n2 4 6 8 10\nAfter doubling: Inside function, sizeof(arr) = 8\n2 4 6 8 10"
+      },
+      {
+        "title": "2D Array Declaration and Traversal",
+        "code": "#include <iostream>\nusing namespace std;\n\nvoid printMatrix(int mat[][4], int rows) {\n    for (int i = 0; i < rows; i++) {\n        for (int j = 0; j < 4; j++) {\n            cout << mat[i][j] << \"\\t\";\n        }\n        cout << endl;\n    }\n}\n\nint main() {\n    // 2D array: 3 rows, 4 columns\n    int mat[3][4] = {\n        {1,  2,  3,  4},\n        {5,  6,  7,  8},\n        {9, 10, 11, 12}\n    };\n\n    cout << \"Matrix:\" << endl;\n    printMatrix(mat, 3);\n\n    // Accessing specific element\n    cout << \"mat[1][2] = \" << mat[1][2] << endl;  // Row 1, Col 2 = 7\n\n    // Row sum\n    for (int i = 0; i < 3; i++) {\n        int rowSum = 0;\n        for (int j = 0; j < 4; j++) {\n            rowSum += mat[i][j];\n        }\n        cout << \"Row \" << i << \" sum: \" << rowSum << endl;\n    }\n\n    // sizeof 2D array\n    cout << \"sizeof(mat) = \" << sizeof(mat) << \" bytes\" << endl;  // 48 = 3*4*4\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "A 2D array <code>int mat[3][4]</code> has 3 rows and 4 columns (12 elements, 48 bytes). In memory, it is stored row-major. When passing to a function, the column dimension (4) must be specified: <code>int mat[][4]</code>. The row dimension can be omitted but must be passed as a parameter.",
+        "output": "Matrix:\n1\t2\t3\t4\n5\t6\t7\t8\n9\t10\t11\t12\nmat[1][2] = 7\nRow 0 sum: 10\nRow 1 sum: 26\nRow 2 sum: 42\nsizeof(mat) = 48 bytes"
+      },
+      {
+        "title": "Linear Search and Binary Search",
+        "code": "#include <iostream>\nusing namespace std;\n\nint linearSearch(int arr[], int n, int target) {\n    for (int i = 0; i < n; i++) {\n        if (arr[i] == target) return i;\n    }\n    return -1;\n}\n\nint binarySearch(int arr[], int n, int target) {\n    int low = 0, high = n - 1;\n    while (low <= high) {\n        int mid = low + (high - low) / 2;  // Avoids overflow\n        if (arr[mid] == target) return mid;\n        else if (arr[mid] < target) low = mid + 1;\n        else high = mid - 1;\n    }\n    return -1;\n}\n\nint main() {\n    int arr[] = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};\n    int n = sizeof(arr) / sizeof(arr[0]);\n    int target = 23;\n\n    // Linear search\n    int idx1 = linearSearch(arr, n, target);\n    cout << \"Linear search: \" << target << \" found at index \" << idx1 << endl;\n\n    // Binary search (array must be sorted)\n    int idx2 = binarySearch(arr, n, target);\n    cout << \"Binary search: \" << target << \" found at index \" << idx2 << endl;\n\n    // Search for element not present\n    int idx3 = binarySearch(arr, n, 100);\n    cout << \"Binary search for 100: \" << idx3 << \" (not found)\" << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Linear search scans every element -- O(n). Binary search halves the range each step -- O(log n) but requires sorted input. The formula <code>mid = low + (high - low) / 2</code> prevents integer overflow that can happen with <code>(low + high) / 2</code> when low and high are large.",
+        "output": "Linear search: 23 found at index 5\nBinary search: 23 found at index 5\nBinary search for 100: -1 (not found)"
+      },
+      {
+        "title": "Bubble Sort, Selection Sort, and Insertion Sort",
+        "code": "#include <iostream>\nusing namespace std;\n\nvoid bubbleSort(int arr[], int n) {\n    for (int i = 0; i < n - 1; i++) {\n        bool swapped = false;\n        for (int j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                swap(arr[j], arr[j + 1]);\n                swapped = true;\n            }\n        }\n        if (!swapped) break;  // Optimization: already sorted\n    }\n}\n\nvoid selectionSort(int arr[], int n) {\n    for (int i = 0; i < n - 1; i++) {\n        int minIdx = i;\n        for (int j = i + 1; j < n; j++) {\n            if (arr[j] < arr[minIdx]) minIdx = j;\n        }\n        swap(arr[i], arr[minIdx]);\n    }\n}\n\nvoid insertionSort(int arr[], int n) {\n    for (int i = 1; i < n; i++) {\n        int key = arr[i];\n        int j = i - 1;\n        while (j >= 0 && arr[j] > key) {\n            arr[j + 1] = arr[j];\n            j--;\n        }\n        arr[j + 1] = key;\n    }\n}\n\nvoid printArr(int arr[], int n) {\n    for (int i = 0; i < n; i++) cout << arr[i] << \" \";\n    cout << endl;\n}\n\nint main() {\n    int a[] = {64, 25, 12, 22, 11};\n    int n = 5;\n\n    int b[5], c[5];\n    for (int i = 0; i < n; i++) b[i] = c[i] = a[i];\n\n    bubbleSort(a, n);\n    cout << \"Bubble sort:    \"; printArr(a, n);\n\n    selectionSort(b, n);\n    cout << \"Selection sort: \"; printArr(b, n);\n\n    insertionSort(c, n);\n    cout << \"Insertion sort: \"; printArr(c, n);\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "All three sorts are O(n^2). <strong>Bubble sort</strong> repeatedly swaps adjacent out-of-order pairs. The <code>swapped</code> optimization exits early if no swaps occurred. <strong>Selection sort</strong> finds the minimum and places it at the front. <strong>Insertion sort</strong> inserts each element into its correct position -- it is the best of the three for nearly sorted data (O(n) best case).",
+        "output": "Bubble sort:    11 12 22 25 64\nSelection sort: 11 12 22 25 64\nInsertion sort: 11 12 22 25 64"
+      },
+      {
+        "title": "Reverse Array and Find Max/Min",
+        "code": "#include <iostream>\n#include <climits>\nusing namespace std;\n\nvoid reverseArray(int arr[], int n) {\n    int left = 0, right = n - 1;\n    while (left < right) {\n        swap(arr[left], arr[right]);\n        left++;\n        right--;\n    }\n}\n\nint findMax(int arr[], int n) {\n    int maxVal = INT_MIN;\n    for (int i = 0; i < n; i++) {\n        if (arr[i] > maxVal) maxVal = arr[i];\n    }\n    return maxVal;\n}\n\nint findMin(int arr[], int n) {\n    int minVal = INT_MAX;\n    for (int i = 0; i < n; i++) {\n        if (arr[i] < minVal) minVal = arr[i];\n    }\n    return minVal;\n}\n\nint main() {\n    int arr[] = {3, 7, 1, 9, 4, 6, 2, 8, 5};\n    int n = sizeof(arr) / sizeof(arr[0]);\n\n    cout << \"Original: \";\n    for (int i = 0; i < n; i++) cout << arr[i] << \" \";\n    cout << endl;\n\n    cout << \"Max: \" << findMax(arr, n) << endl;\n    cout << \"Min: \" << findMin(arr, n) << endl;\n\n    reverseArray(arr, n);\n    cout << \"Reversed: \";\n    for (int i = 0; i < n; i++) cout << arr[i] << \" \";\n    cout << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Reverse uses the two-pointer technique: swap elements at both ends and move inward. O(n/2) = O(n). Max/min use a single pass with <code>INT_MIN</code>/<code>INT_MAX</code> as initial values from <code>&lt;climits&gt;</code>. Initializing max to <code>INT_MIN</code> ensures any array element is larger.",
+        "output": "Original: 3 7 1 9 4 6 2 8 5\nMax: 9\nMin: 1\nReversed: 5 8 2 6 4 9 1 7 3"
+      },
+      {
+        "title": "Array vs Vector Preview",
+        "code": "#include <iostream>\n#include <vector>\nusing namespace std;\n\nint main() {\n    // Static array: fixed size\n    int arr[5] = {1, 2, 3, 4, 5};\n\n    // Vector: dynamic size\n    vector<int> vec = {1, 2, 3, 4, 5};\n    vec.push_back(6);   // Can grow!\n    vec.push_back(7);\n\n    cout << \"Array (fixed 5): \";\n    for (int i = 0; i < 5; i++) cout << arr[i] << \" \";\n    cout << endl;\n\n    cout << \"Vector (grew to \" << vec.size() << \"): \";\n    for (int x : vec) cout << x << \" \";\n    cout << endl;\n\n    // sizeof comparison\n    cout << \"sizeof(arr): \" << sizeof(arr) << \" bytes\" << endl;   // 20\n    cout << \"sizeof(vec): \" << sizeof(vec) << \" bytes\" << endl;   // 24 (internal struct)\n\n    // Bounds checking\n    // arr[10] -- no error, undefined behavior!\n    // vec.at(10) -- throws out_of_range exception\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Vectors are dynamic arrays from the STL. They can grow with <code>push_back()</code>, provide <code>size()</code>, and offer bounds-checked access with <code>at()</code>. <code>sizeof(vec)</code> is always 24 bytes (the internal struct has a pointer, size, and capacity) regardless of how many elements it holds. The actual data is on the heap.",
+        "output": "Array (fixed 5): 1 2 3 4 5\nVector (grew to 7): 1 2 3 4 5 6 7\nsizeof(arr): 20 bytes\nsizeof(vec): 24 bytes"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Array Out-of-Bounds Access (No Error, Undefined Behavior)",
+        "wrongCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int arr[3] = {10, 20, 30};\n    cout << arr[5] << endl;  // No error, but garbage!\n    arr[5] = 99;             // Writes to random memory!\n    return 0;\n}",
+        "error": "No compiler error or runtime error. Prints garbage value. Writing to arr[5] corrupts memory silently.",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int arr[3] = {10, 20, 30};\n    int n = 3;\n    // Always check bounds\n    int idx = 5;\n    if (idx >= 0 && idx < n) {\n        cout << arr[idx] << endl;\n    } else {\n        cout << \"Index out of bounds!\" << endl;\n    }\n    return 0;\n}",
+        "explanation": "C++ does NOT check array bounds. Accessing <code>arr[5]</code> when the array has 3 elements is <strong>undefined behavior</strong> -- it reads/writes memory that does not belong to the array. This can corrupt other variables, cause crashes, or produce wrong results silently. Always validate indices."
+      },
+      {
+        "title": "Using sizeof on Array Parameter (Pointer Decay)",
+        "wrongCode": "#include <iostream>\nusing namespace std;\nvoid printSize(int arr[]) {\n    int n = sizeof(arr) / sizeof(arr[0]);  // WRONG: sizeof(pointer)/4 = 2\n    cout << \"Size: \" << n << endl;\n}\nint main() {\n    int arr[] = {1, 2, 3, 4, 5};\n    printSize(arr);\n    return 0;\n}",
+        "error": "Prints 2 (on 64-bit: sizeof(pointer)=8, 8/4=2) instead of 5. sizeof gives pointer size, not array size.",
+        "correctCode": "#include <iostream>\nusing namespace std;\nvoid printSize(int arr[], int n) {\n    cout << \"Size: \" << n << endl;\n}\nint main() {\n    int arr[] = {1, 2, 3, 4, 5};\n    int n = sizeof(arr) / sizeof(arr[0]);\n    printSize(arr, n);\n    return 0;\n}",
+        "explanation": "When an array is passed to a function, it decays to a pointer. <code>sizeof(arr)</code> inside the function gives the pointer size (8 bytes on 64-bit), not the array size. Always pass the array size as a separate parameter."
+      },
+      {
+        "title": "Forgetting to Initialize Local Arrays",
+        "wrongCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int arr[5];\n    int sum = 0;\n    for (int i = 0; i < 5; i++) {\n        sum += arr[i];  // arr[i] is garbage!\n    }\n    cout << \"Sum: \" << sum << endl;\n    return 0;\n}",
+        "error": "Sum is unpredictable garbage. Local arrays are not initialized to 0.",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int arr[5] = {0};  // Initialize all to 0\n    int sum = 0;\n    for (int i = 0; i < 5; i++) {\n        sum += arr[i];\n    }\n    cout << \"Sum: \" << sum << endl;  // 0\n    return 0;\n}",
+        "explanation": "Local (stack) arrays are NOT initialized in C++. They contain whatever was previously in that memory. Use <code>= {0}</code> to zero-initialize. Global arrays ARE automatically initialized to 0. In competitive programming, global arrays are preferred for this reason (and to avoid stack overflow for large arrays)."
+      },
+      {
+        "title": "Stack Overflow with Large Local Arrays",
+        "wrongCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int arr[10000000];  // 40 MB on stack -- CRASH!\n    arr[0] = 1;\n    cout << arr[0] << endl;\n    return 0;\n}",
+        "error": "Segmentation fault or stack overflow. Default stack size is ~1-8 MB.",
+        "correctCode": "#include <iostream>\nusing namespace std;\n\nint arr[10000000];  // Global: goes in data segment, not stack\n\nint main() {\n    arr[0] = 1;\n    cout << arr[0] << endl;\n    return 0;\n}",
+        "explanation": "The default stack size is typically 1-8 MB. A 10 million int array needs 40 MB -- far exceeding the stack. Declare large arrays as <strong>global</strong> (outside main) or use <code>static</code>. Global arrays go in the data segment (which can be much larger) and are auto-initialized to 0."
+      }
+    ],
+    "summary": [
+      "An array is a contiguous block of same-type elements accessed by index (0-based). int arr[5] allocates 5 ints = 20 bytes.",
+      "Initialization: int arr[5] = {1, 2} fills remaining with 0. int arr[5] = {0} zeros all. int arr[] = {1,2,3} deduces size 3.",
+      "sizeof(arr) / sizeof(arr[0]) gives element count, but ONLY in the scope where arr is declared. In functions, arrays decay to pointers.",
+      "Passing arrays to functions passes a pointer -- the function can modify the original. Always pass size as a separate parameter.",
+      "2D arrays: int mat[3][4] is 3 rows, 4 columns, stored row-major. When passing to functions, column dimension must be specified.",
+      "Linear search is O(n) for unsorted arrays. Binary search is O(log n) for sorted arrays. Use mid = low + (high-low)/2 to avoid overflow.",
+      "Bubble sort, selection sort, insertion sort are all O(n^2). Insertion sort is best for nearly sorted data. Use STL sort() for O(n log n).",
+      "Reverse an array using two pointers from both ends. Find max/min with a single pass using INT_MIN/INT_MAX initial values.",
+      "Local arrays are uninitialized (garbage). Global arrays are zero-initialized. Large arrays (>10^5) should be global to avoid stack overflow.",
+      "vector<int> is the dynamic alternative to arrays: it can grow, provides size(), and offers bounds-checked at() access."
+    ]
+  },
+  "relatedTopics": ["functions-in-cpp", "strings-in-cpp"],
+  "practice": {
+    "totalQuestions": 59,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[5] = {10, 20, 30, 40, 50};\n    cout &lt;&lt; arr[0] &lt;&lt; \" \" &lt;&lt; arr[4] &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Arrays are 0-indexed. arr[0] is first, arr[4] is last.",
+        "answer": "<code>10 50</code>",
+        "explanation": "<code>arr[0]</code> is the first element (10), <code>arr[4]</code> is the last element (50). The array has indices 0 through 4."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[5] = {1, 2};\n    for (int i = 0; i &lt; 5; i++) {\n        cout &lt;&lt; arr[i] &lt;&lt; \" \";\n    }\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Partial initialization fills remaining elements with 0.",
+        "answer": "<code>1 2 0 0 0</code>",
+        "explanation": "The first two elements are initialized to 1 and 2. The remaining three are automatically initialized to 0 because partial initialization zero-fills the rest."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[] = {5, 10, 15, 20};\n    cout &lt;&lt; sizeof(arr) &lt;&lt; endl;\n    cout &lt;&lt; sizeof(arr) / sizeof(arr[0]) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "4 ints * 4 bytes = 16 bytes. 16 / 4 = 4 elements.",
+        "answer": "<code>16</code><br><code>4</code>",
+        "explanation": "The array has 4 ints, each 4 bytes, so <code>sizeof(arr)</code> is 16. Dividing by <code>sizeof(arr[0])</code> (4 bytes) gives the element count: 4."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nvoid func(int arr[]) {\n    cout &lt;&lt; sizeof(arr) &lt;&lt; endl;\n}\nint main() {\n    int arr[5] = {1, 2, 3, 4, 5};\n    cout &lt;&lt; sizeof(arr) &lt;&lt; endl;\n    func(arr);\n    return 0;\n}</code></pre>",
+        "hint": "In the function, arr decays to a pointer.",
+        "answer": "<code>20</code><br><code>8</code>",
+        "explanation": "In main, <code>sizeof(arr)</code> gives the total array size: 5*4=20 bytes. In the function, arr is a pointer, so <code>sizeof(arr)</code> gives the pointer size: 8 bytes (on 64-bit). This is the pointer decay trap."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nvoid modify(int arr[]) {\n    arr[0] = 99;\n}\nint main() {\n    int arr[] = {1, 2, 3};\n    modify(arr);\n    cout &lt;&lt; arr[0] &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Arrays are passed by pointer, so modifications affect the original.",
+        "answer": "<code>99</code>",
+        "explanation": "When an array is passed to a function, a pointer to the original array is passed (not a copy). The function modifies the original <code>arr[0]</code> to 99."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int mat[2][3] = {{1, 2, 3}, {4, 5, 6}};\n    cout &lt;&lt; mat[0][2] &lt;&lt; \" \" &lt;&lt; mat[1][0] &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "mat[row][col]. Row 0 col 2 = 3. Row 1 col 0 = 4.",
+        "answer": "<code>3 4</code>",
+        "explanation": "<code>mat[0][2]</code> is row 0, column 2: the value 3. <code>mat[1][0]</code> is row 1, column 0: the value 4."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[] = {5, 3, 8, 1, 9, 2};\n    int n = 6;\n    int maxVal = arr[0];\n    for (int i = 1; i &lt; n; i++) {\n        if (arr[i] &gt; maxVal) maxVal = arr[i];\n    }\n    cout &lt;&lt; maxVal &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Track the running maximum through the array.",
+        "answer": "<code>9</code>",
+        "explanation": "Starting with maxVal = 5, the loop updates maxVal whenever a larger element is found. The sequence: 5, 5, 8, 8, 9, 9. The maximum is 9."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[] = {4, 2, 7, 1, 5};\n    int n = 5;\n    // One pass of bubble sort\n    for (int j = 0; j &lt; n - 1; j++) {\n        if (arr[j] &gt; arr[j + 1]) {\n            swap(arr[j], arr[j + 1]);\n        }\n    }\n    for (int i = 0; i &lt; n; i++) cout &lt;&lt; arr[i] &lt;&lt; \" \";\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "One pass of bubble sort moves the largest element to the end.",
+        "answer": "<code>2 4 1 5 7</code>",
+        "explanation": "Pass: compare 4,2 -> swap -> {2,4,7,1,5}. Compare 4,7 -> no swap. Compare 7,1 -> swap -> {2,4,1,7,5}. Compare 7,5 -> swap -> {2,4,1,5,7}. The largest element (7) bubbles to the end."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between <code>int arr[5];</code> declared locally vs globally?",
+        "hint": "Think about initialization and memory location.",
+        "answer": "A local (inside main/function) array is stored on the <strong>stack</strong> and contains <strong>garbage values</strong> (uninitialized). A global (outside all functions) array is stored in the <strong>data segment</strong> and is automatically <strong>initialized to 0</strong>. Global arrays can also be much larger without stack overflow.",
+        "explanation": "In competitive programming, large arrays (10^5 or more) should be declared globally to avoid stack overflow and to get automatic zero-initialization."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is binary search O(log n) while linear search is O(n)?",
+        "hint": "How many elements does each eliminate per step?",
+        "answer": "Linear search checks elements one by one -- worst case checks all n elements. Binary search halves the search range each step by comparing with the middle element. After k steps, the range is n/2^k. When n/2^k = 1, k = log2(n). So binary search needs at most log2(n) comparisons.",
+        "explanation": "For n = 1,000,000: linear search may need 1,000,000 comparisons, binary search needs at most 20 (log2(10^6) ~ 20). Binary search requires the array to be sorted."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[3] = {10, 20, 30};\n    int* ptr = arr;\n    cout &lt;&lt; *ptr &lt;&lt; \" \" &lt;&lt; *(ptr + 1) &lt;&lt; \" \" &lt;&lt; *(ptr + 2) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "An array name is a pointer to the first element. Pointer arithmetic accesses subsequent elements.",
+        "answer": "<code>10 20 30</code>",
+        "explanation": "The array name <code>arr</code> decays to a pointer to the first element. <code>*ptr</code> = arr[0] = 10. <code>*(ptr + 1)</code> = arr[1] = 20. <code>*(ptr + 2)</code> = arr[2] = 30. Pointer arithmetic adds <code>sizeof(int)</code> bytes per increment."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[] = {1, 2, 3, 4, 5};\n    int n = 5;\n    int left = 0, right = n - 1;\n    while (left &lt; right) {\n        swap(arr[left], arr[right]);\n        left++;\n        right--;\n    }\n    for (int i = 0; i &lt; n; i++) cout &lt;&lt; arr[i] &lt;&lt; \" \";\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Two-pointer technique for reversing.",
+        "answer": "<code>5 4 3 2 1</code>",
+        "explanation": "The two-pointer technique reverses the array: swap(arr[0], arr[4]) -> {5,2,3,4,1}. swap(arr[1], arr[3]) -> {5,4,3,2,1}. When left >= right, the loop stops. The middle element (3) stays in place."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the difference between <code>int arr[5]</code> and <code>vector&lt;int&gt; vec(5)</code>?",
+        "hint": "Think about size flexibility, memory location, and bounds checking.",
+        "answer": "Array: fixed size (5), stored on stack (local) or data segment (global), no bounds checking, sizeof gives total bytes (20). Vector: dynamic size (can grow/shrink), stored on heap, <code>at()</code> provides bounds checking, <code>sizeof</code> gives struct size (24), provides <code>size()</code>, <code>push_back()</code>, and other member functions.",
+        "explanation": "Use arrays for fixed-size, performance-critical code. Use vectors for dynamic sizes and when you need safety. In CP, both are common -- arrays for speed, vectors for convenience."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a[2][2] = {{1, 2}, {3, 4}};\n    cout &lt;&lt; sizeof(a) &lt;&lt; endl;\n    cout &lt;&lt; sizeof(a[0]) &lt;&lt; endl;\n    cout &lt;&lt; sizeof(a[0][0]) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "a is 2x2 = 4 ints. a[0] is a row of 2 ints. a[0][0] is one int.",
+        "answer": "<code>16</code><br><code>8</code><br><code>4</code>",
+        "explanation": "<code>sizeof(a)</code> = 2*2*4 = 16 bytes (entire 2D array). <code>sizeof(a[0])</code> = 2*4 = 8 bytes (one row of 2 ints). <code>sizeof(a[0][0])</code> = 4 bytes (one int)."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[5] = {};\n    for (int i = 0; i &lt; 5; i++) cout &lt;&lt; arr[i] &lt;&lt; \" \";\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Empty braces {} zero-initialize the array in C++11.",
+        "answer": "<code>0 0 0 0 0</code>",
+        "explanation": "In C++11 and later, <code>int arr[5] = {}</code> zero-initializes all elements. This is equivalent to <code>int arr[5] = {0}</code>."
+      },
+      {
+        "id": "ts-16",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a function that takes an integer array and its size, and returns the sum of all elements.",
+        "hint": "Loop through the array and accumulate the sum.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint arraySum(int arr[], int n) {\n    int sum = 0;\n    for (int i = 0; i &lt; n; i++) sum += arr[i];\n    return sum;\n}\nint main() {\n    int arr[] = {3, 7, 2, 8, 5};\n    cout &lt;&lt; arraySum(arr, 5) &lt;&lt; endl;\n    return 0;\n}</code></pre>\nOutput: 25",
+        "explanation": "The function iterates through all elements and adds them to sum. The result is 3+7+2+8+5 = 25."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[] = {1, 3, 5, 7, 9};\n    int low = 0, high = 4, target = 5;\n    while (low &lt;= high) {\n        int mid = (low + high) / 2;\n        if (arr[mid] == target) {\n            cout &lt;&lt; \"Found at \" &lt;&lt; mid &lt;&lt; endl;\n            break;\n        }\n        if (arr[mid] &lt; target) low = mid + 1;\n        else high = mid - 1;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "Binary search: mid = (0+4)/2 = 2. arr[2] = 5 == target.",
+        "answer": "<code>Found at 2</code>",
+        "explanation": "First iteration: mid = 2, arr[2] = 5 == target. Found immediately at index 2. Binary search on a sorted array."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[] = {3, 1, 4, 1, 5};\n    int n = 5;\n    // Selection sort: find min and place at front\n    for (int i = 0; i &lt; n - 1; i++) {\n        int minIdx = i;\n        for (int j = i + 1; j &lt; n; j++) {\n            if (arr[j] &lt; arr[minIdx]) minIdx = j;\n        }\n        swap(arr[i], arr[minIdx]);\n    }\n    for (int i = 0; i &lt; n; i++) cout &lt;&lt; arr[i] &lt;&lt; \" \";\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Selection sort finds the minimum in the unsorted portion and places it at the beginning.",
+        "answer": "<code>1 1 3 4 5</code>",
+        "explanation": "Pass 1: min of {3,1,4,1,5} at index 1 -> swap(arr[0], arr[1]) -> {1,3,4,1,5}. Pass 2: min of {3,4,1,5} at index 3 -> swap(arr[1], arr[3]) -> {1,1,4,3,5}. Pass 3: min of {4,3,5} at index 3 -> swap(arr[2], arr[3]) -> {1,1,3,4,5}. Pass 4: min of {4,5} stays -> {1,1,3,4,5}."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[3];\n    arr[0] = 10;\n    arr[1] = 20;\n    arr[2] = 30;\n    cout &lt;&lt; arr[0] + arr[1] + arr[2] &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Elements are assigned individually, then summed.",
+        "answer": "<code>60</code>",
+        "explanation": "The three elements are 10, 20, 30. Their sum is 60."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint arr[5];  // Global\nint main() {\n    int brr[5];  // Local\n    cout &lt;&lt; arr[0] &lt;&lt; endl;\n    // cout &lt;&lt; brr[0]; // Garbage!\n    return 0;\n}</code></pre>",
+        "hint": "Global arrays are zero-initialized. Local arrays are not.",
+        "answer": "<code>0</code>",
+        "explanation": "Global array <code>arr</code> is automatically zero-initialized: <code>arr[0] = 0</code>. Local array <code>brr</code> is uninitialized and would contain garbage. This is why CP programmers prefer global arrays."
+      },
+      {
+        "id": "ts-21",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>arr[i]</code> and <code>*(arr + i)</code> in C++?",
+        "hint": "Think about pointer arithmetic and array access.",
+        "answer": "They are exactly equivalent. <code>arr[i]</code> is syntactic sugar for <code>*(arr + i)</code>. The array name <code>arr</code> decays to a pointer to the first element. Adding <code>i</code> advances the pointer by <code>i * sizeof(element)</code> bytes. Dereferencing with <code>*</code> gives the value.",
+        "explanation": "This equivalence means <code>arr[i]</code> is the same as <code>i[arr]</code> (because addition is commutative). While <code>i[arr]</code> is valid C++, it is never used in practice."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[] = {10, 20, 30, 40, 50};\n    int n = 5;\n    int sum = 0;\n    for (int i = 0; i &lt; n; i += 2) {\n        sum += arr[i];\n    }\n    cout &lt;&lt; sum &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "The loop increments by 2, so it visits indices 0, 2, 4.",
+        "answer": "<code>90</code>",
+        "explanation": "The loop visits arr[0]=10, arr[2]=30, arr[4]=50 (step of 2). Sum = 10 + 30 + 50 = 90."
+      },
+      {
+        "id": "ts-23",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a[2][3] = {{1,2,3},{4,5,6}};\n    cout &lt;&lt; a[0][2] + a[1][0] &lt;&lt; endl;\n    cout &lt;&lt; sizeof(a) / sizeof(a[0][0]) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "a[0][2] is 3, a[1][0] is 4. Total elements = 2*3 = 6.",
+        "answer": "<code>7</code><br><code>6</code>",
+        "explanation": "<code>a[0][2]=3</code>, <code>a[1][0]=4</code>, sum=7. <code>sizeof(a)</code> = 2*3*4 = 24 bytes. <code>sizeof(a[0][0])</code> = 4 bytes. 24/4 = 6 elements."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[4] = {10, 20, 30, 40};\n    arr[1] = 99;\n    cout &lt;&lt; arr[1] &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Array elements can be modified by index.",
+        "answer": "<code>99</code>",
+        "explanation": "<code>arr[1]</code> is changed from 20 to 99. The print shows the updated value."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[] = {5, 10, 15};\n    for (int x : arr) {\n        cout &lt;&lt; x * 2 &lt;&lt; \" \";\n    }\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Range-based for loop iterates over all elements. x is a copy.",
+        "answer": "<code>10 20 30</code>",
+        "explanation": "The range-based for loop iterates over each element. <code>x * 2</code> prints double each value: 10, 20, 30. The original array is unchanged (x is a copy)."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[3][3] = {\n        {1, 0, 0},\n        {0, 1, 0},\n        {0, 0, 1}\n    };\n    int trace = 0;\n    for (int i = 0; i &lt; 3; i++) {\n        trace += arr[i][i];\n    }\n    cout &lt;&lt; trace &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "The trace is the sum of diagonal elements (where row == column).",
+        "answer": "<code>3</code>",
+        "explanation": "The diagonal elements are arr[0][0]=1, arr[1][1]=1, arr[2][2]=1. Sum = 3. This is the identity matrix, and its trace is 3."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that reads 5 integers into an array and prints them in reverse order.",
+        "hint": "Read into arr[0..4], then print from arr[4] down to arr[0].",
+        "answer": "<pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[5];\n    for (int i = 0; i &lt; 5; i++) cin &gt;&gt; arr[i];\n    for (int i = 4; i &gt;= 0; i--) cout &lt;&lt; arr[i] &lt;&lt; \" \";\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>\nInput: 1 2 3 4 5\nOutput: 5 4 3 2 1",
+        "explanation": "Read 5 elements with a forward loop. Print with a backward loop from index 4 to 0."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[] = {2, 4, 6, 8, 10};\n    int n = 5;\n    // Prefix sum\n    for (int i = 1; i &lt; n; i++) {\n        arr[i] += arr[i - 1];\n    }\n    for (int i = 0; i &lt; n; i++) cout &lt;&lt; arr[i] &lt;&lt; \" \";\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Each element becomes the sum of all elements up to and including itself.",
+        "answer": "<code>2 6 12 20 30</code>",
+        "explanation": "Prefix sum: arr[1] = 4+2 = 6. arr[2] = 6+6 = 12. arr[3] = 8+12 = 20. arr[4] = 10+20 = 30. The prefix sum array allows O(1) range sum queries."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[] = {5, 2, 8, 1, 9};\n    int n = 5;\n    // Insertion sort\n    for (int i = 1; i &lt; n; i++) {\n        int key = arr[i];\n        int j = i - 1;\n        while (j &gt;= 0 &amp;&amp; arr[j] &gt; key) {\n            arr[j + 1] = arr[j];\n            j--;\n        }\n        arr[j + 1] = key;\n    }\n    for (int i = 0; i &lt; n; i++) cout &lt;&lt; arr[i] &lt;&lt; \" \";\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Insertion sort inserts each element into its correct position in the sorted portion.",
+        "answer": "<code>1 2 5 8 9</code>",
+        "explanation": "Insertion sort builds the sorted portion from left to right. Each new element is shifted into its correct position. Final sorted array: 1 2 5 8 9."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a function that takes a 2D array (3x3) and prints the transpose (rows become columns).",
+        "hint": "Transpose: transposed[j][i] = original[i][j].",
+        "answer": "<pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int mat[3][3] = {{1,2,3},{4,5,6},{7,8,9}};\n    int trans[3][3];\n    for (int i = 0; i &lt; 3; i++)\n        for (int j = 0; j &lt; 3; j++)\n            trans[j][i] = mat[i][j];\n    for (int i = 0; i &lt; 3; i++) {\n        for (int j = 0; j &lt; 3; j++)\n            cout &lt;&lt; trans[i][j] &lt;&lt; \" \";\n        cout &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>\nOutput:\n1 4 7\n2 5 8\n3 6 9",
+        "explanation": "The transpose swaps rows and columns. Element at (i,j) moves to (j,i). Row {1,2,3} becomes column {1,2,3}."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[] = {1, 3, 5, 7, 9, 11};\n    int n = 6, target = 7;\n    int low = 0, high = n - 1, steps = 0;\n    while (low &lt;= high) {\n        steps++;\n        int mid = low + (high - low) / 2;\n        if (arr[mid] == target) {\n            cout &lt;&lt; \"Found at \" &lt;&lt; mid &lt;&lt; \" in \" &lt;&lt; steps &lt;&lt; \" steps\" &lt;&lt; endl;\n            break;\n        }\n        if (arr[mid] &lt; target) low = mid + 1;\n        else high = mid - 1;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "Trace binary search: mid = 2, arr[2]=5 < 7, mid = 4, arr[4]=9 > 7, mid = 3, arr[3]=7 found.",
+        "answer": "<code>Found at 3 in 3 steps</code>",
+        "explanation": "Step 1: mid=2, arr[2]=5 < 7, low=3. Step 2: mid=4, arr[4]=9 > 7, high=3. Step 3: mid=3, arr[3]=7 == target. Found at index 3 in 3 steps."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a program that reads n integers and finds the second largest element without sorting.",
+        "hint": "Track both the largest and second largest in one pass.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\n#include &lt;climits&gt;\nusing namespace std;\nint main() {\n    int n;\n    cin &gt;&gt; n;\n    int arr[100];\n    for (int i = 0; i &lt; n; i++) cin &gt;&gt; arr[i];\n    int first = INT_MIN, second = INT_MIN;\n    for (int i = 0; i &lt; n; i++) {\n        if (arr[i] &gt; first) {\n            second = first;\n            first = arr[i];\n        } else if (arr[i] &gt; second &amp;&amp; arr[i] != first) {\n            second = arr[i];\n        }\n    }\n    cout &lt;&lt; \"Second largest: \" &lt;&lt; second &lt;&lt; endl;\n    return 0;\n}</code></pre>\nInput: 5 12 35 1 10 34\nOutput: Second largest: 34",
+        "explanation": "Single pass O(n): if the current element is greater than first, update both. If greater than second but not equal to first, update second. This handles duplicates correctly."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why should you use <code>mid = low + (high - low) / 2</code> instead of <code>mid = (low + high) / 2</code> in binary search?",
+        "hint": "Think about what happens when low and high are both large.",
+        "answer": "<code>(low + high)</code> can overflow if both are close to <code>INT_MAX</code>. For example, if low = 2 billion and high = 2 billion, their sum exceeds <code>INT_MAX</code> and overflows. <code>low + (high - low) / 2</code> computes the difference first (which fits in int) and avoids overflow.",
+        "explanation": "This is a classic interview question. The overflow is unlikely with small arrays but becomes real when binary searching on values (not indices), e.g., binary search on answer in competitive programming."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[5] = {0};\n    arr[2] = 42;\n    for (int i = 0; i &lt; 5; i++) cout &lt;&lt; arr[i] &lt;&lt; \" \";\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "{0} initializes all elements to 0. Then one element is changed.",
+        "answer": "<code>0 0 42 0 0</code>",
+        "explanation": "All elements start as 0 (from <code>= {0}</code>). Only <code>arr[2]</code> is changed to 42."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int arr[] = {1, 2, 3, 4, 5};\n    int n = 5;\n    // Left rotate by 2\n    int temp1 = arr[0], temp2 = arr[1];\n    for (int i = 0; i &lt; n - 2; i++) {\n        arr[i] = arr[i + 2];\n    }\n    arr[n - 2] = temp1;\n    arr[n - 1] = temp2;\n    for (int i = 0; i &lt; n; i++) cout &lt;&lt; arr[i] &lt;&lt; \" \";\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Left rotation by 2 moves first 2 elements to the end.",
+        "answer": "<code>3 4 5 1 2</code>",
+        "explanation": "Left rotation by 2: elements {3,4,5} shift left, and {1,2} go to the end. Result: {3,4,5,1,2}."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the index of the last element in <code>int arr[10]</code>?",
+        "options": {
+          "A": "10",
+          "B": "9",
+          "C": "11",
+          "D": "0"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Arrays are 0-indexed. An array of size 10 has indices 0 through 9. Accessing arr[10] is out of bounds."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does <code>int arr[5] = {1, 2};</code> initialize the remaining elements to?",
+        "options": {
+          "A": "Garbage values",
+          "B": "1",
+          "C": "0",
+          "D": "-1"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Partial initialization fills remaining elements with 0. So arr = {1, 2, 0, 0, 0}."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is the time complexity of accessing <code>arr[i]</code>?",
+        "options": {
+          "A": "O(n)",
+          "B": "O(log n)",
+          "C": "O(1)",
+          "D": "O(n^2)"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Array access is O(1) because the address is calculated directly: base_address + i * sizeof(element). No iteration is needed."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Medium",
+        "question": "What happens when an array is passed to a function in C++?",
+        "options": {
+          "A": "A copy of the array is created",
+          "B": "It decays to a pointer to the first element",
+          "C": "The function receives a reference",
+          "D": "Compilation error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Arrays decay to pointers when passed to functions. The function receives a pointer to arr[0], not a copy. Changes made inside the function affect the original array."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "What is the time complexity of binary search?",
+        "options": {
+          "A": "O(n)",
+          "B": "O(n^2)",
+          "C": "O(log n)",
+          "D": "O(n log n)"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Binary search halves the search range each step, giving O(log n) time complexity. It requires the array to be sorted."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the time complexity of bubble sort in the worst case?",
+        "options": {
+          "A": "O(n)",
+          "B": "O(n log n)",
+          "C": "O(n^2)",
+          "D": "O(log n)"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Bubble sort has two nested loops, each up to n iterations. Worst case (reverse sorted array) requires O(n^2) comparisons and swaps."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "How are elements of a 2D array <code>int a[3][4]</code> stored in memory?",
+        "options": {
+          "A": "Column-major order",
+          "B": "Row-major order",
+          "C": "Random order",
+          "D": "Depends on the compiler"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> C++ stores 2D arrays in row-major order: all elements of row 0 first, then row 1, then row 2. This affects cache performance when iterating."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Hard",
+        "question": "What is <code>sizeof(arr)</code> inside a function where arr is passed as <code>int arr[]</code> on a 64-bit system?",
+        "options": {
+          "A": "Size of the entire array",
+          "B": "4",
+          "C": "8",
+          "D": "0"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Inside the function, arr is a pointer (not an array). On a 64-bit system, sizeof(pointer) = 8 bytes, regardless of the original array size."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Hard",
+        "question": "Which sorting algorithm has the best performance on a nearly sorted array?",
+        "options": {
+          "A": "Bubble sort",
+          "B": "Selection sort",
+          "C": "Insertion sort",
+          "D": "All are equal"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Insertion sort has O(n) best-case performance on a nearly sorted array because the inner while loop rarely executes. Bubble sort (with optimization) is also O(n) best case, but insertion sort is generally faster in practice."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "Why should large arrays in competitive programming be declared globally?",
+        "options": {
+          "A": "Global arrays are faster to access",
+          "B": "Global arrays are auto-initialized to 0 and avoid stack overflow",
+          "C": "Global arrays support dynamic sizing",
+          "D": "Global arrays have bounds checking"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Local arrays go on the stack (limited to ~1-8 MB). Global arrays go in the data segment (much larger). Global arrays are also automatically zero-initialized, avoiding garbage values."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Easy",
+        "question": "What is the correct way to get the number of elements in an array <code>int arr[10]</code>?",
+        "options": {
+          "A": "arr.length()",
+          "B": "arr.size()",
+          "C": "sizeof(arr) / sizeof(arr[0])",
+          "D": "len(arr)"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> C++ arrays do not have member functions like length() or size(). sizeof(arr) gives total bytes, divided by sizeof(one element) gives the count."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "When passing a 2D array to a function, which dimension can be omitted?",
+        "options": {
+          "A": "Both dimensions",
+          "B": "The row dimension (first)",
+          "C": "The column dimension (second)",
+          "D": "Neither"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The column dimension must be specified for the compiler to calculate memory offsets. <code>void f(int arr[][4], int rows)</code> is valid. <code>void f(int arr[][], int rows, int cols)</code> is NOT valid."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Easy",
+        "question": "What does <code>int arr[5] = {};</code> do in C++11?",
+        "options": {
+          "A": "Creates an empty array",
+          "B": "Zero-initializes all 5 elements",
+          "C": "Compilation error",
+          "D": "Leaves elements uninitialized"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> In C++11, empty brace initialization <code>= {}</code> zero-initializes all elements. The array has 5 elements, all set to 0."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "What is the best-case time complexity of insertion sort?",
+        "options": {
+          "A": "O(n^2)",
+          "B": "O(n log n)",
+          "C": "O(n)",
+          "D": "O(1)"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> When the array is already sorted, insertion sort's inner while loop never executes. Each element is compared once with its predecessor and stays in place. Total: O(n) comparisons."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What is the maximum size of a local array (on the stack) in most systems?",
+        "options": {
+          "A": "~100 elements",
+          "B": "~10,000 elements",
+          "C": "~250,000 elements (about 1 MB for int)",
+          "D": "Unlimited"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The default stack size is typically 1-8 MB. For int arrays (4 bytes each), ~250,000 elements fit in 1 MB. For larger arrays, use global declaration or dynamic allocation."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "In binary search, what does <code>low + (high - low) / 2</code> avoid compared to <code>(low + high) / 2</code>?",
+        "options": {
+          "A": "Division by zero",
+          "B": "Integer overflow",
+          "C": "Negative indices",
+          "D": "Off-by-one errors"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> If low and high are both close to INT_MAX, <code>low + high</code> overflows. <code>low + (high - low) / 2</code> computes the difference first, which is always non-negative and fits in an int."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Easy",
+        "question": "What is the time complexity of linear search?",
+        "options": {
+          "A": "O(1)",
+          "B": "O(log n)",
+          "C": "O(n)",
+          "D": "O(n^2)"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Linear search checks each element one by one. In the worst case, it checks all n elements before finding the target (or confirming absence)."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Which sorting algorithm is stable (preserves relative order of equal elements)?",
+        "options": {
+          "A": "Selection sort",
+          "B": "Insertion sort",
+          "C": "Neither",
+          "D": "Both"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Insertion sort is stable because it only moves elements past those that are strictly greater. Selection sort is NOT stable because the swap operation can change the relative order of equal elements."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Array Rotation",
+        "difficulty": "Easy",
+        "description": "Write a program that left rotates an array by k positions. Read n (array size), k (rotation count), and n integers. Print the rotated array.",
+        "sampleInput": "5 2\n1 2 3 4 5",
+        "sampleOutput": "3 4 5 1 2",
+        "constraints": "1 <= n <= 1000, 0 <= k <= n. Use O(n) extra space.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int n, k;\n    cin >> n >> k;\n    int arr[1000], temp[1000];\n    for (int i = 0; i < n; i++) cin >> arr[i];\n    for (int i = 0; i < n; i++) temp[i] = arr[(i + k) % n];\n    for (int i = 0; i < n; i++) cout << temp[i] << \" \";\n    cout << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Merge Two Sorted Arrays",
+        "difficulty": "Medium",
+        "description": "Given two sorted arrays of sizes n and m, merge them into a single sorted array without using any sorting function. Print the merged array.",
+        "sampleInput": "3 4\n1 3 5\n2 4 6 8",
+        "sampleOutput": "1 2 3 4 5 6 8",
+        "constraints": "Use the two-pointer merge technique. O(n+m) time.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int n, m;\n    cin >> n >> m;\n    int a[1000], b[1000], c[2000];\n    for (int i = 0; i < n; i++) cin >> a[i];\n    for (int i = 0; i < m; i++) cin >> b[i];\n    int i = 0, j = 0, k = 0;\n    while (i < n && j < m) {\n        if (a[i] <= b[j]) c[k++] = a[i++];\n        else c[k++] = b[j++];\n    }\n    while (i < n) c[k++] = a[i++];\n    while (j < m) c[k++] = b[j++];\n    for (int i = 0; i < k; i++) cout << c[i] << \" \";\n    cout << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Matrix Diagonal Sum",
+        "difficulty": "Medium",
+        "description": "Read a square matrix of size n x n. Print the sum of the primary diagonal (top-left to bottom-right) and the secondary diagonal (top-right to bottom-left). If n is odd, subtract the center element once (it is counted in both diagonals).",
+        "sampleInput": "3\n1 2 3\n4 5 6\n7 8 9",
+        "sampleOutput": "Primary diagonal sum: 15\nSecondary diagonal sum: 15\nTotal (without double-counting center): 25",
+        "constraints": "1 <= n <= 100. Handle odd n to avoid double-counting the center element.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int n;\n    cin >> n;\n    int mat[100][100];\n    for (int i = 0; i < n; i++)\n        for (int j = 0; j < n; j++)\n            cin >> mat[i][j];\n    int primary = 0, secondary = 0;\n    for (int i = 0; i < n; i++) {\n        primary += mat[i][i];\n        secondary += mat[i][n - 1 - i];\n    }\n    int total = primary + secondary;\n    if (n % 2 == 1) total -= mat[n/2][n/2];\n    cout << \"Primary diagonal sum: \" << primary << endl;\n    cout << \"Secondary diagonal sum: \" << secondary << endl;\n    cout << \"Total (without double-counting center): \" << total << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Find Duplicate in Array",
+        "difficulty": "Medium",
+        "description": "Given an array of n integers where each element is between 1 and n-1, find the duplicate element. There is exactly one duplicate. Do NOT use extra space (no hash map or extra array).",
+        "sampleInput": "5\n1 3 4 2 2",
+        "sampleOutput": "Duplicate: 2",
+        "constraints": "O(n) time, O(1) space. Use the tortoise and hare (Floyd's cycle detection) approach.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int n;\n    cin >> n;\n    int arr[100001];\n    for (int i = 0; i < n; i++) cin >> arr[i];\n    // Floyd's cycle detection\n    int slow = arr[0], fast = arr[0];\n    do {\n        slow = arr[slow];\n        fast = arr[arr[fast]];\n    } while (slow != fast);\n    slow = arr[0];\n    while (slow != fast) {\n        slow = arr[slow];\n        fast = arr[fast];\n    }\n    cout << \"Duplicate: \" << slow << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Spiral Matrix Print",
+        "difficulty": "Hard",
+        "description": "Read a matrix of size m x n and print its elements in spiral order (clockwise: right, down, left, up, repeat).",
+        "sampleInput": "3 4\n1 2 3 4\n5 6 7 8\n9 10 11 12",
+        "sampleOutput": "1 2 3 4 8 12 11 10 9 5 6 7",
+        "constraints": "Handle rectangular matrices (not necessarily square). Use four boundary variables.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int m, n;\n    cin >> m >> n;\n    int mat[100][100];\n    for (int i = 0; i < m; i++)\n        for (int j = 0; j < n; j++)\n            cin >> mat[i][j];\n    int top = 0, bottom = m - 1, left = 0, right = n - 1;\n    while (top <= bottom && left <= right) {\n        for (int j = left; j <= right; j++) cout << mat[top][j] << \" \";\n        top++;\n        for (int i = top; i <= bottom; i++) cout << mat[i][right] << \" \";\n        right--;\n        if (top <= bottom) {\n            for (int j = right; j >= left; j--) cout << mat[bottom][j] << \" \";\n            bottom--;\n        }\n        if (left <= right) {\n            for (int i = bottom; i >= top; i--) cout << mat[i][left] << \" \";\n            left++;\n        }\n    }\n    cout << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Kadane's Algorithm - Maximum Subarray Sum",
+        "difficulty": "Hard",
+        "description": "Given an array of n integers (may include negatives), find the contiguous subarray with the maximum sum. Print the maximum sum and the subarray boundaries.",
+        "sampleInput": "8\n-2 1 -3 4 -1 2 1 -5",
+        "sampleOutput": "Maximum subarray sum: 6\nSubarray: index 3 to 6",
+        "constraints": "Use Kadane's algorithm. O(n) time, O(1) space.",
+        "solution": "#include <iostream>\n#include <climits>\nusing namespace std;\nint main() {\n    int n;\n    cin >> n;\n    int arr[100000];\n    for (int i = 0; i < n; i++) cin >> arr[i];\n    int maxSum = INT_MIN, currentSum = 0;\n    int start = 0, end = 0, tempStart = 0;\n    for (int i = 0; i < n; i++) {\n        currentSum += arr[i];\n        if (currentSum > maxSum) {\n            maxSum = currentSum;\n            start = tempStart;\n            end = i;\n        }\n        if (currentSum < 0) {\n            currentSum = 0;\n            tempStart = i + 1;\n        }\n    }\n    cout << \"Maximum subarray sum: \" << maxSum << endl;\n    cout << \"Subarray: index \" << start << \" to \" << end << endl;\n    return 0;\n}"
+      }
+    ]
+  }
+}

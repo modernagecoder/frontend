@@ -1,0 +1,580 @@
+{
+  "title": "Exception Handling (try, catch, throw)",
+  "slug": "exception-handling-in-cpp",
+  "language": "cpp",
+  "chapter": 19,
+  "difficulty": "Advanced",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 52,
+  "seo": {
+    "title": "C++ Exception Handling - try catch throw, Custom Exceptions, noexcept, RAII | Modern Age Coders",
+    "description": "Master C++ exception handling including try-catch-throw, catch by reference, multiple catch blocks, catch-all, rethrowing, standard exceptions, custom exception classes, noexcept, stack unwinding, exception safety guarantees, and RAII. 54+ interview-focused practice questions.",
+    "keywords": "c++ exception handling, try catch throw c++, custom exception c++, noexcept c++, stack unwinding c++, RAII c++, exception safety c++, stdexcept c++, catch by reference c++, rethrowing exceptions c++, c++ exception interview questions"
+  },
+  "content": {
+    "what": "<h2>What Is Exception Handling in C++?</h2><p><strong>Exception handling</strong> is a mechanism for responding to runtime errors (called exceptions) in a structured, non-local way. Instead of checking return codes at every function call, C++ allows a function to <code>throw</code> an exception when something goes wrong, and a calling function to <code>catch</code> and handle it.</p><p>The three keywords are <code>try</code>, <code>throw</code>, and <code>catch</code>:</p><pre><code>#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\nusing namespace std;\n\ndouble divide(double a, double b) {\n    if (b == 0)\n        throw runtime_error(\"Division by zero\");\n    return a / b;\n}\n\nint main() {\n    try {\n        cout &lt;&lt; divide(10, 2) &lt;&lt; endl;   // 5\n        cout &lt;&lt; divide(10, 0) &lt;&lt; endl;   // Throws!\n        cout &lt;&lt; \"This never executes\" &lt;&lt; endl;\n    } catch (const runtime_error&amp; e) {\n        cout &lt;&lt; \"Error: \" &lt;&lt; e.what() &lt;&lt; endl;\n    }\n    cout &lt;&lt; \"Program continues\" &lt;&lt; endl;\n    return 0;\n}</code></pre><p>When <code>throw</code> is executed, the program immediately stops executing the current function, unwinds the call stack (destroying local objects along the way), and transfers control to the nearest matching <code>catch</code> block. If no catch block matches, <code>std::terminate()</code> is called and the program crashes.</p><p>C++ exceptions can be of any type: integers, strings, standard exception classes, or custom classes. The standard library provides a hierarchy of exception classes in <code>&lt;stdexcept&gt;</code> rooted at <code>std::exception</code>.</p>",
+    "why": "<h2>Why Does Exception Handling Matter?</h2><p>Exception handling separates error-handling logic from normal logic, making code cleaner, safer, and more maintainable. It is essential for writing robust C++ programs.</p><h3>1. Separating Error Handling from Normal Logic</h3><p>Without exceptions, Arjun must check return values after every function call, mixing error checks with business logic. With exceptions, the happy path is clean and all error handling is consolidated in catch blocks.</p><h3>2. Stack Unwinding and RAII</h3><p>When an exception is thrown, C++ guarantees that destructors of all local objects are called as the stack unwinds. This is the foundation of <strong>RAII</strong> (Resource Acquisition Is Initialization), where resources (memory, files, locks) are automatically released by destructors. This is one of the most important C++ concepts and a frequent interview topic.</p><h3>3. Interview and Placement Essential</h3><p>Companies like Google, Microsoft, Amazon, and Flipkart ask about exception safety guarantees (basic, strong, no-throw), the difference between catch by value and catch by reference, stack unwinding behavior, noexcept, and the interaction between exceptions and constructors/destructors.</p><h3>4. Writing Custom Exception Hierarchies</h3><p>Real-world C++ codebases define custom exception classes that derive from <code>std::exception</code>. When Kavya writes a database library, she might define <code>ConnectionError</code>, <code>QueryError</code>, and <code>TimeoutError</code>, all inheriting from a base <code>DatabaseError</code>. Callers can catch specific errors or the base class.</p><h3>5. noexcept and Performance</h3><p>The <code>noexcept</code> specifier tells the compiler that a function will not throw. This enables optimizations (e.g., move operations in STL containers prefer noexcept move constructors) and makes contracts explicit.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Basic try-catch-throw</h3><p>The <code>try</code> block contains code that might throw. The <code>catch</code> block handles the exception. <code>throw</code> creates the exception object.</p><pre><code>try {\n    // Code that might throw\n    throw exception_object;\n} catch (ExceptionType&amp; e) {\n    // Handle the exception\n    cout &lt;&lt; e.what() &lt;&lt; endl;\n}</code></pre><p>Execution flow: when <code>throw</code> executes, control immediately transfers to the matching <code>catch</code>. Code after the <code>throw</code> statement (within the try block) is skipped.</p><h3>2. Catching by Reference</h3><p>Always catch exceptions by <strong>const reference</strong>, not by value:</p><pre><code>// Good: catch by const reference\ncatch (const runtime_error&amp; e) {\n    cout &lt;&lt; e.what() &lt;&lt; endl;\n}\n\n// Bad: catch by value (causes slicing)\ncatch (runtime_error e) {  // Derived exception sliced to base!\n    cout &lt;&lt; e.what() &lt;&lt; endl;\n}</code></pre><p>Catching by value creates a copy and slices derived exception objects to the base type. Catching by reference preserves polymorphism and avoids unnecessary copies.</p><h3>3. Multiple catch Blocks</h3><p>You can have multiple catch blocks for different exception types. They are tried in order, and the first match handles the exception:</p><pre><code>try {\n    // ... code ...\n} catch (const invalid_argument&amp; e) {\n    cout &lt;&lt; \"Invalid argument: \" &lt;&lt; e.what() &lt;&lt; endl;\n} catch (const out_of_range&amp; e) {\n    cout &lt;&lt; \"Out of range: \" &lt;&lt; e.what() &lt;&lt; endl;\n} catch (const exception&amp; e) {\n    cout &lt;&lt; \"Other error: \" &lt;&lt; e.what() &lt;&lt; endl;\n} catch (...) {\n    cout &lt;&lt; \"Unknown error\" &lt;&lt; endl;\n}</code></pre><p><strong>Order matters:</strong> put more specific catches first, more general catches last. If <code>catch(const exception&amp;)</code> comes first, it will catch all standard exceptions, and the more specific catches will never execute.</p><h3>4. Catch-All (...)</h3><p>The catch-all handler <code>catch(...)</code> catches any exception of any type:</p><pre><code>try {\n    throw 42;           // throw an int\n} catch (...) {\n    cout &lt;&lt; \"Caught something\" &lt;&lt; endl;\n}</code></pre><p>This is useful as a last resort but should be used sparingly because you lose information about the exception type.</p><h3>5. Rethrowing Exceptions</h3><p>Inside a catch block, you can rethrow the current exception using <code>throw;</code> (with no operand):</p><pre><code>void process() {\n    try {\n        riskyOperation();\n    } catch (const exception&amp; e) {\n        cout &lt;&lt; \"Logging: \" &lt;&lt; e.what() &lt;&lt; endl;\n        throw;  // Rethrow the SAME exception (preserves derived type)\n    }\n}\n\ntry {\n    process();\n} catch (const exception&amp; e) {\n    cout &lt;&lt; \"Caught rethrown: \" &lt;&lt; e.what() &lt;&lt; endl;\n}</code></pre><p>Using <code>throw;</code> preserves the original exception type. Using <code>throw e;</code> would create a copy and potentially slice the exception.</p><h3>6. Standard Exception Hierarchy</h3><p>The <code>&lt;stdexcept&gt;</code> header provides a hierarchy of exception classes:</p><pre><code>exception (base class)\n  logic_error\n    invalid_argument\n    domain_error\n    length_error\n    out_of_range\n  runtime_error\n    range_error\n    overflow_error\n    underflow_error</code></pre><p>All standard exceptions have a <code>what()</code> method that returns a C-string description. <code>logic_error</code> represents programming errors (precondition violations). <code>runtime_error</code> represents errors that can only be detected at runtime.</p><h3>7. Custom Exception Classes</h3><p>Define custom exceptions by inheriting from <code>std::exception</code> or its subclasses:</p><pre><code>class DatabaseError : public runtime_error {\npublic:\n    DatabaseError(const string&amp; msg) : runtime_error(msg) {}\n};\n\nclass ConnectionError : public DatabaseError {\n    string host;\npublic:\n    ConnectionError(const string&amp; h)\n        : DatabaseError(\"Connection failed to \" + h), host(h) {}\n    string getHost() const { return host; }\n};\n\ntry {\n    throw ConnectionError(\"db.example.com\");\n} catch (const ConnectionError&amp; e) {\n    cout &lt;&lt; e.what() &lt;&lt; \" (host: \" &lt;&lt; e.getHost() &lt;&lt; \")\" &lt;&lt; endl;\n} catch (const DatabaseError&amp; e) {\n    cout &lt;&lt; \"DB error: \" &lt;&lt; e.what() &lt;&lt; endl;\n}</code></pre><h3>8. noexcept Specifier</h3><p>The <code>noexcept</code> specifier declares that a function does not throw exceptions:</p><pre><code>void safeFunction() noexcept {\n    // Guaranteed not to throw\n}\n\nvoid riskyFunction() noexcept(false) {\n    // May throw (default behavior)\n}\n\n// Conditional noexcept\ntemplate&lt;typename T&gt;\nvoid process(T&amp; val) noexcept(noexcept(val.doWork())) {\n    val.doWork();\n}</code></pre><p>If a <code>noexcept</code> function throws, <code>std::terminate()</code> is called immediately. STL containers use <code>noexcept</code> to decide whether to move or copy: <code>vector</code> reallocation prefers <code>noexcept</code> move constructors for exception safety.</p><h3>9. Stack Unwinding</h3><p>When an exception is thrown, the runtime unwinds the call stack, destroying all local objects (in reverse order of construction) for each stack frame between the throw and the matching catch:</p><pre><code>class Resource {\n    string name;\npublic:\n    Resource(string n) : name(n) { cout &lt;&lt; \"Acquired \" &lt;&lt; name &lt;&lt; endl; }\n    ~Resource() { cout &lt;&lt; \"Released \" &lt;&lt; name &lt;&lt; endl; }\n};\n\nvoid inner() {\n    Resource r3(\"C\");\n    throw runtime_error(\"Error in inner\");\n}\n\nvoid outer() {\n    Resource r2(\"B\");\n    inner();\n}\n\nint main() {\n    try {\n        Resource r1(\"A\");\n        outer();\n    } catch (const exception&amp; e) {\n        cout &lt;&lt; e.what() &lt;&lt; endl;\n    }\n}\n// Output: Acquired A, Acquired B, Acquired C,\n//         Released C, Released B, Released A,\n//         Error in inner</code></pre><h3>10. Exception Safety Guarantees</h3><p>C++ code can provide three levels of exception safety:</p><ul><li><strong>No-throw guarantee:</strong> The function never throws. Marked <code>noexcept</code>. Destructors and swap should provide this.</li><li><strong>Strong guarantee:</strong> If an exception is thrown, the state is rolled back to before the function was called (commit-or-rollback). Achieved using copy-and-swap idiom.</li><li><strong>Basic guarantee:</strong> If an exception is thrown, the program is in a valid (but possibly changed) state. No resources are leaked. This is the minimum acceptable level.</li></ul><h3>11. RAII and Exceptions</h3><p>RAII (Resource Acquisition Is Initialization) ties resource lifetime to object lifetime. When an exception causes stack unwinding, RAII objects automatically release their resources:</p><pre><code>class FileHandle {\n    FILE* file;\npublic:\n    FileHandle(const char* name) {\n        file = fopen(name, \"r\");\n        if (!file) throw runtime_error(\"Cannot open file\");\n    }\n    ~FileHandle() {\n        if (file) fclose(file);  // Always closes, even during exception\n    }\n};\n\nvoid process() {\n    FileHandle f(\"data.txt\");  // Opened\n    // ... code that might throw ...\n    // f's destructor runs even if an exception is thrown\n}</code></pre><p>Smart pointers (<code>unique_ptr</code>, <code>shared_ptr</code>), <code>lock_guard</code>, <code>fstream</code>, and <code>vector</code> all use RAII. This is why C++ rarely needs <code>finally</code> blocks (unlike Java).</p>",
+    "codeExamples": [
+    {
+      "title": "Basic try-catch-throw",
+      "code": "#include <iostream>\n#include <stdexcept>\nusing namespace std;\n\ndouble divide(double a, double b) {\n    if (b == 0)\n        throw runtime_error(\"Division by zero\");\n    return a / b;\n}\n\nint main() {\n    try {\n        cout << divide(10, 2) << endl;\n        cout << divide(10, 0) << endl;\n        cout << \"This line is skipped\" << endl;\n    } catch (const runtime_error& e) {\n        cout << \"Caught: \" << e.what() << endl;\n    }\n    cout << \"Program continues normally\" << endl;\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "The first <code>divide(10, 2)</code> succeeds and prints 5. The second <code>divide(10, 0)</code> throws a <code>runtime_error</code>. Execution jumps to the catch block, skipping the third print. After the catch block, the program continues normally.",
+      "output": "5\nCaught: Division by zero\nProgram continues normally"
+    },
+    {
+      "title": "Multiple catch Blocks and Catch-All",
+      "code": "#include <iostream>\n#include <stdexcept>\nusing namespace std;\n\nvoid test(int code) {\n    switch (code) {\n        case 1: throw invalid_argument(\"Bad argument\");\n        case 2: throw out_of_range(\"Out of range\");\n        case 3: throw runtime_error(\"Runtime error\");\n        case 4: throw 42;\n    }\n}\n\nint main() {\n    for (int i = 1; i <= 4; i++) {\n        try {\n            test(i);\n        } catch (const invalid_argument& e) {\n            cout << \"invalid_argument: \" << e.what() << endl;\n        } catch (const out_of_range& e) {\n            cout << \"out_of_range: \" << e.what() << endl;\n        } catch (const exception& e) {\n            cout << \"exception: \" << e.what() << endl;\n        } catch (...) {\n            cout << \"Unknown exception caught\" << endl;\n        }\n    }\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "Each exception type is caught by the most specific matching handler. <code>invalid_argument</code> and <code>out_of_range</code> are caught by their specific handlers. <code>runtime_error</code> is caught by <code>const exception&amp;</code> (base class). The integer 42 is caught by <code>catch(...)</code>.",
+      "output": "invalid_argument: Bad argument\nout_of_range: Out of range\nexception: Runtime error\nUnknown exception caught"
+    },
+    {
+      "title": "Custom Exception Class Hierarchy",
+      "code": "#include <iostream>\n#include <stdexcept>\n#include <string>\nusing namespace std;\n\nclass AppError : public runtime_error {\npublic:\n    AppError(const string& msg) : runtime_error(msg) {}\n};\n\nclass NetworkError : public AppError {\n    int code;\npublic:\n    NetworkError(const string& msg, int c)\n        : AppError(msg), code(c) {}\n    int getCode() const { return code; }\n};\n\nclass AuthError : public AppError {\n    string user;\npublic:\n    AuthError(const string& u)\n        : AppError(\"Authentication failed for \" + u), user(u) {}\n    string getUser() const { return user; }\n};\n\nvoid authenticate(const string& user, const string& pass) {\n    if (user.empty()) throw NetworkError(\"No connection\", 503);\n    if (pass != \"secret\") throw AuthError(user);\n    cout << user << \" authenticated successfully\" << endl;\n}\n\nint main() {\n    string users[] = {\"\", \"Arjun\", \"Kavya\"};\n    string passes[] = {\"x\", \"wrong\", \"secret\"};\n\n    for (int i = 0; i < 3; i++) {\n        try {\n            authenticate(users[i], passes[i]);\n        } catch (const NetworkError& e) {\n            cout << \"Network (\" << e.getCode() << \"): \" << e.what() << endl;\n        } catch (const AuthError& e) {\n            cout << \"Auth failed: \" << e.getUser() << \" - \" << e.what() << endl;\n        } catch (const AppError& e) {\n            cout << \"App error: \" << e.what() << endl;\n        }\n    }\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "Custom exception hierarchy: <code>AppError</code> derives from <code>runtime_error</code>. <code>NetworkError</code> and <code>AuthError</code> derive from <code>AppError</code>. Each carries context-specific data (error code, username). Catch blocks are ordered most specific to least specific.",
+      "output": "Network (503): No connection\nAuth failed: Arjun - Authentication failed for Arjun\nKavya authenticated successfully"
+    },
+    {
+      "title": "Stack Unwinding and RAII",
+      "code": "#include <iostream>\n#include <stdexcept>\n#include <string>\nusing namespace std;\n\nclass Resource {\n    string name;\npublic:\n    Resource(string n) : name(n) {\n        cout << \"  Acquired: \" << name << endl;\n    }\n    ~Resource() {\n        cout << \"  Released: \" << name << endl;\n    }\n};\n\nvoid level3() {\n    Resource r(\"Database Connection\");\n    throw runtime_error(\"Query failed\");\n}\n\nvoid level2() {\n    Resource r(\"File Handle\");\n    level3();\n}\n\nvoid level1() {\n    Resource r(\"Mutex Lock\");\n    level2();\n}\n\nint main() {\n    try {\n        cout << \"Starting...\" << endl;\n        level1();\n    } catch (const exception& e) {\n        cout << \"Caught: \" << e.what() << endl;\n    }\n    cout << \"All resources released\" << endl;\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "When the exception is thrown in <code>level3()</code>, the stack unwinds through <code>level2()</code> and <code>level1()</code>. Each <code>Resource</code> destructor runs automatically, releasing resources in reverse order. This is RAII: resource lifetime is tied to object lifetime.",
+      "output": "Starting...\n  Acquired: Mutex Lock\n  Acquired: File Handle\n  Acquired: Database Connection\n  Released: Database Connection\n  Released: File Handle\n  Released: Mutex Lock\nCaught: Query failed\nAll resources released"
+    },
+    {
+      "title": "Rethrowing Exceptions",
+      "code": "#include <iostream>\n#include <stdexcept>\nusing namespace std;\n\nvoid inner() {\n    throw runtime_error(\"Original error\");\n}\n\nvoid middle() {\n    try {\n        inner();\n    } catch (const exception& e) {\n        cout << \"Middle caught: \" << e.what() << endl;\n        cout << \"Logging and rethrowing...\" << endl;\n        throw;  // Rethrow preserves the original exception\n    }\n}\n\nint main() {\n    try {\n        middle();\n    } catch (const exception& e) {\n        cout << \"Main caught: \" << e.what() << endl;\n    }\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "<code>middle()</code> catches the exception, logs it, and rethrows using <code>throw;</code> (no operand). The original exception is preserved and caught again in <code>main()</code>. Using <code>throw e;</code> instead would create a copy, potentially slicing derived exceptions.",
+      "output": "Middle caught: Original error\nLogging and rethrowing...\nMain caught: Original error"
+    },
+    {
+      "title": "noexcept and Its Effect",
+      "code": "#include <iostream>\n#include <type_traits>\nusing namespace std;\n\nvoid safeFunc() noexcept {\n    cout << \"Safe function (noexcept)\" << endl;\n}\n\nvoid riskyFunc() {\n    cout << \"Risky function (may throw)\" << endl;\n}\n\nclass MyClass {\npublic:\n    MyClass() noexcept { cout << \"Constructed\" << endl; }\n    ~MyClass() noexcept { cout << \"Destroyed\" << endl; }\n    MyClass(MyClass&&) noexcept { cout << \"Move constructed\" << endl; }\n};\n\nint main() {\n    cout << \"safeFunc noexcept: \" << noexcept(safeFunc()) << endl;\n    cout << \"riskyFunc noexcept: \" << noexcept(riskyFunc()) << endl;\n\n    safeFunc();\n    riskyFunc();\n\n    MyClass a;\n    MyClass b = move(a);\n\n    cout << \"is_nothrow_move_constructible: \"\n         << is_nothrow_move_constructible<MyClass>::value << endl;\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "The <code>noexcept</code> operator (used in expressions) returns true if the expression cannot throw. <code>noexcept</code> on functions guarantees no exceptions. STL uses <code>is_nothrow_move_constructible</code> to decide between move and copy during reallocation.",
+      "output": "safeFunc noexcept: 1\nriskyFunc noexcept: 0\nSafe function (noexcept)\nRisky function (may throw)\nConstructed\nMove constructed\nis_nothrow_move_constructible: 1\nDestroyed\nDestroyed"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Catching Exceptions by Value (Slicing)",
+      "wrongCode": "class Base : public exception {\npublic:\n    const char* what() const noexcept override { return \"Base\"; }\n};\nclass Derived : public Base {\npublic:\n    const char* what() const noexcept override { return \"Derived\"; }\n};\n\ntry {\n    throw Derived();\n} catch (Base e) {  // Caught by VALUE: slicing!\n    cout << e.what() << endl;  // Prints \"Base\", not \"Derived\"!\n}",
+      "error": "Prints \"Base\" instead of \"Derived\". The Derived exception is sliced to Base when caught by value.",
+      "correctCode": "try {\n    throw Derived();\n} catch (const Base& e) {  // Caught by REFERENCE: no slicing\n    cout << e.what() << endl;  // Prints \"Derived\" (correct)\n}",
+      "explanation": "Always catch exceptions by const reference. Catching by value creates a copy that slices off the derived part, losing polymorphism and context-specific data."
+    },
+    {
+      "title": "Wrong Order of catch Blocks (Base Before Derived)",
+      "wrongCode": "try {\n    throw out_of_range(\"Index error\");\n} catch (const exception& e) {  // Catches everything!\n    cout << \"exception: \" << e.what() << endl;\n} catch (const out_of_range& e) {  // Never reached!\n    cout << \"out_of_range: \" << e.what() << endl;\n}",
+      "error": "The out_of_range handler is never reached because catch(const exception&) matches first. Some compilers will warn about this.",
+      "correctCode": "try {\n    throw out_of_range(\"Index error\");\n} catch (const out_of_range& e) {  // Specific first\n    cout << \"out_of_range: \" << e.what() << endl;\n} catch (const exception& e) {  // General last\n    cout << \"exception: \" << e.what() << endl;\n}",
+      "explanation": "catch blocks are tried in order. Put more specific (derived) types first and more general (base) types last. Otherwise, the general handler catches everything and the specific ones are unreachable."
+    },
+    {
+      "title": "Throwing in a Destructor",
+      "wrongCode": "class Bad {\npublic:\n    ~Bad() {\n        throw runtime_error(\"Error in destructor\");\n        // If this destructor runs during stack unwinding\n        // from another exception, std::terminate() is called!\n    }\n};",
+      "error": "If the destructor throws during stack unwinding (while another exception is active), std::terminate() is called and the program crashes. Destructors should never throw.",
+      "correctCode": "class Good {\npublic:\n    ~Good() noexcept {\n        try {\n            // cleanup that might fail\n        } catch (...) {\n            // Swallow the exception, log it if possible\n        }\n    }\n};",
+      "explanation": "Destructors should be <code>noexcept</code> (they are implicitly noexcept in C++11+). If cleanup can fail, catch and handle the exception inside the destructor. Never let an exception escape a destructor."
+    },
+    {
+      "title": "Using throw e Instead of throw for Rethrowing",
+      "wrongCode": "class DetailedError : public runtime_error {\npublic:\n    DetailedError(const string& msg) : runtime_error(msg) {}\n    const char* what() const noexcept override { return \"Detailed!\"; }\n};\n\ntry {\n    throw DetailedError(\"test\");\n} catch (const runtime_error& e) {\n    throw e;  // Creates a COPY, slices to runtime_error!\n}",
+      "error": "throw e creates a copy of e as runtime_error, losing the DetailedError type. The rethrown exception is now a plain runtime_error.",
+      "correctCode": "try {\n    throw DetailedError(\"test\");\n} catch (const runtime_error& e) {\n    throw;  // Rethrows the ORIGINAL exception, preserving type\n}",
+      "explanation": "Use <code>throw;</code> (no operand) to rethrow the current exception. This preserves the original dynamic type. <code>throw e;</code> creates a new exception from the caught reference, which slices to the catch parameter type."
+    },
+    {
+      "title": "Not Catching Exceptions (Program Terminates)",
+      "wrongCode": "void doWork() {\n    throw runtime_error(\"Unhandled!\");\n}\n\nint main() {\n    doWork();  // No try-catch: program crashes!\n    return 0;\n}",
+      "error": "If no catch block matches a thrown exception, std::terminate() is called and the program crashes with an unhandled exception error.",
+      "correctCode": "void doWork() {\n    throw runtime_error(\"Handled now!\");\n}\n\nint main() {\n    try {\n        doWork();\n    } catch (const exception& e) {\n        cout << \"Caught: \" << e.what() << endl;\n    }\n    return 0;\n}",
+      "explanation": "Every <code>throw</code> must have a matching <code>catch</code> somewhere in the call stack. If there is no matching catch block, the program calls <code>std::terminate()</code> and crashes. Always wrap risky operations in try-catch at appropriate levels."
+    }
+  ],
+  "summary": [
+    "Exception handling uses three keywords: try (wraps code that might throw), throw (creates an exception), and catch (handles the exception).",
+    "When throw executes, the stack unwinds: local objects are destroyed in reverse order, and control transfers to the nearest matching catch block.",
+    "Always catch exceptions by const reference (const exception&) to avoid slicing and unnecessary copies.",
+    "Multiple catch blocks are tried in order. Put specific (derived) types first and general (base) types last. catch(...) is the catch-all handler.",
+    "Use throw; (no operand) to rethrow the current exception. throw e; creates a copy and potentially slices derived exceptions.",
+    "The standard exception hierarchy is rooted at std::exception with logic_error and runtime_error as key branches. Use <stdexcept> for standard exception classes.",
+    "Custom exception classes should inherit from std::exception or its subclasses and override what() to provide descriptive error messages.",
+    "noexcept declares that a function will not throw. If a noexcept function throws, std::terminate() is called. STL prefers noexcept move constructors.",
+    "RAII ties resource lifetime to object lifetime. Stack unwinding during exceptions automatically calls destructors, releasing resources. This is why C++ does not need finally blocks.",
+    "Exception safety guarantees: no-throw (never throws, marked noexcept), strong (commit-or-rollback), basic (valid state, no leaks). Destructors and swap must provide no-throw.",
+    "Never throw in destructors. If a destructor throws during stack unwinding, std::terminate() is called.",
+    "Exception handling separates error logic from normal logic, making code cleaner and more maintainable than return-code error handling."
+  ]
+  },
+  "relatedTopics": ["templates-in-cpp", "stl-containers"],
+  "practice": {
+    "totalQuestions": 52,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\nusing namespace std;\nint main() {\n    try {\n        cout &lt;&lt; \"A\" &lt;&lt; endl;\n        throw runtime_error(\"error\");\n        cout &lt;&lt; \"B\" &lt;&lt; endl;\n    } catch (const runtime_error&amp; e) {\n        cout &lt;&lt; \"C: \" &lt;&lt; e.what() &lt;&lt; endl;\n    }\n    cout &lt;&lt; \"D\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "After throw, execution skips to the catch block. Code after throw in the try block is skipped.",
+        "answer": "<code>A</code><br><code>C: error</code><br><code>D</code>",
+        "explanation": "\"A\" prints before the throw. The throw transfers control to the catch block, skipping \"B\". The catch block prints \"C: error\". After the catch block, \"D\" prints."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    try {\n        throw 42;\n    } catch (int e) {\n        cout &lt;&lt; \"Caught: \" &lt;&lt; e &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "You can throw any type in C++, including integers.",
+        "answer": "<code>Caught: 42</code>",
+        "explanation": "C++ allows throwing any type. <code>throw 42;</code> throws an <code>int</code>. The <code>catch(int e)</code> handler catches it and prints 42."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\nusing namespace std;\nint main() {\n    try {\n        throw out_of_range(\"index 10\");\n    } catch (const exception&amp; e) {\n        cout &lt;&lt; e.what() &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "out_of_range inherits from exception. catch(const exception&) catches it.",
+        "answer": "<code>index 10</code>",
+        "explanation": "<code>out_of_range</code> derives from <code>logic_error</code> which derives from <code>exception</code>. The <code>catch(const exception&amp;)</code> handler catches any standard exception and calls <code>what()</code>."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    try {\n        cout &lt;&lt; \"Before\" &lt;&lt; endl;\n        throw \"Error message\";\n    } catch (const char* msg) {\n        cout &lt;&lt; msg &lt;&lt; endl;\n    }\n    cout &lt;&lt; \"After\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "A string literal \"Error message\" is of type const char*.",
+        "answer": "<code>Before</code><br><code>Error message</code><br><code>After</code>",
+        "explanation": "The string literal is caught by <code>catch(const char*)</code>. After the catch block, execution continues with \"After\"."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    try {\n        try {\n            throw 100;\n        } catch (int e) {\n            cout &lt;&lt; \"Inner: \" &lt;&lt; e &lt;&lt; endl;\n            throw;  // Rethrow\n        }\n    } catch (int e) {\n        cout &lt;&lt; \"Outer: \" &lt;&lt; e &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "throw; rethrows the same exception to the outer try-catch.",
+        "answer": "<code>Inner: 100</code><br><code>Outer: 100</code>",
+        "explanation": "The inner catch handles the exception and rethrows it. The outer catch catches the rethrown exception. Both print 100."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\nusing namespace std;\nvoid func(int x) {\n    if (x &lt; 0) throw invalid_argument(\"Negative\");\n    if (x == 0) throw runtime_error(\"Zero\");\n    cout &lt;&lt; \"OK: \" &lt;&lt; x &lt;&lt; endl;\n}\nint main() {\n    int vals[] = {5, 0, -1};\n    for (int i = 0; i &lt; 3; i++) {\n        try {\n            func(vals[i]);\n        } catch (const invalid_argument&amp; e) {\n            cout &lt;&lt; \"Invalid: \" &lt;&lt; e.what() &lt;&lt; endl;\n        } catch (const runtime_error&amp; e) {\n            cout &lt;&lt; \"Runtime: \" &lt;&lt; e.what() &lt;&lt; endl;\n        }\n    }\n    return 0;\n}</code></pre>",
+        "hint": "5 is valid. 0 throws runtime_error. -1 throws invalid_argument.",
+        "answer": "<code>OK: 5</code><br><code>Runtime: Zero</code><br><code>Invalid: Negative</code>",
+        "explanation": "First call (5) succeeds. Second call (0) throws <code>runtime_error</code>. Third call (-1) throws <code>invalid_argument</code>. Each is caught by the appropriate handler."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Obj {\n    string name;\npublic:\n    Obj(string n) : name(n) { cout &lt;&lt; name &lt;&lt; \" created\" &lt;&lt; endl; }\n    ~Obj() { cout &lt;&lt; name &lt;&lt; \" destroyed\" &lt;&lt; endl; }\n};\nvoid bar() {\n    Obj o2(\"B\");\n    throw 1;\n}\nvoid foo() {\n    Obj o1(\"A\");\n    bar();\n}\nint main() {\n    try {\n        foo();\n    } catch (int) {\n        cout &lt;&lt; \"Caught\" &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "Stack unwinding: B is destroyed first, then A, as the exception propagates up.",
+        "answer": "<code>A created</code><br><code>B created</code><br><code>B destroyed</code><br><code>A destroyed</code><br><code>Caught</code>",
+        "explanation": "Objects are destroyed in reverse construction order during stack unwinding. B is destroyed first (in bar), then A (in foo), then the catch block in main handles the exception."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    try {\n        throw 3.14;\n    } catch (int e) {\n        cout &lt;&lt; \"int: \" &lt;&lt; e &lt;&lt; endl;\n    } catch (double e) {\n        cout &lt;&lt; \"double: \" &lt;&lt; e &lt;&lt; endl;\n    } catch (...) {\n        cout &lt;&lt; \"unknown\" &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "3.14 is a double. catch(int) does not match because there is no implicit conversion for exception matching.",
+        "answer": "<code>double: 3.14</code>",
+        "explanation": "Exception matching does not perform implicit type conversions (unlike function overloading). <code>3.14</code> is a <code>double</code>, so <code>catch(int)</code> does not match. <code>catch(double)</code> matches."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\nusing namespace std;\nvoid process() {\n    try {\n        throw runtime_error(\"Error\");\n    } catch (const exception&amp; e) {\n        cout &lt;&lt; \"Caught: \" &lt;&lt; e.what() &lt;&lt; endl;\n    }\n    cout &lt;&lt; \"After catch in process\" &lt;&lt; endl;\n}\nint main() {\n    try {\n        process();\n        cout &lt;&lt; \"After process\" &lt;&lt; endl;\n    } catch (const exception&amp; e) {\n        cout &lt;&lt; \"Main caught: \" &lt;&lt; e.what() &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "The exception is caught inside process(). It does not propagate to main().",
+        "answer": "<code>Caught: Error</code><br><code>After catch in process</code><br><code>After process</code>",
+        "explanation": "The exception is caught inside <code>process()</code>, not rethrown. <code>process()</code> continues after its catch block. <code>main()</code>'s catch block is never entered because no exception escapes <code>process()</code>."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\nusing namespace std;\nclass Base : public exception {\npublic:\n    const char* what() const noexcept override { return \"Base\"; }\n};\nclass Derived : public Base {\npublic:\n    const char* what() const noexcept override { return \"Derived\"; }\n};\nint main() {\n    try {\n        throw Derived();\n    } catch (const Base&amp; e) {\n        cout &lt;&lt; e.what() &lt;&lt; endl;\n    }\n    try {\n        throw Derived();\n    } catch (Base e) {\n        cout &lt;&lt; e.what() &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "First catch is by reference (polymorphic). Second catch is by value (slicing).",
+        "answer": "<code>Derived</code><br><code>Base</code>",
+        "explanation": "Catching by reference preserves the dynamic type, so <code>what()</code> returns \"Derived\". Catching by value slices the exception to <code>Base</code>, so <code>what()</code> returns \"Base\". This is why you should always catch by reference."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Guard {\n    string name;\npublic:\n    Guard(string n) : name(n) { cout &lt;&lt; \"Lock \" &lt;&lt; name &lt;&lt; endl; }\n    ~Guard() { cout &lt;&lt; \"Unlock \" &lt;&lt; name &lt;&lt; endl; }\n};\nvoid c() { Guard g(\"C\"); throw 1; }\nvoid b() { Guard g(\"B\"); c(); }\nvoid a() { Guard g(\"A\"); b(); }\nint main() {\n    try { a(); }\n    catch (int) { cout &lt;&lt; \"Handled\" &lt;&lt; endl; }\n    return 0;\n}</code></pre>",
+        "hint": "Three levels of function calls, each with a Guard. Exception in c() unwinds through b() and a().",
+        "answer": "<code>Lock A</code><br><code>Lock B</code><br><code>Lock C</code><br><code>Unlock C</code><br><code>Unlock B</code><br><code>Unlock A</code><br><code>Handled</code>",
+        "explanation": "Guards are acquired as we go deeper: A, B, C. When the exception is thrown in c(), the stack unwinds, releasing guards in reverse: C, B, A. Then the catch in main handles the exception."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\nusing namespace std;\nclass MyErr : public runtime_error {\n    int code;\npublic:\n    MyErr(int c, const string&amp; m) : runtime_error(m), code(c) {}\n    int getCode() const { return code; }\n};\nvoid test(int x) {\n    if (x == 1) throw MyErr(404, \"Not Found\");\n    if (x == 2) throw MyErr(500, \"Server Error\");\n    if (x == 3) throw runtime_error(\"Generic\");\n}\nint main() {\n    for (int i = 1; i &lt;= 3; i++) {\n        try {\n            test(i);\n        } catch (const MyErr&amp; e) {\n            cout &lt;&lt; e.getCode() &lt;&lt; \": \" &lt;&lt; e.what() &lt;&lt; endl;\n        } catch (const runtime_error&amp; e) {\n            cout &lt;&lt; \"runtime: \" &lt;&lt; e.what() &lt;&lt; endl;\n        }\n    }\n    return 0;\n}</code></pre>",
+        "hint": "MyErr is more specific than runtime_error. Catch order: MyErr first, runtime_error second.",
+        "answer": "<code>404: Not Found</code><br><code>500: Server Error</code><br><code>runtime: Generic</code>",
+        "explanation": "Tests 1 and 2 throw <code>MyErr</code>, caught by the specific handler. Test 3 throws <code>runtime_error</code>, which does not match <code>MyErr</code> but matches <code>runtime_error</code>."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nvoid func() noexcept {\n    cout &lt;&lt; \"In noexcept function\" &lt;&lt; endl;\n}\nint main() {\n    cout &lt;&lt; noexcept(func()) &lt;&lt; endl;\n    cout &lt;&lt; noexcept(throw 1) &lt;&lt; endl;\n    func();\n    return 0;\n}</code></pre>",
+        "hint": "noexcept(expr) returns true if expr cannot throw. func() is noexcept. throw 1 is not.",
+        "answer": "<code>1</code><br><code>0</code><br><code>In noexcept function</code>",
+        "explanation": "<code>noexcept(func())</code> returns 1 (true) because <code>func</code> is declared <code>noexcept</code>. <code>noexcept(throw 1)</code> returns 0 (false) because throw always throws. Then <code>func()</code> executes normally."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\nusing namespace std;\nint main() {\n    try {\n        throw invalid_argument(\"bad input\");\n    } catch (const invalid_argument&amp; e) {\n        cout &lt;&lt; e.what() &lt;&lt; endl;\n    }\n    cout &lt;&lt; \"done\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "invalid_argument is caught by the matching handler. Program continues after catch.",
+        "answer": "<code>bad input</code><br><code>done</code>",
+        "explanation": "The <code>invalid_argument</code> exception is caught. <code>what()</code> returns \"bad input\". After the catch block, the program continues with \"done\"."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Cleanup {\n    string name;\npublic:\n    Cleanup(string n) : name(n) { cout &lt;&lt; \"+\" &lt;&lt; name &lt;&lt; \" \"; }\n    ~Cleanup() { cout &lt;&lt; \"-\" &lt;&lt; name &lt;&lt; \" \"; }\n};\nvoid risky() {\n    Cleanup c(\"R\");\n    throw 1;\n}\nint main() {\n    Cleanup c(\"M\");\n    try {\n        risky();\n    } catch (int) {\n        cout &lt;&lt; \"caught \";\n    }\n    cout &lt;&lt; \"end\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "M is created in main. R is created in risky, then destroyed during unwinding. M is destroyed at end of main.",
+        "answer": "<code>+M +R -R caught end -M </code>",
+        "explanation": "M is created. R is created in risky(). When throw executes, R is destroyed (stack unwinding). The catch handles the exception. At end of main, M is destroyed."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\nusing namespace std;\nint main() {\n    try {\n        try {\n            throw runtime_error(\"deep\");\n        } catch (const logic_error&amp; e) {\n            cout &lt;&lt; \"logic: \" &lt;&lt; e.what() &lt;&lt; endl;\n        }\n    } catch (const runtime_error&amp; e) {\n        cout &lt;&lt; \"runtime: \" &lt;&lt; e.what() &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "The inner catch expects logic_error but receives runtime_error. They are different branches of the exception hierarchy.",
+        "answer": "<code>runtime: deep</code>",
+        "explanation": "<code>runtime_error</code> does not inherit from <code>logic_error</code>. The inner catch does not match. The exception propagates to the outer try-catch, where <code>catch(const runtime_error&amp;)</code> matches."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\nusing namespace std;\nclass MyEx : public runtime_error {\n    int code;\npublic:\n    MyEx(int c) : runtime_error(\"Error \" + to_string(c)), code(c) {}\n    int getCode() const { return code; }\n};\nvoid test() {\n    try {\n        throw MyEx(404);\n    } catch (const runtime_error&amp; e) {\n        cout &lt;&lt; e.what() &lt;&lt; endl;\n        throw;\n    }\n}\nint main() {\n    try {\n        test();\n    } catch (const MyEx&amp; e) {\n        cout &lt;&lt; \"Code: \" &lt;&lt; e.getCode() &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "test catches as runtime_error&, logs, rethrows. main catches as MyEx&. throw; preserves the original type.",
+        "answer": "<code>Error 404</code><br><code>Code: 404</code>",
+        "explanation": "<code>test()</code> catches as <code>runtime_error&amp;</code> and prints the message. <code>throw;</code> rethrows the original <code>MyEx</code> (type preserved). <code>main()</code> catches it as <code>MyEx&amp;</code> and accesses <code>getCode()</code>."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What are the three keywords used for exception handling in C++?",
+        "hint": "Think about wrapping code, creating exceptions, and handling them.",
+        "answer": "try (wraps code that might throw), throw (creates and throws an exception), and catch (catches and handles the exception).",
+        "explanation": "The <code>try</code> block contains code that might throw. <code>throw</code> creates the exception object and transfers control. <code>catch</code> handles the exception. Code after throw in the try block is skipped."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why should you catch exceptions by const reference instead of by value?",
+        "hint": "Think about what happens to a derived exception when caught as a base class value.",
+        "answer": "Catching by value creates a copy and slices derived exceptions to the base type, losing polymorphism and context data. Catching by const reference preserves the original exception type and avoids unnecessary copies.",
+        "explanation": "If you throw a <code>Derived</code> exception and catch it as <code>Base e</code> (by value), the Derived part is sliced off. <code>e.what()</code> returns the Base message. Catching as <code>const Base&amp; e</code> preserves the Derived type."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    try {\n        cout &lt;&lt; \"A\" &lt;&lt; endl;\n    } catch (...) {\n        cout &lt;&lt; \"B\" &lt;&lt; endl;\n    }\n    cout &lt;&lt; \"C\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "No exception is thrown. The catch block is skipped.",
+        "answer": "<code>A</code><br><code>C</code>",
+        "explanation": "No exception is thrown, so the try block executes normally and the catch block is skipped entirely. Execution continues with \"C\"."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    try {\n        throw \"Ravi\";\n    } catch (const char* name) {\n        cout &lt;&lt; \"Hello, \" &lt;&lt; name &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "String literals are of type const char*. The catch matches this type.",
+        "answer": "<code>Hello, Ravi</code>",
+        "explanation": "The string literal \"Ravi\" is of type <code>const char*</code>. The catch block receives it and prints the greeting."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\nusing namespace std;\nint safeDivide(int a, int b) {\n    if (b == 0) throw domain_error(\"Division by zero\");\n    return a / b;\n}\nint main() {\n    try {\n        cout &lt;&lt; safeDivide(10, 2) &lt;&lt; endl;\n        cout &lt;&lt; safeDivide(10, 0) &lt;&lt; endl;\n    } catch (const domain_error&amp; e) {\n        cout &lt;&lt; e.what() &lt;&lt; endl;\n    }\n    try {\n        cout &lt;&lt; safeDivide(15, 3) &lt;&lt; endl;\n    } catch (const domain_error&amp; e) {\n        cout &lt;&lt; e.what() &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "First try: 10/2 succeeds, 10/0 throws. Second try: 15/3 succeeds.",
+        "answer": "<code>5</code><br><code>Division by zero</code><br><code>5</code>",
+        "explanation": "First try: <code>10/2=5</code> prints. <code>10/0</code> throws, caught by the handler. Second try: <code>15/3=5</code> prints normally. Each try-catch is independent."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    try {\n        try {\n            throw 10;\n        } catch (int e) {\n            cout &lt;&lt; \"Inner: \" &lt;&lt; e &lt;&lt; endl;\n            throw (e + 5);  // Throw new exception\n        }\n    } catch (int e) {\n        cout &lt;&lt; \"Outer: \" &lt;&lt; e &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "throw (e + 5) throws a NEW exception with value 15, not a rethrow.",
+        "answer": "<code>Inner: 10</code><br><code>Outer: 15</code>",
+        "explanation": "The inner catch receives 10. <code>throw (e + 5)</code> throws a new exception with value 15 (not a rethrow). The outer catch receives 15."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\nusing namespace std;\nvoid level2() {\n    throw runtime_error(\"Deep error\");\n}\nvoid level1() {\n    level2();\n}\nint main() {\n    try {\n        level1();\n    } catch (const exception&amp; e) {\n        cout &lt;&lt; e.what() &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "The exception thrown in level2 propagates through level1 (which has no catch) to main.",
+        "answer": "<code>Deep error</code>",
+        "explanation": "The exception propagates up the call stack. <code>level2()</code> throws, <code>level1()</code> has no try-catch so it propagates further, and <code>main()</code>'s catch block handles it."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Resource {\n    int id;\npublic:\n    Resource(int i) : id(i) { cout &lt;&lt; \"R\" &lt;&lt; id &lt;&lt; \"+ \"; }\n    ~Resource() { cout &lt;&lt; \"R\" &lt;&lt; id &lt;&lt; \"- \"; }\n};\nvoid func() {\n    Resource r1(1), r2(2);\n    throw 0;\n    Resource r3(3);\n}\nint main() {\n    try {\n        Resource r0(0);\n        func();\n    } catch (int) {\n        cout &lt;&lt; \"caught \"; \n    }\n    cout &lt;&lt; \"end\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "r3 is never created (after throw). r2 and r1 are destroyed during unwinding, then r0.",
+        "answer": "<code>R0+ R1+ R2+ R2- R1- R0- caught end</code>",
+        "explanation": "R0, R1, R2 are created. The throw skips R3. Stack unwinding destroys R2, R1 (in func), then R0 (in main's try). Then the catch handles the exception."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\nusing namespace std;\nclass AppError : public runtime_error {\npublic:\n    AppError(const string&amp; msg) : runtime_error(msg) {}\n};\nvoid step3() { throw AppError(\"Step 3 failed\"); }\nvoid step2() {\n    try { step3(); }\n    catch (const AppError&amp; e) {\n        cout &lt;&lt; \"step2: \" &lt;&lt; e.what() &lt;&lt; endl;\n        throw;  // Rethrow\n    }\n}\nvoid step1() {\n    try { step2(); }\n    catch (const runtime_error&amp; e) {\n        cout &lt;&lt; \"step1: \" &lt;&lt; e.what() &lt;&lt; endl;\n    }\n}\nint main() {\n    step1();\n    cout &lt;&lt; \"Done\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "step3 throws AppError. step2 catches, logs, rethrows. step1 catches as runtime_error.",
+        "answer": "<code>step2: Step 3 failed</code><br><code>step1: Step 3 failed</code><br><code>Done</code>",
+        "explanation": "<code>step2</code> catches the <code>AppError</code>, logs it, and rethrows. <code>step1</code> catches it as <code>runtime_error</code> (base class). The rethrown exception preserves its <code>AppError</code> type and message."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\nusing namespace std;\nint convert(const string&amp; s) {\n    try {\n        int val = stoi(s);\n        if (val &lt; 0) throw domain_error(\"Negative\");\n        return val;\n    } catch (const invalid_argument&amp;) {\n        throw runtime_error(\"Not a number: \" + s);\n    }\n}\nint main() {\n    string inputs[] = {\"42\", \"abc\", \"-5\"};\n    for (int i = 0; i &lt; 3; i++) {\n        try {\n            cout &lt;&lt; convert(inputs[i]) &lt;&lt; endl;\n        } catch (const domain_error&amp; e) {\n            cout &lt;&lt; \"Domain: \" &lt;&lt; e.what() &lt;&lt; endl;\n        } catch (const runtime_error&amp; e) {\n            cout &lt;&lt; \"Runtime: \" &lt;&lt; e.what() &lt;&lt; endl;\n        }\n    }\n    return 0;\n}</code></pre>",
+        "hint": "\"42\" succeeds. \"abc\" makes stoi throw invalid_argument, which is caught and rethrown as runtime_error. \"-5\" throws domain_error.",
+        "answer": "<code>42</code><br><code>Runtime: Not a number: abc</code><br><code>Domain: Negative</code>",
+        "explanation": "\"42\" converts successfully. \"abc\" causes <code>stoi</code> to throw <code>invalid_argument</code>, which is caught and rethrown as <code>runtime_error</code>. \"-5\" converts to -5 but fails the negativity check, throwing <code>domain_error</code>."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which keyword is used to throw an exception in C++?",
+        "options": {"A": "raise", "B": "throw", "C": "error", "D": "except"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> C++ uses <code>throw</code> to create and throw exceptions. Python uses <code>raise</code> (A). <code>error</code> and <code>except</code> are not C++ keywords."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What happens if an exception is thrown but no catch block matches?",
+        "options": {"A": "The program continues normally", "B": "The exception is silently ignored", "C": "std::terminate() is called and the program crashes", "D": "The program restarts"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> If no matching catch block is found, the runtime calls <code>std::terminate()</code>, which by default calls <code>std::abort()</code>, crashing the program."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does catch(...) do?",
+        "options": {"A": "Catches only integer exceptions", "B": "Catches exceptions of any type", "C": "Catches no exceptions", "D": "Causes a compilation error"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>catch(...)</code> handler (catch-all) catches exceptions of any type. It is used as a last resort when you want to handle any exception regardless of type."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which header provides the standard exception classes like runtime_error and logic_error?",
+        "options": {"A": "<exception>", "B": "<stdexcept>", "C": "<error>", "D": "<throw>"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;stdexcept&gt;</code> provides <code>runtime_error</code>, <code>logic_error</code>, <code>invalid_argument</code>, <code>out_of_range</code>, etc. <code>&lt;exception&gt;</code> provides only the base <code>std::exception</code> class."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What method does std::exception provide to get the error message?",
+        "options": {"A": "message()", "B": "what()", "C": "error()", "D": "toString()"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>std::exception</code> and its subclasses provide the <code>what()</code> virtual method, which returns a <code>const char*</code> description of the error."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is stack unwinding in the context of exceptions?",
+        "options": {"A": "Clearing the heap memory", "B": "The process of destroying local objects in each stack frame between throw and catch", "C": "Resizing the call stack", "D": "Printing the stack trace"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Stack unwinding is the automatic destruction of local objects (calling their destructors) in each stack frame as the runtime searches for a matching catch block. This ensures RAII resources are properly released."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Why should catch blocks be ordered from most specific to most general?",
+        "options": {"A": "For better performance", "B": "Because catch blocks are tried in order, and a general base class catch would match before a specific derived class catch", "C": "To avoid compilation errors", "D": "Because the last catch is always executed"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Catch blocks are tried in order. If <code>catch(const exception&amp;)</code> comes before <code>catch(const out_of_range&amp;)</code>, the base class handler catches everything and the specific handler is unreachable."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the difference between throw; and throw e; inside a catch block?",
+        "options": {"A": "They are identical", "B": "throw; rethrows the original exception preserving its type; throw e; creates a copy that may be sliced", "C": "throw; throws a new exception; throw e; rethrows the original", "D": "throw; is invalid syntax"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>throw;</code> rethrows the current exception, preserving its original dynamic type. <code>throw e;</code> creates a new exception from the caught reference, potentially slicing a derived exception to the base type."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does the noexcept specifier do?",
+        "options": {"A": "Makes the function throw a specific exception", "B": "Declares that the function will not throw any exceptions", "C": "Catches all exceptions inside the function", "D": "Disables exception handling for the entire program"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>noexcept</code> declares that a function will not throw. If a <code>noexcept</code> function throws, <code>std::terminate()</code> is called. It enables compiler optimizations and is important for STL move operations."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "What are the three levels of exception safety guarantee?",
+        "options": {"A": "Low, medium, high", "B": "No-throw, strong (commit-or-rollback), basic (valid state, no leaks)", "C": "Compile-time, runtime, link-time", "D": "Static, dynamic, hybrid"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> No-throw: function never throws (noexcept). Strong: if exception occurs, state rolls back completely. Basic: if exception occurs, program is in a valid state with no resource leaks."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "Why should destructors never throw exceptions?",
+        "options": {"A": "Destructors cannot contain throw statements", "B": "If a destructor throws during stack unwinding from another exception, std::terminate() is called", "C": "Destructors are never called during exceptions", "D": "Throwing from destructors is only a warning"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> If a destructor throws while the stack is unwinding from another exception (two active exceptions), C++ calls <code>std::terminate()</code>. Destructors should be <code>noexcept</code> and handle errors internally."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is RAII and how does it relate to exceptions?",
+        "options": {"A": "A design pattern for avoiding exceptions entirely", "B": "Resource Acquisition Is Initialization: resources are tied to object lifetime, and stack unwinding during exceptions automatically calls destructors to release resources", "C": "A compiler optimization for exception handling", "D": "A way to convert exceptions to return codes"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> RAII ensures that resources (memory, files, locks) are released by destructors. Since stack unwinding during exceptions calls destructors of all local objects, RAII guarantees no resource leaks even when exceptions occur. This is why C++ does not need <code>finally</code> blocks."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Easy",
+        "question": "Can you throw any type as an exception in C++?",
+        "options": {"A": "Only std::exception subclasses", "B": "Only strings", "C": "Yes, any type including int, string, or custom classes", "D": "Only pointers"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> C++ allows throwing any type: integers, strings, C-strings, custom classes, or standard exception classes. However, best practice is to throw classes derived from <code>std::exception</code>."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Easy",
+        "question": "What is the base class of all standard exception classes in C++?",
+        "options": {"A": "runtime_error", "B": "logic_error", "C": "exception", "D": "error"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>std::exception</code> (from <code>&lt;exception&gt;</code>) is the base class. <code>logic_error</code> and <code>runtime_error</code> derive from it, and more specific exceptions like <code>invalid_argument</code> derive from those."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "What is the strong exception safety guarantee?",
+        "options": {"A": "The function never throws", "B": "If an exception is thrown, the state is rolled back to before the function was called", "C": "If an exception is thrown, the state is valid but may be changed", "D": "All exceptions are caught internally"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The strong guarantee (commit-or-rollback) means either the operation succeeds completely, or if it fails, the state is exactly as it was before the call. The copy-and-swap idiom is commonly used to achieve this."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "Does C++ have a finally block like Java?",
+        "options": {"A": "Yes, it works the same way", "B": "No, C++ uses RAII and destructors instead of finally", "C": "Yes, but only in C++20", "D": "No, C++ does not support cleanup during exceptions"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> C++ does not have <code>finally</code>. Instead, it relies on RAII: destructors of local objects automatically run during stack unwinding. This is considered more robust than <code>finally</code> because cleanup happens deterministically without explicit blocks."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What happens if a noexcept function throws an exception?",
+        "options": {"A": "The exception is silently ignored", "B": "The exception propagates normally", "C": "std::terminate() is called immediately", "D": "The function returns a default value"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> If a function declared <code>noexcept</code> throws an exception, the runtime calls <code>std::terminate()</code> immediately. The exception does not propagate, and stack unwinding may or may not occur (implementation-defined)."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "Why do STL containers prefer noexcept move constructors?",
+        "options": {"A": "For readability", "B": "Because if a move constructor throws during reallocation, the container cannot recover to a valid state", "C": "To reduce binary size", "D": "STL does not care about noexcept"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> During reallocation (e.g., vector resize), if a move constructor throws after some elements are moved, the container cannot roll back. With <code>noexcept</code> move, the container knows the operation is safe and uses move instead of copy."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Easy",
+        "question": "What does the what() method of std::exception return?",
+        "options": {"A": "An integer error code", "B": "A const char* description of the error", "C": "A boolean indicating success", "D": "The exception type name"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>what()</code> virtual method returns a <code>const char*</code> string that describes the error. Custom exception classes typically override this to provide meaningful error messages."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "What is exception-neutral code?",
+        "options": {"A": "Code that never throws exceptions", "B": "Code that catches all exceptions", "C": "Code that does not catch exceptions but still provides basic exception safety by allowing exceptions to propagate cleanly", "D": "Code that converts exceptions to error codes"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Exception-neutral code does not handle exceptions itself but allows them to propagate. It still provides the basic guarantee (valid state, no resource leaks) through RAII and proper cleanup, even though it does not catch exceptions."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Safe Division with Exception Handling",
+        "difficulty": "Easy",
+        "description": "Write a function safeDivide(int a, int b) that throws a domain_error if b is 0. In main, call it multiple times with different inputs and handle the exception. Show that the program continues after catching the exception.",
+        "sampleInput": "safeDivide(10, 2), safeDivide(10, 0), safeDivide(15, 3)",
+        "sampleOutput": "10 / 2 = 5\nError: Division by zero\n15 / 3 = 5",
+        "constraints": "Use domain_error from <stdexcept>. Catch by const reference. Show continuation after catch.",
+        "solution": "#include <iostream>\n#include <stdexcept>\nusing namespace std;\n\nint safeDivide(int a, int b) {\n    if (b == 0) throw domain_error(\"Division by zero\");\n    return a / b;\n}\n\nint main() {\n    int pairs[][2] = {{10, 2}, {10, 0}, {15, 3}};\n    for (int i = 0; i < 3; i++) {\n        try {\n            int result = safeDivide(pairs[i][0], pairs[i][1]);\n            cout << pairs[i][0] << \" / \" << pairs[i][1]\n                 << \" = \" << result << endl;\n        } catch (const domain_error& e) {\n            cout << \"Error: \" << e.what() << endl;\n        }\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Custom Exception Hierarchy for Banking",
+        "difficulty": "Medium",
+        "description": "Create a BankException hierarchy: BankException (base), InsufficientFunds (with amount and balance), InvalidAmount (with amount). Create a BankAccount class with deposit() and withdraw() that throw appropriate exceptions. Demonstrate catching specific and general exceptions.",
+        "sampleInput": "Account balance: 5000. Deposit -100. Withdraw 3000. Withdraw 5000.",
+        "sampleOutput": "Balance: 5000\nInvalidAmount: Cannot deposit -100\nWithdrew 3000. Balance: 2000\nInsufficientFunds: Cannot withdraw 5000. Balance: 2000",
+        "constraints": "Custom exceptions inheriting from runtime_error. Include context data (amount, balance). Catch specific before general.",
+        "solution": "#include <iostream>\n#include <stdexcept>\n#include <string>\nusing namespace std;\n\nclass BankException : public runtime_error {\npublic:\n    BankException(const string& msg) : runtime_error(msg) {}\n};\n\nclass InsufficientFunds : public BankException {\n    double amount, balance;\npublic:\n    InsufficientFunds(double a, double b)\n        : BankException(\"Cannot withdraw \" + to_string((int)a)\n          + \". Balance: \" + to_string((int)b)),\n          amount(a), balance(b) {}\n};\n\nclass InvalidAmount : public BankException {\n    double amount;\npublic:\n    InvalidAmount(const string& op, double a)\n        : BankException(\"Cannot \" + op + \" \" + to_string((int)a)),\n          amount(a) {}\n};\n\nclass BankAccount {\n    double balance;\npublic:\n    BankAccount(double b) : balance(b) {}\n    double getBalance() const { return balance; }\n    void deposit(double amt) {\n        if (amt <= 0) throw InvalidAmount(\"deposit\", amt);\n        balance += amt;\n    }\n    void withdraw(double amt) {\n        if (amt <= 0) throw InvalidAmount(\"withdraw\", amt);\n        if (amt > balance) throw InsufficientFunds(amt, balance);\n        balance -= amt;\n    }\n};\n\nint main() {\n    BankAccount acc(5000);\n    cout << \"Balance: \" << acc.getBalance() << endl;\n\n    try { acc.deposit(-100); }\n    catch (const InvalidAmount& e) { cout << \"InvalidAmount: \" << e.what() << endl; }\n\n    try {\n        acc.withdraw(3000);\n        cout << \"Withdrew 3000. Balance: \" << acc.getBalance() << endl;\n    } catch (const BankException& e) { cout << e.what() << endl; }\n\n    try { acc.withdraw(5000); }\n    catch (const InsufficientFunds& e) { cout << \"InsufficientFunds: \" << e.what() << endl; }\n\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "RAII Resource Manager with Stack Unwinding",
+        "difficulty": "Medium",
+        "description": "Create a ResourceManager RAII class that acquires a named resource in the constructor and releases it in the destructor. Create a chain of three functions, each creating a ResourceManager. The deepest function throws an exception. Demonstrate that all resources are released during stack unwinding.",
+        "sampleInput": "Resources: Database, FileSystem, Network. Exception at Network level.",
+        "sampleOutput": "Acquired: Database\nAcquired: FileSystem\nAcquired: Network\nReleased: Network\nReleased: FileSystem\nReleased: Database\nHandled: Network failure",
+        "constraints": "RAII pattern. Show destruction order during unwinding. All resources must be released.",
+        "solution": "#include <iostream>\n#include <stdexcept>\n#include <string>\nusing namespace std;\n\nclass ResourceManager {\n    string name;\npublic:\n    ResourceManager(const string& n) : name(n) {\n        cout << \"Acquired: \" << name << endl;\n    }\n    ~ResourceManager() {\n        cout << \"Released: \" << name << endl;\n    }\n};\n\nvoid networkLayer() {\n    ResourceManager r(\"Network\");\n    throw runtime_error(\"Network failure\");\n}\n\nvoid fileLayer() {\n    ResourceManager r(\"FileSystem\");\n    networkLayer();\n}\n\nvoid dbLayer() {\n    ResourceManager r(\"Database\");\n    fileLayer();\n}\n\nint main() {\n    try {\n        dbLayer();\n    } catch (const exception& e) {\n        cout << \"Handled: \" << e.what() << endl;\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Type-Safe Configuration Parser with Exceptions",
+        "difficulty": "Hard",
+        "description": "Create a Config class that stores key-value pairs (string -> string). Provide get(key) that throws KeyNotFound if the key does not exist, and getInt(key) that throws ParseError if the value cannot be converted to int. Both custom exceptions should inherit from ConfigError (which inherits from runtime_error). Demonstrate with valid and invalid lookups.",
+        "sampleInput": "Config: {\"port\": \"8080\", \"host\": \"localhost\", \"debug\": \"yes\"}. Get port as int, host, missing key, debug as int.",
+        "sampleOutput": "port = 8080\nhost = localhost\nKeyNotFound: Key 'timeout' not found\nParseError: Cannot parse 'yes' as int for key 'debug'",
+        "constraints": "Custom exception hierarchy. Include key name in error messages. Use stoi for conversion.",
+        "solution": "#include <iostream>\n#include <stdexcept>\n#include <string>\n#include <map>\nusing namespace std;\n\nclass ConfigError : public runtime_error {\npublic:\n    ConfigError(const string& msg) : runtime_error(msg) {}\n};\n\nclass KeyNotFound : public ConfigError {\npublic:\n    KeyNotFound(const string& key)\n        : ConfigError(\"Key '\" + key + \"' not found\") {}\n};\n\nclass ParseError : public ConfigError {\npublic:\n    ParseError(const string& key, const string& val)\n        : ConfigError(\"Cannot parse '\" + val + \"' as int for key '\" + key + \"'\") {}\n};\n\nclass Config {\n    map<string, string> data;\npublic:\n    void set(const string& key, const string& val) { data[key] = val; }\n\n    string get(const string& key) const {\n        auto it = data.find(key);\n        if (it == data.end()) throw KeyNotFound(key);\n        return it->second;\n    }\n\n    int getInt(const string& key) const {\n        string val = get(key);\n        try {\n            return stoi(val);\n        } catch (const invalid_argument&) {\n            throw ParseError(key, val);\n        }\n    }\n};\n\nint main() {\n    Config cfg;\n    cfg.set(\"port\", \"8080\");\n    cfg.set(\"host\", \"localhost\");\n    cfg.set(\"debug\", \"yes\");\n\n    try { cout << \"port = \" << cfg.getInt(\"port\") << endl; }\n    catch (const ConfigError& e) { cout << e.what() << endl; }\n\n    try { cout << \"host = \" << cfg.get(\"host\") << endl; }\n    catch (const ConfigError& e) { cout << e.what() << endl; }\n\n    try { cout << cfg.get(\"timeout\") << endl; }\n    catch (const KeyNotFound& e) { cout << \"KeyNotFound: \" << e.what() << endl; }\n\n    try { cout << cfg.getInt(\"debug\") << endl; }\n    catch (const ParseError& e) { cout << \"ParseError: \" << e.what() << endl; }\n\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Transaction System with Strong Exception Safety",
+        "difficulty": "Hard",
+        "description": "Create a simple Ledger class that maintains a list of transactions (amounts). Implement transfer(from_ledger, to_ledger, amount) that provides the strong exception safety guarantee: if the deposit to the destination fails (e.g., exceeds a max balance), the withdrawal from the source is rolled back. Demonstrate a successful and a failed transfer.",
+        "sampleInput": "Ledger A: balance 1000, max 5000. Ledger B: balance 4500, max 5000. Transfer 300 from A to B (fails: B would exceed max). Transfer 300 from A to C (balance 0, max 5000, succeeds).",
+        "sampleOutput": "A=1000, B=4500, C=0\nTransfer 300 A->B failed: Exceeds max balance\nA=1000, B=4500, C=0\nTransfer 300 A->C succeeded\nA=700, B=4500, C=300",
+        "constraints": "Strong exception safety: failed transfer must leave both ledgers unchanged. Use RAII or rollback pattern.",
+        "solution": "#include <iostream>\n#include <stdexcept>\nusing namespace std;\n\nclass Ledger {\n    string name;\n    double balance;\n    double maxBalance;\npublic:\n    Ledger(string n, double b, double mx) : name(n), balance(b), maxBalance(mx) {}\n    string getName() const { return name; }\n    double getBalance() const { return balance; }\n\n    void withdraw(double amt) {\n        if (amt > balance) throw runtime_error(\"Insufficient balance\");\n        balance -= amt;\n    }\n\n    void deposit(double amt) {\n        if (balance + amt > maxBalance)\n            throw runtime_error(\"Exceeds max balance\");\n        balance += amt;\n    }\n};\n\nvoid transfer(Ledger& from, Ledger& to, double amount) {\n    from.withdraw(amount);  // Step 1\n    try {\n        to.deposit(amount);  // Step 2\n    } catch (...) {\n        from.deposit(amount);  // Rollback step 1\n        throw;  // Rethrow\n    }\n}\n\nvoid showAll(Ledger& a, Ledger& b, Ledger& c) {\n    cout << a.getName() << \"=\" << a.getBalance()\n         << \", \" << b.getName() << \"=\" << b.getBalance()\n         << \", \" << c.getName() << \"=\" << c.getBalance() << endl;\n}\n\nint main() {\n    Ledger a(\"A\", 1000, 5000);\n    Ledger b(\"B\", 4500, 5000);\n    Ledger c(\"C\", 0, 5000);\n    showAll(a, b, c);\n\n    try {\n        transfer(a, b, 300);\n        cout << \"Transfer 300 A->B succeeded\" << endl;\n    } catch (const exception& e) {\n        cout << \"Transfer 300 A->B failed: \" << e.what() << endl;\n    }\n    showAll(a, b, c);\n\n    try {\n        transfer(a, c, 300);\n        cout << \"Transfer 300 A->C succeeded\" << endl;\n    } catch (const exception& e) {\n        cout << \"Transfer 300 A->C failed: \" << e.what() << endl;\n    }\n    showAll(a, b, c);\n    return 0;\n}"
+      }
+    ]
+  }
+}

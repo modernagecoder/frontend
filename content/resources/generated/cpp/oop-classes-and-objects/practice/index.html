@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - OOP - Classes, Objects, and Constructors | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="60+ practice questions on OOP - Classes, Objects, and Constructors in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="oop - classes, objects, and constructors practice, c++ questions, c++ practice problems, oop - classes, objects, and constructors exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects/practice">
+    <meta property="og:title" content="Practice Questions - OOP - Classes, Objects, and Constructors | C++ | Modern Age Coders">
+    <meta property="og:description" content="60+ practice questions on OOP - Classes, Objects, and Constructors in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects/practice">
+    <meta name="twitter:title" content="Practice Questions - OOP - Classes, Objects, and Constructors | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="60+ practice questions on OOP - Classes, Objects, and Constructors in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - OOP - Classes, Objects, and Constructors",
+    "description": "60+ practice questions on OOP - Classes, Objects, and Constructors in C++.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "OOP - Classes, Objects, and Constructors"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "OOP - Classes, Objects, and Constructors",
+        "item": "https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/oop-classes-and-objects">OOP - Classes, Objects, and Constructors</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 13</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">60 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; OOP - Classes, Objects, and Constructors</h1>
+            <a href="/resources/cpp/oop-classes-and-objects" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">6</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Greet {
+public:
+    Greet() { cout << "Hello "; }
+    ~Greet() { cout << "Bye "; }
+};
+
+int main() {
+    Greet g;
+    cout << "World ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The constructor runs when g is created. The destructor runs when main ends.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Hello World Bye </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Box {
+public:
+    int value;
+    Box() : value(0) {}
+    Box(int v) : value(v) {}
+};
+
+Box a;
+Box b(10);
+cout << a.value << " " << b.value;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Box a calls the default constructor. Box b(10) calls the parameterized constructor.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>0 10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Counter {
+public:
+    static int count;
+    Counter() { count++; }
+};
+int Counter::count = 0;
+
+Counter a, b, c;
+cout << Counter::count;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Static members are shared. Each constructor increments the same count.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Point {
+public:
+    int x, y;
+    Point(int x, int y) {
+        this->x = x;
+        this->y = y;
+    }
+};
+
+Point p(3, 7);
+cout << p.x << " " << p.y;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">this->x refers to the member; x refers to the parameter.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>3 7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+public:
+    A() { cout << "A "; }
+    ~A() { cout << "~A "; }
+};
+
+int main() {
+    A a1;
+    A a2;
+    A a3;
+    cout << "| ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Destructors run in reverse order of construction.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>A A A | ~A ~A ~A </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Tag {
+    string name;
+public:
+    Tag(string n) : name(n) { cout << "+" << name << " "; }
+    Tag(const Tag& t) : name(t.name + "_c") { cout << "C:" << name << " "; }
+    ~Tag() { cout << "-" << name << " "; }
+};
+
+Tag t1("X");
+Tag t2 = t1;</code></pre><p>(Assume this is inside main)</p></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Tag t2 = t1 invokes the copy constructor. Destructors run in reverse.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>+X C:X_c </code><br>(After main: <code>-X_c -X </code>)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Chain {
+    int val;
+public:
+    Chain(int v) : val(v) {}
+    Chain& add(int n) {
+        val += n;
+        return *this;
+    }
+    void print() const {
+        cout << val;
+    }
+};
+
+Chain c(10);
+c.add(5).add(3).add(2).print();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Each add() returns *this, allowing the next call on the same object.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Item {
+    static int created;
+    static int alive;
+public:
+    Item() { created++; alive++; }
+    ~Item() { alive--; }
+    static void stats() {
+        cout << "Created: " << created << ", Alive: " << alive << endl;
+    }
+};
+int Item::created = 0;
+int Item::alive = 0;
+
+int main() {
+    Item a, b;
+    Item::stats();
+    {
+        Item c;
+        Item::stats();
+    }
+    Item::stats();
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">c is destroyed when the inner block ends. created never decreases.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Created: 2, Alive: 2</code><br><code>Created: 3, Alive: 3</code><br><code>Created: 3, Alive: 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+public:
+    A() { cout << "A() "; }
+    A(int x) { cout << "A(" << x << ") "; }
+    A(const A& a) { cout << "A(copy) "; }
+    ~A() { cout << "~A "; }
+};
+
+A func() {
+    A local(5);
+    return local;
+}
+
+int main() {
+    A obj = func();
+    cout << "| ";
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">The copy constructor may or may not be called due to copy elision (NRVO). Without elision: local is constructed, copied, destroyed. With elision: only one construction.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">Without copy elision: <code>A(5) A(copy) ~A | ~A </code><br>With copy elision (common): <code>A(5) | ~A </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Nested {
+public:
+    Nested() { cout << "N "; }
+    ~Nested() { cout << "~N "; }
+};
+
+class Outer {
+    Nested n1;
+    Nested n2;
+public:
+    Outer() { cout << "O "; }
+    ~Outer() { cout << "~O "; }
+};
+
+Outer obj;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Member objects are constructed before the class constructor body. Destruction is in reverse.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>N N O </code><br>(After main: <code>~O ~N ~N </code>)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Val {
+    int x;
+public:
+    Val(int v = 0) : x(v) { cout << "C:" << x << " "; }
+    ~Val() { cout << "D:" << x << " "; }
+};
+
+Val arr[3] = {Val(10), Val(20)};</code></pre><p>(Assume inside main)</p></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">The third element uses the default argument value. Destructors run in reverse.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>C:10 C:20 C:0 </code><br>(After main: <code>D:0 D:20 D:10 </code>)</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between a class and a struct in C++?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Think about the default access specifier.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">In C++, the <strong>only</strong> difference is the default access specifier: <code>class</code> members are <code>private</code> by default, while <code>struct</code> members are <code>public</code> by default. In every other respect (constructors, destructors, inheritance, virtual functions), they are identical.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>struct Point {
+    int x, y;
+};
+
+Point p;
+p.x = 5;
+p.y = 10;
+cout << p.x + p.y;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">struct members are public by default.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Num {
+public:
+    int val;
+    Num(int v) : val(v) {}
+};
+
+Num a(5), b(3);
+cout << a.val * b.val;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Two objects with their own val members.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Scope {
+public:
+    string name;
+    Scope(string n) : name(n) { cout << "+" << name << " "; }
+    ~Scope() { cout << "-" << name << " "; }
+};
+
+int main() {
+    Scope a("A");
+    {
+        Scope b("B");
+        Scope c("C");
+    }
+    Scope d("D");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">B and C are destroyed at the end of the inner block. A and D are destroyed at the end of main.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>+A +B +C -C -B +D -D -A </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why should you use initializer lists instead of assignment in constructor bodies?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Think about const members, reference members, and efficiency.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">Initializer lists directly initialize members, while assignment in the body first default-constructs and then assigns. Initializer lists are: (1) <strong>Required</strong> for const members, reference members, and base class constructors. (2) <strong>More efficient</strong> for class-type members (avoids unnecessary default construction + assignment). (3) Members are initialized in declaration order regardless of the list order.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Demo {
+    int x;
+public:
+    Demo(int val) : x(val) {}
+    void show() const {
+        cout << x << " ";
+    }
+};
+
+const Demo d(42);
+d.show();
+// d.x = 10;  // Would this work?</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">d is const, so only const member functions can be called, and no members can be modified.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>42 </code><br>(d.x = 10 would fail because x is private AND d is const)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+public:
+    int x;
+    A() : x(0) {}
+    A(int v) : x(v) {}
+    A(const A& other) : x(other.x) {
+        cout << "copy(" << x << ") ";
+    }
+};
+
+void func(A obj) {
+    cout << obj.x << " ";
+}
+
+A a(10);
+func(a);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Passing by value triggers the copy constructor.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>copy(10) 10 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is sizeof the following class?<br><pre><code>class Mystery {
+    double d;    // 8 bytes
+    char c;      // 1 byte
+    int i;       // 4 bytes
+};
+cout << sizeof(Mystery);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Think about alignment. double requires 8-byte alignment.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>16</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Singleton {
+    static Singleton* instance;
+    int value;
+    Singleton(int v) : value(v) {}
+public:
+    static Singleton* get(int v) {
+        if (!instance)
+            instance = new Singleton(v);
+        return instance;
+    }
+    int getValue() const { return value; }
+};
+Singleton* Singleton::instance = nullptr;
+
+cout << Singleton::get(42)->getValue() << endl;
+cout << Singleton::get(99)->getValue() << endl;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">The first call creates the instance. The second call returns the existing one.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>42</code><br><code>42</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is the default access specifier for members of a class in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> public</li><li><span class="mcq-option-label">B.</span> private</li><li><span class="mcq-option-label">C.</span> protected</li><li><span class="mcq-option-label">D.</span> internal</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> In a <code>class</code>, members are <code>private</code> by default. In a <code>struct</code>, members are <code>public</code> by default. <code>internal</code> (D) is not a C++ access specifier.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What is a constructor in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A function that returns an object</li><li><span class="mcq-option-label">B.</span> A special member function called automatically when an object is created</li><li><span class="mcq-option-label">C.</span> A function that destroys an object</li><li><span class="mcq-option-label">D.</span> A function that copies an object</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> A constructor has the same name as the class, no return type, and is called automatically when an object is created. C describes a destructor, D describes a copy operation.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is the correct syntax for a destructor of class MyClass?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> void ~MyClass()</li><li><span class="mcq-option-label">B.</span> ~MyClass()</li><li><span class="mcq-option-label">C.</span> delete MyClass()</li><li><span class="mcq-option-label">D.</span> MyClass::destroy()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> A destructor is named <code>~ClassName()</code> with no return type and no parameters. It cannot return void (A is wrong), is not the delete operator (C), and has a specific syntax (not a regular named method like D).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does the this pointer hold in a member function?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The address of the class definition</li><li><span class="mcq-option-label">B.</span> The address of the current object</li><li><span class="mcq-option-label">C.</span> The address of the first member variable</li><li><span class="mcq-option-label">D.</span> nullptr by default</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>this</code> is a pointer to the object on which the member function is being called. It allows the function to refer to the invoking object.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">In what order are destructors called for local objects?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Same order as construction</li><li><span class="mcq-option-label">B.</span> Reverse order of construction</li><li><span class="mcq-option-label">C.</span> Alphabetical order</li><li><span class="mcq-option-label">D.</span> Random order</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> C++ guarantees that destructors of local objects are called in the reverse order of their construction. This is LIFO (last in, first out) behavior.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which of the following REQUIRES an initializer list?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Initializing an int member</li><li><span class="mcq-option-label">B.</span> Initializing a const member</li><li><span class="mcq-option-label">C.</span> Initializing a public member</li><li><span class="mcq-option-label">D.</span> Initializing a static member</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> A <code>const</code> member must be initialized (not assigned) at construction time, which requires an initializer list. The same applies to reference members and base class constructors. Static members (D) are defined outside the class.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What can a static member function access?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Both static and non-static members</li><li><span class="mcq-option-label">B.</span> Only non-static members</li><li><span class="mcq-option-label">C.</span> Only static members</li><li><span class="mcq-option-label">D.</span> Nothing -- static functions are empty</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> A static member function does not have a <code>this</code> pointer, so it cannot access non-static members (which require an object). It can only access static members of the class.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is the sizeof an empty class in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> 1</li><li><span class="mcq-option-label">C.</span> 4</li><li><span class="mcq-option-label">D.</span> Depends on the compiler</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> An empty class has sizeof 1 (not 0). This ensures that every object has a unique address. If it were 0, two objects of the same empty class could have the same address, violating the identity principle.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">When is the copy constructor called?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only when using = in a declaration</li><li><span class="mcq-option-label">B.</span> When passing an object by value, returning by value, or using = in a declaration</li><li><span class="mcq-option-label">C.</span> Only when explicitly called with ClassName(obj)</li><li><span class="mcq-option-label">D.</span> When assigning one object to another after both are initialized</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> The copy constructor is called in three scenarios: (1) <code>T obj2 = obj1;</code> in a declaration, (2) passing an object by value to a function, (3) returning an object by value (unless elided). D describes the copy assignment operator (<code>operator=</code>), not the copy constructor.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is the "most vexing parse" in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A syntax error when overloading operators</li><li><span class="mcq-option-label">B.</span> A declaration that looks like an object creation but is parsed as a function declaration</li><li><span class="mcq-option-label">C.</span> An error caused by missing semicolons</li><li><span class="mcq-option-label">D.</span> A conflict between class and struct keywords</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>Widget w();</code> looks like creating a Widget with the default constructor, but C++ parses it as a function declaration (a function named w that returns Widget). Use <code>Widget w;</code> or <code>Widget w{};</code> instead.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">In which order are member objects constructed and destroyed?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Constructed and destroyed in declaration order</li><li><span class="mcq-option-label">B.</span> Constructed in declaration order, destroyed in reverse order</li><li><span class="mcq-option-label">C.</span> Constructed in initializer list order, destroyed in reverse</li><li><span class="mcq-option-label">D.</span> Random order determined by the compiler</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> Member objects are always constructed in the order they are declared in the class (not the initializer list order), and destroyed in reverse. This is guaranteed by the C++ standard.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What happens if a class has a pointer member and uses the compiler-generated copy constructor?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The pointer member is set to nullptr</li><li><span class="mcq-option-label">B.</span> A deep copy of the pointed-to data is made</li><li><span class="mcq-option-label">C.</span> A shallow copy is made (both objects point to the same memory)</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> The compiler-generated copy constructor performs a memberwise (shallow) copy. For pointer members, this means both the original and the copy point to the same address. This leads to double-free bugs if the destructor frees the memory.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Which keyword prevents a member from being modified in a const member function?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> volatile</li><li><span class="mcq-option-label">B.</span> mutable reverses this restriction</li><li><span class="mcq-option-label">C.</span> static</li><li><span class="mcq-option-label">D.</span> const after the parameter list</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: D</strong><br><strong>D is correct.</strong> Placing <code>const</code> after the parameter list (<code>int getValue() const</code>) makes the function a const member function that cannot modify any member. <code>mutable</code> (B) is the keyword that allows a member to be modified even in a const function, but the question asks what prevents modification.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Student Class with Constructors</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a Student class with name (string) and marks (double). Write a default constructor (name="Unknown", marks=0), a parameterized constructor, and a display() method. Create 3 students and display them.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Unknown - 0
+Rahul - 85.5
+Priya - 92.3</div>
+                </div><div class="challenge-constraints">Use initializer lists. Mark display() as const.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Student {
+    string name;
+    double marks;
+public:
+    Student() : name(&quot;Unknown&quot;), marks(0) {}
+    Student(string n, double m) : name(n), marks(m) {}
+    void display() const {
+        cout &lt;&lt; name &lt;&lt; &quot; - &quot; &lt;&lt; marks &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Student s1;
+    Student s2(&quot;Rahul&quot;, 85.5);
+    Student s3(&quot;Priya&quot;, 92.3);
+    s1.display();
+    s2.display();
+    s3.display();
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Counter with Static Members</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a Counter class with a static member totalCount that tracks how many Counter objects currently exist. The constructor increments it, the destructor decrements it. Add a static function getCount(). Demonstrate by creating and destroying objects in different scopes.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Count: 2
+Count: 3
+Count: 2
+Count: 0</div>
+                </div><div class="challenge-constraints">Use static member variable and static function. Define static member outside the class.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Counter {
+    static int totalCount;
+public:
+    Counter() { totalCount++; }
+    ~Counter() { totalCount--; }
+    static int getCount() { return totalCount; }
+};
+int Counter::totalCount = 0;
+
+int main() {
+    Counter a, b;
+    cout &lt;&lt; &quot;Count: &quot; &lt;&lt; Counter::getCount() &lt;&lt; endl;  // 2
+    {
+        Counter c;
+        cout &lt;&lt; &quot;Count: &quot; &lt;&lt; Counter::getCount() &lt;&lt; endl;  // 3
+    }
+    cout &lt;&lt; &quot;Count: &quot; &lt;&lt; Counter::getCount() &lt;&lt; endl;  // 2
+    return 0;
+    // After main, a and b are destroyed
+}
+// Final count would be 0</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: BankAccount with Encapsulation</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a BankAccount class with private members: accountHolder (string), balance (double). Provide a parameterized constructor, deposit(double), withdraw(double) with validation (no negative amounts, no overdraft), and display() const. Track total accounts created using a static member.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Arjun: Rs.10000
+Deposited Rs.5000. New balance: Rs.15000
+Withdrew Rs.3000. New balance: Rs.12000
+Insufficient balance!
+Total accounts: 2</div>
+                </div><div class="challenge-constraints">All data members must be private. Validate inputs. Use initializer list.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class BankAccount {
+    string holder;
+    double balance;
+    static int totalAccounts;
+public:
+    BankAccount(string h, double b) : holder(h), balance(b) {
+        totalAccounts++;
+    }
+    void deposit(double amount) {
+        if (amount &lt;= 0) { cout &lt;&lt; &quot;Invalid amount!&quot; &lt;&lt; endl; return; }
+        balance += amount;
+        cout &lt;&lt; &quot;Deposited Rs.&quot; &lt;&lt; amount &lt;&lt; &quot;. New balance: Rs.&quot; &lt;&lt; balance &lt;&lt; endl;
+    }
+    void withdraw(double amount) {
+        if (amount &lt;= 0) { cout &lt;&lt; &quot;Invalid amount!&quot; &lt;&lt; endl; return; }
+        if (amount &gt; balance) { cout &lt;&lt; &quot;Insufficient balance!&quot; &lt;&lt; endl; return; }
+        balance -= amount;
+        cout &lt;&lt; &quot;Withdrew Rs.&quot; &lt;&lt; amount &lt;&lt; &quot;. New balance: Rs.&quot; &lt;&lt; balance &lt;&lt; endl;
+    }
+    void display() const {
+        cout &lt;&lt; holder &lt;&lt; &quot;: Rs.&quot; &lt;&lt; balance &lt;&lt; endl;
+    }
+    static int getTotalAccounts() { return totalAccounts; }
+};
+int BankAccount::totalAccounts = 0;
+
+int main() {
+    BankAccount acc1(&quot;Arjun&quot;, 10000);
+    BankAccount acc2(&quot;Meera&quot;, 5000);
+    acc1.display();
+    acc1.deposit(5000);
+    acc1.withdraw(3000);
+    acc1.withdraw(20000);
+    cout &lt;&lt; &quot;Total accounts: &quot; &lt;&lt; BankAccount::getTotalAccounts() &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Deep Copy Constructor for Dynamic Array Class</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create an IntArray class that wraps a dynamic int array. Implement: constructor(int size), deep copy constructor, destructor, set(int index, int value), get(int index), and display(). Demonstrate that modifying the copy does not affect the original.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Original: 10 20 30
+Copy: 10 20 30
+After modifying copy:
+Original: 10 20 30
+Copy: 10 99 30</div>
+                </div><div class="challenge-constraints">Implement a deep copy constructor. The destructor must free memory. Demonstrate independence of original and copy.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class IntArray {
+    int* data;
+    int size;
+public:
+    IntArray(int n) : size(n), data(new int[n]()) {}
+    IntArray(const IntArray&amp; other) : size(other.size), data(new int[other.size]) {
+        for (int i = 0; i &lt; size; i++) data[i] = other.data[i];
+    }
+    ~IntArray() { delete[] data; }
+    void set(int i, int val) { data[i] = val; }
+    int get(int i) const { return data[i]; }
+    void display() const {
+        for (int i = 0; i &lt; size; i++) cout &lt;&lt; data[i] &lt;&lt; &quot; &quot;;
+        cout &lt;&lt; endl;
+    }
+};
+
+int main() {
+    IntArray original(3);
+    original.set(0, 10);
+    original.set(1, 20);
+    original.set(2, 30);
+    cout &lt;&lt; &quot;Original: &quot;;
+    original.display();
+
+    IntArray copy = original;  // deep copy
+    cout &lt;&lt; &quot;Copy: &quot;;
+    copy.display();
+
+    copy.set(1, 99);
+    cout &lt;&lt; &quot;After modifying copy:&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Original: &quot;;
+    original.display();
+    cout &lt;&lt; &quot;Copy: &quot;;
+    copy.display();
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Method Chaining -- QueryBuilder</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a QueryBuilder class that builds a SQL-like query string using method chaining. Methods: select(string columns), from(string table), where(string condition), orderBy(string column), build() which returns the final query string. Each method returns *this.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">SELECT name, marks FROM students WHERE marks &gt; 80 ORDER BY marks</div>
+                </div><div class="challenge-constraints">Use the this pointer and return *this from each method. Use const for build().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class QueryBuilder {
+    string query;
+public:
+    QueryBuilder&amp; select(const string&amp; cols) {
+        query = &quot;SELECT &quot; + cols;
+        return *this;
+    }
+    QueryBuilder&amp; from(const string&amp; table) {
+        query += &quot; FROM &quot; + table;
+        return *this;
+    }
+    QueryBuilder&amp; where(const string&amp; condition) {
+        query += &quot; WHERE &quot; + condition;
+        return *this;
+    }
+    QueryBuilder&amp; orderBy(const string&amp; col) {
+        query += &quot; ORDER BY &quot; + col;
+        return *this;
+    }
+    string build() const { return query; }
+};
+
+int main() {
+    QueryBuilder qb;
+    string query = qb.select(&quot;name, marks&quot;)
+                     .from(&quot;students&quot;)
+                     .where(&quot;marks &gt; 80&quot;)
+                     .orderBy(&quot;marks&quot;)
+                     .build();
+    cout &lt;&lt; query &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Matrix Class with Operator Overloading Preview</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a Matrix class for 2x2 matrices. Implement: constructor(4 values), copy constructor, display(), add(const Matrix&) that returns a new Matrix with the sum, and a static identity() that returns the 2x2 identity matrix. Demonstrate all operations.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Matrix A:
+1 2
+3 4
+Matrix B:
+5 6
+7 8
+A + B:
+6 8
+10 12
+Identity:
+1 0
+0 1</div>
+                </div><div class="challenge-constraints">Use initializer list. Pass by const reference. Use const member functions where appropriate.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Matrix {
+    int data[2][2];
+public:
+    Matrix(int a, int b, int c, int d) {
+        data[0][0] = a; data[0][1] = b;
+        data[1][0] = c; data[1][1] = d;
+    }
+    Matrix(const Matrix&amp; other) {
+        for (int i = 0; i &lt; 2; i++)
+            for (int j = 0; j &lt; 2; j++)
+                data[i][j] = other.data[i][j];
+    }
+    Matrix add(const Matrix&amp; other) const {
+        return Matrix(
+            data[0][0] + other.data[0][0],
+            data[0][1] + other.data[0][1],
+            data[1][0] + other.data[1][0],
+            data[1][1] + other.data[1][1]
+        );
+    }
+    static Matrix identity() {
+        return Matrix(1, 0, 0, 1);
+    }
+    void display() const {
+        for (int i = 0; i &lt; 2; i++) {
+            for (int j = 0; j &lt; 2; j++)
+                cout &lt;&lt; data[i][j] &lt;&lt; &quot; &quot;;
+            cout &lt;&lt; endl;
+        }
+    }
+};
+
+int main() {
+    Matrix a(1, 2, 3, 4);
+    Matrix b(5, 6, 7, 8);
+    cout &lt;&lt; &quot;Matrix A:&quot; &lt;&lt; endl;
+    a.display();
+    cout &lt;&lt; &quot;Matrix B:&quot; &lt;&lt; endl;
+    b.display();
+    Matrix c = a.add(b);
+    cout &lt;&lt; &quot;A + B:&quot; &lt;&lt; endl;
+    c.display();
+    cout &lt;&lt; &quot;Identity:&quot; &lt;&lt; endl;
+    Matrix::identity().display();
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/dynamic-memory-allocation/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Dynamic Memory Allocation (new, delete)</span>
+        </a>
+            <a href="/resources/cpp/encapsulation-and-access-specifiers/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Encapsulation, Access Specifiers, and Friend Functions</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/oop-classes-and-objects" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

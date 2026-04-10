@@ -1,0 +1,467 @@
+{
+  "title": "Dynamic Memory Allocation in C++",
+  "slug": "dynamic-memory-allocation",
+  "language": "cpp",
+  "chapter": 12,
+  "difficulty": "Intermediate",
+  "readingTime": "34 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 54,
+  "seo": {
+    "title": "Dynamic Memory Allocation in C++ - new, delete, Stack vs Heap, Memory Leaks, Smart Pointers | Modern Age Coders",
+    "description": "Learn C++ dynamic memory allocation including new and delete operators, stack vs heap memory, memory leaks, dangling pointers after delete, dynamic arrays, dynamic 2D arrays, RAII principle, and smart pointers introduction. Includes 54+ practice questions with output prediction and coding challenges.",
+    "keywords": "c++ dynamic memory allocation, new delete c++, stack vs heap c++, memory leak c++, c++ smart pointers, unique_ptr c++, shared_ptr c++, RAII c++, dynamic array c++, c++ memory management interview questions"
+  },
+  "content": {
+    "what": "<h2>What Is Dynamic Memory Allocation?</h2><p><strong>Dynamic memory allocation</strong> is the process of requesting memory from the operating system at runtime, as opposed to compile time. In C++, dynamic allocation is done using the <code>new</code> operator (to allocate) and the <code>delete</code> operator (to free). The allocated memory resides on the <strong>heap</strong>, a region of memory separate from the stack where local variables live.</p><p>When you declare a local variable like <code>int x = 10;</code>, the compiler allocates space for it on the stack at compile time. But what if you do not know how many elements you need until the user provides input? That is where dynamic allocation comes in -- you can allocate exactly the right amount of memory at runtime.</p><h3>The new Operator</h3><p>The <code>new</code> operator allocates memory on the heap and returns a pointer to it:</p><pre><code>int* p = new int;          // allocate a single int on the heap\n*p = 42;                   // assign a value\n\nint* q = new int(100);     // allocate and initialize to 100\n\nint* arr = new int[10];    // allocate an array of 10 ints</code></pre><h3>The delete Operator</h3><p>The <code>delete</code> operator frees memory that was allocated with <code>new</code>:</p><pre><code>delete p;       // free a single variable\ndelete[] arr;   // free an array (note the [])</code></pre><p>Every <code>new</code> must have a matching <code>delete</code>. Every <code>new[]</code> must have a matching <code>delete[]</code>. Mismatching them is undefined behavior.</p>",
+    "why": "<h2>Why Is Dynamic Memory Allocation Important?</h2><h3>1. Runtime-Sized Data Structures</h3><p>Stack arrays require a compile-time constant size: <code>int arr[100];</code> always allocates 100 elements even if you need 5. With <code>new</code>, you can allocate exactly the number of elements needed: <code>int* arr = new int[n];</code> where <code>n</code> is determined at runtime.</p><h3>2. Data Structures That Grow</h3><p>Linked lists, trees, and graphs require creating nodes dynamically as data is inserted. Each node is allocated with <code>new</code> and connected via pointers. Without dynamic allocation, these data structures are impossible to implement.</p><h3>3. Object Lifetime Control</h3><p>Stack variables are destroyed when the function returns. Heap variables persist until explicitly deleted. This lets you create objects in one function and use them in another without copying.</p><h3>4. Large Allocations</h3><p>The stack has a limited size (typically 1-8 MB). If you need a large array (e.g., 10 million integers = 40 MB), it must go on the heap. Attempting to allocate it on the stack causes a stack overflow.</p><h3>5. Interview and Placement Essential</h3><p>Memory management questions are a staple of C++ interviews. Understanding stack vs heap, memory leaks, dangling pointers, and RAII separates a strong candidate from a weak one. Companies like Microsoft, Amazon, and Google test these concepts extensively.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Stack vs Heap Memory</h3><p>Every C++ program has two main memory regions for storing data:</p><p><strong>Stack:</strong></p><ul><li>Stores local variables and function call frames</li><li>Allocation and deallocation are automatic (managed by the compiler)</li><li>Very fast (just a pointer increment/decrement)</li><li>Limited size (typically 1-8 MB)</li><li>Variables are destroyed when they go out of scope</li><li>Cannot be resized after allocation</li></ul><p><strong>Heap:</strong></p><ul><li>Stores dynamically allocated memory (via <code>new</code>)</li><li>Allocation and deallocation are manual (programmer's responsibility)</li><li>Slower than stack (OS must find free block)</li><li>Much larger (limited by available system memory)</li><li>Variables persist until explicitly deleted</li><li>Can allocate variable sizes at runtime</li></ul><pre><code>void example() {\n    int x = 10;             // stack: destroyed at end of function\n    int* p = new int(20);   // heap: persists until delete\n    delete p;               // manual cleanup\n}</code></pre><h3>2. Allocating Single Variables</h3><pre><code>int* p = new int;        // uninitialized\nint* q = new int(0);     // initialized to 0\nint* r = new int{42};    // C++11 brace initialization\n\ncout << *q;  // 0\ncout << *r;  // 42\n\ndelete p;\ndelete q;\ndelete r;</code></pre><h3>3. Allocating Arrays</h3><pre><code>int n;\ncin >> n;\nint* arr = new int[n];       // array of n ints (uninitialized)\nint* arr2 = new int[n]();    // array of n ints, all initialized to 0\nint* arr3 = new int[5]{1, 2, 3, 4, 5};  // C++11 initialized\n\n// Use like a normal array\nfor (int i = 0; i < n; i++) {\n    arr[i] = i * 10;\n}\n\ndelete[] arr;    // MUST use delete[] for arrays\ndelete[] arr2;\ndelete[] arr3;</code></pre><h3>4. Memory Leaks</h3><p>A <strong>memory leak</strong> occurs when dynamically allocated memory is not freed. The pointer to the memory is lost, so the memory can never be reclaimed until the program exits.</p><pre><code>void leak() {\n    int* p = new int(42);  // allocate on heap\n    // function returns without delete p\n    // the memory is leaked: no pointer to it exists\n}\n\nvoid anotherLeak() {\n    int* p = new int(10);\n    p = new int(20);       // LEAK: original memory (10) is lost\n    delete p;              // only frees the second allocation\n}</code></pre><p>Memory leaks accumulate over time and can cause a program to consume all available memory, leading to crashes or system slowdowns.</p><h3>5. Dangling Pointers After delete</h3><p>After calling <code>delete</code>, the pointer still holds the old address, but that memory is no longer valid. This is a <strong>dangling pointer</strong>.</p><pre><code>int* p = new int(42);\ndelete p;         // memory freed\n// *p is now undefined behavior\np = nullptr;      // good practice: prevents accidental access</code></pre><p>Best practice: always set a pointer to <code>nullptr</code> after deleting it.</p><h3>6. new with Classes</h3><p>You can create objects on the heap using <code>new</code>. The constructor is called when <code>new</code> allocates the object, and the destructor is called when <code>delete</code> frees it.</p><pre><code>class Student {\npublic:\n    string name;\n    Student(string n) : name(n) {\n        cout << name << \" created\" << endl;\n    }\n    ~Student() {\n        cout << name << \" destroyed\" << endl;\n    }\n};\n\nStudent* s = new Student(\"Arjun\");  // constructor called\ncout << s->name << endl;            // access with ->\ndelete s;                            // destructor called</code></pre><h3>7. Dynamic 2D Arrays</h3><p>A dynamic 2D array is implemented as an array of pointers, where each pointer points to a dynamically allocated row:</p><pre><code>int rows = 3, cols = 4;\n\n// Allocate\nint** matrix = new int*[rows];       // array of row pointers\nfor (int i = 0; i < rows; i++) {\n    matrix[i] = new int[cols];       // each row\n}\n\n// Use\nmatrix[1][2] = 42;\n\n// Deallocate (reverse order)\nfor (int i = 0; i < rows; i++) {\n    delete[] matrix[i];              // free each row\n}\ndelete[] matrix;                     // free the row pointer array</code></pre><h3>8. No realloc in C++ (Use vector)</h3><p>Unlike C's <code>realloc()</code>, C++ has no built-in way to resize dynamically allocated arrays. To \"resize,\" you must allocate a new array, copy elements, and delete the old one. In practice, use <code>std::vector</code> which handles this automatically.</p><pre><code>// Manual resize (avoid this in production code)\nint* old = new int[5]{1, 2, 3, 4, 5};\nint* resized = new int[10];\nfor (int i = 0; i < 5; i++) resized[i] = old[i];\ndelete[] old;\n// resized now has capacity 10\n\n// Better: use vector\n// vector<int> v = {1, 2, 3, 4, 5};\n// v.push_back(6);  // automatic resize</code></pre><h3>9. RAII Principle</h3><p><strong>RAII (Resource Acquisition Is Initialization)</strong> is a C++ design principle where resources (memory, files, locks) are acquired in a constructor and released in the destructor. This ensures cleanup happens automatically when the object goes out of scope, even if an exception is thrown.</p><pre><code>class IntArray {\n    int* data;\n    int size;\npublic:\n    IntArray(int n) : size(n), data(new int[n]()) {}\n    ~IntArray() { delete[] data; }   // automatic cleanup\n    int& operator[](int i) { return data[i]; }\n};\n\nvoid example() {\n    IntArray arr(100);   // memory allocated in constructor\n    arr[0] = 42;\n    // no delete needed: destructor frees memory automatically\n}</code></pre><h3>10. Smart Pointers Preview</h3><p>Modern C++ (C++11+) provides smart pointers that automatically manage heap memory using RAII:</p><p><strong>unique_ptr:</strong> Owns the memory exclusively. Cannot be copied. When it goes out of scope, the memory is freed.</p><p><strong>shared_ptr:</strong> Multiple pointers can share ownership. Memory is freed when the last shared_ptr is destroyed (reference counting).</p><p><strong>weak_ptr:</strong> A non-owning reference to memory managed by shared_ptr. Does not prevent deallocation.</p><pre><code>#include &lt;memory&gt;\n\nunique_ptr&lt;int&gt; p1 = make_unique&lt;int&gt;(42);   // auto-deleted\nshared_ptr&lt;int&gt; p2 = make_shared&lt;int&gt;(100);  // reference counted\n\ncout << *p1 << endl;  // 42\ncout << *p2 << endl;  // 100\n// no delete needed!</code></pre>",
+    "codeExamples": [
+      {
+        "title": "Stack vs Heap -- Lifetime Difference",
+        "code": "#include <iostream>\nusing namespace std;\n\nint* createOnStack() {\n    int x = 42;\n    // return &x;  // WRONG: x is destroyed when function returns\n    return nullptr;\n}\n\nint* createOnHeap() {\n    int* p = new int(42);\n    return p;  // OK: heap memory persists\n}\n\nint main() {\n    int* stackPtr = createOnStack();\n    cout << \"Stack pointer: \" << stackPtr << endl;  // nullptr\n\n    int* heapPtr = createOnHeap();\n    cout << \"Heap value: \" << *heapPtr << endl;  // 42\n    delete heapPtr;\n\n    // Stack variable\n    {\n        int local = 100;  // alive only in this block\n        cout << \"Local: \" << local << endl;\n    }\n    // local is destroyed here\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "A stack variable (<code>x</code>) is destroyed when the function returns, so returning its address would create a dangling pointer. A heap variable (allocated with <code>new</code>) persists until explicitly deleted. The block scope variable <code>local</code> is destroyed when the closing brace is reached.",
+        "output": "Stack pointer: 0 (nullptr)\nHeap value: 42\nLocal: 100"
+      },
+      {
+        "title": "Dynamic Array Allocation and Deallocation",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int n;\n    cout << \"Enter size: \";\n    cin >> n;\n\n    // Allocate array on heap\n    int* arr = new int[n];\n\n    // Fill with squares\n    for (int i = 0; i < n; i++) {\n        arr[i] = (i + 1) * (i + 1);\n    }\n\n    // Print\n    cout << \"Squares: \";\n    for (int i = 0; i < n; i++) {\n        cout << arr[i] << \" \";\n    }\n    cout << endl;\n\n    // Zero-initialized array\n    int* zeros = new int[n]();\n    cout << \"Zeros: \";\n    for (int i = 0; i < n; i++) {\n        cout << zeros[i] << \" \";\n    }\n    cout << endl;\n\n    delete[] arr;\n    delete[] zeros;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>new int[n]</code> allocates <code>n</code> integers on the heap. The parentheses in <code>new int[n]()</code> value-initialize all elements to zero. Both must be freed with <code>delete[]</code> (not <code>delete</code>).",
+        "output": "Enter size: 5\nSquares: 1 4 9 16 25\nZeros: 0 0 0 0 0"
+      },
+      {
+        "title": "Memory Leak Demonstration",
+        "code": "#include <iostream>\nusing namespace std;\n\nvoid leakyFunction() {\n    int* p = new int(42);\n    cout << \"Value: \" << *p << endl;\n    // Oops! Forgot delete p;\n    // Memory is leaked when function returns\n}\n\nvoid overwriteLeak() {\n    int* p = new int(10);\n    cout << \"First: \" << *p << endl;\n    p = new int(20);           // LEAK: lost pointer to first allocation\n    cout << \"Second: \" << *p << endl;\n    delete p;                  // Only frees the second allocation\n}\n\nvoid noLeak() {\n    int* p = new int(42);\n    cout << \"Value: \" << *p << endl;\n    delete p;                  // Properly freed\n    p = nullptr;               // Good practice\n}\n\nint main() {\n    cout << \"--- Leaky function ---\" << endl;\n    leakyFunction();\n\n    cout << \"\\n--- Overwrite leak ---\" << endl;\n    overwriteLeak();\n\n    cout << \"\\n--- No leak ---\" << endl;\n    noLeak();\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "In <code>leakyFunction</code>, the pointer goes out of scope without <code>delete</code>, leaking the memory. In <code>overwriteLeak</code>, reassigning the pointer without freeing the old memory leaks the first allocation. In <code>noLeak</code>, every <code>new</code> has a matching <code>delete</code>.",
+        "output": "--- Leaky function ---\nValue: 42\n\n--- Overwrite leak ---\nFirst: 10\nSecond: 20\n\n--- No leak ---\nValue: 42"
+      },
+      {
+        "title": "Dynamic Objects with new -- Constructor and Destructor",
+        "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Student {\n    string name;\n    int rollNo;\npublic:\n    Student(string n, int r) : name(n), rollNo(r) {\n        cout << \"Constructor: \" << name << \" (\" << rollNo << \")\" << endl;\n    }\n    ~Student() {\n        cout << \"Destructor: \" << name << \" (\" << rollNo << \")\" << endl;\n    }\n    void display() {\n        cout << name << \" - Roll No: \" << rollNo << endl;\n    }\n};\n\nint main() {\n    cout << \"--- Single object ---\" << endl;\n    Student* s1 = new Student(\"Rahul\", 101);\n    s1->display();\n    delete s1;\n\n    cout << \"\\n--- Array of objects ---\" << endl;\n    Student* arr = new Student[3]{{\"Priya\", 201}, {\"Arun\", 202}, {\"Sneha\", 203}};\n    for (int i = 0; i < 3; i++) {\n        arr[i].display();\n    }\n    delete[] arr;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The <code>new</code> operator calls the constructor when creating objects on the heap. The <code>delete</code> operator calls the destructor before freeing memory. For arrays of objects, <code>delete[]</code> calls the destructor for each element. Use <code>-></code> (arrow operator) to access members through a pointer.",
+        "output": "--- Single object ---\nConstructor: Rahul (101)\nRahul - Roll No: 101\nDestructor: Rahul (101)\n\n--- Array of objects ---\nConstructor: Priya (201)\nConstructor: Arun (202)\nConstructor: Sneha (203)\nPriya - Roll No: 201\nArun - Roll No: 202\nSneha - Roll No: 203\nDestructor: Sneha (203)\nDestructor: Arun (202)\nDestructor: Priya (201)"
+      },
+      {
+        "title": "Dynamic 2D Array -- Allocate, Use, Free",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int rows = 3, cols = 4;\n\n    // Allocate 2D array\n    int** matrix = new int*[rows];\n    for (int i = 0; i < rows; i++) {\n        matrix[i] = new int[cols];\n    }\n\n    // Fill with values\n    int val = 1;\n    for (int i = 0; i < rows; i++) {\n        for (int j = 0; j < cols; j++) {\n            matrix[i][j] = val++;\n        }\n    }\n\n    // Print\n    cout << \"Matrix:\" << endl;\n    for (int i = 0; i < rows; i++) {\n        for (int j = 0; j < cols; j++) {\n            cout << matrix[i][j] << \"\\t\";\n        }\n        cout << endl;\n    }\n\n    // Deallocate (reverse order: rows first, then array of pointers)\n    for (int i = 0; i < rows; i++) {\n        delete[] matrix[i];\n    }\n    delete[] matrix;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "A dynamic 2D array is an array of pointers (<code>int**</code>), where each pointer points to a dynamically allocated row. Deallocation must happen in reverse order: first free each row (<code>delete[] matrix[i]</code>), then free the array of row pointers (<code>delete[] matrix</code>).",
+        "output": "Matrix:\n1\t2\t3\t4\n5\t6\t7\t8\n9\t10\t11\t12"
+      },
+      {
+        "title": "RAII Pattern -- Automatic Memory Management",
+        "code": "#include <iostream>\nusing namespace std;\n\nclass DynamicArray {\n    int* data;\n    int capacity;\npublic:\n    DynamicArray(int n) : capacity(n), data(new int[n]()) {\n        cout << \"Allocated \" << n << \" elements\" << endl;\n    }\n\n    ~DynamicArray() {\n        delete[] data;\n        cout << \"Freed \" << capacity << \" elements\" << endl;\n    }\n\n    int& operator[](int index) {\n        return data[index];\n    }\n\n    int size() const { return capacity; }\n};\n\nvoid processData() {\n    DynamicArray arr(5);\n    for (int i = 0; i < arr.size(); i++) {\n        arr[i] = (i + 1) * 10;\n    }\n    cout << \"Data: \";\n    for (int i = 0; i < arr.size(); i++) {\n        cout << arr[i] << \" \";\n    }\n    cout << endl;\n    // No manual delete needed!\n    // Destructor runs automatically when arr goes out of scope\n}\n\nint main() {\n    processData();\n    cout << \"Function returned safely\" << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The RAII class <code>DynamicArray</code> allocates memory in its constructor and frees it in its destructor. When the function returns (or an exception is thrown), the destructor is called automatically, preventing memory leaks. This is the foundation of all modern C++ memory management.",
+        "output": "Allocated 5 elements\nData: 10 20 30 40 50\nFreed 5 elements\nFunction returned safely"
+      },
+      {
+        "title": "Smart Pointers Preview -- unique_ptr and shared_ptr",
+        "code": "#include <iostream>\n#include <memory>\nusing namespace std;\n\nclass Resource {\n    string name;\npublic:\n    Resource(string n) : name(n) {\n        cout << \"Created: \" << name << endl;\n    }\n    ~Resource() {\n        cout << \"Destroyed: \" << name << endl;\n    }\n    void use() { cout << \"Using: \" << name << endl; }\n};\n\nint main() {\n    cout << \"--- unique_ptr ---\" << endl;\n    {\n        unique_ptr<Resource> p1 = make_unique<Resource>(\"UniqueRes\");\n        p1->use();\n        // unique_ptr<Resource> p2 = p1;  // ERROR: cannot copy\n    } // p1 goes out of scope, Resource destroyed\n\n    cout << \"\\n--- shared_ptr ---\" << endl;\n    {\n        shared_ptr<Resource> p2 = make_shared<Resource>(\"SharedRes\");\n        cout << \"Count: \" << p2.use_count() << endl;\n        {\n            shared_ptr<Resource> p3 = p2;  // shared ownership\n            cout << \"Count: \" << p2.use_count() << endl;\n            p3->use();\n        } // p3 destroyed, count decreases\n        cout << \"Count: \" << p2.use_count() << endl;\n    } // p2 destroyed, count = 0, Resource destroyed\n\n    cout << \"\\nDone\" << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>unique_ptr</code> has exclusive ownership -- when it goes out of scope, the resource is freed. It cannot be copied, only moved. <code>shared_ptr</code> uses reference counting -- the resource is freed when the last shared_ptr pointing to it is destroyed. The <code>use_count()</code> method shows the current reference count.",
+        "output": "--- unique_ptr ---\nCreated: UniqueRes\nUsing: UniqueRes\nDestroyed: UniqueRes\n\n--- shared_ptr ---\nCreated: SharedRes\nCount: 1\nCount: 2\nUsing: SharedRes\nCount: 1\nDestroyed: SharedRes\n\nDone"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using delete Instead of delete[] for Arrays",
+        "wrongCode": "int* arr = new int[100];\n// ... use arr ...\ndelete arr;    // WRONG!",
+        "error": "Undefined behavior. The runtime does not know how many destructors to call or how much memory to free.",
+        "correctCode": "int* arr = new int[100];\n// ... use arr ...\ndelete[] arr;  // CORRECT: matches new[]",
+        "explanation": "Memory allocated with <code>new[]</code> must be freed with <code>delete[]</code>. Using plain <code>delete</code> on array memory is undefined behavior. For primitive types it may appear to work on some compilers, but for class types it will not call destructors for elements beyond the first."
+      },
+      {
+        "title": "Overwriting a Pointer Without Freeing (Memory Leak)",
+        "wrongCode": "int* p = new int(10);\np = new int(20);    // LEAK: old memory (10) is never freed\ndelete p;           // only frees the second allocation",
+        "error": "No compilation error, but the first allocation (value 10) is leaked. It cannot be accessed or freed.",
+        "correctCode": "int* p = new int(10);\ndelete p;           // free the first allocation\np = new int(20);    // now safe to reassign\ndelete p;           // free the second allocation",
+        "explanation": "Before reassigning a pointer to new memory, always free the old memory first. Otherwise, the old memory becomes unreachable and is leaked for the lifetime of the program."
+      },
+      {
+        "title": "Accessing Memory After delete (Dangling Pointer)",
+        "wrongCode": "int* p = new int(42);\ndelete p;\ncout << *p;    // UNDEFINED BEHAVIOR: dangling pointer",
+        "error": "Undefined behavior. The memory at that address may have been reallocated for another purpose. The program may crash, print garbage, or appear to work.",
+        "correctCode": "int* p = new int(42);\ndelete p;\np = nullptr;   // nullify after delete\nif (p != nullptr) {\n    cout << *p;\n} else {\n    cout << \"Pointer is null\";\n}",
+        "explanation": "After <code>delete</code>, the pointer becomes dangling. Always set it to <code>nullptr</code> immediately after deleting. Check for <code>nullptr</code> before dereferencing."
+      },
+      {
+        "title": "Freeing Stack Memory with delete",
+        "wrongCode": "int x = 42;\nint* p = &x;\ndelete p;      // WRONG: x is on the stack, not the heap",
+        "error": "Undefined behavior. Calling delete on memory that was not allocated with new corrupts the heap.",
+        "correctCode": "int x = 42;\nint* p = &x;\n// Do NOT delete p; x is a stack variable\ncout << *p;    // just use the pointer, no delete needed",
+        "explanation": "Only use <code>delete</code> on memory that was allocated with <code>new</code>. Stack variables are automatically freed when they go out of scope. Calling <code>delete</code> on a stack address corrupts the heap allocator's internal data structures."
+      },
+      {
+        "title": "Forgetting to Deallocate 2D Array Rows",
+        "wrongCode": "int** matrix = new int*[3];\nfor (int i = 0; i < 3; i++)\n    matrix[i] = new int[4];\n\n// ... use matrix ...\n\ndelete[] matrix;  // WRONG: only frees the row pointer array, not the rows",
+        "error": "Memory leak. The 3 row arrays (each of 4 ints) are never freed.",
+        "correctCode": "// Free each row first\nfor (int i = 0; i < 3; i++)\n    delete[] matrix[i];\n// Then free the row pointer array\ndelete[] matrix;",
+        "explanation": "A dynamic 2D array requires two levels of deallocation. First free each row (<code>delete[] matrix[i]</code>), then free the array of row pointers (<code>delete[] matrix</code>). Failing to free the rows leaks their memory."
+      }
+    ],
+    "summary": [
+      "Dynamic memory allocation uses the new operator to allocate memory on the heap at runtime, and delete to free it.",
+      "Stack memory is fast, automatic, and limited in size. Heap memory is slower, manual, and much larger.",
+      "new allocates a single variable (new int(42)) or an array (new int[n]). delete frees single allocations; delete[] frees arrays.",
+      "A memory leak occurs when allocated memory is never freed. Common causes: forgetting delete, overwriting pointers, and exceptions before delete.",
+      "A dangling pointer points to memory that has been freed. Always set pointers to nullptr after delete.",
+      "Dynamic 2D arrays use int** with nested allocation. Deallocation must happen in reverse order: rows first, then the row pointer array.",
+      "C++ has no realloc equivalent. Use std::vector for automatically resizable arrays.",
+      "RAII (Resource Acquisition Is Initialization) ties resource lifetime to object lifetime. Allocate in the constructor, free in the destructor.",
+      "Smart pointers (unique_ptr, shared_ptr, weak_ptr) automate memory management using RAII. Prefer them over raw new/delete in modern C++.",
+      "Every new must have exactly one matching delete. Every new[] must have exactly one matching delete[]. Mismatching is undefined behavior."
+    ]
+  },
+  "relatedTopics": ["pointers-in-cpp", "oop-classes-and-objects"],
+  "practice": {
+    "totalQuestions": 54,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>int* p = new int(42);\ncout << *p;\ndelete p;</code></pre>",
+        "hint": "new int(42) allocates an int on the heap and initializes it to 42.",
+        "answer": "<code>42</code>",
+        "explanation": "<code>new int(42)</code> allocates memory on the heap and stores 42. <code>*p</code> dereferences the pointer to print the value. <code>delete p</code> frees the memory."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int* arr = new int[3]();\ncout << arr[0] << \" \" << arr[1] << \" \" << arr[2];\ndelete[] arr;</code></pre>",
+        "hint": "The parentheses () after new int[3] value-initialize all elements.",
+        "answer": "<code>0 0 0</code>",
+        "explanation": "<code>new int[3]()</code> allocates 3 integers and value-initializes them to 0. Without the parentheses, the values would be uninitialized (garbage)."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int* p = new int(10);\n*p += 5;\ncout << *p;\ndelete p;</code></pre>",
+        "hint": "*p += 5 adds 5 to the value stored at the heap location.",
+        "answer": "<code>15</code>",
+        "explanation": "<code>new int(10)</code> allocates and stores 10. <code>*p += 5</code> adds 5 to the value, making it 15."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int x = 100;\nint* p = &x;\nint* q = new int(200);\ncout << *p << \" \" << *q;\ndelete q;</code></pre>",
+        "hint": "p points to a stack variable; q points to a heap variable.",
+        "answer": "<code>100 200</code>",
+        "explanation": "<code>p</code> points to stack variable <code>x</code> (100). <code>q</code> points to heap memory containing 200. Only <code>q</code> needs <code>delete</code> because only <code>q</code> was allocated with <code>new</code>."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int* arr = new int[5]{10, 20, 30, 40, 50};\nint sum = 0;\nfor (int i = 0; i < 5; i++) {\n    sum += arr[i];\n}\ncout << sum;\ndelete[] arr;</code></pre>",
+        "hint": "Sum all five elements.",
+        "answer": "<code>150</code>",
+        "explanation": "The array is initialized with {10, 20, 30, 40, 50}. The sum is 10 + 20 + 30 + 40 + 50 = 150."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Box {\npublic:\n    int value;\n    Box(int v) : value(v) {\n        cout << \"Box(\" << v << \") \";\n    }\n    ~Box() {\n        cout << \"~Box(\" << value << \") \";\n    }\n};\n\nBox* b = new Box(42);\ncout << b->value << \" \";\ndelete b;</code></pre>",
+        "hint": "new calls the constructor, delete calls the destructor.",
+        "answer": "<code>Box(42) 42 ~Box(42) </code>",
+        "explanation": "<code>new Box(42)</code> calls the constructor which prints \"Box(42)\". <code>b->value</code> prints 42. <code>delete b</code> calls the destructor which prints \"~Box(42)\"."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int** matrix = new int*[2];\nmatrix[0] = new int[2]{1, 2};\nmatrix[1] = new int[2]{3, 4};\ncout << matrix[0][0] + matrix[1][1];\n\ndelete[] matrix[0];\ndelete[] matrix[1];\ndelete[] matrix;</code></pre>",
+        "hint": "matrix[0][0] is the top-left, matrix[1][1] is the bottom-right.",
+        "answer": "<code>5</code>",
+        "explanation": "<code>matrix[0][0]</code> is 1, <code>matrix[1][1]</code> is 4. Their sum is 5."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int* p = new int(10);\nint* q = p;         // q points to same memory\n*q = 20;\ncout << *p << endl;\ndelete p;\n// delete q;  // Would this be correct?</code></pre>",
+        "hint": "Both p and q point to the same heap memory. Only one delete is needed.",
+        "answer": "<code>20</code><br>(Deleting q would be a double-free error since p already freed the memory)",
+        "explanation": "<code>q = p</code> makes both pointers point to the same heap location. <code>*q = 20</code> modifies the shared memory. <code>*p</code> reads the same location, giving 20. After <code>delete p</code>, the memory is freed. Calling <code>delete q</code> would be a double-free, which is undefined behavior."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class Counter {\n    static int count;\npublic:\n    Counter() { count++; cout << \"+\" << count << \" \"; }\n    ~Counter() { cout << \"-\" << count << \" \"; count--; }\n};\nint Counter::count = 0;\n\nCounter* arr = new Counter[3];\ncout << \"| \";\ndelete[] arr;</code></pre>",
+        "hint": "new[] calls the constructor for each element. delete[] calls the destructor for each element in reverse order.",
+        "answer": "<code>+1 +2 +3 | -3 -2 -1 </code>",
+        "explanation": "<code>new Counter[3]</code> constructs 3 objects, incrementing count each time: +1, +2, +3. <code>delete[] arr</code> destructs in reverse order (last to first), decrementing count: -3, -2, -1."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include <memory>\nusing namespace std;\n\nauto p1 = make_shared<int>(10);\ncout << \"count: \" << p1.use_count() << endl;\n{\n    auto p2 = p1;\n    *p2 += 5;\n    cout << \"count: \" << p1.use_count() << endl;\n    cout << \"value: \" << *p1 << endl;\n}\ncout << \"count: \" << p1.use_count() << endl;\ncout << \"value: \" << *p1 << endl;</code></pre>",
+        "hint": "shared_ptr uses reference counting. Copying increments the count; destruction decrements it.",
+        "answer": "<code>count: 1</code><br><code>count: 2</code><br><code>value: 15</code><br><code>count: 1</code><br><code>value: 15</code>",
+        "explanation": "Initially p1 has count 1. Copying to p2 increases count to 2. <code>*p2 += 5</code> modifies the shared value to 15. When p2 goes out of scope, count drops to 1. The value 15 is still accessible through p1."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between stack memory and heap memory?",
+        "hint": "Think about lifetime, speed, size, and who manages the memory.",
+        "answer": "<strong>Stack:</strong> Automatic allocation/deallocation, very fast, limited size (1-8 MB), variables destroyed at scope end. <strong>Heap:</strong> Manual allocation (new) and deallocation (delete), slower, much larger (limited by system RAM), variables persist until explicitly freed.",
+        "explanation": "Stack memory is managed by the compiler -- local variables are pushed when entering a scope and popped when leaving. Heap memory is managed by the programmer -- you must call new to allocate and delete to free. Forgetting delete causes memory leaks."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is a memory leak? How does it happen?",
+        "hint": "Think about what happens when you lose the pointer to heap memory.",
+        "answer": "A memory leak occurs when dynamically allocated memory (via <code>new</code>) is never freed (via <code>delete</code>). It happens when: (1) a pointer to heap memory goes out of scope without delete, (2) a pointer is reassigned without freeing the old memory, (3) an exception is thrown before delete is reached.",
+        "explanation": "Leaked memory cannot be reclaimed until the program exits. In long-running programs (servers, games), accumulated leaks can consume all available memory, causing crashes or extreme slowdowns."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int* p = new int;\n*p = 7;\nint* q = new int;\n*q = 3;\ncout << *p + *q;\ndelete p;\ndelete q;</code></pre>",
+        "hint": "Each new allocates a separate int. Add the dereferenced values.",
+        "answer": "<code>10</code>",
+        "explanation": "<code>*p</code> is 7, <code>*q</code> is 3. <code>*p + *q</code> = 10. Both allocations are properly freed."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int* createArray(int size) {\n    int* arr = new int[size];\n    for (int i = 0; i < size; i++)\n        arr[i] = i * 2;\n    return arr;\n}\n\nint* data = createArray(4);\nfor (int i = 0; i < 4; i++)\n    cout << data[i] << \" \";\ndelete[] data;</code></pre>",
+        "hint": "The function allocates on the heap and returns the pointer. The caller frees it.",
+        "answer": "<code>0 2 4 6 </code>",
+        "explanation": "The function allocates 4 ints and fills them with 0, 2, 4, 6. The pointer is returned to the caller, who uses and then deletes the array. This is a common pattern for factory functions."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is RAII and why is it important in C++?",
+        "hint": "Think about tying resource lifetime to object lifetime.",
+        "answer": "<strong>RAII (Resource Acquisition Is Initialization)</strong> means acquiring resources in the constructor and releasing them in the destructor. When the object goes out of scope, the destructor runs automatically, ensuring cleanup even if an exception is thrown. This eliminates memory leaks, file handle leaks, and lock leaks.",
+        "explanation": "RAII is the foundation of modern C++ resource management. Classes like <code>vector</code>, <code>string</code>, <code>unique_ptr</code>, <code>fstream</code>, and <code>lock_guard</code> all use RAII. The programmer never calls <code>delete</code> manually -- the destructor handles it."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Tracker {\npublic:\n    string name;\n    Tracker(string n) : name(n) { cout << \"C:\" << name << \" \"; }\n    ~Tracker() { cout << \"D:\" << name << \" \"; }\n};\n\nTracker t1(\"stack\");\ncout << \"| \";\nTracker* t2 = new Tracker(\"heap\");\ncout << \"| \";\ndelete t2;\ncout << \"| \";</code></pre><p>(Assume this is inside main, and t1 is a local variable)</p>",
+        "hint": "Stack objects are destroyed at scope end; heap objects are destroyed at delete.",
+        "answer": "<code>C:stack | C:heap | D:heap | </code><br>(D:stack would print after main returns)",
+        "explanation": "<code>t1</code> is constructed on the stack. <code>t2</code> is constructed on the heap. <code>delete t2</code> immediately destroys the heap object. <code>t1</code>'s destructor runs when main returns."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include <memory>\nusing namespace std;\n\nauto p1 = make_unique<int>(100);\ncout << *p1 << endl;\nauto p2 = move(p1);       // transfer ownership\ncout << *p2 << endl;\nif (p1 == nullptr)\n    cout << \"p1 is null\" << endl;</code></pre>",
+        "hint": "unique_ptr cannot be copied but can be moved. After move, the source becomes nullptr.",
+        "answer": "<code>100</code><br><code>100</code><br><code>p1 is null</code>",
+        "explanation": "<code>make_unique<int>(100)</code> creates a unique_ptr owning an int with value 100. <code>move(p1)</code> transfers ownership to p2. After the move, p1 is nullptr. p2 now owns the resource."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int** arr = new int*[3];\nfor (int i = 0; i < 3; i++) {\n    arr[i] = new int(i * 10);\n}\nfor (int i = 0; i < 3; i++) {\n    cout << *arr[i] << \" \";\n}\nfor (int i = 0; i < 3; i++) {\n    delete arr[i];\n}\ndelete[] arr;</code></pre>",
+        "hint": "arr is an array of pointers, each pointing to a single int on the heap.",
+        "answer": "<code>0 10 20 </code>",
+        "explanation": "<code>arr</code> is an array of 3 <code>int*</code>. Each <code>arr[i]</code> points to a single int: 0, 10, 20. <code>*arr[i]</code> dereferences to get the value. Each <code>delete arr[i]</code> frees the individual int, and <code>delete[] arr</code> frees the pointer array."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the difference between unique_ptr, shared_ptr, and weak_ptr?",
+        "hint": "Think about ownership semantics.",
+        "answer": "<strong>unique_ptr:</strong> Sole ownership. Cannot be copied, only moved. Memory freed when it goes out of scope. Use for exclusive ownership. <strong>shared_ptr:</strong> Shared ownership via reference counting. Memory freed when the last shared_ptr is destroyed. Use when multiple parts of code need the same resource. <strong>weak_ptr:</strong> Non-owning observer of a shared_ptr. Does not affect the reference count. Used to break circular references.",
+        "explanation": "unique_ptr has zero overhead and is preferred for single ownership. shared_ptr has the overhead of maintaining a reference count. weak_ptr must be converted to shared_ptr (via lock()) before accessing the resource, and the conversion may fail if the resource was already freed."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which operator is used to allocate memory on the heap in C++?",
+        "options": {"A": "malloc", "B": "alloc", "C": "new", "D": "create"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>new</code> operator allocates memory on the heap in C++. <code>malloc</code> (A) is a C function that also works in C++ but does not call constructors. <code>alloc</code> (B) and <code>create</code> (D) are not C++ operators."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What must you use to free memory allocated with new int[10]?",
+        "options": {"A": "delete", "B": "delete[]", "C": "free", "D": "remove"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>new[]</code> must be paired with <code>delete[]</code>. Plain <code>delete</code> (A) is for single allocations. <code>free</code> (C) is for C's malloc. <code>remove</code> (D) is not a memory management operator."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Where is dynamically allocated memory stored?",
+        "options": {"A": "Stack", "B": "Heap", "C": "Code segment", "D": "Register"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Memory allocated with <code>new</code> resides on the heap. Local variables go on the stack (A). The code segment (C) stores compiled instructions. Registers (D) are CPU storage, not programmer-accessible."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is a memory leak?",
+        "options": {"A": "Accessing freed memory", "B": "Allocated memory that is never freed", "C": "A null pointer dereference", "D": "Using stack memory for large allocations"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A memory leak is dynamically allocated memory that the program never frees. Accessing freed memory (A) is a dangling pointer issue. Null pointer dereference (C) is a different bug. Using stack for large data (D) risks stack overflow, not a leak."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "What does new int[5]() do?",
+        "options": {"A": "Allocates 5 ints with garbage values", "B": "Allocates 5 ints all initialized to 0", "C": "Allocates 5 ints all initialized to 5", "D": "Compilation error"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The parentheses <code>()</code> after the array size perform value-initialization, which initializes all elements to 0 for primitive types. Without the parentheses, elements would be uninitialized (A)."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What happens if you call delete on a stack variable?",
+        "options": {"A": "The variable is freed", "B": "Nothing happens", "C": "Undefined behavior", "D": "Compilation error"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Calling <code>delete</code> on memory not allocated with <code>new</code> is undefined behavior. It can corrupt the heap allocator and crash the program. The compiler does not catch this error (D is false)."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the typical size of the stack in a C++ program?",
+        "options": {"A": "1 KB", "B": "1-8 MB", "C": "1 GB", "D": "Unlimited"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The default stack size is typically 1-8 MB depending on the operating system and compiler. Exceeding this limit causes a stack overflow. The heap (not the stack) can grow to use most available system memory."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does RAII stand for?",
+        "options": {"A": "Runtime Allocation Is Instant", "B": "Resource Allocation Is Inherited", "C": "Resource Acquisition Is Initialization", "D": "Runtime Acquisition Is Initialization"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> RAII (Resource Acquisition Is Initialization) ties resource lifetime to object lifetime. Resources are acquired in the constructor and released in the destructor, ensuring automatic cleanup."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Hard",
+        "question": "What happens if new fails to allocate memory?",
+        "options": {"A": "Returns nullptr", "B": "Returns NULL", "C": "Throws std::bad_alloc exception", "D": "Silently returns garbage"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> By default, <code>new</code> throws <code>std::bad_alloc</code> if allocation fails. If you want nullptr instead, use the nothrow version: <code>int* p = new(nothrow) int;</code>."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "Which smart pointer allows shared ownership of a resource?",
+        "options": {"A": "unique_ptr", "B": "shared_ptr", "C": "weak_ptr", "D": "auto_ptr"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>shared_ptr</code> uses reference counting to allow multiple pointers to share ownership. <code>unique_ptr</code> (A) is exclusive ownership. <code>weak_ptr</code> (C) is a non-owning observer. <code>auto_ptr</code> (D) is deprecated since C++11."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is wrong with this code?<br><pre><code>unique_ptr<int> p1 = make_unique<int>(10);\nunique_ptr<int> p2 = p1;</code></pre>",
+        "options": {"A": "make_unique is not valid C++", "B": "unique_ptr cannot be copied", "C": "unique_ptr cannot hold int", "D": "There is no error"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>unique_ptr</code> has exclusive ownership and its copy constructor is deleted. You must use <code>move</code>: <code>unique_ptr<int> p2 = move(p1);</code>. After the move, p1 becomes nullptr."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "In what order should a dynamic 2D array (int**) be deallocated?",
+        "options": {"A": "delete[] the outer array first, then each row", "B": "delete[] each row first, then the outer array", "C": "Use a single delete[] on the outer array", "D": "Order does not matter"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Each row must be freed first (<code>delete[] matrix[i]</code>), then the outer array (<code>delete[] matrix</code>). If you free the outer array first (A), you lose the pointers to the rows and cannot free them."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "What is double-free?",
+        "options": {"A": "Calling delete on a null pointer", "B": "Calling delete twice on the same heap memory", "C": "Calling delete[] instead of delete", "D": "Allocating memory twice with new"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Double-free is calling <code>delete</code> on the same pointer twice. It is undefined behavior that can corrupt the heap allocator. Deleting a null pointer (A) is safe and does nothing."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Dynamic Array with User Input",
+        "difficulty": "Easy",
+        "description": "Write a program that reads n from the user, dynamically allocates an array of n integers, reads n values from the user, prints them in reverse order, and properly frees the memory.",
+        "sampleInput": "4\n10 20 30 40",
+        "sampleOutput": "Reverse: 40 30 20 10",
+        "constraints": "Use new[] to allocate and delete[] to free. Do not use vector.",
+        "solution": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n    int* arr = new int[n];\n    for (int i = 0; i < n; i++) cin >> arr[i];\n    cout << \"Reverse: \";\n    for (int i = n - 1; i >= 0; i--) cout << arr[i] << \" \";\n    cout << endl;\n    delete[] arr;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Dynamic String Array",
+        "difficulty": "Easy",
+        "description": "Dynamically allocate an array of n strings, read names from the user, and print them with their index. Free the memory properly.",
+        "sampleInput": "3\nArjun Priya Kavitha",
+        "sampleOutput": "0: Arjun\n1: Priya\n2: Kavitha",
+        "constraints": "Use new string[n] and delete[]. Use getline or cin for input.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n    string* names = new string[n];\n    for (int i = 0; i < n; i++) cin >> names[i];\n    for (int i = 0; i < n; i++) cout << i << \": \" << names[i] << endl;\n    delete[] names;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Resizable Array (Manual)",
+        "difficulty": "Medium",
+        "description": "Write a class ResizableArray that starts with capacity 4. It has push(int val) which adds an element, doubling capacity if full. It has print() which prints all elements. Use new/delete internally.",
+        "sampleInput": "(Push 1, 2, 3, 4, 5, 6)",
+        "sampleOutput": "Elements: 1 2 3 4 5 6\nCapacity: 8",
+        "constraints": "Implement manual resizing using new/delete. Double the capacity when full.",
+        "solution": "#include <iostream>\nusing namespace std;\n\nclass ResizableArray {\n    int* data;\n    int size;\n    int capacity;\n\n    void resize() {\n        capacity *= 2;\n        int* newData = new int[capacity];\n        for (int i = 0; i < size; i++) newData[i] = data[i];\n        delete[] data;\n        data = newData;\n    }\n\npublic:\n    ResizableArray() : size(0), capacity(4) {\n        data = new int[capacity];\n    }\n    ~ResizableArray() { delete[] data; }\n\n    void push(int val) {\n        if (size == capacity) resize();\n        data[size++] = val;\n    }\n\n    void print() {\n        cout << \"Elements: \";\n        for (int i = 0; i < size; i++) cout << data[i] << \" \";\n        cout << endl;\n        cout << \"Capacity: \" << capacity << endl;\n    }\n};\n\nint main() {\n    ResizableArray arr;\n    for (int i = 1; i <= 6; i++) arr.push(i);\n    arr.print();\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Dynamic Matrix Addition",
+        "difficulty": "Medium",
+        "description": "Write a program that dynamically allocates two m x n matrices, fills them with user input, computes their sum in a third dynamic matrix, prints the result, and frees all memory.",
+        "sampleInput": "2 2\n1 2\n3 4\n5 6\n7 8",
+        "sampleOutput": "Sum:\n6 8\n10 12",
+        "constraints": "Use int** for all matrices. Free all memory in reverse order.",
+        "solution": "#include <iostream>\nusing namespace std;\n\nint** allocMatrix(int r, int c) {\n    int** m = new int*[r];\n    for (int i = 0; i < r; i++) m[i] = new int[c];\n    return m;\n}\n\nvoid freeMatrix(int** m, int r) {\n    for (int i = 0; i < r; i++) delete[] m[i];\n    delete[] m;\n}\n\nint main() {\n    int r, c;\n    cin >> r >> c;\n    int** a = allocMatrix(r, c);\n    int** b = allocMatrix(r, c);\n    int** sum = allocMatrix(r, c);\n\n    for (int i = 0; i < r; i++)\n        for (int j = 0; j < c; j++) cin >> a[i][j];\n    for (int i = 0; i < r; i++)\n        for (int j = 0; j < c; j++) cin >> b[i][j];\n    for (int i = 0; i < r; i++)\n        for (int j = 0; j < c; j++) sum[i][j] = a[i][j] + b[i][j];\n\n    cout << \"Sum:\" << endl;\n    for (int i = 0; i < r; i++) {\n        for (int j = 0; j < c; j++) cout << sum[i][j] << \" \";\n        cout << endl;\n    }\n\n    freeMatrix(a, r);\n    freeMatrix(b, r);\n    freeMatrix(sum, r);\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Student Database with Dynamic Objects",
+        "difficulty": "Hard",
+        "description": "Create a Student class with name and marks. Dynamically allocate an array of n Student objects on the heap, fill with user data, find the topper, and print all students. Free memory properly.",
+        "sampleInput": "3\nRahul 85\nPriya 92\nArun 78",
+        "sampleOutput": "All Students:\n1. Rahul - 85\n2. Priya - 92\n3. Arun - 78\nTopper: Priya (92)",
+        "constraints": "Use new Student[n] and delete[]. Implement a display() method in the class.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Student {\npublic:\n    string name;\n    int marks;\n    Student() : name(\"\"), marks(0) {}\n    Student(string n, int m) : name(n), marks(m) {}\n    void display(int idx) {\n        cout << idx << \". \" << name << \" - \" << marks << endl;\n    }\n};\n\nint main() {\n    int n;\n    cin >> n;\n    Student* students = new Student[n];\n    for (int i = 0; i < n; i++) {\n        string name; int marks;\n        cin >> name >> marks;\n        students[i] = Student(name, marks);\n    }\n\n    cout << \"All Students:\" << endl;\n    for (int i = 0; i < n; i++) students[i].display(i + 1);\n\n    int topIdx = 0;\n    for (int i = 1; i < n; i++)\n        if (students[i].marks > students[topIdx].marks) topIdx = i;\n    cout << \"Topper: \" << students[topIdx].name << \" (\" << students[topIdx].marks << \")\" << endl;\n\n    delete[] students;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "RAII Wrapper for Dynamic Array",
+        "difficulty": "Hard",
+        "description": "Implement a SafeArray class that wraps a dynamic int array with RAII. The class should support: constructor(int size), destructor, operator[] for access, size() method, and fill(int value). Demonstrate that memory is freed automatically without explicit delete.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Array created with size 5\nFilled: 42 42 42 42 42\nModified: 42 42 99 42 42\nArray destroyed (5 elements freed)",
+        "constraints": "The destructor must free the memory. No manual delete should be needed outside the class.",
+        "solution": "#include <iostream>\nusing namespace std;\n\nclass SafeArray {\n    int* data;\n    int len;\npublic:\n    SafeArray(int n) : len(n), data(new int[n]()) {\n        cout << \"Array created with size \" << n << endl;\n    }\n    ~SafeArray() {\n        delete[] data;\n        cout << \"Array destroyed (\" << len << \" elements freed)\" << endl;\n    }\n    int& operator[](int i) { return data[i]; }\n    int size() const { return len; }\n    void fill(int val) {\n        for (int i = 0; i < len; i++) data[i] = val;\n    }\n    void print() {\n        for (int i = 0; i < len; i++) cout << data[i] << \" \";\n        cout << endl;\n    }\n};\n\nint main() {\n    SafeArray arr(5);\n    arr.fill(42);\n    cout << \"Filled: \";\n    arr.print();\n    arr[2] = 99;\n    cout << \"Modified: \";\n    arr.print();\n    // No delete needed! Destructor handles cleanup\n    return 0;\n}"
+      }
+    ]
+  }
+}

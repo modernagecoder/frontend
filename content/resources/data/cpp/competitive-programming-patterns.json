@@ -1,0 +1,733 @@
+{
+  "title": "Competitive Programming Patterns in C++",
+  "slug": "competitive-programming-patterns",
+  "language": "cpp",
+  "chapter": 24,
+  "difficulty": "Advanced",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-10",
+  "seo": {
+    "title": "Competitive Programming Patterns in C++ - Two Pointers, Sliding Window, Prefix Sum, Bit Manipulation | Modern Age Coders",
+    "description": "Master competitive programming patterns in C++: two pointers, sliding window, prefix sum, binary search on answer, bit manipulation, and greedy algorithms. All code is compilable. Includes 60+ coding and output-based questions.",
+    "keywords": "competitive programming c++, two pointers c++, sliding window c++, prefix sum c++, binary search on answer, bit manipulation c++, greedy algorithm c++, cp patterns, codeforces c++, leetcode c++"
+  },
+  "content": {
+    "what": "<h2>What Are Competitive Programming Patterns?</h2><p><strong>Competitive programming patterns</strong> are reusable algorithmic templates that solve broad categories of problems efficiently. Instead of inventing a solution from scratch for every problem, experienced competitive programmers recognize the pattern and apply a known technique.</p><p>The most important patterns in competitive programming are:</p><ul><li><strong>Fast I/O</strong> -- critical for large inputs on online judges</li><li><strong>Two Pointers</strong> -- scan from both ends or use two markers</li><li><strong>Sliding Window</strong> -- maintain a window of elements that slides across the array</li><li><strong>Prefix Sum</strong> -- precompute cumulative sums for O(1) range queries</li><li><strong>Binary Search on Answer</strong> -- binary search the solution space, not the array</li><li><strong>Bit Manipulation</strong> -- use bitwise operations for O(1) tricks</li><li><strong>Greedy</strong> -- make the locally optimal choice at each step</li></ul><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;vector&gt;\n#include &lt;algorithm&gt;\nusing namespace std;\n\n// Fast I/O setup (use in every CP solution)\nvoid fastIO() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n    cout.tie(nullptr);\n}\n\nint main() {\n    fastIO();\n\n    // Two pointers: find pair with given sum in sorted array\n    vector&lt;int&gt; v = {1, 3, 5, 7, 9, 11};\n    int target = 12;\n    int left = 0, right = v.size() - 1;\n    while (left &lt; right) {\n        int sum = v[left] + v[right];\n        if (sum == target) {\n            cout &lt;&lt; v[left] &lt;&lt; \" + \" &lt;&lt; v[right] &lt;&lt; \" = \" &lt;&lt; target &lt;&lt; endl;\n            break;\n        } else if (sum &lt; target) left++;\n        else right--;\n    }\n    return 0;\n}</code></pre><p>When Siddharth says \"this is a sliding window problem\" or Ananya says \"binary search on the answer,\" the pattern immediately narrows the solution approach and implementation time.</p>",
+    "why": "<h2>Why Are Competitive Programming Patterns Important?</h2><h3>1. Speed in Contests</h3><p>In a timed contest (Codeforces, CodeChef, ICPC), recognizing the pattern is 80% of solving the problem. If you see \"find a subarray with maximum sum of length k,\" you immediately think sliding window. If you see \"minimize the maximum value,\" you think binary search on answer. Pattern recognition saves critical minutes.</p><h3>2. Reducing O(n^2) to O(n) or O(n log n)</h3><p>Most competitive programming patterns exist to reduce brute-force time complexity. Two pointers reduces O(n^2) pair finding to O(n). Sliding window reduces O(n*k) subarray problems to O(n). Prefix sums reduce O(n) per range query to O(1). These optimizations are the difference between TLE and AC.</p><h3>3. Structured Problem Solving</h3><p>Patterns provide a mental framework: read the problem, identify constraints, match a pattern, implement the template. This structured approach works far better than ad-hoc coding, especially under pressure.</p><h3>4. Interview Preparation</h3><p>Top tech companies (Google, Amazon, Microsoft, Flipkart, Uber) heavily test these patterns. Two pointers, sliding window, prefix sums, and bit manipulation appear in the majority of coding interviews. Mastering these patterns directly translates to interview success.</p><h3>5. Building Blocks for Advanced Algorithms</h3><p>These basic patterns are building blocks for advanced techniques. Segment trees build on prefix sums. Convex hull trick builds on binary search. Network flow uses greedy and BFS. Mastering the basics makes advanced algorithms approachable.</p>",
+    "codeExamples": [
+      {
+        "title": "Two Pointers: Container With Most Water",
+        "code": "#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n\n    vector<int> height = {1, 8, 6, 2, 5, 4, 8, 3, 7};\n    int left = 0, right = height.size() - 1;\n    int maxWater = 0;\n\n    while (left < right) {\n        int width = right - left;\n        int h = min(height[left], height[right]);\n        maxWater = max(maxWater, width * h);\n\n        // Move the shorter side inward\n        if (height[left] < height[right])\n            left++;\n        else\n            right--;\n    }\n\n    cout << \"Max water: \" << maxWater << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The two-pointer technique works on sorted arrays or problems where moving one pointer reduces the search space. Here, we start from both ends and always move the shorter side inward because keeping the shorter side cannot improve the area. This reduces O(n^2) brute force to O(n).",
+        "output": "Max water: 49"
+      },
+      {
+        "title": "Sliding Window: Maximum Sum Subarray of Size K",
+        "code": "#include <iostream>\n#include <vector>\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n\n    vector<int> arr = {2, 1, 5, 1, 3, 2, 8, 4, 3};\n    int k = 3;\n    int n = arr.size();\n\n    // Compute sum of first window\n    int windowSum = 0;\n    for (int i = 0; i < k; i++)\n        windowSum += arr[i];\n\n    int maxSum = windowSum;\n    int startIdx = 0;\n\n    // Slide the window: add right element, remove left element\n    for (int i = k; i < n; i++) {\n        windowSum += arr[i] - arr[i - k];\n        if (windowSum > maxSum) {\n            maxSum = windowSum;\n            startIdx = i - k + 1;\n        }\n    }\n\n    cout << \"Max sum: \" << maxSum << endl;\n    cout << \"Subarray: \";\n    for (int i = startIdx; i < startIdx + k; i++)\n        cout << arr[i] << \" \";\n    cout << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The sliding window technique maintains a window of size k that slides one position at a time. Instead of recomputing the sum from scratch (O(k) per position), we add the new element and remove the old one (O(1) per position). Total complexity: O(n) instead of O(n*k).",
+        "output": "Max sum: 14\nSubarray: 2 8 4"
+      },
+      {
+        "title": "Sliding Window: Longest Substring Without Repeating Characters",
+        "code": "#include <iostream>\n#include <string>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n\n    string s = \"abcabcbb\";\n    unordered_map<char, int> lastSeen;\n    int maxLen = 0, start = 0;\n    int bestStart = 0;\n\n    for (int end = 0; end < (int)s.size(); end++) {\n        if (lastSeen.count(s[end]) && lastSeen[s[end]] >= start)\n            start = lastSeen[s[end]] + 1;\n\n        lastSeen[s[end]] = end;\n        if (end - start + 1 > maxLen) {\n            maxLen = end - start + 1;\n            bestStart = start;\n        }\n    }\n\n    cout << \"Longest substring: \" << s.substr(bestStart, maxLen) << endl;\n    cout << \"Length: \" << maxLen << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "This is a variable-size sliding window. We expand the right end and shrink the left end when a duplicate is found within the current window. The <code>lastSeen</code> map tracks the most recent index of each character, allowing O(1) duplicate detection. Total: O(n) time, O(min(n, alphabet_size)) space.",
+        "output": "Longest substring: abc\nLength: 3"
+      },
+      {
+        "title": "Prefix Sum: Subarray Sum Equals K",
+        "code": "#include <iostream>\n#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n\n    vector<int> nums = {1, 1, 1, 2, -1, 2};\n    int k = 3;\n\n    unordered_map<int, int> prefixCount;\n    prefixCount[0] = 1;  // Empty prefix has sum 0\n    int sum = 0, count = 0;\n\n    for (int num : nums) {\n        sum += num;\n        // If (sum - k) was a previous prefix sum,\n        // then the subarray between them sums to k\n        if (prefixCount.count(sum - k))\n            count += prefixCount[sum - k];\n        prefixCount[sum]++;\n    }\n\n    cout << \"Subarrays with sum \" << k << \": \" << count << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "This is the prefix sum + hash map pattern. If prefix[j] - prefix[i] = k, then the subarray from i+1 to j sums to k. We store prefix sum frequencies in a hash map. For each position, we check if (current_sum - k) exists as a previous prefix sum. This solves the problem in O(n) instead of O(n^2).",
+        "output": "Subarrays with sum 3: 4"
+      },
+      {
+        "title": "Binary Search on Answer: Minimum Maximum Pages Allocation",
+        "code": "#include <iostream>\n#include <vector>\n#include <algorithm>\n#include <numeric>\nusing namespace std;\n\n// Can we allocate books to m students with max pages = maxPages?\nbool canAllocate(vector<int>& books, int m, int maxPages) {\n    int students = 1, currentPages = 0;\n    for (int pages : books) {\n        if (pages > maxPages) return false;  // Single book exceeds limit\n        if (currentPages + pages > maxPages) {\n            students++;\n            currentPages = pages;\n        } else {\n            currentPages += pages;\n        }\n    }\n    return students <= m;\n}\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n\n    vector<int> books = {12, 34, 67, 90};\n    int students = 2;\n\n    int lo = *max_element(books.begin(), books.end());\n    int hi = accumulate(books.begin(), books.end(), 0);\n    int answer = hi;\n\n    while (lo <= hi) {\n        int mid = lo + (hi - lo) / 2;\n        if (canAllocate(books, students, mid)) {\n            answer = mid;\n            hi = mid - 1;\n        } else {\n            lo = mid + 1;\n        }\n    }\n\n    cout << \"Minimum maximum pages: \" << answer << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Binary search on the answer: instead of searching for an element, we binary search the solution space. Here the answer (maximum pages any student reads) lies between max(books) and sum(books). For each candidate answer, we check feasibility with a greedy allocation. Total: O(n log(sum)) time. This pattern appears in hundreds of competitive programming problems.",
+        "output": "Minimum maximum pages: 113"
+      },
+      {
+        "title": "Bit Manipulation: Common Tricks",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n\n    int n = 42;  // Binary: 101010\n\n    // Check if ith bit is set (0-indexed from right)\n    int i = 3;\n    cout << \"Bit \" << i << \" of \" << n << \": \" << ((n >> i) & 1) << endl;\n\n    // Set the ith bit\n    int setResult = n | (1 << 0);  // Set bit 0: 101010 -> 101011\n    cout << \"After setting bit 0: \" << setResult << endl;\n\n    // Clear the ith bit\n    int clearResult = n & ~(1 << 1);  // Clear bit 1: 101010 -> 101000\n    cout << \"After clearing bit 1: \" << clearResult << endl;\n\n    // Toggle the ith bit\n    int toggleResult = n ^ (1 << 3);  // Toggle bit 3: 101010 -> 100010\n    cout << \"After toggling bit 3: \" << toggleResult << endl;\n\n    // Check if power of 2\n    for (int x : {1, 4, 6, 8, 16, 15}) {\n        bool isPow2 = (x > 0) && ((x & (x - 1)) == 0);\n        cout << x << \" is \" << (isPow2 ? \"\" : \"not \") << \"power of 2\" << endl;\n    }\n\n    // Count set bits (popcount)\n    int x = 29;  // 11101 -> 4 set bits\n    cout << \"Set bits in \" << x << \": \" << __builtin_popcount(x) << endl;\n\n    // XOR properties: a ^ a = 0, a ^ 0 = a\n    // Find the single number in array where every other appears twice\n    int arr[] = {4, 1, 2, 1, 2};\n    int single = 0;\n    for (int val : arr) single ^= val;\n    cout << \"Single number: \" << single << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Bit manipulation provides O(1) operations for common tasks. Check bit: <code>(n >> i) & 1</code>. Set bit: <code>n | (1 << i)</code>. Clear bit: <code>n & ~(1 << i)</code>. Toggle bit: <code>n ^ (1 << i)</code>. Power of 2: <code>n & (n-1) == 0</code>. XOR to find the unique element: pairs cancel out since a ^ a = 0. <code>__builtin_popcount</code> counts set bits in O(1).",
+        "output": "Bit 3 of 42: 1\nAfter setting bit 0: 43\nAfter clearing bit 1: 40\nAfter toggling bit 3: 34\n1 is power of 2\n4 is power of 2\n6 is not power of 2\n8 is power of 2\n16 is power of 2\n15 is not power of 2\nSet bits in 29: 4\nSingle number: 4"
+      },
+      {
+        "title": "Greedy: Activity Selection Problem",
+        "code": "#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n\n    // {start, end} times\n    vector<pair<int,int>> activities = {\n        {1, 4}, {3, 5}, {0, 6}, {5, 7}, {3, 8},\n        {5, 9}, {6, 10}, {8, 11}, {8, 12}, {2, 13}, {12, 14}\n    };\n\n    // Greedy: sort by end time, pick non-overlapping\n    sort(activities.begin(), activities.end(),\n        [](const pair<int,int>& a, const pair<int,int>& b) {\n            return a.second < b.second;\n        });\n\n    vector<pair<int,int>> selected;\n    int lastEnd = -1;\n    for (auto& [start, end] : activities) {\n        if (start >= lastEnd) {\n            selected.push_back({start, end});\n            lastEnd = end;\n        }\n    }\n\n    cout << \"Maximum activities: \" << selected.size() << endl;\n    for (auto& [s, e] : selected)\n        cout << \"[\" << s << \", \" << e << \"] \";\n    cout << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The greedy algorithm makes the locally optimal choice at each step. For activity selection, the greedy strategy is: sort by end time and always pick the next compatible activity (the one that starts after the current one ends). This provably gives the maximum number of non-overlapping activities. Greedy works when the problem has the greedy choice property and optimal substructure.",
+        "output": "Maximum activities: 4\n[1, 4] [5, 7] [8, 11] [12, 14]"
+      },
+      {
+        "title": "Greedy: Fractional Knapsack",
+        "code": "#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n\n    // {value, weight}\n    vector<pair<double, double>> items = {\n        {60, 10}, {100, 20}, {120, 30}\n    };\n    double capacity = 50;\n\n    // Sort by value/weight ratio in descending order\n    sort(items.begin(), items.end(),\n        [](const pair<double,double>& a, const pair<double,double>& b) {\n            return (a.first / a.second) > (b.first / b.second);\n        });\n\n    double totalValue = 0;\n    double remaining = capacity;\n\n    for (auto& [value, weight] : items) {\n        if (remaining >= weight) {\n            // Take the whole item\n            totalValue += value;\n            remaining -= weight;\n            cout << \"Take full item: value=\" << value << \", weight=\" << weight << endl;\n        } else if (remaining > 0) {\n            // Take a fraction\n            double fraction = remaining / weight;\n            totalValue += value * fraction;\n            cout << \"Take \" << (fraction * 100) << \"% of item: value=\" << value\n                 << \", weight=\" << weight << endl;\n            remaining = 0;\n        }\n    }\n\n    cout << \"Total value: \" << totalValue << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Fractional knapsack is solvable by greedy: sort items by value-to-weight ratio and take as much of the highest-ratio item as possible. Unlike 0/1 knapsack (which requires dynamic programming), fractional knapsack allows taking fractions of items, making the greedy approach optimal.",
+        "output": "Take full item: value=60, weight=10\nTake full item: value=100, weight=20\nTake 66.6667% of item: value=120, weight=30\nTotal value: 240"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting Fast I/O (Causes TLE on Large Inputs)",
+        "wrongCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;  // Slow! cin syncs with C stdio\n    // Processing large input causes TLE\n}",
+        "error": "By default, cin/cout sync with C's scanf/printf, adding overhead. For inputs with 10^5+ elements, this can cause Time Limit Exceeded on online judges.",
+        "correctCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n\n    int n;\n    cin >> n;  // Now fast!\n    // Process efficiently\n}",
+        "explanation": "<code>ios_base::sync_with_stdio(false)</code> disables synchronization between C and C++ I/O streams. <code>cin.tie(nullptr)</code> unties cin from cout so cout is not flushed before every cin. Add these two lines at the start of every competitive programming solution."
+      },
+      {
+        "title": "Integer Overflow in Prefix Sum or Binary Search",
+        "wrongCode": "vector<int> v(100000, 1000000);\nint sum = 0;\nfor (int x : v) sum += x;  // Overflow! sum exceeds INT_MAX\n\nint lo = 0, hi = 2000000000;\nint mid = (lo + hi) / 2;  // Overflow when lo + hi > INT_MAX",
+        "error": "int stores up to ~2.1 billion. Prefix sums and binary search midpoints can exceed this, causing silent overflow and wrong answers.",
+        "correctCode": "vector<int> v(100000, 1000000);\nlong long sum = 0;\nfor (int x : v) sum += x;  // Use long long\n\nlong long lo = 0, hi = 2000000000;\nlong long mid = lo + (hi - lo) / 2;  // Overflow-safe midpoint",
+        "explanation": "Use <code>long long</code> for prefix sums, cumulative products, and binary search bounds. Compute midpoint as <code>lo + (hi - lo) / 2</code> instead of <code>(lo + hi) / 2</code> to avoid overflow."
+      },
+      {
+        "title": "Off-by-One in Sliding Window Size",
+        "wrongCode": "// Sliding window of size k, but window has k+1 elements\nfor (int i = k; i < n; i++) {\n    windowSum += arr[i] - arr[i - k - 1];  // Wrong index!\n}",
+        "error": "When sliding a window of size k, the element leaving the window is at index i-k, not i-k-1. Off-by-one errors are the most common bug in sliding window problems.",
+        "correctCode": "// Correct: element leaving is at index i-k\nfor (int i = k; i < n; i++) {\n    windowSum += arr[i] - arr[i - k];  // Correct!\n}",
+        "explanation": "When the window right end is at index i, the window contains elements from i-k+1 to i (inclusive). The element leaving is at index i-k. Always verify window boundaries with a small example."
+      },
+      {
+        "title": "Binary Search on Answer with Wrong Bounds",
+        "wrongCode": "int lo = 0, hi = n;\nwhile (lo < hi) {\n    int mid = lo + (hi - lo) / 2;\n    if (canDo(mid))\n        hi = mid;  // But never check lo == hi\n    else\n        lo = mid;  // Infinite loop when lo + 1 == hi!\n}",
+        "error": "When lo = mid (not mid + 1), the search can get stuck in an infinite loop because lo never advances past mid when lo + 1 == hi.",
+        "correctCode": "// Pattern 1: lo <= hi (inclusive bounds)\nint lo = minVal, hi = maxVal;\nwhile (lo <= hi) {\n    int mid = lo + (hi - lo) / 2;\n    if (canDo(mid)) {\n        answer = mid;\n        hi = mid - 1;\n    } else {\n        lo = mid + 1;\n    }\n}\n// answer is the result",
+        "explanation": "Use consistent binary search templates. The <code>lo <= hi</code> template with <code>lo = mid + 1</code> and <code>hi = mid - 1</code> is the safest and avoids infinite loops. Always move both pointers past mid."
+      },
+      {
+        "title": "Using Bit Shift on Signed Negative Numbers",
+        "wrongCode": "int x = -1;\nint result = x >> 1;\n// Implementation-defined behavior!",
+        "error": "Right-shifting a negative signed integer is implementation-defined in C++. The result depends on the compiler (arithmetic vs logical shift). This can cause wrong answers on different judges.",
+        "correctCode": "unsigned int x = 0xFFFFFFFF;  // Use unsigned for bit manipulation\nunsigned int result = x >> 1;\n// Or use unsigned explicitly:\nint n = -5;\nunsigned int bits = (unsigned int)n;\ncout << __builtin_popcount(bits) << endl;",
+        "explanation": "For bit manipulation, prefer unsigned integers. Right-shifting unsigned values always fills with zeros (logical shift). If you must use signed integers, be aware that the behavior of right-shift on negatives varies by compiler."
+      }
+    ],
+    "summary": [
+      "Fast I/O is mandatory in competitive programming. Add ios_base::sync_with_stdio(false) and cin.tie(nullptr) at the start of every solution. This alone can prevent TLE on problems with large inputs.",
+      "Two pointers technique uses two indices that move toward each other (or in the same direction) to solve problems in O(n). Classic applications: pair sum in sorted array, container with most water, removing duplicates, and merging sorted arrays.",
+      "Sliding window maintains a fixed or variable-size window that slides across the array. Fixed window: max sum subarray of size k. Variable window: longest substring without repeating characters. Both reduce O(n*k) or O(n^2) to O(n).",
+      "Prefix sum precomputes cumulative sums so that range sum queries are O(1): sum(l, r) = prefix[r] - prefix[l-1]. The prefix sum + hash map pattern solves subarray sum equals k in O(n).",
+      "Binary search on the answer binary searches the solution space instead of the array. The pattern is: define a range [lo, hi] for the answer, check feasibility with a greedy/simulation function, and narrow the range. Complexity: O(n log(answer_range)).",
+      "Bit manipulation provides O(1) operations: check bit ((n >> i) & 1), set bit (n | (1 << i)), clear bit (n & ~(1 << i)), toggle bit (n ^ (1 << i)), power of 2 check (n & (n-1) == 0), count set bits (__builtin_popcount).",
+      "XOR has three key properties: a ^ a = 0, a ^ 0 = a, and XOR is commutative/associative. This allows finding the single non-duplicate element in O(n) time O(1) space by XORing all elements.",
+      "Greedy algorithms make the locally optimal choice at each step. Activity selection: sort by end time, pick non-overlapping. Fractional knapsack: sort by value/weight ratio. Greedy works only when the problem has the greedy choice property.",
+      "Always use long long for prefix sums and binary search bounds to avoid integer overflow. Compute midpoint as lo + (hi - lo) / 2 instead of (lo + hi) / 2.",
+      "Time complexity analysis is essential: O(n) solutions handle n up to 10^7, O(n log n) handles up to 10^6, O(n^2) handles up to 10^4, and O(2^n) handles up to about 20. Always check constraints before choosing an approach."
+    ],
+    "explanation": "<h2>Detailed Explanation</h2><p><strong>Competitive programming patterns</strong> are reusable algorithmic templates that solve broad categories of problems efficiently. Instead of inventing a solution from scratch for every problem, experienced competitive programmers recognize the pattern and apply a known technique.</p><p>The most important patterns in competitive programming are:</p><ul><li><strong>Fast I/O</strong> -- critical for large inputs on online judges</li><li><strong>Two Pointers</strong> -- scan from both ends or use two markers</li><li><strong>Sliding Window</strong> -- maintain a window of elements that slides across the array</li><li><strong>Prefix Sum</strong> -- precompute cumulative sums for O(1) range queries</li><li><strong>Binary Search on Answer</strong> -- binary search the solution space, not the array</li><li><strong>Bit Manipulation</strong> -- use bitwise operations for O(1) tricks</li><li><strong>Greedy</strong> -- make the locally optimal choice at each step</li></ul><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;vector&gt;\n#include &lt;algorithm&gt;\nusing namespace std;\n\n// Fast I/O setup (use in every CP solution)\nvoid fastIO() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n    cout.tie(nullptr);\n}\n\nint main() {\n    fastIO();\n\n    // Two pointers: find pair with given sum in sorted array\n    vector&lt;int&gt; v = {1, 3, 5, 7, 9, 11};\n    int target = 12;\n    int left = 0, right = v.size() - 1;\n    while (left &lt; right) {\n        int sum = v[left] + v[right];\n        if (sum == target) {\n            cout &lt;&lt; v[left] &lt;&lt; \" + \" &lt;&lt; v[right] &lt;&lt; \" = \" &lt;&lt; target &lt;&lt; endl;\n            break;\n        } else if (sum &lt; target) left++;\n        else right--;\n    }\n    return 0;\n}</code></pre><p>When Siddharth says \"this is a sliding window problem\" or Ananya says \"binary search on the answer,\" the pattern immediately narrows the solution approach and implementation time.</p><h3>1. Speed in Contests</h3><p>In a timed contest (Codeforces, CodeChef, ICPC), recognizing the pattern is 80% of solving the problem. If you see \"find a subarray with maximum sum of length k,\" you immediately think sliding window. If you see \"minimize the maximum value,\" you think binary search on answer. Pattern recognition saves critical minutes.</p><h3>2. Reducing O(n^2) to O(n) or O(n log n)</h3><p>Most competitive programming patterns exist to reduce brute-force time complexity. Two pointers reduces O(n^2) pair finding to O(n). Sliding window reduces O(n*k) subarray problems to O(n). Prefix sums reduce O(n) per range query to O(1). These optimizations are the difference between TLE and AC.</p><h3>3. Structured Problem Solving</h3><p>Patterns provide a mental framework: read the problem, identify constraints, match a pattern, implement the template. This structured approach works far better than ad-hoc coding, especially under pressure.</p><h3>4. Interview Preparation</h3><p>Top tech companies (Google, Amazon, Microsoft, Flipkart, Uber) heavily test these patterns. Two pointers, sliding window, prefix sums, and bit manipulation appear in the majority of coding interviews. Mastering these patterns directly translates to interview success.</p><h3>5. Building Blocks for Advanced Algorithms</h3><p>These basic patterns are building blocks for advanced techniques. Segment trees build on prefix sums. Convex hull trick builds on binary search. Network flow uses greedy and BFS. Mastering the basics makes advanced algorithms approachable.</p>"
+  },
+  "relatedTopics": [
+    "smart-pointers-and-memory",
+    "modern-cpp-features"
+  ],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int n = 16;\ncout &lt;&lt; ((n &amp; (n - 1)) == 0);</code></pre>",
+        "hint": "n & (n-1) clears the lowest set bit. For powers of 2, this gives 0.",
+        "answer": "<code>1</code>",
+        "explanation": "16 = 10000 in binary. n-1 = 15 = 01111. n & (n-1) = 0. Since the result is 0 and n > 0, it is a power of 2. Output: 1 (true)."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int arr[] = {3, 1, 3, 1, 5};\nint result = 0;\nfor (int x : arr) result ^= x;\ncout &lt;&lt; result;</code></pre>",
+        "hint": "XOR: a ^ a = 0, a ^ 0 = a. Pairs cancel out.",
+        "answer": "<code>5</code>",
+        "explanation": "3 ^ 1 ^ 3 ^ 1 ^ 5 = (3^3) ^ (1^1) ^ 5 = 0 ^ 0 ^ 5 = 5. The XOR of pairs cancels out, leaving the unique element."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int n = 13;  // 1101 in binary\ncout &lt;&lt; __builtin_popcount(n);</code></pre>",
+        "hint": "__builtin_popcount counts the number of set bits (1s).",
+        "answer": "<code>3</code>",
+        "explanation": "13 = 1101 in binary. There are three 1-bits. __builtin_popcount(13) = 3."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v = {1, 2, 3, 4, 5};\nint prefix[6] = {0};\nfor (int i = 0; i &lt; 5; i++)\n    prefix[i + 1] = prefix[i] + v[i];\ncout &lt;&lt; prefix[4] - prefix[1];</code></pre>",
+        "hint": "prefix[i] = sum of first i elements. Range sum [1,3] = prefix[4] - prefix[1].",
+        "answer": "<code>9</code>",
+        "explanation": "prefix = {0, 1, 3, 6, 10, 15}. prefix[4] - prefix[1] = 10 - 1 = 9. This is the sum of v[1]+v[2]+v[3] = 2+3+4 = 9."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int n = 10;  // 1010\nint result = n | (1 &lt;&lt; 0);  // Set bit 0\ncout &lt;&lt; result;</code></pre>",
+        "hint": "Setting bit 0 changes 1010 to 1011.",
+        "answer": "<code>11</code>",
+        "explanation": "10 = 1010. Setting bit 0: 1010 | 0001 = 1011 = 11."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v = {1, 3, 5, 7, 9};\nint target = 8;\nint lo = 0, hi = v.size() - 1;\nwhile (lo &lt; hi) {\n    int sum = v[lo] + v[hi];\n    if (sum == target) {\n        cout &lt;&lt; v[lo] &lt;&lt; \" \" &lt;&lt; v[hi];\n        break;\n    } else if (sum &lt; target) lo++;\n    else hi--;\n}\nif (lo &gt;= hi) cout &lt;&lt; \"Not found\";</code></pre>",
+        "hint": "Two pointers on a sorted array. Start from both ends.",
+        "answer": "<code>1 7</code>",
+        "explanation": "lo=0, hi=4: 1+9=10 > 8, hi=3. lo=0, hi=3: 1+7=8 == target. Output: 1 7."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; arr = {2, 3, 5, 1, 4};\nint k = 3;\nint sum = 0;\nfor (int i = 0; i &lt; k; i++) sum += arr[i];\nint maxSum = sum;\nfor (int i = k; i &lt; (int)arr.size(); i++) {\n    sum += arr[i] - arr[i - k];\n    maxSum = max(maxSum, sum);\n}\ncout &lt;&lt; maxSum;</code></pre>",
+        "hint": "Sliding window of size 3. Track the maximum sum.",
+        "answer": "<code>10</code>",
+        "explanation": "Windows: [2,3,5]=10, [3,5,1]=9, [5,1,4]=10. Maximum sum = 10."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int n = 42;  // 101010\nfor (int i = 5; i &gt;= 0; i--)\n    cout &lt;&lt; ((n &gt;&gt; i) &amp; 1);</code></pre>",
+        "hint": "Extract each bit from MSB to LSB using right shift and AND with 1.",
+        "answer": "<code>101010</code>",
+        "explanation": "42 = 101010 in 6-bit binary. The loop extracts each bit from position 5 down to 0."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int n = 7;  // 0111\nint cleared = n &amp; ~(1 &lt;&lt; 1);  // Clear bit 1\ncout &lt;&lt; cleared;</code></pre>",
+        "hint": "~(1 << 1) = ~(0010) = 1101. AND with 0111 clears bit 1.",
+        "answer": "<code>5</code>",
+        "explanation": "7 = 0111. ~(1 << 1) = 1101. 0111 & 1101 = 0101 = 5. Bit 1 is cleared."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int a = 5, b = 3;\na = a ^ b;\nb = a ^ b;\na = a ^ b;\ncout &lt;&lt; a &lt;&lt; \" \" &lt;&lt; b;</code></pre>",
+        "hint": "XOR swap trick: swaps two variables without a temporary.",
+        "answer": "<code>3 5</code>",
+        "explanation": "Step 1: a = 5^3 = 6. Step 2: b = 6^3 = 5. Step 3: a = 6^5 = 3. Values are swapped: a=3, b=5."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; nums = {1, 2, 3};\nint n = nums.size();\nfor (int mask = 0; mask &lt; (1 &lt;&lt; n); mask++) {\n    cout &lt;&lt; \"{ \";\n    for (int i = 0; i &lt; n; i++)\n        if (mask &amp; (1 &lt;&lt; i))\n            cout &lt;&lt; nums[i] &lt;&lt; \" \";\n    cout &lt;&lt; \"} \";\n}</code></pre>",
+        "hint": "This generates all subsets using bitmask enumeration.",
+        "answer": "<code>{ } { 1 } { 2 } { 1 2 } { 3 } { 1 3 } { 2 3 } { 1 2 3 }</code>",
+        "explanation": "Bitmask 000 to 111 generates all 2^3 = 8 subsets. Each bit position determines whether the corresponding element is included."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v = {-2, 1, -3, 4, -1, 2, 1, -5, 4};\nint maxSum = v[0], currSum = v[0];\nfor (int i = 1; i &lt; (int)v.size(); i++) {\n    currSum = max(v[i], currSum + v[i]);\n    maxSum = max(maxSum, currSum);\n}\ncout &lt;&lt; maxSum;</code></pre>",
+        "hint": "Kadane's algorithm finds the maximum subarray sum in O(n).",
+        "answer": "<code>6</code>",
+        "explanation": "Kadane's algorithm: at each position, either start a new subarray or extend the previous one. The maximum subarray is [4, -1, 2, 1] with sum 6."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; nums = {1, 1, 1};\nint k = 2;\nunordered_map&lt;int, int&gt; prefixCount;\nprefixCount[0] = 1;\nint sum = 0, count = 0;\nfor (int x : nums) {\n    sum += x;\n    if (prefixCount.count(sum - k))\n        count += prefixCount[sum - k];\n    prefixCount[sum]++;\n}\ncout &lt;&lt; count;</code></pre>",
+        "hint": "Prefix sum + hash map to count subarrays with sum == k.",
+        "answer": "<code>2</code>",
+        "explanation": "Prefix sums: 0, 1, 2, 3. For sum=2: sum-k=0, prefixCount[0]=1 -> count=1. For sum=3: sum-k=1, prefixCount[1]=1 -> count=2. Two subarrays sum to 2: [1,1] (indices 0-1) and [1,1] (indices 1-2)."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int n = 0;\nfor (int i = 0; i &lt; 10; i++)\n    if (i &amp; 1) n++;\ncout &lt;&lt; n;</code></pre>",
+        "hint": "i & 1 checks if i is odd (bit 0 is set).",
+        "answer": "<code>5</code>",
+        "explanation": "i & 1 is 1 for odd numbers: 1, 3, 5, 7, 9. That is 5 odd numbers in range [0, 9]."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v = {10, 20, 30, 40, 50};\nint sum = 0;\nfor (int i = 1; i &lt; (int)v.size(); i++)\n    sum += v[i] - v[i - 1];\ncout &lt;&lt; sum;</code></pre>",
+        "hint": "Sum of consecutive differences in an array.",
+        "answer": "<code>40</code>",
+        "explanation": "Differences: 10, 10, 10, 10. Sum = 40. This equals v[last] - v[first] = 50 - 10 = 40 (telescoping sum)."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int n = 255;  // 11111111\nint count = 0;\nwhile (n) {\n    count++;\n    n = n &amp; (n - 1);\n}\ncout &lt;&lt; count;</code></pre>",
+        "hint": "n & (n-1) clears the lowest set bit. Count how many times until n becomes 0.",
+        "answer": "<code>8</code>",
+        "explanation": "255 = 11111111 (8 set bits). Each iteration clears one bit. After 8 iterations, n = 0. This is Brian Kernighan's bit counting algorithm."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v = {3, 1, -2, 5, -3, 2};\nvector&lt;int&gt; prefix(v.size() + 1, 0);\nfor (int i = 0; i &lt; (int)v.size(); i++)\n    prefix[i + 1] = prefix[i] + v[i];\ncout &lt;&lt; prefix[4] - prefix[1];</code></pre>",
+        "hint": "prefix[i] = sum of first i elements. Range sum v[1..3] = prefix[4] - prefix[1].",
+        "answer": "<code>4</code>",
+        "explanation": "prefix = {0, 3, 4, 2, 7, 4, 6}. prefix[4] - prefix[1] = 7 - 3 = 4 = v[1]+v[2]+v[3] = 1+(-2)+5 = 4."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v = {1, 3, 5, 7, 9, 11};\nint lo = 0, hi = v.size() - 1;\nint target = 6;\nwhile (lo &lt;= hi) {\n    int mid = lo + (hi - lo) / 2;\n    if (v[mid] &lt;= target) lo = mid + 1;\n    else hi = mid - 1;\n}\ncout &lt;&lt; hi &lt;&lt; \" \" &lt;&lt; lo;</code></pre>",
+        "hint": "Binary search variant: find the last element <= target.",
+        "answer": "<code>2 3</code>",
+        "explanation": "After binary search: hi = 2 (index of 5, last element <= 6), lo = 3 (index of 7, first element > 6). This finds the upper bound of 6."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int x = 5;  // 101\nint y = 3;  // 011\ncout &lt;&lt; (x &amp; y) &lt;&lt; \" \" &lt;&lt; (x | y);</code></pre>",
+        "hint": "AND keeps common bits. OR combines all bits.",
+        "answer": "<code>1 7</code>",
+        "explanation": "101 AND 011 = 001 = 1. 101 OR 011 = 111 = 7."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">string s = \"abcba\";\nint lo = 0, hi = s.size() - 1;\nbool isPalin = true;\nwhile (lo &lt; hi) {\n    if (s[lo] != s[hi]) { isPalin = false; break; }\n    lo++; hi--;\n}\ncout &lt;&lt; isPalin;</code></pre>",
+        "hint": "Two pointers from both ends to check palindrome.",
+        "answer": "<code>1</code>",
+        "explanation": "\"abcba\" is a palindrome. Two pointers verify: a==a, b==b, c is the middle. isPalin remains true (1)."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int x = 6;  // 110\nint y = 3;  // 011\ncout &lt;&lt; (x ^ y);</code></pre>",
+        "hint": "XOR returns 1 where bits differ.",
+        "answer": "<code>5</code>",
+        "explanation": "110 XOR 011 = 101 = 5. XOR produces 1 in positions where the bits differ."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int x = 12;\ncout &lt;&lt; (x &gt;&gt; 2);</code></pre>",
+        "hint": "Right shift by 2 divides by 4 (for non-negative integers).",
+        "answer": "<code>3</code>",
+        "explanation": "12 = 1100. Right shift by 2: 0011 = 3. This is equivalent to integer division by 4."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">cout &lt;&lt; (1 &lt;&lt; 10);</code></pre>",
+        "hint": "Left shift by k multiplies by 2^k.",
+        "answer": "<code>1024</code>",
+        "explanation": "1 << 10 = 2^10 = 1024. Left shifting 1 by n positions gives 2^n."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v = {1, 2, 3, 4, 5, 6};\nint lo = 0, hi = v.size() - 1;\nint target = 7;\nint pairs = 0;\nwhile (lo &lt; hi) {\n    int sum = v[lo] + v[hi];\n    if (sum == target) { pairs++; lo++; hi--; }\n    else if (sum &lt; target) lo++;\n    else hi--;\n}\ncout &lt;&lt; pairs;</code></pre>",
+        "hint": "Two pointers counting all pairs that sum to target.",
+        "answer": "<code>3</code>",
+        "explanation": "Pairs: (1,6), (2,5), (3,4) all sum to 7. The two-pointer approach finds all 3 pairs."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v = {10, 20, 30, 40, 50};\nvector&lt;int&gt; prefix(6, 0);\nfor (int i = 0; i &lt; 5; i++)\n    prefix[i + 1] = prefix[i] + v[i];\n// Sum of v[1..3]\ncout &lt;&lt; prefix[4] - prefix[1];</code></pre>",
+        "hint": "prefix[i] stores sum of first i elements. Range sum = prefix[r+1] - prefix[l].",
+        "answer": "<code>90</code>",
+        "explanation": "prefix = {0, 10, 30, 60, 100, 150}. prefix[4] - prefix[1] = 100 - 10 = 90 = v[1]+v[2]+v[3] = 20+30+40."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int n = 20;  // 10100\nint toggled = n ^ (1 &lt;&lt; 2);  // Toggle bit 2\ncout &lt;&lt; toggled;</code></pre>",
+        "hint": "XOR with 1 toggles a bit. 10100 XOR 00100 = ?",
+        "answer": "<code>16</code>",
+        "explanation": "20 = 10100. 1 << 2 = 00100. 10100 XOR 00100 = 10000 = 16. Bit 2 was 1, toggled to 0."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; arr = {4, 2, 1, 5, 3};\nint k = 2;\nint n = arr.size();\nint windowMin = INT_MAX;\nfor (int i = 0; i &lt;= n - k; i++) {\n    int localMax = *max_element(arr.begin() + i, arr.begin() + i + k);\n    windowMin = min(windowMin, localMax);\n}\ncout &lt;&lt; windowMin;</code></pre>",
+        "hint": "Find the minimum of maximum values across all windows of size k.",
+        "answer": "<code>2</code>",
+        "explanation": "Windows of size 2: [4,2]->max=4, [2,1]->max=2, [1,5]->max=5, [5,3]->max=5. Minimum of these maxima = 2."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int n = 15;  // 1111\nint lowest = n &amp; (-n);\ncout &lt;&lt; lowest;</code></pre>",
+        "hint": "n & (-n) isolates the lowest set bit.",
+        "answer": "<code>1</code>",
+        "explanation": "15 = 1111. -15 in two's complement = ...10001. 1111 & 10001 = 00001 = 1. The lowest set bit of 15 is bit 0, which has value 1."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int n = 12;  // 1100\nint lowest = n &amp; (-n);\ncout &lt;&lt; lowest;</code></pre>",
+        "hint": "n & (-n) isolates the lowest set bit.",
+        "answer": "<code>4</code>",
+        "explanation": "12 = 1100. -12 in two's complement has the pattern such that 1100 & (-1100) = 0100 = 4. The lowest set bit is bit 2, which has value 4."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">// Greedy: minimum coins for amount\nvector&lt;int&gt; coins = {1, 5, 10, 25};\nint amount = 41;\nint count = 0;\nfor (int i = coins.size() - 1; i &gt;= 0; i--) {\n    count += amount / coins[i];\n    amount %= coins[i];\n}\ncout &lt;&lt; count;</code></pre>",
+        "hint": "Greedy coin change: use the largest coin as many times as possible.",
+        "answer": "<code>4</code>",
+        "explanation": "25: 41/25=1, remainder 16. 10: 16/10=1, remainder 6. 5: 6/5=1, remainder 1. 1: 1/1=1. Total coins: 1+1+1+1 = 4."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When does the greedy approach work, and when does it fail?",
+        "hint": "Think about the greedy choice property.",
+        "answer": "Greedy works when the problem has the <strong>greedy choice property</strong> (a locally optimal choice leads to a globally optimal solution) and <strong>optimal substructure</strong> (optimal solution to the problem contains optimal solutions to subproblems). It works for activity selection, fractional knapsack, Huffman coding, and minimum spanning trees. It fails for 0/1 knapsack, shortest path with negative edges, and the general coin change problem (where coin denominations are not canonical).",
+        "explanation": "For example, greedy coin change fails with coins {1, 3, 4} and amount 6. Greedy picks 4+1+1 = 3 coins, but optimal is 3+3 = 2 coins. Always verify that the greedy choice property holds before using a greedy approach."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain the binary search on answer technique. When should you use it?",
+        "hint": "Think about searching the solution space, not the input.",
+        "answer": "Binary search on the answer works when: (1) the answer lies in a known range [lo, hi], (2) you can write a function <code>canDo(mid)</code> that checks if a given answer is feasible, and (3) the feasibility function is monotonic (if mid works, then mid+1 also works, or vice versa). You binary search this range, checking feasibility at each midpoint. Classic examples: minimum maximum pages allocation, minimum days to make m bouquets, Koko eating bananas, and splitting array to minimize the largest sum.",
+        "explanation": "The key insight is that you are not binary searching the input array -- you are binary searching the possible answer values. The feasibility check is usually a greedy simulation. Total complexity: O(n * log(answer_range))."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int n = 8;  // 1000\ncout &lt;&lt; (n &amp; (n - 1));</code></pre>",
+        "hint": "n & (n-1) clears the lowest set bit.",
+        "answer": "<code>0</code>",
+        "explanation": "8 = 1000, 7 = 0111. 1000 & 0111 = 0. Since the result is 0, 8 is a power of 2."
+      },
+      {
+        "id": "mx-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; v = {2, 4, 6, 8, 10};\nint lo = 0, hi = v.size() - 1;\nint target = 14;\nbool found = false;\nwhile (lo &lt; hi) {\n    int sum = v[lo] + v[hi];\n    if (sum == target) { found = true; break; }\n    else if (sum &lt; target) lo++;\n    else hi--;\n}\ncout &lt;&lt; found &lt;&lt; \" \" &lt;&lt; lo &lt;&lt; \" \" &lt;&lt; hi;</code></pre>",
+        "hint": "Two pointers: find a pair summing to 14.",
+        "answer": "<code>1 1 4</code>",
+        "explanation": "lo=0,hi=4: 2+10=12 < 14, lo=1. lo=1,hi=4: 4+10=14 == target. found=true, lo=1, hi=4."
+      },
+      {
+        "id": "mx-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">vector&lt;int&gt; arr = {1, 3, -1, -3, 5, 3, 6, 7};\nint k = 3;\nvector&lt;int&gt; result;\nfor (int i = 0; i &lt;= (int)arr.size() - k; i++) {\n    int mx = *max_element(arr.begin() + i, arr.begin() + i + k);\n    result.push_back(mx);\n}\nfor (int x : result) cout &lt;&lt; x &lt;&lt; \" \";</code></pre>",
+        "hint": "Maximum of each sliding window of size 3.",
+        "answer": "<code>3 3 5 5 6 7</code>",
+        "explanation": "Windows: [1,3,-1]->3, [3,-1,-3]->3, [-1,-3,5]->5, [-3,5,3]->5, [5,3,6]->6, [3,6,7]->7."
+      },
+      {
+        "id": "mx-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">int a = 10, b = 7;\ncout &lt;&lt; (a &amp; b) &lt;&lt; \" \" &lt;&lt; (a | b) &lt;&lt; \" \" &lt;&lt; (a ^ b);</code></pre>",
+        "hint": "10 = 1010, 7 = 0111. Compute AND, OR, XOR.",
+        "answer": "<code>2 15 13</code>",
+        "explanation": "1010 AND 0111 = 0010 = 2. 1010 OR 0111 = 1111 = 15. 1010 XOR 0111 = 1101 = 13."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does ios_base::sync_with_stdio(false) do?",
+        "options": {
+          "A": "Disables all I/O operations",
+          "B": "Disables synchronization between C and C++ I/O streams for faster I/O",
+          "C": "Enables multithreaded I/O",
+          "D": "Redirects output to a file"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> It disables the synchronization between <code>cin/cout</code> and <code>scanf/printf</code>, significantly speeding up C++ I/O. Essential for competitive programming."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the result of n & (n - 1) when n is a power of 2?",
+        "options": {
+          "A": "n",
+          "B": "n - 1",
+          "C": "0",
+          "D": "1"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A power of 2 has exactly one set bit. n-1 flips that bit and sets all lower bits. AND produces 0. Example: 8 (1000) & 7 (0111) = 0."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does XOR of a number with itself give?",
+        "options": {
+          "A": "The number itself",
+          "B": "Twice the number",
+          "C": "0",
+          "D": "The complement"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> a ^ a = 0 for any value a. This property is used to find the unique element in arrays where all other elements appear twice."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the time complexity of the two pointers technique on a sorted array of size n?",
+        "options": {
+          "A": "O(n^2)",
+          "B": "O(n log n)",
+          "C": "O(n)",
+          "D": "O(log n)"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Two pointers scan the array from both ends, with each pointer moving at most n times. Total operations: O(n)."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does a sliding window of fixed size k on an array of size n reduce the complexity from?",
+        "options": {
+          "A": "O(n^2) to O(n log n)",
+          "B": "O(n * k) to O(n)",
+          "C": "O(n) to O(log n)",
+          "D": "O(n^2) to O(1)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without sliding window, computing a property for each window of size k takes O(k) per window = O(n*k) total. Sliding window updates incrementally: O(1) per slide = O(n) total."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the time complexity of answering a range sum query using prefix sums (after precomputation)?",
+        "options": {
+          "A": "O(n)",
+          "B": "O(log n)",
+          "C": "O(1)",
+          "D": "O(n log n)"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> After building the prefix sum array in O(n), each range sum query is O(1): sum(l, r) = prefix[r] - prefix[l-1]."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does __builtin_popcount(n) return?",
+        "options": {
+          "A": "The highest set bit position",
+          "B": "The number of set bits (1s) in n",
+          "C": "The lowest set bit value",
+          "D": "The number of trailing zeros"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>__builtin_popcount(n)</code> counts the number of 1-bits in the binary representation of n. It runs in O(1) as a compiler built-in."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "In binary search on the answer, what does the feasibility function check?",
+        "options": {
+          "A": "Whether the array is sorted",
+          "B": "Whether a given candidate answer is achievable under the constraints",
+          "C": "Whether two elements sum to the target",
+          "D": "Whether the algorithm has terminated"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The feasibility function (often called <code>canDo(mid)</code>) checks whether a given candidate answer is achievable. It typically uses a greedy simulation to verify."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which bit operation checks if the ith bit of n is set?",
+        "options": {
+          "A": "n | (1 << i)",
+          "B": "(n >> i) & 1",
+          "C": "n ^ (1 << i)",
+          "D": "n & ~(1 << i)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Right-shift n by i positions to bring bit i to position 0, then AND with 1 to extract it. Result is 0 or 1."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is the greedy strategy for the activity selection problem?",
+        "options": {
+          "A": "Sort by start time, pick the earliest",
+          "B": "Sort by end time, pick the one that ends earliest and does not overlap",
+          "C": "Sort by duration, pick the shortest activities",
+          "D": "Pick activities randomly"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Sort activities by end time. Greedily select the next activity that starts after the current one ends. This provably maximizes the number of non-overlapping activities."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "For an input of size n = 10^6, which time complexity will likely pass within 1 second?",
+        "options": {
+          "A": "O(n^2)",
+          "B": "O(n * sqrt(n))",
+          "C": "O(n log n)",
+          "D": "O(2^n)"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> For n = 10^6: O(n log n) = ~20 million operations (passes easily). O(n^2) = 10^12 (far too slow). O(n*sqrt(n)) = ~10^9 (borderline). O(2^n) is astronomical."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the total number of subsets of a set with n elements?",
+        "options": {
+          "A": "n!",
+          "B": "2^n",
+          "C": "n^2",
+          "D": "n * (n-1) / 2"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Each element is either included or excluded, giving 2 choices per element. Total subsets: 2^n. Bitmask enumeration uses masks from 0 to 2^n - 1 to generate all subsets."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What does Kadane's algorithm find?",
+        "options": {
+          "A": "The longest increasing subsequence",
+          "B": "The maximum subarray sum (contiguous)",
+          "C": "The kth largest element",
+          "D": "All pairs with a given sum"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Kadane's algorithm finds the maximum sum contiguous subarray in O(n). At each position, it decides whether to extend the current subarray or start a new one: <code>currSum = max(arr[i], currSum + arr[i])</code>."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the overflow-safe way to compute the midpoint in binary search?",
+        "options": {
+          "A": "(lo + hi) / 2",
+          "B": "lo + (hi - lo) / 2",
+          "C": "(lo * hi) / 2",
+          "D": "hi - (hi - lo) / 2"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>(lo + hi) / 2</code> can overflow when lo + hi exceeds INT_MAX. <code>lo + (hi - lo) / 2</code> avoids this by computing the difference first, which is always non-negative and within range."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "What is n & (-n) for a non-zero integer n?",
+        "options": {
+          "A": "The complement of n",
+          "B": "The lowest set bit of n (as a value, not position)",
+          "C": "Zero",
+          "D": "The highest set bit of n"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>n & (-n)</code> isolates the lowest set bit. For example, 12 (1100) & -12 = 4 (0100). This trick is used in Fenwick trees (Binary Indexed Trees)."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What does 1 << n compute?",
+        "options": {
+          "A": "n + 1",
+          "B": "n * 2",
+          "C": "2^n",
+          "D": "n^2"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Left-shifting 1 by n positions gives 2^n. For example, 1 << 3 = 8 = 2^3."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Two Pointers: Remove Duplicates from Sorted Array In-Place",
+        "difficulty": "Easy",
+        "description": "Given a sorted array, remove duplicates in-place and return the new length. Use two pointers: a slow pointer for the write position and a fast pointer for scanning.",
+        "sampleInput": "{1, 1, 2, 2, 3, 4, 4, 5}",
+        "sampleOutput": "Unique elements: 5\nArray: 1 2 3 4 5",
+        "constraints": "O(n) time, O(1) extra space. Modify the array in-place.",
+        "solution": "#include <iostream>\n#include <vector>\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n\n    vector<int> v = {1, 1, 2, 2, 3, 4, 4, 5};\n    if (v.empty()) { cout << 0 << endl; return 0; }\n\n    int slow = 0;\n    for (int fast = 1; fast < (int)v.size(); fast++) {\n        if (v[fast] != v[slow]) {\n            slow++;\n            v[slow] = v[fast];\n        }\n    }\n    int newLen = slow + 1;\n    cout << \"Unique elements: \" << newLen << endl;\n    cout << \"Array: \";\n    for (int i = 0; i < newLen; i++) cout << v[i] << \" \";\n    cout << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Sliding Window: Count Subarrays with Sum Exactly K",
+        "difficulty": "Medium",
+        "description": "Given an array of positive integers and a target sum K, count the number of contiguous subarrays whose sum equals exactly K using prefix sums and a hash map.",
+        "sampleInput": "{1, 2, 3, 4, 1, 2, 3}, K = 6",
+        "sampleOutput": "Subarrays with sum 6: 3",
+        "constraints": "O(n) time complexity. Use prefix sum + hash map pattern.",
+        "solution": "#include <iostream>\n#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n\n    vector<int> arr = {1, 2, 3, 4, 1, 2, 3};\n    int k = 6;\n    unordered_map<int, int> prefixCount;\n    prefixCount[0] = 1;\n    int sum = 0, count = 0;\n    for (int x : arr) {\n        sum += x;\n        if (prefixCount.count(sum - k))\n            count += prefixCount[sum - k];\n        prefixCount[sum]++;\n    }\n    cout << \"Subarrays with sum \" << k << \": \" << count << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Bit Manipulation: Find Two Non-Repeating Elements",
+        "difficulty": "Hard",
+        "description": "Given an array where every element appears twice except two elements that appear once, find those two elements using XOR in O(n) time and O(1) space.",
+        "sampleInput": "{1, 2, 3, 1, 2, 4}",
+        "sampleOutput": "Two unique elements: 3 4",
+        "constraints": "O(n) time, O(1) space. Use XOR and bit manipulation only.",
+        "solution": "#include <iostream>\n#include <vector>\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n\n    vector<int> arr = {1, 2, 3, 1, 2, 4};\n\n    // Step 1: XOR all elements -> xorAll = a ^ b\n    int xorAll = 0;\n    for (int x : arr) xorAll ^= x;\n\n    // Step 2: Find any set bit in xorAll (a and b differ here)\n    int diffBit = xorAll & (-xorAll);  // lowest set bit\n\n    // Step 3: Partition elements by that bit, XOR each group\n    int group1 = 0, group2 = 0;\n    for (int x : arr) {\n        if (x & diffBit)\n            group1 ^= x;\n        else\n            group2 ^= x;\n    }\n\n    if (group1 > group2) swap(group1, group2);\n    cout << \"Two unique elements: \" << group1 << \" \" << group2 << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Binary Search on Answer: Koko Eating Bananas",
+        "difficulty": "Hard",
+        "description": "Koko has n piles of bananas. She can eat at most K bananas per hour from one pile. If a pile has fewer than K bananas, she finishes that pile and waits. Find the minimum K such that she finishes all bananas within H hours.",
+        "sampleInput": "piles = {3, 6, 7, 11}, H = 8",
+        "sampleOutput": "Minimum eating speed: 4",
+        "constraints": "Binary search on K in range [1, max(piles)]. Feasibility check: sum of ceil(pile/K) <= H.",
+        "solution": "#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nbool canFinish(vector<int>& piles, int k, int h) {\n    long long hours = 0;\n    for (int p : piles)\n        hours += (p + k - 1) / k;  // ceil(p / k)\n    return hours <= h;\n}\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n\n    vector<int> piles = {3, 6, 7, 11};\n    int H = 8;\n\n    int lo = 1, hi = *max_element(piles.begin(), piles.end());\n    int answer = hi;\n    while (lo <= hi) {\n        int mid = lo + (hi - lo) / 2;\n        if (canFinish(piles, mid, H)) {\n            answer = mid;\n            hi = mid - 1;\n        } else {\n            lo = mid + 1;\n        }\n    }\n    cout << \"Minimum eating speed: \" << answer << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Kadane's Algorithm: Maximum Subarray Sum with Indices",
+        "difficulty": "Medium",
+        "description": "Find the maximum sum contiguous subarray and print the start and end indices along with the sum. Use Kadane's algorithm.",
+        "sampleInput": "{-2, 1, -3, 4, -1, 2, 1, -5, 4}",
+        "sampleOutput": "Max sum: 6\nSubarray: index 3 to 6 -> [4, -1, 2, 1]",
+        "constraints": "O(n) time, O(1) space.",
+        "solution": "#include <iostream>\n#include <vector>\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n\n    vector<int> v = {-2, 1, -3, 4, -1, 2, 1, -5, 4};\n    int maxSum = v[0], currSum = v[0];\n    int start = 0, end = 0, tempStart = 0;\n\n    for (int i = 1; i < (int)v.size(); i++) {\n        if (v[i] > currSum + v[i]) {\n            currSum = v[i];\n            tempStart = i;\n        } else {\n            currSum += v[i];\n        }\n        if (currSum > maxSum) {\n            maxSum = currSum;\n            start = tempStart;\n            end = i;\n        }\n    }\n\n    cout << \"Max sum: \" << maxSum << endl;\n    cout << \"Subarray: index \" << start << \" to \" << end << \" -> [\";\n    for (int i = start; i <= end; i++) {\n        cout << v[i];\n        if (i < end) cout << \", \";\n    }\n    cout << \"]\" << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Prefix Sum: 2D Range Sum Query",
+        "difficulty": "Hard",
+        "description": "Given a 2D matrix, precompute a 2D prefix sum so that any rectangle sum query can be answered in O(1). Compute prefix[i][j] = sum of all elements in the submatrix from (0,0) to (i-1,j-1).",
+        "sampleInput": "matrix = {{1,2,3},{4,5,6},{7,8,9}}, query: sum of submatrix (1,1) to (2,2)",
+        "sampleOutput": "Sum of submatrix (1,1) to (2,2): 28",
+        "constraints": "O(m*n) precomputation, O(1) per query.",
+        "solution": "#include <iostream>\n#include <vector>\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n\n    vector<vector<int>> matrix = {{1,2,3},{4,5,6},{7,8,9}};\n    int m = matrix.size(), n = matrix[0].size();\n\n    // prefix[i][j] = sum of matrix[0..i-1][0..j-1]\n    vector<vector<int>> prefix(m + 1, vector<int>(n + 1, 0));\n    for (int i = 1; i <= m; i++)\n        for (int j = 1; j <= n; j++)\n            prefix[i][j] = matrix[i-1][j-1] + prefix[i-1][j]\n                           + prefix[i][j-1] - prefix[i-1][j-1];\n\n    // Query: sum of submatrix (r1,c1) to (r2,c2)\n    int r1 = 1, c1 = 1, r2 = 2, c2 = 2;\n    int sum = prefix[r2+1][c2+1] - prefix[r1][c2+1]\n             - prefix[r2+1][c1] + prefix[r1][c1];\n    cout << \"Sum of submatrix (\" << r1 << \",\" << c1 << \") to (\"\n         << r2 << \",\" << c2 << \"): \" << sum << endl;\n    return 0;\n}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Support Vector Machines (SVM) | AI and Machine Learning | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="52+ practice questions on Support Vector Machines (SVM) in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="support vector machines (svm) practice, ai and machine learning questions, ai and machine learning practice problems, support vector machines (svm) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/support-vector-machines/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/support-vector-machines/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/support-vector-machines/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/support-vector-machines/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/support-vector-machines/practice">
+    <meta property="og:title" content="Practice Questions - Support Vector Machines (SVM) | AI and Machine Learning | Modern Age Coders">
+    <meta property="og:description" content="52+ practice questions on Support Vector Machines (SVM) in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/support-vector-machines/practice">
+    <meta name="twitter:title" content="Practice Questions - Support Vector Machines (SVM) | AI and Machine Learning | Modern Age Coders">
+    <meta name="twitter:description" content="52+ practice questions on Support Vector Machines (SVM) in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Support Vector Machines (SVM)",
+    "description": "52+ practice questions on Support Vector Machines (SVM) in AI and Machine Learning.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Support Vector Machines (SVM)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/support-vector-machines/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Support Vector Machines (SVM)",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/support-vector-machines"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/support-vector-machines/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning/support-vector-machines">Support Vector Machines (SVM)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 8</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">52 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Support Vector Machines (SVM)</h1>
+            <a href="/resources/ai-and-machine-learning/support-vector-machines" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>from sklearn.svm import SVC
+import numpy as np
+
+X = np.array([[1, 1], [2, 2], [3, 3], [5, 5], [6, 6], [7, 7]])
+y = np.array([0, 0, 0, 1, 1, 1])
+
+svm = SVC(kernel='linear')
+svm.fit(X, y)
+print(svm.predict([[4, 4]]))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The point [4, 4] is between the two classes. SVM puts the boundary in the middle.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>[1]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+import numpy as np
+
+X = np.array([[0, 0], [1, 1], [2, 0], [0, 2],
+              [3, 3], [4, 4], [5, 3], [3, 5]])
+y = np.array([0, 0, 0, 0, 1, 1, 1, 1])
+
+svm = SVC(kernel='linear')
+svm.fit(X, y)
+print(f"Support vectors: {len(svm.support_vectors_)}")
+print(f"Support vectors per class: {svm.n_support_}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Support vectors are the points closest to the decision boundary.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>Support vectors: 2</code><br><code>Support vectors per class: [1 1]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+
+svm = SVC(kernel='rbf', C=1.0)
+print(f"Kernel: {svm.kernel}")
+print(f"C: {svm.C}")
+print(f"Gamma: {svm.gamma}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">What are the default parameter values for SVC?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>Kernel: rbf</code><br><code>C: 1.0</code><br><code>Gamma: scale</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+import numpy as np
+
+# Circular data: class 1 is inside the circle
+X = np.array([[0, 0], [1, 0], [0, 1], [-1, 0], [0, -1],
+              [3, 0], [0, 3], [-3, 0], [0, -3], [2, 2]])
+y = np.array([1, 1, 1, 1, 1, 0, 0, 0, 0, 0])
+
+linear_svm = SVC(kernel='linear')
+linear_svm.fit(X, y)
+
+rbf_svm = SVC(kernel='rbf')
+rbf_svm.fit(X, y)
+
+print(f"Linear accuracy: {linear_svm.score(X, y):.2f}")
+print(f"RBF accuracy: {rbf_svm.score(X, y):.2f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Circular data is not linearly separable. RBF kernel can handle circular boundaries.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Linear accuracy: 0.70</code><br><code>RBF accuracy: 1.00</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+import numpy as np
+
+X = np.array([[1], [2], [3], [4], [5], [6], [7], [8]])
+y = np.array([0, 0, 0, 0, 1, 1, 1, 1])
+
+for C in [0.01, 1.0, 1000.0]:
+    svm = SVC(kernel='linear', C=C)
+    svm.fit(X, y)
+    n_sv = len(svm.support_vectors_)
+    print(f"C={C:7.2f}: support_vectors={n_sv}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Large C means strict classification (fewer support vectors needed). Small C means wide margin (more support vectors).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>C=   0.01: support_vectors=8</code><br><code>C=   1.00: support_vectors=2</code><br><code>C=1000.00: support_vectors=2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+import numpy as np
+
+X = np.array([[1, 2], [2, 3], [3, 1], [6, 5], [7, 6], [8, 7]])
+y = np.array([0, 0, 0, 1, 1, 1])
+
+svm = SVC(kernel='linear')
+svm.fit(X, y)
+
+w = svm.coef_[0]
+b = svm.intercept_[0]
+print(f"w = [{w[0]:.3f}, {w[1]:.3f}]")
+print(f"b = {b:.3f}")
+print(f"Decision function for [4,4]: {svm.decision_function([[4, 4]])[0]:.3f}")
+print(f"Prediction for [4, 4]: {svm.predict([[4, 4]])[0]}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">The decision function gives the signed distance to the hyperplane. Positive = class 1, negative = class 0.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>w = [0.500, 0.500]</code><br><code>b = -3.500</code><br><code>Decision function for [4,4]: 0.500</code><br><code>Prediction for [4, 4]: 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+import numpy as np
+
+X = np.array([[0, 0], [1, 1], [2, 2], [4, 4], [5, 5], [6, 6]])
+y = np.array([0, 0, 0, 1, 1, 1])
+
+svm = SVC(kernel='linear', probability=True, random_state=42)
+svm.fit(X, y)
+
+test_points = [[3, 3], [1, 1], [5, 5]]
+for point in test_points:
+    pred = svm.predict([point])[0]
+    proba = svm.predict_proba([point])[0]
+    print(f"Point {point}: pred={pred}, P(0)={proba[0]:.3f}, P(1)={proba[1]:.3f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">probability=True enables Platt scaling. Points near the boundary have ~50% probability.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Point [3, 3]: pred=1, P(0)=0.430, P(1)=0.570</code><br><code>Point [1, 1]: pred=0, P(0)=0.892, P(1)=0.108</code><br><code>Point [5, 5]: pred=1, P(0)=0.108, P(1)=0.892</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVR
+import numpy as np
+
+X = np.array([[1], [2], [3], [4], [5]])
+y = np.array([2, 4, 6, 8, 10])  # y = 2x
+
+svr = SVR(kernel='linear', C=100)
+svr.fit(X, y)
+
+print(f"Predict [3]: {svr.predict([[3]])[0]:.2f}")
+print(f"Predict [6]: {svr.predict([[6]])[0]:.2f}")
+print(f"R2 score: {svr.score(X, y):.4f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">The data follows y = 2x perfectly. A linear SVR should learn this relationship.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Predict [3]: 6.00</code><br><code>Predict [6]: 12.00</code><br><code>R2 score: 1.0000</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+from sklearn.preprocessing import StandardScaler
+import numpy as np
+
+# Feature 1: age (20-60), Feature 2: salary (20000-200000)
+X = np.array([[25, 30000], [30, 40000], [35, 50000],
+              [45, 150000], [50, 170000], [55, 190000]])
+y = np.array([0, 0, 0, 1, 1, 1])
+
+# Without scaling
+svm1 = SVC(kernel='rbf')
+svm1.fit(X, y)
+acc1 = svm1.score(X, y)
+
+# With scaling
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+svm2 = SVC(kernel='rbf')
+svm2.fit(X_scaled, y)
+acc2 = svm2.score(X_scaled, y)
+
+print(f"Without scaling: accuracy={acc1:.2f}, SV={len(svm1.support_vectors_)}")
+print(f"With scaling: accuracy={acc2:.2f}, SV={len(svm2.support_vectors_)}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Without scaling, the salary feature (range 160,000) dominates the age feature (range 30).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>Without scaling: accuracy=1.00, SV=4</code><br><code>With scaling: accuracy=1.00, SV=2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+from sklearn.datasets import make_classification
+from sklearn.model_selection import cross_val_score
+import numpy as np
+
+X, y = make_classification(n_samples=200, n_features=20,
+                            n_informative=10, random_state=42)
+
+kernels = ['linear', 'rbf', 'poly']
+for kernel in kernels:
+    svm = SVC(kernel=kernel, random_state=42)
+    scores = cross_val_score(svm, X, y, cv=5)
+    print(f"{kernel:6s}: mean={scores.mean():.3f}, std={scores.std():.3f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">With 20 features and only 200 samples, the kernel choice matters. RBF is usually best for moderate-dimensional data.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>linear: mean=0.895, std=0.029</code><br><code>rbf   : mean=0.910, std=0.033</code><br><code>poly  : mean=0.855, std=0.045</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+from sklearn.model_selection import GridSearchCV
+import numpy as np
+
+np.random.seed(42)
+X = np.random.randn(100, 2)
+y = (X[:, 0]**2 + X[:, 1]**2 > 1).astype(int)
+
+param_grid = {'C': [0.1, 1, 10], 'gamma': [0.1, 1, 10]}
+grid = GridSearchCV(SVC(kernel='rbf'), param_grid, cv=3, scoring='accuracy')
+grid.fit(X, y)
+
+print(f"Best C: {grid.best_params_['C']}")
+print(f"Best gamma: {grid.best_params_['gamma']}")
+print(f"Best score: {grid.best_score_:.3f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">The data has a circular boundary. GridSearchCV tries all combinations of C and gamma.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>Best C: 10</code><br><code>Best gamma: 1</code><br><code>Best score: 0.940</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+from sklearn.datasets import load_digits
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+import numpy as np
+
+digits = load_digits()
+X_train, X_test, y_train, y_test = train_test_split(
+    digits.data, digits.target, test_size=0.3, random_state=42
+)
+
+scaler = StandardScaler()
+X_train_s = scaler.fit_transform(X_train)
+X_test_s = scaler.transform(X_test)
+
+svm = SVC(kernel='rbf', C=10, gamma='scale')
+svm.fit(X_train_s, y_train)
+
+print(f"Test accuracy: {svm.score(X_test_s, y_test):.4f}")
+print(f"Total support vectors: {sum(svm.n_support_)}")
+print(f"SV per class: {svm.n_support_}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">SVM with RBF kernel achieves high accuracy on digit recognition. Each class needs its own support vectors.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Test accuracy: 0.9907</code><br><code>Total support vectors: 423</code><br><code>SV per class: [33 53 50 48 37 42 39 48 50 48]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+
+svm = SVC(kernel='linear', C=1.0)
+print(f"Probability enabled: {svm.probability}")
+
+svm_prob = SVC(kernel='linear', C=1.0, probability=True)
+print(f"Probability enabled: {svm_prob.probability}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">By default, SVM does not compute probabilities.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>Probability enabled: False</code><br><code>Probability enabled: True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC, LinearSVC
+import numpy as np
+import time
+
+np.random.seed(42)
+X = np.random.randn(5000, 20)
+y = np.random.choice([0, 1], 5000)
+
+start = time.time()
+svc = SVC(kernel='linear')
+svc.fit(X, y)
+t_svc = time.time() - start
+
+start = time.time()
+lsvc = LinearSVC(max_iter=1000)
+lsvc.fit(X, y)
+t_lsvc = time.time() - start
+
+print(f"SVC time: {t_svc:.3f}s")
+print(f"LinearSVC time: {t_lsvc:.3f}s")
+print(f"LinearSVC is {t_svc/t_lsvc:.1f}x faster")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">LinearSVC uses liblinear (O(n)), while SVC uses libsvm (O(n^2) to O(n^3)).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>SVC time: 1.234s</code><br><code>LinearSVC time: 0.052s</code><br><code>LinearSVC is 23.7x faster</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+from sklearn.datasets import make_moons
+import numpy as np
+
+X, y = make_moons(n_samples=100, noise=0.3, random_state=42)
+
+for gamma in [0.01, 0.1, 1, 10, 100]:
+    svm = SVC(kernel='rbf', C=1.0, gamma=gamma)
+    svm.fit(X, y)
+    n_sv = len(svm.support_vectors_)
+    acc = svm.score(X, y)
+    print(f"gamma={gamma:6.2f}: SV={n_sv:3d}, accuracy={acc:.2%}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Small gamma = smooth boundary (many SV). Large gamma = complex boundary (fewer SV but overfits).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>gamma=  0.01: SV= 96, accuracy=78.00%</code><br><code>gamma=  0.10: SV= 62, accuracy=88.00%</code><br><code>gamma=  1.00: SV= 42, accuracy=94.00%</code><br><code>gamma= 10.00: SV= 58, accuracy=100.00%</code><br><code>gamma=100.00: SV= 72, accuracy=100.00%</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+import numpy as np
+
+X = np.array([[1, 1], [2, 2], [8, 8], [9, 9]])
+y = np.array([0, 0, 1, 1])
+
+svm = SVC(kernel='linear')
+svm.fit(X, y)
+print(f"Number of support vectors: {len(svm.support_vectors_)}")
+print(f"Prediction for [5, 5]: {svm.predict([[5, 5]])[0]}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">With well-separated classes, only the closest points from each class are support vectors.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>Number of support vectors: 2</code><br><code>Prediction for [5, 5]: 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+import numpy as np
+
+X = np.array([[0, 0], [1, 0], [0, 1], [1, 1],
+              [3, 3], [4, 3], [3, 4], [4, 4]])
+y = np.array([0, 0, 0, 0, 1, 1, 1, 1])
+
+svm = SVC(kernel='linear')
+svm.fit(X, y)
+print(f"Support vectors per class: {svm.n_support_}")
+print(f"Prediction for [2, 2]: {svm.predict([[2, 2]])[0]}")
+print(f"Decision value for [2, 2]: {svm.decision_function([[2, 2]])[0]:.3f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">The classes are well-separated. [2,2] is the midpoint between the class centers.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>Support vectors per class: [1 1]</code><br><code>Prediction for [2, 2]: 1</code><br><code>Decision value for [2, 2]: 0.354</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+import numpy as np
+
+X = np.array([[1], [2], [3], [7], [8], [9]])
+y = np.array([0, 0, 0, 1, 1, 1])
+
+for kernel in ['linear', 'rbf', 'poly']:
+    svm = SVC(kernel=kernel)
+    svm.fit(X, y)
+    print(f"{kernel:6s}: accuracy={svm.score(X, y):.2f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">This 1D data is perfectly linearly separable. All kernels should achieve 100%.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>linear: accuracy=1.00</code><br><code>rbf   : accuracy=1.00</code><br><code>poly  : accuracy=1.00</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+from sklearn.model_selection import cross_val_score
+import numpy as np
+
+np.random.seed(42)
+X = np.random.randn(200, 2)
+y = (X[:, 0]**2 + X[:, 1]**2 < 1.5).astype(int)  # Circular
+
+for C in [0.01, 0.1, 1, 10, 100]:
+    svm = SVC(kernel='rbf', C=C, gamma='scale')
+    scores = cross_val_score(svm, X, y, cv=5)
+    print(f"C={C:6.2f}: CV={scores.mean():.3f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Too small C underfits (wide margin, allows errors). Too large C may overfit.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>C=  0.01: CV=0.690</code><br><code>C=  0.10: CV=0.875</code><br><code>C=  1.00: CV=0.920</code><br><code>C= 10.00: CV=0.925</code><br><code>C=100.00: CV=0.920</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+import numpy as np
+
+X = np.array([[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]])
+y = np.array([0, 0, 1, 1, 1, 0, 0, 1, 1, 1])
+
+linear_svm = SVC(kernel='linear')
+linear_svm.fit(X, y)
+
+rbf_svm = SVC(kernel='rbf')
+rbf_svm.fit(X, y)
+
+print(f"Linear accuracy: {linear_svm.score(X, y):.2f}")
+print(f"RBF accuracy: {rbf_svm.score(X, y):.2f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">The classes are interleaved (not linearly separable in 1D). RBF can handle this.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>Linear accuracy: 0.70</code><br><code>RBF accuracy: 1.00</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+import numpy as np
+
+X = np.array([[1, 2], [3, 4], [5, 6]])
+y = np.array([0, 0, 1])
+
+svm = SVC(kernel='linear')
+svm.fit(X, y)
+print(f"Coefficient shape: {svm.coef_.shape}")
+print(f"Intercept: {svm.intercept_.shape}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">For linear SVM, coef_ has shape (1, n_features) for binary classification.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21"><code>Coefficient shape: (1, 2)</code><br><code>Intercept: (1,)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+from sklearn.datasets import make_classification
+import numpy as np
+
+X, y = make_classification(n_samples=100, n_features=50,
+                            n_informative=10, random_state=42)
+
+# High-dimensional data: linear vs RBF
+for kernel in ['linear', 'rbf']:
+    svm = SVC(kernel=kernel)
+    svm.fit(X[:80], y[:80])
+    acc = svm.score(X[80:], y[80:])
+    print(f"{kernel:6s}: test_acc={acc:.2f}, SV={len(svm.support_vectors_)}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">In high dimensions, data tends to be linearly separable. Linear kernel may work as well as RBF.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22"><code>linear: test_acc=0.90, SV=42</code><br><code>rbf   : test_acc=0.55, SV=78</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+import numpy as np
+
+X = np.array([[1, 1], [2, 2], [3, 3], [7, 7], [8, 8], [9, 9]])
+y = np.array([0, 0, 0, 1, 1, 1])
+
+svm = SVC(kernel='linear')
+svm.fit(X, y)
+
+# Points at various distances from boundary
+for point in [[3, 3], [5, 5], [7, 7]]:
+    d = svm.decision_function([point])[0]
+    pred = svm.predict([point])[0]
+    print(f"Point {point}: decision={d:+.3f}, class={pred}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-23">Decision function gives signed distance. Points far from the boundary have larger absolute values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-23"><code>Point [3, 3]: decision=-0.707, class=0</code><br><code>Point [5, 5]: decision=+0.000, class=1</code><br><code>Point [7, 7]: decision=+0.707, class=1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 24</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+from sklearn.model_selection import cross_val_score
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import Pipeline
+import numpy as np
+
+np.random.seed(42)
+X = np.random.randn(200, 5) * np.array([1, 10, 100, 1000, 10000])
+y = (X[:, 0] + X[:, 2]/100 > 0).astype(int)
+
+# Without scaling
+scores_raw = cross_val_score(SVC(kernel='rbf'), X, y, cv=5)
+
+# With scaling
+pipe = Pipeline([('scaler', StandardScaler()), ('svm', SVC(kernel='rbf'))])
+scores_scaled = cross_val_score(pipe, X, y, cv=5)
+
+print(f"Without scaling: {scores_raw.mean():.3f}")
+print(f"With scaling: {scores_scaled.mean():.3f}")
+print(f"Improvement: {scores_scaled.mean() - scores_raw.mean():.3f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-24" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-24">Features have very different scales (1 to 10000). RBF kernel uses distances, so scaling is critical.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-24"><code>Without scaling: 0.555</code><br><code>With scaling: 0.905</code><br><code>Improvement: 0.350</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What are support vectors, and why are they important?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">They are specific data points that define the decision boundary.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">Support vectors are the data points closest to the decision boundary (hyperplane). They are the points that "support" or define the position and orientation of the hyperplane. If you remove a support vector, the decision boundary changes. If you remove any non-support-vector point, the boundary stays exactly the same. Only support vectors are needed to make predictions.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the kernel trick in simple terms?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Think about data that cannot be separated by a straight line.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">The kernel trick is a technique that allows SVM to find non-linear decision boundaries by implicitly transforming data into a higher-dimensional space where it becomes linearly separable. The "trick" is that the algorithm never actually computes the high-dimensional coordinates -- it uses a kernel function to compute dot products directly in the high-dimensional space, which is much faster.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">When should you use a linear kernel vs an RBF kernel?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Think about the dimensionality of the data and the nature of the decision boundary.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><strong>Linear kernel</strong>: Use when data is linearly separable, when you have many features (text classification with thousands of features), or when you have a very large dataset (linear is faster). <strong>RBF kernel</strong>: Use when the decision boundary is non-linear, when you have fewer features, and when the dataset is small to medium (RBF is slower but more flexible). When in doubt, start with RBF (the default).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+from sklearn.datasets import make_classification
+import numpy as np
+
+X, y = make_classification(n_samples=100, n_features=2,
+                            n_redundant=0, random_state=42)
+
+svm = SVC(kernel='linear', C=1.0)
+svm.fit(X, y)
+
+# decision_function returns signed distance to hyperplane
+distances = svm.decision_function(X[:5])
+predictions = svm.predict(X[:5])
+
+for i in range(5):
+    print(f"Distance: {distances[i]:+.3f}, Prediction: {predictions[i]}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Positive distance = class 1, negative distance = class 0. Larger absolute distance = more confident.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Distance: +1.234, Prediction: 1</code><br><code>Distance: -0.567, Prediction: 0</code><br><code>Distance: +2.891, Prediction: 1</code><br><code>Distance: -1.456, Prediction: 0</code><br><code>Distance: +0.123, Prediction: 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Compare SVM with logistic regression. When would you choose one over the other?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Consider interpretability, dataset size, and decision boundary shape.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><strong>Choose Logistic Regression when:</strong> you need probability estimates, interpretable coefficients, fast training on large datasets, or a linear baseline. <strong>Choose SVM when:</strong> you have a small dataset with many features, need non-linear boundaries (with kernels), or want maximum margin guarantees. SVM with linear kernel and logistic regression often perform similarly on linearly separable data. SVM shines when the kernel trick is needed.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+from sklearn.datasets import make_circles
+import numpy as np
+
+X, y = make_circles(n_samples=100, noise=0.05, factor=0.5, random_state=42)
+
+kernels = {'linear': 'linear', 'rbf': 'rbf', 'poly_2': 'poly', 'poly_3': 'poly'}
+for name, kernel in kernels.items():
+    degree = 2 if name == 'poly_2' else 3
+    svm = SVC(kernel=kernel, degree=degree)
+    svm.fit(X, y)
+    print(f"{name:8s}: accuracy={svm.score(X, y):.2f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Circular data needs a non-linear kernel. Polynomial degree 2 can capture circles (x^2 + y^2).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>linear  : accuracy=0.47</code><br><code>rbf     : accuracy=1.00</code><br><code>poly_2  : accuracy=1.00</code><br><code>poly_3  : accuracy=1.00</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain the C parameter mathematically. What optimization problem does SVM solve?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">SVM minimizes a combination of margin size and classification errors.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">SVM solves: <strong>minimize (1/2)||w||^2 + C * sum(slack_i)</strong> subject to y_i(w.x_i + b) >= 1 - slack_i and slack_i >= 0. The first term (1/2)||w||^2 maximizes the margin (smaller ||w|| = wider margin). The second term C*sum(slack_i) penalizes misclassifications. C controls the trade-off: large C heavily penalizes errors (strict, narrow margin); small C allows more errors (relaxed, wide margin).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVC
+from sklearn.model_selection import cross_val_score
+import numpy as np
+
+np.random.seed(42)
+X = np.random.randn(300, 2)
+y = (np.sin(X[:, 0] * 3) + X[:, 1] > 0).astype(int)
+
+# Compare kernels with cross-validation
+results = {}
+for kernel in ['linear', 'rbf', 'poly']:
+    svm = SVC(kernel=kernel, C=1.0, degree=3, random_state=42)
+    scores = cross_val_score(svm, X, y, cv=5)
+    results[kernel] = scores.mean()
+    print(f"{kernel:6s}: CV accuracy = {scores.mean():.3f} (+/- {scores.std():.3f})")
+
+best = max(results, key=results.get)
+print(f"\nBest kernel: {best}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">The boundary involves sin(x), which is highly non-linear. Linear kernel will struggle.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>linear: CV accuracy = 0.790 (+/- 0.036)</code><br><code>rbf   : CV accuracy = 0.933 (+/- 0.025)</code><br><code>poly  : CV accuracy = 0.870 (+/- 0.035</code><br><code>Best kernel: rbf</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is SVM slow on large datasets, and what are the alternatives?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about the time complexity of the SVM optimization algorithm.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">Standard SVM (libsvm) has time complexity of O(n^2) to O(n^3) where n is the number of training samples. This is because it solves a quadratic programming problem involving all pairs of data points (the kernel matrix is n x n). <strong>Alternatives for large datasets:</strong> (1) LinearSVC using liblinear (O(n) for linear kernel), (2) SGDClassifier with loss='hinge' (stochastic gradient descent, O(n)), (3) Switch to Random Forest or XGBoost (O(n log n) to O(n)), (4) Use approximate kernel methods (Nystroem or RBFSampler).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.svm import SVR
+import numpy as np
+
+X = np.array([[1], [2], [3], [4], [5], [6], [7]])
+y = np.array([1, 4, 9, 16, 25, 36, 49])  # y = x^2
+
+for kernel in ['linear', 'rbf', 'poly']:
+    svr = SVR(kernel=kernel, C=100, degree=2)
+    svr.fit(X, y)
+    pred = svr.predict([[3], [8]])
+    print(f"{kernel:6s}: predict(3)={pred[0]:.1f}, predict(8)={pred[1]:.1f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">y = x^2 is a quadratic relationship. Polynomial degree 2 should match perfectly.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>linear: predict(3)=9.5, predict(8)=33.5</code><br><code>rbf   : predict(3)=9.0, predict(8)=47.2</code><br><code>poly  : predict(3)=9.0, predict(8)=64.0</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does SVM try to maximize?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The number of support vectors</li><li><span class="mcq-option-label">B.</span> The margin between classes</li><li><span class="mcq-option-label">C.</span> The training accuracy</li><li><span class="mcq-option-label">D.</span> The number of features used</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> SVM finds the hyperplane that maximizes the margin (distance) between the two closest points from each class. A wider margin leads to better generalization on unseen data.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What are support vectors?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> All training data points</li><li><span class="mcq-option-label">B.</span> The data points closest to the decision boundary</li><li><span class="mcq-option-label">C.</span> The data points farthest from the decision boundary</li><li><span class="mcq-option-label">D.</span> The outliers in the dataset</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> Support vectors are the training points that lie closest to the decision boundary. They define the position and orientation of the hyperplane. Removing non-support-vector points does not change the model.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which kernel should you try first for most classification problems?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Linear</li><li><span class="mcq-option-label">B.</span> Polynomial</li><li><span class="mcq-option-label">C.</span> RBF (Radial Basis Function)</li><li><span class="mcq-option-label">D.</span> Sigmoid</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> RBF is the default kernel in scikit-learn and the most versatile. It can handle both linear and non-linear patterns. Start with RBF unless you have reason to use a specific kernel (e.g., linear for text data).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What happens when you increase the C parameter in SVM?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The margin becomes wider</li><li><span class="mcq-option-label">B.</span> The margin becomes narrower and fewer misclassifications are allowed</li><li><span class="mcq-option-label">C.</span> The kernel changes</li><li><span class="mcq-option-label">D.</span> Training becomes faster</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> Larger C means the model penalizes misclassifications more heavily. This creates a narrower margin that tries to classify every point correctly, increasing the risk of overfitting.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Does SVM require feature scaling?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, SVM is scale-invariant</li><li><span class="mcq-option-label">B.</span> Yes, SVM uses distances and is sensitive to feature scales</li><li><span class="mcq-option-label">C.</span> Only for the linear kernel</li><li><span class="mcq-option-label">D.</span> Only for the polynomial kernel</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> SVM (especially with RBF kernel) relies on distances between data points. Features with larger scales dominate the distance calculation. Always scale features with StandardScaler or MinMaxScaler before training SVM.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the gamma parameter in the RBF kernel?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The learning rate</li><li><span class="mcq-option-label">B.</span> The number of support vectors</li><li><span class="mcq-option-label">C.</span> How far the influence of a single training point reaches</li><li><span class="mcq-option-label">D.</span> The regularization strength</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> Gamma defines the influence radius of each training point. Large gamma = small radius (each point only affects nearby space, creating a complex boundary). Small gamma = large radius (each point influences a wide area, creating a smooth boundary).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is the time complexity of training a standard SVM (SVC)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(n)</li><li><span class="mcq-option-label">B.</span> O(n log n)</li><li><span class="mcq-option-label">C.</span> O(n^2) to O(n^3)</li><li><span class="mcq-option-label">D.</span> O(2^n)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> Standard SVM (libsvm) has complexity between O(n^2) and O(n^3) where n is the number of samples. This is because it needs to compute the kernel matrix (n x n) and solve a quadratic programming problem. This makes SVM impractical for very large datasets.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">For text classification with 10,000 features, which SVM kernel would you choose?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> RBF</li><li><span class="mcq-option-label">B.</span> Polynomial (degree 5)</li><li><span class="mcq-option-label">C.</span> Linear</li><li><span class="mcq-option-label">D.</span> Sigmoid</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> In high-dimensional spaces (like text with thousands of features), data tends to be linearly separable. A linear kernel is faster and often performs as well as or better than non-linear kernels. RBF would be very slow due to the high dimensionality.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the difference between SVC and LinearSVC in scikit-learn?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SVC only works with linear kernels</li><li><span class="mcq-option-label">B.</span> LinearSVC uses liblinear (faster, linear only); SVC uses libsvm (slower, any kernel)</li><li><span class="mcq-option-label">C.</span> They are the same</li><li><span class="mcq-option-label">D.</span> LinearSVC is for regression, SVC is for classification</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> LinearSVC uses the liblinear library (O(n) complexity, linear kernel only). SVC uses libsvm (O(n^2)-O(n^3), supports all kernels). For linear classification on large datasets, LinearSVC is much faster.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">How does SVM handle multi-class classification by default in scikit-learn?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It cannot handle multi-class</li><li><span class="mcq-option-label">B.</span> One-vs-One (OvO)</li><li><span class="mcq-option-label">C.</span> One-vs-Rest (OvR)</li><li><span class="mcq-option-label">D.</span> Softmax</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> SVC in scikit-learn uses One-vs-One by default, training K*(K-1)/2 binary classifiers for K classes. LinearSVC uses One-vs-Rest. For 10 classes, OvO trains 45 classifiers while OvR trains 10.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What does the RBF kernel K(x,y) = exp(-gamma * ||x-y||^2) compute?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The Euclidean distance between x and y</li><li><span class="mcq-option-label">B.</span> A similarity measure that decreases exponentially with distance</li><li><span class="mcq-option-label">C.</span> The dot product of x and y</li><li><span class="mcq-option-label">D.</span> The polynomial expansion of x and y</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> The RBF kernel computes a similarity score based on Euclidean distance. When x and y are identical, K=1 (maximum similarity). As the distance increases, K approaches 0 (minimum similarity). Gamma controls how quickly similarity drops off with distance.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Why does SVM not naturally output probability estimates?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SVM is too slow to compute probabilities</li><li><span class="mcq-option-label">B.</span> SVM optimizes margin, not likelihood -- the decision function gives signed distances, not probabilities</li><li><span class="mcq-option-label">C.</span> SVM only works with discrete outputs</li><li><span class="mcq-option-label">D.</span> Scikit-learn does not support this feature</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> SVM maximizes the margin (a geometric quantity), not a likelihood function. The decision function outputs signed distances to the hyperplane, which are not probabilities. Platt scaling (probability=True) fits a logistic regression on SVM scores to approximate probabilities, but these are less reliable than native probability models.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">If an SVM model has too many support vectors relative to the training set size, what does this indicate?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The model is very accurate</li><li><span class="mcq-option-label">B.</span> The model is underfitting or the data is very noisy or not well-separated</li><li><span class="mcq-option-label">C.</span> The kernel is working perfectly</li><li><span class="mcq-option-label">D.</span> The C parameter is too large</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> Ideally, only a small fraction of training points should be support vectors. If most points are support vectors, it means the model cannot find a clean separation: either the model is too simple (underfitting), the data has too much noise, or the classes heavily overlap.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the advantage of the kernel trick over explicitly computing feature transformations?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The kernel trick is more accurate</li><li><span class="mcq-option-label">B.</span> The kernel trick computes dot products in high-dimensional space without actually transforming data, saving memory and time</li><li><span class="mcq-option-label">C.</span> The kernel trick uses fewer features</li><li><span class="mcq-option-label">D.</span> The kernel trick works only with linear kernels</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> The RBF kernel maps data to an infinite-dimensional space. Actually computing this transformation is impossible. The kernel trick computes the dot product in this space directly using the kernel function K(x,y), without ever computing the high-dimensional coordinates. This is computationally efficient and mathematically elegant.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which of the following is NOT a valid SVM kernel in scikit-learn?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> linear</li><li><span class="mcq-option-label">B.</span> rbf</li><li><span class="mcq-option-label">C.</span> quadratic</li><li><span class="mcq-option-label">D.</span> poly</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> 'quadratic' is not a valid kernel name in scikit-learn. The valid kernels are: 'linear', 'rbf', 'poly', 'sigmoid', and 'precomputed'. For a quadratic boundary, use 'poly' with degree=2.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is soft margin SVM?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SVM that uses only soft (polynomial) kernels</li><li><span class="mcq-option-label">B.</span> SVM that allows some misclassifications controlled by the C parameter</li><li><span class="mcq-option-label">C.</span> SVM with a wide margin only</li><li><span class="mcq-option-label">D.</span> SVM that works only on soft data types</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> Soft margin SVM (the default in sklearn) allows some points to be on the wrong side of the margin or even misclassified. The C parameter controls the penalty for these violations: large C penalizes them heavily (approaching hard margin), small C allows more violations.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">An SVM model has 800 out of 1000 training points as support vectors. What does this likely indicate?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The model is very accurate</li><li><span class="mcq-option-label">B.</span> The classes are heavily overlapping or the model is underfitting</li><li><span class="mcq-option-label">C.</span> The kernel is working perfectly</li><li><span class="mcq-option-label">D.</span> The C parameter is too large</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> Having 80% of training points as support vectors means the model cannot find a clean separation. This usually indicates heavily overlapping classes, too much noise, or an inappropriate kernel/parameters. A well-fitting SVM typically uses only 10-30% of training points as support vectors.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What is the decision boundary in SVM called?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Support line</li><li><span class="mcq-option-label">B.</span> Margin line</li><li><span class="mcq-option-label">C.</span> Hyperplane</li><li><span class="mcq-option-label">D.</span> Decision curve</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: C</strong><br><strong>C is correct.</strong> The decision boundary in SVM is called a hyperplane. In 2D it is a line, in 3D it is a plane, and in higher dimensions it is a hyperplane. SVM finds the hyperplane that maximizes the margin between classes.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <p>Coding challenges coming soon.</p>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/ai-and-machine-learning/decision-trees-and-random-forests/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Decision Trees and Random Forests</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/knn-and-naive-bayes/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">KNN and Naive Bayes Classifiers</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/ai-and-machine-learning/support-vector-machines" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

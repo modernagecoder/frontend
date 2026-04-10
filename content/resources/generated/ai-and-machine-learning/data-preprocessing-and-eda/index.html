@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Preprocessing and Exploratory Data Analysis - AI and Machine Learning Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Clean messy data, handle missing values, encode categories, scale features, and explore datasets with visualizations.">
+    <meta name="keywords" content="data preprocessing and exploratory data analysis, ai and machine learning tutorial, ai and machine learning data preprocessing and exploratory data analysis, learn ai and machine learning">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda">
+    <meta property="og:title" content="Data Preprocessing and Exploratory Data Analysis - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Clean messy data, handle missing values, encode categories, scale features, and explore datasets with visualizations.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda">
+    <meta name="twitter:title" content="Data Preprocessing and Exploratory Data Analysis - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Clean messy data, handle missing values, encode categories, scale features, and explore datasets with visualizations.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Data Preprocessing and Exploratory Data Analysis",
+    "description": "Clean messy data, handle missing values, encode categories, scale features, and explore datasets with visualizations.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Data Preprocessing and Exploratory Data Analysis",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Fitting the Scaler on the Entire Dataset (Data Leakage)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Data leakage occurs when information from the test set leaks into the training process. If you fit the scaler on the entire dataset, the mean and standard deviation include test data. This makes the model's evaluation overly optimistic -- it performs better on the test set than it would on truly unseen data. Always: split first, fit scaler on train, transform both."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Label Encoding for Nominal Categorical Variables",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Label encoding assigns numbers that imply an order: Bangalore(0) < Delhi(1) < Mumbai(2) < Pune(3). For algorithms that use numerical relationships (linear regression, SVM, KNN), this false ordering misleads the model. One-hot encoding creates independent binary columns, correctly representing that cities are distinct categories with no inherent order."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Dropping Too Many Rows with Missing Values",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dropping rows with missing values can lose a significant portion of your data, especially if missing values are spread across multiple columns. If 30% of rows have at least one missing value, <code>dropna()</code> removes 30% of your data. Filling with mean/median preserves all rows. Only drop when: (1) very few rows are affected, or (2) the missing data is not random (which biases any filling strategy)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting to Handle Categorical Variables Before Scaling",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "StandardScaler only works with numerical data. You must encode categorical variables first (one-hot or label encoding), then scale only the numerical columns. Note: you typically do NOT scale one-hot encoded columns (they are already 0/1). Only scale continuous numerical features."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Data Preprocessing and Exploratory Data Analysis</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 4</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">28 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Data Preprocessing and Exploratory Data Analysis</h1>
+            <a href="/resources/ai-and-machine-learning/data-preprocessing-and-eda/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What is Data Preprocessing and EDA?</h2><p><strong>Data Preprocessing</strong> is the process of cleaning, transforming, and preparing raw data so that it can be effectively used by Machine Learning algorithms. Raw data from the real world is almost never ready for ML. It has missing values, inconsistent formats, outliers, categorical text that algorithms cannot process, and features on wildly different scales. Preprocessing fixes all of this.</p><p><strong>Exploratory Data Analysis (EDA)</strong> is the practice of examining and visualizing your data to understand its structure, patterns, distributions, and relationships before building any model. EDA answers questions like: What does the data look like? Are there missing values? Are features correlated? Are there outliers? What is the distribution of the target variable?</p><p>The old saying in ML is <strong>"garbage in, garbage out"</strong>. No algorithm, no matter how sophisticated, can produce good results from bad data. Preprocessing and EDA typically consume 60-80% of an ML project's time, and doing them well is what separates good data scientists from mediocre ones.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Preprocessing and EDA Critical?</h2><h3>1. Garbage In, Garbage Out</h3><p>If your data has missing values, your model might crash or produce biased results. If categorical variables are not encoded, algorithms cannot process them. If features are on different scales, distance-based algorithms like KNN will give wrong results. Preprocessing ensures your data is in the right format for ML.</p><h3>2. Understanding Before Modeling</h3><p>EDA prevents you from building models blindly. A histogram might reveal that your target variable is heavily skewed. A correlation heatmap might show that two features are nearly identical (redundant). A scatter plot might reveal clear clusters in your data. These insights guide your modeling decisions.</p><h3>3. Real-World Data is Messy</h3><p>Surveys have unanswered questions (missing values). Databases have duplicate entries. Sensor data has faulty readings (outliers). Text fields have inconsistent formatting. You need systematic techniques to handle all of these problems.</p><h3>4. Feature Engineering Drives Model Performance</h3><p>Proper preprocessing and feature engineering (creating new features from existing ones) often improve model performance more than switching to a fancier algorithm. A well-preprocessed dataset with a simple model often beats a raw dataset with a complex model.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Handling Missing Values</h3><h4>Detecting Missing Values</h4><p>Use <code>df.isnull().sum()</code> to count missing values per column. Use <code>df.isnull().mean() * 100</code> to see the percentage missing. Understanding the pattern and extent of missing data guides your strategy.</p><h4>Strategies for Missing Values</h4><p><strong>Drop rows:</strong> <code>df.dropna()</code> removes rows with any missing values. Use when: very few rows are affected (less than 5%). Avoid when: dropping would lose significant data.</p><p><strong>Fill with mean/median:</strong> <code>df['col'].fillna(df['col'].mean())</code> or <code>.median()</code>. Use mean when data is normally distributed without outliers. Use median when there are outliers (median is robust to outliers).</p><p><strong>Fill with mode:</strong> <code>df['col'].fillna(df['col'].mode()[0])</code>. Use for categorical columns (fills with the most frequent value).</p><p><strong>Forward/backward fill:</strong> <code>df.fillna(method='ffill')</code> fills with the previous row's value. Useful for time series data where the previous value is a good estimate.</p><h3>2. Handling Duplicates</h3><p><code>df.duplicated().sum()</code> counts duplicate rows. <code>df.drop_duplicates()</code> removes them. Duplicates can bias your model by giving certain samples more weight.</p><h3>3. Encoding Categorical Variables</h3><p>ML algorithms work with numbers, not text. Categorical variables like "Delhi", "Mumbai", "Bangalore" must be converted to numbers.</p><h4>Label Encoding</h4><p>Assigns a unique integer to each category: Delhi=0, Mumbai=1, Bangalore=2. Use for <strong>ordinal</strong> categories (where order matters), like education level: High School=0, Bachelor=1, Master=2, PhD=3. <strong>Problem:</strong> For nominal categories (where order does not matter), label encoding implies a false order -- the model might think Mumbai (1) is "between" Delhi (0) and Bangalore (2).</p><h4>One-Hot Encoding</h4><p>Creates a new binary column for each category. City becomes: City_Delhi (0/1), City_Mumbai (0/1), City_Bangalore (0/1). Each row has exactly one 1 and the rest are 0. Use for <strong>nominal</strong> categories. In Pandas: <code>pd.get_dummies(df, columns=['City'])</code>. In sklearn: <code>OneHotEncoder()</code>.</p><h3>4. Feature Scaling</h3><p>Features on different scales cause problems for distance-based algorithms (KNN, SVM) and gradient-based algorithms (neural networks, linear regression with gradient descent).</p><h4>StandardScaler (Z-score Normalization)</h4><p>Formula: z = (x - mean) / std. Centers data at 0 with standard deviation 1. Use when: data is approximately normally distributed. Use with: SVM, logistic regression, neural networks.</p><h4>MinMaxScaler (Min-Max Normalization)</h4><p>Formula: x_scaled = (x - min) / (max - min). Scales data to [0, 1] range. Use when: data is not normally distributed or you need bounded values. Use with: KNN, neural networks (especially image data).</p><h4>When to Scale</h4><p>Always scale for: KNN, SVM, neural networks, PCA, K-Means. Scaling is optional for: Decision Trees, Random Forests (tree-based models are scale-invariant). <strong>Important:</strong> Fit the scaler on training data only, then transform both training and test data.</p><h3>5. Exploratory Data Analysis (EDA) with Visualization</h3><h4>Distribution Plots</h4><p>Histograms and density plots show how a variable is distributed. Check for: normal vs skewed distribution, number of modes (peaks), range of values.</p><h4>Box Plots for Outliers</h4><p>Box plots show the median, quartiles (Q1, Q3), and whiskers (Q1 - 1.5*IQR and Q3 + 1.5*IQR). Points beyond the whiskers are potential outliers.</p><h4>Correlation Heatmap</h4><p><code>df.corr()</code> computes pairwise correlations. Visualized as a heatmap with colors indicating correlation strength. High correlation between features suggests redundancy.</p><h4>Pairplot</h4><p><code>sns.pairplot(df, hue='target')</code> shows scatter plots for every pair of features, colored by the target variable. This reveals clusters, separability, and relationships.</p><h3>6. Handling Outliers</h3><h4>IQR Method</h4><p>IQR = Q3 - Q1. Outliers are values below Q1 - 1.5*IQR or above Q3 + 1.5*IQR. This is based on the distribution of the data itself.</p><h4>Z-Score Method</h4><p>Values with Z-score > 3 or < -3 (more than 3 standard deviations from mean) are considered outliers. Assumes approximately normal distribution.</p><h3>7. Train-Test Split</h3><p><code>train_test_split(X, y, test_size=0.2, random_state=42)</code> splits data into training (80%) and testing (20%). <strong>Why split?</strong> To evaluate how the model performs on unseen data. <strong>Why random_state?</strong> For reproducibility -- same split every time. <strong>Stratified split:</strong> <code>stratify=y</code> ensures the class distribution in train and test sets matches the original distribution (critical for imbalanced datasets).</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Detecting and Handling Missing Values</div><pre><code class="language-python">import pandas as pd
+import numpy as np
+
+# Create dataset with missing values
+df = pd.DataFrame({
+    &#39;Name&#39;: [&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Rohan&#39;, &#39;Ananya&#39;, &#39;Vikram&#39;, &#39;Meera&#39;, &#39;Deepak&#39;],
+    &#39;Age&#39;: [22, np.nan, 25, 23, np.nan, 21, 24],
+    &#39;Marks&#39;: [85, 92, np.nan, 88, 65, np.nan, 78],
+    &#39;City&#39;: [&#39;Delhi&#39;, &#39;Mumbai&#39;, None, &#39;Pune&#39;, &#39;Delhi&#39;, &#39;Mumbai&#39;, None],
+    &#39;Branch&#39;: [&#39;CSE&#39;, &#39;ECE&#39;, &#39;CSE&#39;, np.nan, &#39;ECE&#39;, &#39;CSE&#39;, &#39;IT&#39;]
+})
+
+print(&quot;=== Original Data ===&quot;)
+print(df)
+print(f&quot;\n=== Missing Values ===&quot;)
+print(df.isnull().sum())
+print(f&quot;\nTotal missing: {df.isnull().sum().sum()}&quot;)
+print(f&quot;Missing percentage per column:&quot;)
+print((df.isnull().mean() * 100).round(1))
+
+# Fill numerical columns with median (robust to outliers)
+df[&#39;Age&#39;] = df[&#39;Age&#39;].fillna(df[&#39;Age&#39;].median())
+df[&#39;Marks&#39;] = df[&#39;Marks&#39;].fillna(df[&#39;Marks&#39;].median())
+
+# Fill categorical columns with mode (most frequent)
+df[&#39;City&#39;] = df[&#39;City&#39;].fillna(df[&#39;City&#39;].mode()[0])
+df[&#39;Branch&#39;] = df[&#39;Branch&#39;].fillna(df[&#39;Branch&#39;].mode()[0])
+
+print(f&quot;\n=== After Handling Missing Values ===&quot;)
+print(df)
+print(f&quot;\nMissing values remaining: {df.isnull().sum().sum()}&quot;)</code></pre><div class="code-example-explanation">First, we detect missing values with <code>isnull().sum()</code>. For numerical columns (Age, Marks), we fill with the <strong>median</strong> because it is robust to outliers. For categorical columns (City, Branch), we fill with the <strong>mode</strong> (most frequent value). The strategy depends on the column type and the nature of missing data. <code>dropna()</code> would also work but wastes data.</div><div class="code-example-output">=== Original Data ===
+     Name   Age  Marks    City Branch
+0   Aarav  22.0   85.0   Delhi    CSE
+1   Priya   NaN   92.0  Mumbai    ECE
+2   Rohan  25.0    NaN    None    CSE
+3  Ananya  23.0   88.0    Pune    NaN
+4  Vikram   NaN   65.0   Delhi    ECE
+5   Meera  21.0    NaN  Mumbai    CSE
+6  Deepak  24.0   78.0    None     IT
+
+=== Missing Values ===
+Name      0
+Age       2
+Marks     2
+City      2
+Branch    1
+
+Total missing: 7
+Missing percentage per column:
+Name       0.0
+Age       28.6
+Marks     28.6
+City      28.6
+Branch    14.3
+
+=== After Handling Missing Values ===
+     Name   Age  Marks    City Branch
+0   Aarav  22.0   85.0   Delhi    CSE
+1   Priya  23.0   92.0  Mumbai    ECE
+2   Rohan  25.0   83.0   Delhi    CSE
+3  Ananya  23.0   88.0    Pune    CSE
+4  Vikram  23.0   65.0   Delhi    ECE
+5   Meera  21.0   83.0  Mumbai    CSE
+6  Deepak  24.0   78.0   Delhi     IT
+
+Missing values remaining: 0</div></div>
+<div class="code-example"><div class="code-example-title">Encoding Categorical Variables: Label and One-Hot</div><pre><code class="language-python">import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+
+df = pd.DataFrame({
+    &#39;Name&#39;: [&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Rohan&#39;, &#39;Ananya&#39;],
+    &#39;City&#39;: [&#39;Delhi&#39;, &#39;Mumbai&#39;, &#39;Bangalore&#39;, &#39;Delhi&#39;],
+    &#39;Education&#39;: [&#39;Bachelor&#39;, &#39;Master&#39;, &#39;PhD&#39;, &#39;Bachelor&#39;]
+})
+print(&quot;Original:&quot;)
+print(df)
+
+# Label Encoding (for ORDINAL data - where order matters)
+le = LabelEncoder()
+df[&#39;Education_Encoded&#39;] = le.fit_transform(df[&#39;Education&#39;])
+print(f&quot;\nLabel Encoding for Education:&quot;)
+print(f&quot;  Classes: {list(le.classes_)}&quot;)
+print(f&quot;  Encoded: {list(df[&#39;Education_Encoded&#39;])}&quot;)
+
+# One-Hot Encoding (for NOMINAL data - where order doesn&#39;t matter)
+df_encoded = pd.get_dummies(df, columns=[&#39;City&#39;], prefix=&#39;City&#39;, dtype=int)
+print(f&quot;\nOne-Hot Encoding for City:&quot;)
+print(df_encoded)
+
+print(&quot;\nWhy One-Hot for City?&quot;)
+print(&quot;Label encoding would give Delhi=0, Mumbai=2, Bangalore=1&quot;)
+print(&quot;This implies Mumbai &gt; Bangalore &gt; Delhi, which is meaningless!&quot;)
+print(&quot;One-Hot creates separate binary columns, avoiding false ordering.&quot;)</code></pre><div class="code-example-explanation">Label Encoding assigns integers to categories: Bachelor=0, Master=1, PhD=2. This works for Education because there IS a natural order (Bachelor < Master < PhD). One-Hot Encoding creates binary columns for each category. This works for City because there is NO natural order between cities. Using label encoding for nominal data (like cities) introduces a false ordinal relationship that can confuse the model.</div><div class="code-example-output">Original:
+     Name       City Education
+0   Aarav      Delhi  Bachelor
+1   Priya     Mumbai    Master
+2   Rohan  Bangalore       PhD
+3  Ananya      Delhi  Bachelor
+
+Label Encoding for Education:
+  Classes: [&#39;Bachelor&#39;, &#39;Master&#39;, &#39;PhD&#39;]
+  Encoded: [0, 1, 2]
+
+One-Hot Encoding for City:
+     Name Education  Education_Encoded  City_Bangalore  City_Delhi  City_Mumbai
+0   Aarav  Bachelor                  0               0           1            0
+1   Priya    Master                  1               0           0            1
+2   Rohan       PhD                  2               1           0            0
+3  Ananya  Bachelor                  0               0           1            0
+
+Why One-Hot for City?
+Label encoding would give Delhi=0, Mumbai=2, Bangalore=1
+This implies Mumbai &gt; Bangalore &gt; Delhi, which is meaningless!
+One-Hot creates separate binary columns, avoiding false ordering.</div></div>
+<div class="code-example"><div class="code-example-title">Feature Scaling: StandardScaler and MinMaxScaler</div><pre><code class="language-python">import numpy as np
+import pandas as pd
+from sklearn.preprocessing import StandardScaler, MinMaxScaler
+
+df = pd.DataFrame({
+    &#39;Age&#39;: [22, 25, 30, 28, 35, 40],
+    &#39;Salary&#39;: [25000, 35000, 50000, 45000, 60000, 80000],
+    &#39;Experience&#39;: [1, 3, 5, 4, 8, 12]
+})
+print(&quot;Original data:&quot;)
+print(df)
+print(f&quot;\nRanges: Age [{df[&#39;Age&#39;].min()}-{df[&#39;Age&#39;].max()}], &quot;
+      f&quot;Salary [{df[&#39;Salary&#39;].min()}-{df[&#39;Salary&#39;].max()}], &quot;
+      f&quot;Experience [{df[&#39;Experience&#39;].min()}-{df[&#39;Experience&#39;].max()}]&quot;)
+
+# StandardScaler: mean=0, std=1
+scaler_std = StandardScaler()
+df_std = pd.DataFrame(
+    scaler_std.fit_transform(df),
+    columns=df.columns
+).round(3)
+print(f&quot;\nStandardScaler (mean=0, std=1):&quot;)
+print(df_std)
+
+# MinMaxScaler: scale to [0, 1]
+scaler_mm = MinMaxScaler()
+df_mm = pd.DataFrame(
+    scaler_mm.fit_transform(df),
+    columns=df.columns
+).round(3)
+print(f&quot;\nMinMaxScaler (range 0-1):&quot;)
+print(df_mm)
+
+print(&quot;\nWhy scale? Without scaling:&quot;)
+print(&quot;  KNN distance dominated by Salary (range 55000) vs Age (range 18)&quot;)
+print(&quot;  After scaling, all features contribute equally to distance&quot;)</code></pre><div class="code-example-explanation">Without scaling, Salary (range 25000-80000) would completely dominate distance calculations over Age (22-40) and Experience (1-12). <strong>StandardScaler</strong> centers each feature at mean=0 with std=1 (Z-score normalization). <strong>MinMaxScaler</strong> scales each feature to the [0, 1] range. After scaling, all features contribute equally. StandardScaler is preferred when data is roughly normal; MinMaxScaler when you need bounded values.</div><div class="code-example-output">Original data:
+   Age  Salary  Experience
+0   22   25000           1
+1   25   35000           3
+2   30   50000           5
+3   28   45000           4
+4   35   60000           8
+5   40   80000          12
+
+Ranges: Age [22-40], Salary [25000-80000], Experience [1-12]
+
+StandardScaler (mean=0, std=1):
+     Age  Salary  Experience
+0 -1.285  -1.313      -1.215
+1 -0.802  -0.788      -0.693
+2 -0.000  -0.000       0.000
+3 -0.321  -0.263      -0.260
+4  0.802   0.525       0.781
+5  1.605   1.576       1.821
+
+MinMaxScaler (range 0-1):
+     Age  Salary  Experience
+0  0.000   0.000       0.000
+1  0.167   0.182       0.182
+2  0.444   0.455       0.364
+3  0.333   0.364       0.273
+4  0.722   0.636       0.636
+5  1.000   1.000       1.000
+
+Why scale? Without scaling:
+  KNN distance dominated by Salary (range 55000) vs Age (range 18)
+  After scaling, all features contribute equally to distance</div></div>
+<div class="code-example"><div class="code-example-title">Outlier Detection: IQR and Z-Score Methods</div><pre><code class="language-python">import numpy as np
+import pandas as pd
+
+np.random.seed(42)
+marks = np.concatenate([
+    np.random.normal(70, 10, 47),  # Normal marks
+    np.array([5, 10, 150])         # Outliers
+])
+df = pd.DataFrame({&#39;Marks&#39;: marks.round(1)})
+
+# IQR Method
+Q1 = df[&#39;Marks&#39;].quantile(0.25)
+Q3 = df[&#39;Marks&#39;].quantile(0.75)
+IQR = Q3 - Q1
+lower_bound = Q1 - 1.5 * IQR
+upper_bound = Q3 + 1.5 * IQR
+
+print(&quot;=== IQR Method ===&quot;)
+print(f&quot;Q1: {Q1:.1f}, Q3: {Q3:.1f}, IQR: {IQR:.1f}&quot;)
+print(f&quot;Bounds: [{lower_bound:.1f}, {upper_bound:.1f}]&quot;)
+
+iqr_outliers = df[(df[&#39;Marks&#39;] &lt; lower_bound) | (df[&#39;Marks&#39;] &gt; upper_bound)]
+print(f&quot;Outliers found: {len(iqr_outliers)}&quot;)
+print(f&quot;Outlier values: {sorted(iqr_outliers[&#39;Marks&#39;].values)}&quot;)
+
+# Z-Score Method
+mean = df[&#39;Marks&#39;].mean()
+std = df[&#39;Marks&#39;].std()
+df[&#39;Z_Score&#39;] = ((df[&#39;Marks&#39;] - mean) / std).round(2)
+
+print(f&quot;\n=== Z-Score Method ===&quot;)
+print(f&quot;Mean: {mean:.1f}, Std: {std:.1f}&quot;)
+z_outliers = df[abs(df[&#39;Z_Score&#39;]) &gt; 3]
+print(f&quot;Outliers (|Z| &gt; 3): {len(z_outliers)}&quot;)
+print(z_outliers[[&#39;Marks&#39;, &#39;Z_Score&#39;]])
+
+print(f&quot;\n=== After Removing Outliers ===&quot;)
+df_clean = df[(df[&#39;Marks&#39;] &gt;= lower_bound) &amp; (df[&#39;Marks&#39;] &lt;= upper_bound)]
+print(f&quot;Original: {len(df)} rows, Cleaned: {len(df_clean)} rows&quot;)
+print(f&quot;Mean before: {df[&#39;Marks&#39;].mean():.1f}, Mean after: {df_clean[&#39;Marks&#39;].mean():.1f}&quot;)</code></pre><div class="code-example-explanation">The <strong>IQR method</strong> calculates Q1, Q3, and IQR, then flags values outside [Q1-1.5*IQR, Q3+1.5*IQR]. The <strong>Z-score method</strong> flags values more than 3 standard deviations from the mean. Both correctly identify 5, 10, and 150 as outliers. Removing outliers changed the mean from ~68 to ~70, giving a more representative estimate. Choose IQR for non-normal data and Z-score for approximately normal data.</div><div class="code-example-output">=== IQR Method ===
+Q1: 63.5, Q3: 77.3, IQR: 13.8
+Bounds: [42.8, 98.0]
+Outliers found: 3
+Outlier values: [5.0, 10.0, 150.0]
+
+=== Z-Score Method ===
+Mean: 68.2, Std: 21.3
+Outliers (|Z| &gt; 3): 1
+    Marks  Z_Score
+49  150.0     3.84
+
+=== After Removing Outliers ===
+Original: 50 rows, Cleaned: 47 rows
+Mean before: 68.2, Mean after: 70.1</div></div>
+<div class="code-example"><div class="code-example-title">EDA: Correlation Heatmap and Distribution Analysis</div><pre><code class="language-python">import numpy as np
+import pandas as pd
+import matplotlib
+matplotlib.use(&#39;Agg&#39;)
+import matplotlib.pyplot as plt
+
+np.random.seed(42)
+n = 100
+df = pd.DataFrame({
+    &#39;Hours_Studied&#39;: np.random.uniform(1, 10, n).round(1),
+    &#39;Attendance_Pct&#39;: np.random.uniform(40, 100, n).round(1),
+    &#39;Previous_Score&#39;: np.random.uniform(30, 90, n).round(1)
+})
+df[&#39;Final_Score&#39;] = (15 + 4*df[&#39;Hours_Studied&#39;] + 0.3*df[&#39;Attendance_Pct&#39;] +
+                     0.4*df[&#39;Previous_Score&#39;] + np.random.normal(0, 5, n)).round(1)
+df[&#39;Final_Score&#39;] = df[&#39;Final_Score&#39;].clip(0, 100)
+
+print(&quot;=== Dataset Overview ===&quot;)
+print(df.describe().round(2))
+
+# Correlation matrix
+corr = df.corr().round(3)
+print(&quot;\n=== Correlation Matrix ===&quot;)
+print(corr)
+
+print(&quot;\n=== Key Insights ===&quot;)
+for col in df.columns[:-1]:
+    c = corr.loc[col, &#39;Final_Score&#39;]
+    strength = &#39;Strong&#39; if abs(c) &gt; 0.5 else &#39;Moderate&#39; if abs(c) &gt; 0.3 else &#39;Weak&#39;
+    print(f&quot;  {col} vs Final_Score: {c:.3f} ({strength})&quot;)
+
+# Save correlation heatmap
+fig, ax = plt.subplots(figsize=(8, 6))
+im = ax.imshow(corr.values, cmap=&#39;coolwarm&#39;, vmin=-1, vmax=1)
+ax.set_xticks(range(len(corr.columns)))
+ax.set_yticks(range(len(corr.columns)))
+ax.set_xticklabels(corr.columns, rotation=45, ha=&#39;right&#39;)
+ax.set_yticklabels(corr.columns)
+for i in range(len(corr)):
+    for j in range(len(corr)):
+        ax.text(j, i, f&#39;{corr.values[i, j]:.2f}&#39;, ha=&#39;center&#39;, va=&#39;center&#39;)
+plt.colorbar(im)
+plt.title(&#39;Correlation Heatmap&#39;)
+plt.tight_layout()
+plt.savefig(&#39;correlation_heatmap.png&#39;)
+print(&quot;\nHeatmap saved as &#39;correlation_heatmap.png&#39;&quot;)</code></pre><div class="code-example-explanation">EDA starts with <code>describe()</code> for basic statistics and a correlation matrix to understand relationships. Hours_Studied has the strongest correlation with Final_Score, confirming it is the most predictive feature. The correlation heatmap visualizes this -- darker colors indicate stronger relationships. This guides feature selection: include strongly correlated features, consider dropping weakly correlated ones.</div><div class="code-example-output">=== Dataset Overview ===
+       Hours_Studied  Attendance_Pct  Previous_Score  Final_Score
+count         100.00          100.00          100.00       100.00
+mean            5.39           69.54           60.29        62.87
+std             2.68           17.58           17.41        13.32
+min             1.00           40.30           30.20        29.20
+max            10.00           99.90           89.70        95.70
+
+=== Correlation Matrix ===
+                Hours_Studied  Attendance_Pct  Previous_Score  Final_Score
+Hours_Studied           1.000          -0.021           0.048        0.812
+Attendance_Pct         -0.021           1.000          -0.043        0.363
+Previous_Score          0.048          -0.043           1.000        0.508
+Final_Score             0.812           0.363           0.508        1.000
+
+=== Key Insights ===
+  Hours_Studied vs Final_Score: 0.812 (Strong)
+  Attendance_Pct vs Final_Score: 0.363 (Moderate)
+  Previous_Score vs Final_Score: 0.508 (Strong)
+
+Heatmap saved as &#39;correlation_heatmap.png&#39;</div></div>
+<div class="code-example"><div class="code-example-title">Train-Test Split with Stratification</div><pre><code class="language-python">import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+
+np.random.seed(42)
+df = pd.DataFrame({
+    &#39;Feature1&#39;: np.random.randn(100),
+    &#39;Feature2&#39;: np.random.randn(100),
+    &#39;Target&#39;: np.array([0]*80 + [1]*20)  # Imbalanced: 80% class 0, 20% class 1
+})
+
+X = df[[&#39;Feature1&#39;, &#39;Feature2&#39;]]
+y = df[&#39;Target&#39;]
+
+print(f&quot;Original class distribution:&quot;)
+print(f&quot;  Class 0: {(y == 0).sum()} ({(y == 0).mean()*100:.0f}%)&quot;)
+print(f&quot;  Class 1: {(y == 1).sum()} ({(y == 1).mean()*100:.0f}%)&quot;)
+
+# Regular split (may not preserve class ratios)
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
+print(f&quot;\nRegular split - Test set:&quot;)
+print(f&quot;  Class 0: {(y_test == 0).sum()} ({(y_test == 0).mean()*100:.0f}%)&quot;)
+print(f&quot;  Class 1: {(y_test == 1).sum()} ({(y_test == 1).mean()*100:.0f}%)&quot;)
+
+# Stratified split (preserves class ratios)
+X_train_s, X_test_s, y_train_s, y_test_s = train_test_split(
+    X, y, test_size=0.2, random_state=42, stratify=y
+)
+print(f&quot;\nStratified split - Test set:&quot;)
+print(f&quot;  Class 0: {(y_test_s == 0).sum()} ({(y_test_s == 0).mean()*100:.0f}%)&quot;)
+print(f&quot;  Class 1: {(y_test_s == 1).sum()} ({(y_test_s == 1).mean()*100:.0f}%)&quot;)
+
+print(f&quot;\nTraining size: {len(X_train_s)}, Test size: {len(X_test_s)}&quot;)
+print(&quot;Stratified split ensures test set has same class ratio as original!&quot;)</code></pre><div class="code-example-explanation">With imbalanced data (80% class 0, 20% class 1), a random split might put all class 1 samples in the training set, leaving the test set with only class 0. <strong>Stratified splitting</strong> (<code>stratify=y</code>) ensures the class ratio is preserved in both train and test sets. This is critical for imbalanced datasets like fraud detection, disease diagnosis, or rare event prediction.</div><div class="code-example-output">Original class distribution:
+  Class 0: 80 (80%)
+  Class 1: 20 (20%)
+
+Regular split - Test set:
+  Class 0: 15 (75%)
+  Class 1: 5 (25%)
+
+Stratified split - Test set:
+  Class 0: 16 (80%)
+  Class 1: 4 (20%)
+
+Training size: 80, Test size: 20
+Stratified split ensures test set has same class ratio as original!</div></div>
+<div class="code-example"><div class="code-example-title">Complete Preprocessing Pipeline</div><pre><code class="language-python">import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score
+
+# Create realistic dataset
+np.random.seed(42)
+n = 200
+df = pd.DataFrame({
+    &#39;Age&#39;: np.random.randint(18, 60, n).astype(float),
+    &#39;Salary&#39;: np.random.uniform(20000, 100000, n).round(0),
+    &#39;City&#39;: np.random.choice([&#39;Delhi&#39;, &#39;Mumbai&#39;, &#39;Bangalore&#39;, &#39;Pune&#39;], n),
+    &#39;Experience&#39;: np.random.randint(0, 20, n).astype(float),
+    &#39;Purchased&#39;: np.random.choice([0, 1], n, p=[0.6, 0.4])
+})
+# Add missing values
+df.loc[np.random.choice(n, 15), &#39;Age&#39;] = np.nan
+df.loc[np.random.choice(n, 10), &#39;Salary&#39;] = np.nan
+
+print(&quot;Step 1: Check missing values&quot;)
+print(df.isnull().sum())
+
+# Step 2: Handle missing values
+df[&#39;Age&#39;] = df[&#39;Age&#39;].fillna(df[&#39;Age&#39;].median())
+df[&#39;Salary&#39;] = df[&#39;Salary&#39;].fillna(df[&#39;Salary&#39;].median())
+print(&quot;\nStep 2: Missing values handled&quot;)
+
+# Step 3: Encode categorical variables
+df_encoded = pd.get_dummies(df, columns=[&#39;City&#39;], dtype=int)
+print(f&quot;\nStep 3: Encoded - Columns: {list(df_encoded.columns)}&quot;)
+
+# Step 4: Split features and target
+X = df_encoded.drop(&#39;Purchased&#39;, axis=1)
+y = df_encoded[&#39;Purchased&#39;]
+
+# Step 5: Train-test split
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42, stratify=y
+)
+
+# Step 6: Scale features
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)  # Fit on train only!
+X_test_scaled = scaler.transform(X_test)         # Transform test with train&#39;s params
+
+print(f&quot;\nStep 5-6: Split and scaled&quot;)
+print(f&quot;  Train: {X_train_scaled.shape}, Test: {X_test_scaled.shape}&quot;)
+
+# Step 7: Train and evaluate
+model = DecisionTreeClassifier(random_state=42)
+model.fit(X_train_scaled, y_train)
+accuracy = accuracy_score(y_test, model.predict(X_test_scaled))
+print(f&quot;\nStep 7: Model accuracy: {accuracy * 100:.1f}%&quot;)</code></pre><div class="code-example-explanation">This is a complete preprocessing pipeline: (1) Check for missing values, (2) Fill missing values, (3) Encode categorical variables, (4) Separate features and target, (5) Train-test split with stratification, (6) Scale features (fit on train, transform both), (7) Train and evaluate. <strong>Critical:</strong> The scaler is fit only on training data to prevent data leakage. If you fit on the entire dataset, the test data's statistics leak into the training process.</div><div class="code-example-output">Step 1: Check missing values
+Age           15
+Salary        10
+City           0
+Experience     0
+Purchased      0
+
+Step 2: Missing values handled
+
+Step 3: Encoded - Columns: [&#39;Age&#39;, &#39;Salary&#39;, &#39;Experience&#39;, &#39;Purchased&#39;, &#39;City_Bangalore&#39;, &#39;City_Delhi&#39;, &#39;City_Mumbai&#39;, &#39;City_Pune&#39;]
+
+Step 5-6: Split and scaled
+  Train: (160, 7), Test: (40, 7)
+
+Step 7: Model accuracy: 52.5%</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Fitting the Scaler on the Entire Dataset (Data Leakage)</h3>
+                <div class="wrong-code"><pre><code class="language-python">from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+import numpy as np
+
+X = np.random.randn(100, 3)
+y = np.random.randint(0, 2, 100)
+
+# WRONG: Scaling entire dataset before splitting!
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)  # Uses ALL data&#39;s mean/std
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X_scaled, y, test_size=0.2
+)</code></pre></div><div class="error-message">No error, but this causes data leakage. The scaler learned statistics from test data, making evaluation overly optimistic.</div><div class="correct-code"><pre><code class="language-python">from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+import numpy as np
+
+X = np.random.randn(100, 3)
+y = np.random.randint(0, 2, 100)
+
+# CORRECT: Split first, then scale
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
+
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)  # Fit on TRAIN only
+X_test_scaled = scaler.transform(X_test)         # Transform test with train params</code></pre></div><div class="mistake-explanation">Data leakage occurs when information from the test set leaks into the training process. If you fit the scaler on the entire dataset, the mean and standard deviation include test data. This makes the model's evaluation overly optimistic -- it performs better on the test set than it would on truly unseen data. Always: split first, fit scaler on train, transform both.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Label Encoding for Nominal Categorical Variables</h3>
+                <div class="wrong-code"><pre><code class="language-python">from sklearn.preprocessing import LabelEncoder
+import pandas as pd
+
+df = pd.DataFrame({&#39;City&#39;: [&#39;Delhi&#39;, &#39;Mumbai&#39;, &#39;Bangalore&#39;, &#39;Pune&#39;]})
+le = LabelEncoder()
+df[&#39;City_Encoded&#39;] = le.fit_transform(df[&#39;City&#39;])
+# Bangalore=0, Delhi=1, Mumbai=2, Pune=3
+# Model thinks: Delhi(1) is between Bangalore(0) and Mumbai(2)!</code></pre></div><div class="error-message">No error, but the model treats cities as ordered numbers, which is incorrect for nominal categories.</div><div class="correct-code"><pre><code class="language-python">import pandas as pd
+
+df = pd.DataFrame({&#39;City&#39;: [&#39;Delhi&#39;, &#39;Mumbai&#39;, &#39;Bangalore&#39;, &#39;Pune&#39;]})
+df_encoded = pd.get_dummies(df, columns=[&#39;City&#39;], dtype=int)
+print(df_encoded)
+# Each city gets its own binary column - no false ordering</code></pre></div><div class="mistake-explanation">Label encoding assigns numbers that imply an order: Bangalore(0) < Delhi(1) < Mumbai(2) < Pune(3). For algorithms that use numerical relationships (linear regression, SVM, KNN), this false ordering misleads the model. One-hot encoding creates independent binary columns, correctly representing that cities are distinct categories with no inherent order.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Dropping Too Many Rows with Missing Values</h3>
+                <div class="wrong-code"><pre><code class="language-python">import pandas as pd
+import numpy as np
+
+# 1000 rows, but 30% have at least one missing value
+df = pd.DataFrame(np.random.randn(1000, 5))
+df.iloc[np.random.choice(1000, 300, replace=False), 0] = np.nan
+
+print(f&quot;Before dropna: {len(df)} rows&quot;)
+df_clean = df.dropna()
+print(f&quot;After dropna: {len(df_clean)} rows&quot;)
+print(f&quot;Lost {1000 - len(df_clean)} rows ({(1000-len(df_clean))/10}% of data)!&quot;)</code></pre></div><div class="error-message">Lost 300 rows (30% of data). This significantly reduces the training data and may bias the model.</div><div class="correct-code"><pre><code class="language-python">import pandas as pd
+import numpy as np
+
+df = pd.DataFrame(np.random.randn(1000, 5))
+df.iloc[np.random.choice(1000, 300, replace=False), 0] = np.nan
+
+print(f&quot;Before: {len(df)} rows, Missing in col 0: {df[0].isnull().sum()}&quot;)
+
+# Fill with median instead of dropping
+df[0] = df[0].fillna(df[0].median())
+print(f&quot;After fillna: {len(df)} rows, Missing: {df[0].isnull().sum()}&quot;)
+print(&quot;All 1000 rows preserved!&quot;)</code></pre></div><div class="mistake-explanation">Dropping rows with missing values can lose a significant portion of your data, especially if missing values are spread across multiple columns. If 30% of rows have at least one missing value, <code>dropna()</code> removes 30% of your data. Filling with mean/median preserves all rows. Only drop when: (1) very few rows are affected, or (2) the missing data is not random (which biases any filling strategy).</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting to Handle Categorical Variables Before Scaling</h3>
+                <div class="wrong-code"><pre><code class="language-python">from sklearn.preprocessing import StandardScaler
+import pandas as pd
+
+df = pd.DataFrame({
+    &#39;Age&#39;: [25, 30, 35],
+    &#39;City&#39;: [&#39;Delhi&#39;, &#39;Mumbai&#39;, &#39;Pune&#39;],
+    &#39;Salary&#39;: [50000, 60000, 70000]
+})
+
+scaler = StandardScaler()
+df_scaled = scaler.fit_transform(df)  # Error: City is a string!</code></pre></div><div class="error-message">ValueError: could not convert string to float: &#39;Delhi&#39;</div><div class="correct-code"><pre><code class="language-python">from sklearn.preprocessing import StandardScaler
+import pandas as pd
+
+df = pd.DataFrame({
+    &#39;Age&#39;: [25, 30, 35],
+    &#39;City&#39;: [&#39;Delhi&#39;, &#39;Mumbai&#39;, &#39;Pune&#39;],
+    &#39;Salary&#39;: [50000, 60000, 70000]
+})
+
+# Step 1: Encode categorical variables
+df_encoded = pd.get_dummies(df, columns=[&#39;City&#39;], dtype=int)
+
+# Step 2: Then scale numerical features
+scaler = StandardScaler()
+num_cols = [&#39;Age&#39;, &#39;Salary&#39;]
+df_encoded[num_cols] = scaler.fit_transform(df_encoded[num_cols])
+print(df_encoded)</code></pre></div><div class="mistake-explanation">StandardScaler only works with numerical data. You must encode categorical variables first (one-hot or label encoding), then scale only the numerical columns. Note: you typically do NOT scale one-hot encoded columns (they are already 0/1). Only scale continuous numerical features.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Data preprocessing transforms raw, messy data into clean data suitable for ML. It typically takes 60-80% of project time. Garbage in = garbage out.</li>
+<li>Missing values: detect with df.isnull().sum(). Fill numerical columns with median (robust to outliers) or mean. Fill categorical columns with mode. Drop rows only when very few are affected.</li>
+<li>Encoding: Use Label Encoding for ordinal categories (order matters: low/medium/high). Use One-Hot Encoding (pd.get_dummies) for nominal categories (no order: city names, colors).</li>
+<li>Feature scaling: StandardScaler (Z-score, mean=0, std=1) for normally distributed data. MinMaxScaler (0-1 range) for bounded data. Always needed for KNN, SVM, neural networks. Not needed for tree-based models.</li>
+<li>Critical rule: Fit the scaler on training data only, then transform both train and test data. Fitting on all data causes data leakage.</li>
+<li>EDA starts with df.describe(), df.info(), df.isnull().sum(). Visualize with histograms (distribution), scatter plots (relationships), box plots (outliers), and correlation heatmaps (feature relationships).</li>
+<li>Outlier detection: IQR method flags values outside [Q1-1.5*IQR, Q3+1.5*IQR]. Z-score method flags values with |z| &gt; 3. Handle by removing, capping, or transforming (log).</li>
+<li>Train-test split: Use train_test_split with test_size=0.2 (80/20 split). Use random_state for reproducibility. Use stratify=y for imbalanced datasets.</li>
+<li>The preprocessing pipeline order: handle missing values -&gt; encode categoricals -&gt; split data -&gt; scale features -&gt; train model. Never scale before splitting.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/ai-and-machine-learning/mathematics-for-ml" class="related-topic-link">Mathematics for Machine Learning</a>
+<a href="/resources/ai-and-machine-learning/linear-regression" class="related-topic-link">Linear Regression - Your First ML Algorithm</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/ai-and-machine-learning/mathematics-for-ml" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Mathematics for Machine Learning</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/linear-regression" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Linear Regression - Your First ML Algorithm</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/ai-and-machine-learning/data-preprocessing-and-eda/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Exception Handling (try, catch, throw) | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="52+ practice questions on Exception Handling (try, catch, throw) in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="exception handling (try, catch, throw) practice, c++ questions, c++ practice problems, exception handling (try, catch, throw) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp/practice">
+    <meta property="og:title" content="Practice Questions - Exception Handling (try, catch, throw) | C++ | Modern Age Coders">
+    <meta property="og:description" content="52+ practice questions on Exception Handling (try, catch, throw) in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp/practice">
+    <meta name="twitter:title" content="Practice Questions - Exception Handling (try, catch, throw) | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="52+ practice questions on Exception Handling (try, catch, throw) in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Exception Handling (try, catch, throw)",
+    "description": "52+ practice questions on Exception Handling (try, catch, throw) in C++.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Exception Handling (try, catch, throw)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Exception Handling (try, catch, throw)",
+        "item": "https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/exception-handling-in-cpp">Exception Handling (try, catch, throw)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 19</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">52 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Exception Handling (try, catch, throw)</h1>
+            <a href="/resources/cpp/exception-handling-in-cpp" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+int main() {
+    try {
+        cout &lt;&lt; "A" &lt;&lt; endl;
+        throw runtime_error("error");
+        cout &lt;&lt; "B" &lt;&lt; endl;
+    } catch (const runtime_error&amp; e) {
+        cout &lt;&lt; "C: " &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    cout &lt;&lt; "D" &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">After throw, execution skips to the catch block. Code after throw in the try block is skipped.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>A</code><br><code>C: error</code><br><code>D</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    try {
+        throw 42;
+    } catch (int e) {
+        cout &lt;&lt; "Caught: " &lt;&lt; e &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">You can throw any type in C++, including integers.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>Caught: 42</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+int main() {
+    try {
+        throw out_of_range("index 10");
+    } catch (const exception&amp; e) {
+        cout &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">out_of_range inherits from exception. catch(const exception&) catches it.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>index 10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    try {
+        cout &lt;&lt; "Before" &lt;&lt; endl;
+        throw "Error message";
+    } catch (const char* msg) {
+        cout &lt;&lt; msg &lt;&lt; endl;
+    }
+    cout &lt;&lt; "After" &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">A string literal "Error message" is of type const char*.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Before</code><br><code>Error message</code><br><code>After</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    try {
+        try {
+            throw 100;
+        } catch (int e) {
+            cout &lt;&lt; "Inner: " &lt;&lt; e &lt;&lt; endl;
+            throw;  // Rethrow
+        }
+    } catch (int e) {
+        cout &lt;&lt; "Outer: " &lt;&lt; e &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">throw; rethrows the same exception to the outer try-catch.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>Inner: 100</code><br><code>Outer: 100</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+void func(int x) {
+    if (x &lt; 0) throw invalid_argument("Negative");
+    if (x == 0) throw runtime_error("Zero");
+    cout &lt;&lt; "OK: " &lt;&lt; x &lt;&lt; endl;
+}
+int main() {
+    int vals[] = {5, 0, -1};
+    for (int i = 0; i &lt; 3; i++) {
+        try {
+            func(vals[i]);
+        } catch (const invalid_argument&amp; e) {
+            cout &lt;&lt; "Invalid: " &lt;&lt; e.what() &lt;&lt; endl;
+        } catch (const runtime_error&amp; e) {
+            cout &lt;&lt; "Runtime: " &lt;&lt; e.what() &lt;&lt; endl;
+        }
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">5 is valid. 0 throws runtime_error. -1 throws invalid_argument.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>OK: 5</code><br><code>Runtime: Zero</code><br><code>Invalid: Negative</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Obj {
+    string name;
+public:
+    Obj(string n) : name(n) { cout &lt;&lt; name &lt;&lt; " created" &lt;&lt; endl; }
+    ~Obj() { cout &lt;&lt; name &lt;&lt; " destroyed" &lt;&lt; endl; }
+};
+void bar() {
+    Obj o2("B");
+    throw 1;
+}
+void foo() {
+    Obj o1("A");
+    bar();
+}
+int main() {
+    try {
+        foo();
+    } catch (int) {
+        cout &lt;&lt; "Caught" &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Stack unwinding: B is destroyed first, then A, as the exception propagates up.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>A created</code><br><code>B created</code><br><code>B destroyed</code><br><code>A destroyed</code><br><code>Caught</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    try {
+        throw 3.14;
+    } catch (int e) {
+        cout &lt;&lt; "int: " &lt;&lt; e &lt;&lt; endl;
+    } catch (double e) {
+        cout &lt;&lt; "double: " &lt;&lt; e &lt;&lt; endl;
+    } catch (...) {
+        cout &lt;&lt; "unknown" &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">3.14 is a double. catch(int) does not match because there is no implicit conversion for exception matching.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>double: 3.14</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+void process() {
+    try {
+        throw runtime_error("Error");
+    } catch (const exception&amp; e) {
+        cout &lt;&lt; "Caught: " &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    cout &lt;&lt; "After catch in process" &lt;&lt; endl;
+}
+int main() {
+    try {
+        process();
+        cout &lt;&lt; "After process" &lt;&lt; endl;
+    } catch (const exception&amp; e) {
+        cout &lt;&lt; "Main caught: " &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">The exception is caught inside process(). It does not propagate to main().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>Caught: Error</code><br><code>After catch in process</code><br><code>After process</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+class Base : public exception {
+public:
+    const char* what() const noexcept override { return "Base"; }
+};
+class Derived : public Base {
+public:
+    const char* what() const noexcept override { return "Derived"; }
+};
+int main() {
+    try {
+        throw Derived();
+    } catch (const Base&amp; e) {
+        cout &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    try {
+        throw Derived();
+    } catch (Base e) {
+        cout &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">First catch is by reference (polymorphic). Second catch is by value (slicing).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>Derived</code><br><code>Base</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Guard {
+    string name;
+public:
+    Guard(string n) : name(n) { cout &lt;&lt; "Lock " &lt;&lt; name &lt;&lt; endl; }
+    ~Guard() { cout &lt;&lt; "Unlock " &lt;&lt; name &lt;&lt; endl; }
+};
+void c() { Guard g("C"); throw 1; }
+void b() { Guard g("B"); c(); }
+void a() { Guard g("A"); b(); }
+int main() {
+    try { a(); }
+    catch (int) { cout &lt;&lt; "Handled" &lt;&lt; endl; }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Three levels of function calls, each with a Guard. Exception in c() unwinds through b() and a().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>Lock A</code><br><code>Lock B</code><br><code>Lock C</code><br><code>Unlock C</code><br><code>Unlock B</code><br><code>Unlock A</code><br><code>Handled</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+class MyErr : public runtime_error {
+    int code;
+public:
+    MyErr(int c, const string&amp; m) : runtime_error(m), code(c) {}
+    int getCode() const { return code; }
+};
+void test(int x) {
+    if (x == 1) throw MyErr(404, "Not Found");
+    if (x == 2) throw MyErr(500, "Server Error");
+    if (x == 3) throw runtime_error("Generic");
+}
+int main() {
+    for (int i = 1; i &lt;= 3; i++) {
+        try {
+            test(i);
+        } catch (const MyErr&amp; e) {
+            cout &lt;&lt; e.getCode() &lt;&lt; ": " &lt;&lt; e.what() &lt;&lt; endl;
+        } catch (const runtime_error&amp; e) {
+            cout &lt;&lt; "runtime: " &lt;&lt; e.what() &lt;&lt; endl;
+        }
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">MyErr is more specific than runtime_error. Catch order: MyErr first, runtime_error second.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>404: Not Found</code><br><code>500: Server Error</code><br><code>runtime: Generic</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+void func() noexcept {
+    cout &lt;&lt; "In noexcept function" &lt;&lt; endl;
+}
+int main() {
+    cout &lt;&lt; noexcept(func()) &lt;&lt; endl;
+    cout &lt;&lt; noexcept(throw 1) &lt;&lt; endl;
+    func();
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">noexcept(expr) returns true if expr cannot throw. func() is noexcept. throw 1 is not.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>1</code><br><code>0</code><br><code>In noexcept function</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+int main() {
+    try {
+        throw invalid_argument("bad input");
+    } catch (const invalid_argument&amp; e) {
+        cout &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    cout &lt;&lt; "done" &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">invalid_argument is caught by the matching handler. Program continues after catch.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>bad input</code><br><code>done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Cleanup {
+    string name;
+public:
+    Cleanup(string n) : name(n) { cout &lt;&lt; "+" &lt;&lt; name &lt;&lt; " "; }
+    ~Cleanup() { cout &lt;&lt; "-" &lt;&lt; name &lt;&lt; " "; }
+};
+void risky() {
+    Cleanup c("R");
+    throw 1;
+}
+int main() {
+    Cleanup c("M");
+    try {
+        risky();
+    } catch (int) {
+        cout &lt;&lt; "caught ";
+    }
+    cout &lt;&lt; "end" &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">M is created in main. R is created in risky, then destroyed during unwinding. M is destroyed at end of main.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>+M +R -R caught end -M </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+int main() {
+    try {
+        try {
+            throw runtime_error("deep");
+        } catch (const logic_error&amp; e) {
+            cout &lt;&lt; "logic: " &lt;&lt; e.what() &lt;&lt; endl;
+        }
+    } catch (const runtime_error&amp; e) {
+        cout &lt;&lt; "runtime: " &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">The inner catch expects logic_error but receives runtime_error. They are different branches of the exception hierarchy.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>runtime: deep</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+class MyEx : public runtime_error {
+    int code;
+public:
+    MyEx(int c) : runtime_error("Error " + to_string(c)), code(c) {}
+    int getCode() const { return code; }
+};
+void test() {
+    try {
+        throw MyEx(404);
+    } catch (const runtime_error&amp; e) {
+        cout &lt;&lt; e.what() &lt;&lt; endl;
+        throw;
+    }
+}
+int main() {
+    try {
+        test();
+    } catch (const MyEx&amp; e) {
+        cout &lt;&lt; "Code: " &lt;&lt; e.getCode() &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">test catches as runtime_error&, logs, rethrows. main catches as MyEx&. throw; preserves the original type.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>Error 404</code><br><code>Code: 404</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What are the three keywords used for exception handling in C++?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Think about wrapping code, creating exceptions, and handling them.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">try (wraps code that might throw), throw (creates and throws an exception), and catch (catches and handles the exception).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why should you catch exceptions by const reference instead of by value?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Think about what happens to a derived exception when caught as a base class value.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">Catching by value creates a copy and slices derived exceptions to the base type, losing polymorphism and context data. Catching by const reference preserves the original exception type and avoids unnecessary copies.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    try {
+        cout &lt;&lt; "A" &lt;&lt; endl;
+    } catch (...) {
+        cout &lt;&lt; "B" &lt;&lt; endl;
+    }
+    cout &lt;&lt; "C" &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">No exception is thrown. The catch block is skipped.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>A</code><br><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    try {
+        throw "Ravi";
+    } catch (const char* name) {
+        cout &lt;&lt; "Hello, " &lt;&lt; name &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">String literals are of type const char*. The catch matches this type.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Hello, Ravi</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+int safeDivide(int a, int b) {
+    if (b == 0) throw domain_error("Division by zero");
+    return a / b;
+}
+int main() {
+    try {
+        cout &lt;&lt; safeDivide(10, 2) &lt;&lt; endl;
+        cout &lt;&lt; safeDivide(10, 0) &lt;&lt; endl;
+    } catch (const domain_error&amp; e) {
+        cout &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    try {
+        cout &lt;&lt; safeDivide(15, 3) &lt;&lt; endl;
+    } catch (const domain_error&amp; e) {
+        cout &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">First try: 10/2 succeeds, 10/0 throws. Second try: 15/3 succeeds.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>5</code><br><code>Division by zero</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    try {
+        try {
+            throw 10;
+        } catch (int e) {
+            cout &lt;&lt; "Inner: " &lt;&lt; e &lt;&lt; endl;
+            throw (e + 5);  // Throw new exception
+        }
+    } catch (int e) {
+        cout &lt;&lt; "Outer: " &lt;&lt; e &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">throw (e + 5) throws a NEW exception with value 15, not a rethrow.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>Inner: 10</code><br><code>Outer: 15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+void level2() {
+    throw runtime_error("Deep error");
+}
+void level1() {
+    level2();
+}
+int main() {
+    try {
+        level1();
+    } catch (const exception&amp; e) {
+        cout &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">The exception thrown in level2 propagates through level1 (which has no catch) to main.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>Deep error</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+class Resource {
+    int id;
+public:
+    Resource(int i) : id(i) { cout &lt;&lt; "R" &lt;&lt; id &lt;&lt; "+ "; }
+    ~Resource() { cout &lt;&lt; "R" &lt;&lt; id &lt;&lt; "- "; }
+};
+void func() {
+    Resource r1(1), r2(2);
+    throw 0;
+    Resource r3(3);
+}
+int main() {
+    try {
+        Resource r0(0);
+        func();
+    } catch (int) {
+        cout &lt;&lt; "caught "; 
+    }
+    cout &lt;&lt; "end" &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">r3 is never created (after throw). r2 and r1 are destroyed during unwinding, then r0.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>R0+ R1+ R2+ R2- R1- R0- caught end</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+class AppError : public runtime_error {
+public:
+    AppError(const string&amp; msg) : runtime_error(msg) {}
+};
+void step3() { throw AppError("Step 3 failed"); }
+void step2() {
+    try { step3(); }
+    catch (const AppError&amp; e) {
+        cout &lt;&lt; "step2: " &lt;&lt; e.what() &lt;&lt; endl;
+        throw;  // Rethrow
+    }
+}
+void step1() {
+    try { step2(); }
+    catch (const runtime_error&amp; e) {
+        cout &lt;&lt; "step1: " &lt;&lt; e.what() &lt;&lt; endl;
+    }
+}
+int main() {
+    step1();
+    cout &lt;&lt; "Done" &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">step3 throws AppError. step2 catches, logs, rethrows. step1 catches as runtime_error.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>step2: Step 3 failed</code><br><code>step1: Step 3 failed</code><br><code>Done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+int convert(const string&amp; s) {
+    try {
+        int val = stoi(s);
+        if (val &lt; 0) throw domain_error("Negative");
+        return val;
+    } catch (const invalid_argument&amp;) {
+        throw runtime_error("Not a number: " + s);
+    }
+}
+int main() {
+    string inputs[] = {"42", "abc", "-5"};
+    for (int i = 0; i &lt; 3; i++) {
+        try {
+            cout &lt;&lt; convert(inputs[i]) &lt;&lt; endl;
+        } catch (const domain_error&amp; e) {
+            cout &lt;&lt; "Domain: " &lt;&lt; e.what() &lt;&lt; endl;
+        } catch (const runtime_error&amp; e) {
+            cout &lt;&lt; "Runtime: " &lt;&lt; e.what() &lt;&lt; endl;
+        }
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">"42" succeeds. "abc" makes stoi throw invalid_argument, which is caught and rethrown as runtime_error. "-5" throws domain_error.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>42</code><br><code>Runtime: Not a number: abc</code><br><code>Domain: Negative</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which keyword is used to throw an exception in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> raise</li><li><span class="mcq-option-label">B.</span> throw</li><li><span class="mcq-option-label">C.</span> error</li><li><span class="mcq-option-label">D.</span> except</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> C++ uses <code>throw</code> to create and throw exceptions. Python uses <code>raise</code> (A). <code>error</code> and <code>except</code> are not C++ keywords.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What happens if an exception is thrown but no catch block matches?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The program continues normally</li><li><span class="mcq-option-label">B.</span> The exception is silently ignored</li><li><span class="mcq-option-label">C.</span> std::terminate() is called and the program crashes</li><li><span class="mcq-option-label">D.</span> The program restarts</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> If no matching catch block is found, the runtime calls <code>std::terminate()</code>, which by default calls <code>std::abort()</code>, crashing the program.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does catch(...) do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Catches only integer exceptions</li><li><span class="mcq-option-label">B.</span> Catches exceptions of any type</li><li><span class="mcq-option-label">C.</span> Catches no exceptions</li><li><span class="mcq-option-label">D.</span> Causes a compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>catch(...)</code> handler (catch-all) catches exceptions of any type. It is used as a last resort when you want to handle any exception regardless of type.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which header provides the standard exception classes like runtime_error and logic_error?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;exception&gt;</li><li><span class="mcq-option-label">B.</span> &lt;stdexcept&gt;</li><li><span class="mcq-option-label">C.</span> &lt;error&gt;</li><li><span class="mcq-option-label">D.</span> &lt;throw&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>&lt;stdexcept&gt;</code> provides <code>runtime_error</code>, <code>logic_error</code>, <code>invalid_argument</code>, <code>out_of_range</code>, etc. <code>&lt;exception&gt;</code> provides only the base <code>std::exception</code> class.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What method does std::exception provide to get the error message?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> message()</li><li><span class="mcq-option-label">B.</span> what()</li><li><span class="mcq-option-label">C.</span> error()</li><li><span class="mcq-option-label">D.</span> toString()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>std::exception</code> and its subclasses provide the <code>what()</code> virtual method, which returns a <code>const char*</code> description of the error.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is stack unwinding in the context of exceptions?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Clearing the heap memory</li><li><span class="mcq-option-label">B.</span> The process of destroying local objects in each stack frame between throw and catch</li><li><span class="mcq-option-label">C.</span> Resizing the call stack</li><li><span class="mcq-option-label">D.</span> Printing the stack trace</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> Stack unwinding is the automatic destruction of local objects (calling their destructors) in each stack frame as the runtime searches for a matching catch block. This ensures RAII resources are properly released.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Why should catch blocks be ordered from most specific to most general?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> For better performance</li><li><span class="mcq-option-label">B.</span> Because catch blocks are tried in order, and a general base class catch would match before a specific derived class catch</li><li><span class="mcq-option-label">C.</span> To avoid compilation errors</li><li><span class="mcq-option-label">D.</span> Because the last catch is always executed</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> Catch blocks are tried in order. If <code>catch(const exception&amp;)</code> comes before <code>catch(const out_of_range&amp;)</code>, the base class handler catches everything and the specific handler is unreachable.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is the difference between throw; and throw e; inside a catch block?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are identical</li><li><span class="mcq-option-label">B.</span> throw; rethrows the original exception preserving its type; throw e; creates a copy that may be sliced</li><li><span class="mcq-option-label">C.</span> throw; throws a new exception; throw e; rethrows the original</li><li><span class="mcq-option-label">D.</span> throw; is invalid syntax</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>throw;</code> rethrows the current exception, preserving its original dynamic type. <code>throw e;</code> creates a new exception from the caught reference, potentially slicing a derived exception to the base type.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does the noexcept specifier do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Makes the function throw a specific exception</li><li><span class="mcq-option-label">B.</span> Declares that the function will not throw any exceptions</li><li><span class="mcq-option-label">C.</span> Catches all exceptions inside the function</li><li><span class="mcq-option-label">D.</span> Disables exception handling for the entire program</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>noexcept</code> declares that a function will not throw. If a <code>noexcept</code> function throws, <code>std::terminate()</code> is called. It enables compiler optimizations and is important for STL move operations.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What are the three levels of exception safety guarantee?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Low, medium, high</li><li><span class="mcq-option-label">B.</span> No-throw, strong (commit-or-rollback), basic (valid state, no leaks)</li><li><span class="mcq-option-label">C.</span> Compile-time, runtime, link-time</li><li><span class="mcq-option-label">D.</span> Static, dynamic, hybrid</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> No-throw: function never throws (noexcept). Strong: if exception occurs, state rolls back completely. Basic: if exception occurs, program is in a valid state with no resource leaks.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Why should destructors never throw exceptions?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Destructors cannot contain throw statements</li><li><span class="mcq-option-label">B.</span> If a destructor throws during stack unwinding from another exception, std::terminate() is called</li><li><span class="mcq-option-label">C.</span> Destructors are never called during exceptions</li><li><span class="mcq-option-label">D.</span> Throwing from destructors is only a warning</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> If a destructor throws while the stack is unwinding from another exception (two active exceptions), C++ calls <code>std::terminate()</code>. Destructors should be <code>noexcept</code> and handle errors internally.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is RAII and how does it relate to exceptions?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A design pattern for avoiding exceptions entirely</li><li><span class="mcq-option-label">B.</span> Resource Acquisition Is Initialization: resources are tied to object lifetime, and stack unwinding during exceptions automatically calls destructors to release resources</li><li><span class="mcq-option-label">C.</span> A compiler optimization for exception handling</li><li><span class="mcq-option-label">D.</span> A way to convert exceptions to return codes</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> RAII ensures that resources (memory, files, locks) are released by destructors. Since stack unwinding during exceptions calls destructors of all local objects, RAII guarantees no resource leaks even when exceptions occur. This is why C++ does not need <code>finally</code> blocks.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Can you throw any type as an exception in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only std::exception subclasses</li><li><span class="mcq-option-label">B.</span> Only strings</li><li><span class="mcq-option-label">C.</span> Yes, any type including int, string, or custom classes</li><li><span class="mcq-option-label">D.</span> Only pointers</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> C++ allows throwing any type: integers, strings, C-strings, custom classes, or standard exception classes. However, best practice is to throw classes derived from <code>std::exception</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the base class of all standard exception classes in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> runtime_error</li><li><span class="mcq-option-label">B.</span> logic_error</li><li><span class="mcq-option-label">C.</span> exception</li><li><span class="mcq-option-label">D.</span> error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>std::exception</code> (from <code>&lt;exception&gt;</code>) is the base class. <code>logic_error</code> and <code>runtime_error</code> derive from it, and more specific exceptions like <code>invalid_argument</code> derive from those.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the strong exception safety guarantee?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The function never throws</li><li><span class="mcq-option-label">B.</span> If an exception is thrown, the state is rolled back to before the function was called</li><li><span class="mcq-option-label">C.</span> If an exception is thrown, the state is valid but may be changed</li><li><span class="mcq-option-label">D.</span> All exceptions are caught internally</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> The strong guarantee (commit-or-rollback) means either the operation succeeds completely, or if it fails, the state is exactly as it was before the call. The copy-and-swap idiom is commonly used to achieve this.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Does C++ have a finally block like Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, it works the same way</li><li><span class="mcq-option-label">B.</span> No, C++ uses RAII and destructors instead of finally</li><li><span class="mcq-option-label">C.</span> Yes, but only in C++20</li><li><span class="mcq-option-label">D.</span> No, C++ does not support cleanup during exceptions</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> C++ does not have <code>finally</code>. Instead, it relies on RAII: destructors of local objects automatically run during stack unwinding. This is considered more robust than <code>finally</code> because cleanup happens deterministically without explicit blocks.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What happens if a noexcept function throws an exception?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The exception is silently ignored</li><li><span class="mcq-option-label">B.</span> The exception propagates normally</li><li><span class="mcq-option-label">C.</span> std::terminate() is called immediately</li><li><span class="mcq-option-label">D.</span> The function returns a default value</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> If a function declared <code>noexcept</code> throws an exception, the runtime calls <code>std::terminate()</code> immediately. The exception does not propagate, and stack unwinding may or may not occur (implementation-defined).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Why do STL containers prefer noexcept move constructors?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> For readability</li><li><span class="mcq-option-label">B.</span> Because if a move constructor throws during reallocation, the container cannot recover to a valid state</li><li><span class="mcq-option-label">C.</span> To reduce binary size</li><li><span class="mcq-option-label">D.</span> STL does not care about noexcept</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> During reallocation (e.g., vector resize), if a move constructor throws after some elements are moved, the container cannot roll back. With <code>noexcept</code> move, the container knows the operation is safe and uses move instead of copy.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">What does the what() method of std::exception return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> An integer error code</li><li><span class="mcq-option-label">B.</span> A const char* description of the error</li><li><span class="mcq-option-label">C.</span> A boolean indicating success</li><li><span class="mcq-option-label">D.</span> The exception type name</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>what()</code> virtual method returns a <code>const char*</code> string that describes the error. Custom exception classes typically override this to provide meaningful error messages.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">What is exception-neutral code?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Code that never throws exceptions</li><li><span class="mcq-option-label">B.</span> Code that catches all exceptions</li><li><span class="mcq-option-label">C.</span> Code that does not catch exceptions but still provides basic exception safety by allowing exceptions to propagate cleanly</li><li><span class="mcq-option-label">D.</span> Code that converts exceptions to error codes</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: C</strong><br><strong>C is correct.</strong> Exception-neutral code does not handle exceptions itself but allows them to propagate. It still provides the basic guarantee (valid state, no resource leaks) through RAII and proper cleanup, even though it does not catch exceptions.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Safe Division with Exception Handling</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function safeDivide(int a, int b) that throws a domain_error if b is 0. In main, call it multiple times with different inputs and handle the exception. Show that the program continues after catching the exception.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">safeDivide(10, 2), safeDivide(10, 0), safeDivide(15, 3)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">10 / 2 = 5
+Error: Division by zero
+15 / 3 = 5</div>
+                </div><div class="challenge-constraints">Use domain_error from &lt;stdexcept&gt;. Catch by const reference. Show continuation after catch.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+
+int safeDivide(int a, int b) {
+    if (b == 0) throw domain_error(&quot;Division by zero&quot;);
+    return a / b;
+}
+
+int main() {
+    int pairs[][2] = {{10, 2}, {10, 0}, {15, 3}};
+    for (int i = 0; i &lt; 3; i++) {
+        try {
+            int result = safeDivide(pairs[i][0], pairs[i][1]);
+            cout &lt;&lt; pairs[i][0] &lt;&lt; &quot; / &quot; &lt;&lt; pairs[i][1]
+                 &lt;&lt; &quot; = &quot; &lt;&lt; result &lt;&lt; endl;
+        } catch (const domain_error&amp; e) {
+            cout &lt;&lt; &quot;Error: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+        }
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Custom Exception Hierarchy for Banking</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a BankException hierarchy: BankException (base), InsufficientFunds (with amount and balance), InvalidAmount (with amount). Create a BankAccount class with deposit() and withdraw() that throw appropriate exceptions. Demonstrate catching specific and general exceptions.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Account balance: 5000. Deposit -100. Withdraw 3000. Withdraw 5000.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Balance: 5000
+InvalidAmount: Cannot deposit -100
+Withdrew 3000. Balance: 2000
+InsufficientFunds: Cannot withdraw 5000. Balance: 2000</div>
+                </div><div class="challenge-constraints">Custom exceptions inheriting from runtime_error. Include context data (amount, balance). Catch specific before general.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class BankException : public runtime_error {
+public:
+    BankException(const string&amp; msg) : runtime_error(msg) {}
+};
+
+class InsufficientFunds : public BankException {
+    double amount, balance;
+public:
+    InsufficientFunds(double a, double b)
+        : BankException(&quot;Cannot withdraw &quot; + to_string((int)a)
+          + &quot;. Balance: &quot; + to_string((int)b)),
+          amount(a), balance(b) {}
+};
+
+class InvalidAmount : public BankException {
+    double amount;
+public:
+    InvalidAmount(const string&amp; op, double a)
+        : BankException(&quot;Cannot &quot; + op + &quot; &quot; + to_string((int)a)),
+          amount(a) {}
+};
+
+class BankAccount {
+    double balance;
+public:
+    BankAccount(double b) : balance(b) {}
+    double getBalance() const { return balance; }
+    void deposit(double amt) {
+        if (amt &lt;= 0) throw InvalidAmount(&quot;deposit&quot;, amt);
+        balance += amt;
+    }
+    void withdraw(double amt) {
+        if (amt &lt;= 0) throw InvalidAmount(&quot;withdraw&quot;, amt);
+        if (amt &gt; balance) throw InsufficientFunds(amt, balance);
+        balance -= amt;
+    }
+};
+
+int main() {
+    BankAccount acc(5000);
+    cout &lt;&lt; &quot;Balance: &quot; &lt;&lt; acc.getBalance() &lt;&lt; endl;
+
+    try { acc.deposit(-100); }
+    catch (const InvalidAmount&amp; e) { cout &lt;&lt; &quot;InvalidAmount: &quot; &lt;&lt; e.what() &lt;&lt; endl; }
+
+    try {
+        acc.withdraw(3000);
+        cout &lt;&lt; &quot;Withdrew 3000. Balance: &quot; &lt;&lt; acc.getBalance() &lt;&lt; endl;
+    } catch (const BankException&amp; e) { cout &lt;&lt; e.what() &lt;&lt; endl; }
+
+    try { acc.withdraw(5000); }
+    catch (const InsufficientFunds&amp; e) { cout &lt;&lt; &quot;InsufficientFunds: &quot; &lt;&lt; e.what() &lt;&lt; endl; }
+
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: RAII Resource Manager with Stack Unwinding</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a ResourceManager RAII class that acquires a named resource in the constructor and releases it in the destructor. Create a chain of three functions, each creating a ResourceManager. The deepest function throws an exception. Demonstrate that all resources are released during stack unwinding.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Resources: Database, FileSystem, Network. Exception at Network level.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Acquired: Database
+Acquired: FileSystem
+Acquired: Network
+Released: Network
+Released: FileSystem
+Released: Database
+Handled: Network failure</div>
+                </div><div class="challenge-constraints">RAII pattern. Show destruction order during unwinding. All resources must be released.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class ResourceManager {
+    string name;
+public:
+    ResourceManager(const string&amp; n) : name(n) {
+        cout &lt;&lt; &quot;Acquired: &quot; &lt;&lt; name &lt;&lt; endl;
+    }
+    ~ResourceManager() {
+        cout &lt;&lt; &quot;Released: &quot; &lt;&lt; name &lt;&lt; endl;
+    }
+};
+
+void networkLayer() {
+    ResourceManager r(&quot;Network&quot;);
+    throw runtime_error(&quot;Network failure&quot;);
+}
+
+void fileLayer() {
+    ResourceManager r(&quot;FileSystem&quot;);
+    networkLayer();
+}
+
+void dbLayer() {
+    ResourceManager r(&quot;Database&quot;);
+    fileLayer();
+}
+
+int main() {
+    try {
+        dbLayer();
+    } catch (const exception&amp; e) {
+        cout &lt;&lt; &quot;Handled: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Type-Safe Configuration Parser with Exceptions</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a Config class that stores key-value pairs (string -> string). Provide get(key) that throws KeyNotFound if the key does not exist, and getInt(key) that throws ParseError if the value cannot be converted to int. Both custom exceptions should inherit from ConfigError (which inherits from runtime_error). Demonstrate with valid and invalid lookups.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Config: {&quot;port&quot;: &quot;8080&quot;, &quot;host&quot;: &quot;localhost&quot;, &quot;debug&quot;: &quot;yes&quot;}. Get port as int, host, missing key, debug as int.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">port = 8080
+host = localhost
+KeyNotFound: Key &#39;timeout&#39; not found
+ParseError: Cannot parse &#39;yes&#39; as int for key &#39;debug&#39;</div>
+                </div><div class="challenge-constraints">Custom exception hierarchy. Include key name in error messages. Use stoi for conversion.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+#include &lt;string&gt;
+#include &lt;map&gt;
+using namespace std;
+
+class ConfigError : public runtime_error {
+public:
+    ConfigError(const string&amp; msg) : runtime_error(msg) {}
+};
+
+class KeyNotFound : public ConfigError {
+public:
+    KeyNotFound(const string&amp; key)
+        : ConfigError(&quot;Key &#39;&quot; + key + &quot;&#39; not found&quot;) {}
+};
+
+class ParseError : public ConfigError {
+public:
+    ParseError(const string&amp; key, const string&amp; val)
+        : ConfigError(&quot;Cannot parse &#39;&quot; + val + &quot;&#39; as int for key &#39;&quot; + key + &quot;&#39;&quot;) {}
+};
+
+class Config {
+    map&lt;string, string&gt; data;
+public:
+    void set(const string&amp; key, const string&amp; val) { data[key] = val; }
+
+    string get(const string&amp; key) const {
+        auto it = data.find(key);
+        if (it == data.end()) throw KeyNotFound(key);
+        return it-&gt;second;
+    }
+
+    int getInt(const string&amp; key) const {
+        string val = get(key);
+        try {
+            return stoi(val);
+        } catch (const invalid_argument&amp;) {
+            throw ParseError(key, val);
+        }
+    }
+};
+
+int main() {
+    Config cfg;
+    cfg.set(&quot;port&quot;, &quot;8080&quot;);
+    cfg.set(&quot;host&quot;, &quot;localhost&quot;);
+    cfg.set(&quot;debug&quot;, &quot;yes&quot;);
+
+    try { cout &lt;&lt; &quot;port = &quot; &lt;&lt; cfg.getInt(&quot;port&quot;) &lt;&lt; endl; }
+    catch (const ConfigError&amp; e) { cout &lt;&lt; e.what() &lt;&lt; endl; }
+
+    try { cout &lt;&lt; &quot;host = &quot; &lt;&lt; cfg.get(&quot;host&quot;) &lt;&lt; endl; }
+    catch (const ConfigError&amp; e) { cout &lt;&lt; e.what() &lt;&lt; endl; }
+
+    try { cout &lt;&lt; cfg.get(&quot;timeout&quot;) &lt;&lt; endl; }
+    catch (const KeyNotFound&amp; e) { cout &lt;&lt; &quot;KeyNotFound: &quot; &lt;&lt; e.what() &lt;&lt; endl; }
+
+    try { cout &lt;&lt; cfg.getInt(&quot;debug&quot;) &lt;&lt; endl; }
+    catch (const ParseError&amp; e) { cout &lt;&lt; &quot;ParseError: &quot; &lt;&lt; e.what() &lt;&lt; endl; }
+
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Transaction System with Strong Exception Safety</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a simple Ledger class that maintains a list of transactions (amounts). Implement transfer(from_ledger, to_ledger, amount) that provides the strong exception safety guarantee: if the deposit to the destination fails (e.g., exceeds a max balance), the withdrawal from the source is rolled back. Demonstrate a successful and a failed transfer.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Ledger A: balance 1000, max 5000. Ledger B: balance 4500, max 5000. Transfer 300 from A to B (fails: B would exceed max). Transfer 300 from A to C (balance 0, max 5000, succeeds).</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A=1000, B=4500, C=0
+Transfer 300 A-&gt;B failed: Exceeds max balance
+A=1000, B=4500, C=0
+Transfer 300 A-&gt;C succeeded
+A=700, B=4500, C=300</div>
+                </div><div class="challenge-constraints">Strong exception safety: failed transfer must leave both ledgers unchanged. Use RAII or rollback pattern.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+
+class Ledger {
+    string name;
+    double balance;
+    double maxBalance;
+public:
+    Ledger(string n, double b, double mx) : name(n), balance(b), maxBalance(mx) {}
+    string getName() const { return name; }
+    double getBalance() const { return balance; }
+
+    void withdraw(double amt) {
+        if (amt &gt; balance) throw runtime_error(&quot;Insufficient balance&quot;);
+        balance -= amt;
+    }
+
+    void deposit(double amt) {
+        if (balance + amt &gt; maxBalance)
+            throw runtime_error(&quot;Exceeds max balance&quot;);
+        balance += amt;
+    }
+};
+
+void transfer(Ledger&amp; from, Ledger&amp; to, double amount) {
+    from.withdraw(amount);  // Step 1
+    try {
+        to.deposit(amount);  // Step 2
+    } catch (...) {
+        from.deposit(amount);  // Rollback step 1
+        throw;  // Rethrow
+    }
+}
+
+void showAll(Ledger&amp; a, Ledger&amp; b, Ledger&amp; c) {
+    cout &lt;&lt; a.getName() &lt;&lt; &quot;=&quot; &lt;&lt; a.getBalance()
+         &lt;&lt; &quot;, &quot; &lt;&lt; b.getName() &lt;&lt; &quot;=&quot; &lt;&lt; b.getBalance()
+         &lt;&lt; &quot;, &quot; &lt;&lt; c.getName() &lt;&lt; &quot;=&quot; &lt;&lt; c.getBalance() &lt;&lt; endl;
+}
+
+int main() {
+    Ledger a(&quot;A&quot;, 1000, 5000);
+    Ledger b(&quot;B&quot;, 4500, 5000);
+    Ledger c(&quot;C&quot;, 0, 5000);
+    showAll(a, b, c);
+
+    try {
+        transfer(a, b, 300);
+        cout &lt;&lt; &quot;Transfer 300 A-&gt;B succeeded&quot; &lt;&lt; endl;
+    } catch (const exception&amp; e) {
+        cout &lt;&lt; &quot;Transfer 300 A-&gt;B failed: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    showAll(a, b, c);
+
+    try {
+        transfer(a, c, 300);
+        cout &lt;&lt; &quot;Transfer 300 A-&gt;C succeeded&quot; &lt;&lt; endl;
+    } catch (const exception&amp; e) {
+        cout &lt;&lt; &quot;Transfer 300 A-&gt;C failed: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    showAll(a, b, c);
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/templates-in-cpp/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Templates - Function and Class Templates</span>
+        </a>
+            <a href="/resources/cpp/stl-containers/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">STL Containers - vector, list, map, set, stack, queue</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/exception-handling-in-cpp" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

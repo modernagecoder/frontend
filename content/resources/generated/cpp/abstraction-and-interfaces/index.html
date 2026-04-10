@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abstract Classes, Pure Virtual Functions, and Interfaces - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Design with abstract classes, pure virtual functions, and interface patterns in C++.">
+    <meta name="keywords" content="abstract classes, pure virtual functions, and interfaces, c++ tutorial, c++ abstract classes, pure virtual functions, and interfaces, learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces">
+    <meta property="og:title" content="Abstract Classes, Pure Virtual Functions, and Interfaces - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Design with abstract classes, pure virtual functions, and interface patterns in C++.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces">
+    <meta name="twitter:title" content="Abstract Classes, Pure Virtual Functions, and Interfaces - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Design with abstract classes, pure virtual functions, and interface patterns in C++.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Abstract Classes, Pure Virtual Functions, and Interfaces",
+    "description": "Design with abstract classes, pure virtual functions, and interface patterns in C++.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Abstract Classes, Pure Virtual Functions, and Interfaces",
+        "item": "https://learn.modernagecoders.com/resources/cpp/abstraction-and-interfaces"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Trying to Instantiate an Abstract Class",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Abstract classes cannot be instantiated. You can have pointers and references to an abstract type, but the actual object must be of a concrete derived class that implements all pure virtual functions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting to Implement All Pure Virtual Functions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A derived class must implement ALL pure virtual functions from its base class to be concrete. If even one is missing, the derived class is also abstract and cannot be instantiated."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Missing Definition for Pure Virtual Destructor",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A pure virtual destructor MUST have a definition (outside the class). Destructors are always called in the inheritance chain, so even a pure virtual destructor needs a body. Without it, the linker cannot resolve the call."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing Abstract Class with Interface",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An interface in C++ should have only pure virtual functions and a virtual destructor (no data members, no implementation). If you need data or partial implementation, use an abstract class that inherits from the interface."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Slicing with Abstract Class References",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You cannot pass an abstract class by value because that would require creating a copy of an abstract type, which is impossible. Always use references or pointers with abstract classes. This is actually a benefit: the compiler forces you to avoid slicing."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Abstract Classes, Pure Virtual Functions, and Interfaces</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 17</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">45 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Abstract Classes, Pure Virtual Functions, and Interfaces</h1>
+            <a href="/resources/cpp/abstraction-and-interfaces/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Abstract Classes and Interfaces in C++?</h2><p>An <strong>abstract class</strong> in C++ is a class that has at least one <strong>pure virtual function</strong>. A pure virtual function is declared with <code>= 0</code> and has no implementation in the base class (though it can optionally have one). You cannot create objects of an abstract class directly.</p><pre><code>class Shape {
+public:
+    virtual double area() const = 0;   // Pure virtual: Shape is abstract
+    virtual string name() const = 0;   // Another pure virtual
+    virtual ~Shape() {}                // Virtual destructor (not pure)
+};
+
+// Shape s;  // Error: cannot instantiate abstract class
+
+class Circle : public Shape {
+    double radius;
+public:
+    Circle(double r) : radius(r) {}
+    double area() const override { return 3.14159 * radius * radius; }
+    string name() const override { return "Circle"; }
+};
+
+Circle c(5);  // OK: Circle implements all pure virtual functions</code></pre><p>An <strong>interface</strong> in C++ is a class where <em>all</em> functions are pure virtual and there are no data members (other than possibly a virtual destructor). Unlike Java or C#, C++ does not have a dedicated <code>interface</code> keyword. Instead, the convention is to use abstract classes with only pure virtual functions.</p><pre><code>// Interface pattern in C++
+class Printable {
+public:
+    virtual void print() const = 0;
+    virtual ~Printable() {}
+};
+
+class Serializable {
+public:
+    virtual string serialize() const = 0;
+    virtual ~Serializable() {}
+};
+
+// A class can implement multiple interfaces
+class Document : public Printable, public Serializable {
+public:
+    void print() const override { cout &lt;&lt; "Printing document" &lt;&lt; endl; }
+    string serialize() const override { return "{\"type\":\"doc\"}"; }
+};</code></pre><p>A <strong>concrete class</strong> is a class that implements all pure virtual functions from its base classes and can be instantiated.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Do Abstract Classes and Interfaces Matter?</h2><p>Abstraction is one of the four pillars of Object-Oriented Programming. It lets you define a contract (what a class must do) without specifying how it does it. This separation of interface from implementation is fundamental to good software design.</p><h3>1. Enforcing a Contract</h3><p>When Arjun defines <code>Shape</code> with pure virtual <code>area()</code> and <code>draw()</code>, he guarantees that every concrete shape class (<code>Circle</code>, <code>Rectangle</code>, <code>Triangle</code>) will implement these methods. Forgetting to implement one is a compile-time error, not a runtime bug.</p><h3>2. Enabling Polymorphism Without Default Behavior</h3><p>Sometimes there is no meaningful default implementation. What should <code>Shape::area()</code> return? Zero? That is misleading. Making it pure virtual says: "there is no generic area; every shape must compute its own." This is clearer than returning a placeholder value.</p><h3>3. Multiple Interface Inheritance</h3><p>C++ supports multiple inheritance. When Kavya has separate interfaces like <code>Printable</code>, <code>Serializable</code>, and <code>Comparable</code>, a class can implement any combination. This is much more flexible than single inheritance and is the C++ answer to Java interfaces.</p><h3>4. Framework and Plugin Architecture</h3><p>Abstract classes define extension points. When Ravi writes a plugin system, the base interface defines what every plugin must provide. New plugins can be added without changing existing code. This is the Open-Closed Principle in practice.</p><h3>5. Interview and Design Round Essential</h3><p>Questions about abstract classes vs interfaces, when to use each, the diamond problem with multiple inheritance, and designing class hierarchies with abstraction appear in every OOP design interview at companies like Google, Amazon, Microsoft, and top Indian startups.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Pure Virtual Functions</h3><p>A pure virtual function is declared with <code>= 0</code>:</p><pre><code>class Animal {
+public:
+    virtual void sound() = 0;   // Pure virtual
+    virtual void eat() = 0;     // Pure virtual
+    virtual ~Animal() {}        // Virtual destructor (not pure)
+};</code></pre><p>Key points about pure virtual functions:</p><ul><li>Any class with at least one pure virtual function is abstract</li><li>Abstract classes cannot be instantiated</li><li>Derived classes MUST override all pure virtual functions to be concrete</li><li>A pure virtual function CAN have a definition in the base class (the class is still abstract)</li><li>The derived class can call the base definition using <code>Base::func()</code></li></ul><pre><code>// Pure virtual function WITH a definition
+class Base {
+public:
+    virtual void show() = 0;  // Still makes Base abstract
+    virtual ~Base() {}
+};
+
+void Base::show() {  // Definition outside the class
+    cout &lt;&lt; "Base default implementation" &lt;&lt; endl;
+}
+
+class Derived : public Base {
+public:
+    void show() override {
+        Base::show();  // Can call the base definition
+        cout &lt;&lt; "Derived additional behavior" &lt;&lt; endl;
+    }
+};</code></pre><h3>2. Abstract vs Concrete Classes</h3><table><tr><th>Feature</th><th>Abstract Class</th><th>Concrete Class</th></tr><tr><td>Pure virtual functions</td><td>Has at least one</td><td>Has none (all implemented)</td></tr><tr><td>Instantiation</td><td>Cannot create objects</td><td>Can create objects</td></tr><tr><td>Purpose</td><td>Define contract/interface</td><td>Provide full implementation</td></tr><tr><td>Pointers/References</td><td>Can have pointers to abstract type</td><td>Can have objects, pointers, or references</td></tr></table><h3>3. Interfaces in C++ (Convention)</h3><p>C++ does not have an <code>interface</code> keyword. The convention is:</p><pre><code>// Interface: ALL functions are pure virtual, no data members
+class IDrawable {
+public:
+    virtual void draw() const = 0;
+    virtual void resize(double factor) = 0;
+    virtual ~IDrawable() {}
+};
+
+class IClickable {
+public:
+    virtual void onClick() = 0;
+    virtual bool isInside(int x, int y) const = 0;
+    virtual ~IClickable() {}
+};</code></pre><p>Naming convention: prefix with <code>I</code> (like <code>IDrawable</code>, <code>ISerializable</code>) to distinguish interfaces from abstract classes with partial implementations. This is a style choice, not a language requirement.</p><h3>4. Implementing Multiple Interfaces</h3><p>A class can inherit from multiple interface classes. This is the safe form of multiple inheritance because interfaces have no data members to cause ambiguity:</p><pre><code>class Button : public IDrawable, public IClickable {
+    int x, y, width, height;
+public:
+    Button(int x, int y, int w, int h) : x(x), y(y), width(w), height(h) {}
+
+    void draw() const override { cout &lt;&lt; "Drawing button at (" &lt;&lt; x &lt;&lt; "," &lt;&lt; y &lt;&lt; ")" &lt;&lt; endl; }
+    void resize(double factor) override { width *= factor; height *= factor; }
+    void onClick() override { cout &lt;&lt; "Button clicked!" &lt;&lt; endl; }
+    bool isInside(int px, int py) const override {
+        return px &gt;= x &amp;&amp; px &lt;= x+width &amp;&amp; py &gt;= y &amp;&amp; py &lt;= y+height;
+    }
+};</code></pre><h3>5. Abstract Destructor Pattern</h3><p>Sometimes you want a class to be abstract but all its functions have meaningful implementations. You can make the destructor pure virtual (while still providing a definition):</p><pre><code>class AbstractBase {
+public:
+    virtual ~AbstractBase() = 0;  // Pure virtual destructor
+    void commonMethod() { cout &lt;&lt; "Common" &lt;&lt; endl; }
+};
+
+AbstractBase::~AbstractBase() {}  // Must provide definition!
+
+class Concrete : public AbstractBase {
+public:
+    ~Concrete() override { cout &lt;&lt; "~Concrete" &lt;&lt; endl; }
+};
+
+// AbstractBase a;  // Error: abstract
+Concrete c;         // OK</code></pre><p>The pure virtual destructor MUST have a definition (outside the class) because destructors are always called in the chain. Without the definition, you get a linker error.</p><h3>6. Partially Abstract Classes</h3><p>An abstract class can have a mix of pure virtual functions, regular virtual functions, and non-virtual functions:</p><pre><code>class Database {
+public:
+    // Pure virtual: each DB must implement
+    virtual void connect(const string&amp; url) = 0;
+    virtual void query(const string&amp; sql) = 0;
+    virtual void close() = 0;
+
+    // Regular virtual: has default but can be overridden
+    virtual void logQuery(const string&amp; sql) {
+        cout &lt;&lt; "[LOG] " &lt;&lt; sql &lt;&lt; endl;
+    }
+
+    // Non-virtual: same for all databases
+    void printStatus() {
+        cout &lt;&lt; "Database active" &lt;&lt; endl;
+    }
+
+    virtual ~Database() {}
+};</code></pre><h3>7. When a Derived Class Does Not Implement All Pure Virtuals</h3><p>If a derived class does not override all pure virtual functions, it is also abstract:</p><pre><code>class Shape {
+public:
+    virtual double area() const = 0;
+    virtual void draw() const = 0;
+    virtual ~Shape() {}
+};
+
+class PartialShape : public Shape {
+public:
+    double area() const override { return 0; }  // Only one implemented
+    // draw() is NOT implemented: PartialShape is still abstract
+};
+
+// PartialShape ps;  // Error: still abstract
+
+class FullShape : public PartialShape {
+public:
+    void draw() const override { cout &lt;&lt; "Drawing" &lt;&lt; endl; }
+};
+
+FullShape fs;  // OK: all pure virtuals now implemented</code></pre><h3>8. Real-World Design Example: Vehicle Hierarchy</h3><pre><code>class IEngine {
+public:
+    virtual void start() = 0;
+    virtual void stop() = 0;
+    virtual int horsepower() const = 0;
+    virtual ~IEngine() {}
+};
+
+class IElectric {
+public:
+    virtual int batteryLevel() const = 0;
+    virtual void charge() = 0;
+    virtual ~IElectric() {}
+};
+
+class PetrolEngine : public IEngine {
+public:
+    void start() override { cout &lt;&lt; "Petrol engine started" &lt;&lt; endl; }
+    void stop() override { cout &lt;&lt; "Petrol engine stopped" &lt;&lt; endl; }
+    int horsepower() const override { return 150; }
+};
+
+class ElectricCar : public IEngine, public IElectric {
+    int battery;
+public:
+    ElectricCar() : battery(100) {}
+    void start() override { cout &lt;&lt; "Electric motor started silently" &lt;&lt; endl; }
+    void stop() override { cout &lt;&lt; "Electric motor stopped" &lt;&lt; endl; }
+    int horsepower() const override { return 200; }
+    int batteryLevel() const override { return battery; }
+    void charge() override { battery = 100; cout &lt;&lt; "Charging complete" &lt;&lt; endl; }
+};</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Abstract Class with Pure Virtual Functions</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;cmath&gt;
+using namespace std;
+
+class Shape {
+public:
+    virtual double area() const = 0;
+    virtual double perimeter() const = 0;
+    virtual string name() const = 0;
+    virtual ~Shape() {}
+
+    void describe() const {
+        cout &lt;&lt; name() &lt;&lt; &quot;: area=&quot; &lt;&lt; area() &lt;&lt; &quot;, perimeter=&quot; &lt;&lt; perimeter() &lt;&lt; endl;
+    }
+};
+
+class Circle : public Shape {
+    double r;
+public:
+    Circle(double r) : r(r) {}
+    double area() const override { return M_PI * r * r; }
+    double perimeter() const override { return 2 * M_PI * r; }
+    string name() const override { return &quot;Circle&quot;; }
+};
+
+class Rectangle : public Shape {
+    double w, h;
+public:
+    Rectangle(double w, double h) : w(w), h(h) {}
+    double area() const override { return w * h; }
+    double perimeter() const override { return 2 * (w + h); }
+    string name() const override { return &quot;Rectangle&quot;; }
+};
+
+int main() {
+    Shape* shapes[] = { new Circle(5), new Rectangle(4, 6) };
+    for (int i = 0; i &lt; 2; i++) {
+        shapes[i]-&gt;describe();
+        delete shapes[i];
+    }
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>Shape</code> is abstract because it has three pure virtual functions. <code>Circle</code> and <code>Rectangle</code> are concrete because they implement all three. The non-virtual <code>describe()</code> calls the virtual functions, demonstrating that non-virtual methods in an abstract class can use virtual dispatch internally.</div><div class="code-example-output">Circle: area=78.5398, perimeter=31.4159
+Rectangle: area=24, perimeter=20</div></div>
+<div class="code-example"><div class="code-example-title">Interface Pattern: Multiple Interface Inheritance</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class IPrintable {
+public:
+    virtual void print() const = 0;
+    virtual ~IPrintable() {}
+};
+
+class ISerializable {
+public:
+    virtual string serialize() const = 0;
+    virtual ~ISerializable() {}
+};
+
+class IComparable {
+public:
+    virtual int compareTo(const IComparable&amp; other) const = 0;
+    virtual ~IComparable() {}
+};
+
+class Student : public IPrintable, public ISerializable, public IComparable {
+    string name;
+    int marks;
+public:
+    Student(string n, int m) : name(n), marks(m) {}
+
+    void print() const override {
+        cout &lt;&lt; name &lt;&lt; &quot; (&quot; &lt;&lt; marks &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    }
+
+    string serialize() const override {
+        return &quot;{\&quot;name\&quot;:\&quot;&quot; + name + &quot;\&quot;,\&quot;marks\&quot;:&quot; + to_string(marks) + &quot;}&quot;;
+    }
+
+    int compareTo(const IComparable&amp; other) const override {
+        const Student&amp; s = dynamic_cast&lt;const Student&amp;&gt;(other);
+        return marks - s.marks;
+    }
+};
+
+int main() {
+    Student s1(&quot;Arjun&quot;, 92), s2(&quot;Kavya&quot;, 88);
+
+    s1.print();
+    s2.print();
+
+    cout &lt;&lt; &quot;s1 serialized: &quot; &lt;&lt; s1.serialize() &lt;&lt; endl;
+
+    int cmp = s1.compareTo(s2);
+    if (cmp &gt; 0) cout &lt;&lt; &quot;Arjun scored higher&quot; &lt;&lt; endl;
+    else if (cmp &lt; 0) cout &lt;&lt; &quot;Kavya scored higher&quot; &lt;&lt; endl;
+    else cout &lt;&lt; &quot;Same marks&quot; &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>Student</code> inherits from three interfaces: <code>IPrintable</code>, <code>ISerializable</code>, and <code>IComparable</code>. Each interface defines a single capability. This is the C++ equivalent of implementing multiple interfaces in Java. The class must implement all pure virtual functions from all interfaces.</div><div class="code-example-output">Arjun (92)
+Kavya (88)
+s1 serialized: {&quot;name&quot;:&quot;Arjun&quot;,&quot;marks&quot;:92}
+Arjun scored higher</div></div>
+<div class="code-example"><div class="code-example-title">Pure Virtual Function WITH a Definition</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Logger {
+public:
+    virtual void log(const string&amp; msg) = 0;  // Pure virtual
+    virtual ~Logger() {}
+};
+
+void Logger::log(const string&amp; msg) {
+    cout &lt;&lt; &quot;[DEFAULT] &quot; &lt;&lt; msg &lt;&lt; endl;
+}
+
+class ConsoleLogger : public Logger {
+public:
+    void log(const string&amp; msg) override {
+        Logger::log(msg);  // Call base definition
+        cout &lt;&lt; &quot;[CONSOLE] &quot; &lt;&lt; msg &lt;&lt; endl;
+    }
+};
+
+class FileLogger : public Logger {
+public:
+    void log(const string&amp; msg) override {
+        cout &lt;&lt; &quot;[FILE] &quot; &lt;&lt; msg &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Logger* loggers[] = { new ConsoleLogger(), new FileLogger() };
+    for (int i = 0; i &lt; 2; i++) {
+        loggers[i]-&gt;log(&quot;Server started&quot;);
+        cout &lt;&lt; &quot;---&quot; &lt;&lt; endl;
+        delete loggers[i];
+    }
+    return 0;
+}</code></pre><div class="code-example-explanation">A pure virtual function CAN have a definition. <code>Logger::log()</code> is pure virtual (making Logger abstract), but it also has a body defined outside the class. <code>ConsoleLogger</code> calls <code>Logger::log(msg)</code> to use the default behavior before adding its own. <code>FileLogger</code> ignores the base definition entirely.</div><div class="code-example-output">[DEFAULT] Server started
+[CONSOLE] Server started
+---
+[FILE] Server started
+---</div></div>
+<div class="code-example"><div class="code-example-title">Abstract Destructor Pattern</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class AbstractBase {
+public:
+    virtual ~AbstractBase() = 0;  // Pure virtual destructor
+    void commonWork() { cout &lt;&lt; &quot;Doing common work&quot; &lt;&lt; endl; }
+};
+
+AbstractBase::~AbstractBase() {
+    cout &lt;&lt; &quot;~AbstractBase&quot; &lt;&lt; endl;
+}
+
+class ConcreteA : public AbstractBase {
+public:
+    ~ConcreteA() override { cout &lt;&lt; &quot;~ConcreteA&quot; &lt;&lt; endl; }
+};
+
+class ConcreteB : public AbstractBase {
+public:
+    ~ConcreteB() override { cout &lt;&lt; &quot;~ConcreteB&quot; &lt;&lt; endl; }
+};
+
+int main() {
+    AbstractBase* a = new ConcreteA();
+    AbstractBase* b = new ConcreteB();
+    a-&gt;commonWork();
+    b-&gt;commonWork();
+    delete a;
+    cout &lt;&lt; &quot;---&quot; &lt;&lt; endl;
+    delete b;
+    return 0;
+}</code></pre><div class="code-example-explanation">When you want a class to be abstract but all its methods have implementations, make the destructor pure virtual. The pure virtual destructor MUST have a definition (outside the class body) because destructors are always called in the chain. Without the definition, you get a linker error.</div><div class="code-example-output">Doing common work
+Doing common work
+~ConcreteA
+~AbstractBase
+---
+~ConcreteB
+~AbstractBase</div></div>
+<div class="code-example"><div class="code-example-title">Partially Abstract Derived Class</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Animal {
+public:
+    virtual void sound() const = 0;
+    virtual void move() const = 0;
+    virtual string habitat() const = 0;
+    virtual ~Animal() {}
+};
+
+class DomesticAnimal : public Animal {
+public:
+    string habitat() const override { return &quot;Home&quot;; }
+    // sound() and move() still pure virtual: DomesticAnimal is abstract
+};
+
+class Dog : public DomesticAnimal {
+public:
+    void sound() const override { cout &lt;&lt; &quot;Bark&quot; &lt;&lt; endl; }
+    void move() const override { cout &lt;&lt; &quot;Runs on 4 legs&quot; &lt;&lt; endl; }
+};
+
+class Cat : public DomesticAnimal {
+public:
+    void sound() const override { cout &lt;&lt; &quot;Meow&quot; &lt;&lt; endl; }
+    void move() const override { cout &lt;&lt; &quot;Walks silently&quot; &lt;&lt; endl; }
+};
+
+int main() {
+    Animal* pets[] = { new Dog(), new Cat() };
+    for (int i = 0; i &lt; 2; i++) {
+        pets[i]-&gt;sound();
+        pets[i]-&gt;move();
+        cout &lt;&lt; &quot;Habitat: &quot; &lt;&lt; pets[i]-&gt;habitat() &lt;&lt; endl;
+        cout &lt;&lt; &quot;---&quot; &lt;&lt; endl;
+        delete pets[i];
+    }
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>DomesticAnimal</code> only implements <code>habitat()</code>, leaving <code>sound()</code> and <code>move()</code> pure virtual. So <code>DomesticAnimal</code> is still abstract. <code>Dog</code> and <code>Cat</code> implement the remaining pure virtual functions, making them concrete. This shows a multi-level abstraction hierarchy.</div><div class="code-example-output">Bark
+Runs on 4 legs
+Habitat: Home
+---
+Meow
+Walks silently
+Habitat: Home
+---</div></div>
+<div class="code-example"><div class="code-example-title">Real-World Design: Plugin System with Interfaces</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class IPlugin {
+public:
+    virtual string name() const = 0;
+    virtual void initialize() = 0;
+    virtual void execute() = 0;
+    virtual void shutdown() = 0;
+    virtual ~IPlugin() {}
+};
+
+class LoggingPlugin : public IPlugin {
+public:
+    string name() const override { return &quot;LoggingPlugin&quot;; }
+    void initialize() override { cout &lt;&lt; &quot;Logger initialized&quot; &lt;&lt; endl; }
+    void execute() override { cout &lt;&lt; &quot;Logging events...&quot; &lt;&lt; endl; }
+    void shutdown() override { cout &lt;&lt; &quot;Logger shut down&quot; &lt;&lt; endl; }
+};
+
+class AuthPlugin : public IPlugin {
+public:
+    string name() const override { return &quot;AuthPlugin&quot;; }
+    void initialize() override { cout &lt;&lt; &quot;Auth module loaded&quot; &lt;&lt; endl; }
+    void execute() override { cout &lt;&lt; &quot;Authenticating user...&quot; &lt;&lt; endl; }
+    void shutdown() override { cout &lt;&lt; &quot;Auth module unloaded&quot; &lt;&lt; endl; }
+};
+
+class PluginManager {
+    vector&lt;IPlugin*&gt; plugins;
+public:
+    void addPlugin(IPlugin* p) { plugins.push_back(p); }
+
+    void runAll() {
+        for (auto* p : plugins) {
+            cout &lt;&lt; &quot;[&quot; &lt;&lt; p-&gt;name() &lt;&lt; &quot;]&quot; &lt;&lt; endl;
+            p-&gt;initialize();
+            p-&gt;execute();
+            p-&gt;shutdown();
+            cout &lt;&lt; endl;
+        }
+    }
+
+    ~PluginManager() {
+        for (auto* p : plugins) delete p;
+    }
+};
+
+int main() {
+    PluginManager mgr;
+    mgr.addPlugin(new LoggingPlugin());
+    mgr.addPlugin(new AuthPlugin());
+    mgr.runAll();
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>IPlugin</code> is a pure interface defining what every plugin must provide. <code>PluginManager</code> works with <code>IPlugin*</code> pointers and knows nothing about specific plugin types. New plugins can be added without modifying the manager. This is the Open-Closed Principle enabled by abstraction.</div><div class="code-example-output">[LoggingPlugin]
+Logger initialized
+Logging events...
+Logger shut down
+
+[AuthPlugin]
+Auth module loaded
+Authenticating user...
+Auth module unloaded</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Trying to Instantiate an Abstract Class</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Shape {
+public:
+    virtual double area() const = 0;
+    virtual ~Shape() {}
+};
+
+Shape s;  // Compilation error!</code></pre></div><div class="error-message">Compilation error: cannot declare variable &#39;s&#39; to be of abstract type &#39;Shape&#39;. Shape has a pure virtual function area().</div><div class="correct-code"><pre><code class="language-python">class Shape {
+public:
+    virtual double area() const = 0;
+    virtual ~Shape() {}
+};
+
+class Circle : public Shape {
+    double r;
+public:
+    Circle(double r) : r(r) {}
+    double area() const override { return 3.14159 * r * r; }
+};
+
+Shape* s = new Circle(5);  // OK: pointer to abstract type, concrete object
+cout &lt;&lt; s-&gt;area() &lt;&lt; endl;
+delete s;</code></pre></div><div class="mistake-explanation">Abstract classes cannot be instantiated. You can have pointers and references to an abstract type, but the actual object must be of a concrete derived class that implements all pure virtual functions.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting to Implement All Pure Virtual Functions</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Animal {
+public:
+    virtual void sound() = 0;
+    virtual void move() = 0;
+    virtual ~Animal() {}
+};
+
+class Dog : public Animal {
+public:
+    void sound() override { cout &lt;&lt; &quot;Bark&quot; &lt;&lt; endl; }
+    // move() not implemented!
+};
+
+Dog d;  // Compilation error!</code></pre></div><div class="error-message">Compilation error: cannot declare variable &#39;d&#39; to be of abstract type &#39;Dog&#39;. Dog does not implement move().</div><div class="correct-code"><pre><code class="language-python">class Dog : public Animal {
+public:
+    void sound() override { cout &lt;&lt; &quot;Bark&quot; &lt;&lt; endl; }
+    void move() override { cout &lt;&lt; &quot;Runs&quot; &lt;&lt; endl; }  // Now complete
+};
+
+Dog d;  // OK</code></pre></div><div class="mistake-explanation">A derived class must implement ALL pure virtual functions from its base class to be concrete. If even one is missing, the derived class is also abstract and cannot be instantiated.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Missing Definition for Pure Virtual Destructor</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Base {
+public:
+    virtual ~Base() = 0;  // Pure virtual destructor
+};
+// No definition provided!
+
+class Derived : public Base {
+public:
+    ~Derived() override {}
+};
+
+Derived d;  // Linker error!</code></pre></div><div class="error-message">Linker error: undefined reference to &#39;Base::~Base()&#39;. The destructor is called in the chain but has no definition.</div><div class="correct-code"><pre><code class="language-python">class Base {
+public:
+    virtual ~Base() = 0;
+};
+
+Base::~Base() {}  // Definition required!
+
+class Derived : public Base {
+public:
+    ~Derived() override {}
+};
+
+Derived d;  // OK</code></pre></div><div class="mistake-explanation">A pure virtual destructor MUST have a definition (outside the class). Destructors are always called in the inheritance chain, so even a pure virtual destructor needs a body. Without it, the linker cannot resolve the call.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing Abstract Class with Interface</h3>
+                <div class="wrong-code"><pre><code class="language-python">// This is NOT a proper interface: it has data members and implementation
+class ILogger {
+    string logFile;  // Data member in an &quot;interface&quot;!
+public:
+    virtual void log(const string&amp; msg) {
+        cout &lt;&lt; msg &lt;&lt; endl;  // Implementation in an &quot;interface&quot;!
+    }
+    virtual ~ILogger() {}
+};</code></pre></div><div class="error-message">No compilation error, but this violates the interface convention. It has data members and a non-pure virtual function, making it an abstract class with partial implementation, not an interface.</div><div class="correct-code"><pre><code class="language-python">// Proper interface: only pure virtual functions and virtual destructor
+class ILogger {
+public:
+    virtual void log(const string&amp; msg) = 0;  // Pure virtual
+    virtual void setLevel(int level) = 0;      // Pure virtual
+    virtual ~ILogger() {}
+};
+
+// Abstract class with partial implementation (NOT an interface)
+class AbstractLogger : public ILogger {
+protected:
+    int level;
+public:
+    AbstractLogger(int lvl) : level(lvl) {}
+    void setLevel(int lvl) override { level = lvl; }
+    // log() still pure virtual
+};</code></pre></div><div class="mistake-explanation">An interface in C++ should have only pure virtual functions and a virtual destructor (no data members, no implementation). If you need data or partial implementation, use an abstract class that inherits from the interface.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Slicing with Abstract Class References</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Shape {
+public:
+    virtual double area() const = 0;
+    virtual ~Shape() {}
+};
+
+class Circle : public Shape {
+    double r;
+public:
+    Circle(double r) : r(r) {}
+    double area() const override { return 3.14159 * r * r; }
+};
+
+void printArea(Shape s) {  // Cannot compile!
+    cout &lt;&lt; s.area() &lt;&lt; endl;
+}</code></pre></div><div class="error-message">Compilation error: cannot declare parameter &#39;s&#39; to be of abstract type &#39;Shape&#39;. You cannot pass an abstract class by value.</div><div class="correct-code"><pre><code class="language-python">void printArea(const Shape&amp; s) {  // Pass by reference
+    cout &lt;&lt; s.area() &lt;&lt; endl;
+}
+
+Circle c(5);
+printArea(c);  // Works: no slicing, polymorphism preserved</code></pre></div><div class="mistake-explanation">You cannot pass an abstract class by value because that would require creating a copy of an abstract type, which is impossible. Always use references or pointers with abstract classes. This is actually a benefit: the compiler forces you to avoid slicing.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>An abstract class has at least one pure virtual function (declared with = 0). It cannot be instantiated directly.</li>
+<li>A pure virtual function forces derived classes to provide an implementation. If a derived class does not implement all pure virtuals, it is also abstract.</li>
+<li>A pure virtual function CAN have a definition in the base class. Derived classes can call it via Base::func(). The class is still abstract.</li>
+<li>A concrete class implements all pure virtual functions from its base classes and can be instantiated.</li>
+<li>An interface in C++ is a class with only pure virtual functions and a virtual destructor. C++ does not have an interface keyword.</li>
+<li>Multiple interface inheritance is the safe form of multiple inheritance. Since interfaces have no data members, there is no diamond problem ambiguity.</li>
+<li>The abstract destructor pattern (virtual ~Base() = 0 with external definition) makes a class abstract when all its methods have implementations.</li>
+<li>A pure virtual destructor MUST have a definition outside the class. Destructors are always called in the chain, so the linker needs the body.</li>
+<li>Abstract classes can have non-virtual functions, data members, and regular virtual functions alongside pure virtual functions (partially abstract).</li>
+<li>You cannot pass an abstract class by value. Always use pointers or references. This naturally prevents the slicing problem.</li>
+<li>Interfaces enable the Open-Closed Principle: code depends on abstractions, not concrete types. New implementations can be added without changing existing code.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/polymorphism-in-cpp" class="related-topic-link">Polymorphism - Virtual Functions and Operator Overloading</a>
+<a href="/resources/cpp/templates-in-cpp" class="related-topic-link">Templates - Function and Class Templates</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/polymorphism-in-cpp" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Polymorphism - Virtual Functions and Operator Overloading</span>
+        </a>
+            <a href="/resources/cpp/templates-in-cpp" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Templates - Function and Class Templates</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/abstraction-and-interfaces/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

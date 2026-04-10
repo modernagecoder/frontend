@@ -1,0 +1,707 @@
+{
+  "title": "Strings - C-style and std::string",
+  "slug": "strings-in-cpp",
+  "language": "cpp",
+  "chapter": 10,
+  "difficulty": "Intermediate",
+  "readingTime": "30 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 56,
+  "seo": {
+    "title": "Strings in C++ - C-strings, std::string, String Functions & Algorithms | Modern Age Coders",
+    "description": "Master C++ strings: C-strings (char arrays, strlen, strcpy, strcat, strcmp), std::string (length, substr, find, replace, append, insert, erase), getline, stoi/stof/to_string, palindrome check, anagram check, reverse, and character counting. 56 practice questions.",
+    "keywords": "c++ strings, c-string vs std::string, strlen c++, strcpy c++, string functions c++, substr c++, find replace c++, stoi c++, to_string c++, palindrome c++, anagram c++, string reverse c++, getline c++"
+  },
+  "content": {
+    "what": "<h2>What Are Strings in C++?</h2><p>A <strong>string</strong> is a sequence of characters. C++ has two string systems: <strong>C-style strings</strong> (inherited from C) and <strong>std::string</strong> (from the C++ Standard Library). Understanding both is essential because C-style strings teach you how strings work at the memory level, and <code>std::string</code> is what you use in practice.</p><h3>C-style Strings</h3><p>A C-string is a <code>char</code> array terminated by a null character <code>'\\0'</code>. When you write <code>char s[] = \"Hello\";</code>, the compiler creates an array of 6 characters: <code>{'H', 'e', 'l', 'l', 'o', '\\0'}</code>. The null terminator tells functions like <code>strlen</code> and <code>cout</code> where the string ends. Without it, they would read past the array into garbage memory.</p><h3>std::string</h3><p><code>std::string</code> is a class from the <code>&lt;string&gt;</code> header. It manages memory automatically (no manual null terminator management), supports dynamic resizing, and provides rich member functions. It stores the length internally, so <code>length()</code> is O(1) unlike <code>strlen()</code> which is O(n).</p><h3>Comparison at a Glance</h3><table><tr><th>Feature</th><th>C-string (char[])</th><th>std::string</th></tr><tr><td>Declaration</td><td><code>char s[] = \"Hi\";</code></td><td><code>string s = \"Hi\";</code></td></tr><tr><td>Null terminator</td><td>Required (<code>'\\0'</code>)</td><td>Managed internally</td></tr><tr><td>Size</td><td>Fixed (array size)</td><td>Dynamic (can grow)</td></tr><tr><td>Length</td><td><code>strlen(s)</code> -- O(n)</td><td><code>s.length()</code> -- O(1)</td></tr><tr><td>Concatenation</td><td><code>strcat(s1, s2)</code></td><td><code>s1 + s2</code> or <code>s1 += s2</code></td></tr><tr><td>Comparison</td><td><code>strcmp(s1, s2)</code></td><td><code>s1 == s2</code>, <code>s1 < s2</code></td></tr><tr><td>Safety</td><td>Buffer overflow risk</td><td>Safe (manages memory)</td></tr><tr><td>Header</td><td><code>&lt;cstring&gt;</code></td><td><code>&lt;string&gt;</code></td></tr></table>",
+    "why": "<h2>Why Master Both String Types?</h2><h3>1. Competitive Programming</h3><p>String manipulation is a major category in CP: palindrome checking, anagram detection, pattern matching, string hashing, and parsing. Most CP solutions use <code>std::string</code> for convenience, but understanding C-strings helps with low-level tricks like char arithmetic for case conversion and digit extraction.</p><h3>2. Interviews</h3><p>String questions are among the most common in placement interviews. \"Reverse a string in-place\", \"check if two strings are anagrams\", \"find the first non-repeating character\", \"longest palindromic substring\" -- these appear at every level from TCS to Google. Interviewers expect you to handle both C-string and std::string operations.</p><h3>3. Real-world C++ Code</h3><p>Production C++ code uses <code>std::string</code> extensively, but many libraries and APIs (especially OS-level APIs) use C-strings (<code>const char*</code>). The <code>c_str()</code> method bridges the two worlds. Understanding both is necessary for working with real codebases.</p><h3>4. Memory Understanding</h3><p>C-strings teach you about null-terminated buffers, buffer overflow vulnerabilities, and why <code>strcpy</code> is dangerous. These concepts are fundamental for systems programming and security.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>C-strings: char Arrays and \\0</h3><p>A C-string is a <code>char</code> array where the last character is <code>'\\0'</code> (null, ASCII 0). Declare with: <code>char s[] = \"Hello\";</code> (compiler adds <code>'\\0'</code> automatically). You can also declare: <code>char s[10] = \"Hello\";</code> (remaining slots are '\\0'). The key functions from <code>&lt;cstring&gt;</code>:</p><ul><li><code>strlen(s)</code>: Returns the number of characters before <code>'\\0'</code>. O(n) because it scans until null.</li><li><code>strcpy(dest, src)</code>: Copies src into dest including <code>'\\0'</code>. <strong>Dangerous</strong>: no bounds checking.</li><li><code>strcat(dest, src)</code>: Appends src to the end of dest. <strong>Dangerous</strong>: dest must have enough space.</li><li><code>strcmp(s1, s2)</code>: Returns 0 if equal, negative if s1 < s2, positive if s1 > s2 (lexicographic).</li></ul><h3>std::string Operations</h3><p>Include <code>&lt;string&gt;</code> and use <code>string</code> (which is <code>std::string</code> with <code>using namespace std</code>).</p><ul><li><code>s.length()</code> or <code>s.size()</code>: Number of characters. O(1).</li><li><code>s.at(i)</code>: Character at index i with bounds checking. Throws <code>out_of_range</code> if invalid.</li><li><code>s[i]</code>: Character at index i without bounds checking. Faster but unsafe.</li><li><code>s.substr(pos, len)</code>: Returns a substring starting at <code>pos</code> of length <code>len</code>.</li><li><code>s.find(\"abc\")</code>: Returns the index of the first occurrence, or <code>string::npos</code> if not found.</li><li><code>s.replace(pos, len, \"new\")</code>: Replaces <code>len</code> characters starting at <code>pos</code> with \"new\".</li><li><code>s.append(\"xyz\")</code> or <code>s += \"xyz\"</code>: Appends to the end.</li><li><code>s.insert(pos, \"abc\")</code>: Inserts \"abc\" at position <code>pos</code>.</li><li><code>s.erase(pos, len)</code>: Removes <code>len</code> characters starting at <code>pos</code>.</li><li><code>s.c_str()</code>: Returns a <code>const char*</code> (C-string). Needed for C APIs and printf.</li></ul><h3>String Input: getline</h3><p><code>cin &gt;&gt; s</code> reads until whitespace (cannot read names with spaces). <code>getline(cin, s)</code> reads the entire line including spaces. Remember the <code>cin.ignore()</code> trick when switching from <code>cin &gt;&gt;</code> to <code>getline</code>.</p><h3>Conversions: stoi, stof, to_string</h3><ul><li><code>stoi(\"123\")</code>: String to int. Throws <code>invalid_argument</code> if conversion fails.</li><li><code>stol(\"123\")</code>: String to long.</li><li><code>stoll(\"123\")</code>: String to long long.</li><li><code>stof(\"3.14\")</code>: String to float.</li><li><code>stod(\"3.14\")</code>: String to double.</li><li><code>to_string(42)</code>: Int/float/double to string.</li></ul><h3>String Iteration</h3><p>You can iterate over a string like an array:</p><ul><li>Index-based: <code>for (int i = 0; i &lt; s.length(); i++) { cout &lt;&lt; s[i]; }</code></li><li>Range-based: <code>for (char c : s) { cout &lt;&lt; c; }</code></li><li>By reference (modifiable): <code>for (char &amp;c : s) { c = toupper(c); }</code></li></ul><h3>Common String Algorithms</h3><p><strong>Reverse a string:</strong> Use two pointers from both ends, or use <code>reverse(s.begin(), s.end())</code> from <code>&lt;algorithm&gt;</code>.</p><p><strong>Palindrome check:</strong> Compare s with its reverse, or use two pointers from both ends checking if characters match.</p><p><strong>Count vowels:</strong> Iterate and check if each character is a/e/i/o/u (case-insensitive).</p><p><strong>Anagram check:</strong> Two strings are anagrams if they have the same character frequencies. Sort both and compare, or use a frequency array of size 26.</p>",
+    "codeExamples": [
+      {
+        "title": "C-strings: Declaration, strlen, strcpy, strcat, strcmp",
+        "code": "#include <iostream>\n#include <cstring>\nusing namespace std;\n\nint main() {\n    // Declaration\n    char s1[] = \"Hello\";\n    char s2[20] = \"World\";\n    char s3[50];\n\n    // strlen: length without null terminator\n    cout << \"strlen(\\\"Hello\\\") = \" << strlen(s1) << endl;  // 5\n    cout << \"sizeof(\\\"Hello\\\") = \" << sizeof(s1) << endl;   // 6 (includes \\0)\n\n    // strcpy: copy s1 into s3\n    strcpy(s3, s1);\n    cout << \"After strcpy: s3 = \" << s3 << endl;  // Hello\n\n    // strcat: append s2 to s3\n    strcat(s3, \" \");\n    strcat(s3, s2);\n    cout << \"After strcat: s3 = \" << s3 << endl;  // Hello World\n\n    // strcmp: comparison\n    cout << \"strcmp(\\\"abc\\\", \\\"abd\\\"): \" << strcmp(\"abc\", \"abd\") << endl;  // Negative\n    cout << \"strcmp(\\\"abc\\\", \\\"abc\\\"): \" << strcmp(\"abc\", \"abc\") << endl;  // 0\n    cout << \"strcmp(\\\"abd\\\", \\\"abc\\\"): \" << strcmp(\"abd\", \"abc\") << endl;  // Positive\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>strlen</code> counts characters until <code>'\\0'</code> (5, not 6). <code>sizeof</code> includes the null terminator (6). <code>strcpy</code> copies the entire string including <code>'\\0'</code>. <code>strcat</code> appends at the position of the existing null terminator. <code>strcmp</code> returns 0 for equal, negative if first is less, positive if first is greater (lexicographic comparison).",
+        "output": "strlen(\"Hello\") = 5\nsizeof(\"Hello\") = 6\nAfter strcpy: s3 = Hello\nAfter strcat: s3 = Hello World\nstrcmp(\"abc\", \"abd\"): -1\nstrcmp(\"abc\", \"abc\"): 0\nstrcmp(\"abd\", \"abc\"): 1"
+      },
+      {
+        "title": "std::string Operations",
+        "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    string s = \"Hello, World!\";\n\n    // Length\n    cout << \"Length: \" << s.length() << endl;  // 13\n\n    // Access\n    cout << \"s[0] = \" << s[0] << endl;         // H\n    cout << \"s.at(7) = \" << s.at(7) << endl;   // W\n\n    // substr\n    cout << \"substr(7, 5) = \" << s.substr(7, 5) << endl;  // World\n\n    // find\n    size_t pos = s.find(\"World\");\n    cout << \"'World' found at: \" << pos << endl;  // 7\n\n    pos = s.find(\"xyz\");\n    if (pos == string::npos) {\n        cout << \"'xyz' not found\" << endl;\n    }\n\n    // replace\n    s.replace(7, 5, \"C++\");\n    cout << \"After replace: \" << s << endl;  // Hello, C++!\n\n    // append\n    s += \" is great\";\n    cout << \"After append: \" << s << endl;\n\n    // insert\n    s.insert(0, \"*** \");\n    cout << \"After insert: \" << s << endl;\n\n    // erase\n    s.erase(0, 4);  // Remove \"*** \"\n    cout << \"After erase: \" << s << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>substr(7, 5)</code> extracts 5 characters starting at index 7. <code>find</code> returns the position or <code>string::npos</code> (usually -1 as unsigned). <code>replace(7, 5, \"C++\")</code> replaces 5 chars at position 7 with \"C++\". <code>+=</code> appends. <code>insert(0, \"*** \")</code> inserts at the beginning. <code>erase(0, 4)</code> removes 4 chars from position 0.",
+        "output": "Length: 13\ns[0] = H\ns.at(7) = W\nsubstr(7, 5) = World\n'World' found at: 7\n'xyz' not found\nAfter replace: Hello, C++!\nAfter append: Hello, C++! is great\nAfter insert: *** Hello, C++! is great\nAfter erase: Hello, C++! is great"
+      },
+      {
+        "title": "String Conversions: stoi, stod, to_string",
+        "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    // String to number\n    string numStr = \"12345\";\n    int num = stoi(numStr);\n    cout << \"stoi(\\\"12345\\\") = \" << num << endl;\n    cout << \"Doubled: \" << num * 2 << endl;\n\n    string floatStr = \"3.14159\";\n    double pi = stod(floatStr);\n    cout << \"stod(\\\"3.14159\\\") = \" << pi << endl;\n\n    string llStr = \"9000000000\";\n    long long big = stoll(llStr);\n    cout << \"stoll: \" << big << endl;\n\n    // Number to string\n    int age = 21;\n    string msg = \"Age: \" + to_string(age);\n    cout << msg << endl;\n\n    double gpa = 8.75;\n    string gpaStr = to_string(gpa);\n    cout << \"GPA string: \" << gpaStr << endl;  // Has many decimal places\n\n    // c_str() for C-style APIs\n    string filename = \"data.txt\";\n    const char* cstr = filename.c_str();\n    printf(\"C-string: %s\\n\", cstr);\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>stoi</code> converts string to int. <code>stod</code> to double. <code>stoll</code> to long long. <code>to_string</code> converts any number to string (note: <code>to_string(8.75)</code> gives many decimal places). <code>c_str()</code> returns a <code>const char*</code> for use with C functions like <code>printf</code>.",
+        "output": "stoi(\"12345\") = 12345\nDoubled: 24690\nstod(\"3.14159\") = 3.14159\nstoll: 9000000000\nAge: 21\nGPA string: 8.750000\nC-string: data.txt"
+      },
+      {
+        "title": "String Iteration and Character Manipulation",
+        "code": "#include <iostream>\n#include <string>\n#include <cctype>\nusing namespace std;\n\nint main() {\n    string s = \"Hello World 123\";\n\n    // Index-based iteration\n    cout << \"Characters: \";\n    for (int i = 0; i < (int)s.length(); i++) {\n        cout << s[i];\n    }\n    cout << endl;\n\n    // Range-based (read-only)\n    int vowels = 0, digits = 0, spaces = 0;\n    for (char c : s) {\n        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||\n            c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') vowels++;\n        if (isdigit(c)) digits++;\n        if (isspace(c)) spaces++;\n    }\n    cout << \"Vowels: \" << vowels << \", Digits: \" << digits << \", Spaces: \" << spaces << endl;\n\n    // Range-based (modify by reference)\n    string upper = s;\n    for (char &c : upper) {\n        c = toupper(c);\n    }\n    cout << \"Uppercase: \" << upper << endl;\n\n    // Convert using char arithmetic\n    string lower = s;\n    for (char &c : lower) {\n        if (c >= 'A' && c <= 'Z') c += 32;\n    }\n    cout << \"Lowercase: \" << lower << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Strings can be iterated like arrays. <code>for (char c : s)</code> is read-only. <code>for (char &amp;c : s)</code> allows modification. <code>toupper()</code> and <code>tolower()</code> from <code>&lt;cctype&gt;</code> convert case. <code>isdigit()</code>, <code>isalpha()</code>, <code>isspace()</code> classify characters. The char arithmetic approach (adding/subtracting 32) is common in CP.",
+        "output": "Characters: Hello World 123\nVowels: 3, Digits: 3, Spaces: 2\nUppercase: HELLO WORLD 123\nLowercase: hello world 123"
+      },
+      {
+        "title": "Reverse String and Palindrome Check",
+        "code": "#include <iostream>\n#include <string>\n#include <algorithm>\nusing namespace std;\n\n// Manual reverse using two pointers\nstring manualReverse(string s) {\n    int left = 0, right = s.length() - 1;\n    while (left < right) {\n        swap(s[left], s[right]);\n        left++;\n        right--;\n    }\n    return s;\n}\n\nbool isPalindrome(string s) {\n    int left = 0, right = s.length() - 1;\n    while (left < right) {\n        if (s[left] != s[right]) return false;\n        left++;\n        right--;\n    }\n    return true;\n}\n\nint main() {\n    string s1 = \"Hello\";\n    cout << \"Manual reverse: \" << manualReverse(s1) << endl;\n\n    // STL reverse (modifies in place)\n    string s2 = \"abcdef\";\n    reverse(s2.begin(), s2.end());\n    cout << \"STL reverse: \" << s2 << endl;\n\n    // Palindrome check\n    string words[] = {\"racecar\", \"hello\", \"madam\", \"level\", \"cpp\"};\n    for (string &w : words) {\n        cout << w << \": \" << (isPalindrome(w) ? \"Palindrome\" : \"Not palindrome\") << endl;\n    }\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The two-pointer technique reverses in O(n) time. For palindrome, compare characters from both ends moving inward. <code>reverse(s.begin(), s.end())</code> from <code>&lt;algorithm&gt;</code> reverses in place. Palindrome check is O(n) time, O(1) space.",
+        "output": "Manual reverse: olleH\nSTL reverse: fedcba\nracecar: Palindrome\nhello: Not palindrome\nmadam: Palindrome\nlevel: Palindrome\ncpp: Not palindrome"
+      },
+      {
+        "title": "Anagram Check Using Frequency Array",
+        "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nbool areAnagrams(string s1, string s2) {\n    if (s1.length() != s2.length()) return false;\n\n    int freq[26] = {0};\n    for (char c : s1) freq[c - 'a']++;\n    for (char c : s2) freq[c - 'a']--;\n\n    for (int i = 0; i < 26; i++) {\n        if (freq[i] != 0) return false;\n    }\n    return true;\n}\n\nint main() {\n    string pairs[][2] = {\n        {\"listen\", \"silent\"},\n        {\"hello\", \"world\"},\n        {\"anagram\", \"nagaram\"},\n        {\"rat\", \"tar\"}\n    };\n\n    for (auto &p : pairs) {\n        cout << \"\\\"\" << p[0] << \"\\\" and \\\"\" << p[1] << \"\\\": \";\n        cout << (areAnagrams(p[0], p[1]) ? \"Anagrams\" : \"Not anagrams\") << endl;\n    }\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Two strings are anagrams if they have identical character frequencies. Increment for s1, decrement for s2. If all frequencies are 0, they are anagrams. This is O(n) time, O(1) space (fixed 26-element array). The alternative is to sort both strings and compare -- O(n log n).",
+        "output": "\"listen\" and \"silent\": Anagrams\n\"hello\" and \"world\": Not anagrams\n\"anagram\" and \"nagaram\": Anagrams\n\"rat\" and \"tar\": Anagrams"
+      },
+      {
+        "title": "getline and C-string vs std::string Interaction",
+        "code": "#include <iostream>\n#include <string>\n#include <cstring>\nusing namespace std;\n\nint main() {\n    // getline reads full line with spaces\n    string fullName;\n    cout << \"Enter full name: \";\n    getline(cin, fullName);\n    cout << \"Hello, \" << fullName << \"!\" << endl;\n\n    // std::string to C-string\n    string s = \"Modern Age Coders\";\n    const char* cstr = s.c_str();\n    cout << \"C-string length: \" << strlen(cstr) << endl;\n    printf(\"printf with c_str: %s\\n\", s.c_str());\n\n    // C-string to std::string\n    char arr[] = \"From C-string\";\n    string converted = arr;  // Implicit conversion\n    cout << \"Converted: \" << converted << endl;\n    cout << \"Length: \" << converted.length() << endl;\n\n    // String comparison\n    string a = \"apple\", b = \"banana\";\n    if (a < b) cout << a << \" comes before \" << b << endl;\n    if (a == \"apple\") cout << \"Exact match!\" << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>getline(cin, s)</code> reads the entire line. <code>c_str()</code> converts <code>std::string</code> to <code>const char*</code> for C APIs. C-strings convert to <code>std::string</code> implicitly. <code>std::string</code> supports <code>==</code>, <code>&lt;</code>, <code>&gt;</code> operators for comparison (unlike C-strings which require <code>strcmp</code>).",
+        "output": "Enter full name: Priya Sharma\nHello, Priya Sharma!\nC-string length: 17\nprintf with c_str: Modern Age Coders\nConverted: From C-string\nLength: 13\napple comes before banana\nExact match!"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Comparing C-strings with == (Compares Pointers, Not Content)",
+        "wrongCode": "#include <iostream>\n#include <cstring>\nusing namespace std;\nint main() {\n    char s1[] = \"hello\";\n    char s2[] = \"hello\";\n    if (s1 == s2) {\n        cout << \"Equal\" << endl;\n    } else {\n        cout << \"Not equal\" << endl;  // This prints!\n    }\n    return 0;\n}",
+        "error": "Prints 'Not equal' even though both strings contain 'hello'. == compares memory addresses, not content.",
+        "correctCode": "#include <iostream>\n#include <cstring>\nusing namespace std;\nint main() {\n    char s1[] = \"hello\";\n    char s2[] = \"hello\";\n    if (strcmp(s1, s2) == 0) {\n        cout << \"Equal\" << endl;  // Correct!\n    }\n    return 0;\n}",
+        "explanation": "For C-strings, <code>==</code> compares the memory addresses of the two arrays, which are different. Use <code>strcmp(s1, s2) == 0</code> to compare content. For <code>std::string</code>, the <code>==</code> operator IS overloaded to compare content, so <code>s1 == s2</code> works correctly."
+      },
+      {
+        "title": "Buffer Overflow with strcpy/strcat",
+        "wrongCode": "#include <iostream>\n#include <cstring>\nusing namespace std;\nint main() {\n    char dest[5];\n    strcpy(dest, \"Hello World\");  // 11 chars + \\0 into 5-char buffer!\n    cout << dest << endl;\n    return 0;\n}",
+        "error": "Writes past the buffer boundary. May crash, corrupt data, or appear to work (undefined behavior).",
+        "correctCode": "#include <iostream>\n#include <cstring>\nusing namespace std;\nint main() {\n    char dest[20];  // Ensure enough space\n    strcpy(dest, \"Hello World\");\n    cout << dest << endl;\n    // Or better: use std::string\n    return 0;\n}",
+        "explanation": "<code>strcpy</code> and <code>strcat</code> do NOT check if the destination has enough space. Writing past the buffer is a <strong>buffer overflow</strong> -- one of the most common security vulnerabilities in C/C++. Use <code>strncpy</code> for bounded copy, or better yet, use <code>std::string</code>."
+      },
+      {
+        "title": "Forgetting that string::find Returns string::npos, Not -1",
+        "wrongCode": "#include <iostream>\n#include <string>\nusing namespace std;\nint main() {\n    string s = \"Hello World\";\n    int pos = s.find(\"xyz\");  // Assigned to int!\n    if (pos == -1) {\n        cout << \"Not found\" << endl;  // Works by accident on most systems\n    }\n    return 0;\n}",
+        "error": "string::find returns size_t (unsigned). Comparing with -1 works due to implicit conversion but is technically incorrect.",
+        "correctCode": "#include <iostream>\n#include <string>\nusing namespace std;\nint main() {\n    string s = \"Hello World\";\n    size_t pos = s.find(\"xyz\");\n    if (pos == string::npos) {\n        cout << \"Not found\" << endl;\n    }\n    return 0;\n}",
+        "explanation": "<code>string::find</code> returns <code>size_t</code> (unsigned). When not found, it returns <code>string::npos</code> (the maximum <code>size_t</code> value). Comparing with <code>-1</code> works because <code>-1</code> converts to the same value, but it is better practice to use <code>string::npos</code> explicitly."
+      },
+      {
+        "title": "Modifying String Literal (Undefined Behavior)",
+        "wrongCode": "#include <iostream>\nusing namespace std;\nint main() {\n    char* s = \"Hello\";  // Points to read-only memory\n    s[0] = 'J';          // CRASH: modifying string literal!\n    cout << s << endl;\n    return 0;\n}",
+        "error": "Segmentation fault or crash. String literals are stored in read-only memory.",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    char s[] = \"Hello\";  // Copies into writable array\n    s[0] = 'J';          // OK: modifying local copy\n    cout << s << endl;   // Jello\n    return 0;\n}",
+        "explanation": "<code>char* s = \"Hello\"</code> makes s point to a string literal in read-only memory. <code>char s[] = \"Hello\"</code> copies the literal into a writable local array. Modern compilers warn about the former and require <code>const char*</code>."
+      }
+    ],
+    "summary": [
+      "C++ has two string types: C-strings (char arrays with '\\0' terminator) and std::string (dynamic, safe, from <string> header).",
+      "C-string functions from <cstring>: strlen (O(n) length), strcpy (copy), strcat (concatenate), strcmp (compare, returns 0 for equal).",
+      "Never compare C-strings with == (compares addresses). Use strcmp(). For std::string, == compares content correctly.",
+      "std::string key operations: length()/size() (O(1)), substr(pos, len), find(str), replace(pos, len, str), append/+=, insert, erase.",
+      "string::find returns string::npos (not -1) when not found. Always compare with string::npos, not -1.",
+      "Conversions: stoi/stol/stoll/stof/stod convert string to number. to_string() converts number to string. c_str() returns const char*.",
+      "getline(cin, s) reads the entire line including spaces. cin >> s reads only until whitespace. Use cin.ignore() between >> and getline.",
+      "String iteration: for (int i = 0; i < s.length(); i++) or for (char c : s). Use for (char &c : s) to modify characters in place.",
+      "Common algorithms: reverse with two pointers or reverse(), palindrome check with two pointers, anagram check with frequency array (O(n)), vowel counting with iteration.",
+      "C-strings risk buffer overflow (strcpy/strcat have no bounds checking). std::string manages memory automatically and is always preferred in modern C++."
+    ]
+  },
+  "relatedTopics": ["arrays-in-cpp", "pointers-in-cpp"],
+  "practice": {
+    "totalQuestions": 56,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;cstring&gt;\nusing namespace std;\nint main() {\n    char s[] = \"Hello\";\n    cout &lt;&lt; strlen(s) &lt;&lt; endl;\n    cout &lt;&lt; sizeof(s) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "strlen counts characters before \\0. sizeof counts total bytes including \\0.",
+        "answer": "<code>5</code><br><code>6</code>",
+        "explanation": "<code>strlen(\"Hello\")</code> counts 5 characters (H, e, l, l, o). <code>sizeof(s)</code> is 6 because the array stores 5 characters plus the null terminator <code>'\\0'</code>."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"Hello\";\n    cout &lt;&lt; s.length() &lt;&lt; endl;\n    cout &lt;&lt; s[1] &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "length() returns character count. Indexing is 0-based.",
+        "answer": "<code>5</code><br><code>e</code>",
+        "explanation": "<code>s.length()</code> is 5. <code>s[1]</code> is the second character, 'e' (0-indexed: H=0, e=1, l=2, l=3, o=4)."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string a = \"Hello\";\n    string b = \" World\";\n    string c = a + b;\n    cout &lt;&lt; c &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "The + operator concatenates strings.",
+        "answer": "<code>Hello World</code>",
+        "explanation": "The <code>+</code> operator is overloaded for <code>std::string</code> to concatenate. <code>\"Hello\" + \" World\"</code> produces <code>\"Hello World\"</code>."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"Hello, World!\";\n    cout &lt;&lt; s.substr(7, 5) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "substr(start_pos, length) extracts a substring.",
+        "answer": "<code>World</code>",
+        "explanation": "<code>s.substr(7, 5)</code> extracts 5 characters starting at index 7. Counting: H(0) e(1) l(2) l(3) o(4) ,(5) (6) W(7) o(8) r(9) l(10) d(11). So characters at 7-11 are \"World\"."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"abcdefgh\";\n    size_t pos = s.find(\"cde\");\n    cout &lt;&lt; pos &lt;&lt; endl;\n    pos = s.find(\"xyz\");\n    cout &lt;&lt; (pos == string::npos ? \"Not found\" : \"Found\") &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "find returns the starting index, or string::npos if not found.",
+        "answer": "<code>2</code><br><code>Not found</code>",
+        "explanation": "<code>\"cde\"</code> starts at index 2 in <code>\"abcdefgh\"</code>. <code>\"xyz\"</code> is not present, so <code>find</code> returns <code>string::npos</code>."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"Hello\";\n    s.insert(5, \" World\");\n    cout &lt;&lt; s &lt;&lt; endl;\n    s.erase(5, 6);\n    cout &lt;&lt; s &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "insert adds at position. erase removes from position.",
+        "answer": "<code>Hello World</code><br><code>Hello</code>",
+        "explanation": "<code>insert(5, \" World\")</code> inserts \" World\" at position 5, giving \"Hello World\". <code>erase(5, 6)</code> removes 6 characters from position 5, restoring \"Hello\"."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    int n = 42;\n    string s = \"Value: \" + to_string(n);\n    cout &lt;&lt; s &lt;&lt; endl;\n    string num = \"123\";\n    cout &lt;&lt; stoi(num) + 7 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "to_string converts number to string. stoi converts string to int.",
+        "answer": "<code>Value: 42</code><br><code>130</code>",
+        "explanation": "<code>to_string(42)</code> produces <code>\"42\"</code>. Concatenated with \"Value: \" gives \"Value: 42\". <code>stoi(\"123\")</code> converts to int 123. Adding 7 gives 130."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;cstring&gt;\nusing namespace std;\nint main() {\n    char s1[] = \"hello\";\n    char s2[] = \"hello\";\n    if (s1 == s2) cout &lt;&lt; \"Equal\" &lt;&lt; endl;\n    else cout &lt;&lt; \"Not equal\" &lt;&lt; endl;\n    if (strcmp(s1, s2) == 0) cout &lt;&lt; \"Content equal\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "== compares addresses for C-strings. strcmp compares content.",
+        "answer": "<code>Not equal</code><br><code>Content equal</code>",
+        "explanation": "<code>s1 == s2</code> compares the memory addresses of the two arrays, which are different (they are separate arrays). <code>strcmp</code> compares the actual character content and returns 0 because both contain \"hello\"."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between <code>strlen(s)</code> and <code>sizeof(s)</code> for the C-string <code>char s[] = \"Hello\";</code>?",
+        "hint": "One counts characters, the other counts bytes.",
+        "answer": "<code>strlen(s)</code> returns 5 -- the number of characters before the null terminator. <code>sizeof(s)</code> returns 6 -- the total size of the array including the null terminator <code>'\\0'</code>. <code>strlen</code> is O(n) (scans until <code>'\\0'</code>). <code>sizeof</code> is a compile-time constant.",
+        "explanation": "For <code>std::string</code>, use <code>s.length()</code> or <code>s.size()</code> which are both O(1) because the length is stored internally."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is <code>string::npos</code> and when is it returned?",
+        "hint": "It is the return value of find() when the substring is not found.",
+        "answer": "<code>string::npos</code> is a constant of type <code>size_t</code> with the maximum possible value (typically 18446744073709551615 on 64-bit). It is returned by <code>find()</code>, <code>rfind()</code>, and similar functions when the search string is not found. Always compare with <code>string::npos</code>, not with -1.",
+        "explanation": "Technically, <code>string::npos</code> equals <code>(size_t)-1</code>, which wraps to the max unsigned value. Comparing with <code>-1</code> works due to implicit conversion but is not idiomatic C++."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\n#include &lt;algorithm&gt;\nusing namespace std;\nint main() {\n    string s = \"abcba\";\n    string rev = s;\n    reverse(rev.begin(), rev.end());\n    cout &lt;&lt; (s == rev ? \"Palindrome\" : \"Not\") &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Reverse the string and compare with the original.",
+        "answer": "<code>Palindrome</code>",
+        "explanation": "The string \"abcba\" reversed is \"abcba\" (same). Since <code>s == rev</code> is true, it is a palindrome."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"Hello World\";\n    s.replace(s.find(\"World\"), 5, \"C++\");\n    cout &lt;&lt; s &lt;&lt; endl;\n    cout &lt;&lt; s.length() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "find returns 6. replace(6, 5, \"C++\") replaces 5 chars with 3 chars.",
+        "answer": "<code>Hello C++</code><br><code>9</code>",
+        "explanation": "<code>find(\"World\")</code> returns 6. <code>replace(6, 5, \"C++\")</code> removes 5 characters (\"World\") and inserts \"C++\" (3 characters). The string shrinks from 11 to 9 characters."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string a = \"apple\";\n    string b = \"banana\";\n    cout &lt;&lt; (a &lt; b) &lt;&lt; endl;\n    cout &lt;&lt; (a &gt; b) &lt;&lt; endl;\n    cout &lt;&lt; (a == \"apple\") &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "String comparison is lexicographic (dictionary order).",
+        "answer": "<code>1</code><br><code>0</code><br><code>1</code>",
+        "explanation": "Lexicographic comparison: 'a' (97) < 'b' (98), so \"apple\" < \"banana\" is true (1). \"apple\" > \"banana\" is false (0). \"apple\" == \"apple\" is true (1)."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is the frequency array approach O(n) for anagram checking while the sorting approach is O(n log n)?",
+        "hint": "Think about what each approach does.",
+        "answer": "The frequency array approach iterates through each string once (O(n) each) and then checks 26 counts (O(1)). Total: O(n). The sorting approach sorts both strings (O(n log n) each) and then compares them (O(n)). Total: O(n log n). The frequency array is faster but only works for lowercase letters. For Unicode, sorting may be simpler.",
+        "explanation": "In competitive programming, the frequency array approach is preferred for its linear time complexity. Use an array of size 26 for lowercase-only strings, or a map/unordered_map for general character sets."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"Hello\";\n    s += \" World\";\n    s.append(\"!\");\n    cout &lt;&lt; s &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "+= and append both concatenate to the end.",
+        "answer": "<code>Hello World!</code>",
+        "explanation": "<code>+=</code> appends \" World\" to \"Hello\", making \"Hello World\". <code>append(\"!\")</code> adds \"!\" at the end. Both <code>+=</code> and <code>append</code> achieve the same result."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"HELLO\";\n    for (char &amp;c : s) {\n        c = c + 32;\n    }\n    cout &lt;&lt; s &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Adding 32 to an uppercase ASCII letter gives the lowercase version.",
+        "answer": "<code>hello</code>",
+        "explanation": "Each uppercase letter (ASCII 65-90) is converted to lowercase by adding 32 ('A'+32 = 'a'). The reference <code>&amp;c</code> modifies the string in place."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"aababcabc\";\n    int count = 0;\n    size_t pos = 0;\n    while ((pos = s.find(\"ab\", pos)) != string::npos) {\n        count++;\n        pos++;  // Move past this match\n    }\n    cout &lt;&lt; count &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Count all occurrences of \"ab\" including overlapping ones.",
+        "answer": "<code>3</code>",
+        "explanation": "\"ab\" appears at positions 1, 3, and 6 in \"aababcabc\". The while loop finds each occurrence by starting the next search from <code>pos + 1</code> (allowing overlaps, though \"ab\" does not overlap with itself). Count = 3."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"Hello\";\n    s[0] = 'J';\n    cout &lt;&lt; s &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "std::string characters can be modified by index.",
+        "answer": "<code>Jello</code>",
+        "explanation": "<code>s[0] = 'J'</code> replaces the first character 'H' with 'J'. The string becomes \"Jello\"."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"12345\";\n    int sum = 0;\n    for (char c : s) {\n        sum += c - '0';\n    }\n    cout &lt;&lt; sum &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "c - '0' converts a digit character to its integer value.",
+        "answer": "<code>15</code>",
+        "explanation": "Each character is converted to its digit value using <code>c - '0'</code>: 1+2+3+4+5 = 15. This is the standard technique for digit extraction from strings."
+      },
+      {
+        "id": "ts-20",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is <code>strcpy</code> considered dangerous and what is the alternative?",
+        "hint": "Think about what happens when the source is longer than the destination.",
+        "answer": "<code>strcpy</code> copies characters until it finds <code>'\\0'</code> with no bounds checking. If the source is longer than the destination buffer, it writes past the buffer boundary (buffer overflow). Alternatives: <code>strncpy</code> (copies at most n characters), or better yet, use <code>std::string</code> which manages memory automatically.",
+        "explanation": "Buffer overflow is one of the most common security vulnerabilities in C/C++ programs. It can allow attackers to execute arbitrary code. This is why modern C++ strongly recommends std::string over C-strings."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"Hello\";\n    cout &lt;&lt; s[0] &lt;&lt; s[4] &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "s[0] is the first character, s[4] is the last.",
+        "answer": "<code>Ho</code>",
+        "explanation": "<code>s[0]</code> = 'H', <code>s[4]</code> = 'o'. They are printed without a space between them: \"Ho\"."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;cstring&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; strcmp(\"abc\", \"abc\") &lt;&lt; endl;\n    cout &lt;&lt; strcmp(\"abc\", \"abd\") &lt;&lt; endl;\n    cout &lt;&lt; strcmp(\"abd\", \"abc\") &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "strcmp returns 0, negative, or positive.",
+        "answer": "<code>0</code><br><code>-1</code><br><code>1</code>",
+        "explanation": "Equal strings: 0. \"abc\" < \"abd\" (c < d): negative. \"abd\" > \"abc\" (d > c): positive. Exact values may vary by compiler, but the sign is guaranteed."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"Hello World\";\n    int count = 0;\n    for (char c : s) {\n        if (c == 'l') count++;\n    }\n    cout &lt;&lt; count &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Count how many 'l' characters are in \"Hello World\".",
+        "answer": "<code>3</code>",
+        "explanation": "\"Hello World\" contains 'l' at positions 2, 3, and 9 (in \"World\"). Total count = 3."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that reads a string and prints it reversed without using any library reverse function.",
+        "hint": "Use a loop from the last index to 0.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s;\n    getline(cin, s);\n    for (int i = s.length() - 1; i &gt;= 0; i--) {\n        cout &lt;&lt; s[i];\n    }\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>\nInput: Hello\nOutput: olleH",
+        "explanation": "Iterate from the last index to 0 and print each character. This reverses the string without modifying the original."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"123\";\n    int n = stoi(s);\n    n *= 2;\n    s = to_string(n);\n    cout &lt;&lt; s &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Convert to int, double it, convert back to string.",
+        "answer": "<code>246</code>",
+        "explanation": "<code>stoi(\"123\")</code> gives 123. Doubled: 246. <code>to_string(246)</code> gives \"246\"."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"abcdef\";\n    s.erase(2, 3);  // Remove 3 chars starting at index 2\n    cout &lt;&lt; s &lt;&lt; endl;\n    cout &lt;&lt; s.length() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "erase(2, 3) removes characters at indices 2, 3, 4.",
+        "answer": "<code>abf</code><br><code>3</code>",
+        "explanation": "<code>erase(2, 3)</code> removes 'c', 'd', 'e' (3 characters starting at index 2). Remaining: \"abf\" with length 3."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a function that checks if a given string is a palindrome (ignoring case).",
+        "hint": "Convert to lowercase first, then use two-pointer comparison.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\n#include &lt;cctype&gt;\nusing namespace std;\nbool isPalindrome(string s) {\n    for (char &amp;c : s) c = tolower(c);\n    int l = 0, r = s.length() - 1;\n    while (l &lt; r) {\n        if (s[l] != s[r]) return false;\n        l++; r--;\n    }\n    return true;\n}\nint main() {\n    cout &lt;&lt; isPalindrome(\"Racecar\") &lt;&lt; endl;  // 1\n    cout &lt;&lt; isPalindrome(\"Hello\") &lt;&lt; endl;    // 0\n    cout &lt;&lt; isPalindrome(\"Madam\") &lt;&lt; endl;    // 1\n    return 0;\n}</code></pre>",
+        "explanation": "First convert all characters to lowercase. Then use two pointers from both ends. If all pairs match, it is a palindrome."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"aaabbbccc\";\n    int freq[26] = {0};\n    for (char c : s) freq[c - 'a']++;\n    for (int i = 0; i &lt; 26; i++) {\n        if (freq[i] &gt; 0) {\n            cout &lt;&lt; (char)('a' + i) &lt;&lt; \":\" &lt;&lt; freq[i] &lt;&lt; \" \";\n        }\n    }\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Build a frequency array and print characters with non-zero counts.",
+        "answer": "<code>a:3 b:3 c:3</code>",
+        "explanation": "The frequency array counts: a appears 3 times, b appears 3 times, c appears 3 times. Only non-zero frequencies are printed."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a function that takes two strings and checks if they are anagrams using a frequency array.",
+        "hint": "Increment for string 1, decrement for string 2. All counts should be 0.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nbool isAnagram(string a, string b) {\n    if (a.length() != b.length()) return false;\n    int freq[26] = {0};\n    for (char c : a) freq[c - 'a']++;\n    for (char c : b) freq[c - 'a']--;\n    for (int i = 0; i &lt; 26; i++)\n        if (freq[i] != 0) return false;\n    return true;\n}\nint main() {\n    cout &lt;&lt; isAnagram(\"listen\", \"silent\") &lt;&lt; endl;  // 1\n    cout &lt;&lt; isAnagram(\"hello\", \"world\") &lt;&lt; endl;   // 0\n    return 0;\n}</code></pre>",
+        "explanation": "Anagrams have identical character frequencies. Increment counts for string 1, decrement for string 2. If all counts are 0, they are anagrams. O(n) time, O(1) space."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"the quick brown fox\";\n    int words = 1;\n    for (char c : s) {\n        if (c == ' ') words++;\n    }\n    cout &lt;&lt; words &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Count spaces + 1 = number of words (assuming single spaces, no leading/trailing spaces).",
+        "answer": "<code>4</code>",
+        "explanation": "There are 3 spaces in \"the quick brown fox\". Words = spaces + 1 = 4. This simple approach assumes single spaces and no leading/trailing spaces."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"C++ Programming\";\n    cout &lt;&lt; s.substr(0, 3) &lt;&lt; endl;\n    cout &lt;&lt; s.substr(4) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "substr(0, 3) gets first 3 chars. substr(4) gets from index 4 to end.",
+        "answer": "<code>C++</code><br><code>Programming</code>",
+        "explanation": "<code>substr(0, 3)</code> extracts 3 characters from index 0: \"C++\". <code>substr(4)</code> extracts from index 4 to the end: \"Programming\"."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\n#include &lt;string&gt;\nusing namespace std;\nint main() {\n    string s = \"Hello\";\n    cout &lt;&lt; s.empty() &lt;&lt; endl;\n    s = \"\";\n    cout &lt;&lt; s.empty() &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "empty() returns true (1) if the string has 0 characters.",
+        "answer": "<code>0</code><br><code>1</code>",
+        "explanation": "\"Hello\" is not empty: <code>empty()</code> returns false (0). After assigning \"\", the string is empty: <code>empty()</code> returns true (1)."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which header is needed for <code>strlen</code>, <code>strcpy</code>, <code>strcmp</code>?",
+        "options": {
+          "A": "<string>",
+          "B": "<cstring>",
+          "C": "<iostream>",
+          "D": "<cstdlib>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;cstring&gt;</code> provides C-string functions: <code>strlen</code>, <code>strcpy</code>, <code>strcat</code>, <code>strcmp</code>. <code>&lt;string&gt;</code> provides the <code>std::string</code> class."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the null terminator character in C-strings?",
+        "options": {
+          "A": "'0'",
+          "B": "NULL",
+          "C": "'\\0'",
+          "D": "'\\n'"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>'\\0'</code> (ASCII 0) marks the end of a C-string. <code>'0'</code> is the digit zero (ASCII 48). <code>'\\n'</code> is newline."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does <code>s.length()</code> return for <code>string s = \"Hello\";</code>?",
+        "options": {
+          "A": "4",
+          "B": "5",
+          "C": "6",
+          "D": "Depends on the compiler"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>length()</code> returns the number of characters in the string: 5 for \"Hello\". Unlike C-strings, <code>std::string</code> does not count any null terminator in its length."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "How do you concatenate two <code>std::string</code> objects?",
+        "options": {
+          "A": "strcat(s1, s2)",
+          "B": "s1.concat(s2)",
+          "C": "s1 + s2 or s1 += s2",
+          "D": "s1.add(s2)"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>std::string</code> overloads the <code>+</code> and <code>+=</code> operators for concatenation. <code>strcat</code> is for C-strings only. There is no <code>concat</code> or <code>add</code> method."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "What does <code>strcmp</code> return when two strings are equal?",
+        "options": {
+          "A": "1",
+          "B": "-1",
+          "C": "0",
+          "D": "true"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>strcmp</code> returns 0 when strings are equal, a negative value when the first is less, and a positive value when the first is greater."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does <code>string::find</code> return when the substring is not found?",
+        "options": {
+          "A": "-1",
+          "B": "0",
+          "C": "string::npos",
+          "D": "NULL"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>find</code> returns <code>string::npos</code> (the maximum <code>size_t</code> value) when the substring is not found. Comparing with -1 works but <code>string::npos</code> is the correct idiom."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the time complexity of <code>strlen()</code>?",
+        "options": {
+          "A": "O(1)",
+          "B": "O(n)",
+          "C": "O(log n)",
+          "D": "O(n^2)"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>strlen</code> scans from the beginning until it finds <code>'\\0'</code>, making it O(n). In contrast, <code>std::string::length()</code> is O(1) because the length is stored internally."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does <code>stoi(\"42abc\")</code> return?",
+        "options": {
+          "A": "0",
+          "B": "42",
+          "C": "Throws an exception",
+          "D": "42abc"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>stoi</code> reads as many characters as possible that form a valid integer: \"42\". The remaining \"abc\" is ignored. It returns 42. It would throw <code>invalid_argument</code> only if the string starts with a non-numeric character."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Hard",
+        "question": "Which approach is faster for anagram checking: sorting or frequency array?",
+        "options": {
+          "A": "Sorting: O(n) vs frequency array: O(n log n)",
+          "B": "Both are O(n)",
+          "C": "Frequency array: O(n) vs sorting: O(n log n)",
+          "D": "Both are O(n^2)"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The frequency array approach iterates each string once: O(n). Sorting both strings is O(n log n). The frequency array is faster for lowercase-only strings (fixed 26-element array)."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "What does <code>char* s = \"Hello\";</code> vs <code>char s[] = \"Hello\";</code> differ in?",
+        "options": {
+          "A": "No difference",
+          "B": "char* points to read-only memory; char[] is a writable copy",
+          "C": "char[] is read-only; char* is writable",
+          "D": "char* is faster"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>char* s = \"Hello\"</code> makes s point to a string literal in read-only memory (modifying it is undefined behavior). <code>char s[] = \"Hello\"</code> creates a writable copy in local memory."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the output of <code>cout << string(\"abc\") + string(\"def\");</code>?",
+        "options": {
+          "A": "Compilation error",
+          "B": "abcdef",
+          "C": "abc def",
+          "D": "abc+def"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>+</code> operator for <code>std::string</code> concatenates without any separator. \"abc\" + \"def\" = \"abcdef\"."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "What does <code>c_str()</code> return?",
+        "options": {
+          "A": "A std::string",
+          "B": "A char array",
+          "C": "A const char* (null-terminated C-string)",
+          "D": "An integer"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>c_str()</code> returns a <code>const char*</code> pointing to a null-terminated C-string representation of the <code>std::string</code>. It is used when C APIs require a <code>char*</code>."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Easy",
+        "question": "What is the output of <code>string s = \"abc\"; cout << s + \"def\";</code>?",
+        "options": {
+          "A": "abcdef",
+          "B": "abc def",
+          "C": "Compilation error",
+          "D": "abc+def"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> The <code>+</code> operator concatenates std::string with a C-string literal. \"abc\" + \"def\" = \"abcdef\" with no separator."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "What does <code>s.substr(3)</code> return if <code>s = \"HelloWorld\"</code>?",
+        "options": {
+          "A": "Hel",
+          "B": "loWorld",
+          "C": "Hel",
+          "D": "World"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>substr(3)</code> with one argument returns everything from index 3 to the end. For \"HelloWorld\", characters from index 3 onward are \"loWorld\"."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What does <code>stoi(\"abc\")</code> do?",
+        "options": {
+          "A": "Returns 0",
+          "B": "Returns -1",
+          "C": "Throws invalid_argument exception",
+          "D": "Returns the ASCII sum"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>stoi</code> throws <code>std::invalid_argument</code> when the string does not start with a valid integer representation. \"abc\" has no leading digits."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What is the correct way to read a full line of text including spaces?",
+        "options": {
+          "A": "cin >> s",
+          "B": "getline(cin, s)",
+          "C": "cin.read(s)",
+          "D": "scanf(\"%s\", s)"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>getline(cin, s)</code> reads the entire line including spaces. <code>cin >> s</code> stops at the first whitespace character."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "Which is more efficient for checking string equality: sorting both then comparing, or using a frequency array?",
+        "options": {
+          "A": "Sorting: O(n) vs frequency: O(n log n)",
+          "B": "Both are O(n)",
+          "C": "Frequency array: O(n) vs sorting: O(n log n)",
+          "D": "Both are O(n^2)"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Building a frequency array takes O(n). Sorting takes O(n log n). For anagram checking with lowercase letters, the frequency approach is asymptotically faster."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "What does <code>to_string(3.14)</code> return?",
+        "options": {
+          "A": "\"3.14\"",
+          "B": "\"3.140000\" (with many decimal places)",
+          "C": "\"3\"",
+          "D": "Compilation error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>to_string</code> for floating-point numbers uses a default format with 6 decimal places, producing something like \"3.140000\". For controlled formatting, use stringstream with setprecision."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Count Vowels and Consonants",
+        "difficulty": "Easy",
+        "description": "Read a string (may contain spaces) and count the number of vowels (a, e, i, o, u -- case-insensitive) and consonants. Ignore non-alphabetic characters.",
+        "sampleInput": "Hello World",
+        "sampleOutput": "Vowels: 3\nConsonants: 7",
+        "constraints": "Use tolower() or char arithmetic for case conversion. Use isalpha() to filter.",
+        "solution": "#include <iostream>\n#include <string>\n#include <cctype>\nusing namespace std;\nint main() {\n    string s;\n    getline(cin, s);\n    int vowels = 0, consonants = 0;\n    for (char c : s) {\n        c = tolower(c);\n        if (isalpha(c)) {\n            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')\n                vowels++;\n            else\n                consonants++;\n        }\n    }\n    cout << \"Vowels: \" << vowels << endl;\n    cout << \"Consonants: \" << consonants << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "First Non-Repeating Character",
+        "difficulty": "Medium",
+        "description": "Given a string, find the first character that does not repeat. Print the character and its index. If all characters repeat, print 'None'.",
+        "sampleInput": "aabbcdd",
+        "sampleOutput": "First non-repeating: c at index 4",
+        "constraints": "Use a frequency array. Single pass to count, second pass to find first with count 1.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\nint main() {\n    string s;\n    getline(cin, s);\n    int freq[256] = {0};\n    for (char c : s) freq[(int)c]++;\n    for (int i = 0; i < (int)s.length(); i++) {\n        if (freq[(int)s[i]] == 1) {\n            cout << \"First non-repeating: \" << s[i] << \" at index \" << i << endl;\n            return 0;\n        }\n    }\n    cout << \"None\" << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Remove All Occurrences of a Character",
+        "difficulty": "Medium",
+        "description": "Read a string and a character. Remove all occurrences of that character from the string. Print the resulting string and its length.",
+        "sampleInput": "programming\nm",
+        "sampleOutput": "Result: prograing\nLength: 9",
+        "constraints": "Use erase and find in a loop, or build a new string. Do NOT use any external library.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\nint main() {\n    string s;\n    char ch;\n    getline(cin, s);\n    cin >> ch;\n    string result = \"\";\n    for (char c : s) {\n        if (c != ch) result += c;\n    }\n    cout << \"Result: \" << result << endl;\n    cout << \"Length: \" << result.length() << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Word Reverser",
+        "difficulty": "Hard",
+        "description": "Read a sentence and reverse the order of words. Do not reverse individual characters within words. Example: 'hello world' becomes 'world hello'.",
+        "sampleInput": "I love competitive programming",
+        "sampleOutput": "programming competitive love I",
+        "constraints": "Handle multiple spaces between words. Use string operations.",
+        "solution": "#include <iostream>\n#include <string>\n#include <vector>\nusing namespace std;\nint main() {\n    string s;\n    getline(cin, s);\n    vector<string> words;\n    string word = \"\";\n    for (int i = 0; i <= (int)s.length(); i++) {\n        if (i == (int)s.length() || s[i] == ' ') {\n            if (!word.empty()) {\n                words.push_back(word);\n                word = \"\";\n            }\n        } else {\n            word += s[i];\n        }\n    }\n    for (int i = words.size() - 1; i >= 0; i--) {\n        cout << words[i];\n        if (i > 0) cout << \" \";\n    }\n    cout << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Longest Palindromic Substring (Brute Force)",
+        "difficulty": "Hard",
+        "description": "Given a string, find and print the longest substring that is a palindrome. If there are multiple of the same length, print the first one found.",
+        "sampleInput": "babad",
+        "sampleOutput": "bab",
+        "constraints": "O(n^3) brute force is acceptable. Check all substrings and verify palindrome.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\nbool isPalindrome(string s) {\n    int l = 0, r = s.length() - 1;\n    while (l < r) {\n        if (s[l] != s[r]) return false;\n        l++; r--;\n    }\n    return true;\n}\nint main() {\n    string s;\n    cin >> s;\n    string longest = \"\";\n    for (int i = 0; i < (int)s.length(); i++) {\n        for (int len = 1; len <= (int)s.length() - i; len++) {\n            string sub = s.substr(i, len);\n            if (isPalindrome(sub) && (int)sub.length() > (int)longest.length()) {\n                longest = sub;\n            }\n        }\n    }\n    cout << longest << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "String Compression (Run-Length Encoding)",
+        "difficulty": "Hard",
+        "description": "Implement basic string compression using run-length encoding. Consecutive duplicate characters are replaced with the character followed by the count. If the compressed string is not shorter, return the original.",
+        "sampleInput": "aabcccccaaa",
+        "sampleOutput": "a2b1c5a3",
+        "constraints": "Single pass. Handle edge cases: empty string, single character, no repeats.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\nint main() {\n    string s;\n    cin >> s;\n    if (s.empty()) {\n        cout << s << endl;\n        return 0;\n    }\n    string compressed = \"\";\n    int count = 1;\n    for (int i = 1; i <= (int)s.length(); i++) {\n        if (i < (int)s.length() && s[i] == s[i - 1]) {\n            count++;\n        } else {\n            compressed += s[i - 1];\n            compressed += to_string(count);\n            count = 1;\n        }\n    }\n    if ((int)compressed.length() >= (int)s.length()) {\n        cout << s << endl;\n    } else {\n        cout << compressed << endl;\n    }\n    return 0;\n}"
+      }
+    ]
+  }
+}

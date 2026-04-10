@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP - Classes, Objects, and Constructors - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Create classes with data members, member functions, constructors, destructors, this pointer, and static members.">
+    <meta name="keywords" content="oop - classes, objects, and constructors, c++ tutorial, c++ oop - classes, objects, and constructors, learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects">
+    <meta property="og:title" content="OOP - Classes, Objects, and Constructors - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Create classes with data members, member functions, constructors, destructors, this pointer, and static members.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects">
+    <meta name="twitter:title" content="OOP - Classes, Objects, and Constructors - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Create classes with data members, member functions, constructors, destructors, this pointer, and static members.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "OOP - Classes, Objects, and Constructors",
+    "description": "Create classes with data members, member functions, constructors, destructors, this pointer, and static members.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "OOP - Classes, Objects, and Constructors",
+        "item": "https://learn.modernagecoders.com/resources/cpp/oop-classes-and-objects"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting to Define Static Members Outside the Class",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A static member declared inside a class is only a declaration. You must define it outside the class (typically in the .cpp file) with <code>int Counter::count = 0;</code>. Without this, the linker cannot find the actual storage for the variable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Parentheses for Default Construction (Most Vexing Parse)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This is the \"most vexing parse\" in C++. <code>Widget w();</code> is parsed as a function declaration, not an object creation. Use <code>Widget w;</code> or <code>Widget w{};</code> for default construction."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Using Initializer List for const Members",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A <code>const</code> member cannot be assigned -- it must be initialized. The initializer list (<code>: maxSize(size)</code>) initializes the member directly during construction. The same applies to reference members."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Calling Non-const Method on a const Object",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A <code>const</code> object can only call <code>const</code> member functions. If <code>getCount()</code> does not modify any member, mark it <code>const</code>. As a rule, all member functions that do not modify the object should be const."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Shallow Copy with Pointers (Missing Deep Copy Constructor)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The compiler-generated copy constructor does a shallow copy (copies the pointer value). Both objects then point to the same heap memory. When either is destroyed, the other has a dangling pointer. Write a deep copy constructor that allocates new memory and copies the contents."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">OOP - Classes, Objects, and Constructors</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 13</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">40 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">OOP - Classes, Objects, and Constructors</h1>
+            <a href="/resources/cpp/oop-classes-and-objects/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Classes and Objects in C++?</h2><p><strong>Object-Oriented Programming (OOP)</strong> is a programming paradigm built around four pillars: <strong>Encapsulation</strong>, <strong>Abstraction</strong>, <strong>Inheritance</strong>, and <strong>Polymorphism</strong>. C++ was one of the first languages to bring OOP to systems programming.</p><p>A <strong>class</strong> is a user-defined data type that bundles data (member variables) and functions (member functions or methods) that operate on that data. Think of a class as a blueprint -- it defines what an object will look like and what it can do.</p><p>An <strong>object</strong> is an instance of a class. If <code>Student</code> is a class (blueprint), then <code>rahul</code> and <code>priya</code> are objects (actual students created from that blueprint).</p><h3>Creating a Class</h3><pre><code>class Student {
+public:
+    string name;       // data member
+    int rollNo;        // data member
+
+    void display() {   // member function
+        cout << name << " - " << rollNo << endl;
+    }
+};</code></pre><h3>Creating Objects</h3><pre><code>Student s1;              // create an object
+s1.name = "Rahul";       // access member with dot operator
+s1.rollNo = 101;
+s1.display();            // call member function</code></pre><h3>class vs struct in C++</h3><p>In C++, <code>class</code> and <code>struct</code> are almost identical. The only difference is the <strong>default access specifier</strong>: members of a <code>class</code> are <code>private</code> by default, while members of a <code>struct</code> are <code>public</code> by default. In practice, <code>struct</code> is typically used for simple data holders, and <code>class</code> for objects with behavior.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Classes and Objects Important?</h2><h3>1. Organize Complex Code</h3><p>Without OOP, a large program is a collection of functions and global variables. With classes, related data and behavior are bundled together. A <code>BankAccount</code> class keeps <code>balance</code>, <code>deposit()</code>, and <code>withdraw()</code> in one place instead of scattered across the codebase.</p><h3>2. Data Protection</h3><p>Access specifiers (<code>private</code>, <code>public</code>, <code>protected</code>) control who can access what. You can hide internal implementation details and expose only a clean interface. This prevents accidental corruption of data and makes code easier to maintain.</p><h3>3. Constructors Ensure Valid State</h3><p>A constructor runs automatically when an object is created, ensuring that every object starts in a valid state. Without constructors, programmers must remember to call an initialization function manually -- a common source of bugs.</p><h3>4. Destructors Prevent Resource Leaks</h3><p>A destructor runs automatically when an object is destroyed, cleaning up resources (memory, files, network connections). Combined with RAII, this makes C++ resource management both safe and automatic.</p><h3>5. Interview and Placement Essential</h3><p>Constructor and destructor call order, copy constructors, the this pointer, and static members are among the most frequently asked topics in C++ interviews. Companies like Microsoft, Amazon, and Goldman Sachs test these extensively in campus placements.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Access Specifiers</h3><p>C++ provides three access specifiers:</p><p><strong>public:</strong> Members accessible from anywhere (inside and outside the class).</p><p><strong>private:</strong> Members accessible only inside the class. This is the default for <code>class</code>.</p><p><strong>protected:</strong> Members accessible inside the class and in derived classes (inheritance). Covered in detail in the encapsulation chapter.</p><pre><code>class Account {
+private:
+    double balance;      // only accessible inside the class
+public:
+    void deposit(double amount) {
+        balance += amount;   // OK: accessing private member inside the class
+    }
+    double getBalance() {
+        return balance;
+    }
+};
+
+Account acc;
+// acc.balance = 1000;  // ERROR: balance is private
+acc.deposit(1000);       // OK: deposit is public</code></pre><h3>2. Constructors</h3><p>A constructor is a special member function that is called automatically when an object is created. It has the same name as the class and no return type.</p><p><strong>Default Constructor:</strong> Takes no arguments. If you do not write any constructor, the compiler generates one (but it does nothing for primitive types).</p><pre><code>class Point {
+public:
+    int x, y;
+    Point() {          // default constructor
+        x = 0;
+        y = 0;
+    }
+};</code></pre><p><strong>Parameterized Constructor:</strong> Takes arguments to initialize the object.</p><pre><code>class Point {
+public:
+    int x, y;
+    Point(int x, int y) {
+        this->x = x;
+        this->y = y;
+    }
+};
+Point p(3, 4);  // calls parameterized constructor</code></pre><p><strong>Copy Constructor:</strong> Takes a reference to an object of the same class and creates a copy. If not written, the compiler generates a shallow copy constructor.</p><pre><code>class Point {
+public:
+    int x, y;
+    Point(const Point& other) {   // copy constructor
+        x = other.x;
+        y = other.y;
+    }
+};
+Point p1(3, 4);
+Point p2(p1);    // copy constructor called
+Point p3 = p1;   // also calls copy constructor</code></pre><p><strong>Constructor Overloading:</strong> A class can have multiple constructors with different parameter lists.</p><pre><code>class Rectangle {
+public:
+    int width, height;
+    Rectangle() : width(0), height(0) {}
+    Rectangle(int side) : width(side), height(side) {}  // square
+    Rectangle(int w, int h) : width(w), height(h) {}
+};</code></pre><h3>3. Initializer List</h3><p>An initializer list initializes member variables directly, rather than assigning them inside the constructor body. It is placed after the constructor parameter list, prefixed with a colon.</p><pre><code>class Student {
+    string name;
+    int rollNo;
+    const int batchYear;  // const must be initialized via initializer list
+public:
+    Student(string n, int r, int y) : name(n), rollNo(r), batchYear(y) {}
+};</code></pre><p>Initializer lists are <strong>required</strong> for: const members, reference members, and base class constructors. They are also more efficient because they initialize directly rather than default-constructing and then assigning.</p><h3>4. Destructors</h3><p>A destructor is called automatically when an object is destroyed (goes out of scope or is deleted). It has the same name as the class with a tilde (~) prefix and no parameters.</p><pre><code>class FileHandler {
+    FILE* file;
+public:
+    FileHandler(const char* name) {
+        file = fopen(name, "r");
+        cout << "File opened" << endl;
+    }
+    ~FileHandler() {
+        if (file) fclose(file);
+        cout << "File closed" << endl;
+    }
+};</code></pre><p>Destructors are called in the <strong>reverse order</strong> of construction. If objects A, B, C are created in that order, their destructors run in order C, B, A.</p><h3>5. The this Pointer</h3><p><code>this</code> is a pointer to the current object. It is available in all non-static member functions. Common uses:</p><p>1. Disambiguate member variables from parameters with the same name.</p><p>2. Return the current object from a method (for chaining).</p><p>3. Pass the current object to another function.</p><pre><code>class Counter {
+    int count;
+public:
+    Counter(int count) {
+        this->count = count;   // this->count is the member, count is the parameter
+    }
+    Counter& increment() {
+        this->count++;
+        return *this;          // return the current object for chaining
+    }
+};
+
+Counter c(0);
+c.increment().increment().increment();  // chaining: count = 3</code></pre><h3>6. Static Members</h3><p><strong>Static variables</strong> are shared across all objects of a class. There is only one copy, regardless of how many objects exist. They are declared with the <code>static</code> keyword inside the class and must be defined outside.</p><p><strong>Static functions</strong> can only access static members. They do not have a <code>this</code> pointer because they are not tied to any object.</p><pre><code>class Student {
+    static int count;    // shared across all objects
+public:
+    string name;
+    Student(string n) : name(n) { count++; }
+    ~Student() { count--; }
+    static int getCount() { return count; }  // static function
+};
+int Student::count = 0;   // definition outside class
+
+Student s1("Rahul"), s2("Priya");
+cout << Student::getCount();  // 2 (called on the class, not an object)</code></pre><h3>7. const Member Functions</h3><p>A <code>const</code> member function promises not to modify any member variable. It is declared by placing <code>const</code> after the parameter list.</p><pre><code>class Circle {
+    double radius;
+public:
+    Circle(double r) : radius(r) {}
+    double area() const {          // const: does not modify any member
+        // radius = 10;             // ERROR: cannot modify in const function
+        return 3.14159 * radius * radius;
+    }
+};
+
+const Circle c(5);
+cout << c.area();   // OK: area() is const</code></pre><p>A <code>const</code> object can only call <code>const</code> member functions.</p><h3>8. sizeof with Classes</h3><p>The size of a class object depends on its data members (not member functions). The compiler may add <strong>padding</strong> bytes for alignment.</p><pre><code>class A {
+    char c;    // 1 byte
+    int i;     // 4 bytes
+    char d;    // 1 byte
+};
+// sizeof(A) is typically 12 (not 6) due to padding
+
+class B {
+    int i;     // 4 bytes
+    char c;    // 1 byte
+    char d;    // 1 byte
+};
+// sizeof(B) is typically 8 (better packing)</code></pre><p>An empty class has <code>sizeof</code> 1 (not 0) to ensure distinct addresses for different objects.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Creating a Class with Data Members and Member Functions</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int rollNo;
+    double marks;
+
+    void display() {
+        cout &lt;&lt; &quot;Name: &quot; &lt;&lt; name &lt;&lt; endl;
+        cout &lt;&lt; &quot;Roll No: &quot; &lt;&lt; rollNo &lt;&lt; endl;
+        cout &lt;&lt; &quot;Marks: &quot; &lt;&lt; marks &lt;&lt; endl;
+    }
+
+    bool isPassing() {
+        return marks &gt;= 40.0;
+    }
+};
+
+int main() {
+    Student s1;
+    s1.name = &quot;Rahul&quot;;
+    s1.rollNo = 101;
+    s1.marks = 87.5;
+    s1.display();
+    cout &lt;&lt; &quot;Passing: &quot; &lt;&lt; (s1.isPassing() ? &quot;Yes&quot; : &quot;No&quot;) &lt;&lt; endl;
+
+    Student s2;
+    s2.name = &quot;Deepa&quot;;
+    s2.rollNo = 102;
+    s2.marks = 35.0;
+    s2.display();
+    cout &lt;&lt; &quot;Passing: &quot; &lt;&lt; (s2.isPassing() ? &quot;Yes&quot; : &quot;No&quot;) &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">The <code>Student</code> class bundles three data members and two member functions. Each object (<code>s1</code>, <code>s2</code>) has its own copy of the data members. Member functions are shared -- the same code operates on different objects' data.</div><div class="code-example-output">Name: Rahul
+Roll No: 101
+Marks: 87.5
+Passing: Yes
+Name: Deepa
+Roll No: 102
+Marks: 35
+Passing: No</div></div>
+<div class="code-example"><div class="code-example-title">Constructors -- Default, Parameterized, and Overloading</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Rectangle {
+    int width, height;
+public:
+    Rectangle() : width(0), height(0) {
+        cout &lt;&lt; &quot;Default constructor&quot; &lt;&lt; endl;
+    }
+    Rectangle(int side) : width(side), height(side) {
+        cout &lt;&lt; &quot;Square constructor: &quot; &lt;&lt; side &lt;&lt; endl;
+    }
+    Rectangle(int w, int h) : width(w), height(h) {
+        cout &lt;&lt; &quot;Rectangle constructor: &quot; &lt;&lt; w &lt;&lt; &quot;x&quot; &lt;&lt; h &lt;&lt; endl;
+    }
+    int area() const { return width * height; }
+    void display() const {
+        cout &lt;&lt; width &lt;&lt; &quot; x &quot; &lt;&lt; height &lt;&lt; &quot; = &quot; &lt;&lt; area() &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Rectangle r1;         // default
+    Rectangle r2(5);      // square
+    Rectangle r3(4, 6);   // rectangle
+
+    r1.display();
+    r2.display();
+    r3.display();
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Three constructors handle different initialization scenarios. The compiler selects the correct constructor based on the number and types of arguments. The initializer list (<code>: width(w), height(h)</code>) initializes members directly without first default-constructing them.</div><div class="code-example-output">Default constructor
+Square constructor: 5
+Rectangle constructor: 4x6
+0 x 0 = 0
+5 x 5 = 25
+4 x 6 = 24</div></div>
+<div class="code-example"><div class="code-example-title">Copy Constructor and Destructor Call Order</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Box {
+    string label;
+public:
+    Box(string l) : label(l) {
+        cout &lt;&lt; &quot;Constructor: &quot; &lt;&lt; label &lt;&lt; endl;
+    }
+    Box(const Box&amp; other) : label(other.label + &quot;_copy&quot;) {
+        cout &lt;&lt; &quot;Copy constructor: &quot; &lt;&lt; label &lt;&lt; endl;
+    }
+    ~Box() {
+        cout &lt;&lt; &quot;Destructor: &quot; &lt;&lt; label &lt;&lt; endl;
+    }
+    string getLabel() const { return label; }
+};
+
+int main() {
+    Box b1(&quot;Alpha&quot;);
+    Box b2(&quot;Beta&quot;);
+    Box b3 = b1;       // copy constructor
+    Box b4(b2);        // copy constructor
+
+    cout &lt;&lt; &quot;\n--- Objects created ---&quot; &lt;&lt; endl;
+    cout &lt;&lt; b3.getLabel() &lt;&lt; endl;
+    cout &lt;&lt; b4.getLabel() &lt;&lt; endl;
+    cout &lt;&lt; &quot;--- End of main ---\n&quot; &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">The copy constructor creates a new object from an existing one. Both <code>Box b3 = b1</code> and <code>Box b4(b2)</code> invoke the copy constructor. Destructors run in reverse order of construction: b4 is destroyed first, then b3, b2, and finally b1. This LIFO order is guaranteed by the C++ standard.</div><div class="code-example-output">Constructor: Alpha
+Constructor: Beta
+Copy constructor: Alpha_copy
+Copy constructor: Beta_copy
+
+--- Objects created ---
+Alpha_copy
+Beta_copy
+--- End of main ---
+
+Destructor: Beta_copy
+Destructor: Alpha_copy
+Destructor: Beta
+Destructor: Alpha</div></div>
+<div class="code-example"><div class="code-example-title">The this Pointer and Method Chaining</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Builder {
+    string result;
+public:
+    Builder() : result(&quot;&quot;) {}
+
+    Builder&amp; add(const string&amp; text) {
+        this-&gt;result += text;
+        return *this;          // return reference to current object
+    }
+
+    Builder&amp; addLine(const string&amp; text) {
+        this-&gt;result += text + &quot;\n&quot;;
+        return *this;
+    }
+
+    void print() const {
+        cout &lt;&lt; result;
+    }
+};
+
+int main() {
+    Builder b;
+    b.addLine(&quot;Name: Kavitha&quot;)
+     .addLine(&quot;Roll: 201&quot;)
+     .add(&quot;Branch: CSE&quot;);
+
+    b.print();
+    return 0;
+}</code></pre><div class="code-example-explanation">Each method returns <code>*this</code> (a reference to the current object), enabling method chaining. <code>this</code> is a pointer to the object on which the method is called. <code>*this</code> dereferences it to get the object itself. This pattern is used in builder APIs, stream operators, and fluent interfaces.</div><div class="code-example-output">Name: Kavitha
+Roll: 201
+Branch: CSE</div></div>
+<div class="code-example"><div class="code-example-title">Static Members -- Shared Across All Objects</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Employee {
+    static int nextId;
+    int id;
+    string name;
+public:
+    Employee(string n) : name(n), id(nextId++) {
+        cout &lt;&lt; &quot;Created: &quot; &lt;&lt; name &lt;&lt; &quot; (ID: &quot; &lt;&lt; id &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    }
+    ~Employee() {
+        cout &lt;&lt; &quot;Destroyed: &quot; &lt;&lt; name &lt;&lt; &quot; (ID: &quot; &lt;&lt; id &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    }
+    static int getNextId() { return nextId; }
+    void display() const {
+        cout &lt;&lt; &quot;  &quot; &lt;&lt; id &lt;&lt; &quot;: &quot; &lt;&lt; name &lt;&lt; endl;
+    }
+};
+int Employee::nextId = 1;  // static member definition
+
+int main() {
+    Employee e1(&quot;Arun&quot;);
+    Employee e2(&quot;Sneha&quot;);
+    Employee e3(&quot;Vikram&quot;);
+
+    cout &lt;&lt; &quot;\nAll employees:&quot; &lt;&lt; endl;
+    e1.display();
+    e2.display();
+    e3.display();
+
+    cout &lt;&lt; &quot;\nNext ID will be: &quot; &lt;&lt; Employee::getNextId() &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>nextId</code> is a static member shared by all Employee objects. Each constructor increments it, so every employee gets a unique ID. The static function <code>getNextId()</code> is called on the class itself (<code>Employee::getNextId()</code>), not on an object. Static members must be defined outside the class.</div><div class="code-example-output">Created: Arun (ID: 1)
+Created: Sneha (ID: 2)
+Created: Vikram (ID: 3)
+
+All employees:
+  1: Arun
+  2: Sneha
+  3: Vikram
+
+Next ID will be: 4
+
+Destroyed: Vikram (ID: 3)
+Destroyed: Sneha (ID: 2)
+Destroyed: Arun (ID: 1)</div></div>
+<div class="code-example"><div class="code-example-title">const Member Functions and sizeof with Padding</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Circle {
+    double radius;
+public:
+    Circle(double r) : radius(r) {}
+    double area() const {
+        return 3.14159 * radius * radius;
+    }
+    double circumference() const {
+        return 2 * 3.14159 * radius;
+    }
+    // Non-const function can modify members
+    void scale(double factor) {
+        radius *= factor;
+    }
+};
+
+class PaddingDemo {
+    char a;    // 1 byte
+    int b;     // 4 bytes
+    char c;    // 1 byte
+};
+
+class NoPaddingDemo {
+    int b;     // 4 bytes
+    char a;    // 1 byte
+    char c;    // 1 byte
+};
+
+class Empty {};
+
+int main() {
+    const Circle c1(5.0);
+    cout &lt;&lt; &quot;Area: &quot; &lt;&lt; c1.area() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Circumference: &quot; &lt;&lt; c1.circumference() &lt;&lt; endl;
+    // c1.scale(2.0);  // ERROR: c1 is const, scale() is not const
+
+    Circle c2(3.0);
+    c2.scale(2.0);     // OK: c2 is not const
+    cout &lt;&lt; &quot;Scaled area: &quot; &lt;&lt; c2.area() &lt;&lt; endl;
+
+    cout &lt;&lt; &quot;\nsizeof(PaddingDemo): &quot; &lt;&lt; sizeof(PaddingDemo) &lt;&lt; endl;
+    cout &lt;&lt; &quot;sizeof(NoPaddingDemo): &quot; &lt;&lt; sizeof(NoPaddingDemo) &lt;&lt; endl;
+    cout &lt;&lt; &quot;sizeof(Empty): &quot; &lt;&lt; sizeof(Empty) &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">A <code>const</code> object (<code>c1</code>) can only call <code>const</code> member functions. <code>area()</code> and <code>circumference()</code> are const, so they work. <code>scale()</code> is non-const, so calling it on c1 would be a compile error. For sizeof, the compiler adds padding bytes for alignment: PaddingDemo has 3 bytes of padding (total 12), while NoPaddingDemo packs better (total 8). An empty class has size 1.</div><div class="code-example-output">Area: 78.5397
+Circumference: 31.4159
+Scaled area: 113.097
+
+sizeof(PaddingDemo): 12
+sizeof(NoPaddingDemo): 8
+sizeof(Empty): 1</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting to Define Static Members Outside the Class</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Counter {
+    static int count;  // declaration only
+public:
+    Counter() { count++; }
+};
+
+// Missing: int Counter::count = 0;
+
+Counter c;  // LINKER ERROR</code></pre></div><div class="error-message">undefined reference to &#39;Counter::count&#39;</div><div class="correct-code"><pre><code class="language-python">class Counter {
+    static int count;
+public:
+    Counter() { count++; }
+};
+int Counter::count = 0;  // definition outside the class
+
+Counter c;  // OK</code></pre></div><div class="mistake-explanation">A static member declared inside a class is only a declaration. You must define it outside the class (typically in the .cpp file) with <code>int Counter::count = 0;</code>. Without this, the linker cannot find the actual storage for the variable.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Parentheses for Default Construction (Most Vexing Parse)</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Widget {
+public:
+    Widget() { cout &lt;&lt; &quot;Created&quot; &lt;&lt; endl; }
+};
+
+Widget w();  // This is NOT an object declaration!</code></pre></div><div class="error-message">No error, but w is treated as a function declaration (returns Widget, takes no arguments). The constructor is never called.</div><div class="correct-code"><pre><code class="language-python">Widget w;      // C++ default construction (no parentheses)
+Widget w2{};   // C++11 brace initialization
+// Both create a Widget object and call the default constructor</code></pre></div><div class="mistake-explanation">This is the "most vexing parse" in C++. <code>Widget w();</code> is parsed as a function declaration, not an object creation. Use <code>Widget w;</code> or <code>Widget w{};</code> for default construction.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Using Initializer List for const Members</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Config {
+    const int maxSize;
+public:
+    Config(int size) {
+        maxSize = size;  // ERROR: cannot assign to const member
+    }
+};</code></pre></div><div class="error-message">error: assignment of read-only member &#39;Config::maxSize&#39;</div><div class="correct-code"><pre><code class="language-python">class Config {
+    const int maxSize;
+public:
+    Config(int size) : maxSize(size) {}  // initializer list
+};</code></pre></div><div class="mistake-explanation">A <code>const</code> member cannot be assigned -- it must be initialized. The initializer list (<code>: maxSize(size)</code>) initializes the member directly during construction. The same applies to reference members.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Calling Non-const Method on a const Object</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Counter {
+    int count;
+public:
+    Counter() : count(0) {}
+    void increment() { count++; }
+    int getCount() { return count; }  // not const!
+};
+
+const Counter c;
+cout &lt;&lt; c.getCount();  // ERROR</code></pre></div><div class="error-message">error: passing &#39;const Counter&#39; as &#39;this&#39; argument discards qualifiers</div><div class="correct-code"><pre><code class="language-python">class Counter {
+    int count;
+public:
+    Counter() : count(0) {}
+    void increment() { count++; }
+    int getCount() const { return count; }  // now const
+};
+
+const Counter c;
+cout &lt;&lt; c.getCount();  // OK</code></pre></div><div class="mistake-explanation">A <code>const</code> object can only call <code>const</code> member functions. If <code>getCount()</code> does not modify any member, mark it <code>const</code>. As a rule, all member functions that do not modify the object should be const.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Shallow Copy with Pointers (Missing Deep Copy Constructor)</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Array {
+    int* data;
+    int size;
+public:
+    Array(int n) : size(n), data(new int[n]()) {}
+    ~Array() { delete[] data; }
+};
+
+Array a(5);
+Array b = a;  // shallow copy: b.data = a.data (same address!)
+// When b is destroyed, it frees data.
+// When a is destroyed, it tries to free the same data: DOUBLE FREE!</code></pre></div><div class="error-message">Double-free or heap corruption at runtime. Both objects&#39; destructors free the same memory.</div><div class="correct-code"><pre><code class="language-python">class Array {
+    int* data;
+    int size;
+public:
+    Array(int n) : size(n), data(new int[n]()) {}
+    Array(const Array&amp; other) : size(other.size), data(new int[other.size]) {
+        for (int i = 0; i &lt; size; i++) data[i] = other.data[i];  // deep copy
+    }
+    ~Array() { delete[] data; }
+};</code></pre></div><div class="mistake-explanation">The compiler-generated copy constructor does a shallow copy (copies the pointer value). Both objects then point to the same heap memory. When either is destroyed, the other has a dangling pointer. Write a deep copy constructor that allocates new memory and copies the contents.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>A class bundles data members and member functions into a single unit. An object is an instance of a class.</li>
+<li>In C++, class members are private by default; struct members are public by default. This is the only difference between class and struct.</li>
+<li>Constructors are called automatically when an object is created. Types: default (no args), parameterized (with args), copy (from another object).</li>
+<li>Constructor overloading allows multiple constructors with different parameter lists. The compiler selects the right one based on the arguments.</li>
+<li>Initializer lists (: member(value)) initialize members directly. Required for const members, reference members, and base class constructors.</li>
+<li>Destructors (~ClassName) are called automatically when objects go out of scope or are deleted. They run in reverse order of construction.</li>
+<li>The this pointer is an implicit pointer to the current object in non-static member functions. Use it to disambiguate names and enable method chaining.</li>
+<li>Static members are shared across all objects. Static functions can only access static members and have no this pointer.</li>
+<li>const member functions promise not to modify any member. A const object can only call const member functions.</li>
+<li>sizeof a class depends on data members and padding. Member functions do not contribute to size. An empty class has sizeof 1.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/dynamic-memory-allocation" class="related-topic-link">Dynamic Memory Allocation (new, delete)</a>
+<a href="/resources/cpp/encapsulation-and-access-specifiers" class="related-topic-link">Encapsulation, Access Specifiers, and Friend Functions</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/dynamic-memory-allocation" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Dynamic Memory Allocation (new, delete)</span>
+        </a>
+            <a href="/resources/cpp/encapsulation-and-access-specifiers" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Encapsulation, Access Specifiers, and Friend Functions</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/oop-classes-and-objects/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

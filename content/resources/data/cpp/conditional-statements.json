@@ -1,0 +1,684 @@
+{
+  "title": "Conditional Statements (if, else, switch)",
+  "slug": "conditional-statements",
+  "language": "cpp",
+  "chapter": 6,
+  "difficulty": "Beginner",
+  "readingTime": "25 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 57,
+  "seo": {
+    "title": "Conditional Statements in C++ - if, else, switch with Examples | Modern Age Coders",
+    "description": "Master C++ conditional statements including if, if-else, nested if, ternary operator, and switch-case. Includes 57 practice questions with output prediction, MCQs, and coding challenges for placement preparation.",
+    "keywords": "c++ if else, c++ switch case, c++ ternary operator, c++ conditional statements, c++ nested if, c++ dangling else, c++ decision making, c++ interview questions conditionals"
+  },
+  "content": {
+    "what": "<h2>What Are Conditional Statements?</h2><p>A <strong>conditional statement</strong> allows your program to make decisions. Instead of executing every line from top to bottom, the program evaluates a condition (a boolean expression) and chooses which block of code to execute based on whether the condition is true or false.</p><p>Without conditionals, every program would be a straight line of instructions with no decision-making ability. You could not check if a user's password is correct, determine if a number is even or odd, or handle edge cases in an algorithm. Conditional statements are one of the three fundamental control flow structures alongside sequences and loops.</p><p>C++ provides the following conditional constructs:</p><ol><li><strong>if</strong> -- execute a block only when a condition is true</li><li><strong>if-else</strong> -- choose between two blocks based on a condition</li><li><strong>if-else if-else</strong> -- chain multiple conditions, executing the first true branch</li><li><strong>Nested if</strong> -- an if statement inside another if statement</li><li><strong>Ternary operator (?:)</strong> -- a compact one-line conditional expression</li><li><strong>switch-case</strong> -- select one of many code blocks based on the value of a variable</li></ol>",
+    "why": "<h2>Why Are Conditional Statements Essential?</h2><h3>1. Decision-Making is Fundamental</h3><p>Every non-trivial program must make decisions. Is the user authenticated? Is the input valid? Is the array index within bounds? Did the function succeed or fail? All of these require conditional logic. Without conditionals, you cannot build anything beyond a simple calculator that runs the same computation every time.</p><h3>2. Input Validation and Error Handling</h3><p>Before processing user input, you must validate it. Is the number positive? Is the denominator non-zero? Is the string non-empty? Conditionals let you catch invalid input before it causes a crash or produces garbage output. In competitive programming, edge cases often determine whether your solution gets Accepted or Wrong Answer.</p><h3>3. Algorithm Control Flow</h3><p>Almost every algorithm relies on conditionals. Binary search decides whether to go left or right. Sorting algorithms compare elements and swap conditionally. Graph algorithms check if a node has been visited. Without conditionals, you cannot implement any meaningful algorithm.</p><h3>4. Competitive Programming and Interviews</h3><p>Writing clean conditional logic is a basic expectation in coding interviews. Problems frequently require handling multiple cases efficiently. Understanding short-circuit evaluation, the ternary operator for compact expressions, and switch-case for multi-way branching helps you write faster, cleaner code under time pressure.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The if Statement</h3><p>The simplest conditional. If the condition evaluates to true (non-zero), the body executes. If false (zero), the body is skipped entirely.</p><pre><code>if (condition) {\n    // executes only when condition is true\n}</code></pre><pre><code>int age = 20;\nif (age >= 18) {\n    cout << \"You are eligible to vote.\" << endl;\n}</code></pre><p>In C++, any non-zero value is truthy. So <code>if (5)</code> is true, <code>if (-1)</code> is true, and <code>if (0)</code> is false. This is different from languages like Java where only boolean expressions are allowed in conditions.</p><h3>2. The if-else Statement</h3><p>When you need to choose between two alternatives:</p><pre><code>if (condition) {\n    // executes when condition is true\n} else {\n    // executes when condition is false\n}</code></pre><pre><code>int num = 7;\nif (num % 2 == 0) {\n    cout << num << \" is even\" << endl;\n} else {\n    cout << num << \" is odd\" << endl;\n}</code></pre><p>Exactly one of the two blocks will always execute. There is no scenario where both or neither runs.</p><h3>3. The if-else if-else Ladder</h3><p>When you have more than two mutually exclusive conditions, chain them with else if:</p><pre><code>if (marks >= 90) {\n    cout << \"Grade A\" << endl;\n} else if (marks >= 80) {\n    cout << \"Grade B\" << endl;\n} else if (marks >= 70) {\n    cout << \"Grade C\" << endl;\n} else if (marks >= 60) {\n    cout << \"Grade D\" << endl;\n} else {\n    cout << \"Grade F\" << endl;\n}</code></pre><p>The conditions are evaluated top to bottom. The first true condition's block executes, and the rest are skipped. If none is true, the else block runs. Order matters: if you check <code>marks >= 60</code> first, a student with 95 marks would get Grade D.</p><h3>4. Nested if Statements</h3><p>An if inside another if is called nested if. Use it when a decision depends on a previous decision:</p><pre><code>if (age >= 18) {\n    if (hasVoterID) {\n        cout << \"You can vote.\" << endl;\n    } else {\n        cout << \"Get a voter ID first.\" << endl;\n    }\n} else {\n    cout << \"You are underage.\" << endl;\n}</code></pre><p>Excessive nesting (more than 2-3 levels) makes code hard to read. Refactor using logical operators (<code>&&</code>, <code>||</code>) or early returns when possible.</p><h3>5. The Dangling Else Problem</h3><p>Consider this code without braces:</p><pre><code>if (a > 0)\n    if (b > 0)\n        cout << \"both positive\";\nelse\n    cout << \"a is not positive\";</code></pre><p>The indentation suggests the else belongs to the outer if, but C++ associates else with the <strong>nearest unmatched if</strong>. So the else actually belongs to <code>if (b > 0)</code>. The output \"a is not positive\" prints when a > 0 but b <= 0, not when a <= 0. This is the dangling else problem. Always use braces to make your intent explicit.</p><h3>6. The Ternary Operator (?:)</h3><p>A compact alternative to if-else for simple assignments or expressions:</p><pre><code>variable = (condition) ? value_if_true : value_if_false;</code></pre><pre><code>int a = 10, b = 20;\nint maxVal = (a > b) ? a : b;  // maxVal = 20</code></pre><p>The ternary operator is an <strong>expression</strong> (it produces a value), not a statement. You can use it inside cout, function arguments, or assignments. It is heavily used in competitive programming for compact code.</p><h4>Finding Min/Max Without Library</h4><pre><code>int minVal = (a < b) ? a : b;\nint maxVal = (a > b) ? a : b;\n// Equivalent to min(a, b) and max(a, b) from &lt;algorithm&gt;</code></pre><h3>7. The switch-case Statement</h3><p>When you need to compare a variable against multiple constant values, switch-case is cleaner than a long if-else if chain:</p><pre><code>switch (expression) {\n    case value1:\n        // code\n        break;\n    case value2:\n        // code\n        break;\n    default:\n        // code when no case matches\n}</code></pre><p>Key rules:</p><ul><li>The expression must evaluate to an <strong>integer or character</strong> type (int, char, enum). Strings and floating-point numbers are not allowed.</li><li>Each case value must be a <strong>compile-time constant</strong> (literal or const/constexpr variable).</li><li><strong>break</strong> exits the switch block. Without break, execution falls through to the next case.</li><li><strong>default</strong> is optional and handles unmatched values.</li></ul><h4>Fall-Through Behavior</h4><pre><code>int day = 2;\nswitch (day) {\n    case 1:\n        cout << \"Monday\" << endl;\n    case 2:\n        cout << \"Tuesday\" << endl;\n    case 3:\n        cout << \"Wednesday\" << endl;\n        break;\n    case 4:\n        cout << \"Thursday\" << endl;\n        break;\n}\n// Output: Tuesday\\nWednesday</code></pre><p>Since case 2 has no break, execution falls through to case 3 and prints both Tuesday and Wednesday. Fall-through is sometimes intentional (grouping cases) but usually a bug.</p><h4>Switch with char</h4><pre><code>char grade = 'B';\nswitch (grade) {\n    case 'A': cout << \"Excellent\"; break;\n    case 'B': cout << \"Good\"; break;\n    case 'C': cout << \"Average\"; break;\n    default: cout << \"Invalid grade\";\n}</code></pre><h3>8. Comparing with == vs =</h3><p>A classic C++ pitfall: using <code>=</code> (assignment) instead of <code>==</code> (comparison) in a condition:</p><pre><code>int x = 5;\nif (x = 10) {  // BUG: assigns 10 to x, then checks if 10 is non-zero (true)\n    cout << \"This always executes\" << endl;\n}</code></pre><p>After this, x is 10 (not 5), and the if body always runs because 10 is truthy. Modern compilers warn about this, but it is a frequent source of bugs. Some programmers write <code>if (10 == x)</code> (Yoda condition) to catch this -- if you accidentally write <code>=</code>, the compiler will error because you cannot assign to a literal.</p><h3>9. Conditional Expressions in Competitive Programming</h3><p>In competitive programming, compact conditional expressions save time:</p><pre><code>// Absolute value without abs()\nint absVal = (x >= 0) ? x : -x;\n\n// Clamp a value between lo and hi\nint clamped = (x < lo) ? lo : (x > hi) ? hi : x;\n\n// Sign function: returns -1, 0, or 1\nint sign = (x > 0) - (x < 0);</code></pre><p>The sign trick works because boolean expressions in C++ evaluate to 0 or 1. If x is positive, <code>(x > 0)</code> is 1 and <code>(x < 0)</code> is 0, giving 1. If x is negative, it gives 0 - 1 = -1. If x is zero, both are 0.</p>",
+    "codeExamples": [
+      {
+        "title": "if-else: Check Even or Odd",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int num;\n    cout << \"Enter a number: \";\n    cin >> num;\n\n    if (num % 2 == 0) {\n        cout << num << \" is even\" << endl;\n    } else {\n        cout << num << \" is odd\" << endl;\n    }\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The modulo operator (%) returns the remainder of division. If num % 2 equals 0, the number is divisible by 2 (even). Otherwise, it is odd. The if-else ensures exactly one message prints.",
+        "output": "Enter a number: 7\n7 is odd"
+      },
+      {
+        "title": "if-else if-else: Grade Calculator",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int marks;\n    cout << \"Enter marks (0-100): \";\n    cin >> marks;\n\n    if (marks < 0 || marks > 100) {\n        cout << \"Invalid marks\" << endl;\n    } else if (marks >= 90) {\n        cout << \"Grade: A\" << endl;\n    } else if (marks >= 80) {\n        cout << \"Grade: B\" << endl;\n    } else if (marks >= 70) {\n        cout << \"Grade: C\" << endl;\n    } else if (marks >= 60) {\n        cout << \"Grade: D\" << endl;\n    } else {\n        cout << \"Grade: F\" << endl;\n    }\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The conditions are checked top to bottom. Input validation (marks < 0 or > 100) is handled first. Then the grade boundaries are checked in descending order. If marks is 85, it fails the >= 90 check but passes >= 80, so Grade B prints. The remaining conditions are skipped.",
+        "output": "Enter marks (0-100): 85\nGrade: B"
+      },
+      {
+        "title": "Nested if: Largest of Three Numbers",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int a, b, c;\n    cout << \"Enter three numbers: \";\n    cin >> a >> b >> c;\n\n    int largest;\n    if (a >= b) {\n        if (a >= c) {\n            largest = a;\n        } else {\n            largest = c;\n        }\n    } else {\n        if (b >= c) {\n            largest = b;\n        } else {\n            largest = c;\n        }\n    }\n\n    cout << \"Largest: \" << largest << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "First, we compare a and b. If a >= b, the largest is either a or c (compare them). If b > a, the largest is either b or c. This uses nested if-else to narrow down the answer through two comparisons. An alternative approach: use the ternary operator or the max() function.",
+        "output": "Enter three numbers: 15 42 28\nLargest: 42"
+      },
+      {
+        "title": "Ternary Operator: Absolute Value and Min/Max",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int x = -7;\n    int absX = (x >= 0) ? x : -x;\n    cout << \"Absolute value of \" << x << \": \" << absX << endl;\n\n    int a = 25, b = 18;\n    int minVal = (a < b) ? a : b;\n    int maxVal = (a > b) ? a : b;\n    cout << \"Min: \" << minVal << \", Max: \" << maxVal << endl;\n\n    // Nested ternary: classify number\n    int num = 0;\n    string result = (num > 0) ? \"positive\" : (num < 0) ? \"negative\" : \"zero\";\n    cout << num << \" is \" << result << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The ternary operator evaluates the condition before the ?. If true, the expression before : is returned; if false, the expression after : is returned. Nested ternary (line with num) chains two conditions but should be used sparingly as it reduces readability.",
+        "output": "Absolute value of -7: 7\nMin: 18, Max: 25\n0 is zero"
+      },
+      {
+        "title": "switch-case: Day of the Week",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int day;\n    cout << \"Enter day number (1-7): \";\n    cin >> day;\n\n    switch (day) {\n        case 1: cout << \"Monday\" << endl; break;\n        case 2: cout << \"Tuesday\" << endl; break;\n        case 3: cout << \"Wednesday\" << endl; break;\n        case 4: cout << \"Thursday\" << endl; break;\n        case 5: cout << \"Friday\" << endl; break;\n        case 6: cout << \"Saturday\" << endl; break;\n        case 7: cout << \"Sunday\" << endl; break;\n        default: cout << \"Invalid day number\" << endl;\n    }\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The switch expression (day) is compared against each case constant. When a match is found, the corresponding code executes. The break statement prevents fall-through to the next case. If no case matches, the default block runs.",
+        "output": "Enter day number (1-7): 3\nWednesday"
+      },
+      {
+        "title": "switch-case: Fall-Through for Grouping",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int month;\n    cout << \"Enter month number (1-12): \";\n    cin >> month;\n\n    switch (month) {\n        case 1: case 3: case 5: case 7: case 8: case 10: case 12:\n            cout << \"31 days\" << endl;\n            break;\n        case 4: case 6: case 9: case 11:\n            cout << \"30 days\" << endl;\n            break;\n        case 2:\n            cout << \"28 or 29 days\" << endl;\n            break;\n        default:\n            cout << \"Invalid month\" << endl;\n    }\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Intentional fall-through groups multiple cases that share the same action. Cases 1, 3, 5, 7, 8, 10, 12 all fall through to the '31 days' output. This is cleaner than writing seven separate if conditions. The break after each group prevents further fall-through.",
+        "output": "Enter month number (1-12): 4\n30 days"
+      },
+      {
+        "title": "switch with char: Simple Calculator",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    double a, b;\n    char op;\n    cout << \"Enter expression (e.g., 10 + 5): \";\n    cin >> a >> op >> b;\n\n    switch (op) {\n        case '+':\n            cout << a << \" + \" << b << \" = \" << a + b << endl;\n            break;\n        case '-':\n            cout << a << \" - \" << b << \" = \" << a - b << endl;\n            break;\n        case '*':\n            cout << a << \" * \" << b << \" = \" << a * b << endl;\n            break;\n        case '/':\n            if (b != 0)\n                cout << a << \" / \" << b << \" = \" << a / b << endl;\n            else\n                cout << \"Error: division by zero\" << endl;\n            break;\n        default:\n            cout << \"Unknown operator: \" << op << endl;\n    }\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The switch uses a char variable (op) to determine which operation to perform. Inside the '/' case, a nested if checks for division by zero before performing the division. This demonstrates combining switch-case with if-else for edge case handling.",
+        "output": "Enter expression (e.g., 10 + 5): 10 + 5\n10 + 5 = 15"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using = Instead of == in Conditions",
+        "wrongCode": "int x = 5;\nif (x = 10) {\n    cout << \"x is 10\" << endl;\n}",
+        "error": "This assigns 10 to x instead of comparing. Since 10 is non-zero (truthy), the if body always executes. After this line, x is 10, not 5.",
+        "correctCode": "int x = 5;\nif (x == 10) {\n    cout << \"x is 10\" << endl;\n}",
+        "explanation": "<code>=</code> is assignment, <code>==</code> is comparison. This is one of the most common C++ bugs. Modern compilers issue a warning (-Wparentheses), but many beginners ignore warnings. Use compiler flags <code>-Wall -Werror</code> to catch this."
+      },
+      {
+        "title": "Missing break in switch-case",
+        "wrongCode": "int choice = 1;\nswitch (choice) {\n    case 1:\n        cout << \"One\" << endl;\n    case 2:\n        cout << \"Two\" << endl;\n    case 3:\n        cout << \"Three\" << endl;\n}\n// Output: One\\nTwo\\nThree",
+        "error": "Without break, execution falls through to subsequent cases. All three messages print when only \"One\" was intended.",
+        "correctCode": "int choice = 1;\nswitch (choice) {\n    case 1:\n        cout << \"One\" << endl;\n        break;\n    case 2:\n        cout << \"Two\" << endl;\n        break;\n    case 3:\n        cout << \"Three\" << endl;\n        break;\n}",
+        "explanation": "Each case needs an explicit <code>break;</code> to prevent fall-through. Fall-through is intentional only when you want multiple cases to share the same code (like grouping months by days)."
+      },
+      {
+        "title": "Dangling Else: else Binds to Wrong if",
+        "wrongCode": "int a = 5, b = -3;\nif (a > 0)\n    if (b > 0)\n        cout << \"both positive\" << endl;\nelse\n    cout << \"a is not positive\" << endl;\n// Prints: \"a is not positive\" (wrong!)",
+        "error": "The else binds to the inner if (b > 0), not the outer if (a > 0). So when a > 0 and b <= 0, it prints the wrong message.",
+        "correctCode": "int a = 5, b = -3;\nif (a > 0) {\n    if (b > 0) {\n        cout << \"both positive\" << endl;\n    }\n} else {\n    cout << \"a is not positive\" << endl;\n}",
+        "explanation": "In C++, else associates with the <strong>nearest unmatched if</strong>. Always use braces to make the structure explicit. This is the dangling else problem, a classic interview topic."
+      },
+      {
+        "title": "Semicolon After if Condition",
+        "wrongCode": "int x = 5;\nif (x > 10);  // Stray semicolon!\n{\n    cout << \"x is greater than 10\" << endl;\n}\n// Prints: \"x is greater than 10\" (wrong!)",
+        "error": "The semicolon acts as an empty statement, becoming the if body. The block below runs unconditionally because it is not connected to the if.",
+        "correctCode": "int x = 5;\nif (x > 10) {\n    cout << \"x is greater than 10\" << endl;\n}",
+        "explanation": "A semicolon after <code>if (condition);</code> creates an empty if body. The compiler does not error because an empty statement is valid syntax. The block below is treated as a standalone block, not part of the if."
+      },
+      {
+        "title": "Using float/double in switch",
+        "wrongCode": "double val = 1.5;\nswitch (val) {  // Compilation error!\n    case 1.0: cout << \"One\"; break;\n    case 1.5: cout << \"One and half\"; break;\n}",
+        "error": "Compilation error: switch requires an integral type. Floating-point values (float, double) are not allowed in switch expressions.",
+        "correctCode": "double val = 1.5;\nif (val == 1.0) {\n    cout << \"One\" << endl;\n} else if (val == 1.5) {\n    cout << \"One and half\" << endl;\n}",
+        "explanation": "switch only works with integral types (int, char, enum, bool). For floating-point comparisons, use if-else if chains. Note: comparing floats with == is also risky due to precision issues."
+      }
+    ],
+    "summary": [
+      "The if statement executes a block only when its condition is true (non-zero in C++). Any non-zero value is truthy, and 0 is falsy.",
+      "if-else provides two-way branching: exactly one of the two blocks always executes.",
+      "if-else if-else chains multiple conditions evaluated top to bottom. The first true branch executes, and the rest are skipped. Order matters.",
+      "Nested if places an if inside another if. Use it when a decision depends on a prior decision, but avoid deep nesting (refactor with && or early returns).",
+      "The dangling else problem: else binds to the nearest unmatched if, not based on indentation. Always use braces to avoid ambiguity.",
+      "The ternary operator (condition ? true_val : false_val) is an expression that returns a value. Use it for compact assignments and in competitive programming for inline min/max/abs.",
+      "switch-case compares an integral/char expression against constant values. Each case needs break to prevent fall-through. default handles unmatched values.",
+      "Fall-through in switch (omitting break) causes subsequent cases to execute. It is intentional for grouping cases but a bug when forgotten.",
+      "Using = (assignment) instead of == (comparison) in conditions is a common C++ bug. The assignment returns the assigned value, which is truthy if non-zero.",
+      "In competitive programming, use ternary expressions for min/max without the library, and exploit boolean-to-int conversion (true = 1, false = 0) for compact conditional logic."
+    ]
+  },
+  "relatedTopics": [
+    "input-output-and-formatting",
+    "loops-in-cpp"
+  ],
+  "practice": {
+    "totalQuestions": 57,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int x = 10;\nif (x > 5) {\n    cout << \"Yes\";\n}</code></pre>",
+        "hint": "Check if 10 > 5.",
+        "answer": "<code>Yes</code>",
+        "explanation": "10 > 5 is true, so the if body executes and prints Yes."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int a = 3, b = 7;\nif (a > b) {\n    cout << a;\n} else {\n    cout << b;\n}</code></pre>",
+        "hint": "Compare 3 and 7.",
+        "answer": "<code>7</code>",
+        "explanation": "3 > 7 is false, so the else block executes and prints 7."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int num = 0;\nif (num) {\n    cout << \"Truthy\";\n} else {\n    cout << \"Falsy\";\n}</code></pre>",
+        "hint": "In C++, what is the truthiness of 0?",
+        "answer": "<code>Falsy</code>",
+        "explanation": "In C++, 0 is falsy. The condition if (0) evaluates to false, so the else block runs."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int x = 15;\nif (x >= 10 && x <= 20) {\n    cout << \"In range\";\n} else {\n    cout << \"Out of range\";\n}</code></pre>",
+        "hint": "Check if 15 is between 10 and 20 inclusive.",
+        "answer": "<code>In range</code>",
+        "explanation": "15 >= 10 is true AND 15 <= 20 is true. Both conditions are true, so && gives true."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int a = 5, b = 10;\nint result = (a > b) ? a : b;\ncout << result;</code></pre>",
+        "hint": "Ternary: if condition is false, the value after : is used.",
+        "answer": "<code>10</code>",
+        "explanation": "5 > 10 is false, so the ternary returns the value after the colon, which is b = 10."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>char ch = 'B';\nswitch (ch) {\n    case 'A': cout << \"Alpha\"; break;\n    case 'B': cout << \"Beta\"; break;\n    case 'C': cout << \"Gamma\"; break;\n    default: cout << \"Unknown\";\n}</code></pre>",
+        "hint": "ch is 'B', find the matching case.",
+        "answer": "<code>Beta</code>",
+        "explanation": "ch matches case 'B', so \"Beta\" prints. The break prevents fall-through to case 'C'."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int x = 5;\nif (x = 0) {\n    cout << \"Zero\";\n} else {\n    cout << \"Not zero\";\n}</code></pre>",
+        "hint": "Notice the single = sign in the condition.",
+        "answer": "<code>Not zero</code>",
+        "explanation": "x = 0 is an assignment, not a comparison. It assigns 0 to x and returns 0. Since 0 is falsy, the else block runs. After this line, x is 0."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int day = 3;\nswitch (day) {\n    case 1: cout << \"Mon \";\n    case 2: cout << \"Tue \";\n    case 3: cout << \"Wed \";\n    case 4: cout << \"Thu \";\n            break;\n    case 5: cout << \"Fri \";\n}</code></pre>",
+        "hint": "No break after case 3. What happens?",
+        "answer": "<code>Wed Thu </code>",
+        "explanation": "day matches case 3, printing \"Wed \". Since there is no break, execution falls through to case 4, printing \"Thu \". The break in case 4 stops further fall-through."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int a = 10, b = 20, c = 15;\nif (a > b) {\n    if (a > c) cout << a;\n    else cout << c;\n} else {\n    if (b > c) cout << b;\n    else cout << c;\n}</code></pre>",
+        "hint": "This finds the maximum of three numbers.",
+        "answer": "<code>20</code>",
+        "explanation": "a > b (10 > 20) is false, so the else block runs. b > c (20 > 15) is true, so 20 (b) is printed."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int x = 5;\nif (x > 10);\n{\n    cout << \"Hello\";\n}</code></pre>",
+        "hint": "Notice the semicolon after the if condition.",
+        "answer": "<code>Hello</code>",
+        "explanation": "The semicolon after if (x > 10); terminates the if with an empty body. The block { cout << \"Hello\"; } is a standalone block that always executes, regardless of the condition."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int marks = 75;\nif (marks >= 90)\n    cout << \"A\";\nelse if (marks >= 80)\n    cout << \"B\";\nelse if (marks >= 70)\n    cout << \"C\";\nelse\n    cout << \"D\";</code></pre>",
+        "hint": "Check conditions top to bottom. Which is the first to be true?",
+        "answer": "<code>C</code>",
+        "explanation": "75 >= 90 is false. 75 >= 80 is false. 75 >= 70 is true. So \"C\" prints and the rest is skipped."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int x = -5;\nint abs = (x >= 0) ? x : -x;\ncout << abs;</code></pre>",
+        "hint": "x is negative. Which branch of the ternary is taken?",
+        "answer": "<code>5</code>",
+        "explanation": "-5 >= 0 is false, so the ternary returns -(-5) = 5."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int a = 1, b = 0;\nif (a > 0)\n    if (b > 0)\n        cout << \"Both positive\";\nelse\n    cout << \"Not both positive\";</code></pre>",
+        "hint": "Dangling else: which if does the else bind to?",
+        "answer": "<code>Not both positive</code>",
+        "explanation": "The else binds to the nearest unmatched if (the inner one: if (b > 0)). Since a > 0 is true, we enter the outer if. Then b > 0 is false, so the else of the inner if runs, printing \"Not both positive\"."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int x = 3;\nswitch (x) {\n    default: cout << \"D \";\n    case 1: cout << \"1 \"; break;\n    case 2: cout << \"2 \";\n    case 3: cout << \"3 \";\n}</code></pre>",
+        "hint": "default does not have to be at the end. And case 3 has no break.",
+        "answer": "<code>3 </code>",
+        "explanation": "x is 3, so case 3 matches. It prints \"3 \". There is no break, but case 3 is the last case, so the switch ends. The default is never reached because case 3 matches directly."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int x = 5;\nswitch (x) {\n    default: cout << \"D \";\n    case 1: cout << \"1 \"; break;\n    case 2: cout << \"2 \";\n}</code></pre>",
+        "hint": "No case matches x = 5. Where does execution start?",
+        "answer": "<code>D 1 </code>",
+        "explanation": "No case matches 5, so default executes, printing \"D \". There is no break after default, so it falls through to case 1, printing \"1 \". The break in case 1 stops further execution."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int a = 5, b = 3;\ncout << ((a > b) ? (a - b) : (b - a)) << endl;\ncout << ((a < b) ? (a - b) : (b - a)) << endl;</code></pre>",
+        "hint": "Evaluate each ternary condition separately.",
+        "answer": "<code>2</code><br><code>-2</code>",
+        "explanation": "First ternary: 5 > 3 is true, so a - b = 2. Second ternary: 5 < 3 is false, so b - a = 3 - 5 = -2."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "In C++, what values are considered truthy and falsy when used in an if condition?",
+        "hint": "Think about zero versus non-zero.",
+        "answer": "In C++, <code>0</code> is falsy and every <strong>non-zero</strong> value is truthy. This includes negative numbers: <code>if (-1)</code> is true. For pointers, <code>nullptr</code> (which is 0) is falsy, and any valid pointer is truthy.",
+        "explanation": "Unlike Java or Python, C++ does not have a separate boolean type for conditions. Any integral or pointer expression works in a condition. This is inherited from C and enables common patterns like if (ptr) to check for null pointers."
+      },
+      {
+        "id": "ts-18",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the dangling else problem in C++? How do you avoid it?",
+        "hint": "Think about which if an else binds to when there are no braces.",
+        "answer": "The dangling else problem occurs when an else could associate with more than one if statement. C++ resolves it by binding else to the <strong>nearest unmatched if</strong>, regardless of indentation. To avoid ambiguity, always use curly braces <code>{}</code> around if and else bodies, even for single statements.",
+        "explanation": "The compiler ignores indentation. The rule is purely syntactic: else pairs with the closest preceding if that does not already have an else. Braces make the intended pairing explicit."
+      },
+      {
+        "id": "ts-19",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why can you not use a string or a floating-point number in a switch expression in C++?",
+        "hint": "Think about how switch is implemented at the machine level.",
+        "answer": "The switch statement is typically compiled into a jump table or binary search on case values, both of which require integral (integer/char/enum) constants for efficient comparison. Floating-point numbers have precision issues (0.1 + 0.2 != 0.3), making exact comparison unreliable. Strings are objects, not integral types, and comparing them requires calling functions rather than simple integer comparison.",
+        "explanation": "The C++ standard restricts switch to integral and enumeration types. For strings, use if-else if chains or a map. For floating-point values, use if-else with tolerance-based comparison."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int x = 2;\nint y = (x > 0) - (x < 0);\ncout << y;</code></pre>",
+        "hint": "Boolean expressions evaluate to 0 or 1 in C++.",
+        "answer": "<code>1</code>",
+        "explanation": "(2 > 0) evaluates to 1 (true). (2 < 0) evaluates to 0 (false). So y = 1 - 0 = 1. This is the sign function trick: returns 1 for positive, -1 for negative, 0 for zero."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that takes an integer and prints whether it is positive, negative, or zero.",
+        "hint": "Use if-else if-else with two conditions.",
+        "answer": "<pre><code>#include <iostream>\nusing namespace std;\nint main() {\n    int n;\n    cin >> n;\n    if (n > 0) cout << \"Positive\" << endl;\n    else if (n < 0) cout << \"Negative\" << endl;\n    else cout << \"Zero\" << endl;\n    return 0;\n}</code></pre>",
+        "explanation": "Three mutually exclusive conditions: n > 0, n < 0, and n == 0 (handled by else). Exactly one message always prints."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int a = 10;\nif (a == 10)\n    cout << \"Ten \";\ncout << \"Done\";</code></pre>",
+        "hint": "Without braces, only the first statement after if is in the body.",
+        "answer": "<code>Ten Done</code>",
+        "explanation": "a == 10 is true, so \"Ten \" prints. \"Done\" is not inside the if body (no braces), so it always prints."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int x = 7;\nif (x > 5 && x < 10)\n    cout << \"Yes\";\nelse\n    cout << \"No\";</code></pre>",
+        "hint": "Is 7 greater than 5 AND less than 10?",
+        "answer": "<code>Yes</code>",
+        "explanation": "7 > 5 is true AND 7 < 10 is true. Both conditions are true, so && gives true."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int x = 5;\nif (x > 3)\n    if (x > 10)\n        cout << \"A\";\n    else\n        cout << \"B\";\nelse\n    cout << \"C\";</code></pre>",
+        "hint": "Apply the dangling else rule carefully.",
+        "answer": "<code>B</code>",
+        "explanation": "x > 3 is true, so we enter the outer if. x > 10 is false, so the else of the inner if runs, printing \"B\". The outermost else (\"C\") never executes because the outer if condition was true."
+      },
+      {
+        "id": "mx-5",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program that takes a character and checks if it is a vowel or consonant (assume lowercase English letters only).",
+        "hint": "Use switch-case with fall-through for the 5 vowels.",
+        "answer": "<pre><code>#include <iostream>\nusing namespace std;\nint main() {\n    char ch;\n    cin >> ch;\n    switch (ch) {\n        case 'a': case 'e': case 'i': case 'o': case 'u':\n            cout << ch << \" is a vowel\" << endl;\n            break;\n        default:\n            cout << ch << \" is a consonant\" << endl;\n    }\n    return 0;\n}</code></pre>",
+        "explanation": "Fall-through groups all vowel cases together. If ch matches any vowel, the vowel message prints. The default handles all consonants."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int a = 5, b = 10, c = 5;\nif (a == c)\n    cout << \"A \";\nif (a == b)\n    cout << \"B \";\nif (b != c)\n    cout << \"C \";</code></pre>",
+        "hint": "These are three separate if statements, not if-else if.",
+        "answer": "<code>A C </code>",
+        "explanation": "These are three independent if statements. a == c (5 == 5): true, prints \"A \". a == b (5 == 10): false, skipped. b != c (10 != 5): true, prints \"C \"."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int x = 10;\nif (x > 5 || x < 3) {\n    cout << \"Yes\";\n} else {\n    cout << \"No\";\n}</code></pre>",
+        "hint": "With ||, if the first condition is true, the whole expression is true.",
+        "answer": "<code>Yes</code>",
+        "explanation": "10 > 5 is true. Since || (OR) short-circuits, it does not even check x < 3. The result is true."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int a = 2, b = 3, c = 4;\nint result = (a > b) ? a : (b > c) ? b : c;\ncout << result;</code></pre>",
+        "hint": "Evaluate the outer ternary first, then the nested one.",
+        "answer": "<code>4</code>",
+        "explanation": "a > b (2 > 3) is false. So we evaluate the inner ternary: b > c (3 > 4) is false, so c (4) is returned."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int x = 0;\nswitch (x) {\n    case 0:\n        cout << \"Zero \";\n    case 1:\n        cout << \"One \";\n    default:\n        cout << \"Default \";\n}</code></pre>",
+        "hint": "No break statements anywhere. What happens after case 0 matches?",
+        "answer": "<code>Zero One Default </code>",
+        "explanation": "x matches case 0. Since there are no break statements, execution falls through all cases: prints \"Zero \", then \"One \", then \"Default \"."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that checks if a given year is a leap year.",
+        "hint": "Leap if divisible by 4, but not 100, unless also divisible by 400.",
+        "answer": "<pre><code>#include <iostream>\nusing namespace std;\nint main() {\n    int year;\n    cin >> year;\n    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))\n        cout << year << \" is a leap year\" << endl;\n    else\n        cout << year << \" is not a leap year\" << endl;\n    return 0;\n}</code></pre>",
+        "explanation": "A year is a leap year if it is divisible by 4 but not by 100, OR if it is divisible by 400. The parentheses ensure correct operator precedence."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int a = 5;\nif (a > 2)\n    cout << \"A \";\nif (a > 3)\n    cout << \"B \";\nif (a > 4)\n    cout << \"C \";\nif (a > 5)\n    cout << \"D \";</code></pre>",
+        "hint": "Each if is independent. Check all four conditions.",
+        "answer": "<code>A B C </code>",
+        "explanation": "5 > 2: true (A). 5 > 3: true (B). 5 > 4: true (C). 5 > 5: false (D skipped). Three separate ifs, not an else-if chain."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program that takes three integers and prints them in ascending order using only if-else statements (no arrays or sorting algorithms).",
+        "hint": "Compare pairs and rearrange using swaps or nested conditions.",
+        "answer": "<pre><code>#include <iostream>\nusing namespace std;\nint main() {\n    int a, b, c;\n    cin >> a >> b >> c;\n    if (a > b) { int t = a; a = b; b = t; }\n    if (b > c) { int t = b; b = c; c = t; }\n    if (a > b) { int t = a; a = b; b = t; }\n    cout << a << \" \" << b << \" \" << c << endl;\n    return 0;\n}</code></pre>",
+        "explanation": "This uses three comparisons (a simplified bubble sort for 3 elements). After the first two comparisons, c holds the largest. The third comparison ensures a <= b. This always produces sorted order."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int x = 1;\nif (x)\n    if (x - 1)\n        cout << \"A\";\n    else\n        cout << \"B\";\nelse\n    cout << \"C\";</code></pre>",
+        "hint": "x is 1 (truthy). x-1 is 0 (falsy). Apply the dangling else rule.",
+        "answer": "<code>B</code>",
+        "explanation": "x (1) is truthy, so we enter the outer if. x-1 (0) is falsy, so the inner else runs, printing \"B\". The outermost else (\"C\") does not execute because the outer condition was true."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the output of if (0) cout << \"Yes\"; else cout << \"No\";?",
+        "options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "Compilation error",
+          "D": "No output"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In C++, 0 is falsy. The condition is false, so the else block executes and prints No."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which of the following is the correct ternary operator syntax in C++?",
+        "options": {
+          "A": "condition ? true : false",
+          "B": "condition : true ? false",
+          "C": "if condition then true else false",
+          "D": "condition ?? true : false"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> The ternary syntax is <code>condition ? value_if_true : value_if_false</code>."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What happens when no case matches in a switch and there is no default?",
+        "options": {
+          "A": "Compilation error",
+          "B": "Runtime error",
+          "C": "The switch block is skipped entirely",
+          "D": "The first case executes"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> If no case matches and there is no default, the entire switch body is skipped. No error occurs."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which data types can be used in a switch expression in C++?",
+        "options": {
+          "A": "int, char, float",
+          "B": "int, char, string",
+          "C": "int, char, enum",
+          "D": "Any data type"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> switch requires an integral or enumeration type: int, char, short, long, bool, or enum. float, double, and string are not allowed."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "In C++, what is the value of the expression (5 > 3)?",
+        "options": {
+          "A": "true",
+          "B": "1",
+          "C": "5",
+          "D": "Both A and B"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> In C++, a boolean true has the integer value 1. The expression (5 > 3) evaluates to true, which is 1 when used in an integer context."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><code>int x = 5; if (x = 10) cout << x; else cout << 0;</code>",
+        "options": {
+          "A": "5",
+          "B": "10",
+          "C": "0",
+          "D": "Compilation error"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> x = 10 is an assignment, not comparison. It assigns 10 to x and returns 10, which is truthy. So the if body runs and prints x, which is now 10."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "In the dangling else problem, the else binds to:",
+        "options": {
+          "A": "The first if in the code",
+          "B": "The if matching the indentation",
+          "C": "The nearest unmatched if",
+          "D": "It causes a compilation error"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> C++ ignores indentation. The else always associates with the nearest preceding if that does not already have an else."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does the break statement do inside a switch-case?",
+        "options": {
+          "A": "Exits the program",
+          "B": "Exits the current function",
+          "C": "Exits the switch block",
+          "D": "Skips to the default case"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> break exits the switch block entirely, preventing fall-through to subsequent cases."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><code>int x = 3; switch(x) { case 1: case 2: case 3: cout << \"Low\"; break; case 4: case 5: cout << \"High\"; break; }</code>",
+        "options": {
+          "A": "Low",
+          "B": "High",
+          "C": "LowHigh",
+          "D": "No output"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> x is 3, which matches case 3. Cases 1, 2, 3 are grouped via fall-through. The break after cout << \"Low\" prevents further execution."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which of the following is an infinite loop caused by a conditional bug?",
+        "options": {
+          "A": "if (true) {}",
+          "B": "while (x = 1) { x++; }",
+          "C": "for (int i=0; i<10; i++) {}",
+          "D": "switch(1) { default: break; }"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> x = 1 is an assignment (not comparison). It assigns 1 to x every iteration and returns 1 (truthy), so the loop never ends. The x++ has no effect because x is reset to 1 at the start of each check."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><code>int a = 0, b = 0; if (a++ && ++b) cout << a << b; else cout << a << b;</code>",
+        "options": {
+          "A": "00",
+          "B": "10",
+          "C": "11",
+          "D": "01"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> a++ returns 0 (post-increment: uses old value), which is falsy. Due to short-circuit evaluation, ++b is never executed. After the expression, a is 1 (incremented) and b is 0 (never touched). The else branch prints 10."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><code>int x = 10; int y = (x > 5) ? (x < 15) ? 1 : 2 : 3; cout << y;</code>",
+        "options": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "Compilation error"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Outer ternary: x > 5 (true), so evaluate inner ternary: x < 15 (true), returns 1. y = 1."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the value of z?<br><code>int x = 5, y = 10; int z = (x > 0) + (y > 0) + (x + y > 0);</code>",
+        "options": {
+          "A": "0",
+          "B": "1",
+          "C": "3",
+          "D": "Compilation error"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Each boolean expression evaluates to 1 (true): (5>0)=1, (10>0)=1, (15>0)=1. Sum: 1+1+1=3. This exploits boolean-to-integer conversion in C++."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Can the default case appear before other cases in a switch block?",
+        "options": {
+          "A": "No, it must be the last case",
+          "B": "Yes, and it works correctly",
+          "C": "Yes, but it causes undefined behavior",
+          "D": "Only if there are no other cases"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The default case can appear anywhere in the switch block. If no case matches, execution jumps to default regardless of its position. Fall-through rules still apply from default to subsequent cases."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Triangle Type Checker",
+        "difficulty": "Easy",
+        "description": "Take three side lengths from the user and determine if they form a valid triangle. If valid, print whether it is equilateral, isosceles, or scalene.",
+        "sampleInput": "Enter three sides: 5 5 5",
+        "sampleOutput": "Equilateral triangle",
+        "constraints": "Triangle inequality: sum of any two sides must be greater than the third side.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int a, b, c;\n    cout << \"Enter three sides: \";\n    cin >> a >> b >> c;\n    if (a + b > c && b + c > a && a + c > b) {\n        if (a == b && b == c)\n            cout << \"Equilateral triangle\" << endl;\n        else if (a == b || b == c || a == c)\n            cout << \"Isosceles triangle\" << endl;\n        else\n            cout << \"Scalene triangle\" << endl;\n    } else {\n        cout << \"Not a valid triangle\" << endl;\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Simple Calculator with switch",
+        "difficulty": "Easy",
+        "description": "Build a calculator that takes two numbers and an operator (+, -, *, /) and prints the result. Handle division by zero.",
+        "sampleInput": "12 * 5",
+        "sampleOutput": "12 * 5 = 60",
+        "constraints": "Use switch-case on the operator character. Print an error for division by zero and unknown operators.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    double a, b;\n    char op;\n    cin >> a >> op >> b;\n    switch (op) {\n        case '+': cout << a << \" + \" << b << \" = \" << a + b << endl; break;\n        case '-': cout << a << \" - \" << b << \" = \" << a - b << endl; break;\n        case '*': cout << a << \" * \" << b << \" = \" << a * b << endl; break;\n        case '/': \n            if (b != 0) cout << a << \" / \" << b << \" = \" << a / b << endl;\n            else cout << \"Error: division by zero\" << endl;\n            break;\n        default: cout << \"Unknown operator\" << endl;\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Quadratic Equation Solver",
+        "difficulty": "Medium",
+        "description": "Take coefficients a, b, c of a quadratic equation ax^2 + bx + c = 0. Compute the discriminant and print the nature and values of roots.",
+        "sampleInput": "Enter a b c: 1 -5 6",
+        "sampleOutput": "Two distinct real roots: 3 and 2",
+        "constraints": "Handle three cases: discriminant > 0 (two real roots), == 0 (one repeated root), < 0 (complex roots). Use sqrt() from <cmath>.",
+        "solution": "#include <iostream>\n#include <cmath>\nusing namespace std;\nint main() {\n    double a, b, c;\n    cout << \"Enter a b c: \";\n    cin >> a >> b >> c;\n    double disc = b * b - 4 * a * c;\n    if (disc > 0) {\n        double r1 = (-b + sqrt(disc)) / (2 * a);\n        double r2 = (-b - sqrt(disc)) / (2 * a);\n        cout << \"Two distinct real roots: \" << r1 << \" and \" << r2 << endl;\n    } else if (disc == 0) {\n        double r = -b / (2 * a);\n        cout << \"One repeated root: \" << r << endl;\n    } else {\n        double real = -b / (2 * a);\n        double imag = sqrt(-disc) / (2 * a);\n        cout << \"Complex roots: \" << real << \" + \" << imag << \"i and \" << real << \" - \" << imag << \"i\" << endl;\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Income Tax Calculator",
+        "difficulty": "Medium",
+        "description": "Calculate income tax using Indian tax slabs: 0-250000: nil, 250001-500000: 5%, 500001-1000000: 20%, above 1000000: 30%. Tax is computed on each slab separately (not flat rate on total income).",
+        "sampleInput": "Enter annual income: 750000",
+        "sampleOutput": "Tax: 37500",
+        "constraints": "Use if-else if chain. Compute tax incrementally for each slab.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    double income;\n    cout << \"Enter annual income: \";\n    cin >> income;\n    double tax = 0;\n    if (income > 1000000) {\n        tax += (income - 1000000) * 0.30;\n        income = 1000000;\n    }\n    if (income > 500000) {\n        tax += (income - 500000) * 0.20;\n        income = 500000;\n    }\n    if (income > 250000) {\n        tax += (income - 250000) * 0.05;\n    }\n    cout << \"Tax: \" << tax << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Min/Max of Four Numbers Without Library",
+        "difficulty": "Medium",
+        "description": "Take four integers and find the minimum and maximum using only ternary operators. Do not use any library functions or arrays.",
+        "sampleInput": "Enter four numbers: 12 5 23 8",
+        "sampleOutput": "Min: 5\nMax: 23",
+        "constraints": "Use chained ternary operators. No min/max functions, no arrays, no loops.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int a, b, c, d;\n    cout << \"Enter four numbers: \";\n    cin >> a >> b >> c >> d;\n    int minAB = (a < b) ? a : b;\n    int minCD = (c < d) ? c : d;\n    int minVal = (minAB < minCD) ? minAB : minCD;\n    int maxAB = (a > b) ? a : b;\n    int maxCD = (c > d) ? c : d;\n    int maxVal = (maxAB > maxCD) ? maxAB : maxCD;\n    cout << \"Min: \" << minVal << endl;\n    cout << \"Max: \" << maxVal << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Day Name with switch and Weekday/Weekend",
+        "difficulty": "Easy",
+        "description": "Take a day number (1-7) and print the day name. Also print whether it is a weekday or weekend.",
+        "sampleInput": "Enter day (1-7): 6",
+        "sampleOutput": "Saturday (Weekend)",
+        "constraints": "Use switch for the day name. Use a second condition (or grouped switch) for weekday/weekend.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int day;\n    cout << \"Enter day (1-7): \";\n    cin >> day;\n    string name;\n    bool weekend = false;\n    switch (day) {\n        case 1: name = \"Monday\"; break;\n        case 2: name = \"Tuesday\"; break;\n        case 3: name = \"Wednesday\"; break;\n        case 4: name = \"Thursday\"; break;\n        case 5: name = \"Friday\"; break;\n        case 6: name = \"Saturday\"; weekend = true; break;\n        case 7: name = \"Sunday\"; weekend = true; break;\n        default: cout << \"Invalid day\" << endl; return 1;\n    }\n    cout << name << (weekend ? \" (Weekend)\" : \" (Weekday)\") << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-7",
+        "title": "Character Classifier",
+        "difficulty": "Hard",
+        "description": "Take a character and classify it as: uppercase letter, lowercase letter, digit, whitespace, or special character. Print the ASCII value as well.",
+        "sampleInput": "Enter a character: @",
+        "sampleOutput": "@ is a special character (ASCII: 64)",
+        "constraints": "Use if-else if with character ranges ('A'-'Z', 'a'-'z', '0'-'9'). Do not use library functions like isupper().",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    char ch;\n    cout << \"Enter a character: \";\n    cin >> ch;\n    cout << ch << \" is \";\n    if (ch >= 'A' && ch <= 'Z')\n        cout << \"an uppercase letter\";\n    else if (ch >= 'a' && ch <= 'z')\n        cout << \"a lowercase letter\";\n    else if (ch >= '0' && ch <= '9')\n        cout << \"a digit\";\n    else if (ch == ' ' || ch == '\\t' || ch == '\\n')\n        cout << \"a whitespace character\";\n    else\n        cout << \"a special character\";\n    cout << \" (ASCII: \" << (int)ch << \")\" << endl;\n    return 0;\n}"
+      }
+    ]
+  }
+}

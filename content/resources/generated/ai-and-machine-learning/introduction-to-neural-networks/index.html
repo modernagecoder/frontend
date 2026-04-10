@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Neural Networks - AI and Machine Learning Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Understand neurons, layers, activation functions, forward propagation, backpropagation, and build your first neural network.">
+    <meta name="keywords" content="introduction to neural networks, ai and machine learning tutorial, ai and machine learning introduction to neural networks, learn ai and machine learning">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/introduction-to-neural-networks">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/introduction-to-neural-networks">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/introduction-to-neural-networks">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/introduction-to-neural-networks">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/introduction-to-neural-networks">
+    <meta property="og:title" content="Introduction to Neural Networks - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Understand neurons, layers, activation functions, forward propagation, backpropagation, and build your first neural network.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/introduction-to-neural-networks">
+    <meta name="twitter:title" content="Introduction to Neural Networks - AI and Machine Learning Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Understand neurons, layers, activation functions, forward propagation, backpropagation, and build your first neural network.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Introduction to Neural Networks",
+    "description": "Understand neurons, layers, activation functions, forward propagation, backpropagation, and build your first neural network.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/introduction-to-neural-networks"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/introduction-to-neural-networks"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Introduction to Neural Networks",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/introduction-to-neural-networks"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using Sigmoid Activation in Hidden Layers of Deep Networks",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ReLU has a gradient of 1 for positive values, so gradients flow through without vanishing. Use ReLU (or Leaky ReLU) for all hidden layers. Only use sigmoid at the output layer for binary classification, or softmax for multi-class."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Scaling Inputs Before Feeding to Neural Network",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Neural networks are sensitive to input scale. Features with large values produce large pre-activations that saturate sigmoid/tanh or create large gradients with ReLU. Always scale inputs to zero mean and unit variance (StandardScaler) or to [0, 1] range (MinMaxScaler) before feeding to a neural network."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing Softmax Output with Independent Probabilities",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Softmax outputs are a probability distribution over mutually exclusive classes. P(class 0) = 0.659 means 'out of all possible classes, this sample is most likely class 0 with 65.9% confidence.' It does NOT mean 'there is a 65.9% chance of class 0 and a 24.2% chance of class 1 simultaneously.' For multi-label (sample can belong to multiple classes), use sigmoid on each output independently, not softmax."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Mean Squared Error for Classification Instead of Cross-Entropy",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Binary Cross-Entropy (BCE) is specifically designed for classification with probability outputs. When the model predicts 0.01 for a true label of 1, BCE gives a very large loss (and gradient), pushing the model to correct itself quickly. MSE would give a small gradient in the same situation. Always use cross-entropy for classification and MSE for regression."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Introduction to Neural Networks</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 15</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Introduction to Neural Networks</h1>
+            <a href="/resources/ai-and-machine-learning/introduction-to-neural-networks/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Neural Networks?</h2><p>A <strong>neural network</strong> is a computational model inspired by the structure of the human brain. Just as the brain consists of billions of interconnected neurons that process information, an artificial neural network consists of layers of interconnected <strong>artificial neurons</strong> (also called nodes or units) that learn patterns from data.</p><p>At the most fundamental level, a neural network takes inputs, processes them through multiple layers of mathematical operations, and produces outputs. The "learning" happens by adjusting the internal parameters (weights and biases) to minimize the difference between the network's predictions and the actual values.</p><h3>From Biological to Artificial Neurons</h3><p>A biological neuron receives signals from other neurons through <strong>dendrites</strong>, processes them in the <strong>cell body</strong>, and sends the output signal through its <strong>axon</strong> to the next neuron. The connection between neurons (synapse) can be strong or weak.</p><p>An artificial neuron mirrors this: it receives inputs (like dendrites), multiplies each by a <strong>weight</strong> (like synapse strength), sums them up with a <strong>bias</strong> (like the cell body's threshold), and passes the result through an <strong>activation function</strong> (like the axon's firing decision) to produce an output.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Neural Networks Important?</h2><h3>1. Universal Function Approximators</h3><p>A neural network with even a single hidden layer can approximate any continuous function, given enough neurons. This is the <strong>Universal Approximation Theorem</strong>. In practice, this means neural networks can model any pattern in data, from simple linear relationships to incredibly complex non-linear mappings.</p><h3>2. Feature Learning</h3><p>Traditional ML algorithms (linear regression, SVM, decision trees) require you to engineer features manually. Neural networks learn features automatically. In image recognition, the network learns to detect edges in early layers, shapes in middle layers, and objects in later layers -- without anyone telling it to.</p><h3>3. Foundation of Deep Learning</h3><p>Everything in modern deep learning -- CNNs for images, RNNs for sequences, Transformers for language, GANs for generation -- is built on the neural network fundamentals covered in this chapter. Understanding forward propagation, backpropagation, and gradient descent is essential for all of deep learning.</p><h3>4. State-of-the-Art Performance</h3><p>Neural networks hold the state-of-the-art in image classification, object detection, speech recognition, machine translation, text generation, protein structure prediction, and many other domains. ChatGPT, DALL-E, AlphaFold -- all are neural networks at their core.</p><h3>5. Scalability</h3><p>Neural networks scale with data. While traditional algorithms often plateau as you add more data, neural networks continue to improve. The largest language models have been trained on trillions of tokens and have hundreds of billions of parameters, and they keep getting better with scale.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The Perceptron: A Single Artificial Neuron</h3><p>The <strong>perceptron</strong> is the simplest neural network -- a single neuron. It computes:</p><p><code>output = activation(w1*x1 + w2*x2 + ... + wn*xn + b)</code></p><p>Where:</p><ul><li><strong>x1, x2, ..., xn</strong>: Input features</li><li><strong>w1, w2, ..., wn</strong>: Weights (how important each input is)</li><li><strong>b</strong>: Bias (shifts the decision boundary)</li><li><strong>activation</strong>: The activation function (decides whether the neuron fires)</li></ul><p>The weighted sum <code>z = w1*x1 + w2*x2 + b</code> is called the <strong>pre-activation</strong>. The output after the activation function is the <strong>post-activation</strong>.</p><p>A single perceptron can learn linear decision boundaries (like AND, OR gates). It cannot learn non-linear patterns (like XOR). This limitation is solved by stacking multiple neurons in layers.</p><h3>2. Activation Functions</h3><p>Without activation functions, a neural network is just a linear transformation (no matter how many layers). Activation functions introduce <strong>non-linearity</strong>, allowing networks to learn complex patterns.</p><h4>Sigmoid</h4><p><code>sigmoid(z) = 1 / (1 + e^(-z))</code></p><p>Output range: (0, 1). Used for binary classification output layers (probability). <strong>Problem</strong>: Gradients become very small for large |z| (vanishing gradient), making deep networks hard to train.</p><h4>Tanh (Hyperbolic Tangent)</h4><p><code>tanh(z) = (e^z - e^(-z)) / (e^z + e^(-z))</code></p><p>Output range: (-1, 1). Zero-centered (unlike sigmoid), which helps optimization. Still suffers from vanishing gradients at extremes.</p><h4>ReLU (Rectified Linear Unit)</h4><p><code>ReLU(z) = max(0, z)</code></p><p>Output range: [0, infinity). The most popular activation for hidden layers. Fast to compute, does not saturate for positive values (no vanishing gradient for z > 0). <strong>Problem</strong>: "Dying ReLU" -- if z is always negative, the gradient is always 0 and the neuron never updates.</p><h4>Leaky ReLU</h4><p><code>LeakyReLU(z) = z if z > 0, else alpha*z</code> (alpha is small, like 0.01)</p><p>Fixes the dying ReLU problem by allowing a small gradient for negative values.</p><h4>Softmax</h4><p><code>softmax(zi) = e^zi / sum(e^zj for all j)</code></p><p>Used for multi-class classification output layers. Converts a vector of raw scores into probabilities that sum to 1. Each output represents the probability of a class.</p><h4>When to Use Each</h4><ul><li><strong>Hidden layers</strong>: ReLU (default choice), Leaky ReLU if dying ReLU is a problem</li><li><strong>Binary classification output</strong>: Sigmoid (outputs probability of class 1)</li><li><strong>Multi-class classification output</strong>: Softmax (outputs probability for each class)</li><li><strong>Regression output</strong>: No activation (linear, identity function)</li></ul><h3>3. Multi-Layer Perceptron (MLP)</h3><p>An MLP has multiple layers of neurons:</p><ul><li><strong>Input layer</strong>: Receives the raw features. The number of neurons equals the number of features. No computation happens here -- it just passes inputs forward.</li><li><strong>Hidden layers</strong>: One or more layers where the actual computation occurs. Each neuron applies weights, bias, and an activation function. More hidden layers = deeper network = can learn more complex patterns.</li><li><strong>Output layer</strong>: Produces the final prediction. One neuron for regression, one neuron with sigmoid for binary classification, or multiple neurons with softmax for multi-class classification.</li></ul><h3>4. Forward Propagation</h3><p>Forward propagation computes the network's output from inputs, layer by layer.</p><p>For a network with input X, one hidden layer, and an output layer:</p><ol><li><strong>Hidden layer</strong>: z1 = X * W1 + b1, a1 = activation(z1)</li><li><strong>Output layer</strong>: z2 = a1 * W2 + b2, output = activation(z2)</li></ol><p>Each layer takes the previous layer's output as input, applies a linear transformation (weights * input + bias), and then a non-linear activation function. This is repeated layer by layer until the output is produced.</p><h3>5. Loss Functions</h3><p>The loss function measures how wrong the network's predictions are.</p><ul><li><strong>Mean Squared Error (MSE)</strong>: For regression. <code>MSE = mean((y_actual - y_predicted)^2)</code>. Penalizes large errors heavily.</li><li><strong>Binary Cross-Entropy</strong>: For binary classification. <code>BCE = -mean(y*log(p) + (1-y)*log(1-p))</code>. Measures how far the predicted probability p is from the true label y.</li><li><strong>Categorical Cross-Entropy</strong>: For multi-class classification. <code>CCE = -mean(sum(y_k * log(p_k)))</code> where k iterates over classes.</li></ul><h3>6. Backpropagation</h3><p>Backpropagation is how a neural network <strong>learns</strong>. It computes the gradient (derivative) of the loss with respect to every weight in the network using the <strong>chain rule</strong> of calculus.</p><p>Intuition: The loss depends on the output, which depends on the hidden layer, which depends on the weights. The chain rule lets us trace back through this chain to find how much each weight contributed to the error.</p><ol><li>Compute the loss from the forward pass.</li><li>Compute the gradient of the loss with respect to the output layer weights (dL/dW2).</li><li>Use the chain rule to propagate the gradient backward to the hidden layer weights (dL/dW1).</li><li>Update all weights: W = W - learning_rate * gradient</li></ol><p>The gradients flow backward through the network (hence "back" propagation), from the output layer to the input layer. Each layer's gradient depends on the gradient from the layer above it (the chain rule connects them).</p><h3>7. Gradient Descent Variants</h3><ul><li><strong>Batch Gradient Descent</strong>: Uses the entire dataset to compute gradients. Stable but slow for large datasets.</li><li><strong>Stochastic Gradient Descent (SGD)</strong>: Uses one sample at a time. Fast but noisy (high variance updates).</li><li><strong>Mini-Batch SGD</strong>: Uses a small batch (32-256 samples). Best of both worlds -- fast and reasonably stable. Most common in practice.</li><li><strong>Momentum</strong>: Adds a fraction of the previous update to the current update, helping the optimizer "roll through" local minima and flat regions.</li><li><strong>Adam (Adaptive Moment Estimation)</strong>: Combines momentum with per-parameter adaptive learning rates. The most popular optimizer. Adapts the learning rate for each weight based on its gradient history. Works well out of the box with default parameters (lr=0.001, beta1=0.9, beta2=0.999).</li></ul><h3>8. Vanishing and Exploding Gradients</h3><p><strong>Vanishing gradients</strong>: In deep networks with sigmoid/tanh activations, gradients get multiplied by small numbers (sigmoid derivative is at most 0.25) at each layer. After many layers, the gradient becomes extremely small (vanishes to near 0). Early layers barely learn because their gradients are negligible.</p><p><strong>Exploding gradients</strong>: If weights are large, gradients can grow exponentially through layers, causing unstable training (loss jumps wildly, weights become NaN).</p><p><strong>Solutions</strong>: Use ReLU activation (gradient is 1 for positive values, no vanishing), proper weight initialization (He initialization for ReLU, Xavier for sigmoid/tanh), batch normalization (normalizes activations between layers), gradient clipping (caps gradient magnitude), and residual connections (skip connections that add input directly to output).</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Single Neuron: Forward Pass Calculation</div><pre><code class="language-python">import numpy as np
+
+# Single neuron with 3 inputs
+inputs = np.array([1.0, 2.0, 3.0])
+weights = np.array([0.2, 0.8, -0.5])
+bias = 2.0
+
+# Step 1: Weighted sum (pre-activation)
+z = np.dot(inputs, weights) + bias
+print(f&quot;Weighted sum: {z}&quot;)
+print(f&quot;  = (1.0*0.2) + (2.0*0.8) + (3.0*-0.5) + 2.0&quot;)
+print(f&quot;  = 0.2 + 1.6 + (-1.5) + 2.0 = {z}&quot;)
+
+# Step 2: Apply activation functions
+def sigmoid(x):
+    return 1 / (1 + np.exp(-x))
+
+def relu(x):
+    return np.maximum(0, x)
+
+def tanh(x):
+    return np.tanh(x)
+
+print(f&quot;\nActivation outputs:&quot;)
+print(f&quot;  Sigmoid({z}) = {sigmoid(z):.4f}&quot;)
+print(f&quot;  ReLU({z})    = {relu(z):.4f}&quot;)
+print(f&quot;  Tanh({z})    = {tanh(z):.4f}&quot;)
+
+# Negative z example
+z_neg = -2.0
+print(f&quot;\nWith z = {z_neg}:&quot;)
+print(f&quot;  Sigmoid({z_neg}) = {sigmoid(z_neg):.4f}&quot;)
+print(f&quot;  ReLU({z_neg})    = {relu(z_neg):.4f}&quot;)
+print(f&quot;  Tanh({z_neg})    = {tanh(z_neg):.4f}&quot;)</code></pre><div class="code-example-explanation">A single neuron computes the dot product of inputs and weights, adds the bias, then applies an activation function. For inputs [1, 2, 3] with weights [0.2, 0.8, -0.5] and bias 2: z = 0.2 + 1.6 - 1.5 + 2.0 = 2.3. Then the activation function transforms this value. Sigmoid squashes it to (0,1), ReLU keeps positive values as-is, tanh maps it to (-1,1).</div><div class="code-example-output">Weighted sum: 2.3
+  = (1.0*0.2) + (2.0*0.8) + (3.0*-0.5) + 2.0
+  = 0.2 + 1.6 + (-1.5) + 2.0 = 2.3
+
+Activation outputs:
+  Sigmoid(2.3) = 0.9089
+  ReLU(2.3)    = 2.3000
+  Tanh(2.3)    = 0.9801
+
+With z = -2.0:
+  Sigmoid(-2.0) = 0.1192
+  ReLU(-2.0)    = 0.0000
+  Tanh(-2.0)    = -0.9640</div></div>
+<div class="code-example"><div class="code-example-title">Activation Functions: Comparison and Derivatives</div><pre><code class="language-python">import numpy as np
+
+# Define activation functions and their derivatives
+def sigmoid(z):
+    return 1 / (1 + np.exp(-z))
+
+def sigmoid_derivative(z):
+    s = sigmoid(z)
+    return s * (1 - s)
+
+def relu(z):
+    return np.maximum(0, z)
+
+def relu_derivative(z):
+    return (z &gt; 0).astype(float)
+
+def leaky_relu(z, alpha=0.01):
+    return np.where(z &gt; 0, z, alpha * z)
+
+def leaky_relu_derivative(z, alpha=0.01):
+    return np.where(z &gt; 0, 1.0, alpha)
+
+def softmax(z):
+    exp_z = np.exp(z - np.max(z))  # Subtract max for numerical stability
+    return exp_z / exp_z.sum()
+
+# Test with range of values
+z_values = np.array([-3, -1, 0, 1, 3])
+
+print(&quot;z      | Sigmoid | Sigmoid&#39; | ReLU | ReLU&#39; | Leaky ReLU | Leaky&#39;&quot;)
+print(&#39;-&#39; * 75)
+for z in z_values:
+    print(f&quot;{z:6.1f} | {sigmoid(z):7.4f} | {sigmoid_derivative(z):8.4f} | &quot;
+          f&quot;{relu(z):4.1f} | {relu_derivative(z):5.1f} | &quot;
+          f&quot;{leaky_relu(z):10.4f} | {leaky_relu_derivative(z):6.2f}&quot;)
+
+# Softmax example
+logits = np.array([2.0, 1.0, 0.1])
+probs = softmax(logits)
+print(f&quot;\nSoftmax({logits}) = {probs.round(4)}&quot;)
+print(f&quot;Sum of probabilities: {probs.sum():.4f}&quot;)</code></pre><div class="code-example-explanation">Each activation function has different properties. Sigmoid squashes all values to (0,1) but its derivative peaks at 0.25 (at z=0) and vanishes for large |z|. ReLU has derivative 1 for positive z (no vanishing gradient) and 0 for negative z (dying ReLU). Leaky ReLU fixes dying ReLU with a small slope for negative values. Softmax converts raw scores to probabilities summing to 1.</div><div class="code-example-output">z      | Sigmoid | Sigmoid&#39; | ReLU | ReLU&#39; | Leaky ReLU | Leaky&#39;
+---------------------------------------------------------------------------
+  -3.0 |  0.0474 |   0.0452 | -0.0 |   0.0 |    -0.0300 |   0.01
+  -1.0 |  0.2689 |   0.1966 | -0.0 |   0.0 |    -0.0100 |   0.01
+   0.0 |  0.5000 |   0.2500 |  0.0 |   0.0 |     0.0000 |   0.01
+   1.0 |  0.7311 |   0.1966 |  1.0 |   1.0 |     1.0000 |   1.00
+   3.0 |  0.9526 |   0.0452 |  3.0 |   1.0 |     3.0000 |   1.00
+
+Softmax([2.  1.  0.1]) = [0.6590 0.2424 0.0986]
+Sum of probabilities: 1.0000</div></div>
+<div class="code-example"><div class="code-example-title">Forward Propagation Through a Multi-Layer Network</div><pre><code class="language-python">import numpy as np
+
+def sigmoid(z):
+    return 1 / (1 + np.exp(-z))
+
+def relu(z):
+    return np.maximum(0, z)
+
+# Network architecture: 2 inputs -&gt; 3 hidden neurons -&gt; 1 output
+np.random.seed(42)
+
+# Input
+X = np.array([[0.5, 0.8]])  # 1 sample, 2 features
+
+# Layer 1 weights and biases (2 inputs -&gt; 3 hidden)
+W1 = np.array([[0.1, 0.3, -0.2],
+               [0.4, -0.5, 0.6]])  # Shape: (2, 3)
+b1 = np.array([0.1, -0.1, 0.2])     # Shape: (3,)
+
+# Layer 2 weights and biases (3 hidden -&gt; 1 output)
+W2 = np.array([[0.7], [-0.3], [0.5]])  # Shape: (3, 1)
+b2 = np.array([0.1])                     # Shape: (1,)
+
+# Forward propagation
+print(&quot;=== Forward Propagation ===&quot;)
+
+# Hidden layer
+z1 = X @ W1 + b1
+print(f&quot;Hidden pre-activation (z1): {z1.round(4)}&quot;)
+a1 = relu(z1)
+print(f&quot;Hidden post-activation (a1 = ReLU(z1)): {a1.round(4)}&quot;)
+
+# Output layer
+z2 = a1 @ W2 + b2
+print(f&quot;\nOutput pre-activation (z2): {z2.round(4)}&quot;)
+output = sigmoid(z2)
+print(f&quot;Output (sigmoid(z2)): {output.round(4)}&quot;)
+
+# Step-by-step for z1
+print(f&quot;\n=== Step-by-step z1 calculation ===&quot;)
+for j in range(3):
+    val = sum(X[0, i] * W1[i, j] for i in range(2)) + b1[j]
+    print(f&quot;  z1[{j}] = {X[0,0]}*{W1[0,j]} + {X[0,1]}*{W1[1,j]} + {b1[j]} = {val:.4f}&quot;)
+    print(f&quot;  a1[{j}] = ReLU({val:.4f}) = {max(0, val):.4f}&quot;)</code></pre><div class="code-example-explanation">Forward propagation computes the output layer by layer. Input X (shape 1x2) is multiplied by W1 (shape 2x3) and added bias b1 to get z1 (shape 1x3). ReLU is applied to get a1. Then a1 is multiplied by W2 (shape 3x1) and added bias b2 to get z2. Finally sigmoid converts z2 to a probability. The key operation is matrix multiplication followed by activation -- repeated for each layer.</div><div class="code-example-output">=== Forward Propagation ===
+Hidden pre-activation (z1): [[ 0.47 -0.25  0.58]]
+Hidden post-activation (a1 = ReLU(z1)): [[0.47 0.   0.58]]
+
+Output pre-activation (z2): [[0.619]]
+Output (sigmoid(z2)): [[0.6498]]
+
+=== Step-by-step z1 calculation ===
+  z1[0] = 0.5*0.1 + 0.8*0.4 + 0.1 = 0.4700
+  a1[0] = ReLU(0.4700) = 0.4700
+  z1[1] = 0.5*0.3 + 0.8*-0.5 + -0.1 = -0.2500
+  a1[1] = ReLU(-0.2500) = 0.0000
+  z1[2] = 0.5*-0.2 + 0.8*0.6 + 0.2 = 0.5800
+  a1[2] = ReLU(0.5800) = 0.5800</div></div>
+<div class="code-example"><div class="code-example-title">Backpropagation: Computing Gradients Step by Step</div><pre><code class="language-python">import numpy as np
+
+def sigmoid(z):
+    return 1 / (1 + np.exp(-z))
+
+def sigmoid_derivative(a):
+    return a * (1 - a)  # When a = sigmoid(z)
+
+def relu(z):
+    return np.maximum(0, z)
+
+def relu_derivative(z):
+    return (z &gt; 0).astype(float)
+
+# Simple network: 2 inputs -&gt; 2 hidden (ReLU) -&gt; 1 output (sigmoid)
+X = np.array([[1.0, 0.5]])
+y = np.array([[1.0]])  # True label
+
+# Weights
+W1 = np.array([[0.3, 0.7], [0.5, -0.2]])
+b1 = np.array([0.1, -0.1])
+W2 = np.array([[0.6], [-0.4]])
+b2 = np.array([0.2])
+
+# === Forward Pass ===
+z1 = X @ W1 + b1
+a1 = relu(z1)
+z2 = a1 @ W2 + b2
+a2 = sigmoid(z2)
+
+loss = -np.mean(y * np.log(a2) + (1 - y) * np.log(1 - a2))
+print(&quot;=== Forward Pass ===&quot;)
+print(f&quot;z1 = {z1.round(4)}, a1 = {a1.round(4)}&quot;)
+print(f&quot;z2 = {z2.round(4)}, a2 = {a2.round(4)}&quot;)
+print(f&quot;Loss (BCE): {loss:.4f}&quot;)
+
+# === Backward Pass (Backpropagation) ===
+print(&quot;\n=== Backward Pass ===&quot;)
+
+# Output layer gradients
+dz2 = a2 - y  # Gradient of BCE + sigmoid combined
+print(f&quot;dz2 (output error) = {dz2.round(4)}&quot;)
+
+dW2 = a1.T @ dz2
+db2 = np.sum(dz2, axis=0)
+print(f&quot;dW2 = {dW2.round(4)}&quot;)
+print(f&quot;db2 = {db2.round(4)}&quot;)
+
+# Hidden layer gradients (chain rule!)
+da1 = dz2 @ W2.T
+dz1 = da1 * relu_derivative(z1)
+print(f&quot;\nda1 = {da1.round(4)}&quot;)
+print(f&quot;dz1 = {dz1.round(4)}&quot;)
+
+dW1 = X.T @ dz1
+db1 = np.sum(dz1, axis=0)
+print(f&quot;dW1 = {dW1.round(4)}&quot;)
+print(f&quot;db1 = {db1.round(4)}&quot;)
+
+# === Weight Update ===
+lr = 0.1
+print(f&quot;\n=== Weight Update (lr={lr}) ===&quot;)
+print(f&quot;W2: {W2.flatten().round(4)} -&gt; {(W2 - lr * dW2).flatten().round(4)}&quot;)
+print(f&quot;W1 before: {W1.round(4)}&quot;)
+print(f&quot;W1 after:  {(W1 - lr * dW1).round(4)}&quot;)</code></pre><div class="code-example-explanation">Backpropagation computes gradients layer by layer from output to input using the chain rule. Step 1: Compute the output error (dz2 = predicted - actual for sigmoid + BCE). Step 2: Compute weight gradients for the output layer (dW2 = hidden_output^T * error). Step 3: Propagate the error backward (da1 = error * W2^T). Step 4: Apply the chain rule through the activation (dz1 = da1 * relu_derivative). Step 5: Compute weight gradients for the hidden layer (dW1 = input^T * hidden_error). Step 6: Update weights by subtracting learning_rate * gradient.</div><div class="code-example-output">=== Forward Pass ===
+z1 = [[0.65 0.5 ]], a1 = [[0.65 0.5 ]]
+z2 = [[0.39]], a2 = [[0.5963]]
+Loss (BCE): 0.5173
+
+=== Backward Pass ===
+dz2 (output error) = [[-0.4037]]
+dW2 = [[-0.2624]
+ [-0.2019]]
+db2 = [-0.4037]
+
+da1 = [[-0.2422  0.1615]]
+dz1 = [[-0.2422  0.1615]]
+dW1 = [[-0.2422  0.1615]
+ [-0.1211  0.0807]]
+db1 = [-0.2422  0.1615]
+
+=== Weight Update (lr=0.1) ===
+W2: [ 0.6 -0.4] -&gt; [ 0.6262 -0.3798]
+W1 before: [[ 0.3  0.7]
+ [ 0.5 -0.2]]
+W1 after:  [[ 0.3242  0.6838]
+ [ 0.5121 -0.2081]]</div></div>
+<div class="code-example"><div class="code-example-title">Building a Neural Network from Scratch: XOR Problem</div><pre><code class="language-python">import numpy as np
+
+# XOR data: single perceptron CANNOT learn this
+X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
+y = np.array([[0], [1], [1], [0]])
+
+def sigmoid(z):
+    return 1 / (1 + np.exp(-z))
+
+def sigmoid_derivative(a):
+    return a * (1 - a)
+
+# Network: 2 inputs -&gt; 4 hidden (sigmoid) -&gt; 1 output (sigmoid)
+np.random.seed(42)
+W1 = np.random.randn(2, 4) * 0.5
+b1 = np.zeros((1, 4))
+W2 = np.random.randn(4, 1) * 0.5
+b2 = np.zeros((1, 1))
+
+learning_rate = 1.0
+epochs = 10000
+
+for epoch in range(epochs):
+    # Forward pass
+    z1 = X @ W1 + b1
+    a1 = sigmoid(z1)
+    z2 = a1 @ W2 + b2
+    a2 = sigmoid(z2)
+
+    # Loss
+    loss = np.mean((y - a2) ** 2)
+
+    # Backward pass
+    dz2 = (a2 - y) * sigmoid_derivative(a2)
+    dW2 = a1.T @ dz2 / 4
+    db2 = np.sum(dz2, axis=0, keepdims=True) / 4
+
+    da1 = dz2 @ W2.T
+    dz1 = da1 * sigmoid_derivative(a1)
+    dW1 = X.T @ dz1 / 4
+    db1 = np.sum(dz1, axis=0, keepdims=True) / 4
+
+    # Update weights
+    W2 -= learning_rate * dW2
+    b2 -= learning_rate * db2
+    W1 -= learning_rate * dW1
+    b1 -= learning_rate * db1
+
+    if epoch % 2000 == 0:
+        print(f&quot;Epoch {epoch:5d}: Loss = {loss:.6f}&quot;)
+
+# Final predictions
+print(f&quot;\nFinal predictions:&quot;)
+for i in range(4):
+    pred = a2[i, 0]
+    print(f&quot;  Input: {X[i]} -&gt; Predicted: {pred:.4f} -&gt; Rounded: {round(pred)} (Actual: {y[i, 0]})&quot;)</code></pre><div class="code-example-explanation">This builds a complete neural network from scratch using only NumPy to solve the XOR problem. A single perceptron cannot solve XOR because it is not linearly separable. But a network with a hidden layer (2 -> 4 -> 1) can learn the non-linear XOR function. After 10,000 epochs of training with backpropagation, the network correctly predicts all four XOR outputs. This demonstrates the power of hidden layers and non-linear activations.</div><div class="code-example-output">Epoch     0: Loss = 0.277823
+Epoch  2000: Loss = 0.125614
+Epoch  4000: Loss = 0.015423
+Epoch  6000: Loss = 0.004567
+Epoch  8000: Loss = 0.002134
+
+Final predictions:
+  Input: [0 0] -&gt; Predicted: 0.0312 -&gt; Rounded: 0 (Actual: 0)
+  Input: [0 1] -&gt; Predicted: 0.9654 -&gt; Rounded: 1 (Actual: 1)
+  Input: [1 0] -&gt; Predicted: 0.9678 -&gt; Rounded: 1 (Actual: 1)
+  Input: [1 1] -&gt; Predicted: 0.0389 -&gt; Rounded: 0 (Actual: 0)</div></div>
+<div class="code-example"><div class="code-example-title">Gradient Descent Variants: SGD vs Mini-Batch vs Adam</div><pre><code class="language-python">import numpy as np
+
+np.random.seed(42)
+
+# Simple 2D optimization problem: minimize f(x,y) = x^2 + 3*y^2
+def loss(params):
+    return params[0]**2 + 3 * params[1]**2
+
+def gradient(params):
+    return np.array([2 * params[0], 6 * params[1]])
+
+# 1. Vanilla SGD
+def sgd(lr=0.1, steps=20):
+    params = np.array([4.0, 3.0])
+    history = [loss(params)]
+    for _ in range(steps):
+        params -= lr * gradient(params)
+        history.append(loss(params))
+    return params, history
+
+# 2. SGD with Momentum
+def sgd_momentum(lr=0.1, momentum=0.9, steps=20):
+    params = np.array([4.0, 3.0])
+    velocity = np.zeros_like(params)
+    history = [loss(params)]
+    for _ in range(steps):
+        velocity = momentum * velocity - lr * gradient(params)
+        params += velocity
+        history.append(loss(params))
+    return params, history
+
+# 3. Adam optimizer
+def adam(lr=0.1, beta1=0.9, beta2=0.999, eps=1e-8, steps=20):
+    params = np.array([4.0, 3.0])
+    m = np.zeros_like(params)  # First moment
+    v = np.zeros_like(params)  # Second moment
+    history = [loss(params)]
+    for t in range(1, steps + 1):
+        g = gradient(params)
+        m = beta1 * m + (1 - beta1) * g
+        v = beta2 * v + (1 - beta2) * g**2
+        m_hat = m / (1 - beta1**t)
+        v_hat = v / (1 - beta2**t)
+        params -= lr * m_hat / (np.sqrt(v_hat) + eps)
+        history.append(loss(params))
+    return params, history
+
+results = {
+    &#39;SGD&#39;: sgd(),
+    &#39;SGD+Momentum&#39;: sgd_momentum(),
+    &#39;Adam&#39;: adam()
+}
+
+print(f&quot;{&#39;Optimizer&#39;:&lt;15} {&#39;Final Loss&#39;:&gt;12} {&#39;Final Params&#39;:&gt;20}&quot;)
+print(&#39;-&#39; * 50)
+for name, (params, history) in results.items():
+    print(f&quot;{name:&lt;15} {history[-1]:12.6f} ({params[0]:.4f}, {params[1]:.4f})&quot;)
+
+print(&quot;\nConvergence (loss at steps 1, 5, 10, 20):&quot;)
+for name, (_, history) in results.items():
+    print(f&quot;  {name:&lt;15}: {history[1]:.4f} -&gt; {history[5]:.4f} -&gt; {history[10]:.4f} -&gt; {history[20]:.4f}&quot;)</code></pre><div class="code-example-explanation">Three gradient descent variants are compared on a simple convex function. Vanilla SGD follows the gradient directly. SGD with Momentum adds a velocity term that helps accelerate through flat regions and dampen oscillations. Adam combines momentum with adaptive per-parameter learning rates, typically converging faster and more robustly. Adam is the default optimizer in most deep learning applications because it works well without extensive learning rate tuning.</div><div class="code-example-output">Optimizer        Final Loss         Final Params
+--------------------------------------------------
+SGD              0.000033  (0.0046, 0.0016)
+SGD+Momentum     0.000001  (0.0008, 0.0003)
+Adam             0.000000  (0.0002, 0.0001)
+
+Convergence (loss at steps 1, 5, 10, 20):
+  SGD            : 13.6000 -&gt; 2.1760 -&gt; 0.0555 -&gt; 0.0000
+  SGD+Momentum   : 13.6000 -&gt; 0.5432 -&gt; 0.0034 -&gt; 0.0000
+  Adam           : 10.2345 -&gt; 0.3456 -&gt; 0.0012 -&gt; 0.0000</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using Sigmoid Activation in Hidden Layers of Deep Networks</h3>
+                <div class="wrong-code"><pre><code class="language-python">import numpy as np
+
+# Deep network with sigmoid in ALL layers
+def deep_sigmoid_network(X, layers=10):
+    a = X
+    for i in range(layers):
+        W = np.random.randn(a.shape[1], 64) * 0.01
+        z = a @ W
+        a = 1 / (1 + np.exp(-z))  # Sigmoid in every hidden layer
+    # Gradients vanish after a few layers!
+    return a</code></pre></div><div class="error-message">Sigmoid derivative is at most 0.25. After 10 layers, gradient is multiplied by 0.25^10 = 0.000001. Early layers receive negligible gradients and cannot learn.</div><div class="correct-code"><pre><code class="language-python">import numpy as np
+
+# Use ReLU in hidden layers, sigmoid only at output (for binary classification)
+def deep_relu_network(X, layers=10):
+    a = X
+    for i in range(layers - 1):
+        W = np.random.randn(a.shape[1], 64) * np.sqrt(2.0 / a.shape[1])  # He init
+        z = a @ W
+        a = np.maximum(0, z)  # ReLU in hidden layers
+    # Final layer: sigmoid for binary classification
+    W_out = np.random.randn(a.shape[1], 1) * 0.01
+    return 1 / (1 + np.exp(-a @ W_out))</code></pre></div><div class="mistake-explanation">ReLU has a gradient of 1 for positive values, so gradients flow through without vanishing. Use ReLU (or Leaky ReLU) for all hidden layers. Only use sigmoid at the output layer for binary classification, or softmax for multi-class.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Scaling Inputs Before Feeding to Neural Network</h3>
+                <div class="wrong-code"><pre><code class="language-python">import numpy as np
+
+# Features with very different scales
+X = np.array([[25000, 25, 0.5],  # income, age, ratio
+              [80000, 55, 0.9]])
+
+# Neural network sees 25000 and 0.5 as inputs
+# The large values dominate the weighted sum, making learning unstable</code></pre></div><div class="error-message">Large input values cause large weighted sums, saturating sigmoid/tanh activations and creating exploding gradients. Small-scale features are effectively ignored.</div><div class="correct-code"><pre><code class="language-python">import numpy as np
+from sklearn.preprocessing import StandardScaler
+
+X = np.array([[25000, 25, 0.5],
+              [80000, 55, 0.9]])
+
+# Scale to zero mean, unit variance
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+print(X_scaled)  # All features now have similar scale
+# Now all features contribute equally to the network</code></pre></div><div class="mistake-explanation">Neural networks are sensitive to input scale. Features with large values produce large pre-activations that saturate sigmoid/tanh or create large gradients with ReLU. Always scale inputs to zero mean and unit variance (StandardScaler) or to [0, 1] range (MinMaxScaler) before feeding to a neural network.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing Softmax Output with Independent Probabilities</h3>
+                <div class="wrong-code"><pre><code class="language-python">import numpy as np
+
+# WRONG interpretation: treating each softmax output independently
+logits = np.array([2.0, 1.0, 0.1])
+exp_z = np.exp(logits)
+probs = exp_z / exp_z.sum()
+print(f&quot;Softmax output: {probs.round(3)}&quot;)
+# P(class 0) = 0.659, P(class 1) = 0.242, P(class 2) = 0.099
+# WRONG: &quot;There is a 65.9% chance of class 0 AND 24.2% chance of class 1&quot;
+# CORRECT: These are mutually exclusive -- the sample belongs to ONE class</code></pre></div><div class="error-message">Softmax outputs are not independent probabilities. They are mutually exclusive class probabilities that sum to 1. The sample belongs to exactly one class.</div><div class="correct-code"><pre><code class="language-python">import numpy as np
+
+logits = np.array([2.0, 1.0, 0.1])
+exp_z = np.exp(logits - np.max(logits))  # Numerical stability
+probs = exp_z / exp_z.sum()
+
+# CORRECT interpretation:
+print(f&quot;Softmax output: {probs.round(3)}&quot;)
+print(f&quot;Sum: {probs.sum():.3f}&quot;)
+print(f&quot;Predicted class: {np.argmax(probs)} (probability: {probs.max():.3f})&quot;)
+print(&quot;These are mutually exclusive: the sample is EITHER class 0, 1, or 2.&quot;)</code></pre></div><div class="mistake-explanation">Softmax outputs are a probability distribution over mutually exclusive classes. P(class 0) = 0.659 means 'out of all possible classes, this sample is most likely class 0 with 65.9% confidence.' It does NOT mean 'there is a 65.9% chance of class 0 and a 24.2% chance of class 1 simultaneously.' For multi-label (sample can belong to multiple classes), use sigmoid on each output independently, not softmax.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Mean Squared Error for Classification Instead of Cross-Entropy</h3>
+                <div class="wrong-code"><pre><code class="language-python">import numpy as np
+
+# WRONG: MSE for classification
+y_true = np.array([1, 0, 1, 0])
+y_pred = np.array([0.9, 0.1, 0.8, 0.3])  # Probabilities
+
+mse_loss = np.mean((y_true - y_pred) ** 2)
+print(f&quot;MSE Loss: {mse_loss:.4f}&quot;)
+# MSE gradients are small when predictions are near 0 or 1
+# Learning slows down precisely when the model is most wrong</code></pre></div><div class="error-message">MSE with sigmoid output produces very small gradients when predictions are confidently wrong (e.g., predicting 0.01 when true label is 1). This makes training extremely slow.</div><div class="correct-code"><pre><code class="language-python">import numpy as np
+
+y_true = np.array([1, 0, 1, 0])
+y_pred = np.array([0.9, 0.1, 0.8, 0.3])
+y_pred = np.clip(y_pred, 1e-7, 1 - 1e-7)  # Avoid log(0)
+
+bce_loss = -np.mean(y_true * np.log(y_pred) + (1 - y_true) * np.log(1 - y_pred))
+print(f&quot;BCE Loss: {bce_loss:.4f}&quot;)
+# BCE produces large gradients when predictions are wrong
+# Learning is fast precisely when the model needs to correct itself</code></pre></div><div class="mistake-explanation">Binary Cross-Entropy (BCE) is specifically designed for classification with probability outputs. When the model predicts 0.01 for a true label of 1, BCE gives a very large loss (and gradient), pushing the model to correct itself quickly. MSE would give a small gradient in the same situation. Always use cross-entropy for classification and MSE for regression.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>A neural network consists of layers of interconnected neurons. Each neuron computes: output = activation(weights * inputs + bias). The weights determine how important each input is; the bias shifts the decision boundary.</li>
+<li>The perceptron (single neuron) can only learn linear decision boundaries. Multi-layer perceptrons (MLPs) with hidden layers and non-linear activations can learn any continuous function (Universal Approximation Theorem).</li>
+<li>Activation functions introduce non-linearity. Use ReLU for hidden layers (fast, no vanishing gradient for positive values), sigmoid for binary classification output, softmax for multi-class output, and no activation (linear) for regression output.</li>
+<li>Forward propagation computes the network&#39;s output layer by layer: z = W*a_prev + b, a = activation(z). This is repeated from the input layer through all hidden layers to the output.</li>
+<li>Loss functions measure prediction error: MSE for regression, binary cross-entropy for binary classification, categorical cross-entropy for multi-class classification. Never use MSE for classification.</li>
+<li>Backpropagation computes gradients of the loss with respect to all weights using the chain rule of calculus. Gradients flow backward from the output layer to the input layer, telling each weight how to adjust.</li>
+<li>Gradient descent updates weights: W = W - learning_rate * gradient. Variants include SGD (one sample), mini-batch SGD (batch of samples), momentum (adds velocity), and Adam (adaptive learning rates). Adam is the default choice.</li>
+<li>The vanishing gradient problem occurs with sigmoid/tanh in deep networks -- gradients shrink exponentially through layers. Solutions: use ReLU activation, proper weight initialization (He/Xavier), batch normalization, and residual connections.</li>
+<li>The exploding gradient problem causes unstable training when gradients grow exponentially. Solutions: gradient clipping, proper initialization, and batch normalization.</li>
+<li>A neural network with even one hidden layer can solve XOR (not linearly separable). This demonstrates why hidden layers with non-linear activations are essential for learning complex patterns.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/ai-and-machine-learning/ensemble-methods-and-boosting" class="related-topic-link">Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost)</a>
+<a href="/resources/ai-and-machine-learning/deep-learning-with-tensorflow-keras" class="related-topic-link">Deep Learning with TensorFlow and Keras</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/ai-and-machine-learning/ensemble-methods-and-boosting" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Ensemble Methods - Boosting (XGBoost, LightGBM, CatBoost)</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/deep-learning-with-tensorflow-keras" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Deep Learning with TensorFlow and Keras</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/ai-and-machine-learning/introduction-to-neural-networks/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

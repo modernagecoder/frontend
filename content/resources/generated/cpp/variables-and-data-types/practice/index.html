@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Variables, Data Types, and Type Casting | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="57+ practice questions on Variables, Data Types, and Type Casting in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="variables, data types, and type casting practice, c++ questions, c++ practice problems, variables, data types, and type casting exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/variables-and-data-types/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/variables-and-data-types/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/variables-and-data-types/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/variables-and-data-types/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/variables-and-data-types/practice">
+    <meta property="og:title" content="Practice Questions - Variables, Data Types, and Type Casting | C++ | Modern Age Coders">
+    <meta property="og:description" content="57+ practice questions on Variables, Data Types, and Type Casting in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/variables-and-data-types/practice">
+    <meta name="twitter:title" content="Practice Questions - Variables, Data Types, and Type Casting | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="57+ practice questions on Variables, Data Types, and Type Casting in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Variables, Data Types, and Type Casting",
+    "description": "57+ practice questions on Variables, Data Types, and Type Casting in C++.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Variables, Data Types, and Type Casting"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/variables-and-data-types/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Variables, Data Types, and Type Casting",
+        "item": "https://learn.modernagecoders.com/resources/cpp/variables-and-data-types"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/variables-and-data-types/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/variables-and-data-types">Variables, Data Types, and Type Casting</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 3</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">57 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Variables, Data Types, and Type Casting</h1>
+            <a href="/resources/cpp/variables-and-data-types" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = 10;
+    cout &lt;&lt; x &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">A simple variable declaration and print.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    double d = 3.5;
+    int n = d;
+    cout &lt;&lt; n &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">What happens when a double is assigned to an int?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    char c = 'B';
+    cout &lt;&lt; (int)c &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">What is the ASCII value of 'B'?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>66</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    bool a = true;
+    bool b = false;
+    cout &lt;&lt; a &lt;&lt; " " &lt;&lt; b &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">How does cout display bool values?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>1 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; sizeof(int) &lt;&lt; " " &lt;&lt; sizeof(double) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Standard sizes on a 64-bit system.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>4 8</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int a = 2147483647; // INT_MAX
+    a = a + 1;
+    cout &lt;&lt; a &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">What happens when you exceed the maximum value of a signed int?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>-2147483648</code> (on most systems, but technically undefined behavior)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    char c = 'A' + 3;
+    cout &lt;&lt; c &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">'A' is 65 in ASCII. What character is at 68?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>D</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    unsigned int u = 0;
+    u = u - 1;
+    cout &lt;&lt; u &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Unsigned integer subtraction wraps around.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>4294967295</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    auto x = 5;
+    auto y = 5.0;
+    cout &lt;&lt; sizeof(x) &lt;&lt; " " &lt;&lt; sizeof(y) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">auto deduces the type: 5 is int, 5.0 is double.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>4 8</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int a = 100000;
+    int b = 100000;
+    long long result = a * b;
+    cout &lt;&lt; result &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Both a and b are int. What precision is the multiplication done in?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>1410065408</code> (not 10000000000)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    char c = '9';
+    int digit = c - '0';
+    cout &lt;&lt; digit &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">'0' is 48 in ASCII, '9' is 57.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>9</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between <code>int</code> and <code>long long</code> in terms of size and range?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Think about 4 bytes vs 8 bytes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>int</code> is 4 bytes with range approximately -2.1 x 10^9 to +2.1 x 10^9. <code>long long</code> is 8 bytes with range approximately -9.2 x 10^18 to +9.2 x 10^18. Use <code>long long</code> when values can exceed 2 x 10^9.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>const</code> and <code>constexpr</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Both prevent modification, but one guarantees compile-time evaluation.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>const</code> means the value cannot be changed after initialization, but the initial value may be computed at runtime. <code>constexpr</code> means the value must be computable at compile time and is embedded directly in the binary. <code>constexpr</code> implies <code>const</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does brace initialization <code>int x{3.5};</code> cause a compiler error while <code>int x = 3.5;</code> does not?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Brace initialization was designed to be stricter.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14">Brace initialization (C++11) was specifically designed to prevent <strong>narrowing conversions</strong> -- conversions that lose data. Converting 3.5 (double) to int loses the .5, which is a narrowing conversion. Copy initialization (<code>=</code>) allows this silently for backward compatibility with C.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    float f = 1.1f;
+    double d = 1.1;
+    if (f == d) {
+        cout &lt;&lt; "Equal" &lt;&lt; endl;
+    } else {
+        cout &lt;&lt; "Not equal" &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">float and double represent 1.1 with different precision.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>Not equal</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = -1;
+    unsigned int y = 1;
+    if (x &lt; y) {
+        cout &lt;&lt; "-1 is less" &lt;&lt; endl;
+    } else {
+        cout &lt;&lt; "-1 is NOT less" &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">When comparing signed and unsigned, the signed value is converted to unsigned.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>-1 is NOT less</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the difference between a C-style cast <code>(int)x</code> and <code>static_cast&lt;int&gt;(x)</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Think about type safety and what the compiler checks.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">A C-style cast <code>(int)x</code> is unchecked -- it will attempt any conversion, even dangerous ones (like casting between unrelated pointer types). <code>static_cast&lt;int&gt;(x)</code> is checked at compile time and only allows conversions that make semantic sense (like numeric conversions). It refuses dangerous casts, making bugs easier to catch.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int a = 7, b = 2;
+    cout &lt;&lt; a / b &lt;&lt; endl;
+    cout &lt;&lt; (double)a / b &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Integer division truncates. Casting one operand to double changes the division.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>3</code><br><code>3.5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x;
+    cout &lt;&lt; sizeof(x) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">sizeof works on variables too, not just types.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    char lower = 'g';
+    char upper = lower - ('a' - 'A');
+    cout &lt;&lt; upper &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">'a' - 'A' is 32, the gap between lowercase and uppercase.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>G</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int a = 5, b = 10;
+    double c = a + b;
+    cout &lt;&lt; c &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">int + int is int, then converted to double for storage.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    char ch = 65;
+    cout &lt;&lt; ch &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">65 is the ASCII code for which character?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>A</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    double x = 9.99;
+    int y = static_cast&lt;int&gt;(x);
+    cout &lt;&lt; y &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">static_cast from double to int truncates.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>9</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    bool a = 42;
+    bool b = 0;
+    bool c = -1;
+    cout &lt;&lt; a &lt;&lt; " " &lt;&lt; b &lt;&lt; " " &lt;&lt; c &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Any non-zero value is true, zero is false.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>1 0 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = 5;
+    double y = 2.0;
+    auto z = x + y;
+    cout &lt;&lt; z &lt;&lt; " " &lt;&lt; sizeof(z) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">int + double promotes to double. auto deduces double.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>7 8</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    short s = 32767;
+    s = s + 1;
+    cout &lt;&lt; s &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">32767 is the maximum value for a signed short (2 bytes).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>-32768</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; sizeof(3 + 4.0) &lt;&lt; endl;
+    cout &lt;&lt; sizeof('A' + 1) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">3 + 4.0 promotes to double. 'A' + 1 promotes char to int.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>8</code><br><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a C++ program that declares variables of types int, double, char, and bool, assigns values to them, and prints each with its sizeof.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Use sizeof(variable_name) for each variable.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int age = 20;
+    double gpa = 8.75;
+    char grade = 'A';
+    bool passed = true;
+    cout &lt;&lt; "age = " &lt;&lt; age &lt;&lt; ", size = " &lt;&lt; sizeof(age) &lt;&lt; endl;
+    cout &lt;&lt; "gpa = " &lt;&lt; gpa &lt;&lt; ", size = " &lt;&lt; sizeof(gpa) &lt;&lt; endl;
+    cout &lt;&lt; "grade = " &lt;&lt; grade &lt;&lt; ", size = " &lt;&lt; sizeof(grade) &lt;&lt; endl;
+    cout &lt;&lt; "passed = " &lt;&lt; passed &lt;&lt; ", size = " &lt;&lt; sizeof(passed) &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a program that takes two integer inputs and prints their division result as a floating-point number (not truncated).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Cast one operand to double before dividing.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int a, b;
+    cin &gt;&gt; a &gt;&gt; b;
+    double result = static_cast&lt;double&gt;(a) / b;
+    cout &lt;&lt; result &lt;&lt; endl;
+    return 0;
+}</code></pre>
+Input: 7 2
+Output: 3.5</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = 1000000;
+    int y = 1000000;
+    long long z = (long long)x * y;
+    cout &lt;&lt; z &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">The cast to long long happens before the multiplication.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>1000000000000</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the auto keyword in C++11, and does it make C++ dynamically typed?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">auto deduces the type at compile time, not runtime.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">The <code>auto</code> keyword tells the compiler to deduce the variable's type from its initializer. <code>auto x = 42;</code> makes <code>x</code> an <code>int</code>. C++ is <strong>still statically typed</strong> -- the type is determined at compile time and cannot change. <code>auto</code> is syntactic convenience, not dynamic typing.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    const int N = 10;
+    cout &lt;&lt; N &lt;&lt; endl;
+    // N = 20;  // Would this work?
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">const prevents modification.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>10</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is the size of <code>int</code> on most modern 64-bit systems?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 2 bytes</li><li><span class="mcq-option-label">B.</span> 4 bytes</li><li><span class="mcq-option-label">C.</span> 8 bytes</li><li><span class="mcq-option-label">D.</span> Depends on the compiler</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> On virtually all modern systems (32-bit and 64-bit), <code>int</code> is 4 bytes (32 bits). The C++ standard only guarantees at least 16 bits, but in practice it is always 32 bits.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which data type should you use when values can reach 10^18?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> int</li><li><span class="mcq-option-label">B.</span> long</li><li><span class="mcq-option-label">C.</span> long long</li><li><span class="mcq-option-label">D.</span> unsigned int</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>long long</code> is 8 bytes with a max of ~9.2 x 10^18. <code>int</code> (max ~2.1 x 10^9) and <code>unsigned int</code> (max ~4.3 x 10^9) are too small. <code>long</code> may be 4 or 8 bytes depending on the platform.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is the ASCII value of 'A' in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 48</li><li><span class="mcq-option-label">B.</span> 65</li><li><span class="mcq-option-label">C.</span> 97</li><li><span class="mcq-option-label">D.</span> 90</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>'A'</code> is 65. <code>'a'</code> is 97. <code>'0'</code> is 48. <code>'Z'</code> is 90. These ASCII values are fundamental and frequently tested.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does <code>sizeof(char)</code> always return in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> 1</li><li><span class="mcq-option-label">C.</span> 2</li><li><span class="mcq-option-label">D.</span> It varies by platform</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> The C++ standard guarantees that <code>sizeof(char)</code> is always exactly 1 byte on every platform and every compiler.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What value does <code>bool b = 42;</code> assign to b?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 42</li><li><span class="mcq-option-label">B.</span> 0</li><li><span class="mcq-option-label">C.</span> 1 (true)</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> Any non-zero integer converts to <code>true</code> (1) when assigned to <code>bool</code>. Only 0 converts to <code>false</code> (0).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What happens with <code>int x{3.5};</code> in C++11?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> x becomes 3 (truncated)</li><li><span class="mcq-option-label">B.</span> x becomes 4 (rounded)</li><li><span class="mcq-option-label">C.</span> Compilation error: narrowing conversion</li><li><span class="mcq-option-label">D.</span> x becomes 3.5</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> Brace initialization prevents narrowing conversions. Converting <code>double 3.5</code> to <code>int</code> loses the 0.5, which is a narrowing conversion. The compiler rejects it with an error.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is the value of <code>'a' - 'A'</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 26</li><li><span class="mcq-option-label">B.</span> 32</li><li><span class="mcq-option-label">C.</span> 48</li><li><span class="mcq-option-label">D.</span> 97</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>'a'</code> is 97 and <code>'A'</code> is 65. The difference is 32. This constant gap applies to all letters: <code>'b' - 'B'</code> is also 32, <code>'z' - 'Z'</code> is also 32.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which of the following is the preferred explicit cast in modern C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> (int)x</li><li><span class="mcq-option-label">B.</span> int(x)</li><li><span class="mcq-option-label">C.</span> static_cast&lt;int&gt;(x)</li><li><span class="mcq-option-label">D.</span> cast&lt;int&gt;(x)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>static_cast&lt;int&gt;(x)</code> is the recommended explicit cast. It is type-safe (checked at compile time), searchable, and clearly documents intent. C-style cast <code>(int)x</code> and functional cast <code>int(x)</code> are less safe. <code>cast&lt;int&gt;</code> is not valid C++.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does <code>constexpr int N = 10;</code> guarantee?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> N can be changed at runtime</li><li><span class="mcq-option-label">B.</span> N is computed at runtime but cannot be changed</li><li><span class="mcq-option-label">C.</span> N is computed at compile time and cannot be changed</li><li><span class="mcq-option-label">D.</span> N is only a hint to the compiler</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>constexpr</code> guarantees that the value is computed at compile time and embedded in the binary. It also implies <code>const</code>, so <code>N</code> cannot be modified.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is the output of <code>cout << (int)('0');</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> 48</li><li><span class="mcq-option-label">C.</span> 65</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> The character <code>'0'</code> (zero) has ASCII value 48. Casting it to <code>int</code> reveals this numeric value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the result of <code>unsigned int u = -1; cout << u;</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> -1</li><li><span class="mcq-option-label">B.</span> 0</li><li><span class="mcq-option-label">C.</span> 4294967295</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> Assigning -1 to unsigned int performs modular arithmetic: -1 mod 2^32 = 4,294,967,295 (UINT_MAX). This compiles without error but is almost always a bug.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">In the expression <code>int a = 100000; int b = 100000; long long c = a * b;</code>, what is the value of c?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10000000000</li><li><span class="mcq-option-label">B.</span> 1410065408</li><li><span class="mcq-option-label">C.</span> 0</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> The multiplication <code>a * b</code> is performed in <code>int</code> precision (both operands are int). 10^10 overflows int, producing a garbage value (1410065408). The overflow happens BEFORE assignment to <code>long long</code>. Fix: <code>(long long)a * b</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What happens when comparing <code>int x = -1;</code> with <code>unsigned int y = 0;</code> using <code>x < y</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> true, because -1 &lt; 0</li><li><span class="mcq-option-label">B.</span> false, because -1 converts to UINT_MAX</li><li><span class="mcq-option-label">C.</span> Compilation error</li><li><span class="mcq-option-label">D.</span> Undefined behavior</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> When comparing signed and unsigned, the signed value is converted to unsigned. -1 becomes 4294967295 (UINT_MAX), which is greater than 0. So the comparison returns false. This is a well-known C++ pitfall.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">How many significant decimal digits of precision does <code>float</code> have?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ~3 digits</li><li><span class="mcq-option-label">B.</span> ~7 digits</li><li><span class="mcq-option-label">C.</span> ~15 digits</li><li><span class="mcq-option-label">D.</span> ~19 digits</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>float</code> (4 bytes, 32-bit IEEE 754) has approximately 7 significant decimal digits. <code>double</code> (8 bytes) has ~15 digits. <code>long double</code> has ~18-19 digits.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does <code>auto x = 5.0f;</code> deduce the type of x as?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> int</li><li><span class="mcq-option-label">B.</span> double</li><li><span class="mcq-option-label">C.</span> float</li><li><span class="mcq-option-label">D.</span> long double</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> The literal <code>5.0f</code> has the <code>f</code> suffix, making it a <code>float</code> literal. Without the suffix, <code>5.0</code> would be <code>double</code>. <code>auto</code> deduces the exact type of the initializer.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the default value of an uninitialized local <code>int</code> variable in C++?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> -1</li><li><span class="mcq-option-label">C.</span> Garbage (undefined)</li><li><span class="mcq-option-label">D.</span> NULL</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: C</strong><br><strong>C is correct.</strong> Local variables in C++ are NOT initialized. They contain whatever was previously in that memory location. Global and static variables are initialized to 0.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Which initialization syntax prevents narrowing conversions?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> int x = 3.5;</li><li><span class="mcq-option-label">B.</span> int x(3.5);</li><li><span class="mcq-option-label">C.</span> int x{3.5};</li><li><span class="mcq-option-label">D.</span> All of the above</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> Brace initialization <code>{}</code> rejects narrowing conversions at compile time. <code>int x{3.5}</code> produces a compiler error because 3.5 cannot fit in int without data loss. Copy (<code>=</code>) and direct (<code>()</code>) initialization silently truncate.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What is the size of <code>long</code> on a 64-bit Windows system using MSVC?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 4 bytes</li><li><span class="mcq-option-label">B.</span> 8 bytes</li><li><span class="mcq-option-label">C.</span> 16 bytes</li><li><span class="mcq-option-label">D.</span> Same as long long</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: A</strong><br><strong>A is correct.</strong> On Windows (MSVC), <code>long</code> is 4 bytes even on 64-bit systems (LLP64 model). On 64-bit Linux (GCC), <code>long</code> is 8 bytes (LP64 model). This platform difference is why <code>long long</code> is preferred for portability.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">What does <code>sizeof(3.14)</code> return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 4</li><li><span class="mcq-option-label">B.</span> 8</li><li><span class="mcq-option-label">C.</span> 16</li><li><span class="mcq-option-label">D.</span> Depends on precision</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> Floating-point literals without a suffix (like <code>3.14</code>) are <code>double</code> by default in C++. <code>sizeof(double)</code> is 8 bytes. To get a <code>float</code> literal, use <code>3.14f</code>.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Temperature Converter</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a C++ program that reads a temperature in Celsius (as a double) and converts it to Fahrenheit using the formula F = (C * 9/5) + 32. Print the result with the correct decimal value.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">37.0</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">98.6</div>
+                </div><div class="challenge-constraints">Use double for all calculations. Be careful with integer division: 9/5 is 1 in int arithmetic.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    double celsius;
+    cin &gt;&gt; celsius;
+    double fahrenheit = (celsius * 9.0 / 5.0) + 32.0;
+    cout &lt;&lt; fahrenheit &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: ASCII Table Printer</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a program that prints the ASCII values of all uppercase letters (A-Z) and all digits (0-9). Format: 'A' = 65, 'B' = 66, etc.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">&#39;A&#39; = 65
+&#39;B&#39; = 66
+...
+&#39;Z&#39; = 90
+&#39;0&#39; = 48
+...
+&#39;9&#39; = 57</div>
+                </div><div class="challenge-constraints">Use a for loop with char type. Cast to int to get the ASCII value.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    for (char c = &#39;A&#39;; c &lt;= &#39;Z&#39;; c++) {
+        cout &lt;&lt; &quot;&#39;&quot; &lt;&lt; c &lt;&lt; &quot;&#39; = &quot; &lt;&lt; (int)c &lt;&lt; endl;
+    }
+    for (char c = &#39;0&#39;; c &lt;= &#39;9&#39;; c++) {
+        cout &lt;&lt; &quot;&#39;&quot; &lt;&lt; c &lt;&lt; &quot;&#39; = &quot; &lt;&lt; (int)c &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Overflow Detector</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a program that reads two integers a and b. Determine whether a * b would overflow an int. If it overflows, compute the result using long long and print it. If it fits in int, print it as int. Use INT_MAX from <climits>.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">100000 100000</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Overflow! Result (long long): 10000000000</div>
+                </div><div class="challenge-constraints">Do not actually overflow. Check if (long long)a * b &gt; INT_MAX or &lt; INT_MIN before computing in int.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;climits&gt;
+using namespace std;
+int main() {
+    int a, b;
+    cin &gt;&gt; a &gt;&gt; b;
+    long long product = (long long)a * b;
+    if (product &gt; INT_MAX || product &lt; INT_MIN) {
+        cout &lt;&lt; &quot;Overflow! Result (long long): &quot; &lt;&lt; product &lt;&lt; endl;
+    } else {
+        cout &lt;&lt; &quot;Fits in int: &quot; &lt;&lt; (int)product &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Character Case Converter</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a program that reads a single character. If it is an uppercase letter, convert it to lowercase. If it is a lowercase letter, convert it to uppercase. If it is neither, print it unchanged. Use ASCII arithmetic only (no toupper/tolower).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">g</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">G</div>
+                </div><div class="challenge-constraints">Use &#39;A&#39;-&#39;Z&#39; range check and &#39;a&#39;-&#39;z&#39; range check. The gap between uppercase and lowercase is 32.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    char c;
+    cin &gt;&gt; c;
+    if (c &gt;= &#39;A&#39; &amp;&amp; c &lt;= &#39;Z&#39;) {
+        cout &lt;&lt; (char)(c + 32) &lt;&lt; endl;
+    } else if (c &gt;= &#39;a&#39; &amp;&amp; c &lt;= &#39;z&#39;) {
+        cout &lt;&lt; (char)(c - 32) &lt;&lt; endl;
+    } else {
+        cout &lt;&lt; c &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Digit Extractor</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a program that reads a 5-digit integer and prints each digit on a separate line. Use modulus (%) and division (/) operators, not string conversion.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">47329</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">4
+7
+3
+2
+9</div>
+                </div><div class="challenge-constraints">Extract digits using repeated division by 10. Print from most significant to least significant.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int n;
+    cin &gt;&gt; n;
+    cout &lt;&lt; n / 10000 &lt;&lt; endl;
+    cout &lt;&lt; (n / 1000) % 10 &lt;&lt; endl;
+    cout &lt;&lt; (n / 100) % 10 &lt;&lt; endl;
+    cout &lt;&lt; (n / 10) % 10 &lt;&lt; endl;
+    cout &lt;&lt; n % 10 &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Type Size Comparator</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program that demonstrates all three initialization styles (copy, direct, brace) for each fundamental type (int, double, char, bool). For each, print the variable value and its sizeof. Then show that brace initialization catches narrowing: attempt int x{3.14} in a comment and explain why it fails.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Copy: int a = 10, size = 4
+Direct: int b(20), size = 4
+Brace: int c{30}, size = 4
+...</div>
+                </div><div class="challenge-constraints">Use all three initialization styles. Include a comment showing the narrowing error.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    // Copy initialization
+    int a = 10;
+    double d1 = 3.14;
+    char c1 = &#39;A&#39;;
+    bool b1 = true;
+
+    // Direct initialization
+    int a2(20);
+    double d2(6.28);
+    char c2(&#39;B&#39;);
+    bool b2(false);
+
+    // Brace initialization
+    int a3{30};
+    double d3{9.42};
+    char c3{&#39;C&#39;};
+    bool b3{true};
+
+    cout &lt;&lt; &quot;Copy:   int=&quot; &lt;&lt; a &lt;&lt; &quot;(&quot; &lt;&lt; sizeof(a) &lt;&lt; &quot;) double=&quot; &lt;&lt; d1 &lt;&lt; &quot;(&quot; &lt;&lt; sizeof(d1) &lt;&lt; &quot;) char=&quot; &lt;&lt; c1 &lt;&lt; &quot;(&quot; &lt;&lt; sizeof(c1) &lt;&lt; &quot;) bool=&quot; &lt;&lt; b1 &lt;&lt; &quot;(&quot; &lt;&lt; sizeof(b1) &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Direct: int=&quot; &lt;&lt; a2 &lt;&lt; &quot;(&quot; &lt;&lt; sizeof(a2) &lt;&lt; &quot;) double=&quot; &lt;&lt; d2 &lt;&lt; &quot;(&quot; &lt;&lt; sizeof(d2) &lt;&lt; &quot;) char=&quot; &lt;&lt; c2 &lt;&lt; &quot;(&quot; &lt;&lt; sizeof(c2) &lt;&lt; &quot;) bool=&quot; &lt;&lt; b2 &lt;&lt; &quot;(&quot; &lt;&lt; sizeof(b2) &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Brace:  int=&quot; &lt;&lt; a3 &lt;&lt; &quot;(&quot; &lt;&lt; sizeof(a3) &lt;&lt; &quot;) double=&quot; &lt;&lt; d3 &lt;&lt; &quot;(&quot; &lt;&lt; sizeof(d3) &lt;&lt; &quot;) char=&quot; &lt;&lt; c3 &lt;&lt; &quot;(&quot; &lt;&lt; sizeof(c3) &lt;&lt; &quot;) bool=&quot; &lt;&lt; b3 &lt;&lt; &quot;(&quot; &lt;&lt; sizeof(b3) &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+
+    // int x{3.14};  // ERROR: narrowing conversion from double to int
+    int x = 3.14;  // This compiles but truncates to 3
+    cout &lt;&lt; &quot;Narrowed: &quot; &lt;&lt; x &lt;&lt; endl;
+
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/setting-up-and-first-program/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Setting Up C++ and Your First Program</span>
+        </a>
+            <a href="/resources/cpp/operators-in-cpp/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Operators in C++</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/variables-and-data-types" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

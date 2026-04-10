@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encapsulation, Access Specifiers, and Friend Functions - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Use public, private, protected access, getters/setters, friend functions, and friend classes.">
+    <meta name="keywords" content="encapsulation, access specifiers, and friend functions, c++ tutorial, c++ encapsulation, access specifiers, and friend functions, learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers">
+    <meta property="og:title" content="Encapsulation, Access Specifiers, and Friend Functions - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Use public, private, protected access, getters/setters, friend functions, and friend classes.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers">
+    <meta name="twitter:title" content="Encapsulation, Access Specifiers, and Friend Functions - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Use public, private, protected access, getters/setters, friend functions, and friend classes.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Encapsulation, Access Specifiers, and Friend Functions",
+    "description": "Use public, private, protected access, getters/setters, friend functions, and friend classes.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Encapsulation, Access Specifiers, and Friend Functions",
+        "item": "https://learn.modernagecoders.com/resources/cpp/encapsulation-and-access-specifiers"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Making All Members Public (No Encapsulation)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Private members with validated setters ensure the object always holds valid data. Without encapsulation, there is no defense against invalid assignments."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting const on Getter Functions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Getter functions should always be <code>const</code> because they do not modify the object. Without <code>const</code>, they cannot be called on <code>const</code> objects or through <code>const</code> references, breaking the ability to pass objects by const reference."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing protected with private in Derived Classes",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use <code>protected</code> instead of <code>private</code> when derived classes need access. Private members are invisible to all derived classes. This is one of the most common access specifier mistakes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Assuming Friendship Is Inherited or Mutual",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Friendship in C++ is not inherited (derived classes do not get it), not mutual (A friends B does not mean B friends A), and not transitive (A friends B, B friends C does not mean A friends C). Each friendship must be explicitly declared."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Modifying Members in a const Method Without mutable",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If a member needs to be modified in a <code>const</code> method (for bookkeeping, caching, etc.), mark it <code>mutable</code>. Without <code>mutable</code>, the compiler enforces that <code>const</code> methods cannot modify any member."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Encapsulation, Access Specifiers, and Friend Functions</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 14</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">50 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Encapsulation, Access Specifiers, and Friend Functions</h1>
+            <a href="/resources/cpp/encapsulation-and-access-specifiers/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Encapsulation in C++?</h2><p><strong>Encapsulation</strong> is the bundling of data (member variables) and the methods (member functions) that operate on that data into a single unit called a class, while restricting direct access to some of the object's components. It is the mechanism that enforces <strong>data hiding</strong> in C++.</p><p>In practical terms, encapsulation means making member variables <code>private</code> and providing controlled access through <code>public</code> getter and setter functions. The outside world interacts with the object only through its public interface, never touching internal state directly.</p><pre><code>class BankAccount {
+private:
+    double balance;    // Hidden from outside
+    string accountId;  // Hidden from outside
+
+public:
+    BankAccount(string id, double initial) : accountId(id), balance(initial) {}
+
+    // Getter: read-only access
+    double getBalance() const { return balance; }
+    string getId() const { return accountId; }
+
+    // Setter: controlled write access with validation
+    void deposit(double amount) {
+        if (amount &gt; 0) balance += amount;
+    }
+
+    bool withdraw(double amount) {
+        if (amount &gt; 0 &amp;&amp; amount &lt;= balance) {
+            balance -= amount;
+            return true;
+        }
+        return false;
+    }
+};</code></pre><p>Without encapsulation, anyone could write <code>account.balance = -5000;</code> and corrupt the object's state. With encapsulation, the <code>withdraw()</code> method enforces the invariant that balance cannot go negative.</p><p>C++ provides three access specifiers to control visibility: <code>private</code> (accessible only within the class), <code>protected</code> (accessible within the class and its derived classes), and <code>public</code> (accessible from anywhere). C++ also provides <code>friend</code> functions and <code>friend</code> classes as a controlled escape hatch to grant specific external entities access to private members.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Does Encapsulation Matter?</h2><p>Encapsulation is one of the four pillars of Object-Oriented Programming (along with inheritance, polymorphism, and abstraction). In C++, understanding access control is essential because the language gives the programmer explicit control over what is visible and what is hidden.</p><h3>1. Data Integrity and Invariant Enforcement</h3><p>When Arjun makes the <code>age</code> field private and exposes a <code>setAge(int a)</code> method that rejects negative values, he guarantees that no part of the codebase can ever create a <code>Student</code> with a negative age. Without encapsulation, any function could write <code>student.age = -10;</code> and the program would silently accept it.</p><h3>2. Interview and Placement Essential</h3><p>Every OOP interview at companies like TCS, Infosys, Wipro, Amazon, and Microsoft includes questions on access specifiers, the difference between private and protected, when to use friend functions, and the tradeoffs of exposing internal state. The <code>friend</code> keyword is a particularly common interview topic because it breaks encapsulation in a controlled way.</p><h3>3. Decoupling Interface from Implementation</h3><p>When Kavya changes the internal representation of a <code>Date</code> class from three separate integers (day, month, year) to a single Unix timestamp, the public interface (<code>getDay()</code>, <code>getMonth()</code>, <code>getYear()</code>) remains unchanged. Client code does not need to be modified at all. This is only possible because the internal data was private.</p><h3>4. The friend Keyword: Controlled Access</h3><p>Sometimes two classes are so tightly coupled that forcing everything through getters/setters is inefficient or awkward. C++ provides <code>friend</code> as a deliberate, controlled way to grant access. Understanding when friend is appropriate (operator overloading, tightly coupled classes) versus when it violates encapsulation is critical for writing clean C++ code.</p><h3>5. The mutable Keyword: Logical Constness</h3><p>The <code>mutable</code> keyword allows modifying a member even in a <code>const</code> member function. This is used for caching, logging, and mutex locking where the external state of the object is logically unchanged even though some internal bookkeeping data is modified. This is an advanced topic frequently asked in senior-level interviews.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Access Specifiers: private, protected, public</h3><p>C++ has three access specifiers that control who can access class members:</p><pre><code>class Example {
+private:
+    int secret;       // Only accessible within Example
+
+protected:
+    int inherited;    // Accessible in Example and derived classes
+
+public:
+    int visible;      // Accessible from anywhere
+
+    Example() : secret(1), inherited(2), visible(3) {}
+};
+
+class Child : public Example {
+public:
+    void test() {
+        // cout &lt;&lt; secret;     // Error: private in Example
+        cout &lt;&lt; inherited;    // OK: protected, accessible in derived
+        cout &lt;&lt; visible;      // OK: public
+    }
+};
+
+int main() {
+    Example e;
+    // cout &lt;&lt; e.secret;     // Error: private
+    // cout &lt;&lt; e.inherited;  // Error: protected
+    cout &lt;&lt; e.visible;      // OK: public
+}</code></pre><p><strong>Default access:</strong> In a <code>class</code>, the default is <code>private</code>. In a <code>struct</code>, the default is <code>public</code>. This is the only difference between class and struct in C++.</p><h3>2. Getters and Setters</h3><p>Getters provide read access to private data. Setters provide write access with validation. This pattern is the primary mechanism for enforcing encapsulation.</p><pre><code>class Student {
+private:
+    string name;
+    int age;
+    double gpa;
+
+public:
+    Student(string n, int a, double g) : name(n), age(a), gpa(g) {}
+
+    // Getters (const: promise not to modify object)
+    string getName() const { return name; }
+    int getAge() const { return age; }
+    double getGpa() const { return gpa; }
+
+    // Setters (with validation)
+    void setAge(int a) {
+        if (a &gt;= 0 &amp;&amp; a &lt;= 150) age = a;
+    }
+
+    void setGpa(double g) {
+        if (g &gt;= 0.0 &amp;&amp; g &lt;= 10.0) gpa = g;
+    }
+};</code></pre><p>The <code>const</code> after the getter function signature is important: it tells the compiler (and the reader) that calling this function does not modify the object. This allows calling getters on <code>const</code> references and pointers.</p><h3>3. Friend Functions</h3><p>A <code>friend</code> function is a non-member function that has access to the private and protected members of a class. The class grants friendship by declaring the function inside the class body with the <code>friend</code> keyword.</p><pre><code>class Box {
+private:
+    double length, width, height;
+
+public:
+    Box(double l, double w, double h) : length(l), width(w), height(h) {}
+
+    // Grant friendship to this function
+    friend double volume(const Box&amp; b);
+    friend bool isLarger(const Box&amp; a, const Box&amp; b);
+};
+
+// Not a member function, but can access private members
+double volume(const Box&amp; b) {
+    return b.length * b.width * b.height;
+}
+
+bool isLarger(const Box&amp; a, const Box&amp; b) {
+    return volume(a) &gt; volume(b);
+}</code></pre><p>Key points about friend functions:</p><ul><li>Declared inside the class, defined outside (no <code>Box::</code> scope)</li><li>Not a member: no <code>this</code> pointer</li><li>Can access private and protected members of the class</li><li>Friendship is not inherited (a friend of Base is not automatically a friend of Derived)</li><li>Friendship is not mutual (if A is a friend of B, B is not automatically a friend of A)</li><li>Friendship is not transitive (if A is a friend of B, and B is a friend of C, A is not a friend of C)</li></ul><h3>4. Friend Classes</h3><p>An entire class can be declared as a friend. All member functions of the friend class can then access the private members of the granting class.</p><pre><code>class Engine {
+private:
+    int horsepower;
+    double temperature;
+
+public:
+    Engine(int hp) : horsepower(hp), temperature(90.0) {}
+    friend class Mechanic;  // Mechanic can access everything in Engine
+};
+
+class Mechanic {
+public:
+    void diagnose(const Engine&amp; e) {
+        // Can access private members of Engine
+        cout &lt;&lt; "HP: " &lt;&lt; e.horsepower &lt;&lt; endl;
+        cout &lt;&lt; "Temp: " &lt;&lt; e.temperature &lt;&lt; endl;
+    }
+    void tune(Engine&amp; e, int newHp) {
+        e.horsepower = newHp;  // Direct access to private member
+    }
+};</code></pre><p>Use friend classes sparingly. They are appropriate when two classes are tightly coupled (e.g., an iterator class that needs access to a container's internals), but overuse breaks encapsulation.</p><h3>5. The mutable Keyword</h3><p>The <code>mutable</code> keyword allows a member to be modified even when the object is accessed through a <code>const</code> reference or when the member function is <code>const</code>. This is used for internal bookkeeping that does not affect the logical state of the object.</p><pre><code>class DataCache {
+private:
+    int data;
+    mutable int accessCount;  // Can be modified in const methods
+    mutable bool cacheValid;
+    mutable int cachedResult;
+
+public:
+    DataCache(int d) : data(d), accessCount(0), cacheValid(false), cachedResult(0) {}
+
+    int getData() const {
+        accessCount++;  // OK: mutable
+        return data;
+    }
+
+    int expensiveCompute() const {
+        accessCount++;
+        if (!cacheValid) {
+            cachedResult = data * data + data;  // Cache the result
+            cacheValid = true;
+        }
+        return cachedResult;
+    }
+
+    int getAccessCount() const { return accessCount; }
+};</code></pre><p>Common uses of <code>mutable</code>: caching/memoization, access counters, mutex locks in const methods, lazy initialization.</p><h3>6. Nested Classes</h3><p>A class defined inside another class is called a nested class. The nested class can access private members of the enclosing class (in C++11 and later).</p><pre><code>class LinkedList {
+private:
+    struct Node {  // Nested class (private)
+        int data;
+        Node* next;
+        Node(int d) : data(d), next(nullptr) {}
+    };
+
+    Node* head;
+
+public:
+    LinkedList() : head(nullptr) {}
+
+    void push(int val) {
+        Node* newNode = new Node(val);
+        newNode-&gt;next = head;
+        head = newNode;
+    }
+
+    void print() const {
+        Node* curr = head;
+        while (curr) {
+            cout &lt;&lt; curr-&gt;data &lt;&lt; " ";
+            curr = curr-&gt;next;
+        }
+        cout &lt;&lt; endl;
+    }
+
+    ~LinkedList() {
+        while (head) {
+            Node* temp = head;
+            head = head-&gt;next;
+            delete temp;
+        }
+    }
+};</code></pre><p>The <code>Node</code> struct is an implementation detail. By making it private, no outside code can create or manipulate <code>Node</code> objects directly. This is encapsulation at the class design level.</p><h3>7. struct vs class in C++</h3><p>In C++, <code>struct</code> and <code>class</code> are nearly identical. The only difference is default access: <code>struct</code> members are <code>public</code> by default, while <code>class</code> members are <code>private</code> by default. The same applies to inheritance: <code>struct Derived : Base</code> is public inheritance by default, while <code>class Derived : Base</code> is private inheritance by default.</p><pre><code>struct Point {
+    int x, y;  // public by default
+};
+
+class Point2 {
+    int x, y;  // private by default
+public:
+    Point2(int a, int b) : x(a), y(b) {}
+    int getX() const { return x; }
+};</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Encapsulation with Getters, Setters, and Validation</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Employee {
+private:
+    string name;
+    int age;
+    double salary;
+
+public:
+    Employee(string n, int a, double s) : name(n), age(0), salary(0) {
+        setAge(a);
+        setSalary(s);
+    }
+
+    string getName() const { return name; }
+    int getAge() const { return age; }
+    double getSalary() const { return salary; }
+
+    void setAge(int a) {
+        if (a &gt;= 18 &amp;&amp; a &lt;= 65) age = a;
+        else cout &lt;&lt; &quot;Invalid age: &quot; &lt;&lt; a &lt;&lt; endl;
+    }
+
+    void setSalary(double s) {
+        if (s &gt;= 0) salary = s;
+        else cout &lt;&lt; &quot;Invalid salary: &quot; &lt;&lt; s &lt;&lt; endl;
+    }
+
+    void display() const {
+        cout &lt;&lt; name &lt;&lt; &quot;, Age: &quot; &lt;&lt; age &lt;&lt; &quot;, Salary: &quot; &lt;&lt; salary &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Employee e(&quot;Arjun&quot;, 25, 50000);
+    e.display();
+
+    e.setAge(200);
+    e.setSalary(-1000);
+    e.display();
+
+    e.setAge(30);
+    e.setSalary(60000);
+    e.display();
+    return 0;
+}</code></pre><div class="code-example-explanation">The <code>Employee</code> class keeps <code>name</code>, <code>age</code>, and <code>salary</code> private. The setters validate input before modifying state: age must be 18-65, salary must be non-negative. Invalid values are rejected. This prevents corrupt object state.</div><div class="code-example-output">Arjun, Age: 25, Salary: 50000
+Invalid age: 200
+Invalid salary: -1000
+Arjun, Age: 25, Salary: 50000
+Arjun, Age: 30, Salary: 60000</div></div>
+<div class="code-example"><div class="code-example-title">Access Specifiers: private, protected, public</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Base {
+private:
+    int pvt;
+protected:
+    int prot;
+public:
+    int pub;
+    Base() : pvt(1), prot(2), pub(3) {}
+    void showAll() const {
+        cout &lt;&lt; &quot;private=&quot; &lt;&lt; pvt &lt;&lt; &quot; protected=&quot; &lt;&lt; prot &lt;&lt; &quot; public=&quot; &lt;&lt; pub &lt;&lt; endl;
+    }
+};
+
+class Derived : public Base {
+public:
+    void access() {
+        // cout &lt;&lt; pvt;  // Error: private member of Base
+        cout &lt;&lt; &quot;Derived accesses protected: &quot; &lt;&lt; prot &lt;&lt; endl;
+        cout &lt;&lt; &quot;Derived accesses public: &quot; &lt;&lt; pub &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Base b;
+    // cout &lt;&lt; b.pvt;   // Error: private
+    // cout &lt;&lt; b.prot;  // Error: protected
+    cout &lt;&lt; &quot;Main accesses public: &quot; &lt;&lt; b.pub &lt;&lt; endl;
+    b.showAll();
+
+    Derived d;
+    d.access();
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>private</code> members are only accessible within the class itself. <code>protected</code> members are accessible in the class and its derived classes. <code>public</code> members are accessible everywhere. This is demonstrated by trying to access each from <code>main()</code> and from a derived class.</div><div class="code-example-output">Main accesses public: 3
+private=1 protected=2 public=3
+Derived accesses protected: 2
+Derived accesses public: 3</div></div>
+<div class="code-example"><div class="code-example-title">Friend Function Accessing Private Members</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Rectangle {
+private:
+    double length, width;
+
+public:
+    Rectangle(double l, double w) : length(l), width(w) {}
+
+    friend double area(const Rectangle&amp; r);
+    friend bool isBigger(const Rectangle&amp; a, const Rectangle&amp; b);
+    friend ostream&amp; operator&lt;&lt;(ostream&amp; os, const Rectangle&amp; r);
+};
+
+double area(const Rectangle&amp; r) {
+    return r.length * r.width;
+}
+
+bool isBigger(const Rectangle&amp; a, const Rectangle&amp; b) {
+    return area(a) &gt; area(b);
+}
+
+ostream&amp; operator&lt;&lt;(ostream&amp; os, const Rectangle&amp; r) {
+    os &lt;&lt; &quot;Rect(&quot; &lt;&lt; r.length &lt;&lt; &quot; x &quot; &lt;&lt; r.width &lt;&lt; &quot;)&quot;;
+    return os;
+}
+
+int main() {
+    Rectangle r1(5, 3), r2(4, 4);
+    cout &lt;&lt; r1 &lt;&lt; &quot; area = &quot; &lt;&lt; area(r1) &lt;&lt; endl;
+    cout &lt;&lt; r2 &lt;&lt; &quot; area = &quot; &lt;&lt; area(r2) &lt;&lt; endl;
+    cout &lt;&lt; &quot;r1 bigger? &quot; &lt;&lt; (isBigger(r1, r2) ? &quot;Yes&quot; : &quot;No&quot;) &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">The <code>area()</code> and <code>isBigger()</code> functions are not members of <code>Rectangle</code>, but because they are declared as <code>friend</code>, they can access <code>length</code> and <code>width</code> directly. The <code>operator&lt;&lt;</code> must be a friend because its left operand is <code>ostream</code>.</div><div class="code-example-output">Rect(5 x 3) area = 15
+Rect(4 x 4) area = 16
+r1 bigger? No</div></div>
+<div class="code-example"><div class="code-example-title">Friend Class: Full Access to Another Class</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Patient {
+private:
+    string name;
+    int age;
+    string diagnosis;
+
+public:
+    Patient(string n, int a, string d) : name(n), age(a), diagnosis(d) {}
+    friend class Doctor;
+};
+
+class Doctor {
+public:
+    void examine(const Patient&amp; p) {
+        cout &lt;&lt; &quot;Examining &quot; &lt;&lt; p.name &lt;&lt; &quot;, age &quot; &lt;&lt; p.age &lt;&lt; endl;
+        cout &lt;&lt; &quot;Diagnosis: &quot; &lt;&lt; p.diagnosis &lt;&lt; endl;
+    }
+    void updateDiagnosis(Patient&amp; p, string newDiag) {
+        p.diagnosis = newDiag;
+        cout &lt;&lt; &quot;Updated diagnosis for &quot; &lt;&lt; p.name &lt;&lt; &quot;: &quot; &lt;&lt; p.diagnosis &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Patient p(&quot;Ravi&quot;, 28, &quot;Flu&quot;);
+    Doctor doc;
+    doc.examine(p);
+    doc.updateDiagnosis(p, &quot;Viral Fever&quot;);
+    doc.examine(p);
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>Doctor</code> is declared as a <code>friend class</code> of <code>Patient</code>. This means every member function of <code>Doctor</code> can access the private members of <code>Patient</code>. The relationship is one-directional: <code>Patient</code> cannot access <code>Doctor</code>'s private members.</div><div class="code-example-output">Examining Ravi, age 28
+Diagnosis: Flu
+Updated diagnosis for Ravi: Viral Fever
+Examining Ravi, age 28
+Diagnosis: Viral Fever</div></div>
+<div class="code-example"><div class="code-example-title">The mutable Keyword for Logical Constness</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Counter {
+private:
+    int value;
+    mutable int readCount;
+
+public:
+    Counter(int v) : value(v), readCount(0) {}
+
+    int getValue() const {
+        readCount++;  // OK because readCount is mutable
+        return value;
+    }
+
+    int getReadCount() const { return readCount; }
+};
+
+int main() {
+    const Counter c(42);
+    cout &lt;&lt; &quot;Value: &quot; &lt;&lt; c.getValue() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Value: &quot; &lt;&lt; c.getValue() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Value: &quot; &lt;&lt; c.getValue() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Read count: &quot; &lt;&lt; c.getReadCount() &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">Even though <code>c</code> is <code>const</code> and <code>getValue()</code> is a <code>const</code> method, the <code>mutable</code> keyword on <code>readCount</code> allows it to be incremented. The logical state of the object (its value) is unchanged, but the bookkeeping (how many times it was read) is tracked.</div><div class="code-example-output">Value: 42
+Value: 42
+Value: 42
+Read count: 3</div></div>
+<div class="code-example"><div class="code-example-title">Nested Class as Implementation Detail</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class Stack {
+private:
+    struct Node {
+        int data;
+        Node* next;
+        Node(int d, Node* n) : data(d), next(n) {}
+    };
+    Node* top;
+    int count;
+
+public:
+    Stack() : top(nullptr), count(0) {}
+
+    void push(int val) {
+        top = new Node(val, top);
+        count++;
+    }
+
+    int pop() {
+        if (!top) throw runtime_error(&quot;Stack empty&quot;);
+        int val = top-&gt;data;
+        Node* temp = top;
+        top = top-&gt;next;
+        delete temp;
+        count--;
+        return val;
+    }
+
+    int size() const { return count; }
+    bool empty() const { return top == nullptr; }
+
+    ~Stack() {
+        while (top) {
+            Node* temp = top;
+            top = top-&gt;next;
+            delete temp;
+        }
+    }
+};
+
+int main() {
+    Stack s;
+    s.push(10);
+    s.push(20);
+    s.push(30);
+    cout &lt;&lt; &quot;Size: &quot; &lt;&lt; s.size() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Pop: &quot; &lt;&lt; s.pop() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Pop: &quot; &lt;&lt; s.pop() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Size: &quot; &lt;&lt; s.size() &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">The <code>Node</code> struct is a private nested class inside <code>Stack</code>. No code outside <code>Stack</code> can create, access, or even know about <code>Node</code>. This is proper encapsulation of implementation details. Users interact only with <code>push()</code>, <code>pop()</code>, <code>size()</code>, and <code>empty()</code>.</div><div class="code-example-output">Size: 3
+Pop: 30
+Pop: 20
+Size: 1</div></div>
+<div class="code-example"><div class="code-example-title">struct vs class Default Access</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+struct PointStruct {
+    int x, y;  // public by default
+    PointStruct(int a, int b) : x(a), y(b) {}
+};
+
+class PointClass {
+    int x, y;  // private by default
+public:
+    PointClass(int a, int b) : x(a), y(b) {}
+    int getX() const { return x; }
+    int getY() const { return y; }
+};
+
+int main() {
+    PointStruct ps(3, 4);
+    cout &lt;&lt; &quot;Struct: &quot; &lt;&lt; ps.x &lt;&lt; &quot;, &quot; &lt;&lt; ps.y &lt;&lt; endl;
+
+    PointClass pc(5, 6);
+    // cout &lt;&lt; pc.x;  // Error: private
+    cout &lt;&lt; &quot;Class: &quot; &lt;&lt; pc.getX() &lt;&lt; &quot;, &quot; &lt;&lt; pc.getY() &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">In a <code>struct</code>, members are <code>public</code> by default, so <code>ps.x</code> works directly. In a <code>class</code>, members are <code>private</code> by default, so <code>pc.x</code> would fail and getters are needed. This is the only functional difference between <code>struct</code> and <code>class</code> in C++.</div><div class="code-example-output">Struct: 3, 4
+Class: 5, 6</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Making All Members Public (No Encapsulation)</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Student {
+public:
+    string name;
+    int age;
+    double gpa;
+};
+
+Student s;
+s.age = -5;    // No validation!
+s.gpa = 99.9;  // Invalid GPA accepted!</code></pre></div><div class="error-message">Any code can set invalid values because there is no access control. The object can enter an inconsistent state.</div><div class="correct-code"><pre><code class="language-python">class Student {
+private:
+    string name;
+    int age;
+    double gpa;
+public:
+    Student(string n, int a, double g) : name(n), age(0), gpa(0) {
+        setAge(a); setGpa(g);
+    }
+    void setAge(int a) { if (a &gt;= 0 &amp;&amp; a &lt;= 150) age = a; }
+    void setGpa(double g) { if (g &gt;= 0 &amp;&amp; g &lt;= 10) gpa = g; }
+    int getAge() const { return age; }
+    double getGpa() const { return gpa; }
+};</code></pre></div><div class="mistake-explanation">Private members with validated setters ensure the object always holds valid data. Without encapsulation, there is no defense against invalid assignments.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting const on Getter Functions</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Account {
+    double balance;
+public:
+    Account(double b) : balance(b) {}
+    double getBalance() { return balance; }  // Missing const!
+};
+
+void print(const Account&amp; a) {
+    cout &lt;&lt; a.getBalance();  // Error: calling non-const on const reference
+}</code></pre></div><div class="error-message">Compilation error: cannot call non-const member function on a const object or reference.</div><div class="correct-code"><pre><code class="language-python">class Account {
+    double balance;
+public:
+    Account(double b) : balance(b) {}
+    double getBalance() const { return balance; }  // const!
+};
+
+void print(const Account&amp; a) {
+    cout &lt;&lt; a.getBalance();  // OK now
+}</code></pre></div><div class="mistake-explanation">Getter functions should always be <code>const</code> because they do not modify the object. Without <code>const</code>, they cannot be called on <code>const</code> objects or through <code>const</code> references, breaking the ability to pass objects by const reference.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing protected with private in Derived Classes</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Base {
+private:
+    int secret;
+public:
+    Base(int s) : secret(s) {}
+};
+
+class Derived : public Base {
+public:
+    Derived(int s) : Base(s) {}
+    void reveal() {
+        cout &lt;&lt; secret;  // Error: secret is private in Base!
+    }
+};</code></pre></div><div class="error-message">Compilation error: &#39;secret&#39; is a private member of &#39;Base&#39;. Private members are not accessible in derived classes.</div><div class="correct-code"><pre><code class="language-python">class Base {
+protected:
+    int secret;  // Changed to protected
+public:
+    Base(int s) : secret(s) {}
+};
+
+class Derived : public Base {
+public:
+    Derived(int s) : Base(s) {}
+    void reveal() {
+        cout &lt;&lt; secret;  // OK: protected is accessible in derived
+    }
+};</code></pre></div><div class="mistake-explanation">Use <code>protected</code> instead of <code>private</code> when derived classes need access. Private members are invisible to all derived classes. This is one of the most common access specifier mistakes.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Assuming Friendship Is Inherited or Mutual</h3>
+                <div class="wrong-code"><pre><code class="language-python">class A {
+private:
+    int x = 10;
+    friend class B;
+};
+
+class B {
+private:
+    int y = 20;
+};
+
+class C : public B {
+public:
+    void test(A&amp; a) {
+        cout &lt;&lt; a.x;  // Error: C is not a friend of A!
+    }
+};
+
+void test(A&amp; a, B&amp; b) {
+    // A cannot access b.y just because B is a friend of A
+    // Friendship is not mutual
+}</code></pre></div><div class="error-message">Compilation error: friendship is not inherited. C inherits from B, but B&#39;s friendship with A does not transfer to C.</div><div class="correct-code"><pre><code class="language-python">class A {
+private:
+    int x = 10;
+    friend class B;
+    friend class C;  // Explicitly grant friendship to C
+};
+
+class B {
+private:
+    int y = 20;
+    friend class A;  // Explicitly grant mutual friendship if needed
+};
+
+class C : public B {
+public:
+    void test(A&amp; a) {
+        cout &lt;&lt; a.x;  // OK: C is now a friend of A
+    }
+};</code></pre></div><div class="mistake-explanation">Friendship in C++ is not inherited (derived classes do not get it), not mutual (A friends B does not mean B friends A), and not transitive (A friends B, B friends C does not mean A friends C). Each friendship must be explicitly declared.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Modifying Members in a const Method Without mutable</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Logger {
+    int callCount;  // Not mutable!
+public:
+    Logger() : callCount(0) {}
+    void log(const string&amp; msg) const {
+        callCount++;  // Error: modifying member in const method!
+        cout &lt;&lt; msg &lt;&lt; endl;
+    }
+};</code></pre></div><div class="error-message">Compilation error: cannot modify non-mutable member &#39;callCount&#39; in a const member function.</div><div class="correct-code"><pre><code class="language-python">class Logger {
+    mutable int callCount;  // mutable!
+public:
+    Logger() : callCount(0) {}
+    void log(const string&amp; msg) const {
+        callCount++;  // OK: mutable allows modification in const method
+        cout &lt;&lt; msg &lt;&lt; endl;
+    }
+    int getCallCount() const { return callCount; }
+};</code></pre></div><div class="mistake-explanation">If a member needs to be modified in a <code>const</code> method (for bookkeeping, caching, etc.), mark it <code>mutable</code>. Without <code>mutable</code>, the compiler enforces that <code>const</code> methods cannot modify any member.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Encapsulation bundles data and methods into a class while restricting direct access to internal state. It enforces data hiding and integrity.</li>
+<li>C++ has three access specifiers: private (class only), protected (class + derived classes), and public (accessible everywhere).</li>
+<li>In a class, the default access is private. In a struct, the default access is public. This is the only difference between class and struct in C++.</li>
+<li>Getters provide read access to private members. Setters provide controlled write access with validation. Getters should always be marked const.</li>
+<li>A friend function is a non-member function that can access private and protected members of the class that declares it as friend.</li>
+<li>A friend class grants all its member functions access to the private members of the declaring class. Friendship is not inherited, not mutual, and not transitive.</li>
+<li>The mutable keyword allows a member variable to be modified in const member functions. Use it for caching, counters, and mutex locks.</li>
+<li>Nested classes (classes defined inside other classes) are used to hide implementation details like nodes in a linked list or stack.</li>
+<li>Always prefer private data with public methods over public data. This allows changing the internal representation without affecting client code.</li>
+<li>The friend keyword should be used sparingly. Legitimate uses include operator&lt;&lt; overloading, tightly coupled helper classes, and iterator patterns.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/oop-classes-and-objects" class="related-topic-link">OOP - Classes, Objects, and Constructors</a>
+<a href="/resources/cpp/inheritance-in-cpp" class="related-topic-link">Inheritance in C++</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/oop-classes-and-objects" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">OOP - Classes, Objects, and Constructors</span>
+        </a>
+            <a href="/resources/cpp/inheritance-in-cpp" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Inheritance in C++</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/encapsulation-and-access-specifiers/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

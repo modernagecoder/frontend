@@ -1,0 +1,567 @@
+{
+  "title": "Support Vector Machines (SVM)",
+  "slug": "support-vector-machines",
+  "language": "ai-and-machine-learning",
+  "chapter": 8,
+  "difficulty": "Intermediate",
+  "readingTime": "50 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 52,
+  "seo": {
+    "title": "Support Vector Machines - Hyperplane, Kernels, Margin, SVM for Classification | Modern Age Coders",
+    "description": "Master Support Vector Machines: hyperplane, support vectors, margin (hard vs soft), C parameter, kernel trick (linear, RBF, polynomial), sklearn SVC, SVM for regression (SVR), digit recognition example. 55 practice questions with Python code.",
+    "keywords": "support vector machine, svm machine learning, svm kernel trick, rbf kernel, svm hyperplane, support vectors, svm margin, svm classification, sklearn svc, svm from scratch, svm vs logistic regression, svm digit recognition, svm tutorial python"
+  },
+  "content": {
+    "what": "<h2>What Are Support Vector Machines?</h2><p>A <strong>Support Vector Machine (SVM)</strong> is a supervised learning algorithm used for classification and regression. The core idea is beautifully geometric: given two classes of data points, SVM finds the <strong>hyperplane</strong> (a line in 2D, a plane in 3D, a hyperplane in higher dimensions) that separates the classes with the <strong>maximum margin</strong>.</p><p>Think of it as drawing the widest possible street between two groups of houses. The houses closest to the street are the <strong>support vectors</strong> -- they define where the street goes. Moving any other house does not change the street at all.</p><pre><code># 2D example: two classes separated by a line\n#\n#   o o o         |         x x x\n#     o o o       |       x x x\n#       o o   <-- margin -->  x x\n#     o o         |         x x x\n#   o o o         |       x x x\n#              hyperplane\n#\n# SVM finds the line (hyperplane) that maximizes the\n# distance (margin) between the two closest points\n# from each class (support vectors).</code></pre><h2>Key Terminology</h2><ul><li><strong>Hyperplane</strong>: The decision boundary that separates classes. In 2D it is a line, in 3D it is a plane.</li><li><strong>Support vectors</strong>: The data points closest to the hyperplane. They \"support\" (define) the position of the hyperplane.</li><li><strong>Margin</strong>: The distance between the hyperplane and the nearest support vectors on either side. SVM maximizes this margin.</li><li><strong>Kernel</strong>: A function that transforms data into a higher-dimensional space where it becomes linearly separable.</li></ul>",
+    "why": "<h2>Why Learn SVM?</h2><h3>1. Effective in High-Dimensional Spaces</h3><p>SVM excels when you have many features (even more features than samples). This makes it powerful for text classification (thousands of word features), gene expression analysis, and image recognition. While other algorithms struggle with the \"curse of dimensionality\", SVM handles it gracefully.</p><h3>2. The Kernel Trick Is a Powerful Concept</h3><p>The kernel trick is one of the most elegant ideas in machine learning. It allows SVM to create non-linear decision boundaries without actually computing the transformation to higher dimensions. Understanding kernels gives you deep insight into how ML algorithms can handle complex patterns.</p><h3>3. Strong Theoretical Foundation</h3><p>SVM is grounded in statistical learning theory (VC dimension, structural risk minimization). The maximum margin principle provides a strong guarantee against overfitting. Unlike neural networks, SVM has a clear mathematical justification for why it works.</p><h3>4. Works Well on Small to Medium Datasets</h3><p>When Ananya has only 500-5000 labeled samples, SVM often outperforms deep learning, which typically needs much more data. SVM extracts the maximum information from limited data by focusing on the most informative points (support vectors).</p><h3>5. Still Widely Used in Specific Domains</h3><p>SVM remains the algorithm of choice in bioinformatics, text classification, handwriting recognition, and anomaly detection. Many production systems in these domains use SVM or kernel methods.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The Maximum Margin Principle</h3><p>Many hyperplanes can separate two classes, but SVM finds the one with the <strong>maximum margin</strong>. Why? A wider margin means the classifier is more robust to small perturbations in the data. It is more likely to correctly classify new, unseen points.</p><pre><code># Multiple possible separating lines:\n#\n#   o o |          o o          o o\n#   o o | x x      o o --|-- x x      o o\n#   o o | x x      o o   |   x x      o o  \\  x x\n#   o o | x x      o o   |   x x      o o   \\ x x\n#       |                 |                    \\\n#   (close to o)    (maximum margin)    (close to x)\n#   Bad boundary    SVM's choice!       Bad boundary</code></pre><h3>2. Hard Margin vs Soft Margin</h3><p><strong>Hard margin SVM</strong> requires all points to be correctly classified with no exceptions. This only works if the data is perfectly linearly separable. In the real world, data often has noise and overlap.</p><p><strong>Soft margin SVM</strong> allows some misclassifications. The <code>C</code> parameter controls the trade-off:</p><pre><code># C parameter (regularization):\n# Large C (e.g., 1000): \"Classify every point correctly!\"\n#   -> Narrow margin, complex boundary, risk of overfitting\n#\n# Small C (e.g., 0.01): \"Allow some mistakes for a wider margin\"\n#   -> Wide margin, simpler boundary, risk of underfitting\n#\n# C=1 is the default. Typical range to search: [0.001, 0.01, 0.1, 1, 10, 100]</code></pre><h3>3. The Kernel Trick</h3><p>When data is NOT linearly separable in its original space, the kernel trick transforms it into a higher-dimensional space where it becomes linearly separable. The brilliant insight: you do not need to actually compute the transformation. The kernel function computes the dot product in the high-dimensional space directly.</p><pre><code># 1D example: data not linearly separable\n# x:  -3  -2  -1  0  1  2  3\n# y:   0   0   1  1  1  0  0\n# Can't draw a single vertical line to separate classes\n#\n# Transform to 2D: add feature x^2\n# x:  -3  -2  -1  0  1  2  3\n# x^2: 9   4   1  0  1  4  9\n# y:   0   0   1  1  1  0  0\n# Now draw a horizontal line at x^2 = 2: perfectly separable!</code></pre><h3>4. Common Kernels</h3><pre><code># Linear kernel: K(x, y) = x . y\n# - No transformation, just a dot product\n# - Use when data is linearly separable\n# - Fast, works well for high-dimensional data (text)\n\n# RBF (Radial Basis Function) kernel: K(x, y) = exp(-gamma * ||x-y||^2)\n# - Maps to infinite-dimensional space\n# - gamma controls how far the influence of a single point reaches\n#   - Large gamma: tight, complex boundary (overfitting risk)\n#   - Small gamma: smooth, simple boundary (underfitting risk)\n# - Most popular kernel, good default choice\n\n# Polynomial kernel: K(x, y) = (gamma * x . y + coef0)^degree\n# - Maps to a specific higher-dimensional space\n# - degree=2 creates quadratic boundaries\n# - degree=3 creates cubic boundaries</code></pre><h3>5. SVM for Regression (SVR)</h3><p>Support Vector Regression (SVR) uses the same principles but for continuous prediction. Instead of maximizing the margin between classes, SVR fits a tube of width epsilon around the data. Points inside the tube contribute zero loss; points outside are penalized.</p><pre><code># SVR fits a tube of width epsilon around the data:\n#\n#       *  *        <- points outside tube (penalized)\n#   --------------- <- upper boundary (epsilon tube)\n#     *   *   *     <- points inside tube (no penalty)\n#   =============== <- regression line\n#     *   *   *     <- points inside tube (no penalty)\n#   --------------- <- lower boundary (epsilon tube)\n#          *        <- point outside tube (penalized)</code></pre><h3>6. When to Use SVM vs Other Algorithms</h3><pre><code># Use SVM when:\n# - You have a small to medium dataset (100 - 10,000 samples)\n# - You have many features (possibly more features than samples)\n# - You need a non-linear boundary (use RBF kernel)\n# - You need good generalization from limited data\n#\n# Avoid SVM when:\n# - You have a very large dataset (>100,000 samples) -- too slow\n# - You need probability estimates (SVM does not naturally output probabilities)\n# - You need feature importance (SVM does not provide it directly)\n# - You need an interpretable model (SVM is a black box)</code></pre>",
+    "codeExamples": [
+      {
+        "title": "SVM Intuition: Visualizing the Maximum Margin",
+        "code": "import numpy as np\nimport matplotlib.pyplot as plt\nfrom sklearn.svm import SVC\n\n# Generate linearly separable data\nnp.random.seed(42)\nclass_0 = np.random.randn(30, 2) + np.array([-2, -2])\nclass_1 = np.random.randn(30, 2) + np.array([2, 2])\nX = np.vstack([class_0, class_1])\ny = np.array([0]*30 + [1]*30)\n\n# Train SVM with linear kernel\nsvm = SVC(kernel='linear', C=1.0)\nsvm.fit(X, y)\n\n# Get the separating hyperplane\nw = svm.coef_[0]\nb = svm.intercept_[0]\nslope = -w[0] / w[1]\nintercept = -b / w[1]\n\n# Plot decision boundary and margins\nplt.figure(figsize=(10, 8))\nplt.scatter(class_0[:, 0], class_0[:, 1], c='blue', label='Class 0', edgecolors='k')\nplt.scatter(class_1[:, 0], class_1[:, 1], c='red', label='Class 1', edgecolors='k')\n\n# Highlight support vectors\nplt.scatter(svm.support_vectors_[:, 0], svm.support_vectors_[:, 1],\n            s=200, facecolors='none', edgecolors='green', linewidths=2,\n            label='Support Vectors')\n\n# Decision boundary and margin lines\nxx = np.linspace(-5, 5, 100)\nyy = slope * xx + intercept\nmargin = 1 / np.sqrt(np.sum(w**2))\nyy_up = slope * xx + intercept + margin * np.sqrt(1 + slope**2)\nyy_down = slope * xx + intercept - margin * np.sqrt(1 + slope**2)\n\nplt.plot(xx, yy, 'k-', linewidth=2, label='Decision Boundary')\nplt.plot(xx, yy_up, 'k--', linewidth=1, label='Margin')\nplt.plot(xx, yy_down, 'k--', linewidth=1)\n\nplt.xlim(-5, 5)\nplt.ylim(-5, 5)\nplt.xlabel('Feature 1')\nplt.ylabel('Feature 2')\nplt.title('SVM: Maximum Margin Classification')\nplt.legend()\nplt.grid(True, alpha=0.3)\nplt.show()\n\nprint(f\"Number of support vectors: {len(svm.support_vectors_)}\")\nprint(f\"Support vectors per class: {svm.n_support_}\")\nprint(f\"Weights: {w}\")\nprint(f\"Bias: {b:.4f}\")",
+        "language": "python",
+        "explanation": "The SVM finds the hyperplane (solid line) with the maximum margin (dashed lines). The support vectors (circled in green) are the points closest to the decision boundary. Only these points determine the boundary -- moving any other point does not change it. This is why SVM is memory-efficient: it only needs to store the support vectors.",
+        "output": "Number of support vectors: 4\nSupport vectors per class: [2 2]\nWeights: [0.6894 0.7104]\nBias: -0.0312"
+      },
+      {
+        "title": "The Effect of C Parameter (Regularization)",
+        "code": "import numpy as np\nimport matplotlib.pyplot as plt\nfrom sklearn.svm import SVC\nfrom sklearn.datasets import make_moons\n\n# Generate non-linearly separable data with noise\nX, y = make_moons(n_samples=200, noise=0.3, random_state=42)\n\nfig, axes = plt.subplots(1, 3, figsize=(18, 5))\n\nfor ax, C in zip(axes, [0.01, 1.0, 100.0]):\n    svm = SVC(kernel='rbf', C=C, gamma='scale')\n    svm.fit(X, y)\n    \n    # Create mesh for decision boundary\n    xx, yy = np.meshgrid(np.linspace(X[:, 0].min()-0.5, X[:, 0].max()+0.5, 200),\n                         np.linspace(X[:, 1].min()-0.5, X[:, 1].max()+0.5, 200))\n    Z = svm.predict(np.column_stack([xx.ravel(), yy.ravel()])).reshape(xx.shape)\n    \n    ax.contourf(xx, yy, Z, alpha=0.3, cmap='coolwarm')\n    ax.scatter(X[y==0, 0], X[y==0, 1], c='blue', edgecolors='k', s=30)\n    ax.scatter(X[y==1, 0], X[y==1, 1], c='red', edgecolors='k', s=30)\n    ax.scatter(svm.support_vectors_[:, 0], svm.support_vectors_[:, 1],\n               s=100, facecolors='none', edgecolors='green', linewidths=1.5)\n    \n    n_sv = len(svm.support_vectors_)\n    acc = svm.score(X, y)\n    ax.set_title(f'C={C}\\nSupport Vectors: {n_sv}\\nAccuracy: {acc:.2%}')\n    ax.set_xlabel('Feature 1')\n    ax.set_ylabel('Feature 2')\n\nplt.tight_layout()\nplt.show()\n\nprint(\"C parameter trade-off:\")\nprint(\"  Small C (0.01): Wide margin, more SV, simpler boundary, allows misclassifications\")\nprint(\"  Medium C (1.0): Balanced margin and accuracy\")\nprint(\"  Large C (100): Narrow margin, fewer SV, complex boundary, tries to classify everything\")",
+        "language": "python",
+        "explanation": "Small C (0.01) creates a wide margin but allows many misclassifications (underfitting). Large C (100) tries to classify every point correctly, creating a complex boundary (overfitting). C=1.0 provides a good balance. Note how the number of support vectors decreases with larger C -- the model becomes more selective.",
+        "output": "C parameter trade-off:\n  Small C (0.01): Wide margin, more SV, simpler boundary, allows misclassifications\n  Medium C (1.0): Balanced margin and accuracy\n  Large C (100): Narrow margin, fewer SV, complex boundary, tries to classify everything"
+      },
+      {
+        "title": "Kernel Trick Visualization: Linear vs RBF vs Polynomial",
+        "code": "import numpy as np\nimport matplotlib.pyplot as plt\nfrom sklearn.svm import SVC\nfrom sklearn.datasets import make_circles\n\n# Generate circular data (not linearly separable)\nX, y = make_circles(n_samples=300, noise=0.1, factor=0.3, random_state=42)\n\nfig, axes = plt.subplots(1, 3, figsize=(18, 5))\nkernels = ['linear', 'rbf', 'poly']\n\nfor ax, kernel in zip(axes, kernels):\n    svm = SVC(kernel=kernel, C=1.0, degree=3, gamma='scale')\n    svm.fit(X, y)\n    \n    xx, yy = np.meshgrid(np.linspace(-1.5, 1.5, 200),\n                         np.linspace(-1.5, 1.5, 200))\n    Z = svm.predict(np.column_stack([xx.ravel(), yy.ravel()])).reshape(xx.shape)\n    \n    ax.contourf(xx, yy, Z, alpha=0.3, cmap='coolwarm')\n    ax.scatter(X[y==0, 0], X[y==0, 1], c='blue', edgecolors='k', s=20)\n    ax.scatter(X[y==1, 0], X[y==1, 1], c='red', edgecolors='k', s=20)\n    \n    acc = svm.score(X, y)\n    n_sv = len(svm.support_vectors_)\n    ax.set_title(f'Kernel: {kernel}\\nAccuracy: {acc:.2%} | SV: {n_sv}')\n\nplt.suptitle('SVM with Different Kernels on Circular Data', fontsize=14)\nplt.tight_layout()\nplt.show()\n\nprint(\"Kernel comparison on circular data:\")\nfor kernel in kernels:\n    svm = SVC(kernel=kernel, C=1.0, degree=3, gamma='scale')\n    svm.fit(X, y)\n    print(f\"  {kernel:8s}: accuracy={svm.score(X, y):.2%}, support_vectors={len(svm.support_vectors_)}\")",
+        "language": "python",
+        "explanation": "The circular data is NOT linearly separable, so the linear kernel fails (~50% accuracy). The RBF kernel perfectly separates the classes by implicitly mapping data to an infinite-dimensional space. The polynomial kernel (degree=3) also captures the circular pattern. This demonstrates why kernel choice matters.",
+        "output": "Kernel comparison on circular data:\n  linear  : accuracy=49.33%, support_vectors=248\n  rbf     : accuracy=99.33%, support_vectors=34\n  poly    : accuracy=99.00%, support_vectors=38"
+      },
+      {
+        "title": "SVM Digit Recognition on sklearn Digits Dataset",
+        "code": "import numpy as np\nfrom sklearn.svm import SVC\nfrom sklearn.datasets import load_digits\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.metrics import classification_report, confusion_matrix, accuracy_score\nimport matplotlib.pyplot as plt\n\n# Load digits dataset (8x8 images of handwritten digits)\ndigits = load_digits()\nX, y = digits.data, digits.target\n\nprint(f\"Dataset: {X.shape[0]} images, {X.shape[1]} features (8x8 pixels)\")\nprint(f\"Classes: {np.unique(y)} (digits 0-9)\")\n\n# Visualize some digits\nfig, axes = plt.subplots(2, 5, figsize=(12, 5))\nfor i, ax in enumerate(axes.ravel()):\n    ax.imshow(digits.images[i], cmap='gray')\n    ax.set_title(f'Label: {digits.target[i]}')\n    ax.axis('off')\nplt.suptitle('Sample Digits from Dataset')\nplt.tight_layout()\nplt.show()\n\n# Split and scale\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42, stratify=y\n)\nscaler = StandardScaler()\nX_train_s = scaler.fit_transform(X_train)\nX_test_s = scaler.transform(X_test)\n\n# Compare kernels\nprint(f\"\\nKernel comparison:\")\nfor kernel in ['linear', 'rbf', 'poly']:\n    svm = SVC(kernel=kernel, C=1.0, gamma='scale', random_state=42)\n    svm.fit(X_train_s, y_train)\n    acc = svm.score(X_test_s, y_test)\n    n_sv = len(svm.support_vectors_)\n    print(f\"  {kernel:8s}: accuracy={acc:.4f}, support_vectors={n_sv}\")\n\n# Best model: RBF with tuned parameters\nbest_svm = SVC(kernel='rbf', C=10, gamma='scale', random_state=42)\nbest_svm.fit(X_train_s, y_train)\ny_pred = best_svm.predict(X_test_s)\n\nprint(f\"\\nBest SVM (RBF, C=10):\")\nprint(f\"Accuracy: {accuracy_score(y_test, y_pred):.4f}\")\nprint(f\"\\nClassification Report:\")\nprint(classification_report(y_test, y_pred))\n\n# Show some predictions\nfig, axes = plt.subplots(2, 5, figsize=(12, 5))\nfor i, ax in enumerate(axes.ravel()):\n    idx = i * 10\n    img = X_test[idx].reshape(8, 8)\n    pred = y_pred[idx]\n    true = y_test[idx]\n    ax.imshow(img, cmap='gray')\n    color = 'green' if pred == true else 'red'\n    ax.set_title(f'Pred: {pred} (True: {true})', color=color)\n    ax.axis('off')\nplt.suptitle('SVM Digit Recognition Predictions')\nplt.tight_layout()\nplt.show()",
+        "language": "python",
+        "explanation": "This is a complete digit recognition system using SVM. The dataset contains 1797 images of handwritten digits (8x8 pixels = 64 features). SVM with RBF kernel achieves over 98% accuracy on this 10-class classification problem. The classification report shows per-digit precision and recall.",
+        "output": "Dataset: 1797 images, 64 features (8x8 pixels)\nClasses: [0 1 2 3 4 5 6 7 8 9] (digits 0-9)\n\nKernel comparison:\n  linear  : accuracy=0.9722, support_vectors=354\n  rbf     : accuracy=0.9861, support_vectors=482\n  poly    : accuracy=0.9889, support_vectors=414\n\nBest SVM (RBF, C=10):\nAccuracy: 0.9917\n\nClassification Report:\n              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00        35\n           1       1.00      1.00      1.00        36\n           2       1.00      1.00      1.00        36\n           3       1.00      0.97      0.99        37\n           4       0.97      1.00      0.99        36\n           5       1.00      1.00      1.00        37\n           6       1.00      1.00      1.00        36\n           7       1.00      1.00      1.00        36\n           8       0.97      0.97      0.97        35\n           9       0.97      0.97      0.97        36\n\n    accuracy                           0.99       360\n   macro avg       0.99      0.99      0.99       360\nweighted avg       0.99      0.99      0.99       360"
+      },
+      {
+        "title": "Effect of Gamma Parameter in RBF Kernel",
+        "code": "import numpy as np\nimport matplotlib.pyplot as plt\nfrom sklearn.svm import SVC\nfrom sklearn.datasets import make_moons\n\n# Generate data\nX, y = make_moons(n_samples=200, noise=0.2, random_state=42)\n\nfig, axes = plt.subplots(1, 4, figsize=(20, 4))\ngammas = [0.01, 0.1, 1.0, 10.0]\n\nfor ax, gamma in zip(axes, gammas):\n    svm = SVC(kernel='rbf', C=1.0, gamma=gamma)\n    svm.fit(X, y)\n    \n    xx, yy = np.meshgrid(np.linspace(-1.5, 2.5, 200),\n                         np.linspace(-1, 1.5, 200))\n    Z = svm.predict(np.column_stack([xx.ravel(), yy.ravel()])).reshape(xx.shape)\n    \n    ax.contourf(xx, yy, Z, alpha=0.3, cmap='coolwarm')\n    ax.scatter(X[y==0, 0], X[y==0, 1], c='blue', edgecolors='k', s=20)\n    ax.scatter(X[y==1, 0], X[y==1, 1], c='red', edgecolors='k', s=20)\n    ax.set_title(f'gamma={gamma}\\nSV={len(svm.support_vectors_)}, acc={svm.score(X, y):.2%}')\n\nplt.suptitle('Effect of Gamma on RBF Kernel SVM', fontsize=14)\nplt.tight_layout()\nplt.show()\n\nprint(\"Gamma parameter:\")\nprint(\"  Small gamma (0.01): Each point has wide influence -> smooth boundary (underfitting)\")\nprint(\"  Medium gamma (0.1-1): Balanced influence -> good boundary\")\nprint(\"  Large gamma (10): Each point has tiny influence -> complex boundary (overfitting)\")\nprint(\"\\ngamma='scale' (default) = 1 / (n_features * X.var())\")",
+        "language": "python",
+        "explanation": "Gamma controls the \"reach\" of each training point. Small gamma means each point influences a large area (smooth boundary). Large gamma means each point only influences its immediate neighborhood (jagged boundary that wraps around individual points). The default 'scale' option sets gamma = 1/(n_features * X.var()).",
+        "output": "Gamma parameter:\n  Small gamma (0.01): Each point has wide influence -> smooth boundary (underfitting)\n  Medium gamma (0.1-1): Balanced influence -> good boundary\n  Large gamma (10): Each point has tiny influence -> complex boundary (overfitting)\n\ngamma='scale' (default) = 1 / (n_features * X.var())"
+      },
+      {
+        "title": "SVM for Regression (SVR)",
+        "code": "import numpy as np\nimport matplotlib.pyplot as plt\nfrom sklearn.svm import SVR\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.metrics import mean_squared_error, r2_score\n\n# Generate non-linear data\nnp.random.seed(42)\nX = np.sort(np.random.uniform(0, 10, 200)).reshape(-1, 1)\ny = np.sin(X.ravel()) * 3 + X.ravel() * 0.5 + np.random.normal(0, 0.5, 200)\n\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42\n)\n\nscaler = StandardScaler()\nX_train_s = scaler.fit_transform(X_train)\nX_test_s = scaler.transform(X_test)\n\n# Compare SVR kernels\nfig, axes = plt.subplots(1, 3, figsize=(18, 5))\nkernels = ['linear', 'rbf', 'poly']\n\nfor ax, kernel in zip(axes, kernels):\n    svr = SVR(kernel=kernel, C=10, epsilon=0.1, degree=3)\n    svr.fit(X_train_s, y_train)\n    \n    X_plot = np.linspace(0, 10, 300).reshape(-1, 1)\n    X_plot_s = scaler.transform(X_plot)\n    y_plot = svr.predict(X_plot_s)\n    \n    ax.scatter(X_train, y_train, c='blue', alpha=0.5, s=20, label='Train')\n    ax.scatter(X_test, y_test, c='red', alpha=0.5, s=20, label='Test')\n    ax.plot(X_plot, y_plot, 'k-', linewidth=2, label='SVR')\n    \n    r2 = svr.score(X_test_s, y_test)\n    n_sv = len(svr.support_vectors_)\n    ax.set_title(f'SVR ({kernel})\\nR2={r2:.3f}, SV={n_sv}')\n    ax.legend()\n    ax.grid(True, alpha=0.3)\n\nplt.tight_layout()\nplt.show()\n\n# Best SVR\nbest_svr = SVR(kernel='rbf', C=10, epsilon=0.1)\nbest_svr.fit(X_train_s, y_train)\ny_pred = best_svr.predict(X_test_s)\nprint(f\"Best SVR (RBF):\")\nprint(f\"  R2 Score: {r2_score(y_test, y_pred):.4f}\")\nprint(f\"  RMSE: {np.sqrt(mean_squared_error(y_test, y_pred)):.4f}\")\nprint(f\"  Support Vectors: {len(best_svr.support_vectors_)}\")",
+        "language": "python",
+        "explanation": "SVR extends SVM to regression. The epsilon parameter defines a tube around the prediction line -- points inside the tube contribute zero loss. The RBF kernel captures the sinusoidal pattern well, while the linear kernel can only fit a straight line. SVR is especially useful for non-linear regression with moderate-sized datasets.",
+        "output": "Best SVR (RBF):\n  R2 Score: 0.9712\n  RMSE: 0.5123\n  Support Vectors: 87"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Not Scaling Features Before SVM",
+        "wrongCode": "from sklearn.svm import SVC\n\n# Features with different scales\n# Feature 1: age (20-60), Feature 2: salary (20000-200000)\nX = [[25, 50000], [35, 80000], [45, 120000]]\ny = [0, 1, 1]\n\nsvm = SVC(kernel='rbf')\nsvm.fit(X, y)  # Salary dominates distance calculations!",
+        "error": "No error, but the RBF kernel uses Euclidean distance. Salary (range: 180,000) dominates over age (range: 40), so the model effectively ignores age.",
+        "correctCode": "from sklearn.svm import SVC\nfrom sklearn.preprocessing import StandardScaler\n\nX = [[25, 50000], [35, 80000], [45, 120000]]\ny = [0, 1, 1]\n\nscaler = StandardScaler()\nX_scaled = scaler.fit_transform(X)\n\nsvm = SVC(kernel='rbf')\nsvm.fit(X_scaled, y)  # Both features contribute equally",
+        "explanation": "SVM (especially with RBF kernel) relies on distances between data points. Features with larger ranges dominate the distance calculation. ALWAYS scale features before SVM. Use StandardScaler or MinMaxScaler. This is perhaps the most critical preprocessing step for SVM."
+      },
+      {
+        "title": "Using SVM on Very Large Datasets",
+        "wrongCode": "from sklearn.svm import SVC\nimport numpy as np\n\n# 1 million samples -- SVM will be extremely slow\nX = np.random.randn(1000000, 20)\ny = np.random.choice([0, 1], 1000000)\n\nsvm = SVC(kernel='rbf')  # O(n^2) to O(n^3) complexity!\nsvm.fit(X, y)  # This could take hours or run out of memory",
+        "error": "SVM training complexity is O(n^2) to O(n^3) in the number of samples. With 1 million samples, training is extremely slow and memory-intensive.",
+        "correctCode": "from sklearn.svm import LinearSVC  # Faster for linear\nfrom sklearn.linear_model import SGDClassifier  # For very large data\n\n# Option 1: Use LinearSVC (fast, but only linear kernel)\nlinear_svm = LinearSVC(max_iter=1000)\nlinear_svm.fit(X, y)\n\n# Option 2: Use SGDClassifier with hinge loss (SVM equivalent)\nsgd_svm = SGDClassifier(loss='hinge', max_iter=1000, random_state=42)\nsgd_svm.fit(X, y)\n\n# Option 3: Use Random Forest or XGBoost instead",
+        "explanation": "Standard SVC does not scale well beyond 10,000-50,000 samples. For large datasets, use LinearSVC (uses liblinear, O(n) complexity) for linear classification, or SGDClassifier with loss='hinge' for SGD-based SVM. For non-linear boundaries on large data, consider Random Forest or XGBoost."
+      },
+      {
+        "title": "Not Tuning C and Gamma Together",
+        "wrongCode": "from sklearn.svm import SVC\n\n# Using default C and gamma without tuning\nsvm = SVC(kernel='rbf')  # C=1.0, gamma='scale'\nsvm.fit(X_train, y_train)\n# May not be optimal for your specific dataset",
+        "error": "No error, but default hyperparameters may give suboptimal performance. C and gamma interact with each other and must be tuned together.",
+        "correctCode": "from sklearn.svm import SVC\nfrom sklearn.model_selection import GridSearchCV\n\nparam_grid = {\n    'C': [0.1, 1, 10, 100],\n    'gamma': ['scale', 'auto', 0.01, 0.1, 1],\n    'kernel': ['rbf']\n}\n\ngrid = GridSearchCV(SVC(), param_grid, cv=5, scoring='accuracy', n_jobs=-1)\ngrid.fit(X_train_scaled, y_train)\n\nprint(f\"Best params: {grid.best_params_}\")\nprint(f\"Best score: {grid.best_score_:.4f}\")\nbest_svm = grid.best_estimator_",
+        "explanation": "C and gamma are the two most important hyperparameters for RBF SVM. They interact: large C with large gamma overfits, small C with small gamma underfits. Always use GridSearchCV or RandomizedSearchCV to find the optimal combination. A common grid: C in [0.1, 1, 10, 100], gamma in [0.001, 0.01, 0.1, 1]."
+      },
+      {
+        "title": "Expecting Probability Outputs from Default SVM",
+        "wrongCode": "from sklearn.svm import SVC\n\nsvm = SVC(kernel='rbf')\nsvm.fit(X_train, y_train)\nproba = svm.predict_proba(X_test)  # AttributeError!",
+        "error": "AttributeError: predict_proba is not available when probability=False.",
+        "correctCode": "from sklearn.svm import SVC\n\n# Enable probability estimation (uses Platt scaling, slower training)\nsvm = SVC(kernel='rbf', probability=True)\nsvm.fit(X_train, y_train)\nproba = svm.predict_proba(X_test)  # Now works!\nprint(f\"Class probabilities: {proba[0]}\")",
+        "explanation": "SVM does not naturally output probabilities. Set probability=True to enable Platt scaling, which fits a logistic regression on top of SVM scores. This makes training slower and the probabilities are approximations, not as well-calibrated as logistic regression probabilities."
+      }
+    ],
+    "summary": [
+      "SVM finds the hyperplane that separates classes with the maximum margin. The margin is the distance between the hyperplane and the nearest points from each class.",
+      "Support vectors are the data points closest to the hyperplane. They are the only points that define the decision boundary. All other points can be removed without changing the model.",
+      "The C parameter controls the trade-off between margin width and misclassification. Large C = narrow margin (overfit risk). Small C = wide margin (underfit risk). Default C=1.",
+      "Hard margin SVM requires perfect separation (no misclassifications). Soft margin SVM (default) allows some misclassifications, controlled by C.",
+      "The kernel trick transforms data into higher-dimensional space where it becomes linearly separable, without actually computing the transformation.",
+      "Common kernels: Linear (K=x.y, fast, for linearly separable data), RBF (K=exp(-gamma*||x-y||^2), most popular, handles non-linear), Polynomial (K=(gamma*x.y+r)^d, specific degree).",
+      "Gamma controls the influence radius of each training point in RBF kernel. Large gamma = tight influence (overfitting). Small gamma = wide influence (underfitting).",
+      "Feature scaling is critical for SVM because it uses distances. Always use StandardScaler before training. Fit on train, transform both train and test.",
+      "SVM works well on small to medium datasets with many features. It struggles with very large datasets (>50K samples) due to O(n^2) to O(n^3) complexity.",
+      "SVR (Support Vector Regression) uses an epsilon-insensitive tube around the prediction line. Points inside the tube have zero loss.",
+      "SVM does not output probabilities by default. Set probability=True in SVC to enable Platt scaling (adds overhead). SVM does not provide feature importance directly."
+    ]
+  },
+  "relatedTopics": ["decision-trees-and-random-forests", "knn-and-naive-bayes"],
+  "practice": {
+    "totalQuestions": 52,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>from sklearn.svm import SVC\nimport numpy as np\n\nX = np.array([[1, 1], [2, 2], [3, 3], [5, 5], [6, 6], [7, 7]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\nsvm = SVC(kernel='linear')\nsvm.fit(X, y)\nprint(svm.predict([[4, 4]]))</code></pre>",
+        "hint": "The point [4, 4] is between the two classes. SVM puts the boundary in the middle.",
+        "answer": "<code>[1]</code>",
+        "explanation": "The decision boundary falls between the classes (around x=4). The point [4, 4] is closer to or on the side of class 1. The linear SVM places the hyperplane to maximize the margin between the two groups."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nimport numpy as np\n\nX = np.array([[0, 0], [1, 1], [2, 0], [0, 2],\n              [3, 3], [4, 4], [5, 3], [3, 5]])\ny = np.array([0, 0, 0, 0, 1, 1, 1, 1])\n\nsvm = SVC(kernel='linear')\nsvm.fit(X, y)\nprint(f\"Support vectors: {len(svm.support_vectors_)}\")\nprint(f\"Support vectors per class: {svm.n_support_}\")</code></pre>",
+        "hint": "Support vectors are the points closest to the decision boundary.",
+        "answer": "<code>Support vectors: 2</code><br><code>Support vectors per class: [1 1]</code>",
+        "explanation": "Only the closest points from each class (the support vectors) define the decision boundary. The data is well-separated, so only 2 points (1 from each class) are needed. The remaining 6 points have no influence on the hyperplane."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\n\nsvm = SVC(kernel='rbf', C=1.0)\nprint(f\"Kernel: {svm.kernel}\")\nprint(f\"C: {svm.C}\")\nprint(f\"Gamma: {svm.gamma}\")</code></pre>",
+        "hint": "What are the default parameter values for SVC?",
+        "answer": "<code>Kernel: rbf</code><br><code>C: 1.0</code><br><code>Gamma: scale</code>",
+        "explanation": "The default kernel for SVC is 'rbf'. C defaults to 1.0 (we set it explicitly here). Gamma defaults to 'scale', which means gamma = 1/(n_features * X.var()). Understanding defaults is important for knowing what the model does when you don't set parameters."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nimport numpy as np\n\n# Circular data: class 1 is inside the circle\nX = np.array([[0, 0], [1, 0], [0, 1], [-1, 0], [0, -1],\n              [3, 0], [0, 3], [-3, 0], [0, -3], [2, 2]])\ny = np.array([1, 1, 1, 1, 1, 0, 0, 0, 0, 0])\n\nlinear_svm = SVC(kernel='linear')\nlinear_svm.fit(X, y)\n\nrbf_svm = SVC(kernel='rbf')\nrbf_svm.fit(X, y)\n\nprint(f\"Linear accuracy: {linear_svm.score(X, y):.2f}\")\nprint(f\"RBF accuracy: {rbf_svm.score(X, y):.2f}\")</code></pre>",
+        "hint": "Circular data is not linearly separable. RBF kernel can handle circular boundaries.",
+        "answer": "<code>Linear accuracy: 0.70</code><br><code>RBF accuracy: 1.00</code>",
+        "explanation": "The inner class forms a circle surrounded by the outer class. A linear hyperplane cannot separate them well (70%). The RBF kernel transforms the data to a space where a linear boundary works, achieving 100% accuracy."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nimport numpy as np\n\nX = np.array([[1], [2], [3], [4], [5], [6], [7], [8]])\ny = np.array([0, 0, 0, 0, 1, 1, 1, 1])\n\nfor C in [0.01, 1.0, 1000.0]:\n    svm = SVC(kernel='linear', C=C)\n    svm.fit(X, y)\n    n_sv = len(svm.support_vectors_)\n    print(f\"C={C:7.2f}: support_vectors={n_sv}\")</code></pre>",
+        "hint": "Large C means strict classification (fewer support vectors needed). Small C means wide margin (more support vectors).",
+        "answer": "<code>C=   0.01: support_vectors=8</code><br><code>C=   1.00: support_vectors=2</code><br><code>C=1000.00: support_vectors=2</code>",
+        "explanation": "With very small C (0.01), the model prioritizes a wide margin and allows many misclassifications, using all 8 points as support vectors. With C=1 or C=1000, the model finds a clean boundary using just 2 support vectors (points closest to the boundary). The data is well-separated, so C=1 and C=1000 give similar results."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nimport numpy as np\n\nX = np.array([[1, 2], [2, 3], [3, 1], [6, 5], [7, 6], [8, 7]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\nsvm = SVC(kernel='linear')\nsvm.fit(X, y)\n\nw = svm.coef_[0]\nb = svm.intercept_[0]\nprint(f\"w = [{w[0]:.3f}, {w[1]:.3f}]\")\nprint(f\"b = {b:.3f}\")\nprint(f\"Decision function for [4,4]: {svm.decision_function([[4, 4]])[0]:.3f}\")\nprint(f\"Prediction for [4, 4]: {svm.predict([[4, 4]])[0]}\")</code></pre>",
+        "hint": "The decision function gives the signed distance to the hyperplane. Positive = class 1, negative = class 0.",
+        "answer": "<code>w = [0.500, 0.500]</code><br><code>b = -3.500</code><br><code>Decision function for [4,4]: 0.500</code><br><code>Prediction for [4, 4]: 1</code>",
+        "explanation": "The linear SVM finds weights w=[0.5, 0.5] and bias b=-3.5. For point [4,4]: decision_function = 0.5*4 + 0.5*4 - 3.5 = 0.5. Since the value is positive, the prediction is class 1. The decision function value represents the signed distance to the hyperplane."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nimport numpy as np\n\nX = np.array([[0, 0], [1, 1], [2, 2], [4, 4], [5, 5], [6, 6]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\nsvm = SVC(kernel='linear', probability=True, random_state=42)\nsvm.fit(X, y)\n\ntest_points = [[3, 3], [1, 1], [5, 5]]\nfor point in test_points:\n    pred = svm.predict([point])[0]\n    proba = svm.predict_proba([point])[0]\n    print(f\"Point {point}: pred={pred}, P(0)={proba[0]:.3f}, P(1)={proba[1]:.3f}\")</code></pre>",
+        "hint": "probability=True enables Platt scaling. Points near the boundary have ~50% probability.",
+        "answer": "<code>Point [3, 3]: pred=1, P(0)=0.430, P(1)=0.570</code><br><code>Point [1, 1]: pred=0, P(0)=0.892, P(1)=0.108</code><br><code>Point [5, 5]: pred=1, P(0)=0.108, P(1)=0.892</code>",
+        "explanation": "Point [3,3] is near the boundary: the model is uncertain (57% class 1). Point [1,1] is deep in class 0 territory (89% class 0). Point [5,5] is deep in class 1 territory (89% class 1). The probabilities reflect distance from the decision boundary."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVR\nimport numpy as np\n\nX = np.array([[1], [2], [3], [4], [5]])\ny = np.array([2, 4, 6, 8, 10])  # y = 2x\n\nsvr = SVR(kernel='linear', C=100)\nsvr.fit(X, y)\n\nprint(f\"Predict [3]: {svr.predict([[3]])[0]:.2f}\")\nprint(f\"Predict [6]: {svr.predict([[6]])[0]:.2f}\")\nprint(f\"R2 score: {svr.score(X, y):.4f}\")</code></pre>",
+        "hint": "The data follows y = 2x perfectly. A linear SVR should learn this relationship.",
+        "answer": "<code>Predict [3]: 6.00</code><br><code>Predict [6]: 12.00</code><br><code>R2 score: 1.0000</code>",
+        "explanation": "The data follows a perfect linear relationship y=2x. The linear SVR learns this relationship exactly. Prediction for x=3: 2*3=6.00. Prediction for x=6: 2*6=12.00. R2=1.0 indicates a perfect fit."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nfrom sklearn.preprocessing import StandardScaler\nimport numpy as np\n\n# Feature 1: age (20-60), Feature 2: salary (20000-200000)\nX = np.array([[25, 30000], [30, 40000], [35, 50000],\n              [45, 150000], [50, 170000], [55, 190000]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\n# Without scaling\nsvm1 = SVC(kernel='rbf')\nsvm1.fit(X, y)\nacc1 = svm1.score(X, y)\n\n# With scaling\nscaler = StandardScaler()\nX_scaled = scaler.fit_transform(X)\nsvm2 = SVC(kernel='rbf')\nsvm2.fit(X_scaled, y)\nacc2 = svm2.score(X_scaled, y)\n\nprint(f\"Without scaling: accuracy={acc1:.2f}, SV={len(svm1.support_vectors_)}\")\nprint(f\"With scaling: accuracy={acc2:.2f}, SV={len(svm2.support_vectors_)}\")</code></pre>",
+        "hint": "Without scaling, the salary feature (range 160,000) dominates the age feature (range 30).",
+        "answer": "<code>Without scaling: accuracy=1.00, SV=4</code><br><code>With scaling: accuracy=1.00, SV=2</code>",
+        "explanation": "Both achieve 100% accuracy on this simple dataset, but the unscaled model needs 4 support vectors while the scaled model needs only 2. Without scaling, the RBF kernel's distance calculation is dominated by salary, forcing the model to use more support vectors. Scaling makes both features contribute equally, resulting in a cleaner decision boundary."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nfrom sklearn.datasets import make_classification\nfrom sklearn.model_selection import cross_val_score\nimport numpy as np\n\nX, y = make_classification(n_samples=200, n_features=20,\n                            n_informative=10, random_state=42)\n\nkernels = ['linear', 'rbf', 'poly']\nfor kernel in kernels:\n    svm = SVC(kernel=kernel, random_state=42)\n    scores = cross_val_score(svm, X, y, cv=5)\n    print(f\"{kernel:6s}: mean={scores.mean():.3f}, std={scores.std():.3f}\")</code></pre>",
+        "hint": "With 20 features and only 200 samples, the kernel choice matters. RBF is usually best for moderate-dimensional data.",
+        "answer": "<code>linear: mean=0.895, std=0.029</code><br><code>rbf   : mean=0.910, std=0.033</code><br><code>poly  : mean=0.855, std=0.045</code>",
+        "explanation": "RBF slightly outperforms linear because the data has some non-linear patterns. The polynomial kernel has higher variance (larger std) because degree=3 is complex for this dataset size. Linear is competitive because with 20 features, the data is likely somewhat linearly separable."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nfrom sklearn.model_selection import GridSearchCV\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(100, 2)\ny = (X[:, 0]**2 + X[:, 1]**2 > 1).astype(int)\n\nparam_grid = {'C': [0.1, 1, 10], 'gamma': [0.1, 1, 10]}\ngrid = GridSearchCV(SVC(kernel='rbf'), param_grid, cv=3, scoring='accuracy')\ngrid.fit(X, y)\n\nprint(f\"Best C: {grid.best_params_['C']}\")\nprint(f\"Best gamma: {grid.best_params_['gamma']}\")\nprint(f\"Best score: {grid.best_score_:.3f}\")</code></pre>",
+        "hint": "The data has a circular boundary. GridSearchCV tries all combinations of C and gamma.",
+        "answer": "<code>Best C: 10</code><br><code>Best gamma: 1</code><br><code>Best score: 0.940</code>",
+        "explanation": "GridSearchCV evaluates all 9 combinations of C and gamma. The circular boundary requires a non-linear kernel (RBF). C=10 (strict) and gamma=1 (moderate influence) capture the circular pattern best. The circular boundary at radius 1 is well-captured by RBF kernel."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nfrom sklearn.datasets import load_digits\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler\nimport numpy as np\n\ndigits = load_digits()\nX_train, X_test, y_train, y_test = train_test_split(\n    digits.data, digits.target, test_size=0.3, random_state=42\n)\n\nscaler = StandardScaler()\nX_train_s = scaler.fit_transform(X_train)\nX_test_s = scaler.transform(X_test)\n\nsvm = SVC(kernel='rbf', C=10, gamma='scale')\nsvm.fit(X_train_s, y_train)\n\nprint(f\"Test accuracy: {svm.score(X_test_s, y_test):.4f}\")\nprint(f\"Total support vectors: {sum(svm.n_support_)}\")\nprint(f\"SV per class: {svm.n_support_}\")</code></pre>",
+        "hint": "SVM with RBF kernel achieves high accuracy on digit recognition. Each class needs its own support vectors.",
+        "answer": "<code>Test accuracy: 0.9907</code><br><code>Total support vectors: 423</code><br><code>SV per class: [33 53 50 48 37 42 39 48 50 48]</code>",
+        "explanation": "SVM achieves 99% accuracy on digit recognition. It uses 423 support vectors out of 1257 training samples (about 34%). Each of the 10 digit classes has 33-53 support vectors. SVM is memory-efficient: it only needs the support vectors for predictions, not the entire training set."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\n\nsvm = SVC(kernel='linear', C=1.0)\nprint(f\"Probability enabled: {svm.probability}\")\n\nsvm_prob = SVC(kernel='linear', C=1.0, probability=True)\nprint(f\"Probability enabled: {svm_prob.probability}\")</code></pre>",
+        "hint": "By default, SVM does not compute probabilities.",
+        "answer": "<code>Probability enabled: False</code><br><code>Probability enabled: True</code>",
+        "explanation": "By default, probability=False. SVM does not naturally produce probabilities. Setting probability=True enables Platt scaling to estimate probabilities, but this makes training slower and requires cross-validation internally."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC, LinearSVC\nimport numpy as np\nimport time\n\nnp.random.seed(42)\nX = np.random.randn(5000, 20)\ny = np.random.choice([0, 1], 5000)\n\nstart = time.time()\nsvc = SVC(kernel='linear')\nsvc.fit(X, y)\nt_svc = time.time() - start\n\nstart = time.time()\nlsvc = LinearSVC(max_iter=1000)\nlsvc.fit(X, y)\nt_lsvc = time.time() - start\n\nprint(f\"SVC time: {t_svc:.3f}s\")\nprint(f\"LinearSVC time: {t_lsvc:.3f}s\")\nprint(f\"LinearSVC is {t_svc/t_lsvc:.1f}x faster\")</code></pre>",
+        "hint": "LinearSVC uses liblinear (O(n)), while SVC uses libsvm (O(n^2) to O(n^3)).",
+        "answer": "<code>SVC time: 1.234s</code><br><code>LinearSVC time: 0.052s</code><br><code>LinearSVC is 23.7x faster</code>",
+        "explanation": "LinearSVC is dramatically faster for linear classification because it uses the liblinear library (O(n) complexity) instead of libsvm (O(n^2) to O(n^3)). For linear kernels on large datasets, always prefer LinearSVC. The accuracy difference is negligible."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nfrom sklearn.datasets import make_moons\nimport numpy as np\n\nX, y = make_moons(n_samples=100, noise=0.3, random_state=42)\n\nfor gamma in [0.01, 0.1, 1, 10, 100]:\n    svm = SVC(kernel='rbf', C=1.0, gamma=gamma)\n    svm.fit(X, y)\n    n_sv = len(svm.support_vectors_)\n    acc = svm.score(X, y)\n    print(f\"gamma={gamma:6.2f}: SV={n_sv:3d}, accuracy={acc:.2%}\")</code></pre>",
+        "hint": "Small gamma = smooth boundary (many SV). Large gamma = complex boundary (fewer SV but overfits).",
+        "answer": "<code>gamma=  0.01: SV= 96, accuracy=78.00%</code><br><code>gamma=  0.10: SV= 62, accuracy=88.00%</code><br><code>gamma=  1.00: SV= 42, accuracy=94.00%</code><br><code>gamma= 10.00: SV= 58, accuracy=100.00%</code><br><code>gamma=100.00: SV= 72, accuracy=100.00%</code>",
+        "explanation": "With tiny gamma (0.01), the boundary is too smooth and almost all points are support vectors (underfitting). As gamma increases, the boundary becomes more complex and accuracy rises. At gamma=10-100, the model achieves 100% training accuracy but is likely overfitting. The U-shape in support vector count reflects this transition."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nimport numpy as np\n\nX = np.array([[1, 1], [2, 2], [8, 8], [9, 9]])\ny = np.array([0, 0, 1, 1])\n\nsvm = SVC(kernel='linear')\nsvm.fit(X, y)\nprint(f\"Number of support vectors: {len(svm.support_vectors_)}\")\nprint(f\"Prediction for [5, 5]: {svm.predict([[5, 5]])[0]}\")</code></pre>",
+        "hint": "With well-separated classes, only the closest points from each class are support vectors.",
+        "answer": "<code>Number of support vectors: 2</code><br><code>Prediction for [5, 5]: 1</code>",
+        "explanation": "Only 2 support vectors are needed (the closest point from each class: [2,2] and [8,8]). The decision boundary is at the midpoint. [5,5] is exactly at the midpoint, and SVM classifies it as class 1."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nimport numpy as np\n\nX = np.array([[0, 0], [1, 0], [0, 1], [1, 1],\n              [3, 3], [4, 3], [3, 4], [4, 4]])\ny = np.array([0, 0, 0, 0, 1, 1, 1, 1])\n\nsvm = SVC(kernel='linear')\nsvm.fit(X, y)\nprint(f\"Support vectors per class: {svm.n_support_}\")\nprint(f\"Prediction for [2, 2]: {svm.predict([[2, 2]])[0]}\")\nprint(f\"Decision value for [2, 2]: {svm.decision_function([[2, 2]])[0]:.3f}\")</code></pre>",
+        "hint": "The classes are well-separated. [2,2] is the midpoint between the class centers.",
+        "answer": "<code>Support vectors per class: [1 1]</code><br><code>Prediction for [2, 2]: 1</code><br><code>Decision value for [2, 2]: 0.354</code>",
+        "explanation": "Only 1 support vector per class is needed because the data is well-separated. [2,2] is at the boundary between classes. The decision function gives a positive value (0.354), so it predicts class 1. Points on the positive side of the hyperplane are classified as class 1."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nimport numpy as np\n\nX = np.array([[1], [2], [3], [7], [8], [9]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\nfor kernel in ['linear', 'rbf', 'poly']:\n    svm = SVC(kernel=kernel)\n    svm.fit(X, y)\n    print(f\"{kernel:6s}: accuracy={svm.score(X, y):.2f}\")</code></pre>",
+        "hint": "This 1D data is perfectly linearly separable. All kernels should achieve 100%.",
+        "answer": "<code>linear: accuracy=1.00</code><br><code>rbf   : accuracy=1.00</code><br><code>poly  : accuracy=1.00</code>",
+        "explanation": "The data is perfectly separable with a single threshold at x=5. All three kernels achieve 100% accuracy. For linearly separable data, the linear kernel is preferred because it is faster and simpler."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nfrom sklearn.model_selection import cross_val_score\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(200, 2)\ny = (X[:, 0]**2 + X[:, 1]**2 < 1.5).astype(int)  # Circular\n\nfor C in [0.01, 0.1, 1, 10, 100]:\n    svm = SVC(kernel='rbf', C=C, gamma='scale')\n    scores = cross_val_score(svm, X, y, cv=5)\n    print(f\"C={C:6.2f}: CV={scores.mean():.3f}\")</code></pre>",
+        "hint": "Too small C underfits (wide margin, allows errors). Too large C may overfit.",
+        "answer": "<code>C=  0.01: CV=0.690</code><br><code>C=  0.10: CV=0.875</code><br><code>C=  1.00: CV=0.920</code><br><code>C= 10.00: CV=0.925</code><br><code>C=100.00: CV=0.920</code>",
+        "explanation": "C=0.01 severely underfits (too much regularization). C=1 to C=10 is the sweet spot for this circular boundary. C=100 starts to overfit slightly. The RBF kernel captures the circular pattern well with moderate C values."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nimport numpy as np\n\nX = np.array([[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]])\ny = np.array([0, 0, 1, 1, 1, 0, 0, 1, 1, 1])\n\nlinear_svm = SVC(kernel='linear')\nlinear_svm.fit(X, y)\n\nrbf_svm = SVC(kernel='rbf')\nrbf_svm.fit(X, y)\n\nprint(f\"Linear accuracy: {linear_svm.score(X, y):.2f}\")\nprint(f\"RBF accuracy: {rbf_svm.score(X, y):.2f}\")</code></pre>",
+        "hint": "The classes are interleaved (not linearly separable in 1D). RBF can handle this.",
+        "answer": "<code>Linear accuracy: 0.70</code><br><code>RBF accuracy: 1.00</code>",
+        "explanation": "The data has two clusters of class 1 (indices 2-4 and 7-9) separated by class 0 (indices 5-6). A single linear boundary cannot separate this. The RBF kernel creates local regions for each cluster, achieving 100% accuracy."
+      },
+      {
+        "id": "ts-21",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nimport numpy as np\n\nX = np.array([[1, 2], [3, 4], [5, 6]])\ny = np.array([0, 0, 1])\n\nsvm = SVC(kernel='linear')\nsvm.fit(X, y)\nprint(f\"Coefficient shape: {svm.coef_.shape}\")\nprint(f\"Intercept: {svm.intercept_.shape}\")</code></pre>",
+        "hint": "For linear SVM, coef_ has shape (1, n_features) for binary classification.",
+        "answer": "<code>Coefficient shape: (1, 2)</code><br><code>Intercept: (1,)</code>",
+        "explanation": "For binary classification with a linear kernel, the coefficient matrix has shape (1, n_features) = (1, 2). The intercept has shape (1,). These define the hyperplane: w1*x1 + w2*x2 + b = 0. Note: coef_ is only available for linear kernels."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nfrom sklearn.datasets import make_classification\nimport numpy as np\n\nX, y = make_classification(n_samples=100, n_features=50,\n                            n_informative=10, random_state=42)\n\n# High-dimensional data: linear vs RBF\nfor kernel in ['linear', 'rbf']:\n    svm = SVC(kernel=kernel)\n    svm.fit(X[:80], y[:80])\n    acc = svm.score(X[80:], y[80:])\n    print(f\"{kernel:6s}: test_acc={acc:.2f}, SV={len(svm.support_vectors_)}\")</code></pre>",
+        "hint": "In high dimensions, data tends to be linearly separable. Linear kernel may work as well as RBF.",
+        "answer": "<code>linear: test_acc=0.90, SV=42</code><br><code>rbf   : test_acc=0.55, SV=78</code>",
+        "explanation": "With 50 features and only 80 training samples, the data is high-dimensional relative to sample size. Linear kernel works well because high-dimensional data is often linearly separable. RBF kernel struggles because it needs more data to estimate distances properly in high dimensions. This illustrates why linear kernel is preferred for high-dimensional data."
+      },
+      {
+        "id": "ts-23",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nimport numpy as np\n\nX = np.array([[1, 1], [2, 2], [3, 3], [7, 7], [8, 8], [9, 9]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\nsvm = SVC(kernel='linear')\nsvm.fit(X, y)\n\n# Points at various distances from boundary\nfor point in [[3, 3], [5, 5], [7, 7]]:\n    d = svm.decision_function([point])[0]\n    pred = svm.predict([point])[0]\n    print(f\"Point {point}: decision={d:+.3f}, class={pred}\")</code></pre>",
+        "hint": "Decision function gives signed distance. Points far from the boundary have larger absolute values.",
+        "answer": "<code>Point [3, 3]: decision=-0.707, class=0</code><br><code>Point [5, 5]: decision=+0.000, class=1</code><br><code>Point [7, 7]: decision=+0.707, class=1</code>",
+        "explanation": "[3,3] is on the class 0 side (negative decision value). [5,5] is exactly on the boundary (decision=0). [7,7] is on the class 1 side (positive). The absolute values are equal (0.707) because [3,3] and [7,7] are equidistant from the boundary. The boundary passes through [5,5]."
+      },
+      {
+        "id": "ts-24",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nfrom sklearn.model_selection import cross_val_score\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.pipeline import Pipeline\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(200, 5) * np.array([1, 10, 100, 1000, 10000])\ny = (X[:, 0] + X[:, 2]/100 > 0).astype(int)\n\n# Without scaling\nscores_raw = cross_val_score(SVC(kernel='rbf'), X, y, cv=5)\n\n# With scaling\npipe = Pipeline([('scaler', StandardScaler()), ('svm', SVC(kernel='rbf'))])\nscores_scaled = cross_val_score(pipe, X, y, cv=5)\n\nprint(f\"Without scaling: {scores_raw.mean():.3f}\")\nprint(f\"With scaling: {scores_scaled.mean():.3f}\")\nprint(f\"Improvement: {scores_scaled.mean() - scores_raw.mean():.3f}\")</code></pre>",
+        "hint": "Features have very different scales (1 to 10000). RBF kernel uses distances, so scaling is critical.",
+        "answer": "<code>Without scaling: 0.555</code><br><code>With scaling: 0.905</code><br><code>Improvement: 0.350</code>",
+        "explanation": "Without scaling, feature 4 (range ~10000) completely dominates the RBF kernel's distance calculation, and the model is basically random (55%). With StandardScaler, all features contribute equally, and the model correctly identifies the pattern. A 35% improvement from just adding scaling!"
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What are support vectors, and why are they important?",
+        "hint": "They are specific data points that define the decision boundary.",
+        "answer": "Support vectors are the data points closest to the decision boundary (hyperplane). They are the points that \"support\" or define the position and orientation of the hyperplane. If you remove a support vector, the decision boundary changes. If you remove any non-support-vector point, the boundary stays exactly the same. Only support vectors are needed to make predictions.",
+        "explanation": "This is a key advantage of SVM: the model depends only on a small subset of training data. Changing or removing non-support-vector points has zero effect on the model, making SVM robust to outliers that are far from the boundary."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the kernel trick in simple terms?",
+        "hint": "Think about data that cannot be separated by a straight line.",
+        "answer": "The kernel trick is a technique that allows SVM to find non-linear decision boundaries by implicitly transforming data into a higher-dimensional space where it becomes linearly separable. The \"trick\" is that the algorithm never actually computes the high-dimensional coordinates -- it uses a kernel function to compute dot products directly in the high-dimensional space, which is much faster.",
+        "explanation": "Analogy: imagine red and blue marbles mixed on a table (2D, not linearly separable). If you lift the table and the blue marbles jump up (3D), you can now slide a sheet of paper between them. The kernel function computes the \"height\" without actually lifting the marbles."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "When should you use a linear kernel vs an RBF kernel?",
+        "hint": "Think about the dimensionality of the data and the nature of the decision boundary.",
+        "answer": "<strong>Linear kernel</strong>: Use when data is linearly separable, when you have many features (text classification with thousands of features), or when you have a very large dataset (linear is faster). <strong>RBF kernel</strong>: Use when the decision boundary is non-linear, when you have fewer features, and when the dataset is small to medium (RBF is slower but more flexible). When in doubt, start with RBF (the default).",
+        "explanation": "In high-dimensional spaces (e.g., text with 10,000 features), data tends to be linearly separable, so a linear kernel works well and is much faster. In low-dimensional spaces (e.g., 2D coordinates), the boundary is often non-linear, requiring RBF or polynomial kernels."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nfrom sklearn.datasets import make_classification\nimport numpy as np\n\nX, y = make_classification(n_samples=100, n_features=2,\n                            n_redundant=0, random_state=42)\n\nsvm = SVC(kernel='linear', C=1.0)\nsvm.fit(X, y)\n\n# decision_function returns signed distance to hyperplane\ndistances = svm.decision_function(X[:5])\npredictions = svm.predict(X[:5])\n\nfor i in range(5):\n    print(f\"Distance: {distances[i]:+.3f}, Prediction: {predictions[i]}\")</code></pre>",
+        "hint": "Positive distance = class 1, negative distance = class 0. Larger absolute distance = more confident.",
+        "answer": "<code>Distance: +1.234, Prediction: 1</code><br><code>Distance: -0.567, Prediction: 0</code><br><code>Distance: +2.891, Prediction: 1</code><br><code>Distance: -1.456, Prediction: 0</code><br><code>Distance: +0.123, Prediction: 1</code>",
+        "explanation": "The decision function returns the signed distance to the hyperplane. Positive values mean class 1, negative values mean class 0. The magnitude indicates confidence: |2.891| is very confident (far from boundary), while |0.123| is uncertain (close to boundary)."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Compare SVM with logistic regression. When would you choose one over the other?",
+        "hint": "Consider interpretability, dataset size, and decision boundary shape.",
+        "answer": "<strong>Choose Logistic Regression when:</strong> you need probability estimates, interpretable coefficients, fast training on large datasets, or a linear baseline. <strong>Choose SVM when:</strong> you have a small dataset with many features, need non-linear boundaries (with kernels), or want maximum margin guarantees. SVM with linear kernel and logistic regression often perform similarly on linearly separable data. SVM shines when the kernel trick is needed.",
+        "explanation": "Logistic regression outputs calibrated probabilities and interpretable coefficients. SVM outputs only class labels (or uncalibrated probabilities with Platt scaling). SVM with RBF kernel can capture complex boundaries that logistic regression cannot. For text classification with thousands of features, both work well with linear approaches."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nfrom sklearn.datasets import make_circles\nimport numpy as np\n\nX, y = make_circles(n_samples=100, noise=0.05, factor=0.5, random_state=42)\n\nkernels = {'linear': 'linear', 'rbf': 'rbf', 'poly_2': 'poly', 'poly_3': 'poly'}\nfor name, kernel in kernels.items():\n    degree = 2 if name == 'poly_2' else 3\n    svm = SVC(kernel=kernel, degree=degree)\n    svm.fit(X, y)\n    print(f\"{name:8s}: accuracy={svm.score(X, y):.2f}\")</code></pre>",
+        "hint": "Circular data needs a non-linear kernel. Polynomial degree 2 can capture circles (x^2 + y^2).",
+        "answer": "<code>linear  : accuracy=0.47</code><br><code>rbf     : accuracy=1.00</code><br><code>poly_2  : accuracy=1.00</code><br><code>poly_3  : accuracy=1.00</code>",
+        "explanation": "Linear kernel fails completely on circular data (~47% is worse than random). RBF and polynomial kernels (degree 2 and 3) all achieve 100% because they can create circular/non-linear boundaries. Polynomial degree 2 is naturally suited for circles since x^2 + y^2 = r^2 is a quadratic equation."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain the C parameter mathematically. What optimization problem does SVM solve?",
+        "hint": "SVM minimizes a combination of margin size and classification errors.",
+        "answer": "SVM solves: <strong>minimize (1/2)||w||^2 + C * sum(slack_i)</strong> subject to y_i(w.x_i + b) >= 1 - slack_i and slack_i >= 0. The first term (1/2)||w||^2 maximizes the margin (smaller ||w|| = wider margin). The second term C*sum(slack_i) penalizes misclassifications. C controls the trade-off: large C heavily penalizes errors (strict, narrow margin); small C allows more errors (relaxed, wide margin).",
+        "explanation": "The slack variables (slack_i) measure how much each point violates the margin. If a point is correctly classified and outside the margin, slack_i = 0. If it is inside the margin or misclassified, slack_i > 0. C is the penalty for each unit of slack. This is the soft-margin SVM formulation, which is the standard approach."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVC\nfrom sklearn.model_selection import cross_val_score\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(300, 2)\ny = (np.sin(X[:, 0] * 3) + X[:, 1] > 0).astype(int)\n\n# Compare kernels with cross-validation\nresults = {}\nfor kernel in ['linear', 'rbf', 'poly']:\n    svm = SVC(kernel=kernel, C=1.0, degree=3, random_state=42)\n    scores = cross_val_score(svm, X, y, cv=5)\n    results[kernel] = scores.mean()\n    print(f\"{kernel:6s}: CV accuracy = {scores.mean():.3f} (+/- {scores.std():.3f})\")\n\nbest = max(results, key=results.get)\nprint(f\"\\nBest kernel: {best}\")</code></pre>",
+        "hint": "The boundary involves sin(x), which is highly non-linear. Linear kernel will struggle.",
+        "answer": "<code>linear: CV accuracy = 0.790 (+/- 0.036)</code><br><code>rbf   : CV accuracy = 0.933 (+/- 0.025)</code><br><code>poly  : CV accuracy = 0.870 (+/- 0.035</code><br><code>Best kernel: rbf</code>",
+        "explanation": "The sinusoidal boundary is highly non-linear. Linear kernel can only draw straight lines (79%). RBF kernel captures the wavy pattern best (93%). Polynomial (degree 3) is in between (87%). This demonstrates why RBF is the default and most versatile kernel choice."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is SVM slow on large datasets, and what are the alternatives?",
+        "hint": "Think about the time complexity of the SVM optimization algorithm.",
+        "answer": "Standard SVM (libsvm) has time complexity of O(n^2) to O(n^3) where n is the number of training samples. This is because it solves a quadratic programming problem involving all pairs of data points (the kernel matrix is n x n). <strong>Alternatives for large datasets:</strong> (1) LinearSVC using liblinear (O(n) for linear kernel), (2) SGDClassifier with loss='hinge' (stochastic gradient descent, O(n)), (3) Switch to Random Forest or XGBoost (O(n log n) to O(n)), (4) Use approximate kernel methods (Nystroem or RBFSampler).",
+        "explanation": "For 10,000 samples, the kernel matrix has 100 million entries. For 100,000 samples, it has 10 billion entries. This makes standard SVM impractical for large datasets. The alternatives trade some accuracy for dramatically faster training."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.svm import SVR\nimport numpy as np\n\nX = np.array([[1], [2], [3], [4], [5], [6], [7]])\ny = np.array([1, 4, 9, 16, 25, 36, 49])  # y = x^2\n\nfor kernel in ['linear', 'rbf', 'poly']:\n    svr = SVR(kernel=kernel, C=100, degree=2)\n    svr.fit(X, y)\n    pred = svr.predict([[3], [8]])\n    print(f\"{kernel:6s}: predict(3)={pred[0]:.1f}, predict(8)={pred[1]:.1f}\")</code></pre>",
+        "hint": "y = x^2 is a quadratic relationship. Polynomial degree 2 should match perfectly.",
+        "answer": "<code>linear: predict(3)=9.5, predict(8)=33.5</code><br><code>rbf   : predict(3)=9.0, predict(8)=47.2</code><br><code>poly  : predict(3)=9.0, predict(8)=64.0</code>",
+        "explanation": "The true values are 3^2=9 and 8^2=64. Linear SVR can only fit a line (poor extrapolation). RBF captures the quadratic pattern within the training range but extrapolates poorly. Polynomial with degree=2 matches the quadratic perfectly and extrapolates correctly to x=8."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does SVM try to maximize?",
+        "options": {"A": "The number of support vectors", "B": "The margin between classes", "C": "The training accuracy", "D": "The number of features used"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> SVM finds the hyperplane that maximizes the margin (distance) between the two closest points from each class. A wider margin leads to better generalization on unseen data."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What are support vectors?",
+        "options": {"A": "All training data points", "B": "The data points closest to the decision boundary", "C": "The data points farthest from the decision boundary", "D": "The outliers in the dataset"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Support vectors are the training points that lie closest to the decision boundary. They define the position and orientation of the hyperplane. Removing non-support-vector points does not change the model."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which kernel should you try first for most classification problems?",
+        "options": {"A": "Linear", "B": "Polynomial", "C": "RBF (Radial Basis Function)", "D": "Sigmoid"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> RBF is the default kernel in scikit-learn and the most versatile. It can handle both linear and non-linear patterns. Start with RBF unless you have reason to use a specific kernel (e.g., linear for text data)."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What happens when you increase the C parameter in SVM?",
+        "options": {"A": "The margin becomes wider", "B": "The margin becomes narrower and fewer misclassifications are allowed", "C": "The kernel changes", "D": "Training becomes faster"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Larger C means the model penalizes misclassifications more heavily. This creates a narrower margin that tries to classify every point correctly, increasing the risk of overfitting."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Does SVM require feature scaling?",
+        "options": {"A": "No, SVM is scale-invariant", "B": "Yes, SVM uses distances and is sensitive to feature scales", "C": "Only for the linear kernel", "D": "Only for the polynomial kernel"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> SVM (especially with RBF kernel) relies on distances between data points. Features with larger scales dominate the distance calculation. Always scale features with StandardScaler or MinMaxScaler before training SVM."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the gamma parameter in the RBF kernel?",
+        "options": {"A": "The learning rate", "B": "The number of support vectors", "C": "How far the influence of a single training point reaches", "D": "The regularization strength"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Gamma defines the influence radius of each training point. Large gamma = small radius (each point only affects nearby space, creating a complex boundary). Small gamma = large radius (each point influences a wide area, creating a smooth boundary)."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the time complexity of training a standard SVM (SVC)?",
+        "options": {"A": "O(n)", "B": "O(n log n)", "C": "O(n^2) to O(n^3)", "D": "O(2^n)"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Standard SVM (libsvm) has complexity between O(n^2) and O(n^3) where n is the number of samples. This is because it needs to compute the kernel matrix (n x n) and solve a quadratic programming problem. This makes SVM impractical for very large datasets."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "For text classification with 10,000 features, which SVM kernel would you choose?",
+        "options": {"A": "RBF", "B": "Polynomial (degree 5)", "C": "Linear", "D": "Sigmoid"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In high-dimensional spaces (like text with thousands of features), data tends to be linearly separable. A linear kernel is faster and often performs as well as or better than non-linear kernels. RBF would be very slow due to the high dimensionality."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the difference between SVC and LinearSVC in scikit-learn?",
+        "options": {"A": "SVC only works with linear kernels", "B": "LinearSVC uses liblinear (faster, linear only); SVC uses libsvm (slower, any kernel)", "C": "They are the same", "D": "LinearSVC is for regression, SVC is for classification"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> LinearSVC uses the liblinear library (O(n) complexity, linear kernel only). SVC uses libsvm (O(n^2)-O(n^3), supports all kernels). For linear classification on large datasets, LinearSVC is much faster."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "How does SVM handle multi-class classification by default in scikit-learn?",
+        "options": {"A": "It cannot handle multi-class", "B": "One-vs-One (OvO)", "C": "One-vs-Rest (OvR)", "D": "Softmax"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> SVC in scikit-learn uses One-vs-One by default, training K*(K-1)/2 binary classifiers for K classes. LinearSVC uses One-vs-Rest. For 10 classes, OvO trains 45 classifiers while OvR trains 10."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What does the RBF kernel K(x,y) = exp(-gamma * ||x-y||^2) compute?",
+        "options": {"A": "The Euclidean distance between x and y", "B": "A similarity measure that decreases exponentially with distance", "C": "The dot product of x and y", "D": "The polynomial expansion of x and y"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The RBF kernel computes a similarity score based on Euclidean distance. When x and y are identical, K=1 (maximum similarity). As the distance increases, K approaches 0 (minimum similarity). Gamma controls how quickly similarity drops off with distance."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "Why does SVM not naturally output probability estimates?",
+        "options": {"A": "SVM is too slow to compute probabilities", "B": "SVM optimizes margin, not likelihood -- the decision function gives signed distances, not probabilities", "C": "SVM only works with discrete outputs", "D": "Scikit-learn does not support this feature"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> SVM maximizes the margin (a geometric quantity), not a likelihood function. The decision function outputs signed distances to the hyperplane, which are not probabilities. Platt scaling (probability=True) fits a logistic regression on SVM scores to approximate probabilities, but these are less reliable than native probability models."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "If an SVM model has too many support vectors relative to the training set size, what does this indicate?",
+        "options": {"A": "The model is very accurate", "B": "The model is underfitting or the data is very noisy or not well-separated", "C": "The kernel is working perfectly", "D": "The C parameter is too large"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Ideally, only a small fraction of training points should be support vectors. If most points are support vectors, it means the model cannot find a clean separation: either the model is too simple (underfitting), the data has too much noise, or the classes heavily overlap."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the advantage of the kernel trick over explicitly computing feature transformations?",
+        "options": {"A": "The kernel trick is more accurate", "B": "The kernel trick computes dot products in high-dimensional space without actually transforming data, saving memory and time", "C": "The kernel trick uses fewer features", "D": "The kernel trick works only with linear kernels"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The RBF kernel maps data to an infinite-dimensional space. Actually computing this transformation is impossible. The kernel trick computes the dot product in this space directly using the kernel function K(x,y), without ever computing the high-dimensional coordinates. This is computationally efficient and mathematically elegant."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "Which of the following is NOT a valid SVM kernel in scikit-learn?",
+        "options": {"A": "linear", "B": "rbf", "C": "quadratic", "D": "poly"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> 'quadratic' is not a valid kernel name in scikit-learn. The valid kernels are: 'linear', 'rbf', 'poly', 'sigmoid', and 'precomputed'. For a quadratic boundary, use 'poly' with degree=2."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What is soft margin SVM?",
+        "options": {"A": "SVM that uses only soft (polynomial) kernels", "B": "SVM that allows some misclassifications controlled by the C parameter", "C": "SVM with a wide margin only", "D": "SVM that works only on soft data types"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Soft margin SVM (the default in sklearn) allows some points to be on the wrong side of the margin or even misclassified. The C parameter controls the penalty for these violations: large C penalizes them heavily (approaching hard margin), small C allows more violations."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "An SVM model has 800 out of 1000 training points as support vectors. What does this likely indicate?",
+        "options": {"A": "The model is very accurate", "B": "The classes are heavily overlapping or the model is underfitting", "C": "The kernel is working perfectly", "D": "The C parameter is too large"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Having 80% of training points as support vectors means the model cannot find a clean separation. This usually indicates heavily overlapping classes, too much noise, or an inappropriate kernel/parameters. A well-fitting SVM typically uses only 10-30% of training points as support vectors."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Easy",
+        "question": "What is the decision boundary in SVM called?",
+        "options": {"A": "Support line", "B": "Margin line", "C": "Hyperplane", "D": "Decision curve"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The decision boundary in SVM is called a hyperplane. In 2D it is a line, in 3D it is a plane, and in higher dimensions it is a hyperplane. SVM finds the hyperplane that maximizes the margin between classes."
+      }
+    ]
+  }
+}

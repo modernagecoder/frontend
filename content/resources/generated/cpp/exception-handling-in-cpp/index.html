@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exception Handling (try, catch, throw) - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Handle errors with try-catch, throw, custom exceptions, exception hierarchy, and noexcept.">
+    <meta name="keywords" content="exception handling (try, catch, throw), c++ tutorial, c++ exception handling (try, catch, throw), learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp">
+    <meta property="og:title" content="Exception Handling (try, catch, throw) - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Handle errors with try-catch, throw, custom exceptions, exception hierarchy, and noexcept.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp">
+    <meta name="twitter:title" content="Exception Handling (try, catch, throw) - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Handle errors with try-catch, throw, custom exceptions, exception hierarchy, and noexcept.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Exception Handling (try, catch, throw)",
+    "description": "Handle errors with try-catch, throw, custom exceptions, exception hierarchy, and noexcept.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Exception Handling (try, catch, throw)",
+        "item": "https://learn.modernagecoders.com/resources/cpp/exception-handling-in-cpp"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Catching Exceptions by Value (Slicing)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always catch exceptions by const reference. Catching by value creates a copy that slices off the derived part, losing polymorphism and context-specific data."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrong Order of catch Blocks (Base Before Derived)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "catch blocks are tried in order. Put more specific (derived) types first and more general (base) types last. Otherwise, the general handler catches everything and the specific ones are unreachable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Throwing in a Destructor",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Destructors should be <code>noexcept</code> (they are implicitly noexcept in C++11+). If cleanup can fail, catch and handle the exception inside the destructor. Never let an exception escape a destructor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using throw e Instead of throw for Rethrowing",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use <code>throw;</code> (no operand) to rethrow the current exception. This preserves the original dynamic type. <code>throw e;</code> creates a new exception from the caught reference, which slices to the catch parameter type."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Catching Exceptions (Program Terminates)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every <code>throw</code> must have a matching <code>catch</code> somewhere in the call stack. If there is no matching catch block, the program calls <code>std::terminate()</code> and crashes. Always wrap risky operations in try-catch at appropriate levels."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Exception Handling (try, catch, throw)</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 19</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Exception Handling (try, catch, throw)</h1>
+            <a href="/resources/cpp/exception-handling-in-cpp/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Exception Handling in C++?</h2><p><strong>Exception handling</strong> is a mechanism for responding to runtime errors (called exceptions) in a structured, non-local way. Instead of checking return codes at every function call, C++ allows a function to <code>throw</code> an exception when something goes wrong, and a calling function to <code>catch</code> and handle it.</p><p>The three keywords are <code>try</code>, <code>throw</code>, and <code>catch</code>:</p><pre><code>#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+
+double divide(double a, double b) {
+    if (b == 0)
+        throw runtime_error("Division by zero");
+    return a / b;
+}
+
+int main() {
+    try {
+        cout &lt;&lt; divide(10, 2) &lt;&lt; endl;   // 5
+        cout &lt;&lt; divide(10, 0) &lt;&lt; endl;   // Throws!
+        cout &lt;&lt; "This never executes" &lt;&lt; endl;
+    } catch (const runtime_error&amp; e) {
+        cout &lt;&lt; "Error: " &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    cout &lt;&lt; "Program continues" &lt;&lt; endl;
+    return 0;
+}</code></pre><p>When <code>throw</code> is executed, the program immediately stops executing the current function, unwinds the call stack (destroying local objects along the way), and transfers control to the nearest matching <code>catch</code> block. If no catch block matches, <code>std::terminate()</code> is called and the program crashes.</p><p>C++ exceptions can be of any type: integers, strings, standard exception classes, or custom classes. The standard library provides a hierarchy of exception classes in <code>&lt;stdexcept&gt;</code> rooted at <code>std::exception</code>.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Does Exception Handling Matter?</h2><p>Exception handling separates error-handling logic from normal logic, making code cleaner, safer, and more maintainable. It is essential for writing robust C++ programs.</p><h3>1. Separating Error Handling from Normal Logic</h3><p>Without exceptions, Arjun must check return values after every function call, mixing error checks with business logic. With exceptions, the happy path is clean and all error handling is consolidated in catch blocks.</p><h3>2. Stack Unwinding and RAII</h3><p>When an exception is thrown, C++ guarantees that destructors of all local objects are called as the stack unwinds. This is the foundation of <strong>RAII</strong> (Resource Acquisition Is Initialization), where resources (memory, files, locks) are automatically released by destructors. This is one of the most important C++ concepts and a frequent interview topic.</p><h3>3. Interview and Placement Essential</h3><p>Companies like Google, Microsoft, Amazon, and Flipkart ask about exception safety guarantees (basic, strong, no-throw), the difference between catch by value and catch by reference, stack unwinding behavior, noexcept, and the interaction between exceptions and constructors/destructors.</p><h3>4. Writing Custom Exception Hierarchies</h3><p>Real-world C++ codebases define custom exception classes that derive from <code>std::exception</code>. When Kavya writes a database library, she might define <code>ConnectionError</code>, <code>QueryError</code>, and <code>TimeoutError</code>, all inheriting from a base <code>DatabaseError</code>. Callers can catch specific errors or the base class.</p><h3>5. noexcept and Performance</h3><p>The <code>noexcept</code> specifier tells the compiler that a function will not throw. This enables optimizations (e.g., move operations in STL containers prefer noexcept move constructors) and makes contracts explicit.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Basic try-catch-throw</h3><p>The <code>try</code> block contains code that might throw. The <code>catch</code> block handles the exception. <code>throw</code> creates the exception object.</p><pre><code>try {
+    // Code that might throw
+    throw exception_object;
+} catch (ExceptionType&amp; e) {
+    // Handle the exception
+    cout &lt;&lt; e.what() &lt;&lt; endl;
+}</code></pre><p>Execution flow: when <code>throw</code> executes, control immediately transfers to the matching <code>catch</code>. Code after the <code>throw</code> statement (within the try block) is skipped.</p><h3>2. Catching by Reference</h3><p>Always catch exceptions by <strong>const reference</strong>, not by value:</p><pre><code>// Good: catch by const reference
+catch (const runtime_error&amp; e) {
+    cout &lt;&lt; e.what() &lt;&lt; endl;
+}
+
+// Bad: catch by value (causes slicing)
+catch (runtime_error e) {  // Derived exception sliced to base!
+    cout &lt;&lt; e.what() &lt;&lt; endl;
+}</code></pre><p>Catching by value creates a copy and slices derived exception objects to the base type. Catching by reference preserves polymorphism and avoids unnecessary copies.</p><h3>3. Multiple catch Blocks</h3><p>You can have multiple catch blocks for different exception types. They are tried in order, and the first match handles the exception:</p><pre><code>try {
+    // ... code ...
+} catch (const invalid_argument&amp; e) {
+    cout &lt;&lt; "Invalid argument: " &lt;&lt; e.what() &lt;&lt; endl;
+} catch (const out_of_range&amp; e) {
+    cout &lt;&lt; "Out of range: " &lt;&lt; e.what() &lt;&lt; endl;
+} catch (const exception&amp; e) {
+    cout &lt;&lt; "Other error: " &lt;&lt; e.what() &lt;&lt; endl;
+} catch (...) {
+    cout &lt;&lt; "Unknown error" &lt;&lt; endl;
+}</code></pre><p><strong>Order matters:</strong> put more specific catches first, more general catches last. If <code>catch(const exception&amp;)</code> comes first, it will catch all standard exceptions, and the more specific catches will never execute.</p><h3>4. Catch-All (...)</h3><p>The catch-all handler <code>catch(...)</code> catches any exception of any type:</p><pre><code>try {
+    throw 42;           // throw an int
+} catch (...) {
+    cout &lt;&lt; "Caught something" &lt;&lt; endl;
+}</code></pre><p>This is useful as a last resort but should be used sparingly because you lose information about the exception type.</p><h3>5. Rethrowing Exceptions</h3><p>Inside a catch block, you can rethrow the current exception using <code>throw;</code> (with no operand):</p><pre><code>void process() {
+    try {
+        riskyOperation();
+    } catch (const exception&amp; e) {
+        cout &lt;&lt; "Logging: " &lt;&lt; e.what() &lt;&lt; endl;
+        throw;  // Rethrow the SAME exception (preserves derived type)
+    }
+}
+
+try {
+    process();
+} catch (const exception&amp; e) {
+    cout &lt;&lt; "Caught rethrown: " &lt;&lt; e.what() &lt;&lt; endl;
+}</code></pre><p>Using <code>throw;</code> preserves the original exception type. Using <code>throw e;</code> would create a copy and potentially slice the exception.</p><h3>6. Standard Exception Hierarchy</h3><p>The <code>&lt;stdexcept&gt;</code> header provides a hierarchy of exception classes:</p><pre><code>exception (base class)
+  logic_error
+    invalid_argument
+    domain_error
+    length_error
+    out_of_range
+  runtime_error
+    range_error
+    overflow_error
+    underflow_error</code></pre><p>All standard exceptions have a <code>what()</code> method that returns a C-string description. <code>logic_error</code> represents programming errors (precondition violations). <code>runtime_error</code> represents errors that can only be detected at runtime.</p><h3>7. Custom Exception Classes</h3><p>Define custom exceptions by inheriting from <code>std::exception</code> or its subclasses:</p><pre><code>class DatabaseError : public runtime_error {
+public:
+    DatabaseError(const string&amp; msg) : runtime_error(msg) {}
+};
+
+class ConnectionError : public DatabaseError {
+    string host;
+public:
+    ConnectionError(const string&amp; h)
+        : DatabaseError("Connection failed to " + h), host(h) {}
+    string getHost() const { return host; }
+};
+
+try {
+    throw ConnectionError("db.example.com");
+} catch (const ConnectionError&amp; e) {
+    cout &lt;&lt; e.what() &lt;&lt; " (host: " &lt;&lt; e.getHost() &lt;&lt; ")" &lt;&lt; endl;
+} catch (const DatabaseError&amp; e) {
+    cout &lt;&lt; "DB error: " &lt;&lt; e.what() &lt;&lt; endl;
+}</code></pre><h3>8. noexcept Specifier</h3><p>The <code>noexcept</code> specifier declares that a function does not throw exceptions:</p><pre><code>void safeFunction() noexcept {
+    // Guaranteed not to throw
+}
+
+void riskyFunction() noexcept(false) {
+    // May throw (default behavior)
+}
+
+// Conditional noexcept
+template&lt;typename T&gt;
+void process(T&amp; val) noexcept(noexcept(val.doWork())) {
+    val.doWork();
+}</code></pre><p>If a <code>noexcept</code> function throws, <code>std::terminate()</code> is called immediately. STL containers use <code>noexcept</code> to decide whether to move or copy: <code>vector</code> reallocation prefers <code>noexcept</code> move constructors for exception safety.</p><h3>9. Stack Unwinding</h3><p>When an exception is thrown, the runtime unwinds the call stack, destroying all local objects (in reverse order of construction) for each stack frame between the throw and the matching catch:</p><pre><code>class Resource {
+    string name;
+public:
+    Resource(string n) : name(n) { cout &lt;&lt; "Acquired " &lt;&lt; name &lt;&lt; endl; }
+    ~Resource() { cout &lt;&lt; "Released " &lt;&lt; name &lt;&lt; endl; }
+};
+
+void inner() {
+    Resource r3("C");
+    throw runtime_error("Error in inner");
+}
+
+void outer() {
+    Resource r2("B");
+    inner();
+}
+
+int main() {
+    try {
+        Resource r1("A");
+        outer();
+    } catch (const exception&amp; e) {
+        cout &lt;&lt; e.what() &lt;&lt; endl;
+    }
+}
+// Output: Acquired A, Acquired B, Acquired C,
+//         Released C, Released B, Released A,
+//         Error in inner</code></pre><h3>10. Exception Safety Guarantees</h3><p>C++ code can provide three levels of exception safety:</p><ul><li><strong>No-throw guarantee:</strong> The function never throws. Marked <code>noexcept</code>. Destructors and swap should provide this.</li><li><strong>Strong guarantee:</strong> If an exception is thrown, the state is rolled back to before the function was called (commit-or-rollback). Achieved using copy-and-swap idiom.</li><li><strong>Basic guarantee:</strong> If an exception is thrown, the program is in a valid (but possibly changed) state. No resources are leaked. This is the minimum acceptable level.</li></ul><h3>11. RAII and Exceptions</h3><p>RAII (Resource Acquisition Is Initialization) ties resource lifetime to object lifetime. When an exception causes stack unwinding, RAII objects automatically release their resources:</p><pre><code>class FileHandle {
+    FILE* file;
+public:
+    FileHandle(const char* name) {
+        file = fopen(name, "r");
+        if (!file) throw runtime_error("Cannot open file");
+    }
+    ~FileHandle() {
+        if (file) fclose(file);  // Always closes, even during exception
+    }
+};
+
+void process() {
+    FileHandle f("data.txt");  // Opened
+    // ... code that might throw ...
+    // f's destructor runs even if an exception is thrown
+}</code></pre><p>Smart pointers (<code>unique_ptr</code>, <code>shared_ptr</code>), <code>lock_guard</code>, <code>fstream</code>, and <code>vector</code> all use RAII. This is why C++ rarely needs <code>finally</code> blocks (unlike Java).</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Basic try-catch-throw</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+
+double divide(double a, double b) {
+    if (b == 0)
+        throw runtime_error(&quot;Division by zero&quot;);
+    return a / b;
+}
+
+int main() {
+    try {
+        cout &lt;&lt; divide(10, 2) &lt;&lt; endl;
+        cout &lt;&lt; divide(10, 0) &lt;&lt; endl;
+        cout &lt;&lt; &quot;This line is skipped&quot; &lt;&lt; endl;
+    } catch (const runtime_error&amp; e) {
+        cout &lt;&lt; &quot;Caught: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    cout &lt;&lt; &quot;Program continues normally&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">The first <code>divide(10, 2)</code> succeeds and prints 5. The second <code>divide(10, 0)</code> throws a <code>runtime_error</code>. Execution jumps to the catch block, skipping the third print. After the catch block, the program continues normally.</div><div class="code-example-output">5
+Caught: Division by zero
+Program continues normally</div></div>
+<div class="code-example"><div class="code-example-title">Multiple catch Blocks and Catch-All</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+
+void test(int code) {
+    switch (code) {
+        case 1: throw invalid_argument(&quot;Bad argument&quot;);
+        case 2: throw out_of_range(&quot;Out of range&quot;);
+        case 3: throw runtime_error(&quot;Runtime error&quot;);
+        case 4: throw 42;
+    }
+}
+
+int main() {
+    for (int i = 1; i &lt;= 4; i++) {
+        try {
+            test(i);
+        } catch (const invalid_argument&amp; e) {
+            cout &lt;&lt; &quot;invalid_argument: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+        } catch (const out_of_range&amp; e) {
+            cout &lt;&lt; &quot;out_of_range: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+        } catch (const exception&amp; e) {
+            cout &lt;&lt; &quot;exception: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+        } catch (...) {
+            cout &lt;&lt; &quot;Unknown exception caught&quot; &lt;&lt; endl;
+        }
+    }
+    return 0;
+}</code></pre><div class="code-example-explanation">Each exception type is caught by the most specific matching handler. <code>invalid_argument</code> and <code>out_of_range</code> are caught by their specific handlers. <code>runtime_error</code> is caught by <code>const exception&amp;</code> (base class). The integer 42 is caught by <code>catch(...)</code>.</div><div class="code-example-output">invalid_argument: Bad argument
+out_of_range: Out of range
+exception: Runtime error
+Unknown exception caught</div></div>
+<div class="code-example"><div class="code-example-title">Custom Exception Class Hierarchy</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class AppError : public runtime_error {
+public:
+    AppError(const string&amp; msg) : runtime_error(msg) {}
+};
+
+class NetworkError : public AppError {
+    int code;
+public:
+    NetworkError(const string&amp; msg, int c)
+        : AppError(msg), code(c) {}
+    int getCode() const { return code; }
+};
+
+class AuthError : public AppError {
+    string user;
+public:
+    AuthError(const string&amp; u)
+        : AppError(&quot;Authentication failed for &quot; + u), user(u) {}
+    string getUser() const { return user; }
+};
+
+void authenticate(const string&amp; user, const string&amp; pass) {
+    if (user.empty()) throw NetworkError(&quot;No connection&quot;, 503);
+    if (pass != &quot;secret&quot;) throw AuthError(user);
+    cout &lt;&lt; user &lt;&lt; &quot; authenticated successfully&quot; &lt;&lt; endl;
+}
+
+int main() {
+    string users[] = {&quot;&quot;, &quot;Arjun&quot;, &quot;Kavya&quot;};
+    string passes[] = {&quot;x&quot;, &quot;wrong&quot;, &quot;secret&quot;};
+
+    for (int i = 0; i &lt; 3; i++) {
+        try {
+            authenticate(users[i], passes[i]);
+        } catch (const NetworkError&amp; e) {
+            cout &lt;&lt; &quot;Network (&quot; &lt;&lt; e.getCode() &lt;&lt; &quot;): &quot; &lt;&lt; e.what() &lt;&lt; endl;
+        } catch (const AuthError&amp; e) {
+            cout &lt;&lt; &quot;Auth failed: &quot; &lt;&lt; e.getUser() &lt;&lt; &quot; - &quot; &lt;&lt; e.what() &lt;&lt; endl;
+        } catch (const AppError&amp; e) {
+            cout &lt;&lt; &quot;App error: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+        }
+    }
+    return 0;
+}</code></pre><div class="code-example-explanation">Custom exception hierarchy: <code>AppError</code> derives from <code>runtime_error</code>. <code>NetworkError</code> and <code>AuthError</code> derive from <code>AppError</code>. Each carries context-specific data (error code, username). Catch blocks are ordered most specific to least specific.</div><div class="code-example-output">Network (503): No connection
+Auth failed: Arjun - Authentication failed for Arjun
+Kavya authenticated successfully</div></div>
+<div class="code-example"><div class="code-example-title">Stack Unwinding and RAII</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Resource {
+    string name;
+public:
+    Resource(string n) : name(n) {
+        cout &lt;&lt; &quot;  Acquired: &quot; &lt;&lt; name &lt;&lt; endl;
+    }
+    ~Resource() {
+        cout &lt;&lt; &quot;  Released: &quot; &lt;&lt; name &lt;&lt; endl;
+    }
+};
+
+void level3() {
+    Resource r(&quot;Database Connection&quot;);
+    throw runtime_error(&quot;Query failed&quot;);
+}
+
+void level2() {
+    Resource r(&quot;File Handle&quot;);
+    level3();
+}
+
+void level1() {
+    Resource r(&quot;Mutex Lock&quot;);
+    level2();
+}
+
+int main() {
+    try {
+        cout &lt;&lt; &quot;Starting...&quot; &lt;&lt; endl;
+        level1();
+    } catch (const exception&amp; e) {
+        cout &lt;&lt; &quot;Caught: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    cout &lt;&lt; &quot;All resources released&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">When the exception is thrown in <code>level3()</code>, the stack unwinds through <code>level2()</code> and <code>level1()</code>. Each <code>Resource</code> destructor runs automatically, releasing resources in reverse order. This is RAII: resource lifetime is tied to object lifetime.</div><div class="code-example-output">Starting...
+  Acquired: Mutex Lock
+  Acquired: File Handle
+  Acquired: Database Connection
+  Released: Database Connection
+  Released: File Handle
+  Released: Mutex Lock
+Caught: Query failed
+All resources released</div></div>
+<div class="code-example"><div class="code-example-title">Rethrowing Exceptions</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+using namespace std;
+
+void inner() {
+    throw runtime_error(&quot;Original error&quot;);
+}
+
+void middle() {
+    try {
+        inner();
+    } catch (const exception&amp; e) {
+        cout &lt;&lt; &quot;Middle caught: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+        cout &lt;&lt; &quot;Logging and rethrowing...&quot; &lt;&lt; endl;
+        throw;  // Rethrow preserves the original exception
+    }
+}
+
+int main() {
+    try {
+        middle();
+    } catch (const exception&amp; e) {
+        cout &lt;&lt; &quot;Main caught: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>middle()</code> catches the exception, logs it, and rethrows using <code>throw;</code> (no operand). The original exception is preserved and caught again in <code>main()</code>. Using <code>throw e;</code> instead would create a copy, potentially slicing derived exceptions.</div><div class="code-example-output">Middle caught: Original error
+Logging and rethrowing...
+Main caught: Original error</div></div>
+<div class="code-example"><div class="code-example-title">noexcept and Its Effect</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;type_traits&gt;
+using namespace std;
+
+void safeFunc() noexcept {
+    cout &lt;&lt; &quot;Safe function (noexcept)&quot; &lt;&lt; endl;
+}
+
+void riskyFunc() {
+    cout &lt;&lt; &quot;Risky function (may throw)&quot; &lt;&lt; endl;
+}
+
+class MyClass {
+public:
+    MyClass() noexcept { cout &lt;&lt; &quot;Constructed&quot; &lt;&lt; endl; }
+    ~MyClass() noexcept { cout &lt;&lt; &quot;Destroyed&quot; &lt;&lt; endl; }
+    MyClass(MyClass&amp;&amp;) noexcept { cout &lt;&lt; &quot;Move constructed&quot; &lt;&lt; endl; }
+};
+
+int main() {
+    cout &lt;&lt; &quot;safeFunc noexcept: &quot; &lt;&lt; noexcept(safeFunc()) &lt;&lt; endl;
+    cout &lt;&lt; &quot;riskyFunc noexcept: &quot; &lt;&lt; noexcept(riskyFunc()) &lt;&lt; endl;
+
+    safeFunc();
+    riskyFunc();
+
+    MyClass a;
+    MyClass b = move(a);
+
+    cout &lt;&lt; &quot;is_nothrow_move_constructible: &quot;
+         &lt;&lt; is_nothrow_move_constructible&lt;MyClass&gt;::value &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">The <code>noexcept</code> operator (used in expressions) returns true if the expression cannot throw. <code>noexcept</code> on functions guarantees no exceptions. STL uses <code>is_nothrow_move_constructible</code> to decide between move and copy during reallocation.</div><div class="code-example-output">safeFunc noexcept: 1
+riskyFunc noexcept: 0
+Safe function (noexcept)
+Risky function (may throw)
+Constructed
+Move constructed
+is_nothrow_move_constructible: 1
+Destroyed
+Destroyed</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Catching Exceptions by Value (Slicing)</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Base : public exception {
+public:
+    const char* what() const noexcept override { return &quot;Base&quot;; }
+};
+class Derived : public Base {
+public:
+    const char* what() const noexcept override { return &quot;Derived&quot;; }
+};
+
+try {
+    throw Derived();
+} catch (Base e) {  // Caught by VALUE: slicing!
+    cout &lt;&lt; e.what() &lt;&lt; endl;  // Prints &quot;Base&quot;, not &quot;Derived&quot;!
+}</code></pre></div><div class="error-message">Prints &quot;Base&quot; instead of &quot;Derived&quot;. The Derived exception is sliced to Base when caught by value.</div><div class="correct-code"><pre><code class="language-python">try {
+    throw Derived();
+} catch (const Base&amp; e) {  // Caught by REFERENCE: no slicing
+    cout &lt;&lt; e.what() &lt;&lt; endl;  // Prints &quot;Derived&quot; (correct)
+}</code></pre></div><div class="mistake-explanation">Always catch exceptions by const reference. Catching by value creates a copy that slices off the derived part, losing polymorphism and context-specific data.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrong Order of catch Blocks (Base Before Derived)</h3>
+                <div class="wrong-code"><pre><code class="language-python">try {
+    throw out_of_range(&quot;Index error&quot;);
+} catch (const exception&amp; e) {  // Catches everything!
+    cout &lt;&lt; &quot;exception: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+} catch (const out_of_range&amp; e) {  // Never reached!
+    cout &lt;&lt; &quot;out_of_range: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+}</code></pre></div><div class="error-message">The out_of_range handler is never reached because catch(const exception&amp;) matches first. Some compilers will warn about this.</div><div class="correct-code"><pre><code class="language-python">try {
+    throw out_of_range(&quot;Index error&quot;);
+} catch (const out_of_range&amp; e) {  // Specific first
+    cout &lt;&lt; &quot;out_of_range: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+} catch (const exception&amp; e) {  // General last
+    cout &lt;&lt; &quot;exception: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+}</code></pre></div><div class="mistake-explanation">catch blocks are tried in order. Put more specific (derived) types first and more general (base) types last. Otherwise, the general handler catches everything and the specific ones are unreachable.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Throwing in a Destructor</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Bad {
+public:
+    ~Bad() {
+        throw runtime_error(&quot;Error in destructor&quot;);
+        // If this destructor runs during stack unwinding
+        // from another exception, std::terminate() is called!
+    }
+};</code></pre></div><div class="error-message">If the destructor throws during stack unwinding (while another exception is active), std::terminate() is called and the program crashes. Destructors should never throw.</div><div class="correct-code"><pre><code class="language-python">class Good {
+public:
+    ~Good() noexcept {
+        try {
+            // cleanup that might fail
+        } catch (...) {
+            // Swallow the exception, log it if possible
+        }
+    }
+};</code></pre></div><div class="mistake-explanation">Destructors should be <code>noexcept</code> (they are implicitly noexcept in C++11+). If cleanup can fail, catch and handle the exception inside the destructor. Never let an exception escape a destructor.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using throw e Instead of throw for Rethrowing</h3>
+                <div class="wrong-code"><pre><code class="language-python">class DetailedError : public runtime_error {
+public:
+    DetailedError(const string&amp; msg) : runtime_error(msg) {}
+    const char* what() const noexcept override { return &quot;Detailed!&quot;; }
+};
+
+try {
+    throw DetailedError(&quot;test&quot;);
+} catch (const runtime_error&amp; e) {
+    throw e;  // Creates a COPY, slices to runtime_error!
+}</code></pre></div><div class="error-message">throw e creates a copy of e as runtime_error, losing the DetailedError type. The rethrown exception is now a plain runtime_error.</div><div class="correct-code"><pre><code class="language-python">try {
+    throw DetailedError(&quot;test&quot;);
+} catch (const runtime_error&amp; e) {
+    throw;  // Rethrows the ORIGINAL exception, preserving type
+}</code></pre></div><div class="mistake-explanation">Use <code>throw;</code> (no operand) to rethrow the current exception. This preserves the original dynamic type. <code>throw e;</code> creates a new exception from the caught reference, which slices to the catch parameter type.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Catching Exceptions (Program Terminates)</h3>
+                <div class="wrong-code"><pre><code class="language-python">void doWork() {
+    throw runtime_error(&quot;Unhandled!&quot;);
+}
+
+int main() {
+    doWork();  // No try-catch: program crashes!
+    return 0;
+}</code></pre></div><div class="error-message">If no catch block matches a thrown exception, std::terminate() is called and the program crashes with an unhandled exception error.</div><div class="correct-code"><pre><code class="language-python">void doWork() {
+    throw runtime_error(&quot;Handled now!&quot;);
+}
+
+int main() {
+    try {
+        doWork();
+    } catch (const exception&amp; e) {
+        cout &lt;&lt; &quot;Caught: &quot; &lt;&lt; e.what() &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><div class="mistake-explanation">Every <code>throw</code> must have a matching <code>catch</code> somewhere in the call stack. If there is no matching catch block, the program calls <code>std::terminate()</code> and crashes. Always wrap risky operations in try-catch at appropriate levels.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Exception handling uses three keywords: try (wraps code that might throw), throw (creates an exception), and catch (handles the exception).</li>
+<li>When throw executes, the stack unwinds: local objects are destroyed in reverse order, and control transfers to the nearest matching catch block.</li>
+<li>Always catch exceptions by const reference (const exception&amp;) to avoid slicing and unnecessary copies.</li>
+<li>Multiple catch blocks are tried in order. Put specific (derived) types first and general (base) types last. catch(...) is the catch-all handler.</li>
+<li>Use throw; (no operand) to rethrow the current exception. throw e; creates a copy and potentially slices derived exceptions.</li>
+<li>The standard exception hierarchy is rooted at std::exception with logic_error and runtime_error as key branches. Use &lt;stdexcept&gt; for standard exception classes.</li>
+<li>Custom exception classes should inherit from std::exception or its subclasses and override what() to provide descriptive error messages.</li>
+<li>noexcept declares that a function will not throw. If a noexcept function throws, std::terminate() is called. STL prefers noexcept move constructors.</li>
+<li>RAII ties resource lifetime to object lifetime. Stack unwinding during exceptions automatically calls destructors, releasing resources. This is why C++ does not need finally blocks.</li>
+<li>Exception safety guarantees: no-throw (never throws, marked noexcept), strong (commit-or-rollback), basic (valid state, no leaks). Destructors and swap must provide no-throw.</li>
+<li>Never throw in destructors. If a destructor throws during stack unwinding, std::terminate() is called.</li>
+<li>Exception handling separates error logic from normal logic, making code cleaner and more maintainable than return-code error handling.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/templates-in-cpp" class="related-topic-link">Templates - Function and Class Templates</a>
+<a href="/resources/cpp/stl-containers" class="related-topic-link">STL Containers - vector, list, map, set, stack, queue</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/templates-in-cpp" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Templates - Function and Class Templates</span>
+        </a>
+            <a href="/resources/cpp/stl-containers" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">STL Containers - vector, list, map, set, stack, queue</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/exception-handling-in-cpp/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input, Output, and Formatting - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Use cin, cout, getline, setw, setprecision, fixed, and learn about buffer flushing and input validation.">
+    <meta name="keywords" content="input, output, and formatting, c++ tutorial, c++ input, output, and formatting, learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting">
+    <meta property="og:title" content="Input, Output, and Formatting - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Use cin, cout, getline, setw, setprecision, fixed, and learn about buffer flushing and input validation.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting">
+    <meta name="twitter:title" content="Input, Output, and Formatting - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Use cin, cout, getline, setw, setprecision, fixed, and learn about buffer flushing and input validation.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Input, Output, and Formatting",
+    "description": "Use cin, cout, getline, setw, setprecision, fixed, and learn about buffer flushing and input validation.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Input, Output, and Formatting",
+        "item": "https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "getline Reads Empty String After cin >>",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "After <code>cin &gt;&gt; n</code>, the newline character from pressing Enter remains in the buffer. <code>getline</code> reads until the next newline -- which is immediately available -- producing an empty string. <code>cin.ignore()</code> discards that leftover newline. This is the most common beginner I/O bug in C++."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using endl in Competitive Programming (Performance)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>endl</code> inserts a newline AND flushes the buffer. <code>'\\n'</code> only inserts a newline. In competitive programming, use <code>'\\n'</code> and add fast I/O at the top. The buffer flushes automatically when the program ends."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mixing C and C++ I/O After sync_with_stdio(false)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>ios_base::sync_with_stdio(false)</code> disconnects C++ streams from C streams. After this, using <code>printf</code>/<code>scanf</code> alongside <code>cout</code>/<code>cin</code> causes undefined behavior -- output may appear in wrong order or get lost."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "setw Only Affects the Next Output",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>setw</code> is consumed by the next output operation and then resets. You must write <code>setw</code> before EVERY value you want padded. Other manipulators like <code>setprecision</code>, <code>fixed</code>, <code>left</code>, and <code>setfill</code> are persistent -- they stay in effect until changed."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Input, Output, and Formatting</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 5</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">25 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Input, Output, and Formatting</h1>
+            <a href="/resources/cpp/input-output-and-formatting/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Input/Output in C++?</h2><p>Input/Output (I/O) in C++ is handled through <strong>streams</strong>. A stream is an abstraction that represents a sequence of bytes flowing between your program and an external device (keyboard, screen, file). The <code>&lt;iostream&gt;</code> header provides four predefined stream objects:</p><table><tr><th>Stream</th><th>Type</th><th>Purpose</th><th>Default Device</th></tr><tr><td><code>cin</code></td><td><code>istream</code></td><td>Standard input</td><td>Keyboard</td></tr><tr><td><code>cout</code></td><td><code>ostream</code></td><td>Standard output</td><td>Screen (buffered)</td></tr><tr><td><code>cerr</code></td><td><code>ostream</code></td><td>Standard error</td><td>Screen (unbuffered)</td></tr><tr><td><code>clog</code></td><td><code>ostream</code></td><td>Standard log</td><td>Screen (buffered)</td></tr></table><p>The <code>&lt;&lt;</code> operator (insertion) sends data to an output stream. The <code>&gt;&gt;</code> operator (extraction) reads data from an input stream. These operators can be <strong>chained</strong>: <code>cout &lt;&lt; "x = " &lt;&lt; x &lt;&lt; endl;</code> chains three outputs in one statement.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is I/O Knowledge Critical?</h2><h3>1. Competitive Programming</h3><p>The difference between TLE (Time Limit Exceeded) and AC (Accepted) is often just I/O speed. Using <code>endl</code> instead of <code>'\n'</code> can make your program 10x slower when printing millions of lines. <code>ios_base::sync_with_stdio(false)</code> and <code>cin.tie(NULL)</code> are the first two lines of every competitive programmer's template.</p><h3>2. The cin Buffer Problem</h3><p>One of the most frustrating bugs beginners face is <code>getline</code> reading an empty string after <code>cin &gt;&gt;</code>. Understanding the input buffer -- that <code>cin &gt;&gt;</code> leaves the newline character in the buffer, which <code>getline</code> immediately reads -- prevents hours of confusion. This is asked in interviews.</p><h3>3. Formatted Output</h3><p>When problems require specific formatting (fixed decimal places, right-aligned columns, zero-padded numbers), you need <code>&lt;iomanip&gt;</code> manipulators. Interview coding rounds sometimes specify exact output formats. Without <code>setprecision</code>, <code>fixed</code>, and <code>setw</code>, matching the expected output is impossible.</p><h3>4. Interview Topics</h3><p>"Explain the difference between <code>endl</code> and <code>'\n'</code>" is a classic question. "What does <code>cin.ignore()</code> do?" and "Why use <code>cerr</code> instead of <code>cout</code>?" appear in systems programming interviews.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>cout and cin Chaining</h3><p>Both <code>&lt;&lt;</code> and <code>&gt;&gt;</code> return a reference to the stream, enabling chaining. <code>cout &lt;&lt; a &lt;&lt; " " &lt;&lt; b;</code> is equivalent to <code>((cout &lt;&lt; a) &lt;&lt; " ") &lt;&lt; b;</code>. Similarly, <code>cin &gt;&gt; a &gt;&gt; b;</code> reads two values separated by whitespace.</p><h3>getline(cin, str)</h3><p><code>cin &gt;&gt;</code> reads until the first whitespace character (space, tab, newline) and leaves the delimiter in the buffer. To read an entire line including spaces, use <code>getline(cin, str)</code>. It reads until the newline character, consumes the newline, and stores everything before it in <code>str</code>.</p><h3>The cin Buffer Problem: cin.ignore() and cin.clear()</h3><p>When you use <code>cin &gt;&gt; n</code> followed by <code>getline(cin, str)</code>, the <code>&gt;&gt;</code> operator leaves the newline (<code>'\n'</code>) in the input buffer. <code>getline</code> then reads that leftover newline immediately, producing an empty string. The fix is <code>cin.ignore()</code> between them, which discards the leftover newline.</p><p><code>cin.ignore(numeric_limits&lt;streamsize&gt;::max(), '\n')</code> discards everything up to and including the next newline -- the most robust form.</p><p><code>cin.clear()</code> resets the error state of cin. If the user enters a string when cin expects an int, cin enters a <strong>fail state</strong> and all subsequent reads fail silently. <code>cin.clear()</code> resets this state, and <code>cin.ignore()</code> clears the bad input from the buffer.</p><h3>iomanip Formatting</h3><p>The <code>&lt;iomanip&gt;</code> header provides manipulators for formatted output:</p><ul><li><code>setw(n)</code>: Sets the minimum field width for the NEXT output only. If the output is shorter than n, it is padded (right-aligned by default).</li><li><code>setprecision(n)</code>: Sets the number of significant digits (or decimal places if used with <code>fixed</code>).</li><li><code>fixed</code>: Switches to fixed-point notation. After <code>fixed</code>, <code>setprecision(n)</code> means n decimal places.</li><li><code>scientific</code>: Switches to scientific notation (e.g., 3.14e+00).</li><li><code>left</code> / <code>right</code>: Sets alignment for setw padding.</li><li><code>setfill(c)</code>: Sets the fill character for setw padding (default is space).</li><li><code>boolalpha</code>: Prints bool as "true"/"false" instead of 1/0.</li></ul><h3>endl vs '\n'</h3><p><code>endl</code> does two things: inserts a newline AND flushes the output buffer. <code>'\n'</code> only inserts a newline. Flushing forces the buffered data to be written to the screen immediately. In competitive programming, flushing after every line is wasteful -- the buffer is flushed automatically when the program ends or when the buffer is full. Using <code>'\n'</code> instead of <code>endl</code> can be 5-10x faster when printing many lines.</p><h3>cerr and clog</h3><p><code>cerr</code> is unbuffered -- output appears immediately without waiting for a flush. It is used for error messages and debug output because even if the program crashes, the error message will have been printed. <code>clog</code> is buffered, used for log messages. In competitive programming, <code>cerr</code> is useful for debug prints that are ignored by the judge (judges only check <code>cout</code>/<code>stdout</code>).</p><h3>C-style I/O: printf and scanf</h3><p><code>printf</code> and <code>scanf</code> from C are available in C++ via <code>&lt;cstdio&gt;</code>. They use format specifiers: <code>%d</code> (int), <code>%f</code> (float/double), <code>%c</code> (char), <code>%s</code> (C-string), <code>%lld</code> (long long). <code>printf</code> is sometimes preferred for formatted output because the format string is more compact than chaining iomanip manipulators.</p><h3>Fast I/O for Competitive Programming</h3><p>The competitive programming I/O template:</p><pre><code>ios_base::sync_with_stdio(false);
+cin.tie(NULL);</code></pre><p><code>ios_base::sync_with_stdio(false)</code> disconnects C++ streams from C streams, removing synchronization overhead. <code>cin.tie(NULL)</code> unties cin from cout, so cout is not flushed before every cin read. After these two lines, do NOT mix C I/O (printf/scanf) with C++ I/O (cout/cin).</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">cout and cin Chaining</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    // Output chaining
+    int a = 10, b = 20;
+    cout &lt;&lt; &quot;a = &quot; &lt;&lt; a &lt;&lt; &quot;, b = &quot; &lt;&lt; b &lt;&lt; endl;
+
+    // Input chaining
+    int x, y, z;
+    cout &lt;&lt; &quot;Enter three numbers: &quot;;
+    cin &gt;&gt; x &gt;&gt; y &gt;&gt; z;
+    cout &lt;&lt; &quot;Sum: &quot; &lt;&lt; x + y + z &lt;&lt; endl;
+
+    // Multiple types in one chain
+    string name;
+    int age;
+    cout &lt;&lt; &quot;Enter name and age: &quot;;
+    cin &gt;&gt; name &gt;&gt; age;
+    cout &lt;&lt; name &lt;&lt; &quot; is &quot; &lt;&lt; age &lt;&lt; &quot; years old.&quot; &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">The <code>&lt;&lt;</code> and <code>&gt;&gt;</code> operators return the stream object, enabling chaining. <code>cin &gt;&gt; x &gt;&gt; y &gt;&gt; z</code> reads three whitespace-separated values. Note that <code>cin &gt;&gt; name</code> reads only the first word (stops at whitespace).</div><div class="code-example-output">a = 10, b = 20
+Enter three numbers: 3 5 7
+Sum: 15
+Enter name and age: Priya 21
+Priya is 21 years old.</div></div>
+<div class="code-example"><div class="code-example-title">getline and the cin Buffer Problem</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+int main() {
+    int rollNo;
+    string fullName;
+
+    cout &lt;&lt; &quot;Enter roll number: &quot;;
+    cin &gt;&gt; rollNo;
+
+    // WRONG: getline reads the leftover &#39;\n&#39; from cin &gt;&gt;
+    // getline(cin, fullName);  // fullName would be empty!
+
+    // FIX: ignore the leftover newline
+    cin.ignore();  // Discard the &#39;\n&#39; left by cin &gt;&gt;
+
+    cout &lt;&lt; &quot;Enter full name: &quot;;
+    getline(cin, fullName);
+
+    cout &lt;&lt; &quot;Roll: &quot; &lt;&lt; rollNo &lt;&lt; endl;
+    cout &lt;&lt; &quot;Name: &quot; &lt;&lt; fullName &lt;&lt; endl;
+
+    // Reading multiple lines
+    string line1, line2;
+    cout &lt;&lt; &quot;Enter address (2 lines):&quot; &lt;&lt; endl;
+    getline(cin, line1);
+    getline(cin, line2);
+    cout &lt;&lt; &quot;Line 1: &quot; &lt;&lt; line1 &lt;&lt; endl;
+    cout &lt;&lt; &quot;Line 2: &quot; &lt;&lt; line2 &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">After <code>cin &gt;&gt; rollNo</code>, the newline from pressing Enter remains in the buffer. Without <code>cin.ignore()</code>, <code>getline</code> immediately reads that newline and stores an empty string. <code>cin.ignore()</code> discards one character (the leftover newline). Always use <code>cin.ignore()</code> when switching from <code>&gt;&gt;</code> to <code>getline</code>.</div><div class="code-example-output">Enter roll number: 101
+Enter full name: Rahul Sharma
+Roll: 101
+Name: Rahul Sharma
+Enter address (2 lines):
+42 MG Road
+New Delhi 110001
+Line 1: 42 MG Road
+Line 2: New Delhi 110001</div></div>
+<div class="code-example"><div class="code-example-title">iomanip: setw, setprecision, fixed, setfill</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+
+int main() {
+    // setprecision without fixed: total significant digits
+    double pi = 3.141592653589793;
+    cout &lt;&lt; &quot;Default: &quot; &lt;&lt; pi &lt;&lt; endl;
+    cout &lt;&lt; &quot;setprecision(3): &quot; &lt;&lt; setprecision(3) &lt;&lt; pi &lt;&lt; endl;
+    cout &lt;&lt; &quot;setprecision(10): &quot; &lt;&lt; setprecision(10) &lt;&lt; pi &lt;&lt; endl;
+
+    // fixed + setprecision: decimal places
+    cout &lt;&lt; fixed;
+    cout &lt;&lt; &quot;fixed + setprecision(2): &quot; &lt;&lt; setprecision(2) &lt;&lt; pi &lt;&lt; endl;
+    cout &lt;&lt; &quot;fixed + setprecision(6): &quot; &lt;&lt; setprecision(6) &lt;&lt; pi &lt;&lt; endl;
+
+    // Reset to default
+    cout &lt;&lt; defaultfloat;
+
+    // setw and alignment
+    cout &lt;&lt; &quot;\n--- Table ---&quot; &lt;&lt; endl;
+    cout &lt;&lt; left &lt;&lt; setw(15) &lt;&lt; &quot;Name&quot; &lt;&lt; right &lt;&lt; setw(10) &lt;&lt; &quot;Marks&quot; &lt;&lt; endl;
+    cout &lt;&lt; left &lt;&lt; setw(15) &lt;&lt; &quot;Ananya&quot; &lt;&lt; right &lt;&lt; setw(10) &lt;&lt; 95 &lt;&lt; endl;
+    cout &lt;&lt; left &lt;&lt; setw(15) &lt;&lt; &quot;Vikram&quot; &lt;&lt; right &lt;&lt; setw(10) &lt;&lt; 87 &lt;&lt; endl;
+    cout &lt;&lt; left &lt;&lt; setw(15) &lt;&lt; &quot;Deepa&quot; &lt;&lt; right &lt;&lt; setw(10) &lt;&lt; 92 &lt;&lt; endl;
+
+    // setfill for zero-padding
+    cout &lt;&lt; &quot;\n--- Zero Padding ---&quot; &lt;&lt; endl;
+    for (int i = 1; i &lt;= 5; i++) {
+        cout &lt;&lt; &quot;Item &quot; &lt;&lt; setfill(&#39;0&#39;) &lt;&lt; setw(3) &lt;&lt; i &lt;&lt; endl;
+    }
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Without <code>fixed</code>, <code>setprecision(n)</code> controls total significant digits. With <code>fixed</code>, it controls decimal places. <code>setw</code> sets the minimum width for the next output only (it resets after each use). <code>left</code>/<code>right</code> control alignment within the setw field. <code>setfill('0')</code> uses zeros for padding instead of spaces.</div><div class="code-example-output">Default: 3.14159
+setprecision(3): 3.14
+setprecision(10): 3.141592654
+fixed + setprecision(2): 3.14
+fixed + setprecision(6): 3.141593
+
+--- Table ---
+Name                Marks
+Ananya                 95
+Vikram                 87
+Deepa                  92
+
+--- Zero Padding ---
+Item 001
+Item 002
+Item 003
+Item 004
+Item 005</div></div>
+<div class="code-example"><div class="code-example-title">endl vs &#39;\n&#39; Performance</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;chrono&gt;
+using namespace std;
+
+int main() {
+    const int N = 100000;
+
+    // Timing with endl
+    auto start1 = chrono::high_resolution_clock::now();
+    for (int i = 0; i &lt; N; i++) {
+        cout &lt;&lt; i &lt;&lt; endl;  // Flushes every iteration
+    }
+    auto end1 = chrono::high_resolution_clock::now();
+
+    // Timing with &#39;\n&#39;
+    auto start2 = chrono::high_resolution_clock::now();
+    for (int i = 0; i &lt; N; i++) {
+        cout &lt;&lt; i &lt;&lt; &#39;\n&#39;;  // No flush
+    }
+    auto end2 = chrono::high_resolution_clock::now();
+
+    auto ms1 = chrono::duration_cast&lt;chrono::milliseconds&gt;(end1 - start1).count();
+    auto ms2 = chrono::duration_cast&lt;chrono::milliseconds&gt;(end2 - start2).count();
+
+    cerr &lt;&lt; &quot;endl: &quot; &lt;&lt; ms1 &lt;&lt; &quot; ms&quot; &lt;&lt; endl;
+    cerr &lt;&lt; &quot;&#39;\\n&#39;: &quot; &lt;&lt; ms2 &lt;&lt; &quot; ms&quot; &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>endl</code> flushes the buffer after every write. With 100,000 iterations, this means 100,000 flushes vs zero flushes with <code>'\n'</code>. The difference is dramatic -- typically 5-10x slower. Note we print timing to <code>cerr</code> to keep it separate from the numbered output. In competitive programming, always use <code>'\n'</code>.</div><div class="code-example-output">(100000 numbers printed)
+endl: ~350 ms
+&#39;\n&#39;: ~50 ms</div></div>
+<div class="code-example"><div class="code-example-title">cerr, clog, and Debug Output</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    // cout: standard output (buffered)
+    cout &lt;&lt; &quot;This goes to stdout&quot; &lt;&lt; endl;
+
+    // cerr: standard error (unbuffered) -- appears immediately
+    cerr &lt;&lt; &quot;Error: something went wrong!&quot; &lt;&lt; endl;
+
+    // clog: standard log (buffered)
+    clog &lt;&lt; &quot;Log: program started&quot; &lt;&lt; endl;
+
+    // In competitive programming, use cerr for debugging
+    // The judge only checks stdout (cout)
+    int arr[] = {3, 1, 4, 1, 5};
+    int n = 5;
+    cerr &lt;&lt; &quot;DEBUG: array = &quot;;
+    for (int i = 0; i &lt; n; i++) cerr &lt;&lt; arr[i] &lt;&lt; &quot; &quot;;
+    cerr &lt;&lt; endl;
+
+    // Your actual answer
+    int sum = 0;
+    for (int i = 0; i &lt; n; i++) sum += arr[i];
+    cout &lt;&lt; sum &lt;&lt; endl;  // Only this is checked by the judge
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>cerr</code> is unbuffered -- output appears immediately even if the program crashes. In competitive programming, debug prints to <code>cerr</code> are not checked by the judge (which only compares <code>stdout</code>). This means you can leave debug output in your submission without getting Wrong Answer.</div><div class="code-example-output">This goes to stdout
+Error: something went wrong!
+Log: program started
+DEBUG: array = 3 1 4 1 5
+14</div></div>
+<div class="code-example"><div class="code-example-title">Fast I/O Template for Competitive Programming</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    // Fast I/O: must be the first two lines
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    // After these lines, do NOT use printf/scanf
+    // Do NOT use endl -- use &#39;\n&#39;
+
+    int t;
+    cin &gt;&gt; t;
+    while (t--) {
+        int n;
+        cin &gt;&gt; n;
+        long long sum = 0;
+        for (int i = 0; i &lt; n; i++) {
+            int x;
+            cin &gt;&gt; x;
+            sum += x;
+        }
+        cout &lt;&lt; sum &lt;&lt; &#39;\n&#39;;
+    }
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>ios_base::sync_with_stdio(false)</code> disconnects C++ I/O from C I/O, removing synchronization overhead. <code>cin.tie(NULL)</code> prevents cout from being flushed before every cin operation. Together, these make cin/cout as fast as scanf/printf. After using these, never mix C and C++ I/O in the same program.</div><div class="code-example-output">(Processes t test cases, each with n numbers, printing their sum)</div></div>
+<div class="code-example"><div class="code-example-title">printf and scanf (C-style I/O)</div><pre><code class="language-python">#include &lt;cstdio&gt;
+using namespace std;
+
+int main() {
+    // printf with format specifiers
+    int age = 20;
+    double gpa = 8.75;
+    char grade = &#39;A&#39;;
+
+    printf(&quot;Age: %d\n&quot;, age);
+    printf(&quot;GPA: %.2f\n&quot;, gpa);    // 2 decimal places
+    printf(&quot;Grade: %c\n&quot;, grade);
+
+    // Formatted table with printf
+    printf(&quot;\n%-15s %5s %10s\n&quot;, &quot;Name&quot;, &quot;Roll&quot;, &quot;Marks&quot;);
+    printf(&quot;%-15s %5d %10.1f\n&quot;, &quot;Arjun&quot;, 101, 92.5);
+    printf(&quot;%-15s %5d %10.1f\n&quot;, &quot;Kavitha&quot;, 102, 88.0);
+    printf(&quot;%-15s %5d %10.1f\n&quot;, &quot;Ravi&quot;, 103, 95.3);
+
+    // scanf for input
+    int x;
+    printf(&quot;\nEnter a number: &quot;);
+    scanf(&quot;%d&quot;, &amp;x);  // Note the &amp; (address-of operator)
+    printf(&quot;You entered: %d\n&quot;, x);
+
+    // Zero-padding with printf
+    for (int i = 1; i &lt;= 5; i++) {
+        printf(&quot;Item %03d\n&quot;, i);  // 3-digit zero-padded
+    }
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>printf</code> uses format specifiers: <code>%d</code> (int), <code>%.2f</code> (double with 2 decimal places), <code>%c</code> (char), <code>%s</code> (C-string). <code>%-15s</code> means left-aligned in 15 chars. <code>%03d</code> means zero-padded to 3 digits. <code>scanf</code> requires the address of the variable (<code>&amp;x</code>). printf formatting is more concise than cout + iomanip for tabular output.</div><div class="code-example-output">Age: 20
+GPA: 8.75
+Grade: A
+
+Name             Roll      Marks
+Arjun             101       92.5
+Kavitha           102       88.0
+Ravi              103       95.3
+
+Enter a number: 42
+You entered: 42
+Item 001
+Item 002
+Item 003
+Item 004
+Item 005</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>getline Reads Empty String After cin &gt;&gt;</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    int n;
+    string name;
+    cout &lt;&lt; &quot;Enter number: &quot;;
+    cin &gt;&gt; n;
+    cout &lt;&lt; &quot;Enter name: &quot;;
+    getline(cin, name);  // Reads empty string!
+    cout &lt;&lt; &quot;Name: &#39;&quot; &lt;&lt; name &lt;&lt; &quot;&#39;&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="error-message">name is empty. getline reads the leftover &#39;\n&#39; from cin &gt;&gt; n immediately.</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    int n;
+    string name;
+    cout &lt;&lt; &quot;Enter number: &quot;;
+    cin &gt;&gt; n;
+    cin.ignore();  // Discard the leftover &#39;\n&#39;
+    cout &lt;&lt; &quot;Enter name: &quot;;
+    getline(cin, name);
+    cout &lt;&lt; &quot;Name: &#39;&quot; &lt;&lt; name &lt;&lt; &quot;&#39;&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="mistake-explanation">After <code>cin &gt;&gt; n</code>, the newline character from pressing Enter remains in the buffer. <code>getline</code> reads until the next newline -- which is immediately available -- producing an empty string. <code>cin.ignore()</code> discards that leftover newline. This is the most common beginner I/O bug in C++.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using endl in Competitive Programming (Performance)</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int n = 1000000;
+    for (int i = 0; i &lt; n; i++) {
+        cout &lt;&lt; i &lt;&lt; endl;  // Flushes 1 million times!
+    }
+    return 0;
+}</code></pre></div><div class="error-message">Time Limit Exceeded. endl flushes the buffer every iteration, making output 5-10x slower.</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int n = 1000000;
+    for (int i = 0; i &lt; n; i++) {
+        cout &lt;&lt; i &lt;&lt; &#39;\n&#39;;  // No flush, much faster
+    }
+    return 0;
+}</code></pre></div><div class="mistake-explanation"><code>endl</code> inserts a newline AND flushes the buffer. <code>'\n'</code> only inserts a newline. In competitive programming, use <code>'\n'</code> and add fast I/O at the top. The buffer flushes automatically when the program ends.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Mixing C and C++ I/O After sync_with_stdio(false)</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;cstdio&gt;
+using namespace std;
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout &lt;&lt; &quot;Hello from cout&quot; &lt;&lt; &#39;\n&#39;;
+    printf(&quot;Hello from printf\n&quot;);  // Undefined behavior!
+    return 0;
+}</code></pre></div><div class="error-message">Output may be interleaved or out of order. After disabling sync, mixing cout and printf is undefined.</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout &lt;&lt; &quot;Hello from cout&quot; &lt;&lt; &#39;\n&#39;;
+    cout &lt;&lt; &quot;Hello again from cout&quot; &lt;&lt; &#39;\n&#39;;
+    // Use ONLY cout/cin after sync_with_stdio(false)
+    return 0;
+}</code></pre></div><div class="mistake-explanation"><code>ios_base::sync_with_stdio(false)</code> disconnects C++ streams from C streams. After this, using <code>printf</code>/<code>scanf</code> alongside <code>cout</code>/<code>cin</code> causes undefined behavior -- output may appear in wrong order or get lost.</div>
+            </div>
+<div class="mistake-card">
+                <h3>setw Only Affects the Next Output</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; setw(10);
+    cout &lt;&lt; 42 &lt;&lt; 99 &lt;&lt; endl;  // Only 42 is padded!
+    return 0;
+}</code></pre></div><div class="error-message">Output is &#39;        4299&#39; not &#39;        42        99&#39;. setw only affects the very next output.</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; setw(10) &lt;&lt; 42 &lt;&lt; setw(10) &lt;&lt; 99 &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="mistake-explanation"><code>setw</code> is consumed by the next output operation and then resets. You must write <code>setw</code> before EVERY value you want padded. Other manipulators like <code>setprecision</code>, <code>fixed</code>, <code>left</code>, and <code>setfill</code> are persistent -- they stay in effect until changed.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>C++ I/O uses streams: cin (input), cout (output), cerr (error, unbuffered), clog (log, buffered). Include &lt;iostream&gt; for all four.</li>
+<li>cin &gt;&gt; reads until whitespace. getline(cin, str) reads the entire line including spaces. Always use cin.ignore() when switching from &gt;&gt; to getline.</li>
+<li>The cin buffer problem: cin &gt;&gt; leaves &#39;\n&#39; in the buffer. getline reads that &#39;\n&#39; immediately, producing an empty string. Fix with cin.ignore().</li>
+<li>cin.clear() resets the error state after bad input. cin.ignore() discards characters from the buffer. Use both together to recover from invalid input.</li>
+<li>endl inserts a newline AND flushes the buffer. &#39;\n&#39; only inserts a newline. Use &#39;\n&#39; in competitive programming for 5-10x faster output.</li>
+<li>iomanip manipulators: setw(n) sets minimum width (next output only), setprecision(n) sets precision, fixed switches to decimal places, setfill(c) changes padding character.</li>
+<li>setw resets after each use. setprecision, fixed, left, right, and setfill are persistent (stay in effect until changed).</li>
+<li>cerr is unbuffered and writes to stderr. In competitive programming, use cerr for debug output -- judges only check stdout (cout).</li>
+<li>printf/scanf from C are available via &lt;cstdio&gt;. printf uses format specifiers (%d, %f, %s, %c). printf is more compact for formatted tables.</li>
+<li>Fast I/O template: ios_base::sync_with_stdio(false) + cin.tie(NULL). After this, do NOT mix C I/O (printf/scanf) with C++ I/O (cout/cin).</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/operators-in-cpp" class="related-topic-link">Operators in C++</a>
+<a href="/resources/cpp/conditional-statements" class="related-topic-link">Conditional Statements (if, else, switch)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/operators-in-cpp" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Operators in C++</span>
+        </a>
+            <a href="/resources/cpp/conditional-statements" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Conditional Statements (if, else, switch)</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/input-output-and-formatting/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,646 @@
+{
+  "title": "MLOps and Model Deployment",
+  "slug": "ml-ops-and-model-deployment",
+  "language": "ai-and-machine-learning",
+  "chapter": 24,
+  "difficulty": "Advanced",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 50,
+  "seo": {
+    "title": "MLOps and Model Deployment - Flask, FastAPI, Docker, MLflow, CI/CD for ML | Modern Age Coders",
+    "description": "Learn MLOps fundamentals including ML pipelines, saving models with pickle and joblib, building APIs with Flask and FastAPI, Docker containerization for ML, model serving patterns, model monitoring for data drift, MLflow for versioning, CI/CD for ML, and cloud deployment. Includes 52+ practice questions with Python code examples.",
+    "keywords": "MLOps tutorial, model deployment, Flask ML API, FastAPI machine learning, Docker ML, MLflow model versioning, model monitoring data drift, CI/CD ML pipeline, deploy ML model, model serving"
+  },
+  "content": {
+    "what": "<h2>What Is MLOps?</h2><p><strong>MLOps (Machine Learning Operations)</strong> is the set of practices, tools, and workflows that bring machine learning models from research notebooks to reliable, scalable production systems. Just as DevOps bridges the gap between software development and operations, MLOps bridges the gap between ML model development and deployment.</p><pre><code># The ML lifecycle that MLOps manages:\n# 1. Data Collection & Processing\n# 2. Feature Engineering\n# 3. Model Training & Experimentation\n# 4. Model Evaluation & Validation\n# 5. Model Packaging & Deployment\n# 6. Monitoring & Maintenance\n# 7. Retraining (loop back to step 1)</code></pre><p>The core problem MLOps solves: most ML models never reach production. Studies show that 87% of ML projects never make it past the experimentation phase. Models that do deploy often degrade over time due to data drift, lack of monitoring, and no automated retraining pipeline. MLOps provides the infrastructure and processes to deploy models reliably, monitor their performance, and keep them updated.</p><p>Key MLOps components include: model serialization (saving/loading models), API serving (Flask, FastAPI), containerization (Docker), model versioning (MLflow), monitoring (data drift detection), and CI/CD pipelines for automated testing and deployment.</p>",
+    "why": "<h2>Why Is MLOps Important?</h2><h3>1. Bridging the Gap Between Notebooks and Production</h3><p>Meera built an excellent sentiment classifier in a Jupyter notebook with 95% accuracy. But without MLOps, that model sits in a notebook that only she can run, on her local machine, with specific library versions. MLOps transforms this into a deployable, reproducible, scalable service that her entire team -- and thousands of users -- can access via an API.</p><h3>2. Reproducibility and Versioning</h3><p>ML experiments involve many moving parts: training data, feature engineering code, hyperparameters, model architecture, library versions, and random seeds. Without proper versioning, it is impossible to reproduce a result or roll back to a previous model when a new one performs worse. MLflow and similar tools track all these variables.</p><h3>3. Continuous Model Improvement</h3><p>The real world changes. Customer behavior shifts, language evolves, economic conditions fluctuate. A model trained on 2024 data may perform poorly on 2026 data. MLOps provides monitoring to detect performance degradation and pipelines to automatically retrain and redeploy models.</p><h3>4. Scaling ML Impact</h3><p>A model serving one prediction at a time in a notebook is very different from serving 10,000 predictions per second in production. MLOps provides the infrastructure (containerization, load balancing, auto-scaling) to handle production workloads.</p><h3>5. Industry Demand</h3><p>MLOps Engineer is one of the fastest-growing roles in India and globally. Companies that have built ML models are now investing heavily in deploying and maintaining them. Knowledge of Flask/FastAPI, Docker, MLflow, and cloud deployment platforms is increasingly required for ML Engineer roles.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The ML Pipeline</h3><p>An ML pipeline automates the flow from raw data to deployed model:</p><pre><code># ML Pipeline stages:\n# Data -> Preprocess -> Feature Engineering -> Train -> Evaluate -> Deploy -> Monitor\n#   ^                                                                          |\n#   |--- Retrain when performance drops (detected by monitoring) <-------------|</code></pre><p>Each stage should be: <strong>versioned</strong> (track changes), <strong>reproducible</strong> (same input = same output), <strong>automated</strong> (no manual steps), and <strong>monitored</strong> (know when something breaks).</p><h3>2. Saving Models: pickle, joblib, model.save()</h3><p>Before deploying a model, you need to serialize (save) it to a file:</p><pre><code>import pickle\nimport joblib\nfrom sklearn.ensemble import RandomForestClassifier\n\n# Train a model\nmodel = RandomForestClassifier(n_estimators=100)\nmodel.fit(X_train, y_train)\n\n# Method 1: pickle\nwith open(\"model.pkl\", \"wb\") as f:\n    pickle.dump(model, f)\n\n# Load\nwith open(\"model.pkl\", \"rb\") as f:\n    loaded_model = pickle.load(f)\n\n# Method 2: joblib (better for large numpy arrays)\njoblib.dump(model, \"model.joblib\")\nloaded_model = joblib.load(\"model.joblib\")\n\n# Method 3: Keras/TensorFlow model.save()\n# model.save(\"model.keras\")  # Saves architecture + weights + optimizer\n# loaded = tf.keras.models.load_model(\"model.keras\")</code></pre><p>Choose pickle for general Python objects, joblib for scikit-learn models (better with large numpy arrays), and framework-specific methods (.save() for Keras, torch.save() for PyTorch) for deep learning models.</p><h3>3. Building an API with Flask</h3><p>Flask is the simplest way to serve an ML model as a REST API:</p><pre><code>from flask import Flask, request, jsonify\nimport joblib\n\napp = Flask(__name__)\nmodel = joblib.load(\"model.joblib\")\n\n@app.route(\"/predict\", methods=[\"POST\"])\ndef predict():\n    data = request.get_json()\n    features = [data[\"features\"]]  # Expect JSON: {\"features\": [1.2, 3.4, ...]}\n    prediction = model.predict(features)\n    return jsonify({\"prediction\": int(prediction[0])})\n\n@app.route(\"/health\", methods=[\"GET\"])\ndef health():\n    return jsonify({\"status\": \"healthy\"})\n\nif __name__ == \"__main__\":\n    app.run(host=\"0.0.0.0\", port=5000)</code></pre><p>Flask is synchronous and best for simple, low-to-medium traffic deployments.</p><h3>4. Building with FastAPI</h3><p>FastAPI is modern, fast, and automatically generates interactive API documentation:</p><pre><code>from fastapi import FastAPI\nfrom pydantic import BaseModel\nimport joblib\nimport numpy as np\n\napp = FastAPI(title=\"ML Prediction API\")\nmodel = joblib.load(\"model.joblib\")\n\nclass PredictionRequest(BaseModel):\n    features: list[float]\n\nclass PredictionResponse(BaseModel):\n    prediction: int\n    confidence: float\n\n@app.post(\"/predict\", response_model=PredictionResponse)\nasync def predict(req: PredictionRequest):\n    features = np.array(req.features).reshape(1, -1)\n    prediction = model.predict(features)[0]\n    confidence = max(model.predict_proba(features)[0])\n    return PredictionResponse(prediction=int(prediction), confidence=float(confidence))\n\n@app.get(\"/health\")\nasync def health():\n    return {\"status\": \"healthy\"}</code></pre><p>Advantages over Flask: automatic request validation (via Pydantic), auto-generated Swagger docs at /docs, async support for higher concurrency, and type hints for better IDE support.</p><h3>5. Docker Basics for ML</h3><p>Docker packages your application, model, and all dependencies into a portable <strong>container</strong> that runs identically on any machine:</p><pre><code># Dockerfile for ML API\nFROM python:3.11-slim\n\nWORKDIR /app\n\n# Install dependencies\nCOPY requirements.txt .\nRUN pip install --no-cache-dir -r requirements.txt\n\n# Copy application code and model\nCOPY app.py .\nCOPY model.joblib .\n\n# Expose port\nEXPOSE 8000\n\n# Run the API\nCMD [\"uvicorn\", \"app:app\", \"--host\", \"0.0.0.0\", \"--port\", \"8000\"]</code></pre><p>Why containerize? It eliminates \"works on my machine\" problems, ensures consistent dependencies, and makes deployment to any cloud provider straightforward.</p><pre><code># Docker commands:\n# docker build -t ml-api .          # Build image\n# docker run -p 8000:8000 ml-api    # Run container\n# docker push ml-api:latest         # Push to registry</code></pre><h3>6. Model Serving Patterns</h3><ul><li><strong>Real-time (Online) Serving</strong>: API endpoint that returns predictions immediately. Best for interactive applications (chatbots, recommendation widgets). Flask, FastAPI, or cloud endpoints.</li><li><strong>Batch Serving</strong>: Process large datasets periodically (hourly, daily). Best for non-time-critical tasks (daily reports, email personalization). Use cron jobs, Airflow, or cloud batch services.</li><li><strong>Streaming Serving</strong>: Process data as it arrives in real-time streams (Kafka, Kinesis). Best for continuous monitoring (fraud detection, anomaly detection).</li></ul><h3>7. Model Monitoring</h3><p>Deployed models degrade over time. Key things to monitor:</p><ul><li><strong>Data Drift</strong>: The distribution of incoming data changes from what the model was trained on. Example: a loan approval model trained on pre-pandemic data encounters pandemic-era applications with different income patterns.</li><li><strong>Concept Drift</strong>: The relationship between features and the target changes. Example: what constitutes spam email evolves as spammers change tactics.</li><li><strong>Performance Decay</strong>: Model accuracy, latency, or throughput degradation over time.</li></ul><pre><code># Simple data drift detection using statistical tests\nfrom scipy import stats\nimport numpy as np\n\ndef detect_drift(reference_data, new_data, threshold=0.05):\n    \"\"\"Detect data drift using Kolmogorov-Smirnov test.\"\"\"\n    results = []\n    for col in range(reference_data.shape[1]):\n        stat, p_value = stats.ks_2samp(reference_data[:, col], new_data[:, col])\n        drift_detected = p_value < threshold\n        results.append({\"feature\": col, \"p_value\": p_value, \"drift\": drift_detected})\n    return results</code></pre><h3>8. Model Versioning with MLflow</h3><p>MLflow tracks experiments, packages models, and manages deployments:</p><pre><code>import mlflow\nimport mlflow.sklearn\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.metrics import accuracy_score\n\n# Start an experiment\nmlflow.set_experiment(\"sentiment-classifier\")\n\nwith mlflow.start_run():\n    # Log hyperparameters\n    mlflow.log_param(\"n_estimators\", 100)\n    mlflow.log_param(\"max_depth\", 10)\n    \n    # Train model\n    model = RandomForestClassifier(n_estimators=100, max_depth=10)\n    model.fit(X_train, y_train)\n    \n    # Log metrics\n    accuracy = accuracy_score(y_test, model.predict(X_test))\n    mlflow.log_metric(\"accuracy\", accuracy)\n    \n    # Log model\n    mlflow.sklearn.log_model(model, \"model\")\n    \n    print(f\"Run ID: {mlflow.active_run().info.run_id}\")\n    print(f\"Accuracy: {accuracy:.4f}\")</code></pre><h3>9. CI/CD for ML</h3><p>CI/CD (Continuous Integration/Continuous Deployment) automates testing and deployment:</p><ul><li><strong>CI</strong>: On every code push, automatically run tests (data validation, model performance checks, unit tests).</li><li><strong>CD</strong>: Automatically deploy the model to staging/production if all tests pass.</li></ul><pre><code># GitHub Actions workflow for ML CI/CD (.github/workflows/ml-pipeline.yml)\n# name: ML Pipeline\n# on: push\n# jobs:\n#   test:\n#     runs-on: ubuntu-latest\n#     steps:\n#       - uses: actions/checkout@v3\n#       - name: Install dependencies\n#         run: pip install -r requirements.txt\n#       - name: Run data validation\n#         run: python tests/test_data.py\n#       - name: Run model tests\n#         run: python tests/test_model.py\n#       - name: Build Docker image\n#         run: docker build -t ml-api .\n#       - name: Deploy to staging\n#         if: github.ref == 'refs/heads/main'\n#         run: ./deploy.sh staging</code></pre><h3>10. Cloud Deployment Options</h3><ul><li><strong>AWS SageMaker</strong>: End-to-end ML platform with built-in training, deployment, and monitoring. Managed infrastructure.</li><li><strong>GCP Vertex AI</strong>: Google's unified ML platform. Integrated with BigQuery and TensorFlow.</li><li><strong>Hugging Face Spaces</strong>: Free hosting for ML demos. Great for prototyping and showcasing models.</li><li><strong>Azure ML</strong>: Microsoft's ML platform with AutoML and MLOps pipelines.</li><li><strong>Self-hosted</strong>: Deploy on a VPS (DigitalOcean, EC2) with Docker + nginx. Full control but more operational burden.</li></ul>",
+    "codeExamples": [
+      {
+        "title": "Complete FastAPI ML Deployment",
+        "code": "# app.py -- FastAPI ML prediction service\nfrom fastapi import FastAPI, HTTPException\nfrom pydantic import BaseModel, Field\nimport joblib\nimport numpy as np\nfrom datetime import datetime\n\napp = FastAPI(\n    title=\"Sentiment Classifier API\",\n    description=\"Classifies text sentiment as positive or negative\",\n    version=\"1.0.0\"\n)\n\n# Load model and vectorizer at startup\nmodel = joblib.load(\"sentiment_model.joblib\")\nvectorizer = joblib.load(\"tfidf_vectorizer.joblib\")\n\n# Request/Response schemas\nclass TextRequest(BaseModel):\n    text: str = Field(..., min_length=1, max_length=5000, \n                      description=\"Text to classify\")\n\nclass PredictionResponse(BaseModel):\n    text: str\n    sentiment: str\n    confidence: float\n    model_version: str\n    timestamp: str\n\nclass HealthResponse(BaseModel):\n    status: str\n    model_loaded: bool\n    timestamp: str\n\n@app.post(\"/predict\", response_model=PredictionResponse)\nasync def predict(request: TextRequest):\n    try:\n        # Vectorize text\n        features = vectorizer.transform([request.text])\n        \n        # Predict\n        prediction = model.predict(features)[0]\n        proba = model.predict_proba(features)[0]\n        confidence = float(max(proba))\n        sentiment = \"positive\" if prediction == 1 else \"negative\"\n        \n        return PredictionResponse(\n            text=request.text,\n            sentiment=sentiment,\n            confidence=round(confidence, 4),\n            model_version=\"1.0.0\",\n            timestamp=datetime.now().isoformat()\n        )\n    except Exception as e:\n        raise HTTPException(status_code=500, detail=str(e))\n\n@app.get(\"/health\", response_model=HealthResponse)\nasync def health_check():\n    return HealthResponse(\n        status=\"healthy\",\n        model_loaded=model is not None,\n        timestamp=datetime.now().isoformat()\n    )\n\n# Run with: uvicorn app:app --host 0.0.0.0 --port 8000\n# Docs at: http://localhost:8000/docs\nprint(\"FastAPI app defined with /predict and /health endpoints\")\nprint(\"Run: uvicorn app:app --host 0.0.0.0 --port 8000\")",
+        "language": "python",
+        "explanation": "This production-ready FastAPI app serves a sentiment classifier. Pydantic models validate incoming requests (min/max length) and define response schemas. The <code>/predict</code> endpoint takes text, vectorizes it, runs the model, and returns prediction with confidence. The <code>/health</code> endpoint enables load balancers and monitoring systems to check if the service is running. Auto-generated Swagger docs are available at <code>/docs</code>.",
+        "output": "FastAPI app defined with /predict and /health endpoints\nRun: uvicorn app:app --host 0.0.0.0 --port 8000"
+      },
+      {
+        "title": "Saving and Loading Models with Different Methods",
+        "code": "import pickle\nimport joblib\nimport numpy as np\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.datasets import make_classification\nimport os\nimport time\n\n# Create a model\nX, y = make_classification(n_samples=1000, n_features=20, random_state=42)\nmodel = RandomForestClassifier(n_estimators=100, random_state=42)\nmodel.fit(X, y)\nprint(f\"Model accuracy: {model.score(X, y):.4f}\")\n\n# Method 1: pickle\nstart = time.time()\nwith open(\"model.pkl\", \"wb\") as f:\n    pickle.dump(model, f)\npickle_time = time.time() - start\npickle_size = os.path.getsize(\"model.pkl\") / 1024\n\nwith open(\"model.pkl\", \"rb\") as f:\n    model_pkl = pickle.load(f)\nprint(f\"\\npickle: {pickle_size:.1f} KB, save time: {pickle_time:.4f}s\")\nprint(f\"  Predictions match: {np.array_equal(model.predict(X[:5]), model_pkl.predict(X[:5]))}\")\n\n# Method 2: joblib\nstart = time.time()\njoblib.dump(model, \"model.joblib\")\njoblib_time = time.time() - start\njoblib_size = os.path.getsize(\"model.joblib\") / 1024\n\nmodel_jl = joblib.load(\"model.joblib\")\nprint(f\"\\njoblib: {joblib_size:.1f} KB, save time: {joblib_time:.4f}s\")\nprint(f\"  Predictions match: {np.array_equal(model.predict(X[:5]), model_jl.predict(X[:5]))}\")\n\n# Method 3: joblib with compression\nstart = time.time()\njoblib.dump(model, \"model_compressed.joblib\", compress=3)\ncomp_time = time.time() - start\ncomp_size = os.path.getsize(\"model_compressed.joblib\") / 1024\nprint(f\"\\njoblib (compressed): {comp_size:.1f} KB, save time: {comp_time:.4f}s\")\nprint(f\"  Compression ratio: {joblib_size/comp_size:.1f}x\")\n\n# Cleanup\nfor f in [\"model.pkl\", \"model.joblib\", \"model_compressed.joblib\"]:\n    os.remove(f)",
+        "language": "python",
+        "explanation": "Three methods for saving scikit-learn models: pickle (standard Python serialization), joblib (optimized for numpy arrays, slightly faster for ML models), and joblib with compression (smaller files, slower save/load). All methods produce identical predictions. Joblib with compression is best for deployment where file size matters. For Keras models, use <code>model.save()</code>; for PyTorch, use <code>torch.save(model.state_dict())</code>.",
+        "output": "Model accuracy: 1.0000\n\npickle: 1247.3 KB, save time: 0.0312s\n  Predictions match: True\n\njoblib: 1189.5 KB, save time: 0.0287s\n  Predictions match: True\n\njoblib (compressed): 312.8 KB, save time: 0.1456s\n  Compression ratio: 3.8x"
+      },
+      {
+        "title": "Docker Configuration for ML API",
+        "code": "# This example shows the Docker configuration files needed\n\n# === Dockerfile ===\ndockerfile_content = \"\"\"FROM python:3.11-slim\n\nWORKDIR /app\n\n# Install system dependencies (if needed for numpy/scipy)\nRUN apt-get update && apt-get install -y --no-install-recommends \\\\\n    build-essential && rm -rf /var/lib/apt/lists/*\n\n# Copy and install Python dependencies first (layer caching)\nCOPY requirements.txt .\nRUN pip install --no-cache-dir -r requirements.txt\n\n# Copy application code and model\nCOPY app.py .\nCOPY model.joblib .\nCOPY vectorizer.joblib .\n\n# Create non-root user for security\nRUN useradd -m appuser && chown -R appuser /app\nUSER appuser\n\n# Expose port and set healthcheck\nEXPOSE 8000\nHEALTHCHECK --interval=30s --timeout=5s \\\\\n    CMD curl -f http://localhost:8000/health || exit 1\n\n# Run with uvicorn\nCMD [\"uvicorn\", \"app:app\", \"--host\", \"0.0.0.0\", \"--port\", \"8000\"]\n\"\"\"\n\n# === requirements.txt ===\nrequirements_content = \"\"\"fastapi==0.109.0\nuvicorn==0.27.0\njoblib==1.3.2\nscikit-learn==1.4.0\nnumpy==1.26.3\npydantic==2.5.3\n\"\"\"\n\n# === docker-compose.yml ===\ncompose_content = \"\"\"version: '3.8'\nservices:\n  ml-api:\n    build: .\n    ports:\n      - \"8000:8000\"\n    environment:\n      - MODEL_PATH=/app/model.joblib\n    healthcheck:\n      test: [\"CMD\", \"curl\", \"-f\", \"http://localhost:8000/health\"]\n      interval: 30s\n      timeout: 5s\n      retries: 3\n    restart: unless-stopped\n\"\"\"\n\nprint(\"=== Dockerfile ===\")\nprint(dockerfile_content)\nprint(\"=== requirements.txt ===\")\nprint(requirements_content)\nprint(\"=== Docker Commands ===\")\nprint(\"docker build -t ml-api .\")\nprint(\"docker run -p 8000:8000 ml-api\")\nprint(\"docker-compose up --build\")\nprint(\"\\nKey Docker concepts:\")\nprint(\"  Image: Blueprint (read-only template)\")\nprint(\"  Container: Running instance of an image\")\nprint(\"  Layer caching: Dependencies installed before code for faster rebuilds\")\nprint(\"  Non-root user: Security best practice\")",
+        "language": "python",
+        "explanation": "This shows the complete Docker setup for deploying an ML API. Key practices: install dependencies before copying code (leverages Docker layer caching for faster rebuilds), pin exact library versions (reproducibility), run as non-root user (security), include a health check (monitoring), and use docker-compose for easy orchestration. The <code>--no-cache-dir</code> flag reduces image size by not caching pip downloads.",
+        "output": "=== Dockerfile ===\n[Dockerfile content printed]\n=== requirements.txt ===\n[requirements.txt content printed]\n=== Docker Commands ===\ndocker build -t ml-api .\ndocker run -p 8000:8000 ml-api\ndocker-compose up --build\n\nKey Docker concepts:\n  Image: Blueprint (read-only template)\n  Container: Running instance of an image\n  Layer caching: Dependencies installed before code for faster rebuilds\n  Non-root user: Security best practice"
+      },
+      {
+        "title": "MLflow Experiment Tracking",
+        "code": "import mlflow\nimport mlflow.sklearn\nfrom sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.datasets import make_classification\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import accuracy_score, f1_score\n\n# Create dataset\nX, y = make_classification(n_samples=2000, n_features=20, random_state=42)\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Set experiment\nmlflow.set_experiment(\"model-comparison\")\n\n# Define experiments\nexperiments = [\n    (\"LogisticRegression\", LogisticRegression(max_iter=200)),\n    (\"RandomForest\", RandomForestClassifier(n_estimators=100, random_state=42)),\n    (\"GradientBoosting\", GradientBoostingClassifier(n_estimators=100, random_state=42))\n]\n\nresults = []\nfor name, model in experiments:\n    with mlflow.start_run(run_name=name):\n        # Log model type\n        mlflow.log_param(\"model_type\", name)\n        \n        # Train\n        model.fit(X_train, y_train)\n        predictions = model.predict(X_test)\n        \n        # Calculate metrics\n        accuracy = accuracy_score(y_test, predictions)\n        f1 = f1_score(y_test, predictions)\n        \n        # Log metrics\n        mlflow.log_metric(\"accuracy\", accuracy)\n        mlflow.log_metric(\"f1_score\", f1)\n        \n        # Log model artifact\n        mlflow.sklearn.log_model(model, \"model\")\n        \n        results.append((name, accuracy, f1))\n        print(f\"{name:25s} | Accuracy: {accuracy:.4f} | F1: {f1:.4f}\")\n\n# Summary\nprint(\"\\n=== Experiment Summary ===\")\nbest = max(results, key=lambda x: x[1])\nprint(f\"Best model: {best[0]} (Accuracy: {best[1]:.4f})\")\nprint(\"\\nAll runs logged in MLflow. View with: mlflow ui\")",
+        "language": "python",
+        "explanation": "MLflow tracks experiments with parameters, metrics, and model artifacts. Each <code>mlflow.start_run()</code> creates a new run. <code>log_param()</code> records hyperparameters, <code>log_metric()</code> records performance metrics, and <code>log_model()</code> saves the trained model. All runs are stored and viewable in the MLflow UI (<code>mlflow ui</code>). This enables comparing experiments, reproducing results, and selecting the best model for deployment.",
+        "output": "LogisticRegression        | Accuracy: 0.9225 | F1: 0.9218\nRandomForest              | Accuracy: 0.9650 | F1: 0.9644\nGradientBoosting          | Accuracy: 0.9575 | F1: 0.9569\n\n=== Experiment Summary ===\nBest model: RandomForest (Accuracy: 0.9650)\n\nAll runs logged in MLflow. View with: mlflow ui"
+      },
+      {
+        "title": "Data Drift Detection",
+        "code": "import numpy as np\nfrom scipy import stats\n\ndef detect_data_drift(reference_data, production_data, feature_names, alpha=0.05):\n    \"\"\"\n    Detect data drift using Kolmogorov-Smirnov test.\n    Compares the distribution of each feature between reference and production data.\n    \"\"\"\n    results = []\n    \n    for i, name in enumerate(feature_names):\n        ref_col = reference_data[:, i]\n        prod_col = production_data[:, i]\n        \n        # KS test: null hypothesis = same distribution\n        ks_stat, p_value = stats.ks_2samp(ref_col, prod_col)\n        drift = p_value < alpha\n        \n        results.append({\n            \"feature\": name,\n            \"ks_statistic\": round(ks_stat, 4),\n            \"p_value\": round(p_value, 4),\n            \"drift_detected\": drift\n        })\n    \n    return results\n\n# Simulate training data (reference) and production data\nnp.random.seed(42)\nn_samples = 1000\n\n# Reference data (training distribution)\nref_data = np.column_stack([\n    np.random.normal(0, 1, n_samples),      # Feature A: mean=0, std=1\n    np.random.normal(5, 2, n_samples),      # Feature B: mean=5, std=2\n    np.random.uniform(0, 10, n_samples),    # Feature C: uniform 0-10\n])\n\n# Production data (with drift on Feature B)\nprod_data = np.column_stack([\n    np.random.normal(0, 1, n_samples),      # Feature A: NO drift\n    np.random.normal(7, 2.5, n_samples),    # Feature B: DRIFTED (mean 5->7, std 2->2.5)\n    np.random.uniform(0, 10, n_samples),    # Feature C: NO drift\n])\n\nfeature_names = [\"Feature A\", \"Feature B\", \"Feature C\"]\nresults = detect_data_drift(ref_data, prod_data, feature_names)\n\nprint(\"=== Data Drift Report ===\")\nprint(f\"{'Feature':12s} | {'KS Stat':8s} | {'P-Value':8s} | {'Drift?':8s}\")\nprint(\"-\" * 46)\nfor r in results:\n    drift_str = \"YES\" if r[\"drift_detected\"] else \"No\"\n    print(f\"{r['feature']:12s} | {r['ks_statistic']:8.4f} | {r['p_value']:8.4f} | {drift_str:8s}\")\n\ndrifted = [r for r in results if r[\"drift_detected\"]]\nprint(f\"\\nDrifted features: {len(drifted)}/{len(results)}\")\nif drifted:\n    print(\"Action: Investigate drifted features and consider retraining the model.\")",
+        "language": "python",
+        "explanation": "Data drift detection compares the statistical distribution of production data against training data. The Kolmogorov-Smirnov test measures the maximum distance between two cumulative distribution functions. A low p-value (below alpha=0.05) indicates statistically significant distribution change. In this example, Feature B drifted (mean shifted from 5 to 7), which the KS test detects. When drift is found, investigate the cause and consider retraining the model.",
+        "output": "=== Data Drift Report ===\nFeature      | KS Stat  | P-Value  | Drift?  \n----------------------------------------------\nFeature A    |   0.0310 |   0.7123 | No      \nFeature B    |   0.2850 |   0.0000 | YES     \nFeature C    |   0.0280 |   0.8012 | No      \n\nDrifted features: 1/3\nAction: Investigate drifted features and consider retraining the model."
+      },
+      {
+        "title": "Flask ML API with Request Logging",
+        "code": "from flask import Flask, request, jsonify\nimport joblib\nimport numpy as np\nimport json\nfrom datetime import datetime\nimport logging\n\n# Setup logging\nlogging.basicConfig(level=logging.INFO)\nlogger = logging.getLogger(__name__)\n\napp = Flask(__name__)\n\n# Simulated model for demonstration\nclass SimpleModel:\n    def predict(self, X):\n        return (np.sum(X, axis=1) > 0).astype(int)\n    def predict_proba(self, X):\n        scores = 1 / (1 + np.exp(-np.sum(X, axis=1)))\n        return np.column_stack([1 - scores, scores])\n\nmodel = SimpleModel()\n\n# Request logging\nprediction_log = []\n\n@app.route(\"/predict\", methods=[\"POST\"])\ndef predict():\n    start_time = datetime.now()\n    data = request.get_json()\n    \n    if \"features\" not in data:\n        return jsonify({\"error\": \"Missing 'features' in request\"}), 400\n    \n    features = np.array(data[\"features\"]).reshape(1, -1)\n    prediction = int(model.predict(features)[0])\n    proba = model.predict_proba(features)[0]\n    confidence = float(max(proba))\n    \n    # Log the prediction\n    latency_ms = (datetime.now() - start_time).total_seconds() * 1000\n    log_entry = {\n        \"timestamp\": start_time.isoformat(),\n        \"features\": data[\"features\"],\n        \"prediction\": prediction,\n        \"confidence\": confidence,\n        \"latency_ms\": round(latency_ms, 2)\n    }\n    prediction_log.append(log_entry)\n    logger.info(f\"Prediction: {prediction} | Confidence: {confidence:.3f} | Latency: {latency_ms:.2f}ms\")\n    \n    return jsonify({\n        \"prediction\": prediction,\n        \"confidence\": round(confidence, 4),\n        \"latency_ms\": round(latency_ms, 2)\n    })\n\n@app.route(\"/health\", methods=[\"GET\"])\ndef health():\n    return jsonify({\"status\": \"healthy\", \"total_predictions\": len(prediction_log)})\n\n@app.route(\"/metrics\", methods=[\"GET\"])\ndef metrics():\n    if not prediction_log:\n        return jsonify({\"message\": \"No predictions yet\"})\n    \n    latencies = [log[\"latency_ms\"] for log in prediction_log]\n    return jsonify({\n        \"total_predictions\": len(prediction_log),\n        \"avg_latency_ms\": round(np.mean(latencies), 2),\n        \"p99_latency_ms\": round(np.percentile(latencies, 99), 2),\n        \"avg_confidence\": round(np.mean([log[\"confidence\"] for log in prediction_log]), 4)\n    })\n\nprint(\"Flask ML API with logging and metrics\")\nprint(\"Endpoints: /predict (POST), /health (GET), /metrics (GET)\")\nprint(\"Run: flask run --port 5000\")",
+        "language": "python",
+        "explanation": "This production-grade Flask API includes request logging (track every prediction), latency measurement (performance monitoring), a health endpoint (for load balancers), and a metrics endpoint (aggregate statistics). In production, logs would go to a centralized system (ELK stack, CloudWatch) and metrics would feed into dashboards (Grafana, Datadog). The <code>/metrics</code> endpoint provides average and P99 latency plus average confidence -- key operational metrics.",
+        "output": "Flask ML API with logging and metrics\nEndpoints: /predict (POST), /health (GET), /metrics (GET)\nRun: flask run --port 5000"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Loading the Model on Every Request",
+        "wrongCode": "from flask import Flask, request, jsonify\nimport joblib\n\napp = Flask(__name__)\n\n@app.route(\"/predict\", methods=[\"POST\"])\ndef predict():\n    # WRONG: Loading model on every request\n    model = joblib.load(\"model.joblib\")  # Disk I/O on every request!\n    data = request.get_json()\n    prediction = model.predict([data[\"features\"]])\n    return jsonify({\"prediction\": int(prediction[0])})",
+        "error": "Loading the model from disk on every request adds 100-500ms of latency per request. For a service handling 100 requests per second, this makes the API unusable.",
+        "correctCode": "from flask import Flask, request, jsonify\nimport joblib\n\napp = Flask(__name__)\n\n# CORRECT: Load model once at startup\nmodel = joblib.load(\"model.joblib\")  # Loaded once, stays in memory\n\n@app.route(\"/predict\", methods=[\"POST\"])\ndef predict():\n    data = request.get_json()\n    prediction = model.predict([data[\"features\"]])  # Fast -- model already in memory\n    return jsonify({\"prediction\": int(prediction[0])})",
+        "explanation": "Load the model once when the application starts and keep it in memory. All subsequent requests use the in-memory model, which is orders of magnitude faster than reading from disk. If the model is too large for memory, consider model compression, quantization, or batch processing."
+      },
+      {
+        "title": "Not Pinning Dependency Versions",
+        "wrongCode": "# requirements.txt -- WRONG: no version pinning\nscikit-learn\nnumpy\nflask\njoblib",
+        "error": "Without pinned versions, pip install may install different versions on different machines or at different times. A model trained with scikit-learn 1.3 may fail to load with scikit-learn 1.5 due to serialization changes.",
+        "correctCode": "# requirements.txt -- CORRECT: exact version pinning\nscikit-learn==1.4.0\nnumpy==1.26.3\nflask==3.0.1\njoblib==1.3.2\npython==3.11\n\n# Even better: use a lock file\n# pip freeze > requirements.txt  (captures exact versions)\n# Or use poetry/pipenv for dependency management",
+        "explanation": "Always pin exact dependency versions for ML deployments. Model serialization (pickle/joblib) depends on the exact library version. A model saved with scikit-learn 1.3 may not deserialize correctly with 1.4. Use <code>pip freeze</code> to capture exact versions after verifying everything works."
+      },
+      {
+        "title": "Not Validating Input Data in the API",
+        "wrongCode": "@app.route(\"/predict\", methods=[\"POST\"])\ndef predict():\n    data = request.get_json()\n    # WRONG: No input validation\n    prediction = model.predict([data[\"features\"]])\n    return jsonify({\"prediction\": int(prediction[0])})\n\n# What if:\n# - data is None (invalid JSON)?\n# - \"features\" key is missing?\n# - features has wrong number of elements?\n# - features contains NaN or strings?\n# All will cause unhandled 500 errors",
+        "error": "Without input validation, malformed requests cause cryptic 500 errors. Missing keys, wrong data types, incorrect feature counts, or NaN values all crash the prediction endpoint with unhelpful error messages.",
+        "correctCode": "from flask import Flask, request, jsonify\nimport numpy as np\n\nEXPECTED_FEATURES = 20  # Model expects 20 features\n\n@app.route(\"/predict\", methods=[\"POST\"])\ndef predict():\n    data = request.get_json()\n    \n    # Validate request\n    if data is None:\n        return jsonify({\"error\": \"Invalid JSON\"}), 400\n    if \"features\" not in data:\n        return jsonify({\"error\": \"Missing 'features' field\"}), 400\n    \n    features = data[\"features\"]\n    if not isinstance(features, list):\n        return jsonify({\"error\": \"'features' must be a list\"}), 400\n    if len(features) != EXPECTED_FEATURES:\n        return jsonify({\"error\": f\"Expected {EXPECTED_FEATURES} features, got {len(features)}\"}), 400\n    \n    try:\n        features_array = np.array(features, dtype=float).reshape(1, -1)\n        if np.any(np.isnan(features_array)):\n            return jsonify({\"error\": \"Features contain NaN values\"}), 400\n    except (ValueError, TypeError):\n        return jsonify({\"error\": \"Features must be numeric\"}), 400\n    \n    prediction = model.predict(features_array)\n    return jsonify({\"prediction\": int(prediction[0])})",
+        "explanation": "Always validate API inputs: check JSON is valid, required fields exist, data types are correct, array lengths match model expectations, and values are not NaN. Return clear 400 error messages for bad requests. FastAPI with Pydantic handles much of this automatically, which is one reason it is preferred for ML APIs."
+      },
+      {
+        "title": "Ignoring Model Monitoring After Deployment",
+        "wrongCode": "# WRONG: Deploy and forget\n# 1. Train model on January 2025 data\n# 2. Deploy to production\n# 3. Never check if it is still working\n# 4. Six months later: model accuracy has dropped from 95% to 72%\n#    because customer behavior changed (concept drift)\n#    and no one noticed for months",
+        "error": "Without monitoring, model degradation goes undetected. Data distribution changes, concept drift, and upstream data quality issues silently reduce model accuracy, causing incorrect predictions that hurt users and business metrics.",
+        "correctCode": "# CORRECT: Monitor deployed models\nimport numpy as np\nfrom scipy import stats\n\nclass ModelMonitor:\n    def __init__(self, reference_data, alert_threshold=0.05):\n        self.reference = reference_data\n        self.threshold = alert_threshold\n        self.predictions = []\n    \n    def log_prediction(self, features, prediction, ground_truth=None):\n        self.predictions.append({\n            \"features\": features,\n            \"prediction\": prediction,\n            \"ground_truth\": ground_truth\n        })\n    \n    def check_data_drift(self, recent_features):\n        for col in range(self.reference.shape[1]):\n            _, p_val = stats.ks_2samp(self.reference[:, col], recent_features[:, col])\n            if p_val < self.threshold:\n                print(f\"ALERT: Data drift detected in feature {col} (p={p_val:.4f})\")\n    \n    def check_accuracy(self, window=100):\n        labeled = [p for p in self.predictions[-window:] if p[\"ground_truth\"] is not None]\n        if labeled:\n            accuracy = sum(1 for p in labeled if p[\"prediction\"] == p[\"ground_truth\"]) / len(labeled)\n            if accuracy < 0.85:\n                print(f\"ALERT: Accuracy dropped to {accuracy:.2%}\")\n\nprint(\"Set up: data drift checks, accuracy monitoring, alerting\")",
+        "explanation": "Monitor three things after deployment: (1) Data drift -- are incoming features still similar to training data? (2) Performance metrics -- is accuracy/F1 still acceptable? (3) Operational health -- latency, error rates, throughput. Set up automated alerts (email, Slack, PagerDuty) when metrics drop below thresholds. Schedule regular retraining when drift is detected."
+      }
+    ],
+    "summary": [
+      "MLOps (Machine Learning Operations) bridges the gap between ML model development and production deployment. It addresses the fact that 87% of ML projects never reach production by providing tools and processes for reliable model serving, monitoring, and maintenance.",
+      "Models are serialized (saved) using pickle (general Python objects), joblib (optimized for scikit-learn with large numpy arrays), model.save() for Keras, or torch.save() for PyTorch. Always pin library versions because serialization depends on exact versions.",
+      "Flask provides the simplest way to serve ML models via REST APIs. Define a /predict endpoint that accepts JSON, runs the model, and returns predictions. Load the model once at startup, not on every request.",
+      "FastAPI is preferred over Flask for ML APIs because of automatic request validation (Pydantic), auto-generated Swagger docs, async support for higher concurrency, and built-in type hints. Use Pydantic BaseModel classes for request/response schemas.",
+      "Docker packages your application, model, and all dependencies into a portable container. Key Dockerfile practices: pin base image version, install dependencies before copying code (layer caching), run as non-root user, and include a health check endpoint.",
+      "Model serving patterns include real-time (API endpoints for immediate predictions), batch (periodic processing of large datasets), and streaming (continuous processing of data streams). Choose based on latency requirements and data volume.",
+      "Model monitoring tracks data drift (incoming data distribution changes), concept drift (feature-target relationships change), and performance decay (accuracy/latency degradation). Use statistical tests like Kolmogorov-Smirnov to detect distributional changes.",
+      "MLflow tracks ML experiments by logging parameters, metrics, and model artifacts for each run. It enables reproducibility (exact experiment recreation), comparison (which model is best), and versioning (roll back to any previous model).",
+      "CI/CD for ML automates testing (data validation, model performance checks) and deployment (build Docker image, deploy to staging/production). GitHub Actions, Jenkins, or cloud-specific tools trigger these pipelines on code changes.",
+      "Cloud deployment options: AWS SageMaker (managed end-to-end), GCP Vertex AI (Google ecosystem), Hugging Face Spaces (free demos), Azure ML (Microsoft ecosystem), or self-hosted Docker on VPS (full control). Choose based on scale, budget, and existing infrastructure."
+    ]
+  },
+  "relatedTopics": ["reinforcement-learning-basics", "ai-ethics-and-career-guide"],
+  "practice": {
+    "totalQuestions": 50,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>pipeline_stages = [\"Data\", \"Preprocess\", \"Train\", \"Evaluate\", \"Deploy\", \"Monitor\"]\nfor i, stage in enumerate(pipeline_stages, 1):\n    print(f\"{i}. {stage}\")</code></pre>",
+        "hint": "enumerate with start=1 provides 1-based indexing.",
+        "answer": "<code>1. Data</code><br><code>2. Preprocess</code><br><code>3. Train</code><br><code>4. Evaluate</code><br><code>5. Deploy</code><br><code>6. Monitor</code>",
+        "explanation": "The ML pipeline flows from data collection through preprocessing, training, evaluation, deployment, and monitoring. Monitoring may trigger retraining, creating a continuous loop."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>save_methods = {\n    \"pickle\": \".pkl\",\n    \"joblib\": \".joblib\",\n    \"keras\": \".keras\",\n    \"torch\": \".pt\"\n}\nfor method, ext in save_methods.items():\n    print(f\"{method}: saves as *{ext}\")</code></pre>",
+        "hint": "Dictionary iteration produces key-value pairs.",
+        "answer": "<code>pickle: saves as *.pkl</code><br><code>joblib: saves as *.joblib</code><br><code>keras: saves as *.keras</code><br><code>torch: saves as *.pt</code>",
+        "explanation": "Different ML frameworks use different serialization formats. Pickle and joblib work for scikit-learn models. Keras uses .keras (or .h5 legacy). PyTorch uses .pt or .pth files."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>serving_patterns = [\n    (\"Real-time\", \"< 100ms\", \"Chatbots, search\"),\n    (\"Batch\", \"Minutes-hours\", \"Reports, emails\"),\n    (\"Streaming\", \"Seconds\", \"Fraud detection\")\n]\nfor pattern, latency, use_case in serving_patterns:\n    print(f\"{pattern:12s} | {latency:15s} | {use_case}\")</code></pre>",
+        "hint": "Three model serving patterns with different latency requirements.",
+        "answer": "<code>Real-time    | < 100ms         | Chatbots, search</code><br><code>Batch        | Minutes-hours   | Reports, emails</code><br><code>Streaming    | Seconds         | Fraud detection</code>",
+        "explanation": "Real-time serving handles individual predictions with low latency. Batch serving processes large datasets periodically. Streaming serving processes continuous data flows. Choose based on your latency requirements."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import json\n\n# Simulated API request and response\nrequest_data = {\"features\": [0.5, -1.2, 3.4, 0.8]}\nresponse_data = {\"prediction\": 1, \"confidence\": 0.92}\n\nprint(f\"Request: {json.dumps(request_data)}\")\nprint(f\"Response: {json.dumps(response_data)}\")\nprint(f\"Feature count: {len(request_data['features'])}\")\nprint(f\"Prediction: {'positive' if response_data['prediction'] == 1 else 'negative'}\")</code></pre>",
+        "hint": "json.dumps converts dict to JSON string. prediction=1 means positive.",
+        "answer": "<code>Request: {\"features\": [0.5, -1.2, 3.4, 0.8]}</code><br><code>Response: {\"prediction\": 1, \"confidence\": 0.92}</code><br><code>Feature count: 4</code><br><code>Prediction: positive</code>",
+        "explanation": "ML APIs typically accept features as a JSON array in the request body and return the prediction with a confidence score. This is the standard /predict endpoint pattern used in Flask and FastAPI."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>docker_layers = [\n    (\"FROM python:3.11-slim\", \"Base image\"),\n    (\"COPY requirements.txt .\", \"Dependencies spec\"),\n    (\"RUN pip install -r requirements.txt\", \"Install deps (cached)\"),\n    (\"COPY app.py .\", \"Application code\"),\n    (\"COPY model.joblib .\", \"ML model\"),\n    (\"CMD uvicorn app:app\", \"Start command\")\n]\n\nprint(\"Docker Layer Order (optimized for caching):\")\nfor i, (cmd, desc) in enumerate(docker_layers, 1):\n    print(f\"  {i}. {desc:25s} -> {cmd}\")\n\nprint(f\"\\nTotal layers: {len(docker_layers)}\")\nprint(\"Note: Change to app.py rebuilds only layers 4-6 (fast rebuild)\")</code></pre>",
+        "hint": "Docker rebuilds from the first changed layer. Putting code after deps means dep install is cached.",
+        "answer": "<code>Docker Layer Order (optimized for caching):</code><br><code>  1. Base image               -> FROM python:3.11-slim</code><br><code>  2. Dependencies spec         -> COPY requirements.txt .</code><br><code>  3. Install deps (cached)     -> RUN pip install -r requirements.txt</code><br><code>  4. Application code          -> COPY app.py .</code><br><code>  5. ML model                  -> COPY model.joblib .</code><br><code>  6. Start command             -> CMD uvicorn app:app</code><br><br><code>Total layers: 6</code><br><code>Note: Change to app.py rebuilds only layers 4-6 (fast rebuild)</code>",
+        "explanation": "Docker caches layers and rebuilds from the first changed layer. By copying requirements.txt and installing dependencies before copying application code, dependency installation is cached (the slow step). Changing app.py only rebuilds layers 4-6, making rebuilds fast."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\nfrom scipy import stats\n\nnp.random.seed(42)\n\n# Reference distribution (training)\nref = np.random.normal(0, 1, 1000)\n\n# Test 1: Same distribution (no drift)\ntest_same = np.random.normal(0, 1, 1000)\nstat1, p1 = stats.ks_2samp(ref, test_same)\n\n# Test 2: Different distribution (drift!)\ntest_diff = np.random.normal(0.5, 1.5, 1000)\nstat2, p2 = stats.ks_2samp(ref, test_diff)\n\nprint(f\"Same distribution:  KS={stat1:.4f}, p={p1:.4f}, drift={'YES' if p1 < 0.05 else 'No'}\")\nprint(f\"Drifted distribution: KS={stat2:.4f}, p={p2:.4f}, drift={'YES' if p2 < 0.05 else 'No'}\")</code></pre>",
+        "hint": "KS test detects if two samples come from different distributions. Low p-value = likely different.",
+        "answer": "<code>Same distribution:  KS=[small], p=[large, > 0.05], drift=No</code><br><code>Drifted distribution: KS=[large], p=[small, < 0.05], drift=YES</code>",
+        "explanation": "The KS test compares two distributions. When both are N(0,1), the p-value is high (no evidence of drift). When the second is N(0.5, 1.5) -- shifted mean and increased variance -- the p-value is very low, correctly detecting drift. This is how model monitoring catches distribution changes in production data."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class ModelVersionManager:\n    def __init__(self):\n        self.versions = []\n        self.active = None\n    \n    def register(self, name, accuracy):\n        version = {\"name\": name, \"accuracy\": accuracy, \"version\": len(self.versions) + 1}\n        self.versions.append(version)\n        return version[\"version\"]\n    \n    def promote(self, version_num):\n        for v in self.versions:\n            if v[\"version\"] == version_num:\n                self.active = v\n                return True\n        return False\n    \n    def get_active(self):\n        return self.active\n\nmgr = ModelVersionManager()\nmgr.register(\"rf_v1\", 0.89)\nmgr.register(\"rf_v2\", 0.92)\nv3 = mgr.register(\"gb_v1\", 0.95)\n\nmgr.promote(v3)\nactive = mgr.get_active()\nprint(f\"Total versions: {len(mgr.versions)}\")\nprint(f\"Active: {active['name']} (v{active['version']}, acc={active['accuracy']})\")</code></pre>",
+        "hint": "Three models registered. v3 promoted to active. get_active returns the promoted model.",
+        "answer": "<code>Total versions: 3</code><br><code>Active: gb_v1 (v3, acc=0.95)</code>",
+        "explanation": "This simulates model versioning: register multiple model versions, promote the best one to production. v3 (gb_v1, accuracy 0.95) is the best and gets promoted. Tools like MLflow's Model Registry provide this functionality with additional features like staging environments and approval workflows."
+      },
+      {
+        "id": "ts-8",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why should you load the ML model once at startup rather than loading it on every API request?",
+        "hint": "Think about disk I/O time vs memory access time.",
+        "answer": "Loading a model from disk involves file I/O, deserialization, and memory allocation -- typically 100-500ms per load. In contrast, a model already in memory can be used for prediction in microseconds. Loading on every request would add this 100-500ms overhead to every API call, making the service unusable for real-time applications. Loading once at startup keeps the model in memory for the entire lifecycle of the application, and all requests share the same fast in-memory model.",
+        "explanation": "This is one of the most common deployment mistakes. Even a small scikit-learn model takes tens of milliseconds to load from disk. Deep learning models can take seconds. Always load at startup and keep in memory."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between data drift and concept drift? Give an example of each.",
+        "hint": "One is about input distribution changes, the other is about the input-output relationship changing.",
+        "answer": "<strong>Data drift</strong> occurs when the distribution of input features changes. The model's decision boundary is still correct, but it receives inputs it has not seen before. Example: a loan model trained on ages 25-55 starts receiving applications from 18-year-olds. <strong>Concept drift</strong> occurs when the relationship between features and the target variable changes, even if the input distribution stays the same. Example: a spam classifier where the same words that used to be benign (\"cryptocurrency\", \"NFT\") are now associated with spam due to evolving spam tactics. Data drift affects inputs; concept drift affects the mapping from inputs to outputs.",
+        "explanation": "Both types of drift degrade model performance. Data drift is easier to detect (compare input distributions). Concept drift requires ground truth labels to detect (compare predicted vs actual outcomes). Both may require model retraining."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What advantages does FastAPI have over Flask for ML model serving?",
+        "hint": "Think about validation, documentation, performance, and developer experience.",
+        "answer": "FastAPI advantages: (1) <strong>Automatic request validation</strong> via Pydantic models -- incorrect requests return clear error messages without manual validation code. (2) <strong>Auto-generated API docs</strong> at /docs (Swagger UI) and /redoc. (3) <strong>Async support</strong> for handling concurrent requests efficiently. (4) <strong>Type hints</strong> throughout for better IDE support and self-documentation. (5) <strong>Higher performance</strong> than Flask due to Starlette and async I/O. Flask advantages: simpler for small projects, larger ecosystem, more tutorials. For ML APIs, FastAPI is generally preferred because input validation (checking feature counts, types, ranges) is crucial and automatic with Pydantic.",
+        "explanation": "FastAPI's Pydantic integration is particularly valuable for ML APIs where invalid inputs (wrong feature count, NaN values, wrong types) can cause cryptic model errors. Pydantic catches these at the API boundary with clear error messages."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Rajesh has deployed a model that works perfectly in staging but fails in production with 'module not found' errors. What is likely the problem and how does Docker solve it?",
+        "hint": "Think about environment differences between machines.",
+        "answer": "The likely problem is <strong>environment mismatch</strong>: production has different Python/library versions, missing dependencies, or different OS libraries than Rajesh's staging machine. Docker solves this by packaging the application, model, and ALL dependencies into a <strong>container</strong> that includes its own OS libraries, Python installation, and pip packages. This container runs identically on any machine that has Docker installed, eliminating 'works on my machine' problems. The Dockerfile specifies the exact base image (e.g., python:3.11-slim), exact pip packages (from requirements.txt with pinned versions), and the exact startup command. What runs in Docker on Rajesh's laptop will run identically on a production server.",
+        "explanation": "Docker containers are isolated environments that include everything needed to run the application. They share the host OS kernel but have their own filesystem, network, and processes. This isolation ensures reproducibility across development, staging, and production environments."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Design a monitoring strategy for a production ML model. What metrics would you track and how would you set up alerts?",
+        "hint": "Think about input data, model performance, and operational health.",
+        "answer": "Track three categories: (1) <strong>Data quality metrics</strong>: Feature distributions (KS test against training data), null rates, type mismatches, input volume. Alert when drift p-value < 0.05 or null rate exceeds 5%. (2) <strong>Model performance metrics</strong>: Accuracy, F1, precision, recall on labeled samples. Average prediction confidence. Prediction distribution. Alert when accuracy drops below threshold or confidence distribution shifts. (3) <strong>Operational metrics</strong>: API latency (P50, P95, P99), throughput (requests/sec), error rate, memory/CPU usage. Alert when P99 latency exceeds SLA or error rate exceeds 1%. Implementation: log every prediction (input, output, timestamp, latency), run drift checks hourly, collect ground truth labels when available, and send alerts via Slack/email/PagerDuty.",
+        "explanation": "Production monitoring is what separates POC models from reliable production systems. Without it, models silently degrade. A good monitoring system catches problems before users notice them and triggers automated or manual retraining when needed."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>checks = [\"Data drift\", \"Concept drift\", \"Accuracy decay\", \"Latency spike\", \"Error rate\"]\nfor c in checks:\n    print(f\"  Monitor: {c}\")\nprint(f\"Total: {len(checks)}\")</code></pre>",
+        "hint": "5 things to monitor for deployed ML models.",
+        "answer": "<code>  Monitor: Data drift</code><br><code>  Monitor: Concept drift</code><br><code>  Monitor: Accuracy decay</code><br><code>  Monitor: Latency spike</code><br><code>  Monitor: Error rate</code><br><code>Total: 5</code>",
+        "explanation": "Deployed models need continuous monitoring for data distribution changes, target relationship changes, accuracy drops, response time issues, and request failures."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import json\n\ndef validate_request(data, n_features=4):\n    if data is None: return \"Invalid JSON\"\n    if \"features\" not in data: return \"Missing features\"\n    if len(data[\"features\"]) != n_features: return f\"Expected {n_features}, got {len(data['features'])}\"\n    return \"OK\"\n\nrequests = [{\"features\":[1,2,3,4]}, {\"data\":[1]}, {\"features\":[1,2]}, None]\nfor req in requests:\n    print(f\"{str(req)[:35]:35s} -> {validate_request(req)}\")</code></pre>",
+        "hint": "Validate JSON, key existence, and feature count.",
+        "answer": "<code>{\"features\": [1, 2, 3, 4]}            -> OK</code><br><code>{\"data\": [1]}                          -> Missing features</code><br><code>{\"features\": [1, 2]}                   -> Expected 4, got 2</code><br><code>None                                  -> Invalid JSON</code>",
+        "explanation": "Input validation catches malformed requests before they crash the model. Always check JSON validity, required fields, feature count, and data types. FastAPI with Pydantic handles most of this automatically."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def api_capacity(latency_ms, workers):\n    return workers * (1000 / latency_ms)\n\nfor latency, workers in [(10, 4), (50, 4), (200, 4), (50, 16)]:\n    rps = api_capacity(latency, workers)\n    print(f\"{latency:3d}ms, {workers:2d} workers -> {rps:.0f} RPS\")</code></pre>",
+        "hint": "Each worker handles 1000/latency requests per second.",
+        "answer": "<code> 10ms,  4 workers -> 400 RPS</code><br><code> 50ms,  4 workers -> 80 RPS</code><br><code>200ms,  4 workers -> 20 RPS</code><br><code> 50ms, 16 workers -> 320 RPS</code>",
+        "explanation": "API capacity = workers * (1000 / latency). Faster models and more workers increase throughput. A 10ms model with 4 workers handles 400 requests per second. Scaling options: add workers, optimize model (quantization), or use batch inference."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between a Docker image and a Docker container?",
+        "hint": "Think about the difference between a class and an instance.",
+        "answer": "A Docker <strong>image</strong> is a read-only template containing the application, dependencies, and configuration -- like a class definition. A Docker <strong>container</strong> is a running instance of an image -- like an object instantiated from a class. You can run multiple containers from one image. Images are built from Dockerfiles and stored in registries. Containers are started, stopped, and deleted independently. The image is the blueprint; the container is the running house.",
+        "explanation": "docker build creates an image. docker run creates a container from an image. Multiple containers can run from the same image, each with its own state."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>mlops_tools = {\"Versioning\": \"MLflow\", \"Container\": \"Docker\", \"API\": \"FastAPI\", \"CI/CD\": \"GitHub Actions\"}\nfor purpose, tool in mlops_tools.items():\n    print(f\"{purpose:12s} -> {tool}\")</code></pre>",
+        "hint": "4 MLOps categories and their popular tools.",
+        "answer": "<code>Versioning   -> MLflow</code><br><code>Container    -> Docker</code><br><code>API          -> FastAPI</code><br><code>CI/CD        -> GitHub Actions</code>",
+        "explanation": "MLOps uses specialized tools for each stage: MLflow for experiment tracking and model versioning, Docker for containerization, FastAPI for model serving APIs, and GitHub Actions for automated testing and deployment."
+      },
+      {
+        "id": "ts-18",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is model quantization and when would Deepak use it for deployment?",
+        "hint": "Think about reducing model precision to make inference faster and cheaper.",
+        "answer": "<strong>Model quantization</strong> reduces the numerical precision of model weights and activations from 32-bit floats (FP32) to lower precision formats like 16-bit (FP16), 8-bit integers (INT8), or 4-bit (INT4). Benefits: smaller model files (4x smaller at INT8), faster inference (integer operations are cheaper), and lower memory usage (fit larger models on smaller GPUs). Trade-offs: slight accuracy loss (usually < 1% for INT8, 2-5% for INT4). Deepak should use quantization when: deploying on edge devices with limited memory, reducing cloud inference costs, meeting strict latency SLAs, or deploying large language models that do not fit in GPU memory at full precision. Tools: PyTorch quantization, ONNX Runtime, TensorRT, bitsandbytes.",
+        "explanation": "Quantization is essential for production deployment of large models. QLoRA uses 4-bit quantization for fine-tuning LLMs. TensorRT uses INT8 for fast inference on NVIDIA GPUs. The accuracy-efficiency tradeoff is usually favorable."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>cloud_options = [\n    (\"AWS SageMaker\", \"Amazon\"),\n    (\"Vertex AI\", \"Google\"),\n    (\"Azure ML\", \"Microsoft\"),\n    (\"HF Spaces\", \"Hugging Face\")\n]\nfor service, provider in cloud_options:\n    print(f\"{provider:15s} -> {service}\")</code></pre>",
+        "hint": "List of tuples with cloud provider and their ML platform.",
+        "answer": "<code>Amazon          -> AWS SageMaker</code><br><code>Google          -> Vertex AI</code><br><code>Microsoft       -> Azure ML</code><br><code>Hugging Face    -> HF Spaces</code>",
+        "explanation": "Major cloud providers offer managed ML platforms: SageMaker (AWS), Vertex AI (GCP), Azure ML (Microsoft). Hugging Face Spaces provides free hosting for ML demos and is popular for prototyping."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>http_codes = {\n    200: \"OK -- prediction returned\",\n    400: \"Bad Request -- invalid input\",\n    404: \"Not Found -- wrong endpoint\",\n    500: \"Server Error -- model failed\"\n}\nfor code, meaning in http_codes.items():\n    print(f\"HTTP {code}: {meaning}\")</code></pre>",
+        "hint": "Common HTTP status codes used in ML APIs.",
+        "answer": "<code>HTTP 200: OK -- prediction returned</code><br><code>HTTP 400: Bad Request -- invalid input</code><br><code>HTTP 404: Not Found -- wrong endpoint</code><br><code>HTTP 500: Server Error -- model failed</code>",
+        "explanation": "ML APIs use standard HTTP status codes: 200 for successful predictions, 400 for invalid requests (wrong feature count, bad JSON), 404 for wrong URLs, and 500 for internal errors (model crash). Good APIs always return 400 with a descriptive message for bad input rather than letting the model crash with a 500."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import os\n\n# Simulated file sizes for model artifacts\nartifacts = {\n    \"model.pkl\": 5242880,       # 5 MB\n    \"vectorizer.pkl\": 1048576,  # 1 MB\n    \"config.json\": 1024,        # 1 KB\n    \"requirements.txt\": 256     # 256 bytes\n}\n\ntotal = 0\nfor name, size in artifacts.items():\n    mb = size / (1024 * 1024)\n    print(f\"{name:20s}: {mb:8.2f} MB\")\n    total += size\n\nprint(f\"{'Total':20s}: {total/(1024*1024):8.2f} MB\")</code></pre>",
+        "hint": "Convert bytes to MB by dividing by 1024*1024.",
+        "answer": "<code>model.pkl           :     5.00 MB</code><br><code>vectorizer.pkl      :     1.00 MB</code><br><code>config.json         :     0.00 MB</code><br><code>requirements.txt    :     0.00 MB</code><br><code>Total               :     6.00 MB</code>",
+        "explanation": "ML deployments include the model file, any preprocessors (vectorizers, scalers), configuration, and dependency specifications. The model is typically the largest artifact. Docker images include all of these plus the Python runtime and libraries, often totaling 500MB-2GB."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def api_latency_report(latencies_ms):\n    import numpy as np\n    p50 = np.percentile(latencies_ms, 50)\n    p95 = np.percentile(latencies_ms, 95)\n    p99 = np.percentile(latencies_ms, 99)\n    avg = np.mean(latencies_ms)\n    return {\"avg\": round(avg, 1), \"p50\": round(p50, 1), \"p95\": round(p95, 1), \"p99\": round(p99, 1)}\n\nimport numpy as np\nnp.random.seed(42)\nlatencies = np.random.exponential(scale=15, size=1000)  # Exponential distribution\nreport = api_latency_report(latencies)\n\nfor metric, value in report.items():\n    sla_ok = value < 100\n    print(f\"{metric:4s}: {value:6.1f}ms {'OK' if sla_ok else 'BREACH'}\")</code></pre>",
+        "hint": "Exponential distribution with scale=15 has most values near 15ms but a long tail.",
+        "answer": "All metrics show latency values, with p99 being the highest due to the long tail of the exponential distribution. All should be under 100ms for this distribution.",
+        "explanation": "Latency monitoring uses percentiles: P50 (median -- half of requests are faster), P95 (95% of requests), and P99 (99% of requests -- catches tail latency). ML APIs typically target P99 < 100ms for real-time serving. The exponential distribution models real-world latency well: most requests are fast, but some are slow."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import mlflow\n\nclass MockMLflowRun:\n    def __init__(self, params, metrics, model_name):\n        self.params = params\n        self.metrics = metrics\n        self.model_name = model_name\n\nruns = [\n    MockMLflowRun({\"n_estimators\": \"100\", \"max_depth\": \"5\"}, {\"accuracy\": 0.89, \"f1\": 0.87}, \"rf_v1\"),\n    MockMLflowRun({\"n_estimators\": \"200\", \"max_depth\": \"10\"}, {\"accuracy\": 0.93, \"f1\": 0.91}, \"rf_v2\"),\n    MockMLflowRun({\"n_estimators\": \"50\", \"learning_rate\": \"0.1\"}, {\"accuracy\": 0.95, \"f1\": 0.94}, \"gb_v1\")\n]\n\nprint(\"MLflow Experiment Comparison:\")\nprint(f\"{'Model':8s} | {'Accuracy':10s} | {'F1':10s} | {'Params':30s}\")\nprint(\"-\" * 65)\nfor run in runs:\n    params_str = \", \".join(f\"{k}={v}\" for k, v in run.params.items())\n    print(f\"{run.model_name:8s} | {run.metrics['accuracy']:10.4f} | {run.metrics['f1']:10.4f} | {params_str}\")\n\nbest = max(runs, key=lambda r: r.metrics[\"accuracy\"])\nprint(f\"\\nBest model: {best.model_name} (accuracy={best.metrics['accuracy']})\")</code></pre>",
+        "hint": "Compare three models logged in MLflow. Find the one with highest accuracy.",
+        "answer": "<code>MLflow Experiment Comparison:</code><br><code>Model    | Accuracy   | F1         | Params</code><br><code>-----------------------------------------------------------------</code><br><code>rf_v1    |     0.8900 |     0.8700 | n_estimators=100, max_depth=5</code><br><code>rf_v2    |     0.9300 |     0.9100 | n_estimators=200, max_depth=10</code><br><code>gb_v1    |     0.9500 |     0.9400 | n_estimators=50, learning_rate=0.1</code><br><br><code>Best model: gb_v1 (accuracy=0.95)</code>",
+        "explanation": "MLflow enables comparing experiments side by side. Each run logs its hyperparameters and metrics. The best model (gb_v1 with 95% accuracy) can be promoted to production. This comparison workflow is essential for systematic model development."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Anita trained a model in a Jupyter notebook on her laptop. What steps does she need to take to deploy it as a production API service?",
+        "hint": "Think about the full path from notebook to production.",
+        "answer": "Steps: (1) <strong>Save the model</strong> -- serialize with joblib/pickle. (2) <strong>Write API code</strong> -- create a FastAPI or Flask app with /predict and /health endpoints. (3) <strong>Add input validation</strong> -- validate feature count, types, ranges. (4) <strong>Pin dependencies</strong> -- create requirements.txt with exact library versions. (5) <strong>Containerize</strong> -- write a Dockerfile, build and test the Docker image. (6) <strong>Add monitoring</strong> -- log predictions, latency, and feature distributions. (7) <strong>Deploy</strong> -- push Docker image to a registry, deploy to cloud (SageMaker, Vertex AI) or self-hosted server. (8) <strong>Set up CI/CD</strong> -- automate testing and deployment on code changes.",
+        "explanation": "Going from notebook to production requires serialization, API development, containerization, monitoring, and operational infrastructure. Each step addresses a specific production concern: reproducibility, reliability, scalability, and maintainability."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the difference between A/B testing and canary deployment for ML models? When would you use each?",
+        "hint": "Think about how traffic is split between old and new models.",
+        "answer": "<strong>A/B testing</strong>: Split traffic evenly (e.g., 50/50) between the old and new model. Measure statistical differences in key metrics (accuracy, revenue, user engagement). Purpose: determine which model is better based on real-world performance. Use when you want to rigorously compare two models. <strong>Canary deployment</strong>: Route a small percentage (e.g., 5%) of traffic to the new model while 95% goes to the old one. Gradually increase the new model's traffic if no issues arise. Purpose: catch problems early with minimal user impact. Use when deploying any model update to production. Canary focuses on safety (catching errors), A/B testing focuses on comparison (which is better).",
+        "explanation": "In practice, combine both: start with a canary deployment (5% traffic to new model) to verify it does not break anything, then run an A/B test (50/50 split) to compare performance. Only fully switch when the new model is statistically better."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is CI/CD important for ML systems, and how does it differ from standard software CI/CD?",
+        "hint": "Think about what can change in ML beyond just code.",
+        "answer": "CI/CD for ML is important because ML systems have more failure modes than regular software: code changes, data changes, model performance degradation, and dependency updates can all break the system. ML CI/CD differs from standard CI/CD in several ways: (1) <strong>Data validation tests</strong> -- check that training data meets schema, distribution, and quality expectations. (2) <strong>Model performance tests</strong> -- verify accuracy/F1/latency meet minimum thresholds before deployment. (3) <strong>Model artifact management</strong> -- version and store trained models alongside code. (4) <strong>Training pipeline triggers</strong> -- CI/CD may trigger retraining when data or code changes. (5) <strong>Longer pipeline times</strong> -- model training can take hours, unlike typical code builds. Standard software CI/CD focuses on code correctness. ML CI/CD must also validate data quality, model performance, and reproducibility.",
+        "explanation": "A complete ML CI/CD pipeline: on code push, run unit tests + data validation + model training + performance evaluation + Docker build. If all pass, deploy to staging. After manual or automated approval, deploy to production with canary rollout."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>deployment_checklist = [\n    \"Model serialized (joblib/pickle)\",\n    \"API endpoint created (/predict)\",\n    \"Input validation added\",\n    \"Health check endpoint (/health)\",\n    \"Dependencies pinned (requirements.txt)\",\n    \"Dockerized\",\n    \"Monitoring configured\"\n]\nprint(f\"Deployment Checklist ({len(deployment_checklist)} items):\")\nfor i, item in enumerate(deployment_checklist, 1):\n    print(f\"  [{i}] {item}\")</code></pre>",
+        "hint": "7 items in the deployment checklist.",
+        "answer": "<code>Deployment Checklist (7 items):</code><br>Each item listed with its number from 1 to 7.",
+        "explanation": "A complete ML deployment requires serialized model, API endpoint, input validation, health checks, pinned dependencies, containerization, and monitoring. Skipping any step leads to production issues."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def compare_frameworks(name, features):\n    return f\"{name}: {', '.join(features)}\"\n\nflask = compare_frameworks(\"Flask\", [\"Simple\", \"Synchronous\", \"Manual validation\"])\nfastapi = compare_frameworks(\"FastAPI\", [\"Modern\", \"Async\", \"Auto validation\", \"Auto docs\"])\n\nprint(flask)\nprint(fastapi)\nprint(f\"\\nFlask features: 3\")\nprint(f\"FastAPI features: 4\")\nprint(f\"Winner for ML APIs: FastAPI\")</code></pre>",
+        "hint": "FastAPI has more built-in features useful for ML APIs.",
+        "answer": "<code>Flask: Simple, Synchronous, Manual validation</code><br><code>FastAPI: Modern, Async, Auto validation, Auto docs</code><br><code>Flask features: 3</code><br><code>FastAPI features: 4</code><br><code>Winner for ML APIs: FastAPI</code>",
+        "explanation": "FastAPI is preferred for ML APIs due to automatic Pydantic validation, async request handling, and auto-generated Swagger documentation. Flask is simpler but requires manual setup for these features."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is Docker and why is it important for ML deployment?",
+        "hint": "Think about the 'works on my machine' problem.",
+        "answer": "Docker is a containerization platform that packages an application along with its dependencies, libraries, and runtime into a portable <strong>container</strong>. For ML deployment, Docker solves the 'works on my machine' problem: a model that runs on a data scientist's laptop (with specific Python/library versions) may fail on a production server with different versions. Docker ensures the exact same environment runs everywhere -- development, staging, and production. The Dockerfile specifies the base image, dependencies, application code, and startup command, making deployments reproducible and portable across any cloud provider.",
+        "explanation": "Docker is essentially a standardized shipping container for software. Just as shipping containers made global trade possible by standardizing packaging, Docker makes deployment reliable by standardizing environments."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is model versioning with MLflow and why is it important for production ML systems?",
+        "hint": "Think about what happens when a new model performs worse than the old one.",
+        "answer": "Model versioning tracks every model artifact (weights, hyperparameters, metrics, training data version) with a unique identifier. MLflow's Model Registry enables: (1) <strong>Experiment tracking</strong>: compare multiple model versions side by side on metrics. (2) <strong>Reproducibility</strong>: recreate any past model from logged parameters and data. (3) <strong>Rollback</strong>: quickly revert to a previous model version if the new one degrades in production. (4) <strong>Stage management</strong>: move models through stages (Staging -> Production -> Archived) with approval workflows. (5) <strong>Audit trail</strong>: know who trained which model, when, and with what data. Without versioning, teams cannot compare experiments, reproduce results, or recover from bad deployments.",
+        "explanation": "Model versioning is the ML equivalent of git for code. Just as you would never deploy code without version control, you should never deploy models without tracking their lineage. MLflow, Weights & Biases, and Neptune are popular tools for this."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does MLOps stand for?",
+        "options": {
+          "A": "Machine Learning Online Processing System",
+          "B": "Machine Learning Operations",
+          "C": "Model Loading and Optimization Protocol",
+          "D": "Multi-Layer Operations Pipeline"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MLOps (Machine Learning Operations) is the set of practices that combine ML development with operations to deploy, monitor, and maintain ML models in production reliably."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which Python library is best for serializing scikit-learn models with large numpy arrays?",
+        "options": {
+          "A": "json",
+          "B": "csv",
+          "C": "joblib",
+          "D": "yaml"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Joblib is optimized for efficiently serializing objects with large numpy arrays, which is common in scikit-learn models. It is faster than pickle for these use cases and supports compression."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is Docker?",
+        "options": {
+          "A": "A machine learning framework",
+          "B": "A containerization platform that packages applications with their dependencies",
+          "C": "A Python testing library",
+          "D": "A cloud computing provider"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Docker packages applications, their dependencies, and runtime into portable containers that run identically on any machine. This eliminates 'works on my machine' problems in ML deployment."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What HTTP method is typically used for the /predict endpoint in an ML API?",
+        "options": {
+          "A": "GET",
+          "B": "POST",
+          "C": "DELETE",
+          "D": "PUT"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> POST is used for /predict because prediction requests send data (features) in the request body. GET is used for /health endpoints that do not require request data."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is data drift?",
+        "options": {
+          "A": "The model's code changes over time",
+          "B": "The distribution of incoming data changes from what the model was trained on",
+          "C": "The model gets faster over time",
+          "D": "The training data gets deleted"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Data drift occurs when production data has different statistical properties than training data. For example, a model trained on ages 25-55 receiving inputs from ages 18-80. This can degrade model performance."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What advantage does FastAPI have over Flask for ML APIs?",
+        "options": {
+          "A": "FastAPI is written in Java",
+          "B": "Automatic request validation, async support, and auto-generated API docs",
+          "C": "FastAPI does not need Python",
+          "D": "Flask cannot handle HTTP requests"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> FastAPI provides automatic request validation via Pydantic, native async support for concurrency, and auto-generated Swagger documentation at /docs. These features are particularly valuable for ML APIs that need input validation."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Why should you copy requirements.txt and install dependencies BEFORE copying application code in a Dockerfile?",
+        "options": {
+          "A": "It is required by Docker syntax",
+          "B": "It leverages Docker layer caching so dependency installation is cached when only code changes",
+          "C": "It makes the image smaller",
+          "D": "It is necessary for security"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Docker rebuilds all layers from the first changed layer onward. By installing dependencies first, changing application code only triggers a rebuild from the COPY app.py step, not the slow pip install step. This dramatically speeds up development iterations."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does MLflow track in an ML experiment?",
+        "options": {
+          "A": "Only the model code",
+          "B": "Parameters, metrics, and model artifacts for each run",
+          "C": "Only the training data",
+          "D": "Only the prediction results"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MLflow tracks hyperparameters (log_param), performance metrics (log_metric), model artifacts (log_model), and metadata for each experiment run. This enables experiment comparison, reproducibility, and model versioning."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is concept drift?",
+        "options": {
+          "A": "The model's architecture changes",
+          "B": "The relationship between input features and the target variable changes over time",
+          "C": "The model is deployed to a different server",
+          "D": "The feature names change"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Concept drift occurs when the underlying patterns the model learned change. For example, spam patterns evolve, customer preferences shift, or economic conditions change. The same inputs now map to different correct outputs than during training."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "When should batch serving be used instead of real-time serving?",
+        "options": {
+          "A": "When predictions are needed immediately",
+          "B": "When processing large datasets periodically where low latency is not required",
+          "C": "When the model is very small",
+          "D": "When there is only one user"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Batch serving processes large volumes of data at scheduled intervals (hourly, daily). It is ideal for non-time-critical tasks like generating daily recommendation emails, weekly reports, or overnight data processing. Real-time serving is needed when users expect immediate predictions."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What statistical test is commonly used to detect data drift between two distributions?",
+        "options": {
+          "A": "Chi-squared test",
+          "B": "Kolmogorov-Smirnov test",
+          "C": "ANOVA",
+          "D": "Pearson correlation"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The Kolmogorov-Smirnov (KS) test measures the maximum distance between two cumulative distribution functions. A low p-value indicates the two samples likely come from different distributions. It is non-parametric and works for any continuous distribution."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the purpose of a health check endpoint (/health) in a deployed ML API?",
+        "options": {
+          "A": "To make predictions",
+          "B": "To allow load balancers and monitoring systems to verify the service is running correctly",
+          "C": "To train the model",
+          "D": "To delete old predictions"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The /health endpoint is a lightweight check that returns 200 OK if the service is running and the model is loaded. Load balancers use it to route traffic only to healthy instances. Monitoring systems use it to trigger alerts when services go down."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is canary deployment for ML models?",
+        "options": {
+          "A": "Deploying to a test environment only",
+          "B": "Routing a small percentage of traffic to the new model while most traffic goes to the old model",
+          "C": "Training the model on new data",
+          "D": "Compressing the model for deployment"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Canary deployment routes a small fraction (e.g., 5%) of production traffic to the new model. If the new model performs well (no errors, good predictions, acceptable latency), its traffic share is gradually increased. If problems are detected, traffic is immediately reverted to the old model with minimal user impact."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Why is pinning exact dependency versions critical for ML deployments?",
+        "options": {
+          "A": "It makes the code run faster",
+          "B": "Model serialization depends on exact library versions; version mismatches cause deserialization failures",
+          "C": "It is required by Python syntax",
+          "D": "It reduces the model file size"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Models serialized with pickle/joblib encode the exact class structures of the library version used during training. Loading a model saved with scikit-learn 1.3 using scikit-learn 1.5 may fail or produce incorrect predictions due to internal API changes. Pinning versions ensures the deployment environment exactly matches the training environment."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "In an ML CI/CD pipeline, what additional tests are needed compared to standard software CI/CD?",
+        "options": {
+          "A": "No additional tests are needed",
+          "B": "Data validation tests, model performance tests, and training reproducibility checks",
+          "C": "Only code style checks",
+          "D": "Only security scans"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> ML CI/CD adds: data validation (schema, distribution, quality checks), model performance gates (accuracy/F1 must exceed thresholds), training reproducibility (same data + code = same model), and model artifact versioning. Standard CI/CD focuses on code correctness; ML CI/CD must also validate data and model quality."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "Where should you load the ML model in a Flask/FastAPI application?",
+        "options": {
+          "A": "Inside each request handler function",
+          "B": "Once at application startup, before any requests are served",
+          "C": "In a separate database",
+          "D": "On every page load"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Load the model once at startup and keep it in memory. Loading on every request adds 100-500ms of disk I/O overhead per request, making the API unusable for real-time predictions."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Easy",
+        "question": "What file specifies the Docker image build instructions?",
+        "options": {
+          "A": "requirements.txt",
+          "B": "Dockerfile",
+          "C": "config.json",
+          "D": "setup.py"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A Dockerfile contains instructions for building a Docker image: the base image (FROM), dependency installation (RUN), file copying (COPY), and startup command (CMD). Docker reads this file to create the image."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "What is the purpose of the /health endpoint in a deployed ML API?",
+        "options": {
+          "A": "To make predictions",
+          "B": "To verify the service is running and the model is loaded",
+          "C": "To retrain the model",
+          "D": "To delete old predictions"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The /health endpoint returns a simple 200 OK if the service is operational. Load balancers use it to route traffic to healthy instances. Monitoring systems use it to detect and alert on service outages."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "What is A/B testing in the context of ML model deployment?",
+        "options": {
+          "A": "Testing the model on datasets A and B",
+          "B": "Splitting production traffic between two model versions to compare real-world performance",
+          "C": "Training two models simultaneously",
+          "D": "Testing the API with two different clients"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A/B testing splits production traffic (e.g., 50/50) between the current model and a new version. By measuring real-world metrics (accuracy, CTR, revenue) on both, you can statistically determine which model is better before fully deploying the new one."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "Why is model reproducibility important in MLOps?",
+        "options": {
+          "A": "It makes models run faster",
+          "B": "It ensures the same data, code, and configuration produce the same model, enabling debugging and auditing",
+          "C": "It reduces the model file size",
+          "D": "It is required by Python syntax"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Reproducibility means given the same data, code, hyperparameters, and random seeds, you get the same trained model. This is essential for debugging (reproduce a bug), auditing (prove the model was trained correctly), and regulatory compliance (demonstrate model lineage). MLflow and similar tools enable this."
+      }
+    ]
+  }
+}

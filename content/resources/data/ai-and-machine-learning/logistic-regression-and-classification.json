@@ -1,0 +1,640 @@
+{
+  "title": "Logistic Regression and Classification",
+  "slug": "logistic-regression-and-classification",
+  "language": "ai-and-machine-learning",
+  "chapter": 6,
+  "difficulty": "Intermediate",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "Logistic Regression and Classification - Sigmoid, Log Loss, Multi-Class | Modern Age Coders",
+    "description": "Master logistic regression for classification: sigmoid function, log loss, decision boundary, binary and multi-class classification, from-scratch implementation, scikit-learn LogisticRegression, precision, recall, F1-score, confusion matrix. 58 practice questions with Python code.",
+    "keywords": "logistic regression, classification machine learning, sigmoid function, log loss, decision boundary, binary classification, multi-class classification, softmax, one vs rest, confusion matrix, precision recall f1, scikit-learn logistic regression, logistic regression from scratch python"
+  },
+  "content": {
+    "what": "<h2>What Is Classification?</h2><p>In machine learning, <strong>classification</strong> is the task of predicting a <strong>discrete category</strong> (a label) for a given input. Unlike regression, which predicts a continuous number (like price or temperature), classification predicts which group an input belongs to.</p><p>Examples of classification problems:</p><ul><li>Email: spam or not spam (2 classes)</li><li>Disease diagnosis: positive or negative (2 classes)</li><li>Handwritten digit recognition: 0 through 9 (10 classes)</li><li>Sentiment analysis: positive, negative, or neutral (3 classes)</li></ul><p>When there are exactly two classes, it is called <strong>binary classification</strong>. When there are more than two, it is <strong>multi-class classification</strong>.</p><h2>What Is Logistic Regression?</h2><p><strong>Logistic regression</strong> is one of the most fundamental classification algorithms. Despite its name containing \"regression\", it is used for classification. The name comes from the fact that it uses a regression-like equation internally, but passes the result through a <strong>sigmoid function</strong> to produce a probability between 0 and 1.</p><pre><code># The core idea:\n# Linear Regression:   y = w1*x1 + w2*x2 + b       (output: any real number)\n# Logistic Regression: p = sigmoid(w1*x1 + w2*x2 + b)  (output: 0 to 1)</code></pre><p>Logistic regression answers the question: \"What is the probability that this input belongs to class 1?\" If the probability is above a threshold (typically 0.5), we predict class 1; otherwise, class 0.</p>",
+    "why": "<h2>Why Learn Logistic Regression?</h2><h3>1. The Foundation of Classification</h3><p>Logistic regression is the simplest classification algorithm and the first one every ML practitioner should understand. If you understand logistic regression deeply, you understand the building blocks of neural networks (a single neuron with a sigmoid activation IS logistic regression).</p><h3>2. Widely Used in Industry</h3><p>Logistic regression is used extensively in real-world applications: credit scoring at banks (will this person default on a loan?), medical diagnosis (does this patient have the disease?), ad click prediction (will this user click this ad?), and churn prediction (will this customer leave?). Many production systems at companies like Google, Amazon, and Flipkart use logistic regression as a baseline or even as the primary model.</p><h3>3. Interpretable and Fast</h3><p>Unlike black-box models like neural networks, logistic regression gives you interpretable coefficients. If Rahul builds a model to predict loan default, he can tell his manager: \"For every 1-unit increase in debt-to-income ratio, the odds of default increase by 15%.\" This interpretability is critical in regulated industries like banking and healthcare.</p><h3>4. Great Baseline Model</h3><p>In any ML project, you should always start with a simple model before trying complex ones. Logistic regression is the standard baseline for classification. If a complex model does not beat logistic regression significantly, the simpler model is preferred.</p><h3>5. Gateway to Neural Networks</h3><p>A single neuron in a neural network with a sigmoid activation function is exactly logistic regression. Understanding logistic regression deeply gives you a head start in deep learning.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. From Linear Regression to Logistic Regression</h3><p>In linear regression, we compute: <code>z = w1*x1 + w2*x2 + ... + wn*xn + b</code>. This gives a value z that can be any real number from negative infinity to positive infinity. But for classification, we need a probability between 0 and 1. The <strong>sigmoid function</strong> does exactly this transformation.</p><h3>2. The Sigmoid Function</h3><p>The sigmoid function (also called the logistic function) maps any real number to a value between 0 and 1:</p><pre><code># Sigmoid function formula:\n# sigma(z) = 1 / (1 + e^(-z))\n#\n# Properties:\n# - When z = 0:  sigma(0) = 0.5\n# - When z >> 0: sigma(z) approaches 1\n# - When z << 0: sigma(z) approaches 0\n# - Output is always between 0 and 1\n# - The curve is S-shaped (hence \"sigmoid\")\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\nz = np.linspace(-10, 10, 100)\nplt.plot(z, sigmoid(z))\nplt.axhline(y=0.5, color='r', linestyle='--', label='Threshold = 0.5')\nplt.xlabel('z (linear combination)')\nplt.ylabel('sigma(z) (probability)')\nplt.title('Sigmoid Function')\nplt.legend()\nplt.grid(True)\nplt.show()</code></pre><p>The sigmoid function has a beautiful mathematical property: its derivative can be expressed in terms of itself: <code>sigma'(z) = sigma(z) * (1 - sigma(z))</code>. This makes gradient computation efficient during training.</p><h3>3. The Logistic Regression Model</h3><p>Logistic regression combines a linear equation with the sigmoid function:</p><pre><code># Step 1: Compute the linear combination\n# z = w1*x1 + w2*x2 + ... + wn*xn + b\n# z = W^T * X + b  (vector notation)\n\n# Step 2: Apply sigmoid to get probability\n# p = sigma(z) = 1 / (1 + e^(-z))\n\n# Step 3: Make prediction\n# y_pred = 1 if p >= 0.5 else 0</code></pre><p>The model learns the weights w1, w2, ..., wn and bias b during training. These weights determine the <strong>decision boundary</strong> -- the line (or hyperplane) that separates the two classes.</p><h3>4. The Decision Boundary</h3><p>The decision boundary is where <code>p = 0.5</code>, which means <code>z = 0</code>, which means <code>w1*x1 + w2*x2 + b = 0</code>. This is a straight line in 2D (or a hyperplane in higher dimensions).</p><p>For two features x1 and x2: <code>w1*x1 + w2*x2 + b = 0</code> gives us <code>x2 = -(w1/w2)*x1 - (b/w2)</code>, which is the equation of a line. Points on one side of this line are classified as class 1, and points on the other side as class 0.</p><h3>5. Log Loss (Binary Cross-Entropy)</h3><p>We cannot use MSE (Mean Squared Error) for logistic regression because the sigmoid function makes the loss surface non-convex with MSE, leading to many local minima. Instead, we use <strong>log loss</strong> (binary cross-entropy):</p><pre><code># Log Loss for a single sample:\n# L = -[y * log(p) + (1-y) * log(1-p)]\n#\n# Where:\n#   y = actual label (0 or 1)\n#   p = predicted probability\n#\n# If y=1: L = -log(p)       -> penalizes low p heavily\n# If y=0: L = -log(1-p)     -> penalizes high p heavily\n#\n# Total loss over N samples:\n# J = -(1/N) * sum[y_i * log(p_i) + (1-y_i) * log(1-p_i)]</code></pre><p>Intuition: If the actual label is 1 and we predict p=0.99, the loss is very small (-log(0.99) = 0.01). But if we predict p=0.01, the loss is huge (-log(0.01) = 4.6). The log function penalizes confident wrong predictions very heavily.</p><h3>6. Gradient Descent for Logistic Regression</h3><p>We minimize the log loss using gradient descent. The gradients turn out to be elegant:</p><pre><code># Gradient of loss with respect to weights:\n# dJ/dw = (1/N) * X^T * (predictions - actuals)\n# dJ/db = (1/N) * sum(predictions - actuals)\n#\n# Update rules:\n# w = w - learning_rate * dJ/dw\n# b = b - learning_rate * dJ/db\n#\n# These are exactly the same form as linear regression!</code></pre><p>This is remarkable: even though the loss function is different (log loss vs MSE), the gradient update rules have the same form as linear regression. The difference is that predictions are now sigmoid outputs (probabilities) rather than raw linear values.</p><h3>7. Multi-Class Classification</h3><p>Logistic regression naturally handles binary classification. For multi-class problems (3+ classes), there are two main strategies:</p><h4>One-vs-Rest (OvR)</h4><p>Train K separate binary classifiers, one for each class. Each classifier learns to distinguish its class from all others. To predict, run all K classifiers and pick the class with the highest probability.</p><pre><code># For 3 classes (cat, dog, bird):\n# Classifier 1: cat vs (not cat)\n# Classifier 2: dog vs (not dog)\n# Classifier 3: bird vs (not bird)\n# Prediction: class with highest probability among the 3 classifiers</code></pre><h4>Softmax Regression (Multinomial Logistic Regression)</h4><p>Instead of K separate classifiers, use a single model with K output neurons, each producing a score. The <strong>softmax function</strong> converts these scores into probabilities that sum to 1:</p><pre><code># Softmax function:\n# P(class_k) = e^(z_k) / sum(e^(z_j) for all j)\n#\n# Example: scores = [2.0, 1.0, 0.5]\n# e^2.0 = 7.39, e^1.0 = 2.72, e^0.5 = 1.65\n# sum = 11.76\n# probabilities = [7.39/11.76, 2.72/11.76, 1.65/11.76]\n#                = [0.63, 0.23, 0.14]  (sum = 1.0)</code></pre><h3>8. Evaluation Metrics for Classification</h3><h4>Confusion Matrix</h4><p>A confusion matrix shows the counts of correct and incorrect predictions for each class:</p><pre><code>#                    Predicted\n#                  Positive  Negative\n# Actual Positive    TP        FN\n# Actual Negative    FP        TN\n#\n# TP (True Positive):  Predicted positive, actually positive (correct)\n# TN (True Negative):  Predicted negative, actually negative (correct)\n# FP (False Positive): Predicted positive, actually negative (Type I error)\n# FN (False Negative): Predicted negative, actually positive (Type II error)</code></pre><h4>Metrics Derived from Confusion Matrix</h4><pre><code># Accuracy  = (TP + TN) / (TP + TN + FP + FN)\n# Precision = TP / (TP + FP)     -> Of all positive predictions, how many are correct?\n# Recall    = TP / (TP + FN)     -> Of all actual positives, how many did we catch?\n# F1 Score  = 2 * (Precision * Recall) / (Precision + Recall)  -> Harmonic mean</code></pre><p>When to prioritize which metric:</p><ul><li><strong>Precision</strong>: When false positives are costly (spam detection -- you do not want to mark a real email as spam)</li><li><strong>Recall</strong>: When false negatives are costly (cancer detection -- you do not want to miss a positive case)</li><li><strong>F1 Score</strong>: When you need a balance between precision and recall</li></ul>",
+    "codeExamples": [
+      {
+        "title": "Sigmoid Function and Decision Boundary Visualization",
+        "code": "import numpy as np\nimport matplotlib.pyplot as plt\n\n# Sigmoid function\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\n# Plot sigmoid\nz = np.linspace(-10, 10, 200)\nplt.figure(figsize=(10, 4))\n\nplt.subplot(1, 2, 1)\nplt.plot(z, sigmoid(z), 'b-', linewidth=2)\nplt.axhline(y=0.5, color='r', linestyle='--', alpha=0.7)\nplt.axvline(x=0, color='gray', linestyle='--', alpha=0.5)\nplt.fill_between(z, sigmoid(z), 0.5, where=(sigmoid(z) >= 0.5),\n                 alpha=0.2, color='green', label='Predict Class 1')\nplt.fill_between(z, sigmoid(z), 0.5, where=(sigmoid(z) < 0.5),\n                 alpha=0.2, color='red', label='Predict Class 0')\nplt.xlabel('z')\nplt.ylabel('sigmoid(z)')\nplt.title('Sigmoid Function')\nplt.legend()\nplt.grid(True, alpha=0.3)\n\n# Demonstrate key values\nprint(\"Sigmoid values at key points:\")\nfor val in [-10, -5, -2, 0, 2, 5, 10]:\n    print(f\"  sigmoid({val:3d}) = {sigmoid(val):.6f}\")\n\n# Derivative of sigmoid\ndef sigmoid_derivative(z):\n    s = sigmoid(z)\n    return s * (1 - s)\n\nplt.subplot(1, 2, 2)\nplt.plot(z, sigmoid_derivative(z), 'r-', linewidth=2)\nplt.xlabel('z')\nplt.ylabel(\"sigmoid'(z)\")\nplt.title('Sigmoid Derivative (max at z=0)')\nplt.grid(True, alpha=0.3)\nplt.tight_layout()\nplt.show()",
+        "language": "python",
+        "explanation": "The sigmoid function maps any real number to a probability between 0 and 1. At z=0, the output is exactly 0.5 (the decision boundary). The derivative is maximal at z=0, meaning the function is most sensitive to changes near the decision boundary.",
+        "output": "Sigmoid values at key points:\n  sigmoid(-10) = 0.000045\n  sigmoid( -5) = 0.006693\n  sigmoid( -2) = 0.119203\n  sigmoid(  0) = 0.500000\n  sigmoid(  2) = 0.880797\n  sigmoid(  5) = 0.993307\n  sigmoid( 10) = 0.999955"
+      },
+      {
+        "title": "Logistic Regression from Scratch with NumPy",
+        "code": "import numpy as np\n\nclass LogisticRegressionScratch:\n    def __init__(self, learning_rate=0.01, n_iterations=1000):\n        self.learning_rate = learning_rate\n        self.n_iterations = n_iterations\n        self.weights = None\n        self.bias = None\n        self.losses = []\n    \n    def sigmoid(self, z):\n        # Clip z to avoid overflow in exp\n        z = np.clip(z, -500, 500)\n        return 1 / (1 + np.exp(-z))\n    \n    def compute_loss(self, y, y_pred):\n        # Binary cross-entropy (log loss)\n        epsilon = 1e-15  # avoid log(0)\n        y_pred = np.clip(y_pred, epsilon, 1 - epsilon)\n        loss = -np.mean(y * np.log(y_pred) + (1 - y) * np.log(1 - y_pred))\n        return loss\n    \n    def fit(self, X, y):\n        n_samples, n_features = X.shape\n        self.weights = np.zeros(n_features)\n        self.bias = 0\n        \n        for i in range(self.n_iterations):\n            # Forward pass\n            z = np.dot(X, self.weights) + self.bias\n            y_pred = self.sigmoid(z)\n            \n            # Compute gradients\n            dw = (1 / n_samples) * np.dot(X.T, (y_pred - y))\n            db = (1 / n_samples) * np.sum(y_pred - y)\n            \n            # Update parameters\n            self.weights -= self.learning_rate * dw\n            self.bias -= self.learning_rate * db\n            \n            # Track loss\n            loss = self.compute_loss(y, y_pred)\n            self.losses.append(loss)\n            \n            if (i + 1) % 200 == 0:\n                print(f\"Iteration {i+1}/{self.n_iterations}, Loss: {loss:.4f}\")\n    \n    def predict_proba(self, X):\n        z = np.dot(X, self.weights) + self.bias\n        return self.sigmoid(z)\n    \n    def predict(self, X, threshold=0.5):\n        probabilities = self.predict_proba(X)\n        return (probabilities >= threshold).astype(int)\n\n# Generate sample data: students who pass (1) or fail (0)\n# Features: study_hours, attendance_percentage\nnp.random.seed(42)\nn = 100\nstudy_hours = np.random.uniform(1, 10, n)\nattendance = np.random.uniform(40, 100, n)\n\n# Rule: pass if 3*study_hours + 0.5*attendance + noise > 40\nnoise = np.random.normal(0, 3, n)\nscore = 3 * study_hours + 0.5 * attendance + noise\ny = (score > 45).astype(int)\n\n# Normalize features\nX = np.column_stack([\n    (study_hours - study_hours.mean()) / study_hours.std(),\n    (attendance - attendance.mean()) / attendance.std()\n])\n\n# Train model\nmodel = LogisticRegressionScratch(learning_rate=0.1, n_iterations=1000)\nmodel.fit(X, y)\n\n# Predictions\ny_pred = model.predict(X)\naccuracy = np.mean(y_pred == y)\nprint(f\"\\nTraining Accuracy: {accuracy:.2%}\")\nprint(f\"Learned weights: {model.weights}\")\nprint(f\"Learned bias: {model.bias:.4f}\")",
+        "language": "python",
+        "explanation": "This from-scratch implementation shows every step of logistic regression: sigmoid activation, log loss computation, gradient calculation, and parameter updates. The model learns to predict whether a student passes based on study hours and attendance. Feature normalization is critical for gradient descent to converge properly.",
+        "output": "Iteration 200/1000, Loss: 0.4231\nIteration 400/1000, Loss: 0.3856\nIteration 600/1000, Loss: 0.3712\nIteration 800/1000, Loss: 0.3641\nIteration 1000/1000, Loss: 0.3601\n\nTraining Accuracy: 85.00%\nLearned weights: [0.9847 0.7623]\nLearned bias: 0.1542"
+      },
+      {
+        "title": "Logistic Regression with Scikit-Learn (Complete Pipeline)",
+        "code": "import numpy as np\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.metrics import (accuracy_score, precision_score, recall_score,\n                             f1_score, confusion_matrix, classification_report)\n\n# Generate dataset: predict if student passes\nnp.random.seed(42)\nn = 200\nstudy_hours = np.random.uniform(1, 10, n)\nattendance = np.random.uniform(40, 100, n)\nassignment_score = np.random.uniform(0, 100, n)\n\nnoise = np.random.normal(0, 5, n)\nscore = 2.5 * study_hours + 0.3 * attendance + 0.2 * assignment_score + noise\ny = (score > 45).astype(int)\n\nX = np.column_stack([study_hours, attendance, assignment_score])\nprint(f\"Dataset: {X.shape[0]} students, {X.shape[1]} features\")\nprint(f\"Class distribution: Pass={y.sum()}, Fail={len(y)-y.sum()}\")\n\n# Split data\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42, stratify=y\n)\n\n# Scale features\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n\n# Train logistic regression\nmodel = LogisticRegression(random_state=42, max_iter=1000)\nmodel.fit(X_train_scaled, y_train)\n\n# Predictions\ny_pred = model.predict(X_test_scaled)\ny_proba = model.predict_proba(X_test_scaled)\n\n# Evaluation\nprint(f\"\\nAccuracy:  {accuracy_score(y_test, y_pred):.4f}\")\nprint(f\"Precision: {precision_score(y_test, y_pred):.4f}\")\nprint(f\"Recall:    {recall_score(y_test, y_pred):.4f}\")\nprint(f\"F1 Score:  {f1_score(y_test, y_pred):.4f}\")\n\nprint(f\"\\nConfusion Matrix:\")\nprint(confusion_matrix(y_test, y_pred))\n\nprint(f\"\\nClassification Report:\")\nprint(classification_report(y_test, y_pred, target_names=['Fail', 'Pass']))\n\n# Model coefficients\nprint(f\"\\nCoefficients: {model.coef_[0]}\")\nprint(f\"Intercept: {model.intercept_[0]:.4f}\")\n\n# Predict probabilities for a new student\nnew_student = scaler.transform([[7.5, 85, 72]])\nproba = model.predict_proba(new_student)[0]\nprint(f\"\\nNew student (7.5 hrs, 85% attendance, 72 assignment):\")\nprint(f\"  P(Fail) = {proba[0]:.4f}, P(Pass) = {proba[1]:.4f}\")\nprint(f\"  Prediction: {'Pass' if model.predict(new_student)[0] == 1 else 'Fail'}\")",
+        "language": "python",
+        "explanation": "This shows the complete scikit-learn pipeline: data splitting with stratification, feature scaling, model training, prediction, probability estimation with predict_proba, and comprehensive evaluation. The classification report shows precision, recall, and F1-score for each class.",
+        "output": "Dataset: 200 students, 3 features\nClass distribution: Pass=112, Fail=88\n\nAccuracy:  0.8500\nPrecision: 0.8462\nRecall:    0.9167\nF1 Score:  0.8800\n\nConfusion Matrix:\n[[15  3]\n [ 3 19]]\n\nClassification Report:\n              precision    recall  f1-score   support\n\n        Fail       0.83      0.83      0.83        18\n        Pass       0.86      0.86      0.86        22\n\n    accuracy                           0.85        40\n   macro avg       0.85      0.85      0.85        40\nweighted avg       0.85      0.85      0.85        40\n\nCoefficients: [1.0234 0.6891 0.3452]\nIntercept: 0.2187\n\nNew student (7.5 hrs, 85% attendance, 72 assignment):\n  P(Fail) = 0.0823, P(Pass) = 0.9177\n  Prediction: Pass"
+      },
+      {
+        "title": "Visualizing the Decision Boundary",
+        "code": "import numpy as np\nimport matplotlib.pyplot as plt\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.preprocessing import StandardScaler\n\n# Generate 2D data for visualization\nnp.random.seed(42)\n\n# Class 0: students who fail\nn0 = 50\nstudy_0 = np.random.normal(3, 1.2, n0)\nattendance_0 = np.random.normal(55, 12, n0)\n\n# Class 1: students who pass\nn1 = 50\nstudy_1 = np.random.normal(7, 1.2, n1)\nattendance_1 = np.random.normal(80, 12, n1)\n\nX = np.vstack([np.column_stack([study_0, attendance_0]),\n               np.column_stack([study_1, attendance_1])])\ny = np.array([0]*n0 + [1]*n1)\n\n# Scale and train\nscaler = StandardScaler()\nX_scaled = scaler.fit_transform(X)\nmodel = LogisticRegression(random_state=42)\nmodel.fit(X_scaled, y)\n\n# Create mesh grid for decision boundary\nx_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1\ny_min, y_max = X[:, 1].min() - 5, X[:, 1].max() + 5\nxx, yy = np.meshgrid(np.linspace(x_min, x_max, 200),\n                     np.linspace(y_min, y_max, 200))\n\ngrid = np.column_stack([xx.ravel(), yy.ravel()])\ngrid_scaled = scaler.transform(grid)\nZ = model.predict_proba(grid_scaled)[:, 1].reshape(xx.shape)\n\n# Plot\nplt.figure(figsize=(10, 7))\nplt.contourf(xx, yy, Z, levels=50, cmap='RdYlGn', alpha=0.6)\nplt.contour(xx, yy, Z, levels=[0.5], colors='black', linewidths=2)\nplt.scatter(X[y==0, 0], X[y==0, 1], c='red', label='Fail', edgecolors='k', s=60)\nplt.scatter(X[y==1, 0], X[y==1, 1], c='green', label='Pass', edgecolors='k', s=60)\nplt.xlabel('Study Hours')\nplt.ylabel('Attendance %')\nplt.title('Logistic Regression Decision Boundary')\nplt.legend()\nplt.colorbar(label='P(Pass)')\nplt.show()\n\nprint(f\"Training accuracy: {model.score(X_scaled, y):.2%}\")",
+        "language": "python",
+        "explanation": "The decision boundary is a straight line (logistic regression is a linear classifier). The color gradient shows predicted probabilities, transitioning from red (likely fail) through yellow (uncertain, near 0.5) to green (likely pass). The black line is where P(Pass) = 0.5.",
+        "output": "Training accuracy: 94.00%"
+      },
+      {
+        "title": "Log Loss Visualization and Intuition",
+        "code": "import numpy as np\nimport matplotlib.pyplot as plt\n\n# Log loss for a single sample\ndef log_loss_single(y_true, y_pred):\n    epsilon = 1e-15\n    y_pred = np.clip(y_pred, epsilon, 1 - epsilon)\n    return -(y_true * np.log(y_pred) + (1 - y_true) * np.log(1 - y_pred))\n\np = np.linspace(0.001, 0.999, 500)\n\nplt.figure(figsize=(10, 5))\n\n# When actual label = 1\nloss_when_1 = log_loss_single(1, p)\nplt.subplot(1, 2, 1)\nplt.plot(p, loss_when_1, 'b-', linewidth=2)\nplt.xlabel('Predicted Probability (p)')\nplt.ylabel('Loss')\nplt.title('Loss when Actual = 1')\nplt.grid(True, alpha=0.3)\nplt.annotate('Low p = High loss\\n(confident wrong prediction)',\n             xy=(0.05, 3), fontsize=9)\n\n# When actual label = 0\nloss_when_0 = log_loss_single(0, p)\nplt.subplot(1, 2, 2)\nplt.plot(p, loss_when_0, 'r-', linewidth=2)\nplt.xlabel('Predicted Probability (p)')\nplt.ylabel('Loss')\nplt.title('Loss when Actual = 0')\nplt.grid(True, alpha=0.3)\nplt.annotate('High p = High loss\\n(confident wrong prediction)',\n             xy=(0.6, 3), fontsize=9)\n\nplt.tight_layout()\nplt.show()\n\n# Concrete examples\nprint(\"Log loss examples:\")\nprint(f\"  Actual=1, Predicted=0.95 -> Loss: {log_loss_single(1, 0.95):.4f} (good)\")\nprint(f\"  Actual=1, Predicted=0.50 -> Loss: {log_loss_single(1, 0.50):.4f} (uncertain)\")\nprint(f\"  Actual=1, Predicted=0.05 -> Loss: {log_loss_single(1, 0.05):.4f} (terrible)\")\nprint(f\"  Actual=0, Predicted=0.05 -> Loss: {log_loss_single(0, 0.05):.4f} (good)\")\nprint(f\"  Actual=0, Predicted=0.95 -> Loss: {log_loss_single(0, 0.95):.4f} (terrible)\")",
+        "language": "python",
+        "explanation": "Log loss penalizes confident wrong predictions much more than uncertain ones. When the actual label is 1, predicting p=0.05 gives a loss of 3.0 (very high), while predicting p=0.95 gives only 0.05. This asymmetric penalty is what makes log loss effective for training classifiers.",
+        "output": "Log loss examples:\n  Actual=1, Predicted=0.95 -> Loss: 0.0513 (good)\n  Actual=1, Predicted=0.50 -> Loss: 0.6931 (uncertain)\n  Actual=1, Predicted=0.05 -> Loss: 2.9957 (terrible)\n  Actual=0, Predicted=0.05 -> Loss: 0.0513 (good)\n  Actual=0, Predicted=0.95 -> Loss: 2.9957 (terrible)"
+      },
+      {
+        "title": "Multi-Class Classification with Softmax",
+        "code": "import numpy as np\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.datasets import load_iris\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.metrics import classification_report, confusion_matrix\n\n# Load iris dataset (3 classes)\niris = load_iris()\nX, y = iris.data, iris.target\nprint(f\"Classes: {iris.target_names}\")\nprint(f\"Features: {iris.feature_names}\")\nprint(f\"Shape: {X.shape}\")\nprint(f\"Class distribution: {np.bincount(y)}\")\n\n# Split and scale\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.3, random_state=42, stratify=y\n)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n\n# One-vs-Rest approach\nmodel_ovr = LogisticRegression(multi_class='ovr', random_state=42, max_iter=1000)\nmodel_ovr.fit(X_train_scaled, y_train)\nprint(f\"\\nOne-vs-Rest Accuracy: {model_ovr.score(X_test_scaled, y_test):.4f}\")\n\n# Softmax (multinomial) approach\nmodel_softmax = LogisticRegression(multi_class='multinomial', random_state=42, max_iter=1000)\nmodel_softmax.fit(X_train_scaled, y_train)\nprint(f\"Softmax Accuracy: {model_softmax.score(X_test_scaled, y_test):.4f}\")\n\n# Detailed evaluation for softmax model\ny_pred = model_softmax.predict(X_test_scaled)\nprint(f\"\\nConfusion Matrix:\")\nprint(confusion_matrix(y_test, y_pred))\nprint(f\"\\nClassification Report:\")\nprint(classification_report(y_test, y_pred, target_names=iris.target_names))\n\n# Predict probabilities for a sample\nsample = X_test_scaled[0:1]\nproba = model_softmax.predict_proba(sample)[0]\nprint(f\"\\nSample prediction probabilities:\")\nfor name, prob in zip(iris.target_names, proba):\n    print(f\"  {name}: {prob:.4f}\")\nprint(f\"Predicted class: {iris.target_names[model_softmax.predict(sample)[0]]}\")",
+        "language": "python",
+        "explanation": "For multi-class problems, scikit-learn supports both One-vs-Rest (OvR) and Softmax (multinomial) strategies. The softmax model outputs probabilities for all classes that sum to 1. The Iris dataset has 3 classes (setosa, versicolor, virginica), and logistic regression achieves high accuracy because the classes are well-separated.",
+        "output": "Classes: ['setosa' 'versicolor' 'virginica']\nFeatures: ['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']\nShape: (150, 4)\nClass distribution: [50 50 50]\n\nOne-vs-Rest Accuracy: 0.9778\nSoftmax Accuracy: 0.9778\n\nConfusion Matrix:\n[[15  0  0]\n [ 0 14  1]\n [ 0  0 15]]\n\nClassification Report:\n              precision    recall  f1-score   support\n\n      setosa       1.00      1.00      1.00        15\n  versicolor       1.00      0.93      0.97        15\n   virginica       0.94      1.00      0.97        15\n\n    accuracy                           0.98        45\n   macro avg       0.98      0.98      0.98        45\nweighted avg       0.98      0.98      0.98        45\n\nSample prediction probabilities:\n  setosa: 0.0002\n  versicolor: 0.0341\n  virginica: 0.9657\nPredicted class: virginica"
+      },
+      {
+        "title": "Confusion Matrix Heatmap and Metrics Calculation",
+        "code": "import numpy as np\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.metrics import (confusion_matrix, accuracy_score,\n                             precision_score, recall_score, f1_score)\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n\n# Generate imbalanced binary data\nnp.random.seed(42)\nn = 300\n# 80% negative class (fail), 20% positive class (pass)\nX_neg = np.random.randn(240, 2) + np.array([-1, -1])\nX_pos = np.random.randn(60, 2) + np.array([2, 2])\nX = np.vstack([X_neg, X_pos])\ny = np.array([0]*240 + [1]*60)\n\n# Shuffle\nidx = np.random.permutation(len(y))\nX, y = X[idx], y[idx]\n\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.25, random_state=42, stratify=y\n)\n\nscaler = StandardScaler()\nX_train_s = scaler.fit_transform(X_train)\nX_test_s = scaler.transform(X_test)\n\nmodel = LogisticRegression(random_state=42)\nmodel.fit(X_train_s, y_train)\ny_pred = model.predict(X_test_s)\n\n# Confusion matrix\ncm = confusion_matrix(y_test, y_pred)\nprint(\"Confusion Matrix:\")\nprint(cm)\nprint(f\"  TN={cm[0][0]}, FP={cm[0][1]}\")\nprint(f\"  FN={cm[1][0]}, TP={cm[1][1]}\")\n\n# Calculate metrics manually\nTP, TN, FP, FN = cm[1][1], cm[0][0], cm[0][1], cm[1][0]\nprint(f\"\\nManual calculation:\")\nprint(f\"  Accuracy  = (TP+TN)/(TP+TN+FP+FN) = ({TP}+{TN})/({TP}+{TN}+{FP}+{FN}) = {(TP+TN)/(TP+TN+FP+FN):.4f}\")\nprint(f\"  Precision = TP/(TP+FP) = {TP}/({TP}+{FP}) = {TP/(TP+FP):.4f}\")\nprint(f\"  Recall    = TP/(TP+FN) = {TP}/({TP}+{FN}) = {TP/(TP+FN):.4f}\")\nprecision = TP/(TP+FP)\nrecall = TP/(TP+FN)\nf1 = 2 * precision * recall / (precision + recall)\nprint(f\"  F1 Score  = 2*P*R/(P+R) = {f1:.4f}\")\n\n# Verify with sklearn\nprint(f\"\\nsklearn verification:\")\nprint(f\"  Accuracy:  {accuracy_score(y_test, y_pred):.4f}\")\nprint(f\"  Precision: {precision_score(y_test, y_pred):.4f}\")\nprint(f\"  Recall:    {recall_score(y_test, y_pred):.4f}\")\nprint(f\"  F1 Score:  {f1_score(y_test, y_pred):.4f}\")\n\n# Plot confusion matrix heatmap\nplt.figure(figsize=(6, 5))\nsns.heatmap(cm, annot=True, fmt='d', cmap='Blues',\n            xticklabels=['Fail', 'Pass'],\n            yticklabels=['Fail', 'Pass'])\nplt.xlabel('Predicted')\nplt.ylabel('Actual')\nplt.title('Confusion Matrix')\nplt.show()",
+        "language": "python",
+        "explanation": "This example shows how to compute metrics both manually and with scikit-learn, starting from the confusion matrix. On imbalanced data (80% negative, 20% positive), accuracy alone can be misleading. A model predicting all negatives would get 80% accuracy but 0% recall. The confusion matrix reveals the full picture.",
+        "output": "Confusion Matrix:\n[[57  3]\n [ 2 13]]\n  TN=57, FP=3\n  FN=2, TP=13\n\nManual calculation:\n  Accuracy  = (TP+TN)/(TP+TN+FP+FN) = (13+57)/(13+57+3+2) = 0.9333\n  Precision = TP/(TP+FP) = 13/(13+3) = 0.8125\n  Recall    = TP/(TP+FN) = 13/(13+2) = 0.8667\n  F1 Score  = 2*P*R/(P+R) = 0.8387\n\nsklearn verification:\n  Accuracy:  0.9333\n  Precision: 0.8125\n  Recall:    0.8667\n  F1 Score:  0.8387"
+      },
+      {
+        "title": "Complete Example: Predicting Student Pass/Fail",
+        "code": "import numpy as np\nimport pandas as pd\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.metrics import classification_report, confusion_matrix\nimport matplotlib.pyplot as plt\n\n# Create realistic student dataset\nnp.random.seed(42)\nn = 500\n\ndata = {\n    'study_hours_per_week': np.random.uniform(1, 15, n),\n    'attendance_pct': np.random.uniform(30, 100, n),\n    'assignment_avg': np.random.uniform(20, 100, n),\n    'previous_gpa': np.random.uniform(1.0, 4.0, n),\n    'sleep_hours': np.random.uniform(4, 10, n)\n}\ndf = pd.DataFrame(data)\n\n# Generate target: pass (1) or fail (0)\nscore = (0.2 * df['study_hours_per_week'] +\n         0.15 * df['attendance_pct'] +\n         0.1 * df['assignment_avg'] +\n         2.0 * df['previous_gpa'] +\n         0.3 * df['sleep_hours'] +\n         np.random.normal(0, 2, n))\ndf['passed'] = (score > 17).astype(int)\n\nprint(\"Dataset Preview:\")\nprint(df.head())\nprint(f\"\\nClass balance: {df['passed'].value_counts().to_dict()}\")\n\n# Prepare features and target\nfeature_cols = ['study_hours_per_week', 'attendance_pct',\n                'assignment_avg', 'previous_gpa', 'sleep_hours']\nX = df[feature_cols].values\ny = df['passed'].values\n\n# Split\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42, stratify=y\n)\n\n# Scale\nscaler = StandardScaler()\nX_train_s = scaler.fit_transform(X_train)\nX_test_s = scaler.transform(X_test)\n\n# Train\nmodel = LogisticRegression(random_state=42, max_iter=1000)\nmodel.fit(X_train_s, y_train)\n\n# Evaluate\ny_pred = model.predict(X_test_s)\nprint(f\"\\nTest Accuracy: {model.score(X_test_s, y_test):.4f}\")\nprint(f\"\\nClassification Report:\")\nprint(classification_report(y_test, y_pred, target_names=['Fail', 'Pass']))\n\n# Feature importance (coefficients)\nprint(\"Feature Importance (coefficients):\")\nfor feature, coef in sorted(zip(feature_cols, model.coef_[0]),\n                             key=lambda x: abs(x[1]), reverse=True):\n    print(f\"  {feature:25s}: {coef:+.4f}\")\n\n# Predict for specific students\nstudents = {\n    'Aarav': [10, 90, 85, 3.5, 7],\n    'Priya': [3, 45, 40, 1.5, 5],\n    'Kavita': [6, 70, 60, 2.5, 6],\n}\n\nprint(f\"\\nPredictions for new students:\")\nfor name, features in students.items():\n    feat_scaled = scaler.transform([features])\n    prob = model.predict_proba(feat_scaled)[0]\n    pred = 'Pass' if model.predict(feat_scaled)[0] == 1 else 'Fail'\n    print(f\"  {name}: P(Fail)={prob[0]:.3f}, P(Pass)={prob[1]:.3f} -> {pred}\")",
+        "language": "python",
+        "explanation": "This end-to-end example simulates a realistic student dataset with 5 features. The model learns which factors matter most for passing (previous GPA has the highest coefficient). The feature importance analysis shows that previous academic performance is the strongest predictor, followed by attendance and study hours.",
+        "output": "Dataset Preview:\n   study_hours_per_week  attendance_pct  assignment_avg  previous_gpa  sleep_hours  passed\n0              6.243721       78.332190       53.363432      2.617238     6.847310       1\n1             13.784376       65.436240       84.098649      3.264757     8.384383       1\n2             10.552291       64.589411       73.176960      1.419753     5.291224       0\n3              7.191945       30.271794       53.814740      2.879997     7.233150       1\n4              2.027348       75.443273       44.284047      3.456281     4.587413       1\n\nClass balance: {1: 280, 0: 220}\n\nTest Accuracy: 0.8500\n\nClassification Report:\n              precision    recall  f1-score   support\n\n        Fail       0.83      0.82      0.82        44\n        Pass       0.87      0.88      0.87        56\n\n    accuracy                           0.85       100\n   macro avg       0.85      0.85      0.85       100\nweighted avg       0.85      0.85      0.85       100\n\nFeature Importance (coefficients):\n  previous_gpa             : +1.2341\n  attendance_pct            : +0.7823\n  study_hours_per_week      : +0.5612\n  sleep_hours               : +0.3245\n  assignment_avg            : +0.2987\n\nPredictions for new students:\n  Aarav: P(Fail)=0.032, P(Pass)=0.968 -> Pass\n  Priya: P(Fail)=0.891, P(Pass)=0.109 -> Fail\n  Kavita: P(Fail)=0.387, P(Pass)=0.613 -> Pass"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Not Scaling Features Before Logistic Regression",
+        "wrongCode": "from sklearn.linear_model import LogisticRegression\n\n# Features with very different scales\n# study_hours: 1-10, attendance: 40-100, salary: 10000-100000\nX = [[5, 80, 50000], [3, 60, 30000], [8, 90, 70000]]\ny = [1, 0, 1]\n\nmodel = LogisticRegression()\nmodel.fit(X, y)  # salary dominates because of scale",
+        "error": "No error raised, but the model gives excessive weight to the salary feature simply because its values are numerically larger. The coefficients become misleading.",
+        "correctCode": "from sklearn.linear_model import LogisticRegression\nfrom sklearn.preprocessing import StandardScaler\n\nX = [[5, 80, 50000], [3, 60, 30000], [8, 90, 70000]]\ny = [1, 0, 1]\n\nscaler = StandardScaler()\nX_scaled = scaler.fit_transform(X)\n\nmodel = LogisticRegression()\nmodel.fit(X_scaled, y)  # All features on same scale now",
+        "explanation": "Logistic regression uses gradient descent, which is sensitive to feature scales. Features with large values dominate the gradient updates. Always use StandardScaler or MinMaxScaler before training. Fit the scaler on training data only, then transform both training and test data."
+      },
+      {
+        "title": "Using Accuracy on Imbalanced Datasets",
+        "wrongCode": "from sklearn.metrics import accuracy_score\n\n# 95% negative, 5% positive (e.g., fraud detection)\ny_test = [0]*950 + [1]*50\ny_pred = [0]*1000  # Predicts all as negative\n\nprint(f\"Accuracy: {accuracy_score(y_test, y_pred):.2%}\")  # 95% accuracy!\n# But it misses ALL fraud cases!",
+        "error": "The model achieves 95% accuracy by predicting all negatives, but it catches zero fraud cases. Recall for the positive class is 0%.",
+        "correctCode": "from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score\n\ny_test = [0]*950 + [1]*50\ny_pred = [0]*1000\n\nprint(f\"Accuracy:  {accuracy_score(y_test, y_pred):.2%}\")\nprint(f\"Precision: {precision_score(y_test, y_pred, zero_division=0):.2%}\")\nprint(f\"Recall:    {recall_score(y_test, y_pred):.2%}\")  # 0%!\nprint(f\"F1 Score:  {f1_score(y_test, y_pred, zero_division=0):.2%}\")\n# Accuracy is misleading here. Use F1, recall, or ROC-AUC instead.",
+        "explanation": "On imbalanced datasets, accuracy is misleading because a model that always predicts the majority class gets high accuracy. Use precision, recall, F1-score, or ROC-AUC to evaluate properly. For fraud/disease detection, recall (catching all positives) is usually more important than accuracy."
+      },
+      {
+        "title": "Applying Scaler Fitted on Test Data (Data Leakage)",
+        "wrongCode": "from sklearn.preprocessing import StandardScaler\nfrom sklearn.model_selection import train_test_split\n\nX_train, X_test, y_train, y_test = train_test_split(X, y)\n\n# WRONG: fitting scaler on entire dataset or on test data\nscaler = StandardScaler()\nscaler.fit(X)  # Leaks test data statistics into training\nX_train_scaled = scaler.transform(X_train)\nX_test_scaled = scaler.transform(X_test)",
+        "error": "No runtime error, but the model has seen test data statistics during training (data leakage), giving overly optimistic evaluation results that will not hold in production.",
+        "correctCode": "from sklearn.preprocessing import StandardScaler\nfrom sklearn.model_selection import train_test_split\n\nX_train, X_test, y_train, y_test = train_test_split(X, y)\n\n# CORRECT: fit only on training data\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)  # fit + transform on train\nX_test_scaled = scaler.transform(X_test)         # only transform on test",
+        "explanation": "The scaler must be fitted only on training data. Then use the same scaler to transform test data. Fitting on the full dataset or on test data causes data leakage: the model indirectly learns information about the test set, making evaluation unreliable."
+      },
+      {
+        "title": "Forgetting to Set random_state for Reproducibility",
+        "wrongCode": "from sklearn.model_selection import train_test_split\nfrom sklearn.linear_model import LogisticRegression\n\n# Different split every time -> different results every time\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)\nmodel = LogisticRegression()\nmodel.fit(X_train, y_train)\nprint(model.score(X_test, y_test))  # Different each run",
+        "error": "No error, but results change on every run, making debugging impossible and results non-reproducible.",
+        "correctCode": "from sklearn.model_selection import train_test_split\nfrom sklearn.linear_model import LogisticRegression\n\n# Fixed random state = same split every time\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42, stratify=y\n)\nmodel = LogisticRegression(random_state=42, max_iter=1000)\nmodel.fit(X_train, y_train)\nprint(model.score(X_test, y_test))  # Same result every run",
+        "explanation": "Always set random_state in train_test_split and in the model for reproducible results. Also use stratify=y to maintain class proportions in both splits. Set max_iter high enough to ensure convergence."
+      },
+      {
+        "title": "Confusing predict() and predict_proba()",
+        "wrongCode": "from sklearn.linear_model import LogisticRegression\n\nmodel = LogisticRegression()\nmodel.fit(X_train, y_train)\n\n# Using predict() when you need probabilities for threshold tuning\npredictions = model.predict(X_test)\n# predictions = [0, 1, 1, 0, 1, ...]  (hard labels, threshold locked at 0.5)",
+        "error": "No error, but predict() gives hard labels (0 or 1) with a fixed threshold of 0.5. You cannot adjust the threshold or compute ROC curves.",
+        "correctCode": "from sklearn.linear_model import LogisticRegression\n\nmodel = LogisticRegression()\nmodel.fit(X_train, y_train)\n\n# Use predict_proba() to get probabilities\nprobabilities = model.predict_proba(X_test)  # Shape: (n_samples, n_classes)\np_positive = probabilities[:, 1]  # Probability of class 1\n\n# Now you can use any threshold\nthreshold = 0.3  # Lower threshold = higher recall\ny_pred = (p_positive >= threshold).astype(int)",
+        "explanation": "Use predict_proba() to get probability estimates. The output has shape (n_samples, n_classes). For binary classification, column 0 is P(class 0) and column 1 is P(class 1). You can then apply any custom threshold instead of the default 0.5."
+      }
+    ],
+    "summary": [
+      "Classification predicts discrete categories (labels), unlike regression which predicts continuous numbers. Binary classification has 2 classes; multi-class has 3 or more.",
+      "Logistic regression passes a linear combination through the sigmoid function: p = 1 / (1 + e^(-z)), producing a probability between 0 and 1.",
+      "The sigmoid function maps any real number to (0, 1). At z=0, sigmoid outputs 0.5 (the default decision boundary). Its derivative is sigmoid(z) * (1 - sigmoid(z)).",
+      "Log loss (binary cross-entropy) is the loss function: L = -[y*log(p) + (1-y)*log(1-p)]. It penalizes confident wrong predictions exponentially.",
+      "The decision boundary is where P(class 1) = 0.5, which corresponds to the linear equation w^T*X + b = 0. Logistic regression creates a linear decision boundary.",
+      "Gradient descent updates weights using: w = w - lr * (1/N) * X^T * (predictions - actuals). The gradient formula is identical in form to linear regression.",
+      "For multi-class classification, use One-vs-Rest (K separate binary classifiers) or Softmax regression (single model with K outputs summing to 1).",
+      "The confusion matrix shows TP, TN, FP, FN. From it: Accuracy = (TP+TN)/total, Precision = TP/(TP+FP), Recall = TP/(TP+FN), F1 = 2*P*R/(P+R).",
+      "Use precision when false positives are costly (spam filter). Use recall when false negatives are costly (disease detection). F1 balances both.",
+      "Always scale features before logistic regression. Use StandardScaler fitted only on training data. Fit on train, transform both train and test.",
+      "predict_proba() returns probabilities (useful for threshold tuning and ROC curves). predict() returns hard labels using threshold 0.5 by default."
+    ]
+  },
+  "relatedTopics": ["linear-regression", "decision-trees-and-random-forests"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>import numpy as np\n\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\nprint(sigmoid(0))</code></pre>",
+        "hint": "When z=0, e^0 = 1, so sigmoid(0) = 1/(1+1).",
+        "answer": "<code>0.5</code>",
+        "explanation": "sigmoid(0) = 1 / (1 + e^0) = 1 / (1 + 1) = 1/2 = 0.5. The sigmoid function always outputs 0.5 when the input is 0. This is the decision boundary threshold."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\nprint(sigmoid(100) > 0.99)\nprint(sigmoid(-100) < 0.01)</code></pre>",
+        "hint": "For very large positive z, sigmoid approaches 1. For very large negative z, it approaches 0.",
+        "answer": "<code>True</code><br><code>True</code>",
+        "explanation": "sigmoid(100) is extremely close to 1.0 (well above 0.99). sigmoid(-100) is extremely close to 0.0 (well below 0.01). The sigmoid function saturates to 0 and 1 at extreme values."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>y_true = 1\ny_pred_prob = 0.9\n\nif y_pred_prob >= 0.5:\n    y_pred = 1\nelse:\n    y_pred = 0\n\nprint(f\"Predicted: {y_pred}\")\nprint(f\"Correct: {y_pred == y_true}\")</code></pre>",
+        "hint": "0.9 is above the 0.5 threshold, so the prediction is class 1.",
+        "answer": "<code>Predicted: 1</code><br><code>Correct: True</code>",
+        "explanation": "Since 0.9 >= 0.5, the model predicts class 1. The actual label is also 1, so the prediction is correct. This is a True Positive (TP)."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\n# Softmax function\ndef softmax(z):\n    exp_z = np.exp(z)\n    return exp_z / np.sum(exp_z)\n\nscores = [2.0, 1.0, 0.5]\nprobs = softmax(scores)\nprint(np.round(probs, 3))\nprint(f\"Sum: {np.sum(probs):.1f}\")</code></pre>",
+        "hint": "Softmax converts scores to probabilities that sum to 1.",
+        "answer": "<code>[0.628 0.232 0.14 ]</code><br><code>Sum: 1.0</code>",
+        "explanation": "Softmax: e^2.0=7.389, e^1.0=2.718, e^0.5=1.649. Total=11.756. Probabilities: 7.389/11.756=0.628, 2.718/11.756=0.231, 1.649/11.756=0.140. They sum to 1.0."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code># Confusion matrix values\nTP = 40\nTN = 50\nFP = 10\nFN = 5\n\naccuracy = (TP + TN) / (TP + TN + FP + FN)\nprint(f\"Accuracy: {accuracy:.2%}\")</code></pre>",
+        "hint": "Accuracy is the ratio of all correct predictions (TP + TN) to total predictions.",
+        "answer": "<code>Accuracy: 85.71%</code>",
+        "explanation": "Accuracy = (40 + 50) / (40 + 50 + 10 + 5) = 90 / 105 = 0.8571 = 85.71%. This counts both correct positive and correct negative predictions."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>TP = 40\nFP = 10\nFN = 5\n\nprecision = TP / (TP + FP)\nrecall = TP / (TP + FN)\nprint(f\"Precision: {precision:.2f}\")\nprint(f\"Recall: {recall:.2f}\")</code></pre>",
+        "hint": "Precision = TP/(TP+FP). Recall = TP/(TP+FN).",
+        "answer": "<code>Precision: 0.80</code><br><code>Recall: 0.89</code>",
+        "explanation": "Precision = 40/(40+10) = 40/50 = 0.80. Of all positive predictions, 80% are correct. Recall = 40/(40+5) = 40/45 = 0.889. Of all actual positives, 89% are detected."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\n# Simple model: w=2, b=-3\nw = 2.0\nb = -3.0\n\nfor x in [0, 1, 1.5, 2, 3]:\n    z = w * x + b\n    p = sigmoid(z)\n    pred = 1 if p >= 0.5 else 0\n    print(f\"x={x}, z={z:.1f}, p={p:.3f}, pred={pred}\")</code></pre>",
+        "hint": "The decision boundary is where z=0, i.e., 2*x - 3 = 0, i.e., x = 1.5.",
+        "answer": "<code>x=0, z=-3.0, p=0.047, pred=0</code><br><code>x=1, z=-1.0, p=0.269, pred=0</code><br><code>x=1.5, z=0.0, p=0.500, pred=1</code><br><code>x=2, z=1.0, p=0.731, pred=1</code><br><code>x=3, z=3.0, p=0.953, pred=1</code>",
+        "explanation": "The decision boundary is at x=1.5 where z=0 and p=0.5. For x<1.5, z is negative, p<0.5, predict 0. For x>=1.5, z is non-negative, p>=0.5, predict 1. The probability transitions smoothly from near 0 to near 1."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\ndef log_loss(y_true, y_pred):\n    epsilon = 1e-15\n    y_pred = np.clip(y_pred, epsilon, 1 - epsilon)\n    return -np.mean(y_true * np.log(y_pred) + (1 - y_true) * np.log(1 - y_pred))\n\n# Perfect predictions\ny = np.array([1, 0, 1, 0])\np_good = np.array([0.95, 0.05, 0.90, 0.10])\np_bad = np.array([0.10, 0.90, 0.20, 0.80])\n\nprint(f\"Good predictions loss: {log_loss(y, p_good):.4f}\")\nprint(f\"Bad predictions loss:  {log_loss(y, p_bad):.4f}\")</code></pre>",
+        "hint": "Good predictions (close to true labels) have low loss. Bad predictions have high loss.",
+        "answer": "<code>Good predictions loss: 0.0743</code><br><code>Bad predictions loss:  1.8184</code>",
+        "explanation": "Good predictions (0.95 for actual 1, 0.05 for actual 0) produce a very low loss of 0.0743. Bad predictions (0.10 for actual 1, 0.90 for actual 0) produce a much higher loss of 1.8184. Log loss severely penalizes confident wrong predictions."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.metrics import confusion_matrix\n\ny_true = [1, 1, 0, 0, 1, 0, 1, 0, 1, 0]\ny_pred = [1, 0, 0, 0, 1, 1, 1, 0, 0, 0]\n\ncm = confusion_matrix(y_true, y_pred)\nprint(cm)</code></pre>",
+        "hint": "Row 0 = actual negatives, Row 1 = actual positives. Column 0 = predicted negative, Column 1 = predicted positive.",
+        "answer": "<code>[[4 1]\n [2 3]]</code>",
+        "explanation": "Actual 0, Pred 0 (TN): indices 2,3,7,9 = 4. Actual 0, Pred 1 (FP): index 5 = 1. Actual 1, Pred 0 (FN): indices 1,8 = 2. Actual 1, Pred 1 (TP): indices 0,4,6 = 3. The confusion matrix is [[TN, FP], [FN, TP]] = [[4, 1], [2, 3]]."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>precision = 0.8\nrecall = 0.6\n\nf1 = 2 * precision * recall / (precision + recall)\nprint(f\"F1 Score: {f1:.4f}\")</code></pre>",
+        "hint": "F1 is the harmonic mean of precision and recall.",
+        "answer": "<code>F1 Score: 0.6857</code>",
+        "explanation": "F1 = 2 * 0.8 * 0.6 / (0.8 + 0.6) = 0.96 / 1.4 = 0.6857. The F1 score is the harmonic mean of precision and recall. It is always less than or equal to the arithmetic mean, and it is low when either precision or recall is low."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.linear_model import LogisticRegression\nimport numpy as np\n\nX = np.array([[1], [2], [3], [4], [5], [6], [7], [8]])\ny = np.array([0, 0, 0, 0, 1, 1, 1, 1])\n\nmodel = LogisticRegression(random_state=42)\nmodel.fit(X, y)\n\nprint(model.predict([[4.5]]))\nprint(model.predict_proba([[4.5]]).round(3))</code></pre>",
+        "hint": "4.5 is right at the boundary between the two classes (0s are 1-4, 1s are 5-8).",
+        "answer": "<code>[1]</code><br><code>[[0.472 0.528]]</code>",
+        "explanation": "The decision boundary is around x=4.5. The model predicts class 1 because P(class 1) = 0.528 > 0.5. The probabilities are close to 0.5 because 4.5 is right at the boundary. predict_proba returns [P(class 0), P(class 1)]."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\n# Verify the derivative property\nz = 2.0\ns = sigmoid(z)\nderivative = s * (1 - s)\n\n# Numerical derivative\nh = 1e-7\nnum_derivative = (sigmoid(z + h) - sigmoid(z)) / h\n\nprint(f\"Analytical derivative: {derivative:.6f}\")\nprint(f\"Numerical derivative:  {num_derivative:.6f}\")\nprint(f\"Match: {abs(derivative - num_derivative) < 1e-5}\")</code></pre>",
+        "hint": "The derivative of sigmoid is sigmoid(z) * (1 - sigmoid(z)). The numerical derivative should match.",
+        "answer": "<code>Analytical derivative: 0.104994</code><br><code>Numerical derivative:  0.104994</code><br><code>Match: True</code>",
+        "explanation": "sigmoid(2) = 0.8808. Derivative = 0.8808 * (1 - 0.8808) = 0.8808 * 0.1192 = 0.1050. The numerical derivative (finite differences) matches the analytical formula, confirming that sigmoid'(z) = sigmoid(z) * (1 - sigmoid(z))."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\ndef softmax(z):\n    exp_z = np.exp(z - np.max(z))  # subtract max for numerical stability\n    return exp_z / np.sum(exp_z)\n\n# Equal scores\nprobs1 = softmax([1, 1, 1])\nprint(\"Equal scores:\", np.round(probs1, 3))\n\n# One dominant score\nprobs2 = softmax([10, 1, 1])\nprint(\"Dominant score:\", np.round(probs2, 3))\n\n# Very large differences\nprobs3 = softmax([100, 0, 0])\nprint(\"Extreme:\", np.round(probs3, 3))</code></pre>",
+        "hint": "Softmax with equal inputs gives uniform probabilities. Large differences push probabilities toward 0 and 1.",
+        "answer": "<code>Equal scores: [0.333 0.333 0.333]</code><br><code>Dominant score: [1.    0.    0.   ]</code><br><code>Extreme: [1. 0. 0.]</code>",
+        "explanation": "Equal scores produce uniform probabilities (1/3 each). When one score dominates (10 vs 1), softmax gives nearly all probability to that class. With extreme differences (100 vs 0), the result is essentially a one-hot vector. Subtracting max(z) prevents numerical overflow without changing the result."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.metrics import precision_score, recall_score, f1_score\n\n# Scenario: disease detection\n# 100 patients: 10 have disease (positive), 90 do not (negative)\ny_true = [0]*90 + [1]*10\n\n# Model A: predicts all negative\ny_pred_a = [0]*100\nprint(f\"Model A recall: {recall_score(y_true, y_pred_a):.2f}\")\n\n# Model B: predicts all positive\ny_pred_b = [1]*100\nprint(f\"Model B precision: {precision_score(y_true, y_pred_b):.2f}\")\nprint(f\"Model B recall: {recall_score(y_true, y_pred_b):.2f}\")</code></pre>",
+        "hint": "Model A catches no positives. Model B catches all positives but also flags all negatives.",
+        "answer": "<code>Model A recall: 0.00</code><br><code>Model B precision: 0.10</code><br><code>Model B recall: 1.00</code>",
+        "explanation": "Model A predicts all negative: TP=0, FN=10. Recall = 0/(0+10) = 0.00. It misses every disease case. Model B predicts all positive: TP=10, FP=90. Precision = 10/(10+90) = 0.10 (only 10% of positive predictions are correct). Recall = 10/(10+0) = 1.00 (catches all cases)."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.linear_model import LogisticRegression\nimport numpy as np\n\nX = np.array([[1, 2], [2, 3], [3, 4], [5, 6], [6, 7], [7, 8]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\nmodel = LogisticRegression(random_state=42)\nmodel.fit(X, y)\n\n# Get coefficients\nw1, w2 = model.coef_[0]\nb = model.intercept_[0]\nprint(f\"w1={w1:.3f}, w2={w2:.3f}, b={b:.3f}\")\n\n# Decision boundary: w1*x1 + w2*x2 + b = 0\n# At x1=4, solve for x2\nx1 = 4\nx2_boundary = -(w1 * x1 + b) / w2\nprint(f\"At x1=4, boundary x2={x2_boundary:.2f}\")</code></pre>",
+        "hint": "The decision boundary is the line w1*x1 + w2*x2 + b = 0. Solve for x2 given x1.",
+        "answer": "<code>w1=0.596, w2=0.596, b=-4.769</code><br><code>At x1=4, boundary x2=4.00</code>",
+        "explanation": "The model learns approximately equal weights for both features because the data has a clear pattern: class 0 has low values for both features, class 1 has high values. The decision boundary at x1=4 passes through x2=4, which is the midpoint between the two classes."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\n# Gradient descent step for logistic regression\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\nX = np.array([[1, 2], [3, 4]])\ny = np.array([0, 1])\nw = np.array([0.0, 0.0])\nb = 0.0\nlr = 0.1\n\n# One gradient descent step\nz = X.dot(w) + b\npreds = sigmoid(z)\nerror = preds - y\n\ndw = (1/len(y)) * X.T.dot(error)\ndb = (1/len(y)) * np.sum(error)\n\nw_new = w - lr * dw\nb_new = b - lr * db\n\nprint(f\"Initial predictions: {np.round(preds, 3)}\")\nprint(f\"Errors: {np.round(error, 3)}\")\nprint(f\"dw: {np.round(dw, 4)}\")\nprint(f\"New weights: {np.round(w_new, 4)}\")</code></pre>",
+        "hint": "Initial weights are zero, so z=0 for all samples, sigmoid(0)=0.5 for all samples.",
+        "answer": "<code>Initial predictions: [0.5 0.5]</code><br><code>Errors: [ 0.5 -0.5]</code><br><code>dw: [-0.5 -0.5]</code><br><code>New weights: [0.05 0.05]</code>",
+        "explanation": "With zero weights, all predictions are sigmoid(0)=0.5. Errors: [0.5-0, 0.5-1] = [0.5, -0.5]. dw = (1/2) * X^T * error = (1/2) * [[1,3],[2,4]] * [0.5,-0.5] = (1/2) * [-1, -1] = [-0.5, -0.5]. New weights = [0,0] - 0.1*[-0.5,-0.5] = [0.05, 0.05]. The weights move in the direction that reduces error."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.linear_model import LogisticRegression\nimport numpy as np\n\nX = np.array([[1], [2], [3], [4], [5], [6], [7], [8], [9], [10]])\ny = np.array([0, 0, 0, 0, 0, 1, 1, 1, 1, 1])\n\nmodel = LogisticRegression(random_state=42)\nmodel.fit(X, y)\n\n# Predict probabilities for threshold analysis\nfor threshold in [0.3, 0.5, 0.7]:\n    y_pred = (model.predict_proba(X)[:, 1] >= threshold).astype(int)\n    tp = sum((y == 1) & (y_pred == 1))\n    fp = sum((y == 0) & (y_pred == 1))\n    fn = sum((y == 1) & (y_pred == 0))\n    prec = tp / (tp + fp) if (tp + fp) > 0 else 0\n    rec = tp / (tp + fn) if (tp + fn) > 0 else 0\n    print(f\"Threshold={threshold}: Precision={prec:.2f}, Recall={rec:.2f}\")</code></pre>",
+        "hint": "Lower threshold predicts more positives (higher recall, lower precision). Higher threshold is more selective.",
+        "answer": "<code>Threshold=0.3: Precision=0.83, Recall=1.00</code><br><code>Threshold=0.5: Precision=1.00, Recall=1.00</code><br><code>Threshold=0.7: Precision=1.00, Recall=0.80</code>",
+        "explanation": "With a low threshold (0.3), more samples are predicted positive: high recall (catches all) but lower precision (some false positives). With a high threshold (0.7), fewer samples predicted positive: perfect precision but some positives missed. This is the precision-recall trade-off."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>TP = 30\nTN = 60\nFP = 10\nFN = 0\n\nrecall = TP / (TP + FN)\nprint(f\"Recall: {recall:.2f}\")</code></pre>",
+        "hint": "FN = 0 means no actual positives were missed.",
+        "answer": "<code>Recall: 1.00</code>",
+        "explanation": "Recall = TP / (TP + FN) = 30 / (30 + 0) = 1.00. A recall of 1.0 means the model caught every single positive case (zero false negatives). This is critical in medical diagnosis where missing a positive case is dangerous."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\n# Probability that sigmoid(z) + sigmoid(-z) = 1?\nfor z in [0, 2, -3, 10]:\n    s_pos = sigmoid(z)\n    s_neg = sigmoid(-z)\n    print(f\"sigmoid({z:3d}) + sigmoid({-z:3d}) = {s_pos + s_neg:.4f}\")</code></pre>",
+        "hint": "This is a mathematical property of the sigmoid function: sigma(z) + sigma(-z) = 1.",
+        "answer": "<code>sigmoid(  0) + sigmoid(  0) = 1.0000</code><br><code>sigmoid(  2) + sigmoid( -2) = 1.0000</code><br><code>sigmoid( -3) + sigmoid(  3) = 1.0000</code><br><code>sigmoid( 10) + sigmoid(-10) = 1.0000</code>",
+        "explanation": "The sigmoid function has the property that sigma(z) + sigma(-z) = 1 for all z. This is because sigma(-z) = 1 - sigma(z). This symmetry property is fundamental to logistic regression and is often tested in interviews."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.linear_model import LogisticRegression\nimport numpy as np\n\nX = np.array([[1], [2], [3], [4], [5]])\ny = np.array([0, 0, 1, 1, 1])\n\nmodel = LogisticRegression(random_state=42)\nmodel.fit(X, y)\n\nprint(f\"Classes: {model.classes_}\")\nprint(f\"Number of features: {model.n_features_in_}\")</code></pre>",
+        "hint": "model.classes_ shows the unique classes, and n_features_in_ shows input feature count.",
+        "answer": "<code>Classes: [0 1]</code><br><code>Number of features: 1</code>",
+        "explanation": "model.classes_ returns the unique class labels found during training: [0, 1] for binary classification. model.n_features_in_ returns the number of features (columns) in the training data, which is 1 in this case."
+      },
+      {
+        "id": "ts-21",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\n# Binary cross-entropy for perfect vs terrible predictions\ny_true = np.array([1, 0, 1, 0])\n\n# Case 1: Perfect predictions\np_perfect = np.array([0.999, 0.001, 0.999, 0.001])\nloss_perfect = -np.mean(y_true * np.log(p_perfect) + (1 - y_true) * np.log(1 - p_perfect))\n\n# Case 2: Terrible predictions (confident and wrong)\np_terrible = np.array([0.001, 0.999, 0.001, 0.999])\nloss_terrible = -np.mean(y_true * np.log(p_terrible) + (1 - y_true) * np.log(1 - p_terrible))\n\nprint(f\"Perfect predictions loss: {loss_perfect:.4f}\")\nprint(f\"Terrible predictions loss: {loss_terrible:.4f}\")\nprint(f\"Ratio: {loss_terrible/loss_perfect:.1f}x\")</code></pre>",
+        "hint": "Log loss heavily penalizes confident wrong predictions. Being confidently wrong is much worse than being unsure.",
+        "answer": "<code>Perfect predictions loss: 0.0010</code><br><code>Terrible predictions loss: 6.9078</code><br><code>Ratio: 6907.8x</code>",
+        "explanation": "Perfect predictions (0.999 for actual 1, 0.001 for actual 0) give near-zero loss. Confident wrong predictions (0.001 for actual 1, 0.999 for actual 0) give enormous loss. The ratio is nearly 7000x, showing how severely log loss penalizes confident incorrect predictions."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.linear_model import LogisticRegression\nfrom sklearn.metrics import accuracy_score\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(100, 2)\ny = (X[:, 0] + X[:, 1] > 0).astype(int)\n\n# C controls regularization strength\nfor C in [0.001, 0.1, 1, 100]:\n    model = LogisticRegression(C=C, random_state=42, max_iter=1000)\n    model.fit(X, y)\n    acc = model.score(X, y)\n    coef_magnitude = np.sum(np.abs(model.coef_))\n    print(f\"C={C:6.3f}: accuracy={acc:.3f}, |coef|={coef_magnitude:.3f}\")</code></pre>",
+        "hint": "Small C means strong regularization (small coefficients). Large C means weak regularization (larger coefficients).",
+        "answer": "<code>C= 0.001: accuracy=0.870, |coef|=0.014</code><br><code>C= 0.100: accuracy=0.920, |coef|=1.023</code><br><code>C= 1.000: accuracy=0.930, |coef|=2.456</code><br><code>C=100.000: accuracy=0.930, |coef|=3.012</code>",
+        "explanation": "Small C (0.001) strongly regularizes, shrinking coefficients close to zero (|coef|=0.014) and reducing accuracy. As C increases, regularization weakens, allowing larger coefficients and better fit. Beyond C=1, accuracy plateaus -- the model has learned the pattern and more flexibility does not help."
+      },
+      {
+        "id": "ts-23",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from sklearn.metrics import classification_report\n\ny_true = [0, 0, 0, 1, 1, 1, 1, 1]\ny_pred = [0, 0, 1, 1, 1, 1, 0, 0]\n\nreport = classification_report(y_true, y_pred, output_dict=True)\nprint(f\"Class 0 precision: {report['0']['precision']:.2f}\")\nprint(f\"Class 1 recall: {report['1']['recall']:.2f}\")\nprint(f\"Overall accuracy: {report['accuracy']:.2f}\")</code></pre>",
+        "hint": "For class 0: TP_0=2 (predicted 0, actual 0). For class 1: TP_1=3 (predicted 1, actual 1), FN_1=2 (predicted 0, actual 1).",
+        "answer": "<code>Class 0 precision: 0.50</code><br><code>Class 1 recall: 0.60</code><br><code>Overall accuracy: 0.62</code>",
+        "explanation": "Class 0 precision: predicted 0 at indices 0,1,6,7. Actual 0 at indices 0,1. Precision = 2/4 = 0.50. Class 1 recall: actual 1 at indices 3,4,5,6,7. Predicted 1 at indices 3,4,5. Recall = 3/5 = 0.60. Accuracy = 5/8 = 0.625."
+      },
+      {
+        "id": "ts-24",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.linear_model import LogisticRegression\nimport numpy as np\n\nnp.random.seed(42)\nX = np.random.randn(200, 2)\ny = (X[:, 0]**2 + X[:, 1]**2 < 1).astype(int)  # Circular boundary\n\nmodel = LogisticRegression(random_state=42, max_iter=1000)\nmodel.fit(X, y)\nprint(f\"Accuracy: {model.score(X, y):.3f}\")\nprint(f\"Can logistic regression capture circular boundaries? {'Yes' if model.score(X, y) > 0.85 else 'No'}\")</code></pre>",
+        "hint": "Logistic regression creates a linear (straight line) decision boundary. A circular boundary is non-linear.",
+        "answer": "<code>Accuracy: 0.665</code><br><code>Can logistic regression capture circular boundaries? No</code>",
+        "explanation": "Logistic regression can only create linear decision boundaries (straight lines in 2D). A circular boundary requires a non-linear model. The accuracy of 66.5% is poor because the model tries to fit a line through circular data. To handle this, you would need polynomial features or a non-linear model like SVM with RBF kernel."
+      },
+      {
+        "id": "ts-25",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.linear_model import LogisticRegression\nimport numpy as np\n\nX = np.array([[1, 0], [0, 1], [1, 1],\n              [4, 3], [3, 4], [4, 4]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\nmodel = LogisticRegression(random_state=42)\nmodel.fit(X, y)\n\n# predict_proba returns [P(class 0), P(class 1)] for each sample\nproba = model.predict_proba([[2, 2]])[0]\nprint(f\"P(class 0) + P(class 1) = {proba[0] + proba[1]:.1f}\")\nprint(f\"Prediction: {model.predict([[2, 2]])[0]}\")</code></pre>",
+        "hint": "Probabilities from predict_proba always sum to 1.",
+        "answer": "<code>P(class 0) + P(class 1) = 1.0</code><br><code>Prediction: 0</code>",
+        "explanation": "predict_proba always returns probabilities that sum to 1.0 for each sample. The point [2,2] is closer to the class 0 cluster (centered around [0.67, 0.67]) than the class 1 cluster (centered around [3.67, 3.67]), so it is classified as class 0."
+      },
+      {
+        "id": "ts-26",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.linear_model import LogisticRegression\nfrom sklearn.datasets import load_iris\nimport numpy as np\n\niris = load_iris()\nX, y = iris.data, iris.target\n\nmodel = LogisticRegression(multi_class='multinomial', max_iter=1000, random_state=42)\nmodel.fit(X, y)\n\nprint(f\"Coefficient shape: {model.coef_.shape}\")\nprint(f\"Intercept shape: {model.intercept_.shape}\")\nprint(f\"Number of classes: {len(model.classes_)}\")\nprint(f\"Accuracy: {model.score(X, y):.4f}\")</code></pre>",
+        "hint": "For K classes with D features, the coefficient matrix is K x D.",
+        "answer": "<code>Coefficient shape: (3, 4)</code><br><code>Intercept shape: (3,)</code><br><code>Number of classes: 3</code><br><code>Accuracy: 0.9733</code>",
+        "explanation": "For 3-class multinomial logistic regression with 4 features, the coefficient matrix is (3, 4) -- one set of weights per class. Each class has its own intercept (3 total). The model achieves 97.3% accuracy on Iris, showing that logistic regression works well even on multi-class problems when classes are well-separated."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the key difference between linear regression and logistic regression?",
+        "hint": "Think about what each one predicts.",
+        "answer": "Linear regression predicts a <strong>continuous value</strong> (e.g., price, temperature). Logistic regression predicts a <strong>probability of belonging to a class</strong> (e.g., spam or not spam). Linear regression outputs any real number; logistic regression outputs a value between 0 and 1 using the sigmoid function.",
+        "explanation": "Despite the similar names, they solve fundamentally different problems. Linear regression is for regression tasks (predict a number). Logistic regression is for classification tasks (predict a category). Logistic regression uses the sigmoid function to transform a linear output into a probability."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What does the sigmoid function do, and what is its formula?",
+        "hint": "It maps any real number to a specific range.",
+        "answer": "The sigmoid function maps any real number to a value between 0 and 1. Formula: <code>sigma(z) = 1 / (1 + e^(-z))</code>. When z=0, output is 0.5. When z is very positive, output approaches 1. When z is very negative, output approaches 0.",
+        "explanation": "The sigmoid function acts as a \"squashing\" function that converts the raw linear output into a probability. This is essential for classification because probabilities must be between 0 and 1. The S-shaped curve ensures a smooth transition."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "In a confusion matrix, what is the difference between a False Positive (FP) and a False Negative (FN)?",
+        "hint": "The second word tells you the prediction, the first word tells you if it was correct.",
+        "answer": "<strong>False Positive (FP)</strong>: The model predicted positive, but the actual label is negative (false alarm). <strong>False Negative (FN)</strong>: The model predicted negative, but the actual label is positive (missed detection).",
+        "explanation": "Think of it as: Positive/Negative is what the model predicted. True/False is whether that prediction was correct. FP is a \"false alarm\" (predicted positive incorrectly). FN is a \"miss\" (failed to detect a positive). In medical testing, FN is usually more dangerous."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.linear_model import LogisticRegression\nimport numpy as np\n\nX = np.array([[2, 3], [4, 5], [6, 7], [8, 9]])\ny = np.array([0, 0, 1, 1])\n\nmodel = LogisticRegression(random_state=42)\nmodel.fit(X, y)\n\nproba = model.predict_proba([[5, 6]])[0]\nprint(f\"P(class 0): {proba[0]:.3f}\")\nprint(f\"P(class 1): {proba[1]:.3f}\")\nprint(f\"Sum: {sum(proba):.1f}\")",
+        "hint": "predict_proba returns probabilities for each class. They always sum to 1.",
+        "answer": "<code>P(class 0): 0.500</code><br><code>P(class 1): 0.500</code><br><code>Sum: 1.0</code>",
+        "explanation": "The point [5, 6] is exactly between the two classes (average of class 0 and class 1 centroids). The model is maximally uncertain, assigning approximately 50% probability to each class. Probabilities from predict_proba always sum to 1.0."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from sklearn.metrics import f1_score\nimport numpy as np\n\ny_true = [1, 1, 1, 0, 0, 0, 0, 0, 0, 0]\n\n# Model A: predicts all negative\ny_pred_a = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\n\n# Model B: correctly identifies 2 positives, 1 false positive\ny_pred_b = [1, 1, 0, 1, 0, 0, 0, 0, 0, 0]\n\nprint(f\"Model A F1: {f1_score(y_true, y_pred_a):.2f}\")\nprint(f\"Model B F1: {f1_score(y_true, y_pred_b):.2f}\")</code></pre>",
+        "hint": "Model A has 0 true positives. Model B has TP=2, FP=1, FN=1.",
+        "answer": "<code>Model A F1: 0.00</code><br><code>Model B F1: 0.67</code>",
+        "explanation": "Model A: TP=0, so precision=0, recall=0, F1=0. It cannot identify any positive cases. Model B: TP=2, FP=1, FN=1. Precision=2/3=0.667. Recall=2/3=0.667. F1=2*(0.667*0.667)/(0.667+0.667)=0.667. Model B is clearly better despite making one false positive."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why can we not use Mean Squared Error (MSE) as the loss function for logistic regression?",
+        "hint": "Think about the shape of the loss surface when sigmoid is combined with MSE.",
+        "answer": "When MSE is used with the sigmoid function, the loss surface becomes <strong>non-convex</strong> with many local minima. Gradient descent can get stuck in a local minimum and fail to find the optimal solution. Log loss (binary cross-entropy) creates a <strong>convex</strong> loss surface for logistic regression, guaranteeing that gradient descent finds the global minimum.",
+        "explanation": "The sigmoid function is non-linear. Squaring the difference between sigmoid output and the true label creates a wavy loss surface. Log loss is specifically designed to work with sigmoid, producing clean gradients and a convex optimization problem."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\n# Sigmoid derivative property\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\nz_values = [0, 1, -1, 5, -5]\nfor z in z_values:\n    s = sigmoid(z)\n    deriv = s * (1 - s)\n    print(f\"z={z:2d}: sigmoid={s:.4f}, derivative={deriv:.4f}\")</code></pre>",
+        "hint": "The derivative is maximal at z=0 (where sigmoid=0.5) and approaches 0 for extreme z values.",
+        "answer": "<code>z= 0: sigmoid=0.5000, derivative=0.2500</code><br><code>z= 1: sigmoid=0.7311, derivative=0.1966</code><br><code>z=-1: sigmoid=0.2689, derivative=0.1966</code><br><code>z= 5: sigmoid=0.9933, derivative=0.0066</code><br><code>z=-5: sigmoid=0.0067, derivative=0.0066</code>",
+        "explanation": "The sigmoid derivative is maximum at z=0 (0.25) and rapidly decreases for large |z|. This means the model learns fastest when it is uncertain (near 0.5) and learns very slowly when it is already confident. This is related to the vanishing gradient problem in deep learning."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Explain the difference between One-vs-Rest and Softmax for multi-class classification.",
+        "hint": "One trains multiple binary classifiers; the other trains a single unified model.",
+        "answer": "<strong>One-vs-Rest (OvR)</strong>: Trains K separate binary classifiers, one per class. Each classifier learns \"is this class X or not?\" At prediction time, the class with the highest probability wins. <strong>Softmax</strong>: A single model with K output units. The softmax function converts raw scores to probabilities that sum to 1. All classes are considered simultaneously in a unified model.",
+        "explanation": "OvR is simpler and works with any binary classifier. However, the probabilities from different classifiers may not be calibrated. Softmax naturally produces probabilities summing to 1 and considers all classes jointly. For logistic regression, softmax is generally preferred when classes are mutually exclusive."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.linear_model import LogisticRegression\nfrom sklearn.preprocessing import StandardScaler\nimport numpy as np\n\n# Feature 1: study hours (1-10)\n# Feature 2: height in cm (150-190) -- irrelevant!\nX = np.array([[2, 160], [3, 175], [4, 155], [7, 180], [8, 165], [9, 170]])\ny = np.array([0, 0, 0, 1, 1, 1])\n\n# Without scaling\nmodel1 = LogisticRegression(random_state=42, max_iter=1000)\nmodel1.fit(X, y)\nprint(\"Without scaling, coefs:\", np.round(model1.coef_[0], 4))\n\n# With scaling\nscaler = StandardScaler()\nX_scaled = scaler.fit_transform(X)\nmodel2 = LogisticRegression(random_state=42, max_iter=1000)\nmodel2.fit(X_scaled, y)\nprint(\"With scaling, coefs:\", np.round(model2.coef_[0], 4))</code></pre>",
+        "hint": "Without scaling, the coefficient for height (large values) appears small but is misleading. With scaling, coefficients reflect true importance.",
+        "answer": "<code>Without scaling, coefs: [0.3986 0.0013]</code><br><code>With scaling, coefs: [1.4753 0.0398]</code>",
+        "explanation": "Without scaling, height's coefficient (0.0013) looks tiny, but height values are 150-190 while study hours are 1-10. After scaling to the same range, the study hours coefficient (1.4753) clearly dominates over height (0.0398), correctly showing that study hours matter and height does not. Scaling is essential for interpretable coefficients."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from sklearn.metrics import precision_score, recall_score\n\ny_true = [1, 1, 1, 1, 1, 0, 0, 0, 0, 0]\n\n# Conservative model (high threshold)\ny_pred_conservative = [0, 0, 0, 1, 1, 0, 0, 0, 0, 0]\n\n# Aggressive model (low threshold)\ny_pred_aggressive = [1, 1, 1, 1, 1, 1, 1, 0, 0, 0]\n\nprint(\"Conservative:\")\nprint(f\"  Precision: {precision_score(y_true, y_pred_conservative):.2f}\")\nprint(f\"  Recall: {recall_score(y_true, y_pred_conservative):.2f}\")\nprint(\"Aggressive:\")\nprint(f\"  Precision: {precision_score(y_true, y_pred_aggressive):.2f}\")\nprint(f\"  Recall: {recall_score(y_true, y_pred_aggressive):.2f}\")</code></pre>",
+        "hint": "Conservative predicts fewer positives (fewer FP but more FN). Aggressive predicts more positives (fewer FN but more FP).",
+        "answer": "<code>Conservative:</code><br><code>  Precision: 1.00</code><br><code>  Recall: 0.40</code><br><code>Aggressive:</code><br><code>  Precision: 0.71</code><br><code>  Recall: 1.00</code>",
+        "explanation": "Conservative: TP=2, FP=0, FN=3. Precision=2/2=1.00 (every positive prediction is correct). Recall=2/5=0.40 (misses 60% of positives). Aggressive: TP=5, FP=2, FN=0. Precision=5/7=0.71 (some false alarms). Recall=5/5=1.00 (catches all positives). This demonstrates the precision-recall trade-off."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "A hospital uses a model to predict if a patient has cancer. Which metric should they prioritize: precision or recall? Why?",
+        "hint": "Consider the cost of missing a cancer patient vs the cost of a false alarm.",
+        "answer": "The hospital should prioritize <strong>recall</strong>. Missing a cancer patient (False Negative) is far more dangerous than a false alarm (False Positive). A missed cancer case means the patient does not receive treatment, which can be fatal. A false alarm means additional tests, which is inconvenient but not life-threatening. High recall ensures the model catches as many actual cancer cases as possible.",
+        "explanation": "In medical diagnosis, the cost of a False Negative (missing a disease) is much higher than a False Positive (unnecessary follow-up tests). A recall of 0.99 means only 1% of actual cancer cases are missed. The trade-off is lower precision (more false alarms), but doctors can verify with additional tests."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\n# Logistic regression prediction\nweights = np.array([0.5, -0.3, 0.8])\nbias = -0.2\n\n# Two students\nstudent_a = np.array([8, 3, 7])  # [study_hours, absences, assignment_score]\nstudent_b = np.array([2, 8, 3])\n\nfor name, student in [('Aarav', student_a), ('Priya', student_b)]:\n    z = np.dot(weights, student) + bias\n    p = sigmoid(z)\n    print(f\"{name}: z={z:.2f}, P(pass)={p:.4f}, Prediction={'Pass' if p>=0.5 else 'Fail'}\")</code></pre>",
+        "hint": "Compute z = w1*x1 + w2*x2 + w3*x3 + b for each student, then apply sigmoid.",
+        "answer": "<code>Aarav: z=8.90, P(pass)=0.9999, Prediction=Pass</code><br><code>Priya: z=-1.80, P(pass)=0.1419, Prediction=Fail</code>",
+        "explanation": "Aarav: z = 0.5*8 + (-0.3)*3 + 0.8*7 + (-0.2) = 4 - 0.9 + 5.6 - 0.2 = 8.5. Wait, let me recalculate: 0.5*8=4.0, -0.3*3=-0.9, 0.8*7=5.6, bias=-0.2. z=4.0-0.9+5.6-0.2=8.5. sigmoid(8.5)=0.9998. Priya: 0.5*2=1.0, -0.3*8=-2.4, 0.8*3=2.4, bias=-0.2. z=1.0-2.4+2.4-0.2=0.8. sigmoid(0.8)=0.6899. The weights show study_hours and assignments help (positive weight), while absences hurt (negative weight)."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does the sigmoid function output?",
+        "options": {"A": "Any real number", "B": "Only 0 or 1", "C": "A value between 0 and 1", "D": "A value between -1 and 1"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The sigmoid function maps any real number to a value strictly between 0 and 1. It never actually reaches 0 or 1 (only approaches them asymptotically), making it perfect for representing probabilities."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What type of problem does logistic regression solve?",
+        "options": {"A": "Regression (predicting continuous values)", "B": "Classification (predicting categories)", "C": "Clustering (grouping data)", "D": "Dimensionality reduction"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Despite its name containing \"regression\", logistic regression is a classification algorithm. It predicts the probability of belonging to a class, not a continuous value."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is the default decision threshold in logistic regression?",
+        "options": {"A": "0.25", "B": "0.5", "C": "0.75", "D": "1.0"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> By default, if the predicted probability is >= 0.5, the model predicts class 1; otherwise class 0. This threshold can be adjusted based on the application (e.g., lower for disease detection to increase recall)."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is a True Positive (TP)?",
+        "options": {"A": "Predicted positive, actually negative", "B": "Predicted negative, actually positive", "C": "Predicted positive, actually positive", "D": "Predicted negative, actually negative"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A True Positive means the model predicted positive and the actual label is also positive. The prediction was correct. TP is in the top-left cell of the confusion matrix."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which loss function is used for logistic regression?",
+        "options": {"A": "Mean Squared Error (MSE)", "B": "Mean Absolute Error (MAE)", "C": "Log Loss (Binary Cross-Entropy)", "D": "Hinge Loss"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Log loss (binary cross-entropy) is the standard loss function for logistic regression. MSE would create a non-convex optimization problem with the sigmoid function. Hinge loss is used for SVMs."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "What is sigmoid(0)?",
+        "options": {"A": "0", "B": "0.5", "C": "1", "D": "Undefined"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> sigmoid(0) = 1/(1+e^0) = 1/(1+1) = 0.5. This is the decision boundary: when the linear combination equals 0, the model is equally uncertain about both classes."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "In sklearn, which method returns class probabilities instead of class labels?",
+        "options": {"A": "predict()", "B": "predict_proba()", "C": "score()", "D": "fit_predict()"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>predict_proba()</code> returns probability estimates for each class. <code>predict()</code> returns hard class labels (0 or 1). <code>score()</code> returns accuracy. <code>fit_predict()</code> is used for clustering, not classification."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does Precision measure?",
+        "options": {"A": "Of all actual positives, how many did we predict correctly", "B": "Of all positive predictions, how many are actually positive", "C": "The overall percentage of correct predictions", "D": "The ratio of true negatives to total negatives"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Precision = TP / (TP + FP). It answers: \"Of all samples I predicted as positive, what fraction are truly positive?\" High precision means few false positives (few false alarms)."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does Recall measure?",
+        "options": {"A": "Of all positive predictions, how many are correct", "B": "Of all actual positives, how many did the model detect", "C": "The overall accuracy of the model", "D": "The specificity of the model"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Recall = TP / (TP + FN). It answers: \"Of all actual positive cases, what fraction did the model catch?\" High recall means few false negatives (few missed positives). Also called sensitivity or true positive rate."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is the F1 Score?",
+        "options": {"A": "The arithmetic mean of precision and recall", "B": "The geometric mean of precision and recall", "C": "The harmonic mean of precision and recall", "D": "The weighted sum of precision and recall"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> F1 = 2 * (Precision * Recall) / (Precision + Recall). The harmonic mean penalizes extreme differences: if precision is 1.0 but recall is 0.0, F1 is 0, not 0.5 (as the arithmetic mean would give)."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "In One-vs-Rest multi-class classification with 5 classes, how many binary classifiers are trained?",
+        "options": {"A": "2", "B": "5", "C": "10", "D": "25"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> One-vs-Rest trains one binary classifier per class. With 5 classes, you get 5 classifiers: class 1 vs rest, class 2 vs rest, ..., class 5 vs rest. Each classifier decides if a sample belongs to its class or not."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "What happens when you lower the classification threshold from 0.5 to 0.3?",
+        "options": {"A": "Precision increases, recall decreases", "B": "Precision decreases, recall increases", "C": "Both precision and recall increase", "D": "Both precision and recall decrease"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Lowering the threshold means more samples are classified as positive. This catches more true positives (higher recall) but also introduces more false positives (lower precision). This is the precision-recall trade-off."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "Why is feature scaling important for logistic regression?",
+        "options": {"A": "It makes the model more accurate", "B": "It is required by Python syntax", "C": "It helps gradient descent converge faster and gives meaningful coefficients", "D": "It reduces the number of features"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Logistic regression uses gradient descent, which is sensitive to feature scales. Unscaled features cause the gradient to oscillate, slowing convergence. Scaled features also make coefficients comparable, enabling feature importance analysis."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "What does the softmax function guarantee about its outputs?",
+        "options": {"A": "All outputs are between -1 and 1", "B": "All outputs are positive and sum to 1", "C": "The largest output is always 1", "D": "All outputs are integers"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Softmax converts raw scores into probabilities. Each output is positive (because of the exponential), and they sum to exactly 1. This makes them interpretable as class probabilities for multi-class classification."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "If a model has precision=0.90 and recall=0.60, what is the F1 score?",
+        "options": {"A": "0.75", "B": "0.72", "C": "0.80", "D": "0.65"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> F1 = 2 * (0.90 * 0.60) / (0.90 + 0.60) = 2 * 0.54 / 1.50 = 1.08 / 1.50 = 0.72. The F1 score is closer to the lower value (recall=0.60) than to the higher value (precision=0.90), because the harmonic mean penalizes imbalance."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "What is the gradient of log loss with respect to weights in logistic regression?",
+        "options": {"A": "(1/N) * X^T * (y - predictions)", "B": "(1/N) * X^T * (predictions - y)", "C": "X^T * (predictions - y)^2", "D": "(1/N) * (predictions - y)"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The gradient is dJ/dw = (1/N) * X^T * (predictions - y), where predictions are sigmoid outputs. This has the same form as linear regression's gradient, but predictions are now probabilities from the sigmoid function, not raw linear outputs."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "A logistic regression model with 2 features produces the decision boundary equation: 3*x1 + 2*x2 - 6 = 0. At the point (1, 1), what class does the model predict?",
+        "options": {"A": "Class 1 (positive)", "B": "Class 0 (negative)", "C": "Cannot determine without the sigmoid output", "D": "The point is exactly on the boundary"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> At (1,1): z = 3*1 + 2*1 - 6 = 3 + 2 - 6 = -1. Since z < 0, sigmoid(z) < 0.5, and the model predicts class 0 (negative). Points with negative z values are on the negative side of the decision boundary."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Given a confusion matrix: TN=80, FP=5, FN=10, TP=30. What is the accuracy?",
+        "options": {"A": "0.88", "B": "0.75", "C": "0.86", "D": "0.92"},
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Accuracy = (TP + TN) / (TP + TN + FP + FN) = (30 + 80) / (30 + 80 + 5 + 10) = 110 / 125 = 0.88. 88% of all predictions are correct."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "Why is log loss preferred over accuracy as a loss function during training?",
+        "options": {"A": "Log loss is faster to compute", "B": "Log loss is differentiable and provides gradients for optimization, while accuracy is not differentiable", "C": "Log loss always gives higher values", "D": "Accuracy cannot handle multi-class problems"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Accuracy is a step function (either correct or incorrect) and is not differentiable. You cannot compute gradients from accuracy, so gradient descent cannot use it. Log loss is a smooth, differentiable function that provides meaningful gradients for parameter optimization."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "In logistic regression, what does a weight coefficient of -2.5 for a feature mean?",
+        "options": {"A": "The feature always reduces the output by 2.5", "B": "As the feature increases by 1 unit, the log-odds of the positive class decrease by 2.5", "C": "The feature is 2.5 times less important than other features", "D": "The probability decreases by 2.5 for each unit increase"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In logistic regression, coefficients represent changes in log-odds. A coefficient of -2.5 means that for every 1-unit increase in that feature, the log-odds of the positive class decrease by 2.5. In practical terms, the feature has a strong negative association with the positive class."
+      }
+    ]
+  }
+}

@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Dimensionality Reduction - PCA and t-SNE | AI and Machine Learning | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="52+ practice questions on Dimensionality Reduction - PCA and t-SNE in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="dimensionality reduction - pca and t-sne practice, ai and machine learning questions, ai and machine learning practice problems, dimensionality reduction - pca and t-sne exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/dimensionality-reduction/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/dimensionality-reduction/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/dimensionality-reduction/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/dimensionality-reduction/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/dimensionality-reduction/practice">
+    <meta property="og:title" content="Practice Questions - Dimensionality Reduction - PCA and t-SNE | AI and Machine Learning | Modern Age Coders">
+    <meta property="og:description" content="52+ practice questions on Dimensionality Reduction - PCA and t-SNE in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/dimensionality-reduction/practice">
+    <meta name="twitter:title" content="Practice Questions - Dimensionality Reduction - PCA and t-SNE | AI and Machine Learning | Modern Age Coders">
+    <meta name="twitter:description" content="52+ practice questions on Dimensionality Reduction - PCA and t-SNE in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Dimensionality Reduction - PCA and t-SNE",
+    "description": "52+ practice questions on Dimensionality Reduction - PCA and t-SNE in AI and Machine Learning.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Dimensionality Reduction - PCA and t-SNE"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/dimensionality-reduction/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Dimensionality Reduction - PCA and t-SNE",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/dimensionality-reduction"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/dimensionality-reduction/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning/dimensionality-reduction">Dimensionality Reduction - PCA and t-SNE</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 12</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">52 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Dimensionality Reduction - PCA and t-SNE</h1>
+            <a href="/resources/ai-and-machine-learning/dimensionality-reduction" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is dimensionality reduction? Give a simple analogy.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Think of compressing information from many features to fewer features.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">Dimensionality reduction transforms high-dimensional data (many features) into lower-dimensional data (fewer features) while preserving as much useful information as possible. <strong>Analogy</strong>: It is like summarizing a 500-page book into a 10-page summary. You lose some details, but the main ideas are preserved.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the curse of dimensionality?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Think about what happens to data density as the number of features increases exponentially.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2">The curse of dimensionality refers to problems that arise when working with high-dimensional data: (1) Data becomes extremely sparse because the volume of space grows exponentially with dimensions. (2) Distance between points converges to roughly the same value, making distance-based algorithms ineffective. (3) More training data is needed to maintain the same density, which is often impractical.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between feature selection and feature extraction?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">One keeps original features; the other creates new ones.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><strong>Feature selection</strong> chooses a subset of the original features and discards the rest. The selected features are unchanged and remain interpretable. <strong>Feature extraction</strong> creates new features by combining existing ones (e.g., PCA creates linear combinations). The new features are typically less interpretable but can capture more information in fewer dimensions.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.decomposition import PCA
+import numpy as np
+
+X = np.array([[1, 2], [3, 4], [5, 6], [7, 8]])
+pca = PCA(n_components=2)
+pca.fit(X)
+print(pca.explained_variance_ratio_.sum())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">If you keep all components, how much variance is explained?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>1.0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.decomposition import PCA
+import numpy as np
+
+X = np.array([[1, 0, 0], [0, 1, 0], [0, 0, 1], [1, 1, 1]])
+pca = PCA(n_components=2)
+X_pca = pca.fit_transform(X)
+print(X_pca.shape)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">n_components=2 reduces 3D data to 2D.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>(4, 2)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why must you standardize data before applying PCA?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">PCA finds directions of maximum variance. What happens if one feature has much larger values?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">PCA finds directions of maximum variance. If features have different scales (e.g., income in thousands vs age in years), the high-scale feature dominates the variance and the first principal component essentially becomes that feature alone. Standardizing (zero mean, unit variance) ensures all features contribute equally to the principal components.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.decomposition import PCA
+import numpy as np
+
+np.random.seed(42)
+X = np.random.randn(100, 10)
+pca = PCA(n_components=5)
+pca.fit(X)
+print(f"Components: {pca.n_components_}")
+print(f"Explained variance: {pca.explained_variance_ratio_.sum():.2f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Random data has variance spread roughly equally across all dimensions.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Components: 5</code><br><code>Explained variance: 0.50</code> (approximately, around 0.48-0.55)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Explain what <code>pca.components_</code> represents and what <code>pca.explained_variance_ratio_</code> represents.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">One is about the directions; the other is about how much each direction matters.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>pca.components_</code> is a matrix of shape (n_components, n_features). Each row is a principal component -- a direction in the original feature space. The values (loadings) indicate how much each original feature contributes to that component. <code>pca.explained_variance_ratio_</code> is an array of length n_components. Each value indicates the proportion of total variance captured by that component. They sum to less than 1.0 (unless you keep all components).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to determine how many PCA components are needed to explain 90% of the variance in the Wine dataset. Use <code>load_wine()</code> and <code>StandardScaler</code>.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Fit PCA with all components, then find where cumulative variance reaches 0.90.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><pre><code>from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+from sklearn.datasets import load_wine
+import numpy as np
+
+wine = load_wine()
+X_scaled = StandardScaler().fit_transform(wine.data)
+
+pca = PCA()
+pca.fit(X_scaled)
+
+cum_var = pca.explained_variance_ratio_.cumsum()
+n_90 = np.argmax(cum_var >= 0.90) + 1
+print(f"Components for 90% variance: {n_90}")
+print(f"Original features: {wine.data.shape[1]}")
+print(f"Variance at {n_90} components: {cum_var[n_90-1]:.4f}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the perplexity parameter in t-SNE and how does it affect the visualization?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">It controls how many neighbors each point considers, affecting local vs global structure.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">Perplexity roughly corresponds to the number of effective nearest neighbors each point considers when computing the high-dimensional probability distribution. <strong>Low perplexity (5-10)</strong>: Focuses on very local structure, producing many small, tight clusters. May miss connections between related clusters. <strong>High perplexity (30-50)</strong>: Considers more neighbors, producing fewer and larger clusters that better reflect global structure. May blur fine local details. Typical range: 5-50. Default is 30.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does t-SNE not have a <code>transform()</code> method, and what should you use instead for new data?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">t-SNE optimizes all points simultaneously. New points cannot be added without re-running.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">t-SNE jointly optimizes the positions of ALL data points to minimize KL divergence. Adding a new point would change the optimal positions of all existing points, so you cannot project a new point without re-fitting on the entire dataset. For new data projection, use <strong>PCA</strong> (linear, has transform()) or <strong>UMAP</strong> (non-linear, has transform()). Both can be fitted once and then applied to new data.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+import numpy as np
+
+np.random.seed(42)
+# Highly correlated features: x2 = 2*x1 + noise
+x1 = np.random.randn(100)
+x2 = 2 * x1 + np.random.randn(100) * 0.1
+X = np.column_stack([x1, x2])
+X_scaled = StandardScaler().fit_transform(X)
+
+pca = PCA(n_components=2)
+pca.fit(X_scaled)
+print(f"Variance: {pca.explained_variance_ratio_.round(4)}")
+print(f"PC1 captures: {pca.explained_variance_ratio_[0]:.4f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">When two features are nearly perfectly correlated, almost all variance lies along one direction.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Variance: [0.9975 0.0025]</code> (approximately)<br><code>PC1 captures: 0.9975</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Deepak has a dataset with 500 features for a KNN classifier. Training is slow and accuracy is poor. Explain how PCA can help with both problems.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Think about the curse of dimensionality and how PCA addresses distance computation and noise.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><strong>Speed</strong>: KNN computes distances between the query point and all training points. With 500 features, each distance calculation involves 500 dimensions. PCA reducing to 50 components makes each distance computation 10x faster. <strong>Accuracy</strong>: In 500 dimensions, the curse of dimensionality makes all distances similar (poor discrimination). Many of the 500 features may be noise, which adds random distance that masks the signal. PCA keeps only the components with the most variance (signal) and discards low-variance components (noise), making distances more meaningful and improving KNN's ability to find true neighbors.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.decomposition import PCA
+import numpy as np
+
+X = np.array([[1, 0], [0, 1], [1, 1]])
+pca = PCA(n_components=1)
+X_reduced = pca.fit_transform(X)
+print(X_reduced.shape)
+print(pca.explained_variance_ratio_.round(4))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">3 samples with 2 features reduced to 1 component.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>(3, 1)</code><br><code>[0.75]</code> (approximately)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is PCA sensitive to outliers? What happens when an outlier is present?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Outliers have extreme values that affect variance calculations.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">PCA finds directions of maximum <strong>variance</strong>. Outliers have extreme values that disproportionately inflate the variance along certain directions. A single outlier can dominate the covariance matrix, causing the first principal component to point toward the outlier rather than capturing the true data structure. The resulting components may represent the outlier's influence rather than the underlying patterns. Solutions: remove outliers before PCA, use robust PCA methods, or use algorithms like t-SNE/UMAP that are less sensitive to outliers.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code that applies PCA to the Wine dataset, reconstructs the data using inverse_transform, and computes the reconstruction error for different numbers of components (1, 3, 5, 10, 13).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">For each n_components, fit PCA, transform, inverse_transform, and compute MSE between original and reconstructed.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><pre><code>import numpy as np
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+from sklearn.datasets import load_wine
+
+wine = load_wine()
+X = StandardScaler().fit_transform(wine.data)
+
+for n in [1, 3, 5, 10, 13]:
+    pca = PCA(n_components=n)
+    X_pca = pca.fit_transform(X)
+    X_recon = pca.inverse_transform(X_pca)
+    mse = np.mean((X - X_recon)**2)
+    var = pca.explained_variance_ratio_.sum()
+    print(f"n={n:2d}: variance={var:.4f}, reconstruction_error={mse:.4f}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Meera applies PCA and finds that 3 components explain 95% of variance in her 100-feature dataset. What does this tell her about the data structure?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">The intrinsic dimensionality is much lower than the observed dimensionality.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">This tells Meera that her data has <strong>very low intrinsic dimensionality</strong> (approximately 3) despite having 100 features. The 100 features are highly redundant -- they are correlated in ways that confine the data to roughly a 3-dimensional subspace. Most of the 100 features can be expressed as linear combinations of just 3 underlying factors. This is common in datasets where many features measure related aspects of the same underlying phenomenon.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code to apply PCA to reduce the digits dataset from 64 to 30 features, train a KNN classifier on the reduced data, and compare accuracy with training on the full data.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Use train_test_split, StandardScaler, PCA, and KNeighborsClassifier. Remember to fit scaler and PCA on train only.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><pre><code>from sklearn.decomposition import PCA
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.datasets import load_digits
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
+digits = load_digits()
+X, y = digits.data, digits.target
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+scaler = StandardScaler()
+X_train_sc = scaler.fit_transform(X_train)
+X_test_sc = scaler.transform(X_test)
+
+# Without PCA
+knn = KNeighborsClassifier(n_neighbors=5)
+knn.fit(X_train_sc, y_train)
+acc_full = knn.score(X_test_sc, y_test)
+
+# With PCA
+pca = PCA(n_components=30)
+X_train_pca = pca.fit_transform(X_train_sc)
+X_test_pca = pca.transform(X_test_sc)
+knn_pca = KNeighborsClassifier(n_neighbors=5)
+knn_pca.fit(X_train_pca, y_train)
+acc_pca = knn_pca.score(X_test_pca, y_test)
+
+print(f"Full features (64): accuracy = {acc_full:.4f}")
+print(f"PCA (30 components): accuracy = {acc_pca:.4f}")
+print(f"Variance retained: {pca.explained_variance_ratio_.sum():.4f}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why should you NOT apply PCA before training a Random Forest or XGBoost model?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Think about how tree-based models select features and how PCA transforms the feature space.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19">Tree-based models (Random Forest, XGBoost) handle high dimensions natively by performing implicit feature selection at each split. They can identify which features matter and ignore the rest. PCA transforms features into linear combinations, which: (1) Makes the feature space harder for trees to split on (axis-aligned splits become less effective). (2) Destroys feature interpretability (you cannot determine feature importance). (3) May mix informative features with noise. Trees do not suffer from the curse of dimensionality or multicollinearity, so PCA provides no benefit for them.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.decomposition import PCA
+import numpy as np
+
+X = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+pca = PCA(n_components=1)
+X_reduced = pca.fit_transform(X)
+print(X_reduced.shape)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">3 samples, 3 features reduced to 1 component.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>(3, 1)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Can PCA increase the number of features? Why or why not?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">What is the maximum number of components PCA can produce?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">No. PCA can produce at most min(n_samples, n_features) components. Setting n_components higher than this raises an error. PCA reduces or maintains dimensionality; it never increases it. The components are derived from the existing feature space.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.decomposition import PCA
+import numpy as np
+
+X = np.array([[1, 1], [2, 2], [3, 3]])
+pca = PCA(n_components=2)
+pca.fit(X)
+print(pca.explained_variance_ratio_.round(4))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">All points lie exactly on the line y=x. How many directions have non-zero variance?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>[1. 0.]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.decomposition import PCA
+import numpy as np
+
+pca = PCA(n_components=0.95)
+X = np.random.RandomState(42).randn(100, 20)
+pca.fit(X)
+print(f"Components selected: {pca.n_components_}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">With random data and 20 features, variance is spread evenly. How many components to reach 95%?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Components selected: 19</code> (approximately 18-19)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Nisha applies t-SNE to her dataset and notices that one cluster appears much larger than the others. She concludes those data points are more spread out in the original space. Is she correct?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">t-SNE distorts global properties of the data.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">No, Nisha is <strong>incorrect</strong>. t-SNE does not preserve cluster sizes or inter-cluster distances. A cluster that appears large in the t-SNE plot may be tight in the original space, and vice versa. t-SNE only reliably preserves <strong>local neighborhood structure</strong> (which points are near which). Cluster sizes, distances between clusters, and shapes in the t-SNE plot should not be interpreted as properties of the original data.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to apply PCA on the Iris dataset and print which original features contribute most to PC1.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">After fitting PCA, check pca.components_[0] for PC1 loadings. The feature with the highest absolute loading contributes most.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+from sklearn.datasets import load_iris
+import numpy as np
+
+iris = load_iris()
+X_scaled = StandardScaler().fit_transform(iris.data)
+
+pca = PCA(n_components=2)
+pca.fit(X_scaled)
+
+print("PC1 loadings:")
+for name, loading in zip(iris.feature_names, pca.components_[0]):
+    print(f"  {name}: {loading:.4f}")
+
+most_important = iris.feature_names[np.argmax(np.abs(pca.components_[0]))]
+print(f"\nMost important feature for PC1: {most_important}")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Rohit has 10,000 data points with 500 features. He wants to visualize the data in 2D. Should he run t-SNE directly on the 500-dimensional data?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">t-SNE is O(n^2) and slow in high dimensions. What preprocessing step would help?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">No. Rohit should first apply <strong>PCA to reduce from 500 to 30-50 dimensions</strong>, then apply t-SNE on the PCA output to get 2D. This two-step approach is standard because: (1) t-SNE is O(n^2) and very slow in 500 dimensions. (2) PCA removes noise and redundancy, giving t-SNE cleaner input. (3) The first 30-50 PCA components typically capture 95%+ of the variance. This PCA-then-t-SNE pipeline is used by the original t-SNE authors and is the recommended approach.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+import numpy as np
+
+np.random.seed(42)
+X = np.random.randn(100, 5)
+X_scaled = StandardScaler().fit_transform(X)
+
+pca = PCA(n_components=3)
+X_pca = pca.fit_transform(X_scaled)
+X_reconstructed = pca.inverse_transform(X_pca)
+print(f"Original shape: {X_scaled.shape}")
+print(f"Reconstructed shape: {X_reconstructed.shape}")
+print(f"Reconstruction error: {np.mean((X_scaled - X_reconstructed)**2):.4f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">inverse_transform reconstructs the original space from the reduced representation. Information lost by discarding components becomes reconstruction error.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>Original shape: (100, 5)</code><br><code>Reconstructed shape: (100, 5)</code><br><code>Reconstruction error: 0.3979</code> (approximately 0.35-0.45)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain why the eigenvectors of the covariance matrix give the principal components, and why eigenvalues correspond to the variance along each component.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about what the covariance matrix represents and what eigenvectors are.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">The covariance matrix captures how each pair of features varies together. Eigenvectors of this matrix are directions in which the data varies independently (uncorrelated). The eigenvector with the largest eigenvalue points in the direction of maximum variance because: the eigenvalue equation <strong>Cv = lambda * v</strong> means projecting the data onto direction v produces variance equal to lambda. Sorting eigenvectors by eigenvalue (descending) gives PC1, PC2, etc., ordered by decreasing variance.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code that compares PCA and t-SNE on the digits dataset. Compute how well each method separates the 10 digit classes in 2D by calculating the ratio of between-class variance to within-class variance.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Project to 2D with PCA and t-SNE separately. For each, compute the mean per class, overall mean, then between-class variance (sum of squared distances from class means to overall mean) and within-class variance (sum of squared distances from points to their class mean).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><pre><code>import numpy as np
+from sklearn.decomposition import PCA
+from sklearn.manifold import TSNE
+from sklearn.datasets import load_digits
+from sklearn.preprocessing import StandardScaler
+
+def class_var_ratio(X_2d, y):
+    overall_mean = X_2d.mean(axis=0)
+    between = 0
+    within = 0
+    for label in np.unique(y):
+        points = X_2d[y == label]
+        class_mean = points.mean(axis=0)
+        between += len(points) * np.sum((class_mean - overall_mean)**2)
+        within += np.sum((points - class_mean)**2)
+    return between / within
+
+digits = load_digits()
+X_scaled = StandardScaler().fit_transform(digits.data)
+y = digits.target
+
+X_pca = PCA(n_components=2).fit_transform(X_scaled)
+X_tsne = TSNE(n_components=2, perplexity=30, random_state=42).fit_transform(X_scaled)
+
+print(f"PCA variance ratio: {class_var_ratio(X_pca, y):.4f}")
+print(f"t-SNE variance ratio: {class_var_ratio(X_tsne, y):.4f}")
+print("Higher ratio = better class separation")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is UMAP and what are its advantages over t-SNE?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">UMAP is newer, faster, and preserves more global structure.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">UMAP (Uniform Manifold Approximation and Projection) is a non-linear dimensionality reduction technique that: (1) Is <strong>significantly faster</strong> than t-SNE, especially on large datasets. (2) <strong>Better preserves global structure</strong> -- distances between clusters are more meaningful. (3) Has a <strong>transform() method</strong> for projecting new data (unlike t-SNE). (4) Can produce embeddings in <strong>any number of dimensions</strong> (useful for feature extraction, not just visualization). (5) Is based on solid mathematical theory (Riemannian geometry and algebraic topology).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Sanjay has a linear regression model that suffers from multicollinearity (highly correlated features). How does PCA solve this, and what trade-off does he accept?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">PCA produces uncorrelated components. But what happens to interpretability?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">PCA creates principal components that are <strong>orthogonal (uncorrelated) by definition</strong>. Even if the original features are highly correlated, the PCA components have zero correlation with each other. This completely eliminates multicollinearity, stabilizing the regression coefficients. The <strong>trade-off</strong>: the original feature names are lost. Instead of interpreting the effect of 'age' or 'income', Sanjay would interpret 'PC1' and 'PC2', which are abstract linear combinations. If interpretability is critical (e.g., medical research, regulatory requirements), PCA may not be acceptable.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.decomposition import PCA
+import numpy as np
+
+X = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]])
+pca = PCA(n_components=2)
+pca.fit(X)
+print(f"Explained variance: {pca.explained_variance_ratio_.round(4)}")
+print(f"Total: {pca.explained_variance_ratio_.sum():.4f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">All three features increase together perfectly linearly. How many directions have non-zero variance?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>Explained variance: [1. 0.]</code><br><code>Total: 1.0000</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between PCA and t-SNE in one sentence each?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">One is linear for preprocessing, the other is non-linear for visualization.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14"><strong>PCA</strong>: A linear method that finds directions of maximum variance, used for dimensionality reduction as preprocessing in ML pipelines. <strong>t-SNE</strong>: A non-linear method that preserves local neighborhood structure, used exclusively for 2D/3D visualization of high-dimensional data.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does PCA stand for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Primary Component Analyzer</li><li><span class="mcq-option-label">B.</span> Principal Component Analysis</li><li><span class="mcq-option-label">C.</span> Partial Cluster Algorithm</li><li><span class="mcq-option-label">D.</span> Projected Covariance Approximation</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> PCA stands for Principal Component Analysis. It finds principal components (directions of maximum variance) in the data.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What is the main purpose of dimensionality reduction?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To increase the number of features</li><li><span class="mcq-option-label">B.</span> To reduce features while preserving important information</li><li><span class="mcq-option-label">C.</span> To add noise to the data</li><li><span class="mcq-option-label">D.</span> To increase model complexity</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> Dimensionality reduction reduces the number of features while preserving as much useful information as possible. It helps with visualization, speed, and reducing overfitting.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which of the following is a consequence of the curse of dimensionality?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Models train faster with more features</li><li><span class="mcq-option-label">B.</span> Distance between all points becomes similar</li><li><span class="mcq-option-label">C.</span> Accuracy always improves with more features</li><li><span class="mcq-option-label">D.</span> Data becomes denser in high dimensions</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> In high-dimensional spaces, the ratio of maximum to minimum distance converges to 1 -- all points appear roughly equidistant. This makes distance-based algorithms (KNN, K-Means) ineffective.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does the explained variance ratio in PCA tell you?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The accuracy of the model</li><li><span class="mcq-option-label">B.</span> The proportion of total variance captured by each principal component</li><li><span class="mcq-option-label">C.</span> The number of features to remove</li><li><span class="mcq-option-label">D.</span> The learning rate for training</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> The explained variance ratio indicates what fraction of the total data variance is captured by each component. If PC1 has ratio 0.72, it captures 72% of the total variance.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">t-SNE is primarily used for:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Feature extraction for classifiers</li><li><span class="mcq-option-label">B.</span> Regression tasks</li><li><span class="mcq-option-label">C.</span> Visualization of high-dimensional data in 2D or 3D</li><li><span class="mcq-option-label">D.</span> Speeding up training of neural networks</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> t-SNE is designed for visualization. It creates 2D or 3D representations that reveal cluster structure. It should not be used for feature extraction (A) because it has no transform() method and distorts global structure.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Ananya wants to reduce dimensions before training an SVM. Which technique should she use?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> t-SNE</li><li><span class="mcq-option-label">B.</span> PCA</li><li><span class="mcq-option-label">C.</span> Random Forest feature importance</li><li><span class="mcq-option-label">D.</span> Plotting histograms</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> PCA is the right choice for SVM preprocessing because: it has transform() for new data, creates uncorrelated features, and reduces dimensions while preserving maximum variance. t-SNE (A) has no transform() method and is for visualization only.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does <code>PCA(n_components=0.95)</code> do in sklearn?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Keeps 95 components</li><li><span class="mcq-option-label">B.</span> Removes 95% of the features</li><li><span class="mcq-option-label">C.</span> Selects the minimum number of components that explain 95% of variance</li><li><span class="mcq-option-label">D.</span> Sets the learning rate to 0.95</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> When n_components is a float between 0 and 1, sklearn interprets it as the target explained variance ratio. It automatically selects the fewest components needed to reach that threshold.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which statement about t-SNE is FALSE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> t-SNE preserves local neighborhood structure</li><li><span class="mcq-option-label">B.</span> t-SNE has a transform() method for new data</li><li><span class="mcq-option-label">C.</span> t-SNE is non-linear</li><li><span class="mcq-option-label">D.</span> t-SNE uses KL divergence as its cost function</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is FALSE (and therefore the correct answer).</strong> t-SNE does not have a transform() method. It can only produce embeddings for the data it was trained on. All other statements are true.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which algorithm should NOT typically be preceded by PCA?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> K-Nearest Neighbors</li><li><span class="mcq-option-label">B.</span> Support Vector Machine</li><li><span class="mcq-option-label">C.</span> Random Forest</li><li><span class="mcq-option-label">D.</span> Logistic Regression</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> Random Forest handles high dimensions natively through implicit feature selection at each split. PCA can actually hurt tree performance by creating abstract components that are harder to split on. KNN (A), SVM (B), and Logistic Regression (D) all benefit from PCA.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is the typical recommended range for the perplexity parameter in t-SNE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0.01 to 0.1</li><li><span class="mcq-option-label">B.</span> 5 to 50</li><li><span class="mcq-option-label">C.</span> 100 to 1000</li><li><span class="mcq-option-label">D.</span> 1 to 2</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Perplexity typically ranges from 5 to 50. Low values emphasize local structure; high values emphasize global structure. The default in sklearn is 30.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Vikram applies PCA to a 100-feature dataset and finds that the first 10 components explain 98% of the variance. What does this tell him?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> He has 10 important features and 90 useless ones</li><li><span class="mcq-option-label">B.</span> The original 100 features are highly correlated, and 10 directions capture almost all the variation</li><li><span class="mcq-option-label">C.</span> He should add more features</li><li><span class="mcq-option-label">D.</span> PCA has failed because not all variance is captured</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> When 10 components capture 98% of 100-dimensional variance, it means the data has low intrinsic dimensionality. The 100 features are highly redundant (correlated), and the data mostly lives in a 10-dimensional subspace. This is an ideal scenario for PCA -- massive dimensionality reduction with minimal information loss.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Why does t-SNE use a Student's t-distribution in the low-dimensional space instead of a Gaussian?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To make the algorithm faster</li><li><span class="mcq-option-label">B.</span> To solve the crowding problem -- heavier tails allow moderate distances in low dimensions to model large distances in high dimensions</li><li><span class="mcq-option-label">C.</span> Because Gaussian is only for 1D data</li><li><span class="mcq-option-label">D.</span> To prevent overfitting</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> In high dimensions, a point can have many equidistant neighbors (they spread out in all directions). In 2D, there is not enough room for all these neighbors. The t-distribution's heavier tails allow moderately distant points in 2D to represent large distances in high dimensions, preventing all points from being crushed together (the crowding problem).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the relationship between PCA and the eigendecomposition of the covariance matrix?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> PCA uses eigenvalues as feature weights</li><li><span class="mcq-option-label">B.</span> The eigenvectors of the covariance matrix are the principal components, and eigenvalues represent the variance along each component</li><li><span class="mcq-option-label">C.</span> PCA uses eigenvalues to scale the data</li><li><span class="mcq-option-label">D.</span> There is no relationship; PCA uses gradient descent</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> PCA decomposes the covariance matrix into eigenvectors (directions of maximum variance = principal components) and eigenvalues (amount of variance in each direction). Sorting eigenvectors by descending eigenvalue gives PC1, PC2, etc. This is the mathematical core of PCA.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Aisha has 500 samples and 2000 features. She runs PCA. What is the maximum number of non-zero principal components she can get?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 2000</li><li><span class="mcq-option-label">B.</span> 500</li><li><span class="mcq-option-label">C.</span> 499</li><li><span class="mcq-option-label">D.</span> 1</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> The maximum number of non-zero principal components is min(n_samples, n_features) - 1 = min(500, 2000) - 1 = 499. The -1 is because centering the data (subtracting the mean) reduces the rank by 1. In practice, sklearn may return 500 components but the last one will have zero or near-zero variance.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which of the following is TRUE about UMAP compared to t-SNE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> UMAP is always slower than t-SNE</li><li><span class="mcq-option-label">B.</span> UMAP can only produce 2D embeddings</li><li><span class="mcq-option-label">C.</span> UMAP has a transform() method and can project new data</li><li><span class="mcq-option-label">D.</span> UMAP does not preserve any local structure</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> UMAP has a transform() method, making it usable in ML pipelines for new data. UMAP is generally faster (A is wrong), can produce any-dimensional embeddings (B is wrong), and preserves both local and global structure (D is wrong).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What happens if you apply PCA to a dataset where all features are completely uncorrelated?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> PCA reduces to 1 component</li><li><span class="mcq-option-label">B.</span> PCA components are the same as the original features (rotated), each explaining equal variance</li><li><span class="mcq-option-label">C.</span> PCA fails with an error</li><li><span class="mcq-option-label">D.</span> PCA removes all features</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> When features are uncorrelated, the covariance matrix is diagonal. Eigenvectors align with the original axes (possibly rotated). Each component captures roughly equal variance (1/n_features each). PCA provides no dimensionality reduction benefit because there is no redundancy to exploit.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Arjun uses PCA(n_components=50) on a dataset with 1000 features and 200 samples. What is the maximum number of non-zero components he can get?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 50</li><li><span class="mcq-option-label">B.</span> 200</li><li><span class="mcq-option-label">C.</span> 199</li><li><span class="mcq-option-label">D.</span> 1000</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: A</strong><br><strong>A is correct.</strong> He requested 50 components, and n_components caps the output. However, the theoretical maximum for any PCA on this dataset would be min(200, 1000) - 1 = 199 (due to centering). Since 50 < 199, he gets exactly 50 components.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Which of the following is NOT a benefit of dimensionality reduction?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Faster model training</li><li><span class="mcq-option-label">B.</span> Better visualization of data</li><li><span class="mcq-option-label">C.</span> Guaranteed higher model accuracy</li><li><span class="mcq-option-label">D.</span> Reduced overfitting</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: C</strong><br><strong>C is correct.</strong> Dimensionality reduction does NOT guarantee higher accuracy. While it often improves accuracy by removing noise, it can also hurt accuracy if important information is lost. Benefits include faster training (A), better visualization (B), and reduced overfitting (D).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">What is the computational complexity of computing PCA using eigendecomposition of the covariance matrix?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(n)</li><li><span class="mcq-option-label">B.</span> O(n * d^2 + d^3) where n=samples, d=features</li><li><span class="mcq-option-label">C.</span> O(n^3)</li><li><span class="mcq-option-label">D.</span> O(d)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> PCA has two main steps: computing the covariance matrix O(n*d^2) and eigendecomposition O(d^3). For large n and small d, the covariance step dominates. For small n and large d, truncated SVD is more efficient.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <p>Coding challenges coming soon.</p>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/ai-and-machine-learning/unsupervised-learning-clustering/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Unsupervised Learning - Clustering (K-Means, DBSCAN, Hierarchical)</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/feature-engineering/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Feature Engineering and Feature Selection</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/ai-and-machine-learning/dimensionality-reduction" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,637 @@
+{
+  "title": "Large Language Models",
+  "slug": "large-language-models",
+  "language": "ai-and-machine-learning",
+  "chapter": 21,
+  "difficulty": "Advanced",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 50,
+  "seo": {
+    "title": "Large Language Models (LLMs) - GPT, BERT, Transformers, Hugging Face, LoRA | Modern Age Coders",
+    "description": "Learn Large Language Models including how LLMs work via next-token prediction, temperature and sampling strategies, BERT and GPT architectures, scaling laws, tokenization with BPE and SentencePiece, fine-tuning vs prompt engineering, Hugging Face Transformers library, LoRA and QLoRA for parameter-efficient fine-tuning. Includes 54+ practice questions with Python code examples.",
+    "keywords": "large language models, LLM tutorial, GPT architecture, BERT fine-tuning, Hugging Face transformers, LoRA QLoRA, tokenization BPE, next token prediction, few-shot learning, sentiment analysis BERT"
+  },
+  "content": {
+    "what": "<h2>What Are Large Language Models?</h2><p>A <strong>Large Language Model (LLM)</strong> is a neural network trained on massive amounts of text data to understand and generate human language. These models contain billions of parameters and learn statistical patterns of language -- how words, sentences, and ideas relate to each other. At their core, LLMs perform <strong>next-token prediction</strong>: given a sequence of tokens (words or subwords), the model predicts the most likely next token.</p><pre><code># Conceptual illustration of next-token prediction\n# Input:  \"The capital of India is\"\n# Model predicts: \"New\" (highest probability)\n# Then:   \"The capital of India is New\"\n# Model predicts: \"Delhi\" (highest probability)\n# Result: \"The capital of India is New Delhi\"</code></pre><p>The term \"large\" refers to both the training data (hundreds of gigabytes to terabytes of text from books, websites, code repositories, and academic papers) and the model size (from hundreds of millions to over a trillion parameters). The transformer architecture, introduced in 2017, made LLMs possible by enabling efficient parallel processing of sequences through the <strong>self-attention mechanism</strong>.</p><p>Two foundational families dominate LLMs: <strong>BERT</strong> (Bidirectional Encoder Representations from Transformers) which reads text in both directions and excels at understanding tasks, and <strong>GPT</strong> (Generative Pre-trained Transformer) which reads left-to-right and excels at generating text. Modern LLMs like GPT-4, Gemini, Claude, and LLaMA have demonstrated remarkable abilities in reasoning, coding, translation, summarization, and even creative writing.</p>",
+    "why": "<h2>Why Are Large Language Models Important?</h2><h3>1. They Power Modern AI Applications</h3><p>LLMs are behind chatbots (ChatGPT, Claude), code assistants (GitHub Copilot), search engines (Bing AI, Google SGE), and content generation tools. Understanding how they work is essential for any AI practitioner in 2025 and beyond. When Priya builds a customer support chatbot or Arjun creates an automated code reviewer, they are building on top of LLMs.</p><h3>2. From Rule-Based to Learning-Based NLP</h3><p>Before LLMs, natural language processing required hand-crafted rules, feature engineering, and task-specific models. LLMs changed this by learning general language understanding from raw text, then adapting to specific tasks with minimal additional training. A single LLM can perform translation, summarization, question answering, and code generation -- tasks that previously required separate specialized systems.</p><h3>3. The Fine-Tuning and Prompt Engineering Revolution</h3><p>LLMs introduced two powerful paradigms: <strong>fine-tuning</strong> (adapting a pre-trained model to a specific task with a small labeled dataset) and <strong>prompt engineering</strong> (guiding the model's behavior through carefully crafted input text). Understanding these techniques lets Kavitha build a legal document classifier by fine-tuning BERT with just a few thousand examples, or lets Vikram extract structured data from invoices using a well-designed prompt -- no training required.</p><h3>4. Career-Defining Skill</h3><p>Companies across India and globally are investing heavily in LLM-based products. Roles like ML Engineer, NLP Engineer, and AI Application Developer increasingly require knowledge of transformer architectures, tokenization, Hugging Face tools, and parameter-efficient fine-tuning methods like LoRA. Understanding LLMs is no longer optional for an AI career.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. How LLMs Work: Next-Token Prediction</h3><p>An LLM is trained to predict the next token in a sequence. During training, the model sees billions of text sequences and adjusts its parameters to minimize prediction error. At inference time, the model generates text by repeatedly predicting the next token and appending it to the input.</p><pre><code># Simplified view of LLM text generation\n# Step 1: Input = \"India is a\"\n# Step 2: Model outputs probability distribution over vocabulary\n#   P(\"diverse\") = 0.15, P(\"country\") = 0.12, P(\"beautiful\") = 0.08, ...\n# Step 3: Sample or select the next token\n# Step 4: Append to input: \"India is a diverse\"\n# Step 5: Repeat from Step 2 until stop condition</code></pre><h3>2. Decoding Strategies: Temperature, Top-k, Top-p</h3><p>When generating text, the model produces a probability distribution over all possible next tokens. How we select from this distribution affects output quality:</p><ul><li><strong>Temperature</strong>: Controls randomness. Temperature = 0 always picks the most probable token (greedy, deterministic). Temperature = 1.0 samples from the full distribution. Temperature > 1.0 increases randomness. Temperature between 0 and 1 makes the distribution sharper (more focused on high-probability tokens).</li><li><strong>Top-k sampling</strong>: Only consider the k most probable tokens. If k=50, the model samples only from the top 50 candidates, ignoring unlikely tokens.</li><li><strong>Top-p (nucleus) sampling</strong>: Consider the smallest set of tokens whose cumulative probability exceeds p. If p=0.9, the model samples from the fewest tokens that together have 90% probability. This adapts dynamically -- sometimes considering 10 tokens, sometimes 100.</li></ul><pre><code># Temperature effects on token selection\n# Original probabilities: {\"Delhi\": 0.4, \"Mumbai\": 0.3, \"Bangalore\": 0.2, \"Chennai\": 0.1}\n\n# Temperature = 0 (greedy): Always selects \"Delhi\"\n# Temperature = 0.5 (sharper): {\"Delhi\": 0.57, \"Mumbai\": 0.27, \"Bangalore\": 0.12, \"Chennai\": 0.04}\n# Temperature = 1.0 (original): {\"Delhi\": 0.4, \"Mumbai\": 0.3, \"Bangalore\": 0.2, \"Chennai\": 0.1}\n# Temperature = 2.0 (flatter): {\"Delhi\": 0.30, \"Mumbai\": 0.27, \"Bangalore\": 0.23, \"Chennai\": 0.20}</code></pre><h3>3. BERT: Bidirectional Encoder</h3><p>BERT (2018, Google) is an <strong>encoder-only</strong> transformer that reads text <strong>bidirectionally</strong> -- it considers both left and right context for every token. BERT is pre-trained with two objectives:</p><ul><li><strong>Masked Language Modeling (MLM)</strong>: Randomly mask 15% of tokens and predict them. This forces BERT to learn deep contextual representations.</li><li><strong>Next Sentence Prediction (NSP)</strong>: Given two sentences, predict whether the second follows the first. This helps BERT understand sentence relationships.</li></ul><p>BERT excels at <strong>understanding tasks</strong>: text classification, named entity recognition (NER), question answering, and semantic similarity. You fine-tune BERT by adding a task-specific output layer on top and training on labeled data.</p><pre><code># BERT Masked Language Modeling example\n# Input:  \"The [MASK] of India is New Delhi\"\n# BERT predicts: \"capital\" for the [MASK] position\n# Because BERT reads bidirectionally, it uses both\n# \"The\" (left context) and \"of India is New Delhi\" (right context)</code></pre><h3>4. GPT: Autoregressive Decoder</h3><p>GPT (OpenAI) is a <strong>decoder-only</strong> transformer that reads text <strong>left-to-right</strong> (autoregressive). It is pre-trained with a single objective: predict the next token. GPT's power comes from <strong>scale</strong> -- more parameters and more data lead to better performance.</p><ul><li><strong>GPT-1</strong> (2018): 117M parameters. Demonstrated that pre-training + fine-tuning works for NLP.</li><li><strong>GPT-2</strong> (2019): 1.5B parameters. Showed impressive text generation; initially withheld due to misuse concerns.</li><li><strong>GPT-3</strong> (2020): 175B parameters. Introduced <strong>few-shot learning</strong> -- performing tasks from just a few examples in the prompt, without any fine-tuning.</li><li><strong>GPT-4</strong> (2023): Multimodal (text + images). State-of-the-art reasoning, coding, and instruction following.</li></ul><p>GPT models support <strong>zero-shot</strong> (no examples), <strong>one-shot</strong> (one example), and <strong>few-shot</strong> (a few examples) learning through prompts.</p><h3>5. Scaling Laws</h3><p>Research by Kaplan et al. (2020) showed that LLM performance improves predictably with three factors: <strong>model size</strong> (number of parameters), <strong>dataset size</strong> (amount of training data), and <strong>compute budget</strong> (training FLOPs). These <strong>scaling laws</strong> follow power-law relationships -- doubling model size gives a consistent, predictable improvement. This insight drove the creation of ever-larger models and led to the \"Chinchilla scaling laws\" (2022) which showed that many LLMs were undertrained: given a fixed compute budget, training a smaller model on more data often outperforms a larger model on less data.</p><h3>6. Tokenization: BPE and SentencePiece</h3><p>LLMs do not process raw characters or full words. Instead, they use <strong>subword tokenization</strong> to split text into tokens. This balances vocabulary size with the ability to handle rare or unseen words.</p><ul><li><strong>Byte-Pair Encoding (BPE)</strong>: Starts with individual characters, then iteratively merges the most frequent pairs. Common words become single tokens; rare words are split into subword pieces. Used by GPT models.</li><li><strong>SentencePiece</strong>: A language-independent tokenizer that treats the input as a raw byte stream. Works without pre-tokenization (no need to split by spaces first). Used by LLaMA, T5, and many multilingual models.</li></ul><pre><code># BPE tokenization example\n# Vocabulary built iteratively:\n# Step 1: [\"l\", \"o\", \"w\", \"e\", \"r\", \"n\", \"s\", \"t\", \"i\", \"d\"]\n# Step 2: Merge most frequent pair (\"e\", \"r\") -> \"er\"\n# Step 3: Merge (\"l\", \"o\") -> \"lo\"\n# Step 4: Merge (\"lo\", \"w\") -> \"low\"\n# Result: \"lowest\" -> [\"low\", \"est\"]\n#         \"lower\"  -> [\"low\", \"er\"]\n#         \"newest\" -> [\"new\", \"est\"]</code></pre><h3>7. Fine-Tuning vs Prompt Engineering</h3><p><strong>Fine-tuning</strong> adapts a pre-trained model to a specific task by continuing training on task-specific labeled data. The model's weights are updated. Fine-tuning requires labeled data, compute resources, and ML expertise, but produces a specialized model with strong performance.</p><p><strong>Prompt engineering</strong> guides the model's behavior through carefully crafted input text -- instructions, examples, and constraints. No weight updates occur. Prompt engineering is faster, cheaper, and requires no training data, but may be less reliable for complex or domain-specific tasks.</p><table><tr><th>Aspect</th><th>Fine-Tuning</th><th>Prompt Engineering</th></tr><tr><td>Weight updates</td><td>Yes</td><td>No</td></tr><tr><td>Labeled data needed</td><td>Yes (hundreds to thousands)</td><td>No (or a few examples in prompt)</td></tr><tr><td>Compute cost</td><td>High (GPU hours)</td><td>Low (inference only)</td></tr><tr><td>Specialization</td><td>High (domain-specific)</td><td>Moderate (general purpose)</td></tr><tr><td>Setup time</td><td>Hours to days</td><td>Minutes</td></tr></table><h3>8. Hugging Face Transformers Library</h3><p>Hugging Face provides the most popular open-source library for working with LLMs. Key components:</p><ul><li><strong>AutoTokenizer</strong>: Automatically loads the correct tokenizer for any model.</li><li><strong>AutoModel / AutoModelForSequenceClassification</strong>: Loads pre-trained models with optional task-specific heads.</li><li><strong>pipeline()</strong>: High-level API for common tasks (text generation, sentiment analysis, summarization, NER, question answering).</li></ul><pre><code># Using Hugging Face pipeline for text generation\nfrom transformers import pipeline\n\ngenerator = pipeline(\"text-generation\", model=\"gpt2\")\nresult = generator(\"Artificial intelligence will\", max_length=50, num_return_sequences=1)\nprint(result[0][\"generated_text\"])</code></pre><h3>9. LoRA and QLoRA: Parameter-Efficient Fine-Tuning</h3><p>Fine-tuning a model with billions of parameters requires enormous GPU memory. <strong>LoRA (Low-Rank Adaptation)</strong> solves this by freezing the original model weights and injecting small trainable matrices into each transformer layer. Instead of updating all parameters, LoRA adds low-rank decomposition matrices (A and B) that approximate the weight updates:</p><pre><code># LoRA concept\n# Original weight matrix W (frozen): shape [d, d]\n# LoRA matrices: A (shape [d, r]) and B (shape [r, d]) where r << d\n# Modified forward pass: output = W @ x + (A @ B) @ x\n# Only A and B are trained -- typically 0.1% to 1% of total parameters</code></pre><p><strong>QLoRA</strong> goes further by quantizing the frozen base model to 4-bit precision, reducing memory usage by 4x. This allows fine-tuning a 65B parameter model on a single 48GB GPU -- something previously requiring multiple high-end GPUs.</p><pre><code># QLoRA setup with bitsandbytes\nfrom transformers import AutoModelForCausalLM, BitsAndBytesConfig\nfrom peft import LoraConfig, get_peft_model\nimport torch\n\nquant_config = BitsAndBytesConfig(\n    load_in_4bit=True,\n    bnb_4bit_quant_type=\"nf4\",\n    bnb_4bit_compute_dtype=torch.float16\n)\n\nmodel = AutoModelForCausalLM.from_pretrained(\n    \"meta-llama/Llama-2-7b-hf\",\n    quantization_config=quant_config\n)\n\nlora_config = LoraConfig(\n    r=16,                # Rank of the low-rank matrices\n    lora_alpha=32,       # Scaling factor\n    target_modules=[\"q_proj\", \"v_proj\"],  # Which layers to apply LoRA\n    lora_dropout=0.05,\n    task_type=\"CAUSAL_LM\"\n)\n\nmodel = get_peft_model(model, lora_config)\nmodel.print_trainable_parameters()\n# Output: trainable params: 4,194,304 || all params: 6,742,609,920 || trainable%: 0.0622</code></pre>",
+    "codeExamples": [
+      {
+        "title": "Tokenization with Hugging Face AutoTokenizer",
+        "code": "from transformers import AutoTokenizer\n\n# Load GPT-2 tokenizer (uses BPE)\ntokenizer = AutoTokenizer.from_pretrained(\"gpt2\")\n\ntext = \"Reinforcement learning is a powerful paradigm\"\n\n# Encode text to token IDs\ntoken_ids = tokenizer.encode(text)\nprint(f\"Token IDs: {token_ids}\")\n\n# Decode back to text\ndecoded = tokenizer.decode(token_ids)\nprint(f\"Decoded: {decoded}\")\n\n# See individual tokens\ntokens = tokenizer.tokenize(text)\nprint(f\"Tokens: {tokens}\")\nprint(f\"Number of tokens: {len(tokens)}\")\n\n# Vocabulary size\nprint(f\"Vocabulary size: {tokenizer.vocab_size}\")\n\n# Tokenize with padding and attention mask\nencoded = tokenizer(\n    [\"Hello world\", \"Reinforcement learning is fascinating\"],\n    padding=True,\n    return_tensors=\"pt\"\n)\nprint(f\"Input IDs shape: {encoded['input_ids'].shape}\")\nprint(f\"Attention mask: {encoded['attention_mask']}\")",
+        "language": "python",
+        "explanation": "<code>AutoTokenizer</code> automatically loads the correct tokenizer for any model. The <code>tokenize()</code> method shows subword splits -- BPE may split uncommon words into subword pieces. <code>encode()</code> converts text to integer IDs. The tokenizer handles padding and creates attention masks for batch processing.",
+        "output": "Token IDs: [7738, 10071, 4673, 318, 257, 3665, 22288]\nDecoded: Reinforcement learning is a powerful paradigm\nTokens: ['Re', 'inforcement', ' learning', ' is', ' a', ' powerful', ' paradigm']\nNumber of tokens: 7\nVocabulary size: 50257\nInput IDs shape: torch.Size([2, 6])\nAttention mask: tensor([[1, 1, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1]])"
+      },
+      {
+        "title": "Text Generation with GPT-2 Pipeline",
+        "code": "from transformers import pipeline\n\n# Load text generation pipeline with GPT-2\ngenerator = pipeline(\"text-generation\", model=\"gpt2\")\n\n# Simple generation\nresult = generator(\n    \"The future of artificial intelligence in India\",\n    max_length=60,\n    num_return_sequences=1,\n    temperature=0.7,\n    top_p=0.9,\n    do_sample=True\n)\nprint(\"Generated text:\")\nprint(result[0][\"generated_text\"])\nprint()\n\n# Multiple completions with different temperatures\nfor temp in [0.3, 0.7, 1.2]:\n    output = generator(\n        \"Machine learning is\",\n        max_length=30,\n        temperature=temp,\n        do_sample=True,\n        num_return_sequences=1\n    )\n    print(f\"Temperature {temp}: {output[0]['generated_text']}\")",
+        "language": "python",
+        "explanation": "The <code>pipeline</code> function provides a high-level API for text generation. Lower temperature (0.3) produces more deterministic, focused text. Higher temperature (1.2) produces more diverse but potentially less coherent text. <code>top_p=0.9</code> uses nucleus sampling to select from tokens covering 90% of the probability mass.",
+        "output": "Generated text:\nThe future of artificial intelligence in India is bright. With a growing\nnumber of startups and research labs, the country is poised to become\na global leader in AI development and deployment.\n\nTemperature 0.3: Machine learning is a branch of artificial intelligence that focuses on building\nTemperature 0.7: Machine learning is transforming how businesses approach data analysis and decision\nTemperature 1.2: Machine learning is rapidly intersecting with quantum computing paradigms to create"
+      },
+      {
+        "title": "Sentiment Analysis with BERT (Hugging Face Pipeline)",
+        "code": "from transformers import pipeline\n\n# Load sentiment analysis pipeline (uses distilbert by default)\nsentiment = pipeline(\"sentiment-analysis\")\n\n# Analyze single text\nresult = sentiment(\"I love learning about transformers and LLMs!\")\nprint(f\"Single: {result}\")\n\n# Analyze multiple texts\ntexts = [\n    \"The course on machine learning was excellent and well-structured.\",\n    \"I found the assignment confusing and poorly explained.\",\n    \"The exam was fair but challenging.\",\n    \"Deploying ML models to production is rewarding work.\"\n]\n\nresults = sentiment(texts)\nfor text, res in zip(texts, results):\n    label = res[\"label\"]\n    score = res[\"score\"]\n    print(f\"[{label} {score:.3f}] {text}\")",
+        "language": "python",
+        "explanation": "The Hugging Face <code>pipeline('sentiment-analysis')</code> loads a pre-trained DistilBERT model fine-tuned on SST-2 sentiment data. It tokenizes input, runs inference, and returns labels (POSITIVE/NEGATIVE) with confidence scores. The pipeline handles all preprocessing and postprocessing automatically.",
+        "output": "Single: [{'label': 'POSITIVE', 'score': 0.9998}]\n[POSITIVE 0.999] The course on machine learning was excellent and well-structured.\n[NEGATIVE 0.998] I found the assignment confusing and poorly explained.\n[POSITIVE 0.993] The exam was fair but challenging.\n[POSITIVE 0.997] Deploying ML models to production is rewarding work."
+      },
+      {
+        "title": "Fine-Tuning BERT for Text Classification",
+        "code": "from transformers import (\n    AutoTokenizer,\n    AutoModelForSequenceClassification,\n    TrainingArguments,\n    Trainer\n)\nfrom datasets import load_dataset\nimport numpy as np\n\n# Load dataset (IMDB movie reviews)\ndataset = load_dataset(\"imdb\", split={\"train\": \"train[:2000]\", \"test\": \"test[:500]\"})\n\n# Load tokenizer and model\nmodel_name = \"bert-base-uncased\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)\n\n# Tokenize dataset\ndef tokenize_fn(examples):\n    return tokenizer(examples[\"text\"], truncation=True, padding=\"max_length\", max_length=256)\n\ntokenized = dataset.map(tokenize_fn, batched=True)\n\n# Define metrics\ndef compute_metrics(eval_pred):\n    logits, labels = eval_pred\n    predictions = np.argmax(logits, axis=-1)\n    accuracy = (predictions == labels).mean()\n    return {\"accuracy\": accuracy}\n\n# Training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./bert-imdb\",\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    per_device_eval_batch_size=32,\n    eval_strategy=\"epoch\",\n    save_strategy=\"epoch\",\n    learning_rate=2e-5,\n    weight_decay=0.01,\n    logging_steps=50\n)\n\n# Create Trainer and train\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=tokenized[\"train\"],\n    eval_dataset=tokenized[\"test\"],\n    compute_metrics=compute_metrics\n)\n\ntrainer.train()\nresults = trainer.evaluate()\nprint(f\"Test accuracy: {results['eval_accuracy']:.4f}\")",
+        "language": "python",
+        "explanation": "This complete example fine-tunes BERT for binary sentiment classification on IMDB reviews. Key steps: load a pre-trained BERT model with a classification head (<code>num_labels=2</code>), tokenize the dataset, configure training arguments (learning rate 2e-5 is standard for BERT fine-tuning), and use the <code>Trainer</code> API. The model's pre-trained knowledge transfers to the new task, achieving high accuracy even with limited data.",
+        "output": "Epoch 1/3 - Loss: 0.3845 - Eval Accuracy: 0.8820\nEpoch 2/3 - Loss: 0.1923 - Eval Accuracy: 0.9060\nEpoch 3/3 - Loss: 0.0912 - Eval Accuracy: 0.9140\nTest accuracy: 0.9140"
+      },
+      {
+        "title": "Named Entity Recognition with BERT Pipeline",
+        "code": "from transformers import pipeline\n\n# Load NER pipeline\nner = pipeline(\"ner\", model=\"dslim/bert-base-NER\", aggregation_strategy=\"simple\")\n\n# Recognize entities in text\ntext = \"Sundar Pichai, CEO of Google, announced new AI features at the event in Bangalore. The partnership with IIT Delhi will focus on research.\"\n\nentities = ner(text)\n\nprint(\"Named Entities Found:\")\nprint(\"-\" * 60)\nfor entity in entities:\n    print(f\"  {entity['entity_group']:8s} | {entity['word']:20s} | confidence: {entity['score']:.3f}\")\n\n# Another example\ntext2 = \"Ratan Tata invested in Ola Electric, which is headquartered in Mumbai.\"\nentities2 = ner(text2)\nprint(f\"\\nEntities in second text:\")\nfor entity in entities2:\n    print(f\"  {entity['entity_group']:8s} | {entity['word']:20s} | confidence: {entity['score']:.3f}\")",
+        "language": "python",
+        "explanation": "Named Entity Recognition (NER) identifies and classifies entities in text into categories like persons (PER), organizations (ORG), and locations (LOC). The <code>aggregation_strategy='simple'</code> parameter merges subword tokens into complete entity names. This BERT-based NER model was fine-tuned on the CoNLL-2003 dataset.",
+        "output": "Named Entities Found:\n------------------------------------------------------------\n  PER      | Sundar Pichai        | confidence: 0.998\n  ORG      | Google               | confidence: 0.997\n  LOC      | Bangalore            | confidence: 0.996\n  ORG      | IIT Delhi            | confidence: 0.994\n\nEntities in second text:\n  PER      | Ratan Tata           | confidence: 0.997\n  ORG      | Ola Electric         | confidence: 0.993\n  LOC      | Mumbai               | confidence: 0.998"
+      },
+      {
+        "title": "LoRA Fine-Tuning with PEFT Library",
+        "code": "from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer\nfrom peft import LoraConfig, get_peft_model, TaskType\nfrom datasets import load_dataset\n\n# Load base model and tokenizer\nmodel_name = \"gpt2\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\ntokenizer.pad_token = tokenizer.eos_token\n\nmodel = AutoModelForCausalLM.from_pretrained(model_name)\n\n# Configure LoRA\nlora_config = LoraConfig(\n    task_type=TaskType.CAUSAL_LM,\n    r=8,                          # Rank: lower = fewer params, higher = more capacity\n    lora_alpha=16,                # Scaling factor (alpha / r is the actual scale)\n    lora_dropout=0.1,\n    target_modules=[\"c_attn\"],    # Apply LoRA to attention layers\n)\n\n# Apply LoRA to model\nmodel = get_peft_model(model, lora_config)\n\n# Print parameter comparison\nmodel.print_trainable_parameters()\n\n# Prepare dataset (example with a small custom dataset)\ntexts = [\n    \"Machine learning is the study of algorithms that improve through experience.\",\n    \"Neural networks are computing systems inspired by biological neural networks.\",\n    \"Deep learning uses multiple layers to progressively extract features.\",\n    \"Gradient descent is an optimization algorithm used to minimize the loss function.\",\n]\n\n# Tokenize\nencodings = tokenizer(texts, truncation=True, padding=True, max_length=64, return_tensors=\"pt\")\nencodings[\"labels\"] = encodings[\"input_ids\"].clone()\n\n# Training configuration\ntraining_args = TrainingArguments(\n    output_dir=\"./gpt2-lora\",\n    num_train_epochs=5,\n    per_device_train_batch_size=2,\n    learning_rate=3e-4,        # LoRA typically uses higher LR than full fine-tuning\n    logging_steps=10,\n    save_strategy=\"no\"\n)\n\nprint(f\"\\nBase model parameters: {sum(p.numel() for p in model.parameters()):,}\")\nprint(f\"Trainable parameters: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}\")\nprint(f\"Percentage trainable: {100 * sum(p.numel() for p in model.parameters() if p.requires_grad) / sum(p.numel() for p in model.parameters()):.2f}%\")",
+        "language": "python",
+        "explanation": "LoRA adds small trainable matrices to specific layers (here, the attention layers) while freezing the entire base model. With rank <code>r=8</code>, only a tiny fraction of parameters are trainable. The <code>lora_alpha</code> parameter controls the scaling of LoRA updates. This approach dramatically reduces memory requirements and training time. Typical LoRA learning rates (3e-4) are higher than full fine-tuning rates (2e-5) because fewer parameters need to be updated.",
+        "output": "trainable params: 294,912 || all params: 124,734,464 || trainable%: 0.2364\n\nBase model parameters: 124,734,464\nTrainable parameters: 294,912\nPercentage trainable: 0.24%"
+      },
+      {
+        "title": "Summarization and Question Answering Pipelines",
+        "code": "from transformers import pipeline\n\n# Summarization\nsummarizer = pipeline(\"summarization\", model=\"facebook/bart-large-cnn\")\n\nlong_text = \"\"\"\nLarge Language Models have transformed the field of natural language processing.\nThese models, trained on vast amounts of text data, can perform a wide range of\ntasks including text generation, translation, summarization, and question answering.\nThe transformer architecture, introduced in the paper 'Attention Is All You Need',\nenabled the training of these massive models through efficient parallel processing.\nBERT and GPT represent two major families of language models. BERT uses bidirectional\nencoding for understanding tasks, while GPT uses autoregressive decoding for generation\ntasks. Recent models like GPT-4 and Claude demonstrate remarkable reasoning abilities.\n\"\"\"\n\nsummary = summarizer(long_text, max_length=60, min_length=20, do_sample=False)\nprint(\"Summary:\")\nprint(summary[0][\"summary_text\"])\n\n# Question Answering\nqa = pipeline(\"question-answering\", model=\"deepset/roberta-base-squad2\")\n\ncontext = \"\"\"BERT was introduced by Google in 2018. It uses masked language modeling\nand next sentence prediction for pre-training. BERT-base has 110 million parameters\nand BERT-large has 340 million parameters. It achieved state-of-the-art results on\n11 NLP benchmarks when it was released.\"\"\"\n\nquestions = [\n    \"Who introduced BERT?\",\n    \"How many parameters does BERT-large have?\",\n    \"What pre-training tasks does BERT use?\"\n]\n\nprint(\"\\nQuestion Answering:\")\nfor q in questions:\n    answer = qa(question=q, context=context)\n    print(f\"  Q: {q}\")\n    print(f\"  A: {answer['answer']} (confidence: {answer['score']:.3f})\")",
+        "language": "python",
+        "explanation": "Hugging Face pipelines make it easy to use pre-trained models for various NLP tasks. The summarization pipeline uses BART (a seq2seq model) to condense long text. The question-answering pipeline uses RoBERTa fine-tuned on SQuAD2 to extract answers from a given context. Both pipelines handle tokenization, inference, and post-processing automatically.",
+        "output": "Summary:\nLarge Language Models have transformed the field of natural language processing. BERT uses bidirectional encoding for understanding tasks, while GPT uses autoregressive decoding for generation tasks.\n\nQuestion Answering:\n  Q: Who introduced BERT?\n  A: Google (confidence: 0.982)\n  Q: How many parameters does BERT-large have?\n  A: 340 million (confidence: 0.976)\n  Q: What pre-training tasks does BERT use?\n  A: masked language modeling and next sentence prediction (confidence: 0.951)"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Confusing BERT and GPT Architectures",
+        "wrongCode": "# WRONG: Using BERT for text generation\nfrom transformers import pipeline\n\n# BERT is an encoder -- it is designed for understanding, not generation\ngenerator = pipeline(\"text-generation\", model=\"bert-base-uncased\")\nresult = generator(\"The capital of India is\")\n# This will fail or produce nonsensical output",
+        "error": "BERT is an encoder-only model designed for understanding tasks (classification, NER, QA). It cannot perform autoregressive text generation. GPT is a decoder-only model designed for generation.",
+        "correctCode": "from transformers import pipeline\n\n# Use GPT for text generation\ngenerator = pipeline(\"text-generation\", model=\"gpt2\")\nresult = generator(\"The capital of India is\", max_length=20)\nprint(result[0][\"generated_text\"])\n\n# Use BERT for understanding tasks\nclassifier = pipeline(\"sentiment-analysis\")  # Uses BERT-based model\nresult = classifier(\"This course is excellent!\")\nprint(result)",
+        "explanation": "BERT reads bidirectionally and fills in masked tokens -- it understands context. GPT reads left-to-right and generates the next token -- it produces text. Choose the architecture based on your task: BERT for classification, NER, QA; GPT for generation, completion, conversation."
+      },
+      {
+        "title": "Not Setting pad_token for GPT Models",
+        "wrongCode": "from transformers import AutoTokenizer\n\ntokenizer = AutoTokenizer.from_pretrained(\"gpt2\")\n\n# WRONG: Trying to batch-tokenize without a pad token\ntexts = [\"Hello world\", \"This is a longer sentence\"]\nencoded = tokenizer(texts, padding=True, return_tensors=\"pt\")\n# Error: Cannot pad because pad_token is not set",
+        "error": "GPT-2 and similar models do not have a pad token by default. Attempting to use padding without setting one raises an error.",
+        "correctCode": "from transformers import AutoTokenizer\n\ntokenizer = AutoTokenizer.from_pretrained(\"gpt2\")\ntokenizer.pad_token = tokenizer.eos_token  # Set pad token to EOS token\n\ntexts = [\"Hello world\", \"This is a longer sentence\"]\nencoded = tokenizer(texts, padding=True, return_tensors=\"pt\")\nprint(f\"Shape: {encoded['input_ids'].shape}\")\nprint(f\"Attention mask: {encoded['attention_mask']}\")",
+        "explanation": "GPT-style models are trained without padding, so they have no pad token configured. The standard fix is to set <code>tokenizer.pad_token = tokenizer.eos_token</code>. The attention mask ensures the model ignores padded positions during inference."
+      },
+      {
+        "title": "Using Wrong Learning Rate for Fine-Tuning",
+        "wrongCode": "# WRONG: Using a high learning rate for full BERT fine-tuning\ntraining_args = TrainingArguments(\n    output_dir=\"./output\",\n    learning_rate=1e-2,  # Way too high for fine-tuning BERT\n    num_train_epochs=3\n)\n# Result: model diverges, catastrophic forgetting of pre-trained knowledge",
+        "error": "A learning rate of 1e-2 is far too high for fine-tuning pre-trained transformers. The model will forget its pre-trained knowledge (catastrophic forgetting) and produce random outputs.",
+        "correctCode": "# CORRECT learning rates:\n# Full fine-tuning of BERT/RoBERTa: 2e-5 to 5e-5\n# LoRA fine-tuning: 1e-4 to 3e-4 (higher because fewer params)\n\n# For full fine-tuning\ntraining_args = TrainingArguments(\n    output_dir=\"./output\",\n    learning_rate=2e-5,  # Standard for BERT fine-tuning\n    num_train_epochs=3,\n    weight_decay=0.01    # Regularization to prevent overfitting\n)\n\n# For LoRA fine-tuning\nlora_training_args = TrainingArguments(\n    output_dir=\"./output-lora\",\n    learning_rate=3e-4,  # Higher LR is fine for LoRA\n    num_train_epochs=5\n)",
+        "explanation": "Pre-trained models have already learned useful representations. Fine-tuning should make small adjustments, not overwrite them. The standard learning rate for BERT fine-tuning is 2e-5 to 5e-5. LoRA fine-tuning uses higher rates (1e-4 to 3e-4) because it updates far fewer parameters, making each update less impactful."
+      },
+      {
+        "title": "Ignoring max_length During Tokenization",
+        "wrongCode": "from transformers import AutoTokenizer\n\ntokenizer = AutoTokenizer.from_pretrained(\"bert-base-uncased\")\n\n# WRONG: Not setting max_length for variable-length inputs\nlong_text = \"word \" * 1000  # 1000 words\ntokens = tokenizer(long_text, return_tensors=\"pt\")\n# BERT has a max of 512 tokens -- this will silently truncate\n# or worse, cause a runtime error during model forward pass",
+        "error": "BERT and most transformer models have a maximum sequence length (512 tokens for BERT). Inputs exceeding this limit either get silently truncated or cause errors during the model's forward pass.",
+        "correctCode": "from transformers import AutoTokenizer\n\ntokenizer = AutoTokenizer.from_pretrained(\"bert-base-uncased\")\n\nlong_text = \"word \" * 1000\n\n# CORRECT: Explicitly set truncation and max_length\ntokens = tokenizer(\n    long_text,\n    truncation=True,     # Explicitly truncate to max_length\n    max_length=512,      # BERT's maximum\n    padding=\"max_length\", # Pad shorter sequences to 512\n    return_tensors=\"pt\"\n)\nprint(f\"Token shape: {tokens['input_ids'].shape}\")  # [1, 512]",
+        "explanation": "Always set <code>truncation=True</code> and <code>max_length</code> when tokenizing for transformer models. BERT supports up to 512 tokens, GPT-2 supports 1024, and newer models support longer contexts. Being explicit about truncation prevents silent data loss and runtime errors."
+      }
+    ],
+    "summary": [
+      "A Large Language Model (LLM) is a neural network with billions of parameters trained on massive text data. It works by next-token prediction: given a sequence, the model predicts the probability distribution over the entire vocabulary for the next token, then samples from this distribution to generate text.",
+      "Temperature controls randomness in generation: 0 means greedy (always pick the most probable token), 0.7 gives balanced creativity, and values above 1.0 increase randomness. Top-k sampling restricts selection to the k most probable tokens. Top-p (nucleus) sampling selects from the smallest set of tokens whose cumulative probability exceeds p.",
+      "BERT is an encoder-only transformer that reads text bidirectionally. Pre-trained with Masked Language Modeling (predict masked tokens) and Next Sentence Prediction. Best for understanding tasks: text classification, named entity recognition (NER), question answering, and semantic similarity.",
+      "GPT is a decoder-only transformer that reads text left-to-right (autoregressive). Pre-trained solely on next-token prediction. Excels at text generation. GPT-3 introduced few-shot learning -- performing tasks from a few examples in the prompt without any weight updates.",
+      "Scaling laws show that LLM performance improves predictably with model size, dataset size, and compute budget, following power-law relationships. Chinchilla scaling laws (2022) showed that optimal performance comes from balancing model size with training data quantity.",
+      "Tokenization converts text to integer IDs that models can process. BPE (Byte-Pair Encoding) iteratively merges frequent character pairs to build a subword vocabulary. SentencePiece is a language-independent tokenizer that works on raw byte streams without pre-tokenization.",
+      "Fine-tuning adapts a pre-trained model to a specific task by updating weights on labeled data (requires compute and data). Prompt engineering guides model behavior through crafted input text without updating weights (faster, cheaper, but less specialized). Both approaches complement each other.",
+      "Hugging Face Transformers library provides AutoTokenizer (loads any tokenizer), AutoModel (loads any model), and pipeline() (high-level API for text generation, sentiment analysis, NER, QA, and summarization). It is the de facto standard for working with LLMs in Python.",
+      "LoRA (Low-Rank Adaptation) freezes base model weights and adds small trainable low-rank matrices to transformer layers, training only 0.1-1% of parameters. QLoRA adds 4-bit quantization of the frozen model, enabling fine-tuning of 65B+ parameter models on a single GPU.",
+      "The GPT family evolved from GPT-1 (117M params, proved pre-training works) to GPT-2 (1.5B, strong generation) to GPT-3 (175B, few-shot learning) to GPT-4 (multimodal, state-of-the-art reasoning). Each generation demonstrated that scaling model size unlocks new capabilities."
+    ]
+  },
+  "relatedTopics": ["transformers-and-attention", "generative-ai-and-diffusion-models"],
+  "practice": {
+    "totalQuestions": 50,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>from transformers import AutoTokenizer\ntokenizer = AutoTokenizer.from_pretrained(\"gpt2\")\ntokens = tokenizer.tokenize(\"Hello world\")\nprint(len(tokens))\nprint(tokens)</code></pre>",
+        "hint": "GPT-2 uses BPE tokenization. Common words may remain as single tokens.",
+        "answer": "<code>2</code><br><code>['Hello', ' world']</code>",
+        "explanation": "GPT-2's BPE tokenizer keeps common words intact. 'Hello' and ' world' (note the leading space) are both in the vocabulary, so the text becomes 2 tokens."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from transformers import AutoTokenizer\ntokenizer = AutoTokenizer.from_pretrained(\"gpt2\")\nids = tokenizer.encode(\"AI is great\")\nprint(type(ids))\nprint(tokenizer.decode(ids))</code></pre>",
+        "hint": "encode() returns a list of integers. decode() converts them back to text.",
+        "answer": "<code>&lt;class 'list'&gt;</code><br><code>AI is great</code>",
+        "explanation": "<code>encode()</code> converts text to a list of token IDs (integers). <code>decode()</code> converts those IDs back to the original text string. The round trip preserves the original text."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>temperatures = [0.0, 0.5, 1.0, 2.0]\nfor t in temperatures:\n    if t == 0.0:\n        print(f\"Temp {t}: greedy (deterministic)\")\n    elif t < 1.0:\n        print(f\"Temp {t}: sharper distribution\")\n    elif t == 1.0:\n        print(f\"Temp {t}: original distribution\")\n    else:\n        print(f\"Temp {t}: flatter distribution\")</code></pre>",
+        "hint": "Temperature 0 is greedy, less than 1 sharpens, equal to 1 keeps original, greater than 1 flattens.",
+        "answer": "<code>Temp 0.0: greedy (deterministic)</code><br><code>Temp 0.5: sharper distribution</code><br><code>Temp 1.0: original distribution</code><br><code>Temp 2.0: flatter distribution</code>",
+        "explanation": "Temperature controls the softmax distribution: 0 always picks the top token, values below 1 make it peakier (less random), 1.0 keeps the original probabilities, and values above 1 flatten the distribution (more random)."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>models = {\n    \"BERT\": \"encoder-only\",\n    \"GPT\": \"decoder-only\",\n    \"T5\": \"encoder-decoder\"\n}\nfor name, arch in models.items():\n    print(f\"{name}: {arch}\")</code></pre>",
+        "hint": "This iterates over a dictionary of model names and their architecture types.",
+        "answer": "<code>BERT: encoder-only</code><br><code>GPT: decoder-only</code><br><code>T5: encoder-decoder</code>",
+        "explanation": "BERT uses only the encoder part of the transformer (bidirectional, good for understanding). GPT uses only the decoder (autoregressive, good for generation). T5 uses both encoder and decoder (good for sequence-to-sequence tasks like translation and summarization)."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>gpt_versions = [\n    (\"GPT-1\", \"117M\"),\n    (\"GPT-2\", \"1.5B\"),\n    (\"GPT-3\", \"175B\"),\n    (\"GPT-4\", \"Multimodal\")\n]\nfor name, info in gpt_versions:\n    print(f\"{name}: {info}\")</code></pre>",
+        "hint": "Simple iteration over a list of tuples showing GPT evolution.",
+        "answer": "<code>GPT-1: 117M</code><br><code>GPT-2: 1.5B</code><br><code>GPT-3: 175B</code><br><code>GPT-4: Multimodal</code>",
+        "explanation": "The GPT family scaled from 117 million parameters (GPT-1) to 1.5 billion (GPT-2) to 175 billion (GPT-3). GPT-4 introduced multimodal capabilities (text + images) along with further scaling."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import math\n\ndef softmax_with_temperature(logits, temperature):\n    if temperature == 0:\n        result = [0.0] * len(logits)\n        result[logits.index(max(logits))] = 1.0\n        return result\n    scaled = [x / temperature for x in logits]\n    exp_scaled = [math.exp(x) for x in scaled]\n    total = sum(exp_scaled)\n    return [round(x / total, 3) for x in exp_scaled]\n\nlogits = [2.0, 1.0, 0.5]\nprint(softmax_with_temperature(logits, 0))\nprint(softmax_with_temperature(logits, 1.0))\nprint(softmax_with_temperature(logits, 0.5))</code></pre>",
+        "hint": "Temperature 0 gives all probability to the max logit. Lower temperature sharpens the distribution.",
+        "answer": "<code>[1.0, 0.0, 0.0]</code><br><code>[0.506, 0.186, 0.113]</code> (approximately)<br><code>[0.724, 0.098, 0.036]</code> (approximately)",
+        "explanation": "Temperature 0: greedy, all probability on the highest logit. Temperature 1.0: standard softmax. Temperature 0.5: sharpened distribution -- the highest logit gets even more probability mass, making generation more deterministic."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def top_k_filter(probs, k):\n    sorted_probs = sorted(enumerate(probs), key=lambda x: x[1], reverse=True)\n    top_k = sorted_probs[:k]\n    total = sum(p for _, p in top_k)\n    return [(idx, round(p/total, 3)) for idx, p in top_k]\n\nprobs = [0.4, 0.3, 0.15, 0.1, 0.05]\nresult = top_k_filter(probs, 3)\nfor idx, p in result:\n    print(f\"Token {idx}: {p}\")</code></pre>",
+        "hint": "Top-k keeps only the k highest probability tokens and renormalizes.",
+        "answer": "<code>Token 0: 0.471</code><br><code>Token 1: 0.353</code><br><code>Token 2: 0.176</code>",
+        "explanation": "Top-k=3 keeps the 3 highest probability tokens (0.4, 0.3, 0.15). Their sum is 0.85. After renormalizing: 0.4/0.85=0.471, 0.3/0.85=0.353, 0.15/0.85=0.176. Tokens 3 and 4 are discarded entirely."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def top_p_filter(probs, p):\n    sorted_probs = sorted(enumerate(probs), key=lambda x: x[1], reverse=True)\n    cumulative = 0\n    selected = []\n    for idx, prob in sorted_probs:\n        cumulative += prob\n        selected.append((idx, prob))\n        if cumulative >= p:\n            break\n    return len(selected)\n\nprobs = [0.4, 0.3, 0.15, 0.1, 0.05]\nprint(top_p_filter(probs, 0.5))\nprint(top_p_filter(probs, 0.7))\nprint(top_p_filter(probs, 0.9))</code></pre>",
+        "hint": "Top-p accumulates probabilities from highest to lowest until reaching p.",
+        "answer": "<code>2</code><br><code>2</code><br><code>4</code>",
+        "explanation": "Top-p=0.5: cumulative 0.4 (not enough), add 0.3 = 0.7 >= 0.5, return 2 tokens. Top-p=0.7: cumulative 0.4, then 0.7 >= 0.7, return 2 tokens. Top-p=0.9: cumulative 0.4, 0.7, 0.85, then 0.95 >= 0.9, return 4 tokens. Top-p dynamically adjusts the number of candidates based on the probability distribution."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def count_parameters(total_params, lora_rank, num_layers, hidden_dim):\n    # LoRA adds two matrices per layer: A (hidden_dim x rank) and B (rank x hidden_dim)\n    lora_params = num_layers * 2 * hidden_dim * lora_rank\n    percentage = (lora_params / total_params) * 100\n    return lora_params, round(percentage, 2)\n\n# GPT-2 small: 124M params, 12 layers, hidden_dim=768\nlora_p, pct = count_parameters(124_000_000, 8, 12, 768)\nprint(f\"LoRA params: {lora_p:,}\")\nprint(f\"Percentage: {pct}%\")</code></pre>",
+        "hint": "LoRA adds A (d x r) and B (r x d) matrices to each layer.",
+        "answer": "<code>LoRA params: 147,456</code><br><code>Percentage: 0.12%</code>",
+        "explanation": "Each layer gets two LoRA matrices: A (768 x 8) and B (8 x 768). Per layer: 2 * 768 * 8 = 12,288 parameters. Across 12 layers: 12 * 12,288 = 147,456. That is only 0.12% of the total 124M parameters, demonstrating LoRA's parameter efficiency."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def simulate_bpe(text, num_merges):\n    # Start with character-level tokens\n    tokens = list(text.replace(\" \", \"_ \").strip())\n    print(f\"Initial: {tokens}\")\n    \n    for i in range(num_merges):\n        # Count adjacent pairs\n        pairs = {}\n        for j in range(len(tokens) - 1):\n            pair = (tokens[j], tokens[j+1])\n            pairs[pair] = pairs.get(pair, 0) + 1\n        \n        if not pairs:\n            break\n        \n        # Find most frequent pair\n        best = max(pairs, key=pairs.get)\n        merged = best[0] + best[1]\n        \n        # Merge all occurrences\n        new_tokens = []\n        j = 0\n        while j < len(tokens):\n            if j < len(tokens) - 1 and (tokens[j], tokens[j+1]) == best:\n                new_tokens.append(merged)\n                j += 2\n            else:\n                new_tokens.append(tokens[j])\n                j += 1\n        tokens = new_tokens\n        print(f\"Merge {i+1}: {best} -> '{merged}' | {tokens}\")\n    \n    return tokens\n\nresult = simulate_bpe(\"ab ab ab cd\", 2)\nprint(f\"Final: {result}\")</code></pre>",
+        "hint": "BPE iteratively merges the most frequent adjacent pair. Spaces become underscores.",
+        "answer": "The function first converts to character tokens with underscores for spaces, then merges the most frequent pair in each step. After 2 merges, commonly paired characters are combined.",
+        "explanation": "BPE starts with individual characters and merges the most frequent adjacent pair at each step. In 'ab_ ab_ ab_ cd', the pair ('a', 'b') appears 3 times (most frequent), so it merges first to 'ab'. Then the next most frequent pair is found and merged. This iterative process builds the subword vocabulary."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def few_shot_prompt(examples, query):\n    prompt = \"Classify the sentiment as Positive or Negative.\\n\\n\"\n    for text, label in examples:\n        prompt += f\"Text: {text}\\nSentiment: {label}\\n\\n\"\n    prompt += f\"Text: {query}\\nSentiment:\"\n    return prompt\n\nexamples = [\n    (\"I love this product\", \"Positive\"),\n    (\"Terrible experience\", \"Negative\"),\n    (\"Absolutely wonderful\", \"Positive\")\n]\n\nprompt = few_shot_prompt(examples, \"Not worth the money\")\nlines = prompt.strip().split(\"\\n\")\nprint(f\"Total lines: {len(lines)}\")\nprint(f\"Num examples: {len(examples)}\")\nprint(f\"Last line: {lines[-1]}\")</code></pre>",
+        "hint": "Count the lines in the formatted few-shot prompt. Each example has 2 lines plus a blank line.",
+        "answer": "<code>Total lines: 10</code><br><code>Num examples: 3</code><br><code>Last line: Sentiment:</code>",
+        "explanation": "The prompt has: 1 instruction line + 1 blank line + 3 examples * (2 lines + 1 blank) + 1 query text line + 1 Sentiment: line. After stripping, there are 10 non-empty lines. The last line is 'Sentiment:' which the model should complete with its prediction. This is the few-shot learning pattern."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the fundamental task that LLMs are trained to perform?",
+        "hint": "Think about what the model predicts at each step during training.",
+        "answer": "LLMs are trained to perform <strong>next-token prediction</strong>. Given a sequence of tokens, the model learns to predict the probability distribution over the vocabulary for the next token. During training, the model sees billions of text sequences and adjusts its parameters to minimize the prediction error (cross-entropy loss). At inference time, text is generated by repeatedly predicting and appending the next token.",
+        "explanation": "This simple objective -- predict the next word -- turns out to be extraordinarily powerful at scale. To predict the next word accurately, the model must learn grammar, facts, reasoning patterns, and even some common sense from the training data."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between fine-tuning and prompt engineering? When would Kavitha choose one over the other?",
+        "hint": "Think about whether model weights change, and what resources each approach needs.",
+        "answer": "<strong>Fine-tuning</strong> updates the model's weights by training on task-specific labeled data. It requires a dataset, GPU compute, and ML expertise, but produces a specialized model with high accuracy. <strong>Prompt engineering</strong> crafts the input text to guide the model's behavior without changing any weights. It requires no training data or compute beyond inference. Kavitha should choose fine-tuning when she has labeled data and needs consistently high accuracy on a specific task (e.g., classifying legal documents). She should choose prompt engineering for quick prototyping, general-purpose tasks, or when labeled data is unavailable.",
+        "explanation": "In practice, many teams start with prompt engineering and switch to fine-tuning only when prompting does not meet accuracy requirements. LoRA makes fine-tuning more accessible by reducing compute needs."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why does LoRA freeze the base model weights and add small matrices instead of fine-tuning all parameters?",
+        "hint": "Think about memory, compute, and the number of parameters being updated.",
+        "answer": "Full fine-tuning of a model with billions of parameters requires enormous GPU memory (to store model weights, gradients, and optimizer states) and risks catastrophic forgetting. LoRA freezes the base weights and adds small trainable low-rank matrices (rank r, typically 4-16) to specific layers. This reduces trainable parameters from billions to millions (often 0.1-1% of total), drastically lowering memory requirements. The low-rank hypothesis suggests that the weight updates during fine-tuning have a low intrinsic rank, so a low-rank approximation captures most of the adaptation needed.",
+        "explanation": "LoRA makes fine-tuning practical on consumer GPUs. A 7B parameter model that would need 4 x 80GB GPUs for full fine-tuning can be LoRA-tuned on a single 24GB GPU. QLoRA reduces this further with 4-bit quantization."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain how BERT's Masked Language Modeling differs from GPT's next-token prediction, and why this difference makes BERT better for understanding tasks and GPT better for generation.",
+        "hint": "Consider what context each model can see when making predictions.",
+        "answer": "BERT's MLM randomly masks 15% of tokens and predicts them using <strong>both left and right context</strong> (bidirectional). This means BERT learns deep representations where each token's embedding captures information from the entire sequence. GPT's next-token prediction uses only <strong>left context</strong> (tokens that came before). Each token can only attend to previous tokens. BERT is better for understanding because bidirectional context gives richer representations for classification, NER, and QA. GPT is better for generation because its left-to-right architecture naturally supports sequential text generation -- it can generate the next token without needing future tokens.",
+        "explanation": "The key trade-off: BERT's bidirectional attention cannot generate text autoregressively (it would need to see the tokens it has not generated yet). GPT's causal attention enables generation but means each token only has partial context. Models like T5 combine both approaches with an encoder-decoder architecture."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class SimpleTokenizer:\n    def __init__(self):\n        self.vocab = {}\n        self.next_id = 0\n    \n    def add_token(self, token):\n        if token not in self.vocab:\n            self.vocab[token] = self.next_id\n            self.next_id += 1\n    \n    def encode(self, text):\n        tokens = text.lower().split()\n        return [self.vocab.get(t, -1) for t in tokens]\n    \n    def decode(self, ids):\n        reverse = {v: k for k, v in self.vocab.items()}\n        return \" \".join(reverse.get(i, \"[UNK]\") for i in ids)\n\ntok = SimpleTokenizer()\nfor word in [\"hello\", \"world\", \"machine\", \"learning\"]:\n    tok.add_token(word)\n\nprint(tok.encode(\"hello machine learning\"))\nprint(tok.encode(\"hello unknown world\"))\nprint(tok.decode([0, 3, 2]))</code></pre>",
+        "hint": "Tokens get IDs in order of addition. Unknown words get -1.",
+        "answer": "<code>[0, 2, 3]</code><br><code>[0, -1, 1]</code><br><code>hello learning machine</code>",
+        "explanation": "Tokens are assigned IDs in insertion order: hello=0, world=1, machine=2, learning=3. 'hello machine learning' encodes to [0, 2, 3]. 'unknown' is not in vocabulary, so it gets -1. decode([0, 3, 2]) maps to 'hello learning machine'."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What are scaling laws for LLMs, and what did the Chinchilla paper reveal about how most LLMs were being trained?",
+        "hint": "Think about the relationship between model size, data size, and compute budget.",
+        "answer": "Scaling laws (Kaplan et al., 2020) showed that LLM performance (measured as loss) improves as a power law of three factors: model parameters, dataset size, and compute budget. The relationship is predictable -- you can forecast performance before training. The <strong>Chinchilla paper</strong> (Hoffmann et al., 2022) revealed that most LLMs were significantly <strong>undertrained</strong>: for a fixed compute budget, it is better to train a moderately-sized model on much more data than to train an extremely large model on less data. Chinchilla (70B parameters trained on 1.4 trillion tokens) outperformed Gopher (280B parameters trained on 300 billion tokens) despite being 4x smaller.",
+        "explanation": "Chinchilla's insight: the optimal model size and dataset size should scale roughly equally. A 10x increase in compute should go to both a larger model AND more training data. This led to models like LLaMA being trained on far more data relative to their size."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>pipeline_tasks = [\"text-generation\", \"sentiment-analysis\", \"summarization\", \"ner\", \"question-answering\"]\nfor task in pipeline_tasks:\n    print(f\"pipeline('{task}')\")\nprint(f\"Total tasks: {len(pipeline_tasks)}\")</code></pre>",
+        "hint": "Hugging Face pipeline supports multiple NLP tasks.",
+        "answer": "<code>pipeline('text-generation')</code><br><code>pipeline('sentiment-analysis')</code><br><code>pipeline('summarization')</code><br><code>pipeline('ner')</code><br><code>pipeline('question-answering')</code><br><code>Total tasks: 5</code>",
+        "explanation": "Hugging Face's pipeline function supports many NLP tasks out of the box. Each task loads an appropriate pre-trained model automatically. This makes it easy to use state-of-the-art NLP models with just one line of code."
+      },
+      {
+        "id": "ts-19",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between zero-shot, one-shot, and few-shot learning in the context of LLMs?",
+        "hint": "Think about how many examples are provided in the prompt.",
+        "answer": "<strong>Zero-shot</strong>: The model performs a task with only a description, no examples. Example prompt: 'Classify the following as positive or negative: I love this.' <strong>One-shot</strong>: One example is provided. 'Positive: Great product! Now classify: I love this.' <strong>Few-shot</strong>: Several examples are provided (typically 2-10). The model learns the task pattern from the examples without any weight updates. Few-shot learning was a breakthrough capability of GPT-3 that emerged at 175B parameters.",
+        "explanation": "These paradigms eliminate the need for fine-tuning on many tasks. The model uses in-context learning -- understanding the task pattern from the prompt structure. More examples generally improve accuracy but consume more of the context window."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def compare_approaches(task, data_available, compute_available):\n    if data_available > 1000 and compute_available:\n        return \"fine-tuning\"\n    elif data_available > 5:\n        return \"few-shot prompting\"\n    elif data_available > 0:\n        return \"one-shot prompting\"\n    else:\n        return \"zero-shot prompting\"\n\nscenarios = [\n    (\"Sentiment\", 5000, True),\n    (\"Translation\", 8, False),\n    (\"Summarization\", 0, False),\n    (\"NER\", 1, False)\n]\n\nfor task, data, compute in scenarios:\n    approach = compare_approaches(task, data, compute)\n    print(f\"{task:15s}: {approach}\")</code></pre>",
+        "hint": "More data + compute = fine-tuning. Less data = prompting with available examples.",
+        "answer": "<code>Sentiment      : fine-tuning</code><br><code>Translation    : few-shot prompting</code><br><code>Summarization  : zero-shot prompting</code><br><code>NER            : one-shot prompting</code>",
+        "explanation": "The approach depends on available resources: 5000 labeled examples with GPU compute allows fine-tuning for best accuracy. 8 examples is enough for few-shot prompting. 0 examples requires zero-shot. 1 example enables one-shot. In practice, start with prompting and only fine-tune if accuracy is insufficient."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>bert_tasks = [\"Classification\", \"NER\", \"QA\", \"Similarity\"]\ngpt_tasks = [\"Text Generation\", \"Completion\", \"Chat\", \"Code\"]\n\nprint(f\"BERT tasks: {len(bert_tasks)}\")\nprint(f\"GPT tasks: {len(gpt_tasks)}\")\nprint(f\"All tasks: {len(bert_tasks + gpt_tasks)}\")</code></pre>",
+        "hint": "len() counts elements. Concatenating two lists adds their lengths.",
+        "answer": "<code>BERT tasks: 4</code><br><code>GPT tasks: 4</code><br><code>All tasks: 8</code>",
+        "explanation": "Each list has 4 elements. Concatenating them with + produces a list of 8 elements. BERT excels at understanding tasks (classification, NER, QA) while GPT excels at generative tasks."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>approach = {\"fine-tuning\": \"updates weights\", \"prompting\": \"no weight change\"}\nfor method, desc in approach.items():\n    print(f\"{method}: {desc}\")</code></pre>",
+        "hint": "Dictionary iteration produces key-value pairs.",
+        "answer": "<code>fine-tuning: updates weights</code><br><code>prompting: no weight change</code>",
+        "explanation": "Fine-tuning modifies model weights by training on task-specific data. Prompt engineering (prompting) guides the model through carefully crafted input text without any weight updates."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def estimate_memory_gb(params_billions, bytes_per_param):\n    return round(params_billions * bytes_per_param, 1)\n\n# FP32 = 4 bytes, FP16 = 2 bytes, INT8 = 1 byte, INT4 = 0.5 bytes\nmodel_size = 7  # 7B parameter model\n\nfor precision, bpp in [(\"FP32\", 4), (\"FP16\", 2), (\"INT8\", 1), (\"INT4\", 0.5)]:\n    mem = estimate_memory_gb(model_size, bpp)\n    print(f\"{precision}: {mem} GB\")</code></pre>",
+        "hint": "Memory = parameters * bytes per parameter. 7B * 4 bytes = 28 GB for FP32.",
+        "answer": "<code>FP32: 28 GB</code><br><code>FP16: 14 GB</code><br><code>INT8: 7 GB</code><br><code>INT4: 3.5 GB</code>",
+        "explanation": "A 7B parameter model needs 28 GB in FP32 (full precision), 14 GB in FP16 (half precision), 7 GB in INT8 (8-bit quantization), and 3.5 GB in INT4 (4-bit quantization, used by QLoRA). Quantization makes large models fit on smaller GPUs."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def zero_shot_vs_few_shot(num_examples):\n    if num_examples == 0:\n        return \"zero-shot\"\n    elif num_examples == 1:\n        return \"one-shot\"\n    else:\n        return \"few-shot\"\n\nfor n in [0, 1, 3, 5]:\n    print(f\"{n} examples: {zero_shot_vs_few_shot(n)}\")</code></pre>",
+        "hint": "Zero examples = zero-shot, one = one-shot, more = few-shot.",
+        "answer": "<code>0 examples: zero-shot</code><br><code>1 examples: one-shot</code><br><code>3 examples: few-shot</code><br><code>5 examples: few-shot</code>",
+        "explanation": "GPT-3 introduced these paradigms: zero-shot (task description only, no examples), one-shot (one example), and few-shot (multiple examples in the prompt). The model learns the task pattern from the examples without any weight updates."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class LoRALayer:\n    def __init__(self, in_dim, out_dim, rank):\n        self.rank = rank\n        self.a_shape = (in_dim, rank)\n        self.b_shape = (rank, out_dim)\n        self.trainable = in_dim * rank + rank * out_dim\n        self.frozen = in_dim * out_dim\n    \n    def __repr__(self):\n        pct = round(100 * self.trainable / (self.frozen + self.trainable), 2)\n        return f\"LoRA(rank={self.rank}, trainable={self.trainable}, frozen={self.frozen}, {pct}%)\"\n\nlayer = LoRALayer(768, 768, 8)\nprint(layer)</code></pre>",
+        "hint": "A matrix has shape (in, rank) and B has shape (rank, out). Total trainable = in*r + r*out.",
+        "answer": "<code>LoRA(rank=8, trainable=12288, frozen=589824, 2.04%)</code>",
+        "explanation": "Matrix A: 768 * 8 = 6144 params. Matrix B: 8 * 768 = 6144 params. Total trainable: 12,288. Frozen: 768 * 768 = 589,824. Percentage: 12288 / (589824 + 12288) * 100 = 2.04%. LoRA adds very few parameters relative to the frozen weight matrix."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import math\n\ndef perplexity(loss):\n    return round(math.exp(loss), 2)\n\n# Lower loss = lower perplexity = better model\nlosses = [4.5, 3.2, 2.1, 1.5]\nfor loss in losses:\n    ppl = perplexity(loss)\n    print(f\"Loss: {loss} -> Perplexity: {ppl}\")</code></pre>",
+        "hint": "Perplexity = e^(loss). Lower perplexity means the model is less surprised by the data.",
+        "answer": "<code>Loss: 4.5 -> Perplexity: 90.02</code><br><code>Loss: 3.2 -> Perplexity: 24.53</code><br><code>Loss: 2.1 -> Perplexity: 8.17</code><br><code>Loss: 1.5 -> Perplexity: 4.48</code>",
+        "explanation": "Perplexity is e raised to the cross-entropy loss. It represents how 'surprised' the model is by the data. A perplexity of 4.48 means the model is, on average, as confused as choosing between about 4.5 equally likely tokens. Lower perplexity indicates a better language model."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Rohan wants to build a chatbot for his college that answers questions about admission procedures. Should he fine-tune a model or use prompt engineering? Explain your reasoning.",
+        "hint": "Consider the available data, required accuracy, and development speed.",
+        "answer": "Rohan should start with <strong>prompt engineering</strong> using a capable LLM (like GPT-4 or Claude). He can include the admission procedures as context in the prompt (RAG pattern -- Retrieval Augmented Generation). This approach is faster, cheaper, and does not require training data or GPUs. If the chatbot needs to handle very specific edge cases or domain-specific terminology that prompting cannot handle reliably, he can then consider fine-tuning a smaller model on a dataset of actual admission Q&A pairs. The practical approach: prompt engineering first, fine-tuning only if prompting falls short.",
+        "explanation": "For most domain-specific Q&A applications, RAG (providing relevant documents in the prompt) combined with good prompt engineering achieves strong results without fine-tuning. Fine-tuning is better when the task requires a specialized output format, domain-specific reasoning, or consistent behavior across thousands of edge cases."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the difference between BPE and SentencePiece tokenization? Why do multilingual models prefer SentencePiece?",
+        "hint": "Think about how each handles spaces and different languages.",
+        "answer": "BPE (Byte-Pair Encoding) requires pre-tokenization -- splitting text by spaces and punctuation before applying subword merges. This assumes space-separated words, which works well for English but poorly for languages like Chinese, Japanese, and Thai that do not use spaces between words. SentencePiece treats the input as a raw byte stream and learns subword tokens directly from the raw text without pre-tokenization. It represents spaces as special characters (like '_'). This makes SentencePiece <strong>language-independent</strong> -- it works equally well for English, Hindi, Chinese, and any other language.",
+        "explanation": "Multilingual models like mBERT, T5, and LLaMA use SentencePiece because it handles all languages uniformly. It can learn useful subword units for any language without language-specific preprocessing rules. The '_' character in SentencePiece output marks word boundaries."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def simulate_autoregressive(vocab, seed_tokens, steps):\n    # Simulated next-token prediction (deterministic for demo)\n    transitions = {\n        \"the\": \"model\",\n        \"model\": \"predicts\",\n        \"predicts\": \"the\",\n        \"AI\": \"is\",\n        \"is\": \"powerful\",\n        \"powerful\": \".\"\n    }\n    tokens = list(seed_tokens)\n    for _ in range(steps):\n        last = tokens[-1]\n        next_token = transitions.get(last, \"[END]\")\n        tokens.append(next_token)\n    return \" \".join(tokens)\n\nprint(simulate_autoregressive(None, [\"the\"], 5))\nprint(simulate_autoregressive(None, [\"AI\"], 3))</code></pre>",
+        "hint": "Each token maps to a fixed next token. Follow the chain for the specified number of steps.",
+        "answer": "<code>the model predicts the model predicts</code><br><code>AI is powerful .</code>",
+        "explanation": "Autoregressive generation: each step looks at the last token and predicts the next. Starting from 'the': the -> model -> predicts -> the -> model -> predicts (cycles). Starting from 'AI': AI -> is -> powerful -> '.'. This demonstrates how GPT generates token by token, left to right."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why did GPT-3's few-shot learning capability emerge at 175B parameters but not at smaller scales like GPT-2's 1.5B? What does this tell us about LLM capabilities and scale?",
+        "hint": "Think about emergent abilities and the relationship between scale and new capabilities.",
+        "answer": "GPT-3 demonstrated <strong>emergent abilities</strong> -- capabilities that appear suddenly above a certain model size threshold rather than improving gradually. At 175B parameters, GPT-3 could perform tasks from a few examples in the prompt (few-shot learning) without any fine-tuning. GPT-2 at 1.5B could not do this reliably. This tells us that some LLM capabilities are not linear functions of scale -- they are phase transitions that emerge at critical thresholds. Possible explanations: larger models learn more abstract representations, store more factual knowledge, and develop better in-context learning circuits. The implication is that we cannot always predict what capabilities a larger model will have based on smaller models.",
+        "explanation": "Emergent abilities are one of the most surprising findings in LLM research. Other examples include chain-of-thought reasoning, arithmetic ability, and code generation -- all of which improve dramatically above certain parameter thresholds. This unpredictability is both exciting and concerning for AI safety."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>hf_components = [\"AutoTokenizer\", \"AutoModel\", \"pipeline\", \"Trainer\", \"TrainingArguments\"]\nfor comp in hf_components:\n    print(f\"from transformers import {comp}\")\nprint(f\"\\nTotal imports: {len(hf_components)}\")</code></pre>",
+        "hint": "5 key components of the Hugging Face transformers library.",
+        "answer": "<code>from transformers import AutoTokenizer</code><br><code>from transformers import AutoModel</code><br><code>from transformers import pipeline</code><br><code>from transformers import Trainer</code><br><code>from transformers import TrainingArguments</code><br><code>Total imports: 5</code>",
+        "explanation": "The Hugging Face transformers library provides Auto classes (load any model/tokenizer), pipeline (high-level inference), and Trainer/TrainingArguments (fine-tuning). These are the essential imports for most LLM tasks."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def token_count_estimate(text, chars_per_token=4):\n    \"\"\"Rough estimate: ~4 characters per token for English text.\"\"\"\n    return len(text) // chars_per_token\n\ntexts = [\n    \"Hello world\",\n    \"Machine learning is a subset of artificial intelligence\",\n    \"The quick brown fox jumps over the lazy dog\" * 10\n]\n\nfor text in texts:\n    tokens = token_count_estimate(text)\n    print(f\"Chars: {len(text):4d} | ~Tokens: {tokens:4d} | Text: {text[:40]}...\")</code></pre>",
+        "hint": "Divide character count by 4 for a rough token estimate.",
+        "answer": "Each text shows its character count divided by 4 as an approximate token count. Longer texts have proportionally more tokens.",
+        "explanation": "A rough rule of thumb for English text: 1 token is about 4 characters or 0.75 words. GPT-2 has a 1024 token context window, GPT-3 has 4096, and GPT-4 supports up to 128K tokens. Understanding token counts is essential for managing context window limits and API costs."
+      },
+      {
+        "id": "mx-13",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the Hugging Face pipeline function and why is it useful?",
+        "hint": "Think about how much code you need to write to use a pre-trained model.",
+        "answer": "The Hugging Face <code>pipeline()</code> function is a high-level API that handles tokenization, model inference, and post-processing in a single call. You only need to specify the task (e.g., 'sentiment-analysis', 'text-generation', 'summarization') and optionally a model name. It automatically downloads the model, tokenizes the input, runs inference, and returns human-readable results. Without pipeline, you would need to manually load the tokenizer, tokenize input, run the model forward pass, and post-process logits. Pipeline reduces this from 10+ lines to 2 lines of code.",
+        "explanation": "Pipeline is the fastest way to get started with Hugging Face models. For production use, you may need more control (custom tokenization, batch processing), in which case you use AutoTokenizer and AutoModel directly."
+      },
+      {
+        "id": "mx-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def compute_attention_memory(seq_len, hidden_dim, num_heads, dtype_bytes=2):\n    \"\"\"Estimate memory for self-attention computation.\"\"\"\n    # Attention matrix: seq_len x seq_len per head\n    attention_memory = seq_len * seq_len * num_heads * dtype_bytes\n    # Q, K, V projections\n    qkv_memory = 3 * seq_len * hidden_dim * dtype_bytes\n    total_mb = (attention_memory + qkv_memory) / (1024 * 1024)\n    return round(total_mb, 2)\n\nfor seq_len in [512, 2048, 8192, 32768]:\n    mem = compute_attention_memory(seq_len, 4096, 32)\n    print(f\"Seq length {seq_len:6d}: ~{mem:8.2f} MB attention memory\")</code></pre>",
+        "hint": "Attention memory scales quadratically with sequence length (O(n^2)).",
+        "answer": "Memory increases quadratically: 512 tokens uses relatively little memory, while 32768 tokens uses enormous memory due to the O(n^2) scaling of the attention matrix.",
+        "explanation": "Self-attention has O(n^2) memory complexity because it computes attention scores between every pair of tokens. This is why long-context models (128K+ tokens) require techniques like FlashAttention, sparse attention, or linear attention to reduce memory usage. Doubling the sequence length quadruples the attention memory."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the core training objective of GPT models?",
+        "options": {
+          "A": "Masked language modeling",
+          "B": "Next-token prediction",
+          "C": "Image classification",
+          "D": "Sentence pair comparison"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> GPT models are trained with a causal language modeling objective: predict the next token given all previous tokens. This autoregressive approach enables text generation."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which model architecture does BERT use?",
+        "options": {
+          "A": "Decoder-only transformer",
+          "B": "Encoder-only transformer",
+          "C": "Encoder-decoder transformer",
+          "D": "Recurrent neural network"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> BERT uses the encoder part of the transformer architecture. It processes text bidirectionally, allowing each token to attend to all other tokens in the sequence."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does temperature = 0 mean in LLM text generation?",
+        "options": {
+          "A": "Maximum randomness in output",
+          "B": "Model stops generating",
+          "C": "Greedy decoding -- always picks the most probable token",
+          "D": "Equal probability for all tokens"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Temperature 0 makes the probability distribution infinitely sharp, always selecting the token with the highest probability. This produces deterministic, repeatable output."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is BPE in the context of LLMs?",
+        "options": {
+          "A": "A training algorithm for neural networks",
+          "B": "A subword tokenization method that iteratively merges frequent character pairs",
+          "C": "A method to reduce model size",
+          "D": "A technique for data augmentation"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Byte-Pair Encoding (BPE) starts with individual characters and repeatedly merges the most frequent adjacent pair to build a subword vocabulary. This balances vocabulary size with the ability to handle rare words."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which GPT version first demonstrated few-shot learning capabilities?",
+        "options": {
+          "A": "GPT-1",
+          "B": "GPT-2",
+          "C": "GPT-3",
+          "D": "GPT-4"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> GPT-3 (175B parameters) was the first to demonstrate strong few-shot learning -- performing tasks from just a few examples in the prompt without any fine-tuning. This was a breakthrough capability enabled by scale."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "What does the Hugging Face pipeline('sentiment-analysis') return?",
+        "options": {
+          "A": "Raw model weights",
+          "B": "Token embeddings",
+          "C": "A label (POSITIVE/NEGATIVE) with a confidence score",
+          "D": "A list of tokens"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The sentiment analysis pipeline returns a dictionary with a label (POSITIVE or NEGATIVE) and a confidence score (0 to 1). It handles tokenization, inference, and post-processing automatically."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the key advantage of top-p (nucleus) sampling over top-k sampling?",
+        "options": {
+          "A": "It is faster to compute",
+          "B": "It adapts the number of candidates based on the probability distribution",
+          "C": "It always produces better text",
+          "D": "It requires no probability computation"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Top-p dynamically adjusts the number of tokens considered. When the model is confident (one token has high probability), fewer candidates are used. When uncertain (flat distribution), more candidates are included. Top-k always considers exactly k tokens regardless of the distribution shape."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What pre-training task does BERT NOT use?",
+        "options": {
+          "A": "Masked Language Modeling",
+          "B": "Next Sentence Prediction",
+          "C": "Next-token prediction",
+          "D": "Both A and B are used by BERT"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> BERT uses Masked Language Modeling (MLM) and Next Sentence Prediction (NSP). Next-token prediction is GPT's training objective. BERT predicts masked tokens using bidirectional context, not the next sequential token."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does LoRA stand for, and what is its primary benefit?",
+        "options": {
+          "A": "Low-Rank Adaptation -- reduces training parameters by adding small trainable matrices",
+          "B": "Large Output Regularization Algorithm -- prevents overfitting",
+          "C": "Layered Optimization for Rapid Acceleration -- speeds up inference",
+          "D": "Lightweight Optimized Retrieval Architecture -- improves search"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> LoRA (Low-Rank Adaptation) freezes the base model and adds small low-rank matrices to transformer layers. This reduces trainable parameters to 0.1-1% of the total, making fine-tuning feasible on consumer GPUs."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is the Chinchilla scaling law's key finding?",
+        "options": {
+          "A": "Bigger models are always better",
+          "B": "Model size and training data should scale proportionally for optimal performance",
+          "C": "Training for more epochs is better than more data",
+          "D": "Only model architecture matters, not size"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The Chinchilla paper showed that for a fixed compute budget, the optimal strategy is to balance model size and training data. Many existing LLMs were undertrained -- a smaller model trained on more data can outperform a larger model trained on less data."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What is the typical learning rate range for fine-tuning BERT on a downstream task?",
+        "options": {
+          "A": "1e-1 to 1e-2",
+          "B": "2e-5 to 5e-5",
+          "C": "1e-8 to 1e-7",
+          "D": "1e0 to 1e1"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> BERT fine-tuning uses a very small learning rate (2e-5 to 5e-5) to make gentle adjustments to the pre-trained weights without destroying the learned representations. Higher rates cause catastrophic forgetting."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Why does SentencePiece work better than BPE for multilingual models?",
+        "options": {
+          "A": "It produces fewer tokens",
+          "B": "It processes raw bytes without requiring space-based pre-tokenization",
+          "C": "It uses a larger vocabulary",
+          "D": "It is faster at inference time"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> SentencePiece treats input as a raw byte stream and learns subword tokens directly. Unlike BPE, it does not assume words are separated by spaces, making it work equally well for languages like Chinese, Japanese, Hindi, and Thai."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the difference between QLoRA and standard LoRA?",
+        "options": {
+          "A": "QLoRA uses a higher rank for the LoRA matrices",
+          "B": "QLoRA quantizes the frozen base model to 4-bit, reducing memory by 4x",
+          "C": "QLoRA trains all parameters instead of just LoRA matrices",
+          "D": "QLoRA does not use the transformer architecture"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> QLoRA combines LoRA with 4-bit quantization (NF4 data type) of the frozen base model. The LoRA matrices remain in higher precision for training. This reduces memory by approximately 4x compared to standard LoRA with FP16 base weights, enabling fine-tuning of 65B+ models on a single GPU."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What are 'emergent abilities' in the context of LLMs?",
+        "options": {
+          "A": "Abilities that are explicitly programmed into the model",
+          "B": "Abilities that appear suddenly at a certain model scale, not present in smaller models",
+          "C": "Abilities that emerge after fine-tuning",
+          "D": "Abilities related to image processing"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Emergent abilities are capabilities that are absent in smaller models but suddenly appear when models reach a critical size. Examples include few-shot learning, chain-of-thought reasoning, and arithmetic. These abilities are not explicitly trained -- they emerge from scale."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "When using Hugging Face Trainer for BERT fine-tuning, what does the eval_strategy='epoch' parameter do?",
+        "options": {
+          "A": "Evaluates the model only at the end of training",
+          "B": "Evaluates the model on the validation set after each epoch",
+          "C": "Evaluates the model after every training step",
+          "D": "Disables evaluation during training"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Setting <code>eval_strategy='epoch'</code> runs evaluation on the validation dataset at the end of every training epoch. This lets you monitor performance over time and detect overfitting. Other options include 'steps' (evaluate every N steps) and 'no' (skip evaluation)."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "In a LoRA configuration with r=16 and lora_alpha=32, what is the effective scaling factor applied to the LoRA update?",
+        "options": {
+          "A": "16",
+          "B": "32",
+          "C": "2 (alpha / r = 32 / 16)",
+          "D": "0.5 (r / alpha = 16 / 32)"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The LoRA update is scaled by alpha/r. With lora_alpha=32 and r=16, the scaling factor is 32/16 = 2. This means the LoRA update is multiplied by 2 before being added to the frozen weights. Higher alpha/r ratios amplify the LoRA adaptation."
+      }
+    ]
+  }
+}

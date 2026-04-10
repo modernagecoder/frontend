@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to C++ - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn what C++ is, its history, where it is used, and how it compares to other languages like Java and Python.">
+    <meta name="keywords" content="introduction to c++, c++ tutorial, c++ introduction to c++, learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/introduction-to-cpp">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/introduction-to-cpp">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/introduction-to-cpp">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/introduction-to-cpp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/introduction-to-cpp">
+    <meta property="og:title" content="Introduction to C++ - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Learn what C++ is, its history, where it is used, and how it compares to other languages like Java and Python.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/introduction-to-cpp">
+    <meta name="twitter:title" content="Introduction to C++ - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Learn what C++ is, its history, where it is used, and how it compares to other languages like Java and Python.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Introduction to C++",
+    "description": "Learn what C++ is, its history, where it is used, and how it compares to other languages like Java and Python.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/introduction-to-cpp"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/introduction-to-cpp"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Introduction to C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp/introduction-to-cpp"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Missing Semicolon at End of Statement",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every statement in C++ must end with a semicolon <code>;</code>. Unlike Python, which uses indentation and newlines, C++ uses semicolons as statement terminators. Forgetting a semicolon is the single most common syntax error for beginners. The compiler error often points to the line AFTER the missing semicolon, which can be confusing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting #include <iostream>",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Unlike Python where <code>print()</code> is built in, C++ requires you to explicitly include the <code>&lt;iostream&gt;</code> header to use <code>cout</code>, <code>cin</code>, and <code>endl</code>. Without the include, the compiler has no idea what <code>cout</code> is. Every feature in C++ must be explicitly included."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using << with cin (or >> with cout)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Think of the arrows as showing the direction of data flow. <code>cin &gt;&gt; x</code> means data flows from the input stream into <code>x</code> (the arrows point toward x). <code>cout &lt;&lt; x</code> means data flows from <code>x</code> into the output stream (the arrows point toward cout). Mixing them up is a common beginner mistake."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Writing void main() Instead of int main()",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The C++ standard mandates that <code>main()</code> must return <code>int</code>. While some compilers (like older Turbo C++) accept <code>void main()</code>, it is not standard-compliant. In competitive programming and interviews, always write <code>int main()</code>. The return value is the exit code that the operating system reads."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Introduction to C++</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 1</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">20 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Introduction to C++</h1>
+            <a href="/resources/cpp/introduction-to-cpp/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is C++?</h2><p><strong>C++</strong> is a general-purpose, compiled, statically typed programming language that provides both high-level abstractions and low-level hardware access. It was created by <strong>Bjarne Stroustrup</strong> in <strong>1979</strong> at <strong>Bell Labs</strong> (Murray Hill, New Jersey) as an extension of the C programming language. Stroustrup originally called it <strong>"C with Classes"</strong> because his primary goal was to add object-oriented features (classes, inheritance, encapsulation) to C without sacrificing C's performance and low-level control. The name C++ came later, in 1983 -- the <code>++</code> is the increment operator in C, so C++ literally means "one step beyond C."</p><p>C++ is one of the most widely used programming languages in the world. It powers operating systems (Windows, macOS, Linux kernel modules), game engines (Unreal Engine, Unity's native layer), web browsers (Chrome, Firefox), databases (MySQL, MongoDB), embedded systems, compilers, and high-frequency trading platforms. If software needs to be <strong>fast</strong>, <strong>efficient</strong>, or <strong>close to hardware</strong>, there is a very good chance it is written in C++.</p><h3>C++ at a Glance</h3><table><tr><th>Property</th><th>Detail</th></tr><tr><td>Creator</td><td>Bjarne Stroustrup</td></tr><tr><td>Year</td><td>1979 ("C with Classes"), renamed C++ in 1983</td></tr><tr><td>Paradigm</td><td>Multi-paradigm: procedural, object-oriented, generic, functional</td></tr><tr><td>Typing</td><td>Statically typed, compiled</td></tr><tr><td>Extension</td><td><code>.cpp</code>, <code>.cc</code>, <code>.cxx</code></td></tr><tr><td>Standard Body</td><td>ISO/IEC JTC1/SC22/WG21</td></tr></table>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn C++?</h2><p>If you are a college student, C++ is arguably the single most valuable language you can invest time in. Here is why:</p><h3>1. Competitive Programming</h3><p>C++ is the dominant language in competitive programming. Platforms like Codeforces, CodeChef, AtCoder, and ICPC use C++ overwhelmingly. The reasons are simple: it is the fastest among commonly used languages, the STL (Standard Template Library) provides ready-made data structures and algorithms, and most editorial solutions are written in C++. If you want to compete seriously, C++ is non-negotiable.</p><h3>2. Placement Interviews</h3><p>Companies like Google, Amazon, Microsoft, Goldman Sachs, and virtually every product-based company test Data Structures and Algorithms in interviews. C++ is the preferred language because interviewers expect you to understand memory, pointers, and efficiency -- concepts that C++ makes explicit. Writing a solution in C++ often signals deeper technical understanding.</p><h3>3. Performance and Control</h3><p>C++ gives you direct control over memory allocation and deallocation, CPU cache behavior, and system resources. No garbage collector runs behind the scenes. You decide when memory is allocated with <code>new</code> and freed with <code>delete</code>. This control is why C++ is used in performance-critical domains: game engines running at 60 FPS, trading systems where microseconds matter, and embedded systems with limited memory.</p><h3>4. Systems Programming</h3><p>Operating systems, device drivers, compilers, interpreters, and virtual machines are written in C++. If you want to understand how software actually works at the system level -- not just use frameworks built by others -- C++ is the path.</p><h3>5. Foundation for Other Languages</h3><p>Once you understand C++, every other language becomes easier. Java's syntax is borrowed from C++. Python's CPython interpreter is written in C. Understanding pointers, memory layout, stack vs heap, and compilation makes you a fundamentally better programmer regardless of what language you use later.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>Key Features of C++</h3><p>C++ is a multi-paradigm language. Here are its defining features:</p><ul><li><strong>Compiled Language:</strong> C++ code is compiled directly into machine code (binary) by a compiler like g++ or clang++. This means no interpreter or virtual machine sits between your code and the CPU. The result is raw speed.</li><li><strong>Object-Oriented Programming (OOP):</strong> C++ supports classes, objects, inheritance, polymorphism, encapsulation, and abstraction. This lets you model real-world entities and build large, maintainable software systems.</li><li><strong>Low-Level Memory Access:</strong> Through pointers and references, you can directly manipulate memory addresses. You can allocate memory on the heap, pass addresses between functions, and even write inline assembly if needed.</li><li><strong>Standard Template Library (STL):</strong> C++ comes with a powerful library of generic data structures (vector, map, set, queue, stack) and algorithms (sort, binary_search, lower_bound). This is a massive productivity boost, especially in competitive programming.</li><li><strong>Multi-Paradigm:</strong> You can write procedural code (like C), object-oriented code (like Java), generic code (using templates), and even functional code (using lambdas and higher-order functions from C++11 onwards).</li><li><strong>Platform Independent (at source level):</strong> C++ code can be compiled on Windows, Linux, macOS, and embedded platforms. The same source code works everywhere, though you need to recompile for each target.</li></ul><h3>Where Is C++ Used?</h3><table><tr><th>Domain</th><th>Examples</th></tr><tr><td>Game Development</td><td>Unreal Engine, Unity (native), game physics engines</td></tr><tr><td>Operating Systems</td><td>Windows, macOS components, Linux kernel modules</td></tr><tr><td>Web Browsers</td><td>Chrome (V8 engine), Firefox, Safari (WebKit)</td></tr><tr><td>Databases</td><td>MySQL, MongoDB, Redis</td></tr><tr><td>Embedded Systems</td><td>Arduino, automotive ECUs, IoT devices</td></tr><tr><td>Competitive Programming</td><td>Codeforces, CodeChef, ICPC, Google Code Jam</td></tr><tr><td>Finance</td><td>High-frequency trading systems, risk engines</td></tr><tr><td>Compilers</td><td>GCC, Clang, MSVC are all written in C++</td></tr></table><h3>C++ vs C vs Java vs Python</h3><table><tr><th>Feature</th><th>C</th><th>C++</th><th>Java</th><th>Python</th></tr><tr><td>Paradigm</td><td>Procedural</td><td>Multi-paradigm</td><td>Object-oriented</td><td>Multi-paradigm</td></tr><tr><td>Typing</td><td>Static</td><td>Static</td><td>Static</td><td>Dynamic</td></tr><tr><td>Memory Management</td><td>Manual (malloc/free)</td><td>Manual (new/delete) + smart pointers</td><td>Automatic (garbage collector)</td><td>Automatic (garbage collector)</td></tr><tr><td>Speed</td><td>Very fast</td><td>Very fast</td><td>Fast (JIT)</td><td>Slow (interpreted)</td></tr><tr><td>OOP Support</td><td>No</td><td>Yes (classes, inheritance)</td><td>Yes (everything is an object)</td><td>Yes (flexible)</td></tr><tr><td>STL/Libraries</td><td>Minimal standard library</td><td>Rich STL</td><td>Large standard library</td><td>Huge ecosystem (pip)</td></tr><tr><td>Pointers</td><td>Yes</td><td>Yes + References</td><td>No (references only)</td><td>No</td></tr><tr><td>Use Case</td><td>OS kernels, embedded</td><td>Systems, games, CP</td><td>Enterprise, Android</td><td>ML, scripting, web</td></tr></table><h3>The C++ Compilation Process</h3><p>Understanding how C++ code becomes an executable is fundamental. There are four stages:</p><ol><li><strong>Preprocessing:</strong> The preprocessor handles directives that start with <code>#</code>. It replaces <code>#include &lt;iostream&gt;</code> with the actual contents of the iostream header file. It processes <code>#define</code> macros and <code>#ifdef</code> conditional compilation. The output is a single, expanded source file called a <strong>translation unit</strong>.</li><li><strong>Compilation:</strong> The compiler takes the preprocessed source and converts it into <strong>assembly language</strong> specific to your CPU architecture (x86, ARM, etc.). It checks syntax, enforces types, and reports errors at this stage.</li><li><strong>Assembly:</strong> The assembler converts assembly language into <strong>object code</strong> -- machine-readable binary stored in <code>.o</code> or <code>.obj</code> files. Each source file produces one object file.</li><li><strong>Linking:</strong> The linker combines all object files and resolves references between them. If your code calls <code>cout</code>, the linker finds its implementation in the C++ standard library and links it in. The output is the final <strong>executable</strong> file.</li></ol><p>This pipeline is: <code>source.cpp</code> -> Preprocessor -> <code>source.i</code> -> Compiler -> <code>source.s</code> -> Assembler -> <code>source.o</code> -> Linker -> <code>executable</code></p><h3>C++ Standards Timeline</h3><table><tr><th>Version</th><th>Year</th><th>Key Additions</th></tr><tr><td>C++98</td><td>1998</td><td>First ISO standard. STL, templates, exceptions, namespaces.</td></tr><tr><td>C++03</td><td>2003</td><td>Bug fixes to C++98. Minor technical corrections.</td></tr><tr><td>C++11</td><td>2011</td><td>Major update: auto, range-based for, lambda, smart pointers, move semantics, nullptr, constexpr, threads.</td></tr><tr><td>C++14</td><td>2014</td><td>Generic lambdas, return type deduction, relaxed constexpr.</td></tr><tr><td>C++17</td><td>2017</td><td>Structured bindings, if-init, std::optional, std::variant, filesystem library.</td></tr><tr><td>C++20</td><td>2020</td><td>Concepts, ranges, coroutines, modules, three-way comparison (spaceship operator).</td></tr><tr><td>C++23</td><td>2023</td><td>std::print, deducing this, more constexpr, multidimensional subscript.</td></tr></table><h3>How to Think About C++</h3><p>C++ is about <strong>control and performance</strong>. Every feature exists because a programmer somewhere needed finer control over what the machine does. Where Python says "do not worry about memory, I will handle it," C++ says "here is the memory -- you decide what happens." This is not a burden; it is power. The cost is complexity, but the reward is that you truly understand what your program is doing at every level. As Bjarne Stroustrup himself said: <em>"C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off."</em> The quote is humorous, but the point is real: C++ gives you powerful tools, and with power comes responsibility.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">The Simplest C++ Program</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;Hello, C++!&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">This is the minimal C++ program. <code>#include &lt;iostream&gt;</code> brings in the input/output library. <code>using namespace std;</code> allows us to write <code>cout</code> instead of <code>std::cout</code>. The <code>main()</code> function is the entry point of every C++ program. <code>cout &lt;&lt;</code> sends text to the standard output. <code>return 0;</code> tells the operating system the program finished successfully.</div><div class="code-example-output">Hello, C++!</div></div>
+<div class="code-example"><div class="code-example-title">Checking the Size of Data Types</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;Size of int: &quot; &lt;&lt; sizeof(int) &lt;&lt; &quot; bytes&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Size of float: &quot; &lt;&lt; sizeof(float) &lt;&lt; &quot; bytes&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Size of double: &quot; &lt;&lt; sizeof(double) &lt;&lt; &quot; bytes&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Size of char: &quot; &lt;&lt; sizeof(char) &lt;&lt; &quot; bytes&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Size of bool: &quot; &lt;&lt; sizeof(bool) &lt;&lt; &quot; bytes&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Size of long long: &quot; &lt;&lt; sizeof(long long) &lt;&lt; &quot; bytes&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">The <code>sizeof</code> operator returns the number of bytes a data type occupies in memory. On most modern systems (64-bit), <code>int</code> is 4 bytes, <code>double</code> is 8 bytes, <code>char</code> is always 1 byte. This operator is evaluated at compile time, not at runtime. Knowing sizes matters for memory-conscious programming and understanding overflow limits.</div><div class="code-example-output">Size of int: 4 bytes
+Size of float: 4 bytes
+Size of double: 8 bytes
+Size of char: 1 bytes
+Size of bool: 1 bytes
+Size of long long: 8 bytes</div></div>
+<div class="code-example"><div class="code-example-title">Compilation Stages Demonstration</div><pre><code class="language-python">// Save this as demo.cpp
+// Then run these commands in terminal:
+// Step 1: Preprocessing only
+//   g++ -E demo.cpp -o demo.i
+// Step 2: Compile to assembly
+//   g++ -S demo.cpp -o demo.s
+// Step 3: Assemble to object code
+//   g++ -c demo.cpp -o demo.o
+// Step 4: Link to executable
+//   g++ demo.o -o demo
+
+#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int a = 10, b = 20;
+    cout &lt;&lt; &quot;Sum: &quot; &lt;&lt; a + b &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">This demonstrates the four compilation stages using g++ flags. <code>-E</code> stops after preprocessing (you will see the iostream header expanded to thousands of lines). <code>-S</code> produces assembly code. <code>-c</code> produces an object file. Without flags, g++ performs all stages and produces the final executable. Understanding this pipeline helps you debug linker errors and understand how C++ builds work.</div><div class="code-example-output">Sum: 30</div></div>
+<div class="code-example"><div class="code-example-title">C++ Version Check with __cplusplus Macro</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;C++ Standard Version: &quot; &lt;&lt; __cplusplus &lt;&lt; endl;
+
+    #if __cplusplus &gt;= 202002L
+        cout &lt;&lt; &quot;You are using C++20 or later&quot; &lt;&lt; endl;
+    #elif __cplusplus &gt;= 201703L
+        cout &lt;&lt; &quot;You are using C++17&quot; &lt;&lt; endl;
+    #elif __cplusplus &gt;= 201402L
+        cout &lt;&lt; &quot;You are using C++14&quot; &lt;&lt; endl;
+    #elif __cplusplus &gt;= 201103L
+        cout &lt;&lt; &quot;You are using C++11&quot; &lt;&lt; endl;
+    #else
+        cout &lt;&lt; &quot;You are using C++98/03 or earlier&quot; &lt;&lt; endl;
+    #endif
+
+    return 0;
+}</code></pre><div class="code-example-explanation">The <code>__cplusplus</code> macro is defined by every C++ compiler and tells you which standard is being used. The value <code>201703L</code> means C++17, <code>202002L</code> means C++20. The <code>#if</code> / <code>#elif</code> / <code>#endif</code> are preprocessor conditionals -- they are evaluated before compilation. Compile with <code>g++ -std=c++17 demo.cpp</code> to select a specific standard.</div><div class="code-example-output">C++ Standard Version: 201703
+You are using C++17</div></div>
+<div class="code-example"><div class="code-example-title">Basic Input and Output</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    string name;
+    int age;
+
+    cout &lt;&lt; &quot;Enter your name: &quot;;
+    cin &gt;&gt; name;
+    cout &lt;&lt; &quot;Enter your age: &quot;;
+    cin &gt;&gt; age;
+
+    cout &lt;&lt; &quot;Hello, &quot; &lt;&lt; name &lt;&lt; &quot;! You are &quot; &lt;&lt; age &lt;&lt; &quot; years old.&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">This program takes user input using <code>cin &gt;&gt;</code> (extraction operator). <code>cin</code> reads input from the keyboard. The <code>&gt;&gt;</code> operator extracts data from the input stream and stores it in a variable. Note that <code>cin &gt;&gt;</code> reads until the first whitespace, so if you type "Rahul Sharma", only "Rahul" goes into <code>name</code>. To read a full line, you need <code>getline()</code> (covered in Chapter 5).</div><div class="code-example-output">Enter your name: Rahul
+Enter your age: 20
+Hello, Rahul! You are 20 years old.</div></div>
+<div class="code-example"><div class="code-example-title">Demonstrating return 0 vs return 1</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int num;
+    cout &lt;&lt; &quot;Enter a positive number: &quot;;
+    cin &gt;&gt; num;
+
+    if (num &lt; 0) {
+        cout &lt;&lt; &quot;Error: Negative number entered!&quot; &lt;&lt; endl;
+        return 1;  // Non-zero = error
+    }
+
+    cout &lt;&lt; &quot;You entered: &quot; &lt;&lt; num &lt;&lt; endl;
+    return 0;  // Zero = success
+}</code></pre><div class="code-example-explanation">The <code>return</code> value from <code>main()</code> is the program's exit code. <code>return 0;</code> signals success to the operating system. Any non-zero value (commonly 1) signals failure. You can check this in the terminal with <code>echo $?</code> (Linux/Mac) or <code>echo %ERRORLEVEL%</code> (Windows) immediately after running the program. Build systems and scripts use exit codes to detect if a program failed.</div><div class="code-example-output">Enter a positive number: 42
+You entered: 42</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Missing Semicolon at End of Statement</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;Hello&quot; &lt;&lt; endl
+    return 0;
+}</code></pre></div><div class="error-message">error: expected &#39;;&#39; before &#39;return&#39;</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;Hello&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="mistake-explanation">Every statement in C++ must end with a semicolon <code>;</code>. Unlike Python, which uses indentation and newlines, C++ uses semicolons as statement terminators. Forgetting a semicolon is the single most common syntax error for beginners. The compiler error often points to the line AFTER the missing semicolon, which can be confusing.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting #include &lt;iostream&gt;</h3>
+                <div class="wrong-code"><pre><code class="language-python">using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;Hello&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="error-message">error: &#39;cout&#39; was not declared in this scope</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;Hello&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="mistake-explanation">Unlike Python where <code>print()</code> is built in, C++ requires you to explicitly include the <code>&lt;iostream&gt;</code> header to use <code>cout</code>, <code>cin</code>, and <code>endl</code>. Without the include, the compiler has no idea what <code>cout</code> is. Every feature in C++ must be explicitly included.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using &lt;&lt; with cin (or &gt;&gt; with cout)</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int x;
+    cin &lt;&lt; x;   // WRONG direction
+    cout &gt;&gt; x;  // WRONG direction
+    return 0;
+}</code></pre></div><div class="error-message">error: no match for &#39;operator&lt;&lt;&#39; / &#39;operator&gt;&gt;&#39;</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int x;
+    cin &gt;&gt; x;   // Extraction: data flows FROM cin INTO x
+    cout &lt;&lt; x;  // Insertion: data flows FROM x INTO cout
+    return 0;
+}</code></pre></div><div class="mistake-explanation">Think of the arrows as showing the direction of data flow. <code>cin &gt;&gt; x</code> means data flows from the input stream into <code>x</code> (the arrows point toward x). <code>cout &lt;&lt; x</code> means data flows from <code>x</code> into the output stream (the arrows point toward cout). Mixing them up is a common beginner mistake.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Writing void main() Instead of int main()</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+void main() {
+    cout &lt;&lt; &quot;Hello&quot; &lt;&lt; endl;
+}</code></pre></div><div class="error-message">warning: &#39;main&#39; must return &#39;int&#39; (some compilers will error, others warn)</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;Hello&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="mistake-explanation">The C++ standard mandates that <code>main()</code> must return <code>int</code>. While some compilers (like older Turbo C++) accept <code>void main()</code>, it is not standard-compliant. In competitive programming and interviews, always write <code>int main()</code>. The return value is the exit code that the operating system reads.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>C++ was created by Bjarne Stroustrup in 1979 at Bell Labs as an extension of C. It was originally called &#39;C with Classes&#39; and renamed to C++ in 1983.</li>
+<li>C++ is a compiled, statically typed, multi-paradigm language supporting procedural, object-oriented, and generic programming.</li>
+<li>Key features: compiled to native machine code (fast), OOP support (classes, inheritance, polymorphism), low-level memory access (pointers), and the Standard Template Library (STL).</li>
+<li>C++ is used in game engines (Unreal), operating systems (Windows, Linux modules), browsers (Chrome, Firefox), databases (MySQL, MongoDB), competitive programming, and high-frequency trading.</li>
+<li>C++ vs C: C++ adds OOP, STL, references, and templates. C++ vs Java: C++ has no garbage collector, supports multiple inheritance, and compiles to native code. C++ vs Python: C++ is 10-100x faster but more verbose.</li>
+<li>The compilation process has four stages: Preprocessing (#include expansion) -&gt; Compilation (source to assembly) -&gt; Assembly (assembly to object code) -&gt; Linking (object files to executable).</li>
+<li>Major C++ standards: C++98 (first standard), C++11 (auto, lambdas, smart pointers), C++14, C++17 (structured bindings, optional), C++20 (concepts, ranges, coroutines).</li>
+<li>Every C++ program must have an int main() function. Statements end with semicolons. #include &lt;iostream&gt; is needed for cout and cin.</li>
+<li>C++ is the dominant language in competitive programming due to its speed and the STL. It is also heavily favored in placement interviews at product companies.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/setting-up-and-first-program" class="related-topic-link">Setting Up C++ and Your First Program</a>
+<a href="/resources/cpp/variables-and-data-types" class="related-topic-link">Variables, Data Types, and Type Casting</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            
+            <a href="/resources/cpp/setting-up-and-first-program" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Setting Up C++ and Your First Program</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/introduction-to-cpp/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

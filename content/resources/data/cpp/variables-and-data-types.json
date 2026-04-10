@@ -1,0 +1,727 @@
+{
+  "title": "Variables, Data Types, and Type Casting",
+  "slug": "variables-and-data-types",
+  "language": "cpp",
+  "chapter": 3,
+  "difficulty": "Beginner",
+  "readingTime": "25 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 57,
+  "seo": {
+    "title": "Variables, Data Types & Type Casting in C++ - int, float, double, char, bool, auto, const | Modern Age Coders",
+    "description": "Master C++ data types (int, float, double, char, bool, long long), sizeof(), type casting (implicit, explicit, static_cast), auto keyword, const/constexpr, narrowing conversions, and variable initialization. 57 practice questions.",
+    "keywords": "c++ data types, c++ variables, c++ type casting, sizeof in c++, static_cast, auto keyword c++, const vs constexpr, c++ narrowing conversion, char arithmetic c++, c++ type overflow"
+  },
+  "content": {
+    "what": "<h2>What Are Variables and Data Types in C++?</h2><p>A <strong>variable</strong> is a named storage location in memory that holds a value of a specific type. A <strong>data type</strong> tells the compiler how much memory to allocate and how to interpret the bits stored there. C++ is a <strong>statically typed</strong> language, meaning every variable must have its type declared at compile time and that type cannot change during execution.</p><p>Understanding data types is foundational. When you write <code>int x = 42;</code>, you are telling the compiler: allocate 4 bytes of memory, label that location <code>x</code>, interpret the bits as a signed 32-bit integer, and store the value 42 there. Every decision you make in C++ -- from choosing <code>int</code> vs <code>long long</code> for a counter, to using <code>double</code> vs <code>float</code> for precision, to understanding why <code>char</code> arithmetic works -- traces back to data types.</p><h3>Fundamental Data Types at a Glance</h3><table><tr><th>Type</th><th>Size (typical)</th><th>Range</th><th>Use Case</th></tr><tr><td><code>bool</code></td><td>1 byte</td><td>true (1) or false (0)</td><td>Flags, conditions</td></tr><tr><td><code>char</code></td><td>1 byte</td><td>-128 to 127 or 0 to 255</td><td>Characters, ASCII</td></tr><tr><td><code>short</code></td><td>2 bytes</td><td>-32,768 to 32,767</td><td>Small integers</td></tr><tr><td><code>int</code></td><td>4 bytes</td><td>-2,147,483,648 to 2,147,483,647</td><td>General integers</td></tr><tr><td><code>long</code></td><td>4 or 8 bytes</td><td>At least -2B to +2B</td><td>Platform-dependent</td></tr><tr><td><code>long long</code></td><td>8 bytes</td><td>-9.2 x 10^18 to 9.2 x 10^18</td><td>Large integers, CP</td></tr><tr><td><code>unsigned int</code></td><td>4 bytes</td><td>0 to 4,294,967,295</td><td>Non-negative only</td></tr><tr><td><code>float</code></td><td>4 bytes</td><td>~7 decimal digits precision</td><td>Low-precision decimals</td></tr><tr><td><code>double</code></td><td>8 bytes</td><td>~15 decimal digits precision</td><td>High-precision decimals</td></tr><tr><td><code>long double</code></td><td>8-16 bytes</td><td>~18-19 decimal digits</td><td>Extended precision</td></tr></table>",
+    "why": "<h2>Why Are Data Types Critical in C++?</h2><p>In Python, you can write <code>x = 42</code> and then <code>x = \"hello\"</code> without any issue. Python figures out the type at runtime. C++ does not work that way. The type is fixed at compile time, and this rigidity is a feature, not a limitation.</p><h3>1. Memory Efficiency</h3><p>In competitive programming, you might create arrays of 10^7 elements. Using <code>long long</code> (8 bytes) instead of <code>int</code> (4 bytes) doubles your memory usage from 40MB to 80MB. Knowing your type sizes lets you stay within memory limits. In embedded systems, choosing <code>short</code> over <code>int</code> can be the difference between fitting in RAM or not.</p><h3>2. Avoiding Overflow Bugs</h3><p>The most common bug in competitive programming is integer overflow. If a problem says the answer can be up to 10^18, using <code>int</code> (max ~2 x 10^9) will silently overflow and give wrong answers. You need <code>long long</code>. Understanding type ranges prevents hours of debugging.</p><h3>3. Interview Relevance</h3><p>Interviewers at companies like Google, Amazon, and Microsoft frequently ask about type sizes, overflow behavior, implicit conversions, and the difference between <code>float</code> and <code>double</code>. Questions like \"what happens when you assign a negative value to an unsigned int?\" or \"what is the output of <code>(int)3.9</code>?\" are standard fare.</p><h3>4. Type Safety and Correctness</h3><p>C++ type casting rules can introduce subtle bugs. Implicit conversions (int to float, char to int) happen silently. Understanding when and how conversions occur prevents bugs in production code and competitive submissions alike.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>Variable Declaration and Initialization</h3><p>C++ provides three ways to initialize variables:</p><ul><li><strong>Copy initialization:</strong> <code>int x = 10;</code> -- the classic C-style assignment.</li><li><strong>Direct initialization:</strong> <code>int x(10);</code> -- uses parentheses, commonly seen with class constructors.</li><li><strong>Brace initialization (C++11):</strong> <code>int x{10};</code> -- the modern, safest form. Brace initialization <strong>prevents narrowing conversions</strong>. If you write <code>int x{3.5};</code>, the compiler will produce an error because 3.5 cannot be stored in an int without losing data. This does NOT happen with <code>int x = 3.5;</code> (which silently truncates to 3).</li></ul><h3>sizeof() Operator</h3><p>The <code>sizeof</code> operator returns the size in bytes of a type or variable. It is evaluated at <strong>compile time</strong>, not runtime -- no actual computation happens when the program runs. The result type is <code>size_t</code> (an unsigned integer type). You can use it with types (<code>sizeof(int)</code>) or with variables (<code>sizeof(x)</code>).</p><h3>Type Ranges and Overflow</h3><p>Every integer type has a fixed range determined by its size and whether it is signed or unsigned. When a value exceeds this range, <strong>overflow</strong> occurs. For unsigned types, overflow wraps around (modular arithmetic). For signed types, overflow is <strong>undefined behavior</strong> in C++ -- the compiler can do anything, including producing unexpected results or optimizing away your overflow checks.</p><p>Key limits (from <code>&lt;climits&gt;</code>):</p><ul><li><code>INT_MAX</code> = 2,147,483,647 (approximately 2.1 x 10^9)</li><li><code>INT_MIN</code> = -2,147,483,648</li><li><code>LLONG_MAX</code> = 9,223,372,036,854,775,807 (approximately 9.2 x 10^18)</li><li><code>UINT_MAX</code> = 4,294,967,295</li></ul><h3>Implicit vs Explicit Type Casting</h3><p><strong>Implicit casting</strong> (type coercion) happens automatically when the compiler converts one type to another. The general rule is that smaller/less precise types are promoted to larger/more precise types:</p><ul><li><code>char</code> -> <code>int</code> -> <code>long</code> -> <code>long long</code> -> <code>float</code> -> <code>double</code></li><li>When you write <code>int a = 5; double b = a;</code>, the int 5 is implicitly converted to double 5.0.</li><li>Dangerous direction: <code>double d = 3.99; int n = d;</code> -- this silently truncates to 3.</li></ul><p><strong>Explicit casting</strong> is when you intentionally force a conversion:</p><ul><li><strong>C-style cast:</strong> <code>(int)3.7</code> or <code>(double)5</code> -- works but is not type-safe.</li><li><strong>static_cast (C++ style):</strong> <code>static_cast&lt;int&gt;(3.7)</code> -- preferred in modern C++ because it is checked at compile time and makes your intent explicit. It will not let you do dangerous casts (like casting between unrelated pointer types).</li></ul><h3>The auto Keyword (C++11)</h3><p>The <code>auto</code> keyword tells the compiler to deduce the type from the initializer. <code>auto x = 42;</code> makes <code>x</code> an <code>int</code>. <code>auto y = 3.14;</code> makes <code>y</code> a <code>double</code>. The variable still has a fixed type -- it is determined at compile time, not runtime. <code>auto</code> is especially useful with complex types like iterators: <code>auto it = myMap.begin();</code> instead of <code>map&lt;string, int&gt;::iterator it = myMap.begin();</code>.</p><h3>const and constexpr</h3><p><code>const</code> means \"this value will not change after initialization.\" It is a promise to the compiler. <code>const int MAX_SIZE = 100;</code> prevents accidental modification.</p><p><code>constexpr</code> (C++11) is stronger: it means \"this value is known at compile time.\" <code>constexpr int SQUARE = 5 * 5;</code> guarantees the computation happens during compilation, not at runtime. Use <code>constexpr</code> for values that are truly compile-time constants. Use <code>const</code> for values that should not change but might be computed at runtime.</p><h3>ASCII Values and char Arithmetic</h3><p>Every <code>char</code> in C++ is stored as an integer (its ASCII value). <code>'A'</code> is 65, <code>'a'</code> is 97, <code>'0'</code> is 48. Because chars are integers, you can perform arithmetic on them:</p><ul><li><code>'A' + 1</code> gives 66 (which is <code>'B'</code>)</li><li><code>'a' - 'A'</code> gives 32 (the difference between lowercase and uppercase)</li><li><code>char c = '5'; int digit = c - '0';</code> converts the character '5' to the integer 5</li></ul><p>This is heavily used in competitive programming for character manipulation without using library functions.</p>",
+    "codeExamples": [
+      {
+        "title": "All Fundamental Data Types",
+        "code": "#include <iostream>\n#include <climits>\n#include <cfloat>\nusing namespace std;\n\nint main() {\n    bool flag = true;\n    char letter = 'A';\n    short s = 32000;\n    int num = 100000;\n    long l = 100000L;\n    long long ll = 9000000000000LL;\n    unsigned int u = 4000000000U;\n    float f = 3.14f;\n    double d = 3.141592653589793;\n    long double ld = 3.141592653589793238L;\n\n    cout << \"bool: \" << flag << \" (size: \" << sizeof(bool) << \")\" << endl;\n    cout << \"char: \" << letter << \" (size: \" << sizeof(char) << \")\" << endl;\n    cout << \"short: \" << s << \" (size: \" << sizeof(short) << \")\" << endl;\n    cout << \"int: \" << num << \" (size: \" << sizeof(int) << \")\" << endl;\n    cout << \"long: \" << l << \" (size: \" << sizeof(long) << \")\" << endl;\n    cout << \"long long: \" << ll << \" (size: \" << sizeof(long long) << \")\" << endl;\n    cout << \"unsigned int: \" << u << \" (size: \" << sizeof(unsigned int) << \")\" << endl;\n    cout << \"float: \" << f << \" (size: \" << sizeof(float) << \")\" << endl;\n    cout << \"double: \" << d << \" (size: \" << sizeof(double) << \")\" << endl;\n    cout << \"long double: \" << ld << \" (size: \" << sizeof(long double) << \")\" << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "This demonstrates every fundamental data type with its suffix (<code>L</code> for long, <code>LL</code> for long long, <code>U</code> for unsigned, <code>f</code> for float) and its size using <code>sizeof</code>. Note that <code>bool</code> prints as 1 (true) or 0 (false), not as the word \"true\".",
+        "output": "bool: 1 (size: 1)\nchar: A (size: 1)\nshort: 32000 (size: 2)\nint: 100000 (size: 4)\nlong: 100000 (size: 4)\nlong long: 9000000000000 (size: 8)\nunsigned int: 4000000000 (size: 4)\nfloat: 3.14 (size: 4)\ndouble: 3.14159 (size: 8)\nlong double: 3.14159 (size: 16)"
+      },
+      {
+        "title": "Three Ways to Initialize Variables",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    // Copy initialization (C-style)\n    int a = 10;\n\n    // Direct initialization\n    int b(20);\n\n    // Brace initialization (C++11) -- prevents narrowing\n    int c{30};\n\n    cout << \"Copy: \" << a << endl;\n    cout << \"Direct: \" << b << endl;\n    cout << \"Brace: \" << c << endl;\n\n    // Narrowing: this compiles with = but NOT with {}\n    // int d{3.5};  // ERROR: narrowing conversion\n    int d = 3.5;    // Compiles, d becomes 3 (truncated)\n    cout << \"Narrowed: \" << d << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "C++ offers three initialization syntaxes. Brace initialization <code>{}</code> is the safest because it rejects narrowing conversions at compile time. With <code>=</code> or <code>()</code>, the compiler silently truncates <code>3.5</code> to <code>3</code>. In interviews, this is a common question: what happens with <code>int x{3.5}</code> vs <code>int x = 3.5</code>?",
+        "output": "Copy: 10\nDirect: 20\nBrace: 30\nNarrowed: 3"
+      },
+      {
+        "title": "Integer Overflow Demonstration",
+        "code": "#include <iostream>\n#include <climits>\nusing namespace std;\n\nint main() {\n    int maxInt = INT_MAX;\n    cout << \"INT_MAX: \" << maxInt << endl;\n    cout << \"INT_MAX + 1: \" << maxInt + 1 << endl;  // Undefined behavior!\n\n    unsigned int u = 0;\n    cout << \"Unsigned 0 - 1: \" << u - 1 << endl;  // Wraps to UINT_MAX\n\n    short s = 32767;\n    s = s + 1;\n    cout << \"short 32767 + 1: \" << s << endl;  // Wraps to -32768\n\n    cout << \"INT_MAX: \" << INT_MAX << endl;\n    cout << \"INT_MIN: \" << INT_MIN << endl;\n    cout << \"LLONG_MAX: \" << LLONG_MAX << endl;\n    cout << \"UINT_MAX: \" << UINT_MAX << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Overflow is the most common bug in competitive programming. When <code>INT_MAX</code> (2,147,483,647) is incremented, signed overflow occurs -- this is technically undefined behavior, but on most systems it wraps to <code>INT_MIN</code> (-2,147,483,648). Unsigned overflow is well-defined: <code>0 - 1</code> for unsigned int wraps to <code>UINT_MAX</code> (4,294,967,295). Always use <code>long long</code> when values can exceed 2 x 10^9.",
+        "output": "INT_MAX: 2147483647\nINT_MAX + 1: -2147483648\nUnsigned 0 - 1: 4294967295\nshort 32767 + 1: -32768\nINT_MAX: 2147483647\nINT_MIN: -2147483648\nLLONG_MAX: 9223372036854775807\nUINT_MAX: 4294967295"
+      },
+      {
+        "title": "Implicit and Explicit Type Casting",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    // Implicit: int to double (safe, no data loss)\n    int a = 7;\n    double b = a;  // 7 becomes 7.0\n    cout << \"int to double: \" << b << endl;\n\n    // Implicit: double to int (dangerous, truncates)\n    double pi = 3.14159;\n    int truncated = pi;  // 3.14159 becomes 3\n    cout << \"double to int: \" << truncated << endl;\n\n    // Explicit: C-style cast\n    double x = 9.8;\n    int y = (int)x;\n    cout << \"C-style cast: \" << y << endl;\n\n    // Explicit: static_cast (modern C++, preferred)\n    double m = 7.65;\n    int n = static_cast<int>(m);\n    cout << \"static_cast: \" << n << endl;\n\n    // Integer division fix\n    int p = 7, q = 2;\n    cout << \"7 / 2 (int): \" << p / q << endl;\n    cout << \"7 / 2 (cast): \" << static_cast<double>(p) / q << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Implicit conversion from <code>int</code> to <code>double</code> is safe (widening). Converting <code>double</code> to <code>int</code> truncates the decimal part (not rounding -- 3.9 becomes 3, not 4). <code>static_cast</code> is preferred over C-style casts because it is checked at compile time. The last example shows the classic integer division fix: cast one operand to <code>double</code> before dividing.",
+        "output": "int to double: 7\ndouble to int: 3\nC-style cast: 9\nstatic_cast: 7\n7 / 2 (int): 3\n7 / 2 (cast): 3.5"
+      },
+      {
+        "title": "auto Keyword and const/constexpr",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    auto x = 42;        // int\n    auto y = 3.14;      // double\n    auto z = 'A';       // char\n    auto w = true;      // bool\n    auto s = \"Hello\";   // const char* (NOT string)\n\n    cout << \"x (int): \" << x << \", size: \" << sizeof(x) << endl;\n    cout << \"y (double): \" << y << \", size: \" << sizeof(y) << endl;\n    cout << \"z (char): \" << z << \", size: \" << sizeof(z) << endl;\n    cout << \"w (bool): \" << w << \", size: \" << sizeof(w) << endl;\n\n    const int MAX_MARKS = 100;\n    // MAX_MARKS = 200;  // ERROR: assignment of read-only variable\n\n    constexpr int SQUARE = 5 * 5;  // Computed at compile time\n    constexpr double PI = 3.14159265358979;\n\n    cout << \"MAX_MARKS: \" << MAX_MARKS << endl;\n    cout << \"SQUARE: \" << SQUARE << endl;\n    cout << \"PI: \" << PI << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>auto</code> deduces the type from the assigned value. Note that <code>auto s = \"Hello\"</code> deduces to <code>const char*</code>, not <code>std::string</code>. <code>const</code> prevents modification after initialization. <code>constexpr</code> guarantees compile-time evaluation -- the value is baked into the binary. Use <code>constexpr</code> for true constants (pi, max sizes) and <code>const</code> for values that should not change but may be computed at runtime.",
+        "output": "x (int): 42, size: 4\ny (double): 3.14, size: 8\nz (char): A, size: 1\nw (bool): 1, size: 1\nMAX_MARKS: 100\nSQUARE: 25\nPI: 3.14159"
+      },
+      {
+        "title": "ASCII Values and char Arithmetic",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    char ch = 'A';\n    cout << \"Character: \" << ch << endl;\n    cout << \"ASCII value: \" << (int)ch << endl;\n\n    // char arithmetic\n    cout << \"'A' + 1 = \" << (char)('A' + 1) << \" (ASCII \" << 'A' + 1 << \")\" << endl;\n    cout << \"'a' - 'A' = \" << 'a' - 'A' << endl;  // 32\n    cout << \"'Z' - 'A' = \" << 'Z' - 'A' << endl;  // 25\n\n    // Convert char digit to int\n    char digit = '7';\n    int value = digit - '0';  // '7' - '0' = 55 - 48 = 7\n    cout << \"char '\" << digit << \"' to int: \" << value << endl;\n\n    // Convert lowercase to uppercase\n    char lower = 'm';\n    char upper = lower - 32;  // or lower - ('a' - 'A')\n    cout << lower << \" to uppercase: \" << upper << endl;\n\n    // Print all uppercase letters\n    cout << \"A-Z: \";\n    for (char c = 'A'; c <= 'Z'; c++) {\n        cout << c;\n    }\n    cout << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Every <code>char</code> is an integer internally. <code>'A'</code> is 65, <code>'a'</code> is 97, <code>'0'</code> is 48. The expression <code>c - '0'</code> converts a digit character to its numeric value -- this is used constantly in competitive programming when parsing input character by character. The difference between <code>'a'</code> and <code>'A'</code> is always 32, which enables case conversion without library functions.",
+        "output": "Character: A\nASCII value: 65\n'A' + 1 = B (ASCII 66)\n'a' - 'A' = 32\n'Z' - 'A' = 25\nchar '7' to int: 7\nm to uppercase: M\nA-Z: ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+      },
+      {
+        "title": "Type Limits from <climits> and <cfloat>",
+        "code": "#include <iostream>\n#include <climits>\n#include <cfloat>\nusing namespace std;\n\nint main() {\n    cout << \"=== Integer Limits ===\" << endl;\n    cout << \"CHAR_MIN: \" << CHAR_MIN << endl;\n    cout << \"CHAR_MAX: \" << CHAR_MAX << endl;\n    cout << \"SHRT_MIN: \" << SHRT_MIN << endl;\n    cout << \"SHRT_MAX: \" << SHRT_MAX << endl;\n    cout << \"INT_MIN:  \" << INT_MIN << endl;\n    cout << \"INT_MAX:  \" << INT_MAX << endl;\n    cout << \"LLONG_MIN: \" << LLONG_MIN << endl;\n    cout << \"LLONG_MAX: \" << LLONG_MAX << endl;\n    cout << \"UINT_MAX:  \" << UINT_MAX << endl;\n\n    cout << \"\\n=== Floating Point Limits ===\" << endl;\n    cout << \"FLT_MIN: \" << FLT_MIN << endl;\n    cout << \"FLT_MAX: \" << FLT_MAX << endl;\n    cout << \"DBL_MIN: \" << DBL_MIN << endl;\n    cout << \"DBL_MAX: \" << DBL_MAX << endl;\n    cout << \"FLT_DIG (decimal digits): \" << FLT_DIG << endl;\n    cout << \"DBL_DIG (decimal digits): \" << DBL_DIG << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The headers <code>&lt;climits&gt;</code> and <code>&lt;cfloat&gt;</code> define macros for the minimum and maximum values of each type. <code>FLT_DIG</code> is 6 (float has ~7 significant digits) and <code>DBL_DIG</code> is 15 (double has ~15-16 significant digits). These macros are essential for competitive programming to check if your values fit in a given type.",
+        "output": "=== Integer Limits ===\nCHAR_MIN: -128\nCHAR_MAX: 127\nSHRT_MIN: -32768\nSHRT_MAX: 32767\nINT_MIN:  -2147483648\nINT_MAX:  2147483647\nLLONG_MIN: -9223372036854775808\nLLONG_MAX: 9223372036854775807\nUINT_MAX:  4294967295\n\n=== Floating Point Limits ===\nFLT_MIN: 1.17549e-38\nFLT_MAX: 3.40282e+38\nDBL_MIN: 2.22507e-308\nDBL_MAX: 1.79769e+308\nFLT_DIG (decimal digits): 6\nDBL_DIG (decimal digits): 15"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Integer Overflow in Multiplication",
+        "wrongCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int a = 100000;\n    int b = 100000;\n    int result = a * b;  // Overflows!\n    cout << result << endl;\n    return 0;\n}",
+        "error": "Prints 1410065408 instead of 10000000000 (silent overflow, no compiler error)",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    long long a = 100000;\n    long long b = 100000;\n    long long result = a * b;\n    cout << result << endl;\n    return 0;\n}",
+        "explanation": "100000 x 100000 = 10^10, which exceeds <code>INT_MAX</code> (~2.1 x 10^9). The multiplication happens in <code>int</code> precision and overflows before the result is stored. Even if <code>result</code> is <code>long long</code>, if both operands are <code>int</code>, the multiplication is done in <code>int</code>. At least one operand must be <code>long long</code>."
+      },
+      {
+        "title": "Assigning a Negative Value to unsigned int",
+        "wrongCode": "#include <iostream>\nusing namespace std;\nint main() {\n    unsigned int x = -1;\n    cout << x << endl;\n    return 0;\n}",
+        "error": "Prints 4294967295 instead of -1 (no compiler error by default)",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int x = -1;  // Use signed int for negative values\n    cout << x << endl;\n    return 0;\n}",
+        "explanation": "Assigning -1 to an <code>unsigned int</code> wraps around using modular arithmetic: -1 mod 2^32 = 4,294,967,295 (<code>UINT_MAX</code>). This is well-defined in C++ but almost always a bug. Never use unsigned types for values that could be negative. A common trap: <code>string::find()</code> returns <code>string::npos</code> which is an unsigned value."
+      },
+      {
+        "title": "Using = Instead of == and Getting Implicit Conversion",
+        "wrongCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int x = 0;\n    if (x = 5) {  // Assignment, not comparison!\n        cout << \"This always executes\" << endl;\n    }\n    cout << \"x is now: \" << x << endl;\n    return 0;\n}",
+        "error": "x becomes 5 (assigned), and the if condition is true (5 is non-zero). No compiler error.",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int x = 0;\n    if (x == 5) {  // Comparison\n        cout << \"x is 5\" << endl;\n    }\n    cout << \"x is still: \" << x << endl;\n    return 0;\n}",
+        "explanation": "In C++, <code>x = 5</code> inside an <code>if</code> is legal -- it assigns 5 to x and then evaluates the result (5, which is truthy). This is a classic bug. Compile with <code>-Wall</code> to get a warning. Some programmers write <code>if (5 == x)</code> (Yoda conditions) to catch this, since <code>5 = x</code> would cause a compiler error."
+      },
+      {
+        "title": "Floating Point Precision Loss",
+        "wrongCode": "#include <iostream>\nusing namespace std;\nint main() {\n    float f = 123456789.0f;\n    cout << f << endl;  // Loses precision!\n    return 0;\n}",
+        "error": "Prints 123456792 instead of 123456789 (float has only ~7 digits of precision)",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    double d = 123456789.0;\n    cout << d << endl;  // double has ~15 digits of precision\n    return 0;\n}",
+        "explanation": "<code>float</code> has only about 7 significant decimal digits. The value 123456789 has 9 digits, so precision is lost. <code>double</code> has about 15 significant digits, which is sufficient. In competitive programming, always use <code>double</code> for floating-point values unless you have a specific reason to use <code>float</code>."
+      },
+      {
+        "title": "Uninitialized Variable Contains Garbage",
+        "wrongCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int x;\n    cout << x << endl;  // Garbage value!\n    return 0;\n}",
+        "error": "Prints unpredictable garbage value (could be anything: 0, -858993460, 32767, etc.)",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int x = 0;  // Always initialize\n    cout << x << endl;\n    return 0;\n}",
+        "explanation": "Unlike Java (which initializes to 0) or Python (which requires assignment), C++ does NOT initialize local variables. An uninitialized variable contains whatever was previously in that memory location. This is <strong>undefined behavior</strong> and a common source of hard-to-find bugs. Always initialize your variables."
+      }
+    ],
+    "summary": [
+      "C++ has primitive types: bool (1 byte), char (1 byte), short (2 bytes), int (4 bytes), long (4/8 bytes), long long (8 bytes), float (4 bytes), double (8 bytes). Use sizeof() to check sizes.",
+      "Variables can be initialized three ways: copy (int x = 10), direct (int x(10)), and brace (int x{10}). Brace initialization prevents narrowing conversions and is the safest form.",
+      "Integer overflow is the most common CP bug. INT_MAX is ~2.1 x 10^9. Use long long for values up to ~9.2 x 10^18. Signed overflow is undefined behavior; unsigned overflow wraps around.",
+      "Implicit casting follows a promotion hierarchy: char -> int -> long -> long long -> float -> double. Narrowing (double to int) silently truncates the decimal part.",
+      "Explicit casting: C-style (int)x works but is not type-safe. static_cast<int>(x) is preferred in modern C++ because it is compile-time checked.",
+      "The auto keyword (C++11) deduces the type from the initializer. The type is still fixed at compile time. auto x = 42 makes x an int, not a dynamic type.",
+      "const prevents modification after initialization. constexpr guarantees compile-time evaluation. Use constexpr for true constants like pi or array sizes.",
+      "Characters are stored as ASCII integers. 'A' is 65, 'a' is 97, '0' is 48. char arithmetic (c - '0', c - 'A', c + 32) is used extensively in competitive programming.",
+      "Use <climits> for INT_MAX, INT_MIN, LLONG_MAX and <cfloat> for FLT_MAX, DBL_MAX. These are essential for checking if values fit in a type.",
+      "float has ~7 decimal digits of precision, double has ~15. Always prefer double over float in competitive programming and general use."
+    ]
+  },
+  "relatedTopics": ["setting-up-and-first-program", "operators-in-cpp"],
+  "practice": {
+    "totalQuestions": 57,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = 10;\n    cout &lt;&lt; x &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "A simple variable declaration and print.",
+        "answer": "<code>10</code>",
+        "explanation": "The integer variable <code>x</code> is initialized to 10 and printed. Straightforward output."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    double d = 3.5;\n    int n = d;\n    cout &lt;&lt; n &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "What happens when a double is assigned to an int?",
+        "answer": "<code>3</code>",
+        "explanation": "When a <code>double</code> is assigned to an <code>int</code>, the decimal part is <strong>truncated</strong> (not rounded). 3.5 becomes 3, not 4. This is an implicit narrowing conversion."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    char c = 'B';\n    cout &lt;&lt; (int)c &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "What is the ASCII value of 'B'?",
+        "answer": "<code>66</code>",
+        "explanation": "<code>'B'</code> has ASCII value 66 (A=65, B=66, C=67, ...). Casting a <code>char</code> to <code>int</code> reveals its ASCII integer representation."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    bool a = true;\n    bool b = false;\n    cout &lt;&lt; a &lt;&lt; \" \" &lt;&lt; b &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "How does cout display bool values?",
+        "answer": "<code>1 0</code>",
+        "explanation": "By default, <code>cout</code> prints <code>bool</code> values as integers: <code>true</code> is <code>1</code>, <code>false</code> is <code>0</code>. To print \"true\"/\"false\" as words, use <code>cout &lt;&lt; boolalpha</code>."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; sizeof(int) &lt;&lt; \" \" &lt;&lt; sizeof(double) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Standard sizes on a 64-bit system.",
+        "answer": "<code>4 8</code>",
+        "explanation": "On most modern systems, <code>sizeof(int)</code> is 4 bytes and <code>sizeof(double)</code> is 8 bytes."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 2147483647; // INT_MAX\n    a = a + 1;\n    cout &lt;&lt; a &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "What happens when you exceed the maximum value of a signed int?",
+        "answer": "<code>-2147483648</code> (on most systems, but technically undefined behavior)",
+        "explanation": "Signed integer overflow is <strong>undefined behavior</strong> in C++. On most two's complement systems, <code>INT_MAX + 1</code> wraps to <code>INT_MIN</code> (-2,147,483,648). The compiler is free to do anything, but this is the typical result."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    char c = 'A' + 3;\n    cout &lt;&lt; c &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "'A' is 65 in ASCII. What character is at 68?",
+        "answer": "<code>D</code>",
+        "explanation": "<code>'A'</code> has ASCII value 65. Adding 3 gives 68, which is the ASCII code for <code>'D'</code>. Since <code>c</code> is declared as <code>char</code>, it prints the character, not the number."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    unsigned int u = 0;\n    u = u - 1;\n    cout &lt;&lt; u &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Unsigned integer subtraction wraps around.",
+        "answer": "<code>4294967295</code>",
+        "explanation": "Unsigned integer arithmetic uses modular arithmetic. <code>0 - 1</code> wraps to <code>2^32 - 1 = 4,294,967,295</code> (UINT_MAX). Unlike signed overflow, unsigned overflow is well-defined in C++."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    auto x = 5;\n    auto y = 5.0;\n    cout &lt;&lt; sizeof(x) &lt;&lt; \" \" &lt;&lt; sizeof(y) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "auto deduces the type: 5 is int, 5.0 is double.",
+        "answer": "<code>4 8</code>",
+        "explanation": "<code>auto x = 5</code> deduces <code>int</code> (size 4). <code>auto y = 5.0</code> deduces <code>double</code> (size 8). The literal <code>5.0</code> has a decimal point, making it a double literal."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 100000;\n    int b = 100000;\n    long long result = a * b;\n    cout &lt;&lt; result &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Both a and b are int. What precision is the multiplication done in?",
+        "answer": "<code>1410065408</code> (not 10000000000)",
+        "explanation": "Even though <code>result</code> is <code>long long</code>, the multiplication <code>a * b</code> is performed in <code>int</code> precision because both operands are <code>int</code>. The result overflows <code>int</code> before being assigned to the <code>long long</code>. Fix: cast one operand first, e.g., <code>(long long)a * b</code>."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    char c = '9';\n    int digit = c - '0';\n    cout &lt;&lt; digit &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "'0' is 48 in ASCII, '9' is 57.",
+        "answer": "<code>9</code>",
+        "explanation": "<code>'9'</code> is ASCII 57, <code>'0'</code> is ASCII 48. <code>57 - 48 = 9</code>. This <code>c - '0'</code> idiom is the standard way to convert a digit character to its integer value in C/C++."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between <code>int</code> and <code>long long</code> in terms of size and range?",
+        "hint": "Think about 4 bytes vs 8 bytes.",
+        "answer": "<code>int</code> is 4 bytes with range approximately -2.1 x 10^9 to +2.1 x 10^9. <code>long long</code> is 8 bytes with range approximately -9.2 x 10^18 to +9.2 x 10^18. Use <code>long long</code> when values can exceed 2 x 10^9.",
+        "explanation": "In competitive programming, if a problem mentions values up to 10^9, <code>int</code> is sufficient. If values can reach 10^18 or if intermediate computations (like multiplication of two ints) can overflow, use <code>long long</code>."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>const</code> and <code>constexpr</code>?",
+        "hint": "Both prevent modification, but one guarantees compile-time evaluation.",
+        "answer": "<code>const</code> means the value cannot be changed after initialization, but the initial value may be computed at runtime. <code>constexpr</code> means the value must be computable at compile time and is embedded directly in the binary. <code>constexpr</code> implies <code>const</code>.",
+        "explanation": "Example: <code>const int x = someFunction();</code> is valid -- the value is set at runtime but cannot change. <code>constexpr int y = someFunction();</code> only compiles if <code>someFunction()</code> is also <code>constexpr</code>. Use <code>constexpr</code> for things like array sizes, mathematical constants, and lookup tables."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why does brace initialization <code>int x{3.5};</code> cause a compiler error while <code>int x = 3.5;</code> does not?",
+        "hint": "Brace initialization was designed to be stricter.",
+        "answer": "Brace initialization (C++11) was specifically designed to prevent <strong>narrowing conversions</strong> -- conversions that lose data. Converting 3.5 (double) to int loses the .5, which is a narrowing conversion. Copy initialization (<code>=</code>) allows this silently for backward compatibility with C.",
+        "explanation": "This is why brace initialization is considered the safest form. It catches bugs at compile time that would otherwise be silent truncations. In new C++ code, prefer <code>{}</code> over <code>=</code> for initialization."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    float f = 1.1f;\n    double d = 1.1;\n    if (f == d) {\n        cout &lt;&lt; \"Equal\" &lt;&lt; endl;\n    } else {\n        cout &lt;&lt; \"Not equal\" &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "float and double represent 1.1 with different precision.",
+        "answer": "<code>Not equal</code>",
+        "explanation": "1.1 cannot be represented exactly in binary floating point. <code>float</code> stores it with ~7 digits of precision and <code>double</code> with ~15 digits. When <code>f</code> is promoted to <code>double</code> for comparison, the two representations differ slightly. Never compare floating-point numbers with <code>==</code>."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = -1;\n    unsigned int y = 1;\n    if (x &lt; y) {\n        cout &lt;&lt; \"-1 is less\" &lt;&lt; endl;\n    } else {\n        cout &lt;&lt; \"-1 is NOT less\" &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>",
+        "hint": "When comparing signed and unsigned, the signed value is converted to unsigned.",
+        "answer": "<code>-1 is NOT less</code>",
+        "explanation": "When a signed int is compared with an unsigned int, the signed value is implicitly converted to unsigned. <code>-1</code> becomes <code>4294967295</code> (UINT_MAX), which is greater than 1. This is a classic C++ trap and a favorite interview question."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the difference between a C-style cast <code>(int)x</code> and <code>static_cast&lt;int&gt;(x)</code>?",
+        "hint": "Think about type safety and what the compiler checks.",
+        "answer": "A C-style cast <code>(int)x</code> is unchecked -- it will attempt any conversion, even dangerous ones (like casting between unrelated pointer types). <code>static_cast&lt;int&gt;(x)</code> is checked at compile time and only allows conversions that make semantic sense (like numeric conversions). It refuses dangerous casts, making bugs easier to catch.",
+        "explanation": "<code>static_cast</code> is preferred in modern C++ because: (1) it is searchable in code (grep for static_cast), (2) it documents intent, (3) it prevents accidental dangerous casts. C-style casts are a holdover from C and should be avoided in new code."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 7, b = 2;\n    cout &lt;&lt; a / b &lt;&lt; endl;\n    cout &lt;&lt; (double)a / b &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Integer division truncates. Casting one operand to double changes the division.",
+        "answer": "<code>3</code><br><code>3.5</code>",
+        "explanation": "<code>7 / 2</code> with both as <code>int</code> gives <code>3</code> (integer division truncates). <code>(double)7 / 2</code> promotes the division to floating-point, giving <code>3.5</code>. This is a fundamental technique for getting accurate division results."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x;\n    cout &lt;&lt; sizeof(x) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "sizeof works on variables too, not just types.",
+        "answer": "<code>4</code>",
+        "explanation": "<code>sizeof</code> can take either a type name (<code>sizeof(int)</code>) or a variable (<code>sizeof(x)</code>). Both return the size in bytes. Since <code>x</code> is an <code>int</code>, the result is 4."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    char lower = 'g';\n    char upper = lower - ('a' - 'A');\n    cout &lt;&lt; upper &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "'a' - 'A' is 32, the gap between lowercase and uppercase.",
+        "answer": "<code>G</code>",
+        "explanation": "<code>'a' - 'A'</code> is 97 - 65 = 32. <code>'g' - 32</code> is 103 - 32 = 71, which is the ASCII code for <code>'G'</code>. This is the manual way to convert lowercase to uppercase without using <code>toupper()</code>."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 5, b = 10;\n    double c = a + b;\n    cout &lt;&lt; c &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "int + int is int, then converted to double for storage.",
+        "answer": "<code>15</code>",
+        "explanation": "<code>5 + 10</code> is computed as int (15), then implicitly converted to double (15.0). <code>cout</code> prints <code>15</code> (no decimal point when the fractional part is zero, by default)."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    char ch = 65;\n    cout &lt;&lt; ch &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "65 is the ASCII code for which character?",
+        "answer": "<code>A</code>",
+        "explanation": "When you assign an integer to a <code>char</code>, it is interpreted as an ASCII value. 65 is the ASCII code for <code>'A'</code>. Since <code>ch</code> is a <code>char</code>, <code>cout</code> prints the character, not the number."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    double x = 9.99;\n    int y = static_cast&lt;int&gt;(x);\n    cout &lt;&lt; y &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "static_cast from double to int truncates.",
+        "answer": "<code>9</code>",
+        "explanation": "<code>static_cast&lt;int&gt;(9.99)</code> truncates the decimal part, yielding <code>9</code>. Note it is truncation, not rounding -- 9.99 becomes 9, not 10."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    bool a = 42;\n    bool b = 0;\n    bool c = -1;\n    cout &lt;&lt; a &lt;&lt; \" \" &lt;&lt; b &lt;&lt; \" \" &lt;&lt; c &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Any non-zero value is true, zero is false.",
+        "answer": "<code>1 0 1</code>",
+        "explanation": "When an integer is assigned to <code>bool</code>, 0 becomes <code>false</code> (0) and any non-zero value becomes <code>true</code> (1). So 42 becomes true (1), 0 stays false (0), and -1 becomes true (1)."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = 5;\n    double y = 2.0;\n    auto z = x + y;\n    cout &lt;&lt; z &lt;&lt; \" \" &lt;&lt; sizeof(z) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "int + double promotes to double. auto deduces double.",
+        "answer": "<code>7 8</code>",
+        "explanation": "When <code>int</code> and <code>double</code> are added, the <code>int</code> is promoted to <code>double</code>. The result is <code>double</code> (7.0), and <code>auto</code> deduces <code>z</code> as <code>double</code>. <code>sizeof(double)</code> is 8."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    short s = 32767;\n    s = s + 1;\n    cout &lt;&lt; s &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "32767 is the maximum value for a signed short (2 bytes).",
+        "answer": "<code>-32768</code>",
+        "explanation": "<code>short</code> is 2 bytes with range -32768 to 32767. Adding 1 to 32767 overflows and wraps to -32768 on most systems. Note: the addition <code>s + 1</code> is actually done in <code>int</code> (integer promotion), but the result is stored back in <code>short</code>, which truncates to -32768."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; sizeof(3 + 4.0) &lt;&lt; endl;\n    cout &lt;&lt; sizeof('A' + 1) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "3 + 4.0 promotes to double. 'A' + 1 promotes char to int.",
+        "answer": "<code>8</code><br><code>4</code>",
+        "explanation": "<code>3 + 4.0</code>: int 3 is promoted to double, so the expression type is <code>double</code> (8 bytes). <code>'A' + 1</code>: <code>char</code> is promoted to <code>int</code> for arithmetic, so the expression type is <code>int</code> (4 bytes). <code>sizeof</code> evaluates the type of the expression without computing it."
+      },
+      {
+        "id": "mx-8",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a C++ program that declares variables of types int, double, char, and bool, assigns values to them, and prints each with its sizeof.",
+        "hint": "Use sizeof(variable_name) for each variable.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int age = 20;\n    double gpa = 8.75;\n    char grade = 'A';\n    bool passed = true;\n    cout &lt;&lt; \"age = \" &lt;&lt; age &lt;&lt; \", size = \" &lt;&lt; sizeof(age) &lt;&lt; endl;\n    cout &lt;&lt; \"gpa = \" &lt;&lt; gpa &lt;&lt; \", size = \" &lt;&lt; sizeof(gpa) &lt;&lt; endl;\n    cout &lt;&lt; \"grade = \" &lt;&lt; grade &lt;&lt; \", size = \" &lt;&lt; sizeof(grade) &lt;&lt; endl;\n    cout &lt;&lt; \"passed = \" &lt;&lt; passed &lt;&lt; \", size = \" &lt;&lt; sizeof(passed) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "explanation": "This demonstrates the four most common types. <code>sizeof</code> returns: int=4, double=8, char=1, bool=1. Note that <code>bool</code> prints as 1 (true), not the word \"true\"."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program that takes two integer inputs and prints their division result as a floating-point number (not truncated).",
+        "hint": "Cast one operand to double before dividing.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a, b;\n    cin &gt;&gt; a &gt;&gt; b;\n    double result = static_cast&lt;double&gt;(a) / b;\n    cout &lt;&lt; result &lt;&lt; endl;\n    return 0;\n}</code></pre>\nInput: 7 2\nOutput: 3.5",
+        "explanation": "<code>static_cast&lt;double&gt;(a)</code> converts <code>a</code> to double before the division, forcing floating-point division. Without the cast, <code>7 / 2</code> would give <code>3</code> (integer division)."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = 1000000;\n    int y = 1000000;\n    long long z = (long long)x * y;\n    cout &lt;&lt; z &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "The cast to long long happens before the multiplication.",
+        "answer": "<code>1000000000000</code>",
+        "explanation": "<code>(long long)x</code> casts <code>x</code> to <code>long long</code> before the multiplication. Now the multiplication is done in <code>long long</code> precision (since one operand is <code>long long</code>), so no overflow occurs. The result is 10^12, which fits in <code>long long</code>."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the auto keyword in C++11, and does it make C++ dynamically typed?",
+        "hint": "auto deduces the type at compile time, not runtime.",
+        "answer": "The <code>auto</code> keyword tells the compiler to deduce the variable's type from its initializer. <code>auto x = 42;</code> makes <code>x</code> an <code>int</code>. C++ is <strong>still statically typed</strong> -- the type is determined at compile time and cannot change. <code>auto</code> is syntactic convenience, not dynamic typing.",
+        "explanation": "<code>auto</code> is especially useful with complex types like iterators (<code>auto it = vec.begin();</code>) and lambda types. You cannot write <code>auto x;</code> without an initializer -- the compiler needs something to deduce from."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    const int N = 10;\n    cout &lt;&lt; N &lt;&lt; endl;\n    // N = 20;  // Would this work?\n    return 0;\n}</code></pre>",
+        "hint": "const prevents modification.",
+        "answer": "<code>10</code>",
+        "explanation": "The <code>const</code> variable <code>N</code> is initialized to 10 and printed. The commented line <code>N = 20;</code> would cause a compiler error because <code>const</code> variables cannot be reassigned."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the size of <code>int</code> on most modern 64-bit systems?",
+        "options": {
+          "A": "2 bytes",
+          "B": "4 bytes",
+          "C": "8 bytes",
+          "D": "Depends on the compiler"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> On virtually all modern systems (32-bit and 64-bit), <code>int</code> is 4 bytes (32 bits). The C++ standard only guarantees at least 16 bits, but in practice it is always 32 bits."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which data type should you use when values can reach 10^18?",
+        "options": {
+          "A": "int",
+          "B": "long",
+          "C": "long long",
+          "D": "unsigned int"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>long long</code> is 8 bytes with a max of ~9.2 x 10^18. <code>int</code> (max ~2.1 x 10^9) and <code>unsigned int</code> (max ~4.3 x 10^9) are too small. <code>long</code> may be 4 or 8 bytes depending on the platform."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is the ASCII value of 'A' in C++?",
+        "options": {
+          "A": "48",
+          "B": "65",
+          "C": "97",
+          "D": "90"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>'A'</code> is 65. <code>'a'</code> is 97. <code>'0'</code> is 48. <code>'Z'</code> is 90. These ASCII values are fundamental and frequently tested."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does <code>sizeof(char)</code> always return in C++?",
+        "options": {
+          "A": "0",
+          "B": "1",
+          "C": "2",
+          "D": "It varies by platform"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The C++ standard guarantees that <code>sizeof(char)</code> is always exactly 1 byte on every platform and every compiler."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What value does <code>bool b = 42;</code> assign to b?",
+        "options": {
+          "A": "42",
+          "B": "0",
+          "C": "1 (true)",
+          "D": "Compilation error"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Any non-zero integer converts to <code>true</code> (1) when assigned to <code>bool</code>. Only 0 converts to <code>false</code> (0)."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What happens with <code>int x{3.5};</code> in C++11?",
+        "options": {
+          "A": "x becomes 3 (truncated)",
+          "B": "x becomes 4 (rounded)",
+          "C": "Compilation error: narrowing conversion",
+          "D": "x becomes 3.5"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Brace initialization prevents narrowing conversions. Converting <code>double 3.5</code> to <code>int</code> loses the 0.5, which is a narrowing conversion. The compiler rejects it with an error."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the value of <code>'a' - 'A'</code>?",
+        "options": {
+          "A": "26",
+          "B": "32",
+          "C": "48",
+          "D": "97"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>'a'</code> is 97 and <code>'A'</code> is 65. The difference is 32. This constant gap applies to all letters: <code>'b' - 'B'</code> is also 32, <code>'z' - 'Z'</code> is also 32."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which of the following is the preferred explicit cast in modern C++?",
+        "options": {
+          "A": "(int)x",
+          "B": "int(x)",
+          "C": "static_cast<int>(x)",
+          "D": "cast<int>(x)"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>static_cast&lt;int&gt;(x)</code> is the recommended explicit cast. It is type-safe (checked at compile time), searchable, and clearly documents intent. C-style cast <code>(int)x</code> and functional cast <code>int(x)</code> are less safe. <code>cast&lt;int&gt;</code> is not valid C++."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does <code>constexpr int N = 10;</code> guarantee?",
+        "options": {
+          "A": "N can be changed at runtime",
+          "B": "N is computed at runtime but cannot be changed",
+          "C": "N is computed at compile time and cannot be changed",
+          "D": "N is only a hint to the compiler"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>constexpr</code> guarantees that the value is computed at compile time and embedded in the binary. It also implies <code>const</code>, so <code>N</code> cannot be modified."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is the output of <code>cout << (int)('0');</code>?",
+        "options": {
+          "A": "0",
+          "B": "48",
+          "C": "65",
+          "D": "Compilation error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The character <code>'0'</code> (zero) has ASCII value 48. Casting it to <code>int</code> reveals this numeric value."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the result of <code>unsigned int u = -1; cout << u;</code>?",
+        "options": {
+          "A": "-1",
+          "B": "0",
+          "C": "4294967295",
+          "D": "Compilation error"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Assigning -1 to unsigned int performs modular arithmetic: -1 mod 2^32 = 4,294,967,295 (UINT_MAX). This compiles without error but is almost always a bug."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "In the expression <code>int a = 100000; int b = 100000; long long c = a * b;</code>, what is the value of c?",
+        "options": {
+          "A": "10000000000",
+          "B": "1410065408",
+          "C": "0",
+          "D": "Compilation error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The multiplication <code>a * b</code> is performed in <code>int</code> precision (both operands are int). 10^10 overflows int, producing a garbage value (1410065408). The overflow happens BEFORE assignment to <code>long long</code>. Fix: <code>(long long)a * b</code>."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What happens when comparing <code>int x = -1;</code> with <code>unsigned int y = 0;</code> using <code>x < y</code>?",
+        "options": {
+          "A": "true, because -1 < 0",
+          "B": "false, because -1 converts to UINT_MAX",
+          "C": "Compilation error",
+          "D": "Undefined behavior"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> When comparing signed and unsigned, the signed value is converted to unsigned. -1 becomes 4294967295 (UINT_MAX), which is greater than 0. So the comparison returns false. This is a well-known C++ pitfall."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "How many significant decimal digits of precision does <code>float</code> have?",
+        "options": {
+          "A": "~3 digits",
+          "B": "~7 digits",
+          "C": "~15 digits",
+          "D": "~19 digits"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>float</code> (4 bytes, 32-bit IEEE 754) has approximately 7 significant decimal digits. <code>double</code> (8 bytes) has ~15 digits. <code>long double</code> has ~18-19 digits."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What does <code>auto x = 5.0f;</code> deduce the type of x as?",
+        "options": {
+          "A": "int",
+          "B": "double",
+          "C": "float",
+          "D": "long double"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The literal <code>5.0f</code> has the <code>f</code> suffix, making it a <code>float</code> literal. Without the suffix, <code>5.0</code> would be <code>double</code>. <code>auto</code> deduces the exact type of the initializer."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What is the default value of an uninitialized local <code>int</code> variable in C++?",
+        "options": {
+          "A": "0",
+          "B": "-1",
+          "C": "Garbage (undefined)",
+          "D": "NULL"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Local variables in C++ are NOT initialized. They contain whatever was previously in that memory location. Global and static variables are initialized to 0."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "Which initialization syntax prevents narrowing conversions?",
+        "options": {
+          "A": "int x = 3.5;",
+          "B": "int x(3.5);",
+          "C": "int x{3.5};",
+          "D": "All of the above"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Brace initialization <code>{}</code> rejects narrowing conversions at compile time. <code>int x{3.5}</code> produces a compiler error because 3.5 cannot fit in int without data loss. Copy (<code>=</code>) and direct (<code>()</code>) initialization silently truncate."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the size of <code>long</code> on a 64-bit Windows system using MSVC?",
+        "options": {
+          "A": "4 bytes",
+          "B": "8 bytes",
+          "C": "16 bytes",
+          "D": "Same as long long"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> On Windows (MSVC), <code>long</code> is 4 bytes even on 64-bit systems (LLP64 model). On 64-bit Linux (GCC), <code>long</code> is 8 bytes (LP64 model). This platform difference is why <code>long long</code> is preferred for portability."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "What does <code>sizeof(3.14)</code> return?",
+        "options": {
+          "A": "4",
+          "B": "8",
+          "C": "16",
+          "D": "Depends on precision"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Floating-point literals without a suffix (like <code>3.14</code>) are <code>double</code> by default in C++. <code>sizeof(double)</code> is 8 bytes. To get a <code>float</code> literal, use <code>3.14f</code>."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Temperature Converter",
+        "difficulty": "Easy",
+        "description": "Write a C++ program that reads a temperature in Celsius (as a double) and converts it to Fahrenheit using the formula F = (C * 9/5) + 32. Print the result with the correct decimal value.",
+        "sampleInput": "37.0",
+        "sampleOutput": "98.6",
+        "constraints": "Use double for all calculations. Be careful with integer division: 9/5 is 1 in int arithmetic.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    double celsius;\n    cin >> celsius;\n    double fahrenheit = (celsius * 9.0 / 5.0) + 32.0;\n    cout << fahrenheit << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "ASCII Table Printer",
+        "difficulty": "Easy",
+        "description": "Write a program that prints the ASCII values of all uppercase letters (A-Z) and all digits (0-9). Format: 'A' = 65, 'B' = 66, etc.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "'A' = 65\n'B' = 66\n...\n'Z' = 90\n'0' = 48\n...\n'9' = 57",
+        "constraints": "Use a for loop with char type. Cast to int to get the ASCII value.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    for (char c = 'A'; c <= 'Z'; c++) {\n        cout << \"'\" << c << \"' = \" << (int)c << endl;\n    }\n    for (char c = '0'; c <= '9'; c++) {\n        cout << \"'\" << c << \"' = \" << (int)c << endl;\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Overflow Detector",
+        "difficulty": "Medium",
+        "description": "Write a program that reads two integers a and b. Determine whether a * b would overflow an int. If it overflows, compute the result using long long and print it. If it fits in int, print it as int. Use INT_MAX from <climits>.",
+        "sampleInput": "100000 100000",
+        "sampleOutput": "Overflow! Result (long long): 10000000000",
+        "constraints": "Do not actually overflow. Check if (long long)a * b > INT_MAX or < INT_MIN before computing in int.",
+        "solution": "#include <iostream>\n#include <climits>\nusing namespace std;\nint main() {\n    int a, b;\n    cin >> a >> b;\n    long long product = (long long)a * b;\n    if (product > INT_MAX || product < INT_MIN) {\n        cout << \"Overflow! Result (long long): \" << product << endl;\n    } else {\n        cout << \"Fits in int: \" << (int)product << endl;\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Character Case Converter",
+        "difficulty": "Medium",
+        "description": "Write a program that reads a single character. If it is an uppercase letter, convert it to lowercase. If it is a lowercase letter, convert it to uppercase. If it is neither, print it unchanged. Use ASCII arithmetic only (no toupper/tolower).",
+        "sampleInput": "g",
+        "sampleOutput": "G",
+        "constraints": "Use 'A'-'Z' range check and 'a'-'z' range check. The gap between uppercase and lowercase is 32.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    char c;\n    cin >> c;\n    if (c >= 'A' && c <= 'Z') {\n        cout << (char)(c + 32) << endl;\n    } else if (c >= 'a' && c <= 'z') {\n        cout << (char)(c - 32) << endl;\n    } else {\n        cout << c << endl;\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Digit Extractor",
+        "difficulty": "Medium",
+        "description": "Write a program that reads a 5-digit integer and prints each digit on a separate line. Use modulus (%) and division (/) operators, not string conversion.",
+        "sampleInput": "47329",
+        "sampleOutput": "4\n7\n3\n2\n9",
+        "constraints": "Extract digits using repeated division by 10. Print from most significant to least significant.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int n;\n    cin >> n;\n    cout << n / 10000 << endl;\n    cout << (n / 1000) % 10 << endl;\n    cout << (n / 100) % 10 << endl;\n    cout << (n / 10) % 10 << endl;\n    cout << n % 10 << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Type Size Comparator",
+        "difficulty": "Hard",
+        "description": "Write a program that demonstrates all three initialization styles (copy, direct, brace) for each fundamental type (int, double, char, bool). For each, print the variable value and its sizeof. Then show that brace initialization catches narrowing: attempt int x{3.14} in a comment and explain why it fails.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Copy: int a = 10, size = 4\nDirect: int b(20), size = 4\nBrace: int c{30}, size = 4\n...",
+        "constraints": "Use all three initialization styles. Include a comment showing the narrowing error.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    // Copy initialization\n    int a = 10;\n    double d1 = 3.14;\n    char c1 = 'A';\n    bool b1 = true;\n\n    // Direct initialization\n    int a2(20);\n    double d2(6.28);\n    char c2('B');\n    bool b2(false);\n\n    // Brace initialization\n    int a3{30};\n    double d3{9.42};\n    char c3{'C'};\n    bool b3{true};\n\n    cout << \"Copy:   int=\" << a << \"(\" << sizeof(a) << \") double=\" << d1 << \"(\" << sizeof(d1) << \") char=\" << c1 << \"(\" << sizeof(c1) << \") bool=\" << b1 << \"(\" << sizeof(b1) << \")\" << endl;\n    cout << \"Direct: int=\" << a2 << \"(\" << sizeof(a2) << \") double=\" << d2 << \"(\" << sizeof(d2) << \") char=\" << c2 << \"(\" << sizeof(c2) << \") bool=\" << b2 << \"(\" << sizeof(b2) << \")\" << endl;\n    cout << \"Brace:  int=\" << a3 << \"(\" << sizeof(a3) << \") double=\" << d3 << \"(\" << sizeof(d3) << \") char=\" << c3 << \"(\" << sizeof(c3) << \") bool=\" << b3 << \"(\" << sizeof(b3) << \")\" << endl;\n\n    // int x{3.14};  // ERROR: narrowing conversion from double to int\n    int x = 3.14;  // This compiles but truncates to 3\n    cout << \"Narrowed: \" << x << endl;\n\n    return 0;\n}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - KNN and Naive Bayes Classifiers | AI and Machine Learning | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="52+ practice questions on KNN and Naive Bayes Classifiers in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="knn and naive bayes classifiers practice, ai and machine learning questions, ai and machine learning practice problems, knn and naive bayes classifiers exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/knn-and-naive-bayes/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/knn-and-naive-bayes/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/knn-and-naive-bayes/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/knn-and-naive-bayes/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/knn-and-naive-bayes/practice">
+    <meta property="og:title" content="Practice Questions - KNN and Naive Bayes Classifiers | AI and Machine Learning | Modern Age Coders">
+    <meta property="og:description" content="52+ practice questions on KNN and Naive Bayes Classifiers in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/knn-and-naive-bayes/practice">
+    <meta name="twitter:title" content="Practice Questions - KNN and Naive Bayes Classifiers | AI and Machine Learning | Modern Age Coders">
+    <meta name="twitter:description" content="52+ practice questions on KNN and Naive Bayes Classifiers in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - KNN and Naive Bayes Classifiers",
+    "description": "52+ practice questions on KNN and Naive Bayes Classifiers in AI and Machine Learning.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "KNN and Naive Bayes Classifiers"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/knn-and-naive-bayes/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "KNN and Naive Bayes Classifiers",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/knn-and-naive-bayes"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/knn-and-naive-bayes/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning/knn-and-naive-bayes">KNN and Naive Bayes Classifiers</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 9</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">52 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; KNN and Naive Bayes Classifiers</h1>
+            <a href="/resources/ai-and-machine-learning/knn-and-naive-bayes" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>import numpy as np
+
+# Euclidean distance
+a = np.array([1, 2])
+b = np.array([4, 6])
+dist = np.sqrt(np.sum((a - b) ** 2))
+print(f"Distance: {dist:.1f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Euclidean distance: sqrt((4-1)^2 + (6-2)^2) = sqrt(9+16).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Distance: 5.0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+
+# Manhattan distance
+a = np.array([1, 2])
+b = np.array([4, 6])
+dist = np.sum(np.abs(a - b))
+print(f"Manhattan: {dist}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Manhattan distance: |4-1| + |6-2|.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>Manhattan: 7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier
+import numpy as np
+
+X = np.array([[1], [2], [3], [7], [8], [9]])
+y = np.array([0, 0, 0, 1, 1, 1])
+
+knn = KNeighborsClassifier(n_neighbors=3)
+knn.fit(X, y)
+print(knn.predict([[5]]))
+print(knn.predict([[2]]))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">For x=5, the 3 nearest points are 3, 7, 8. For x=2, the 3 nearest are 1, 2, 3.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>[1]</code><br><code>[0]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB
+import numpy as np
+
+X = np.array([[1], [2], [3], [7], [8], [9]])
+y = np.array([0, 0, 0, 1, 1, 1])
+
+nb = GaussianNB()
+nb.fit(X, y)
+
+print(f"Class means: {nb.theta_.flatten()}")
+print(f"Prediction for [5]: {nb.predict([[5]])[0]}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">GaussianNB computes mean and variance for each class. Class 0 mean ~ 2, Class 1 mean ~ 8.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Class means: [2. 8.]</code><br><code>Prediction for [5]: 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier
+import numpy as np
+
+X = np.array([[0, 0], [1, 0], [0, 1], [10, 10], [11, 10], [10, 11]])
+y = np.array([0, 0, 0, 1, 1, 1])
+
+knn = KNeighborsClassifier(n_neighbors=1)
+knn.fit(X, y)
+print(knn.predict([[5, 5]]))
+print(knn.predict([[0.5, 0.5]]))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">K=1 means the prediction is the class of the single nearest neighbor.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>[0]</code><br><code>[0]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier
+import numpy as np
+
+X = np.array([[1], [2], [3], [4], [5], [6], [7], [8], [9], [10]])
+y = np.array([0, 0, 0, 0, 0, 1, 1, 1, 1, 1])
+
+for k in [1, 3, 5, 9]:
+    knn = KNeighborsClassifier(n_neighbors=k)
+    knn.fit(X, y)
+    pred = knn.predict([[5.5]])[0]
+    print(f"K={k}: predict([5.5]) = {pred}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">5.5 is right at the boundary. As K increases, more neighbors from both sides are included.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>K=1: predict([5.5]) = 1</code><br><code>K=3: predict([5.5]) = 1</code><br><code>K=5: predict([5.5]) = 1</code><br><code>K=9: predict([5.5]) = 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB
+import numpy as np
+
+X = np.array([[1, 10], [2, 20], [3, 30],
+              [10, 1], [20, 2], [30, 3]])
+y = np.array([0, 0, 0, 1, 1, 1])
+
+nb = GaussianNB()
+nb.fit(X, y)
+
+proba = nb.predict_proba([[5, 5]])[0]
+print(f"P(class 0): {proba[0]:.3f}")
+print(f"P(class 1): {proba[1]:.3f}")
+print(f"Prediction: {nb.predict([[5, 5]])[0]}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Class 0 has high values in feature 2, class 1 has high values in feature 1. [5,5] is in between.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>P(class 0): 0.500</code><br><code>P(class 1): 0.500</code><br><code>Prediction: 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code># Bayes theorem calculation
+P_spam = 0.3       # 30% of emails are spam
+P_not_spam = 0.7   # 70% are not spam
+
+# P("free" | spam) = 0.8
+# P("free" | not spam) = 0.1
+P_free_given_spam = 0.8
+P_free_given_not_spam = 0.1
+
+# P(spam | "free") = ?
+P_free = P_free_given_spam * P_spam + P_free_given_not_spam * P_not_spam
+P_spam_given_free = (P_free_given_spam * P_spam) / P_free
+
+print(f"P(free): {P_free:.3f}")
+print(f"P(spam | free): {P_spam_given_free:.3f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Apply Bayes theorem: P(spam|free) = P(free|spam) * P(spam) / P(free).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>P(free): 0.310</code><br><code>P(spam | free): 0.774</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier
+from sklearn.preprocessing import StandardScaler
+import numpy as np
+
+# Feature 1: age (20-60), Feature 2: salary (20000-200000)
+X = np.array([[25, 30000], [30, 40000], [55, 180000]])
+y = np.array([0, 0, 1])
+
+# Without scaling
+knn1 = KNeighborsClassifier(n_neighbors=1)
+knn1.fit(X, y)
+pred1 = knn1.predict([[40, 100000]])[0]
+
+# With scaling
+scaler = StandardScaler()
+X_s = scaler.fit_transform(X)
+test_s = scaler.transform([[40, 100000]])
+knn2 = KNeighborsClassifier(n_neighbors=1)
+knn2.fit(X_s, y)
+pred2 = knn2.predict(test_s)[0]
+
+print(f"Without scaling: {pred1}")
+print(f"With scaling: {pred2}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Without scaling, salary (range 150K) dominates over age (range 30). The nearest neighbor changes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>Without scaling: 0</code><br><code>With scaling: 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.naive_bayes import MultinomialNB
+from sklearn.feature_extraction.text import CountVectorizer
+import numpy as np
+
+texts = ["free money", "free gift", "free prize",
+         "work meeting", "project deadline", "team lunch"]
+labels = [1, 1, 1, 0, 0, 0]  # 1=spam
+
+vectorizer = CountVectorizer()
+X = vectorizer.fit_transform(texts)
+
+print(f"Vocabulary: {sorted(vectorizer.vocabulary_.keys())}")
+print(f"Feature matrix shape: {X.shape}")
+
+mnb = MultinomialNB(alpha=1.0)
+mnb.fit(X, labels)
+
+test_emails = ["free lunch", "free money gift"]
+X_test = vectorizer.transform(test_emails)
+for email, pred in zip(test_emails, mnb.predict(X_test)):
+    print(f"\"{email}\" -> {'Spam' if pred == 1 else 'Not Spam'}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">"free" appears only in spam. "lunch" appears only in non-spam. "free lunch" has conflicting signals.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>Vocabulary: ['deadline', 'free', 'gift', 'lunch', 'meeting', 'money', 'prize', 'project', 'team', 'work']</code><br><code>Feature matrix shape: (6, 10)</code><br><code>"free lunch" -> Spam</code><br><code>"free money gift" -> Spam</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier
+from sklearn.model_selection import cross_val_score
+import numpy as np
+
+np.random.seed(42)
+X = np.random.randn(200, 2)
+y = (X[:, 0]**2 + X[:, 1]**2 < 1).astype(int)  # Circular boundary
+
+results = {}
+for k in [1, 5, 15, 50, 100]:
+    knn = KNeighborsClassifier(n_neighbors=k)
+    scores = cross_val_score(knn, X, y, cv=5)
+    results[k] = scores.mean()
+    print(f"K={k:3d}: CV accuracy = {scores.mean():.3f}")
+
+best_k = max(results, key=results.get)
+print(f"\nBest K: {best_k}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Circular boundary is non-linear. Small K captures it well but may overfit. Very large K underfits.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>K=  1: CV accuracy = 0.925</code><br><code>K=  5: CV accuracy = 0.950</code><br><code>K= 15: CV accuracy = 0.935</code><br><code>K= 50: CV accuracy = 0.890</code><br><code>K=100: CV accuracy = 0.760</code><br><code>Best K: 5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB
+import numpy as np
+
+np.random.seed(42)
+
+# Generate data where NB assumption is violated
+# Features are highly correlated (x2 = x1 + noise)
+X_train = np.random.randn(100, 1)
+X_train = np.column_stack([X_train, X_train + np.random.normal(0, 0.1, (100, 1))])
+y_train = (X_train[:, 0] > 0).astype(int)
+
+X_test = np.random.randn(50, 1)
+X_test = np.column_stack([X_test, X_test + np.random.normal(0, 0.1, (50, 1))])
+y_test = (X_test[:, 0] > 0).astype(int)
+
+nb = GaussianNB()
+nb.fit(X_train, y_train)
+
+print(f"Training accuracy: {nb.score(X_train, y_train):.3f}")
+print(f"Test accuracy: {nb.score(X_test, y_test):.3f}")
+print(f"NB still works despite correlated features!")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">The features are nearly identical (highly correlated). NB assumes independence but may still work.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Training accuracy: 0.990</code><br><code>Test accuracy: 0.980</code><br><code>NB still works despite correlated features!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier
+import numpy as np
+
+X = np.array([[1, 1], [2, 2], [3, 3], [7, 7], [8, 8], [9, 9]])
+y = np.array([0, 0, 0, 1, 1, 1])
+
+knn_uniform = KNeighborsClassifier(n_neighbors=3, weights='uniform')
+knn_distance = KNeighborsClassifier(n_neighbors=3, weights='distance')
+
+knn_uniform.fit(X, y)
+knn_distance.fit(X, y)
+
+print(f"Uniform weights: {knn_uniform.predict([[4, 4]])[0]}")
+print(f"Distance weights: {knn_distance.predict([[4, 4]])[0]}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">With uniform weights, all 3 neighbors vote equally. With distance weights, closer neighbors have more influence.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>Uniform weights: 0</code><br><code>Distance weights: 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB
+import numpy as np
+
+np.random.seed(42)
+# 3-class problem
+X = np.vstack([
+    np.random.randn(30, 2) + [0, 0],
+    np.random.randn(30, 2) + [5, 0],
+    np.random.randn(30, 2) + [2.5, 4]
+])
+y = np.array([0]*30 + [1]*30 + [2]*30)
+
+nb = GaussianNB()
+nb.fit(X, y)
+
+# Predict probabilities for center point
+proba = nb.predict_proba([[2.5, 1.5]])[0]
+for i, p in enumerate(proba):
+    print(f"P(class {i}): {p:.3f}")
+print(f"Prediction: {nb.predict([[2.5, 1.5]])[0]}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Point [2.5, 1.5] is roughly equidistant from all three class centers.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>P(class 0): 0.382</code><br><code>P(class 1): 0.291</code><br><code>P(class 2): 0.327</code><br><code>Prediction: 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB
+import numpy as np
+
+X = np.array([[1], [2], [3], [8], [9], [10]])
+y = np.array([0, 0, 0, 1, 1, 1])
+
+nb = GaussianNB()
+nb.fit(X, y)
+print(f"Class priors: {nb.class_prior_}")
+print(f"Class 0 mean: {nb.theta_[0][0]:.1f}")
+print(f"Class 1 mean: {nb.theta_[1][0]:.1f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Equal number of samples per class, so priors are 0.5 each.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>Class priors: [0.5 0.5]</code><br><code>Class 0 mean: 2.0</code><br><code>Class 1 mean: 9.0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier
+import numpy as np
+
+X = np.array([[0], [1], [2], [10], [11], [12]])
+y = np.array([0, 0, 0, 1, 1, 1])
+
+knn = KNeighborsClassifier(n_neighbors=3)
+knn.fit(X, y)
+print(knn.predict([[5]]))
+print(knn.predict([[8]]))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">For x=5, the 3 nearest are 2(0), 1(0), 0(0) or 10(1). For x=8, nearest are 10(1), 11(1), 12(1).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>[0]</code><br><code>[1]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier
+import numpy as np
+
+X = np.array([[0, 0], [1, 0], [0, 1], [1, 1],
+              [5, 5], [6, 5], [5, 6], [6, 6]])
+y = np.array([0, 0, 0, 0, 1, 1, 1, 1])
+
+for k in [1, 3, 7]:
+    knn = KNeighborsClassifier(n_neighbors=k)
+    knn.fit(X, y)
+    pred = knn.predict([[3, 3]])[0]
+    print(f"K={k}: predict([3,3])={pred}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">[3,3] is between the two clusters. The result depends on which neighbors are closer.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>K=1: predict([3,3])=0</code><br><code>K=3: predict([3,3])=0</code><br><code>K=7: predict([3,3])=0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.model_selection import cross_val_score
+import numpy as np
+
+np.random.seed(42)
+X = np.random.randn(300, 20)  # 20 features
+y = (X[:, 0] > 0).astype(int)
+
+knn = KNeighborsClassifier(n_neighbors=5)
+nb = GaussianNB()
+
+knn_cv = cross_val_score(knn, X, y, cv=5).mean()
+nb_cv = cross_val_score(nb, X, y, cv=5).mean()
+
+print(f"KNN (20D): {knn_cv:.3f}")
+print(f"NB  (20D): {nb_cv:.3f}")
+print(f"Winner: {'NB' if nb_cv > knn_cv else 'KNN'}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">20 features but only feature 0 matters. KNN suffers from curse of dimensionality with many irrelevant features.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>KNN (20D): 0.750</code><br><code>NB  (20D): 0.903</code><br><code>Winner: NB</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>import numpy as np
+
+# Chebyshev distance
+a = np.array([1, 2, 3])
+b = np.array([4, 8, 5])
+
+chebyshev = np.max(np.abs(a - b))
+print(f"Chebyshev distance: {chebyshev}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Chebyshev distance is the maximum absolute difference along any dimension.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>Chebyshev distance: 6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB
+import numpy as np
+
+# Imbalanced classes: 90% class 0, 10% class 1
+X = np.vstack([np.random.RandomState(42).randn(90, 2),
+               np.random.RandomState(42).randn(10, 2) + 3])
+y = np.array([0]*90 + [1]*10)
+
+nb = GaussianNB()
+nb.fit(X, y)
+
+print(f"Class priors: {np.round(nb.class_prior_, 2)}")
+print(f"Prior for class 0: {nb.class_prior_[0]:.2f}")
+print(f"Prior for class 1: {nb.class_prior_[1]:.2f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Class priors are estimated from the training data class frequencies.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>Class priors: [0.9 0.1]</code><br><code>Prior for class 0: 0.90</code><br><code>Prior for class 1: 0.10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier
+from sklearn.preprocessing import StandardScaler
+import numpy as np
+import time
+
+np.random.seed(42)
+X_train = np.random.randn(10000, 10)
+y_train = np.random.choice([0, 1], 10000)
+X_test = np.random.randn(100, 10)
+
+# Brute force vs KD-tree
+for algo in ['brute', 'kd_tree', 'ball_tree']:
+    knn = KNeighborsClassifier(n_neighbors=5, algorithm=algo)
+    knn.fit(X_train, y_train)
+    start = time.time()
+    knn.predict(X_test)
+    t = time.time() - start
+    print(f"{algo:10s}: predict time = {t:.4f}s")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">KD-tree and ball-tree are spatial data structures that speed up neighbor search.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21"><code>brute     : predict time = 0.0312s</code><br><code>kd_tree   : predict time = 0.0156s</code><br><code>ball_tree : predict time = 0.0178s</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.naive_bayes import MultinomialNB
+from sklearn.feature_extraction.text import CountVectorizer
+import numpy as np
+
+texts = ["good good good", "good bad", "bad bad bad"]
+y = [1, 0, 0]
+
+vec = CountVectorizer()
+X = vec.fit_transform(texts)
+
+nb = MultinomialNB(alpha=1.0)
+nb.fit(X, y)
+
+test = vec.transform(["good"])
+proba = nb.predict_proba(test)[0]
+print(f"P(class 0): {proba[0]:.3f}")
+print(f"P(class 1): {proba[1]:.3f}")
+print(f"Prediction: {nb.predict(test)[0]}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">"good" appears mostly in class 1 (positive). But class 0 has more training samples (2 vs 1).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22"><code>P(class 0): 0.342</code><br><code>P(class 1): 0.658</code><br><code>Prediction: 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier
+import numpy as np
+
+X = np.array([[1], [2], [3], [4], [5]])
+y = np.array([10, 20, 30, 40, 50])
+
+# Wait - this is regression data! Can KNeighborsClassifier handle it?
+knn = KNeighborsClassifier(n_neighbors=1)
+knn.fit(X, y)
+print(knn.predict([[2.5]]))
+print(knn.classes_)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-23">KNeighborsClassifier treats y values as class labels, even if they look continuous.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-23"><code>[20]</code><br><code>[10 20 30 40 50]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 24</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB
+import numpy as np
+
+np.random.seed(42)
+
+# Feature 1: strongly predictive
+# Feature 2: pure noise
+X_signal = np.vstack([np.random.randn(50, 1) - 2,
+                      np.random.randn(50, 1) + 2])
+X_noise = np.random.randn(100, 1) * 10  # Large noise
+X = np.column_stack([X_signal, X_noise])
+y = np.array([0]*50 + [1]*50)
+
+nb = GaussianNB()
+nb.fit(X, y)
+
+print(f"Class 0 means: [{nb.theta_[0][0]:.2f}, {nb.theta_[0][1]:.2f}]")
+print(f"Class 1 means: [{nb.theta_[1][0]:.2f}, {nb.theta_[1][1]:.2f}]")
+print(f"Class 0 var:   [{nb.var_[0][0]:.2f}, {nb.var_[0][1]:.2f}]")
+print(f"Class 1 var:   [{nb.var_[1][0]:.2f}, {nb.var_[1][1]:.2f}]")
+print(f"Accuracy: {nb.score(X, y):.3f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-24" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-24">The signal feature has different means per class. The noise feature has similar means but high variance.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-24"><code>Class 0 means: [-2.01, 0.87]</code><br><code>Class 1 means: [1.87, -1.23]</code><br><code>Class 0 var:   [0.84, 93.45]</code><br><code>Class 1 var:   [1.12, 108.67]</code><br><code>Accuracy: 0.980</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why is KNN called a "lazy learner"?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Think about what happens during the training phase.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">KNN is called a "lazy learner" because it does <strong>no work during training</strong>. The fit() method simply stores the training data. All computation (calculating distances, finding neighbors, voting) happens at <strong>prediction time</strong>. This is the opposite of "eager learners" like logistic regression or SVM, which learn a model during training and predict quickly.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why is Naive Bayes called "naive"?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">It makes a simplifying assumption about features.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">Naive Bayes is called "naive" because it assumes that <strong>all features are independent of each other</strong> given the class label. In reality, features are often correlated (e.g., a person's height and weight are correlated). Despite this unrealistic assumption, Naive Bayes works surprisingly well in practice, especially for text classification.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Explain the curse of dimensionality and how it affects KNN.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Think about what happens to distances as the number of dimensions increases.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">In high-dimensional spaces, all points become approximately equidistant from each other. The ratio of the distance to the nearest neighbor vs the farthest neighbor approaches 1. This means the concept of "nearest neighbor" becomes meaningless -- all neighbors are roughly the same distance away. KNN relies on meaningful distances, so it degrades in high dimensions. <strong>Solutions:</strong> reduce dimensionality with PCA, use feature selection, or switch to algorithms that handle high dimensions better (like Naive Bayes or linear models).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsRegressor
+import numpy as np
+
+X = np.array([[1], [2], [3], [4], [5]])
+y = np.array([10, 20, 30, 40, 50])
+
+knn = KNeighborsRegressor(n_neighbors=3)
+knn.fit(X, y)
+print(f"Predict [3]: {knn.predict([[3]])[0]:.1f}")
+print(f"Predict [6]: {knn.predict([[6]])[0]:.1f}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">KNN regression predicts the average of the K nearest neighbors' values.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Predict [3]: 30.0</code><br><code>Predict [6]: 40.0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When would you choose Naive Bayes over KNN, and vice versa?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Consider data type, dataset size, dimensionality, and speed requirements.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><strong>Choose Naive Bayes when:</strong> working with text data (spam filtering, sentiment analysis), you have many features (high dimensionality), you need fast training and prediction, you have limited training data, or you need probability estimates. <strong>Choose KNN when:</strong> the decision boundary is non-linear, you have few features (low dimensionality), you have enough training data, and prediction speed is not critical.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.naive_bayes import GaussianNB
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.datasets import make_moons
+from sklearn.model_selection import cross_val_score
+import numpy as np
+
+X, y = make_moons(n_samples=300, noise=0.25, random_state=42)
+
+nb_scores = cross_val_score(GaussianNB(), X, y, cv=5)
+knn_scores = cross_val_score(KNeighborsClassifier(n_neighbors=5), X, y, cv=5)
+
+print(f"Naive Bayes: {nb_scores.mean():.3f}")
+print(f"KNN (K=5):   {knn_scores.mean():.3f}")
+print(f"Winner: {'KNN' if knn_scores.mean() > nb_scores.mean() else 'NB'}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Make_moons creates a non-linear, crescent-shaped boundary. Which algorithm handles non-linearity better?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>Naive Bayes: 0.853</code><br><code>KNN (K=5):   0.930</code><br><code>Winner: KNN</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is Laplace smoothing in Naive Bayes, and why is it necessary?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">What happens if a word appears in test data but was never seen in training data for a particular class?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><strong>Laplace smoothing</strong> (additive smoothing) adds a small count (alpha, usually 1) to every feature count. Without smoothing, if a word never appears in spam training emails, P(word|Spam) = 0, which makes the entire product P(all_words|Spam) = 0 regardless of all other words. One unseen word kills the prediction. With smoothing: P(word|Spam) = (count + alpha) / (total + alpha * vocabulary_size). Now the probability is small but not zero.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.neighbors import KNeighborsClassifier
+import numpy as np
+import time
+
+np.random.seed(42)
+
+# Training time vs prediction time
+train_sizes = [100, 1000, 10000]
+for n in train_sizes:
+    X_train = np.random.randn(n, 5)
+    y_train = np.random.choice([0, 1], n)
+    X_test = np.random.randn(100, 5)
+    
+    knn = KNeighborsClassifier(n_neighbors=5)
+    
+    start = time.time()
+    knn.fit(X_train, y_train)
+    fit_time = time.time() - start
+    
+    start = time.time()
+    knn.predict(X_test)
+    pred_time = time.time() - start
+    
+    print(f"N={n:5d}: fit={fit_time:.4f}s, predict={pred_time:.4f}s")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">KNN fit is instant (just stores data). Prediction time grows with training set size.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>N=  100: fit=0.0001s, predict=0.0012s</code><br><code>N= 1000: fit=0.0002s, predict=0.0056s</code><br><code>N=10000: fit=0.0003s, predict=0.0423s</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">How does KNN handle the bias-variance trade-off through the K parameter?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Small K has what kind of bias/variance? Large K?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><strong>K=1:</strong> Zero training error, low bias, high variance. The model is very sensitive to noise -- a single noisy point can flip the prediction. Complex decision boundary. <strong>Large K (e.g., K=N):</strong> Always predicts the majority class, high bias, zero variance. The model ignores all local patterns. <strong>Optimal K:</strong> Balances bias and variance. Found through cross-validation. Typically somewhere between sqrt(N) and a few dozen.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.naive_bayes import MultinomialNB
+from sklearn.feature_extraction.text import CountVectorizer
+import numpy as np
+
+texts = ["good great excellent", "good movie", "great film",
+         "bad terrible awful", "bad movie", "terrible film"]
+y = [1, 1, 1, 0, 0, 0]  # 1=positive, 0=negative
+
+vec = CountVectorizer()
+X = vec.fit_transform(texts)
+
+for alpha in [0.01, 1.0, 100.0]:
+    nb = MultinomialNB(alpha=alpha)
+    nb.fit(X, y)
+    test = vec.transform(["good terrible movie"])
+    proba = nb.predict_proba(test)[0]
+    pred = nb.predict(test)[0]
+    print(f"alpha={alpha:6.2f}: P(neg)={proba[0]:.3f}, P(pos)={proba[1]:.3f}, pred={pred}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Alpha controls smoothing. Small alpha = probabilities dominated by data. Large alpha = uniform probabilities.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>alpha=  0.01: P(neg)=0.500, P(pos)=0.500, pred=0</code><br><code>alpha=  1.00: P(neg)=0.500, P(pos)=0.500, pred=0</code><br><code>alpha=100.00: P(neg)=0.500, P(pos)=0.500, pred=0</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">In KNN with K=5, how is the prediction made for a new point?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Use the 5 farthest training points</li><li><span class="mcq-option-label">B.</span> Majority vote among the 5 nearest training points</li><li><span class="mcq-option-label">C.</span> Average of all training points</li><li><span class="mcq-option-label">D.</span> Use the 5th nearest point only</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> KNN finds the K=5 nearest training points based on distance. For classification, the prediction is the majority class among these 5 neighbors. For regression, it would be the average of their values.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What happens during the KNN training phase?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Weights are learned through gradient descent</li><li><span class="mcq-option-label">B.</span> A decision tree is built</li><li><span class="mcq-option-label">C.</span> Nothing -- the training data is simply stored</li><li><span class="mcq-option-label">D.</span> Cluster centers are computed</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> KNN is a lazy learner. The fit() method simply stores the training data. No model parameters are learned. All computation happens at prediction time when distances are calculated.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which distance metric is most commonly used in KNN?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Manhattan distance</li><li><span class="mcq-option-label">B.</span> Cosine distance</li><li><span class="mcq-option-label">C.</span> Euclidean distance</li><li><span class="mcq-option-label">D.</span> Hamming distance</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> Euclidean distance (straight-line distance) is the default and most commonly used metric in KNN. It works well for continuous features. Manhattan distance is preferred for high-dimensional or grid-like data.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is the "naive" assumption in Naive Bayes?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The data is normally distributed</li><li><span class="mcq-option-label">B.</span> All features are independent of each other given the class</li><li><span class="mcq-option-label">C.</span> All classes have equal probability</li><li><span class="mcq-option-label">D.</span> The training data is representative</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> Naive Bayes assumes that features are conditionally independent given the class label. This means P(x1, x2|Class) = P(x1|Class) * P(x2|Class). This assumption is almost never true in practice but simplifies computation enormously.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which Naive Bayes variant is best for text classification with word counts?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> GaussianNB</li><li><span class="mcq-option-label">B.</span> MultinomialNB</li><li><span class="mcq-option-label">C.</span> BernoulliNB</li><li><span class="mcq-option-label">D.</span> ComplementNB</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> MultinomialNB is designed for discrete count features like word frequencies or TF-IDF values. GaussianNB is for continuous features. BernoulliNB is for binary features (word present/absent).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the effect of using K=1 in KNN?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Always 100% training accuracy, high risk of overfitting</li><li><span class="mcq-option-label">B.</span> Always 100% test accuracy</li><li><span class="mcq-option-label">C.</span> Smooth decision boundary</li><li><span class="mcq-option-label">D.</span> Fastest prediction time</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: A</strong><br><strong>A is correct.</strong> With K=1, each training point is its own nearest neighbor, so training accuracy is always 100%. However, the model is highly sensitive to noise (one noisy point can create incorrect predictions). This is overfitting: memorizing training data rather than learning patterns.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Why is feature scaling critical for KNN but not for Naive Bayes?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> KNN uses distances; NB uses probabilities</li><li><span class="mcq-option-label">B.</span> KNN is faster with scaling</li><li><span class="mcq-option-label">C.</span> NB only works with binary features</li><li><span class="mcq-option-label">D.</span> Scaling changes the class labels</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: A</strong><br><strong>A is correct.</strong> KNN computes distances between points, so features with larger scales dominate the distance. Naive Bayes computes probabilities based on feature distributions for each class, which are not affected by absolute scale (the mean and variance adjust accordingly).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is Laplace smoothing (alpha) in Naive Bayes?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A technique to speed up training</li><li><span class="mcq-option-label">B.</span> Adding a small count to all feature frequencies to prevent zero probabilities</li><li><span class="mcq-option-label">C.</span> A method to select the best features</li><li><span class="mcq-option-label">D.</span> A regularization technique that reduces model complexity</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> Laplace smoothing adds alpha (typically 1) to every feature count. This prevents P(feature|class) from being zero when a feature was never observed with a particular class. Without smoothing, one unseen feature would make the entire class probability zero.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the time complexity of KNN prediction for a single point with N training samples and D features?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(1)</li><li><span class="mcq-option-label">B.</span> O(D)</li><li><span class="mcq-option-label">C.</span> O(N * D)</li><li><span class="mcq-option-label">D.</span> O(N^2)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> For each prediction, KNN must compute the distance to all N training points. Each distance computation takes O(D) time (comparing D features). Total: O(N * D). This makes prediction slow for large training sets.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">In Bayes' theorem P(A|B) = P(B|A)*P(A)/P(B), what is P(A) called?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Posterior</li><li><span class="mcq-option-label">B.</span> Likelihood</li><li><span class="mcq-option-label">C.</span> Prior</li><li><span class="mcq-option-label">D.</span> Evidence</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> P(A) is the prior probability (our belief before seeing evidence). P(B|A) is the likelihood (probability of evidence given hypothesis). P(A|B) is the posterior (updated belief after seeing evidence). P(B) is the evidence (normalizing constant).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Why does KNN struggle with high-dimensional data (curse of dimensionality)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> KNN cannot handle more than 10 features</li><li><span class="mcq-option-label">B.</span> In high dimensions, all points become approximately equidistant, making neighbors meaningless</li><li><span class="mcq-option-label">C.</span> KNN needs exponentially more memory</li><li><span class="mcq-option-label">D.</span> The algorithm crashes with many features</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> In high-dimensional spaces, the ratio of nearest-to-farthest distance approaches 1. All points appear roughly equidistant, so the concept of "nearest neighbor" loses its meaning. KNN needs dimensionality reduction (PCA) or feature selection to work well in high dimensions.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">A Naive Bayes spam filter trained on English emails encounters a new word "cryptocurrency" never seen in training. With alpha=0, what happens?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The word is ignored</li><li><span class="mcq-option-label">B.</span> P(cryptocurrency|Spam) = 0, making P(Spam|email) = 0 regardless of other words</li><li><span class="mcq-option-label">C.</span> The model crashes with a division by zero</li><li><span class="mcq-option-label">D.</span> The model assigns equal probability to both classes</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Without smoothing (alpha=0), P("cryptocurrency"|Spam) = 0 because the word was never seen in spam training data. Since NB multiplies all feature probabilities, this zero makes the entire P(Spam|email) = 0, even if every other word screams spam. This is exactly why Laplace smoothing is essential.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">KNN uses algorithm='auto' by default in scikit-learn. What data structure does it use for efficient neighbor search?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Hash table</li><li><span class="mcq-option-label">B.</span> Binary search tree</li><li><span class="mcq-option-label">C.</span> KD-tree or Ball-tree (chosen automatically based on data)</li><li><span class="mcq-option-label">D.</span> Graph-based index</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> Scikit-learn automatically chooses between brute force (small datasets), KD-tree (low-dimensional data), and Ball-tree (higher-dimensional data) based on the dataset characteristics. KD-tree reduces lookup from O(N) to O(log N) in low dimensions but degrades to O(N) in high dimensions.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Why does Naive Bayes often work well despite the independence assumption being violated?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The probabilities are always accurate</li><li><span class="mcq-option-label">B.</span> Modern computers can handle the violation</li><li><span class="mcq-option-label">C.</span> The decision boundary depends on which class has higher probability, not the exact probability values</li><li><span class="mcq-option-label">D.</span> Feature independence is always approximately true</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> Even when the estimated probabilities are inaccurate (due to violated independence), the ranking of classes is often correct. Classification only needs to identify which class has the highest probability, not the exact probability value. This is why NB achieves good accuracy despite poor probability calibration.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which of the following problems is Naive Bayes least suitable for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Spam email detection</li><li><span class="mcq-option-label">B.</span> Sentiment analysis of text reviews</li><li><span class="mcq-option-label">C.</span> Image classification with pixel features</li><li><span class="mcq-option-label">D.</span> News article categorization</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> Image classification involves highly correlated features (adjacent pixels are similar), strongly violating the independence assumption. Also, pixel values do not follow Gaussian distributions. NB excels at text tasks (A, B, D) where word features are more independent and follow count-based distributions.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the key disadvantage of KNN compared to model-based classifiers like logistic regression?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> KNN cannot handle multi-class problems</li><li><span class="mcq-option-label">B.</span> KNN prediction is slow because it computes distances to all training points</li><li><span class="mcq-option-label">C.</span> KNN always overfits</li><li><span class="mcq-option-label">D.</span> KNN requires feature engineering</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> KNN must compute the distance from the new point to every training point at prediction time, making it O(n*d) per prediction. Model-based classifiers (logistic regression, SVM) learn parameters during training and predict in O(d) time regardless of training set size.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Which Naive Bayes variant would you use for a dataset where features are binary (0 or 1)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> GaussianNB</li><li><span class="mcq-option-label">B.</span> MultinomialNB</li><li><span class="mcq-option-label">C.</span> BernoulliNB</li><li><span class="mcq-option-label">D.</span> ComplementNB</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> BernoulliNB is specifically designed for binary features. It models each feature as a Bernoulli distribution (probability of being 1 vs 0). GaussianNB assumes continuous features. MultinomialNB assumes count features. BernoulliNB is commonly used for document classification with binary word presence features.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What does K represent in K-Nearest Neighbors?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The number of features</li><li><span class="mcq-option-label">B.</span> The number of training samples to use</li><li><span class="mcq-option-label">C.</span> The number of nearest neighbors to consider for voting</li><li><span class="mcq-option-label">D.</span> The number of classes</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: C</strong><br><strong>C is correct.</strong> K is the number of nearest training points that vote on the prediction. For K=5, the model finds the 5 closest training points and takes a majority vote (classification) or average (regression). K is a hyperparameter that must be chosen by the user.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <p>Coding challenges coming soon.</p>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/ai-and-machine-learning/support-vector-machines/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Support Vector Machines (SVM)</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/model-evaluation-and-tuning/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Model Evaluation, Cross-Validation, and Hyperparameter Tuning</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/ai-and-machine-learning/knn-and-naive-bayes" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statements (if, else, switch) - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Make decisions with if-else, nested conditions, ternary operator, and switch-case statements.">
+    <meta name="keywords" content="conditional statements (if, else, switch), c++ tutorial, c++ conditional statements (if, else, switch), learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/conditional-statements">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/conditional-statements">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/conditional-statements">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/conditional-statements">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/conditional-statements">
+    <meta property="og:title" content="Conditional Statements (if, else, switch) - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Make decisions with if-else, nested conditions, ternary operator, and switch-case statements.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/conditional-statements">
+    <meta name="twitter:title" content="Conditional Statements (if, else, switch) - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Make decisions with if-else, nested conditions, ternary operator, and switch-case statements.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Conditional Statements (if, else, switch)",
+    "description": "Make decisions with if-else, nested conditions, ternary operator, and switch-case statements.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/conditional-statements"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/conditional-statements"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Conditional Statements (if, else, switch)",
+        "item": "https://learn.modernagecoders.com/resources/cpp/conditional-statements"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using = Instead of == in Conditions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>=</code> is assignment, <code>==</code> is comparison. This is one of the most common C++ bugs. Modern compilers issue a warning (-Wparentheses), but many beginners ignore warnings. Use compiler flags <code>-Wall -Werror</code> to catch this."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Missing break in switch-case",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Each case needs an explicit <code>break;</code> to prevent fall-through. Fall-through is intentional only when you want multiple cases to share the same code (like grouping months by days)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Dangling Else: else Binds to Wrong if",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In C++, else associates with the <strong>nearest unmatched if</strong>. Always use braces to make the structure explicit. This is the dangling else problem, a classic interview topic."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Semicolon After if Condition",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A semicolon after <code>if (condition);</code> creates an empty if body. The compiler does not error because an empty statement is valid syntax. The block below is treated as a standalone block, not part of the if."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using float/double in switch",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "switch only works with integral types (int, char, enum, bool). For floating-point comparisons, use if-else if chains. Note: comparing floats with == is also risky due to precision issues."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Conditional Statements (if, else, switch)</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 6</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">25 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Conditional Statements (if, else, switch)</h1>
+            <a href="/resources/cpp/conditional-statements/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Conditional Statements?</h2><p>A <strong>conditional statement</strong> allows your program to make decisions. Instead of executing every line from top to bottom, the program evaluates a condition (a boolean expression) and chooses which block of code to execute based on whether the condition is true or false.</p><p>Without conditionals, every program would be a straight line of instructions with no decision-making ability. You could not check if a user's password is correct, determine if a number is even or odd, or handle edge cases in an algorithm. Conditional statements are one of the three fundamental control flow structures alongside sequences and loops.</p><p>C++ provides the following conditional constructs:</p><ol><li><strong>if</strong> -- execute a block only when a condition is true</li><li><strong>if-else</strong> -- choose between two blocks based on a condition</li><li><strong>if-else if-else</strong> -- chain multiple conditions, executing the first true branch</li><li><strong>Nested if</strong> -- an if statement inside another if statement</li><li><strong>Ternary operator (?:)</strong> -- a compact one-line conditional expression</li><li><strong>switch-case</strong> -- select one of many code blocks based on the value of a variable</li></ol>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Conditional Statements Essential?</h2><h3>1. Decision-Making is Fundamental</h3><p>Every non-trivial program must make decisions. Is the user authenticated? Is the input valid? Is the array index within bounds? Did the function succeed or fail? All of these require conditional logic. Without conditionals, you cannot build anything beyond a simple calculator that runs the same computation every time.</p><h3>2. Input Validation and Error Handling</h3><p>Before processing user input, you must validate it. Is the number positive? Is the denominator non-zero? Is the string non-empty? Conditionals let you catch invalid input before it causes a crash or produces garbage output. In competitive programming, edge cases often determine whether your solution gets Accepted or Wrong Answer.</p><h3>3. Algorithm Control Flow</h3><p>Almost every algorithm relies on conditionals. Binary search decides whether to go left or right. Sorting algorithms compare elements and swap conditionally. Graph algorithms check if a node has been visited. Without conditionals, you cannot implement any meaningful algorithm.</p><h3>4. Competitive Programming and Interviews</h3><p>Writing clean conditional logic is a basic expectation in coding interviews. Problems frequently require handling multiple cases efficiently. Understanding short-circuit evaluation, the ternary operator for compact expressions, and switch-case for multi-way branching helps you write faster, cleaner code under time pressure.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The if Statement</h3><p>The simplest conditional. If the condition evaluates to true (non-zero), the body executes. If false (zero), the body is skipped entirely.</p><pre><code>if (condition) {
+    // executes only when condition is true
+}</code></pre><pre><code>int age = 20;
+if (age >= 18) {
+    cout << "You are eligible to vote." << endl;
+}</code></pre><p>In C++, any non-zero value is truthy. So <code>if (5)</code> is true, <code>if (-1)</code> is true, and <code>if (0)</code> is false. This is different from languages like Java where only boolean expressions are allowed in conditions.</p><h3>2. The if-else Statement</h3><p>When you need to choose between two alternatives:</p><pre><code>if (condition) {
+    // executes when condition is true
+} else {
+    // executes when condition is false
+}</code></pre><pre><code>int num = 7;
+if (num % 2 == 0) {
+    cout << num << " is even" << endl;
+} else {
+    cout << num << " is odd" << endl;
+}</code></pre><p>Exactly one of the two blocks will always execute. There is no scenario where both or neither runs.</p><h3>3. The if-else if-else Ladder</h3><p>When you have more than two mutually exclusive conditions, chain them with else if:</p><pre><code>if (marks >= 90) {
+    cout << "Grade A" << endl;
+} else if (marks >= 80) {
+    cout << "Grade B" << endl;
+} else if (marks >= 70) {
+    cout << "Grade C" << endl;
+} else if (marks >= 60) {
+    cout << "Grade D" << endl;
+} else {
+    cout << "Grade F" << endl;
+}</code></pre><p>The conditions are evaluated top to bottom. The first true condition's block executes, and the rest are skipped. If none is true, the else block runs. Order matters: if you check <code>marks >= 60</code> first, a student with 95 marks would get Grade D.</p><h3>4. Nested if Statements</h3><p>An if inside another if is called nested if. Use it when a decision depends on a previous decision:</p><pre><code>if (age >= 18) {
+    if (hasVoterID) {
+        cout << "You can vote." << endl;
+    } else {
+        cout << "Get a voter ID first." << endl;
+    }
+} else {
+    cout << "You are underage." << endl;
+}</code></pre><p>Excessive nesting (more than 2-3 levels) makes code hard to read. Refactor using logical operators (<code>&&</code>, <code>||</code>) or early returns when possible.</p><h3>5. The Dangling Else Problem</h3><p>Consider this code without braces:</p><pre><code>if (a > 0)
+    if (b > 0)
+        cout << "both positive";
+else
+    cout << "a is not positive";</code></pre><p>The indentation suggests the else belongs to the outer if, but C++ associates else with the <strong>nearest unmatched if</strong>. So the else actually belongs to <code>if (b > 0)</code>. The output "a is not positive" prints when a > 0 but b <= 0, not when a <= 0. This is the dangling else problem. Always use braces to make your intent explicit.</p><h3>6. The Ternary Operator (?:)</h3><p>A compact alternative to if-else for simple assignments or expressions:</p><pre><code>variable = (condition) ? value_if_true : value_if_false;</code></pre><pre><code>int a = 10, b = 20;
+int maxVal = (a > b) ? a : b;  // maxVal = 20</code></pre><p>The ternary operator is an <strong>expression</strong> (it produces a value), not a statement. You can use it inside cout, function arguments, or assignments. It is heavily used in competitive programming for compact code.</p><h4>Finding Min/Max Without Library</h4><pre><code>int minVal = (a < b) ? a : b;
+int maxVal = (a > b) ? a : b;
+// Equivalent to min(a, b) and max(a, b) from &lt;algorithm&gt;</code></pre><h3>7. The switch-case Statement</h3><p>When you need to compare a variable against multiple constant values, switch-case is cleaner than a long if-else if chain:</p><pre><code>switch (expression) {
+    case value1:
+        // code
+        break;
+    case value2:
+        // code
+        break;
+    default:
+        // code when no case matches
+}</code></pre><p>Key rules:</p><ul><li>The expression must evaluate to an <strong>integer or character</strong> type (int, char, enum). Strings and floating-point numbers are not allowed.</li><li>Each case value must be a <strong>compile-time constant</strong> (literal or const/constexpr variable).</li><li><strong>break</strong> exits the switch block. Without break, execution falls through to the next case.</li><li><strong>default</strong> is optional and handles unmatched values.</li></ul><h4>Fall-Through Behavior</h4><pre><code>int day = 2;
+switch (day) {
+    case 1:
+        cout << "Monday" << endl;
+    case 2:
+        cout << "Tuesday" << endl;
+    case 3:
+        cout << "Wednesday" << endl;
+        break;
+    case 4:
+        cout << "Thursday" << endl;
+        break;
+}
+// Output: Tuesday\nWednesday</code></pre><p>Since case 2 has no break, execution falls through to case 3 and prints both Tuesday and Wednesday. Fall-through is sometimes intentional (grouping cases) but usually a bug.</p><h4>Switch with char</h4><pre><code>char grade = 'B';
+switch (grade) {
+    case 'A': cout << "Excellent"; break;
+    case 'B': cout << "Good"; break;
+    case 'C': cout << "Average"; break;
+    default: cout << "Invalid grade";
+}</code></pre><h3>8. Comparing with == vs =</h3><p>A classic C++ pitfall: using <code>=</code> (assignment) instead of <code>==</code> (comparison) in a condition:</p><pre><code>int x = 5;
+if (x = 10) {  // BUG: assigns 10 to x, then checks if 10 is non-zero (true)
+    cout << "This always executes" << endl;
+}</code></pre><p>After this, x is 10 (not 5), and the if body always runs because 10 is truthy. Modern compilers warn about this, but it is a frequent source of bugs. Some programmers write <code>if (10 == x)</code> (Yoda condition) to catch this -- if you accidentally write <code>=</code>, the compiler will error because you cannot assign to a literal.</p><h3>9. Conditional Expressions in Competitive Programming</h3><p>In competitive programming, compact conditional expressions save time:</p><pre><code>// Absolute value without abs()
+int absVal = (x >= 0) ? x : -x;
+
+// Clamp a value between lo and hi
+int clamped = (x < lo) ? lo : (x > hi) ? hi : x;
+
+// Sign function: returns -1, 0, or 1
+int sign = (x > 0) - (x < 0);</code></pre><p>The sign trick works because boolean expressions in C++ evaluate to 0 or 1. If x is positive, <code>(x > 0)</code> is 1 and <code>(x < 0)</code> is 0, giving 1. If x is negative, it gives 0 - 1 = -1. If x is zero, both are 0.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">if-else: Check Even or Odd</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int num;
+    cout &lt;&lt; &quot;Enter a number: &quot;;
+    cin &gt;&gt; num;
+
+    if (num % 2 == 0) {
+        cout &lt;&lt; num &lt;&lt; &quot; is even&quot; &lt;&lt; endl;
+    } else {
+        cout &lt;&lt; num &lt;&lt; &quot; is odd&quot; &lt;&lt; endl;
+    }
+
+    return 0;
+}</code></pre><div class="code-example-explanation">The modulo operator (%) returns the remainder of division. If num % 2 equals 0, the number is divisible by 2 (even). Otherwise, it is odd. The if-else ensures exactly one message prints.</div><div class="code-example-output">Enter a number: 7
+7 is odd</div></div>
+<div class="code-example"><div class="code-example-title">if-else if-else: Grade Calculator</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int marks;
+    cout &lt;&lt; &quot;Enter marks (0-100): &quot;;
+    cin &gt;&gt; marks;
+
+    if (marks &lt; 0 || marks &gt; 100) {
+        cout &lt;&lt; &quot;Invalid marks&quot; &lt;&lt; endl;
+    } else if (marks &gt;= 90) {
+        cout &lt;&lt; &quot;Grade: A&quot; &lt;&lt; endl;
+    } else if (marks &gt;= 80) {
+        cout &lt;&lt; &quot;Grade: B&quot; &lt;&lt; endl;
+    } else if (marks &gt;= 70) {
+        cout &lt;&lt; &quot;Grade: C&quot; &lt;&lt; endl;
+    } else if (marks &gt;= 60) {
+        cout &lt;&lt; &quot;Grade: D&quot; &lt;&lt; endl;
+    } else {
+        cout &lt;&lt; &quot;Grade: F&quot; &lt;&lt; endl;
+    }
+
+    return 0;
+}</code></pre><div class="code-example-explanation">The conditions are checked top to bottom. Input validation (marks < 0 or > 100) is handled first. Then the grade boundaries are checked in descending order. If marks is 85, it fails the >= 90 check but passes >= 80, so Grade B prints. The remaining conditions are skipped.</div><div class="code-example-output">Enter marks (0-100): 85
+Grade: B</div></div>
+<div class="code-example"><div class="code-example-title">Nested if: Largest of Three Numbers</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cout &lt;&lt; &quot;Enter three numbers: &quot;;
+    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;
+
+    int largest;
+    if (a &gt;= b) {
+        if (a &gt;= c) {
+            largest = a;
+        } else {
+            largest = c;
+        }
+    } else {
+        if (b &gt;= c) {
+            largest = b;
+        } else {
+            largest = c;
+        }
+    }
+
+    cout &lt;&lt; &quot;Largest: &quot; &lt;&lt; largest &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">First, we compare a and b. If a >= b, the largest is either a or c (compare them). If b > a, the largest is either b or c. This uses nested if-else to narrow down the answer through two comparisons. An alternative approach: use the ternary operator or the max() function.</div><div class="code-example-output">Enter three numbers: 15 42 28
+Largest: 42</div></div>
+<div class="code-example"><div class="code-example-title">Ternary Operator: Absolute Value and Min/Max</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int x = -7;
+    int absX = (x &gt;= 0) ? x : -x;
+    cout &lt;&lt; &quot;Absolute value of &quot; &lt;&lt; x &lt;&lt; &quot;: &quot; &lt;&lt; absX &lt;&lt; endl;
+
+    int a = 25, b = 18;
+    int minVal = (a &lt; b) ? a : b;
+    int maxVal = (a &gt; b) ? a : b;
+    cout &lt;&lt; &quot;Min: &quot; &lt;&lt; minVal &lt;&lt; &quot;, Max: &quot; &lt;&lt; maxVal &lt;&lt; endl;
+
+    // Nested ternary: classify number
+    int num = 0;
+    string result = (num &gt; 0) ? &quot;positive&quot; : (num &lt; 0) ? &quot;negative&quot; : &quot;zero&quot;;
+    cout &lt;&lt; num &lt;&lt; &quot; is &quot; &lt;&lt; result &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">The ternary operator evaluates the condition before the ?. If true, the expression before : is returned; if false, the expression after : is returned. Nested ternary (line with num) chains two conditions but should be used sparingly as it reduces readability.</div><div class="code-example-output">Absolute value of -7: 7
+Min: 18, Max: 25
+0 is zero</div></div>
+<div class="code-example"><div class="code-example-title">switch-case: Day of the Week</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int day;
+    cout &lt;&lt; &quot;Enter day number (1-7): &quot;;
+    cin &gt;&gt; day;
+
+    switch (day) {
+        case 1: cout &lt;&lt; &quot;Monday&quot; &lt;&lt; endl; break;
+        case 2: cout &lt;&lt; &quot;Tuesday&quot; &lt;&lt; endl; break;
+        case 3: cout &lt;&lt; &quot;Wednesday&quot; &lt;&lt; endl; break;
+        case 4: cout &lt;&lt; &quot;Thursday&quot; &lt;&lt; endl; break;
+        case 5: cout &lt;&lt; &quot;Friday&quot; &lt;&lt; endl; break;
+        case 6: cout &lt;&lt; &quot;Saturday&quot; &lt;&lt; endl; break;
+        case 7: cout &lt;&lt; &quot;Sunday&quot; &lt;&lt; endl; break;
+        default: cout &lt;&lt; &quot;Invalid day number&quot; &lt;&lt; endl;
+    }
+
+    return 0;
+}</code></pre><div class="code-example-explanation">The switch expression (day) is compared against each case constant. When a match is found, the corresponding code executes. The break statement prevents fall-through to the next case. If no case matches, the default block runs.</div><div class="code-example-output">Enter day number (1-7): 3
+Wednesday</div></div>
+<div class="code-example"><div class="code-example-title">switch-case: Fall-Through for Grouping</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int month;
+    cout &lt;&lt; &quot;Enter month number (1-12): &quot;;
+    cin &gt;&gt; month;
+
+    switch (month) {
+        case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+            cout &lt;&lt; &quot;31 days&quot; &lt;&lt; endl;
+            break;
+        case 4: case 6: case 9: case 11:
+            cout &lt;&lt; &quot;30 days&quot; &lt;&lt; endl;
+            break;
+        case 2:
+            cout &lt;&lt; &quot;28 or 29 days&quot; &lt;&lt; endl;
+            break;
+        default:
+            cout &lt;&lt; &quot;Invalid month&quot; &lt;&lt; endl;
+    }
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Intentional fall-through groups multiple cases that share the same action. Cases 1, 3, 5, 7, 8, 10, 12 all fall through to the '31 days' output. This is cleaner than writing seven separate if conditions. The break after each group prevents further fall-through.</div><div class="code-example-output">Enter month number (1-12): 4
+30 days</div></div>
+<div class="code-example"><div class="code-example-title">switch with char: Simple Calculator</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    double a, b;
+    char op;
+    cout &lt;&lt; &quot;Enter expression (e.g., 10 + 5): &quot;;
+    cin &gt;&gt; a &gt;&gt; op &gt;&gt; b;
+
+    switch (op) {
+        case &#39;+&#39;:
+            cout &lt;&lt; a &lt;&lt; &quot; + &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; a + b &lt;&lt; endl;
+            break;
+        case &#39;-&#39;:
+            cout &lt;&lt; a &lt;&lt; &quot; - &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; a - b &lt;&lt; endl;
+            break;
+        case &#39;*&#39;:
+            cout &lt;&lt; a &lt;&lt; &quot; * &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; a * b &lt;&lt; endl;
+            break;
+        case &#39;/&#39;:
+            if (b != 0)
+                cout &lt;&lt; a &lt;&lt; &quot; / &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; a / b &lt;&lt; endl;
+            else
+                cout &lt;&lt; &quot;Error: division by zero&quot; &lt;&lt; endl;
+            break;
+        default:
+            cout &lt;&lt; &quot;Unknown operator: &quot; &lt;&lt; op &lt;&lt; endl;
+    }
+
+    return 0;
+}</code></pre><div class="code-example-explanation">The switch uses a char variable (op) to determine which operation to perform. Inside the '/' case, a nested if checks for division by zero before performing the division. This demonstrates combining switch-case with if-else for edge case handling.</div><div class="code-example-output">Enter expression (e.g., 10 + 5): 10 + 5
+10 + 5 = 15</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using = Instead of == in Conditions</h3>
+                <div class="wrong-code"><pre><code class="language-python">int x = 5;
+if (x = 10) {
+    cout &lt;&lt; &quot;x is 10&quot; &lt;&lt; endl;
+}</code></pre></div><div class="error-message">This assigns 10 to x instead of comparing. Since 10 is non-zero (truthy), the if body always executes. After this line, x is 10, not 5.</div><div class="correct-code"><pre><code class="language-python">int x = 5;
+if (x == 10) {
+    cout &lt;&lt; &quot;x is 10&quot; &lt;&lt; endl;
+}</code></pre></div><div class="mistake-explanation"><code>=</code> is assignment, <code>==</code> is comparison. This is one of the most common C++ bugs. Modern compilers issue a warning (-Wparentheses), but many beginners ignore warnings. Use compiler flags <code>-Wall -Werror</code> to catch this.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Missing break in switch-case</h3>
+                <div class="wrong-code"><pre><code class="language-python">int choice = 1;
+switch (choice) {
+    case 1:
+        cout &lt;&lt; &quot;One&quot; &lt;&lt; endl;
+    case 2:
+        cout &lt;&lt; &quot;Two&quot; &lt;&lt; endl;
+    case 3:
+        cout &lt;&lt; &quot;Three&quot; &lt;&lt; endl;
+}
+// Output: One\nTwo\nThree</code></pre></div><div class="error-message">Without break, execution falls through to subsequent cases. All three messages print when only &quot;One&quot; was intended.</div><div class="correct-code"><pre><code class="language-python">int choice = 1;
+switch (choice) {
+    case 1:
+        cout &lt;&lt; &quot;One&quot; &lt;&lt; endl;
+        break;
+    case 2:
+        cout &lt;&lt; &quot;Two&quot; &lt;&lt; endl;
+        break;
+    case 3:
+        cout &lt;&lt; &quot;Three&quot; &lt;&lt; endl;
+        break;
+}</code></pre></div><div class="mistake-explanation">Each case needs an explicit <code>break;</code> to prevent fall-through. Fall-through is intentional only when you want multiple cases to share the same code (like grouping months by days).</div>
+            </div>
+<div class="mistake-card">
+                <h3>Dangling Else: else Binds to Wrong if</h3>
+                <div class="wrong-code"><pre><code class="language-python">int a = 5, b = -3;
+if (a &gt; 0)
+    if (b &gt; 0)
+        cout &lt;&lt; &quot;both positive&quot; &lt;&lt; endl;
+else
+    cout &lt;&lt; &quot;a is not positive&quot; &lt;&lt; endl;
+// Prints: &quot;a is not positive&quot; (wrong!)</code></pre></div><div class="error-message">The else binds to the inner if (b &gt; 0), not the outer if (a &gt; 0). So when a &gt; 0 and b &lt;= 0, it prints the wrong message.</div><div class="correct-code"><pre><code class="language-python">int a = 5, b = -3;
+if (a &gt; 0) {
+    if (b &gt; 0) {
+        cout &lt;&lt; &quot;both positive&quot; &lt;&lt; endl;
+    }
+} else {
+    cout &lt;&lt; &quot;a is not positive&quot; &lt;&lt; endl;
+}</code></pre></div><div class="mistake-explanation">In C++, else associates with the <strong>nearest unmatched if</strong>. Always use braces to make the structure explicit. This is the dangling else problem, a classic interview topic.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Semicolon After if Condition</h3>
+                <div class="wrong-code"><pre><code class="language-python">int x = 5;
+if (x &gt; 10);  // Stray semicolon!
+{
+    cout &lt;&lt; &quot;x is greater than 10&quot; &lt;&lt; endl;
+}
+// Prints: &quot;x is greater than 10&quot; (wrong!)</code></pre></div><div class="error-message">The semicolon acts as an empty statement, becoming the if body. The block below runs unconditionally because it is not connected to the if.</div><div class="correct-code"><pre><code class="language-python">int x = 5;
+if (x &gt; 10) {
+    cout &lt;&lt; &quot;x is greater than 10&quot; &lt;&lt; endl;
+}</code></pre></div><div class="mistake-explanation">A semicolon after <code>if (condition);</code> creates an empty if body. The compiler does not error because an empty statement is valid syntax. The block below is treated as a standalone block, not part of the if.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using float/double in switch</h3>
+                <div class="wrong-code"><pre><code class="language-python">double val = 1.5;
+switch (val) {  // Compilation error!
+    case 1.0: cout &lt;&lt; &quot;One&quot;; break;
+    case 1.5: cout &lt;&lt; &quot;One and half&quot;; break;
+}</code></pre></div><div class="error-message">Compilation error: switch requires an integral type. Floating-point values (float, double) are not allowed in switch expressions.</div><div class="correct-code"><pre><code class="language-python">double val = 1.5;
+if (val == 1.0) {
+    cout &lt;&lt; &quot;One&quot; &lt;&lt; endl;
+} else if (val == 1.5) {
+    cout &lt;&lt; &quot;One and half&quot; &lt;&lt; endl;
+}</code></pre></div><div class="mistake-explanation">switch only works with integral types (int, char, enum, bool). For floating-point comparisons, use if-else if chains. Note: comparing floats with == is also risky due to precision issues.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>The if statement executes a block only when its condition is true (non-zero in C++). Any non-zero value is truthy, and 0 is falsy.</li>
+<li>if-else provides two-way branching: exactly one of the two blocks always executes.</li>
+<li>if-else if-else chains multiple conditions evaluated top to bottom. The first true branch executes, and the rest are skipped. Order matters.</li>
+<li>Nested if places an if inside another if. Use it when a decision depends on a prior decision, but avoid deep nesting (refactor with &amp;&amp; or early returns).</li>
+<li>The dangling else problem: else binds to the nearest unmatched if, not based on indentation. Always use braces to avoid ambiguity.</li>
+<li>The ternary operator (condition ? true_val : false_val) is an expression that returns a value. Use it for compact assignments and in competitive programming for inline min/max/abs.</li>
+<li>switch-case compares an integral/char expression against constant values. Each case needs break to prevent fall-through. default handles unmatched values.</li>
+<li>Fall-through in switch (omitting break) causes subsequent cases to execute. It is intentional for grouping cases but a bug when forgotten.</li>
+<li>Using = (assignment) instead of == (comparison) in conditions is a common C++ bug. The assignment returns the assigned value, which is truthy if non-zero.</li>
+<li>In competitive programming, use ternary expressions for min/max without the library, and exploit boolean-to-int conversion (true = 1, false = 0) for compact conditional logic.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/input-output-and-formatting" class="related-topic-link">Input, Output, and Formatting</a>
+<a href="/resources/cpp/loops-in-cpp" class="related-topic-link">Loops (for, while, do-while) and Patterns</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/input-output-and-formatting" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Input, Output, and Formatting</span>
+        </a>
+            <a href="/resources/cpp/loops-in-cpp" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Loops (for, while, do-while) and Patterns</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/conditional-statements/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

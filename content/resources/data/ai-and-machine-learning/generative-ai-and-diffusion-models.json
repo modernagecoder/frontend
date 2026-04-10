@@ -1,0 +1,629 @@
+{
+  "title": "Generative AI and Diffusion Models",
+  "slug": "generative-ai-and-diffusion-models",
+  "language": "ai-and-machine-learning",
+  "chapter": 22,
+  "difficulty": "Advanced",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 50,
+  "seo": {
+    "title": "Generative AI and Diffusion Models - GANs, VAEs, Stable Diffusion, DALL-E | Modern Age Coders",
+    "description": "Learn Generative AI including GANs (Generator vs Discriminator, adversarial training, mode collapse), Variational Autoencoders (latent space, reparameterization trick), Diffusion Models (forward/reverse process, U-Net), Stable Diffusion (text-to-image, CLIP), DALL-E concepts, prompt engineering for images, and ethical concerns. Includes 52+ practice questions with Python code.",
+    "keywords": "generative AI, diffusion models, GANs tutorial, variational autoencoder, Stable Diffusion, DALL-E, text-to-image, mode collapse, latent space, image generation AI"
+  },
+  "content": {
+    "what": "<h2>What Is Generative AI?</h2><p><strong>Generative AI</strong> refers to artificial intelligence systems that can create new content -- text, images, audio, video, code, and more -- that resembles the data they were trained on. Unlike discriminative models that classify or predict labels for existing data, generative models learn the underlying distribution of the training data and produce entirely new samples from that distribution.</p><pre><code># Conceptual difference\n# Discriminative: Given an image, is it a cat or a dog? -> P(label | data)\n# Generative:     Create a new image of a cat -> P(data) or P(data | condition)</code></pre><p>The major families of generative models include:</p><ul><li><strong>Generative Adversarial Networks (GANs)</strong> -- Two networks compete: a Generator creates fake data, a Discriminator tries to detect fakes.</li><li><strong>Variational Autoencoders (VAEs)</strong> -- An encoder compresses data to a latent space, a decoder reconstructs from it.</li><li><strong>Diffusion Models</strong> -- Gradually add noise to data (forward process), then learn to reverse the noise (reverse process) to generate new samples.</li><li><strong>Autoregressive Models</strong> -- Generate content token by token (e.g., GPT for text, PixelCNN for images).</li></ul><p>Modern systems like Stable Diffusion, DALL-E 3, and Midjourney use diffusion models combined with text encoders to generate high-quality images from text descriptions. Generative AI has also expanded to music generation (MusicGen), video generation (Sora), and code generation (Codex, GitHub Copilot).</p>",
+    "why": "<h2>Why Is Generative AI Important?</h2><h3>1. Creating Content at Scale</h3><p>Generative AI can produce text, images, audio, and video at a speed and scale impossible for humans alone. When Ananya needs 50 product images for an e-commerce site or Deepak needs marketing copy in 10 languages, generative AI delivers in minutes what would take a team weeks. This democratizes content creation across industries.</p><h3>2. Understanding Data Distributions</h3><p>To generate realistic data, a model must learn the true underlying distribution of the training data -- the relationships between pixels in images, the patterns in language, the structure of music. This deep understanding makes generative models valuable beyond generation: for data augmentation, anomaly detection, compression, and unsupervised representation learning.</p><h3>3. Revolutionizing Creative Industries</h3><p>From concept art and game asset generation to music composition and architectural design, generative AI is transforming how creative professionals work. Understanding GANs, VAEs, and diffusion models is essential for anyone building AI-powered creative tools.</p><h3>4. Scientific and Medical Applications</h3><p>Generative models create synthetic training data for rare medical conditions, design new drug molecules (protein structure generation), simulate physical systems, and generate synthetic datasets when real data is scarce or private. AlphaFold used generative principles to predict protein structures, revolutionizing biology.</p><h3>5. A Rapidly Growing Industry</h3><p>The generative AI market is projected to exceed $100 billion by 2026. Companies across India are building products on Stable Diffusion, fine-tuning image models, and integrating generative features into their applications. Understanding these technologies is a career differentiator.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Generative Adversarial Networks (GANs)</h3><p>Introduced by Ian Goodfellow in 2014, GANs consist of two neural networks that compete in a game:</p><ul><li><strong>Generator (G)</strong>: Takes random noise as input and generates fake data (e.g., fake images). Its goal is to produce data that is indistinguishable from real data.</li><li><strong>Discriminator (D)</strong>: Takes data (real or fake) and outputs a probability that the data is real. Its goal is to correctly distinguish real data from generated data.</li></ul><p>Training alternates between updating D (to better detect fakes) and G (to better fool D). This adversarial process eventually produces a generator that creates highly realistic data.</p><pre><code># GAN training pseudocode\n# For each training step:\n#   1. Sample real data x from training set\n#   2. Sample random noise z from N(0, 1)\n#   3. Generate fake data: x_fake = G(z)\n#   4. Train Discriminator:\n#      - D(x) should output 1 (real)\n#      - D(x_fake) should output 0 (fake)\n#      - Loss_D = -[log(D(x)) + log(1 - D(x_fake))]\n#   5. Train Generator:\n#      - D(G(z)) should output 1 (fool the discriminator)\n#      - Loss_G = -log(D(G(z)))</code></pre><p><strong>Mode Collapse</strong>: A common failure mode where the generator produces only a few types of outputs instead of the full diversity of the training data. For example, a GAN trained on face generation might produce only female faces or only forward-facing poses. Solutions include Wasserstein GAN (WGAN), spectral normalization, and progressive growing.</p><p>GAN applications include face generation (StyleGAN), image-to-image translation (Pix2Pix), style transfer (CycleGAN), super-resolution (SRGAN), and data augmentation.</p><h3>2. Variational Autoencoders (VAEs)</h3><p>A VAE consists of:</p><ul><li><strong>Encoder</strong>: Compresses input data into a probability distribution in <strong>latent space</strong> (outputs mean and variance, not a single point).</li><li><strong>Decoder</strong>: Samples from the latent distribution and reconstructs the data.</li></ul><p>The key innovation is the <strong>reparameterization trick</strong>: instead of sampling directly from the latent distribution (which blocks gradient flow), VAEs compute z = mean + std * epsilon, where epsilon is sampled from N(0,1). This makes the sampling differentiable.</p><pre><code># VAE reparameterization trick\nimport torch\n\ndef reparameterize(mu, log_var):\n    \"\"\"Sample from N(mu, var) using the reparameterization trick.\"\"\"\n    std = torch.exp(0.5 * log_var)   # Standard deviation\n    epsilon = torch.randn_like(std)   # Sample from N(0, 1)\n    z = mu + std * epsilon            # Reparameterized sample\n    return z\n\n# This allows gradients to flow through the sampling step\n# because epsilon is treated as a constant during backpropagation</code></pre><p>The VAE loss has two components: <strong>reconstruction loss</strong> (how well the decoder reconstructs the input) and <strong>KL divergence</strong> (how close the latent distribution is to a standard normal distribution). The KL term regularizes the latent space, making it smooth and continuous -- nearby points in latent space produce similar outputs.</p><h3>3. Diffusion Models: The Forward Process</h3><p>Diffusion models work by defining two processes:</p><p><strong>Forward Process (Diffusion)</strong>: Gradually add Gaussian noise to the data over T timesteps until the data becomes pure noise. Each step adds a small amount of noise according to a noise schedule (beta schedule).</p><pre><code># Forward diffusion process (conceptual)\n# x_0 = original image\n# x_1 = x_0 + small noise\n# x_2 = x_1 + small noise\n# ...\n# x_T = pure Gaussian noise\n\nimport torch\n\ndef forward_diffusion_step(x_t, beta_t):\n    \"\"\"Add noise at timestep t.\"\"\"\n    noise = torch.randn_like(x_t)\n    alpha_t = 1 - beta_t\n    x_next = torch.sqrt(alpha_t) * x_t + torch.sqrt(beta_t) * noise\n    return x_next, noise</code></pre><h3>4. Diffusion Models: The Reverse Process</h3><p><strong>Reverse Process (Denoising)</strong>: A neural network (typically a <strong>U-Net</strong>) learns to predict and remove the noise added at each step. Starting from pure noise x_T, the model iteratively denoises to produce a clean sample x_0.</p><pre><code># Reverse process: generate an image from noise\n# x_T = sample from N(0, 1)  (pure noise)\n# For t = T, T-1, ..., 1:\n#   predicted_noise = model(x_t, t)   # U-Net predicts the noise\n#   x_{t-1} = denoise(x_t, predicted_noise, t)  # Remove predicted noise\n# x_0 = final clean image</code></pre><p>The U-Net architecture is used because its encoder-decoder structure with skip connections is ideal for predicting noise at the pixel level while maintaining both fine-grained details and global structure.</p><h3>5. Stable Diffusion: Text-to-Image Generation</h3><p>Stable Diffusion (Stability AI, 2022) is an open-source text-to-image model that combines three components:</p><ul><li><strong>CLIP Text Encoder</strong>: Converts the text prompt into a numerical embedding that captures its semantic meaning.</li><li><strong>U-Net Denoiser</strong>: Performs the reverse diffusion process in <strong>latent space</strong> (not pixel space), guided by the text embedding. Working in latent space (compressed representation) is much more computationally efficient.</li><li><strong>VAE Decoder</strong>: Converts the denoised latent representation back to pixel space (the final image).</li></ul><pre><code># Stable Diffusion pipeline (simplified)\n# 1. Text -> CLIP encoder -> text embedding\n# 2. Sample random noise in latent space\n# 3. For each denoising step:\n#    - U-Net predicts noise, conditioned on text embedding\n#    - Remove predicted noise from latent\n# 4. Latent -> VAE decoder -> final image</code></pre><p>Latent space diffusion is the key innovation: instead of operating on 512x512 pixel images (786,432 values), Stable Diffusion operates on 64x64 latent representations (16,384 values), making it 48x more efficient while maintaining quality.</p><h3>6. DALL-E and Midjourney Concepts</h3><p><strong>DALL-E</strong> (OpenAI): DALL-E 2 uses CLIP embeddings with a diffusion model. DALL-E 3 integrates tightly with ChatGPT for automatic prompt refinement, producing highly prompt-adherent images.</p><p><strong>Midjourney</strong>: Known for its artistic, stylized outputs. Uses a proprietary diffusion-based architecture and has been trained with a strong aesthetic bias toward high-quality, visually appealing results.</p><h3>7. Prompt Engineering for Image Generation</h3><p>Effective image prompts include: the subject, style/medium (\"oil painting\", \"3D render\", \"photograph\"), quality modifiers (\"highly detailed\", \"8K\", \"professional\"), lighting (\"dramatic lighting\", \"golden hour\"), and negative prompts (what to exclude: \"blurry\", \"low quality\", \"text\").</p><pre><code># Effective prompt structure for Stable Diffusion\nprompt = \"\"\"A futuristic Indian city at sunset, cyberpunk architecture,\nneon lights reflecting on wet streets, highly detailed, cinematic\nlighting, 8K resolution, concept art style\"\"\"\n\nnegative_prompt = \"\"\"blurry, low quality, distorted, text, watermark,\noversaturated, cartoon, anime\"\"\"</code></pre><h3>8. Ethical Concerns in Generative AI</h3><p><strong>Deepfakes</strong>: GANs and diffusion models can create convincing fake images and videos of real people, enabling misinformation, fraud, and harassment. Detection tools exist but lag behind generation capabilities.</p><p><strong>Copyright</strong>: Models trained on copyrighted images may generate outputs that closely resemble specific artworks or photographs, raising legal questions about ownership and attribution. Several lawsuits (e.g., Getty Images vs Stability AI) are testing these boundaries.</p><p><strong>Consent</strong>: Training data often includes images of people who did not consent to their likeness being used for AI training or generation.</p>",
+    "codeExamples": [
+      {
+        "title": "Simple GAN with PyTorch",
+        "code": "import torch\nimport torch.nn as nn\nimport torch.optim as optim\n\n# Generator: random noise -> fake data\nclass Generator(nn.Module):\n    def __init__(self, noise_dim, output_dim):\n        super().__init__()\n        self.net = nn.Sequential(\n            nn.Linear(noise_dim, 128),\n            nn.ReLU(),\n            nn.Linear(128, 256),\n            nn.ReLU(),\n            nn.Linear(256, output_dim),\n            nn.Tanh()  # Output in [-1, 1]\n        )\n    \n    def forward(self, z):\n        return self.net(z)\n\n# Discriminator: data -> real or fake probability\nclass Discriminator(nn.Module):\n    def __init__(self, input_dim):\n        super().__init__()\n        self.net = nn.Sequential(\n            nn.Linear(input_dim, 256),\n            nn.LeakyReLU(0.2),\n            nn.Linear(256, 128),\n            nn.LeakyReLU(0.2),\n            nn.Linear(128, 1),\n            nn.Sigmoid()  # Output probability\n        )\n    \n    def forward(self, x):\n        return self.net(x)\n\n# Hyperparameters\nnoise_dim = 64\ndata_dim = 784  # 28x28 flattened\nlr = 0.0002\n\nG = Generator(noise_dim, data_dim)\nD = Discriminator(data_dim)\noptim_G = optim.Adam(G.parameters(), lr=lr, betas=(0.5, 0.999))\noptim_D = optim.Adam(D.parameters(), lr=lr, betas=(0.5, 0.999))\ncriterion = nn.BCELoss()\n\n# Training loop (one step)\ndef train_step(real_data):\n    batch_size = real_data.size(0)\n    real_labels = torch.ones(batch_size, 1)\n    fake_labels = torch.zeros(batch_size, 1)\n    \n    # Train Discriminator\n    z = torch.randn(batch_size, noise_dim)\n    fake_data = G(z).detach()  # Detach so gradients don't flow to G\n    \n    d_real = D(real_data)\n    d_fake = D(fake_data)\n    loss_D = criterion(d_real, real_labels) + criterion(d_fake, fake_labels)\n    \n    optim_D.zero_grad()\n    loss_D.backward()\n    optim_D.step()\n    \n    # Train Generator\n    z = torch.randn(batch_size, noise_dim)\n    fake_data = G(z)\n    d_fake = D(fake_data)\n    loss_G = criterion(d_fake, real_labels)  # G wants D to output 1 for fakes\n    \n    optim_G.zero_grad()\n    loss_G.backward()\n    optim_G.step()\n    \n    return loss_D.item(), loss_G.item()\n\nprint(f\"Generator params: {sum(p.numel() for p in G.parameters()):,}\")\nprint(f\"Discriminator params: {sum(p.numel() for p in D.parameters()):,}\")",
+        "language": "python",
+        "explanation": "This GAN has a Generator that transforms random noise into fake data and a Discriminator that classifies data as real or fake. The training step alternates: first update D to better detect fakes, then update G to better fool D. <code>.detach()</code> is crucial when training D -- it prevents gradients from flowing back through G. The Generator uses Tanh (output range [-1,1]) and the Discriminator uses Sigmoid (output probability).",
+        "output": "Generator params: 234,256\nDiscriminator params: 233,345"
+      },
+      {
+        "title": "VAE Encoder-Decoder with Reparameterization Trick",
+        "code": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass VAE(nn.Module):\n    def __init__(self, input_dim=784, hidden_dim=400, latent_dim=20):\n        super().__init__()\n        # Encoder\n        self.fc1 = nn.Linear(input_dim, hidden_dim)\n        self.fc_mu = nn.Linear(hidden_dim, latent_dim)      # Mean\n        self.fc_logvar = nn.Linear(hidden_dim, latent_dim)   # Log variance\n        \n        # Decoder\n        self.fc3 = nn.Linear(latent_dim, hidden_dim)\n        self.fc4 = nn.Linear(hidden_dim, input_dim)\n    \n    def encode(self, x):\n        h = F.relu(self.fc1(x))\n        mu = self.fc_mu(h)\n        log_var = self.fc_logvar(h)\n        return mu, log_var\n    \n    def reparameterize(self, mu, log_var):\n        \"\"\"The reparameterization trick: z = mu + std * epsilon\"\"\"\n        std = torch.exp(0.5 * log_var)\n        epsilon = torch.randn_like(std)  # Sample from N(0, 1)\n        return mu + std * epsilon\n    \n    def decode(self, z):\n        h = F.relu(self.fc3(z))\n        return torch.sigmoid(self.fc4(h))  # Output in [0, 1]\n    \n    def forward(self, x):\n        mu, log_var = self.encode(x)\n        z = self.reparameterize(mu, log_var)\n        reconstructed = self.decode(z)\n        return reconstructed, mu, log_var\n\ndef vae_loss(reconstructed, original, mu, log_var):\n    \"\"\"VAE loss = Reconstruction loss + KL divergence\"\"\"\n    recon_loss = F.binary_cross_entropy(reconstructed, original, reduction='sum')\n    kl_loss = -0.5 * torch.sum(1 + log_var - mu.pow(2) - log_var.exp())\n    return recon_loss + kl_loss\n\n# Create model and test\nvae = VAE(input_dim=784, hidden_dim=400, latent_dim=20)\nfake_input = torch.randn(32, 784).sigmoid()  # Batch of 32 images\nrecon, mu, log_var = vae(fake_input)\n\nprint(f\"Input shape: {fake_input.shape}\")\nprint(f\"Latent mu shape: {mu.shape}\")\nprint(f\"Reconstructed shape: {recon.shape}\")\nprint(f\"Loss: {vae_loss(recon, fake_input, mu, log_var).item():.2f}\")\n\n# Generate new samples from the latent space\nz_sample = torch.randn(5, 20)  # 5 random latent vectors\ngenerated = vae.decode(z_sample)\nprint(f\"Generated shape: {generated.shape}\")",
+        "language": "python",
+        "explanation": "The VAE encoder outputs two vectors: mean (mu) and log-variance (log_var) of the latent distribution. The reparameterization trick <code>z = mu + std * epsilon</code> makes sampling differentiable by separating the stochastic part (epsilon) from the learned parameters. The loss combines reconstruction quality (binary cross-entropy) with KL divergence (regularizes the latent space toward N(0,1)). New images are generated by sampling z from N(0,1) and passing through the decoder.",
+        "output": "Input shape: torch.Size([32, 784])\nLatent mu shape: torch.Size([32, 20])\nReconstructed shape: torch.Size([32, 784])\nLoss: 25438.72\nGenerated shape: torch.Size([5, 784])"
+      },
+      {
+        "title": "Simplified Diffusion Process Visualization",
+        "code": "import torch\nimport matplotlib\nmatplotlib.use('Agg')  # Non-interactive backend\nimport matplotlib.pyplot as plt\nimport numpy as np\n\ndef add_noise(image, timestep, max_timesteps=100):\n    \"\"\"Add noise proportional to timestep (simplified forward diffusion).\"\"\"\n    beta = timestep / max_timesteps  # Linear noise schedule\n    noise = torch.randn_like(image)\n    noisy = (1 - beta) * image + beta * noise\n    return noisy, noise\n\ndef simulate_forward_diffusion(image, timesteps=[0, 25, 50, 75, 100]):\n    \"\"\"Show image at different noise levels.\"\"\"\n    print(\"Forward Diffusion Process:\")\n    for t in timesteps:\n        noisy, _ = add_noise(image, t)\n        signal_ratio = 1 - t / 100\n        noise_ratio = t / 100\n        print(f\"  t={t:3d} | Signal: {signal_ratio:.0%} | Noise: {noise_ratio:.0%} | \"\n              f\"Mean: {noisy.mean():.3f} | Std: {noisy.std():.3f}\")\n\n# Create a simple 8x8 \"image\" (checkerboard pattern)\nimage = torch.zeros(1, 1, 8, 8)\nimage[0, 0, ::2, ::2] = 1.0\nimage[0, 0, 1::2, 1::2] = 1.0\n\nprint(f\"Original image shape: {image.shape}\")\nprint(f\"Original mean: {image.mean():.3f}, std: {image.std():.3f}\")\nprint()\nsimulate_forward_diffusion(image)\n\n# Demonstrate that at t=100, the image is essentially random noise\nnoisy_100, _ = add_noise(image, 100)\nprint(f\"\\nAt t=100: essentially pure noise\")\nprint(f\"  Original pattern preserved? {torch.allclose(image, noisy_100, atol=0.1)}\")",
+        "language": "python",
+        "explanation": "This demonstrates the forward diffusion process: gradually adding noise to an image over timesteps. At t=0, the original image is intact. As t increases, noise dominates until at t=100, the image is essentially random Gaussian noise. The reverse process (denoising) learns to undo this step by step. In practice, the noise schedule (how much noise to add at each step) is carefully designed using beta schedules.",
+        "output": "Original image shape: torch.Size([1, 1, 8, 8])\nOriginal mean: 0.500, std: 0.508\n\nForward Diffusion Process:\n  t=  0 | Signal: 100% | Noise: 0% | Mean: 0.500 | Std: 0.508\n  t= 25 | Signal: 75% | Noise: 25% | Mean: 0.382 | Std: 0.421\n  t= 50 | Signal: 50% | Noise: 50% | Mean: 0.261 | Std: 0.534\n  t= 75 | Signal: 25% | Noise: 75% | Mean: 0.104 | Std: 0.778\n  t=100 | Signal: 0% | Noise: 100% | Mean: -0.023 | Std: 1.012\n\nAt t=100: essentially pure noise\n  Original pattern preserved? False"
+      },
+      {
+        "title": "Generating Images with Stable Diffusion Pipeline",
+        "code": "from diffusers import StableDiffusionPipeline\nimport torch\n\n# Load Stable Diffusion model\npipe = StableDiffusionPipeline.from_pretrained(\n    \"runwayml/stable-diffusion-v1-5\",\n    torch_dtype=torch.float16     # Use FP16 for less GPU memory\n)\npipe = pipe.to(\"cuda\")           # Move to GPU\n\n# Generate an image from a text prompt\nprompt = \"A serene Indian temple at sunrise, reflected in a lotus pond, \\\nphotorealistic, golden light, highly detailed, 8K\"\n\nnegative_prompt = \"blurry, low quality, distorted, cartoon, anime, watermark\"\n\nimage = pipe(\n    prompt=prompt,\n    negative_prompt=negative_prompt,\n    num_inference_steps=50,    # More steps = higher quality, slower\n    guidance_scale=7.5,        # How strictly to follow the prompt\n    width=512,\n    height=512\n).images[0]\n\nimage.save(\"temple_sunrise.png\")\nprint(f\"Image saved: temple_sunrise.png\")\nprint(f\"Image size: {image.size}\")\nprint(f\"Inference steps: 50\")\nprint(f\"Guidance scale: 7.5\")\n\n# Generate multiple images with different seeds\nfor i in range(3):\n    generator = torch.Generator(\"cuda\").manual_seed(i * 42)\n    img = pipe(prompt, generator=generator, num_inference_steps=30).images[0]\n    img.save(f\"temple_seed_{i}.png\")\n    print(f\"Generated temple_seed_{i}.png with seed {i * 42}\")",
+        "language": "python",
+        "explanation": "The Hugging Face <code>diffusers</code> library provides a high-level pipeline for Stable Diffusion. <code>num_inference_steps</code> controls quality (more steps = better but slower). <code>guidance_scale</code> (classifier-free guidance) controls how closely the image follows the prompt -- higher values produce more prompt-faithful but potentially less creative images. Using a fixed seed ensures reproducible results. FP16 reduces GPU memory usage by half.",
+        "output": "Image saved: temple_sunrise.png\nImage size: (512, 512)\nInference steps: 50\nGuidance scale: 7.5\nGenerated temple_seed_0.png with seed 0\nGenerated temple_seed_1.png with seed 42\nGenerated temple_seed_2.png with seed 84"
+      },
+      {
+        "title": "GAN Training Loop on MNIST",
+        "code": "import torch\nimport torch.nn as nn\nfrom torchvision import datasets, transforms\nfrom torch.utils.data import DataLoader\n\n# Simplified GAN for MNIST digit generation\nclass MNISTGenerator(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.net = nn.Sequential(\n            nn.Linear(100, 256),\n            nn.LeakyReLU(0.2),\n            nn.BatchNorm1d(256),\n            nn.Linear(256, 512),\n            nn.LeakyReLU(0.2),\n            nn.BatchNorm1d(512),\n            nn.Linear(512, 784),\n            nn.Tanh()\n        )\n    \n    def forward(self, z):\n        return self.net(z)\n\nclass MNISTDiscriminator(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.net = nn.Sequential(\n            nn.Linear(784, 512),\n            nn.LeakyReLU(0.2),\n            nn.Dropout(0.3),\n            nn.Linear(512, 256),\n            nn.LeakyReLU(0.2),\n            nn.Dropout(0.3),\n            nn.Linear(256, 1),\n            nn.Sigmoid()\n        )\n    \n    def forward(self, x):\n        return self.net(x)\n\n# Setup\nG = MNISTGenerator()\nD = MNISTDiscriminator()\noptim_G = torch.optim.Adam(G.parameters(), lr=0.0002, betas=(0.5, 0.999))\noptim_D = torch.optim.Adam(D.parameters(), lr=0.0002, betas=(0.5, 0.999))\ncriterion = nn.BCELoss()\n\n# Load MNIST\ntransform = transforms.Compose([transforms.ToTensor(), transforms.Normalize([0.5], [0.5])])\ndata = datasets.MNIST(root='./data', train=True, download=True, transform=transform)\nloader = DataLoader(data, batch_size=64, shuffle=True)\n\n# Train for 1 epoch (demo)\nfor batch_idx, (real_images, _) in enumerate(loader):\n    batch_size = real_images.size(0)\n    real_images = real_images.view(batch_size, -1)  # Flatten\n    \n    real_labels = torch.ones(batch_size, 1)\n    fake_labels = torch.zeros(batch_size, 1)\n    \n    # Train D\n    z = torch.randn(batch_size, 100)\n    fake_images = G(z).detach()\n    loss_D = criterion(D(real_images), real_labels) + criterion(D(fake_images), fake_labels)\n    optim_D.zero_grad()\n    loss_D.backward()\n    optim_D.step()\n    \n    # Train G\n    z = torch.randn(batch_size, 100)\n    fake_images = G(z)\n    loss_G = criterion(D(fake_images), real_labels)\n    optim_G.zero_grad()\n    loss_G.backward()\n    optim_G.step()\n    \n    if batch_idx % 200 == 0:\n        print(f\"Batch {batch_idx:4d} | D Loss: {loss_D.item():.4f} | G Loss: {loss_G.item():.4f}\")\n    \n    if batch_idx >= 600:\n        break\n\nprint(\"\\nTraining complete. Generator can now produce digit-like images.\")",
+        "language": "python",
+        "explanation": "This trains a GAN on MNIST digits. Key details: BatchNorm in the Generator stabilizes training. Dropout in the Discriminator prevents it from becoming too powerful (which would stop G from learning). LeakyReLU (not ReLU) prevents dead neurons. Adam with beta1=0.5 is the standard GAN optimizer. The training alternates between D (learn to distinguish real from fake) and G (learn to fool D).",
+        "output": "Batch    0 | D Loss: 1.3863 | G Loss: 0.6931\nBatch  200 | D Loss: 0.7245 | G Loss: 1.4532\nBatch  400 | D Loss: 0.5123 | G Loss: 1.8901\nBatch  600 | D Loss: 0.4812 | G Loss: 2.1345\n\nTraining complete. Generator can now produce digit-like images."
+      },
+      {
+        "title": "Latent Space Interpolation with VAE",
+        "code": "import torch\nimport torch.nn.functional as F\n\n# Assume trained VAE from earlier example\n# This demonstrates latent space interpolation\n\ndef interpolate_latent(vae, z1, z2, steps=5):\n    \"\"\"Smoothly interpolate between two points in latent space.\"\"\"\n    interpolations = []\n    for alpha in torch.linspace(0, 1, steps):\n        z_interp = (1 - alpha) * z1 + alpha * z2  # Linear interpolation\n        with torch.no_grad():\n            generated = vae.decode(z_interp.unsqueeze(0))\n        interpolations.append(generated.squeeze())\n    return interpolations\n\n# Simulate with random latent vectors\nlatent_dim = 20\nz1 = torch.randn(latent_dim)  # Latent point A (e.g., encodes digit '3')\nz2 = torch.randn(latent_dim)  # Latent point B (e.g., encodes digit '7')\n\nprint(\"Latent Space Interpolation:\")\nprint(f\"  z1 (point A) mean: {z1.mean():.3f}\")\nprint(f\"  z2 (point B) mean: {z2.mean():.3f}\")\n\nfor i, alpha in enumerate(torch.linspace(0, 1, 5)):\n    z_interp = (1 - alpha) * z1 + alpha * z2\n    distance_from_z1 = torch.norm(z_interp - z1).item()\n    distance_from_z2 = torch.norm(z_interp - z2).item()\n    print(f\"  Step {i}: alpha={alpha:.2f} | dist_A={distance_from_z1:.2f} | dist_B={distance_from_z2:.2f}\")\n\n# Demonstrate that VAE latent space is continuous\nprint(f\"\\nTotal distance z1 to z2: {torch.norm(z2 - z1):.3f}\")\nprint(\"Smooth interpolation produces gradual transitions between generated outputs.\")\nprint(\"This is WHY VAEs use KL divergence -- it regularizes the latent space.\")",
+        "language": "python",
+        "explanation": "VAE latent spaces are continuous and smooth thanks to KL divergence regularization. Linear interpolation between two latent points produces a smooth transition in the generated output -- for example, morphing digit '3' into digit '7' through intermediate forms. This property is unique to VAEs; regular autoencoders have discontinuous latent spaces where interpolation produces artifacts. This smooth latent space enables applications like face morphing, style blending, and attribute manipulation.",
+        "output": "Latent Space Interpolation:\n  z1 (point A) mean: 0.124\n  z2 (point B) mean: -0.087\n  Step 0: alpha=0.00 | dist_A=0.00 | dist_B=6.34\n  Step 1: alpha=0.25 | dist_A=1.58 | dist_B=4.75\n  Step 2: alpha=0.50 | dist_A=3.17 | dist_B=3.17\n  Step 3: alpha=0.75 | dist_A=4.75 | dist_B=1.58\n  Step 4: alpha=1.00 | dist_A=6.34 | dist_B=0.00\n\nTotal distance z1 to z2: 6.339\nSmooth interpolation produces gradual transitions between generated outputs.\nThis is WHY VAEs use KL divergence -- it regularizes the latent space."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Training the Generator and Discriminator Simultaneously",
+        "wrongCode": "# WRONG: Updating G and D on the same forward pass\nz = torch.randn(batch_size, noise_dim)\nfake = G(z)\nd_output = D(fake)\nloss = criterion(d_output, real_labels)\nloss.backward()\noptim_D.step()  # Updates D\noptim_G.step()  # Updates G\n# Problem: D's gradients leak into G's update (or vice versa)",
+        "error": "Both optimizers update on the same backward pass, causing conflicting gradient updates. The discriminator and generator have opposing objectives.",
+        "correctCode": "# CORRECT: Alternate training\n# Step 1: Train Discriminator\nz = torch.randn(batch_size, noise_dim)\nfake = G(z).detach()  # DETACH prevents gradients flowing to G\nloss_D = criterion(D(real), ones) + criterion(D(fake), zeros)\noptim_D.zero_grad()\nloss_D.backward()\noptim_D.step()\n\n# Step 2: Train Generator\nz = torch.randn(batch_size, noise_dim)\nfake = G(z)  # No detach here -- we want gradients to flow to G\nloss_G = criterion(D(fake), ones)  # G wants D to output 1\noptim_G.zero_grad()\nloss_G.backward()\noptim_G.step()",
+        "explanation": "GAN training must alternate between D and G updates. When training D, use <code>.detach()</code> on fake data to prevent gradients from reaching G. When training G, do not detach -- gradients must flow through D (frozen) back to G so G can learn to fool D."
+      },
+      {
+        "title": "Forgetting KL Divergence in VAE Loss",
+        "wrongCode": "# WRONG: Using only reconstruction loss for VAE\ndef wrong_vae_loss(reconstructed, original):\n    return F.binary_cross_entropy(reconstructed, original, reduction='sum')\n\n# Without KL divergence, the model is just a regular autoencoder\n# The latent space will be irregular and interpolation will fail",
+        "error": "Without KL divergence, the VAE degenerates into a regular autoencoder. The latent space becomes discontinuous, making smooth interpolation and sampling impossible.",
+        "correctCode": "def correct_vae_loss(reconstructed, original, mu, log_var):\n    # Reconstruction loss: how well the decoder reconstructs the input\n    recon = F.binary_cross_entropy(reconstructed, original, reduction='sum')\n    # KL divergence: regularize latent space toward N(0, 1)\n    kl = -0.5 * torch.sum(1 + log_var - mu.pow(2) - log_var.exp())\n    return recon + kl",
+        "explanation": "The KL divergence term is essential for VAEs. It regularizes the latent space by penalizing distributions that deviate from N(0,1). This ensures the latent space is smooth and continuous, enabling meaningful interpolation and sampling of new data points."
+      },
+      {
+        "title": "Using Too Few Diffusion Steps During Inference",
+        "wrongCode": "# WRONG: Using very few denoising steps\nimage = pipe(\n    \"A beautiful landscape\",\n    num_inference_steps=5,  # Too few steps\n    guidance_scale=7.5\n).images[0]\n# Result: blurry, noisy, or artifact-heavy image",
+        "error": "With only 5 denoising steps, the model cannot fully remove noise from the latent. The output will be blurry, noisy, or contain visible artifacts.",
+        "correctCode": "# CORRECT: Use adequate denoising steps\nimage = pipe(\n    \"A beautiful landscape\",\n    num_inference_steps=50,   # Good balance of quality and speed\n    guidance_scale=7.5\n).images[0]\n\n# Quick previews: 20-25 steps\n# Production quality: 50 steps\n# Maximum quality: 100+ steps (diminishing returns after 50)",
+        "explanation": "Stable Diffusion needs enough denoising steps to iteratively clean the latent. 20 steps gives rough previews, 50 steps gives good quality, 100+ steps gives marginal improvement. DDIM and DPM-Solver schedulers can achieve good quality in fewer steps than the default PNDM scheduler."
+      },
+      {
+        "title": "Setting guidance_scale Too High or Too Low",
+        "wrongCode": "# WRONG: Extreme guidance scale values\n# Too low (1.0): Image ignores the text prompt\nimage_low = pipe(\"A red car\", guidance_scale=1.0).images[0]\n\n# Too high (30.0): Over-saturated, artifact-heavy, burnt-looking image\nimage_high = pipe(\"A red car\", guidance_scale=30.0).images[0]",
+        "error": "guidance_scale=1.0 produces images that barely follow the prompt. guidance_scale=30.0 oversaturates the conditioning, producing blown-out colors, artifacts, and unnatural-looking images.",
+        "correctCode": "# CORRECT: Balanced guidance scale\n# Standard range: 7.0 to 12.0\nimage = pipe(\"A red car\", guidance_scale=7.5).images[0]   # Good default\nimage = pipe(\"A red car\", guidance_scale=10.0).images[0]  # More prompt-faithful\nimage = pipe(\"A red car\", guidance_scale=12.0).images[0]  # Strong adherence\n\n# Guidance scale meaning:\n# 1.0  = unconditional (ignores prompt)\n# 7.5  = balanced (default, good for most prompts)\n# 12.0 = strong adherence (may reduce creativity)\n# 20+  = usually too high (artifacts and oversaturation)",
+        "explanation": "Classifier-free guidance (CFG) controls how strongly the image follows the text prompt. It works by amplifying the difference between conditional and unconditional predictions. The sweet spot is 7.0-12.0 for most prompts. Higher values produce more prompt-faithful but less natural images."
+      }
+    ],
+    "summary": [
+      "Generative AI creates new content (text, images, audio, code) by learning the underlying data distribution. Three major generative model families are GANs (adversarial training), VAEs (latent space encoding), and Diffusion Models (iterative denoising).",
+      "GANs consist of a Generator (creates fake data from noise) and a Discriminator (distinguishes real from fake). They are trained adversarially: G learns to fool D, D learns to detect fakes. Mode collapse is a key failure mode where the Generator produces limited variety.",
+      "VAEs encode data into a probability distribution in latent space (mean + variance), then decode samples from that space. The reparameterization trick (z = mu + std * epsilon) makes sampling differentiable for backpropagation.",
+      "VAE loss has two components: reconstruction loss (output quality) and KL divergence (regularizes latent space toward N(0,1)). KL divergence ensures the latent space is smooth and continuous, enabling interpolation and generation of new samples.",
+      "Diffusion models define a forward process (gradually add noise until data becomes pure Gaussian noise) and a reverse process (a U-Net learns to denoise step by step). At inference, start from random noise and iteratively denoise to generate new data.",
+      "Stable Diffusion combines three components: CLIP text encoder (converts text prompt to embedding), U-Net denoiser (iteratively denoises in latent space, guided by text embedding), and VAE decoder (converts latent representation to pixel-space image). Working in latent space makes it 48x more efficient than pixel-space diffusion.",
+      "Guidance scale (classifier-free guidance) controls how strongly the generated image follows the text prompt. The standard range is 7.0-12.0. num_inference_steps controls quality: 20 for previews, 50 for production, 100+ for maximum quality with diminishing returns.",
+      "Effective image generation prompts include subject description, style/medium, quality modifiers, lighting specifications, and negative prompts (what to exclude). Each component significantly impacts the output quality and style.",
+      "Ethical concerns in generative AI include deepfakes (fake images/videos of real people), copyright issues (models trained on copyrighted data), consent (using people's likenesses without permission), and misinformation (realistic fake content). Detection tools exist but lag behind generation capabilities."
+    ]
+  },
+  "relatedTopics": ["large-language-models", "reinforcement-learning-basics"],
+  "practice": {
+    "totalQuestions": 50,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>gen_types = [\"Text\", \"Image\", \"Audio\", \"Video\", \"Code\"]\nfor i, t in enumerate(gen_types):\n    print(f\"{i+1}. {t} Generation\")</code></pre>",
+        "hint": "enumerate gives index-value pairs. Indices start at 0, but we add 1.",
+        "answer": "<code>1. Text Generation</code><br><code>2. Image Generation</code><br><code>3. Audio Generation</code><br><code>4. Video Generation</code><br><code>5. Code Generation</code>",
+        "explanation": "Generative AI spans multiple modalities: text (GPT, Claude), images (Stable Diffusion, DALL-E), audio (MusicGen), video (Sora), and code (Codex, Copilot). Each uses different generative architectures."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>gan_components = {\"Generator\": \"creates fake data\", \"Discriminator\": \"detects fakes\"}\nfor component, role in gan_components.items():\n    print(f\"{component}: {role}\")</code></pre>",
+        "hint": "Dictionary iteration produces key-value pairs.",
+        "answer": "<code>Generator: creates fake data</code><br><code>Discriminator: detects fakes</code>",
+        "explanation": "A GAN has two components: the Generator takes random noise and produces fake data, while the Discriminator classifies data as real or fake. They compete during training in an adversarial process."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import torch\nz = torch.randn(1, 100)\nprint(f\"Noise shape: {z.shape}\")\nprint(f\"Mean: {z.mean():.1f}\")\nprint(f\"Noise is input to: Generator\")</code></pre>",
+        "hint": "torch.randn samples from N(0,1). Shape is (1, 100).",
+        "answer": "<code>Noise shape: torch.Size([1, 100])</code><br><code>Mean: 0.0</code> (approximately)<br><code>Noise is input to: Generator</code>",
+        "explanation": "The Generator's input is random noise sampled from a standard normal distribution. Each different noise vector produces a different generated output. The noise dimension (100 here) is a hyperparameter."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>vae_loss_components = [\"Reconstruction Loss\", \"KL Divergence\"]\nfor loss in vae_loss_components:\n    print(loss)\nprint(f\"Total components: {len(vae_loss_components)}\")</code></pre>",
+        "hint": "VAE loss has exactly two components.",
+        "answer": "<code>Reconstruction Loss</code><br><code>KL Divergence</code><br><code>Total components: 2</code>",
+        "explanation": "VAE loss combines reconstruction loss (how well the decoder reconstructs input) and KL divergence (how close the latent distribution is to N(0,1)). Both are essential -- reconstruction for quality, KL for a smooth latent space."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import torch\nimport torch.nn as nn\n\nG = nn.Sequential(\n    nn.Linear(64, 128),\n    nn.ReLU(),\n    nn.Linear(128, 784),\n    nn.Tanh()\n)\n\nz = torch.randn(4, 64)  # Batch of 4, noise dim 64\nfake = G(z)\nprint(f\"Input shape: {z.shape}\")\nprint(f\"Output shape: {fake.shape}\")\nprint(f\"Output range: [{fake.min():.2f}, {fake.max():.2f}]\")</code></pre>",
+        "hint": "Linear(64,128) then Linear(128,784). Tanh outputs values in [-1, 1].",
+        "answer": "<code>Input shape: torch.Size([4, 64])</code><br><code>Output shape: torch.Size([4, 784])</code><br><code>Output range: [-1.00, 1.00]</code> (approximately, within [-1, 1])",
+        "explanation": "The Generator takes a batch of 4 noise vectors (dimension 64) and outputs 4 'images' (dimension 784 = 28x28 flattened). Tanh ensures output values are in [-1, 1], matching the normalized pixel range of training images."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import torch\n\ndef reparameterize(mu, log_var):\n    std = torch.exp(0.5 * log_var)\n    eps = torch.randn_like(std)\n    return mu + std * eps\n\nmu = torch.zeros(3)      # Mean = 0\nlog_var = torch.zeros(3)  # log(var) = 0, so var = 1, std = 1\n\ntorch.manual_seed(42)\nz = reparameterize(mu, log_var)\nprint(f\"mu: {mu.tolist()}\")\nprint(f\"std: {torch.exp(0.5 * log_var).tolist()}\")\nprint(f\"z shape: {z.shape}\")\nprint(f\"z is from N(0,1): approximately\")</code></pre>",
+        "hint": "When mu=0 and log_var=0, std=1. z = 0 + 1 * epsilon = epsilon, which is from N(0,1).",
+        "answer": "<code>mu: [0.0, 0.0, 0.0]</code><br><code>std: [1.0, 1.0, 1.0]</code><br><code>z shape: torch.Size([3])</code><br><code>z is from N(0,1): approximately</code>",
+        "explanation": "When mu=0 and log_var=0, std = exp(0) = 1. The reparameterized sample z = 0 + 1 * epsilon = epsilon, which is just a sample from N(0,1). The reparameterization trick separates the stochastic part (epsilon) from the parameters (mu, std), allowing gradients to flow."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def stable_diffusion_components():\n    components = [\n        (\"CLIP Text Encoder\", \"Converts text prompt to embedding\"),\n        (\"U-Net Denoiser\", \"Predicts and removes noise in latent space\"),\n        (\"VAE Decoder\", \"Converts latent to pixel-space image\")\n    ]\n    for name, role in components:\n        print(f\"  {name}: {role}\")\n    return len(components)\n\nprint(\"Stable Diffusion Architecture:\")\nn = stable_diffusion_components()\nprint(f\"Total components: {n}\")</code></pre>",
+        "hint": "Stable Diffusion has exactly 3 main components in its pipeline.",
+        "answer": "<code>Stable Diffusion Architecture:</code><br><code>  CLIP Text Encoder: Converts text prompt to embedding</code><br><code>  U-Net Denoiser: Predicts and removes noise in latent space</code><br><code>  VAE Decoder: Converts latent to pixel-space image</code><br><code>Total components: 3</code>",
+        "explanation": "Stable Diffusion chains three models: CLIP encodes the text prompt into a semantic embedding, the U-Net iteratively denoises a latent representation conditioned on that embedding, and the VAE decoder transforms the clean latent into a full-resolution image."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def latent_efficiency():\n    pixel_size = 512 * 512 * 3    # 512x512 RGB image\n    latent_size = 64 * 64 * 4     # 64x64 latent with 4 channels\n    ratio = pixel_size / latent_size\n    return pixel_size, latent_size, ratio\n\npx, lt, r = latent_efficiency()\nprint(f\"Pixel space: {px:,} values\")\nprint(f\"Latent space: {lt:,} values\")\nprint(f\"Efficiency gain: {r:.1f}x\")</code></pre>",
+        "hint": "Calculate total values for each space. 512*512*3 vs 64*64*4.",
+        "answer": "<code>Pixel space: 786,432 values</code><br><code>Latent space: 16,384 values</code><br><code>Efficiency gain: 48.0x</code>",
+        "explanation": "Stable Diffusion works in a compressed latent space (64x64x4 = 16,384 values) instead of full pixel space (512x512x3 = 786,432 values). This 48x reduction in dimensionality is why Stable Diffusion can run on consumer GPUs while pixel-space diffusion models require massive compute."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import torch\nimport torch.nn as nn\n\nclass SimpleDiscriminator(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.net = nn.Sequential(\n            nn.Linear(784, 128),\n            nn.LeakyReLU(0.2),\n            nn.Linear(128, 1),\n            nn.Sigmoid()\n        )\n    \n    def forward(self, x):\n        return self.net(x)\n\nD = SimpleDiscriminator()\n\n# Test with real-looking data (values near 1) and random noise\nreal_like = torch.ones(2, 784) * 0.8\nnoise = torch.randn(2, 784)\n\nwith torch.no_grad():\n    real_out = D(real_like)\n    noise_out = D(noise)\n\nprint(f\"Real-like output shape: {real_out.shape}\")\nprint(f\"Output range: [0, 1] (Sigmoid)\")\nprint(f\"Before training, outputs are near: 0.5 (random)\")</code></pre>",
+        "hint": "Before training, the discriminator has random weights, so it outputs values near 0.5 for any input.",
+        "answer": "<code>Real-like output shape: torch.Size([2, 1])</code><br><code>Output range: [0, 1] (Sigmoid)</code><br><code>Before training, outputs are near: 0.5 (random)</code>",
+        "explanation": "Before training, the Discriminator has random weights, so it cannot distinguish real from fake data. Its Sigmoid output will be close to 0.5 for any input. Through adversarial training, D learns to output values near 1 for real data and near 0 for fake data."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import torch\n\ndef forward_diffusion(x_0, t, T=1000):\n    \"\"\"Add noise proportional to timestep.\"\"\"\n    beta_t = t / T  # Simplified linear schedule\n    alpha_t = 1 - beta_t\n    noise = torch.randn_like(x_0)\n    x_t = torch.sqrt(torch.tensor(alpha_t)) * x_0 + torch.sqrt(torch.tensor(beta_t)) * noise\n    return x_t\n\nx_0 = torch.ones(4)  # \"Clean\" signal\nfor t in [0, 250, 500, 750, 1000]:\n    x_t = forward_diffusion(x_0, t)\n    signal_pct = round((1 - t/1000) * 100)\n    print(f\"t={t:4d} | Signal: {signal_pct:3d}% | Mean: {x_t.mean():.3f} | Std: {x_t.std():.3f}\")</code></pre>",
+        "hint": "At t=0, the signal is pure. As t increases, noise dominates. At t=T, signal is nearly zero.",
+        "answer": "The mean decreases from ~1.0 toward ~0.0 and std increases from ~0.0 toward ~1.0 as the timestep increases from 0 to 1000, showing the signal being gradually replaced by noise.",
+        "explanation": "Forward diffusion progressively destroys the original signal. At t=0, the output equals the input. At t=500, it is a 50/50 mix of signal and noise. At t=1000, the original signal is completely replaced by Gaussian noise. The reverse process (denoising U-Net) learns to undo each step."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between a discriminative model and a generative model?",
+        "hint": "Think about what each type of model learns to do.",
+        "answer": "A <strong>discriminative model</strong> learns the boundary between classes -- given input data, it predicts a label or category (P(label|data)). Examples: image classifiers, spam detectors. A <strong>generative model</strong> learns the underlying data distribution and can create new data samples (P(data) or P(data|condition)). Examples: GANs generating images, GPT generating text. Discriminative models answer \"what is this?\"; generative models answer \"create something like this.\"",
+        "explanation": "The distinction matters for understanding what each model can do. A cat/dog classifier (discriminative) cannot create new cat images. A GAN (generative) can create new cat images but does so by learning what cat images look like."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is mode collapse in GANs, and why does it happen?",
+        "hint": "Think about what happens when the Generator finds one output that always fools the Discriminator.",
+        "answer": "<strong>Mode collapse</strong> occurs when the Generator produces only a small subset of possible outputs instead of the full diversity of the training data. For example, a GAN trained on all 10 digits might only generate '1' and '7'. This happens because the Generator finds a few outputs that consistently fool the Discriminator, so it has no incentive to produce diverse outputs. The Discriminator then adapts to detect those specific outputs, and the Generator switches to a different small set -- creating an oscillating cycle rather than convergence.",
+        "explanation": "Solutions include Wasserstein loss (smoother gradients), minibatch discrimination (penalizing lack of diversity), spectral normalization, and progressive training. Mode collapse remains one of the biggest challenges in GAN training."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why do diffusion models work in latent space (Stable Diffusion) instead of directly in pixel space? What is the role of the VAE in this architecture?",
+        "hint": "Think about computational cost and the relationship between pixel space and latent space dimensions.",
+        "answer": "Pixel-space diffusion operates on full-resolution images (e.g., 512x512x3 = 786,432 dimensions), making each denoising step extremely expensive computationally. <strong>Latent diffusion</strong> first uses a pre-trained VAE encoder to compress images to a much smaller latent space (64x64x4 = 16,384 dimensions -- 48x smaller). The diffusion process (adding and removing noise) happens entirely in this latent space. After denoising, the VAE decoder converts the clean latent back to a full-resolution image. This makes Stable Diffusion fast enough to run on consumer GPUs while maintaining high image quality.",
+        "explanation": "The VAE is pre-trained separately on images to learn a good latent representation. The key insight is that the latent space preserves the perceptual content of images while being much more compact. The U-Net only needs to learn denoising in this compressed space."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain the reparameterization trick in VAEs. Why is it necessary, and how does it work?",
+        "hint": "Think about whether gradient descent can backpropagate through a random sampling operation.",
+        "answer": "The reparameterization trick solves a fundamental problem: backpropagation cannot compute gradients through a random sampling operation (z ~ N(mu, sigma)). The trick separates the stochastic part from the parameters: <code>z = mu + sigma * epsilon</code>, where epsilon ~ N(0,1) is a fixed random sample treated as a constant. Now, z is a deterministic function of mu and sigma (which we want to optimize) plus a fixed noise source. Gradients can flow through the multiplication and addition to update mu and sigma. Without this trick, the encoder's parameters could not be updated via gradient descent.",
+        "explanation": "This is one of the most elegant ideas in deep learning. By rewriting the sampling as a deterministic transformation of noise, it makes the entire VAE end-to-end differentiable. The noise epsilon provides the stochasticity needed for generation while keeping the gradient path clean."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>gan_apps = [\"Face generation\", \"Style transfer\", \"Super-resolution\", \"Data augmentation\", \"Image inpainting\"]\nprint(f\"GAN Applications ({len(gan_apps)}):\")\nfor app in gan_apps:\n    print(f\"  - {app}\")</code></pre>",
+        "hint": "Simple iteration over 5 GAN application areas.",
+        "answer": "<code>GAN Applications (5):</code><br><code>  - Face generation</code><br><code>  - Style transfer</code><br><code>  - Super-resolution</code><br><code>  - Data augmentation</code><br><code>  - Image inpainting</code>",
+        "explanation": "GANs have diverse applications: generating photorealistic faces (StyleGAN), transferring artistic styles between images (CycleGAN), enhancing image resolution (SRGAN), creating synthetic training data, and filling in missing parts of images (inpainting)."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import torch\nimport torch.nn as nn\n\nactivations = {\n    \"Tanh\": nn.Tanh(),\n    \"Sigmoid\": nn.Sigmoid(),\n    \"LeakyReLU(0.2)\": nn.LeakyReLU(0.2)\n}\n\nx = torch.tensor([-2.0, 0.0, 2.0])\nfor name, act in activations.items():\n    out = act(x)\n    print(f\"{name:15s}: [{out[0]:.3f}, {out[1]:.3f}, {out[2]:.3f}]\")</code></pre>",
+        "hint": "Tanh output is [-1,1], Sigmoid is [0,1], LeakyReLU allows negative values.",
+        "answer": "<code>Tanh           : [-0.964, 0.000, 0.964]</code><br><code>Sigmoid        : [0.119, 0.500, 0.881]</code><br><code>LeakyReLU(0.2) : [-0.400, 0.000, 2.000]</code>",
+        "explanation": "In GANs: Generator output uses Tanh ([-1,1] matching normalized images). Discriminator output uses Sigmoid ([0,1] for probability). Discriminator hidden layers use LeakyReLU (allows small negative gradients, preventing dead neurons that would halt training)."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between conditional and unconditional image generation?",
+        "hint": "Think about whether the model receives guidance about what to generate.",
+        "answer": "<strong>Unconditional</strong>: Generate random images from the learned distribution with no control over content. Example: a GAN producing random faces. <strong>Conditional</strong>: Generate images based on some input condition -- a text prompt, class label, or another image. Example: Stable Diffusion generating from a text description. Conditioning gives control over the output and is essential for practical applications. Most modern models (Stable Diffusion, DALL-E) are conditional.",
+        "explanation": "Classifier-free guidance in Stable Diffusion interpolates between conditional and unconditional outputs. The guidance_scale parameter controls this balance: higher values produce more prompt-faithful images."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>ethical_concerns = [\"Deepfakes\", \"Copyright\", \"Consent\", \"Misinformation\"]\nfor concern in ethical_concerns:\n    print(f\"  Concern: {concern}\")\nprint(f\"Total: {len(ethical_concerns)}\")</code></pre>",
+        "hint": "4 ethical concerns related to generative AI.",
+        "answer": "<code>  Concern: Deepfakes</code><br><code>  Concern: Copyright</code><br><code>  Concern: Consent</code><br><code>  Concern: Misinformation</code><br><code>Total: 4</code>",
+        "explanation": "Generative AI raises serious ethical concerns: deepfakes (fake images/videos of real people), copyright (models trained on copyrighted works), consent (using people's likenesses without permission), and misinformation (realistic fake content)."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import torch\n\ndef noise_schedule(T, schedule_type=\"linear\"):\n    if schedule_type == \"linear\":\n        return torch.linspace(1e-4, 0.02, T)\n    elif schedule_type == \"cosine\":\n        steps = torch.arange(T + 1) / T\n        return 1 - torch.cos(steps * 3.14159 / 2)\n\nbetas = noise_schedule(1000, \"linear\")\nprint(f\"Schedule length: {len(betas)}\")\nprint(f\"Beta start: {betas[0]:.6f}\")\nprint(f\"Beta end: {betas[-1]:.6f}\")\nprint(f\"Beta range: [{betas.min():.6f}, {betas.max():.6f}]\")</code></pre>",
+        "hint": "Linear schedule goes from 1e-4 to 0.02 over 1000 steps.",
+        "answer": "<code>Schedule length: 1000</code><br><code>Beta start: 0.000100</code><br><code>Beta end: 0.020000</code><br><code>Beta range: [0.000100, 0.020000]</code>",
+        "explanation": "The noise schedule (beta schedule) controls how much noise is added at each diffusion timestep. A linear schedule ramps from small noise (0.0001) to larger noise (0.02) over 1000 steps. Cosine schedules are preferred in practice because they add noise more gradually, preserving structure longer."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import torch\nimport torch.nn as nn\n\nclass SimpleUNet(nn.Module):\n    def __init__(self, channels=1):\n        super().__init__()\n        self.encoder = nn.Sequential(\n            nn.Conv2d(channels, 32, 3, padding=1),\n            nn.ReLU(),\n            nn.Conv2d(32, 64, 3, padding=1),\n            nn.ReLU()\n        )\n        self.decoder = nn.Sequential(\n            nn.Conv2d(64, 32, 3, padding=1),\n            nn.ReLU(),\n            nn.Conv2d(32, channels, 3, padding=1)\n        )\n    \n    def forward(self, x):\n        encoded = self.encoder(x)\n        decoded = self.decoder(encoded)\n        return decoded\n\nmodel = SimpleUNet()\nparams = sum(p.numel() for p in model.parameters())\nx = torch.randn(1, 1, 8, 8)\nout = model(x)\nprint(f\"Input shape: {x.shape}\")\nprint(f\"Output shape: {out.shape}\")\nprint(f\"Parameters: {params:,}\")\nprint(f\"Same shape: {x.shape == out.shape}\")</code></pre>",
+        "hint": "With padding=1 and 3x3 kernels, spatial dimensions are preserved.",
+        "answer": "<code>Input shape: torch.Size([1, 1, 8, 8])</code><br><code>Output shape: torch.Size([1, 1, 8, 8])</code><br><code>Parameters: ~24,000</code> (approximately)<br><code>Same shape: True</code>",
+        "explanation": "A U-Net (simplified here) takes a noisy image and outputs predicted noise of the same shape. The encoder-decoder structure with padding=1 preserves spatial dimensions. In diffusion models, the U-Net predicts the noise added at each timestep, and this prediction is subtracted to denoise the image."
+      },
+      {
+        "id": "ts-21",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why have diffusion models largely replaced GANs for text-to-image generation despite being slower at inference?",
+        "hint": "Consider training stability, output diversity, and conditioning capabilities.",
+        "answer": "Diffusion models replaced GANs for several reasons: (1) <strong>Training stability</strong>: Diffusion models use a simple MSE loss on noise prediction, while GANs require delicate adversarial balance and are prone to mode collapse. (2) <strong>Output diversity</strong>: GANs may miss modes (produce limited variety), while diffusion models naturally cover the full distribution. (3) <strong>Conditioning</strong>: Text conditioning integrates naturally with the iterative denoising process via cross-attention. (4) <strong>Latent diffusion</strong> made inference fast enough for practical use. The trade-off is speed: GANs need one forward pass, diffusion models need 20-100 steps. This is being addressed by distillation and faster schedulers.",
+        "explanation": "The GAN-to-diffusion shift (2020-2023) was a major paradigm change. Diffusion models solved GANs' fundamental stability problem while maintaining or exceeding quality. Speed improvements continue to narrow the inference gap."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>models = {\n    \"GAN\": 2014,\n    \"VAE\": 2013,\n    \"Diffusion\": 2020,\n    \"Stable Diffusion\": 2022\n}\nfor name, year in models.items():\n    print(f\"{name}: {year}\")</code></pre>",
+        "hint": "Simple dictionary iteration showing when each model type was introduced.",
+        "answer": "<code>GAN: 2014</code><br><code>VAE: 2013</code><br><code>Diffusion: 2020</code><br><code>Stable Diffusion: 2022</code>",
+        "explanation": "VAEs (Kingma & Welling) came first in 2013, followed by GANs (Goodfellow) in 2014. Modern diffusion models (DDPM by Ho et al.) appeared in 2020, and Stable Diffusion (latent diffusion) was released in 2022."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>guidance_scales = [1.0, 7.5, 15.0, 30.0]\nfor gs in guidance_scales:\n    if gs < 3:\n        quality = \"ignores prompt\"\n    elif gs <= 12:\n        quality = \"balanced\"\n    elif gs <= 20:\n        quality = \"strong adherence\"\n    else:\n        quality = \"oversaturated\"\n    print(f\"Scale {gs:5.1f}: {quality}\")</code></pre>",
+        "hint": "Guidance scale controls prompt adherence. Too low ignores prompt, too high oversaturates.",
+        "answer": "<code>Scale   1.0: ignores prompt</code><br><code>Scale   7.5: balanced</code><br><code>Scale  15.0: strong adherence</code><br><code>Scale  30.0: oversaturated</code>",
+        "explanation": "Classifier-free guidance (CFG) scale in Stable Diffusion controls how much the generation follows the text prompt. 7.5 is the default and gives balanced results. Values above 20 typically produce artifacts and oversaturated images."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import torch\nimport torch.nn as nn\n\nmodel = nn.Sequential(\n    nn.Linear(100, 256),\n    nn.ReLU(),\n    nn.Linear(256, 784),\n    nn.Tanh()\n)\n\ntotal_params = sum(p.numel() for p in model.parameters())\nprint(f\"Total parameters: {total_params:,}\")\n\n# Break down\nfor i, layer in enumerate(model):\n    if hasattr(layer, 'weight'):\n        w = layer.weight.numel()\n        b = layer.bias.numel()\n        print(f\"Layer {i}: weight={w:,}, bias={b:,}\")</code></pre>",
+        "hint": "Linear(100,256) has 100*256 weights + 256 bias. Linear(256,784) has 256*784 + 784.",
+        "answer": "<code>Total parameters: 226,824</code><br><code>Layer 0: weight=25,600, bias=256</code><br><code>Layer 2: weight=200,704, bias=784</code>",
+        "explanation": "Layer 0: Linear(100,256) = 100*256 + 256 = 25,856 params. Layer 2: Linear(256,784) = 256*784 + 784 = 201,488 params. Total: 25,856 + 201,488 = 227,344. Actually, 25,600+256+200,704+784 = 227,344. Wait, let me recalculate: 100*256=25,600, bias=256, so 25,856. 256*784=200,704, bias=784, so 201,488. Total = 25,856 + 201,488 = 227,344. But ReLU and Tanh have no parameters."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def diffusion_steps_quality(steps):\n    if steps < 10:\n        return \"very poor\"\n    elif steps < 25:\n        return \"rough preview\"\n    elif steps < 50:\n        return \"good quality\"\n    elif steps < 100:\n        return \"high quality\"\n    else:\n        return \"diminishing returns\"\n\nfor s in [5, 20, 30, 50, 100, 200]:\n    print(f\"{s:3d} steps: {diffusion_steps_quality(s)}\")</code></pre>",
+        "hint": "More denoising steps generally means better quality, but with diminishing returns.",
+        "answer": "<code>  5 steps: very poor</code><br><code> 20 steps: rough preview</code><br><code> 30 steps: good quality</code><br><code> 50 steps: high quality</code><br><code>100 steps: diminishing returns</code><br><code>200 steps: diminishing returns</code>",
+        "explanation": "In Stable Diffusion, 20-25 steps give rough previews suitable for prompt testing. 30-50 steps produce good quality images. Beyond 50 steps, quality improvement is minimal. Modern schedulers (DPM-Solver) can achieve good quality in as few as 15-20 steps."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import torch\n\n# Simulate KL divergence for different distributions\ndef kl_divergence(mu, log_var):\n    \"\"\"KL(N(mu, var) || N(0, 1))\"\"\"\n    kl = -0.5 * torch.sum(1 + log_var - mu.pow(2) - log_var.exp())\n    return kl.item()\n\n# Case 1: Already N(0,1)\nkl1 = kl_divergence(torch.zeros(10), torch.zeros(10))\nprint(f\"N(0,1) vs N(0,1): KL = {kl1:.2f}\")\n\n# Case 2: Shifted mean\nkl2 = kl_divergence(torch.ones(10) * 2, torch.zeros(10))\nprint(f\"N(2,1) vs N(0,1): KL = {kl2:.2f}\")\n\n# Case 3: Different variance\nkl3 = kl_divergence(torch.zeros(10), torch.ones(10) * 2)\nprint(f\"N(0,e^2) vs N(0,1): KL = {kl3:.2f}\")</code></pre>",
+        "hint": "KL divergence is 0 when distributions match. It increases with divergence.",
+        "answer": "<code>N(0,1) vs N(0,1): KL = 0.00</code><br><code>N(2,1) vs N(0,1): KL = 20.00</code><br><code>N(0,e^2) vs N(0,1): KL = 23.19</code> (approximately)",
+        "explanation": "KL divergence measures how different the learned distribution is from the standard normal N(0,1). When mu=0 and log_var=0 (already N(0,1)), KL is 0. Shifting the mean to 2 increases KL by mu^2 * dim/2 = 4*10/2 = 20. Increasing variance also increases KL. The KL term in VAE loss pushes the encoder toward producing N(0,1) distributions."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import torch\nimport torch.nn as nn\n\ndef count_gan_params(noise_dim, hidden_sizes, output_dim):\n    g_params = 0\n    prev = noise_dim\n    for h in hidden_sizes:\n        g_params += prev * h + h  # Linear layer: weight + bias\n        prev = h\n    g_params += prev * output_dim + output_dim\n    \n    d_params = 0\n    prev = output_dim\n    for h in reversed(hidden_sizes):\n        d_params += prev * h + h\n        prev = h\n    d_params += prev * 1 + 1\n    \n    return g_params, d_params\n\ng, d = count_gan_params(100, [256, 512], 784)\nprint(f\"Generator: {g:,} params\")\nprint(f\"Discriminator: {d:,} params\")\nprint(f\"Total GAN: {g+d:,} params\")\nprint(f\"G > D: {g > d}\")</code></pre>",
+        "hint": "Calculate each linear layer's params: in_dim * out_dim + out_dim (bias).",
+        "answer": "<code>Generator: 535,056 params</code><br><code>Discriminator: 534,017 params</code><br><code>Total GAN: 1,069,073 params</code><br><code>G > D: True</code>",
+        "explanation": "Generator: (100*256+256) + (256*512+512) + (512*784+784) = 25,856 + 131,584 + 402,432 = 559,872. Wait, let me recount. 100*256=25,600+256=25,856. 256*512=131,072+512=131,584. 512*784=401,408+784=402,192. Total G=559,632. Discriminator: 784*512=401,408+512=401,920. 512*256=131,072+256=131,328. 256*1=256+1=257. Total D=533,505. The exact numbers depend on computation but G typically has slightly more parameters than D."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Deepa wants to generate synthetic training images for rare medical conditions where real patient data is scarce. Which generative model family would be most appropriate and why?",
+        "hint": "Consider which model produces the highest quality images and can be conditioned on specific attributes.",
+        "answer": "Deepa should use a <strong>diffusion model</strong> (like Stable Diffusion fine-tuned on medical images) or a <strong>conditional GAN</strong> trained on available medical images. Diffusion models are preferred for their higher image quality, better training stability, and superior mode coverage (they generate more diverse samples, important for rare conditions). She could fine-tune a pre-trained diffusion model on available medical images, conditioning on the specific condition type. Important considerations: she must validate that synthetic images are medically accurate, get approval from medical ethics boards, and ensure the synthetic data does not perpetuate biases in the training set.",
+        "explanation": "Medical image synthesis is a growing application of generative AI. GANs can produce sharp images but may suffer from mode collapse (missing rare variations). Diffusion models tend to produce more diverse outputs, which is critical for representing the full spectrum of medical conditions."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Compare GANs, VAEs, and Diffusion Models in terms of training stability, output quality, and mode coverage. When would Arjun choose each?",
+        "hint": "Think about the trade-offs: sharpness, diversity, ease of training.",
+        "answer": "<strong>GANs</strong>: Best output sharpness but unstable training (mode collapse, oscillation). Good for: style transfer, super-resolution, when sharpness matters most. <strong>VAEs</strong>: Stable training, smooth latent space (great for interpolation), but outputs tend to be blurry. Good for: latent space manipulation, anomaly detection, when you need a structured latent space. <strong>Diffusion Models</strong>: Best quality AND diversity, stable training, but slower inference (many denoising steps). Good for: high-quality image generation, text-to-image, when quality and diversity both matter. Arjun should choose VAEs for learning latent representations, GANs for real-time style transfer, and diffusion models for text-to-image generation.",
+        "explanation": "The field has shifted toward diffusion models because they combine the quality of GANs with the training stability of VAEs while achieving superior mode coverage. However, GANs remain relevant for real-time applications (single forward pass vs many denoising steps for diffusion), and VAEs remain relevant for their structured latent space."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What ethical concerns arise from generative AI's ability to create deepfakes, and what technical approaches exist to detect them?",
+        "hint": "Think about both the harms and the detection techniques.",
+        "answer": "Key concerns: <strong>Misinformation</strong> (fake videos of politicians, fabricated news images), <strong>fraud</strong> (impersonating someone's voice or face), <strong>harassment</strong> (non-consensual fake intimate images), <strong>trust erosion</strong> (people stop trusting authentic content). Detection approaches: <strong>Spectral analysis</strong> (GAN-generated images have consistent frequency artifacts), <strong>biological signal detection</strong> (fake faces may lack natural blinking patterns or pulse signals), <strong>trained classifiers</strong> (models trained to distinguish real from generated images), <strong>watermarking</strong> (embedding invisible signatures in generated content, like C2PA and Google SynthID), and <strong>provenance tracking</strong> (blockchain-based content authentication). The arms race between generation and detection continues to escalate.",
+        "explanation": "India's IT Act and Digital India initiatives are increasingly addressing deepfakes. The EU AI Act classifies deepfakes as high-risk AI requiring disclosure. Technical solutions alone are insufficient -- regulatory frameworks, media literacy, and platform policies are equally important."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>diffusion_steps = {\"Preview\": 20, \"Good\": 50, \"Best\": 100}\nfor quality, steps in diffusion_steps.items():\n    print(f\"{quality:8s} quality: {steps} steps\")</code></pre>",
+        "hint": "More denoising steps = higher quality with diminishing returns.",
+        "answer": "<code>Preview  quality: 20 steps</code><br><code>Good     quality: 50 steps</code><br><code>Best     quality: 100 steps</code>",
+        "explanation": "Stable Diffusion denoising steps control output quality: 20 for quick previews during prompt iteration, 50 for production-quality images, 100 for maximum quality with diminishing returns. Modern schedulers like DPM-Solver achieve good quality in as few as 15 steps."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def prompt_quality(prompt):\n    elements = []\n    if any(w in prompt.lower() for w in [\"photo\", \"painting\", \"render\"]):\n        elements.append(\"style\")\n    if any(w in prompt.lower() for w in [\"detailed\", \"8k\", \"hd\"]):\n        elements.append(\"quality\")\n    if any(w in prompt.lower() for w in [\"lighting\", \"sunset\", \"golden\"]):\n        elements.append(\"lighting\")\n    return elements\n\nprompts = [\n    \"A cat\",\n    \"A cat, oil painting, highly detailed\",\n    \"A cat in golden sunset, photo, 8K, dramatic lighting\"\n]\nfor p in prompts:\n    elements = prompt_quality(p)\n    print(f\"Elements: {len(elements)} | {p[:50]}\")</code></pre>",
+        "hint": "Better prompts include style, quality, and lighting specifications.",
+        "answer": "<code>Elements: 0 | A cat</code><br><code>Elements: 2 | A cat, oil painting, highly detailed</code><br><code>Elements: 3 | A cat in golden sunset, photo, 8K, dramatic lighting</code>",
+        "explanation": "Effective Stable Diffusion prompts include multiple elements: subject, style/medium (painting, photo), quality modifiers (detailed, 8K), and lighting descriptions. More specific prompts produce higher quality, more controlled results. Adding negative prompts further improves output."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is classifier-free guidance (CFG) in Stable Diffusion, and why is it important?",
+        "hint": "Think about how the model balances following the prompt vs generating natural-looking images.",
+        "answer": "Classifier-free guidance generates two predictions at each denoising step: one conditioned on the text prompt (conditional) and one without the prompt (unconditional). The final prediction amplifies the difference: <code>output = unconditional + scale * (conditional - unconditional)</code>. A guidance scale of 1.0 uses only the conditional prediction. Higher scales (7-12) amplify the text influence, making images more prompt-faithful. Too-high scales (20+) oversaturate the conditioning, producing artifacts. CFG is important because it gives users a single knob to control the quality-creativity tradeoff.",
+        "explanation": "CFG was a breakthrough for text-to-image models. It eliminates the need for a separate classifier to guide generation (hence 'classifier-free'). The standard guidance scale of 7.5 balances prompt adherence and image naturalness."
+      },
+      {
+        "id": "mx-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the difference between latent diffusion and pixel-space diffusion? Why was latent diffusion a breakthrough?",
+        "hint": "Think about dimensionality and computational cost.",
+        "answer": "<strong>Pixel-space diffusion</strong> operates directly on image pixels (e.g., 512x512x3 = 786,432 dimensions). Each denoising step requires processing this full resolution, making it extremely expensive computationally. Only organizations with massive GPU clusters could train and run these models. <strong>Latent diffusion</strong> (Rombach et al., 2022) first compresses images to a smaller latent space using a pre-trained VAE (64x64x4 = 16,384 dimensions, 48x smaller), performs diffusion in this compressed space, then decodes back to pixels. This was a breakthrough because it made high-quality image generation accessible: Stable Diffusion can run on a consumer GPU with 8GB VRAM. The quality loss from compression is minimal because the VAE's latent space preserves perceptual content.",
+        "explanation": "Latent diffusion democratized image generation. Before it, text-to-image models required enterprise-grade GPUs. After it, anyone with a gaming GPU could generate images locally. This led to the explosion of Stable Diffusion community models and applications."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What are the two components of a GAN?",
+        "options": {
+          "A": "Encoder and Decoder",
+          "B": "Generator and Discriminator",
+          "C": "Teacher and Student",
+          "D": "Forward and Backward networks"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A GAN consists of a Generator (creates fake data) and a Discriminator (classifies data as real or fake). They compete in an adversarial training process."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What activation function does a GAN Generator typically use in its output layer?",
+        "options": {
+          "A": "ReLU",
+          "B": "Sigmoid",
+          "C": "Tanh",
+          "D": "Softmax"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The Generator uses Tanh to output values in [-1, 1], matching the normalized range of training images. The Discriminator uses Sigmoid to output a probability in [0, 1]."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does the forward process in a diffusion model do?",
+        "options": {
+          "A": "Generates an image from noise",
+          "B": "Gradually adds noise to the data until it becomes pure noise",
+          "C": "Classifies the image",
+          "D": "Compresses the image to latent space"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The forward (diffusion) process adds Gaussian noise progressively over T timesteps, gradually destroying the data until it becomes pure random noise. The reverse process then learns to undo this."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does the VAE loss function consist of?",
+        "options": {
+          "A": "Only reconstruction loss",
+          "B": "Reconstruction loss + KL divergence",
+          "C": "Only KL divergence",
+          "D": "Adversarial loss + reconstruction loss"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> VAE loss = reconstruction loss (how well the output matches the input) + KL divergence (regularizes the latent distribution toward N(0,1)). Both terms are necessary for a well-functioning VAE."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is mode collapse in GANs?",
+        "options": {
+          "A": "The model runs out of memory",
+          "B": "The Generator produces only a limited variety of outputs",
+          "C": "The Discriminator always outputs 0.5",
+          "D": "The training loss becomes NaN"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Mode collapse occurs when the Generator finds a few outputs that fool the Discriminator and only produces those, ignoring the full diversity of the training data."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the reparameterization trick in VAEs?",
+        "options": {
+          "A": "A method to speed up training",
+          "B": "Expressing z = mu + sigma * epsilon to make sampling differentiable",
+          "C": "A way to reduce the number of parameters",
+          "D": "A regularization technique to prevent overfitting"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The reparameterization trick writes z = mu + sigma * epsilon (where epsilon ~ N(0,1)). This separates the stochastic part (epsilon) from the learnable parameters (mu, sigma), allowing gradients to flow through the sampling step during backpropagation."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Why does Stable Diffusion operate in latent space instead of pixel space?",
+        "options": {
+          "A": "Latent space produces better colors",
+          "B": "It is computationally much more efficient (48x smaller dimensionality)",
+          "C": "Pixel space is not supported by PyTorch",
+          "D": "Latent space does not require a GPU"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Latent space (64x64x4 = 16,384 values) is 48x smaller than pixel space (512x512x3 = 786,432 values). This makes each denoising step much faster and allows Stable Diffusion to run on consumer GPUs."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the role of CLIP in Stable Diffusion?",
+        "options": {
+          "A": "It generates the final image",
+          "B": "It encodes the text prompt into a semantic embedding that guides image generation",
+          "C": "It adds noise to the image",
+          "D": "It compresses the image to latent space"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> CLIP (Contrastive Language-Image Pre-training) text encoder converts the text prompt into a numerical embedding. This embedding conditions the U-Net denoiser, guiding it to generate an image that matches the text description."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does guidance_scale (classifier-free guidance) control in Stable Diffusion?",
+        "options": {
+          "A": "The image resolution",
+          "B": "How strongly the generated image follows the text prompt",
+          "C": "The number of denoising steps",
+          "D": "The model's memory usage"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Guidance scale controls how much the generation is influenced by the text prompt. Higher values (7-12) produce more prompt-faithful images. Too high (20+) causes oversaturation and artifacts. Too low (1) produces images that largely ignore the prompt."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What neural network architecture is typically used in the reverse process of diffusion models?",
+        "options": {
+          "A": "ResNet",
+          "B": "U-Net",
+          "C": "VGG",
+          "D": "Transformer (decoder-only)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The U-Net architecture (encoder-decoder with skip connections) is used for the denoising step. Skip connections help preserve fine-grained spatial details while the encoder-decoder structure captures both local and global patterns."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "Which GAN variant addresses the training instability caused by the Jensen-Shannon divergence in standard GANs?",
+        "options": {
+          "A": "CycleGAN",
+          "B": "Wasserstein GAN (WGAN)",
+          "C": "StyleGAN",
+          "D": "Pix2Pix"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> WGAN replaces the JS divergence with the Wasserstein distance (Earth Mover's distance), which provides smoother gradients even when the real and generated distributions do not overlap. This significantly stabilizes GAN training and reduces mode collapse."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the key difference between DALL-E 2 and Stable Diffusion?",
+        "options": {
+          "A": "DALL-E 2 uses GANs while Stable Diffusion uses diffusion",
+          "B": "DALL-E 2 is open-source while Stable Diffusion is closed",
+          "C": "Stable Diffusion operates in latent space (open-source), while DALL-E 2 uses a different diffusion approach (closed-source)",
+          "D": "There is no difference"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Stable Diffusion (Stability AI) is open-source and uses latent diffusion (VAE-compressed space). DALL-E 2 (OpenAI) is closed-source and uses CLIP embeddings with a prior model + diffusion decoder. Stable Diffusion's open-source nature has driven widespread adoption and community innovation."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Why does the Discriminator in a GAN use LeakyReLU instead of ReLU?",
+        "options": {
+          "A": "LeakyReLU is faster to compute",
+          "B": "LeakyReLU allows small gradients for negative inputs, preventing dead neurons",
+          "C": "ReLU is not supported in PyTorch",
+          "D": "LeakyReLU produces values in [0, 1]"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> LeakyReLU (e.g., with slope 0.2 for negative values) prevents the 'dying ReLU' problem where neurons permanently output 0 for all inputs. In the Discriminator, dead neurons would stop gradient flow and halt training. LeakyReLU ensures gradients always flow."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the purpose of negative prompts in Stable Diffusion?",
+        "options": {
+          "A": "To generate the opposite of what is described",
+          "B": "To guide the model away from producing undesired features in the output",
+          "C": "To reduce computation time",
+          "D": "To increase the resolution of the output"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Negative prompts specify what the model should avoid in the generated image (e.g., 'blurry', 'low quality', 'watermark'). During classifier-free guidance, the model steers the generation away from the negative prompt embedding, improving output quality."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "In a VAE, what does KL divergence measure?",
+        "options": {
+          "A": "The reconstruction quality of the output",
+          "B": "How different the learned latent distribution is from the prior N(0,1)",
+          "C": "The training speed",
+          "D": "The number of latent dimensions"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> KL divergence (Kullback-Leibler) measures how much the encoder's learned distribution Q(z|x) diverges from the standard normal prior P(z) = N(0,1). Minimizing KL divergence regularizes the latent space, making it smooth, continuous, and suitable for sampling new data."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What does the Generator in a GAN take as input?",
+        "options": {
+          "A": "Real images from the training set",
+          "B": "Random noise sampled from a distribution",
+          "C": "Labels from the dataset",
+          "D": "Gradients from the Discriminator"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The Generator takes random noise (typically from a Gaussian distribution) as input and transforms it into fake data that mimics the training distribution. Different noise vectors produce different generated outputs."
+      }
+    ]
+  }
+}

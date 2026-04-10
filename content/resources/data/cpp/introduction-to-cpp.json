@@ -1,0 +1,725 @@
+{
+  "title": "Introduction to C++",
+  "slug": "introduction-to-cpp",
+  "language": "cpp",
+  "chapter": 1,
+  "difficulty": "Beginner",
+  "readingTime": "20 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "Introduction to C++ - What Is C++, History, Features & Comparison | Modern Age Coders",
+    "description": "Learn what C++ is, its history from Bjarne Stroustrup at Bell Labs, key features, where C++ is used, and how it compares to C, Java, and Python. Includes 55 practice questions.",
+    "keywords": "what is c++, c++ introduction, c++ vs java vs python, why learn c++, c++ history, c++ features, c++ for beginners, bjarne stroustrup, c++ compilation process, c++ versions"
+  },
+  "content": {
+    "what": "<h2>What Is C++?</h2><p><strong>C++</strong> is a general-purpose, compiled, statically typed programming language that provides both high-level abstractions and low-level hardware access. It was created by <strong>Bjarne Stroustrup</strong> in <strong>1979</strong> at <strong>Bell Labs</strong> (Murray Hill, New Jersey) as an extension of the C programming language. Stroustrup originally called it <strong>\"C with Classes\"</strong> because his primary goal was to add object-oriented features (classes, inheritance, encapsulation) to C without sacrificing C's performance and low-level control. The name C++ came later, in 1983 -- the <code>++</code> is the increment operator in C, so C++ literally means \"one step beyond C.\"</p><p>C++ is one of the most widely used programming languages in the world. It powers operating systems (Windows, macOS, Linux kernel modules), game engines (Unreal Engine, Unity's native layer), web browsers (Chrome, Firefox), databases (MySQL, MongoDB), embedded systems, compilers, and high-frequency trading platforms. If software needs to be <strong>fast</strong>, <strong>efficient</strong>, or <strong>close to hardware</strong>, there is a very good chance it is written in C++.</p><h3>C++ at a Glance</h3><table><tr><th>Property</th><th>Detail</th></tr><tr><td>Creator</td><td>Bjarne Stroustrup</td></tr><tr><td>Year</td><td>1979 (\"C with Classes\"), renamed C++ in 1983</td></tr><tr><td>Paradigm</td><td>Multi-paradigm: procedural, object-oriented, generic, functional</td></tr><tr><td>Typing</td><td>Statically typed, compiled</td></tr><tr><td>Extension</td><td><code>.cpp</code>, <code>.cc</code>, <code>.cxx</code></td></tr><tr><td>Standard Body</td><td>ISO/IEC JTC1/SC22/WG21</td></tr></table>",
+    "why": "<h2>Why Learn C++?</h2><p>If you are a college student, C++ is arguably the single most valuable language you can invest time in. Here is why:</p><h3>1. Competitive Programming</h3><p>C++ is the dominant language in competitive programming. Platforms like Codeforces, CodeChef, AtCoder, and ICPC use C++ overwhelmingly. The reasons are simple: it is the fastest among commonly used languages, the STL (Standard Template Library) provides ready-made data structures and algorithms, and most editorial solutions are written in C++. If you want to compete seriously, C++ is non-negotiable.</p><h3>2. Placement Interviews</h3><p>Companies like Google, Amazon, Microsoft, Goldman Sachs, and virtually every product-based company test Data Structures and Algorithms in interviews. C++ is the preferred language because interviewers expect you to understand memory, pointers, and efficiency -- concepts that C++ makes explicit. Writing a solution in C++ often signals deeper technical understanding.</p><h3>3. Performance and Control</h3><p>C++ gives you direct control over memory allocation and deallocation, CPU cache behavior, and system resources. No garbage collector runs behind the scenes. You decide when memory is allocated with <code>new</code> and freed with <code>delete</code>. This control is why C++ is used in performance-critical domains: game engines running at 60 FPS, trading systems where microseconds matter, and embedded systems with limited memory.</p><h3>4. Systems Programming</h3><p>Operating systems, device drivers, compilers, interpreters, and virtual machines are written in C++. If you want to understand how software actually works at the system level -- not just use frameworks built by others -- C++ is the path.</p><h3>5. Foundation for Other Languages</h3><p>Once you understand C++, every other language becomes easier. Java's syntax is borrowed from C++. Python's CPython interpreter is written in C. Understanding pointers, memory layout, stack vs heap, and compilation makes you a fundamentally better programmer regardless of what language you use later.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>Key Features of C++</h3><p>C++ is a multi-paradigm language. Here are its defining features:</p><ul><li><strong>Compiled Language:</strong> C++ code is compiled directly into machine code (binary) by a compiler like g++ or clang++. This means no interpreter or virtual machine sits between your code and the CPU. The result is raw speed.</li><li><strong>Object-Oriented Programming (OOP):</strong> C++ supports classes, objects, inheritance, polymorphism, encapsulation, and abstraction. This lets you model real-world entities and build large, maintainable software systems.</li><li><strong>Low-Level Memory Access:</strong> Through pointers and references, you can directly manipulate memory addresses. You can allocate memory on the heap, pass addresses between functions, and even write inline assembly if needed.</li><li><strong>Standard Template Library (STL):</strong> C++ comes with a powerful library of generic data structures (vector, map, set, queue, stack) and algorithms (sort, binary_search, lower_bound). This is a massive productivity boost, especially in competitive programming.</li><li><strong>Multi-Paradigm:</strong> You can write procedural code (like C), object-oriented code (like Java), generic code (using templates), and even functional code (using lambdas and higher-order functions from C++11 onwards).</li><li><strong>Platform Independent (at source level):</strong> C++ code can be compiled on Windows, Linux, macOS, and embedded platforms. The same source code works everywhere, though you need to recompile for each target.</li></ul><h3>Where Is C++ Used?</h3><table><tr><th>Domain</th><th>Examples</th></tr><tr><td>Game Development</td><td>Unreal Engine, Unity (native), game physics engines</td></tr><tr><td>Operating Systems</td><td>Windows, macOS components, Linux kernel modules</td></tr><tr><td>Web Browsers</td><td>Chrome (V8 engine), Firefox, Safari (WebKit)</td></tr><tr><td>Databases</td><td>MySQL, MongoDB, Redis</td></tr><tr><td>Embedded Systems</td><td>Arduino, automotive ECUs, IoT devices</td></tr><tr><td>Competitive Programming</td><td>Codeforces, CodeChef, ICPC, Google Code Jam</td></tr><tr><td>Finance</td><td>High-frequency trading systems, risk engines</td></tr><tr><td>Compilers</td><td>GCC, Clang, MSVC are all written in C++</td></tr></table><h3>C++ vs C vs Java vs Python</h3><table><tr><th>Feature</th><th>C</th><th>C++</th><th>Java</th><th>Python</th></tr><tr><td>Paradigm</td><td>Procedural</td><td>Multi-paradigm</td><td>Object-oriented</td><td>Multi-paradigm</td></tr><tr><td>Typing</td><td>Static</td><td>Static</td><td>Static</td><td>Dynamic</td></tr><tr><td>Memory Management</td><td>Manual (malloc/free)</td><td>Manual (new/delete) + smart pointers</td><td>Automatic (garbage collector)</td><td>Automatic (garbage collector)</td></tr><tr><td>Speed</td><td>Very fast</td><td>Very fast</td><td>Fast (JIT)</td><td>Slow (interpreted)</td></tr><tr><td>OOP Support</td><td>No</td><td>Yes (classes, inheritance)</td><td>Yes (everything is an object)</td><td>Yes (flexible)</td></tr><tr><td>STL/Libraries</td><td>Minimal standard library</td><td>Rich STL</td><td>Large standard library</td><td>Huge ecosystem (pip)</td></tr><tr><td>Pointers</td><td>Yes</td><td>Yes + References</td><td>No (references only)</td><td>No</td></tr><tr><td>Use Case</td><td>OS kernels, embedded</td><td>Systems, games, CP</td><td>Enterprise, Android</td><td>ML, scripting, web</td></tr></table><h3>The C++ Compilation Process</h3><p>Understanding how C++ code becomes an executable is fundamental. There are four stages:</p><ol><li><strong>Preprocessing:</strong> The preprocessor handles directives that start with <code>#</code>. It replaces <code>#include &lt;iostream&gt;</code> with the actual contents of the iostream header file. It processes <code>#define</code> macros and <code>#ifdef</code> conditional compilation. The output is a single, expanded source file called a <strong>translation unit</strong>.</li><li><strong>Compilation:</strong> The compiler takes the preprocessed source and converts it into <strong>assembly language</strong> specific to your CPU architecture (x86, ARM, etc.). It checks syntax, enforces types, and reports errors at this stage.</li><li><strong>Assembly:</strong> The assembler converts assembly language into <strong>object code</strong> -- machine-readable binary stored in <code>.o</code> or <code>.obj</code> files. Each source file produces one object file.</li><li><strong>Linking:</strong> The linker combines all object files and resolves references between them. If your code calls <code>cout</code>, the linker finds its implementation in the C++ standard library and links it in. The output is the final <strong>executable</strong> file.</li></ol><p>This pipeline is: <code>source.cpp</code> -> Preprocessor -> <code>source.i</code> -> Compiler -> <code>source.s</code> -> Assembler -> <code>source.o</code> -> Linker -> <code>executable</code></p><h3>C++ Standards Timeline</h3><table><tr><th>Version</th><th>Year</th><th>Key Additions</th></tr><tr><td>C++98</td><td>1998</td><td>First ISO standard. STL, templates, exceptions, namespaces.</td></tr><tr><td>C++03</td><td>2003</td><td>Bug fixes to C++98. Minor technical corrections.</td></tr><tr><td>C++11</td><td>2011</td><td>Major update: auto, range-based for, lambda, smart pointers, move semantics, nullptr, constexpr, threads.</td></tr><tr><td>C++14</td><td>2014</td><td>Generic lambdas, return type deduction, relaxed constexpr.</td></tr><tr><td>C++17</td><td>2017</td><td>Structured bindings, if-init, std::optional, std::variant, filesystem library.</td></tr><tr><td>C++20</td><td>2020</td><td>Concepts, ranges, coroutines, modules, three-way comparison (spaceship operator).</td></tr><tr><td>C++23</td><td>2023</td><td>std::print, deducing this, more constexpr, multidimensional subscript.</td></tr></table><h3>How to Think About C++</h3><p>C++ is about <strong>control and performance</strong>. Every feature exists because a programmer somewhere needed finer control over what the machine does. Where Python says \"do not worry about memory, I will handle it,\" C++ says \"here is the memory -- you decide what happens.\" This is not a burden; it is power. The cost is complexity, but the reward is that you truly understand what your program is doing at every level. As Bjarne Stroustrup himself said: <em>\"C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off.\"</em> The quote is humorous, but the point is real: C++ gives you powerful tools, and with power comes responsibility.</p>",
+    "codeExamples": [
+      {
+        "title": "The Simplest C++ Program",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello, C++!\" << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "This is the minimal C++ program. <code>#include &lt;iostream&gt;</code> brings in the input/output library. <code>using namespace std;</code> allows us to write <code>cout</code> instead of <code>std::cout</code>. The <code>main()</code> function is the entry point of every C++ program. <code>cout &lt;&lt;</code> sends text to the standard output. <code>return 0;</code> tells the operating system the program finished successfully.",
+        "output": "Hello, C++!"
+      },
+      {
+        "title": "Checking the Size of Data Types",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Size of int: \" << sizeof(int) << \" bytes\" << endl;\n    cout << \"Size of float: \" << sizeof(float) << \" bytes\" << endl;\n    cout << \"Size of double: \" << sizeof(double) << \" bytes\" << endl;\n    cout << \"Size of char: \" << sizeof(char) << \" bytes\" << endl;\n    cout << \"Size of bool: \" << sizeof(bool) << \" bytes\" << endl;\n    cout << \"Size of long long: \" << sizeof(long long) << \" bytes\" << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The <code>sizeof</code> operator returns the number of bytes a data type occupies in memory. On most modern systems (64-bit), <code>int</code> is 4 bytes, <code>double</code> is 8 bytes, <code>char</code> is always 1 byte. This operator is evaluated at compile time, not at runtime. Knowing sizes matters for memory-conscious programming and understanding overflow limits.",
+        "output": "Size of int: 4 bytes\nSize of float: 4 bytes\nSize of double: 8 bytes\nSize of char: 1 bytes\nSize of bool: 1 bytes\nSize of long long: 8 bytes"
+      },
+      {
+        "title": "Compilation Stages Demonstration",
+        "code": "// Save this as demo.cpp\n// Then run these commands in terminal:\n// Step 1: Preprocessing only\n//   g++ -E demo.cpp -o demo.i\n// Step 2: Compile to assembly\n//   g++ -S demo.cpp -o demo.s\n// Step 3: Assemble to object code\n//   g++ -c demo.cpp -o demo.o\n// Step 4: Link to executable\n//   g++ demo.o -o demo\n\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 10, b = 20;\n    cout << \"Sum: \" << a + b << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "This demonstrates the four compilation stages using g++ flags. <code>-E</code> stops after preprocessing (you will see the iostream header expanded to thousands of lines). <code>-S</code> produces assembly code. <code>-c</code> produces an object file. Without flags, g++ performs all stages and produces the final executable. Understanding this pipeline helps you debug linker errors and understand how C++ builds work.",
+        "output": "Sum: 30"
+      },
+      {
+        "title": "C++ Version Check with __cplusplus Macro",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"C++ Standard Version: \" << __cplusplus << endl;\n\n    #if __cplusplus >= 202002L\n        cout << \"You are using C++20 or later\" << endl;\n    #elif __cplusplus >= 201703L\n        cout << \"You are using C++17\" << endl;\n    #elif __cplusplus >= 201402L\n        cout << \"You are using C++14\" << endl;\n    #elif __cplusplus >= 201103L\n        cout << \"You are using C++11\" << endl;\n    #else\n        cout << \"You are using C++98/03 or earlier\" << endl;\n    #endif\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "The <code>__cplusplus</code> macro is defined by every C++ compiler and tells you which standard is being used. The value <code>201703L</code> means C++17, <code>202002L</code> means C++20. The <code>#if</code> / <code>#elif</code> / <code>#endif</code> are preprocessor conditionals -- they are evaluated before compilation. Compile with <code>g++ -std=c++17 demo.cpp</code> to select a specific standard.",
+        "output": "C++ Standard Version: 201703\nYou are using C++17"
+      },
+      {
+        "title": "Basic Input and Output",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    string name;\n    int age;\n\n    cout << \"Enter your name: \";\n    cin >> name;\n    cout << \"Enter your age: \";\n    cin >> age;\n\n    cout << \"Hello, \" << name << \"! You are \" << age << \" years old.\" << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "This program takes user input using <code>cin &gt;&gt;</code> (extraction operator). <code>cin</code> reads input from the keyboard. The <code>&gt;&gt;</code> operator extracts data from the input stream and stores it in a variable. Note that <code>cin &gt;&gt;</code> reads until the first whitespace, so if you type \"Rahul Sharma\", only \"Rahul\" goes into <code>name</code>. To read a full line, you need <code>getline()</code> (covered in Chapter 5).",
+        "output": "Enter your name: Rahul\nEnter your age: 20\nHello, Rahul! You are 20 years old."
+      },
+      {
+        "title": "Demonstrating return 0 vs return 1",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int num;\n    cout << \"Enter a positive number: \";\n    cin >> num;\n\n    if (num < 0) {\n        cout << \"Error: Negative number entered!\" << endl;\n        return 1;  // Non-zero = error\n    }\n\n    cout << \"You entered: \" << num << endl;\n    return 0;  // Zero = success\n}",
+        "language": "cpp",
+        "explanation": "The <code>return</code> value from <code>main()</code> is the program's exit code. <code>return 0;</code> signals success to the operating system. Any non-zero value (commonly 1) signals failure. You can check this in the terminal with <code>echo $?</code> (Linux/Mac) or <code>echo %ERRORLEVEL%</code> (Windows) immediately after running the program. Build systems and scripts use exit codes to detect if a program failed.",
+        "output": "Enter a positive number: 42\nYou entered: 42"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Missing Semicolon at End of Statement",
+        "wrongCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello\" << endl\n    return 0;\n}",
+        "error": "error: expected ';' before 'return'",
+        "correctCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello\" << endl;\n    return 0;\n}",
+        "explanation": "Every statement in C++ must end with a semicolon <code>;</code>. Unlike Python, which uses indentation and newlines, C++ uses semicolons as statement terminators. Forgetting a semicolon is the single most common syntax error for beginners. The compiler error often points to the line AFTER the missing semicolon, which can be confusing."
+      },
+      {
+        "title": "Forgetting #include <iostream>",
+        "wrongCode": "using namespace std;\n\nint main() {\n    cout << \"Hello\" << endl;\n    return 0;\n}",
+        "error": "error: 'cout' was not declared in this scope",
+        "correctCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello\" << endl;\n    return 0;\n}",
+        "explanation": "Unlike Python where <code>print()</code> is built in, C++ requires you to explicitly include the <code>&lt;iostream&gt;</code> header to use <code>cout</code>, <code>cin</code>, and <code>endl</code>. Without the include, the compiler has no idea what <code>cout</code> is. Every feature in C++ must be explicitly included."
+      },
+      {
+        "title": "Using << with cin (or >> with cout)",
+        "wrongCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int x;\n    cin << x;   // WRONG direction\n    cout >> x;  // WRONG direction\n    return 0;\n}",
+        "error": "error: no match for 'operator<<' / 'operator>>'",
+        "correctCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int x;\n    cin >> x;   // Extraction: data flows FROM cin INTO x\n    cout << x;  // Insertion: data flows FROM x INTO cout\n    return 0;\n}",
+        "explanation": "Think of the arrows as showing the direction of data flow. <code>cin &gt;&gt; x</code> means data flows from the input stream into <code>x</code> (the arrows point toward x). <code>cout &lt;&lt; x</code> means data flows from <code>x</code> into the output stream (the arrows point toward cout). Mixing them up is a common beginner mistake."
+      },
+      {
+        "title": "Writing void main() Instead of int main()",
+        "wrongCode": "#include <iostream>\nusing namespace std;\n\nvoid main() {\n    cout << \"Hello\" << endl;\n}",
+        "error": "warning: 'main' must return 'int' (some compilers will error, others warn)",
+        "correctCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello\" << endl;\n    return 0;\n}",
+        "explanation": "The C++ standard mandates that <code>main()</code> must return <code>int</code>. While some compilers (like older Turbo C++) accept <code>void main()</code>, it is not standard-compliant. In competitive programming and interviews, always write <code>int main()</code>. The return value is the exit code that the operating system reads."
+      }
+    ],
+    "summary": [
+      "C++ was created by Bjarne Stroustrup in 1979 at Bell Labs as an extension of C. It was originally called 'C with Classes' and renamed to C++ in 1983.",
+      "C++ is a compiled, statically typed, multi-paradigm language supporting procedural, object-oriented, and generic programming.",
+      "Key features: compiled to native machine code (fast), OOP support (classes, inheritance, polymorphism), low-level memory access (pointers), and the Standard Template Library (STL).",
+      "C++ is used in game engines (Unreal), operating systems (Windows, Linux modules), browsers (Chrome, Firefox), databases (MySQL, MongoDB), competitive programming, and high-frequency trading.",
+      "C++ vs C: C++ adds OOP, STL, references, and templates. C++ vs Java: C++ has no garbage collector, supports multiple inheritance, and compiles to native code. C++ vs Python: C++ is 10-100x faster but more verbose.",
+      "The compilation process has four stages: Preprocessing (#include expansion) -> Compilation (source to assembly) -> Assembly (assembly to object code) -> Linking (object files to executable).",
+      "Major C++ standards: C++98 (first standard), C++11 (auto, lambdas, smart pointers), C++14, C++17 (structured bindings, optional), C++20 (concepts, ranges, coroutines).",
+      "Every C++ program must have an int main() function. Statements end with semicolons. #include <iostream> is needed for cout and cin.",
+      "C++ is the dominant language in competitive programming due to its speed and the STL. It is also heavily favored in placement interviews at product companies."
+    ]
+  },
+  "relatedTopics": ["setting-up-and-first-program", "variables-and-data-types"],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Hello, World!\";\n    return 0;\n}</code></pre>",
+        "hint": "cout << sends text to the standard output.",
+        "answer": "<code>Hello, World!</code>",
+        "explanation": "<code>cout &lt;&lt; \"Hello, World!\"</code> prints the string to the console. There is no <code>endl</code> or <code>\\n</code>, so the cursor stays on the same line, but the printed output is <code>Hello, World!</code>."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; sizeof(char) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "The size of char is defined by the C++ standard.",
+        "answer": "<code>1</code>",
+        "explanation": "The C++ standard guarantees that <code>sizeof(char)</code> is always <code>1</code> byte. This is true on every platform and every compiler. All other type sizes are defined relative to char."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; sizeof(int) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "On most modern 64-bit systems, int is 4 bytes.",
+        "answer": "<code>4</code>",
+        "explanation": "On most modern systems (32-bit and 64-bit), <code>sizeof(int)</code> is <code>4</code> bytes (32 bits). This gives int a range of approximately -2.1 billion to +2.1 billion. The C++ standard only guarantees int is at least 16 bits, but in practice it is always 32 bits on modern platforms."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Line 1\" &lt;&lt; endl;\n    cout &lt;&lt; \"Line 2\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "endl inserts a newline and flushes the buffer.",
+        "answer": "<code>Line 1</code><br><code>Line 2</code>",
+        "explanation": "Each <code>endl</code> inserts a newline character. So <code>\"Line 1\"</code> prints on the first line and <code>\"Line 2\"</code> prints on the second line. The output is two lines."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; 10 + 20 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "The expression is evaluated first, then the result is printed.",
+        "answer": "<code>30</code>",
+        "explanation": "C++ evaluates the expression <code>10 + 20</code> first, producing the integer <code>30</code>. Then <code>cout &lt;&lt;</code> prints that result. Arithmetic expressions inside <code>cout</code> are evaluated before printing."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Value: \" &lt;&lt; 5 &lt;&lt; \" + \" &lt;&lt; 3 &lt;&lt; \" = \" &lt;&lt; 5 + 3 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "The << operator chains multiple outputs. Expressions are evaluated when reached.",
+        "answer": "<code>Value: 5 + 3 = 8</code>",
+        "explanation": "The <code>&lt;&lt;</code> operator is left-associative and chains outputs left to right. First <code>\"Value: \"</code> is printed, then <code>5</code>, then <code>\" + \"</code>, then <code>3</code>, then <code>\" = \"</code>, then the expression <code>5 + 3</code> is evaluated to <code>8</code> and printed."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; sizeof(double) &lt;&lt; endl;\n    cout &lt;&lt; sizeof(long long) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "double and long long are both 8 bytes on most modern systems.",
+        "answer": "<code>8</code><br><code>8</code>",
+        "explanation": "On most modern systems, <code>sizeof(double)</code> is 8 bytes (64-bit IEEE 754) and <code>sizeof(long long)</code> is 8 bytes (64-bit integer). Both are guaranteed to be at least 8 bytes by the standard."
+      },
+      {
+        "id": "ts-8",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Who created C++ and when? What was it originally called?",
+        "hint": "Think Bell Labs, late 1970s.",
+        "answer": "C++ was created by <strong>Bjarne Stroustrup</strong> in <strong>1979</strong> at <strong>Bell Labs</strong>. It was originally called <strong>\"C with Classes\"</strong> and renamed to C++ in 1983.",
+        "explanation": "Stroustrup wanted to add Simula-like classes to C without sacrificing C's efficiency. The name C++ uses the increment operator from C, symbolizing that C++ is 'one step beyond C.'"
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Name any four real-world applications or domains where C++ is heavily used.",
+        "hint": "Think about software that needs to be very fast.",
+        "answer": "C++ is heavily used in: (1) <strong>Game engines</strong> (Unreal Engine), (2) <strong>Operating systems</strong> (Windows, parts of Linux), (3) <strong>Web browsers</strong> (Chrome, Firefox), and (4) <strong>Competitive programming</strong> (Codeforces, ICPC). Other domains include databases (MySQL), finance (HFT), and embedded systems.",
+        "explanation": "All these domains share a common requirement: performance. C++ compiles to native machine code and gives direct control over memory, making it the go-to language when milliseconds or bytes matter."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Explain the four stages of the C++ compilation process.",
+        "hint": "Source code goes through four transformations before becoming an executable.",
+        "answer": "The four stages are: (1) <strong>Preprocessing</strong> -- expands #include directives, macros, and conditional compilation. (2) <strong>Compilation</strong> -- converts preprocessed source to assembly language. (3) <strong>Assembly</strong> -- converts assembly to machine code (object file, .o). (4) <strong>Linking</strong> -- combines object files and library references into the final executable.",
+        "explanation": "You can see each stage using g++ flags: <code>-E</code> (preprocess only), <code>-S</code> (compile to assembly), <code>-c</code> (assemble to object file). Without flags, all stages run and produce the executable."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What are three key differences between C++ and Java?",
+        "hint": "Think about memory management, compilation, and language features.",
+        "answer": "(1) <strong>Memory management:</strong> C++ uses manual memory management (new/delete, smart pointers) while Java has automatic garbage collection. (2) <strong>Compilation:</strong> C++ compiles to native machine code, while Java compiles to bytecode that runs on the JVM. (3) <strong>Multiple inheritance:</strong> C++ supports multiple inheritance of classes, while Java only allows multiple interface implementation.",
+        "explanation": "These differences reflect different design philosophies. Java prioritizes safety and portability (write once, run anywhere via JVM). C++ prioritizes performance and control (compile to native code for each platform). Both are valid approaches depending on the use case."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What was the significance of C++11? Name at least four features it introduced.",
+        "hint": "C++11 was called 'Modern C++' because of how many features it added.",
+        "answer": "C++11 was the biggest update to C++ since its original standardization. Key features: (1) <code>auto</code> keyword for type inference, (2) Range-based for loops, (3) Lambda expressions, (4) Smart pointers (<code>unique_ptr</code>, <code>shared_ptr</code>), (5) Move semantics and rvalue references, (6) <code>nullptr</code> replacing NULL, (7) <code>constexpr</code> for compile-time computation, (8) Threading support.",
+        "explanation": "C++11 is often called the dividing line between 'old C++' and 'Modern C++.' It made C++ significantly more expressive and safer while maintaining its performance characteristics."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens when you compile and run this code?<br><pre><code>#include &lt;iostream&gt;\nint main() {\n    std::cout &lt;&lt; \"No using namespace\" &lt;&lt; std::endl;\n    return 0;\n}</code></pre>",
+        "hint": "Without 'using namespace std', you must prefix std:: before cout and endl.",
+        "answer": "It compiles and runs successfully. Output: <code>No using namespace</code>",
+        "explanation": "Without <code>using namespace std;</code>, you must explicitly write <code>std::cout</code> and <code>std::endl</code>. This is actually the recommended practice in large projects to avoid name conflicts. The <code>using namespace std;</code> directive is mainly used in competitive programming and small programs for brevity."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; sizeof(sizeof(int)) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "sizeof returns a value of type size_t. What is the size of size_t?",
+        "answer": "<code>8</code> (on a 64-bit system) or <code>4</code> (on a 32-bit system)",
+        "explanation": "<code>sizeof(int)</code> evaluates to 4 (of type <code>size_t</code>). Then <code>sizeof(sizeof(int))</code> asks for the size of <code>size_t</code> itself. On a 64-bit system, <code>size_t</code> is 8 bytes. On a 32-bit system, it is 4 bytes. This is a common interview trick question."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Hello\";\n    cout &lt;&lt; \" World\";\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Multiple cout statements without endl do not insert newlines between them.",
+        "answer": "<code>Hello World</code>",
+        "explanation": "Without <code>endl</code> or <code>\\n</code> between them, the outputs are concatenated on the same line. The first <code>cout</code> prints <code>Hello</code>, the second appends <code> World</code> (note the leading space in the string), and then <code>endl</code> moves to the next line. Output: <code>Hello World</code> on one line."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the difference between a compiler error and a linker error in C++? Give an example of each.",
+        "hint": "Compiler errors happen during the compilation stage. Linker errors happen when combining object files.",
+        "answer": "A <strong>compiler error</strong> occurs when the source code has syntax errors or type mismatches. Example: using a variable without declaring it (<code>x = 5;</code> without <code>int x;</code>). A <strong>linker error</strong> occurs when the compiler succeeds but the linker cannot find a function or variable definition. Example: declaring <code>void myFunc();</code> and calling it, but never providing the function body -- the linker cannot resolve the reference.",
+        "explanation": "Compiler errors have specific line numbers and are easier to fix. Linker errors like <code>undefined reference to 'myFunc()'</code> can be harder to debug because they do not point to a specific line. They usually mean you forgot to define a function, forgot to link a library, or have mismatched function signatures."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is C++ preferred over Python in competitive programming despite Python being easier to write?",
+        "hint": "Think about execution speed and time limits.",
+        "answer": "C++ is preferred in competitive programming for three reasons: (1) <strong>Speed:</strong> C++ is 10-100x faster than Python, and CP problems have strict time limits (usually 1-2 seconds). A solution that passes in C++ may get TLE (Time Limit Exceeded) in Python. (2) <strong>STL:</strong> The Standard Template Library provides optimized data structures (set, map, priority_queue) and algorithms (sort, lower_bound) out of the box. (3) <strong>Deterministic performance:</strong> No garbage collector pauses or interpreter overhead.",
+        "explanation": "Most competitive programming judges give C++ solutions 1-2 seconds, while Python gets 3-5x more time. Even with the extra time, complex problems (O(n log n) with n = 10^6) often cannot pass in Python. This is why most top competitive programmers (tourist, Benq, Petr) use C++."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"C\" &lt;&lt; \"+\" &lt;&lt; \"+\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Each << outputs its operand sequentially.",
+        "answer": "<code>C++</code>",
+        "explanation": "The chained <code>&lt;&lt;</code> operators output each string sequentially: <code>\"C\"</code>, then <code>\"+\"</code>, then <code>\"+\"</code>, resulting in <code>C++</code>. Then <code>endl</code> adds a newline."
+      },
+      {
+        "id": "ts-19",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What does the preprocessor directive #include do? What is the difference between #include <iostream> and #include \"myfile.h\"?",
+        "hint": "Think about where the compiler looks for the file.",
+        "answer": "<code>#include</code> tells the preprocessor to copy the entire contents of the specified file into the current file before compilation. <code>#include &lt;iostream&gt;</code> (angle brackets) searches in the <strong>system/standard library</strong> directories. <code>#include \"myfile.h\"</code> (double quotes) searches in the <strong>current directory first</strong>, then falls back to system directories.",
+        "explanation": "Use angle brackets for standard library headers (iostream, vector, string). Use double quotes for your own custom header files. This distinction helps the compiler find files efficiently."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Does this program compile? If yes, what is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; sizeof('A') &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "In C, sizeof('A') is 4 because character literals are ints in C. What about C++?",
+        "answer": "<code>1</code>",
+        "explanation": "In C++, character literals like <code>'A'</code> have type <code>char</code>, so <code>sizeof('A')</code> is <code>1</code>. This is different from C, where character literals have type <code>int</code>, making <code>sizeof('A')</code> equal to 4. This is a classic C vs C++ difference that appears in interviews."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; 100 &lt;&lt; endl;\n    cout &lt;&lt; 200 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Each cout with endl prints on a new line.",
+        "answer": "<code>100</code><br><code>200</code>",
+        "explanation": "The first <code>cout</code> prints <code>100</code> followed by a newline (from <code>endl</code>). The second prints <code>200</code> on the next line. Simple sequential output."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; 3 + 4 * 2 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "C++ follows standard mathematical operator precedence.",
+        "answer": "<code>11</code>",
+        "explanation": "Multiplication has higher precedence than addition. So <code>4 * 2</code> is evaluated first (giving 8), then <code>3 + 8</code> gives <code>11</code>. Not 14."
+      },
+      {
+        "id": "mx-3",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a C++ program that prints your name, age, and college on three separate lines using three separate cout statements.",
+        "hint": "Use endl or '\\n' after each cout to move to the next line.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Arjun\" &lt;&lt; endl;\n    cout &lt;&lt; 20 &lt;&lt; endl;\n    cout &lt;&lt; \"IIT Delhi\" &lt;&lt; endl;\n    return 0;\n}</code></pre>\nOutput:\nArjun\n20\nIIT Delhi",
+        "explanation": "Three separate <code>cout</code> statements, each ending with <code>endl</code>, produce three lines of output. You can also use <code>\"\\n\"</code> instead of <code>endl</code>."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"A\" &lt;&lt; \"B\" &lt;&lt; endl &lt;&lt; \"C\" &lt;&lt; \"D\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "endl can appear in the middle of a chain, not just at the end.",
+        "answer": "<code>AB</code><br><code>CD</code>",
+        "explanation": "The chain outputs <code>\"A\"</code>, then <code>\"B\"</code>, then <code>endl</code> (newline). On the next line, <code>\"C\"</code> and <code>\"D\"</code> are printed, followed by another <code>endl</code>. Result: <code>AB</code> on line 1, <code>CD</code> on line 2."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between endl and '\\n' in C++?",
+        "hint": "Both produce a newline, but one does something extra.",
+        "answer": "Both <code>endl</code> and <code>'\\n'</code> insert a newline character. However, <code>endl</code> also <strong>flushes the output buffer</strong>, forcing all buffered output to be written to the screen immediately. <code>'\\n'</code> just adds a newline without flushing. In competitive programming, using <code>'\\n'</code> is faster because flushing the buffer takes time.",
+        "explanation": "For competitive programming, always use <code>'\\n'</code> instead of <code>endl</code> for better performance. The overhead of flushing can add up significantly when printing millions of lines. For regular programs, the difference is negligible."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 10;\n    cout &lt;&lt; \"a = \" &lt;&lt; a &lt;&lt; endl;\n    a = 20;\n    cout &lt;&lt; \"a = \" &lt;&lt; a &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "The variable is reassigned between the two print statements.",
+        "answer": "<code>a = 10</code><br><code>a = 20</code>",
+        "explanation": "The first <code>cout</code> prints the value of <code>a</code> which is 10. Then <code>a</code> is reassigned to 20. The second <code>cout</code> prints the new value, 20."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; sizeof(bool) &lt;&lt; endl;\n    cout &lt;&lt; sizeof(short) &lt;&lt; endl;\n    cout &lt;&lt; sizeof(float) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "bool is 1 byte, short is 2 bytes, float is 4 bytes on most systems.",
+        "answer": "<code>1</code><br><code>2</code><br><code>4</code>",
+        "explanation": "On most modern systems: <code>bool</code> occupies 1 byte (even though it only needs 1 bit), <code>short</code> is 2 bytes (16 bits), and <code>float</code> is 4 bytes (32-bit IEEE 754). These are the typical sizes across all major compilers."
+      },
+      {
+        "id": "mx-8",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a C++ program that declares two integer variables, assigns them values 15 and 27, and prints their sum, difference, product, and quotient.",
+        "hint": "Remember that integer division truncates the decimal part.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 15, b = 27;\n    cout &lt;&lt; \"Sum: \" &lt;&lt; a + b &lt;&lt; endl;\n    cout &lt;&lt; \"Difference: \" &lt;&lt; a - b &lt;&lt; endl;\n    cout &lt;&lt; \"Product: \" &lt;&lt; a * b &lt;&lt; endl;\n    cout &lt;&lt; \"Quotient: \" &lt;&lt; a / b &lt;&lt; endl;\n    return 0;\n}</code></pre>\nOutput:\nSum: 42\nDifference: -12\nProduct: 405\nQuotient: 0",
+        "explanation": "Sum is 42, difference is -12, product is 405. The quotient is 0 because <code>15 / 27</code> performs integer division (since both operands are int), and 15 divided by 27 is 0 with a remainder of 15."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Does this code compile? If yes, what is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Size: \" &lt;&lt; sizeof(\"Hello\") &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "String literals in C++ are arrays of char, and they have a null terminator.",
+        "answer": "<code>Size: 6</code>",
+        "explanation": "The string literal <code>\"Hello\"</code> is stored as a char array: <code>{'H', 'e', 'l', 'l', 'o', '\\0'}</code>. The null terminator <code>\\0</code> is included, so the total size is 6 bytes (5 characters + 1 null terminator). This is a common interview question."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain what 'using namespace std;' does and why some programmers avoid it in large projects.",
+        "hint": "Think about what happens when two libraries define a function with the same name.",
+        "answer": "The <code>using namespace std;</code> directive imports all names from the <code>std</code> namespace into the current scope. This lets you write <code>cout</code> instead of <code>std::cout</code>. In large projects, this is avoided because it can cause <strong>name collisions</strong> -- if you define your own function called <code>count</code> or <code>distance</code>, it conflicts with <code>std::count</code> or <code>std::distance</code> from the standard library, leading to ambiguous calls.",
+        "explanation": "In competitive programming, <code>using namespace std;</code> is fine because programs are small and you want to type fast. In production code and large projects, prefer explicit <code>std::</code> prefixes or selective imports like <code>using std::cout;</code> and <code>using std::endl;</code>."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Hello \" &lt;&lt; 2026 &lt;&lt; \"!\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "You can chain strings and numbers together with <<.",
+        "answer": "<code>Hello 2026!</code>",
+        "explanation": "The <code>&lt;&lt;</code> operator can chain strings, integers, and other types. <code>\"Hello \"</code>, <code>2026</code> (an int), and <code>\"!\"</code> are output sequentially to produce <code>Hello 2026!</code>."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = 5;\n    cout &lt;&lt; sizeof(x) &lt;&lt; \" \" &lt;&lt; sizeof(x + 1.0) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "When int and double are added, the result is promoted to double.",
+        "answer": "<code>4 8</code>",
+        "explanation": "<code>sizeof(x)</code> is <code>sizeof(int)</code> = 4. For <code>x + 1.0</code>, the integer <code>x</code> is implicitly promoted to <code>double</code> (because <code>1.0</code> is a double), so the expression has type <code>double</code>. <code>sizeof(double)</code> is 8. Note that <code>sizeof</code> evaluates the type of the expression at compile time without actually computing the expression."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Who created C++?",
+        "options": {
+          "A": "Dennis Ritchie",
+          "B": "Bjarne Stroustrup",
+          "C": "James Gosling",
+          "D": "Guido van Rossum"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Bjarne Stroustrup created C++ in 1979 at Bell Labs. Dennis Ritchie (A) created C. James Gosling (C) created Java. Guido van Rossum (D) created Python."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What was C++ originally called?",
+        "options": {
+          "A": "C Plus",
+          "B": "Advanced C",
+          "C": "C with Classes",
+          "D": "New C"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Stroustrup originally named the language 'C with Classes' because his goal was to add class-based object-oriented programming to C. It was renamed to C++ in 1983."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does the ++ in C++ represent?",
+        "options": {
+          "A": "Plus plus, meaning additional features",
+          "B": "The increment operator from C, meaning one step beyond C",
+          "C": "Two plus signs for double the power",
+          "D": "It is just a brand name with no meaning"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> In C, the <code>++</code> operator increments a value by 1. So C++ literally means 'C incremented by 1' -- one step beyond C. This clever naming reflects that C++ is an evolution of C."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which of the following is NOT a feature of C++?",
+        "options": {
+          "A": "Object-oriented programming",
+          "B": "Automatic garbage collection",
+          "C": "Low-level memory access via pointers",
+          "D": "Compiled to native machine code"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> C++ does NOT have automatic garbage collection like Java or Python. In C++, the programmer is responsible for managing memory using <code>new</code> and <code>delete</code> (or smart pointers in modern C++). All other options are genuine C++ features."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which header file is needed to use cout and cin?",
+        "options": {
+          "A": "<stdio.h>",
+          "B": "<conio.h>",
+          "C": "<iostream>",
+          "D": "<string>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>&lt;iostream&gt;</code> provides <code>cout</code>, <code>cin</code>, <code>cerr</code>, <code>clog</code>, and <code>endl</code>. <code>&lt;stdio.h&gt;</code> (A) is the C header for printf/scanf. <code>&lt;conio.h&gt;</code> (B) is a non-standard header. <code>&lt;string&gt;</code> (D) is for the string class."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "What is the correct return type of the main() function in standard C++?",
+        "options": {
+          "A": "void",
+          "B": "int",
+          "C": "float",
+          "D": "double"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The C++ standard requires <code>main()</code> to return <code>int</code>. <code>return 0;</code> indicates successful execution. While some older compilers accept <code>void main()</code>, it is not standard-compliant and should be avoided."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the output of sizeof(char) in C++?",
+        "options": {
+          "A": "0",
+          "B": "1",
+          "C": "2",
+          "D": "Depends on the platform"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The C++ standard guarantees that <code>sizeof(char)</code> is always 1 byte on every platform and every compiler. This is the only type with a guaranteed fixed size."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which of the following is the correct compilation command for a C++ file using g++?",
+        "options": {
+          "A": "gcc file.cpp -o output",
+          "B": "g++ file.cpp -o output",
+          "C": "cpp file.cpp -o output",
+          "D": "compile file.cpp -o output"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>g++</code> is the GNU C++ compiler. The <code>-o output</code> flag specifies the name of the output executable. While <code>gcc</code> (A) can compile C++ with the <code>-lstdc++</code> flag, <code>g++</code> is the standard approach. <code>cpp</code> (C) is the preprocessor, not the compiler."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which stage of the C++ compilation process resolves #include directives?",
+        "options": {
+          "A": "Compilation",
+          "B": "Assembly",
+          "C": "Preprocessing",
+          "D": "Linking"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The preprocessor runs before the compiler and handles all directives starting with <code>#</code>: <code>#include</code>, <code>#define</code>, <code>#ifdef</code>, etc. It replaces <code>#include &lt;iostream&gt;</code> with the actual file contents."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What does 'return 0;' in main() signify?",
+        "options": {
+          "A": "The program output is 0",
+          "B": "The program has zero variables",
+          "C": "The program terminated successfully",
+          "D": "The program runs zero more times"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>return 0;</code> sends an exit code of 0 to the operating system, which conventionally means the program executed successfully. A non-zero return value (like 1) indicates an error."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "In C++, sizeof('A') evaluates to what value?",
+        "options": {
+          "A": "1",
+          "B": "2",
+          "C": "4",
+          "D": "8"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> In C++, character literals like <code>'A'</code> have type <code>char</code>, which is 1 byte. This is different from C, where <code>'A'</code> has type <code>int</code> (4 bytes). This difference is a classic C/C++ interview question."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Which C++ standard introduced smart pointers, lambda expressions, and the auto keyword?",
+        "options": {
+          "A": "C++98",
+          "B": "C++03",
+          "C": "C++11",
+          "D": "C++17"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> C++11 was the landmark update that introduced <code>auto</code>, lambda expressions, smart pointers (<code>unique_ptr</code>, <code>shared_ptr</code>), range-based for loops, move semantics, <code>nullptr</code>, and much more. It is often called 'Modern C++.'"
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the output of sizeof(\"Hi\") in C++?",
+        "options": {
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "8"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The string literal <code>\"Hi\"</code> is stored as a char array <code>{'H', 'i', '\\0'}</code>. The null terminator adds 1 extra byte. So <code>sizeof(\"Hi\")</code> = 2 characters + 1 null terminator = 3 bytes."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which of the following is NOT a valid C++ file extension?",
+        "options": {
+          "A": ".cpp",
+          "B": ".cc",
+          "C": ".cxx",
+          "D": ".c++"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> While <code>.cpp</code>, <code>.cc</code>, and <code>.cxx</code> are all valid and commonly recognized C++ file extensions, <code>.c++</code> is problematic because the <code>+</code> character is not universally supported in filenames across all operating systems and build tools."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What does the linker do in the C++ compilation process?",
+        "options": {
+          "A": "Converts source code to assembly language",
+          "B": "Expands #include and #define directives",
+          "C": "Converts assembly to machine code",
+          "D": "Combines object files and resolves external references to produce the executable"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> The linker takes one or more object files (<code>.o</code> files), resolves references between them (e.g., function calls across files), links in the standard library, and produces the final executable. Option A is the compiler, B is the preprocessor, C is the assembler."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Which of the following is true about C++ compared to Java?",
+        "options": {
+          "A": "C++ runs on a virtual machine like Java's JVM",
+          "B": "C++ has automatic garbage collection",
+          "C": "C++ supports multiple inheritance of classes",
+          "D": "C++ does not support operator overloading"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> C++ supports multiple inheritance (a class can inherit from multiple base classes), while Java only supports single class inheritance (multiple interface implementation is allowed). C++ compiles to native code, not a VM (A is wrong). C++ has no GC (B is wrong). C++ fully supports operator overloading (D is wrong)."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Easy",
+        "question": "Which operator is used for output in C++?",
+        "options": {
+          "A": ">>",
+          "B": "<<",
+          "C": "->",
+          "D": "::"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>&lt;&lt;</code> operator (insertion operator) is used with <code>cout</code> for output. The <code>&gt;&gt;</code> operator (extraction operator) is used with <code>cin</code> for input. <code>-&gt;</code> is for accessing members via pointers. <code>::</code> is the scope resolution operator."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the value of __cplusplus macro when compiling with C++17 standard?",
+        "options": {
+          "A": "201103L",
+          "B": "201402L",
+          "C": "201703L",
+          "D": "202002L"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>__cplusplus</code> macro is set to <code>201703L</code> for C++17. The values correspond to the year and month of the standard's publication: <code>201103L</code> (C++11), <code>201402L</code> (C++14), <code>201703L</code> (C++17), <code>202002L</code> (C++20)."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "Which of these correctly describes C++?",
+        "options": {
+          "A": "Interpreted, dynamically typed",
+          "B": "Compiled, dynamically typed",
+          "C": "Interpreted, statically typed",
+          "D": "Compiled, statically typed"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> C++ is a <strong>compiled</strong> language (source code is compiled to native machine code) and <strong>statically typed</strong> (variable types are determined at compile time and cannot change). Python is interpreted and dynamically typed. JavaScript is interpreted and dynamically typed."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "Which C++ feature is used to write generic, type-independent code?",
+        "options": {
+          "A": "Inheritance",
+          "B": "Polymorphism",
+          "C": "Templates",
+          "D": "Encapsulation"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <strong>Templates</strong> allow you to write code that works with any data type. For example, <code>template&lt;typename T&gt; T add(T a, T b) { return a + b; }</code> works with int, float, double, etc. The STL (vector, map, sort) is built entirely on templates. Inheritance (A) and Polymorphism (B) are OOP concepts, not generics."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Print a Formatted ID Card",
+        "difficulty": "Easy",
+        "description": "Write a C++ program that prints a formatted student ID card on the console. Print the name 'Sneha', roll number 'CS2024035', branch 'Computer Science', and year '2nd Year', each on a separate line with labels.",
+        "sampleInput": "(No input required - use hardcoded values)",
+        "sampleOutput": "Name: Sneha\nRoll No: CS2024035\nBranch: Computer Science\nYear: 2nd Year",
+        "constraints": "Use cout for output. Each field must be on its own line.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"Name: Sneha\" << endl;\n    cout << \"Roll No: CS2024035\" << endl;\n    cout << \"Branch: Computer Science\" << endl;\n    cout << \"Year: 2nd Year\" << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Data Type Size Reporter",
+        "difficulty": "Easy",
+        "description": "Write a C++ program that prints the size (in bytes) of all fundamental data types: char, short, int, long, long long, float, double, and bool. Print each on a separate line with the type name.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "char: 1 bytes\nshort: 2 bytes\nint: 4 bytes\nlong: 4 bytes\nlong long: 8 bytes\nfloat: 4 bytes\ndouble: 8 bytes\nbool: 1 bytes",
+        "constraints": "Use the sizeof operator for each type.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"char: \" << sizeof(char) << \" bytes\" << endl;\n    cout << \"short: \" << sizeof(short) << \" bytes\" << endl;\n    cout << \"int: \" << sizeof(int) << \" bytes\" << endl;\n    cout << \"long: \" << sizeof(long) << \" bytes\" << endl;\n    cout << \"long long: \" << sizeof(long long) << \" bytes\" << endl;\n    cout << \"float: \" << sizeof(float) << \" bytes\" << endl;\n    cout << \"double: \" << sizeof(double) << \" bytes\" << endl;\n    cout << \"bool: \" << sizeof(bool) << \" bytes\" << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "String Literal Size Puzzle",
+        "difficulty": "Medium",
+        "description": "Write a program that prints the sizeof the following string literals and explains the output using comments: \"Hello\", \"A\", \"\", and \"C++\". Remember that string literals include a null terminator.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "sizeof(\"Hello\") = 6\nsizeof(\"A\") = 2\nsizeof(\"\") = 1\nsizeof(\"C++\") = 4",
+        "constraints": "Use sizeof on each string literal. Add comments explaining why the size is one more than the visible characters.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    // Each string literal has a hidden '\\0' null terminator\n    cout << \"sizeof(\\\"Hello\\\") = \" << sizeof(\"Hello\") << endl;  // 5 chars + 1 null = 6\n    cout << \"sizeof(\\\"A\\\") = \" << sizeof(\"A\") << endl;          // 1 char + 1 null = 2\n    cout << \"sizeof(\\\"\\\") = \" << sizeof(\"\") << endl;             // 0 chars + 1 null = 1\n    cout << \"sizeof(\\\"C++\\\") = \" << sizeof(\"C++\") << endl;      // 3 chars + 1 null = 4\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Compilation Flags Explorer",
+        "difficulty": "Medium",
+        "description": "Write a C++ program that uses the __cplusplus macro and preprocessor conditionals (#if, #elif) to print which C++ standard is being used. Test compiling it with different flags: g++ -std=c++11, g++ -std=c++17, g++ -std=c++20.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "C++ version: 201703\nYou are compiling with C++17",
+        "constraints": "Use #if, #elif, #else preprocessor directives. Handle C++11, C++14, C++17, and C++20.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"C++ version: \" << __cplusplus << endl;\n    #if __cplusplus >= 202002L\n        cout << \"You are compiling with C++20\" << endl;\n    #elif __cplusplus >= 201703L\n        cout << \"You are compiling with C++17\" << endl;\n    #elif __cplusplus >= 201402L\n        cout << \"You are compiling with C++14\" << endl;\n    #elif __cplusplus >= 201103L\n        cout << \"You are compiling with C++11\" << endl;\n    #else\n        cout << \"You are compiling with C++98/03\" << endl;\n    #endif\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Expression vs String Output",
+        "difficulty": "Hard",
+        "description": "Write a program that demonstrates the difference between printing an arithmetic expression and printing the same expression as a string. Print '10 + 20 = ' followed by the computed result 30, all on one line. Then print the string '10 + 20' literally (without computing it).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Computed: 10 + 20 = 30\nLiteral: 10 + 20",
+        "constraints": "Use a single cout chain for each line. Do NOT use any variables.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"Computed: 10 + 20 = \" << 10 + 20 << endl;\n    cout << \"Literal: 10 + 20\" << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Multi-line Art with cout",
+        "difficulty": "Easy",
+        "description": "Write a C++ program that prints the following pattern using only cout and endl (or '\\n'). Use separate cout statements for each line.\n\n  *\n ***\n*****\n ***\n  *",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "  *\n ***\n*****\n ***\n  *",
+        "constraints": "Use only cout and string literals. No loops.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"  *\" << endl;\n    cout << \" ***\" << endl;\n    cout << \"*****\" << endl;\n    cout << \" ***\" << endl;\n    cout << \"  *\" << endl;\n    return 0;\n}"
+      }
+    ]
+  }
+}

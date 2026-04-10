@@ -1,0 +1,539 @@
+{
+  "title": "File Handling (ifstream, ofstream, fstream)",
+  "slug": "file-handling-in-cpp",
+  "language": "cpp",
+  "chapter": 22,
+  "difficulty": "Advanced",
+  "readingTime": "50 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 52,
+  "seo": {
+    "title": "C++ File Handling - ifstream, ofstream, fstream, Binary I/O, File Modes | Modern Age Coders",
+    "description": "Master C++ file handling with ifstream, ofstream, fstream. Learn file modes, binary I/O, seekg, seekp, getline, CSV parsing, and student record systems. Includes 52+ practice questions.",
+    "keywords": "c++ file handling, c++ ifstream, c++ ofstream, c++ fstream, c++ binary file io, c++ read file, c++ write file, c++ getline, c++ file modes, c++ seekg seekp"
+  },
+  "content": {
+    "what": "<h2>What Is File Handling in C++?</h2><p><strong>File handling</strong> allows C++ programs to read data from files and write data to files on disk. Instead of losing all data when a program terminates, you can persist student records, configuration settings, logs, and any structured data to files.</p><p>C++ provides file handling through the <code>&lt;fstream&gt;</code> header, which defines three stream classes:</p><ul><li><strong>ifstream</strong> (input file stream): Read from files</li><li><strong>ofstream</strong> (output file stream): Write to files</li><li><strong>fstream</strong> (file stream): Both read and write</li></ul><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;fstream&gt;\n#include &lt;string&gt;\nusing namespace std;\n\nint main() {\n    // Write to a file\n    ofstream outFile(\"students.txt\");\n    outFile &lt;&lt; \"Arjun 85\" &lt;&lt; endl;\n    outFile &lt;&lt; \"Priya 92\" &lt;&lt; endl;\n    outFile &lt;&lt; \"Kiran 78\" &lt;&lt; endl;\n    outFile.close();\n\n    // Read from the file\n    ifstream inFile(\"students.txt\");\n    string name;\n    int marks;\n    while (inFile &gt;&gt; name &gt;&gt; marks) {\n        cout &lt;&lt; name &lt;&lt; \" scored \" &lt;&lt; marks &lt;&lt; endl;\n    }\n    inFile.close();\n    return 0;\n}</code></pre><p>File streams inherit from the same iostream hierarchy as <code>cin</code> and <code>cout</code>. Everything Raghav knows about <code>&lt;&lt;</code>, <code>&gt;&gt;</code>, <code>getline</code>, and stream state applies directly to file streams.</p>",
+    "why": "<h2>Why Is File Handling Important?</h2><h3>1. Data Persistence</h3><p>Without files, all program data is lost when the program exits. File handling lets Arjun save student records, configuration settings, and computation results that survive beyond the program's lifetime.</p><h3>2. Practical Applications</h3><p>Nearly every real-world application involves files: reading configuration files, parsing CSV data, logging errors, saving game state, processing large datasets that do not fit in memory, and communicating between programs through files.</p><h3>3. Binary File I/O for Performance</h3><p>Text files are human-readable but slow for large data. Binary files store data in the same format as memory, making reads and writes significantly faster. Database engines, image processors, and serialization libraries all use binary I/O.</p><h3>4. Foundation for Advanced Topics</h3><p>Understanding file streams prepares you for network streams, string streams (<code>stringstream</code>), and the C++17 <code>&lt;filesystem&gt;</code> library. The iostream abstraction is the same -- once you understand file I/O, you understand all C++ I/O.</p><h3>5. Competitive Programming and Interviews</h3><p>While competitive programming typically uses <code>cin</code>/<code>cout</code>, many online judges and companies use file-based I/O (<code>freopen</code>). Interview questions often involve parsing files, implementing CSV readers, or building config file parsers.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Opening and Closing Files</h3><p>Files can be opened through the constructor or the <code>open()</code> method:</p><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;fstream&gt;\nusing namespace std;\n\nint main() {\n    // Method 1: Open via constructor\n    ofstream file1(\"output.txt\");\n    file1 &lt;&lt; \"Hello from constructor\" &lt;&lt; endl;\n    file1.close();\n\n    // Method 2: Open via open()\n    ofstream file2;\n    file2.open(\"output2.txt\");\n    if (file2.is_open()) {\n        file2 &lt;&lt; \"Hello from open()\" &lt;&lt; endl;\n        file2.close();\n    } else {\n        cerr &lt;&lt; \"Failed to open file\" &lt;&lt; endl;\n    }\n\n    // Destructor auto-closes, but explicit close is good practice\n    {\n        ofstream file3(\"output3.txt\");\n        file3 &lt;&lt; \"Auto-closed when file3 goes out of scope\";\n    } // file3.close() called automatically here\n    return 0;\n}</code></pre><h3>2. File Modes</h3><p>File modes control how a file is opened:</p><table><tr><th>Mode</th><th>Description</th></tr><tr><td>ios::in</td><td>Open for reading (default for ifstream)</td></tr><tr><td>ios::out</td><td>Open for writing (default for ofstream, truncates file)</td></tr><tr><td>ios::app</td><td>Append to end of file (does not truncate)</td></tr><tr><td>ios::binary</td><td>Binary mode (no text translation)</td></tr><tr><td>ios::trunc</td><td>Truncate file to zero length on open</td></tr><tr><td>ios::ate</td><td>Seek to end after opening</td></tr></table><pre><code class=\"language-cpp\">#include &lt;fstream&gt;\nusing namespace std;\n\nint main() {\n    // Truncate and write (default for ofstream)\n    ofstream f1(\"data.txt\");\n    f1 &lt;&lt; \"First write\" &lt;&lt; endl;\n    f1.close();\n\n    // Append mode: adds to existing content\n    ofstream f2(\"data.txt\", ios::app);\n    f2 &lt;&lt; \"Appended line\" &lt;&lt; endl;\n    f2.close();\n\n    // Binary mode for raw data\n    ofstream f3(\"data.bin\", ios::binary);\n    int num = 42;\n    f3.write(reinterpret_cast&lt;char*&gt;(&amp;num), sizeof(num));\n    f3.close();\n\n    // Combining modes with |\n    fstream f4(\"data.txt\", ios::in | ios::out | ios::app);\n    f4.close();\n    return 0;\n}</code></pre><h3>3. Reading Line by Line (getline) and Word by Word (&gt;&gt;)</h3><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;fstream&gt;\n#include &lt;string&gt;\nusing namespace std;\n\nint main() {\n    // Create a test file\n    ofstream out(\"poem.txt\");\n    out &lt;&lt; \"Twinkle twinkle little star\" &lt;&lt; endl;\n    out &lt;&lt; \"How I wonder what you are\" &lt;&lt; endl;\n    out.close();\n\n    // Read line by line\n    ifstream in1(\"poem.txt\");\n    string line;\n    cout &lt;&lt; \"Line by line:\" &lt;&lt; endl;\n    while (getline(in1, line)) {\n        cout &lt;&lt; \"  \" &lt;&lt; line &lt;&lt; endl;\n    }\n    in1.close();\n\n    // Read word by word\n    ifstream in2(\"poem.txt\");\n    string word;\n    cout &lt;&lt; \"Word by word:\" &lt;&lt; endl;\n    while (in2 &gt;&gt; word) {\n        cout &lt;&lt; \"[\" &lt;&lt; word &lt;&lt; \"] \";\n    }\n    cout &lt;&lt; endl;\n    in2.close();\n    return 0;\n}</code></pre><h3>4. Checking File State</h3><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;fstream&gt;\nusing namespace std;\n\nint main() {\n    ifstream file(\"nonexistent.txt\");\n\n    // is_open(): was the file successfully opened?\n    if (!file.is_open()) {\n        cerr &lt;&lt; \"Could not open file\" &lt;&lt; endl;\n    }\n\n    // Stream state flags\n    ifstream f(\"test.txt\");\n    // f.good()  -- no errors\n    // f.eof()   -- end of file reached\n    // f.fail()  -- logical error (e.g., reading int but found string)\n    // f.bad()   -- serious I/O error (e.g., disk failure)\n\n    // Common pattern: read until failure\n    ifstream data(\"numbers.txt\");\n    int num;\n    while (data &gt;&gt; num) {\n        cout &lt;&lt; num &lt;&lt; \" \";\n    }\n    if (data.eof()) cout &lt;&lt; \"\\nReached end of file\" &lt;&lt; endl;\n    if (data.fail()) cout &lt;&lt; \"Read failed (format error or EOF)\" &lt;&lt; endl;\n    return 0;\n}</code></pre><h3>5. Binary File I/O</h3><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;fstream&gt;\n#include &lt;cstring&gt;\nusing namespace std;\n\nstruct Student {\n    char name[50];\n    int age;\n    double gpa;\n};\n\nint main() {\n    // Write binary\n    Student s1;\n    strcpy(s1.name, \"Arjun\");\n    s1.age = 20;\n    s1.gpa = 8.5;\n\n    Student s2;\n    strcpy(s2.name, \"Priya\");\n    s2.age = 21;\n    s2.gpa = 9.2;\n\n    ofstream out(\"students.dat\", ios::binary);\n    out.write(reinterpret_cast&lt;char*&gt;(&amp;s1), sizeof(Student));\n    out.write(reinterpret_cast&lt;char*&gt;(&amp;s2), sizeof(Student));\n    out.close();\n\n    // Read binary\n    ifstream in(\"students.dat\", ios::binary);\n    Student temp;\n    while (in.read(reinterpret_cast&lt;char*&gt;(&amp;temp), sizeof(Student))) {\n        cout &lt;&lt; temp.name &lt;&lt; \", Age: \" &lt;&lt; temp.age\n             &lt;&lt; \", GPA: \" &lt;&lt; temp.gpa &lt;&lt; endl;\n    }\n    in.close();\n    return 0;\n}</code></pre><h3>6. File Position: seekg, seekp, tellg, tellp</h3><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;fstream&gt;\nusing namespace std;\n\nint main() {\n    // seekg: set get (read) position\n    // seekp: set put (write) position\n    // tellg: get current read position\n    // tellp: get current write position\n\n    ofstream out(\"seektest.txt\");\n    out &lt;&lt; \"ABCDEFGHIJ\";\n    out.close();\n\n    ifstream in(\"seektest.txt\");\n\n    // Read from position 3\n    in.seekg(3);  // move to 4th byte (0-indexed)\n    char ch;\n    in.get(ch);\n    cout &lt;&lt; \"At position 3: \" &lt;&lt; ch &lt;&lt; endl;  // D\n\n    // Tell current position\n    cout &lt;&lt; \"Current position: \" &lt;&lt; in.tellg() &lt;&lt; endl;  // 4\n\n    // Seek from end\n    in.seekg(-3, ios::end);\n    in.get(ch);\n    cout &lt;&lt; \"3 from end: \" &lt;&lt; ch &lt;&lt; endl;  // H\n\n    // Seek from current position\n    in.seekg(1, ios::cur);\n    in.get(ch);\n    cout &lt;&lt; \"Skip 1 from current: \" &lt;&lt; ch &lt;&lt; endl;  // J\n\n    // Get file size\n    in.seekg(0, ios::end);\n    cout &lt;&lt; \"File size: \" &lt;&lt; in.tellg() &lt;&lt; \" bytes\" &lt;&lt; endl;\n    in.close();\n    return 0;\n}</code></pre><h3>7. Practical Example: CSV Reader/Writer</h3><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;fstream&gt;\n#include &lt;sstream&gt;\n#include &lt;string&gt;\n#include &lt;vector&gt;\nusing namespace std;\n\nstruct Student {\n    string name;\n    int age;\n    double gpa;\n};\n\nvoid writeCSV(const string&amp; filename, const vector&lt;Student&gt;&amp; students) {\n    ofstream file(filename);\n    file &lt;&lt; \"Name,Age,GPA\" &lt;&lt; endl;  // header\n    for (const auto&amp; s : students) {\n        file &lt;&lt; s.name &lt;&lt; \",\" &lt;&lt; s.age &lt;&lt; \",\" &lt;&lt; s.gpa &lt;&lt; endl;\n    }\n    file.close();\n}\n\nvector&lt;Student&gt; readCSV(const string&amp; filename) {\n    vector&lt;Student&gt; students;\n    ifstream file(filename);\n    string line;\n    getline(file, line);  // skip header\n\n    while (getline(file, line)) {\n        stringstream ss(line);\n        Student s;\n        string token;\n        getline(ss, s.name, ',');\n        getline(ss, token, ',');\n        s.age = stoi(token);\n        getline(ss, token, ',');\n        s.gpa = stod(token);\n        students.push_back(s);\n    }\n    file.close();\n    return students;\n}\n\nint main() {\n    vector&lt;Student&gt; students = {\n        {\"Arjun\", 20, 8.5}, {\"Priya\", 21, 9.2}, {\"Kiran\", 19, 7.8}\n    };\n    writeCSV(\"students.csv\", students);\n\n    auto loaded = readCSV(\"students.csv\");\n    for (const auto&amp; s : loaded) {\n        cout &lt;&lt; s.name &lt;&lt; \", Age: \" &lt;&lt; s.age &lt;&lt; \", GPA: \" &lt;&lt; s.gpa &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre><h3>8. Practical Example: Config File Parser</h3><pre><code class=\"language-cpp\">#include &lt;iostream&gt;\n#include &lt;fstream&gt;\n#include &lt;sstream&gt;\n#include &lt;string&gt;\n#include &lt;map&gt;\nusing namespace std;\n\nmap&lt;string, string&gt; parseConfig(const string&amp; filename) {\n    map&lt;string, string&gt; config;\n    ifstream file(filename);\n    string line;\n\n    while (getline(file, line)) {\n        // Skip empty lines and comments\n        if (line.empty() || line[0] == '#') continue;\n\n        size_t pos = line.find('=');\n        if (pos != string::npos) {\n            string key = line.substr(0, pos);\n            string value = line.substr(pos + 1);\n            config[key] = value;\n        }\n    }\n    file.close();\n    return config;\n}\n\nint main() {\n    // Create a config file\n    ofstream out(\"app.conf\");\n    out &lt;&lt; \"# Application Config\" &lt;&lt; endl;\n    out &lt;&lt; \"db_host=localhost\" &lt;&lt; endl;\n    out &lt;&lt; \"db_port=3306\" &lt;&lt; endl;\n    out &lt;&lt; \"app_name=StudentPortal\" &lt;&lt; endl;\n    out &lt;&lt; \"debug=true\" &lt;&lt; endl;\n    out.close();\n\n    auto config = parseConfig(\"app.conf\");\n    for (auto&amp; [key, value] : config) {\n        cout &lt;&lt; key &lt;&lt; \" = \" &lt;&lt; value &lt;&lt; endl;\n    }\n    return 0;\n}</code></pre>"
+  },
+  "codeExamples": [
+    {
+      "title": "Student Record System with Binary File I/O",
+      "code": "#include <iostream>\n#include <fstream>\n#include <cstring>\n#include <vector>\nusing namespace std;\n\nstruct Student {\n    char name[50];\n    int rollNo;\n    double marks;\n};\n\nvoid addStudent(const string& filename) {\n    Student s;\n    cout << \"Name: \"; cin.getline(s.name, 50);\n    cout << \"Roll No: \"; cin >> s.rollNo;\n    cout << \"Marks: \"; cin >> s.marks;\n    cin.ignore();\n\n    ofstream file(filename, ios::binary | ios::app);\n    file.write(reinterpret_cast<char*>(&s), sizeof(Student));\n    file.close();\n    cout << \"Student added.\" << endl;\n}\n\nvoid displayAll(const string& filename) {\n    ifstream file(filename, ios::binary);\n    Student s;\n    cout << \"\\nAll Students:\" << endl;\n    while (file.read(reinterpret_cast<char*>(&s), sizeof(Student))) {\n        cout << \"Roll: \" << s.rollNo << \", Name: \" << s.name\n             << \", Marks: \" << s.marks << endl;\n    }\n    file.close();\n}\n\nvoid searchByRoll(const string& filename, int roll) {\n    ifstream file(filename, ios::binary);\n    Student s;\n    bool found = false;\n    while (file.read(reinterpret_cast<char*>(&s), sizeof(Student))) {\n        if (s.rollNo == roll) {\n            cout << \"Found: \" << s.name << \", Marks: \" << s.marks << endl;\n            found = true;\n            break;\n        }\n    }\n    if (!found) cout << \"Student not found.\" << endl;\n    file.close();\n}\n\nint main() {\n    // Demonstration with pre-built data\n    string filename = \"records.dat\";\n    ofstream clear(filename, ios::binary | ios::trunc);\n    clear.close();\n\n    Student students[] = {\n        {\"Arjun\", 101, 85.5},\n        {\"Priya\", 102, 92.0},\n        {\"Kiran\", 103, 78.3}\n    };\n    ofstream out(filename, ios::binary);\n    for (auto& s : students)\n        out.write(reinterpret_cast<char*>(&s), sizeof(Student));\n    out.close();\n\n    displayAll(filename);\n    cout << endl;\n    searchByRoll(filename, 102);\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "This demonstrates a complete student record system using binary file I/O. Students are stored as fixed-size structs, making random access possible. <code>reinterpret_cast&lt;char*&gt;</code> converts the struct pointer to a byte pointer for <code>write</code> and <code>read</code>. The <code>ios::app</code> flag ensures new records are appended without overwriting existing data.",
+      "output": "All Students:\nRoll: 101, Name: Arjun, Marks: 85.5\nRoll: 102, Name: Priya, Marks: 92\nRoll: 103, Name: Kiran, Marks: 78.3\n\nFound: Priya, Marks: 92"
+    },
+    {
+      "title": "CSV Reader with stringstream Parsing",
+      "code": "#include <iostream>\n#include <fstream>\n#include <sstream>\n#include <string>\n#include <vector>\nusing namespace std;\n\nint main() {\n    // Write CSV\n    ofstream out(\"marks.csv\");\n    out << \"Name,Maths,Physics,Chemistry\" << endl;\n    out << \"Arjun,85,90,78\" << endl;\n    out << \"Priya,92,88,95\" << endl;\n    out << \"Kiran,78,82,80\" << endl;\n    out.close();\n\n    // Read and parse CSV\n    ifstream in(\"marks.csv\");\n    string line;\n    getline(in, line);  // skip header\n    cout << \"Student Report:\" << endl;\n    cout << \"---------------------------\" << endl;\n\n    while (getline(in, line)) {\n        stringstream ss(line);\n        string name, token;\n        getline(ss, name, ',');\n        vector<int> marks;\n        while (getline(ss, token, ','))\n            marks.push_back(stoi(token));\n\n        int total = 0;\n        for (int m : marks) total += m;\n        double avg = (double)total / marks.size();\n\n        cout << name << \": Total=\" << total\n             << \", Average=\" << avg << endl;\n    }\n    in.close();\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "CSV parsing combines <code>getline</code> (to read full lines) with <code>stringstream</code> (to split by commas). Each line is fed into a stringstream, and <code>getline(ss, token, ',')</code> extracts comma-separated fields. This pattern is essential for processing structured data files.",
+      "output": "Student Report:\n---------------------------\nArjun: Total=253, Average=84.3333\nPriya: Total=275, Average=91.6667\nKiran: Total=240, Average=80"
+    },
+    {
+      "title": "File Copy Program (Binary Mode)",
+      "code": "#include <iostream>\n#include <fstream>\nusing namespace std;\n\nint main() {\n    // Create source file\n    ofstream src(\"source.txt\");\n    src << \"This is the source file content.\" << endl;\n    src << \"It has multiple lines.\" << endl;\n    src.close();\n\n    // Copy file using binary mode\n    ifstream in(\"source.txt\", ios::binary);\n    ofstream out(\"copy.txt\", ios::binary);\n\n    if (!in.is_open() || !out.is_open()) {\n        cerr << \"Error opening files!\" << endl;\n        return 1;\n    }\n\n    // Method 1: Read and write char by char\n    // char ch;\n    // while (in.get(ch)) out.put(ch);\n\n    // Method 2: Read in chunks (more efficient)\n    char buffer[1024];\n    while (in.read(buffer, sizeof(buffer))) {\n        out.write(buffer, in.gcount());\n    }\n    // Write remaining bytes (last chunk may be smaller)\n    out.write(buffer, in.gcount());\n\n    in.close();\n    out.close();\n\n    // Verify copy\n    ifstream verify(\"copy.txt\");\n    string line;\n    while (getline(verify, line))\n        cout << line << endl;\n    verify.close();\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "This demonstrates binary file copying with buffered reads. <code>in.read(buffer, size)</code> reads up to <code>size</code> bytes. <code>in.gcount()</code> returns the actual number of bytes read (which may be less than the buffer size for the last chunk). This pattern is efficient for copying large files.",
+      "output": "This is the source file content.\nIt has multiple lines."
+    },
+    {
+      "title": "Log File with Timestamp and Append Mode",
+      "code": "#include <iostream>\n#include <fstream>\n#include <ctime>\n#include <string>\nusing namespace std;\n\nclass Logger {\n    string filename;\npublic:\n    Logger(const string& fname) : filename(fname) {}\n\n    void log(const string& level, const string& message) {\n        ofstream file(filename, ios::app);\n        time_t now = time(nullptr);\n        char timestamp[26];\n        ctime_r(&now, timestamp);\n        timestamp[24] = '\\0';  // remove newline\n\n        file << \"[\" << timestamp << \"] \" << level << \": \" << message << endl;\n        file.close();\n    }\n\n    void info(const string& msg) { log(\"INFO\", msg); }\n    void warn(const string& msg) { log(\"WARN\", msg); }\n    void error(const string& msg) { log(\"ERROR\", msg); }\n\n    void display() {\n        ifstream file(filename);\n        string line;\n        while (getline(file, line))\n            cout << line << endl;\n        file.close();\n    }\n};\n\nint main() {\n    Logger logger(\"app.log\");\n    logger.info(\"Application started\");\n    logger.info(\"User Arjun logged in\");\n    logger.warn(\"Memory usage above 80%\");\n    logger.error(\"Database connection failed\");\n    logger.info(\"Retrying connection...\");\n\n    cout << \"Log contents:\" << endl;\n    logger.display();\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "This Logger class uses <code>ios::app</code> to append each log entry without overwriting previous entries. Each call opens the file, writes, and closes it, ensuring data is flushed even if the program crashes. This is a common pattern for application logging.",
+      "output": "Log contents:\n[Thu Apr 10 12:00:00 2026] INFO: Application started\n[Thu Apr 10 12:00:00 2026] INFO: User Arjun logged in\n[Thu Apr 10 12:00:00 2026] WARN: Memory usage above 80%\n[Thu Apr 10 12:00:00 2026] ERROR: Database connection failed\n[Thu Apr 10 12:00:00 2026] INFO: Retrying connection..."
+    },
+    {
+      "title": "Random Access in Binary File (Update a Specific Record)",
+      "code": "#include <iostream>\n#include <fstream>\n#include <cstring>\nusing namespace std;\n\nstruct Student {\n    int rollNo;\n    char name[30];\n    double marks;\n};\n\nint main() {\n    string filename = \"students.dat\";\n\n    // Write 3 students\n    Student students[] = {\n        {101, \"Arjun\", 85.0},\n        {102, \"Priya\", 78.0},\n        {103, \"Kiran\", 90.0}\n    };\n    ofstream out(filename, ios::binary);\n    for (auto& s : students)\n        out.write(reinterpret_cast<char*>(&s), sizeof(Student));\n    out.close();\n\n    // Update record at index 1 (Priya's marks: 78 -> 95)\n    fstream file(filename, ios::in | ios::out | ios::binary);\n    Student update;\n    int recordIndex = 1;\n\n    // Seek to the record\n    file.seekg(recordIndex * sizeof(Student), ios::beg);\n    file.read(reinterpret_cast<char*>(&update), sizeof(Student));\n    cout << \"Before: \" << update.name << \", Marks: \" << update.marks << endl;\n\n    // Modify and write back\n    update.marks = 95.0;\n    file.seekp(recordIndex * sizeof(Student), ios::beg);\n    file.write(reinterpret_cast<char*>(&update), sizeof(Student));\n    file.close();\n\n    // Verify\n    ifstream verify(filename, ios::binary);\n    Student temp;\n    while (verify.read(reinterpret_cast<char*>(&temp), sizeof(Student))) {\n        cout << temp.rollNo << \": \" << temp.name\n             << \", Marks: \" << temp.marks << endl;\n    }\n    verify.close();\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "Binary files with fixed-size records allow random access. To read or update record N, seek to position <code>N * sizeof(Record)</code>. <code>seekg</code> moves the read position and <code>seekp</code> moves the write position. This is how simple database-like systems work -- O(1) access to any record by index.",
+      "output": "Before: Priya, Marks: 78\n101: Arjun, Marks: 85\n102: Priya, Marks: 95\n103: Kiran, Marks: 90"
+    },
+    {
+      "title": "File Size Calculation and End-of-File Detection",
+      "code": "#include <iostream>\n#include <fstream>\nusing namespace std;\n\nint main() {\n    // Create test file\n    ofstream out(\"test.txt\");\n    out << \"Hello World\";\n    out.close();\n\n    // Get file size using seekg and tellg\n    ifstream file(\"test.txt\", ios::binary);\n    file.seekg(0, ios::end);       // seek to end\n    streamsize size = file.tellg(); // get position = file size\n    file.seekg(0, ios::beg);       // seek back to beginning\n\n    cout << \"File size: \" << size << \" bytes\" << endl;\n\n    // Read all content into string\n    string content(size, '\\0');\n    file.read(&content[0], size);\n    cout << \"Content: \" << content << endl;\n\n    // Check state after reading everything\n    char ch;\n    file.get(ch);  // try to read past end\n    if (file.eof())\n        cout << \"Reached end of file\" << endl;\n    if (file.fail())\n        cout << \"Read operation failed (expected at EOF)\" << endl;\n    if (!file.good())\n        cout << \"Stream is not in good state\" << endl;\n    file.close();\n    return 0;\n}",
+      "language": "cpp",
+      "explanation": "To find the file size, seek to the end and use <code>tellg()</code> to get the position. After reading all content, any further read sets the EOF flag. <code>eof()</code> checks if end-of-file was reached, <code>fail()</code> checks for logical errors, and <code>good()</code> returns true only if no flags are set.",
+      "output": "File size: 11 bytes\nContent: Hello World\nReached end of file\nRead operation failed (expected at EOF)\nStream is not in good state"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Not Checking if File Opened Successfully",
+      "wrongCode": "ifstream file(\"data.txt\");\nstring line;\nwhile (getline(file, line)) {\n    cout << line << endl;  // silent failure if file doesn't exist\n}",
+      "error": "If the file does not exist, the ifstream is in a failed state. The while loop never executes, but there is no error message. The program silently does nothing.",
+      "correctCode": "ifstream file(\"data.txt\");\nif (!file.is_open()) {\n    cerr << \"Error: could not open data.txt\" << endl;\n    return 1;\n}\nstring line;\nwhile (getline(file, line)) {\n    cout << line << endl;\n}",
+      "explanation": "Always check <code>is_open()</code> or the stream's boolean state after opening a file. File operations can fail for many reasons: file does not exist, permission denied, disk full. Silent failures are the hardest bugs to track."
+    },
+    {
+      "title": "Using eof() in the Loop Condition",
+      "wrongCode": "ifstream file(\"data.txt\");\nstring line;\nwhile (!file.eof()) {\n    getline(file, line);\n    cout << line << endl;  // prints last line TWICE\n}",
+      "error": "The eof flag is set only AFTER a read operation fails, not when the last successful read reaches the end. This causes the last line to be processed twice because the loop executes one extra time.",
+      "correctCode": "ifstream file(\"data.txt\");\nstring line;\nwhile (getline(file, line)) {\n    cout << line << endl;\n}",
+      "explanation": "Use the read operation itself as the loop condition. <code>getline</code> and <code>&gt;&gt;</code> return a reference to the stream, which converts to false when a read fails. This is the correct and idiomatic pattern in C++."
+    },
+    {
+      "title": "Forgetting ios::binary for Struct I/O",
+      "wrongCode": "Student s = {\"Arjun\", 20, 8.5};\nofstream file(\"data.dat\");  // text mode!\nfile.write(reinterpret_cast<char*>(&s), sizeof(s));\n// On Windows, newline bytes in the struct may be\n// translated from \\n to \\r\\n, corrupting the data",
+      "error": "In text mode, the runtime may translate certain byte values (like 0x0A which is newline). This can corrupt binary data, especially on Windows.",
+      "correctCode": "Student s = {\"Arjun\", 20, 8.5};\nofstream file(\"data.dat\", ios::binary);\nfile.write(reinterpret_cast<char*>(&s), sizeof(s));",
+      "explanation": "Always use <code>ios::binary</code> when reading or writing raw bytes with <code>write()</code> and <code>read()</code>. Binary mode prevents any character translation, ensuring the exact bytes you write are the exact bytes you read back."
+    },
+    {
+      "title": "Mixing >> and getline Without Clearing the Buffer",
+      "wrongCode": "ifstream file(\"data.txt\");\n// File content: \"101\\nArjun Kumar\\n85\"\nint roll;\nfile >> roll;        // reads 101, leaves \\n in buffer\nstring name;\ngetline(file, name); // reads empty string (just the \\n)\nint marks;\nfile >> marks;       // tries to read \"Arjun\" as int -> FAIL",
+      "error": "The >> operator leaves the newline character in the buffer. The subsequent getline reads this leftover newline as an empty line instead of the actual name.",
+      "correctCode": "ifstream file(\"data.txt\");\nint roll;\nfile >> roll;\nfile.ignore(numeric_limits<streamsize>::max(), '\\n');  // consume leftover newline\nstring name;\ngetline(file, name);  // correctly reads \"Arjun Kumar\"\nint marks;\nfile >> marks;",
+      "explanation": "After using <code>&gt;&gt;</code>, always call <code>file.ignore()</code> to consume the remaining newline before using <code>getline</code>. This is the same issue that occurs with <code>cin &gt;&gt;</code> followed by <code>getline(cin, ...)</code>."
+    }
+  ],
+  "summary": [
+    "C++ file handling uses three classes from <fstream>: ifstream (read), ofstream (write), and fstream (read+write). They inherit the same interface as cin and cout.",
+    "Files can be opened via the constructor or the open() method. Always check is_open() to verify the file was successfully opened.",
+    "File modes control behavior: ios::in (read), ios::out (write/truncate), ios::app (append), ios::binary (no text translation), ios::trunc (truncate). Combine modes with the | operator.",
+    "Read lines with getline(file, string) and words with file >> variable. Use getline for lines containing spaces.",
+    "The correct loop pattern is while(getline(file, line)) or while(file >> var). Never use while(!file.eof()) as the loop condition -- it processes the last item twice.",
+    "Binary I/O uses write() and read() with reinterpret_cast<char*>. Always open in ios::binary mode for binary operations to prevent character translation.",
+    "seekg/seekp move the read/write position. tellg/tellp report the current position. Use seekg(0, ios::end) followed by tellg() to get file size.",
+    "For binary files with fixed-size records, random access to record N uses seekg(N * sizeof(Record)). This enables O(1) lookup, update, and delete operations.",
+    "CSV parsing combines getline (read full lines) with stringstream and getline(ss, token, ',') to split by delimiter.",
+    "After using >> to read formatted input, call file.ignore() before getline to consume the leftover newline character in the buffer."
+  ],
+  "relatedTopics": ["stl-algorithms-and-iterators", "smart-pointers-and-memory"],
+  "practice": {
+    "totalQuestions": 52,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this code write to output.txt?<br><pre><code class=\"language-cpp\">ofstream file(\"output.txt\");\nfile &lt;&lt; \"Hello\" &lt;&lt; endl;\nfile &lt;&lt; \"World\" &lt;&lt; endl;\nfile.close();</code></pre>",
+        "hint": "endl writes a newline and flushes the buffer.",
+        "answer": "The file contains two lines:<br><code>Hello</code><br><code>World</code>",
+        "explanation": "The <code>&lt;&lt;</code> operator writes text to the file just like <code>cout</code>. <code>endl</code> inserts a newline. The file will contain \"Hello\\nWorld\\n\"."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">ofstream out(\"test.txt\");\nout &lt;&lt; \"Line 1\" &lt;&lt; endl;\nout.close();\n\nofstream out2(\"test.txt\");\nout2 &lt;&lt; \"Line 2\" &lt;&lt; endl;\nout2.close();\n\nifstream in(\"test.txt\");\nstring line;\nwhile (getline(in, line)) cout &lt;&lt; line &lt;&lt; endl;\nin.close();</code></pre>",
+        "hint": "Default ofstream mode is ios::out which truncates the file.",
+        "answer": "<code>Line 2</code>",
+        "explanation": "Opening with default <code>ofstream</code> mode truncates the file. The second open erases \"Line 1\" and writes \"Line 2\". Only \"Line 2\" remains."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">ofstream out(\"test.txt\");\nout &lt;&lt; \"Line 1\" &lt;&lt; endl;\nout.close();\n\nofstream out2(\"test.txt\", ios::app);\nout2 &lt;&lt; \"Line 2\" &lt;&lt; endl;\nout2.close();\n\nifstream in(\"test.txt\");\nstring line;\nwhile (getline(in, line)) cout &lt;&lt; line &lt;&lt; endl;\nin.close();</code></pre>",
+        "hint": "ios::app means append -- do not truncate.",
+        "answer": "<code>Line 1</code><br><code>Line 2</code>",
+        "explanation": "The first write creates \"Line 1\". The second open uses <code>ios::app</code>, so \"Line 2\" is appended after \"Line 1\" instead of overwriting."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">ofstream out(\"nums.txt\");\nout &lt;&lt; \"10 20 30\" &lt;&lt; endl;\nout.close();\n\nifstream in(\"nums.txt\");\nint a, b, c;\nin &gt;&gt; a &gt;&gt; b &gt;&gt; c;\ncout &lt;&lt; a + b + c;\nin.close();</code></pre>",
+        "hint": ">> reads whitespace-separated values.",
+        "answer": "<code>60</code>",
+        "explanation": "The <code>&gt;&gt;</code> operator reads integers separated by whitespace. a=10, b=20, c=30. Sum = 60."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">ofstream out(\"test.txt\");\nout &lt;&lt; \"ABCDEFGHIJ\";\nout.close();\n\nifstream in(\"test.txt\");\nin.seekg(5);\nchar ch;\nin.get(ch);\ncout &lt;&lt; ch &lt;&lt; \" \" &lt;&lt; in.tellg();</code></pre>",
+        "hint": "seekg(5) moves to the 6th byte (0-indexed).",
+        "answer": "<code>F 6</code>",
+        "explanation": "<code>seekg(5)</code> moves the read position to byte 5 (0-indexed), which is 'F'. After reading one character, <code>tellg()</code> returns 6."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">ifstream file(\"nonexistent.txt\");\ncout &lt;&lt; file.is_open() &lt;&lt; \" \";\ncout &lt;&lt; file.good() &lt;&lt; \" \";\ncout &lt;&lt; file.fail();</code></pre>",
+        "hint": "The file does not exist.",
+        "answer": "<code>0 0 1</code>",
+        "explanation": "Opening a nonexistent file fails. <code>is_open()</code> returns false (0). <code>good()</code> returns false (0) because the stream is in a failed state. <code>fail()</code> returns true (1)."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">ofstream out(\"data.txt\");\nout &lt;&lt; \"Arjun Kumar 85\";\nout.close();\n\nifstream in(\"data.txt\");\nstring word;\nint count = 0;\nwhile (in &gt;&gt; word) count++;\ncout &lt;&lt; count;</code></pre>",
+        "hint": ">> reads whitespace-separated tokens.",
+        "answer": "<code>3</code>",
+        "explanation": "The <code>&gt;&gt;</code> operator reads whitespace-separated tokens: \"Arjun\", \"Kumar\", \"85\". Three tokens are read."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">ofstream out(\"data.txt\");\nout &lt;&lt; \"Arjun Kumar 85\";\nout.close();\n\nifstream in(\"data.txt\");\nstring line;\nint count = 0;\nwhile (getline(in, line)) count++;\ncout &lt;&lt; count;</code></pre>",
+        "hint": "getline reads the entire line including spaces.",
+        "answer": "<code>1</code>",
+        "explanation": "<code>getline</code> reads the entire line \"Arjun Kumar 85\" as a single string. There is one line, so count = 1."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">struct Data { int x; int y; };\n\nData d1 = {10, 20};\nofstream out(\"data.bin\", ios::binary);\nout.write(reinterpret_cast&lt;char*&gt;(&amp;d1), sizeof(Data));\nout.close();\n\nifstream in(\"data.bin\", ios::binary);\nData d2;\nin.read(reinterpret_cast&lt;char*&gt;(&amp;d2), sizeof(Data));\ncout &lt;&lt; d2.x &lt;&lt; \" \" &lt;&lt; d2.y;</code></pre>",
+        "hint": "Binary write stores the exact bytes of the struct.",
+        "answer": "<code>10 20</code>",
+        "explanation": "Binary <code>write</code> stores the raw bytes of the struct. Binary <code>read</code> loads those exact bytes back into a struct of the same type. The values are preserved exactly."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">ofstream out(\"test.txt\");\nout &lt;&lt; \"Hello World\";\nout.close();\n\nifstream in(\"test.txt\", ios::binary);\nin.seekg(0, ios::end);\ncout &lt;&lt; in.tellg();</code></pre>",
+        "hint": "seekg(0, ios::end) moves to the end of the file. tellg() returns the position.",
+        "answer": "<code>11</code>",
+        "explanation": "\"Hello World\" is 11 characters. Seeking to the end and calling <code>tellg()</code> returns the file size in bytes: 11."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between ios::app and ios::ate?",
+        "hint": "Both position at the end, but they differ in what happens during writes.",
+        "answer": "<code>ios::app</code> (append) always writes to the end of the file, regardless of any seekp calls. Every write operation is guaranteed to append. <code>ios::ate</code> (at end) positions the cursor at the end when the file is opened, but you can seekp to any position and write there. <code>ios::app</code> is safer for log files where you always want to append.",
+        "explanation": "With <code>ios::app</code>, even if you call seekp(0), the next write still goes to the end. With <code>ios::ate</code>, seekp is honored. Use <code>ios::app</code> for logs and append-only files."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why should you never use while(!file.eof()) as a loop condition?",
+        "hint": "Think about when the eof flag is actually set.",
+        "answer": "The <code>eof()</code> flag is set only <strong>after</strong> a read operation fails, not when the last successful read reaches the end of data. Using <code>while(!eof())</code> causes the loop to execute one extra time after the last valid read: the read fails, the old data is processed again, and then eof is detected. The correct pattern is <code>while(getline(file, line))</code> or <code>while(file >> var)</code>, where the read result is the condition.",
+        "explanation": "This is one of the most common C++ file handling bugs. The stream operator returns the stream reference, which converts to false when the read fails, making it the ideal loop condition."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">ofstream file(\"greet.txt\");\nfile &lt;&lt; \"Hello \";\nfile &lt;&lt; \"World\";\nfile.close();\n\nifstream in(\"greet.txt\");\nstring content;\ngetline(in, content);\ncout &lt;&lt; content.length();</code></pre>",
+        "hint": "There is no endl between Hello and World.",
+        "answer": "<code>11</code>",
+        "explanation": "\"Hello \" (6 chars) + \"World\" (5 chars) = \"Hello World\" (11 chars). Since there is no endl, everything is on one line."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What happens when you run this code?<br><pre><code class=\"language-cpp\">ofstream file;\nfile &lt;&lt; \"Hello\";\nfile.close();</code></pre>",
+        "hint": "The file was never opened.",
+        "answer": "Nothing is written anywhere. The stream is in a failed state because no file was opened. The <code>&lt;&lt;</code> operation silently fails.",
+        "explanation": "Without calling <code>open()</code> or using the constructor with a filename, the ofstream has no associated file. All write operations fail silently. Always open a file before writing."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">ofstream out(\"test.txt\");\nfor (int i = 1; i &lt;= 5; i++)\n    out &lt;&lt; i &lt;&lt; \" \";\nout.close();\n\nifstream in(\"test.txt\");\nint sum = 0, num;\nwhile (in &gt;&gt; num) sum += num;\ncout &lt;&lt; sum;</code></pre>",
+        "hint": "The file contains \"1 2 3 4 5 \".",
+        "answer": "<code>15</code>",
+        "explanation": "The file contains \"1 2 3 4 5 \". The loop reads five integers (1+2+3+4+5 = 15). The trailing space does not cause issues because <code>&gt;&gt;</code> skips whitespace."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">ofstream out(\"test.txt\");\nout &lt;&lt; \"Name: Arjun\" &lt;&lt; endl;\nout &lt;&lt; \"Age: 20\" &lt;&lt; endl;\nout.close();\n\nifstream in(\"test.txt\");\nstring line;\nint lineCount = 0;\nwhile (getline(in, line)) {\n    if (line.find(\"Age\") != string::npos)\n        cout &lt;&lt; line;\n    lineCount++;\n}\ncout &lt;&lt; \" (\" &lt;&lt; lineCount &lt;&lt; \" lines)\";</code></pre>",
+        "hint": "find() returns string::npos if the substring is not found.",
+        "answer": "<code>Age: 20 (2 lines)</code>",
+        "explanation": "The loop reads 2 lines. The first line (\"Name: Arjun\") does not contain \"Age\". The second line (\"Age: 20\") does, so it is printed. Total lines = 2."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">struct Point { int x; int y; };\nPoint p1 = {3, 7};\n\nofstream out(\"point.bin\", ios::binary);\nout.write(reinterpret_cast&lt;char*&gt;(&amp;p1), sizeof(Point));\nout.close();\n\nifstream in(\"point.bin\", ios::binary);\nin.seekg(0, ios::end);\ncout &lt;&lt; in.tellg();</code></pre>",
+        "hint": "sizeof(Point) is typically sizeof(int) + sizeof(int).",
+        "answer": "<code>8</code>",
+        "explanation": "A Point struct has two ints, each typically 4 bytes, so sizeof(Point) = 8. The binary file contains exactly 8 bytes."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-cpp\">ofstream out(\"seq.txt\");\nfor (int i = 0; i &lt; 3; i++)\n    out &lt;&lt; i &lt;&lt; endl;\nout.close();\n\nifstream in(\"seq.txt\");\nint val;\nwhile (!in.eof()) {\n    in &gt;&gt; val;\n    cout &lt;&lt; val &lt;&lt; \" \";\n}</code></pre>",
+        "hint": "This uses the problematic while(!eof()) pattern.",
+        "answer": "<code>0 1 2 2</code>",
+        "explanation": "The file contains \"0\\n1\\n2\\n\". The loop reads 0, 1, 2 successfully. After reading 2, eof is not yet set (the newline has been consumed but eof is not triggered until the next read attempt). The next <code>in &gt;&gt; val</code> fails and sets eof, but val still holds 2 from the previous read, so 2 is printed again. This is exactly why <code>while(!eof())</code> is wrong."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between ifstream, ofstream, and fstream?",
+        "hint": "Think about read-only, write-only, and read-write.",
+        "answer": "<code>ifstream</code> opens files for reading only (input). <code>ofstream</code> opens files for writing only (output, truncates by default). <code>fstream</code> can do both reading and writing, but you must specify the mode explicitly (e.g., <code>ios::in | ios::out</code>). Use the most restrictive type that meets your needs.",
+        "explanation": "Using ifstream when you only need to read prevents accidental writes. Using ofstream when you only need to write is simpler than fstream. Use fstream only when you need both read and write access in the same stream."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is reinterpret_cast<char*> used for in binary file I/O?",
+        "hint": "write() and read() expect a char* pointer.",
+        "answer": "<code>write()</code> and <code>read()</code> take a <code>char*</code> (pointer to bytes) and a byte count. <code>reinterpret_cast&lt;char*&gt;</code> converts a pointer to any type (struct, int, etc.) into a <code>char*</code>, telling the compiler to treat the memory as raw bytes. This allows writing the raw memory representation of any object to a file.",
+        "explanation": "Binary I/O operates at the byte level. <code>reinterpret_cast</code> is necessary because <code>write</code> and <code>read</code> do not know about your struct's fields -- they just copy sizeof(T) bytes to/from the file."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is random access possible in binary files with fixed-size records but not in text files with variable-length lines?",
+        "hint": "Think about how you calculate the byte position of record N.",
+        "answer": "In binary files with fixed-size records (e.g., all records are sizeof(Student) = 64 bytes), the byte offset of record N is exactly <code>N * sizeof(Student)</code>. You can seekg to that position in O(1). In text files, each line can have a different length (\"Arjun\" is 5 chars, \"Raghunath\" is 9 chars), so you cannot compute the byte offset of line N without reading all preceding lines. Text files require sequential access.",
+        "explanation": "This is why databases and binary formats use fixed-size records or index structures. Random access requires knowing the exact byte position, which is only trivial with fixed-size records."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which header provides ifstream, ofstream, and fstream?",
+        "options": {
+          "A": "<iostream>",
+          "B": "<fstream>",
+          "C": "<sstream>",
+          "D": "<fileio>"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>&lt;fstream&gt;</code> header provides all file stream classes: ifstream, ofstream, and fstream."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the default mode for ofstream?",
+        "options": {
+          "A": "ios::in",
+          "B": "ios::out (truncate the file)",
+          "C": "ios::app",
+          "D": "ios::binary"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> ofstream defaults to <code>ios::out</code>, which truncates the file if it exists. Use <code>ios::app</code> to append instead."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which function reads an entire line including spaces from a file?",
+        "options": {
+          "A": "file >> line",
+          "B": "file.read()",
+          "C": "getline(file, line)",
+          "D": "file.get()"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>getline(file, line)</code> reads until the newline, including spaces. The <code>&gt;&gt;</code> operator stops at whitespace."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does file.is_open() return if the file was not found?",
+        "options": {
+          "A": "true",
+          "B": "false",
+          "C": "-1",
+          "D": "Throws an exception"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>is_open()</code> returns false if the file could not be opened for any reason (not found, permission denied, etc.)."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does ios::app mode do?",
+        "options": {
+          "A": "Opens the file in binary mode",
+          "B": "Truncates the file before writing",
+          "C": "Appends all writes to the end of the file",
+          "D": "Opens for reading only"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>ios::app</code> ensures every write goes to the end of the file, preserving existing content."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does seekg(0, ios::end) followed by tellg() give you?",
+        "options": {
+          "A": "The first character of the file",
+          "B": "The last character of the file",
+          "C": "The file size in bytes",
+          "D": "The number of lines in the file"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Seeking to the end and calling <code>tellg()</code> returns the byte position at the end, which equals the file size."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does reinterpret_cast<char*>(&obj) do?",
+        "options": {
+          "A": "Converts the object to a string",
+          "B": "Converts the object's memory address to a char pointer for byte-level access",
+          "C": "Creates a copy of the object",
+          "D": "Serializes the object to JSON"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>reinterpret_cast&lt;char*&gt;</code> tells the compiler to treat the memory at that address as raw bytes (char*). This is required for <code>write()</code> and <code>read()</code> which operate on byte buffers."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the correct way to read integers from a file until end?",
+        "options": {
+          "A": "while (!file.eof()) { file >> num; process(num); }",
+          "B": "while (file >> num) { process(num); }",
+          "C": "while (file.good()) { file >> num; process(num); }",
+          "D": "while (true) { file >> num; if (file.eof()) break; process(num); }"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>file &gt;&gt; num</code> returns the stream, which converts to false when the read fails. This is the idiomatic and correct pattern. Options A and C process the last value twice."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the difference between seekg and seekp?",
+        "options": {
+          "A": "seekg is for text files, seekp is for binary files",
+          "B": "seekg sets the read position, seekp sets the write position",
+          "C": "seekg is absolute, seekp is relative",
+          "D": "They are identical"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>seekg</code> (seek get) positions the read pointer. <code>seekp</code> (seek put) positions the write pointer. In an fstream, both may be needed."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "Why must you use ios::binary when using write() and read() for struct I/O?",
+        "options": {
+          "A": "Binary mode is faster",
+          "B": "Text mode may translate certain bytes (like newline), corrupting the data",
+          "C": "write() and read() only work in binary mode",
+          "D": "Binary mode compresses the data"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In text mode, the runtime may translate \\n to \\r\\n (Windows) or vice versa. If the struct's raw bytes happen to contain 0x0A (\\n byte), this translation corrupts the data. Binary mode performs no translation."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "How do you calculate the byte position of the Nth record in a binary file with fixed-size records?",
+        "options": {
+          "A": "N * sizeof(Record) + 1",
+          "B": "N * sizeof(Record)",
+          "C": "You cannot calculate it; you must read sequentially",
+          "D": "(N + 1) * sizeof(Record)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> With 0-based indexing, record N starts at byte position <code>N * sizeof(Record)</code>. Use seekg with this value for O(1) random access."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What happens if you open a file with ofstream (default mode) that already contains data?",
+        "options": {
+          "A": "New data is appended after existing data",
+          "B": "The file is truncated (existing data is erased) before writing",
+          "C": "An error occurs",
+          "D": "New data overwrites starting at position 0 but does not truncate"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The default mode for ofstream is <code>ios::out</code>, which implies <code>ios::trunc</code>. The file is truncated to zero length before any new data is written."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "How do you combine file modes in C++?",
+        "options": {
+          "A": "ios::in + ios::out",
+          "B": "ios::in & ios::out",
+          "C": "ios::in | ios::out",
+          "D": "ios::in, ios::out"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> File modes are combined using the bitwise OR operator (<code>|</code>). Example: <code>ios::in | ios::out | ios::binary</code>."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Easy",
+        "question": "What does file.close() do?",
+        "options": {
+          "A": "Deletes the file",
+          "B": "Flushes the buffer and releases the file handle",
+          "C": "Resets the read position to the beginning",
+          "D": "Marks the file as read-only"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>close()</code> flushes any buffered data to disk and releases the OS file handle. The file remains on disk."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Word Frequency Counter from File",
+        "difficulty": "Easy",
+        "description": "Read a text file word by word and count the frequency of each word. Print the words and their counts in alphabetical order. Use a map to store counts.",
+        "sampleInput": "File content: \"the cat sat on the mat the cat\"",
+        "sampleOutput": "cat: 2\nmat: 1\non: 1\nsat: 1\nthe: 3",
+        "constraints": "Use ifstream with >> to read words. Use map<string, int> for counting.",
+        "solution": "#include <iostream>\n#include <fstream>\n#include <map>\n#include <string>\nusing namespace std;\n\nint main() {\n    ofstream out(\"text.txt\");\n    out << \"the cat sat on the mat the cat\";\n    out.close();\n\n    ifstream in(\"text.txt\");\n    map<string, int> freq;\n    string word;\n    while (in >> word) freq[word]++;\n    in.close();\n\n    for (auto& [w, c] : freq)\n        cout << w << \": \" << c << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Student Marks CSV Parser and Topper Finder",
+        "difficulty": "Medium",
+        "description": "Write a CSV file with student name, maths, physics, chemistry marks. Read the CSV, calculate total marks for each student, and find the topper. Use stringstream to parse comma-separated values.",
+        "sampleInput": "Arjun,85,90,78\nPriya,92,88,95\nKiran,78,82,80",
+        "sampleOutput": "Arjun: Total=253\nPriya: Total=275\nKiran: Total=240\nTopper: Priya (275)",
+        "constraints": "Use getline for reading lines, stringstream for parsing. Do not hardcode the number of students.",
+        "solution": "#include <iostream>\n#include <fstream>\n#include <sstream>\n#include <string>\nusing namespace std;\n\nint main() {\n    ofstream out(\"marks.csv\");\n    out << \"Arjun,85,90,78\" << endl;\n    out << \"Priya,92,88,95\" << endl;\n    out << \"Kiran,78,82,80\" << endl;\n    out.close();\n\n    ifstream in(\"marks.csv\");\n    string line, topperName;\n    int topperTotal = 0;\n\n    while (getline(in, line)) {\n        stringstream ss(line);\n        string name, token;\n        getline(ss, name, ',');\n        int total = 0;\n        while (getline(ss, token, ','))\n            total += stoi(token);\n        cout << name << \": Total=\" << total << endl;\n        if (total > topperTotal) {\n            topperTotal = total;\n            topperName = name;\n        }\n    }\n    cout << \"Topper: \" << topperName << \" (\" << topperTotal << \")\" << endl;\n    in.close();\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Binary Student Database with Search and Update",
+        "difficulty": "Hard",
+        "description": "Implement a student database using binary file I/O. Support: (1) Add student record, (2) Display all records, (3) Search by roll number, (4) Update marks by roll number. Use seekg/seekp for in-place updates.",
+        "sampleInput": "Add {101, Arjun, 85}, {102, Priya, 78}. Update roll 102 marks to 95. Display all.",
+        "sampleOutput": "101: Arjun, Marks: 85\n102: Priya, Marks: 95",
+        "constraints": "Use fixed-size struct with char array for name (not string). Use seekg/seekp for O(1) updates.",
+        "solution": "#include <iostream>\n#include <fstream>\n#include <cstring>\nusing namespace std;\n\nstruct Student {\n    int rollNo;\n    char name[30];\n    double marks;\n};\n\nvoid addStudent(const string& fname, int roll, const char* name, double marks) {\n    Student s;\n    s.rollNo = roll;\n    strcpy(s.name, name);\n    s.marks = marks;\n    ofstream file(fname, ios::binary | ios::app);\n    file.write(reinterpret_cast<char*>(&s), sizeof(Student));\n    file.close();\n}\n\nvoid updateMarks(const string& fname, int roll, double newMarks) {\n    fstream file(fname, ios::in | ios::out | ios::binary);\n    Student s;\n    while (file.read(reinterpret_cast<char*>(&s), sizeof(Student))) {\n        if (s.rollNo == roll) {\n            s.marks = newMarks;\n            file.seekp(-static_cast<int>(sizeof(Student)), ios::cur);\n            file.write(reinterpret_cast<char*>(&s), sizeof(Student));\n            break;\n        }\n    }\n    file.close();\n}\n\nvoid displayAll(const string& fname) {\n    ifstream file(fname, ios::binary);\n    Student s;\n    while (file.read(reinterpret_cast<char*>(&s), sizeof(Student)))\n        cout << s.rollNo << \": \" << s.name << \", Marks: \" << s.marks << endl;\n    file.close();\n}\n\nint main() {\n    string fname = \"students.dat\";\n    ofstream clear(fname, ios::trunc); clear.close();\n\n    addStudent(fname, 101, \"Arjun\", 85);\n    addStudent(fname, 102, \"Priya\", 78);\n    updateMarks(fname, 102, 95);\n    displayAll(fname);\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Config File Parser with Default Values",
+        "difficulty": "Medium",
+        "description": "Write a config file parser that reads key=value pairs, skips comment lines (starting with #) and empty lines. Provide a get method that returns a default value if the key is not found.",
+        "sampleInput": "# Config file\nhost=localhost\nport=3306\ndebug=true",
+        "sampleOutput": "host = localhost\nport = 3306\ndebug = true\ntimeout = 30 (default)",
+        "constraints": "Use map<string, string> for storage. Support # comments and empty lines. Provide a get(key, default) method.",
+        "solution": "#include <iostream>\n#include <fstream>\n#include <sstream>\n#include <string>\n#include <map>\nusing namespace std;\n\nclass Config {\n    map<string, string> data;\npublic:\n    void load(const string& filename) {\n        ifstream file(filename);\n        string line;\n        while (getline(file, line)) {\n            if (line.empty() || line[0] == '#') continue;\n            size_t pos = line.find('=');\n            if (pos != string::npos)\n                data[line.substr(0, pos)] = line.substr(pos + 1);\n        }\n        file.close();\n    }\n    string get(const string& key, const string& defaultVal = \"\") {\n        auto it = data.find(key);\n        return it != data.end() ? it->second : defaultVal;\n    }\n    void display() {\n        for (auto& [k, v] : data) cout << k << \" = \" << v << endl;\n    }\n};\n\nint main() {\n    ofstream out(\"app.conf\");\n    out << \"# Config file\" << endl;\n    out << \"host=localhost\" << endl;\n    out << \"port=3306\" << endl;\n    out << \"debug=true\" << endl;\n    out.close();\n\n    Config config;\n    config.load(\"app.conf\");\n    config.display();\n    cout << \"timeout = \" << config.get(\"timeout\", \"30\") << \" (default)\" << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "File-based Leaderboard System",
+        "difficulty": "Hard",
+        "description": "Create a leaderboard system that stores player names and scores in a text file. Support adding new scores, reading all scores, sorting by score (descending), and displaying the top N players. The file persists between program runs.",
+        "sampleInput": "Add: Arjun 850, Priya 920, Kiran 780, Neha 920. Display top 3.",
+        "sampleOutput": "=== Top 3 ===\n1. Neha: 920\n2. Priya: 920\n3. Arjun: 850",
+        "constraints": "Read from file, sort in memory, display. Handle the case where the file does not exist.",
+        "solution": "#include <iostream>\n#include <fstream>\n#include <vector>\n#include <algorithm>\n#include <string>\nusing namespace std;\n\nstruct Player {\n    string name;\n    int score;\n};\n\nvoid addScore(const string& fname, const string& name, int score) {\n    ofstream file(fname, ios::app);\n    file << name << \" \" << score << endl;\n    file.close();\n}\n\nvector<Player> loadScores(const string& fname) {\n    vector<Player> players;\n    ifstream file(fname);\n    string name;\n    int score;\n    while (file >> name >> score)\n        players.push_back({name, score});\n    file.close();\n    return players;\n}\n\nvoid showTop(const string& fname, int n) {\n    auto players = loadScores(fname);\n    sort(players.begin(), players.end(),\n        [](const Player& a, const Player& b) { return a.score > b.score; });\n    cout << \"=== Top \" << n << \" ===\" << endl;\n    for (int i = 0; i < min(n, (int)players.size()); i++)\n        cout << i + 1 << \". \" << players[i].name << \": \" << players[i].score << endl;\n}\n\nint main() {\n    string fname = \"leaderboard.txt\";\n    ofstream clear(fname, ios::trunc); clear.close();\n\n    addScore(fname, \"Arjun\", 850);\n    addScore(fname, \"Priya\", 920);\n    addScore(fname, \"Kiran\", 780);\n    addScore(fname, \"Neha\", 920);\n    showTop(fname, 3);\n    return 0;\n}"
+      }
+    ]
+  }
+}

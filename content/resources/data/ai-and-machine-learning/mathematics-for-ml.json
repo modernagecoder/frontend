@@ -1,0 +1,583 @@
+{
+  "title": "Mathematics for Machine Learning",
+  "slug": "mathematics-for-ml",
+  "language": "python",
+  "chapter": 3,
+  "difficulty": "Beginner",
+  "readingTime": "30 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "Mathematics for Machine Learning - Linear Algebra, Calculus, Probability, Statistics | Modern Age Coders",
+    "description": "Learn the essential mathematics for Machine Learning: linear algebra (vectors, matrices, dot product), calculus (derivatives, gradient descent), probability (Bayes theorem, distributions), and statistics (mean, variance, correlation). All with Python/NumPy code and 58 practice questions.",
+    "keywords": "math for machine learning, linear algebra for ml, calculus for machine learning, probability for ml, statistics for ml, gradient descent math, vectors and matrices ml, bayes theorem machine learning, numpy linear algebra, math behind ml"
+  },
+  "content": {
+    "what": "<h2>What Mathematics Do You Need for Machine Learning?</h2><p>Machine Learning is applied mathematics. Every ML algorithm, from simple linear regression to complex neural networks, is built on mathematical foundations. The good news: you do not need a math PhD. You need to understand four areas at a practical level, and this chapter covers exactly what you need -- nothing more, nothing less.</p><p>The four pillars of ML mathematics are:</p><ul><li><strong>Linear Algebra:</strong> Vectors, matrices, dot products, matrix multiplication. This is the language of data -- every dataset is a matrix, every data point is a vector.</li><li><strong>Calculus:</strong> Derivatives, partial derivatives, chain rule, gradient. This is how models learn -- gradient descent uses calculus to find the best parameters.</li><li><strong>Probability:</strong> Basic probability, conditional probability, Bayes theorem, distributions. This is how models handle uncertainty and make predictions.</li><li><strong>Statistics:</strong> Mean, variance, standard deviation, correlation. This is how you understand and describe your data.</li></ul><p>Every concept in this chapter comes with Python/NumPy code. Mathematics in ML is not about writing proofs on paper -- it is about implementing computations in code.</p>",
+    "why": "<h2>Why is Mathematics Essential for ML?</h2><h3>1. Understanding What Your Model is Actually Doing</h3><p>When you call <code>model.fit(X, y)</code> in scikit-learn, it is performing matrix operations, computing gradients, and optimizing a loss function. Without understanding the math, you are just a button-pusher who cannot debug, improve, or explain your model.</p><h3>2. Debugging and Improving Models</h3><p>When your model performs poorly, mathematical understanding helps you diagnose the problem. Is the loss function not converging? The learning rate might be wrong (calculus). Are features on different scales? You need normalization (statistics). Are two features measuring the same thing? Check correlation (statistics).</p><h3>3. Reading Research Papers and Documentation</h3><p>ML research papers, algorithm documentation, and technical blog posts are written in mathematical notation. Without basic math literacy, you cannot read the original Transformer paper, understand the theory behind a new algorithm, or follow advanced tutorials.</p><h3>4. Interviews and Career Growth</h3><p>ML interviews at top companies (Google, Amazon, Microsoft, startups) test mathematical understanding. Questions like \"Derive the gradient for logistic regression\" or \"Explain why we use cross-entropy loss\" require math knowledge.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>Part 1: Linear Algebra</h3><h4>Vectors</h4><p>A <strong>vector</strong> is an ordered list of numbers. In ML, a vector represents a single data point. For example, a student with marks [85, 90, 78] is a 3-dimensional vector. A house with features [area=1200, bedrooms=3, age=10] is also a 3D vector. The number of elements is the <strong>dimension</strong> of the vector.</p><p>Vectors support addition (element-wise), scalar multiplication (multiply every element), and the dot product (multiply corresponding elements and sum).</p><h4>Dot Product</h4><p>The <strong>dot product</strong> of two vectors a and b is: a . b = a1*b1 + a2*b2 + ... + an*bn. It produces a single number (scalar). The dot product measures the <strong>similarity</strong> between two vectors. If two vectors point in the same direction, their dot product is large and positive. If perpendicular, it is zero. If opposite, it is negative.</p><p>In ML, the dot product is everywhere: linear regression computes y = w . x + b (dot product of weights and features), neural networks compute layer outputs as dot products, and cosine similarity uses the dot product to measure text similarity.</p><h4>Matrices</h4><p>A <strong>matrix</strong> is a 2D grid of numbers with rows and columns. In ML, your entire dataset is a matrix: rows are samples, columns are features. A dataset of 1000 students with 5 features is a 1000 x 5 matrix.</p><h4>Matrix Multiplication</h4><p>Matrix multiplication is NOT element-wise. For matrices A (m x n) and B (n x p), the result C = A @ B has shape (m x p). Each element C[i][j] is the dot product of row i of A and column j of B. The inner dimensions must match: if A is 3x4 and B is 4x2, the result is 3x2.</p><h4>Transpose and Inverse</h4><p>The <strong>transpose</strong> (A^T) swaps rows and columns. A 3x2 matrix becomes 2x3. The <strong>inverse</strong> (A^(-1)) is the matrix such that A @ A^(-1) = I (identity matrix). Not all matrices have inverses. The inverse is used in the normal equation for linear regression: w = (X^T @ X)^(-1) @ X^T @ y.</p><h4>Eigenvalues and Eigenvectors</h4><p>For a square matrix A, an eigenvector v is a vector that, when multiplied by A, only changes in scale (not direction): A @ v = lambda * v, where lambda is the eigenvalue. Eigenvectors reveal the principal directions of data variation. PCA (Principal Component Analysis) uses eigenvectors to reduce dimensionality.</p><h3>Part 2: Calculus</h3><h4>Derivatives - The Core Intuition</h4><p>A <strong>derivative</strong> measures how fast a function's output changes when its input changes. If f(x) = x^2, the derivative f'(x) = 2x tells you that at x=3, the function is increasing at a rate of 6 units per unit of x. Geometrically, the derivative is the slope of the tangent line at a point.</p><p>In ML, the derivative tells us how the loss (error) changes when we adjust a model parameter. If increasing a weight increases the loss (positive derivative), we should decrease that weight. If increasing the weight decreases the loss (negative derivative), we should increase it.</p><h4>Partial Derivatives</h4><p>When a function has multiple inputs (like f(w1, w2) = w1^2 + 3*w1*w2), a <strong>partial derivative</strong> measures the rate of change with respect to one variable while holding the others constant. The partial derivative of f with respect to w1 is 2*w1 + 3*w2 (treating w2 as a constant).</p><h4>The Gradient</h4><p>The <strong>gradient</strong> is a vector of all partial derivatives. For f(w1, w2), the gradient is [df/dw1, df/dw2]. The gradient points in the <strong>direction of steepest increase</strong>. To minimize a function (like a loss function), we move in the <strong>opposite direction of the gradient</strong> -- this is gradient descent.</p><h4>Gradient Descent</h4><p>Gradient descent is the optimization algorithm that trains ML models. The update rule is: <strong>w_new = w_old - learning_rate * gradient</strong>. The learning rate controls how big each step is. Too large: overshoot and diverge. Too small: takes too many steps. This simple rule is how linear regression, logistic regression, and neural networks find their optimal parameters.</p><h4>Chain Rule</h4><p>The <strong>chain rule</strong> says that if y = f(g(x)), then dy/dx = f'(g(x)) * g'(x). In neural networks, the chain rule is used in <strong>backpropagation</strong> to compute how each weight affects the final loss through a chain of layers.</p><h3>Part 3: Probability</h3><h4>Basic Probability</h4><p>The probability of an event A is P(A) = (favorable outcomes) / (total outcomes). P(A) is always between 0 (impossible) and 1 (certain). The probability of NOT A is P(not A) = 1 - P(A).</p><h4>Conditional Probability</h4><p>P(A|B) is the probability of A <strong>given that B has occurred</strong>. For example, P(spam | contains 'lottery') is the probability that an email is spam given that it contains the word 'lottery'. This is different from P(spam), the overall probability of an email being spam.</p><h4>Bayes Theorem</h4><p>Bayes theorem relates conditional probabilities: <strong>P(A|B) = P(B|A) * P(A) / P(B)</strong>. This is the foundation of Naive Bayes classifiers and many probabilistic ML models. Example: If P(contains 'lottery' | spam) = 0.8, P(spam) = 0.3, and P(contains 'lottery') = 0.25, then P(spam | contains 'lottery') = 0.8 * 0.3 / 0.25 = 0.96.</p><h4>Probability Distributions</h4><p>A <strong>normal (Gaussian) distribution</strong> is the bell curve, described by mean (center) and standard deviation (spread). Many natural phenomena follow it. The <strong>uniform distribution</strong> gives equal probability to all values in a range. The <strong>Bernoulli distribution</strong> models binary outcomes (success/failure with probability p).</p><h3>Part 4: Statistics</h3><h4>Measures of Central Tendency</h4><p><strong>Mean</strong> (average) = sum / count. Sensitive to outliers. <strong>Median</strong> = middle value when sorted. Robust to outliers. <strong>Mode</strong> = most frequent value. When mean and median are very different, it indicates skewed data or outliers.</p><h4>Measures of Spread</h4><p><strong>Variance</strong> = average of squared deviations from the mean. <strong>Standard deviation</strong> = square root of variance, in the same units as the data. High variance means data is spread out; low variance means data is clustered around the mean.</p><h4>Correlation</h4><p>Correlation measures the linear relationship between two variables, ranging from -1 to +1. +1 = perfect positive correlation (as X increases, Y increases). -1 = perfect negative correlation. 0 = no linear relationship. In ML, checking correlations helps identify redundant features and understand relationships.</p><h4>Covariance</h4><p>Covariance measures how two variables change together. Positive covariance = they tend to increase together. Negative = when one increases, the other decreases. Covariance is unbounded (unlike correlation), making it harder to interpret. Correlation is the normalized version of covariance.</p>",
+    "codeExamples": [
+      {
+        "title": "Vectors: Creation, Operations, and Dot Product",
+        "code": "import numpy as np\n\n# Vectors as NumPy arrays\nstudent_marks = np.array([85, 90, 78])  # A 3D vector\nweights = np.array([0.4, 0.35, 0.25])  # Weight for each subject\n\n# Vector operations\nprint(\"Marks:\", student_marks)\nprint(\"Doubled:\", student_marks * 2)       # Scalar multiplication\nprint(\"Plus 5:\", student_marks + 5)         # Broadcasting\n\n# Dot product: weighted average\nweighted_avg = np.dot(student_marks, weights)\nprint(f\"\\nWeighted average: {weighted_avg:.2f}\")\nprint(f\"Calculation: 85*0.4 + 90*0.35 + 78*0.25 = {85*0.4 + 90*0.35 + 78*0.25}\")\n\n# Vector magnitude (length)\nmagnitude = np.linalg.norm(student_marks)\nprint(f\"\\nMagnitude of marks vector: {magnitude:.2f}\")\n\n# Cosine similarity between two students\nstudent_a = np.array([85, 90, 78])\nstudent_b = np.array([82, 88, 80])\ncosine_sim = np.dot(student_a, student_b) / (np.linalg.norm(student_a) * np.linalg.norm(student_b))\nprint(f\"Cosine similarity between students: {cosine_sim:.4f}\")",
+        "language": "python",
+        "explanation": "Vectors are the fundamental data structure in ML. The dot product of marks and weights gives a weighted average -- this is exactly what linear regression does: <code>prediction = dot(features, weights) + bias</code>. Cosine similarity (dot product divided by product of magnitudes) measures how similar two vectors are, ranging from -1 to 1. It is used in recommendation systems and NLP for document similarity.",
+        "output": "Marks: [85 90 78]\nDoubled: [170 180 156]\nPlus 5: [90 95 83]\n\nWeighted average: 85.00\nCalculation: 85*0.4 + 90*0.35 + 78*0.25 = 85.0\n\nMagnitude of marks vector: 146.27\n\nCosine similarity between students: 0.9999"
+      },
+      {
+        "title": "Matrix Operations: Multiply, Transpose, Inverse",
+        "code": "import numpy as np\n\n# Dataset as a matrix: 3 students, 2 features each\nX = np.array([\n    [2, 50],    # Student 1: 2 hours study, 50% attendance\n    [5, 80],    # Student 2: 5 hours, 80%\n    [8, 95]     # Student 3: 8 hours, 95%\n])\nprint(\"Data matrix X (3 students x 2 features):\")\nprint(X)\nprint(f\"Shape: {X.shape}\")\n\n# Transpose: swap rows and columns\nprint(f\"\\nX transposed (2 features x 3 students):\")\nprint(X.T)\nprint(f\"Shape: {X.T.shape}\")\n\n# Matrix multiplication: X^T @ X (used in normal equation)\nXTX = X.T @ X\nprint(f\"\\nX^T @ X:\")\nprint(XTX)\n\n# Inverse of a square matrix\nA = np.array([[4, 7], [2, 6]])\nA_inv = np.linalg.inv(A)\nprint(f\"\\nMatrix A:\")\nprint(A)\nprint(f\"A inverse:\")\nprint(np.round(A_inv, 4))\n\n# Verify: A @ A_inv = Identity\nidentity = A @ A_inv\nprint(f\"\\nA @ A_inv (should be identity):\")\nprint(np.round(identity, 10))",
+        "language": "python",
+        "explanation": "The data matrix X has rows as samples and columns as features -- this is the standard ML convention. X^T @ X is a key computation in linear regression's normal equation. The inverse A^(-1) satisfies A @ A^(-1) = I (identity matrix). <code>np.linalg.inv()</code> computes the inverse. Not all matrices are invertible -- singular matrices have no inverse, which is why regularization is used in ML to prevent this.",
+        "output": "Data matrix X (3 students x 2 features):\n[[ 2 50]\n [ 5 80]\n [ 8 95]]\nShape: (3, 2)\n\nX transposed (2 features x 3 students):\n[[ 2  5  8]\n [50 80 95]]\nShape: (2, 3)\n\nX^T @ X:\n[[   93  1350]\n [ 1350 19725]]\n\nMatrix A:\n[[4 7]\n [2 6]]\nA inverse:\n[[ 0.6 -0.7]\n [-0.2  0.4]]\n\nA @ A_inv (should be identity):\n[[1. 0.]\n [0. 1.]]"
+      },
+      {
+        "title": "Eigenvalues and Eigenvectors (Used in PCA)",
+        "code": "import numpy as np\n\n# Covariance matrix (symmetric, positive semi-definite)\ncov_matrix = np.array([[4, 2], [2, 3]])\nprint(\"Covariance matrix:\")\nprint(cov_matrix)\n\n# Compute eigenvalues and eigenvectors\neigenvalues, eigenvectors = np.linalg.eig(cov_matrix)\nprint(f\"\\nEigenvalues: {eigenvalues.round(4)}\")\nprint(f\"Eigenvectors:\\n{eigenvectors.round(4)}\")\n\n# Verify: A @ v = lambda * v\nfor i in range(len(eigenvalues)):\n    v = eigenvectors[:, i]\n    lam = eigenvalues[i]\n    left = cov_matrix @ v\n    right = lam * v\n    print(f\"\\nEigenvector {i+1}: {v.round(4)}\")\n    print(f\"  A @ v     = {left.round(4)}\")\n    print(f\"  lambda * v = {right.round(4)}\")\n    print(f\"  Equal? {np.allclose(left, right)}\")\n\n# In PCA: eigenvector with largest eigenvalue = direction of most variance\nmax_idx = np.argmax(eigenvalues)\nprint(f\"\\nPrincipal component (direction of most variance): {eigenvectors[:, max_idx].round(4)}\")\nprint(f\"Variance explained: {eigenvalues[max_idx]:.4f} out of {eigenvalues.sum():.4f} ({eigenvalues[max_idx]/eigenvalues.sum()*100:.1f}%)\")",
+        "language": "python",
+        "explanation": "Eigenvalues and eigenvectors are the math behind PCA (Principal Component Analysis). The eigenvectors of the covariance matrix give the directions of maximum variance in the data. The eigenvalues tell how much variance is in each direction. PCA projects data onto the eigenvectors with the largest eigenvalues, reducing dimensions while keeping the most information.",
+        "output": "Covariance matrix:\n[[4 2]\n [2 3]]\n\nEigenvalues: [5.2361 1.7639]\nEigenvectors:\n[[ 0.8507 -0.5257]\n [ 0.5257  0.8507]]\n\nEigenvector 1: [0.8507 0.5257]\n  A @ v     = [4.4534 2.7524]\n  lambda * v = [4.4534 2.7524]\n  Equal? True\n\nEigenvector 2: [-0.5257  0.8507]\n  A @ v     = [-0.9271  1.5002]\n  lambda * v = [-0.9271  1.5002]\n  Equal? True\n\nPrincipal component (direction of most variance): [0.8507 0.5257]\nVariance explained: 5.2361 out of 7.0000 (74.8%)"
+      },
+      {
+        "title": "Derivatives and Gradient Descent Step by Step",
+        "code": "import numpy as np\n\n# Gradient descent to minimize f(x) = (x - 3)^2\n# Derivative: f'(x) = 2(x - 3)\n# Minimum is at x = 3 (where f'(x) = 0)\n\ndef f(x):\n    return (x - 3) ** 2\n\ndef gradient(x):\n    return 2 * (x - 3)\n\n# Start at x = 10, learning rate = 0.1\nx = 10.0\nlearning_rate = 0.1\n\nprint(f\"{'Step':<6}{'x':<12}{'f(x)':<12}{'gradient':<12}\")\nprint(\"-\" * 42)\n\nfor step in range(15):\n    fx = f(x)\n    grad = gradient(x)\n    print(f\"{step:<6}{x:<12.4f}{fx:<12.4f}{grad:<12.4f}\")\n    x = x - learning_rate * grad  # The gradient descent update!\n\nprint(f\"\\nFinal x: {x:.6f} (should be close to 3.0)\")\nprint(f\"Final f(x): {f(x):.8f} (should be close to 0.0)\")",
+        "language": "python",
+        "explanation": "This demonstrates gradient descent on a simple function f(x) = (x-3)^2, whose minimum is at x=3. Starting from x=10, we repeatedly: (1) compute the gradient (slope), (2) move x in the opposite direction by learning_rate * gradient. With learning rate 0.1, each step reduces x toward 3. After 15 steps, x is very close to 3. This is exactly how ML models train -- they start with random weights and iteratively adjust them using gradient descent to minimize the loss function.",
+        "output": "Step  x           f(x)        gradient    \n------------------------------------------\n0     10.0000     49.0000     14.0000     \n1     8.6000      31.3600     11.2000     \n2     7.4800      20.0704     8.9600      \n3     6.5840      12.8450     7.1680      \n4     5.8672      8.2208      5.7344      \n5     5.2938      5.2613      4.5875      \n6     4.8350      3.3672      3.6700      \n7     4.4680      2.1550      2.9360      \n8     4.1744      1.3792      2.3488      \n9     3.9395      0.8827      1.8791      \n10    3.7516      0.5649      1.5033      \n11    3.6013      0.3616      1.2026      \n12    3.4810      0.2314      0.9621      \n13    3.3848      0.1481      0.7697      \n14    3.3079      0.0948      0.6157      \n\nFinal x: 3.246290 (should be close to 3.0)\nFinal f(x): 0.06063891 (should be close to 0.0)"
+      },
+      {
+        "title": "Probability and Bayes Theorem in Action",
+        "code": "# Bayes Theorem: P(A|B) = P(B|A) * P(A) / P(B)\n\n# Scenario: Email spam detection\n# P(spam) = 0.30 (30% of emails are spam)\n# P(contains 'lottery' | spam) = 0.80 (80% of spam emails contain 'lottery')\n# P(contains 'lottery' | not spam) = 0.01 (1% of legit emails contain 'lottery')\n\np_spam = 0.30\np_not_spam = 1 - p_spam\np_lottery_given_spam = 0.80\np_lottery_given_not_spam = 0.01\n\n# P(contains 'lottery') using law of total probability\np_lottery = p_lottery_given_spam * p_spam + p_lottery_given_not_spam * p_not_spam\n\n# Bayes: P(spam | contains 'lottery')\np_spam_given_lottery = (p_lottery_given_spam * p_spam) / p_lottery\n\nprint(\"=== Bayes Theorem: Spam Detection ===\")\nprint(f\"P(spam) = {p_spam}\")\nprint(f\"P(lottery | spam) = {p_lottery_given_spam}\")\nprint(f\"P(lottery | not spam) = {p_lottery_given_not_spam}\")\nprint(f\"P(lottery) = {p_lottery:.4f}\")\nprint(f\"\\nP(spam | lottery) = {p_spam_given_lottery:.4f}\")\nprint(f\"\\nInterpretation: If an email contains 'lottery',\")\nprint(f\"there is a {p_spam_given_lottery*100:.1f}% chance it is spam.\")\nprint(f\"\\nWithout seeing 'lottery', spam probability was {p_spam*100}%.\")\nprint(f\"After seeing 'lottery', it jumped to {p_spam_given_lottery*100:.1f}%.\")\nprint(f\"This is how Naive Bayes classifiers work!\")",
+        "language": "python",
+        "explanation": "Bayes theorem updates our belief about an event based on new evidence. Before seeing the word 'lottery', we think there is a 30% chance the email is spam. After seeing 'lottery', the probability jumps to 97.2% because 80% of spam contains 'lottery' while only 1% of legitimate email does. This is exactly how the Naive Bayes classifier works -- it uses Bayes theorem to update probabilities based on observed features.",
+        "output": "=== Bayes Theorem: Spam Detection ===\nP(spam) = 0.3\nP(lottery | spam) = 0.8\nP(lottery | not spam) = 0.01\nP(lottery) = 0.2470\n\nP(spam | lottery) = 0.9717\n\nInterpretation: If an email contains 'lottery',\nthere is a 97.2% chance it is spam.\n\nWithout seeing 'lottery', spam probability was 30.0%.\nAfter seeing 'lottery', it jumped to 97.2%.\nThis is how Naive Bayes classifiers work!"
+      },
+      {
+        "title": "Statistics: Mean, Variance, Standard Deviation, Correlation",
+        "code": "import numpy as np\n\n# Student data\nhours_studied = np.array([2, 3, 5, 4, 6, 7, 8, 3, 5, 9])\nexam_scores = np.array([50, 55, 70, 62, 75, 80, 90, 58, 72, 95])\n\n# Measures of central tendency\nprint(\"=== Hours Studied ===\")\nprint(f\"Mean: {np.mean(hours_studied):.1f}\")\nprint(f\"Median: {np.median(hours_studied):.1f}\")\n\n# Measures of spread\nprint(f\"Variance: {np.var(hours_studied):.2f}\")\nprint(f\"Std Dev: {np.std(hours_studied):.2f}\")\n\n# Correlation between hours and scores\ncorrelation = np.corrcoef(hours_studied, exam_scores)[0, 1]\nprint(f\"\\n=== Correlation ===\")\nprint(f\"Correlation (hours vs scores): {correlation:.4f}\")\nif correlation > 0.7:\n    print(\"Strong positive correlation: more hours = higher scores\")\n\n# Covariance\ncovariance = np.cov(hours_studied, exam_scores)[0, 1]\nprint(f\"Covariance: {covariance:.2f}\")\n\n# Full correlation matrix\nprint(f\"\\n=== Correlation Matrix ===\")\ndata = np.vstack([hours_studied, exam_scores])\ncorr_matrix = np.corrcoef(data)\nprint(f\"Hours vs Hours: {corr_matrix[0, 0]:.4f}\")\nprint(f\"Hours vs Scores: {corr_matrix[0, 1]:.4f}\")\nprint(f\"Scores vs Scores: {corr_matrix[1, 1]:.4f}\")",
+        "language": "python",
+        "explanation": "Mean is the average; median is the middle value (robust to outliers). Variance measures how spread out the data is (average of squared deviations from mean). Standard deviation is the square root of variance (in the same units as the data). Correlation ranges from -1 to +1 and measures linear relationship. Here, hours and scores have a strong positive correlation (0.98), confirming that more study hours lead to higher scores.",
+        "output": "=== Hours Studied ===\nMean: 5.2\nMedian: 5.0\nVariance: 4.56\nStd Dev: 2.14\n\n=== Correlation ===\nCorrelation (hours vs scores): 0.9886\nStrong positive correlation: more hours = higher scores\nCovariance: 22.89\n\n=== Correlation Matrix ===\nHours vs Hours: 1.0000\nHours vs Scores: 0.9886\nScores vs Scores: 1.0000"
+      },
+      {
+        "title": "Normal Distribution and the 68-95-99.7 Rule",
+        "code": "import numpy as np\n\n# Generate data from a normal distribution\nnp.random.seed(42)\nmean = 70  # Average marks\nstd = 10   # Standard deviation\nmarks = np.random.normal(mean, std, 10000)\n\nprint(f\"Generated {len(marks)} marks with mean={mean}, std={std}\")\nprint(f\"Actual mean: {np.mean(marks):.2f}\")\nprint(f\"Actual std: {np.std(marks):.2f}\")\n\n# The 68-95-99.7 rule\nwithin_1_std = np.sum((marks >= mean - std) & (marks <= mean + std)) / len(marks) * 100\nwithin_2_std = np.sum((marks >= mean - 2*std) & (marks <= mean + 2*std)) / len(marks) * 100\nwithin_3_std = np.sum((marks >= mean - 3*std) & (marks <= mean + 3*std)) / len(marks) * 100\n\nprint(f\"\\n=== 68-95-99.7 Rule ===\")\nprint(f\"Within 1 std ({mean-std}-{mean+std}): {within_1_std:.1f}% (expected ~68%)\")\nprint(f\"Within 2 std ({mean-2*std}-{mean+2*std}): {within_2_std:.1f}% (expected ~95%)\")\nprint(f\"Within 3 std ({mean-3*std}-{mean+3*std}): {within_3_std:.1f}% (expected ~99.7%)\")\n\n# Z-score: how many standard deviations from the mean\naarav_marks = 95\nz_score = (aarav_marks - mean) / std\nprint(f\"\\nAarav scored {aarav_marks}. Z-score: {z_score:.1f}\")\nprint(f\"Aarav is {z_score:.1f} standard deviations above the mean\")\nprint(f\"Percentage scoring below Aarav: ~{99.38}%\")",
+        "language": "python",
+        "explanation": "The normal distribution is the most important distribution in statistics and ML. The 68-95-99.7 rule states that about 68% of data falls within 1 standard deviation of the mean, 95% within 2, and 99.7% within 3. The Z-score tells you how many standard deviations a value is from the mean. Z-score normalization (StandardScaler in sklearn) uses this: z = (x - mean) / std. This is a critical preprocessing step in ML.",
+        "output": "Generated 10000 marks with mean=70, std=10\nActual mean: 70.07\nActual std: 9.93\n\n=== 68-95-99.7 Rule ===\nWithin 1 std (60-80): 68.2% (expected ~68%)\nWithin 2 std (50-90): 95.5% (expected ~95%)\nWithin 3 std (40-100): 99.7% (expected ~99.7%)\n\nAarav scored 95. Z-score: 2.5\nAarav is 2.5 standard deviations above the mean\nPercentage scoring below Aarav: ~99.38%"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Confusing Element-wise Multiplication with Matrix Multiplication",
+        "wrongCode": "import numpy as np\n\nA = np.array([[1, 2], [3, 4]])\nB = np.array([[5, 6], [7, 8]])\n\n# This is ELEMENT-WISE multiplication, not matrix multiplication!\nresult = A * B\nprint(result)  # [[5, 12], [21, 32]] -- NOT matrix multiplication!",
+        "error": "No error, but the result is element-wise, not matrix multiplication.",
+        "correctCode": "import numpy as np\n\nA = np.array([[1, 2], [3, 4]])\nB = np.array([[5, 6], [7, 8]])\n\n# Matrix multiplication (dot product)\nresult = A @ B  # or np.dot(A, B) or np.matmul(A, B)\nprint(result)  # [[19, 22], [43, 50]] -- correct matrix multiplication",
+        "explanation": "<code>A * B</code> in NumPy is element-wise (Hadamard product): each element is multiplied with the corresponding element. <code>A @ B</code> is true matrix multiplication where each element is a dot product of a row and column. In ML, you almost always want matrix multiplication (for predictions, layer computations, etc.), not element-wise. Use <code>@</code> or <code>np.dot()</code>."
+      },
+      {
+        "title": "Using Mean Instead of Median with Outliers",
+        "wrongCode": "import numpy as np\n\nsalaries = np.array([30000, 35000, 32000, 28000, 1000000])\nmean_salary = np.mean(salaries)\nprint(f\"Average salary: {mean_salary:.0f}\")  # 225000 -- misleading!",
+        "error": "No error, but the mean is 225000 which does not represent the typical salary at all. One outlier (1000000) dragged the mean up.",
+        "correctCode": "import numpy as np\n\nsalaries = np.array([30000, 35000, 32000, 28000, 1000000])\nmean_salary = np.mean(salaries)\nmedian_salary = np.median(salaries)\n\nprint(f\"Mean salary: {mean_salary:.0f}\")    # 225000 (misleading)\nprint(f\"Median salary: {median_salary:.0f}\")  # 32000 (representative)\nprint(f\"\\nMedian is more representative when outliers exist\")",
+        "explanation": "The mean is sensitive to outliers -- one extreme value can dramatically shift it. The median (middle value when sorted) is robust to outliers. When your data has outliers (which is common in real-world data), always check both mean and median. If they differ significantly, there are outliers. In ML, this matters for feature scaling: StandardScaler uses mean/std (affected by outliers), while RobustScaler uses median/IQR (robust to outliers)."
+      },
+      {
+        "title": "Wrong Learning Rate in Gradient Descent",
+        "wrongCode": "# Learning rate too large: diverges!\nx = 5.0\nlearning_rate = 2.0  # Way too large\n\nfor i in range(5):\n    gradient = 2 * (x - 3)\n    x = x - learning_rate * gradient\n    print(f\"Step {i}: x = {x:.2f}, f(x) = {(x-3)**2:.2f}\")\n# x explodes to infinity!",
+        "error": "x diverges: 5 -> -5 -> 19 -> -29 -> ... The loss increases instead of decreasing.",
+        "correctCode": "# Learning rate properly set\nx = 5.0\nlearning_rate = 0.1  # Small enough to converge\n\nfor i in range(10):\n    gradient = 2 * (x - 3)\n    x = x - learning_rate * gradient\n    print(f\"Step {i}: x = {x:.4f}, f(x) = {(x-3)**2:.4f}\")\n# x smoothly converges to 3.0",
+        "explanation": "If the learning rate is too large, gradient descent overshoots the minimum and diverges (the loss increases instead of decreasing). If too small, convergence is very slow. A good starting learning rate is typically 0.01 or 0.001. In practice, adaptive learning rates (Adam optimizer) automatically adjust the rate, but understanding this concept is crucial for debugging training issues."
+      },
+      {
+        "title": "Confusing Correlation with Causation",
+        "wrongCode": "import numpy as np\n\n# Ice cream sales and drowning incidents both increase in summer\nice_cream = np.array([100, 200, 400, 500, 600, 300, 150])\ndrownings = np.array([10, 20, 45, 55, 60, 25, 12])\n\ncorr = np.corrcoef(ice_cream, drownings)[0, 1]\nprint(f\"Correlation: {corr:.4f}\")\nprint(\"Conclusion: Ice cream causes drowning!\")  # WRONG!",
+        "error": "No error, but the conclusion is logically wrong. Correlation does not imply causation.",
+        "correctCode": "import numpy as np\n\nice_cream = np.array([100, 200, 400, 500, 600, 300, 150])\ndrownings = np.array([10, 20, 45, 55, 60, 25, 12])\n\ncorr = np.corrcoef(ice_cream, drownings)[0, 1]\nprint(f\"Correlation: {corr:.4f}\")\nprint(\"Both are correlated because of a CONFOUNDING variable: summer temperature.\")\nprint(\"Hot weather -> more ice cream AND more swimming -> more drownings.\")\nprint(\"Correlation does NOT imply causation.\")",
+        "explanation": "A high correlation between two variables does NOT mean one causes the other. They might both be caused by a third variable (confounding variable). In ML, correlation helps find useful features, but you should never conclude causation from correlation alone. This is one of the most important lessons in statistics and data science."
+      }
+    ],
+    "summary": [
+      "Linear algebra is the language of ML: vectors represent data points, matrices represent datasets. The dot product (np.dot or @) is the core operation in linear models and neural networks.",
+      "Matrix multiplication (A @ B) is NOT element-wise. Use * for element-wise, @ for matrix multiplication. The shapes must be compatible: (m,n) @ (n,p) = (m,p).",
+      "The transpose (A.T) swaps rows and columns. The inverse (np.linalg.inv(A)) satisfies A @ A_inv = Identity. The normal equation for linear regression uses both: w = (X.T @ X)^(-1) @ X.T @ y.",
+      "Eigenvalues and eigenvectors reveal principal directions of data variance. PCA uses them to reduce dimensionality while keeping the most information.",
+      "Derivatives measure rate of change. The gradient is a vector of partial derivatives pointing in the direction of steepest increase. Gradient descent moves opposite to the gradient to minimize the loss.",
+      "Gradient descent update rule: w_new = w_old - learning_rate * gradient. Learning rate too large = diverge. Too small = slow convergence. This is how all ML models learn.",
+      "Bayes theorem: P(A|B) = P(B|A) * P(A) / P(B). It updates beliefs with new evidence and is the foundation of Naive Bayes classifiers.",
+      "Normal distribution follows the 68-95-99.7 rule. Z-score normalization (z = (x - mean) / std) is a critical preprocessing step in ML.",
+      "Mean is sensitive to outliers, median is robust. Always check both. Use correlation (np.corrcoef) to measure linear relationships between features, but remember correlation does not imply causation.",
+      "Every concept in this chapter has a direct application in ML. Understanding the math makes you a better model builder, debugger, and communicator."
+    ]
+  },
+  "relatedTopics": ["python-for-ai-essentials", "data-preprocessing-and-eda"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Compute the dot product of [1, 2, 3] and [4, 5, 6] using NumPy. Show the manual calculation in a comment.",
+        "hint": "np.dot(a, b) or a @ b. Manual: 1*4 + 2*5 + 3*6.",
+        "answer": "<pre><code>import numpy as np\na = np.array([1, 2, 3])\nb = np.array([4, 5, 6])\n# Manual: 1*4 + 2*5 + 3*6 = 4 + 10 + 18 = 32\nprint(f\"Dot product: {np.dot(a, b)}\")</code></pre>\nOutput: Dot product: 32",
+        "explanation": "The dot product multiplies corresponding elements and sums: (1*4) + (2*5) + (3*6) = 32. This single operation is the foundation of linear regression (y = w.x + b), neural network forward passes, and similarity measures."
+      },
+      {
+        "id": "ts-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Create a 3x3 identity matrix using NumPy and print it.",
+        "hint": "Use np.eye(3).",
+        "answer": "<pre><code>import numpy as np\nI = np.eye(3)\nprint(I)</code></pre>\nOutput: [[1. 0. 0.] [0. 1. 0.] [0. 0. 1.]]",
+        "explanation": "The identity matrix has 1s on the diagonal and 0s everywhere else. It is the matrix equivalent of the number 1: multiplying any matrix by the identity gives the same matrix (A @ I = A). <code>np.eye(n)</code> creates an n x n identity matrix."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import numpy as np\nA = np.array([[1, 2], [3, 4]])\nprint(A.T)</code></pre>",
+        "hint": ".T transposes the matrix: rows become columns.",
+        "answer": "<code>[[1 3]\n [2 4]]</code>",
+        "explanation": "Transpose swaps rows and columns. Row [1, 2] becomes column [1, 2]. Row [3, 4] becomes column [3, 4]. The original (2, 2) stays (2, 2) since it is square, but in general a (m, n) matrix becomes (n, m)."
+      },
+      {
+        "id": "ts-4",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What does the gradient tell us in Machine Learning?",
+        "hint": "Think about direction and steepness.",
+        "answer": "The gradient is a vector of partial derivatives that points in the <strong>direction of steepest increase</strong> of a function. In ML, we want to minimize the loss function, so we move in the <strong>opposite direction of the gradient</strong>. The magnitude of the gradient tells us how steep the function is at that point.",
+        "explanation": "If you are standing on a hill and want to go downhill as fast as possible, the gradient tells you which direction is the steepest uphill, and you walk in the opposite direction. In gradient descent, the gradient of the loss function with respect to model parameters tells us how to adjust each parameter to reduce the loss."
+      },
+      {
+        "id": "ts-5",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write NumPy code to multiply two matrices A = [[1, 2], [3, 4]] and B = [[5, 6], [7, 8]]. What is element [0][1] of the result?",
+        "hint": "Use A @ B. Element [0][1] = dot product of row 0 of A and column 1 of B.",
+        "answer": "<pre><code>import numpy as np\nA = np.array([[1, 2], [3, 4]])\nB = np.array([[5, 6], [7, 8]])\nC = A @ B\nprint(f\"A @ B:\\n{C}\")\nprint(f\"\\nElement [0][1] = 1*6 + 2*8 = {C[0, 1]}\")</code></pre>\nOutput: [[19 22] [43 50]], Element [0][1] = 22",
+        "explanation": "Matrix multiplication: C[0][1] = dot product of row 0 of A ([1, 2]) and column 1 of B ([6, 8]) = 1*6 + 2*8 = 22. C[0][0] = 1*5 + 2*7 = 19. C[1][0] = 3*5 + 4*7 = 43. C[1][1] = 3*6 + 4*8 = 50."
+      },
+      {
+        "id": "ts-6",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write code to compute the mean, median, and standard deviation of the array [10, 20, 30, 40, 50, 1000] and explain why mean and median differ significantly.",
+        "hint": "Use np.mean(), np.median(), np.std(). The value 1000 is an outlier.",
+        "answer": "<pre><code>import numpy as np\narr = np.array([10, 20, 30, 40, 50, 1000])\nprint(f\"Mean: {np.mean(arr):.1f}\")\nprint(f\"Median: {np.median(arr):.1f}\")\nprint(f\"Std: {np.std(arr):.1f}\")\nprint(\"Mean is 191.7, median is 35.0\")\nprint(\"The outlier 1000 drags the mean up but does not affect the median\")</code></pre>",
+        "explanation": "Mean = (10+20+30+40+50+1000)/6 = 191.7. Median = average of 30 and 40 = 35.0. The mean is 5.5x the median because the outlier (1000) pulls it up. This demonstrates why median is preferred when outliers exist. In ML, you use RobustScaler (based on median) instead of StandardScaler (based on mean) when your data has outliers."
+      },
+      {
+        "id": "ts-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Explain Bayes Theorem with a real-world example. What are prior, likelihood, and posterior?",
+        "hint": "P(A|B) = P(B|A) * P(A) / P(B). Think of disease testing.",
+        "answer": "<strong>Bayes Theorem:</strong> P(A|B) = P(B|A) * P(A) / P(B). <strong>Prior</strong> P(A) = initial belief before seeing evidence. <strong>Likelihood</strong> P(B|A) = probability of evidence given the hypothesis. <strong>Posterior</strong> P(A|B) = updated belief after seeing evidence. Example: P(disease) = 0.01 (prior). P(positive test | disease) = 0.95 (likelihood). P(positive test) = 0.06. P(disease | positive test) = 0.95 * 0.01 / 0.06 = 0.158 (posterior). Even with a positive test, there is only 15.8% chance of disease because the disease is rare.",
+        "explanation": "Bayes theorem is counterintuitive: even with a 95% accurate test, a positive result only means 15.8% chance of disease if the disease is rare (1%). This is because most positive results are false positives from the 99% healthy population. Understanding this is crucial for evaluating ML model predictions, especially with imbalanced datasets."
+      },
+      {
+        "id": "ts-8",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Implement one step of gradient descent for the function f(x) = x^2. Starting at x = 5 with learning rate 0.1, what is the new x?",
+        "hint": "Derivative of x^2 is 2x. New x = old_x - lr * gradient.",
+        "answer": "<pre><code>x = 5.0\nlearning_rate = 0.1\ngradient = 2 * x  # derivative of x^2\nx_new = x - learning_rate * gradient\nprint(f\"Old x: {x}\")\nprint(f\"Gradient at x=5: {gradient}\")\nprint(f\"New x: {x_new}\")\nprint(f\"f(old x) = {x**2}, f(new x) = {x_new**2}\")</code></pre>\nOutput: New x: 4.0, f(old x) = 25, f(new x) = 16",
+        "explanation": "At x=5, the gradient of x^2 is 2*5 = 10. New x = 5 - 0.1 * 10 = 4.0. The function value decreased from 25 to 16, showing progress toward the minimum (x=0, f=0). Each gradient descent step reduces the function value when the learning rate is appropriate."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\narr = np.array([2, 4, 4, 4, 5, 5, 7, 9])\nprint(np.mean(arr))\nprint(np.var(arr))</code></pre>",
+        "hint": "Mean = sum/count. Variance = average of squared deviations from mean.",
+        "answer": "<code>5.0</code><br><code>4.0</code>",
+        "explanation": "Mean = (2+4+4+4+5+5+7+9)/8 = 40/8 = 5.0. Variance = average of (2-5)^2, (4-5)^2, (4-5)^2, (4-5)^2, (5-5)^2, (5-5)^2, (7-5)^2, (9-5)^2 = (9+1+1+1+0+0+4+16)/8 = 32/8 = 4.0. Note: NumPy uses population variance (divides by n, not n-1)."
+      },
+      {
+        "id": "ts-10",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write code to compute the correlation between two arrays using the formula: corr = cov(X,Y) / (std(X) * std(Y)). Verify with np.corrcoef().",
+        "hint": "Compute covariance manually, then divide by product of standard deviations.",
+        "answer": "<pre><code>import numpy as np\n\nX = np.array([1, 2, 3, 4, 5])\nY = np.array([2, 4, 5, 4, 5])\n\n# Manual calculation\nmean_x, mean_y = np.mean(X), np.mean(Y)\ncov_xy = np.mean((X - mean_x) * (Y - mean_y))\nstd_x, std_y = np.std(X), np.std(Y)\ncorr_manual = cov_xy / (std_x * std_y)\n\n# NumPy verification\ncorr_numpy = np.corrcoef(X, Y)[0, 1]\n\nprint(f\"Manual correlation: {corr_manual:.4f}\")\nprint(f\"NumPy correlation: {corr_numpy:.4f}\")</code></pre>",
+        "explanation": "Correlation = covariance / (std_X * std_Y). Covariance measures how X and Y vary together. Dividing by the product of standard deviations normalizes it to [-1, 1]. Note: np.corrcoef uses sample statistics (n-1 denominator) while our manual calculation uses population statistics (n denominator), so there may be a slight difference."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What are eigenvalues and eigenvectors? Why are they important in ML (specifically PCA)?",
+        "hint": "Eigenvectors are directions that do not change when a transformation is applied.",
+        "answer": "For a matrix A, an eigenvector v satisfies A @ v = lambda * v, where lambda is the eigenvalue. The eigenvector's direction is unchanged by the transformation -- only its magnitude changes by factor lambda. In PCA, the eigenvectors of the covariance matrix represent the principal directions of maximum variance in the data. The eigenvalues indicate how much variance is in each direction. PCA keeps the top-k eigenvectors (those with largest eigenvalues) to reduce dimensionality while preserving the most information.",
+        "explanation": "Imagine stretching a rubber sheet. Most directions change both direction and length. But certain special directions (eigenvectors) only stretch or shrink without rotating. In a dataset, these directions correspond to the axes along which the data varies the most. PCA finds these directions and projects the data onto them, reducing features while keeping the important patterns."
+      },
+      {
+        "id": "ts-12",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Implement gradient descent to find the minimum of f(x) = (x - 5)^2 + 3. Start at x = 0, learning rate = 0.2, run for 20 steps.",
+        "hint": "Derivative: f'(x) = 2(x - 5). Minimum is at x = 5, f(5) = 3.",
+        "answer": "<pre><code>x = 0.0\nlr = 0.2\n\nfor i in range(20):\n    grad = 2 * (x - 5)\n    x = x - lr * grad\n\nprint(f\"Final x: {x:.6f} (expected: 5.0)\")\nprint(f\"Final f(x): {(x-5)**2 + 3:.6f} (expected: 3.0)\")</code></pre>",
+        "explanation": "The function (x-5)^2 + 3 has its minimum at x=5 where f=3. Starting at x=0, gradient descent iteratively moves toward x=5. The derivative 2(x-5) is negative when x < 5 (so x increases) and positive when x > 5 (so x decreases), converging to the minimum."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import numpy as np\nA = np.array([[1, 0], [0, 1]])\nv = np.array([3, 7])\nprint(A @ v)</code></pre>",
+        "hint": "A is the identity matrix.",
+        "answer": "<code>[3 7]</code>",
+        "explanation": "The identity matrix [[1,0],[0,1]] multiplied by any vector gives the same vector. [1*3 + 0*7, 0*3 + 1*7] = [3, 7]. The identity matrix is to matrices what 1 is to numbers."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between variance and standard deviation? Which one is in the same units as the original data?",
+        "hint": "One is the square of the other.",
+        "answer": "Variance is the average of squared deviations from the mean. Standard deviation is the square root of variance. <strong>Standard deviation is in the same units as the original data</strong> (e.g., if data is in cm, std is in cm). Variance is in squared units (cm^2). This is why standard deviation is more commonly used and reported.",
+        "explanation": "If exam marks have a mean of 70 and variance of 100, the standard deviation is sqrt(100) = 10. This means marks typically deviate by about 10 points from the mean. Saying 'variance is 100 marks-squared' is harder to interpret than 'standard deviation is 10 marks'."
+      },
+      {
+        "id": "ts-15",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Compute the inverse of matrix A = [[2, 1], [5, 3]] using NumPy and verify that A @ A_inv gives the identity matrix.",
+        "hint": "Use np.linalg.inv(A) and np.allclose() to verify.",
+        "answer": "<pre><code>import numpy as np\nA = np.array([[2, 1], [5, 3]])\nA_inv = np.linalg.inv(A)\nprint(f\"A:\\n{A}\")\nprint(f\"\\nA inverse:\\n{A_inv}\")\nprint(f\"\\nA @ A_inv:\\n{np.round(A @ A_inv)}\")\nprint(f\"Is identity? {np.allclose(A @ A_inv, np.eye(2))}\")</code></pre>",
+        "explanation": "The inverse of a 2x2 matrix [[a,b],[c,d]] is (1/(ad-bc)) * [[d,-b],[-c,a]]. For our matrix: determinant = 2*3 - 1*5 = 1, so A_inv = [[3,-1],[-5,2]]. Verifying: A @ A_inv = identity matrix. np.allclose handles floating-point precision issues."
+      },
+      {
+        "id": "ts-16",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write Python code to calculate the probability of rolling a 6 on a fair die, and the probability of NOT rolling a 6.",
+        "hint": "P(6) = 1/6. P(not 6) = 1 - P(6).",
+        "answer": "<pre><code>p_six = 1 / 6\np_not_six = 1 - p_six\nprint(f\"P(rolling 6): {p_six:.4f} ({p_six*100:.2f}%)\")\nprint(f\"P(not rolling 6): {p_not_six:.4f} ({p_not_six*100:.2f}%)\")</code></pre>",
+        "explanation": "Basic probability: favorable outcomes / total outcomes = 1/6 = 0.1667. The complement rule: P(not A) = 1 - P(A) = 5/6 = 0.8333. These basic rules apply to all probability calculations in ML."
+      },
+      {
+        "id": "ts-17",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Use Bayes theorem to calculate: If 2% of people have a disease, a test is 95% accurate for sick people and 90% accurate for healthy people, what is P(disease | positive test)?",
+        "hint": "P(disease)=0.02, P(positive|disease)=0.95, P(positive|healthy)=0.10.",
+        "answer": "<pre><code>p_disease = 0.02\np_healthy = 0.98\np_pos_disease = 0.95\np_pos_healthy = 0.10\n\np_pos = p_pos_disease * p_disease + p_pos_healthy * p_healthy\np_disease_pos = (p_pos_disease * p_disease) / p_pos\n\nprint(f\"P(disease | positive test): {p_disease_pos:.4f}\")\nprint(f\"That's only {p_disease_pos*100:.1f}%!\")</code></pre>",
+        "explanation": "P(positive) = 0.95*0.02 + 0.10*0.98 = 0.019 + 0.098 = 0.117. P(disease | positive) = 0.019 / 0.117 = 0.162. Even with a positive test result, there is only a 16.2% chance of actually having the disease. This is because the disease is rare (2%), so most positive results are false positives from the 98% healthy population."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\na = np.array([1, 0, 0])\nb = np.array([0, 1, 0])\nprint(np.dot(a, b))</code></pre>",
+        "hint": "These vectors are perpendicular (orthogonal).",
+        "answer": "<code>0</code>",
+        "explanation": "The dot product of perpendicular (orthogonal) vectors is always 0: 1*0 + 0*1 + 0*0 = 0. This is a key property used in ML: orthogonal features are independent and carry non-redundant information. PCA finds orthogonal directions of maximum variance."
+      },
+      {
+        "id": "ts-19",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain the chain rule in calculus and why it is essential for training neural networks (backpropagation).",
+        "hint": "If y = f(g(x)), then dy/dx = f'(g(x)) * g'(x). Think about layers in a neural network.",
+        "answer": "The chain rule states that if y = f(g(x)), then dy/dx = f'(g(x)) * g'(x). In neural networks, the output is a composition of many functions (layers): output = f3(f2(f1(x))). To compute how a weight in layer 1 affects the final loss, we need the chain rule: dL/dw1 = dL/df3 * df3/df2 * df2/df1 * df1/dw1. This chaining of derivatives through layers is called <strong>backpropagation</strong>. Without the chain rule, we could not train deep networks.",
+        "explanation": "Backpropagation is just the chain rule applied systematically. Starting from the loss at the output, we multiply derivatives backward through each layer to compute how each weight contributes to the error. This gives us the gradient for every weight in the network, which gradient descent then uses to update them."
+      },
+      {
+        "id": "ts-20",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write code to compute and display the correlation matrix for three variables: hours_studied, attendance, and marks.",
+        "hint": "Use np.corrcoef() with the three arrays stacked together.",
+        "answer": "<pre><code>import numpy as np\n\nhours = np.array([2, 4, 6, 8, 3, 7, 5])\nattendance = np.array([60, 70, 85, 95, 65, 90, 80])\nmarks = np.array([50, 65, 80, 92, 55, 85, 72])\n\ncorr = np.corrcoef([hours, attendance, marks])\nlabels = ['Hours', 'Attend', 'Marks']\n\nprint('Correlation Matrix:')\nprint(f\"{'':>10}\", end='')\nfor l in labels: print(f\"{l:>10}\", end='')\nprint()\nfor i, l in enumerate(labels):\n    print(f\"{l:>10}\", end='')\n    for j in range(3):\n        print(f\"{corr[i][j]:>10.4f}\", end='')\n    print()</code></pre>",
+        "explanation": "The correlation matrix shows pairwise correlations. The diagonal is always 1.0 (a variable correlates perfectly with itself). Off-diagonal values show how pairs of variables relate. High positive correlation between hours and marks confirms that studying more leads to higher scores. This matrix guides feature selection in ML."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Create two NumPy vectors a = [3, 4] and b = [1, 2]. Compute and print: a + b, a - b, a * 2, and the dot product.",
+        "hint": "Use +, -, *, np.dot() for the operations.",
+        "answer": "<pre><code>import numpy as np\na = np.array([3, 4])\nb = np.array([1, 2])\nprint(f\"a + b = {a + b}\")\nprint(f\"a - b = {a - b}\")\nprint(f\"a * 2 = {a * 2}\")\nprint(f\"dot product = {np.dot(a, b)}\")</code></pre>",
+        "explanation": "Vector addition: [3+1, 4+2] = [4, 6]. Subtraction: [3-1, 4-2] = [2, 2]. Scalar multiplication: [3*2, 4*2] = [6, 8]. Dot product: 3*1 + 4*2 = 11."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import numpy as np\nprint(np.mean([10, 20, 30, 40, 50]))</code></pre>",
+        "hint": "Mean = sum / count.",
+        "answer": "<code>30.0</code>",
+        "explanation": "Mean = (10+20+30+40+50) / 5 = 150/5 = 30.0. NumPy returns a float for mean calculations."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Deepak's dataset has two features: temperature (0-50 Celsius) and income (10000-500000 rupees). Why might this cause problems for KNN, and what should he do?",
+        "hint": "KNN uses distance. Which feature will dominate the distance calculation?",
+        "answer": "Income (range: 490000) will completely dominate the distance calculation over temperature (range: 50) in KNN, because KNN uses Euclidean distance. A 1-degree temperature difference would be negligible compared to a 1000-rupee income difference. Deepak should apply <strong>feature scaling</strong>: either StandardScaler (z-score normalization) or MinMaxScaler (scale to 0-1) to bring both features to the same scale.",
+        "explanation": "Without scaling, features with larger ranges dominate distance-based algorithms. After Min-Max scaling, both temperature and income would range from 0 to 1, contributing equally to distance. This is why understanding variance and scaling (statistics) is crucial for ML."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write NumPy code to compute the magnitude (length) of the vector [3, 4]. Verify that it equals 5 (Pythagorean theorem).",
+        "hint": "Magnitude = sqrt(x^2 + y^2). Use np.linalg.norm().",
+        "answer": "<pre><code>import numpy as np\nv = np.array([3, 4])\nmag = np.linalg.norm(v)\nprint(f\"Vector: {v}\")\nprint(f\"Magnitude: {mag}\")\nprint(f\"Manual: sqrt(3^2 + 4^2) = sqrt(9+16) = sqrt(25) = {np.sqrt(9+16)}\")</code></pre>\nOutput: Magnitude: 5.0",
+        "explanation": "The magnitude of [3, 4] is sqrt(3^2 + 4^2) = sqrt(25) = 5. This is the famous 3-4-5 right triangle. Vector magnitude is used to normalize vectors (make them unit length), which is important for cosine similarity and some ML algorithms."
+      },
+      {
+        "id": "mx-5",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Implement gradient descent to minimize f(w1, w2) = w1^2 + w2^2. Start at (5, 5), learning rate 0.1, 30 steps. Print every 5th step.",
+        "hint": "Gradients: df/dw1 = 2*w1, df/dw2 = 2*w2. Update both simultaneously.",
+        "answer": "<pre><code>import numpy as np\n\nw = np.array([5.0, 5.0])\nlr = 0.1\n\nfor i in range(30):\n    grad = 2 * w\n    w = w - lr * grad\n    if i % 5 == 0:\n        print(f\"Step {i:2d}: w = [{w[0]:.4f}, {w[1]:.4f}], f(w) = {np.sum(w**2):.6f}\")\n\nprint(f\"\\nFinal: w = [{w[0]:.6f}, {w[1]:.6f}]\")\nprint(f\"Expected: [0, 0]\")</code></pre>",
+        "explanation": "This is multivariate gradient descent with 2 parameters. The gradient [2*w1, 2*w2] points away from the minimum [0, 0]. Each step moves both parameters toward zero simultaneously. This is exactly how linear regression with multiple features trains -- all weights are updated in parallel."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import numpy as np\nA = np.array([[2, 0], [0, 3]])\nv = np.array([1, 1])\nprint(A @ v)</code></pre>",
+        "hint": "A is a diagonal matrix. It scales each component independently.",
+        "answer": "<code>[2 3]</code>",
+        "explanation": "A diagonal matrix scales each dimension independently: [2*1 + 0*1, 0*1 + 3*1] = [2, 3]. The x-component is scaled by 2 and the y-component by 3. Diagonal matrices are special: their eigenvalues are the diagonal entries, and the standard basis vectors are their eigenvectors."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between correlation and covariance?",
+        "hint": "One is bounded [-1, 1], the other is unbounded.",
+        "answer": "<strong>Covariance</strong> measures how two variables change together but is unbounded (its value depends on the scale of the data). <strong>Correlation</strong> is normalized covariance, bounded between -1 and +1, making it easier to interpret. Correlation = Covariance / (std_X * std_Y). A correlation of 0.9 always means a strong positive relationship, regardless of the data's scale.",
+        "explanation": "Covariance between height (cm) and weight (kg) might be 200, but that number alone does not tell you if the relationship is strong. Correlation normalizes this to, say, 0.85, which clearly indicates a strong positive relationship. Always use correlation for interpretation and comparison."
+      },
+      {
+        "id": "mx-8",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a Python function that implements the normal equation for linear regression: w = (X^T @ X)^(-1) @ X^T @ y. Test it with simple data.",
+        "hint": "Use np.linalg.inv() for the inverse, @ for matrix multiplication.",
+        "answer": "<pre><code>import numpy as np\n\ndef normal_equation(X, y):\n    return np.linalg.inv(X.T @ X) @ X.T @ y\n\n# Simple data: y = 2*x + 1\nX = np.array([[1, 1], [1, 2], [1, 3], [1, 4], [1, 5]])  # Bias column + feature\ny = np.array([3, 5, 7, 9, 11])  # y = 2x + 1\n\nw = normal_equation(X, y)\nprint(f\"Weights: bias={w[0]:.2f}, slope={w[1]:.2f}\")\nprint(f\"Equation: y = {w[1]:.2f}x + {w[0]:.2f}\")</code></pre>\nOutput: Weights: bias=1.00, slope=2.00",
+        "explanation": "The normal equation directly computes the optimal weights for linear regression without iteration. X has a column of 1s for the bias (intercept). The formula (X^T X)^(-1) X^T y gives us [1, 2], meaning y = 2x + 1, which perfectly matches our data. This is faster than gradient descent for small datasets but does not scale well to large ones."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the 68-95-99.7 rule for the normal distribution?",
+        "hint": "It describes what percentage of data falls within 1, 2, and 3 standard deviations of the mean.",
+        "answer": "For a normal distribution: approximately <strong>68%</strong> of data falls within 1 standard deviation of the mean, <strong>95%</strong> within 2 standard deviations, and <strong>99.7%</strong> within 3 standard deviations. If marks have mean=70 and std=10, then 68% of students score 60-80, 95% score 50-90, and 99.7% score 40-100.",
+        "explanation": "This rule is the basis for Z-score normalization (StandardScaler in sklearn). After normalization, a Z-score of 2 means the value is 2 standard deviations above the mean, placing it in the top ~2.5% of values. Understanding this helps you detect outliers (Z-score > 3) and interpret normalized data."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write code to simulate flipping a coin 10000 times and verify that the probability of heads approaches 0.5.",
+        "hint": "Use np.random.choice(['H', 'T'], size=10000).",
+        "answer": "<pre><code>import numpy as np\nnp.random.seed(42)\n\nflips = np.random.choice(['H', 'T'], size=10000)\nheads = np.sum(flips == 'H')\np_heads = heads / len(flips)\n\nprint(f\"Total flips: {len(flips)}\")\nprint(f\"Heads: {heads}\")\nprint(f\"P(Heads): {p_heads:.4f} (expected: 0.5000)\")</code></pre>",
+        "explanation": "The law of large numbers states that as the number of trials increases, the observed probability approaches the theoretical probability. With 10000 flips, P(Heads) should be very close to 0.5. This principle underlies all of statistics: more data gives more reliable estimates."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the dot product of [1, 2, 3] and [4, 5, 6]?",
+        "options": {"A": "[4, 10, 18]", "B": "32", "C": "15", "D": "21"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Dot product = (1*4) + (2*5) + (3*6) = 4 + 10 + 18 = 32. Option A is element-wise multiplication (not summed). The dot product always returns a single scalar."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the transpose of a 3x2 matrix?",
+        "options": {"A": "3x2", "B": "2x3", "C": "3x3", "D": "2x2"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Transpose swaps rows and columns. A (3 rows x 2 columns) matrix becomes (2 rows x 3 columns). In general, the transpose of an (m x n) matrix is (n x m)."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is the derivative of f(x) = x^2?",
+        "options": {"A": "x", "B": "2x", "C": "x^2", "D": "2"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Using the power rule: the derivative of x^n is n * x^(n-1). So the derivative of x^2 is 2 * x^1 = 2x. At x=3, the derivative is 6, meaning the function is increasing at a rate of 6."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "In gradient descent, the update rule is w = w - lr * gradient. What happens if the learning rate is too large?",
+        "options": {"A": "The model converges faster", "B": "The model converges to a better minimum", "C": "The model overshoots and diverges", "D": "Nothing changes"},
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> A learning rate that is too large causes gradient descent to take steps that are too big, overshooting the minimum and bouncing back and forth (or diverging to infinity). The loss increases instead of decreasing. Typical good learning rates are 0.01 or 0.001."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "What is the shape of the result when multiplying a (3, 4) matrix with a (4, 2) matrix?",
+        "options": {"A": "(3, 2)", "B": "(4, 4)", "C": "(3, 4)", "D": "(4, 2)"},
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> For matrix multiplication, (m x n) @ (n x p) = (m x p). The inner dimensions (n=4) must match. The result takes the outer dimensions: (3 x 4) @ (4 x 2) = (3 x 2)."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Bayes theorem states P(A|B) = P(B|A) * P(A) / P(B). What is P(A) called?",
+        "options": {"A": "Posterior", "B": "Likelihood", "C": "Prior", "D": "Evidence"},
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> P(A) is the <strong>prior</strong> -- our initial belief before seeing evidence. P(B|A) is the <strong>likelihood</strong> -- probability of evidence given our hypothesis. P(A|B) is the <strong>posterior</strong> -- updated belief after seeing evidence. P(B) is the <strong>evidence</strong>."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "If a dataset has mean = 100 and standard deviation = 15, what Z-score does a value of 130 have?",
+        "options": {"A": "1.0", "B": "2.0", "C": "3.0", "D": "0.5"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Z-score = (value - mean) / std = (130 - 100) / 15 = 30 / 15 = 2.0. This means 130 is exactly 2 standard deviations above the mean. According to the 68-95-99.7 rule, about 97.5% of values are below this point."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does a correlation of -0.95 between two variables indicate?",
+        "options": {"A": "No relationship", "B": "Strong positive relationship", "C": "Strong negative relationship", "D": "The variables are independent"},
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> A correlation of -0.95 indicates a very strong negative linear relationship: as one variable increases, the other strongly decreases. The magnitude (0.95) shows the relationship is very strong. Only a correlation near 0 indicates no linear relationship."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which measure of central tendency is most robust to outliers?",
+        "options": {"A": "Mean", "B": "Median", "C": "Mode", "D": "Variance"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The median (middle value when sorted) is robust to outliers because it only depends on the position, not the magnitude of extreme values. The mean is heavily influenced by outliers. Variance is a measure of spread, not central tendency."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "In PCA, eigenvalues of the covariance matrix represent:",
+        "options": {"A": "The direction of maximum variance", "B": "The amount of variance explained by each principal component", "C": "The number of features to keep", "D": "The correlation between features"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Eigenvalues represent the amount of variance in the direction of their corresponding eigenvectors. Larger eigenvalue = more variance explained. Eigenvectors (not eigenvalues) give the direction. PCA keeps components with the largest eigenvalues."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the partial derivative of f(x, y) = x^2 + 3xy with respect to x?",
+        "options": {"A": "2x + 3y", "B": "2x + 3x", "C": "x^2 + 3x", "D": "2x + y"},
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> To find the partial derivative with respect to x, treat y as a constant. d/dx(x^2) = 2x. d/dx(3xy) = 3y (y is constant). Total: 2x + 3y."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "For matrix multiplication A @ B to be valid, which dimensions must match?",
+        "options": {"A": "Number of rows of A must equal number of rows of B", "B": "Number of columns of A must equal number of rows of B", "C": "Both matrices must be square", "D": "Both matrices must have the same shape"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> For (m x n) @ (n x p), the inner dimensions (number of columns of A = number of rows of B) must match. The result has shape (m x p). The matrices do NOT need to be square or have the same shape."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "The gradient of f(w1, w2) = w1^2 + w2^2 at point (3, 4) is:",
+        "options": {"A": "[3, 4]", "B": "[6, 8]", "C": "[9, 16]", "D": "[2, 2]"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The gradient is [df/dw1, df/dw2] = [2*w1, 2*w2]. At (3, 4): gradient = [2*3, 2*4] = [6, 8]. This gradient points in the direction of steepest increase. Gradient descent would move in the opposite direction: [-6, -8] (scaled by learning rate)."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Easy",
+        "question": "P(A) + P(not A) always equals:",
+        "options": {"A": "0", "B": "0.5", "C": "1", "D": "It depends on the event"},
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> An event either happens or it does not. P(A) + P(not A) = 1 is one of the fundamental axioms of probability. If P(rain) = 0.3, then P(no rain) = 0.7, and 0.3 + 0.7 = 1."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "Which NumPy function computes the inverse of a matrix?",
+        "options": {"A": "np.inverse(A)", "B": "np.linalg.inv(A)", "C": "A.inv()", "D": "np.inv(A)"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Matrix operations in NumPy are in the <code>np.linalg</code> module. <code>np.linalg.inv(A)</code> computes the inverse. Other useful functions: <code>np.linalg.det(A)</code> for determinant, <code>np.linalg.eig(A)</code> for eigenvalues/eigenvectors, <code>np.linalg.norm(v)</code> for vector magnitude."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Why is the chain rule important in deep learning?",
+        "options": {"A": "It helps choose the right learning rate", "B": "It enables backpropagation to compute gradients through multiple layers", "C": "It determines the number of layers in a network", "D": "It prevents overfitting"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Neural networks are compositions of functions (layers). To train them, we need to know how each weight affects the final loss. The chain rule allows us to compute these gradients by multiplying derivatives through the chain of layers -- this process is called backpropagation."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Linear Algebra Operations Suite",
+        "difficulty": "Easy",
+        "description": "Create two 3D vectors a = [2, 3, 5] and b = [1, 4, 6]. Compute: (1) their dot product, (2) element-wise product, (3) magnitude of each, (4) cosine similarity. Print each result with a label.",
+        "sampleInput": "a = [2, 3, 5], b = [1, 4, 6]",
+        "sampleOutput": "Dot product: 44\nElement-wise: [2 12 30]\nMag a: 6.16, Mag b: 7.28\nCosine similarity: 0.9806",
+        "constraints": "Use NumPy for all calculations.",
+        "solution": "import numpy as np\n\na = np.array([2, 3, 5])\nb = np.array([1, 4, 6])\n\nprint(f\"Dot product: {np.dot(a, b)}\")\nprint(f\"Element-wise: {a * b}\")\nprint(f\"Mag a: {np.linalg.norm(a):.2f}, Mag b: {np.linalg.norm(b):.2f}\")\ncosine = np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))\nprint(f\"Cosine similarity: {cosine:.4f}\")"
+      },
+      {
+        "id": "cc-2",
+        "title": "Gradient Descent Visualizer",
+        "difficulty": "Medium",
+        "description": "Implement gradient descent to minimize f(x) = (x - 7)^2 + 2. Start at x = 0, use learning rate 0.15, run 25 steps. Print the step number, current x, f(x), and gradient every 5 steps. Verify convergence to x = 7.",
+        "sampleInput": "x_init = 0, lr = 0.15, steps = 25",
+        "sampleOutput": "Step 0: x=0.0000, f(x)=51.0000, grad=-14.0000\nStep 5: x=5.4143, f(x)=4.5126, grad=-3.1715\n...\nFinal: x=6.9757, f(x)=2.0006",
+        "constraints": "Print every 5th step. Round to 4 decimal places.",
+        "solution": "x = 0.0\nlr = 0.15\n\nfor i in range(25):\n    fx = (x - 7)**2 + 2\n    grad = 2 * (x - 7)\n    if i % 5 == 0:\n        print(f\"Step {i:2d}: x={x:.4f}, f(x)={fx:.4f}, grad={grad:.4f}\")\n    x = x - lr * grad\n\nprint(f\"\\nFinal: x={x:.4f}, f(x)={(x-7)**2 + 2:.4f}\")\nprint(f\"Expected: x=7.0000, f(x)=2.0000\")"
+      },
+      {
+        "id": "cc-3",
+        "title": "Bayes Theorem Calculator",
+        "difficulty": "Medium",
+        "description": "Write a function bayes(p_a, p_b_given_a, p_b_given_not_a) that computes P(A|B) using Bayes theorem. Test with: (1) Disease testing (P(disease)=0.01, P(pos|disease)=0.99, P(pos|healthy)=0.05), (2) Spam detection (P(spam)=0.4, P(word|spam)=0.7, P(word|not_spam)=0.1).",
+        "sampleInput": "bayes(0.01, 0.99, 0.05)",
+        "sampleOutput": "P(disease | positive test) = 0.1667\nP(spam | contains word) = 0.8235",
+        "constraints": "Function must handle any valid probabilities.",
+        "solution": "def bayes(p_a, p_b_given_a, p_b_given_not_a):\n    p_not_a = 1 - p_a\n    p_b = p_b_given_a * p_a + p_b_given_not_a * p_not_a\n    return (p_b_given_a * p_a) / p_b\n\n# Test 1: Disease testing\nresult1 = bayes(0.01, 0.99, 0.05)\nprint(f\"P(disease | positive test) = {result1:.4f}\")\n\n# Test 2: Spam detection\nresult2 = bayes(0.4, 0.7, 0.1)\nprint(f\"P(spam | contains word) = {result2:.4f}\")"
+      },
+      {
+        "id": "cc-4",
+        "title": "Statistics Dashboard",
+        "difficulty": "Medium",
+        "description": "Given marks of 15 students: [45, 67, 89, 92, 34, 78, 56, 91, 73, 82, 65, 88, 54, 71, 96], compute and display: mean, median, mode (use scipy), variance, std deviation, range, Q1, Q3, IQR. Also identify outliers using the IQR method (below Q1-1.5*IQR or above Q3+1.5*IQR).",
+        "sampleInput": "marks = [45, 67, 89, 92, 34, 78, 56, 91, 73, 82, 65, 88, 54, 71, 96]",
+        "sampleOutput": "Complete statistics dashboard with outlier detection",
+        "constraints": "Use NumPy. Show clear formatting.",
+        "solution": "import numpy as np\n\nmarks = np.array([45, 67, 89, 92, 34, 78, 56, 91, 73, 82, 65, 88, 54, 71, 96])\n\nprint('=== Statistics Dashboard ===')\nprint(f'Mean: {np.mean(marks):.2f}')\nprint(f'Median: {np.median(marks):.2f}')\nprint(f'Variance: {np.var(marks):.2f}')\nprint(f'Std Dev: {np.std(marks):.2f}')\nprint(f'Range: {np.ptp(marks)}')\n\nQ1 = np.percentile(marks, 25)\nQ3 = np.percentile(marks, 75)\nIQR = Q3 - Q1\n\nprint(f'Q1: {Q1}, Q3: {Q3}, IQR: {IQR}')\n\nlower = Q1 - 1.5 * IQR\nupper = Q3 + 1.5 * IQR\noutliers = marks[(marks < lower) | (marks > upper)]\n\nprint(f'Outlier bounds: [{lower:.1f}, {upper:.1f}]')\nprint(f'Outliers: {outliers if len(outliers) > 0 else \"None\"}')"
+      },
+      {
+        "id": "cc-5",
+        "title": "Normal Equation for Linear Regression",
+        "difficulty": "Hard",
+        "description": "Implement the normal equation w = (X^T X)^(-1) X^T y to solve linear regression. Create data for y = 3x + 7 + noise with 50 points. Add a bias column to X. Compute weights and print the learned equation. Compare with sklearn's LinearRegression.",
+        "sampleInput": "50 data points from y = 3x + 7 + noise",
+        "sampleOutput": "Normal equation: y = 2.98x + 7.12\nsklearn: y = 2.98x + 7.12",
+        "constraints": "Use np.linalg.inv() for the normal equation. Use random_state=42.",
+        "solution": "import numpy as np\nfrom sklearn.linear_model import LinearRegression\n\nnp.random.seed(42)\nx = np.random.uniform(0, 10, 50)\ny = 3 * x + 7 + np.random.normal(0, 2, 50)\n\n# Normal equation\nX = np.column_stack([np.ones(50), x])  # Add bias column\nw = np.linalg.inv(X.T @ X) @ X.T @ y\nprint(f'Normal equation: y = {w[1]:.2f}x + {w[0]:.2f}')\n\n# sklearn comparison\nmodel = LinearRegression()\nmodel.fit(x.reshape(-1, 1), y)\nprint(f'sklearn: y = {model.coef_[0]:.2f}x + {model.intercept_:.2f}')\nprint(f'Match: {np.allclose(w[1], model.coef_[0]) and np.allclose(w[0], model.intercept_)}')"
+      },
+      {
+        "id": "cc-6",
+        "title": "Multivariate Gradient Descent",
+        "difficulty": "Hard",
+        "description": "Implement gradient descent for linear regression with 2 features. Use synthetic data: y = 2*x1 + 3*x2 + 5 + noise. Start weights at [0, 0, 0] (bias, w1, w2). Use MSE as loss function. Run 1000 iterations with lr=0.01. Print the learned weights and compare with the true values.",
+        "sampleInput": "100 data points, y = 2*x1 + 3*x2 + 5 + noise",
+        "sampleOutput": "Learned: y = 2.01*x1 + 3.02*x2 + 4.98\nTrue: y = 2*x1 + 3*x2 + 5",
+        "constraints": "Normalize features before training. Print loss every 200 steps.",
+        "solution": "import numpy as np\n\nnp.random.seed(42)\nn = 100\nx1 = np.random.uniform(0, 10, n)\nx2 = np.random.uniform(0, 10, n)\ny = 2 * x1 + 3 * x2 + 5 + np.random.normal(0, 1, n)\n\n# Normalize features\nx1_norm = (x1 - x1.mean()) / x1.std()\nx2_norm = (x2 - x2.mean()) / x2.std()\nX = np.column_stack([np.ones(n), x1_norm, x2_norm])\n\nw = np.zeros(3)\nlr = 0.01\n\nfor i in range(1000):\n    y_pred = X @ w\n    error = y_pred - y\n    loss = np.mean(error ** 2)\n    gradient = (2 / n) * X.T @ error\n    w = w - lr * gradient\n    if i % 200 == 0:\n        print(f'Step {i}: Loss = {loss:.4f}')\n\nprint(f'\\nLearned weights (normalized): bias={w[0]:.2f}, w1={w[1]:.2f}, w2={w[2]:.2f}')\nprint(f'True equation: y = 2*x1 + 3*x2 + 5')"
+      }
+    ]
+  }
+}

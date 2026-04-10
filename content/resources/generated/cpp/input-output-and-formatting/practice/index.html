@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Input, Output, and Formatting | C++ | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="52+ practice questions on Input, Output, and Formatting in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="input, output, and formatting practice, c++ questions, c++ practice problems, input, output, and formatting exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting/practice">
+    <meta property="og:title" content="Practice Questions - Input, Output, and Formatting | C++ | Modern Age Coders">
+    <meta property="og:description" content="52+ practice questions on Input, Output, and Formatting in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting/practice">
+    <meta name="twitter:title" content="Practice Questions - Input, Output, and Formatting | C++ | Modern Age Coders">
+    <meta name="twitter:description" content="52+ practice questions on Input, Output, and Formatting in C++. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Input, Output, and Formatting",
+    "description": "52+ practice questions on Input, Output, and Formatting in C++.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Input, Output, and Formatting"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Input, Output, and Formatting",
+        "item": "https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/cpp/input-output-and-formatting/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp/input-output-and-formatting">Input, Output, and Formatting</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 5</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">52 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Input, Output, and Formatting</h1>
+            <a href="/resources/cpp/input-output-and-formatting" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; "Hello" &lt;&lt; " " &lt;&lt; "World" &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Multiple << operators chain outputs sequentially.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Hello World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; "Line 1" &lt;&lt; '\n' &lt;&lt; "Line 2" &lt;&lt; '\n';
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">'\n' inserts a newline character.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>Line 1</code><br><code>Line 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int a = 3, b = 7;
+    cout &lt;&lt; a &lt;&lt; "+" &lt;&lt; b &lt;&lt; "=" &lt;&lt; a + b &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">The expression a + b is evaluated before printing.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>3+7=10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main() {
+    double pi = 3.14159265;
+    cout &lt;&lt; fixed &lt;&lt; setprecision(2) &lt;&lt; pi &lt;&lt; endl;
+    cout &lt;&lt; setprecision(5) &lt;&lt; pi &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">fixed makes setprecision control decimal places. setprecision is persistent.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>3.14</code><br><code>3.14159</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; setw(8) &lt;&lt; 42 &lt;&lt; 99 &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">setw only affects the very next output.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>      4299</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; setfill('*') &lt;&lt; setw(10) &lt;&lt; 42 &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">setfill changes the padding character from space to '*'.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>********42</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; left &lt;&lt; setw(10) &lt;&lt; "Name" &lt;&lt; right &lt;&lt; setw(5) &lt;&lt; "Age" &lt;&lt; endl;
+    cout &lt;&lt; left &lt;&lt; setw(10) &lt;&lt; "Sneha" &lt;&lt; right &lt;&lt; setw(5) &lt;&lt; 20 &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">left/right control alignment within the setw field.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Name          Age</code><br><code>Sneha          20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between <code>endl</code> and <code>'\n'</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Both produce a newline, but one does extra work.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>endl</code> inserts a newline AND flushes the output buffer. <code>'\n'</code> only inserts a newline without flushing. In competitive programming, <code>'\n'</code> is preferred because flushing after every line is slow.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does <code>getline</code> read an empty string after <code>cin &gt;&gt;</code>? How do you fix it?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">cin >> leaves a character in the buffer.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>cin &gt;&gt;</code> reads a value but leaves the newline character (<code>'\n'</code>) in the input buffer. When <code>getline</code> is called next, it immediately finds that <code>'\n'</code> and returns an empty string. Fix: use <code>cin.ignore()</code> between <code>cin &gt;&gt;</code> and <code>getline</code> to discard the leftover newline.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What do <code>ios_base::sync_with_stdio(false)</code> and <code>cin.tie(NULL)</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">They disable two synchronization mechanisms for faster I/O.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>ios_base::sync_with_stdio(false)</code> disconnects C++ streams from C streams, removing synchronization overhead. <code>cin.tie(NULL)</code> unties cin from cout so cout is not flushed before every cin read. Together they make cin/cout as fast as scanf/printf. After using them, do NOT mix printf/scanf with cout/cin.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main() {
+    double x = 3.14159;
+    cout &lt;&lt; setprecision(3) &lt;&lt; x &lt;&lt; endl;
+    cout &lt;&lt; fixed &lt;&lt; setprecision(3) &lt;&lt; x &lt;&lt; endl;
+    cout &lt;&lt; scientific &lt;&lt; setprecision(3) &lt;&lt; x &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Without fixed/scientific, setprecision controls total significant digits.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>3.14</code><br><code>3.142</code><br><code>3.142e+00</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; boolalpha;
+    cout &lt;&lt; (5 &gt; 3) &lt;&lt; endl;
+    cout &lt;&lt; (5 &lt; 3) &lt;&lt; endl;
+    cout &lt;&lt; noboolalpha;
+    cout &lt;&lt; (5 &gt; 3) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">boolalpha prints true/false as words.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>true</code><br><code>false</code><br><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the difference between <code>cerr</code> and <code>cout</code>? When would you use <code>cerr</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Think about buffering and what happens during a crash.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>cout</code> writes to stdout and is <strong>buffered</strong> -- output may sit in a buffer before being displayed. <code>cerr</code> writes to stderr and is <strong>unbuffered</strong> -- output appears immediately. Use <code>cerr</code> for error messages (they appear even if the program crashes) and for debug output in competitive programming (judges only check stdout).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;cstdio&gt;
+int main() {
+    printf("%d + %d = %d\n", 3, 4, 3 + 4);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">%d is the format specifier for integers in printf.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>3 + 4 = 7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;cstdio&gt;
+int main() {
+    printf("%.3f\n", 3.14159);
+    printf("%10d\n", 42);
+    printf("%-10d|\n", 42);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">%.3f means 3 decimal places. %10d means right-aligned in 10 chars. %-10d means left-aligned.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>3.142</code><br><code>        42</code><br><code>42        |</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does <code>cin.clear()</code> do and when is it needed?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">What happens when cin >> expects an int but receives a letter?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>cin.clear()</code> resets the error flags on the cin stream. When <code>cin &gt;&gt;</code> fails (e.g., user enters 'abc' when an int is expected), cin enters a <strong>fail state</strong>. All subsequent cin reads silently fail. <code>cin.clear()</code> resets this state. You also need <code>cin.ignore()</code> to clear the bad input from the buffer.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = 42;
+    cout &lt;&lt; "x" &lt;&lt; endl;
+    cout &lt;&lt; x &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">"x" is a string literal. x (without quotes) is the variable.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>x</code><br><code>42</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; setfill('0');
+    for (int i = 1; i &lt;= 3; i++) {
+        cout &lt;&lt; setw(4) &lt;&lt; i &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">setfill('0') persists. setw(4) must be repeated for each output.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>0001</code><br><code>0002</code><br><code>0003</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; "A" &lt;&lt; endl;
+    cerr &lt;&lt; "B" &lt;&lt; endl;
+    cout &lt;&lt; "C" &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">cerr writes to stderr, cout writes to stdout. Both appear on screen.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>A</code><br><code>B</code><br><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; "Hello\tWorld\n";
+    cout &lt;&lt; "Line\\2" &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">\t is tab, \n is newline, \\ is a literal backslash.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>Hello	World</code><br><code>Line\2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main() {
+    double x = 0.1 + 0.2;
+    cout &lt;&lt; x &lt;&lt; endl;
+    cout &lt;&lt; fixed &lt;&lt; setprecision(17) &lt;&lt; x &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">0.1 and 0.2 cannot be represented exactly in binary floating point.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>0.3</code><br><code>0.30000000000000004</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a program that reads a student's name (full name with spaces), roll number (integer), and CGPA (decimal). Print them in a formatted way.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Use cin >> for roll number, cin.ignore() + getline for name.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><pre><code>#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    int roll;
+    string name;
+    double cgpa;
+    cout &lt;&lt; "Enter roll number: ";
+    cin &gt;&gt; roll;
+    cin.ignore();
+    cout &lt;&lt; "Enter full name: ";
+    getline(cin, name);
+    cout &lt;&lt; "Enter CGPA: ";
+    cin &gt;&gt; cgpa;
+    cout &lt;&lt; "Roll: " &lt;&lt; roll &lt;&lt; endl;
+    cout &lt;&lt; "Name: " &lt;&lt; name &lt;&lt; endl;
+    cout &lt;&lt; "CGPA: " &lt;&lt; fixed &lt;&lt; setprecision(2) &lt;&lt; cgpa &lt;&lt; endl;
+    return 0;
+}</code></pre>
+Input: 101, Amit Kumar, 8.75
+Output:
+Roll: 101
+Name: Amit Kumar
+CGPA: 8.75</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; setw(5) &lt;&lt; left &lt;&lt; 1 &lt;&lt; setw(5) &lt;&lt; left &lt;&lt; 2 &lt;&lt; setw(5) &lt;&lt; left &lt;&lt; 3 &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Each number is left-aligned in a 5-character field.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>1    2    3    </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int x = 5;
+    cout &lt;&lt; "Value: " &lt;&lt; x &lt;&lt; ", Double: " &lt;&lt; x * 2;
+    cout &lt;&lt; '\n';
+    cout &lt;&lt; "Address size: " &lt;&lt; sizeof(&amp;x) &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">&x is a pointer. sizeof a pointer depends on the system (32-bit vs 64-bit).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>Value: 5, Double: 10</code><br><code>Address size: 8</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a program that reads n floating-point numbers and prints each with exactly 4 decimal places, right-aligned in a field of width 12.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Use fixed, setprecision(4), and setw(12) for each number.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><pre><code>#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main() {
+    int n;
+    cin &gt;&gt; n;
+    cout &lt;&lt; fixed &lt;&lt; setprecision(4);
+    for (int i = 0; i &lt; n; i++) {
+        double x;
+        cin &gt;&gt; x;
+        cout &lt;&lt; setw(12) &lt;&lt; x &lt;&lt; '\n';
+    }
+    return 0;
+}</code></pre>
+Input: 3 3.14 100.5 0.001
+Output:
+      3.1400
+    100.5000
+      0.0010</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why should you not use <code>endl</code> in competitive programming? What should you use instead?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Think about what endl does beyond adding a newline.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>endl</code> inserts a newline AND flushes the output buffer. Flushing forces the OS to write buffered data to the screen immediately. When printing millions of lines, this flush operation after each line causes a massive slowdown (5-10x). Use <code>'\n'</code> instead, which only adds a newline. The buffer flushes automatically when the program ends.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;cstdio&gt;
+int main() {
+    printf("%05d\n", 42);
+    printf("%8.2f\n", 3.14159);
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">%05d means zero-padded to 5 digits. %8.2f means 8 chars wide with 2 decimal places.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>00042</code><br><code>    3.14</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main() {
+    double d = 123456789.123456789;
+    cout &lt;&lt; d &lt;&lt; endl;
+    cout &lt;&lt; fixed &lt;&lt; setprecision(9) &lt;&lt; d &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">double has ~15 significant digits. The number has 18 digits total.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>1.23457e+08</code><br><code>123456789.123456791</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a program that keeps reading integers until the user enters a non-integer (like a letter). Use cin.fail() to detect bad input and cin.clear() + cin.ignore() to recover. Print the sum of valid integers.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">After cin >> fails, cin.fail() returns true.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>#include &lt;iostream&gt;
+#include &lt;limits&gt;
+using namespace std;
+int main() {
+    int sum = 0, x;
+    cout &lt;&lt; "Enter integers (non-integer to stop): ";
+    while (cin &gt;&gt; x) {
+        sum += x;
+    }
+    cout &lt;&lt; "Sum: " &lt;&lt; sum &lt;&lt; endl;
+    return 0;
+}</code></pre>
+Input: 10 20 30 abc
+Output: Sum: 60</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    cout &lt;&lt; "Tab:\tEnd" &lt;&lt; endl;
+    cout &lt;&lt; "Quote: \"hello\"" &lt;&lt; endl;
+    cout &lt;&lt; "Backslash: \\" &lt;&lt; endl;
+    cout &lt;&lt; "Null char: " &lt;&lt; '\0' &lt;&lt; "end" &lt;&lt; endl;
+    return 0;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Escape sequences: \t, \", \\, \0.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>Tab:	End</code><br><code>Quote: "hello"</code><br><code>Backslash: \</code><br><code>Null char: end</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which header file is needed for <code>setw</code> and <code>setprecision</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;iostream&gt;</li><li><span class="mcq-option-label">B.</span> &lt;iomanip&gt;</li><li><span class="mcq-option-label">C.</span> &lt;cstdio&gt;</li><li><span class="mcq-option-label">D.</span> &lt;string&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>&lt;iomanip&gt;</code> (input/output manipulation) provides <code>setw</code>, <code>setprecision</code>, <code>setfill</code>, <code>fixed</code>, <code>left</code>, <code>right</code>, and other formatting manipulators.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does <code>cin.ignore()</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Ignores the next cin statement</li><li><span class="mcq-option-label">B.</span> Discards one character from the input buffer</li><li><span class="mcq-option-label">C.</span> Clears the error state of cin</li><li><span class="mcq-option-label">D.</span> Resets cin to its default state</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>cin.ignore()</code> discards one character from the input buffer. It is commonly used to remove the leftover newline after <code>cin &gt;&gt;</code> before calling <code>getline</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does <code>endl</code> do that <code>'\n'</code> does not?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Inserts two newlines</li><li><span class="mcq-option-label">B.</span> Flushes the output buffer</li><li><span class="mcq-option-label">C.</span> Resets formatting</li><li><span class="mcq-option-label">D.</span> Clears the screen</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>endl</code> inserts a newline AND flushes the output buffer. <code>'\n'</code> only inserts a newline. Flushing forces buffered output to appear on screen immediately.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which stream is unbuffered?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> cout</li><li><span class="mcq-option-label">B.</span> cin</li><li><span class="mcq-option-label">C.</span> cerr</li><li><span class="mcq-option-label">D.</span> clog</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>cerr</code> is unbuffered -- output appears immediately. <code>cout</code> and <code>clog</code> are buffered. This makes <code>cerr</code> reliable for error messages even if the program crashes.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does <code>cin >> x</code> stop reading at?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> End of line only</li><li><span class="mcq-option-label">B.</span> First whitespace character (space, tab, or newline)</li><li><span class="mcq-option-label">C.</span> End of file only</li><li><span class="mcq-option-label">D.</span> After exactly one character</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>cin &gt;&gt;</code> skips leading whitespace and reads until the next whitespace character. This is why it cannot read full names with spaces -- it stops at the first space.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which manipulator is NOT persistent (resets after one use)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> fixed</li><li><span class="mcq-option-label">B.</span> setprecision</li><li><span class="mcq-option-label">C.</span> setw</li><li><span class="mcq-option-label">D.</span> setfill</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>setw</code> only affects the very next output and then resets. All other listed manipulators (<code>fixed</code>, <code>setprecision</code>, <code>setfill</code>) are persistent -- they stay in effect until changed.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does <code>ios_base::sync_with_stdio(false)</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Makes I/O asynchronous</li><li><span class="mcq-option-label">B.</span> Disconnects C++ streams from C streams for faster I/O</li><li><span class="mcq-option-label">C.</span> Disables all buffering</li><li><span class="mcq-option-label">D.</span> Enables multi-threaded I/O</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> It disconnects C++ streams (cin/cout) from C streams (stdin/stdout), removing synchronization overhead. This makes C++ I/O significantly faster but prevents mixing C and C++ I/O.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is the printf format specifier for printing a double with 2 decimal places?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> %d</li><li><span class="mcq-option-label">B.</span> %2f</li><li><span class="mcq-option-label">C.</span> %.2f</li><li><span class="mcq-option-label">D.</span> %f2</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>%.2f</code> prints a floating-point number with exactly 2 decimal places. <code>%d</code> is for integers. <code>%2f</code> means minimum width 2 (not 2 decimal places).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">After <code>cin >> n</code> followed by <code>getline(cin, s)</code>, what does s contain?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The next line of input</li><li><span class="mcq-option-label">B.</span> An empty string</li><li><span class="mcq-option-label">C.</span> The same value as n</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>cin &gt;&gt; n</code> leaves the newline in the buffer. <code>getline</code> reads that newline immediately and stores an empty string. Fix with <code>cin.ignore()</code> between them.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What does <code>cin.tie(NULL)</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Ties cin to a file</li><li><span class="mcq-option-label">B.</span> Prevents cout from being flushed before cin reads</li><li><span class="mcq-option-label">C.</span> Disables cin completely</li><li><span class="mcq-option-label">D.</span> Makes cin read from stderr</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> By default, cout is flushed before every cin operation (so prompts appear before input). <code>cin.tie(NULL)</code> removes this tie, preventing automatic flushing. This speeds up I/O in competitive programming.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What does <code>cout << fixed << setprecision(0) << 3.7;</code> print?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 3</li><li><span class="mcq-option-label">B.</span> 4</li><li><span class="mcq-option-label">C.</span> 3.7</li><li><span class="mcq-option-label">D.</span> 3.</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>fixed</code> with <code>setprecision(0)</code> means zero decimal places. The value 3.7 is rounded to the nearest integer: 4. Note this is rounding, not truncation.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Which of the following is TRUE about mixing C and C++ I/O after <code>sync_with_stdio(false)</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It is perfectly safe</li><li><span class="mcq-option-label">B.</span> It causes compilation error</li><li><span class="mcq-option-label">C.</span> Output may be interleaved or out of order</li><li><span class="mcq-option-label">D.</span> It only affects input, not output</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> After disabling synchronization, C streams (printf/stdout) and C++ streams (cout) maintain separate buffers. Output may appear in unexpected order. It compiles fine but produces undefined output ordering.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does <code>getline(cin, s)</code> do that <code>cin >> s</code> does not?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Reads until end of file</li><li><span class="mcq-option-label">B.</span> Reads the entire line including spaces</li><li><span class="mcq-option-label">C.</span> Reads exactly one character</li><li><span class="mcq-option-label">D.</span> Reads binary data</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>cin >> s</code> stops reading at the first whitespace. <code>getline(cin, s)</code> reads until the newline character, capturing spaces and tabs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does <code>setprecision(3)</code> do WITHOUT <code>fixed</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Shows 3 decimal places</li><li><span class="mcq-option-label">B.</span> Shows 3 total significant digits</li><li><span class="mcq-option-label">C.</span> Rounds to nearest 3</li><li><span class="mcq-option-label">D.</span> No effect</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> Without <code>fixed</code>, <code>setprecision(n)</code> controls the total number of significant digits. For example, <code>setprecision(3)</code> displays 3.14159 as 3.14 (3 significant digits).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the printf format specifier for <code>long long</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> %d</li><li><span class="mcq-option-label">B.</span> %ld</li><li><span class="mcq-option-label">C.</span> %lld</li><li><span class="mcq-option-label">D.</span> %f</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>%lld</code> is the format specifier for <code>long long</code> in printf/scanf. <code>%d</code> is for int, <code>%ld</code> is for long. Using the wrong specifier causes undefined behavior.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Which escape sequence produces a tab character?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> \n</li><li><span class="mcq-option-label">B.</span> \t</li><li><span class="mcq-option-label">C.</span> \s</li><li><span class="mcq-option-label">D.</span> \b</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>\t</code> is the tab character. <code>\n</code> is newline. <code>\b</code> is backspace. <code>\s</code> is not a valid escape sequence in C++.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Formatted Student Report Card</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Read a student's name (full name with spaces), roll number, and marks in 5 subjects. Print a formatted report card with the name, roll number, each subject mark (2 decimal places), total, and percentage. Use setw for alignment.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">101
+Meera Krishnan
+85.5 90.0 78.5 92.0 88.5</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Roll Number: 101
+Student Name: Meera Krishnan
+--------------------------
+Subject 1:        85.50
+Subject 2:        90.00
+Subject 3:        78.50
+Subject 4:        92.00
+Subject 5:        88.50
+--------------------------
+Total:           434.50
+Percentage:       86.90%</div>
+                </div><div class="challenge-constraints">Use cin.ignore() between cin &gt;&gt; and getline. Use fixed, setprecision(2), and setw for formatting.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    int roll;
+    string name;
+    double marks[5], total = 0;
+    cin &gt;&gt; roll;
+    cin.ignore();
+    getline(cin, name);
+    for (int i = 0; i &lt; 5; i++) {
+        cin &gt;&gt; marks[i];
+        total += marks[i];
+    }
+    cout &lt;&lt; &quot;Roll Number: &quot; &lt;&lt; roll &lt;&lt; endl;
+    cout &lt;&lt; &quot;Student Name: &quot; &lt;&lt; name &lt;&lt; endl;
+    cout &lt;&lt; &quot;--------------------------&quot; &lt;&lt; endl;
+    cout &lt;&lt; fixed &lt;&lt; setprecision(2);
+    for (int i = 0; i &lt; 5; i++) {
+        cout &lt;&lt; &quot;Subject &quot; &lt;&lt; i + 1 &lt;&lt; &quot;:&quot; &lt;&lt; setw(13) &lt;&lt; marks[i] &lt;&lt; endl;
+    }
+    cout &lt;&lt; &quot;--------------------------&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Total:&quot; &lt;&lt; setw(16) &lt;&lt; total &lt;&lt; endl;
+    cout &lt;&lt; &quot;Percentage:&quot; &lt;&lt; setw(11) &lt;&lt; (total / 5.0) &lt;&lt; &quot;%&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Multiplication Table Formatter</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Read an integer n and print its multiplication table from 1 to 10. Each line should be formatted as: n x i = result, with the result right-aligned in a field of width 4.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">7</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">7 x  1 =    7
+7 x  2 =   14
+7 x  3 =   21
+...
+7 x 10 =   70</div>
+                </div><div class="challenge-constraints">Use setw for alignment of both the multiplier and the result.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main() {
+    int n;
+    cin &gt;&gt; n;
+    for (int i = 1; i &lt;= 10; i++) {
+        cout &lt;&lt; n &lt;&lt; &quot; x &quot; &lt;&lt; setw(2) &lt;&lt; i &lt;&lt; &quot; = &quot; &lt;&lt; setw(4) &lt;&lt; n * i &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Interactive Calculator with Error Recovery</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a calculator that reads two numbers and an operator (+, -, *, /). Handle division by zero and invalid input. If cin fails (user enters a non-number), use cin.clear() and cin.ignore() to recover and prompt again.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">10 / 3</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">10 / 3 = 3.33</div>
+                </div><div class="challenge-constraints">Use cin.fail(), cin.clear(), cin.ignore(). Print result with 2 decimal places. Handle division by zero.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+#include &lt;limits&gt;
+using namespace std;
+int main() {
+    double a, b;
+    char op;
+    cout &lt;&lt; &quot;Enter: number operator number&quot; &lt;&lt; endl;
+    while (!(cin &gt;&gt; a &gt;&gt; op &gt;&gt; b)) {
+        cout &lt;&lt; &quot;Invalid input. Try again: &quot; &lt;&lt; endl;
+        cin.clear();
+        cin.ignore(numeric_limits&lt;streamsize&gt;::max(), &#39;\n&#39;);
+    }
+    cout &lt;&lt; fixed &lt;&lt; setprecision(2);
+    if (op == &#39;+&#39;) cout &lt;&lt; a &lt;&lt; &quot; + &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; a + b &lt;&lt; endl;
+    else if (op == &#39;-&#39;) cout &lt;&lt; a &lt;&lt; &quot; - &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; a - b &lt;&lt; endl;
+    else if (op == &#39;*&#39;) cout &lt;&lt; a &lt;&lt; &quot; * &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; a * b &lt;&lt; endl;
+    else if (op == &#39;/&#39;) {
+        if (b == 0) cout &lt;&lt; &quot;Error: Division by zero&quot; &lt;&lt; endl;
+        else cout &lt;&lt; a &lt;&lt; &quot; / &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; a / b &lt;&lt; endl;
+    } else cout &lt;&lt; &quot;Unknown operator&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Fast I/O Speed Test</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a program that reads t test cases. For each test case, read n and then n integers. Print the sum of each test case on a new line. Use fast I/O (sync_with_stdio, cin.tie) and '\n' instead of endl.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">2
+3 1 2 3
+4 10 20 30 40</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">6
+100</div>
+                </div><div class="challenge-constraints">Must use ios_base::sync_with_stdio(false) and cin.tie(NULL). Must use &#39;\n&#39; instead of endl.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int t;
+    cin &gt;&gt; t;
+    while (t--) {
+        int n;
+        cin &gt;&gt; n;
+        long long sum = 0;
+        for (int i = 0; i &lt; n; i++) {
+            int x;
+            cin &gt;&gt; x;
+            sum += x;
+        }
+        cout &lt;&lt; sum &lt;&lt; &#39;\n&#39;;
+    }
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Receipt Printer</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program that reads the number of items n, then for each item reads the name (may contain spaces) and price. Print a formatted receipt with item names left-aligned in 20 chars, prices right-aligned in 10 chars (2 decimal places), a separator line, and the total.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">3
+Masala Dosa
+120.00
+Filter Coffee
+40.50
+Gulab Jamun
+60.00</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">-------- RECEIPT --------
+Masala Dosa              120.00
+Filter Coffee             40.50
+Gulab Jamun               60.00
+------------------------------
+Total                    220.50</div>
+                </div><div class="challenge-constraints">Use getline for names, cin &gt;&gt; for prices, cin.ignore() between them. Use iomanip for formatting.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    int n;
+    cin &gt;&gt; n;
+    cin.ignore();
+    string names[100];
+    double prices[100];
+    double total = 0;
+    for (int i = 0; i &lt; n; i++) {
+        getline(cin, names[i]);
+        cin &gt;&gt; prices[i];
+        cin.ignore();
+        total += prices[i];
+    }
+    cout &lt;&lt; &quot;-------- RECEIPT --------&quot; &lt;&lt; endl;
+    cout &lt;&lt; fixed &lt;&lt; setprecision(2);
+    for (int i = 0; i &lt; n; i++) {
+        cout &lt;&lt; left &lt;&lt; setw(20) &lt;&lt; names[i] &lt;&lt; right &lt;&lt; setw(10) &lt;&lt; prices[i] &lt;&lt; endl;
+    }
+    cout &lt;&lt; &quot;------------------------------&quot; &lt;&lt; endl;
+    cout &lt;&lt; left &lt;&lt; setw(20) &lt;&lt; &quot;Total&quot; &lt;&lt; right &lt;&lt; setw(10) &lt;&lt; total &lt;&lt; endl;
+    return 0;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Number Base Converter</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program that reads an integer and prints it in decimal, octal, hexadecimal (lowercase and uppercase) using cout manipulators (dec, oct, hex, uppercase). Also print using printf format specifiers.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">255</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Decimal:     255
+Octal:       377
+Hex (lower): ff
+Hex (upper): FF</div>
+                </div><div class="challenge-constraints">Use cout with dec, oct, hex, uppercase manipulators. Also demonstrate printf with %d, %o, %x, %X.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+#include &lt;cstdio&gt;
+using namespace std;
+int main() {
+    int n;
+    cin &gt;&gt; n;
+    cout &lt;&lt; &quot;Decimal:     &quot; &lt;&lt; dec &lt;&lt; n &lt;&lt; endl;
+    cout &lt;&lt; &quot;Octal:       &quot; &lt;&lt; oct &lt;&lt; n &lt;&lt; endl;
+    cout &lt;&lt; &quot;Hex (lower): &quot; &lt;&lt; hex &lt;&lt; n &lt;&lt; endl;
+    cout &lt;&lt; &quot;Hex (upper): &quot; &lt;&lt; hex &lt;&lt; uppercase &lt;&lt; n &lt;&lt; endl;
+    cout &lt;&lt; nouppercase &lt;&lt; dec;
+    printf(&quot;\nUsing printf:\n&quot;);
+    printf(&quot;Decimal:     %d\n&quot;, n);
+    printf(&quot;Octal:       %o\n&quot;, n);
+    printf(&quot;Hex (lower): %x\n&quot;, n);
+    printf(&quot;Hex (upper): %X\n&quot;, n);
+    return 0;
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/cpp/operators-in-cpp/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Operators in C++</span>
+        </a>
+            <a href="/resources/cpp/conditional-statements/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Conditional Statements (if, else, switch)</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/cpp/input-output-and-formatting" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

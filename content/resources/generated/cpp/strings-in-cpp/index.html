@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings - C-style and std::string - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Master C-strings, std::string methods, string manipulation, comparison, and common string algorithms.">
+    <meta name="keywords" content="strings - c-style and std::string, c++ tutorial, c++ strings - c-style and std::string, learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/strings-in-cpp">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/strings-in-cpp">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/strings-in-cpp">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/strings-in-cpp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/strings-in-cpp">
+    <meta property="og:title" content="Strings - C-style and std::string - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Master C-strings, std::string methods, string manipulation, comparison, and common string algorithms.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/strings-in-cpp">
+    <meta name="twitter:title" content="Strings - C-style and std::string - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Master C-strings, std::string methods, string manipulation, comparison, and common string algorithms.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Strings - C-style and std::string",
+    "description": "Master C-strings, std::string methods, string manipulation, comparison, and common string algorithms.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/strings-in-cpp"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/strings-in-cpp"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Strings - C-style and std::string",
+        "item": "https://learn.modernagecoders.com/resources/cpp/strings-in-cpp"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Comparing C-strings with == (Compares Pointers, Not Content)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For C-strings, <code>==</code> compares the memory addresses of the two arrays, which are different. Use <code>strcmp(s1, s2) == 0</code> to compare content. For <code>std::string</code>, the <code>==</code> operator IS overloaded to compare content, so <code>s1 == s2</code> works correctly."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Buffer Overflow with strcpy/strcat",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>strcpy</code> and <code>strcat</code> do NOT check if the destination has enough space. Writing past the buffer is a <strong>buffer overflow</strong> -- one of the most common security vulnerabilities in C/C++. Use <code>strncpy</code> for bounded copy, or better yet, use <code>std::string</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting that string::find Returns string::npos, Not -1",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>string::find</code> returns <code>size_t</code> (unsigned). When not found, it returns <code>string::npos</code> (the maximum <code>size_t</code> value). Comparing with <code>-1</code> works because <code>-1</code> converts to the same value, but it is better practice to use <code>string::npos</code> explicitly."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Modifying String Literal (Undefined Behavior)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>char* s = \"Hello\"</code> makes s point to a string literal in read-only memory. <code>char s[] = \"Hello\"</code> copies the literal into a writable local array. Modern compilers warn about the former and require <code>const char*</code>."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Strings - C-style and std::string</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 10</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">30 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Strings - C-style and std::string</h1>
+            <a href="/resources/cpp/strings-in-cpp/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Strings in C++?</h2><p>A <strong>string</strong> is a sequence of characters. C++ has two string systems: <strong>C-style strings</strong> (inherited from C) and <strong>std::string</strong> (from the C++ Standard Library). Understanding both is essential because C-style strings teach you how strings work at the memory level, and <code>std::string</code> is what you use in practice.</p><h3>C-style Strings</h3><p>A C-string is a <code>char</code> array terminated by a null character <code>'\0'</code>. When you write <code>char s[] = "Hello";</code>, the compiler creates an array of 6 characters: <code>{'H', 'e', 'l', 'l', 'o', '\0'}</code>. The null terminator tells functions like <code>strlen</code> and <code>cout</code> where the string ends. Without it, they would read past the array into garbage memory.</p><h3>std::string</h3><p><code>std::string</code> is a class from the <code>&lt;string&gt;</code> header. It manages memory automatically (no manual null terminator management), supports dynamic resizing, and provides rich member functions. It stores the length internally, so <code>length()</code> is O(1) unlike <code>strlen()</code> which is O(n).</p><h3>Comparison at a Glance</h3><table><tr><th>Feature</th><th>C-string (char[])</th><th>std::string</th></tr><tr><td>Declaration</td><td><code>char s[] = "Hi";</code></td><td><code>string s = "Hi";</code></td></tr><tr><td>Null terminator</td><td>Required (<code>'\0'</code>)</td><td>Managed internally</td></tr><tr><td>Size</td><td>Fixed (array size)</td><td>Dynamic (can grow)</td></tr><tr><td>Length</td><td><code>strlen(s)</code> -- O(n)</td><td><code>s.length()</code> -- O(1)</td></tr><tr><td>Concatenation</td><td><code>strcat(s1, s2)</code></td><td><code>s1 + s2</code> or <code>s1 += s2</code></td></tr><tr><td>Comparison</td><td><code>strcmp(s1, s2)</code></td><td><code>s1 == s2</code>, <code>s1 < s2</code></td></tr><tr><td>Safety</td><td>Buffer overflow risk</td><td>Safe (manages memory)</td></tr><tr><td>Header</td><td><code>&lt;cstring&gt;</code></td><td><code>&lt;string&gt;</code></td></tr></table>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Master Both String Types?</h2><h3>1. Competitive Programming</h3><p>String manipulation is a major category in CP: palindrome checking, anagram detection, pattern matching, string hashing, and parsing. Most CP solutions use <code>std::string</code> for convenience, but understanding C-strings helps with low-level tricks like char arithmetic for case conversion and digit extraction.</p><h3>2. Interviews</h3><p>String questions are among the most common in placement interviews. "Reverse a string in-place", "check if two strings are anagrams", "find the first non-repeating character", "longest palindromic substring" -- these appear at every level from TCS to Google. Interviewers expect you to handle both C-string and std::string operations.</p><h3>3. Real-world C++ Code</h3><p>Production C++ code uses <code>std::string</code> extensively, but many libraries and APIs (especially OS-level APIs) use C-strings (<code>const char*</code>). The <code>c_str()</code> method bridges the two worlds. Understanding both is necessary for working with real codebases.</p><h3>4. Memory Understanding</h3><p>C-strings teach you about null-terminated buffers, buffer overflow vulnerabilities, and why <code>strcpy</code> is dangerous. These concepts are fundamental for systems programming and security.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>C-strings: char Arrays and \0</h3><p>A C-string is a <code>char</code> array where the last character is <code>'\0'</code> (null, ASCII 0). Declare with: <code>char s[] = "Hello";</code> (compiler adds <code>'\0'</code> automatically). You can also declare: <code>char s[10] = "Hello";</code> (remaining slots are '\0'). The key functions from <code>&lt;cstring&gt;</code>:</p><ul><li><code>strlen(s)</code>: Returns the number of characters before <code>'\0'</code>. O(n) because it scans until null.</li><li><code>strcpy(dest, src)</code>: Copies src into dest including <code>'\0'</code>. <strong>Dangerous</strong>: no bounds checking.</li><li><code>strcat(dest, src)</code>: Appends src to the end of dest. <strong>Dangerous</strong>: dest must have enough space.</li><li><code>strcmp(s1, s2)</code>: Returns 0 if equal, negative if s1 < s2, positive if s1 > s2 (lexicographic).</li></ul><h3>std::string Operations</h3><p>Include <code>&lt;string&gt;</code> and use <code>string</code> (which is <code>std::string</code> with <code>using namespace std</code>).</p><ul><li><code>s.length()</code> or <code>s.size()</code>: Number of characters. O(1).</li><li><code>s.at(i)</code>: Character at index i with bounds checking. Throws <code>out_of_range</code> if invalid.</li><li><code>s[i]</code>: Character at index i without bounds checking. Faster but unsafe.</li><li><code>s.substr(pos, len)</code>: Returns a substring starting at <code>pos</code> of length <code>len</code>.</li><li><code>s.find("abc")</code>: Returns the index of the first occurrence, or <code>string::npos</code> if not found.</li><li><code>s.replace(pos, len, "new")</code>: Replaces <code>len</code> characters starting at <code>pos</code> with "new".</li><li><code>s.append("xyz")</code> or <code>s += "xyz"</code>: Appends to the end.</li><li><code>s.insert(pos, "abc")</code>: Inserts "abc" at position <code>pos</code>.</li><li><code>s.erase(pos, len)</code>: Removes <code>len</code> characters starting at <code>pos</code>.</li><li><code>s.c_str()</code>: Returns a <code>const char*</code> (C-string). Needed for C APIs and printf.</li></ul><h3>String Input: getline</h3><p><code>cin &gt;&gt; s</code> reads until whitespace (cannot read names with spaces). <code>getline(cin, s)</code> reads the entire line including spaces. Remember the <code>cin.ignore()</code> trick when switching from <code>cin &gt;&gt;</code> to <code>getline</code>.</p><h3>Conversions: stoi, stof, to_string</h3><ul><li><code>stoi("123")</code>: String to int. Throws <code>invalid_argument</code> if conversion fails.</li><li><code>stol("123")</code>: String to long.</li><li><code>stoll("123")</code>: String to long long.</li><li><code>stof("3.14")</code>: String to float.</li><li><code>stod("3.14")</code>: String to double.</li><li><code>to_string(42)</code>: Int/float/double to string.</li></ul><h3>String Iteration</h3><p>You can iterate over a string like an array:</p><ul><li>Index-based: <code>for (int i = 0; i &lt; s.length(); i++) { cout &lt;&lt; s[i]; }</code></li><li>Range-based: <code>for (char c : s) { cout &lt;&lt; c; }</code></li><li>By reference (modifiable): <code>for (char &amp;c : s) { c = toupper(c); }</code></li></ul><h3>Common String Algorithms</h3><p><strong>Reverse a string:</strong> Use two pointers from both ends, or use <code>reverse(s.begin(), s.end())</code> from <code>&lt;algorithm&gt;</code>.</p><p><strong>Palindrome check:</strong> Compare s with its reverse, or use two pointers from both ends checking if characters match.</p><p><strong>Count vowels:</strong> Iterate and check if each character is a/e/i/o/u (case-insensitive).</p><p><strong>Anagram check:</strong> Two strings are anagrams if they have the same character frequencies. Sort both and compare, or use a frequency array of size 26.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">C-strings: Declaration, strlen, strcpy, strcat, strcmp</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;cstring&gt;
+using namespace std;
+
+int main() {
+    // Declaration
+    char s1[] = &quot;Hello&quot;;
+    char s2[20] = &quot;World&quot;;
+    char s3[50];
+
+    // strlen: length without null terminator
+    cout &lt;&lt; &quot;strlen(\&quot;Hello\&quot;) = &quot; &lt;&lt; strlen(s1) &lt;&lt; endl;  // 5
+    cout &lt;&lt; &quot;sizeof(\&quot;Hello\&quot;) = &quot; &lt;&lt; sizeof(s1) &lt;&lt; endl;   // 6 (includes \0)
+
+    // strcpy: copy s1 into s3
+    strcpy(s3, s1);
+    cout &lt;&lt; &quot;After strcpy: s3 = &quot; &lt;&lt; s3 &lt;&lt; endl;  // Hello
+
+    // strcat: append s2 to s3
+    strcat(s3, &quot; &quot;);
+    strcat(s3, s2);
+    cout &lt;&lt; &quot;After strcat: s3 = &quot; &lt;&lt; s3 &lt;&lt; endl;  // Hello World
+
+    // strcmp: comparison
+    cout &lt;&lt; &quot;strcmp(\&quot;abc\&quot;, \&quot;abd\&quot;): &quot; &lt;&lt; strcmp(&quot;abc&quot;, &quot;abd&quot;) &lt;&lt; endl;  // Negative
+    cout &lt;&lt; &quot;strcmp(\&quot;abc\&quot;, \&quot;abc\&quot;): &quot; &lt;&lt; strcmp(&quot;abc&quot;, &quot;abc&quot;) &lt;&lt; endl;  // 0
+    cout &lt;&lt; &quot;strcmp(\&quot;abd\&quot;, \&quot;abc\&quot;): &quot; &lt;&lt; strcmp(&quot;abd&quot;, &quot;abc&quot;) &lt;&lt; endl;  // Positive
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>strlen</code> counts characters until <code>'\0'</code> (5, not 6). <code>sizeof</code> includes the null terminator (6). <code>strcpy</code> copies the entire string including <code>'\0'</code>. <code>strcat</code> appends at the position of the existing null terminator. <code>strcmp</code> returns 0 for equal, negative if first is less, positive if first is greater (lexicographic comparison).</div><div class="code-example-output">strlen(&quot;Hello&quot;) = 5
+sizeof(&quot;Hello&quot;) = 6
+After strcpy: s3 = Hello
+After strcat: s3 = Hello World
+strcmp(&quot;abc&quot;, &quot;abd&quot;): -1
+strcmp(&quot;abc&quot;, &quot;abc&quot;): 0
+strcmp(&quot;abd&quot;, &quot;abc&quot;): 1</div></div>
+<div class="code-example"><div class="code-example-title">std::string Operations</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+int main() {
+    string s = &quot;Hello, World!&quot;;
+
+    // Length
+    cout &lt;&lt; &quot;Length: &quot; &lt;&lt; s.length() &lt;&lt; endl;  // 13
+
+    // Access
+    cout &lt;&lt; &quot;s[0] = &quot; &lt;&lt; s[0] &lt;&lt; endl;         // H
+    cout &lt;&lt; &quot;s.at(7) = &quot; &lt;&lt; s.at(7) &lt;&lt; endl;   // W
+
+    // substr
+    cout &lt;&lt; &quot;substr(7, 5) = &quot; &lt;&lt; s.substr(7, 5) &lt;&lt; endl;  // World
+
+    // find
+    size_t pos = s.find(&quot;World&quot;);
+    cout &lt;&lt; &quot;&#39;World&#39; found at: &quot; &lt;&lt; pos &lt;&lt; endl;  // 7
+
+    pos = s.find(&quot;xyz&quot;);
+    if (pos == string::npos) {
+        cout &lt;&lt; &quot;&#39;xyz&#39; not found&quot; &lt;&lt; endl;
+    }
+
+    // replace
+    s.replace(7, 5, &quot;C++&quot;);
+    cout &lt;&lt; &quot;After replace: &quot; &lt;&lt; s &lt;&lt; endl;  // Hello, C++!
+
+    // append
+    s += &quot; is great&quot;;
+    cout &lt;&lt; &quot;After append: &quot; &lt;&lt; s &lt;&lt; endl;
+
+    // insert
+    s.insert(0, &quot;*** &quot;);
+    cout &lt;&lt; &quot;After insert: &quot; &lt;&lt; s &lt;&lt; endl;
+
+    // erase
+    s.erase(0, 4);  // Remove &quot;*** &quot;
+    cout &lt;&lt; &quot;After erase: &quot; &lt;&lt; s &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>substr(7, 5)</code> extracts 5 characters starting at index 7. <code>find</code> returns the position or <code>string::npos</code> (usually -1 as unsigned). <code>replace(7, 5, "C++")</code> replaces 5 chars at position 7 with "C++". <code>+=</code> appends. <code>insert(0, "*** ")</code> inserts at the beginning. <code>erase(0, 4)</code> removes 4 chars from position 0.</div><div class="code-example-output">Length: 13
+s[0] = H
+s.at(7) = W
+substr(7, 5) = World
+&#39;World&#39; found at: 7
+&#39;xyz&#39; not found
+After replace: Hello, C++!
+After append: Hello, C++! is great
+After insert: *** Hello, C++! is great
+After erase: Hello, C++! is great</div></div>
+<div class="code-example"><div class="code-example-title">String Conversions: stoi, stod, to_string</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+int main() {
+    // String to number
+    string numStr = &quot;12345&quot;;
+    int num = stoi(numStr);
+    cout &lt;&lt; &quot;stoi(\&quot;12345\&quot;) = &quot; &lt;&lt; num &lt;&lt; endl;
+    cout &lt;&lt; &quot;Doubled: &quot; &lt;&lt; num * 2 &lt;&lt; endl;
+
+    string floatStr = &quot;3.14159&quot;;
+    double pi = stod(floatStr);
+    cout &lt;&lt; &quot;stod(\&quot;3.14159\&quot;) = &quot; &lt;&lt; pi &lt;&lt; endl;
+
+    string llStr = &quot;9000000000&quot;;
+    long long big = stoll(llStr);
+    cout &lt;&lt; &quot;stoll: &quot; &lt;&lt; big &lt;&lt; endl;
+
+    // Number to string
+    int age = 21;
+    string msg = &quot;Age: &quot; + to_string(age);
+    cout &lt;&lt; msg &lt;&lt; endl;
+
+    double gpa = 8.75;
+    string gpaStr = to_string(gpa);
+    cout &lt;&lt; &quot;GPA string: &quot; &lt;&lt; gpaStr &lt;&lt; endl;  // Has many decimal places
+
+    // c_str() for C-style APIs
+    string filename = &quot;data.txt&quot;;
+    const char* cstr = filename.c_str();
+    printf(&quot;C-string: %s\n&quot;, cstr);
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>stoi</code> converts string to int. <code>stod</code> to double. <code>stoll</code> to long long. <code>to_string</code> converts any number to string (note: <code>to_string(8.75)</code> gives many decimal places). <code>c_str()</code> returns a <code>const char*</code> for use with C functions like <code>printf</code>.</div><div class="code-example-output">stoi(&quot;12345&quot;) = 12345
+Doubled: 24690
+stod(&quot;3.14159&quot;) = 3.14159
+stoll: 9000000000
+Age: 21
+GPA string: 8.750000
+C-string: data.txt</div></div>
+<div class="code-example"><div class="code-example-title">String Iteration and Character Manipulation</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+#include &lt;cctype&gt;
+using namespace std;
+
+int main() {
+    string s = &quot;Hello World 123&quot;;
+
+    // Index-based iteration
+    cout &lt;&lt; &quot;Characters: &quot;;
+    for (int i = 0; i &lt; (int)s.length(); i++) {
+        cout &lt;&lt; s[i];
+    }
+    cout &lt;&lt; endl;
+
+    // Range-based (read-only)
+    int vowels = 0, digits = 0, spaces = 0;
+    for (char c : s) {
+        if (c == &#39;a&#39; || c == &#39;e&#39; || c == &#39;i&#39; || c == &#39;o&#39; || c == &#39;u&#39; ||
+            c == &#39;A&#39; || c == &#39;E&#39; || c == &#39;I&#39; || c == &#39;O&#39; || c == &#39;U&#39;) vowels++;
+        if (isdigit(c)) digits++;
+        if (isspace(c)) spaces++;
+    }
+    cout &lt;&lt; &quot;Vowels: &quot; &lt;&lt; vowels &lt;&lt; &quot;, Digits: &quot; &lt;&lt; digits &lt;&lt; &quot;, Spaces: &quot; &lt;&lt; spaces &lt;&lt; endl;
+
+    // Range-based (modify by reference)
+    string upper = s;
+    for (char &amp;c : upper) {
+        c = toupper(c);
+    }
+    cout &lt;&lt; &quot;Uppercase: &quot; &lt;&lt; upper &lt;&lt; endl;
+
+    // Convert using char arithmetic
+    string lower = s;
+    for (char &amp;c : lower) {
+        if (c &gt;= &#39;A&#39; &amp;&amp; c &lt;= &#39;Z&#39;) c += 32;
+    }
+    cout &lt;&lt; &quot;Lowercase: &quot; &lt;&lt; lower &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Strings can be iterated like arrays. <code>for (char c : s)</code> is read-only. <code>for (char &amp;c : s)</code> allows modification. <code>toupper()</code> and <code>tolower()</code> from <code>&lt;cctype&gt;</code> convert case. <code>isdigit()</code>, <code>isalpha()</code>, <code>isspace()</code> classify characters. The char arithmetic approach (adding/subtracting 32) is common in CP.</div><div class="code-example-output">Characters: Hello World 123
+Vowels: 3, Digits: 3, Spaces: 2
+Uppercase: HELLO WORLD 123
+Lowercase: hello world 123</div></div>
+<div class="code-example"><div class="code-example-title">Reverse String and Palindrome Check</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+
+// Manual reverse using two pointers
+string manualReverse(string s) {
+    int left = 0, right = s.length() - 1;
+    while (left &lt; right) {
+        swap(s[left], s[right]);
+        left++;
+        right--;
+    }
+    return s;
+}
+
+bool isPalindrome(string s) {
+    int left = 0, right = s.length() - 1;
+    while (left &lt; right) {
+        if (s[left] != s[right]) return false;
+        left++;
+        right--;
+    }
+    return true;
+}
+
+int main() {
+    string s1 = &quot;Hello&quot;;
+    cout &lt;&lt; &quot;Manual reverse: &quot; &lt;&lt; manualReverse(s1) &lt;&lt; endl;
+
+    // STL reverse (modifies in place)
+    string s2 = &quot;abcdef&quot;;
+    reverse(s2.begin(), s2.end());
+    cout &lt;&lt; &quot;STL reverse: &quot; &lt;&lt; s2 &lt;&lt; endl;
+
+    // Palindrome check
+    string words[] = {&quot;racecar&quot;, &quot;hello&quot;, &quot;madam&quot;, &quot;level&quot;, &quot;cpp&quot;};
+    for (string &amp;w : words) {
+        cout &lt;&lt; w &lt;&lt; &quot;: &quot; &lt;&lt; (isPalindrome(w) ? &quot;Palindrome&quot; : &quot;Not palindrome&quot;) &lt;&lt; endl;
+    }
+
+    return 0;
+}</code></pre><div class="code-example-explanation">The two-pointer technique reverses in O(n) time. For palindrome, compare characters from both ends moving inward. <code>reverse(s.begin(), s.end())</code> from <code>&lt;algorithm&gt;</code> reverses in place. Palindrome check is O(n) time, O(1) space.</div><div class="code-example-output">Manual reverse: olleH
+STL reverse: fedcba
+racecar: Palindrome
+hello: Not palindrome
+madam: Palindrome
+level: Palindrome
+cpp: Not palindrome</div></div>
+<div class="code-example"><div class="code-example-title">Anagram Check Using Frequency Array</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+bool areAnagrams(string s1, string s2) {
+    if (s1.length() != s2.length()) return false;
+
+    int freq[26] = {0};
+    for (char c : s1) freq[c - &#39;a&#39;]++;
+    for (char c : s2) freq[c - &#39;a&#39;]--;
+
+    for (int i = 0; i &lt; 26; i++) {
+        if (freq[i] != 0) return false;
+    }
+    return true;
+}
+
+int main() {
+    string pairs[][2] = {
+        {&quot;listen&quot;, &quot;silent&quot;},
+        {&quot;hello&quot;, &quot;world&quot;},
+        {&quot;anagram&quot;, &quot;nagaram&quot;},
+        {&quot;rat&quot;, &quot;tar&quot;}
+    };
+
+    for (auto &amp;p : pairs) {
+        cout &lt;&lt; &quot;\&quot;&quot; &lt;&lt; p[0] &lt;&lt; &quot;\&quot; and \&quot;&quot; &lt;&lt; p[1] &lt;&lt; &quot;\&quot;: &quot;;
+        cout &lt;&lt; (areAnagrams(p[0], p[1]) ? &quot;Anagrams&quot; : &quot;Not anagrams&quot;) &lt;&lt; endl;
+    }
+
+    return 0;
+}</code></pre><div class="code-example-explanation">Two strings are anagrams if they have identical character frequencies. Increment for s1, decrement for s2. If all frequencies are 0, they are anagrams. This is O(n) time, O(1) space (fixed 26-element array). The alternative is to sort both strings and compare -- O(n log n).</div><div class="code-example-output">&quot;listen&quot; and &quot;silent&quot;: Anagrams
+&quot;hello&quot; and &quot;world&quot;: Not anagrams
+&quot;anagram&quot; and &quot;nagaram&quot;: Anagrams
+&quot;rat&quot; and &quot;tar&quot;: Anagrams</div></div>
+<div class="code-example"><div class="code-example-title">getline and C-string vs std::string Interaction</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+#include &lt;cstring&gt;
+using namespace std;
+
+int main() {
+    // getline reads full line with spaces
+    string fullName;
+    cout &lt;&lt; &quot;Enter full name: &quot;;
+    getline(cin, fullName);
+    cout &lt;&lt; &quot;Hello, &quot; &lt;&lt; fullName &lt;&lt; &quot;!&quot; &lt;&lt; endl;
+
+    // std::string to C-string
+    string s = &quot;Modern Age Coders&quot;;
+    const char* cstr = s.c_str();
+    cout &lt;&lt; &quot;C-string length: &quot; &lt;&lt; strlen(cstr) &lt;&lt; endl;
+    printf(&quot;printf with c_str: %s\n&quot;, s.c_str());
+
+    // C-string to std::string
+    char arr[] = &quot;From C-string&quot;;
+    string converted = arr;  // Implicit conversion
+    cout &lt;&lt; &quot;Converted: &quot; &lt;&lt; converted &lt;&lt; endl;
+    cout &lt;&lt; &quot;Length: &quot; &lt;&lt; converted.length() &lt;&lt; endl;
+
+    // String comparison
+    string a = &quot;apple&quot;, b = &quot;banana&quot;;
+    if (a &lt; b) cout &lt;&lt; a &lt;&lt; &quot; comes before &quot; &lt;&lt; b &lt;&lt; endl;
+    if (a == &quot;apple&quot;) cout &lt;&lt; &quot;Exact match!&quot; &lt;&lt; endl;
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>getline(cin, s)</code> reads the entire line. <code>c_str()</code> converts <code>std::string</code> to <code>const char*</code> for C APIs. C-strings convert to <code>std::string</code> implicitly. <code>std::string</code> supports <code>==</code>, <code>&lt;</code>, <code>&gt;</code> operators for comparison (unlike C-strings which require <code>strcmp</code>).</div><div class="code-example-output">Enter full name: Priya Sharma
+Hello, Priya Sharma!
+C-string length: 17
+printf with c_str: Modern Age Coders
+Converted: From C-string
+Length: 13
+apple comes before banana
+Exact match!</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Comparing C-strings with == (Compares Pointers, Not Content)</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;cstring&gt;
+using namespace std;
+int main() {
+    char s1[] = &quot;hello&quot;;
+    char s2[] = &quot;hello&quot;;
+    if (s1 == s2) {
+        cout &lt;&lt; &quot;Equal&quot; &lt;&lt; endl;
+    } else {
+        cout &lt;&lt; &quot;Not equal&quot; &lt;&lt; endl;  // This prints!
+    }
+    return 0;
+}</code></pre></div><div class="error-message">Prints &#39;Not equal&#39; even though both strings contain &#39;hello&#39;. == compares memory addresses, not content.</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;cstring&gt;
+using namespace std;
+int main() {
+    char s1[] = &quot;hello&quot;;
+    char s2[] = &quot;hello&quot;;
+    if (strcmp(s1, s2) == 0) {
+        cout &lt;&lt; &quot;Equal&quot; &lt;&lt; endl;  // Correct!
+    }
+    return 0;
+}</code></pre></div><div class="mistake-explanation">For C-strings, <code>==</code> compares the memory addresses of the two arrays, which are different. Use <code>strcmp(s1, s2) == 0</code> to compare content. For <code>std::string</code>, the <code>==</code> operator IS overloaded to compare content, so <code>s1 == s2</code> works correctly.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Buffer Overflow with strcpy/strcat</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;cstring&gt;
+using namespace std;
+int main() {
+    char dest[5];
+    strcpy(dest, &quot;Hello World&quot;);  // 11 chars + \0 into 5-char buffer!
+    cout &lt;&lt; dest &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="error-message">Writes past the buffer boundary. May crash, corrupt data, or appear to work (undefined behavior).</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;cstring&gt;
+using namespace std;
+int main() {
+    char dest[20];  // Ensure enough space
+    strcpy(dest, &quot;Hello World&quot;);
+    cout &lt;&lt; dest &lt;&lt; endl;
+    // Or better: use std::string
+    return 0;
+}</code></pre></div><div class="mistake-explanation"><code>strcpy</code> and <code>strcat</code> do NOT check if the destination has enough space. Writing past the buffer is a <strong>buffer overflow</strong> -- one of the most common security vulnerabilities in C/C++. Use <code>strncpy</code> for bounded copy, or better yet, use <code>std::string</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting that string::find Returns string::npos, Not -1</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = &quot;Hello World&quot;;
+    int pos = s.find(&quot;xyz&quot;);  // Assigned to int!
+    if (pos == -1) {
+        cout &lt;&lt; &quot;Not found&quot; &lt;&lt; endl;  // Works by accident on most systems
+    }
+    return 0;
+}</code></pre></div><div class="error-message">string::find returns size_t (unsigned). Comparing with -1 works due to implicit conversion but is technically incorrect.</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+int main() {
+    string s = &quot;Hello World&quot;;
+    size_t pos = s.find(&quot;xyz&quot;);
+    if (pos == string::npos) {
+        cout &lt;&lt; &quot;Not found&quot; &lt;&lt; endl;
+    }
+    return 0;
+}</code></pre></div><div class="mistake-explanation"><code>string::find</code> returns <code>size_t</code> (unsigned). When not found, it returns <code>string::npos</code> (the maximum <code>size_t</code> value). Comparing with <code>-1</code> works because <code>-1</code> converts to the same value, but it is better practice to use <code>string::npos</code> explicitly.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Modifying String Literal (Undefined Behavior)</h3>
+                <div class="wrong-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    char* s = &quot;Hello&quot;;  // Points to read-only memory
+    s[0] = &#39;J&#39;;          // CRASH: modifying string literal!
+    cout &lt;&lt; s &lt;&lt; endl;
+    return 0;
+}</code></pre></div><div class="error-message">Segmentation fault or crash. String literals are stored in read-only memory.</div><div class="correct-code"><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    char s[] = &quot;Hello&quot;;  // Copies into writable array
+    s[0] = &#39;J&#39;;          // OK: modifying local copy
+    cout &lt;&lt; s &lt;&lt; endl;   // Jello
+    return 0;
+}</code></pre></div><div class="mistake-explanation"><code>char* s = "Hello"</code> makes s point to a string literal in read-only memory. <code>char s[] = "Hello"</code> copies the literal into a writable local array. Modern compilers warn about the former and require <code>const char*</code>.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>C++ has two string types: C-strings (char arrays with &#39;\0&#39; terminator) and std::string (dynamic, safe, from &lt;string&gt; header).</li>
+<li>C-string functions from &lt;cstring&gt;: strlen (O(n) length), strcpy (copy), strcat (concatenate), strcmp (compare, returns 0 for equal).</li>
+<li>Never compare C-strings with == (compares addresses). Use strcmp(). For std::string, == compares content correctly.</li>
+<li>std::string key operations: length()/size() (O(1)), substr(pos, len), find(str), replace(pos, len, str), append/+=, insert, erase.</li>
+<li>string::find returns string::npos (not -1) when not found. Always compare with string::npos, not -1.</li>
+<li>Conversions: stoi/stol/stoll/stof/stod convert string to number. to_string() converts number to string. c_str() returns const char*.</li>
+<li>getline(cin, s) reads the entire line including spaces. cin &gt;&gt; s reads only until whitespace. Use cin.ignore() between &gt;&gt; and getline.</li>
+<li>String iteration: for (int i = 0; i &lt; s.length(); i++) or for (char c : s). Use for (char &amp;c : s) to modify characters in place.</li>
+<li>Common algorithms: reverse with two pointers or reverse(), palindrome check with two pointers, anagram check with frequency array (O(n)), vowel counting with iteration.</li>
+<li>C-strings risk buffer overflow (strcpy/strcat have no bounds checking). std::string manages memory automatically and is always preferred in modern C++.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/arrays-in-cpp" class="related-topic-link">Arrays and Multidimensional Arrays</a>
+<a href="/resources/cpp/pointers-in-cpp" class="related-topic-link">Pointers and References</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/arrays-in-cpp" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Arrays and Multidimensional Arrays</span>
+        </a>
+            <a href="/resources/cpp/pointers-in-cpp" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Pointers and References</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/strings-in-cpp/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

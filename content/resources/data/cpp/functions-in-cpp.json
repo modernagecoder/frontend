@@ -1,0 +1,673 @@
+{
+  "title": "Functions, Overloading, and Recursion",
+  "slug": "functions-in-cpp",
+  "language": "cpp",
+  "chapter": 8,
+  "difficulty": "Beginner",
+  "readingTime": "30 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 60,
+  "seo": {
+    "title": "Functions in C++ - Pass by Value, Reference, Overloading, Recursion | Modern Age Coders",
+    "description": "Master C++ functions including declaration, definition, pass-by-value, pass-by-reference, pass-by-pointer, function overloading, default arguments, inline functions, and recursion. Includes 60 practice questions with recursion tracing and interview problems.",
+    "keywords": "c++ functions, c++ pass by reference, c++ function overloading, c++ recursion, c++ default arguments, c++ inline functions, c++ function prototype, c++ pass by pointer, c++ tower of hanoi, c++ factorial recursion"
+  },
+  "content": {
+    "what": "<h2>What Are Functions?</h2><p>A <strong>function</strong> is a named block of code that performs a specific task. Instead of writing the same code multiple times, you write it once inside a function and call that function whenever you need it. Functions make code reusable, modular, and easier to debug.</p><p>Every C++ program has at least one function: <code>main()</code>. But real programs have dozens or hundreds of functions, each responsible for a well-defined task. The C++ standard library itself is a collection of thousands of functions organized into headers.</p><p>Key concepts covered in this chapter:</p><ol><li><strong>Function declaration (prototype)</strong> -- telling the compiler a function exists</li><li><strong>Function definition</strong> -- the actual implementation</li><li><strong>Return types</strong> -- what the function sends back</li><li><strong>Pass-by-value</strong> -- passing copies of arguments</li><li><strong>Pass-by-reference (&)</strong> -- passing aliases to original variables</li><li><strong>Pass-by-pointer (*)</strong> -- passing memory addresses</li><li><strong>Function overloading</strong> -- multiple functions with the same name but different parameters</li><li><strong>Default arguments</strong> -- parameters with preset values</li><li><strong>Inline functions</strong> -- optimization hint for small functions</li><li><strong>Recursion</strong> -- a function calling itself</li></ol>",
+    "why": "<h2>Why Are Functions Essential?</h2><h3>1. Code Reusability</h3><p>Without functions, you would copy-paste the same code every time you need it. If you need to find the maximum of two numbers in 20 places, you write the logic once in a function and call it 20 times. If the logic needs to change, you change it in one place.</p><h3>2. Modularity and Readability</h3><p>Breaking a large program into small functions makes it readable. A function name like <code>isPrime(n)</code> is self-documenting. Readers can understand what the code does without reading every line. In team environments, different people can work on different functions simultaneously.</p><h3>3. Debugging and Testing</h3><p>When a bug occurs, you can isolate it to a specific function. You can test each function independently with different inputs. This is far easier than debugging a single monolithic main() function with 500 lines.</p><h3>4. Recursion for Complex Problems</h3><p>Some problems have naturally recursive structures: tree traversals, divide-and-conquer algorithms, backtracking problems. Recursion expresses these solutions elegantly. Understanding the call stack and recursion tracing is critical for placement interviews and competitive programming.</p><h3>5. Interview Relevance</h3><p>Pass-by-value vs pass-by-reference, function overloading resolution, recursion tracing (factorial, Fibonacci, Tower of Hanoi), and understanding the call stack are all common interview topics. Interviewers expect you to trace recursive calls on paper.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Function Declaration (Prototype) and Definition</h3><p>A function <strong>declaration</strong> (prototype) tells the compiler the function's name, return type, and parameter types. It appears before main() so the compiler knows the function exists before it is called.</p><pre><code>// Declaration (prototype)\nint add(int a, int b);\n\nint main() {\n    cout << add(3, 5);  // Call\n    return 0;\n}\n\n// Definition\nint add(int a, int b) {\n    return a + b;\n}</code></pre><p>If the definition appears before main(), a separate declaration is not needed. But in multi-file projects, prototypes go in header files (.h) and definitions in source files (.cpp).</p><h3>2. Return Types</h3><p>A function can return any type: <code>int</code>, <code>double</code>, <code>bool</code>, <code>string</code>, <code>char</code>, etc. A function that returns nothing uses <code>void</code> as the return type.</p><pre><code>void greet(string name) {\n    cout << \"Hello, \" << name << endl;\n    // No return statement needed (or use: return;)\n}\n\nbool isEven(int n) {\n    return n % 2 == 0;\n}</code></pre><h3>3. Pass-by-Value</h3><p>By default, C++ passes arguments <strong>by value</strong>: the function receives a <strong>copy</strong> of the argument. Modifying the parameter inside the function does not affect the original variable.</p><pre><code>void doubleIt(int x) {\n    x = x * 2;  // Modifies the local copy only\n}\n\nint main() {\n    int a = 5;\n    doubleIt(a);\n    cout << a;  // Still 5\n}</code></pre><h3>4. Pass-by-Reference (&)</h3><p>A <strong>reference parameter</strong> is an alias for the original variable. Changes inside the function affect the original.</p><pre><code>void doubleIt(int& x) {  // Note the &\n    x = x * 2;  // Modifies the original variable\n}\n\nint main() {\n    int a = 5;\n    doubleIt(a);\n    cout << a;  // 10\n}</code></pre><p>Use pass-by-reference when you need to: (1) modify the caller's variable, (2) avoid copying large objects (use <code>const&</code> for read-only), or (3) return multiple values from a function.</p><h3>5. Pass-by-Pointer (*)</h3><p>Similar to pass-by-reference but using explicit pointers:</p><pre><code>void doubleIt(int* ptr) {\n    *ptr = (*ptr) * 2;  // Dereference to modify\n}\n\nint main() {\n    int a = 5;\n    doubleIt(&a);  // Pass address\n    cout << a;  // 10\n}</code></pre><p>Pointers require explicit dereferencing (*ptr) and can be null. References are safer and preferred in modern C++ unless you need null semantics or pointer arithmetic.</p><h3>6. Function Overloading</h3><p>C++ allows multiple functions with the <strong>same name</strong> but <strong>different parameter lists</strong> (different number or types of parameters). The compiler selects the correct version based on the arguments used at the call site.</p><pre><code>int add(int a, int b) { return a + b; }\ndouble add(double a, double b) { return a + b; }\nint add(int a, int b, int c) { return a + b + c; }</code></pre><p>The return type alone does not distinguish overloaded functions. The parameter list must differ.</p><h3>7. Default Arguments</h3><p>You can assign default values to parameters. If the caller omits those arguments, the defaults are used.</p><pre><code>void greet(string name, string greeting = \"Hello\") {\n    cout << greeting << \", \" << name << endl;\n}\n\ngreet(\"Aarav\");           // Hello, Aarav\ngreet(\"Neha\", \"Welcome\"); // Welcome, Neha</code></pre><p>Rules: default arguments must be specified from <strong>right to left</strong>. You cannot skip a default parameter in the middle. Defaults are typically specified in the declaration (prototype), not the definition.</p><h3>8. Inline Functions</h3><p>The <code>inline</code> keyword is a hint to the compiler to replace the function call with the function body, avoiding the overhead of a function call.</p><pre><code>inline int square(int x) {\n    return x * x;\n}</code></pre><p>Use inline for small, frequently called functions (1-3 lines). The compiler may ignore the hint for large or recursive functions. In modern C++, the compiler often inlines functions automatically based on optimization settings.</p><h3>9. Recursion</h3><p>A <strong>recursive function</strong> calls itself. Every recursive function needs:</p><ol><li><strong>Base case</strong> -- a condition that stops the recursion</li><li><strong>Recursive case</strong> -- the function calls itself with a smaller/simpler input</li></ol><h4>Factorial</h4><pre><code>int factorial(int n) {\n    if (n <= 1) return 1;        // Base case\n    return n * factorial(n - 1); // Recursive case\n}</code></pre><p>Tracing factorial(4): factorial(4) = 4 * factorial(3) = 4 * 3 * factorial(2) = 4 * 3 * 2 * factorial(1) = 4 * 3 * 2 * 1 = 24.</p><h4>Fibonacci</h4><pre><code>int fib(int n) {\n    if (n <= 1) return n;          // Base: fib(0)=0, fib(1)=1\n    return fib(n - 1) + fib(n - 2); // Two recursive calls\n}</code></pre><p>Warning: this naive implementation is O(2^n). Each call branches into two, creating exponential work. Use memoization or iteration for efficiency.</p><h4>Tower of Hanoi</h4><pre><code>void hanoi(int n, char from, char to, char aux) {\n    if (n == 1) {\n        cout << \"Move disk 1 from \" << from << \" to \" << to << endl;\n        return;\n    }\n    hanoi(n - 1, from, aux, to);\n    cout << \"Move disk \" << n << \" from \" << from << \" to \" << to << endl;\n    hanoi(n - 1, aux, to, from);\n}</code></pre><p>Moves n disks from source to destination using an auxiliary peg. Total moves: 2^n - 1.</p><h3>10. Recursion vs Iteration</h3><p>Any recursive solution can be converted to an iterative one using a stack (explicit or implicit). Recursion is more readable for naturally recursive problems (trees, backtracking) but has overhead from function call stack frames. Deep recursion can cause stack overflow. Tail recursion (where the recursive call is the last operation) can be optimized by some compilers into a loop.</p><h3>11. The Function Call Stack</h3><p>Each function call creates a <strong>stack frame</strong> containing local variables, parameters, and the return address. When the function returns, its frame is popped. In recursion, each recursive call adds a new frame. If recursion is too deep (no base case or very large input), the stack overflows.</p>",
+    "codeExamples": [
+      {
+        "title": "Pass-by-Value vs Pass-by-Reference",
+        "code": "#include <iostream>\nusing namespace std;\n\nvoid byValue(int x) {\n    x = 100;\n    cout << \"Inside byValue: x = \" << x << endl;\n}\n\nvoid byReference(int& x) {\n    x = 100;\n    cout << \"Inside byReference: x = \" << x << endl;\n}\n\nint main() {\n    int a = 5;\n    byValue(a);\n    cout << \"After byValue: a = \" << a << endl;\n\n    byReference(a);\n    cout << \"After byReference: a = \" << a << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "byValue receives a copy of a. Changing x inside does not affect a. byReference receives a reference (alias) to a. Changing x directly changes a. After byValue, a is still 5. After byReference, a is 100.",
+        "output": "Inside byValue: x = 100\nAfter byValue: a = 5\nInside byReference: x = 100\nAfter byReference: a = 100"
+      },
+      {
+        "title": "Swap Using Pass-by-Reference and Pass-by-Pointer",
+        "code": "#include <iostream>\nusing namespace std;\n\nvoid swapRef(int& a, int& b) {\n    int temp = a;\n    a = b;\n    b = temp;\n}\n\nvoid swapPtr(int* a, int* b) {\n    int temp = *a;\n    *a = *b;\n    *b = temp;\n}\n\nint main() {\n    int x = 10, y = 20;\n    cout << \"Before: x=\" << x << \", y=\" << y << endl;\n\n    swapRef(x, y);\n    cout << \"After swapRef: x=\" << x << \", y=\" << y << endl;\n\n    swapPtr(&x, &y);\n    cout << \"After swapPtr: x=\" << x << \", y=\" << y << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "swapRef uses references: cleaner syntax, no dereferencing needed. swapPtr uses pointers: requires passing addresses (&x, &y) and dereferencing (*a, *b). Both achieve the same result. After swapRef, x=20, y=10. After swapPtr, they swap back to x=10, y=20.",
+        "output": "Before: x=10, y=20\nAfter swapRef: x=20, y=10\nAfter swapPtr: x=10, y=20"
+      },
+      {
+        "title": "Function Overloading",
+        "code": "#include <iostream>\nusing namespace std;\n\nint area(int side) {\n    return side * side;  // Square\n}\n\nint area(int length, int width) {\n    return length * width;  // Rectangle\n}\n\ndouble area(double radius) {\n    return 3.14159 * radius * radius;  // Circle\n}\n\nint main() {\n    cout << \"Square (5): \" << area(5) << endl;\n    cout << \"Rectangle (4, 6): \" << area(4, 6) << endl;\n    cout << \"Circle (3.0): \" << area(3.0) << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Three functions named 'area' with different parameter lists. The compiler selects the correct one based on arguments: area(5) matches int, area(4,6) matches (int,int), area(3.0) matches double. This is compile-time polymorphism.",
+        "output": "Square (5): 25\nRectangle (4, 6): 24\nCircle (3.0): 28.2743"
+      },
+      {
+        "title": "Default Arguments",
+        "code": "#include <iostream>\nusing namespace std;\n\nvoid printLine(char ch = '-', int length = 40) {\n    for (int i = 0; i < length; i++) {\n        cout << ch;\n    }\n    cout << endl;\n}\n\nint main() {\n    printLine();            // Uses both defaults: '-', 40\n    printLine('*');         // Uses default length: 40\n    printLine('=', 20);    // No defaults used\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "printLine has two default parameters. When called with no arguments, both defaults are used. With one argument, only the second default is used. With both arguments, no defaults are used. Defaults must be from right to left.",
+        "output": "----------------------------------------\n****************************************\n===================="
+      },
+      {
+        "title": "Recursion: Factorial with Tracing",
+        "code": "#include <iostream>\nusing namespace std;\n\nint factorial(int n) {\n    cout << \"factorial(\" << n << \") called\" << endl;\n    if (n <= 1) {\n        cout << \"factorial(\" << n << \") returns 1\" << endl;\n        return 1;\n    }\n    int result = n * factorial(n - 1);\n    cout << \"factorial(\" << n << \") returns \" << result << endl;\n    return result;\n}\n\nint main() {\n    cout << \"Result: \" << factorial(5) << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Each recursive call prints when it is called and when it returns. The calls go deeper until n=1 (base case), then unwind: factorial(1)=1, factorial(2)=2, factorial(3)=6, factorial(4)=24, factorial(5)=120.",
+        "output": "factorial(5) called\nfactorial(4) called\nfactorial(3) called\nfactorial(2) called\nfactorial(1) called\nfactorial(1) returns 1\nfactorial(2) returns 2\nfactorial(3) returns 6\nfactorial(4) returns 24\nfactorial(5) returns 120\nResult: 120"
+      },
+      {
+        "title": "Recursion: Tower of Hanoi",
+        "code": "#include <iostream>\nusing namespace std;\n\nvoid hanoi(int n, char from, char to, char aux) {\n    if (n == 1) {\n        cout << \"Move disk 1 from \" << from << \" to \" << to << endl;\n        return;\n    }\n    hanoi(n - 1, from, aux, to);\n    cout << \"Move disk \" << n << \" from \" << from << \" to \" << to << endl;\n    hanoi(n - 1, aux, to, from);\n}\n\nint main() {\n    int n = 3;\n    cout << \"Tower of Hanoi with \" << n << \" disks:\" << endl;\n    hanoi(n, 'A', 'C', 'B');\n    cout << \"Total moves: \" << (1 << n) - 1 << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "For n disks: move n-1 disks from source to auxiliary, move disk n from source to destination, move n-1 disks from auxiliary to destination. For 3 disks, 7 moves are needed (2^3 - 1 = 7). This is a classic recursion problem.",
+        "output": "Tower of Hanoi with 3 disks:\nMove disk 1 from A to C\nMove disk 2 from A to B\nMove disk 1 from C to B\nMove disk 3 from A to C\nMove disk 1 from B to A\nMove disk 2 from B to C\nMove disk 1 from A to C\nTotal moves: 7"
+      },
+      {
+        "title": "Recursion: Power Function and Sum of Digits",
+        "code": "#include <iostream>\nusing namespace std;\n\nint power(int base, int exp) {\n    if (exp == 0) return 1;\n    return base * power(base, exp - 1);\n}\n\nint sumOfDigits(int n) {\n    if (n == 0) return 0;\n    return (n % 10) + sumOfDigits(n / 10);\n}\n\nint main() {\n    cout << \"2^10 = \" << power(2, 10) << endl;\n    cout << \"3^5 = \" << power(3, 5) << endl;\n    cout << \"Sum of digits of 12345: \" << sumOfDigits(12345) << endl;\n    cout << \"Sum of digits of 9999: \" << sumOfDigits(9999) << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "power(base, exp): base case is exp == 0 (returns 1). Otherwise, base * power(base, exp-1). sumOfDigits(n): base case is n == 0 (returns 0). Otherwise, last digit (n%10) + sumOfDigits(remaining digits n/10). Both demonstrate reducing the problem size by one step.",
+        "output": "2^10 = 1024\n3^5 = 243\nSum of digits of 12345: 15\nSum of digits of 9999: 36"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Expecting Pass-by-Value to Modify the Original",
+        "wrongCode": "void increment(int x) {\n    x++;\n}\nint main() {\n    int a = 5;\n    increment(a);\n    cout << a; // Expected 6, got 5\n}",
+        "error": "a is still 5 because increment received a copy of a, not a itself.",
+        "correctCode": "void increment(int& x) {\n    x++;\n}\nint main() {\n    int a = 5;\n    increment(a);\n    cout << a; // Now 6\n}",
+        "explanation": "To modify the caller's variable, use pass-by-reference (int& x) or pass-by-pointer (int* x). Pass-by-value creates an independent copy."
+      },
+      {
+        "title": "Missing Base Case in Recursion",
+        "wrongCode": "int factorial(int n) {\n    return n * factorial(n - 1);  // No base case!\n}",
+        "error": "Infinite recursion leading to stack overflow. The function calls itself endlessly: factorial(5) -> factorial(4) -> ... -> factorial(0) -> factorial(-1) -> ...",
+        "correctCode": "int factorial(int n) {\n    if (n <= 1) return 1;  // Base case\n    return n * factorial(n - 1);\n}",
+        "explanation": "Every recursive function must have a base case that stops the recursion. Without it, the function calls itself infinitely until the stack overflows and the program crashes."
+      },
+      {
+        "title": "Default Arguments in Wrong Order",
+        "wrongCode": "// Compilation error: default argument missing for parameter 'b'\nvoid func(int a = 10, int b, int c = 30) {\n    cout << a << b << c;\n}",
+        "error": "Default arguments must be specified from right to left. Having a default for 'a' but not 'b' while 'c' has a default is invalid.",
+        "correctCode": "void func(int a, int b = 20, int c = 30) {\n    cout << a << b << c;\n}",
+        "explanation": "Default values must be contiguous from the rightmost parameter. You cannot skip a parameter in the middle. This ensures unambiguous argument matching at the call site."
+      },
+      {
+        "title": "Overloading by Return Type Only",
+        "wrongCode": "int getValue() { return 42; }\ndouble getValue() { return 3.14; }  // Error!",
+        "error": "Compilation error: functions that differ only in return type cannot be overloaded. The compiler cannot determine which to call from getValue() alone.",
+        "correctCode": "int getInt() { return 42; }\ndouble getDouble() { return 3.14; }",
+        "explanation": "Function overloading requires different <strong>parameter lists</strong> (number or types of parameters). The return type is not part of the overload resolution. Use different names or add distinguishing parameters."
+      },
+      {
+        "title": "Forgetting to Dereference Pointer Parameters",
+        "wrongCode": "void setToZero(int* ptr) {\n    ptr = 0;  // Bug: changes the local pointer, not the pointed-to value\n}\nint main() {\n    int x = 42;\n    setToZero(&x);\n    cout << x;  // Still 42\n}",
+        "error": "ptr = 0 changes the local copy of the pointer to null. It does not modify the value x points to.",
+        "correctCode": "void setToZero(int* ptr) {\n    *ptr = 0;  // Dereference: modifies the value at the address\n}\nint main() {\n    int x = 42;\n    setToZero(&x);\n    cout << x;  // 0\n}",
+        "explanation": "To modify the value through a pointer, you must dereference it with <code>*ptr</code>. Without the asterisk, you are only changing what the local pointer variable points to, which has no effect outside the function."
+      }
+    ],
+    "summary": [
+      "A function declaration (prototype) tells the compiler the function's name, return type, and parameter types. The definition provides the actual implementation.",
+      "Pass-by-value creates a copy of the argument. Changes to the parameter do not affect the original variable. This is the default in C++.",
+      "Pass-by-reference (int& x) creates an alias to the original variable. Changes affect the original. Use it to modify caller's variables or avoid copying large objects.",
+      "Pass-by-pointer (int* ptr) passes the address. Requires dereferencing (*ptr) to access the value. Can be null, unlike references. Preferred in C; references preferred in C++.",
+      "Function overloading allows multiple functions with the same name but different parameter lists. The compiler selects the correct version at compile time. Return type alone does not count.",
+      "Default arguments must be specified from right to left. They are typically declared in the prototype, not the definition.",
+      "Inline functions are a compiler hint to replace the call with the body. Use for small, frequently called functions. The compiler may ignore the hint.",
+      "Recursion requires a base case (stopping condition) and a recursive case (calling itself with a smaller problem). Without a base case, the function recurses infinitely.",
+      "Classic recursive problems: factorial (n * factorial(n-1)), Fibonacci (fib(n-1) + fib(n-2)), Tower of Hanoi (2^n - 1 moves), power, sum of digits.",
+      "Tail recursion is when the recursive call is the last operation. Some compilers can optimize it into a loop (tail call optimization).",
+      "Each function call creates a stack frame with local variables and return address. Deep recursion can cause stack overflow.",
+      "Recursion vs iteration: recursion is more elegant for tree/backtracking problems; iteration is more efficient for simple loops. Any recursion can be converted to iteration using an explicit stack."
+    ]
+  },
+  "relatedTopics": [
+    "loops-in-cpp",
+    "arrays-in-cpp"
+  ],
+  "practice": {
+    "totalQuestions": 60,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>void greet() {\n    cout << \"Hello!\";\n}\nint main() {\n    greet();\n    greet();\n    return 0;\n}</code></pre>",
+        "hint": "greet() is called twice.",
+        "answer": "<code>Hello!Hello!</code>",
+        "explanation": "greet() prints \"Hello!\" each time it is called. Two calls produce two outputs concatenated (no newline between them)."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int add(int a, int b) {\n    return a + b;\n}\nint main() {\n    cout << add(3, 7);\n    return 0;\n}</code></pre>",
+        "hint": "add returns the sum of its arguments.",
+        "answer": "<code>10</code>",
+        "explanation": "add(3, 7) returns 3 + 7 = 10, which is printed by cout."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>void modify(int x) {\n    x = 99;\n}\nint main() {\n    int a = 5;\n    modify(a);\n    cout << a;\n    return 0;\n}</code></pre>",
+        "hint": "Is this pass-by-value or pass-by-reference?",
+        "answer": "<code>5</code>",
+        "explanation": "modify takes x by value (a copy). Changing x inside does not affect a. a remains 5."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>void modify(int& x) {\n    x = 99;\n}\nint main() {\n    int a = 5;\n    modify(a);\n    cout << a;\n    return 0;\n}</code></pre>",
+        "hint": "Note the & in the parameter.",
+        "answer": "<code>99</code>",
+        "explanation": "modify takes x by reference (alias to a). Changing x directly changes a. a becomes 99."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int square(int n) {\n    return n * n;\n}\nint main() {\n    cout << square(4) + square(3);\n    return 0;\n}</code></pre>",
+        "hint": "Compute each function call, then add.",
+        "answer": "<code>25</code>",
+        "explanation": "square(4) = 16, square(3) = 9. 16 + 9 = 25."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>void swap(int a, int b) {\n    int temp = a;\n    a = b;\n    b = temp;\n}\nint main() {\n    int x = 10, y = 20;\n    swap(x, y);\n    cout << x << \" \" << y;\n    return 0;\n}</code></pre>",
+        "hint": "Are a and b copies or references?",
+        "answer": "<code>10 20</code>",
+        "explanation": "swap takes a and b by value (copies). The swap happens on local copies. x and y remain 10 and 20."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int add(int a, int b) { return a + b; }\ndouble add(double a, double b) { return a + b; }\n\nint main() {\n    cout << add(3, 5) << \" \";\n    cout << add(3.5, 2.5);\n    return 0;\n}</code></pre>",
+        "hint": "The compiler selects the overloaded version based on argument types.",
+        "answer": "<code>8 6</code>",
+        "explanation": "add(3, 5) matches int version (returns 8). add(3.5, 2.5) matches double version (returns 6.0, printed as 6)."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>void print(int a, int b = 10, int c = 20) {\n    cout << a << \" \" << b << \" \" << c << endl;\n}\nint main() {\n    print(1);\n    print(1, 2);\n    print(1, 2, 3);\n    return 0;\n}</code></pre>",
+        "hint": "Default arguments fill in from right to left.",
+        "answer": "<code>1 10 20</code><br><code>1 2 20</code><br><code>1 2 3</code>",
+        "explanation": "print(1): b defaults to 10, c defaults to 20. print(1,2): c defaults to 20. print(1,2,3): no defaults used."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int factorial(int n) {\n    if (n <= 1) return 1;\n    return n * factorial(n - 1);\n}\nint main() {\n    cout << factorial(5);\n    return 0;\n}</code></pre>",
+        "hint": "Trace: 5 * 4 * 3 * 2 * 1.",
+        "answer": "<code>120</code>",
+        "explanation": "factorial(5) = 5 * factorial(4) = 5 * 4 * factorial(3) = ... = 5 * 4 * 3 * 2 * 1 = 120."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int fib(int n) {\n    if (n <= 1) return n;\n    return fib(n - 1) + fib(n - 2);\n}\nint main() {\n    for (int i = 0; i < 7; i++)\n        cout << fib(i) << \" \";\n    return 0;\n}</code></pre>",
+        "hint": "Fibonacci: 0, 1, 1, 2, 3, 5, 8.",
+        "answer": "<code>0 1 1 2 3 5 8 </code>",
+        "explanation": "fib(0)=0, fib(1)=1, fib(2)=1, fib(3)=2, fib(4)=3, fib(5)=5, fib(6)=8. Each value is the sum of the two preceding values."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>void modify(int* p) {\n    *p = *p + 10;\n}\nint main() {\n    int a = 5;\n    modify(&a);\n    cout << a;\n    return 0;\n}</code></pre>",
+        "hint": "*p dereferences the pointer to access the value.",
+        "answer": "<code>15</code>",
+        "explanation": "modify receives the address of a. *p accesses the value at that address (5), adds 10, and stores 15 back. a is now 15."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Trace the recursive calls. What is the output?<br><pre><code>int sumDigits(int n) {\n    if (n == 0) return 0;\n    return (n % 10) + sumDigits(n / 10);\n}\nint main() {\n    cout << sumDigits(1234);\n    return 0;\n}</code></pre>",
+        "hint": "1234 % 10 = 4, 1234 / 10 = 123. Recurse on 123.",
+        "answer": "<code>10</code>",
+        "explanation": "sumDigits(1234) = 4 + sumDigits(123) = 4 + 3 + sumDigits(12) = 4 + 3 + 2 + sumDigits(1) = 4 + 3 + 2 + 1 + sumDigits(0) = 4 + 3 + 2 + 1 + 0 = 10."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int power(int base, int exp) {\n    if (exp == 0) return 1;\n    return base * power(base, exp - 1);\n}\nint main() {\n    cout << power(2, 8);\n    return 0;\n}</code></pre>",
+        "hint": "2^8 = 256.",
+        "answer": "<code>256</code>",
+        "explanation": "power(2,8) = 2 * power(2,7) = ... = 2^8 = 256. Eight recursive calls before hitting the base case."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>void mystery(int n) {\n    if (n == 0) return;\n    mystery(n / 2);\n    cout << n % 2;\n}\nint main() {\n    mystery(13);\n    return 0;\n}</code></pre>",
+        "hint": "The print happens after the recursive call. Think about what n % 2 and n / 2 do.",
+        "answer": "<code>1101</code>",
+        "explanation": "This prints the binary representation of 13. mystery(13)->mystery(6)->mystery(3)->mystery(1)->mystery(0) returns. Then prints: 1%2=1, 3%2=1, 6%2=0, 13%2=1. Result: 1101 (13 in binary)."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between pass-by-value and pass-by-reference in C++?",
+        "hint": "Think about copies vs aliases.",
+        "answer": "<strong>Pass-by-value</strong> creates a copy of the argument. Changes to the parameter do not affect the original. <strong>Pass-by-reference</strong> (using &) creates an alias to the original variable. Changes to the parameter directly affect the original.",
+        "explanation": "Use pass-by-value for small types when you do not need to modify the original. Use pass-by-reference to modify the original or to avoid copying large objects (use const& for read-only access to large objects)."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is function overloading? Can two functions differ only in return type?",
+        "hint": "Think about how the compiler decides which function to call.",
+        "answer": "Function overloading allows multiple functions with the same name but different <strong>parameter lists</strong> (different number or types). The compiler selects the correct version based on the arguments at the call site. Two functions that differ <strong>only in return type</strong> cannot be overloaded because the compiler cannot determine which to call from the function call alone.",
+        "explanation": "int foo() and double foo() cannot coexist because foo() at the call site is ambiguous. But int foo(int) and int foo(double) can coexist because foo(5) and foo(5.0) are distinguishable."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is tail recursion? Why is it significant for optimization?",
+        "hint": "Think about what happens after the recursive call returns.",
+        "answer": "Tail recursion is when the recursive call is the <strong>last operation</strong> in the function -- there is no pending computation after the call returns. Example: <code>return factorial(n-1, acc*n)</code> is tail-recursive; <code>return n * factorial(n-1)</code> is not (multiplication is pending). Some compilers can optimize tail recursion into a loop (tail call optimization), eliminating stack frame overhead and preventing stack overflow.",
+        "explanation": "In non-tail recursion, each call must wait for the next to finish before performing remaining computation. In tail recursion, since nothing remains after the call, the current frame can be reused. GCC/Clang with -O2 typically perform this optimization."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>void func(int a, int b = 5) {\n    cout << a + b << \" \";\n}\nvoid func(int a) {\n    cout << a << \" \";\n}\nint main() {\n    func(10, 20);\n    func(10);\n    return 0;\n}</code></pre>",
+        "hint": "Does func(10) match the first function (using default) or the second?",
+        "answer": "Compilation error: ambiguous call",
+        "explanation": "func(10) is ambiguous: it matches both func(int, int=5) (using default for b) and func(int). The compiler cannot decide which to call and reports an error. Avoid ambiguity between overloaded functions and default arguments."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Trace the recursion. What is the output?<br><pre><code>void printReverse(int n) {\n    if (n == 0) return;\n    cout << n % 10 << \" \";\n    printReverse(n / 10);\n}\nint main() {\n    printReverse(5432);\n    return 0;\n}</code></pre>",
+        "hint": "The print happens before the recursive call.",
+        "answer": "<code>2 3 4 5 </code>",
+        "explanation": "printReverse(5432): print 2, call printReverse(543). printReverse(543): print 3, call printReverse(54). printReverse(54): print 4, call printReverse(5). printReverse(5): print 5, call printReverse(0). Base case. Output: 2 3 4 5."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int countDown(int n) {\n    if (n <= 0) return 0;\n    cout << n << \" \";\n    return 1 + countDown(n - 1);\n}\nint main() {\n    int count = countDown(4);\n    cout << endl << \"Count: \" << count;\n    return 0;\n}</code></pre>",
+        "hint": "The function prints and counts how many times it runs.",
+        "answer": "<code>4 3 2 1 </code><br><code>Count: 4</code>",
+        "explanation": "countDown(4): prints 4, returns 1+countDown(3). countDown(3): prints 3, returns 1+countDown(2). countDown(2): prints 2, returns 1+countDown(1). countDown(1): prints 1, returns 1+countDown(0). countDown(0): returns 0. Total: 1+1+1+1+0 = 4."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a function <code>bool isEven(int n)</code> that returns true if n is even and false otherwise. Call it from main.",
+        "hint": "Check n % 2 == 0.",
+        "answer": "<pre><code>#include <iostream>\nusing namespace std;\nbool isEven(int n) {\n    return n % 2 == 0;\n}\nint main() {\n    int x;\n    cin >> x;\n    cout << x << (isEven(x) ? \" is even\" : \" is odd\") << endl;\n    return 0;\n}</code></pre>",
+        "explanation": "The function returns a bool. The ternary operator in main selects the message based on the return value."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int max(int a, int b) {\n    return (a > b) ? a : b;\n}\nint main() {\n    cout << max(15, 8) << \" \" << max(3, 12);\n    return 0;\n}</code></pre>",
+        "hint": "max returns the larger of two values.",
+        "answer": "<code>15 12</code>",
+        "explanation": "max(15, 8): 15 > 8 is true, returns 15. max(3, 12): 3 > 12 is false, returns 12."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>void increment(int& a, int& b) {\n    a++;\n    b++;\n}\nint main() {\n    int x = 10, y = 20;\n    increment(x, y);\n    increment(x, y);\n    cout << x << \" \" << y;\n    return 0;\n}</code></pre>",
+        "hint": "Both parameters are references. increment is called twice.",
+        "answer": "<code>12 22</code>",
+        "explanation": "First call: x becomes 11, y becomes 21. Second call: x becomes 12, y becomes 22. References modify the originals."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int multiply(int a, int b = 2) {\n    return a * b;\n}\nint main() {\n    cout << multiply(5) << \" \" << multiply(5, 3);\n    return 0;\n}</code></pre>",
+        "hint": "b defaults to 2 when not provided.",
+        "answer": "<code>10 15</code>",
+        "explanation": "multiply(5): b defaults to 2, returns 5*2=10. multiply(5,3): b is 3, returns 5*3=15."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Trace the recursion. What is the output?<br><pre><code>int gcd(int a, int b) {\n    if (b == 0) return a;\n    return gcd(b, a % b);\n}\nint main() {\n    cout << gcd(48, 18);\n    return 0;\n}</code></pre>",
+        "hint": "This is the Euclidean algorithm. Trace: gcd(48,18) -> gcd(18,12) -> gcd(12,6) -> gcd(6,0).",
+        "answer": "<code>6</code>",
+        "explanation": "gcd(48,18): 18!=0, call gcd(18, 48%18=12). gcd(18,12): call gcd(12, 18%12=6). gcd(12,6): call gcd(6, 12%6=0). gcd(6,0): b==0, return 6."
+      },
+      {
+        "id": "mx-6",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a function that takes an array and its size and returns the sum of all elements. Use pass-by-pointer for the array.",
+        "hint": "An array decays to a pointer when passed to a function.",
+        "answer": "<pre><code>#include <iostream>\nusing namespace std;\nint arraySum(int* arr, int size) {\n    int sum = 0;\n    for (int i = 0; i < size; i++) {\n        sum += arr[i];\n    }\n    return sum;\n}\nint main() {\n    int arr[] = {10, 20, 30, 40, 50};\n    cout << \"Sum: \" << arraySum(arr, 5) << endl;\n    return 0;\n}</code></pre>",
+        "explanation": "Arrays decay to pointers when passed to functions. You must pass the size separately because sizeof(arr) inside the function gives the pointer size, not the array size."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int f(int n) {\n    if (n <= 0) return 0;\n    if (n == 1) return 1;\n    return f(n - 1) + f(n - 2);\n}\nint main() {\n    cout << f(6);\n    return 0;\n}</code></pre>",
+        "hint": "This computes the nth Fibonacci number.",
+        "answer": "<code>8</code>",
+        "explanation": "f(6) = f(5) + f(4) = (f(4)+f(3)) + (f(3)+f(2)) = ... = 8. Fibonacci sequence: 0,1,1,2,3,5,8. f(6) = 8."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "How many times is the function f called when computing f(5)?<br><pre><code>int f(int n) {\n    if (n <= 1) return n;\n    return f(n-1) + f(n-2);\n}</code></pre>",
+        "hint": "Draw the recursion tree.",
+        "answer": "<code>15</code> times",
+        "explanation": "f(5) calls f(4) and f(3). f(4) calls f(3) and f(2). f(3) calls f(2) and f(1). f(2) calls f(1) and f(0). Counting all nodes in the recursion tree: f(5), f(4), f(3), f(3), f(2), f(2), f(1), f(2), f(1), f(1), f(0), f(1), f(0), f(1), f(0) = 15 calls."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>void fun(int n) {\n    if (n > 0) {\n        fun(n - 1);\n        cout << n << \" \";\n        fun(n - 1);\n    }\n}\nint main() {\n    fun(3);\n    return 0;\n}</code></pre>",
+        "hint": "Each call makes two recursive calls. Print happens between them.",
+        "answer": "<code>1 2 1 3 1 2 1 </code>",
+        "explanation": "fun(3): fun(2), print 3, fun(2). fun(2): fun(1), print 2, fun(1). fun(1): fun(0), print 1, fun(0). Expanding fully: 1 2 1 3 1 2 1."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write overloaded functions <code>display</code> that print an int, a double, and a string, each on a new line.",
+        "hint": "Three functions with the same name, different parameter types.",
+        "answer": "<pre><code>#include <iostream>\n#include <string>\nusing namespace std;\nvoid display(int x) { cout << \"int: \" << x << endl; }\nvoid display(double x) { cout << \"double: \" << x << endl; }\nvoid display(string x) { cout << \"string: \" << x << endl; }\nint main() {\n    display(42);\n    display(3.14);\n    display(string(\"Hello\"));\n    return 0;\n}</code></pre>",
+        "explanation": "Three overloaded versions of display. The compiler selects based on argument type: 42 matches int, 3.14 matches double, and string matches the string version."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int count = 0;\nvoid recurse(int n) {\n    count++;\n    if (n <= 1) return;\n    recurse(n / 2);\n}\nint main() {\n    recurse(16);\n    cout << count;\n    return 0;\n}</code></pre>",
+        "hint": "n halves each time: 16, 8, 4, 2, 1.",
+        "answer": "<code>5</code>",
+        "explanation": "recurse(16): count=1, call recurse(8). recurse(8): count=2, call recurse(4). recurse(4): count=3, call recurse(2). recurse(2): count=4, call recurse(1). recurse(1): count=5, return. Total: 5."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a recursive function to check if a string is a palindrome. Use pass-by-reference for the string.",
+        "hint": "Compare first and last characters, then recurse on the substring between them.",
+        "answer": "<pre><code>#include <iostream>\n#include <string>\nusing namespace std;\nbool isPalindrome(const string& s, int left, int right) {\n    if (left >= right) return true;\n    if (s[left] != s[right]) return false;\n    return isPalindrome(s, left + 1, right - 1);\n}\nint main() {\n    string s;\n    cin >> s;\n    cout << (isPalindrome(s, 0, s.length() - 1) ? \"Palindrome\" : \"Not palindrome\") << endl;\n    return 0;\n}</code></pre>",
+        "explanation": "Base case: left >= right means all characters matched. Recursive case: if first and last characters match, check the inner substring. Uses const string& to avoid copying the string at each level."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int func(int n) {\n    if (n == 0) return 1;\n    return 2 * func(n - 1);\n}\nint main() {\n    cout << func(5);\n    return 0;\n}</code></pre>",
+        "hint": "Trace: func(5) = 2*func(4) = 2*2*func(3) = ...",
+        "answer": "<code>32</code>",
+        "explanation": "func(5) = 2*func(4) = 2*2*func(3) = 2*2*2*func(2) = 2*2*2*2*func(1) = 2*2*2*2*2*func(0) = 2^5 * 1 = 32."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is a function prototype in C++?",
+        "options": {
+          "A": "The function body",
+          "B": "A declaration of the function's name, return type, and parameter types before its definition",
+          "C": "A function without a return type",
+          "D": "A function that calls itself"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A prototype declares the function signature (return type, name, parameters) so the compiler knows it exists before it is defined."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the default parameter passing mechanism in C++?",
+        "options": {
+          "A": "Pass-by-reference",
+          "B": "Pass-by-pointer",
+          "C": "Pass-by-value",
+          "D": "Pass-by-name"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Unless you use & (reference) or * (pointer), C++ passes arguments by value (copies)."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which keyword is used for a function that does not return a value?",
+        "options": {
+          "A": "null",
+          "B": "void",
+          "C": "none",
+          "D": "empty"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> void indicates the function returns nothing."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the base case in recursion?",
+        "options": {
+          "A": "The first call to the function",
+          "B": "The condition that stops the recursion",
+          "C": "The last line of the function",
+          "D": "The maximum stack depth"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The base case is the condition where the function returns without making another recursive call, stopping the recursion."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "Which of the following is NOT a valid overloading?",
+        "options": {
+          "A": "int func(int a) and int func(double a)",
+          "B": "int func(int a) and int func(int a, int b)",
+          "C": "int func(int a) and double func(int a)",
+          "D": "void func(int a) and void func(int a, int b)"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> int func(int) and double func(int) differ only in return type. Return type alone does not distinguish overloaded functions."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Where must default arguments be placed in a function's parameter list?",
+        "options": {
+          "A": "Leftmost parameters only",
+          "B": "Rightmost parameters only",
+          "C": "Any position",
+          "D": "Only the first parameter"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Default arguments must be specified from right to left. You cannot have a non-default parameter after a default one."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What happens if a recursive function has no base case?",
+        "options": {
+          "A": "Compilation error",
+          "B": "Returns 0",
+          "C": "Stack overflow / infinite recursion",
+          "D": "The function never executes"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Without a base case, the function calls itself infinitely, filling the call stack until it overflows, causing a crash."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the time complexity of the naive recursive Fibonacci function fib(n)?",
+        "options": {
+          "A": "O(n)",
+          "B": "O(n log n)",
+          "C": "O(2^n)",
+          "D": "O(n^2)"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Each call branches into two recursive calls, creating a binary tree of calls. The total number of calls is approximately 2^n, making it exponential."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Hard",
+        "question": "How many moves does Tower of Hanoi require for n disks?",
+        "options": {
+          "A": "n^2",
+          "B": "2n",
+          "C": "2^n - 1",
+          "D": "n!"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The recurrence T(n) = 2*T(n-1) + 1 with T(1) = 1 solves to T(n) = 2^n - 1."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "What does the inline keyword do in C++?",
+        "options": {
+          "A": "Makes the function run faster by using multithreading",
+          "B": "Hints the compiler to replace the function call with the function body",
+          "C": "Forces the function to be defined inside main()",
+          "D": "Makes the function recursive"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> inline is a hint to replace the call with the body, eliminating call overhead. The compiler may ignore it for large or complex functions."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is printed?<br><code>void f(int n) { if(n>0) { f(n-1); cout << n << \" \"; } } int main() { f(4); }</code>",
+        "options": {
+          "A": "4 3 2 1",
+          "B": "1 2 3 4",
+          "C": "4 3 2 1 0",
+          "D": "0 1 2 3 4"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The print happens after the recursive call returns. So the deepest call (n=1) prints first, then n=2, n=3, n=4. Output: 1 2 3 4."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "When passing a large object to a function for read-only access, which is the best approach?",
+        "options": {
+          "A": "Pass-by-value",
+          "B": "Pass-by-pointer",
+          "C": "Pass-by-const-reference",
+          "D": "Pass as a global variable"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>const&</code> avoids the overhead of copying (unlike pass-by-value) while preventing modification (unlike plain reference). It is the standard practice for read-only access to large objects."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "What does a function return if it has a non-void return type but no return statement?",
+        "options": {
+          "A": "0",
+          "B": "null",
+          "C": "Compilation error",
+          "D": "Undefined behavior"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> In C++, reaching the end of a non-void function without a return statement is undefined behavior. The compiler may warn but does not guarantee an error. main() is the only exception (implicitly returns 0)."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Recursive Sum of Array",
+        "difficulty": "Easy",
+        "description": "Write a recursive function that computes the sum of elements in an integer array.",
+        "sampleInput": "Array: {1, 2, 3, 4, 5}",
+        "sampleOutput": "Sum: 15",
+        "constraints": "Use recursion with the array, starting index, and size as parameters.",
+        "solution": "#include <iostream>\nusing namespace std;\nint arraySum(int arr[], int n) {\n    if (n <= 0) return 0;\n    return arr[n - 1] + arraySum(arr, n - 1);\n}\nint main() {\n    int arr[] = {1, 2, 3, 4, 5};\n    cout << \"Sum: \" << arraySum(arr, 5) << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Reverse a String Using Recursion",
+        "difficulty": "Easy",
+        "description": "Write a recursive function that reverses a string and returns the result.",
+        "sampleInput": "hello",
+        "sampleOutput": "olleh",
+        "constraints": "Use recursion. Base case: empty or single character string.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\nstring reverseStr(const string& s) {\n    if (s.length() <= 1) return s;\n    return reverseStr(s.substr(1)) + s[0];\n}\nint main() {\n    string s;\n    cin >> s;\n    cout << reverseStr(s) << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Power Function (Efficient)",
+        "difficulty": "Medium",
+        "description": "Write a recursive function that computes base^exp in O(log exp) time using the fast exponentiation method: if exp is even, power(b, e) = power(b, e/2)^2; if odd, b * power(b, e-1).",
+        "sampleInput": "2 ^ 10",
+        "sampleOutput": "1024",
+        "constraints": "Must be O(log n) recursive calls, not O(n).",
+        "solution": "#include <iostream>\nusing namespace std;\nlong long fastPow(int base, int exp) {\n    if (exp == 0) return 1;\n    if (exp % 2 == 0) {\n        long long half = fastPow(base, exp / 2);\n        return half * half;\n    }\n    return base * fastPow(base, exp - 1);\n}\nint main() {\n    cout << fastPow(2, 10) << endl;\n    cout << fastPow(3, 7) << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Tower of Hanoi",
+        "difficulty": "Medium",
+        "description": "Implement the Tower of Hanoi for n disks. Print each move and the total number of moves.",
+        "sampleInput": "n = 3",
+        "sampleOutput": "Move disk 1 from A to C\n... (7 moves total)",
+        "constraints": "Use recursion with from, to, and auxiliary pegs as char parameters.",
+        "solution": "#include <iostream>\nusing namespace std;\nint moveCount = 0;\nvoid hanoi(int n, char from, char to, char aux) {\n    if (n == 1) {\n        cout << \"Move disk 1 from \" << from << \" to \" << to << endl;\n        moveCount++;\n        return;\n    }\n    hanoi(n - 1, from, aux, to);\n    cout << \"Move disk \" << n << \" from \" << from << \" to \" << to << endl;\n    moveCount++;\n    hanoi(n - 1, aux, to, from);\n}\nint main() {\n    int n;\n    cin >> n;\n    hanoi(n, 'A', 'C', 'B');\n    cout << \"Total moves: \" << moveCount << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Function Overloading: Area Calculator",
+        "difficulty": "Easy",
+        "description": "Write overloaded area() functions for circle (radius), rectangle (length, width), and triangle (base, height). Print results from main.",
+        "sampleInput": "Circle r=5, Rectangle 4x6, Triangle b=3 h=8",
+        "sampleOutput": "Circle: 78.5398\nRectangle: 24\nTriangle: 12",
+        "constraints": "Three overloaded functions with different parameter signatures.",
+        "solution": "#include <iostream>\nusing namespace std;\ndouble area(double radius) { return 3.14159 * radius * radius; }\nint area(int length, int width) { return length * width; }\ndouble area(int base, double height) { return 0.5 * base * height; }\nint main() {\n    cout << \"Circle: \" << area(5.0) << endl;\n    cout << \"Rectangle: \" << area(4, 6) << endl;\n    cout << \"Triangle: \" << area(3, 8.0) << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Count Digits Recursively",
+        "difficulty": "Easy",
+        "description": "Write a recursive function that counts the number of digits in a positive integer.",
+        "sampleInput": "Enter number: 12345",
+        "sampleOutput": "Digits: 5",
+        "constraints": "Base case: n < 10 (single digit). Recursive case: 1 + countDigits(n / 10).",
+        "solution": "#include <iostream>\nusing namespace std;\nint countDigits(int n) {\n    if (n < 10) return 1;\n    return 1 + countDigits(n / 10);\n}\nint main() {\n    int n;\n    cout << \"Enter number: \";\n    cin >> n;\n    cout << \"Digits: \" << countDigits(n) << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-7",
+        "title": "Binary Search Using Recursion",
+        "difficulty": "Hard",
+        "description": "Implement binary search recursively on a sorted array. Return the index of the target or -1 if not found.",
+        "sampleInput": "Array: {2, 5, 8, 12, 16, 23, 38, 56, 72, 91}, target = 23",
+        "sampleOutput": "Found at index: 5",
+        "constraints": "Pass the array, left index, right index, and target as parameters. Each call halves the search space.",
+        "solution": "#include <iostream>\nusing namespace std;\nint binarySearch(int arr[], int left, int right, int target) {\n    if (left > right) return -1;\n    int mid = left + (right - left) / 2;\n    if (arr[mid] == target) return mid;\n    if (arr[mid] > target) return binarySearch(arr, left, mid - 1, target);\n    return binarySearch(arr, mid + 1, right, target);\n}\nint main() {\n    int arr[] = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};\n    int n = 10, target = 23;\n    int idx = binarySearch(arr, 0, n - 1, target);\n    if (idx != -1) cout << \"Found at index: \" << idx << endl;\n    else cout << \"Not found\" << endl;\n    return 0;\n}"
+      }
+    ]
+  }
+}

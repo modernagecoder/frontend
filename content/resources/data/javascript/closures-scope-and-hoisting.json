@@ -6,7 +6,7 @@
   "difficulty": "Advanced",
   "readingTime": "55 min",
   "lastUpdated": "2026-04-09",
-  "totalQuestions": 40,
+  "totalQuestions": 50,
   "seo": {
     "title": "Closures, Scope, and Hoisting in JavaScript - Lexical Scope, Closure Patterns, var vs let | Modern Age Coders",
     "description": "Master JavaScript closures, scope, and hoisting. Learn global/function/block scope, lexical scope, closures (counter factory, private variables, memoization), hoisting (var vs let/const temporal dead zone), IIFE, module pattern, and classic interview closure questions. 56+ practice questions.",
@@ -113,7 +113,7 @@
   },
   "relatedTopics": ["array-and-object-advanced-patterns", "project-interactive-portfolio"],
   "practice": {
-    "totalQuestions": 40,
+    "totalQuestions": 50,
     "topicSpecific": [
       {
         "id": "ts-1",

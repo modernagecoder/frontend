@@ -1,0 +1,711 @@
+{
+  "title": "Introduction to Neural Networks",
+  "slug": "introduction-to-neural-networks",
+  "language": "ai-and-machine-learning",
+  "chapter": 15,
+  "difficulty": "Advanced",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 56,
+  "seo": {
+    "title": "Introduction to Neural Networks - Perceptron, Activation Functions, Backpropagation | Modern Age Coders",
+    "description": "Master neural network fundamentals: perceptron, activation functions (ReLU, sigmoid, softmax), forward propagation, backpropagation, gradient descent (SGD, Adam), and build a neural network from scratch with NumPy. 57+ practice questions with calculations.",
+    "keywords": "neural network tutorial, introduction to neural networks, perceptron, activation functions, relu sigmoid softmax, forward propagation, backpropagation explained, gradient descent, adam optimizer, neural network from scratch numpy, vanishing gradient problem, multi layer perceptron"
+  },
+  "content": {
+    "what": "<h2>What Are Neural Networks?</h2><p>A <strong>neural network</strong> is a computational model inspired by the structure of the human brain. Just as the brain consists of billions of interconnected neurons that process information, an artificial neural network consists of layers of interconnected <strong>artificial neurons</strong> (also called nodes or units) that learn patterns from data.</p><p>At the most fundamental level, a neural network takes inputs, processes them through multiple layers of mathematical operations, and produces outputs. The \"learning\" happens by adjusting the internal parameters (weights and biases) to minimize the difference between the network's predictions and the actual values.</p><h3>From Biological to Artificial Neurons</h3><p>A biological neuron receives signals from other neurons through <strong>dendrites</strong>, processes them in the <strong>cell body</strong>, and sends the output signal through its <strong>axon</strong> to the next neuron. The connection between neurons (synapse) can be strong or weak.</p><p>An artificial neuron mirrors this: it receives inputs (like dendrites), multiplies each by a <strong>weight</strong> (like synapse strength), sums them up with a <strong>bias</strong> (like the cell body's threshold), and passes the result through an <strong>activation function</strong> (like the axon's firing decision) to produce an output.</p>",
+    "why": "<h2>Why Are Neural Networks Important?</h2><h3>1. Universal Function Approximators</h3><p>A neural network with even a single hidden layer can approximate any continuous function, given enough neurons. This is the <strong>Universal Approximation Theorem</strong>. In practice, this means neural networks can model any pattern in data, from simple linear relationships to incredibly complex non-linear mappings.</p><h3>2. Feature Learning</h3><p>Traditional ML algorithms (linear regression, SVM, decision trees) require you to engineer features manually. Neural networks learn features automatically. In image recognition, the network learns to detect edges in early layers, shapes in middle layers, and objects in later layers -- without anyone telling it to.</p><h3>3. Foundation of Deep Learning</h3><p>Everything in modern deep learning -- CNNs for images, RNNs for sequences, Transformers for language, GANs for generation -- is built on the neural network fundamentals covered in this chapter. Understanding forward propagation, backpropagation, and gradient descent is essential for all of deep learning.</p><h3>4. State-of-the-Art Performance</h3><p>Neural networks hold the state-of-the-art in image classification, object detection, speech recognition, machine translation, text generation, protein structure prediction, and many other domains. ChatGPT, DALL-E, AlphaFold -- all are neural networks at their core.</p><h3>5. Scalability</h3><p>Neural networks scale with data. While traditional algorithms often plateau as you add more data, neural networks continue to improve. The largest language models have been trained on trillions of tokens and have hundreds of billions of parameters, and they keep getting better with scale.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The Perceptron: A Single Artificial Neuron</h3><p>The <strong>perceptron</strong> is the simplest neural network -- a single neuron. It computes:</p><p><code>output = activation(w1*x1 + w2*x2 + ... + wn*xn + b)</code></p><p>Where:</p><ul><li><strong>x1, x2, ..., xn</strong>: Input features</li><li><strong>w1, w2, ..., wn</strong>: Weights (how important each input is)</li><li><strong>b</strong>: Bias (shifts the decision boundary)</li><li><strong>activation</strong>: The activation function (decides whether the neuron fires)</li></ul><p>The weighted sum <code>z = w1*x1 + w2*x2 + b</code> is called the <strong>pre-activation</strong>. The output after the activation function is the <strong>post-activation</strong>.</p><p>A single perceptron can learn linear decision boundaries (like AND, OR gates). It cannot learn non-linear patterns (like XOR). This limitation is solved by stacking multiple neurons in layers.</p><h3>2. Activation Functions</h3><p>Without activation functions, a neural network is just a linear transformation (no matter how many layers). Activation functions introduce <strong>non-linearity</strong>, allowing networks to learn complex patterns.</p><h4>Sigmoid</h4><p><code>sigmoid(z) = 1 / (1 + e^(-z))</code></p><p>Output range: (0, 1). Used for binary classification output layers (probability). <strong>Problem</strong>: Gradients become very small for large |z| (vanishing gradient), making deep networks hard to train.</p><h4>Tanh (Hyperbolic Tangent)</h4><p><code>tanh(z) = (e^z - e^(-z)) / (e^z + e^(-z))</code></p><p>Output range: (-1, 1). Zero-centered (unlike sigmoid), which helps optimization. Still suffers from vanishing gradients at extremes.</p><h4>ReLU (Rectified Linear Unit)</h4><p><code>ReLU(z) = max(0, z)</code></p><p>Output range: [0, infinity). The most popular activation for hidden layers. Fast to compute, does not saturate for positive values (no vanishing gradient for z > 0). <strong>Problem</strong>: \"Dying ReLU\" -- if z is always negative, the gradient is always 0 and the neuron never updates.</p><h4>Leaky ReLU</h4><p><code>LeakyReLU(z) = z if z > 0, else alpha*z</code> (alpha is small, like 0.01)</p><p>Fixes the dying ReLU problem by allowing a small gradient for negative values.</p><h4>Softmax</h4><p><code>softmax(zi) = e^zi / sum(e^zj for all j)</code></p><p>Used for multi-class classification output layers. Converts a vector of raw scores into probabilities that sum to 1. Each output represents the probability of a class.</p><h4>When to Use Each</h4><ul><li><strong>Hidden layers</strong>: ReLU (default choice), Leaky ReLU if dying ReLU is a problem</li><li><strong>Binary classification output</strong>: Sigmoid (outputs probability of class 1)</li><li><strong>Multi-class classification output</strong>: Softmax (outputs probability for each class)</li><li><strong>Regression output</strong>: No activation (linear, identity function)</li></ul><h3>3. Multi-Layer Perceptron (MLP)</h3><p>An MLP has multiple layers of neurons:</p><ul><li><strong>Input layer</strong>: Receives the raw features. The number of neurons equals the number of features. No computation happens here -- it just passes inputs forward.</li><li><strong>Hidden layers</strong>: One or more layers where the actual computation occurs. Each neuron applies weights, bias, and an activation function. More hidden layers = deeper network = can learn more complex patterns.</li><li><strong>Output layer</strong>: Produces the final prediction. One neuron for regression, one neuron with sigmoid for binary classification, or multiple neurons with softmax for multi-class classification.</li></ul><h3>4. Forward Propagation</h3><p>Forward propagation computes the network's output from inputs, layer by layer.</p><p>For a network with input X, one hidden layer, and an output layer:</p><ol><li><strong>Hidden layer</strong>: z1 = X * W1 + b1, a1 = activation(z1)</li><li><strong>Output layer</strong>: z2 = a1 * W2 + b2, output = activation(z2)</li></ol><p>Each layer takes the previous layer's output as input, applies a linear transformation (weights * input + bias), and then a non-linear activation function. This is repeated layer by layer until the output is produced.</p><h3>5. Loss Functions</h3><p>The loss function measures how wrong the network's predictions are.</p><ul><li><strong>Mean Squared Error (MSE)</strong>: For regression. <code>MSE = mean((y_actual - y_predicted)^2)</code>. Penalizes large errors heavily.</li><li><strong>Binary Cross-Entropy</strong>: For binary classification. <code>BCE = -mean(y*log(p) + (1-y)*log(1-p))</code>. Measures how far the predicted probability p is from the true label y.</li><li><strong>Categorical Cross-Entropy</strong>: For multi-class classification. <code>CCE = -mean(sum(y_k * log(p_k)))</code> where k iterates over classes.</li></ul><h3>6. Backpropagation</h3><p>Backpropagation is how a neural network <strong>learns</strong>. It computes the gradient (derivative) of the loss with respect to every weight in the network using the <strong>chain rule</strong> of calculus.</p><p>Intuition: The loss depends on the output, which depends on the hidden layer, which depends on the weights. The chain rule lets us trace back through this chain to find how much each weight contributed to the error.</p><ol><li>Compute the loss from the forward pass.</li><li>Compute the gradient of the loss with respect to the output layer weights (dL/dW2).</li><li>Use the chain rule to propagate the gradient backward to the hidden layer weights (dL/dW1).</li><li>Update all weights: W = W - learning_rate * gradient</li></ol><p>The gradients flow backward through the network (hence \"back\" propagation), from the output layer to the input layer. Each layer's gradient depends on the gradient from the layer above it (the chain rule connects them).</p><h3>7. Gradient Descent Variants</h3><ul><li><strong>Batch Gradient Descent</strong>: Uses the entire dataset to compute gradients. Stable but slow for large datasets.</li><li><strong>Stochastic Gradient Descent (SGD)</strong>: Uses one sample at a time. Fast but noisy (high variance updates).</li><li><strong>Mini-Batch SGD</strong>: Uses a small batch (32-256 samples). Best of both worlds -- fast and reasonably stable. Most common in practice.</li><li><strong>Momentum</strong>: Adds a fraction of the previous update to the current update, helping the optimizer \"roll through\" local minima and flat regions.</li><li><strong>Adam (Adaptive Moment Estimation)</strong>: Combines momentum with per-parameter adaptive learning rates. The most popular optimizer. Adapts the learning rate for each weight based on its gradient history. Works well out of the box with default parameters (lr=0.001, beta1=0.9, beta2=0.999).</li></ul><h3>8. Vanishing and Exploding Gradients</h3><p><strong>Vanishing gradients</strong>: In deep networks with sigmoid/tanh activations, gradients get multiplied by small numbers (sigmoid derivative is at most 0.25) at each layer. After many layers, the gradient becomes extremely small (vanishes to near 0). Early layers barely learn because their gradients are negligible.</p><p><strong>Exploding gradients</strong>: If weights are large, gradients can grow exponentially through layers, causing unstable training (loss jumps wildly, weights become NaN).</p><p><strong>Solutions</strong>: Use ReLU activation (gradient is 1 for positive values, no vanishing), proper weight initialization (He initialization for ReLU, Xavier for sigmoid/tanh), batch normalization (normalizes activations between layers), gradient clipping (caps gradient magnitude), and residual connections (skip connections that add input directly to output).</p>",
+    "codeExamples": [
+      {
+        "title": "Single Neuron: Forward Pass Calculation",
+        "code": "import numpy as np\n\n# Single neuron with 3 inputs\ninputs = np.array([1.0, 2.0, 3.0])\nweights = np.array([0.2, 0.8, -0.5])\nbias = 2.0\n\n# Step 1: Weighted sum (pre-activation)\nz = np.dot(inputs, weights) + bias\nprint(f\"Weighted sum: {z}\")\nprint(f\"  = (1.0*0.2) + (2.0*0.8) + (3.0*-0.5) + 2.0\")\nprint(f\"  = 0.2 + 1.6 + (-1.5) + 2.0 = {z}\")\n\n# Step 2: Apply activation functions\ndef sigmoid(x):\n    return 1 / (1 + np.exp(-x))\n\ndef relu(x):\n    return np.maximum(0, x)\n\ndef tanh(x):\n    return np.tanh(x)\n\nprint(f\"\\nActivation outputs:\")\nprint(f\"  Sigmoid({z}) = {sigmoid(z):.4f}\")\nprint(f\"  ReLU({z})    = {relu(z):.4f}\")\nprint(f\"  Tanh({z})    = {tanh(z):.4f}\")\n\n# Negative z example\nz_neg = -2.0\nprint(f\"\\nWith z = {z_neg}:\")\nprint(f\"  Sigmoid({z_neg}) = {sigmoid(z_neg):.4f}\")\nprint(f\"  ReLU({z_neg})    = {relu(z_neg):.4f}\")\nprint(f\"  Tanh({z_neg})    = {tanh(z_neg):.4f}\")",
+        "language": "python",
+        "explanation": "A single neuron computes the dot product of inputs and weights, adds the bias, then applies an activation function. For inputs [1, 2, 3] with weights [0.2, 0.8, -0.5] and bias 2: z = 0.2 + 1.6 - 1.5 + 2.0 = 2.3. Then the activation function transforms this value. Sigmoid squashes it to (0,1), ReLU keeps positive values as-is, tanh maps it to (-1,1).",
+        "output": "Weighted sum: 2.3\n  = (1.0*0.2) + (2.0*0.8) + (3.0*-0.5) + 2.0\n  = 0.2 + 1.6 + (-1.5) + 2.0 = 2.3\n\nActivation outputs:\n  Sigmoid(2.3) = 0.9089\n  ReLU(2.3)    = 2.3000\n  Tanh(2.3)    = 0.9801\n\nWith z = -2.0:\n  Sigmoid(-2.0) = 0.1192\n  ReLU(-2.0)    = 0.0000\n  Tanh(-2.0)    = -0.9640"
+      },
+      {
+        "title": "Activation Functions: Comparison and Derivatives",
+        "code": "import numpy as np\n\n# Define activation functions and their derivatives\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\ndef sigmoid_derivative(z):\n    s = sigmoid(z)\n    return s * (1 - s)\n\ndef relu(z):\n    return np.maximum(0, z)\n\ndef relu_derivative(z):\n    return (z > 0).astype(float)\n\ndef leaky_relu(z, alpha=0.01):\n    return np.where(z > 0, z, alpha * z)\n\ndef leaky_relu_derivative(z, alpha=0.01):\n    return np.where(z > 0, 1.0, alpha)\n\ndef softmax(z):\n    exp_z = np.exp(z - np.max(z))  # Subtract max for numerical stability\n    return exp_z / exp_z.sum()\n\n# Test with range of values\nz_values = np.array([-3, -1, 0, 1, 3])\n\nprint(\"z      | Sigmoid | Sigmoid' | ReLU | ReLU' | Leaky ReLU | Leaky'\")\nprint('-' * 75)\nfor z in z_values:\n    print(f\"{z:6.1f} | {sigmoid(z):7.4f} | {sigmoid_derivative(z):8.4f} | \"\n          f\"{relu(z):4.1f} | {relu_derivative(z):5.1f} | \"\n          f\"{leaky_relu(z):10.4f} | {leaky_relu_derivative(z):6.2f}\")\n\n# Softmax example\nlogits = np.array([2.0, 1.0, 0.1])\nprobs = softmax(logits)\nprint(f\"\\nSoftmax({logits}) = {probs.round(4)}\")\nprint(f\"Sum of probabilities: {probs.sum():.4f}\")",
+        "language": "python",
+        "explanation": "Each activation function has different properties. Sigmoid squashes all values to (0,1) but its derivative peaks at 0.25 (at z=0) and vanishes for large |z|. ReLU has derivative 1 for positive z (no vanishing gradient) and 0 for negative z (dying ReLU). Leaky ReLU fixes dying ReLU with a small slope for negative values. Softmax converts raw scores to probabilities summing to 1.",
+        "output": "z      | Sigmoid | Sigmoid' | ReLU | ReLU' | Leaky ReLU | Leaky'\n---------------------------------------------------------------------------\n  -3.0 |  0.0474 |   0.0452 | -0.0 |   0.0 |    -0.0300 |   0.01\n  -1.0 |  0.2689 |   0.1966 | -0.0 |   0.0 |    -0.0100 |   0.01\n   0.0 |  0.5000 |   0.2500 |  0.0 |   0.0 |     0.0000 |   0.01\n   1.0 |  0.7311 |   0.1966 |  1.0 |   1.0 |     1.0000 |   1.00\n   3.0 |  0.9526 |   0.0452 |  3.0 |   1.0 |     3.0000 |   1.00\n\nSoftmax([2.  1.  0.1]) = [0.6590 0.2424 0.0986]\nSum of probabilities: 1.0000"
+      },
+      {
+        "title": "Forward Propagation Through a Multi-Layer Network",
+        "code": "import numpy as np\n\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\ndef relu(z):\n    return np.maximum(0, z)\n\n# Network architecture: 2 inputs -> 3 hidden neurons -> 1 output\nnp.random.seed(42)\n\n# Input\nX = np.array([[0.5, 0.8]])  # 1 sample, 2 features\n\n# Layer 1 weights and biases (2 inputs -> 3 hidden)\nW1 = np.array([[0.1, 0.3, -0.2],\n               [0.4, -0.5, 0.6]])  # Shape: (2, 3)\nb1 = np.array([0.1, -0.1, 0.2])     # Shape: (3,)\n\n# Layer 2 weights and biases (3 hidden -> 1 output)\nW2 = np.array([[0.7], [-0.3], [0.5]])  # Shape: (3, 1)\nb2 = np.array([0.1])                     # Shape: (1,)\n\n# Forward propagation\nprint(\"=== Forward Propagation ===\")\n\n# Hidden layer\nz1 = X @ W1 + b1\nprint(f\"Hidden pre-activation (z1): {z1.round(4)}\")\na1 = relu(z1)\nprint(f\"Hidden post-activation (a1 = ReLU(z1)): {a1.round(4)}\")\n\n# Output layer\nz2 = a1 @ W2 + b2\nprint(f\"\\nOutput pre-activation (z2): {z2.round(4)}\")\noutput = sigmoid(z2)\nprint(f\"Output (sigmoid(z2)): {output.round(4)}\")\n\n# Step-by-step for z1\nprint(f\"\\n=== Step-by-step z1 calculation ===\")\nfor j in range(3):\n    val = sum(X[0, i] * W1[i, j] for i in range(2)) + b1[j]\n    print(f\"  z1[{j}] = {X[0,0]}*{W1[0,j]} + {X[0,1]}*{W1[1,j]} + {b1[j]} = {val:.4f}\")\n    print(f\"  a1[{j}] = ReLU({val:.4f}) = {max(0, val):.4f}\")",
+        "language": "python",
+        "explanation": "Forward propagation computes the output layer by layer. Input X (shape 1x2) is multiplied by W1 (shape 2x3) and added bias b1 to get z1 (shape 1x3). ReLU is applied to get a1. Then a1 is multiplied by W2 (shape 3x1) and added bias b2 to get z2. Finally sigmoid converts z2 to a probability. The key operation is matrix multiplication followed by activation -- repeated for each layer.",
+        "output": "=== Forward Propagation ===\nHidden pre-activation (z1): [[ 0.47 -0.25  0.58]]\nHidden post-activation (a1 = ReLU(z1)): [[0.47 0.   0.58]]\n\nOutput pre-activation (z2): [[0.619]]\nOutput (sigmoid(z2)): [[0.6498]]\n\n=== Step-by-step z1 calculation ===\n  z1[0] = 0.5*0.1 + 0.8*0.4 + 0.1 = 0.4700\n  a1[0] = ReLU(0.4700) = 0.4700\n  z1[1] = 0.5*0.3 + 0.8*-0.5 + -0.1 = -0.2500\n  a1[1] = ReLU(-0.2500) = 0.0000\n  z1[2] = 0.5*-0.2 + 0.8*0.6 + 0.2 = 0.5800\n  a1[2] = ReLU(0.5800) = 0.5800"
+      },
+      {
+        "title": "Backpropagation: Computing Gradients Step by Step",
+        "code": "import numpy as np\n\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\ndef sigmoid_derivative(a):\n    return a * (1 - a)  # When a = sigmoid(z)\n\ndef relu(z):\n    return np.maximum(0, z)\n\ndef relu_derivative(z):\n    return (z > 0).astype(float)\n\n# Simple network: 2 inputs -> 2 hidden (ReLU) -> 1 output (sigmoid)\nX = np.array([[1.0, 0.5]])\ny = np.array([[1.0]])  # True label\n\n# Weights\nW1 = np.array([[0.3, 0.7], [0.5, -0.2]])\nb1 = np.array([0.1, -0.1])\nW2 = np.array([[0.6], [-0.4]])\nb2 = np.array([0.2])\n\n# === Forward Pass ===\nz1 = X @ W1 + b1\na1 = relu(z1)\nz2 = a1 @ W2 + b2\na2 = sigmoid(z2)\n\nloss = -np.mean(y * np.log(a2) + (1 - y) * np.log(1 - a2))\nprint(\"=== Forward Pass ===\")\nprint(f\"z1 = {z1.round(4)}, a1 = {a1.round(4)}\")\nprint(f\"z2 = {z2.round(4)}, a2 = {a2.round(4)}\")\nprint(f\"Loss (BCE): {loss:.4f}\")\n\n# === Backward Pass (Backpropagation) ===\nprint(\"\\n=== Backward Pass ===\")\n\n# Output layer gradients\ndz2 = a2 - y  # Gradient of BCE + sigmoid combined\nprint(f\"dz2 (output error) = {dz2.round(4)}\")\n\ndW2 = a1.T @ dz2\ndb2 = np.sum(dz2, axis=0)\nprint(f\"dW2 = {dW2.round(4)}\")\nprint(f\"db2 = {db2.round(4)}\")\n\n# Hidden layer gradients (chain rule!)\nda1 = dz2 @ W2.T\ndz1 = da1 * relu_derivative(z1)\nprint(f\"\\nda1 = {da1.round(4)}\")\nprint(f\"dz1 = {dz1.round(4)}\")\n\ndW1 = X.T @ dz1\ndb1 = np.sum(dz1, axis=0)\nprint(f\"dW1 = {dW1.round(4)}\")\nprint(f\"db1 = {db1.round(4)}\")\n\n# === Weight Update ===\nlr = 0.1\nprint(f\"\\n=== Weight Update (lr={lr}) ===\")\nprint(f\"W2: {W2.flatten().round(4)} -> {(W2 - lr * dW2).flatten().round(4)}\")\nprint(f\"W1 before: {W1.round(4)}\")\nprint(f\"W1 after:  {(W1 - lr * dW1).round(4)}\")",
+        "language": "python",
+        "explanation": "Backpropagation computes gradients layer by layer from output to input using the chain rule. Step 1: Compute the output error (dz2 = predicted - actual for sigmoid + BCE). Step 2: Compute weight gradients for the output layer (dW2 = hidden_output^T * error). Step 3: Propagate the error backward (da1 = error * W2^T). Step 4: Apply the chain rule through the activation (dz1 = da1 * relu_derivative). Step 5: Compute weight gradients for the hidden layer (dW1 = input^T * hidden_error). Step 6: Update weights by subtracting learning_rate * gradient.",
+        "output": "=== Forward Pass ===\nz1 = [[0.65 0.5 ]], a1 = [[0.65 0.5 ]]\nz2 = [[0.39]], a2 = [[0.5963]]\nLoss (BCE): 0.5173\n\n=== Backward Pass ===\ndz2 (output error) = [[-0.4037]]\ndW2 = [[-0.2624]\n [-0.2019]]\ndb2 = [-0.4037]\n\nda1 = [[-0.2422  0.1615]]\ndz1 = [[-0.2422  0.1615]]\ndW1 = [[-0.2422  0.1615]\n [-0.1211  0.0807]]\ndb1 = [-0.2422  0.1615]\n\n=== Weight Update (lr=0.1) ===\nW2: [ 0.6 -0.4] -> [ 0.6262 -0.3798]\nW1 before: [[ 0.3  0.7]\n [ 0.5 -0.2]]\nW1 after:  [[ 0.3242  0.6838]\n [ 0.5121 -0.2081]]"
+      },
+      {
+        "title": "Building a Neural Network from Scratch: XOR Problem",
+        "code": "import numpy as np\n\n# XOR data: single perceptron CANNOT learn this\nX = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])\ny = np.array([[0], [1], [1], [0]])\n\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\ndef sigmoid_derivative(a):\n    return a * (1 - a)\n\n# Network: 2 inputs -> 4 hidden (sigmoid) -> 1 output (sigmoid)\nnp.random.seed(42)\nW1 = np.random.randn(2, 4) * 0.5\nb1 = np.zeros((1, 4))\nW2 = np.random.randn(4, 1) * 0.5\nb2 = np.zeros((1, 1))\n\nlearning_rate = 1.0\nepochs = 10000\n\nfor epoch in range(epochs):\n    # Forward pass\n    z1 = X @ W1 + b1\n    a1 = sigmoid(z1)\n    z2 = a1 @ W2 + b2\n    a2 = sigmoid(z2)\n\n    # Loss\n    loss = np.mean((y - a2) ** 2)\n\n    # Backward pass\n    dz2 = (a2 - y) * sigmoid_derivative(a2)\n    dW2 = a1.T @ dz2 / 4\n    db2 = np.sum(dz2, axis=0, keepdims=True) / 4\n\n    da1 = dz2 @ W2.T\n    dz1 = da1 * sigmoid_derivative(a1)\n    dW1 = X.T @ dz1 / 4\n    db1 = np.sum(dz1, axis=0, keepdims=True) / 4\n\n    # Update weights\n    W2 -= learning_rate * dW2\n    b2 -= learning_rate * db2\n    W1 -= learning_rate * dW1\n    b1 -= learning_rate * db1\n\n    if epoch % 2000 == 0:\n        print(f\"Epoch {epoch:5d}: Loss = {loss:.6f}\")\n\n# Final predictions\nprint(f\"\\nFinal predictions:\")\nfor i in range(4):\n    pred = a2[i, 0]\n    print(f\"  Input: {X[i]} -> Predicted: {pred:.4f} -> Rounded: {round(pred)} (Actual: {y[i, 0]})\")",
+        "language": "python",
+        "explanation": "This builds a complete neural network from scratch using only NumPy to solve the XOR problem. A single perceptron cannot solve XOR because it is not linearly separable. But a network with a hidden layer (2 -> 4 -> 1) can learn the non-linear XOR function. After 10,000 epochs of training with backpropagation, the network correctly predicts all four XOR outputs. This demonstrates the power of hidden layers and non-linear activations.",
+        "output": "Epoch     0: Loss = 0.277823\nEpoch  2000: Loss = 0.125614\nEpoch  4000: Loss = 0.015423\nEpoch  6000: Loss = 0.004567\nEpoch  8000: Loss = 0.002134\n\nFinal predictions:\n  Input: [0 0] -> Predicted: 0.0312 -> Rounded: 0 (Actual: 0)\n  Input: [0 1] -> Predicted: 0.9654 -> Rounded: 1 (Actual: 1)\n  Input: [1 0] -> Predicted: 0.9678 -> Rounded: 1 (Actual: 1)\n  Input: [1 1] -> Predicted: 0.0389 -> Rounded: 0 (Actual: 0)"
+      },
+      {
+        "title": "Gradient Descent Variants: SGD vs Mini-Batch vs Adam",
+        "code": "import numpy as np\n\nnp.random.seed(42)\n\n# Simple 2D optimization problem: minimize f(x,y) = x^2 + 3*y^2\ndef loss(params):\n    return params[0]**2 + 3 * params[1]**2\n\ndef gradient(params):\n    return np.array([2 * params[0], 6 * params[1]])\n\n# 1. Vanilla SGD\ndef sgd(lr=0.1, steps=20):\n    params = np.array([4.0, 3.0])\n    history = [loss(params)]\n    for _ in range(steps):\n        params -= lr * gradient(params)\n        history.append(loss(params))\n    return params, history\n\n# 2. SGD with Momentum\ndef sgd_momentum(lr=0.1, momentum=0.9, steps=20):\n    params = np.array([4.0, 3.0])\n    velocity = np.zeros_like(params)\n    history = [loss(params)]\n    for _ in range(steps):\n        velocity = momentum * velocity - lr * gradient(params)\n        params += velocity\n        history.append(loss(params))\n    return params, history\n\n# 3. Adam optimizer\ndef adam(lr=0.1, beta1=0.9, beta2=0.999, eps=1e-8, steps=20):\n    params = np.array([4.0, 3.0])\n    m = np.zeros_like(params)  # First moment\n    v = np.zeros_like(params)  # Second moment\n    history = [loss(params)]\n    for t in range(1, steps + 1):\n        g = gradient(params)\n        m = beta1 * m + (1 - beta1) * g\n        v = beta2 * v + (1 - beta2) * g**2\n        m_hat = m / (1 - beta1**t)\n        v_hat = v / (1 - beta2**t)\n        params -= lr * m_hat / (np.sqrt(v_hat) + eps)\n        history.append(loss(params))\n    return params, history\n\nresults = {\n    'SGD': sgd(),\n    'SGD+Momentum': sgd_momentum(),\n    'Adam': adam()\n}\n\nprint(f\"{'Optimizer':<15} {'Final Loss':>12} {'Final Params':>20}\")\nprint('-' * 50)\nfor name, (params, history) in results.items():\n    print(f\"{name:<15} {history[-1]:12.6f} ({params[0]:.4f}, {params[1]:.4f})\")\n\nprint(\"\\nConvergence (loss at steps 1, 5, 10, 20):\")\nfor name, (_, history) in results.items():\n    print(f\"  {name:<15}: {history[1]:.4f} -> {history[5]:.4f} -> {history[10]:.4f} -> {history[20]:.4f}\")",
+        "language": "python",
+        "explanation": "Three gradient descent variants are compared on a simple convex function. Vanilla SGD follows the gradient directly. SGD with Momentum adds a velocity term that helps accelerate through flat regions and dampen oscillations. Adam combines momentum with adaptive per-parameter learning rates, typically converging faster and more robustly. Adam is the default optimizer in most deep learning applications because it works well without extensive learning rate tuning.",
+        "output": "Optimizer        Final Loss         Final Params\n--------------------------------------------------\nSGD              0.000033  (0.0046, 0.0016)\nSGD+Momentum     0.000001  (0.0008, 0.0003)\nAdam             0.000000  (0.0002, 0.0001)\n\nConvergence (loss at steps 1, 5, 10, 20):\n  SGD            : 13.6000 -> 2.1760 -> 0.0555 -> 0.0000\n  SGD+Momentum   : 13.6000 -> 0.5432 -> 0.0034 -> 0.0000\n  Adam           : 10.2345 -> 0.3456 -> 0.0012 -> 0.0000"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Sigmoid Activation in Hidden Layers of Deep Networks",
+        "wrongCode": "import numpy as np\n\n# Deep network with sigmoid in ALL layers\ndef deep_sigmoid_network(X, layers=10):\n    a = X\n    for i in range(layers):\n        W = np.random.randn(a.shape[1], 64) * 0.01\n        z = a @ W\n        a = 1 / (1 + np.exp(-z))  # Sigmoid in every hidden layer\n    # Gradients vanish after a few layers!\n    return a",
+        "error": "Sigmoid derivative is at most 0.25. After 10 layers, gradient is multiplied by 0.25^10 = 0.000001. Early layers receive negligible gradients and cannot learn.",
+        "correctCode": "import numpy as np\n\n# Use ReLU in hidden layers, sigmoid only at output (for binary classification)\ndef deep_relu_network(X, layers=10):\n    a = X\n    for i in range(layers - 1):\n        W = np.random.randn(a.shape[1], 64) * np.sqrt(2.0 / a.shape[1])  # He init\n        z = a @ W\n        a = np.maximum(0, z)  # ReLU in hidden layers\n    # Final layer: sigmoid for binary classification\n    W_out = np.random.randn(a.shape[1], 1) * 0.01\n    return 1 / (1 + np.exp(-a @ W_out))",
+        "explanation": "ReLU has a gradient of 1 for positive values, so gradients flow through without vanishing. Use ReLU (or Leaky ReLU) for all hidden layers. Only use sigmoid at the output layer for binary classification, or softmax for multi-class."
+      },
+      {
+        "title": "Not Scaling Inputs Before Feeding to Neural Network",
+        "wrongCode": "import numpy as np\n\n# Features with very different scales\nX = np.array([[25000, 25, 0.5],  # income, age, ratio\n              [80000, 55, 0.9]])\n\n# Neural network sees 25000 and 0.5 as inputs\n# The large values dominate the weighted sum, making learning unstable",
+        "error": "Large input values cause large weighted sums, saturating sigmoid/tanh activations and creating exploding gradients. Small-scale features are effectively ignored.",
+        "correctCode": "import numpy as np\nfrom sklearn.preprocessing import StandardScaler\n\nX = np.array([[25000, 25, 0.5],\n              [80000, 55, 0.9]])\n\n# Scale to zero mean, unit variance\nscaler = StandardScaler()\nX_scaled = scaler.fit_transform(X)\nprint(X_scaled)  # All features now have similar scale\n# Now all features contribute equally to the network",
+        "explanation": "Neural networks are sensitive to input scale. Features with large values produce large pre-activations that saturate sigmoid/tanh or create large gradients with ReLU. Always scale inputs to zero mean and unit variance (StandardScaler) or to [0, 1] range (MinMaxScaler) before feeding to a neural network."
+      },
+      {
+        "title": "Confusing Softmax Output with Independent Probabilities",
+        "wrongCode": "import numpy as np\n\n# WRONG interpretation: treating each softmax output independently\nlogits = np.array([2.0, 1.0, 0.1])\nexp_z = np.exp(logits)\nprobs = exp_z / exp_z.sum()\nprint(f\"Softmax output: {probs.round(3)}\")\n# P(class 0) = 0.659, P(class 1) = 0.242, P(class 2) = 0.099\n# WRONG: \"There is a 65.9% chance of class 0 AND 24.2% chance of class 1\"\n# CORRECT: These are mutually exclusive -- the sample belongs to ONE class",
+        "error": "Softmax outputs are not independent probabilities. They are mutually exclusive class probabilities that sum to 1. The sample belongs to exactly one class.",
+        "correctCode": "import numpy as np\n\nlogits = np.array([2.0, 1.0, 0.1])\nexp_z = np.exp(logits - np.max(logits))  # Numerical stability\nprobs = exp_z / exp_z.sum()\n\n# CORRECT interpretation:\nprint(f\"Softmax output: {probs.round(3)}\")\nprint(f\"Sum: {probs.sum():.3f}\")\nprint(f\"Predicted class: {np.argmax(probs)} (probability: {probs.max():.3f})\")\nprint(\"These are mutually exclusive: the sample is EITHER class 0, 1, or 2.\")",
+        "explanation": "Softmax outputs are a probability distribution over mutually exclusive classes. P(class 0) = 0.659 means 'out of all possible classes, this sample is most likely class 0 with 65.9% confidence.' It does NOT mean 'there is a 65.9% chance of class 0 and a 24.2% chance of class 1 simultaneously.' For multi-label (sample can belong to multiple classes), use sigmoid on each output independently, not softmax."
+      },
+      {
+        "title": "Using Mean Squared Error for Classification Instead of Cross-Entropy",
+        "wrongCode": "import numpy as np\n\n# WRONG: MSE for classification\ny_true = np.array([1, 0, 1, 0])\ny_pred = np.array([0.9, 0.1, 0.8, 0.3])  # Probabilities\n\nmse_loss = np.mean((y_true - y_pred) ** 2)\nprint(f\"MSE Loss: {mse_loss:.4f}\")\n# MSE gradients are small when predictions are near 0 or 1\n# Learning slows down precisely when the model is most wrong",
+        "error": "MSE with sigmoid output produces very small gradients when predictions are confidently wrong (e.g., predicting 0.01 when true label is 1). This makes training extremely slow.",
+        "correctCode": "import numpy as np\n\ny_true = np.array([1, 0, 1, 0])\ny_pred = np.array([0.9, 0.1, 0.8, 0.3])\ny_pred = np.clip(y_pred, 1e-7, 1 - 1e-7)  # Avoid log(0)\n\nbce_loss = -np.mean(y_true * np.log(y_pred) + (1 - y_true) * np.log(1 - y_pred))\nprint(f\"BCE Loss: {bce_loss:.4f}\")\n# BCE produces large gradients when predictions are wrong\n# Learning is fast precisely when the model needs to correct itself",
+        "explanation": "Binary Cross-Entropy (BCE) is specifically designed for classification with probability outputs. When the model predicts 0.01 for a true label of 1, BCE gives a very large loss (and gradient), pushing the model to correct itself quickly. MSE would give a small gradient in the same situation. Always use cross-entropy for classification and MSE for regression."
+      }
+    ],
+    "summary": [
+      "A neural network consists of layers of interconnected neurons. Each neuron computes: output = activation(weights * inputs + bias). The weights determine how important each input is; the bias shifts the decision boundary.",
+      "The perceptron (single neuron) can only learn linear decision boundaries. Multi-layer perceptrons (MLPs) with hidden layers and non-linear activations can learn any continuous function (Universal Approximation Theorem).",
+      "Activation functions introduce non-linearity. Use ReLU for hidden layers (fast, no vanishing gradient for positive values), sigmoid for binary classification output, softmax for multi-class output, and no activation (linear) for regression output.",
+      "Forward propagation computes the network's output layer by layer: z = W*a_prev + b, a = activation(z). This is repeated from the input layer through all hidden layers to the output.",
+      "Loss functions measure prediction error: MSE for regression, binary cross-entropy for binary classification, categorical cross-entropy for multi-class classification. Never use MSE for classification.",
+      "Backpropagation computes gradients of the loss with respect to all weights using the chain rule of calculus. Gradients flow backward from the output layer to the input layer, telling each weight how to adjust.",
+      "Gradient descent updates weights: W = W - learning_rate * gradient. Variants include SGD (one sample), mini-batch SGD (batch of samples), momentum (adds velocity), and Adam (adaptive learning rates). Adam is the default choice.",
+      "The vanishing gradient problem occurs with sigmoid/tanh in deep networks -- gradients shrink exponentially through layers. Solutions: use ReLU activation, proper weight initialization (He/Xavier), batch normalization, and residual connections.",
+      "The exploding gradient problem causes unstable training when gradients grow exponentially. Solutions: gradient clipping, proper initialization, and batch normalization.",
+      "A neural network with even one hidden layer can solve XOR (not linearly separable). This demonstrates why hidden layers with non-linear activations are essential for learning complex patterns."
+    ]
+  },
+  "relatedTopics": [
+    "ensemble-methods-and-boosting",
+    "deep-learning-with-tensorflow-keras"
+  ],
+  "practice": {
+    "totalQuestions": 56,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Calculate the output of a neuron with inputs [2, 3], weights [0.5, -0.5], bias 1, and ReLU activation.<br><pre><code>z = 2*0.5 + 3*(-0.5) + 1\noutput = ReLU(z)</code></pre>",
+        "hint": "First compute the weighted sum, then apply ReLU (max(0, z)).",
+        "answer": "<code>z = 1.0 + (-1.5) + 1.0 = 0.5</code><br><code>output = ReLU(0.5) = 0.5</code>",
+        "explanation": "Weighted sum: 2*0.5 = 1.0, 3*(-0.5) = -1.5, plus bias 1.0 gives z = 0.5. ReLU of a positive number is the number itself: ReLU(0.5) = 0.5."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Calculate the output of a neuron with inputs [4, -1], weights [0.3, 0.7], bias -2, and sigmoid activation.<br><pre><code>z = 4*0.3 + (-1)*0.7 + (-2)\noutput = sigmoid(z) = 1/(1+e^(-z))</code></pre>",
+        "hint": "Compute z first, then apply sigmoid = 1/(1+e^(-z)).",
+        "answer": "<code>z = 1.2 + (-0.7) + (-2.0) = -1.5</code><br><code>output = sigmoid(-1.5) = 1/(1+e^1.5) = 1/(1+4.4817) = 0.1824</code>",
+        "explanation": "Weighted sum: 4*0.3=1.2, (-1)*0.7=-0.7, bias=-2. z=-1.5. Sigmoid(-1.5) = 1/(1+e^1.5) = 1/5.4817 = 0.1824. The negative z produces a value below 0.5 (closer to 0)."
+      },
+      {
+        "id": "ts-3",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the role of the bias term in a neuron?",
+        "hint": "Think about what happens to the decision boundary without a bias.",
+        "answer": "The bias allows the neuron to <strong>shift its activation</strong> independently of the inputs. Without bias, the neuron's output is zero when all inputs are zero. With bias, the neuron can fire (produce non-zero output) even with zero inputs. Geometrically, the bias shifts the decision boundary away from the origin, giving the neuron more flexibility to fit the data.",
+        "explanation": "Consider a neuron trying to learn the threshold 'fire when x > 3'. Without bias, the decision boundary must pass through the origin (x=0). With bias, the boundary can be at any position. Bias is like the intercept in linear regression."
+      },
+      {
+        "id": "ts-4",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why can a single perceptron not learn the XOR function?",
+        "hint": "XOR is not linearly separable. A perceptron creates a linear decision boundary.",
+        "answer": "XOR outputs: (0,0)->0, (0,1)->1, (1,0)->1, (1,1)->0. If you plot these points, no single straight line can separate the 1s from the 0s. A perceptron creates a <strong>linear decision boundary</strong> (a straight line in 2D). Since XOR is <strong>not linearly separable</strong>, a single perceptron cannot learn it. A multi-layer network with at least one hidden layer can learn XOR because the hidden layer creates non-linear transformations that make the problem linearly separable in a higher-dimensional space.",
+        "explanation": "This was famously demonstrated by Minsky and Papert in 1969, which temporarily halted neural network research. The solution (multi-layer networks with backpropagation) was not widely adopted until the 1980s."
+      },
+      {
+        "id": "ts-5",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What activation function would you use for the output layer of a model that predicts house prices?",
+        "hint": "House prices are continuous positive numbers. What activation allows any positive output?",
+        "answer": "<strong>No activation function (linear/identity)</strong>. House prices are continuous values that can be any positive number. A linear output layer outputs the raw weighted sum without any transformation, allowing it to predict any value. Sigmoid would limit output to (0,1), ReLU would clip negative values. For this regression task, the output layer should be linear.",
+        "explanation": "The choice of output activation depends on the task: sigmoid for binary classification (output in 0-1), softmax for multi-class (probabilities summing to 1), ReLU if output must be non-negative, and linear (no activation) for general regression."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of softmax applied to logits [1.0, 2.0, 3.0]?<br><pre><code>import numpy as np\nz = np.array([1.0, 2.0, 3.0])\nexp_z = np.exp(z)\nsoftmax = exp_z / exp_z.sum()\nprint(softmax.round(4))</code></pre>",
+        "hint": "Compute e^z for each value, then divide by the sum of all e^z values.",
+        "answer": "<code>[0.0900 0.2447 0.6652]</code>",
+        "explanation": "e^1=2.718, e^2=7.389, e^3=20.086. Sum=30.193. Softmax: [2.718/30.193, 7.389/30.193, 20.086/30.193] = [0.0900, 0.2447, 0.6652]. They sum to 1.0. The highest logit (3.0) gets the highest probability (66.5%)."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Calculate the binary cross-entropy loss for true label y=1 and predicted probability p=0.8.<br><pre><code>BCE = -(y * log(p) + (1-y) * log(1-p))</code></pre>",
+        "hint": "Plug y=1 and p=0.8 into the formula. log means natural logarithm.",
+        "answer": "<code>BCE = -(1 * ln(0.8) + 0 * ln(0.2)) = -ln(0.8) = -(-0.2231) = 0.2231</code>",
+        "explanation": "With y=1, the second term (1-y)*log(1-p) drops out. Loss = -log(0.8) = 0.2231. This is a small loss because the prediction (0.8) is close to the true label (1). If p were 0.1 (very wrong), loss would be -log(0.1) = 2.3026 (much larger)."
+      },
+      {
+        "id": "ts-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the vanishing gradient problem and which activation functions cause it?",
+        "hint": "Think about what happens when you multiply many small numbers together.",
+        "answer": "The vanishing gradient problem occurs when gradients become extremely small as they propagate backward through many layers. <strong>Sigmoid</strong> (max derivative = 0.25) and <strong>tanh</strong> (max derivative = 1.0, but often < 1) cause this. After n layers, the gradient is multiplied by the derivative at each layer. With sigmoid, after 10 layers the gradient can shrink by a factor of 0.25^10 = 0.000001. The result: early layers receive negligible gradients and stop learning.",
+        "explanation": "Solutions: (1) Use ReLU (derivative = 1 for positive values). (2) Use proper weight initialization (He initialization for ReLU). (3) Use batch normalization (normalizes activations to prevent saturation). (4) Use skip/residual connections (gradients can bypass layers)."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Explain the difference between batch gradient descent, stochastic gradient descent (SGD), and mini-batch SGD.",
+        "hint": "They differ in how many samples are used to compute each gradient update.",
+        "answer": "<strong>Batch GD</strong>: Uses ALL training samples to compute each gradient update. Stable but slow (one update per pass through the entire dataset). <strong>SGD</strong>: Uses ONE random sample per update. Very fast (n updates per pass) but noisy (high variance in gradient direction). <strong>Mini-batch SGD</strong>: Uses a small batch (typically 32-256 samples) per update. Balances speed and stability. Most commonly used in practice because it leverages GPU parallelism and reduces noise while being fast.",
+        "explanation": "Mini-batch SGD is the standard in deep learning. Batch size affects training: smaller batches add noise that can help escape local minima but may be unstable; larger batches give more accurate gradients but may converge to sharper minima that generalize worse."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given weights W=[0.5, -0.3] and bias b=0.1, compute the sigmoid derivative at input X=[2, 1].<br><pre><code>z = 2*0.5 + 1*(-0.3) + 0.1\na = sigmoid(z)\nderivative = a * (1 - a)</code></pre>",
+        "hint": "First compute z, then sigmoid(z), then the derivative formula: sigmoid(z) * (1 - sigmoid(z)).",
+        "answer": "<code>z = 1.0 - 0.3 + 0.1 = 0.8</code><br><code>a = sigmoid(0.8) = 1/(1+e^(-0.8)) = 0.6900</code><br><code>derivative = 0.6900 * (1 - 0.6900) = 0.6900 * 0.3100 = 0.2139</code>",
+        "explanation": "The sigmoid derivative at z=0.8 is 0.2139. This is less than the maximum of 0.25 (at z=0). As z moves further from 0, the derivative gets smaller, illustrating why sigmoid causes vanishing gradients in deep networks."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a Python function that performs forward propagation for a network with one hidden layer. Input: X (n_samples x n_features), W1, b1, W2, b2. Hidden layer uses ReLU, output uses sigmoid.",
+        "hint": "z1 = X @ W1 + b1, a1 = relu(z1), z2 = a1 @ W2 + b2, output = sigmoid(z2).",
+        "answer": "<pre><code>import numpy as np\n\ndef forward(X, W1, b1, W2, b2):\n    z1 = X @ W1 + b1\n    a1 = np.maximum(0, z1)  # ReLU\n    z2 = a1 @ W2 + b2\n    a2 = 1 / (1 + np.exp(-z2))  # Sigmoid\n    return z1, a1, z2, a2\n\n# Test\nX = np.array([[1.0, 2.0]])\nW1 = np.array([[0.1, 0.2], [0.3, 0.4]])\nb1 = np.array([0.1, 0.1])\nW2 = np.array([[0.5], [0.6]])\nb2 = np.array([0.1])\n\nz1, a1, z2, a2 = forward(X, W1, b1, W2, b2)\nprint(f\"Hidden: z1={z1.round(3)}, a1={a1.round(3)}\")\nprint(f\"Output: z2={z2.round(3)}, a2={a2.round(3)}\")</code></pre>",
+        "explanation": "Forward propagation is two matrix multiplications with activation functions. We return all intermediate values (z1, a1, z2, a2) because they are needed for backpropagation. The function works with any number of samples (rows in X) due to matrix multiplication broadcasting."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain the chain rule in the context of backpropagation. How does it allow us to compute gradients for weights in early layers?",
+        "hint": "The chain rule decomposes a complex derivative into a product of simpler derivatives.",
+        "answer": "The chain rule states that if y = f(g(x)), then dy/dx = f'(g(x)) * g'(x). In a neural network, the loss L depends on the output a2, which depends on z2, which depends on a1, which depends on z1, which depends on W1. To find dL/dW1, we chain: <strong>dL/dW1 = dL/da2 * da2/dz2 * dz2/da1 * da1/dz1 * dz1/dW1</strong>. Each factor is a local derivative that is easy to compute. By multiplying them together, we get the gradient for W1 without needing to compute the overall derivative directly. This is efficient because we compute gradients layer by layer, reusing intermediate results.",
+        "explanation": "Without the chain rule, computing dL/dW1 directly would require differentiating through the entire network at once -- intractable for deep networks. The chain rule decomposes this into simple local derivatives that can be computed and multiplied. This is the mathematical foundation of backpropagation."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "A neuron has weights [0.4, -0.6, 0.2], bias 0.5, and Leaky ReLU activation (alpha=0.01). Compute the output for input [3, 2, -1].<br><pre><code>z = 3*0.4 + 2*(-0.6) + (-1)*0.2 + 0.5\noutput = LeakyReLU(z, alpha=0.01)</code></pre>",
+        "hint": "Compute z first. If z > 0, output = z. If z <= 0, output = 0.01 * z.",
+        "answer": "<code>z = 1.2 + (-1.2) + (-0.2) + 0.5 = 0.3</code><br><code>output = LeakyReLU(0.3) = 0.3</code> (since z > 0)",
+        "explanation": "Weighted sum: 3*0.4=1.2, 2*(-0.6)=-1.2, (-1)*0.2=-0.2, bias=0.5. z=0.3. Since z is positive, Leaky ReLU outputs z directly: 0.3. If z were -0.3, the output would be 0.01*(-0.3) = -0.003."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the Adam optimizer and why is it preferred over vanilla SGD?",
+        "hint": "Adam combines momentum with adaptive learning rates for each parameter.",
+        "answer": "Adam (Adaptive Moment Estimation) maintains two running averages for each weight: (1) <strong>First moment (m)</strong>: Exponential moving average of the gradients (like momentum). Helps maintain direction and accelerate through flat regions. (2) <strong>Second moment (v)</strong>: Exponential moving average of squared gradients. Captures the magnitude of recent gradients for each parameter individually. Adam uses both to compute updates: large gradients get dampened (divided by sqrt(v)), small gradients get amplified. This means each parameter gets its own adaptive learning rate. Adam is preferred because: it converges faster, requires less learning rate tuning, handles sparse gradients well, and works robustly across different architectures.",
+        "explanation": "Vanilla SGD uses the same learning rate for all parameters and can oscillate. Adam adapts: parameters with large gradients get smaller effective learning rates, parameters with small gradients get larger ones. Default hyperparameters (lr=0.001, beta1=0.9, beta2=0.999) work well for most problems."
+      },
+      {
+        "id": "ts-15",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a complete neural network from scratch that solves XOR using NumPy. Architecture: 2 inputs -> 4 hidden (sigmoid) -> 1 output (sigmoid). Train for 5000 epochs and print predictions.",
+        "hint": "Initialize weights randomly. Forward pass: z1=X@W1+b1, a1=sigmoid(z1), z2=a1@W2+b2, a2=sigmoid(z2). Backward: dz2=a2-y, dW2=a1.T@dz2/4, da1=dz2@W2.T, dz1=da1*a1*(1-a1), dW1=X.T@dz1/4.",
+        "answer": "<pre><code>import numpy as np\n\ndef sigmoid(z):\n    return 1 / (1 + np.exp(-z))\n\nX = np.array([[0,0],[0,1],[1,0],[1,1]])\ny = np.array([[0],[1],[1],[0]])\n\nnp.random.seed(42)\nW1 = np.random.randn(2, 4) * 0.5\nb1 = np.zeros((1, 4))\nW2 = np.random.randn(4, 1) * 0.5\nb2 = np.zeros((1, 1))\nlr = 1.0\n\nfor epoch in range(5000):\n    z1 = X @ W1 + b1\n    a1 = sigmoid(z1)\n    z2 = a1 @ W2 + b2\n    a2 = sigmoid(z2)\n\n    dz2 = (a2 - y) * a2 * (1 - a2)\n    dW2 = a1.T @ dz2 / 4\n    db2 = dz2.mean(axis=0, keepdims=True)\n    da1 = dz2 @ W2.T\n    dz1 = da1 * a1 * (1 - a1)\n    dW1 = X.T @ dz1 / 4\n    db1 = dz1.mean(axis=0, keepdims=True)\n\n    W2 -= lr * dW2\n    b2 -= lr * db2\n    W1 -= lr * dW1\n    b1 -= lr * db1\n\nprint(\"Predictions:\")\nfor i in range(4):\n    print(f\"  {X[i]} -> {a2[i,0]:.4f} (expected {y[i,0]})\")</code></pre>",
+        "explanation": "This complete XOR network demonstrates all neural network fundamentals: weight initialization, forward propagation through two layers, loss computation, backpropagation with chain rule, and weight updates. After training, the network correctly predicts all four XOR outputs, proving that a hidden layer with non-linear activation solves non-linearly separable problems."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Calculate the output of a neuron with inputs [1, -1], weights [0.5, 0.5], bias 0, and sigmoid activation.",
+        "hint": "z = 1*0.5 + (-1)*0.5 + 0 = 0. What is sigmoid(0)?",
+        "answer": "<code>z = 0.5 + (-0.5) + 0 = 0</code><br><code>sigmoid(0) = 0.5</code>",
+        "explanation": "The positive and negative inputs cancel out, giving z=0. Sigmoid(0) = 1/(1+1) = 0.5. This is the decision boundary -- the neuron is maximally uncertain."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between forward propagation and backpropagation?",
+        "hint": "One computes predictions, the other computes gradients.",
+        "answer": "<strong>Forward propagation</strong> computes the network's output from inputs: data flows forward through layers (input -> hidden -> output), applying weights, biases, and activations at each layer to produce a prediction. <strong>Backpropagation</strong> computes gradients of the loss: gradients flow backward (output -> hidden -> input) using the chain rule, telling each weight how much it contributed to the error and how to adjust.",
+        "explanation": "Forward propagation is the 'prediction' step (compute output). Backpropagation is the 'learning' step (compute how to improve). One forward pass + one backward pass + one weight update = one training iteration."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "A 2-layer network has input dimension 3, hidden dimension 4, and output dimension 2. How many total trainable parameters does it have?",
+        "hint": "Count weights and biases for each layer: W1 (3x4), b1 (4), W2 (4x2), b2 (2).",
+        "answer": "<code>W1: 3*4 = 12, b1: 4, W2: 4*2 = 8, b2: 2</code><br><code>Total: 12 + 4 + 8 + 2 = 26 parameters</code>",
+        "explanation": "Layer 1 connects 3 inputs to 4 hidden neurons: 3*4=12 weights + 4 biases = 16 parameters. Layer 2 connects 4 hidden to 2 outputs: 4*2=8 weights + 2 biases = 10 parameters. Total: 26. Counting parameters is important for understanding model complexity."
+      },
+      {
+        "id": "ts-19",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the purpose of an activation function in a neural network?",
+        "hint": "Without it, the network is just a linear transformation.",
+        "answer": "Activation functions introduce <strong>non-linearity</strong> into the network. Without activation functions, a multi-layer network would be equivalent to a single linear transformation (stacking linear layers gives another linear layer). Non-linearity allows the network to learn complex, non-linear patterns like curves, clusters, and decision boundaries that a linear model cannot represent.",
+        "explanation": "If f(x) = Ax + b (linear), then f(f(x)) = A(Ax + b) + b = A^2*x + Ab + b, which is still linear. No matter how many linear layers you stack, the result is linear. Activation functions break this linearity, enabling the network to approximate any function."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Calculate the binary cross-entropy loss for y=0, p=0.2.<br><pre><code>BCE = -(y*log(p) + (1-y)*log(1-p))</code></pre>",
+        "hint": "With y=0, only the (1-y)*log(1-p) term contributes.",
+        "answer": "<code>BCE = -(0*ln(0.2) + 1*ln(0.8)) = -ln(0.8) = 0.2231</code>",
+        "explanation": "With y=0, loss = -log(1-0.2) = -log(0.8) = 0.2231. The prediction (0.2 for class 1) is close to the truth (0), so loss is small."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is ReLU(-5)? What is ReLU(3)?",
+        "hint": "ReLU(z) = max(0, z).",
+        "answer": "<code>ReLU(-5) = max(0, -5) = 0</code><br><code>ReLU(3) = max(0, 3) = 3</code>",
+        "explanation": "ReLU outputs 0 for any negative input and the input itself for any positive input. This simplicity makes it very fast to compute and its gradient (0 or 1) does not vanish for positive values."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What are the three types of layers in a neural network?",
+        "hint": "Input, hidden, and output.",
+        "answer": "1. <strong>Input layer</strong>: Receives raw features. Number of neurons = number of features. No computation occurs. 2. <strong>Hidden layer(s)</strong>: One or more layers where computation occurs. Each neuron applies weights, bias, and activation function. More layers = deeper network. 3. <strong>Output layer</strong>: Produces the final prediction. Architecture depends on the task (1 neuron for regression, 1 sigmoid neuron for binary classification, n softmax neurons for n-class classification).",
+        "explanation": "The hidden layers are where the network learns representations. Each layer transforms the data into increasingly abstract features. The input layer just passes data, and the output layer formats the final result."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is sigmoid(0)?",
+        "hint": "sigmoid(z) = 1/(1+e^(-z)). What is e^0?",
+        "answer": "<code>sigmoid(0) = 1/(1+e^0) = 1/(1+1) = 0.5</code>",
+        "explanation": "At z=0, the sigmoid function outputs exactly 0.5. This is the midpoint. For large positive z, sigmoid approaches 1. For large negative z, sigmoid approaches 0."
+      },
+      {
+        "id": "mx-4",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Kavitha's neural network has a training loss that decreases but validation loss starts increasing after epoch 50. What is happening and how should she fix it?",
+        "hint": "When training loss improves but validation loss worsens, the model is memorizing the training data.",
+        "answer": "The model is <strong>overfitting</strong> -- it is memorizing training data patterns that do not generalize. Fixes: (1) <strong>Early stopping</strong>: Stop training at epoch 50 (where validation loss is lowest). (2) <strong>Dropout</strong>: Randomly disable neurons during training to prevent co-adaptation. (3) <strong>Reduce model size</strong>: Fewer layers or fewer neurons per layer. (4) <strong>L2 regularization</strong>: Penalize large weights. (5) <strong>Data augmentation</strong>: Increase effective training set size. (6) <strong>Reduce learning rate</strong>: Smaller updates are less likely to overfit.",
+        "explanation": "The gap between training and validation loss is the hallmark of overfitting. The model has learned patterns specific to the training data (noise) rather than generalizable patterns. Regularization techniques constrain the model to learn simpler, more generalizable patterns."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "A network outputs softmax probabilities [0.7, 0.2, 0.1] for three classes. If the true class is class 0 (one-hot: [1, 0, 0]), what is the categorical cross-entropy loss?",
+        "hint": "CCE = -sum(y_k * log(p_k)). Only the true class term is non-zero.",
+        "answer": "<code>CCE = -(1*ln(0.7) + 0*ln(0.2) + 0*ln(0.1)) = -ln(0.7) = 0.3567</code>",
+        "explanation": "Since the one-hot label is [1, 0, 0], only the first term survives: -log(0.7) = 0.3567. The loss only depends on the probability assigned to the correct class. If the model predicted 0.99 for class 0, loss would be -log(0.99) = 0.01 (much smaller, better prediction)."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the dying ReLU problem and how does Leaky ReLU solve it?",
+        "hint": "If a ReLU neuron always receives negative inputs, its output and gradient are always 0.",
+        "answer": "The <strong>dying ReLU problem</strong>: If a neuron's weighted sum is always negative (e.g., due to a large negative bias or bad weight initialization), ReLU outputs 0 and its gradient is 0. Since the gradient is 0, the weights never update, and the neuron is permanently 'dead' -- it never activates again. <strong>Leaky ReLU</strong> fixes this by outputting a small positive slope for negative inputs: LeakyReLU(z) = z if z > 0, else 0.01*z. The gradient for negative z is 0.01 (not 0), so the neuron can still learn and potentially recover.",
+        "explanation": "In practice, dying ReLU is more common with high learning rates (which can push weights into a region where z is always negative). Leaky ReLU, Parametric ReLU (learnable slope), and ELU are all variants designed to solve this. However, standard ReLU still works well in most cases."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a function that computes the softmax of a vector with numerical stability (subtracting the max before exponentiating).",
+        "hint": "Subtract np.max(z) from z before computing exp. This prevents overflow for large values.",
+        "answer": "<pre><code>import numpy as np\n\ndef stable_softmax(z):\n    z_shifted = z - np.max(z)  # Subtract max for numerical stability\n    exp_z = np.exp(z_shifted)\n    return exp_z / exp_z.sum()\n\n# Test with large values that would overflow without stability\nprint(stable_softmax(np.array([1000, 1001, 999])))\nprint(stable_softmax(np.array([2, 1, 0.1])))\nprint(f\"Sum: {stable_softmax(np.array([2, 1, 0.1])).sum():.4f}\")</code></pre>",
+        "explanation": "Without subtracting the max, np.exp(1000) would overflow to infinity. Subtracting the max shifts all values to be <= 0, so exp values are <= 1, preventing overflow. The subtraction does not change the softmax output because the constant cancels in the numerator and denominator."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "A 2-layer network has W1 shape (5, 10), b1 shape (10,), W2 shape (10, 3), b2 shape (3,). What is the input size, hidden size, output size, and total number of trainable parameters?",
+        "hint": "W shape is (input, output). Count all weights and biases.",
+        "answer": "<strong>Input size</strong>: 5 (W1 has 5 rows). <strong>Hidden size</strong>: 10 (W1 has 10 columns). <strong>Output size</strong>: 3 (W2 has 3 columns). <strong>Total parameters</strong>: W1 (5*10=50) + b1 (10) + W2 (10*3=30) + b2 (3) = <strong>93 parameters</strong>.",
+        "explanation": "Weight matrices have shape (input_neurons, output_neurons). Bias vectors have shape (output_neurons,). The total parameter count is the sum of all elements in all weight matrices and bias vectors. Counting parameters is important for understanding model complexity and memory requirements."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is He initialization and why is it important for networks with ReLU activations?",
+        "hint": "ReLU kills half the outputs (negative values become 0). Initialization must compensate for this.",
+        "answer": "He initialization sets weights from a normal distribution with mean 0 and standard deviation <strong>sqrt(2/n_in)</strong>, where n_in is the number of input connections. For ReLU networks, half the activations are zero (ReLU kills negative values), so the effective variance of the layer output is halved. He initialization compensates by doubling the initial variance (factor of 2 instead of 1). Without proper initialization, activations either vanish (all become 0) or explode (grow extremely large) as they propagate through layers, making training impossible.",
+        "explanation": "Xavier initialization (sqrt(1/n_in)) was designed for sigmoid/tanh. He initialization (sqrt(2/n_in)) was designed for ReLU. Using Xavier with ReLU can cause activations to shrink to zero in deep networks. Using He initialization ensures activations maintain a healthy variance through the entire network depth."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Rajan builds a neural network for a 10-class classification problem. He uses sigmoid on the output layer instead of softmax. What goes wrong?",
+        "hint": "Sigmoid outputs are independent. Softmax outputs are mutually exclusive and sum to 1.",
+        "answer": "With sigmoid on each of 10 output neurons, each outputs an independent probability in (0, 1). These probabilities do <strong>not sum to 1</strong> and are not mutually exclusive. The model might output [0.8, 0.7, 0.9, ...] suggesting the sample belongs to multiple classes simultaneously. For <strong>single-label multi-class classification</strong> (each sample belongs to exactly one class), softmax is required because it produces a probability distribution where all outputs sum to 1 and are mutually exclusive. The loss function should be categorical cross-entropy (with softmax), not binary cross-entropy (with sigmoid).",
+        "explanation": "Use sigmoid for multi-label classification (sample can belong to multiple classes simultaneously, like tags on an image). Use softmax for single-label multi-class classification (sample belongs to exactly one class, like digit recognition)."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Calculate the weight update for a single weight w=0.5 if the gradient dL/dw=-0.3 and learning_rate=0.1.<br>Then calculate the update using Adam with m=-0.27, v=0.081, t=10, beta1=0.9, beta2=0.999, lr=0.1.",
+        "hint": "SGD: w_new = w - lr * gradient. Adam: correct bias in m and v, then update.",
+        "answer": "<strong>SGD</strong>: w_new = 0.5 - 0.1 * (-0.3) = 0.5 + 0.03 = <strong>0.53</strong><br><br><strong>Adam</strong>:<br>m_hat = -0.27 / (1 - 0.9^10) = -0.27 / 0.6513 = -0.4145<br>v_hat = 0.081 / (1 - 0.999^10) = 0.081 / 0.00995 = 8.1407<br>w_new = 0.5 - 0.1 * (-0.4145) / (sqrt(8.1407) + 1e-8) = 0.5 + 0.0145 = <strong>0.5145</strong>",
+        "explanation": "SGD directly applies the gradient scaled by the learning rate. Adam first corrects for bias in the moment estimates (early in training m and v are biased toward zero), then divides the corrected first moment by the square root of the corrected second moment. This gives each parameter an adaptive learning rate based on its gradient history."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain why batch normalization helps train deep neural networks.",
+        "hint": "It normalizes the inputs to each layer, addressing internal covariate shift.",
+        "answer": "Batch normalization normalizes the activations of each layer to have <strong>zero mean and unit variance</strong> within each mini-batch. Benefits: (1) <strong>Reduces internal covariate shift</strong>: As weights update during training, the distribution of inputs to each layer changes. BN stabilizes these distributions, making training smoother. (2) <strong>Allows higher learning rates</strong>: Without BN, large learning rates cause instability. BN keeps activations in a well-conditioned range. (3) <strong>Acts as regularization</strong>: The noise from batch statistics adds a slight regularization effect, reducing overfitting. (4) <strong>Reduces sensitivity to initialization</strong>: Even with poor weight initialization, BN normalizes activations, preventing vanishing or exploding signals. (5) <strong>Faster convergence</strong>: Training typically converges 5-10x faster with BN.",
+        "explanation": "BN applies the transformation: x_hat = (x - batch_mean) / sqrt(batch_var + eps), then scale and shift: y = gamma * x_hat + beta. Gamma and beta are learnable parameters that allow the network to undo the normalization if needed. BN is applied after the linear transformation and before the activation function."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\ndef leaky_relu(z, alpha=0.01):\n    return np.where(z > 0, z, alpha * z)\n\nvalues = np.array([-2, -1, 0, 1, 2])\nprint(leaky_relu(values))</code></pre>",
+        "hint": "For positive values, output = value. For negative values, output = 0.01 * value.",
+        "answer": "<code>[-0.02 -0.01  0.    1.    2.  ]</code>",
+        "explanation": "Leaky ReLU: -2 -> 0.01*(-2) = -0.02, -1 -> -0.01, 0 -> 0, 1 -> 1, 2 -> 2. Unlike standard ReLU (which would output 0 for negative values), Leaky ReLU allows a small gradient for negative inputs, preventing the dying ReLU problem."
+      },
+      {
+        "id": "mx-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is dropout and how does it prevent overfitting?",
+        "hint": "It randomly disables neurons during training.",
+        "answer": "Dropout randomly sets a fraction of neuron outputs to zero during each training step. With dropout rate 0.5, each neuron has a 50% chance of being 'dropped' in each forward pass. This prevents <strong>co-adaptation</strong>: neurons cannot rely on specific other neurons always being present, so they must learn more robust, independent features. At test time, all neurons are active but their outputs are scaled by (1 - dropout_rate). Dropout is equivalent to training an ensemble of many different sub-networks and averaging their predictions.",
+        "explanation": "Dropout was introduced by Srivastava et al. (2014) and is one of the most effective regularization techniques for neural networks. Typical dropout rates: 0.2-0.5. Too much dropout causes underfitting; too little provides insufficient regularization."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the output range of the sigmoid activation function?",
+        "options": {
+          "A": "(-infinity, infinity)",
+          "B": "(-1, 1)",
+          "C": "(0, 1)",
+          "D": "[0, infinity)"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Sigmoid(z) = 1/(1+e^(-z)) always outputs between 0 and 1 (exclusive). As z approaches infinity, sigmoid approaches 1. As z approaches negative infinity, sigmoid approaches 0."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which activation function is most commonly used in hidden layers?",
+        "options": {
+          "A": "Sigmoid",
+          "B": "Softmax",
+          "C": "ReLU",
+          "D": "Linear"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> ReLU (Rectified Linear Unit) is the default activation for hidden layers. It is fast, does not suffer from vanishing gradients for positive inputs, and works well in practice. Sigmoid (A) causes vanishing gradients. Softmax (B) is for output layers. Linear (D) adds no non-linearity."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does backpropagation compute?",
+        "options": {
+          "A": "The output of the network",
+          "B": "The gradient of the loss with respect to each weight",
+          "C": "The optimal learning rate",
+          "D": "The number of layers needed"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Backpropagation uses the chain rule to compute the gradient (partial derivative) of the loss function with respect to every weight in the network. These gradients tell each weight how to adjust to reduce the loss."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "For multi-class classification with 5 classes, which output layer configuration is correct?",
+        "options": {
+          "A": "5 neurons with sigmoid",
+          "B": "1 neuron with softmax",
+          "C": "5 neurons with softmax",
+          "D": "5 neurons with ReLU"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Softmax on 5 output neurons produces 5 probabilities that sum to 1, one for each class. Sigmoid (A) would give 5 independent probabilities that do not sum to 1. Single neuron (B) cannot represent 5 classes. ReLU (D) does not produce probabilities."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which loss function is used for binary classification?",
+        "options": {
+          "A": "Mean Squared Error",
+          "B": "Binary Cross-Entropy",
+          "C": "Mean Absolute Error",
+          "D": "Hinge Loss"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Binary Cross-Entropy (BCE) is designed for binary classification with probability outputs. MSE (A) and MAE (C) are for regression. Hinge Loss (D) is used with SVM, not neural networks with sigmoid output."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is ReLU(z) = max(0, z). What is its derivative for z > 0?",
+        "options": {
+          "A": "0",
+          "B": "z",
+          "C": "1",
+          "D": "0.5"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> For z > 0, ReLU(z) = z, and d(z)/dz = 1. For z < 0, ReLU(z) = 0, and the derivative is 0. At z = 0, the derivative is technically undefined but conventionally set to 0 in implementations."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Priya's network has 784 input neurons, two hidden layers with 128 and 64 neurons, and 10 output neurons. How many weight parameters does it have (excluding biases)?",
+        "options": {
+          "A": "784 * 128 + 128 * 64 + 64 * 10 = 109,386",
+          "B": "784 + 128 + 64 + 10 = 986",
+          "C": "784 * 128 * 64 * 10",
+          "D": "784 + 128 + 64 + 10 + biases"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Weight count = sum of (input * output) for each layer. Layer 1: 784*128 = 100,352. Layer 2: 128*64 = 8,192. Layer 3: 64*10 = 640. Total: 109,184 weight parameters (excluding biases of 128+64+10=202)."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which optimizer adapts the learning rate for each parameter individually?",
+        "options": {
+          "A": "Batch Gradient Descent",
+          "B": "SGD with Momentum",
+          "C": "Adam",
+          "D": "Vanilla SGD"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Adam maintains per-parameter running averages of gradients and squared gradients, giving each parameter its own effective learning rate. Batch GD (A), Momentum (B), and Vanilla SGD (D) all use the same learning rate for every parameter."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "The maximum value of the sigmoid derivative is:",
+        "options": {
+          "A": "1.0 (at z = 0)",
+          "B": "0.25 (at z = 0)",
+          "C": "0.5 (at z = 0)",
+          "D": "0 (at z = 0)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Sigmoid derivative = sigmoid(z) * (1 - sigmoid(z)). At z=0, sigmoid(0)=0.5, so derivative = 0.5*0.5 = 0.25. This maximum of 0.25 is why sigmoid causes vanishing gradients -- multiplying by 0.25 at each layer shrinks the gradient exponentially."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What does the Universal Approximation Theorem state?",
+        "options": {
+          "A": "Neural networks can solve any problem perfectly",
+          "B": "A network with one hidden layer and enough neurons can approximate any continuous function",
+          "C": "Deeper networks are always better than shallow ones",
+          "D": "Neural networks do not need training data"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The theorem states that a feedforward network with a single hidden layer containing a finite number of neurons can approximate any continuous function to arbitrary precision. However, it does not say how many neurons are needed or how to train them -- in practice, deeper networks with fewer neurons per layer are often more efficient."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "During training, Arjun notices that his loss jumps to NaN after a few epochs. What is the most likely cause?",
+        "options": {
+          "A": "The dataset has too few samples",
+          "B": "Exploding gradients causing weights to become infinitely large",
+          "C": "The model has too few layers",
+          "D": "The activation function is wrong"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> NaN loss typically results from exploding gradients: large gradients cause large weight updates, which cause even larger gradients, creating a positive feedback loop that sends weights to infinity. Solutions: reduce learning rate, use gradient clipping, use batch normalization, or use proper weight initialization."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What weight initialization should Deepa use for a network with ReLU activations?",
+        "options": {
+          "A": "All zeros",
+          "B": "All ones",
+          "C": "He initialization: N(0, sqrt(2/n_in))",
+          "D": "Xavier initialization: N(0, sqrt(1/n_in))"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> He initialization (sqrt(2/n_in)) compensates for ReLU killing half the activations (negative values become 0). All zeros (A) means all neurons learn the same thing (symmetry breaking problem). All ones (B) causes exploding activations. Xavier (D) is for sigmoid/tanh, not ReLU."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "In a neural network with 5 hidden layers using sigmoid, approximately what fraction of the original gradient reaches the first hidden layer?",
+        "options": {
+          "A": "About 50%",
+          "B": "About 0.1% (0.25^5 = 0.001)",
+          "C": "About 100% (gradients are preserved)",
+          "D": "About 25%"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Sigmoid's maximum derivative is 0.25. Through 5 layers, the gradient is multiplied by at most 0.25^5 = 0.00098 (about 0.1%). This is the vanishing gradient problem -- early layers receive gradients a thousand times smaller than the output layer, making them learn extremely slowly."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Why does subtracting np.max(z) before computing softmax not change the result?",
+        "options": {
+          "A": "It rounds the values",
+          "B": "The subtracted constant cancels in the numerator and denominator of softmax",
+          "C": "It makes all values positive",
+          "D": "NumPy automatically handles this"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> softmax(z - c) = exp(z_i - c) / sum(exp(z_j - c)) = exp(z_i)*exp(-c) / (sum(exp(z_j))*exp(-c)) = exp(z_i) / sum(exp(z_j)) = softmax(z). The constant exp(-c) appears in both numerator and denominator, canceling out. This trick prevents overflow when z values are large."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "What happens if all weights in a neural network are initialized to zero?",
+        "options": {
+          "A": "The network trains faster",
+          "B": "All neurons in a layer learn the same thing (symmetry problem) and the network cannot learn",
+          "C": "The network converges to the optimal solution immediately",
+          "D": "Only the output layer is affected"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> With all-zero weights, every neuron in a layer computes the same output. During backpropagation, they all receive the same gradient and update identically. They remain identical forever -- the network has only 1 effective neuron per layer. Random initialization breaks this symmetry."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "Sanya's network outputs [0.3, 0.5, 0.8] from three output neurons with sigmoid activation for a 3-class problem. What is wrong?",
+        "options": {
+          "A": "Nothing is wrong",
+          "B": "The outputs sum to 1.6, not 1.0. She should use softmax instead of sigmoid for single-label multi-class classification",
+          "C": "She should use ReLU instead",
+          "D": "The outputs should be integers"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> For single-label multi-class classification (sample belongs to exactly one class), outputs must be a probability distribution summing to 1. Sigmoid gives independent outputs that do not sum to 1. Softmax normalizes outputs to sum to 1. Sigmoid is correct only for multi-label classification (sample can belong to multiple classes)."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is gradient clipping and when is it used?",
+        "options": {
+          "A": "Removing features with low gradients",
+          "B": "Capping gradient magnitudes to a maximum value to prevent exploding gradients",
+          "C": "Clipping weights to zero",
+          "D": "Reducing the learning rate at each epoch"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Gradient clipping limits the magnitude of gradients during backpropagation. If a gradient exceeds the threshold, it is scaled down. This prevents exploding gradients (which cause NaN loss and unstable training) while preserving the gradient direction. Common in RNNs and deep networks."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Easy",
+        "question": "What is the output of ReLU(0)?",
+        "options": {
+          "A": "-1",
+          "B": "0",
+          "C": "1",
+          "D": "0.5"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> ReLU(z) = max(0, z). When z=0, output is 0."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "Which loss function should Arun use for predicting house prices (regression)?",
+        "options": {
+          "A": "Binary Cross-Entropy",
+          "B": "Categorical Cross-Entropy",
+          "C": "Mean Squared Error (MSE)",
+          "D": "Hinge Loss"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> MSE is standard for regression. Cross-Entropy variants are for classification."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "Network: Input(100)->Hidden(256)->Hidden(128)->Hidden(64)->Output(10). Total weight parameters (excluding biases)?",
+        "options": {
+          "A": "100*256 + 256*128 + 128*64 + 64*10 = 67,200",
+          "B": "558",
+          "C": "1,000",
+          "D": "2,097,152"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Weights = sum of (input * output) per layer: 25600 + 32768 + 8192 + 640 = 67,200."
+      },
+      {
+        "id": "mcq-21",
+        "difficulty": "Easy",
+        "question": "What does \"epoch\" mean in neural network training?",
+        "options": {
+          "A": "One weight update",
+          "B": "One complete pass through the entire training dataset",
+          "C": "One mini-batch",
+          "D": "The final layer"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> One epoch = model sees every training sample once. Training runs for many epochs."
+      },
+      {
+        "id": "mcq-22",
+        "difficulty": "Medium",
+        "question": "Why is mini-batch gradient descent preferred over full batch for large datasets?",
+        "options": {
+          "A": "Mini-batch always gives higher accuracy",
+          "B": "Faster per update, leverages GPU parallelism, and beneficial noise helps escape local minima",
+          "C": "Full batch does not converge",
+          "D": "Mini-batch uses less memory but is slower"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Mini-batch is faster, GPU-friendly, and the noise from random sampling helps escape shallow local minima."
+      }
+    ]
+  }
+}

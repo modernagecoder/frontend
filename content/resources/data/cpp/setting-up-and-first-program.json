@@ -1,0 +1,714 @@
+{
+  "title": "Setting Up C++ and Your First Program",
+  "slug": "setting-up-and-first-program",
+  "language": "cpp",
+  "chapter": 2,
+  "difficulty": "Beginner",
+  "readingTime": "22 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 54,
+  "seo": {
+    "title": "Setting Up C++ and Your First Program - Install g++, IDE Setup & Hello World | Modern Age Coders",
+    "description": "Learn how to install g++ (MinGW on Windows, built-in on Linux/Mac), set up VS Code for C++, and write your first C++ program. Covers cout, cin, endl, comments, namespaces, and 54 practice questions.",
+    "keywords": "install c++ compiler, g++ setup, mingw windows, c++ hello world, first c++ program, cout cin, c++ ide setup, vs code c++, c++ for beginners, namespace std"
+  },
+  "content": {
+    "what": "<h2>Setting Up Your C++ Environment</h2><p>Before you can write and run C++ programs, you need two things: a <strong>text editor or IDE</strong> to write code, and a <strong>compiler</strong> to convert your code into an executable program. Unlike Python or JavaScript where you can run code with just an interpreter, C++ requires compilation -- your source code must be translated into machine code before it can run.</p><p>This chapter walks you through installing a C++ compiler on any operating system, setting up an editor, and writing your very first program. By the end, you will be able to write, compile, and run C++ programs from your terminal.</p><h3>What You Need</h3><table><tr><th>Component</th><th>Purpose</th><th>Recommendation</th></tr><tr><td>Compiler</td><td>Converts C++ source code to executable</td><td>g++ (part of GCC)</td></tr><tr><td>Text Editor / IDE</td><td>Write and manage code</td><td>VS Code with C/C++ extension</td></tr><tr><td>Terminal</td><td>Run compilation commands</td><td>Built-in terminal in VS Code</td></tr></table>",
+    "why": "<h2>Why Does Setup Matter?</h2><p>Many beginners skip environment setup and use online compilers exclusively. While online compilers are fine for learning basics, understanding the local setup process is critical for several reasons:</p><h3>1. Real-World Development</h3><p>No professional developer uses an online compiler. Real projects have multiple files, libraries, build systems (Make, CMake), and debuggers. Setting up a local environment teaches you the fundamentals of how software development actually works.</p><h3>2. Competitive Programming</h3><p>In competitions like ICPC and Google Code Jam, you often code locally and submit files. A properly configured local setup with fast compilation and testing saves crucial minutes during contests.</p><h3>3. Debugging</h3><p>Online compilers give you limited error information. A local setup with a debugger (GDB, LLDB) lets you step through code line by line, inspect variables, and find bugs efficiently.</p><h3>4. Understanding the Toolchain</h3><p>Knowing what g++ does, what flags it accepts, and how compilation works makes you a better programmer. When you get a \"linker error\" or \"undefined reference,\" you will know what it means and how to fix it.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>Installing g++ on Different Platforms</h3><h4>Windows (MinGW-w64)</h4><p>Windows does not come with a C++ compiler. The most popular free option is <strong>MinGW-w64</strong>, which provides g++ for Windows:</p><ol><li>Download the MinGW-w64 installer from <code>https://www.mingw-w64.org/</code> or install via MSYS2.</li><li>During installation, select <code>x86_64</code> architecture and <code>posix</code> threads.</li><li>Add the <code>bin</code> directory to your system's PATH environment variable (e.g., <code>C:\\mingw64\\bin</code>).</li><li>Open Command Prompt and verify: <code>g++ --version</code>.</li></ol><p>Alternatively, install via <strong>MSYS2</strong>: run <code>pacman -S mingw-w64-x86_64-gcc</code> in the MSYS2 terminal.</p><h4>macOS</h4><p>macOS provides Clang (which is compatible with g++) via Xcode Command Line Tools:</p><ol><li>Open Terminal and run: <code>xcode-select --install</code></li><li>Verify: <code>g++ --version</code> (this actually invokes Clang on macOS, but it is fully compatible)</li></ol><h4>Linux (Ubuntu/Debian)</h4><p>Most Linux distributions have g++ available in their package manager:</p><ol><li>Open Terminal and run: <code>sudo apt update && sudo apt install g++</code></li><li>Verify: <code>g++ --version</code></li></ol><h3>Compiling from the Terminal</h3><p>The basic compilation command is:</p><pre><code>g++ filename.cpp -o outputname</code></pre><p>This compiles <code>filename.cpp</code> and creates an executable called <code>outputname</code>. To run it:</p><ul><li>Linux/macOS: <code>./outputname</code></li><li>Windows: <code>outputname.exe</code> or just <code>outputname</code></li></ul><p>Useful g++ flags:</p><table><tr><th>Flag</th><th>Purpose</th></tr><tr><td><code>-o name</code></td><td>Name the output executable</td></tr><tr><td><code>-std=c++17</code></td><td>Use C++17 standard</td></tr><tr><td><code>-Wall</code></td><td>Enable all common warnings</td></tr><tr><td><code>-Wextra</code></td><td>Enable extra warnings</td></tr><tr><td><code>-g</code></td><td>Include debug information (for GDB)</td></tr><tr><td><code>-O2</code></td><td>Optimization level 2 (for competitive programming)</td></tr><tr><td><code>-fsanitize=address</code></td><td>Detect memory errors at runtime</td></tr></table><h3>IDEs and Editors for C++</h3><table><tr><th>Editor/IDE</th><th>Pros</th><th>Best For</th></tr><tr><td>VS Code + C/C++ Extension</td><td>Free, lightweight, excellent IntelliSense, integrated terminal</td><td>All levels</td></tr><tr><td>Code::Blocks</td><td>Free, simple, built-in compiler on Windows</td><td>Beginners</td></tr><tr><td>CLion (JetBrains)</td><td>Best debugger, CMake integration, refactoring tools</td><td>Serious projects (paid, free for students)</td></tr><tr><td>Vim/Neovim</td><td>Terminal-based, extremely fast, programmable</td><td>Advanced users, competitive programming</td></tr></table><h3>Anatomy of a C++ Program</h3><p>Every C++ program has a specific structure. Let us break down each part:</p><h4>1. #include &lt;iostream&gt;</h4><p>This is a <strong>preprocessor directive</strong>. It tells the preprocessor to include the contents of the <code>&lt;iostream&gt;</code> header file. This header provides <code>cout</code> (console output), <code>cin</code> (console input), <code>endl</code> (newline + flush), and other I/O facilities. Without this line, you cannot use any of these.</p><h4>2. using namespace std;</h4><p>The C++ standard library puts everything inside the <code>std</code> namespace to avoid name conflicts. Without this line, you would need to write <code>std::cout</code>, <code>std::cin</code>, <code>std::endl</code> everywhere. The <code>using namespace std;</code> directive imports all names from the <code>std</code> namespace into the global scope, so you can write just <code>cout</code>.</p><h4>3. int main()</h4><p>This is the <strong>entry point</strong> of every C++ program. When you run the executable, execution starts from the first line inside <code>main()</code>. The <code>int</code> return type means main returns an integer to the operating system. <code>return 0;</code> means success; any non-zero value means an error occurred.</p><h4>4. Statements and Semicolons</h4><p>Every statement in C++ must end with a <strong>semicolon</strong> (<code>;</code>). This is how the compiler knows where one statement ends and the next begins. Forgetting a semicolon is the single most common syntax error for beginners.</p><h4>5. Comments</h4><p>C++ supports two types of comments:</p><ul><li><code>//</code> Single-line comment: everything after <code>//</code> on that line is ignored by the compiler.</li><li><code>/* ... */</code> Multi-line comment: everything between <code>/*</code> and <code>*/</code> is ignored, even across multiple lines.</li></ul><h4>6. cout and the Insertion Operator (&lt;&lt;)</h4><p><code>cout</code> stands for \"character output\" and sends data to the standard output (your terminal). The <code>&lt;&lt;</code> operator is called the <strong>insertion operator</strong> because it inserts data into the output stream. You can chain multiple <code>&lt;&lt;</code> operators to output several values in sequence.</p><h4>7. cin and the Extraction Operator (&gt;&gt;)</h4><p><code>cin</code> stands for \"character input\" and reads data from the standard input (your keyboard). The <code>&gt;&gt;</code> operator is called the <strong>extraction operator</strong> because it extracts data from the input stream and stores it in a variable. <code>cin &gt;&gt;</code> reads until the first whitespace character (space, tab, or newline).</p><h4>8. endl vs \\n</h4><p>Both <code>endl</code> and <code>'\\n'</code> produce a newline. The difference: <code>endl</code> also <strong>flushes the output buffer</strong>, forcing all buffered data to be written immediately. <code>'\\n'</code> just adds a newline without flushing. In competitive programming, use <code>'\\n'</code> because buffer flushing is slow when done repeatedly.</p><h4>9. Case Sensitivity</h4><p>C++ is <strong>case-sensitive</strong>. <code>Main</code> is not the same as <code>main</code>. <code>Cout</code> is not the same as <code>cout</code>. <code>Int</code> is not the same as <code>int</code>. Every keyword and identifier must match its exact casing.</p>",
+    "codeExamples": [
+      {
+        "title": "Hello World - The Complete First Program",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello, World!\" << endl;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "This is the canonical first C++ program. Line 1 includes the iostream header for I/O. Line 2 imports the std namespace. Line 4 declares the main function. Line 5 prints <code>Hello, World!</code> followed by a newline. Line 6 returns 0 to indicate success. Compile with <code>g++ hello.cpp -o hello</code> and run with <code>./hello</code>.",
+        "output": "Hello, World!"
+      },
+      {
+        "title": "Multiple cout Statements and Chaining",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    // Separate cout statements\n    cout << \"Name: Rohan\" << endl;\n    cout << \"Age: 20\" << endl;\n\n    // Chaining multiple values in one cout\n    cout << \"Branch: \" << \"CSE\" << \", Year: \" << 3 << endl;\n\n    // Mixing strings and expressions\n    cout << \"2 + 3 = \" << 2 + 3 << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "You can have multiple <code>cout</code> statements, or chain multiple values in a single <code>cout</code> using the <code>&lt;&lt;</code> operator. String literals go in double quotes. Numbers and expressions are printed as their values -- <code>2 + 3</code> is evaluated to <code>5</code> before printing.",
+        "output": "Name: Rohan\nAge: 20\nBranch: CSE, Year: 3\n2 + 3 = 5"
+      },
+      {
+        "title": "Reading Input with cin",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int age;\n    string name;\n    float gpa;\n\n    cout << \"Enter your name: \";\n    cin >> name;\n\n    cout << \"Enter your age: \";\n    cin >> age;\n\n    cout << \"Enter your GPA: \";\n    cin >> gpa;\n\n    cout << \"\\nHello, \" << name << \"!\" << endl;\n    cout << \"Age: \" << age << \", GPA: \" << gpa << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>cin &gt;&gt;</code> reads one token (separated by whitespace) from the keyboard and stores it in the variable. The variable type determines how the input is parsed: <code>int</code> reads an integer, <code>float</code> reads a decimal number, <code>string</code> reads one word. Note: <code>cin &gt;&gt; name</code> reads only the first word. If you type \"Rahul Sharma\", only \"Rahul\" is stored.",
+        "output": "Enter your name: Ankit\nEnter your age: 21\nEnter your GPA: 8.7\n\nHello, Ankit!\nAge: 21, GPA: 8.7"
+      },
+      {
+        "title": "Comments - Single Line and Multi Line",
+        "code": "#include <iostream>\nusing namespace std;\n\n// This is a single-line comment\n// The compiler ignores everything after //\n\n/*\n  This is a multi-line comment.\n  It can span multiple lines.\n  Useful for explaining complex logic\n  or temporarily disabling blocks of code.\n*/\n\nint main() {\n    // Print a greeting\n    cout << \"Welcome to C++\" << endl;  // inline comment\n\n    /* cout << \"This line is commented out\"; */\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Single-line comments start with <code>//</code> and extend to the end of the line. Multi-line comments start with <code>/*</code> and end with <code>*/</code>. Comments are completely ignored by the compiler. Use them to explain your logic, document your code, or temporarily disable code during debugging. Inline comments (after code on the same line) are common for brief explanations.",
+        "output": "Welcome to C++"
+      },
+      {
+        "title": "Without 'using namespace std' - Using std:: Prefix",
+        "code": "#include <iostream>\n\nint main() {\n    std::cout << \"Method 1: Using std:: prefix\" << std::endl;\n\n    // You can also import specific names\n    using std::cout;\n    using std::endl;\n\n    cout << \"Method 2: Selective using\" << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Without <code>using namespace std;</code>, you must prefix every standard library name with <code>std::</code>. Alternatively, you can import specific names with <code>using std::cout;</code>. This selective approach is preferred in large projects because it avoids name collisions while keeping code readable. In competitive programming, <code>using namespace std;</code> is fine.",
+        "output": "Method 1: Using std:: prefix\nMethod 2: Selective using"
+      },
+      {
+        "title": "Multiple Inputs on One Line",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int a, b, c;\n\n    cout << \"Enter three numbers separated by spaces: \";\n    cin >> a >> b >> c;\n\n    cout << \"You entered: \" << a << \", \" << b << \", \" << c << endl;\n    cout << \"Sum: \" << a + b + c << endl;\n    cout << \"Average: \" << (a + b + c) / 3.0 << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "You can chain multiple <code>&gt;&gt;</code> operators to read multiple values in one statement. <code>cin &gt;&gt; a &gt;&gt; b &gt;&gt; c</code> reads three integers separated by whitespace (spaces, tabs, or newlines). Note the use of <code>3.0</code> instead of <code>3</code> in the average calculation -- dividing by <code>3.0</code> (a double) forces floating-point division. If we used <code>3</code>, integer division would truncate the decimal part.",
+        "output": "Enter three numbers separated by spaces: 10 20 30\nYou entered: 10, 20, 30\nSum: 60\nAverage: 20"
+      },
+      {
+        "title": "Escape Sequences in C++",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Newline: Hello\\nWorld\" << endl;\n    cout << \"Tab: Col1\\tCol2\\tCol3\" << endl;\n    cout << \"Backslash: C:\\\\Users\\\\Priya\" << endl;\n    cout << \"Double quote: She said \\\"Hello\\\"\" << endl;\n    cout << \"Single quote: It\\'s working\" << endl;\n    cout << \"Null character size: \" << sizeof('\\0') << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "Escape sequences start with a backslash <code>\\</code> and represent special characters. <code>\\n</code> is newline, <code>\\t</code> is tab, <code>\\\\</code> is a literal backslash, <code>\\\"</code> is a literal double quote inside a string, <code>\\'</code> is a literal single quote, and <code>\\0</code> is the null character (used to terminate C-strings). These work inside both string literals and character literals.",
+        "output": "Newline: Hello\nWorld\nTab: Col1\tCol2\tCol3\nBackslash: C:\\Users\\Priya\nDouble quote: She said \"Hello\"\nSingle quote: It's working\nNull character size: 1"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting the Semicolon",
+        "wrongCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello\" << endl\n    cout << \"World\" << endl;\n    return 0;\n}",
+        "error": "error: expected ';' before 'cout'",
+        "correctCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello\" << endl;\n    cout << \"World\" << endl;\n    return 0;\n}",
+        "explanation": "Every statement in C++ must end with a semicolon. The compiler error often points to the line AFTER the missing semicolon, which confuses beginners. In this case, the error says there is a problem before the second <code>cout</code>, but the actual fix is adding <code>;</code> to the first line."
+      },
+      {
+        "title": "Writing Main Instead of main",
+        "wrongCode": "#include <iostream>\nusing namespace std;\n\nint Main() {\n    cout << \"Hello\" << endl;\n    return 0;\n}",
+        "error": "undefined reference to 'main' (linker error)",
+        "correctCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello\" << endl;\n    return 0;\n}",
+        "explanation": "C++ is case-sensitive. The entry point must be exactly <code>main</code> (all lowercase). <code>Main</code>, <code>MAIN</code>, or <code>mAiN</code> are all different identifiers and will not be recognized as the program entry point. The linker will report that it cannot find <code>main</code>."
+      },
+      {
+        "title": "Using cin to Read Full Name (Gets Only First Word)",
+        "wrongCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    string name;\n    cout << \"Enter your full name: \";\n    cin >> name;  // Only reads first word!\n    cout << \"Hello, \" << name << endl;\n    return 0;\n}",
+        "error": "No error, but if user types 'Rahul Sharma', only 'Rahul' is stored in name.",
+        "correctCode": "#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    string name;\n    cout << \"Enter your full name: \";\n    getline(cin, name);  // Reads the entire line\n    cout << \"Hello, \" << name << endl;\n    return 0;\n}",
+        "explanation": "<code>cin &gt;&gt;</code> reads until the first whitespace character. To read an entire line including spaces, use <code>getline(cin, name)</code>. This is covered in detail in Chapter 5, but it is important to know early that <code>cin &gt;&gt;</code> has this limitation."
+      },
+      {
+        "title": "Missing #include <string> When Using std::string",
+        "wrongCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    string name = \"Kavya\";\n    cout << name << endl;\n    return 0;\n}",
+        "error": "May compile on some compilers (because iostream indirectly includes string), but may fail on others with: error: 'string' was not declared in this scope",
+        "correctCode": "#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    string name = \"Kavya\";\n    cout << name << endl;\n    return 0;\n}",
+        "explanation": "While many compilers include <code>&lt;string&gt;</code> implicitly through <code>&lt;iostream&gt;</code>, this is not guaranteed by the standard. Always explicitly include <code>#include &lt;string&gt;</code> when using <code>std::string</code>. Relying on implicit includes makes your code non-portable."
+      },
+      {
+        "title": "Using Single Quotes for Strings",
+        "wrongCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << 'Hello' << endl;\n    return 0;\n}",
+        "error": "warning: multi-character character constant / unexpected numeric output",
+        "correctCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello\" << endl;\n    return 0;\n}",
+        "explanation": "In C++, single quotes <code>'</code> are for <strong>single characters</strong> only (e.g., <code>'A'</code>, <code>'5'</code>, <code>'\\n'</code>). Double quotes <code>\"</code> are for <strong>strings</strong> (sequences of characters). <code>'Hello'</code> is a multi-character literal, which has implementation-defined behavior and will likely print a garbage integer value instead of the word Hello."
+      }
+    ],
+    "summary": [
+      "To write C++ programs, you need a compiler (g++) and an editor (VS Code recommended). Install MinGW-w64 on Windows, use xcode-select --install on macOS, or sudo apt install g++ on Linux.",
+      "Compile with: g++ filename.cpp -o output. Run with: ./output (Linux/Mac) or output.exe (Windows). Useful flags: -std=c++17, -Wall, -O2.",
+      "#include <iostream> is required for cout and cin. It is a preprocessor directive that copies the iostream header into your file before compilation.",
+      "'using namespace std;' lets you write cout instead of std::cout. In large projects, prefer std:: prefix or selective 'using std::cout;' to avoid name collisions.",
+      "int main() is the entry point of every C++ program. It must return int. return 0 means success; non-zero means error.",
+      "cout << sends data to standard output (screen). cin >> reads data from standard input (keyboard). The << and >> operators can be chained.",
+      "endl inserts a newline AND flushes the buffer. '\\n' inserts only a newline (faster). Use '\\n' in competitive programming for better performance.",
+      "C++ has two comment styles: // for single-line and /* */ for multi-line. Comments are ignored by the compiler.",
+      "C++ is case-sensitive: main is not Main. Strings use double quotes (\"text\"). Single characters use single quotes ('A').",
+      "Every statement must end with a semicolon (;). Forgetting semicolons is the most common beginner error."
+    ]
+  },
+  "relatedTopics": ["introduction-to-cpp", "variables-and-data-types"],
+  "practice": {
+    "totalQuestions": 54,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Hello\" &lt;&lt; endl;\n    cout &lt;&lt; \"World\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Each endl moves output to the next line.",
+        "answer": "<code>Hello</code><br><code>World</code>",
+        "explanation": "The first <code>cout</code> prints <code>Hello</code> followed by a newline (from <code>endl</code>). The second prints <code>World</code> on the next line. Two separate lines of output."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"A\" &lt;&lt; \"B\" &lt;&lt; \"C\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Chaining << outputs values sequentially without spaces.",
+        "answer": "<code>ABC</code>",
+        "explanation": "The chained <code>&lt;&lt;</code> operators output each string one after another with no spaces between them: <code>A</code>, then <code>B</code>, then <code>C</code>. Result: <code>ABC</code>."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Sum = \" &lt;&lt; 5 + 3 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Arithmetic expressions are evaluated before being printed.",
+        "answer": "<code>Sum = 8</code>",
+        "explanation": "The expression <code>5 + 3</code> is evaluated to <code>8</code>, then printed after the string <code>\"Sum = \"</code>. Output: <code>Sum = 8</code>."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    // cout &lt;&lt; \"This is commented out\";\n    cout &lt;&lt; \"This prints\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Comments are ignored by the compiler.",
+        "answer": "<code>This prints</code>",
+        "explanation": "The first line inside main is a comment (starts with <code>//</code>), so the compiler ignores it completely. Only the second <code>cout</code> executes, printing <code>This prints</code>."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Hello\\nWorld\\nC++\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "\\n is an escape sequence that produces a newline.",
+        "answer": "<code>Hello</code><br><code>World</code><br><code>C++</code>",
+        "explanation": "The <code>\\n</code> escape sequences inside the string create newlines. The output is three lines: <code>Hello</code>, <code>World</code>, and <code>C++</code>."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = 10;\n    int y = 3;\n    cout &lt;&lt; x / y &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Both operands are int, so this is integer division.",
+        "answer": "<code>3</code>",
+        "explanation": "When both operands of <code>/</code> are integers, C++ performs <strong>integer division</strong>, which truncates the decimal part. <code>10 / 3</code> = 3.333... truncated to <code>3</code>. To get 3.333, at least one operand must be a float or double."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Hello\";\n    cout &lt;&lt; \" \";\n    cout &lt;&lt; \"World\";\n    cout &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Without endl or \\n, outputs stay on the same line.",
+        "answer": "<code>Hello World</code>",
+        "explanation": "Without <code>endl</code> or <code>\\n</code>, each <code>cout</code> continues on the same line. The three outputs concatenate: <code>Hello</code> + <code> </code> + <code>World</code> = <code>Hello World</code>. The final <code>endl</code> moves to the next line after the output."
+      },
+      {
+        "id": "ts-8",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between // and /* */ comments in C++?",
+        "hint": "One is for single lines, the other for multiple lines.",
+        "answer": "<code>//</code> is a <strong>single-line comment</strong>: everything after <code>//</code> until the end of the line is ignored. <code>/* ... */</code> is a <strong>multi-line comment</strong>: everything between <code>/*</code> and <code>*/</code> is ignored, even across multiple lines.",
+        "explanation": "Single-line comments are more common for brief notes. Multi-line comments are useful for longer explanations or temporarily disabling blocks of code. Multi-line comments cannot be nested (a <code>/*</code> inside a <code>/* */</code> block causes issues)."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What does 'using namespace std;' do, and what happens if you omit it?",
+        "hint": "It relates to how C++ organizes standard library names.",
+        "answer": "<code>using namespace std;</code> imports all names from the <code>std</code> namespace into the current scope. If you omit it, you must prefix every standard library name with <code>std::</code>, like <code>std::cout</code>, <code>std::cin</code>, <code>std::endl</code>, <code>std::string</code>.",
+        "explanation": "The <code>std</code> namespace contains the entire C++ standard library. The <code>using</code> directive is a convenience that avoids repetitive typing. In competitive programming it saves time, but in large projects it can cause name collisions."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Tab:\\tEnd\" &lt;&lt; endl;\n    cout &lt;&lt; \"Quote: \\\"Hello\\\"\" &lt;&lt; endl;\n    cout &lt;&lt; \"Backslash: \\\\\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "\\t is tab, \\\" is a literal double quote, \\\\ is a literal backslash.",
+        "answer": "<code>Tab:\tEnd</code><br><code>Quote: \"Hello\"</code><br><code>Backslash: \\</code>",
+        "explanation": "<code>\\t</code> inserts a horizontal tab. <code>\\\"</code> inserts a literal double quote character. <code>\\\\</code> inserts a single backslash (because backslash is the escape character, you need two to get one literal backslash)."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Does this program compile? If yes, what is the output?<br><pre><code>#include &lt;iostream&gt;\nint main() {\n    std::cout &lt;&lt; 42 &lt;&lt; std::endl;\n    return 0;\n}</code></pre>",
+        "hint": "Without 'using namespace std', you must use the std:: prefix.",
+        "answer": "Yes, it compiles. Output: <code>42</code>",
+        "explanation": "This program does not use <code>using namespace std;</code>, so it uses the explicit <code>std::</code> prefix for <code>cout</code> and <code>endl</code>. This is perfectly valid and is actually the recommended style for production code."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a, b;\n    a = b = 5;\n    cout &lt;&lt; a &lt;&lt; \" \" &lt;&lt; b &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Assignment operators are right-associative: b = 5 happens first, then a = b.",
+        "answer": "<code>5 5</code>",
+        "explanation": "The assignment operator <code>=</code> is right-associative. <code>a = b = 5</code> is evaluated as <code>a = (b = 5)</code>. First, <code>b</code> is assigned 5. The expression <code>b = 5</code> returns the value 5, which is then assigned to <code>a</code>. Both variables end up with value 5."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain the difference between endl and '\\n'. When would you prefer one over the other?",
+        "hint": "One does something extra that affects performance.",
+        "answer": "Both produce a newline, but <code>endl</code> also <strong>flushes the output buffer</strong>. Flushing forces all buffered output to be written to the screen immediately. <code>'\\n'</code> just adds a newline without flushing. Use <code>'\\n'</code> in competitive programming for better performance (flushing is slow when done millions of times). Use <code>endl</code> when you need to ensure output appears immediately (e.g., before waiting for input).",
+        "explanation": "The output buffer is a temporary storage area. Data is collected in the buffer and written to the screen in batches for efficiency. Flushing forces the buffer to write immediately. In competitive programming with heavy I/O, unnecessary flushing from <code>endl</code> can cause TLE (Time Limit Exceeded)."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Does this compile? What happens?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Hello\" &lt;&lt; endl\n    return 0;\n}</code></pre>",
+        "hint": "Look carefully at the end of the cout line.",
+        "answer": "It does NOT compile. Error: <code>expected ';' before 'return'</code>",
+        "explanation": "The <code>cout</code> statement is missing a semicolon after <code>endl</code>. Without the semicolon, the compiler sees <code>endl return</code> as one continuous expression, which is not valid. This is the most common beginner error in C++."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    /* This is a\n       multi-line comment */\n    cout &lt;&lt; 42 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Multi-line comments are completely ignored.",
+        "answer": "<code>42</code>",
+        "explanation": "The multi-line comment between <code>/*</code> and <code>*/</code> is completely ignored by the compiler. Only the <code>cout</code> statement executes, printing <code>42</code>."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Line 1\" &lt;&lt; '\\n' &lt;&lt; \"Line 2\" &lt;&lt; '\\n';\n    return 0;\n}</code></pre>",
+        "hint": "'\\n' works the same as endl for producing a newline (but does not flush).",
+        "answer": "<code>Line 1</code><br><code>Line 2</code>",
+        "explanation": "The character <code>'\\n'</code> produces a newline just like <code>endl</code> but without flushing the buffer. The output is identical: two lines."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the g++ command to compile a file called 'solution.cpp' with C++17 standard and all warnings enabled, producing an executable called 'sol'?",
+        "hint": "Combine the -std, -Wall, and -o flags.",
+        "answer": "<code>g++ -std=c++17 -Wall solution.cpp -o sol</code>",
+        "explanation": "<code>-std=c++17</code> selects the C++17 standard. <code>-Wall</code> enables all common warnings (uninitialized variables, unused variables, etc.). <code>-o sol</code> names the output executable <code>sol</code>. You can also add <code>-Wextra</code> for even more warnings and <code>-O2</code> for optimization."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 10;\n    cout &lt;&lt; \"a\" &lt;&lt; endl;\n    cout &lt;&lt; a &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Pay attention to the quotes. \"a\" is a string, a (without quotes) is a variable.",
+        "answer": "<code>a</code><br><code>10</code>",
+        "explanation": "<code>\"a\"</code> (in double quotes) is the string literal containing the character 'a'. <code>a</code> (without quotes) is the variable with value 10. The first line prints the letter <code>a</code>, the second prints the number <code>10</code>. This distinction between quoted and unquoted names is fundamental."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; 10 / 3 &lt;&lt; endl;\n    cout &lt;&lt; 10.0 / 3 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Integer division truncates. If either operand is floating-point, the result is floating-point.",
+        "answer": "<code>3</code><br><code>3.33333</code>",
+        "explanation": "<code>10 / 3</code> performs integer division (both operands are int), giving <code>3</code> (decimal part truncated). <code>10.0 / 3</code> performs floating-point division (10.0 is a double), giving <code>3.33333</code>. This is a critical distinction in C++."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"First \";\n    cout &lt;&lt; \"Second \";\n    cout &lt;&lt; \"Third\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Without endl or \\n, output continues on the same line.",
+        "answer": "<code>First Second Third</code>",
+        "explanation": "The three <code>cout</code> statements output on the same line because there is no <code>endl</code> or <code>\\n</code> between them. The trailing spaces in the string literals provide the spacing."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a C++ program that prints 'Hello, I am [your name] and I am learning C++!' on one line.",
+        "hint": "Use cout with chained << operators.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Hello, I am Vikas and I am learning C++!\" &lt;&lt; endl;\n    return 0;\n}</code></pre>\nOutput: Hello, I am Vikas and I am learning C++!",
+        "explanation": "A straightforward program using <code>cout</code> with <code>endl</code> to print a single line. Replace \"Vikas\" with any name."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; 2 * 3 + 1 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Multiplication has higher precedence than addition.",
+        "answer": "<code>7</code>",
+        "explanation": "<code>2 * 3</code> is evaluated first (giving 6), then <code>6 + 1</code> = 7. The result is printed."
+      },
+      {
+        "id": "mx-3",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a C++ program that reads two integers from the user and prints their sum, difference, product, and quotient.",
+        "hint": "Use cin >> to read both numbers. Remember integer division truncates.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a, b;\n    cout &lt;&lt; \"Enter two integers: \";\n    cin &gt;&gt; a &gt;&gt; b;\n    cout &lt;&lt; \"Sum: \" &lt;&lt; a + b &lt;&lt; endl;\n    cout &lt;&lt; \"Difference: \" &lt;&lt; a - b &lt;&lt; endl;\n    cout &lt;&lt; \"Product: \" &lt;&lt; a * b &lt;&lt; endl;\n    cout &lt;&lt; \"Quotient: \" &lt;&lt; a / b &lt;&lt; endl;\n    return 0;\n}</code></pre>\nInput: 15 4\nOutput:\nSum: 19\nDifference: 11\nProduct: 60\nQuotient: 3",
+        "explanation": "The program reads two integers using <code>cin &gt;&gt; a &gt;&gt; b</code> and computes all four operations. Note that <code>15 / 4</code> gives <code>3</code> (integer division), not 3.75."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int x = 5;\n    cout &lt;&lt; x &lt;&lt; endl;\n    cout &lt;&lt; \"x\" &lt;&lt; endl;\n    cout &lt;&lt; 'x' &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "x (no quotes) is a variable, \"x\" is a string, 'x' is a character.",
+        "answer": "<code>5</code><br><code>x</code><br><code>x</code>",
+        "explanation": "<code>x</code> without quotes refers to the variable (value 5). <code>\"x\"</code> in double quotes is the string literal. <code>'x'</code> in single quotes is the character literal. Both the string and character print the letter <code>x</code>."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"A\\tB\\tC\" &lt;&lt; endl;\n    cout &lt;&lt; \"1\\t2\\t3\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "\\t inserts a horizontal tab character.",
+        "answer": "<code>A\tB\tC</code><br><code>1\t2\t3</code>",
+        "explanation": "The <code>\\t</code> escape sequence inserts a horizontal tab, aligning the columns. This creates a simple table-like output with tabs between columns."
+      },
+      {
+        "id": "mx-6",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program that reads a student's name (single word) and three subject marks, then prints the total and average.",
+        "hint": "Read the name with cin >>. Calculate average by dividing by 3.0 (not 3) for floating-point result.",
+        "answer": "<pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    string name;\n    int m1, m2, m3;\n    cout &lt;&lt; \"Enter name: \";\n    cin &gt;&gt; name;\n    cout &lt;&lt; \"Enter 3 marks: \";\n    cin &gt;&gt; m1 &gt;&gt; m2 &gt;&gt; m3;\n    int total = m1 + m2 + m3;\n    double avg = total / 3.0;\n    cout &lt;&lt; name &lt;&lt; \": Total = \" &lt;&lt; total &lt;&lt; \", Average = \" &lt;&lt; avg &lt;&lt; endl;\n    return 0;\n}</code></pre>\nInput: Divya 85 92 78\nOutput: Divya: Total = 255, Average = 85",
+        "explanation": "Three marks are read using chained <code>cin</code>. The total is computed as an integer sum. For the average, dividing by <code>3.0</code> ensures floating-point division."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; 5 &lt;&lt; \" + \" &lt;&lt; 3 &lt;&lt; \" = \" &lt;&lt; 5 + 3 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Strings are printed literally, expressions are evaluated.",
+        "answer": "<code>5 + 3 = 8</code>",
+        "explanation": "The chain prints: number <code>5</code>, then string <code>\" + \"</code>, then number <code>3</code>, then string <code>\" = \"</code>, then the expression <code>5 + 3</code> evaluated to <code>8</code>. Result: <code>5 + 3 = 8</code>."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; \"Hello\" &lt;&lt; endl;\n    cout &lt;&lt; \"World\" &lt;&lt; endl;\n    cout &lt;&lt; endl;\n    cout &lt;&lt; \"C++\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "A bare endl by itself produces an empty line.",
+        "answer": "<code>Hello</code><br><code>World</code><br><br><code>C++</code>",
+        "explanation": "<code>cout &lt;&lt; endl;</code> by itself outputs only a newline, creating a blank line in the output. So between <code>World</code> and <code>C++</code>, there is an empty line."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What happens if you write 'cout << \"Hello\";' but forget to include '#include <iostream>'?",
+        "hint": "The compiler needs to know what cout is.",
+        "answer": "The program will NOT compile. The compiler will report: <code>error: 'cout' was not declared in this scope</code>. Without <code>#include &lt;iostream&gt;</code>, the compiler has no definition of <code>cout</code>, <code>cin</code>, <code>endl</code>, or the <code>&lt;&lt;</code> / <code>&gt;&gt;</code> operators for streams.",
+        "explanation": "Unlike Python where <code>print()</code> is built-in and always available, C++ requires explicit inclusion of every feature. The <code>#include</code> directive tells the preprocessor to paste the header file contents into your code."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; 100 &lt;&lt; \" \" &lt;&lt; 200 &lt;&lt; \" \" &lt;&lt; 300 &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Numbers and spaces are chained together.",
+        "answer": "<code>100 200 300</code>",
+        "explanation": "Three numbers separated by space strings, all on one line: <code>100 200 300</code>."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    cout &lt;&lt; 'A' &lt;&lt; endl;\n    cout &lt;&lt; (int)'A' &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "Casting a char to int gives its ASCII value.",
+        "answer": "<code>A</code><br><code>65</code>",
+        "explanation": "<code>'A'</code> is a character literal. When printed directly, it shows the character <code>A</code>. When cast to <code>int</code>, it shows the ASCII value of 'A', which is <code>65</code>. This is a common technique in C++ for working with character codes."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the purpose of 'return 0;' in main()? What happens if you omit it?",
+        "hint": "It is the exit code sent to the operating system.",
+        "answer": "<code>return 0;</code> sends an exit code of 0 to the operating system, indicating the program ran successfully. If you omit <code>return 0;</code> in main(), C++ (since C++98) <strong>implicitly returns 0</strong>. So omitting it is valid -- the compiler inserts it automatically. However, explicitly writing it is considered good practice.",
+        "explanation": "This implicit return only applies to <code>main()</code>. All other functions with a non-void return type MUST have an explicit return statement, or you get undefined behavior."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which command compiles a C++ file called 'test.cpp' using g++?",
+        "options": {
+          "A": "gcc test.cpp",
+          "B": "g++ test.cpp",
+          "C": "cpp test.cpp",
+          "D": "c++ test.cpp -compile"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>g++</code> is the GNU C++ compiler. <code>g++ test.cpp</code> compiles the file and produces a default executable (<code>a.out</code> on Linux/Mac, <code>a.exe</code> on Windows). <code>gcc</code> (A) is for C. <code>cpp</code> (C) is the preprocessor. <code>c++ -compile</code> (D) is not valid syntax."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does #include <iostream> do?",
+        "options": {
+          "A": "Imports the math library",
+          "B": "Includes the input/output stream library for cout and cin",
+          "C": "Includes the string manipulation library",
+          "D": "Imports all standard libraries"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>#include &lt;iostream&gt;</code> includes the I/O stream library that provides <code>cout</code>, <code>cin</code>, <code>cerr</code>, <code>clog</code>, and <code>endl</code>. It does NOT include math functions (A), string functions (C), or all libraries (D)."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which is the correct entry point for a C++ program?",
+        "options": {
+          "A": "void main()",
+          "B": "int Main()",
+          "C": "int main()",
+          "D": "function main()"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The standard C++ entry point is <code>int main()</code>. <code>void main()</code> (A) is not standard-compliant. <code>int Main()</code> (B) is wrong because C++ is case-sensitive. <code>function main()</code> (D) is not valid C++ syntax."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What character must appear at the end of every C++ statement?",
+        "options": {
+          "A": "Colon (:)",
+          "B": "Period (.)",
+          "C": "Semicolon (;)",
+          "D": "Comma (,)"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Every statement in C++ must end with a semicolon <code>;</code>. This is different from Python which uses newlines. The colon (A) is used in labels and class definitions. The period (B) and comma (D) have different purposes."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which operator is used with cin for input?",
+        "options": {
+          "A": "<<",
+          "B": ">>",
+          "C": "->",
+          "D": ">>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>cin &gt;&gt;</code> uses the extraction operator <code>&gt;&gt;</code> to read input. Think of the arrows pointing from cin INTO the variable: data flows from the input stream to your variable. <code>&lt;&lt;</code> (A) is the insertion operator used with <code>cout</code>."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the difference between 'Hello' and \"Hello\" in C++?",
+        "options": {
+          "A": "They are identical",
+          "B": "'Hello' is a character and \"Hello\" is a string",
+          "C": "'Hello' is a multi-character literal (implementation-defined) and \"Hello\" is a string literal",
+          "D": "'Hello' causes a syntax error"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Single quotes are for single characters (<code>'A'</code>). <code>'Hello'</code> is a multi-character literal, which has implementation-defined behavior (usually treated as an integer). Double quotes create string literals. Always use double quotes for strings."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does the -o flag do in 'g++ file.cpp -o myprogram'?",
+        "options": {
+          "A": "Optimizes the code",
+          "B": "Opens the file for editing",
+          "C": "Specifies the output executable name",
+          "D": "Turns on all warnings"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>-o</code> flag specifies the name of the output executable. Without it, the default is <code>a.out</code> (Linux/Mac) or <code>a.exe</code> (Windows). For optimization, use <code>-O2</code> (capital O). For warnings, use <code>-Wall</code>."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which of the following is a valid single-line comment in C++?",
+        "options": {
+          "A": "# This is a comment",
+          "B": "// This is a comment",
+          "C": "-- This is a comment",
+          "D": "' This is a comment"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> C++ uses <code>//</code> for single-line comments. <code>#</code> (A) is for preprocessor directives in C++, and comments in Python. <code>--</code> (C) is for comments in SQL and Haskell. <code>'</code> (D) is for comments in VB."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What happens when cin >> reads a string and the user types 'Amit Kumar'?",
+        "options": {
+          "A": "The entire 'Amit Kumar' is stored",
+          "B": "Only 'Amit' is stored, 'Kumar' stays in the buffer",
+          "C": "An error occurs",
+          "D": "Only 'Kumar' is stored"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>cin &gt;&gt;</code> reads until the first whitespace character (space, tab, newline). So only <code>Amit</code> is stored in the variable. <code>Kumar</code> remains in the input buffer and will be read by the next <code>cin &gt;&gt;</code> call. To read the full line, use <code>getline(cin, variable)</code>."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What does the -Wall flag do when compiling with g++?",
+        "options": {
+          "A": "Compiles for all platforms",
+          "B": "Enables all common compiler warnings",
+          "C": "Links all libraries",
+          "D": "Creates a wall of text output"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>-Wall</code> stands for 'Warn all' and enables most common warnings: uninitialized variables, unused variables, implicit type conversions, etc. It does not actually enable ALL warnings (for that, also add <code>-Wextra</code>). Warnings help catch bugs before they cause problems."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the output of: cout << endl << endl << endl;?",
+        "options": {
+          "A": "Three spaces",
+          "B": "Three blank lines",
+          "C": "The word 'endl' three times",
+          "D": "Nothing (no output)"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Each <code>endl</code> outputs a newline character (and flushes the buffer). Three <code>endl</code> in sequence produce three newline characters, resulting in three blank lines in the output."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "Which of the following is NOT a valid way to use cout?",
+        "options": {
+          "A": "cout << 42;",
+          "B": "cout << \"hello\" << endl;",
+          "C": "cout << 'A';",
+          "D": "cout >> \"hello\";"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> <code>cout</code> uses the insertion operator <code>&lt;&lt;</code>, not the extraction operator <code>&gt;&gt;</code>. <code>cout &gt;&gt; \"hello\"</code> is invalid because <code>&gt;&gt;</code> is for extracting data FROM a stream (used with <code>cin</code>), not inserting into one."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "If you compile with 'g++ -std=c++17 program.cpp', what does -std=c++17 specify?",
+        "options": {
+          "A": "The program must have exactly 17 functions",
+          "B": "Use the C++17 language standard for compilation",
+          "C": "The output will be 17 MB or less",
+          "D": "The program will run 17 times faster"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>-std=c++17</code> flag tells the compiler to use the C++17 standard. This enables C++17 features like structured bindings, <code>if constexpr</code>, <code>std::optional</code>, etc. Without this flag, the compiler uses its default standard (often C++14 or C++17 depending on the version)."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Easy",
+        "question": "What does 'cout' stand for?",
+        "options": {
+          "A": "Count output",
+          "B": "Character output",
+          "C": "Console out",
+          "D": "C output"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>cout</code> stands for <strong>character output</strong>. It is an object of the <code>ostream</code> class that sends character data to the standard output stream (usually the terminal/console)."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What does the escape sequence '\\0' represent in C++?",
+        "options": {
+          "A": "The number zero",
+          "B": "A newline character",
+          "C": "The null character (string terminator)",
+          "D": "An error"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>\\0</code> is the null character with ASCII value 0. It is used to mark the end of C-style strings (char arrays). Every string literal like <code>\"Hello\"</code> has a hidden <code>\\0</code> at the end. It is different from the digit 0 (<code>'0'</code>, ASCII 48)."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "Which IDE is free, lightweight, and recommended for beginners learning C++?",
+        "options": {
+          "A": "Visual Studio Enterprise",
+          "B": "VS Code with C/C++ extension",
+          "C": "IntelliJ IDEA",
+          "D": "Eclipse for Java"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> VS Code is free, lightweight, cross-platform, and has excellent C++ support through the C/C++ extension by Microsoft. It includes IntelliSense, debugging, and an integrated terminal. Visual Studio Enterprise (A) is paid. IntelliJ (C) and Eclipse for Java (D) are primarily Java IDEs."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is the default executable name when you compile with 'g++ program.cpp' (without -o flag)?",
+        "options": {
+          "A": "program.exe",
+          "B": "program",
+          "C": "a.out (Linux/Mac) or a.exe (Windows)",
+          "D": "output.bin"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Without the <code>-o</code> flag, g++ produces a default-named executable: <code>a.out</code> on Linux/macOS and <code>a.exe</code> on Windows. The name <code>a.out</code> stands for 'assembler output' -- a convention dating back to the original Unix systems."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "Which of these is a valid escape sequence in C++?",
+        "options": {
+          "A": "\\p",
+          "B": "\\t",
+          "C": "\\w",
+          "D": "\\z"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>\\t</code> is the horizontal tab escape sequence. Valid escape sequences include <code>\\n</code> (newline), <code>\\t</code> (tab), <code>\\\\</code> (backslash), <code>\\\"</code> (double quote), <code>\\'</code> (single quote), <code>\\0</code> (null), and <code>\\a</code> (bell). <code>\\p</code>, <code>\\w</code>, and <code>\\z</code> are not valid and may cause compiler warnings."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Rectangle Calculator",
+        "difficulty": "Easy",
+        "description": "Write a C++ program that reads the length and width of a rectangle from the user and prints its area and perimeter.",
+        "sampleInput": "5 3",
+        "sampleOutput": "Area: 15\nPerimeter: 16",
+        "constraints": "Use integer variables. Area = length * width. Perimeter = 2 * (length + width).",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int length, width;\n    cout << \"Enter length and width: \";\n    cin >> length >> width;\n    cout << \"Area: \" << length * width << endl;\n    cout << \"Perimeter: \" << 2 * (length + width) << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Swap Two Numbers (Without Temp)",
+        "difficulty": "Medium",
+        "description": "Write a program that reads two integers and swaps them using only arithmetic operators (no third variable). Print the values before and after swapping.",
+        "sampleInput": "10 25",
+        "sampleOutput": "Before: a = 10, b = 25\nAfter: a = 25, b = 10",
+        "constraints": "Do NOT use a temporary variable. Use only arithmetic operations (+, -).",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    int a, b;\n    cin >> a >> b;\n    cout << \"Before: a = \" << a << \", b = \" << b << endl;\n    a = a + b;  // a = 35\n    b = a - b;  // b = 35 - 25 = 10\n    a = a - b;  // a = 35 - 10 = 25\n    cout << \"After: a = \" << a << \", b = \" << b << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Student Grade Card",
+        "difficulty": "Medium",
+        "description": "Write a program that reads a student's name (single word) and marks in 5 subjects. Print the total marks, percentage, and average.",
+        "sampleInput": "Meera 85 90 78 92 88",
+        "sampleOutput": "Name: Meera\nTotal: 433\nPercentage: 86.6%\nAverage: 86.6",
+        "constraints": "Use integer for marks and double for percentage/average. Maximum marks per subject is 100.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    string name;\n    int m1, m2, m3, m4, m5;\n    cin >> name >> m1 >> m2 >> m3 >> m4 >> m5;\n    int total = m1 + m2 + m3 + m4 + m5;\n    double percentage = total / 5.0;\n    cout << \"Name: \" << name << endl;\n    cout << \"Total: \" << total << endl;\n    cout << \"Percentage: \" << percentage << \"%\" << endl;\n    cout << \"Average: \" << percentage << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "ASCII Art Box",
+        "difficulty": "Easy",
+        "description": "Write a C++ program that prints a box made of + and - characters with a message inside:\n+----------+\n|  Hello!  |\n+----------+",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "+----------+\n|  Hello!  |\n+----------+",
+        "constraints": "Use cout with escape sequences or multiple statements. Align the text inside the box.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"+----------+\" << endl;\n    cout << \"|  Hello!  |\" << endl;\n    cout << \"+----------+\" << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Temperature Converter",
+        "difficulty": "Medium",
+        "description": "Write a program that reads a temperature in Celsius from the user and converts it to Fahrenheit and Kelvin. Formula: F = (C * 9.0/5.0) + 32, K = C + 273.15.",
+        "sampleInput": "37",
+        "sampleOutput": "Celsius: 37\nFahrenheit: 98.6\nKelvin: 310.15",
+        "constraints": "Use double for all temperature variables to preserve decimal precision.",
+        "solution": "#include <iostream>\nusing namespace std;\nint main() {\n    double celsius;\n    cout << \"Enter temperature in Celsius: \";\n    cin >> celsius;\n    double fahrenheit = (celsius * 9.0 / 5.0) + 32;\n    double kelvin = celsius + 273.15;\n    cout << \"Celsius: \" << celsius << endl;\n    cout << \"Fahrenheit: \" << fahrenheit << endl;\n    cout << \"Kelvin: \" << kelvin << endl;\n    return 0;\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Compilation Flags Practice",
+        "difficulty": "Hard",
+        "description": "Write a C++ program that prints a welcome message. Then, in comments, write the exact g++ commands to: (1) compile with C++17, (2) compile with all warnings, (3) compile with optimization level 2, (4) compile and produce only the assembly output.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Welcome to C++ compilation practice!",
+        "constraints": "Write all four compilation commands as comments at the top of the file.",
+        "solution": "// Compile with C++17: g++ -std=c++17 practice.cpp -o practice\n// Compile with all warnings: g++ -Wall -Wextra practice.cpp -o practice\n// Compile with optimization: g++ -O2 practice.cpp -o practice\n// Produce assembly only: g++ -S practice.cpp -o practice.s\n\n#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"Welcome to C++ compilation practice!\" << endl;\n    return 0;\n}"
+      }
+    ]
+  }
+}

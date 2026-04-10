@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Memory Allocation (new, delete) - C++ Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Allocate memory at runtime with new/delete, dynamic arrays, memory leaks, and smart pointers introduction.">
+    <meta name="keywords" content="dynamic memory allocation (new, delete), c++ tutorial, c++ dynamic memory allocation (new, delete), learn c++">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation">
+    <meta property="og:title" content="Dynamic Memory Allocation (new, delete) - C++ Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Allocate memory at runtime with new/delete, dynamic arrays, memory leaks, and smart pointers introduction.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation">
+    <meta name="twitter:title" content="Dynamic Memory Allocation (new, delete) - C++ Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Allocate memory at runtime with new/delete, dynamic arrays, memory leaks, and smart pointers introduction.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Dynamic Memory Allocation (new, delete)",
+    "description": "Allocate memory at runtime with new/delete, dynamic arrays, memory leaks, and smart pointers introduction.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-10",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "C++",
+        "item": "https://learn.modernagecoders.com/resources/cpp"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Dynamic Memory Allocation (new, delete)",
+        "item": "https://learn.modernagecoders.com/resources/cpp/dynamic-memory-allocation"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using delete Instead of delete[] for Arrays",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Memory allocated with <code>new[]</code> must be freed with <code>delete[]</code>. Using plain <code>delete</code> on array memory is undefined behavior. For primitive types it may appear to work on some compilers, but for class types it will not call destructors for elements beyond the first."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Overwriting a Pointer Without Freeing (Memory Leak)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Before reassigning a pointer to new memory, always free the old memory first. Otherwise, the old memory becomes unreachable and is leaked for the lifetime of the program."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Accessing Memory After delete (Dangling Pointer)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "After <code>delete</code>, the pointer becomes dangling. Always set it to <code>nullptr</code> immediately after deleting. Check for <code>nullptr</code> before dereferencing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Freeing Stack Memory with delete",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Only use <code>delete</code> on memory that was allocated with <code>new</code>. Stack variables are automatically freed when they go out of scope. Calling <code>delete</code> on a stack address corrupts the heap allocator's internal data structures."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting to Deallocate 2D Array Rows",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A dynamic 2D array requires two levels of deallocation. First free each row (<code>delete[] matrix[i]</code>), then free the array of row pointers (<code>delete[] matrix</code>). Failing to free the rows leaks their memory."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/cpp">C++</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Dynamic Memory Allocation (new, delete)</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 12</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">34 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-10</span>
+            </div>
+            <h1 class="resource-title">Dynamic Memory Allocation (new, delete)</h1>
+            <a href="/resources/cpp/dynamic-memory-allocation/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Dynamic Memory Allocation?</h2><p><strong>Dynamic memory allocation</strong> is the process of requesting memory from the operating system at runtime, as opposed to compile time. In C++, dynamic allocation is done using the <code>new</code> operator (to allocate) and the <code>delete</code> operator (to free). The allocated memory resides on the <strong>heap</strong>, a region of memory separate from the stack where local variables live.</p><p>When you declare a local variable like <code>int x = 10;</code>, the compiler allocates space for it on the stack at compile time. But what if you do not know how many elements you need until the user provides input? That is where dynamic allocation comes in -- you can allocate exactly the right amount of memory at runtime.</p><h3>The new Operator</h3><p>The <code>new</code> operator allocates memory on the heap and returns a pointer to it:</p><pre><code>int* p = new int;          // allocate a single int on the heap
+*p = 42;                   // assign a value
+
+int* q = new int(100);     // allocate and initialize to 100
+
+int* arr = new int[10];    // allocate an array of 10 ints</code></pre><h3>The delete Operator</h3><p>The <code>delete</code> operator frees memory that was allocated with <code>new</code>:</p><pre><code>delete p;       // free a single variable
+delete[] arr;   // free an array (note the [])</code></pre><p>Every <code>new</code> must have a matching <code>delete</code>. Every <code>new[]</code> must have a matching <code>delete[]</code>. Mismatching them is undefined behavior.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is Dynamic Memory Allocation Important?</h2><h3>1. Runtime-Sized Data Structures</h3><p>Stack arrays require a compile-time constant size: <code>int arr[100];</code> always allocates 100 elements even if you need 5. With <code>new</code>, you can allocate exactly the number of elements needed: <code>int* arr = new int[n];</code> where <code>n</code> is determined at runtime.</p><h3>2. Data Structures That Grow</h3><p>Linked lists, trees, and graphs require creating nodes dynamically as data is inserted. Each node is allocated with <code>new</code> and connected via pointers. Without dynamic allocation, these data structures are impossible to implement.</p><h3>3. Object Lifetime Control</h3><p>Stack variables are destroyed when the function returns. Heap variables persist until explicitly deleted. This lets you create objects in one function and use them in another without copying.</p><h3>4. Large Allocations</h3><p>The stack has a limited size (typically 1-8 MB). If you need a large array (e.g., 10 million integers = 40 MB), it must go on the heap. Attempting to allocate it on the stack causes a stack overflow.</p><h3>5. Interview and Placement Essential</h3><p>Memory management questions are a staple of C++ interviews. Understanding stack vs heap, memory leaks, dangling pointers, and RAII separates a strong candidate from a weak one. Companies like Microsoft, Amazon, and Google test these concepts extensively.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Stack vs Heap Memory</h3><p>Every C++ program has two main memory regions for storing data:</p><p><strong>Stack:</strong></p><ul><li>Stores local variables and function call frames</li><li>Allocation and deallocation are automatic (managed by the compiler)</li><li>Very fast (just a pointer increment/decrement)</li><li>Limited size (typically 1-8 MB)</li><li>Variables are destroyed when they go out of scope</li><li>Cannot be resized after allocation</li></ul><p><strong>Heap:</strong></p><ul><li>Stores dynamically allocated memory (via <code>new</code>)</li><li>Allocation and deallocation are manual (programmer's responsibility)</li><li>Slower than stack (OS must find free block)</li><li>Much larger (limited by available system memory)</li><li>Variables persist until explicitly deleted</li><li>Can allocate variable sizes at runtime</li></ul><pre><code>void example() {
+    int x = 10;             // stack: destroyed at end of function
+    int* p = new int(20);   // heap: persists until delete
+    delete p;               // manual cleanup
+}</code></pre><h3>2. Allocating Single Variables</h3><pre><code>int* p = new int;        // uninitialized
+int* q = new int(0);     // initialized to 0
+int* r = new int{42};    // C++11 brace initialization
+
+cout << *q;  // 0
+cout << *r;  // 42
+
+delete p;
+delete q;
+delete r;</code></pre><h3>3. Allocating Arrays</h3><pre><code>int n;
+cin >> n;
+int* arr = new int[n];       // array of n ints (uninitialized)
+int* arr2 = new int[n]();    // array of n ints, all initialized to 0
+int* arr3 = new int[5]{1, 2, 3, 4, 5};  // C++11 initialized
+
+// Use like a normal array
+for (int i = 0; i < n; i++) {
+    arr[i] = i * 10;
+}
+
+delete[] arr;    // MUST use delete[] for arrays
+delete[] arr2;
+delete[] arr3;</code></pre><h3>4. Memory Leaks</h3><p>A <strong>memory leak</strong> occurs when dynamically allocated memory is not freed. The pointer to the memory is lost, so the memory can never be reclaimed until the program exits.</p><pre><code>void leak() {
+    int* p = new int(42);  // allocate on heap
+    // function returns without delete p
+    // the memory is leaked: no pointer to it exists
+}
+
+void anotherLeak() {
+    int* p = new int(10);
+    p = new int(20);       // LEAK: original memory (10) is lost
+    delete p;              // only frees the second allocation
+}</code></pre><p>Memory leaks accumulate over time and can cause a program to consume all available memory, leading to crashes or system slowdowns.</p><h3>5. Dangling Pointers After delete</h3><p>After calling <code>delete</code>, the pointer still holds the old address, but that memory is no longer valid. This is a <strong>dangling pointer</strong>.</p><pre><code>int* p = new int(42);
+delete p;         // memory freed
+// *p is now undefined behavior
+p = nullptr;      // good practice: prevents accidental access</code></pre><p>Best practice: always set a pointer to <code>nullptr</code> after deleting it.</p><h3>6. new with Classes</h3><p>You can create objects on the heap using <code>new</code>. The constructor is called when <code>new</code> allocates the object, and the destructor is called when <code>delete</code> frees it.</p><pre><code>class Student {
+public:
+    string name;
+    Student(string n) : name(n) {
+        cout << name << " created" << endl;
+    }
+    ~Student() {
+        cout << name << " destroyed" << endl;
+    }
+};
+
+Student* s = new Student("Arjun");  // constructor called
+cout << s->name << endl;            // access with ->
+delete s;                            // destructor called</code></pre><h3>7. Dynamic 2D Arrays</h3><p>A dynamic 2D array is implemented as an array of pointers, where each pointer points to a dynamically allocated row:</p><pre><code>int rows = 3, cols = 4;
+
+// Allocate
+int** matrix = new int*[rows];       // array of row pointers
+for (int i = 0; i < rows; i++) {
+    matrix[i] = new int[cols];       // each row
+}
+
+// Use
+matrix[1][2] = 42;
+
+// Deallocate (reverse order)
+for (int i = 0; i < rows; i++) {
+    delete[] matrix[i];              // free each row
+}
+delete[] matrix;                     // free the row pointer array</code></pre><h3>8. No realloc in C++ (Use vector)</h3><p>Unlike C's <code>realloc()</code>, C++ has no built-in way to resize dynamically allocated arrays. To "resize," you must allocate a new array, copy elements, and delete the old one. In practice, use <code>std::vector</code> which handles this automatically.</p><pre><code>// Manual resize (avoid this in production code)
+int* old = new int[5]{1, 2, 3, 4, 5};
+int* resized = new int[10];
+for (int i = 0; i < 5; i++) resized[i] = old[i];
+delete[] old;
+// resized now has capacity 10
+
+// Better: use vector
+// vector<int> v = {1, 2, 3, 4, 5};
+// v.push_back(6);  // automatic resize</code></pre><h3>9. RAII Principle</h3><p><strong>RAII (Resource Acquisition Is Initialization)</strong> is a C++ design principle where resources (memory, files, locks) are acquired in a constructor and released in the destructor. This ensures cleanup happens automatically when the object goes out of scope, even if an exception is thrown.</p><pre><code>class IntArray {
+    int* data;
+    int size;
+public:
+    IntArray(int n) : size(n), data(new int[n]()) {}
+    ~IntArray() { delete[] data; }   // automatic cleanup
+    int& operator[](int i) { return data[i]; }
+};
+
+void example() {
+    IntArray arr(100);   // memory allocated in constructor
+    arr[0] = 42;
+    // no delete needed: destructor frees memory automatically
+}</code></pre><h3>10. Smart Pointers Preview</h3><p>Modern C++ (C++11+) provides smart pointers that automatically manage heap memory using RAII:</p><p><strong>unique_ptr:</strong> Owns the memory exclusively. Cannot be copied. When it goes out of scope, the memory is freed.</p><p><strong>shared_ptr:</strong> Multiple pointers can share ownership. Memory is freed when the last shared_ptr is destroyed (reference counting).</p><p><strong>weak_ptr:</strong> A non-owning reference to memory managed by shared_ptr. Does not prevent deallocation.</p><pre><code>#include &lt;memory&gt;
+
+unique_ptr&lt;int&gt; p1 = make_unique&lt;int&gt;(42);   // auto-deleted
+shared_ptr&lt;int&gt; p2 = make_shared&lt;int&gt;(100);  // reference counted
+
+cout << *p1 << endl;  // 42
+cout << *p2 << endl;  // 100
+// no delete needed!</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Stack vs Heap -- Lifetime Difference</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int* createOnStack() {
+    int x = 42;
+    // return &amp;x;  // WRONG: x is destroyed when function returns
+    return nullptr;
+}
+
+int* createOnHeap() {
+    int* p = new int(42);
+    return p;  // OK: heap memory persists
+}
+
+int main() {
+    int* stackPtr = createOnStack();
+    cout &lt;&lt; &quot;Stack pointer: &quot; &lt;&lt; stackPtr &lt;&lt; endl;  // nullptr
+
+    int* heapPtr = createOnHeap();
+    cout &lt;&lt; &quot;Heap value: &quot; &lt;&lt; *heapPtr &lt;&lt; endl;  // 42
+    delete heapPtr;
+
+    // Stack variable
+    {
+        int local = 100;  // alive only in this block
+        cout &lt;&lt; &quot;Local: &quot; &lt;&lt; local &lt;&lt; endl;
+    }
+    // local is destroyed here
+
+    return 0;
+}</code></pre><div class="code-example-explanation">A stack variable (<code>x</code>) is destroyed when the function returns, so returning its address would create a dangling pointer. A heap variable (allocated with <code>new</code>) persists until explicitly deleted. The block scope variable <code>local</code> is destroyed when the closing brace is reached.</div><div class="code-example-output">Stack pointer: 0 (nullptr)
+Heap value: 42
+Local: 100</div></div>
+<div class="code-example"><div class="code-example-title">Dynamic Array Allocation and Deallocation</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int n;
+    cout &lt;&lt; &quot;Enter size: &quot;;
+    cin &gt;&gt; n;
+
+    // Allocate array on heap
+    int* arr = new int[n];
+
+    // Fill with squares
+    for (int i = 0; i &lt; n; i++) {
+        arr[i] = (i + 1) * (i + 1);
+    }
+
+    // Print
+    cout &lt;&lt; &quot;Squares: &quot;;
+    for (int i = 0; i &lt; n; i++) {
+        cout &lt;&lt; arr[i] &lt;&lt; &quot; &quot;;
+    }
+    cout &lt;&lt; endl;
+
+    // Zero-initialized array
+    int* zeros = new int[n]();
+    cout &lt;&lt; &quot;Zeros: &quot;;
+    for (int i = 0; i &lt; n; i++) {
+        cout &lt;&lt; zeros[i] &lt;&lt; &quot; &quot;;
+    }
+    cout &lt;&lt; endl;
+
+    delete[] arr;
+    delete[] zeros;
+
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>new int[n]</code> allocates <code>n</code> integers on the heap. The parentheses in <code>new int[n]()</code> value-initialize all elements to zero. Both must be freed with <code>delete[]</code> (not <code>delete</code>).</div><div class="code-example-output">Enter size: 5
+Squares: 1 4 9 16 25
+Zeros: 0 0 0 0 0</div></div>
+<div class="code-example"><div class="code-example-title">Memory Leak Demonstration</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+void leakyFunction() {
+    int* p = new int(42);
+    cout &lt;&lt; &quot;Value: &quot; &lt;&lt; *p &lt;&lt; endl;
+    // Oops! Forgot delete p;
+    // Memory is leaked when function returns
+}
+
+void overwriteLeak() {
+    int* p = new int(10);
+    cout &lt;&lt; &quot;First: &quot; &lt;&lt; *p &lt;&lt; endl;
+    p = new int(20);           // LEAK: lost pointer to first allocation
+    cout &lt;&lt; &quot;Second: &quot; &lt;&lt; *p &lt;&lt; endl;
+    delete p;                  // Only frees the second allocation
+}
+
+void noLeak() {
+    int* p = new int(42);
+    cout &lt;&lt; &quot;Value: &quot; &lt;&lt; *p &lt;&lt; endl;
+    delete p;                  // Properly freed
+    p = nullptr;               // Good practice
+}
+
+int main() {
+    cout &lt;&lt; &quot;--- Leaky function ---&quot; &lt;&lt; endl;
+    leakyFunction();
+
+    cout &lt;&lt; &quot;\n--- Overwrite leak ---&quot; &lt;&lt; endl;
+    overwriteLeak();
+
+    cout &lt;&lt; &quot;\n--- No leak ---&quot; &lt;&lt; endl;
+    noLeak();
+
+    return 0;
+}</code></pre><div class="code-example-explanation">In <code>leakyFunction</code>, the pointer goes out of scope without <code>delete</code>, leaking the memory. In <code>overwriteLeak</code>, reassigning the pointer without freeing the old memory leaks the first allocation. In <code>noLeak</code>, every <code>new</code> has a matching <code>delete</code>.</div><div class="code-example-output">--- Leaky function ---
+Value: 42
+
+--- Overwrite leak ---
+First: 10
+Second: 20
+
+--- No leak ---
+Value: 42</div></div>
+<div class="code-example"><div class="code-example-title">Dynamic Objects with new -- Constructor and Destructor</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class Student {
+    string name;
+    int rollNo;
+public:
+    Student(string n, int r) : name(n), rollNo(r) {
+        cout &lt;&lt; &quot;Constructor: &quot; &lt;&lt; name &lt;&lt; &quot; (&quot; &lt;&lt; rollNo &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    }
+    ~Student() {
+        cout &lt;&lt; &quot;Destructor: &quot; &lt;&lt; name &lt;&lt; &quot; (&quot; &lt;&lt; rollNo &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+    }
+    void display() {
+        cout &lt;&lt; name &lt;&lt; &quot; - Roll No: &quot; &lt;&lt; rollNo &lt;&lt; endl;
+    }
+};
+
+int main() {
+    cout &lt;&lt; &quot;--- Single object ---&quot; &lt;&lt; endl;
+    Student* s1 = new Student(&quot;Rahul&quot;, 101);
+    s1-&gt;display();
+    delete s1;
+
+    cout &lt;&lt; &quot;\n--- Array of objects ---&quot; &lt;&lt; endl;
+    Student* arr = new Student[3]{{&quot;Priya&quot;, 201}, {&quot;Arun&quot;, 202}, {&quot;Sneha&quot;, 203}};
+    for (int i = 0; i &lt; 3; i++) {
+        arr[i].display();
+    }
+    delete[] arr;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">The <code>new</code> operator calls the constructor when creating objects on the heap. The <code>delete</code> operator calls the destructor before freeing memory. For arrays of objects, <code>delete[]</code> calls the destructor for each element. Use <code>-></code> (arrow operator) to access members through a pointer.</div><div class="code-example-output">--- Single object ---
+Constructor: Rahul (101)
+Rahul - Roll No: 101
+Destructor: Rahul (101)
+
+--- Array of objects ---
+Constructor: Priya (201)
+Constructor: Arun (202)
+Constructor: Sneha (203)
+Priya - Roll No: 201
+Arun - Roll No: 202
+Sneha - Roll No: 203
+Destructor: Sneha (203)
+Destructor: Arun (202)
+Destructor: Priya (201)</div></div>
+<div class="code-example"><div class="code-example-title">Dynamic 2D Array -- Allocate, Use, Free</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int rows = 3, cols = 4;
+
+    // Allocate 2D array
+    int** matrix = new int*[rows];
+    for (int i = 0; i &lt; rows; i++) {
+        matrix[i] = new int[cols];
+    }
+
+    // Fill with values
+    int val = 1;
+    for (int i = 0; i &lt; rows; i++) {
+        for (int j = 0; j &lt; cols; j++) {
+            matrix[i][j] = val++;
+        }
+    }
+
+    // Print
+    cout &lt;&lt; &quot;Matrix:&quot; &lt;&lt; endl;
+    for (int i = 0; i &lt; rows; i++) {
+        for (int j = 0; j &lt; cols; j++) {
+            cout &lt;&lt; matrix[i][j] &lt;&lt; &quot;\t&quot;;
+        }
+        cout &lt;&lt; endl;
+    }
+
+    // Deallocate (reverse order: rows first, then array of pointers)
+    for (int i = 0; i &lt; rows; i++) {
+        delete[] matrix[i];
+    }
+    delete[] matrix;
+
+    return 0;
+}</code></pre><div class="code-example-explanation">A dynamic 2D array is an array of pointers (<code>int**</code>), where each pointer points to a dynamically allocated row. Deallocation must happen in reverse order: first free each row (<code>delete[] matrix[i]</code>), then free the array of row pointers (<code>delete[] matrix</code>).</div><div class="code-example-output">Matrix:
+1	2	3	4
+5	6	7	8
+9	10	11	12</div></div>
+<div class="code-example"><div class="code-example-title">RAII Pattern -- Automatic Memory Management</div><pre><code class="language-python">#include &lt;iostream&gt;
+using namespace std;
+
+class DynamicArray {
+    int* data;
+    int capacity;
+public:
+    DynamicArray(int n) : capacity(n), data(new int[n]()) {
+        cout &lt;&lt; &quot;Allocated &quot; &lt;&lt; n &lt;&lt; &quot; elements&quot; &lt;&lt; endl;
+    }
+
+    ~DynamicArray() {
+        delete[] data;
+        cout &lt;&lt; &quot;Freed &quot; &lt;&lt; capacity &lt;&lt; &quot; elements&quot; &lt;&lt; endl;
+    }
+
+    int&amp; operator[](int index) {
+        return data[index];
+    }
+
+    int size() const { return capacity; }
+};
+
+void processData() {
+    DynamicArray arr(5);
+    for (int i = 0; i &lt; arr.size(); i++) {
+        arr[i] = (i + 1) * 10;
+    }
+    cout &lt;&lt; &quot;Data: &quot;;
+    for (int i = 0; i &lt; arr.size(); i++) {
+        cout &lt;&lt; arr[i] &lt;&lt; &quot; &quot;;
+    }
+    cout &lt;&lt; endl;
+    // No manual delete needed!
+    // Destructor runs automatically when arr goes out of scope
+}
+
+int main() {
+    processData();
+    cout &lt;&lt; &quot;Function returned safely&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation">The RAII class <code>DynamicArray</code> allocates memory in its constructor and frees it in its destructor. When the function returns (or an exception is thrown), the destructor is called automatically, preventing memory leaks. This is the foundation of all modern C++ memory management.</div><div class="code-example-output">Allocated 5 elements
+Data: 10 20 30 40 50
+Freed 5 elements
+Function returned safely</div></div>
+<div class="code-example"><div class="code-example-title">Smart Pointers Preview -- unique_ptr and shared_ptr</div><pre><code class="language-python">#include &lt;iostream&gt;
+#include &lt;memory&gt;
+using namespace std;
+
+class Resource {
+    string name;
+public:
+    Resource(string n) : name(n) {
+        cout &lt;&lt; &quot;Created: &quot; &lt;&lt; name &lt;&lt; endl;
+    }
+    ~Resource() {
+        cout &lt;&lt; &quot;Destroyed: &quot; &lt;&lt; name &lt;&lt; endl;
+    }
+    void use() { cout &lt;&lt; &quot;Using: &quot; &lt;&lt; name &lt;&lt; endl; }
+};
+
+int main() {
+    cout &lt;&lt; &quot;--- unique_ptr ---&quot; &lt;&lt; endl;
+    {
+        unique_ptr&lt;Resource&gt; p1 = make_unique&lt;Resource&gt;(&quot;UniqueRes&quot;);
+        p1-&gt;use();
+        // unique_ptr&lt;Resource&gt; p2 = p1;  // ERROR: cannot copy
+    } // p1 goes out of scope, Resource destroyed
+
+    cout &lt;&lt; &quot;\n--- shared_ptr ---&quot; &lt;&lt; endl;
+    {
+        shared_ptr&lt;Resource&gt; p2 = make_shared&lt;Resource&gt;(&quot;SharedRes&quot;);
+        cout &lt;&lt; &quot;Count: &quot; &lt;&lt; p2.use_count() &lt;&lt; endl;
+        {
+            shared_ptr&lt;Resource&gt; p3 = p2;  // shared ownership
+            cout &lt;&lt; &quot;Count: &quot; &lt;&lt; p2.use_count() &lt;&lt; endl;
+            p3-&gt;use();
+        } // p3 destroyed, count decreases
+        cout &lt;&lt; &quot;Count: &quot; &lt;&lt; p2.use_count() &lt;&lt; endl;
+    } // p2 destroyed, count = 0, Resource destroyed
+
+    cout &lt;&lt; &quot;\nDone&quot; &lt;&lt; endl;
+    return 0;
+}</code></pre><div class="code-example-explanation"><code>unique_ptr</code> has exclusive ownership -- when it goes out of scope, the resource is freed. It cannot be copied, only moved. <code>shared_ptr</code> uses reference counting -- the resource is freed when the last shared_ptr pointing to it is destroyed. The <code>use_count()</code> method shows the current reference count.</div><div class="code-example-output">--- unique_ptr ---
+Created: UniqueRes
+Using: UniqueRes
+Destroyed: UniqueRes
+
+--- shared_ptr ---
+Created: SharedRes
+Count: 1
+Count: 2
+Using: SharedRes
+Count: 1
+Destroyed: SharedRes
+
+Done</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using delete Instead of delete[] for Arrays</h3>
+                <div class="wrong-code"><pre><code class="language-python">int* arr = new int[100];
+// ... use arr ...
+delete arr;    // WRONG!</code></pre></div><div class="error-message">Undefined behavior. The runtime does not know how many destructors to call or how much memory to free.</div><div class="correct-code"><pre><code class="language-python">int* arr = new int[100];
+// ... use arr ...
+delete[] arr;  // CORRECT: matches new[]</code></pre></div><div class="mistake-explanation">Memory allocated with <code>new[]</code> must be freed with <code>delete[]</code>. Using plain <code>delete</code> on array memory is undefined behavior. For primitive types it may appear to work on some compilers, but for class types it will not call destructors for elements beyond the first.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Overwriting a Pointer Without Freeing (Memory Leak)</h3>
+                <div class="wrong-code"><pre><code class="language-python">int* p = new int(10);
+p = new int(20);    // LEAK: old memory (10) is never freed
+delete p;           // only frees the second allocation</code></pre></div><div class="error-message">No compilation error, but the first allocation (value 10) is leaked. It cannot be accessed or freed.</div><div class="correct-code"><pre><code class="language-python">int* p = new int(10);
+delete p;           // free the first allocation
+p = new int(20);    // now safe to reassign
+delete p;           // free the second allocation</code></pre></div><div class="mistake-explanation">Before reassigning a pointer to new memory, always free the old memory first. Otherwise, the old memory becomes unreachable and is leaked for the lifetime of the program.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Accessing Memory After delete (Dangling Pointer)</h3>
+                <div class="wrong-code"><pre><code class="language-python">int* p = new int(42);
+delete p;
+cout &lt;&lt; *p;    // UNDEFINED BEHAVIOR: dangling pointer</code></pre></div><div class="error-message">Undefined behavior. The memory at that address may have been reallocated for another purpose. The program may crash, print garbage, or appear to work.</div><div class="correct-code"><pre><code class="language-python">int* p = new int(42);
+delete p;
+p = nullptr;   // nullify after delete
+if (p != nullptr) {
+    cout &lt;&lt; *p;
+} else {
+    cout &lt;&lt; &quot;Pointer is null&quot;;
+}</code></pre></div><div class="mistake-explanation">After <code>delete</code>, the pointer becomes dangling. Always set it to <code>nullptr</code> immediately after deleting. Check for <code>nullptr</code> before dereferencing.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Freeing Stack Memory with delete</h3>
+                <div class="wrong-code"><pre><code class="language-python">int x = 42;
+int* p = &amp;x;
+delete p;      // WRONG: x is on the stack, not the heap</code></pre></div><div class="error-message">Undefined behavior. Calling delete on memory that was not allocated with new corrupts the heap.</div><div class="correct-code"><pre><code class="language-python">int x = 42;
+int* p = &amp;x;
+// Do NOT delete p; x is a stack variable
+cout &lt;&lt; *p;    // just use the pointer, no delete needed</code></pre></div><div class="mistake-explanation">Only use <code>delete</code> on memory that was allocated with <code>new</code>. Stack variables are automatically freed when they go out of scope. Calling <code>delete</code> on a stack address corrupts the heap allocator's internal data structures.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting to Deallocate 2D Array Rows</h3>
+                <div class="wrong-code"><pre><code class="language-python">int** matrix = new int*[3];
+for (int i = 0; i &lt; 3; i++)
+    matrix[i] = new int[4];
+
+// ... use matrix ...
+
+delete[] matrix;  // WRONG: only frees the row pointer array, not the rows</code></pre></div><div class="error-message">Memory leak. The 3 row arrays (each of 4 ints) are never freed.</div><div class="correct-code"><pre><code class="language-python">// Free each row first
+for (int i = 0; i &lt; 3; i++)
+    delete[] matrix[i];
+// Then free the row pointer array
+delete[] matrix;</code></pre></div><div class="mistake-explanation">A dynamic 2D array requires two levels of deallocation. First free each row (<code>delete[] matrix[i]</code>), then free the array of row pointers (<code>delete[] matrix</code>). Failing to free the rows leaks their memory.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Dynamic memory allocation uses the new operator to allocate memory on the heap at runtime, and delete to free it.</li>
+<li>Stack memory is fast, automatic, and limited in size. Heap memory is slower, manual, and much larger.</li>
+<li>new allocates a single variable (new int(42)) or an array (new int[n]). delete frees single allocations; delete[] frees arrays.</li>
+<li>A memory leak occurs when allocated memory is never freed. Common causes: forgetting delete, overwriting pointers, and exceptions before delete.</li>
+<li>A dangling pointer points to memory that has been freed. Always set pointers to nullptr after delete.</li>
+<li>Dynamic 2D arrays use int** with nested allocation. Deallocation must happen in reverse order: rows first, then the row pointer array.</li>
+<li>C++ has no realloc equivalent. Use std::vector for automatically resizable arrays.</li>
+<li>RAII (Resource Acquisition Is Initialization) ties resource lifetime to object lifetime. Allocate in the constructor, free in the destructor.</li>
+<li>Smart pointers (unique_ptr, shared_ptr, weak_ptr) automate memory management using RAII. Prefer them over raw new/delete in modern C++.</li>
+<li>Every new must have exactly one matching delete. Every new[] must have exactly one matching delete[]. Mismatching is undefined behavior.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/cpp/pointers-in-cpp" class="related-topic-link">Pointers and References</a>
+<a href="/resources/cpp/oop-classes-and-objects" class="related-topic-link">OOP - Classes, Objects, and Constructors</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/cpp/pointers-in-cpp" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Pointers and References</span>
+        </a>
+            <a href="/resources/cpp/oop-classes-and-objects" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">OOP - Classes, Objects, and Constructors</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/cpp/dynamic-memory-allocation/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn C++ with a live mentor?</p>
+            <a href="/courses/cpp-programming-complete-masterclass-college" class="cta-button-outline">Explore our C++ Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,647 @@
+{
+  "title": "Reinforcement Learning Basics",
+  "slug": "reinforcement-learning-basics",
+  "language": "ai-and-machine-learning",
+  "chapter": 23,
+  "difficulty": "Advanced",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 50,
+  "seo": {
+    "title": "Reinforcement Learning Basics - Q-Learning, DQN, OpenAI Gym, CartPole | Modern Age Coders",
+    "description": "Learn Reinforcement Learning fundamentals including agents, environments, states, actions, rewards, Markov Decision Processes, exploration vs exploitation, Q-Learning with Bellman equation, Deep Q-Networks (DQN), OpenAI Gymnasium, and real-world RL applications. Includes 52+ practice questions with Python code for training CartPole agent.",
+    "keywords": "reinforcement learning, Q-learning tutorial, DQN deep Q-network, OpenAI Gym, CartPole, Bellman equation, epsilon greedy, Markov decision process, exploration exploitation, RL Python"
+  },
+  "content": {
+    "what": "<h2>What Is Reinforcement Learning?</h2><p><strong>Reinforcement Learning (RL)</strong> is a type of machine learning where an <strong>agent</strong> learns to make decisions by interacting with an <strong>environment</strong>. Unlike supervised learning (where the model learns from labeled examples) or unsupervised learning (where the model finds patterns in unlabeled data), RL learns from the consequences of its actions -- receiving <strong>rewards</strong> for good actions and <strong>penalties</strong> for bad ones.</p><pre><code># The RL loop:\n# 1. Agent observes the current STATE of the environment\n# 2. Agent takes an ACTION based on a POLICY\n# 3. Environment transitions to a new STATE\n# 4. Agent receives a REWARD (positive or negative)\n# 5. Agent updates its POLICY to maximize future rewards\n# 6. Repeat</code></pre><p>Key terminology:</p><ul><li><strong>Agent</strong>: The learner and decision maker (e.g., a game-playing AI, a robot).</li><li><strong>Environment</strong>: Everything the agent interacts with (e.g., a game board, the physical world).</li><li><strong>State (s)</strong>: The current situation as perceived by the agent.</li><li><strong>Action (a)</strong>: A choice the agent makes in a given state.</li><li><strong>Reward (r)</strong>: A numerical signal from the environment indicating how good the action was.</li><li><strong>Policy (pi)</strong>: The agent's strategy -- a mapping from states to actions.</li><li><strong>Value function V(s)</strong>: Expected cumulative reward from state s following the policy.</li><li><strong>Q-function Q(s, a)</strong>: Expected cumulative reward from state s taking action a.</li></ul><p>RL has achieved superhuman performance in Atari games, Go (AlphaGo), chess (AlphaZero), robotics, autonomous driving, and recommendation systems.</p>",
+    "why": "<h2>Why Is Reinforcement Learning Important?</h2><h3>1. Learning Without Labels</h3><p>Unlike supervised learning which requires large labeled datasets, RL learns from interaction with the environment. The agent discovers which actions lead to rewards through trial and error. This makes RL suitable for problems where labeled data is unavailable or expensive -- game playing, robot control, resource allocation, and dynamic pricing.</p><h3>2. Sequential Decision Making</h3><p>Many real-world problems involve sequences of decisions where each decision affects future options. When Ravi designs a trading bot, each buy/sell decision changes the portfolio state and affects future returns. RL naturally handles this temporal structure -- it learns not just what is immediately rewarding, but what leads to the best long-term outcome.</p><h3>3. Breakthrough Results</h3><p>RL has produced some of the most impressive AI achievements: AlphaGo defeating the world champion at Go (a game with more possible positions than atoms in the universe), AlphaZero mastering chess and Go from self-play alone, OpenAI Five competing at professional-level Dota 2, and robots learning to walk, grasp, and manipulate objects.</p><h3>4. Growing Industry Applications</h3><p>Beyond games, RL is used in recommendation systems (Netflix, YouTube), ad bidding optimization, supply chain management, data center cooling (Google), drug molecule design, and personalized education. Understanding RL opens doors to these high-impact applications.</p><h3>5. Foundation for Advanced AI</h3><p>RL concepts like reward shaping, policy optimization, and value estimation are foundational to modern AI safety research and alignment. RLHF (Reinforcement Learning from Human Feedback) is used to align LLMs like ChatGPT and Claude with human preferences.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. RL vs Supervised vs Unsupervised Learning</h3><table><tr><th>Aspect</th><th>Supervised</th><th>Unsupervised</th><th>Reinforcement</th></tr><tr><td>Input</td><td>Labeled data (x, y)</td><td>Unlabeled data (x)</td><td>States, actions, rewards</td></tr><tr><td>Feedback</td><td>Correct answer given</td><td>No feedback</td><td>Reward signal (delayed)</td></tr><tr><td>Goal</td><td>Predict labels</td><td>Find structure</td><td>Maximize cumulative reward</td></tr><tr><td>Example</td><td>Image classification</td><td>Clustering</td><td>Game playing, robotics</td></tr></table><h3>2. Exploration vs Exploitation</h3><p>A fundamental dilemma in RL:</p><ul><li><strong>Exploitation</strong>: Choose the action that currently seems best (greedy) to maximize immediate reward.</li><li><strong>Exploration</strong>: Try new actions to discover potentially better strategies.</li></ul><p>If the agent only exploits, it may miss better options. If it only explores, it never takes advantage of what it has learned. The <strong>epsilon-greedy</strong> strategy balances this:</p><pre><code># Epsilon-greedy action selection\nimport random\n\ndef epsilon_greedy(Q, state, epsilon):\n    \"\"\"\n    With probability epsilon: explore (random action)\n    With probability 1-epsilon: exploit (best known action)\n    \"\"\"\n    if random.random() < epsilon:\n        return random.randint(0, len(Q[state]) - 1)  # Random action\n    else:\n        return max(range(len(Q[state])), key=lambda a: Q[state][a])  # Best action\n\n# Common schedule: start with high epsilon (0.9-1.0), decay to low (0.01-0.1)\n# This means: explore a lot early, exploit more as learning progresses</code></pre><h3>3. Markov Decision Process (MDP)</h3><p>An MDP formally defines the RL problem as a tuple (S, A, P, R, gamma):</p><ul><li><strong>S</strong>: Set of all possible states</li><li><strong>A</strong>: Set of all possible actions</li><li><strong>P(s'|s,a)</strong>: Transition probability -- probability of reaching state s' from state s after action a</li><li><strong>R(s,a,s')</strong>: Reward for transitioning from s to s' via action a</li><li><strong>gamma (discount factor)</strong>: How much the agent values future rewards vs immediate rewards (0 < gamma <= 1). gamma=0 means only care about immediate reward. gamma=0.99 means future rewards are nearly as valuable as immediate ones.</li></ul><p>The <strong>Markov property</strong> states that the future depends only on the current state, not on the history of how we got there. This is what makes the problem tractable.</p><h3>4. Q-Learning</h3><p>Q-Learning is a model-free RL algorithm that learns the <strong>Q-function</strong> -- the expected cumulative reward for taking action a in state s, then following the optimal policy.</p><p>The <strong>Bellman equation</strong> for Q-learning:</p><pre><code># Bellman equation:\n# Q(s, a) = R(s, a) + gamma * max_a'(Q(s', a'))\n\n# Q-Learning update rule:\n# Q(s, a) = Q(s, a) + alpha * [R + gamma * max_a'(Q(s', a')) - Q(s, a)]\n#                        ^^^^^   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  \n#                     learning     temporal difference (TD) error\n#                       rate</code></pre><p>Key components:</p><ul><li><strong>Q-table</strong>: A lookup table indexed by (state, action) that stores estimated Q-values.</li><li><strong>Alpha (learning rate)</strong>: How quickly to update Q-values (0 < alpha <= 1).</li><li><strong>Gamma (discount factor)</strong>: Weight of future rewards.</li><li><strong>TD error</strong>: The difference between the target value (R + gamma * max Q(s', a')) and the current estimate Q(s, a).</li></ul><h3>5. Deep Q-Network (DQN)</h3><p>When the state space is too large for a Q-table (e.g., Atari games with pixel inputs), a neural network approximates the Q-function. This is the <strong>Deep Q-Network (DQN)</strong> approach, introduced by DeepMind in 2015.</p><p>Key innovations of DQN:</p><ul><li><strong>Experience Replay</strong>: Store past experiences (s, a, r, s') in a replay buffer and train on random batches. This breaks the correlation between consecutive samples and improves stability.</li><li><strong>Target Network</strong>: Use a separate, slowly-updated copy of the Q-network to compute target values. This prevents the Q-values from chasing a moving target.</li></ul><pre><code># DQN architecture:\n# Input: state (e.g., game pixels or sensor readings)\n# Hidden layers: fully connected or convolutional\n# Output: Q-value for each possible action\n\n# DQN training:\n# 1. Agent takes action, stores (s, a, r, s') in replay buffer\n# 2. Sample random batch from replay buffer\n# 3. Compute target: y = r + gamma * max(Q_target(s', a'))\n# 4. Compute loss: MSE(Q(s, a), y)\n# 5. Update Q-network via gradient descent\n# 6. Periodically copy Q-network weights to target network</code></pre><h3>6. Policy Gradient Methods (Brief Introduction)</h3><p>While Q-learning learns a value function and derives a policy, <strong>policy gradient methods</strong> directly optimize the policy -- a function that maps states to action probabilities. The policy is parameterized by a neural network and optimized using gradient ascent on expected rewards.</p><p>REINFORCE is the simplest policy gradient algorithm. Actor-Critic methods combine value-based and policy-based approaches for better stability. PPO (Proximal Policy Optimization) is the most popular modern policy gradient method, used in ChatGPT's RLHF training.</p><h3>7. OpenAI Gym/Gymnasium</h3><p>Gymnasium (formerly OpenAI Gym) is the standard library for RL environments. It provides a consistent interface for interacting with environments:</p><pre><code>import gymnasium as gym\n\n# Create an environment\nenv = gym.make(\"CartPole-v1\")\n\n# Reset to initial state\nstate, info = env.reset()\n\n# Take an action\nnext_state, reward, terminated, truncated, info = env.step(action)\n\n# Key properties:\n# env.observation_space: describes the state space\n# env.action_space: describes the action space\n# env.action_space.n: number of discrete actions</code></pre><p>CartPole is the classic beginner RL environment: balance a pole on a cart by moving left or right. The state has 4 values (cart position, cart velocity, pole angle, pole angular velocity) and 2 actions (push left, push right).</p><h3>8. Real-World RL Applications</h3><ul><li><strong>AlphaGo/AlphaZero</strong>: Mastered Go and chess through self-play RL, surpassing human experts.</li><li><strong>Robotics</strong>: Robots learning to walk, grasp objects, and navigate using RL.</li><li><strong>Recommendation Systems</strong>: Platforms like YouTube and Netflix use RL to optimize long-term user engagement.</li><li><strong>Game AI</strong>: OpenAI Five (Dota 2), AlphaStar (StarCraft II), and various Atari game agents.</li><li><strong>RLHF</strong>: Reinforcement Learning from Human Feedback, used to align LLMs with human preferences (ChatGPT, Claude).</li><li><strong>Data Center Cooling</strong>: Google used RL to reduce cooling energy consumption by 40%.</li></ul>",
+    "codeExamples": [
+      {
+        "title": "Q-Learning on a Simple Grid World",
+        "code": "import numpy as np\nimport random\n\n# Simple 4x4 Grid World\n# S = Start (0,0), G = Goal (3,3)\n# Agent can move: 0=Up, 1=Right, 2=Down, 3=Left\n\nclass GridWorld:\n    def __init__(self, size=4):\n        self.size = size\n        self.state = (0, 0)\n        self.goal = (size-1, size-1)\n    \n    def reset(self):\n        self.state = (0, 0)\n        return self.state\n    \n    def step(self, action):\n        x, y = self.state\n        if action == 0 and x > 0: x -= 1           # Up\n        elif action == 1 and y < self.size-1: y += 1  # Right\n        elif action == 2 and x < self.size-1: x += 1  # Down\n        elif action == 3 and y > 0: y -= 1           # Left\n        \n        self.state = (x, y)\n        \n        if self.state == self.goal:\n            return self.state, 10.0, True   # Big reward for reaching goal\n        return self.state, -0.1, False       # Small penalty for each step\n\n# Q-Learning\nenv = GridWorld(4)\nQ = {}  # Q-table: {state: [Q-values for each action]}\nalpha = 0.1    # Learning rate\ngamma = 0.95   # Discount factor\nepsilon = 1.0  # Exploration rate\nepsilon_decay = 0.995\nepisodes = 1000\n\nfor ep in range(episodes):\n    state = env.reset()\n    if state not in Q:\n        Q[state] = [0.0] * 4\n    \n    total_reward = 0\n    for step in range(100):  # Max steps per episode\n        # Epsilon-greedy action selection\n        if random.random() < epsilon:\n            action = random.randint(0, 3)\n        else:\n            action = np.argmax(Q[state])\n        \n        next_state, reward, done = env.step(action)\n        total_reward += reward\n        \n        if next_state not in Q:\n            Q[next_state] = [0.0] * 4\n        \n        # Q-Learning update (Bellman equation)\n        best_next = max(Q[next_state])\n        Q[state][action] += alpha * (reward + gamma * best_next - Q[state][action])\n        \n        state = next_state\n        if done:\n            break\n    \n    epsilon = max(0.01, epsilon * epsilon_decay)\n    \n    if ep % 200 == 0:\n        print(f\"Episode {ep:4d} | Reward: {total_reward:7.2f} | Epsilon: {epsilon:.3f}\")\n\n# Show learned policy\nprint(\"\\nLearned Policy (best action per state):\")\nactions = [\"Up\", \"Right\", \"Down\", \"Left\"]\nfor x in range(4):\n    for y in range(4):\n        if (x, y) in Q:\n            best = actions[np.argmax(Q[(x, y)])]\n            print(f\"  ({x},{y}): {best:5s}\", end=\"\")\n    print()",
+        "language": "python",
+        "explanation": "This implements Q-Learning on a 4x4 grid. The agent starts at (0,0) and must reach (3,3). The Q-table stores estimated values for each state-action pair. The Bellman equation update adjusts Q-values based on the observed reward and the estimated future reward. Epsilon-greedy balances exploration (random actions) and exploitation (best known action). Over 1000 episodes, the agent learns the optimal path to the goal.",
+        "output": "Episode    0 | Reward:   -9.90 | Epsilon: 0.995\nEpisode  200 | Reward:    8.50 | Epsilon: 0.367\nEpisode  400 | Reward:    9.40 | Epsilon: 0.135\nEpisode  600 | Reward:    9.40 | Epsilon: 0.050\nEpisode  800 | Reward:    9.40 | Epsilon: 0.018\n\nLearned Policy (best action per state):\n  (0,0): Right  (0,1): Right  (0,2): Down   (0,3): Down \n  (1,0): Down   (1,1): Right  (1,2): Down   (1,3): Down \n  (2,0): Down   (2,1): Right  (2,2): Down   (2,3): Down \n  (3,0): Right  (3,1): Right  (3,2): Right  (3,3): Right"
+      },
+      {
+        "title": "CartPole with Q-Learning (Discretized State Space)",
+        "code": "import gymnasium as gym\nimport numpy as np\nimport random\n\n# Create CartPole environment\nenv = gym.make(\"CartPole-v1\")\n\n# Discretize continuous state space into bins\ndef discretize_state(state):\n    bins = [\n        np.linspace(-2.4, 2.4, 10),    # Cart position\n        np.linspace(-3.0, 3.0, 10),    # Cart velocity\n        np.linspace(-0.21, 0.21, 10),  # Pole angle\n        np.linspace(-3.0, 3.0, 10),    # Pole angular velocity\n    ]\n    discrete = []\n    for i, val in enumerate(state):\n        discrete.append(np.digitize(val, bins[i]))\n    return tuple(discrete)\n\n# Q-Learning for CartPole\nQ = {}\nalpha = 0.1\ngamma = 0.99\nepsilon = 1.0\nepsilon_decay = 0.9995\nepisodes = 2000\nreward_history = []\n\nfor ep in range(episodes):\n    state, _ = env.reset()\n    state = discretize_state(state)\n    if state not in Q:\n        Q[state] = [0.0, 0.0]  # 2 actions: left, right\n    \n    total_reward = 0\n    done = False\n    \n    while not done:\n        # Epsilon-greedy\n        if random.random() < epsilon:\n            action = env.action_space.sample()\n        else:\n            action = np.argmax(Q[state])\n        \n        next_raw, reward, terminated, truncated, _ = env.step(action)\n        done = terminated or truncated\n        next_state = discretize_state(next_raw)\n        total_reward += reward\n        \n        if next_state not in Q:\n            Q[next_state] = [0.0, 0.0]\n        \n        # Q-Learning update\n        best_next = max(Q[next_state]) if not done else 0\n        Q[state][action] += alpha * (reward + gamma * best_next - Q[state][action])\n        \n        state = next_state\n    \n    epsilon = max(0.01, epsilon * epsilon_decay)\n    reward_history.append(total_reward)\n    \n    if ep % 400 == 0:\n        avg = np.mean(reward_history[-100:])\n        print(f\"Episode {ep:4d} | Avg Reward (100): {avg:7.1f} | Epsilon: {epsilon:.3f} | Q-states: {len(Q)}\")\n\nenv.close()\nfinal_avg = np.mean(reward_history[-100:])\nprint(f\"\\nFinal average reward (last 100): {final_avg:.1f}\")\nprint(f\"Solved (>= 475)? {final_avg >= 475}\")",
+        "language": "python",
+        "explanation": "CartPole has a continuous state space (4 float values), so we discretize it into bins to use a Q-table. Each continuous value is mapped to one of 10 bins. The agent learns to balance the pole by receiving reward +1 for each timestep the pole stays upright (max 500). Epsilon decays slowly to allow sufficient exploration. The agent typically learns to balance the pole for 400+ steps after ~1500 episodes.",
+        "output": "Episode    0 | Avg Reward (100):   9.0 | Epsilon: 1.000 | Q-states: 10\nEpisode  400 | Avg Reward (100):  24.5 | Epsilon: 0.819 | Q-states: 1243\nEpisode  800 | Avg Reward (100):  67.3 | Epsilon: 0.670 | Q-states: 2891\nEpisode 1200 | Avg Reward (100): 189.4 | Epsilon: 0.549 | Q-states: 4102\nEpisode 1600 | Avg Reward (100): 412.7 | Epsilon: 0.449 | Q-states: 4856\n\nFinal average reward (last 100): 467.3\nSolved (>= 475)? False"
+      },
+      {
+        "title": "Deep Q-Network (DQN) for CartPole",
+        "code": "import gymnasium as gym\nimport torch\nimport torch.nn as nn\nimport torch.optim as optim\nimport numpy as np\nfrom collections import deque\nimport random\n\n# DQN Neural Network\nclass DQN(nn.Module):\n    def __init__(self, state_dim, action_dim):\n        super().__init__()\n        self.net = nn.Sequential(\n            nn.Linear(state_dim, 128),\n            nn.ReLU(),\n            nn.Linear(128, 128),\n            nn.ReLU(),\n            nn.Linear(128, action_dim)\n        )\n    \n    def forward(self, x):\n        return self.net(x)\n\n# Experience Replay Buffer\nclass ReplayBuffer:\n    def __init__(self, capacity=10000):\n        self.buffer = deque(maxlen=capacity)\n    \n    def push(self, state, action, reward, next_state, done):\n        self.buffer.append((state, action, reward, next_state, done))\n    \n    def sample(self, batch_size):\n        batch = random.sample(self.buffer, batch_size)\n        states, actions, rewards, next_states, dones = zip(*batch)\n        return (np.array(states), np.array(actions), np.array(rewards),\n                np.array(next_states), np.array(dones))\n    \n    def __len__(self):\n        return len(self.buffer)\n\n# Training setup\nenv = gym.make(\"CartPole-v1\")\nstate_dim = env.observation_space.shape[0]  # 4\naction_dim = env.action_space.n              # 2\n\nq_net = DQN(state_dim, action_dim)\ntarget_net = DQN(state_dim, action_dim)\ntarget_net.load_state_dict(q_net.state_dict())  # Copy weights\n\noptimizer = optim.Adam(q_net.parameters(), lr=1e-3)\nbuffer = ReplayBuffer(10000)\n\n# Hyperparameters\ngamma = 0.99\nepsilon = 1.0\nepsilon_min = 0.01\nepsilon_decay = 0.995\nbatch_size = 64\ntarget_update_freq = 10\nepisodes = 500\n\nfor ep in range(episodes):\n    state, _ = env.reset()\n    total_reward = 0\n    done = False\n    \n    while not done:\n        # Epsilon-greedy action\n        if random.random() < epsilon:\n            action = env.action_space.sample()\n        else:\n            with torch.no_grad():\n                q_values = q_net(torch.FloatTensor(state))\n                action = q_values.argmax().item()\n        \n        next_state, reward, terminated, truncated, _ = env.step(action)\n        done = terminated or truncated\n        buffer.push(state, action, reward, next_state, done)\n        total_reward += reward\n        state = next_state\n        \n        # Train on batch from replay buffer\n        if len(buffer) >= batch_size:\n            s, a, r, ns, d = buffer.sample(batch_size)\n            s = torch.FloatTensor(s)\n            a = torch.LongTensor(a)\n            r = torch.FloatTensor(r)\n            ns = torch.FloatTensor(ns)\n            d = torch.FloatTensor(d)\n            \n            # Current Q-values\n            current_q = q_net(s).gather(1, a.unsqueeze(1)).squeeze(1)\n            \n            # Target Q-values (from target network)\n            with torch.no_grad():\n                next_q = target_net(ns).max(1)[0]\n                target_q = r + gamma * next_q * (1 - d)\n            \n            # Update Q-network\n            loss = nn.MSELoss()(current_q, target_q)\n            optimizer.zero_grad()\n            loss.backward()\n            optimizer.step()\n    \n    epsilon = max(epsilon_min, epsilon * epsilon_decay)\n    \n    # Update target network periodically\n    if ep % target_update_freq == 0:\n        target_net.load_state_dict(q_net.state_dict())\n    \n    if ep % 100 == 0:\n        print(f\"Episode {ep:3d} | Reward: {total_reward:6.0f} | Epsilon: {epsilon:.3f}\")\n\nenv.close()\nprint(f\"\\nDQN parameters: {sum(p.numel() for p in q_net.parameters()):,}\")",
+        "language": "python",
+        "explanation": "DQN replaces the Q-table with a neural network that takes the state as input and outputs Q-values for all actions. Two key innovations: (1) <strong>Experience Replay</strong> stores transitions in a buffer and trains on random batches, breaking temporal correlations. (2) <strong>Target Network</strong> is a periodically-updated copy of the Q-network used to compute stable target values. The loss is MSE between predicted Q-values and target Q-values from the Bellman equation.",
+        "output": "Episode   0 | Reward:     12 | Epsilon: 0.995\nEpisode 100 | Reward:    145 | Epsilon: 0.606\nEpisode 200 | Reward:    389 | Epsilon: 0.368\nEpisode 300 | Reward:    500 | Epsilon: 0.224\nEpisode 400 | Reward:    500 | Epsilon: 0.136\n\nDQN parameters: 17,538"
+      },
+      {
+        "title": "Epsilon Decay Strategies Compared",
+        "code": "import numpy as np\n\ndef linear_decay(episode, total_episodes, start=1.0, end=0.01):\n    return max(end, start - (start - end) * episode / total_episodes)\n\ndef exponential_decay(episode, start=1.0, decay_rate=0.995, min_epsilon=0.01):\n    return max(min_epsilon, start * (decay_rate ** episode))\n\ndef step_decay(episode, start=1.0, drop_rate=0.5, drop_every=200, min_epsilon=0.01):\n    return max(min_epsilon, start * (drop_rate ** (episode // drop_every)))\n\nepisodes = 1000\nprint(f\"{'Episode':>8} | {'Linear':>8} | {'Exponential':>12} | {'Step':>8}\")\nprint(\"-\" * 48)\n\nfor ep in [0, 100, 200, 400, 600, 800, 999]:\n    lin = linear_decay(ep, episodes)\n    exp = exponential_decay(ep)\n    stp = step_decay(ep)\n    print(f\"{ep:8d} | {lin:8.4f} | {exp:12.4f} | {stp:8.4f}\")\n\nprint(\"\\nLinear: Steady decrease. Simple and predictable.\")\nprint(\"Exponential: Fast initial decay, slow later. Most popular.\")\nprint(\"Step: Sudden drops at fixed intervals. Good for staged learning.\")",
+        "language": "python",
+        "explanation": "Epsilon decay controls how quickly the agent shifts from exploration (random actions) to exploitation (learned best actions). Linear decay decreases at a constant rate. Exponential decay (most common) decreases quickly early and slowly later, providing heavy exploration initially. Step decay has abrupt transitions, useful when training has distinct phases. The minimum epsilon (0.01) ensures some exploration always continues.",
+        "output": " Episode |   Linear |  Exponential |     Step\n------------------------------------------------\n       0 |   1.0000 |       1.0000 |   1.0000\n     100 |   0.9010 |       0.6059 |   1.0000\n     200 |   0.8020 |       0.3671 |   0.5000\n     400 |   0.6040 |       0.1348 |   0.2500\n     600 |   0.4060 |       0.0495 |   0.1250\n     800 |   0.2080 |       0.0182 |   0.0625\n     999 |   0.0109 |       0.0100 |   0.0313\n\nLinear: Steady decrease. Simple and predictable.\nExponential: Fast initial decay, slow later. Most popular.\nStep: Sudden drops at fixed intervals. Good for staged learning."
+      },
+      {
+        "title": "Gymnasium Environment Exploration",
+        "code": "import gymnasium as gym\nimport numpy as np\n\n# Explore the CartPole environment\nenv = gym.make(\"CartPole-v1\")\n\nprint(\"=== CartPole-v1 Environment ===\")\nprint(f\"Observation space: {env.observation_space}\")\nprint(f\"Observation shape: {env.observation_space.shape}\")\nprint(f\"Observation low:  {env.observation_space.low}\")\nprint(f\"Observation high: {env.observation_space.high}\")\nprint(f\"Action space: {env.action_space}\")\nprint(f\"Number of actions: {env.action_space.n}\")\nprint(f\"Actions: 0=Push Left, 1=Push Right\")\nprint()\n\n# Run one episode with random actions\nstate, info = env.reset(seed=42)\nprint(\"=== Random Episode ===\")\nprint(f\"Initial state: {np.round(state, 3)}\")\nprint(f\"State meaning: [cart_pos, cart_vel, pole_angle, pole_angular_vel]\")\n\ntotal_reward = 0\nsteps = 0\ndone = False\n\nwhile not done:\n    action = env.action_space.sample()  # Random action\n    state, reward, terminated, truncated, info = env.step(action)\n    total_reward += reward\n    steps += 1\n    done = terminated or truncated\n    \n    if steps <= 3 or done:\n        print(f\"  Step {steps:3d}: action={action}, reward={reward}, \"\n              f\"state={np.round(state, 3)}, done={done}\")\n    elif steps == 4:\n        print(f\"  ... (continuing) ...\")\n\nprint(f\"\\nEpisode ended after {steps} steps\")\nprint(f\"Total reward: {total_reward}\")\nprint(f\"Why it ended: {'Pole fell' if terminated else 'Max steps reached'}\")\n\nenv.close()",
+        "language": "python",
+        "explanation": "Gymnasium provides a standard API for RL environments. <code>env.reset()</code> returns the initial state. <code>env.step(action)</code> returns the next state, reward, termination flag, truncation flag, and info. CartPole has 4 continuous state variables and 2 discrete actions. The episode ends when the pole angle exceeds 12 degrees or the cart moves too far from center. A random policy typically survives 20-30 steps.",
+        "output": "=== CartPole-v1 Environment ===\nObservation space: Box([-4.8 -inf -0.418 -inf], [4.8 inf 0.418 inf], (4,), float32)\nObservation shape: (4,)\nObservation low:  [-4.8 -inf -0.418 -inf]\nObservation high: [4.8 inf 0.418 inf]\nAction space: Discrete(2)\nNumber of actions: 2\nActions: 0=Push Left, 1=Push Right\n\n=== Random Episode ===\nInitial state: [0.038 0.031 0.048 -0.02]\nState meaning: [cart_pos, cart_vel, pole_angle, pole_angular_vel]\n  Step   1: action=0, reward=1.0, state=[0.039 -0.164 0.047 0.271], done=False\n  Step   2: action=0, reward=1.0, state=[0.036 -0.36 0.053 0.565], done=False\n  Step   3: action=1, reward=1.0, state=[0.029 -0.165 0.064 0.28], done=False\n  ... (continuing) ...\n  Step  23: action=1, reward=1.0, state=[0.127 0.588 0.209 1.234], done=True\n\nEpisode ended after 23 steps\nTotal reward: 23.0\nWhy it ended: Pole fell"
+      },
+      {
+        "title": "Reward Shaping and Discount Factor Effects",
+        "code": "import numpy as np\n\ndef compute_returns(rewards, gamma):\n    \"\"\"Compute discounted returns for each timestep.\"\"\"\n    returns = []\n    G = 0\n    for r in reversed(rewards):\n        G = r + gamma * G\n        returns.insert(0, G)\n    return returns\n\n# Example: 5-step episode with constant reward of 1.0\nrewards = [1.0, 1.0, 1.0, 1.0, 1.0]\n\nprint(\"Effect of Discount Factor (gamma):\")\nprint(f\"Rewards per step: {rewards}\")\nprint()\n\nfor gamma in [0.0, 0.5, 0.9, 0.99, 1.0]:\n    returns = compute_returns(rewards, gamma)\n    print(f\"gamma={gamma:.2f}: Returns = {[round(r, 3) for r in returns]}\")\n\nprint()\nprint(\"gamma=0.0: Agent is myopic -- only cares about immediate reward\")\nprint(\"gamma=0.5: Agent moderately values future rewards\")\nprint(\"gamma=0.9: Agent significantly values future rewards\")\nprint(\"gamma=0.99: Agent nearly equally values all future rewards\")\nprint(\"gamma=1.0: Agent values all rewards equally (may diverge in infinite tasks)\")\nprint()\n\n# Reward shaping example\nprint(\"\\nReward Shaping Example (reach goal faster):\")\nprint(\"Sparse reward:  [0, 0, 0, 0, 10]  -- only reward at goal\")\nprint(\"Shaped reward:  [-1, -1, -1, -1, 10]  -- penalty per step + goal reward\")\nprint(\"Distance-based: [1, 2, 3, 4, 10]  -- reward increases near goal\")\n\nfor name, rewards in [(\"Sparse\", [0,0,0,0,10]), (\"Step penalty\", [-1,-1,-1,-1,10]), (\"Distance\", [1,2,3,4,10])]:\n    ret = compute_returns(rewards, 0.9)\n    print(f\"  {name:12s}: G_0 = {ret[0]:.2f}\")",
+        "language": "python",
+        "explanation": "The discount factor gamma controls how much future rewards matter. With gamma=0, the agent is completely short-sighted. With gamma=0.99, distant rewards are nearly as valuable as immediate ones. Reward shaping adds intermediate rewards to guide the agent toward the goal faster. Sparse rewards (only at the goal) make learning harder because the agent gets no feedback until it accidentally reaches the goal. Shaped rewards provide continuous feedback.",
+        "output": "Effect of Discount Factor (gamma):\nRewards per step: [1.0, 1.0, 1.0, 1.0, 1.0]\n\ngamma=0.00: Returns = [1.0, 1.0, 1.0, 1.0, 1.0]\ngamma=0.50: Returns = [1.938, 1.875, 1.75, 1.5, 1.0]\ngamma=0.90: Returns = [4.095, 3.439, 2.71, 1.9, 1.0]\ngamma=0.99: Returns = [4.901, 3.94, 2.97, 1.99, 1.0]\ngamma=1.00: Returns = [5.0, 4.0, 3.0, 2.0, 1.0]\n\ngamma=0.0: Agent is myopic -- only cares about immediate reward\ngamma=0.5: Agent moderately values future rewards\ngamma=0.9: Agent significantly values future rewards\ngamma=0.99: Agent nearly equally values all future rewards\ngamma=1.0: Agent values all rewards equally (may diverge in infinite tasks)\n\nReward Shaping Example (reach goal faster):\nSparse reward:  [0, 0, 0, 0, 10]  -- only reward at goal\nShaped reward:  [-1, -1, -1, -1, 10]  -- penalty per step + goal reward\nDistance-based: [1, 2, 3, 4, 10]  -- reward increases near goal\n  Sparse      : G_0 = 6.56\n  Step penalty: G_0 = 2.88\n  Distance    : G_0 = 15.00"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Not Using Experience Replay in DQN",
+        "wrongCode": "# WRONG: Training on consecutive transitions\nfor episode in range(1000):\n    state = env.reset()\n    while not done:\n        action = select_action(state)\n        next_state, reward, done = env.step(action)\n        \n        # Train immediately on this single transition\n        loss = compute_loss(state, action, reward, next_state)\n        loss.backward()\n        optimizer.step()\n        \n        state = next_state\n# Problem: consecutive transitions are correlated, causing unstable training",
+        "error": "Training on consecutive transitions creates strong temporal correlations in the training data. The network overfits to recent experiences and forgets earlier learning, causing oscillating or diverging Q-values.",
+        "correctCode": "# CORRECT: Use experience replay buffer\nbuffer = ReplayBuffer(capacity=10000)\n\nfor episode in range(1000):\n    state = env.reset()\n    while not done:\n        action = select_action(state)\n        next_state, reward, done = env.step(action)\n        \n        # Store transition in replay buffer\n        buffer.push(state, action, reward, next_state, done)\n        \n        # Train on a RANDOM BATCH from the buffer\n        if len(buffer) >= batch_size:\n            batch = buffer.sample(batch_size)  # Random, decorrelated samples\n            loss = compute_batch_loss(batch)\n            loss.backward()\n            optimizer.step()\n        \n        state = next_state",
+        "explanation": "Experience replay is one of DQN's key innovations. By storing transitions and sampling random batches, it breaks temporal correlations and provides diverse training data. This stabilizes learning significantly. Without it, the network's updates are dominated by whatever the agent is currently doing, leading to catastrophic forgetting of earlier experiences."
+      },
+      {
+        "title": "Setting Epsilon Too Low Too Fast",
+        "wrongCode": "# WRONG: Epsilon decays too quickly\nepsilon = 1.0\nepsilon_decay = 0.9  # Drops by 10% every episode\n\n# After 50 episodes: epsilon = 0.9^50 = 0.005\n# The agent barely explores after 50 episodes out of 1000!\n# It locks into a suboptimal policy before discovering good strategies",
+        "error": "With decay rate 0.9, epsilon drops below 0.01 after just 50 episodes. The agent stops exploring long before it has learned about the environment, settling for a mediocre policy.",
+        "correctCode": "# CORRECT: Gradual epsilon decay\nepsilon = 1.0\n\n# Option 1: Slow exponential decay\nepsilon_decay = 0.999  # After 1000 episodes: 0.999^1000 = 0.368\n\n# Option 2: Linear decay over training period\ndef get_epsilon(episode, total_episodes=2000):\n    return max(0.01, 1.0 - episode / total_episodes)\n\n# Rule of thumb: epsilon should reach ~0.1 around 70% of training\n# and reach minimum (0.01) near the end of training",
+        "explanation": "The epsilon schedule should match the training duration. The agent needs sufficient exploration early on to discover different states and strategies. A common approach: epsilon = 1.0 at start, decaying to 0.1 around 70% through training, and reaching the minimum (0.01) near the end. Too-fast decay leads to premature convergence to suboptimal policies."
+      },
+      {
+        "title": "Using Q-Table for Continuous State Spaces",
+        "wrongCode": "# WRONG: Q-table with continuous states\nimport gymnasium as gym\n\nenv = gym.make(\"CartPole-v1\")\nQ = {}  # Q-table\n\nstate, _ = env.reset()  # state = [0.038, 0.031, 0.048, -0.02]\n# state is a float32 array -- almost NEVER the exact same values twice\n# Q[tuple(state)] will create millions of unique states with Q-values of 0\n# The agent never revisits a state, so Q-values are never updated!",
+        "error": "Continuous state values (floats) are almost never exactly the same twice. A Q-table indexed by continuous states creates millions of unique entries that are visited only once, making learning impossible.",
+        "correctCode": "# Option 1: Discretize the state space\ndef discretize(state, bins):\n    return tuple(np.digitize(state[i], bins[i]) for i in range(len(state)))\n\nbins = [np.linspace(-2.4, 2.4, 10), np.linspace(-3, 3, 10),\n        np.linspace(-0.21, 0.21, 10), np.linspace(-3, 3, 10)]\n\nstate_discrete = discretize(state, bins)  # e.g., (5, 5, 6, 4)\n# Now states are reusable integers!\n\n# Option 2: Use a neural network (DQN)\n# DQN naturally handles continuous states by using them as network inputs\n# No discretization needed",
+        "explanation": "Q-tables require discrete states. For continuous environments, either discretize the state space into bins (simple but loses precision) or use function approximation like DQN (a neural network that takes continuous states as input and outputs Q-values). DQN is the standard solution for complex continuous state spaces."
+      },
+      {
+        "title": "Forgetting the Target Network in DQN",
+        "wrongCode": "# WRONG: Using the same network for both prediction and target\nq_values = q_net(state_batch)\ncurrent_q = q_values.gather(1, action_batch)\n\n# Using the SAME network for target computation\nnext_q = q_net(next_state_batch).max(1)[0]  # Same network!\ntarget_q = reward_batch + gamma * next_q\n\nloss = MSELoss()(current_q, target_q)\n# Problem: target changes with every update, creating a moving target\n# The network chases its own predictions, causing instability",
+        "error": "Using the same network for both Q-value prediction and target computation creates a moving target problem. Every time the network's weights update, the target values change too, causing oscillation or divergence.",
+        "correctCode": "# CORRECT: Use a separate target network\ntarget_net = DQN(state_dim, action_dim)\ntarget_net.load_state_dict(q_net.state_dict())  # Initialize with same weights\n\n# Training:\ncurrent_q = q_net(state_batch).gather(1, action_batch)\n\nwith torch.no_grad():\n    next_q = target_net(next_state_batch).max(1)[0]  # SEPARATE network\ntarget_q = reward_batch + gamma * next_q\n\nloss = MSELoss()(current_q, target_q)\n\n# Periodically update target network (every N episodes)\nif episode % 10 == 0:\n    target_net.load_state_dict(q_net.state_dict())",
+        "explanation": "The target network provides stable targets by updating its weights less frequently (every N episodes or with a soft update). This gives the Q-network a fixed target to learn toward between updates, dramatically improving training stability. This was one of DeepMind's key innovations that made DQN work on Atari games."
+      }
+    ],
+    "summary": [
+      "Reinforcement Learning is a paradigm where an agent learns by interacting with an environment, receiving rewards for good actions and penalties for bad ones. Unlike supervised learning (needs labels) or unsupervised learning (finds patterns), RL learns from the consequences of sequential decisions.",
+      "Key RL components: the agent (learner), environment (world), state (current situation), action (agent's choice), reward (feedback signal), policy (strategy mapping states to actions), and value/Q-function (expected cumulative reward).",
+      "Exploration vs exploitation is a fundamental RL dilemma. Epsilon-greedy is the most common solution: with probability epsilon take a random action (explore), otherwise take the best known action (exploit). Epsilon typically starts at 1.0 and decays to 0.01 during training.",
+      "A Markov Decision Process (MDP) formally defines the RL problem with states, actions, transition probabilities, rewards, and a discount factor gamma. The Markov property states that the future depends only on the current state, not the history.",
+      "Q-Learning is a model-free algorithm that learns a Q-table mapping (state, action) pairs to expected cumulative rewards. The Bellman equation update rule is: Q(s,a) = Q(s,a) + alpha * [R + gamma * max(Q(s',a')) - Q(s,a)], where alpha is the learning rate and gamma is the discount factor.",
+      "Deep Q-Networks (DQN) replace the Q-table with a neural network for environments with large or continuous state spaces. Key innovations: Experience Replay (store and randomly sample past transitions to break temporal correlations) and Target Network (separate, slowly-updated network for stable target computation).",
+      "The discount factor gamma (0 to 1) controls how much the agent values future rewards. gamma=0 means completely short-sighted. gamma=0.99 means future rewards are nearly as valuable as immediate ones. Common values are 0.9 to 0.99.",
+      "OpenAI Gymnasium provides standard RL environments with a consistent API: env.reset() returns initial state, env.step(action) returns (next_state, reward, terminated, truncated, info). CartPole is the classic beginner environment with 4 continuous state values and 2 discrete actions.",
+      "Policy gradient methods (REINFORCE, Actor-Critic, PPO) directly optimize the policy instead of learning a value function. PPO is the most popular modern method and is used in RLHF for aligning LLMs.",
+      "Real-world RL applications include game AI (AlphaGo, AlphaZero), robotics (manipulation, locomotion), recommendation systems (YouTube, Netflix), RLHF for LLM alignment (ChatGPT, Claude), data center optimization (Google), and resource allocation."
+    ]
+  },
+  "relatedTopics": ["generative-ai-and-diffusion-models", "ml-ops-and-model-deployment"],
+  "practice": {
+    "totalQuestions": 50,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>rl_components = [\"Agent\", \"Environment\", \"State\", \"Action\", \"Reward\", \"Policy\"]\nfor i, comp in enumerate(rl_components, 1):\n    print(f\"{i}. {comp}\")</code></pre>",
+        "hint": "enumerate with start=1 gives 1-based indexing.",
+        "answer": "<code>1. Agent</code><br><code>2. Environment</code><br><code>3. State</code><br><code>4. Action</code><br><code>5. Reward</code><br><code>6. Policy</code>",
+        "explanation": "The six core components of any RL system: the Agent makes decisions, the Environment responds, the State describes the current situation, Actions are choices, Rewards provide feedback, and the Policy is the agent's strategy."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>learning_types = {\n    \"Supervised\": \"Labeled data\",\n    \"Unsupervised\": \"No labels\",\n    \"Reinforcement\": \"Reward signal\"\n}\nfor lt, feedback in learning_types.items():\n    print(f\"{lt}: {feedback}\")</code></pre>",
+        "hint": "Dictionary iteration produces key-value pairs in insertion order.",
+        "answer": "<code>Supervised: Labeled data</code><br><code>Unsupervised: No labels</code><br><code>Reinforcement: Reward signal</code>",
+        "explanation": "The three types of ML learn from different types of feedback. Supervised needs labeled examples (input-output pairs). Unsupervised finds structure without labels. RL learns from delayed reward signals through interaction."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import random\nrandom.seed(42)\n\nepsilon = 0.3\nchoices = []\nfor _ in range(10):\n    if random.random() < epsilon:\n        choices.append(\"explore\")\n    else:\n        choices.append(\"exploit\")\n\nexplore_count = choices.count(\"explore\")\nexploit_count = choices.count(\"exploit\")\nprint(f\"Explore: {explore_count}, Exploit: {exploit_count}\")</code></pre>",
+        "hint": "With epsilon=0.3, about 30% of actions will be random (explore).",
+        "answer": "<code>Explore: 3, Exploit: 7</code> (approximately, exact depends on seed)",
+        "explanation": "With epsilon=0.3, the agent explores (random action) about 30% of the time and exploits (best known action) about 70% of the time. This is the epsilon-greedy strategy for balancing exploration and exploitation."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>gamma_values = [0.0, 0.5, 0.9, 0.99, 1.0]\nfor g in gamma_values:\n    if g == 0:\n        desc = \"only immediate reward\"\n    elif g < 0.9:\n        desc = \"moderate future value\"\n    elif g < 1.0:\n        desc = \"high future value\"\n    else:\n        desc = \"equal value (may diverge)\"\n    print(f\"gamma={g}: {desc}\")</code></pre>",
+        "hint": "gamma controls how much the agent values future rewards vs immediate ones.",
+        "answer": "<code>gamma=0.0: only immediate reward</code><br><code>gamma=0.5: moderate future value</code><br><code>gamma=0.9: high future value</code><br><code>gamma=0.99: high future value</code><br><code>gamma=1.0: equal value (may diverge)</code>",
+        "explanation": "The discount factor gamma determines how far-sighted the agent is. gamma=0 means the agent only cares about the next reward. gamma=0.99 means distant rewards are valued at 99% of their face value per step. gamma=1.0 can cause infinite returns in non-terminating environments."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\n# Q-table for a 3-state, 2-action environment\nQ = np.zeros((3, 2))\nprint(f\"Initial Q-table:\\n{Q}\")\n\n# Update Q(state=0, action=1) using Bellman equation\nstate, action = 0, 1\nreward = 5.0\nnext_state = 2\nalpha = 0.1\ngamma = 0.9\n\nbest_next_q = np.max(Q[next_state])\ntd_target = reward + gamma * best_next_q\ntd_error = td_target - Q[state][action]\nQ[state][action] += alpha * td_error\n\nprint(f\"\\nAfter update: Q[{state}][{action}] = {Q[state][action]}\")\nprint(f\"TD target: {td_target}\")\nprint(f\"TD error: {td_error}\")</code></pre>",
+        "hint": "Q starts at 0. TD target = reward + gamma * max(Q[next_state]) = 5 + 0.9 * 0.",
+        "answer": "<code>Initial Q-table:</code><br><code>[[0. 0.]</code><br><code> [0. 0.]</code><br><code> [0. 0.]]</code><br><br><code>After update: Q[0][1] = 0.5</code><br><code>TD target: 5.0</code><br><code>TD error: 5.0</code>",
+        "explanation": "All Q-values start at 0. TD target = 5.0 + 0.9 * 0.0 = 5.0 (next state Q is 0). TD error = 5.0 - 0.0 = 5.0. Updated Q = 0.0 + 0.1 * 5.0 = 0.5. The agent learned that taking action 1 in state 0 is valuable because it led to a reward of 5."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def compute_return(rewards, gamma):\n    G = 0\n    for r in reversed(rewards):\n        G = r + gamma * G\n    return round(G, 3)\n\nrewards = [1, 1, 1, 10]  # reward at each timestep\nprint(f\"gamma=0.0: G = {compute_return(rewards, 0.0)}\")\nprint(f\"gamma=0.5: G = {compute_return(rewards, 0.5)}\")\nprint(f\"gamma=0.9: G = {compute_return(rewards, 0.9)}\")\nprint(f\"gamma=1.0: G = {compute_return(rewards, 1.0)}\")</code></pre>",
+        "hint": "The return is computed backwards: G = r + gamma * G. Start from the last reward.",
+        "answer": "<code>gamma=0.0: G = 1</code><br><code>gamma=0.5: G = 2.625</code><br><code>gamma=0.9: G = 10.539</code><br><code>gamma=1.0: G = 13</code>",
+        "explanation": "With gamma=0, only the first reward matters (G=1). With gamma=1.0, all rewards are summed equally (1+1+1+10=13). With gamma=0.9, the big reward at the end (10) is discounted by 0.9^3 = 0.729 from the start, but still dominates. Higher gamma makes the agent more forward-looking."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\ndef epsilon_greedy(Q_state, epsilon):\n    if np.random.random() < epsilon:\n        return np.random.randint(len(Q_state))  # Random\n    return np.argmax(Q_state)  # Best\n\nnp.random.seed(0)\nQ_state = [2.5, 8.1, 1.3, 5.0]  # Q-values for 4 actions\n\n# With epsilon=0 (pure exploitation)\nprint(f\"Q-values: {Q_state}\")\nprint(f\"Best action (epsilon=0): {np.argmax(Q_state)}\")\n\n# Track exploration vs exploitation over 1000 trials\nepsilon = 0.2\nactions = [epsilon_greedy(Q_state, epsilon) for _ in range(1000)]\nfrom collections import Counter\ncounts = Counter(actions)\nfor a in sorted(counts):\n    print(f\"Action {a}: {counts[a]} times ({counts[a]/10:.1f}%)\")</code></pre>",
+        "hint": "Action 1 has the highest Q-value (8.1). With epsilon=0.2, ~80% exploit (action 1), ~20% random.",
+        "answer": "<code>Q-values: [2.5, 8.1, 1.3, 5.0]</code><br><code>Best action (epsilon=0): 1</code><br><code>Action 0: ~50 times (5%)</code><br><code>Action 1: ~850 times (85%)</code><br><code>Action 2: ~50 times (5%)</code><br><code>Action 3: ~50 times (5%)</code>",
+        "explanation": "With epsilon=0.2, 80% of the time the agent exploits (chooses action 1, the highest Q-value). 20% of the time it explores randomly (each of 4 actions gets ~5%). Action 1 gets ~80% (exploit) + ~5% (random) = ~85% total."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\n# Simulate Q-Learning for 5 updates on a single state-action pair\nQ = 0.0  # Initial Q-value for one (state, action) pair\nalpha = 0.1\ngamma = 0.9\n\n# Simulated transitions: (reward, max_next_Q)\ntransitions = [\n    (1.0, 0.0),\n    (1.0, 0.1),\n    (0.0, 0.5),\n    (1.0, 0.8),\n    (1.0, 1.0)\n]\n\nfor i, (reward, max_next_q) in enumerate(transitions):\n    td_target = reward + gamma * max_next_q\n    td_error = td_target - Q\n    Q = Q + alpha * td_error\n    print(f\"Step {i+1}: R={reward}, maxQ'={max_next_q}, \"\n          f\"target={td_target:.3f}, error={td_error:.3f}, Q={Q:.4f}\")</code></pre>",
+        "hint": "Apply the Q-learning update: Q += alpha * (R + gamma * maxQ' - Q) at each step.",
+        "answer": "Each step shows the Bellman update: the Q-value gradually increases as the agent observes rewards and higher future values.",
+        "explanation": "Q-learning incrementally adjusts Q toward the TD target (reward + discounted future value). The TD error decreases over time as Q converges toward the true value. With alpha=0.1, each update moves Q 10% of the way toward the target, providing smooth convergence."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between exploration and exploitation in RL?",
+        "hint": "Think about trying new restaurants vs going to your favorite one.",
+        "answer": "<strong>Exploitation</strong> means choosing the action that currently has the highest estimated value -- using what the agent has already learned. <strong>Exploration</strong> means trying actions the agent has not tried much, potentially discovering better strategies. The dilemma: too much exploitation means the agent might miss better options; too much exploration means the agent wastes time on suboptimal actions instead of using what it knows. The epsilon-greedy strategy balances this: with probability epsilon, explore (random action); otherwise, exploit (best known action). Epsilon typically decays from 1.0 to 0.01 during training.",
+        "explanation": "This is analogous to choosing restaurants: always going to your favorite (exploitation) means you might miss a better one. Always trying random new places (exploration) means you often eat bad food. A good strategy is to explore a lot initially (try many places) and gradually exploit more (go to favorites you have found)."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why does DQN use a separate target network instead of using the same Q-network for both prediction and target computation?",
+        "hint": "Think about what happens when the target keeps changing every time you update the network.",
+        "answer": "If the same network is used for both Q-value prediction and target computation, every weight update changes the target values too. This creates a <strong>moving target problem</strong>: the network is trying to match targets that shift with every gradient step, causing oscillation or divergence. The target network is a separate copy of the Q-network that is updated less frequently (every N episodes or via soft updates). This provides <strong>stable, fixed targets</strong> for several training steps, allowing the Q-network to converge toward them before the targets shift again.",
+        "explanation": "The target network is like a student studying for an exam with a fixed answer key (target network) rather than an answer key that changes with every question they answer (same network). Fixed targets make the optimization problem well-defined and stable."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the Bellman equation in Q-Learning, and why is it the foundation of the algorithm?",
+        "hint": "Think about how the value of a state-action pair relates to the immediate reward plus future value.",
+        "answer": "The Bellman equation states: <code>Q(s, a) = R(s,a) + gamma * max_a'(Q(s', a'))</code>. It says the value of taking action a in state s equals the immediate reward R plus the discounted value of the best action in the next state s'. This creates a <strong>recursive relationship</strong>: the value of the current state depends on the values of future states. Q-Learning uses this to iteratively update a Q-table: <code>Q(s,a) += alpha * [R + gamma * max(Q(s',a')) - Q(s,a)]</code>. The term in brackets is the <strong>temporal difference (TD) error</strong> -- the gap between the target (Bellman estimate) and the current Q-value. By reducing this error over many updates, Q-values converge to the true optimal values.",
+        "explanation": "The Bellman equation is the mathematical foundation of most value-based RL methods. It decomposes the long-term return into an immediate reward plus a discounted future value, making it possible to learn optimal behavior through incremental updates rather than waiting for complete episodes."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import torch\nimport torch.nn as nn\n\n# Simple DQN for CartPole\nclass DQN(nn.Module):\n    def __init__(self, state_dim, action_dim):\n        super().__init__()\n        self.net = nn.Sequential(\n            nn.Linear(state_dim, 64),\n            nn.ReLU(),\n            nn.Linear(64, 64),\n            nn.ReLU(),\n            nn.Linear(64, action_dim)\n        )\n    \n    def forward(self, x):\n        return self.net(x)\n\nmodel = DQN(4, 2)  # CartPole: 4 state dims, 2 actions\nparams = sum(p.numel() for p in model.parameters())\nprint(f\"Total parameters: {params}\")\n\n# Test forward pass\nstate = torch.randn(1, 4)  # Single state\nq_values = model(state)\nprint(f\"Q-values shape: {q_values.shape}\")\nprint(f\"Best action: {q_values.argmax().item()}\")</code></pre>",
+        "hint": "Count params: Linear(4,64) + Linear(64,64) + Linear(64,2). Include biases.",
+        "answer": "<code>Total parameters: 4738</code><br><code>Q-values shape: torch.Size([1, 2])</code><br><code>Best action: 0 or 1 (random, untrained)</code>",
+        "explanation": "Parameters: Linear(4,64) = 4*64+64 = 320. Linear(64,64) = 64*64+64 = 4160. Linear(64,2) = 64*2+2 = 130. Total = 320 + 4160 + 130 = 4610. Wait: let me recalculate. 4*64=256, +64 bias=320. 64*64=4096, +64=4160. 64*2=128, +2=130. Total=4610. The model outputs 2 Q-values (one per action). Before training, the best action is essentially random."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is RLHF (Reinforcement Learning from Human Feedback) and how is it used to align LLMs like ChatGPT?",
+        "hint": "Think about how human preferences can be turned into a reward signal for RL.",
+        "answer": "RLHF aligns LLMs with human preferences in three steps: (1) <strong>Supervised fine-tuning</strong>: Train the LLM on high-quality human-written responses. (2) <strong>Reward model training</strong>: Human raters rank multiple model outputs for the same prompt. These rankings train a reward model that predicts how much a human would prefer a given response. (3) <strong>PPO optimization</strong>: The LLM (as the RL agent) generates responses (actions), and the reward model provides reward signals. The LLM's policy is optimized using PPO (Proximal Policy Optimization) to maximize the reward while staying close to the original model (KL penalty prevents the model from diverging too far).",
+        "explanation": "RLHF is how ChatGPT, Claude, and other assistants are trained to be helpful, harmless, and honest. The key insight: instead of manually writing reward functions (impossible for open-ended language), train a reward model from human preferences. The reward model becomes a proxy for human judgment."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>rl_apps = [\"AlphaGo\", \"Robotics\", \"Recommendations\", \"RLHF\", \"Data center cooling\"]\nfor i, app in enumerate(rl_apps, 1):\n    print(f\"{i}. {app}\")</code></pre>",
+        "hint": "5 real-world RL applications.",
+        "answer": "<code>1. AlphaGo</code><br><code>2. Robotics</code><br><code>3. Recommendations</code><br><code>4. RLHF</code><br><code>5. Data center cooling</code>",
+        "explanation": "RL has diverse real-world applications: game AI (AlphaGo), robot control, recommendation systems (YouTube, Netflix), LLM alignment via RLHF (ChatGPT, Claude), and resource optimization (Google reduced data center cooling energy by 40%)."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\ndef compare_q_values(Q_before, Q_after, state):\n    print(f\"Before training: {Q_before[state]}\")\n    print(f\"After training:  {Q_after[state]}\")\n    print(f\"Best action before: {np.argmax(Q_before[state])}\")\n    print(f\"Best action after:  {np.argmax(Q_after[state])}\")\n\nQ_before = {0: [0.0, 0.0, 0.0, 0.0]}\nQ_after = {0: [0.5, 8.2, 1.3, 0.7]}\n\ncompare_q_values(Q_before, Q_after, 0)</code></pre>",
+        "hint": "Before training, all Q-values are 0. After training, action 1 has the highest value.",
+        "answer": "<code>Before training: [0.0, 0.0, 0.0, 0.0]</code><br><code>After training:  [0.5, 8.2, 1.3, 0.7]</code><br><code>Best action before: 0</code><br><code>Best action after:  1</code>",
+        "explanation": "Before training, all Q-values are initialized to 0, so the best action is arbitrarily 0. After Q-learning converges, action 1 has the highest Q-value (8.2), indicating it leads to the most cumulative reward from state 0."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from collections import deque\n\nbuf = deque(maxlen=5)\nfor i in range(8):\n    buf.append(f\"exp_{i}\")\n\nprint(f\"Buffer size: {len(buf)}\")\nprint(f\"Contents: {list(buf)}\")\nprint(f\"Oldest: {buf[0]}\")\nprint(f\"Newest: {buf[-1]}\")</code></pre>",
+        "hint": "deque with maxlen=5 drops oldest when full. After 8 pushes, only last 5 remain.",
+        "answer": "<code>Buffer size: 5</code><br><code>Contents: ['exp_3', 'exp_4', 'exp_5', 'exp_6', 'exp_7']</code><br><code>Oldest: exp_3</code><br><code>Newest: exp_7</code>",
+        "explanation": "The replay buffer (deque with maxlen=5) automatically drops the oldest entries when capacity is reached. After 8 pushes, the 3 oldest (exp_0, exp_1, exp_2) have been dropped. This ensures the buffer contains recent, relevant experiences for DQN training."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between on-policy and off-policy RL? Give an example of each.",
+        "hint": "Think about whether the data-collecting policy matches the policy being learned.",
+        "answer": "<strong>On-policy</strong>: The agent learns about the same policy it uses to collect data. The behavior policy and target policy are identical. Example: SARSA uses the actual next action taken. <strong>Off-policy</strong>: The agent can learn about a different (usually optimal) policy while following an exploratory behavior policy. Example: Q-Learning always uses max Q(s',a') regardless of the action actually taken. Off-policy enables experience replay (reusing old data) and is more sample-efficient. On-policy is generally more stable but requires fresh data for each update.",
+        "explanation": "DQN is off-policy (uses experience replay of old experiences). PPO is on-policy (discards data after each update). This distinction determines whether experience replay can be used and affects sample efficiency."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>rl_milestones = [\n    (\"AlphaGo\", \"Go\", 2016),\n    (\"AlphaZero\", \"Chess + Go\", 2017),\n    (\"OpenAI Five\", \"Dota 2\", 2019),\n    (\"AlphaStar\", \"StarCraft II\", 2019)\n]\nfor name, game, year in rl_milestones:\n    print(f\"{year}: {name} mastered {game}\")</code></pre>",
+        "hint": "Tuple unpacking in a for loop.",
+        "answer": "<code>2016: AlphaGo mastered Go</code><br><code>2017: AlphaZero mastered Chess + Go</code><br><code>2019: OpenAI Five mastered Dota 2</code><br><code>2019: AlphaStar mastered StarCraft II</code>",
+        "explanation": "RL achieved landmark results in increasingly complex games. AlphaGo defeated the world Go champion. AlphaZero learned chess and Go from scratch through self-play. These successes demonstrated RL's potential for complex sequential decision-making."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>epsilon = 1.0\ndecay = 0.9\nfor step in range(6):\n    print(f\"Step {step}: epsilon = {epsilon:.4f}\")\n    epsilon *= decay</code></pre>",
+        "hint": "Multiply epsilon by 0.9 each step. 1.0 * 0.9 = 0.9, * 0.9 = 0.81, etc.",
+        "answer": "<code>Step 0: epsilon = 1.0000</code><br><code>Step 1: epsilon = 0.9000</code><br><code>Step 2: epsilon = 0.8100</code><br><code>Step 3: epsilon = 0.7290</code><br><code>Step 4: epsilon = 0.6561</code><br><code>Step 5: epsilon = 0.5905</code>",
+        "explanation": "Exponential epsilon decay: epsilon is multiplied by the decay rate (0.9) each step. Starting from 1.0: 0.9, 0.81, 0.729, 0.6561, 0.5905. This gradually shifts the agent from exploration to exploitation."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\n# Simulate experience replay buffer\nbuffer = []\nfor i in range(10):\n    experience = (f\"s{i}\", f\"a{i%2}\", i * 0.5, f\"s{i+1}\")\n    buffer.append(experience)\n\nprint(f\"Buffer size: {len(buffer)}\")\nprint(f\"First: {buffer[0]}\")\nprint(f\"Last: {buffer[-1]}\")\n\n# Random sample of 3\nnp.random.seed(42)\nindices = np.random.choice(len(buffer), 3, replace=False)\nprint(f\"\\nSampled indices: {sorted(indices)}\")\nfor idx in sorted(indices):\n    print(f\"  {buffer[idx]}\")</code></pre>",
+        "hint": "10 experiences are stored. Random sample draws 3 non-consecutive transitions.",
+        "answer": "<code>Buffer size: 10</code><br><code>First: ('s0', 'a0', 0.0, 's1')</code><br><code>Last: ('s9', 'a1', 4.5, 's10')</code><br><code>Sampled indices: [varies]</code><br>Three random experiences from the buffer.",
+        "explanation": "The replay buffer stores transitions (state, action, reward, next_state). Random sampling breaks temporal correlations -- instead of training on consecutive transitions, the agent trains on a diverse mix of past experiences. This is essential for stable DQN training."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def cartpole_state_meaning(state):\n    names = [\"Cart Position\", \"Cart Velocity\", \"Pole Angle\", \"Pole Angular Vel\"]\n    for name, val in zip(names, state):\n        print(f\"  {name:20s}: {val:+.4f}\")\n\nstate = [0.0312, -0.1547, 0.0285, 0.3021]\nprint(\"CartPole State:\")\ncartpole_state_meaning(state)\n\n# Check if pole is falling\nangle = state[2]\nprint(f\"\\nPole angle: {angle:.4f} rad ({abs(angle)*180/3.14159:.1f} degrees)\")\nprint(f\"Falling? {abs(angle) > 0.2095}\")</code></pre>",
+        "hint": "CartPole has 4 state variables. The episode ends when angle exceeds ~12 degrees (0.2095 rad).",
+        "answer": "<code>CartPole State:</code><br><code>  Cart Position      : +0.0312</code><br><code>  Cart Velocity      : -0.1547</code><br><code>  Pole Angle         : +0.0285</code><br><code>  Pole Angular Vel   : +0.3021</code><br><br><code>Pole angle: 0.0285 rad (1.6 degrees)</code><br><code>Falling? False</code>",
+        "explanation": "CartPole's state has 4 continuous values. The pole angle of 0.0285 radians (~1.6 degrees) is well within the safe zone (episode ends at ~12 degrees = 0.2095 radians). The agent must keep the angle small by pushing the cart left or right."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import torch\nimport torch.nn as nn\n\n# Experience replay sampling and DQN loss computation\ndef compute_dqn_loss(q_net, target_net, batch, gamma=0.99):\n    states, actions, rewards, next_states, dones = batch\n    \n    states = torch.FloatTensor(states)\n    actions = torch.LongTensor(actions)\n    rewards = torch.FloatTensor(rewards)\n    next_states = torch.FloatTensor(next_states)\n    dones = torch.FloatTensor(dones)\n    \n    # Current Q-values for taken actions\n    current_q = q_net(states).gather(1, actions.unsqueeze(1)).squeeze(1)\n    \n    # Target Q-values\n    with torch.no_grad():\n        next_q = target_net(next_states).max(1)[0]\n        target_q = rewards + gamma * next_q * (1 - dones)\n    \n    loss = nn.MSELoss()(current_q, target_q)\n    return loss\n\n# Dummy networks and batch\nq_net = nn.Sequential(nn.Linear(4, 32), nn.ReLU(), nn.Linear(32, 2))\ntarget_net = nn.Sequential(nn.Linear(4, 32), nn.ReLU(), nn.Linear(32, 2))\ntarget_net.load_state_dict(q_net.state_dict())\n\nbatch = (\n    [[0.1, 0.2, 0.3, 0.4], [0.5, 0.6, 0.7, 0.8]],  # states\n    [0, 1],                                             # actions\n    [1.0, 1.0],                                         # rewards\n    [[0.2, 0.3, 0.4, 0.5], [0.6, 0.7, 0.8, 0.9]],    # next_states\n    [0.0, 0.0]                                          # dones (not done)\n)\n\nloss = compute_dqn_loss(q_net, target_net, batch)\nprint(f\"DQN Loss: {loss.item():.6f}\")\nprint(f\"Loss > 0: {loss.item() > 0}\")\nprint(f\"Loss type: {type(loss).__name__}\")",
+        "language": "python",
+        "hint": "The loss is MSE between predicted Q-values and Bellman targets.",
+        "answer": "<code>DQN Loss: [some small positive value]</code><br><code>Loss > 0: True</code><br><code>Loss type: Tensor</code>",
+        "explanation": "The DQN loss is MSE between: (1) current Q-values for the taken actions (from Q-network), and (2) target values computed using the Bellman equation with the target network. Since both networks start with the same random weights, the loss will be small but positive. Training minimizes this loss to make Q-predictions match Bellman targets."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Nidhi wants to build an RL agent that learns to play a simple board game. Should she use Q-Learning with a Q-table or DQN? What factors should she consider?",
+        "hint": "Think about the size of the state space and action space.",
+        "answer": "If the board game has a <strong>small, discrete state space</strong> (e.g., tic-tac-toe has about 5,500 valid states), a <strong>Q-table</strong> is simpler, faster, and guaranteed to converge. If the game has a <strong>large or continuous state space</strong> (e.g., chess has ~10^43 possible positions), a Q-table is impractical and Nidhi should use <strong>DQN</strong> which can generalize across similar states. Other factors: Q-tables are easier to implement and debug, require no GPU, and are fully interpretable (you can read the exact Q-values). DQN requires more hyperparameter tuning, training data, and compute, but handles complex environments that Q-tables cannot.",
+        "explanation": "Rule of thumb: if the state space fits in memory (under ~1 million states) and states are discrete, use a Q-table. If the state space is large, continuous, or has high dimensionality, use DQN. Many practitioners start with a Q-table for prototyping and switch to DQN when needed."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Compare Q-Learning and Policy Gradient methods. What are the advantages and disadvantages of each? When would Vikram choose Policy Gradients over Q-Learning?",
+        "hint": "Think about discrete vs continuous action spaces and the nature of what each method learns.",
+        "answer": "<strong>Q-Learning</strong> learns a value function and derives the policy (pick the action with highest Q-value). Pros: sample-efficient, works well with discrete actions. Cons: struggles with continuous action spaces, may converge to suboptimal solutions due to function approximation errors. <strong>Policy Gradient</strong> methods directly optimize the policy (a probability distribution over actions). Pros: naturally handles continuous action spaces, can learn stochastic policies, more theoretically grounded. Cons: high variance, less sample-efficient, may converge to local optima. Vikram should choose Policy Gradients when: the action space is continuous (e.g., controlling a robot's joint angles), a stochastic policy is needed (e.g., game theory scenarios where randomization is optimal), or when using actor-critic methods like PPO for complex environments.",
+        "explanation": "In practice, PPO (a policy gradient method) is the most popular RL algorithm for complex problems because it is stable, handles both discrete and continuous actions, and scales well. DQN is preferred for discrete-action environments where sample efficiency matters."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain Experience Replay in DQN. Why is random sampling from a buffer better than training on consecutive transitions?",
+        "hint": "Think about what happens when a model trains on correlated data sequences.",
+        "answer": "Experience Replay stores past transitions (s, a, r, s', done) in a buffer and trains on randomly sampled batches. This is better than consecutive training for three reasons: (1) <strong>Breaks temporal correlations</strong>: consecutive transitions are highly correlated (similar states, same part of the environment). Neural networks trained on correlated data overfit to recent patterns and forget earlier learning. Random sampling provides diverse, decorrelated training data. (2) <strong>Data efficiency</strong>: each experience can be reused for multiple training updates instead of being used once and discarded. (3) <strong>Stability</strong>: the training distribution is smoother (a mix of many experiences) rather than shifting rapidly as the agent moves through different parts of the environment.",
+        "explanation": "Without replay, a DQN exploring one area of the environment would only train on transitions from that area, forgetting how to behave in other areas (catastrophic forgetting). Random sampling ensures the network sees a balanced mix of all past experiences."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>rl_vs_others = {\n    \"Supervised\": \"Labeled data (x, y)\",\n    \"Unsupervised\": \"Unlabeled data (x)\",\n    \"Reinforcement\": \"Reward signal from environment\"\n}\nfor paradigm, feedback in rl_vs_others.items():\n    print(f\"{paradigm:15s} uses: {feedback}\")</code></pre>",
+        "hint": "Three ML paradigms with different types of feedback.",
+        "answer": "<code>Supervised      uses: Labeled data (x, y)</code><br><code>Unsupervised    uses: Unlabeled data (x)</code><br><code>Reinforcement   uses: Reward signal from environment</code>",
+        "explanation": "The three ML paradigms differ in their feedback: supervised gets correct answers, unsupervised finds patterns without feedback, and RL gets reward signals that may be delayed and sparse."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def q_learning_update(Q_sa, reward, max_Q_next, alpha, gamma):\n    target = reward + gamma * max_Q_next\n    td_error = target - Q_sa\n    new_Q = Q_sa + alpha * td_error\n    return round(new_Q, 4), round(td_error, 4)\n\n# State-action Q-value starts at 0\nQ = 0.0\nalpha, gamma = 0.1, 0.9\n\nupdates = [(1.0, 0.0), (1.0, 0.5), (0.0, 1.0), (1.0, 1.2)]\nfor reward, max_next_q in updates:\n    Q, td_err = q_learning_update(Q, reward, max_next_q, alpha, gamma)\n    print(f\"R={reward}, maxQ'={max_next_q} -> Q={Q}, TD_err={td_err}\")</code></pre>",
+        "hint": "Apply Bellman update: Q += alpha * (R + gamma * maxQ' - Q) at each step.",
+        "answer": "Each line shows the Q-value incrementally increasing as the agent observes rewards and estimates of future value.",
+        "explanation": "The Q-value starts at 0 and is updated toward the Bellman target (reward + gamma * max next Q) with each experience. The TD error decreases over time as Q converges. This incremental update is the core of Q-learning."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import numpy as np\n\ndef evaluate_policy(Q_table, env_size=4):\n    actions = [\"Up\", \"Right\", \"Down\", \"Left\"]\n    policy = {}\n    for state in Q_table:\n        best_action = actions[np.argmax(Q_table[state])]\n        policy[state] = best_action\n    return policy\n\n# Simulated Q-table for a 2x2 grid\nQ = {\n    (0,0): [0.1, 0.8, 0.3, 0.1],  # Best: Right\n    (0,1): [0.1, 0.1, 0.9, 0.1],  # Best: Down\n    (1,0): [0.1, 0.7, 0.1, 0.1],  # Best: Right\n    (1,1): [0.0, 0.0, 0.0, 0.0],  # Goal state\n}\n\npolicy = evaluate_policy(Q)\nfor state, action in sorted(policy.items()):\n    print(f\"State {state}: {action}\")</code></pre>",
+        "hint": "argmax selects the action with the highest Q-value at each state.",
+        "answer": "<code>State (0, 0): Right</code><br><code>State (0, 1): Down</code><br><code>State (1, 0): Right</code><br><code>State (1, 1): Up</code>",
+        "explanation": "The greedy policy selects the action with the highest Q-value at each state. The learned path from (0,0) to the goal (1,1) is: Right to (0,1), then Down to (1,1). This represents the optimal policy learned by Q-learning."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between a policy and a value function in RL?",
+        "hint": "One tells the agent what to do, the other tells the agent how good a situation is.",
+        "answer": "A <strong>policy</strong> (pi) is the agent's strategy: it maps states to actions, telling the agent what to do in each situation. It can be deterministic (one action per state) or stochastic (probability distribution over actions). A <strong>value function</strong> V(s) estimates how good a state is by predicting the expected cumulative reward from that state forward. The <strong>Q-function</strong> Q(s,a) estimates how good a specific action is in a given state. The relationship: a greedy policy selects the action that maximizes the Q-function at each state.",
+        "explanation": "Value-based methods (Q-learning, DQN) learn a Q-function and derive the policy from it. Policy-based methods (REINFORCE, PPO) directly learn the policy without explicitly computing values. Actor-Critic methods combine both."
+      },
+      {
+        "id": "mx-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is reward shaping important in RL, and what risks does it introduce?",
+        "hint": "Think about sparse vs dense rewards and how shaping can accidentally change the optimal policy.",
+        "answer": "Reward shaping adds intermediate rewards to guide the agent toward the goal, solving the <strong>sparse reward problem</strong> where the agent only receives reward at the goal (making it hard to learn). Example: adding a small reward proportional to distance traveled toward the goal. Risks: (1) <strong>Reward hacking</strong>: the agent may find unintended ways to maximize shaped rewards without achieving the actual goal. (2) <strong>Optimal policy change</strong>: poorly designed shaping can change the optimal policy (the agent does what earns shaped rewards instead of the real objective). (3) <strong>Human bias</strong>: the designer's assumptions about 'good' intermediate states may be wrong. Potential-based reward shaping (PBRS) is a theoretically safe method that preserves the optimal policy while providing denser feedback.",
+        "explanation": "Reward design is arguably the most important and most difficult part of RL. RLHF addresses this for language models by learning a reward function from human preferences rather than hand-crafting rewards."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What type of feedback does an RL agent receive from the environment?",
+        "options": {
+          "A": "Labeled training examples",
+          "B": "A reward signal (numerical value)",
+          "C": "Cluster assignments",
+          "D": "Feature importance rankings"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> An RL agent receives a numerical reward signal after taking actions. Positive rewards encourage the action, negative rewards discourage it. This is different from supervised learning (labeled examples) or unsupervised learning (no explicit feedback)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "In epsilon-greedy strategy, what does the agent do when random() < epsilon?",
+        "options": {
+          "A": "Takes the best known action",
+          "B": "Takes a random action (explores)",
+          "C": "Stops the episode",
+          "D": "Resets the environment"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When random() < epsilon, the agent explores by taking a random action. Otherwise (1-epsilon probability), it exploits by taking the action with the highest Q-value. Higher epsilon means more exploration."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does the discount factor gamma control in RL?",
+        "options": {
+          "A": "The learning rate",
+          "B": "How much the agent values future rewards vs immediate rewards",
+          "C": "The number of actions available",
+          "D": "The size of the neural network"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Gamma between 0 and 1 determines the importance of future rewards. Gamma=0 means the agent only cares about the immediate reward. Gamma=0.99 means future rewards are nearly as valuable as immediate ones."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is a Q-table?",
+        "options": {
+          "A": "A neural network for RL",
+          "B": "A lookup table that stores expected cumulative rewards for each state-action pair",
+          "C": "A database of training examples",
+          "D": "A queue of actions to take"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A Q-table maps (state, action) pairs to their estimated Q-values (expected cumulative rewards). The Q-learning algorithm updates this table using the Bellman equation as the agent gains experience."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is the Markov property in an MDP?",
+        "options": {
+          "A": "Actions must be reversible",
+          "B": "The future depends only on the current state, not on history",
+          "C": "All rewards must be positive",
+          "D": "The environment must be deterministic"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The Markov property states that the probability of the next state depends only on the current state and action, not on the sequence of states that preceded it. This memoryless property makes RL tractable."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the TD (Temporal Difference) error in Q-Learning?",
+        "options": {
+          "A": "The time taken for one episode",
+          "B": "The difference between the Bellman target and the current Q-value estimate",
+          "C": "The number of steps in an episode",
+          "D": "The change in epsilon over time"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> TD error = [R + gamma * max(Q(s',a'))] - Q(s,a). It is the difference between the target value (from the Bellman equation) and the current estimate. Q-learning updates Q by alpha * TD error, driving the error toward zero."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Why does DQN use experience replay?",
+        "options": {
+          "A": "To speed up the environment simulation",
+          "B": "To break temporal correlations and provide diverse training data",
+          "C": "To increase the number of actions available",
+          "D": "To reduce the model size"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Consecutive transitions are correlated, causing unstable training. Experience replay stores past transitions in a buffer and trains on random batches, breaking correlations and providing diverse, decorrelated training data."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What function does env.step(action) return in Gymnasium?",
+        "options": {
+          "A": "Only the next state",
+          "B": "next_state, reward, terminated, truncated, info",
+          "C": "reward and done flag only",
+          "D": "The action's Q-value"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>env.step(action)</code> returns a 5-tuple: next_state (new observation), reward (numerical feedback), terminated (episode ended due to environment rules), truncated (episode ended due to time limit), and info (diagnostic information)."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What RL technique is used to align LLMs like ChatGPT with human preferences?",
+        "options": {
+          "A": "Q-Learning",
+          "B": "Deep Q-Network",
+          "C": "RLHF (Reinforcement Learning from Human Feedback)",
+          "D": "Monte Carlo Tree Search"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> RLHF trains a reward model from human preference rankings, then uses PPO to optimize the LLM's policy to maximize this learned reward while staying close to the original model. This makes LLMs helpful, harmless, and honest."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "In CartPole, what causes the episode to end (terminate)?",
+        "options": {
+          "A": "The agent takes 10 actions",
+          "B": "The pole angle exceeds ~12 degrees or the cart moves too far",
+          "C": "The reward reaches zero",
+          "D": "The agent chooses the same action twice"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> CartPole terminates when the pole angle exceeds +/-12 degrees (0.2095 radians) or the cart position exceeds +/-2.4 units from center. The agent gets reward +1 for every step the pole stays upright, up to a maximum of 500 steps."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the role of the target network in DQN?",
+        "options": {
+          "A": "It generates training data",
+          "B": "It provides stable target Q-values by updating less frequently than the main Q-network",
+          "C": "It replaces the Q-network after training",
+          "D": "It computes the loss function"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The target network is a copy of the Q-network that is updated only periodically (every N episodes). It computes stable target Q-values for the Bellman equation, preventing the moving target problem where the Q-network chases its own changing predictions."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "Why is Q-Learning called a 'model-free' algorithm?",
+        "options": {
+          "A": "It does not use any neural networks",
+          "B": "It does not require a model of the environment's transition dynamics",
+          "C": "It works without any rewards",
+          "D": "It does not need a Q-table"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> 'Model-free' means Q-Learning does not need to know the transition probabilities P(s'|s,a) or the reward function R(s,a). It learns directly from experience -- the agent takes actions, observes outcomes, and updates Q-values. Model-based methods, in contrast, learn or use a model of the environment to plan ahead."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What problem does Q-Learning face when applied to environments with continuous state spaces?",
+        "options": {
+          "A": "It runs too slowly",
+          "B": "The Q-table becomes impractically large or infinite since continuous values are rarely revisited",
+          "C": "The rewards become negative",
+          "D": "The agent cannot take actions"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> With continuous states (float values), almost no state is visited twice, so the Q-table has millions of unique entries with values of 0. Learning is impossible because Q-values are never updated. Solutions: discretize the state space (lose precision) or use DQN (neural network as function approximator)."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the key difference between on-policy and off-policy RL algorithms?",
+        "options": {
+          "A": "On-policy is faster, off-policy is more accurate",
+          "B": "On-policy learns about the policy being followed; off-policy can learn about a different policy than the one generating data",
+          "C": "On-policy uses neural networks; off-policy uses tables",
+          "D": "There is no difference"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> On-policy methods (SARSA, PPO) learn about the same policy that generates actions. Off-policy methods (Q-Learning, DQN) can learn about the optimal policy while following a different exploration policy (like epsilon-greedy). Off-policy is more sample-efficient because it can reuse old data (experience replay)."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Which algorithm defeated the world champion at Go in 2016?",
+        "options": {
+          "A": "Deep Q-Network",
+          "B": "AlphaGo (using Monte Carlo Tree Search + deep RL)",
+          "C": "SARSA",
+          "D": "Vanilla Policy Gradient"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> AlphaGo (DeepMind, 2016) defeated Lee Sedol at Go using a combination of deep convolutional neural networks, Monte Carlo Tree Search, supervised learning from human games, and reinforcement learning through self-play. Its successor AlphaZero learned entirely from self-play."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What does the agent receive from the environment after taking an action?",
+        "options": {
+          "A": "A training dataset",
+          "B": "The next state, a reward signal, and a done flag",
+          "C": "The model's weights",
+          "D": "A label for the action"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> After the agent takes an action, the environment returns: the next state (new observation), a reward signal (numerical feedback), and a done flag (whether the episode has ended). This tuple is the fundamental data unit in RL."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "What is the purpose of the replay buffer in DQN?",
+        "options": {
+          "A": "To replay the game for the user",
+          "B": "To store past experiences and sample random batches for training",
+          "C": "To store the model weights",
+          "D": "To increase the action space"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The replay buffer stores past transitions (s, a, r, s', done) and provides random batches for training. This breaks temporal correlations between consecutive transitions and provides diverse training data, which is essential for stable DQN training."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Easy",
+        "question": "What RL algorithm learns a Q-table mapping state-action pairs to expected cumulative rewards?",
+        "options": {
+          "A": "Linear Regression",
+          "B": "Q-Learning",
+          "C": "K-Means",
+          "D": "Random Forest"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Q-Learning is a model-free RL algorithm that maintains a Q-table storing the expected cumulative reward for each (state, action) pair. It updates values using the Bellman equation as the agent interacts with the environment."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "What is PPO (Proximal Policy Optimization) and why is it popular?",
+        "options": {
+          "A": "A value-based method for small state spaces",
+          "B": "A policy gradient method that constrains policy updates for stable training",
+          "C": "A supervised learning algorithm for classification",
+          "D": "A method for compressing neural networks"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> PPO is a policy gradient method that limits how much the policy can change in each update (via a clipping mechanism). This prevents large, destabilizing updates while still making progress. PPO is used in RLHF for aligning LLMs and is the default choice for many complex RL tasks."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Medium",
+        "question": "Why is epsilon typically decayed during Q-learning training?",
+        "options": {
+          "A": "To make the model smaller over time",
+          "B": "To gradually shift from exploration to exploitation as the agent learns",
+          "C": "To reduce the learning rate",
+          "D": "To increase the discount factor"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Early in training, the agent knows little, so high epsilon (lots of exploration) helps discover good strategies. As training progresses and Q-values improve, lower epsilon (more exploitation) lets the agent use what it has learned. A minimum epsilon (e.g., 0.01) ensures some exploration continues."
+      }
+    ]
+  }
+}

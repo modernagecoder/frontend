@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Data Preprocessing and Exploratory Data Analysis | AI and Machine Learning | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="57+ practice questions on Data Preprocessing and Exploratory Data Analysis in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="data preprocessing and exploratory data analysis practice, ai and machine learning questions, ai and machine learning practice problems, data preprocessing and exploratory data analysis exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda/practice">
+    <meta property="og:title" content="Practice Questions - Data Preprocessing and Exploratory Data Analysis | AI and Machine Learning | Modern Age Coders">
+    <meta property="og:description" content="57+ practice questions on Data Preprocessing and Exploratory Data Analysis in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda/practice">
+    <meta name="twitter:title" content="Practice Questions - Data Preprocessing and Exploratory Data Analysis | AI and Machine Learning | Modern Age Coders">
+    <meta name="twitter:description" content="57+ practice questions on Data Preprocessing and Exploratory Data Analysis in AI and Machine Learning. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Data Preprocessing and Exploratory Data Analysis",
+    "description": "57+ practice questions on Data Preprocessing and Exploratory Data Analysis in AI and Machine Learning.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Data Preprocessing and Exploratory Data Analysis"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI and Machine Learning",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Data Preprocessing and Exploratory Data Analysis",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/ai-and-machine-learning/data-preprocessing-and-eda/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning">AI and Machine Learning</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/ai-and-machine-learning/data-preprocessing-and-eda">Data Preprocessing and Exploratory Data Analysis</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 4</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">57 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Data Preprocessing and Exploratory Data Analysis</h1>
+            <a href="/resources/ai-and-machine-learning/data-preprocessing-and-eda" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write code to detect missing values in a DataFrame with columns Name, Age (2 NaN), and Marks (1 NaN). Print the count of missing values per column.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Use df.isnull().sum().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><pre><code>import pandas as pd
+import numpy as np
+df = pd.DataFrame({'Name': ['Aarav', 'Priya', 'Rohan', 'Ananya'], 'Age': [20, np.nan, 22, np.nan], 'Marks': [85, 92, np.nan, 88]})
+print(df.isnull().sum())</code></pre>
+Output: Name 0, Age 2, Marks 1</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write code to fill missing values in the 'Age' column with the median age.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Use df['Age'].fillna(df['Age'].median()).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><pre><code>import pandas as pd, numpy as np
+df = pd.DataFrame({'Age': [20, np.nan, 22, np.nan, 25]})
+df['Age'] = df['Age'].fillna(df['Age'].median())
+print(df)</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between Label Encoding and One-Hot Encoding? When should you use each?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Think about ordinal vs nominal categories.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><strong>Label Encoding</strong> assigns integers (0, 1, 2) to categories. Use for <strong>ordinal</strong> data where order matters (Low < Medium < High). <strong>One-Hot Encoding</strong> creates binary columns for each category. Use for <strong>nominal</strong> data where order does not matter (Delhi, Mumbai, Pune).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write code to one-hot encode the 'Color' column in a DataFrame with values ['Red', 'Blue', 'Green', 'Red'].</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Use pd.get_dummies(df, columns=['Color']).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><pre><code>import pandas as pd
+df = pd.DataFrame({'Color': ['Red', 'Blue', 'Green', 'Red']})
+df_encoded = pd.get_dummies(df, columns=['Color'], dtype=int)
+print(df_encoded)</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why must you fit the scaler on training data only, not the entire dataset?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Think about what happens if the test data's statistics leak into preprocessing.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5">Fitting the scaler on the entire dataset causes <strong>data leakage</strong>. The scaler's mean and standard deviation would include test data, meaning the training process indirectly 'sees' test data statistics. This makes evaluation overly optimistic -- the model appears to perform better than it actually would on truly unseen data. Always: <code>scaler.fit_transform(X_train)</code>, then <code>scaler.transform(X_test)</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to apply StandardScaler to a NumPy array [[1, 100], [2, 200], [3, 300]]. Print the scaled values and verify that each column has mean 0 and std 1.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Use StandardScaler().fit_transform(). Check with np.mean() and np.std().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><pre><code>import numpy as np
+from sklearn.preprocessing import StandardScaler
+X = np.array([[1, 100], [2, 200], [3, 300]])
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+print('Scaled:\n', X_scaled.round(4))
+print(f'Means: {X_scaled.mean(axis=0).round(10)}')
+print(f'Stds: {X_scaled.std(axis=0).round(4)}')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Create a correlation heatmap for a DataFrame with 4 numerical columns using Matplotlib (not seaborn).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Use df.corr() and plt.imshow() with a colormap.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><pre><code>import numpy as np, pandas as pd
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+np.random.seed(42)
+df = pd.DataFrame({'A': np.random.randn(50), 'B': np.random.randn(50)})
+df['C'] = df['A'] * 2 + np.random.randn(50)*0.5
+df['D'] = np.random.randn(50)
+corr = df.corr()
+fig, ax = plt.subplots(figsize=(6,5))
+im = ax.imshow(corr, cmap='coolwarm', vmin=-1, vmax=1)
+ax.set_xticks(range(4)); ax.set_yticks(range(4))
+ax.set_xticklabels(corr.columns); ax.set_yticklabels(corr.columns)
+for i in range(4):
+    for j in range(4):
+        ax.text(j, i, f'{corr.values[i,j]:.2f}', ha='center', va='center')
+plt.colorbar(im); plt.title('Correlation Heatmap')
+plt.tight_layout(); plt.savefig('heatmap.png')
+print('Saved heatmap.png')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to detect outliers in [12, 15, 14, 10, 100, 13, 11, 16, 14, 200] using the IQR method. Print the outlier values.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Calculate Q1, Q3, IQR. Outliers are below Q1-1.5*IQR or above Q3+1.5*IQR.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><pre><code>import numpy as np
+data = np.array([12, 15, 14, 10, 100, 13, 11, 16, 14, 200])
+Q1 = np.percentile(data, 25)
+Q3 = np.percentile(data, 75)
+IQR = Q3 - Q1
+lower = Q1 - 1.5 * IQR
+upper = Q3 + 1.5 * IQR
+outliers = data[(data < lower) | (data > upper)]
+print(f'Q1={Q1}, Q3={Q3}, IQR={IQR}')
+print(f'Bounds: [{lower}, {upper}]')
+print(f'Outliers: {outliers}')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a complete preprocessing pipeline: create a dataset with missing values and categorical columns, handle missing values, encode categoricals, split 80/20 with stratification, and scale features.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Follow the order: missing values -> encode -> split -> scale.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><pre><code>import pandas as pd, numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+np.random.seed(42)
+df = pd.DataFrame({'Age': [25, np.nan, 30, 22, 28], 'Salary': [50000, 60000, np.nan, 40000, 55000], 'City': ['Delhi', 'Mumbai', 'Delhi', 'Pune', 'Mumbai'], 'Bought': [1, 0, 1, 0, 1]})
+df['Age'] = df['Age'].fillna(df['Age'].median())
+df['Salary'] = df['Salary'].fillna(df['Salary'].median())
+df = pd.get_dummies(df, columns=['City'], dtype=int)
+X = df.drop('Bought', axis=1); y = df['Bought']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+scaler = StandardScaler()
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
+print(f'Train shape: {X_train.shape}, Test shape: {X_test.shape}')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When should you use StandardScaler vs MinMaxScaler? Name algorithms that require scaling.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Think about data distribution and algorithm requirements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><strong>StandardScaler:</strong> Use when data is approximately normally distributed. Transforms to mean=0, std=1. Works well with: SVM, logistic regression, linear regression (with gradient descent). <strong>MinMaxScaler:</strong> Use when data is not normal or you need bounded [0,1] values. Works well with: KNN, neural networks, image data. <strong>Algorithms requiring scaling:</strong> KNN, SVM, neural networks, PCA, K-Means. <strong>Algorithms that don't need scaling:</strong> Decision Trees, Random Forests, XGBoost (tree-based models are scale-invariant).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>import pandas as pd<br>df = pd.DataFrame({'A': [1, 2, 2, 3, 3, 3]})<br>print(df['A'].value_counts())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">value_counts() counts occurrences of each unique value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>3    3
+2    2
+1    1
+Name: A, dtype: int64</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code to handle missing values using a smarter strategy: group-wise median fill. Fill missing 'Salary' values with the median salary of their respective 'Department'.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Use df.groupby('Department')['Salary'].transform(lambda x: x.fillna(x.median())).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><pre><code>import pandas as pd, numpy as np
+df = pd.DataFrame({'Department': ['CSE', 'CSE', 'ECE', 'ECE', 'CSE'], 'Salary': [50000, np.nan, 70000, np.nan, 60000]})
+df['Salary'] = df.groupby('Department')['Salary'].transform(lambda x: x.fillna(x.median()))
+print(df)</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is data leakage and why is it dangerous? Give two examples.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Think about test data information leaking into the training process.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><strong>Data leakage</strong> occurs when information from outside the training dataset influences the model during training, leading to overly optimistic performance metrics. Examples: (1) <strong>Scaling before splitting:</strong> Fitting StandardScaler on the entire dataset means the scaler's mean/std include test data statistics. (2) <strong>Using future data:</strong> In time series, using tomorrow's stock price as a feature to predict today's is leakage. (3) <strong>Target leakage:</strong> A feature that was computed using the target variable.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to remove duplicate rows from a DataFrame and print how many duplicates were found.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Use df.duplicated().sum() and df.drop_duplicates().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><pre><code>import pandas as pd
+df = pd.DataFrame({'A': [1, 2, 2, 3, 3], 'B': [10, 20, 20, 30, 30]})
+dupes = df.duplicated().sum()
+print(f'Duplicates found: {dupes}')
+df_clean = df.drop_duplicates()
+print(f'Before: {len(df)} rows, After: {len(df_clean)} rows')
+print(df_clean)</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write code to use train_test_split to split features X and labels y into 80% train and 20% test.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">from sklearn.model_selection import train_test_split. Use test_size=0.2.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><pre><code>import numpy as np
+from sklearn.model_selection import train_test_split
+X = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, 10]])
+y = np.array([0, 1, 0, 1, 0])
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+print(f'Train: {len(X_train)} samples, Test: {len(X_test)} samples')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code to normalize features using MinMaxScaler, apply it to training data, and transform test data using the same scaler parameters.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">scaler.fit_transform(X_train) then scaler.transform(X_test).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><pre><code>import numpy as np
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+X = np.array([[10, 1000], [20, 2000], [30, 3000], [40, 4000], [50, 5000]])
+y = np.array([0, 0, 1, 1, 1])
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+scaler = MinMaxScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+print(f'Train scaled:\n{X_train_scaled.round(3)}')
+print(f'Test scaled:\n{X_test_scaled.round(3)}')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is a stratified train-test split? When should you use it?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Think about imbalanced datasets where one class is much rarer.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">A <strong>stratified split</strong> ensures the class distribution in both train and test sets matches the original dataset. Use <code>stratify=y</code> in train_test_split. Use when: the dataset is imbalanced (e.g., 95% class A, 5% class B). Without stratification, the test set might accidentally have 0 samples of class B, making evaluation meaningless.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code to create a box plot that shows the distribution of marks for each department, helping visualize outliers per group.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Use matplotlib's boxplot with grouped data.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><pre><code>import numpy as np, pandas as pd
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+np.random.seed(42)
+df = pd.DataFrame({'Dept': np.random.choice(['CSE', 'ECE', 'IT'], 60), 'Marks': np.random.normal(70, 15, 60).round(1)})
+df.loc[0, 'Marks'] = 150  # outlier
+groups = [group['Marks'].values for name, group in df.groupby('Dept')]
+labels = sorted(df['Dept'].unique())
+plt.figure(figsize=(8, 5))
+plt.boxplot(groups, labels=labels)
+plt.title('Marks Distribution by Department')
+plt.ylabel('Marks')
+plt.savefig('boxplot.png')
+print('Boxplot saved')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import pandas as pd<br>df = pd.DataFrame({'A': [1, 2, 2, 3]})<br>print(df.duplicated().sum())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">duplicated() marks rows that are exact duplicates of earlier rows.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does 'garbage in, garbage out' mean in the context of Machine Learning?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Think about the quality of data versus the quality of predictions.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20">It means that if you feed bad data (missing values, errors, outliers, wrong encodings) into an ML model, the model will produce bad predictions, no matter how sophisticated the algorithm is. Good preprocessing ensures good input data, which leads to good model performance.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write code to check the data types of each column in a DataFrame. Why does this matter for preprocessing?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Use df.dtypes. Object type columns need encoding.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><pre><code>import pandas as pd
+df = pd.DataFrame({'Name': ['Aarav', 'Priya'], 'Age': [20, 22], 'Salary': [50000.0, 60000.0], 'City': ['Delhi', 'Mumbai']})
+print(df.dtypes)
+print('\nObject columns need encoding before ML:', list(df.select_dtypes(include='object').columns))</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.preprocessing import StandardScaler<br>import numpy as np<br>X = np.array([[10], [20], [30]])<br>scaler = StandardScaler()<br>print(scaler.fit_transform(X).round(4))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">StandardScaler: z = (x - mean) / std. Mean=20, std=8.165.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>[[-1.2247]
+ [ 0.    ]
+ [ 1.2247]]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Priya has a dataset where the 'Income' column ranges from 10000 to 500000 and 'Age' ranges from 18 to 65. Scale both features to [0, 1] range using MinMaxScaler.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">MinMaxScaler: x_scaled = (x - min) / (max - min).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><pre><code>import numpy as np
+from sklearn.preprocessing import MinMaxScaler
+X = np.array([[25, 30000], [40, 200000], [18, 10000], [65, 500000]])
+scaler = MinMaxScaler()
+X_scaled = scaler.fit_transform(X)
+print('Original:\n', X)
+print('\nScaled (0-1):\n', X_scaled.round(3))</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write code to detect outliers using the Z-score method in a dataset. Flag values with |Z| > 2 as outliers.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Z-score = (x - mean) / std. Use numpy operations.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><pre><code>import numpy as np
+data = np.array([10, 12, 14, 11, 13, 12, 100, 14, 11, 13])
+mean, std = np.mean(data), np.std(data)
+z_scores = (data - mean) / std
+outliers = data[np.abs(z_scores) > 2]
+print(f'Mean: {mean:.1f}, Std: {std:.1f}')
+print(f'Z-scores: {z_scores.round(2)}')
+print(f'Outliers (|Z| > 2): {outliers}')</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Rohan is building a fraud detection model. His dataset has 99.5% normal transactions and 0.5% fraudulent. Should he use stratified splitting? What other preprocessing steps should he consider?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Think about class imbalance and its effect on splitting and modeling.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">Yes, Rohan <strong>must use stratified splitting</strong> to ensure both train and test sets contain fraudulent transactions. Additional steps: (1) <strong>SMOTE</strong> or oversampling to balance the minority class in training data. (2) Use <strong>precision/recall/F1</strong> instead of accuracy (a model predicting all 'normal' gets 99.5% accuracy but catches zero fraud). (3) <strong>Scale features</strong> if using distance-based algorithms. (4) Consider <strong>anomaly detection</strong> approaches (unsupervised) as an alternative.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write code to check for and display duplicated rows in a DataFrame.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Use df[df.duplicated(keep=False)] to show all duplicates.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>import pandas as pd
+df = pd.DataFrame({'Name': ['Aarav', 'Priya', 'Aarav', 'Rohan', 'Priya'], 'Age': [20, 22, 20, 21, 22]})
+print(f'Total duplicates: {df.duplicated().sum()}')
+print('\nDuplicate rows (all occurrences):')
+print(df[df.duplicated(keep=False)])</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write code to use pd.get_dummies to one-hot encode the 'Size' column (['S', 'M', 'L', 'XL']) and the 'Color' column (['Red', 'Blue']) in a single DataFrame.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Pass a list of columns to pd.get_dummies.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><pre><code>import pandas as pd
+df = pd.DataFrame({'Size': ['S', 'M', 'L', 'XL'], 'Color': ['Red', 'Blue', 'Red', 'Blue'], 'Price': [100, 200, 300, 400]})
+df_encoded = pd.get_dummies(df, columns=['Size', 'Color'], dtype=int)
+print(df_encoded)</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from sklearn.preprocessing import MinMaxScaler<br>import numpy as np<br>X = np.array([[0], [5], [10]])<br>scaler = MinMaxScaler()<br>scaler.fit(X)<br>print(scaler.transform([[15]]))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">MinMaxScaler: (x - min) / (max - min). Min=0, Max=10. What happens with 15?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>[[1.5]]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a function preprocess_dataframe(df) that automatically: detects and fills missing values (median for numeric, mode for categorical), encodes categorical columns with one-hot encoding, and returns the cleaned DataFrame.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Use select_dtypes to separate numeric and categorical columns.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>import pandas as pd, numpy as np
+
+def preprocess_dataframe(df):
+    df = df.copy()
+    for col in df.select_dtypes(include='number').columns:
+        df[col] = df[col].fillna(df[col].median())
+    for col in df.select_dtypes(include='object').columns:
+        df[col] = df[col].fillna(df[col].mode()[0])
+    cat_cols = df.select_dtypes(include='object').columns.tolist()
+    if cat_cols:
+        df = pd.get_dummies(df, columns=cat_cols, dtype=int)
+    return df
+
+df = pd.DataFrame({'Age': [25, np.nan, 30], 'City': ['Delhi', None, 'Mumbai'], 'Salary': [50000, 60000, np.nan]})
+print('Before:')
+print(df)
+print('\nAfter:')
+print(preprocess_dataframe(df))</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is EDA (Exploratory Data Analysis)? Name 5 things you should check during EDA.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Think about the questions you need to answer before building a model.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">EDA is the process of examining data to understand its characteristics before modeling. Five things to check: (1) <strong>Shape and types</strong> (df.shape, df.dtypes). (2) <strong>Missing values</strong> (df.isnull().sum()). (3) <strong>Distribution of features</strong> (histograms, describe()). (4) <strong>Correlations</strong> between features (df.corr(), heatmaps). (5) <strong>Outliers</strong> (box plots, IQR/Z-score). Bonus: class distribution of target variable, duplicate rows.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does df.isnull().sum() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Total number of rows</li><li><span class="mcq-option-label">B.</span> Count of missing values per column</li><li><span class="mcq-option-label">C.</span> True/False for each cell</li><li><span class="mcq-option-label">D.</span> Data types of each column</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>df.isnull()</code> creates a boolean DataFrame. <code>.sum()</code> sums each column (True=1, False=0), giving the count of missing values per column.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which encoding should be used for the column 'Gender' with values ['Male', 'Female']?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Label Encoding only</li><li><span class="mcq-option-label">B.</span> One-Hot Encoding</li><li><span class="mcq-option-label">C.</span> Both are fine since there are only 2 categories</li><li><span class="mcq-option-label">D.</span> No encoding needed</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> With only 2 categories, both work. Label encoding (Male=0, Female=1) does not create false ordering with binary features. One-hot encoding also works. For more than 2 nominal categories, one-hot is preferred.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is the output range of MinMaxScaler?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [-1, 1]</li><li><span class="mcq-option-label">B.</span> [0, 1]</li><li><span class="mcq-option-label">C.</span> Mean = 0, Std = 1</li><li><span class="mcq-option-label">D.</span> [0, 100]</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> MinMaxScaler scales features to the [0, 1] range using (x - min) / (max - min). The minimum value maps to 0, maximum to 1. Option C describes StandardScaler.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Why is it important to split data before scaling?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Scaling before splitting is faster</li><li><span class="mcq-option-label">B.</span> To prevent data leakage from test set to training</li><li><span class="mcq-option-label">C.</span> Splitting before scaling gives better accuracy</li><li><span class="mcq-option-label">D.</span> There is no difference</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> If you scale before splitting, the scaler learns the test set's statistics (mean, std, min, max). This leaks test information into training, making evaluation overly optimistic. Always: split first, fit scaler on train, transform both.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which method is more robust to outliers for filling missing numerical values?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Mean</li><li><span class="mcq-option-label">B.</span> Median</li><li><span class="mcq-option-label">C.</span> Mode</li><li><span class="mcq-option-label">D.</span> Zero</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> The median is the middle value when sorted and is not affected by extreme values (outliers). The mean is pulled toward outliers. For example, with salaries [30K, 35K, 32K, 1M], mean = 274K (misleading), median = 33.5K (representative).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does pd.get_dummies() do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Creates dummy (fake) data</li><li><span class="mcq-option-label">B.</span> Performs one-hot encoding on categorical columns</li><li><span class="mcq-option-label">C.</span> Removes duplicate columns</li><li><span class="mcq-option-label">D.</span> Fills missing values with 0</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>pd.get_dummies()</code> performs one-hot encoding: it converts each unique value in a categorical column into a separate binary (0/1) column. Despite the confusing name, 'dummies' refers to 'dummy variables' (indicator variables), a statistical term for binary columns.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">In the IQR method, what defines an outlier?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Values more than 1 standard deviation from mean</li><li><span class="mcq-option-label">B.</span> Values below Q1 - 1.5*IQR or above Q3 + 1.5*IQR</li><li><span class="mcq-option-label">C.</span> The top and bottom 5% of values</li><li><span class="mcq-option-label">D.</span> Values that appear only once</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> IQR = Q3 - Q1 (interquartile range). Outliers are values below Q1 - 1.5*IQR or above Q3 + 1.5*IQR. This is based on the data's own distribution, not assumptions about normality.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which of the following algorithms does NOT require feature scaling?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> K-Nearest Neighbors</li><li><span class="mcq-option-label">B.</span> Support Vector Machine</li><li><span class="mcq-option-label">C.</span> Random Forest</li><li><span class="mcq-option-label">D.</span> Neural Network</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Random Forest (and all tree-based models) splits data based on feature thresholds, so the scale does not matter. KNN uses distance (scale matters), SVM uses margin (scale matters), and neural networks use gradient descent (scale affects convergence).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the purpose of stratify=y in train_test_split()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To sort the data before splitting</li><li><span class="mcq-option-label">B.</span> To ensure class distribution in train and test matches the original</li><li><span class="mcq-option-label">C.</span> To scale the target variable</li><li><span class="mcq-option-label">D.</span> To remove outliers before splitting</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>stratify=y</code> ensures the proportion of each class in y is preserved in both train and test sets. If the original has 80% class 0 and 20% class 1, both sets will have approximately the same ratio. Essential for imbalanced datasets.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What happens if you use one-hot encoding on a column with 1000 unique values?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It works perfectly</li><li><span class="mcq-option-label">B.</span> It creates 1000 new columns, causing the curse of dimensionality</li><li><span class="mcq-option-label">C.</span> It raises an error</li><li><span class="mcq-option-label">D.</span> It automatically uses label encoding instead</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> One-hot encoding creates one column per unique value. With 1000 unique values, you get 1000 sparse columns, massively increasing dimensionality. This causes: slower training, more memory usage, and potentially worse performance. For high-cardinality features, use target encoding, frequency encoding, or embeddings instead.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the first step when you receive a new dataset for ML?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Train a model immediately</li><li><span class="mcq-option-label">B.</span> Explore the data (EDA) to understand its structure</li><li><span class="mcq-option-label">C.</span> Scale all features</li><li><span class="mcq-option-label">D.</span> Remove all missing values</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> Always start with EDA: check shape, dtypes, missing values, distributions, correlations. Understanding your data informs all subsequent preprocessing decisions. Training without exploration leads to avoidable mistakes.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What does df.describe() show?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> All rows of the DataFrame</li><li><span class="mcq-option-label">B.</span> Column names and types</li><li><span class="mcq-option-label">C.</span> Statistical summary (count, mean, std, min, quartiles, max) for numerical columns</li><li><span class="mcq-option-label">D.</span> Missing value counts</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>describe()</code> provides count, mean, standard deviation, minimum, 25th percentile (Q1), median (50%), 75th percentile (Q3), and maximum for each numerical column. It is a quick way to spot issues: if min is negative for an age column, something is wrong.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Ananya scales her features before train-test splitting. During evaluation, her model shows 95% accuracy. In production, it only gets 80%. What likely happened?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The model is too complex</li><li><span class="mcq-option-label">B.</span> Data leakage from scaling before splitting inflated the test accuracy</li><li><span class="mcq-option-label">C.</span> The test set was too small</li><li><span class="mcq-option-label">D.</span> She used the wrong scaler</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> Scaling before splitting caused data leakage. The scaler's parameters (mean, std or min, max) included test data statistics, making the model's evaluation unrealistically good. In production, the model encounters truly unseen data and performs worse. The 15% gap is a classic symptom of data leakage.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What type of plot is best for detecting outliers?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Pie chart</li><li><span class="mcq-option-label">B.</span> Line chart</li><li><span class="mcq-option-label">C.</span> Box plot</li><li><span class="mcq-option-label">D.</span> Bar chart</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> Box plots show the median, Q1, Q3, whiskers (1.5*IQR), and individual outlier points beyond the whiskers. They are specifically designed to highlight the distribution and outliers of numerical data.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Why should you NOT scale one-hot encoded columns?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are already in a suitable range (0 and 1)</li><li><span class="mcq-option-label">B.</span> Scaling would remove the encoding</li><li><span class="mcq-option-label">C.</span> One-hot columns cannot be scaled</li><li><span class="mcq-option-label">D.</span> It would make them negative</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: A</strong><br><strong>A is correct.</strong> One-hot encoded columns are already binary (0 or 1). Scaling them with StandardScaler would give them values like -0.7 and 1.4, losing the clear binary meaning. Scale only continuous numerical features, not binary indicator columns.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Missing Value Report Generator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function missing_report(df) that prints: column name, missing count, missing percentage, and suggested fill strategy (median for numeric, mode for categorical) for each column with missing values.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">DataFrame with mixed missing values</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Age: 3 missing (15.0%), Suggested: fill with median
+City: 2 missing (10.0%), Suggested: fill with mode</div>
+                </div><div class="challenge-constraints">Use df.dtypes to determine the strategy.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">import pandas as pd, numpy as np
+
+def missing_report(df):
+    for col in df.columns:
+        missing = df[col].isnull().sum()
+        if missing &gt; 0:
+            pct = missing / len(df) * 100
+            strategy = &#39;median&#39; if df[col].dtype in [&#39;int64&#39;, &#39;float64&#39;] else &#39;mode&#39;
+            print(f&quot;{col}: {missing} missing ({pct:.1f}%), Suggested: fill with {strategy}&quot;)
+
+df = pd.DataFrame({&#39;Name&#39;: [&#39;A&#39;, &#39;B&#39;, None, &#39;D&#39;], &#39;Age&#39;: [20, np.nan, 22, np.nan], &#39;City&#39;: [&#39;Delhi&#39;, None, &#39;Mumbai&#39;, &#39;Pune&#39;]})
+missing_report(df)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Automated Preprocessing Pipeline</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function preprocess(df, target_col) that: (1) separates features and target, (2) fills missing numerical values with median, (3) fills missing categorical values with mode, (4) one-hot encodes categorical columns, (5) splits 80/20 with stratification, (6) scales features. Return X_train, X_test, y_train, y_test.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">DataFrame with mixed types, missing values, target column name</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Preprocessed train and test arrays ready for ML</div>
+                </div><div class="challenge-constraints">Fit scaler on train only. Use random_state=42.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">import pandas as pd, numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
+def preprocess(df, target_col):
+    df = df.copy()
+    for col in df.select_dtypes(include=&#39;number&#39;).columns:
+        df[col] = df[col].fillna(df[col].median())
+    for col in df.select_dtypes(include=&#39;object&#39;).columns:
+        df[col] = df[col].fillna(df[col].mode()[0])
+    cat_cols = df.select_dtypes(include=&#39;object&#39;).columns.tolist()
+    if target_col in cat_cols: cat_cols.remove(target_col)
+    df = pd.get_dummies(df, columns=cat_cols, dtype=int)
+    X = df.drop(target_col, axis=1)
+    y = df[target_col]
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+    scaler = StandardScaler()
+    X_train = scaler.fit_transform(X_train)
+    X_test = scaler.transform(X_test)
+    return X_train, X_test, y_train.values, y_test.values
+
+np.random.seed(42)
+df = pd.DataFrame({&#39;Age&#39;: [25, np.nan, 30, 22, 28, 35, np.nan, 40, 27, 33], &#39;City&#39;: [&#39;D&#39;, &#39;M&#39;, &#39;D&#39;, None, &#39;M&#39;, &#39;P&#39;, &#39;D&#39;, &#39;M&#39;, &#39;P&#39;, &#39;D&#39;], &#39;Bought&#39;: [1, 0, 1, 0, 1, 0, 1, 0, 0, 1]})
+X_tr, X_te, y_tr, y_te = preprocess(df, &#39;Bought&#39;)
+print(f&#39;Train: {X_tr.shape}, Test: {X_te.shape}&#39;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Outlier Detector and Handler</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function that: (1) detects outliers using both IQR and Z-score methods, (2) compares results, (3) removes outliers using IQR method, (4) prints statistics before and after removal. Test on: [10, 12, 11, 13, 14, 12, 11, 100, 13, 12, -50, 14].</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">data = [10, 12, 11, 13, 14, 12, 11, 100, 13, 12, -50, 14]</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">IQR outliers: [-50, 100], Z-score outliers: [-50, 100], After removal: mean changed from X to Y</div>
+                </div><div class="challenge-constraints">Implement both methods. Show the comparison.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">import numpy as np
+
+def detect_outliers(data):
+    data = np.array(data)
+    Q1, Q3 = np.percentile(data, 25), np.percentile(data, 75)
+    IQR = Q3 - Q1
+    iqr_mask = (data &lt; Q1 - 1.5*IQR) | (data &gt; Q3 + 1.5*IQR)
+    z_scores = (data - np.mean(data)) / np.std(data)
+    z_mask = np.abs(z_scores) &gt; 2
+    print(f&#39;IQR method: {data[iqr_mask]}&#39;)
+    print(f&#39;Z-score method: {data[z_mask]}&#39;)
+    clean = data[~iqr_mask]
+    print(f&#39;\nBefore: mean={np.mean(data):.1f}, std={np.std(data):.1f}, n={len(data)}&#39;)
+    print(f&#39;After: mean={np.mean(clean):.1f}, std={np.std(clean):.1f}, n={len(clean)}&#39;)
+    return clean
+
+clean_data = detect_outliers([10, 12, 11, 13, 14, 12, 11, 100, 13, 12, -50, 14])</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Complete EDA Report</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a function eda_report(df) that automatically generates a complete EDA report: (1) shape and types, (2) missing value summary, (3) descriptive statistics, (4) value counts for categorical columns, (5) correlation matrix for numerical columns, (6) saves a visualization with histograms for all numerical columns.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Any DataFrame with mixed types</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Comprehensive EDA report printed and visualization saved</div>
+                </div><div class="challenge-constraints">Must handle any DataFrame. Save plot as &#39;eda_report.png&#39;.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">import pandas as pd, numpy as np
+import matplotlib
+matplotlib.use(&#39;Agg&#39;)
+import matplotlib.pyplot as plt
+
+def eda_report(df):
+    print(&#39;=== Shape ===&#39; )
+    print(f&#39;{df.shape[0]} rows, {df.shape[1]} columns&#39;)
+    print(&#39;\n=== Data Types ===&#39;)
+    print(df.dtypes)
+    print(&#39;\n=== Missing Values ===&#39;)
+    missing = df.isnull().sum()
+    print(missing[missing &gt; 0] if missing.sum() &gt; 0 else &#39;No missing values&#39;)
+    print(&#39;\n=== Numerical Summary ===&#39;)
+    print(df.describe().round(2))
+    cat_cols = df.select_dtypes(include=&#39;object&#39;).columns
+    if len(cat_cols) &gt; 0:
+        print(&#39;\n=== Categorical Columns ===&#39;)
+        for col in cat_cols:
+            print(f&#39;\n{col}: {df[col].nunique()} unique values&#39;)
+            print(df[col].value_counts().head())
+    num_cols = df.select_dtypes(include=&#39;number&#39;).columns
+    if len(num_cols) &gt; 1:
+        print(&#39;\n=== Correlations ===&#39;)
+        print(df[num_cols].corr().round(3))
+    if len(num_cols) &gt; 0:
+        n = len(num_cols)
+        fig, axes = plt.subplots(1, n, figsize=(4*n, 4))
+        if n == 1: axes = [axes]
+        for i, col in enumerate(num_cols):
+            axes[i].hist(df[col].dropna(), bins=15, color=&#39;#a855f7&#39;, edgecolor=&#39;black&#39;)
+            axes[i].set_title(col)
+        plt.tight_layout()
+        plt.savefig(&#39;eda_report.png&#39;)
+        print(&#39;\nHistograms saved as eda_report.png&#39;)
+
+np.random.seed(42)
+df = pd.DataFrame({&#39;Age&#39;: np.random.randint(18, 60, 50).astype(float), &#39;Salary&#39;: np.random.uniform(20000, 100000, 50).round(0), &#39;Dept&#39;: np.random.choice([&#39;CSE&#39;, &#39;ECE&#39;, &#39;IT&#39;], 50)})
+df.loc[5, &#39;Age&#39;] = np.nan
+eda_report(df)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Feature Engineering: Create Derived Features</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given a student DataFrame with columns [Name, Math, Science, English, Attendance], create the following derived features: (1) Total marks, (2) Average marks, (3) Grade (A/B/C/F), (4) Attendance_Category (Low/Medium/High), (5) Is_Top_Performer (True if avg > 85 and attendance > 90). Print the enhanced DataFrame.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">5 students with marks and attendance data</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Enhanced DataFrame with 5 new derived features</div>
+                </div><div class="challenge-constraints">Use Pandas operations. No manual row-by-row computation.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">import pandas as pd
+
+df = pd.DataFrame({
+    &#39;Name&#39;: [&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Rohan&#39;, &#39;Ananya&#39;, &#39;Vikram&#39;],
+    &#39;Math&#39;: [92, 78, 45, 88, 95],
+    &#39;Science&#39;: [88, 82, 50, 91, 90],
+    &#39;English&#39;: [85, 90, 55, 86, 88],
+    &#39;Attendance&#39;: [95, 75, 60, 92, 98]
+})
+
+subjects = [&#39;Math&#39;, &#39;Science&#39;, &#39;English&#39;]
+df[&#39;Total&#39;] = df[subjects].sum(axis=1)
+df[&#39;Average&#39;] = (df[&#39;Total&#39;] / 3).round(1)
+df[&#39;Grade&#39;] = df[&#39;Average&#39;].apply(lambda x: &#39;A&#39; if x &gt;= 85 else &#39;B&#39; if x &gt;= 70 else &#39;C&#39; if x &gt;= 50 else &#39;F&#39;)
+df[&#39;Att_Category&#39;] = pd.cut(df[&#39;Attendance&#39;], bins=[0, 70, 85, 100], labels=[&#39;Low&#39;, &#39;Medium&#39;, &#39;High&#39;])
+df[&#39;Is_Top&#39;] = (df[&#39;Average&#39;] &gt; 85) &amp; (df[&#39;Attendance&#39;] &gt; 90)
+
+print(df.to_string(index=False))</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/ai-and-machine-learning/mathematics-for-ml/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Mathematics for Machine Learning</span>
+        </a>
+            <a href="/resources/ai-and-machine-learning/linear-regression/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Linear Regression - Your First ML Algorithm</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/ai-and-machine-learning/data-preprocessing-and-eda" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn AI and ML with a live mentor?</p>
+            <a href="/courses/ai-ml-masterclass-complete-college" class="cta-button-outline">Explore our AI/ML Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

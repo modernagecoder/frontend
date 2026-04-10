@@ -1,0 +1,495 @@
+{
+  "title": "Abstract Classes, Pure Virtual Functions, and Interfaces",
+  "slug": "abstraction-and-interfaces",
+  "language": "cpp",
+  "chapter": 17,
+  "difficulty": "Advanced",
+  "readingTime": "45 min",
+  "lastUpdated": "2026-04-10",
+  "totalQuestions": 52,
+  "seo": {
+    "title": "Abstract Classes and Interfaces in C++ - Pure Virtual Functions, Abstract Destructor | Modern Age Coders",
+    "description": "Master abstract classes in C++ including pure virtual functions, interface pattern (all pure virtual), abstract vs concrete classes, multiple interface inheritance, abstract destructor pattern, and real-world design with Shape/Animal hierarchies. 52+ practice questions.",
+    "keywords": "c++ abstract class, pure virtual function c++, c++ interface, abstract vs concrete class c++, multiple inheritance interfaces c++, abstract destructor c++, c++ abstraction interview questions, c++ design patterns abstract class"
+  },
+  "content": {
+    "what": "<h2>What Are Abstract Classes and Interfaces in C++?</h2><p>An <strong>abstract class</strong> in C++ is a class that has at least one <strong>pure virtual function</strong>. A pure virtual function is declared with <code>= 0</code> and has no implementation in the base class (though it can optionally have one). You cannot create objects of an abstract class directly.</p><pre><code>class Shape {\npublic:\n    virtual double area() const = 0;   // Pure virtual: Shape is abstract\n    virtual string name() const = 0;   // Another pure virtual\n    virtual ~Shape() {}                // Virtual destructor (not pure)\n};\n\n// Shape s;  // Error: cannot instantiate abstract class\n\nclass Circle : public Shape {\n    double radius;\npublic:\n    Circle(double r) : radius(r) {}\n    double area() const override { return 3.14159 * radius * radius; }\n    string name() const override { return \"Circle\"; }\n};\n\nCircle c(5);  // OK: Circle implements all pure virtual functions</code></pre><p>An <strong>interface</strong> in C++ is a class where <em>all</em> functions are pure virtual and there are no data members (other than possibly a virtual destructor). Unlike Java or C#, C++ does not have a dedicated <code>interface</code> keyword. Instead, the convention is to use abstract classes with only pure virtual functions.</p><pre><code>// Interface pattern in C++\nclass Printable {\npublic:\n    virtual void print() const = 0;\n    virtual ~Printable() {}\n};\n\nclass Serializable {\npublic:\n    virtual string serialize() const = 0;\n    virtual ~Serializable() {}\n};\n\n// A class can implement multiple interfaces\nclass Document : public Printable, public Serializable {\npublic:\n    void print() const override { cout &lt;&lt; \"Printing document\" &lt;&lt; endl; }\n    string serialize() const override { return \"{\\\"type\\\":\\\"doc\\\"}\"; }\n};</code></pre><p>A <strong>concrete class</strong> is a class that implements all pure virtual functions from its base classes and can be instantiated.</p>",
+    "why": "<h2>Why Do Abstract Classes and Interfaces Matter?</h2><p>Abstraction is one of the four pillars of Object-Oriented Programming. It lets you define a contract (what a class must do) without specifying how it does it. This separation of interface from implementation is fundamental to good software design.</p><h3>1. Enforcing a Contract</h3><p>When Arjun defines <code>Shape</code> with pure virtual <code>area()</code> and <code>draw()</code>, he guarantees that every concrete shape class (<code>Circle</code>, <code>Rectangle</code>, <code>Triangle</code>) will implement these methods. Forgetting to implement one is a compile-time error, not a runtime bug.</p><h3>2. Enabling Polymorphism Without Default Behavior</h3><p>Sometimes there is no meaningful default implementation. What should <code>Shape::area()</code> return? Zero? That is misleading. Making it pure virtual says: \"there is no generic area; every shape must compute its own.\" This is clearer than returning a placeholder value.</p><h3>3. Multiple Interface Inheritance</h3><p>C++ supports multiple inheritance. When Kavya has separate interfaces like <code>Printable</code>, <code>Serializable</code>, and <code>Comparable</code>, a class can implement any combination. This is much more flexible than single inheritance and is the C++ answer to Java interfaces.</p><h3>4. Framework and Plugin Architecture</h3><p>Abstract classes define extension points. When Ravi writes a plugin system, the base interface defines what every plugin must provide. New plugins can be added without changing existing code. This is the Open-Closed Principle in practice.</p><h3>5. Interview and Design Round Essential</h3><p>Questions about abstract classes vs interfaces, when to use each, the diamond problem with multiple inheritance, and designing class hierarchies with abstraction appear in every OOP design interview at companies like Google, Amazon, Microsoft, and top Indian startups.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Pure Virtual Functions</h3><p>A pure virtual function is declared with <code>= 0</code>:</p><pre><code>class Animal {\npublic:\n    virtual void sound() = 0;   // Pure virtual\n    virtual void eat() = 0;     // Pure virtual\n    virtual ~Animal() {}        // Virtual destructor (not pure)\n};</code></pre><p>Key points about pure virtual functions:</p><ul><li>Any class with at least one pure virtual function is abstract</li><li>Abstract classes cannot be instantiated</li><li>Derived classes MUST override all pure virtual functions to be concrete</li><li>A pure virtual function CAN have a definition in the base class (the class is still abstract)</li><li>The derived class can call the base definition using <code>Base::func()</code></li></ul><pre><code>// Pure virtual function WITH a definition\nclass Base {\npublic:\n    virtual void show() = 0;  // Still makes Base abstract\n    virtual ~Base() {}\n};\n\nvoid Base::show() {  // Definition outside the class\n    cout &lt;&lt; \"Base default implementation\" &lt;&lt; endl;\n}\n\nclass Derived : public Base {\npublic:\n    void show() override {\n        Base::show();  // Can call the base definition\n        cout &lt;&lt; \"Derived additional behavior\" &lt;&lt; endl;\n    }\n};</code></pre><h3>2. Abstract vs Concrete Classes</h3><table><tr><th>Feature</th><th>Abstract Class</th><th>Concrete Class</th></tr><tr><td>Pure virtual functions</td><td>Has at least one</td><td>Has none (all implemented)</td></tr><tr><td>Instantiation</td><td>Cannot create objects</td><td>Can create objects</td></tr><tr><td>Purpose</td><td>Define contract/interface</td><td>Provide full implementation</td></tr><tr><td>Pointers/References</td><td>Can have pointers to abstract type</td><td>Can have objects, pointers, or references</td></tr></table><h3>3. Interfaces in C++ (Convention)</h3><p>C++ does not have an <code>interface</code> keyword. The convention is:</p><pre><code>// Interface: ALL functions are pure virtual, no data members\nclass IDrawable {\npublic:\n    virtual void draw() const = 0;\n    virtual void resize(double factor) = 0;\n    virtual ~IDrawable() {}\n};\n\nclass IClickable {\npublic:\n    virtual void onClick() = 0;\n    virtual bool isInside(int x, int y) const = 0;\n    virtual ~IClickable() {}\n};</code></pre><p>Naming convention: prefix with <code>I</code> (like <code>IDrawable</code>, <code>ISerializable</code>) to distinguish interfaces from abstract classes with partial implementations. This is a style choice, not a language requirement.</p><h3>4. Implementing Multiple Interfaces</h3><p>A class can inherit from multiple interface classes. This is the safe form of multiple inheritance because interfaces have no data members to cause ambiguity:</p><pre><code>class Button : public IDrawable, public IClickable {\n    int x, y, width, height;\npublic:\n    Button(int x, int y, int w, int h) : x(x), y(y), width(w), height(h) {}\n\n    void draw() const override { cout &lt;&lt; \"Drawing button at (\" &lt;&lt; x &lt;&lt; \",\" &lt;&lt; y &lt;&lt; \")\" &lt;&lt; endl; }\n    void resize(double factor) override { width *= factor; height *= factor; }\n    void onClick() override { cout &lt;&lt; \"Button clicked!\" &lt;&lt; endl; }\n    bool isInside(int px, int py) const override {\n        return px &gt;= x &amp;&amp; px &lt;= x+width &amp;&amp; py &gt;= y &amp;&amp; py &lt;= y+height;\n    }\n};</code></pre><h3>5. Abstract Destructor Pattern</h3><p>Sometimes you want a class to be abstract but all its functions have meaningful implementations. You can make the destructor pure virtual (while still providing a definition):</p><pre><code>class AbstractBase {\npublic:\n    virtual ~AbstractBase() = 0;  // Pure virtual destructor\n    void commonMethod() { cout &lt;&lt; \"Common\" &lt;&lt; endl; }\n};\n\nAbstractBase::~AbstractBase() {}  // Must provide definition!\n\nclass Concrete : public AbstractBase {\npublic:\n    ~Concrete() override { cout &lt;&lt; \"~Concrete\" &lt;&lt; endl; }\n};\n\n// AbstractBase a;  // Error: abstract\nConcrete c;         // OK</code></pre><p>The pure virtual destructor MUST have a definition (outside the class) because destructors are always called in the chain. Without the definition, you get a linker error.</p><h3>6. Partially Abstract Classes</h3><p>An abstract class can have a mix of pure virtual functions, regular virtual functions, and non-virtual functions:</p><pre><code>class Database {\npublic:\n    // Pure virtual: each DB must implement\n    virtual void connect(const string&amp; url) = 0;\n    virtual void query(const string&amp; sql) = 0;\n    virtual void close() = 0;\n\n    // Regular virtual: has default but can be overridden\n    virtual void logQuery(const string&amp; sql) {\n        cout &lt;&lt; \"[LOG] \" &lt;&lt; sql &lt;&lt; endl;\n    }\n\n    // Non-virtual: same for all databases\n    void printStatus() {\n        cout &lt;&lt; \"Database active\" &lt;&lt; endl;\n    }\n\n    virtual ~Database() {}\n};</code></pre><h3>7. When a Derived Class Does Not Implement All Pure Virtuals</h3><p>If a derived class does not override all pure virtual functions, it is also abstract:</p><pre><code>class Shape {\npublic:\n    virtual double area() const = 0;\n    virtual void draw() const = 0;\n    virtual ~Shape() {}\n};\n\nclass PartialShape : public Shape {\npublic:\n    double area() const override { return 0; }  // Only one implemented\n    // draw() is NOT implemented: PartialShape is still abstract\n};\n\n// PartialShape ps;  // Error: still abstract\n\nclass FullShape : public PartialShape {\npublic:\n    void draw() const override { cout &lt;&lt; \"Drawing\" &lt;&lt; endl; }\n};\n\nFullShape fs;  // OK: all pure virtuals now implemented</code></pre><h3>8. Real-World Design Example: Vehicle Hierarchy</h3><pre><code>class IEngine {\npublic:\n    virtual void start() = 0;\n    virtual void stop() = 0;\n    virtual int horsepower() const = 0;\n    virtual ~IEngine() {}\n};\n\nclass IElectric {\npublic:\n    virtual int batteryLevel() const = 0;\n    virtual void charge() = 0;\n    virtual ~IElectric() {}\n};\n\nclass PetrolEngine : public IEngine {\npublic:\n    void start() override { cout &lt;&lt; \"Petrol engine started\" &lt;&lt; endl; }\n    void stop() override { cout &lt;&lt; \"Petrol engine stopped\" &lt;&lt; endl; }\n    int horsepower() const override { return 150; }\n};\n\nclass ElectricCar : public IEngine, public IElectric {\n    int battery;\npublic:\n    ElectricCar() : battery(100) {}\n    void start() override { cout &lt;&lt; \"Electric motor started silently\" &lt;&lt; endl; }\n    void stop() override { cout &lt;&lt; \"Electric motor stopped\" &lt;&lt; endl; }\n    int horsepower() const override { return 200; }\n    int batteryLevel() const override { return battery; }\n    void charge() override { battery = 100; cout &lt;&lt; \"Charging complete\" &lt;&lt; endl; }\n};</code></pre>",
+    "codeExamples": [
+      {
+        "title": "Abstract Class with Pure Virtual Functions",
+        "code": "#include <iostream>\n#include <cmath>\nusing namespace std;\n\nclass Shape {\npublic:\n    virtual double area() const = 0;\n    virtual double perimeter() const = 0;\n    virtual string name() const = 0;\n    virtual ~Shape() {}\n\n    void describe() const {\n        cout << name() << \": area=\" << area() << \", perimeter=\" << perimeter() << endl;\n    }\n};\n\nclass Circle : public Shape {\n    double r;\npublic:\n    Circle(double r) : r(r) {}\n    double area() const override { return M_PI * r * r; }\n    double perimeter() const override { return 2 * M_PI * r; }\n    string name() const override { return \"Circle\"; }\n};\n\nclass Rectangle : public Shape {\n    double w, h;\npublic:\n    Rectangle(double w, double h) : w(w), h(h) {}\n    double area() const override { return w * h; }\n    double perimeter() const override { return 2 * (w + h); }\n    string name() const override { return \"Rectangle\"; }\n};\n\nint main() {\n    Shape* shapes[] = { new Circle(5), new Rectangle(4, 6) };\n    for (int i = 0; i < 2; i++) {\n        shapes[i]->describe();\n        delete shapes[i];\n    }\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>Shape</code> is abstract because it has three pure virtual functions. <code>Circle</code> and <code>Rectangle</code> are concrete because they implement all three. The non-virtual <code>describe()</code> calls the virtual functions, demonstrating that non-virtual methods in an abstract class can use virtual dispatch internally.",
+        "output": "Circle: area=78.5398, perimeter=31.4159\nRectangle: area=24, perimeter=20"
+      },
+      {
+        "title": "Interface Pattern: Multiple Interface Inheritance",
+        "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass IPrintable {\npublic:\n    virtual void print() const = 0;\n    virtual ~IPrintable() {}\n};\n\nclass ISerializable {\npublic:\n    virtual string serialize() const = 0;\n    virtual ~ISerializable() {}\n};\n\nclass IComparable {\npublic:\n    virtual int compareTo(const IComparable& other) const = 0;\n    virtual ~IComparable() {}\n};\n\nclass Student : public IPrintable, public ISerializable, public IComparable {\n    string name;\n    int marks;\npublic:\n    Student(string n, int m) : name(n), marks(m) {}\n\n    void print() const override {\n        cout << name << \" (\" << marks << \")\" << endl;\n    }\n\n    string serialize() const override {\n        return \"{\\\"name\\\":\\\"\" + name + \"\\\",\\\"marks\\\":\" + to_string(marks) + \"}\";\n    }\n\n    int compareTo(const IComparable& other) const override {\n        const Student& s = dynamic_cast<const Student&>(other);\n        return marks - s.marks;\n    }\n};\n\nint main() {\n    Student s1(\"Arjun\", 92), s2(\"Kavya\", 88);\n\n    s1.print();\n    s2.print();\n\n    cout << \"s1 serialized: \" << s1.serialize() << endl;\n\n    int cmp = s1.compareTo(s2);\n    if (cmp > 0) cout << \"Arjun scored higher\" << endl;\n    else if (cmp < 0) cout << \"Kavya scored higher\" << endl;\n    else cout << \"Same marks\" << endl;\n\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>Student</code> inherits from three interfaces: <code>IPrintable</code>, <code>ISerializable</code>, and <code>IComparable</code>. Each interface defines a single capability. This is the C++ equivalent of implementing multiple interfaces in Java. The class must implement all pure virtual functions from all interfaces.",
+        "output": "Arjun (92)\nKavya (88)\ns1 serialized: {\"name\":\"Arjun\",\"marks\":92}\nArjun scored higher"
+      },
+      {
+        "title": "Pure Virtual Function WITH a Definition",
+        "code": "#include <iostream>\nusing namespace std;\n\nclass Logger {\npublic:\n    virtual void log(const string& msg) = 0;  // Pure virtual\n    virtual ~Logger() {}\n};\n\nvoid Logger::log(const string& msg) {\n    cout << \"[DEFAULT] \" << msg << endl;\n}\n\nclass ConsoleLogger : public Logger {\npublic:\n    void log(const string& msg) override {\n        Logger::log(msg);  // Call base definition\n        cout << \"[CONSOLE] \" << msg << endl;\n    }\n};\n\nclass FileLogger : public Logger {\npublic:\n    void log(const string& msg) override {\n        cout << \"[FILE] \" << msg << endl;\n    }\n};\n\nint main() {\n    Logger* loggers[] = { new ConsoleLogger(), new FileLogger() };\n    for (int i = 0; i < 2; i++) {\n        loggers[i]->log(\"Server started\");\n        cout << \"---\" << endl;\n        delete loggers[i];\n    }\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "A pure virtual function CAN have a definition. <code>Logger::log()</code> is pure virtual (making Logger abstract), but it also has a body defined outside the class. <code>ConsoleLogger</code> calls <code>Logger::log(msg)</code> to use the default behavior before adding its own. <code>FileLogger</code> ignores the base definition entirely.",
+        "output": "[DEFAULT] Server started\n[CONSOLE] Server started\n---\n[FILE] Server started\n---"
+      },
+      {
+        "title": "Abstract Destructor Pattern",
+        "code": "#include <iostream>\nusing namespace std;\n\nclass AbstractBase {\npublic:\n    virtual ~AbstractBase() = 0;  // Pure virtual destructor\n    void commonWork() { cout << \"Doing common work\" << endl; }\n};\n\nAbstractBase::~AbstractBase() {\n    cout << \"~AbstractBase\" << endl;\n}\n\nclass ConcreteA : public AbstractBase {\npublic:\n    ~ConcreteA() override { cout << \"~ConcreteA\" << endl; }\n};\n\nclass ConcreteB : public AbstractBase {\npublic:\n    ~ConcreteB() override { cout << \"~ConcreteB\" << endl; }\n};\n\nint main() {\n    AbstractBase* a = new ConcreteA();\n    AbstractBase* b = new ConcreteB();\n    a->commonWork();\n    b->commonWork();\n    delete a;\n    cout << \"---\" << endl;\n    delete b;\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "When you want a class to be abstract but all its methods have implementations, make the destructor pure virtual. The pure virtual destructor MUST have a definition (outside the class body) because destructors are always called in the chain. Without the definition, you get a linker error.",
+        "output": "Doing common work\nDoing common work\n~ConcreteA\n~AbstractBase\n---\n~ConcreteB\n~AbstractBase"
+      },
+      {
+        "title": "Partially Abstract Derived Class",
+        "code": "#include <iostream>\nusing namespace std;\n\nclass Animal {\npublic:\n    virtual void sound() const = 0;\n    virtual void move() const = 0;\n    virtual string habitat() const = 0;\n    virtual ~Animal() {}\n};\n\nclass DomesticAnimal : public Animal {\npublic:\n    string habitat() const override { return \"Home\"; }\n    // sound() and move() still pure virtual: DomesticAnimal is abstract\n};\n\nclass Dog : public DomesticAnimal {\npublic:\n    void sound() const override { cout << \"Bark\" << endl; }\n    void move() const override { cout << \"Runs on 4 legs\" << endl; }\n};\n\nclass Cat : public DomesticAnimal {\npublic:\n    void sound() const override { cout << \"Meow\" << endl; }\n    void move() const override { cout << \"Walks silently\" << endl; }\n};\n\nint main() {\n    Animal* pets[] = { new Dog(), new Cat() };\n    for (int i = 0; i < 2; i++) {\n        pets[i]->sound();\n        pets[i]->move();\n        cout << \"Habitat: \" << pets[i]->habitat() << endl;\n        cout << \"---\" << endl;\n        delete pets[i];\n    }\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>DomesticAnimal</code> only implements <code>habitat()</code>, leaving <code>sound()</code> and <code>move()</code> pure virtual. So <code>DomesticAnimal</code> is still abstract. <code>Dog</code> and <code>Cat</code> implement the remaining pure virtual functions, making them concrete. This shows a multi-level abstraction hierarchy.",
+        "output": "Bark\nRuns on 4 legs\nHabitat: Home\n---\nMeow\nWalks silently\nHabitat: Home\n---"
+      },
+      {
+        "title": "Real-World Design: Plugin System with Interfaces",
+        "code": "#include <iostream>\n#include <vector>\n#include <string>\nusing namespace std;\n\nclass IPlugin {\npublic:\n    virtual string name() const = 0;\n    virtual void initialize() = 0;\n    virtual void execute() = 0;\n    virtual void shutdown() = 0;\n    virtual ~IPlugin() {}\n};\n\nclass LoggingPlugin : public IPlugin {\npublic:\n    string name() const override { return \"LoggingPlugin\"; }\n    void initialize() override { cout << \"Logger initialized\" << endl; }\n    void execute() override { cout << \"Logging events...\" << endl; }\n    void shutdown() override { cout << \"Logger shut down\" << endl; }\n};\n\nclass AuthPlugin : public IPlugin {\npublic:\n    string name() const override { return \"AuthPlugin\"; }\n    void initialize() override { cout << \"Auth module loaded\" << endl; }\n    void execute() override { cout << \"Authenticating user...\" << endl; }\n    void shutdown() override { cout << \"Auth module unloaded\" << endl; }\n};\n\nclass PluginManager {\n    vector<IPlugin*> plugins;\npublic:\n    void addPlugin(IPlugin* p) { plugins.push_back(p); }\n\n    void runAll() {\n        for (auto* p : plugins) {\n            cout << \"[\" << p->name() << \"]\" << endl;\n            p->initialize();\n            p->execute();\n            p->shutdown();\n            cout << endl;\n        }\n    }\n\n    ~PluginManager() {\n        for (auto* p : plugins) delete p;\n    }\n};\n\nint main() {\n    PluginManager mgr;\n    mgr.addPlugin(new LoggingPlugin());\n    mgr.addPlugin(new AuthPlugin());\n    mgr.runAll();\n    return 0;\n}",
+        "language": "cpp",
+        "explanation": "<code>IPlugin</code> is a pure interface defining what every plugin must provide. <code>PluginManager</code> works with <code>IPlugin*</code> pointers and knows nothing about specific plugin types. New plugins can be added without modifying the manager. This is the Open-Closed Principle enabled by abstraction.",
+        "output": "[LoggingPlugin]\nLogger initialized\nLogging events...\nLogger shut down\n\n[AuthPlugin]\nAuth module loaded\nAuthenticating user...\nAuth module unloaded"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Trying to Instantiate an Abstract Class",
+        "wrongCode": "class Shape {\npublic:\n    virtual double area() const = 0;\n    virtual ~Shape() {}\n};\n\nShape s;  // Compilation error!",
+        "error": "Compilation error: cannot declare variable 's' to be of abstract type 'Shape'. Shape has a pure virtual function area().",
+        "correctCode": "class Shape {\npublic:\n    virtual double area() const = 0;\n    virtual ~Shape() {}\n};\n\nclass Circle : public Shape {\n    double r;\npublic:\n    Circle(double r) : r(r) {}\n    double area() const override { return 3.14159 * r * r; }\n};\n\nShape* s = new Circle(5);  // OK: pointer to abstract type, concrete object\ncout << s->area() << endl;\ndelete s;",
+        "explanation": "Abstract classes cannot be instantiated. You can have pointers and references to an abstract type, but the actual object must be of a concrete derived class that implements all pure virtual functions."
+      },
+      {
+        "title": "Forgetting to Implement All Pure Virtual Functions",
+        "wrongCode": "class Animal {\npublic:\n    virtual void sound() = 0;\n    virtual void move() = 0;\n    virtual ~Animal() {}\n};\n\nclass Dog : public Animal {\npublic:\n    void sound() override { cout << \"Bark\" << endl; }\n    // move() not implemented!\n};\n\nDog d;  // Compilation error!",
+        "error": "Compilation error: cannot declare variable 'd' to be of abstract type 'Dog'. Dog does not implement move().",
+        "correctCode": "class Dog : public Animal {\npublic:\n    void sound() override { cout << \"Bark\" << endl; }\n    void move() override { cout << \"Runs\" << endl; }  // Now complete\n};\n\nDog d;  // OK",
+        "explanation": "A derived class must implement ALL pure virtual functions from its base class to be concrete. If even one is missing, the derived class is also abstract and cannot be instantiated."
+      },
+      {
+        "title": "Missing Definition for Pure Virtual Destructor",
+        "wrongCode": "class Base {\npublic:\n    virtual ~Base() = 0;  // Pure virtual destructor\n};\n// No definition provided!\n\nclass Derived : public Base {\npublic:\n    ~Derived() override {}\n};\n\nDerived d;  // Linker error!",
+        "error": "Linker error: undefined reference to 'Base::~Base()'. The destructor is called in the chain but has no definition.",
+        "correctCode": "class Base {\npublic:\n    virtual ~Base() = 0;\n};\n\nBase::~Base() {}  // Definition required!\n\nclass Derived : public Base {\npublic:\n    ~Derived() override {}\n};\n\nDerived d;  // OK",
+        "explanation": "A pure virtual destructor MUST have a definition (outside the class). Destructors are always called in the inheritance chain, so even a pure virtual destructor needs a body. Without it, the linker cannot resolve the call."
+      },
+      {
+        "title": "Confusing Abstract Class with Interface",
+        "wrongCode": "// This is NOT a proper interface: it has data members and implementation\nclass ILogger {\n    string logFile;  // Data member in an \"interface\"!\npublic:\n    virtual void log(const string& msg) {\n        cout << msg << endl;  // Implementation in an \"interface\"!\n    }\n    virtual ~ILogger() {}\n};",
+        "error": "No compilation error, but this violates the interface convention. It has data members and a non-pure virtual function, making it an abstract class with partial implementation, not an interface.",
+        "correctCode": "// Proper interface: only pure virtual functions and virtual destructor\nclass ILogger {\npublic:\n    virtual void log(const string& msg) = 0;  // Pure virtual\n    virtual void setLevel(int level) = 0;      // Pure virtual\n    virtual ~ILogger() {}\n};\n\n// Abstract class with partial implementation (NOT an interface)\nclass AbstractLogger : public ILogger {\nprotected:\n    int level;\npublic:\n    AbstractLogger(int lvl) : level(lvl) {}\n    void setLevel(int lvl) override { level = lvl; }\n    // log() still pure virtual\n};",
+        "explanation": "An interface in C++ should have only pure virtual functions and a virtual destructor (no data members, no implementation). If you need data or partial implementation, use an abstract class that inherits from the interface."
+      },
+      {
+        "title": "Slicing with Abstract Class References",
+        "wrongCode": "class Shape {\npublic:\n    virtual double area() const = 0;\n    virtual ~Shape() {}\n};\n\nclass Circle : public Shape {\n    double r;\npublic:\n    Circle(double r) : r(r) {}\n    double area() const override { return 3.14159 * r * r; }\n};\n\nvoid printArea(Shape s) {  // Cannot compile!\n    cout << s.area() << endl;\n}",
+        "error": "Compilation error: cannot declare parameter 's' to be of abstract type 'Shape'. You cannot pass an abstract class by value.",
+        "correctCode": "void printArea(const Shape& s) {  // Pass by reference\n    cout << s.area() << endl;\n}\n\nCircle c(5);\nprintArea(c);  // Works: no slicing, polymorphism preserved",
+        "explanation": "You cannot pass an abstract class by value because that would require creating a copy of an abstract type, which is impossible. Always use references or pointers with abstract classes. This is actually a benefit: the compiler forces you to avoid slicing."
+      }
+    ],
+    "summary": [
+      "An abstract class has at least one pure virtual function (declared with = 0). It cannot be instantiated directly.",
+      "A pure virtual function forces derived classes to provide an implementation. If a derived class does not implement all pure virtuals, it is also abstract.",
+      "A pure virtual function CAN have a definition in the base class. Derived classes can call it via Base::func(). The class is still abstract.",
+      "A concrete class implements all pure virtual functions from its base classes and can be instantiated.",
+      "An interface in C++ is a class with only pure virtual functions and a virtual destructor. C++ does not have an interface keyword.",
+      "Multiple interface inheritance is the safe form of multiple inheritance. Since interfaces have no data members, there is no diamond problem ambiguity.",
+      "The abstract destructor pattern (virtual ~Base() = 0 with external definition) makes a class abstract when all its methods have implementations.",
+      "A pure virtual destructor MUST have a definition outside the class. Destructors are always called in the chain, so the linker needs the body.",
+      "Abstract classes can have non-virtual functions, data members, and regular virtual functions alongside pure virtual functions (partially abstract).",
+      "You cannot pass an abstract class by value. Always use pointers or references. This naturally prevents the slicing problem.",
+      "Interfaces enable the Open-Closed Principle: code depends on abstractions, not concrete types. New implementations can be added without changing existing code."
+    ]
+  },
+  "relatedTopics": ["polymorphism-in-cpp", "templates-in-cpp"],
+  "practice": {
+    "totalQuestions": 52,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What happens when you try to compile this code?<br><pre><code>class Animal {\npublic:\n    virtual void sound() = 0;\n    virtual ~Animal() {}\n};\n\nint main() {\n    Animal a;\n    return 0;\n}</code></pre>",
+        "hint": "Animal has a pure virtual function. Can you create an object of it?",
+        "answer": "Compilation error: cannot declare variable 'a' to be of abstract type 'Animal'.",
+        "explanation": "<code>Animal</code> is abstract because it has a pure virtual function <code>sound()</code>. Abstract classes cannot be instantiated. You need a concrete derived class that implements <code>sound()</code>."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Shape {\npublic:\n    virtual double area() const = 0;\n    virtual ~Shape() {}\n};\nclass Square : public Shape {\n    double side;\npublic:\n    Square(double s) : side(s) {}\n    double area() const override { return side * side; }\n};\nint main() {\n    Shape* s = new Square(5);\n    cout &lt;&lt; s-&gt;area() &lt;&lt; endl;\n    delete s;\n    return 0;\n}</code></pre>",
+        "hint": "Square implements area(), so it is concrete. The pointer type is Shape*.",
+        "answer": "<code>25</code>",
+        "explanation": "<code>Square</code> implements <code>area()</code>, making it concrete. Through the <code>Shape*</code> pointer, the vtable dispatches to <code>Square::area()</code>, which returns 5 * 5 = 25."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Does this code compile?<br><pre><code>class Printable {\npublic:\n    virtual void print() const = 0;\n    virtual ~Printable() {}\n};\nclass Report : public Printable {\n    // print() not implemented\n};\nint main() {\n    Report r;\n    return 0;\n}</code></pre>",
+        "hint": "Report does not implement print(). Is it still abstract?",
+        "answer": "Compilation error: cannot declare variable 'r' to be of abstract type 'Report'.",
+        "explanation": "<code>Report</code> inherits <code>print()</code> as pure virtual from <code>Printable</code> but does not implement it. So <code>Report</code> is also abstract and cannot be instantiated."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Vehicle {\npublic:\n    virtual void start() = 0;\n    void honk() { cout &lt;&lt; \"Beep!\" &lt;&lt; endl; }\n    virtual ~Vehicle() {}\n};\nclass Car : public Vehicle {\npublic:\n    void start() override { cout &lt;&lt; \"Car started\" &lt;&lt; endl; }\n};\nint main() {\n    Car c;\n    c.start();\n    c.honk();\n    return 0;\n}</code></pre>",
+        "hint": "honk() is a non-virtual function in the abstract class. Car inherits it.",
+        "answer": "<code>Car started</code><br><code>Beep!</code>",
+        "explanation": "<code>Car</code> implements <code>start()</code> and inherits the non-virtual <code>honk()</code> from <code>Vehicle</code>. Abstract classes can have non-virtual functions with implementations."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass IGreeter {\npublic:\n    virtual void greet(const string&amp; name) const = 0;\n    virtual ~IGreeter() {}\n};\nclass FormalGreeter : public IGreeter {\npublic:\n    void greet(const string&amp; name) const override {\n        cout &lt;&lt; \"Good morning, \" &lt;&lt; name &lt;&lt; endl;\n    }\n};\nclass CasualGreeter : public IGreeter {\npublic:\n    void greet(const string&amp; name) const override {\n        cout &lt;&lt; \"Hey, \" &lt;&lt; name &lt;&lt; \"!\" &lt;&lt; endl;\n    }\n};\nint main() {\n    IGreeter* g1 = new FormalGreeter();\n    IGreeter* g2 = new CasualGreeter();\n    g1-&gt;greet(\"Arjun\");\n    g2-&gt;greet(\"Kavya\");\n    delete g1; delete g2;\n    return 0;\n}</code></pre>",
+        "hint": "Two concrete classes implementing the same interface, called through interface pointers.",
+        "answer": "<code>Good morning, Arjun</code><br><code>Hey, Kavya!</code>",
+        "explanation": "Both classes implement the <code>IGreeter</code> interface. Through <code>IGreeter*</code> pointers, virtual dispatch calls the correct <code>greet()</code> for each concrete type."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\npublic:\n    virtual void show() = 0;\n    virtual ~Base() {}\n};\nvoid Base::show() {\n    cout &lt;&lt; \"Base default\" &lt;&lt; endl;\n}\nclass Derived : public Base {\npublic:\n    void show() override {\n        Base::show();\n        cout &lt;&lt; \"Derived extra\" &lt;&lt; endl;\n    }\n};\nint main() {\n    Derived d;\n    d.show();\n    return 0;\n}</code></pre>",
+        "hint": "A pure virtual function can have a definition. Derived calls it with Base::show().",
+        "answer": "<code>Base default</code><br><code>Derived extra</code>",
+        "explanation": "Even though <code>Base::show()</code> is pure virtual, it has a definition outside the class. <code>Derived::show()</code> explicitly calls <code>Base::show()</code> to use the default behavior, then adds its own."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass AbstractBase {\npublic:\n    virtual ~AbstractBase() = 0;\n    void work() { cout &lt;&lt; \"Working\" &lt;&lt; endl; }\n};\nAbstractBase::~AbstractBase() { cout &lt;&lt; \"~AbstractBase\" &lt;&lt; endl; }\n\nclass Concrete : public AbstractBase {\npublic:\n    ~Concrete() override { cout &lt;&lt; \"~Concrete\" &lt;&lt; endl; }\n};\nint main() {\n    AbstractBase* p = new Concrete();\n    p-&gt;work();\n    delete p;\n    return 0;\n}</code></pre>",
+        "hint": "Pure virtual destructor makes the class abstract. It still needs a definition.",
+        "answer": "<code>Working</code><br><code>~Concrete</code><br><code>~AbstractBase</code>",
+        "explanation": "The pure virtual destructor makes <code>AbstractBase</code> abstract. <code>work()</code> is a regular non-virtual function. On <code>delete p</code>, the destructor chain runs: <code>~Concrete()</code> first, then <code>~AbstractBase()</code>."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass IPrint {\npublic:\n    virtual void print() const = 0;\n    virtual ~IPrint() {}\n};\nclass ISave {\npublic:\n    virtual void save() const = 0;\n    virtual ~ISave() {}\n};\nclass Doc : public IPrint, public ISave {\n    string content;\npublic:\n    Doc(string c) : content(c) {}\n    void print() const override { cout &lt;&lt; \"Print: \" &lt;&lt; content &lt;&lt; endl; }\n    void save() const override { cout &lt;&lt; \"Save: \" &lt;&lt; content &lt;&lt; endl; }\n};\nint main() {\n    Doc d(\"Hello World\");\n    IPrint* p = &amp;d;\n    ISave* s = &amp;d;\n    p-&gt;print();\n    s-&gt;save();\n    return 0;\n}</code></pre>",
+        "hint": "Doc implements two interfaces. Each interface pointer can access only its own methods.",
+        "answer": "<code>Print: Hello World</code><br><code>Save: Hello World</code>",
+        "explanation": "<code>Doc</code> implements both <code>IPrint</code> and <code>ISave</code>. Through an <code>IPrint*</code> pointer, only <code>print()</code> is accessible. Through an <code>ISave*</code> pointer, only <code>save()</code> is accessible. Both resolve to <code>Doc</code>'s implementations."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Animal {\npublic:\n    virtual void sound() const = 0;\n    virtual void move() const = 0;\n    virtual ~Animal() {}\n};\nclass Pet : public Animal {\npublic:\n    void move() const override { cout &lt;&lt; \"Walks at home\" &lt;&lt; endl; }\n};\nclass Dog : public Pet {\npublic:\n    void sound() const override { cout &lt;&lt; \"Bark\" &lt;&lt; endl; }\n};\nint main() {\n    Dog d;\n    d.sound();\n    d.move();\n    return 0;\n}</code></pre>",
+        "hint": "Pet implements move() but not sound(). Dog implements sound(). Together, all pure virtuals are covered.",
+        "answer": "<code>Bark</code><br><code>Walks at home</code>",
+        "explanation": "<code>Pet</code> implements <code>move()</code> from <code>Animal</code> but not <code>sound()</code>, so <code>Pet</code> is still abstract. <code>Dog</code> implements <code>sound()</code> and inherits <code>move()</code> from <code>Pet</code>. All pure virtuals are now implemented, so <code>Dog</code> is concrete."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\npublic:\n    virtual void f() = 0;\n    virtual ~A() {}\n};\nvoid A::f() { cout &lt;&lt; \"A::f\" &lt;&lt; endl; }\n\nclass B : public A {\npublic:\n    void f() override { cout &lt;&lt; \"B::f\" &lt;&lt; endl; }\n};\nclass C : public A {\npublic:\n    void f() override {\n        A::f();\n        cout &lt;&lt; \"C::f\" &lt;&lt; endl;\n    }\n};\nint main() {\n    A* arr[] = { new B(), new C() };\n    for (int i = 0; i &lt; 2; i++) {\n        arr[i]-&gt;f();\n        cout &lt;&lt; \"---\" &lt;&lt; endl;\n        delete arr[i];\n    }\n    return 0;\n}</code></pre>",
+        "hint": "B ignores A::f(). C calls A::f() explicitly before adding its own output.",
+        "answer": "<code>B::f</code><br><code>---</code><br><code>A::f</code><br><code>C::f</code><br><code>---</code>",
+        "explanation": "<code>B::f()</code> provides its own implementation, ignoring the base definition. <code>C::f()</code> explicitly calls <code>A::f()</code> first, then adds its own output. Both are valid ways to override a pure virtual function that has a definition."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Does this code compile? If so, what is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Shape {\npublic:\n    virtual double area() const = 0;\n    virtual ~Shape() {}\n};\nclass Circle : public Shape {\n    double r;\npublic:\n    Circle(double r) : r(r) {}\n    double area() const override { return 3.14 * r * r; }\n};\nvoid printArea(Shape s) {\n    cout &lt;&lt; s.area() &lt;&lt; endl;\n}\nint main() {\n    Circle c(5);\n    printArea(c);\n    return 0;\n}</code></pre>",
+        "hint": "printArea takes Shape by value. Can you copy an abstract type?",
+        "answer": "Compilation error: cannot declare parameter 's' to be of abstract type 'Shape'.",
+        "explanation": "You cannot pass an abstract class by value because that would require creating a <code>Shape</code> object, which is impossible. Change the parameter to <code>const Shape&amp;</code> or <code>const Shape*</code> to fix this."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass IEngine {\npublic:\n    virtual void start() = 0;\n    virtual ~IEngine() {}\n};\nclass IElectric {\npublic:\n    virtual int battery() const = 0;\n    virtual ~IElectric() {}\n};\nclass HybridCar : public IEngine, public IElectric {\npublic:\n    void start() override { cout &lt;&lt; \"Hybrid started\" &lt;&lt; endl; }\n    int battery() const override { return 85; }\n};\nint main() {\n    HybridCar h;\n    IEngine* e = &amp;h;\n    IElectric* el = &amp;h;\n    e-&gt;start();\n    cout &lt;&lt; \"Battery: \" &lt;&lt; el-&gt;battery() &lt;&lt; \"%\" &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "HybridCar implements two interfaces. Each pointer accesses only its interface's methods.",
+        "answer": "<code>Hybrid started</code><br><code>Battery: 85%</code>",
+        "explanation": "<code>HybridCar</code> implements both <code>IEngine</code> and <code>IElectric</code>. The <code>IEngine*</code> pointer calls <code>start()</code>, and the <code>IElectric*</code> pointer calls <code>battery()</code>. This demonstrates safe multiple interface inheritance."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\npublic:\n    virtual void f() { cout &lt;&lt; \"Base::f\" &lt;&lt; endl; }\n    virtual void g() = 0;\n    virtual ~Base() {}\n};\nclass Mid : public Base {\npublic:\n    void g() override { cout &lt;&lt; \"Mid::g\" &lt;&lt; endl; }\n};\nclass Leaf : public Mid {\npublic:\n    void f() override { cout &lt;&lt; \"Leaf::f\" &lt;&lt; endl; }\n};\nint main() {\n    Base* b = new Leaf();\n    b-&gt;f();\n    b-&gt;g();\n    delete b;\n    return 0;\n}</code></pre>",
+        "hint": "f() is virtual (not pure) in Base, overridden in Leaf. g() is pure virtual in Base, implemented in Mid, inherited by Leaf.",
+        "answer": "<code>Leaf::f</code><br><code>Mid::g</code>",
+        "explanation": "<code>b-&gt;f()</code> dispatches to <code>Leaf::f()</code> because <code>Leaf</code> overrides it. <code>b-&gt;g()</code> dispatches to <code>Mid::g()</code> because <code>Leaf</code> does not override it and inherits <code>Mid</code>'s implementation."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Shape {\npublic:\n    virtual void draw() const = 0;\n    virtual ~Shape() { cout &lt;&lt; \"~Shape\" &lt;&lt; endl; }\n};\nclass Circle : public Shape {\npublic:\n    void draw() const override { cout &lt;&lt; \"Circle\" &lt;&lt; endl; }\n    ~Circle() { cout &lt;&lt; \"~Circle\" &lt;&lt; endl; }\n};\nclass ColoredCircle : public Circle {\n    string color;\npublic:\n    ColoredCircle(string c) : color(c) {}\n    void draw() const override { cout &lt;&lt; color &lt;&lt; \" Circle\" &lt;&lt; endl; }\n    ~ColoredCircle() { cout &lt;&lt; \"~ColoredCircle\" &lt;&lt; endl; }\n};\nint main() {\n    Shape* s = new ColoredCircle(\"Red\");\n    s-&gt;draw();\n    delete s;\n    return 0;\n}</code></pre>",
+        "hint": "Three-level hierarchy. Virtual destructor. All three destructors should run.",
+        "answer": "<code>Red Circle</code><br><code>~ColoredCircle</code><br><code>~Circle</code><br><code>~Shape</code>",
+        "explanation": "<code>s-&gt;draw()</code> calls <code>ColoredCircle::draw()</code> via vtable. On <code>delete s</code>, the virtual destructor chain runs in reverse order: <code>~ColoredCircle</code>, then <code>~Circle</code>, then <code>~Shape</code>."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What makes a class abstract in C++?",
+        "hint": "Think about pure virtual functions.",
+        "answer": "A class is abstract if it has at least one pure virtual function (declared with = 0). An abstract class cannot be instantiated directly. Only concrete derived classes that implement all pure virtual functions can be instantiated.",
+        "explanation": "The pure virtual function declaration <code>virtual void func() = 0;</code> is what makes a class abstract. There is no <code>abstract</code> keyword in C++."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "How do you create an interface in C++?",
+        "hint": "C++ does not have an interface keyword.",
+        "answer": "In C++, an interface is created by writing a class with only pure virtual functions and a virtual destructor, with no data members. By convention, interface names are often prefixed with 'I' (e.g., IDrawable, ISerializable).",
+        "explanation": "Unlike Java and C#, C++ has no <code>interface</code> keyword. The pattern is to use an abstract class with all pure virtual functions and no data members. This allows multiple inheritance without the diamond problem's data ambiguity."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Calculator {\npublic:\n    virtual int compute(int a, int b) const = 0;\n    virtual ~Calculator() {}\n};\nclass Adder : public Calculator {\npublic:\n    int compute(int a, int b) const override { return a + b; }\n};\nclass Multiplier : public Calculator {\npublic:\n    int compute(int a, int b) const override { return a * b; }\n};\nint main() {\n    Calculator* c1 = new Adder();\n    Calculator* c2 = new Multiplier();\n    cout &lt;&lt; c1-&gt;compute(3, 4) &lt;&lt; endl;\n    cout &lt;&lt; c2-&gt;compute(3, 4) &lt;&lt; endl;\n    delete c1; delete c2;\n    return 0;\n}</code></pre>",
+        "hint": "Two concrete classes implementing the same abstract interface.",
+        "answer": "<code>7</code><br><code>12</code>",
+        "explanation": "<code>Adder::compute(3, 4)</code> returns 3 + 4 = 7. <code>Multiplier::compute(3, 4)</code> returns 3 * 4 = 12. Both are called through <code>Calculator*</code> pointers via virtual dispatch."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass A {\npublic:\n    virtual void f() = 0;\n    void g() { cout &lt;&lt; \"A::g calls f: \"; f(); }\n    virtual ~A() {}\n};\nclass B : public A {\npublic:\n    void f() override { cout &lt;&lt; \"B::f\" &lt;&lt; endl; }\n};\nint main() {\n    B b;\n    b.g();\n    return 0;\n}</code></pre>",
+        "hint": "g() is non-virtual in A. It calls f() which is virtual. Which f() runs?",
+        "answer": "<code>A::g calls f: B::f</code>",
+        "explanation": "<code>b.g()</code> calls the inherited <code>A::g()</code>. Inside <code>g()</code>, <code>f()</code> is called on <code>this</code>. Since the actual object is <code>B</code> and <code>f()</code> is virtual, <code>B::f()</code> runs. This is a common pattern: non-virtual methods in abstract classes calling pure virtual methods."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Can a pure virtual function have a definition in C++? If so, how is it called?",
+        "hint": "Think about providing a default implementation that derived classes can optionally use.",
+        "answer": "Yes, a pure virtual function can have a definition (body) provided outside the class. The class is still abstract and cannot be instantiated. Derived classes can call the base definition using Base::func(). This allows providing optional default behavior while still forcing derived classes to override.",
+        "explanation": "The definition must be outside the class body (e.g., <code>void Base::func() { ... }</code>). A derived class calls it with <code>Base::func()</code>. This is useful when most derived classes want the default behavior plus something extra."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Shape {\npublic:\n    virtual double area() const = 0;\n    virtual ~Shape() {}\n    bool isLargerThan(const Shape&amp; other) const {\n        return area() &gt; other.area();\n    }\n};\nclass Circle : public Shape {\n    double r;\npublic:\n    Circle(double r) : r(r) {}\n    double area() const override { return 3.14 * r * r; }\n};\nclass Square : public Shape {\n    double s;\npublic:\n    Square(double s) : s(s) {}\n    double area() const override { return s * s; }\n};\nint main() {\n    Circle c(5);\n    Square sq(8);\n    cout &lt;&lt; c.isLargerThan(sq) &lt;&lt; endl;\n    cout &lt;&lt; sq.isLargerThan(c) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "isLargerThan is non-virtual and calls the virtual area() on both this and other.",
+        "answer": "<code>1</code><br><code>0</code>",
+        "explanation": "Circle area = 3.14 * 25 = 78.5. Square area = 64. <code>c.isLargerThan(sq)</code> compares 78.5 > 64, which is true (1). <code>sq.isLargerThan(c)</code> compares 64 > 78.5, which is false (0). The non-virtual <code>isLargerThan</code> calls virtual <code>area()</code> on both objects."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the abstract destructor pattern and when would you use it?",
+        "hint": "Think about a class where all methods have implementations but you still want it to be abstract.",
+        "answer": "The abstract destructor pattern declares the destructor as pure virtual (virtual ~Base() = 0) while providing a definition outside the class. This makes the class abstract even when all other methods have implementations. You use it when you want to prevent direct instantiation of a base class that has no pure virtual behavior methods.",
+        "explanation": "The pure virtual destructor MUST have a definition because destructors are always called in the chain. Without the definition, you get a linker error. This pattern is useful for base classes in frameworks where you want to enforce inheritance."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass ILog {\npublic:\n    virtual void log(const string&amp; msg) const = 0;\n    virtual ~ILog() {}\n};\nclass INotify {\npublic:\n    virtual void notify(const string&amp; msg) const = 0;\n    virtual ~INotify() {}\n};\nclass Service : public ILog, public INotify {\npublic:\n    void log(const string&amp; msg) const override {\n        cout &lt;&lt; \"[LOG] \" &lt;&lt; msg &lt;&lt; endl;\n    }\n    void notify(const string&amp; msg) const override {\n        cout &lt;&lt; \"[NOTIFY] \" &lt;&lt; msg &lt;&lt; endl;\n    }\n};\nvoid doLog(const ILog&amp; logger) { logger.log(\"System started\"); }\nvoid doNotify(const INotify&amp; notifier) { notifier.notify(\"Alert!\"); }\nint main() {\n    Service s;\n    doLog(s);\n    doNotify(s);\n    return 0;\n}</code></pre>",
+        "hint": "Service implements two interfaces. Each function accepts a different interface reference.",
+        "answer": "<code>[LOG] System started</code><br><code>[NOTIFY] Alert!</code>",
+        "explanation": "<code>Service</code> implements both <code>ILog</code> and <code>INotify</code>. <code>doLog()</code> accepts an <code>ILog&amp;</code> reference and calls <code>log()</code>. <code>doNotify()</code> accepts an <code>INotify&amp;</code> reference and calls <code>notify()</code>. The same <code>Service</code> object satisfies both."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass Base {\npublic:\n    virtual void action() = 0;\n    virtual ~Base() = 0;\n};\nBase::~Base() { cout &lt;&lt; \"~Base\" &lt;&lt; endl; }\nvoid Base::action() { cout &lt;&lt; \"Base::action\" &lt;&lt; endl; }\n\nclass Mid : public Base {\npublic:\n    void action() override {\n        Base::action();\n        cout &lt;&lt; \"Mid::action\" &lt;&lt; endl;\n    }\n    ~Mid() override { cout &lt;&lt; \"~Mid\" &lt;&lt; endl; }\n};\nclass Leaf : public Mid {\npublic:\n    void action() override {\n        Mid::action();\n        cout &lt;&lt; \"Leaf::action\" &lt;&lt; endl;\n    }\n    ~Leaf() override { cout &lt;&lt; \"~Leaf\" &lt;&lt; endl; }\n};\nint main() {\n    Base* p = new Leaf();\n    p-&gt;action();\n    delete p;\n    return 0;\n}</code></pre>",
+        "hint": "Each level calls the parent's action() before adding its own. The destructor chain runs in reverse.",
+        "answer": "<code>Base::action</code><br><code>Mid::action</code><br><code>Leaf::action</code><br><code>~Leaf</code><br><code>~Mid</code><br><code>~Base</code>",
+        "explanation": "<code>Leaf::action()</code> calls <code>Mid::action()</code>, which calls <code>Base::action()</code>. So the output chains upward. On <code>delete p</code>, destructors run downward: <code>~Leaf</code>, <code>~Mid</code>, <code>~Base</code>."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Does this code compile?<br><pre><code>#include &lt;iostream&gt;\nusing namespace std;\nclass IComparable {\npublic:\n    virtual bool lessThan(const IComparable&amp; other) const = 0;\n    virtual ~IComparable() {}\n};\nclass Score : public IComparable {\n    int val;\npublic:\n    Score(int v) : val(v) {}\n    bool lessThan(const IComparable&amp; other) const override {\n        const Score&amp; s = dynamic_cast&lt;const Score&amp;&gt;(other);\n        return val &lt; s.val;\n    }\n};\nint main() {\n    Score a(85), b(92);\n    cout &lt;&lt; a.lessThan(b) &lt;&lt; endl;\n    cout &lt;&lt; b.lessThan(a) &lt;&lt; endl;\n    return 0;\n}</code></pre>",
+        "hint": "dynamic_cast on a reference throws bad_cast on failure. Here both are Score objects.",
+        "answer": "<code>1</code><br><code>0</code>",
+        "explanation": "Yes, it compiles and runs. <code>a.lessThan(b)</code>: 85 < 92 is true (1). <code>b.lessThan(a)</code>: 92 < 85 is false (0). The <code>dynamic_cast</code> succeeds because both objects are <code>Score</code>."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is multiple inheritance of interfaces safer than multiple inheritance of concrete classes?",
+        "hint": "Think about data members and the diamond problem.",
+        "answer": "Interfaces (classes with only pure virtual functions) have no data members and no implementation. Multiple inheritance of interfaces cannot cause data duplication, ambiguous member access, or the diamond problem's data ambiguity. With concrete classes, multiple inheritance can lead to duplicate base class subobjects, ambiguous function calls, and the need for virtual inheritance.",
+        "explanation": "The diamond problem arises when two bases share a common ancestor with data. Interfaces avoid this because they have no data. Multiple interface inheritance is the recommended pattern in C++ for achieving multiple type relationships."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What makes a class abstract in C++?",
+        "options": {"A": "Using the abstract keyword", "B": "Having at least one pure virtual function", "C": "Having a private constructor", "D": "Having no data members"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> C++ does not have an <code>abstract</code> keyword. A class is abstract if it has at least one pure virtual function (declared with <code>= 0</code>)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "How is a pure virtual function declared?",
+        "options": {"A": "virtual void func() = 0;", "B": "pure virtual void func();", "C": "abstract void func();", "D": "void func() = delete;"},
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> A pure virtual function is declared with <code>= 0</code> at the end. <code>= delete</code> is a different feature that explicitly deletes a function."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Can you create an object of an abstract class?",
+        "options": {"A": "Yes, always", "B": "No, never", "C": "Yes, if it has a constructor", "D": "Yes, if it has data members"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Abstract classes cannot be instantiated. You can have pointers and references to an abstract class type, but the actual object must be a concrete derived class."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is an interface in C++?",
+        "options": {"A": "A class declared with the interface keyword", "B": "A class with only pure virtual functions and a virtual destructor", "C": "Any class with virtual functions", "D": "A struct with public members"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> C++ has no <code>interface</code> keyword. By convention, an interface is a class with only pure virtual functions (and typically a virtual destructor), with no data members or implementations."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What happens if a derived class does not implement all pure virtual functions?",
+        "options": {"A": "Runtime error", "B": "The missing functions return default values", "C": "The derived class is also abstract", "D": "The compiler uses the base class version"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> If a derived class does not implement all pure virtual functions from its base, it inherits the remaining pure virtual functions and is itself abstract. It cannot be instantiated."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Can a pure virtual function have a definition (body)?",
+        "options": {"A": "No, that defeats the purpose", "B": "Yes, defined outside the class; derived classes call it with Base::func()", "C": "Yes, but only inside the class body", "D": "No, it causes a compilation error"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A pure virtual function can have a definition provided outside the class body. The class is still abstract. Derived classes can call it with <code>Base::func()</code> to use the default behavior."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is required when using a pure virtual destructor?",
+        "options": {"A": "Nothing special", "B": "A definition must be provided outside the class", "C": "The derived class must not have a destructor", "D": "The class must have no other virtual functions"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A pure virtual destructor must have a definition provided outside the class because destructors are always called in the inheritance chain. Without the definition, you get a linker error."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Why is multiple inheritance of interfaces generally safe?",
+        "options": {"A": "Because interfaces use virtual inheritance by default", "B": "Because interfaces have no data members, avoiding diamond problem ambiguity", "C": "Because C++ prevents multiple interface inheritance", "D": "Because interfaces are templates"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The diamond problem's ambiguity comes from duplicate data members. Interfaces have no data members and no implementation, so inheriting from multiple interfaces cannot cause data duplication or ambiguous member access."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which of the following can an abstract class have?",
+        "options": {"A": "Only pure virtual functions", "B": "Both pure virtual and non-virtual functions, plus data members", "C": "Only static functions", "D": "Only a destructor"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> An abstract class can have pure virtual functions, regular virtual functions, non-virtual functions, data members, constructors, and destructors. It just needs at least one pure virtual function to be abstract."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Can you have a pointer or reference to an abstract class?",
+        "options": {"A": "No, abstract classes cannot be used as types", "B": "Only pointers, not references", "C": "Yes, both pointers and references are allowed", "D": "Only references, not pointers"},
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> You can have <code>Shape* s</code> or <code>Shape&amp; s</code> where <code>Shape</code> is abstract. The actual object must be concrete. This is the foundation of runtime polymorphism."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class A { public: virtual void f() = 0; virtual ~A(){} };\nvoid A::f() { cout &lt;&lt; \"A\"; }\nclass B : public A { public: void f() override { A::f(); cout &lt;&lt; \"B\"; } };\nint main() { B b; b.f(); }</code></pre>",
+        "options": {"A": "A", "B": "AB", "C": "B", "D": "Compilation error"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>B::f()</code> calls <code>A::f()</code> which prints \"A\", then prints \"B\". The result is \"AB\". A pure virtual function with a definition can be called explicitly."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "Which statement about abstract classes is FALSE?",
+        "options": {"A": "An abstract class can have constructors", "B": "An abstract class can have data members", "C": "You can create arrays of abstract class objects", "D": "You can have arrays of pointers to abstract class"},
+        "answer": "C",
+        "explanation": "<strong>C is correct (it is the false statement).</strong> You cannot create arrays of abstract class objects because that would require instantiating the abstract class. You CAN have arrays of pointers (<code>Shape* arr[10]</code>) or references to abstract types."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "When should you use an abstract class instead of an interface?",
+        "options": {"A": "When you want multiple inheritance", "B": "When you need shared data members or partial implementation among derived classes", "C": "When you want compile-time polymorphism", "D": "When you want to use templates"},
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Use an abstract class when derived classes share common data or implementation. Use an interface when you only want to define a contract with no shared state or implementation."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Shape Hierarchy with Abstract Base",
+        "difficulty": "Easy",
+        "description": "Create an abstract Shape class with pure virtual area() and perimeter(). Implement Circle, Rectangle, and Triangle. Store pointers in a Shape* array. Print each shape's name, area, and perimeter.",
+        "sampleInput": "Circle r=5, Rectangle 4x6, Triangle 3-4-5",
+        "sampleOutput": "Circle: area=78.54, perimeter=31.42\nRectangle: area=24.00, perimeter=20.00\nTriangle: area=6.00, perimeter=12.00",
+        "constraints": "Use pure virtual functions. Use override. Include virtual destructor.",
+        "solution": "#include <iostream>\n#include <cmath>\nusing namespace std;\n\nclass Shape {\npublic:\n    virtual double area() const = 0;\n    virtual double perimeter() const = 0;\n    virtual string name() const = 0;\n    virtual ~Shape() {}\n};\n\nclass Circle : public Shape {\n    double r;\npublic:\n    Circle(double r) : r(r) {}\n    double area() const override { return M_PI * r * r; }\n    double perimeter() const override { return 2 * M_PI * r; }\n    string name() const override { return \"Circle\"; }\n};\n\nclass Rectangle : public Shape {\n    double w, h;\npublic:\n    Rectangle(double w, double h) : w(w), h(h) {}\n    double area() const override { return w * h; }\n    double perimeter() const override { return 2 * (w + h); }\n    string name() const override { return \"Rectangle\"; }\n};\n\nclass Triangle : public Shape {\n    double a, b, c;\npublic:\n    Triangle(double a, double b, double c) : a(a), b(b), c(c) {}\n    double area() const override {\n        double s = (a + b + c) / 2;\n        return sqrt(s * (s-a) * (s-b) * (s-c));\n    }\n    double perimeter() const override { return a + b + c; }\n    string name() const override { return \"Triangle\"; }\n};\n\nint main() {\n    Shape* shapes[] = { new Circle(5), new Rectangle(4, 6), new Triangle(3, 4, 5) };\n    for (int i = 0; i < 3; i++) {\n        printf(\"%s: area=%.2f, perimeter=%.2f\\n\",\n               shapes[i]->name().c_str(), shapes[i]->area(), shapes[i]->perimeter());\n        delete shapes[i];\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Multiple Interface Implementation",
+        "difficulty": "Medium",
+        "description": "Create interfaces IReadable (with read()), IWritable (with write(string)), and IClosable (with close()). Create a File class that implements all three. Create a process() function that takes an IReadable& and reads, and a save() function that takes an IWritable& and writes.",
+        "sampleInput": "File operations",
+        "sampleOutput": "Reading from data.txt\nWriting 'Hello World' to data.txt\nClosing data.txt",
+        "constraints": "Each interface should have only pure virtual functions and virtual destructor. Use references.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass IReadable {\npublic:\n    virtual string read() const = 0;\n    virtual ~IReadable() {}\n};\n\nclass IWritable {\npublic:\n    virtual void write(const string& data) = 0;\n    virtual ~IWritable() {}\n};\n\nclass IClosable {\npublic:\n    virtual void close() = 0;\n    virtual ~IClosable() {}\n};\n\nclass File : public IReadable, public IWritable, public IClosable {\n    string filename;\npublic:\n    File(string name) : filename(name) {}\n    string read() const override {\n        cout << \"Reading from \" << filename << endl;\n        return \"file contents\";\n    }\n    void write(const string& data) override {\n        cout << \"Writing '\" << data << \"' to \" << filename << endl;\n    }\n    void close() override {\n        cout << \"Closing \" << filename << endl;\n    }\n};\n\nvoid process(const IReadable& r) { r.read(); }\nvoid save(IWritable& w, const string& data) { w.write(data); }\n\nint main() {\n    File f(\"data.txt\");\n    process(f);\n    save(f, \"Hello World\");\n    f.close();\n    return 0;\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Database Abstraction Layer",
+        "difficulty": "Hard",
+        "description": "Create an abstract Database class with pure virtual connect(), query(string), and disconnect(). Add a non-virtual executeWithLog(string) that logs and calls query(). Implement MySQL and PostgreSQL classes. Process an array of Database* pointers.",
+        "sampleInput": "Two databases, each executing a query",
+        "sampleOutput": "[LOG] SELECT * FROM users\nMySQL: Executing 'SELECT * FROM users'\n[LOG] SELECT * FROM users\nPostgreSQL: Executing 'SELECT * FROM users'",
+        "constraints": "Use abstract class with mixed pure virtual and non-virtual. Demonstrate that non-virtual methods call virtual methods polymorphically.",
+        "solution": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Database {\npublic:\n    virtual void connect() = 0;\n    virtual string query(const string& sql) = 0;\n    virtual void disconnect() = 0;\n    virtual ~Database() {}\n\n    void executeWithLog(const string& sql) {\n        cout << \"[LOG] \" << sql << endl;\n        query(sql);\n    }\n};\n\nclass MySQL : public Database {\npublic:\n    void connect() override { cout << \"MySQL connected\" << endl; }\n    string query(const string& sql) override {\n        cout << \"MySQL: Executing '\" << sql << \"'\" << endl;\n        return \"mysql result\";\n    }\n    void disconnect() override { cout << \"MySQL disconnected\" << endl; }\n};\n\nclass PostgreSQL : public Database {\npublic:\n    void connect() override { cout << \"PostgreSQL connected\" << endl; }\n    string query(const string& sql) override {\n        cout << \"PostgreSQL: Executing '\" << sql << \"'\" << endl;\n        return \"pg result\";\n    }\n    void disconnect() override { cout << \"PostgreSQL disconnected\" << endl; }\n};\n\nint main() {\n    Database* dbs[] = { new MySQL(), new PostgreSQL() };\n    for (int i = 0; i < 2; i++) {\n        dbs[i]->connect();\n        dbs[i]->executeWithLog(\"SELECT * FROM users\");\n        dbs[i]->disconnect();\n        cout << \"---\" << endl;\n        delete dbs[i];\n    }\n    return 0;\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Plugin System with Interface",
+        "difficulty": "Hard",
+        "description": "Create an IPlugin interface with name(), version(), initialize(), execute(string), and shutdown(). Create LogPlugin and CachePlugin implementations. Create a PluginManager that stores IPlugin* pointers and has loadAll(), runAll(string command), and unloadAll() methods.",
+        "sampleInput": "Run all plugins with command 'process-data'",
+        "sampleOutput": "Loading LogPlugin v1.0...\nLoading CachePlugin v2.1...\nLogPlugin: Logging 'process-data'\nCachePlugin: Caching 'process-data'\nUnloading CachePlugin...\nUnloading LogPlugin...",
+        "constraints": "Interface must have only pure virtual functions. Manager must work with IPlugin* only.",
+        "solution": "#include <iostream>\n#include <vector>\n#include <string>\nusing namespace std;\n\nclass IPlugin {\npublic:\n    virtual string name() const = 0;\n    virtual string version() const = 0;\n    virtual void initialize() = 0;\n    virtual void execute(const string& cmd) = 0;\n    virtual void shutdown() = 0;\n    virtual ~IPlugin() {}\n};\n\nclass LogPlugin : public IPlugin {\npublic:\n    string name() const override { return \"LogPlugin\"; }\n    string version() const override { return \"1.0\"; }\n    void initialize() override { cout << \"Loading \" << name() << \" v\" << version() << \"...\" << endl; }\n    void execute(const string& cmd) override { cout << name() << \": Logging '\" << cmd << \"'\" << endl; }\n    void shutdown() override { cout << \"Unloading \" << name() << \"...\" << endl; }\n};\n\nclass CachePlugin : public IPlugin {\npublic:\n    string name() const override { return \"CachePlugin\"; }\n    string version() const override { return \"2.1\"; }\n    void initialize() override { cout << \"Loading \" << name() << \" v\" << version() << \"...\" << endl; }\n    void execute(const string& cmd) override { cout << name() << \": Caching '\" << cmd << \"'\" << endl; }\n    void shutdown() override { cout << \"Unloading \" << name() << \"...\" << endl; }\n};\n\nclass PluginManager {\n    vector<IPlugin*> plugins;\npublic:\n    void addPlugin(IPlugin* p) { plugins.push_back(p); }\n    void loadAll() { for (auto* p : plugins) p->initialize(); }\n    void runAll(const string& cmd) { for (auto* p : plugins) p->execute(cmd); }\n    void unloadAll() {\n        for (int i = plugins.size()-1; i >= 0; i--) plugins[i]->shutdown();\n    }\n    ~PluginManager() { for (auto* p : plugins) delete p; }\n};\n\nint main() {\n    PluginManager mgr;\n    mgr.addPlugin(new LogPlugin());\n    mgr.addPlugin(new CachePlugin());\n    mgr.loadAll();\n    mgr.runAll(\"process-data\");\n    mgr.unloadAll();\n    return 0;\n}"
+      }
+    ]
+  }
+}
