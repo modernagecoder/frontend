@@ -1,0 +1,841 @@
+{
+  "title": "Introduction to HTML - The Language of the Web",
+  "slug": "introduction-to-html",
+  "language": "html",
+  "chapter": 1,
+  "difficulty": "Beginner",
+  "readingTime": "20 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "Introduction to HTML - What Is HTML and How To Build Your First Web Page | Modern Age Coders",
+    "description": "Learn what HTML is, how browsers read HTML tags and elements, and build your first web page from scratch. Includes 58 hands-on practice questions for beginners.",
+    "keywords": "what is html, html introduction, html for beginners, first html page, html tags, html elements, learn html from scratch, html tutorial for teens, hypertext markup language"
+  },
+  "content": {
+    "what": "<h2>What Is HTML?</h2><p><strong>HTML</strong> stands for <strong>HyperText Markup Language</strong>. It is the language that every web page in the world is built with. Open any website — Google, YouTube, Wikipedia, your school website — and behind the pretty pictures and buttons, there is HTML telling the browser what to show.</p><p>The word <em>HyperText</em> just means text with links (you can click a word and jump to another page). The word <em>Markup</em> means we mark the text with special labels called <strong>tags</strong> to tell the browser what each piece of content is — this is a heading, this is a paragraph, this is an image, this is a link.</p><h3>HTML Is Not a Programming Language</h3><p>This surprises many beginners. HTML is a <strong>markup language</strong>, not a programming language. It does not do math, make decisions, or loop through things. It only <em>describes</em> the structure of a page. Think of HTML as the labels on a box: it tells you what is inside, but it does not actually move the box around.</p><h3>The Three Layers of the Web</h3><table><tr><th>Layer</th><th>Role</th><th>Analogy</th></tr><tr><td><code>HTML</code></td><td>Structure — the content and its meaning</td><td>The skeleton (bones) of a body</td></tr><tr><td><code>CSS</code></td><td>Style — how things look</td><td>The skin, hair, and clothes</td></tr><tr><td><code>JavaScript</code></td><td>Behavior — making things move and react</td><td>The movement and muscles</td></tr></table><p>Every modern web page uses all three. HTML is where you start. Once you know HTML, CSS and JavaScript become much easier.</p>",
+    "why": "<h2>Why Should You Learn HTML?</h2><p>HTML is the foundation of the entire web. Here is why learning HTML first is the smartest move a young coder can make.</p><h3>1. It Is Everywhere</h3><p>Every single web page you visit — from your favourite game site to a news article — is built with HTML. If you can read HTML, you can peek inside any website and understand how it is built. Right-click any web page and choose <strong>View Page Source</strong> to see the HTML that powers it.</p><h3>2. It Is Super Beginner Friendly</h3><p>HTML does not need to be installed. You do not need a compiler, no strange setup. You only need two things: a text editor (even Notepad works) and a web browser (Chrome, Firefox, Edge). Save a file as <code>.html</code>, double-click it, and the browser shows your creation. That is it.</p><h3>3. You See Your Work Instantly</h3><p>Type a tag, save the file, refresh the browser — boom, you see the result. No waiting, no errors like in other languages. This fast feedback loop makes HTML perfect for learners aged 10-18 who want to build things and see them come alive.</p><h3>4. It Is the Gateway to Everything Else</h3><p>Want to build websites? Start with HTML. Want to learn React, Vue, or any modern framework? They all build HTML under the hood. Want to make your own portfolio, blog, or game site? HTML is step one.</p><h3>5. Creative Power</h3><p>With just HTML (and a little CSS later), you can build a personal profile page, a mini recipe book, a project showcase, or a fan page for your favourite cricket team. There are no limits on what you can create.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>A Tiny Bit of History</h3><p>HTML was invented by <strong>Tim Berners-Lee</strong> in 1991 at CERN (a giant physics lab in Europe). He wanted scientists around the world to share documents that linked to each other. He created three things that became the World Wide Web: the first web server, the first web browser, and HTML. The very first web page ever made is still online — it is just plain text with a few links.</p><p>Over the years HTML has grown. The version we use today is <strong>HTML5</strong>, released in 2014. HTML5 added support for audio, video, canvas drawings, and much more. When you write HTML today, you are writing HTML5.</p><h3>Tags and Elements</h3><p>HTML uses <strong>tags</strong> to label content. A tag looks like this: <code>&lt;p&gt;</code>. Most tags come in pairs — an opening tag and a closing tag. The closing tag has a forward slash:</p><ul><li><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></li><li><code>&lt;h1&gt;This is a heading.&lt;/h1&gt;</code></li></ul><p>The opening tag, the closing tag, and everything in between together form an <strong>element</strong>. So <code>&lt;p&gt;Hello&lt;/p&gt;</code> is one element — a paragraph element containing the word Hello.</p><h3>Self-Closing (Void) Tags</h3><p>Some tags do not have content inside them, so they do not need a closing tag. These are called <strong>void</strong> or <strong>self-closing</strong> tags. Examples:</p><ul><li><code>&lt;img src=\"cat.jpg\" alt=\"A cat\"&gt;</code> — shows an image</li><li><code>&lt;br&gt;</code> — a line break</li><li><code>&lt;hr&gt;</code> — a horizontal line</li><li><code>&lt;input type=\"text\"&gt;</code> — an input box</li></ul><h3>Attributes</h3><p>Tags can have <strong>attributes</strong> — extra information written inside the opening tag. Attributes come in <code>name=\"value\"</code> pairs. For example:</p><p><code>&lt;a href=\"https://google.com\"&gt;Go to Google&lt;/a&gt;</code></p><p>Here <code>&lt;a&gt;</code> is the anchor (link) tag and <code>href</code> is an attribute that tells the browser where to go when clicked. Attributes work like settings on a tag — they customise how it behaves.</p><h3>How the Browser Reads HTML</h3><p>When you open an HTML file, the browser reads it from top to bottom and builds a tree of elements called the <strong>DOM</strong> (Document Object Model). The browser then paints the DOM onto the screen as the web page you see. This all happens in milliseconds.</p><h3>How to Create Your First HTML File</h3><p>Follow these steps to build your first web page:</p><ol><li>Open any text editor (Notepad on Windows, TextEdit on Mac, or VS Code if you have it)</li><li>Type the HTML code from Example 1 below</li><li>Save the file as <code>index.html</code> (make sure it ends with <code>.html</code>, not <code>.txt</code>)</li><li>Double-click the file — your default browser opens and shows your page</li><li>To edit, open the file in your text editor, change something, save, and refresh the browser</li></ol><p>Congratulations — you are now a web developer. Seriously. Every professional started right here.</p><h3>HTML Is Forgiving</h3><p>Unlike programming languages that crash on the smallest mistake, HTML is very forgiving. If you misspell a tag, the browser usually just ignores it. If you forget a closing tag, the browser often fixes it for you. This makes HTML perfect for learning — you will not get scary error messages when you are just starting out.</p>",
+    "codeExamples": [
+      {
+        "title": "Your Very First HTML Page",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My First Page</title>\n</head>\n<body>\n  <h1>Hello, I am Aarav</h1>\n  <p>Welcome to my very first web page.</p>\n  <p>I am learning HTML and it is amazing.</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Save this as <code>index.html</code> and double-click it. The browser will show a big heading and two paragraphs. <code>&lt;!DOCTYPE html&gt;</code> tells the browser this is HTML5. <code>&lt;html&gt;</code> wraps everything. <code>&lt;head&gt;</code> holds information about the page (like the title shown on the browser tab). <code>&lt;body&gt;</code> holds the visible content. <code>&lt;h1&gt;</code> is a big heading and <code>&lt;p&gt;</code> is a paragraph.",
+        "output": "A page with a big heading 'Hello, I am Aarav' and two paragraphs below it."
+      },
+      {
+        "title": "A Profile Card With Multiple Elements",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Priya's Profile</title>\n</head>\n<body>\n  <h1>Priya Sharma</h1>\n  <h2>Class 9 Student</h2>\n  <p>I love coding, mathematics, and painting.</p>\n  <h3>My Hobbies</h3>\n  <p>Reading mystery books, solving puzzles, and learning HTML.</p>\n  <h3>My Goal</h3>\n  <p>To build a website about my favourite science experiments.</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This example uses three different heading levels (<code>h1</code>, <code>h2</code>, <code>h3</code>) to show a hierarchy. The biggest heading is <code>h1</code> (the most important), <code>h2</code> is a sub-heading, and <code>h3</code> is smaller. Paragraphs give details under each heading. Notice how elements are nested neatly inside <code>&lt;body&gt;</code>.",
+        "output": "A web page titled 'Priya's Profile' with a big name heading, a subtitle, and sections for hobbies and goals."
+      },
+      {
+        "title": "Using Self-Closing Tags: Image and Line Break",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Self-Closing Tags Demo</title>\n</head>\n<body>\n  <h1>My Favourite Animal</h1>\n  <p>I love dogs because they are loyal and playful.</p>\n  <img src=\"https://placedog.net/400/300\" alt=\"A cute dog\">\n  <hr>\n  <p>First line of text.<br>Second line after a line break.</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This example shows three self-closing tags. <code>&lt;img&gt;</code> displays an image — the <code>src</code> attribute is the image address and <code>alt</code> is text shown if the image fails to load (also read by screen readers). <code>&lt;hr&gt;</code> draws a horizontal line across the page. <code>&lt;br&gt;</code> creates a line break inside a paragraph. None of these tags have a closing tag because they do not wrap content.",
+        "output": "A heading, a paragraph, an image of a dog, a horizontal line, and then a paragraph that splits into two lines."
+      },
+      {
+        "title": "Links With Attributes",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My Favourite Sites</title>\n</head>\n<body>\n  <h1>Rohan's Favourite Websites</h1>\n  <p>Here are some sites I visit every day:</p>\n  <p><a href=\"https://www.google.com\">Visit Google</a></p>\n  <p><a href=\"https://www.wikipedia.org\">Visit Wikipedia</a></p>\n  <p><a href=\"https://learn.modernagecoders.com\">Modern Age Coders</a></p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The <code>&lt;a&gt;</code> (anchor) tag creates a clickable link. The <code>href</code> attribute is the destination. The text between the opening and closing tags is what the user sees and clicks on. This example has three links inside paragraphs. Click any of them to go to that website.",
+        "output": "A heading and three blue underlined links that users can click to visit the sites."
+      },
+      {
+        "title": "Lists: Ordered and Unordered",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My Lists</title>\n</head>\n<body>\n  <h1>Ananya's Weekend Plan</h1>\n  <h2>Things To Do (in order)</h2>\n  <ol>\n    <li>Finish homework</li>\n    <li>Practice HTML</li>\n    <li>Go cycling with friends</li>\n    <li>Watch a movie</li>\n  </ol>\n  <h2>Snacks I Love (any order)</h2>\n  <ul>\n    <li>Samosa</li>\n    <li>Mango</li>\n    <li>Chocolate</li>\n    <li>Popcorn</li>\n  </ul>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "HTML has two kinds of lists. <code>&lt;ol&gt;</code> is an ordered (numbered) list — browsers automatically number each item 1, 2, 3. <code>&lt;ul&gt;</code> is an unordered (bullet) list. Inside both, each item goes inside <code>&lt;li&gt;</code> (list item) tags. This shows how HTML tags can be nested neatly inside each other.",
+        "output": "A numbered list of weekend tasks and a bulleted list of favourite snacks."
+      },
+      {
+        "title": "Mini Fan Page — Everything Together",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My Cricket Page</title>\n</head>\n<body>\n  <h1>My Favourite Cricketer</h1>\n  <img src=\"https://via.placeholder.com/300x200\" alt=\"Cricket player\">\n  <h2>Why I Admire Him</h2>\n  <p>He is calm under pressure and never gives up, even when the team is losing.</p>\n  <h2>His Top Achievements</h2>\n  <ul>\n    <li>Scored a century in the World Cup final</li>\n    <li>Broke the record for most runs in a season</li>\n    <li>Led his team to the championship</li>\n  </ul>\n  <hr>\n  <p>Learn more on <a href=\"https://en.wikipedia.org\">Wikipedia</a>.</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This example combines everything you learned so far: headings, paragraphs, an image, a list, a horizontal line, and a link. This is a real mini web page you can actually build in five minutes. Save it, open it, and show your family — you just made your first fan page with only HTML.",
+        "output": "A complete fan page with a heading, image, subheadings, a bulleted list of achievements, a line, and a link at the bottom."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting the Closing Tag",
+        "wrongCode": "<p>This paragraph is missing its closing tag.\n<p>This is another paragraph.",
+        "error": "The browser tries to guess where the first paragraph ends, which can cause strange layouts, especially inside lists or tables.",
+        "correctCode": "<p>This paragraph has a proper closing tag.</p>\n<p>This is another paragraph.</p>",
+        "explanation": "Most HTML elements need both an opening tag and a closing tag. The closing tag has a forward slash: <code>&lt;/p&gt;</code>. Without it, the browser does not know where the element ends. While modern browsers often guess correctly for simple tags, you should always close your tags properly."
+      },
+      {
+        "title": "Using Wrong Case for Attributes in Quotes",
+        "wrongCode": "<img src=cat.jpg alt=My cat>",
+        "error": "The alt text becomes only 'My' because the space ends the value. The browser gets confused.",
+        "correctCode": "<img src=\"cat.jpg\" alt=\"My cat\">",
+        "explanation": "Attribute values that contain spaces or special characters must be wrapped in quotes. Without quotes, the browser thinks the first word is the value and the rest are extra attributes. Always put quotes around attribute values — it is a simple habit that prevents many bugs."
+      },
+      {
+        "title": "Writing Content Outside the Body Tag",
+        "wrongCode": "<!DOCTYPE html>\n<html>\n<head>\n  <h1>My Page</h1>\n</head>\n<body>\n</body>\n</html>",
+        "error": "The heading might still show, but it is incorrect HTML and will cause problems with CSS, JavaScript, and accessibility tools later.",
+        "correctCode": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My Page</title>\n</head>\n<body>\n  <h1>My Page</h1>\n</body>\n</html>",
+        "explanation": "All visible content — headings, paragraphs, images, links, lists — must go inside <code>&lt;body&gt;</code>, not inside <code>&lt;head&gt;</code>. The <code>&lt;head&gt;</code> is only for metadata like the page title, character encoding, and links to CSS files. Visible content in the head section is a common beginner mistake."
+      },
+      {
+        "title": "Misspelling Tag Names",
+        "wrongCode": "<hedading>Welcome</hedading>\n<paragarph>This is text.</paragarph>",
+        "error": "The browser does not recognise <code>&lt;hedading&gt;</code> or <code>&lt;paragarph&gt;</code>, so it treats them as plain unknown text with no styling.",
+        "correctCode": "<h1>Welcome</h1>\n<p>This is text.</p>",
+        "explanation": "HTML has a fixed set of valid tag names. The most common mistakes are typos like <code>hedading</code> instead of <code>heading</code> (or actually <code>h1</code>), <code>paragarph</code> instead of <code>p</code>, and <code>imge</code> instead of <code>img</code>. Always double-check spelling. Valid heading tags are <code>h1</code>, <code>h2</code>, <code>h3</code>, <code>h4</code>, <code>h5</code>, <code>h6</code> — and the paragraph tag is just <code>p</code>."
+      },
+      {
+        "title": "Saving File Without the .html Extension",
+        "wrongCode": "File saved as: mypage.txt\n(This contains valid HTML code)",
+        "error": "When you double-click the file, it opens in a text editor instead of the browser, and HTML tags are shown as plain text.",
+        "correctCode": "File saved as: mypage.html",
+        "explanation": "The file extension tells the computer what kind of file it is. A browser only opens files ending with <code>.html</code> or <code>.htm</code>. On Windows, if File Explorer hides extensions, turn them on in View settings. On Mac, make sure TextEdit is in plain text mode before saving."
+      }
+    ],
+    "summary": [
+      "HTML stands for HyperText Markup Language and is the foundation of every web page on the internet.",
+      "HTML is a markup language, not a programming language — it describes structure and content but does not make decisions or calculations.",
+      "The web uses three layers: HTML for structure, CSS for style, and JavaScript for behavior. Together they make modern web pages.",
+      "Tim Berners-Lee invented HTML in 1991. The version used today is HTML5, released in 2014.",
+      "HTML uses tags to label content. Most tags come in pairs: an opening tag like <p> and a closing tag like </p>. Together with the content inside, they form an element.",
+      "Some tags are self-closing and have no content inside them, like <img>, <br>, <hr>, and <input>. These do not need a closing tag.",
+      "Attributes add extra information to tags. They look like name=\"value\" pairs, for example href=\"https://google.com\" on an anchor tag.",
+      "To create a web page, write HTML in any text editor, save with a .html extension, and double-click to open in a browser.",
+      "Every HTML file should have a <!DOCTYPE html> at the top and an <html> element containing a <head> (metadata) and a <body> (visible content).",
+      "HTML is forgiving — small mistakes usually do not crash the page, which makes it perfect for beginners to experiment and learn by doing."
+    ]
+  },
+  "relatedTopics": ["html-structure-and-boilerplate", "headings-paragraphs-and-text"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does the following HTML render as?<br><pre><code>&lt;h1&gt;Hello World&lt;/h1&gt;</code></pre>",
+        "hint": "h1 is the biggest heading.",
+        "answer": "A large, bold heading that says <strong>Hello World</strong>.",
+        "explanation": "The <code>&lt;h1&gt;</code> tag creates the largest heading level. Browsers display h1 text in a big, bold font by default. It is usually used for the main title of the page."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this HTML render as?<br><pre><code>&lt;p&gt;I love cricket.&lt;/p&gt;\n&lt;p&gt;I also love mathematics.&lt;/p&gt;</code></pre>",
+        "hint": "Each <p> creates a separate paragraph with space between them.",
+        "answer": "Two paragraphs on separate lines: <br>I love cricket.<br>I also love mathematics.",
+        "explanation": "Each <code>&lt;p&gt;</code> element creates its own paragraph, and browsers automatically add vertical space between paragraphs. This is how you separate blocks of text."
+      },
+      {
+        "id": "ts-3",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Fix this broken tag:<br><pre><code>&lt;p&gt;This is a paragraph.&lt;p&gt;</code></pre>",
+        "hint": "The closing tag needs a slash.",
+        "answer": "<pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre>",
+        "explanation": "The closing tag of a paragraph is <code>&lt;/p&gt;</code> with a forward slash before the letter p. Without the slash, it is a second opening tag, and the browser does not know where the paragraph ends."
+      },
+      {
+        "id": "ts-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write HTML for a simple profile card that shows the name 'Aarav Patel' as a big heading and the description 'I love coding' as a paragraph.",
+        "hint": "Use <h1> for the name and <p> for the description.",
+        "answer": "<pre><code>&lt;h1&gt;Aarav Patel&lt;/h1&gt;\n&lt;p&gt;I love coding&lt;/p&gt;</code></pre>",
+        "explanation": "The <code>&lt;h1&gt;</code> tag creates a big heading for the name. The <code>&lt;p&gt;</code> tag creates a paragraph for the description. Both are closed properly with matching closing tags."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this render as?<br><pre><code>&lt;h1&gt;Main Title&lt;/h1&gt;\n&lt;h2&gt;Sub Title&lt;/h2&gt;\n&lt;h3&gt;Section&lt;/h3&gt;</code></pre>",
+        "hint": "h1 is biggest, h6 is smallest.",
+        "answer": "Three headings of decreasing size: a very large 'Main Title', a medium 'Sub Title', and a smaller 'Section'.",
+        "explanation": "Heading tags go from <code>h1</code> (biggest) to <code>h6</code> (smallest). They form a visual hierarchy — h1 is the most important, h2 is less important, and so on. Browsers give each level a smaller default font size."
+      },
+      {
+        "id": "ts-6",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Rohan wrote this image tag but the alt text is wrong. Fix it:<br><pre><code>&lt;img src=\"dog.jpg\" alt=My best friend&gt;</code></pre>",
+        "hint": "Attribute values with spaces need quotes.",
+        "answer": "<pre><code>&lt;img src=\"dog.jpg\" alt=\"My best friend\"&gt;</code></pre>",
+        "explanation": "When an attribute value contains a space, it must be wrapped in quotes. Without quotes, the browser thinks only the first word (<code>My</code>) is the alt value and the rest are extra broken attributes."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this HTML create?<br><pre><code>&lt;a href=\"https://google.com\"&gt;Click me&lt;/a&gt;</code></pre>",
+        "hint": "<a> is the anchor tag, used for links.",
+        "answer": "A clickable link with the blue underlined text 'Click me' that opens google.com when clicked.",
+        "explanation": "The <code>&lt;a&gt;</code> tag creates a hyperlink. The <code>href</code> attribute holds the destination URL. The text between the opening and closing tags is what the user sees and clicks on."
+      },
+      {
+        "id": "ts-8",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write HTML to display an unordered list with three items: Apple, Mango, Banana.",
+        "hint": "Use <ul> for the list and <li> for each item.",
+        "answer": "<pre><code>&lt;ul&gt;\n  &lt;li&gt;Apple&lt;/li&gt;\n  &lt;li&gt;Mango&lt;/li&gt;\n  &lt;li&gt;Banana&lt;/li&gt;\n&lt;/ul&gt;</code></pre>",
+        "explanation": "<code>&lt;ul&gt;</code> is an unordered (bulleted) list. Each item goes inside its own <code>&lt;li&gt;</code> (list item) tag. Browsers automatically add bullet points before each item."
+      },
+      {
+        "id": "ts-9",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Ananya wrote this code but the headline will not show. What is wrong?<br><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n  &lt;h1&gt;Welcome to my page&lt;/h1&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "hint": "Visible content belongs in a specific section.",
+        "answer": "Move the <code>&lt;h1&gt;</code> from inside <code>&lt;head&gt;</code> into <code>&lt;body&gt;</code>.",
+        "explanation": "The <code>&lt;head&gt;</code> section is only for metadata (title, meta tags, links to CSS files). All visible content like headings, paragraphs, images, and links must go inside <code>&lt;body&gt;</code>."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this render as?<br><pre><code>&lt;p&gt;Line one.&lt;br&gt;Line two.&lt;/p&gt;</code></pre>",
+        "hint": "<br> is a line break.",
+        "answer": "One paragraph with two lines:<br>Line one.<br>Line two.",
+        "explanation": "<code>&lt;br&gt;</code> is a self-closing tag that forces a line break inside a paragraph. Both lines are part of the same paragraph element but display on separate lines."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a complete HTML page (with DOCTYPE, html, head, body) that shows the heading 'My Hobbies' and a paragraph saying 'I like cricket and painting.'",
+        "hint": "Remember the standard structure: DOCTYPE, html, head (with title), body (with content).",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n  &lt;title&gt;Hobbies&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;My Hobbies&lt;/h1&gt;\n  &lt;p&gt;I like cricket and painting.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "Every HTML page starts with <code>&lt;!DOCTYPE html&gt;</code>, then the <code>&lt;html&gt;</code> wrapper, then <code>&lt;head&gt;</code> for metadata (the title shown on the browser tab), and <code>&lt;body&gt;</code> for visible content."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this render?<br><pre><code>&lt;ol&gt;\n  &lt;li&gt;Wake up&lt;/li&gt;\n  &lt;li&gt;Brush teeth&lt;/li&gt;\n  &lt;li&gt;Eat breakfast&lt;/li&gt;\n&lt;/ol&gt;</code></pre>",
+        "hint": "<ol> is an ordered list.",
+        "answer": "A numbered list:<br>1. Wake up<br>2. Brush teeth<br>3. Eat breakfast",
+        "explanation": "<code>&lt;ol&gt;</code> creates an ordered (numbered) list. The browser automatically adds 1, 2, 3 before each <code>&lt;li&gt;</code> item. If you rearrange the items, the numbers update automatically."
+      },
+      {
+        "id": "ts-13",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Vikram wrote this link but it does not go anywhere when clicked. Fix it:<br><pre><code>&lt;a&gt;Visit Wikipedia&lt;/a&gt;</code></pre>",
+        "hint": "A link needs a destination.",
+        "answer": "<pre><code>&lt;a href=\"https://www.wikipedia.org\"&gt;Visit Wikipedia&lt;/a&gt;</code></pre>",
+        "explanation": "The <code>&lt;a&gt;</code> tag needs an <code>href</code> attribute that specifies where the link goes. Without <code>href</code>, the tag is just coloured text that does nothing when clicked."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this HTML produce?<br><pre><code>&lt;h1&gt;Recipe&lt;/h1&gt;\n&lt;p&gt;Ingredients:&lt;/p&gt;\n&lt;ul&gt;\n  &lt;li&gt;Flour&lt;/li&gt;\n  &lt;li&gt;Sugar&lt;/li&gt;\n  &lt;li&gt;Milk&lt;/li&gt;\n&lt;/ul&gt;\n&lt;hr&gt;\n&lt;p&gt;Mix well and bake.&lt;/p&gt;</code></pre>",
+        "hint": "Go element by element — heading, paragraph, list, horizontal rule, paragraph.",
+        "answer": "A heading 'Recipe', then 'Ingredients:', then a bulleted list of Flour, Sugar, Milk, then a horizontal line, then the text 'Mix well and bake.'",
+        "explanation": "This combines a heading, a paragraph, a bulleted list, a horizontal rule (separator line), and another paragraph. Each element appears on the page in the order it is written in the HTML."
+      },
+      {
+        "id": "ts-15",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write HTML for an image of a sunset that has the alt text 'Beautiful sunset at the beach' and uses the source 'sunset.jpg'.",
+        "hint": "<img> is self-closing and needs src and alt attributes.",
+        "answer": "<pre><code>&lt;img src=\"sunset.jpg\" alt=\"Beautiful sunset at the beach\"&gt;</code></pre>",
+        "explanation": "The <code>&lt;img&gt;</code> tag is self-closing (no closing tag). The <code>src</code> attribute is the image file and <code>alt</code> is a text description shown if the image fails to load and read by screen readers."
+      },
+      {
+        "id": "ts-16",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Neha saved a file with her HTML but double-clicking it opens Notepad instead of a browser. What is wrong?",
+        "hint": "Check the file extension.",
+        "answer": "The file was probably saved as <code>.txt</code> instead of <code>.html</code>. Rename the file so it ends with <code>.html</code> (for example <code>page.html</code>).",
+        "explanation": "The file extension tells the operating system which program to open the file with. Only files ending in <code>.html</code> or <code>.htm</code> open in a browser by default. On Windows, you may need to enable 'File name extensions' in File Explorer to see the real extension."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this render?<br><pre><code>&lt;h2&gt;Contact&lt;/h2&gt;\n&lt;p&gt;Email me at &lt;a href=\"mailto:rohan@example.com\"&gt;rohan@example.com&lt;/a&gt;&lt;/p&gt;</code></pre>",
+        "hint": "The anchor tag is nested inside the paragraph.",
+        "answer": "A sub-heading 'Contact' followed by 'Email me at rohan@example.com' where the email address is a clickable link.",
+        "explanation": "You can nest elements — the <code>&lt;a&gt;</code> link is inside the <code>&lt;p&gt;</code> paragraph. The <code>mailto:</code> prefix in the href tells the browser to open the user's email app when clicked."
+      },
+      {
+        "id": "ts-18",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write HTML for a page that has the title 'My Dog' (shown on the browser tab), a heading 'Meet Buddy', and a paragraph describing the dog.",
+        "hint": "Use <title> inside <head> for the tab title and <h1> inside <body> for the visible heading.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n  &lt;title&gt;My Dog&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;Meet Buddy&lt;/h1&gt;\n  &lt;p&gt;Buddy is a golden retriever who loves playing fetch in the park.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "The <code>&lt;title&gt;</code> tag inside <code>&lt;head&gt;</code> sets the text shown on the browser tab. This is different from <code>&lt;h1&gt;</code>, which shows as a visible heading on the page itself."
+      },
+      {
+        "id": "ts-19",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "This list is broken. Fix it:<br><pre><code>&lt;ul&gt;\n  Apple\n  Mango\n  Banana\n&lt;/ul&gt;</code></pre>",
+        "hint": "Each item needs its own tag.",
+        "answer": "<pre><code>&lt;ul&gt;\n  &lt;li&gt;Apple&lt;/li&gt;\n  &lt;li&gt;Mango&lt;/li&gt;\n  &lt;li&gt;Banana&lt;/li&gt;\n&lt;/ul&gt;</code></pre>",
+        "explanation": "Items in a list must be wrapped in <code>&lt;li&gt;</code> tags. Without <code>&lt;li&gt;</code>, the items are just plain text and will not get bullet points or proper list formatting."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this code render?<br><pre><code>&lt;h1&gt;Welcome&lt;/h1&gt;\n&lt;h1&gt;Welcome again&lt;/h1&gt;\n&lt;h1&gt;Welcome one more time&lt;/h1&gt;</code></pre>",
+        "hint": "All three are h1 tags — what does that mean visually?",
+        "answer": "Three identical large headings stacked on top of each other: 'Welcome', 'Welcome again', 'Welcome one more time'.",
+        "explanation": "HTML technically allows multiple <code>&lt;h1&gt;</code> tags and the browser will render them all as big headings. However, the best practice is to use only one <code>&lt;h1&gt;</code> per page (the main title), and use <code>&lt;h2&gt;</code> for sub-headings."
+      },
+      {
+        "id": "ts-21",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write HTML for a simple profile card of 'Priya Sharma' that includes her name as a heading, her age as a paragraph, and a list of three hobbies: reading, painting, dancing.",
+        "hint": "Combine heading, paragraph, and unordered list tags.",
+        "answer": "<pre><code>&lt;h1&gt;Priya Sharma&lt;/h1&gt;\n&lt;p&gt;Age: 14&lt;/p&gt;\n&lt;h2&gt;Hobbies&lt;/h2&gt;\n&lt;ul&gt;\n  &lt;li&gt;Reading&lt;/li&gt;\n  &lt;li&gt;Painting&lt;/li&gt;\n  &lt;li&gt;Dancing&lt;/li&gt;\n&lt;/ul&gt;</code></pre>",
+        "explanation": "A profile card uses different tags for different kinds of information: the big name is an <code>h1</code>, the age is a <code>p</code>, and the hobbies are an <code>h2</code> sub-heading followed by a bulleted list."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What will the browser show for this code?<br><pre><code>&lt;p&gt;Hello&lt;br&gt;World&lt;br&gt;From HTML&lt;/p&gt;</code></pre>",
+        "hint": "<br> creates line breaks inside the same paragraph.",
+        "answer": "One paragraph that looks like:<br>Hello<br>World<br>From HTML",
+        "explanation": "All three words are inside a single <code>&lt;p&gt;</code> element, but <code>&lt;br&gt;</code> forces the text to break onto new lines without creating separate paragraphs. Use <code>&lt;br&gt;</code> sparingly — for real paragraph breaks, use separate <code>&lt;p&gt;</code> elements."
+      },
+      {
+        "id": "ts-23",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "Vikram wrote this but the browser shows no image. Find all the bugs:<br><pre><code>&lt;img scr=cat.jpg&gt;</code></pre>",
+        "hint": "Check the attribute name and the quotes.",
+        "answer": "<pre><code>&lt;img src=\"cat.jpg\" alt=\"A cat\"&gt;</code></pre>",
+        "explanation": "Three bugs here: (1) <code>scr</code> is misspelled — should be <code>src</code>. (2) The filename is missing quotes. (3) The <code>alt</code> attribute is missing, which is required for accessibility and SEO. Always use <code>src</code>, quotes, and <code>alt</code>."
+      },
+      {
+        "id": "ts-24",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a complete HTML page for a mini 'About Me' website. It should have a title 'About Aarav', a main heading with the name, a paragraph about you, a sub-heading 'Favourite Subjects', an unordered list of three subjects, and a link to your school's website.",
+        "hint": "Use DOCTYPE, html, head (with title), and body (with all content).",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n  &lt;title&gt;About Aarav&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;Aarav Gupta&lt;/h1&gt;\n  &lt;p&gt;I am 13 years old and I love building things with HTML.&lt;/p&gt;\n  &lt;h2&gt;Favourite Subjects&lt;/h2&gt;\n  &lt;ul&gt;\n    &lt;li&gt;Computer Science&lt;/li&gt;\n    &lt;li&gt;Mathematics&lt;/li&gt;\n    &lt;li&gt;Science&lt;/li&gt;\n  &lt;/ul&gt;\n  &lt;p&gt;Visit my school: &lt;a href=\"https://www.myschool.in\"&gt;My School&lt;/a&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "This is a real mini web page. It uses every tag from this chapter: DOCTYPE, html, head, title, body, h1, h2, p, ul, li, and a. Save it, open it in a browser, and you have your first website."
+      },
+      {
+        "id": "ts-25",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is wrong with this output prediction: the developer expects 'Hello World' on one line, but it shows on two lines?<br><pre><code>&lt;h1&gt;Hello&lt;/h1&gt;World</code></pre>",
+        "hint": "h1 is a block-level element.",
+        "answer": "The <code>&lt;h1&gt;</code> is a block-level element, meaning it takes up the full width and creates a line break after it. So 'World' appears on the next line.",
+        "explanation": "HTML elements are either block-level (like <code>h1</code>, <code>p</code>, <code>div</code>) or inline (like <code>a</code>, <code>span</code>, <code>img</code>). Block-level elements always start on a new line and push following content below. To keep text on one line, you would need to use inline elements or wrap everything in the same heading."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this render?<br><pre><code>&lt;h2&gt;About Me&lt;/h2&gt;</code></pre>",
+        "hint": "h2 is a sub-heading.",
+        "answer": "A medium-sized bold heading saying 'About Me'.",
+        "explanation": "<code>&lt;h2&gt;</code> is the second-level heading — smaller than <code>&lt;h1&gt;</code> but still prominent. It is used for section titles on a page."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write HTML for a link that opens the Modern Age Coders website.",
+        "hint": "Use the <a> tag with href.",
+        "answer": "<pre><code>&lt;a href=\"https://learn.modernagecoders.com\"&gt;Modern Age Coders&lt;/a&gt;</code></pre>",
+        "explanation": "The <code>&lt;a&gt;</code> tag needs an <code>href</code> attribute for the URL. The text between the opening and closing tags becomes the clickable link."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this render?<br><pre><code>&lt;p&gt;Item 1&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;Item 2&lt;/p&gt;</code></pre>",
+        "hint": "<hr> is a horizontal rule.",
+        "answer": "'Item 1', then a horizontal line across the page, then 'Item 2'.",
+        "explanation": "<code>&lt;hr&gt;</code> is a self-closing tag that draws a horizontal line — useful for separating sections visually."
+      },
+      {
+        "id": "mx-4",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Fix this:<br><pre><code>&lt;h1&gt;Hello&lt;/h2&gt;</code></pre>",
+        "hint": "Opening and closing tags must match.",
+        "answer": "<pre><code>&lt;h1&gt;Hello&lt;/h1&gt;</code></pre>",
+        "explanation": "The opening tag is <code>&lt;h1&gt;</code>, so the closing tag must also be <code>&lt;/h1&gt;</code>. Mixing <code>h1</code> and <code>h2</code> like this is invalid HTML."
+      },
+      {
+        "id": "mx-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write HTML for three paragraphs introducing yourself, your age, and your city.",
+        "hint": "Use three separate <p> tags.",
+        "answer": "<pre><code>&lt;p&gt;My name is Ananya.&lt;/p&gt;\n&lt;p&gt;I am 12 years old.&lt;/p&gt;\n&lt;p&gt;I live in Mumbai.&lt;/p&gt;</code></pre>",
+        "explanation": "Each piece of information is a separate paragraph, so each gets its own <code>&lt;p&gt;</code> element. Browsers automatically add spacing between paragraphs."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this render?<br><pre><code>&lt;h1&gt;Shop&lt;/h1&gt;\n&lt;h3&gt;Fruits&lt;/h3&gt;\n&lt;ul&gt;&lt;li&gt;Apple&lt;/li&gt;&lt;li&gt;Mango&lt;/li&gt;&lt;/ul&gt;</code></pre>",
+        "hint": "HTML ignores whitespace — the list still renders with bullets.",
+        "answer": "A big heading 'Shop', a smaller heading 'Fruits', then a bulleted list with Apple and Mango.",
+        "explanation": "HTML collapses multiple spaces and ignores line breaks in your source code, so putting the list on a single line does not change the output. It is still a valid bulleted list."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write HTML that shows an image named 'logo.png' with alt text 'Company Logo', followed by a heading 'Welcome', followed by a link to 'about.html' with the text 'Learn more'.",
+        "hint": "Combine img, h1, and a tags.",
+        "answer": "<pre><code>&lt;img src=\"logo.png\" alt=\"Company Logo\"&gt;\n&lt;h1&gt;Welcome&lt;/h1&gt;\n&lt;a href=\"about.html\"&gt;Learn more&lt;/a&gt;</code></pre>",
+        "explanation": "Three elements in order: a self-closing image, a heading, and a link. The link uses a relative path <code>about.html</code>, which means a file in the same folder."
+      },
+      {
+        "id": "mx-8",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Rohan's page looks wrong. Find the problem:<br><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;body&gt;\n  &lt;h1&gt;Hi&lt;/h1&gt;\n&lt;/body&gt;</code></pre>",
+        "hint": "Something is missing at the end.",
+        "answer": "The closing <code>&lt;/html&gt;</code> tag is missing. Add it after <code>&lt;/body&gt;</code>.",
+        "explanation": "Every opening tag needs a matching closing tag. The <code>&lt;html&gt;</code> element wraps the entire document and must be closed with <code>&lt;/html&gt;</code> at the very end."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this render?<br><pre><code>&lt;ol&gt;\n  &lt;li&gt;Morning&lt;/li&gt;\n  &lt;li&gt;Afternoon&lt;/li&gt;\n  &lt;li&gt;Evening&lt;/li&gt;\n  &lt;li&gt;Night&lt;/li&gt;\n&lt;/ol&gt;</code></pre>",
+        "hint": "<ol> is an ordered list.",
+        "answer": "A numbered list:<br>1. Morning<br>2. Afternoon<br>3. Evening<br>4. Night",
+        "explanation": "<code>&lt;ol&gt;</code> generates automatic numbering for each <code>&lt;li&gt;</code>. If you swap items, the numbers update automatically."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write HTML for a news article layout: a title, the author's name in a smaller heading, a paragraph of content, and a horizontal line at the bottom.",
+        "hint": "Use h1 for title, h3 or h4 for author, p for content, and hr for the line.",
+        "answer": "<pre><code>&lt;h1&gt;Local School Wins Robotics Contest&lt;/h1&gt;\n&lt;h3&gt;By Priya Sharma&lt;/h3&gt;\n&lt;p&gt;Students from Delhi Public School won first prize at the national robotics contest held last week.&lt;/p&gt;\n&lt;hr&gt;</code></pre>",
+        "explanation": "A typical news article layout: <code>h1</code> for the headline (biggest), <code>h3</code> for the byline (smaller), <code>p</code> for the article body, and <code>hr</code> to separate it from the next article."
+      },
+      {
+        "id": "mx-11",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Why does this list not have bullets?<br><pre><code>&lt;li&gt;One&lt;/li&gt;\n&lt;li&gt;Two&lt;/li&gt;\n&lt;li&gt;Three&lt;/li&gt;</code></pre>",
+        "hint": "List items must be inside a list container.",
+        "answer": "<pre><code>&lt;ul&gt;\n  &lt;li&gt;One&lt;/li&gt;\n  &lt;li&gt;Two&lt;/li&gt;\n  &lt;li&gt;Three&lt;/li&gt;\n&lt;/ul&gt;</code></pre>",
+        "explanation": "<code>&lt;li&gt;</code> tags must be wrapped inside either a <code>&lt;ul&gt;</code> (unordered) or <code>&lt;ol&gt;</code> (ordered) list. Without the wrapper, the browser does not know how to format them as a list."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this render?<br><pre><code>&lt;ul&gt;\n  &lt;li&gt;Fruits\n    &lt;ul&gt;\n      &lt;li&gt;Apple&lt;/li&gt;\n      &lt;li&gt;Mango&lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/li&gt;\n  &lt;li&gt;Vegetables&lt;/li&gt;\n&lt;/ul&gt;</code></pre>",
+        "hint": "Lists can be nested inside other lists.",
+        "answer": "A bulleted list where 'Fruits' has an indented sub-list with Apple and Mango, and then 'Vegetables' as the second main item.",
+        "explanation": "HTML lists can be nested. A <code>&lt;ul&gt;</code> inside another <code>&lt;li&gt;</code> creates a sub-list that the browser indents. This is how you build multi-level menus and outlines."
+      },
+      {
+        "id": "mx-13",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a complete HTML page for a restaurant menu: title 'Tasty Bites', heading 'Our Menu', a sub-heading 'Starters' with an unordered list of three starters, a sub-heading 'Main Course' with an ordered list of three main courses, and a horizontal line at the bottom.",
+        "hint": "Combine everything you know: DOCTYPE, html, head, body, h1, h2, ul, ol, li, hr.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n  &lt;title&gt;Tasty Bites&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;Our Menu&lt;/h1&gt;\n  &lt;h2&gt;Starters&lt;/h2&gt;\n  &lt;ul&gt;\n    &lt;li&gt;Paneer Tikka&lt;/li&gt;\n    &lt;li&gt;Veg Spring Rolls&lt;/li&gt;\n    &lt;li&gt;Tomato Soup&lt;/li&gt;\n  &lt;/ul&gt;\n  &lt;h2&gt;Main Course&lt;/h2&gt;\n  &lt;ol&gt;\n    &lt;li&gt;Butter Chicken&lt;/li&gt;\n    &lt;li&gt;Dal Makhani&lt;/li&gt;\n    &lt;li&gt;Biryani&lt;/li&gt;\n  &lt;/ol&gt;\n  &lt;hr&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "A real-world menu structure: the page title is in the tab, the main heading is h1, each section has its own h2, starters are a bulleted list, main courses are a numbered list, and there is a horizontal rule at the bottom."
+      },
+      {
+        "id": "mx-14",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "What are the two problems with this link?<br><pre><code>&lt;a href=google.com&gt;Click&lt;a&gt;</code></pre>",
+        "hint": "Look at the href value and the closing tag.",
+        "answer": "<pre><code>&lt;a href=\"https://google.com\"&gt;Click&lt;/a&gt;</code></pre>",
+        "explanation": "Two bugs: (1) The href value should be in quotes and usually starts with <code>https://</code> for external links. (2) The closing tag <code>&lt;a&gt;</code> is missing the forward slash — it should be <code>&lt;/a&gt;</code>."
+      },
+      {
+        "id": "mx-15",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write HTML for a blog post with a heading, an image at the top (with alt text), two paragraphs of content, a sub-heading 'Conclusion', one more paragraph, and a link at the bottom that says 'Read more articles'.",
+        "hint": "Combine h1, img, p, h2, and a.",
+        "answer": "<pre><code>&lt;h1&gt;My First Trip to the Hills&lt;/h1&gt;\n&lt;img src=\"hills.jpg\" alt=\"Mountains covered in snow\"&gt;\n&lt;p&gt;Last weekend, my family and I went to the hills for a short trip.&lt;/p&gt;\n&lt;p&gt;The weather was perfect and the views were amazing.&lt;/p&gt;\n&lt;h2&gt;Conclusion&lt;/h2&gt;\n&lt;p&gt;It was one of the best trips I have ever had.&lt;/p&gt;\n&lt;a href=\"articles.html\"&gt;Read more articles&lt;/a&gt;</code></pre>",
+        "explanation": "A typical blog post structure with a title, hero image, body paragraphs, a conclusion section, and a navigation link at the bottom. Each element has a clear purpose."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does HTML stand for?",
+        "options": {
+          "A": "Hyper Tool Markup Language",
+          "B": "HyperText Markup Language",
+          "C": "Home Tool Management Language",
+          "D": "Hyperlink Text Making Language"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> HTML stands for HyperText Markup Language. 'HyperText' refers to text with clickable links, and 'Markup Language' means we add tags to mark the meaning of content."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Who invented HTML?",
+        "options": {
+          "A": "Bill Gates",
+          "B": "Tim Berners-Lee",
+          "C": "Steve Jobs",
+          "D": "Mark Zuckerberg"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Tim Berners-Lee invented HTML in 1991 while working at CERN. He also created the first web browser and web server, which together started the World Wide Web."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which tag creates the largest heading?",
+        "options": {
+          "A": "<h6>",
+          "B": "<heading>",
+          "C": "<h1>",
+          "D": "<head>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>&lt;h1&gt;</code> is the largest heading. Heading tags go from <code>&lt;h1&gt;</code> (biggest) to <code>&lt;h6&gt;</code> (smallest). <code>&lt;heading&gt;</code> is not a valid HTML tag."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which tag is used for a paragraph?",
+        "options": {
+          "A": "<para>",
+          "B": "<paragraph>",
+          "C": "<p>",
+          "D": "<text>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>&lt;p&gt;</code> tag creates a paragraph. <code>&lt;para&gt;</code>, <code>&lt;paragraph&gt;</code>, and <code>&lt;text&gt;</code> are not valid HTML tags."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What file extension do HTML files use?",
+        "options": {
+          "A": ".txt",
+          "B": ".doc",
+          "C": ".html",
+          "D": ".web"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> HTML files must end with <code>.html</code> (or sometimes <code>.htm</code>). This tells the computer to open the file with a web browser, not a text editor."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which tag creates a line break?",
+        "options": {
+          "A": "<break>",
+          "B": "<br>",
+          "C": "<newline>",
+          "D": "<lb>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;br&gt;</code> creates a line break. It is a self-closing tag with no content inside. The other options are not valid HTML tags."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "What is HTML?",
+        "options": {
+          "A": "A programming language",
+          "B": "A markup language",
+          "C": "A database",
+          "D": "A web browser"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> HTML is a markup language — it describes the structure of content using tags. It is not a programming language because it cannot make decisions, do math, or loop. CSS and JavaScript add style and logic."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Easy",
+        "question": "Which tag creates a clickable link?",
+        "options": {
+          "A": "<link>",
+          "B": "<href>",
+          "C": "<a>",
+          "D": "<url>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>&lt;a&gt;</code> tag (anchor tag) creates a hyperlink. The <code>href</code> attribute inside it specifies the destination. <code>&lt;link&gt;</code> is a different tag used in the head for linking to CSS files."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which tag does NOT need a closing tag?",
+        "options": {
+          "A": "<p>",
+          "B": "<img>",
+          "C": "<h1>",
+          "D": "<a>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;img&gt;</code> is a self-closing (void) tag — it has no content between opening and closing. Other self-closing tags include <code>&lt;br&gt;</code>, <code>&lt;hr&gt;</code>, and <code>&lt;input&gt;</code>."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Where should the visible content of the page go?",
+        "options": {
+          "A": "Inside <head>",
+          "B": "Inside <body>",
+          "C": "Inside <title>",
+          "D": "Inside <html>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> All visible content — headings, paragraphs, images, links, lists — goes inside <code>&lt;body&gt;</code>. The <code>&lt;head&gt;</code> is for metadata like the title and character encoding."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Which attribute specifies the destination URL of a link?",
+        "options": {
+          "A": "src",
+          "B": "link",
+          "C": "href",
+          "D": "url"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>href</code> attribute on an <code>&lt;a&gt;</code> tag holds the URL the link goes to. <code>src</code> is used for images and scripts, not links."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "What is an HTML element?",
+        "options": {
+          "A": "Just a tag",
+          "B": "Just the content",
+          "C": "An opening tag, content, and closing tag together",
+          "D": "An attribute name"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> An element consists of the opening tag, the content inside, and the closing tag. For example, <code>&lt;p&gt;Hello&lt;/p&gt;</code> is one element. Self-closing tags like <code>&lt;img&gt;</code> are also elements, just without inner content."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "What is the correct way to add an image?",
+        "options": {
+          "A": "<img href=\"cat.jpg\">",
+          "B": "<image src=\"cat.jpg\">",
+          "C": "<img src=\"cat.jpg\" alt=\"A cat\">",
+          "D": "<picture>cat.jpg</picture>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The correct tag is <code>&lt;img&gt;</code> with <code>src</code> for the source and <code>alt</code> for the alternative text. <code>&lt;image&gt;</code> is not a valid tag, and <code>href</code> is for links, not images."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "What does the DOCTYPE declaration do?",
+        "options": {
+          "A": "It is the page title",
+          "B": "It tells the browser this is HTML5",
+          "C": "It creates a comment",
+          "D": "It adds styles"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;!DOCTYPE html&gt;</code> at the very top tells the browser to render the page using the HTML5 standard. Without it, browsers may fall back to an older rendering mode."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "Which tag creates a numbered list?",
+        "options": {
+          "A": "<ul>",
+          "B": "<list>",
+          "C": "<ol>",
+          "D": "<nl>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>&lt;ol&gt;</code> creates an ordered (numbered) list. <code>&lt;ul&gt;</code> creates an unordered (bulleted) list. Both contain <code>&lt;li&gt;</code> items."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "Which of these is an attribute?",
+        "options": {
+          "A": "<p>",
+          "B": "href=\"page.html\"",
+          "C": "Hello World",
+          "D": "</p>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> An attribute is a name-value pair written inside an opening tag, like <code>href=\"page.html\"</code>. <code>&lt;p&gt;</code> is a tag, 'Hello World' is content, and <code>&lt;/p&gt;</code> is a closing tag."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What version of HTML is currently standard?",
+        "options": {
+          "A": "HTML 3",
+          "B": "HTML 4",
+          "C": "HTML5",
+          "D": "HTML 6"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> HTML5, released in 2014, is the current standard. HTML5 added native support for audio, video, canvas drawings, and many other features. HTML 6 does not exist yet."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Which of these statements is TRUE about HTML?",
+        "options": {
+          "A": "HTML requires a compiler to run",
+          "B": "HTML is case-sensitive for all tags",
+          "C": "HTML is forgiving — small mistakes usually do not crash the page",
+          "D": "HTML can perform calculations"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> HTML is very forgiving — if you misspell a tag or forget a closing tag, the browser usually tries to fix it. This makes HTML great for learning. HTML needs no compiler (A), is not strictly case-sensitive for tags (B), and cannot do math (D)."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "What is the DOM?",
+        "options": {
+          "A": "Document Output Memory",
+          "B": "Direct Object Model",
+          "C": "Document Object Model",
+          "D": "Digital Output Module"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> DOM stands for Document Object Model. It is the tree-like structure the browser builds in memory from your HTML. JavaScript can read and change the DOM to make pages interactive."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "In which year was HTML invented?",
+        "options": {
+          "A": "1985",
+          "B": "1991",
+          "C": "2000",
+          "D": "2014"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> HTML was invented by Tim Berners-Lee in 1991 at CERN. 2014 (D) is when HTML5 was officially standardised, but HTML itself is much older."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "My First Profile Card",
+        "difficulty": "Easy",
+        "question": "Create a complete HTML page that shows a simple profile card with your name as a big heading, a paragraph saying 'I am learning HTML', and an unordered list of three things you like.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A web page with: a big heading with the name 'Aarav', a paragraph 'I am learning HTML', and a bulleted list of three items.",
+        "constraints": "Must be a complete HTML document with DOCTYPE, html, head, and body. Use h1, p, ul, and li tags.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My Profile</title>\n</head>\n<body>\n  <h1>Aarav</h1>\n  <p>I am learning HTML</p>\n  <ul>\n    <li>Cricket</li>\n    <li>Painting</li>\n    <li>Reading</li>\n  </ul>\n</body>\n</html>",
+        "explanation": "Every HTML page needs DOCTYPE, html, head (with title), and body. Inside body, we use <code>h1</code> for the name, <code>p</code> for the introduction, and a <code>ul</code> with <code>li</code> items for the list of hobbies.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html>\n<head><title>Profile</title></head>\n<body>\n  <h1>Priya Sharma</h1>\n  <p>I am learning HTML</p>\n  <ul>\n    <li>Mathematics</li>\n    <li>Science</li>\n    <li>Dance</li>\n  </ul>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Simple Recipe Page",
+        "difficulty": "Easy",
+        "question": "Create an HTML page for a simple recipe. Include the recipe name as a heading, a sub-heading 'Ingredients' with a bulleted list of three ingredients, and a sub-heading 'Steps' with a numbered list of three steps.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A page with the recipe name, an Ingredients section with bullets, and a Steps section with numbers.",
+        "constraints": "Use h1, h2, ul, ol, and li tags.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Chocolate Milkshake</title>\n</head>\n<body>\n  <h1>Chocolate Milkshake</h1>\n  <h2>Ingredients</h2>\n  <ul>\n    <li>2 glasses of milk</li>\n    <li>3 spoons of chocolate powder</li>\n    <li>1 scoop of vanilla ice cream</li>\n  </ul>\n  <h2>Steps</h2>\n  <ol>\n    <li>Pour the milk into a blender</li>\n    <li>Add the chocolate powder and ice cream</li>\n    <li>Blend for 30 seconds and serve cold</li>\n  </ol>\n</body>\n</html>",
+        "explanation": "A recipe has two different kinds of information: ingredients (order does not matter, so use <code>ul</code>) and steps (order matters, so use <code>ol</code>). Each section gets its own <code>h2</code> sub-heading.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html>\n<head><title>Fruit Salad</title></head>\n<body>\n  <h1>Fruit Salad</h1>\n  <h2>Ingredients</h2>\n  <ul>\n    <li>Apple</li>\n    <li>Banana</li>\n    <li>Grapes</li>\n  </ul>\n  <h2>Steps</h2>\n  <ol>\n    <li>Wash all fruits</li>\n    <li>Cut into small pieces</li>\n    <li>Mix in a bowl and serve</li>\n  </ol>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "My Favourite Books Page",
+        "difficulty": "Medium",
+        "question": "Create an HTML page that lists your three favourite books. For each book, show the title as a sub-heading (h2), the author as a paragraph, and a short description as another paragraph. Include a main heading 'My Favourite Books' at the top.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A page with the main heading and three sections, each with a book title, author, and description.",
+        "constraints": "Use h1 for the main heading, h2 for each book title, and p for author and description.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My Books</title>\n</head>\n<body>\n  <h1>My Favourite Books</h1>\n  <h2>Harry Potter</h2>\n  <p>Author: J.K. Rowling</p>\n  <p>A young wizard discovers his magical powers and goes to a wizard school.</p>\n  <h2>The Jungle Book</h2>\n  <p>Author: Rudyard Kipling</p>\n  <p>A boy raised by wolves has amazing adventures in an Indian jungle.</p>\n  <h2>Panchatantra</h2>\n  <p>Author: Vishnu Sharma</p>\n  <p>A collection of wise animal stories that teach life lessons.</p>\n</body>\n</html>",
+        "explanation": "This demonstrates a repeating pattern — one main heading with three sub-sections. Each sub-section has the same structure (h2 + two paragraphs), which is how real web pages are organised.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html>\n<head><title>Books</title></head>\n<body>\n  <h1>My Favourite Books</h1>\n  <h2>Book 1: Malgudi Days</h2>\n  <p>Author: R.K. Narayan</p>\n  <p>Short stories set in a fictional Indian town.</p>\n  <h2>Book 2: Wings of Fire</h2>\n  <p>Author: A.P.J. Abdul Kalam</p>\n  <p>The inspiring autobiography of India's missile man.</p>\n  <h2>Book 3: Matilda</h2>\n  <p>Author: Roald Dahl</p>\n  <p>A brilliant little girl with hidden magical powers.</p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Navigation With Links",
+        "difficulty": "Medium",
+        "question": "Build an HTML page that has a heading 'Welcome' and three links to different websites: Google, Wikipedia, and Modern Age Coders. Each link should be inside its own paragraph.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A heading and three clickable links, each on its own line.",
+        "constraints": "Use h1 for the heading and <a> with href for links. Each link should be wrapped in its own <p>.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My Links</title>\n</head>\n<body>\n  <h1>Welcome</h1>\n  <p><a href=\"https://www.google.com\">Visit Google</a></p>\n  <p><a href=\"https://www.wikipedia.org\">Visit Wikipedia</a></p>\n  <p><a href=\"https://learn.modernagecoders.com\">Modern Age Coders</a></p>\n</body>\n</html>",
+        "explanation": "Each link is wrapped in its own paragraph so they appear on separate lines. The <code>href</code> attribute holds the URL, and the text between the opening and closing <code>&lt;a&gt;</code> tags is what the user clicks.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html>\n<head><title>Links</title></head>\n<body>\n  <h1>Welcome</h1>\n  <ul>\n    <li><a href=\"https://www.google.com\">Google</a></li>\n    <li><a href=\"https://www.wikipedia.org\">Wikipedia</a></li>\n    <li><a href=\"https://learn.modernagecoders.com\">Modern Age Coders</a></li>\n  </ul>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Image Gallery Layout",
+        "difficulty": "Medium",
+        "question": "Create an HTML page titled 'My Gallery' with a main heading, and three sections — each with a sub-heading (the image name), an image, and a paragraph describing it. Use placeholder images.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A gallery page with a main heading and three image sections, each with a title, image, and description.",
+        "constraints": "Use h1, h2, img (with src and alt), and p tags.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My Gallery</title>\n</head>\n<body>\n  <h1>My Gallery</h1>\n  <h2>Sunset at the Beach</h2>\n  <img src=\"https://via.placeholder.com/400x250\" alt=\"Orange sunset over the ocean\">\n  <p>This photo was taken during our family trip to Goa last summer.</p>\n  <h2>Snowy Mountains</h2>\n  <img src=\"https://via.placeholder.com/400x250\" alt=\"Mountains covered in snow\">\n  <p>We visited the Himalayas in December and saw real snow for the first time.</p>\n  <h2>City Skyline</h2>\n  <img src=\"https://via.placeholder.com/400x250\" alt=\"City buildings at night\">\n  <p>The beautiful night lights of Mumbai from the top of a tall building.</p>\n</body>\n</html>",
+        "explanation": "This is how real image galleries are structured — a main heading, and repeating sections that each contain a title, image, and description. The alt text is important for accessibility.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html>\n<head><title>Gallery</title></head>\n<body>\n  <h1>My Photo Gallery</h1>\n  <h2>Photo 1</h2>\n  <img src=\"photo1.jpg\" alt=\"My dog\">\n  <p>My pet dog Buddy.</p>\n  <h2>Photo 2</h2>\n  <img src=\"photo2.jpg\" alt=\"School building\">\n  <p>My school last year.</p>\n  <h2>Photo 3</h2>\n  <img src=\"photo3.jpg\" alt=\"Birthday cake\">\n  <p>My 12th birthday.</p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Mini Blog Post",
+        "difficulty": "Hard",
+        "question": "Create a complete blog post page. Include: a title, an author line, two paragraphs of content, a sub-heading 'What I Learned', a numbered list of three things you learned, a horizontal line, and a link at the bottom that says 'Back to Home'.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A blog post layout with title, author, content, learning list, separator, and navigation link.",
+        "constraints": "Use h1, h2, p, ol, li, hr, and a tags. Everything should be inside body.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My First Blog Post</title>\n</head>\n<body>\n  <h1>My First Week Learning HTML</h1>\n  <p>By Priya Sharma</p>\n  <p>Last Monday I started learning HTML at Modern Age Coders. I was nervous at first because I had never written any code before.</p>\n  <p>By the end of the week, I was building my own web pages and sharing them with my family. It was the best week of my life so far.</p>\n  <h2>What I Learned</h2>\n  <ol>\n    <li>How to create a complete HTML page from scratch</li>\n    <li>The difference between block and inline elements</li>\n    <li>How to use images, lists, and links</li>\n  </ol>\n  <hr>\n  <a href=\"index.html\">Back to Home</a>\n</body>\n</html>",
+        "explanation": "This is a real blog post structure that you could actually publish. It uses almost every tag from this chapter: headings for hierarchy, paragraphs for content, an ordered list for enumerated points, a horizontal rule for visual separation, and a link for navigation.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html>\n<head><title>Blog</title></head>\n<body>\n  <h1>Why I Love Coding</h1>\n  <p>By Vikram Kumar</p>\n  <p>Coding is like solving puzzles. Every problem has a solution if you break it down.</p>\n  <p>The best part is watching your code come alive in the browser.</p>\n  <h2>What I Learned</h2>\n  <ol>\n    <li>HTML tags and elements</li>\n    <li>How browsers read HTML</li>\n    <li>How to debug common mistakes</li>\n  </ol>\n  <hr>\n  <a href=\"home.html\">Back to Home</a>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-7",
+        "title": "School Event Invitation",
+        "difficulty": "Hard",
+        "question": "Create a complete HTML page for a school event invitation. Include the event title as an h1, date and venue as paragraphs, a sub-heading 'Schedule' with an ordered list of three activities, a sub-heading 'Guests' with an unordered list of three guests, and a link at the bottom to 'Register Here'.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A complete invitation page with title, date, venue, schedule, guest list, and registration link.",
+        "constraints": "Use DOCTYPE, html, head, body, h1, h2, p, ol, ul, li, and a.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Annual Science Fair</title>\n</head>\n<body>\n  <h1>Annual Science Fair 2026</h1>\n  <p>Date: 15 August 2026</p>\n  <p>Venue: School Auditorium, Main Building</p>\n  <h2>Schedule</h2>\n  <ol>\n    <li>9:00 AM - Opening Ceremony</li>\n    <li>10:00 AM - Student Project Exhibitions</li>\n    <li>2:00 PM - Prize Distribution</li>\n  </ol>\n  <h2>Special Guests</h2>\n  <ul>\n    <li>Dr. Ananya Rao - Senior Scientist</li>\n    <li>Mr. Rohan Mehta - Robotics Engineer</li>\n    <li>Ms. Kavya Iyer - Science Teacher of the Year</li>\n  </ul>\n  <a href=\"register.html\">Register Here</a>\n</body>\n</html>",
+        "explanation": "This is a practical event invitation you could actually use. Notice how each tag has a specific purpose: headings group information, paragraphs show single facts, ordered lists show steps in order, and unordered lists show items where order does not matter.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html>\n<head><title>Sports Day</title></head>\n<body>\n  <h1>Annual Sports Day</h1>\n  <p>Date: 10 December 2026</p>\n  <p>Venue: School Playground</p>\n  <h2>Events</h2>\n  <ol>\n    <li>100 Meter Race</li>\n    <li>Long Jump</li>\n    <li>Cricket Match</li>\n  </ol>\n  <h2>Chief Guests</h2>\n  <ul>\n    <li>District Collector</li>\n    <li>Former Olympic Athlete</li>\n    <li>School Principal</li>\n  </ul>\n  <a href=\"register.html\">Register Here</a>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-8",
+        "title": "Complete Portfolio Home Page",
+        "difficulty": "Hard",
+        "question": "Build a complete portfolio home page. Include: page title 'My Portfolio', main heading with your name, a paragraph introduction, an image, a sub-heading 'Projects' with an ordered list of three projects, a sub-heading 'Contact' with an email link (mailto:) and a paragraph, a horizontal line, and a small footer paragraph saying 'Made with HTML by [your name]'.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A full portfolio page with all sections: heading, intro, image, projects, contact, footer.",
+        "constraints": "Must include DOCTYPE, html, head (with title), body, h1, h2, p, img, ol, li, a (with mailto:), hr.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My Portfolio</title>\n</head>\n<body>\n  <h1>Neha Verma</h1>\n  <p>Hi, I am Neha. I am a 14-year-old student from Bangalore who loves building things with HTML and CSS.</p>\n  <img src=\"https://via.placeholder.com/200x200\" alt=\"Photo of Neha\">\n  <h2>Projects</h2>\n  <ol>\n    <li>Personal Blog Website</li>\n    <li>Recipe Collection Page</li>\n    <li>Favourite Books Gallery</li>\n  </ol>\n  <h2>Contact</h2>\n  <p>You can email me at <a href=\"mailto:neha@example.com\">neha@example.com</a></p>\n  <p>I would love to hear from you if you have any ideas or feedback.</p>\n  <hr>\n  <p>Made with HTML by Neha Verma</p>\n</body>\n</html>",
+        "explanation": "This is a real portfolio page using every concept from the chapter. The <code>mailto:</code> prefix in the href makes the link open the user's email app. The footer paragraph at the bottom is separated by a horizontal rule for visual clarity.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html>\n<head><title>Portfolio</title></head>\n<body>\n  <h1>Arjun Singh</h1>\n  <p>I am a young coder passionate about web development.</p>\n  <img src=\"me.jpg\" alt=\"Arjun's photo\">\n  <h2>Projects</h2>\n  <ol>\n    <li>Math Quiz Page</li>\n    <li>Science Fair Project Site</li>\n    <li>Family Tree Page</li>\n  </ol>\n  <h2>Contact</h2>\n  <p>Email me: <a href=\"mailto:arjun@example.com\">arjun@example.com</a></p>\n  <p>Open to new ideas and collaborations.</p>\n  <hr>\n  <p>Made with HTML by Arjun Singh</p>\n</body>\n</html>"
+      }
+    ]
+  }
+}

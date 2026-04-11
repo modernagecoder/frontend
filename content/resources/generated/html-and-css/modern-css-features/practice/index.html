@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Modern CSS - Container Queries, Subgrid, clamp(), has() Selector | HTML and CSS | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="56+ practice questions on Modern CSS - Container Queries, Subgrid, clamp(), has() Selector in HTML and CSS. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="modern css - container queries, subgrid, clamp(), has() selector practice, html and css questions, html and css practice problems, modern css - container queries, subgrid, clamp(), has() selector exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/modern-css-features/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/modern-css-features/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/modern-css-features/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/modern-css-features/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/modern-css-features/practice">
+    <meta property="og:title" content="Practice Questions - Modern CSS - Container Queries, Subgrid, clamp(), has() Selector | HTML and CSS | Modern Age Coders">
+    <meta property="og:description" content="56+ practice questions on Modern CSS - Container Queries, Subgrid, clamp(), has() Selector in HTML and CSS. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/modern-css-features/practice">
+    <meta name="twitter:title" content="Practice Questions - Modern CSS - Container Queries, Subgrid, clamp(), has() Selector | HTML and CSS | Modern Age Coders">
+    <meta name="twitter:description" content="56+ practice questions on Modern CSS - Container Queries, Subgrid, clamp(), has() Selector in HTML and CSS. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Modern CSS - Container Queries, Subgrid, clamp(), has() Selector",
+    "description": "56+ practice questions on Modern CSS - Container Queries, Subgrid, clamp(), has() Selector in HTML and CSS.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Modern CSS - Container Queries, Subgrid, clamp(), has() Selector"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/modern-css-features/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Modern CSS - Container Queries, Subgrid, clamp(), has() Selector",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/modern-css-features"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/modern-css-features/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css/modern-css-features">Modern CSS - Container Queries, Subgrid, clamp(), has() Selector</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 23</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">56 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Modern CSS - Container Queries, Subgrid, clamp(), has() Selector</h1>
+            <a href="/resources/html-and-css/modern-css-features" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">14</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>aspect-ratio: 16/9</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Think width to height.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">Locks the element's width-to-height ratio at 16:9. If you set width to 320px, height becomes 180px automatically.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>clamp(16px, 5vw, 32px)</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Minimum, preferred, maximum.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2">Returns 5vw of the viewport width, but never less than 16px and never more than 32px. A smooth fluid value.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>:has()</code> select?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">It is a parent selector.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3">An element that contains a descendant matching the inner selector. <code>.card:has(img)</code> matches a card that contains an image.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why is <code>100dvh</code> better than <code>100vh</code> on mobile?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Mobile toolbars change.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4">On mobile, the address bar shows and hides as the user scrolls. <code>100dvh</code> (dynamic viewport height) updates to reflect this. <code>100vh</code> does not, causing layout jumps.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>text-wrap: balance</code> do on a heading?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">No orphans.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5">It rewraps the heading so each line has roughly the same number of words, avoiding a lonely orphan word on the last line.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is <code>container-type: inline-size</code> used for?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Marks an element as something.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">It marks the element as a query container so descendants can use <code>@container</code> queries based on its width.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>:focus-visible</code> match?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Keyboard vs mouse.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7">Focused elements, but only when the browser thinks the focus came from the keyboard (not from a mouse click).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>margin-inline: 20px</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Logical property.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8">Sets margin-left and margin-right each to 20px (in left-to-right languages). In right-to-left languages, it sets right and left accordingly.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>accent-color: #7c3aed</code> style?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Form controls.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">It sets the 'accent' color used to draw checkboxes, radio buttons, range sliders, and progress bars. All native form controls become purple.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why use container queries instead of media queries?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Components do not know about viewports.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">A component does not know how wide the viewport is — it knows how wide its container is. Container queries let the same component adapt correctly whether it is in a narrow sidebar or a wide hero.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this do?<br><pre><code>.card {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Subgrid uses parent tracks.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">The card becomes a grid whose rows are inherited from its parent grid. <code>grid-row: span 3</code> makes it occupy 3 parent rows, and its children snap to those parent tracks.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does <code>color-mix(in oklab, #7c3aed 80%, white)</code> produce?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Mix 80% purple with 20% white.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">A light tint of purple (80% brand purple + 20% white). It is a pastel version of the original color.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this do?<br><pre><code>body:has(.modal[open]) {
+  overflow: hidden;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">:has() plus attribute.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">When any descendant of the body is a modal with the <code>open</code> attribute, the body's scrolling is disabled. Great for locking the background when a modal is visible.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>svh</code>, <code>lvh</code>, and <code>dvh</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Small, large, dynamic.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>svh</code>: small viewport (with toolbars showing). <code>lvh</code>: large viewport (with toolbars hidden). <code>dvh</code>: dynamic - updates live as toolbars show/hide.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this do?<br><pre><code>.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+.slide { scroll-snap-align: center; }</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Snap to slides.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">A horizontal scrolling carousel where each slide snaps to the center of the viewport as the user scrolls. No JavaScript.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does <code>padding-block-start: 16px</code> do in a left-to-right language?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Block is vertical in LTR.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">It sets <code>padding-top: 16px</code>. In LTR languages, the 'block' axis is vertical and 'start' is the top.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Does this container query work?<br><pre><code>.sidebar { /* no container-type */ }
+@container (min-width: 400px) {
+  .card { display: grid; }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">container-type is required.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">No. Without <code>container-type: inline-size</code> (or <code>size</code>) on <code>.sidebar</code>, the browser does not track its size and the <code>@container</code> rule never matches.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does <code>font-size: clamp(1rem, 3vw + 0.5rem, 2rem)</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Complex preferred expression.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18">Font size is 3vw plus 0.5rem, but clamped between 1rem and 2rem. This is a common pattern for smooth but bounded fluid typography.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What selects labels whose input is checked?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Parent selector.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>label:has(input:checked)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is wrong with this?<br><pre><code>h1 { font-size: clamp(5vw, 32px, 60px); }</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Argument order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20">The arguments are in the wrong order. It should be <code>clamp(min, preferred, max)</code>, so: <code>clamp(32px, 5vw, 60px)</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this do?<br><pre><code>.thumbnail { aspect-ratio: 1; width: 80px; }</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">Square.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21">Creates an 80x80 square. The width is 80px and <code>aspect-ratio: 1</code> makes the height match.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Is this valid?<br><pre><code>input[type="range"] { accent-color: #7c3aed; }</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">Yes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22">Yes. <code>accent-color</code> styles the track and thumb of range sliders with the specified color.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is subgrid so useful for card grids?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-23">Alignment across cards.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-23">Without subgrid, each card has its own grid and the internal rows of different cards do not align. With subgrid, cards share the parent's row tracks, so all titles, bodies, and footers line up across the whole row.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 24</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Name three things <code>:has()</code> replaces that used to require JavaScript.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-24" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-24">Think reactive patterns.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-24">1) Toggling a class on a parent based on child state. 2) Disabling a submit button while any input is invalid. 3) Hiding body scroll when a modal is open. 4) Highlighting a card that contains an image. And many more.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 25</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this do?<br><pre><code>@container card (min-width: 500px) {
+  .title { font-size: 28px; }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-25" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-25">Named container query.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-25">When the nearest ancestor with <code>container-name: card</code> (and a container-type) is at least 500px wide, <code>.title</code> gets a 28px font size.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 26</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is wrong?<br><pre><code>body:has(form:has(input:invalid)) { background: red; }</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-26" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-26">Unnecessary nesting.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-26" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-26">Nested :has() is usually unnecessary. Use <code>body:has(input:invalid)</code> instead. :has() already walks the whole subtree.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 27</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What happens here?<br><pre><code>:root { accent-color: magenta; }
+.dark { accent-color: cyan; }</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-27" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-27">Inheritance.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-27" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-27">Form controls use magenta by default but cyan inside any element with the <code>dark</code> class. <code>accent-color</code> is inherited.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 28</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Does this do what you expect?<br><pre><code>.card:has(.featured) h3 {
+  color: red;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-28" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-28">Parent selector with a descendant combinator.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-28" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-28">Yes. It selects h3 elements inside a card that contains a .featured descendant. The red color applies only to cards marked as featured.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 29</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does <code>interpolate-size: allow-keywords</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-29" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-29">Animating to/from auto.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-29" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-29">It lets CSS transition from a fixed size to <code>auto</code> (or <code>min-content</code>, <code>max-content</code>, etc.), which historically was impossible. Enables animating accordions open without JavaScript.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 30</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">When would you use <code>container-type: size</code> instead of <code>inline-size</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-30" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-30">Both axes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-30" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-30">Use <code>size</code> when you need to query the container's height as well. It tracks both width and height. Use <code>inline-size</code> (more efficient) when you only need width, which is most of the time.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 31</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is <code>color-mix(in oklab, ...)</code> preferred over <code>in srgb</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-31" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-31">Color space.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-31" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-31"><code>oklab</code> is a perceptually-uniform color space, so mixing produces visually smooth transitions without the muddy greens and browns you sometimes get in sRGB. Mixing red and blue in oklab gives a clean purple.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 32</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">How does <code>text-wrap: balance</code> work differently from manual <code>&lt;br&gt;</code> tags?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-32" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-32">Responsive.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-32" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-32">Manual line breaks force a break at a fixed position regardless of screen size, often breaking badly on narrow or wide screens. <code>text-wrap: balance</code> lets the browser rebalance at any size, so the heading always looks well-wrapped.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <p>Questions coming soon.</p>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does <code>aspect-ratio: 16/9</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Sets the width to 16px and height to 9px</li><li><span class="mcq-option-label">B.</span> Locks the ratio of width to height at 16:9</li><li><span class="mcq-option-label">C.</span> Crops the element to 16x9</li><li><span class="mcq-option-label">D.</span> Resizes the image file</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>aspect-ratio</code> locks the width-to-height ratio. Set one dimension and the other is calculated automatically.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which is the correct order for <code>clamp()</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> clamp(preferred, min, max)</li><li><span class="mcq-option-label">B.</span> clamp(max, preferred, min)</li><li><span class="mcq-option-label">C.</span> clamp(min, preferred, max)</li><li><span class="mcq-option-label">D.</span> clamp(min, max, preferred)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>clamp(min, preferred, max)</code>. The preferred value is used, but never below the min or above the max.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does <code>:has()</code> enable that CSS historically could not do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Style child elements</li><li><span class="mcq-option-label">B.</span> Select a parent based on its children</li><li><span class="mcq-option-label">C.</span> Add animations</li><li><span class="mcq-option-label">D.</span> Change fonts</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>:has()</code> is the parent selector. It lets you match an element based on what it contains, which CSS could not do before 2022-2023.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What must an element have to participate in container queries?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> display: container</li><li><span class="mcq-option-label">B.</span> container-type: inline-size (or size)</li><li><span class="mcq-option-label">C.</span> class=&quot;container&quot;</li><li><span class="mcq-option-label">D.</span> Nothing, it works by default</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> Without <code>container-type</code>, the browser does not track the element's size for container queries.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which unit should you prefer over <code>100vh</code> on mobile?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 100vw</li><li><span class="mcq-option-label">B.</span> 100dvh</li><li><span class="mcq-option-label">C.</span> 100em</li><li><span class="mcq-option-label">D.</span> 100%</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>100dvh</code> (dynamic viewport height) adjusts as mobile browser toolbars show and hide, preventing layout jumps.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does <code>text-wrap: balance</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Centers text</li><li><span class="mcq-option-label">B.</span> Distributes words across lines to avoid orphans</li><li><span class="mcq-option-label">C.</span> Makes text bold</li><li><span class="mcq-option-label">D.</span> Changes font size</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> It rebalances wrapping so a heading does not end with a single orphan word. Great for hero titles.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Which property themes all native form controls in one line?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> form-color</li><li><span class="mcq-option-label">B.</span> control-color</li><li><span class="mcq-option-label">C.</span> accent-color</li><li><span class="mcq-option-label">D.</span> theme-color</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>accent-color</code> sets the theme color for checkboxes, radios, range sliders, and progress bars.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is <code>margin-inline: 20px</code> in a left-to-right language?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 20px top and bottom</li><li><span class="mcq-option-label">B.</span> 20px left and right</li><li><span class="mcq-option-label">C.</span> 20px only left</li><li><span class="mcq-option-label">D.</span> Not valid CSS</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> In LTR languages, the inline axis is horizontal. <code>margin-inline</code> sets left and right margin. In RTL languages it still sets the start-and-end direction correctly.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does <code>container-type: inline-size</code> mean?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only track the width</li><li><span class="mcq-option-label">B.</span> Only track the height</li><li><span class="mcq-option-label">C.</span> Track both width and height</li><li><span class="mcq-option-label">D.</span> Disable queries</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>inline-size</code> tracks the container's inline (width) dimension. It is more efficient than <code>size</code> and is what you want most of the time.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is subgrid used for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Adding rows to a grid</li><li><span class="mcq-option-label">B.</span> Making a nested grid share its parent&#39;s tracks</li><li><span class="mcq-option-label">C.</span> Hiding the grid</li><li><span class="mcq-option-label">D.</span> Changing column count</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>grid-template-columns: subgrid</code> (or rows) makes a child grid use the parent's tracks, aligning descendants across siblings.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Which <code>:focus-visible</code> statement is TRUE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It only matches on mouse clicks</li><li><span class="mcq-option-label">B.</span> It matches when the browser decides the focus is keyboard-like</li><li><span class="mcq-option-label">C.</span> It is the same as :focus</li><li><span class="mcq-option-label">D.</span> It only works on inputs</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>:focus-visible</code> is the modern focus ring pseudo-class. It shows the ring for keyboard users but hides it for mouse users who do not need it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">How do you disable a submit button while any input is invalid, with just CSS?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Impossible without JavaScript</li><li><span class="mcq-option-label">B.</span> form:has(input:invalid) button { pointer-events: none; opacity: 0.4; }</li><li><span class="mcq-option-label">C.</span> input:invalid button { disabled: true; }</li><li><span class="mcq-option-label">D.</span> form[invalid] button { display: none; }</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>:has()</code> checks if the form contains an invalid input. If so, the rule disables and fades the button.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does <code>color-mix(in oklab, red 50%, blue)</code> produce?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A 50/50 blend of red and blue in oklab color space (a clean purple)</li><li><span class="mcq-option-label">B.</span> Only red</li><li><span class="mcq-option-label">C.</span> Only blue</li><li><span class="mcq-option-label">D.</span> A random color</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>color-mix()</code> blends two colors in the specified color space. <code>oklab</code> gives perceptually-uniform mixing.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which is the right way to build a carousel with pure CSS?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Use JavaScript</li><li><span class="mcq-option-label">B.</span> Use scroll-snap-type on the container and scroll-snap-align on each slide</li><li><span class="mcq-option-label">C.</span> Use display: table</li><li><span class="mcq-option-label">D.</span> Use position: fixed</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>scroll-snap</code> gives you native carousel scrolling that snaps to each slide, with no JavaScript required.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which viewport unit updates live as mobile toolbars show/hide?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> vh</li><li><span class="mcq-option-label">B.</span> svh</li><li><span class="mcq-option-label">C.</span> lvh</li><li><span class="mcq-option-label">D.</span> dvh</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: D</strong><br><strong>D is correct.</strong> <code>dvh</code> (dynamic viewport height) updates continuously to match the current visible viewport.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">You have <code>@container (min-width: 400px) { ... }</code> with NO container-type set on any ancestor. What happens?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It falls back to media query</li><li><span class="mcq-option-label">B.</span> It never matches — nothing has been declared as a container</li><li><span class="mcq-option-label">C.</span> It matches the viewport</li><li><span class="mcq-option-label">D.</span> It throws an error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> Without <code>container-type</code> on any ancestor, the query has no container to match and never activates.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Which is the best fluid font-size declaration?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> font-size: 5vw</li><li><span class="mcq-option-label">B.</span> font-size: 24px</li><li><span class="mcq-option-label">C.</span> font-size: clamp(16px, 2.5vw + 0.5rem, 32px)</li><li><span class="mcq-option-label">D.</span> font-size: 2vh</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>clamp()</code> gives a fluid value bounded by a readable minimum and a reasonable maximum. Pure <code>vw</code> becomes too small on mobile and too large on desktop.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What does this do?<br><code>label:has(input:checked) { background: #7c3aed; color: white; }</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Styles all labels</li><li><span class="mcq-option-label">B.</span> Styles only labels that contain a currently-checked input</li><li><span class="mcq-option-label">C.</span> Styles the input</li><li><span class="mcq-option-label">D.</span> Nothing</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>:has(input:checked)</code> matches labels with a checked input inside. Clicking the label ticks the input, which instantly triggers the highlight style.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Fluid Typography Hero</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Build a full-screen hero section with a large heading, subtitle, and CTA button. Use <code>clamp()</code> for every font-size and padding value so the whole section scales smoothly from mobile to desktop. Use <code>text-wrap: balance</code> on the heading. Use <code>100dvh</code> for the height. Name the project after Aarav.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Resize the browser window</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A hero that scales smoothly from phone to desktop without any media queries.</div>
+                </div><div class="challenge-constraints">No media queries. Use clamp() for fluid values. Use 100dvh. Use text-wrap: balance.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #0f172a; color: white; }
+  .hero {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: clamp(24px, 6vw, 80px) clamp(16px, 5vw, 48px);
+    gap: clamp(16px, 2vw, 28px);
+    background: radial-gradient(ellipse at top, #1e1b4b, #0f172a 60%);
+  }
+  .hero h1 {
+    font-size: clamp(34px, 6vw, 72px);
+    line-height: 1.1;
+    text-wrap: balance;
+    background: linear-gradient(135deg, #a855f7, #06b6d4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 900px;
+  }
+  .hero p {
+    font-size: clamp(16px, 2vw, 22px);
+    color: #94a3b8;
+    max-width: 640px;
+    line-height: 1.6;
+    text-wrap: pretty;
+  }
+  .cta {
+    display: inline-block;
+    padding: clamp(12px, 1.5vw, 18px) clamp(24px, 3vw, 40px);
+    background: linear-gradient(135deg, #7c3aed, #db2777);
+    color: white;
+    font-size: clamp(14px, 1.4vw, 18px);
+    font-weight: 700;
+    border-radius: 999px;
+    text-decoration: none;
+    box-shadow: 0 15px 40px rgba(124, 58, 237, 0.35);
+  }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;section class=&quot;hero&quot;&gt;
+    &lt;h1&gt;Aarav&#39;s Frontend Universe&lt;/h1&gt;
+    &lt;p&gt;Every size on this page uses clamp(). No breakpoints. No media queries. Pure fluid design that looks perfect at any viewport size.&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;cta&quot;&gt;Explore Projects&lt;/a&gt;
+  &lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Square Avatar Grid with aspect-ratio</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Build a responsive grid of 8 user avatars for Priya, Rohan, Ishita, Vivaan, Anika, Kavya, Meera, and Ishaan. Every avatar MUST be a perfect square thanks to <code>aspect-ratio: 1</code>. Use a responsive grid with <code>repeat(auto-fit, minmax())</code>. Each avatar is a gradient with the student's initial.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">None</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A responsive grid of 8 square gradient avatars, each showing the user&#39;s initial.</div>
+                </div><div class="challenge-constraints">Use aspect-ratio. Use auto-fit minmax. No fixed height on avatars.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #f8fafc; padding: 40px 24px; }
+  h1 { text-align: center; color: #7c3aed; margin-bottom: 24px; font-size: clamp(22px, 3vw, 32px); }
+  .people { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 16px; max-width: 800px; margin: 0 auto; }
+  .person {
+    aspect-ratio: 1;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: clamp(28px, 5vw, 48px);
+    font-weight: 800;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  .person:hover { transform: translateY(-4px) scale(1.03); }
+  .p1 { background: linear-gradient(135deg, #a855f7, #ec4899); }
+  .p2 { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }
+  .p3 { background: linear-gradient(135deg, #f59e0b, #ef4444); }
+  .p4 { background: linear-gradient(135deg, #10b981, #06b6d4); }
+  .p5 { background: linear-gradient(135deg, #8b5cf6, #3b82f6); }
+  .p6 { background: linear-gradient(135deg, #ec4899, #f59e0b); }
+  .p7 { background: linear-gradient(135deg, #14b8a6, #84cc16); }
+  .p8 { background: linear-gradient(135deg, #f43f5e, #8b5cf6); }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Class of 2026&lt;/h1&gt;
+  &lt;div class=&quot;people&quot;&gt;
+    &lt;div class=&quot;person p1&quot;&gt;P&lt;/div&gt;
+    &lt;div class=&quot;person p2&quot;&gt;R&lt;/div&gt;
+    &lt;div class=&quot;person p3&quot;&gt;I&lt;/div&gt;
+    &lt;div class=&quot;person p4&quot;&gt;V&lt;/div&gt;
+    &lt;div class=&quot;person p5&quot;&gt;A&lt;/div&gt;
+    &lt;div class=&quot;person p6&quot;&gt;K&lt;/div&gt;
+    &lt;div class=&quot;person p7&quot;&gt;M&lt;/div&gt;
+    &lt;div class=&quot;person p8&quot;&gt;I&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Card That Responds to Its Container</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a card component that uses container queries. Place the same card in two containers: a narrow column and a wide column. When the container is wider than 380px, the card should switch from vertical (image above text) to horizontal (image beside text). Use <code>container-type: inline-size</code> and <code>@container</code>.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">None</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Two copies of the same card component with different layouts based on their container widths.</div>
+                </div><div class="challenge-constraints">Use container queries. No media queries. Same CSS class for both cards.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #f1f5f9; padding: 32px; display: grid; gap: 24px; grid-template-columns: 1fr 2fr; max-width: 1100px; margin: 0 auto; }
+  @media (max-width: 800px) { body { grid-template-columns: 1fr; } }
+  .column { background: white; padding: 20px; border-radius: 14px; container-type: inline-size; box-shadow: 0 4px 14px rgba(0,0,0,0.06); }
+  .column h2 { color: #7c3aed; margin-bottom: 14px; font-size: 16px; text-transform: uppercase; letter-spacing: 1px; }
+  .card {
+    background: #faf5ff;
+    border: 1px solid #e9d5ff;
+    border-radius: 12px;
+    padding: 16px;
+  }
+  .card .thumb {
+    width: 100%;
+    aspect-ratio: 16/10;
+    background: linear-gradient(135deg, #a855f7, #ec4899);
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  .card h3 { color: #0f172a; font-size: 18px; margin-bottom: 6px; }
+  .card p { color: #64748b; font-size: 14px; line-height: 1.5; }
+  @container (min-width: 380px) {
+    .card {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 16px;
+      align-items: center;
+    }
+    .card .thumb { aspect-ratio: 1; margin: 0; }
+  }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;column&quot;&gt;
+    &lt;h2&gt;Narrow column&lt;/h2&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;div class=&quot;thumb&quot;&gt;&lt;/div&gt;
+      &lt;h3&gt;Meera&#39;s Blog Post&lt;/h3&gt;
+      &lt;p&gt;This column is narrow, so the same card stacks vertically with the image on top.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;column&quot;&gt;
+    &lt;h2&gt;Wide column&lt;/h2&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;div class=&quot;thumb&quot;&gt;&lt;/div&gt;
+      &lt;h3&gt;Ishaan&#39;s Blog Post&lt;/h3&gt;
+      &lt;p&gt;Same card, same HTML, same CSS class. But the container query detects a wider parent and switches to a horizontal layout automatically.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Pure CSS Carousel with scroll-snap</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a horizontal carousel with 6 project cards (name them after Aarav, Priya, Rohan, Ishita, Vivaan, and Anika). Use <code>scroll-snap-type: x mandatory</code> on the container and <code>scroll-snap-align: center</code> on each slide. Each slide should be a gradient with the project name. No JavaScript.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Drag or scroll horizontally</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A smooth scrolling carousel that snaps each card to the center.</div>
+                </div><div class="challenge-constraints">Use scroll-snap. No JavaScript. Use aspect-ratio on slides.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #0f172a; color: white; padding: 40px 0; }
+  h1 { text-align: center; color: #a855f7; margin-bottom: 24px; font-size: clamp(24px, 3vw, 40px); }
+  .carousel {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 24px;
+    padding: 16px 24px 32px;
+  }
+  .slide {
+    flex: 0 0 85%;
+    max-width: 520px;
+    aspect-ratio: 16/10;
+    scroll-snap-align: center;
+    border-radius: 20px;
+    padding: 28px;
+    display: flex;
+    align-items: flex-end;
+    font-size: clamp(20px, 3vw, 32px);
+    font-weight: 800;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+  }
+  .s1 { background: linear-gradient(135deg, #7c3aed, #ec4899); }
+  .s2 { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }
+  .s3 { background: linear-gradient(135deg, #f59e0b, #ef4444); }
+  .s4 { background: linear-gradient(135deg, #10b981, #06b6d4); }
+  .s5 { background: linear-gradient(135deg, #8b5cf6, #3b82f6); }
+  .s6 { background: linear-gradient(135deg, #ec4899, #f59e0b); }
+  @media (min-width: 700px) { .slide { flex: 0 0 60%; } }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Student Showcase&lt;/h1&gt;
+  &lt;div class=&quot;carousel&quot;&gt;
+    &lt;div class=&quot;slide s1&quot;&gt;Aarav&#39;s Quiz App&lt;/div&gt;
+    &lt;div class=&quot;slide s2&quot;&gt;Priya&#39;s Weather&lt;/div&gt;
+    &lt;div class=&quot;slide s3&quot;&gt;Rohan&#39;s Calculator&lt;/div&gt;
+    &lt;div class=&quot;slide s4&quot;&gt;Ishita&#39;s Blog&lt;/div&gt;
+    &lt;div class=&quot;slide s5&quot;&gt;Vivaan&#39;s Portfolio&lt;/div&gt;
+    &lt;div class=&quot;slide s6&quot;&gt;Anika&#39;s Timer&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Subgrid Card Row with Aligned Content</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a row of 3 blog cards where the title, body, and 'Read More' link align perfectly across all cards, even though the content lengths differ. Use <code>grid-template-rows: subgrid</code> on each card. The parent grid must define the row structure.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">None</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Three cards where each title starts at the same y-position and each &#39;Read More&#39; sits at the same y-position, regardless of body length.</div>
+                </div><div class="challenge-constraints">Use subgrid. Do not use fixed heights on the cards.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #f1f5f9; padding: 40px 24px; }
+  h1 { text-align: center; color: #7c3aed; margin-bottom: 24px; font-size: 32px; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto 1fr auto;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .card {
+    display: grid;
+    grid-row: span 4;
+    grid-template-rows: subgrid;
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    transition: transform 0.2s;
+  }
+  .card:hover { transform: translateY(-4px); }
+  .card .img { aspect-ratio: 16/9; border-radius: 10px; margin-bottom: 12px; }
+  .card h3 { color: #0f172a; font-size: 18px; text-wrap: balance; }
+  .card p { color: #64748b; font-size: 14px; line-height: 1.6; }
+  .card a { color: #7c3aed; text-decoration: none; font-weight: 600; font-size: 14px; margin-top: 12px; }
+  .c1 .img { background: linear-gradient(135deg, #a855f7, #ec4899); }
+  .c2 .img { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }
+  .c3 .img { background: linear-gradient(135deg, #f59e0b, #ef4444); }
+  @media (max-width: 800px) { .grid { grid-template-columns: 1fr; } }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Kavya&#39;s Blog&lt;/h1&gt;
+  &lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;card c1&quot;&gt;
+      &lt;div class=&quot;img&quot;&gt;&lt;/div&gt;
+      &lt;h3&gt;Why I Switched to Subgrid&lt;/h3&gt;
+      &lt;p&gt;Short post.&lt;/p&gt;
+      &lt;a href=&quot;#&quot;&gt;Read more&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card c2&quot;&gt;
+      &lt;div class=&quot;img&quot;&gt;&lt;/div&gt;
+      &lt;h3&gt;Container Queries Change Everything for Component-Driven Design&lt;/h3&gt;
+      &lt;p&gt;A detailed walkthrough of how container queries replaced dozens of media queries in my side project, with before and after screenshots and code samples.&lt;/p&gt;
+      &lt;a href=&quot;#&quot;&gt;Read more&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card c3&quot;&gt;
+      &lt;div class=&quot;img&quot;&gt;&lt;/div&gt;
+      &lt;h3&gt;CSS has() In Production&lt;/h3&gt;
+      &lt;p&gt;Real examples from my work.&lt;/p&gt;
+      &lt;a href=&quot;#&quot;&gt;Read more&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Reactive Form with :has() and color-mix()</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a signup form that changes color state using <code>:has()</code>. When any input is invalid, the form border is red and the submit button is disabled. When all are valid, the border turns green. Use <code>color-mix()</code> to generate hover and disabled color variants from a single brand color. No JavaScript.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Type into form fields</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">The form reacts to validation state in real time: red border + disabled button when invalid, green border + enabled button when all valid.</div>
+                </div><div class="challenge-constraints">Use :has() for the parent reaction. Use color-mix() for variants. No JavaScript.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  :root {
+    --brand: #7c3aed;
+    --bg: #f8fafc;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: &#39;Segoe UI&#39;, sans-serif; background: var(--bg); padding: clamp(24px, 5vw, 60px); display: flex; justify-content: center; }
+  form {
+    background: white;
+    padding: clamp(24px, 4vw, 36px);
+    border-radius: 18px;
+    max-width: 440px;
+    width: 100%;
+    box-shadow: 0 14px 40px rgba(0,0,0,0.08);
+    border: 3px solid transparent;
+    transition: border-color 0.3s, background 0.3s;
+  }
+  form:has(input:invalid) {
+    border-color: color-mix(in oklab, #ef4444 40%, white);
+    background: color-mix(in oklab, #fef2f2 70%, white);
+  }
+  form:has(input:valid):not(:has(input:invalid)) {
+    border-color: color-mix(in oklab, #10b981 40%, white);
+    background: color-mix(in oklab, #f0fdf4 70%, white);
+  }
+  h2 { color: #0f172a; margin-bottom: 16px; font-size: clamp(20px, 3vw, 26px); text-wrap: balance; }
+  label { display: block; margin-bottom: 14px; font-size: 13px; color: #475569; }
+  input {
+    display: block; width: 100%; padding: 12px;
+    margin-top: 6px; border: 2px solid #e2e8f0;
+    border-radius: 10px; font-size: 15px; outline: none;
+    transition: border-color 0.2s;
+  }
+  input:focus { border-color: var(--brand); }
+  input:not(:placeholder-shown):valid { border-color: #10b981; }
+  input:not(:placeholder-shown):invalid { border-color: #ef4444; }
+  button {
+    width: 100%; padding: 14px;
+    background: var(--brand); color: white;
+    border: none; border-radius: 10px;
+    font-size: 16px; font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, opacity 0.2s;
+  }
+  button:hover { background: color-mix(in oklab, var(--brand) 85%, black); }
+  form:has(input:invalid) button {
+    background: color-mix(in oklab, var(--brand) 30%, white);
+    pointer-events: none;
+  }
+  .status { margin-top: 12px; text-align: center; font-size: 14px; font-weight: 600; min-height: 20px; }
+  form:has(input:invalid) .status::before { content: &#39;Fix the highlighted fields&#39;; color: #ef4444; }
+  form:has(input:valid):not(:has(input:invalid)) .status::before { content: &#39;All good - ready to submit!&#39;; color: #10b981; }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form&gt;
+    &lt;h2&gt;Ishaan&#39;s Signup Form&lt;/h2&gt;
+    &lt;label&gt;Name&lt;input type=&quot;text&quot; placeholder=&quot;Your name&quot; minlength=&quot;2&quot; required&gt;&lt;/label&gt;
+    &lt;label&gt;Email&lt;input type=&quot;email&quot; placeholder=&quot;you@example.com&quot; required&gt;&lt;/label&gt;
+    &lt;label&gt;Age&lt;input type=&quot;number&quot; placeholder=&quot;10 to 18&quot; min=&quot;10&quot; max=&quot;18&quot; required&gt;&lt;/label&gt;
+    &lt;label&gt;Password&lt;input type=&quot;password&quot; placeholder=&quot;At least 6 chars&quot; minlength=&quot;6&quot; required&gt;&lt;/label&gt;
+    &lt;button type=&quot;submit&quot;&gt;Create Account&lt;/button&gt;
+    &lt;p class=&quot;status&quot;&gt;&lt;/p&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/html-and-css/pseudo-classes-and-pseudo-elements/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Pseudo-classes and Pseudo-elements</span>
+        </a>
+            <a href="/resources/html-and-css/project-build-a-landing-page/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Project: Build a Complete Landing Page</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/html-and-css/modern-css-features" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

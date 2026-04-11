@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display and Positioning (static, relative, absolute, fixed, sticky) - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Master block, inline, inline-block, none, and all position values with z-index for stacking.">
+    <meta name="keywords" content="display and positioning (static, relative, absolute, fixed, sticky), html and css tutorial, html and css display and positioning (static, relative, absolute, fixed, sticky), learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/display-and-positioning">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/display-and-positioning">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/display-and-positioning">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/display-and-positioning">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/display-and-positioning">
+    <meta property="og:title" content="Display and Positioning (static, relative, absolute, fixed, sticky) - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Master block, inline, inline-block, none, and all position values with z-index for stacking.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/display-and-positioning">
+    <meta name="twitter:title" content="Display and Positioning (static, relative, absolute, fixed, sticky) - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Master block, inline, inline-block, none, and all position values with z-index for stacking.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Display and Positioning (static, relative, absolute, fixed, sticky)",
+    "description": "Master block, inline, inline-block, none, and all position values with z-index for stacking.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/display-and-positioning"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/display-and-positioning"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Display and Positioning (static, relative, absolute, fixed, sticky)",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/display-and-positioning"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Setting width/height on inline Elements",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If you need to set explicit dimensions, change the display to inline-block or block. Only block-level elements respect width and height."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "z-index Not Working on Static Elements",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "z-index requires position to be anything except static. Add position: relative to give z-index effect without moving the element."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Absolute Positioning Without a Positioned Ancestor",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolute elements are positioned relative to the nearest POSITIONED ancestor. If none exists, they use the viewport. Always add position: relative to the parent when you want to anchor an absolute child to it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "position: sticky Without a Threshold or Scrollable Context",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sticky requires a threshold value (top, right, bottom, or left) to know when to stick. Also the ancestor must be taller than the sticky element to actually allow scrolling."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Display and Positioning (static, relative, absolute, fixed, sticky)</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 14</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">42 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Display and Positioning (static, relative, absolute, fixed, sticky)</h1>
+            <a href="/resources/html-and-css/display-and-positioning/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Display and Positioning?</h2><p>Display and positioning control two fundamental questions about every element:</p><ol><li><strong>display</strong>: How does this element flow in the page? Like a block (new line, full width), inline (in the text flow), or not at all (removed)?</li><li><strong>position</strong>: Where exactly is this element placed? In normal flow, offset from where it would be, or at a specific point on the screen?</li></ol><p>Together they let you create sticky navbars, modal overlays, floating buttons, dropdowns, tooltips, fixed sidebars, and countless other UI patterns. These properties power almost every layout trick before flexbox/grid were invented, and they are still essential today for specific components.</p><pre><code>/* display controls flow */
+.btn { display: inline-block; }  /* flows like text but has width/height */
+.hidden { display: none; }        /* gone */
+
+/* position controls placement */
+.modal { position: fixed; top: 50%; left: 50%; }  /* pinned to viewport */
+.nav   { position: sticky; top: 0; }              /* sticks when scrolling */</code></pre>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Do Display and Positioning Matter?</h2><h3>1. Every Layout Decision Uses Them</h3><p>Do you want items in a row? Change their display. Do you want a button to float over the content? Change its position. Even with flexbox and grid for the main layout, positioning is essential for elements that sit on top of others: modals, tooltips, dropdowns, sticky headers, floating action buttons.</p><h3>2. Position Is the Only Way to Overlap</h3><p>In normal flow, elements never overlap. To make one element sit on top of another -- like a dropdown below a button, or a modal in the center of the screen -- you need <code>position: absolute</code> or <code>position: fixed</code>. Understanding this unlocks a huge category of UI.</p><h3>3. Sticky Navbars Are Everywhere</h3><p>Every modern website has a navbar that stays at the top of the screen when you scroll. The magic word is <code>position: sticky</code>. One property, and your navbar works perfectly.</p><h3>4. display: none vs visibility: hidden Matters</h3><p>Both hide elements. But one removes them from layout (display: none) and the other keeps the space (visibility: hidden). Choosing wrong creates awkward layout jumps when you toggle visibility.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. display: block</h3><p>Block elements start on a new line and take the full width available. They respect width, height, margin, and padding fully. Examples: <code>&lt;div&gt;, &lt;h1&gt;, &lt;p&gt;, &lt;section&gt;, &lt;header&gt;</code>.</p><pre><code>h1 { display: block; }  /* default for headings */
+/* Takes full width, starts on a new line */</code></pre><h3>2. display: inline</h3><p>Inline elements flow with text, like words in a paragraph. They do NOT accept width or height. They only take as much space as their content. Examples: <code>&lt;span&gt;, &lt;a&gt;, &lt;strong&gt;, &lt;em&gt;</code>.</p><pre><code>a { display: inline; }  /* default for links */
+/* Flows in text. Ignores width/height. */</code></pre><h3>3. display: inline-block</h3><p>The best of both worlds: flows in a row like inline, but accepts width, height, padding, and margin like block. Great for navigation items and buttons before flexbox existed.</p><pre><code>.nav-item {
+  display: inline-block;
+  width: 100px;
+  padding: 12px 20px;
+  /* Flows in a row AND has a fixed size */
+}</code></pre><h3>4. display: none</h3><p>Completely removes the element from the layout. Other elements act as if it does not exist.</p><pre><code>.hidden { display: none; }
+/* Element is invisible AND does not take space */</code></pre><h3>5. visibility: hidden</h3><p>Hides the element visually but KEEPS its space in the layout. Like an invisible placeholder.</p><pre><code>.invisible { visibility: hidden; }
+/* Invisible but still takes up its box */</code></pre><p>Key difference:</p><ul><li><code>display: none</code> -- gone, space collapses, other elements move up</li><li><code>visibility: hidden</code> -- invisible but the space is still there, layout does not shift</li></ul><h3>6. position: static (Default)</h3><p>The default for all elements. They flow normally. top/right/bottom/left have no effect.</p><h3>7. position: relative</h3><p>The element still flows normally, BUT you can offset it with top/right/bottom/left. It leaves a 'ghost' where it used to be.</p><pre><code>.nudged {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  /* Moved 10px down and 20px right from its normal position */
+}</code></pre><p>Also: making a parent <code>position: relative</code> creates a positioning context for absolute children.</p><h3>8. position: absolute</h3><p>Removes the element from normal flow. It floats on top and is positioned relative to the nearest positioned ancestor (an ancestor with position: relative, absolute, fixed, or sticky). If none exists, it uses the viewport.</p><pre><code>.parent { position: relative; }
+.child  {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  /* Pinned to the top-right of the parent */
+}</code></pre><p>Absolutely positioned elements are removed from normal flow -- other elements act like they do not exist.</p><h3>9. position: fixed</h3><p>Pinned to the VIEWPORT (browser window). It stays in the same position on the screen even when you scroll. Perfect for floating action buttons, modals, and some navbars.</p><pre><code>.fab {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  /* Bottom-right of the screen always, even when scrolling */
+}</code></pre><h3>10. position: sticky</h3><p>Hybrid: behaves like relative until you scroll past a threshold, then behaves like fixed. Perfect for sticky navbars and table headers.</p><pre><code>nav {
+  position: sticky;
+  top: 0;
+  /* Scrolls with the page until it hits the top, then sticks */
+}</code></pre><p>Sticky requires a defined threshold (top, left, right, or bottom) and a scrollable ancestor with enough space.</p><h3>11. top, right, bottom, left</h3><p>These properties only work on positioned elements (not static). They set the distance from the respective edge.</p><pre><code>.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Top-left corner of the positioning parent */
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Centered on the screen */
+}</code></pre><h3>12. z-index (Stacking)</h3><p>When positioned elements overlap, z-index decides who is on top. Higher z-index wins.</p><pre><code>.behind { position: absolute; z-index: 1; }
+.middle { position: absolute; z-index: 10; }
+.front  { position: absolute; z-index: 100; }
+
+.modal  { position: fixed; z-index: 9999; }</code></pre><p>Important rules:</p><ul><li>z-index only works on <code>position</code>ed elements (not static)</li><li>It creates stacking contexts -- children are layered relative to their parent's stack</li><li>You cannot escape a parent's stacking context. A child with z-index: 9999 inside a parent with z-index: 1 can never go above a sibling of that parent with z-index: 2.</li></ul><h3>13. overflow</h3><p>Controls what happens when content is bigger than its container.</p><pre><code>.box { overflow: visible; }  /* default: content spills out */
+.box { overflow: hidden; }   /* clip content outside the box */
+.box { overflow: scroll; }   /* always show scrollbars */
+.box { overflow: auto; }     /* scrollbars only when needed (best default) */
+
+.box { overflow-x: auto; overflow-y: hidden; } /* different per axis */</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">display: block, inline, inline-block</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 30px; line-height: 1.6; }
+    .block {
+      display: block;
+      background: #fef3c7;
+      padding: 8px 12px;
+      margin: 8px 0;
+    }
+    .inline {
+      display: inline;
+      background: #ddd6fe;
+      padding: 8px 12px;
+      /* width/height do nothing on inline elements */
+      width: 200px;
+      height: 100px;
+    }
+    .ib {
+      display: inline-block;
+      background: #bbf7d0;
+      padding: 8px 12px;
+      width: 150px;
+      margin: 4px;
+      text-align: center;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Display types&lt;/h2&gt;
+  &lt;div class=&quot;block&quot;&gt;I am a block. I take the full width and start on a new line.&lt;/div&gt;
+  &lt;div class=&quot;block&quot;&gt;Another block. Also full width, new line.&lt;/div&gt;
+
+  &lt;p&gt;In this paragraph by Aarav, the words &lt;span class=&quot;inline&quot;&gt;span 1&lt;/span&gt; and &lt;span class=&quot;inline&quot;&gt;span 2&lt;/span&gt; are inline. They flow with the text and ignore width/height.&lt;/p&gt;
+
+  &lt;div&gt;
+    &lt;span class=&quot;ib&quot;&gt;IB 1&lt;/span&gt;
+    &lt;span class=&quot;ib&quot;&gt;IB 2&lt;/span&gt;
+    &lt;span class=&quot;ib&quot;&gt;IB 3&lt;/span&gt;
+    &lt;span class=&quot;ib&quot;&gt;IB 4&lt;/span&gt;
+    (inline-block: flows in a row, but accepts width/height/margin)
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Three display types compared. Blocks stack vertically taking full width. Inline elements flow with text and ignore width/height. Inline-block elements flow horizontally but accept sizing properties -- perfect for old-school button rows.</div><div class="code-example-output">Two yellow full-width blocks, a paragraph with purple-highlighted inline text, and a row of 4 green inline-block boxes.</div></div>
+<div class="code-example"><div class="code-example-title">display: none vs visibility: hidden</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 30px; }
+    .item {
+      display: inline-block;
+      width: 100px;
+      height: 60px;
+      background: #a855f7;
+      color: white;
+      text-align: center;
+      line-height: 60px;
+      border-radius: 8px;
+      margin: 4px;
+    }
+    .gone { display: none; }
+    .invisible { visibility: hidden; }
+    .note { color: #6b7280; font-size: 13px; margin-top: 20px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Row A - all visible&lt;/h2&gt;
+  &lt;div class=&quot;item&quot;&gt;A&lt;/div&gt;
+  &lt;div class=&quot;item&quot;&gt;B&lt;/div&gt;
+  &lt;div class=&quot;item&quot;&gt;C&lt;/div&gt;
+  &lt;div class=&quot;item&quot;&gt;D&lt;/div&gt;
+
+  &lt;h2&gt;Row B - B has display: none&lt;/h2&gt;
+  &lt;div class=&quot;item&quot;&gt;A&lt;/div&gt;
+  &lt;div class=&quot;item gone&quot;&gt;B&lt;/div&gt;
+  &lt;div class=&quot;item&quot;&gt;C&lt;/div&gt;
+  &lt;div class=&quot;item&quot;&gt;D&lt;/div&gt;
+  &lt;p class=&quot;note&quot;&gt;Notice: no gap where B was. It is completely removed from layout.&lt;/p&gt;
+
+  &lt;h2&gt;Row C - B has visibility: hidden&lt;/h2&gt;
+  &lt;div class=&quot;item&quot;&gt;A&lt;/div&gt;
+  &lt;div class=&quot;item invisible&quot;&gt;B&lt;/div&gt;
+  &lt;div class=&quot;item&quot;&gt;C&lt;/div&gt;
+  &lt;div class=&quot;item&quot;&gt;D&lt;/div&gt;
+  &lt;p class=&quot;note&quot;&gt;Notice: empty space where B would be. Space is reserved.&lt;/p&gt;
+  &lt;p class=&quot;note&quot;&gt;By Priya Kapoor&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This shows the exact visual difference between the two. In row B (display: none), B disappears and C slides next to A. In row C (visibility: hidden), B is invisible but its box is still reserved, so C stays in its original position.</div><div class="code-example-output">Three rows of purple boxes. Row A has 4 visible. Row B has 3 with no gap. Row C has 3 with an empty gap where the second box would be.</div></div>
+<div class="code-example"><div class="code-example-title">position: absolute Inside relative</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 30px; background: #f3f4f6; }
+    .card {
+      position: relative;
+      width: 300px;
+      padding: 24px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      margin: 16px;
+    }
+    .badge {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: #ef4444;
+      color: white;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 13px;
+      box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
+    }
+    .ribbon {
+      position: absolute;
+      top: 12px;
+      left: -8px;
+      background: #a855f7;
+      color: white;
+      padding: 4px 14px;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    h3 { margin: 8px 0 8px; }
+    p  { margin: 0; color: #4b5563; font-size: 14px; line-height: 1.5; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;div class=&quot;ribbon&quot;&gt;NEW&lt;/div&gt;
+    &lt;div class=&quot;badge&quot;&gt;SALE&lt;/div&gt;
+    &lt;h3&gt;Coding Kit&lt;/h3&gt;
+    &lt;p&gt;Everything Kavya needs to learn HTML, CSS, and JavaScript in 12 weeks.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The card has <code>position: relative</code> so it becomes the positioning context. The badge uses <code>position: absolute</code> with negative offsets to hang off the top-right corner. The ribbon is similarly positioned on the left. This is the exact pattern for product cards with corner badges.</div><div class="code-example-output">A white product card with a red circular &#39;SALE&#39; badge in the top-right corner (slightly outside the card) and a purple &#39;NEW&#39; ribbon on the left side.</div></div>
+<div class="code-example"><div class="code-example-title">Sticky Navbar</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; }
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: white;
+      padding: 16px 30px;
+      border-bottom: 1px solid #e5e7eb;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+    .nav .logo { font-weight: bold; color: #a855f7; font-size: 20px; }
+    .nav a { margin-left: 20px; color: #4b5563; text-decoration: none; font-size: 14px; }
+    main { padding: 30px; max-width: 700px; margin: 0 auto; }
+    section { min-height: 60vh; padding: 40px 0; border-bottom: 1px solid #eee; }
+    h2 { color: #a855f7; margin-bottom: 16px; }
+    p { line-height: 1.7; color: #4b5563; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;nav class=&quot;nav&quot;&gt;
+    &lt;div class=&quot;logo&quot;&gt;SiteName&lt;/div&gt;
+    &lt;div&gt;
+      &lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/nav&gt;
+  &lt;main&gt;
+    &lt;section&gt;&lt;h2&gt;Section 1&lt;/h2&gt;&lt;p&gt;Scroll down and watch the nav stay pinned to the top. By Ishaan.&lt;/p&gt;&lt;/section&gt;
+    &lt;section&gt;&lt;h2&gt;Section 2&lt;/h2&gt;&lt;p&gt;The nav uses position: sticky with top: 0.&lt;/p&gt;&lt;/section&gt;
+    &lt;section&gt;&lt;h2&gt;Section 3&lt;/h2&gt;&lt;p&gt;It scrolls normally until it reaches the top, then it sticks there.&lt;/p&gt;&lt;/section&gt;
+    &lt;section&gt;&lt;h2&gt;Section 4&lt;/h2&gt;&lt;p&gt;z-index: 100 ensures the nav stays above other content that scrolls underneath.&lt;/p&gt;&lt;/section&gt;
+  &lt;/main&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>position: sticky</code> makes the nav behave like a normal element until the scroll position reaches <code>top: 0</code>, then it sticks to the top of the viewport. No JavaScript needed. z-index keeps it above other content.</div><div class="code-example-output">A page with a navbar that scrolls with the content initially, then sticks to the top when you scroll past it.</div></div>
+<div class="code-example"><div class="code-example-title">Modal Overlay (Fixed Positioning)</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; padding: 40px; background: #f3f4f6; min-height: 200vh; }
+    .content { max-width: 600px; margin: 0 auto; }
+    h1 { color: #1a1a2e; }
+    p { line-height: 1.6; color: #4b5563; }
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+    .modal {
+      background: white;
+      padding: 32px;
+      border-radius: 16px;
+      max-width: 400px;
+      width: 90%;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+      position: relative;
+    }
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 14px;
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      color: #6b7280;
+    }
+    .modal h3 { margin: 0 0 12px; color: #1a1a2e; }
+    .btn { padding: 10px 20px; background: #a855f7; color: white; border: none; border-radius: 8px; font-size: 14px; cursor: pointer; margin-top: 16px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;h1&gt;Page with Modal&lt;/h1&gt;
+    &lt;p&gt;The modal below uses position: fixed to cover the entire viewport, even when you scroll.&lt;/p&gt;
+    &lt;p&gt;Scroll down and notice the modal stays centered on the screen. Fixed positioning does not move with scroll.&lt;/p&gt;
+    &lt;p&gt;The dark background is an overlay. The white card inside is centered using flexbox on the overlay.&lt;/p&gt;
+    &lt;p&gt;By Riya Singh. The close button uses absolute positioning relative to the modal itself.&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;overlay&quot;&gt;
+    &lt;div class=&quot;modal&quot;&gt;
+      &lt;button class=&quot;close&quot;&gt;x&lt;/button&gt;
+      &lt;h3&gt;Welcome, Kavya!&lt;/h3&gt;
+      &lt;p&gt;This is a modal dialog. It sits on top of the entire page using fixed positioning.&lt;/p&gt;
+      &lt;button class=&quot;btn&quot;&gt;Got it&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The overlay uses <code>position: fixed</code> with all four edges set to 0, covering the whole viewport. Flexbox centers the modal inside it. The close button uses <code>position: absolute</code> in the top-right corner of the modal. Scrolling the page does not move the modal at all.</div><div class="code-example-output">A page content behind a dark overlay with a white modal card centered on screen. Scrolling does not affect the modal position.</div></div>
+<div class="code-example"><div class="code-example-title">z-index Stacking</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 60px; background: #f3f4f6; }
+    .stack { position: relative; width: 400px; height: 250px; margin: 0 auto; }
+    .box {
+      position: absolute;
+      width: 160px;
+      height: 160px;
+      border-radius: 12px;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+    .a { background: #ef4444; top: 0; left: 0; z-index: 1; }
+    .b { background: #06b6d4; top: 30px; left: 60px; z-index: 2; }
+    .c { background: #a855f7; top: 60px; left: 120px; z-index: 3; }
+    .d { background: #f59e0b; top: 90px; left: 180px; z-index: 2; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2 style=&quot;text-align:center;&quot;&gt;Stacking with z-index&lt;/h2&gt;
+  &lt;div class=&quot;stack&quot;&gt;
+    &lt;div class=&quot;box a&quot;&gt;A (z:1)&lt;/div&gt;
+    &lt;div class=&quot;box b&quot;&gt;B (z:2)&lt;/div&gt;
+    &lt;div class=&quot;box c&quot;&gt;C (z:3)&lt;/div&gt;
+    &lt;div class=&quot;box d&quot;&gt;D (z:2)&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;p style=&quot;text-align:center;color:#6b7280;&quot;&gt;Higher z-index appears on top. Meera arranged these.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Four absolutely positioned boxes overlap. Their z-index values determine stacking order: C (3) on top, B and D tie at 2 (D wins because it comes later in source order), A at 1 on the bottom. Higher z-index always appears over lower, but only among positioned elements.</div><div class="code-example-output">Four overlapping colored squares stacked diagonally, with the purple &#39;C&#39; on top and the red &#39;A&#39; at the bottom.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Setting width/height on inline Elements</h3>
+                <div class="wrong-code"><pre><code class="language-python">a {
+  display: inline;
+  width: 200px;
+  height: 50px;
+}
+/* Does nothing */</code></pre></div><div class="error-message">inline elements ignore width and height. The link stays its natural content size.</div><div class="correct-code"><pre><code class="language-python">a {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+}</code></pre></div><div class="mistake-explanation">If you need to set explicit dimensions, change the display to inline-block or block. Only block-level elements respect width and height.</div>
+            </div>
+<div class="mistake-card">
+                <h3>z-index Not Working on Static Elements</h3>
+                <div class="wrong-code"><pre><code class="language-python">.front {
+  /* no position set */
+  z-index: 999;
+}
+/* z-index is ignored */</code></pre></div><div class="error-message">z-index only works on positioned elements. A static element ignores z-index.</div><div class="correct-code"><pre><code class="language-python">.front {
+  position: relative;
+  z-index: 999;
+}</code></pre></div><div class="mistake-explanation">z-index requires position to be anything except static. Add position: relative to give z-index effect without moving the element.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Absolute Positioning Without a Positioned Ancestor</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;div class=&quot;parent&quot;&gt;
+  &lt;div class=&quot;child&quot; style=&quot;position: absolute; top: 0; left: 0;&quot;&gt;I&#39;m inside the parent!&lt;/div&gt;
+&lt;/div&gt;
+/* No position on parent. Child is positioned relative to the viewport, not the parent. */</code></pre></div><div class="error-message">The child jumps to the viewport&#39;s top-left, not the parent&#39;s.</div><div class="correct-code"><pre><code class="language-python">.parent { position: relative; }
+.child  { position: absolute; top: 0; left: 0; }</code></pre></div><div class="mistake-explanation">Absolute elements are positioned relative to the nearest POSITIONED ancestor. If none exists, they use the viewport. Always add position: relative to the parent when you want to anchor an absolute child to it.</div>
+            </div>
+<div class="mistake-card">
+                <h3>position: sticky Without a Threshold or Scrollable Context</h3>
+                <div class="wrong-code"><pre><code class="language-python">nav {
+  position: sticky;
+  /* no top/bottom set */
+}
+/* Sticky does nothing */</code></pre></div><div class="error-message">Without a threshold, sticky behaves like relative and never actually sticks.</div><div class="correct-code"><pre><code class="language-python">nav {
+  position: sticky;
+  top: 0;
+}</code></pre></div><div class="mistake-explanation">Sticky requires a threshold value (top, right, bottom, or left) to know when to stick. Also the ancestor must be taller than the sticky element to actually allow scrolling.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>display: block starts on a new line and takes full width (divs, headings, paragraphs). display: inline flows with text and ignores width/height (spans, links). display: inline-block flows horizontally but respects width/height.</li>
+<li>display: none removes the element from layout (other elements move up). visibility: hidden makes it invisible but preserves its space (other elements stay put).</li>
+<li>position: static is the default (normal flow). position: relative lets you offset with top/right/bottom/left while keeping the element in normal flow.</li>
+<li>position: absolute removes the element from flow and places it relative to the nearest positioned ancestor (or the viewport if none exists).</li>
+<li>position: fixed pins the element to the VIEWPORT -- it stays in place when you scroll. Perfect for floating buttons, modal overlays, and always-visible navbars.</li>
+<li>position: sticky is a hybrid: behaves like relative until you scroll past its threshold (like top: 0), then sticks like fixed. Great for sticky headers and table rows.</li>
+<li>top, right, bottom, and left only work on positioned elements (not static). They set offsets from the respective edges.</li>
+<li>z-index controls stacking order when positioned elements overlap. Higher z-index appears on top. It does not work on static elements. It creates stacking contexts that contain their children.</li>
+<li>A common pattern: parent has position: relative, child has position: absolute with top/left/right/bottom. The child is placed relative to the parent.</li>
+<li>overflow controls what happens when content exceeds its box: visible (default, spills out), hidden (clipped), scroll (always show scrollbars), auto (scrollbars when needed).</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/the-box-model" class="related-topic-link">The Box Model - Margin, Border, Padding</a>
+<a href="/resources/html-and-css/flexbox-complete-guide" class="related-topic-link">Flexbox - The Complete Guide</a>
+<a href="/resources/html-and-css/css-selectors-and-specificity" class="related-topic-link">CSS Selectors and Specificity</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/the-box-model" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">The Box Model - Margin, Border, Padding</span>
+        </a>
+            <a href="/resources/html-and-css/flexbox-complete-guide" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Flexbox - The Complete Guide</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/display-and-positioning/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

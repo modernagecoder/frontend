@@ -1,0 +1,682 @@
+{
+  "title": "Project: Build a Complete SaaS Landing Page",
+  "slug": "project-build-a-landing-page",
+  "language": "css",
+  "chapter": 24,
+  "difficulty": "Advanced",
+  "readingTime": "65 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "Build a Complete SaaS Landing Page - Full HTML CSS Project | Modern Age Coders",
+    "description": "Build a full responsive SaaS landing page from scratch with HTML and CSS only. Includes navbar, hero, features grid, pricing cards, testimonials, FAQ, and footer. Complete code, modern design, 55+ practice questions.",
+    "keywords": "build landing page html css, saas landing page tutorial, responsive landing page, pricing section css, hero section css, features grid, testimonials css, footer css, complete landing page project, css project"
+  },
+  "content": {
+    "what": "<h2>What We Are Building</h2><p>In this project you will build a <strong>complete, production-quality SaaS landing page</strong> from scratch using only HTML and CSS. No framework. No JavaScript. No libraries. Just the fundamentals you have learned across all 23 previous chapters.</p><p>The finished page has 7 sections:</p><ol><li><strong>Navbar</strong> - logo, nav links, and a CTA button (flex layout)</li><li><strong>Hero</strong> - big headline with gradient text, subheadline, two CTAs, and a visual on the right (grid layout)</li><li><strong>Features</strong> - 3-column grid of feature cards (<code>auto-fit minmax</code>)</li><li><strong>Pricing</strong> - 3 pricing cards with the middle one highlighted</li><li><strong>Testimonials</strong> - user avatars and quotes</li><li><strong>FAQ</strong> - accordion using native <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code></li><li><strong>Footer</strong> - columns of links and a bottom bar</li></ol><p>The whole page uses:</p><ul><li>CSS custom properties for theming (one line to change the brand color)</li><li>clamp() for fluid typography (no media queries for type)</li><li>Grid and flexbox for layout</li><li>Modern hover effects and transitions</li><li>Responsive design for phone, tablet, and desktop</li></ul><p>You will build the SaaS product 'SkyPanel' - a fictional dashboard tool. Every section has real content written by Indian students: Aarav, Priya, Rohan, Ishita, and Kavya.</p>",
+    "why": "<h2>Why Build a Landing Page?</h2><h3>1. It Is the Most Common Frontend Job</h3><p>Every company, product, and founder needs a landing page. Whether you freelance, join a startup, or build your own products, the ability to ship a polished landing page in an afternoon is one of the highest-leverage skills a developer can have.</p><h3>2. It Exercises Every CSS Skill</h3><p>A good landing page uses almost every topic in this book: flexbox for the navbar, grid for the hero and feature cards, clamp() for fluid type, variables for theming, transitions for hover states, pseudo-elements for ribbons, and the <code>&lt;details&gt;</code> element for the FAQ. If you can build this, you know CSS.</p><h3>3. You Can Reuse Every Section</h3><p>The navbar, hero, feature grid, pricing cards, testimonials, FAQ, and footer are reusable building blocks. Once you have built them, you can drop them into any future project: a portfolio, a product site, a school club page, a fundraiser.</p><h3>4. Design That Works at Every Size</h3><p>The page is responsive from a 320px phone to a 1600px desktop. You will learn how to structure sections that look great at every size without shipping a maintenance nightmare of media queries. Modern CSS (container queries, clamp, auto-fit) does most of the work.</p><h3>5. It Looks Like a Real Product</h3><p>This is not a toy example. By the end, Aarav can open his browser, load the page, and it looks like something a real company would ship. That confidence is worth more than any tutorial.</p>",
+    "explanation": "<h2>Building the Landing Page Step by Step</h2><h3>Step 1: HTML Structure</h3><p>Start with a semantic HTML skeleton. Use <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> for accessibility. Each section has a clear role.</p><pre><code>&lt;header class=\"nav\"&gt; ... &lt;/header&gt;\n&lt;main&gt;\n  &lt;section class=\"hero\"&gt; ... &lt;/section&gt;\n  &lt;section class=\"features\"&gt; ... &lt;/section&gt;\n  &lt;section class=\"pricing\"&gt; ... &lt;/section&gt;\n  &lt;section class=\"testimonials\"&gt; ... &lt;/section&gt;\n  &lt;section class=\"faq\"&gt; ... &lt;/section&gt;\n&lt;/main&gt;\n&lt;footer class=\"footer\"&gt; ... &lt;/footer&gt;</code></pre><h3>Step 2: CSS Variables and Reset</h3><p>Define a design token system at the top of the stylesheet. Spacing scale, type scale, colors, radii, and shadows all live in one place.</p><pre><code>:root {\n  --brand: #7c3aed;\n  --brand-2: #ec4899;\n  --bg: #fafaf9;\n  --surface: #ffffff;\n  --text: #0f172a;\n  --muted: #64748b;\n  --border: #e2e8f0;\n  --radius: 14px;\n  --shadow: 0 10px 30px rgba(0,0,0,0.08);\n  --shadow-lg: 0 25px 60px rgba(124,58,237,0.2);\n  --s-4: 16px; --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 64px;\n}\n\n* { box-sizing: border-box; margin: 0; padding: 0; }</code></pre><h3>Step 3: Navbar with Flexbox</h3><p>A simple horizontal nav with the logo on the left, links in the middle, and a CTA button on the right.</p><pre><code>.nav { display: flex; align-items: center; justify-content: space-between; padding: var(--s-4) var(--s-6); background: var(--surface); border-bottom: 1px solid var(--border); }\n.nav .links { display: flex; gap: var(--s-5); }\n.nav a { color: var(--muted); text-decoration: none; }\n.nav a:hover { color: var(--brand); }</code></pre><h3>Step 4: Hero Section with Grid</h3><p>A two-column hero: text on the left, visual on the right. Collapses to one column on mobile.</p><pre><code>.hero { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-7); padding: var(--s-8) var(--s-6); max-width: 1200px; margin: 0 auto; align-items: center; }\n.hero h1 { font-size: clamp(36px, 5vw, 64px); line-height: 1.1; text-wrap: balance; }\n.hero h1 .highlight { background: linear-gradient(135deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }\n\n@media (max-width: 800px) {\n  .hero { grid-template-columns: 1fr; }\n}</code></pre><h3>Step 5: Features Grid</h3><p>Three feature cards in a responsive grid using <code>repeat(auto-fit, minmax())</code> - no media query needed.</p><pre><code>.features { padding: var(--s-8) var(--s-6); max-width: 1200px; margin: 0 auto; }\n.features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--s-5); }\n.feature { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s-6); transition: transform 0.3s, box-shadow 0.3s; }\n.feature:hover { transform: translateY(-4px); box-shadow: var(--shadow); }</code></pre><h3>Step 6: Pricing with Highlighted Card</h3><p>Three pricing tiers. The middle one is marked as <code>.popular</code> and scales up slightly, with a colored background and a 'Most Popular' badge.</p><pre><code>.plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--s-5); max-width: 1100px; margin: 0 auto; }\n.plan { background: var(--surface); border: 2px solid var(--border); border-radius: var(--radius); padding: var(--s-6); text-align: center; }\n.plan.popular { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: white; transform: scale(1.04); box-shadow: var(--shadow-lg); position: relative; }\n.plan.popular::before { content: 'MOST POPULAR'; position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: #0f172a; color: white; padding: 4px 16px; border-radius: 999px; font-size: 11px; letter-spacing: 1px; }</code></pre><h3>Step 7: Testimonials</h3><p>A grid of quote cards with avatars, names, and the quote itself.</p><pre><code>.t-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--s-5); }\n.t-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s-6); }\n.t-card .avatar { width: 48px; height: 48px; border-radius: 50%; }</code></pre><h3>Step 8: FAQ with details/summary</h3><p>Native HTML accordion. Zero JavaScript.</p><pre><code>.faq details { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: var(--s-4) var(--s-5); margin-bottom: var(--s-3); }\n.faq summary { cursor: pointer; font-weight: 600; color: var(--text); list-style: none; }\n.faq details[open] summary { color: var(--brand); }</code></pre><h3>Step 9: Footer</h3><p>A grid of link columns with a copyright bar underneath.</p><pre><code>.footer { background: #0f172a; color: #cbd5e1; padding: var(--s-8) var(--s-6); margin-top: var(--s-8); }\n.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: var(--s-6); max-width: 1200px; margin: 0 auto; }\n.footer .bar { border-top: 1px solid #1e293b; margin-top: var(--s-7); padding-top: var(--s-5); text-align: center; font-size: 14px; }</code></pre><p>Now let us see the ENTIRE landing page in one complete code example that you can copy, paste, and run.</p>",
+    "codeExamples": [
+      {
+        "title": "COMPLETE Landing Page - Full HTML + CSS in One File",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<title>SkyPanel - The Dashboard Built for Teams</title>\n<style>\n  :root {\n    --brand: #7c3aed;\n    --brand-2: #ec4899;\n    --accent: #06b6d4;\n    --bg: #fafaf9;\n    --surface: #ffffff;\n    --text: #0f172a;\n    --muted: #64748b;\n    --border: #e2e8f0;\n    --radius: 14px;\n    --radius-lg: 22px;\n    --shadow: 0 10px 30px rgba(0,0,0,0.08);\n    --shadow-lg: 0 25px 60px rgba(124,58,237,0.25);\n    --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 64px; --s-9: 96px;\n  }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  html { scroll-behavior: smooth; }\n  body { font-family: 'Segoe UI', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }\n  a { color: inherit; text-decoration: none; }\n  img { max-width: 100%; }\n\n  /* NAV */\n  .nav {\n    position: sticky; top: 0; z-index: 100;\n    display: flex; align-items: center; justify-content: space-between;\n    padding: var(--s-4) var(--s-6);\n    background: rgba(255,255,255,0.9); backdrop-filter: blur(10px);\n    border-bottom: 1px solid var(--border);\n  }\n  .nav .brand { font-weight: 800; font-size: 22px; color: var(--brand); display: flex; align-items: center; gap: 8px; }\n  .nav .brand::before { content: ''; width: 28px; height: 28px; background: linear-gradient(135deg, var(--brand), var(--brand-2)); border-radius: 8px; }\n  .nav .links { display: flex; gap: var(--s-5); }\n  .nav .links a { color: var(--muted); font-size: 15px; transition: color 0.2s; }\n  .nav .links a:hover { color: var(--brand); }\n  .nav .cta { padding: 10px 20px; background: var(--brand); color: white; border-radius: 10px; font-weight: 600; font-size: 14px; transition: background 0.2s, transform 0.2s; }\n  .nav .cta:hover { background: #6d28d9; transform: translateY(-1px); }\n\n  /* HERO */\n  .hero {\n    display: grid; grid-template-columns: 1.1fr 1fr;\n    gap: var(--s-7); align-items: center;\n    padding: var(--s-9) var(--s-6) var(--s-8);\n    max-width: 1200px; margin: 0 auto;\n  }\n  .hero .eyebrow { display: inline-block; background: #ede9fe; color: var(--brand); padding: 6px 14px; border-radius: 999px; font-size: 13px; font-weight: 700; letter-spacing: 1px; margin-bottom: var(--s-4); }\n  .hero h1 { font-size: clamp(36px, 5vw, 64px); line-height: 1.05; text-wrap: balance; margin-bottom: var(--s-4); letter-spacing: -1px; }\n  .hero h1 .gradient { background: linear-gradient(135deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }\n  .hero p { font-size: clamp(16px, 1.5vw, 19px); color: var(--muted); max-width: 500px; margin-bottom: var(--s-6); text-wrap: pretty; }\n  .hero-ctas { display: flex; gap: var(--s-3); flex-wrap: wrap; }\n  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 26px; border-radius: 12px; font-weight: 700; font-size: 15px; cursor: pointer; border: none; transition: transform 0.2s, box-shadow 0.2s; }\n  .btn-primary { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: white; box-shadow: 0 12px 30px rgba(124,58,237,0.35); }\n  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 18px 40px rgba(124,58,237,0.45); }\n  .btn-outline { background: var(--surface); color: var(--text); border: 2px solid var(--border); }\n  .btn-outline:hover { border-color: var(--brand); color: var(--brand); }\n\n  .hero-visual {\n    aspect-ratio: 5/4;\n    background: linear-gradient(135deg, #ede9fe, #fce7f3);\n    border-radius: var(--radius-lg);\n    display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr;\n    gap: 12px; padding: 24px;\n    box-shadow: var(--shadow-lg);\n    position: relative; overflow: hidden;\n  }\n  .hero-visual::after { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at top right, rgba(255,255,255,0.4), transparent 60%); pointer-events: none; }\n  .hero-visual > div { background: white; border-radius: 10px; padding: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); font-size: 13px; color: var(--muted); display: flex; flex-direction: column; justify-content: space-between; }\n  .hero-visual strong { color: var(--text); font-size: 18px; display: block; margin-bottom: 4px; }\n  .hero-visual .v1 strong { color: var(--brand); }\n  .hero-visual .v2 strong { color: var(--brand-2); }\n  .hero-visual .v3 strong { color: var(--accent); }\n  .hero-visual .v4 strong { color: #10b981; }\n\n  /* SECTION HEADING */\n  .s-head { text-align: center; max-width: 720px; margin: 0 auto var(--s-7); }\n  .s-head h2 { font-size: clamp(28px, 3.5vw, 44px); margin-bottom: var(--s-3); text-wrap: balance; }\n  .s-head p { color: var(--muted); font-size: clamp(15px, 1.5vw, 18px); text-wrap: pretty; }\n\n  /* FEATURES */\n  .features { padding: var(--s-8) var(--s-6); max-width: 1200px; margin: 0 auto; }\n  .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--s-5); }\n  .feature { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s-6); transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s; }\n  .feature:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: #c4b5fd; }\n  .feature .icon { width: 56px; height: 56px; border-radius: 14px; display: grid; place-items: center; font-weight: 800; font-size: 22px; color: white; margin-bottom: var(--s-4); }\n  .feature:nth-child(1) .icon { background: linear-gradient(135deg, #7c3aed, #ec4899); }\n  .feature:nth-child(2) .icon { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }\n  .feature:nth-child(3) .icon { background: linear-gradient(135deg, #f59e0b, #ef4444); }\n  .feature:nth-child(4) .icon { background: linear-gradient(135deg, #10b981, #06b6d4); }\n  .feature:nth-child(5) .icon { background: linear-gradient(135deg, #8b5cf6, #3b82f6); }\n  .feature:nth-child(6) .icon { background: linear-gradient(135deg, #ec4899, #f43f5e); }\n  .feature h3 { font-size: 20px; margin-bottom: var(--s-2); }\n  .feature p { color: var(--muted); font-size: 14px; line-height: 1.6; }\n\n  /* PRICING */\n  .pricing { padding: var(--s-8) var(--s-6); background: linear-gradient(180deg, var(--bg), white); }\n  .plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: var(--s-5); max-width: 1100px; margin: 0 auto; align-items: center; }\n  .plan { background: var(--surface); border: 2px solid var(--border); border-radius: var(--radius-lg); padding: var(--s-7) var(--s-5); text-align: center; transition: transform 0.3s; }\n  .plan:hover { transform: translateY(-6px); }\n  .plan h3 { font-size: 20px; margin-bottom: var(--s-3); color: var(--muted); letter-spacing: 1px; text-transform: uppercase; }\n  .plan .price { font-size: 52px; font-weight: 800; color: var(--text); margin-bottom: var(--s-2); }\n  .plan .price small { font-size: 16px; color: var(--muted); font-weight: 500; }\n  .plan ul { list-style: none; margin: var(--s-5) 0; text-align: left; }\n  .plan li { padding: 10px 0; color: var(--muted); font-size: 14px; border-bottom: 1px solid var(--border); }\n  .plan li::before { content: 'check '; color: #10b981; font-weight: 700; }\n  .plan .btn { width: 100%; justify-content: center; }\n  .plan.popular { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: white; border-color: transparent; transform: scale(1.05); box-shadow: var(--shadow-lg); position: relative; }\n  .plan.popular:hover { transform: scale(1.05) translateY(-4px); }\n  .plan.popular::before { content: 'MOST POPULAR'; position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: #0f172a; color: white; padding: 6px 18px; border-radius: 999px; font-size: 11px; letter-spacing: 1.5px; font-weight: 800; }\n  .plan.popular h3, .plan.popular .price, .plan.popular .price small { color: white; }\n  .plan.popular li { color: rgba(255,255,255,0.95); border-bottom-color: rgba(255,255,255,0.2); }\n  .plan.popular li::before { color: #fef08a; }\n  .plan.popular .btn { background: white; color: var(--brand); }\n\n  /* TESTIMONIALS */\n  .testimonials { padding: var(--s-8) var(--s-6); max-width: 1200px; margin: 0 auto; }\n  .t-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--s-5); }\n  .t-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s-6); transition: transform 0.3s, box-shadow 0.3s; position: relative; }\n  .t-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }\n  .t-card::before { content: '\"'; position: absolute; top: 12px; right: 24px; font-size: 80px; line-height: 1; color: #ede9fe; font-family: Georgia, serif; }\n  .t-card p { color: var(--text); font-size: 15px; line-height: 1.7; margin-bottom: var(--s-5); position: relative; }\n  .t-user { display: flex; align-items: center; gap: 12px; }\n  .avatar { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; color: white; font-weight: 700; font-size: 18px; }\n  .a1 { background: linear-gradient(135deg, #7c3aed, #ec4899); }\n  .a2 { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }\n  .a3 { background: linear-gradient(135deg, #f59e0b, #ef4444); }\n  .t-user strong { display: block; font-size: 14px; }\n  .t-user span { color: var(--muted); font-size: 13px; }\n\n  /* FAQ */\n  .faq { padding: var(--s-8) var(--s-6); max-width: 760px; margin: 0 auto; }\n  .faq details { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: var(--s-4) var(--s-5); margin-bottom: var(--s-3); transition: box-shadow 0.2s, border-color 0.2s; }\n  .faq details:hover { border-color: #c4b5fd; }\n  .faq details[open] { border-color: var(--brand); box-shadow: 0 8px 22px rgba(124,58,237,0.1); }\n  .faq summary { cursor: pointer; font-weight: 700; color: var(--text); font-size: 16px; list-style: none; position: relative; padding-right: 32px; }\n  .faq summary::-webkit-details-marker { display: none; }\n  .faq summary::after { content: '+'; position: absolute; right: 0; top: 50%; transform: translateY(-50%); color: var(--brand); font-size: 24px; font-weight: 300; transition: transform 0.2s; }\n  .faq details[open] summary::after { content: '-'; transform: translateY(-50%) rotate(180deg); }\n  .faq details[open] summary { color: var(--brand); }\n  .faq p { margin-top: 12px; color: var(--muted); font-size: 15px; line-height: 1.6; }\n\n  /* FOOTER */\n  .footer { background: #0f172a; color: #cbd5e1; padding: var(--s-8) var(--s-6) var(--s-5); margin-top: var(--s-8); }\n  .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: var(--s-6); max-width: 1200px; margin: 0 auto; }\n  .footer .brand { color: white; font-size: 22px; font-weight: 800; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }\n  .footer .brand::before { content: ''; width: 28px; height: 28px; background: linear-gradient(135deg, var(--brand), var(--brand-2)); border-radius: 8px; }\n  .footer p { color: #94a3b8; font-size: 14px; line-height: 1.6; max-width: 280px; }\n  .footer h4 { color: white; margin-bottom: 12px; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; }\n  .footer ul { list-style: none; }\n  .footer li { padding: 6px 0; }\n  .footer a { color: #94a3b8; font-size: 14px; transition: color 0.2s; }\n  .footer a:hover { color: var(--brand-2); }\n  .footer .bar { border-top: 1px solid #1e293b; margin-top: var(--s-7); padding-top: var(--s-5); text-align: center; color: #64748b; font-size: 13px; }\n\n  /* RESPONSIVE */\n  @media (max-width: 900px) {\n    .hero { grid-template-columns: 1fr; text-align: center; }\n    .hero p { margin-left: auto; margin-right: auto; }\n    .hero-ctas { justify-content: center; }\n    .footer-grid { grid-template-columns: 1fr 1fr; }\n  }\n  @media (max-width: 600px) {\n    .nav .links { display: none; }\n    .footer-grid { grid-template-columns: 1fr; }\n    .plan.popular { transform: none; }\n    .plan.popular:hover { transform: translateY(-4px); }\n  }\n</style>\n</head>\n<body>\n  <!-- NAV -->\n  <header class=\"nav\">\n    <a href=\"#\" class=\"brand\">SkyPanel</a>\n    <nav class=\"links\">\n      <a href=\"#features\">Features</a>\n      <a href=\"#pricing\">Pricing</a>\n      <a href=\"#testimonials\">Reviews</a>\n      <a href=\"#faq\">FAQ</a>\n    </nav>\n    <a href=\"#\" class=\"cta\">Start Free</a>\n  </header>\n\n  <main>\n    <!-- HERO -->\n    <section class=\"hero\">\n      <div>\n        <span class=\"eyebrow\">NEW IN 2026</span>\n        <h1>The Dashboard <span class=\"gradient\">Built for Teams</span> That Ship</h1>\n        <p>SkyPanel gives your team a single place to track every metric, sprint, and customer. Built by Aarav, Priya, and Rohan for developers who value clarity over clutter.</p>\n        <div class=\"hero-ctas\">\n          <a href=\"#pricing\" class=\"btn btn-primary\">Start Free Trial</a>\n          <a href=\"#features\" class=\"btn btn-outline\">See How It Works</a>\n        </div>\n      </div>\n      <div class=\"hero-visual\">\n        <div class=\"v1\"><strong>1,284</strong> Active users</div>\n        <div class=\"v2\"><strong>+23%</strong> Growth</div>\n        <div class=\"v3\"><strong>98%</strong> Uptime</div>\n        <div class=\"v4\"><strong>4.9/5</strong> Rating</div>\n      </div>\n    </section>\n\n    <!-- FEATURES -->\n    <section class=\"features\" id=\"features\">\n      <div class=\"s-head\">\n        <h2>Everything You Need. Nothing You Do Not.</h2>\n        <p>Six features that replace ten tools. Your team finally gets to focus on shipping instead of switching tabs.</p>\n      </div>\n      <div class=\"features-grid\">\n        <div class=\"feature\"><div class=\"icon\">S</div><h3>Smart Search</h3><p>Find anything across every project in milliseconds with full-text and semantic search.</p></div>\n        <div class=\"feature\"><div class=\"icon\">L</div><h3>Live Metrics</h3><p>Real-time dashboards update the moment your data changes. No refresh button in sight.</p></div>\n        <div class=\"feature\"><div class=\"icon\">C</div><h3>Collaboration</h3><p>Comments, mentions, and shared views keep Priya, Rohan, and Ishita on the same page.</p></div>\n        <div class=\"feature\"><div class=\"icon\">A</div><h3>AI Insights</h3><p>Our model summarizes your weekly metrics and suggests next steps in plain English.</p></div>\n        <div class=\"feature\"><div class=\"icon\">P</div><h3>Privacy First</h3><p>End-to-end encryption for every project. Your data never leaves your region.</p></div>\n        <div class=\"feature\"><div class=\"icon\">I</div><h3>Integrations</h3><p>Connect with 80+ tools including GitHub, Slack, Notion, Linear, and Figma.</p></div>\n      </div>\n    </section>\n\n    <!-- PRICING -->\n    <section class=\"pricing\" id=\"pricing\">\n      <div class=\"s-head\">\n        <h2>Simple Pricing, No Surprises</h2>\n        <p>Start free, upgrade when your team grows. Cancel anytime, no questions asked.</p>\n      </div>\n      <div class=\"plans\">\n        <div class=\"plan\">\n          <h3>Starter</h3>\n          <div class=\"price\">Rs 0<small>/month</small></div>\n          <ul>\n            <li>Up to 3 team members</li>\n            <li>5 projects</li>\n            <li>Community support</li>\n            <li>Basic integrations</li>\n          </ul>\n          <button class=\"btn btn-outline\">Get Started</button>\n        </div>\n        <div class=\"plan popular\">\n          <h3>Pro</h3>\n          <div class=\"price\">Rs 999<small>/month</small></div>\n          <ul>\n            <li>Up to 25 team members</li>\n            <li>Unlimited projects</li>\n            <li>Priority support</li>\n            <li>AI insights included</li>\n            <li>Custom dashboards</li>\n          </ul>\n          <button class=\"btn btn-primary\">Start Free Trial</button>\n        </div>\n        <div class=\"plan\">\n          <h3>Team</h3>\n          <div class=\"price\">Rs 2,499<small>/month</small></div>\n          <ul>\n            <li>Unlimited members</li>\n            <li>Unlimited projects</li>\n            <li>Dedicated manager</li>\n            <li>SSO and audit logs</li>\n          </ul>\n          <button class=\"btn btn-outline\">Contact Sales</button>\n        </div>\n      </div>\n    </section>\n\n    <!-- TESTIMONIALS -->\n    <section class=\"testimonials\" id=\"testimonials\">\n      <div class=\"s-head\">\n        <h2>Loved by Teams That Ship</h2>\n        <p>Real stories from real builders who replaced five tools with SkyPanel.</p>\n      </div>\n      <div class=\"t-grid\">\n        <div class=\"t-card\">\n          <p>SkyPanel replaced three of our internal dashboards. Our weekly review meeting went from 45 minutes to 12. Every founder should try it.</p>\n          <div class=\"t-user\"><div class=\"avatar a1\">AK</div><div><strong>Aarav Kulkarni</strong><span>CEO, Bhasha Tools</span></div></div>\n        </div>\n        <div class=\"t-card\">\n          <p>The AI summaries are scary good. It highlighted a bug trend I would have missed for another week. Worth every rupee just for that.</p>\n          <div class=\"t-user\"><div class=\"avatar a2\">PS</div><div><strong>Priya Sharma</strong><span>Lead Engineer, Kalpana AI</span></div></div>\n        </div>\n        <div class=\"t-card\">\n          <p>My whole team switched from four different tools to SkyPanel in a single afternoon. The onboarding was effortless and the design feels great.</p>\n          <div class=\"t-user\"><div class=\"avatar a3\">IR</div><div><strong>Ishita Rao</strong><span>Product Manager, Trishul Labs</span></div></div>\n        </div>\n      </div>\n    </section>\n\n    <!-- FAQ -->\n    <section class=\"faq\" id=\"faq\">\n      <div class=\"s-head\">\n        <h2>Frequently Asked Questions</h2>\n        <p>Still have questions? Contact us at hello@skypanel.example.com.</p>\n      </div>\n      <details open>\n        <summary>Can I start for free?</summary>\n        <p>Yes. The Starter plan is completely free forever, no credit card required. It includes 3 team members, 5 projects, and access to all core features.</p>\n      </details>\n      <details>\n        <summary>How do I upgrade from Starter to Pro?</summary>\n        <p>Click the 'Upgrade' button in your account settings. Your projects and team members transfer automatically. You are charged per month, pro-rated to your upgrade date.</p>\n      </details>\n      <details>\n        <summary>Is my data secure?</summary>\n        <p>Absolutely. All data is encrypted end-to-end with AES-256. We are SOC 2 Type II certified and comply with the Indian DPDP Act. Your data never leaves your selected region.</p>\n      </details>\n      <details>\n        <summary>Do you support students or open source projects?</summary>\n        <p>Yes! Students get the Pro plan free with a verified .edu email. Open source projects get unlimited team members on the Team plan at no cost. Apply on our Support page.</p>\n      </details>\n    </section>\n  </main>\n\n  <!-- FOOTER -->\n  <footer class=\"footer\">\n    <div class=\"footer-grid\">\n      <div>\n        <div class=\"brand\">SkyPanel</div>\n        <p>The dashboard for teams that ship. Built with care in India for the world.</p>\n      </div>\n      <div>\n        <h4>Product</h4>\n        <ul><li><a href=\"#\">Features</a></li><li><a href=\"#\">Pricing</a></li><li><a href=\"#\">Changelog</a></li><li><a href=\"#\">Roadmap</a></li></ul>\n      </div>\n      <div>\n        <h4>Company</h4>\n        <ul><li><a href=\"#\">About</a></li><li><a href=\"#\">Blog</a></li><li><a href=\"#\">Careers</a></li><li><a href=\"#\">Contact</a></li></ul>\n      </div>\n      <div>\n        <h4>Legal</h4>\n        <ul><li><a href=\"#\">Privacy</a></li><li><a href=\"#\">Terms</a></li><li><a href=\"#\">Security</a></li></ul>\n      </div>\n    </div>\n    <div class=\"bar\">Built by Aarav, Priya, Rohan, Ishita, and Kavya. 2026 SkyPanel Inc.</div>\n  </footer>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This is the complete landing page in a single file. It uses CSS variables for theming, clamp() for fluid typography, grid for layout, flexbox for the nav, :hover for interactive cards, ::before for the 'MOST POPULAR' badge and quote marks, and the native &lt;details&gt; element for the FAQ. Zero JavaScript, zero frameworks, zero libraries.",
+        "output": "A polished, responsive SaaS landing page with sticky navbar, hero with gradient text and visual, 6 feature cards in a grid, 3 pricing tiers with the middle one highlighted, 3 testimonial cards, expandable FAQ accordion, and multi-column footer. Everything is responsive from phone to desktop."
+      },
+      {
+        "title": "Just the Hero Section (Standalone)",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  :root { --brand: #7c3aed; --brand-2: #ec4899; }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: #fafaf9; }\n  .hero { display: grid; grid-template-columns: 1.1fr 1fr; gap: 48px; align-items: center; padding: 96px 32px; max-width: 1200px; margin: 0 auto; }\n  .eyebrow { display: inline-block; background: #ede9fe; color: var(--brand); padding: 6px 14px; border-radius: 999px; font-size: 13px; font-weight: 700; letter-spacing: 1px; margin-bottom: 16px; }\n  h1 { font-size: clamp(36px, 5vw, 64px); line-height: 1.05; text-wrap: balance; letter-spacing: -1px; margin-bottom: 16px; }\n  .gradient { background: linear-gradient(135deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }\n  .sub { color: #64748b; font-size: 19px; max-width: 500px; margin-bottom: 32px; text-wrap: pretty; line-height: 1.6; }\n  .ctas { display: flex; gap: 12px; flex-wrap: wrap; }\n  .btn { padding: 14px 26px; border-radius: 12px; font-weight: 700; font-size: 15px; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s; }\n  .btn-primary { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: white; box-shadow: 0 12px 30px rgba(124,58,237,0.35); }\n  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 18px 40px rgba(124,58,237,0.45); }\n  .btn-outline { background: white; color: #0f172a; border: 2px solid #e2e8f0; }\n  .btn-outline:hover { border-color: var(--brand); color: var(--brand); }\n  .visual { aspect-ratio: 5/4; background: linear-gradient(135deg, #ede9fe, #fce7f3); border-radius: 22px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 12px; padding: 24px; box-shadow: 0 25px 60px rgba(124,58,237,0.25); }\n  .visual > div { background: white; border-radius: 10px; padding: 14px; font-size: 13px; color: #64748b; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }\n  .visual strong { font-size: 20px; color: #0f172a; display: block; margin-bottom: 4px; }\n  @media (max-width: 900px) { .hero { grid-template-columns: 1fr; text-align: center; } .sub { margin-left: auto; margin-right: auto; } .ctas { justify-content: center; } }\n</style>\n</head>\n<body>\n  <section class=\"hero\">\n    <div>\n      <span class=\"eyebrow\">NEW IN 2026</span>\n      <h1>The Dashboard <span class=\"gradient\">Built for Teams</span> That Ship</h1>\n      <p class=\"sub\">SkyPanel gives your team a single place to track every metric, sprint, and customer.</p>\n      <div class=\"ctas\">\n        <a href=\"#\" class=\"btn btn-primary\">Start Free Trial</a>\n        <a href=\"#\" class=\"btn btn-outline\">See It in Action</a>\n      </div>\n    </div>\n    <div class=\"visual\">\n      <div><strong>1,284</strong> Active users</div>\n      <div><strong>+23%</strong> Growth</div>\n      <div><strong>98%</strong> Uptime</div>\n      <div><strong>4.9/5</strong> Rating</div>\n    </div>\n  </section>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A standalone hero section that you can drop into any project. Grid layout for two columns, clamp() for the fluid headline, gradient text with <code>-webkit-background-clip</code>, and a visual mockup built with nested grids. Responsive — collapses to one column on screens narrower than 900px.",
+        "output": "A two-column hero with a huge headline containing a gradient-colored phrase, a supporting paragraph, two CTA buttons, and a 2x2 stats visual on the right."
+      },
+      {
+        "title": "Just the Pricing Section (Standalone)",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  :root { --brand: #7c3aed; --brand-2: #ec4899; --border: #e2e8f0; --text: #0f172a; --muted: #64748b; }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: linear-gradient(180deg, #fafaf9, white); padding: 80px 24px; }\n  .s-head { text-align: center; max-width: 600px; margin: 0 auto 56px; }\n  .s-head h2 { font-size: clamp(28px, 3.5vw, 44px); margin-bottom: 10px; color: var(--text); }\n  .s-head p { color: var(--muted); }\n  .plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 24px; max-width: 1100px; margin: 0 auto; align-items: center; }\n  .plan { background: white; border: 2px solid var(--border); border-radius: 22px; padding: 48px 24px; text-align: center; transition: transform 0.3s; }\n  .plan:hover { transform: translateY(-6px); }\n  .plan h3 { font-size: 20px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 12px; }\n  .plan .price { font-size: 52px; font-weight: 800; color: var(--text); }\n  .plan .price small { font-size: 16px; color: var(--muted); font-weight: 500; }\n  .plan ul { list-style: none; margin: 24px 0; text-align: left; }\n  .plan li { padding: 10px 0; color: var(--muted); font-size: 14px; border-bottom: 1px solid var(--border); }\n  .plan li::before { content: '+ '; color: #10b981; font-weight: 700; }\n  .plan button { width: 100%; padding: 14px; border-radius: 12px; font-weight: 700; cursor: pointer; border: 2px solid var(--border); background: white; color: var(--text); transition: all 0.2s; }\n  .plan button:hover { border-color: var(--brand); color: var(--brand); }\n  .plan.popular { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: white; border: none; transform: scale(1.05); box-shadow: 0 25px 60px rgba(124,58,237,0.25); position: relative; }\n  .plan.popular::before { content: 'MOST POPULAR'; position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: #0f172a; color: white; padding: 6px 18px; border-radius: 999px; font-size: 11px; letter-spacing: 1.5px; font-weight: 800; }\n  .plan.popular h3, .plan.popular .price, .plan.popular .price small { color: white; }\n  .plan.popular li { color: rgba(255,255,255,0.95); border-bottom-color: rgba(255,255,255,0.25); }\n  .plan.popular li::before { color: #fef08a; }\n  .plan.popular button { background: white; color: var(--brand); border: none; }\n</style>\n</head>\n<body>\n  <div class=\"s-head\">\n    <h2>Simple Pricing, No Surprises</h2>\n    <p>Start free, upgrade as you grow. Cancel anytime.</p>\n  </div>\n  <div class=\"plans\">\n    <div class=\"plan\"><h3>Starter</h3><div class=\"price\">Rs 0<small>/mo</small></div><ul><li>3 team members</li><li>5 projects</li><li>Community support</li></ul><button>Get Started</button></div>\n    <div class=\"plan popular\"><h3>Pro</h3><div class=\"price\">Rs 999<small>/mo</small></div><ul><li>25 team members</li><li>Unlimited projects</li><li>Priority support</li><li>AI insights</li></ul><button>Start Trial</button></div>\n    <div class=\"plan\"><h3>Team</h3><div class=\"price\">Rs 2,499<small>/mo</small></div><ul><li>Unlimited members</li><li>Unlimited projects</li><li>Dedicated manager</li></ul><button>Contact Sales</button></div>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The pricing section as a standalone piece. Three plans in a responsive grid. The middle plan uses <code>.popular</code> which adds a gradient background, scales up with <code>transform</code>, and adds a 'MOST POPULAR' ribbon via <code>::before</code>. Drop this into any project.",
+        "output": "Three pricing cards. The middle one is slightly larger, has a purple-to-pink gradient background, a 'MOST POPULAR' ribbon on top, and a white button — clearly drawing the eye to the recommended plan."
+      },
+      {
+        "title": "FAQ Accordion with Pure CSS",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  :root { --brand: #7c3aed; }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 60px 24px; }\n  .faq { max-width: 720px; margin: 0 auto; }\n  h2 { text-align: center; color: #0f172a; margin-bottom: 32px; font-size: 32px; }\n  details {\n    background: white;\n    border: 1px solid #e2e8f0;\n    border-radius: 12px;\n    padding: 18px 24px;\n    margin-bottom: 12px;\n    transition: box-shadow 0.2s, border-color 0.2s;\n  }\n  details:hover { border-color: #c4b5fd; }\n  details[open] {\n    border-color: var(--brand);\n    box-shadow: 0 8px 22px rgba(124,58,237,0.12);\n  }\n  summary {\n    cursor: pointer;\n    font-weight: 700;\n    color: #0f172a;\n    font-size: 16px;\n    list-style: none;\n    position: relative;\n    padding-right: 36px;\n  }\n  summary::-webkit-details-marker { display: none; }\n  summary::after {\n    content: '+';\n    position: absolute;\n    right: 0;\n    top: 50%;\n    transform: translateY(-50%);\n    color: var(--brand);\n    font-size: 26px;\n    font-weight: 300;\n    transition: transform 0.3s;\n  }\n  details[open] summary::after {\n    content: '-';\n    transform: translateY(-50%) rotate(180deg);\n  }\n  details[open] summary { color: var(--brand); }\n  details p {\n    margin-top: 12px;\n    color: #64748b;\n    font-size: 15px;\n    line-height: 1.6;\n  }\n</style>\n</head>\n<body>\n  <section class=\"faq\">\n    <h2>Frequently Asked Questions</h2>\n    <details open>\n      <summary>Can I start for free?</summary>\n      <p>Yes! The Starter plan is free forever. No credit card needed. Includes 3 team members and 5 projects.</p>\n    </details>\n    <details>\n      <summary>How do I upgrade?</summary>\n      <p>Click the upgrade button in settings. Your projects and team carry over automatically.</p>\n    </details>\n    <details>\n      <summary>Is my data secure?</summary>\n      <p>Yes. End-to-end encryption with AES-256. Your data never leaves your selected region.</p>\n    </details>\n    <details>\n      <summary>Do you offer student discounts?</summary>\n      <p>Students get Pro free with a verified .edu email. Open source projects get unlimited team members.</p>\n    </details>\n  </section>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "An accordion made with the native HTML <code>&lt;details&gt;</code> element. Zero JavaScript. The open/close state is handled by the browser. CSS styles the <code>[open]</code> attribute selector and uses <code>::after</code> to show a plus/minus icon that flips when the section is open.",
+        "output": "A clean FAQ list. Each question can be clicked to expand. A purple plus becomes a minus when open, the border turns purple, and a subtle shadow appears."
+      },
+      {
+        "title": "Feature Cards Grid (Reusable Section)",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 80px 24px; }\n  .s-head { text-align: center; max-width: 600px; margin: 0 auto 48px; }\n  .s-head h2 { font-size: clamp(28px, 3.5vw, 42px); color: #0f172a; margin-bottom: 10px; text-wrap: balance; }\n  .s-head p { color: #64748b; font-size: 17px; }\n  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; max-width: 1100px; margin: 0 auto; }\n  .feature { background: white; border: 1px solid #e2e8f0; border-radius: 16px; padding: 32px; transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s; }\n  .feature:hover { transform: translateY(-6px); box-shadow: 0 16px 40px rgba(0,0,0,0.08); border-color: #c4b5fd; }\n  .feature .icon { width: 56px; height: 56px; border-radius: 14px; display: grid; place-items: center; font-weight: 800; font-size: 22px; color: white; margin-bottom: 20px; }\n  .feature:nth-child(1) .icon { background: linear-gradient(135deg, #7c3aed, #ec4899); }\n  .feature:nth-child(2) .icon { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }\n  .feature:nth-child(3) .icon { background: linear-gradient(135deg, #f59e0b, #ef4444); }\n  .feature:nth-child(4) .icon { background: linear-gradient(135deg, #10b981, #06b6d4); }\n  .feature:nth-child(5) .icon { background: linear-gradient(135deg, #8b5cf6, #3b82f6); }\n  .feature:nth-child(6) .icon { background: linear-gradient(135deg, #ec4899, #f43f5e); }\n  .feature h3 { font-size: 20px; margin-bottom: 8px; color: #0f172a; }\n  .feature p { color: #64748b; font-size: 14px; line-height: 1.6; }\n</style>\n</head>\n<body>\n  <div class=\"s-head\">\n    <h2>Everything You Need, Nothing You Do Not</h2>\n    <p>Six features that replace ten tools.</p>\n  </div>\n  <div class=\"grid\">\n    <div class=\"feature\"><div class=\"icon\">S</div><h3>Smart Search</h3><p>Find anything across every project in milliseconds.</p></div>\n    <div class=\"feature\"><div class=\"icon\">L</div><h3>Live Metrics</h3><p>Real-time dashboards update the instant data changes.</p></div>\n    <div class=\"feature\"><div class=\"icon\">C</div><h3>Collaboration</h3><p>Comments and mentions keep everyone on the same page.</p></div>\n    <div class=\"feature\"><div class=\"icon\">A</div><h3>AI Insights</h3><p>Weekly summaries and smart suggestions in plain English.</p></div>\n    <div class=\"feature\"><div class=\"icon\">P</div><h3>Privacy First</h3><p>End-to-end encryption and regional data residency.</p></div>\n    <div class=\"feature\"><div class=\"icon\">I</div><h3>Integrations</h3><p>Connect with 80+ tools including GitHub, Slack, and Notion.</p></div>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A reusable feature grid that auto-fits 3 columns on desktop, 2 on tablet, and 1 on mobile via <code>repeat(auto-fit, minmax(260px, 1fr))</code>. Each card has a colorful gradient icon using <code>:nth-child</code> so you do not need per-card classes.",
+        "output": "A 3-column feature grid (on desktop) with 6 cards. Each card has a unique gradient icon, title, and description. Cards lift and border purples on hover."
+      },
+      {
+        "title": "Testimonials Row with Avatar Quotes",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 80px 24px; }\n  .s-head { text-align: center; max-width: 600px; margin: 0 auto 48px; }\n  .s-head h2 { font-size: clamp(28px, 3.5vw, 42px); color: #0f172a; margin-bottom: 10px; text-wrap: balance; }\n  .s-head p { color: #64748b; font-size: 17px; }\n  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 24px; max-width: 1100px; margin: 0 auto; }\n  .card {\n    background: white;\n    border: 1px solid #e2e8f0;\n    border-radius: 16px;\n    padding: 28px;\n    transition: transform 0.3s, box-shadow 0.3s;\n    position: relative;\n  }\n  .card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.08); }\n  .card::before {\n    content: '\"';\n    position: absolute;\n    top: 8px;\n    right: 24px;\n    font-size: 88px;\n    line-height: 1;\n    color: #ede9fe;\n    font-family: Georgia, serif;\n  }\n  .card p { color: #0f172a; font-size: 15px; line-height: 1.7; margin-bottom: 20px; position: relative; }\n  .user { display: flex; align-items: center; gap: 12px; }\n  .avatar { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; color: white; font-weight: 700; font-size: 18px; }\n  .a1 { background: linear-gradient(135deg, #7c3aed, #ec4899); }\n  .a2 { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }\n  .a3 { background: linear-gradient(135deg, #f59e0b, #ef4444); }\n  .user strong { display: block; color: #0f172a; font-size: 14px; }\n  .user span { color: #64748b; font-size: 13px; }\n</style>\n</head>\n<body>\n  <div class=\"s-head\">\n    <h2>Loved by Teams That Ship</h2>\n    <p>Real stories from real builders.</p>\n  </div>\n  <div class=\"grid\">\n    <div class=\"card\">\n      <p>SkyPanel replaced three dashboards. Our weekly review dropped from 45 minutes to 12. It is that good.</p>\n      <div class=\"user\"><div class=\"avatar a1\">AK</div><div><strong>Aarav Kulkarni</strong><span>CEO, Bhasha Tools</span></div></div>\n    </div>\n    <div class=\"card\">\n      <p>The AI summaries are scary good. It caught a bug trend I would have missed all week. Worth every rupee.</p>\n      <div class=\"user\"><div class=\"avatar a2\">PS</div><div><strong>Priya Sharma</strong><span>Lead Engineer, Kalpana AI</span></div></div>\n    </div>\n    <div class=\"card\">\n      <p>My whole team switched from four tools in one afternoon. The onboarding was effortless.</p>\n      <div class=\"user\"><div class=\"avatar a3\">IR</div><div><strong>Ishita Rao</strong><span>PM, Trishul Labs</span></div></div>\n    </div>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Three testimonial cards. Each uses <code>::before</code> to render a giant decorative quote mark in the background. Avatars are built with CSS gradients and initials — no images needed. The grid uses auto-fit to wrap responsively.",
+        "output": "Three cards with quotes from Aarav, Priya, and Ishita. Each has a big pale purple quote mark in the background and a colorful circular avatar with initials."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Fixed Width Hero That Overflows on Mobile",
+        "wrongCode": ".hero { width: 1200px; padding: 64px 200px; }",
+        "error": "On a 400px phone, the hero is 1200px wide — users scroll horizontally and miss the CTAs. Fixed widths never work for responsive design.",
+        "correctCode": ".hero { max-width: 1200px; padding: clamp(32px, 8vw, 96px) clamp(16px, 5vw, 64px); margin: 0 auto; }",
+        "explanation": "Use <code>max-width</code> instead of <code>width</code> so the element shrinks to fit narrow screens. Use <code>clamp()</code> for padding so it scales with the viewport. Center with <code>margin: 0 auto</code>."
+      },
+      {
+        "title": "Breaking the Grid on Narrow Screens",
+        "wrongCode": ".features { display: grid; grid-template-columns: repeat(3, 1fr); }",
+        "error": "On a phone, 3 columns squeeze everything into thin unusable strips. Fixed column counts ignore the viewport.",
+        "correctCode": ".features { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }",
+        "explanation": "<code>repeat(auto-fit, minmax(260px, 1fr))</code> is the magic line: it creates as many columns as fit, where each is at least 260px wide. One column on phones, two on tablets, three on desktops, all without media queries."
+      },
+      {
+        "title": "Forgetting box-sizing: border-box",
+        "wrongCode": "/* No * { box-sizing: border-box } */\n.card { width: 100%; padding: 24px; border: 2px solid #eee; }\n/* Card overflows its parent by the padding and border amount */",
+        "error": "Without <code>border-box</code>, the card's width is 100% of its parent PLUS the padding and border, overflowing to the right and breaking layouts.",
+        "correctCode": "* { box-sizing: border-box; margin: 0; padding: 0; }\n.card { width: 100%; padding: 24px; border: 2px solid #eee; }",
+        "explanation": "Always start every project with <code>* { box-sizing: border-box; margin: 0; padding: 0; }</code>. <code>border-box</code> makes padding and border part of the declared width, which is how humans think about sizes."
+      },
+      {
+        "title": "Hardcoded Colors Instead of Variables",
+        "wrongCode": ".btn { background: #7c3aed; }\n.header { background: #7c3aed; }\n.link:hover { color: #7c3aed; }\n/* Change the brand? You have to find and replace all 30 usages */",
+        "error": "Using the same hex code in 20 places means changing your brand color requires hunting through the whole file.",
+        "correctCode": ":root { --brand: #7c3aed; }\n.btn { background: var(--brand); }\n.header { background: var(--brand); }\n.link:hover { color: var(--brand); }",
+        "explanation": "Define every important color as a CSS variable at the top of your stylesheet. Changing the brand color becomes a one-line edit, and your design stays consistent automatically."
+      }
+    ],
+    "summary": [
+      "Start every landing page with a CSS reset (<code>* { box-sizing: border-box; margin: 0; padding: 0; }</code>) and a set of CSS variables for colors, spacing, type, radius, and shadows.",
+      "Use semantic HTML: <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code>. Each section should have a clear role for accessibility and SEO.",
+      "The navbar is a flexbox with <code>justify-content: space-between</code>: logo on the left, links in the middle, CTA on the right.",
+      "Hero sections are grids. Use <code>grid-template-columns: 1.1fr 1fr</code> for a two-column hero (text + visual), collapsing to one column on mobile with a media query or container query.",
+      "<code>clamp(min, preferred, max)</code> for fluid typography — your headlines stay readable at every screen size without any breakpoints.",
+      "Feature grids use <code>repeat(auto-fit, minmax(260px, 1fr))</code> — the magic line that wraps responsively from 1 to 4 columns with zero media queries.",
+      "For pricing, mark the recommended plan with a <code>.popular</code> class. Use <code>transform: scale(1.05)</code>, a gradient background, a bigger shadow, and a 'MOST POPULAR' ribbon via <code>::before</code>.",
+      "Build the FAQ with native <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code> — zero JavaScript. Style the <code>[open]</code> state and use <code>::after</code> for a plus/minus icon.",
+      "Testimonials are quote cards with a gradient avatar (CSS only, no images needed) and initials. Use <code>::before</code> to render a giant background quote mark.",
+      "Footers are grids of link columns. Usually 2fr 1fr 1fr 1fr on desktop, collapsing to 1fr or 1fr 1fr on mobile.",
+      "Use <code>backdrop-filter: blur()</code> plus a semi-transparent background for a modern 'frosted glass' sticky navbar.",
+      "Make every interactive element show hover feedback with <code>transform: translateY(-2px)</code> and a bigger shadow. Small details separate an amateur page from a polished one."
+    ]
+  },
+  "relatedTopics": ["css-grid-complete-guide", "flexbox-complete-guide", "css-variables-and-theming", "project-animated-portfolio-website"],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What layout is best for the navbar (logo, links, CTA in a row)?",
+        "hint": "One row, align to the sides.",
+        "answer": "Flexbox with <code>justify-content: space-between</code>.",
+        "explanation": "Flexbox is ideal for one-dimensional layouts. <code>space-between</code> pushes the first child to the start and the last child to the end, with the middle items spaced evenly."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which CSS function gives fluid font sizes without media queries?",
+        "hint": "Min, preferred, max.",
+        "answer": "<code>clamp(min, preferred, max)</code>",
+        "explanation": "clamp() returns the preferred value, but clamped between the min and max. Perfect for fluid typography like <code>font-size: clamp(24px, 5vw, 56px)</code>."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which grid line creates a responsive card layout with no media queries?",
+        "hint": "The magic line.",
+        "answer": "<code>grid-template-columns: repeat(auto-fit, minmax(260px, 1fr))</code>",
+        "explanation": "auto-fit fills as many columns as possible, each at least 260px wide. On phones it becomes 1 column, on desktops 3-4. The magic responsive grid."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How do you build an FAQ accordion without JavaScript?",
+        "hint": "Native HTML element.",
+        "answer": "Use <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code>. The browser handles the open/close state natively.",
+        "explanation": "<code>&lt;details&gt;</code> is a built-in HTML element that toggles its content when the summary is clicked. Style it with CSS, including the <code>[open]</code> attribute selector."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What makes a sticky navbar stay at the top while scrolling?",
+        "hint": "CSS position value.",
+        "answer": "<code>position: sticky; top: 0</code>",
+        "explanation": "Sticky positioning makes the element behave like relative until the scroll reaches a threshold, then it sticks like fixed. Great for navbars that stay visible while scrolling."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How do you make the hero headline have a gradient color?",
+        "hint": "Background clip to text.",
+        "answer": "Use <code>background: linear-gradient(...); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;</code>",
+        "explanation": "The trick is to fill the element with a gradient background but clip it to the shape of the text, then make the text transparent so the gradient shows through."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the purpose of <code>backdrop-filter: blur(10px)</code> on a navbar?",
+        "hint": "Frosted glass.",
+        "answer": "It blurs whatever is behind the navbar, creating the 'frosted glass' effect common on modern websites.",
+        "explanation": "Combined with a semi-transparent background (<code>rgba(255,255,255,0.9)</code>), backdrop-filter gives a beautiful frosted look where you can see blurred content through the navbar."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How do you make buttons lift slightly on hover?",
+        "hint": "Transform.",
+        "answer": "<code>.btn:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(0,0,0,0.2); }</code>",
+        "explanation": "translateY with a negative value moves the element up. Adding a larger shadow reinforces the 'lifting' feel. A transition on transform and box-shadow makes it smooth."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which property makes the 'MOST POPULAR' ribbon appear above the pricing card without extra HTML?",
+        "hint": "Pseudo-element.",
+        "answer": "<code>::before</code> with <code>content: 'MOST POPULAR'</code> and absolute positioning.",
+        "explanation": "Pseudo-elements inject content via CSS. <code>::before</code> on the popular card, positioned absolutely with top: -14px, gives the ribbon effect without adding HTML."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why define CSS variables at the top of the stylesheet?",
+        "hint": "Theming and maintainability.",
+        "answer": "Variables let you change brand colors, spacing, and radii in one place. Everything else updates automatically. Much better than find-and-replacing hex codes across 20 rules.",
+        "explanation": "A design system is only as good as how easy it is to change. Variables are the cheapest way to get a true theming layer in CSS."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this do?<br><pre><code>.hero { grid-template-columns: 1.1fr 1fr; }</code></pre>",
+        "hint": "Ratio of columns.",
+        "answer": "Two columns where the first takes 1.1 shares and the second takes 1 share. The left column is slightly wider than the right — giving the text more space than the visual.",
+        "explanation": "fr units represent a fraction of available space. 1.1fr + 1fr = 2.1 total. The first column gets 1.1/2.1 ≈ 52%, the second gets 1/2.1 ≈ 48%. Great for asymmetric hero layouts."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Why use <code>transform: scale(1.05)</code> on the popular pricing card?",
+        "hint": "Visual hierarchy.",
+        "answer": "It makes the card visually pop up from the row so the user's eye is drawn to the recommended plan. Combined with a gradient background and bigger shadow, it is unmissable.",
+        "explanation": "Visual hierarchy is everything in landing pages. Making the popular plan 5% larger and brighter makes the user's eye land on it first — which is exactly where you want them to convert."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this do in the hero?<br><pre><code>h1 { text-wrap: balance; }</code></pre>",
+        "hint": "Line wrapping.",
+        "answer": "The browser distributes the headline words across lines to avoid a lonely orphan word on the last line. Beautiful typography in one property.",
+        "explanation": "Before text-wrap, headlines often ended with one awkward word on a line by itself. <code>balance</code> tells the browser to rebalance the wrapping for a cleaner visual."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How would you make the pricing section full-width but with centered content?",
+        "hint": "Section background, inner max-width.",
+        "answer": "The outer <code>.pricing</code> section has the background color and full width. Inside, a wrapper or the grid itself uses <code>max-width: 1100px; margin: 0 auto</code>.",
+        "explanation": "This pattern — full-width background with constrained content — is how landing pages have alternating band colors without horizontal scrolling on narrow screens."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>scroll-behavior: smooth</code> on html do?",
+        "hint": "Nav links with # fragments.",
+        "answer": "When the user clicks an anchor link like <code>#pricing</code>, the browser smoothly scrolls to that section instead of jumping instantly.",
+        "explanation": "A one-line upgrade to any page with in-page navigation. Add it to <code>html</code> and every anchor link animates instead of jumping."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How do you hide the default triangle on <code>&lt;summary&gt;</code>?",
+        "hint": "List-style and webkit marker.",
+        "answer": "<code>summary { list-style: none; } summary::-webkit-details-marker { display: none; }</code>",
+        "explanation": "Different browsers use different mechanisms. <code>list-style: none</code> works in Firefox; the webkit marker pseudo-element handles Safari and old Chrome. Both are needed for full cross-browser support."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Why is the hero using grid instead of flexbox?",
+        "hint": "Two-dimensional alignment.",
+        "answer": "Grid gives precise control over both the column widths (1.1fr 1fr) and vertical alignment (align-items: center). Flexbox would also work for a simple side-by-side, but grid is cleaner for 2D layouts with mixed content sizes.",
+        "explanation": "Both grid and flexbox can do a two-column hero. Grid is generally preferred when you need fixed column proportions and items of different heights because it handles alignment more predictably."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What CSS makes the feature icons each a different gradient?",
+        "hint": "nth-child.",
+        "answer": "Use <code>.feature:nth-child(1) .icon { background: gradient1; }</code>, <code>.feature:nth-child(2) .icon { background: gradient2; }</code>, etc.",
+        "explanation": "Using <code>:nth-child(n)</code> saves you from having to add a unique class to every card. The CSS automatically assigns different gradients based on position."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>backdrop-filter: blur(10px)</code> NOT work without?",
+        "hint": "What has to be transparent?",
+        "answer": "It does not work unless the element has a partially transparent background. If the element is fully opaque, there is nothing to see through to blur.",
+        "explanation": "backdrop-filter blurs what is BEHIND the element. If the element is opaque, the blur is invisible. Use a semi-transparent background like <code>rgba(255,255,255,0.9)</code> for the frosted glass effect."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Why is the avatar a <code>div</code> with initials instead of an <code>img</code>?",
+        "hint": "No image assets needed.",
+        "answer": "A CSS gradient + initials requires zero image files, zero network requests, and zero broken image placeholders. It also scales perfectly at any size.",
+        "explanation": "For landing page mockups and placeholders, gradient + initials is faster to ship than real photos. In production, you would swap for real images."
+      },
+      {
+        "id": "ts-21",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How does the pricing section change for mobile?",
+        "hint": "Auto-fit.",
+        "answer": "Thanks to <code>repeat(auto-fit, minmax(270px, 1fr))</code>, the 3 plans wrap into 1 column on narrow screens. The popular plan also has its scale removed on mobile via a media query.",
+        "explanation": "The scale transform can cause the popular card to overflow on narrow screens. A mobile media query resets <code>transform: none</code> so it aligns with the others."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this footer grid do?<br><pre><code>.footer-grid { grid-template-columns: 2fr 1fr 1fr 1fr; }</code></pre>",
+        "hint": "Brand column is wider.",
+        "answer": "Four columns, where the first is twice as wide as each of the other three. Used so the brand/description column gets more room than the three link columns.",
+        "explanation": "Mixing fr values lets you give one column more weight than others while still being fluid. Common footer pattern."
+      },
+      {
+        "id": "ts-23",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why use :root for brand colors instead of .brand class?",
+        "hint": "Global scope.",
+        "answer": "<code>:root</code> gives the variables global scope so every element in the document can use them. A class like <code>.brand</code> would only make the variable available inside elements with that class.",
+        "explanation": "Global design tokens belong on <code>:root</code>. Component-specific tokens belong on the component. Mix and match based on scope."
+      },
+      {
+        "id": "ts-24",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the benefit of using padding: clamp() instead of padding: 32px 64px?",
+        "hint": "Fluid.",
+        "answer": "Fixed padding is the same on a phone and a desktop, which wastes space on mobile and looks cramped on desktop. clamp() scales padding with the viewport, so it looks right at every size.",
+        "explanation": "Fluid padding is as important as fluid typography. A hero with 64px padding on mobile looks awful; with 16px it is too tight on desktop. clamp() solves both in one rule."
+      },
+      {
+        "id": "ts-25",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Why use <code>align-items: center</code> on the pricing grid?",
+        "hint": "Different card heights.",
+        "answer": "Because the popular plan has an extra list item and is taller. <code>align-items: center</code> centers all cards vertically so the scaled popular card does not look like it is sticking to the top or bottom.",
+        "explanation": "Without center alignment, grid items stretch to the tallest sibling. Centering them means the shorter cards float in the middle of the row, matching the visual weight of the popular card."
+      },
+      {
+        "id": "ts-26",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Why are the nav links hidden on mobile?<br><pre><code>@media (max-width: 600px) { .nav .links { display: none; } }</code></pre>",
+        "hint": "Space.",
+        "answer": "On a 400px phone, the logo, 4 nav links, and a CTA button all crammed in a row would wrap or overflow. Hiding the middle links leaves just the logo and CTA, and we would normally add a hamburger menu in JavaScript.",
+        "explanation": "For a CSS-only landing page, hiding the links on mobile is the simplest solution. A full mobile nav would need a hamburger toggle, which requires JavaScript or the checkbox hack."
+      },
+      {
+        "id": "ts-27",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "How would you change the entire page's color theme?",
+        "hint": "One place.",
+        "answer": "Edit the three brand variables at the top: <code>--brand</code>, <code>--brand-2</code>, and maybe <code>--accent</code>. Every button, hero gradient, feature icon, popular pricing card, and hover state updates automatically.",
+        "explanation": "This is the payoff of a well-structured stylesheet. Changing one variable affects dozens of rules. No find-and-replace, no bugs from missed instances."
+      },
+      {
+        "id": "ts-28",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this do?<br><pre><code>html { scroll-padding-top: 80px; }</code></pre>",
+        "hint": "Sticky navbar plus anchor links.",
+        "answer": "When a user clicks an anchor link like <code>#pricing</code>, the browser scrolls so that the target is 80px from the top of the viewport, leaving room for the sticky navbar so the heading is not hidden under it.",
+        "explanation": "Without scroll-padding-top, the sticky nav covers the first part of each section after an anchor jump. 80px (or your navbar height) ensures the heading is fully visible."
+      },
+      {
+        "id": "ts-29",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why does the hero visual use a nested 2x2 grid of cards?",
+        "hint": "Depicting a dashboard.",
+        "answer": "It visually represents a 'dashboard with 4 stats' without needing an actual image. Nested grids are a common technique for building mock product visuals purely in CSS.",
+        "explanation": "Landing page hero visuals do not have to be real product screenshots. A stylized 4-card dashboard mock made of CSS grids is faster to build, sharper at any resolution, and trivial to theme."
+      },
+      {
+        "id": "ts-30",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why use <code>:hover</code> effects on pricing cards?",
+        "hint": "Perceived quality.",
+        "answer": "Hover interactions make the page feel alive and polished. Lifting the card slightly with <code>translateY(-6px)</code> tells the user 'this is clickable' and adds that premium product feel.",
+        "explanation": "Micro-interactions separate a landing page that looks 'built in a weekend' from one that looks 'professionally designed'. Hover effects cost nothing in performance or code but raise the perceived quality significantly."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which layout should you use for the navbar?",
+        "options": {
+          "A": "Grid",
+          "B": "Flexbox with space-between",
+          "C": "Float",
+          "D": "Table"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Flexbox with <code>justify-content: space-between</code> is the simplest and cleanest way to build a navbar with logo on the left, links in the middle, and CTA on the right."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What CSS line creates a responsive feature grid with no media queries?",
+        "options": {
+          "A": "grid-template-columns: repeat(3, 1fr)",
+          "B": "grid-template-columns: repeat(auto-fit, minmax(260px, 1fr))",
+          "C": "grid-template-columns: auto auto auto",
+          "D": "display: flex"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>auto-fit</code> + <code>minmax</code> creates as many columns as fit, wrapping naturally from 1 to 4 columns as the screen size changes."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which property makes a navbar stay at the top on scroll?",
+        "options": {
+          "A": "position: static",
+          "B": "position: relative",
+          "C": "position: sticky; top: 0",
+          "D": "display: fixed"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>position: sticky</code> with <code>top: 0</code> keeps the element in place as the user scrolls past its original position."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "How do you build a FAQ accordion without JavaScript?",
+        "options": {
+          "A": "Use position: absolute",
+          "B": "Use &lt;details&gt; and &lt;summary&gt;",
+          "C": "Use display: none",
+          "D": "Use visibility: hidden"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;details&gt;</code> is a native HTML element that handles open/close state without any JavaScript. Style it with CSS for custom visuals."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What function gives fluid font sizes?",
+        "options": {
+          "A": "scale()",
+          "B": "fit-content()",
+          "C": "clamp(min, preferred, max)",
+          "D": "calc()"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>clamp()</code> returns the preferred value clamped between the min and max, giving smooth fluid scaling across screen sizes."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "How do you make a hero headline have gradient text?",
+        "options": {
+          "A": "color: linear-gradient(...)",
+          "B": "background: linear-gradient; background-clip: text; color: transparent",
+          "C": "text-color: gradient",
+          "D": "text-shadow: gradient"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Apply the gradient as a background, clip it to the text with <code>background-clip: text</code>, and make the text transparent so the gradient shows through."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "What is a good max-width for the main content of a landing page?",
+        "options": {
+          "A": "100%",
+          "B": "Around 1100-1200px with margin: 0 auto to center",
+          "C": "600px always",
+          "D": "No limit"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> 1100-1200px is a sweet spot for readable line lengths and good visual rhythm on wide screens. Use <code>max-width</code> (not fixed width) so it shrinks gracefully."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Easy",
+        "question": "Which reset is essential at the start of every stylesheet?",
+        "options": {
+          "A": "* { box-sizing: border-box; margin: 0; padding: 0; }",
+          "B": "body { background: white; }",
+          "C": "html { font-size: 16px; }",
+          "D": "div { display: block; }"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> This resets browser default margins and padding and makes box-sizing predictable across every element. Essential for every landing page."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "How should the popular pricing card stand out visually?",
+        "options": {
+          "A": "Bigger padding",
+          "B": "transform: scale(1.05), gradient background, larger shadow, and a 'MOST POPULAR' ribbon via ::before",
+          "C": "Different font only",
+          "D": "Make it red"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A combination of scale, background, shadow, and a ribbon makes the card unmissable. Multiple cues work better than any single one."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is the purpose of <code>html { scroll-behavior: smooth }</code>?",
+        "options": {
+          "A": "Enables infinite scroll",
+          "B": "Animates anchor link scrolling",
+          "C": "Hides scrollbars",
+          "D": "Disables scrolling"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When a user clicks a link like <code>#pricing</code>, the browser animates the scroll to the target section instead of jumping instantly."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Why define CSS variables on :root?",
+        "options": {
+          "A": "They are only available inside :root",
+          "B": "They become global and every element can use them",
+          "C": "It is required syntax",
+          "D": "For performance"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Variables on <code>:root</code> are global and cascade to every element. Changing one value updates the entire page."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "What does <code>backdrop-filter: blur(10px)</code> need to work?",
+        "options": {
+          "A": "A solid background",
+          "B": "A semi-transparent background so content behind is visible",
+          "C": "An image",
+          "D": "JavaScript"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>backdrop-filter</code> blurs what is behind the element. A fully opaque background blocks the blur; a semi-transparent background (like <code>rgba(255,255,255,0.9)</code>) lets the frosted glass effect show through."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "Which CSS selects every feature card's icon individually with different gradients?",
+        "options": {
+          "A": ".feature:hover .icon",
+          "B": ".feature .icon:first",
+          "C": ".feature:nth-child(n) .icon with rules for n=1,2,3...",
+          "D": ".feature[data-index]"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>:nth-child(n)</code> targets cards by their position so you can assign different gradients without adding custom classes to each."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "Why is max-width preferred over width for containers?",
+        "options": {
+          "A": "Width is deprecated",
+          "B": "max-width lets the element shrink on narrow screens without overflowing",
+          "C": "width is not responsive at all",
+          "D": "max-width is faster"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>max-width</code> caps the element at a maximum but lets it shrink naturally on narrow screens. <code>width: 1200px</code> would force a horizontal scrollbar on a phone."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "How do you center a section that has max-width?",
+        "options": {
+          "A": "text-align: center",
+          "B": "margin: 0 auto",
+          "C": "display: center",
+          "D": "center: true"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>margin: 0 auto</code> centers a block element horizontally inside its parent when it has a max-width smaller than the parent."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "What is the problem with <code>.hero { width: 1200px; padding: 64px 200px; }</code>?",
+        "options": {
+          "A": "Nothing, it is fine",
+          "B": "It overflows narrow screens and creates horizontal scroll",
+          "C": "It is too small",
+          "D": "It uses the wrong units"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Fixed width 1200px plus padding on narrow screens means the hero is wider than the viewport and creates horizontal scroll. Use <code>max-width</code> and <code>clamp()</code> for padding."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "Why use <code>scroll-padding-top: 80px</code> on <code>html</code>?",
+        "options": {
+          "A": "To add scrollbars",
+          "B": "So anchor-link jumps leave room for the sticky navbar, keeping the heading visible",
+          "C": "To fix scroll-snap bugs",
+          "D": "It is required for scroll-behavior"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without scroll-padding-top, clicking an anchor link hides the top of the section under the sticky navbar. Padding equal to the navbar height fixes it."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Why might the popular pricing card use <code>transform: scale(1.05)</code> and reset it on mobile?",
+        "options": {
+          "A": "Because scale breaks layouts",
+          "B": "Because scaled cards can overflow narrow mobile screens, so a media query resets transform to none",
+          "C": "Because mobile does not support transforms",
+          "D": "Because the CSS is buggy"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> On narrow screens, the scaled card can touch the edges or overflow. A media query removes the scale on mobile so all cards align within the viewport."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Change the Hero to Have a Gradient Background",
+        "difficulty": "Easy",
+        "description": "Take the hero section from the landing page and change the body background to a radial gradient from dark purple at the top to near-black at the bottom. Make the hero text white so it is readable. Keep the gradient headline accent.",
+        "sampleInput": "None",
+        "sampleOutput": "A dark hero with a glowing purple aura at the top and bright white/gradient text.",
+        "constraints": "Use a radial-gradient on body. Ensure all text is legible against the dark background.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  :root { --brand: #a855f7; --brand-2: #ec4899; }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body {\n    font-family: 'Segoe UI', sans-serif;\n    background: radial-gradient(ellipse at top, #2d1b4e 0%, #0f0a1e 60%, #000 100%);\n    min-height: 100vh;\n    color: white;\n  }\n  .hero { display: grid; grid-template-columns: 1.1fr 1fr; gap: 48px; align-items: center; padding: 96px 32px; max-width: 1200px; margin: 0 auto; }\n  .eyebrow { display: inline-block; background: rgba(168,85,247,0.15); color: var(--brand); padding: 6px 14px; border-radius: 999px; font-size: 13px; font-weight: 700; letter-spacing: 1px; margin-bottom: 16px; border: 1px solid rgba(168,85,247,0.3); }\n  h1 { font-size: clamp(36px, 5vw, 64px); line-height: 1.05; text-wrap: balance; margin-bottom: 16px; color: white; }\n  .gradient { background: linear-gradient(135deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }\n  .sub { color: #cbd5e1; font-size: 19px; max-width: 500px; margin-bottom: 32px; line-height: 1.6; }\n  .ctas { display: flex; gap: 12px; }\n  .btn { padding: 14px 26px; border-radius: 12px; font-weight: 700; font-size: 15px; text-decoration: none; }\n  .btn-primary { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: white; box-shadow: 0 15px 40px rgba(168,85,247,0.4); }\n  .btn-outline { background: transparent; color: white; border: 2px solid rgba(255,255,255,0.3); }\n  .btn-outline:hover { border-color: var(--brand); }\n  .visual { aspect-ratio: 5/4; background: linear-gradient(135deg, rgba(168,85,247,0.15), rgba(236,72,153,0.15)); border: 1px solid rgba(255,255,255,0.1); border-radius: 22px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 12px; padding: 24px; backdrop-filter: blur(10px); }\n  .visual > div { background: rgba(255,255,255,0.08); border-radius: 10px; padding: 14px; font-size: 13px; color: #cbd5e1; display: flex; flex-direction: column; justify-content: space-between; border: 1px solid rgba(255,255,255,0.1); }\n  .visual strong { font-size: 22px; color: white; display: block; margin-bottom: 4px; }\n  @media (max-width: 900px) { .hero { grid-template-columns: 1fr; text-align: center; } }\n</style>\n</head>\n<body>\n  <section class=\"hero\">\n    <div>\n      <span class=\"eyebrow\">NEW IN 2026</span>\n      <h1>The Dashboard <span class=\"gradient\">Built for Teams</span> That Ship</h1>\n      <p class=\"sub\">Aarav's SkyPanel gives your team a single place to track every metric, sprint, and customer.</p>\n      <div class=\"ctas\"><a href=\"#\" class=\"btn btn-primary\">Start Free</a><a href=\"#\" class=\"btn btn-outline\">Learn More</a></div>\n    </div>\n    <div class=\"visual\">\n      <div><strong>1,284</strong> Active users</div>\n      <div><strong>+23%</strong> Growth</div>\n      <div><strong>98%</strong> Uptime</div>\n      <div><strong>4.9/5</strong> Rating</div>\n    </div>\n  </section>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Add a Sticky Bottom CTA Button",
+        "difficulty": "Easy",
+        "description": "Add a floating call-to-action button that sticks to the bottom-right corner of the screen on every page, always visible as the user scrolls. The button should say 'Start Free' and use the brand gradient. Use <code>position: fixed</code>.",
+        "sampleInput": "Scroll the page",
+        "sampleOutput": "A large purple-to-pink pill button stays in the bottom-right corner at all times.",
+        "constraints": "Use position: fixed. Add a subtle entry animation.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  :root { --brand: #7c3aed; --brand-2: #ec4899; }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: #fafaf9; padding-bottom: 120px; }\n  .filler { padding: 40px; max-width: 700px; margin: 0 auto; }\n  .filler h1 { color: #0f172a; margin-bottom: 20px; font-size: 36px; }\n  .filler p { color: #64748b; line-height: 1.6; margin-bottom: 20px; }\n  .sticky-cta {\n    position: fixed;\n    bottom: 28px;\n    right: 28px;\n    padding: 16px 28px;\n    background: linear-gradient(135deg, var(--brand), var(--brand-2));\n    color: white;\n    border: none;\n    border-radius: 999px;\n    font-size: 16px;\n    font-weight: 700;\n    cursor: pointer;\n    box-shadow: 0 20px 50px rgba(124,58,237,0.45);\n    z-index: 1000;\n    animation: rise 0.6s ease-out;\n    transition: transform 0.2s, box-shadow 0.2s;\n    display: flex;\n    align-items: center;\n    gap: 8px;\n  }\n  .sticky-cta:hover { transform: translateY(-3px) scale(1.03); box-shadow: 0 30px 60px rgba(124,58,237,0.55); }\n  .sticky-cta::before { content: '+'; font-size: 22px; font-weight: 400; }\n  @keyframes rise { from { opacity: 0; transform: translateY(100px); } to { opacity: 1; transform: translateY(0); } }\n</style>\n</head>\n<body>\n  <section class=\"filler\">\n    <h1>Kavya's Blog</h1>\n    <p>Scroll down and watch the Start Free button stay in the bottom-right corner no matter where you are on the page. This is one of the most effective conversion patterns on landing pages.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\n    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>\n    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>\n    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>\n    <p>Et harum quidem rerum facilis est et expedita distinctio.</p>\n    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.</p>\n  </section>\n  <button class=\"sticky-cta\">Start Free</button>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Make the Pricing Highlighted Card Stand Out More",
+        "difficulty": "Medium",
+        "description": "Take the pricing section and make the popular card even more prominent: add an animated glow effect around it, a slightly larger scale, and a 'BEST VALUE' ribbon at the top. Use <code>@keyframes</code> for the glow animation.",
+        "sampleInput": "None",
+        "sampleOutput": "The popular pricing card stands out dramatically with a pulsing glow and prominent ribbon.",
+        "constraints": "Use @keyframes for the glow. Keep the other two cards simple for contrast.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  :root { --brand: #7c3aed; --brand-2: #ec4899; --border: #e2e8f0; --text: #0f172a; --muted: #64748b; }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: linear-gradient(180deg, #fafaf9, white); padding: 80px 24px; }\n  .s-head { text-align: center; max-width: 600px; margin: 0 auto 64px; }\n  .s-head h2 { font-size: clamp(28px, 3.5vw, 44px); color: var(--text); margin-bottom: 10px; }\n  .s-head p { color: var(--muted); }\n  .plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 28px; max-width: 1100px; margin: 0 auto; align-items: center; }\n  .plan { background: white; border: 2px solid var(--border); border-radius: 22px; padding: 48px 24px; text-align: center; transition: transform 0.3s; }\n  .plan:hover { transform: translateY(-6px); }\n  .plan h3 { font-size: 20px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 12px; }\n  .plan .price { font-size: 52px; font-weight: 800; color: var(--text); }\n  .plan .price small { font-size: 16px; color: var(--muted); font-weight: 500; }\n  .plan ul { list-style: none; margin: 24px 0; text-align: left; }\n  .plan li { padding: 10px 0; color: var(--muted); font-size: 14px; border-bottom: 1px solid var(--border); }\n  .plan li::before { content: 'check  '; color: #10b981; font-weight: 700; }\n  .plan button { width: 100%; padding: 14px; border-radius: 12px; font-weight: 700; cursor: pointer; border: 2px solid var(--border); background: white; color: var(--text); font-size: 15px; transition: all 0.2s; }\n  .plan button:hover { border-color: var(--brand); color: var(--brand); }\n  .plan.popular {\n    background: linear-gradient(135deg, var(--brand), var(--brand-2));\n    color: white;\n    border: none;\n    transform: scale(1.08);\n    position: relative;\n    animation: glow 2.5s ease-in-out infinite;\n  }\n  @keyframes glow {\n    0%, 100% { box-shadow: 0 25px 60px rgba(124,58,237,0.4); }\n    50% { box-shadow: 0 35px 80px rgba(236,72,153,0.55), 0 0 0 6px rgba(236,72,153,0.15); }\n  }\n  .plan.popular::before {\n    content: 'BEST VALUE';\n    position: absolute;\n    top: -20px;\n    left: 50%;\n    transform: translateX(-50%);\n    background: #0f172a;\n    color: #fef08a;\n    padding: 8px 24px;\n    border-radius: 999px;\n    font-size: 12px;\n    letter-spacing: 2px;\n    font-weight: 800;\n    white-space: nowrap;\n    box-shadow: 0 10px 25px rgba(0,0,0,0.3);\n  }\n  .plan.popular h3, .plan.popular .price, .plan.popular .price small { color: white; }\n  .plan.popular li { color: rgba(255,255,255,0.95); border-bottom-color: rgba(255,255,255,0.25); }\n  .plan.popular li::before { color: #fef08a; }\n  .plan.popular button { background: white; color: var(--brand); border: none; }\n  .plan.popular button:hover { background: #fef08a; color: #0f172a; }\n</style>\n</head>\n<body>\n  <div class=\"s-head\">\n    <h2>Pick Your Plan</h2>\n    <p>Start free, upgrade as you grow.</p>\n  </div>\n  <div class=\"plans\">\n    <div class=\"plan\"><h3>Starter</h3><div class=\"price\">Rs 0<small>/mo</small></div><ul><li>3 members</li><li>5 projects</li><li>Community</li></ul><button>Get Started</button></div>\n    <div class=\"plan popular\"><h3>Pro</h3><div class=\"price\">Rs 999<small>/mo</small></div><ul><li>25 members</li><li>Unlimited projects</li><li>Priority support</li><li>AI insights</li></ul><button>Start Trial</button></div>\n    <div class=\"plan\"><h3>Team</h3><div class=\"price\">Rs 2,499<small>/mo</small></div><ul><li>Unlimited members</li><li>Dedicated manager</li><li>SSO</li></ul><button>Contact Sales</button></div>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Add a Stats/Logos Band Between Hero and Features",
+        "difficulty": "Medium",
+        "description": "Add a band between the hero and the features section that shows 4 impressive stats (e.g., '1,284 Active teams', '98% Uptime', '4.9/5 Rating', '40+ Integrations'). Use a subtle background and a 4-column grid. Include gradient numbers. Name the product after Priya's company.",
+        "sampleInput": "None",
+        "sampleOutput": "A clean horizontal stats bar with 4 large gradient numbers and descriptive labels.",
+        "constraints": "Use grid with 4 columns. Use gradient text on the numbers. Collapse to 2 columns on mobile.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  :root { --brand: #7c3aed; --brand-2: #ec4899; }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: #fafaf9; color: #0f172a; padding: 60px 24px; }\n  h1 { text-align: center; font-size: clamp(28px, 3.5vw, 44px); margin-bottom: 12px; text-wrap: balance; }\n  .sub { text-align: center; color: #64748b; margin-bottom: 48px; }\n  .stats {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 24px;\n    max-width: 1100px;\n    margin: 0 auto;\n    padding: 48px 32px;\n    background: white;\n    border-radius: 24px;\n    border: 1px solid #e2e8f0;\n    box-shadow: 0 10px 40px rgba(0,0,0,0.06);\n    position: relative;\n    overflow: hidden;\n  }\n  .stats::before {\n    content: '';\n    position: absolute;\n    inset: 0;\n    background: radial-gradient(ellipse at top, rgba(124,58,237,0.08), transparent 60%);\n    pointer-events: none;\n  }\n  .stat { text-align: center; position: relative; }\n  .stat strong {\n    display: block;\n    font-size: clamp(32px, 4vw, 56px);\n    font-weight: 800;\n    line-height: 1;\n    margin-bottom: 8px;\n    background: linear-gradient(135deg, var(--brand), var(--brand-2));\n    -webkit-background-clip: text;\n    background-clip: text;\n    -webkit-text-fill-color: transparent;\n  }\n  .stat span {\n    color: #64748b;\n    font-size: 14px;\n    font-weight: 500;\n  }\n  .stat + .stat { border-left: 1px solid #e2e8f0; }\n  @media (max-width: 780px) {\n    .stats { grid-template-columns: repeat(2, 1fr); gap: 32px 16px; }\n    .stat + .stat { border-left: none; }\n  }\n</style>\n</head>\n<body>\n  <h1>Trusted by Teams Around the World</h1>\n  <p class=\"sub\">Priya's Kalpana AI is powered by real numbers.</p>\n  <div class=\"stats\">\n    <div class=\"stat\"><strong>1,284</strong><span>Active teams</span></div>\n    <div class=\"stat\"><strong>98%</strong><span>Uptime last year</span></div>\n    <div class=\"stat\"><strong>4.9/5</strong><span>Customer rating</span></div>\n    <div class=\"stat\"><strong>40+</strong><span>Integrations</span></div>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Build a Contact Form Section",
+        "difficulty": "Hard",
+        "description": "Add a contact section to the landing page with a split layout: left side has a heading and description, right side has a form with name, email, company, and message. Use grid. Use <code>:valid</code> and <code>:invalid</code> for feedback. Use <code>form:has(:invalid) button</code> to disable submit.",
+        "sampleInput": "Type in the form fields",
+        "sampleOutput": "A polished contact section with a form that reacts to validation state.",
+        "constraints": "Split layout with grid. Live validation with :valid/:invalid and :has(). No JavaScript.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  :root { --brand: #7c3aed; --brand-2: #ec4899; }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: #fafaf9; padding: 80px 24px; }\n  .contact {\n    display: grid;\n    grid-template-columns: 1fr 1.2fr;\n    gap: 56px;\n    max-width: 1100px;\n    margin: 0 auto;\n    align-items: center;\n  }\n  .contact-text h2 { font-size: clamp(28px, 3.5vw, 42px); color: #0f172a; margin-bottom: 16px; text-wrap: balance; line-height: 1.15; }\n  .contact-text .gradient { background: linear-gradient(135deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }\n  .contact-text p { color: #64748b; font-size: 16px; line-height: 1.7; margin-bottom: 20px; }\n  .contact-text .info { display: flex; gap: 16px; color: #7c3aed; font-weight: 600; font-size: 14px; }\n  form {\n    background: white;\n    padding: 36px;\n    border-radius: 20px;\n    border: 2px solid #e2e8f0;\n    box-shadow: 0 20px 50px rgba(0,0,0,0.06);\n    transition: border-color 0.3s;\n  }\n  form:has(input:valid, textarea:valid):not(:has(input:invalid, textarea:invalid)) { border-color: #86efac; }\n  form:has(input:invalid, textarea:invalid) { border-color: #fecaca; }\n  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }\n  label { display: block; margin-bottom: 14px; font-size: 13px; color: #475569; font-weight: 600; }\n  input, textarea {\n    display: block; width: 100%; padding: 12px 14px;\n    margin-top: 6px;\n    border: 2px solid #e2e8f0;\n    border-radius: 10px;\n    font-size: 15px;\n    font-family: inherit;\n    outline: none;\n    transition: border-color 0.2s;\n  }\n  textarea { resize: vertical; min-height: 100px; }\n  input:focus, textarea:focus { border-color: var(--brand); }\n  input:not(:placeholder-shown):valid, textarea:not(:placeholder-shown):valid { border-color: #10b981; }\n  input:not(:placeholder-shown):invalid, textarea:not(:placeholder-shown):invalid { border-color: #ef4444; }\n  button {\n    width: 100%; padding: 14px;\n    background: linear-gradient(135deg, var(--brand), var(--brand-2));\n    color: white;\n    border: none; border-radius: 12px;\n    font-size: 16px; font-weight: 700;\n    cursor: pointer;\n    margin-top: 8px;\n    box-shadow: 0 12px 30px rgba(124,58,237,0.35);\n    transition: all 0.2s;\n  }\n  button:hover { transform: translateY(-2px); box-shadow: 0 18px 40px rgba(124,58,237,0.45); }\n  form:has(input:invalid, textarea:invalid) button {\n    opacity: 0.35;\n    pointer-events: none;\n  }\n  @media (max-width: 800px) {\n    .contact { grid-template-columns: 1fr; }\n    .row { grid-template-columns: 1fr; }\n  }\n</style>\n</head>\n<body>\n  <section class=\"contact\">\n    <div class=\"contact-text\">\n      <h2>Let Us <span class=\"gradient\">Build Something</span> Together</h2>\n      <p>Ishita, Aarav, and Kavya are ready to answer your questions about SkyPanel. Usually we reply within a few hours.</p>\n      <p>Enterprise teams, schools, and student groups — we are especially excited to hear from you.</p>\n      <div class=\"info\">\n        <span>hello@skypanel.example</span>\n      </div>\n    </div>\n    <form>\n      <div class=\"row\">\n        <label>Name<input type=\"text\" placeholder=\"Aarav\" minlength=\"2\" required></label>\n        <label>Email<input type=\"email\" placeholder=\"aarav@example.com\" required></label>\n      </div>\n      <label>Company<input type=\"text\" placeholder=\"Your company\" minlength=\"2\" required></label>\n      <label>Message<textarea placeholder=\"How can we help you?\" minlength=\"10\" required></textarea></label>\n      <button type=\"submit\">Send Message</button>\n    </form>\n  </section>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Build a Logo Cloud Band",
+        "difficulty": "Hard",
+        "description": "Add a 'Trusted by' section between the hero and features that shows 6 fake company logos in a horizontal row. Each logo is a gradient pill with the company name (Kalpana AI, Trishul Labs, Bhasha Tools, NayaCraft, ShikshaBot, VedaCloud). Grayscale them by default and colorize on hover with a filter transition.",
+        "sampleInput": "Hover over a logo",
+        "sampleOutput": "A row of grayscale 'company logos' that become colorful on hover.",
+        "constraints": "Use filter: grayscale() and transition. Use flex-wrap so it works on mobile.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: #fafaf9; padding: 80px 24px; }\n  .wrap { max-width: 1100px; margin: 0 auto; text-align: center; }\n  h2 { font-size: 14px; color: #64748b; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 24px; font-weight: 700; }\n  .logos { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: center; }\n  .logo {\n    padding: 14px 28px;\n    border-radius: 999px;\n    font-weight: 800;\n    font-size: 16px;\n    color: white;\n    box-shadow: 0 8px 20px rgba(0,0,0,0.08);\n    filter: grayscale(1);\n    opacity: 0.55;\n    transition: filter 0.3s, opacity 0.3s, transform 0.3s;\n    cursor: pointer;\n    user-select: none;\n  }\n  .logo:hover {\n    filter: grayscale(0);\n    opacity: 1;\n    transform: translateY(-4px);\n  }\n  .l1 { background: linear-gradient(135deg, #7c3aed, #ec4899); }\n  .l2 { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }\n  .l3 { background: linear-gradient(135deg, #f59e0b, #ef4444); }\n  .l4 { background: linear-gradient(135deg, #10b981, #06b6d4); }\n  .l5 { background: linear-gradient(135deg, #8b5cf6, #3b82f6); }\n  .l6 { background: linear-gradient(135deg, #ec4899, #f43f5e); }\n</style>\n</head>\n<body>\n  <div class=\"wrap\">\n    <h2>Trusted by 1,200+ teams worldwide</h2>\n    <div class=\"logos\">\n      <div class=\"logo l1\">Kalpana AI</div>\n      <div class=\"logo l2\">Trishul Labs</div>\n      <div class=\"logo l3\">Bhasha Tools</div>\n      <div class=\"logo l4\">NayaCraft</div>\n      <div class=\"logo l5\">ShikshaBot</div>\n      <div class=\"logo l6\">VedaCloud</div>\n    </div>\n  </div>\n</body>\n</html>"
+      }
+    ]
+  }
+}

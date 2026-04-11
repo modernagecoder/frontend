@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes and Pseudo-elements - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Master :hover, :focus, :nth-child, :not, ::before, ::after, and create creative effects without extra HTML.">
+    <meta name="keywords" content="pseudo-classes and pseudo-elements, html and css tutorial, html and css pseudo-classes and pseudo-elements, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/pseudo-classes-and-pseudo-elements">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/pseudo-classes-and-pseudo-elements">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/pseudo-classes-and-pseudo-elements">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/pseudo-classes-and-pseudo-elements">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/pseudo-classes-and-pseudo-elements">
+    <meta property="og:title" content="Pseudo-classes and Pseudo-elements - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Master :hover, :focus, :nth-child, :not, ::before, ::after, and create creative effects without extra HTML.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/pseudo-classes-and-pseudo-elements">
+    <meta name="twitter:title" content="Pseudo-classes and Pseudo-elements - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Master :hover, :focus, :nth-child, :not, ::before, ::after, and create creative effects without extra HTML.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Pseudo-classes and Pseudo-elements",
+    "description": "Master :hover, :focus, :nth-child, :not, ::before, ::after, and create creative effects without extra HTML.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/pseudo-classes-and-pseudo-elements"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/pseudo-classes-and-pseudo-elements"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Pseudo-classes and Pseudo-elements",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/pseudo-classes-and-pseudo-elements"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting the content Property on ::before and ::after",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>content</code> property is <em>required</em> for <code>::before</code> and <code>::after</code>. An empty string <code>content: ''</code> is fine when you only want a decorative shape. Without content, the browser simply does not render the pseudo-element."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Misreading :nth-child() Formulas",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The formula is <code>an+b</code> where n goes 0, 1, 2, 3... and the result must be a positive integer. <code>3n+1</code> gives 1, 4, 7, 10. <code>3n</code> gives 3, 6, 9. Sketch a few values to check your formula."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Single Colon vs Double Colon Confusion",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pseudo-classes use one colon (<code>:hover</code>, <code>:first-child</code>). Pseudo-elements use two colons (<code>::before</code>, <code>::after</code>, <code>::first-letter</code>). The double colon was introduced in CSS3 to distinguish them. Always use two colons for pseudo-elements in new code."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using :hover on Interactive States Alone (No Keyboard Support)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always pair <code>:hover</code> with <code>:focus-visible</code> (or <code>:focus</code>) so keyboard users see the same affordance as mouse users. <code>:focus-visible</code> is preferred because it only shows the ring for keyboard focus, not for mouse clicks."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Pseudo-classes and Pseudo-elements</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 22</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">50 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Pseudo-classes and Pseudo-elements</h1>
+            <a href="/resources/html-and-css/pseudo-classes-and-pseudo-elements/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Pseudo-classes and Pseudo-elements?</h2><p>Pseudo-classes and pseudo-elements are two of the most powerful features in CSS. They let you style elements based on state, position, or relationship — and even insert content that does not exist in the HTML.</p><h3>Pseudo-classes (single colon)</h3><p>A <strong>pseudo-class</strong> selects an element based on a state or position. Examples: <code>:hover</code> (when the user points at it), <code>:focus</code> (when it is keyboard-focused), <code>:nth-child(2n)</code> (when it is the even-numbered child), <code>:checked</code> (when a checkbox is ticked).</p><pre><code>button:hover { background: purple; }
+input:focus { outline: 2px solid cyan; }
+li:nth-child(odd) { background: #f1f5f9; }</code></pre><h3>Pseudo-elements (double colon)</h3><p>A <strong>pseudo-element</strong> targets a part of an element — or injects a 'fake' element. Examples: <code>::before</code> and <code>::after</code> inject content, <code>::first-letter</code> targets the first character, <code>::selection</code> styles selected text, <code>::placeholder</code> styles the placeholder inside inputs.</p><pre><code>.card::before {
+  content: 'NEW';
+  background: red;
+  color: white;
+  padding: 4px 8px;
+}</code></pre><p>Why two colons for pseudo-elements? In CSS3, pseudo-elements got their own double-colon syntax (<code>::before</code>) to distinguish them from pseudo-classes. Browsers still accept the old single-colon form for backwards compatibility, but double colons are the modern standard.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn Pseudo-classes and Pseudo-elements?</h2><h3>1. Interactivity Without JavaScript</h3><p>Hover effects, focus rings, checked states, form validation styling — all handled with CSS. No JavaScript, no event listeners, no bundle size. <code>:hover</code>, <code>:focus</code>, <code>:valid</code>, and <code>:invalid</code> handle the majority of interactive UI in a browser.</p><h3>2. Less HTML, More Creativity</h3><p>Need a decorative corner on a card? A tooltip arrow? A quote mark before a blockquote? A ribbon banner? None of these need extra HTML elements. <code>::before</code> and <code>::after</code> let you inject the content purely from CSS, keeping your HTML clean and semantic.</p><h3>3. Pattern-Based Styling</h3><p>Style every other row of a table, every third item in a grid, or only the last element of a list — without adding class names. <code>:nth-child()</code> is like a tiny query language for DOM position. Anika styled her entire homework table in 3 lines of CSS.</p><h3>4. Modern Selectors Unlock New Patterns</h3><p>Newer pseudo-classes like <code>:is()</code>, <code>:where()</code>, and especially <code>:has()</code> (the parent selector) let you write cleaner CSS and style elements based on what they contain. Things that used to require JavaScript now work with a single selector.</p><h3>5. Accessibility for Free</h3><p><code>:focus-visible</code> shows focus rings only for keyboard users, not mouse clicks. <code>:hover</code> does nothing on touch devices, so you never punish mobile users. Semantic pseudo-classes make your site work well for every input device.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>A Tour of the Most Useful Pseudo-classes and Pseudo-elements</h2><h3>1. Interaction States</h3><pre><code>a:link    { color: #7c3aed; }  /* unvisited */
+a:visited { color: #db2777; }  /* already visited */
+a:hover   { color: #ec4899; text-decoration: underline; }
+a:active  { color: #f43f5e; }  /* the instant it is clicked */
+
+button:focus         { outline: 2px solid #06b6d4; }
+button:focus-visible { outline: 2px solid #06b6d4; } /* keyboard only */
+button:disabled      { opacity: 0.5; cursor: not-allowed; }</code></pre><p><code>:focus-visible</code> is the modern choice: it only shows the focus ring when the user navigates with the keyboard, not when they click with a mouse. Clean and accessible.</p><h3>2. Form States</h3><pre><code>input:required { border-left: 3px solid #f59e0b; }
+input:valid    { border-color: #10b981; }
+input:invalid  { border-color: #ef4444; }
+input:disabled { background: #f1f5f9; }
+input:checked  { accent-color: #a855f7; }
+
+/* Placeholder-shown: input is empty */
+input:placeholder-shown { font-style: italic; color: #94a3b8; }</code></pre><p>This lets you show live validation feedback without any JavaScript. A red border appears the moment the user's input becomes invalid.</p><h3>3. Structural / Positional</h3><pre><code>li:first-child { font-weight: bold; }
+li:last-child  { border-bottom: none; }
+li:nth-child(2) { color: red; }
+li:nth-child(odd)  { background: #f8fafc; } /* 1st, 3rd, 5th... */
+li:nth-child(even) { background: #ffffff; } /* 2nd, 4th, 6th... */
+li:nth-child(3n)   { color: purple; }       /* every 3rd */
+li:nth-child(3n+1) { color: teal; }         /* 1st, 4th, 7th... */
+
+li:only-child { color: gray; } /* the only child of its parent */
+li:empty      { display: none; } /* has no content */</code></pre><p>Zebra stripes for tables take 2 lines. Highlighting every third grid item takes 1. This is what designers mean when they say 'pattern-based' styling.</p><h3>4. Negation and Grouping: :not(), :is(), :where()</h3><pre><code>/* Not: exclude something */
+li:not(.active) { color: gray; }
+button:not(:disabled):hover { background: purple; }
+
+/* Is: group selectors without copying */
+:is(h1, h2, h3) { font-family: 'Syne', sans-serif; }
+/* Equivalent to: h1, h2, h3 { ... } but composable */
+
+/* Where: like :is() but with zero specificity */
+:where(article, section) p { line-height: 1.7; }
+/* zero specificity means it is easy to override */</code></pre><h3>5. The Parent Selector: :has()</h3><p>For years CSS only looked downward. <code>:has()</code> finally lets you select a parent based on its children. This is the biggest new CSS feature in a decade.</p><pre><code>/* Style a card that contains an image */
+.card:has(img) { padding: 0; }
+
+/* Style a form that has an invalid input */
+form:has(:invalid) button { opacity: 0.5; pointer-events: none; }
+
+/* Style a label that has a checked checkbox */
+label:has(input:checked) { background: #7c3aed; color: white; }</code></pre><h3>6. Target and Empty</h3><pre><code>section:target { background: #fef3c7; } /* the section matching #hash in URL */
+div:empty { display: none; } /* element with no content at all */</code></pre><h3>7. Pseudo-elements: ::before and ::after</h3><p>These inject a 'fake' element at the start or end of an element's content. They need the <code>content</code> property to render.</p><pre><code>blockquote::before { content: '"'; font-size: 64px; color: #a855f7; }
+blockquote::after  { content: '"'; font-size: 64px; color: #a855f7; }
+
+.new::after {
+  content: 'NEW';
+  background: red;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-left: 8px;
+  font-size: 11px;
+}
+
+.tooltip::after {
+  content: attr(data-tip); /* read the data-tip attribute */
+  position: absolute;
+  bottom: -30px; left: 0;
+  background: black; color: white;
+  padding: 4px 8px; border-radius: 6px;
+  opacity: 0; transition: opacity 0.2s;
+}
+.tooltip:hover::after { opacity: 1; }</code></pre><h3>8. Text Pseudo-elements</h3><pre><code>p::first-letter { font-size: 3em; float: left; color: #7c3aed; }
+p::first-line   { font-weight: bold; }
+::selection     { background: #a855f7; color: white; }
+::placeholder   { color: #94a3b8; font-style: italic; }
+li::marker      { color: #7c3aed; font-size: 1.2em; }</code></pre><p><code>::selection</code> styles the highlighted text when a user selects anything. <code>::placeholder</code> styles the hint text inside form inputs. <code>::marker</code> targets the bullet or number of a list item — you can finally color bullets without extra markup.</p><h3>9. Creative Patterns</h3><pre><code>/* Ribbon on a card */
+.card::before {
+  content: 'SALE';
+  position: absolute; top: 12px; right: -28px;
+  background: #ef4444; color: white;
+  padding: 4px 36px; font-size: 12px;
+  transform: rotate(45deg);
+}
+
+/* Animated underline on hover */
+.nav a { position: relative; }
+.nav a::after {
+  content: '';
+  position: absolute;
+  left: 0; bottom: -4px;
+  width: 100%; height: 2px;
+  background: #a855f7;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s;
+}
+.nav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}</code></pre><p>No extra HTML, no JavaScript — just a sliding underline that knows which direction to grow from.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Zebra Stripe Table with :nth-child</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #f8fafc; padding: 40px; }
+    h1 { color: #7c3aed; margin-bottom: 16px; }
+    table { border-collapse: collapse; width: 100%; max-width: 700px; background: white; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 12px; overflow: hidden; }
+    th { background: #7c3aed; color: white; padding: 14px; text-align: left; }
+    td { padding: 12px 14px; color: #334155; }
+    tr:nth-child(even) { background: #f1f5f9; }
+    tr:hover { background: #ede9fe; }
+    tr:last-child td { font-weight: bold; color: #7c3aed; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Student Scores&lt;/h1&gt;
+  &lt;table&gt;
+    &lt;thead&gt;&lt;tr&gt;&lt;th&gt;Student&lt;/th&gt;&lt;th&gt;Chapter&lt;/th&gt;&lt;th&gt;Score&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;&lt;td&gt;Aarav&lt;/td&gt;&lt;td&gt;Variables&lt;/td&gt;&lt;td&gt;94&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Priya&lt;/td&gt;&lt;td&gt;Variables&lt;/td&gt;&lt;td&gt;91&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Rohan&lt;/td&gt;&lt;td&gt;Variables&lt;/td&gt;&lt;td&gt;88&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Ishita&lt;/td&gt;&lt;td&gt;Variables&lt;/td&gt;&lt;td&gt;97&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Vivaan&lt;/td&gt;&lt;td&gt;Variables&lt;/td&gt;&lt;td&gt;85&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Anika&lt;/td&gt;&lt;td&gt;Variables&lt;/td&gt;&lt;td&gt;99&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Class Average&lt;/td&gt;&lt;td&gt;---&lt;/td&gt;&lt;td&gt;92.3&lt;/td&gt;&lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>tr:nth-child(even)</code> gives every even-numbered row a light background for zebra striping. <code>tr:hover</code> highlights the row the user is pointing at. <code>tr:last-child td</code> styles the summary row. All three effects come from pseudo-classes with zero extra HTML.</div><div class="code-example-output">A clean table with purple header, zebra-striped rows, a subtle hover highlight, and a bold purple summary row at the bottom.</div></div>
+<div class="code-example"><div class="code-example-title">Tooltip Using ::after and attr()</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #0f172a; color: #f1f5f9; padding: 80px 40px; display: flex; gap: 40px; justify-content: center; }
+    .tip {
+      position: relative;
+      padding: 12px 24px;
+      background: #7c3aed;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .tip::after {
+      content: attr(data-tip);
+      position: absolute;
+      left: 50%;
+      bottom: calc(100% + 10px);
+      transform: translateX(-50%);
+      background: #0b1120;
+      color: #e2e8f0;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 400;
+      white-space: nowrap;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    .tip::before {
+      content: &#39;&#39;;
+      position: absolute;
+      left: 50%;
+      bottom: calc(100% + 4px);
+      transform: translateX(-50%);
+      border: 6px solid transparent;
+      border-top-color: #0b1120;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .tip:hover::after,
+    .tip:hover::before {
+      opacity: 1;
+      transform: translateX(-50%) translateY(-4px);
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;button class=&quot;tip&quot; data-tip=&quot;Meera&#39;s latest project&quot;&gt;Hover me&lt;/button&gt;
+  &lt;button class=&quot;tip&quot; data-tip=&quot;Click to save changes&quot;&gt;Save&lt;/button&gt;
+  &lt;button class=&quot;tip&quot; data-tip=&quot;Warning: this deletes everything&quot;&gt;Delete&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Each button has a <code>data-tip</code> attribute. The CSS injects that attribute's text via <code>::after</code> using <code>content: attr(data-tip)</code>. The <code>::before</code> draws a tiny triangle pointer. Both are hidden with opacity: 0 and revealed on hover. No JavaScript, one CSS rule per button.</div><div class="code-example-output">Three purple buttons. Hovering any button reveals a dark tooltip above it with a small downward-pointing arrow, showing the text from the data-tip attribute.</div></div>
+<div class="code-example"><div class="code-example-title">Custom Blockquote with ::before and ::after</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: &#39;Georgia&#39;, serif; background: #fafaf9; padding: 60px 40px; color: #0f172a; max-width: 720px; margin: 0 auto; }
+    blockquote {
+      position: relative;
+      background: white;
+      padding: 48px 48px 48px 64px;
+      border-left: 5px solid #7c3aed;
+      border-radius: 0 12px 12px 0;
+      font-size: 22px;
+      line-height: 1.5;
+      color: #334155;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      margin: 40px 0;
+    }
+    blockquote::before {
+      content: open-quote;
+      position: absolute;
+      top: -20px;
+      left: 12px;
+      font-size: 120px;
+      line-height: 1;
+      color: #a855f7;
+      font-family: &#39;Georgia&#39;, serif;
+    }
+    blockquote::after {
+      content: &#39;&#39;;
+      position: absolute;
+      right: 20px; bottom: 20px;
+      width: 40px; height: 3px;
+      background: linear-gradient(90deg, #a855f7, #ec4899);
+      border-radius: 2px;
+    }
+    blockquote cite {
+      display: block;
+      margin-top: 16px;
+      font-size: 14px;
+      color: #7c3aed;
+      font-style: normal;
+      font-weight: 700;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;blockquote&gt;
+    Learning to code changed how I think about problems. CSS variables and pseudo-elements made me fall in love with design.
+    &lt;cite&gt;- Ishita, age 15&lt;/cite&gt;
+  &lt;/blockquote&gt;
+  &lt;blockquote&gt;
+    You do not need a JavaScript library for nice quotation marks. ::before and ::after handle it beautifully.
+    &lt;cite&gt;- Meera, age 13&lt;/cite&gt;
+  &lt;/blockquote&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>::before</code> uses <code>content: open-quote</code> to render a large purple quote mark floating above the top-left. <code>::after</code> draws a small decorative gradient bar in the bottom-right. No extra HTML, and the quotes scale with the text automatically.</div><div class="code-example-output">Two elegant blockquotes. Each has a large decorative purple opening quote mark in the top-left, a purple left border, a subtle gradient accent in the bottom-right, and a styled citation.</div></div>
+<div class="code-example"><div class="code-example-title">Sliding Underline on Nav Links</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #0f172a; color: white; min-height: 100vh; }
+    nav { display: flex; gap: 32px; padding: 24px 40px; background: #0b1120; border-bottom: 1px solid #1e293b; }
+    nav a {
+      position: relative;
+      color: #cbd5e1;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 6px 0;
+      transition: color 0.2s;
+    }
+    nav a::after {
+      content: &#39;&#39;;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg, #a855f7, #06b6d4);
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.3s ease;
+    }
+    nav a:hover {
+      color: white;
+    }
+    nav a:hover::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+    main { padding: 80px 40px; text-align: center; }
+    h1 { color: #a855f7; font-size: 40px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;nav&gt;
+    &lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Projects&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+  &lt;/nav&gt;
+  &lt;main&gt;
+    &lt;h1&gt;Vivaan&#39;s Portfolio&lt;/h1&gt;
+  &lt;/main&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Each nav link has a 2px gradient bar injected via <code>::after</code>. It starts at <code>scaleX(0)</code> (invisible) with <code>transform-origin: right</code>. On hover it scales to 1 with <code>transform-origin: left</code>, creating a slide-in effect. When the mouse leaves, it retracts back to the right. Pure CSS, no JavaScript.</div><div class="code-example-output">A navigation bar with 4 links. Hovering any link reveals a gradient bar that slides in from the left. Moving away slides it back out to the right.</div></div>
+<div class="code-example"><div class="code-example-title">Form Validation Styling with :valid and :invalid</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #f8fafc; padding: 40px; display: flex; justify-content: center; }
+    .form { background: white; padding: 32px; border-radius: 16px; max-width: 400px; width: 100%; box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
+    h2 { color: #0f172a; margin-bottom: 24px; }
+    label { display: block; margin-bottom: 16px; font-size: 13px; color: #475569; }
+    input {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin-top: 6px;
+      border: 2px solid #e2e8f0;
+      border-radius: 8px;
+      font-size: 15px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    input:focus { border-color: #7c3aed; }
+    input:placeholder-shown { font-style: italic; }
+    input:not(:placeholder-shown):valid { border-color: #10b981; }
+    input:not(:placeholder-shown):invalid { border-color: #ef4444; }
+    input:required + .req::before { content: &#39; *&#39;; color: #ef4444; }
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #7c3aed;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 8px;
+    }
+    button:disabled { opacity: 0.4; cursor: not-allowed; }
+    form:has(input:invalid) button { opacity: 0.4; cursor: not-allowed; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form class=&quot;form&quot;&gt;
+    &lt;h2&gt;Sign Up&lt;/h2&gt;
+    &lt;label&gt;Name&lt;input type=&quot;text&quot; placeholder=&quot;Your name&quot; minlength=&quot;2&quot; required&gt;&lt;/label&gt;
+    &lt;label&gt;Email&lt;input type=&quot;email&quot; placeholder=&quot;you@example.com&quot; required&gt;&lt;/label&gt;
+    &lt;label&gt;Age&lt;input type=&quot;number&quot; placeholder=&quot;10-18&quot; min=&quot;10&quot; max=&quot;18&quot; required&gt;&lt;/label&gt;
+    &lt;button type=&quot;submit&quot;&gt;Create Account&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Inputs get a green border when valid and a red border when invalid — but only once the user has started typing (<code>:not(:placeholder-shown)</code>). The <code>form:has(input:invalid) button</code> rule disables the submit button whenever any input is invalid. All validation styling is pure CSS — no JavaScript.</div><div class="code-example-output">A clean signup form. As you type, fields turn green when valid and red when invalid. The submit button is disabled until every field is valid.</div></div>
+<div class="code-example"><div class="code-example-title">Ribbon and Badge Effects with ::before</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #f8fafc; padding: 40px; display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); max-width: 1000px; margin: 0 auto; }
+    .product {
+      position: relative;
+      background: white;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+    .product h3 { color: #0f172a; font-size: 20px; margin-bottom: 8px; }
+    .product p { color: #64748b; font-size: 14px; line-height: 1.6; }
+    .product .price { display: block; margin-top: 16px; font-size: 24px; font-weight: 700; color: #7c3aed; }
+
+    /* Ribbon on the top-right corner */
+    .product.sale::before {
+      content: &#39;SALE&#39;;
+      position: absolute;
+      top: 18px; right: -40px;
+      background: #ef4444;
+      color: white;
+      padding: 6px 46px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      transform: rotate(45deg);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    /* NEW badge */
+    .product.new::after {
+      content: &#39;NEW&#39;;
+      position: absolute;
+      top: 16px; left: 16px;
+      background: linear-gradient(135deg, #a855f7, #ec4899);
+      color: white;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;product sale&quot;&gt;
+    &lt;h3&gt;Ishita&#39;s HTML Book&lt;/h3&gt;
+    &lt;p&gt;Learn HTML and CSS from scratch with 50 projects.&lt;/p&gt;
+    &lt;span class=&quot;price&quot;&gt;Rs 499&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;product new&quot;&gt;
+    &lt;h3&gt;Aarav&#39;s CSS Guide&lt;/h3&gt;
+    &lt;p&gt;Master CSS variables, Grid, and animations.&lt;/p&gt;
+    &lt;span class=&quot;price&quot;&gt;Rs 399&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;product sale new&quot;&gt;
+    &lt;h3&gt;Kavya&#39;s JS Bundle&lt;/h3&gt;
+    &lt;p&gt;JavaScript basics to advanced in one bundle.&lt;/p&gt;
+    &lt;span class=&quot;price&quot;&gt;Rs 899&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>.product.sale::before</code> injects a rotated red ribbon in the corner. <code>.product.new::after</code> injects a pill-shaped gradient badge in the top-left. The third card uses both classes and shows both decorations at once. No extra markup — just pseudo-elements.</div><div class="code-example-output">Three product cards. The first has a diagonal red SALE ribbon in the top-right corner. The second has a purple-pink NEW badge in the top-left. The third has both decorations at the same time.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting the content Property on ::before and ::after</h3>
+                <div class="wrong-code"><pre><code class="language-python">.card::before {
+  background: red;
+  width: 20px;
+  height: 20px;
+  /* No content property - nothing renders! */
+}</code></pre></div><div class="error-message">The pseudo-element does not appear at all. Without &lt;code&gt;content&lt;/code&gt;, &lt;code&gt;::before&lt;/code&gt; and &lt;code&gt;::after&lt;/code&gt; are not generated by the browser.</div><div class="correct-code"><pre><code class="language-python">.card::before {
+  content: &#39;&#39;;  /* Even an empty string works */
+  background: red;
+  width: 20px;
+  height: 20px;
+  display: block;
+}</code></pre></div><div class="mistake-explanation">The <code>content</code> property is <em>required</em> for <code>::before</code> and <code>::after</code>. An empty string <code>content: ''</code> is fine when you only want a decorative shape. Without content, the browser simply does not render the pseudo-element.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Misreading :nth-child() Formulas</h3>
+                <div class="wrong-code"><pre><code class="language-python">/* Wanted every 3rd row, starting from the first */
+tr:nth-child(3n) {
+  background: #f1f5f9;
+}
+/* This selects the 3rd, 6th, 9th... - NOT the 1st, 4th, 7th! */</code></pre></div><div class="error-message">The pattern starts at row 3 instead of row 1. &lt;code&gt;3n&lt;/code&gt; means 3, 6, 9, 12 (n starting at 1 internally, or 0 giving 0 which does not exist).</div><div class="correct-code"><pre><code class="language-python">tr:nth-child(3n+1) {
+  background: #f1f5f9;
+  /* Now selects 1st, 4th, 7th... */
+}</code></pre></div><div class="mistake-explanation">The formula is <code>an+b</code> where n goes 0, 1, 2, 3... and the result must be a positive integer. <code>3n+1</code> gives 1, 4, 7, 10. <code>3n</code> gives 3, 6, 9. Sketch a few values to check your formula.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Single Colon vs Double Colon Confusion</h3>
+                <div class="wrong-code"><pre><code class="language-python">.card:before {
+  content: &#39;NEW&#39;;
+}
+/* This works but is the old syntax */</code></pre></div><div class="error-message">It still works in most browsers for backwards compatibility, but it mixes up the meaning of pseudo-classes (single colon) and pseudo-elements (double colon).</div><div class="correct-code"><pre><code class="language-python">.card::before {
+  content: &#39;NEW&#39;;
+}
+/* Modern CSS3 syntax - use this */</code></pre></div><div class="mistake-explanation">Pseudo-classes use one colon (<code>:hover</code>, <code>:first-child</code>). Pseudo-elements use two colons (<code>::before</code>, <code>::after</code>, <code>::first-letter</code>). The double colon was introduced in CSS3 to distinguish them. Always use two colons for pseudo-elements in new code.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using :hover on Interactive States Alone (No Keyboard Support)</h3>
+                <div class="wrong-code"><pre><code class="language-python">button:hover {
+  background: purple;
+  outline: 2px solid cyan;
+}
+/* Keyboard users see no feedback! */</code></pre></div><div class="error-message">Users who navigate with the keyboard (Tab key) get no visual feedback because only &lt;code&gt;:hover&lt;/code&gt; is styled, not &lt;code&gt;:focus&lt;/code&gt;.</div><div class="correct-code"><pre><code class="language-python">button:hover,
+button:focus-visible {
+  background: purple;
+  outline: 2px solid cyan;
+}</code></pre></div><div class="mistake-explanation">Always pair <code>:hover</code> with <code>:focus-visible</code> (or <code>:focus</code>) so keyboard users see the same affordance as mouse users. <code>:focus-visible</code> is preferred because it only shows the ring for keyboard focus, not for mouse clicks.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Pseudo-classes (single colon, like &lt;code&gt;:hover&lt;/code&gt;, &lt;code&gt;:focus&lt;/code&gt;, &lt;code&gt;:nth-child&lt;/code&gt;) select elements based on state or position. Pseudo-elements (double colon, like &lt;code&gt;::before&lt;/code&gt;, &lt;code&gt;::after&lt;/code&gt;, &lt;code&gt;::first-letter&lt;/code&gt;) target parts of an element or inject new content.</li>
+<li>&lt;code&gt;:hover&lt;/code&gt;, &lt;code&gt;:focus&lt;/code&gt;, &lt;code&gt;:focus-visible&lt;/code&gt;, &lt;code&gt;:active&lt;/code&gt;, &lt;code&gt;:disabled&lt;/code&gt;, and &lt;code&gt;:checked&lt;/code&gt; handle the majority of interactive UI states without JavaScript. Always pair &lt;code&gt;:hover&lt;/code&gt; with &lt;code&gt;:focus-visible&lt;/code&gt; for accessibility.</li>
+<li>Form validation styling is free: &lt;code&gt;:valid&lt;/code&gt;, &lt;code&gt;:invalid&lt;/code&gt;, &lt;code&gt;:required&lt;/code&gt;, and &lt;code&gt;:placeholder-shown&lt;/code&gt; let you show live feedback as the user types. Combine &lt;code&gt;:not(:placeholder-shown)&lt;/code&gt; with &lt;code&gt;:invalid&lt;/code&gt; to only show red after the user has started typing.</li>
+<li>&lt;code&gt;:nth-child(an+b)&lt;/code&gt; is a tiny query language: &lt;code&gt;odd&lt;/code&gt;, &lt;code&gt;even&lt;/code&gt;, &lt;code&gt;2n&lt;/code&gt;, &lt;code&gt;3n+1&lt;/code&gt;, etc. Use it for zebra stripes, grid patterns, and highlighting specific items without extra classes.</li>
+<li>&lt;code&gt;:not()&lt;/code&gt; excludes, &lt;code&gt;:is()&lt;/code&gt; groups selectors without rewriting them, and &lt;code&gt;:where()&lt;/code&gt; is like &lt;code&gt;:is()&lt;/code&gt; but with zero specificity (useful for base styles that are easy to override).</li>
+<li>&lt;code&gt;:has()&lt;/code&gt; is the parent selector — finally. Style an element based on what it contains: &lt;code&gt;form:has(:invalid) button&lt;/code&gt;, &lt;code&gt;.card:has(img)&lt;/code&gt;, &lt;code&gt;label:has(input:checked)&lt;/code&gt;. This used to require JavaScript.</li>
+<li>&lt;code&gt;::before&lt;/code&gt; and &lt;code&gt;::after&lt;/code&gt; require a &lt;code&gt;content&lt;/code&gt; property to render. Even &lt;code&gt;content: &#39;&#39;&lt;/code&gt; is enough for a pure decoration. They can read attributes with &lt;code&gt;content: attr(data-tip)&lt;/code&gt; — perfect for tooltips.</li>
+<li>&lt;code&gt;::first-letter&lt;/code&gt; and &lt;code&gt;::first-line&lt;/code&gt; style the first character or line of a paragraph (drop caps, magazine styling). &lt;code&gt;::selection&lt;/code&gt; styles highlighted text. &lt;code&gt;::placeholder&lt;/code&gt; styles form placeholders. &lt;code&gt;::marker&lt;/code&gt; styles list bullets or numbers.</li>
+<li>Creative patterns are mostly pseudo-elements: ribbons, badges, tooltips, sliding underlines, quote marks, custom bullets, decorative lines. All without adding a single extra HTML element.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/css-selectors-and-specificity" class="related-topic-link">CSS Selectors and Specificity</a>
+<a href="/resources/html-and-css/css-animations-and-keyframes" class="related-topic-link">CSS Animations with Keyframes</a>
+<a href="/resources/html-and-css/modern-css-features" class="related-topic-link">Modern CSS - Container Queries, Subgrid, clamp(), has() Selector</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/css-variables-and-theming" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">CSS Variables and Theming (Dark Mode)</span>
+        </a>
+            <a href="/resources/html-and-css/modern-css-features" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Modern CSS - Container Queries, Subgrid, clamp(), has() Selector</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/pseudo-classes-and-pseudo-elements/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

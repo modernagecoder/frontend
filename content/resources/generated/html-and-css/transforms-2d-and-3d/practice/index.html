@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - CSS Transforms (2D and 3D) | HTML and CSS | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="60+ practice questions on CSS Transforms (2D and 3D) in HTML and CSS. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="css transforms (2d and 3d) practice, html and css questions, html and css practice problems, css transforms (2d and 3d) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/transforms-2d-and-3d/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/transforms-2d-and-3d/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/transforms-2d-and-3d/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/transforms-2d-and-3d/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/transforms-2d-and-3d/practice">
+    <meta property="og:title" content="Practice Questions - CSS Transforms (2D and 3D) | HTML and CSS | Modern Age Coders">
+    <meta property="og:description" content="60+ practice questions on CSS Transforms (2D and 3D) in HTML and CSS. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/transforms-2d-and-3d/practice">
+    <meta name="twitter:title" content="Practice Questions - CSS Transforms (2D and 3D) | HTML and CSS | Modern Age Coders">
+    <meta name="twitter:description" content="60+ practice questions on CSS Transforms (2D and 3D) in HTML and CSS. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - CSS Transforms (2D and 3D)",
+    "description": "60+ practice questions on CSS Transforms (2D and 3D) in HTML and CSS.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "CSS Transforms (2D and 3D)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/transforms-2d-and-3d/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "CSS Transforms (2D and 3D)",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/transforms-2d-and-3d"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/transforms-2d-and-3d/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css/transforms-2d-and-3d">CSS Transforms (2D and 3D)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 20</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">60 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; CSS Transforms (2D and 3D)</h1>
+            <a href="/resources/html-and-css/transforms-2d-and-3d" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">15</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>transform: translate(50px, 20px)</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">X first, Y second.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">Moves the element 50 pixels to the right and 20 pixels down.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>transform: rotate(180deg)</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Half a full turn.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2">Rotates the element 180 degrees (upside down).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>transform: scale(1.5)</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">A number greater than 1 means grow.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3">Makes the element 150% of its original size (50% larger in both dimensions).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>transform-origin: top left</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Pivot point.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4">Makes all transforms pivot from the top-left corner of the element instead of the default center.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the Z axis in 3D transforms?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">In/out of the screen.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5">The Z axis points from the screen toward the viewer. Positive Z pulls an element forward; negative Z pushes it backward.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does <code>transform: translate(-50%, -50%)</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Classic centering trick.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">Moves the element 50% of its OWN width to the left and 50% of its OWN height upward. Combined with top: 50% and left: 50% on the parent, this centers an element perfectly.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does this look flat?<br><pre><code>.card {
+  transform: rotateY(45deg);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Missing a parent property.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7">Missing <code>perspective</code> on the parent. Without perspective, 3D rotations look like flat scaling because there is no depth reference.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between these two?<br><pre><code>/* A */ transform: translate(100px) rotate(45deg);
+/* B */ transform: rotate(45deg) translate(100px);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Order matters.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8">A: moves 100px right then rotates 45 degrees in place. B: rotates 45 degrees first, then translates along the rotated axis (so it moves diagonally).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does <code>backface-visibility: hidden</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Hides the reverse side.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">Hides the back (reverse) of an element when it is rotated more than 90 degrees. Essential for flip cards.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is <code>transform-style: preserve-3d</code> used for?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Nested 3D elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">It keeps child elements in 3D space instead of flattening them into the parent's 2D plane. Required for cubes, flip cards, and any nested 3D transforms.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does <code>transform: skewX(20deg)</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Slant horizontally.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">Slants (shears) the element 20 degrees along the horizontal axis, creating an italic-like effect.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is transforming an element faster than changing its top/left?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Think about the browser rendering pipeline.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">Changing top/left triggers LAYOUT recalculation every frame (the browser has to recompute positions of surrounding elements). Transform runs on the GPU and only requires a COMPOSITE step — much faster.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does <code>perspective: 500px</code> vs <code>perspective: 2000px</code> look like differently?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Closer = more dramatic.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">500px creates a strong, exaggerated 3D effect (like looking through a fish-eye lens). 2000px creates a subtle, natural 3D effect. Smaller values bring the viewer closer.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the difference between <code>rotate()</code> and <code>rotateZ()</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Both rotate around the Z axis.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14">They are IDENTICAL. <code>rotate()</code> is shorthand for <code>rotateZ()</code> — rotation around the Z axis (which appears as flat 2D rotation from the viewer's perspective).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why can you animate transform but not background-image between two images?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Interpolation requires numeric values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">Transform values are numeric (pixels, degrees, scale factors) and can be smoothly interpolated. Background-image URLs are discrete strings — the browser cannot blend two image files together.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>transform: scale(0)</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Zero scale.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">Collapses the element to zero size, making it invisible.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which unit is used for rotations?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Angle measurement.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>deg</code> (degrees), <code>turn</code>, <code>rad</code> (radians), or <code>grad</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why do CSS transforms not affect surrounding elements?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Transform is visual-only.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">Transforms are visual-only operations. They do not change the element's original box in the document flow. Surrounding elements lay out as if the transform did not happen.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this do?<br><pre><code>.box {
+  transform: translateY(-6px) scale(1.05);
+  transition: transform 0.3s;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Two transforms at once.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4">The box moves up 6 pixels AND grows to 105% of its size simultaneously. With the transition, both changes animate smoothly.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is <code>transform: translate3d(0, 0, 0)</code> and why is it used?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Performance hint.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">It applies a zero translation in 3D space, which forces the browser to create a GPU compositing layer for the element. Developers used to use this as a hack to force hardware acceleration.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is a 3D flip card built with two faces, not one?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">One face cannot show different content on both sides.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">Each face is a separate element (one for the front, one for the back). The back face is pre-rotated 180 degrees so it starts facing away. When the parent card rotates 180 degrees, the back now faces the viewer and the front faces away (hidden by backface-visibility).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does <code>transform: matrix(1, 0, 0, 1, 100, 50)</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">2D matrix transformation.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">It is equivalent to <code>translate(100px, 50px)</code>. The matrix() function represents any combination of translate, rotate, scale, and skew in matrix form.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does <code>transform: none</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Reset.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">Removes all transforms, resetting the element to its untransformed state.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Can you transform an inline element like <code>&lt;span&gt;</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about display types.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">Yes, but only after changing its display. Inline elements can be transformed only if their display is inline-block, block, flex, grid, etc. Pure inline display is not transformable.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Which is faster: <code>margin-left: 50px</code> or <code>transform: translateX(50px)</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">GPU vs layout.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>transform: translateX(50px)</code> is significantly faster. It runs on the GPU without triggering layout. margin-left causes a layout recalculation.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>transform: scaleY(-1)</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Negative scale.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">Flips the element vertically (mirror image upside down), without resizing.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What happens to an element with <code>transform: scale(2)</code> in terms of layout?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Transform does not change layout.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">The element appears twice as large visually, but its layout box stays the same. Neighboring elements do not shift to make room. The scaled element may overflow onto or under surrounding content.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does <code>transform: perspective(500px) rotateY(30deg)</code> do (inline perspective)?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Single-element 3D.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13">It applies perspective AND the 3D rotation on the same element. Useful for single-element 3D effects when you do not want to put perspective on the parent.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is translate percentage useful for centering?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">Percentage is relative to the element.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14">Because <code>translate(-50%, -50%)</code> moves the element by 50% of its own dimensions. Combined with <code>top: 50%; left: 50%</code>, which positions its top-left at the parent's center, the translate shifts it back so its center aligns with the parent's center.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Can you animate CSS transforms?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-15">Yes — that is their main purpose.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-15">Yes. Transforms are fully animatable with both transitions and @keyframes, and they are the most performant things you can animate in CSS.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is wrong with this flip card code?<br><pre><code>.card {
+  perspective: 1000px;
+}
+.face {
+  backface-visibility: hidden;
+}
+.back { transform: rotateY(180deg); }
+.card.flipped { transform: rotateY(180deg); }</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-16">Missing property for nested 3D.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-16">Missing <code>transform-style: preserve-3d</code> on the card. Without it, the faces collapse into the parent's 2D plane and the flip does not look 3D.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does <code>transform: rotateY(360deg)</code> on a looping animation look like visually?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-17">Full Y-axis spin.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-17">The element appears to spin around like a door handle or a vertical axis, showing its back at 180 degrees and returning to the front at 360 degrees.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Can you combine 2D and 3D transforms in one declaration?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-18">Yes — and it is common.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-18">Yes. Example: <code>transform: rotateY(45deg) scale(1.1) translateZ(30px)</code>. Mixing 2D and 3D functions is allowed and commonly used for interactive effects.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>transform: rotate(1turn)</code> do?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-19">One full turn.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-19">Rotates the element one full turn (360 degrees). The element ends up in the same visual position as it started.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which transform function moves an element?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> move()</li><li><span class="mcq-option-label">B.</span> translate()</li><li><span class="mcq-option-label">C.</span> shift()</li><li><span class="mcq-option-label">D.</span> position()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>translate(x, y)</code> moves an element by the given amounts.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which transform rotates an element?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> spin()</li><li><span class="mcq-option-label">B.</span> rotate()</li><li><span class="mcq-option-label">C.</span> turn()</li><li><span class="mcq-option-label">D.</span> pivot()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>rotate(deg)</code> rotates the element around its transform-origin (default center).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does <code>transform: scale(0.5)</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Doubles the size</li><li><span class="mcq-option-label">B.</span> Makes the element half its original size</li><li><span class="mcq-option-label">C.</span> Removes the element</li><li><span class="mcq-option-label">D.</span> Pushes it backward in 3D</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>scale(0.5)</code> scales the element to 50% of its original dimensions.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does <code>transform-origin</code> control?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The source file of the transform</li><li><span class="mcq-option-label">B.</span> The pivot point that transforms are calculated from</li><li><span class="mcq-option-label">C.</span> The starting value of an animation</li><li><span class="mcq-option-label">D.</span> The default transform on page load</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> transform-origin sets the pivot point (default is center) for all transforms.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">How do you combine multiple transforms?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Separate with commas</li><li><span class="mcq-option-label">B.</span> Separate with spaces</li><li><span class="mcq-option-label">C.</span> Use multiple transform properties</li><li><span class="mcq-option-label">D.</span> Chain with dots</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> Example: <code>transform: translate(100px) rotate(45deg) scale(1.2)</code>. Spaces separate multiple transform functions.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which property is required on the PARENT for 3D depth to appear correctly?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> transform-style</li><li><span class="mcq-option-label">B.</span> backface-visibility</li><li><span class="mcq-option-label">C.</span> perspective</li><li><span class="mcq-option-label">D.</span> depth</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>perspective</code> defines the distance between the viewer and the 3D scene, creating depth.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Which property keeps nested 3D children in 3D space?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> transform-style: preserve-3d</li><li><span class="mcq-option-label">B.</span> transform: flat</li><li><span class="mcq-option-label">C.</span> perspective: inherit</li><li><span class="mcq-option-label">D.</span> backface-visibility: visible</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: A</strong><br><strong>A is correct.</strong> Without <code>preserve-3d</code>, children are flattened into the parent's 2D plane.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What does <code>backface-visibility: hidden</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Hides the element on page load</li><li><span class="mcq-option-label">B.</span> Hides the reverse side of a rotated element</li><li><span class="mcq-option-label">C.</span> Hides the background</li><li><span class="mcq-option-label">D.</span> Hides parent elements</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> When an element rotates past 90 degrees, its back is visible. backface-visibility: hidden prevents that.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Why is <code>transform</code> animated instead of <code>top</code> or <code>left</code> for performance?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> transform is shorter to type</li><li><span class="mcq-option-label">B.</span> transform runs on the GPU without triggering layout recalculation</li><li><span class="mcq-option-label">C.</span> transform is newer</li><li><span class="mcq-option-label">D.</span> transform has more features</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> transform is GPU-accelerated. top/left trigger layout work on the CPU every frame, causing jank.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What does <code>translate(-50%, -50%)</code> do when combined with top:50% and left:50%?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Moves the element off-screen</li><li><span class="mcq-option-label">B.</span> Perfectly centers the element in its positioned parent</li><li><span class="mcq-option-label">C.</span> Rotates the element</li><li><span class="mcq-option-label">D.</span> Hides the element</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> top/left:50% puts the element's top-left at the parent's center; translate(-50%, -50%) shifts it back by half its own size, centering it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Does <code>transform</code> affect surrounding elements?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, neighboring elements shift to make room</li><li><span class="mcq-option-label">B.</span> No, transforms are visual-only and do not change layout</li><li><span class="mcq-option-label">C.</span> Only if scale is used</li><li><span class="mcq-option-label">D.</span> Only for 3D transforms</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> Transforms do not change the document flow. The original box is preserved; other elements do not shift.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Which is different: <code>rotate(45deg)</code> or <code>rotateZ(45deg)</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> rotate is 2D, rotateZ is 3D</li><li><span class="mcq-option-label">B.</span> They are identical — rotate() is shorthand for rotateZ()</li><li><span class="mcq-option-label">C.</span> rotate works in both, rotateZ only in 3D</li><li><span class="mcq-option-label">D.</span> rotateZ requires perspective</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> 2D rotation is actually rotation around the Z axis. rotate() and rotateZ() produce identical results.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does <code>transform: rotate(45deg) translate(100px)</code> do differently from <code>transform: translate(100px) rotate(45deg)</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They produce the same result</li><li><span class="mcq-option-label">B.</span> Order matters: the rotation affects the direction of subsequent translates</li><li><span class="mcq-option-label">C.</span> Only the first one works</li><li><span class="mcq-option-label">D.</span> Rotation is ignored when combined with translate</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> After a rotation, the coordinate system is rotated. Subsequent translates move along the rotated axis.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which value of perspective creates the most dramatic 3D effect?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10000px</li><li><span class="mcq-option-label">B.</span> 5000px</li><li><span class="mcq-option-label">C.</span> 2000px</li><li><span class="mcq-option-label">D.</span> 300px</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: D</strong><br><strong>D is correct.</strong> Smaller perspective values bring the viewer closer, producing steeper, more exaggerated 3D angles.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which property animates most efficiently?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> width</li><li><span class="mcq-option-label">B.</span> margin</li><li><span class="mcq-option-label">C.</span> transform</li><li><span class="mcq-option-label">D.</span> padding</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> transform runs on the GPU. All the others trigger layout work on the CPU.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What does <code>transform: scaleX(-1)</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Hides the element</li><li><span class="mcq-option-label">B.</span> Mirrors the element horizontally (flip left-right)</li><li><span class="mcq-option-label">C.</span> Doubles the width</li><li><span class="mcq-option-label">D.</span> Collapses the element</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> Negative scale values mirror the element. scaleX(-1) flips it horizontally.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What are the three essential properties for a 3D flip card?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> perspective on scene, preserve-3d on card, backface-visibility hidden on faces</li><li><span class="mcq-option-label">B.</span> rotate, translate, scale</li><li><span class="mcq-option-label">C.</span> top, left, position</li><li><span class="mcq-option-label">D.</span> width, height, z-index</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: A</strong><br><strong>A is correct.</strong> All three are required: perspective for depth, preserve-3d so faces stay in 3D space, backface-visibility so the back of each face is hidden when rotated.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What does <code>transform: skewX(15deg)</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Rotates 15 degrees</li><li><span class="mcq-option-label">B.</span> Slants the element horizontally by 15 degrees</li><li><span class="mcq-option-label">C.</span> Scales horizontally by 15</li><li><span class="mcq-option-label">D.</span> Moves 15 pixels</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> skewX slants the element along the X axis, creating an italic-like effect.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">How do you reset all transforms on an element?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> transform: reset</li><li><span class="mcq-option-label">B.</span> transform: none</li><li><span class="mcq-option-label">C.</span> transform: clear</li><li><span class="mcq-option-label">D.</span> transform: 0</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>transform: none</code> removes all transforms and returns the element to its untransformed state.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">What is translateZ(50px)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Moves 50px along the Y axis</li><li><span class="mcq-option-label">B.</span> Pulls the element 50px toward the viewer in 3D space</li><li><span class="mcq-option-label">C.</span> Increases zoom by 50</li><li><span class="mcq-option-label">D.</span> Adds 50px of z-index</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> Positive Z moves toward the viewer; negative pushes back. Requires perspective to appear 3D.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Hover Scale and Rotate</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a card that scales to 1.1 and rotates 5 degrees on hover. Use transition for smoothness.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Hover over card</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Card grows and tilts slightly.</div>
+                </div><div class="challenge-constraints">Combine scale and rotate in one transform. Use transition on the base state.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #0f172a; margin: 0; font-family: Arial, sans-serif; }
+  .card { width: 220px; padding: 30px; background: linear-gradient(135deg, #a855f7, #ec4899); color: white; border-radius: 16px; text-align: center; cursor: pointer; transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1); font-weight: bold; }
+  .card:hover { transform: scale(1.1) rotate(5deg); }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;card&quot;&gt;Aarav&#39;s Project&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Perfect Center with translate</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Center a box perfectly inside a larger parent using absolute positioning with top:50%, left:50%, and <code>translate(-50%, -50%)</code>.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">None</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A box perfectly centered in its parent.</div>
+                </div><div class="challenge-constraints">Use position: absolute + top/left: 50% + transform: translate(-50%, -50%).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  body { margin: 0; font-family: Arial, sans-serif; }
+  .parent { position: relative; width: 100vw; height: 100vh; background: #0f172a; }
+  .box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 200px; padding: 30px; background: linear-gradient(135deg, #06b6d4, #0ea5e9); color: white; border-radius: 14px; text-align: center; font-weight: bold; }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;parent&quot;&gt;
+    &lt;div class=&quot;box&quot;&gt;Priya is centered&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Flipping Card (Front and Back)</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a 3D flip card. The front shows a question, the back shows the answer. On hover, the card rotates 180 degrees on the Y axis to reveal the back.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Hover over card</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Card flips revealing the back.</div>
+                </div><div class="challenge-constraints">Use perspective on the scene, preserve-3d on the card, backface-visibility hidden on faces.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #0f172a; margin: 0; font-family: Arial, sans-serif; }
+  .scene { perspective: 1000px; width: 280px; height: 340px; }
+  .card { width: 100%; height: 100%; position: relative; transform-style: preserve-3d; transition: transform 0.8s cubic-bezier(0.65, 0, 0.35, 1); cursor: pointer; }
+  .scene:hover .card { transform: rotateY(180deg); }
+  .face { position: absolute; inset: 0; backface-visibility: hidden; border-radius: 18px; padding: 30px; color: white; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 20px; font-weight: bold; box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
+  .front { background: linear-gradient(135deg, #a855f7, #ec4899); }
+  .back { background: linear-gradient(135deg, #06b6d4, #0ea5e9); transform: rotateY(180deg); }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;scene&quot;&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;div class=&quot;face front&quot;&gt;What does DOM stand for?&lt;/div&gt;
+      &lt;div class=&quot;face back&quot;&gt;Document Object Model&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Lift and Shadow on Hover</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a pricing card that lifts up 10px and casts a larger shadow on hover. Use transform: translateY for the lift, and transition both transform and box-shadow.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Hover over card</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Card smoothly lifts with a bigger shadow.</div>
+                </div><div class="challenge-constraints">Use transform (not margin). Transition both transform and box-shadow.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #f8fafc; margin: 0; font-family: Arial, sans-serif; }
+  .plan { width: 240px; background: white; padding: 30px; border-radius: 16px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); cursor: pointer; transition: transform 0.3s, box-shadow 0.3s; }
+  .plan:hover { transform: translateY(-10px); box-shadow: 0 24px 50px rgba(168, 85, 247, 0.25); }
+  .plan h2 { color: #a855f7; margin: 0 0 8px; }
+  .plan .price { font-size: 36px; color: #0f172a; font-weight: bold; }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;plan&quot;&gt;&lt;h2&gt;Pro Plan&lt;/h2&gt;&lt;div class=&quot;price&quot;&gt;Rs 999&lt;/div&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: 3D Rotating Cube</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a real 3D cube with 6 colored faces that rotates continuously. Use 6 div.face elements, position each with translateZ and appropriate rotateX/rotateY, and animate the parent's rotation.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">None</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A rotating 3D cube with 6 colored faces.</div>
+                </div><div class="challenge-constraints">Use perspective on body, transform-style: preserve-3d on cube, translateZ for each face, and @keyframes for rotation.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #0f172a; perspective: 1200px; margin: 0; font-family: Arial, sans-serif; }
+  .cube { position: relative; width: 180px; height: 180px; transform-style: preserve-3d; animation: rotate 10s linear infinite; }
+  @keyframes rotate { from { transform: rotateX(-25deg) rotateY(0); } to { transform: rotateX(-25deg) rotateY(360deg); } }
+  .face { position: absolute; width: 180px; height: 180px; display: flex; align-items: center; justify-content: center; color: white; font-size: 22px; font-weight: bold; border: 2px solid rgba(255,255,255,0.2); }
+  .front  { background: rgba(168, 85, 247, 0.85); transform: translateZ(90px); }
+  .back   { background: rgba(236, 72, 153, 0.85); transform: rotateY(180deg) translateZ(90px); }
+  .right  { background: rgba(6, 182, 212, 0.85);  transform: rotateY(90deg)  translateZ(90px); }
+  .left   { background: rgba(14, 165, 233, 0.85); transform: rotateY(-90deg) translateZ(90px); }
+  .top    { background: rgba(245, 158, 11, 0.85); transform: rotateX(90deg)  translateZ(90px); }
+  .bottom { background: rgba(239, 68, 68, 0.85);  transform: rotateX(-90deg) translateZ(90px); }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;cube&quot;&gt;
+    &lt;div class=&quot;face front&quot;&gt;Aarav&lt;/div&gt;
+    &lt;div class=&quot;face back&quot;&gt;Priya&lt;/div&gt;
+    &lt;div class=&quot;face right&quot;&gt;Rohan&lt;/div&gt;
+    &lt;div class=&quot;face left&quot;&gt;Ishita&lt;/div&gt;
+    &lt;div class=&quot;face top&quot;&gt;Vivaan&lt;/div&gt;
+    &lt;div class=&quot;face bottom&quot;&gt;Anika&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Tilt Card with Layered Depth</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a card that tilts in 3D on hover with both X and Y rotation. Inside the card, the heading and paragraph should sit at different <code>translateZ</code> depths for a layered 3D feel.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Hover over card</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Card tilts, and inner text appears to float above the background.</div>
+                </div><div class="challenge-constraints">Use perspective on body, transform-style: preserve-3d on card, translateZ on inner elements.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #0f172a; perspective: 1000px; margin: 0; font-family: Arial, sans-serif; }
+  .card { width: 300px; padding: 30px; background: linear-gradient(135deg, #a855f7, #ec4899); color: white; border-radius: 20px; transform-style: preserve-3d; transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.4s; cursor: pointer; box-shadow: 0 20px 50px rgba(168, 85, 247, 0.3); }
+  .card:hover { transform: rotateX(10deg) rotateY(-12deg) translateZ(20px); box-shadow: 0 30px 70px rgba(168, 85, 247, 0.5); }
+  .card h2 { transform: translateZ(40px); margin: 0 0 10px; }
+  .card p { transform: translateZ(20px); line-height: 1.6; }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h2&gt;Meera&#39;s Card&lt;/h2&gt;
+    &lt;p&gt;This card tilts in 3D on hover. The heading floats above the paragraph for added depth.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/html-and-css/css-animations-and-keyframes/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">CSS Animations with Keyframes</span>
+        </a>
+            <a href="/resources/html-and-css/css-variables-and-theming/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">CSS Variables and Theming (Dark Mode)</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/html-and-css/transforms-2d-and-3d" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

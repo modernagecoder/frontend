@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - The Complete Guide - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Master display: flex, flex-direction, justify-content, align-items, flex-wrap, gap, and build real layouts.">
+    <meta name="keywords" content="flexbox - the complete guide, html and css tutorial, html and css flexbox - the complete guide, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/flexbox-complete-guide">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/flexbox-complete-guide">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/flexbox-complete-guide">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/flexbox-complete-guide">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/flexbox-complete-guide">
+    <meta property="og:title" content="Flexbox - The Complete Guide - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Master display: flex, flex-direction, justify-content, align-items, flex-wrap, gap, and build real layouts.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/flexbox-complete-guide">
+    <meta name="twitter:title" content="Flexbox - The Complete Guide - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Master display: flex, flex-direction, justify-content, align-items, flex-wrap, gap, and build real layouts.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Flexbox - The Complete Guide",
+    "description": "Master display: flex, flex-direction, justify-content, align-items, flex-wrap, gap, and build real layouts.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/flexbox-complete-guide"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/flexbox-complete-guide"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Flexbox - The Complete Guide",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/flexbox-complete-guide"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Applying Flex Properties to the Wrong Element",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "display: flex is always applied to the parent. The parent's children are the flex items that get aligned. Put display: flex on the thing containing what you want to align."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing justify-content and align-items",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Never memorize 'justify = horizontal'. Memorize 'justify = main axis'. Then remember: row main axis is horizontal, column main axis is vertical."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Margins Instead of gap",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "gap is supported in all modern browsers. It only adds space BETWEEN items (not at the edges) and requires no hacks. Always use gap for spacing flex items."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting flex-wrap on Responsive Layouts",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Add flex-wrap: wrap whenever you want items to flow onto new lines on smaller screens. It is essential for responsive card grids."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Flexbox - The Complete Guide</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 15</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">45 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Flexbox - The Complete Guide</h1>
+            <a href="/resources/html-and-css/flexbox-complete-guide/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Flexbox?</h2><p>Flexbox (Flexible Box Layout) is a CSS layout system designed to arrange items in a single row or column. With one line -- <code>display: flex</code> -- a container's direct children become flex items that you can align, distribute, wrap, and order with a handful of intuitive properties.</p><p>Before flexbox, centering a div was a running joke. With flexbox, it is two lines. Navbars, card grids, pricing tables, form layouts, sidebar + content layouts -- all become dramatically simpler. Flexbox is arguably the single most important CSS feature of the last 15 years.</p><pre><code>.container {
+  display: flex;
+  justify-content: center;  /* horizontal centering */
+  align-items: center;      /* vertical centering */
+}
+/* Any children are now perfectly centered. Done. */</code></pre>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is Flexbox So Important?</h2><h3>1. It Solves Layout Problems That Used to Be Painful</h3><p>Centering a div was hard. Equal-height columns were hard. Spacing items evenly was hard. Building a responsive navbar was hard. Flexbox makes all of these trivial. A few properties replace hundreds of lines of float hacks and table tricks.</p><h3>2. Every Modern Website Uses It</h3><p>Open any modern website in DevTools. You will see <code>display: flex</code> everywhere -- navbars, buttons, form groups, card layouts, section headers. Flexbox is the default layout tool for one-dimensional arrangements.</p><h3>3. It Is Responsive by Default</h3><p>Flex items automatically adjust to available space. Add <code>flex-wrap: wrap</code> and they flow onto new rows when the container gets narrow. Combined with <code>flex: 1</code>, you get responsive layouts with almost no effort.</p><h3>4. It Makes CSS Fun Again</h3><p>Once you understand flexbox, layout becomes intuitive. You stop fighting CSS and start actually designing. This is the chapter where CSS clicks for most learners.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Flex Container vs Flex Items</h3><p>Apply <code>display: flex</code> to a PARENT element. The parent becomes a flex container. Its DIRECT children become flex items. Flexbox properties are split into two groups:</p><ul><li><strong>Container properties</strong>: flex-direction, justify-content, align-items, flex-wrap, gap, align-content</li><li><strong>Item properties</strong>: flex-grow, flex-shrink, flex-basis, flex, order, align-self</li></ul><h3>2. Main Axis vs Cross Axis</h3><p>This is the most important concept. Flexbox has two axes:</p><ul><li><strong>Main axis</strong>: the direction items are laid out in (horizontal by default)</li><li><strong>Cross axis</strong>: perpendicular to the main axis (vertical by default)</li></ul><p>When you change <code>flex-direction</code>, the axes rotate. In a row, the main axis is horizontal. In a column, the main axis is vertical. This matters because <code>justify-content</code> aligns along the MAIN axis and <code>align-items</code> aligns along the CROSS axis.</p><h3>3. flex-direction</h3><pre><code>.container {
+  display: flex;
+  flex-direction: row;            /* default: left to right */
+  flex-direction: row-reverse;    /* right to left */
+  flex-direction: column;         /* top to bottom */
+  flex-direction: column-reverse; /* bottom to top */
+}</code></pre><h3>4. justify-content (MAIN AXIS)</h3><p>Distributes items along the main axis.</p><pre><code>justify-content: flex-start;    /* default: packed at start */
+justify-content: flex-end;      /* packed at end */
+justify-content: center;        /* centered */
+justify-content: space-between; /* first at start, last at end, equal space between */
+justify-content: space-around;  /* equal space around each item */
+justify-content: space-evenly;  /* equal space between AND at edges */</code></pre><p>Memorize space-between for navbars (logo left, links right) and center for everything else.</p><h3>5. align-items (CROSS AXIS)</h3><p>Aligns items perpendicular to the main axis.</p><pre><code>align-items: stretch;     /* default: fill cross axis */
+align-items: flex-start;  /* top (in a row) */
+align-items: flex-end;    /* bottom (in a row) */
+align-items: center;      /* vertically centered (in a row) */
+align-items: baseline;    /* aligned to text baselines */</code></pre><h3>6. The Holy Grail: Centering</h3><pre><code>.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Anything inside is perfectly centered -- horizontally AND vertically */
+}</code></pre><p>This one pattern solves the historical 'center a div' problem. Remember it.</p><h3>7. flex-wrap</h3><p>By default, flex items try to fit on a single line, even if they have to shrink. flex-wrap lets them wrap onto multiple lines.</p><pre><code>flex-wrap: nowrap;   /* default: all on one line */
+flex-wrap: wrap;     /* wrap to new lines when needed */
+flex-wrap: wrap-reverse;</code></pre><h3>8. gap</h3><p>The modern replacement for margin between items. <code>gap</code> works inside flex and grid containers and is much simpler than setting margins.</p><pre><code>.container {
+  display: flex;
+  gap: 16px;          /* space between items */
+  gap: 16px 24px;     /* row-gap | column-gap */
+}</code></pre><p>Use gap. Stop using margins on flex items. Trust me.</p><h3>9. align-content</h3><p>Only applies when <code>flex-wrap</code> causes multiple lines. Controls how those LINES are distributed along the cross axis.</p><pre><code>align-content: flex-start;
+align-content: center;
+align-content: space-between;
+align-content: space-around;</code></pre><h3>10. Flex Item Properties</h3><h4>flex-grow</h4><p>How much an item grows to fill extra space. Default is 0 (do not grow). Values are ratios: <code>flex-grow: 2</code> grows twice as fast as <code>flex-grow: 1</code>.</p><pre><code>.main    { flex-grow: 1; }  /* takes any extra space */
+.sidebar { flex-grow: 0; }  /* keeps its natural size */</code></pre><h4>flex-shrink</h4><p>How much an item shrinks when there is not enough space. Default is 1 (can shrink). Set to 0 to prevent shrinking.</p><pre><code>.logo { flex-shrink: 0; }  /* never shrinks */</code></pre><h4>flex-basis</h4><p>The initial size of the item before grow/shrink is applied.</p><pre><code>.item { flex-basis: 200px; }  /* starts at 200px, then grows or shrinks */</code></pre><h4>flex Shorthand</h4><p>Sets grow, shrink, and basis in one line. The common values you will actually use:</p><pre><code>flex: 1;        /* = flex: 1 1 0 -- grow to fill, shrink if needed, start at 0 */
+flex: 0 0 auto; /* no grow, no shrink, use content size */
+flex: 1 0 200px; /* grow, no shrink, start at 200px */
+flex: none;     /* no grow, no shrink, use content size */</code></pre><p>Most of the time you just use <code>flex: 1</code> on items that should fill available space.</p><h4>order</h4><p>Reorder items visually without changing the HTML.</p><pre><code>.first { order: 1; }
+.second { order: 2; }
+.hero { order: -1; } /* shows first regardless of source order */</code></pre><h4>align-self</h4><p>Override align-items for a single flex item.</p><pre><code>.special { align-self: flex-end; }  /* aligned to bottom while others center */</code></pre><h3>11. Common Flexbox Patterns</h3><h4>Centering everything</h4><pre><code>display: flex;
+justify-content: center;
+align-items: center;</code></pre><h4>Navbar (logo left, links right)</h4><pre><code>display: flex;
+justify-content: space-between;
+align-items: center;</code></pre><h4>Equal-width card grid</h4><pre><code>.grid { display: flex; gap: 20px; }
+.card { flex: 1; }</code></pre><h4>Sticky footer</h4><pre><code>body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main { flex: 1; }</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Perfect Centering (The Holy Grail)</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { margin: 0; font-family: Arial, sans-serif; }
+    .hero {
+      height: 100vh;
+      background: linear-gradient(135deg, #a855f7, #06b6d4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    h1 { font-size: 56px; margin: 0 0 12px; }
+    p { font-size: 20px; opacity: 0.9; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;hero&quot;&gt;
+    &lt;div&gt;
+      &lt;h1&gt;Hi, I&#39;m Aarav&lt;/h1&gt;
+      &lt;p&gt;Perfectly centered horizontally and vertically with flexbox.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Three lines of flexbox replace the decade-long struggle of centering an element. <code>display: flex</code> makes the container a flex container. <code>justify-content: center</code> centers along the main axis (horizontal). <code>align-items: center</code> centers along the cross axis (vertical).</div><div class="code-example-output">A full-screen gradient hero with a heading and tagline perfectly centered both horizontally and vertically.</div></div>
+<div class="code-example"><div class="code-example-title">Responsive Navbar</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #f9fafb; }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 30px;
+      background: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .logo { font-weight: bold; color: #a855f7; font-size: 22px; }
+    .links {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+    }
+    .links a {
+      color: #4b5563;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .links a:hover { color: #a855f7; }
+    .cta {
+      padding: 10px 20px;
+      background: #a855f7;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    main { padding: 40px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;nav class=&quot;nav&quot;&gt;
+    &lt;div class=&quot;logo&quot;&gt;Priya.dev&lt;/div&gt;
+    &lt;ul class=&quot;links&quot;&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Projects&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;button class=&quot;cta&quot;&gt;Sign Up&lt;/button&gt;
+  &lt;/nav&gt;
+  &lt;main&gt;
+    &lt;h1&gt;Welcome, friend!&lt;/h1&gt;
+    &lt;p&gt;This page has a flexbox navbar: logo left, links center, button right.&lt;/p&gt;
+  &lt;/main&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The nav uses <code>justify-content: space-between</code> to push the logo left, button right, with the links in between. The links themselves are a nested flex container with <code>gap: 24px</code> for even horizontal spacing. This is the standard navbar pattern.</div><div class="code-example-output">A modern navbar with a purple logo on the left, navigation links in the middle, and a purple sign-up button on the right.</div></div>
+<div class="code-example"><div class="code-example-title">Equal-Width Card Grid</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; padding: 40px; background: #f3f4f6; margin: 0; }
+    h1 { text-align: center; color: #1a1a2e; margin-bottom: 30px; }
+    .grid {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      flex: 1 1 240px;
+      background: white;
+      padding: 24px;
+      border-radius: 14px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    }
+    .card h3 { margin: 0 0 8px; color: #a855f7; }
+    .card p  { margin: 0; color: #4b5563; line-height: 1.5; font-size: 14px; }
+    .icon {
+      width: 48px; height: 48px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #a855f7, #06b6d4);
+      margin-bottom: 12px;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Why Learn with Us&lt;/h1&gt;
+  &lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;card&quot;&gt;&lt;div class=&quot;icon&quot;&gt;&lt;/div&gt;&lt;h3&gt;Live Mentors&lt;/h3&gt;&lt;p&gt;Real teachers, weekly classes, and doubt sessions.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;card&quot;&gt;&lt;div class=&quot;icon&quot;&gt;&lt;/div&gt;&lt;h3&gt;Projects&lt;/h3&gt;&lt;p&gt;Build real apps you can show off on your portfolio.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;card&quot;&gt;&lt;div class=&quot;icon&quot;&gt;&lt;/div&gt;&lt;h3&gt;Flexible&lt;/h3&gt;&lt;p&gt;Learn at your own pace with recorded backup classes.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;card&quot;&gt;&lt;div class=&quot;icon&quot;&gt;&lt;/div&gt;&lt;h3&gt;Community&lt;/h3&gt;&lt;p&gt;Meet other kids who love coding. By Kavya.&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>flex: 1 1 240px</code> means each card grows (1), shrinks (1), and has a base width of 240px. With <code>flex-wrap: wrap</code>, cards reflow onto new rows when the container gets narrower. Resize the window to see the responsive behavior.</div><div class="code-example-output">A responsive grid of 4 feature cards that flex to equal widths on wide screens and wrap to multiple rows on narrow screens.</div></div>
+<div class="code-example"><div class="code-example-title">Pricing Cards Layout</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; padding: 40px 20px; background: #f3f4f6; margin: 0; }
+    h1 { text-align: center; color: #1a1a2e; margin-bottom: 30px; }
+    .prices {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .plan {
+      flex: 1 1 260px;
+      max-width: 300px;
+      background: white;
+      padding: 32px 24px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .plan h3 { margin: 0 0 8px; color: #6b7280; font-size: 14px; text-transform: uppercase; letter-spacing: 0.1em; }
+    .price { font-size: 44px; font-weight: 800; color: #1a1a2e; margin: 8px 0; }
+    .price small { font-size: 16px; color: #6b7280; font-weight: normal; }
+    .features { list-style: none; padding: 0; text-align: left; margin: 20px 0; flex: 1; }
+    .features li { padding: 8px 0; border-bottom: 1px solid #f3f4f6; color: #4b5563; font-size: 14px; }
+    .btn { padding: 14px; background: #1a1a2e; color: white; border: none; border-radius: 10px; font-weight: 600; cursor: pointer; font-size: 14px; margin-top: auto; }
+    .popular { border: 3px solid #a855f7; position: relative; transform: scale(1.05); }
+    .popular .btn { background: #a855f7; }
+    .tag { position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: #a855f7; color: white; padding: 4px 16px; border-radius: 999px; font-size: 11px; font-weight: bold; letter-spacing: 0.1em; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Pick Your Plan&lt;/h1&gt;
+  &lt;div class=&quot;prices&quot;&gt;
+    &lt;div class=&quot;plan&quot;&gt;
+      &lt;h3&gt;Starter&lt;/h3&gt;
+      &lt;div class=&quot;price&quot;&gt;Rs 499 &lt;small&gt;/mo&lt;/small&gt;&lt;/div&gt;
+      &lt;ul class=&quot;features&quot;&gt;
+        &lt;li&gt;5 courses&lt;/li&gt;
+        &lt;li&gt;Community access&lt;/li&gt;
+        &lt;li&gt;Monthly check-in&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;button class=&quot;btn&quot;&gt;Get Started&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;plan popular&quot;&gt;
+      &lt;span class=&quot;tag&quot;&gt;POPULAR&lt;/span&gt;
+      &lt;h3&gt;Pro&lt;/h3&gt;
+      &lt;div class=&quot;price&quot;&gt;Rs 1,299 &lt;small&gt;/mo&lt;/small&gt;&lt;/div&gt;
+      &lt;ul class=&quot;features&quot;&gt;
+        &lt;li&gt;All 30 courses&lt;/li&gt;
+        &lt;li&gt;Weekly live classes&lt;/li&gt;
+        &lt;li&gt;Project reviews&lt;/li&gt;
+        &lt;li&gt;1-on-1 mentor&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;button class=&quot;btn&quot;&gt;Start Pro&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;plan&quot;&gt;
+      &lt;h3&gt;School&lt;/h3&gt;
+      &lt;div class=&quot;price&quot;&gt;Rs 4,999 &lt;small&gt;/mo&lt;/small&gt;&lt;/div&gt;
+      &lt;ul class=&quot;features&quot;&gt;
+        &lt;li&gt;Up to 30 students&lt;/li&gt;
+        &lt;li&gt;Teacher dashboard&lt;/li&gt;
+        &lt;li&gt;Bulk certificates&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;button class=&quot;btn&quot;&gt;Contact Us&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The outer container uses <code>display: flex</code> with gap and wrap. Each plan is also a flex container with <code>flex-direction: column</code> so the button can be pushed to the bottom using <code>margin-top: auto</code>. This ensures buttons line up even if feature lists have different lengths.</div><div class="code-example-output">Three pricing cards side by side. The middle one is highlighted and slightly larger. All buttons align to the bottom regardless of feature list length.</div></div>
+<div class="code-example"><div class="code-example-title">Sticky Footer Layout</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; font-family: Arial, sans-serif; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: #f3f4f6;
+    }
+    header {
+      padding: 20px 30px;
+      background: white;
+      border-bottom: 1px solid #e5e7eb;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .logo { font-weight: bold; color: #a855f7; }
+    main {
+      flex: 1;
+      padding: 40px 30px;
+      max-width: 800px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    main h1 { color: #1a1a2e; margin-bottom: 12px; }
+    main p { color: #4b5563; line-height: 1.6; }
+    footer {
+      padding: 20px 30px;
+      background: #1a1a2e;
+      color: #94a3b8;
+      text-align: center;
+      font-size: 14px;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;div class=&quot;logo&quot;&gt;Ishaan.dev&lt;/div&gt;
+    &lt;div&gt;v1.0&lt;/div&gt;
+  &lt;/header&gt;
+  &lt;main&gt;
+    &lt;h1&gt;Short Page&lt;/h1&gt;
+    &lt;p&gt;Even with very little content, the footer stays at the bottom of the viewport because of flexbox.&lt;/p&gt;
+    &lt;p&gt;This works by making body a flex column that is at least 100vh tall. The main element grows (flex: 1) to fill all leftover space, pushing the footer down.&lt;/p&gt;
+  &lt;/main&gt;
+  &lt;footer&gt;
+    Made with flexbox by Ishaan - 2026
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The body is a flex column with <code>min-height: 100vh</code>. The main element has <code>flex: 1</code>, meaning it grows to fill any leftover vertical space. The footer is pushed to the bottom even when the page has minimal content. This replaces the old sticky footer hacks.</div><div class="code-example-output">A page with a header, short main content, and a footer that is always pinned to the bottom of the viewport even with little content.</div></div>
+<div class="code-example"><div class="code-example-title">Order and align-self</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 30px; background: #f3f4f6; }
+    .row {
+      display: flex;
+      gap: 12px;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      min-height: 120px;
+      align-items: center;
+    }
+    .item {
+      width: 80px;
+      height: 60px;
+      background: #a855f7;
+      color: white;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    .first { order: -1; background: #06b6d4; }
+    .last  { order: 10; background: #f59e0b; }
+    .tall  { height: 100px; }
+    .top    { align-self: flex-start; }
+    .bottom { align-self: flex-end; }
+    h3 { color: #4b5563; margin: 0 0 8px; font-size: 14px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h3&gt;order: rearrange visually without changing HTML. Cyan is first, amber is last.&lt;/h3&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;A&lt;/div&gt;
+    &lt;div class=&quot;item first&quot;&gt;B&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;C&lt;/div&gt;
+    &lt;div class=&quot;item last&quot;&gt;D&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;E&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;h3&gt;align-self: override align-items on individual items&lt;/h3&gt;
+  &lt;div class=&quot;row&quot; style=&quot;align-items: center;&quot;&gt;
+    &lt;div class=&quot;item top&quot;&gt;Top&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;Mid&lt;/div&gt;
+    &lt;div class=&quot;item tall&quot;&gt;Tall&lt;/div&gt;
+    &lt;div class=&quot;item bottom&quot;&gt;Bot&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;Mid&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>order</code> lets you visually reorder flex items without touching the HTML. Items with lower order come first (default is 0). <code>align-self</code> overrides <code>align-items</code> for individual flex items -- the Top item goes to the top of the container while others stay centered.</div><div class="code-example-output">Two rows of colored boxes. The first shows reordering (cyan first, amber last), the second shows individual items aligned to the top, center, and bottom.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Applying Flex Properties to the Wrong Element</h3>
+                <div class="wrong-code"><pre><code class="language-python">.item {
+  display: flex;
+  justify-content: center;
+}
+/* This makes .item a flex container for ITS children. */
+/* It does not affect how .item itself is aligned. */</code></pre></div><div class="error-message">display: flex on an item does not move the item itself. It only affects the item&#39;s children.</div><div class="correct-code"><pre><code class="language-python">.container {
+  display: flex;
+  justify-content: center; /* aligns .item within the container */
+}
+.item {
+  /* whatever */
+}</code></pre></div><div class="mistake-explanation">display: flex is always applied to the parent. The parent's children are the flex items that get aligned. Put display: flex on the thing containing what you want to align.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing justify-content and align-items</h3>
+                <div class="wrong-code"><pre><code class="language-python">.row {
+  display: flex;
+  align-items: center;      /* vertically centers, NOT horizontally */
+  justify-content: center;  /* horizontally centers, NOT vertically */
+}
+/* Swapping these causes confusion in flex-direction: column */</code></pre></div><div class="error-message">In a row, justify-content is horizontal and align-items is vertical. In a column, they SWAP -- justify-content becomes vertical and align-items becomes horizontal. This trips up beginners.</div><div class="correct-code"><pre><code class="language-python">/* Always think: justify-content = MAIN axis, align-items = CROSS axis */
+/* The axes rotate with flex-direction. */</code></pre></div><div class="mistake-explanation">Never memorize 'justify = horizontal'. Memorize 'justify = main axis'. Then remember: row main axis is horizontal, column main axis is vertical.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Margins Instead of gap</h3>
+                <div class="wrong-code"><pre><code class="language-python">.item {
+  margin-right: 20px; /* extra margin on the last item too */
+}
+.item:last-child { margin-right: 0; } /* ugly fix */</code></pre></div><div class="error-message">Margins on flex items create uneven spacing at the edges and require last-child hacks.</div><div class="correct-code"><pre><code class="language-python">.container {
+  display: flex;
+  gap: 20px; /* clean, simple, works everywhere */
+}</code></pre></div><div class="mistake-explanation">gap is supported in all modern browsers. It only adds space BETWEEN items (not at the edges) and requires no hacks. Always use gap for spacing flex items.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting flex-wrap on Responsive Layouts</h3>
+                <div class="wrong-code"><pre><code class="language-python">.grid { display: flex; }
+.card { flex: 1 1 240px; }
+/* On narrow screens, cards shrink to tiny widths instead of wrapping */</code></pre></div><div class="error-message">Without flex-wrap, items try to squeeze onto a single line, shrinking past their flex-basis.</div><div class="correct-code"><pre><code class="language-python">.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card { flex: 1 1 240px; }</code></pre></div><div class="mistake-explanation">Add flex-wrap: wrap whenever you want items to flow onto new lines on smaller screens. It is essential for responsive card grids.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>display: flex makes an element a flex container. Its direct children become flex items that can be aligned, distributed, wrapped, and ordered with a few properties.</li>
+<li>Flexbox has a MAIN axis (direction of flow, horizontal by default) and a CROSS axis (perpendicular). flex-direction changes which axis is which.</li>
+<li>justify-content aligns items along the MAIN axis. Values: flex-start, flex-end, center, space-between (for navbars), space-around, space-evenly.</li>
+<li>align-items aligns items along the CROSS axis. Values: stretch (default), flex-start, flex-end, center (for vertical centering), baseline.</li>
+<li>The holy grail of centering: display: flex; justify-content: center; align-items: center. Centers any child both horizontally and vertically.</li>
+<li>flex-wrap: wrap lets items flow onto multiple lines when they do not fit. Essential for responsive card grids.</li>
+<li>gap is the modern way to space flex items. Works inside the container, adds space only between items (not at edges), and is far simpler than using margins.</li>
+<li>flex-grow, flex-shrink, and flex-basis control how items size. The flex shorthand combines them. flex: 1 is the most common value -- it means grow to fill available space.</li>
+<li>order lets you visually rearrange items without changing the HTML. Useful for responsive layouts where the visual order differs from the source order.</li>
+<li>Common patterns to memorize: centering (justify + align center), navbar (space-between), card grid (flex: 1 + flex-wrap), sticky footer (flex column + flex: 1 on main).</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/display-and-positioning" class="related-topic-link">Display and Positioning (static, relative, absolute, fixed, sticky)</a>
+<a href="/resources/html-and-css/the-box-model" class="related-topic-link">The Box Model - Margin, Border, Padding</a>
+<a href="/resources/html-and-css/css-grid-complete-guide" class="related-topic-link">CSS Grid - The Complete Guide</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/display-and-positioning" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Display and Positioning (static, relative, absolute, fixed, sticky)</span>
+        </a>
+            <a href="/resources/html-and-css/css-grid-complete-guide" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">CSS Grid - The Complete Guide</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/flexbox-complete-guide/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

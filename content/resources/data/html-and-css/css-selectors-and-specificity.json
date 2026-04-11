@@ -1,0 +1,926 @@
+{
+  "title": "CSS Selectors and Specificity",
+  "slug": "css-selectors-and-specificity",
+  "language": "css",
+  "chapter": 10,
+  "difficulty": "Beginner",
+  "readingTime": "25 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "CSS Selectors and Specificity - Complete Guide with Examples | Modern Age Coders",
+    "description": "Master CSS selectors: element, class, id, universal, attribute, descendant, child, sibling, and specificity rules. 58 practice questions with runnable examples.",
+    "keywords": "css selectors, css specificity, class selector, id selector, descendant selector, child selector, sibling selector, attribute selector, nth-child, css cascade"
+  },
+  "content": {
+    "what": "<h2>What Are CSS Selectors?</h2><p>A <strong>selector</strong> is how you tell CSS which HTML elements to style. In CSS, you write rules like <code>h1 { color: red; }</code> — the <code>h1</code> is the selector. But there are many, many more ways to target elements than just their tag name. You can target by class, by ID, by attribute, by position in a list, by whether they are children of other elements, and much more.</p><p>Selectors are the foundation of CSS. The better you know them, the more surgical and precise your styling becomes. Instead of wrapping everything in extra divs and classes, you can use smart selectors to target exactly what you want.</p><h3>What Is Specificity?</h3><p>When multiple CSS rules try to style the same element, there is a conflict. Which rule wins? <strong>Specificity</strong> is the system CSS uses to pick the winner. Every selector has a specificity score. The higher score wins. An ID beats a class. A class beats an element. Inline styles beat almost everything.</p>",
+    "why": "<h2>Why Should You Learn Selectors and Specificity?</h2><h3>1. Precise Targeting</h3><p>Simple selectors like <code>p</code> style every paragraph on the page. But what if you only want to style paragraphs inside a specific section? Or the first paragraph after a heading? Or every other row in a table? With advanced selectors, you can do all of that without adding extra classes.</p><h3>2. Clean HTML</h3><p>If you rely only on classes, your HTML ends up full of them: <code>class=\"card card-large card-blue card-featured\"</code>. Good selectors let you keep HTML clean and put the complexity in CSS where it belongs.</p><h3>3. Understanding Specificity Saves Hours</h3><p>Every CSS developer eventually hits a moment where their rule does not apply, and they have no idea why. Nine times out of ten, it is specificity. Understanding the rules lets you debug it in seconds instead of hours.</p><h3>4. Reading Other People's CSS</h3><p>Every CSS codebase uses selectors. If you want to read Bootstrap, Tailwind output, or any real-world CSS, you need to know what the selectors mean.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Element Selector</h3><p>Targets all elements of a certain tag name. Simplest selector.</p><pre><code>p { color: blue; }        /* all paragraphs */\nh1 { font-size: 32px; }   /* all h1 elements */\nbutton { cursor: pointer; } /* all buttons */</code></pre><h3>2. Class Selector</h3><p>Targets elements with a specific class attribute. Start with a period <code>.</code>.</p><pre><code>.highlight { background: yellow; }\n.big { font-size: 24px; }</code></pre><p>In HTML: <code>&lt;p class=\"highlight\"&gt;This is highlighted&lt;/p&gt;</code>. Classes can be reused on many elements.</p><h3>3. ID Selector</h3><p>Targets the one element with a specific id. Start with a hash <code>#</code>.</p><pre><code>#header { background: black; }\n#main { padding: 20px; }</code></pre><p>IDs should be unique on a page — only one element should have the same id.</p><h3>4. Universal Selector</h3><p>The asterisk <code>*</code> targets every element on the page. Useful for resetting default browser styles.</p><pre><code>* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}</code></pre><h3>5. Attribute Selector</h3><p>Targets elements with a specific attribute. Use square brackets.</p><pre><code>[type=\"text\"] { border: 1px solid grey; }\n[disabled] { opacity: 0.5; }\na[target=\"_blank\"] { color: red; }</code></pre><p>This lets you style elements based on their attributes without needing classes.</p><h3>6. Descendant Selector (Space)</h3><p>A descendant selector uses a space between two selectors. It matches elements that are inside other elements, at any depth.</p><pre><code>ul li { color: blue; }  /* every li inside a ul, at any depth */\narticle p { font-size: 18px; }  /* every p inside an article */</code></pre><h3>7. Child Selector (>)</h3><p>The child combinator <code>&gt;</code> is like the descendant selector, but only matches direct children — not grandchildren.</p><pre><code>ul &gt; li { list-style: square; }\n/* Only direct li children of ul, not nested li inside inner lists */</code></pre><h3>8. Adjacent Sibling Selector (+)</h3><p>The plus sign <code>+</code> matches an element that comes immediately after another element, and both share the same parent.</p><pre><code>h1 + p { font-weight: bold; }\n/* The first paragraph right after every h1 becomes bold */</code></pre><h3>9. General Sibling Selector (~)</h3><p>The tilde <code>~</code> matches all siblings that come after an element, not just the immediate one.</p><pre><code>h1 ~ p { color: grey; }\n/* Every p that comes after an h1 (sharing the same parent) becomes grey */</code></pre><h3>10. Grouping (Comma)</h3><p>Separate multiple selectors with commas to apply the same rule to all of them.</p><pre><code>h1, h2, h3 { font-family: Georgia; }\n.button, .link, input[type=\"submit\"] { cursor: pointer; }</code></pre><h3>Specificity Rules</h3><p>Specificity is calculated as a score with four parts (inline, ID, class, element). Here are the values:</p><ul><li><strong>Inline style</strong> (<code>style=\"...\"</code>) — specificity 1000</li><li><strong>ID selector</strong> (<code>#main</code>) — specificity 100</li><li><strong>Class, attribute, pseudo-class</strong> (<code>.btn</code>, <code>[type]</code>, <code>:hover</code>) — specificity 10</li><li><strong>Element, pseudo-element</strong> (<code>p</code>, <code>::before</code>) — specificity 1</li></ul><p>When selectors combine, add up the specificity:</p><ul><li><code>p</code> = 1</li><li><code>.note</code> = 10</li><li><code>#main</code> = 100</li><li><code>#main p</code> = 101</li><li><code>#main .note</code> = 110</li><li><code>.card p.bold</code> = 21 (class + element + class)</li></ul><h3>The !important Flag (and Why to Avoid It)</h3><p>If you add <code>!important</code> to a CSS value, it overrides normal specificity rules:</p><pre><code>p { color: red !important; }</code></pre><p>But <strong>do not use !important</strong> unless you really have to. It makes CSS hard to maintain because now you cannot override it without another !important. Every new !important piles on the mess. Better specificity is almost always a cleaner solution.</p><h3>The Cascade and Inheritance</h3><p>The cascade (which gives CSS its name) decides which rule wins. The factors, in order:</p><ol><li><strong>Importance</strong> (<code>!important</code> values win)</li><li><strong>Specificity</strong> (higher wins)</li><li><strong>Source order</strong> (later wins when specificity is equal)</li></ol><p><strong>Inheritance</strong> is when a child element takes on styles from its parent. Some properties (like <code>color</code> and <code>font-family</code>) are inherited by default. Others (like <code>margin</code> and <code>border</code>) are not. This is why setting <code>font-family</code> on <code>body</code> automatically applies to everything inside.</p>",
+    "codeExamples": [
+      {
+        "title": "Element, Class, and ID Selectors",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Selectors Demo</title>\n  <style>\n    /* Element selector */\n    p { color: #333; }\n\n    /* Class selector */\n    .highlight {\n      background-color: yellow;\n      padding: 5px;\n    }\n\n    /* ID selector */\n    #main-title {\n      color: #8e44ad;\n      font-size: 36px;\n      text-align: center;\n    }\n  </style>\n</head>\n<body>\n  <h1 id=\"main-title\">Aarav's Page</h1>\n  <p>This is a normal paragraph.</p>\n  <p class=\"highlight\">This paragraph has the highlight class.</p>\n  <p>Another normal paragraph.</p>\n  <p class=\"highlight\">Another highlighted one!</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Three selectors in action. The <code>p</code> element selector colors all paragraphs dark grey. The <code>.highlight</code> class selector gives yellow backgrounds to any element with that class. The <code>#main-title</code> ID selector styles just the one element with that ID. Save as <code>selectors.html</code> and open.",
+        "output": "A centered purple heading, two normal grey paragraphs, and two yellow-highlighted paragraphs."
+      },
+      {
+        "title": "Descendant and Child Selectors",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Descendant vs Child</title>\n  <style>\n    /* Descendant: all li inside ul, at any depth */\n    ul li {\n      color: blue;\n    }\n\n    /* Child: only DIRECT li children of .direct-only ul */\n    .direct-only > li {\n      font-weight: bold;\n      color: red;\n    }\n  </style>\n</head>\n<body>\n  <h2>Descendant Selector (every li inside ul)</h2>\n  <ul>\n    <li>Item 1\n      <ul>\n        <li>Nested item 1 (also blue — deep descendant)</li>\n      </ul>\n    </li>\n    <li>Item 2</li>\n  </ul>\n\n  <h2>Child Selector (only direct children)</h2>\n  <ul class=\"direct-only\">\n    <li>Direct child (bold red)\n      <ul>\n        <li>Nested (NOT bold red — it is a grandchild)</li>\n      </ul>\n    </li>\n    <li>Direct child (bold red)</li>\n  </ul>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This shows the difference between descendant (space) and child (>) selectors. <code>ul li</code> matches every li inside a ul, even nested ones. <code>.direct-only &gt; li</code> matches only li that are DIRECT children of the ul — not grandchildren (like li inside a nested ul). Both lists look different because of this.",
+        "output": "First list has all items blue (including nested). Second list has only the top-level items bold red; the nested item is just blue."
+      },
+      {
+        "title": "Adjacent and General Sibling Selectors",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Sibling Selectors</title>\n  <style>\n    /* Adjacent sibling: the FIRST p right after h1 */\n    h1 + p {\n      font-size: 20px;\n      font-weight: bold;\n      color: darkgreen;\n    }\n\n    /* General sibling: EVERY p after h1 */\n    h2 ~ p {\n      color: darkred;\n      font-style: italic;\n    }\n  </style>\n</head>\n<body>\n  <h1>Main Heading</h1>\n  <p>This is the first paragraph after h1 (bold green).</p>\n  <p>This one is NOT — it is the second paragraph.</p>\n\n  <h2>Second Heading</h2>\n  <p>First paragraph (italic red — it is a sibling of h2).</p>\n  <p>Second paragraph (also italic red — also a sibling).</p>\n  <p>Third paragraph (still red — general sibling selector).</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "<code>h1 + p</code> only matches the FIRST p immediately after an h1. <code>h2 ~ p</code> matches EVERY p that comes after an h2 and shares the same parent. These are powerful for styling specific patterns without needing extra classes.",
+        "output": "First paragraph after h1 is bold green. Next paragraph is normal. After h2, all three paragraphs are italic red."
+      },
+      {
+        "title": "Attribute Selectors",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Attribute Selectors</title>\n  <style>\n    /* Match exact attribute value */\n    input[type=\"text\"] {\n      border: 2px solid blue;\n      padding: 5px;\n    }\n    input[type=\"email\"] {\n      border: 2px solid green;\n      padding: 5px;\n    }\n    input[type=\"password\"] {\n      border: 2px solid red;\n      padding: 5px;\n    }\n\n    /* Match just the presence of an attribute */\n    [required] {\n      background-color: #fffacd;\n    }\n\n    /* Attribute starts with */\n    a[href^=\"https\"] {\n      color: green;\n    }\n    /* Attribute ends with */\n    a[href$=\".pdf\"] {\n      color: red;\n      font-weight: bold;\n    }\n  </style>\n</head>\n<body>\n  <form>\n    <input type=\"text\" placeholder=\"Name\" required><br><br>\n    <input type=\"email\" placeholder=\"Email\" required><br><br>\n    <input type=\"password\" placeholder=\"Password\" required><br><br>\n  </form>\n\n  <p><a href=\"https://google.com\">Secure link (green)</a></p>\n  <p><a href=\"document.pdf\">Download PDF (red bold)</a></p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Attribute selectors use square brackets. <code>[type=\"text\"]</code> matches elements with that exact attribute value. <code>[required]</code> matches elements that simply have the attribute. <code>[href^=\"https\"]</code> matches elements whose href STARTS with 'https'. <code>[href$=\".pdf\"]</code> matches elements whose href ENDS with '.pdf'. Incredibly useful for styling based on attributes.",
+        "output": "Three input fields with different border colors for text (blue), email (green), and password (red), all with yellow backgrounds because of [required]. Two links: Google in green, the PDF in bold red."
+      },
+      {
+        "title": "Grouping Selectors with Commas",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Grouping</title>\n  <style>\n    /* Apply the same styles to many selectors */\n    h1, h2, h3, h4, h5, h6 {\n      font-family: Georgia, serif;\n      color: #2c3e50;\n      margin-bottom: 10px;\n    }\n\n    /* Mix different selector types */\n    .btn, #submit, input[type=\"submit\"] {\n      background-color: #3498db;\n      color: white;\n      padding: 10px 20px;\n      border: none;\n      cursor: pointer;\n      border-radius: 5px;\n    }\n  </style>\n</head>\n<body>\n  <h1>Biggest</h1>\n  <h2>Big</h2>\n  <h3>Medium</h3>\n\n  <button class=\"btn\">Class button</button>\n  <button id=\"submit\">ID button</button>\n  <input type=\"submit\" value=\"Submit input\">\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Commas group selectors so they all share the same rules. This is cleaner than writing the same rule six times for h1 through h6. You can even mix different selector types in one group: a class, an ID, and an attribute selector all get the same button styles.",
+        "output": "Three differently-sized headings all in dark blue Georgia font. Three buttons (from class, id, and input) all styled identically in blue."
+      },
+      {
+        "title": "Specificity in Action",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Specificity Demo</title>\n  <style>\n    /* Specificity: 1 (just element) */\n    p {\n      color: black;\n      background: white;\n    }\n\n    /* Specificity: 10 (class) - beats element */\n    .blue-text {\n      color: blue;\n    }\n\n    /* Specificity: 11 (class + element) */\n    p.green-text {\n      color: green;\n    }\n\n    /* Specificity: 100 (ID) - beats all classes */\n    #special {\n      color: purple;\n      background: yellow;\n    }\n\n    /* Specificity: 110 (ID + class) */\n    #special.extra {\n      color: red;\n    }\n  </style>\n</head>\n<body>\n  <p>Plain paragraph (black)</p>\n  <p class=\"blue-text\">Has .blue-text class (blue)</p>\n  <p class=\"green-text\">Has .green-text class (green)</p>\n  <p id=\"special\" class=\"blue-text\">Has ID #special AND class .blue-text — ID wins (purple, yellow bg)</p>\n  <p id=\"special\" class=\"extra\">ID + extra class — red wins</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This demonstrates specificity in action. Even though the second-to-last paragraph has the class <code>.blue-text</code>, the ID selector <code>#special</code> wins because ID specificity (100) is higher than class specificity (10). The last paragraph has an even more specific selector that wins out.",
+        "output": "Five paragraphs showing how higher specificity wins: plain black, blue (class), green (class+element), purple with yellow bg (ID beats class), red (ID+class beats everything)."
+      },
+      {
+        "title": "Targeting Every Other li with nth-child",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>nth-child</title>\n  <style>\n    ul {\n      list-style: none;\n      padding: 0;\n      max-width: 300px;\n    }\n    li {\n      padding: 10px;\n      background-color: #f0f0f0;\n    }\n    /* Target every EVEN li (2nd, 4th, 6th...) */\n    li:nth-child(even) {\n      background-color: #d4e9ff;\n    }\n    /* Target the FIRST li */\n    li:first-child {\n      font-weight: bold;\n      color: darkblue;\n    }\n    /* Target the LAST li */\n    li:last-child {\n      color: red;\n      font-style: italic;\n    }\n  </style>\n</head>\n<body>\n  <h2>Student Attendance (Class 8A)</h2>\n  <ul>\n    <li>Aarav Sharma</li>\n    <li>Priya Patel</li>\n    <li>Rohan Kumar</li>\n    <li>Ananya Singh</li>\n    <li>Vikram Gupta</li>\n    <li>Meera Reddy</li>\n  </ul>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Pseudo-class selectors like <code>:nth-child(even)</code> let you target elements based on their position. <code>:nth-child(even)</code> picks every 2nd, 4th, 6th... element. <code>:first-child</code> picks the first, <code>:last-child</code> picks the last. You can also use <code>:nth-child(3)</code> for a specific position, or <code>:nth-child(3n)</code> for every third.",
+        "output": "A list of students where alternating rows have different background colors (zebra stripes). The first student is bold dark blue; the last is italic red."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting the Dot for Class Selectors",
+        "wrongCode": "highlight {\n  background-color: yellow;\n}",
+        "error": "This targets HTML tags called <highlight>, which do not exist. No styles apply.",
+        "correctCode": ".highlight {\n  background-color: yellow;\n}",
+        "explanation": "Class selectors must start with a period (<code>.</code>). Without it, CSS thinks you are targeting an element tag with that name. Always write <code>.classname</code> for classes."
+      },
+      {
+        "title": "Forgetting the Hash for ID Selectors",
+        "wrongCode": "main-title {\n  color: red;\n}",
+        "error": "This tries to target an element tag <main-title> which doesn't exist.",
+        "correctCode": "#main-title {\n  color: red;\n}",
+        "explanation": "ID selectors must start with a hash (<code>#</code>). Without it, you are targeting a non-existent element."
+      },
+      {
+        "title": "Using the Same ID Twice",
+        "wrongCode": "<div id=\"card\">First</div>\n<div id=\"card\">Second</div>",
+        "error": "No HTML error, but this is invalid. IDs should be unique per page.",
+        "correctCode": "<div class=\"card\">First</div>\n<div class=\"card\">Second</div>",
+        "explanation": "IDs should be unique on a page. If you need to style multiple elements the same way, use a <em>class</em> instead. Classes can be reused as many times as you want; IDs cannot."
+      },
+      {
+        "title": "Overusing !important",
+        "wrongCode": "p { color: red !important; }\n.note { color: blue !important; }",
+        "error": "No error, but now both rules are 'important' and it gets confusing. If you want to override, you need more !important, leading to a mess.",
+        "correctCode": "/* Use proper specificity instead */\np { color: red; }\np.note { color: blue; }  /* more specific wins naturally */",
+        "explanation": "<code>!important</code> should be a last resort. Overusing it makes CSS impossible to maintain. Instead, use more specific selectors (like adding a class or an ID to the selector) to override earlier rules naturally."
+      },
+      {
+        "title": "Using Descendant When You Meant Child",
+        "wrongCode": ".menu li {\n  /* Affects ALL li inside .menu, including nested li from sub-menus */\n  font-weight: bold;\n}",
+        "error": "Unintentionally styles li inside nested sub-menus too.",
+        "correctCode": ".menu > li {\n  /* Only direct children of .menu, not nested */\n  font-weight: bold;\n}",
+        "explanation": "A space (descendant) matches elements at any depth. <code>&gt;</code> (child) matches only direct children. For dropdown menus and nested lists, the difference is huge — descendant will accidentally style nested items too."
+      }
+    ],
+    "summary": [
+      "CSS selectors let you target HTML elements by tag, class, id, attribute, position, and relationship to other elements.",
+      "Element selectors (p, h1, div) target all elements of that tag. They have specificity 1.",
+      "Class selectors (.highlight, .button) target elements with that class attribute. Classes can be reused. Specificity 10.",
+      "ID selectors (#main, #header) target one unique element. IDs must be unique per page. Specificity 100.",
+      "The universal selector * matches every element. Useful for CSS resets.",
+      "Attribute selectors ([type=\"text\"], [required], [href^=\"https\"]) let you style based on attributes without extra classes.",
+      "Descendant selector (space): ul li means every li inside a ul, at any depth. Child selector (>): ul > li means only direct children.",
+      "Adjacent sibling (+): h1 + p means the first p right after an h1. General sibling (~): h2 ~ p means every p after an h2.",
+      "Group selectors with commas: h1, h2, h3 applies the same rule to all three.",
+      "Specificity: inline (1000) > ID (100) > class/attr/pseudo-class (10) > element/pseudo-element (1). Higher wins.",
+      "The !important flag overrides normal specificity. Avoid using it — it makes CSS hard to maintain.",
+      "The cascade resolves conflicts using: importance, then specificity, then source order (later wins when equal). Inheritance passes some properties (color, font) from parent to child."
+    ]
+  },
+  "relatedTopics": ["introduction-to-css", "colors-backgrounds-and-gradients"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which selector targets all paragraphs?",
+        "hint": "Use the tag name.",
+        "answer": "<code>p</code>",
+        "explanation": "The element selector <code>p</code> targets all <code>&lt;p&gt;</code> elements."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which symbol starts a class selector?",
+        "hint": "Dot.",
+        "answer": "<code>.</code> (period)",
+        "explanation": "Class selectors start with a dot: <code>.highlight { ... }</code>"
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which symbol starts an ID selector?",
+        "hint": "Hash.",
+        "answer": "<code>#</code> (hash)",
+        "explanation": "ID selectors start with a hash: <code>#main { ... }</code>"
+      },
+      {
+        "id": "ts-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write CSS to make all elements with class 'danger' red.",
+        "hint": "Use .danger.",
+        "answer": "<pre><code>.danger {\n  color: red;\n}</code></pre>",
+        "explanation": "Class selectors target elements with <code>class=\"danger\"</code>."
+      },
+      {
+        "id": "ts-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write CSS to style the element with id 'header' with a blue background.",
+        "hint": "Use #header.",
+        "answer": "<pre><code>#header {\n  background-color: blue;\n}</code></pre>",
+        "explanation": "ID selectors start with # and target the unique element with that id."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which has higher specificity: <code>p</code> or <code>.note</code>?",
+        "hint": "Classes beat elements.",
+        "answer": "<code>.note</code> (class specificity 10 > element specificity 1).",
+        "explanation": "Classes have specificity 10, elements have specificity 1. The class wins."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which selector matches every element on the page?",
+        "hint": "An asterisk.",
+        "answer": "<code>*</code> (universal selector)",
+        "explanation": "The universal selector <code>*</code> matches every element. Often used in CSS resets."
+      },
+      {
+        "id": "ts-8",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write CSS to remove the margin and padding from every element on the page.",
+        "hint": "Use the universal selector.",
+        "answer": "<pre><code>* {\n  margin: 0;\n  padding: 0;\n}</code></pre>",
+        "explanation": "The universal selector resets margin and padding on every element. This is a classic CSS reset."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>ul li</code> mean?",
+        "hint": "Space is the descendant selector.",
+        "answer": "Every <code>&lt;li&gt;</code> that is inside a <code>&lt;ul&gt;</code>, at any depth.",
+        "explanation": "A space between selectors is the descendant selector. It matches elements inside other elements, even if deeply nested."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the difference between <code>ul li</code> and <code>ul &gt; li</code>?",
+        "hint": "Child vs descendant.",
+        "answer": "<code>ul li</code> matches all li inside ul at any depth. <code>ul &gt; li</code> matches only DIRECT li children of ul.",
+        "explanation": "The space is descendant (any depth). The > is child (direct children only). This difference matters when there are nested lists."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write CSS to style all paragraphs inside articles with a grey color.",
+        "hint": "Use descendant selector.",
+        "answer": "<pre><code>article p {\n  color: grey;\n}</code></pre>",
+        "explanation": "<code>article p</code> targets every p inside an article tag."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the specificity of <code>#main</code>?",
+        "hint": "IDs are 100.",
+        "answer": "100",
+        "explanation": "ID selectors always have a specificity of 100."
+      },
+      {
+        "id": "ts-13",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Why does this CSS not style the element?<br><pre><code>highlight {\n  color: yellow;\n}</code></pre>",
+        "hint": "Missing symbol.",
+        "answer": "Missing dot. Should be <code>.highlight { color: yellow; }</code>",
+        "explanation": "Without the dot, CSS thinks you are targeting a tag called <code>highlight</code>, which does not exist."
+      },
+      {
+        "id": "ts-14",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write CSS to group h1, h2, and h3 and give them all a red color.",
+        "hint": "Use commas.",
+        "answer": "<pre><code>h1, h2, h3 {\n  color: red;\n}</code></pre>",
+        "explanation": "Commas group selectors. The same rule applies to all three."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>h1 + p</code> match?",
+        "hint": "Adjacent sibling.",
+        "answer": "The first <code>&lt;p&gt;</code> element that comes immediately after an <code>&lt;h1&gt;</code>, sharing the same parent.",
+        "explanation": "The <code>+</code> combinator targets the next immediate sibling. Only the very first p after each h1 is matched."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>h1 ~ p</code> match?",
+        "hint": "General sibling.",
+        "answer": "Every <code>&lt;p&gt;</code> that comes after an <code>&lt;h1&gt;</code>, sharing the same parent (not just the first one).",
+        "explanation": "The <code>~</code> combinator targets all following siblings. Every p after the h1 gets styled, not just the immediately next one."
+      },
+      {
+        "id": "ts-17",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write CSS to target only the <code>li</code> elements that are direct children of <code>nav</code> (not nested ones).",
+        "hint": "Use the child combinator.",
+        "answer": "<pre><code>nav &gt; li {\n  color: blue;\n}</code></pre>",
+        "explanation": "The <code>&gt;</code> ensures only direct children are styled, not nested li elements inside sub-menus."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Which of these has higher specificity: <code>#main</code> or <code>.btn.large</code>?",
+        "hint": "ID is 100; two classes are 20.",
+        "answer": "<code>#main</code> (100 > 20).",
+        "explanation": "One ID beats two classes. IDs are 100, each class is 10, so .btn.large is only 20."
+      },
+      {
+        "id": "ts-19",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a complete HTML page where every other list item has a grey background using nth-child.",
+        "hint": "Use li:nth-child(even).",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;style&gt;\n  li:nth-child(even) {\n    background-color: lightgrey;\n  }\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;ul&gt;\n    &lt;li&gt;One&lt;/li&gt;\n    &lt;li&gt;Two&lt;/li&gt;\n    &lt;li&gt;Three&lt;/li&gt;\n    &lt;li&gt;Four&lt;/li&gt;\n  &lt;/ul&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "<code>:nth-child(even)</code> targets every 2nd, 4th, 6th item. The result is a zebra stripe pattern."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given <code>.red { color: red; }</code> and <code>p { color: blue; }</code>, what color is <code>&lt;p class=\"red\"&gt;Text&lt;/p&gt;</code>?",
+        "hint": "Class wins over element.",
+        "answer": "Red. The class (10) beats the element (1).",
+        "explanation": "Class specificity 10 beats element specificity 1. The paragraph will be red."
+      },
+      {
+        "id": "ts-21",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write CSS using attribute selector to make all email inputs have a green border.",
+        "hint": "Use [type=\"email\"].",
+        "answer": "<pre><code>input[type=\"email\"] {\n  border: 2px solid green;\n}</code></pre>",
+        "explanation": "Attribute selectors let you style based on attribute values without needing classes."
+      },
+      {
+        "id": "ts-22",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Priya's CSS does not work. Why?<br><pre><code>ul > li li {\n  color: red;\n}</code></pre>",
+        "hint": "Actually, it might work — analyse it.",
+        "answer": "The CSS is valid. It targets every li that is a descendant of a direct li child of ul. So it styles nested li elements.",
+        "explanation": "This is a complex selector: direct li children of ul, then any li descendant of those. Valid but uncommon. There may be no bug if the HTML is structured to match."
+      },
+      {
+        "id": "ts-23",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write CSS targeting the first li in a list using the :first-child pseudo-class.",
+        "hint": "Use li:first-child.",
+        "answer": "<pre><code>li:first-child {\n  font-weight: bold;\n}</code></pre>",
+        "explanation": "<code>:first-child</code> targets the first element of a specific type within its parent."
+      },
+      {
+        "id": "ts-24",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the specificity of <code>#main .card p</code>?",
+        "hint": "Add up: 100 + 10 + 1.",
+        "answer": "111",
+        "explanation": "ID (100) + class (10) + element (1) = 111."
+      },
+      {
+        "id": "ts-25",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Build a complete HTML page where links to PDFs show in bold red with a 'PDF' label automatically. Use an attribute selector.",
+        "hint": "Use a[href$=\".pdf\"].",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;style&gt;\n  a[href$=\".pdf\"] {\n    color: red;\n    font-weight: bold;\n  }\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;p&gt;&lt;a href=\"https://example.com\"&gt;Regular link&lt;/a&gt;&lt;/p&gt;\n  &lt;p&gt;&lt;a href=\"document.pdf\"&gt;Download PDF&lt;/a&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "<code>[href$=\".pdf\"]</code> matches href values that END with '.pdf'. Great for styling download links automatically."
+      },
+      {
+        "id": "ts-26",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Given: <code>p { color: red; } p.note { color: blue; } #special { color: green; }</code>. What color is <code>&lt;p id=\"special\" class=\"note\"&gt;Text&lt;/p&gt;</code>?",
+        "hint": "Compute specificity for each.",
+        "answer": "Green. #special has specificity 100, p.note has 11, p has 1. #special wins.",
+        "explanation": "ID (100) > class+element (11) > element (1). The ID rule wins."
+      },
+      {
+        "id": "ts-27",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write CSS to target every third item in a list using nth-child.",
+        "hint": "Use 3n.",
+        "answer": "<pre><code>li:nth-child(3n) {\n  color: purple;\n}</code></pre>",
+        "explanation": "<code>:nth-child(3n)</code> targets the 3rd, 6th, 9th items (every multiple of 3)."
+      },
+      {
+        "id": "ts-28",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "The text should be green, but it shows red. Why?<br><pre><code>&lt;style&gt;\n  .note { color: green; }\n&lt;/style&gt;\n&lt;p class=\"note\" style=\"color: red;\"&gt;Text&lt;/p&gt;</code></pre>",
+        "hint": "Inline CSS.",
+        "answer": "Inline styles have specificity 1000, which beats the class's 10. Inline CSS wins.",
+        "explanation": "Inline styles override class and ID selectors unless you use <code>!important</code> (not recommended)."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does the universal selector * target?",
+        "hint": "Everything.",
+        "answer": "Every element on the page.",
+        "explanation": "The asterisk matches all elements. Often used for CSS resets."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a class selector to make all elements with class 'big' have a 24px font size.",
+        "hint": "Start with a dot.",
+        "answer": "<pre><code>.big {\n  font-size: 24px;\n}</code></pre>",
+        "explanation": "The .big class selector targets all elements with class=\"big\"."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Can multiple elements share the same class?",
+        "hint": "Yes.",
+        "answer": "Yes, classes are designed to be reused on many elements.",
+        "explanation": "Unlike IDs, classes are meant to be applied to multiple elements. That is their main advantage."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Can multiple elements share the same ID?",
+        "hint": "No.",
+        "answer": "No, IDs must be unique on a page.",
+        "explanation": "IDs are meant to be unique. If you need to style multiple elements the same way, use a class."
+      },
+      {
+        "id": "mx-5",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Why is this class selector wrong?<br><pre><code>#highlight { color: yellow; }</code></pre>",
+        "hint": "Wrong symbol.",
+        "answer": "If highlight is a class, use <code>.highlight</code> with a dot, not <code>#</code>.",
+        "explanation": "# is for IDs, . is for classes. Always match the symbol to the attribute type."
+      },
+      {
+        "id": "mx-6",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write CSS to style all elements with class 'card' AND also have the class 'featured'.",
+        "hint": "Chain the class selectors without a space.",
+        "answer": "<pre><code>.card.featured {\n  border: 3px solid gold;\n}</code></pre>",
+        "explanation": "Chaining selectors (no space) means the element must match BOTH. Specificity is 20 (two classes)."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the specificity of <code>.btn.large</code>?",
+        "hint": "Two classes.",
+        "answer": "20",
+        "explanation": "Each class is 10. Two classes chained = 20."
+      },
+      {
+        "id": "mx-8",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a CSS rule to target all buttons that have the 'disabled' attribute.",
+        "hint": "Use [disabled].",
+        "answer": "<pre><code>button[disabled] {\n  opacity: 0.5;\n  cursor: not-allowed;\n}</code></pre>",
+        "explanation": "Attribute selectors target elements with specific attributes. <code>[disabled]</code> matches elements that simply have the attribute."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>a[href^=\"https\"]</code> match?",
+        "hint": "^ means starts with.",
+        "answer": "All <code>&lt;a&gt;</code> tags whose href attribute starts with 'https'.",
+        "explanation": "<code>^=</code> means starts with. This is useful for styling secure links differently."
+      },
+      {
+        "id": "mx-10",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "The second-level list items are also being styled, but Aarav only wants the top-level ones. Fix:<br><pre><code>.menu li { color: red; }</code></pre>",
+        "hint": "Change descendant to child.",
+        "answer": "Use <code>.menu &gt; li</code> to target only direct children.",
+        "explanation": "The descendant selector (space) matches at any depth. The child combinator (&gt;) matches only direct children."
+      },
+      {
+        "id": "mx-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a complete HTML page styling the first letter of a paragraph in red with a bigger font. Use ::first-letter pseudo-element.",
+        "hint": "Use p::first-letter.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;style&gt;\n  p::first-letter {\n    color: red;\n    font-size: 32px;\n    font-weight: bold;\n  }\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;p&gt;This paragraph has a fancy first letter.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "Pseudo-elements like <code>::first-letter</code> style parts of an element. Useful for drop-cap effects."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Given: <code>p { color: red !important; } #id p { color: blue; }</code>. What wins?",
+        "hint": "!important trumps specificity.",
+        "answer": "Red wins because !important overrides specificity.",
+        "explanation": "<code>!important</code> beats higher specificity. Even though #id p is more specific, the !important red wins. This is why !important is dangerous."
+      },
+      {
+        "id": "mx-13",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Build a complete HTML page with a styled nav menu where only the FIRST link is blue (use :first-child).",
+        "hint": "Use li:first-child a.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;style&gt;\n  nav ul { list-style: none; display: flex; gap: 20px; }\n  nav li:first-child a { color: blue; font-weight: bold; }\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;nav&gt;\n    &lt;ul&gt;\n      &lt;li&gt;&lt;a href=\"/\"&gt;Home&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\"/about\"&gt;About&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\"/contact\"&gt;Contact&lt;/a&gt;&lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/nav&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "<code>li:first-child a</code> targets the anchor inside the first li. Only the 'Home' link is blue and bold."
+      },
+      {
+        "id": "mx-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the specificity of <code>body #main .card p.bold</code>?",
+        "hint": "Count each type: 1 element + 1 ID + 2 classes + 1 element.",
+        "answer": "112 (1 element + 100 ID + 10 class + 10 class + 1 element).",
+        "explanation": "Element (1) + ID (100) + class (10) + class (10) + element (1) = 122. Correction: 1+100+10+10+1 = 122."
+      },
+      {
+        "id": "mx-15",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "Aarav adds a class to override a style but it does not work. Fix:<br><pre><code>&lt;style&gt;\n  #main p { color: red; }\n  .override { color: blue; }\n&lt;/style&gt;\n&lt;div id=\"main\"&gt;\n  &lt;p class=\"override\"&gt;Text&lt;/p&gt;\n&lt;/div&gt;</code></pre>",
+        "hint": "ID has higher specificity.",
+        "answer": "#main p has specificity 101, .override has 10. The ID wins. To fix, use #main p.override or add more specificity.",
+        "explanation": "To override a selector with an ID, you need equal or higher specificity. Use <code>#main p.override { color: blue; }</code> which has specificity 111."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which symbol starts a class selector?",
+        "options": {
+          "A": "#",
+          "B": ".",
+          "C": "@",
+          "D": "$"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Class selectors start with a dot: <code>.classname</code>. The # is for IDs."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which symbol starts an ID selector?",
+        "options": {
+          "A": ".",
+          "B": "#",
+          "C": "*",
+          "D": "@"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> ID selectors start with a hash: <code>#idname</code>. The . is for classes."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does the universal selector * do?",
+        "options": {
+          "A": "Targets the first element only",
+          "B": "Targets all elements on the page",
+          "C": "Targets all classes",
+          "D": "Targets all IDs"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The asterisk matches every element. Used in CSS resets to clear default margins and padding."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which has higher specificity: a class or an element selector?",
+        "options": {
+          "A": "Element",
+          "B": "Class",
+          "C": "They are the same",
+          "D": "Depends on the browser"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Classes have specificity 10, elements have specificity 1. Classes win when both apply."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does <code>ul li</code> target?",
+        "options": {
+          "A": "Only the first li in ul",
+          "B": "All li inside ul at any depth",
+          "C": "Only direct li children of ul",
+          "D": "All ul elements"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The space is the descendant selector, matching elements at any depth inside their ancestor."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "What does <code>ul &gt; li</code> target?",
+        "options": {
+          "A": "All li inside ul",
+          "B": "Only direct li children of ul",
+          "C": "The first li",
+          "D": "The last li"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The > combinator means 'direct child only'. Nested li elements are not matched."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "How do you group selectors to share the same rule?",
+        "options": {
+          "A": "With a period",
+          "B": "With a semicolon",
+          "C": "With a comma",
+          "D": "With a plus"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Commas group selectors: <code>h1, h2, h3 { color: red; }</code>"
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Easy",
+        "question": "Can multiple HTML elements share the same ID?",
+        "options": {
+          "A": "Yes",
+          "B": "No - IDs must be unique per page",
+          "C": "Only in the head",
+          "D": "Only with a special attribute"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> IDs are meant to be unique. If you need to target multiple elements, use a class instead."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Easy",
+        "question": "What is the specificity of an element selector like <code>p</code>?",
+        "options": {
+          "A": "0",
+          "B": "1",
+          "C": "10",
+          "D": "100"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Element selectors have specificity 1. Classes are 10, IDs are 100, inline is 1000."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Easy",
+        "question": "What is the specificity of a class selector like <code>.btn</code>?",
+        "options": {
+          "A": "1",
+          "B": "10",
+          "C": "100",
+          "D": "1000"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Classes, attributes, and pseudo-classes all have specificity 10."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Easy",
+        "question": "What is the specificity of an ID selector like <code>#main</code>?",
+        "options": {
+          "A": "1",
+          "B": "10",
+          "C": "100",
+          "D": "1000"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> ID selectors have specificity 100. Only inline styles and !important can normally override them."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Easy",
+        "question": "Which selector targets all input elements with type='email'?",
+        "options": {
+          "A": "input.email",
+          "B": "input#email",
+          "C": "input[type='email']",
+          "D": "input:email"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Attribute selectors use square brackets: <code>input[type='email']</code>"
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "What does <code>h1 + p</code> select?",
+        "options": {
+          "A": "All paragraphs",
+          "B": "The first paragraph inside h1",
+          "C": "The paragraph immediately after h1",
+          "D": "Every paragraph after h1"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The + is the adjacent sibling combinator. It matches the FIRST p immediately after each h1."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "What does <code>h1 ~ p</code> select?",
+        "options": {
+          "A": "The first paragraph after h1",
+          "B": "All paragraphs after h1 (sharing the same parent)",
+          "C": "All paragraphs inside h1",
+          "D": "Paragraphs and h1 together"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The ~ is the general sibling combinator. It matches every p that comes after an h1 (same parent)."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "Which has higher specificity: <code>.btn</code> or <code>button</code>?",
+        "options": {
+          "A": "button",
+          "B": ".btn",
+          "C": "They are equal",
+          "D": "Depends on the order"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Class (10) beats element (1). <code>.btn</code> wins."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What is the specificity of <code>#main .card p</code>?",
+        "options": {
+          "A": "100",
+          "B": "111",
+          "C": "101",
+          "D": "110"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> 1 ID (100) + 1 class (10) + 1 element (1) = 111."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "What does <code>li:nth-child(even)</code> target?",
+        "options": {
+          "A": "Only the first li",
+          "B": "Every li element",
+          "C": "Every 2nd, 4th, 6th, etc. li",
+          "D": "Only odd-numbered li elements"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>:nth-child(even)</code> matches even-numbered children (2nd, 4th, 6th, etc.)."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "Which of the following rules applies to <code>&lt;p class=\"red\" id=\"special\"&gt;Hi&lt;/p&gt;</code>: <br><code>.red { color: red; }</code> <br><code>#special { color: blue; }</code>",
+        "options": {
+          "A": "The paragraph is red",
+          "B": "The paragraph is blue",
+          "C": "Both apply equally",
+          "D": "Neither applies"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> #special has specificity 100, .red has 10. The ID wins. Blue paragraph."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "What does <code>a[href^=\"https\"]</code> target?",
+        "options": {
+          "A": "Any link with https",
+          "B": "Links whose href STARTS with 'https'",
+          "C": "Links whose href ENDS with 'https'",
+          "D": "Links that contain https anywhere"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>^=</code> means 'starts with'. Use <code>$=</code> for 'ends with' and <code>*=</code> for 'contains'."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Medium",
+        "question": "What is the specificity of an inline style?",
+        "options": {
+          "A": "10",
+          "B": "100",
+          "C": "1000",
+          "D": "Infinity"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Inline styles have specificity 1000. Only !important can override them."
+      },
+      {
+        "id": "mcq-21",
+        "difficulty": "Hard",
+        "question": "Which statement about !important is TRUE?",
+        "options": {
+          "A": "It has no effect on specificity",
+          "B": "It overrides normal specificity and should be used often",
+          "C": "It overrides normal specificity but should be avoided",
+          "D": "It only works in Internet Explorer"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>!important</code> overrides normal specificity, but overusing it leads to unmaintainable CSS. Use proper specificity instead."
+      },
+      {
+        "id": "mcq-22",
+        "difficulty": "Hard",
+        "question": "When two CSS rules have the same specificity, which wins?",
+        "options": {
+          "A": "The first one declared",
+          "B": "The last one declared",
+          "C": "Neither — both apply",
+          "D": "The browser picks randomly"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> With equal specificity, the later rule wins. This is why order matters in CSS files."
+      },
+      {
+        "id": "mcq-23",
+        "difficulty": "Hard",
+        "question": "What is the specificity of <code>.nav > li.active a</code>?",
+        "options": {
+          "A": "22",
+          "B": "23",
+          "C": "21",
+          "D": "30"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> 1 class (10) + 1 element (1) + 1 class (10) + 1 element (1) = 22. Remember that > is not counted."
+      },
+      {
+        "id": "mcq-24",
+        "difficulty": "Hard",
+        "question": "Which property is NOT inherited by default?",
+        "options": {
+          "A": "color",
+          "B": "font-family",
+          "C": "margin",
+          "D": "line-height"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Margin, padding, border, background — these are not inherited. Text-related properties (color, font, line-height) are inherited."
+      },
+      {
+        "id": "mcq-25",
+        "difficulty": "Hard",
+        "question": "Which of the following has the HIGHEST specificity?",
+        "options": {
+          "A": "#main .card p",
+          "B": ".header .nav .item.active",
+          "C": "html body #main section article p",
+          "D": "Inline style"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> Inline styles have specificity 1000, beating all the others. A has 111, B has 40, C has 105."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Class and ID Styling",
+        "difficulty": "Easy",
+        "description": "Build a page with 3 paragraphs. One uses id 'intro' (blue), one uses class 'warning' (red), and one has no class or id (default black).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Three paragraphs in blue, red, and black.",
+        "constraints": "Use both class and ID selectors. Internal CSS.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Class and ID</title>\n  <style>\n    #intro { color: blue; font-size: 20px; }\n    .warning { color: red; font-weight: bold; }\n  </style>\n</head>\n<body>\n  <p id=\"intro\">Welcome to the page!</p>\n  <p class=\"warning\">Warning: Please save your work.</p>\n  <p>This is a normal paragraph.</p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Descendant Selector",
+        "difficulty": "Easy",
+        "description": "Build a page with an article containing 3 paragraphs, and a separate div with 2 paragraphs. Use descendant selector to make only the paragraphs inside the article red.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Only article paragraphs are red. Div paragraphs stay default.",
+        "constraints": "Use <code>article p</code> as the selector.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Descendant Selector</title>\n  <style>\n    article p { color: red; }\n  </style>\n</head>\n<body>\n  <article>\n    <p>Red paragraph 1</p>\n    <p>Red paragraph 2</p>\n    <p>Red paragraph 3</p>\n  </article>\n  <div>\n    <p>Normal paragraph</p>\n    <p>Another normal paragraph</p>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Zebra Stripe Table",
+        "difficulty": "Medium",
+        "description": "Build a table of 5 student rows (Aarav, Priya, Rohan, Ananya, Vikram) with a zebra stripe pattern using nth-child. Every other row should have a grey background.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A table with alternating white and grey rows.",
+        "constraints": "Use <code>tr:nth-child(even)</code> for striping.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Zebra Table</title>\n  <style>\n    table { border-collapse: collapse; margin: 20px; font-family: Arial; }\n    th, td { padding: 10px 15px; border: 1px solid #ccc; }\n    thead { background-color: #2c3e50; color: white; }\n    tr:nth-child(even) { background-color: #f5f5f5; }\n  </style>\n</head>\n<body>\n  <table>\n    <thead>\n      <tr><th>Name</th><th>Class</th><th>Marks</th></tr>\n    </thead>\n    <tbody>\n      <tr><td>Aarav</td><td>8A</td><td>92</td></tr>\n      <tr><td>Priya</td><td>8A</td><td>95</td></tr>\n      <tr><td>Rohan</td><td>8B</td><td>78</td></tr>\n      <tr><td>Ananya</td><td>8A</td><td>88</td></tr>\n      <tr><td>Vikram</td><td>8B</td><td>85</td></tr>\n    </tbody>\n  </table>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Navigation with First-child",
+        "difficulty": "Medium",
+        "description": "Build a horizontal navigation menu with 5 links. Use :first-child to style the first link with a highlight color, and :last-child to style the last link with a different color.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "5 nav links where the first is one color and the last is another color.",
+        "constraints": "Use :first-child and :last-child pseudo-classes.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Nav</title>\n  <style>\n    nav ul { list-style: none; display: flex; gap: 20px; padding: 20px; background: #333; }\n    nav a { color: white; text-decoration: none; padding: 8px 12px; }\n    nav li:first-child a { background: #ff4081; border-radius: 5px; }\n    nav li:last-child a { background: #22c55e; border-radius: 5px; }\n  </style>\n</head>\n<body>\n  <nav>\n    <ul>\n      <li><a href=\"/\">Home</a></li>\n      <li><a href=\"/about\">About</a></li>\n      <li><a href=\"/blog\">Blog</a></li>\n      <li><a href=\"/work\">Work</a></li>\n      <li><a href=\"/contact\">Contact</a></li>\n    </ul>\n  </nav>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Attribute Selector for Inputs",
+        "difficulty": "Medium",
+        "description": "Build a form with text, email, password, and number inputs. Use attribute selectors to style each type with a different border color (blue, green, red, purple).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Four inputs with differently-colored borders based on type.",
+        "constraints": "Use <code>input[type='...']</code> for each.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Attribute Selectors</title>\n  <style>\n    body { font-family: Arial; padding: 30px; }\n    label { display: block; margin-top: 10px; }\n    input { padding: 8px; font-size: 16px; }\n    input[type=\"text\"] { border: 2px solid blue; }\n    input[type=\"email\"] { border: 2px solid green; }\n    input[type=\"password\"] { border: 2px solid red; }\n    input[type=\"number\"] { border: 2px solid purple; }\n  </style>\n</head>\n<body>\n  <form>\n    <label>Name: <input type=\"text\"></label>\n    <label>Email: <input type=\"email\"></label>\n    <label>Password: <input type=\"password\"></label>\n    <label>Age: <input type=\"number\"></label>\n  </form>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Specificity Demo",
+        "difficulty": "Medium",
+        "description": "Build a page that demonstrates specificity: create one paragraph that has an ID, a class, and an inline style. Each rule specifies a different color. Show which one wins.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A paragraph where the inline style wins over the ID and class.",
+        "constraints": "Include 4 different color rules at different specificities. Comment each rule with its specificity score.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Specificity Demo</title>\n  <style>\n    /* Specificity 1 */\n    p { color: black; }\n    /* Specificity 10 */\n    .note { color: green; }\n    /* Specificity 100 */\n    #special { color: purple; }\n    /* Specificity 111 */\n    p#special.note { color: orange; }\n  </style>\n</head>\n<body>\n  <p>Plain (black, specificity 1)</p>\n  <p class=\"note\">Class only (green, specificity 10)</p>\n  <p id=\"special\">ID only (purple, specificity 100)</p>\n  <p id=\"special\" class=\"note\" style=\"color: red;\">All + inline (red wins, specificity 1000)</p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-7",
+        "title": "Advanced Selector Combo",
+        "difficulty": "Hard",
+        "description": "Build a blog post page. Style: (1) only the first paragraph after h1 with a larger font, (2) every link that ends with .pdf in red bold, (3) every third li in a list with a grey background.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A page showing all three selector techniques in action.",
+        "constraints": "Use adjacent sibling (+), attribute selector ($=), and nth-child.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Blog Post</title>\n  <style>\n    body { font-family: Arial; max-width: 700px; margin: auto; padding: 30px; }\n    h1 + p {\n      font-size: 22px;\n      font-weight: bold;\n      color: #2c3e50;\n    }\n    a[href$=\".pdf\"] {\n      color: red;\n      font-weight: bold;\n    }\n    li:nth-child(3n) {\n      background-color: #f0f0f0;\n      padding: 5px;\n    }\n  </style>\n</head>\n<body>\n  <h1>Learning CSS Selectors</h1>\n  <p>This is the first paragraph (bold and bigger).</p>\n  <p>This is a normal paragraph.</p>\n  <p>Another normal paragraph.</p>\n  <ul>\n    <li>One</li>\n    <li>Two</li>\n    <li>Three (grey)</li>\n    <li>Four</li>\n    <li>Five</li>\n    <li>Six (grey)</li>\n  </ul>\n  <p>Download: <a href=\"guide.pdf\">CSS Guide PDF</a></p>\n  <p>Visit: <a href=\"https://example.com\">Example Site</a></p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-8",
+        "title": "Complete Card Grid with Variants",
+        "difficulty": "Hard",
+        "description": "Build a page with 6 card divs. Each card has a class 'card'. Two cards also have class 'featured'. One card has class 'premium'. Style all cards, then use chained selectors (.card.featured and .card.premium) to apply extra styles to the special ones.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A grid of 6 cards where 2 featured cards and 1 premium card look different from the rest.",
+        "constraints": "Use chained class selectors without space to apply to elements with multiple classes.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Card Grid</title>\n  <style>\n    body { font-family: Arial; background: #eee; padding: 20px; }\n    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; max-width: 800px; margin: auto; }\n    .card {\n      background: white;\n      padding: 20px;\n      border-radius: 8px;\n      border: 2px solid #ddd;\n    }\n    .card.featured {\n      border-color: #ff4081;\n      background: #fff0f5;\n    }\n    .card.premium {\n      border-color: gold;\n      background: #fffacd;\n      box-shadow: 0 0 20px gold;\n    }\n    h3 { margin: 0 0 10px; }\n  </style>\n</head>\n<body>\n  <div class=\"grid\">\n    <div class=\"card\"><h3>Card 1</h3><p>Normal card</p></div>\n    <div class=\"card featured\"><h3>Card 2</h3><p>Featured card (pink)</p></div>\n    <div class=\"card\"><h3>Card 3</h3><p>Normal card</p></div>\n    <div class=\"card premium\"><h3>Card 4</h3><p>Premium card (gold glow)</p></div>\n    <div class=\"card featured\"><h3>Card 5</h3><p>Another featured</p></div>\n    <div class=\"card\"><h3>Card 6</h3><p>Normal card</p></div>\n  </div>\n</body>\n</html>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors, Backgrounds, and Gradients - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Use named colors, hex, rgb, rgba, hsl. Master background-image, background-size, and linear/radial gradients.">
+    <meta name="keywords" content="colors, backgrounds, and gradients, html and css tutorial, html and css colors, backgrounds, and gradients, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/colors-backgrounds-and-gradients">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/colors-backgrounds-and-gradients">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/colors-backgrounds-and-gradients">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/colors-backgrounds-and-gradients">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/colors-backgrounds-and-gradients">
+    <meta property="og:title" content="Colors, Backgrounds, and Gradients - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Use named colors, hex, rgb, rgba, hsl. Master background-image, background-size, and linear/radial gradients.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/colors-backgrounds-and-gradients">
+    <meta name="twitter:title" content="Colors, Backgrounds, and Gradients - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Use named colors, hex, rgb, rgba, hsl. Master background-image, background-size, and linear/radial gradients.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Colors, Backgrounds, and Gradients",
+    "description": "Use named colors, hex, rgb, rgba, hsl. Master background-image, background-size, and linear/radial gradients.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/colors-backgrounds-and-gradients"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/colors-backgrounds-and-gradients"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Colors, Backgrounds, and Gradients",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/colors-backgrounds-and-gradients"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting no-repeat on Background Images",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By default, backgrounds repeat in both directions. For nearly every real-world hero or banner you want <code>background-repeat: no-repeat</code>. Only use repeat for genuinely tileable textures."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrong Order in Multiple Backgrounds",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In multiple backgrounds, the <strong>first one listed is on top</strong>. Put the overlay first, then the image. The image is the bottom layer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using rgb() without Alpha for Transparency",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use <code>rgba</code> or <code>hsla</code> to make only the background translucent. The <code>opacity</code> property affects the entire element and its children -- rarely what you want for an overlay."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hex Shorthand Only Works with Matching Pairs",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "3-digit hex expands each digit into a pair: <code>#09c</code> means <code>#0099cc</code>. You cannot shorten a color unless every pair already has the same digit."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Colors, Backgrounds, and Gradients</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 11</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">40 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Colors, Backgrounds, and Gradients</h1>
+            <a href="/resources/html-and-css/colors-backgrounds-and-gradients/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Colors, Backgrounds, and Gradients?</h2><p>Colors and backgrounds are what give a website its personality. A page with plain black text on white looks like a document. Add a gradient, a background image, and a carefully chosen color scheme, and suddenly it feels like a polished product.</p><p>In this chapter you will learn every way to specify a color in CSS (named, hex, rgb, hsl), every way to apply a background (solid, image, gradient), and how to combine them to create hero sections, buttons, cards, and overlays that look professional.</p><pre><code>/* All of these produce the same red color */
+color: red;
+color: #ff0000;
+color: #f00;
+color: rgb(255, 0, 0);
+color: rgba(255, 0, 0, 1);
+color: hsl(0, 100%, 50%);
+color: hsla(0, 100%, 50%, 1);</code></pre>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Do Colors and Backgrounds Matter?</h2><h3>1. They Define Your Brand</h3><p>Instagram is gradient pink-orange-purple. Netflix is black and red. YouTube is white and red. A consistent color palette makes a site feel intentional. You will learn how to choose and apply colors using the formats professionals actually use.</p><h3>2. HSL Is Easier to Tweak Than Hex</h3><p>Want a slightly lighter blue? With hex you have to guess (#3b82f6 to... what?). With HSL, just change the lightness value: <code>hsl(217, 91%, 60%)</code> becomes <code>hsl(217, 91%, 70%)</code>. Designers love HSL for this reason.</p><h3>3. Gradients Are Everywhere in Modern Design</h3><p>Stripe, Linear, Vercel, Apple -- every modern landing page uses gradients. A gradient button, a gradient hero, a gradient text effect. You will learn linear, radial, and conic gradients, plus how to layer them over images for hero sections.</p><h3>4. Backgrounds Are How You Build Heroes</h3><p>The hero section of almost every website is a background image with a dark overlay and centered text. You will learn the exact CSS to build one: background-image, background-size, background-position, and a gradient overlay.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Named Colors</h3><p>CSS has about 140 named colors: <code>red</code>, <code>blue</code>, <code>green</code>, <code>tomato</code>, <code>rebeccapurple</code>, <code>cornflowerblue</code>, <code>mediumseagreen</code>, and more. Good for prototyping, but you will rarely use them in real projects because you need exact brand colors.</p><pre><code>h1 { color: rebeccapurple; }
+p  { color: slategray; }
+btn { background: tomato; }</code></pre><h3>2. Hex Colors</h3><p>Hex is the most common format. A <code>#</code> followed by 6 hexadecimal digits (0-9, a-f). The pattern is <code>#RRGGBB</code>: two digits for red, two for green, two for blue. Each pair goes from 00 (none) to ff (max = 255).</p><pre><code>#ff0000  /* pure red */
+#00ff00  /* pure green */
+#0000ff  /* pure blue */
+#ffffff  /* white */
+#000000  /* black */
+#a855f7  /* purple brand color */
+#f59e0b  /* amber */
+
+/* Shorthand: if each pair has the same digit, you can write 3 digits */
+#f00  /* same as #ff0000 */
+#fff  /* same as #ffffff */
+#09c  /* same as #0099cc */
+
+/* 8-digit hex includes alpha (transparency) */
+#ff0000ff  /* red, fully opaque */
+#ff000080  /* red, 50% transparent */</code></pre><h3>3. rgb() and rgba()</h3><p>RGB takes three numbers (0-255) for red, green, blue. RGBA adds a fourth number (0-1) for alpha (opacity).</p><pre><code>color: rgb(255, 0, 0);          /* red */
+color: rgb(168, 85, 247);       /* brand purple */
+
+/* With alpha (transparency) */
+background: rgba(0, 0, 0, 0.5); /* black at 50% opacity */
+background: rgba(168, 85, 247, 0.2); /* purple tint */
+
+/* Modern syntax (no commas, slash before alpha) */
+color: rgb(255 0 0);
+color: rgb(255 0 0 / 0.5);</code></pre><h3>4. hsl() and hsla() -- The Designer's Favorite</h3><p>HSL stands for <strong>Hue</strong> (0-360 on the color wheel), <strong>Saturation</strong> (0% gray to 100% vivid), <strong>Lightness</strong> (0% black, 50% normal, 100% white).</p><pre><code>color: hsl(0, 100%, 50%);    /* red -- hue 0 */
+color: hsl(120, 100%, 50%);  /* green -- hue 120 */
+color: hsl(240, 100%, 50%);  /* blue -- hue 240 */
+color: hsl(270, 90%, 65%);   /* brand purple */
+
+/* Tweaking is easy: same hue, different lightness */
+color: hsl(270, 90%, 40%);  /* darker purple */
+color: hsl(270, 90%, 75%);  /* lighter purple */
+
+/* With alpha */
+background: hsla(270, 90%, 65%, 0.3);</code></pre><p>HSL makes it trivial to build light/dark variants of the same color. Change lightness and you stay in the same color family.</p><h3>5. currentColor Keyword</h3><p><code>currentColor</code> is a special keyword that means 'whatever the current color property is'. It lets you reuse the text color for borders, SVG strokes, and more.</p><pre><code>.btn {
+  color: #a855f7;
+  border: 2px solid currentColor; /* border is also #a855f7 */
+}
+.btn:hover {
+  color: #06b6d4; /* border updates automatically too */
+}</code></pre><h3>6. background-color</h3><p>The simplest background. Takes any color value.</p><pre><code>body { background-color: #f3f4f6; }
+.card { background-color: hsl(270, 90%, 98%); }</code></pre><h3>7. background-image and background-size</h3><p>Use <code>background-image: url('...')</code> to add an image. Then control how it fits with <code>background-size</code>.</p><pre><code>.hero {
+  background-image: url('hero.jpg');
+  background-size: cover;     /* fills container, may crop */
+  background-size: contain;   /* fits inside, may leave space */
+  background-size: 200px;     /* exact size */
+  background-size: 100% 50%;  /* width height */
+}</code></pre><ul><li><strong>cover</strong>: scale to fill, crop what does not fit. Best for heroes.</li><li><strong>contain</strong>: scale to fit entirely, may leave empty space.</li><li><strong>Exact value</strong>: pixels or percentages.</li></ul><h3>8. background-position</h3><p>Controls where the image is placed inside the container.</p><pre><code>background-position: center center; /* default for heroes */
+background-position: top right;
+background-position: 50% 50%;
+background-position: 20px 40px;</code></pre><h3>9. background-repeat</h3><p>By default, backgrounds tile (repeat) if smaller than the container. Usually you want <code>no-repeat</code>.</p><pre><code>background-repeat: no-repeat;
+background-repeat: repeat-x;   /* horizontal tile */
+background-repeat: repeat-y;   /* vertical tile */
+background-repeat: round;      /* stretch to fit without clipping */</code></pre><h3>10. background-attachment (Parallax)</h3><p><code>background-attachment: fixed</code> makes the background stay still while the page scrolls -- a simple parallax effect.</p><pre><code>.parallax {
+  background-image: url('mountains.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}</code></pre><h3>11. Shorthand background Property</h3><p>You can combine all background properties in one line.</p><pre><code>background: #f3f4f6 url('hero.jpg') no-repeat center center / cover;
+/* color | image | repeat | position / size */</code></pre><h3>12. linear-gradient</h3><p>A linear gradient transitions between two or more colors along a straight line. No image file needed.</p><pre><code>background: linear-gradient(to right, #a855f7, #06b6d4);
+background: linear-gradient(to bottom, red, yellow);
+background: linear-gradient(45deg, #a855f7, #ec4899);
+background: linear-gradient(135deg, #667eea, #764ba2);
+
+/* Multiple color stops */
+background: linear-gradient(to right, red, yellow, green, blue, purple);
+
+/* Stops at specific positions */
+background: linear-gradient(to right, #a855f7 0%, #a855f7 50%, #06b6d4 50%, #06b6d4 100%);</code></pre><p>Direction keywords: <code>to top</code>, <code>to right</code>, <code>to bottom</code>, <code>to left</code>, <code>to top right</code>, etc. Or use any angle: <code>0deg</code> is to top, <code>90deg</code> is to right, <code>180deg</code> is to bottom, <code>45deg</code> is top-right diagonal.</p><h3>13. radial-gradient</h3><p>A radial gradient starts from a point and spreads outward in circles or ellipses.</p><pre><code>background: radial-gradient(circle, #a855f7, #1a1a2e);
+background: radial-gradient(ellipse at top, #fef3c7, #f59e0b);
+background: radial-gradient(circle at 30% 70%, white, transparent 60%);</code></pre><h3>14. conic-gradient</h3><p>A conic gradient rotates colors around a center point (like a pie chart or color wheel).</p><pre><code>background: conic-gradient(red, yellow, green, cyan, blue, magenta, red);
+background: conic-gradient(from 90deg, #a855f7, #06b6d4, #a855f7);</code></pre><h3>15. Multiple Backgrounds</h3><p>You can stack multiple backgrounds by separating them with commas. The first one listed is on top.</p><pre><code>background:
+  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  /* dark overlay on top */
+  url('hero.jpg') no-repeat center / cover;           /* image underneath */</code></pre><p>This is the exact technique for creating a hero section with dark overlay.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Color Format Showcase</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f9fafb; }
+    h1 { color: rebeccapurple; }
+    .swatch {
+      display: inline-block;
+      width: 160px;
+      padding: 20px;
+      margin: 6px;
+      color: white;
+      font-family: monospace;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 13px;
+    }
+    .named   { background: tomato; }
+    .hex6    { background: #a855f7; }
+    .hex3    { background: #0bf; }
+    .rgb     { background: rgb(6, 182, 212); }
+    .rgba    { background: rgba(245, 158, 11, 0.7); color: #1a1a2e; }
+    .hsl     { background: hsl(330, 90%, 60%); }
+    .hsla    { background: hsla(270, 90%, 40%, 0.85); }
+    .currentc {
+      color: #0369a1;
+      background: white;
+      border: 4px solid currentColor;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Every Way to Write a Color&lt;/h1&gt;
+  &lt;p&gt;By Aarav, exploring CSS color formats:&lt;/p&gt;
+  &lt;div class=&quot;swatch named&quot;&gt;named: tomato&lt;/div&gt;
+  &lt;div class=&quot;swatch hex6&quot;&gt;hex: #a855f7&lt;/div&gt;
+  &lt;div class=&quot;swatch hex3&quot;&gt;short hex: #0bf&lt;/div&gt;
+  &lt;div class=&quot;swatch rgb&quot;&gt;rgb(6,182,212)&lt;/div&gt;
+  &lt;div class=&quot;swatch rgba&quot;&gt;rgba(245,158,11,0.7)&lt;/div&gt;
+  &lt;div class=&quot;swatch hsl&quot;&gt;hsl(330,90%,60%)&lt;/div&gt;
+  &lt;div class=&quot;swatch hsla&quot;&gt;hsla(270,90%,40%,0.85)&lt;/div&gt;
+  &lt;div class=&quot;swatch currentc&quot;&gt;currentColor border&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A visual showcase of eight color formats. Notice that <code>currentColor</code> lets the border reuse whatever <code>color</code> is set -- change the text color and the border changes with it.</div><div class="code-example-output">A grid of colored rectangles, each labeled with the color format used to create it.</div></div>
+<div class="code-example"><div class="code-example-title">Hero Section with Gradient Overlay</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; }
+    .hero {
+      height: 100vh;
+      background:
+        linear-gradient(135deg, rgba(168, 85, 247, 0.75), rgba(6, 182, 212, 0.55)),
+        url(&#39;https://picsum.photos/1600/900?random=3&#39;) no-repeat center / cover;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px;
+    }
+    .hero h1 { font-size: 56px; margin-bottom: 16px; text-shadow: 0 2px 20px rgba(0,0,0,0.4); }
+    .hero p { font-size: 20px; opacity: 0.95; max-width: 600px; margin-bottom: 30px; }
+    .cta {
+      padding: 14px 36px;
+      background: white;
+      color: #a855f7;
+      border: none;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .cta:hover { background: #f3f4f6; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;section class=&quot;hero&quot;&gt;
+    &lt;h1&gt;Welcome, Priya&lt;/h1&gt;
+    &lt;p&gt;Start your coding journey today. Build beautiful websites with HTML and CSS.&lt;/p&gt;
+    &lt;button class=&quot;cta&quot;&gt;Get Started&lt;/button&gt;
+  &lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The classic hero pattern. Two backgrounds stacked: a purple-to-cyan gradient on top (at partial opacity) and a background image underneath. The gradient provides contrast so the white text is always readable no matter the image.</div><div class="code-example-output">A full-screen hero with a purple-cyan gradient over a background image, centered heading, tagline, and a white call-to-action button.</div></div>
+<div class="code-example"><div class="code-example-title">Rainbow Gradient Button</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 40px; background: #0f172a; text-align: center; }
+    h1 { color: white; }
+    .rainbow-btn {
+      padding: 16px 48px;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      background: linear-gradient(90deg, #ff0080, #ff8c00, #ffd700, #00ff00, #00bfff, #8a2be2, #ff0080);
+      background-size: 300% 100%;
+      cursor: pointer;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      transition: background-position 0.6s, transform 0.2s;
+    }
+    .rainbow-btn:hover {
+      background-position: 100% 0;
+      transform: translateY(-3px);
+    }
+    .rainbow-btn:active { transform: translateY(0); }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Rainbow Button by Kavya&lt;/h1&gt;
+  &lt;button class=&quot;rainbow-btn&quot;&gt;Click Me&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A linear gradient with 7 color stops makes a rainbow. <code>background-size: 300% 100%</code> makes the gradient wider than the button. On hover, <code>background-position</code> slides the gradient to reveal a different part, creating an animated rainbow shift.</div><div class="code-example-output">A rainbow-colored pill button. On hover, the colors slide across and the button lifts up slightly.</div></div>
+<div class="code-example"><div class="code-example-title">Radial Glow Card</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; background: #0f0f1a; padding: 40px; display: flex; justify-content: center; }
+    .glow-card {
+      width: 320px;
+      padding: 40px 30px;
+      border-radius: 16px;
+      background:
+        radial-gradient(circle at 30% 20%, rgba(168, 85, 247, 0.6), transparent 60%),
+        radial-gradient(circle at 80% 80%, rgba(6, 182, 212, 0.5), transparent 55%),
+        #1a1a2e;
+      color: white;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+    .glow-card h2 { margin: 0 0 12px; font-size: 24px; }
+    .glow-card p { margin: 0; opacity: 0.85; line-height: 1.6; }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(168, 85, 247, 0.25);
+      color: #d8b4fe;
+      font-size: 12px;
+      margin-bottom: 16px;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;glow-card&quot;&gt;
+    &lt;div class=&quot;badge&quot;&gt;NEW&lt;/div&gt;
+    &lt;h2&gt;Dashboard Pro&lt;/h2&gt;
+    &lt;p&gt;Student of the month: Ishaan Sharma. He completed 12 projects this term.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Two radial gradients are stacked to create glowing spots in different corners. Each fades to <code>transparent</code> so they blend with the base dark color underneath. This is a popular technique for modern SaaS cards.</div><div class="code-example-output">A dark rounded card with a purple glow in the top-left and a cyan glow in the bottom-right, with white text in the center.</div></div>
+<div class="code-example"><div class="code-example-title">Conic Gradient Pie Chart</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 40px; text-align: center; background: #f9fafb; }
+    h1 { color: #1a1a2e; }
+    .pie {
+      width: 240px;
+      height: 240px;
+      border-radius: 50%;
+      margin: 20px auto;
+      background: conic-gradient(
+        #a855f7 0% 40%,
+        #06b6d4 40% 65%,
+        #f59e0b 65% 85%,
+        #ec4899 85% 100%
+      );
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+    .legend { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; font-size: 14px; }
+    .legend div { display: flex; align-items: center; gap: 6px; }
+    .dot { width: 14px; height: 14px; border-radius: 50%; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Time Spent This Week&lt;/h1&gt;
+  &lt;div class=&quot;pie&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;legend&quot;&gt;
+    &lt;div&gt;&lt;span class=&quot;dot&quot; style=&quot;background:#a855f7&quot;&gt;&lt;/span&gt;Coding 40%&lt;/div&gt;
+    &lt;div&gt;&lt;span class=&quot;dot&quot; style=&quot;background:#06b6d4&quot;&gt;&lt;/span&gt;Maths 25%&lt;/div&gt;
+    &lt;div&gt;&lt;span class=&quot;dot&quot; style=&quot;background:#f59e0b&quot;&gt;&lt;/span&gt;Reading 20%&lt;/div&gt;
+    &lt;div&gt;&lt;span class=&quot;dot&quot; style=&quot;background:#ec4899&quot;&gt;&lt;/span&gt;Play 15%&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A conic gradient with hard color stops (e.g. <code>#a855f7 0% 40%</code>) creates pie chart slices. Each color transition is sharp because start and end percentages are different values. <code>border-radius: 50%</code> turns the square div into a circle.</div><div class="code-example-output">A four-color pie chart showing weekly activity distribution with a legend below.</div></div>
+<div class="code-example"><div class="code-example-title">Fixed Parallax Background</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; }
+    section { padding: 80px 20px; text-align: center; }
+    .panel-1 { background: #f3f4f6; }
+    .parallax {
+      min-height: 500px;
+      background:
+        linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.55)),
+        url(&#39;https://picsum.photos/1600/900?random=7&#39;) no-repeat center / cover;
+      background-attachment: fixed;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .parallax h2 { font-size: 48px; text-shadow: 0 2px 10px rgba(0,0,0,0.5); }
+    .panel-2 { background: #1a1a2e; color: white; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;section class=&quot;panel-1&quot;&gt;
+    &lt;h2&gt;Scroll down to see parallax&lt;/h2&gt;
+    &lt;p&gt;Created by Riya Patel as a demo.&lt;/p&gt;
+  &lt;/section&gt;
+  &lt;section class=&quot;parallax&quot;&gt;
+    &lt;h2&gt;I stay in place&lt;/h2&gt;
+  &lt;/section&gt;
+  &lt;section class=&quot;panel-2&quot;&gt;
+    &lt;h2&gt;Keep scrolling&lt;/h2&gt;
+    &lt;p&gt;The middle section has a fixed background while you scroll past it.&lt;/p&gt;
+  &lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>background-attachment: fixed</code> pins the background image to the viewport instead of scrolling with the element. As you scroll past the parallax section, the image stays put and the content slides over it. The dark overlay keeps text readable.</div><div class="code-example-output">Three sections stacked vertically. Scrolling shows the middle section&#39;s background image staying still while the rest of the page scrolls normally.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting no-repeat on Background Images</h3>
+                <div class="wrong-code"><pre><code class="language-python">.hero {
+  background-image: url(&#39;hero.jpg&#39;);
+  background-size: 300px;
+}</code></pre></div><div class="error-message">The image tiles and repeats across the section, creating an ugly grid pattern.</div><div class="correct-code"><pre><code class="language-python">.hero {
+  background-image: url(&#39;hero.jpg&#39;);
+  background-size: 300px;
+  background-repeat: no-repeat;
+}</code></pre></div><div class="mistake-explanation">By default, backgrounds repeat in both directions. For nearly every real-world hero or banner you want <code>background-repeat: no-repeat</code>. Only use repeat for genuinely tileable textures.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrong Order in Multiple Backgrounds</h3>
+                <div class="wrong-code"><pre><code class="language-python">background:
+  url(&#39;hero.jpg&#39;) no-repeat center / cover,
+  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));</code></pre></div><div class="error-message">The image covers the gradient completely. You see the image but no overlay.</div><div class="correct-code"><pre><code class="language-python">background:
+  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url(&#39;hero.jpg&#39;) no-repeat center / cover;</code></pre></div><div class="mistake-explanation">In multiple backgrounds, the <strong>first one listed is on top</strong>. Put the overlay first, then the image. The image is the bottom layer.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using rgb() without Alpha for Transparency</h3>
+                <div class="wrong-code"><pre><code class="language-python">.overlay {
+  background: rgb(0, 0, 0);
+  opacity: 0.5; /* this fades the whole element including children */
+}</code></pre></div><div class="error-message">opacity fades everything inside the element (text, images, children), not just the background.</div><div class="correct-code"><pre><code class="language-python">.overlay {
+  background: rgba(0, 0, 0, 0.5); /* only the background is semi-transparent */
+}</code></pre></div><div class="mistake-explanation">Use <code>rgba</code> or <code>hsla</code> to make only the background translucent. The <code>opacity</code> property affects the entire element and its children -- rarely what you want for an overlay.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Hex Shorthand Only Works with Matching Pairs</h3>
+                <div class="wrong-code"><pre><code class="language-python">color: #a85; /* tried to shorten #a855f7 */</code></pre></div><div class="error-message">#a85 is not #a855f7 -- it is equivalent to #aa8855 (each digit is doubled).</div><div class="correct-code"><pre><code class="language-python">color: #a855f7; /* use full 6-digit hex */
+/* 3-digit shorthand ONLY works when both digits in each pair match: #f00, #39c, #fff */</code></pre></div><div class="mistake-explanation">3-digit hex expands each digit into a pair: <code>#09c</code> means <code>#0099cc</code>. You cannot shorten a color unless every pair already has the same digit.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Colors can be written as named (red), hex (#ff0000 or #f00), rgb/rgba, or hsl/hsla. Use hex for brand colors and HSL when you need to tweak lightness or build variants.</li>
+<li>rgba() and hsla() include an alpha channel (0 to 1) for transparency. Use them for overlays and tints instead of the opacity property, which fades the entire element.</li>
+<li>currentColor means &#39;whatever the current color property is&#39;. Use it for borders and SVGs that should match the text color automatically.</li>
+<li>background-color sets a solid color. background-image: url(...) loads an image. background-size controls fitting: cover (fill, may crop), contain (fit fully, may leave space), or exact values.</li>
+<li>background-position places the image (center center, top right, percentages, or pixel values). background-repeat: no-repeat stops images from tiling.</li>
+<li>background-attachment: fixed creates a simple parallax effect -- the background stays in place as the page scrolls.</li>
+<li>The shorthand background property combines color, image, repeat, position / size in one line: background: #fff url(&#39;x.jpg&#39;) no-repeat center / cover;</li>
+<li>linear-gradient(direction, color1, color2, ...) creates a straight gradient. Direction can be a keyword (to right, to bottom right) or an angle (45deg, 135deg).</li>
+<li>radial-gradient creates a gradient from a center point outward. conic-gradient rotates colors around a point -- perfect for pie charts and color wheels.</li>
+<li>Multiple backgrounds are comma-separated. The first one listed sits on top. To make a hero section, stack a gradient overlay on top of a background image.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/introduction-to-css" class="related-topic-link">Introduction to CSS - Styling the Web</a>
+<a href="/resources/html-and-css/typography-and-fonts" class="related-topic-link">Typography and Google Fonts</a>
+<a href="/resources/html-and-css/the-box-model" class="related-topic-link">The Box Model - Margin, Border, Padding</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/css-selectors-and-specificity" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">CSS Selectors and Specificity</span>
+        </a>
+            <a href="/resources/html-and-css/typography-and-fonts" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Typography and Google Fonts</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/colors-backgrounds-and-gradients/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

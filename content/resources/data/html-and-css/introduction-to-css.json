@@ -1,0 +1,906 @@
+{
+  "title": "Introduction to CSS - Styling the Web",
+  "slug": "introduction-to-css",
+  "language": "css",
+  "chapter": 9,
+  "difficulty": "Beginner",
+  "readingTime": "22 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "Introduction to CSS - What CSS Is and How to Use It | Modern Age Coders",
+    "description": "Learn what CSS is, the 3 ways to add CSS (inline, internal, external), CSS syntax, and how the cascade works. Includes 55 hands-on practice questions.",
+    "keywords": "introduction to css, what is css, css for beginners, inline vs internal vs external css, css syntax, css cascade, css specificity, learn css"
+  },
+  "content": {
+    "what": "<h2>What Is CSS?</h2><p><strong>CSS</strong> stands for <strong>Cascading Style Sheets</strong>. It is the language we use to style and design web pages. While HTML gives a website its structure (the bones), CSS gives it its look and feel (the skin, clothes, and makeup).</p><p>Look at any website you love — Instagram, YouTube, Netflix, Amazon. Every color, every font, every shadow, every animation, every layout — all of that is CSS. Without CSS, every website would look like a boring white page with blue links from 1995.</p><h3>HTML vs CSS in Simple Terms</h3><p>Imagine a house:</p><ul><li><strong>HTML</strong> is the construction — the walls, the doors, the windows, the roof.</li><li><strong>CSS</strong> is the interior design — the paint color, the curtains, the furniture, the lighting.</li></ul><p>You cannot have interior design without a house first (CSS needs HTML), but a house without design feels empty and lifeless. CSS turns plain HTML into beautiful websites.</p><h3>What Does 'Cascading' Mean?</h3><p>The 'Cascading' in CSS refers to how styles flow down and combine. Multiple style rules can apply to the same element, and CSS has a system for deciding which one wins. It is like a waterfall — styles flow from general to specific, and the most specific one takes effect. You will learn the full rules in Chapter 10.</p>",
+    "why": "<h2>Why Should You Learn CSS?</h2><h3>1. You Cannot Build Websites Without It</h3><p>HTML alone gives you a rough page. CSS gives you a real website. Every button, every card, every layout, every color you see on the web is CSS. Without it, you cannot build anything worth looking at.</p><h3>2. It Is the Language of Design on the Web</h3><p>If you want to be a web designer, frontend developer, or build your own projects, CSS is the tool that lets you make things look exactly the way you imagine. Modern CSS is incredibly powerful — you can build animations, 3D effects, responsive layouts, and beautiful designs without a single line of JavaScript.</p><h3>3. You See Results Instantly</h3><p>Change one line of CSS, save, refresh the browser, and the change appears immediately. This instant feedback makes learning CSS fun and addictive. You can experiment with colors, sizes, fonts, and layouts and see the result in real time.</p><h3>4. CSS Is Everywhere</h3><p>Whether you are building a personal blog, a mobile app, a dashboard, or a game — CSS is used to style it. Even desktop and mobile apps increasingly use CSS (through tools like Electron and React Native). Learning CSS is a skill that pays off forever.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>CSS Syntax</h3><p>A CSS rule has three parts: a <strong>selector</strong>, one or more <strong>properties</strong>, and their <strong>values</strong>. Here is the basic structure:</p><pre><code>selector {\n  property: value;\n  property: value;\n}</code></pre><p>Example:</p><pre><code>h1 {\n  color: blue;\n  font-size: 32px;\n}</code></pre><p>This says: \"For every <code>&lt;h1&gt;</code> on the page, make the text color blue and the font size 32 pixels.\" Notice:</p><ul><li>The selector (<code>h1</code>) comes first.</li><li>Curly braces <code>{ }</code> wrap the properties.</li><li>Each property is followed by a colon <code>:</code>, then the value, then a semicolon <code>;</code>.</li><li>Always end each line with a semicolon.</li></ul><h3>The 3 Ways to Add CSS</h3><p>There are three ways to add CSS to a web page. You should know all three, but one of them is the best practice.</p><h4>1. Inline CSS (Avoid when possible)</h4><p>Inline CSS is written directly on an HTML tag using the <code>style</code> attribute:</p><pre><code>&lt;p style=\"color: red; font-size: 20px;\"&gt;Hello&lt;/p&gt;</code></pre><p>Inline CSS only affects that one specific element. It is quick for small tweaks but terrible for maintenance — if you want to change the color of all paragraphs, you have to edit every single one.</p><h4>2. Internal CSS (OK for small pages)</h4><p>Internal CSS is written inside a <code>&lt;style&gt;</code> tag inside the <code>&lt;head&gt;</code> of the HTML:</p><pre><code>&lt;head&gt;\n  &lt;style&gt;\n    p { color: red; font-size: 20px; }\n  &lt;/style&gt;\n&lt;/head&gt;</code></pre><p>This styles all paragraphs on this one page. Good for simple, single-page experiments. But if you have multiple pages, you would have to copy the same style block to every one.</p><h4>3. External CSS (Best practice)</h4><p>External CSS is written in a separate <code>.css</code> file and linked to the HTML with a <code>&lt;link&gt;</code> tag in the head:</p><pre><code>&lt;!-- index.html --&gt;\n&lt;head&gt;\n  &lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;\n&lt;/head&gt;\n\n/* styles.css */\np {\n  color: red;\n  font-size: 20px;\n}</code></pre><p><strong>This is the right way to do it 99% of the time.</strong> One CSS file can style hundreds of pages. Change one line, and every page updates. It keeps HTML clean and CSS reusable. Pros use external CSS.</p><h3>Your First Styling Example</h3><p>Let us change the color and font of a page. Starting HTML:</p><pre><code>&lt;h1&gt;Welcome to My Site&lt;/h1&gt;\n&lt;p&gt;This is my first styled page.&lt;/p&gt;</code></pre><p>Now add this CSS:</p><pre><code>body {\n  background-color: #f0f0f0;\n  font-family: Arial, sans-serif;\n}\n\nh1 {\n  color: #3498db;\n  text-align: center;\n}\n\np {\n  color: #333;\n  font-size: 18px;\n}</code></pre><p>The body gets a light grey background and Arial font. The h1 becomes blue and centered. Paragraphs are dark grey and 18 pixels. Three selectors, six properties, complete transformation.</p><h3>How the Cascade Works</h3><p>When multiple CSS rules apply to the same element, CSS has to decide which one wins. This is the <strong>cascade</strong>. The rules (simplified):</p><ol><li><strong>Specificity:</strong> more specific selectors win. An ID beats a class, and a class beats a tag.</li><li><strong>Order:</strong> if two rules have the same specificity, the one that comes later wins.</li><li><strong>Source:</strong> inline CSS beats internal CSS, and internal CSS beats external CSS (for the same specificity).</li></ol><p>You will learn all the details in Chapter 10. For now, just know that if two rules conflict, CSS has a system to pick the winner.</p><h3>CSS Comments</h3><p>You can add notes to your CSS using comments. Comments start with <code>/*</code> and end with <code>*/</code>:</p><pre><code>/* This is a comment */\nh1 {\n  color: red; /* Make the heading red */\n}\n\n/*\n  Multi-line comments\n  work too!\n*/</code></pre><p>Comments are ignored by the browser. They help you and other developers understand your code.</p><h3>Specificity Basics</h3><p>Specificity is how CSS decides which rule applies when multiple rules target the same element. A simple version:</p><ul><li><strong>Element selector</strong> (like <code>p</code>) — specificity of 1.</li><li><strong>Class selector</strong> (like <code>.big</code>) — specificity of 10.</li><li><strong>ID selector</strong> (like <code>#main</code>) — specificity of 100.</li><li><strong>Inline style</strong> — specificity of 1000.</li></ul><p>So if you have <code>p { color: red; }</code> and <code>.note { color: blue; }</code> and both apply to the same paragraph, the class wins because 10 &gt; 1. You will learn much more about this in Chapter 10.</p>",
+    "codeExamples": [
+      {
+        "title": "Inline CSS — Style Directly on the Element",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Inline CSS Example</title>\n</head>\n<body>\n  <h1 style=\"color: blue; text-align: center;\">Hello, Aarav!</h1>\n  <p style=\"color: green; font-size: 20px;\">This paragraph is styled with inline CSS.</p>\n  <p style=\"color: red;\">This one is red.</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Each element has a <code>style</code> attribute with CSS written directly inside. Notice that each element needs its OWN style attribute — there is no sharing. This is the quickest way to test a quick change, but it gets messy fast on real pages. Save as <code>inline.html</code> and open it.",
+        "output": "A centered blue heading 'Hello, Aarav!', a green paragraph, and a red paragraph."
+      },
+      {
+        "title": "Internal CSS — Style Inside the Head",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Internal CSS Example</title>\n  <style>\n    body {\n      background-color: #f0f8ff;\n      font-family: Arial, sans-serif;\n    }\n    h1 {\n      color: #e74c3c;\n      text-align: center;\n    }\n    p {\n      color: #2c3e50;\n      font-size: 18px;\n      line-height: 1.5;\n    }\n  </style>\n</head>\n<body>\n  <h1>Priya's First Styled Page</h1>\n  <p>Welcome! This entire page is styled using internal CSS inside the head of the document.</p>\n  <p>All paragraphs share the same styles automatically — no need to repeat.</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The CSS goes inside a <code>&lt;style&gt;</code> tag in the <code>&lt;head&gt;</code>. Three selectors style the entire body, all h1 elements, and all p elements. Notice how much cleaner this is compared to inline CSS — one rule styles every paragraph. Save as <code>internal.html</code>.",
+        "output": "A page with a light blue background, a red centered heading, and dark grey paragraphs in Arial font."
+      },
+      {
+        "title": "External CSS — The Best Practice Way",
+        "code": "<!-- File: index.html -->\n<!DOCTYPE html>\n<html>\n<head>\n  <title>External CSS Example</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <h1>Rohan's Portfolio</h1>\n  <p>This page uses an external CSS file called styles.css.</p>\n  <p>Every page that links to this file will share the same styles.</p>\n</body>\n</html>\n\n<!-- File: styles.css (save this in the same folder) -->\n<!-- \nbody {\n  background-color: #1a1a2e;\n  color: #f1f1f1;\n  font-family: Arial, sans-serif;\n  padding: 30px;\n}\n\nh1 {\n  color: #ffa500;\n  text-align: center;\n}\n\np {\n  font-size: 18px;\n  line-height: 1.6;\n}\n-->",
+        "language": "html",
+        "explanation": "External CSS requires two files: <code>index.html</code> and <code>styles.css</code>. Save them in the same folder. The <code>&lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;</code> tag connects them. Now you can link the same styles.css to 100 different HTML pages. Change one line, update 100 pages. This is how real websites work. The CSS file content is shown in the comment at the bottom — you should save that as a separate file.",
+        "output": "A dark-themed page with an orange heading and white paragraphs, with all styles loaded from an external file."
+      },
+      {
+        "title": "CSS Syntax — Selectors, Properties, Values",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>CSS Syntax</title>\n  <style>\n    /* Selector: body */\n    /* Properties: background-color, color, margin */\n    body {\n      background-color: #fafafa;\n      color: #333;\n      margin: 20px;\n    }\n\n    /* Selector: h2 */\n    h2 {\n      color: #8e44ad;  /* Purple */\n      border-bottom: 2px solid #8e44ad;\n      padding-bottom: 5px;\n    }\n\n    /* Selector: p */\n    p {\n      font-family: Georgia, serif;\n      line-height: 1.6;\n    }\n  </style>\n</head>\n<body>\n  <h2>Understanding CSS Syntax</h2>\n  <p>Every CSS rule has three parts: a selector (like <code>h2</code>), properties (like <code>color</code>), and values (like <code>#8e44ad</code>).</p>\n  <p>Comments are wrapped in slash-star and star-slash. They are ignored by the browser.</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This example shows the basic syntax with clear comments. Each rule targets an element (body, h2, p), and each property-value pair ends with a semicolon. Comments (/* like this */) are just notes for the developer — the browser ignores them. Save as <code>syntax.html</code>.",
+        "output": "A page with a grey body, a purple underlined h2, and Georgia-font paragraphs."
+      },
+      {
+        "title": "Styling a Page with Blue Background and White Text",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My Styled Page</title>\n  <style>\n    body {\n      background-color: #2980b9;\n      color: white;\n      font-family: Arial, sans-serif;\n      padding: 40px;\n      text-align: center;\n    }\n    h1 {\n      font-size: 48px;\n      margin-bottom: 10px;\n    }\n    p {\n      font-size: 20px;\n      max-width: 500px;\n      margin: 10px auto;\n    }\n  </style>\n</head>\n<body>\n  <h1>Welcome, Ananya!</h1>\n  <p>This page has a blue background and white text — styled entirely with CSS.</p>\n  <p>Notice how centered and clean it looks with just a few lines of code.</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A complete styled page. The <code>body</code> selector applies the background and text color to everything. <code>h1</code> gets a big font. <code>p</code> gets a readable size with auto margins for centering. This is the kind of thing you can build in 5 minutes with CSS.",
+        "output": "A fully blue page with a big white centered heading and two white centered paragraphs."
+      },
+      {
+        "title": "Multiple Selectors Working Together",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Multiple Selectors</title>\n  <style>\n    body {\n      font-family: Arial, sans-serif;\n      background-color: #fff5e6;\n      padding: 30px;\n    }\n\n    /* Multiple selectors can share styles */\n    h1, h2, h3 {\n      color: #d2691e;\n      text-align: center;\n    }\n\n    p {\n      color: #555;\n      line-height: 1.7;\n    }\n\n    /* You can style links too */\n    a {\n      color: #ff4500;\n      text-decoration: none;\n    }\n  </style>\n</head>\n<body>\n  <h1>Vikram's Cookbook</h1>\n  <h2>Masala Chai Recipe</h2>\n  <p>This is the best chai you will ever make.</p>\n  <h3>Ingredients</h3>\n  <p>Water, milk, sugar, tea leaves, ginger, cardamom.</p>\n  <p>For more, <a href=\"#\">click here</a>.</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "You can apply the same styles to multiple selectors by separating them with commas. <code>h1, h2, h3</code> means \"all h1, h2, and h3 elements get these styles\". This is much cleaner than writing the same styles three times. You can also target tags like <code>a</code> for links, <code>button</code>, <code>li</code>, and so on.",
+        "output": "A warm-colored page with orange-brown centered headings, dark grey body text, and an orange link."
+      },
+      {
+        "title": "Combining Inline, Internal, and External CSS",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Combining CSS Methods</title>\n  <!-- Imagine an external CSS file is also linked here -->\n  <style>\n    /* Internal CSS */\n    body { background-color: #eee; font-family: Arial; }\n    p { color: green; font-size: 18px; }\n  </style>\n</head>\n<body>\n  <h1>Cascade Demo</h1>\n  <p>This paragraph is green (from internal CSS).</p>\n  <p style=\"color: red;\">This paragraph is RED because inline CSS wins over internal CSS.</p>\n  <p>This one is green again (back to internal CSS rule).</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This example demonstrates the cascade. The internal CSS says all paragraphs should be green. But the middle paragraph has an inline <code>style=\"color: red;\"</code> that overrides the green because inline CSS has higher specificity. This is the cascade in action — rules from different sources combine, and the most specific one wins.",
+        "output": "Three paragraphs: two green and the middle one red. The red one overrode the green from the internal CSS."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting the Semicolon at the End of a Property",
+        "wrongCode": "p {\n  color: blue\n  font-size: 18px;\n}",
+        "error": "Only the semicolon-less property may still work, but the line after it breaks. Here, font-size gets ignored.",
+        "correctCode": "p {\n  color: blue;\n  font-size: 18px;\n}",
+        "explanation": "Every CSS property must end with a semicolon. Missing one breaks the parser. Some browsers are forgiving and apply the first value but ignore everything after. Always add a semicolon — it is one tiny character that saves you hours of debugging."
+      },
+      {
+        "title": "Using = Instead of : in CSS",
+        "wrongCode": "h1 {\n  color = red;\n}",
+        "error": "The entire rule is ignored. CSS uses colons, not equal signs.",
+        "correctCode": "h1 {\n  color: red;\n}",
+        "explanation": "CSS uses a colon <code>:</code> between the property and value, not an equal sign. If you use <code>=</code>, the browser does not understand the rule and ignores it completely."
+      },
+      {
+        "title": "Forgetting to Link the External CSS File",
+        "wrongCode": "<!-- index.html -->\n<!DOCTYPE html>\n<html>\n<head>\n  <title>My Page</title>\n</head>\n<body>\n  <h1>Hello</h1>\n</body>\n</html>",
+        "error": "The CSS file exists but is not linked. None of the styles apply.",
+        "correctCode": "<!-- index.html -->\n<!DOCTYPE html>\n<html>\n<head>\n  <title>My Page</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <h1>Hello</h1>\n</body>\n</html>",
+        "explanation": "Having a CSS file in your folder is not enough. You must link it with <code>&lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;</code> inside the head. Without this tag, the browser never loads your CSS."
+      },
+      {
+        "title": "Wrong Path to the CSS File",
+        "wrongCode": "<!-- File is in css/styles.css -->\n<link rel=\"stylesheet\" href=\"styles.css\">",
+        "error": "404 — file not found. The path is wrong.",
+        "correctCode": "<link rel=\"stylesheet\" href=\"css/styles.css\">",
+        "explanation": "The <code>href</code> must be the correct path to the CSS file relative to the HTML file. If your CSS is in a subfolder called <code>css</code>, the path must include that folder. Check the browser's Network tab to see if the CSS loaded."
+      },
+      {
+        "title": "Missing Curly Braces",
+        "wrongCode": "h1\n  color: blue;\n  font-size: 24px;",
+        "error": "The CSS has no rule — none of it applies.",
+        "correctCode": "h1 {\n  color: blue;\n  font-size: 24px;\n}",
+        "explanation": "Every CSS rule must wrap its properties in curly braces <code>{ }</code>. Without them, there is no rule — just random text. The browser ignores it completely."
+      }
+    ],
+    "summary": [
+      "CSS stands for Cascading Style Sheets. It is the language used to style HTML pages with colors, fonts, spacing, and layouts.",
+      "HTML gives websites their structure. CSS gives them their appearance. Both are needed to build a real website.",
+      "There are 3 ways to add CSS: inline (on the tag with style=\"\"), internal (inside a <style> tag in the head), and external (a separate .css file linked with <link>).",
+      "External CSS is the best practice. One CSS file can style hundreds of pages. Change one line, update every page.",
+      "CSS syntax: selector { property: value; property: value; }. The selector picks the element, properties describe what to change, and values set how it looks.",
+      "Always end each property with a semicolon. Missing semicolons break the rules that follow them.",
+      "CSS comments use /* and */. They are ignored by the browser but help you and other developers understand the code.",
+      "The cascade is the system CSS uses to pick which rule wins when multiple rules apply. Rules depend on specificity, order, and source.",
+      "Specificity basics: inline (1000) > ID (100) > class (10) > element (1). A more specific selector overrides a less specific one.",
+      "You can apply the same styles to multiple selectors by separating them with commas: h1, h2, h3 { color: red; }."
+    ]
+  },
+  "relatedTopics": ["css-selectors-and-specificity", "semantic-html"],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does CSS stand for?",
+        "hint": "It describes how styles flow.",
+        "answer": "Cascading Style Sheets",
+        "explanation": "CSS = Cascading Style Sheets. It is the language for styling HTML pages."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What symbol separates a CSS property from its value?",
+        "hint": "Not an equal sign.",
+        "answer": "A colon <code>:</code>",
+        "explanation": "CSS uses <code>property: value;</code> format. The colon separates the property from its value, and the semicolon ends the declaration."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What symbol ends a CSS property declaration?",
+        "hint": "Not a period.",
+        "answer": "A semicolon <code>;</code>",
+        "explanation": "Every property must end with a semicolon. Missing one breaks subsequent rules."
+      },
+      {
+        "id": "ts-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a CSS rule that makes all paragraphs blue.",
+        "hint": "Use the p selector and the color property.",
+        "answer": "<pre><code>p {\n  color: blue;\n}</code></pre>",
+        "explanation": "The <code>p</code> selector targets all paragraph elements. The <code>color</code> property sets the text color."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which is the best practice for adding CSS to a website: inline, internal, or external?",
+        "hint": "The one that separates concerns best.",
+        "answer": "External CSS (a separate .css file linked with <code>&lt;link&gt;</code>).",
+        "explanation": "External CSS is best because one file can style many HTML pages, keeping code clean and easy to maintain."
+      },
+      {
+        "id": "ts-6",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write the HTML tag to link an external CSS file called 'main.css'.",
+        "hint": "Use the link tag.",
+        "answer": "<pre><code>&lt;link rel=\"stylesheet\" href=\"main.css\"&gt;</code></pre>",
+        "explanation": "The <code>&lt;link&gt;</code> tag goes inside <code>&lt;head&gt;</code>. <code>rel=\"stylesheet\"</code> tells the browser this is a stylesheet, and <code>href</code> is the path to the file."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Where do you put internal CSS in an HTML file?",
+        "hint": "Inside a specific tag in the head.",
+        "answer": "Inside a <code>&lt;style&gt;</code> tag inside the <code>&lt;head&gt;</code> section.",
+        "explanation": "Internal CSS goes in a <code>&lt;style&gt;</code> tag placed in the head of the HTML document."
+      },
+      {
+        "id": "ts-8",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Style this HTML so it has a blue background and white text. Use internal CSS.<br><pre><code>&lt;h1&gt;Hello&lt;/h1&gt;\n&lt;p&gt;Welcome&lt;/p&gt;</code></pre>",
+        "hint": "Use body selector for the background.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;style&gt;\n  body {\n    background-color: blue;\n    color: white;\n  }\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;Hello&lt;/h1&gt;\n  &lt;p&gt;Welcome&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "Setting <code>background-color</code> on the body affects the entire page. The <code>color</code> property sets the default text color for everything inside."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which attribute is used for inline CSS?",
+        "hint": "It goes directly on an HTML tag.",
+        "answer": "<code>style</code>",
+        "explanation": "Inline CSS uses the <code>style</code> attribute: <code>&lt;p style=\"color: red;\"&gt;</code>."
+      },
+      {
+        "id": "ts-10",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "What is wrong with this CSS?<br><pre><code>h1 {\n  color = red;\n}</code></pre>",
+        "hint": "CSS uses a different symbol.",
+        "answer": "CSS uses a colon <code>:</code>, not an equal sign <code>=</code>. Correct: <code>color: red;</code>",
+        "explanation": "The wrong symbol makes the whole rule invalid, and the browser ignores it."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write an inline CSS rule to make an h1 red and centered.",
+        "hint": "Use the style attribute.",
+        "answer": "<pre><code>&lt;h1 style=\"color: red; text-align: center;\"&gt;My Heading&lt;/h1&gt;</code></pre>",
+        "explanation": "Multiple properties inside the style attribute are separated by semicolons. No curly braces needed for inline CSS."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How do you write a CSS comment?",
+        "hint": "Not like HTML.",
+        "answer": "<code>/* comment here */</code>",
+        "explanation": "CSS comments use slash-star to open and star-slash to close. They can span multiple lines. HTML uses <code>&lt;!-- --&gt;</code> — different syntax."
+      },
+      {
+        "id": "ts-13",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Create a CSS rule that makes all links (a tags) have no underline.",
+        "hint": "Use text-decoration: none.",
+        "answer": "<pre><code>a {\n  text-decoration: none;\n}</code></pre>",
+        "explanation": "By default, browsers underline links. <code>text-decoration: none</code> removes the underline."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this CSS do?<br><pre><code>body {\n  font-family: Arial;\n}</code></pre>",
+        "hint": "Applies to the entire body.",
+        "answer": "Sets the font of the entire page to Arial.",
+        "explanation": "When you style the body, child elements inherit the font automatically. This is the easiest way to set a site-wide font."
+      },
+      {
+        "id": "ts-15",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Why does this CSS not work?<br><pre><code>p\n  color: blue;\n  font-size: 20px;</code></pre>",
+        "hint": "Something is missing.",
+        "answer": "Missing curly braces <code>{ }</code>. Properties must be inside braces.",
+        "explanation": "Every CSS rule requires curly braces around its declarations: <code>p { color: blue; font-size: 20px; }</code>"
+      },
+      {
+        "id": "ts-16",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Create a complete HTML page with internal CSS that has a yellow background and red heading.",
+        "hint": "Use style tag in head with body and h1 selectors.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;style&gt;\n  body { background-color: yellow; }\n  h1 { color: red; }\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;Hello&lt;/h1&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "The body selector sets the page background; the h1 selector makes headings red."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Which of these wins when multiple rules apply to the same element: inline, internal, or external CSS (same specificity)?",
+        "hint": "The closest to the element wins.",
+        "answer": "Inline CSS wins (highest specificity).",
+        "explanation": "For the same specificity level, inline beats internal and external. Inline has specificity 1000, which overrides everything else."
+      },
+      {
+        "id": "ts-18",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a CSS rule that styles h1, h2, and h3 all in dark green.",
+        "hint": "Use a comma to group selectors.",
+        "answer": "<pre><code>h1, h2, h3 {\n  color: darkgreen;\n}</code></pre>",
+        "explanation": "Grouping selectors with commas applies the same styles to all of them. This is cleaner than writing three separate rules."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "In the cascade, which has higher specificity: <code>.red</code> or <code>p</code>?",
+        "hint": "Classes beat elements.",
+        "answer": "<code>.red</code> (class) has higher specificity than <code>p</code> (element).",
+        "explanation": "Class specificity = 10, element specificity = 1. If both rules apply, the class wins."
+      },
+      {
+        "id": "ts-20",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Aarav linked his CSS but it does not apply. Why?<br><pre><code>&lt;!-- index.html --&gt;\n&lt;head&gt;\n  &lt;link href=\"style.css\"&gt;\n&lt;/head&gt;</code></pre>",
+        "hint": "Missing an attribute.",
+        "answer": "Missing <code>rel=\"stylesheet\"</code>. The browser does not know it is a stylesheet.",
+        "explanation": "A link tag without <code>rel=\"stylesheet\"</code> is not treated as a CSS file. Always include it."
+      },
+      {
+        "id": "ts-21",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Style a complete HTML page: background should be light blue, headings dark blue and centered, paragraphs in Arial font and grey color.",
+        "hint": "Body for background, h1 for headings, p for paragraphs.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;style&gt;\n  body {\n    background-color: lightblue;\n    font-family: Arial;\n  }\n  h1 {\n    color: darkblue;\n    text-align: center;\n  }\n  p {\n    color: grey;\n  }\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;Priya's Page&lt;/h1&gt;\n  &lt;p&gt;Welcome!&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "Three separate rules for body, h1, and p styles the whole page."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What specificity does an inline style have?",
+        "hint": "It is the highest.",
+        "answer": "1000 (the highest).",
+        "explanation": "Inline styles have the highest normal specificity: 1000. Only <code>!important</code> can override them."
+      },
+      {
+        "id": "ts-23",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a complete HTML page that uses external CSS. Include both the HTML file content and what should go in style.css.",
+        "hint": "Two files: index.html links to style.css.",
+        "answer": "<pre><code>&lt;!-- index.html --&gt;\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n  &lt;title&gt;My Page&lt;/title&gt;\n  &lt;link rel=\"stylesheet\" href=\"style.css\"&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;Welcome&lt;/h1&gt;\n  &lt;p&gt;Styled with external CSS!&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n\n/* style.css */\nbody {\n  background-color: #f0f0f0;\n  font-family: Arial;\n}\nh1 { color: purple; }\np { color: darkgreen; }</code></pre>",
+        "explanation": "Two separate files: the HTML links to the CSS with <code>&lt;link&gt;</code>, and the CSS file contains just the style rules (no <code>&lt;style&gt;</code> tag)."
+      },
+      {
+        "id": "ts-24",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "If <code>p { color: red; }</code> is in external CSS and <code>p { color: blue; }</code> is in internal CSS below it, which color wins?",
+        "hint": "Internal CSS comes later.",
+        "answer": "Blue wins. When specificity is the same, later rules override earlier ones.",
+        "explanation": "Both selectors have equal specificity (just 'p'). The cascade rule says later wins, so the internal CSS (which loads after the external link) takes effect."
+      },
+      {
+        "id": "ts-25",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "Why does the font-size not apply?<br><pre><code>p {\n  color: red\n  font-size: 20px;\n}</code></pre>",
+        "hint": "Check for missing punctuation.",
+        "answer": "Missing semicolon after <code>red</code>. Without it, the parser breaks and ignores everything after.",
+        "explanation": "CSS requires a semicolon at the end of every declaration. Missing one causes the parser to merge or drop the next line."
+      },
+      {
+        "id": "ts-26",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Build a page with 3 different sources of CSS rules that conflict: external rule makes p blue, internal makes p red, inline makes p green. Which color will the paragraph show?",
+        "hint": "Inline has the highest specificity.",
+        "answer": "<pre><code>&lt;!-- Paragraph shows GREEN because inline wins --&gt;\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n  &lt;link rel=\"stylesheet\" href=\"external.css\"&gt; /* p { color: blue; } */\n  &lt;style&gt;\n    p { color: red; }\n  &lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;p style=\"color: green;\"&gt;Hello&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "Inline beats internal beats external when specificity is equal. The paragraph is green because the inline style wins."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the file extension for CSS files?",
+        "hint": "Short abbreviation.",
+        "answer": "<code>.css</code>",
+        "explanation": "CSS files are saved with the .css extension (e.g., style.css, main.css)."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a CSS rule for a div that has a red background and 20px of padding.",
+        "hint": "Use div as the selector.",
+        "answer": "<pre><code>div {\n  background-color: red;\n  padding: 20px;\n}</code></pre>",
+        "explanation": "This targets all div elements. Padding adds space inside the element."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which goes inside the <head>: the <style> tag or the <link> tag for CSS?",
+        "hint": "Both, actually.",
+        "answer": "Both. <code>&lt;style&gt;</code> for internal CSS and <code>&lt;link&gt;</code> for external CSS.",
+        "explanation": "Both go in the head. Internal CSS is in a style tag, external CSS is referenced via a link tag."
+      },
+      {
+        "id": "mx-4",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "What is wrong?<br><pre><code>&lt;p style=color: red;&gt;Hi&lt;/p&gt;</code></pre>",
+        "hint": "Missing quotes.",
+        "answer": "The style attribute value must be in quotes: <code>style=\"color: red;\"</code>",
+        "explanation": "HTML attribute values should be wrapped in double quotes. Without them, the browser may not parse the attribute correctly."
+      },
+      {
+        "id": "mx-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write CSS to make h1 elements 40 pixels tall (font size).",
+        "hint": "Use font-size.",
+        "answer": "<pre><code>h1 {\n  font-size: 40px;\n}</code></pre>",
+        "explanation": "font-size sets the text size. Values can be in px, em, rem, %, and more."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "True or false: CSS comments and HTML comments use the same syntax.",
+        "hint": "They are different.",
+        "answer": "False. CSS uses <code>/* */</code>, HTML uses <code>&lt;!-- --&gt;</code>.",
+        "explanation": "Different languages have different comment styles. Using the wrong one will break things."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Create a CSS rule that uses a comment explaining what the rule does, then sets the body background to light yellow.",
+        "hint": "Use /* comment */ before the rule.",
+        "answer": "<pre><code>/* Set the page background to light yellow */\nbody {\n  background-color: lightyellow;\n}</code></pre>",
+        "explanation": "Comments help document your code. Anyone reading the CSS later will understand what the rule does."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens if you write CSS with <code>background: red</code> but forget the semicolon?",
+        "hint": "The next rule might not work.",
+        "answer": "This single rule works (the last rule in a block does not strictly need a semicolon), but if you add another line after, it will break. Always use semicolons.",
+        "explanation": "Technically, CSS only needs semicolons between rules, but best practice is to always include them to avoid bugs when adding new properties later."
+      },
+      {
+        "id": "mx-9",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "The CSS file is in a folder called 'assets/css/'. What should the href be?",
+        "hint": "Include the folder path.",
+        "answer": "<code>&lt;link rel=\"stylesheet\" href=\"assets/css/style.css\"&gt;</code>",
+        "explanation": "The href must include the full path relative to the HTML file. If the CSS is in a subfolder, include that subfolder in the path."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a complete HTML page with a gradient-like feel: dark background, bright pink heading, white paragraph text. Use internal CSS.",
+        "hint": "Body background dark, h1 pink, p white.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;style&gt;\n  body {\n    background-color: #1a1a2e;\n    color: white;\n    font-family: Arial;\n    padding: 30px;\n  }\n  h1 {\n    color: #ff4081;\n    text-align: center;\n  }\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;Welcome!&lt;/h1&gt;\n  &lt;p&gt;This is my cool styled page.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "Hex colors like #1a1a2e and #ff4081 give you precise control. The body color (white) is inherited by paragraphs."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "In a CSS rule <code>#main { color: red; }</code>, what is the specificity?",
+        "hint": "IDs have specificity 100.",
+        "answer": "100 (because #main is an ID selector).",
+        "explanation": "ID selectors have the highest specificity among normal selectors (100). They override classes (10) and elements (1)."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a complete HTML page linked to an external CSS file. Include both file contents. Style should make body dark, h1 yellow, and paragraphs light grey.",
+        "hint": "Remember the link tag in HTML.",
+        "answer": "<pre><code>&lt;!-- index.html --&gt;\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n  &lt;title&gt;Home&lt;/title&gt;\n  &lt;link rel=\"stylesheet\" href=\"style.css\"&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;Welcome&lt;/h1&gt;\n  &lt;p&gt;External CSS rocks!&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n\n/* style.css */\nbody {\n  background-color: #1a1a2e;\n  font-family: Arial;\n}\nh1 {\n  color: yellow;\n  text-align: center;\n}\np {\n  color: lightgrey;\n}</code></pre>",
+        "explanation": "The HTML file links to style.css. The CSS file holds the rules. Both files should be in the same folder."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Given <code>.highlight { color: red; }</code> and <code>p { color: blue; }</code>, what color is <code>&lt;p class=\"highlight\"&gt;Text&lt;/p&gt;</code>?",
+        "hint": "Class has higher specificity than element.",
+        "answer": "Red (because .highlight has specificity 10, p has specificity 1).",
+        "explanation": "The class selector wins because 10 > 1. The paragraph will be red."
+      },
+      {
+        "id": "mx-14",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "The page has this code. The paragraph is still black. Why?<br><pre><code>&lt;style&gt;\n  p { color red; }\n&lt;/style&gt;\n&lt;p&gt;Hello&lt;/p&gt;</code></pre>",
+        "hint": "There's a missing character.",
+        "answer": "Missing colon between <code>color</code> and <code>red</code>. Should be <code>color: red;</code>",
+        "explanation": "Without the colon, the CSS is invalid. The browser ignores the rule and falls back to default styling (black text)."
+      },
+      {
+        "id": "mx-15",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Build a page with three paragraphs. Use external CSS concept (shown in internal) to style the first paragraph red using inline style, second blue using internal CSS with a class, and third green by default element selector.",
+        "hint": "Use all 3 methods in one page.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;style&gt;\n  p { color: green; }\n  .blue { color: blue; }\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;p style=\"color: red;\"&gt;First (red inline)&lt;/p&gt;\n  &lt;p class=\"blue\"&gt;Second (blue class)&lt;/p&gt;\n  &lt;p&gt;Third (green default)&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "Three different methods styling three paragraphs. Inline beats class beats element when all three apply."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does CSS stand for?",
+        "options": {
+          "A": "Creative Style Sheets",
+          "B": "Cascading Style Sheets",
+          "C": "Computer Style Sheets",
+          "D": "Colorful Style Sheets"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> CSS stands for Cascading Style Sheets. The 'cascading' refers to how styles flow and combine."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which symbol separates a CSS property from its value?",
+        "options": {
+          "A": "=",
+          "B": ":",
+          "C": ";",
+          "D": "->"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> CSS uses a colon <code>:</code>. Example: <code>color: red;</code>"
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which is the BEST practice for adding CSS?",
+        "options": {
+          "A": "Inline CSS in every tag",
+          "B": "Internal CSS in every page",
+          "C": "External CSS in a separate file",
+          "D": "A mix of all three"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> External CSS is the best practice. One file styles many pages, keeping code clean and reusable."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which tag links an external CSS file to HTML?",
+        "options": {
+          "A": "<css>",
+          "B": "<style>",
+          "C": "<link>",
+          "D": "<stylesheet>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>&lt;link rel=\"stylesheet\" href=\"style.css\"&gt;</code> links an external CSS file. <code>&lt;style&gt;</code> is for internal CSS."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Where should internal CSS be placed?",
+        "options": {
+          "A": "Inside <body>",
+          "B": "Inside a <style> tag in the <head>",
+          "C": "At the top of the HTML file",
+          "D": "In a separate file"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Internal CSS goes in a <code>&lt;style&gt;</code> tag within the <code>&lt;head&gt;</code>."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which attribute is used for inline CSS?",
+        "options": {
+          "A": "css",
+          "B": "style",
+          "C": "class",
+          "D": "type"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>style</code> attribute on HTML elements holds inline CSS: <code>&lt;p style=\"color: red;\"&gt;</code>"
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "How do you write a comment in CSS?",
+        "options": {
+          "A": "// comment",
+          "B": "<!-- comment -->",
+          "C": "/* comment */",
+          "D": "# comment"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> CSS comments use <code>/* */</code>. HTML uses <code>&lt;!-- --&gt;</code>. They are different languages with different comment styles."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Easy",
+        "question": "Which CSS rule makes paragraph text red?",
+        "options": {
+          "A": "p { color: red; }",
+          "B": "p = red;",
+          "C": "p color: red;",
+          "D": ".p { color: red; }"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> The CSS syntax is <code>selector { property: value; }</code>. p is the element selector, color is the property, red is the value."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Easy",
+        "question": "What wraps CSS declarations in a rule?",
+        "options": {
+          "A": "Parentheses ( )",
+          "B": "Square brackets [ ]",
+          "C": "Curly braces { }",
+          "D": "Angle brackets < >"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Curly braces <code>{ }</code> wrap the property declarations inside a CSS rule."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Easy",
+        "question": "Which property changes the text color?",
+        "options": {
+          "A": "text-color",
+          "B": "color",
+          "C": "font-color",
+          "D": "text"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>color</code> property sets the text color. There is no property called text-color or font-color."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Easy",
+        "question": "Which character ends a CSS declaration?",
+        "options": {
+          "A": ", (comma)",
+          "B": ". (period)",
+          "C": "; (semicolon)",
+          "D": "! (exclamation)"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Every CSS declaration ends with a semicolon <code>;</code>. Forgetting it can break the next rule."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Easy",
+        "question": "Which CSS property sets the background color?",
+        "options": {
+          "A": "bg-color",
+          "B": "background-color",
+          "C": "color",
+          "D": "back-color"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>background-color</code> is the standard CSS property for background color."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "When multiple CSS sources have the same specificity, which wins?",
+        "options": {
+          "A": "External CSS",
+          "B": "Internal CSS",
+          "C": "Inline CSS",
+          "D": "They all lose"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Inline CSS has the highest specificity (1000) and always wins over internal and external CSS when the specificity is otherwise the same."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "Which selector has the highest specificity (among these)?",
+        "options": {
+          "A": "p",
+          "B": ".note",
+          "C": "#main",
+          "D": "div"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> ID selectors (#main) have specificity 100, classes (.note) have 10, and element selectors (p, div) have 1."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "How do you apply the same rule to multiple selectors?",
+        "options": {
+          "A": "h1 and h2 { ... }",
+          "B": "h1, h2 { ... }",
+          "C": "h1 + h2 { ... }",
+          "D": "h1 & h2 { ... }"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Separate multiple selectors with commas to apply the same rules to all of them: <code>h1, h2, h3 { color: red; }</code>"
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What will happen to this code? <p style='color: red;' class='blue'>",
+        "options": {
+          "A": "The paragraph is blue",
+          "B": "The paragraph is red",
+          "C": "Error",
+          "D": "No color at all"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The inline style (specificity 1000) beats the class selector (specificity 10). The paragraph will be red."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "Which rel value is used when linking a CSS file?",
+        "options": {
+          "A": "css",
+          "B": "stylesheet",
+          "C": "style",
+          "D": "link"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;link rel=\"stylesheet\" href=\"style.css\"&gt;</code>. Without <code>rel=\"stylesheet\"</code>, the browser does not treat the file as CSS."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "Why is external CSS better than inline CSS?",
+        "options": {
+          "A": "External CSS is faster",
+          "B": "One file can style many pages, keeping code reusable and clean",
+          "C": "Inline CSS does not work in modern browsers",
+          "D": "External CSS uses less bandwidth"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> External CSS lets one file style multiple HTML pages. Change one rule, every page updates. Inline CSS has to be repeated everywhere."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "Which of these is valid CSS syntax?",
+        "options": {
+          "A": "h1 (color: red;)",
+          "B": "h1 [color = red]",
+          "C": "h1 { color: red; }",
+          "D": "h1 -> color: red"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> CSS uses curly braces, colons, and semicolons: <code>selector { property: value; }</code>"
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Medium",
+        "question": "What does this selector target? <code>h1, h2</code>",
+        "options": {
+          "A": "Only h1 inside h2",
+          "B": "Both h1 and h2 elements",
+          "C": "h1 immediately after h2",
+          "D": "Neither — it is invalid"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> A comma groups selectors. The rule applies to ALL h1 and h2 elements on the page."
+      },
+      {
+        "id": "mcq-21",
+        "difficulty": "Hard",
+        "question": "In the cascade, if two rules have the same specificity, which one wins?",
+        "options": {
+          "A": "The first rule defined",
+          "B": "The last rule defined",
+          "C": "The browser picks randomly",
+          "D": "Both apply equally"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> When specificity is the same, the later rule wins. This is why order matters in CSS."
+      },
+      {
+        "id": "mcq-22",
+        "difficulty": "Hard",
+        "question": "Why does the CSS not work when the link tag is missing 'rel=\"stylesheet\"'?",
+        "options": {
+          "A": "The browser downloads but ignores it",
+          "B": "The browser does not even download it",
+          "C": "The file causes an error",
+          "D": "It still works"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> Without <code>rel=\"stylesheet\"</code>, the browser does not know the linked file is a stylesheet, so it does not apply it (even if it downloads it)."
+      },
+      {
+        "id": "mcq-23",
+        "difficulty": "Hard",
+        "question": "Which of these has specificity of 100?",
+        "options": {
+          "A": "p",
+          "B": ".note",
+          "C": "#header",
+          "D": "body p"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> An ID selector (#header) has specificity 100. Element selectors are 1, classes are 10, IDs are 100, inline is 1000."
+      },
+      {
+        "id": "mcq-24",
+        "difficulty": "Hard",
+        "question": "What is the correct file structure for external CSS?",
+        "options": {
+          "A": "One HTML file with CSS inside a <link>",
+          "B": "An HTML file plus a separate .css file linked in the head",
+          "C": "A .css file that contains HTML",
+          "D": "Two .html files linked together"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> External CSS requires at least two files: the HTML and the CSS. The HTML links to the CSS using <code>&lt;link rel=\"stylesheet\"&gt;</code>."
+      },
+      {
+        "id": "mcq-25",
+        "difficulty": "Hard",
+        "question": "Which of these CSS rules is INVALID?",
+        "options": {
+          "A": "h1 { color: red; font-size: 24px; }",
+          "B": "p { background-color: blue; }",
+          "C": "div { width: 100px height: 200px; }",
+          "D": "a { text-decoration: none; }"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Missing semicolon after <code>100px</code>. The next property <code>height</code> will not be applied because the parser gets confused."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Your First Styled Page",
+        "difficulty": "Easy",
+        "description": "Create a complete HTML page with internal CSS that has a pastel pink background, Arial font, and a centered blue heading 'Hello, Priya!'.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A pink page with a centered blue heading.",
+        "constraints": "Use internal CSS in a <style> tag in the head. Use body and h1 selectors.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My First Styled Page</title>\n  <style>\n    body {\n      background-color: #ffe4e1;\n      font-family: Arial, sans-serif;\n    }\n    h1 {\n      color: blue;\n      text-align: center;\n    }\n  </style>\n</head>\n<body>\n  <h1>Hello, Priya!</h1>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Inline CSS Practice",
+        "difficulty": "Easy",
+        "description": "Create an HTML page with 3 paragraphs styled inline: the first red, the second green, the third blue. All should have a font size of 18px.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Three paragraphs in red, green, and blue.",
+        "constraints": "Use only inline CSS (style attribute).",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <p style=\"color: red; font-size: 18px;\">This is red.</p>\n  <p style=\"color: green; font-size: 18px;\">This is green.</p>\n  <p style=\"color: blue; font-size: 18px;\">This is blue.</p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Dark Theme Page",
+        "difficulty": "Medium",
+        "description": "Build a page with internal CSS that has a dark grey background (#1a1a2e), white text, and a bright pink heading (#ff4081). Include at least 2 paragraphs and an h1.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A dark page with white text and a pink heading.",
+        "constraints": "Use internal CSS. Hex colors. Must style body, h1, and p.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Dark Theme</title>\n  <style>\n    body {\n      background-color: #1a1a2e;\n      color: white;\n      font-family: Arial;\n      padding: 30px;\n    }\n    h1 {\n      color: #ff4081;\n      text-align: center;\n      font-size: 40px;\n    }\n    p {\n      font-size: 18px;\n      line-height: 1.6;\n    }\n  </style>\n</head>\n<body>\n  <h1>Welcome to the Dark Side</h1>\n  <p>This is my first dark-themed page. It looks cool and is easy on the eyes.</p>\n  <p>CSS makes styling fun and powerful.</p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "External CSS Setup",
+        "difficulty": "Medium",
+        "description": "Create two files: an HTML file and a style.css file. The HTML has a heading and a paragraph. The CSS styles the body with a light green background and Arial font, the heading in dark green, and the paragraph in black.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A green-themed page loaded from an external CSS file.",
+        "constraints": "Two separate files. HTML must link style.css with rel=\"stylesheet\".",
+        "solution": "<!-- index.html -->\n<!DOCTYPE html>\n<html>\n<head>\n  <title>External CSS Demo</title>\n  <link rel=\"stylesheet\" href=\"style.css\">\n</head>\n<body>\n  <h1>Rohan's Green Page</h1>\n  <p>This page is styled using an external CSS file.</p>\n</body>\n</html>\n\n/* style.css */\nbody {\n  background-color: #e8f5e9;\n  font-family: Arial, sans-serif;\n  padding: 20px;\n}\nh1 {\n  color: #1b5e20;\n  text-align: center;\n}\np {\n  color: black;\n  font-size: 18px;\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Grouped Selectors",
+        "difficulty": "Medium",
+        "description": "Build an HTML page with h1, h2, and h3 headings. Use a single CSS rule (grouped selector) to make all three headings purple and centered. Also style body to have a light grey background.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A page with three purple, centered headings on a grey background.",
+        "constraints": "Use <code>h1, h2, h3</code> as a grouped selector. One rule for all three.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Grouped Selectors</title>\n  <style>\n    body {\n      background-color: #f0f0f0;\n      font-family: Arial;\n      padding: 20px;\n    }\n    h1, h2, h3 {\n      color: purple;\n      text-align: center;\n    }\n  </style>\n</head>\n<body>\n  <h1>Big Heading</h1>\n  <h2>Medium Heading</h2>\n  <h3>Small Heading</h3>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Profile Card Page",
+        "difficulty": "Hard",
+        "description": "Build a simple profile card: a centered div with a colored background, a heading with the name 'Ananya Kumar', a paragraph with the title 'Web Developer', and another paragraph with an email. Use internal CSS.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A centered card with profile info.",
+        "constraints": "Use padding, max-width, margin auto for centering. Colorful but simple.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Profile Card</title>\n  <style>\n    body {\n      background-color: #e3f2fd;\n      font-family: Arial, sans-serif;\n      padding: 40px;\n    }\n    .card {\n      background-color: white;\n      max-width: 300px;\n      margin: 0 auto;\n      padding: 25px;\n      border-radius: 10px;\n      text-align: center;\n    }\n    h1 {\n      color: #1976d2;\n      margin-bottom: 5px;\n    }\n    p {\n      color: #555;\n      margin: 5px 0;\n    }\n  </style>\n</head>\n<body>\n  <div class=\"card\">\n    <h1>Ananya Kumar</h1>\n    <p>Web Developer</p>\n    <p>ananya@example.com</p>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-7",
+        "title": "3 Methods in One Page",
+        "difficulty": "Hard",
+        "description": "Create an HTML page that uses ALL three CSS methods: external CSS setting body background, internal CSS setting h1 color to red, and inline CSS setting one paragraph to green. Show the order of wins.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A page using all three CSS methods at once.",
+        "constraints": "Demonstrate all three methods. Include comments explaining what each does.",
+        "solution": "<!-- index.html -->\n<!DOCTYPE html>\n<html>\n<head>\n  <title>Three CSS Methods</title>\n  <!-- External CSS -->\n  <link rel=\"stylesheet\" href=\"style.css\">\n  <!-- Internal CSS -->\n  <style>\n    h1 { color: red; }\n  </style>\n</head>\n<body>\n  <h1>Three CSS Methods</h1>\n  <p>Normal paragraph (external styles).</p>\n  <p style=\"color: green; font-weight: bold;\">Inline green paragraph wins over external.</p>\n</body>\n</html>\n\n/* style.css */\nbody {\n  background-color: #fff9c4;\n  font-family: Arial;\n}\np {\n  color: blue;\n}"
+      },
+      {
+        "id": "cc-8",
+        "title": "Complete Styled Home Page",
+        "difficulty": "Hard",
+        "description": "Build a complete HTML page for 'Vikram's Blog' using external CSS concept (show both files). It should have: a header area with a centered title, 3 paragraphs of introduction text, and styled with a warm color palette (cream background, brown text, dark red headings).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A warm-toned blog home page styled externally.",
+        "constraints": "Two files: index.html and style.css. Use at least 4 CSS rules.",
+        "solution": "<!-- index.html -->\n<!DOCTYPE html>\n<html>\n<head>\n  <title>Vikram's Blog</title>\n  <link rel=\"stylesheet\" href=\"style.css\">\n</head>\n<body>\n  <header>\n    <h1>Vikram's Blog</h1>\n    <p>Thoughts on code, life, and learning.</p>\n  </header>\n  <main>\n    <p>Welcome to my blog! I write about web development, programming tips, and my learning journey.</p>\n    <p>I am a 16-year-old student from Chennai who loves building websites.</p>\n    <p>Check back often for new posts about HTML, CSS, and JavaScript.</p>\n  </main>\n</body>\n</html>\n\n/* style.css */\nbody {\n  background-color: #fff8e7;\n  color: #5d4037;\n  font-family: Georgia, serif;\n  padding: 30px;\n  max-width: 700px;\n  margin: 0 auto;\n}\nheader {\n  text-align: center;\n  border-bottom: 2px solid #5d4037;\n  padding-bottom: 15px;\n  margin-bottom: 20px;\n}\nh1 {\n  color: #8b0000;\n  font-size: 42px;\n  margin-bottom: 5px;\n}\np {\n  font-size: 18px;\n  line-height: 1.7;\n}"
+      }
+    ]
+  }
+}

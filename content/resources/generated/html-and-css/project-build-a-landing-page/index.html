@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: Build a Complete Landing Page - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Build a full responsive landing page with hero, features, pricing, testimonials, and footer using HTML and CSS only.">
+    <meta name="keywords" content="project: build a complete landing page, html and css tutorial, html and css project: build a complete landing page, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/project-build-a-landing-page">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/project-build-a-landing-page">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/project-build-a-landing-page">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/project-build-a-landing-page">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/project-build-a-landing-page">
+    <meta property="og:title" content="Project: Build a Complete Landing Page - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Build a full responsive landing page with hero, features, pricing, testimonials, and footer using HTML and CSS only.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/project-build-a-landing-page">
+    <meta name="twitter:title" content="Project: Build a Complete Landing Page - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Build a full responsive landing page with hero, features, pricing, testimonials, and footer using HTML and CSS only.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Project: Build a Complete Landing Page",
+    "description": "Build a full responsive landing page with hero, features, pricing, testimonials, and footer using HTML and CSS only.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/project-build-a-landing-page"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/project-build-a-landing-page"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Project: Build a Complete Landing Page",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/project-build-a-landing-page"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Fixed Width Hero That Overflows on Mobile",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use <code>max-width</code> instead of <code>width</code> so the element shrinks to fit narrow screens. Use <code>clamp()</code> for padding so it scales with the viewport. Center with <code>margin: 0 auto</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Breaking the Grid on Narrow Screens",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>repeat(auto-fit, minmax(260px, 1fr))</code> is the magic line: it creates as many columns as fit, where each is at least 260px wide. One column on phones, two on tablets, three on desktops, all without media queries."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting box-sizing: border-box",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always start every project with <code>* { box-sizing: border-box; margin: 0; padding: 0; }</code>. <code>border-box</code> makes padding and border part of the declared width, which is how humans think about sizes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hardcoded Colors Instead of Variables",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Define every important color as a CSS variable at the top of your stylesheet. Changing the brand color becomes a one-line edit, and your design stays consistent automatically."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Project: Build a Complete Landing Page</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 24</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">65 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Project: Build a Complete Landing Page</h1>
+            <a href="/resources/html-and-css/project-build-a-landing-page/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What We Are Building</h2><p>In this project you will build a <strong>complete, production-quality SaaS landing page</strong> from scratch using only HTML and CSS. No framework. No JavaScript. No libraries. Just the fundamentals you have learned across all 23 previous chapters.</p><p>The finished page has 7 sections:</p><ol><li><strong>Navbar</strong> - logo, nav links, and a CTA button (flex layout)</li><li><strong>Hero</strong> - big headline with gradient text, subheadline, two CTAs, and a visual on the right (grid layout)</li><li><strong>Features</strong> - 3-column grid of feature cards (<code>auto-fit minmax</code>)</li><li><strong>Pricing</strong> - 3 pricing cards with the middle one highlighted</li><li><strong>Testimonials</strong> - user avatars and quotes</li><li><strong>FAQ</strong> - accordion using native <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code></li><li><strong>Footer</strong> - columns of links and a bottom bar</li></ol><p>The whole page uses:</p><ul><li>CSS custom properties for theming (one line to change the brand color)</li><li>clamp() for fluid typography (no media queries for type)</li><li>Grid and flexbox for layout</li><li>Modern hover effects and transitions</li><li>Responsive design for phone, tablet, and desktop</li></ul><p>You will build the SaaS product 'SkyPanel' - a fictional dashboard tool. Every section has real content written by Indian students: Aarav, Priya, Rohan, Ishita, and Kavya.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Build a Landing Page?</h2><h3>1. It Is the Most Common Frontend Job</h3><p>Every company, product, and founder needs a landing page. Whether you freelance, join a startup, or build your own products, the ability to ship a polished landing page in an afternoon is one of the highest-leverage skills a developer can have.</p><h3>2. It Exercises Every CSS Skill</h3><p>A good landing page uses almost every topic in this book: flexbox for the navbar, grid for the hero and feature cards, clamp() for fluid type, variables for theming, transitions for hover states, pseudo-elements for ribbons, and the <code>&lt;details&gt;</code> element for the FAQ. If you can build this, you know CSS.</p><h3>3. You Can Reuse Every Section</h3><p>The navbar, hero, feature grid, pricing cards, testimonials, FAQ, and footer are reusable building blocks. Once you have built them, you can drop them into any future project: a portfolio, a product site, a school club page, a fundraiser.</p><h3>4. Design That Works at Every Size</h3><p>The page is responsive from a 320px phone to a 1600px desktop. You will learn how to structure sections that look great at every size without shipping a maintenance nightmare of media queries. Modern CSS (container queries, clamp, auto-fit) does most of the work.</p><h3>5. It Looks Like a Real Product</h3><p>This is not a toy example. By the end, Aarav can open his browser, load the page, and it looks like something a real company would ship. That confidence is worth more than any tutorial.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Building the Landing Page Step by Step</h2><h3>Step 1: HTML Structure</h3><p>Start with a semantic HTML skeleton. Use <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> for accessibility. Each section has a clear role.</p><pre><code>&lt;header class="nav"&gt; ... &lt;/header&gt;
+&lt;main&gt;
+  &lt;section class="hero"&gt; ... &lt;/section&gt;
+  &lt;section class="features"&gt; ... &lt;/section&gt;
+  &lt;section class="pricing"&gt; ... &lt;/section&gt;
+  &lt;section class="testimonials"&gt; ... &lt;/section&gt;
+  &lt;section class="faq"&gt; ... &lt;/section&gt;
+&lt;/main&gt;
+&lt;footer class="footer"&gt; ... &lt;/footer&gt;</code></pre><h3>Step 2: CSS Variables and Reset</h3><p>Define a design token system at the top of the stylesheet. Spacing scale, type scale, colors, radii, and shadows all live in one place.</p><pre><code>:root {
+  --brand: #7c3aed;
+  --brand-2: #ec4899;
+  --bg: #fafaf9;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --border: #e2e8f0;
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(0,0,0,0.08);
+  --shadow-lg: 0 25px 60px rgba(124,58,237,0.2);
+  --s-4: 16px; --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 64px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }</code></pre><h3>Step 3: Navbar with Flexbox</h3><p>A simple horizontal nav with the logo on the left, links in the middle, and a CTA button on the right.</p><pre><code>.nav { display: flex; align-items: center; justify-content: space-between; padding: var(--s-4) var(--s-6); background: var(--surface); border-bottom: 1px solid var(--border); }
+.nav .links { display: flex; gap: var(--s-5); }
+.nav a { color: var(--muted); text-decoration: none; }
+.nav a:hover { color: var(--brand); }</code></pre><h3>Step 4: Hero Section with Grid</h3><p>A two-column hero: text on the left, visual on the right. Collapses to one column on mobile.</p><pre><code>.hero { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-7); padding: var(--s-8) var(--s-6); max-width: 1200px; margin: 0 auto; align-items: center; }
+.hero h1 { font-size: clamp(36px, 5vw, 64px); line-height: 1.1; text-wrap: balance; }
+.hero h1 .highlight { background: linear-gradient(135deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+
+@media (max-width: 800px) {
+  .hero { grid-template-columns: 1fr; }
+}</code></pre><h3>Step 5: Features Grid</h3><p>Three feature cards in a responsive grid using <code>repeat(auto-fit, minmax())</code> - no media query needed.</p><pre><code>.features { padding: var(--s-8) var(--s-6); max-width: 1200px; margin: 0 auto; }
+.features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--s-5); }
+.feature { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s-6); transition: transform 0.3s, box-shadow 0.3s; }
+.feature:hover { transform: translateY(-4px); box-shadow: var(--shadow); }</code></pre><h3>Step 6: Pricing with Highlighted Card</h3><p>Three pricing tiers. The middle one is marked as <code>.popular</code> and scales up slightly, with a colored background and a 'Most Popular' badge.</p><pre><code>.plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--s-5); max-width: 1100px; margin: 0 auto; }
+.plan { background: var(--surface); border: 2px solid var(--border); border-radius: var(--radius); padding: var(--s-6); text-align: center; }
+.plan.popular { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: white; transform: scale(1.04); box-shadow: var(--shadow-lg); position: relative; }
+.plan.popular::before { content: 'MOST POPULAR'; position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: #0f172a; color: white; padding: 4px 16px; border-radius: 999px; font-size: 11px; letter-spacing: 1px; }</code></pre><h3>Step 7: Testimonials</h3><p>A grid of quote cards with avatars, names, and the quote itself.</p><pre><code>.t-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--s-5); }
+.t-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s-6); }
+.t-card .avatar { width: 48px; height: 48px; border-radius: 50%; }</code></pre><h3>Step 8: FAQ with details/summary</h3><p>Native HTML accordion. Zero JavaScript.</p><pre><code>.faq details { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: var(--s-4) var(--s-5); margin-bottom: var(--s-3); }
+.faq summary { cursor: pointer; font-weight: 600; color: var(--text); list-style: none; }
+.faq details[open] summary { color: var(--brand); }</code></pre><h3>Step 9: Footer</h3><p>A grid of link columns with a copyright bar underneath.</p><pre><code>.footer { background: #0f172a; color: #cbd5e1; padding: var(--s-8) var(--s-6); margin-top: var(--s-8); }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: var(--s-6); max-width: 1200px; margin: 0 auto; }
+.footer .bar { border-top: 1px solid #1e293b; margin-top: var(--s-7); padding-top: var(--s-5); text-align: center; font-size: 14px; }</code></pre><p>Now let us see the ENTIRE landing page in one complete code example that you can copy, paste, and run.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">COMPLETE Landing Page - Full HTML + CSS in One File</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;title&gt;SkyPanel - The Dashboard Built for Teams&lt;/title&gt;
+&lt;style&gt;
+  :root {
+    --brand: #7c3aed;
+    --brand-2: #ec4899;
+    --accent: #06b6d4;
+    --bg: #fafaf9;
+    --surface: #ffffff;
+    --text: #0f172a;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --radius: 14px;
+    --radius-lg: 22px;
+    --shadow: 0 10px 30px rgba(0,0,0,0.08);
+    --shadow-lg: 0 25px 60px rgba(124,58,237,0.25);
+    --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 64px; --s-9: 96px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: &#39;Segoe UI&#39;, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+  a { color: inherit; text-decoration: none; }
+  img { max-width: 100%; }
+
+  /* NAV */
+  .nav {
+    position: sticky; top: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: var(--s-4) var(--s-6);
+    background: rgba(255,255,255,0.9); backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav .brand { font-weight: 800; font-size: 22px; color: var(--brand); display: flex; align-items: center; gap: 8px; }
+  .nav .brand::before { content: &#39;&#39;; width: 28px; height: 28px; background: linear-gradient(135deg, var(--brand), var(--brand-2)); border-radius: 8px; }
+  .nav .links { display: flex; gap: var(--s-5); }
+  .nav .links a { color: var(--muted); font-size: 15px; transition: color 0.2s; }
+  .nav .links a:hover { color: var(--brand); }
+  .nav .cta { padding: 10px 20px; background: var(--brand); color: white; border-radius: 10px; font-weight: 600; font-size: 14px; transition: background 0.2s, transform 0.2s; }
+  .nav .cta:hover { background: #6d28d9; transform: translateY(-1px); }
+
+  /* HERO */
+  .hero {
+    display: grid; grid-template-columns: 1.1fr 1fr;
+    gap: var(--s-7); align-items: center;
+    padding: var(--s-9) var(--s-6) var(--s-8);
+    max-width: 1200px; margin: 0 auto;
+  }
+  .hero .eyebrow { display: inline-block; background: #ede9fe; color: var(--brand); padding: 6px 14px; border-radius: 999px; font-size: 13px; font-weight: 700; letter-spacing: 1px; margin-bottom: var(--s-4); }
+  .hero h1 { font-size: clamp(36px, 5vw, 64px); line-height: 1.05; text-wrap: balance; margin-bottom: var(--s-4); letter-spacing: -1px; }
+  .hero h1 .gradient { background: linear-gradient(135deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  .hero p { font-size: clamp(16px, 1.5vw, 19px); color: var(--muted); max-width: 500px; margin-bottom: var(--s-6); text-wrap: pretty; }
+  .hero-ctas { display: flex; gap: var(--s-3); flex-wrap: wrap; }
+  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 26px; border-radius: 12px; font-weight: 700; font-size: 15px; cursor: pointer; border: none; transition: transform 0.2s, box-shadow 0.2s; }
+  .btn-primary { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: white; box-shadow: 0 12px 30px rgba(124,58,237,0.35); }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 18px 40px rgba(124,58,237,0.45); }
+  .btn-outline { background: var(--surface); color: var(--text); border: 2px solid var(--border); }
+  .btn-outline:hover { border-color: var(--brand); color: var(--brand); }
+
+  .hero-visual {
+    aspect-ratio: 5/4;
+    background: linear-gradient(135deg, #ede9fe, #fce7f3);
+    border-radius: var(--radius-lg);
+    display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr;
+    gap: 12px; padding: 24px;
+    box-shadow: var(--shadow-lg);
+    position: relative; overflow: hidden;
+  }
+  .hero-visual::after { content: &#39;&#39;; position: absolute; inset: 0; background: radial-gradient(ellipse at top right, rgba(255,255,255,0.4), transparent 60%); pointer-events: none; }
+  .hero-visual &gt; div { background: white; border-radius: 10px; padding: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); font-size: 13px; color: var(--muted); display: flex; flex-direction: column; justify-content: space-between; }
+  .hero-visual strong { color: var(--text); font-size: 18px; display: block; margin-bottom: 4px; }
+  .hero-visual .v1 strong { color: var(--brand); }
+  .hero-visual .v2 strong { color: var(--brand-2); }
+  .hero-visual .v3 strong { color: var(--accent); }
+  .hero-visual .v4 strong { color: #10b981; }
+
+  /* SECTION HEADING */
+  .s-head { text-align: center; max-width: 720px; margin: 0 auto var(--s-7); }
+  .s-head h2 { font-size: clamp(28px, 3.5vw, 44px); margin-bottom: var(--s-3); text-wrap: balance; }
+  .s-head p { color: var(--muted); font-size: clamp(15px, 1.5vw, 18px); text-wrap: pretty; }
+
+  /* FEATURES */
+  .features { padding: var(--s-8) var(--s-6); max-width: 1200px; margin: 0 auto; }
+  .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--s-5); }
+  .feature { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s-6); transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s; }
+  .feature:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: #c4b5fd; }
+  .feature .icon { width: 56px; height: 56px; border-radius: 14px; display: grid; place-items: center; font-weight: 800; font-size: 22px; color: white; margin-bottom: var(--s-4); }
+  .feature:nth-child(1) .icon { background: linear-gradient(135deg, #7c3aed, #ec4899); }
+  .feature:nth-child(2) .icon { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }
+  .feature:nth-child(3) .icon { background: linear-gradient(135deg, #f59e0b, #ef4444); }
+  .feature:nth-child(4) .icon { background: linear-gradient(135deg, #10b981, #06b6d4); }
+  .feature:nth-child(5) .icon { background: linear-gradient(135deg, #8b5cf6, #3b82f6); }
+  .feature:nth-child(6) .icon { background: linear-gradient(135deg, #ec4899, #f43f5e); }
+  .feature h3 { font-size: 20px; margin-bottom: var(--s-2); }
+  .feature p { color: var(--muted); font-size: 14px; line-height: 1.6; }
+
+  /* PRICING */
+  .pricing { padding: var(--s-8) var(--s-6); background: linear-gradient(180deg, var(--bg), white); }
+  .plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: var(--s-5); max-width: 1100px; margin: 0 auto; align-items: center; }
+  .plan { background: var(--surface); border: 2px solid var(--border); border-radius: var(--radius-lg); padding: var(--s-7) var(--s-5); text-align: center; transition: transform 0.3s; }
+  .plan:hover { transform: translateY(-6px); }
+  .plan h3 { font-size: 20px; margin-bottom: var(--s-3); color: var(--muted); letter-spacing: 1px; text-transform: uppercase; }
+  .plan .price { font-size: 52px; font-weight: 800; color: var(--text); margin-bottom: var(--s-2); }
+  .plan .price small { font-size: 16px; color: var(--muted); font-weight: 500; }
+  .plan ul { list-style: none; margin: var(--s-5) 0; text-align: left; }
+  .plan li { padding: 10px 0; color: var(--muted); font-size: 14px; border-bottom: 1px solid var(--border); }
+  .plan li::before { content: &#39;check &#39;; color: #10b981; font-weight: 700; }
+  .plan .btn { width: 100%; justify-content: center; }
+  .plan.popular { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: white; border-color: transparent; transform: scale(1.05); box-shadow: var(--shadow-lg); position: relative; }
+  .plan.popular:hover { transform: scale(1.05) translateY(-4px); }
+  .plan.popular::before { content: &#39;MOST POPULAR&#39;; position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: #0f172a; color: white; padding: 6px 18px; border-radius: 999px; font-size: 11px; letter-spacing: 1.5px; font-weight: 800; }
+  .plan.popular h3, .plan.popular .price, .plan.popular .price small { color: white; }
+  .plan.popular li { color: rgba(255,255,255,0.95); border-bottom-color: rgba(255,255,255,0.2); }
+  .plan.popular li::before { color: #fef08a; }
+  .plan.popular .btn { background: white; color: var(--brand); }
+
+  /* TESTIMONIALS */
+  .testimonials { padding: var(--s-8) var(--s-6); max-width: 1200px; margin: 0 auto; }
+  .t-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--s-5); }
+  .t-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s-6); transition: transform 0.3s, box-shadow 0.3s; position: relative; }
+  .t-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+  .t-card::before { content: &#39;&quot;&#39;; position: absolute; top: 12px; right: 24px; font-size: 80px; line-height: 1; color: #ede9fe; font-family: Georgia, serif; }
+  .t-card p { color: var(--text); font-size: 15px; line-height: 1.7; margin-bottom: var(--s-5); position: relative; }
+  .t-user { display: flex; align-items: center; gap: 12px; }
+  .avatar { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; color: white; font-weight: 700; font-size: 18px; }
+  .a1 { background: linear-gradient(135deg, #7c3aed, #ec4899); }
+  .a2 { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }
+  .a3 { background: linear-gradient(135deg, #f59e0b, #ef4444); }
+  .t-user strong { display: block; font-size: 14px; }
+  .t-user span { color: var(--muted); font-size: 13px; }
+
+  /* FAQ */
+  .faq { padding: var(--s-8) var(--s-6); max-width: 760px; margin: 0 auto; }
+  .faq details { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: var(--s-4) var(--s-5); margin-bottom: var(--s-3); transition: box-shadow 0.2s, border-color 0.2s; }
+  .faq details:hover { border-color: #c4b5fd; }
+  .faq details[open] { border-color: var(--brand); box-shadow: 0 8px 22px rgba(124,58,237,0.1); }
+  .faq summary { cursor: pointer; font-weight: 700; color: var(--text); font-size: 16px; list-style: none; position: relative; padding-right: 32px; }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after { content: &#39;+&#39;; position: absolute; right: 0; top: 50%; transform: translateY(-50%); color: var(--brand); font-size: 24px; font-weight: 300; transition: transform 0.2s; }
+  .faq details[open] summary::after { content: &#39;-&#39;; transform: translateY(-50%) rotate(180deg); }
+  .faq details[open] summary { color: var(--brand); }
+  .faq p { margin-top: 12px; color: var(--muted); font-size: 15px; line-height: 1.6; }
+
+  /* FOOTER */
+  .footer { background: #0f172a; color: #cbd5e1; padding: var(--s-8) var(--s-6) var(--s-5); margin-top: var(--s-8); }
+  .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: var(--s-6); max-width: 1200px; margin: 0 auto; }
+  .footer .brand { color: white; font-size: 22px; font-weight: 800; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+  .footer .brand::before { content: &#39;&#39;; width: 28px; height: 28px; background: linear-gradient(135deg, var(--brand), var(--brand-2)); border-radius: 8px; }
+  .footer p { color: #94a3b8; font-size: 14px; line-height: 1.6; max-width: 280px; }
+  .footer h4 { color: white; margin-bottom: 12px; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; }
+  .footer ul { list-style: none; }
+  .footer li { padding: 6px 0; }
+  .footer a { color: #94a3b8; font-size: 14px; transition: color 0.2s; }
+  .footer a:hover { color: var(--brand-2); }
+  .footer .bar { border-top: 1px solid #1e293b; margin-top: var(--s-7); padding-top: var(--s-5); text-align: center; color: #64748b; font-size: 13px; }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .hero { grid-template-columns: 1fr; text-align: center; }
+    .hero p { margin-left: auto; margin-right: auto; }
+    .hero-ctas { justify-content: center; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 600px) {
+    .nav .links { display: none; }
+    .footer-grid { grid-template-columns: 1fr; }
+    .plan.popular { transform: none; }
+    .plan.popular:hover { transform: translateY(-4px); }
+  }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;!-- NAV --&gt;
+  &lt;header class=&quot;nav&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;brand&quot;&gt;SkyPanel&lt;/a&gt;
+    &lt;nav class=&quot;links&quot;&gt;
+      &lt;a href=&quot;#features&quot;&gt;Features&lt;/a&gt;
+      &lt;a href=&quot;#pricing&quot;&gt;Pricing&lt;/a&gt;
+      &lt;a href=&quot;#testimonials&quot;&gt;Reviews&lt;/a&gt;
+      &lt;a href=&quot;#faq&quot;&gt;FAQ&lt;/a&gt;
+    &lt;/nav&gt;
+    &lt;a href=&quot;#&quot; class=&quot;cta&quot;&gt;Start Free&lt;/a&gt;
+  &lt;/header&gt;
+
+  &lt;main&gt;
+    &lt;!-- HERO --&gt;
+    &lt;section class=&quot;hero&quot;&gt;
+      &lt;div&gt;
+        &lt;span class=&quot;eyebrow&quot;&gt;NEW IN 2026&lt;/span&gt;
+        &lt;h1&gt;The Dashboard &lt;span class=&quot;gradient&quot;&gt;Built for Teams&lt;/span&gt; That Ship&lt;/h1&gt;
+        &lt;p&gt;SkyPanel gives your team a single place to track every metric, sprint, and customer. Built by Aarav, Priya, and Rohan for developers who value clarity over clutter.&lt;/p&gt;
+        &lt;div class=&quot;hero-ctas&quot;&gt;
+          &lt;a href=&quot;#pricing&quot; class=&quot;btn btn-primary&quot;&gt;Start Free Trial&lt;/a&gt;
+          &lt;a href=&quot;#features&quot; class=&quot;btn btn-outline&quot;&gt;See How It Works&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;hero-visual&quot;&gt;
+        &lt;div class=&quot;v1&quot;&gt;&lt;strong&gt;1,284&lt;/strong&gt; Active users&lt;/div&gt;
+        &lt;div class=&quot;v2&quot;&gt;&lt;strong&gt;+23%&lt;/strong&gt; Growth&lt;/div&gt;
+        &lt;div class=&quot;v3&quot;&gt;&lt;strong&gt;98%&lt;/strong&gt; Uptime&lt;/div&gt;
+        &lt;div class=&quot;v4&quot;&gt;&lt;strong&gt;4.9/5&lt;/strong&gt; Rating&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;!-- FEATURES --&gt;
+    &lt;section class=&quot;features&quot; id=&quot;features&quot;&gt;
+      &lt;div class=&quot;s-head&quot;&gt;
+        &lt;h2&gt;Everything You Need. Nothing You Do Not.&lt;/h2&gt;
+        &lt;p&gt;Six features that replace ten tools. Your team finally gets to focus on shipping instead of switching tabs.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;features-grid&quot;&gt;
+        &lt;div class=&quot;feature&quot;&gt;&lt;div class=&quot;icon&quot;&gt;S&lt;/div&gt;&lt;h3&gt;Smart Search&lt;/h3&gt;&lt;p&gt;Find anything across every project in milliseconds with full-text and semantic search.&lt;/p&gt;&lt;/div&gt;
+        &lt;div class=&quot;feature&quot;&gt;&lt;div class=&quot;icon&quot;&gt;L&lt;/div&gt;&lt;h3&gt;Live Metrics&lt;/h3&gt;&lt;p&gt;Real-time dashboards update the moment your data changes. No refresh button in sight.&lt;/p&gt;&lt;/div&gt;
+        &lt;div class=&quot;feature&quot;&gt;&lt;div class=&quot;icon&quot;&gt;C&lt;/div&gt;&lt;h3&gt;Collaboration&lt;/h3&gt;&lt;p&gt;Comments, mentions, and shared views keep Priya, Rohan, and Ishita on the same page.&lt;/p&gt;&lt;/div&gt;
+        &lt;div class=&quot;feature&quot;&gt;&lt;div class=&quot;icon&quot;&gt;A&lt;/div&gt;&lt;h3&gt;AI Insights&lt;/h3&gt;&lt;p&gt;Our model summarizes your weekly metrics and suggests next steps in plain English.&lt;/p&gt;&lt;/div&gt;
+        &lt;div class=&quot;feature&quot;&gt;&lt;div class=&quot;icon&quot;&gt;P&lt;/div&gt;&lt;h3&gt;Privacy First&lt;/h3&gt;&lt;p&gt;End-to-end encryption for every project. Your data never leaves your region.&lt;/p&gt;&lt;/div&gt;
+        &lt;div class=&quot;feature&quot;&gt;&lt;div class=&quot;icon&quot;&gt;I&lt;/div&gt;&lt;h3&gt;Integrations&lt;/h3&gt;&lt;p&gt;Connect with 80+ tools including GitHub, Slack, Notion, Linear, and Figma.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;!-- PRICING --&gt;
+    &lt;section class=&quot;pricing&quot; id=&quot;pricing&quot;&gt;
+      &lt;div class=&quot;s-head&quot;&gt;
+        &lt;h2&gt;Simple Pricing, No Surprises&lt;/h2&gt;
+        &lt;p&gt;Start free, upgrade when your team grows. Cancel anytime, no questions asked.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;plans&quot;&gt;
+        &lt;div class=&quot;plan&quot;&gt;
+          &lt;h3&gt;Starter&lt;/h3&gt;
+          &lt;div class=&quot;price&quot;&gt;Rs 0&lt;small&gt;/month&lt;/small&gt;&lt;/div&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Up to 3 team members&lt;/li&gt;
+            &lt;li&gt;5 projects&lt;/li&gt;
+            &lt;li&gt;Community support&lt;/li&gt;
+            &lt;li&gt;Basic integrations&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;button class=&quot;btn btn-outline&quot;&gt;Get Started&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;plan popular&quot;&gt;
+          &lt;h3&gt;Pro&lt;/h3&gt;
+          &lt;div class=&quot;price&quot;&gt;Rs 999&lt;small&gt;/month&lt;/small&gt;&lt;/div&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Up to 25 team members&lt;/li&gt;
+            &lt;li&gt;Unlimited projects&lt;/li&gt;
+            &lt;li&gt;Priority support&lt;/li&gt;
+            &lt;li&gt;AI insights included&lt;/li&gt;
+            &lt;li&gt;Custom dashboards&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;button class=&quot;btn btn-primary&quot;&gt;Start Free Trial&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;plan&quot;&gt;
+          &lt;h3&gt;Team&lt;/h3&gt;
+          &lt;div class=&quot;price&quot;&gt;Rs 2,499&lt;small&gt;/month&lt;/small&gt;&lt;/div&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Unlimited members&lt;/li&gt;
+            &lt;li&gt;Unlimited projects&lt;/li&gt;
+            &lt;li&gt;Dedicated manager&lt;/li&gt;
+            &lt;li&gt;SSO and audit logs&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;button class=&quot;btn btn-outline&quot;&gt;Contact Sales&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;!-- TESTIMONIALS --&gt;
+    &lt;section class=&quot;testimonials&quot; id=&quot;testimonials&quot;&gt;
+      &lt;div class=&quot;s-head&quot;&gt;
+        &lt;h2&gt;Loved by Teams That Ship&lt;/h2&gt;
+        &lt;p&gt;Real stories from real builders who replaced five tools with SkyPanel.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;t-grid&quot;&gt;
+        &lt;div class=&quot;t-card&quot;&gt;
+          &lt;p&gt;SkyPanel replaced three of our internal dashboards. Our weekly review meeting went from 45 minutes to 12. Every founder should try it.&lt;/p&gt;
+          &lt;div class=&quot;t-user&quot;&gt;&lt;div class=&quot;avatar a1&quot;&gt;AK&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Aarav Kulkarni&lt;/strong&gt;&lt;span&gt;CEO, Bhasha Tools&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;t-card&quot;&gt;
+          &lt;p&gt;The AI summaries are scary good. It highlighted a bug trend I would have missed for another week. Worth every rupee just for that.&lt;/p&gt;
+          &lt;div class=&quot;t-user&quot;&gt;&lt;div class=&quot;avatar a2&quot;&gt;PS&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Priya Sharma&lt;/strong&gt;&lt;span&gt;Lead Engineer, Kalpana AI&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;t-card&quot;&gt;
+          &lt;p&gt;My whole team switched from four different tools to SkyPanel in a single afternoon. The onboarding was effortless and the design feels great.&lt;/p&gt;
+          &lt;div class=&quot;t-user&quot;&gt;&lt;div class=&quot;avatar a3&quot;&gt;IR&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Ishita Rao&lt;/strong&gt;&lt;span&gt;Product Manager, Trishul Labs&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;!-- FAQ --&gt;
+    &lt;section class=&quot;faq&quot; id=&quot;faq&quot;&gt;
+      &lt;div class=&quot;s-head&quot;&gt;
+        &lt;h2&gt;Frequently Asked Questions&lt;/h2&gt;
+        &lt;p&gt;Still have questions? Contact us at hello@skypanel.example.com.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;details open&gt;
+        &lt;summary&gt;Can I start for free?&lt;/summary&gt;
+        &lt;p&gt;Yes. The Starter plan is completely free forever, no credit card required. It includes 3 team members, 5 projects, and access to all core features.&lt;/p&gt;
+      &lt;/details&gt;
+      &lt;details&gt;
+        &lt;summary&gt;How do I upgrade from Starter to Pro?&lt;/summary&gt;
+        &lt;p&gt;Click the &#39;Upgrade&#39; button in your account settings. Your projects and team members transfer automatically. You are charged per month, pro-rated to your upgrade date.&lt;/p&gt;
+      &lt;/details&gt;
+      &lt;details&gt;
+        &lt;summary&gt;Is my data secure?&lt;/summary&gt;
+        &lt;p&gt;Absolutely. All data is encrypted end-to-end with AES-256. We are SOC 2 Type II certified and comply with the Indian DPDP Act. Your data never leaves your selected region.&lt;/p&gt;
+      &lt;/details&gt;
+      &lt;details&gt;
+        &lt;summary&gt;Do you support students or open source projects?&lt;/summary&gt;
+        &lt;p&gt;Yes! Students get the Pro plan free with a verified .edu email. Open source projects get unlimited team members on the Team plan at no cost. Apply on our Support page.&lt;/p&gt;
+      &lt;/details&gt;
+    &lt;/section&gt;
+  &lt;/main&gt;
+
+  &lt;!-- FOOTER --&gt;
+  &lt;footer class=&quot;footer&quot;&gt;
+    &lt;div class=&quot;footer-grid&quot;&gt;
+      &lt;div&gt;
+        &lt;div class=&quot;brand&quot;&gt;SkyPanel&lt;/div&gt;
+        &lt;p&gt;The dashboard for teams that ship. Built with care in India for the world.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h4&gt;Product&lt;/h4&gt;
+        &lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Features&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Pricing&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Roadmap&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h4&gt;Company&lt;/h4&gt;
+        &lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Careers&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h4&gt;Legal&lt;/h4&gt;
+        &lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Privacy&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Terms&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Security&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;bar&quot;&gt;Built by Aarav, Priya, Rohan, Ishita, and Kavya. 2026 SkyPanel Inc.&lt;/div&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This is the complete landing page in a single file. It uses CSS variables for theming, clamp() for fluid typography, grid for layout, flexbox for the nav, :hover for interactive cards, ::before for the 'MOST POPULAR' badge and quote marks, and the native &lt;details&gt; element for the FAQ. Zero JavaScript, zero frameworks, zero libraries.</div><div class="code-example-output">A polished, responsive SaaS landing page with sticky navbar, hero with gradient text and visual, 6 feature cards in a grid, 3 pricing tiers with the middle one highlighted, 3 testimonial cards, expandable FAQ accordion, and multi-column footer. Everything is responsive from phone to desktop.</div></div>
+<div class="code-example"><div class="code-example-title">Just the Hero Section (Standalone)</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  :root { --brand: #7c3aed; --brand-2: #ec4899; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #fafaf9; }
+  .hero { display: grid; grid-template-columns: 1.1fr 1fr; gap: 48px; align-items: center; padding: 96px 32px; max-width: 1200px; margin: 0 auto; }
+  .eyebrow { display: inline-block; background: #ede9fe; color: var(--brand); padding: 6px 14px; border-radius: 999px; font-size: 13px; font-weight: 700; letter-spacing: 1px; margin-bottom: 16px; }
+  h1 { font-size: clamp(36px, 5vw, 64px); line-height: 1.05; text-wrap: balance; letter-spacing: -1px; margin-bottom: 16px; }
+  .gradient { background: linear-gradient(135deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  .sub { color: #64748b; font-size: 19px; max-width: 500px; margin-bottom: 32px; text-wrap: pretty; line-height: 1.6; }
+  .ctas { display: flex; gap: 12px; flex-wrap: wrap; }
+  .btn { padding: 14px 26px; border-radius: 12px; font-weight: 700; font-size: 15px; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s; }
+  .btn-primary { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: white; box-shadow: 0 12px 30px rgba(124,58,237,0.35); }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 18px 40px rgba(124,58,237,0.45); }
+  .btn-outline { background: white; color: #0f172a; border: 2px solid #e2e8f0; }
+  .btn-outline:hover { border-color: var(--brand); color: var(--brand); }
+  .visual { aspect-ratio: 5/4; background: linear-gradient(135deg, #ede9fe, #fce7f3); border-radius: 22px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 12px; padding: 24px; box-shadow: 0 25px 60px rgba(124,58,237,0.25); }
+  .visual &gt; div { background: white; border-radius: 10px; padding: 14px; font-size: 13px; color: #64748b; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+  .visual strong { font-size: 20px; color: #0f172a; display: block; margin-bottom: 4px; }
+  @media (max-width: 900px) { .hero { grid-template-columns: 1fr; text-align: center; } .sub { margin-left: auto; margin-right: auto; } .ctas { justify-content: center; } }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;section class=&quot;hero&quot;&gt;
+    &lt;div&gt;
+      &lt;span class=&quot;eyebrow&quot;&gt;NEW IN 2026&lt;/span&gt;
+      &lt;h1&gt;The Dashboard &lt;span class=&quot;gradient&quot;&gt;Built for Teams&lt;/span&gt; That Ship&lt;/h1&gt;
+      &lt;p class=&quot;sub&quot;&gt;SkyPanel gives your team a single place to track every metric, sprint, and customer.&lt;/p&gt;
+      &lt;div class=&quot;ctas&quot;&gt;
+        &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;Start Free Trial&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;btn btn-outline&quot;&gt;See It in Action&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;visual&quot;&gt;
+      &lt;div&gt;&lt;strong&gt;1,284&lt;/strong&gt; Active users&lt;/div&gt;
+      &lt;div&gt;&lt;strong&gt;+23%&lt;/strong&gt; Growth&lt;/div&gt;
+      &lt;div&gt;&lt;strong&gt;98%&lt;/strong&gt; Uptime&lt;/div&gt;
+      &lt;div&gt;&lt;strong&gt;4.9/5&lt;/strong&gt; Rating&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A standalone hero section that you can drop into any project. Grid layout for two columns, clamp() for the fluid headline, gradient text with <code>-webkit-background-clip</code>, and a visual mockup built with nested grids. Responsive — collapses to one column on screens narrower than 900px.</div><div class="code-example-output">A two-column hero with a huge headline containing a gradient-colored phrase, a supporting paragraph, two CTA buttons, and a 2x2 stats visual on the right.</div></div>
+<div class="code-example"><div class="code-example-title">Just the Pricing Section (Standalone)</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  :root { --brand: #7c3aed; --brand-2: #ec4899; --border: #e2e8f0; --text: #0f172a; --muted: #64748b; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: &#39;Segoe UI&#39;, sans-serif; background: linear-gradient(180deg, #fafaf9, white); padding: 80px 24px; }
+  .s-head { text-align: center; max-width: 600px; margin: 0 auto 56px; }
+  .s-head h2 { font-size: clamp(28px, 3.5vw, 44px); margin-bottom: 10px; color: var(--text); }
+  .s-head p { color: var(--muted); }
+  .plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 24px; max-width: 1100px; margin: 0 auto; align-items: center; }
+  .plan { background: white; border: 2px solid var(--border); border-radius: 22px; padding: 48px 24px; text-align: center; transition: transform 0.3s; }
+  .plan:hover { transform: translateY(-6px); }
+  .plan h3 { font-size: 20px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 12px; }
+  .plan .price { font-size: 52px; font-weight: 800; color: var(--text); }
+  .plan .price small { font-size: 16px; color: var(--muted); font-weight: 500; }
+  .plan ul { list-style: none; margin: 24px 0; text-align: left; }
+  .plan li { padding: 10px 0; color: var(--muted); font-size: 14px; border-bottom: 1px solid var(--border); }
+  .plan li::before { content: &#39;+ &#39;; color: #10b981; font-weight: 700; }
+  .plan button { width: 100%; padding: 14px; border-radius: 12px; font-weight: 700; cursor: pointer; border: 2px solid var(--border); background: white; color: var(--text); transition: all 0.2s; }
+  .plan button:hover { border-color: var(--brand); color: var(--brand); }
+  .plan.popular { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: white; border: none; transform: scale(1.05); box-shadow: 0 25px 60px rgba(124,58,237,0.25); position: relative; }
+  .plan.popular::before { content: &#39;MOST POPULAR&#39;; position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: #0f172a; color: white; padding: 6px 18px; border-radius: 999px; font-size: 11px; letter-spacing: 1.5px; font-weight: 800; }
+  .plan.popular h3, .plan.popular .price, .plan.popular .price small { color: white; }
+  .plan.popular li { color: rgba(255,255,255,0.95); border-bottom-color: rgba(255,255,255,0.25); }
+  .plan.popular li::before { color: #fef08a; }
+  .plan.popular button { background: white; color: var(--brand); border: none; }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;s-head&quot;&gt;
+    &lt;h2&gt;Simple Pricing, No Surprises&lt;/h2&gt;
+    &lt;p&gt;Start free, upgrade as you grow. Cancel anytime.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;plans&quot;&gt;
+    &lt;div class=&quot;plan&quot;&gt;&lt;h3&gt;Starter&lt;/h3&gt;&lt;div class=&quot;price&quot;&gt;Rs 0&lt;small&gt;/mo&lt;/small&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;3 team members&lt;/li&gt;&lt;li&gt;5 projects&lt;/li&gt;&lt;li&gt;Community support&lt;/li&gt;&lt;/ul&gt;&lt;button&gt;Get Started&lt;/button&gt;&lt;/div&gt;
+    &lt;div class=&quot;plan popular&quot;&gt;&lt;h3&gt;Pro&lt;/h3&gt;&lt;div class=&quot;price&quot;&gt;Rs 999&lt;small&gt;/mo&lt;/small&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;25 team members&lt;/li&gt;&lt;li&gt;Unlimited projects&lt;/li&gt;&lt;li&gt;Priority support&lt;/li&gt;&lt;li&gt;AI insights&lt;/li&gt;&lt;/ul&gt;&lt;button&gt;Start Trial&lt;/button&gt;&lt;/div&gt;
+    &lt;div class=&quot;plan&quot;&gt;&lt;h3&gt;Team&lt;/h3&gt;&lt;div class=&quot;price&quot;&gt;Rs 2,499&lt;small&gt;/mo&lt;/small&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Unlimited members&lt;/li&gt;&lt;li&gt;Unlimited projects&lt;/li&gt;&lt;li&gt;Dedicated manager&lt;/li&gt;&lt;/ul&gt;&lt;button&gt;Contact Sales&lt;/button&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The pricing section as a standalone piece. Three plans in a responsive grid. The middle plan uses <code>.popular</code> which adds a gradient background, scales up with <code>transform</code>, and adds a 'MOST POPULAR' ribbon via <code>::before</code>. Drop this into any project.</div><div class="code-example-output">Three pricing cards. The middle one is slightly larger, has a purple-to-pink gradient background, a &#39;MOST POPULAR&#39; ribbon on top, and a white button — clearly drawing the eye to the recommended plan.</div></div>
+<div class="code-example"><div class="code-example-title">FAQ Accordion with Pure CSS</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  :root { --brand: #7c3aed; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #f8fafc; padding: 60px 24px; }
+  .faq { max-width: 720px; margin: 0 auto; }
+  h2 { text-align: center; color: #0f172a; margin-bottom: 32px; font-size: 32px; }
+  details {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 18px 24px;
+    margin-bottom: 12px;
+    transition: box-shadow 0.2s, border-color 0.2s;
+  }
+  details:hover { border-color: #c4b5fd; }
+  details[open] {
+    border-color: var(--brand);
+    box-shadow: 0 8px 22px rgba(124,58,237,0.12);
+  }
+  summary {
+    cursor: pointer;
+    font-weight: 700;
+    color: #0f172a;
+    font-size: 16px;
+    list-style: none;
+    position: relative;
+    padding-right: 36px;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after {
+    content: &#39;+&#39;;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--brand);
+    font-size: 26px;
+    font-weight: 300;
+    transition: transform 0.3s;
+  }
+  details[open] summary::after {
+    content: &#39;-&#39;;
+    transform: translateY(-50%) rotate(180deg);
+  }
+  details[open] summary { color: var(--brand); }
+  details p {
+    margin-top: 12px;
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;section class=&quot;faq&quot;&gt;
+    &lt;h2&gt;Frequently Asked Questions&lt;/h2&gt;
+    &lt;details open&gt;
+      &lt;summary&gt;Can I start for free?&lt;/summary&gt;
+      &lt;p&gt;Yes! The Starter plan is free forever. No credit card needed. Includes 3 team members and 5 projects.&lt;/p&gt;
+    &lt;/details&gt;
+    &lt;details&gt;
+      &lt;summary&gt;How do I upgrade?&lt;/summary&gt;
+      &lt;p&gt;Click the upgrade button in settings. Your projects and team carry over automatically.&lt;/p&gt;
+    &lt;/details&gt;
+    &lt;details&gt;
+      &lt;summary&gt;Is my data secure?&lt;/summary&gt;
+      &lt;p&gt;Yes. End-to-end encryption with AES-256. Your data never leaves your selected region.&lt;/p&gt;
+    &lt;/details&gt;
+    &lt;details&gt;
+      &lt;summary&gt;Do you offer student discounts?&lt;/summary&gt;
+      &lt;p&gt;Students get Pro free with a verified .edu email. Open source projects get unlimited team members.&lt;/p&gt;
+    &lt;/details&gt;
+  &lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">An accordion made with the native HTML <code>&lt;details&gt;</code> element. Zero JavaScript. The open/close state is handled by the browser. CSS styles the <code>[open]</code> attribute selector and uses <code>::after</code> to show a plus/minus icon that flips when the section is open.</div><div class="code-example-output">A clean FAQ list. Each question can be clicked to expand. A purple plus becomes a minus when open, the border turns purple, and a subtle shadow appears.</div></div>
+<div class="code-example"><div class="code-example-title">Feature Cards Grid (Reusable Section)</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #f8fafc; padding: 80px 24px; }
+  .s-head { text-align: center; max-width: 600px; margin: 0 auto 48px; }
+  .s-head h2 { font-size: clamp(28px, 3.5vw, 42px); color: #0f172a; margin-bottom: 10px; text-wrap: balance; }
+  .s-head p { color: #64748b; font-size: 17px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; max-width: 1100px; margin: 0 auto; }
+  .feature { background: white; border: 1px solid #e2e8f0; border-radius: 16px; padding: 32px; transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s; }
+  .feature:hover { transform: translateY(-6px); box-shadow: 0 16px 40px rgba(0,0,0,0.08); border-color: #c4b5fd; }
+  .feature .icon { width: 56px; height: 56px; border-radius: 14px; display: grid; place-items: center; font-weight: 800; font-size: 22px; color: white; margin-bottom: 20px; }
+  .feature:nth-child(1) .icon { background: linear-gradient(135deg, #7c3aed, #ec4899); }
+  .feature:nth-child(2) .icon { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }
+  .feature:nth-child(3) .icon { background: linear-gradient(135deg, #f59e0b, #ef4444); }
+  .feature:nth-child(4) .icon { background: linear-gradient(135deg, #10b981, #06b6d4); }
+  .feature:nth-child(5) .icon { background: linear-gradient(135deg, #8b5cf6, #3b82f6); }
+  .feature:nth-child(6) .icon { background: linear-gradient(135deg, #ec4899, #f43f5e); }
+  .feature h3 { font-size: 20px; margin-bottom: 8px; color: #0f172a; }
+  .feature p { color: #64748b; font-size: 14px; line-height: 1.6; }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;s-head&quot;&gt;
+    &lt;h2&gt;Everything You Need, Nothing You Do Not&lt;/h2&gt;
+    &lt;p&gt;Six features that replace ten tools.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;feature&quot;&gt;&lt;div class=&quot;icon&quot;&gt;S&lt;/div&gt;&lt;h3&gt;Smart Search&lt;/h3&gt;&lt;p&gt;Find anything across every project in milliseconds.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;feature&quot;&gt;&lt;div class=&quot;icon&quot;&gt;L&lt;/div&gt;&lt;h3&gt;Live Metrics&lt;/h3&gt;&lt;p&gt;Real-time dashboards update the instant data changes.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;feature&quot;&gt;&lt;div class=&quot;icon&quot;&gt;C&lt;/div&gt;&lt;h3&gt;Collaboration&lt;/h3&gt;&lt;p&gt;Comments and mentions keep everyone on the same page.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;feature&quot;&gt;&lt;div class=&quot;icon&quot;&gt;A&lt;/div&gt;&lt;h3&gt;AI Insights&lt;/h3&gt;&lt;p&gt;Weekly summaries and smart suggestions in plain English.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;feature&quot;&gt;&lt;div class=&quot;icon&quot;&gt;P&lt;/div&gt;&lt;h3&gt;Privacy First&lt;/h3&gt;&lt;p&gt;End-to-end encryption and regional data residency.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;feature&quot;&gt;&lt;div class=&quot;icon&quot;&gt;I&lt;/div&gt;&lt;h3&gt;Integrations&lt;/h3&gt;&lt;p&gt;Connect with 80+ tools including GitHub, Slack, and Notion.&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A reusable feature grid that auto-fits 3 columns on desktop, 2 on tablet, and 1 on mobile via <code>repeat(auto-fit, minmax(260px, 1fr))</code>. Each card has a colorful gradient icon using <code>:nth-child</code> so you do not need per-card classes.</div><div class="code-example-output">A 3-column feature grid (on desktop) with 6 cards. Each card has a unique gradient icon, title, and description. Cards lift and border purples on hover.</div></div>
+<div class="code-example"><div class="code-example-title">Testimonials Row with Avatar Quotes</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #f8fafc; padding: 80px 24px; }
+  .s-head { text-align: center; max-width: 600px; margin: 0 auto 48px; }
+  .s-head h2 { font-size: clamp(28px, 3.5vw, 42px); color: #0f172a; margin-bottom: 10px; text-wrap: balance; }
+  .s-head p { color: #64748b; font-size: 17px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 24px; max-width: 1100px; margin: 0 auto; }
+  .card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 28px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+  }
+  .card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.08); }
+  .card::before {
+    content: &#39;&quot;&#39;;
+    position: absolute;
+    top: 8px;
+    right: 24px;
+    font-size: 88px;
+    line-height: 1;
+    color: #ede9fe;
+    font-family: Georgia, serif;
+  }
+  .card p { color: #0f172a; font-size: 15px; line-height: 1.7; margin-bottom: 20px; position: relative; }
+  .user { display: flex; align-items: center; gap: 12px; }
+  .avatar { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; color: white; font-weight: 700; font-size: 18px; }
+  .a1 { background: linear-gradient(135deg, #7c3aed, #ec4899); }
+  .a2 { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }
+  .a3 { background: linear-gradient(135deg, #f59e0b, #ef4444); }
+  .user strong { display: block; color: #0f172a; font-size: 14px; }
+  .user span { color: #64748b; font-size: 13px; }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;s-head&quot;&gt;
+    &lt;h2&gt;Loved by Teams That Ship&lt;/h2&gt;
+    &lt;p&gt;Real stories from real builders.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;p&gt;SkyPanel replaced three dashboards. Our weekly review dropped from 45 minutes to 12. It is that good.&lt;/p&gt;
+      &lt;div class=&quot;user&quot;&gt;&lt;div class=&quot;avatar a1&quot;&gt;AK&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Aarav Kulkarni&lt;/strong&gt;&lt;span&gt;CEO, Bhasha Tools&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;p&gt;The AI summaries are scary good. It caught a bug trend I would have missed all week. Worth every rupee.&lt;/p&gt;
+      &lt;div class=&quot;user&quot;&gt;&lt;div class=&quot;avatar a2&quot;&gt;PS&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Priya Sharma&lt;/strong&gt;&lt;span&gt;Lead Engineer, Kalpana AI&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;p&gt;My whole team switched from four tools in one afternoon. The onboarding was effortless.&lt;/p&gt;
+      &lt;div class=&quot;user&quot;&gt;&lt;div class=&quot;avatar a3&quot;&gt;IR&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Ishita Rao&lt;/strong&gt;&lt;span&gt;PM, Trishul Labs&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Three testimonial cards. Each uses <code>::before</code> to render a giant decorative quote mark in the background. Avatars are built with CSS gradients and initials — no images needed. The grid uses auto-fit to wrap responsively.</div><div class="code-example-output">Three cards with quotes from Aarav, Priya, and Ishita. Each has a big pale purple quote mark in the background and a colorful circular avatar with initials.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Fixed Width Hero That Overflows on Mobile</h3>
+                <div class="wrong-code"><pre><code class="language-python">.hero { width: 1200px; padding: 64px 200px; }</code></pre></div><div class="error-message">On a 400px phone, the hero is 1200px wide — users scroll horizontally and miss the CTAs. Fixed widths never work for responsive design.</div><div class="correct-code"><pre><code class="language-python">.hero { max-width: 1200px; padding: clamp(32px, 8vw, 96px) clamp(16px, 5vw, 64px); margin: 0 auto; }</code></pre></div><div class="mistake-explanation">Use <code>max-width</code> instead of <code>width</code> so the element shrinks to fit narrow screens. Use <code>clamp()</code> for padding so it scales with the viewport. Center with <code>margin: 0 auto</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Breaking the Grid on Narrow Screens</h3>
+                <div class="wrong-code"><pre><code class="language-python">.features { display: grid; grid-template-columns: repeat(3, 1fr); }</code></pre></div><div class="error-message">On a phone, 3 columns squeeze everything into thin unusable strips. Fixed column counts ignore the viewport.</div><div class="correct-code"><pre><code class="language-python">.features { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }</code></pre></div><div class="mistake-explanation"><code>repeat(auto-fit, minmax(260px, 1fr))</code> is the magic line: it creates as many columns as fit, where each is at least 260px wide. One column on phones, two on tablets, three on desktops, all without media queries.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting box-sizing: border-box</h3>
+                <div class="wrong-code"><pre><code class="language-python">/* No * { box-sizing: border-box } */
+.card { width: 100%; padding: 24px; border: 2px solid #eee; }
+/* Card overflows its parent by the padding and border amount */</code></pre></div><div class="error-message">Without &lt;code&gt;border-box&lt;/code&gt;, the card&#39;s width is 100% of its parent PLUS the padding and border, overflowing to the right and breaking layouts.</div><div class="correct-code"><pre><code class="language-python">* { box-sizing: border-box; margin: 0; padding: 0; }
+.card { width: 100%; padding: 24px; border: 2px solid #eee; }</code></pre></div><div class="mistake-explanation">Always start every project with <code>* { box-sizing: border-box; margin: 0; padding: 0; }</code>. <code>border-box</code> makes padding and border part of the declared width, which is how humans think about sizes.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Hardcoded Colors Instead of Variables</h3>
+                <div class="wrong-code"><pre><code class="language-python">.btn { background: #7c3aed; }
+.header { background: #7c3aed; }
+.link:hover { color: #7c3aed; }
+/* Change the brand? You have to find and replace all 30 usages */</code></pre></div><div class="error-message">Using the same hex code in 20 places means changing your brand color requires hunting through the whole file.</div><div class="correct-code"><pre><code class="language-python">:root { --brand: #7c3aed; }
+.btn { background: var(--brand); }
+.header { background: var(--brand); }
+.link:hover { color: var(--brand); }</code></pre></div><div class="mistake-explanation">Define every important color as a CSS variable at the top of your stylesheet. Changing the brand color becomes a one-line edit, and your design stays consistent automatically.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Start every landing page with a CSS reset (&lt;code&gt;* { box-sizing: border-box; margin: 0; padding: 0; }&lt;/code&gt;) and a set of CSS variables for colors, spacing, type, radius, and shadows.</li>
+<li>Use semantic HTML: &lt;code&gt;&amp;lt;header&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;main&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;footer&amp;gt;&lt;/code&gt;. Each section should have a clear role for accessibility and SEO.</li>
+<li>The navbar is a flexbox with &lt;code&gt;justify-content: space-between&lt;/code&gt;: logo on the left, links in the middle, CTA on the right.</li>
+<li>Hero sections are grids. Use &lt;code&gt;grid-template-columns: 1.1fr 1fr&lt;/code&gt; for a two-column hero (text + visual), collapsing to one column on mobile with a media query or container query.</li>
+<li>&lt;code&gt;clamp(min, preferred, max)&lt;/code&gt; for fluid typography — your headlines stay readable at every screen size without any breakpoints.</li>
+<li>Feature grids use &lt;code&gt;repeat(auto-fit, minmax(260px, 1fr))&lt;/code&gt; — the magic line that wraps responsively from 1 to 4 columns with zero media queries.</li>
+<li>For pricing, mark the recommended plan with a &lt;code&gt;.popular&lt;/code&gt; class. Use &lt;code&gt;transform: scale(1.05)&lt;/code&gt;, a gradient background, a bigger shadow, and a &#39;MOST POPULAR&#39; ribbon via &lt;code&gt;::before&lt;/code&gt;.</li>
+<li>Build the FAQ with native &lt;code&gt;&amp;lt;details&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;summary&amp;gt;&lt;/code&gt; — zero JavaScript. Style the &lt;code&gt;[open]&lt;/code&gt; state and use &lt;code&gt;::after&lt;/code&gt; for a plus/minus icon.</li>
+<li>Testimonials are quote cards with a gradient avatar (CSS only, no images needed) and initials. Use &lt;code&gt;::before&lt;/code&gt; to render a giant background quote mark.</li>
+<li>Footers are grids of link columns. Usually 2fr 1fr 1fr 1fr on desktop, collapsing to 1fr or 1fr 1fr on mobile.</li>
+<li>Use &lt;code&gt;backdrop-filter: blur()&lt;/code&gt; plus a semi-transparent background for a modern &#39;frosted glass&#39; sticky navbar.</li>
+<li>Make every interactive element show hover feedback with &lt;code&gt;transform: translateY(-2px)&lt;/code&gt; and a bigger shadow. Small details separate an amateur page from a polished one.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/css-grid-complete-guide" class="related-topic-link">CSS Grid - The Complete Guide</a>
+<a href="/resources/html-and-css/flexbox-complete-guide" class="related-topic-link">Flexbox - The Complete Guide</a>
+<a href="/resources/html-and-css/css-variables-and-theming" class="related-topic-link">CSS Variables and Theming (Dark Mode)</a>
+<a href="/resources/html-and-css/project-animated-portfolio-website" class="related-topic-link">Project: Build an Animated Portfolio Website</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/modern-css-features" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Modern CSS - Container Queries, Subgrid, clamp(), has() Selector</span>
+        </a>
+            <a href="/resources/html-and-css/project-animated-portfolio-website" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Project: Build an Animated Portfolio Website</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/project-build-a-landing-page/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

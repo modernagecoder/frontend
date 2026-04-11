@@ -1,0 +1,908 @@
+{
+  "title": "Display and Positioning",
+  "slug": "display-and-positioning",
+  "language": "css",
+  "chapter": 14,
+  "difficulty": "Intermediate",
+  "readingTime": "42 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "CSS Display and Positioning - block, inline, position: relative/absolute/fixed/sticky, z-index | Modern Age Coders",
+    "description": "Master CSS display and positioning. Learn block, inline, inline-block, none, visibility: hidden, position: static, relative, absolute, fixed, sticky, top/right/bottom/left, z-index stacking, and overflow. 58+ practice questions.",
+    "keywords": "css display, css position, position absolute, position fixed, position sticky, z-index css, css overflow, inline-block css, visibility hidden, sticky navbar css"
+  },
+  "content": {
+    "what": "<h2>What Are Display and Positioning?</h2><p>Display and positioning control two fundamental questions about every element:</p><ol><li><strong>display</strong>: How does this element flow in the page? Like a block (new line, full width), inline (in the text flow), or not at all (removed)?</li><li><strong>position</strong>: Where exactly is this element placed? In normal flow, offset from where it would be, or at a specific point on the screen?</li></ol><p>Together they let you create sticky navbars, modal overlays, floating buttons, dropdowns, tooltips, fixed sidebars, and countless other UI patterns. These properties power almost every layout trick before flexbox/grid were invented, and they are still essential today for specific components.</p><pre><code>/* display controls flow */\n.btn { display: inline-block; }  /* flows like text but has width/height */\n.hidden { display: none; }        /* gone */\n\n/* position controls placement */\n.modal { position: fixed; top: 50%; left: 50%; }  /* pinned to viewport */\n.nav   { position: sticky; top: 0; }              /* sticks when scrolling */</code></pre>",
+    "why": "<h2>Why Do Display and Positioning Matter?</h2><h3>1. Every Layout Decision Uses Them</h3><p>Do you want items in a row? Change their display. Do you want a button to float over the content? Change its position. Even with flexbox and grid for the main layout, positioning is essential for elements that sit on top of others: modals, tooltips, dropdowns, sticky headers, floating action buttons.</p><h3>2. Position Is the Only Way to Overlap</h3><p>In normal flow, elements never overlap. To make one element sit on top of another -- like a dropdown below a button, or a modal in the center of the screen -- you need <code>position: absolute</code> or <code>position: fixed</code>. Understanding this unlocks a huge category of UI.</p><h3>3. Sticky Navbars Are Everywhere</h3><p>Every modern website has a navbar that stays at the top of the screen when you scroll. The magic word is <code>position: sticky</code>. One property, and your navbar works perfectly.</p><h3>4. display: none vs visibility: hidden Matters</h3><p>Both hide elements. But one removes them from layout (display: none) and the other keeps the space (visibility: hidden). Choosing wrong creates awkward layout jumps when you toggle visibility.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. display: block</h3><p>Block elements start on a new line and take the full width available. They respect width, height, margin, and padding fully. Examples: <code>&lt;div&gt;, &lt;h1&gt;, &lt;p&gt;, &lt;section&gt;, &lt;header&gt;</code>.</p><pre><code>h1 { display: block; }  /* default for headings */\n/* Takes full width, starts on a new line */</code></pre><h3>2. display: inline</h3><p>Inline elements flow with text, like words in a paragraph. They do NOT accept width or height. They only take as much space as their content. Examples: <code>&lt;span&gt;, &lt;a&gt;, &lt;strong&gt;, &lt;em&gt;</code>.</p><pre><code>a { display: inline; }  /* default for links */\n/* Flows in text. Ignores width/height. */</code></pre><h3>3. display: inline-block</h3><p>The best of both worlds: flows in a row like inline, but accepts width, height, padding, and margin like block. Great for navigation items and buttons before flexbox existed.</p><pre><code>.nav-item {\n  display: inline-block;\n  width: 100px;\n  padding: 12px 20px;\n  /* Flows in a row AND has a fixed size */\n}</code></pre><h3>4. display: none</h3><p>Completely removes the element from the layout. Other elements act as if it does not exist.</p><pre><code>.hidden { display: none; }\n/* Element is invisible AND does not take space */</code></pre><h3>5. visibility: hidden</h3><p>Hides the element visually but KEEPS its space in the layout. Like an invisible placeholder.</p><pre><code>.invisible { visibility: hidden; }\n/* Invisible but still takes up its box */</code></pre><p>Key difference:</p><ul><li><code>display: none</code> -- gone, space collapses, other elements move up</li><li><code>visibility: hidden</code> -- invisible but the space is still there, layout does not shift</li></ul><h3>6. position: static (Default)</h3><p>The default for all elements. They flow normally. top/right/bottom/left have no effect.</p><h3>7. position: relative</h3><p>The element still flows normally, BUT you can offset it with top/right/bottom/left. It leaves a 'ghost' where it used to be.</p><pre><code>.nudged {\n  position: relative;\n  top: 10px;\n  left: 20px;\n  /* Moved 10px down and 20px right from its normal position */\n}</code></pre><p>Also: making a parent <code>position: relative</code> creates a positioning context for absolute children.</p><h3>8. position: absolute</h3><p>Removes the element from normal flow. It floats on top and is positioned relative to the nearest positioned ancestor (an ancestor with position: relative, absolute, fixed, or sticky). If none exists, it uses the viewport.</p><pre><code>.parent { position: relative; }\n.child  {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  /* Pinned to the top-right of the parent */\n}</code></pre><p>Absolutely positioned elements are removed from normal flow -- other elements act like they do not exist.</p><h3>9. position: fixed</h3><p>Pinned to the VIEWPORT (browser window). It stays in the same position on the screen even when you scroll. Perfect for floating action buttons, modals, and some navbars.</p><pre><code>.fab {\n  position: fixed;\n  bottom: 30px;\n  right: 30px;\n  /* Bottom-right of the screen always, even when scrolling */\n}</code></pre><h3>10. position: sticky</h3><p>Hybrid: behaves like relative until you scroll past a threshold, then behaves like fixed. Perfect for sticky navbars and table headers.</p><pre><code>nav {\n  position: sticky;\n  top: 0;\n  /* Scrolls with the page until it hits the top, then sticks */\n}</code></pre><p>Sticky requires a defined threshold (top, left, right, or bottom) and a scrollable ancestor with enough space.</p><h3>11. top, right, bottom, left</h3><p>These properties only work on positioned elements (not static). They set the distance from the respective edge.</p><pre><code>.box {\n  position: absolute;\n  top: 0;\n  left: 0;\n  /* Top-left corner of the positioning parent */\n}\n\n.center {\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  /* Centered on the screen */\n}</code></pre><h3>12. z-index (Stacking)</h3><p>When positioned elements overlap, z-index decides who is on top. Higher z-index wins.</p><pre><code>.behind { position: absolute; z-index: 1; }\n.middle { position: absolute; z-index: 10; }\n.front  { position: absolute; z-index: 100; }\n\n.modal  { position: fixed; z-index: 9999; }</code></pre><p>Important rules:</p><ul><li>z-index only works on <code>position</code>ed elements (not static)</li><li>It creates stacking contexts -- children are layered relative to their parent's stack</li><li>You cannot escape a parent's stacking context. A child with z-index: 9999 inside a parent with z-index: 1 can never go above a sibling of that parent with z-index: 2.</li></ul><h3>13. overflow</h3><p>Controls what happens when content is bigger than its container.</p><pre><code>.box { overflow: visible; }  /* default: content spills out */\n.box { overflow: hidden; }   /* clip content outside the box */\n.box { overflow: scroll; }   /* always show scrollbars */\n.box { overflow: auto; }     /* scrollbars only when needed (best default) */\n\n.box { overflow-x: auto; overflow-y: hidden; } /* different per axis */</code></pre>",
+    "codeExamples": [
+      {
+        "title": "display: block, inline, inline-block",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 30px; line-height: 1.6; }\n    .block {\n      display: block;\n      background: #fef3c7;\n      padding: 8px 12px;\n      margin: 8px 0;\n    }\n    .inline {\n      display: inline;\n      background: #ddd6fe;\n      padding: 8px 12px;\n      /* width/height do nothing on inline elements */\n      width: 200px;\n      height: 100px;\n    }\n    .ib {\n      display: inline-block;\n      background: #bbf7d0;\n      padding: 8px 12px;\n      width: 150px;\n      margin: 4px;\n      text-align: center;\n    }\n  </style>\n</head>\n<body>\n  <h2>Display types</h2>\n  <div class=\"block\">I am a block. I take the full width and start on a new line.</div>\n  <div class=\"block\">Another block. Also full width, new line.</div>\n\n  <p>In this paragraph by Aarav, the words <span class=\"inline\">span 1</span> and <span class=\"inline\">span 2</span> are inline. They flow with the text and ignore width/height.</p>\n\n  <div>\n    <span class=\"ib\">IB 1</span>\n    <span class=\"ib\">IB 2</span>\n    <span class=\"ib\">IB 3</span>\n    <span class=\"ib\">IB 4</span>\n    (inline-block: flows in a row, but accepts width/height/margin)\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Three display types compared. Blocks stack vertically taking full width. Inline elements flow with text and ignore width/height. Inline-block elements flow horizontally but accept sizing properties -- perfect for old-school button rows.",
+        "output": "Two yellow full-width blocks, a paragraph with purple-highlighted inline text, and a row of 4 green inline-block boxes."
+      },
+      {
+        "title": "display: none vs visibility: hidden",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 30px; }\n    .item {\n      display: inline-block;\n      width: 100px;\n      height: 60px;\n      background: #a855f7;\n      color: white;\n      text-align: center;\n      line-height: 60px;\n      border-radius: 8px;\n      margin: 4px;\n    }\n    .gone { display: none; }\n    .invisible { visibility: hidden; }\n    .note { color: #6b7280; font-size: 13px; margin-top: 20px; }\n  </style>\n</head>\n<body>\n  <h2>Row A - all visible</h2>\n  <div class=\"item\">A</div>\n  <div class=\"item\">B</div>\n  <div class=\"item\">C</div>\n  <div class=\"item\">D</div>\n\n  <h2>Row B - B has display: none</h2>\n  <div class=\"item\">A</div>\n  <div class=\"item gone\">B</div>\n  <div class=\"item\">C</div>\n  <div class=\"item\">D</div>\n  <p class=\"note\">Notice: no gap where B was. It is completely removed from layout.</p>\n\n  <h2>Row C - B has visibility: hidden</h2>\n  <div class=\"item\">A</div>\n  <div class=\"item invisible\">B</div>\n  <div class=\"item\">C</div>\n  <div class=\"item\">D</div>\n  <p class=\"note\">Notice: empty space where B would be. Space is reserved.</p>\n  <p class=\"note\">By Priya Kapoor</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This shows the exact visual difference between the two. In row B (display: none), B disappears and C slides next to A. In row C (visibility: hidden), B is invisible but its box is still reserved, so C stays in its original position.",
+        "output": "Three rows of purple boxes. Row A has 4 visible. Row B has 3 with no gap. Row C has 3 with an empty gap where the second box would be."
+      },
+      {
+        "title": "position: absolute Inside relative",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 30px; background: #f3f4f6; }\n    .card {\n      position: relative;\n      width: 300px;\n      padding: 24px;\n      background: white;\n      border-radius: 12px;\n      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);\n      margin: 16px;\n    }\n    .badge {\n      position: absolute;\n      top: -10px;\n      right: -10px;\n      background: #ef4444;\n      color: white;\n      width: 44px;\n      height: 44px;\n      border-radius: 50%;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      font-weight: bold;\n      font-size: 13px;\n      box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);\n    }\n    .ribbon {\n      position: absolute;\n      top: 12px;\n      left: -8px;\n      background: #a855f7;\n      color: white;\n      padding: 4px 14px;\n      font-size: 12px;\n      font-weight: bold;\n      text-transform: uppercase;\n      letter-spacing: 0.05em;\n    }\n    h3 { margin: 8px 0 8px; }\n    p  { margin: 0; color: #4b5563; font-size: 14px; line-height: 1.5; }\n  </style>\n</head>\n<body>\n  <div class=\"card\">\n    <div class=\"ribbon\">NEW</div>\n    <div class=\"badge\">SALE</div>\n    <h3>Coding Kit</h3>\n    <p>Everything Kavya needs to learn HTML, CSS, and JavaScript in 12 weeks.</p>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The card has <code>position: relative</code> so it becomes the positioning context. The badge uses <code>position: absolute</code> with negative offsets to hang off the top-right corner. The ribbon is similarly positioned on the left. This is the exact pattern for product cards with corner badges.",
+        "output": "A white product card with a red circular 'SALE' badge in the top-right corner (slightly outside the card) and a purple 'NEW' ribbon on the left side."
+      },
+      {
+        "title": "Sticky Navbar",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    * { box-sizing: border-box; margin: 0; padding: 0; }\n    body { font-family: Arial, sans-serif; }\n    .nav {\n      position: sticky;\n      top: 0;\n      z-index: 100;\n      background: white;\n      padding: 16px 30px;\n      border-bottom: 1px solid #e5e7eb;\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);\n    }\n    .nav .logo { font-weight: bold; color: #a855f7; font-size: 20px; }\n    .nav a { margin-left: 20px; color: #4b5563; text-decoration: none; font-size: 14px; }\n    main { padding: 30px; max-width: 700px; margin: 0 auto; }\n    section { min-height: 60vh; padding: 40px 0; border-bottom: 1px solid #eee; }\n    h2 { color: #a855f7; margin-bottom: 16px; }\n    p { line-height: 1.7; color: #4b5563; }\n  </style>\n</head>\n<body>\n  <nav class=\"nav\">\n    <div class=\"logo\">SiteName</div>\n    <div>\n      <a href=\"#\">Home</a>\n      <a href=\"#\">About</a>\n      <a href=\"#\">Contact</a>\n    </div>\n  </nav>\n  <main>\n    <section><h2>Section 1</h2><p>Scroll down and watch the nav stay pinned to the top. By Ishaan.</p></section>\n    <section><h2>Section 2</h2><p>The nav uses position: sticky with top: 0.</p></section>\n    <section><h2>Section 3</h2><p>It scrolls normally until it reaches the top, then it sticks there.</p></section>\n    <section><h2>Section 4</h2><p>z-index: 100 ensures the nav stays above other content that scrolls underneath.</p></section>\n  </main>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "<code>position: sticky</code> makes the nav behave like a normal element until the scroll position reaches <code>top: 0</code>, then it sticks to the top of the viewport. No JavaScript needed. z-index keeps it above other content.",
+        "output": "A page with a navbar that scrolls with the content initially, then sticks to the top when you scroll past it."
+      },
+      {
+        "title": "Modal Overlay (Fixed Positioning)",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    * { box-sizing: border-box; }\n    body { font-family: Arial, sans-serif; padding: 40px; background: #f3f4f6; min-height: 200vh; }\n    .content { max-width: 600px; margin: 0 auto; }\n    h1 { color: #1a1a2e; }\n    p { line-height: 1.6; color: #4b5563; }\n    .overlay {\n      position: fixed;\n      top: 0;\n      left: 0;\n      right: 0;\n      bottom: 0;\n      background: rgba(0, 0, 0, 0.6);\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      z-index: 1000;\n    }\n    .modal {\n      background: white;\n      padding: 32px;\n      border-radius: 16px;\n      max-width: 400px;\n      width: 90%;\n      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);\n      position: relative;\n    }\n    .close {\n      position: absolute;\n      top: 10px;\n      right: 14px;\n      background: none;\n      border: none;\n      font-size: 24px;\n      cursor: pointer;\n      color: #6b7280;\n    }\n    .modal h3 { margin: 0 0 12px; color: #1a1a2e; }\n    .btn { padding: 10px 20px; background: #a855f7; color: white; border: none; border-radius: 8px; font-size: 14px; cursor: pointer; margin-top: 16px; }\n  </style>\n</head>\n<body>\n  <div class=\"content\">\n    <h1>Page with Modal</h1>\n    <p>The modal below uses position: fixed to cover the entire viewport, even when you scroll.</p>\n    <p>Scroll down and notice the modal stays centered on the screen. Fixed positioning does not move with scroll.</p>\n    <p>The dark background is an overlay. The white card inside is centered using flexbox on the overlay.</p>\n    <p>By Riya Singh. The close button uses absolute positioning relative to the modal itself.</p>\n  </div>\n\n  <div class=\"overlay\">\n    <div class=\"modal\">\n      <button class=\"close\">x</button>\n      <h3>Welcome, Kavya!</h3>\n      <p>This is a modal dialog. It sits on top of the entire page using fixed positioning.</p>\n      <button class=\"btn\">Got it</button>\n    </div>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The overlay uses <code>position: fixed</code> with all four edges set to 0, covering the whole viewport. Flexbox centers the modal inside it. The close button uses <code>position: absolute</code> in the top-right corner of the modal. Scrolling the page does not move the modal at all.",
+        "output": "A page content behind a dark overlay with a white modal card centered on screen. Scrolling does not affect the modal position."
+      },
+      {
+        "title": "z-index Stacking",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 60px; background: #f3f4f6; }\n    .stack { position: relative; width: 400px; height: 250px; margin: 0 auto; }\n    .box {\n      position: absolute;\n      width: 160px;\n      height: 160px;\n      border-radius: 12px;\n      color: white;\n      font-weight: bold;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);\n    }\n    .a { background: #ef4444; top: 0; left: 0; z-index: 1; }\n    .b { background: #06b6d4; top: 30px; left: 60px; z-index: 2; }\n    .c { background: #a855f7; top: 60px; left: 120px; z-index: 3; }\n    .d { background: #f59e0b; top: 90px; left: 180px; z-index: 2; }\n  </style>\n</head>\n<body>\n  <h2 style=\"text-align:center;\">Stacking with z-index</h2>\n  <div class=\"stack\">\n    <div class=\"box a\">A (z:1)</div>\n    <div class=\"box b\">B (z:2)</div>\n    <div class=\"box c\">C (z:3)</div>\n    <div class=\"box d\">D (z:2)</div>\n  </div>\n  <p style=\"text-align:center;color:#6b7280;\">Higher z-index appears on top. Meera arranged these.</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Four absolutely positioned boxes overlap. Their z-index values determine stacking order: C (3) on top, B and D tie at 2 (D wins because it comes later in source order), A at 1 on the bottom. Higher z-index always appears over lower, but only among positioned elements.",
+        "output": "Four overlapping colored squares stacked diagonally, with the purple 'C' on top and the red 'A' at the bottom."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Setting width/height on inline Elements",
+        "wrongCode": "a {\n  display: inline;\n  width: 200px;\n  height: 50px;\n}\n/* Does nothing */",
+        "error": "inline elements ignore width and height. The link stays its natural content size.",
+        "correctCode": "a {\n  display: inline-block;\n  width: 200px;\n  height: 50px;\n}",
+        "explanation": "If you need to set explicit dimensions, change the display to inline-block or block. Only block-level elements respect width and height."
+      },
+      {
+        "title": "z-index Not Working on Static Elements",
+        "wrongCode": ".front {\n  /* no position set */\n  z-index: 999;\n}\n/* z-index is ignored */",
+        "error": "z-index only works on positioned elements. A static element ignores z-index.",
+        "correctCode": ".front {\n  position: relative;\n  z-index: 999;\n}",
+        "explanation": "z-index requires position to be anything except static. Add position: relative to give z-index effect without moving the element."
+      },
+      {
+        "title": "Absolute Positioning Without a Positioned Ancestor",
+        "wrongCode": "<div class=\"parent\">\n  <div class=\"child\" style=\"position: absolute; top: 0; left: 0;\">I'm inside the parent!</div>\n</div>\n/* No position on parent. Child is positioned relative to the viewport, not the parent. */",
+        "error": "The child jumps to the viewport's top-left, not the parent's.",
+        "correctCode": ".parent { position: relative; }\n.child  { position: absolute; top: 0; left: 0; }",
+        "explanation": "Absolute elements are positioned relative to the nearest POSITIONED ancestor. If none exists, they use the viewport. Always add position: relative to the parent when you want to anchor an absolute child to it."
+      },
+      {
+        "title": "position: sticky Without a Threshold or Scrollable Context",
+        "wrongCode": "nav {\n  position: sticky;\n  /* no top/bottom set */\n}\n/* Sticky does nothing */",
+        "error": "Without a threshold, sticky behaves like relative and never actually sticks.",
+        "correctCode": "nav {\n  position: sticky;\n  top: 0;\n}",
+        "explanation": "Sticky requires a threshold value (top, right, bottom, or left) to know when to stick. Also the ancestor must be taller than the sticky element to actually allow scrolling."
+      }
+    ],
+    "summary": [
+      "display: block starts on a new line and takes full width (divs, headings, paragraphs). display: inline flows with text and ignores width/height (spans, links). display: inline-block flows horizontally but respects width/height.",
+      "display: none removes the element from layout (other elements move up). visibility: hidden makes it invisible but preserves its space (other elements stay put).",
+      "position: static is the default (normal flow). position: relative lets you offset with top/right/bottom/left while keeping the element in normal flow.",
+      "position: absolute removes the element from flow and places it relative to the nearest positioned ancestor (or the viewport if none exists).",
+      "position: fixed pins the element to the VIEWPORT -- it stays in place when you scroll. Perfect for floating buttons, modal overlays, and always-visible navbars.",
+      "position: sticky is a hybrid: behaves like relative until you scroll past its threshold (like top: 0), then sticks like fixed. Great for sticky headers and table rows.",
+      "top, right, bottom, and left only work on positioned elements (not static). They set offsets from the respective edges.",
+      "z-index controls stacking order when positioned elements overlap. Higher z-index appears on top. It does not work on static elements. It creates stacking contexts that contain their children.",
+      "A common pattern: parent has position: relative, child has position: absolute with top/left/right/bottom. The child is placed relative to the parent.",
+      "overflow controls what happens when content exceeds its box: visible (default, spills out), hidden (clipped), scroll (always show scrollbars), auto (scrollbars when needed)."
+    ]
+  },
+  "relatedTopics": ["the-box-model", "flexbox-complete-guide", "css-selectors-and-specificity"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which display value starts an element on a new line and takes full width?",
+        "hint": "Default for divs.",
+        "answer": "<code>block</code>",
+        "explanation": "block elements start on a new line and fill the available width of their parent. divs, headings, paragraphs, sections all default to block."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What happens if you set width and height on <code>display: inline</code>?",
+        "hint": "Inline elements have limits.",
+        "answer": "Nothing. Inline elements ignore width and height. They only take the size of their content.",
+        "explanation": "inline elements flow like text. Only block and inline-block elements respect explicit width and height."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the difference between display: none and visibility: hidden?",
+        "hint": "Layout space.",
+        "answer": "display: none removes the element from the layout entirely (other elements move up). visibility: hidden keeps the space but makes it invisible.",
+        "explanation": "Use display: none when you want the element gone. Use visibility: hidden when you want it invisible but the layout should not shift."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the default position value?",
+        "hint": "All elements start with this.",
+        "answer": "<code>static</code>",
+        "explanation": "All elements default to position: static. top/right/bottom/left and z-index have no effect on static elements."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Does <code>position: relative</code> remove the element from normal flow?",
+        "hint": "It still leaves a ghost where it was.",
+        "answer": "No. The element still takes its original space. Any top/right/bottom/left offset moves only the visual position.",
+        "explanation": "relative elements flow normally but can be nudged visually with offsets. Other elements continue to treat the original position as taken."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>position: fixed</code> anchor the element to?",
+        "hint": "It ignores parents.",
+        "answer": "The viewport (browser window). It stays in the same screen position when scrolling.",
+        "explanation": "Fixed elements are positioned relative to the browser viewport, not any parent element. Perfect for floating action buttons and overlays."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What anchors <code>position: absolute</code>?",
+        "hint": "The nearest positioned ancestor.",
+        "answer": "The nearest ancestor with position set to anything other than static. If no such ancestor exists, it uses the viewport.",
+        "explanation": "Walking up the DOM tree, absolute elements find the first ancestor with position: relative/absolute/fixed/sticky. That becomes their positioning context."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Does z-index work on <code>position: static</code> elements?",
+        "hint": "Static is the default.",
+        "answer": "No. z-index only works on positioned elements (relative, absolute, fixed, sticky).",
+        "explanation": "To give z-index effect, you must first set a position value other than static. Usually position: relative is enough if you don't need offsets."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>overflow: auto</code> do?",
+        "hint": "Scrollbars appear as needed.",
+        "answer": "Adds scrollbars only when content exceeds the box. If content fits, no scrollbars appear.",
+        "explanation": "auto is the most user-friendly overflow setting. It avoids unnecessary scrollbars but allows scrolling when content is too large."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What display value is used for navigation links that should sit in a row and also have padding?",
+        "hint": "Flows like text but accepts sizing.",
+        "answer": "<code>inline-block</code>",
+        "explanation": "inline-block elements flow in a row like inline, but accept width, height, padding, and margin. Classic for navigation items and badges."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the result?<br><pre><code>.parent { position: relative; width: 300px; height: 200px; background: #eee; }\n.child { position: absolute; top: 10px; right: 10px; }</code></pre>",
+        "hint": "Child is pinned relative to the parent.",
+        "answer": "The child is pinned to the top-right corner of the parent, 10px from each edge.",
+        "explanation": "The parent is positioned (relative), so it becomes the positioning context for the absolute child. top and right set the distance from those edges of the parent."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this produce?<br><pre><code>.modal {\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}</code></pre>",
+        "hint": "top/left moves the top-left corner to center. transform shifts back by half the modal size.",
+        "answer": "A perfectly centered modal on the viewport, regardless of its size.",
+        "explanation": "top: 50% + left: 50% places the top-left corner at the center. translate(-50%, -50%) shifts the modal back by half its own dimensions, centering it precisely."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this sticky nav do?<br><pre><code>nav { position: sticky; top: 0; z-index: 100; }</code></pre>",
+        "hint": "Sticky sticks when the threshold is reached.",
+        "answer": "Scrolls with the page until it reaches the top of the viewport, then sticks in place while the rest of the page scrolls beneath it.",
+        "explanation": "position: sticky is a hybrid of relative and fixed. top: 0 is the threshold. z-index ensures the nav sits above other content as it scrolls underneath."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Which has the highest visual stack order?<br><pre><code>.a { position: absolute; z-index: 1; }\n.b { position: absolute; z-index: 10; }\n.c { position: absolute; z-index: 5; }</code></pre>",
+        "hint": "Higher z-index wins.",
+        "answer": "<code>.b</code> (z-index 10)",
+        "explanation": "Among sibling positioned elements with the same parent, higher z-index wins. b (10) > c (5) > a (1)."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens to the page when you add <code>position: absolute</code> to an element that was previously in normal flow?",
+        "hint": "Removed from flow.",
+        "answer": "The element is removed from the layout. Surrounding elements shift up to fill the space it used to take.",
+        "explanation": "Absolute elements are taken out of the document flow. The other elements lay out as if the absolute element never existed."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>overflow: hidden</code> do to content that is bigger than its container?",
+        "hint": "Crops.",
+        "answer": "Clips (crops) any content that extends beyond the box. No scrollbars appear.",
+        "explanation": "overflow: hidden hard-crops overflowing content. Useful for clipping images, creating masked effects, or preventing layout-breaking overflow."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this do to a badge on a card?<br><pre><code>.card { position: relative; }\n.badge { position: absolute; top: -10px; right: -10px; }</code></pre>",
+        "hint": "Negative offsets push it outside.",
+        "answer": "The badge floats outside the top-right corner of the card, hanging off the edge by 10px in each direction.",
+        "explanation": "Negative offsets let absolutely positioned elements extend beyond their parent's boundary. This is a common pattern for corner badges and notification dots."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Why doesn't this z-index work?<br><pre><code>.item { z-index: 999; }</code></pre>",
+        "hint": "Missing property.",
+        "answer": "Because there is no position property set. z-index requires position to be anything except static.",
+        "explanation": "Add <code>position: relative</code> (or absolute/fixed/sticky) to enable z-index on the element."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>overflow: scroll</code> and <code>overflow: auto</code>?",
+        "hint": "When do scrollbars appear?",
+        "answer": "scroll ALWAYS shows scrollbars, even if content fits. auto shows scrollbars only when needed.",
+        "explanation": "auto is almost always the better choice because it avoids cluttering the UI with unnecessary scrollbars."
+      },
+      {
+        "id": "ts-20",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "How do you position an element in the top-right corner of its parent?",
+        "hint": "Two CSS declarations.",
+        "answer": "Set the parent to <code>position: relative</code> and the child to <code>position: absolute; top: 0; right: 0;</code>. The child will be pinned to the parent's top-right.",
+        "explanation": "This is the most common positioning pattern: a relative parent acts as the positioning context for an absolute child."
+      },
+      {
+        "id": "ts-21",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the issue?<br><pre><code>.parent-1 { position: relative; z-index: 1; }\n.parent-2 { position: relative; z-index: 2; }\n.parent-1 .child { position: absolute; z-index: 9999; }</code></pre>",
+        "hint": "Stacking contexts.",
+        "answer": "The child (even with z-index 9999) cannot appear above parent-2. Its z-index is scoped to parent-1's stacking context, and parent-2 (z-index 2) is stacked above parent-1 (z-index 1).",
+        "explanation": "Once a parent creates a stacking context, its children cannot escape. The highest z-index inside a parent is still trapped by the parent's own stack level."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Why does <code>position: sticky; top: 0;</code> not stick?<br><pre><code>.parent { overflow: hidden; }\n.sticky-child { position: sticky; top: 0; }</code></pre>",
+        "hint": "Sticky has a scrollable ancestor requirement.",
+        "answer": "Because an ancestor has <code>overflow: hidden</code>, which prevents scrolling and breaks sticky positioning. Sticky needs a scrollable ancestor.",
+        "explanation": "Sticky elements need a scrollable context. overflow: hidden, auto, or scroll on an ancestor can either help or break sticky depending on whether the ancestor provides scrolling. overflow: hidden with no scrolling often breaks sticky."
+      },
+      {
+        "id": "ts-23",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Which value moves ONLY the visual position but keeps the element in normal flow?",
+        "hint": "One value does this.",
+        "answer": "<code>position: relative</code> with top/right/bottom/left offsets. The element's original space is preserved; only the rendered position shifts.",
+        "explanation": "relative is unique: it lets you offset visually without removing the element from flow. Great for fine-tuning placement without disrupting layout."
+      },
+      {
+        "id": "ts-24",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "When should you use position: fixed vs position: sticky?",
+        "hint": "Always visible vs only visible after scrolling.",
+        "answer": "Use fixed when an element must always be visible at the same screen position (floating action buttons, modal overlays). Use sticky when an element should scroll normally until it reaches a threshold, then stay pinned (sticky navbars, section headers, table headers).",
+        "explanation": "Fixed is always detached from flow. Sticky is context-aware: it scrolls with its parent until the threshold, then sticks. Sticky feels more integrated with the page."
+      },
+      {
+        "id": "ts-25",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is a stacking context and how is it created?",
+        "hint": "A mini z-index world.",
+        "answer": "A stacking context is a self-contained layer where child elements are stacked relative to each other. It is created by: the root element, any positioned element with z-index other than auto, elements with opacity less than 1, elements with transform, filter, or certain other properties. Children can never escape their parent's stacking context.",
+        "explanation": "Understanding stacking contexts explains why high z-index values sometimes fail to appear on top. The element is inside a parent stacking context that is lower than the competing sibling."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Does <code>display: block</code> accept width and height?",
+        "hint": "Yes.",
+        "answer": "Yes. Block elements respect both width and height (unlike inline).",
+        "explanation": "Block elements are full-featured: width, height, padding, margin, and border all work as expected."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which display makes an element disappear AND free up its space?",
+        "hint": "Not visibility.",
+        "answer": "<code>display: none</code>",
+        "explanation": "display: none removes the element from the layout entirely. Its space collapses and other elements move in."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which position keeps an element on screen while scrolling?",
+        "hint": "Two options.",
+        "answer": "<code>fixed</code> (always) and <code>sticky</code> (after reaching a threshold).",
+        "explanation": "Fixed is pinned to the viewport always. Sticky scrolls normally until hitting its threshold, then pins."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What anchors a position: relative element?",
+        "hint": "Its own natural position.",
+        "answer": "Its own original position in normal flow. top/right/bottom/left offset it from where it would have been.",
+        "explanation": "relative does not change the layout. It just lets you shift the visual rendering. The element's slot in the flow is unchanged."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How do you hide something but keep its space?",
+        "hint": "Visibility.",
+        "answer": "<code>visibility: hidden</code>",
+        "explanation": "The element becomes invisible but still occupies its original space. Surrounding elements do not shift."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which CSS property controls how content bigger than its box is handled?",
+        "hint": "Overflow.",
+        "answer": "<code>overflow</code>",
+        "explanation": "overflow values: visible (default, spills out), hidden (clipped), scroll (always shows scrollbars), auto (scrollbars when needed)."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this do?<br><pre><code>img { display: block; margin: 0 auto; }</code></pre>",
+        "hint": "Block + margin auto.",
+        "answer": "Displays the image as a block (no inline whitespace issues) and centers it horizontally in its container.",
+        "explanation": "Images are inline by default. Making them block allows margin: 0 auto centering. Common pattern for centered figure images."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Can you use top/bottom on a position: static element?",
+        "hint": "Requires positioning.",
+        "answer": "No. top/right/bottom/left only work on positioned elements (relative, absolute, fixed, sticky).",
+        "explanation": "Static elements ignore these properties. You must set position to enable offsets."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the behavior of a position: sticky element without a threshold?",
+        "hint": "Without top/bottom etc.",
+        "answer": "It behaves identically to position: relative. It never actually sticks.",
+        "explanation": "Sticky requires at least one of top/right/bottom/left to set a threshold. Without one, it degrades to relative behavior."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How do you make a floating action button in the bottom-right of the page?",
+        "hint": "Fixed with offsets.",
+        "answer": "<code>position: fixed; bottom: 30px; right: 30px;</code>",
+        "explanation": "Fixed anchors it to the viewport. The bottom and right offsets place it 30px from the corresponding edges. It stays put during scrolling."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is inline-block best for?",
+        "hint": "Text flow + sizing.",
+        "answer": "Elements that should flow in a row like inline elements but need explicit width, height, or padding. Examples: navigation items, badges, pill buttons, tags.",
+        "explanation": "Before flexbox, inline-block was the main way to lay out items in a row. It still has legitimate uses for small components."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why use position: relative on a parent without offsets?",
+        "hint": "Positioning context.",
+        "answer": "To create a positioning context for absolutely positioned children. The parent itself does not move, but any absolute child inside it is anchored to the parent instead of the viewport.",
+        "explanation": "This is the most common use of position: relative. It's a container trick: the parent becomes a reference frame."
+      },
+      {
+        "id": "mx-13",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When should you use overflow: hidden vs overflow: auto?",
+        "hint": "Clip vs scroll.",
+        "answer": "Use hidden to clip overflowing content completely (no scrollbars, content is cut off). Use auto to allow users to scroll through overflowing content with scrollbars.",
+        "explanation": "hidden is for containment and design. auto is for scrollable content areas like feeds or chat windows."
+      },
+      {
+        "id": "mx-14",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "How would you build a corner badge on a product card?",
+        "hint": "Parent positioned relative, badge absolute with negative offsets.",
+        "answer": "Set the card to <code>position: relative</code>. Add a badge element with <code>position: absolute; top: -8px; right: -8px;</code>. The badge will hang off the card's top-right corner.",
+        "explanation": "Negative offsets allow absolutely positioned elements to extend beyond their parent's bounds, perfect for corner decorations."
+      },
+      {
+        "id": "mx-15",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is z-index 9999 sometimes not enough to put an element on top?",
+        "hint": "Stacking contexts.",
+        "answer": "Because z-index is scoped to the parent's stacking context. If the parent has a lower z-index than another parent's stack, no child inside can escape. The child is trapped below the other stack.",
+        "explanation": "Check if any ancestor has opacity, transform, filter, or position + z-index. These create stacking contexts that trap children."
+      },
+      {
+        "id": "mx-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the final positioned area?<br><pre><code>.wrap { position: relative; width: 400px; height: 300px; }\n.layer { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }</code></pre>",
+        "hint": "All four edges set to 0.",
+        "answer": "The layer fills the entire .wrap element (400x300), covering it completely.",
+        "explanation": "Setting top, right, bottom, and left all to 0 on an absolute element makes it stretch to fill the positioning parent. Classic overlay technique."
+      },
+      {
+        "id": "mx-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this produce?<br><pre><code>.tooltip { position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); }</code></pre>",
+        "hint": "bottom: 100% means above the parent.",
+        "answer": "Positions the tooltip directly above its positioned parent, horizontally centered on the parent.",
+        "explanation": "bottom: 100% places the element's bottom at the parent's top. left: 50% plus translateX(-50%) centers it horizontally. A tooltip-above-button pattern."
+      },
+      {
+        "id": "mx-18",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why use transform: translate(-50%, -50%) for centering?",
+        "hint": "Offsets by 50% of the element's own size.",
+        "answer": "When combined with top: 50% and left: 50%, this shifts the element back by half its own width and height, centering it exactly. Percentage translations refer to the element's own size, so -50% always works regardless of the element's dimensions.",
+        "explanation": "A classic centering pattern: top/left 50% puts the corner at center, transform: translate(-50%, -50%) adjusts to put the center at center."
+      },
+      {
+        "id": "mx-19",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What are the 4 common positioning patterns?",
+        "hint": "Named patterns.",
+        "answer": "(1) Sticky navbar (position: sticky; top: 0). (2) Modal overlay (position: fixed covering viewport + centered child). (3) Corner badge (relative parent + absolute child with negative offsets). (4) Floating action button (position: fixed; bottom+right).",
+        "explanation": "Almost every layout challenge reduces to one of these patterns. Memorize them and you can handle most UI positioning tasks."
+      },
+      {
+        "id": "mx-20",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why does display: none not animate with CSS transitions?",
+        "hint": "Discrete vs continuous values.",
+        "answer": "display is a non-animatable property -- it changes instantly between values with no intermediate states. To fade elements in and out, use opacity and visibility (both animatable) instead.",
+        "explanation": "For fade effects, set opacity: 0 and visibility: hidden together, and transition both. The element hides and shows smoothly instead of popping."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which display value is default for a div?",
+        "options": {
+          "A": "inline",
+          "B": "block",
+          "C": "inline-block",
+          "D": "flex"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> divs are block by default. They start on a new line and take full width."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which display value is default for a span?",
+        "options": {
+          "A": "inline",
+          "B": "block",
+          "C": "inline-block",
+          "D": "none"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> spans are inline by default. They flow with text and ignore width/height."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which completely removes an element from layout?",
+        "options": {
+          "A": "visibility: hidden",
+          "B": "opacity: 0",
+          "C": "display: none",
+          "D": "position: absolute"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> display: none removes the element from the document flow. Other elements act as if it does not exist."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which keeps the element invisible but preserves its layout space?",
+        "options": {
+          "A": "display: none",
+          "B": "visibility: hidden",
+          "C": "opacity: 0",
+          "D": "All of the above"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> visibility: hidden and opacity: 0 both preserve space, but visibility: hidden is the official 'invisible but still there' answer."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which is the default position value?",
+        "options": {
+          "A": "static",
+          "B": "relative",
+          "C": "absolute",
+          "D": "fixed"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> All elements default to static. top/right/bottom/left have no effect on static elements."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which position value pins an element to the viewport?",
+        "options": {
+          "A": "static",
+          "B": "relative",
+          "C": "absolute",
+          "D": "fixed"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> fixed elements stay in the same screen position regardless of scrolling."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "Which position value is a hybrid of relative and fixed?",
+        "options": {
+          "A": "static",
+          "B": "sticky",
+          "C": "absolute",
+          "D": "float"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> sticky behaves like relative until you scroll past its threshold, then like fixed."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Easy",
+        "question": "Does z-index work on static elements?",
+        "options": {
+          "A": "Yes, always",
+          "B": "No, only on positioned elements",
+          "C": "Only with !important",
+          "D": "Only in older browsers"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> z-index requires position to be something other than static."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Easy",
+        "question": "Which overflow value shows scrollbars only when needed?",
+        "options": {
+          "A": "visible",
+          "B": "hidden",
+          "C": "scroll",
+          "D": "auto"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> auto only shows scrollbars when content overflows. scroll always shows them even if content fits."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Easy",
+        "question": "Which display value flows horizontally AND accepts width/height?",
+        "options": {
+          "A": "block",
+          "B": "inline",
+          "C": "inline-block",
+          "D": "none"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> inline-block is the best of both worlds: horizontal flow with full box model support."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "An absolutely positioned element is positioned relative to...",
+        "options": {
+          "A": "The viewport always",
+          "B": "Its nearest ancestor that has position set to anything other than static",
+          "C": "Its parent always",
+          "D": "The root element"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Absolute elements use the nearest positioned ancestor. If there is none, they fall back to the viewport."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "What happens without a position on the parent?<br><code>.child { position: absolute; top: 0; left: 0; }</code>",
+        "options": {
+          "A": "The child is positioned at the viewport's top-left",
+          "B": "The child stays in place",
+          "C": "The child disappears",
+          "D": "The parent becomes relative automatically"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Without a positioned ancestor, absolute elements are positioned relative to the viewport."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "What does <code>overflow: hidden</code> do?",
+        "options": {
+          "A": "Hides the element",
+          "B": "Crops content that extends beyond the box",
+          "C": "Makes scrollbars appear",
+          "D": "Deletes children"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> overflow: hidden clips overflowing content. No scrollbars appear."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "How do you perfectly center a fixed modal using top/left/transform?",
+        "options": {
+          "A": "top: 0; left: 0",
+          "B": "top: 50%; left: 50%",
+          "C": "top: 50%; left: 50%; transform: translate(-50%, -50%)",
+          "D": "margin: auto"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> top/left 50% places the top-left corner at center. transform: translate(-50%, -50%) shifts the modal back by half its own size to center it exactly."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "Which position value does NOT remove the element from flow?",
+        "options": {
+          "A": "relative",
+          "B": "absolute",
+          "C": "fixed",
+          "D": "None"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> relative keeps the element in normal flow. absolute and fixed remove it."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What value does position: sticky need to work?",
+        "options": {
+          "A": "z-index",
+          "B": "At least one of top/right/bottom/left as a threshold",
+          "C": "display: flex",
+          "D": "margin: 0"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Sticky requires a threshold value to know when to stick. Without one it behaves like relative."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "What does <code>display: inline</code> ignore?",
+        "options": {
+          "A": "Color",
+          "B": "Font-size",
+          "C": "Width and height",
+          "D": "Text content"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Inline elements ignore width and height. They size to their content only."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "Which creates a new stacking context?",
+        "options": {
+          "A": "display: block",
+          "B": "position: relative with z-index: 1",
+          "C": "margin: 0",
+          "D": "color: red"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A positioned element with a non-auto z-index creates a new stacking context. Transform, opacity less than 1, and filters also create them."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "Which CSS makes a navbar stick to the top when scrolling?",
+        "options": {
+          "A": "position: fixed; top: 0;",
+          "B": "position: sticky; top: 0;",
+          "C": "position: absolute; top: 0;",
+          "D": "Both A and B work"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> Both work. fixed always pins to viewport. sticky scrolls normally first, then sticks. sticky is often preferred because it feels more integrated."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Medium",
+        "question": "How do you position a badge in the top-right corner of a card?",
+        "options": {
+          "A": "margin: 0 0 0 auto",
+          "B": "float: right",
+          "C": "position: absolute; top: 0; right: 0 (with positioned parent)",
+          "D": "text-align: right"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Set the card to position: relative. Add the badge with position: absolute; top: 0; right: 0."
+      },
+      {
+        "id": "mcq-21",
+        "difficulty": "Hard",
+        "question": "Why might <code>z-index: 9999</code> still not put an element on top?",
+        "options": {
+          "A": "The browser is broken",
+          "B": "It is trapped in a parent stacking context that is below the competing element's parent",
+          "C": "z-index only supports up to 1000",
+          "D": "z-index needs opacity"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Child z-index is scoped to the parent stacking context. A high child z-index cannot escape a parent that is stacked lower."
+      },
+      {
+        "id": "mcq-22",
+        "difficulty": "Hard",
+        "question": "How do you make an overlay cover the entire viewport?",
+        "options": {
+          "A": "width: 100%; height: 100%;",
+          "B": "position: fixed; top: 0; left: 0; right: 0; bottom: 0;",
+          "C": "margin: 0",
+          "D": "position: sticky; top: 0;"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Fixed positioning with all four edges at 0 fills the viewport. Classic modal overlay pattern."
+      },
+      {
+        "id": "mcq-23",
+        "difficulty": "Hard",
+        "question": "Which pair prevents layout shift when hiding/showing on hover?",
+        "options": {
+          "A": "display: none; and display: block;",
+          "B": "visibility: hidden; and visibility: visible;",
+          "C": "float: left; and float: none;",
+          "D": "margin-top: -100%; and margin-top: 0;"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> visibility preserves the element's space. display: none removes it entirely, causing layout shifts."
+      },
+      {
+        "id": "mcq-24",
+        "difficulty": "Hard",
+        "question": "Why does sticky fail when an ancestor has <code>overflow: hidden</code>?",
+        "options": {
+          "A": "Sticky always fails",
+          "B": "Sticky needs a scrollable ancestor; overflow: hidden prevents scrolling in that ancestor and breaks the stick",
+          "C": "overflow: hidden removes the element",
+          "D": "Sticky requires JavaScript"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Sticky requires a scrollable parent context. overflow: hidden without scrolling ability can break sticky."
+      },
+      {
+        "id": "mcq-25",
+        "difficulty": "Hard",
+        "question": "Which pattern floats a button in the bottom-right of the viewport?",
+        "options": {
+          "A": "margin-left: auto; margin-top: auto;",
+          "B": "position: fixed; bottom: 30px; right: 30px;",
+          "C": "float: right;",
+          "D": "text-align: right;"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Fixed positioning with bottom and right offsets places the button in the bottom-right of the viewport, persistent during scrolling."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Inline vs Block vs Inline-Block Demo",
+        "difficulty": "Easy",
+        "description": "Create a page with three sections, each showing a row of 4 colored boxes using different display values: block, inline, and inline-block. Label each row clearly.",
+        "sampleInput": "Open the HTML file",
+        "sampleOutput": "Three labeled rows demonstrating how each display value affects layout.",
+        "constraints": "Use div and span with class names. Make the visual difference clear.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  body { font-family: Arial, sans-serif; padding: 30px; }\n  h2 { color: #a855f7; margin: 20px 0 8px; }\n  .box {\n    background: #a855f7; color: white;\n    padding: 12px 20px; margin: 4px;\n    border-radius: 6px;\n  }\n  .block { display: block; }\n  .inline { display: inline; width: 150px; height: 100px; background: #06b6d4; }\n  .ib { display: inline-block; width: 100px; text-align: center; background: #f59e0b; }\n</style></head>\n<body>\n  <h2>display: block (stacks vertically)</h2>\n  <div class=\"box block\">Block 1</div>\n  <div class=\"box block\">Block 2</div>\n\n  <h2>display: inline (ignores width/height)</h2>\n  <p>By Aarav: <span class=\"box inline\">Inline 1</span> <span class=\"box inline\">Inline 2</span> flow with text.</p>\n\n  <h2>display: inline-block (row + sizing)</h2>\n  <div>\n    <span class=\"box ib\">IB 1</span>\n    <span class=\"box ib\">IB 2</span>\n    <span class=\"box ib\">IB 3</span>\n    <span class=\"box ib\">IB 4</span>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Corner Badge on Card",
+        "difficulty": "Easy",
+        "description": "Create a product card with a 'SALE' badge hanging off the top-right corner. The card should be 300px wide with a white background, and the badge should be a red circle that extends slightly beyond the card edge.",
+        "sampleInput": "Open the HTML file",
+        "sampleOutput": "A card with a red 'SALE' circle badge in the top-right corner.",
+        "constraints": "Use position: relative on the card, position: absolute on the badge with negative offsets.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  body { font-family: Arial, sans-serif; padding: 60px; background: #f3f4f6; }\n  .card {\n    position: relative;\n    width: 300px;\n    background: white;\n    padding: 24px;\n    border-radius: 12px;\n    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);\n    margin: 0 auto;\n  }\n  .badge {\n    position: absolute;\n    top: -12px;\n    right: -12px;\n    background: #ef4444;\n    color: white;\n    width: 50px; height: 50px;\n    border-radius: 50%;\n    display: flex; align-items: center; justify-content: center;\n    font-weight: bold; font-size: 12px;\n    box-shadow: 0 6px 15px rgba(239, 68, 68, 0.4);\n  }\n  h3 { margin: 0 0 8px; }\n  p { margin: 0; color: #4b5563; line-height: 1.5; font-size: 14px; }\n</style></head>\n<body>\n  <div class=\"card\">\n    <div class=\"badge\">SALE</div>\n    <h3>Coding Kit</h3>\n    <p>For Priya: 12 weeks of lessons, projects, and a cheat sheet.</p>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Sticky Navbar",
+        "difficulty": "Medium",
+        "description": "Build a page with a sticky navbar that stays at the top when scrolling. The navbar should have a logo on the left and 3 links on the right. Below, add enough content to enable scrolling.",
+        "sampleInput": "Scroll the page",
+        "sampleOutput": "The nav scrolls with the page initially, then sticks to the top.",
+        "constraints": "Use position: sticky; top: 0. Add z-index so the nav stays above the content.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: Arial, sans-serif; }\n  .nav {\n    position: sticky;\n    top: 0;\n    z-index: 100;\n    background: white;\n    border-bottom: 1px solid #e5e7eb;\n    padding: 16px 30px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n  }\n  .logo { font-weight: bold; color: #a855f7; font-size: 20px; }\n  .links a { margin-left: 24px; color: #4b5563; text-decoration: none; }\n  main { max-width: 700px; margin: 0 auto; padding: 40px 20px; }\n  section { min-height: 70vh; padding: 40px 0; border-bottom: 1px solid #eee; }\n  h2 { color: #a855f7; margin-bottom: 12px; }\n  p { line-height: 1.7; color: #4b5563; }\n</style></head>\n<body>\n  <nav class=\"nav\">\n    <div class=\"logo\">Kavya.dev</div>\n    <div class=\"links\"><a href=\"#\">Home</a><a href=\"#\">Blog</a><a href=\"#\">Contact</a></div>\n  </nav>\n  <main>\n    <section><h2>Section 1</h2><p>Scroll down. The nav stays at the top because position: sticky.</p></section>\n    <section><h2>Section 2</h2><p>It keeps sticking as you scroll further through the page.</p></section>\n    <section><h2>Section 3</h2><p>z-index keeps it above the section content.</p></section>\n  </main>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Floating Action Button",
+        "difficulty": "Medium",
+        "description": "Build a page with a long content area and a circular floating action button (FAB) fixed in the bottom-right of the viewport. The button should always be visible while scrolling.",
+        "sampleInput": "Scroll the page",
+        "sampleOutput": "A purple circle button stays pinned to the bottom-right of the screen.",
+        "constraints": "Use position: fixed. Make the button circular with border-radius: 50%.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: Arial, sans-serif; }\n  .content { max-width: 700px; margin: 0 auto; padding: 40px 20px; min-height: 200vh; }\n  h1 { color: #1a1a2e; margin-bottom: 16px; }\n  p { line-height: 1.7; color: #4b5563; margin-bottom: 16px; }\n  .fab {\n    position: fixed;\n    bottom: 30px;\n    right: 30px;\n    width: 56px;\n    height: 56px;\n    border-radius: 50%;\n    background: #a855f7;\n    color: white;\n    border: none;\n    font-size: 28px;\n    cursor: pointer;\n    box-shadow: 0 10px 25px rgba(168, 85, 247, 0.4);\n  }\n</style></head>\n<body>\n  <div class=\"content\">\n    <h1>Long Article</h1>\n    <p>The purple + button at the bottom-right stays fixed as you scroll. Try it, Ishaan!</p>\n    <p>Fixed positioning anchors the button to the viewport instead of the document.</p>\n    <p>It does not move when you scroll, unlike relative or absolute positioning.</p>\n    <p>Common use: floating action buttons, chat widgets, cookie banners.</p>\n    <p>Scroll down to see more content and observe the FAB staying in place.</p>\n    <p>Fixed elements ignore their parents and anchor directly to the viewport edges.</p>\n    <p>Keep scrolling to see the effect clearly.</p>\n    <p>More content here for scrolling demonstration.</p>\n  </div>\n  <button class=\"fab\">+</button>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Modal Overlay",
+        "difficulty": "Hard",
+        "description": "Build a modal dialog that sits on top of the entire page. Use a dark semi-transparent overlay covering the viewport and a white modal card centered on screen. Include a close button in the modal's top-right corner.",
+        "sampleInput": "Open the HTML file",
+        "sampleOutput": "A modal with a dark overlay and centered white card with a close button.",
+        "constraints": "Overlay uses position: fixed with all edges at 0. Modal is centered with flex. Close button uses position: absolute.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: Arial, sans-serif; padding: 40px; background: #f3f4f6; }\n  h1 { margin-bottom: 12px; color: #1a1a2e; }\n  p { color: #4b5563; line-height: 1.6; }\n  .overlay {\n    position: fixed;\n    top: 0; left: 0; right: 0; bottom: 0;\n    background: rgba(0, 0, 0, 0.6);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    z-index: 1000;\n  }\n  .modal {\n    background: white;\n    padding: 32px;\n    border-radius: 16px;\n    max-width: 400px;\n    width: 90%;\n    position: relative;\n    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);\n  }\n  .close {\n    position: absolute;\n    top: 8px;\n    right: 14px;\n    background: none;\n    border: none;\n    font-size: 24px;\n    cursor: pointer;\n    color: #9ca3af;\n  }\n  .modal h3 { margin: 0 0 12px; color: #1a1a2e; }\n  .btn { margin-top: 16px; padding: 10px 20px; background: #a855f7; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; }\n</style></head>\n<body>\n  <h1>Home Page by Meera</h1>\n  <p>Behind the overlay, regular content. The modal is always centered on screen.</p>\n  <div class=\"overlay\">\n    <div class=\"modal\">\n      <button class=\"close\">x</button>\n      <h3>Welcome!</h3>\n      <p>This modal uses fixed positioning for the overlay and absolute positioning for the close button.</p>\n      <button class=\"btn\">Got it</button>\n    </div>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Image with Overlay Text",
+        "difficulty": "Hard",
+        "description": "Create an image (use a background color as a placeholder) with a title and tag overlayed at the bottom using absolute positioning. The image should be 400x280 with rounded corners. The text overlay has a dark semi-transparent background.",
+        "sampleInput": "Open the HTML file",
+        "sampleOutput": "An image card with title text overlayed at the bottom inside a semi-transparent gradient.",
+        "constraints": "Use position: relative on the image wrapper and position: absolute on the text overlay.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  body { font-family: Arial, sans-serif; padding: 40px; background: #f3f4f6; display: flex; justify-content: center; }\n  .card {\n    position: relative;\n    width: 400px;\n    height: 280px;\n    border-radius: 14px;\n    overflow: hidden;\n    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);\n    background: linear-gradient(135deg, #a855f7, #06b6d4);\n  }\n  .overlay {\n    position: absolute;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    padding: 20px;\n    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);\n    color: white;\n  }\n  .tag {\n    display: inline-block;\n    background: rgba(255, 255, 255, 0.2);\n    padding: 3px 10px;\n    border-radius: 999px;\n    font-size: 11px;\n    text-transform: uppercase;\n    letter-spacing: 0.1em;\n    margin-bottom: 8px;\n  }\n  h3 { margin: 0 0 4px; font-size: 22px; }\n  p  { margin: 0; font-size: 13px; opacity: 0.9; }\n</style></head>\n<body>\n  <div class=\"card\">\n    <div class=\"overlay\">\n      <span class=\"tag\">Tutorial</span>\n      <h3>CSS Positioning</h3>\n      <p>By Riya Patel - 8 min read</p>\n    </div>\n  </div>\n</body>\n</html>"
+      }
+    ]
+  }
+}

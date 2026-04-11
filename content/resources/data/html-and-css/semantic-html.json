@@ -1,0 +1,881 @@
+{
+  "title": "Semantic HTML - header, nav, main, section, article, footer",
+  "slug": "semantic-html",
+  "language": "html",
+  "chapter": 8,
+  "difficulty": "Beginner",
+  "readingTime": "22 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "Semantic HTML Complete Guide - header, nav, main, article, footer | Modern Age Coders",
+    "description": "Learn semantic HTML tags (header, nav, main, section, article, aside, footer, figure, time). Improve SEO, accessibility, and code clarity. 55 practice questions.",
+    "keywords": "semantic html, html5 semantic tags, header nav main, article section aside, html accessibility, html seo, figure figcaption, div vs semantic"
+  },
+  "content": {
+    "what": "<h2>What Is Semantic HTML?</h2><p><strong>Semantic HTML</strong> means using HTML tags that describe the <em>meaning</em> of your content, not just how it looks. When you write <code>&lt;header&gt;</code>, you are telling the browser, the search engine, and the screen reader: \"This is the header of my page.\" When you write <code>&lt;nav&gt;</code>, you are saying: \"This is the navigation.\" When you write <code>&lt;article&gt;</code>, you are saying: \"This is a self-contained piece of content like a blog post.\"</p><p>Compare this to using only <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> everywhere. Those tags mean nothing. A page made entirely of divs is called <strong>div soup</strong> — a big pile of meaningless boxes. The browser has no idea what anything is. Neither does Google. Neither does a screen reader.</p><h3>Meaning Over Appearance</h3><p>Here is the core idea: <strong>HTML is about meaning, CSS is about appearance.</strong> When you choose a tag, ask yourself: \"What is this content?\" — not \"How should it look?\" A heading is an <code>&lt;h1&gt;</code> because it IS a heading, not because you want big bold text. If you want big bold text somewhere that is NOT a heading, use CSS on a <code>&lt;p&gt;</code>.</p>",
+    "why": "<h2>Why Should You Use Semantic HTML?</h2><h3>1. SEO (Search Engine Optimization)</h3><p>Google's crawler reads your HTML to understand what the page is about. When it sees <code>&lt;article&gt;</code>, it knows this is important content. When it sees <code>&lt;nav&gt;</code>, it knows to follow those links. When it sees <code>&lt;header&gt;</code> with an <code>&lt;h1&gt;</code> inside, it knows that is the main title. Semantic tags give Google clear signals about the structure of your page, which helps your site rank higher.</p><h3>2. Accessibility (Screen Readers)</h3><p>About 1 in 10 people worldwide have some form of disability. Many blind or low-vision users browse the web using <strong>screen readers</strong> — software that reads the page aloud. Screen readers use HTML tags to navigate. A user can jump straight to the <code>&lt;main&gt;</code> content, skipping the header and nav. They can list all <code>&lt;h2&gt;</code> headings to get an overview. None of this works with div soup.</p><h3>3. Maintainability</h3><p>Six months from now, when you come back to edit your code, semantic tags are much easier to understand. <code>&lt;article class=\"blog-post\"&gt;</code> tells you immediately what you are looking at. <code>&lt;div class=\"box-3\"&gt;</code> tells you nothing — you have to read the CSS and guess.</p><h3>4. Built-in Styling and Behavior</h3><p>Browsers give many semantic tags default styles. Search engines use <code>&lt;nav&gt;</code> to find links automatically. Browsers let users jump to <code>&lt;main&gt;</code> with keyboard shortcuts. Using the right tag unlocks free features.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><p>Let us go through each major semantic tag and learn when to use it.</p><h3>&lt;header&gt;</h3><p>The header of a page or section. A <code>&lt;header&gt;</code> usually contains a logo, the site name, and sometimes the main navigation. You can have multiple <code>&lt;header&gt;</code> tags on a page — one for the whole page, and one inside each <code>&lt;article&gt;</code> for the article title and author.</p><pre><code>&lt;header&gt;\n  &lt;h1&gt;Modern Age Coders&lt;/h1&gt;\n  &lt;p&gt;Learn to code in a modern way&lt;/p&gt;\n&lt;/header&gt;</code></pre><h3>&lt;nav&gt;</h3><p>A group of major navigation links. Put your main menu here. Not every list of links is a nav — only the primary navigation. The footer links at the bottom of a page do NOT need to be inside a <code>&lt;nav&gt;</code> (unless they are the main navigation).</p><pre><code>&lt;nav&gt;\n  &lt;ul&gt;\n    &lt;li&gt;&lt;a href=\"/\"&gt;Home&lt;/a&gt;&lt;/li&gt;\n    &lt;li&gt;&lt;a href=\"/about\"&gt;About&lt;/a&gt;&lt;/li&gt;\n    &lt;li&gt;&lt;a href=\"/contact\"&gt;Contact&lt;/a&gt;&lt;/li&gt;\n  &lt;/ul&gt;\n&lt;/nav&gt;</code></pre><h3>&lt;main&gt;</h3><p>The main content of the page — the unique stuff this page exists to show. There should be <strong>exactly one</strong> <code>&lt;main&gt;</code> per page. It should NOT contain the header, nav, sidebar, or footer — only the main content.</p><pre><code>&lt;main&gt;\n  &lt;article&gt;...&lt;/article&gt;\n  &lt;article&gt;...&lt;/article&gt;\n&lt;/main&gt;</code></pre><h3>&lt;section&gt;</h3><p>A themed group of content — a section of the page. Usually has a heading. Use it when you have clearly distinct parts of a page, like \"Features\", \"Pricing\", \"Testimonials\". Each section should make sense as its own chunk.</p><pre><code>&lt;section&gt;\n  &lt;h2&gt;Our Features&lt;/h2&gt;\n  &lt;p&gt;...&lt;/p&gt;\n&lt;/section&gt;</code></pre><h3>&lt;article&gt;</h3><p>A self-contained piece of content that could stand alone. A blog post, a news article, a product card, a forum comment, a tweet. If you could take it out of the page and put it on another page and it would still make sense, it is an <code>&lt;article&gt;</code>.</p><pre><code>&lt;article&gt;\n  &lt;h2&gt;Why Learn Coding&lt;/h2&gt;\n  &lt;p&gt;By Priya, March 2026&lt;/p&gt;\n  &lt;p&gt;Coding is the superpower...&lt;/p&gt;\n&lt;/article&gt;</code></pre><h4>section vs article</h4><p>A common question: what is the difference? Think of it this way: <strong>article = standalone content</strong> (makes sense on its own). <strong>section = a thematic group within something</strong> (only makes sense in context). A blog post is an article. The Features part of a landing page is a section.</p><h3>&lt;aside&gt;</h3><p>Content that is related to the main content but not part of it — like a sidebar, a pull quote, or a related articles list. If removing it would not hurt understanding of the main content, it is an aside.</p><pre><code>&lt;aside&gt;\n  &lt;h3&gt;Related Posts&lt;/h3&gt;\n  &lt;ul&gt;\n    &lt;li&gt;&lt;a href=\"#\"&gt;HTML Forms Guide&lt;/a&gt;&lt;/li&gt;\n  &lt;/ul&gt;\n&lt;/aside&gt;</code></pre><h3>&lt;footer&gt;</h3><p>The footer of a page or section. Usually contains copyright info, links, contact details, and so on. Like <code>&lt;header&gt;</code>, you can have multiple footers — one for the whole page and one inside each article (showing the author or publish date).</p><pre><code>&lt;footer&gt;\n  &lt;p&gt;&amp;copy; 2026 Modern Age Coders. All rights reserved.&lt;/p&gt;\n&lt;/footer&gt;</code></pre><h3>&lt;figure&gt; and &lt;figcaption&gt;</h3><p>Used for images, diagrams, code blocks, or other media that have a caption. The <code>&lt;figure&gt;</code> wraps the media, and <code>&lt;figcaption&gt;</code> gives it a caption.</p><pre><code>&lt;figure&gt;\n  &lt;img src=\"diagram.jpg\" alt=\"Diagram of the solar system\"&gt;\n  &lt;figcaption&gt;Figure 1: Our solar system with 8 planets.&lt;/figcaption&gt;\n&lt;/figure&gt;</code></pre><h3>&lt;time datetime=\"...\"&gt;</h3><p>Marks up a date or time in a machine-readable way. The <code>datetime</code> attribute holds the ISO format, and the visible text can be anything.</p><pre><code>Published on &lt;time datetime=\"2026-04-11\"&gt;11 April 2026&lt;/time&gt;.</code></pre><h3>&lt;address&gt;</h3><p>Contact information for the nearest <code>&lt;article&gt;</code> or the whole page. Not for any address — only contact info. Browsers usually italicize it.</p><pre><code>&lt;address&gt;\n  Written by &lt;a href=\"mailto:rohan@example.com\"&gt;Rohan&lt;/a&gt;.&lt;br&gt;\n  Visit us at: 123 Code Street, Bangalore.\n&lt;/address&gt;</code></pre><h3>Semantic vs Div Soup</h3><p>Here is the same page written two ways. First the bad way (div soup):</p><pre><code>&lt;div class=\"top\"&gt;\n  &lt;div class=\"logo\"&gt;Modern Age Coders&lt;/div&gt;\n  &lt;div class=\"menu\"&gt;...&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"content\"&gt;\n  &lt;div class=\"post\"&gt;...&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"bottom\"&gt;...&lt;/div&gt;</code></pre><p>Now the semantic way:</p><pre><code>&lt;header&gt;\n  &lt;h1&gt;Modern Age Coders&lt;/h1&gt;\n  &lt;nav&gt;...&lt;/nav&gt;\n&lt;/header&gt;\n&lt;main&gt;\n  &lt;article&gt;...&lt;/article&gt;\n&lt;/main&gt;\n&lt;footer&gt;...&lt;/footer&gt;</code></pre><p>Same layout, same CSS, but the second one is meaningful. Google reads it. Screen readers read it. You read it. Everyone wins.</p>",
+    "codeExamples": [
+      {
+        "title": "Full Semantic Page Layout",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Modern Age Coders Blog</title>\n  <style>\n    body { font-family: Arial; margin: 0; }\n    header, footer { background: #222; color: white; padding: 20px; }\n    nav ul { display: flex; gap: 20px; list-style: none; padding: 0; }\n    nav a { color: white; text-decoration: none; }\n    main { padding: 30px; max-width: 800px; margin: auto; }\n    article { background: #f8f8f8; padding: 20px; margin-bottom: 15px; border-radius: 8px; }\n    aside { background: #fff3b0; padding: 15px; border-radius: 8px; }\n  </style>\n</head>\n<body>\n  <header>\n    <h1>Modern Age Coders</h1>\n    <nav>\n      <ul>\n        <li><a href=\"/\">Home</a></li>\n        <li><a href=\"/blog\">Blog</a></li>\n        <li><a href=\"/about\">About</a></li>\n        <li><a href=\"/contact\">Contact</a></li>\n      </ul>\n    </nav>\n  </header>\n\n  <main>\n    <article>\n      <header>\n        <h2>Why Every Kid Should Learn HTML</h2>\n        <p>By Priya Sharma - <time datetime=\"2026-04-11\">11 April 2026</time></p>\n      </header>\n      <p>HTML is the skeleton of the web. Every website, every blog, every app you use starts with HTML. Learning it early gives kids a massive head start.</p>\n      <footer>\n        <p>Tags: HTML, kids, learning</p>\n      </footer>\n    </article>\n\n    <aside>\n      <h3>Related Posts</h3>\n      <ul>\n        <li><a href=\"#\">Getting Started with CSS</a></li>\n        <li><a href=\"#\">HTML Forms for Beginners</a></li>\n      </ul>\n    </aside>\n  </main>\n\n  <footer>\n    <p>&copy; 2026 Modern Age Coders. All rights reserved.</p>\n  </footer>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A complete semantic page with every major tag: <code>&lt;header&gt;</code> at the top with the logo and nav, <code>&lt;main&gt;</code> holding the content, <code>&lt;article&gt;</code> for the blog post (with its own inner header and footer), <code>&lt;aside&gt;</code> for related posts, and the page <code>&lt;footer&gt;</code>. Save as <code>blog.html</code> and open it.",
+        "output": "A styled blog page with a dark header, navigation, a main content area containing an article with author info, a sidebar with related posts, and a footer."
+      },
+      {
+        "title": "Semantic News Article Layout",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Tech News</title>\n  <style>\n    body { font-family: Georgia, serif; max-width: 700px; margin: 30px auto; padding: 20px; }\n    header h1 { margin-bottom: 5px; }\n    time { color: #666; }\n    figure { margin: 20px 0; }\n    figure img { width: 100%; border-radius: 8px; }\n    figcaption { text-align: center; font-style: italic; color: #555; }\n    address { font-style: normal; border-top: 1px solid #ddd; padding-top: 15px; margin-top: 20px; }\n  </style>\n</head>\n<body>\n  <article>\n    <header>\n      <h1>India Launches New Technology Mission</h1>\n      <p>Published on <time datetime=\"2026-04-11T09:30\">11 April 2026 at 9:30 AM</time></p>\n    </header>\n\n    <p>India has announced a new mission to boost technology education across schools. The mission will train over 100,000 teachers in coding and robotics by 2028.</p>\n\n    <figure>\n      <img src=\"https://via.placeholder.com/600x300\" alt=\"Students learning coding in a classroom\">\n      <figcaption>Students at Delhi Public School learning Python during the launch event.</figcaption>\n    </figure>\n\n    <h2>What the Mission Covers</h2>\n    <p>The program focuses on three areas: teacher training, free curriculum, and partnerships with tech companies. Over 500 schools have already signed up.</p>\n\n    <address>\n      Reported by Ananya Kumar<br>\n      Email: <a href=\"mailto:ananya@news.com\">ananya@news.com</a>\n    </address>\n  </article>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A semantic news article. The article contains an inner header with the title and publish time. The <code>&lt;time&gt;</code> tag has a machine-readable datetime. A <code>&lt;figure&gt;</code> wraps the image with a caption. The <code>&lt;address&gt;</code> at the end holds the reporter's contact info. Open in your browser to see it.",
+        "output": "A styled news article with title, publish time, a featured image with caption, body text, and reporter contact info at the bottom."
+      },
+      {
+        "title": "Sections vs Articles on a Landing Page",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Landing Page</title>\n  <style>\n    body { font-family: Arial; margin: 0; }\n    section { padding: 40px 20px; }\n    section:nth-child(even) { background: #f5f5f5; }\n    .features { display: flex; gap: 20px; flex-wrap: wrap; }\n    article { flex: 1; min-width: 200px; background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }\n  </style>\n</head>\n<body>\n  <main>\n    <section>\n      <h2>About Us</h2>\n      <p>Modern Age Coders teaches kids and teens to code.</p>\n    </section>\n\n    <section>\n      <h2>Our Features</h2>\n      <div class=\"features\">\n        <article>\n          <h3>Live Classes</h3>\n          <p>Small group lessons with real teachers.</p>\n        </article>\n        <article>\n          <h3>Fun Projects</h3>\n          <p>Build games, websites, and apps.</p>\n        </article>\n        <article>\n          <h3>Certificates</h3>\n          <p>Earn a certificate after each course.</p>\n        </article>\n      </div>\n    </section>\n\n    <section>\n      <h2>Pricing</h2>\n      <p>Plans start at Rs 999 per month.</p>\n    </section>\n  </main>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This demonstrates the section vs article difference. The page has 3 <code>&lt;section&gt;</code>s — About, Features, Pricing. These are thematic parts of the page. Inside the Features section, each feature is an <code>&lt;article&gt;</code> because each one could stand alone as a mini-card. Sections group related things; articles are standalone pieces.",
+        "output": "A landing page with 3 alternating-background sections. The Features section contains 3 card-style articles side by side."
+      },
+      {
+        "title": "Using aside for a Sidebar",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Blog with Sidebar</title>\n  <style>\n    body { font-family: Arial; max-width: 900px; margin: 20px auto; }\n    .layout { display: flex; gap: 20px; }\n    main { flex: 2; }\n    aside { flex: 1; background: #f0f0f0; padding: 15px; border-radius: 8px; height: fit-content; }\n  </style>\n</head>\n<body>\n  <div class=\"layout\">\n    <main>\n      <article>\n        <h1>Learning to Code as a Kid</h1>\n        <p>When I was 10, I started learning to code using HTML. It was the best decision of my life. I built my first website within a week, and I was hooked.</p>\n        <p>Today, six years later, I am building my own apps and websites. Here is what I wish someone had told me when I started...</p>\n      </article>\n    </main>\n\n    <aside>\n      <h3>About the Author</h3>\n      <p>Aarav is a 16-year-old web developer from Mumbai. He loves building games and teaching his friends to code.</p>\n\n      <h3>Popular Posts</h3>\n      <ul>\n        <li><a href=\"#\">My First Website</a></li>\n        <li><a href=\"#\">Learning CSS</a></li>\n        <li><a href=\"#\">JavaScript Tips</a></li>\n      </ul>\n    </aside>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The <code>&lt;aside&gt;</code> sits beside the main content. It holds an author bio and popular post links — related but not essential. If you removed the aside, the article would still make perfect sense. That is the test: if removing it breaks nothing, it is an aside.",
+        "output": "A two-column layout with a blog article on the left (wider) and a grey sidebar on the right with author info and popular posts."
+      },
+      {
+        "title": "Multiple Articles in Main with Inner Headers and Footers",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Blog Home</title>\n  <style>\n    body { font-family: Arial; max-width: 700px; margin: auto; padding: 20px; }\n    article { border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; border-radius: 8px; }\n    article header { border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; }\n    article footer { border-top: 1px solid #eee; padding-top: 10px; margin-top: 15px; font-size: 14px; color: #666; }\n    time { color: #999; }\n  </style>\n</head>\n<body>\n  <h1>Modern Age Coders Blog</h1>\n  <main>\n    <article>\n      <header>\n        <h2>Why HTML Matters</h2>\n        <p>By Aarav - <time datetime=\"2026-04-10\">10 April 2026</time></p>\n      </header>\n      <p>HTML is the foundation of every website. Without it, there is no web.</p>\n      <footer>Tags: html, basics, beginners</footer>\n    </article>\n\n    <article>\n      <header>\n        <h2>Getting Started with CSS</h2>\n        <p>By Priya - <time datetime=\"2026-04-08\">8 April 2026</time></p>\n      </header>\n      <p>Once you know HTML, CSS lets you make it beautiful. Colors, fonts, layouts — all with CSS.</p>\n      <footer>Tags: css, design, beginners</footer>\n    </article>\n\n    <article>\n      <header>\n        <h2>Your First JavaScript Program</h2>\n        <p>By Rohan - <time datetime=\"2026-04-05\">5 April 2026</time></p>\n      </header>\n      <p>Ready to add interactivity? JavaScript is the way. Start with a simple alert() and grow from there.</p>\n      <footer>Tags: javascript, interactive, beginners</footer>\n    </article>\n  </main>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This shows that every <code>&lt;article&gt;</code> can have its own <code>&lt;header&gt;</code> and <code>&lt;footer&gt;</code>. The article header holds the title, author, and date. The article footer holds tags. The page itself also has a main h1. Each article is self-contained — you could copy one and paste it on another page and it would still make sense.",
+        "output": "Three card-style blog posts stacked vertically, each with a title, author, date, body, and tags section."
+      },
+      {
+        "title": "figure and figcaption for Diagrams",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Science Article</title>\n  <style>\n    body { font-family: Arial; max-width: 700px; margin: 20px auto; }\n    figure { text-align: center; margin: 20px 0; }\n    figure img { max-width: 100%; border-radius: 8px; }\n    figcaption { font-style: italic; color: #666; margin-top: 8px; }\n  </style>\n</head>\n<body>\n  <article>\n    <h1>The Water Cycle</h1>\n    <p>The water cycle describes how water moves around the Earth through evaporation, condensation, and precipitation.</p>\n\n    <figure>\n      <img src=\"https://via.placeholder.com/600x400\" alt=\"A diagram showing the water cycle\">\n      <figcaption>Figure 1: The water cycle from ocean to cloud to rain.</figcaption>\n    </figure>\n\n    <p>This continuous cycle is what keeps fresh water available on our planet.</p>\n\n    <figure>\n      <pre><code>console.log('Hello, water!');</code></pre>\n      <figcaption>Figure 2: A simple JavaScript example (unrelated, just showing figure can hold code).</figcaption>\n    </figure>\n  </article>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "<code>&lt;figure&gt;</code> is for media content (images, code, diagrams) that have a caption. The <code>&lt;figcaption&gt;</code> must be the first or last child of the figure. Notice that figures work for code blocks too — not just images.",
+        "output": "A science article with two figures: one image with a caption, and one code block with a caption."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using div for Everything (Div Soup)",
+        "wrongCode": "<div class=\"header\">\n  <div class=\"logo\">My Site</div>\n  <div class=\"nav\">\n    <div class=\"link\">Home</div>\n    <div class=\"link\">About</div>\n  </div>\n</div>\n<div class=\"content\">\n  <div class=\"post\">...</div>\n</div>",
+        "error": "No HTML error, but bad for SEO, accessibility, and maintenance.",
+        "correctCode": "<header>\n  <h1>My Site</h1>\n  <nav>\n    <ul>\n      <li><a href=\"/\">Home</a></li>\n      <li><a href=\"/about\">About</a></li>\n    </ul>\n  </nav>\n</header>\n<main>\n  <article>...</article>\n</main>",
+        "explanation": "Using only divs tells the browser nothing about the meaning of your content. Semantic tags help search engines, screen readers, and future developers understand the page. The layout is exactly the same with CSS, but the meaning is completely different."
+      },
+      {
+        "title": "Multiple main Tags on One Page",
+        "wrongCode": "<main>\n  <h1>Welcome</h1>\n</main>\n<main>\n  <h1>Another Section</h1>\n</main>",
+        "error": "HTML spec says there should be only one <main> per page.",
+        "correctCode": "<main>\n  <section>\n    <h1>Welcome</h1>\n  </section>\n  <section>\n    <h2>Another Section</h2>\n  </section>\n</main>",
+        "explanation": "There should be exactly ONE <code>&lt;main&gt;</code> per page — it represents the unique main content. For grouping internal content, use <code>&lt;section&gt;</code>."
+      },
+      {
+        "title": "Putting Header and Footer Inside main",
+        "wrongCode": "<main>\n  <header>Site Header</header>\n  <article>Content</article>\n  <footer>Site Footer</footer>\n</main>",
+        "error": "No error, but structurally wrong. The site header and footer should be outside main.",
+        "correctCode": "<header>Site Header</header>\n<main>\n  <article>Content</article>\n</main>\n<footer>Site Footer</footer>",
+        "explanation": "The page's main header and footer are NOT part of the main content — they are navigation and site-wide elements. Only put the unique page content inside <code>&lt;main&gt;</code>. The header and footer sit as siblings of main, not inside it. (An <code>&lt;article&gt;</code> can have its own inner header and footer — that is fine.)"
+      },
+      {
+        "title": "Using section Without a Heading",
+        "wrongCode": "<section>\n  <p>Some text here</p>\n  <p>More text</p>\n</section>",
+        "error": "Not invalid HTML, but <section> should almost always have a heading.",
+        "correctCode": "<section>\n  <h2>About Us</h2>\n  <p>Some text here</p>\n  <p>More text</p>\n</section>",
+        "explanation": "A <code>&lt;section&gt;</code> represents a thematic group — it should have a heading that names the theme. If there is no meaningful heading, you probably want a <code>&lt;div&gt;</code> instead."
+      },
+      {
+        "title": "Using figure for Every Image",
+        "wrongCode": "<figure>\n  <img src=\"logo.png\" alt=\"Logo\">\n</figure>",
+        "error": "Not wrong per se, but figure is meant for content with a caption. A logo does not need figure.",
+        "correctCode": "<img src=\"logo.png\" alt=\"Logo\">",
+        "explanation": "<code>&lt;figure&gt;</code> is for content that is referenced from the main flow — like an illustration in an article, a diagram, or a code example. Small decorative images like logos and icons do not need figure. Use figure when the image is meaningful content, not decoration."
+      }
+    ],
+    "summary": [
+      "Semantic HTML uses tags that describe the MEANING of content, not just how it looks. HTML is for meaning, CSS is for appearance.",
+      "<header> is the top of a page or section. Usually holds the logo and navigation. You can have multiple headers (one per page, one per article).",
+      "<nav> wraps the main navigation links of a site. Not every link group is a nav — only the primary navigation.",
+      "<main> holds the unique main content of the page. There should be exactly ONE main per page, and it should NOT contain site header, nav, or footer.",
+      "<section> is a thematic group of content, usually with a heading. Use it to divide a page into clear parts like About, Features, Pricing.",
+      "<article> is standalone content that makes sense on its own — a blog post, news article, product card, or comment.",
+      "<aside> is related but non-essential content, like a sidebar or pull quote. Removing it should not hurt the main content.",
+      "<footer> is the footer of a page or section. Contains copyright, links, contact info. You can have multiple footers (page, article).",
+      "<figure> with <figcaption> is for images, diagrams, or code that have captions. <time datetime=\"\"> marks up dates. <address> holds contact info.",
+      "Semantic HTML improves SEO (Google reads the structure), accessibility (screen readers navigate by tag), and maintainability (easier to read and edit)."
+    ]
+  },
+  "relatedTopics": ["introduction-to-css", "forms-and-inputs"],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which tag represents the main navigation menu of a page?",
+        "hint": "Short for 'navigation'.",
+        "answer": "<code>&lt;nav&gt;</code>",
+        "explanation": "The <code>&lt;nav&gt;</code> tag wraps the main navigation links of a website so that search engines and screen readers can identify them."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which tag should wrap the unique main content of a page?",
+        "hint": "There should be only one of these per page.",
+        "answer": "<code>&lt;main&gt;</code>",
+        "explanation": "<code>&lt;main&gt;</code> wraps the unique primary content. Only one <code>&lt;main&gt;</code> per page is allowed."
+      },
+      {
+        "id": "ts-3",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Convert this div soup to semantic HTML:<br><pre><code>&lt;div class=\"top\"&gt;Logo&lt;/div&gt;\n&lt;div class=\"middle\"&gt;Content&lt;/div&gt;\n&lt;div class=\"bottom\"&gt;Copyright&lt;/div&gt;</code></pre>",
+        "hint": "Use header, main, and footer.",
+        "answer": "<pre><code>&lt;header&gt;Logo&lt;/header&gt;\n&lt;main&gt;Content&lt;/main&gt;\n&lt;footer&gt;Copyright&lt;/footer&gt;</code></pre>",
+        "explanation": "header for the top area, main for the content, footer for the copyright. Same structure, but now it has meaning."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which tag is used for a self-contained piece of content like a blog post?",
+        "hint": "It should make sense on its own.",
+        "answer": "<code>&lt;article&gt;</code>",
+        "explanation": "<code>&lt;article&gt;</code> is for standalone content: blog posts, news articles, product cards, forum comments. If it could be reposted elsewhere and still make sense, it is an article."
+      },
+      {
+        "id": "ts-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Create a page footer containing a copyright notice for 'Modern Age Coders' with the current year 2026.",
+        "hint": "Use footer and copyright entity.",
+        "answer": "<pre><code>&lt;footer&gt;\n  &lt;p&gt;&amp;copy; 2026 Modern Age Coders. All rights reserved.&lt;/p&gt;\n&lt;/footer&gt;</code></pre>",
+        "explanation": "The footer tag wraps the bottom part of a page. <code>&amp;copy;</code> is the HTML entity for the copyright symbol."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which tag marks up a date in a machine-readable way?",
+        "hint": "It has a datetime attribute.",
+        "answer": "<code>&lt;time&gt;</code>",
+        "explanation": "<code>&lt;time datetime=\"2026-04-11\"&gt;11 April 2026&lt;/time&gt;</code> lets browsers and search engines understand the exact date, even if the visible text is formatted differently."
+      },
+      {
+        "id": "ts-7",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Wrap this image with a figure and caption 'Figure 1: Our team photo'.<br><pre><code>&lt;img src=\"team.jpg\" alt=\"Our team\"&gt;</code></pre>",
+        "hint": "Use figure and figcaption.",
+        "answer": "<pre><code>&lt;figure&gt;\n  &lt;img src=\"team.jpg\" alt=\"Our team\"&gt;\n  &lt;figcaption&gt;Figure 1: Our team photo&lt;/figcaption&gt;\n&lt;/figure&gt;</code></pre>",
+        "explanation": "<code>&lt;figure&gt;</code> wraps content with a caption. <code>&lt;figcaption&gt;</code> provides the caption text."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which tag is for content related to but separate from the main content (like a sidebar)?",
+        "hint": "Think 'aside from the main'.",
+        "answer": "<code>&lt;aside&gt;</code>",
+        "explanation": "<code>&lt;aside&gt;</code> is for content that is tangentially related — sidebars, pull quotes, related links. Removing it should not break the main content."
+      },
+      {
+        "id": "ts-9",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "What is wrong with this HTML?<br><pre><code>&lt;main&gt;\n  &lt;header&gt;Site Logo&lt;/header&gt;\n  &lt;p&gt;Content&lt;/p&gt;\n&lt;/main&gt;\n&lt;footer&gt;Copyright&lt;/footer&gt;</code></pre>",
+        "hint": "Where does the site-wide header belong?",
+        "answer": "The site header should be OUTSIDE the main tag, not inside. main is only for the unique content.",
+        "explanation": "The site-wide header (logo, nav) is not part of the main content — it is navigation. Put <code>&lt;header&gt;</code> as a sibling of <code>&lt;main&gt;</code>, not inside it. Fixed: header → main → footer as siblings."
+      },
+      {
+        "id": "ts-10",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Wrap this navigation list in a proper semantic tag:<br><pre><code>&lt;ul&gt;\n  &lt;li&gt;&lt;a href=\"/\"&gt;Home&lt;/a&gt;&lt;/li&gt;\n  &lt;li&gt;&lt;a href=\"/about\"&gt;About&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;</code></pre>",
+        "hint": "Use the navigation tag.",
+        "answer": "<pre><code>&lt;nav&gt;\n  &lt;ul&gt;\n    &lt;li&gt;&lt;a href=\"/\"&gt;Home&lt;/a&gt;&lt;/li&gt;\n    &lt;li&gt;&lt;a href=\"/about\"&gt;About&lt;/a&gt;&lt;/li&gt;\n  &lt;/ul&gt;\n&lt;/nav&gt;</code></pre>",
+        "explanation": "Wrap the ul in <code>&lt;nav&gt;</code> to mark this as the main navigation. Now screen readers and search engines can identify it."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which semantic tag should you use for a blog post's title, author, and publish date area?",
+        "hint": "It is the top of the article.",
+        "answer": "<code>&lt;header&gt;</code> (inside the <code>&lt;article&gt;</code>)",
+        "explanation": "Articles can have their own <code>&lt;header&gt;</code> for the title, author, and metadata. This is different from the site's main header at the top of the page."
+      },
+      {
+        "id": "ts-12",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Identify what is wrong:<br><pre><code>&lt;main&gt;\n  &lt;h1&gt;Welcome&lt;/h1&gt;\n&lt;/main&gt;\n&lt;main&gt;\n  &lt;h1&gt;More Content&lt;/h1&gt;\n&lt;/main&gt;</code></pre>",
+        "hint": "There is a rule about how many of this tag a page can have.",
+        "answer": "A page should have only ONE <code>&lt;main&gt;</code>. Combine them into one main with two sections.",
+        "explanation": "The HTML spec allows only one <code>&lt;main&gt;</code> per page. Use <code>&lt;section&gt;</code> to divide content within the main tag."
+      },
+      {
+        "id": "ts-13",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Create a semantic layout for a page with: site header containing nav (Home, Blog), main containing one article with title 'Hello World', and a footer with copyright.",
+        "hint": "header > nav, main > article, footer.",
+        "answer": "<pre><code>&lt;header&gt;\n  &lt;h1&gt;My Site&lt;/h1&gt;\n  &lt;nav&gt;\n    &lt;ul&gt;\n      &lt;li&gt;&lt;a href=\"/\"&gt;Home&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\"/blog\"&gt;Blog&lt;/a&gt;&lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/nav&gt;\n&lt;/header&gt;\n&lt;main&gt;\n  &lt;article&gt;\n    &lt;h2&gt;Hello World&lt;/h2&gt;\n    &lt;p&gt;This is my first blog post!&lt;/p&gt;\n  &lt;/article&gt;\n&lt;/main&gt;\n&lt;footer&gt;\n  &lt;p&gt;&amp;copy; 2026 My Site&lt;/p&gt;\n&lt;/footer&gt;</code></pre>",
+        "explanation": "A complete semantic structure: header (with nav) at the top, main (with article) in the middle, footer at the bottom. This is the standard layout for most web pages."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the difference between section and article?",
+        "hint": "Think about whether the content makes sense alone.",
+        "answer": "article = standalone content that could be reposted elsewhere (blog post). section = a thematic part of a page that only makes sense in context (Features section).",
+        "explanation": "Article is self-contained. Section is a grouping. A blog post is an article. The About Us part of a landing page is a section."
+      },
+      {
+        "id": "ts-15",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Identify what semantic tag each div should become in this HTML:<br><pre><code>&lt;div class=\"top\"&gt;logo and menu&lt;/div&gt;\n&lt;div class=\"content\"&gt;\n  &lt;div class=\"post\"&gt;blog post&lt;/div&gt;\n  &lt;div class=\"sidebar\"&gt;related&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"bottom\"&gt;copyright&lt;/div&gt;</code></pre>",
+        "hint": "top=header, content=main, post=article, sidebar=aside, bottom=footer.",
+        "answer": "<pre><code>&lt;header&gt;logo and menu&lt;/header&gt;\n&lt;main&gt;\n  &lt;article&gt;blog post&lt;/article&gt;\n  &lt;aside&gt;related&lt;/aside&gt;\n&lt;/main&gt;\n&lt;footer&gt;copyright&lt;/footer&gt;</code></pre>",
+        "explanation": "Each div is replaced with its semantic equivalent: header, main, article, aside, footer. The layout is the same, but now it has meaning."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Why is semantic HTML good for SEO?",
+        "hint": "Think about what Google sees.",
+        "answer": "Google reads your HTML to understand page structure. Semantic tags tell Google what is a heading, what is navigation, what is the main content, and what is an article. This helps rank your page correctly.",
+        "explanation": "Div soup tells Google nothing. Semantic tags give Google a clear map of your page, which improves search ranking and helps Google show better previews."
+      },
+      {
+        "id": "ts-17",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Build a semantic layout for a news article: the article has a header with h1 and publish time, 2 paragraphs, a figure with image and caption, and an address with the reporter's name.",
+        "hint": "article > header, p, p, figure, address.",
+        "answer": "<pre><code>&lt;article&gt;\n  &lt;header&gt;\n    &lt;h1&gt;Breaking News&lt;/h1&gt;\n    &lt;time datetime=\"2026-04-11\"&gt;11 April 2026&lt;/time&gt;\n  &lt;/header&gt;\n  &lt;p&gt;First paragraph of the story.&lt;/p&gt;\n  &lt;p&gt;More details follow.&lt;/p&gt;\n  &lt;figure&gt;\n    &lt;img src=\"news.jpg\" alt=\"News photo\"&gt;\n    &lt;figcaption&gt;Photo from the scene.&lt;/figcaption&gt;\n  &lt;/figure&gt;\n  &lt;address&gt;Reported by Priya Sharma&lt;/address&gt;\n&lt;/article&gt;</code></pre>",
+        "explanation": "A semantic news article using article, header, time, figure, figcaption, and address together."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does the datetime attribute on the time tag do?",
+        "hint": "It makes the date readable by computers.",
+        "answer": "It provides a machine-readable version of the date in ISO format (like 2026-04-11), even if the visible text is formatted differently.",
+        "explanation": "Humans can read '11 April 2026', but computers prefer '2026-04-11'. The datetime attribute gives both."
+      },
+      {
+        "id": "ts-19",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Priya wrote this but the page feels wrong semantically. What should the divs become?<br><pre><code>&lt;div class=\"header\"&gt;\n  &lt;div class=\"title\"&gt;Blog&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"posts\"&gt;\n  &lt;div class=\"post\"&gt;Post 1&lt;/div&gt;\n  &lt;div class=\"post\"&gt;Post 2&lt;/div&gt;\n&lt;/div&gt;</code></pre>",
+        "hint": "header for the header, main for posts, article for each post.",
+        "answer": "<pre><code>&lt;header&gt;\n  &lt;h1&gt;Blog&lt;/h1&gt;\n&lt;/header&gt;\n&lt;main&gt;\n  &lt;article&gt;Post 1&lt;/article&gt;\n  &lt;article&gt;Post 2&lt;/article&gt;\n&lt;/main&gt;</code></pre>",
+        "explanation": "Also, the title div should be an h1 (a heading). The posts div becomes main, each post div becomes an article."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Should every img tag be wrapped in a figure?",
+        "hint": "Figure is for specific types of content.",
+        "answer": "No. Use <figure> only for images that are meaningful content (illustrations, diagrams, photos with captions). Decorative images like logos and icons do not need figure.",
+        "explanation": "Figure adds semantic weight — it says this image is content, not decoration. Using it everywhere dilutes its meaning."
+      },
+      {
+        "id": "ts-21",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Build a complete semantic HTML page for a blog with: a site header (logo + nav), main area with 2 blog articles (each with own header and footer), an aside for related posts, and a site footer.",
+        "hint": "Combine header, nav, main, article, aside, footer.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;body&gt;\n&lt;header&gt;\n  &lt;h1&gt;Tech Blog&lt;/h1&gt;\n  &lt;nav&gt;\n    &lt;ul&gt;\n      &lt;li&gt;&lt;a href=\"/\"&gt;Home&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\"/about\"&gt;About&lt;/a&gt;&lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/nav&gt;\n&lt;/header&gt;\n&lt;main&gt;\n  &lt;article&gt;\n    &lt;header&gt;\n      &lt;h2&gt;Post 1&lt;/h2&gt;\n      &lt;time datetime=\"2026-04-10\"&gt;10 April&lt;/time&gt;\n    &lt;/header&gt;\n    &lt;p&gt;First post content.&lt;/p&gt;\n    &lt;footer&gt;Tags: html&lt;/footer&gt;\n  &lt;/article&gt;\n  &lt;article&gt;\n    &lt;header&gt;\n      &lt;h2&gt;Post 2&lt;/h2&gt;\n      &lt;time datetime=\"2026-04-09\"&gt;9 April&lt;/time&gt;\n    &lt;/header&gt;\n    &lt;p&gt;Second post content.&lt;/p&gt;\n    &lt;footer&gt;Tags: css&lt;/footer&gt;\n  &lt;/article&gt;\n  &lt;aside&gt;\n    &lt;h3&gt;Popular Posts&lt;/h3&gt;\n    &lt;ul&gt;&lt;li&gt;&lt;a href=\"#\"&gt;Link&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;\n  &lt;/aside&gt;\n&lt;/main&gt;\n&lt;footer&gt;\n  &lt;p&gt;&amp;copy; 2026 Tech Blog&lt;/p&gt;\n&lt;/footer&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "Full semantic blog page: site header (with nav), main containing articles and aside, and site footer. Each article has its own inner header and footer."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "How do screen readers benefit from semantic HTML?",
+        "hint": "Screen readers announce things and let users navigate.",
+        "answer": "Screen readers can announce landmarks (header, nav, main, footer) and let users jump between them. Users can list all headings, skip to main, or find the nav — none of which works with plain divs.",
+        "explanation": "Semantic HTML creates an outline of the page that screen readers use for navigation. Blind users depend on this to use the web efficiently."
+      },
+      {
+        "id": "ts-23",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "Rohan wrote this and claims it is semantic. What is still wrong?<br><pre><code>&lt;main&gt;\n  &lt;header&gt;Site Title&lt;/header&gt;\n  &lt;nav&gt;Menu&lt;/nav&gt;\n  &lt;div&gt;Article 1&lt;/div&gt;\n  &lt;div&gt;Article 2&lt;/div&gt;\n&lt;/main&gt;</code></pre>",
+        "hint": "Two things: site header/nav in wrong place, and divs should be articles.",
+        "answer": "(1) The site header and nav should be OUTSIDE main, not inside. (2) The divs should be <code>&lt;article&gt;</code> tags since they represent standalone content.",
+        "explanation": "main should contain only the unique page content. The site header and nav go as siblings of main. And each content block should use the article tag."
+      },
+      {
+        "id": "ts-24",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Is it valid to put a <header> inside an <article>?",
+        "hint": "Yes, and it has a specific purpose.",
+        "answer": "Yes, absolutely. An <article> can have its own <header> containing the article's title, author, and publish date. This is separate from the page's main header.",
+        "explanation": "Header is not limited to the page top — it represents the introduction of whatever contains it. A page has a page header, an article has an article header. Both are valid."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which tag wraps the main navigation of a site?",
+        "hint": "Short for navigation.",
+        "answer": "<code>&lt;nav&gt;</code>",
+        "explanation": "<code>&lt;nav&gt;</code> wraps the main navigation links of a site."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a simple semantic structure: header with h1 'Hello', main with a paragraph 'Welcome', and footer with '2026'.",
+        "hint": "Three top-level tags.",
+        "answer": "<pre><code>&lt;header&gt;\n  &lt;h1&gt;Hello&lt;/h1&gt;\n&lt;/header&gt;\n&lt;main&gt;\n  &lt;p&gt;Welcome&lt;/p&gt;\n&lt;/main&gt;\n&lt;footer&gt;\n  &lt;p&gt;2026&lt;/p&gt;\n&lt;/footer&gt;</code></pre>",
+        "explanation": "A minimal semantic page: header, main, footer as siblings."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the maximum number of <main> tags allowed on a page?",
+        "hint": "There is exactly one allowed.",
+        "answer": "One (exactly one main per page).",
+        "explanation": "HTML5 specifies that a page should have exactly one <code>&lt;main&gt;</code>. Use sections to divide content within main."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which tag is for a blog post, news article, or other standalone content?",
+        "hint": "It could be reposted elsewhere and still make sense.",
+        "answer": "<code>&lt;article&gt;</code>",
+        "explanation": "Article is for self-contained content that could stand alone on its own."
+      },
+      {
+        "id": "mx-5",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "What semantic tag should replace the div?<br><pre><code>&lt;div&gt;\n  &lt;p&gt;&amp;copy; 2026 My Site&lt;/p&gt;\n&lt;/div&gt;</code></pre>",
+        "hint": "Copyright info belongs at the bottom.",
+        "answer": "<code>&lt;footer&gt;</code>",
+        "explanation": "Copyright and site-wide closing info belong in a footer tag."
+      },
+      {
+        "id": "mx-6",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Create a semantic section with heading 'Our Services' containing 3 articles (service cards), each with its own h3 and paragraph.",
+        "hint": "section > h2, article, article, article.",
+        "answer": "<pre><code>&lt;section&gt;\n  &lt;h2&gt;Our Services&lt;/h2&gt;\n  &lt;article&gt;\n    &lt;h3&gt;Web Design&lt;/h3&gt;\n    &lt;p&gt;Beautiful websites.&lt;/p&gt;\n  &lt;/article&gt;\n  &lt;article&gt;\n    &lt;h3&gt;App Development&lt;/h3&gt;\n    &lt;p&gt;Mobile apps for iOS and Android.&lt;/p&gt;\n  &lt;/article&gt;\n  &lt;article&gt;\n    &lt;h3&gt;SEO&lt;/h3&gt;\n    &lt;p&gt;Rank higher on Google.&lt;/p&gt;\n  &lt;/article&gt;\n&lt;/section&gt;</code></pre>",
+        "explanation": "The section groups the thematic services area. Each service card is an article because it is self-contained content."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "True or false: an <article> can contain its own <header> and <footer>.",
+        "hint": "Think about blog posts having titles and tags.",
+        "answer": "True. An article commonly has an inner header (title, author, date) and inner footer (tags, share buttons).",
+        "explanation": "Headers and footers belong to their nearest containing element. The page has one header/footer, and each article can have its own."
+      },
+      {
+        "id": "mx-8",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Wrap a date in a time tag: '20 March 2026' with a proper datetime attribute.",
+        "hint": "ISO format is YYYY-MM-DD.",
+        "answer": "<pre><code>&lt;time datetime=\"2026-03-20\"&gt;20 March 2026&lt;/time&gt;</code></pre>",
+        "explanation": "ISO format (2026-03-20) is machine-readable while the visible text is human-friendly."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is div soup?",
+        "hint": "It describes a common mistake.",
+        "answer": "Using only <div> tags for everything on a page instead of semantic tags. It means nothing to browsers, search engines, or screen readers.",
+        "explanation": "Div soup is a slang term for messy, meaningless HTML. Semantic HTML is the cure."
+      },
+      {
+        "id": "mx-10",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Why is this wrong?<br><pre><code>&lt;section&gt;\n  &lt;p&gt;Just some random paragraphs.&lt;/p&gt;\n&lt;/section&gt;</code></pre>",
+        "hint": "Section should usually have a heading.",
+        "answer": "A <code>&lt;section&gt;</code> should have a heading (h1-h6) that names its theme. Without a heading, a plain div is more appropriate.",
+        "explanation": "Section is for thematic groups. No theme = no section. Add a heading or use a div."
+      },
+      {
+        "id": "mx-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Create a figure with an image (placeholder) and a caption that says 'Our office building'.",
+        "hint": "figure > img, figcaption.",
+        "answer": "<pre><code>&lt;figure&gt;\n  &lt;img src=\"office.jpg\" alt=\"Office building\"&gt;\n  &lt;figcaption&gt;Our office building&lt;/figcaption&gt;\n&lt;/figure&gt;</code></pre>",
+        "explanation": "Figure wraps the image and caption. figcaption holds the caption text."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the purpose of the <address> tag?",
+        "hint": "Not for any address - only contact info.",
+        "answer": "It holds contact information for the nearest article or for the whole page — email, phone, or author name.",
+        "explanation": "Address is specifically for contact info of the author of the page or article. It is NOT for random postal addresses that are just part of content."
+      },
+      {
+        "id": "mx-13",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write the semantic markup for a product card: an article with a figure (image), h3 (product name), p (description), p (price), and a button (Buy now).",
+        "hint": "article > figure, h3, p, p, button.",
+        "answer": "<pre><code>&lt;article&gt;\n  &lt;figure&gt;\n    &lt;img src=\"shoes.jpg\" alt=\"Running shoes\"&gt;\n  &lt;/figure&gt;\n  &lt;h3&gt;Running Shoes&lt;/h3&gt;\n  &lt;p&gt;Comfortable shoes for daily runs.&lt;/p&gt;\n  &lt;p&gt;Price: Rs 2499&lt;/p&gt;\n  &lt;button&gt;Buy Now&lt;/button&gt;\n&lt;/article&gt;</code></pre>",
+        "explanation": "A product card is a self-contained piece of content (you could copy-paste it anywhere), so article is the right tag."
+      },
+      {
+        "id": "mx-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Which three benefits does semantic HTML provide?",
+        "hint": "Think about search engines, users with disabilities, and other developers.",
+        "answer": "(1) Better SEO (search engines understand the structure). (2) Better accessibility (screen readers can navigate). (3) Better maintainability (easier to read and edit).",
+        "explanation": "These three benefits are why semantic HTML has become the standard. Modern browsers also use it for features like reader view."
+      },
+      {
+        "id": "mx-15",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "This layout is not properly semantic. List the changes needed:<br><pre><code>&lt;div&gt;Logo&lt;/div&gt;\n&lt;div&gt;&lt;ul&gt;&lt;li&gt;Home&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;\n&lt;div&gt;\n  &lt;div&gt;Blog post content&lt;/div&gt;\n&lt;/div&gt;\n&lt;div&gt;Copyright&lt;/div&gt;</code></pre>",
+        "hint": "5 divs to 5 semantic tags.",
+        "answer": "(1) First div → header. (2) Second div → nav. (3) Third div → main. (4) Inner div → article. (5) Last div → footer.",
+        "explanation": "Each div has a clear semantic meaning. Replacing them gives the page meaning without changing the layout."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which tag represents the navigation menu of a website?",
+        "options": {
+          "A": "<menu>",
+          "B": "<nav>",
+          "C": "<navigation>",
+          "D": "<links>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;nav&gt;</code> wraps the main navigation links of a site. <code>&lt;menu&gt;</code> exists but is rarely used and not for main nav."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "How many <main> tags should a page have?",
+        "options": {
+          "A": "Zero",
+          "B": "Exactly one",
+          "C": "One per section",
+          "D": "Unlimited"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> A page should have exactly one <code>&lt;main&gt;</code> containing the unique primary content."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which tag is for a standalone blog post?",
+        "options": {
+          "A": "<section>",
+          "B": "<article>",
+          "C": "<post>",
+          "D": "<div>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;article&gt;</code> is for self-contained content like blog posts, news articles, and product cards. <code>&lt;section&gt;</code> is for thematic groupings within a page."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which tag is for content related to but separate from the main content (like a sidebar)?",
+        "options": {
+          "A": "<side>",
+          "B": "<sidebar>",
+          "C": "<aside>",
+          "D": "<extra>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>&lt;aside&gt;</code> is for tangentially related content — sidebars, pull quotes, related links."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What tag should wrap an image with a caption?",
+        "options": {
+          "A": "<caption>",
+          "B": "<figure>",
+          "C": "<img-caption>",
+          "D": "<picture>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;figure&gt;</code> wraps content (image, diagram, code) that has a caption using <code>&lt;figcaption&gt;</code>."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which tag holds a machine-readable date?",
+        "options": {
+          "A": "<date>",
+          "B": "<time>",
+          "C": "<datetime>",
+          "D": "<clock>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>&lt;time&gt;</code> tag with a <code>datetime</code> attribute lets browsers and search engines understand dates."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "Which tag is used at the bottom of a page for copyright and site info?",
+        "options": {
+          "A": "<bottom>",
+          "B": "<footer>",
+          "C": "<end>",
+          "D": "<copyright>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;footer&gt;</code> wraps the bottom part of a page or section. Commonly holds copyright, contact info, and footer links."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Easy",
+        "question": "What is 'div soup'?",
+        "options": {
+          "A": "A type of CSS",
+          "B": "A popular framework",
+          "C": "Using only <div> tags instead of semantic tags",
+          "D": "A way to style divs"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Div soup is slang for HTML that uses only div tags, giving the page no semantic meaning. Semantic HTML is the fix."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Easy",
+        "question": "Which tag is used for the header of a page or article?",
+        "options": {
+          "A": "<head>",
+          "B": "<top>",
+          "C": "<header>",
+          "D": "<h1>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>&lt;header&gt;</code> is the semantic header tag. <code>&lt;head&gt;</code> is the meta-information section of an HTML document (not visible)."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Easy",
+        "question": "What is the main benefit of using semantic HTML for SEO?",
+        "options": {
+          "A": "Faster loading",
+          "B": "Helps search engines understand page structure",
+          "C": "Automatic translations",
+          "D": "Better CSS"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Search engines use semantic tags to understand what parts of your page are navigation, main content, headings, and so on. This helps them rank your page correctly."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Where should the site-wide header and footer be placed relative to <main>?",
+        "options": {
+          "A": "Inside <main>",
+          "B": "As siblings of <main>",
+          "C": "Inside <body> but wrapped in <main>",
+          "D": "Anywhere on the page"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The site header and footer are NOT part of the main content. They should be siblings of <code>&lt;main&gt;</code> (header above, footer below)."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Can an <article> contain its own <header> and <footer>?",
+        "options": {
+          "A": "No, only the page can have a header",
+          "B": "Yes, an article can have its own header and footer",
+          "C": "Only if the article is the only one on the page",
+          "D": "Only the header, not the footer"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Header and footer belong to their nearest containing element. An article can have its own header (title, author) and footer (tags, metadata)."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "Which is correct for a list of blog posts on a homepage?",
+        "options": {
+          "A": "<main><div class='post'>...</div></main>",
+          "B": "<main><article>...</article><article>...</article></main>",
+          "C": "<main><section>Post 1</section><section>Post 2</section></main>",
+          "D": "<article><main>Post 1</main><main>Post 2</main></article>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Each blog post is a standalone piece of content, so wrap each in <code>&lt;article&gt;</code>. The main tag contains all the articles."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "Which tag should you use for the contact info of a page's author?",
+        "options": {
+          "A": "<contact>",
+          "B": "<address>",
+          "C": "<info>",
+          "D": "<footer>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;address&gt;</code> is specifically for the author's contact info. It is NOT for random postal addresses that are part of regular content."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "When should you use <section> over <div>?",
+        "options": {
+          "A": "Never",
+          "B": "When the content has a heading and is a thematic group",
+          "C": "For every container",
+          "D": "Only in the main tag"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Use <code>&lt;section&gt;</code> when you have a thematic group of content, usually with a heading. Use <code>&lt;div&gt;</code> for purely presentational/styling wrappers that have no semantic meaning."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What is the difference between article and section?",
+        "options": {
+          "A": "They are the same",
+          "B": "Article is standalone content; section is a thematic part of a page",
+          "C": "Section is for blog posts; article is for pages",
+          "D": "Article is bigger than section"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Article = standalone content that could be reposted elsewhere. Section = a thematic group that only makes sense in context."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "Which semantic tag is best for the author and publish date of a blog post?",
+        "options": {
+          "A": "<aside>",
+          "B": "<header> (inside the article)",
+          "C": "<footer>",
+          "D": "<section>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The article's own <code>&lt;header&gt;</code> is the right place for its title, author, and publish date — the intro info for that article."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "Which tag pair is used to add a caption to an image?",
+        "options": {
+          "A": "<caption>...</caption>",
+          "B": "<figure> with <figcaption>",
+          "C": "<img-caption>",
+          "D": "<alt>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Wrap the image in <code>&lt;figure&gt;</code> and add a <code>&lt;figcaption&gt;</code> inside for the caption."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "Which is the MOST semantic structure for a news website homepage?",
+        "options": {
+          "A": "<div class='page'><div class='header'>...<div class='body'>...",
+          "B": "<header><nav>...</nav></header><main><article>...</article></main><footer>...</footer>",
+          "C": "<main><header>...</header><body>...</body><footer>...</footer></main>",
+          "D": "<section><section>...</section><section>...</section></section>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Proper semantic structure: site header (with nav) at the top, main containing articles, and site footer at the bottom. The header and footer are siblings of main, not inside it."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "Why is semantic HTML better than div soup for accessibility?",
+        "options": {
+          "A": "It is not, they are the same",
+          "B": "Screen readers can navigate by landmark tags (header, nav, main, footer)",
+          "C": "Semantic tags load faster",
+          "D": "Divs don't work in modern browsers"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Screen readers use semantic landmarks to help users navigate quickly. Blind users can jump directly to the main content, skipping repetitive headers and navs. Divs offer no such shortcut."
+      },
+      {
+        "id": "mcq-21",
+        "difficulty": "Hard",
+        "question": "Which of these is the BEST use case for the <aside> tag?",
+        "options": {
+          "A": "The main navigation bar",
+          "B": "A related posts sidebar next to a blog article",
+          "C": "The page footer",
+          "D": "The primary heading of the page"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;aside&gt;</code> is for content that is related to the main content but not essential — a related posts sidebar fits perfectly. Navigation is for <code>&lt;nav&gt;</code>."
+      },
+      {
+        "id": "mcq-22",
+        "difficulty": "Hard",
+        "question": "An <article> can only exist once per page. True or false?",
+        "options": {
+          "A": "True",
+          "B": "False - you can have as many articles as you want",
+          "C": "True - only one article is allowed",
+          "D": "Only if inside main"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> You can have unlimited <code>&lt;article&gt;</code> tags on a page. Blog homepages often have many articles — one for each post. Only <code>&lt;main&gt;</code> has the one-per-page rule."
+      },
+      {
+        "id": "mcq-23",
+        "difficulty": "Hard",
+        "question": "Which statement about semantic HTML is FALSE?",
+        "options": {
+          "A": "It helps SEO",
+          "B": "It helps accessibility",
+          "C": "It makes code harder to maintain",
+          "D": "It gives HTML meaning"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is false (and therefore the correct answer).</strong> Semantic HTML makes code EASIER to maintain, not harder. Tags like <code>&lt;article&gt;</code> are self-explanatory compared to <code>&lt;div class=\"box-3\"&gt;</code>."
+      },
+      {
+        "id": "mcq-24",
+        "difficulty": "Hard",
+        "question": "Which attribute on <time> makes the date machine-readable?",
+        "options": {
+          "A": "date",
+          "B": "datetime",
+          "C": "value",
+          "D": "content"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;time datetime=\"2026-04-11\"&gt;</code>. The datetime attribute holds the ISO-formatted date that computers can parse."
+      },
+      {
+        "id": "mcq-25",
+        "difficulty": "Hard",
+        "question": "If a page has a sidebar with related articles beside the main content, which two tags should you use?",
+        "options": {
+          "A": "<main> and <section>",
+          "B": "<main> and <aside>",
+          "C": "<article> and <div>",
+          "D": "<section> and <footer>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Use <code>&lt;main&gt;</code> for the primary content and <code>&lt;aside&gt;</code> for the sidebar with related articles."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Semantic Homepage Layout",
+        "difficulty": "Easy",
+        "description": "Build a basic semantic page with a header (site title), main (one paragraph of welcome text), and a footer (copyright).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A page with 3 semantic sections: header, main, footer.",
+        "constraints": "Use header, main, footer tags. No divs.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Home</title>\n</head>\n<body>\n  <header>\n    <h1>Welcome to Modern Age Coders</h1>\n  </header>\n  <main>\n    <p>We teach kids and teens to code. Join us on this journey of learning!</p>\n  </main>\n  <footer>\n    <p>&copy; 2026 Modern Age Coders. All rights reserved.</p>\n  </footer>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Site with Navigation",
+        "difficulty": "Easy",
+        "description": "Create a semantic page with a header that contains an h1 and a nav with 4 links: Home, About, Blog, Contact.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A header with site title and a 4-link navigation menu.",
+        "constraints": "Use header, nav, ul, li, and a tags.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My Blog</title>\n  <style>\n    nav ul { list-style: none; display: flex; gap: 20px; padding: 0; }\n  </style>\n</head>\n<body>\n  <header>\n    <h1>Aarav's Blog</h1>\n    <nav>\n      <ul>\n        <li><a href=\"/\">Home</a></li>\n        <li><a href=\"/about\">About</a></li>\n        <li><a href=\"/blog\">Blog</a></li>\n        <li><a href=\"/contact\">Contact</a></li>\n      </ul>\n    </nav>\n  </header>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Semantic Blog Post",
+        "difficulty": "Medium",
+        "description": "Build an article for a blog post with: inner header (h1 title, author name, time with datetime), 2 paragraphs of content, and an inner footer with tags.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A complete blog post article with title, author, body, and tags.",
+        "constraints": "Use article, header, time, footer. Real datetime attribute.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Blog Post</title>\n</head>\n<body>\n  <article>\n    <header>\n      <h1>Why I Love HTML</h1>\n      <p>By Priya Sharma - <time datetime=\"2026-04-11\">11 April 2026</time></p>\n    </header>\n    <p>HTML is the foundation of the web. Every site starts with HTML. It is simple, powerful, and fun to learn.</p>\n    <p>I started learning HTML at age 10, and within a month I built my first website. You can too.</p>\n    <footer>\n      <p>Tags: html, beginners, web-development</p>\n    </footer>\n  </article>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "News Article with Figure",
+        "difficulty": "Medium",
+        "description": "Build a semantic news article with: header (h1, time), two paragraphs, a figure with an image (use placeholder URL) and a figcaption, and an address tag for the reporter.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A complete news article layout with figure and reporter contact.",
+        "constraints": "Use article, header, time, figure, figcaption, address.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>News</title>\n  <style>\n    body { font-family: Georgia; max-width: 700px; margin: auto; padding: 20px; }\n    figure img { max-width: 100%; }\n    figcaption { font-style: italic; color: #666; }\n  </style>\n</head>\n<body>\n  <article>\n    <header>\n      <h1>India Tops International Coding Olympiad</h1>\n      <p><time datetime=\"2026-04-10\">10 April 2026</time></p>\n    </header>\n    <p>Team India won the International Coding Olympiad in Tokyo yesterday, securing 3 gold medals.</p>\n    <p>The team of 4 students from Mumbai, Delhi, and Bangalore beat 50 other countries in a 3-day competition.</p>\n    <figure>\n      <img src=\"https://via.placeholder.com/600x300\" alt=\"Team India winning the olympiad\">\n      <figcaption>Team India celebrating their win in Tokyo.</figcaption>\n    </figure>\n    <address>\n      Reported by Rohan Kumar - <a href=\"mailto:rohan@news.com\">rohan@news.com</a>\n    </address>\n  </article>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Landing Page with Sections",
+        "difficulty": "Medium",
+        "description": "Build a landing page with a header (with nav), main containing 3 sections (About, Features, Contact), and a footer. Each section should have an h2.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A landing page with clearly divided thematic sections.",
+        "constraints": "Use header, nav, main, section, footer.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Landing Page</title>\n  <style>\n    body { font-family: Arial; margin: 0; }\n    header, footer { background: #333; color: white; padding: 20px; }\n    section { padding: 30px 20px; }\n    section:nth-child(even) { background: #f5f5f5; }\n    nav ul { list-style: none; display: flex; gap: 20px; padding: 0; }\n    nav a { color: white; }\n  </style>\n</head>\n<body>\n  <header>\n    <h1>SuperSite</h1>\n    <nav>\n      <ul>\n        <li><a href=\"#about\">About</a></li>\n        <li><a href=\"#features\">Features</a></li>\n        <li><a href=\"#contact\">Contact</a></li>\n      </ul>\n    </nav>\n  </header>\n  <main>\n    <section id=\"about\">\n      <h2>About Us</h2>\n      <p>We build awesome stuff.</p>\n    </section>\n    <section id=\"features\">\n      <h2>Features</h2>\n      <p>Fast, beautiful, and easy to use.</p>\n    </section>\n    <section id=\"contact\">\n      <h2>Contact</h2>\n      <p>Email us at hello@supersite.com</p>\n    </section>\n  </main>\n  <footer>\n    <p>&copy; 2026 SuperSite</p>\n  </footer>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Blog Home with Articles and Sidebar",
+        "difficulty": "Hard",
+        "description": "Build a blog homepage with a header (nav), main containing 3 articles and an aside (sidebar with popular posts and author bio), and a footer. Style it so the aside sits beside the articles.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A blog homepage with a main content area and a sidebar.",
+        "constraints": "Use all major semantic tags. Use flex or grid for layout.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Blog</title>\n  <style>\n    body { font-family: Arial; margin: 0; }\n    header, footer { background: #2c3e50; color: white; padding: 20px; }\n    nav ul { list-style: none; padding: 0; display: flex; gap: 20px; }\n    nav a { color: white; text-decoration: none; }\n    main { display: flex; gap: 20px; padding: 20px; max-width: 1000px; margin: auto; }\n    .articles { flex: 2; }\n    aside { flex: 1; background: #f0f0f0; padding: 15px; height: fit-content; }\n    article { background: white; border: 1px solid #ddd; padding: 15px; margin-bottom: 15px; border-radius: 8px; }\n  </style>\n</head>\n<body>\n  <header>\n    <h1>My Blog</h1>\n    <nav>\n      <ul>\n        <li><a href=\"/\">Home</a></li>\n        <li><a href=\"/about\">About</a></li>\n      </ul>\n    </nav>\n  </header>\n  <main>\n    <div class=\"articles\">\n      <article>\n        <header>\n          <h2>Post 1</h2>\n          <time datetime=\"2026-04-10\">10 April</time>\n        </header>\n        <p>First post.</p>\n      </article>\n      <article>\n        <header>\n          <h2>Post 2</h2>\n          <time datetime=\"2026-04-08\">8 April</time>\n        </header>\n        <p>Second post.</p>\n      </article>\n      <article>\n        <header>\n          <h2>Post 3</h2>\n          <time datetime=\"2026-04-05\">5 April</time>\n        </header>\n        <p>Third post.</p>\n      </article>\n    </div>\n    <aside>\n      <h3>Popular Posts</h3>\n      <ul>\n        <li><a href=\"#\">HTML Guide</a></li>\n        <li><a href=\"#\">CSS Tips</a></li>\n      </ul>\n      <h3>About Author</h3>\n      <p>Ananya is a teen developer from Pune.</p>\n    </aside>\n  </main>\n  <footer>\n    <p>&copy; 2026 My Blog</p>\n  </footer>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-7",
+        "title": "Product Catalog Page",
+        "difficulty": "Hard",
+        "description": "Build a product catalog: header with nav, main with a section 'Our Products' containing 4 articles (product cards). Each article has a figure (image), h3 (product name), p (description), p (price), and a button. Also add a footer.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A product catalog with 4 semantically correct product cards.",
+        "constraints": "Use section for grouping, article for each card, figure for images.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Products</title>\n  <style>\n    body { font-family: Arial; margin: 0; }\n    header, footer { background: #1a1a2e; color: white; padding: 15px 20px; }\n    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; padding: 20px; }\n    article { background: white; border: 1px solid #ddd; padding: 15px; border-radius: 8px; }\n    figure { margin: 0; }\n    figure img { width: 100%; border-radius: 5px; }\n    button { background: #22c55e; color: white; border: none; padding: 8px 15px; cursor: pointer; border-radius: 4px; }\n  </style>\n</head>\n<body>\n  <header>\n    <h1>Shop</h1>\n    <nav>\n      <a href=\"/\" style=\"color:white\">Home</a>\n    </nav>\n  </header>\n  <main>\n    <section>\n      <h2 style=\"padding: 20px;\">Our Products</h2>\n      <div class=\"products\">\n        <article>\n          <figure><img src=\"https://via.placeholder.com/200\" alt=\"Product 1\"></figure>\n          <h3>Running Shoes</h3>\n          <p>Comfortable for daily runs.</p>\n          <p><strong>Rs 2499</strong></p>\n          <button>Add to Cart</button>\n        </article>\n        <article>\n          <figure><img src=\"https://via.placeholder.com/200\" alt=\"Product 2\"></figure>\n          <h3>Backpack</h3>\n          <p>Spacious and durable.</p>\n          <p><strong>Rs 1299</strong></p>\n          <button>Add to Cart</button>\n        </article>\n        <article>\n          <figure><img src=\"https://via.placeholder.com/200\" alt=\"Product 3\"></figure>\n          <h3>Headphones</h3>\n          <p>Noise cancelling.</p>\n          <p><strong>Rs 3999</strong></p>\n          <button>Add to Cart</button>\n        </article>\n        <article>\n          <figure><img src=\"https://via.placeholder.com/200\" alt=\"Product 4\"></figure>\n          <h3>Water Bottle</h3>\n          <p>Keeps water cold for 24 hours.</p>\n          <p><strong>Rs 699</strong></p>\n          <button>Add to Cart</button>\n        </article>\n      </div>\n    </section>\n  </main>\n  <footer>\n    <p>&copy; 2026 Shop</p>\n  </footer>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-8",
+        "title": "Convert Div Soup to Semantic HTML",
+        "difficulty": "Hard",
+        "description": "Take this div-based HTML and rewrite it as fully semantic HTML:<br><code>&lt;div id='top'&gt;Logo&lt;/div&gt;&lt;div id='menu'&gt;...links...&lt;/div&gt;&lt;div id='content'&gt;&lt;div class='card'&gt;Post 1&lt;/div&gt;&lt;div class='card'&gt;Post 2&lt;/div&gt;&lt;/div&gt;&lt;div id='side'&gt;Ads&lt;/div&gt;&lt;div id='bottom'&gt;Copyright&lt;/div&gt;</code>",
+        "sampleInput": "The div-based HTML above",
+        "sampleOutput": "Fully semantic version with header, nav, main, article, aside, footer.",
+        "constraints": "Preserve the layout but use only semantic tags (no divs).",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <header>\n    <h1>Site Logo</h1>\n    <nav>\n      <ul>\n        <li><a href=\"/\">Home</a></li>\n        <li><a href=\"/about\">About</a></li>\n      </ul>\n    </nav>\n  </header>\n  <main>\n    <article>\n      <h2>Post 1</h2>\n      <p>First post content.</p>\n    </article>\n    <article>\n      <h2>Post 2</h2>\n      <p>Second post content.</p>\n    </article>\n    <aside>\n      <h3>Ads</h3>\n      <p>Advertisement area.</p>\n    </aside>\n  </main>\n  <footer>\n    <p>&copy; 2026 My Site</p>\n  </footer>\n</body>\n</html>"
+      }
+    ]
+  }
+}

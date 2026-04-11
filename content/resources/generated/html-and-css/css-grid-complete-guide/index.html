@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid - The Complete Guide - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Master grid-template-columns, grid-template-rows, gap, grid-area, and build complex layouts with ease.">
+    <meta name="keywords" content="css grid - the complete guide, html and css tutorial, html and css css grid - the complete guide, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/css-grid-complete-guide">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/css-grid-complete-guide">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/css-grid-complete-guide">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/css-grid-complete-guide">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/css-grid-complete-guide">
+    <meta property="og:title" content="CSS Grid - The Complete Guide - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Master grid-template-columns, grid-template-rows, gap, grid-area, and build complex layouts with ease.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/css-grid-complete-guide">
+    <meta name="twitter:title" content="CSS Grid - The Complete Guide - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Master grid-template-columns, grid-template-rows, gap, grid-area, and build complex layouts with ease.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "CSS Grid - The Complete Guide",
+    "description": "Master grid-template-columns, grid-template-rows, gap, grid-area, and build complex layouts with ease.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/css-grid-complete-guide"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/css-grid-complete-guide"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "CSS Grid - The Complete Guide",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/css-grid-complete-guide"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting display: grid on the Parent",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Grid properties only take effect when the container has <code>display: grid</code> (or <code>inline-grid</code>). Without that, nothing becomes a grid and all your template columns are ignored."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using px Instead of fr for Flexible Columns",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>fr</code> unit represents a fraction of available space, so columns adapt to their container. Use <code>1fr</code> (or <code>minmax()</code>) for flexible widths and reserve px only for truly fixed sizes like sidebars."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "auto-fill vs auto-fit Confusion",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>auto-fit</code> collapses empty tracks and lets real items stretch. <code>auto-fill</code> keeps empty tracks, which is useful if you want consistent item widths regardless of count. For galleries and card layouts, auto-fit is almost always what you want."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Off-by-One Errors with Grid Lines",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Grid lines are numbered starting from 1 and sit BETWEEN cells. A 3-column grid has 4 lines. <code>grid-column: 1 / 4</code> goes from line 1 to line 4 and covers 3 columns. Using <code>span N</code> is usually clearer because it tells you how many columns to cover."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">CSS Grid - The Complete Guide</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 16</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">45 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">CSS Grid - The Complete Guide</h1>
+            <a href="/resources/html-and-css/css-grid-complete-guide/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is CSS Grid?</h2><p>CSS Grid is a two-dimensional layout system built into CSS. Unlike Flexbox, which arranges items in a single row or column at a time, Grid lets you control BOTH rows and columns simultaneously. It is the most powerful layout tool CSS has ever had.</p><p>Think of Grid like a spreadsheet: you define rows and columns, then place items into specific cells. You can make items span multiple cells, create named areas, and build layouts that would have required tables, floats, or complicated JavaScript in the past.</p><pre><code>.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;  /* 3 equal columns */
+  grid-template-rows: 100px 200px;     /* 2 rows */
+  gap: 20px;                            /* space between cells */
+}</code></pre><p>That is it. Four lines and you have a professional grid layout that works everywhere from mobile phones to large monitors.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn CSS Grid?</h2><h3>1. Real-World Layouts Are 2D</h3><p>Almost every modern website uses grid layouts: dashboards, photo galleries, magazine pages, product listings, admin panels, blog grids. Flexbox can only handle one dimension at a time. Grid handles both rows and columns, which matches how designers actually think about layouts.</p><h3>2. Responsive Without Media Queries</h3><p>One of the most magical things about Grid: with <code>repeat(auto-fit, minmax(250px, 1fr))</code>, you can build a fully responsive card layout that automatically adjusts from 1 column on mobile to 2, 3, 4, or more columns on larger screens — without writing a single media query. This is game-changing.</p><h3>3. Named Grid Areas Are Beautiful</h3><p>Grid lets you name areas of your layout (header, sidebar, main, footer) and then draw the layout visually with <code>grid-template-areas</code>. Your CSS actually looks like the layout it creates. Nothing else in CSS is that intuitive.</p><h3>4. Less HTML, Less CSS</h3><p>Layouts that used to require nested div wrappers, float hacks, or multiple Flexbox containers can now be done with a single grid parent. Less markup means faster pages and easier maintenance.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Turning on Grid: display: grid</h3><p>The parent element becomes a grid container. All direct children become grid items automatically:</p><pre><code>.container {
+  display: grid;
+}</code></pre><p>Without defining columns, all children will stack in a single column. You need <code>grid-template-columns</code> to get multiple columns.</p><h3>2. grid-template-columns - Defining Columns</h3><p>This is where you describe how many columns the grid has and how wide each should be. You can mix many unit types:</p><pre><code>/* Three fixed columns */
+grid-template-columns: 200px 200px 200px;
+
+/* Mixed - fixed sidebar + flexible main */
+grid-template-columns: 250px 1fr;
+
+/* The fr unit: fractional share of free space */
+grid-template-columns: 1fr 2fr 1fr;  /* middle is twice as wide */
+
+/* repeat() shortcut */
+grid-template-columns: repeat(4, 1fr);  /* 4 equal columns */
+
+/* minmax() - minimum and maximum */
+grid-template-columns: minmax(200px, 1fr) 3fr;
+/* First column: never less than 200px, can grow with space */</code></pre><h3>3. The Magic Line: repeat(auto-fit, minmax(250px, 1fr))</h3><p>This is the most useful grid line you will ever write. It creates a responsive grid that fits as many columns as possible, where each column is at least 250px wide. On a phone, you get 1 column. On a tablet, 2. On a desktop, 3 or 4. All without media queries.</p><pre><code>.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}</code></pre><p><strong>auto-fit</strong> vs <strong>auto-fill</strong>: auto-fit collapses empty columns so remaining items stretch; auto-fill keeps empty columns. For most galleries, use auto-fit.</p><h3>4. grid-template-rows and gap</h3><pre><code>.container {
+  grid-template-rows: 100px auto 60px;  /* header, content, footer */
+  gap: 16px;                             /* same gap both directions */
+  row-gap: 20px;                         /* different row/column gaps */
+  column-gap: 12px;
+}</code></pre><h3>5. Placing Items - grid-column and grid-row</h3><p>By default, items fill cells in order. You can override this:</p><pre><code>.hero {
+  grid-column: 1 / 4;     /* starts at line 1, ends at line 4 (spans 3 columns) */
+  grid-row: 1 / 2;
+}
+
+.wide-card {
+  grid-column: span 2;    /* shorthand: span 2 columns from where it naturally lands */
+}
+
+.featured {
+  grid-column: 1 / -1;    /* -1 means "to the end" - spans ALL columns */
+}</code></pre><h3>6. Named Grid Areas - The Beautiful Way</h3><p>You can name cells and then draw your layout:</p><pre><code>.page {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header  header"
+    "sidebar main"
+    "footer  footer";
+  min-height: 100vh;
+}
+
+.page header  { grid-area: header; }
+.page aside   { grid-area: sidebar; }
+.page main    { grid-area: main; }
+.page footer  { grid-area: footer; }</code></pre><p>Look at <code>grid-template-areas</code> — that string IS the layout. Header spans both columns, sidebar and main sit side by side, footer spans both columns. Beautiful.</p><h3>7. Alignment - justify and align</h3><pre><code>.container {
+  justify-items: center;   /* horizontal align inside cells */
+  align-items: center;     /* vertical align inside cells */
+  justify-content: center; /* horizontal align of the whole grid */
+  align-content: center;   /* vertical align of the whole grid */
+}</code></pre><p>Shortcut: <code>place-items: center</code> sets both justify-items and align-items.</p><h3>8. Implicit vs Explicit Grid</h3><p>The grid you define with grid-template-columns/rows is the <em>explicit</em> grid. If you add more items than cells, the browser creates extra rows automatically — that is the <em>implicit</em> grid. Control implicit rows with <code>grid-auto-rows</code>:</p><pre><code>.container {
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;   /* every auto-created row is 200px tall */
+}</code></pre><h3>9. Grid vs Flexbox - When to Use Which</h3><p><strong>Use Flexbox</strong> when: laying out items in a single row or column (navbars, button groups, centered content, form fields).</p><p><strong>Use Grid</strong> when: laying out items in two dimensions (dashboards, galleries, page layouts, magazine designs, any layout where rows AND columns matter).</p><p>They are not competitors — modern websites use both. Grid for the page layout, Flexbox inside each grid cell.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Responsive Photo Gallery with auto-fit</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; background: #0f172a; color: #f1f5f9; padding: 24px; margin: 0; }
+    h1 { color: #a855f7; margin-bottom: 16px; }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .photo {
+      aspect-ratio: 4 / 3;
+      border-radius: 14px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-start;
+      padding: 16px;
+      color: white;
+      font-weight: 700;
+      font-size: 18px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+    .photo:hover { transform: translateY(-6px) scale(1.02); }
+    .p1 { background: linear-gradient(135deg, #a855f7, #ec4899); }
+    .p2 { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }
+    .p3 { background: linear-gradient(135deg, #f59e0b, #ef4444); }
+    .p4 { background: linear-gradient(135deg, #10b981, #06b6d4); }
+    .p5 { background: linear-gradient(135deg, #8b5cf6, #3b82f6); }
+    .p6 { background: linear-gradient(135deg, #ec4899, #f59e0b); }
+    .p7 { background: linear-gradient(135deg, #14b8a6, #84cc16); }
+    .p8 { background: linear-gradient(135deg, #f43f5e, #8b5cf6); }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Aarav&#39;s Photography Portfolio&lt;/h1&gt;
+  &lt;div class=&quot;gallery&quot;&gt;
+    &lt;div class=&quot;photo p1&quot;&gt;Mountains&lt;/div&gt;
+    &lt;div class=&quot;photo p2&quot;&gt;Ocean&lt;/div&gt;
+    &lt;div class=&quot;photo p3&quot;&gt;Desert&lt;/div&gt;
+    &lt;div class=&quot;photo p4&quot;&gt;Forest&lt;/div&gt;
+    &lt;div class=&quot;photo p5&quot;&gt;City&lt;/div&gt;
+    &lt;div class=&quot;photo p6&quot;&gt;Sunset&lt;/div&gt;
+    &lt;div class=&quot;photo p7&quot;&gt;Fields&lt;/div&gt;
+    &lt;div class=&quot;photo p8&quot;&gt;Night Sky&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The magic line <code>repeat(auto-fit, minmax(220px, 1fr))</code> creates a gallery that is fully responsive. On a phone you get 1 column, on a tablet 2 or 3, on a desktop 4 or 5. Resize the browser window and watch the grid reflow automatically. Zero media queries needed.</div><div class="code-example-output">A dark-themed photo gallery with 8 colorful gradient tiles that automatically rearrange into 1-5 columns depending on screen width. Tiles lift on hover.</div></div>
+<div class="code-example"><div class="code-example-title">Magazine Layout with grid-template-areas</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Georgia, serif; background: #fafaf9; padding: 24px; margin: 0; }
+    .magazine {
+      display: grid;
+      max-width: 1000px;
+      margin: 0 auto;
+      gap: 16px;
+      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-areas:
+        &quot;hero    hero    sidebar&quot;
+        &quot;hero    hero    sidebar&quot;
+        &quot;article card1   sidebar&quot;
+        &quot;article card2   card3&quot;;
+    }
+    .magazine &gt; div {
+      padding: 20px;
+      border-radius: 10px;
+      color: white;
+    }
+    .hero    { grid-area: hero;    background: linear-gradient(135deg, #7c3aed, #db2777); font-size: 28px; display: flex; align-items: center; }
+    .sidebar { grid-area: sidebar; background: #1e293b; }
+    .article { grid-area: article; background: #0891b2; }
+    .card1   { grid-area: card1;   background: #dc2626; }
+    .card2   { grid-area: card2;   background: #ea580c; }
+    .card3   { grid-area: card3;   background: #059669; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;magazine&quot;&gt;
+    &lt;div class=&quot;hero&quot;&gt;The Rise of Young Coders in India&lt;/div&gt;
+    &lt;div class=&quot;sidebar&quot;&gt;&lt;h3&gt;Trending&lt;/h3&gt;&lt;p&gt;Top 10 stories this week about Priya, Rohan, and more.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;article&quot;&gt;&lt;h3&gt;Feature Story&lt;/h3&gt;&lt;p&gt;How Ishita built her first AI model at age 14.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;card1&quot;&gt;&lt;h4&gt;Tech&lt;/h4&gt;&lt;p&gt;New CSS features.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;card2&quot;&gt;&lt;h4&gt;Design&lt;/h4&gt;&lt;p&gt;Color trends 2026.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;card3&quot;&gt;&lt;h4&gt;Career&lt;/h4&gt;&lt;p&gt;Junior dev guide.&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The <code>grid-template-areas</code> string IS the layout. Look at how clearly you can see the structure in CSS. The hero occupies a 2x2 block in the top-left, sidebar runs down the right side for 3 rows, the article column sits on the left bottom, and three smaller cards fill the rest. Each child uses <code>grid-area</code> to claim its named spot.</div><div class="code-example-output">A magazine-style layout with a large hero on top-left, a tall sidebar on the right, a feature article underneath the hero, and three small category cards.</div></div>
+<div class="code-example"><div class="code-example-title">Dashboard Layout with Named Areas</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #f1f5f9; }
+    .dashboard {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      grid-template-rows: 64px 1fr 48px;
+      grid-template-areas:
+        &quot;sidebar header&quot;
+        &quot;sidebar main&quot;
+        &quot;sidebar footer&quot;;
+      min-height: 100vh;
+    }
+    header  { grid-area: header; background: #ffffff; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); display: flex; align-items: center; justify-content: space-between; }
+    aside   { grid-area: sidebar; background: #0f172a; color: #cbd5e1; padding: 24px; }
+    main    { grid-area: main; padding: 24px; }
+    footer  { grid-area: footer; background: #e2e8f0; padding: 12px 24px; font-size: 13px; color: #64748b; display: flex; align-items: center; }
+    aside h2 { color: #a855f7; margin-bottom: 20px; }
+    aside a { display: block; padding: 10px 0; color: #cbd5e1; text-decoration: none; border-bottom: 1px solid #1e293b; }
+    aside a:hover { color: #a855f7; }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+    .stat { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .stat h3 { font-size: 28px; color: #a855f7; }
+    .stat p { color: #64748b; font-size: 14px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;dashboard&quot;&gt;
+    &lt;header&gt;&lt;strong&gt;Welcome back, Meera&lt;/strong&gt;&lt;span&gt;Sign out&lt;/span&gt;&lt;/header&gt;
+    &lt;aside&gt;
+      &lt;h2&gt;SkyPanel&lt;/h2&gt;
+      &lt;a href=&quot;#&quot;&gt;Overview&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Students&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Courses&lt;/a&gt;
+      &lt;a href=&quot;#&quot;&gt;Settings&lt;/a&gt;
+    &lt;/aside&gt;
+    &lt;main&gt;
+      &lt;h1&gt;Dashboard&lt;/h1&gt;
+      &lt;div class=&quot;stats&quot;&gt;
+        &lt;div class=&quot;stat&quot;&gt;&lt;h3&gt;1,284&lt;/h3&gt;&lt;p&gt;Active students&lt;/p&gt;&lt;/div&gt;
+        &lt;div class=&quot;stat&quot;&gt;&lt;h3&gt;42&lt;/h3&gt;&lt;p&gt;Courses live&lt;/p&gt;&lt;/div&gt;
+        &lt;div class=&quot;stat&quot;&gt;&lt;h3&gt;98%&lt;/h3&gt;&lt;p&gt;Completion rate&lt;/p&gt;&lt;/div&gt;
+        &lt;div class=&quot;stat&quot;&gt;&lt;h3&gt;4.9&lt;/h3&gt;&lt;p&gt;Average rating&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/main&gt;
+    &lt;footer&gt;Made with CSS Grid. No framework.&lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A classic dashboard layout: sidebar on the left, header on top, main content in the middle, footer at the bottom. The outer grid uses <code>grid-template-areas</code> for the page structure. Inside <code>main</code>, a nested grid with <code>auto-fit minmax</code> creates a responsive stats row. This is how real dashboards are built.</div><div class="code-example-output">A complete admin dashboard with dark sidebar, light header and footer, and a stats grid inside main that wraps responsively.</div></div>
+<div class="code-example"><div class="code-example-title">Chessboard with Nested Grid</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #1e293b; margin: 0; font-family: Arial, sans-serif; }
+    .wrapper { text-align: center; }
+    h1 { color: #f59e0b; margin-bottom: 16px; }
+    .board {
+      display: grid;
+      grid-template-columns: repeat(8, 48px);
+      grid-template-rows: repeat(8, 48px);
+      border: 4px solid #78350f;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+    .cell {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+    }
+    .light { background: #fef3c7; }
+    .dark  { background: #78350f; }
+    .piece-white { color: #f8fafc; text-shadow: 0 0 2px #000; }
+    .piece-black { color: #0f172a; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;wrapper&quot;&gt;
+    &lt;h1&gt;Grid Chessboard&lt;/h1&gt;
+    &lt;div class=&quot;board&quot; id=&quot;board&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;script&gt;
+    const board = document.getElementById(&#39;board&#39;);
+    const backRow = [&#39;R&#39;,&#39;N&#39;,&#39;B&#39;,&#39;Q&#39;,&#39;K&#39;,&#39;B&#39;,&#39;N&#39;,&#39;R&#39;];
+    const symbols = { R:&#39;R&#39;, N:&#39;N&#39;, B:&#39;B&#39;, Q:&#39;Q&#39;, K:&#39;K&#39;, P:&#39;P&#39; };
+    for (let row = 0; row &lt; 8; row++) {
+      for (let col = 0; col &lt; 8; col++) {
+        const cell = document.createElement(&#39;div&#39;);
+        const isLight = (row + col) % 2 === 0;
+        cell.className = &#39;cell &#39; + (isLight ? &#39;light&#39; : &#39;dark&#39;);
+        let piece = &#39;&#39;;
+        if (row === 0) { piece = backRow[col]; cell.classList.add(&#39;piece-black&#39;); }
+        if (row === 1) { piece = &#39;P&#39;; cell.classList.add(&#39;piece-black&#39;); }
+        if (row === 6) { piece = &#39;P&#39;; cell.classList.add(&#39;piece-white&#39;); }
+        if (row === 7) { piece = backRow[col]; cell.classList.add(&#39;piece-white&#39;); }
+        cell.textContent = piece;
+        board.appendChild(cell);
+      }
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">An 8x8 chessboard built with <code>grid-template-columns: repeat(8, 48px)</code> and <code>grid-template-rows: repeat(8, 48px)</code>. JavaScript generates 64 cells alternating light and dark based on <code>(row + col) % 2</code>. The board demonstrates how grid handles fixed-size 2D layouts elegantly.</div><div class="code-example-output">A full 8x8 chessboard with alternating light and dark squares and chess pieces in their starting positions.</div></div>
+<div class="code-example"><div class="code-example-title">Pricing Table with grid-column span</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; background: #f8fafc; padding: 40px 20px; margin: 0; }
+    h1 { text-align: center; color: #0f172a; margin-bottom: 32px; }
+    .pricing {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .plan {
+      background: white;
+      border-radius: 16px;
+      padding: 32px 24px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      text-align: center;
+      border: 2px solid transparent;
+      transition: transform 0.3s, border-color 0.3s;
+    }
+    .plan:hover { transform: translateY(-8px); border-color: #a855f7; }
+    .plan h2 { color: #334155; margin-bottom: 8px; }
+    .plan .price { font-size: 40px; color: #a855f7; font-weight: bold; margin: 16px 0; }
+    .plan ul { list-style: none; padding: 0; text-align: left; }
+    .plan li { padding: 8px 0; color: #64748b; border-bottom: 1px solid #f1f5f9; }
+    .plan.popular {
+      grid-column: 1 / -1;
+      background: linear-gradient(135deg, #7c3aed, #db2777);
+      color: white;
+    }
+    .plan.popular h2, .plan.popular .price { color: white; }
+    .plan.popular li { color: #f1f5f9; border-color: rgba(255,255,255,0.2); }
+    @media (min-width: 700px) {
+      .plan.popular { grid-column: auto; transform: scale(1.05); }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Choose Your Plan&lt;/h1&gt;
+  &lt;div class=&quot;pricing&quot;&gt;
+    &lt;div class=&quot;plan&quot;&gt;&lt;h2&gt;Starter&lt;/h2&gt;&lt;div class=&quot;price&quot;&gt;Rs 0&lt;/div&gt;&lt;ul&gt;&lt;li&gt;1 student&lt;/li&gt;&lt;li&gt;5 lessons&lt;/li&gt;&lt;li&gt;Email support&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+    &lt;div class=&quot;plan popular&quot;&gt;&lt;h2&gt;Pro&lt;/h2&gt;&lt;div class=&quot;price&quot;&gt;Rs 999&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Unlimited students&lt;/li&gt;&lt;li&gt;All lessons&lt;/li&gt;&lt;li&gt;Priority support&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+    &lt;div class=&quot;plan&quot;&gt;&lt;h2&gt;Team&lt;/h2&gt;&lt;div class=&quot;price&quot;&gt;Rs 2,499&lt;/div&gt;&lt;ul&gt;&lt;li&gt;25 students&lt;/li&gt;&lt;li&gt;Custom content&lt;/li&gt;&lt;li&gt;Dedicated mentor&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Three pricing plans in a grid. The middle 'popular' plan uses <code>grid-column: 1 / -1</code> on small screens to span the full width for easy reading, then switches back to auto and scales up on screens wider than 700px. <code>1 / -1</code> means from the first line to the last line — a great trick for full-width items.</div><div class="code-example-output">Three pricing cards that arrange in a row on desktop with the middle card highlighted and slightly larger. On narrow screens the popular plan spans full width.</div></div>
+<div class="code-example"><div class="code-example-title">Tic-Tac-Toe Board (Interactive)</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { display: flex; justify-content: center; align-items: center; flex-direction: column; min-height: 100vh; background: #0f172a; color: white; font-family: Arial, sans-serif; margin: 0; }
+    h1 { color: #06b6d4; margin-bottom: 8px; }
+    .status { margin-bottom: 16px; color: #cbd5e1; font-size: 18px; }
+    .board {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-template-rows: repeat(3, 100px);
+      gap: 6px;
+      background: #334155;
+      padding: 6px;
+      border-radius: 12px;
+    }
+    .cell {
+      background: #1e293b;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .cell:hover { background: #334155; transform: scale(0.97); }
+    .x { color: #a855f7; }
+    .o { color: #f59e0b; }
+    button { margin-top: 16px; padding: 10px 22px; background: #06b6d4; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 15px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Tic Tac Toe&lt;/h1&gt;
+  &lt;div class=&quot;status&quot; id=&quot;status&quot;&gt;Vivaan&#39;s turn (X)&lt;/div&gt;
+  &lt;div class=&quot;board&quot; id=&quot;board&quot;&gt;&lt;/div&gt;
+  &lt;button id=&quot;reset&quot;&gt;Reset&lt;/button&gt;
+  &lt;script&gt;
+    const board = document.getElementById(&#39;board&#39;);
+    const status = document.getElementById(&#39;status&#39;);
+    let cells = [], turn = &#39;X&#39;;
+    function build() {
+      board.innerHTML = &#39;&#39;;
+      cells = [];
+      turn = &#39;X&#39;;
+      status.textContent = &#39;Vivaan\u2019s turn (X)&#39;;
+      for (let i = 0; i &lt; 9; i++) {
+        const c = document.createElement(&#39;div&#39;);
+        c.className = &#39;cell&#39;;
+        c.addEventListener(&#39;click&#39;, function () {
+          if (c.textContent) return;
+          c.textContent = turn;
+          c.classList.add(turn === &#39;X&#39; ? &#39;x&#39; : &#39;o&#39;);
+          turn = turn === &#39;X&#39; ? &#39;O&#39; : &#39;X&#39;;
+          status.textContent = (turn === &#39;X&#39; ? &#39;Vivaan&#39; : &#39;Anika&#39;) + &#39;\u2019s turn (&#39; + turn + &#39;)&#39;;
+        });
+        board.appendChild(c);
+        cells.push(c);
+      }
+    }
+    document.getElementById(&#39;reset&#39;).addEventListener(&#39;click&#39;, build);
+    build();
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Classic 3x3 tic-tac-toe board built with <code>grid-template-columns: repeat(3, 100px)</code>. The grid gap acts as the board's lines. Clicking a cell places an X or O and toggles turns between Vivaan and Anika. Grid makes the 3x3 structure trivial.</div><div class="code-example-output">A 3x3 tic-tac-toe board with clickable cells. X is purple, O is amber. A reset button clears the board.</div></div>
+<div class="code-example"><div class="code-example-title">Bento Grid Portfolio (Modern Look)</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; background: #fafaf9; padding: 24px; margin: 0; }
+    h1 { text-align: center; color: #0f172a; margin-bottom: 24px; }
+    .bento {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: 140px;
+      gap: 16px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .bento &gt; div {
+      border-radius: 18px;
+      padding: 22px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      font-weight: 600;
+      transition: transform 0.3s;
+    }
+    .bento &gt; div:hover { transform: scale(1.02); }
+    .intro  { grid-column: span 2; grid-row: span 2; background: linear-gradient(135deg, #7c3aed, #ec4899); font-size: 22px; }
+    .pic    { grid-column: span 2; background: linear-gradient(135deg, #06b6d4, #0ea5e9); }
+    .stats  { grid-column: span 1; background: linear-gradient(135deg, #f59e0b, #ef4444); }
+    .skill  { grid-column: span 1; background: linear-gradient(135deg, #10b981, #06b6d4); }
+    .blog   { grid-column: span 3; background: linear-gradient(135deg, #1e293b, #334155); }
+    .contact{ grid-column: span 1; background: linear-gradient(135deg, #ec4899, #f43f5e); }
+    @media (max-width: 700px) {
+      .bento { grid-template-columns: repeat(2, 1fr); }
+      .bento &gt; div { grid-column: span 2 !important; grid-row: auto !important; }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Ishaan&#39;s Bento Portfolio&lt;/h1&gt;
+  &lt;div class=&quot;bento&quot;&gt;
+    &lt;div class=&quot;intro&quot;&gt;Hi, I am Ishaan. I design and code fun things.&lt;/div&gt;
+    &lt;div class=&quot;pic&quot;&gt;My Work&lt;/div&gt;
+    &lt;div class=&quot;stats&quot;&gt;42 projects&lt;/div&gt;
+    &lt;div class=&quot;skill&quot;&gt;React&lt;/div&gt;
+    &lt;div class=&quot;blog&quot;&gt;Latest blog: Building a game in one weekend&lt;/div&gt;
+    &lt;div class=&quot;contact&quot;&gt;Contact&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A trendy bento-box portfolio layout. Each card uses <code>grid-column: span N</code> and <code>grid-row: span N</code> to claim different amounts of space, creating an asymmetric yet balanced design. The intro card takes a 2x2 area, the blog card takes 3 columns, and smaller cards fill the gaps. A media query collapses everything to 2 columns on phones.</div><div class="code-example-output">A colorful bento-style portfolio with cards of different sizes arranged in a 4-column grid, collapsing to 2 columns on mobile.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting display: grid on the Parent</h3>
+                <div class="wrong-code"><pre><code class="language-python">.container {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+/* No display: grid! */</code></pre></div><div class="error-message">The grid properties are ignored. The container still behaves like a normal block, and items stack vertically.</div><div class="correct-code"><pre><code class="language-python">.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}</code></pre></div><div class="mistake-explanation">Grid properties only take effect when the container has <code>display: grid</code> (or <code>inline-grid</code>). Without that, nothing becomes a grid and all your template columns are ignored.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using px Instead of fr for Flexible Columns</h3>
+                <div class="wrong-code"><pre><code class="language-python">.container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+}
+/* Breaks on narrow screens - horizontal scroll! */</code></pre></div><div class="error-message">On screens narrower than 900px plus gaps, the grid overflows and creates horizontal scroll. Fixed widths cannot adapt.</div><div class="correct-code"><pre><code class="language-python">.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Or: repeat(auto-fit, minmax(250px, 1fr)) for full responsiveness */
+}</code></pre></div><div class="mistake-explanation">The <code>fr</code> unit represents a fraction of available space, so columns adapt to their container. Use <code>1fr</code> (or <code>minmax()</code>) for flexible widths and reserve px only for truly fixed sizes like sidebars.</div>
+            </div>
+<div class="mistake-card">
+                <h3>auto-fill vs auto-fit Confusion</h3>
+                <div class="wrong-code"><pre><code class="language-python">/* Using auto-fill when you want items to stretch */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+/* With only 2 items, the grid leaves ghost empty columns */</code></pre></div><div class="error-message">With &lt;code&gt;auto-fill&lt;/code&gt;, the grid creates as many tracks as fit even if they are empty. With few items, the existing items stay small instead of stretching.</div><div class="correct-code"><pre><code class="language-python">.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+/* auto-fit collapses empty tracks so existing items stretch to fill space */</code></pre></div><div class="mistake-explanation"><code>auto-fit</code> collapses empty tracks and lets real items stretch. <code>auto-fill</code> keeps empty tracks, which is useful if you want consistent item widths regardless of count. For galleries and card layouts, auto-fit is almost always what you want.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Off-by-One Errors with Grid Lines</h3>
+                <div class="wrong-code"><pre><code class="language-python">.item {
+  grid-column: 1 / 3;
+  /* Thinking this spans columns 1, 2, AND 3 */
+}</code></pre></div><div class="error-message">This only spans 2 columns (columns 1 and 2), not 3. Grid lines are between columns, not the columns themselves.</div><div class="correct-code"><pre><code class="language-python">/* To span 3 columns, use: */
+.item {
+  grid-column: 1 / 4;    /* from line 1 to line 4 */
+  /* Or: */
+  grid-column: 1 / span 3;
+  /* Or: */
+  grid-column: span 3;
+}</code></pre></div><div class="mistake-explanation">Grid lines are numbered starting from 1 and sit BETWEEN cells. A 3-column grid has 4 lines. <code>grid-column: 1 / 4</code> goes from line 1 to line 4 and covers 3 columns. Using <code>span N</code> is usually clearer because it tells you how many columns to cover.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>display: grid turns an element into a grid container. All direct children become grid items automatically.</li>
+<li>grid-template-columns defines the number and width of columns. Use px for fixed, fr for flexible shares of free space, and minmax(min, max) for constrained flexibility.</li>
+<li>repeat(N, size) is shorthand for repeating column or row definitions. Example: repeat(4, 1fr) creates 4 equal columns.</li>
+<li>The magic responsive line: repeat(auto-fit, minmax(250px, 1fr)) creates a fully responsive grid with zero media queries. Use it for galleries, card lists, and product grids.</li>
+<li>gap sets spacing between cells. row-gap and column-gap set them individually. There is no need for margin hacks.</li>
+<li>grid-template-areas lets you draw layouts visually with named regions. Children claim a region with grid-area: regionName. This is the most intuitive CSS layout syntax ever invented.</li>
+<li>grid-column and grid-row control where an item sits. Use line numbers (1 / 3), span keywords (span 2), or -1 (the last line) for full-width items.</li>
+<li>justify-items and align-items align content inside each cell. justify-content and align-content align the whole grid inside the container. place-items: center is the shortcut for centering everything.</li>
+<li>Grid is for 2D layouts (rows AND columns); Flexbox is for 1D layouts (rows OR columns). Real websites use both together: Grid for page structure, Flexbox inside each cell.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/flexbox-complete-guide" class="related-topic-link">Flexbox - The Complete Guide</a>
+<a href="/resources/html-and-css/responsive-design-and-media-queries" class="related-topic-link">Responsive Design and Media Queries</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/flexbox-complete-guide" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Flexbox - The Complete Guide</span>
+        </a>
+            <a href="/resources/html-and-css/responsive-design-and-media-queries" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Responsive Design and Media Queries</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/css-grid-complete-guide/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

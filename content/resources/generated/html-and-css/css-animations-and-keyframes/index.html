@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations with Keyframes - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Create complex animations with @keyframes, animation properties, loading spinners, bouncing buttons, and more.">
+    <meta name="keywords" content="css animations with keyframes, html and css tutorial, html and css css animations with keyframes, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/css-animations-and-keyframes">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/css-animations-and-keyframes">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/css-animations-and-keyframes">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/css-animations-and-keyframes">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/css-animations-and-keyframes">
+    <meta property="og:title" content="CSS Animations with Keyframes - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Create complex animations with @keyframes, animation properties, loading spinners, bouncing buttons, and more.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/css-animations-and-keyframes">
+    <meta name="twitter:title" content="CSS Animations with Keyframes - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Create complex animations with @keyframes, animation properties, loading spinners, bouncing buttons, and more.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "CSS Animations with Keyframes",
+    "description": "Create complex animations with @keyframes, animation properties, loading spinners, bouncing buttons, and more.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/css-animations-and-keyframes"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/css-animations-and-keyframes"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "CSS Animations with Keyframes",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/css-animations-and-keyframes"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting animation-fill-mode: forwards",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>forwards</code> tells the element to keep the final keyframe's styles after the animation ends. This is usually what you want for entrance animations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Animating Properties That Trigger Layout",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use <code>transform: translateX()</code> instead of <code>left</code>. Transform runs on the GPU and does not trigger layout or paint work — much smoother."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Defining the Keyframes Before Using Them",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always define the @keyframes rule in your CSS. A typo in the animation name also silently fails, so double-check spelling."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Animation for Simple State Changes",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use <code>transition</code> for simple state changes (hover, focus, class toggle) and reserve <code>@keyframes animation</code> for multi-step or looping animations."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">CSS Animations with Keyframes</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 19</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">45 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">CSS Animations with Keyframes</h1>
+            <a href="/resources/html-and-css/css-animations-and-keyframes/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are CSS Animations?</h2><p>While transitions animate between two states (default and hover), <strong>CSS animations</strong> let you define multi-step animations that can run automatically, loop forever, and move through any number of key points. They are more powerful than transitions and perfect for things like loading spinners, pulse effects, and continuous motion.</p><p>Animations have two parts:</p><ol><li><strong>@keyframes</strong> — defines the animation's steps (what happens at 0%, 50%, 100%, etc.)</li><li><strong>animation properties</strong> — applied to an element to actually play the animation</li></ol><pre><code>@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
+}
+
+.ball {
+  animation: bounce 1s infinite;
+}</code></pre><p>That is it. The ball now bounces forever, no JavaScript required.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn CSS Animations?</h2><h3>1. Modern Web Is Alive</h3><p>Loading spinners, animated logos, pulsing buttons, falling snowflakes, marquee tickers, typing text, shimmer effects — every one of these is a CSS animation. If you want to build impressive, modern websites, you need keyframe animations.</p><h3>2. They Run on the GPU</h3><p>Like transitions, CSS animations are handled by the browser's rendering engine. When you animate transform or opacity, the browser uses the GPU to achieve smooth 60fps motion with virtually zero CPU cost. JavaScript animations cannot match this performance for simple visual effects.</p><h3>3. They Run Automatically</h3><p>Unlike transitions, animations do not need a trigger like :hover. You can start them immediately on page load, loop them forever, or even pause and play them from JavaScript. This makes them perfect for ambient effects and loading indicators.</p><h3>4. More Control Than Transitions</h3><p>Transitions have just two states (before and after). Animations can have as many keyframes as you want, letting you create complex motion paths, multi-color pulses, choreographed sequences, and more. If you can imagine it moving, @keyframes can probably animate it.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Defining Keyframes</h3><p>The <code>@keyframes</code> rule defines a named sequence of style changes. You can use <code>from</code>/<code>to</code> (2 steps) or percentages (any number of steps):</p><pre><code>/* Two-step animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Multi-step animation */
+@keyframes wiggle {
+  0%   { transform: rotate(0); }
+  25%  { transform: rotate(5deg); }
+  50%  { transform: rotate(-5deg); }
+  75%  { transform: rotate(5deg); }
+  100% { transform: rotate(0); }
+}</code></pre><h3>2. Applying the Animation</h3><p>Once the keyframes are defined, apply them to an element:</p><pre><code>.box {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.5s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}</code></pre><h3>3. The Shorthand (Always Use This)</h3><pre><code>/* Order: name duration timing-function delay iteration-count direction fill-mode */
+.box {
+  animation: fadeIn 1s ease-out 0.5s 1 normal forwards;
+}
+
+/* Minimal: just name and duration */
+.spinner {
+  animation: spin 1s linear infinite;
+}</code></pre><h3>4. animation-iteration-count</h3><p>How many times to play the animation:</p><pre><code>animation-iteration-count: 1;        /* play once (default) */
+animation-iteration-count: 3;        /* play three times */
+animation-iteration-count: infinite; /* loop forever */
+animation-iteration-count: 2.5;      /* two and a half times */</code></pre><h3>5. animation-direction</h3><p>Controls the direction of playback:</p><pre><code>animation-direction: normal;            /* 0% to 100% (default) */
+animation-direction: reverse;           /* 100% to 0% */
+animation-direction: alternate;         /* 0-100, then 100-0, repeat */
+animation-direction: alternate-reverse; /* 100-0, then 0-100, repeat */</code></pre><p><strong>alternate</strong> is incredibly useful for pulses and back-and-forth motions — you only define half the animation, and alternate plays it forward and backward automatically.</p><h3>6. animation-fill-mode (The Confusing One)</h3><p>Controls what the element looks like BEFORE and AFTER the animation runs:</p><pre><code>animation-fill-mode: none;      /* default — element returns to original styles */
+animation-fill-mode: forwards;  /* element keeps the final keyframe's styles */
+animation-fill-mode: backwards; /* element uses the first keyframe's styles during delay */
+animation-fill-mode: both;      /* both forwards and backwards */</code></pre><p><strong>forwards</strong> is the most useful: it makes the element stay in the final state after the animation finishes. Without it, the element snaps back to its original styles when the animation ends.</p><h3>7. Loading Spinner Example</h3><pre><code>@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.spinner {
+  width: 50px; height: 50px;
+  border: 5px solid #e5e7eb;
+  border-top-color: #a855f7;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}</code></pre><h3>8. Multiple Animations on One Element</h3><p>You can apply multiple animations simultaneously by comma-separating them:</p><pre><code>.element {
+  animation: fadeIn 1s, bounce 2s infinite 1s;
+  /* fadeIn runs once for 1s, then bounce runs forever with 1s delay */
+}</code></pre><h3>9. Performance Tips</h3><ul><li>Animate <strong>transform</strong> and <strong>opacity</strong> whenever possible — they are GPU-accelerated</li><li>Avoid animating width, height, top, left, margin — they trigger layout recalculation</li><li>Use <code>will-change: transform</code> for heavy animations to hint the browser</li><li>Set <code>@media (prefers-reduced-motion: reduce)</code> to disable animations for users who get motion sickness</li></ul>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Loading Spinner</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #0f172a; margin: 0; font-family: Arial, sans-serif; color: white; gap: 40px; }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+    .spinner {
+      width: 60px;
+      height: 60px;
+      border: 6px solid #1e293b;
+      border-top-color: #a855f7;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    .spinner2 {
+      width: 60px;
+      height: 60px;
+      border: 6px solid #1e293b;
+      border-right-color: #06b6d4;
+      border-bottom-color: #f59e0b;
+      border-radius: 50%;
+      animation: spin 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    }
+    .spinner3 {
+      width: 60px;
+      height: 60px;
+      position: relative;
+    }
+    .spinner3::before, .spinner3::after {
+      content: &#39;&#39;;
+      position: absolute;
+      inset: 0;
+      border: 6px solid transparent;
+      border-top-color: #ec4899;
+      border-radius: 50%;
+      animation: spin 1.5s linear infinite;
+    }
+    .spinner3::after {
+      border-top-color: #10b981;
+      animation-duration: 2s;
+      animation-direction: reverse;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;spinner&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;spinner2&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;spinner3&quot;&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Three spinner variations. The first is the classic one-color top-border spinner. The second has three colors on different sides with a more organic cubic-bezier. The third uses two pseudo-elements spinning in opposite directions with different durations — a dual-ring effect. All powered by a single <code>@keyframes spin</code> rule.</div><div class="code-example-output">Three rotating loading spinners with different styles — classic, tri-color, and dual-ring.</div></div>
+<div class="code-example"><div class="code-example-title">Bouncing Ball</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { background: linear-gradient(to bottom, #0f172a, #1e293b); min-height: 100vh; margin: 0; display: flex; justify-content: center; align-items: flex-end; padding-bottom: 100px; }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-240px); }
+    }
+    @keyframes squash {
+      0%, 100% { transform: scaleX(1) scaleY(1); }
+      40% { transform: scaleX(1.2) scaleY(0.7); }
+      60% { transform: scaleX(1.2) scaleY(0.7); }
+    }
+    .ball-wrap {
+      animation: bounce 1.5s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    }
+    .ball {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, #fef3c7, #f59e0b, #b45309);
+      box-shadow: 0 10px 20px rgba(245, 158, 11, 0.5);
+      animation: squash 1.5s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    }
+    .shadow {
+      width: 80px;
+      height: 14px;
+      background: radial-gradient(ellipse, rgba(0,0,0,0.5), transparent 70%);
+      border-radius: 50%;
+      margin-top: 10px;
+      animation: shadow-pulse 1.5s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    }
+    @keyframes shadow-pulse {
+      0%, 100% { transform: scale(1); opacity: 0.7; }
+      50% { transform: scale(0.5); opacity: 0.3; }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div class=&quot;ball-wrap&quot;&gt;&lt;div class=&quot;ball&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;shadow&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A realistic bouncing ball with three synchronized animations: (1) the wrapper bounces up and down, (2) the ball itself squashes at the bottom of the bounce (like a real ball compressing), (3) the shadow pulses smaller and lighter as the ball rises. All three use the same duration and timing function to stay in sync.</div><div class="code-example-output">A golden ball bouncing up and down with a subtle squash at impact and a shadow that pulses with the bounce.</div></div>
+<div class="code-example"><div class="code-example-title">Typing Text Effect</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { background: #0f172a; color: white; font-family: &#39;Courier New&#39;, monospace; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+    .terminal {
+      background: #000;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 30px 40px;
+      font-size: 20px;
+      box-shadow: 0 20px 60px rgba(168, 85, 247, 0.3);
+    }
+    .typing {
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 3px solid #a855f7;
+      width: 0;
+      animation: typing 3s steps(30, end) forwards,
+                 blink 0.8s step-end infinite;
+      color: #10b981;
+    }
+    @keyframes typing {
+      from { width: 0; }
+      to   { width: 29ch; }
+    }
+    @keyframes blink {
+      from, to { border-color: transparent; }
+      50%      { border-color: #a855f7; }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;terminal&quot;&gt;
+    &lt;div class=&quot;typing&quot;&gt;&amp;gt; Hello, I am Aarav the coder&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Classic terminal typing effect built with two animations. The <code>typing</code> animation grows the width from 0 to 29ch (character-width units), with <code>steps(30, end)</code> creating a stepped effect that looks like characters appearing one at a time. The <code>blink</code> animation toggles the cursor border on and off. Both run simultaneously.</div><div class="code-example-output">A terminal window showing text typing out character by character with a blinking cursor.</div></div>
+<div class="code-example"><div class="code-example-title">Pulse and Shake Attention Effects</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { background: #0f172a; display: flex; gap: 30px; justify-content: center; align-items: center; min-height: 100vh; font-family: Arial, sans-serif; }
+    .box {
+      width: 140px;
+      height: 140px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .pulse {
+      background: #a855f7;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    .shake {
+      background: #ec4899;
+      animation: shake 0.6s ease-in-out infinite;
+    }
+    .glow {
+      background: #06b6d4;
+      animation: glow 1.8s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(168, 85, 247, 0.7); }
+      50%      { transform: scale(1.08); box-shadow: 0 0 0 30px rgba(168, 85, 247, 0); }
+    }
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-8px); }
+      40%, 80% { transform: translateX(8px); }
+    }
+    @keyframes glow {
+      0%, 100% { box-shadow: 0 0 20px 2px rgba(6, 182, 212, 0.5); }
+      50%      { box-shadow: 0 0 40px 10px rgba(6, 182, 212, 1); }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;box pulse&quot;&gt;PULSE&lt;/div&gt;
+  &lt;div class=&quot;box shake&quot;&gt;SHAKE&lt;/div&gt;
+  &lt;div class=&quot;box glow&quot;&gt;GLOW&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Three attention-grabbing effects. Pulse combines scale with an expanding shadow ring. Shake uses multiple translateX values at different percentages to create rapid side-to-side motion. Glow animates box-shadow size and intensity. All three are infinite loops that demand attention.</div><div class="code-example-output">Three boxes. One pulses with an expanding ring, one shakes side to side, and one has a glowing shadow that brightens and dims.</div></div>
+<div class="code-example"><div class="code-example-title">Rainbow Text (Color Cycle)</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { background: #000; display: flex; justify-content: center; align-items: center; min-height: 100vh; font-family: &#39;Arial Black&#39;, sans-serif; margin: 0; }
+    h1 {
+      font-size: clamp(2.5rem, 10vw, 8rem);
+      background: linear-gradient(90deg, #ef4444, #f59e0b, #eab308, #22c55e, #06b6d4, #3b82f6, #8b5cf6, #ec4899, #ef4444);
+      background-size: 200% 100%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: rainbow 5s linear infinite;
+      text-align: center;
+      margin: 0;
+      letter-spacing: -2px;
+    }
+    @keyframes rainbow {
+      from { background-position: 0% 0; }
+      to   { background-position: 200% 0; }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;SkyCoders&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The heading has a wide horizontal rainbow gradient clipped to its text using <code>-webkit-background-clip: text</code>. The animation slides the background position across, creating a continuous rainbow cycle through the letters. No color properties are animated — only the background position shifts.</div><div class="code-example-output">Giant text showing a continuous rainbow color cycle flowing through the letters.</div></div>
+<div class="code-example"><div class="code-example-title">Slide-In Cards on Page Load</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { background: #0f172a; color: white; font-family: Arial, sans-serif; padding: 60px 20px; margin: 0; }
+    .title { text-align: center; color: #a855f7; margin-bottom: 30px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; max-width: 900px; margin: 0 auto; }
+    .card {
+      padding: 24px;
+      border-radius: 14px;
+      font-weight: bold;
+      opacity: 0;
+      transform: translateY(40px);
+      animation: slideUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+    .card:nth-child(1) { background: linear-gradient(135deg, #a855f7, #ec4899); animation-delay: 0.1s; }
+    .card:nth-child(2) { background: linear-gradient(135deg, #06b6d4, #0ea5e9); animation-delay: 0.25s; }
+    .card:nth-child(3) { background: linear-gradient(135deg, #f59e0b, #ef4444); animation-delay: 0.4s; }
+    .card:nth-child(4) { background: linear-gradient(135deg, #10b981, #06b6d4); animation-delay: 0.55s; }
+    .card:nth-child(5) { background: linear-gradient(135deg, #8b5cf6, #3b82f6); animation-delay: 0.7s; }
+    .card:nth-child(6) { background: linear-gradient(135deg, #ec4899, #f59e0b); animation-delay: 0.85s; }
+    @keyframes slideUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1 class=&quot;title&quot;&gt;Meet Our Team&lt;/h1&gt;
+  &lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;card&quot;&gt;Aarav&lt;/div&gt;
+    &lt;div class=&quot;card&quot;&gt;Priya&lt;/div&gt;
+    &lt;div class=&quot;card&quot;&gt;Rohan&lt;/div&gt;
+    &lt;div class=&quot;card&quot;&gt;Ishita&lt;/div&gt;
+    &lt;div class=&quot;card&quot;&gt;Vivaan&lt;/div&gt;
+    &lt;div class=&quot;card&quot;&gt;Anika&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Staggered entrance animation. Each card starts invisible and 40px below its final position, then slides up and fades in with <code>animation-fill-mode: forwards</code> (so they STAY visible after). Each card has a different <code>animation-delay</code> using <code>:nth-child</code> selectors, creating a beautiful stagger effect on page load.</div><div class="code-example-output">Six gradient cards that slide up into place one after another when the page loads, creating a wave effect.</div></div>
+<div class="code-example"><div class="code-example-title">Progress Bar with Indeterminate Loading</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { background: #0f172a; display: flex; justify-content: center; align-items: center; min-height: 100vh; font-family: Arial, sans-serif; color: white; margin: 0; flex-direction: column; gap: 30px; }
+    .label { color: #cbd5e1; font-size: 14px; }
+    .bar-wrap {
+      width: 400px;
+      max-width: 90vw;
+      height: 8px;
+      background: #1e293b;
+      border-radius: 4px;
+      overflow: hidden;
+      position: relative;
+    }
+    .bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 30%;
+      background: linear-gradient(90deg, #a855f7, #06b6d4);
+      border-radius: 4px;
+      animation: slide 1.6s ease-in-out infinite;
+    }
+    @keyframes slide {
+      0%   { left: -30%; }
+      100% { left: 100%; }
+    }
+    .dots {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #a855f7;
+      animation: dot 1.2s ease-in-out infinite;
+    }
+    .dot:nth-child(2) { animation-delay: 0.15s; background: #06b6d4; }
+    .dot:nth-child(3) { animation-delay: 0.3s; background: #f59e0b; }
+    @keyframes dot {
+      0%, 100% { transform: translateY(0); opacity: 0.5; }
+      50%      { transform: translateY(-12px); opacity: 1; }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div class=&quot;label&quot;&gt;Loading your dashboard, Meera...&lt;/div&gt;
+    &lt;div class=&quot;bar-wrap&quot;&gt;&lt;div class=&quot;bar&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;dots&quot;&gt;&lt;div class=&quot;dot&quot;&gt;&lt;/div&gt;&lt;div class=&quot;dot&quot;&gt;&lt;/div&gt;&lt;div class=&quot;dot&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Two loading indicators. The progress bar slides a colored segment from left to right continuously — the 'indeterminate' loading pattern. Below it, three colored dots bounce in sequence using <code>animation-delay</code> to create a wave. Both use infinite loops and are pure CSS.</div><div class="code-example-output">A loading screen with a horizontal gradient bar sliding across and three bouncing dots below.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting animation-fill-mode: forwards</h3>
+                <div class="wrong-code"><pre><code class="language-python">@keyframes slideIn {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(0); }
+}
+.card {
+  animation: slideIn 1s;
+}
+/* After animation, card snaps back to its original style — translateX(-100%) if set, or default */</code></pre></div><div class="error-message">When the animation ends, the element reverts to its default CSS, not the final keyframe. If the default was translateX(-100%), the card disappears again.</div><div class="correct-code"><pre><code class="language-python">.card {
+  animation: slideIn 1s forwards;
+  /* or: animation-fill-mode: forwards; */
+}</code></pre></div><div class="mistake-explanation"><code>forwards</code> tells the element to keep the final keyframe's styles after the animation ends. This is usually what you want for entrance animations.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Animating Properties That Trigger Layout</h3>
+                <div class="wrong-code"><pre><code class="language-python">@keyframes moveRight {
+  from { left: 0; }
+  to   { left: 200px; }
+}
+.box {
+  position: absolute;
+  animation: moveRight 1s infinite;
+}
+/* Jerky on lower-end devices */</code></pre></div><div class="error-message">Animating &lt;code&gt;left&lt;/code&gt; triggers a layout recalculation every frame, which is slow. On complex pages or weaker devices, the animation can stutter.</div><div class="correct-code"><pre><code class="language-python">@keyframes moveRight {
+  from { transform: translateX(0); }
+  to   { transform: translateX(200px); }
+}</code></pre></div><div class="mistake-explanation">Use <code>transform: translateX()</code> instead of <code>left</code>. Transform runs on the GPU and does not trigger layout or paint work — much smoother.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Defining the Keyframes Before Using Them</h3>
+                <div class="wrong-code"><pre><code class="language-python">.spinner {
+  animation: spin 1s infinite;
+}
+/* No @keyframes spin defined anywhere */</code></pre></div><div class="error-message">The animation does nothing because the @keyframes rule is missing. The browser will not warn you — it just silently ignores the animation.</div><div class="correct-code"><pre><code class="language-python">@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}</code></pre></div><div class="mistake-explanation">Always define the @keyframes rule in your CSS. A typo in the animation name also silently fails, so double-check spelling.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Animation for Simple State Changes</h3>
+                <div class="wrong-code"><pre><code class="language-python">@keyframes buttonHover {
+  from { background: red; }
+  to   { background: blue; }
+}
+.btn:hover {
+  animation: buttonHover 0.3s forwards;
+}
+/* Overkill! */</code></pre></div><div class="error-message">Using @keyframes animation for a simple hover color change is overkill and less flexible. It also fights with hovering out.</div><div class="correct-code"><pre><code class="language-python">.btn {
+  background: red;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: blue;
+}</code></pre></div><div class="mistake-explanation">Use <code>transition</code> for simple state changes (hover, focus, class toggle) and reserve <code>@keyframes animation</code> for multi-step or looping animations.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>&lt;code&gt;@keyframes animationName { ... }&lt;/code&gt; defines the animation steps using &lt;code&gt;from/to&lt;/code&gt; or percentages (0%, 25%, 50%, 100%).</li>
+<li>Apply an animation to an element with &lt;code&gt;animation: name duration timing delay iteration-count direction fill-mode;&lt;/code&gt; (shorthand).</li>
+<li>&lt;code&gt;animation-iteration-count: infinite&lt;/code&gt; makes the animation loop forever. Useful for spinners, pulses, and ambient effects.</li>
+<li>&lt;code&gt;animation-direction: alternate&lt;/code&gt; plays the animation forward, then backward, then forward again — perfect for back-and-forth motions like pulses.</li>
+<li>&lt;code&gt;animation-fill-mode: forwards&lt;/code&gt; keeps the element in its final keyframe state after the animation ends. Without it, the element snaps back to its original styles.</li>
+<li>&lt;code&gt;animation-delay&lt;/code&gt; lets you stagger multiple elements by applying different delays (often with &lt;code&gt;:nth-child&lt;/code&gt;) for a wave or cascade effect.</li>
+<li>You can apply multiple animations to one element by comma-separating them: &lt;code&gt;animation: fadeIn 1s, bounce 2s infinite 1s;&lt;/code&gt;</li>
+<li>For best performance, animate &lt;code&gt;transform&lt;/code&gt; and &lt;code&gt;opacity&lt;/code&gt;. These are GPU-accelerated and run at 60fps. Avoid animating width, height, top, left, margin.</li>
+<li>&lt;code&gt;animation-play-state: paused | running&lt;/code&gt; lets JavaScript pause and resume an animation.</li>
+<li>Respect accessibility: use &lt;code&gt;@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }&lt;/code&gt; to disable animations for users with motion sensitivity.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/transitions-and-hover-effects" class="related-topic-link">CSS Transitions and Hover Effects</a>
+<a href="/resources/html-and-css/transforms-2d-and-3d" class="related-topic-link">CSS Transforms (2D and 3D)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/transitions-and-hover-effects" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">CSS Transitions and Hover Effects</span>
+        </a>
+            <a href="/resources/html-and-css/transforms-2d-and-3d" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">CSS Transforms (2D and 3D)</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/css-animations-and-keyframes/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

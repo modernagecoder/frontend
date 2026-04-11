@@ -1,0 +1,751 @@
+{
+  "title": "CSS Animations with Keyframes",
+  "slug": "css-animations-and-keyframes",
+  "language": "css",
+  "chapter": 19,
+  "difficulty": "Advanced",
+  "readingTime": "45 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 60,
+  "seo": {
+    "title": "CSS Animations and Keyframes - @keyframes, animation-name, spinners, bounce, fade | Modern Age Coders",
+    "description": "Master CSS @keyframes animations. Learn animation-name, duration, iteration-count, direction, fill-mode, play-state, and build loading spinners, pulse effects, bouncing balls, typing text, and shake animations. 60+ practice questions.",
+    "keywords": "css animations tutorial, keyframes css, animation-name, animation-duration, loading spinner css, bounce animation, pulse animation, css typing effect, infinite animation, fill-mode forwards"
+  },
+  "content": {
+    "what": "<h2>What Are CSS Animations?</h2><p>While transitions animate between two states (default and hover), <strong>CSS animations</strong> let you define multi-step animations that can run automatically, loop forever, and move through any number of key points. They are more powerful than transitions and perfect for things like loading spinners, pulse effects, and continuous motion.</p><p>Animations have two parts:</p><ol><li><strong>@keyframes</strong> — defines the animation's steps (what happens at 0%, 50%, 100%, etc.)</li><li><strong>animation properties</strong> — applied to an element to actually play the animation</li></ol><pre><code>@keyframes bounce {\n  0%   { transform: translateY(0); }\n  50%  { transform: translateY(-30px); }\n  100% { transform: translateY(0); }\n}\n\n.ball {\n  animation: bounce 1s infinite;\n}</code></pre><p>That is it. The ball now bounces forever, no JavaScript required.</p>",
+    "why": "<h2>Why Learn CSS Animations?</h2><h3>1. Modern Web Is Alive</h3><p>Loading spinners, animated logos, pulsing buttons, falling snowflakes, marquee tickers, typing text, shimmer effects — every one of these is a CSS animation. If you want to build impressive, modern websites, you need keyframe animations.</p><h3>2. They Run on the GPU</h3><p>Like transitions, CSS animations are handled by the browser's rendering engine. When you animate transform or opacity, the browser uses the GPU to achieve smooth 60fps motion with virtually zero CPU cost. JavaScript animations cannot match this performance for simple visual effects.</p><h3>3. They Run Automatically</h3><p>Unlike transitions, animations do not need a trigger like :hover. You can start them immediately on page load, loop them forever, or even pause and play them from JavaScript. This makes them perfect for ambient effects and loading indicators.</p><h3>4. More Control Than Transitions</h3><p>Transitions have just two states (before and after). Animations can have as many keyframes as you want, letting you create complex motion paths, multi-color pulses, choreographed sequences, and more. If you can imagine it moving, @keyframes can probably animate it.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Defining Keyframes</h3><p>The <code>@keyframes</code> rule defines a named sequence of style changes. You can use <code>from</code>/<code>to</code> (2 steps) or percentages (any number of steps):</p><pre><code>/* Two-step animation */\n@keyframes fadeIn {\n  from { opacity: 0; }\n  to   { opacity: 1; }\n}\n\n/* Multi-step animation */\n@keyframes wiggle {\n  0%   { transform: rotate(0); }\n  25%  { transform: rotate(5deg); }\n  50%  { transform: rotate(-5deg); }\n  75%  { transform: rotate(5deg); }\n  100% { transform: rotate(0); }\n}</code></pre><h3>2. Applying the Animation</h3><p>Once the keyframes are defined, apply them to an element:</p><pre><code>.box {\n  animation-name: fadeIn;\n  animation-duration: 1s;\n  animation-timing-function: ease-out;\n  animation-delay: 0.5s;\n  animation-iteration-count: 1;\n  animation-direction: normal;\n  animation-fill-mode: forwards;\n  animation-play-state: running;\n}</code></pre><h3>3. The Shorthand (Always Use This)</h3><pre><code>/* Order: name duration timing-function delay iteration-count direction fill-mode */\n.box {\n  animation: fadeIn 1s ease-out 0.5s 1 normal forwards;\n}\n\n/* Minimal: just name and duration */\n.spinner {\n  animation: spin 1s linear infinite;\n}</code></pre><h3>4. animation-iteration-count</h3><p>How many times to play the animation:</p><pre><code>animation-iteration-count: 1;        /* play once (default) */\nanimation-iteration-count: 3;        /* play three times */\nanimation-iteration-count: infinite; /* loop forever */\nanimation-iteration-count: 2.5;      /* two and a half times */</code></pre><h3>5. animation-direction</h3><p>Controls the direction of playback:</p><pre><code>animation-direction: normal;            /* 0% to 100% (default) */\nanimation-direction: reverse;           /* 100% to 0% */\nanimation-direction: alternate;         /* 0-100, then 100-0, repeat */\nanimation-direction: alternate-reverse; /* 100-0, then 0-100, repeat */</code></pre><p><strong>alternate</strong> is incredibly useful for pulses and back-and-forth motions — you only define half the animation, and alternate plays it forward and backward automatically.</p><h3>6. animation-fill-mode (The Confusing One)</h3><p>Controls what the element looks like BEFORE and AFTER the animation runs:</p><pre><code>animation-fill-mode: none;      /* default — element returns to original styles */\nanimation-fill-mode: forwards;  /* element keeps the final keyframe's styles */\nanimation-fill-mode: backwards; /* element uses the first keyframe's styles during delay */\nanimation-fill-mode: both;      /* both forwards and backwards */</code></pre><p><strong>forwards</strong> is the most useful: it makes the element stay in the final state after the animation finishes. Without it, the element snaps back to its original styles when the animation ends.</p><h3>7. Loading Spinner Example</h3><pre><code>@keyframes spin {\n  from { transform: rotate(0deg); }\n  to   { transform: rotate(360deg); }\n}\n\n.spinner {\n  width: 50px; height: 50px;\n  border: 5px solid #e5e7eb;\n  border-top-color: #a855f7;\n  border-radius: 50%;\n  animation: spin 1s linear infinite;\n}</code></pre><h3>8. Multiple Animations on One Element</h3><p>You can apply multiple animations simultaneously by comma-separating them:</p><pre><code>.element {\n  animation: fadeIn 1s, bounce 2s infinite 1s;\n  /* fadeIn runs once for 1s, then bounce runs forever with 1s delay */\n}</code></pre><h3>9. Performance Tips</h3><ul><li>Animate <strong>transform</strong> and <strong>opacity</strong> whenever possible — they are GPU-accelerated</li><li>Avoid animating width, height, top, left, margin — they trigger layout recalculation</li><li>Use <code>will-change: transform</code> for heavy animations to hint the browser</li><li>Set <code>@media (prefers-reduced-motion: reduce)</code> to disable animations for users who get motion sickness</li></ul>",
+    "codeExamples": [
+      {
+        "title": "Loading Spinner",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #0f172a; margin: 0; font-family: Arial, sans-serif; color: white; gap: 40px; }\n    @keyframes spin {\n      from { transform: rotate(0deg); }\n      to   { transform: rotate(360deg); }\n    }\n    .spinner {\n      width: 60px;\n      height: 60px;\n      border: 6px solid #1e293b;\n      border-top-color: #a855f7;\n      border-radius: 50%;\n      animation: spin 1s linear infinite;\n    }\n    .spinner2 {\n      width: 60px;\n      height: 60px;\n      border: 6px solid #1e293b;\n      border-right-color: #06b6d4;\n      border-bottom-color: #f59e0b;\n      border-radius: 50%;\n      animation: spin 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;\n    }\n    .spinner3 {\n      width: 60px;\n      height: 60px;\n      position: relative;\n    }\n    .spinner3::before, .spinner3::after {\n      content: '';\n      position: absolute;\n      inset: 0;\n      border: 6px solid transparent;\n      border-top-color: #ec4899;\n      border-radius: 50%;\n      animation: spin 1.5s linear infinite;\n    }\n    .spinner3::after {\n      border-top-color: #10b981;\n      animation-duration: 2s;\n      animation-direction: reverse;\n    }\n  </style>\n</head>\n<body>\n  <div class=\"spinner\"></div>\n  <div class=\"spinner2\"></div>\n  <div class=\"spinner3\"></div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Three spinner variations. The first is the classic one-color top-border spinner. The second has three colors on different sides with a more organic cubic-bezier. The third uses two pseudo-elements spinning in opposite directions with different durations — a dual-ring effect. All powered by a single <code>@keyframes spin</code> rule.",
+        "output": "Three rotating loading spinners with different styles — classic, tri-color, and dual-ring."
+      },
+      {
+        "title": "Bouncing Ball",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: linear-gradient(to bottom, #0f172a, #1e293b); min-height: 100vh; margin: 0; display: flex; justify-content: center; align-items: flex-end; padding-bottom: 100px; }\n    @keyframes bounce {\n      0%, 100% { transform: translateY(0); }\n      50% { transform: translateY(-240px); }\n    }\n    @keyframes squash {\n      0%, 100% { transform: scaleX(1) scaleY(1); }\n      40% { transform: scaleX(1.2) scaleY(0.7); }\n      60% { transform: scaleX(1.2) scaleY(0.7); }\n    }\n    .ball-wrap {\n      animation: bounce 1.5s cubic-bezier(0.5, 0, 0.5, 1) infinite;\n    }\n    .ball {\n      width: 80px;\n      height: 80px;\n      border-radius: 50%;\n      background: radial-gradient(circle at 30% 30%, #fef3c7, #f59e0b, #b45309);\n      box-shadow: 0 10px 20px rgba(245, 158, 11, 0.5);\n      animation: squash 1.5s cubic-bezier(0.5, 0, 0.5, 1) infinite;\n    }\n    .shadow {\n      width: 80px;\n      height: 14px;\n      background: radial-gradient(ellipse, rgba(0,0,0,0.5), transparent 70%);\n      border-radius: 50%;\n      margin-top: 10px;\n      animation: shadow-pulse 1.5s cubic-bezier(0.5, 0, 0.5, 1) infinite;\n    }\n    @keyframes shadow-pulse {\n      0%, 100% { transform: scale(1); opacity: 0.7; }\n      50% { transform: scale(0.5); opacity: 0.3; }\n    }\n  </style>\n</head>\n<body>\n  <div>\n    <div class=\"ball-wrap\"><div class=\"ball\"></div></div>\n    <div class=\"shadow\"></div>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A realistic bouncing ball with three synchronized animations: (1) the wrapper bounces up and down, (2) the ball itself squashes at the bottom of the bounce (like a real ball compressing), (3) the shadow pulses smaller and lighter as the ball rises. All three use the same duration and timing function to stay in sync.",
+        "output": "A golden ball bouncing up and down with a subtle squash at impact and a shadow that pulses with the bounce."
+      },
+      {
+        "title": "Typing Text Effect",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: #0f172a; color: white; font-family: 'Courier New', monospace; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }\n    .terminal {\n      background: #000;\n      border: 1px solid #334155;\n      border-radius: 10px;\n      padding: 30px 40px;\n      font-size: 20px;\n      box-shadow: 0 20px 60px rgba(168, 85, 247, 0.3);\n    }\n    .typing {\n      overflow: hidden;\n      white-space: nowrap;\n      border-right: 3px solid #a855f7;\n      width: 0;\n      animation: typing 3s steps(30, end) forwards,\n                 blink 0.8s step-end infinite;\n      color: #10b981;\n    }\n    @keyframes typing {\n      from { width: 0; }\n      to   { width: 29ch; }\n    }\n    @keyframes blink {\n      from, to { border-color: transparent; }\n      50%      { border-color: #a855f7; }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"terminal\">\n    <div class=\"typing\">&gt; Hello, I am Aarav the coder</div>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Classic terminal typing effect built with two animations. The <code>typing</code> animation grows the width from 0 to 29ch (character-width units), with <code>steps(30, end)</code> creating a stepped effect that looks like characters appearing one at a time. The <code>blink</code> animation toggles the cursor border on and off. Both run simultaneously.",
+        "output": "A terminal window showing text typing out character by character with a blinking cursor."
+      },
+      {
+        "title": "Pulse and Shake Attention Effects",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: #0f172a; display: flex; gap: 30px; justify-content: center; align-items: center; min-height: 100vh; font-family: Arial, sans-serif; }\n    .box {\n      width: 140px;\n      height: 140px;\n      border-radius: 18px;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      color: white;\n      font-weight: bold;\n      font-size: 18px;\n    }\n    .pulse {\n      background: #a855f7;\n      animation: pulse 2s ease-in-out infinite;\n    }\n    .shake {\n      background: #ec4899;\n      animation: shake 0.6s ease-in-out infinite;\n    }\n    .glow {\n      background: #06b6d4;\n      animation: glow 1.8s ease-in-out infinite;\n    }\n    @keyframes pulse {\n      0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(168, 85, 247, 0.7); }\n      50%      { transform: scale(1.08); box-shadow: 0 0 0 30px rgba(168, 85, 247, 0); }\n    }\n    @keyframes shake {\n      0%, 100% { transform: translateX(0); }\n      20%, 60% { transform: translateX(-8px); }\n      40%, 80% { transform: translateX(8px); }\n    }\n    @keyframes glow {\n      0%, 100% { box-shadow: 0 0 20px 2px rgba(6, 182, 212, 0.5); }\n      50%      { box-shadow: 0 0 40px 10px rgba(6, 182, 212, 1); }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"box pulse\">PULSE</div>\n  <div class=\"box shake\">SHAKE</div>\n  <div class=\"box glow\">GLOW</div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Three attention-grabbing effects. Pulse combines scale with an expanding shadow ring. Shake uses multiple translateX values at different percentages to create rapid side-to-side motion. Glow animates box-shadow size and intensity. All three are infinite loops that demand attention.",
+        "output": "Three boxes. One pulses with an expanding ring, one shakes side to side, and one has a glowing shadow that brightens and dims."
+      },
+      {
+        "title": "Rainbow Text (Color Cycle)",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: #000; display: flex; justify-content: center; align-items: center; min-height: 100vh; font-family: 'Arial Black', sans-serif; margin: 0; }\n    h1 {\n      font-size: clamp(2.5rem, 10vw, 8rem);\n      background: linear-gradient(90deg, #ef4444, #f59e0b, #eab308, #22c55e, #06b6d4, #3b82f6, #8b5cf6, #ec4899, #ef4444);\n      background-size: 200% 100%;\n      -webkit-background-clip: text;\n      background-clip: text;\n      -webkit-text-fill-color: transparent;\n      animation: rainbow 5s linear infinite;\n      text-align: center;\n      margin: 0;\n      letter-spacing: -2px;\n    }\n    @keyframes rainbow {\n      from { background-position: 0% 0; }\n      to   { background-position: 200% 0; }\n    }\n  </style>\n</head>\n<body>\n  <h1>SkyCoders</h1>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The heading has a wide horizontal rainbow gradient clipped to its text using <code>-webkit-background-clip: text</code>. The animation slides the background position across, creating a continuous rainbow cycle through the letters. No color properties are animated — only the background position shifts.",
+        "output": "Giant text showing a continuous rainbow color cycle flowing through the letters."
+      },
+      {
+        "title": "Slide-In Cards on Page Load",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: #0f172a; color: white; font-family: Arial, sans-serif; padding: 60px 20px; margin: 0; }\n    .title { text-align: center; color: #a855f7; margin-bottom: 30px; }\n    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; max-width: 900px; margin: 0 auto; }\n    .card {\n      padding: 24px;\n      border-radius: 14px;\n      font-weight: bold;\n      opacity: 0;\n      transform: translateY(40px);\n      animation: slideUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;\n    }\n    .card:nth-child(1) { background: linear-gradient(135deg, #a855f7, #ec4899); animation-delay: 0.1s; }\n    .card:nth-child(2) { background: linear-gradient(135deg, #06b6d4, #0ea5e9); animation-delay: 0.25s; }\n    .card:nth-child(3) { background: linear-gradient(135deg, #f59e0b, #ef4444); animation-delay: 0.4s; }\n    .card:nth-child(4) { background: linear-gradient(135deg, #10b981, #06b6d4); animation-delay: 0.55s; }\n    .card:nth-child(5) { background: linear-gradient(135deg, #8b5cf6, #3b82f6); animation-delay: 0.7s; }\n    .card:nth-child(6) { background: linear-gradient(135deg, #ec4899, #f59e0b); animation-delay: 0.85s; }\n    @keyframes slideUp {\n      to { opacity: 1; transform: translateY(0); }\n    }\n  </style>\n</head>\n<body>\n  <h1 class=\"title\">Meet Our Team</h1>\n  <div class=\"grid\">\n    <div class=\"card\">Aarav</div>\n    <div class=\"card\">Priya</div>\n    <div class=\"card\">Rohan</div>\n    <div class=\"card\">Ishita</div>\n    <div class=\"card\">Vivaan</div>\n    <div class=\"card\">Anika</div>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Staggered entrance animation. Each card starts invisible and 40px below its final position, then slides up and fades in with <code>animation-fill-mode: forwards</code> (so they STAY visible after). Each card has a different <code>animation-delay</code> using <code>:nth-child</code> selectors, creating a beautiful stagger effect on page load.",
+        "output": "Six gradient cards that slide up into place one after another when the page loads, creating a wave effect."
+      },
+      {
+        "title": "Progress Bar with Indeterminate Loading",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: #0f172a; display: flex; justify-content: center; align-items: center; min-height: 100vh; font-family: Arial, sans-serif; color: white; margin: 0; flex-direction: column; gap: 30px; }\n    .label { color: #cbd5e1; font-size: 14px; }\n    .bar-wrap {\n      width: 400px;\n      max-width: 90vw;\n      height: 8px;\n      background: #1e293b;\n      border-radius: 4px;\n      overflow: hidden;\n      position: relative;\n    }\n    .bar {\n      position: absolute;\n      top: 0;\n      left: 0;\n      height: 100%;\n      width: 30%;\n      background: linear-gradient(90deg, #a855f7, #06b6d4);\n      border-radius: 4px;\n      animation: slide 1.6s ease-in-out infinite;\n    }\n    @keyframes slide {\n      0%   { left: -30%; }\n      100% { left: 100%; }\n    }\n    .dots {\n      display: flex;\n      gap: 10px;\n      margin-top: 20px;\n    }\n    .dot {\n      width: 14px;\n      height: 14px;\n      border-radius: 50%;\n      background: #a855f7;\n      animation: dot 1.2s ease-in-out infinite;\n    }\n    .dot:nth-child(2) { animation-delay: 0.15s; background: #06b6d4; }\n    .dot:nth-child(3) { animation-delay: 0.3s; background: #f59e0b; }\n    @keyframes dot {\n      0%, 100% { transform: translateY(0); opacity: 0.5; }\n      50%      { transform: translateY(-12px); opacity: 1; }\n    }\n  </style>\n</head>\n<body>\n  <div>\n    <div class=\"label\">Loading your dashboard, Meera...</div>\n    <div class=\"bar-wrap\"><div class=\"bar\"></div></div>\n    <div class=\"dots\"><div class=\"dot\"></div><div class=\"dot\"></div><div class=\"dot\"></div></div>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Two loading indicators. The progress bar slides a colored segment from left to right continuously — the 'indeterminate' loading pattern. Below it, three colored dots bounce in sequence using <code>animation-delay</code> to create a wave. Both use infinite loops and are pure CSS.",
+        "output": "A loading screen with a horizontal gradient bar sliding across and three bouncing dots below."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting animation-fill-mode: forwards",
+        "wrongCode": "@keyframes slideIn {\n  from { transform: translateX(-100%); }\n  to   { transform: translateX(0); }\n}\n.card {\n  animation: slideIn 1s;\n}\n/* After animation, card snaps back to its original style — translateX(-100%) if set, or default */",
+        "error": "When the animation ends, the element reverts to its default CSS, not the final keyframe. If the default was translateX(-100%), the card disappears again.",
+        "correctCode": ".card {\n  animation: slideIn 1s forwards;\n  /* or: animation-fill-mode: forwards; */\n}",
+        "explanation": "<code>forwards</code> tells the element to keep the final keyframe's styles after the animation ends. This is usually what you want for entrance animations."
+      },
+      {
+        "title": "Animating Properties That Trigger Layout",
+        "wrongCode": "@keyframes moveRight {\n  from { left: 0; }\n  to   { left: 200px; }\n}\n.box {\n  position: absolute;\n  animation: moveRight 1s infinite;\n}\n/* Jerky on lower-end devices */",
+        "error": "Animating <code>left</code> triggers a layout recalculation every frame, which is slow. On complex pages or weaker devices, the animation can stutter.",
+        "correctCode": "@keyframes moveRight {\n  from { transform: translateX(0); }\n  to   { transform: translateX(200px); }\n}",
+        "explanation": "Use <code>transform: translateX()</code> instead of <code>left</code>. Transform runs on the GPU and does not trigger layout or paint work — much smoother."
+      },
+      {
+        "title": "Not Defining the Keyframes Before Using Them",
+        "wrongCode": ".spinner {\n  animation: spin 1s infinite;\n}\n/* No @keyframes spin defined anywhere */",
+        "error": "The animation does nothing because the @keyframes rule is missing. The browser will not warn you — it just silently ignores the animation.",
+        "correctCode": "@keyframes spin {\n  from { transform: rotate(0deg); }\n  to   { transform: rotate(360deg); }\n}\n\n.spinner {\n  animation: spin 1s linear infinite;\n}",
+        "explanation": "Always define the @keyframes rule in your CSS. A typo in the animation name also silently fails, so double-check spelling."
+      },
+      {
+        "title": "Using Animation for Simple State Changes",
+        "wrongCode": "@keyframes buttonHover {\n  from { background: red; }\n  to   { background: blue; }\n}\n.btn:hover {\n  animation: buttonHover 0.3s forwards;\n}\n/* Overkill! */",
+        "error": "Using @keyframes animation for a simple hover color change is overkill and less flexible. It also fights with hovering out.",
+        "correctCode": ".btn {\n  background: red;\n  transition: background 0.3s;\n}\n.btn:hover {\n  background: blue;\n}",
+        "explanation": "Use <code>transition</code> for simple state changes (hover, focus, class toggle) and reserve <code>@keyframes animation</code> for multi-step or looping animations."
+      }
+    ],
+    "summary": [
+      "<code>@keyframes animationName { ... }</code> defines the animation steps using <code>from/to</code> or percentages (0%, 25%, 50%, 100%).",
+      "Apply an animation to an element with <code>animation: name duration timing delay iteration-count direction fill-mode;</code> (shorthand).",
+      "<code>animation-iteration-count: infinite</code> makes the animation loop forever. Useful for spinners, pulses, and ambient effects.",
+      "<code>animation-direction: alternate</code> plays the animation forward, then backward, then forward again — perfect for back-and-forth motions like pulses.",
+      "<code>animation-fill-mode: forwards</code> keeps the element in its final keyframe state after the animation ends. Without it, the element snaps back to its original styles.",
+      "<code>animation-delay</code> lets you stagger multiple elements by applying different delays (often with <code>:nth-child</code>) for a wave or cascade effect.",
+      "You can apply multiple animations to one element by comma-separating them: <code>animation: fadeIn 1s, bounce 2s infinite 1s;</code>",
+      "For best performance, animate <code>transform</code> and <code>opacity</code>. These are GPU-accelerated and run at 60fps. Avoid animating width, height, top, left, margin.",
+      "<code>animation-play-state: paused | running</code> lets JavaScript pause and resume an animation.",
+      "Respect accessibility: use <code>@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</code> to disable animations for users with motion sensitivity."
+    ]
+  },
+  "relatedTopics": ["transitions-and-hover-effects", "transforms-2d-and-3d"],
+  "practice": {
+    "totalQuestions": 60,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between a CSS transition and a CSS animation?",
+        "hint": "Think about how many states each has.",
+        "answer": "A transition animates between TWO states (a starting and ending value). An animation uses <code>@keyframes</code> to define MANY states and can run automatically, loop, and play without a trigger.",
+        "explanation": "Use transitions for simple state changes (hover, focus). Use animations for multi-step movement, loading effects, or anything that should run on its own."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which rule defines an animation in CSS?",
+        "hint": "Starts with @.",
+        "answer": "<code>@keyframes</code>",
+        "explanation": "<code>@keyframes animationName { ... }</code> defines the steps of the animation. You then reference it with <code>animation-name: animationName</code>."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this do?<br><pre><code>@keyframes spin {\n  from { transform: rotate(0deg); }\n  to   { transform: rotate(360deg); }\n}\n.icon { animation: spin 2s linear infinite; }</code></pre>",
+        "hint": "Classic spinner.",
+        "answer": "The icon rotates continuously, making a full 360-degree turn every 2 seconds, forever.",
+        "explanation": "<code>linear</code> gives a constant speed, <code>2s</code> is the duration, <code>infinite</code> makes it loop forever. This is the classic loading spinner formula."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How do you make an animation loop forever?",
+        "hint": "Iteration count.",
+        "answer": "<code>animation-iteration-count: infinite;</code> or in shorthand: <code>animation: spin 1s infinite;</code>",
+        "explanation": "The default iteration count is 1 (plays once). <code>infinite</code> loops forever."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What do <code>from</code> and <code>to</code> mean in @keyframes?",
+        "hint": "They are shorthand for percentages.",
+        "answer": "<code>from</code> is equivalent to <code>0%</code> (start) and <code>to</code> is equivalent to <code>100%</code> (end). They are shorthand for two-step animations.",
+        "explanation": "For multi-step animations, use percentages: <code>0%</code>, <code>25%</code>, <code>50%</code>, <code>75%</code>, <code>100%</code>, etc."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>animation-direction: alternate</code> do?",
+        "hint": "Plays forward then backward.",
+        "answer": "The animation plays forward (0% to 100%), then backward (100% to 0%), then forward again, alternating on every iteration.",
+        "explanation": "Alternate is great for pulse effects and back-and-forth motions. You only define half the animation, and alternate plays it both ways."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>animation-fill-mode: forwards</code> do?",
+        "hint": "After the animation ends.",
+        "answer": "After the animation finishes, the element keeps the styles from the final keyframe instead of reverting to its original CSS.",
+        "explanation": "Without forwards, an element that slides in and stops at opacity 1 would suddenly snap back to opacity 0. forwards preserves the end state."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the order of values in the animation shorthand?",
+        "hint": "Name first, then timing values.",
+        "answer": "<code>animation: name duration timing-function delay iteration-count direction fill-mode;</code>",
+        "explanation": "Minimum required: name and duration. Everything else is optional. You can omit values in the middle, but order matters."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this animation do?<br><pre><code>@keyframes pulse {\n  0%, 100% { transform: scale(1); }\n  50%      { transform: scale(1.1); }\n}\n.btn { animation: pulse 1s infinite; }</code></pre>",
+        "hint": "Grows then shrinks.",
+        "answer": "The button smoothly grows to 110% of its size at the midpoint and shrinks back to 100% at the end, looping forever.",
+        "explanation": "At 0% and 100%, scale is 1. At 50%, scale is 1.1. The browser smoothly interpolates between these, creating a gentle pulse."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How do you apply multiple animations to a single element?",
+        "hint": "Comma-separated list.",
+        "answer": "<code>animation: fadeIn 1s, bounce 2s infinite 1s;</code>",
+        "explanation": "Separate each animation with a comma. Each runs independently and can have its own duration, delay, and iteration count."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>animation-play-state: paused</code> do?",
+        "hint": "Like a pause button.",
+        "answer": "It freezes the animation at its current frame. Change to <code>running</code> to resume from the same point.",
+        "explanation": "Useful for JavaScript-driven controls: you can pause an animation on user interaction (like hovering to stop a carousel) and resume when ready."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is animating <code>transform</code> smoother than animating <code>left</code>?",
+        "hint": "GPU vs CPU.",
+        "answer": "<code>transform</code> is GPU-accelerated and does not trigger layout recalculation or repaint. <code>left</code> changes the element's position in the layout tree, causing the browser to recalculate positions every frame.",
+        "explanation": "Rule: use <code>transform</code> (and <code>opacity</code>) for animations whenever possible. These stay on the GPU for buttery-smooth 60fps."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the difference between <code>animation-fill-mode: forwards</code> and <code>backwards</code>?",
+        "hint": "Forwards = after. Backwards = during delay.",
+        "answer": "<code>forwards</code> keeps the FINAL keyframe state after the animation ends. <code>backwards</code> applies the FIRST keyframe state during the animation's delay period (before it starts).",
+        "explanation": "<code>both</code> combines the two — the first frame is visible during delay AND the last frame is kept after the animation ends."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does <code>animation: spin 1s 2s infinite</code> mean?",
+        "hint": "Identify which time is duration and which is delay.",
+        "answer": "The animation is named 'spin', runs for 1 second, starts 2 seconds after the element is rendered, and loops infinitely.",
+        "explanation": "The first time value is duration, the second is delay. Iteration count follows."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "How do you stagger animations on multiple child elements?",
+        "hint": ":nth-child with different delays.",
+        "answer": "Use <code>:nth-child(N)</code> selectors with different <code>animation-delay</code> values. Example: <code>.card:nth-child(1) { animation-delay: 0.1s; } .card:nth-child(2) { animation-delay: 0.2s; }</code>",
+        "explanation": "This creates a wave or cascade effect where each element starts its animation slightly after the previous one."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which value makes an animation run forever?",
+        "hint": "One word.",
+        "answer": "<code>infinite</code> (used with animation-iteration-count)",
+        "explanation": "Example: <code>animation-iteration-count: infinite;</code> or in shorthand: <code>animation: spin 1s infinite;</code>"
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Can an @keyframes rule have more than two steps?",
+        "hint": "Think about percentages.",
+        "answer": "Yes. You can define any number of percentage-based steps: 0%, 10%, 25%, 50%, 100%, etc.",
+        "explanation": "Example: <code>@keyframes dance { 0% { ... } 25% { ... } 50% { ... } 75% { ... } 100% { ... } }</code>"
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When should you use @keyframes instead of a transition?",
+        "hint": "Complexity and autonomy.",
+        "answer": "Use @keyframes when you need multi-step animations, looping/infinite motion, or animations that run automatically without a trigger (like loading spinners, pulses, or entrance effects on page load).",
+        "explanation": "Use transitions for simple 2-state changes (hover, focus, class toggle). Use animations for anything more complex or autonomous."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens if you apply <code>animation: bounce 1s</code> but never define <code>@keyframes bounce</code>?",
+        "hint": "No error, but no effect.",
+        "answer": "Nothing happens. The browser silently ignores the animation because the keyframes are not defined. There is no error message.",
+        "explanation": "A common bug is typos in the animation name. Double-check that the @keyframes name EXACTLY matches the animation-name value."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>steps(10, end)</code> do as a timing function?",
+        "hint": "Discrete steps, not smooth.",
+        "answer": "The animation advances in 10 discrete jumps instead of smoothly interpolating. The 'end' means the change happens at the end of each step.",
+        "explanation": "Used for effects like typewriter text, sprite sheet animations, and clock tick marks where you want distinct steps rather than smooth motion."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What timing function is most natural for a loading spinner?",
+        "hint": "Constant speed.",
+        "answer": "<code>linear</code>",
+        "explanation": "A spinner should rotate at a constant speed. Any easing would make the spinner speed up and slow down, which looks unnatural for a circular loading indicator."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the difference between <code>alternate</code> and <code>reverse</code>?",
+        "hint": "Alternate loops forward-backward; reverse always plays backward.",
+        "answer": "<code>reverse</code> plays the animation backward on every iteration (100% to 0%). <code>alternate</code> plays forward (0-100%) on odd iterations and backward (100-0%) on even iterations.",
+        "explanation": "alternate is for back-and-forth motions; reverse is for animations that should always play in reverse."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is <code>animation-fill-mode: forwards</code> often essential?",
+        "hint": "End state.",
+        "answer": "Without forwards, the element snaps back to its original CSS after the animation ends, which often looks wrong for entrance animations (the element would disappear after sliding in).",
+        "explanation": "Any time you animate an element to a final state and want it to STAY there, use <code>forwards</code>."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Can you animate CSS custom properties (variables)?",
+        "hint": "Yes, but they need special declaration.",
+        "answer": "Yes, but you must register the property with <code>@property</code> first so the browser knows its type. Otherwise the browser treats the variable as a string and cannot interpolate.",
+        "explanation": "Example: <code>@property --hue { syntax: '&lt;number&gt;'; inherits: false; initial-value: 0; }</code>. Then you can animate the variable smoothly."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does <code>animation-iteration-count: 2.5</code> mean?",
+        "hint": "Fractional iterations.",
+        "answer": "The animation plays two and a half times — two full cycles followed by halfway through a third.",
+        "explanation": "Iteration count can be a decimal. Useful for animations that should end at a specific intermediate state."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "How do you stop animations for users who have motion sickness?",
+        "hint": "prefers-reduced-motion.",
+        "answer": "Use <code>@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }</code>",
+        "explanation": "This respects the user's OS-level accessibility preference for reduced motion. Always include this in production websites."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which property controls how fast an animation plays?",
+        "hint": "Time.",
+        "answer": "<code>animation-duration</code>",
+        "explanation": "Duration sets the length of one iteration of the animation. Specified in seconds (1s) or milliseconds (1000ms)."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>0%, 100% { opacity: 1; } 50% { opacity: 0; }</code> create?",
+        "hint": "Fade in/out at the middle.",
+        "answer": "A blinking effect — the element is visible at the start and end, and invisible in the middle. Paired with <code>infinite</code>, it creates continuous blinking.",
+        "explanation": "Combining 0% and 100% into one rule is a common shortcut when the start and end states are identical."
+      },
+      {
+        "id": "mx-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why can you not animate <code>background-image</code> with a smooth transition between two images?",
+        "hint": "Discrete vs interpolable.",
+        "answer": "background-image values are discrete — the browser cannot interpolate between two different image URLs. It swaps instantly, not smoothly.",
+        "explanation": "Workaround: stack two images on top of each other with absolute positioning and animate their opacity for a cross-fade effect."
+      },
+      {
+        "id": "mx-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is <code>@keyframes</code> short for?",
+        "hint": "Animation key moments.",
+        "answer": "Keyframes — key moments (frames) in the animation where you define specific styles. The browser interpolates between them.",
+        "explanation": "The term 'keyframe' comes from traditional animation, where an animator draws the important poses and assistants fill in the frames between."
+      },
+      {
+        "id": "mx-16",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is <code>animation-delay</code>?",
+        "hint": "Wait before starting.",
+        "answer": "The time to wait before the animation starts playing after the element is rendered. Default is 0s.",
+        "explanation": "Useful for staggering multiple elements: give each a different delay so they animate one after another."
+      },
+      {
+        "id": "mx-17",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>animation: spin 1s linear infinite</code> do?",
+        "hint": "Classic spinner.",
+        "answer": "Runs the 'spin' animation for 1 second with constant speed, looping forever.",
+        "explanation": "This is the standard loading spinner formula. linear ensures constant rotation speed; infinite loops forever."
+      },
+      {
+        "id": "mx-18",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Where should you declare @keyframes rules in your stylesheet?",
+        "hint": "Order does not matter much.",
+        "answer": "Anywhere in the stylesheet, as long as they exist BEFORE the browser tries to apply them. By convention, many developers put them near the bottom or in a dedicated section.",
+        "explanation": "Unlike JavaScript, CSS order for @keyframes does not affect whether they work — they are globally scoped within the stylesheet. But grouping them together improves readability."
+      },
+      {
+        "id": "mx-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What happens if two keyframes at the same percentage conflict?<br><pre><code>@keyframes test {\n  50% { background: red; }\n  50% { background: blue; }\n  100% { background: green; }\n}</code></pre>",
+        "hint": "Last one wins.",
+        "answer": "The last definition wins. At 50%, background is blue (the later rule overrides the earlier one).",
+        "explanation": "Just like regular CSS rules, later declarations override earlier ones when specificity is equal."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which CSS rule defines an animation?",
+        "options": {
+          "A": "@animation",
+          "B": "@keyframes",
+          "C": "@motion",
+          "D": "@animate"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>@keyframes name { ... }</code> defines the steps of an animation."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "How do you make an animation run forever?",
+        "options": {
+          "A": "animation-iteration-count: forever",
+          "B": "animation-iteration-count: infinite",
+          "C": "animation-loop: true",
+          "D": "animation-repeat: always"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>infinite</code> is the keyword for endless iteration."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "In @keyframes, what does <code>from</code> mean?",
+        "options": {
+          "A": "50%",
+          "B": "0% (the start)",
+          "C": "100% (the end)",
+          "D": "The starting delay"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>from</code> is shorthand for 0% and <code>to</code> is shorthand for 100%."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the correct shorthand order?",
+        "options": {
+          "A": "animation: duration name timing-function",
+          "B": "animation: name duration timing-function delay iteration-count direction fill-mode",
+          "C": "animation: name timing-function duration",
+          "D": "animation: fill-mode name duration"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The order is: name, duration, timing-function, delay, iteration-count, direction, fill-mode. Only name and duration are required."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which timing function is best for a loading spinner?",
+        "options": {
+          "A": "ease",
+          "B": "linear",
+          "C": "ease-in-out",
+          "D": "cubic-bezier(1, 0, 0, 1)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Spinners should rotate at a constant speed, which is what <code>linear</code> provides."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does <code>animation-direction: alternate</code> do?",
+        "options": {
+          "A": "Plays every other animation",
+          "B": "Plays forward, then backward, alternating on each iteration",
+          "C": "Skips alternate frames",
+          "D": "Randomizes the direction"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Alternate plays 0-100% on odd iterations and 100-0% on even iterations, creating smooth back-and-forth motion."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does <code>animation-fill-mode: forwards</code> do?",
+        "options": {
+          "A": "Plays the animation in fast-forward",
+          "B": "Keeps the element in its final keyframe state after the animation ends",
+          "C": "Moves the element forward",
+          "D": "Starts the animation later"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without forwards, the element snaps back to its original styles after the animation. With forwards, it stays in the final state."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which animation property can JavaScript change to pause an animation?",
+        "options": {
+          "A": "animation-stop",
+          "B": "animation-play-state",
+          "C": "animation-duration",
+          "D": "animation-pause"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>animation-play-state: paused</code> freezes the animation. Setting it back to <code>running</code> resumes it."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "How do you apply TWO animations to an element?",
+        "options": {
+          "A": "animation: fadeIn 1s; animation: bounce 2s;",
+          "B": "animation: fadeIn 1s, bounce 2s;",
+          "C": "animation: fadeIn 1s and bounce 2s;",
+          "D": "Use two different elements"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Separate multiple animations with commas. Each runs independently."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which property can you animate most efficiently?",
+        "options": {
+          "A": "width",
+          "B": "height",
+          "C": "transform",
+          "D": "top"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>transform</code> (and <code>opacity</code>) run on the GPU without triggering layout, making them the most performant."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What does this define?<br><code>@keyframes fade { from { opacity: 0; } to { opacity: 1; } }</code>",
+        "options": {
+          "A": "A fade-out effect",
+          "B": "A fade-in effect (invisible to visible)",
+          "C": "A loop animation",
+          "D": "Nothing"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The opacity goes from 0 (invisible) to 1 (fully visible), creating a fade-in effect."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "Why is <code>animation: spin 1s forwards</code> NOT useful?",
+        "options": {
+          "A": "forwards does nothing for non-repeating animations",
+          "B": "spin animations usually loop; forwards has no visible effect on an infinite animation",
+          "C": "You cannot combine forwards with spin",
+          "D": "The syntax is wrong"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>forwards</code> preserves the final keyframe state after the animation ends. For a looping animation, there is no 'end', so forwards has no effect."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "What creates a typewriter effect?",
+        "options": {
+          "A": "animation-timing-function: linear and width from 0 to full",
+          "B": "animation-timing-function: steps(N, end) with a width animation",
+          "C": "animation-iteration-count: infinite",
+          "D": "animation-direction: reverse"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>steps(N, end)</code> advances in discrete jumps, making characters appear one at a time instead of smoothly growing."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What happens if you apply an animation whose @keyframes name has a typo?",
+        "options": {
+          "A": "The browser throws an error",
+          "B": "The browser silently ignores the animation",
+          "C": "The animation plays instantly",
+          "D": "The element disappears"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Typos in animation names silently fail. Always double-check the @keyframes name matches the animation-name value exactly."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "Which creates a stagger effect where multiple elements animate one after another?",
+        "options": {
+          "A": "Different animation-duration on each",
+          "B": "Different animation-delay on each",
+          "C": "Using different @keyframes for each",
+          "D": "Multiple animation-iteration-counts"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Apply the same animation to multiple elements with different <code>animation-delay</code> values (often using :nth-child) to create a cascade or wave."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "What does <code>prefers-reduced-motion: reduce</code> detect?",
+        "options": {
+          "A": "Slow internet connections",
+          "B": "User OS preference for minimized motion (accessibility)",
+          "C": "Low battery mode",
+          "D": "High contrast mode"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> It detects if the user has asked their OS to reduce motion for accessibility. Use it to disable or simplify animations."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Easy",
+        "question": "Can @keyframes contain more than two steps?",
+        "options": {
+          "A": "No, only from and to",
+          "B": "Yes, you can use any number of percentage-based steps",
+          "C": "Maximum 5 steps",
+          "D": "Maximum 100 steps"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> You can define as many percentage steps as you want: 0%, 10%, 25%, 50%, 75%, 100%, or any custom percentages."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "What is the minimum valid shorthand for applying an animation?",
+        "options": {
+          "A": "animation: name;",
+          "B": "animation: name duration;",
+          "C": "animation: name duration timing-function;",
+          "D": "animation: name duration delay;"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> At minimum you need the name and duration. Everything else has defaults."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "Which property's value CANNOT be smoothly animated between different values?",
+        "options": {
+          "A": "opacity",
+          "B": "transform",
+          "C": "display",
+          "D": "background-color"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> display is discrete with no intermediate values. It cannot be smoothly animated in classic CSS animations."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Medium",
+        "question": "Why might <code>animation-delay: 2s</code> be useful?",
+        "options": {
+          "A": "To make the animation faster",
+          "B": "To wait 2 seconds before the animation starts (useful for staggering or timing entrance animations)",
+          "C": "To reduce CPU load",
+          "D": "To prevent the animation from running at all"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Delay postpones the start of the animation, which is how you stagger multiple animations into a sequence."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Rotating Loading Spinner",
+        "difficulty": "Easy",
+        "description": "Create a circular loading spinner that rotates continuously. Use a border with one side colored to show the spin direction. Duration 1 second, linear, infinite.",
+        "sampleInput": "Open the page",
+        "sampleOutput": "A spinning circle.",
+        "constraints": "Use @keyframes and transform: rotate. Must loop infinitely.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #0f172a; margin: 0; }\n  @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }\n  .spinner { width: 60px; height: 60px; border: 6px solid #1e293b; border-top-color: #a855f7; border-radius: 50%; animation: spin 1s linear infinite; }\n</style>\n</head>\n<body>\n  <div class=\"spinner\"></div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Pulsing Button",
+        "difficulty": "Easy",
+        "description": "Create a button that gently pulses (scales from 1 to 1.08 and back) continuously to draw attention. Use <code>alternate</code> to avoid defining both forward and backward steps.",
+        "sampleInput": "None",
+        "sampleOutput": "A button that grows and shrinks slowly in a loop.",
+        "constraints": "Use @keyframes with only half the animation. Use animation-direction: alternate.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #0f172a; margin: 0; font-family: Arial, sans-serif; }\n  @keyframes pulse { from { transform: scale(1); } to { transform: scale(1.08); } }\n  .btn { padding: 16px 36px; font-size: 18px; background: #a855f7; color: white; border: none; border-radius: 10px; cursor: pointer; animation: pulse 1s ease-in-out infinite alternate; }\n</style>\n</head>\n<body>\n  <button class=\"btn\">Click Me, Aarav!</button>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Fade-In on Page Load",
+        "difficulty": "Medium",
+        "description": "Make a heading and paragraph fade in and slide up when the page loads. The heading should animate first, followed by the paragraph 0.3 seconds later. Both should stay visible after the animation ends.",
+        "sampleInput": "Load the page",
+        "sampleOutput": "Heading fades in from below, then paragraph fades in.",
+        "constraints": "Use @keyframes with opacity and translateY. Use animation-delay. Use fill-mode: forwards.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { display: flex; justify-content: center; align-items: center; flex-direction: column; height: 100vh; background: #0f172a; color: white; font-family: Arial, sans-serif; margin: 0; }\n  @keyframes slideUp {\n    from { opacity: 0; transform: translateY(40px); }\n    to   { opacity: 1; transform: translateY(0); }\n  }\n  h1, p { opacity: 0; animation: slideUp 0.8s ease-out forwards; text-align: center; }\n  h1 { color: #a855f7; font-size: 42px; }\n  p { color: #cbd5e1; max-width: 400px; animation-delay: 0.3s; }\n</style>\n</head>\n<body>\n  <h1>Welcome Ishita</h1>\n  <p>This heading and paragraph fade in from below when the page loads.</p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Bouncing Ball",
+        "difficulty": "Medium",
+        "description": "Create a ball that bounces up and down continuously. The ball should rise 200px, pause briefly at the top, and fall back. Use <code>cubic-bezier</code> for a natural gravity-like feel.",
+        "sampleInput": "None",
+        "sampleOutput": "A ball bouncing forever.",
+        "constraints": "Use @keyframes with 0%, 50%, 100% steps. Use transform: translateY. Use cubic-bezier.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { display: flex; justify-content: center; align-items: flex-end; height: 100vh; background: linear-gradient(to bottom, #0f172a, #1e293b); margin: 0; padding-bottom: 80px; }\n  @keyframes bounce {\n    0%, 100% { transform: translateY(0); }\n    50%      { transform: translateY(-200px); }\n  }\n  .ball { width: 70px; height: 70px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #fef3c7, #f59e0b, #b45309); box-shadow: 0 6px 14px rgba(245, 158, 11, 0.5); animation: bounce 1.3s cubic-bezier(0.5, 0, 0.5, 1) infinite; }\n</style>\n</head>\n<body>\n  <div class=\"ball\"></div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Typing Text Effect",
+        "difficulty": "Hard",
+        "description": "Create a typewriter effect where text appears character by character. Include a blinking cursor. Use <code>steps()</code> timing and <code>ch</code> units for width.",
+        "sampleInput": "None",
+        "sampleOutput": "Text types out with a blinking cursor.",
+        "constraints": "Use two @keyframes: one for typing (width), one for blink (border). Use steps() timing.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #000; margin: 0; font-family: 'Courier New', monospace; color: #10b981; font-size: 24px; }\n  .typing { overflow: hidden; white-space: nowrap; border-right: 3px solid #a855f7; width: 0; animation: typing 2.5s steps(22, end) forwards, blink 0.7s step-end infinite; }\n  @keyframes typing { from { width: 0; } to { width: 22ch; } }\n  @keyframes blink {\n    from, to { border-color: transparent; }\n    50%      { border-color: #a855f7; }\n  }\n</style>\n</head>\n<body>\n  <div class=\"typing\">Hi, I am Priya the dev</div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Staggered Card Grid Entrance",
+        "difficulty": "Hard",
+        "description": "Create a grid of 5 cards that slide up and fade in one after another when the page loads. Each card should start 0.15s after the previous. Use @keyframes, animation-delay, and :nth-child.",
+        "sampleInput": "Load the page",
+        "sampleOutput": "Cards appear in a wave, each one after the previous.",
+        "constraints": "Single @keyframes for all cards. Use :nth-child with different animation-delay values. Use fill-mode: forwards.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { background: #0f172a; font-family: Arial, sans-serif; padding: 40px 20px; margin: 0; }\n  h1 { color: #a855f7; text-align: center; margin-bottom: 24px; }\n  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; max-width: 900px; margin: 0 auto; }\n  .card { padding: 26px; border-radius: 14px; color: white; font-weight: bold; opacity: 0; transform: translateY(40px); animation: slideUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards; }\n  .card:nth-child(1) { background: linear-gradient(135deg, #a855f7, #ec4899); animation-delay: 0.1s; }\n  .card:nth-child(2) { background: linear-gradient(135deg, #06b6d4, #0ea5e9); animation-delay: 0.25s; }\n  .card:nth-child(3) { background: linear-gradient(135deg, #f59e0b, #ef4444); animation-delay: 0.4s; }\n  .card:nth-child(4) { background: linear-gradient(135deg, #10b981, #06b6d4); animation-delay: 0.55s; }\n  .card:nth-child(5) { background: linear-gradient(135deg, #8b5cf6, #3b82f6); animation-delay: 0.7s; }\n  @keyframes slideUp { to { opacity: 1; transform: translateY(0); } }\n</style>\n</head>\n<body>\n  <h1>Our Team</h1>\n  <div class=\"grid\">\n    <div class=\"card\">Aarav</div>\n    <div class=\"card\">Priya</div>\n    <div class=\"card\">Rohan</div>\n    <div class=\"card\">Ishita</div>\n    <div class=\"card\">Vivaan</div>\n  </div>\n</body>\n</html>"
+      }
+    ]
+  }
+}

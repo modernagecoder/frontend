@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Forms, Inputs, and Form Validation | HTML and CSS | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="58+ practice questions on Forms, Inputs, and Form Validation in HTML and CSS. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="forms, inputs, and form validation practice, html and css questions, html and css practice problems, forms, inputs, and form validation exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/forms-and-inputs/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/forms-and-inputs/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/forms-and-inputs/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/forms-and-inputs/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/forms-and-inputs/practice">
+    <meta property="og:title" content="Practice Questions - Forms, Inputs, and Form Validation | HTML and CSS | Modern Age Coders">
+    <meta property="og:description" content="58+ practice questions on Forms, Inputs, and Form Validation in HTML and CSS. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/forms-and-inputs/practice">
+    <meta name="twitter:title" content="Practice Questions - Forms, Inputs, and Form Validation | HTML and CSS | Modern Age Coders">
+    <meta name="twitter:description" content="58+ practice questions on Forms, Inputs, and Form Validation in HTML and CSS. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Forms, Inputs, and Form Validation",
+    "description": "58+ practice questions on Forms, Inputs, and Form Validation in HTML and CSS.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Forms, Inputs, and Form Validation"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/forms-and-inputs/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Forms, Inputs, and Form Validation",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/forms-and-inputs"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/forms-and-inputs/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css/forms-and-inputs">Forms, Inputs, and Form Validation</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 7</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">58 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Forms, Inputs, and Form Validation</h1>
+            <a href="/resources/html-and-css/forms-and-inputs" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">18</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">18</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this HTML display?<br><pre><code>&lt;input type="text" placeholder="Enter name"&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">A single-line box with grey hint text.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">A single-line text input field with 'Enter name' shown in grey until the user types.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Create a form with a single email input and a submit button.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Use form, input type=email, and button type=submit.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><pre><code>&lt;form&gt;
+  &lt;label for="email"&gt;Email:&lt;/label&gt;
+  &lt;input type="email" id="email" name="email"&gt;
+  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which attribute makes an input field mandatory?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Users cannot leave it empty.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>required</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What input type should you use for a password field?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">It hides what the user types.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>type="password"</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <input type="checkbox"> create?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">A box that can be ticked on or off.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5">A checkbox — a square box users can tick. Lets them pick multiple options.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Create a dropdown (select) where users can pick their favourite sport: Cricket, Football, or Hockey.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Use select with option tags inside.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><pre><code>&lt;label for="sport"&gt;Sport:&lt;/label&gt;
+&lt;select id="sport" name="sport"&gt;
+  &lt;option value="cricket"&gt;Cricket&lt;/option&gt;
+  &lt;option value="football"&gt;Football&lt;/option&gt;
+  &lt;option value="hockey"&gt;Hockey&lt;/option&gt;
+&lt;/select&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What element should you use for multi-line text input like a comment?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">It is not input.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>&lt;textarea&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Aarav's form is sending nothing to the server. Find the bug:<br><pre><code>&lt;form action="/submit" method="POST"&gt;
+  &lt;input type="text" id="username"&gt;
+  &lt;button type="submit"&gt;Go&lt;/button&gt;
+&lt;/form&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">The server needs a key to identify the data.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8">Missing <code>name</code> attribute. Add <code>name="username"</code> to the input.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Create 3 radio buttons for gender: Male, Female, Other. They should be grouped so only one can be selected.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Give them all the same name.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><pre><code>&lt;label&gt;&lt;input type="radio" name="gender" value="male"&gt; Male&lt;/label&gt;
+&lt;label&gt;&lt;input type="radio" name="gender" value="female"&gt; Female&lt;/label&gt;
+&lt;label&gt;&lt;input type="radio" name="gender" value="other"&gt; Other&lt;/label&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <label for="email"> do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">It connects the label to an input.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">Links the label to the input with id="email". Clicking the label focuses that input.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Create a number input that only accepts ages between 5 and 100.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Use type=number with min and max.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><pre><code>&lt;label for="age"&gt;Age:&lt;/label&gt;
+&lt;input type="number" id="age" name="age" min="5" max="100"&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What input type should you use for a date of birth field?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">It opens a calendar.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>type="date"</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Priya's radio buttons all allow multiple selections. Fix:<br><pre><code>&lt;input type="radio" name="pet1" value="dog"&gt; Dog
+&lt;input type="radio" name="pet2" value="cat"&gt; Cat
+&lt;input type="radio" name="pet3" value="bird"&gt; Bird</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Radio buttons need the same name to group.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><pre><code>&lt;input type="radio" name="pet" value="dog"&gt; Dog
+&lt;input type="radio" name="pet" value="cat"&gt; Cat
+&lt;input type="radio" name="pet" value="bird"&gt; Bird</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Create a textarea with 5 rows, 40 columns, maximum 200 characters, and a placeholder 'Tell us about yourself'.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Use rows, cols, maxlength, and placeholder attributes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><pre><code>&lt;textarea rows="5" cols="40" maxlength="200" placeholder="Tell us about yourself"&gt;&lt;/textarea&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between readonly and disabled?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Both prevent editing, but only one submits the value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>readonly</code> prevents editing but the value IS submitted. <code>disabled</code> prevents editing AND the value is NOT submitted.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Create a fieldset with the legend 'Contact Info' containing email and phone inputs.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Use fieldset, legend, and two inputs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><pre><code>&lt;fieldset&gt;
+  &lt;legend&gt;Contact Info&lt;/legend&gt;
+  &lt;label&gt;Email: &lt;input type="email" name="email"&gt;&lt;/label&gt;&lt;br&gt;
+  &lt;label&gt;Phone: &lt;input type="tel" name="phone"&gt;&lt;/label&gt;
+&lt;/fieldset&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between name and id on an input field?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">One is for the server, one is for labels and CSS.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>name</code> is used when submitting the form (the server sees it as the key). <code>id</code> is for labels, CSS, and JavaScript. Most fields need both.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Create a checkbox list for hobbies (Reading, Gaming, Sports, Music). Each should send the value on submit.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Each checkbox needs a name and value. You can give them the same name.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><pre><code>&lt;fieldset&gt;
+  &lt;legend&gt;Hobbies&lt;/legend&gt;
+  &lt;label&gt;&lt;input type="checkbox" name="hobby" value="reading"&gt; Reading&lt;/label&gt;&lt;br&gt;
+  &lt;label&gt;&lt;input type="checkbox" name="hobby" value="gaming"&gt; Gaming&lt;/label&gt;&lt;br&gt;
+  &lt;label&gt;&lt;input type="checkbox" name="hobby" value="sports"&gt; Sports&lt;/label&gt;&lt;br&gt;
+  &lt;label&gt;&lt;input type="checkbox" name="hobby" value="music"&gt; Music&lt;/label&gt;
+&lt;/fieldset&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does pattern="[0-9]{10}" mean on an input?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">It is a regex requiring exactly 10 digits.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19">The input must contain exactly 10 digits (0-9). Useful for Indian phone numbers.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Create a complete form with a phone input requiring exactly 10 digits using pattern.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Use type=tel and pattern="[0-9]{10}".</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><pre><code>&lt;form&gt;
+  &lt;label for="phone"&gt;Phone:&lt;/label&gt;
+  &lt;input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required title="10 digits only"&gt;
+  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Rohan's password field looks broken — users see their passwords. Fix:<br><pre><code>&lt;input type="text" name="password"&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">Change the type.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21"><pre><code>&lt;input type="password" name="password"&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What type of input should you use for uploading an image?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">It opens a file picker.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22"><code>type="file"</code> with <code>accept="image/*"</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Create a slider (range) input from 0 to 100 with default value 50 for volume.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-23">Use type=range.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-23"><pre><code>&lt;label for="vol"&gt;Volume:&lt;/label&gt;
+&lt;input type="range" id="vol" name="volume" min="0" max="100" value="50"&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 24</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why should you avoid using placeholder as the only label for an input?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-24" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-24">It disappears when users type.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-24">Placeholders disappear when the user types, leaving them without context. Screen readers often skip them. Always use a real label.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 25</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Build a complete registration form with name, email, password (min 8 chars), age (10-80), gender (radio), interests (checkboxes: Sports, Music, Art), country (select), and bio (textarea). Include proper labels for everything.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-25" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-25">Use all the concepts from the chapter.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-25"><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+&lt;form action="/signup" method="POST"&gt;
+  &lt;label for="name"&gt;Name:&lt;/label&gt;
+  &lt;input type="text" id="name" name="name" required&gt;&lt;br&gt;
+
+  &lt;label for="email"&gt;Email:&lt;/label&gt;
+  &lt;input type="email" id="email" name="email" required&gt;&lt;br&gt;
+
+  &lt;label for="pwd"&gt;Password:&lt;/label&gt;
+  &lt;input type="password" id="pwd" name="pwd" minlength="8" required&gt;&lt;br&gt;
+
+  &lt;label for="age"&gt;Age:&lt;/label&gt;
+  &lt;input type="number" id="age" name="age" min="10" max="80" required&gt;&lt;br&gt;
+
+  &lt;fieldset&gt;&lt;legend&gt;Gender&lt;/legend&gt;
+    &lt;label&gt;&lt;input type="radio" name="gender" value="m"&gt; Male&lt;/label&gt;
+    &lt;label&gt;&lt;input type="radio" name="gender" value="f"&gt; Female&lt;/label&gt;
+    &lt;label&gt;&lt;input type="radio" name="gender" value="o"&gt; Other&lt;/label&gt;
+  &lt;/fieldset&gt;
+
+  &lt;fieldset&gt;&lt;legend&gt;Interests&lt;/legend&gt;
+    &lt;label&gt;&lt;input type="checkbox" name="int" value="sports"&gt; Sports&lt;/label&gt;
+    &lt;label&gt;&lt;input type="checkbox" name="int" value="music"&gt; Music&lt;/label&gt;
+    &lt;label&gt;&lt;input type="checkbox" name="int" value="art"&gt; Art&lt;/label&gt;
+  &lt;/fieldset&gt;
+
+  &lt;label for="country"&gt;Country:&lt;/label&gt;
+  &lt;select id="country" name="country"&gt;
+    &lt;option value="in"&gt;India&lt;/option&gt;
+    &lt;option value="us"&gt;USA&lt;/option&gt;
+  &lt;/select&gt;&lt;br&gt;
+
+  &lt;label for="bio"&gt;Bio:&lt;/label&gt;
+  &lt;textarea id="bio" name="bio" rows="4"&gt;&lt;/textarea&gt;&lt;br&gt;
+
+  &lt;button type="submit"&gt;Register&lt;/button&gt;
+&lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 26</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why does <input type="text" disabled value="hello"> not submit 'hello' to the server?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-26" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-26">What does disabled do exactly?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-26" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-26">The <code>disabled</code> attribute excludes the field from form submission entirely. To still submit it while preventing edits, use <code>readonly</code> instead.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 27</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Create a search form that uses the GET method and sends a query parameter named 'q'.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-27" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-27">Use method="GET" and input name="q".</div><button type="button" class="collapsible-toggle" data-target="answer-ts-27" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-27"><pre><code>&lt;form action="/search" method="GET"&gt;
+  &lt;label for="q"&gt;Search:&lt;/label&gt;
+  &lt;input type="search" id="q" name="q" placeholder="Search..." required&gt;
+  &lt;button type="submit"&gt;Go&lt;/button&gt;
+&lt;/form&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 28</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Ananya's form has a file upload that never sends the file. Fix:<br><pre><code>&lt;form action="/upload" method="POST"&gt;
+  &lt;input type="file" name="pic"&gt;
+  &lt;button type="submit"&gt;Upload&lt;/button&gt;
+&lt;/form&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-28" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-28">The form needs a special attribute for file uploads.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-28" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-28"><pre><code>&lt;form action="/upload" method="POST" enctype="multipart/form-data"&gt;
+  &lt;input type="file" name="pic"&gt;
+  &lt;button type="submit"&gt;Upload&lt;/button&gt;
+&lt;/form&gt;</code></pre></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which tag creates a multi-line text input?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">It is not input.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>&lt;textarea&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Create a simple form with a text input and submit button. Include a label.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Form, label, input, button.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><pre><code>&lt;form&gt;
+  &lt;label for="name"&gt;Name:&lt;/label&gt;
+  &lt;input type="text" id="name" name="name"&gt;
+  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the purpose of the action attribute on a form?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">It is a URL.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">It tells the browser where (which URL) to send the form data when submitted.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why does clicking the label NOT focus the input?<br><pre><code>&lt;label&gt;Name:&lt;/label&gt;
+&lt;input type="text" id="name"&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">The label and input need to be linked.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4">The label needs <code>for="name"</code> to link it to the input.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which two attributes let you set a number range on a number input?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">They limit the smallest and largest values.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>min</code> and <code>max</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Create a form with three inputs: username (required, min 3 chars), email (required, must be valid), password (required, min 8 chars).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Use required, minlength, and type=email.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>&lt;form&gt;
+  &lt;label for="u"&gt;Username:&lt;/label&gt;
+  &lt;input type="text" id="u" name="username" required minlength="3"&gt;&lt;br&gt;
+
+  &lt;label for="e"&gt;Email:&lt;/label&gt;
+  &lt;input type="email" id="e" name="email" required&gt;&lt;br&gt;
+
+  &lt;label for="p"&gt;Password:&lt;/label&gt;
+  &lt;input type="password" id="p" name="password" required minlength="8"&gt;&lt;br&gt;
+
+  &lt;button type="submit"&gt;Sign Up&lt;/button&gt;
+&lt;/form&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between GET and POST methods?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Where does the data go in each case?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">GET puts the data in the URL (visible). POST sends it hidden in the request body. POST is used for sensitive data like passwords.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">The input shows plain text instead of dots:<br><pre><code>&lt;input type="text" name="password" required&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Wrong type.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">Change <code>type="text"</code> to <code>type="password"</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Create a color picker input with a default of red (#ff0000).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">type=color and value=#ff0000.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>&lt;label for="c"&gt;Pick a colour:&lt;/label&gt;
+&lt;input type="color" id="c" name="favcolor" value="#ff0000"&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does the 'selected' attribute do on an option tag?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">It affects which option shows by default.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">It makes that option the default selected one in the dropdown.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Create a select dropdown of 3 cities with Mumbai pre-selected.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Use the selected attribute.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>&lt;select name="city"&gt;
+  &lt;option value="delhi"&gt;Delhi&lt;/option&gt;
+  &lt;option value="mumbai" selected&gt;Mumbai&lt;/option&gt;
+  &lt;option value="bangalore"&gt;Bangalore&lt;/option&gt;
+&lt;/select&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When filling a signup form, which autocomplete value should you use for a new password?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Not 'current-password'.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>autocomplete="new-password"</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">The form lets users submit an empty username. Why?<br><pre><code>&lt;input type="text" id="username" name="username" require&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Typo in an attribute name.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13">The attribute should be <code>required</code>, not <code>require</code>. Invalid attributes are ignored.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Build a complete feedback form inside a styled card. Include name, email, a rating slider (1-5), a dropdown for 'Would you recommend us?' (Yes/No/Maybe), and a textarea for comments.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">Use CSS in head to style the card.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14"><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+body { font-family: Arial; background: #f0f0f0; padding: 30px; }
+.card { background: white; max-width: 450px; margin: auto; padding: 25px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+label { display: block; margin-top: 10px; font-weight: bold; }
+input, select, textarea { width: 100%; padding: 8px; box-sizing: border-box; margin-top: 4px; }
+button { margin-top: 15px; padding: 10px 20px; background: #2ecc71; color: white; border: none; cursor: pointer; }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class="card"&gt;
+  &lt;h2&gt;We Value Your Feedback&lt;/h2&gt;
+  &lt;form&gt;
+    &lt;label for="n"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="n" name="name" required&gt;
+
+    &lt;label for="e"&gt;Email:&lt;/label&gt;
+    &lt;input type="email" id="e" name="email" required&gt;
+
+    &lt;label for="r"&gt;Rating (1-5):&lt;/label&gt;
+    &lt;input type="range" id="r" name="rating" min="1" max="5" value="3"&gt;
+
+    &lt;label for="rec"&gt;Would you recommend us?&lt;/label&gt;
+    &lt;select id="rec" name="recommend"&gt;
+      &lt;option value="yes"&gt;Yes&lt;/option&gt;
+      &lt;option value="no"&gt;No&lt;/option&gt;
+      &lt;option value="maybe"&gt;Maybe&lt;/option&gt;
+    &lt;/select&gt;
+
+    &lt;label for="c"&gt;Comments:&lt;/label&gt;
+    &lt;textarea id="c" name="comments" rows="4"&gt;&lt;/textarea&gt;
+
+    &lt;button type="submit"&gt;Send&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What happens if you include <input type="hidden" name="token" value="abc123"> in a form?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-15">Hidden fields are invisible but still submitted.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-15">The input is invisible on the page but its value ('abc123') is sent to the server as token=abc123 when the form is submitted.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which tag wraps all the inputs in an HTML form?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;input&gt;</li><li><span class="mcq-option-label">B.</span> &lt;form&gt;</li><li><span class="mcq-option-label">C.</span> &lt;fields&gt;</li><li><span class="mcq-option-label">D.</span> &lt;submit&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>&lt;form&gt;</code> tag wraps all form elements. It has action and method attributes that control where and how the data is sent.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which input type hides what the user types?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> type=&quot;hidden&quot;</li><li><span class="mcq-option-label">B.</span> type=&quot;secret&quot;</li><li><span class="mcq-option-label">C.</span> type=&quot;password&quot;</li><li><span class="mcq-option-label">D.</span> type=&quot;text&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>type="password"</code> masks the characters as dots. <code>type="hidden"</code> is an invisible field that does not show on the page at all.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which attribute makes a field mandatory in HTML5?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> must</li><li><span class="mcq-option-label">B.</span> required</li><li><span class="mcq-option-label">C.</span> mandatory</li><li><span class="mcq-option-label">D.</span> needed</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>required</code> attribute stops form submission if the field is empty.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which tag creates a dropdown list?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;dropdown&gt;</li><li><span class="mcq-option-label">B.</span> &lt;list&gt;</li><li><span class="mcq-option-label">C.</span> &lt;select&gt;</li><li><span class="mcq-option-label">D.</span> &lt;options&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>&lt;select&gt;</code> creates a dropdown, and each <code>&lt;option&gt;</code> inside is one choice.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which input type lets users pick multiple options from a group?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> radio</li><li><span class="mcq-option-label">B.</span> checkbox</li><li><span class="mcq-option-label">C.</span> select</li><li><span class="mcq-option-label">D.</span> button</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> Checkboxes allow multiple selections. Radio buttons only allow one selection from a group.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which tag is used for multi-line text input?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;input type=&quot;text&quot;&gt;</li><li><span class="mcq-option-label">B.</span> &lt;longtext&gt;</li><li><span class="mcq-option-label">C.</span> &lt;textarea&gt;</li><li><span class="mcq-option-label">D.</span> &lt;input type=&quot;multiline&quot;&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>&lt;textarea&gt;</code> is for multi-line input like comments and bios.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does the for attribute on a <label> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Sets the label&#39;s color</li><li><span class="mcq-option-label">B.</span> Links the label to an input with a matching id</li><li><span class="mcq-option-label">C.</span> Counts how many times the label appears</li><li><span class="mcq-option-label">D.</span> Adds a loop</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>for="name"</code> links the label to the input with <code>id="name"</code>. Clicking the label then focuses the input.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which button type submits the form?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> type=&quot;submit&quot;</li><li><span class="mcq-option-label">B.</span> type=&quot;button&quot;</li><li><span class="mcq-option-label">C.</span> type=&quot;go&quot;</li><li><span class="mcq-option-label">D.</span> type=&quot;send&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>type="submit"</code> is the default button type inside a form. Clicking it submits the form data to the action URL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which input type should you use for a phone number on mobile?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> text</li><li><span class="mcq-option-label">B.</span> number</li><li><span class="mcq-option-label">C.</span> tel</li><li><span class="mcq-option-label">D.</span> phone</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>type="tel"</code> opens the numeric keyboard on mobile devices. There is no <code>type="phone"</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which attribute is used to set the URL that receives the form data?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> target</li><li><span class="mcq-option-label">B.</span> action</li><li><span class="mcq-option-label">C.</span> send</li><li><span class="mcq-option-label">D.</span> destination</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>action</code> attribute specifies the URL where the form data will be sent on submit.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Which tag is used to give a form field group a visible title?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;title&gt;</li><li><span class="mcq-option-label">B.</span> &lt;legend&gt;</li><li><span class="mcq-option-label">C.</span> &lt;caption&gt;</li><li><span class="mcq-option-label">D.</span> &lt;h1&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>&lt;legend&gt;</code> goes inside <code>&lt;fieldset&gt;</code> to provide a title for the group.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Which attribute sets the maximum number of characters in a text input?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> max</li><li><span class="mcq-option-label">B.</span> maxchars</li><li><span class="mcq-option-label">C.</span> maxlength</li><li><span class="mcq-option-label">D.</span> limit</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>maxlength</code> limits text inputs to a maximum number of characters. <code>max</code> is for numbers and dates.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the difference between name and id on an input?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are the same thing</li><li><span class="mcq-option-label">B.</span> name is used when submitting, id is for labels and scripts</li><li><span class="mcq-option-label">C.</span> id is used when submitting, name is for scripts</li><li><span class="mcq-option-label">D.</span> Both are required for submission</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> Only <code>name</code> is sent to the server. <code>id</code> is for labels, CSS, and JavaScript. They are often both needed.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which method sends form data in the URL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> GET</li><li><span class="mcq-option-label">B.</span> POST</li><li><span class="mcq-option-label">C.</span> PUT</li><li><span class="mcq-option-label">D.</span> SEND</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: A</strong><br><strong>A is correct.</strong> GET puts the data in the URL as query parameters (like <code>?q=hello</code>). POST sends it hidden in the request body.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Why should you use <label> instead of just placeholder?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Placeholders look ugly</li><li><span class="mcq-option-label">B.</span> Placeholders disappear when typing and hurt accessibility</li><li><span class="mcq-option-label">C.</span> Placeholder is deprecated</li><li><span class="mcq-option-label">D.</span> Labels are faster</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Placeholders disappear when the user starts typing, and screen readers often skip them. Labels are the accessible way to describe fields.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What does the disabled attribute do on a form input?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Hides the input</li><li><span class="mcq-option-label">B.</span> Prevents editing and excludes the field from submission</li><li><span class="mcq-option-label">C.</span> Prevents editing but still submits the value</li><li><span class="mcq-option-label">D.</span> Makes it required</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> Disabled stops the user from editing AND excludes the field from being submitted. Use <code>readonly</code> if you still want the value submitted.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Radio buttons in the same group must have the same:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> id</li><li><span class="mcq-option-label">B.</span> value</li><li><span class="mcq-option-label">C.</span> name</li><li><span class="mcq-option-label">D.</span> type</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> Radios sharing the same <code>name</code> become a group, so only one can be selected at a time. They should have different <code>value</code>s so the server knows which was picked.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Which input type would you use for a color picker?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> type=&quot;color&quot;</li><li><span class="mcq-option-label">B.</span> type=&quot;hex&quot;</li><li><span class="mcq-option-label">C.</span> type=&quot;palette&quot;</li><li><span class="mcq-option-label">D.</span> type=&quot;rgb&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>type="color"</code> opens the browser's built-in color picker. The value is a hex color like #ff0000.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">Which input type creates a slider?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> type=&quot;slider&quot;</li><li><span class="mcq-option-label">B.</span> type=&quot;range&quot;</li><li><span class="mcq-option-label">C.</span> type=&quot;number&quot;</li><li><span class="mcq-option-label">D.</span> type=&quot;bar&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>type="range"</code> creates a slider. Use <code>min</code>, <code>max</code>, and <code>step</code> to control its range.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">What is the correct form attribute for file uploads to work?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> action=&quot;/upload&quot;</li><li><span class="mcq-option-label">B.</span> method=&quot;FILE&quot;</li><li><span class="mcq-option-label">C.</span> enctype=&quot;multipart/form-data&quot;</li><li><span class="mcq-option-label">D.</span> type=&quot;file&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: C</strong><br><strong>C is correct.</strong> Without <code>enctype="multipart/form-data"</code> on the form, file uploads do not work — the file gets dropped.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 21</div>
+                <div class="question-text">What will this pattern validate? <input pattern="[0-9]{4}"></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Any number</li><li><span class="mcq-option-label">B.</span> Exactly 4 digits (0-9)</li><li><span class="mcq-option-label">C.</span> At least 4 digits</li><li><span class="mcq-option-label">D.</span> A decimal number</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-21"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>[0-9]</code> matches a digit, and <code>{4}</code> means exactly 4. Useful for PINs or OTPs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 22</div>
+                <div class="question-text">What happens if an input has no name attribute when the form is submitted?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The form throws an error</li><li><span class="mcq-option-label">B.</span> The input&#39;s value is submitted using its id</li><li><span class="mcq-option-label">C.</span> The input&#39;s value is NOT submitted at all</li><li><span class="mcq-option-label">D.</span> The browser adds a random name</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-22"><strong>Answer: C</strong><br><strong>C is correct.</strong> Only inputs with a <code>name</code> attribute are sent to the server. Fields without name are silently ignored on submit.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 23</div>
+                <div class="question-text">What is the main reason to use fieldset and legend in a form?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To add borders</li><li><span class="mcq-option-label">B.</span> To group related fields and improve accessibility</li><li><span class="mcq-option-label">C.</span> To make the form faster</li><li><span class="mcq-option-label">D.</span> To change colors</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-23"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>&lt;fieldset&gt;</code> groups related fields visually and semantically. <code>&lt;legend&gt;</code> names the group. Screen readers announce the legend as context for all fields in the group.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 24</div>
+                <div class="question-text">Which autocomplete value is recommended for a new password field on a signup form?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> off</li><li><span class="mcq-option-label">B.</span> on</li><li><span class="mcq-option-label">C.</span> new-password</li><li><span class="mcq-option-label">D.</span> current-password</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-24"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>new-password</code> tells browsers and password managers this is a new account creation, so they should offer to generate a strong password. Use <code>current-password</code> on login forms.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 25</div>
+                <div class="question-text">Which statement about type="email" is TRUE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It checks if the email actually exists</li><li><span class="mcq-option-label">B.</span> It verifies that the user owns the email</li><li><span class="mcq-option-label">C.</span> It checks the format (must have @ and domain)</li><li><span class="mcq-option-label">D.</span> It sends a verification email automatically</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-25"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>type="email"</code> only validates the basic format — it cannot check if the email exists or belongs to the user. Real verification requires sending an email from the server.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Simple Contact Form</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Build a complete HTML page with a contact form containing Name, Email, and Message fields, plus a Submit button. All fields should be required and have proper labels.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A form with Name, Email, Message, and Submit button. Browser validates on submit.</div>
+                </div><div class="challenge-constraints">Use proper labels with for/id. Required attribute on all fields. type=email for the email field. textarea for the message.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Contact Us&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Arial; padding: 30px; }
+    label { display: block; margin-top: 10px; }
+    input, textarea { width: 300px; padding: 6px; }
+    button { margin-top: 15px; padding: 8px 16px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Contact Us&lt;/h1&gt;
+  &lt;form action=&quot;/submit&quot; method=&quot;POST&quot;&gt;
+    &lt;label for=&quot;name&quot;&gt;Name:&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; required&gt;
+
+    &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+    &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;
+
+    &lt;label for=&quot;msg&quot;&gt;Message:&lt;/label&gt;
+    &lt;textarea id=&quot;msg&quot; name=&quot;message&quot; rows=&quot;5&quot; required&gt;&lt;/textarea&gt;
+
+    &lt;button type=&quot;submit&quot;&gt;Send&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Login Page</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Build a login form with Email and Password fields, a 'Remember me' checkbox, and a Log In button. Add correct autocomplete attributes.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A login form with email, password, checkbox, and button.</div>
+                </div><div class="challenge-constraints">autocomplete=&quot;email&quot; on the email field and autocomplete=&quot;current-password&quot; on the password.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Log In&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Arial; padding: 40px; }
+    form { max-width: 320px; }
+    label { display: block; margin-top: 10px; }
+    input[type=&quot;email&quot;], input[type=&quot;password&quot;] { width: 100%; padding: 8px; box-sizing: border-box; }
+    button { margin-top: 15px; padding: 10px; width: 100%; background: #4a90e2; color: white; border: none; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Log In&lt;/h1&gt;
+  &lt;form action=&quot;/login&quot; method=&quot;POST&quot;&gt;
+    &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+    &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required autocomplete=&quot;email&quot;&gt;
+
+    &lt;label for=&quot;pwd&quot;&gt;Password:&lt;/label&gt;
+    &lt;input type=&quot;password&quot; id=&quot;pwd&quot; name=&quot;password&quot; required autocomplete=&quot;current-password&quot;&gt;
+
+    &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;remember&quot;&gt; Remember me&lt;/label&gt;
+
+    &lt;button type=&quot;submit&quot;&gt;Log In&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Survey with Radios and Checkboxes</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a survey with: a 'How satisfied?' question with 5 radio options (Very Happy, Happy, Neutral, Sad, Very Sad), and a 'What did you like?' question with checkbox options (Food, Staff, Price, Speed, Cleanliness).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A survey form with one-choice and multi-choice questions.</div>
+                </div><div class="challenge-constraints">Radios must share the same name. Use fieldset for grouping.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Survey&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Customer Survey&lt;/h1&gt;
+  &lt;form&gt;
+    &lt;fieldset&gt;
+      &lt;legend&gt;How satisfied are you?&lt;/legend&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;satisfaction&quot; value=&quot;5&quot; required&gt; Very Happy&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;satisfaction&quot; value=&quot;4&quot;&gt; Happy&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;satisfaction&quot; value=&quot;3&quot;&gt; Neutral&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;satisfaction&quot; value=&quot;2&quot;&gt; Sad&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;satisfaction&quot; value=&quot;1&quot;&gt; Very Sad&lt;/label&gt;
+    &lt;/fieldset&gt;
+
+    &lt;fieldset&gt;
+      &lt;legend&gt;What did you like?&lt;/legend&gt;
+      &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;liked&quot; value=&quot;food&quot;&gt; Food&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;liked&quot; value=&quot;staff&quot;&gt; Staff&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;liked&quot; value=&quot;price&quot;&gt; Price&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;liked&quot; value=&quot;speed&quot;&gt; Speed&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;liked&quot; value=&quot;clean&quot;&gt; Cleanliness&lt;/label&gt;
+    &lt;/fieldset&gt;
+
+    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Registration Form</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a complete registration form with fields: full name (required, min 3 chars), email (required), password (required, min 8 chars), age (number, 10-100), gender (radio), country (select: India, USA, UK), and terms & conditions checkbox (required).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A full registration form with all validation working.</div>
+                </div><div class="challenge-constraints">All HTML5 validation. Proper labels. Fieldset for gender.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Register&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Arial; max-width: 500px; margin: auto; padding: 20px; }
+    label { display: block; margin-top: 10px; }
+    input, select { width: 100%; padding: 6px; box-sizing: border-box; }
+    button { margin-top: 15px; padding: 10px 20px; background: #22c55e; color: white; border: none; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Create Account&lt;/h1&gt;
+  &lt;form action=&quot;/register&quot; method=&quot;POST&quot;&gt;
+    &lt;label for=&quot;n&quot;&gt;Full Name:&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;n&quot; name=&quot;name&quot; required minlength=&quot;3&quot;&gt;
+
+    &lt;label for=&quot;e&quot;&gt;Email:&lt;/label&gt;
+    &lt;input type=&quot;email&quot; id=&quot;e&quot; name=&quot;email&quot; required&gt;
+
+    &lt;label for=&quot;p&quot;&gt;Password:&lt;/label&gt;
+    &lt;input type=&quot;password&quot; id=&quot;p&quot; name=&quot;password&quot; required minlength=&quot;8&quot;&gt;
+
+    &lt;label for=&quot;a&quot;&gt;Age:&lt;/label&gt;
+    &lt;input type=&quot;number&quot; id=&quot;a&quot; name=&quot;age&quot; min=&quot;10&quot; max=&quot;100&quot; required&gt;
+
+    &lt;fieldset&gt;
+      &lt;legend&gt;Gender&lt;/legend&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;m&quot; required&gt; Male&lt;/label&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;f&quot;&gt; Female&lt;/label&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;o&quot;&gt; Other&lt;/label&gt;
+    &lt;/fieldset&gt;
+
+    &lt;label for=&quot;c&quot;&gt;Country:&lt;/label&gt;
+    &lt;select id=&quot;c&quot; name=&quot;country&quot; required&gt;
+      &lt;option value=&quot;&quot;&gt;-- Select --&lt;/option&gt;
+      &lt;option value=&quot;in&quot;&gt;India&lt;/option&gt;
+      &lt;option value=&quot;us&quot;&gt;USA&lt;/option&gt;
+      &lt;option value=&quot;uk&quot;&gt;UK&lt;/option&gt;
+    &lt;/select&gt;
+
+    &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;terms&quot; required&gt; I agree to the terms&lt;/label&gt;
+
+    &lt;button type=&quot;submit&quot;&gt;Register&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Pizza Order Form</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a pizza order form with: size (radio: small, medium, large), crust (radio: thin, thick, stuffed), toppings (checkboxes: cheese, mushrooms, peppers, olives, onions), quantity (number 1-10), and delivery date (date).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A pizza order form with size, crust, toppings, quantity, and delivery date.</div>
+                </div><div class="challenge-constraints">Use fieldsets for size, crust, and toppings.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Order Pizza&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Order Your Pizza&lt;/h1&gt;
+  &lt;form&gt;
+    &lt;fieldset&gt;
+      &lt;legend&gt;Size&lt;/legend&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;size&quot; value=&quot;s&quot; required&gt; Small&lt;/label&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;size&quot; value=&quot;m&quot;&gt; Medium&lt;/label&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;size&quot; value=&quot;l&quot;&gt; Large&lt;/label&gt;
+    &lt;/fieldset&gt;
+
+    &lt;fieldset&gt;
+      &lt;legend&gt;Crust&lt;/legend&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;crust&quot; value=&quot;thin&quot; required&gt; Thin&lt;/label&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;crust&quot; value=&quot;thick&quot;&gt; Thick&lt;/label&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;crust&quot; value=&quot;stuffed&quot;&gt; Stuffed&lt;/label&gt;
+    &lt;/fieldset&gt;
+
+    &lt;fieldset&gt;
+      &lt;legend&gt;Toppings&lt;/legend&gt;
+      &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;top&quot; value=&quot;cheese&quot;&gt; Extra Cheese&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;top&quot; value=&quot;mush&quot;&gt; Mushrooms&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;top&quot; value=&quot;peppers&quot;&gt; Peppers&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;top&quot; value=&quot;olives&quot;&gt; Olives&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;top&quot; value=&quot;onions&quot;&gt; Onions&lt;/label&gt;
+    &lt;/fieldset&gt;
+
+    &lt;label for=&quot;q&quot;&gt;Quantity:&lt;/label&gt;
+    &lt;input type=&quot;number&quot; id=&quot;q&quot; name=&quot;qty&quot; min=&quot;1&quot; max=&quot;10&quot; value=&quot;1&quot; required&gt;&lt;br&gt;
+
+    &lt;label for=&quot;d&quot;&gt;Delivery Date:&lt;/label&gt;
+    &lt;input type=&quot;date&quot; id=&quot;d&quot; name=&quot;delivery&quot; required&gt;&lt;br&gt;&lt;br&gt;
+
+    &lt;button type=&quot;submit&quot;&gt;Place Order&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Upload Profile with Hidden Field</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a profile update form with: profile picture upload (image files only), display name, bio (textarea, 200 char max), and a hidden field sending userId=12345.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A form with file upload, name, bio, and hidden userId field.</div>
+                </div><div class="challenge-constraints">File input with accept=&quot;image/*&quot;. Form must have enctype=&quot;multipart/form-data&quot;.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Update Profile&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Update Your Profile&lt;/h1&gt;
+  &lt;form action=&quot;/profile&quot; method=&quot;POST&quot; enctype=&quot;multipart/form-data&quot;&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;userId&quot; value=&quot;12345&quot;&gt;
+
+    &lt;label for=&quot;pic&quot;&gt;Profile Picture:&lt;/label&gt;
+    &lt;input type=&quot;file&quot; id=&quot;pic&quot; name=&quot;picture&quot; accept=&quot;image/*&quot; required&gt;&lt;br&gt;
+
+    &lt;label for=&quot;dname&quot;&gt;Display Name:&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;dname&quot; name=&quot;display&quot; required&gt;&lt;br&gt;
+
+    &lt;label for=&quot;bio&quot;&gt;Bio:&lt;/label&gt;
+    &lt;textarea id=&quot;bio&quot; name=&quot;bio&quot; rows=&quot;4&quot; maxlength=&quot;200&quot; placeholder=&quot;Max 200 characters&quot;&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;
+
+    &lt;button type=&quot;submit&quot;&gt;Save&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Event Registration with Validation</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build an event registration form with: name, email, phone (10 digits only, use pattern), event date (only future dates, use min), number of tickets (1-10), T-shirt size dropdown (S, M, L, XL), and dietary preference (radio: Veg, Non-Veg, Vegan).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A form with phone pattern validation and future-date-only event date.</div>
+                </div><div class="challenge-constraints">Phone must use pattern=&quot;[0-9]{10}&quot;. Event date has min attribute.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Event Registration&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Arial; padding: 20px; max-width: 500px; margin: auto; }
+    label { display: block; margin-top: 10px; }
+    input, select { width: 100%; padding: 6px; box-sizing: border-box; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Register for Tech Fest 2026&lt;/h1&gt;
+  &lt;form&gt;
+    &lt;label for=&quot;n&quot;&gt;Full Name:&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;n&quot; name=&quot;name&quot; required&gt;
+
+    &lt;label for=&quot;e&quot;&gt;Email:&lt;/label&gt;
+    &lt;input type=&quot;email&quot; id=&quot;e&quot; name=&quot;email&quot; required&gt;
+
+    &lt;label for=&quot;p&quot;&gt;Phone (10 digits):&lt;/label&gt;
+    &lt;input type=&quot;tel&quot; id=&quot;p&quot; name=&quot;phone&quot; pattern=&quot;[0-9]{10}&quot; required title=&quot;Enter 10 digits&quot;&gt;
+
+    &lt;label for=&quot;d&quot;&gt;Event Date:&lt;/label&gt;
+    &lt;input type=&quot;date&quot; id=&quot;d&quot; name=&quot;date&quot; min=&quot;2026-05-01&quot; required&gt;
+
+    &lt;label for=&quot;t&quot;&gt;Tickets:&lt;/label&gt;
+    &lt;input type=&quot;number&quot; id=&quot;t&quot; name=&quot;tickets&quot; min=&quot;1&quot; max=&quot;10&quot; value=&quot;1&quot; required&gt;
+
+    &lt;label for=&quot;s&quot;&gt;T-Shirt Size:&lt;/label&gt;
+    &lt;select id=&quot;s&quot; name=&quot;size&quot; required&gt;
+      &lt;option value=&quot;&quot;&gt;-- Select --&lt;/option&gt;
+      &lt;option value=&quot;S&quot;&gt;Small&lt;/option&gt;
+      &lt;option value=&quot;M&quot;&gt;Medium&lt;/option&gt;
+      &lt;option value=&quot;L&quot;&gt;Large&lt;/option&gt;
+      &lt;option value=&quot;XL&quot;&gt;Extra Large&lt;/option&gt;
+    &lt;/select&gt;
+
+    &lt;fieldset&gt;
+      &lt;legend&gt;Meal Preference&lt;/legend&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;meal&quot; value=&quot;veg&quot; required&gt; Vegetarian&lt;/label&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;meal&quot; value=&quot;nonveg&quot;&gt; Non-Vegetarian&lt;/label&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;meal&quot; value=&quot;vegan&quot;&gt; Vegan&lt;/label&gt;
+    &lt;/fieldset&gt;
+
+    &lt;button type=&quot;submit&quot;&gt;Register&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Advanced Settings Form</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a user settings page with: username (readonly, pre-filled), email (required), theme color (color picker), notification volume (range slider 0-100), favorite language (select), dark mode (checkbox), and bio (textarea). Include proper sections with fieldsets.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A complete settings form with color picker, slider, and many input types.</div>
+                </div><div class="challenge-constraints">Use readonly on username. Group related fields with fieldsets.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Settings&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Arial; padding: 20px; max-width: 500px; margin: auto; }
+    fieldset { margin-bottom: 15px; }
+    label { display: block; margin-top: 8px; }
+    input, select, textarea { width: 100%; padding: 6px; box-sizing: border-box; }
+    input[type=&quot;color&quot;] { width: 60px; }
+    input[type=&quot;range&quot;], input[type=&quot;checkbox&quot;] { width: auto; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Account Settings&lt;/h1&gt;
+  &lt;form action=&quot;/settings&quot; method=&quot;POST&quot;&gt;
+    &lt;fieldset&gt;
+      &lt;legend&gt;Profile&lt;/legend&gt;
+      &lt;label for=&quot;u&quot;&gt;Username:&lt;/label&gt;
+      &lt;input type=&quot;text&quot; id=&quot;u&quot; name=&quot;username&quot; value=&quot;ananya_codes&quot; readonly&gt;
+
+      &lt;label for=&quot;e&quot;&gt;Email:&lt;/label&gt;
+      &lt;input type=&quot;email&quot; id=&quot;e&quot; name=&quot;email&quot; value=&quot;ananya@example.com&quot; required&gt;
+
+      &lt;label for=&quot;b&quot;&gt;Bio:&lt;/label&gt;
+      &lt;textarea id=&quot;b&quot; name=&quot;bio&quot; rows=&quot;3&quot; maxlength=&quot;150&quot;&gt;&lt;/textarea&gt;
+    &lt;/fieldset&gt;
+
+    &lt;fieldset&gt;
+      &lt;legend&gt;Preferences&lt;/legend&gt;
+      &lt;label for=&quot;col&quot;&gt;Theme Colour:&lt;/label&gt;
+      &lt;input type=&quot;color&quot; id=&quot;col&quot; name=&quot;theme&quot; value=&quot;#4a90e2&quot;&gt;
+
+      &lt;label for=&quot;vol&quot;&gt;Notification Volume:&lt;/label&gt;
+      &lt;input type=&quot;range&quot; id=&quot;vol&quot; name=&quot;volume&quot; min=&quot;0&quot; max=&quot;100&quot; value=&quot;70&quot;&gt;
+
+      &lt;label for=&quot;lang&quot;&gt;Language:&lt;/label&gt;
+      &lt;select id=&quot;lang&quot; name=&quot;language&quot;&gt;
+        &lt;option value=&quot;en&quot;&gt;English&lt;/option&gt;
+        &lt;option value=&quot;hi&quot;&gt;Hindi&lt;/option&gt;
+        &lt;option value=&quot;ta&quot;&gt;Tamil&lt;/option&gt;
+        &lt;option value=&quot;te&quot;&gt;Telugu&lt;/option&gt;
+      &lt;/select&gt;
+
+      &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;darkmode&quot;&gt; Enable Dark Mode&lt;/label&gt;
+    &lt;/fieldset&gt;
+
+    &lt;button type=&quot;submit&quot;&gt;Save Changes&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/html-and-css/lists-and-tables/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Lists and Tables</span>
+        </a>
+            <a href="/resources/html-and-css/semantic-html/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Semantic HTML - header, nav, main, section, article, footer</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/html-and-css/forms-and-inputs" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

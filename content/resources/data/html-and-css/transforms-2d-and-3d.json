@@ -1,0 +1,751 @@
+{
+  "title": "CSS Transforms (2D and 3D)",
+  "slug": "transforms-2d-and-3d",
+  "language": "css",
+  "chapter": 20,
+  "difficulty": "Advanced",
+  "readingTime": "45 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 60,
+  "seo": {
+    "title": "CSS Transforms 2D and 3D - translate, rotate, scale, perspective, flip cards | Modern Age Coders",
+    "description": "Master CSS transforms. Learn translate, rotate, scale, skew, transform-origin, 3D transforms (rotateX, rotateY, translateZ), perspective, preserve-3d, backface-visibility, and build flip cards and 3D cubes. 60+ practice questions.",
+    "keywords": "css transforms, translate rotate scale, transform 3d, perspective css, preserve-3d, backface-visibility, flip card css, css cube 3d, transform-origin, tilt effect"
+  },
+  "content": {
+    "what": "<h2>What Are CSS Transforms?</h2><p>CSS transforms let you <strong>move, rotate, scale, and skew</strong> elements without affecting the document layout. Unlike changing <code>width</code>, <code>height</code>, or <code>left</code>, transforms run on the GPU and do not trigger layout recalculations. That is what makes them so fast and smooth.</p><p>There are two flavors of transforms:</p><ol><li><strong>2D transforms</strong> — move, rotate, scale, and skew on a flat plane (X and Y axes)</li><li><strong>3D transforms</strong> — add depth (Z axis), perspective, and 3D rotation</li></ol><pre><code>.card {\n  transform: translate(50px, 20px) rotate(15deg) scale(1.2);\n}</code></pre><p>That single line moves the card 50px right and 20px down, rotates it 15 degrees, and makes it 20% larger — all in one GPU-accelerated operation.</p>",
+    "why": "<h2>Why Learn Transforms?</h2><h3>1. The Fastest Way to Animate</h3><p>Transforms are the gold standard for performance. When you animate width or top, the browser recalculates the layout every frame. When you animate transform, the browser just tells the GPU 'move this layer by N pixels'. It is dramatically faster.</p><h3>2. They Are Non-Destructive</h3><p>A transform visually moves, scales, or rotates an element but does NOT change its position in the document flow. Surrounding elements do not shift. This lets you animate things without breaking your layout.</p><h3>3. 3D Effects Without WebGL</h3><p>Want a flipping card, a rotating cube, a tilt-on-hover button, or a parallax effect? CSS 3D transforms can do all of these with just a few lines of code. No JavaScript, no WebGL, no libraries.</p><h3>4. Every Modern Website Uses Them</h3><p>Hover lifts, card flips, image zooms, scale-in modals, rotation icons, parallax effects — all built with transforms. Master this chapter and you unlock a huge part of modern web animation.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. translate() - Move an Element</h3><p>Shifts the element by X and Y pixels without affecting layout:</p><pre><code>transform: translate(50px, 20px);   /* right 50, down 20 */\ntransform: translateX(100px);        /* only horizontal */\ntransform: translateY(-30px);        /* only vertical (negative = up) */\ntransform: translate(50%, 50%);      /* percentages relative to element's OWN size */</code></pre><p>The percentage trick is a classic centering technique: <code>translate(-50%, -50%)</code> moves the element half its own width and height back, perfectly centering it.</p><h3>2. rotate() - Spin an Element</h3><pre><code>transform: rotate(45deg);    /* clockwise 45 degrees */\ntransform: rotate(-90deg);   /* counter-clockwise 90 degrees */\ntransform: rotate(1turn);    /* one full rotation */\ntransform: rotate(180deg);   /* upside down */</code></pre><h3>3. scale() - Grow or Shrink</h3><pre><code>transform: scale(1.5);       /* 150% of original size */\ntransform: scale(0.5);       /* 50% of original size */\ntransform: scale(1.2, 0.8);  /* wider horizontally, shorter vertically */\ntransform: scaleX(2);        /* double width only */\ntransform: scaleY(0);        /* collapse vertically (invisible) */</code></pre><h3>4. skew() - Slant an Element</h3><pre><code>transform: skew(20deg, 10deg);   /* slant both X and Y */\ntransform: skewX(20deg);          /* slant horizontally */\ntransform: skewY(-10deg);         /* slant vertically */</code></pre><p>Skew is less common but useful for italic-like effects and geometric designs.</p><h3>5. transform-origin - The Pivot Point</h3><p>By default, all transforms happen around the element's CENTER. You can change that:</p><pre><code>transform-origin: top left;         /* transform from top-left corner */\ntransform-origin: bottom center;    /* from bottom center */\ntransform-origin: 0 100%;           /* from top-right */\ntransform-origin: 50px 50px;        /* specific pixel coordinates */</code></pre><p>When you rotate around a corner instead of the center, the element swings like a door. When you scale from a corner, it grows in one direction only.</p><h3>6. Multiple Transforms - Order Matters!</h3><p>You can apply multiple transforms in a single declaration, separated by spaces:</p><pre><code>transform: translate(100px, 0) rotate(45deg);\n/* First translate 100px right, THEN rotate 45 degrees around new position */\n\ntransform: rotate(45deg) translate(100px, 0);\n/* First rotate 45 degrees, THEN translate 100px in the ROTATED coordinate system */</code></pre><p><strong>The order matters</strong>. Transforms apply right-to-left but visually we often think left-to-right. Experiment with swapping order to see the difference.</p><h3>7. 3D Transforms - Adding the Z Axis</h3><pre><code>transform: translateZ(50px);   /* pull forward (toward viewer) */\ntransform: translateZ(-50px);  /* push backward (away from viewer) */\ntransform: rotateX(45deg);     /* tilt forward/backward */\ntransform: rotateY(45deg);     /* turn left/right (like a door) */\ntransform: rotateZ(45deg);     /* same as rotate() — around the Z axis */</code></pre><h3>8. perspective - Making 3D Look Real</h3><p>Without perspective, 3D transforms look flat. <code>perspective</code> sets the distance between the viewer and the element, creating depth:</p><pre><code>.scene {\n  perspective: 800px;\n  /* The smaller the value, the more extreme the 3D effect */\n}\n.scene .card {\n  transform: rotateY(45deg);\n}</code></pre><p>Perspective goes on the PARENT of the 3D element. Without it, rotateY just looks like horizontal scaling.</p><h3>9. transform-style: preserve-3d</h3><p>For nested 3D transforms (like the faces of a cube), you need this on the parent:</p><pre><code>.cube {\n  transform-style: preserve-3d;\n}</code></pre><p>Without it, child elements collapse into the parent's flat plane.</p><h3>10. backface-visibility - Hide the Back</h3><p>When you flip an element 180 degrees, you see its mirrored back face. Often you want to hide that:</p><pre><code>.card-face {\n  backface-visibility: hidden;\n}</code></pre><p>This is essential for flip cards — otherwise you see the back of the front face when it is flipped.</p>",
+    "codeExamples": [
+      {
+        "title": "Classic Flip Card",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: #0f172a; display: flex; justify-content: center; align-items: center; min-height: 100vh; font-family: Arial, sans-serif; margin: 0; }\n    .scene {\n      perspective: 1000px;\n      width: 280px;\n      height: 360px;\n    }\n    .card {\n      width: 100%;\n      height: 100%;\n      position: relative;\n      transform-style: preserve-3d;\n      transition: transform 0.8s cubic-bezier(0.65, 0, 0.35, 1);\n      cursor: pointer;\n    }\n    .scene:hover .card {\n      transform: rotateY(180deg);\n    }\n    .face {\n      position: absolute;\n      inset: 0;\n      backface-visibility: hidden;\n      border-radius: 18px;\n      padding: 30px;\n      color: white;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      box-shadow: 0 20px 40px rgba(0,0,0,0.4);\n    }\n    .front {\n      background: linear-gradient(135deg, #a855f7, #ec4899);\n    }\n    .back {\n      background: linear-gradient(135deg, #06b6d4, #0ea5e9);\n      transform: rotateY(180deg);\n    }\n    h2 { margin: 0 0 10px 0; font-size: 28px; }\n    p { text-align: center; line-height: 1.6; }\n  </style>\n</head>\n<body>\n  <div class=\"scene\">\n    <div class=\"card\">\n      <div class=\"face front\">\n        <h2>Aarav Sharma</h2>\n        <p>Full Stack Developer</p>\n        <p style=\"font-size: 14px; opacity: 0.8;\">Hover to flip</p>\n      </div>\n      <div class=\"face back\">\n        <h2>About Me</h2>\n        <p>I love building apps with React, Node.js, and creative CSS.</p>\n      </div>\n    </div>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The flip card needs four things: (1) <code>perspective</code> on the parent for 3D depth, (2) <code>preserve-3d</code> on the card so children stay in 3D space, (3) <code>backface-visibility: hidden</code> on each face to hide the back when flipped, (4) <code>rotateY(180deg)</code> on the back face so it starts facing away. Hovering rotates the whole card 180 degrees.",
+        "output": "A gradient card that flips over 3D on hover, revealing the back with different content."
+      },
+      {
+        "title": "3D Rotating Cube",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: #0f172a; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; font-family: Arial, sans-serif; perspective: 1200px; }\n    .cube {\n      position: relative;\n      width: 180px;\n      height: 180px;\n      transform-style: preserve-3d;\n      animation: rotate 10s linear infinite;\n    }\n    @keyframes rotate {\n      from { transform: rotateX(-30deg) rotateY(0); }\n      to   { transform: rotateX(-30deg) rotateY(360deg); }\n    }\n    .face {\n      position: absolute;\n      width: 180px;\n      height: 180px;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      color: white;\n      font-weight: bold;\n      font-size: 26px;\n      border: 2px solid rgba(255,255,255,0.3);\n    }\n    .front  { background: rgba(168, 85, 247, 0.8); transform: translateZ(90px); }\n    .back   { background: rgba(236, 72, 153, 0.8); transform: rotateY(180deg) translateZ(90px); }\n    .right  { background: rgba(6, 182, 212, 0.8);  transform: rotateY(90deg)  translateZ(90px); }\n    .left   { background: rgba(14, 165, 233, 0.8); transform: rotateY(-90deg) translateZ(90px); }\n    .top    { background: rgba(245, 158, 11, 0.8); transform: rotateX(90deg)  translateZ(90px); }\n    .bottom { background: rgba(239, 68, 68, 0.8);  transform: rotateX(-90deg) translateZ(90px); }\n  </style>\n</head>\n<body>\n  <div class=\"cube\">\n    <div class=\"face front\">Aarav</div>\n    <div class=\"face back\">Priya</div>\n    <div class=\"face right\">Rohan</div>\n    <div class=\"face left\">Ishita</div>\n    <div class=\"face top\">Vivaan</div>\n    <div class=\"face bottom\">Anika</div>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A real 3D cube built from 6 faces. Each face is positioned 90px away from the center using <code>translateZ(90px)</code> after a rotation. The 'front' face translates forward; the 'back' face rotates 180 and then translates; the sides rotate 90 degrees first, then translate. The parent uses <code>preserve-3d</code> and rotates continuously, creating a rotating cube.",
+        "output": "A real 3D cube with 6 differently colored faces, rotating continuously in space."
+      },
+      {
+        "title": "Tilt on Hover Card",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: #0f172a; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; font-family: Arial, sans-serif; perspective: 1000px; }\n    .card {\n      width: 280px;\n      padding: 30px;\n      background: linear-gradient(135deg, #a855f7, #ec4899);\n      color: white;\n      border-radius: 20px;\n      box-shadow: 0 20px 50px rgba(168, 85, 247, 0.3);\n      transform-style: preserve-3d;\n      transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.4s;\n      cursor: pointer;\n    }\n    .card:hover {\n      transform: rotateX(10deg) rotateY(-12deg) translateZ(20px);\n      box-shadow: 0 30px 70px rgba(168, 85, 247, 0.5);\n    }\n    .card h2 {\n      margin: 0 0 10px 0;\n      transform: translateZ(40px);\n    }\n    .card p {\n      line-height: 1.6;\n      transform: translateZ(20px);\n    }\n  </style>\n</head>\n<body>\n  <div class=\"card\">\n    <h2>Meera's Story</h2>\n    <p>Hover over this card to see the 3D tilt effect. The heading sits slightly above the background for added depth.</p>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "3D tilt effect. On hover, the card rotates on both X and Y axes and moves forward on Z. Because of <code>preserve-3d</code>, the heading and paragraph sit at different Z depths (<code>translateZ</code>), giving them a layered 3D feel that shifts with the tilt.",
+        "output": "A gradient card that tilts in 3D on hover, with the heading floating above the background at a different depth."
+      },
+      {
+        "title": "Rotating Logo",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: #0f172a; display: flex; justify-content: center; align-items: center; min-height: 100vh; font-family: Arial, sans-serif; margin: 0; color: white; }\n    .logo {\n      width: 140px;\n      height: 140px;\n      background: conic-gradient(from 0deg, #a855f7, #06b6d4, #f59e0b, #a855f7);\n      border-radius: 50%;\n      position: relative;\n      animation: rotate 6s linear infinite;\n      box-shadow: 0 0 60px rgba(168, 85, 247, 0.4);\n    }\n    .logo::before {\n      content: '';\n      position: absolute;\n      inset: 10px;\n      background: #0f172a;\n      border-radius: 50%;\n    }\n    .logo::after {\n      content: 'SK';\n      position: absolute;\n      inset: 0;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      font-size: 44px;\n      font-weight: 900;\n      background: linear-gradient(135deg, #a855f7, #06b6d4);\n      -webkit-background-clip: text;\n      background-clip: text;\n      -webkit-text-fill-color: transparent;\n    }\n    @keyframes rotate {\n      from { transform: rotate(0deg); }\n      to   { transform: rotate(360deg); }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"logo\"></div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A rotating logo with a conic gradient outer ring. The rotation applies to the parent, but the <code>::before</code> dark inner circle rotates with it (you cannot tell because it is solid), and the <code>::after</code> text also rotates. For the text to stay upright, you could apply a counter-rotation to ::after. Here the rotation looks like a spinning ring around static text.",
+        "output": "A circular logo with a spinning colorful ring around the 'SK' initials."
+      },
+      {
+        "title": "Scale-In Modal Entrance",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; background: #f8fafc; padding: 40px; margin: 0; }\n    .trigger { padding: 14px 28px; background: #a855f7; color: white; border: none; border-radius: 10px; font-size: 16px; cursor: pointer; }\n    .overlay {\n      position: fixed;\n      inset: 0;\n      background: rgba(15, 23, 42, 0.7);\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      opacity: 0;\n      visibility: hidden;\n      transition: opacity 0.3s, visibility 0.3s;\n    }\n    .overlay.open { opacity: 1; visibility: visible; }\n    .modal {\n      background: white;\n      padding: 40px;\n      border-radius: 20px;\n      max-width: 420px;\n      transform: scale(0.3) rotate(-15deg);\n      opacity: 0;\n      transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s;\n    }\n    .overlay.open .modal {\n      transform: scale(1) rotate(0);\n      opacity: 1;\n    }\n    .modal h2 { color: #a855f7; margin-top: 0; }\n    .modal p { color: #475569; line-height: 1.6; }\n    .close { padding: 10px 22px; background: #e5e7eb; color: #0f172a; border: none; border-radius: 8px; cursor: pointer; margin-top: 10px; }\n  </style>\n</head>\n<body>\n  <h1>Transform-Powered Modal</h1>\n  <button class=\"trigger\" id=\"openBtn\">Open Modal</button>\n  <div class=\"overlay\" id=\"overlay\">\n    <div class=\"modal\">\n      <h2>Hi Kavya!</h2>\n      <p>This modal enters with a combined scale and rotate transform using a springy cubic-bezier curve.</p>\n      <button class=\"close\" id=\"closeBtn\">Got It</button>\n    </div>\n  </div>\n  <script>\n    const overlay = document.getElementById('overlay');\n    document.getElementById('openBtn').addEventListener('click', () => overlay.classList.add('open'));\n    document.getElementById('closeBtn').addEventListener('click', () => overlay.classList.remove('open'));\n  </script>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Modal entrance combining scale and rotate. The modal starts at 30% size and rotated -15 degrees. The springy cubic-bezier makes it bounce into place with a playful overshoot. Scale and rotate applied together feel much more dynamic than scale alone.",
+        "output": "A modal that springs in with a combined scale and rotate effect, bouncing slightly on arrival."
+      },
+      {
+        "title": "Parallax Scroll Layers",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    * { box-sizing: border-box; margin: 0; padding: 0; }\n    body { font-family: Arial, sans-serif; color: white; }\n    .scene {\n      height: 100vh;\n      perspective: 10px;\n      overflow-x: hidden;\n      overflow-y: scroll;\n    }\n    .layer {\n      position: relative;\n      height: 100vh;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      font-size: 60px;\n      font-weight: 900;\n      text-shadow: 0 10px 30px rgba(0,0,0,0.5);\n    }\n    .bg {\n      position: absolute;\n      inset: 0;\n      z-index: -1;\n    }\n    .back {\n      transform: translateZ(-30px) scale(4);\n    }\n    .middle {\n      transform: translateZ(-15px) scale(2.5);\n    }\n    .front {\n      transform: translateZ(0);\n    }\n    .l1 .bg { background: linear-gradient(135deg, #0f172a, #a855f7); }\n    .l2 .bg { background: linear-gradient(135deg, #581c87, #ec4899); }\n    .l3 .bg { background: linear-gradient(135deg, #0c4a6e, #06b6d4); }\n    .normal { transform: none; }\n  </style>\n</head>\n<body>\n  <div class=\"scene\">\n    <section class=\"layer l1\"><div class=\"bg back\"></div>Aarav</section>\n    <section class=\"layer l2\"><div class=\"bg middle\"></div>Priya</section>\n    <section class=\"layer l3\"><div class=\"bg normal\"></div>Rohan</section>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "CSS-only parallax using 3D perspective. The scene element has perspective and scroll. Background layers are placed at different <code>translateZ</code> values, then scaled up so they still fill the screen despite being further away. As you scroll, the far layers appear to move slower, creating the parallax illusion. Pure CSS, no JavaScript scroll listeners.",
+        "output": "Three scrollable sections where background gradients at different depths create a parallax effect as you scroll."
+      },
+      {
+        "title": "Pulse Ring Effect",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: #0f172a; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; font-family: Arial, sans-serif; }\n    .live-badge {\n      position: relative;\n      width: 140px;\n      height: 140px;\n      background: linear-gradient(135deg, #ec4899, #f43f5e);\n      border-radius: 50%;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      color: white;\n      font-size: 22px;\n      font-weight: bold;\n      box-shadow: 0 0 30px rgba(244, 63, 94, 0.5);\n      z-index: 10;\n    }\n    .live-badge::before, .live-badge::after {\n      content: '';\n      position: absolute;\n      inset: 0;\n      border-radius: 50%;\n      border: 3px solid #ec4899;\n      animation: pulse-ring 2s ease-out infinite;\n      z-index: -1;\n    }\n    .live-badge::after {\n      animation-delay: 1s;\n    }\n    @keyframes pulse-ring {\n      0%   { transform: scale(1); opacity: 1; }\n      100% { transform: scale(2.2); opacity: 0; }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"live-badge\">LIVE</div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A pulsing live indicator. Two pseudo-element rings continuously scale from 1 to 2.2 while fading from opacity 1 to 0. The second ring has a 1 second delay, so they alternate, creating a continuous ripple effect. The scale transform is GPU-accelerated and runs smoothly.",
+        "output": "A pink 'LIVE' badge with two rings continuously rippling outward."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting perspective on the Parent",
+        "wrongCode": ".card {\n  transform: rotateY(45deg);\n}\n/* Looks flat — no 3D depth */",
+        "error": "Without perspective, 3D rotations look like 2D scaling. rotateY(45deg) just visually compresses the element horizontally because the viewer has no depth reference.",
+        "correctCode": ".parent {\n  perspective: 1000px;\n}\n.parent .card {\n  transform: rotateY(45deg);\n}",
+        "explanation": "Perspective MUST be on a parent element (or use <code>transform: perspective(1000px) rotateY(...)</code> inline). It tells the browser how far the viewer is from the 3D scene, enabling depth illusion."
+      },
+      {
+        "title": "Order of Multiple Transforms",
+        "wrongCode": "transform: rotate(45deg) translate(100px);\n/* Translation happens in the ROTATED coordinate system — so the element moves diagonally, not right */",
+        "error": "Transforms apply in order. After rotating, the coordinate system is rotated too. A subsequent translate moves along the rotated axis, not the original one.",
+        "correctCode": "/* To move right AND rotate: */\ntransform: translate(100px) rotate(45deg);\n/* OR if you want rotation first: */\ntransform: rotate(45deg);\ntransform-origin: 100px center;",
+        "explanation": "Think of transforms right-to-left in their effect. Translating first then rotating moves the element and then spins it in place. Rotating first then translating moves the element along a rotated axis."
+      },
+      {
+        "title": "Forgetting backface-visibility on Flip Cards",
+        "wrongCode": ".front, .back {\n  position: absolute;\n  /* Missing backface-visibility: hidden */\n}\n.back { transform: rotateY(180deg); }\n.card.flipped { transform: rotateY(180deg); }",
+        "error": "When the card rotates, you can see the back of the front face overlapping the back face — a mirrored, backwards version of the front content.",
+        "correctCode": ".front, .back {\n  position: absolute;\n  backface-visibility: hidden;\n}",
+        "explanation": "<code>backface-visibility: hidden</code> tells the browser to not render the reverse side of each face. Essential for flip cards and any 3D element where you only want one side visible at a time."
+      },
+      {
+        "title": "Missing transform-style: preserve-3d",
+        "wrongCode": ".card {\n  perspective: 1000px;\n}\n.card .front { transform: translateZ(50px); }\n.card .back  { transform: translateZ(-50px); }\n/* All children collapse to the same plane */",
+        "error": "Without <code>preserve-3d</code>, the children of a 3D transformed element are flattened into the parent's plane. 3D depth on nested elements is lost.",
+        "correctCode": ".card {\n  perspective: 1000px;\n  transform-style: preserve-3d;\n}",
+        "explanation": "Any element that contains 3D-transformed children needs <code>transform-style: preserve-3d</code>. Without it, the browser optimizes by flattening everything into a 2D plane."
+      }
+    ],
+    "summary": [
+      "CSS transforms (<code>translate</code>, <code>rotate</code>, <code>scale</code>, <code>skew</code>) let you visually move, spin, size, and slant elements WITHOUT affecting layout. Surrounding elements do not shift.",
+      "Transforms are GPU-accelerated and the fastest way to animate. Always prefer transform over width, height, top, left for animations.",
+      "<code>transform: translate(-50%, -50%)</code> is a classic centering trick: the percentages are relative to the element's own size, so this moves it back by half its width and height.",
+      "Multiple transforms are applied in order, separated by spaces. Order matters: <code>rotate() translate()</code> produces different results from <code>translate() rotate()</code>.",
+      "<code>transform-origin</code> sets the pivot point for transforms. Default is center. Change it to corners or specific coordinates for door-swing or corner-scale effects.",
+      "3D transforms use the Z axis: <code>translateZ</code>, <code>rotateX</code>, <code>rotateY</code>, <code>rotateZ</code>. They need <code>perspective</code> on the parent to appear 3D instead of flat.",
+      "<code>perspective</code> sets the distance from the viewer to the 3D scene. Smaller values produce more extreme 3D effects. Place on the parent of the 3D element.",
+      "<code>transform-style: preserve-3d</code> is required on parents that contain 3D-transformed children, so children stay in 3D space instead of being flattened.",
+      "<code>backface-visibility: hidden</code> hides the reverse side of a rotated element. Essential for flip cards to avoid seeing mirrored content through the element.",
+      "Flip cards need: perspective on the scene, preserve-3d on the card, backface-visibility hidden on both faces, and the back face initially rotated 180 degrees."
+    ]
+  },
+  "relatedTopics": ["transitions-and-hover-effects", "css-animations-and-keyframes"],
+  "practice": {
+    "totalQuestions": 60,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>transform: translate(50px, 20px)</code> do?",
+        "hint": "X first, Y second.",
+        "answer": "Moves the element 50 pixels to the right and 20 pixels down.",
+        "explanation": "<code>translate(x, y)</code> shifts the element by the given amounts without affecting the document layout. Other elements do not shift to follow."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>transform: rotate(180deg)</code> do?",
+        "hint": "Half a full turn.",
+        "answer": "Rotates the element 180 degrees (upside down).",
+        "explanation": "180 degrees is half a rotation. The element is flipped upside down around its center."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>transform: scale(1.5)</code> do?",
+        "hint": "A number greater than 1 means grow.",
+        "answer": "Makes the element 150% of its original size (50% larger in both dimensions).",
+        "explanation": "<code>scale(1)</code> is original size. Less than 1 shrinks, greater than 1 grows. <code>scale(2)</code> doubles the size."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>transform-origin: top left</code> do?",
+        "hint": "Pivot point.",
+        "answer": "Makes all transforms pivot from the top-left corner of the element instead of the default center.",
+        "explanation": "If you rotate with transform-origin: top left, the element swings from its top-left corner like a door pivoting on its hinge."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the Z axis in 3D transforms?",
+        "hint": "In/out of the screen.",
+        "answer": "The Z axis points from the screen toward the viewer. Positive Z pulls an element forward; negative Z pushes it backward.",
+        "explanation": "2D transforms use X (horizontal) and Y (vertical). 3D adds Z (depth)."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>transform: translate(-50%, -50%)</code> do?",
+        "hint": "Classic centering trick.",
+        "answer": "Moves the element 50% of its OWN width to the left and 50% of its OWN height upward. Combined with top: 50% and left: 50% on the parent, this centers an element perfectly.",
+        "explanation": "Percentages in <code>translate()</code> are relative to the element's own size, not the parent. This is the famous perfect centering technique."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Why does this look flat?<br><pre><code>.card {\n  transform: rotateY(45deg);\n}</code></pre>",
+        "hint": "Missing a parent property.",
+        "answer": "Missing <code>perspective</code> on the parent. Without perspective, 3D rotations look like flat scaling because there is no depth reference.",
+        "explanation": "Add <code>perspective: 1000px</code> on the parent element. The smaller the value, the more dramatic the 3D effect."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the difference between these two?<br><pre><code>/* A */ transform: translate(100px) rotate(45deg);\n/* B */ transform: rotate(45deg) translate(100px);</code></pre>",
+        "hint": "Order matters.",
+        "answer": "A: moves 100px right then rotates 45 degrees in place. B: rotates 45 degrees first, then translates along the rotated axis (so it moves diagonally).",
+        "explanation": "After a rotation, the coordinate system is rotated. Subsequent translates move along the new rotated axis, not the original."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>backface-visibility: hidden</code> do?",
+        "hint": "Hides the reverse side.",
+        "answer": "Hides the back (reverse) of an element when it is rotated more than 90 degrees. Essential for flip cards.",
+        "explanation": "Without it, you see a mirrored version of the element when you rotate it past 90 degrees, because the browser renders both sides."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is <code>transform-style: preserve-3d</code> used for?",
+        "hint": "Nested 3D elements.",
+        "answer": "It keeps child elements in 3D space instead of flattening them into the parent's 2D plane. Required for cubes, flip cards, and any nested 3D transforms.",
+        "explanation": "Without preserve-3d, the browser flattens all children as a performance optimization, and 3D depth on children is lost."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>transform: skewX(20deg)</code> do?",
+        "hint": "Slant horizontally.",
+        "answer": "Slants (shears) the element 20 degrees along the horizontal axis, creating an italic-like effect.",
+        "explanation": "Skew tilts the element's sides. skewX shears horizontally, skewY vertically. Used for geometric designs and stylized effects."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is transforming an element faster than changing its top/left?",
+        "hint": "Think about the browser rendering pipeline.",
+        "answer": "Changing top/left triggers LAYOUT recalculation every frame (the browser has to recompute positions of surrounding elements). Transform runs on the GPU and only requires a COMPOSITE step — much faster.",
+        "explanation": "Modern browsers have a rendering pipeline: layout, paint, composite. Transform skips layout and paint, going straight to composite on the GPU. This is why transforms feel smooth even on complex pages."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does <code>perspective: 500px</code> vs <code>perspective: 2000px</code> look like differently?",
+        "hint": "Closer = more dramatic.",
+        "answer": "500px creates a strong, exaggerated 3D effect (like looking through a fish-eye lens). 2000px creates a subtle, natural 3D effect. Smaller values bring the viewer closer.",
+        "explanation": "Perspective distance is how far the viewer is from the scene. Closer means steeper perspective; farther means flatter, more natural 3D."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the difference between <code>rotate()</code> and <code>rotateZ()</code>?",
+        "hint": "Both rotate around the Z axis.",
+        "answer": "They are IDENTICAL. <code>rotate()</code> is shorthand for <code>rotateZ()</code> — rotation around the Z axis (which appears as flat 2D rotation from the viewer's perspective).",
+        "explanation": "In 3D space, 2D rotation is actually rotation around the Z axis (the axis pointing toward the viewer). rotate() and rotateZ() do the same thing."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Why can you animate transform but not background-image between two images?",
+        "hint": "Interpolation requires numeric values.",
+        "answer": "Transform values are numeric (pixels, degrees, scale factors) and can be smoothly interpolated. Background-image URLs are discrete strings — the browser cannot blend two image files together.",
+        "explanation": "For image cross-fades, stack two images with absolute positioning and animate their opacity instead of trying to transition the image URL."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>transform: scale(0)</code> do?",
+        "hint": "Zero scale.",
+        "answer": "Collapses the element to zero size, making it invisible.",
+        "explanation": "Useful for entrance animations: start at scale(0) and animate to scale(1) for a grow-in effect."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which unit is used for rotations?",
+        "hint": "Angle measurement.",
+        "answer": "<code>deg</code> (degrees), <code>turn</code>, <code>rad</code> (radians), or <code>grad</code>.",
+        "explanation": "Most common is deg. <code>1turn</code> equals 360deg. Example: <code>rotate(1turn)</code> is one full rotation."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why do CSS transforms not affect surrounding elements?",
+        "hint": "Transform is visual-only.",
+        "answer": "Transforms are visual-only operations. They do not change the element's original box in the document flow. Surrounding elements lay out as if the transform did not happen.",
+        "explanation": "This is a feature — you can move and rotate elements freely without breaking the layout. Contrast with changing margin or position, which DO shift other elements."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this do?<br><pre><code>.box {\n  transform: translateY(-6px) scale(1.05);\n  transition: transform 0.3s;\n}</code></pre>",
+        "hint": "Two transforms at once.",
+        "answer": "The box moves up 6 pixels AND grows to 105% of its size simultaneously. With the transition, both changes animate smoothly.",
+        "explanation": "Multiple transforms in one declaration are applied together. The transition animates all of them as one operation."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is <code>transform: translate3d(0, 0, 0)</code> and why is it used?",
+        "hint": "Performance hint.",
+        "answer": "It applies a zero translation in 3D space, which forces the browser to create a GPU compositing layer for the element. Developers used to use this as a hack to force hardware acceleration.",
+        "explanation": "Modern approach: use <code>will-change: transform</code> instead. But translate3d(0,0,0) still works and is seen in legacy code."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is a 3D flip card built with two faces, not one?",
+        "hint": "One face cannot show different content on both sides.",
+        "answer": "Each face is a separate element (one for the front, one for the back). The back face is pre-rotated 180 degrees so it starts facing away. When the parent card rotates 180 degrees, the back now faces the viewer and the front faces away (hidden by backface-visibility).",
+        "explanation": "CSS cannot show different content on the front and back of a single element. You need two elements stacked with opposite starting rotations."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does <code>transform: matrix(1, 0, 0, 1, 100, 50)</code> do?",
+        "hint": "2D matrix transformation.",
+        "answer": "It is equivalent to <code>translate(100px, 50px)</code>. The matrix() function represents any combination of translate, rotate, scale, and skew in matrix form.",
+        "explanation": "matrix() takes 6 values for 2D and 16 for matrix3d. It is rarely written by hand; usually generated by tools or libraries for complex combined transforms."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>transform: none</code> do?",
+        "hint": "Reset.",
+        "answer": "Removes all transforms, resetting the element to its untransformed state.",
+        "explanation": "Useful for reverting transforms, often in <code>:not(:hover)</code> or in media queries to disable transforms on certain screens."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Can you transform an inline element like <code>&lt;span&gt;</code>?",
+        "hint": "Think about display types.",
+        "answer": "Yes, but only after changing its display. Inline elements can be transformed only if their display is inline-block, block, flex, grid, etc. Pure inline display is not transformable.",
+        "explanation": "Transforms require a formatting context. Inline elements flow with text and do not form independent boxes, so they cannot be independently transformed until their display changes."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Which is faster: <code>margin-left: 50px</code> or <code>transform: translateX(50px)</code>?",
+        "hint": "GPU vs layout.",
+        "answer": "<code>transform: translateX(50px)</code> is significantly faster. It runs on the GPU without triggering layout. margin-left causes a layout recalculation.",
+        "explanation": "For any animation where you are moving elements, prefer transform over margin, padding, top, left, right, or bottom."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>transform: scaleY(-1)</code> do?",
+        "hint": "Negative scale.",
+        "answer": "Flips the element vertically (mirror image upside down), without resizing.",
+        "explanation": "Negative scale values mirror the element. scaleX(-1) mirrors horizontally, scaleY(-1) mirrors vertically. Same size, flipped."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens to an element with <code>transform: scale(2)</code> in terms of layout?",
+        "hint": "Transform does not change layout.",
+        "answer": "The element appears twice as large visually, but its layout box stays the same. Neighboring elements do not shift to make room. The scaled element may overflow onto or under surrounding content.",
+        "explanation": "Transforms are visual-only. The element's real size in the flow is unchanged. For layout-aware resizing, you would need to change width/height."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does <code>transform: perspective(500px) rotateY(30deg)</code> do (inline perspective)?",
+        "hint": "Single-element 3D.",
+        "answer": "It applies perspective AND the 3D rotation on the same element. Useful for single-element 3D effects when you do not want to put perspective on the parent.",
+        "explanation": "Note: inline perspective applies only to THAT element. For multiple elements sharing a common 3D scene, put perspective on the parent so they share the same vanishing point."
+      },
+      {
+        "id": "mx-14",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is translate percentage useful for centering?",
+        "hint": "Percentage is relative to the element.",
+        "answer": "Because <code>translate(-50%, -50%)</code> moves the element by 50% of its own dimensions. Combined with <code>top: 50%; left: 50%</code>, which positions its top-left at the parent's center, the translate shifts it back so its center aligns with the parent's center.",
+        "explanation": "This works for any size element and is the most reliable pure-CSS centering method pre-Flexbox. Still useful for absolute positioning."
+      },
+      {
+        "id": "mx-15",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Can you animate CSS transforms?",
+        "hint": "Yes — that is their main purpose.",
+        "answer": "Yes. Transforms are fully animatable with both transitions and @keyframes, and they are the most performant things you can animate in CSS.",
+        "explanation": "Animating transform is the foundation of smooth web animation. Pair it with opacity for elegant entrance and exit effects."
+      },
+      {
+        "id": "mx-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is wrong with this flip card code?<br><pre><code>.card {\n  perspective: 1000px;\n}\n.face {\n  backface-visibility: hidden;\n}\n.back { transform: rotateY(180deg); }\n.card.flipped { transform: rotateY(180deg); }</code></pre>",
+        "hint": "Missing property for nested 3D.",
+        "answer": "Missing <code>transform-style: preserve-3d</code> on the card. Without it, the faces collapse into the parent's 2D plane and the flip does not look 3D.",
+        "explanation": "Flip cards need THREE things together: perspective on the scene, preserve-3d on the card, and backface-visibility hidden on the faces."
+      },
+      {
+        "id": "mx-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does <code>transform: rotateY(360deg)</code> on a looping animation look like visually?",
+        "hint": "Full Y-axis spin.",
+        "answer": "The element appears to spin around like a door handle or a vertical axis, showing its back at 180 degrees and returning to the front at 360 degrees.",
+        "explanation": "rotateY rotates around the vertical axis. A full 360 rotation returns the element to its original position."
+      },
+      {
+        "id": "mx-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Can you combine 2D and 3D transforms in one declaration?",
+        "hint": "Yes — and it is common.",
+        "answer": "Yes. Example: <code>transform: rotateY(45deg) scale(1.1) translateZ(30px)</code>. Mixing 2D and 3D functions is allowed and commonly used for interactive effects.",
+        "explanation": "When you mix them, the browser treats the whole thing as 3D (needs perspective on the parent or as the first transform function)."
+      },
+      {
+        "id": "mx-19",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>transform: rotate(1turn)</code> do?",
+        "hint": "One full turn.",
+        "answer": "Rotates the element one full turn (360 degrees). The element ends up in the same visual position as it started.",
+        "explanation": "<code>1turn</code> equals 360 degrees. Useful in animations where you want to express full rotations clearly."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which transform function moves an element?",
+        "options": {
+          "A": "move()",
+          "B": "translate()",
+          "C": "shift()",
+          "D": "position()"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>translate(x, y)</code> moves an element by the given amounts."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which transform rotates an element?",
+        "options": {
+          "A": "spin()",
+          "B": "rotate()",
+          "C": "turn()",
+          "D": "pivot()"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>rotate(deg)</code> rotates the element around its transform-origin (default center)."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does <code>transform: scale(0.5)</code> do?",
+        "options": {
+          "A": "Doubles the size",
+          "B": "Makes the element half its original size",
+          "C": "Removes the element",
+          "D": "Pushes it backward in 3D"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>scale(0.5)</code> scales the element to 50% of its original dimensions."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does <code>transform-origin</code> control?",
+        "options": {
+          "A": "The source file of the transform",
+          "B": "The pivot point that transforms are calculated from",
+          "C": "The starting value of an animation",
+          "D": "The default transform on page load"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> transform-origin sets the pivot point (default is center) for all transforms."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "How do you combine multiple transforms?",
+        "options": {
+          "A": "Separate with commas",
+          "B": "Separate with spaces",
+          "C": "Use multiple transform properties",
+          "D": "Chain with dots"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Example: <code>transform: translate(100px) rotate(45deg) scale(1.2)</code>. Spaces separate multiple transform functions."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Which property is required on the PARENT for 3D depth to appear correctly?",
+        "options": {
+          "A": "transform-style",
+          "B": "backface-visibility",
+          "C": "perspective",
+          "D": "depth"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>perspective</code> defines the distance between the viewer and the 3D scene, creating depth."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Which property keeps nested 3D children in 3D space?",
+        "options": {
+          "A": "transform-style: preserve-3d",
+          "B": "transform: flat",
+          "C": "perspective: inherit",
+          "D": "backface-visibility: visible"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Without <code>preserve-3d</code>, children are flattened into the parent's 2D plane."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does <code>backface-visibility: hidden</code> do?",
+        "options": {
+          "A": "Hides the element on page load",
+          "B": "Hides the reverse side of a rotated element",
+          "C": "Hides the background",
+          "D": "Hides parent elements"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When an element rotates past 90 degrees, its back is visible. backface-visibility: hidden prevents that."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Why is <code>transform</code> animated instead of <code>top</code> or <code>left</code> for performance?",
+        "options": {
+          "A": "transform is shorter to type",
+          "B": "transform runs on the GPU without triggering layout recalculation",
+          "C": "transform is newer",
+          "D": "transform has more features"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> transform is GPU-accelerated. top/left trigger layout work on the CPU every frame, causing jank."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What does <code>translate(-50%, -50%)</code> do when combined with top:50% and left:50%?",
+        "options": {
+          "A": "Moves the element off-screen",
+          "B": "Perfectly centers the element in its positioned parent",
+          "C": "Rotates the element",
+          "D": "Hides the element"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> top/left:50% puts the element's top-left at the parent's center; translate(-50%, -50%) shifts it back by half its own size, centering it."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Does <code>transform</code> affect surrounding elements?",
+        "options": {
+          "A": "Yes, neighboring elements shift to make room",
+          "B": "No, transforms are visual-only and do not change layout",
+          "C": "Only if scale is used",
+          "D": "Only for 3D transforms"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Transforms do not change the document flow. The original box is preserved; other elements do not shift."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "Which is different: <code>rotate(45deg)</code> or <code>rotateZ(45deg)</code>?",
+        "options": {
+          "A": "rotate is 2D, rotateZ is 3D",
+          "B": "They are identical — rotate() is shorthand for rotateZ()",
+          "C": "rotate works in both, rotateZ only in 3D",
+          "D": "rotateZ requires perspective"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> 2D rotation is actually rotation around the Z axis. rotate() and rotateZ() produce identical results."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What does <code>transform: rotate(45deg) translate(100px)</code> do differently from <code>transform: translate(100px) rotate(45deg)</code>?",
+        "options": {
+          "A": "They produce the same result",
+          "B": "Order matters: the rotation affects the direction of subsequent translates",
+          "C": "Only the first one works",
+          "D": "Rotation is ignored when combined with translate"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> After a rotation, the coordinate system is rotated. Subsequent translates move along the rotated axis."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which value of perspective creates the most dramatic 3D effect?",
+        "options": {
+          "A": "10000px",
+          "B": "5000px",
+          "C": "2000px",
+          "D": "300px"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> Smaller perspective values bring the viewer closer, producing steeper, more exaggerated 3D angles."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "Which property animates most efficiently?",
+        "options": {
+          "A": "width",
+          "B": "margin",
+          "C": "transform",
+          "D": "padding"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> transform runs on the GPU. All the others trigger layout work on the CPU."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What does <code>transform: scaleX(-1)</code> do?",
+        "options": {
+          "A": "Hides the element",
+          "B": "Mirrors the element horizontally (flip left-right)",
+          "C": "Doubles the width",
+          "D": "Collapses the element"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Negative scale values mirror the element. scaleX(-1) flips it horizontally."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What are the three essential properties for a 3D flip card?",
+        "options": {
+          "A": "perspective on scene, preserve-3d on card, backface-visibility hidden on faces",
+          "B": "rotate, translate, scale",
+          "C": "top, left, position",
+          "D": "width, height, z-index"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> All three are required: perspective for depth, preserve-3d so faces stay in 3D space, backface-visibility so the back of each face is hidden when rotated."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "What does <code>transform: skewX(15deg)</code> do?",
+        "options": {
+          "A": "Rotates 15 degrees",
+          "B": "Slants the element horizontally by 15 degrees",
+          "C": "Scales horizontally by 15",
+          "D": "Moves 15 pixels"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> skewX slants the element along the X axis, creating an italic-like effect."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Easy",
+        "question": "How do you reset all transforms on an element?",
+        "options": {
+          "A": "transform: reset",
+          "B": "transform: none",
+          "C": "transform: clear",
+          "D": "transform: 0"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>transform: none</code> removes all transforms and returns the element to its untransformed state."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Medium",
+        "question": "What is translateZ(50px)?",
+        "options": {
+          "A": "Moves 50px along the Y axis",
+          "B": "Pulls the element 50px toward the viewer in 3D space",
+          "C": "Increases zoom by 50",
+          "D": "Adds 50px of z-index"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Positive Z moves toward the viewer; negative pushes back. Requires perspective to appear 3D."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Hover Scale and Rotate",
+        "difficulty": "Easy",
+        "description": "Create a card that scales to 1.1 and rotates 5 degrees on hover. Use transition for smoothness.",
+        "sampleInput": "Hover over card",
+        "sampleOutput": "Card grows and tilts slightly.",
+        "constraints": "Combine scale and rotate in one transform. Use transition on the base state.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #0f172a; margin: 0; font-family: Arial, sans-serif; }\n  .card { width: 220px; padding: 30px; background: linear-gradient(135deg, #a855f7, #ec4899); color: white; border-radius: 16px; text-align: center; cursor: pointer; transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1); font-weight: bold; }\n  .card:hover { transform: scale(1.1) rotate(5deg); }\n</style>\n</head>\n<body>\n  <div class=\"card\">Aarav's Project</div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Perfect Center with translate",
+        "difficulty": "Easy",
+        "description": "Center a box perfectly inside a larger parent using absolute positioning with top:50%, left:50%, and <code>translate(-50%, -50%)</code>.",
+        "sampleInput": "None",
+        "sampleOutput": "A box perfectly centered in its parent.",
+        "constraints": "Use position: absolute + top/left: 50% + transform: translate(-50%, -50%).",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { margin: 0; font-family: Arial, sans-serif; }\n  .parent { position: relative; width: 100vw; height: 100vh; background: #0f172a; }\n  .box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 200px; padding: 30px; background: linear-gradient(135deg, #06b6d4, #0ea5e9); color: white; border-radius: 14px; text-align: center; font-weight: bold; }\n</style>\n</head>\n<body>\n  <div class=\"parent\">\n    <div class=\"box\">Priya is centered</div>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Flipping Card (Front and Back)",
+        "difficulty": "Medium",
+        "description": "Build a 3D flip card. The front shows a question, the back shows the answer. On hover, the card rotates 180 degrees on the Y axis to reveal the back.",
+        "sampleInput": "Hover over card",
+        "sampleOutput": "Card flips revealing the back.",
+        "constraints": "Use perspective on the scene, preserve-3d on the card, backface-visibility hidden on faces.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #0f172a; margin: 0; font-family: Arial, sans-serif; }\n  .scene { perspective: 1000px; width: 280px; height: 340px; }\n  .card { width: 100%; height: 100%; position: relative; transform-style: preserve-3d; transition: transform 0.8s cubic-bezier(0.65, 0, 0.35, 1); cursor: pointer; }\n  .scene:hover .card { transform: rotateY(180deg); }\n  .face { position: absolute; inset: 0; backface-visibility: hidden; border-radius: 18px; padding: 30px; color: white; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 20px; font-weight: bold; box-shadow: 0 20px 40px rgba(0,0,0,0.4); }\n  .front { background: linear-gradient(135deg, #a855f7, #ec4899); }\n  .back { background: linear-gradient(135deg, #06b6d4, #0ea5e9); transform: rotateY(180deg); }\n</style>\n</head>\n<body>\n  <div class=\"scene\">\n    <div class=\"card\">\n      <div class=\"face front\">What does DOM stand for?</div>\n      <div class=\"face back\">Document Object Model</div>\n    </div>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Lift and Shadow on Hover",
+        "difficulty": "Medium",
+        "description": "Create a pricing card that lifts up 10px and casts a larger shadow on hover. Use transform: translateY for the lift, and transition both transform and box-shadow.",
+        "sampleInput": "Hover over card",
+        "sampleOutput": "Card smoothly lifts with a bigger shadow.",
+        "constraints": "Use transform (not margin). Transition both transform and box-shadow.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #f8fafc; margin: 0; font-family: Arial, sans-serif; }\n  .plan { width: 240px; background: white; padding: 30px; border-radius: 16px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); cursor: pointer; transition: transform 0.3s, box-shadow 0.3s; }\n  .plan:hover { transform: translateY(-10px); box-shadow: 0 24px 50px rgba(168, 85, 247, 0.25); }\n  .plan h2 { color: #a855f7; margin: 0 0 8px; }\n  .plan .price { font-size: 36px; color: #0f172a; font-weight: bold; }\n</style>\n</head>\n<body>\n  <div class=\"plan\"><h2>Pro Plan</h2><div class=\"price\">Rs 999</div></div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "3D Rotating Cube",
+        "difficulty": "Hard",
+        "description": "Build a real 3D cube with 6 colored faces that rotates continuously. Use 6 div.face elements, position each with translateZ and appropriate rotateX/rotateY, and animate the parent's rotation.",
+        "sampleInput": "None",
+        "sampleOutput": "A rotating 3D cube with 6 colored faces.",
+        "constraints": "Use perspective on body, transform-style: preserve-3d on cube, translateZ for each face, and @keyframes for rotation.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #0f172a; perspective: 1200px; margin: 0; font-family: Arial, sans-serif; }\n  .cube { position: relative; width: 180px; height: 180px; transform-style: preserve-3d; animation: rotate 10s linear infinite; }\n  @keyframes rotate { from { transform: rotateX(-25deg) rotateY(0); } to { transform: rotateX(-25deg) rotateY(360deg); } }\n  .face { position: absolute; width: 180px; height: 180px; display: flex; align-items: center; justify-content: center; color: white; font-size: 22px; font-weight: bold; border: 2px solid rgba(255,255,255,0.2); }\n  .front  { background: rgba(168, 85, 247, 0.85); transform: translateZ(90px); }\n  .back   { background: rgba(236, 72, 153, 0.85); transform: rotateY(180deg) translateZ(90px); }\n  .right  { background: rgba(6, 182, 212, 0.85);  transform: rotateY(90deg)  translateZ(90px); }\n  .left   { background: rgba(14, 165, 233, 0.85); transform: rotateY(-90deg) translateZ(90px); }\n  .top    { background: rgba(245, 158, 11, 0.85); transform: rotateX(90deg)  translateZ(90px); }\n  .bottom { background: rgba(239, 68, 68, 0.85);  transform: rotateX(-90deg) translateZ(90px); }\n</style>\n</head>\n<body>\n  <div class=\"cube\">\n    <div class=\"face front\">Aarav</div>\n    <div class=\"face back\">Priya</div>\n    <div class=\"face right\">Rohan</div>\n    <div class=\"face left\">Ishita</div>\n    <div class=\"face top\">Vivaan</div>\n    <div class=\"face bottom\">Anika</div>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Tilt Card with Layered Depth",
+        "difficulty": "Hard",
+        "description": "Create a card that tilts in 3D on hover with both X and Y rotation. Inside the card, the heading and paragraph should sit at different <code>translateZ</code> depths for a layered 3D feel.",
+        "sampleInput": "Hover over card",
+        "sampleOutput": "Card tilts, and inner text appears to float above the background.",
+        "constraints": "Use perspective on body, transform-style: preserve-3d on card, translateZ on inner elements.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #0f172a; perspective: 1000px; margin: 0; font-family: Arial, sans-serif; }\n  .card { width: 300px; padding: 30px; background: linear-gradient(135deg, #a855f7, #ec4899); color: white; border-radius: 20px; transform-style: preserve-3d; transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.4s; cursor: pointer; box-shadow: 0 20px 50px rgba(168, 85, 247, 0.3); }\n  .card:hover { transform: rotateX(10deg) rotateY(-12deg) translateZ(20px); box-shadow: 0 30px 70px rgba(168, 85, 247, 0.5); }\n  .card h2 { transform: translateZ(40px); margin: 0 0 10px; }\n  .card p { transform: translateZ(20px); line-height: 1.6; }\n</style>\n</head>\n<body>\n  <div class=\"card\">\n    <h2>Meera's Card</h2>\n    <p>This card tilts in 3D on hover. The heading floats above the paragraph for added depth.</p>\n  </div>\n</body>\n</html>"
+      }
+    ]
+  }
+}

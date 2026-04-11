@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transitions and Hover Effects - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Add smooth animations on hover. Master transition-property, duration, timing-function, and delay for interactive UI.">
+    <meta name="keywords" content="css transitions and hover effects, html and css tutorial, html and css css transitions and hover effects, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/transitions-and-hover-effects">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/transitions-and-hover-effects">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/transitions-and-hover-effects">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/transitions-and-hover-effects">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/transitions-and-hover-effects">
+    <meta property="og:title" content="CSS Transitions and Hover Effects - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Add smooth animations on hover. Master transition-property, duration, timing-function, and delay for interactive UI.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/transitions-and-hover-effects">
+    <meta name="twitter:title" content="CSS Transitions and Hover Effects - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Add smooth animations on hover. Master transition-property, duration, timing-function, and delay for interactive UI.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "CSS Transitions and Hover Effects",
+    "description": "Add smooth animations on hover. Master transition-property, duration, timing-function, and delay for interactive UI.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/transitions-and-hover-effects"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/transitions-and-hover-effects"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "CSS Transitions and Hover Effects",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/transitions-and-hover-effects"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Trying to Transition display",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use <code>opacity</code> for the fade effect and <code>visibility</code> to remove the element from accessibility and pointer events after it fades out. Never try to animate display, font-family, or other discrete properties."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Applying Transitions to the :hover State Instead of the Base",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always put the <code>transition</code> property on the base (default) state, not inside :hover. That way it applies in both directions — hovering in AND hovering out."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Transitioning height: auto",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use <code>max-height</code> with a value larger than the actual content. Since max-height caps at the content height, setting it to 500px still shows exactly as much as needed, but CAN be animated from 0."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using transition: all When Not Needed",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Be explicit about which properties transition. It is both more performant and more predictable. Use <code>all</code> only when you truly want to animate every property that might change."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">CSS Transitions and Hover Effects</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 18</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">38 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">CSS Transitions and Hover Effects</h1>
+            <a href="/resources/html-and-css/transitions-and-hover-effects/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are CSS Transitions?</h2><p>A CSS transition is a smooth change from one style value to another over a specified time. Instead of a button instantly changing from purple to pink when you hover over it, a transition lets it fade smoothly over 300 milliseconds. That smoothness is what makes modern websites feel polished and alive.</p><p>Transitions need THREE things:</p><ol><li><strong>A starting state</strong> (the default CSS)</li><li><strong>An ending state</strong> (triggered by :hover, :focus, a class change, etc.)</li><li><strong>A transition rule</strong> telling the browser how to animate between them</li></ol><pre><code>.button {
+  background: #a855f7;
+  transition: background 0.3s ease;
+}
+.button:hover {
+  background: #ec4899;
+}</code></pre><p>That is it. Four lines of CSS give you a beautifully smooth color change on hover — no JavaScript required.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn Transitions and Hover Effects?</h2><h3>1. Modern UI Is Built on Micro-Interactions</h3><p>Every polished website you love uses hover effects: buttons that lift, cards that scale, images that zoom, underlines that slide in. These tiny animations (called micro-interactions) give users feedback and make interfaces feel responsive and alive.</p><h3>2. Zero JavaScript Required</h3><p>Transitions are pure CSS. The browser handles everything: smoothness, timing, performance. This means animations run at 60fps without any runtime overhead from JavaScript. Pure CSS animations are ALWAYS faster than JS animations.</p><h3>3. They Make Changes Feel Natural</h3><p>Instant changes are jarring. When a button suddenly becomes pink, our brain registers 'something glitched'. When it smoothly transitions, our brain registers 'I did that — it responded to me'. Transitions create trust between the user and the interface.</p><h3>4. Essential for Job Portfolios</h3><p>Any frontend developer job interview will test your ability to create smooth hover effects. It is considered a basic skill for modern web design.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The Four Transition Properties</h3><p>CSS transitions have four sub-properties. Each one controls a different aspect of the animation:</p><pre><code>.element {
+  transition-property: background-color;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}</code></pre><ul><li><strong>transition-property</strong>: which CSS property to animate (or <code>all</code>)</li><li><strong>transition-duration</strong>: how long the animation takes (seconds or milliseconds)</li><li><strong>transition-timing-function</strong>: the acceleration curve (ease, linear, etc.)</li><li><strong>transition-delay</strong>: wait this long before starting</li></ul><h3>2. The Shorthand (Most Common)</h3><p>In practice, everyone uses the shorthand:</p><pre><code>.element {
+  transition: background-color 0.4s ease-in-out;
+  /* property | duration | timing-function | (optional delay) */
+}
+
+/* Multiple properties */
+.element {
+  transition: background 0.3s, color 0.3s, transform 0.5s;
+}
+
+/* All animatable properties */
+.element {
+  transition: all 0.3s ease;
+}</code></pre><p>Using <code>all</code> is quick but less precise. Listing specific properties is a small performance improvement and avoids surprising animations.</p><h3>3. Timing Functions (The Most Important Choice)</h3><p>The timing function controls the acceleration curve of the animation. This is what makes animations feel organic or robotic:</p><pre><code>transition-timing-function: linear;      /* constant speed */
+transition-timing-function: ease;        /* slow-start, fast-middle, slow-end (default) */
+transition-timing-function: ease-in;     /* slow start, fast end */
+transition-timing-function: ease-out;    /* fast start, slow end (most natural for UI) */
+transition-timing-function: ease-in-out; /* slow start AND end */
+transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55); /* custom curve */</code></pre><p><strong>Rule of thumb</strong>: use <code>ease-out</code> for elements appearing or entering (feels natural), <code>ease-in</code> for elements leaving, and <code>ease-in-out</code> for things that start and end at the same place (toggles).</p><h3>4. Hover Effects (:hover)</h3><p>The <code>:hover</code> pseudo-class applies when the mouse is over the element. Combine with transitions for smooth hover effects:</p><pre><code>.button {
+  background: #a855f7;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.button:hover {
+  background: #ec4899;
+  transform: scale(1.05);
+}</code></pre><p>Notice we transition both background and transform, but they can have different durations.</p><h3>5. Creative Hover Effects</h3><p><strong>Lift on hover</strong> — classic card effect:</p><pre><code>.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}</code></pre><p><strong>Image zoom inside frame</strong>:</p><pre><code>.frame {
+  overflow: hidden;
+  border-radius: 12px;
+}
+.frame img {
+  transition: transform 0.5s;
+}
+.frame:hover img {
+  transform: scale(1.1);
+}</code></pre><p><strong>Underline slide-in</strong>:</p><pre><code>.link {
+  position: relative;
+}
+.link::after {
+  content: '';
+  position: absolute;
+  left: 0; bottom: -2px;
+  width: 0; height: 2px;
+  background: currentColor;
+  transition: width 0.3s;
+}
+.link:hover::after {
+  width: 100%;
+}</code></pre><h3>6. cursor: pointer</h3><p>Always add <code>cursor: pointer</code> to interactive elements that are not native buttons/links. It tells users 'this is clickable':</p><pre><code>.clickable-card {
+  cursor: pointer;
+}</code></pre><h3>7. Properties You CANNOT Transition</h3><p>Not all CSS properties can be animated. A few important ones that CANNOT:</p><ul><li><code>display</code> (block, none, flex, etc.) — discrete values</li><li><code>height: auto</code> (you need a fixed height or use max-height)</li><li><code>font-family</code></li><li><code>content</code> (inside pseudo-elements)</li></ul><p>For show/hide animations, use <code>opacity</code> and <code>visibility</code> instead of <code>display</code>.</p><h3>8. will-change (Performance Hint)</h3><p>For complex animations, tell the browser what will animate so it can optimize:</p><pre><code>.card {
+  will-change: transform;
+}</code></pre><p>Use sparingly — overuse hurts performance. Only add will-change to elements with heavy animations.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Button Pack - Six Hover Effects</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; background: #0f172a; padding: 40px; display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; }
+    button { padding: 14px 32px; font-size: 16px; border: none; border-radius: 10px; cursor: pointer; color: white; font-weight: 600; }
+
+    /* 1. Color + scale */
+    .btn1 { background: #a855f7; transition: background 0.3s, transform 0.2s; }
+    .btn1:hover { background: #ec4899; transform: scale(1.08); }
+
+    /* 2. Shadow lift */
+    .btn2 { background: #06b6d4; box-shadow: 0 4px 6px rgba(6, 182, 212, 0.3); transition: transform 0.3s, box-shadow 0.3s; }
+    .btn2:hover { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(6, 182, 212, 0.5); }
+
+    /* 3. Fill slide */
+    .btn3 { background: transparent; border: 2px solid #f59e0b; color: #f59e0b; position: relative; overflow: hidden; z-index: 1; transition: color 0.4s; }
+    .btn3::before { content: &#39;&#39;; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: #f59e0b; transition: left 0.4s; z-index: -1; }
+    .btn3:hover { color: white; }
+    .btn3:hover::before { left: 0; }
+
+    /* 4. Grow border */
+    .btn4 { background: #0f172a; border: 2px solid #10b981; transition: box-shadow 0.3s, letter-spacing 0.3s; }
+    .btn4:hover { box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.3); letter-spacing: 2px; }
+
+    /* 5. Gradient shift */
+    .btn5 { background: linear-gradient(90deg, #a855f7, #ec4899); background-size: 200% 100%; transition: background-position 0.5s; }
+    .btn5:hover { background-position: 100% 0; }
+
+    /* 6. 3D push */
+    .btn6 { background: #8b5cf6; box-shadow: 0 6px 0 #5b21b6; transition: box-shadow 0.15s, transform 0.15s; }
+    .btn6:hover { box-shadow: 0 2px 0 #5b21b6; transform: translateY(4px); }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;button class=&quot;btn1&quot;&gt;Aarav&lt;/button&gt;
+  &lt;button class=&quot;btn2&quot;&gt;Priya&lt;/button&gt;
+  &lt;button class=&quot;btn3&quot;&gt;Rohan&lt;/button&gt;
+  &lt;button class=&quot;btn4&quot;&gt;Ishita&lt;/button&gt;
+  &lt;button class=&quot;btn5&quot;&gt;Vivaan&lt;/button&gt;
+  &lt;button class=&quot;btn6&quot;&gt;Anika&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Six distinct hover effect patterns: color+scale, shadow lift, fill slide (using a pseudo-element), grow border with letter-spacing, gradient shift, and 3D push-down. Each uses different transition properties. Hover over each button to see the effect.</div><div class="code-example-output">Six colorful buttons, each with a different hover animation style.</div></div>
+<div class="code-example"><div class="code-example-title">Image Card with Zoom and Overlay</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { background: #0f172a; font-family: Arial, sans-serif; padding: 40px; display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; margin: 0; }
+    .card {
+      width: 280px;
+      height: 360px;
+      border-radius: 18px;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+    .img {
+      width: 100%;
+      height: 100%;
+      transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+    .i1 { background: linear-gradient(135deg, #a855f7, #ec4899); }
+    .i2 { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }
+    .i3 { background: linear-gradient(135deg, #f59e0b, #ef4444); }
+    .card:hover .img { transform: scale(1.15); }
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.9), transparent 50%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 24px;
+      color: white;
+      transition: background 0.4s;
+    }
+    .overlay h3 {
+      transform: translateY(20px);
+      transition: transform 0.4s;
+      margin-bottom: 6px;
+    }
+    .overlay p {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.4s, transform 0.4s;
+      color: #cbd5e1;
+      font-size: 14px;
+    }
+    .card:hover .overlay h3 { transform: translateY(0); }
+    .card:hover .overlay p { opacity: 1; transform: translateY(0); }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;div class=&quot;img i1&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;overlay&quot;&gt;&lt;h3&gt;Aarav&#39;s Photo&lt;/h3&gt;&lt;p&gt;Sunrise over the Himalayas taken last winter.&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;div class=&quot;img i2&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;overlay&quot;&gt;&lt;h3&gt;Priya&#39;s Ocean&lt;/h3&gt;&lt;p&gt;Waves at Marina Beach during the monsoon.&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;div class=&quot;img i3&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;overlay&quot;&gt;&lt;h3&gt;Rohan&#39;s Desert&lt;/h3&gt;&lt;p&gt;Sand dunes in Jaisalmer at golden hour.&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Three layered effects on hover: (1) the image zooms in smoothly using <code>transform: scale</code>, (2) the title slides up from below, (3) the description fades in. The <code>overflow: hidden</code> on the card prevents the zoomed image from escaping. The cubic-bezier timing function gives the zoom a natural feel.</div><div class="code-example-output">Three image cards. On hover, the image zooms in, the title slides up, and a description fades in.</div></div>
+<div class="code-example"><div class="code-example-title">Navigation Links with Sliding Underline</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { background: #0f172a; color: white; font-family: Arial, sans-serif; margin: 0; padding: 40px; }
+    nav { display: flex; gap: 40px; justify-content: center; padding: 24px; background: #1e293b; border-radius: 12px; }
+    nav a {
+      color: #f1f5f9;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+      position: relative;
+      padding: 4px 0;
+    }
+    nav a::after {
+      content: &#39;&#39;;
+      position: absolute;
+      left: 50%;
+      bottom: -4px;
+      width: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #a855f7, #06b6d4);
+      border-radius: 2px;
+      transform: translateX(-50%);
+      transition: width 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    nav a:hover::after { width: 100%; }
+    nav a:hover { color: #a855f7; }
+    .content { max-width: 600px; margin: 40px auto; text-align: center; color: #cbd5e1; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;nav&gt;
+    &lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Projects&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+  &lt;/nav&gt;
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;p&gt;Hover over a navigation link above to see the gradient underline slide in from the center.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Each link has a <code>::after</code> pseudo-element styled as a thin gradient bar. It starts with zero width and is centered. On hover, the width transitions to 100%, creating a smooth underline slide-in from the middle. Pure CSS, no JavaScript, no extra HTML.</div><div class="code-example-output">A dark nav bar with 4 links. Hovering a link reveals a gradient underline sliding from the center outward.</div></div>
+<div class="code-example"><div class="code-example-title">Pricing Card with Complete Hover Animation</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { background: #f8fafc; font-family: Arial, sans-serif; padding: 40px; display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; }
+    .plan {
+      width: 260px;
+      background: white;
+      border-radius: 16px;
+      padding: 30px 24px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      text-align: center;
+      position: relative;
+      border: 2px solid transparent;
+      transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+                  box-shadow 0.4s,
+                  border-color 0.4s;
+    }
+    .plan:hover {
+      transform: translateY(-12px);
+      box-shadow: 0 24px 50px rgba(168, 85, 247, 0.25);
+      border-color: #a855f7;
+    }
+    .plan h2 { color: #334155; font-size: 22px; margin-bottom: 8px; }
+    .plan .price { font-size: 42px; color: #a855f7; font-weight: bold; margin: 16px 0; }
+    .plan .price span { font-size: 16px; color: #64748b; }
+    .plan ul { list-style: none; padding: 0; text-align: left; margin: 20px 0; }
+    .plan li { padding: 8px 0; color: #475569; border-bottom: 1px solid #f1f5f9; font-size: 14px; }
+    .plan button {
+      width: 100%;
+      padding: 12px;
+      background: #a855f7;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s, letter-spacing 0.3s;
+    }
+    .plan button:hover { background: #7c3aed; letter-spacing: 1px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;plan&quot;&gt;
+    &lt;h2&gt;Starter&lt;/h2&gt;
+    &lt;div class=&quot;price&quot;&gt;Rs 0&lt;span&gt;/mo&lt;/span&gt;&lt;/div&gt;
+    &lt;ul&gt;&lt;li&gt;1 student&lt;/li&gt;&lt;li&gt;5 lessons&lt;/li&gt;&lt;li&gt;Community&lt;/li&gt;&lt;/ul&gt;
+    &lt;button&gt;Get Started&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;plan&quot;&gt;
+    &lt;h2&gt;Pro&lt;/h2&gt;
+    &lt;div class=&quot;price&quot;&gt;Rs 999&lt;span&gt;/mo&lt;/span&gt;&lt;/div&gt;
+    &lt;ul&gt;&lt;li&gt;Unlimited students&lt;/li&gt;&lt;li&gt;All lessons&lt;/li&gt;&lt;li&gt;Priority support&lt;/li&gt;&lt;/ul&gt;
+    &lt;button&gt;Get Started&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;plan&quot;&gt;
+    &lt;h2&gt;Team&lt;/h2&gt;
+    &lt;div class=&quot;price&quot;&gt;Rs 2,499&lt;span&gt;/mo&lt;/span&gt;&lt;/div&gt;
+    &lt;ul&gt;&lt;li&gt;25 students&lt;/li&gt;&lt;li&gt;Custom content&lt;/li&gt;&lt;li&gt;Dedicated mentor&lt;/li&gt;&lt;/ul&gt;
+    &lt;button&gt;Contact Us&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Multiple transitions on one element. When you hover a pricing card, three properties animate together: it lifts up 12px, the shadow grows dramatically, and the border color changes from transparent to purple. Each property has the same duration but could be different. The button inside has its own transitions.</div><div class="code-example-output">Three pricing cards that each lift, cast a glowing shadow, and gain a purple border on hover.</div></div>
+<div class="code-example"><div class="code-example-title">Social Icon Bar with Color Rotation</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { background: #0f172a; font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+    .social {
+      display: flex;
+      gap: 16px;
+    }
+    .social a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      background: #1e293b;
+      color: #cbd5e1;
+      font-size: 22px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 12px;
+      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .social a:hover {
+      transform: translateY(-8px) rotate(-5deg);
+      color: white;
+    }
+    .social a.fb:hover { background: #1877f2; box-shadow: 0 14px 28px rgba(24, 119, 242, 0.4); }
+    .social a.ig:hover { background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045); box-shadow: 0 14px 28px rgba(253, 29, 29, 0.4); }
+    .social a.yt:hover { background: #ff0000; box-shadow: 0 14px 28px rgba(255, 0, 0, 0.4); }
+    .social a.tw:hover { background: #1da1f2; box-shadow: 0 14px 28px rgba(29, 161, 242, 0.4); }
+    .social a.gh:hover { background: #24292e; box-shadow: 0 14px 28px rgba(36, 41, 46, 0.6); }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;social&quot;&gt;
+    &lt;a class=&quot;fb&quot; href=&quot;#&quot;&gt;F&lt;/a&gt;
+    &lt;a class=&quot;ig&quot; href=&quot;#&quot;&gt;I&lt;/a&gt;
+    &lt;a class=&quot;yt&quot; href=&quot;#&quot;&gt;Y&lt;/a&gt;
+    &lt;a class=&quot;tw&quot; href=&quot;#&quot;&gt;T&lt;/a&gt;
+    &lt;a class=&quot;gh&quot; href=&quot;#&quot;&gt;G&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Social media icon bar with a custom cubic-bezier for a slight overshoot bounce on hover. Each icon lifts, rotates 5 degrees, and changes to its brand color. The cubic-bezier(0.34, 1.56, 0.64, 1) creates a springy, playful feel rather than a smooth ease.</div><div class="code-example-output">Five dark icon squares in a row. Hovering each lifts it, rotates slightly, and reveals the brand color with a matching glow shadow.</div></div>
+<div class="code-example"><div class="code-example-title">Show/Hide Modal Without display</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; background: #f8fafc; padding: 40px; }
+    .open-btn { padding: 12px 24px; background: #a855f7; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; }
+    .overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s, visibility 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .overlay.open { opacity: 1; visibility: visible; }
+    .modal {
+      background: white;
+      padding: 30px;
+      border-radius: 14px;
+      max-width: 400px;
+      transform: scale(0.85);
+      transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .overlay.open .modal { transform: scale(1); }
+    .modal h2 { color: #a855f7; margin-bottom: 12px; }
+    .modal p { color: #475569; margin-bottom: 20px; line-height: 1.5; }
+    .close-btn { padding: 10px 20px; background: #e5e7eb; color: #0f172a; border: none; border-radius: 6px; cursor: pointer; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;button class=&quot;open-btn&quot; id=&quot;openBtn&quot;&gt;Open Modal&lt;/button&gt;
+  &lt;div class=&quot;overlay&quot; id=&quot;overlay&quot;&gt;
+    &lt;div class=&quot;modal&quot;&gt;
+      &lt;h2&gt;Hi, Meera!&lt;/h2&gt;
+      &lt;p&gt;This modal fades in and scales up smoothly. Notice we cannot transition display: none, so we use opacity + visibility instead.&lt;/p&gt;
+      &lt;button class=&quot;close-btn&quot; id=&quot;closeBtn&quot;&gt;Close&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;script&gt;
+    const overlay = document.getElementById(&#39;overlay&#39;);
+    document.getElementById(&#39;openBtn&#39;).addEventListener(&#39;click&#39;, () =&gt; overlay.classList.add(&#39;open&#39;));
+    document.getElementById(&#39;closeBtn&#39;).addEventListener(&#39;click&#39;, () =&gt; overlay.classList.remove(&#39;open&#39;));
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This is how to animate a show/hide effect correctly. Since <code>display: none</code> CANNOT be transitioned, we use <code>opacity</code> and <code>visibility</code> together. The modal also scales up with a springy cubic-bezier. JavaScript only toggles a class — all the animation is pure CSS.</div><div class="code-example-output">A button that opens a modal with a fade-in overlay and a bouncy scale-up animation on the modal itself.</div></div>
+<div class="code-example"><div class="code-example-title">Interactive Menu with Ripple Effect</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { background: #0f172a; color: white; font-family: Arial, sans-serif; padding: 40px; display: flex; justify-content: center; }
+    .menu { background: #1e293b; border-radius: 14px; padding: 12px; min-width: 240px; }
+    .menu-item {
+      display: block;
+      padding: 14px 20px;
+      color: #cbd5e1;
+      text-decoration: none;
+      border-radius: 8px;
+      position: relative;
+      overflow: hidden;
+      transition: color 0.3s, padding-left 0.3s;
+    }
+    .menu-item::before {
+      content: &#39;&#39;;
+      position: absolute;
+      left: 0; top: 0;
+      width: 4px; height: 100%;
+      background: linear-gradient(to bottom, #a855f7, #06b6d4);
+      transform: scaleY(0);
+      transform-origin: bottom;
+      transition: transform 0.3s;
+    }
+    .menu-item:hover {
+      color: white;
+      padding-left: 28px;
+      background: rgba(168, 85, 247, 0.1);
+    }
+    .menu-item:hover::before {
+      transform: scaleY(1);
+      transform-origin: top;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;nav class=&quot;menu&quot;&gt;
+    &lt;a class=&quot;menu-item&quot; href=&quot;#&quot;&gt;Dashboard&lt;/a&gt;
+    &lt;a class=&quot;menu-item&quot; href=&quot;#&quot;&gt;My Projects&lt;/a&gt;
+    &lt;a class=&quot;menu-item&quot; href=&quot;#&quot;&gt;Messages&lt;/a&gt;
+    &lt;a class=&quot;menu-item&quot; href=&quot;#&quot;&gt;Notifications&lt;/a&gt;
+    &lt;a class=&quot;menu-item&quot; href=&quot;#&quot;&gt;Settings&lt;/a&gt;
+  &lt;/nav&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Each menu item has a pseudo-element bar on the left that starts at <code>scaleY(0)</code> (invisible). On hover, it scales to 1 (full height) AND the transform-origin flips from bottom to top, making the bar appear to slide down from above. Meanwhile, the text shifts right and changes color. Three transitions combined into one elegant effect.</div><div class="code-example-output">A dark menu where hovering an item slides a gradient bar down from the top and shifts the text right with a color change.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Trying to Transition display</h3>
+                <div class="wrong-code"><pre><code class="language-python">.modal {
+  display: none;
+  transition: display 0.3s;
+}
+.modal.open {
+  display: block;
+}
+/* The transition does nothing — element appears instantly */</code></pre></div><div class="error-message">display cannot be animated with CSS transitions. It is a discrete property with no intermediate values. The element appears and disappears instantly.</div><div class="correct-code"><pre><code class="language-python">.modal {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+.modal.open {
+  opacity: 1;
+  visibility: visible;
+}</code></pre></div><div class="mistake-explanation">Use <code>opacity</code> for the fade effect and <code>visibility</code> to remove the element from accessibility and pointer events after it fades out. Never try to animate display, font-family, or other discrete properties.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Applying Transitions to the :hover State Instead of the Base</h3>
+                <div class="wrong-code"><pre><code class="language-python">.button { background: #a855f7; }
+.button:hover {
+  background: #ec4899;
+  transition: background 0.3s;
+}
+/* Transition only works when hovering IN, not OUT */</code></pre></div><div class="error-message">The transition is defined on :hover. It applies when hovering in (going from default to hover), but not when hovering out (going back to default) — so the hover-in is smooth but the hover-out is instant.</div><div class="correct-code"><pre><code class="language-python">.button {
+  background: #a855f7;
+  transition: background 0.3s;  /* On the BASE state */
+}
+.button:hover {
+  background: #ec4899;
+}</code></pre></div><div class="mistake-explanation">Always put the <code>transition</code> property on the base (default) state, not inside :hover. That way it applies in both directions — hovering in AND hovering out.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Transitioning height: auto</h3>
+                <div class="wrong-code"><pre><code class="language-python">.panel {
+  height: 0;
+  transition: height 0.3s;
+}
+.panel.open {
+  height: auto;
+}
+/* The transition fails — auto cannot be animated */</code></pre></div><div class="error-message">The browser cannot animate to &lt;code&gt;auto&lt;/code&gt; because it does not know the target pixel value in advance. The panel just snaps open.</div><div class="correct-code"><pre><code class="language-python">.panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+.panel.open {
+  max-height: 500px;  /* Set a value larger than the expected content */
+}</code></pre></div><div class="mistake-explanation">Use <code>max-height</code> with a value larger than the actual content. Since max-height caps at the content height, setting it to 500px still shows exactly as much as needed, but CAN be animated from 0.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using transition: all When Not Needed</h3>
+                <div class="wrong-code"><pre><code class="language-python">.card {
+  transition: all 0.3s;
+}
+/* Every property animates — including unintended ones */</code></pre></div><div class="error-message">Using &lt;code&gt;all&lt;/code&gt; can create surprising animations when other properties change (for example, adding a class also animates its margin or padding). It is also slightly less performant.</div><div class="correct-code"><pre><code class="language-python">.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  /* Only the properties you actually want to animate */
+}</code></pre></div><div class="mistake-explanation">Be explicit about which properties transition. It is both more performant and more predictable. Use <code>all</code> only when you truly want to animate every property that might change.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>A CSS transition needs a base state, an end state, and a &lt;code&gt;transition&lt;/code&gt; rule on the BASE state that describes how to animate between them.</li>
+<li>The shorthand &lt;code&gt;transition: property duration timing-function delay&lt;/code&gt; combines all four properties into one declaration.</li>
+<li>Common timing functions: &lt;code&gt;ease&lt;/code&gt; (default), &lt;code&gt;linear&lt;/code&gt;, &lt;code&gt;ease-in&lt;/code&gt;, &lt;code&gt;ease-out&lt;/code&gt;, &lt;code&gt;ease-in-out&lt;/code&gt;, and custom &lt;code&gt;cubic-bezier()&lt;/code&gt;. Use &lt;code&gt;ease-out&lt;/code&gt; for elements entering and &lt;code&gt;ease-in-out&lt;/code&gt; for toggles.</li>
+<li>You can transition multiple properties by listing them separated by commas: &lt;code&gt;transition: background 0.3s, transform 0.5s, box-shadow 0.4s&lt;/code&gt;.</li>
+<li>The &lt;code&gt;:hover&lt;/code&gt; pseudo-class combined with transitions creates smooth hover effects for buttons, cards, images, and links — with zero JavaScript.</li>
+<li>Always add &lt;code&gt;cursor: pointer&lt;/code&gt; to clickable custom elements (cards, divs with onclick) so users know they can click them.</li>
+<li>Properties that CANNOT be transitioned: &lt;code&gt;display&lt;/code&gt;, &lt;code&gt;height: auto&lt;/code&gt;, &lt;code&gt;font-family&lt;/code&gt;, &lt;code&gt;content&lt;/code&gt;. For fade effects use &lt;code&gt;opacity&lt;/code&gt; and &lt;code&gt;visibility&lt;/code&gt; together.</li>
+<li>For expanding panels, use &lt;code&gt;max-height&lt;/code&gt; (not &lt;code&gt;height: auto&lt;/code&gt;) with a value larger than the expected content.</li>
+<li>Put the &lt;code&gt;transition&lt;/code&gt; on the BASE state, not inside &lt;code&gt;:hover&lt;/code&gt;, so the animation works both when entering AND leaving the hover state.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/css-animations-and-keyframes" class="related-topic-link">CSS Animations with Keyframes</a>
+<a href="/resources/html-and-css/transforms-2d-and-3d" class="related-topic-link">CSS Transforms (2D and 3D)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/responsive-design-and-media-queries" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Responsive Design and Media Queries</span>
+        </a>
+            <a href="/resources/html-and-css/css-animations-and-keyframes" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">CSS Animations with Keyframes</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/transitions-and-hover-effects/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

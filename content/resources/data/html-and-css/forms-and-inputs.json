@@ -1,0 +1,924 @@
+{
+  "title": "Forms, Inputs, and Form Validation",
+  "slug": "forms-and-inputs",
+  "language": "html",
+  "chapter": 7,
+  "difficulty": "Beginner",
+  "readingTime": "25 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "HTML Forms and Inputs - Complete Guide with All Input Types | Modern Age Coders",
+    "description": "Master HTML forms, all input types (text, email, password, date, file, radio, checkbox), labels, fieldset, and HTML5 validation. Includes 58 practice questions.",
+    "keywords": "html forms, html input types, html form validation, label accessibility, fieldset legend, html5 validation, required attribute, placeholder, input pattern, select option"
+  },
+  "content": {
+    "what": "<h2>What Are HTML Forms?</h2><p>Every time you sign up on a website, log in, send a message, search on Google, order food, or leave a comment — you are using an HTML form. A <strong>form</strong> is a group of input fields where users can type, select, click, and upload things. When they hit submit, the data is sent to a server for processing.</p><p>Forms are the way websites collect information from their users. Without forms, the web would be a one-way street — you could only read, never contribute.</p><h3>The Anatomy of a Form</h3><p>A form has three main parts:</p><ol><li><strong>The <code>&lt;form&gt;</code> tag</strong> — the container that wraps everything. It has an <code>action</code> (where to send the data) and a <code>method</code> (how to send it — <code>GET</code> or <code>POST</code>).</li><li><strong>Input fields</strong> — places for users to type or select things. <code>&lt;input&gt;</code>, <code>&lt;select&gt;</code>, <code>&lt;textarea&gt;</code>, and more.</li><li><strong>A submit button</strong> — the button that sends the data when clicked.</li></ol>",
+    "why": "<h2>Why Should You Learn HTML Forms?</h2><h3>1. Forms Are Everywhere</h3><p>Sign-up form, login form, search box, comment section, contact form, shopping checkout, survey, feedback form — every interactive website has forms. If you want to build real web apps, you must know forms.</p><h3>2. HTML Has Built-in Validation</h3><p>Modern HTML can check if an email looks valid, if a number is in a range, if a field is empty, if a password is long enough — all without writing a single line of JavaScript. This is called <strong>HTML5 validation</strong>, and it is one of the best features of modern HTML.</p><h3>3. Accessibility for Everyone</h3><p>Properly marked-up forms work for everyone — including users with disabilities. Screen readers read field labels aloud so blind users know what to type. Keyboard users can tab from field to field. Good forms = accessible websites.</p><h3>4. The Foundation for JavaScript</h3><p>When you learn JavaScript (in our JavaScript course), you will read form values, validate them with code, and send them to a server. But none of that works if the HTML form is wrong. Forms are the foundation.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>The &lt;form&gt; Tag</h3><p>The <code>&lt;form&gt;</code> tag wraps all your inputs. It has two important attributes:</p><ul><li><strong>action</strong> — the URL where the form data will be sent. Example: <code>action=\"/signup\"</code>.</li><li><strong>method</strong> — how to send it. <code>GET</code> adds the data to the URL (for searches). <code>POST</code> sends it hidden in the request body (for sensitive stuff like passwords).</li></ul><pre><code>&lt;form action=\"/signup\" method=\"POST\"&gt;\n  &lt;!-- inputs go here --&gt;\n&lt;/form&gt;</code></pre><h3>The &lt;input&gt; Tag and Its Types</h3><p>The most important form element is <code>&lt;input&gt;</code>. It is a self-closing tag that creates a single input field. What it looks like and what it accepts depends on the <code>type</code> attribute. Here are the most useful types:</p><ul><li><code>type=\"text\"</code> — a single-line text field. Default if no type is given.</li><li><code>type=\"email\"</code> — like text, but the browser checks for a valid email format (must have @ and a domain).</li><li><code>type=\"password\"</code> — hides the typed characters with dots or stars.</li><li><code>type=\"number\"</code> — only accepts numbers. Has up/down arrows. Use <code>min</code>, <code>max</code>, and <code>step</code>.</li><li><code>type=\"tel\"</code> — for phone numbers. On mobile, it opens the numeric keypad.</li><li><code>type=\"url\"</code> — for web addresses. Validates that it looks like a URL.</li><li><code>type=\"date\"</code> — a date picker. The browser shows a calendar.</li><li><code>type=\"time\"</code> — a time picker with hours and minutes.</li><li><code>type=\"color\"</code> — a color picker that opens a color palette.</li><li><code>type=\"range\"</code> — a slider. Use with <code>min</code>, <code>max</code>, and <code>step</code>.</li><li><code>type=\"file\"</code> — lets users upload a file from their computer.</li><li><code>type=\"hidden\"</code> — invisible field for storing extra data to send with the form.</li><li><code>type=\"submit\"</code> — the button that submits the form.</li><li><code>type=\"reset\"</code> — clears all fields. Rarely useful (users click it by mistake).</li><li><code>type=\"button\"</code> — a generic button (usually activated with JavaScript).</li><li><code>type=\"checkbox\"</code> — a box users tick. Lets you pick multiple options.</li><li><code>type=\"radio\"</code> — a round button. Users pick ONE option from a group.</li></ul><h3>&lt;label&gt; and Why Accessibility Matters</h3><p>Every input should have a <code>&lt;label&gt;</code>. A label is the piece of text that tells the user what the field is for — like \"Email\" or \"Password\". There are two ways to link a label to its input:</p><pre><code>&lt;!-- Method 1: for + id --&gt;\n&lt;label for=\"email\"&gt;Email:&lt;/label&gt;\n&lt;input type=\"email\" id=\"email\" name=\"email\"&gt;\n\n&lt;!-- Method 2: wrap the input --&gt;\n&lt;label&gt;\n  Email:\n  &lt;input type=\"email\" name=\"email\"&gt;\n&lt;/label&gt;</code></pre><p>The <code>for</code> attribute on <code>&lt;label&gt;</code> must match the <code>id</code> on the input. This connection gives you three benefits:</p><ul><li><strong>Clicking the label focuses the input.</strong> Great for mobile users with small fingers — easier to tap a label.</li><li><strong>Screen readers announce the label.</strong> When a blind user tabs to the field, the screen reader says \"Email, edit text\".</li><li><strong>Clearer meaning.</strong> The label makes the field's purpose obvious.</li></ul><p><strong>Never use a placeholder as a label.</strong> Placeholders disappear when the user starts typing, confusing users. Always use a real <code>&lt;label&gt;</code>.</p><h3>&lt;select&gt; and &lt;option&gt; (Dropdowns)</h3><p>For a dropdown menu where users pick one item from a list, use <code>&lt;select&gt;</code> with <code>&lt;option&gt;</code> tags inside:</p><pre><code>&lt;label for=\"country\"&gt;Country:&lt;/label&gt;\n&lt;select id=\"country\" name=\"country\"&gt;\n  &lt;option value=\"india\"&gt;India&lt;/option&gt;\n  &lt;option value=\"usa\"&gt;USA&lt;/option&gt;\n  &lt;option value=\"uk\"&gt;United Kingdom&lt;/option&gt;\n&lt;/select&gt;</code></pre><p>The <code>value</code> attribute is what gets sent to the server. The text between the tags is what the user sees. Add <code>selected</code> to one option to make it the default.</p><h3>&lt;textarea&gt; for Long Text</h3><p>For multi-line text input (like a comment or bio), use <code>&lt;textarea&gt;</code>. It takes <code>rows</code> and <code>cols</code> attributes, or you can size it with CSS.</p><pre><code>&lt;label for=\"bio\"&gt;Your Bio:&lt;/label&gt;\n&lt;textarea id=\"bio\" name=\"bio\" rows=\"4\" cols=\"30\"&gt;&lt;/textarea&gt;</code></pre><h3>&lt;fieldset&gt; and &lt;legend&gt; for Grouping</h3><p>For large forms, group related fields together using <code>&lt;fieldset&gt;</code>. Add a <code>&lt;legend&gt;</code> to give the group a title. Browsers automatically draw a border around fieldsets.</p><pre><code>&lt;fieldset&gt;\n  &lt;legend&gt;Contact Info&lt;/legend&gt;\n  &lt;label&gt;Email: &lt;input type=\"email\"&gt;&lt;/label&gt;\n  &lt;label&gt;Phone: &lt;input type=\"tel\"&gt;&lt;/label&gt;\n&lt;/fieldset&gt;</code></pre><h3>HTML5 Validation Attributes</h3><p>These attributes make the browser validate the form before submitting. No JavaScript needed.</p><ul><li><strong>required</strong> — field cannot be empty. <code>&lt;input required&gt;</code></li><li><strong>placeholder</strong> — grey hint text inside the field. Disappears when the user types.</li><li><strong>min / max</strong> — for numbers and dates. <code>min=\"0\" max=\"100\"</code></li><li><strong>minlength / maxlength</strong> — minimum and maximum characters. <code>minlength=\"8\"</code></li><li><strong>pattern</strong> — a regex the value must match. <code>pattern=\"[0-9]{10}\"</code> for a 10-digit number.</li><li><strong>readonly</strong> — the user cannot change the value, but the form still sends it.</li><li><strong>disabled</strong> — the user cannot change it, AND the form does NOT send it.</li></ul><h3>name vs id</h3><p>This confuses beginners. Both are attributes on input fields, but they do different things:</p><ul><li><code>name</code> — used when the form is <em>submitted</em>. The server sees the data as <code>name=value</code>. Without <code>name</code>, the data does not get sent.</li><li><code>id</code> — used for labels (the <code>for</code> attribute), CSS styling, and JavaScript. It has nothing to do with submitting.</li></ul><p>Most fields need both: <code>name</code> for the server, <code>id</code> for the label.</p><h3>The autocomplete Attribute</h3><p>Modern browsers can remember what users typed before. The <code>autocomplete</code> attribute controls this. Common values: <code>on</code>, <code>off</code>, <code>name</code>, <code>email</code>, <code>tel</code>, <code>current-password</code>, <code>new-password</code>. For passwords, use <code>current-password</code> on login forms and <code>new-password</code> on sign-up forms.</p>",
+    "codeExamples": [
+      {
+        "title": "A Simple Contact Form",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Contact Us</title>\n  <style>\n    body { font-family: Arial; padding: 30px; }\n    label { display: block; margin-top: 10px; font-weight: bold; }\n    input, textarea { padding: 8px; width: 300px; margin-top: 5px; }\n    button { padding: 10px 20px; margin-top: 15px; background: #4a90e2; color: white; border: none; cursor: pointer; }\n  </style>\n</head>\n<body>\n  <h1>Contact Modern Age Coders</h1>\n  <form action=\"/submit\" method=\"POST\">\n    <label for=\"name\">Your Name:</label>\n    <input type=\"text\" id=\"name\" name=\"name\" required>\n\n    <label for=\"email\">Your Email:</label>\n    <input type=\"email\" id=\"email\" name=\"email\" required>\n\n    <label for=\"message\">Your Message:</label>\n    <textarea id=\"message\" name=\"message\" rows=\"5\" required></textarea>\n\n    <button type=\"submit\">Send Message</button>\n  </form>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A basic contact form with three fields: name, email, and a message area. Each field has a proper <code>&lt;label&gt;</code> linked by <code>for</code>/<code>id</code>. The <code>required</code> attribute stops the form from submitting if any field is empty. The <code>type=\"email\"</code> makes the browser check that the email has an @ sign. Save as <code>contact.html</code> and open it — try clicking Send with empty fields to see the validation in action.",
+        "output": "A styled form with Name, Email, and Message fields. Trying to submit empty shows browser error messages."
+      },
+      {
+        "title": "A Complete Registration Form with All Input Types",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Sign Up</title>\n  <style>\n    body { font-family: Arial; padding: 20px; max-width: 500px; margin: auto; }\n    fieldset { margin-bottom: 15px; border: 1px solid #ccc; padding: 15px; }\n    legend { font-weight: bold; padding: 0 8px; }\n    label { display: block; margin-top: 8px; }\n    input, select, textarea { padding: 6px; width: 100%; box-sizing: border-box; margin-top: 4px; }\n    .inline { display: inline; width: auto; margin-right: 5px; }\n    button { padding: 10px 20px; background: #22c55e; color: white; border: none; cursor: pointer; margin-top: 10px; }\n  </style>\n</head>\n<body>\n  <h1>Create Your Account</h1>\n  <form action=\"/signup\" method=\"POST\">\n    <fieldset>\n      <legend>Personal Info</legend>\n      <label for=\"fullname\">Full Name:</label>\n      <input type=\"text\" id=\"fullname\" name=\"fullname\" required minlength=\"3\" placeholder=\"Aarav Sharma\">\n\n      <label for=\"email\">Email:</label>\n      <input type=\"email\" id=\"email\" name=\"email\" required placeholder=\"you@example.com\" autocomplete=\"email\">\n\n      <label for=\"password\">Password:</label>\n      <input type=\"password\" id=\"password\" name=\"password\" required minlength=\"8\" autocomplete=\"new-password\">\n\n      <label for=\"age\">Age:</label>\n      <input type=\"number\" id=\"age\" name=\"age\" min=\"10\" max=\"100\" required>\n    </fieldset>\n\n    <fieldset>\n      <legend>Gender</legend>\n      <label><input type=\"radio\" name=\"gender\" value=\"male\" class=\"inline\" required> Male</label>\n      <label><input type=\"radio\" name=\"gender\" value=\"female\" class=\"inline\"> Female</label>\n      <label><input type=\"radio\" name=\"gender\" value=\"other\" class=\"inline\"> Other</label>\n    </fieldset>\n\n    <fieldset>\n      <legend>Interests</legend>\n      <label><input type=\"checkbox\" name=\"interests\" value=\"coding\" class=\"inline\"> Coding</label>\n      <label><input type=\"checkbox\" name=\"interests\" value=\"maths\" class=\"inline\"> Maths</label>\n      <label><input type=\"checkbox\" name=\"interests\" value=\"art\" class=\"inline\"> Art</label>\n      <label><input type=\"checkbox\" name=\"interests\" value=\"music\" class=\"inline\"> Music</label>\n    </fieldset>\n\n    <label for=\"country\">Country:</label>\n    <select id=\"country\" name=\"country\" required>\n      <option value=\"\">-- Select --</option>\n      <option value=\"in\">India</option>\n      <option value=\"us\">USA</option>\n      <option value=\"uk\">United Kingdom</option>\n    </select>\n\n    <label for=\"bio\">Short Bio:</label>\n    <textarea id=\"bio\" name=\"bio\" rows=\"4\" maxlength=\"200\" placeholder=\"Tell us about yourself...\"></textarea>\n\n    <button type=\"submit\">Sign Up</button>\n  </form>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This is a complete, real-world registration form using almost every important input type. Fields are grouped with <code>&lt;fieldset&gt;</code> and <code>&lt;legend&gt;</code>. Text, email, password, and number inputs all have validation. Radio buttons let the user pick ONE gender (notice they share the same <code>name</code>). Checkboxes let the user pick multiple interests. The select is a dropdown for country, and textarea is for the bio. Save as <code>signup.html</code> and try it.",
+        "output": "A full sign-up form with grouped sections: Personal Info, Gender, Interests, Country, and Bio. Browser validates each field on submit."
+      },
+      {
+        "title": "Password Field with minlength and pattern",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Secure Password</title>\n</head>\n<body>\n  <h2>Create a Strong Password</h2>\n  <form>\n    <label for=\"pwd\">Password (at least 8 chars, must contain a digit):</label><br>\n    <input type=\"password\" id=\"pwd\" name=\"pwd\"\n           minlength=\"8\"\n           pattern=\"(?=.*[0-9]).{8,}\"\n           title=\"At least 8 characters and one number\"\n           required>\n    <br><br>\n    <button type=\"submit\">Submit</button>\n  </form>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The <code>pattern</code> attribute uses a regular expression to enforce custom rules. <code>(?=.*[0-9]).{8,}</code> means: must contain at least one digit AND must be 8 or more characters. The <code>title</code> attribute gives an error message to show if validation fails. Save as <code>password.html</code> and try typing only letters — the browser will block submit.",
+        "output": "A password field. If you type only letters, the browser shows the 'At least 8 characters and one number' hint when you try to submit."
+      },
+      {
+        "title": "Number, Range, and Color Inputs",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Modern Input Types</title>\n  <style>\n    body { font-family: Arial; padding: 30px; }\n    label { display: block; margin-top: 15px; font-weight: bold; }\n    input { padding: 6px; font-size: 16px; }\n  </style>\n</head>\n<body>\n  <h1>Cool HTML5 Inputs</h1>\n  <form>\n    <label for=\"age\">Age (10 to 80):</label>\n    <input type=\"number\" id=\"age\" name=\"age\" min=\"10\" max=\"80\" step=\"1\" value=\"15\">\n\n    <label for=\"volume\">Volume (0 to 100):</label>\n    <input type=\"range\" id=\"volume\" name=\"volume\" min=\"0\" max=\"100\" value=\"50\">\n\n    <label for=\"color\">Favourite Colour:</label>\n    <input type=\"color\" id=\"color\" name=\"color\" value=\"#ff5722\">\n\n    <label for=\"birth\">Date of Birth:</label>\n    <input type=\"date\" id=\"birth\" name=\"birth\">\n\n    <label for=\"alarm\">Alarm Time:</label>\n    <input type=\"time\" id=\"alarm\" name=\"alarm\">\n\n    <br><br>\n    <button type=\"submit\">Submit</button>\n  </form>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "HTML5 gave us specialized input types that work beautifully in modern browsers. <code>type=\"number\"</code> shows spinner arrows and validates numbers. <code>type=\"range\"</code> is a slider. <code>type=\"color\"</code> opens a full color picker. <code>type=\"date\"</code> opens a calendar. <code>type=\"time\"</code> opens a time picker. On mobile phones, these trigger specialized keyboards (number pad, date wheel, etc.) making the experience even better.",
+        "output": "A form with a number spinner, a slider, a color picker, a calendar date field, and a time field."
+      },
+      {
+        "title": "Radio Buttons vs Checkboxes",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Radio vs Checkbox</title>\n  <style>\n    body { font-family: Arial; padding: 30px; }\n    fieldset { margin-bottom: 15px; }\n    legend { font-weight: bold; }\n  </style>\n</head>\n<body>\n  <form>\n    <fieldset>\n      <legend>Pick your favourite fruit (only one)</legend>\n      <label><input type=\"radio\" name=\"fruit\" value=\"mango\"> Mango</label><br>\n      <label><input type=\"radio\" name=\"fruit\" value=\"apple\"> Apple</label><br>\n      <label><input type=\"radio\" name=\"fruit\" value=\"banana\"> Banana</label>\n    </fieldset>\n\n    <fieldset>\n      <legend>Which snacks do you like? (pick many)</legend>\n      <label><input type=\"checkbox\" name=\"snacks\" value=\"chips\"> Chips</label><br>\n      <label><input type=\"checkbox\" name=\"snacks\" value=\"cookies\"> Cookies</label><br>\n      <label><input type=\"checkbox\" name=\"snacks\" value=\"chocolate\"> Chocolate</label><br>\n      <label><input type=\"checkbox\" name=\"snacks\" value=\"popcorn\"> Popcorn</label>\n    </fieldset>\n\n    <button type=\"submit\">Submit</button>\n  </form>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Radio buttons in a group share the same <code>name</code>. The browser automatically enforces that only ONE can be selected at a time. Checkboxes, on the other hand, can all be selected at once — each represents an independent yes/no choice. Rule of thumb: use radio for \"pick one\", checkbox for \"pick any\".",
+        "output": "Two groups of options. The fruit radios let you pick only one. The snack checkboxes let you pick as many as you want."
+      },
+      {
+        "title": "File Upload with Hidden Field",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Upload Photo</title>\n</head>\n<body>\n  <h2>Upload a Profile Photo</h2>\n  <form action=\"/upload\" method=\"POST\" enctype=\"multipart/form-data\">\n    <label for=\"photo\">Choose a photo:</label><br>\n    <input type=\"file\" id=\"photo\" name=\"photo\" accept=\"image/*\" required>\n\n    <!-- Hidden field for the user ID -->\n    <input type=\"hidden\" name=\"userId\" value=\"12345\">\n\n    <br><br>\n    <button type=\"submit\">Upload</button>\n  </form>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "File uploads need <code>type=\"file\"</code>. The <code>accept</code> attribute restricts what kinds of files show up — <code>image/*</code> means any image, <code>.pdf</code> means only PDFs, etc. The form must have <code>enctype=\"multipart/form-data\"</code> for file uploads to work. Hidden fields (<code>type=\"hidden\"</code>) are invisible but still sent with the form — useful for passing data like user IDs or form versions.",
+        "output": "A form with a 'Choose file' button that opens the file picker. The hidden userId is sent along with the form but not shown to the user."
+      },
+      {
+        "title": "Login Form with Labels and Autocomplete",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Login</title>\n  <style>\n    body { font-family: Arial; padding: 40px; background: #f5f5f5; }\n    .box { background: white; padding: 30px; max-width: 350px; margin: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }\n    h1 { text-align: center; }\n    label { display: block; margin-top: 15px; font-weight: bold; }\n    input { padding: 10px; width: 100%; box-sizing: border-box; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px; }\n    button { width: 100%; padding: 12px; margin-top: 20px; background: #4a90e2; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }\n  </style>\n</head>\n<body>\n  <div class=\"box\">\n    <h1>Log In</h1>\n    <form action=\"/login\" method=\"POST\">\n      <label for=\"email\">Email:</label>\n      <input type=\"email\" id=\"email\" name=\"email\" required autocomplete=\"email\">\n\n      <label for=\"password\">Password:</label>\n      <input type=\"password\" id=\"password\" name=\"password\" required autocomplete=\"current-password\">\n\n      <label><input type=\"checkbox\" name=\"remember\"> Remember me</label>\n\n      <button type=\"submit\">Log In</button>\n    </form>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A simple but complete login form. The email field has <code>autocomplete=\"email\"</code> so the browser can suggest previously entered emails. The password has <code>autocomplete=\"current-password\"</code>, which tells password managers to fill in the existing password (for signup, you would use <code>new-password</code> instead). The Remember me is a checkbox. Everything has proper labels.",
+        "output": "A clean centered login box with Email, Password, Remember me checkbox, and a Log In button."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting the name Attribute",
+        "wrongCode": "<form action=\"/submit\" method=\"POST\">\n  <input type=\"text\" id=\"username\">\n  <button type=\"submit\">Submit</button>\n</form>",
+        "error": "No error, but the server receives NO data for the username field.",
+        "correctCode": "<form action=\"/submit\" method=\"POST\">\n  <input type=\"text\" id=\"username\" name=\"username\">\n  <button type=\"submit\">Submit</button>\n</form>",
+        "explanation": "When a form is submitted, only fields with a <code>name</code> attribute are sent to the server. Without <code>name</code>, the value is simply ignored. The <code>id</code> is for labels, CSS, and JavaScript — it does not count for form submission. Always add <code>name</code> to every field you want to submit."
+      },
+      {
+        "title": "Using Placeholder Instead of Label",
+        "wrongCode": "<input type=\"text\" placeholder=\"Enter your name\">",
+        "error": "No HTML error, but bad for accessibility. The hint disappears when the user starts typing.",
+        "correctCode": "<label for=\"name\">Your Name:</label>\n<input type=\"text\" id=\"name\" name=\"name\" placeholder=\"e.g. Aarav\">",
+        "explanation": "Placeholders are hints, not labels. They vanish the moment the user types something, so the user can forget what the field is for. Screen readers often skip placeholders. Always use a real <code>&lt;label&gt;</code>, and use the placeholder only for extra hints like examples."
+      },
+      {
+        "title": "Different Name on Radio Buttons in the Same Group",
+        "wrongCode": "<input type=\"radio\" name=\"gender1\" value=\"male\"> Male\n<input type=\"radio\" name=\"gender2\" value=\"female\"> Female\n<input type=\"radio\" name=\"gender3\" value=\"other\"> Other",
+        "error": "No error, but all three radios are selectable at once — they are not grouped.",
+        "correctCode": "<input type=\"radio\" name=\"gender\" value=\"male\"> Male\n<input type=\"radio\" name=\"gender\" value=\"female\"> Female\n<input type=\"radio\" name=\"gender\" value=\"other\"> Other",
+        "explanation": "Radio buttons form a group based on their <code>name</code>. Only radios with the same name are mutually exclusive. If every radio has a different name, they all act independently — which defeats the purpose of radio buttons. Always give all radios in a group the same name."
+      },
+      {
+        "title": "Missing for/id Connection on Label",
+        "wrongCode": "<label>Email:</label>\n<input type=\"email\" id=\"email\" name=\"email\">",
+        "error": "The label is not linked to the input. Clicking the label does NOT focus the input.",
+        "correctCode": "<label for=\"email\">Email:</label>\n<input type=\"email\" id=\"email\" name=\"email\">",
+        "explanation": "Without <code>for=\"email\"</code>, the label is just text floating near the input. The accessibility benefits are lost. Either use <code>for</code> + <code>id</code>, OR wrap the input inside the label. Both work."
+      },
+      {
+        "title": "Using disabled When You Meant readonly",
+        "wrongCode": "<input type=\"text\" name=\"email\" value=\"aarav@example.com\" disabled>",
+        "error": "No error, but the email is NOT sent when the form submits.",
+        "correctCode": "<input type=\"text\" name=\"email\" value=\"aarav@example.com\" readonly>",
+        "explanation": "<code>disabled</code> prevents the user from editing AND excludes the field from the submission. <code>readonly</code> prevents editing but still submits the value. If you want the server to receive the current value (like a pre-filled email that the user cannot change), use <code>readonly</code>."
+      }
+    ],
+    "summary": [
+      "HTML forms are how websites collect information from users. Every form is wrapped in a <form> tag with action (where to send) and method (GET or POST).",
+      "The <input> tag is the most used form element. Its type attribute decides what kind of field it is: text, email, password, number, date, color, file, checkbox, radio, and more.",
+      "Every input should have a <label> linked by for and id, OR the input should be wrapped inside the label. This helps screen readers and lets users click the label to focus the input.",
+      "name is required for form submission — the server uses it as the key. id is used by labels, CSS, and JavaScript. You usually need both.",
+      "Radio buttons in the same group must share the same name so only one can be selected. Checkboxes can be selected independently.",
+      "<select> with <option> tags creates a dropdown. <textarea> creates a multi-line text box. <fieldset> with <legend> groups related fields together.",
+      "HTML5 validation attributes work without any JavaScript: required, min, max, minlength, maxlength, pattern, placeholder, readonly, disabled.",
+      "Never use placeholder as a replacement for label. Placeholders disappear when users type, confusing users and breaking accessibility.",
+      "autocomplete helps browsers suggest previously entered values. Use current-password on login forms and new-password on sign-up forms for password managers.",
+      "type=\"file\" lets users upload files. Use the accept attribute to restrict file types. The form must have enctype=\"multipart/form-data\" for file uploads."
+    ]
+  },
+  "relatedTopics": ["semantic-html", "introduction-to-css"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this HTML display?<br><pre><code>&lt;input type=\"text\" placeholder=\"Enter name\"&gt;</code></pre>",
+        "hint": "A single-line box with grey hint text.",
+        "answer": "A single-line text input field with 'Enter name' shown in grey until the user types.",
+        "explanation": "The default <code>type=\"text\"</code> creates a single-line text field. The <code>placeholder</code> shows grey hint text that disappears once the user starts typing."
+      },
+      {
+        "id": "ts-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Create a form with a single email input and a submit button.",
+        "hint": "Use form, input type=email, and button type=submit.",
+        "answer": "<pre><code>&lt;form&gt;\n  &lt;label for=\"email\"&gt;Email:&lt;/label&gt;\n  &lt;input type=\"email\" id=\"email\" name=\"email\"&gt;\n  &lt;button type=\"submit\"&gt;Submit&lt;/button&gt;\n&lt;/form&gt;</code></pre>",
+        "explanation": "Every form needs the form tag as the wrapper, at least one input, and a submit button. The email type makes the browser validate the format automatically."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which attribute makes an input field mandatory?",
+        "hint": "Users cannot leave it empty.",
+        "answer": "<code>required</code>",
+        "explanation": "The <code>required</code> attribute stops the form from being submitted if the field is empty. The browser shows a default error message."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What input type should you use for a password field?",
+        "hint": "It hides what the user types.",
+        "answer": "<code>type=\"password\"</code>",
+        "explanation": "<code>type=\"password\"</code> masks the characters as dots or asterisks, hiding what the user types from people looking at the screen."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <input type=\"checkbox\"> create?",
+        "hint": "A box that can be ticked on or off.",
+        "answer": "A checkbox — a square box users can tick. Lets them pick multiple options.",
+        "explanation": "Checkboxes are for independent yes/no choices. Users can tick any number of them. Use <code>radio</code> when only one option should be picked."
+      },
+      {
+        "id": "ts-6",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Create a dropdown (select) where users can pick their favourite sport: Cricket, Football, or Hockey.",
+        "hint": "Use select with option tags inside.",
+        "answer": "<pre><code>&lt;label for=\"sport\"&gt;Sport:&lt;/label&gt;\n&lt;select id=\"sport\" name=\"sport\"&gt;\n  &lt;option value=\"cricket\"&gt;Cricket&lt;/option&gt;\n  &lt;option value=\"football\"&gt;Football&lt;/option&gt;\n  &lt;option value=\"hockey\"&gt;Hockey&lt;/option&gt;\n&lt;/select&gt;</code></pre>",
+        "explanation": "Each <code>&lt;option&gt;</code> has a value (what is sent to the server) and display text (what the user sees). Both can be the same or different."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What element should you use for multi-line text input like a comment?",
+        "hint": "It is not input.",
+        "answer": "<code>&lt;textarea&gt;</code>",
+        "explanation": "<code>&lt;textarea&gt;</code> creates a multi-line text box. It has rows and cols attributes to control the default size."
+      },
+      {
+        "id": "ts-8",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Aarav's form is sending nothing to the server. Find the bug:<br><pre><code>&lt;form action=\"/submit\" method=\"POST\"&gt;\n  &lt;input type=\"text\" id=\"username\"&gt;\n  &lt;button type=\"submit\"&gt;Go&lt;/button&gt;\n&lt;/form&gt;</code></pre>",
+        "hint": "The server needs a key to identify the data.",
+        "answer": "Missing <code>name</code> attribute. Add <code>name=\"username\"</code> to the input.",
+        "explanation": "Only fields with a <code>name</code> attribute are submitted. <code>id</code> is for labels and scripts, not for form submission."
+      },
+      {
+        "id": "ts-9",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Create 3 radio buttons for gender: Male, Female, Other. They should be grouped so only one can be selected.",
+        "hint": "Give them all the same name.",
+        "answer": "<pre><code>&lt;label&gt;&lt;input type=\"radio\" name=\"gender\" value=\"male\"&gt; Male&lt;/label&gt;\n&lt;label&gt;&lt;input type=\"radio\" name=\"gender\" value=\"female\"&gt; Female&lt;/label&gt;\n&lt;label&gt;&lt;input type=\"radio\" name=\"gender\" value=\"other\"&gt; Other&lt;/label&gt;</code></pre>",
+        "explanation": "All three radios share <code>name=\"gender\"</code>, so the browser treats them as a group. Only one can be selected at a time."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <label for=\"email\"> do?",
+        "hint": "It connects the label to an input.",
+        "answer": "Links the label to the input with id=\"email\". Clicking the label focuses that input.",
+        "explanation": "The <code>for</code> attribute must match the input's <code>id</code>. This connection helps screen readers, improves mobile usability, and makes forms more accessible."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Create a number input that only accepts ages between 5 and 100.",
+        "hint": "Use type=number with min and max.",
+        "answer": "<pre><code>&lt;label for=\"age\"&gt;Age:&lt;/label&gt;\n&lt;input type=\"number\" id=\"age\" name=\"age\" min=\"5\" max=\"100\"&gt;</code></pre>",
+        "explanation": "<code>type=\"number\"</code> makes it a number-only field with up/down arrows. <code>min</code> and <code>max</code> limit the allowed range."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What input type should you use for a date of birth field?",
+        "hint": "It opens a calendar.",
+        "answer": "<code>type=\"date\"</code>",
+        "explanation": "<code>type=\"date\"</code> shows a calendar picker in modern browsers. On mobile, it opens a date wheel."
+      },
+      {
+        "id": "ts-13",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Priya's radio buttons all allow multiple selections. Fix:<br><pre><code>&lt;input type=\"radio\" name=\"pet1\" value=\"dog\"&gt; Dog\n&lt;input type=\"radio\" name=\"pet2\" value=\"cat\"&gt; Cat\n&lt;input type=\"radio\" name=\"pet3\" value=\"bird\"&gt; Bird</code></pre>",
+        "hint": "Radio buttons need the same name to group.",
+        "answer": "<pre><code>&lt;input type=\"radio\" name=\"pet\" value=\"dog\"&gt; Dog\n&lt;input type=\"radio\" name=\"pet\" value=\"cat\"&gt; Cat\n&lt;input type=\"radio\" name=\"pet\" value=\"bird\"&gt; Bird</code></pre>",
+        "explanation": "Radio buttons are grouped by their <code>name</code>. All three must share the same name (like 'pet') for the browser to enforce single-selection behaviour."
+      },
+      {
+        "id": "ts-14",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Create a textarea with 5 rows, 40 columns, maximum 200 characters, and a placeholder 'Tell us about yourself'.",
+        "hint": "Use rows, cols, maxlength, and placeholder attributes.",
+        "answer": "<pre><code>&lt;textarea rows=\"5\" cols=\"40\" maxlength=\"200\" placeholder=\"Tell us about yourself\"&gt;&lt;/textarea&gt;</code></pre>",
+        "explanation": "<code>textarea</code> is a multi-line text field. <code>maxlength</code> stops the user from typing more than 200 characters."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the difference between readonly and disabled?",
+        "hint": "Both prevent editing, but only one submits the value.",
+        "answer": "<code>readonly</code> prevents editing but the value IS submitted. <code>disabled</code> prevents editing AND the value is NOT submitted.",
+        "explanation": "Use <code>readonly</code> when you want the server to receive the current value. Use <code>disabled</code> when you want to completely exclude the field from the form."
+      },
+      {
+        "id": "ts-16",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Create a fieldset with the legend 'Contact Info' containing email and phone inputs.",
+        "hint": "Use fieldset, legend, and two inputs.",
+        "answer": "<pre><code>&lt;fieldset&gt;\n  &lt;legend&gt;Contact Info&lt;/legend&gt;\n  &lt;label&gt;Email: &lt;input type=\"email\" name=\"email\"&gt;&lt;/label&gt;&lt;br&gt;\n  &lt;label&gt;Phone: &lt;input type=\"tel\" name=\"phone\"&gt;&lt;/label&gt;\n&lt;/fieldset&gt;</code></pre>",
+        "explanation": "<code>&lt;fieldset&gt;</code> visually groups related fields with a border. <code>&lt;legend&gt;</code> gives the group a title that sits on the border."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the difference between name and id on an input field?",
+        "hint": "One is for the server, one is for labels and CSS.",
+        "answer": "<code>name</code> is used when submitting the form (the server sees it as the key). <code>id</code> is for labels, CSS, and JavaScript. Most fields need both.",
+        "explanation": "Without <code>name</code>, data is not submitted. Without <code>id</code>, labels cannot link to the field. They are different attributes with different jobs."
+      },
+      {
+        "id": "ts-18",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Create a checkbox list for hobbies (Reading, Gaming, Sports, Music). Each should send the value on submit.",
+        "hint": "Each checkbox needs a name and value. You can give them the same name.",
+        "answer": "<pre><code>&lt;fieldset&gt;\n  &lt;legend&gt;Hobbies&lt;/legend&gt;\n  &lt;label&gt;&lt;input type=\"checkbox\" name=\"hobby\" value=\"reading\"&gt; Reading&lt;/label&gt;&lt;br&gt;\n  &lt;label&gt;&lt;input type=\"checkbox\" name=\"hobby\" value=\"gaming\"&gt; Gaming&lt;/label&gt;&lt;br&gt;\n  &lt;label&gt;&lt;input type=\"checkbox\" name=\"hobby\" value=\"sports\"&gt; Sports&lt;/label&gt;&lt;br&gt;\n  &lt;label&gt;&lt;input type=\"checkbox\" name=\"hobby\" value=\"music\"&gt; Music&lt;/label&gt;\n&lt;/fieldset&gt;</code></pre>",
+        "explanation": "Giving checkboxes the same name groups them on the server side. The server receives a list of all checked values."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does pattern=\"[0-9]{10}\" mean on an input?",
+        "hint": "It is a regex requiring exactly 10 digits.",
+        "answer": "The input must contain exactly 10 digits (0-9). Useful for Indian phone numbers.",
+        "explanation": "<code>[0-9]</code> matches any digit, and <code>{10}</code> means exactly 10 of them. The form won't submit unless the input matches this pattern."
+      },
+      {
+        "id": "ts-20",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Create a complete form with a phone input requiring exactly 10 digits using pattern.",
+        "hint": "Use type=tel and pattern=\"[0-9]{10}\".",
+        "answer": "<pre><code>&lt;form&gt;\n  &lt;label for=\"phone\"&gt;Phone:&lt;/label&gt;\n  &lt;input type=\"tel\" id=\"phone\" name=\"phone\" pattern=\"[0-9]{10}\" required title=\"10 digits only\"&gt;\n  &lt;button type=\"submit\"&gt;Submit&lt;/button&gt;\n&lt;/form&gt;</code></pre>",
+        "explanation": "<code>type=\"tel\"</code> opens the numeric keyboard on mobile. The pattern enforces 10 digits. The <code>title</code> is the error message."
+      },
+      {
+        "id": "ts-21",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Rohan's password field looks broken — users see their passwords. Fix:<br><pre><code>&lt;input type=\"text\" name=\"password\"&gt;</code></pre>",
+        "hint": "Change the type.",
+        "answer": "<pre><code>&lt;input type=\"password\" name=\"password\"&gt;</code></pre>",
+        "explanation": "Password fields must use <code>type=\"password\"</code>, not <code>type=\"text\"</code>. This hides the characters as dots."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What type of input should you use for uploading an image?",
+        "hint": "It opens a file picker.",
+        "answer": "<code>type=\"file\"</code> with <code>accept=\"image/*\"</code>",
+        "explanation": "<code>type=\"file\"</code> creates a file upload button. The <code>accept</code> attribute filters what files can be chosen — <code>image/*</code> limits to image files."
+      },
+      {
+        "id": "ts-23",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Create a slider (range) input from 0 to 100 with default value 50 for volume.",
+        "hint": "Use type=range.",
+        "answer": "<pre><code>&lt;label for=\"vol\"&gt;Volume:&lt;/label&gt;\n&lt;input type=\"range\" id=\"vol\" name=\"volume\" min=\"0\" max=\"100\" value=\"50\"&gt;</code></pre>",
+        "explanation": "<code>type=\"range\"</code> creates a slider. The <code>value</code> sets the starting position."
+      },
+      {
+        "id": "ts-24",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Why should you avoid using placeholder as the only label for an input?",
+        "hint": "It disappears when users type.",
+        "answer": "Placeholders disappear when the user types, leaving them without context. Screen readers often skip them. Always use a real label.",
+        "explanation": "Accessibility experts agree: placeholders are for hints, not labels. Use <code>&lt;label&gt;</code> for the main field description, and optionally use placeholder for examples."
+      },
+      {
+        "id": "ts-25",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Build a complete registration form with name, email, password (min 8 chars), age (10-80), gender (radio), interests (checkboxes: Sports, Music, Art), country (select), and bio (textarea). Include proper labels for everything.",
+        "hint": "Use all the concepts from the chapter.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;body&gt;\n&lt;form action=\"/signup\" method=\"POST\"&gt;\n  &lt;label for=\"name\"&gt;Name:&lt;/label&gt;\n  &lt;input type=\"text\" id=\"name\" name=\"name\" required&gt;&lt;br&gt;\n\n  &lt;label for=\"email\"&gt;Email:&lt;/label&gt;\n  &lt;input type=\"email\" id=\"email\" name=\"email\" required&gt;&lt;br&gt;\n\n  &lt;label for=\"pwd\"&gt;Password:&lt;/label&gt;\n  &lt;input type=\"password\" id=\"pwd\" name=\"pwd\" minlength=\"8\" required&gt;&lt;br&gt;\n\n  &lt;label for=\"age\"&gt;Age:&lt;/label&gt;\n  &lt;input type=\"number\" id=\"age\" name=\"age\" min=\"10\" max=\"80\" required&gt;&lt;br&gt;\n\n  &lt;fieldset&gt;&lt;legend&gt;Gender&lt;/legend&gt;\n    &lt;label&gt;&lt;input type=\"radio\" name=\"gender\" value=\"m\"&gt; Male&lt;/label&gt;\n    &lt;label&gt;&lt;input type=\"radio\" name=\"gender\" value=\"f\"&gt; Female&lt;/label&gt;\n    &lt;label&gt;&lt;input type=\"radio\" name=\"gender\" value=\"o\"&gt; Other&lt;/label&gt;\n  &lt;/fieldset&gt;\n\n  &lt;fieldset&gt;&lt;legend&gt;Interests&lt;/legend&gt;\n    &lt;label&gt;&lt;input type=\"checkbox\" name=\"int\" value=\"sports\"&gt; Sports&lt;/label&gt;\n    &lt;label&gt;&lt;input type=\"checkbox\" name=\"int\" value=\"music\"&gt; Music&lt;/label&gt;\n    &lt;label&gt;&lt;input type=\"checkbox\" name=\"int\" value=\"art\"&gt; Art&lt;/label&gt;\n  &lt;/fieldset&gt;\n\n  &lt;label for=\"country\"&gt;Country:&lt;/label&gt;\n  &lt;select id=\"country\" name=\"country\"&gt;\n    &lt;option value=\"in\"&gt;India&lt;/option&gt;\n    &lt;option value=\"us\"&gt;USA&lt;/option&gt;\n  &lt;/select&gt;&lt;br&gt;\n\n  &lt;label for=\"bio\"&gt;Bio:&lt;/label&gt;\n  &lt;textarea id=\"bio\" name=\"bio\" rows=\"4\"&gt;&lt;/textarea&gt;&lt;br&gt;\n\n  &lt;button type=\"submit\"&gt;Register&lt;/button&gt;\n&lt;/form&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "Full form using text, email, password, number, radio, checkbox, select, and textarea. Fieldsets group radios and checkboxes. Every field has a label and a name. This is a real-world registration form."
+      },
+      {
+        "id": "ts-26",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Why does <input type=\"text\" disabled value=\"hello\"> not submit 'hello' to the server?",
+        "hint": "What does disabled do exactly?",
+        "answer": "The <code>disabled</code> attribute excludes the field from form submission entirely. To still submit it while preventing edits, use <code>readonly</code> instead.",
+        "explanation": "Disabled = invisible to the server. Readonly = visible to the server but locked for the user. This is a common source of bugs."
+      },
+      {
+        "id": "ts-27",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Create a search form that uses the GET method and sends a query parameter named 'q'.",
+        "hint": "Use method=\"GET\" and input name=\"q\".",
+        "answer": "<pre><code>&lt;form action=\"/search\" method=\"GET\"&gt;\n  &lt;label for=\"q\"&gt;Search:&lt;/label&gt;\n  &lt;input type=\"search\" id=\"q\" name=\"q\" placeholder=\"Search...\" required&gt;\n  &lt;button type=\"submit\"&gt;Go&lt;/button&gt;\n&lt;/form&gt;</code></pre>",
+        "explanation": "GET forms put the data in the URL like <code>/search?q=hello</code>. This is how Google, YouTube, and most search boxes work."
+      },
+      {
+        "id": "ts-28",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "Ananya's form has a file upload that never sends the file. Fix:<br><pre><code>&lt;form action=\"/upload\" method=\"POST\"&gt;\n  &lt;input type=\"file\" name=\"pic\"&gt;\n  &lt;button type=\"submit\"&gt;Upload&lt;/button&gt;\n&lt;/form&gt;</code></pre>",
+        "hint": "The form needs a special attribute for file uploads.",
+        "answer": "<pre><code>&lt;form action=\"/upload\" method=\"POST\" enctype=\"multipart/form-data\"&gt;\n  &lt;input type=\"file\" name=\"pic\"&gt;\n  &lt;button type=\"submit\"&gt;Upload&lt;/button&gt;\n&lt;/form&gt;</code></pre>",
+        "explanation": "File uploads require the form to have <code>enctype=\"multipart/form-data\"</code>. Without it, the file is not encoded correctly and the server receives nothing."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which tag creates a multi-line text input?",
+        "hint": "It is not input.",
+        "answer": "<code>&lt;textarea&gt;</code>",
+        "explanation": "Textarea is specifically for multi-line text. You can size it with rows and cols or CSS width and height."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Create a simple form with a text input and submit button. Include a label.",
+        "hint": "Form, label, input, button.",
+        "answer": "<pre><code>&lt;form&gt;\n  &lt;label for=\"name\"&gt;Name:&lt;/label&gt;\n  &lt;input type=\"text\" id=\"name\" name=\"name\"&gt;\n  &lt;button type=\"submit\"&gt;Submit&lt;/button&gt;\n&lt;/form&gt;</code></pre>",
+        "explanation": "A minimal form with one labeled text field and a submit button."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the purpose of the action attribute on a form?",
+        "hint": "It is a URL.",
+        "answer": "It tells the browser where (which URL) to send the form data when submitted.",
+        "explanation": "The server at that URL receives the form data and processes it. If omitted, the form is sent to the current page URL."
+      },
+      {
+        "id": "mx-4",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Why does clicking the label NOT focus the input?<br><pre><code>&lt;label&gt;Name:&lt;/label&gt;\n&lt;input type=\"text\" id=\"name\"&gt;</code></pre>",
+        "hint": "The label and input need to be linked.",
+        "answer": "The label needs <code>for=\"name\"</code> to link it to the input.",
+        "explanation": "Without the <code>for</code> attribute on the label (matching the input's id), there is no connection between them."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which two attributes let you set a number range on a number input?",
+        "hint": "They limit the smallest and largest values.",
+        "answer": "<code>min</code> and <code>max</code>",
+        "explanation": "<code>min</code> is the smallest allowed value and <code>max</code> is the largest. Also works for type=range and type=date."
+      },
+      {
+        "id": "mx-6",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Create a form with three inputs: username (required, min 3 chars), email (required, must be valid), password (required, min 8 chars).",
+        "hint": "Use required, minlength, and type=email.",
+        "answer": "<pre><code>&lt;form&gt;\n  &lt;label for=\"u\"&gt;Username:&lt;/label&gt;\n  &lt;input type=\"text\" id=\"u\" name=\"username\" required minlength=\"3\"&gt;&lt;br&gt;\n\n  &lt;label for=\"e\"&gt;Email:&lt;/label&gt;\n  &lt;input type=\"email\" id=\"e\" name=\"email\" required&gt;&lt;br&gt;\n\n  &lt;label for=\"p\"&gt;Password:&lt;/label&gt;\n  &lt;input type=\"password\" id=\"p\" name=\"password\" required minlength=\"8\"&gt;&lt;br&gt;\n\n  &lt;button type=\"submit\"&gt;Sign Up&lt;/button&gt;\n&lt;/form&gt;</code></pre>",
+        "explanation": "HTML5 attributes handle all the validation for you — no JavaScript needed. The browser shows error messages automatically."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the difference between GET and POST methods?",
+        "hint": "Where does the data go in each case?",
+        "answer": "GET puts the data in the URL (visible). POST sends it hidden in the request body. POST is used for sensitive data like passwords.",
+        "explanation": "Use GET for searches and filters (so the URL can be bookmarked). Use POST for anything that changes data or is sensitive."
+      },
+      {
+        "id": "mx-8",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "The input shows plain text instead of dots:<br><pre><code>&lt;input type=\"text\" name=\"password\" required&gt;</code></pre>",
+        "hint": "Wrong type.",
+        "answer": "Change <code>type=\"text\"</code> to <code>type=\"password\"</code>.",
+        "explanation": "Password fields must use type=password to mask the input as dots or stars."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Create a color picker input with a default of red (#ff0000).",
+        "hint": "type=color and value=#ff0000.",
+        "answer": "<pre><code>&lt;label for=\"c\"&gt;Pick a colour:&lt;/label&gt;\n&lt;input type=\"color\" id=\"c\" name=\"favcolor\" value=\"#ff0000\"&gt;</code></pre>",
+        "explanation": "type=color opens the browser's color picker. The value attribute sets the initial color."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does the 'selected' attribute do on an option tag?",
+        "hint": "It affects which option shows by default.",
+        "answer": "It makes that option the default selected one in the dropdown.",
+        "explanation": "Without selected, the browser shows the first option. Adding <code>selected</code> to a different option makes it the default."
+      },
+      {
+        "id": "mx-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Create a select dropdown of 3 cities with Mumbai pre-selected.",
+        "hint": "Use the selected attribute.",
+        "answer": "<pre><code>&lt;select name=\"city\"&gt;\n  &lt;option value=\"delhi\"&gt;Delhi&lt;/option&gt;\n  &lt;option value=\"mumbai\" selected&gt;Mumbai&lt;/option&gt;\n  &lt;option value=\"bangalore\"&gt;Bangalore&lt;/option&gt;\n&lt;/select&gt;</code></pre>",
+        "explanation": "Adding <code>selected</code> to the Mumbai option makes it the default when the page loads."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "When filling a signup form, which autocomplete value should you use for a new password?",
+        "hint": "Not 'current-password'.",
+        "answer": "<code>autocomplete=\"new-password\"</code>",
+        "explanation": "This tells password managers to generate or store a new password instead of filling in an existing one."
+      },
+      {
+        "id": "mx-13",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "The form lets users submit an empty username. Why?<br><pre><code>&lt;input type=\"text\" id=\"username\" name=\"username\" require&gt;</code></pre>",
+        "hint": "Typo in an attribute name.",
+        "answer": "The attribute should be <code>required</code>, not <code>require</code>. Invalid attributes are ignored.",
+        "explanation": "HTML silently ignores unknown attributes. A typo like <code>require</code> instead of <code>required</code> just turns off the validation completely."
+      },
+      {
+        "id": "mx-14",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Build a complete feedback form inside a styled card. Include name, email, a rating slider (1-5), a dropdown for 'Would you recommend us?' (Yes/No/Maybe), and a textarea for comments.",
+        "hint": "Use CSS in head to style the card.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;style&gt;\nbody { font-family: Arial; background: #f0f0f0; padding: 30px; }\n.card { background: white; max-width: 450px; margin: auto; padding: 25px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }\nlabel { display: block; margin-top: 10px; font-weight: bold; }\ninput, select, textarea { width: 100%; padding: 8px; box-sizing: border-box; margin-top: 4px; }\nbutton { margin-top: 15px; padding: 10px 20px; background: #2ecc71; color: white; border: none; cursor: pointer; }\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;div class=\"card\"&gt;\n  &lt;h2&gt;We Value Your Feedback&lt;/h2&gt;\n  &lt;form&gt;\n    &lt;label for=\"n\"&gt;Name:&lt;/label&gt;\n    &lt;input type=\"text\" id=\"n\" name=\"name\" required&gt;\n\n    &lt;label for=\"e\"&gt;Email:&lt;/label&gt;\n    &lt;input type=\"email\" id=\"e\" name=\"email\" required&gt;\n\n    &lt;label for=\"r\"&gt;Rating (1-5):&lt;/label&gt;\n    &lt;input type=\"range\" id=\"r\" name=\"rating\" min=\"1\" max=\"5\" value=\"3\"&gt;\n\n    &lt;label for=\"rec\"&gt;Would you recommend us?&lt;/label&gt;\n    &lt;select id=\"rec\" name=\"recommend\"&gt;\n      &lt;option value=\"yes\"&gt;Yes&lt;/option&gt;\n      &lt;option value=\"no\"&gt;No&lt;/option&gt;\n      &lt;option value=\"maybe\"&gt;Maybe&lt;/option&gt;\n    &lt;/select&gt;\n\n    &lt;label for=\"c\"&gt;Comments:&lt;/label&gt;\n    &lt;textarea id=\"c\" name=\"comments\" rows=\"4\"&gt;&lt;/textarea&gt;\n\n    &lt;button type=\"submit\"&gt;Send&lt;/button&gt;\n  &lt;/form&gt;\n&lt;/div&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "Uses all major form elements: text, email, range slider, select dropdown, and textarea. Styled as a card with CSS."
+      },
+      {
+        "id": "mx-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What happens if you include <input type=\"hidden\" name=\"token\" value=\"abc123\"> in a form?",
+        "hint": "Hidden fields are invisible but still submitted.",
+        "answer": "The input is invisible on the page but its value ('abc123') is sent to the server as token=abc123 when the form is submitted.",
+        "explanation": "Hidden inputs are useful for security tokens, user IDs, or version numbers — data the user should not see or change but that must reach the server."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which tag wraps all the inputs in an HTML form?",
+        "options": {
+          "A": "<input>",
+          "B": "<form>",
+          "C": "<fields>",
+          "D": "<submit>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>&lt;form&gt;</code> tag wraps all form elements. It has action and method attributes that control where and how the data is sent."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which input type hides what the user types?",
+        "options": {
+          "A": "type=\"hidden\"",
+          "B": "type=\"secret\"",
+          "C": "type=\"password\"",
+          "D": "type=\"text\""
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>type=\"password\"</code> masks the characters as dots. <code>type=\"hidden\"</code> is an invisible field that does not show on the page at all."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which attribute makes a field mandatory in HTML5?",
+        "options": {
+          "A": "must",
+          "B": "required",
+          "C": "mandatory",
+          "D": "needed"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>required</code> attribute stops form submission if the field is empty."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which tag creates a dropdown list?",
+        "options": {
+          "A": "<dropdown>",
+          "B": "<list>",
+          "C": "<select>",
+          "D": "<options>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>&lt;select&gt;</code> creates a dropdown, and each <code>&lt;option&gt;</code> inside is one choice."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which input type lets users pick multiple options from a group?",
+        "options": {
+          "A": "radio",
+          "B": "checkbox",
+          "C": "select",
+          "D": "button"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Checkboxes allow multiple selections. Radio buttons only allow one selection from a group."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which tag is used for multi-line text input?",
+        "options": {
+          "A": "<input type=\"text\">",
+          "B": "<longtext>",
+          "C": "<textarea>",
+          "D": "<input type=\"multiline\">"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>&lt;textarea&gt;</code> is for multi-line input like comments and bios."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "What does the for attribute on a <label> do?",
+        "options": {
+          "A": "Sets the label's color",
+          "B": "Links the label to an input with a matching id",
+          "C": "Counts how many times the label appears",
+          "D": "Adds a loop"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>for=\"name\"</code> links the label to the input with <code>id=\"name\"</code>. Clicking the label then focuses the input."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Easy",
+        "question": "Which button type submits the form?",
+        "options": {
+          "A": "type=\"submit\"",
+          "B": "type=\"button\"",
+          "C": "type=\"go\"",
+          "D": "type=\"send\""
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> <code>type=\"submit\"</code> is the default button type inside a form. Clicking it submits the form data to the action URL."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Easy",
+        "question": "Which input type should you use for a phone number on mobile?",
+        "options": {
+          "A": "text",
+          "B": "number",
+          "C": "tel",
+          "D": "phone"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>type=\"tel\"</code> opens the numeric keyboard on mobile devices. There is no <code>type=\"phone\"</code>."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Easy",
+        "question": "Which attribute is used to set the URL that receives the form data?",
+        "options": {
+          "A": "target",
+          "B": "action",
+          "C": "send",
+          "D": "destination"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>action</code> attribute specifies the URL where the form data will be sent on submit."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Easy",
+        "question": "Which tag is used to give a form field group a visible title?",
+        "options": {
+          "A": "<title>",
+          "B": "<legend>",
+          "C": "<caption>",
+          "D": "<h1>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;legend&gt;</code> goes inside <code>&lt;fieldset&gt;</code> to provide a title for the group."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Easy",
+        "question": "Which attribute sets the maximum number of characters in a text input?",
+        "options": {
+          "A": "max",
+          "B": "maxchars",
+          "C": "maxlength",
+          "D": "limit"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>maxlength</code> limits text inputs to a maximum number of characters. <code>max</code> is for numbers and dates."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "What is the difference between name and id on an input?",
+        "options": {
+          "A": "They are the same thing",
+          "B": "name is used when submitting, id is for labels and scripts",
+          "C": "id is used when submitting, name is for scripts",
+          "D": "Both are required for submission"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Only <code>name</code> is sent to the server. <code>id</code> is for labels, CSS, and JavaScript. They are often both needed."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "Which method sends form data in the URL?",
+        "options": {
+          "A": "GET",
+          "B": "POST",
+          "C": "PUT",
+          "D": "SEND"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> GET puts the data in the URL as query parameters (like <code>?q=hello</code>). POST sends it hidden in the request body."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "Why should you use <label> instead of just placeholder?",
+        "options": {
+          "A": "Placeholders look ugly",
+          "B": "Placeholders disappear when typing and hurt accessibility",
+          "C": "Placeholder is deprecated",
+          "D": "Labels are faster"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Placeholders disappear when the user starts typing, and screen readers often skip them. Labels are the accessible way to describe fields."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What does the disabled attribute do on a form input?",
+        "options": {
+          "A": "Hides the input",
+          "B": "Prevents editing and excludes the field from submission",
+          "C": "Prevents editing but still submits the value",
+          "D": "Makes it required"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Disabled stops the user from editing AND excludes the field from being submitted. Use <code>readonly</code> if you still want the value submitted."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "Radio buttons in the same group must have the same:",
+        "options": {
+          "A": "id",
+          "B": "value",
+          "C": "name",
+          "D": "type"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Radios sharing the same <code>name</code> become a group, so only one can be selected at a time. They should have different <code>value</code>s so the server knows which was picked."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "Which input type would you use for a color picker?",
+        "options": {
+          "A": "type=\"color\"",
+          "B": "type=\"hex\"",
+          "C": "type=\"palette\"",
+          "D": "type=\"rgb\""
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> <code>type=\"color\"</code> opens the browser's built-in color picker. The value is a hex color like #ff0000."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "Which input type creates a slider?",
+        "options": {
+          "A": "type=\"slider\"",
+          "B": "type=\"range\"",
+          "C": "type=\"number\"",
+          "D": "type=\"bar\""
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>type=\"range\"</code> creates a slider. Use <code>min</code>, <code>max</code>, and <code>step</code> to control its range."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Medium",
+        "question": "What is the correct form attribute for file uploads to work?",
+        "options": {
+          "A": "action=\"/upload\"",
+          "B": "method=\"FILE\"",
+          "C": "enctype=\"multipart/form-data\"",
+          "D": "type=\"file\""
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Without <code>enctype=\"multipart/form-data\"</code> on the form, file uploads do not work — the file gets dropped."
+      },
+      {
+        "id": "mcq-21",
+        "difficulty": "Medium",
+        "question": "What will this pattern validate? <input pattern=\"[0-9]{4}\">",
+        "options": {
+          "A": "Any number",
+          "B": "Exactly 4 digits (0-9)",
+          "C": "At least 4 digits",
+          "D": "A decimal number"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>[0-9]</code> matches a digit, and <code>{4}</code> means exactly 4. Useful for PINs or OTPs."
+      },
+      {
+        "id": "mcq-22",
+        "difficulty": "Hard",
+        "question": "What happens if an input has no name attribute when the form is submitted?",
+        "options": {
+          "A": "The form throws an error",
+          "B": "The input's value is submitted using its id",
+          "C": "The input's value is NOT submitted at all",
+          "D": "The browser adds a random name"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Only inputs with a <code>name</code> attribute are sent to the server. Fields without name are silently ignored on submit."
+      },
+      {
+        "id": "mcq-23",
+        "difficulty": "Hard",
+        "question": "What is the main reason to use fieldset and legend in a form?",
+        "options": {
+          "A": "To add borders",
+          "B": "To group related fields and improve accessibility",
+          "C": "To make the form faster",
+          "D": "To change colors"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;fieldset&gt;</code> groups related fields visually and semantically. <code>&lt;legend&gt;</code> names the group. Screen readers announce the legend as context for all fields in the group."
+      },
+      {
+        "id": "mcq-24",
+        "difficulty": "Hard",
+        "question": "Which autocomplete value is recommended for a new password field on a signup form?",
+        "options": {
+          "A": "off",
+          "B": "on",
+          "C": "new-password",
+          "D": "current-password"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>new-password</code> tells browsers and password managers this is a new account creation, so they should offer to generate a strong password. Use <code>current-password</code> on login forms."
+      },
+      {
+        "id": "mcq-25",
+        "difficulty": "Hard",
+        "question": "Which statement about type=\"email\" is TRUE?",
+        "options": {
+          "A": "It checks if the email actually exists",
+          "B": "It verifies that the user owns the email",
+          "C": "It checks the format (must have @ and domain)",
+          "D": "It sends a verification email automatically"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>type=\"email\"</code> only validates the basic format — it cannot check if the email exists or belongs to the user. Real verification requires sending an email from the server."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Simple Contact Form",
+        "difficulty": "Easy",
+        "description": "Build a complete HTML page with a contact form containing Name, Email, and Message fields, plus a Submit button. All fields should be required and have proper labels.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A form with Name, Email, Message, and Submit button. Browser validates on submit.",
+        "constraints": "Use proper labels with for/id. Required attribute on all fields. type=email for the email field. textarea for the message.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Contact Us</title>\n  <style>\n    body { font-family: Arial; padding: 30px; }\n    label { display: block; margin-top: 10px; }\n    input, textarea { width: 300px; padding: 6px; }\n    button { margin-top: 15px; padding: 8px 16px; }\n  </style>\n</head>\n<body>\n  <h1>Contact Us</h1>\n  <form action=\"/submit\" method=\"POST\">\n    <label for=\"name\">Name:</label>\n    <input type=\"text\" id=\"name\" name=\"name\" required>\n\n    <label for=\"email\">Email:</label>\n    <input type=\"email\" id=\"email\" name=\"email\" required>\n\n    <label for=\"msg\">Message:</label>\n    <textarea id=\"msg\" name=\"message\" rows=\"5\" required></textarea>\n\n    <button type=\"submit\">Send</button>\n  </form>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Login Page",
+        "difficulty": "Easy",
+        "description": "Build a login form with Email and Password fields, a 'Remember me' checkbox, and a Log In button. Add correct autocomplete attributes.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A login form with email, password, checkbox, and button.",
+        "constraints": "autocomplete=\"email\" on the email field and autocomplete=\"current-password\" on the password.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Log In</title>\n  <style>\n    body { font-family: Arial; padding: 40px; }\n    form { max-width: 320px; }\n    label { display: block; margin-top: 10px; }\n    input[type=\"email\"], input[type=\"password\"] { width: 100%; padding: 8px; box-sizing: border-box; }\n    button { margin-top: 15px; padding: 10px; width: 100%; background: #4a90e2; color: white; border: none; }\n  </style>\n</head>\n<body>\n  <h1>Log In</h1>\n  <form action=\"/login\" method=\"POST\">\n    <label for=\"email\">Email:</label>\n    <input type=\"email\" id=\"email\" name=\"email\" required autocomplete=\"email\">\n\n    <label for=\"pwd\">Password:</label>\n    <input type=\"password\" id=\"pwd\" name=\"password\" required autocomplete=\"current-password\">\n\n    <label><input type=\"checkbox\" name=\"remember\"> Remember me</label>\n\n    <button type=\"submit\">Log In</button>\n  </form>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Survey with Radios and Checkboxes",
+        "difficulty": "Medium",
+        "description": "Build a survey with: a 'How satisfied?' question with 5 radio options (Very Happy, Happy, Neutral, Sad, Very Sad), and a 'What did you like?' question with checkbox options (Food, Staff, Price, Speed, Cleanliness).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A survey form with one-choice and multi-choice questions.",
+        "constraints": "Radios must share the same name. Use fieldset for grouping.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Survey</title>\n</head>\n<body>\n  <h1>Customer Survey</h1>\n  <form>\n    <fieldset>\n      <legend>How satisfied are you?</legend>\n      <label><input type=\"radio\" name=\"satisfaction\" value=\"5\" required> Very Happy</label><br>\n      <label><input type=\"radio\" name=\"satisfaction\" value=\"4\"> Happy</label><br>\n      <label><input type=\"radio\" name=\"satisfaction\" value=\"3\"> Neutral</label><br>\n      <label><input type=\"radio\" name=\"satisfaction\" value=\"2\"> Sad</label><br>\n      <label><input type=\"radio\" name=\"satisfaction\" value=\"1\"> Very Sad</label>\n    </fieldset>\n\n    <fieldset>\n      <legend>What did you like?</legend>\n      <label><input type=\"checkbox\" name=\"liked\" value=\"food\"> Food</label><br>\n      <label><input type=\"checkbox\" name=\"liked\" value=\"staff\"> Staff</label><br>\n      <label><input type=\"checkbox\" name=\"liked\" value=\"price\"> Price</label><br>\n      <label><input type=\"checkbox\" name=\"liked\" value=\"speed\"> Speed</label><br>\n      <label><input type=\"checkbox\" name=\"liked\" value=\"clean\"> Cleanliness</label>\n    </fieldset>\n\n    <button type=\"submit\">Submit</button>\n  </form>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Registration Form",
+        "difficulty": "Medium",
+        "description": "Build a complete registration form with fields: full name (required, min 3 chars), email (required), password (required, min 8 chars), age (number, 10-100), gender (radio), country (select: India, USA, UK), and terms & conditions checkbox (required).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A full registration form with all validation working.",
+        "constraints": "All HTML5 validation. Proper labels. Fieldset for gender.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Register</title>\n  <style>\n    body { font-family: Arial; max-width: 500px; margin: auto; padding: 20px; }\n    label { display: block; margin-top: 10px; }\n    input, select { width: 100%; padding: 6px; box-sizing: border-box; }\n    button { margin-top: 15px; padding: 10px 20px; background: #22c55e; color: white; border: none; }\n  </style>\n</head>\n<body>\n  <h1>Create Account</h1>\n  <form action=\"/register\" method=\"POST\">\n    <label for=\"n\">Full Name:</label>\n    <input type=\"text\" id=\"n\" name=\"name\" required minlength=\"3\">\n\n    <label for=\"e\">Email:</label>\n    <input type=\"email\" id=\"e\" name=\"email\" required>\n\n    <label for=\"p\">Password:</label>\n    <input type=\"password\" id=\"p\" name=\"password\" required minlength=\"8\">\n\n    <label for=\"a\">Age:</label>\n    <input type=\"number\" id=\"a\" name=\"age\" min=\"10\" max=\"100\" required>\n\n    <fieldset>\n      <legend>Gender</legend>\n      <label><input type=\"radio\" name=\"gender\" value=\"m\" required> Male</label>\n      <label><input type=\"radio\" name=\"gender\" value=\"f\"> Female</label>\n      <label><input type=\"radio\" name=\"gender\" value=\"o\"> Other</label>\n    </fieldset>\n\n    <label for=\"c\">Country:</label>\n    <select id=\"c\" name=\"country\" required>\n      <option value=\"\">-- Select --</option>\n      <option value=\"in\">India</option>\n      <option value=\"us\">USA</option>\n      <option value=\"uk\">UK</option>\n    </select>\n\n    <label><input type=\"checkbox\" name=\"terms\" required> I agree to the terms</label>\n\n    <button type=\"submit\">Register</button>\n  </form>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Pizza Order Form",
+        "difficulty": "Medium",
+        "description": "Build a pizza order form with: size (radio: small, medium, large), crust (radio: thin, thick, stuffed), toppings (checkboxes: cheese, mushrooms, peppers, olives, onions), quantity (number 1-10), and delivery date (date).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A pizza order form with size, crust, toppings, quantity, and delivery date.",
+        "constraints": "Use fieldsets for size, crust, and toppings.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Order Pizza</title>\n</head>\n<body>\n  <h1>Order Your Pizza</h1>\n  <form>\n    <fieldset>\n      <legend>Size</legend>\n      <label><input type=\"radio\" name=\"size\" value=\"s\" required> Small</label>\n      <label><input type=\"radio\" name=\"size\" value=\"m\"> Medium</label>\n      <label><input type=\"radio\" name=\"size\" value=\"l\"> Large</label>\n    </fieldset>\n\n    <fieldset>\n      <legend>Crust</legend>\n      <label><input type=\"radio\" name=\"crust\" value=\"thin\" required> Thin</label>\n      <label><input type=\"radio\" name=\"crust\" value=\"thick\"> Thick</label>\n      <label><input type=\"radio\" name=\"crust\" value=\"stuffed\"> Stuffed</label>\n    </fieldset>\n\n    <fieldset>\n      <legend>Toppings</legend>\n      <label><input type=\"checkbox\" name=\"top\" value=\"cheese\"> Extra Cheese</label><br>\n      <label><input type=\"checkbox\" name=\"top\" value=\"mush\"> Mushrooms</label><br>\n      <label><input type=\"checkbox\" name=\"top\" value=\"peppers\"> Peppers</label><br>\n      <label><input type=\"checkbox\" name=\"top\" value=\"olives\"> Olives</label><br>\n      <label><input type=\"checkbox\" name=\"top\" value=\"onions\"> Onions</label>\n    </fieldset>\n\n    <label for=\"q\">Quantity:</label>\n    <input type=\"number\" id=\"q\" name=\"qty\" min=\"1\" max=\"10\" value=\"1\" required><br>\n\n    <label for=\"d\">Delivery Date:</label>\n    <input type=\"date\" id=\"d\" name=\"delivery\" required><br><br>\n\n    <button type=\"submit\">Place Order</button>\n  </form>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Upload Profile with Hidden Field",
+        "difficulty": "Hard",
+        "description": "Build a profile update form with: profile picture upload (image files only), display name, bio (textarea, 200 char max), and a hidden field sending userId=12345.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A form with file upload, name, bio, and hidden userId field.",
+        "constraints": "File input with accept=\"image/*\". Form must have enctype=\"multipart/form-data\".",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Update Profile</title>\n</head>\n<body>\n  <h1>Update Your Profile</h1>\n  <form action=\"/profile\" method=\"POST\" enctype=\"multipart/form-data\">\n    <input type=\"hidden\" name=\"userId\" value=\"12345\">\n\n    <label for=\"pic\">Profile Picture:</label>\n    <input type=\"file\" id=\"pic\" name=\"picture\" accept=\"image/*\" required><br>\n\n    <label for=\"dname\">Display Name:</label>\n    <input type=\"text\" id=\"dname\" name=\"display\" required><br>\n\n    <label for=\"bio\">Bio:</label>\n    <textarea id=\"bio\" name=\"bio\" rows=\"4\" maxlength=\"200\" placeholder=\"Max 200 characters\"></textarea><br><br>\n\n    <button type=\"submit\">Save</button>\n  </form>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-7",
+        "title": "Event Registration with Validation",
+        "difficulty": "Hard",
+        "description": "Build an event registration form with: name, email, phone (10 digits only, use pattern), event date (only future dates, use min), number of tickets (1-10), T-shirt size dropdown (S, M, L, XL), and dietary preference (radio: Veg, Non-Veg, Vegan).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A form with phone pattern validation and future-date-only event date.",
+        "constraints": "Phone must use pattern=\"[0-9]{10}\". Event date has min attribute.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Event Registration</title>\n  <style>\n    body { font-family: Arial; padding: 20px; max-width: 500px; margin: auto; }\n    label { display: block; margin-top: 10px; }\n    input, select { width: 100%; padding: 6px; box-sizing: border-box; }\n  </style>\n</head>\n<body>\n  <h1>Register for Tech Fest 2026</h1>\n  <form>\n    <label for=\"n\">Full Name:</label>\n    <input type=\"text\" id=\"n\" name=\"name\" required>\n\n    <label for=\"e\">Email:</label>\n    <input type=\"email\" id=\"e\" name=\"email\" required>\n\n    <label for=\"p\">Phone (10 digits):</label>\n    <input type=\"tel\" id=\"p\" name=\"phone\" pattern=\"[0-9]{10}\" required title=\"Enter 10 digits\">\n\n    <label for=\"d\">Event Date:</label>\n    <input type=\"date\" id=\"d\" name=\"date\" min=\"2026-05-01\" required>\n\n    <label for=\"t\">Tickets:</label>\n    <input type=\"number\" id=\"t\" name=\"tickets\" min=\"1\" max=\"10\" value=\"1\" required>\n\n    <label for=\"s\">T-Shirt Size:</label>\n    <select id=\"s\" name=\"size\" required>\n      <option value=\"\">-- Select --</option>\n      <option value=\"S\">Small</option>\n      <option value=\"M\">Medium</option>\n      <option value=\"L\">Large</option>\n      <option value=\"XL\">Extra Large</option>\n    </select>\n\n    <fieldset>\n      <legend>Meal Preference</legend>\n      <label><input type=\"radio\" name=\"meal\" value=\"veg\" required> Vegetarian</label>\n      <label><input type=\"radio\" name=\"meal\" value=\"nonveg\"> Non-Vegetarian</label>\n      <label><input type=\"radio\" name=\"meal\" value=\"vegan\"> Vegan</label>\n    </fieldset>\n\n    <button type=\"submit\">Register</button>\n  </form>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-8",
+        "title": "Advanced Settings Form",
+        "difficulty": "Hard",
+        "description": "Build a user settings page with: username (readonly, pre-filled), email (required), theme color (color picker), notification volume (range slider 0-100), favorite language (select), dark mode (checkbox), and bio (textarea). Include proper sections with fieldsets.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A complete settings form with color picker, slider, and many input types.",
+        "constraints": "Use readonly on username. Group related fields with fieldsets.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Settings</title>\n  <style>\n    body { font-family: Arial; padding: 20px; max-width: 500px; margin: auto; }\n    fieldset { margin-bottom: 15px; }\n    label { display: block; margin-top: 8px; }\n    input, select, textarea { width: 100%; padding: 6px; box-sizing: border-box; }\n    input[type=\"color\"] { width: 60px; }\n    input[type=\"range\"], input[type=\"checkbox\"] { width: auto; }\n  </style>\n</head>\n<body>\n  <h1>Account Settings</h1>\n  <form action=\"/settings\" method=\"POST\">\n    <fieldset>\n      <legend>Profile</legend>\n      <label for=\"u\">Username:</label>\n      <input type=\"text\" id=\"u\" name=\"username\" value=\"ananya_codes\" readonly>\n\n      <label for=\"e\">Email:</label>\n      <input type=\"email\" id=\"e\" name=\"email\" value=\"ananya@example.com\" required>\n\n      <label for=\"b\">Bio:</label>\n      <textarea id=\"b\" name=\"bio\" rows=\"3\" maxlength=\"150\"></textarea>\n    </fieldset>\n\n    <fieldset>\n      <legend>Preferences</legend>\n      <label for=\"col\">Theme Colour:</label>\n      <input type=\"color\" id=\"col\" name=\"theme\" value=\"#4a90e2\">\n\n      <label for=\"vol\">Notification Volume:</label>\n      <input type=\"range\" id=\"vol\" name=\"volume\" min=\"0\" max=\"100\" value=\"70\">\n\n      <label for=\"lang\">Language:</label>\n      <select id=\"lang\" name=\"language\">\n        <option value=\"en\">English</option>\n        <option value=\"hi\">Hindi</option>\n        <option value=\"ta\">Tamil</option>\n        <option value=\"te\">Telugu</option>\n      </select>\n\n      <label><input type=\"checkbox\" name=\"darkmode\"> Enable Dark Mode</label>\n    </fieldset>\n\n    <button type=\"submit\">Save Changes</button>\n  </form>\n</body>\n</html>"
+      }
+    ]
+  }
+}

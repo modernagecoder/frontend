@@ -1,0 +1,842 @@
+{
+  "title": "Headings, Paragraphs, and Text Formatting - Making Your Words Beautiful",
+  "slug": "headings-paragraphs-and-text",
+  "language": "html",
+  "chapter": 3,
+  "difficulty": "Beginner",
+  "readingTime": "22 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "HTML Headings, Paragraphs, and Text Formatting - Strong, Em, Mark, Sub, Sup | Modern Age Coders",
+    "description": "Master HTML text: headings h1-h6, paragraphs, line breaks, text formatting with strong, em, mark, entity codes, and best practices. 58 hands-on practice questions.",
+    "keywords": "html headings, h1 h6, html paragraphs, html text formatting, strong em mark, html entities, blockquote, subscript superscript, html text tags"
+  },
+  "content": {
+    "what": "<h2>What Are HTML Text Tags?</h2><p>Words are the heart of every web page. Whether it is a blog post, a school assignment, a news article, or a product description — text is what people come to read. HTML gives you a toolbox full of tags to mark up text so it has the right meaning and appearance.</p><p>In this chapter, you will learn how to create <strong>headings</strong> (big titles), <strong>paragraphs</strong> (blocks of text), <strong>line breaks</strong> and <strong>horizontal rules</strong> (visual separators), and use <strong>formatting tags</strong> like bold, italic, highlighted, subscript, superscript, and more. You will also learn about <strong>entity codes</strong> — special codes for characters like &amp;copy; and &amp;nbsp;.</p><h3>Why Different Tags?</h3><p>You might ask: 'Why not just have one big text tag and add styles to it?' The answer is <strong>meaning</strong>. HTML tags tell the browser, screen readers, and search engines what the text <em>means</em>, not just how it looks. A <code>&lt;strong&gt;</code> tag means 'this is important', while a <code>&lt;b&gt;</code> tag just means 'make it bold'. Using the right tag makes your page more accessible and better for SEO.</p>",
+    "why": "<h2>Why Learn Text Tags Properly?</h2><h3>1. Structure Makes Content Readable</h3><p>A wall of text is painful to read. Headings let users scan a page quickly to find what they need. Paragraphs break text into manageable chunks. This is why every newspaper, book, and website uses headings and paragraphs.</p><h3>2. Headings Are Critical for SEO</h3><p>Google reads your headings to understand what your page is about. If you have an <code>&lt;h1&gt;</code> that says 'Learn to Bake a Chocolate Cake', Google knows that is your main topic. Use the right headings and you rank higher in search results.</p><h3>3. Accessibility</h3><p>Blind users navigate the web with screen readers that announce headings. They can press a key to jump between headings to quickly understand the page structure. If you skip heading levels or use them incorrectly, screen reader users have a frustrating experience.</p><h3>4. Semantic Meaning Over Visual Style</h3><p>HTML tags carry <strong>meaning</strong>. <code>&lt;strong&gt;</code> means 'this is important' — browsers show it as bold, but screen readers also emphasise it when reading aloud. <code>&lt;em&gt;</code> means 'stress this word' — shown as italic, also emphasised verbally. Using meaningful tags makes your content work for everyone.</p><h3>5. Professional Writing</h3><p>Any blog, documentation site, or online article uses these tags constantly. If you want to write for the web, you need to know them. Plus, they are easy to learn — you can master all the common ones in an hour.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>Headings: h1 to h6</h3><p>HTML has six heading levels, from <code>&lt;h1&gt;</code> (most important) to <code>&lt;h6&gt;</code> (least important). Browsers give each level a smaller default size.</p><ul><li><code>&lt;h1&gt;</code> — The main title. Use only ONE h1 per page. This is what the page is about.</li><li><code>&lt;h2&gt;</code> — Section titles. Use as many as needed.</li><li><code>&lt;h3&gt;</code> — Sub-section titles inside h2 sections.</li><li><code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>, <code>&lt;h6&gt;</code> — Rarely used, only for very deep hierarchies.</li></ul><p><strong>Important rule:</strong> Only one <code>&lt;h1&gt;</code> per page is the best practice for SEO. Think of it like the title of a book — a book has only one title, not ten.</p><h3>Paragraphs: &lt;p&gt;</h3><p>The <code>&lt;p&gt;</code> tag creates a paragraph. Browsers automatically add vertical space between paragraphs. Each <code>&lt;p&gt;</code> should contain one complete thought or idea. Avoid putting too much text in a single paragraph — break it up for readability.</p><h3>Line Break: &lt;br&gt;</h3><p>The <code>&lt;br&gt;</code> tag forces a line break without starting a new paragraph. It is self-closing (no closing tag needed). Use it sparingly — only when you really need a manual line break, like in a poem or an address.</p><h3>Horizontal Rule: &lt;hr&gt;</h3><p>The <code>&lt;hr&gt;</code> tag draws a horizontal line across the page to visually separate sections. It is also self-closing. Useful for dividing a page into themed sections.</p><h3>Text Formatting Tags</h3><p>HTML has many tags to format text:</p><ul><li><code>&lt;strong&gt;</code> — Important text (displays bold). Semantic.</li><li><code>&lt;em&gt;</code> — Stressed/emphasised text (displays italic). Semantic.</li><li><code>&lt;b&gt;</code> — Plain bold text (no extra meaning). Use <code>&lt;strong&gt;</code> instead for important content.</li><li><code>&lt;i&gt;</code> — Plain italic text. Use <code>&lt;em&gt;</code> instead for stressed content.</li><li><code>&lt;mark&gt;</code> — Highlighted text (yellow background by default).</li><li><code>&lt;small&gt;</code> — Smaller text, often used for fine print or side notes.</li><li><code>&lt;sub&gt;</code> — Subscript (below the line), like H<sub>2</sub>O.</li><li><code>&lt;sup&gt;</code> — Superscript (above the line), like x<sup>2</sup>.</li><li><code>&lt;del&gt;</code> — Deleted text (shown with strikethrough line).</li><li><code>&lt;ins&gt;</code> — Inserted text (shown with underline).</li><li><code>&lt;code&gt;</code> — Computer code (shown in monospace font).</li><li><code>&lt;kbd&gt;</code> — Keyboard input (like 'Press Ctrl+C').</li></ul><h3>Blockquotes</h3><p>The <code>&lt;blockquote&gt;</code> tag is for quoting a block of text from another source. Browsers usually indent blockquotes to set them apart visually. Use this for quotes longer than a line.</p><h3>HTML Entity Codes</h3><p>Some characters are special in HTML because they are part of the syntax. To show them as text, you need <strong>entity codes</strong>:</p><table><tr><th>Character</th><th>Entity Code</th><th>Use Case</th></tr><tr><td>&lt;</td><td>&amp;lt;</td><td>Less-than sign</td></tr><tr><td>&gt;</td><td>&amp;gt;</td><td>Greater-than sign</td></tr><tr><td>&amp;</td><td>&amp;amp;</td><td>Ampersand</td></tr><tr><td>&quot;</td><td>&amp;quot;</td><td>Double quote</td></tr><tr><td>&copy;</td><td>&amp;copy;</td><td>Copyright symbol</td></tr><tr><td>&nbsp;</td><td>&amp;nbsp;</td><td>Non-breaking space</td></tr><tr><td>&reg;</td><td>&amp;reg;</td><td>Registered trademark</td></tr><tr><td>&trade;</td><td>&amp;trade;</td><td>Trademark</td></tr></table><p><code>&amp;nbsp;</code> (non-breaking space) is especially useful — it creates a space that the browser will not collapse, and it prevents the text from wrapping at that point. For example, write <code>Dr.&amp;nbsp;Priya</code> to keep 'Dr.' and 'Priya' on the same line.</p><h3>How HTML Handles Whitespace</h3><p>This is a critical concept. HTML <strong>collapses whitespace</strong>. If you write:</p><pre><code>&lt;p&gt;Hello       World&lt;/p&gt;</code></pre><p>The browser shows: 'Hello World' (only one space, even though you typed many). Multiple spaces, tabs, and line breaks in your HTML source all become a single space on the page. This means you cannot use spaces to position text. For real spacing, use CSS. For forced spaces, use <code>&amp;nbsp;</code>.</p>",
+    "codeExamples": [
+      {
+        "title": "All Six Heading Levels",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Heading Levels</title>\n</head>\n<body>\n  <h1>Heading Level 1 - Biggest</h1>\n  <h2>Heading Level 2</h2>\n  <h3>Heading Level 3</h3>\n  <h4>Heading Level 4</h4>\n  <h5>Heading Level 5</h5>\n  <h6>Heading Level 6 - Smallest</h6>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This example shows all six heading levels. Save it and open in a browser — you will see the headings get progressively smaller from h1 to h6. Use h1 for the main page title (only one per page), h2 for major sections, and h3 for subsections. h4, h5, and h6 are rarely needed.",
+        "output": "Six headings of decreasing size, from large 'Heading Level 1' to small 'Heading Level 6'."
+      },
+      {
+        "title": "A Recipe With Heading and Subheading",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Chocolate Cake Recipe</title>\n</head>\n<body>\n  <h1>Chocolate Cake</h1>\n  <h2>Made in Just 30 Minutes</h2>\n  <p>This is a <strong>simple</strong> and <em>delicious</em> chocolate cake recipe that anyone can make at home.</p>\n  <h3>Ingredients</h3>\n  <p>You will need flour, cocoa powder, sugar, eggs, butter, and milk. All of these are usually available at any local grocery store.</p>\n  <h3>Steps</h3>\n  <p>Mix all the ingredients in a bowl, pour into a baking tray, and bake for 25 minutes. Let it cool before serving.</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A recipe page uses a clear heading hierarchy: h1 for the recipe name (main topic), h2 for a subtitle, and h3 for the Ingredients and Steps sub-sections. The paragraph uses <code>&lt;strong&gt;</code> to emphasise 'simple' and <code>&lt;em&gt;</code> to stress 'delicious'.",
+        "output": "A recipe page with a big 'Chocolate Cake' title, a subtitle, a paragraph with bold and italic words, and sections for Ingredients and Steps."
+      },
+      {
+        "title": "Text Formatting Showcase",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Text Formatting</title>\n</head>\n<body>\n  <h1>Text Formatting Tags</h1>\n  <p>This is <strong>important text</strong> that stands out.</p>\n  <p>This is <em>emphasised text</em> shown in italic.</p>\n  <p>This is <mark>highlighted text</mark> with a yellow background.</p>\n  <p>Water is <strong>H<sub>2</sub>O</strong> and x squared is <strong>x<sup>2</sup></strong>.</p>\n  <p>The price was <del>Rs 500</del> <ins>Rs 350</ins> after discount.</p>\n  <p>Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save.</p>\n  <p>To make a variable, use <code>let name = \"Aarav\";</code> in JavaScript.</p>\n  <p><small>This is fine print, like a disclaimer.</small></p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This example showcases almost every text formatting tag: <code>strong</code> (bold/important), <code>em</code> (italic/emphasis), <code>mark</code> (highlight), <code>sub</code> (subscript), <code>sup</code> (superscript), <code>del</code> (strikethrough), <code>ins</code> (inserted/underline), <code>kbd</code> (keyboard key), <code>code</code> (inline code), and <code>small</code> (fine print). Each has a specific meaning and visual style.",
+        "output": "A page showing various text formatting effects: bold, italic, highlighted yellow, subscript, superscript, strikethrough, keyboard keys, monospace code, and small fine print."
+      },
+      {
+        "title": "Entity Codes in Action",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Entity Codes</title>\n</head>\n<body>\n  <h1>HTML Entity Codes</h1>\n  <p>The copyright symbol is &copy; and the registered symbol is &reg;.</p>\n  <p>To show HTML tags as text, use &amp;lt; and &amp;gt; like this: &lt;p&gt;Hello&lt;/p&gt;</p>\n  <p>The ampersand itself is written as &amp;amp; to show &amp; on the page.</p>\n  <p>Dr.&nbsp;Priya&nbsp;Sharma will stay on one line thanks to non-breaking spaces.</p>\n  <p>The temperature is 36&deg;C today.</p>\n  <p>Mathematics: 2 &times; 3 = 6 and 6 &divide; 2 = 3</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Entity codes let you display special characters that have meaning in HTML (like &lt; and &gt;) or that are hard to type (like &copy;, &deg;, &times;). Every entity starts with &amp; and ends with ;. This example shows copyright, registered, less-than, greater-than, ampersand, non-breaking space, degree, multiply, and divide.",
+        "output": "A page showing copyright symbols, HTML tags as text, the degree symbol for temperature, and math symbols."
+      },
+      {
+        "title": "Blockquote and Horizontal Rule",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Quotes</title>\n</head>\n<body>\n  <h1>Famous Quotes</h1>\n  <p>Here is a quote from a great Indian scientist:</p>\n  <blockquote>\n    <p>Dream, dream, dream. Dreams transform into thoughts, and thoughts result in action.</p>\n    <p>- Dr. A. P. J. Abdul Kalam</p>\n  </blockquote>\n  <hr>\n  <p>And another timeless quote:</p>\n  <blockquote>\n    <p>Arise, awake, and stop not until the goal is reached.</p>\n    <p>- Swami Vivekananda</p>\n  </blockquote>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The <code>&lt;blockquote&gt;</code> tag is for quoting a block of text from another source. Browsers usually indent it and add spacing. Inside a blockquote, you can use other tags like <code>&lt;p&gt;</code>. The <code>&lt;hr&gt;</code> between the two quotes creates a horizontal line as a visual separator.",
+        "output": "A page with two indented quote blocks, separated by a horizontal line, each showing a famous quote and its author."
+      },
+      {
+        "title": "Poem With Line Breaks",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Poem</title>\n</head>\n<body>\n  <h1>Twinkle Twinkle</h1>\n  <p>\n    Twinkle, twinkle, little star,<br>\n    How I wonder what you are.<br>\n    Up above the world so high,<br>\n    Like a diamond in the sky.<br>\n    Twinkle, twinkle, little star,<br>\n    How I wonder what you are.\n  </p>\n  <hr>\n  <p><small>Written by Jane Taylor, 1806</small></p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "For a poem, each line should break where the poem line ends. Using separate <code>&lt;p&gt;</code> tags for each line would add too much space. Instead, wrap the whole poem in one <code>&lt;p&gt;</code> and use <code>&lt;br&gt;</code> at the end of each line. The author credit uses <code>&lt;small&gt;</code> for a smaller, attribution-style look.",
+        "output": "A page titled 'Twinkle Twinkle' with the whole poem rendered as a single paragraph where each line is on its own line (thanks to br tags), followed by a horizontal rule and small author attribution."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Multiple h1 Tags on One Page",
+        "wrongCode": "<h1>Welcome</h1>\n<h1>About Us</h1>\n<h1>Contact</h1>",
+        "error": "The page has no clear main topic for SEO, and screen readers get confused about the page structure.",
+        "correctCode": "<h1>Welcome to My Site</h1>\n<h2>About Us</h2>\n<h2>Contact</h2>",
+        "explanation": "Every page should have only one <code>&lt;h1&gt;</code> — the main page title. Use <code>&lt;h2&gt;</code> for major sections. This helps search engines and screen readers understand that the h1 is the top-level topic."
+      },
+      {
+        "title": "Using <br> for Paragraph Spacing",
+        "wrongCode": "Welcome to my page.<br><br><br>Here is some information.<br><br><br>And more text.",
+        "error": "Invalid HTML structure. Browsers show extra spacing, but the text is not inside any proper element.",
+        "correctCode": "<p>Welcome to my page.</p>\n<p>Here is some information.</p>\n<p>And more text.</p>",
+        "explanation": "Do not use multiple <code>&lt;br&gt;</code> tags to create spacing between paragraphs. Use proper <code>&lt;p&gt;</code> tags — browsers automatically add spacing between paragraphs. <code>&lt;br&gt;</code> is only for forced line breaks inside a single paragraph (like in a poem or address)."
+      },
+      {
+        "title": "Forgetting to Close Entity Codes",
+        "wrongCode": "<p>Copyright &copy 2026</p>",
+        "error": "The copyright symbol may not render — the browser may show 'Copyright &copy 2026' as text.",
+        "correctCode": "<p>Copyright &copy; 2026</p>",
+        "explanation": "Every HTML entity must end with a semicolon <code>;</code>. <code>&amp;copy;</code> is correct, <code>&amp;copy</code> without the semicolon may or may not work depending on the browser. Always include the semicolon."
+      },
+      {
+        "title": "Expecting Multiple Spaces to Show",
+        "wrongCode": "<p>Hello       World</p>",
+        "error": "The browser shows 'Hello World' (only one space), not the extra spaces you typed.",
+        "correctCode": "<p>Hello&nbsp;&nbsp;&nbsp;&nbsp;World</p>\n<!-- Or better: use CSS for spacing -->",
+        "explanation": "HTML collapses multiple spaces, tabs, and newlines into a single space. If you need several forced spaces, use <code>&amp;nbsp;</code> multiple times. For real layout spacing, use CSS (which you will learn later)."
+      },
+      {
+        "title": "Using <b> and <i> Instead of <strong> and <em>",
+        "wrongCode": "<p><b>Warning:</b> read this <i>carefully</i>.</p>",
+        "error": "The text looks the same, but screen readers do not emphasise the important word. Less accessible.",
+        "correctCode": "<p><strong>Warning:</strong> read this <em>carefully</em>.</p>",
+        "explanation": "<code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> only change the look. <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code> carry semantic meaning — 'this is important' and 'stress this word'. Screen readers emphasise these when reading aloud. Always prefer <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code>."
+      }
+    ],
+    "summary": [
+      "HTML has six heading levels from <h1> (biggest, most important) to <h6> (smallest, least important).",
+      "Use only ONE <h1> per page — it represents the main topic of the page and is critical for SEO.",
+      "<p> creates a paragraph. Browsers automatically add vertical space between paragraphs.",
+      "<br> is a self-closing tag that forces a line break. Use it only when you need a manual break, like in a poem or address.",
+      "<hr> draws a horizontal line across the page to visually separate sections.",
+      "<strong> means 'important' and <em> means 'stressed' — these are semantic tags that screen readers understand. Prefer them over <b> and <i>.",
+      "<mark> highlights text with a yellow background. <small> shows fine print. <del> shows strikethrough. <ins> shows underlined inserted text.",
+      "<sub> creates subscript (like H2O) and <sup> creates superscript (like x squared). <code> shows computer code in monospace font.",
+      "<blockquote> is for quoting a block of text from another source — browsers indent it by default.",
+      "HTML entity codes let you display special characters: &copy; for copyright, &nbsp; for non-breaking space, &lt; for less than, &gt; for greater than, &amp; for ampersand.",
+      "HTML collapses whitespace — multiple spaces, tabs, and newlines become a single space. Use &nbsp; for forced spaces or CSS for layout spacing."
+    ]
+  },
+  "relatedTopics": ["html-structure-and-boilerplate", "links-and-navigation"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of this text markup?<br><pre><code>&lt;p&gt;I love &lt;strong&gt;chocolate&lt;/strong&gt; cake.&lt;/p&gt;</code></pre>",
+        "hint": "strong makes text bold.",
+        "answer": "A paragraph: 'I love <strong>chocolate</strong> cake.' with the word 'chocolate' shown in bold.",
+        "explanation": "The <code>&lt;strong&gt;</code> tag makes the enclosed text appear bold and also marks it as important for screen readers and search engines."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this render?<br><pre><code>&lt;p&gt;Press &lt;em&gt;any&lt;/em&gt; key to continue.&lt;/p&gt;</code></pre>",
+        "hint": "em is for emphasised text.",
+        "answer": "A paragraph: 'Press <em>any</em> key to continue.' with the word 'any' in italic.",
+        "explanation": "<code>&lt;em&gt;</code> emphasises text, displayed in italic by default. It tells screen readers to stress the word when reading aloud."
+      },
+      {
+        "id": "ts-3",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write HTML for a recipe heading with a subheading. Main heading: 'Mango Lassi'. Subheading: 'The perfect summer drink'.",
+        "hint": "Use h1 for the main heading and h2 for the subheading.",
+        "answer": "<pre><code>&lt;h1&gt;Mango Lassi&lt;/h1&gt;\n&lt;h2&gt;The perfect summer drink&lt;/h2&gt;</code></pre>",
+        "explanation": "A recipe page has a main title (h1) for the recipe name and a secondary heading (h2) for the tagline or description."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the difference between these two lines?<br><pre><code>&lt;h1&gt;Hello&lt;/h1&gt;\n&lt;h3&gt;Hello&lt;/h3&gt;</code></pre>",
+        "hint": "h1 is bigger than h3.",
+        "answer": "Both say 'Hello', but h1 is displayed as a very large heading, and h3 is a medium-sized heading.",
+        "explanation": "Heading tags h1-h6 have different default font sizes — h1 is the largest, h6 is the smallest. Each level signifies a different level of importance."
+      },
+      {
+        "id": "ts-5",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Rohan wanted to highlight a word. Why does this not work?<br><pre><code>&lt;p&gt;I love &lt;highlight&gt;mangoes&lt;/highlight&gt;.&lt;/p&gt;</code></pre>",
+        "hint": "There is a specific HTML tag for highlighting.",
+        "answer": "<pre><code>&lt;p&gt;I love &lt;mark&gt;mangoes&lt;/mark&gt;.&lt;/p&gt;</code></pre>",
+        "explanation": "There is no <code>&lt;highlight&gt;</code> tag in HTML. Use <code>&lt;mark&gt;</code> to highlight text with a yellow background."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this produce?<br><pre><code>&lt;p&gt;Water is H&lt;sub&gt;2&lt;/sub&gt;O.&lt;/p&gt;</code></pre>",
+        "hint": "sub is for subscript (below the line).",
+        "answer": "A paragraph: 'Water is H<sub>2</sub>O.' with the '2' shown smaller and below the baseline.",
+        "explanation": "<code>&lt;sub&gt;</code> creates subscript text — smaller and positioned below the baseline. It is commonly used in chemical formulas like H2O."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>&lt;p&gt;The area of a square is x&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;</code></pre>",
+        "hint": "sup is for superscript (above the line).",
+        "answer": "A paragraph: 'The area of a square is x<sup>2</sup>.' with the '2' shown smaller and above the baseline.",
+        "explanation": "<code>&lt;sup&gt;</code> creates superscript text — smaller and positioned above the baseline. It is commonly used in math expressions like x squared (x^2)."
+      },
+      {
+        "id": "ts-8",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write HTML for a paragraph that says 'Press Ctrl+S to save your work' where 'Ctrl' and 'S' are styled as keyboard keys.",
+        "hint": "Use the <kbd> tag for keyboard input.",
+        "answer": "<pre><code>&lt;p&gt;Press &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;S&lt;/kbd&gt; to save your work&lt;/p&gt;</code></pre>",
+        "explanation": "The <code>&lt;kbd&gt;</code> tag represents keyboard input. It is typically shown in a monospace font, making keyboard shortcuts stand out."
+      },
+      {
+        "id": "ts-9",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Why does this show 'Copyright copy 2026' instead of the copyright symbol?<br><pre><code>&lt;p&gt;Copyright &copy 2026&lt;/p&gt;</code></pre>",
+        "hint": "Entity codes need something at the end.",
+        "answer": "<pre><code>&lt;p&gt;Copyright &amp;copy; 2026&lt;/p&gt;</code></pre>",
+        "explanation": "HTML entity codes must end with a semicolon. <code>&amp;copy</code> (without semicolon) is invalid — use <code>&amp;copy;</code> to display the copyright symbol."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this render?<br><pre><code>&lt;p&gt;Old price: &lt;del&gt;Rs 500&lt;/del&gt; New price: &lt;ins&gt;Rs 350&lt;/ins&gt;&lt;/p&gt;</code></pre>",
+        "hint": "del is strikethrough, ins is inserted (underlined).",
+        "answer": "A paragraph showing 'Old price: <del>Rs 500</del> New price: <ins>Rs 350</ins>' with the old price crossed out and the new price underlined.",
+        "explanation": "<code>&lt;del&gt;</code> marks deleted content (shown with strikethrough) and <code>&lt;ins&gt;</code> marks inserted content (shown with underline). Commonly used for showing discounts or edits."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write HTML for a paragraph that highlights the word 'important' using the mark tag.",
+        "hint": "Use <mark>important</mark>.",
+        "answer": "<pre><code>&lt;p&gt;This message is &lt;mark&gt;important&lt;/mark&gt;.&lt;/p&gt;</code></pre>",
+        "explanation": "The <code>&lt;mark&gt;</code> tag highlights text with a yellow background by default. Use it to draw attention to specific words."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this render?<br><pre><code>&lt;p&gt;Hello        World&lt;/p&gt;</code></pre>",
+        "hint": "HTML treats whitespace specially.",
+        "answer": "A paragraph: 'Hello World' (only a single space between 'Hello' and 'World').",
+        "explanation": "HTML collapses all whitespace (multiple spaces, tabs, newlines) into a single space. To force multiple spaces, use <code>&amp;nbsp;</code> entities or CSS."
+      },
+      {
+        "id": "ts-13",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Ananya has this code but wants 'Dr. Priya' to stay on the same line (currently it wraps). Fix it:<br><pre><code>&lt;p&gt;Thank you Dr. Priya for the guidance.&lt;/p&gt;</code></pre>",
+        "hint": "Use a non-breaking space.",
+        "answer": "<pre><code>&lt;p&gt;Thank you Dr.&amp;nbsp;Priya for the guidance.&lt;/p&gt;</code></pre>",
+        "explanation": "A non-breaking space <code>&amp;nbsp;</code> prevents the browser from breaking the line at that point. It keeps 'Dr.' and 'Priya' together as one unit."
+      },
+      {
+        "id": "ts-14",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write HTML for a blockquote containing a quote by Vikram: 'Hard work beats talent when talent does not work hard.'",
+        "hint": "Use <blockquote> with a <p> inside.",
+        "answer": "<pre><code>&lt;blockquote&gt;\n  &lt;p&gt;Hard work beats talent when talent does not work hard.&lt;/p&gt;\n  &lt;p&gt;- Vikram&lt;/p&gt;\n&lt;/blockquote&gt;</code></pre>",
+        "explanation": "The <code>&lt;blockquote&gt;</code> tag is for quoting blocks of text. Paragraphs inside get indented by default. The author attribution goes in a second paragraph."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this render?<br><pre><code>&lt;p&gt;The &lt;code&gt;console.log()&lt;/code&gt; function prints output.&lt;/p&gt;</code></pre>",
+        "hint": "code shows text in monospace font.",
+        "answer": "A paragraph where 'console.log()' is shown in a monospace (typewriter-style) font.",
+        "explanation": "The <code>&lt;code&gt;</code> tag is used to display inline computer code. Browsers render it in a monospace font by default, making code stand out from regular text."
+      },
+      {
+        "id": "ts-16",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Why does this page have 3 h1 tags and what should be done?<br><pre><code>&lt;h1&gt;About&lt;/h1&gt;\n&lt;h1&gt;Hobbies&lt;/h1&gt;\n&lt;h1&gt;Contact&lt;/h1&gt;</code></pre>",
+        "hint": "Best practice says only one h1 per page.",
+        "answer": "<pre><code>&lt;h1&gt;About Me&lt;/h1&gt;\n&lt;h2&gt;Hobbies&lt;/h2&gt;\n&lt;h2&gt;Contact&lt;/h2&gt;</code></pre>",
+        "explanation": "Only one <code>&lt;h1&gt;</code> should appear per page — it represents the main topic. Sub-sections should use <code>&lt;h2&gt;</code>, and sub-sub-sections should use <code>&lt;h3&gt;</code>, and so on."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this render?<br><pre><code>&lt;p&gt;To show &amp;lt;p&amp;gt; on the page, use &amp;amp;lt; and &amp;amp;gt;.&lt;/p&gt;</code></pre>",
+        "hint": "Think about how entities work.",
+        "answer": "A paragraph: 'To show &lt;p&gt; on the page, use &amp;lt; and &amp;gt;.'",
+        "explanation": "<code>&amp;lt;</code> renders as <code>&lt;</code>, <code>&amp;gt;</code> renders as <code>&gt;</code>, and <code>&amp;amp;</code> renders as <code>&amp;</code>. So <code>&amp;amp;lt;</code> renders as <code>&amp;lt;</code> (the text form)."
+      },
+      {
+        "id": "ts-18",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write HTML for a paragraph that combines bold, italic, and highlighted text: make 'Sale' bold, 'today' highlighted, and 'limited time' italic.",
+        "hint": "Combine strong, mark, and em.",
+        "answer": "<pre><code>&lt;p&gt;&lt;strong&gt;Sale&lt;/strong&gt; &lt;mark&gt;today&lt;/mark&gt; only - &lt;em&gt;limited time&lt;/em&gt; offer!&lt;/p&gt;</code></pre>",
+        "explanation": "You can combine multiple inline formatting tags freely. Each tag applies its styling to its own content."
+      },
+      {
+        "id": "ts-19",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Priya wrote this address but it shows on one line. Fix it so the city is on a new line:<br><pre><code>&lt;p&gt;123 Park Street Mumbai 400001&lt;/p&gt;</code></pre>",
+        "hint": "Use br for a line break inside the same paragraph.",
+        "answer": "<pre><code>&lt;p&gt;123 Park Street&lt;br&gt;Mumbai 400001&lt;/p&gt;</code></pre>",
+        "explanation": "<code>&lt;br&gt;</code> creates a line break inside a paragraph without starting a new paragraph. It is perfect for addresses, poems, and lyrics."
+      },
+      {
+        "id": "ts-20",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write HTML for a chemistry equation: 'The formula for water is H2O and carbon dioxide is CO2' where the 2 is subscript.",
+        "hint": "Use <sub>.",
+        "answer": "<pre><code>&lt;p&gt;The formula for water is H&lt;sub&gt;2&lt;/sub&gt;O and carbon dioxide is CO&lt;sub&gt;2&lt;/sub&gt;&lt;/p&gt;</code></pre>",
+        "explanation": "In chemical formulas, the numbers are written as subscript. The <code>&lt;sub&gt;</code> tag lowers the number and makes it smaller."
+      },
+      {
+        "id": "ts-21",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this render?<br><pre><code>&lt;p&gt;Copyright &amp;copy; 2026 Modern&amp;nbsp;Age&amp;nbsp;Coders&lt;/p&gt;</code></pre>",
+        "hint": "&copy; is the copyright symbol, &nbsp; is a non-breaking space.",
+        "answer": "A paragraph: 'Copyright &copy; 2026 Modern Age Coders' where 'Modern Age Coders' will never wrap in the middle.",
+        "explanation": "<code>&amp;copy;</code> renders the copyright symbol. <code>&amp;nbsp;</code> is a non-breaking space that keeps words together even if the line would wrap."
+      },
+      {
+        "id": "ts-22",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "Neha wanted to show HTML code on her page, but the browser is rendering it instead of displaying it as text. How does she fix this?<br><pre><code>&lt;p&gt;To make a bold word, use &lt;strong&gt;hello&lt;/strong&gt;&lt;/p&gt;</code></pre>",
+        "hint": "She needs to escape the < and > characters.",
+        "answer": "<pre><code>&lt;p&gt;To make a bold word, use &amp;lt;strong&amp;gt;hello&amp;lt;/strong&amp;gt;&lt;/p&gt;</code></pre>",
+        "explanation": "To display HTML tags as text (not have the browser interpret them), replace <code>&lt;</code> with <code>&amp;lt;</code> and <code>&gt;</code> with <code>&amp;gt;</code>. Otherwise the browser treats them as real tags and renders them."
+      },
+      {
+        "id": "ts-23",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a complete HTML page for a blog post: title 'My First HTML Lesson', one h1, one h2, two paragraphs with a mix of strong and em formatting, a blockquote, and a horizontal rule separator.",
+        "hint": "Combine boilerplate with h1, h2, p, strong, em, blockquote, and hr.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;title&gt;My First HTML Lesson&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;My First HTML Lesson&lt;/h1&gt;\n  &lt;h2&gt;What I Learned Today&lt;/h2&gt;\n  &lt;p&gt;Today I learned about &lt;strong&gt;headings&lt;/strong&gt; and &lt;strong&gt;paragraphs&lt;/strong&gt;.&lt;/p&gt;\n  &lt;p&gt;HTML is &lt;em&gt;really&lt;/em&gt; fun once you understand the basics.&lt;/p&gt;\n  &lt;hr&gt;\n  &lt;blockquote&gt;\n    &lt;p&gt;Learning is the only thing the mind never exhausts.&lt;/p&gt;\n    &lt;p&gt;- Leonardo da Vinci&lt;/p&gt;\n  &lt;/blockquote&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "A real blog post structure: main heading (h1), section heading (h2), paragraphs with semantic formatting, a visual separator (hr), and a blockquote for a related quote."
+      },
+      {
+        "id": "ts-24",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this render?<br><pre><code>&lt;p&gt;x&lt;sup&gt;2&lt;/sup&gt; + y&lt;sup&gt;2&lt;/sup&gt; = r&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;</code></pre>",
+        "hint": "sup creates superscript.",
+        "answer": "A paragraph: 'x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup>' (the Pythagoras-style circle equation).",
+        "explanation": "<code>&lt;sup&gt;</code> makes text superscript. This is commonly used for math exponents like x squared, y squared, and r squared."
+      },
+      {
+        "id": "ts-25",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "Aarav's fractions look weird. He wants '1/2' but sees '12'. Fix it:<br><pre><code>&lt;p&gt;Add &lt;sup&gt;1&lt;/sup&gt;&lt;sub&gt;2&lt;/sub&gt; cup of milk.&lt;/p&gt;</code></pre>",
+        "hint": "He needs a visible division symbol or a slash.",
+        "answer": "<pre><code>&lt;p&gt;Add &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; cup of milk.&lt;/p&gt;\n&lt;!-- Or simpler: --&gt;\n&lt;p&gt;Add 1/2 cup of milk.&lt;/p&gt;</code></pre>",
+        "explanation": "There is no divider between the superscript 1 and subscript 2. Add a slash, the <code>&amp;frasl;</code> (fraction slash) entity, or just use plain '1/2'. HTML also has entities like <code>&amp;frac12;</code> for common fractions."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this render?<br><pre><code>&lt;h2&gt;&lt;em&gt;Section One&lt;/em&gt;&lt;/h2&gt;</code></pre>",
+        "hint": "em is italic, inside an h2 heading.",
+        "answer": "A medium heading 'Section One' shown in italic.",
+        "explanation": "You can nest inline tags like <code>&lt;em&gt;</code> inside block-level tags like <code>&lt;h2&gt;</code>. The heading becomes italic because of the em tag."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write HTML for a paragraph with the word 'warning' highlighted and 'do not skip' in bold.",
+        "hint": "Use mark and strong.",
+        "answer": "<pre><code>&lt;p&gt;&lt;mark&gt;Warning&lt;/mark&gt;: &lt;strong&gt;do not skip&lt;/strong&gt; this step.&lt;/p&gt;</code></pre>",
+        "explanation": "You can combine multiple inline tags within one paragraph to highlight different kinds of text in different ways."
+      },
+      {
+        "id": "mx-3",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Fix the entity in this code:<br><pre><code>&lt;p&gt;5 &amp;lt 10&lt;/p&gt;</code></pre>",
+        "hint": "Missing a character at the end.",
+        "answer": "<pre><code>&lt;p&gt;5 &amp;lt; 10&lt;/p&gt;</code></pre>",
+        "explanation": "Every HTML entity must end with a semicolon. <code>&amp;lt</code> without the semicolon may not work. Always write <code>&amp;lt;</code> with the semicolon."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many visible lines appear on the page?<br><pre><code>&lt;p&gt;Line 1&lt;br&gt;Line 2&lt;/p&gt;\n&lt;p&gt;Line 3&lt;/p&gt;</code></pre>",
+        "hint": "Count the line breaks and paragraphs.",
+        "answer": "Three lines: 'Line 1', 'Line 2' (inside the same paragraph as Line 1 but on a new line due to br), and 'Line 3' (a separate paragraph).",
+        "explanation": "The br creates a line break inside the first paragraph, so Lines 1 and 2 are on separate lines within one paragraph. Line 3 is a separate paragraph with extra space above it."
+      },
+      {
+        "id": "mx-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a heading and a paragraph. Heading: 'Fun Facts'. Paragraph: 'Did you know? Elephants are the largest land animals.'",
+        "hint": "Use h2 or h1 for the heading and p for the paragraph.",
+        "answer": "<pre><code>&lt;h2&gt;Fun Facts&lt;/h2&gt;\n&lt;p&gt;Did you know? Elephants are the largest land animals.&lt;/p&gt;</code></pre>",
+        "explanation": "A simple pattern: a heading followed by a paragraph. This is the most common content structure on the web."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this render?<br><pre><code>&lt;p&gt;a&lt;sub&gt;1&lt;/sub&gt; + a&lt;sub&gt;2&lt;/sub&gt; + ... + a&lt;sub&gt;n&lt;/sub&gt;&lt;/p&gt;</code></pre>",
+        "hint": "sub makes small text below the baseline.",
+        "answer": "A paragraph showing a mathematical sum: 'a<sub>1</sub> + a<sub>2</sub> + ... + a<sub>n</sub>' with subscript numbers.",
+        "explanation": "Subscript is used to show index numbers in sequences, like a_1, a_2, and so on. It is common in math and chemistry."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write HTML for showing the chemical equation 'H2O + CO2 = H2CO3' with proper subscripts.",
+        "hint": "Each number should be wrapped in <sub>.",
+        "answer": "<pre><code>&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O + CO&lt;sub&gt;2&lt;/sub&gt; = H&lt;sub&gt;2&lt;/sub&gt;CO&lt;sub&gt;3&lt;/sub&gt;&lt;/p&gt;</code></pre>",
+        "explanation": "In chemistry, all numbers that show atom counts go in <code>&lt;sub&gt;</code> tags so they appear as subscript."
+      },
+      {
+        "id": "mx-8",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Rohan wants the text 'Click here' to be small but stands out. He wrote:<br><pre><code>&lt;small&gt;&lt;strong&gt;Click here&lt;/strong&gt;&lt;/small&gt;</code></pre>What is wrong (or right)?",
+        "hint": "Think about nesting order.",
+        "answer": "Actually, this is valid HTML. Both orders work: <code>&lt;small&gt;&lt;strong&gt;...&lt;/strong&gt;&lt;/small&gt;</code> or <code>&lt;strong&gt;&lt;small&gt;...&lt;/small&gt;&lt;/strong&gt;</code>. The text will be small and bold.",
+        "explanation": "You can nest formatting tags freely — the order does not matter for the visual result. Both <code>strong</code> and <code>small</code> are inline tags and can be combined in either order."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this render visually?<br><pre><code>&lt;blockquote&gt;\n  &lt;p&gt;Never give up.&lt;/p&gt;\n&lt;/blockquote&gt;</code></pre>",
+        "hint": "Blockquotes are usually indented.",
+        "answer": "An indented paragraph saying 'Never give up.' — usually with some left padding to visually separate it from regular paragraphs.",
+        "explanation": "Browsers indent blockquotes by default to visually set them apart. This makes it clear that the content is quoted from another source."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write HTML to display: 'Press Ctrl+C to copy, Ctrl+V to paste' with all keyboard keys using the kbd tag.",
+        "hint": "Each key gets its own <kbd>.",
+        "answer": "<pre><code>&lt;p&gt;Press &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;C&lt;/kbd&gt; to copy, &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;V&lt;/kbd&gt; to paste&lt;/p&gt;</code></pre>",
+        "explanation": "Each keyboard key is wrapped in its own <code>&lt;kbd&gt;</code> tag so each key looks distinct and monospace."
+      },
+      {
+        "id": "mx-11",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Ananya's text has weird spacing — she wants to force 5 spaces but they all collapse. Fix it:<br><pre><code>&lt;p&gt;Hello     World&lt;/p&gt;</code></pre>",
+        "hint": "Use non-breaking space entities.",
+        "answer": "<pre><code>&lt;p&gt;Hello&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;World&lt;/p&gt;</code></pre>",
+        "explanation": "HTML collapses multiple spaces to one. Use <code>&amp;nbsp;</code> (non-breaking space) multiple times to force specific number of spaces. For real layout though, use CSS."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a complete HTML page that displays a math formula: 'The distance formula is d = square-root of ((x2-x1) squared + (y2-y1) squared)' using proper subscript and superscript.",
+        "hint": "Use sub for variable indices and sup for powers.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;title&gt;Math&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;Distance Formula&lt;/h1&gt;\n  &lt;p&gt;d = &amp;radic;((x&lt;sub&gt;2&lt;/sub&gt; - x&lt;sub&gt;1&lt;/sub&gt;)&lt;sup&gt;2&lt;/sup&gt; + (y&lt;sub&gt;2&lt;/sub&gt; - y&lt;sub&gt;1&lt;/sub&gt;)&lt;sup&gt;2&lt;/sup&gt;)&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "The distance formula uses subscripts for coordinate indices (x1, x2, y1, y2) and superscripts for the power of 2. The <code>&amp;radic;</code> entity is the square root symbol."
+      },
+      {
+        "id": "mx-13",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "This page has an h1 followed by another h1. Why is this a problem and how do you fix it?<br><pre><code>&lt;h1&gt;Welcome&lt;/h1&gt;\n&lt;p&gt;Hello visitor.&lt;/p&gt;\n&lt;h1&gt;About Me&lt;/h1&gt;\n&lt;p&gt;I am 14 years old.&lt;/p&gt;</code></pre>",
+        "hint": "SEO best practices.",
+        "answer": "<pre><code>&lt;h1&gt;Welcome&lt;/h1&gt;\n&lt;p&gt;Hello visitor.&lt;/p&gt;\n&lt;h2&gt;About Me&lt;/h2&gt;\n&lt;p&gt;I am 14 years old.&lt;/p&gt;</code></pre>",
+        "explanation": "A page should have only one h1 (the main topic). Sub-sections should use h2 and below. Multiple h1 tags confuse search engines and accessibility tools."
+      },
+      {
+        "id": "mx-14",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write HTML to show a shopping discount. Use del for old price, ins for new price, mark to highlight the discount percentage, and strong for the product name. Example: 'Samsung Phone - old Rs 30000, new Rs 25000 - 17% off'.",
+        "hint": "Combine del, ins, mark, and strong in one paragraph.",
+        "answer": "<pre><code>&lt;p&gt;&lt;strong&gt;Samsung Phone&lt;/strong&gt; - &lt;del&gt;Rs 30000&lt;/del&gt; &lt;ins&gt;Rs 25000&lt;/ins&gt; - &lt;mark&gt;17% off&lt;/mark&gt;&lt;/p&gt;</code></pre>",
+        "explanation": "This combines all four tags: strong for product importance, del for the crossed-out old price, ins for the new underlined price, and mark to highlight the discount."
+      },
+      {
+        "id": "mx-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What happens when you write this code in HTML?<br><pre><code>&lt;p&gt;&amp;lt;strong&amp;gt;Hello&amp;lt;/strong&amp;gt;&lt;/p&gt;</code></pre>",
+        "hint": "The entities are doing their job.",
+        "answer": "A paragraph showing the literal text: '&lt;strong&gt;Hello&lt;/strong&gt;' — not bold, just the tag characters shown as text.",
+        "explanation": "The entity codes <code>&amp;lt;</code> and <code>&amp;gt;</code> render as <code>&lt;</code> and <code>&gt;</code> respectively. So the browser shows the text as if it were typed, without interpreting it as an HTML tag."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which tag creates the biggest heading?",
+        "options": {
+          "A": "<h6>",
+          "B": "<heading>",
+          "C": "<h1>",
+          "D": "<big>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>&lt;h1&gt;</code> is the largest heading. Heading tags go from h1 (biggest) to h6 (smallest)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which tag creates a paragraph?",
+        "options": {
+          "A": "<paragraph>",
+          "B": "<p>",
+          "C": "<para>",
+          "D": "<text>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>&lt;p&gt;</code> tag creates a paragraph. Browsers automatically add vertical space between paragraphs."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which tag creates a line break?",
+        "options": {
+          "A": "<lb>",
+          "B": "<break>",
+          "C": "<br>",
+          "D": "<newline>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>&lt;br&gt;</code> creates a line break. It is a self-closing tag and does not need a closing tag."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which tag draws a horizontal line?",
+        "options": {
+          "A": "<line>",
+          "B": "<hr>",
+          "C": "<horizontal>",
+          "D": "<divider>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;hr&gt;</code> (horizontal rule) draws a horizontal line across the page, useful for separating sections."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which tag is for important text (shown bold with semantic meaning)?",
+        "options": {
+          "A": "<b>",
+          "B": "<important>",
+          "C": "<strong>",
+          "D": "<bold>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>&lt;strong&gt;</code> is the semantic tag for important text. It is bold and also announced with emphasis by screen readers. <code>&lt;b&gt;</code> just makes text bold without semantic meaning."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which tag creates highlighted (yellow background) text?",
+        "options": {
+          "A": "<highlight>",
+          "B": "<mark>",
+          "C": "<yellow>",
+          "D": "<hl>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;mark&gt;</code> highlights text, shown with a yellow background by default."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "Which entity displays the copyright symbol?",
+        "options": {
+          "A": "&copyright;",
+          "B": "&c;",
+          "C": "&copy;",
+          "D": "&copywrite;"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>&amp;copy;</code> renders as the copyright symbol (©). All HTML entities start with <code>&amp;</code> and end with <code>;</code>."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Easy",
+        "question": "Which tag is for subscript (text below the line)?",
+        "options": {
+          "A": "<sub>",
+          "B": "<sup>",
+          "C": "<small>",
+          "D": "<down>"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> <code>&lt;sub&gt;</code> creates subscript, used in chemical formulas like H2O. <code>&lt;sup&gt;</code> is for superscript, used in math like x^2."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "How many <h1> tags should a page typically have?",
+        "options": {
+          "A": "Zero",
+          "B": "One",
+          "C": "At least three",
+          "D": "As many as needed"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Best practice is to use only ONE <code>&lt;h1&gt;</code> per page, representing the main topic. Use h2 and h3 for sub-sections."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What does <em> stand for?",
+        "options": {
+          "A": "Email",
+          "B": "Emphasis (italic)",
+          "C": "Empty",
+          "D": "Embed"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;em&gt;</code> stands for emphasis. It makes text italic and signals to screen readers that the word should be stressed."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What happens if you type multiple spaces between words in HTML?",
+        "options": {
+          "A": "They all show on the page",
+          "B": "HTML collapses them to a single space",
+          "C": "The page breaks",
+          "D": "Nothing shows"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> HTML collapses multiple spaces, tabs, and newlines into a single space. Use <code>&amp;nbsp;</code> for forced spaces or CSS for layout."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Which entity is used for a non-breaking space?",
+        "options": {
+          "A": "&space;",
+          "B": "&nbsp;",
+          "C": "&nb;",
+          "D": "&nsp;"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&amp;nbsp;</code> (non-breaking space) forces a space that will not be collapsed and prevents line wrapping at that point."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "Which tag is for quoted blocks of text?",
+        "options": {
+          "A": "<quote>",
+          "B": "<blockquote>",
+          "C": "<cite>",
+          "D": "<q>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;blockquote&gt;</code> is for quoting blocks of text from another source. Browsers indent it by default. <code>&lt;q&gt;</code> is for short inline quotes."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "What is the difference between <strong> and <b>?",
+        "options": {
+          "A": "No difference at all",
+          "B": "<strong> has semantic meaning (important), <b> is just bold styling",
+          "C": "<strong> is italic, <b> is bold",
+          "D": "<strong> is bigger than <b>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Both look bold, but <code>&lt;strong&gt;</code> carries semantic meaning (this is important), while <code>&lt;b&gt;</code> just adds visual bold styling. Prefer <code>&lt;strong&gt;</code> for accessibility."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "Which entity represents the less-than symbol (<)?",
+        "options": {
+          "A": "&less;",
+          "B": "&lt;",
+          "C": "&l;",
+          "D": "&small;"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&amp;lt;</code> renders as the less-than symbol. Since < is used in HTML tags, you need this entity to display it as text."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Which tag is best for showing keyboard shortcuts?",
+        "options": {
+          "A": "<key>",
+          "B": "<kbd>",
+          "C": "<code>",
+          "D": "<input>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;kbd&gt;</code> is the semantic tag for keyboard input. It is typically shown in monospace font to mimic keys."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What does H<sub>2</sub>SO<sub>4</sub> represent in HTML?",
+        "options": {
+          "A": "A mistake",
+          "B": "The chemical formula for sulphuric acid with subscript numbers",
+          "C": "H2 and SO4 as separate words",
+          "D": "A heading"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Using <code>&lt;sub&gt;</code> tags lets you write chemical formulas correctly. H<sub>2</sub>SO<sub>4</sub> is sulphuric acid with the numbers as subscripts."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Which statement is TRUE about HTML whitespace?",
+        "options": {
+          "A": "HTML preserves all whitespace exactly as typed",
+          "B": "HTML collapses multiple whitespace characters into a single space",
+          "C": "Whitespace is not allowed in HTML",
+          "D": "Only spaces inside paragraphs are collapsed"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> HTML collapses runs of whitespace (spaces, tabs, newlines) into a single space when rendered. For exact whitespace, use <code>&lt;pre&gt;</code> or CSS."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "Which tag should be used for short inline code?",
+        "options": {
+          "A": "<pre>",
+          "B": "<script>",
+          "C": "<code>",
+          "D": "<text>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>&lt;code&gt;</code> is for inline computer code, displayed in monospace font. <code>&lt;pre&gt;</code> is for preformatted blocks where whitespace matters."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "What does the <del> tag display by default?",
+        "options": {
+          "A": "Underlined text",
+          "B": "Italic text",
+          "C": "Bold text",
+          "D": "Strikethrough text"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> <code>&lt;del&gt;</code> marks deleted text and is shown with a strikethrough line by default. Its opposite is <code>&lt;ins&gt;</code> (inserted, shown underlined)."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Proper Heading Hierarchy",
+        "difficulty": "Easy",
+        "question": "Create a complete HTML page about your school with one h1 (school name), two h2 sections ('About' and 'Facilities'), and a paragraph under each h2.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A page with proper heading hierarchy — one h1, two h2 sections, each with a paragraph.",
+        "constraints": "Must have exactly one h1, multiple h2s, and proper HTML boilerplate.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>My School</title>\n</head>\n<body>\n  <h1>Modern Public School</h1>\n  <h2>About</h2>\n  <p>Modern Public School was founded in 1985 and is one of the top schools in Delhi.</p>\n  <h2>Facilities</h2>\n  <p>We have a large library, a science lab, a computer lab, and a big playground.</p>\n</body>\n</html>",
+        "explanation": "Proper heading hierarchy: one h1 for the school name (the main topic), and h2 for each major section. This structure is SEO-friendly and accessible.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>School Page</title>\n</head>\n<body>\n  <h1>St. Mary's School</h1>\n  <h2>About Us</h2>\n  <p>Our school has been serving students for over 50 years.</p>\n  <h2>Our Facilities</h2>\n  <p>Library, labs, playground, and more.</p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Formatted Paragraph",
+        "difficulty": "Easy",
+        "question": "Write a complete HTML page with a paragraph that uses strong, em, and mark tags together. Topic: a safety warning about crossing the road.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A page with a formatted paragraph using all three inline formatting tags.",
+        "constraints": "Must use strong, em, and mark in a single paragraph with proper HTML5 boilerplate.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Safety</title>\n</head>\n<body>\n  <h1>Safety First</h1>\n  <p><mark>Warning:</mark> Always <strong>look both ways</strong> before crossing the road. Never cross <em>without checking</em> for vehicles.</p>\n</body>\n</html>",
+        "explanation": "This paragraph uses mark to highlight 'Warning:', strong to emphasise the important action 'look both ways', and em to stress the word 'without checking'. Each tag has a clear semantic purpose.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Safety</title>\n</head>\n<body>\n  <h1>Road Safety</h1>\n  <p><mark>Important:</mark> <strong>Use the zebra crossing</strong> when available. <em>Never run</em> across the street.</p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Chemistry Formulas Page",
+        "difficulty": "Medium",
+        "question": "Create a complete HTML page that shows three chemical formulas as paragraphs: water (H2O), carbon dioxide (CO2), and sulphuric acid (H2SO4). Each number should be a proper subscript.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A page with a heading 'Common Chemicals' and three paragraphs with subscript numbers in the formulas.",
+        "constraints": "Use <sub> for every number in the chemical formulas.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Common Chemicals</title>\n</head>\n<body>\n  <h1>Common Chemicals</h1>\n  <p>Water: H<sub>2</sub>O</p>\n  <p>Carbon Dioxide: CO<sub>2</sub></p>\n  <p>Sulphuric Acid: H<sub>2</sub>SO<sub>4</sub></p>\n</body>\n</html>",
+        "explanation": "Each number in a chemical formula represents how many atoms of that element are in the molecule. Subscript makes it clear they are not regular numbers.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Chemistry</title>\n</head>\n<body>\n  <h1>Chemical Formulas</h1>\n  <ul>\n    <li>Water: H<sub>2</sub>O</li>\n    <li>CO<sub>2</sub>: Carbon Dioxide</li>\n    <li>H<sub>2</sub>SO<sub>4</sub>: Sulphuric Acid</li>\n  </ul>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Math Equations Page",
+        "difficulty": "Medium",
+        "question": "Build a complete HTML page showing three math equations: 'a squared plus b squared = c squared (Pythagoras)', 'Area of a circle = pi r squared', and 'e = m c squared'. Use superscript for the powers.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A page with a heading 'Famous Equations' and three paragraphs with proper superscript for squared numbers.",
+        "constraints": "Use <sup> for every exponent.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Famous Equations</title>\n</head>\n<body>\n  <h1>Famous Equations</h1>\n  <p>Pythagoras theorem: a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></p>\n  <p>Area of a circle: A = &pi;r<sup>2</sup></p>\n  <p>Einstein's mass-energy: E = mc<sup>2</sup></p>\n</body>\n</html>",
+        "explanation": "Superscript tags raise text above the baseline, perfect for math exponents. The <code>&amp;pi;</code> entity displays the Greek letter pi.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Equations</title>\n</head>\n<body>\n  <h1>Equations</h1>\n  <p>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></p>\n  <p>A = pi r<sup>2</sup></p>\n  <p>E = mc<sup>2</sup></p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Famous Quote Page",
+        "difficulty": "Medium",
+        "question": "Create a page with a heading, an intro paragraph, a blockquote with a famous quote and its author, a horizontal rule, and a closing paragraph.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A quote page with proper structure using blockquote and hr.",
+        "constraints": "Use h1, p, blockquote, and hr tags.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Inspirational Quote</title>\n</head>\n<body>\n  <h1>Quote of the Day</h1>\n  <p>Here is an inspiring quote from a great Indian leader:</p>\n  <blockquote>\n    <p>You must be the change you wish to see in the world.</p>\n    <p>- Mahatma Gandhi</p>\n  </blockquote>\n  <hr>\n  <p>Let this inspire you to do something meaningful today.</p>\n</body>\n</html>",
+        "explanation": "The blockquote separates the quoted text from your own writing. The hr creates a visual break between the quote and the closing paragraph.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Quote</title>\n</head>\n<body>\n  <h1>Daily Inspiration</h1>\n  <p>Read this carefully:</p>\n  <blockquote>\n    <p>Strive not to be a success, but rather to be of value.</p>\n    <p>- Albert Einstein</p>\n  </blockquote>\n  <hr>\n  <p>Apply this wisdom today.</p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Shopping Discount Display",
+        "difficulty": "Hard",
+        "question": "Create an HTML page for three products. For each product, show the product name in strong, old price in del, new price in ins, and the discount in mark.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A page listing three products with their old prices crossed out and new prices shown with discount percentages highlighted.",
+        "constraints": "Use strong, del, ins, and mark for each product. Include full boilerplate.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Sale</title>\n</head>\n<body>\n  <h1>Diwali Sale</h1>\n  <p><strong>Samsung Phone</strong> - <del>Rs 30000</del> <ins>Rs 24000</ins> - <mark>20% off</mark></p>\n  <p><strong>Laptop Bag</strong> - <del>Rs 2000</del> <ins>Rs 1400</ins> - <mark>30% off</mark></p>\n  <p><strong>Wireless Headphones</strong> - <del>Rs 5000</del> <ins>Rs 3500</ins> - <mark>30% off</mark></p>\n</body>\n</html>",
+        "explanation": "This structured display uses multiple formatting tags to convey pricing information clearly. Each tag has a purpose: strong for importance, del for crossed-out old prices, ins for new prices, and mark for the discount highlight.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Sale</title>\n</head>\n<body>\n  <h1>Festive Sale</h1>\n  <p><strong>Book Set</strong>: <del>Rs 1500</del> <ins>Rs 1000</ins> - <mark>33% off</mark></p>\n  <p><strong>Cricket Bat</strong>: <del>Rs 2500</del> <ins>Rs 2000</ins> - <mark>20% off</mark></p>\n  <p><strong>Painting Kit</strong>: <del>Rs 800</del> <ins>Rs 500</ins> - <mark>38% off</mark></p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-7",
+        "title": "Keyboard Shortcut Guide",
+        "difficulty": "Hard",
+        "question": "Create a complete HTML page titled 'Keyboard Shortcut Guide'. Include a heading, intro paragraph, and at least 4 shortcuts. Each shortcut should be in a paragraph with all keys wrapped in <kbd> tags, and a short description.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A keyboard shortcut guide with multiple shortcuts, each using kbd tags for the keys.",
+        "constraints": "Every key must be in its own <kbd> tag. Include full boilerplate.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Keyboard Shortcut Guide</title>\n</head>\n<body>\n  <h1>Keyboard Shortcut Guide</h1>\n  <p>Save time by using these common keyboard shortcuts on Windows.</p>\n  <p><kbd>Ctrl</kbd>+<kbd>C</kbd> - Copy selected text or files.</p>\n  <p><kbd>Ctrl</kbd>+<kbd>V</kbd> - Paste copied content.</p>\n  <p><kbd>Ctrl</kbd>+<kbd>Z</kbd> - Undo your last action.</p>\n  <p><kbd>Ctrl</kbd>+<kbd>S</kbd> - Save the current file.</p>\n  <p><kbd>Alt</kbd>+<kbd>Tab</kbd> - Switch between open applications.</p>\n</body>\n</html>",
+        "explanation": "Each key is wrapped in its own <code>&lt;kbd&gt;</code> tag so it renders distinctly in monospace font, making keyboard shortcuts look professional and easy to read.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Shortcuts</title>\n</head>\n<body>\n  <h1>Mac Shortcuts</h1>\n  <p>Use these shortcuts to be a power user.</p>\n  <p><kbd>Cmd</kbd>+<kbd>C</kbd> - Copy</p>\n  <p><kbd>Cmd</kbd>+<kbd>V</kbd> - Paste</p>\n  <p><kbd>Cmd</kbd>+<kbd>Z</kbd> - Undo</p>\n  <p><kbd>Cmd</kbd>+<kbd>S</kbd> - Save</p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-8",
+        "title": "Complete Blog Post With Formatting",
+        "difficulty": "Hard",
+        "question": "Build a complete blog post with: title, author line (small), intro paragraph with strong and em text, a blockquote, a section with keyboard shortcut using kbd, a code snippet using code, entity codes like &copy;, and a horizontal rule. Topic: 'My Week Learning HTML'.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A richly formatted blog post using all the text formatting tags from this chapter.",
+        "constraints": "Must use h1, h2, p, small, strong, em, blockquote, kbd, code, hr, and at least one entity code.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>My Week Learning HTML</title>\n</head>\n<body>\n  <h1>My Week Learning HTML</h1>\n  <p><small>By Ananya Singh, posted on April 11, 2026</small></p>\n\n  <p>This week, I learned the <strong>basics</strong> of HTML. It was <em>incredibly fun</em> and much easier than I thought.</p>\n\n  <h2>What Inspired Me</h2>\n  <blockquote>\n    <p>The only way to learn to code is to write code every day.</p>\n    <p>- Unknown</p>\n  </blockquote>\n\n  <h2>My Favourite Shortcut</h2>\n  <p>I use <kbd>Ctrl</kbd>+<kbd>S</kbd> all the time to save my HTML files before refreshing the browser.</p>\n\n  <h2>My First Code</h2>\n  <p>The first code I learned was: <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>. So simple yet so powerful.</p>\n\n  <hr>\n  <p><small>Copyright &copy; 2026 Ananya Singh. All rights reserved.</small></p>\n</body>\n</html>",
+        "explanation": "This is a comprehensive blog post using every major text formatting tag from this chapter. It is also a realistic structure you could actually publish. Notice how each tag serves a specific semantic purpose — not just visual style.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>My HTML Journey</title>\n</head>\n<body>\n  <h1>My HTML Journey</h1>\n  <p><small>By Rohan, April 2026</small></p>\n  <p>I started learning <strong>HTML</strong> last Monday. It has been <em>amazing</em>.</p>\n  <h2>Quote</h2>\n  <blockquote><p>Code is poetry.</p></blockquote>\n  <h2>Tips</h2>\n  <p>Press <kbd>F12</kbd> to see the HTML of any page.</p>\n  <p>My first line was <code>&lt;p&gt;Hello&lt;/p&gt;</code>.</p>\n  <hr>\n  <p><small>&copy; 2026 Rohan</small></p>\n</body>\n</html>"
+      }
+    ]
+  }
+}

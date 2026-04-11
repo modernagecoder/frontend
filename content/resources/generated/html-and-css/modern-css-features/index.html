@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern CSS - Container Queries, Subgrid, clamp(), has() Selector - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn the latest CSS: container queries, subgrid, clamp() for fluid typography, :has() parent selector, aspect-ratio.">
+    <meta name="keywords" content="modern css - container queries, subgrid, clamp(), has() selector, html and css tutorial, html and css modern css - container queries, subgrid, clamp(), has() selector, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/modern-css-features">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/modern-css-features">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/modern-css-features">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/modern-css-features">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/modern-css-features">
+    <meta property="og:title" content="Modern CSS - Container Queries, Subgrid, clamp(), has() Selector - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Learn the latest CSS: container queries, subgrid, clamp() for fluid typography, :has() parent selector, aspect-ratio.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/modern-css-features">
+    <meta name="twitter:title" content="Modern CSS - Container Queries, Subgrid, clamp(), has() Selector - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Learn the latest CSS: container queries, subgrid, clamp() for fluid typography, :has() parent selector, aspect-ratio.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Modern CSS - Container Queries, Subgrid, clamp(), has() Selector",
+    "description": "Learn the latest CSS: container queries, subgrid, clamp() for fluid typography, :has() parent selector, aspect-ratio.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/modern-css-features"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/modern-css-features"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Modern CSS - Container Queries, Subgrid, clamp(), has() Selector",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/modern-css-features"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting container-type Before Using @container",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Container queries require you to declare which element is the container using <code>container-type</code>. Without it, there is nothing for the query to match against."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using vh on Mobile Causing Layout Jumps",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use <code>100dvh</code> (dynamic viewport height) instead of <code>100vh</code> for full-screen sections. It adjusts correctly as mobile browser toolbars show and hide. Keep <code>100vh</code> as a fallback for old browsers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Expecting clamp() Arguments in Any Order",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Memorize: <code>clamp(min, preferred, max)</code>. The preferred value is the one that scales with the viewport (like <code>5vw</code>), and it is clamped between the min and max. Getting the order wrong often 'works' but at unexpected sizes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using :has() Inside :has() Unnecessarily",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>:has(input:invalid)</code> already looks at all descendants. You rarely need to nest it. Nested :has() can be slower and is harder to read. Use the simplest form that matches your intent."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Modern CSS - Container Queries, Subgrid, clamp(), has() Selector</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 23</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Modern CSS - Container Queries, Subgrid, clamp(), has() Selector</h1>
+            <a href="/resources/html-and-css/modern-css-features/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Modern CSS?</h2><p>In the last 3 years, CSS has had the biggest wave of new features since Grid and Flexbox. Problems that used to require JavaScript, media queries, or clever hacks can now be solved with one CSS line. This chapter is a guided tour of the most important features that shipped in every major browser between 2022 and 2026.</p><p>You will learn:</p><ul><li><strong>Container queries</strong> - style an element based on its container's size, not the viewport</li><li><strong>Subgrid</strong> - let nested grid items align to the parent grid's tracks</li><li><strong>clamp()</strong> - fluid values that scale between a min and max</li><li><strong>aspect-ratio</strong> - lock an element's width-to-height ratio (no more padding hacks)</li><li><strong>:has()</strong> - the parent selector (finally!)</li><li><strong>Logical properties</strong> - margin-inline, padding-block for RTL-friendly code</li><li><strong>accent-color</strong> - theme form controls with one property</li><li><strong>color-mix()</strong> - blend two colors in CSS</li><li><strong>:focus-visible</strong> - focus rings only for keyboard users</li><li><strong>scroll-snap</strong> - carousels and galleries without JavaScript</li><li><strong>text-wrap: balance</strong> - beautifully wrapped headings</li></ul><p>These are not experimental - they work in every browser you need to support. If you are building a new site in 2026, use them.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn Modern CSS?</h2><h3>1. Less JavaScript, Smaller Bundles</h3><p>Container queries replace resize-observer code. <code>:has()</code> replaces 'add class on click' logic. <code>scroll-snap</code> replaces carousel libraries. Every feature in this chapter removes code you would otherwise have to write and maintain in JavaScript.</p><h3>2. Truly Component-Based Responsive Design</h3><p>Media queries respond to the viewport — but a card in a sidebar does not know about the viewport. It knows about its sidebar. Container queries let components respond to THEIR container, so the same card looks right whether it is in a wide hero or a narrow column. This is the missing piece for component-driven design systems.</p><h3>3. Fluid Interfaces with Zero Breakpoints</h3><p><code>clamp(min, preferred, max)</code> gives you fluid typography and spacing that scales smoothly from mobile to desktop without any breakpoints. Aarav's whole site uses <code>font-size: clamp(16px, 2vw, 24px)</code> and looks perfect at every size.</p><h3>4. Better Accessibility Out of the Box</h3><p><code>:focus-visible</code> gets focus rings right without JavaScript. Logical properties work correctly in right-to-left languages like Arabic and Hebrew. <code>aspect-ratio</code> prevents layout shift when images load. Modern CSS bakes accessibility into the platform.</p><h3>5. Beautiful Typography for Free</h3><p><code>text-wrap: balance</code> automatically rebalances a heading so it does not end with a single orphan word. <code>text-wrap: pretty</code> improves long paragraphs. One property, beautiful output, no manual line breaks.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Deep Dive into Modern CSS Features</h2><h3>1. Container Queries</h3><p>Container queries let you style an element based on its <em>container's</em> size rather than the viewport. First, mark an element as a container with <code>container-type</code>, then use <code>@container</code> to write queries.</p><pre><code>.sidebar {
+  container-type: inline-size;
+  container-name: sidebar;
+}
+
+.card {
+  display: block;
+}
+
+@container sidebar (min-width: 400px) {
+  .card {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 16px;
+  }
+}</code></pre><p>When the <code>.sidebar</code> becomes at least 400px wide, the card inside it switches from stacked to a horizontal layout. The viewport is irrelevant — it is the container that matters.</p><p><strong>container-type values:</strong></p><ul><li><code>inline-size</code> - queries based on width (most common)</li><li><code>size</code> - queries based on both width and height</li><li><code>normal</code> - not a container (default)</li></ul><h3>2. Subgrid</h3><p>Normally, nested grids have their own independent tracks. <code>grid-template-columns: subgrid</code> makes the child grid use the parent's tracks instead. This solves the classic problem of aligning items across cards.</p><pre><code>.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: subgrid; /* inherit parent rows */
+  grid-row: span 3;
+}
+/* Every card's title, body, and footer line up perfectly
+   across the whole row, even if content lengths differ. */</code></pre><h3>3. clamp() for Fluid Values</h3><p><code>clamp(min, preferred, max)</code> returns the preferred value, but never less than min or more than max. It is perfect for fluid typography:</p><pre><code>h1 {
+  /* Between 28px and 56px, scaling with viewport */
+  font-size: clamp(28px, 5vw, 56px);
+}
+
+.container {
+  /* Padding that grows with the screen */
+  padding: clamp(16px, 5%, 48px);
+}</code></pre><p>On a 400px-wide phone, <code>5vw = 20px</code>, so the font is 28px (clamped to min). On a 1200px-wide desktop, <code>5vw = 60px</code>, so the font is 56px (clamped to max). In between, it scales smoothly.</p><h3>4. aspect-ratio</h3><p>Locking the width-to-height ratio of an element used to require the padding-top hack. Now it is one property:</p><pre><code>.video-wrapper {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.avatar {
+  aspect-ratio: 1;  /* square */
+  width: 60px;
+}</code></pre><p>No more layout shift when images load. Set width or height and the other dimension follows automatically.</p><h3>5. The :has() Parent Selector</h3><p>CSS finally has a parent selector. <code>:has()</code> matches an element based on its descendants.</p><pre><code>/* Style a card that contains an image */
+.card:has(img) {
+  padding: 0;
+}
+
+/* Turn a form red if any input is invalid */
+form:has(input:invalid) {
+  border-left: 4px solid red;
+}
+
+/* Highlight a label that contains a checked checkbox */
+label:has(:checked) {
+  background: #a855f7;
+  color: white;
+}
+
+/* Dim the body when a modal is open */
+body:has(.modal[open]) {
+  overflow: hidden;
+}</code></pre><p>Hundreds of patterns that used to require JavaScript are now one CSS rule.</p><h3>6. Logical Properties</h3><p>CSS had <code>margin-left</code> and <code>margin-right</code> — but what is 'left' in Arabic, which reads right-to-left? Logical properties use 'inline' (the reading direction) and 'block' (the flow direction) instead.</p><pre><code>.card {
+  margin-inline: 24px;       /* left + right (or right + left in RTL) */
+  margin-block: 16px;        /* top + bottom */
+  padding-inline-start: 12px; /* left in LTR, right in RTL */
+  border-inline-end: 2px solid purple;
+}</code></pre><p>Write your CSS once and it works correctly in every writing direction.</p><h3>7. accent-color</h3><p>Theme checkboxes, radios, range sliders, and progress bars with one property:</p><pre><code>:root { accent-color: #7c3aed; }
+
+/* All form controls now use your brand color */
+input[type="checkbox"] { /* ... */ }
+input[type="radio"]    { /* ... */ }
+input[type="range"]    { /* ... */ }
+progress               { /* ... */ }</code></pre><h3>8. color-mix()</h3><p>Blend two colors in CSS. Perfect for hover states and theme variants:</p><pre><code>.btn {
+  background: #7c3aed;
+}
+.btn:hover {
+  /* 80% of the primary + 20% black = darker variant */
+  background: color-mix(in oklab, #7c3aed 80%, black);
+}
+
+/* Or mix a brand color with the surface color */
+.accent-bg {
+  background: color-mix(in oklab, var(--brand), white 85%);
+}</code></pre><h3>9. :focus-visible</h3><p>Show focus rings only for keyboard users, not mouse clicks:</p><pre><code>button:focus { outline: none; }
+button:focus-visible {
+  outline: 2px solid #06b6d4;
+  outline-offset: 2px;
+}</code></pre><h3>10. scroll-snap for Carousels</h3><p>Build a carousel with pure CSS scrolling that 'snaps' to each card:</p><pre><code>.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  padding: 16px;
+}
+.slide {
+  flex: 0 0 80%;
+  scroll-snap-align: center;
+  aspect-ratio: 16/9;
+}</code></pre><p>No JavaScript library needed. The browser handles momentum scrolling and snap-to-center.</p><h3>11. text-wrap: balance and pretty</h3><pre><code>h1, h2, h3 {
+  text-wrap: balance;
+  /* Distributes words evenly across lines */
+}
+
+p {
+  text-wrap: pretty;
+  /* Avoids orphans in long text */
+}</code></pre><p>Headings stop ending with a single word on the last line. Paragraphs stop leaving one word alone. Beautiful typography in two lines.</p><h3>12. dvh, svh, lvh (Dynamic Viewport Units)</h3><p>On mobile, the address bar appears and disappears, changing the viewport. <code>100vh</code> breaks because it assumes the toolbar is hidden. Use the new units:</p><pre><code>.hero {
+  min-height: 100dvh; /* dynamic - adjusts as toolbars show/hide */
+  /* svh = small (with toolbars), lvh = large (without) */
+}</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Container Query: Card That Adapts to Its Container</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #f1f5f9; padding: 24px; display: grid; gap: 24px; grid-template-columns: 1fr 2fr; }
+    .column {
+      background: white;
+      padding: 20px;
+      border-radius: 14px;
+      container-type: inline-size;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    }
+    .column h2 { color: #7c3aed; margin-bottom: 12px; font-size: 18px; }
+
+    .card {
+      background: #faf5ff;
+      border: 1px solid #e9d5ff;
+      border-radius: 12px;
+      padding: 16px;
+      margin-top: 12px;
+    }
+    .card img {
+      width: 100%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      background: linear-gradient(135deg, #a855f7, #ec4899);
+      border-radius: 8px;
+    }
+    .card h3 { color: #0f172a; margin: 12px 0 6px; font-size: 17px; }
+    .card p { color: #64748b; font-size: 14px; line-height: 1.5; }
+
+    /* When the container is wide enough, use a horizontal layout */
+    @container (min-width: 380px) {
+      .card {
+        display: grid;
+        grid-template-columns: 140px 1fr;
+        gap: 16px;
+        align-items: center;
+      }
+      .card img {
+        aspect-ratio: 1;
+        margin: 0;
+      }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;column&quot;&gt;
+    &lt;h2&gt;Narrow column&lt;/h2&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;img alt=&quot;&quot;&gt;
+      &lt;h3&gt;Aarav&#39;s Blog Post&lt;/h3&gt;
+      &lt;p&gt;This column is narrow, so the card stacks vertically.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;column&quot;&gt;
+    &lt;h2&gt;Wide column&lt;/h2&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;img alt=&quot;&quot;&gt;
+      &lt;h3&gt;Priya&#39;s Blog Post&lt;/h3&gt;
+      &lt;p&gt;Same card, same HTML, same CSS. But because this column is wider, the container query kicks in and the card becomes horizontal.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Each <code>.column</code> is marked as a container with <code>container-type: inline-size</code>. The <code>.card</code> inside has a default vertical layout, but when its container is at least 380px wide, a container query switches it to a horizontal layout. The SAME card, the SAME CSS — but it adapts to its container, not the viewport.</div><div class="code-example-output">Two cards side by side. The narrow left card stacks the image above the text. The wider right card places the image beside the text, even though both use the exact same markup and CSS classes.</div></div>
+<div class="code-example"><div class="code-example-title">Fluid Typography with clamp()</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #0f172a; color: #f1f5f9; min-height: 100vh; }
+    .hero {
+      padding: clamp(32px, 8vw, 96px) clamp(16px, 6vw, 64px);
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: clamp(32px, 6vw, 72px);
+      line-height: 1.1;
+      margin-bottom: clamp(12px, 2vw, 24px);
+      background: linear-gradient(135deg, #a855f7, #06b6d4);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-wrap: balance;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .hero p {
+      font-size: clamp(16px, 2vw, 22px);
+      color: #94a3b8;
+      max-width: 720px;
+      margin: 0 auto clamp(20px, 3vw, 40px);
+      line-height: 1.6;
+      text-wrap: pretty;
+    }
+    .cta {
+      display: inline-block;
+      padding: clamp(12px, 1.5vw, 18px) clamp(24px, 3vw, 40px);
+      background: linear-gradient(135deg, #7c3aed, #db2777);
+      color: white;
+      font-size: clamp(14px, 1.4vw, 18px);
+      font-weight: 700;
+      border-radius: 999px;
+      text-decoration: none;
+      box-shadow: 0 15px 40px rgba(124, 58, 237, 0.35);
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;section class=&quot;hero&quot;&gt;
+    &lt;h1&gt;Fluid Typography Without a Single Media Query&lt;/h1&gt;
+    &lt;p&gt;Every font size and padding value on this page uses clamp(). Resize the browser window and watch everything scale smoothly - no breakpoints, no jumps. Ishita built her whole portfolio this way.&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;cta&quot;&gt;See How It Works&lt;/a&gt;
+  &lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Every size on the page — padding, font size, margin — uses <code>clamp(min, preferred, max)</code>. On a phone, values stay at the minimum. On a desktop, they reach the maximum. In between, they scale linearly with the viewport. Zero media queries. <code>text-wrap: balance</code> on the heading distributes the words evenly.</div><div class="code-example-output">A beautiful hero with a large gradient heading, subtitle, and call-to-action button. Resizing the browser smoothly scales everything from phone to desktop sizes without any sudden jumps.</div></div>
+<div class="code-example"><div class="code-example-title">:has() to Disable Submit on Invalid Form</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #f8fafc; padding: 40px; display: flex; justify-content: center; }
+    form {
+      background: white;
+      padding: 32px;
+      border-radius: 16px;
+      max-width: 420px;
+      width: 100%;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      border: 3px solid transparent;
+      transition: border-color 0.3s;
+    }
+    /* Parent selector: turn form red when any input is invalid */
+    form:has(input:invalid) {
+      border-color: #fecaca;
+    }
+    /* All inputs valid? turn green */
+    form:has(input:valid):not(:has(input:invalid)) {
+      border-color: #86efac;
+    }
+    form h2 { color: #0f172a; margin-bottom: 20px; }
+    label { display: block; margin-bottom: 16px; font-size: 13px; color: #475569; }
+    input {
+      display: block; width: 100%; padding: 12px;
+      margin-top: 6px; border: 2px solid #e2e8f0;
+      border-radius: 8px; font-size: 15px; outline: none;
+      transition: border-color 0.2s;
+    }
+    input:focus { border-color: #7c3aed; }
+    input:not(:placeholder-shown):valid { border-color: #10b981; }
+    input:not(:placeholder-shown):invalid { border-color: #ef4444; }
+    button {
+      width: 100%; padding: 12px;
+      background: #7c3aed; color: white;
+      border: none; border-radius: 8px;
+      font-size: 16px; font-weight: 600;
+      cursor: pointer; transition: opacity 0.2s;
+    }
+    /* Disable the button while any input is invalid */
+    form:has(input:invalid) button {
+      opacity: 0.35;
+      pointer-events: none;
+    }
+    .status { margin-top: 12px; text-align: center; font-size: 14px; color: #64748b; }
+    form:has(input:invalid) .status::before { content: &#39;Some fields need attention&#39;; color: #ef4444; }
+    form:has(input:valid):not(:has(input:invalid)) .status::before { content: &#39;All fields look great!&#39;; color: #10b981; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form&gt;
+    &lt;h2&gt;Rohan&#39;s Sign Up&lt;/h2&gt;
+    &lt;label&gt;Name&lt;input type=&quot;text&quot; placeholder=&quot;Your name&quot; minlength=&quot;2&quot; required&gt;&lt;/label&gt;
+    &lt;label&gt;Email&lt;input type=&quot;email&quot; placeholder=&quot;you@example.com&quot; required&gt;&lt;/label&gt;
+    &lt;label&gt;Age&lt;input type=&quot;number&quot; placeholder=&quot;10 to 18&quot; min=&quot;10&quot; max=&quot;18&quot; required&gt;&lt;/label&gt;
+    &lt;button type=&quot;submit&quot;&gt;Create Account&lt;/button&gt;
+    &lt;p class=&quot;status&quot;&gt;&lt;/p&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>:has()</code> walks up from any invalid input to the form and styles the form (red border, disabled button, warning message). When every input is valid, <code>form:has(input:valid):not(:has(input:invalid))</code> matches and the form turns green. Pure CSS reactive form state — something that used to need JavaScript.</div><div class="code-example-output">A signup form that turns pink/red while any field is invalid and green once all fields are valid. The submit button is disabled while invalid, and a status message updates automatically.</div></div>
+<div class="code-example"><div class="code-example-title">CSS-Only Carousel with scroll-snap</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #0f172a; color: white; padding: 40px 0; }
+    h1 { text-align: center; color: #a855f7; margin-bottom: 24px; font-size: clamp(24px, 3vw, 40px); }
+    .carousel {
+      display: flex;
+      gap: 16px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-padding: 24px;
+      padding: 16px 24px 32px;
+      scrollbar-width: thin;
+      scrollbar-color: #a855f7 #1e293b;
+    }
+    .slide {
+      flex: 0 0 85%;
+      max-width: 500px;
+      aspect-ratio: 16/10;
+      scroll-snap-align: center;
+      border-radius: 18px;
+      padding: 28px;
+      color: white;
+      font-weight: 700;
+      font-size: 22px;
+      display: flex;
+      align-items: flex-end;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+    }
+    .slide:nth-child(1) { background: linear-gradient(135deg, #7c3aed, #ec4899); }
+    .slide:nth-child(2) { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }
+    .slide:nth-child(3) { background: linear-gradient(135deg, #f59e0b, #ef4444); }
+    .slide:nth-child(4) { background: linear-gradient(135deg, #10b981, #06b6d4); }
+    .slide:nth-child(5) { background: linear-gradient(135deg, #8b5cf6, #3b82f6); }
+    @media (min-width: 700px) {
+      .slide { flex: 0 0 60%; }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Vivaan&#39;s Projects&lt;/h1&gt;
+  &lt;div class=&quot;carousel&quot;&gt;
+    &lt;div class=&quot;slide&quot;&gt;Quiz App&lt;/div&gt;
+    &lt;div class=&quot;slide&quot;&gt;Weather Dashboard&lt;/div&gt;
+    &lt;div class=&quot;slide&quot;&gt;To-Do List&lt;/div&gt;
+    &lt;div class=&quot;slide&quot;&gt;Blog Engine&lt;/div&gt;
+    &lt;div class=&quot;slide&quot;&gt;Calculator&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A horizontal scrolling carousel made with <code>scroll-snap-type: x mandatory</code> on the container and <code>scroll-snap-align: center</code> on each slide. The browser handles smooth scrolling and snaps each slide to the center when the user stops dragging. No JavaScript, no libraries, no swipe gestures to write.</div><div class="code-example-output">A horizontal carousel of 5 colorful gradient slides. Scrolling with the mouse wheel, touch, or trackpad smoothly snaps each slide to the center of the viewport.</div></div>
+<div class="code-example"><div class="code-example-title">aspect-ratio and color-mix() Color Palette</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    :root {
+      --brand: #7c3aed;
+      --surface: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #f8fafc; padding: clamp(24px, 5vw, 64px); }
+    h1 { color: var(--brand); margin-bottom: 24px; text-align: center; font-size: clamp(24px, 3vw, 36px); text-wrap: balance; }
+    .palette {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 16px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .swatch {
+      aspect-ratio: 1;
+      border-radius: 16px;
+      padding: 16px;
+      color: white;
+      font-weight: 700;
+      font-size: 13px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+    .swatch span { font-size: 11px; font-weight: 400; opacity: 0.9; }
+
+    .s1 { background: var(--brand); }
+    .s2 { background: color-mix(in oklab, var(--brand) 80%, white); }
+    .s3 { background: color-mix(in oklab, var(--brand) 60%, white); }
+    .s4 { background: color-mix(in oklab, var(--brand) 40%, white); color: #4c1d95; }
+    .s5 { background: color-mix(in oklab, var(--brand) 20%, white); color: #4c1d95; }
+    .s6 { background: color-mix(in oklab, var(--brand) 80%, black); }
+    .s7 { background: color-mix(in oklab, var(--brand) 60%, black); }
+    .s8 { background: color-mix(in oklab, var(--brand), #06b6d4); }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Kavya&#39;s Generated Color Palette&lt;/h1&gt;
+  &lt;div class=&quot;palette&quot;&gt;
+    &lt;div class=&quot;swatch s1&quot;&gt;Brand&lt;span&gt;100%&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;swatch s2&quot;&gt;Tint 80&lt;span&gt;+ white 20&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;swatch s3&quot;&gt;Tint 60&lt;span&gt;+ white 40&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;swatch s4&quot;&gt;Tint 40&lt;span&gt;+ white 60&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;swatch s5&quot;&gt;Tint 20&lt;span&gt;+ white 80&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;swatch s6&quot;&gt;Shade 80&lt;span&gt;+ black 20&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;swatch s7&quot;&gt;Shade 60&lt;span&gt;+ black 40&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;swatch s8&quot;&gt;Mix&lt;span&gt;+ cyan&lt;/span&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>color-mix(in oklab, color1 X%, color2)</code> blends two colors. By mixing the brand color with white and black in different ratios, we generate a full tint-and-shade palette without a design tool. Every swatch is a perfect square thanks to <code>aspect-ratio: 1</code>.</div><div class="code-example-output">A grid of perfectly square color swatches generated entirely from a single brand color. Light tints in the top rows, darker shades below, and a blended accent color at the end.</div></div>
+<div class="code-example"><div class="code-example-title">Subgrid for Aligned Card Layout</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #f1f5f9; padding: 40px 24px; }
+    h1 { text-align: center; color: #7c3aed; margin-bottom: 24px; font-size: 32px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto auto auto auto;
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .card {
+      display: grid;
+      grid-row: span 4;
+      grid-template-rows: subgrid;
+      background: white;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+      transition: transform 0.2s;
+    }
+    .card:hover { transform: translateY(-4px); }
+    .card .img {
+      aspect-ratio: 16/9;
+      border-radius: 10px;
+      margin-bottom: 12px;
+    }
+    .card h3 { color: #0f172a; font-size: 18px; margin-bottom: 8px; }
+    .card p { color: #64748b; font-size: 14px; line-height: 1.5; }
+    .card .meta { color: #7c3aed; font-size: 12px; font-weight: 600; margin-top: 12px; }
+    .c1 .img { background: linear-gradient(135deg, #a855f7, #ec4899); }
+    .c2 .img { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }
+    .c3 .img { background: linear-gradient(135deg, #f59e0b, #ef4444); }
+    @media (max-width: 800px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Anika&#39;s Blog Grid&lt;/h1&gt;
+  &lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;card c1&quot;&gt;
+      &lt;div class=&quot;img&quot;&gt;&lt;/div&gt;
+      &lt;h3&gt;Learning CSS Grid&lt;/h3&gt;
+      &lt;p&gt;My short take on why Grid changed everything for frontend work.&lt;/p&gt;
+      &lt;div class=&quot;meta&quot;&gt;3 min read&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card c2&quot;&gt;
+      &lt;h3&gt;Subgrid Finally Arrived&lt;/h3&gt;
+      &lt;p&gt;A deep dive on subgrid and why it fixes the last missing piece. This post has a longer description because I got excited while writing it.&lt;/p&gt;
+      &lt;div class=&quot;meta&quot;&gt;8 min read&lt;/div&gt;
+      &lt;div class=&quot;img&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;card c3&quot;&gt;
+      &lt;div class=&quot;img&quot;&gt;&lt;/div&gt;
+      &lt;h3&gt;Container Queries in Practice&lt;/h3&gt;
+      &lt;p&gt;Rebuilding my card component without a single media query.&lt;/p&gt;
+      &lt;div class=&quot;meta&quot;&gt;5 min read&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The outer grid defines four rows shared by all cards. Each card uses <code>grid-template-rows: subgrid</code> so its children (image, title, paragraph, meta) snap to the parent grid's rows. The result: titles align across cards even when image positions or text lengths differ. This is the classic 'card alignment' problem finally solved in pure CSS.</div><div class="code-example-output">Three blog cards with images, titles, descriptions, and meta info. All titles sit at the same vertical position, all meta lines line up at the bottom - even though the middle card has different content order and length.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting container-type Before Using @container</h3>
+                <div class="wrong-code"><pre><code class="language-python">.sidebar { /* no container-type */ }
+
+@container (min-width: 400px) {
+  .card { display: grid; }
+}</code></pre></div><div class="error-message">The container query does nothing because no element has been marked as a container. The browser ignores the @container rule.</div><div class="correct-code"><pre><code class="language-python">.sidebar {
+  container-type: inline-size;
+  /* Now it is a container, and queries work */
+}
+
+@container (min-width: 400px) {
+  .card { display: grid; }
+}</code></pre></div><div class="mistake-explanation">Container queries require you to declare which element is the container using <code>container-type</code>. Without it, there is nothing for the query to match against.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using vh on Mobile Causing Layout Jumps</h3>
+                <div class="wrong-code"><pre><code class="language-python">.hero {
+  min-height: 100vh;
+  /* On mobile, this is the viewport WITHOUT the toolbar
+     which causes content to be cut off or jump when the
+     toolbar appears/disappears */
+}</code></pre></div><div class="error-message">On mobile, the address bar shows and hides as the user scrolls. &lt;code&gt;100vh&lt;/code&gt; does not account for this, causing layout shifts and cut-off content.</div><div class="correct-code"><pre><code class="language-python">.hero {
+  min-height: 100dvh;
+  /* dvh = dynamic viewport height, updates as toolbars show/hide */
+  /* Fallback for old browsers: */
+  min-height: 100vh;
+  min-height: 100dvh;
+}</code></pre></div><div class="mistake-explanation">Use <code>100dvh</code> (dynamic viewport height) instead of <code>100vh</code> for full-screen sections. It adjusts correctly as mobile browser toolbars show and hide. Keep <code>100vh</code> as a fallback for old browsers.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Expecting clamp() Arguments in Any Order</h3>
+                <div class="wrong-code"><pre><code class="language-python">h1 {
+  font-size: clamp(5vw, 32px, 60px);
+  /* Arguments in wrong order!
+     The first is min, second is preferred, third is max */
+}</code></pre></div><div class="error-message">The argument order is wrong. &lt;code&gt;clamp(min, preferred, max)&lt;/code&gt; — first is the lower bound, second is the fluid value, third is the upper bound.</div><div class="correct-code"><pre><code class="language-python">h1 {
+  font-size: clamp(32px, 5vw, 60px);
+  /* Min 32px, prefers 5vw, max 60px */
+}</code></pre></div><div class="mistake-explanation">Memorize: <code>clamp(min, preferred, max)</code>. The preferred value is the one that scales with the viewport (like <code>5vw</code>), and it is clamped between the min and max. Getting the order wrong often 'works' but at unexpected sizes.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using :has() Inside :has() Unnecessarily</h3>
+                <div class="wrong-code"><pre><code class="language-python">body:has(form:has(input:invalid)) {
+  background: #fef2f2;
+}
+/* Nested :has() is usually overkill */</code></pre></div><div class="error-message">Nested :has() is slower and harder to read. In most cases a single :has() is enough.</div><div class="correct-code"><pre><code class="language-python">body:has(input:invalid) {
+  background: #fef2f2;
+}
+/* :has() already walks the whole descendant tree */</code></pre></div><div class="mistake-explanation"><code>:has(input:invalid)</code> already looks at all descendants. You rarely need to nest it. Nested :has() can be slower and is harder to read. Use the simplest form that matches your intent.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Container queries (&lt;code&gt;container-type: inline-size&lt;/code&gt; + &lt;code&gt;@container&lt;/code&gt;) let you style a component based on its CONTAINER&#39;s size, not the viewport. This is the piece missing for true component-driven responsive design.</li>
+<li>Subgrid (&lt;code&gt;grid-template-rows: subgrid&lt;/code&gt; or &lt;code&gt;grid-template-columns: subgrid&lt;/code&gt;) makes a nested grid&#39;s children align to the PARENT grid&#39;s tracks. Use it to align titles, images, and footers perfectly across a row of cards.</li>
+<li>&lt;code&gt;clamp(min, preferred, max)&lt;/code&gt; is the fluid value superpower. Use it for typography, padding, margins, and gap values to get smooth scaling between phone and desktop sizes without a single media query.</li>
+<li>&lt;code&gt;aspect-ratio: 16/9&lt;/code&gt; locks an element&#39;s width-to-height ratio. No more padding-top hacks. No more layout shift when images load. Just set one dimension and the other follows.</li>
+<li>&lt;code&gt;:has()&lt;/code&gt; is the long-awaited CSS parent selector. It lets you style an element based on what it contains: &lt;code&gt;.card:has(img)&lt;/code&gt;, &lt;code&gt;form:has(:invalid)&lt;/code&gt;, &lt;code&gt;label:has(:checked)&lt;/code&gt;. Replaces huge amounts of JavaScript class-toggling.</li>
+<li>Logical properties (&lt;code&gt;margin-inline&lt;/code&gt;, &lt;code&gt;padding-block&lt;/code&gt;, &lt;code&gt;border-inline-start&lt;/code&gt;) use &#39;reading direction&#39; instead of &#39;left/right&#39;, so your CSS works correctly in right-to-left languages too.</li>
+<li>&lt;code&gt;accent-color&lt;/code&gt; themes checkboxes, radios, range sliders, and progress bars in one property. &lt;code&gt;color-mix(in oklab, color 80%, white)&lt;/code&gt; blends colors to generate tints, shades, and hover variants from a single brand color.</li>
+<li>&lt;code&gt;:focus-visible&lt;/code&gt; shows focus rings only when the user is navigating with the keyboard, keeping the UI clean for mouse users without breaking accessibility.</li>
+<li>&lt;code&gt;scroll-snap-type&lt;/code&gt; and &lt;code&gt;scroll-snap-align&lt;/code&gt; build native carousels and galleries with zero JavaScript. The browser handles smooth scrolling and snap-to-center.</li>
+<li>&lt;code&gt;text-wrap: balance&lt;/code&gt; balances the lines of a heading so it does not end with an orphan word. &lt;code&gt;text-wrap: pretty&lt;/code&gt; does the same for paragraphs. Beautiful typography in one property.</li>
+<li>&lt;code&gt;100dvh&lt;/code&gt; (dynamic viewport height) replaces &lt;code&gt;100vh&lt;/code&gt; on mobile, accounting for the address bar showing and hiding. Prevents layout jumps on scroll.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/css-variables-and-theming" class="related-topic-link">CSS Variables and Theming (Dark Mode)</a>
+<a href="/resources/html-and-css/css-grid-complete-guide" class="related-topic-link">CSS Grid - The Complete Guide</a>
+<a href="/resources/html-and-css/responsive-design-and-media-queries" class="related-topic-link">Responsive Design and Media Queries</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/pseudo-classes-and-pseudo-elements" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Pseudo-classes and Pseudo-elements</span>
+        </a>
+            <a href="/resources/html-and-css/project-build-a-landing-page" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Project: Build a Complete Landing Page</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/modern-css-features/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

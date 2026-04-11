@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images, Audio, and Video - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Add images with img, use alt text for accessibility, embed audio and video, and use figure and figcaption.">
+    <meta name="keywords" content="images, audio, and video, html and css tutorial, html and css images, audio, and video, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/images-and-media">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/images-and-media">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/images-and-media">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/images-and-media">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/images-and-media">
+    <meta property="og:title" content="Images, Audio, and Video - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Add images with img, use alt text for accessibility, embed audio and video, and use figure and figcaption.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/images-and-media">
+    <meta name="twitter:title" content="Images, Audio, and Video - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Add images with img, use alt text for accessibility, embed audio and video, and use figure and figcaption.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Images, Audio, and Video",
+    "description": "Add images with img, use alt text for accessibility, embed audio and video, and use figure and figcaption.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/images-and-media"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/images-and-media"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Images, Audio, and Video",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/images-and-media"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Missing alt Attribute",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every <code>&lt;img&gt;</code> must have an <code>alt</code> attribute. For decorative images with no meaning, use <code>alt=\"\"</code> (empty string). For meaningful images, describe what they show in a few words."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrong Image Path",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Never use absolute file paths from your computer (like C:\\ on Windows). Use relative paths that work on any server. Put your images in a folder inside your project, like <code>images/</code> or <code>assets/</code>, and link using <code>images/cat.jpg</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting the controls Attribute on Video",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Without the <code>controls</code> attribute, the video has no visible interface. Add <code>controls</code> so users can play, pause, and adjust volume. For background videos, omit controls but add <code>autoplay muted loop</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Autoplay Video Without muted",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Browsers now require <code>muted</code> for <code>autoplay</code> to work, to stop annoying websites from blasting sound. If you want autoplay, add muted as well. Users can then manually unmute if they want."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Full Computer Path Instead of URL",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Never use <code>file:///</code> URLs — they only work on your own computer. Either upload the image to a web server and use its URL, or keep it in your project folder and use a relative path."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Images, Audio, and Video</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 5</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">22 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Images, Audio, and Video</h1>
+            <a href="/resources/html-and-css/images-and-media/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Images and Media in HTML?</h2><p>A web page with only text is boring. Images, videos, and audio are what make web pages come alive. A beautiful photograph, an instructional video, or a background music clip — all of these are added using HTML media tags.</p><p>HTML gives you a handful of powerful tags to add media to your pages:</p><ul><li><code>&lt;img&gt;</code> — for images</li><li><code>&lt;video&gt;</code> — for video files</li><li><code>&lt;audio&gt;</code> — for music and sound</li><li><code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code> — for images with captions</li><li><code>&lt;source&gt;</code> — for providing multiple formats to the browser</li></ul><p>All of these are self-closing or specialised tags that let your page show pictures and play media without needing any JavaScript.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Add Media to Your Pages?</h2><h3>1. Humans Love Visuals</h3><p>Our brains process images 60,000 times faster than text. A single well-chosen photo can communicate more than a whole paragraph of words. When building a recipe page, a product page, or a blog — images make content instantly understandable and engaging.</p><h3>2. Accessibility Through Alt Text</h3><p>Every image should have alt text (alternative text) — a short description that screen readers read aloud for blind users. Alt text also appears if the image fails to load. Good alt text makes your website work for everyone.</p><h3>3. SEO Benefits</h3><p>Google cannot 'see' images directly — it reads alt text to understand what an image is about. Pages with descriptive alt text rank higher in image search results. So good alt text means more visitors.</p><h3>4. Native Video and Audio</h3><p>Before HTML5 (2014), you needed Flash plugins to play videos. Now, <code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code> are built right into HTML. Any modern browser can play media without installing anything.</p><h3>5. Creative Freedom</h3><p>Once you know image and media tags, you can build photo galleries, recipe sites with step images, music players, video tutorials, and so much more. Your pages stop looking like text documents and start looking like real websites.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>The img Tag</h3><p>The <code>&lt;img&gt;</code> tag is self-closing (no closing tag). It has two essential attributes:</p><ul><li><code>src</code> — the source (URL or path to the image file)</li><li><code>alt</code> — alternative text describing the image</li></ul><pre><code>&lt;img src="cat.jpg" alt="An orange cat sitting on a window sill"&gt;</code></pre><p>The src can be a relative path (<code>cat.jpg</code>, <code>images/cat.jpg</code>) or a full URL (<code>https://example.com/cat.jpg</code>).</p><h3>Why alt Text Is Required</h3><p>The <code>alt</code> attribute is not optional — it is essential. Here is why:</p><ol><li><strong>Accessibility:</strong> Screen readers announce the alt text to blind users</li><li><strong>SEO:</strong> Google uses it to understand what your image shows</li><li><strong>Fallback:</strong> If the image fails to load (slow connection, broken URL), the browser shows the alt text instead</li></ol><p>Good alt text describes what the image shows, not just 'image' or 'picture'. For decorative images with no meaning, use <code>alt=""</code> (empty string) — this tells screen readers to skip it.</p><h3>Width and Height Attributes</h3><p>You can set the dimensions of an image with <code>width</code> and <code>height</code> attributes (in pixels):</p><pre><code>&lt;img src="cat.jpg" alt="A cat" width="300" height="200"&gt;</code></pre><p>Always set these attributes — they tell the browser how much space to reserve for the image before it loads, which prevents the page layout from jumping around.</p><h3>figure and figcaption</h3><p>When an image needs a caption, wrap it in a <code>&lt;figure&gt;</code> element with a <code>&lt;figcaption&gt;</code>:</p><pre><code>&lt;figure&gt;
+  &lt;img src="eiffel.jpg" alt="Eiffel Tower"&gt;
+  &lt;figcaption&gt;The Eiffel Tower in Paris, built in 1889.&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre><p>This is the semantic way to associate a caption with an image. Screen readers understand the relationship.</p><h3>The video Tag</h3><p>The <code>&lt;video&gt;</code> tag plays video files. Basic syntax:</p><pre><code>&lt;video src="movie.mp4" controls width="600"&gt;
+  Your browser does not support video.
+&lt;/video&gt;</code></pre><p>Common attributes:</p><ul><li><code>src</code> — path to the video file</li><li><code>controls</code> — shows play/pause/volume controls</li><li><code>width</code> and <code>height</code> — video player size</li><li><code>autoplay</code> — starts playing automatically (use carefully)</li><li><code>muted</code> — starts muted (required for autoplay in most browsers)</li><li><code>loop</code> — replays when finished</li><li><code>poster</code> — image shown before the video plays</li><li><code>preload</code> — how much to preload (none/metadata/auto)</li></ul><p>The text inside the <code>&lt;video&gt;</code> tag is shown if the browser cannot play video (very old browsers).</p><h3>The source Tag for Multiple Formats</h3><p>Different browsers support different video formats. To be safe, provide multiple formats using <code>&lt;source&gt;</code> tags inside <code>&lt;video&gt;</code>:</p><pre><code>&lt;video controls width="600"&gt;
+  &lt;source src="movie.mp4" type="video/mp4"&gt;
+  &lt;source src="movie.webm" type="video/webm"&gt;
+  Your browser does not support video.
+&lt;/video&gt;</code></pre><p>The browser picks the first format it can play. MP4 works almost everywhere, so it should usually be listed first.</p><h3>The audio Tag</h3><p>The <code>&lt;audio&gt;</code> tag works similarly to video. It plays sound files:</p><pre><code>&lt;audio src="song.mp3" controls&gt;
+  Your browser does not support audio.
+&lt;/audio&gt;</code></pre><p>It has the same attributes as video: <code>controls</code>, <code>autoplay</code>, <code>muted</code>, <code>loop</code>, and can also use <code>&lt;source&gt;</code> tags for multiple formats.</p><h3>Responsive Images with srcset</h3><p>Modern phones have different screen densities. A 'retina' display needs bigger images than a regular monitor. The <code>srcset</code> attribute lets you provide multiple sizes:</p><pre><code>&lt;img src="photo.jpg" srcset="photo-1x.jpg 1x, photo-2x.jpg 2x" alt="Photo"&gt;</code></pre><p>The browser automatically picks the best size based on the user's screen.</p><h3>Lazy Loading</h3><p>By default, browsers load all images on a page immediately. This can slow down pages with many images. The <code>loading="lazy"</code> attribute tells the browser to wait until an image is about to scroll into view:</p><pre><code>&lt;img src="big-photo.jpg" alt="A photo" loading="lazy"&gt;</code></pre><p>This makes pages much faster, especially for image galleries. Use <code>loading="lazy"</code> for images below the fold (not visible when the page first loads).</p><h3>Where to Get Free Images</h3><p>For practice and projects, use free image sites that allow commercial use:</p><ul><li><strong>Unsplash</strong> (unsplash.com) — high-quality photos</li><li><strong>Pexels</strong> (pexels.com) — free photos and videos</li><li><strong>Pixabay</strong> (pixabay.com) — photos, illustrations, and videos</li><li><strong>placeholder.com</strong> or <strong>via.placeholder.com</strong> — placeholder images while developing</li></ul><p>Never steal images from random websites — many are copyrighted. Always use images you have permission to use.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Basic Image With Alt Text</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;My First Image&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;My Pet&lt;/h1&gt;
+  &lt;p&gt;Meet Buddy, my golden retriever.&lt;/p&gt;
+  &lt;img src=&quot;https://via.placeholder.com/400x300&quot; alt=&quot;A golden retriever dog sitting on grass&quot; width=&quot;400&quot; height=&quot;300&quot;&gt;
+  &lt;p&gt;He loves playing fetch and going for walks.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A basic image with all the essential attributes: <code>src</code> for the image URL, <code>alt</code> for the description (critical for accessibility and SEO), and <code>width</code>/<code>height</code> to reserve space on the page before the image loads. The placeholder URL shows a blank 400x300 rectangle — replace it with your real image path.</div><div class="code-example-output">A page with a heading &#39;My Pet&#39;, a paragraph, a 400x300 image, and another paragraph.</div></div>
+<div class="code-example"><div class="code-example-title">Figure With Caption</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Famous Landmarks&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Famous Indian Landmarks&lt;/h1&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;https://via.placeholder.com/500x300&quot; alt=&quot;Taj Mahal, white marble monument&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;
+    &lt;figcaption&gt;The Taj Mahal in Agra, built by Shah Jahan in memory of his wife.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;https://via.placeholder.com/500x300&quot; alt=&quot;India Gate at night with lights&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;
+    &lt;figcaption&gt;India Gate in New Delhi, a war memorial for Indian soldiers.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The <code>&lt;figure&gt;</code> element groups an image with its caption. The <code>&lt;figcaption&gt;</code> is the caption text — it can be above or below the image. This is the semantic way to add captions to images. Screen readers understand the relationship between the image and caption.</div><div class="code-example-output">A page with two image figures, each with a caption below it describing a famous Indian landmark.</div></div>
+<div class="code-example"><div class="code-example-title">Image Gallery</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Photo Gallery&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Priya&#39;s Photo Gallery&lt;/h1&gt;
+  &lt;h2&gt;Recent Photos&lt;/h2&gt;
+
+  &lt;figure&gt;
+    &lt;img src=&quot;https://via.placeholder.com/300x200&quot; alt=&quot;Sunrise over the mountains&quot; width=&quot;300&quot; height=&quot;200&quot; loading=&quot;lazy&quot;&gt;
+    &lt;figcaption&gt;Sunrise at Manali&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure&gt;
+    &lt;img src=&quot;https://via.placeholder.com/300x200&quot; alt=&quot;Waves crashing on a beach&quot; width=&quot;300&quot; height=&quot;200&quot; loading=&quot;lazy&quot;&gt;
+    &lt;figcaption&gt;Goa Beach&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure&gt;
+    &lt;img src=&quot;https://via.placeholder.com/300x200&quot; alt=&quot;A plate of biryani&quot; width=&quot;300&quot; height=&quot;200&quot; loading=&quot;lazy&quot;&gt;
+    &lt;figcaption&gt;Hyderabadi Biryani&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure&gt;
+    &lt;img src=&quot;https://via.placeholder.com/300x200&quot; alt=&quot;Colourful rangoli design&quot; width=&quot;300&quot; height=&quot;200&quot; loading=&quot;lazy&quot;&gt;
+    &lt;figcaption&gt;Diwali Rangoli&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A simple gallery with four images, each in its own figure with a caption. All images use <code>loading="lazy"</code> so they only load when scrolled into view — this makes the page load much faster. Every image has descriptive alt text for accessibility.</div><div class="code-example-output">A photo gallery page with four figures, each showing an image and a caption.</div></div>
+<div class="code-example"><div class="code-example-title">Video Player With Poster and Controls</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Video Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Watch My Video&lt;/h1&gt;
+  &lt;video width=&quot;600&quot; controls poster=&quot;https://via.placeholder.com/600x400&quot;&gt;
+    &lt;source src=&quot;my-video.mp4&quot; type=&quot;video/mp4&quot;&gt;
+    &lt;source src=&quot;my-video.webm&quot; type=&quot;video/webm&quot;&gt;
+    Your browser does not support the video tag.
+  &lt;/video&gt;
+  &lt;p&gt;This video shows highlights from my school trip.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A video player with several best practices: <code>controls</code> shows play/pause/volume buttons. <code>poster</code> is the preview image shown before the video plays. Two <code>&lt;source&gt;</code> tags provide MP4 and WebM formats — the browser picks whichever it supports. The text inside is fallback for very old browsers.</div><div class="code-example-output">A video player with a preview image that shows controls when hovered. Click play to watch the video.</div></div>
+<div class="code-example"><div class="code-example-title">Audio Player</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Audio Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Rohan&#39;s Favourite Song&lt;/h1&gt;
+  &lt;p&gt;Click play to listen:&lt;/p&gt;
+  &lt;audio controls&gt;
+    &lt;source src=&quot;song.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
+    &lt;source src=&quot;song.ogg&quot; type=&quot;audio/ogg&quot;&gt;
+    Your browser does not support the audio element.
+  &lt;/audio&gt;
+  &lt;p&gt;Title: &#39;My Melody&#39;&lt;br&gt;Artist: The Code Band&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A simple audio player. The <code>controls</code> attribute shows the play button, time slider, and volume control. Multiple <code>&lt;source&gt;</code> tags provide MP3 and OGG formats for maximum browser support. MP3 is universal, while OGG is an open format supported by Firefox and Chrome.</div><div class="code-example-output">An audio player with play/pause controls and time slider, ready to play the song.</div></div>
+<div class="code-example"><div class="code-example-title">Autoplay Muted Looping Video</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Background Video&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hero Section&lt;/h1&gt;
+  &lt;video width=&quot;800&quot; autoplay muted loop playsinline&gt;
+    &lt;source src=&quot;background.mp4&quot; type=&quot;video/mp4&quot;&gt;
+    Your browser does not support video.
+  &lt;/video&gt;
+  &lt;p&gt;This is how modern websites add looping background videos.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This is how websites add hero-section background videos. <code>autoplay</code> starts the video automatically. <code>muted</code> is required for autoplay in most browsers (they block autoplay with sound). <code>loop</code> replays the video forever. <code>playsinline</code> prevents mobile devices from opening it fullscreen. Use this sparingly — autoplaying videos can be annoying.</div><div class="code-example-output">A video that plays automatically without sound and loops forever, perfect for a website hero section.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Missing alt Attribute</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;img src=&quot;cat.jpg&quot;&gt;</code></pre></div><div class="error-message">Bad for accessibility and SEO. Screen readers will not describe the image, and the HTML is invalid.</div><div class="correct-code"><pre><code class="language-python">&lt;img src=&quot;cat.jpg&quot; alt=&quot;An orange tabby cat sitting on a windowsill&quot;&gt;</code></pre></div><div class="mistake-explanation">Every <code>&lt;img&gt;</code> must have an <code>alt</code> attribute. For decorative images with no meaning, use <code>alt=""</code> (empty string). For meaningful images, describe what they show in a few words.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrong Image Path</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;img src=&quot;C:\Users\Priya\Desktop\cat.jpg&quot; alt=&quot;Cat&quot;&gt;</code></pre></div><div class="error-message">The image works on Priya&#39;s computer but breaks when the website is uploaded to a server.</div><div class="correct-code"><pre><code class="language-python">&lt;img src=&quot;images/cat.jpg&quot; alt=&quot;Cat&quot;&gt;</code></pre></div><div class="mistake-explanation">Never use absolute file paths from your computer (like C:\ on Windows). Use relative paths that work on any server. Put your images in a folder inside your project, like <code>images/</code> or <code>assets/</code>, and link using <code>images/cat.jpg</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting the controls Attribute on Video</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;video src=&quot;movie.mp4&quot; width=&quot;600&quot;&gt;&lt;/video&gt;</code></pre></div><div class="error-message">The video shows but there are no play/pause buttons — users cannot control it.</div><div class="correct-code"><pre><code class="language-python">&lt;video src=&quot;movie.mp4&quot; width=&quot;600&quot; controls&gt;&lt;/video&gt;</code></pre></div><div class="mistake-explanation">Without the <code>controls</code> attribute, the video has no visible interface. Add <code>controls</code> so users can play, pause, and adjust volume. For background videos, omit controls but add <code>autoplay muted loop</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Autoplay Video Without muted</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;video src=&quot;movie.mp4&quot; autoplay&gt;&lt;/video&gt;</code></pre></div><div class="error-message">Modern browsers block autoplay videos that have sound — the video does not play at all.</div><div class="correct-code"><pre><code class="language-python">&lt;video src=&quot;movie.mp4&quot; autoplay muted&gt;&lt;/video&gt;</code></pre></div><div class="mistake-explanation">Browsers now require <code>muted</code> for <code>autoplay</code> to work, to stop annoying websites from blasting sound. If you want autoplay, add muted as well. Users can then manually unmute if they want.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Full Computer Path Instead of URL</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;img src=&quot;file:///C:/photos/cat.jpg&quot; alt=&quot;Cat&quot;&gt;</code></pre></div><div class="error-message">The image does not load for other users because they do not have that file.</div><div class="correct-code"><pre><code class="language-python">&lt;img src=&quot;https://example.com/photos/cat.jpg&quot; alt=&quot;Cat&quot;&gt;
+&lt;!-- Or a relative path: --&gt;
+&lt;img src=&quot;photos/cat.jpg&quot; alt=&quot;Cat&quot;&gt;</code></pre></div><div class="mistake-explanation">Never use <code>file:///</code> URLs — they only work on your own computer. Either upload the image to a web server and use its URL, or keep it in your project folder and use a relative path.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>The &lt;img&gt; tag displays images. It is self-closing and requires both src (image source) and alt (description).</li>
+<li>Alt text is essential — it describes the image for screen readers, appears when the image fails to load, and helps SEO.</li>
+<li>Always set width and height attributes on images to prevent the page layout from jumping around while images load.</li>
+<li>Wrap images with captions in &lt;figure&gt; and use &lt;figcaption&gt; for the caption text. This is the semantic way to add captions.</li>
+<li>The &lt;video&gt; tag plays video files. Use the controls attribute to show play/pause buttons and poster to set a preview image.</li>
+<li>The &lt;audio&gt; tag plays sound files. It has the same controls, autoplay, muted, and loop attributes as video.</li>
+<li>Use &lt;source&gt; tags inside &lt;video&gt; and &lt;audio&gt; to provide multiple formats — the browser picks the first one it supports.</li>
+<li>For autoplay to work in modern browsers, you must also add the muted attribute. Otherwise browsers block autoplay.</li>
+<li>Use loading=&quot;lazy&quot; on images below the fold to make your page load faster — images load only when about to scroll into view.</li>
+<li>Get free images from Unsplash, Pexels, or Pixabay. Never steal copyrighted images from random websites.</li>
+<li>Use relative paths like &#39;images/cat.jpg&#39; for files in your project, or full URLs starting with https:// for external images.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/links-and-navigation" class="related-topic-link">Links, Anchors, and Navigation</a>
+<a href="/resources/html-and-css/lists-and-tables" class="related-topic-link">Lists and Tables</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/links-and-navigation" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Links, Anchors, and Navigation</span>
+        </a>
+            <a href="/resources/html-and-css/lists-and-tables" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Lists and Tables</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/images-and-media/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

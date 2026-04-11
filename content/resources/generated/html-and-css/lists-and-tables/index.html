@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists and Tables - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Create ordered lists, unordered lists, description lists, and data tables with thead, tbody, and tfoot.">
+    <meta name="keywords" content="lists and tables, html and css tutorial, html and css lists and tables, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/lists-and-tables">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/lists-and-tables">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/lists-and-tables">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/lists-and-tables">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/lists-and-tables">
+    <meta property="og:title" content="Lists and Tables - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Create ordered lists, unordered lists, description lists, and data tables with thead, tbody, and tfoot.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/lists-and-tables">
+    <meta name="twitter:title" content="Lists and Tables - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Create ordered lists, unordered lists, description lists, and data tables with thead, tbody, and tfoot.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Lists and Tables",
+    "description": "Create ordered lists, unordered lists, description lists, and data tables with thead, tbody, and tfoot.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/lists-and-tables"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/lists-and-tables"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Lists and Tables",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/lists-and-tables"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Placing a Nested List Between li Tags",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A <code>&lt;ul&gt;</code> can only contain <code>&lt;li&gt;</code> elements as its direct children. To nest a list, you must put the inner <code>&lt;ul&gt;</code> inside one of the <code>&lt;li&gt;</code> tags, after its text. Browsers may still render the bad version, but it is invalid HTML and causes problems with accessibility and validators."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Tables for Page Layout",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tables are for <em>data</em>, not for arranging things on a page. Using tables for layout was common in the 1990s but is now considered harmful. Screen readers read tables cell-by-cell, which makes no sense for a layout. It is nearly impossible to make table-based layouts responsive for mobile phones. Use semantic tags and CSS (Flexbox, Grid) for layout."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting the tr Tag Around Cells",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every row of cells in a table must be wrapped in a <code>&lt;tr&gt;</code> (table row) tag. Cells (<code>&lt;th&gt;</code> or <code>&lt;td&gt;</code>) cannot be direct children of <code>&lt;table&gt;</code>. Forgetting <code>&lt;tr&gt;</code> is a very common beginner mistake that produces a broken table."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Writing a td in a Row Already Covered by rowspan",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When a cell uses <code>rowspan</code>, the cells below it in that column are already \"filled.\" So in the next row, you should NOT include a <code>&lt;td&gt;</code> for that column. If a table has 3 columns and one cell uses <code>rowspan=\"2\"</code>, the next row will only have 2 <code>&lt;td&gt;</code> tags, not 3."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using ul Instead of ol for Instructions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use <code>&lt;ol&gt;</code> whenever the order is important — instructions, steps, recipes, rankings. Use <code>&lt;ul&gt;</code> only when the items are truly interchangeable. For installation steps, step 3 must come after step 2, so it is an ordered list."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Lists and Tables</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 6</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">22 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Lists and Tables</h1>
+            <a href="/resources/html-and-css/lists-and-tables/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are HTML Lists and Tables?</h2><p>Websites are full of lists and tables. The menu on a restaurant page is a list. The nutrition facts on a food label are a table. The steps in a recipe are a list. The schedule of classes at a school is a table. HTML gives us special tags to mark these up the right way.</p><h3>Three Types of Lists</h3><p>HTML has three kinds of lists, each for a different situation:</p><ul><li><strong>Unordered lists</strong> (<code>&lt;ul&gt;</code>) — when the order does not matter. Shopping list, features of a product, tags on a blog post. Displayed with bullets.</li><li><strong>Ordered lists</strong> (<code>&lt;ol&gt;</code>) — when the order matters. Steps in a recipe, top 10 movies, instructions to assemble a chair. Displayed with numbers.</li><li><strong>Description lists</strong> (<code>&lt;dl&gt;</code>) — for pairs of terms and their definitions. A glossary, a FAQ, a dictionary.</li></ul><h3>What Are Tables?</h3><p>A <strong>table</strong> is a grid of rows and columns. It is the right choice only when you have <em>real data</em> that belongs in rows and columns — student marks, cricket scores, train timings, a price comparison. Tables are NOT for laying out pages. That was done in the 1990s and it was a terrible idea. Today we use CSS (Flexbox and Grid) for layout.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Should You Learn Lists and Tables?</h2><h3>1. They Give Content Meaning</h3><p>When you mark a shopping list as a <code>&lt;ul&gt;</code>, screen readers for blind users announce "list with 5 items" before reading them. A search engine knows these are related items. Without the list tags, it is just text. <strong>Meaning matters.</strong></p><h3>2. You Get Free Styling</h3><p>Browsers automatically add bullets to <code>&lt;ul&gt;</code>, numbers to <code>&lt;ol&gt;</code>, and borders to tables. You do not have to style them from scratch — they look decent even without CSS.</p><h3>3. Tables Are Still Everywhere</h3><p>Every dashboard, every report, every price comparison, every leaderboard uses tables. If you want to build dashboards or show data in the future, you need to know tables cold.</p><h3>4. Accessibility and SEO</h3><p>Properly marked up lists and tables make your page readable by screen readers and easier for Google to understand. A table with <code>&lt;th&gt;</code> headers is much more useful to Google than a messy grid of <code>&lt;div&gt;</code>s.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>Unordered Lists</h3><p>An unordered list uses the <code>&lt;ul&gt;</code> tag. Inside it, each item is wrapped in an <code>&lt;li&gt;</code> (list item) tag. Browsers show each item with a bullet point.</p><pre><code>&lt;ul&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+  &lt;li&gt;Bread&lt;/li&gt;
+  &lt;li&gt;Eggs&lt;/li&gt;
+&lt;/ul&gt;</code></pre><p>You can have as many <code>&lt;li&gt;</code> items as you want. The order of items does not imply any ranking — the items are just related.</p><h3>Ordered Lists</h3><p>An ordered list uses <code>&lt;ol&gt;</code>. Each item is still an <code>&lt;li&gt;</code>. Browsers automatically number the items 1, 2, 3, and so on.</p><pre><code>&lt;ol&gt;
+  &lt;li&gt;Wash your hands&lt;/li&gt;
+  &lt;li&gt;Chop the onions&lt;/li&gt;
+  &lt;li&gt;Fry them in oil&lt;/li&gt;
+&lt;/ol&gt;</code></pre><h4>Useful Attributes on &lt;ol&gt;</h4><ul><li><strong>start</strong> — starts counting from a different number. <code>&lt;ol start="5"&gt;</code> starts at 5.</li><li><strong>type</strong> — changes the numbering style. <code>type="1"</code> (default), <code>type="A"</code> (A, B, C), <code>type="a"</code> (a, b, c), <code>type="I"</code> (I, II, III), <code>type="i"</code> (i, ii, iii).</li><li><strong>reversed</strong> — counts backwards. Useful for a countdown like "Top 10" that starts at 10.</li></ul><h3>Description Lists</h3><p>Description lists are for term-definition pairs. You use three tags: <code>&lt;dl&gt;</code> for the whole list, <code>&lt;dt&gt;</code> for the term (definition term), and <code>&lt;dd&gt;</code> for the definition.</p><pre><code>&lt;dl&gt;
+  &lt;dt&gt;HTML&lt;/dt&gt;
+  &lt;dd&gt;The language used to structure web pages.&lt;/dd&gt;
+  &lt;dt&gt;CSS&lt;/dt&gt;
+  &lt;dd&gt;The language used to style web pages.&lt;/dd&gt;
+&lt;/dl&gt;</code></pre><h3>Nested Lists</h3><p>You can put a list inside a list item. This creates a nested list — a list inside a list. Perfect for outlines, hierarchies, and nested menus. Always put the inner list <em>inside</em> an <code>&lt;li&gt;</code>, not between list items.</p><pre><code>&lt;ul&gt;
+  &lt;li&gt;Fruits
+    &lt;ul&gt;
+      &lt;li&gt;Apple&lt;/li&gt;
+      &lt;li&gt;Banana&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Vegetables&lt;/li&gt;
+&lt;/ul&gt;</code></pre><h3>Tables</h3><p>Tables use several tags working together:</p><ul><li><code>&lt;table&gt;</code> — wraps the entire table.</li><li><code>&lt;tr&gt;</code> — table row. One per row.</li><li><code>&lt;th&gt;</code> — table header cell. Used in the header row. Browsers make these bold and centered.</li><li><code>&lt;td&gt;</code> — table data cell. Normal cells.</li><li><code>&lt;thead&gt;</code> — wraps the header row(s).</li><li><code>&lt;tbody&gt;</code> — wraps the body rows.</li><li><code>&lt;tfoot&gt;</code> — wraps the footer row(s), like totals.</li><li><code>&lt;caption&gt;</code> — the title of the table. Place it right after <code>&lt;table&gt;</code>.</li></ul><h3>colspan and rowspan</h3><p>Sometimes a cell needs to span multiple columns or rows. Use <code>colspan</code> to make a cell stretch across columns, and <code>rowspan</code> to make it stretch down rows.</p><pre><code>&lt;td colspan="2"&gt;This cell is 2 columns wide&lt;/td&gt;
+&lt;td rowspan="3"&gt;This cell is 3 rows tall&lt;/td&gt;</code></pre><h3>Tables Are for Data, Not Layouts</h3><p>In the old days (1995-2005), people used tables to position things on a page — a header in one row, a sidebar and content in two cells of the next row, a footer in the third row. This was a disaster for accessibility, mobile phones, and maintenance. <strong>Never use tables for layout.</strong> Use CSS Flexbox or Grid instead. Tables are only for tabular data — rows and columns of related values.</p><h3>Styling Tables (Preview)</h3><p>By default, tables look plain — cells with no borders, no padding. A few CSS lines transform them. You will learn CSS properly in Chapter 9, but here is a preview of what makes tables look good: <code>border</code> on each cell, <code>border-collapse: collapse</code> on the table, <code>padding</code> inside cells, and alternating row colors for readability.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">A Simple Shopping List</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Shopping List&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Aarav&#39;s Shopping List&lt;/h1&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Milk&lt;/li&gt;
+    &lt;li&gt;Bread&lt;/li&gt;
+    &lt;li&gt;Eggs&lt;/li&gt;
+    &lt;li&gt;Bananas&lt;/li&gt;
+    &lt;li&gt;Chocolate&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This is a classic unordered list. The <code>&lt;ul&gt;</code> tag creates the list, and each <code>&lt;li&gt;</code> is one item. The browser automatically adds bullet points before each item. The items are not in any particular order — it does not matter whether you buy milk or bread first. Save this as <code>shopping.html</code> and open it in your browser.</div><div class="code-example-output">A page with the heading &#39;Aarav&#39;s Shopping List&#39; and a bulleted list:
+- Milk
+- Bread
+- Eggs
+- Bananas
+- Chocolate</div></div>
+<div class="code-example"><div class="code-example-title">Recipe Steps with an Ordered List</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;How to Make Masala Chai&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;How to Make Masala Chai&lt;/h1&gt;
+  &lt;p&gt;Priya&#39;s five-step recipe:&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Boil one cup of water in a pan.&lt;/li&gt;
+    &lt;li&gt;Add half a teaspoon of crushed ginger and 2 cardamom pods.&lt;/li&gt;
+    &lt;li&gt;Add 1 teaspoon of tea leaves.&lt;/li&gt;
+    &lt;li&gt;Pour in half a cup of milk and boil for 2 minutes.&lt;/li&gt;
+    &lt;li&gt;Strain into a cup and add sugar to taste.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This uses <code>&lt;ol&gt;</code> because the order matters — you cannot pour the tea before boiling the water. Each step is in a <code>&lt;li&gt;</code>. The browser automatically numbers them 1 through 5. If Priya adds a sixth step later, the numbering updates automatically.</div><div class="code-example-output">How to Make Masala Chai
+Priya&#39;s five-step recipe:
+1. Boil one cup of water in a pan.
+2. Add half a teaspoon of crushed ginger and 2 cardamom pods.
+3. Add 1 teaspoon of tea leaves.
+4. Pour in half a cup of milk and boil for 2 minutes.
+5. Strain into a cup and add sugar to taste.</div></div>
+<div class="code-example"><div class="code-example-title">Ordered List Attributes: start, type, reversed</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Top Movies&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Rohan&#39;s Top 5 Movies (Countdown)&lt;/h2&gt;
+  &lt;ol reversed&gt;
+    &lt;li&gt;3 Idiots&lt;/li&gt;
+    &lt;li&gt;Dangal&lt;/li&gt;
+    &lt;li&gt;Lagaan&lt;/li&gt;
+    &lt;li&gt;Sholay&lt;/li&gt;
+    &lt;li&gt;Zindagi Na Milegi Dobara&lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;h2&gt;Chapters (Starting from 5)&lt;/h2&gt;
+  &lt;ol start=&quot;5&quot;&gt;
+    &lt;li&gt;Lists and Tables&lt;/li&gt;
+    &lt;li&gt;Forms and Inputs&lt;/li&gt;
+    &lt;li&gt;Semantic HTML&lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;h2&gt;Plan Options (A, B, C)&lt;/h2&gt;
+  &lt;ol type=&quot;A&quot;&gt;
+    &lt;li&gt;Basic Plan&lt;/li&gt;
+    &lt;li&gt;Pro Plan&lt;/li&gt;
+    &lt;li&gt;Premium Plan&lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;h2&gt;Roman Numeral List&lt;/h2&gt;
+  &lt;ol type=&quot;I&quot;&gt;
+    &lt;li&gt;Introduction&lt;/li&gt;
+    &lt;li&gt;Main Content&lt;/li&gt;
+    &lt;li&gt;Conclusion&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This demonstrates all three ordered list attributes. The <code>reversed</code> attribute counts from 5 down to 1 — perfect for a top-5 countdown. <code>start="5"</code> begins numbering at 5 instead of 1. <code>type="A"</code> uses capital letters A, B, C. <code>type="I"</code> uses Roman numerals I, II, III. Other valid types are <code>a</code>, <code>i</code>, and <code>1</code> (default).</div><div class="code-example-output">Four lists shown: a reversed 5-4-3-2-1 countdown, a list starting at 5, a letter list (A, B, C), and a Roman numeral list (I, II, III).</div></div>
+<div class="code-example"><div class="code-example-title">Description List for a Glossary</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Web Development Glossary&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Web Development Glossary&lt;/h1&gt;
+  &lt;dl&gt;
+    &lt;dt&gt;HTML&lt;/dt&gt;
+    &lt;dd&gt;HyperText Markup Language. Used to create the structure of web pages.&lt;/dd&gt;
+
+    &lt;dt&gt;CSS&lt;/dt&gt;
+    &lt;dd&gt;Cascading Style Sheets. Used to style and design web pages.&lt;/dd&gt;
+
+    &lt;dt&gt;JavaScript&lt;/dt&gt;
+    &lt;dd&gt;A programming language that makes web pages interactive.&lt;/dd&gt;
+
+    &lt;dt&gt;Browser&lt;/dt&gt;
+    &lt;dd&gt;A program like Chrome, Firefox, or Edge that displays web pages.&lt;/dd&gt;
+  &lt;/dl&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A description list (<code>&lt;dl&gt;</code>) is perfect for glossaries, FAQs, metadata, and any term-definition content. <code>&lt;dt&gt;</code> holds the term being defined, and <code>&lt;dd&gt;</code> holds the description. Browsers typically show <code>&lt;dd&gt;</code> indented below its <code>&lt;dt&gt;</code>. One term can have multiple <code>&lt;dd&gt;</code> tags if it has multiple definitions.</div><div class="code-example-output">A glossary where each term (HTML, CSS, JavaScript, Browser) appears on its own line, with its definition indented below it.</div></div>
+<div class="code-example"><div class="code-example-title">Nested List for a Menu Outline</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Restaurant Menu&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Spice Palace Menu&lt;/h1&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Starters
+      &lt;ul&gt;
+        &lt;li&gt;Samosa&lt;/li&gt;
+        &lt;li&gt;Paneer Tikka&lt;/li&gt;
+        &lt;li&gt;Vegetable Pakora&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Main Course
+      &lt;ul&gt;
+        &lt;li&gt;Butter Chicken&lt;/li&gt;
+        &lt;li&gt;Dal Makhani&lt;/li&gt;
+        &lt;li&gt;Paneer Butter Masala&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Desserts
+      &lt;ul&gt;
+        &lt;li&gt;Gulab Jamun&lt;/li&gt;
+        &lt;li&gt;Rasmalai&lt;/li&gt;
+        &lt;li&gt;Kulfi&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Nested lists let you create hierarchies. Notice that the inner <code>&lt;ul&gt;</code> is placed <strong>inside</strong> an outer <code>&lt;li&gt;</code>, after its text. This is the correct way. Never place a <code>&lt;ul&gt;</code> directly between two <code>&lt;li&gt;</code> tags — that is invalid HTML. You can nest as deeply as you want, but more than 3 levels usually becomes confusing.</div><div class="code-example-output">A menu with 3 top-level items (Starters, Main Course, Desserts), each with 3 nested items shown indented below.</div></div>
+<div class="code-example"><div class="code-example-title">A Student Marks Table with thead, tbody, tfoot</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Class Marks&lt;/title&gt;
+  &lt;style&gt;
+    table { border-collapse: collapse; margin: 20px; }
+    th, td { border: 1px solid #333; padding: 8px 12px; }
+    thead { background-color: #f0c0c0; }
+    tfoot { background-color: #c0f0c0; font-weight: bold; }
+    caption { font-size: 18px; margin-bottom: 10px; font-weight: bold; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;table&gt;
+    &lt;caption&gt;Class 8A - Term 1 Marks&lt;/caption&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Student&lt;/th&gt;
+        &lt;th&gt;Maths&lt;/th&gt;
+        &lt;th&gt;Science&lt;/th&gt;
+        &lt;th&gt;English&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Aarav Sharma&lt;/td&gt;
+        &lt;td&gt;92&lt;/td&gt;
+        &lt;td&gt;88&lt;/td&gt;
+        &lt;td&gt;85&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Priya Patel&lt;/td&gt;
+        &lt;td&gt;95&lt;/td&gt;
+        &lt;td&gt;91&lt;/td&gt;
+        &lt;td&gt;89&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Rohan Kumar&lt;/td&gt;
+        &lt;td&gt;78&lt;/td&gt;
+        &lt;td&gt;82&lt;/td&gt;
+        &lt;td&gt;80&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Average&lt;/td&gt;
+        &lt;td&gt;88.3&lt;/td&gt;
+        &lt;td&gt;87.0&lt;/td&gt;
+        &lt;td&gt;84.7&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tfoot&gt;
+  &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This is a complete data table showing three students and their marks in three subjects. The <code>&lt;caption&gt;</code> is the table title. <code>&lt;thead&gt;</code> holds the header row with <code>&lt;th&gt;</code> cells (bold and centered by default). <code>&lt;tbody&gt;</code> holds the data rows. <code>&lt;tfoot&gt;</code> holds the summary row (averages). A bit of CSS gives it borders, padding, and colored header and footer. Save as <code>marks.html</code> and open it — it works.</div><div class="code-example-output">A table with a title at the top, a pink header row (Student, Maths, Science, English), three data rows for Aarav, Priya, and Rohan, and a green footer row with the averages.</div></div>
+<div class="code-example"><div class="code-example-title">Using colspan and rowspan</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Timetable&lt;/title&gt;
+  &lt;style&gt;
+    table { border-collapse: collapse; margin: 20px; }
+    th, td { border: 1px solid #333; padding: 10px 15px; text-align: center; }
+    th { background-color: #d4e9ff; }
+    .lunch { background-color: #ffe9b0; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Ananya&#39;s School Timetable&lt;/h2&gt;
+  &lt;table&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Time&lt;/th&gt;
+      &lt;th&gt;Monday&lt;/th&gt;
+      &lt;th&gt;Tuesday&lt;/th&gt;
+      &lt;th&gt;Wednesday&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9:00&lt;/td&gt;
+      &lt;td&gt;Maths&lt;/td&gt;
+      &lt;td&gt;Science&lt;/td&gt;
+      &lt;td&gt;English&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10:00&lt;/td&gt;
+      &lt;td colspan=&quot;3&quot;&gt;School Assembly (all classes)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;11:00&lt;/td&gt;
+      &lt;td&gt;History&lt;/td&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;Double Art Period&lt;/td&gt;
+      &lt;td&gt;Geography&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12:00&lt;/td&gt;
+      &lt;td&gt;Hindi&lt;/td&gt;
+      &lt;td&gt;Music&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;lunch&quot;&gt;
+      &lt;td&gt;1:00&lt;/td&gt;
+      &lt;td colspan=&quot;3&quot;&gt;Lunch Break&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This timetable demonstrates both <code>colspan</code> and <code>rowspan</code>. The 10:00 and 1:00 rows use <code>colspan="3"</code> because those events cover all three days. The Art period uses <code>rowspan="2"</code> because it lasts two hours. Notice that in the row following a <code>rowspan</code>, you do NOT write a <code>&lt;td&gt;</code> for the cell that is already occupied — it is already there from the previous row.</div><div class="code-example-output">A timetable with a spanning &#39;School Assembly&#39; cell across all three day columns, a &#39;Double Art Period&#39; cell spanning two rows on Tuesday, and a &#39;Lunch Break&#39; cell spanning all three days with a yellow background.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Placing a Nested List Between li Tags</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;ul&gt;
+  &lt;li&gt;Fruits&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Apple&lt;/li&gt;
+    &lt;li&gt;Banana&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Vegetables&lt;/li&gt;
+&lt;/ul&gt;</code></pre></div><div class="error-message">Invalid HTML. The nested ul is directly inside ul, not inside li.</div><div class="correct-code"><pre><code class="language-python">&lt;ul&gt;
+  &lt;li&gt;Fruits
+    &lt;ul&gt;
+      &lt;li&gt;Apple&lt;/li&gt;
+      &lt;li&gt;Banana&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Vegetables&lt;/li&gt;
+&lt;/ul&gt;</code></pre></div><div class="mistake-explanation">A <code>&lt;ul&gt;</code> can only contain <code>&lt;li&gt;</code> elements as its direct children. To nest a list, you must put the inner <code>&lt;ul&gt;</code> inside one of the <code>&lt;li&gt;</code> tags, after its text. Browsers may still render the bad version, but it is invalid HTML and causes problems with accessibility and validators.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Tables for Page Layout</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Logo&lt;/td&gt;
+    &lt;td&gt;Menu&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Sidebar&lt;/td&gt;
+    &lt;td&gt;Main content goes here...&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre></div><div class="error-message">No error, but this is wrong for many reasons: bad for accessibility, bad for mobile, hard to maintain, bad for SEO.</div><div class="correct-code"><pre><code class="language-python">&lt;header&gt;
+  &lt;div class=&quot;logo&quot;&gt;Logo&lt;/div&gt;
+  &lt;nav&gt;Menu&lt;/nav&gt;
+&lt;/header&gt;
+&lt;main&gt;
+  &lt;aside&gt;Sidebar&lt;/aside&gt;
+  &lt;article&gt;Main content goes here...&lt;/article&gt;
+&lt;/main&gt;
+&lt;!-- Then use CSS Flexbox or Grid to arrange them --&gt;</code></pre></div><div class="mistake-explanation">Tables are for <em>data</em>, not for arranging things on a page. Using tables for layout was common in the 1990s but is now considered harmful. Screen readers read tables cell-by-cell, which makes no sense for a layout. It is nearly impossible to make table-based layouts responsive for mobile phones. Use semantic tags and CSS (Flexbox, Grid) for layout.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting the tr Tag Around Cells</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;table&gt;
+  &lt;th&gt;Name&lt;/th&gt;
+  &lt;th&gt;Age&lt;/th&gt;
+  &lt;td&gt;Vikram&lt;/td&gt;
+  &lt;td&gt;14&lt;/td&gt;
+&lt;/table&gt;</code></pre></div><div class="error-message">Browsers try to auto-fix this, but the structure is broken. Cells appear in unexpected places.</div><div class="correct-code"><pre><code class="language-python">&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Age&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Vikram&lt;/td&gt;
+    &lt;td&gt;14&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre></div><div class="mistake-explanation">Every row of cells in a table must be wrapped in a <code>&lt;tr&gt;</code> (table row) tag. Cells (<code>&lt;th&gt;</code> or <code>&lt;td&gt;</code>) cannot be direct children of <code>&lt;table&gt;</code>. Forgetting <code>&lt;tr&gt;</code> is a very common beginner mistake that produces a broken table.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Writing a td in a Row Already Covered by rowspan</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;tr&gt;
+  &lt;td rowspan=&quot;2&quot;&gt;Merged&lt;/td&gt;
+  &lt;td&gt;A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Merged&lt;/td&gt;  &lt;!-- WRONG: this position is already taken --&gt;
+  &lt;td&gt;B&lt;/td&gt;
+&lt;/tr&gt;</code></pre></div><div class="error-message">The table shifts and the cells appear in the wrong columns.</div><div class="correct-code"><pre><code class="language-python">&lt;tr&gt;
+  &lt;td rowspan=&quot;2&quot;&gt;Merged&lt;/td&gt;
+  &lt;td&gt;A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;B&lt;/td&gt;  &lt;!-- Only ONE td because the first column is filled by rowspan --&gt;
+&lt;/tr&gt;</code></pre></div><div class="mistake-explanation">When a cell uses <code>rowspan</code>, the cells below it in that column are already "filled." So in the next row, you should NOT include a <code>&lt;td&gt;</code> for that column. If a table has 3 columns and one cell uses <code>rowspan="2"</code>, the next row will only have 2 <code>&lt;td&gt;</code> tags, not 3.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using ul Instead of ol for Instructions</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;h2&gt;How to Install the App&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Download the file&lt;/li&gt;
+  &lt;li&gt;Open the installer&lt;/li&gt;
+  &lt;li&gt;Click Next&lt;/li&gt;
+  &lt;li&gt;Click Finish&lt;/li&gt;
+&lt;/ul&gt;</code></pre></div><div class="error-message">No error, but wrong semantically. The order matters for instructions.</div><div class="correct-code"><pre><code class="language-python">&lt;h2&gt;How to Install the App&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Download the file&lt;/li&gt;
+  &lt;li&gt;Open the installer&lt;/li&gt;
+  &lt;li&gt;Click Next&lt;/li&gt;
+  &lt;li&gt;Click Finish&lt;/li&gt;
+&lt;/ol&gt;</code></pre></div><div class="mistake-explanation">Use <code>&lt;ol&gt;</code> whenever the order is important — instructions, steps, recipes, rankings. Use <code>&lt;ul&gt;</code> only when the items are truly interchangeable. For installation steps, step 3 must come after step 2, so it is an ordered list.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>HTML has three types of lists: &lt;ul&gt; for unordered, &lt;ol&gt; for ordered, and &lt;dl&gt; for description lists.</li>
+<li>Every list item inside &lt;ul&gt; and &lt;ol&gt; must be wrapped in an &lt;li&gt; tag. Description lists use &lt;dt&gt; for terms and &lt;dd&gt; for definitions.</li>
+<li>&lt;ol&gt; supports useful attributes: start to begin at a different number, type to change the style (1, A, a, I, i), and reversed to count backwards.</li>
+<li>You can nest lists by placing a &lt;ul&gt; or &lt;ol&gt; inside an &lt;li&gt; tag, not between two &lt;li&gt; tags.</li>
+<li>Tables use &lt;table&gt; as the wrapper, &lt;tr&gt; for each row, &lt;th&gt; for header cells, and &lt;td&gt; for data cells.</li>
+<li>Use &lt;thead&gt; for the header row(s), &lt;tbody&gt; for the data rows, and &lt;tfoot&gt; for summary or totals. Add a &lt;caption&gt; right after &lt;table&gt; for the title.</li>
+<li>colspan makes a cell span multiple columns, rowspan makes it span multiple rows. Remember to skip the covered cells in following rows.</li>
+<li>Tables are for tabular data only. Never use tables for page layout — use CSS Flexbox or Grid instead. Tables for layout are bad for accessibility, mobile, and SEO.</li>
+<li>By default, browsers add bullets to &lt;ul&gt;, numbers to &lt;ol&gt;, and no borders to tables. A small amount of CSS makes them look great.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/forms-and-inputs" class="related-topic-link">Forms, Inputs, and Form Validation</a>
+<a href="/resources/html-and-css/semantic-html" class="related-topic-link">Semantic HTML - header, nav, main, section, article, footer</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/images-and-media" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Images, Audio, and Video</span>
+        </a>
+            <a href="/resources/html-and-css/forms-and-inputs" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Forms, Inputs, and Form Validation</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/lists-and-tables/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

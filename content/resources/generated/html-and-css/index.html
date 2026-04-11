@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Tutorial - Build Beautiful Websites from Scratch | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn HTML and CSS from scratch with our free chapter-by-chapter guide. Build real websites with forms, layouts, animations, and responsive design. Each topic includes detailed notes, live examples, and 50+ creative practice questions.">
+    <meta name="keywords" content="html tutorial, css tutorial, learn html, learn css, web design tutorial, html and css for beginners, flexbox tutorial, css grid tutorial, responsive web design, css animations, html5 tutorial, html css practice">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css">
+    <meta property="og:title" content="HTML and CSS Tutorial - Build Beautiful Websites from Scratch | Modern Age Coders">
+    <meta property="og:description" content="Learn HTML and CSS from scratch with our free chapter-by-chapter guide. Build real websites with forms, layouts, animations, and responsive design. Each topic includes detailed notes, live examples, and 50+ creative practice questions.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css">
+    <meta name="twitter:title" content="HTML and CSS Tutorial - Build Beautiful Websites from Scratch | Modern Age Coders">
+    <meta name="twitter:description" content="Learn HTML and CSS from scratch with our free chapter-by-chapter guide. Build real websites with forms, layouts, animations, and responsive design. Each topic includes detailed notes, live examples, and 50+ creative practice questions.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "HTML and CSS Tutorial - Build Beautiful Websites from Scratch",
+    "description": "Learn HTML and CSS from scratch with our free chapter-by-chapter guide. Build real websites with forms, layouts, animations, and responsive design. Each topic includes detailed notes, live examples, and 50+ creative practice questions.",
+    "numberOfItems": 25,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Introduction to HTML - The Language of the Web",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/introduction-to-html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "HTML Document Structure and Boilerplate",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/html-structure-and-boilerplate"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Headings, Paragraphs, and Text Formatting",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/headings-paragraphs-and-text"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Links, Anchors, and Navigation",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/links-and-navigation"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Images, Audio, and Video",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/images-and-media"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Lists and Tables",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/lists-and-tables"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Forms, Inputs, and Form Validation",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/forms-and-inputs"
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Semantic HTML - header, nav, main, section, article, footer",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/semantic-html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "Introduction to CSS - Styling the Web",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/introduction-to-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": "CSS Selectors and Specificity",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/css-selectors-and-specificity"
+      },
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "name": "Colors, Backgrounds, and Gradients",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/colors-backgrounds-and-gradients"
+      },
+      {
+        "@type": "ListItem",
+        "position": 12,
+        "name": "Typography and Google Fonts",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/typography-and-fonts"
+      },
+      {
+        "@type": "ListItem",
+        "position": 13,
+        "name": "The Box Model - Margin, Border, Padding",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/the-box-model"
+      },
+      {
+        "@type": "ListItem",
+        "position": 14,
+        "name": "Display and Positioning (static, relative, absolute, fixed, sticky)",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/display-and-positioning"
+      },
+      {
+        "@type": "ListItem",
+        "position": 15,
+        "name": "Flexbox - The Complete Guide",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/flexbox-complete-guide"
+      },
+      {
+        "@type": "ListItem",
+        "position": 16,
+        "name": "CSS Grid - The Complete Guide",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/css-grid-complete-guide"
+      },
+      {
+        "@type": "ListItem",
+        "position": 17,
+        "name": "Responsive Design and Media Queries",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/responsive-design-and-media-queries"
+      },
+      {
+        "@type": "ListItem",
+        "position": 18,
+        "name": "CSS Transitions and Hover Effects",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/transitions-and-hover-effects"
+      },
+      {
+        "@type": "ListItem",
+        "position": 19,
+        "name": "CSS Animations with Keyframes",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/css-animations-and-keyframes"
+      },
+      {
+        "@type": "ListItem",
+        "position": 20,
+        "name": "CSS Transforms (2D and 3D)",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/transforms-2d-and-3d"
+      },
+      {
+        "@type": "ListItem",
+        "position": 21,
+        "name": "CSS Variables and Theming (Dark Mode)",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/css-variables-and-theming"
+      },
+      {
+        "@type": "ListItem",
+        "position": 22,
+        "name": "Pseudo-classes and Pseudo-elements",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/pseudo-classes-and-pseudo-elements"
+      },
+      {
+        "@type": "ListItem",
+        "position": 23,
+        "name": "Modern CSS - Container Queries, Subgrid, clamp(), has() Selector",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/modern-css-features"
+      },
+      {
+        "@type": "ListItem",
+        "position": 24,
+        "name": "Project: Build a Complete Landing Page",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/project-build-a-landing-page"
+      },
+      {
+        "@type": "ListItem",
+        "position": 25,
+        "name": "Project: Build an Animated Portfolio Website",
+        "url": "https://learn.modernagecoders.com/resources/html-and-css/project-animated-portfolio-website"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+</head>
+
+<body class="resource-index-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">HTML and CSS</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <h1 class="resource-title">HTML and CSS Tutorial - Build Beautiful Websites from Scratch</h1>
+            <div class="index-intro"><p>Every website you love — Instagram, Netflix, Google, YouTube — is built with HTML and CSS at its core. HTML gives websites their structure (like the bones of a body), and CSS gives them their beauty (like the skin and clothes). If you want to create anything on the web, this is where you start.</p><p>This guide teaches HTML and CSS the way they should be learned — by building real things. You will not just memorize tags and properties. You will build navigation menus, hero sections, forms, image galleries, animated buttons, responsive layouts, dark mode toggles, and complete landing pages.</p><p>Each chapter has 50+ creative practice questions, from easy warm-ups to hard build-it-yourself challenges. By the end of this guide, you will be able to build beautiful, modern, responsive websites that work on any device. Let us begin.</p></div>
+            <div class="index-stats">
+                <span class="badge badge-chapter">25 Chapters</span>
+                <span class="badge badge-questions">1435+ Questions</span>
+                <span class="badge badge-free">Free</span>
+            </div>
+        </div><!-- /resource-header -->
+
+        <!-- Chapter Listing -->
+        <section class="chapter-listing">
+            <h2>Chapters</h2>
+            
+            <a href="/resources/html-and-css/introduction-to-html" class="chapter-card">
+                <div class="chapter-card-number">1</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Introduction to HTML - The Language of the Web</div>
+                    <div class="chapter-card-desc">Learn what HTML is, how browsers read it, and create your very first web page that you can open in a browser.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/html-structure-and-boilerplate" class="chapter-card">
+                <div class="chapter-card-number">2</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">HTML Document Structure and Boilerplate</div>
+                    <div class="chapter-card-desc">Understand the DOCTYPE, html, head, and body tags. Learn the standard boilerplate every HTML page needs.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/headings-paragraphs-and-text" class="chapter-card">
+                <div class="chapter-card-number">3</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Headings, Paragraphs, and Text Formatting</div>
+                    <div class="chapter-card-desc">Use h1 to h6, p, strong, em, mark, small, sub, sup, and other text tags to structure content.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/links-and-navigation" class="chapter-card">
+                <div class="chapter-card-number">4</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Links, Anchors, and Navigation</div>
+                    <div class="chapter-card-desc">Create clickable links with the a tag, internal page navigation, external links, email links, and download links.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/images-and-media" class="chapter-card">
+                <div class="chapter-card-number">5</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Images, Audio, and Video</div>
+                    <div class="chapter-card-desc">Add images with img, use alt text for accessibility, embed audio and video, and use figure and figcaption.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/lists-and-tables" class="chapter-card">
+                <div class="chapter-card-number">6</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Lists and Tables</div>
+                    <div class="chapter-card-desc">Create ordered lists, unordered lists, description lists, and data tables with thead, tbody, and tfoot.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/forms-and-inputs" class="chapter-card">
+                <div class="chapter-card-number">7</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Forms, Inputs, and Form Validation</div>
+                    <div class="chapter-card-desc">Build forms with text, email, password, number, date, radio, checkbox, select, textarea, and HTML5 validation.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/semantic-html" class="chapter-card">
+                <div class="chapter-card-number">8</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Semantic HTML - header, nav, main, section, article, footer</div>
+                    <div class="chapter-card-desc">Use semantic tags that describe meaning, not just appearance. Better for SEO, accessibility, and code clarity.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/introduction-to-css" class="chapter-card">
+                <div class="chapter-card-number">9</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Introduction to CSS - Styling the Web</div>
+                    <div class="chapter-card-desc">Learn what CSS is, how it works with HTML, and the three ways to add CSS: inline, internal, and external.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/css-selectors-and-specificity" class="chapter-card">
+                <div class="chapter-card-number">10</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">CSS Selectors and Specificity</div>
+                    <div class="chapter-card-desc">Master element, class, id, attribute, and combinator selectors. Understand specificity and the cascade.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/colors-backgrounds-and-gradients" class="chapter-card">
+                <div class="chapter-card-number">11</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Colors, Backgrounds, and Gradients</div>
+                    <div class="chapter-card-desc">Use named colors, hex, rgb, rgba, hsl. Master background-image, background-size, and linear/radial gradients.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/typography-and-fonts" class="chapter-card">
+                <div class="chapter-card-number">12</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Typography and Google Fonts</div>
+                    <div class="chapter-card-desc">Control font-family, size, weight, line-height, letter-spacing, text-align. Use Google Fonts in your projects.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/the-box-model" class="chapter-card">
+                <div class="chapter-card-number">13</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">The Box Model - Margin, Border, Padding</div>
+                    <div class="chapter-card-desc">Understand the box model, box-sizing, content/padding/border/margin, and why box-sizing: border-box matters.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/display-and-positioning" class="chapter-card">
+                <div class="chapter-card-number">14</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Display and Positioning (static, relative, absolute, fixed, sticky)</div>
+                    <div class="chapter-card-desc">Master block, inline, inline-block, none, and all position values with z-index for stacking.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/flexbox-complete-guide" class="chapter-card">
+                <div class="chapter-card-number">15</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Flexbox - The Complete Guide</div>
+                    <div class="chapter-card-desc">Master display: flex, flex-direction, justify-content, align-items, flex-wrap, gap, and build real layouts.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/css-grid-complete-guide" class="chapter-card">
+                <div class="chapter-card-number">16</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">CSS Grid - The Complete Guide</div>
+                    <div class="chapter-card-desc">Master grid-template-columns, grid-template-rows, gap, grid-area, and build complex layouts with ease.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/responsive-design-and-media-queries" class="chapter-card">
+                <div class="chapter-card-number">17</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Responsive Design and Media Queries</div>
+                    <div class="chapter-card-desc">Build websites that work on phones, tablets, and desktops. Mobile-first approach, breakpoints, and fluid layouts.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/transitions-and-hover-effects" class="chapter-card">
+                <div class="chapter-card-number">18</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">CSS Transitions and Hover Effects</div>
+                    <div class="chapter-card-desc">Add smooth animations on hover. Master transition-property, duration, timing-function, and delay for interactive UI.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/css-animations-and-keyframes" class="chapter-card">
+                <div class="chapter-card-number">19</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">CSS Animations with Keyframes</div>
+                    <div class="chapter-card-desc">Create complex animations with @keyframes, animation properties, loading spinners, bouncing buttons, and more.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/transforms-2d-and-3d" class="chapter-card">
+                <div class="chapter-card-number">20</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">CSS Transforms (2D and 3D)</div>
+                    <div class="chapter-card-desc">Scale, rotate, translate, skew elements. Build flip cards, 3D rotations, and interactive image hovers.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/css-variables-and-theming" class="chapter-card">
+                <div class="chapter-card-number">21</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">CSS Variables and Theming (Dark Mode)</div>
+                    <div class="chapter-card-desc">Use CSS custom properties (--variable) for clean code and build a working dark mode toggle with pure CSS.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/pseudo-classes-and-pseudo-elements" class="chapter-card">
+                <div class="chapter-card-number">22</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Pseudo-classes and Pseudo-elements</div>
+                    <div class="chapter-card-desc">Master :hover, :focus, :nth-child, :not, ::before, ::after, and create creative effects without extra HTML.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/modern-css-features" class="chapter-card">
+                <div class="chapter-card-number">23</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Modern CSS - Container Queries, Subgrid, clamp(), has() Selector</div>
+                    <div class="chapter-card-desc">Learn the latest CSS: container queries, subgrid, clamp() for fluid typography, :has() parent selector, aspect-ratio.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/project-build-a-landing-page" class="chapter-card">
+                <div class="chapter-card-number">24</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Project: Build a Complete Landing Page</div>
+                    <div class="chapter-card-desc">Build a full responsive landing page with hero, features, pricing, testimonials, and footer using HTML and CSS only.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/html-and-css/project-animated-portfolio-website" class="chapter-card">
+                <div class="chapter-card-number">25</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Project: Build an Animated Portfolio Website</div>
+                    <div class="chapter-card-desc">Create a stunning portfolio with smooth scrolling, hover effects, animations, dark mode, and full responsiveness.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+
+</body>
+
+</html>

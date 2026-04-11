@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links, Anchors, and Navigation - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Create clickable links with the a tag, internal page navigation, external links, email links, and download links.">
+    <meta name="keywords" content="links, anchors, and navigation, html and css tutorial, html and css links, anchors, and navigation, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/links-and-navigation">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/links-and-navigation">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/links-and-navigation">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/links-and-navigation">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/links-and-navigation">
+    <meta property="og:title" content="Links, Anchors, and Navigation - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Create clickable links with the a tag, internal page navigation, external links, email links, and download links.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/links-and-navigation">
+    <meta name="twitter:title" content="Links, Anchors, and Navigation - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Create clickable links with the a tag, internal page navigation, external links, email links, and download links.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Links, Anchors, and Navigation",
+    "description": "Create clickable links with the a tag, internal page navigation, external links, email links, and download links.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/links-and-navigation"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/links-and-navigation"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Links, Anchors, and Navigation",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/links-and-navigation"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting the href Attribute",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every <code>&lt;a&gt;</code> tag needs an <code>href</code> attribute to be a functioning link. Without it, the tag may display as styled text, but clicking does nothing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using target=\"_blank\" Without rel=\"noopener noreferrer\"",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always add <code>rel=\"noopener noreferrer\"</code> when using <code>target=\"_blank\"</code>. <code>noopener</code> prevents the new page from accessing the original via <code>window.opener</code>. <code>noreferrer</code> prevents sending the referring URL."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting https:// for External Links",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "External links must start with <code>https://</code> (or <code>http://</code>). Without it, the browser thinks you mean a file on your own site. Always include the full protocol for external URLs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Anchor Link With ID That Does Not Exist",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When using anchor links with <code>#</code>, you must have an element with a matching <code>id</code> attribute somewhere on the page. The ID in the href (after #) must match the id attribute exactly — case-sensitive."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrong mailto Syntax",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The correct protocol for email links is <code>mailto:</code> (with 'to' at the end), not <code>mail:</code>. Similarly, phone links use <code>tel:</code>, not <code>phone:</code>."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Links, Anchors, and Navigation</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 4</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">22 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Links, Anchors, and Navigation</h1>
+            <a href="/resources/html-and-css/links-and-navigation/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are HTML Links?</h2><p>Links are what make the web a <strong>web</strong>. Without them, the internet would just be a bunch of disconnected pages floating alone. Links are the threads that connect every page to every other page. Click a link and you teleport to another page, another website, another continent, or even back to the same page at a different section.</p><p>Every link in HTML is made with the <code>&lt;a&gt;</code> tag (the 'anchor' tag). The <code>href</code> attribute inside it tells the browser where to go when the user clicks.</p><pre><code>&lt;a href="https://www.google.com"&gt;Go to Google&lt;/a&gt;</code></pre><p>This is the simplest kind of link. The text between the opening and closing tags is what the user sees and clicks on.</p><h3>Why 'Anchor'?</h3><p>The tag is called 'anchor' because in the very first version of the web, links were used to 'anchor' you to a specific place in a document. Over time, they became the primary way to jump between pages. But the name stuck, so we still call it the anchor tag.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn Links Properly?</h2><h3>1. Navigation Is the Backbone of the Web</h3><p>Every website has a menu, a footer, and buttons that take you somewhere. All of these are links. Without links, a website would be one long scrolling page with no way to get around.</p><h3>2. Linking to Other Pages Is Powerful</h3><p>You can send users to any web page in the world with a single link. Share your favourite YouTube video, your project on GitHub, or your photo on Instagram — all with one <code>&lt;a&gt;</code> tag.</p><h3>3. SEO Loves Good Links</h3><p>Google uses links to understand the relationship between pages. If many websites link to your page, Google treats your page as important. Internal links between your own pages also help Google crawl your site.</p><h3>4. Email and Phone Links</h3><p>You can make email addresses and phone numbers clickable. On a phone, clicking a tel link dials the number. Clicking an email link opens the user's email app with the address pre-filled. Super handy for contact pages.</p><h3>5. Anchor Links for Long Pages</h3><p>If your page is long (like a FAQ or a tutorial), you can link to specific sections. Users click a table of contents link and jump directly to that section without scrolling. This is how Wikipedia's 'Contents' box works.</p><h3>6. Professional Habits</h3><p>Knowing when to use <code>target="_blank"</code>, when to add <code>rel="noopener noreferrer"</code>, and how to structure navigation menus are basic skills every web developer needs. Get them right from day one.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>The Basic Anchor Tag</h3><p>A link has two parts: the <code>&lt;a&gt;</code> tag with an <code>href</code> attribute, and the text (or other content) between the opening and closing tags.</p><pre><code>&lt;a href="URL_HERE"&gt;CLICKABLE_TEXT_HERE&lt;/a&gt;</code></pre><p>Examples:</p><ul><li><code>&lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;</code></li><li><code>&lt;a href="about.html"&gt;About Us&lt;/a&gt;</code></li><li><code>&lt;a href="#top"&gt;Back to top&lt;/a&gt;</code></li></ul><h3>Internal Links (Relative Paths)</h3><p>An <strong>internal link</strong> goes to another page within the same website. You use a <strong>relative path</strong> — a path relative to the current HTML file.</p><table><tr><th>Path</th><th>Meaning</th></tr><tr><td><code>about.html</code></td><td>A file in the same folder</td></tr><tr><td><code>./about.html</code></td><td>Same thing (explicit 'same folder')</td></tr><tr><td><code>../index.html</code></td><td>Go up one folder, then find index.html</td></tr><tr><td><code>pages/contact.html</code></td><td>Go into 'pages' folder, find contact.html</td></tr><tr><td><code>../../home.html</code></td><td>Go up two folders, find home.html</td></tr></table><h3>External Links (Absolute URLs)</h3><p>An <strong>external link</strong> goes to another website. You use a complete URL starting with <code>https://</code> or <code>http://</code>.</p><pre><code>&lt;a href="https://www.wikipedia.org"&gt;Wikipedia&lt;/a&gt;</code></pre><p>Always prefer <code>https://</code> over <code>http://</code> — it is the secure version.</p><h3>target="_blank" — Opening Links in a New Tab</h3><p>By default, clicking a link replaces the current page. To open the link in a new browser tab (so users can come back to your page), use <code>target="_blank"</code>:</p><pre><code>&lt;a href="https://www.google.com" target="_blank"&gt;Google&lt;/a&gt;</code></pre><p>However, when you use <code>target="_blank"</code>, there is a security and performance issue. The new tab gets access to the opener tab through the <code>window.opener</code> object, and some browsers may tie both tabs to the same process. To fix this, always add <code>rel="noopener noreferrer"</code>:</p><pre><code>&lt;a href="https://www.google.com" target="_blank" rel="noopener noreferrer"&gt;Google&lt;/a&gt;</code></pre><p><strong>noopener</strong> — prevents the new page from using <code>window.opener</code> to control the original page.<br><strong>noreferrer</strong> — does not send the referring URL to the new page (adds extra privacy).</p><h3>Anchor Links (Same-Page Navigation)</h3><p>You can link to a specific section within the same page using an ID. First, give the destination element an <code>id</code>:</p><pre><code>&lt;h2 id="chapter-3"&gt;Chapter 3&lt;/h2&gt;</code></pre><p>Then link to it with <code>#</code> followed by the ID:</p><pre><code>&lt;a href="#chapter-3"&gt;Go to Chapter 3&lt;/a&gt;</code></pre><p>When clicked, the browser scrolls down to that heading. You can also link to an ID on a different page with <code>page.html#chapter-3</code>.</p><h3>mailto: Links</h3><p>A <code>mailto:</code> link opens the user's default email app with the address pre-filled:</p><pre><code>&lt;a href="mailto:priya@example.com"&gt;Email Priya&lt;/a&gt;</code></pre><p>You can even pre-fill the subject and body:</p><pre><code>&lt;a href="mailto:priya@example.com?subject=Hello&amp;body=Hi%20Priya"&gt;Email Priya&lt;/a&gt;</code></pre><p>(Note: spaces in the URL need to be encoded as <code>%20</code>.)</p><h3>tel: Links</h3><p>A <code>tel:</code> link opens the phone dialler on mobile devices (on desktop it may not do much):</p><pre><code>&lt;a href="tel:+919876543210"&gt;Call Us&lt;/a&gt;</code></pre><p>Always include the country code starting with a plus sign. This makes the link work from any country.</p><h3>The download Attribute</h3><p>Adding the <code>download</code> attribute to a link makes the browser download the file instead of opening it:</p><pre><code>&lt;a href="resume.pdf" download&gt;Download Resume&lt;/a&gt;</code></pre><p>You can also rename the downloaded file:</p><pre><code>&lt;a href="resume.pdf" download="Priya_Resume.pdf"&gt;Download&lt;/a&gt;</code></pre><h3>The title Attribute</h3><p>The <code>title</code> attribute creates a tooltip that shows when users hover over the link:</p><pre><code>&lt;a href="about.html" title="Learn more about us"&gt;About&lt;/a&gt;</code></pre><p>Do not rely on this for important information — mobile users cannot see tooltips.</p><h3>Building a Navigation Menu</h3><p>A navigation menu is just a list of links, usually inside a <code>&lt;nav&gt;</code> element:</p><pre><code>&lt;nav&gt;
+  &lt;a href="index.html"&gt;Home&lt;/a&gt;
+  &lt;a href="about.html"&gt;About&lt;/a&gt;
+  &lt;a href="contact.html"&gt;Contact&lt;/a&gt;
+&lt;/nav&gt;</code></pre><p>The <code>&lt;nav&gt;</code> tag is a semantic element that tells browsers and screen readers 'this is the main navigation'. CSS (which you will learn later) makes the menu look pretty.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Basic Internal and External Links</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;My Links&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Priya&#39;s Favourite Links&lt;/h1&gt;
+  &lt;h2&gt;Internal Links (Same Site)&lt;/h2&gt;
+  &lt;p&gt;&lt;a href=&quot;about.html&quot;&gt;About Me&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;projects.html&quot;&gt;My Projects&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/p&gt;
+  &lt;h2&gt;External Links (Other Websites)&lt;/h2&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.google.com&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.wikipedia.org&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://learn.modernagecoders.com&quot;&gt;Modern Age Coders&lt;/a&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This shows both kinds of links. Internal links use relative paths like <code>about.html</code> — they point to other files in the same folder. External links use full URLs starting with <code>https://</code>. Both types of links use the same <code>&lt;a&gt;</code> tag.</div><div class="code-example-output">A page with two sections of links. Clicking internal links would open pages in the same folder. Clicking external links opens websites like Google and Wikipedia.</div></div>
+<div class="code-example"><div class="code-example-title">Opening Links in a New Tab</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;External Resources&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Helpful External Resources&lt;/h1&gt;
+  &lt;p&gt;These open in a new tab so you do not lose this page:&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.wikipedia.org&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Wikipedia (new tab)&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.github.com&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;GitHub (new tab)&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.stackoverflow.com&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Stack Overflow (new tab)&lt;/a&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">When you add <code>target="_blank"</code>, the link opens in a new browser tab. For security and privacy, always add <code>rel="noopener noreferrer"</code> along with it. This is the standard for external links.</div><div class="code-example-output">A page with three links that each open in a new browser tab when clicked.</div></div>
+<div class="code-example"><div class="code-example-title">Anchor Links Within the Same Page</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;HTML Tutorial&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;HTML Tutorial&lt;/h1&gt;
+
+  &lt;h2&gt;Table of Contents&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#tags&quot;&gt;Tags&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#attributes&quot;&gt;Attributes&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;h2 id=&quot;intro&quot;&gt;Introduction&lt;/h2&gt;
+  &lt;p&gt;HTML stands for HyperText Markup Language. It is used to build web pages.&lt;/p&gt;
+
+  &lt;h2 id=&quot;tags&quot;&gt;Tags&lt;/h2&gt;
+  &lt;p&gt;Tags are the building blocks of HTML. Examples include p, h1, and img.&lt;/p&gt;
+
+  &lt;h2 id=&quot;attributes&quot;&gt;Attributes&lt;/h2&gt;
+  &lt;p&gt;Attributes add extra information to tags, like href on an anchor tag.&lt;/p&gt;
+
+  &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+  &lt;p&gt;HTML is easy to learn and the foundation of the web.&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;#&quot;&gt;Back to Top&lt;/a&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This shows anchor navigation. Each section heading has an <code>id</code> attribute. The table of contents at the top links to those IDs using <code>#</code>. Clicking a link smoothly scrolls to that section. The 'Back to Top' link at the bottom uses just <code>#</code> to go to the top of the page.</div><div class="code-example-output">A tutorial page with a clickable table of contents. Clicking any entry jumps to that section of the page.</div></div>
+<div class="code-example"><div class="code-example-title">Email, Phone, and Download Links</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Contact Rohan&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Contact Rohan Gupta&lt;/h1&gt;
+  &lt;p&gt;Choose your preferred way to contact:&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Email: &lt;a href=&quot;mailto:rohan@example.com&quot;&gt;rohan@example.com&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Phone: &lt;a href=&quot;tel:+919876543210&quot;&gt;+91 98765 43210&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://via.placeholder.com/150&quot; download=&quot;Rohan_Avatar.png&quot;&gt;Download my avatar&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h2&gt;Email with Subject and Body&lt;/h2&gt;
+  &lt;p&gt;&lt;a href=&quot;mailto:rohan@example.com?subject=Hello%20Rohan&amp;body=Hi%20Rohan%2C%20I%20saw%20your%20website.&quot;&gt;Email with pre-filled message&lt;/a&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Three special kinds of links: <code>mailto:</code> opens the email app, <code>tel:</code> dials the number on mobile, and <code>download</code> makes a file download instead of opening it. The mailto link can also pre-fill subject and body using query parameters. Note that spaces must be encoded as <code>%20</code>.</div><div class="code-example-output">A contact page with clickable email and phone links, a download button, and a pre-filled email link.</div></div>
+<div class="code-example"><div class="code-example-title">Navigation Menu Example</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Ananya&#39;s Site&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;nav&gt;
+    &lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt; |
+    &lt;a href=&quot;about.html&quot;&gt;About&lt;/a&gt; |
+    &lt;a href=&quot;projects.html&quot;&gt;Projects&lt;/a&gt; |
+    &lt;a href=&quot;blog.html&quot;&gt;Blog&lt;/a&gt; |
+    &lt;a href=&quot;contact.html&quot;&gt;Contact&lt;/a&gt;
+  &lt;/nav&gt;
+
+  &lt;h1&gt;Welcome to Ananya&#39;s Site&lt;/h1&gt;
+  &lt;p&gt;Use the navigation menu above to explore different pages.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This is a simple horizontal navigation menu using the <code>&lt;nav&gt;</code> semantic element. The pipe characters (|) are used as simple separators between links. In a real project, CSS would make this look much prettier, but this is a functional navigation menu using only HTML.</div><div class="code-example-output">A page with a top navigation menu showing &#39;Home | About | Projects | Blog | Contact&#39;, each as a clickable link.</div></div>
+<div class="code-example"><div class="code-example-title">Link With Title Tooltip and Relative Paths</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Paths Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Different Relative Paths&lt;/h1&gt;
+  &lt;h2&gt;Links with Tooltips&lt;/h2&gt;
+  &lt;p&gt;&lt;a href=&quot;about.html&quot; title=&quot;Learn more about Vikram&quot;&gt;About Me&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;projects.html&quot; title=&quot;See my coding projects&quot;&gt;Projects&lt;/a&gt;&lt;/p&gt;
+
+  &lt;h2&gt;Links to Other Folders&lt;/h2&gt;
+  &lt;p&gt;&lt;a href=&quot;pages/gallery.html&quot;&gt;Gallery (in pages folder)&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;../parent-page.html&quot;&gt;Parent Page (go up one folder)&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;./same-folder.html&quot;&gt;Same Folder (explicit)&lt;/a&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The <code>title</code> attribute creates a tooltip that appears when users hover over the link. Different path prefixes point to different locations: <code>./</code> is the current folder, <code>../</code> goes up one folder, and just a filename means the same folder. Hover over the first two links and you will see a small yellow tooltip.</div><div class="code-example-output">A page with tooltips when hovering over links, and several examples of relative paths.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting the href Attribute</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;a&gt;Click Me&lt;/a&gt;</code></pre></div><div class="error-message">The link is not clickable — it just appears as plain text (or blue underlined text that does nothing).</div><div class="correct-code"><pre><code class="language-python">&lt;a href=&quot;https://www.google.com&quot;&gt;Click Me&lt;/a&gt;</code></pre></div><div class="mistake-explanation">Every <code>&lt;a&gt;</code> tag needs an <code>href</code> attribute to be a functioning link. Without it, the tag may display as styled text, but clicking does nothing.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using target=&quot;_blank&quot; Without rel=&quot;noopener noreferrer&quot;</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;a href=&quot;https://example.com&quot; target=&quot;_blank&quot;&gt;Example&lt;/a&gt;</code></pre></div><div class="error-message">Security and privacy vulnerability — the new tab can access window.opener and the referring URL is shared.</div><div class="correct-code"><pre><code class="language-python">&lt;a href=&quot;https://example.com&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Example&lt;/a&gt;</code></pre></div><div class="mistake-explanation">Always add <code>rel="noopener noreferrer"</code> when using <code>target="_blank"</code>. <code>noopener</code> prevents the new page from accessing the original via <code>window.opener</code>. <code>noreferrer</code> prevents sending the referring URL.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting https:// for External Links</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;a href=&quot;www.google.com&quot;&gt;Google&lt;/a&gt;</code></pre></div><div class="error-message">The browser treats &#39;www.google.com&#39; as a relative path inside your site, not as an external URL. Clicking goes to yoursite.com/www.google.com.</div><div class="correct-code"><pre><code class="language-python">&lt;a href=&quot;https://www.google.com&quot;&gt;Google&lt;/a&gt;</code></pre></div><div class="mistake-explanation">External links must start with <code>https://</code> (or <code>http://</code>). Without it, the browser thinks you mean a file on your own site. Always include the full protocol for external URLs.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Anchor Link With ID That Does Not Exist</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;a href=&quot;#contact-section&quot;&gt;Go to Contact&lt;/a&gt;
+&lt;!-- But there is no element with id=&quot;contact-section&quot; --&gt;</code></pre></div><div class="error-message">Clicking the link does nothing — there is no target to scroll to.</div><div class="correct-code"><pre><code class="language-python">&lt;a href=&quot;#contact-section&quot;&gt;Go to Contact&lt;/a&gt;
+&lt;h2 id=&quot;contact-section&quot;&gt;Contact&lt;/h2&gt;</code></pre></div><div class="mistake-explanation">When using anchor links with <code>#</code>, you must have an element with a matching <code>id</code> attribute somewhere on the page. The ID in the href (after #) must match the id attribute exactly — case-sensitive.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrong mailto Syntax</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;a href=&quot;mail:priya@example.com&quot;&gt;Email&lt;/a&gt;</code></pre></div><div class="error-message">The browser does not recognise &#39;mail:&#39; as an email link, so clicking does nothing meaningful.</div><div class="correct-code"><pre><code class="language-python">&lt;a href=&quot;mailto:priya@example.com&quot;&gt;Email&lt;/a&gt;</code></pre></div><div class="mistake-explanation">The correct protocol for email links is <code>mailto:</code> (with 'to' at the end), not <code>mail:</code>. Similarly, phone links use <code>tel:</code>, not <code>phone:</code>.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>The &lt;a&gt; (anchor) tag creates a link. The href attribute specifies where the link goes.</li>
+<li>Internal links use relative paths like &#39;about.html&#39; or &#39;../pages/home.html&#39; to point to other files in the same website.</li>
+<li>External links use full URLs starting with &#39;https://&#39; like &#39;https://www.google.com&#39;.</li>
+<li>target=&quot;_blank&quot; opens the link in a new browser tab, keeping your original page open.</li>
+<li>Always add rel=&quot;noopener noreferrer&quot; when using target=&quot;_blank&quot; for security and privacy.</li>
+<li>Anchor links use #id to jump to a specific section on the same page. The target element must have a matching id attribute.</li>
+<li>mailto: links open the user&#39;s email app with the address pre-filled. You can also pre-fill subject and body.</li>
+<li>tel: links open the phone dialler on mobile devices. Include the country code starting with +.</li>
+<li>The download attribute makes the browser download the file instead of opening it. You can also rename the file.</li>
+<li>The title attribute creates a tooltip when users hover over the link — not visible on mobile, so do not rely on it for critical info.</li>
+<li>Navigation menus are usually wrapped in the &lt;nav&gt; semantic element to tell browsers and screen readers &#39;this is navigation&#39;.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/headings-paragraphs-and-text" class="related-topic-link">Headings, Paragraphs, and Text Formatting</a>
+<a href="/resources/html-and-css/images-and-media" class="related-topic-link">Images, Audio, and Video</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/headings-paragraphs-and-text" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Headings, Paragraphs, and Text Formatting</span>
+        </a>
+            <a href="/resources/html-and-css/images-and-media" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Images, Audio, and Video</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/links-and-navigation/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

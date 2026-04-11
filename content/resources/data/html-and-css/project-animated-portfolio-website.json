@@ -1,0 +1,682 @@
+{
+  "title": "Project: Build an Animated Portfolio Website",
+  "slug": "project-animated-portfolio-website",
+  "language": "css",
+  "chapter": 25,
+  "difficulty": "Advanced",
+  "readingTime": "65 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "Build an Animated Portfolio Website - HTML CSS Project with Dark Mode | Modern Age Coders",
+    "description": "Build a stunning animated portfolio website with HTML and CSS. Includes smooth scroll, gradient hero, animated skill bars, project grid with hover effects, contact form, dark/light mode toggle, scroll animations, and glassmorphism. Complete code and 55+ questions.",
+    "keywords": "portfolio website html css, animated portfolio project, dark mode css, skill bars css, glassmorphism css, scroll animations css, portfolio tutorial, hover effects, css portfolio for students, responsive portfolio"
+  },
+  "content": {
+    "what": "<h2>What We Are Building</h2><p>This is the final project of the HTML and CSS track — a <strong>stunning animated portfolio website</strong> built entirely with HTML and CSS. One tiny sliver of JavaScript is used for the dark mode toggle (literally 3 lines), but everything visual — animations, hover effects, scroll reveals, glassmorphism, gradients — is pure CSS.</p><p>The portfolio includes:</p><ol><li><strong>Fixed navbar</strong> with smooth anchor scrolling</li><li><strong>Hero section</strong> with gradient text, animated background, and a pulsing CTA</li><li><strong>About section</strong> with a glowing avatar and bio</li><li><strong>Skills section</strong> with animated progress bars that fill on hover</li><li><strong>Projects grid</strong> with beautiful hover effects revealing project details</li><li><strong>Contact form</strong> with modern validation styling and <code>:has()</code></li><li><strong>Dark/light mode toggle</strong> using CSS variables + 3 lines of JS</li><li><strong>Scroll animations</strong> with <code>@keyframes</code> and <code>animation-delay</code></li><li><strong>Glassmorphism cards</strong> with backdrop-filter: blur()</li><li><strong>Gradient borders</strong> and neon glow effects</li><li><strong>Fully responsive</strong> from phone to desktop</li></ol><p>The portfolio belongs to 'Aarav Kulkarni' — a 16-year-old full-stack developer from Pune. His bio, projects, and skills tell a coherent story that you can easily customize with your own content.</p>",
+    "why": "<h2>Why Build an Animated Portfolio?</h2><h3>1. It Is Your Calling Card</h3><p>A portfolio is the first thing any internship, college, or client will look at. A custom-built portfolio (not a template) screams 'this person can actually build things'. It is worth 10x any line on a resume.</p><h3>2. It Uses Everything You Have Learned</h3><p>This project combines flexbox, grid, CSS variables, pseudo-elements, <code>:has()</code>, <code>@keyframes</code>, <code>clamp()</code>, transforms, transitions, and the modern CSS features from Chapter 23. Building it proves you can use the full toolbox.</p><h3>3. Animations Make It Feel Alive</h3><p>Smooth hover effects, scroll-in reveals, pulsing CTAs, and animated skill bars are what separate an 'okay' portfolio from one that looks like a professional product. These effects cost nothing to build once you know the patterns.</p><h3>4. Dark Mode Shows Attention to Detail</h3><p>A working dark mode with smooth transitions tells the viewer you care about user experience. It is also a chance to flex CSS variables in their best light.</p><h3>5. It Is Yours to Keep</h3><p>By the end of this chapter, Priya has a portfolio she can host, share, and update. She swaps in her real projects, changes the brand color, and ships. That confidence is worth more than any tutorial.</p>",
+    "explanation": "<h2>Building the Portfolio Step by Step</h2><h3>Step 1: Set Up Variables and Theme</h3><p>Start with a dual theme: dark mode on by default (more impressive for a portfolio), light mode as an override. Define every color, spacing, radius, and shadow as a variable.</p><pre><code>:root {\n  --bg: #0b0f1e;\n  --surface: #131833;\n  --surface-2: #1a2040;\n  --text: #f1f5f9;\n  --muted: #94a3b8;\n  --brand: #a855f7;\n  --brand-2: #06b6d4;\n  --accent: #ec4899;\n  --border: rgba(255,255,255,0.08);\n}\n\nbody.light {\n  --bg: #fafafa;\n  --surface: #ffffff;\n  --surface-2: #f8fafc;\n  --text: #0f172a;\n  --muted: #64748b;\n  --border: #e2e8f0;\n}</code></pre><h3>Step 2: Fixed Navbar with Smooth Scroll</h3><pre><code>html { scroll-behavior: smooth; }\n.nav {\n  position: fixed; top: 0; width: 100%;\n  padding: 16px 32px;\n  background: rgba(11, 15, 30, 0.7);\n  backdrop-filter: blur(20px);\n  border-bottom: 1px solid var(--border);\n  z-index: 100;\n}</code></pre><p>Fixed at the top, blurred background for the frosted glass look, and smooth scrolling so anchor links animate.</p><h3>Step 3: Hero with Animated Background</h3><p>The hero has a gradient heading, a pulsing CTA, and an animated background that slowly shifts colors.</p><pre><code>.hero {\n  min-height: 100dvh;\n  display: grid;\n  place-items: center;\n  position: relative;\n  overflow: hidden;\n}\n.hero::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: radial-gradient(ellipse at 30% 20%, rgba(168,85,247,0.3), transparent 60%),\n              radial-gradient(ellipse at 70% 80%, rgba(6,182,212,0.25), transparent 60%);\n  animation: float 20s ease-in-out infinite;\n}\n@keyframes float {\n  0%, 100% { transform: translate(0, 0) scale(1); }\n  50% { transform: translate(30px, -20px) scale(1.1); }\n}\n\n.hero h1 {\n  font-size: clamp(40px, 7vw, 84px);\n  line-height: 1.05;\n  text-wrap: balance;\n  background: linear-gradient(135deg, var(--brand), var(--brand-2), var(--accent));\n  -webkit-background-clip: text;\n  background-clip: text;\n  -webkit-text-fill-color: transparent;\n  animation: fadeUp 0.8s ease-out;\n}\n\n@keyframes fadeUp {\n  from { opacity: 0; transform: translateY(20px); }\n  to { opacity: 1; transform: translateY(0); }\n}</code></pre><h3>Step 4: Skills with Animated Bars</h3><pre><code>.skill-bar { height: 10px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }\n.skill-fill {\n  height: 100%;\n  background: linear-gradient(90deg, var(--brand), var(--brand-2));\n  border-radius: 999px;\n  width: var(--width, 0);\n  animation: fill 1.5s ease-out forwards;\n}\n@keyframes fill {\n  from { width: 0; }\n  to { width: var(--width); }\n}</code></pre><p>The bar width is driven by a <code>--width</code> CSS variable on the element, so each skill can have a different value without new CSS rules.</p><h3>Step 5: Project Cards with Hover Reveals</h3><pre><code>.project { position: relative; border-radius: 18px; overflow: hidden; aspect-ratio: 4/3; cursor: pointer; }\n.project .thumb { width: 100%; height: 100%; background: gradient; transition: transform 0.5s, filter 0.5s; }\n.project:hover .thumb { transform: scale(1.08); filter: brightness(0.5); }\n.project .info {\n  position: absolute;\n  inset: 0;\n  padding: 24px;\n  color: white;\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  opacity: 0;\n  transform: translateY(20px);\n  transition: opacity 0.4s, transform 0.4s;\n}\n.project:hover .info { opacity: 1; transform: translateY(0); }</code></pre><h3>Step 6: Glassmorphism Cards</h3><pre><code>.glass {\n  background: rgba(255,255,255,0.05);\n  backdrop-filter: blur(20px);\n  border: 1px solid rgba(255,255,255,0.1);\n  border-radius: 20px;\n}</code></pre><h3>Step 7: Dark Mode Toggle</h3><p>Pure CSS dark mode is fine, but since we want a persistent toggle that remembers the user's choice, we use 3 lines of JavaScript to toggle a <code>.light</code> class on the body.</p><pre><code>&lt;button id=\"themeBtn\"&gt;Toggle&lt;/button&gt;\n&lt;script&gt;\n  document.getElementById('themeBtn').addEventListener('click', () =&gt; {\n    document.body.classList.toggle('light');\n  });\n&lt;/script&gt;</code></pre><p>Three lines. That is all. The CSS variables do the rest.</p><h3>Step 8: Scroll Animations</h3><p>Elements animate in as they enter the viewport using CSS animations with <code>animation-delay</code> to stagger them.</p><pre><code>.reveal {\n  opacity: 0;\n  transform: translateY(40px);\n  animation: reveal 0.8s ease-out forwards;\n}\n.reveal:nth-child(2) { animation-delay: 0.15s; }\n.reveal:nth-child(3) { animation-delay: 0.3s; }\n@keyframes reveal {\n  to { opacity: 1; transform: translateY(0); }\n}</code></pre><p>For true 'animate on scroll', you would use the Intersection Observer API (JavaScript). For a CSS-only effect, we simply animate everything on load with staggered delays — it still looks great.</p><p>Now let us see the ENTIRE animated portfolio in one complete, runnable file.</p>",
+    "codeExamples": [
+      {
+        "title": "COMPLETE Animated Portfolio - Full HTML + CSS",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<title>Aarav Kulkarni - Full Stack Developer</title>\n<style>\n  :root {\n    --bg: #0b0f1e;\n    --surface: #131833;\n    --surface-2: #1a2040;\n    --text: #f1f5f9;\n    --muted: #94a3b8;\n    --brand: #a855f7;\n    --brand-2: #06b6d4;\n    --accent: #ec4899;\n    --border: rgba(255,255,255,0.08);\n    --glass: rgba(255,255,255,0.04);\n    --shadow: 0 20px 60px rgba(0,0,0,0.5);\n    --radius: 18px;\n    --nav-h: 72px;\n  }\n  body.light {\n    --bg: #fafafa;\n    --surface: #ffffff;\n    --surface-2: #f8fafc;\n    --text: #0f172a;\n    --muted: #64748b;\n    --border: #e2e8f0;\n    --glass: rgba(0,0,0,0.03);\n    --shadow: 0 20px 60px rgba(0,0,0,0.08);\n  }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  html { scroll-behavior: smooth; scroll-padding-top: 90px; }\n  body { font-family: 'Segoe UI', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; transition: background 0.4s, color 0.4s; overflow-x: hidden; }\n  a { color: inherit; text-decoration: none; }\n  img { max-width: 100%; }\n\n  /* NAV */\n  .nav {\n    position: fixed; top: 0; left: 0; right: 0; z-index: 100;\n    padding: 16px 32px;\n    display: flex; align-items: center; justify-content: space-between;\n    background: color-mix(in oklab, var(--bg) 70%, transparent);\n    backdrop-filter: blur(20px);\n    border-bottom: 1px solid var(--border);\n  }\n  .nav .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 19px; }\n  .nav .brand::before { content: ''; width: 32px; height: 32px; background: linear-gradient(135deg, var(--brand), var(--brand-2)); border-radius: 10px; box-shadow: 0 8px 20px rgba(168,85,247,0.4); }\n  .nav .links { display: flex; gap: 28px; }\n  .nav .links a { color: var(--muted); font-size: 14px; font-weight: 500; position: relative; transition: color 0.2s; }\n  .nav .links a:hover { color: var(--text); }\n  .nav .links a::after { content: ''; position: absolute; left: 0; bottom: -6px; width: 100%; height: 2px; background: linear-gradient(90deg, var(--brand), var(--brand-2)); transform: scaleX(0); transform-origin: right; transition: transform 0.3s; }\n  .nav .links a:hover::after { transform: scaleX(1); transform-origin: left; }\n  .theme-btn {\n    padding: 10px 18px;\n    background: var(--glass);\n    color: var(--text);\n    border: 1px solid var(--border);\n    border-radius: 999px;\n    cursor: pointer;\n    font-size: 13px;\n    font-weight: 600;\n    transition: all 0.2s;\n  }\n  .theme-btn:hover { background: var(--brand); color: white; border-color: var(--brand); }\n\n  /* HERO */\n  .hero {\n    min-height: 100dvh;\n    display: grid;\n    place-items: center;\n    text-align: center;\n    padding: var(--nav-h) 24px 48px;\n    position: relative;\n    overflow: hidden;\n  }\n  .hero::before, .hero::after {\n    content: '';\n    position: absolute;\n    inset: 0;\n    pointer-events: none;\n  }\n  .hero::before {\n    background: radial-gradient(ellipse at 30% 20%, rgba(168,85,247,0.25), transparent 55%),\n                radial-gradient(ellipse at 70% 80%, rgba(6,182,212,0.22), transparent 55%),\n                radial-gradient(ellipse at 50% 50%, rgba(236,72,153,0.15), transparent 60%);\n    animation: floatBg 20s ease-in-out infinite alternate;\n  }\n  @keyframes floatBg {\n    0% { transform: translate(0, 0) scale(1); }\n    100% { transform: translate(40px, -30px) scale(1.15); }\n  }\n  .hero-content { position: relative; z-index: 2; max-width: 900px; }\n  .hero .eyebrow { display: inline-block; padding: 8px 20px; background: var(--glass); border: 1px solid var(--border); border-radius: 999px; font-size: 13px; color: var(--muted); margin-bottom: 24px; animation: fadeUp 0.8s ease-out; }\n  .hero .eyebrow .dot { display: inline-block; width: 8px; height: 8px; background: #10b981; border-radius: 50%; margin-right: 8px; box-shadow: 0 0 10px #10b981; animation: pulse 2s ease-in-out infinite; }\n  @keyframes pulse {\n    0%, 100% { opacity: 1; transform: scale(1); }\n    50% { opacity: 0.5; transform: scale(1.3); }\n  }\n  .hero h1 {\n    font-size: clamp(40px, 7vw, 88px);\n    line-height: 1.02;\n    text-wrap: balance;\n    letter-spacing: -2px;\n    margin-bottom: 20px;\n    background: linear-gradient(135deg, var(--brand) 0%, var(--brand-2) 50%, var(--accent) 100%);\n    -webkit-background-clip: text;\n    background-clip: text;\n    -webkit-text-fill-color: transparent;\n    animation: fadeUp 0.9s ease-out 0.1s backwards;\n  }\n  .hero p { font-size: clamp(16px, 1.8vw, 21px); color: var(--muted); max-width: 640px; margin: 0 auto 36px; text-wrap: pretty; animation: fadeUp 0.9s ease-out 0.25s backwards; }\n  .hero-ctas { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; animation: fadeUp 0.9s ease-out 0.4s backwards; }\n  .btn { padding: 14px 28px; border-radius: 12px; font-weight: 700; font-size: 15px; cursor: pointer; border: none; transition: transform 0.2s, box-shadow 0.2s; display: inline-flex; align-items: center; gap: 8px; }\n  .btn-primary { background: linear-gradient(135deg, var(--brand), var(--accent)); color: white; box-shadow: 0 18px 40px rgba(168,85,247,0.4); position: relative; }\n  .btn-primary::before { content: ''; position: absolute; inset: -2px; background: linear-gradient(135deg, var(--brand), var(--brand-2), var(--accent)); border-radius: 14px; z-index: -1; opacity: 0; transition: opacity 0.3s; filter: blur(12px); }\n  .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 25px 50px rgba(168,85,247,0.55); }\n  .btn-primary:hover::before { opacity: 1; }\n  .btn-outline { background: var(--glass); color: var(--text); border: 1px solid var(--border); }\n  .btn-outline:hover { background: var(--surface); border-color: var(--brand); }\n\n  @keyframes fadeUp {\n    from { opacity: 0; transform: translateY(30px); }\n    to { opacity: 1; transform: translateY(0); }\n  }\n\n  /* SECTIONS */\n  section { padding: 96px 24px; max-width: 1100px; margin: 0 auto; position: relative; }\n  .s-head { text-align: center; margin-bottom: 56px; }\n  .s-head .kicker { color: var(--brand); font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; }\n  .s-head h2 { font-size: clamp(28px, 4vw, 48px); text-wrap: balance; letter-spacing: -1px; margin-bottom: 10px; }\n  .s-head p { color: var(--muted); max-width: 600px; margin: 0 auto; }\n\n  /* ABOUT */\n  .about { display: grid; grid-template-columns: 300px 1fr; gap: 56px; align-items: center; }\n  .avatar {\n    aspect-ratio: 1;\n    border-radius: 50%;\n    background: linear-gradient(135deg, var(--brand), var(--brand-2), var(--accent));\n    display: grid;\n    place-items: center;\n    color: white;\n    font-size: 92px;\n    font-weight: 800;\n    position: relative;\n    box-shadow: 0 30px 80px rgba(168,85,247,0.3);\n    animation: glow 4s ease-in-out infinite;\n  }\n  @keyframes glow {\n    0%, 100% { box-shadow: 0 30px 80px rgba(168,85,247,0.3); }\n    50% { box-shadow: 0 40px 100px rgba(6,182,212,0.4); }\n  }\n  .about-text h3 { font-size: 28px; margin-bottom: 12px; }\n  .about-text p { color: var(--muted); margin-bottom: 12px; line-height: 1.7; }\n  .tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }\n  .tag { padding: 6px 14px; background: var(--glass); border: 1px solid var(--border); border-radius: 999px; font-size: 13px; color: var(--text); }\n\n  /* SKILLS */\n  .skills { display: grid; gap: 20px; max-width: 720px; margin: 0 auto; }\n  .skill { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 24px; transition: transform 0.3s, border-color 0.3s; }\n  .skill:hover { transform: translateX(6px); border-color: var(--brand); }\n  .skill-header { display: flex; justify-content: space-between; margin-bottom: 10px; font-weight: 700; font-size: 15px; }\n  .skill-header .pct { color: var(--brand); }\n  .skill-bar { height: 10px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }\n  .skill-fill { height: 100%; background: linear-gradient(90deg, var(--brand), var(--brand-2)); border-radius: 999px; width: 0; animation: fill 1.6s ease-out 0.3s forwards; box-shadow: 0 0 20px rgba(168,85,247,0.4); }\n  @keyframes fill { to { width: var(--width); } }\n\n  /* PROJECTS */\n  .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }\n  .project {\n    position: relative;\n    border-radius: 20px;\n    overflow: hidden;\n    aspect-ratio: 4/3;\n    cursor: pointer;\n    border: 1px solid var(--border);\n    transform: translateY(0);\n    transition: transform 0.4s;\n  }\n  .project:hover { transform: translateY(-8px); }\n  .project .thumb {\n    position: absolute; inset: 0;\n    transition: transform 0.6s, filter 0.6s;\n  }\n  .project:hover .thumb { transform: scale(1.12); filter: brightness(0.35); }\n  .p1 .thumb { background: linear-gradient(135deg, #7c3aed, #ec4899); }\n  .p2 .thumb { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }\n  .p3 .thumb { background: linear-gradient(135deg, #f59e0b, #ef4444); }\n  .p4 .thumb { background: linear-gradient(135deg, #10b981, #06b6d4); }\n  .p5 .thumb { background: linear-gradient(135deg, #8b5cf6, #3b82f6); }\n  .p6 .thumb { background: linear-gradient(135deg, #ec4899, #f43f5e); }\n  .project .title-wrap {\n    position: absolute;\n    bottom: 0; left: 0; right: 0;\n    padding: 24px;\n    color: white;\n    z-index: 2;\n    background: linear-gradient(0deg, rgba(0,0,0,0.8), transparent);\n    transform: translateY(60%);\n    transition: transform 0.4s;\n  }\n  .project:hover .title-wrap { transform: translateY(0); }\n  .project h3 { font-size: 22px; margin-bottom: 8px; }\n  .project p { font-size: 14px; opacity: 0.85; margin-bottom: 12px; }\n  .project .techs { display: flex; gap: 8px; flex-wrap: wrap; }\n  .project .techs span { padding: 3px 10px; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 11px; backdrop-filter: blur(10px); }\n\n  /* CONTACT */\n  .contact-form {\n    background: var(--glass);\n    backdrop-filter: blur(20px);\n    border: 1px solid var(--border);\n    border-radius: 24px;\n    padding: 40px;\n    max-width: 520px;\n    margin: 0 auto;\n    transition: border-color 0.3s, box-shadow 0.3s;\n  }\n  .contact-form:has(input:valid, textarea:valid):not(:has(input:invalid, textarea:invalid)) { border-color: #10b981; box-shadow: 0 0 40px rgba(16,185,129,0.15); }\n  .contact-form:has(input:invalid, textarea:invalid) { border-color: rgba(239,68,68,0.4); }\n  .contact-form label { display: block; margin-bottom: 18px; font-size: 13px; color: var(--muted); font-weight: 600; }\n  .contact-form input, .contact-form textarea {\n    display: block; width: 100%; margin-top: 8px;\n    padding: 14px 16px;\n    background: var(--surface);\n    color: var(--text);\n    border: 1px solid var(--border);\n    border-radius: 12px;\n    font-size: 15px;\n    font-family: inherit;\n    outline: none;\n    transition: border-color 0.2s, box-shadow 0.2s;\n  }\n  .contact-form textarea { resize: vertical; min-height: 110px; }\n  .contact-form input:focus, .contact-form textarea:focus { border-color: var(--brand); box-shadow: 0 0 0 4px rgba(168,85,247,0.15); }\n  .contact-form input:not(:placeholder-shown):valid, .contact-form textarea:not(:placeholder-shown):valid { border-color: #10b981; }\n  .contact-form input:not(:placeholder-shown):invalid, .contact-form textarea:not(:placeholder-shown):invalid { border-color: #ef4444; }\n  .contact-form button {\n    width: 100%;\n    padding: 15px;\n    background: linear-gradient(135deg, var(--brand), var(--accent));\n    color: white;\n    border: none;\n    border-radius: 12px;\n    font-size: 16px;\n    font-weight: 700;\n    cursor: pointer;\n    margin-top: 8px;\n    box-shadow: 0 15px 40px rgba(168,85,247,0.35);\n    transition: transform 0.2s, box-shadow 0.2s;\n  }\n  .contact-form button:hover { transform: translateY(-2px); box-shadow: 0 20px 50px rgba(168,85,247,0.5); }\n  .contact-form:has(input:invalid, textarea:invalid) button { opacity: 0.35; pointer-events: none; }\n\n  /* FOOTER */\n  footer { text-align: center; padding: 48px 24px; color: var(--muted); border-top: 1px solid var(--border); margin-top: 40px; font-size: 14px; }\n  footer .socials { display: flex; justify-content: center; gap: 16px; margin-bottom: 16px; }\n  footer .socials a { padding: 10px 18px; border: 1px solid var(--border); border-radius: 10px; transition: all 0.2s; }\n  footer .socials a:hover { background: var(--brand); color: white; border-color: var(--brand); transform: translateY(-2px); }\n\n  /* RESPONSIVE */\n  @media (max-width: 800px) {\n    .nav .links { display: none; }\n    .about { grid-template-columns: 1fr; text-align: center; }\n    .avatar { max-width: 220px; margin: 0 auto; font-size: 72px; }\n    .tags { justify-content: center; }\n  }\n</style>\n</head>\n<body>\n  <!-- NAV -->\n  <header class=\"nav\">\n    <a href=\"#\" class=\"brand\">Aarav.dev</a>\n    <nav class=\"links\">\n      <a href=\"#about\">About</a>\n      <a href=\"#skills\">Skills</a>\n      <a href=\"#projects\">Projects</a>\n      <a href=\"#contact\">Contact</a>\n    </nav>\n    <button class=\"theme-btn\" id=\"themeBtn\">Light Mode</button>\n  </header>\n\n  <!-- HERO -->\n  <section class=\"hero\">\n    <div class=\"hero-content\">\n      <div class=\"eyebrow\"><span class=\"dot\"></span>Available for internships</div>\n      <h1>Aarav Kulkarni<br>Full Stack Developer</h1>\n      <p>I am a 16-year-old developer from Pune who builds fast, beautiful web apps with React, Node, and a love for CSS animations.</p>\n      <div class=\"hero-ctas\">\n        <a href=\"#projects\" class=\"btn btn-primary\">View My Work</a>\n        <a href=\"#contact\" class=\"btn btn-outline\">Get In Touch</a>\n      </div>\n    </div>\n  </section>\n\n  <!-- ABOUT -->\n  <section id=\"about\">\n    <div class=\"s-head\">\n      <div class=\"kicker\">About Me</div>\n      <h2>Building the Web, One Pixel at a Time</h2>\n      <p>A little background about who I am and what I love.</p>\n    </div>\n    <div class=\"about\">\n      <div class=\"avatar\">A</div>\n      <div class=\"about-text\">\n        <h3>Hi, I am Aarav</h3>\n        <p>I started coding when I was 13, inspired by a game my older sister Priya was building. Four years later, I have shipped a dozen projects, contributed to open source, and helped my classmates build their first websites.</p>\n        <p>When I am not coding, I play chess, read sci-fi, and practice competitive maths with Rohan and Ishita. I am currently in Grade 11 at a school in Pune, and I am looking for a summer internship.</p>\n        <div class=\"tags\">\n          <span class=\"tag\">React</span>\n          <span class=\"tag\">Next.js</span>\n          <span class=\"tag\">TypeScript</span>\n          <span class=\"tag\">Node.js</span>\n          <span class=\"tag\">CSS</span>\n          <span class=\"tag\">Chess</span>\n          <span class=\"tag\">Open Source</span>\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <!-- SKILLS -->\n  <section id=\"skills\">\n    <div class=\"s-head\">\n      <div class=\"kicker\">Skills</div>\n      <h2>What I Work With Every Day</h2>\n      <p>The tools and languages I use to build things.</p>\n    </div>\n    <div class=\"skills\">\n      <div class=\"skill\">\n        <div class=\"skill-header\"><span>HTML and CSS</span><span class=\"pct\">95%</span></div>\n        <div class=\"skill-bar\"><div class=\"skill-fill\" style=\"--width: 95%\"></div></div>\n      </div>\n      <div class=\"skill\">\n        <div class=\"skill-header\"><span>JavaScript and TypeScript</span><span class=\"pct\">90%</span></div>\n        <div class=\"skill-bar\"><div class=\"skill-fill\" style=\"--width: 90%\"></div></div>\n      </div>\n      <div class=\"skill\">\n        <div class=\"skill-header\"><span>React and Next.js</span><span class=\"pct\">85%</span></div>\n        <div class=\"skill-bar\"><div class=\"skill-fill\" style=\"--width: 85%\"></div></div>\n      </div>\n      <div class=\"skill\">\n        <div class=\"skill-header\"><span>Node.js</span><span class=\"pct\">75%</span></div>\n        <div class=\"skill-bar\"><div class=\"skill-fill\" style=\"--width: 75%\"></div></div>\n      </div>\n      <div class=\"skill\">\n        <div class=\"skill-header\"><span>Python</span><span class=\"pct\">70%</span></div>\n        <div class=\"skill-bar\"><div class=\"skill-fill\" style=\"--width: 70%\"></div></div>\n      </div>\n      <div class=\"skill\">\n        <div class=\"skill-header\"><span>Design (Figma)</span><span class=\"pct\">65%</span></div>\n        <div class=\"skill-bar\"><div class=\"skill-fill\" style=\"--width: 65%\"></div></div>\n      </div>\n    </div>\n  </section>\n\n  <!-- PROJECTS -->\n  <section id=\"projects\">\n    <div class=\"s-head\">\n      <div class=\"kicker\">Work</div>\n      <h2>Selected Projects</h2>\n      <p>A few things I am proud of. Hover to see details.</p>\n    </div>\n    <div class=\"project-grid\">\n      <div class=\"project p1\">\n        <div class=\"thumb\"></div>\n        <div class=\"title-wrap\">\n          <h3>Kalpana Quiz</h3>\n          <p>A multiplayer quiz app with live scoring and leaderboards.</p>\n          <div class=\"techs\"><span>React</span><span>Socket.io</span><span>MongoDB</span></div>\n        </div>\n      </div>\n      <div class=\"project p2\">\n        <div class=\"thumb\"></div>\n        <div class=\"title-wrap\">\n          <h3>Trishul Weather</h3>\n          <p>Fast weather dashboard with beautiful charts and forecasts.</p>\n          <div class=\"techs\"><span>Next.js</span><span>Chart.js</span><span>OpenWeather</span></div>\n        </div>\n      </div>\n      <div class=\"project p3\">\n        <div class=\"thumb\"></div>\n        <div class=\"title-wrap\">\n          <h3>ShikshaBot</h3>\n          <p>An AI homework helper trained on class 10 and 11 textbooks.</p>\n          <div class=\"techs\"><span>Python</span><span>OpenAI</span><span>Flask</span></div>\n        </div>\n      </div>\n      <div class=\"project p4\">\n        <div class=\"thumb\"></div>\n        <div class=\"title-wrap\">\n          <h3>Chess Tracker</h3>\n          <p>Track your chess games, rating, and opening repertoire.</p>\n          <div class=\"techs\"><span>React</span><span>Firebase</span></div>\n        </div>\n      </div>\n      <div class=\"project p5\">\n        <div class=\"thumb\"></div>\n        <div class=\"title-wrap\">\n          <h3>Bhasha Notes</h3>\n          <p>Bilingual note-taking app that translates as you type.</p>\n          <div class=\"techs\"><span>TypeScript</span><span>i18next</span></div>\n        </div>\n      </div>\n      <div class=\"project p6\">\n        <div class=\"thumb\"></div>\n        <div class=\"title-wrap\">\n          <h3>VedaTimer</h3>\n          <p>Pomodoro timer with a chakra-themed minimalist design.</p>\n          <div class=\"techs\"><span>HTML</span><span>CSS</span><span>JS</span></div>\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <!-- CONTACT -->\n  <section id=\"contact\">\n    <div class=\"s-head\">\n      <div class=\"kicker\">Contact</div>\n      <h2>Let Us Build Something</h2>\n      <p>I am available for internships and freelance work.</p>\n    </div>\n    <form class=\"contact-form\">\n      <label>Name<input type=\"text\" placeholder=\"Your name\" minlength=\"2\" required></label>\n      <label>Email<input type=\"email\" placeholder=\"you@example.com\" required></label>\n      <label>Message<textarea placeholder=\"How can I help?\" minlength=\"10\" required></textarea></label>\n      <button type=\"submit\">Send Message</button>\n    </form>\n  </section>\n\n  <!-- FOOTER -->\n  <footer>\n    <div class=\"socials\">\n      <a href=\"#\">GitHub</a>\n      <a href=\"#\">LinkedIn</a>\n      <a href=\"#\">Twitter</a>\n    </div>\n    <p>Built with HTML and CSS by Aarav Kulkarni. 2026.</p>\n  </footer>\n\n  <script>\n    document.getElementById('themeBtn').addEventListener('click', function() {\n      document.body.classList.toggle('light');\n      this.textContent = document.body.classList.contains('light') ? 'Dark Mode' : 'Light Mode';\n    });\n  </script>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The complete animated portfolio in a single file. Dark mode by default. Uses CSS variables for theming, clamp() for fluid typography, @keyframes for fade-up hero animations, animated background gradients, animated skill bars with CSS variables for width, project hover effects with transform and filter, glassmorphism contact form with :has() validation, and a smooth dark/light mode toggle. Three lines of JavaScript. Everything else is pure CSS.",
+        "output": "A stunning portfolio with: animated gradient background hero, gradient text heading, pulsing CTAs, glowing avatar, animated skill bars, 6 project cards with dramatic hover effects, a glassmorphism contact form with live validation, and a working dark/light mode toggle. Fully responsive."
+      },
+      {
+        "title": "Hero with Animated Gradient Background",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: #0b0f1e; color: white; }\n  .hero { min-height: 100dvh; display: grid; place-items: center; text-align: center; padding: 24px; position: relative; overflow: hidden; }\n  .hero::before {\n    content: '';\n    position: absolute;\n    inset: 0;\n    background:\n      radial-gradient(ellipse at 30% 20%, rgba(168,85,247,0.3), transparent 55%),\n      radial-gradient(ellipse at 70% 80%, rgba(6,182,212,0.25), transparent 55%),\n      radial-gradient(ellipse at 50% 50%, rgba(236,72,153,0.2), transparent 60%);\n    animation: floatBg 20s ease-in-out infinite alternate;\n    pointer-events: none;\n  }\n  @keyframes floatBg {\n    0% { transform: translate(0, 0) scale(1); }\n    100% { transform: translate(40px, -30px) scale(1.15); }\n  }\n  .content { position: relative; z-index: 2; max-width: 900px; }\n  h1 {\n    font-size: clamp(40px, 7vw, 84px);\n    line-height: 1.02;\n    text-wrap: balance;\n    letter-spacing: -2px;\n    margin-bottom: 20px;\n    background: linear-gradient(135deg, #a855f7, #06b6d4, #ec4899);\n    -webkit-background-clip: text;\n    background-clip: text;\n    -webkit-text-fill-color: transparent;\n    animation: fadeUp 1s ease-out;\n  }\n  p { font-size: clamp(16px, 1.8vw, 21px); color: #94a3b8; max-width: 600px; margin: 0 auto 32px; animation: fadeUp 1s ease-out 0.2s backwards; }\n  .btn {\n    display: inline-block;\n    padding: 14px 30px;\n    background: linear-gradient(135deg, #a855f7, #ec4899);\n    color: white;\n    border-radius: 12px;\n    font-weight: 700;\n    text-decoration: none;\n    box-shadow: 0 18px 40px rgba(168,85,247,0.4);\n    animation: fadeUp 1s ease-out 0.4s backwards;\n    transition: transform 0.2s, box-shadow 0.2s;\n  }\n  .btn:hover { transform: translateY(-3px); box-shadow: 0 25px 50px rgba(168,85,247,0.55); }\n  @keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }\n</style>\n</head>\n<body>\n  <section class=\"hero\">\n    <div class=\"content\">\n      <h1>Priya Sharma<br>Web Developer</h1>\n      <p>I build fast, beautiful web apps from Pune. Currently looking for my first internship.</p>\n      <a href=\"#\" class=\"btn\">View My Work</a>\n    </div>\n  </section>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A standalone animated hero section. The background uses three radial gradients layered together, slowly floating with <code>@keyframes floatBg</code>. The heading, paragraph, and button each fade up with staggered <code>animation-delay</code>. Gradient text uses <code>background-clip: text</code>.",
+        "output": "A dark hero with soft purple, cyan, and pink glows drifting in the background. A huge gradient heading fades up, followed by the subtitle and CTA button. A cohesive, high-quality intro."
+      },
+      {
+        "title": "Project Card with Hover Reveal",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: #0b0f1e; padding: 40px 24px; display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); max-width: 1000px; margin: 0 auto; }\n  .project {\n    position: relative;\n    border-radius: 20px;\n    overflow: hidden;\n    aspect-ratio: 4/3;\n    cursor: pointer;\n    border: 1px solid rgba(255,255,255,0.08);\n    transition: transform 0.4s;\n  }\n  .project:hover { transform: translateY(-8px); }\n  .project .thumb {\n    position: absolute; inset: 0;\n    transition: transform 0.6s, filter 0.6s;\n  }\n  .project:hover .thumb { transform: scale(1.15); filter: brightness(0.35) saturate(1.3); }\n  .p1 .thumb { background: linear-gradient(135deg, #7c3aed, #ec4899); }\n  .p2 .thumb { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }\n  .p3 .thumb { background: linear-gradient(135deg, #f59e0b, #ef4444); }\n  .title-wrap {\n    position: absolute;\n    left: 0; right: 0; bottom: 0;\n    padding: 24px;\n    color: white;\n    background: linear-gradient(0deg, rgba(0,0,0,0.85), transparent);\n    transform: translateY(60%);\n    transition: transform 0.4s;\n  }\n  .project:hover .title-wrap { transform: translateY(0); }\n  h3 { font-size: 22px; margin-bottom: 8px; }\n  p { font-size: 14px; opacity: 0.85; margin-bottom: 12px; line-height: 1.6; }\n  .techs { display: flex; gap: 8px; flex-wrap: wrap; }\n  .techs span { padding: 3px 10px; background: rgba(255,255,255,0.18); border-radius: 999px; font-size: 11px; backdrop-filter: blur(10px); font-weight: 600; }\n</style>\n</head>\n<body>\n  <div class=\"project p1\">\n    <div class=\"thumb\"></div>\n    <div class=\"title-wrap\">\n      <h3>Kalpana Quiz</h3>\n      <p>A multiplayer quiz with live scoring and leaderboards.</p>\n      <div class=\"techs\"><span>React</span><span>Socket.io</span></div>\n    </div>\n  </div>\n  <div class=\"project p2\">\n    <div class=\"thumb\"></div>\n    <div class=\"title-wrap\">\n      <h3>Trishul Weather</h3>\n      <p>Beautiful weather dashboard with charts and forecasts.</p>\n      <div class=\"techs\"><span>Next.js</span><span>Chart.js</span></div>\n    </div>\n  </div>\n  <div class=\"project p3\">\n    <div class=\"thumb\"></div>\n    <div class=\"title-wrap\">\n      <h3>ShikshaBot</h3>\n      <p>An AI homework helper trained on NCERT textbooks.</p>\n      <div class=\"techs\"><span>Python</span><span>OpenAI</span></div>\n    </div>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Each project card shows only its title (peeking from the bottom) by default. On hover, the card lifts, the thumbnail zooms in and darkens, and the title-wrap slides fully into view showing the description and tech tags. A dramatic, interactive pattern using only transforms and filters.",
+        "output": "Three colorful project cards. Hovering any card lifts it up, darkens the thumbnail, zooms it slightly, and reveals a description and tech tags from the bottom edge."
+      },
+      {
+        "title": "Animated Skill Bars with CSS Variable Width",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: #0b0f1e; color: white; padding: 60px 24px; }\n  .wrap { max-width: 600px; margin: 0 auto; }\n  h1 { text-align: center; margin-bottom: 32px; color: #a855f7; font-size: 32px; }\n  .skill {\n    background: #131833;\n    border: 1px solid rgba(255,255,255,0.08);\n    border-radius: 16px;\n    padding: 20px 24px;\n    margin-bottom: 16px;\n    transition: transform 0.3s, border-color 0.3s;\n  }\n  .skill:hover { transform: translateX(8px); border-color: #a855f7; }\n  .skill-header { display: flex; justify-content: space-between; margin-bottom: 10px; font-weight: 700; font-size: 15px; }\n  .pct { color: #a855f7; }\n  .bar { height: 10px; background: #1a2040; border-radius: 999px; overflow: hidden; }\n  .fill {\n    height: 100%;\n    background: linear-gradient(90deg, #a855f7, #06b6d4);\n    border-radius: 999px;\n    width: 0;\n    animation: fill 1.6s ease-out 0.3s forwards;\n    box-shadow: 0 0 20px rgba(168,85,247,0.5);\n  }\n  @keyframes fill { to { width: var(--width); } }\n</style>\n</head>\n<body>\n  <div class=\"wrap\">\n    <h1>Ishita's Skills</h1>\n    <div class=\"skill\">\n      <div class=\"skill-header\"><span>HTML and CSS</span><span class=\"pct\">95%</span></div>\n      <div class=\"bar\"><div class=\"fill\" style=\"--width: 95%\"></div></div>\n    </div>\n    <div class=\"skill\">\n      <div class=\"skill-header\"><span>JavaScript</span><span class=\"pct\">88%</span></div>\n      <div class=\"bar\"><div class=\"fill\" style=\"--width: 88%\"></div></div>\n    </div>\n    <div class=\"skill\">\n      <div class=\"skill-header\"><span>React</span><span class=\"pct\">80%</span></div>\n      <div class=\"bar\"><div class=\"fill\" style=\"--width: 80%\"></div></div>\n    </div>\n    <div class=\"skill\">\n      <div class=\"skill-header\"><span>Python</span><span class=\"pct\">65%</span></div>\n      <div class=\"bar\"><div class=\"fill\" style=\"--width: 65%\"></div></div>\n    </div>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The key trick: each skill bar's target width is set via an inline CSS variable (<code>style=\"--width: 95%\"</code>). The <code>@keyframes fill</code> animation reads that variable with <code>width: var(--width)</code>. One animation, one class, different values per bar. Much cleaner than writing a separate animation per skill.",
+        "output": "Four skill bars that smoothly fill from 0 to their target width when the page loads. Each bar has a neon glow. Hovering the row slides it slightly right and highlights the border."
+      },
+      {
+        "title": "Glassmorphism Contact Form with :has() Validation",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body {\n    font-family: 'Segoe UI', sans-serif;\n    background: #0b0f1e;\n    color: white;\n    min-height: 100vh;\n    padding: 60px 24px;\n    position: relative;\n    overflow-x: hidden;\n  }\n  body::before {\n    content: '';\n    position: fixed;\n    inset: 0;\n    background: radial-gradient(ellipse at 30% 30%, rgba(168,85,247,0.3), transparent 55%),\n                radial-gradient(ellipse at 70% 70%, rgba(6,182,212,0.3), transparent 55%);\n    pointer-events: none;\n    z-index: 0;\n  }\n  h1 { text-align: center; margin-bottom: 32px; background: linear-gradient(135deg, #a855f7, #06b6d4); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; font-size: 36px; position: relative; z-index: 1; }\n  form {\n    position: relative;\n    z-index: 1;\n    max-width: 500px;\n    margin: 0 auto;\n    padding: 40px;\n    background: rgba(255,255,255,0.05);\n    backdrop-filter: blur(25px);\n    border: 1px solid rgba(255,255,255,0.12);\n    border-radius: 24px;\n    box-shadow: 0 20px 60px rgba(0,0,0,0.4);\n    transition: border-color 0.3s, box-shadow 0.3s;\n  }\n  form:has(input:valid, textarea:valid):not(:has(input:invalid, textarea:invalid)) {\n    border-color: rgba(16,185,129,0.5);\n    box-shadow: 0 0 40px rgba(16,185,129,0.2);\n  }\n  form:has(input:invalid, textarea:invalid) {\n    border-color: rgba(239,68,68,0.4);\n  }\n  label { display: block; margin-bottom: 18px; font-size: 13px; color: #cbd5e1; font-weight: 600; }\n  input, textarea {\n    display: block; width: 100%; margin-top: 8px;\n    padding: 14px 16px;\n    background: rgba(255,255,255,0.06);\n    color: white;\n    border: 1px solid rgba(255,255,255,0.12);\n    border-radius: 12px;\n    font-size: 15px;\n    font-family: inherit;\n    outline: none;\n    transition: border-color 0.2s, box-shadow 0.2s;\n  }\n  textarea { resize: vertical; min-height: 110px; }\n  input::placeholder, textarea::placeholder { color: rgba(255,255,255,0.4); }\n  input:focus, textarea:focus { border-color: #a855f7; box-shadow: 0 0 0 4px rgba(168,85,247,0.2); }\n  input:not(:placeholder-shown):valid, textarea:not(:placeholder-shown):valid { border-color: #10b981; }\n  input:not(:placeholder-shown):invalid, textarea:not(:placeholder-shown):invalid { border-color: #ef4444; }\n  button {\n    width: 100%;\n    padding: 15px;\n    background: linear-gradient(135deg, #a855f7, #ec4899);\n    color: white;\n    border: none;\n    border-radius: 12px;\n    font-size: 16px;\n    font-weight: 700;\n    cursor: pointer;\n    margin-top: 6px;\n    box-shadow: 0 15px 40px rgba(168,85,247,0.4);\n    transition: transform 0.2s, box-shadow 0.2s;\n  }\n  button:hover { transform: translateY(-2px); box-shadow: 0 22px 50px rgba(168,85,247,0.55); }\n  form:has(input:invalid, textarea:invalid) button { opacity: 0.3; pointer-events: none; }\n</style>\n</head>\n<body>\n  <h1>Contact Ishaan</h1>\n  <form>\n    <label>Name<input type=\"text\" placeholder=\"Your name\" minlength=\"2\" required></label>\n    <label>Email<input type=\"email\" placeholder=\"you@example.com\" required></label>\n    <label>Message<textarea placeholder=\"How can I help?\" minlength=\"10\" required></textarea></label>\n    <button type=\"submit\">Send Message</button>\n  </form>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A glassmorphism form: semi-transparent background, <code>backdrop-filter: blur(25px)</code>, and soft borders. The form reacts with <code>:has()</code>: red border if any field is invalid, green glow if all fields are valid. Submit button is disabled while invalid. Background radial gradients add depth behind the glass.",
+        "output": "A beautiful frosted-glass form floating on a dark background with soft purple and cyan glows. As you type, the border changes color based on validation state. Submit is disabled until everything is valid."
+      },
+      {
+        "title": "Dark/Light Mode Toggle with CSS Variables",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  :root {\n    --bg: #0b0f1e;\n    --surface: #131833;\n    --text: #f1f5f9;\n    --muted: #94a3b8;\n    --brand: #a855f7;\n    --border: rgba(255,255,255,0.1);\n  }\n  body.light {\n    --bg: #fafafa;\n    --surface: #ffffff;\n    --text: #0f172a;\n    --muted: #64748b;\n    --brand: #7c3aed;\n    --border: #e2e8f0;\n  }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body {\n    font-family: 'Segoe UI', sans-serif;\n    background: var(--bg);\n    color: var(--text);\n    min-height: 100vh;\n    padding: 60px 24px;\n    transition: background 0.4s, color 0.4s;\n  }\n  .theme-btn {\n    position: fixed;\n    top: 20px; right: 20px;\n    padding: 12px 22px;\n    background: var(--brand);\n    color: white;\n    border: none;\n    border-radius: 999px;\n    cursor: pointer;\n    font-weight: 700;\n    font-size: 13px;\n    box-shadow: 0 10px 30px rgba(168,85,247,0.4);\n    transition: transform 0.2s;\n  }\n  .theme-btn:hover { transform: translateY(-2px); }\n  h1 { color: var(--brand); font-size: 36px; margin-bottom: 16px; max-width: 600px; margin-left: auto; margin-right: auto; }\n  .card { max-width: 600px; margin: 0 auto; background: var(--surface); border: 1px solid var(--border); padding: 32px; border-radius: 20px; transition: background 0.4s, border-color 0.4s; }\n  .card p { color: var(--muted); line-height: 1.7; }\n</style>\n</head>\n<body>\n  <button class=\"theme-btn\" id=\"btn\">Light Mode</button>\n  <div class=\"card\">\n    <h1>Kavya's Notes</h1>\n    <p>This entire page switches between dark and light mode with one CSS class toggle. Every color is a variable, and the body.light class overrides them. Try the button in the top-right corner.</p>\n    <p>The transition on background and color makes the switch smooth. No external libraries, no complicated JavaScript — just three lines of JS and CSS variables.</p>\n  </div>\n  <script>\n    const btn = document.getElementById('btn');\n    btn.addEventListener('click', function() {\n      document.body.classList.toggle('light');\n      btn.textContent = document.body.classList.contains('light') ? 'Dark Mode' : 'Light Mode';\n    });\n  </script>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The simplest possible dark mode toggle. CSS variables for all colors on <code>:root</code> (dark defaults). Override them on <code>body.light</code> (light mode). A <code>transition</code> on <code>background</code> and <code>color</code> makes the switch smooth. JavaScript is just 3 lines: toggle the class, update button text. That is it.",
+        "output": "A card on a dark background. Clicking the top-right button smoothly transitions the entire page to a clean light theme. Click again to go back. The button text updates to reflect the current action."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using overflow: hidden on the body (Breaks Sticky/Fixed)",
+        "wrongCode": "body { overflow: hidden; }\n/* Hoping to stop horizontal scroll */",
+        "error": "<code>overflow: hidden</code> on body kills vertical scroll too. The whole page becomes unscrollable.",
+        "correctCode": "body { overflow-x: hidden; }\n/* Only stops horizontal scroll */",
+        "explanation": "If your animated background is causing a horizontal scrollbar, use <code>overflow-x: hidden</code> on the body to prevent it. Using plain <code>overflow: hidden</code> blocks vertical scrolling too and breaks the whole page."
+      },
+      {
+        "title": "Forgetting Fallback Color with background-clip: text",
+        "wrongCode": ".heading {\n  background: linear-gradient(135deg, red, blue);\n  -webkit-background-clip: text;\n  background-clip: text;\n  -webkit-text-fill-color: transparent;\n  /* In very old browsers, text becomes invisible! */\n}",
+        "error": "If <code>background-clip: text</code> is not supported, the text becomes invisible because <code>-webkit-text-fill-color: transparent</code> still applies.",
+        "correctCode": ".heading {\n  color: red; /* Fallback color */\n  background: linear-gradient(135deg, red, blue);\n  -webkit-background-clip: text;\n  background-clip: text;\n  -webkit-text-fill-color: transparent;\n}",
+        "explanation": "Set an explicit <code>color</code> as a fallback before the background-clip tricks. In 2026 this is rarely an issue, but it is still good practice for defensive CSS."
+      },
+      {
+        "title": "Animating Too Many Properties at Once",
+        "wrongCode": ".card {\n  transition: all 0.3s;\n}\n.card:hover {\n  transform: scale(1.05);\n  box-shadow: 0 20px 50px rgba(0,0,0,0.3);\n  filter: brightness(1.1);\n  background: red;\n  margin: 10px;\n}",
+        "error": "<code>transition: all</code> animates every changed property, including layout-affecting ones like <code>margin</code>. That triggers layout recalculation and causes jank.",
+        "correctCode": ".card {\n  transition: transform 0.3s, box-shadow 0.3s, filter 0.3s;\n  /* Only animate properties that do not trigger layout */\n}\n.card:hover {\n  transform: scale(1.05);\n  box-shadow: 0 20px 50px rgba(0,0,0,0.3);\n  filter: brightness(1.1);\n}",
+        "explanation": "Prefer <code>transform</code>, <code>opacity</code>, and <code>filter</code> for animations — they are GPU-accelerated. Avoid animating <code>margin</code>, <code>width</code>, <code>height</code>, or <code>padding</code> because they force the browser to recalculate layout."
+      },
+      {
+        "title": "Gradient Text Not Showing Because of Color",
+        "wrongCode": ".heading {\n  color: white;\n  background: linear-gradient(135deg, red, blue);\n  background-clip: text;\n  /* Missing -webkit-text-fill-color: transparent */\n}",
+        "error": "The text stays white because the color is not set to transparent. The gradient background is clipped to the text shape but hidden behind the solid color fill.",
+        "correctCode": ".heading {\n  background: linear-gradient(135deg, red, blue);\n  -webkit-background-clip: text;\n  background-clip: text;\n  -webkit-text-fill-color: transparent;\n  color: transparent; /* standard fallback */\n}",
+        "explanation": "Background-clip to text only shows through if the text fill is transparent. Use <code>-webkit-text-fill-color: transparent</code> (for WebKit) and <code>color: transparent</code> as a standard fallback."
+      }
+    ],
+    "summary": [
+      "Start with dark mode variables on <code>:root</code> and light mode overrides on <code>body.light</code>. A single class toggle flips the whole theme. Add a <code>transition</code> on <code>background</code> and <code>color</code> for a smooth fade.",
+      "Use <code>html { scroll-behavior: smooth }</code> and <code>scroll-padding-top</code> matching your navbar height so anchor links animate to sections with the heading visible below the nav.",
+      "Build the hero with <code>min-height: 100dvh</code> and layered radial-gradient backgrounds that animate slowly with <code>@keyframes</code> for a dreamy ambient effect.",
+      "Gradient text: <code>background: linear-gradient(...); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;</code>. Always set a fallback <code>color</code>.",
+      "Stagger entry animations with <code>animation-delay</code>: <code>.eyebrow</code> at 0s, <code>h1</code> at 0.1s, <code>p</code> at 0.25s, <code>.ctas</code> at 0.4s. The <code>backwards</code> fill-mode prevents a flash before the delay.",
+      "Animated skill bars: set the target width via an inline <code>--width</code> CSS variable on each bar. One <code>@keyframes fill { to { width: var(--width); } }</code> animation handles every bar.",
+      "Project cards use <code>aspect-ratio: 4/3</code>, <code>overflow: hidden</code>, and hover effects: scale the thumbnail, darken it, and slide the info overlay up with <code>transform</code>.",
+      "Glassmorphism = semi-transparent background (<code>rgba(255,255,255,0.05)</code>) + <code>backdrop-filter: blur(20px)</code> + a thin border. Looks best against a colorful background.",
+      "Use <code>:has()</code> for a reactive contact form: <code>form:has(input:valid):not(:has(input:invalid))</code> matches when every field is valid. Combine with <code>:not(:placeholder-shown)</code> so empty fields do not show red immediately.",
+      "Three lines of JavaScript is all you need for a persistent dark mode toggle: get the button, add a click listener, toggle a class on the body.",
+      "For smooth performance, animate <code>transform</code>, <code>opacity</code>, and <code>filter</code> — not <code>width</code>, <code>height</code>, <code>margin</code>, or <code>padding</code>. The first three are GPU-accelerated; the others force layout recalculation.",
+      "Neon glow effect: <code>box-shadow: 0 0 20px rgba(168,85,247,0.5)</code> or double/triple shadows for depth. Works great on skill bars, buttons, and avatars."
+    ]
+  },
+  "relatedTopics": ["project-build-a-landing-page", "css-variables-and-theming", "modern-css-features", "css-animations-and-keyframes"],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>html { scroll-behavior: smooth }</code> do?",
+        "hint": "Anchor links.",
+        "answer": "Makes anchor links (like <code>#about</code>) animate the scroll to the target section instead of jumping instantly.",
+        "explanation": "A one-line upgrade for any page with in-page navigation. Browsers natively animate the scroll when this is set."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which CSS property creates frosted glass?",
+        "hint": "Blur what is behind.",
+        "answer": "<code>backdrop-filter: blur(20px)</code> combined with a semi-transparent background.",
+        "explanation": "<code>backdrop-filter</code> blurs whatever is behind the element. Combined with a translucent background, it creates the frosted glass (glassmorphism) effect."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How do you make a heading have gradient text?",
+        "hint": "Clip the background to the text.",
+        "answer": "<code>background: linear-gradient(...); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;</code>",
+        "explanation": "Apply a gradient as the background, clip it to the text shape, and make the text fill transparent so the gradient shows through."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What CSS makes the skill bar fill animate from 0 to a target width?",
+        "hint": "@keyframes and a variable.",
+        "answer": "<code>@keyframes fill { to { width: var(--width); } }</code> with <code>animation: fill 1.5s ease-out forwards</code> on the bar.",
+        "explanation": "The bar starts at width 0, the animation transitions to <code>var(--width)</code> (set inline on each bar), and <code>forwards</code> makes the end state stick."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many lines of JavaScript are needed for a dark mode toggle?",
+        "hint": "Just toggle a class.",
+        "answer": "Three: get the button, add a click listener, toggle a class on the body.",
+        "explanation": "With CSS variables handling the theme, JavaScript only needs to toggle a class. Everything else is CSS."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What makes the hero CTA button pulse with a glow?",
+        "hint": "@keyframes on box-shadow.",
+        "answer": "Define a keyframes animation that varies the <code>box-shadow</code> spread and opacity, and set <code>animation: pulse 2s infinite</code> on the button.",
+        "explanation": "The pulsing effect is just a box-shadow that grows and shrinks on a loop. Infinite animation keeps it going forever."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Why use <code>100dvh</code> for the hero on mobile?",
+        "hint": "Address bar.",
+        "answer": "On mobile the browser's address bar shows and hides as the user scrolls. <code>100dvh</code> adjusts dynamically. <code>100vh</code> does not, causing layout shifts.",
+        "explanation": "dvh = dynamic viewport height. It updates live as the visible area changes. Use it instead of vh for full-screen sections."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>animation-delay</code> do with <code>backwards</code> fill mode?",
+        "hint": "Prevents flash.",
+        "answer": "Applies the animation's starting state immediately (even during the delay), so the element does not flash its final style before the animation begins.",
+        "explanation": "Without <code>backwards</code>, an element with a delay would be visible in its default state during the delay, then jump to the animation. <code>backwards</code> shows the 'from' state right away."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which CSS combination creates glassmorphism?",
+        "hint": "Three ingredients.",
+        "answer": "Semi-transparent background + <code>backdrop-filter: blur(...)</code> + thin border (usually <code>rgba(255,255,255,0.1)</code>).",
+        "explanation": "All three are needed. The transparency lets the blur show through, the blur creates the frost effect, and the thin white border defines the glass edge."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why use dark mode as the default for a portfolio?",
+        "hint": "Visual impact.",
+        "answer": "Dark mode makes colorful gradients, glows, and neon effects pop. It looks more premium and modern. Most hiring managers and designers prefer it in 2026 portfolios.",
+        "explanation": "Light mode is fine, but dark mode is dramatic — and drama is what a portfolio wants. The neon gradient hero on a dark background is the signature look of modern developer portfolios."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this do?<br><pre><code>.project:hover .thumb { transform: scale(1.15); filter: brightness(0.35); }\n.project:hover .title-wrap { transform: translateY(0); }</code></pre>",
+        "hint": "Hover reveal.",
+        "answer": "On hover, the thumbnail zooms in and darkens, while the title wrapper slides up from below revealing project details. A classic hover-reveal pattern.",
+        "explanation": "The thumbnail transformation creates the 'spotlight' effect. The title wrapper slides up from its default partial-hidden position to fully visible. Together they give a dramatic hover experience."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does the inline <code>style=\"--width: 90%\"</code> on a skill bar do?",
+        "hint": "CSS variables in inline style.",
+        "answer": "Sets the <code>--width</code> CSS variable for that specific element. The <code>@keyframes fill</code> animation uses <code>var(--width)</code> so each bar animates to its own target.",
+        "explanation": "This is a neat way to drive animation targets from HTML without JavaScript. One animation rule handles unlimited bars, each with a different final width."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Why use <code>color-mix(in oklab, var(--bg) 70%, transparent)</code> on the navbar?",
+        "hint": "Transparent navbar.",
+        "answer": "It creates a semi-transparent version of the background color that works in both dark and light modes without hardcoding rgba values.",
+        "explanation": "<code>color-mix()</code> with a variable lets you theme transparency. In dark mode the navbar is 70% dark background + 30% transparent. In light mode it is 70% light background + 30% transparent. No manual rgba for each theme."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this do?<br><pre><code>form:has(input:valid):not(:has(input:invalid))</code>",
+        "hint": "All valid no invalid.",
+        "answer": "Matches a form that contains at least one valid input AND no invalid inputs. In other words: every input is valid.",
+        "explanation": "The first <code>:has()</code> confirms there is a valid field (to catch the case of an empty form). The <code>:not(:has())</code> confirms there is no invalid field. Together: all fields are valid."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Why prefer animating <code>transform</code> over <code>top</code> and <code>left</code>?",
+        "hint": "GPU.",
+        "answer": "Transforms are GPU-accelerated and do not trigger layout recalculation. <code>top</code> and <code>left</code> force the browser to re-layout the page on every frame, which is slow and janky.",
+        "explanation": "For smooth 60fps animations, always prefer <code>transform</code>, <code>opacity</code>, and <code>filter</code>. Everything else may work but often causes stutter, especially on mobile."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this keyframes do?<br><pre><code>@keyframes fadeUp {\n  from { opacity: 0; transform: translateY(30px); }\n  to { opacity: 1; transform: translateY(0); }\n}</code></pre>",
+        "hint": "Classic entry.",
+        "answer": "Fades the element from invisible and 30px below its final position to fully visible and in place. The classic 'slide up and fade in' effect.",
+        "explanation": "The most common entry animation on the web. Combined with <code>animation-delay</code> on successive elements, it creates the staggered reveal effect."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>scroll-padding-top: 90px</code> on <code>html</code> do?",
+        "hint": "Sticky nav.",
+        "answer": "When an anchor link scrolls to a section, the browser leaves 90px of space at the top so the section heading is not hidden under the fixed navbar.",
+        "explanation": "Without scroll-padding-top, clicking <code>#about</code> would scroll the 'About' heading right to the top of the viewport, directly under the nav — hidden. Adding padding equal to the navbar height fixes it."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does the pulsing dot effect use?<br><pre><code>@keyframes pulse {\n  0%, 100% { opacity: 1; transform: scale(1); }\n  50% { opacity: 0.5; transform: scale(1.3); }\n}</code></pre>",
+        "hint": "Infinite breath.",
+        "answer": "The dot scales up to 1.3x and fades to 50% opacity, then returns. Set <code>animation: pulse 2s infinite</code> to make it breathe forever.",
+        "explanation": "The 0%/100% keyframes mean it starts and ends at the same state, so the infinite loop is seamless. Combined with a glowing box-shadow, the dot has a nice 'live' heartbeat look."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is wrong if your gradient text is invisible?",
+        "hint": "color fallback.",
+        "answer": "You probably forgot <code>-webkit-text-fill-color: transparent</code> (or <code>color: transparent</code>). Without it, the default text color hides the gradient.",
+        "explanation": "<code>background-clip: text</code> only clips the background to the text shape — it does not change the text color. You must also make the text itself transparent so the clipped background is visible."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this do?<br><pre><code>.nav a::after {\n  content: '';\n  position: absolute; left: 0; bottom: -6px;\n  width: 100%; height: 2px;\n  background: linear-gradient(90deg, #a855f7, #06b6d4);\n  transform: scaleX(0);\n  transform-origin: right;\n  transition: transform 0.3s;\n}\n.nav a:hover::after {\n  transform: scaleX(1);\n  transform-origin: left;\n}</code></pre>",
+        "hint": "Sliding underline.",
+        "answer": "Creates a gradient underline that slides in from the left on hover and retracts back to the right when the mouse leaves. A popular nav link effect.",
+        "explanation": "The origin trick is the magic: origin right for the initial scale-0 (so it retracts to the right) and origin left on hover (so it grows from the left). This creates the sliding-across-and-back motion."
+      },
+      {
+        "id": "ts-21",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Why use <code>overflow-x: hidden</code> on body but not <code>overflow: hidden</code>?",
+        "hint": "Vertical scroll.",
+        "answer": "<code>overflow-x: hidden</code> prevents horizontal scrolling (which can happen from decorative elements near edges) without breaking vertical scrolling. <code>overflow: hidden</code> blocks both axes, making the page unscrollable.",
+        "explanation": "On animated backgrounds and large decorative elements, you often get a tiny horizontal scroll. overflow-x:hidden fixes this cleanly. Never use plain overflow:hidden on body unless you want a single screen page."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does the glowing border trick use?<br><pre><code>.btn-primary::before {\n  content: '';\n  position: absolute;\n  inset: -2px;\n  background: linear-gradient(135deg, ...);\n  border-radius: 14px;\n  z-index: -1;\n  filter: blur(12px);\n  opacity: 0;\n  transition: opacity 0.3s;\n}\n.btn-primary:hover::before { opacity: 1; }</code></pre>",
+        "hint": "Blurred pseudo-element behind.",
+        "answer": "Creates a blurred copy of the button's gradient just behind it. On hover, the copy fades in, giving the appearance of a neon glow around the button.",
+        "explanation": "By placing a blurred pseudo-element slightly larger than the button (<code>inset: -2px</code>) behind it (<code>z-index: -1</code>), you get a soft glow that appears on hover. A beautiful trick for premium CTAs."
+      },
+      {
+        "id": "ts-23",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why stagger animation-delays across multiple elements?",
+        "hint": "Rhythm.",
+        "answer": "Staggered delays create a cascade effect where elements appear one after the other, instead of all at once. This feels more polished and guides the viewer's eye across the content in sequence.",
+        "explanation": "All-at-once reveals are visually overwhelming. Staggering by 150-250ms gives the eye time to follow each element and creates a professional 'choreographed' feel."
+      },
+      {
+        "id": "ts-24",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why might you prefer CSS animations over JavaScript animations?",
+        "hint": "Performance and simplicity.",
+        "answer": "CSS animations run on the browser's compositor thread and are GPU-accelerated, so they rarely cause jank. They are also simpler to write, easier to style with variables, and work in frameworks without extra setup.",
+        "explanation": "JavaScript animations can be more flexible but are harder to get right at 60fps. CSS is usually the right default. Only reach for JS when you need tight control based on user input or complex state."
+      },
+      {
+        "id": "ts-25",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Why is the hero content wrapped in a <code>.hero-content</code> div with <code>position: relative; z-index: 2</code>?",
+        "hint": "Stacking.",
+        "answer": "The hero has a <code>::before</code> pseudo-element with the animated background that covers the whole hero. Without positioning the content above it (<code>position: relative</code> + higher <code>z-index</code>), the background would render on top of the text.",
+        "explanation": "Stacking context matters. The pseudo-element is positioned absolutely and fills the whole hero. To keep the actual content visible, we give it its own stacking context with <code>position: relative</code> and a higher z-index."
+      },
+      {
+        "id": "ts-26",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Why is <code>filter: brightness(0.35) saturate(1.3)</code> used on the project hover?",
+        "hint": "Drama.",
+        "answer": "Brightness 0.35 darkens the image so the text overlay is readable. Saturate 1.3 boosts the colors so the darkened image still looks vibrant and not muddy.",
+        "explanation": "Just darkening can make an image look dull. Combining darken with saturation keeps colors rich even when brightness drops. This is how professional photo editors handle dark overlays."
+      },
+      {
+        "id": "ts-27",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What happens with this?<br><pre><code>.hero::before { animation: floatBg 20s ease-in-out infinite alternate; }</code></pre>",
+        "hint": "alternate keyword.",
+        "answer": "The background animation runs forward to the 'to' state, then backward to the 'from' state, then forward again, alternating forever. This gives a smooth back-and-forth drift.",
+        "explanation": "<code>alternate</code> direction means the animation reverses on every other iteration. Combined with <code>ease-in-out</code>, it creates a natural floating motion without a jarring reset at the end of each cycle."
+      },
+      {
+        "id": "ts-28",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What would happen if you removed <code>transition: background 0.4s, color 0.4s</code> from body?",
+        "hint": "Theme switch.",
+        "answer": "Clicking the dark mode toggle would instantly snap between themes instead of fading smoothly. The transition is what creates the smooth color crossfade.",
+        "explanation": "Without a transition, CSS variable changes apply immediately. A 0.4s transition on the relevant properties (background, color) gives the smooth visual change that makes the toggle feel polished."
+      },
+      {
+        "id": "ts-29",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why give the 'avatar' its own glow animation with keyframes instead of a simple static box-shadow?",
+        "hint": "Attention.",
+        "answer": "A pulsing glow draws attention to the avatar — the most important element of the about section. Static shadows blend in, animated ones catch the eye without being annoying.",
+        "explanation": "Good animations guide attention subtly. A breathing glow on the avatar hints 'look here, this is the person' without needing any arrows or labels."
+      },
+      {
+        "id": "ts-30",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why would you avoid animating many properties with <code>transition: all</code> on a complex card?",
+        "hint": "Layout.",
+        "answer": "<code>transition: all</code> animates every changed property, including layout properties like margin, width, and padding, which force the browser to recalculate layout on every frame. This causes jank, especially on lower-end devices.",
+        "explanation": "Be explicit: <code>transition: transform 0.3s, box-shadow 0.3s, filter 0.3s</code>. This limits the animation to GPU-friendly properties and avoids surprise animations when you change other styles later."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "How do you enable smooth scrolling for anchor links?",
+        "options": {
+          "A": "JavaScript only",
+          "B": "html { scroll-behavior: smooth; }",
+          "C": "body { scroll-snap: smooth; }",
+          "D": "It is automatic"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>scroll-behavior: smooth</code> on <code>html</code> (or the scrolling container) makes anchor links animate the scroll instead of jumping."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which CSS creates the frosted glass effect?",
+        "options": {
+          "A": "opacity: 0.5",
+          "B": "background: rgba(255,255,255,0.05) + backdrop-filter: blur(20px)",
+          "C": "filter: blur(20px)",
+          "D": "mix-blend-mode: overlay"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Glassmorphism needs a semi-transparent background and a backdrop-filter blur to see the blurred content behind."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "How do you make text have a gradient fill?",
+        "options": {
+          "A": "color: linear-gradient(...)",
+          "B": "background: linear-gradient; background-clip: text; -webkit-text-fill-color: transparent;",
+          "C": "text-shadow: gradient",
+          "D": "filter: gradient"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Apply the gradient as background, clip it to the text shape, and make the text transparent so the gradient shows through."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which unit is best for a full-height hero on mobile?",
+        "options": {
+          "A": "100vh",
+          "B": "100%",
+          "C": "100dvh",
+          "D": "auto"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>100dvh</code> adjusts as mobile browser toolbars show and hide, preventing the hero from being cut off."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "How many lines of JavaScript are needed for a dark/light toggle?",
+        "options": {
+          "A": "0 - it can be pure CSS",
+          "B": "3 - get button, click listener, toggle class",
+          "C": "20+",
+          "D": "Must use a library"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> With CSS variables and a <code>.light</code> override class, JavaScript only needs to toggle the class. Three lines."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "What CSS property animates smoothly and is GPU-accelerated?",
+        "options": {
+          "A": "margin",
+          "B": "width",
+          "C": "transform",
+          "D": "padding"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>transform</code>, <code>opacity</code>, and <code>filter</code> are GPU-accelerated and produce smooth 60fps animations. Layout properties like margin, width, and padding cause jank."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "What does <code>animation-fill-mode: forwards</code> do?",
+        "options": {
+          "A": "Plays the animation backwards",
+          "B": "Keeps the element in the animation's end state after it finishes",
+          "C": "Speeds up the animation",
+          "D": "Pauses the animation"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>forwards</code> fill mode keeps the final keyframe state applied after the animation completes. Without it, the element snaps back to its default style."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Easy",
+        "question": "Which selector validates a form reactively with :has()?",
+        "options": {
+          "A": "form:has(input:invalid) button",
+          "B": "form.valid",
+          "C": "input.valid form",
+          "D": "form ~ button"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>form:has(input:invalid)</code> matches a form containing any invalid input, and the rule applies to buttons inside that form."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "How do you set different target widths for animated skill bars?",
+        "options": {
+          "A": "One @keyframes per bar",
+          "B": "Set --width via inline style on each bar and animate to var(--width)",
+          "C": "Use JavaScript",
+          "D": "It is impossible with a single animation"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Set the target width as an inline CSS variable per bar, then reference <code>var(--width)</code> in the animation's keyframes. One animation, many bars."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Why use <code>animation-fill-mode: backwards</code> with a delay?",
+        "options": {
+          "A": "Plays the animation backward",
+          "B": "Applies the animation's starting state during the delay to prevent a flash",
+          "C": "Reverses time",
+          "D": "It is a required value"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without it, the element shows its default style during the delay, then jumps to the animation. <code>backwards</code> shows the 'from' state right away."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What does <code>transform-origin: right</code> do for a sliding underline?",
+        "options": {
+          "A": "Moves the element to the right",
+          "B": "Sets the anchor point for scaleX so scale(0) hides it to the right",
+          "C": "Rotates around the right edge",
+          "D": "Nothing"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> transform-origin sets the pivot for scaleX. With origin right, scaleX(0) collapses the element to the right edge, setting up the 'slide out to the right' effect."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "How do you keep the content of the hero above its animated background pseudo-element?",
+        "options": {
+          "A": "Use position: fixed",
+          "B": "Give the content position: relative and a higher z-index than the pseudo-element",
+          "C": "Use display: block",
+          "D": "It happens automatically"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Absolutely-positioned pseudo-elements would render above static content. Giving the content relative position and higher z-index creates a stacking context that keeps it on top."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "Why use <code>overflow-x: hidden</code> on body but not <code>overflow: hidden</code>?",
+        "options": {
+          "A": "Plain overflow: hidden blocks vertical scroll, breaking the page",
+          "B": "overflow: hidden is deprecated",
+          "C": "They are the same",
+          "D": "overflow-x only works on body"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>overflow: hidden</code> blocks both axes, making the page unscrollable. Use <code>overflow-x: hidden</code> to block only horizontal scroll."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "How do you make a navbar's background semi-transparent in both dark and light mode using one rule?",
+        "options": {
+          "A": "Hardcode rgba() for dark and light separately",
+          "B": "Use color-mix(in oklab, var(--bg) 70%, transparent)",
+          "C": "Use opacity: 0.7",
+          "D": "It is not possible"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>color-mix()</code> with a variable lets you create a semi-transparent version of the theme background without hardcoding values for each mode."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "Which CSS pattern is used for project cards that reveal details on hover?",
+        "options": {
+          "A": "display: none toggles",
+          "B": "Thumbnail with scale+brightness on hover + info panel translating from translateY(60%) to translateY(0)",
+          "C": "JavaScript click handlers",
+          "D": "opacity: 0 to 1 only"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The classic reveal pattern uses transform on the thumbnail (scale + filter) and a separate info element sliding up into view. Smooth and performant."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Why is <code>transition: all</code> considered bad practice on interactive cards?",
+        "options": {
+          "A": "It is deprecated",
+          "B": "It animates every changed property including layout ones, causing jank",
+          "C": "It does not work in modern browsers",
+          "D": "It only works on buttons"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>transition: all</code> animates every changed property, including layout-affecting ones like margin and width. Be explicit about which properties to animate."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What creates the glowing button border effect?",
+        "options": {
+          "A": "box-shadow only",
+          "B": "An absolutely-positioned ::before pseudo-element with the gradient and filter: blur, behind the button",
+          "C": "outline: glow",
+          "D": "border-image"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A blurred copy of the gradient positioned slightly behind the button creates a soft halo. Animate its opacity on hover for the appearing glow."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Why use <code>animation: floatBg 20s ease-in-out infinite alternate</code> for the background?",
+        "options": {
+          "A": "It plays once and stops",
+          "B": "It loops forever, reversing direction each cycle for a smooth back-and-forth drift",
+          "C": "It only works on dark mode",
+          "D": "It is slower than infinite"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>alternate</code> reverses the animation on each loop, so the background drifts forward and back smoothly without a jarring reset. Combined with ease-in-out for natural motion."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Add a Skill Meter with Custom Animation",
+        "difficulty": "Easy",
+        "description": "Build a standalone skills section with 6 animated bars for Priya. Use a CSS variable <code>--width</code> on each bar to drive the final width, and a single <code>@keyframes</code> animation to fill them all. Each bar should have a neon glow shadow. The bars should animate on page load.",
+        "sampleInput": "None",
+        "sampleOutput": "Six skill bars that fill smoothly from 0 to their target widths, each glowing softly.",
+        "constraints": "Use one @keyframes. Use CSS variables for per-bar width. Include glow shadow.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: #0b0f1e; color: white; padding: 60px 24px; }\n  h1 { text-align: center; background: linear-gradient(135deg, #a855f7, #06b6d4); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; font-size: 36px; margin-bottom: 32px; }\n  .wrap { max-width: 600px; margin: 0 auto; }\n  .skill {\n    background: #131833;\n    border: 1px solid rgba(255,255,255,0.08);\n    border-radius: 14px;\n    padding: 18px 22px;\n    margin-bottom: 14px;\n    transition: transform 0.3s, border-color 0.3s;\n  }\n  .skill:hover { transform: translateX(8px); border-color: #a855f7; }\n  .skill-header { display: flex; justify-content: space-between; margin-bottom: 10px; font-weight: 700; font-size: 15px; }\n  .pct { color: #a855f7; }\n  .bar { height: 10px; background: #1a2040; border-radius: 999px; overflow: hidden; }\n  .fill {\n    height: 100%;\n    background: linear-gradient(90deg, #a855f7, #06b6d4, #ec4899);\n    border-radius: 999px;\n    width: 0;\n    animation: fill 1.6s ease-out 0.4s forwards;\n    box-shadow: 0 0 20px rgba(168,85,247,0.6), 0 0 40px rgba(168,85,247,0.3);\n  }\n  @keyframes fill { to { width: var(--width); } }\n</style>\n</head>\n<body>\n  <div class=\"wrap\">\n    <h1>Priya's Skills</h1>\n    <div class=\"skill\"><div class=\"skill-header\"><span>HTML and CSS</span><span class=\"pct\">96%</span></div><div class=\"bar\"><div class=\"fill\" style=\"--width: 96%\"></div></div></div>\n    <div class=\"skill\"><div class=\"skill-header\"><span>JavaScript</span><span class=\"pct\">90%</span></div><div class=\"bar\"><div class=\"fill\" style=\"--width: 90%\"></div></div></div>\n    <div class=\"skill\"><div class=\"skill-header\"><span>React</span><span class=\"pct\">82%</span></div><div class=\"bar\"><div class=\"fill\" style=\"--width: 82%\"></div></div></div>\n    <div class=\"skill\"><div class=\"skill-header\"><span>Node.js</span><span class=\"pct\">75%</span></div><div class=\"bar\"><div class=\"fill\" style=\"--width: 75%\"></div></div></div>\n    <div class=\"skill\"><div class=\"skill-header\"><span>Python</span><span class=\"pct\">68%</span></div><div class=\"bar\"><div class=\"fill\" style=\"--width: 68%\"></div></div></div>\n    <div class=\"skill\"><div class=\"skill-header\"><span>Figma</span><span class=\"pct\">60%</span></div><div class=\"bar\"><div class=\"fill\" style=\"--width: 60%\"></div></div></div>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Change the Color Theme",
+        "difficulty": "Easy",
+        "description": "Take the portfolio's CSS variables and create a second theme: cyan-and-teal instead of purple-and-pink. Change <code>--brand</code>, <code>--brand-2</code>, and <code>--accent</code> at the top of the file. Build a simple hero with this new theme featuring Rohan's name.",
+        "sampleInput": "None",
+        "sampleOutput": "A hero with the same structure but a cyan-teal color scheme instead of purple-pink.",
+        "constraints": "Only change variable values. No other CSS changes.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  :root {\n    --brand: #06b6d4;\n    --brand-2: #14b8a6;\n    --accent: #0ea5e9;\n    --bg: #04131a;\n    --muted: #7dd3fc;\n  }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: white; min-height: 100vh; overflow: hidden; }\n  .hero { min-height: 100dvh; display: grid; place-items: center; text-align: center; padding: 24px; position: relative; }\n  .hero::before {\n    content: '';\n    position: absolute; inset: 0;\n    background: radial-gradient(ellipse at 30% 20%, rgba(6,182,212,0.3), transparent 55%),\n                radial-gradient(ellipse at 70% 80%, rgba(20,184,166,0.25), transparent 55%);\n    animation: float 18s ease-in-out infinite alternate;\n    pointer-events: none;\n  }\n  @keyframes float { 100% { transform: translate(40px, -30px) scale(1.15); } }\n  .content { position: relative; z-index: 2; max-width: 900px; }\n  h1 {\n    font-size: clamp(42px, 7vw, 88px);\n    line-height: 1.02;\n    text-wrap: balance;\n    letter-spacing: -2px;\n    margin-bottom: 20px;\n    background: linear-gradient(135deg, var(--brand), var(--brand-2), var(--accent));\n    -webkit-background-clip: text;\n    background-clip: text;\n    -webkit-text-fill-color: transparent;\n    animation: fadeUp 1s ease-out;\n  }\n  p { font-size: 20px; color: var(--muted); max-width: 580px; margin: 0 auto 32px; animation: fadeUp 1s ease-out 0.2s backwards; }\n  .btn {\n    display: inline-block;\n    padding: 14px 30px;\n    background: linear-gradient(135deg, var(--brand), var(--brand-2));\n    color: white;\n    border-radius: 12px;\n    font-weight: 700;\n    text-decoration: none;\n    box-shadow: 0 18px 40px rgba(6,182,212,0.4);\n    animation: fadeUp 1s ease-out 0.4s backwards;\n  }\n  @keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }\n</style>\n</head>\n<body>\n  <section class=\"hero\">\n    <div class=\"content\">\n      <h1>Rohan Mehta<br>Backend Developer</h1>\n      <p>Database wizard, API architect, and late night debugger. Building systems that scale from Pune.</p>\n      <a href=\"#\" class=\"btn\">See My Projects</a>\n    </div>\n  </section>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Add a Cool Hover Effect to Project Cards",
+        "difficulty": "Medium",
+        "description": "Build a standalone project grid where each card rotates slightly in 3D perspective on hover (using <code>transform: perspective() rotateY()</code>) and shows a glowing border. Include 4 projects for Ishita.",
+        "sampleInput": "Hover over any card",
+        "sampleOutput": "Cards tilt in 3D on hover with a glowing purple border.",
+        "constraints": "Use perspective and rotateY. Use box-shadow for the glow. Cards must be aspect-ratio 4/3.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: #0b0f1e; color: white; padding: 60px 24px; perspective: 1200px; }\n  h1 { text-align: center; color: #a855f7; margin-bottom: 36px; font-size: 34px; }\n  .grid { display: grid; gap: 28px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); max-width: 1000px; margin: 0 auto; }\n  .project {\n    aspect-ratio: 4/3;\n    border-radius: 20px;\n    position: relative;\n    overflow: hidden;\n    border: 2px solid rgba(255,255,255,0.08);\n    transition: transform 0.5s, border-color 0.5s, box-shadow 0.5s;\n    transform-style: preserve-3d;\n    cursor: pointer;\n  }\n  .project:hover {\n    transform: rotateY(-8deg) rotateX(4deg) scale(1.03);\n    border-color: #a855f7;\n    box-shadow:\n      0 0 0 1px rgba(168,85,247,0.6),\n      0 40px 80px rgba(168,85,247,0.35),\n      0 0 60px rgba(168,85,247,0.25);\n  }\n  .thumb { position: absolute; inset: 0; transition: transform 0.6s; }\n  .project:hover .thumb { transform: scale(1.1); }\n  .p1 .thumb { background: linear-gradient(135deg, #7c3aed, #ec4899); }\n  .p2 .thumb { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }\n  .p3 .thumb { background: linear-gradient(135deg, #f59e0b, #ef4444); }\n  .p4 .thumb { background: linear-gradient(135deg, #10b981, #06b6d4); }\n  .overlay { position: absolute; inset: auto 0 0 0; padding: 20px; background: linear-gradient(0deg, rgba(0,0,0,0.9), transparent); z-index: 2; }\n  .overlay h3 { font-size: 20px; margin-bottom: 6px; }\n  .overlay p { font-size: 13px; color: rgba(255,255,255,0.75); }\n</style>\n</head>\n<body>\n  <h1>Ishita's Projects</h1>\n  <div class=\"grid\">\n    <div class=\"project p1\"><div class=\"thumb\"></div><div class=\"overlay\"><h3>Kalpana Quiz</h3><p>Multiplayer quiz with leaderboards</p></div></div>\n    <div class=\"project p2\"><div class=\"thumb\"></div><div class=\"overlay\"><h3>Trishul Weather</h3><p>Weather dashboard with charts</p></div></div>\n    <div class=\"project p3\"><div class=\"thumb\"></div><div class=\"overlay\"><h3>ShikshaBot</h3><p>AI homework helper</p></div></div>\n    <div class=\"project p4\"><div class=\"thumb\"></div><div class=\"overlay\"><h3>VedaTimer</h3><p>Pomodoro with chakra theme</p></div></div>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Build a Glassmorphism About Card",
+        "difficulty": "Medium",
+        "description": "Create a standalone about section with a glowing avatar and a glassmorphism card containing bio text. Use <code>backdrop-filter: blur()</code> for the glass effect. Place it against an animated gradient background. Include pulsing glow on the avatar. Name it after Vivaan.",
+        "sampleInput": "None",
+        "sampleOutput": "A glowing circular avatar next to a frosted glass bio card on an animated gradient background.",
+        "constraints": "Use backdrop-filter. Use @keyframes for the avatar glow. Use an animated gradient background.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body {\n    font-family: 'Segoe UI', sans-serif;\n    min-height: 100vh;\n    display: grid;\n    place-items: center;\n    padding: 60px 24px;\n    background: #0b0f1e;\n    color: white;\n    position: relative;\n    overflow: hidden;\n  }\n  body::before {\n    content: '';\n    position: absolute;\n    inset: 0;\n    background: radial-gradient(ellipse at 30% 20%, rgba(168,85,247,0.35), transparent 55%),\n                radial-gradient(ellipse at 70% 80%, rgba(6,182,212,0.3), transparent 55%),\n                radial-gradient(ellipse at 50% 50%, rgba(236,72,153,0.2), transparent 60%);\n    animation: floatBg 18s ease-in-out infinite alternate;\n    pointer-events: none;\n  }\n  @keyframes floatBg { 100% { transform: translate(50px, -40px) scale(1.2); } }\n  .about {\n    display: grid;\n    grid-template-columns: 200px 1fr;\n    gap: 40px;\n    align-items: center;\n    max-width: 720px;\n    padding: 36px;\n    background: rgba(255,255,255,0.05);\n    backdrop-filter: blur(25px);\n    border: 1px solid rgba(255,255,255,0.12);\n    border-radius: 24px;\n    box-shadow: 0 30px 80px rgba(0,0,0,0.5);\n    position: relative;\n    z-index: 1;\n  }\n  .avatar {\n    aspect-ratio: 1;\n    border-radius: 50%;\n    background: linear-gradient(135deg, #a855f7, #06b6d4, #ec4899);\n    display: grid;\n    place-items: center;\n    color: white;\n    font-size: 80px;\n    font-weight: 800;\n    box-shadow: 0 30px 80px rgba(168,85,247,0.4);\n    animation: glow 4s ease-in-out infinite;\n  }\n  @keyframes glow {\n    0%, 100% { box-shadow: 0 30px 80px rgba(168,85,247,0.4); }\n    50% { box-shadow: 0 40px 100px rgba(6,182,212,0.5); }\n  }\n  h1 { font-size: 32px; margin-bottom: 12px; background: linear-gradient(135deg, #a855f7, #06b6d4); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }\n  p { color: #cbd5e1; line-height: 1.7; margin-bottom: 12px; }\n  .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }\n  .tag { padding: 5px 12px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; font-size: 12px; }\n  @media (max-width: 600px) {\n    .about { grid-template-columns: 1fr; text-align: center; }\n    .avatar { max-width: 180px; margin: 0 auto; }\n    .tags { justify-content: center; }\n  }\n</style>\n</head>\n<body>\n  <div class=\"about\">\n    <div class=\"avatar\">V</div>\n    <div>\n      <h1>Hi, I am Vivaan</h1>\n      <p>I am a 15-year-old developer from Pune who loves building beautiful interfaces and fast backends.</p>\n      <p>When I am not coding, I play cricket, read sci-fi, and tinker with hardware projects.</p>\n      <div class=\"tags\">\n        <span class=\"tag\">React</span>\n        <span class=\"tag\">Next.js</span>\n        <span class=\"tag\">Python</span>\n        <span class=\"tag\">Cricket</span>\n      </div>\n    </div>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Build a Dark/Light Mode Portfolio Page",
+        "difficulty": "Hard",
+        "description": "Build a mini portfolio page (hero + skills + footer) with a working dark/light mode toggle. Use CSS variables for every color. The toggle button should update its label ('Light Mode' / 'Dark Mode') based on the current state. Three lines of JavaScript only. Name it after Anika.",
+        "sampleInput": "Click the toggle button",
+        "sampleOutput": "The whole page smoothly transitions between dark and light themes.",
+        "constraints": "Use CSS variables. Max 3 lines of JavaScript. Include hero, skills, and footer.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  :root {\n    --bg: #0b0f1e;\n    --surface: #131833;\n    --text: #f1f5f9;\n    --muted: #94a3b8;\n    --brand: #a855f7;\n    --brand-2: #06b6d4;\n    --border: rgba(255,255,255,0.08);\n  }\n  body.light {\n    --bg: #fafafa;\n    --surface: #ffffff;\n    --text: #0f172a;\n    --muted: #64748b;\n    --brand: #7c3aed;\n    --brand-2: #0891b2;\n    --border: #e2e8f0;\n  }\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; transition: background 0.4s, color 0.4s; }\n  .theme-btn { position: fixed; top: 20px; right: 20px; z-index: 10; padding: 10px 20px; background: var(--brand); color: white; border: none; border-radius: 999px; cursor: pointer; font-weight: 700; font-size: 13px; box-shadow: 0 10px 30px rgba(168,85,247,0.4); }\n  .hero { min-height: 70vh; display: grid; place-items: center; text-align: center; padding: 60px 24px; }\n  h1 { font-size: clamp(36px, 6vw, 72px); line-height: 1.05; background: linear-gradient(135deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 16px; }\n  .sub { color: var(--muted); font-size: 19px; max-width: 520px; margin: 0 auto; }\n  .skills { padding: 40px 24px 60px; max-width: 600px; margin: 0 auto; }\n  .skills h2 { text-align: center; color: var(--brand); margin-bottom: 24px; font-size: 26px; }\n  .skill { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px 22px; margin-bottom: 14px; transition: background 0.4s, border-color 0.4s; }\n  .skill-header { display: flex; justify-content: space-between; margin-bottom: 8px; font-weight: 700; }\n  .pct { color: var(--brand); }\n  .bar { height: 8px; background: var(--border); border-radius: 999px; overflow: hidden; }\n  .fill { height: 100%; background: linear-gradient(90deg, var(--brand), var(--brand-2)); border-radius: 999px; width: 0; animation: fill 1.5s ease-out 0.3s forwards; }\n  @keyframes fill { to { width: var(--w); } }\n  footer { text-align: center; padding: 32px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; transition: border-color 0.4s; }\n</style>\n</head>\n<body>\n  <button class=\"theme-btn\" id=\"btn\">Light Mode</button>\n  <section class=\"hero\">\n    <div>\n      <h1>Anika Joshi</h1>\n      <p class=\"sub\">Frontend developer building joyful interfaces from Pune. Dark mode by default, because it looks better.</p>\n    </div>\n  </section>\n  <section class=\"skills\">\n    <h2>My Skills</h2>\n    <div class=\"skill\"><div class=\"skill-header\"><span>HTML and CSS</span><span class=\"pct\">94%</span></div><div class=\"bar\"><div class=\"fill\" style=\"--w: 94%\"></div></div></div>\n    <div class=\"skill\"><div class=\"skill-header\"><span>JavaScript</span><span class=\"pct\">87%</span></div><div class=\"bar\"><div class=\"fill\" style=\"--w: 87%\"></div></div></div>\n    <div class=\"skill\"><div class=\"skill-header\"><span>React</span><span class=\"pct\">80%</span></div><div class=\"bar\"><div class=\"fill\" style=\"--w: 80%\"></div></div></div>\n  </section>\n  <footer>Built by Anika. 2026.</footer>\n  <script>\n    const btn = document.getElementById('btn');\n    btn.addEventListener('click', () => { document.body.classList.toggle('light'); btn.textContent = document.body.classList.contains('light') ? 'Dark Mode' : 'Light Mode'; });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Build a Full Animated Portfolio Hero Section",
+        "difficulty": "Hard",
+        "description": "Build a complete hero section with: animated gradient background (@keyframes), pulsing status dot, gradient headline, staggered fade-up animations for headline/subtitle/CTA, and a glowing primary button with a pseudo-element halo. Call it Ishaan's portfolio. It should feel like a premium developer portfolio.",
+        "sampleInput": "Load the page",
+        "sampleOutput": "A stunning hero with slowly drifting background gradients, a pulsing 'Available' badge, gradient heading, and a glowing CTA button that fade in with a staggered effect.",
+        "constraints": "Use staggered animation-delay. Include pulse keyframes for the dot. Use a ::before pseudo-element for the button glow.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body {\n    font-family: 'Segoe UI', sans-serif;\n    background: #0b0f1e;\n    color: #f1f5f9;\n    min-height: 100vh;\n    overflow: hidden;\n  }\n  .hero {\n    min-height: 100dvh;\n    display: grid;\n    place-items: center;\n    text-align: center;\n    padding: 24px;\n    position: relative;\n  }\n  .hero::before {\n    content: '';\n    position: absolute; inset: 0;\n    background:\n      radial-gradient(ellipse at 30% 20%, rgba(168,85,247,0.3), transparent 55%),\n      radial-gradient(ellipse at 70% 80%, rgba(6,182,212,0.25), transparent 55%),\n      radial-gradient(ellipse at 50% 50%, rgba(236,72,153,0.18), transparent 60%);\n    animation: floatBg 20s ease-in-out infinite alternate;\n    pointer-events: none;\n  }\n  @keyframes floatBg {\n    0% { transform: translate(0, 0) scale(1); }\n    100% { transform: translate(50px, -40px) scale(1.18); }\n  }\n  .content { position: relative; z-index: 2; max-width: 900px; }\n  .eyebrow {\n    display: inline-flex;\n    align-items: center;\n    gap: 10px;\n    padding: 8px 20px;\n    background: rgba(255,255,255,0.05);\n    backdrop-filter: blur(10px);\n    border: 1px solid rgba(255,255,255,0.1);\n    border-radius: 999px;\n    font-size: 13px;\n    color: #cbd5e1;\n    margin-bottom: 28px;\n    animation: fadeUp 0.9s ease-out;\n  }\n  .dot {\n    width: 8px;\n    height: 8px;\n    background: #10b981;\n    border-radius: 50%;\n    box-shadow: 0 0 12px #10b981;\n    animation: pulse 2s ease-in-out infinite;\n  }\n  @keyframes pulse {\n    0%, 100% { opacity: 1; transform: scale(1); }\n    50% { opacity: 0.5; transform: scale(1.4); }\n  }\n  h1 {\n    font-size: clamp(42px, 7.5vw, 92px);\n    line-height: 1.02;\n    text-wrap: balance;\n    letter-spacing: -2.5px;\n    margin-bottom: 24px;\n    background: linear-gradient(135deg, #a855f7 0%, #06b6d4 50%, #ec4899 100%);\n    -webkit-background-clip: text;\n    background-clip: text;\n    -webkit-text-fill-color: transparent;\n    animation: fadeUp 1s ease-out 0.15s backwards;\n  }\n  .sub {\n    font-size: clamp(17px, 2vw, 22px);\n    color: #94a3b8;\n    max-width: 620px;\n    margin: 0 auto 40px;\n    line-height: 1.6;\n    text-wrap: pretty;\n    animation: fadeUp 1s ease-out 0.3s backwards;\n  }\n  .ctas { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; animation: fadeUp 1s ease-out 0.45s backwards; }\n  .btn { padding: 16px 32px; border-radius: 12px; font-weight: 700; font-size: 15px; text-decoration: none; transition: transform 0.2s; position: relative; display: inline-flex; align-items: center; gap: 8px; }\n  .btn-primary {\n    background: linear-gradient(135deg, #a855f7, #ec4899);\n    color: white;\n    box-shadow: 0 20px 45px rgba(168,85,247,0.4);\n  }\n  .btn-primary::before {\n    content: '';\n    position: absolute; inset: -3px;\n    background: linear-gradient(135deg, #a855f7, #06b6d4, #ec4899);\n    border-radius: 15px;\n    z-index: -1;\n    filter: blur(16px);\n    opacity: 0;\n    transition: opacity 0.3s;\n  }\n  .btn-primary:hover { transform: translateY(-3px); }\n  .btn-primary:hover::before { opacity: 0.9; }\n  .btn-outline {\n    background: rgba(255,255,255,0.04);\n    color: white;\n    border: 1px solid rgba(255,255,255,0.15);\n    backdrop-filter: blur(10px);\n  }\n  .btn-outline:hover { background: rgba(255,255,255,0.1); border-color: #a855f7; }\n  @keyframes fadeUp {\n    from { opacity: 0; transform: translateY(30px); }\n    to { opacity: 1; transform: translateY(0); }\n  }\n</style>\n</head>\n<body>\n  <section class=\"hero\">\n    <div class=\"content\">\n      <div class=\"eyebrow\"><span class=\"dot\"></span>Available for internships</div>\n      <h1>Ishaan Rao<br>Building the Modern Web</h1>\n      <p class=\"sub\">I am a 17-year-old developer from Bangalore who ships fast, beautiful products. Currently learning AI and looking for my first real role.</p>\n      <div class=\"ctas\">\n        <a href=\"#\" class=\"btn btn-primary\">View My Work</a>\n        <a href=\"#\" class=\"btn btn-outline\">Download Resume</a>\n      </div>\n    </div>\n  </section>\n</body>\n</html>"
+      }
+    ]
+  }
+}

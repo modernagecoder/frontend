@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS - Styling the Web - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn what CSS is, how it works with HTML, and the three ways to add CSS: inline, internal, and external.">
+    <meta name="keywords" content="introduction to css - styling the web, html and css tutorial, html and css introduction to css - styling the web, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/introduction-to-css">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/introduction-to-css">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/introduction-to-css">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/introduction-to-css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/introduction-to-css">
+    <meta property="og:title" content="Introduction to CSS - Styling the Web - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Learn what CSS is, how it works with HTML, and the three ways to add CSS: inline, internal, and external.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/introduction-to-css">
+    <meta name="twitter:title" content="Introduction to CSS - Styling the Web - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Learn what CSS is, how it works with HTML, and the three ways to add CSS: inline, internal, and external.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Introduction to CSS - Styling the Web",
+    "description": "Learn what CSS is, how it works with HTML, and the three ways to add CSS: inline, internal, and external.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/introduction-to-css"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/introduction-to-css"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Introduction to CSS - Styling the Web",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/introduction-to-css"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting the Semicolon at the End of a Property",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every CSS property must end with a semicolon. Missing one breaks the parser. Some browsers are forgiving and apply the first value but ignore everything after. Always add a semicolon — it is one tiny character that saves you hours of debugging."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using = Instead of : in CSS",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CSS uses a colon <code>:</code> between the property and value, not an equal sign. If you use <code>=</code>, the browser does not understand the rule and ignores it completely."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting to Link the External CSS File",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Having a CSS file in your folder is not enough. You must link it with <code>&lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;</code> inside the head. Without this tag, the browser never loads your CSS."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrong Path to the CSS File",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>href</code> must be the correct path to the CSS file relative to the HTML file. If your CSS is in a subfolder called <code>css</code>, the path must include that folder. Check the browser's Network tab to see if the CSS loaded."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Missing Curly Braces",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every CSS rule must wrap its properties in curly braces <code>{ }</code>. Without them, there is no rule — just random text. The browser ignores it completely."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Introduction to CSS - Styling the Web</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 9</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">22 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Introduction to CSS - Styling the Web</h1>
+            <a href="/resources/html-and-css/introduction-to-css/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is CSS?</h2><p><strong>CSS</strong> stands for <strong>Cascading Style Sheets</strong>. It is the language we use to style and design web pages. While HTML gives a website its structure (the bones), CSS gives it its look and feel (the skin, clothes, and makeup).</p><p>Look at any website you love — Instagram, YouTube, Netflix, Amazon. Every color, every font, every shadow, every animation, every layout — all of that is CSS. Without CSS, every website would look like a boring white page with blue links from 1995.</p><h3>HTML vs CSS in Simple Terms</h3><p>Imagine a house:</p><ul><li><strong>HTML</strong> is the construction — the walls, the doors, the windows, the roof.</li><li><strong>CSS</strong> is the interior design — the paint color, the curtains, the furniture, the lighting.</li></ul><p>You cannot have interior design without a house first (CSS needs HTML), but a house without design feels empty and lifeless. CSS turns plain HTML into beautiful websites.</p><h3>What Does 'Cascading' Mean?</h3><p>The 'Cascading' in CSS refers to how styles flow down and combine. Multiple style rules can apply to the same element, and CSS has a system for deciding which one wins. It is like a waterfall — styles flow from general to specific, and the most specific one takes effect. You will learn the full rules in Chapter 10.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Should You Learn CSS?</h2><h3>1. You Cannot Build Websites Without It</h3><p>HTML alone gives you a rough page. CSS gives you a real website. Every button, every card, every layout, every color you see on the web is CSS. Without it, you cannot build anything worth looking at.</p><h3>2. It Is the Language of Design on the Web</h3><p>If you want to be a web designer, frontend developer, or build your own projects, CSS is the tool that lets you make things look exactly the way you imagine. Modern CSS is incredibly powerful — you can build animations, 3D effects, responsive layouts, and beautiful designs without a single line of JavaScript.</p><h3>3. You See Results Instantly</h3><p>Change one line of CSS, save, refresh the browser, and the change appears immediately. This instant feedback makes learning CSS fun and addictive. You can experiment with colors, sizes, fonts, and layouts and see the result in real time.</p><h3>4. CSS Is Everywhere</h3><p>Whether you are building a personal blog, a mobile app, a dashboard, or a game — CSS is used to style it. Even desktop and mobile apps increasingly use CSS (through tools like Electron and React Native). Learning CSS is a skill that pays off forever.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>CSS Syntax</h3><p>A CSS rule has three parts: a <strong>selector</strong>, one or more <strong>properties</strong>, and their <strong>values</strong>. Here is the basic structure:</p><pre><code>selector {
+  property: value;
+  property: value;
+}</code></pre><p>Example:</p><pre><code>h1 {
+  color: blue;
+  font-size: 32px;
+}</code></pre><p>This says: "For every <code>&lt;h1&gt;</code> on the page, make the text color blue and the font size 32 pixels." Notice:</p><ul><li>The selector (<code>h1</code>) comes first.</li><li>Curly braces <code>{ }</code> wrap the properties.</li><li>Each property is followed by a colon <code>:</code>, then the value, then a semicolon <code>;</code>.</li><li>Always end each line with a semicolon.</li></ul><h3>The 3 Ways to Add CSS</h3><p>There are three ways to add CSS to a web page. You should know all three, but one of them is the best practice.</p><h4>1. Inline CSS (Avoid when possible)</h4><p>Inline CSS is written directly on an HTML tag using the <code>style</code> attribute:</p><pre><code>&lt;p style="color: red; font-size: 20px;"&gt;Hello&lt;/p&gt;</code></pre><p>Inline CSS only affects that one specific element. It is quick for small tweaks but terrible for maintenance — if you want to change the color of all paragraphs, you have to edit every single one.</p><h4>2. Internal CSS (OK for small pages)</h4><p>Internal CSS is written inside a <code>&lt;style&gt;</code> tag inside the <code>&lt;head&gt;</code> of the HTML:</p><pre><code>&lt;head&gt;
+  &lt;style&gt;
+    p { color: red; font-size: 20px; }
+  &lt;/style&gt;
+&lt;/head&gt;</code></pre><p>This styles all paragraphs on this one page. Good for simple, single-page experiments. But if you have multiple pages, you would have to copy the same style block to every one.</p><h4>3. External CSS (Best practice)</h4><p>External CSS is written in a separate <code>.css</code> file and linked to the HTML with a <code>&lt;link&gt;</code> tag in the head:</p><pre><code>&lt;!-- index.html --&gt;
+&lt;head&gt;
+  &lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;
+
+/* styles.css */
+p {
+  color: red;
+  font-size: 20px;
+}</code></pre><p><strong>This is the right way to do it 99% of the time.</strong> One CSS file can style hundreds of pages. Change one line, and every page updates. It keeps HTML clean and CSS reusable. Pros use external CSS.</p><h3>Your First Styling Example</h3><p>Let us change the color and font of a page. Starting HTML:</p><pre><code>&lt;h1&gt;Welcome to My Site&lt;/h1&gt;
+&lt;p&gt;This is my first styled page.&lt;/p&gt;</code></pre><p>Now add this CSS:</p><pre><code>body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #3498db;
+  text-align: center;
+}
+
+p {
+  color: #333;
+  font-size: 18px;
+}</code></pre><p>The body gets a light grey background and Arial font. The h1 becomes blue and centered. Paragraphs are dark grey and 18 pixels. Three selectors, six properties, complete transformation.</p><h3>How the Cascade Works</h3><p>When multiple CSS rules apply to the same element, CSS has to decide which one wins. This is the <strong>cascade</strong>. The rules (simplified):</p><ol><li><strong>Specificity:</strong> more specific selectors win. An ID beats a class, and a class beats a tag.</li><li><strong>Order:</strong> if two rules have the same specificity, the one that comes later wins.</li><li><strong>Source:</strong> inline CSS beats internal CSS, and internal CSS beats external CSS (for the same specificity).</li></ol><p>You will learn all the details in Chapter 10. For now, just know that if two rules conflict, CSS has a system to pick the winner.</p><h3>CSS Comments</h3><p>You can add notes to your CSS using comments. Comments start with <code>/*</code> and end with <code>*/</code>:</p><pre><code>/* This is a comment */
+h1 {
+  color: red; /* Make the heading red */
+}
+
+/*
+  Multi-line comments
+  work too!
+*/</code></pre><p>Comments are ignored by the browser. They help you and other developers understand your code.</p><h3>Specificity Basics</h3><p>Specificity is how CSS decides which rule applies when multiple rules target the same element. A simple version:</p><ul><li><strong>Element selector</strong> (like <code>p</code>) — specificity of 1.</li><li><strong>Class selector</strong> (like <code>.big</code>) — specificity of 10.</li><li><strong>ID selector</strong> (like <code>#main</code>) — specificity of 100.</li><li><strong>Inline style</strong> — specificity of 1000.</li></ul><p>So if you have <code>p { color: red; }</code> and <code>.note { color: blue; }</code> and both apply to the same paragraph, the class wins because 10 &gt; 1. You will learn much more about this in Chapter 10.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Inline CSS — Style Directly on the Element</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Inline CSS Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1 style=&quot;color: blue; text-align: center;&quot;&gt;Hello, Aarav!&lt;/h1&gt;
+  &lt;p style=&quot;color: green; font-size: 20px;&quot;&gt;This paragraph is styled with inline CSS.&lt;/p&gt;
+  &lt;p style=&quot;color: red;&quot;&gt;This one is red.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Each element has a <code>style</code> attribute with CSS written directly inside. Notice that each element needs its OWN style attribute — there is no sharing. This is the quickest way to test a quick change, but it gets messy fast on real pages. Save as <code>inline.html</code> and open it.</div><div class="code-example-output">A centered blue heading &#39;Hello, Aarav!&#39;, a green paragraph, and a red paragraph.</div></div>
+<div class="code-example"><div class="code-example-title">Internal CSS — Style Inside the Head</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Internal CSS Example&lt;/title&gt;
+  &lt;style&gt;
+    body {
+      background-color: #f0f8ff;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: #e74c3c;
+      text-align: center;
+    }
+    p {
+      color: #2c3e50;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Priya&#39;s First Styled Page&lt;/h1&gt;
+  &lt;p&gt;Welcome! This entire page is styled using internal CSS inside the head of the document.&lt;/p&gt;
+  &lt;p&gt;All paragraphs share the same styles automatically — no need to repeat.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The CSS goes inside a <code>&lt;style&gt;</code> tag in the <code>&lt;head&gt;</code>. Three selectors style the entire body, all h1 elements, and all p elements. Notice how much cleaner this is compared to inline CSS — one rule styles every paragraph. Save as <code>internal.html</code>.</div><div class="code-example-output">A page with a light blue background, a red centered heading, and dark grey paragraphs in Arial font.</div></div>
+<div class="code-example"><div class="code-example-title">External CSS — The Best Practice Way</div><pre><code class="language-python">&lt;!-- File: index.html --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;External CSS Example&lt;/title&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Rohan&#39;s Portfolio&lt;/h1&gt;
+  &lt;p&gt;This page uses an external CSS file called styles.css.&lt;/p&gt;
+  &lt;p&gt;Every page that links to this file will share the same styles.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!-- File: styles.css (save this in the same folder) --&gt;
+&lt;!-- 
+body {
+  background-color: #1a1a2e;
+  color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+h1 {
+  color: #ffa500;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+--&gt;</code></pre><div class="code-example-explanation">External CSS requires two files: <code>index.html</code> and <code>styles.css</code>. Save them in the same folder. The <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code> tag connects them. Now you can link the same styles.css to 100 different HTML pages. Change one line, update 100 pages. This is how real websites work. The CSS file content is shown in the comment at the bottom — you should save that as a separate file.</div><div class="code-example-output">A dark-themed page with an orange heading and white paragraphs, with all styles loaded from an external file.</div></div>
+<div class="code-example"><div class="code-example-title">CSS Syntax — Selectors, Properties, Values</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;CSS Syntax&lt;/title&gt;
+  &lt;style&gt;
+    /* Selector: body */
+    /* Properties: background-color, color, margin */
+    body {
+      background-color: #fafafa;
+      color: #333;
+      margin: 20px;
+    }
+
+    /* Selector: h2 */
+    h2 {
+      color: #8e44ad;  /* Purple */
+      border-bottom: 2px solid #8e44ad;
+      padding-bottom: 5px;
+    }
+
+    /* Selector: p */
+    p {
+      font-family: Georgia, serif;
+      line-height: 1.6;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Understanding CSS Syntax&lt;/h2&gt;
+  &lt;p&gt;Every CSS rule has three parts: a selector (like &lt;code&gt;h2&lt;/code&gt;), properties (like &lt;code&gt;color&lt;/code&gt;), and values (like &lt;code&gt;#8e44ad&lt;/code&gt;).&lt;/p&gt;
+  &lt;p&gt;Comments are wrapped in slash-star and star-slash. They are ignored by the browser.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This example shows the basic syntax with clear comments. Each rule targets an element (body, h2, p), and each property-value pair ends with a semicolon. Comments (/* like this */) are just notes for the developer — the browser ignores them. Save as <code>syntax.html</code>.</div><div class="code-example-output">A page with a grey body, a purple underlined h2, and Georgia-font paragraphs.</div></div>
+<div class="code-example"><div class="code-example-title">Styling a Page with Blue Background and White Text</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My Styled Page&lt;/title&gt;
+  &lt;style&gt;
+    body {
+      background-color: #2980b9;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 20px;
+      max-width: 500px;
+      margin: 10px auto;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Welcome, Ananya!&lt;/h1&gt;
+  &lt;p&gt;This page has a blue background and white text — styled entirely with CSS.&lt;/p&gt;
+  &lt;p&gt;Notice how centered and clean it looks with just a few lines of code.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A complete styled page. The <code>body</code> selector applies the background and text color to everything. <code>h1</code> gets a big font. <code>p</code> gets a readable size with auto margins for centering. This is the kind of thing you can build in 5 minutes with CSS.</div><div class="code-example-output">A fully blue page with a big white centered heading and two white centered paragraphs.</div></div>
+<div class="code-example"><div class="code-example-title">Multiple Selectors Working Together</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Multiple Selectors&lt;/title&gt;
+  &lt;style&gt;
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff5e6;
+      padding: 30px;
+    }
+
+    /* Multiple selectors can share styles */
+    h1, h2, h3 {
+      color: #d2691e;
+      text-align: center;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.7;
+    }
+
+    /* You can style links too */
+    a {
+      color: #ff4500;
+      text-decoration: none;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Vikram&#39;s Cookbook&lt;/h1&gt;
+  &lt;h2&gt;Masala Chai Recipe&lt;/h2&gt;
+  &lt;p&gt;This is the best chai you will ever make.&lt;/p&gt;
+  &lt;h3&gt;Ingredients&lt;/h3&gt;
+  &lt;p&gt;Water, milk, sugar, tea leaves, ginger, cardamom.&lt;/p&gt;
+  &lt;p&gt;For more, &lt;a href=&quot;#&quot;&gt;click here&lt;/a&gt;.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">You can apply the same styles to multiple selectors by separating them with commas. <code>h1, h2, h3</code> means "all h1, h2, and h3 elements get these styles". This is much cleaner than writing the same styles three times. You can also target tags like <code>a</code> for links, <code>button</code>, <code>li</code>, and so on.</div><div class="code-example-output">A warm-colored page with orange-brown centered headings, dark grey body text, and an orange link.</div></div>
+<div class="code-example"><div class="code-example-title">Combining Inline, Internal, and External CSS</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Combining CSS Methods&lt;/title&gt;
+  &lt;!-- Imagine an external CSS file is also linked here --&gt;
+  &lt;style&gt;
+    /* Internal CSS */
+    body { background-color: #eee; font-family: Arial; }
+    p { color: green; font-size: 18px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Cascade Demo&lt;/h1&gt;
+  &lt;p&gt;This paragraph is green (from internal CSS).&lt;/p&gt;
+  &lt;p style=&quot;color: red;&quot;&gt;This paragraph is RED because inline CSS wins over internal CSS.&lt;/p&gt;
+  &lt;p&gt;This one is green again (back to internal CSS rule).&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This example demonstrates the cascade. The internal CSS says all paragraphs should be green. But the middle paragraph has an inline <code>style="color: red;"</code> that overrides the green because inline CSS has higher specificity. This is the cascade in action — rules from different sources combine, and the most specific one wins.</div><div class="code-example-output">Three paragraphs: two green and the middle one red. The red one overrode the green from the internal CSS.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting the Semicolon at the End of a Property</h3>
+                <div class="wrong-code"><pre><code class="language-python">p {
+  color: blue
+  font-size: 18px;
+}</code></pre></div><div class="error-message">Only the semicolon-less property may still work, but the line after it breaks. Here, font-size gets ignored.</div><div class="correct-code"><pre><code class="language-python">p {
+  color: blue;
+  font-size: 18px;
+}</code></pre></div><div class="mistake-explanation">Every CSS property must end with a semicolon. Missing one breaks the parser. Some browsers are forgiving and apply the first value but ignore everything after. Always add a semicolon — it is one tiny character that saves you hours of debugging.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using = Instead of : in CSS</h3>
+                <div class="wrong-code"><pre><code class="language-python">h1 {
+  color = red;
+}</code></pre></div><div class="error-message">The entire rule is ignored. CSS uses colons, not equal signs.</div><div class="correct-code"><pre><code class="language-python">h1 {
+  color: red;
+}</code></pre></div><div class="mistake-explanation">CSS uses a colon <code>:</code> between the property and value, not an equal sign. If you use <code>=</code>, the browser does not understand the rule and ignores it completely.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting to Link the External CSS File</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;!-- index.html --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div><div class="error-message">The CSS file exists but is not linked. None of the styles apply.</div><div class="correct-code"><pre><code class="language-python">&lt;!-- index.html --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My Page&lt;/title&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div><div class="mistake-explanation">Having a CSS file in your folder is not enough. You must link it with <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code> inside the head. Without this tag, the browser never loads your CSS.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrong Path to the CSS File</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;!-- File is in css/styles.css --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;</code></pre></div><div class="error-message">404 — file not found. The path is wrong.</div><div class="correct-code"><pre><code class="language-python">&lt;link rel=&quot;stylesheet&quot; href=&quot;css/styles.css&quot;&gt;</code></pre></div><div class="mistake-explanation">The <code>href</code> must be the correct path to the CSS file relative to the HTML file. If your CSS is in a subfolder called <code>css</code>, the path must include that folder. Check the browser's Network tab to see if the CSS loaded.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Missing Curly Braces</h3>
+                <div class="wrong-code"><pre><code class="language-python">h1
+  color: blue;
+  font-size: 24px;</code></pre></div><div class="error-message">The CSS has no rule — none of it applies.</div><div class="correct-code"><pre><code class="language-python">h1 {
+  color: blue;
+  font-size: 24px;
+}</code></pre></div><div class="mistake-explanation">Every CSS rule must wrap its properties in curly braces <code>{ }</code>. Without them, there is no rule — just random text. The browser ignores it completely.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>CSS stands for Cascading Style Sheets. It is the language used to style HTML pages with colors, fonts, spacing, and layouts.</li>
+<li>HTML gives websites their structure. CSS gives them their appearance. Both are needed to build a real website.</li>
+<li>There are 3 ways to add CSS: inline (on the tag with style=&quot;&quot;), internal (inside a &lt;style&gt; tag in the head), and external (a separate .css file linked with &lt;link&gt;).</li>
+<li>External CSS is the best practice. One CSS file can style hundreds of pages. Change one line, update every page.</li>
+<li>CSS syntax: selector { property: value; property: value; }. The selector picks the element, properties describe what to change, and values set how it looks.</li>
+<li>Always end each property with a semicolon. Missing semicolons break the rules that follow them.</li>
+<li>CSS comments use /* and */. They are ignored by the browser but help you and other developers understand the code.</li>
+<li>The cascade is the system CSS uses to pick which rule wins when multiple rules apply. Rules depend on specificity, order, and source.</li>
+<li>Specificity basics: inline (1000) &gt; ID (100) &gt; class (10) &gt; element (1). A more specific selector overrides a less specific one.</li>
+<li>You can apply the same styles to multiple selectors by separating them with commas: h1, h2, h3 { color: red; }.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/css-selectors-and-specificity" class="related-topic-link">CSS Selectors and Specificity</a>
+<a href="/resources/html-and-css/semantic-html" class="related-topic-link">Semantic HTML - header, nav, main, section, article, footer</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/semantic-html" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Semantic HTML - header, nav, main, section, article, footer</span>
+        </a>
+            <a href="/resources/html-and-css/css-selectors-and-specificity" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">CSS Selectors and Specificity</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/introduction-to-css/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

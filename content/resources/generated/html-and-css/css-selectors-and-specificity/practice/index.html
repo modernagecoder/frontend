@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - CSS Selectors and Specificity | HTML and CSS | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="58+ practice questions on CSS Selectors and Specificity in HTML and CSS. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="css selectors and specificity practice, html and css questions, html and css practice problems, css selectors and specificity exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/css-selectors-and-specificity/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/css-selectors-and-specificity/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/css-selectors-and-specificity/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/css-selectors-and-specificity/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/css-selectors-and-specificity/practice">
+    <meta property="og:title" content="Practice Questions - CSS Selectors and Specificity | HTML and CSS | Modern Age Coders">
+    <meta property="og:description" content="58+ practice questions on CSS Selectors and Specificity in HTML and CSS. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/css-selectors-and-specificity/practice">
+    <meta name="twitter:title" content="Practice Questions - CSS Selectors and Specificity | HTML and CSS | Modern Age Coders">
+    <meta name="twitter:description" content="58+ practice questions on CSS Selectors and Specificity in HTML and CSS. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - CSS Selectors and Specificity",
+    "description": "58+ practice questions on CSS Selectors and Specificity in HTML and CSS.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "CSS Selectors and Specificity"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/css-selectors-and-specificity/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "CSS Selectors and Specificity",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/css-selectors-and-specificity"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/css-selectors-and-specificity/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css/css-selectors-and-specificity">CSS Selectors and Specificity</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 10</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">58 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; CSS Selectors and Specificity</h1>
+            <a href="/resources/html-and-css/css-selectors-and-specificity" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">19</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">16</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which selector targets all paragraphs?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Use the tag name.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>p</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which symbol starts a class selector?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Dot.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>.</code> (period)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which symbol starts an ID selector?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Hash.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>#</code> (hash)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write CSS to make all elements with class 'danger' red.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Use .danger.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><pre><code>.danger {
+  color: red;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write CSS to style the element with id 'header' with a blue background.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Use #header.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><pre><code>#header {
+  background-color: blue;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which has higher specificity: <code>p</code> or <code>.note</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Classes beat elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>.note</code> (class specificity 10 > element specificity 1).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which selector matches every element on the page?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">An asterisk.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>*</code> (universal selector)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write CSS to remove the margin and padding from every element on the page.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Use the universal selector.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><pre><code>* {
+  margin: 0;
+  padding: 0;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>ul li</code> mean?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Space is the descendant selector.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">Every <code>&lt;li&gt;</code> that is inside a <code>&lt;ul&gt;</code>, at any depth.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between <code>ul li</code> and <code>ul &gt; li</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Child vs descendant.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>ul li</code> matches all li inside ul at any depth. <code>ul &gt; li</code> matches only DIRECT li children of ul.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write CSS to style all paragraphs inside articles with a grey color.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Use descendant selector.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><pre><code>article p {
+  color: grey;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the specificity of <code>#main</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">IDs are 100.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">100</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why does this CSS not style the element?<br><pre><code>highlight {
+  color: yellow;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Missing symbol.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">Missing dot. Should be <code>.highlight { color: yellow; }</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write CSS to group h1, h2, and h3 and give them all a red color.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Use commas.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><pre><code>h1, h2, h3 {
+  color: red;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does <code>h1 + p</code> match?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Adjacent sibling.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">The first <code>&lt;p&gt;</code> element that comes immediately after an <code>&lt;h1&gt;</code>, sharing the same parent.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does <code>h1 ~ p</code> match?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">General sibling.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">Every <code>&lt;p&gt;</code> that comes after an <code>&lt;h1&gt;</code>, sharing the same parent (not just the first one).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write CSS to target only the <code>li</code> elements that are direct children of <code>nav</code> (not nested ones).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Use the child combinator.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><pre><code>nav &gt; li {
+  color: blue;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Which of these has higher specificity: <code>#main</code> or <code>.btn.large</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">ID is 100; two classes are 20.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>#main</code> (100 > 20).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a complete HTML page where every other list item has a grey background using nth-child.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Use li:nth-child(even).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  li:nth-child(even) {
+    background-color: lightgrey;
+  }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;ul&gt;
+    &lt;li&gt;One&lt;/li&gt;
+    &lt;li&gt;Two&lt;/li&gt;
+    &lt;li&gt;Three&lt;/li&gt;
+    &lt;li&gt;Four&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given <code>.red { color: red; }</code> and <code>p { color: blue; }</code>, what color is <code>&lt;p class="red"&gt;Text&lt;/p&gt;</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Class wins over element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20">Red. The class (10) beats the element (1).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write CSS using attribute selector to make all email inputs have a green border.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">Use [type="email"].</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21"><pre><code>input[type="email"] {
+  border: 2px solid green;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Priya's CSS does not work. Why?<br><pre><code>ul > li li {
+  color: red;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">Actually, it might work — analyse it.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22">The CSS is valid. It targets every li that is a descendant of a direct li child of ul. So it styles nested li elements.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write CSS targeting the first li in a list using the :first-child pseudo-class.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-23">Use li:first-child.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-23"><pre><code>li:first-child {
+  font-weight: bold;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 24</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the specificity of <code>#main .card p</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-24" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-24">Add up: 100 + 10 + 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-24">111</div></div>
+<div class="question-card">
+                <div class="question-number">Question 25</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Build a complete HTML page where links to PDFs show in bold red with a 'PDF' label automatically. Use an attribute selector.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-25" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-25">Use a[href$=".pdf"].</div><button type="button" class="collapsible-toggle" data-target="answer-ts-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-25"><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  a[href$=".pdf"] {
+    color: red;
+    font-weight: bold;
+  }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;&lt;a href="https://example.com"&gt;Regular link&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href="document.pdf"&gt;Download PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 26</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given: <code>p { color: red; } p.note { color: blue; } #special { color: green; }</code>. What color is <code>&lt;p id="special" class="note"&gt;Text&lt;/p&gt;</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-26" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-26">Compute specificity for each.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-26" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-26">Green. #special has specificity 100, p.note has 11, p has 1. #special wins.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 27</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write CSS to target every third item in a list using nth-child.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-27" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-27">Use 3n.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-27" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-27"><pre><code>li:nth-child(3n) {
+  color: purple;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 28</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">The text should be green, but it shows red. Why?<br><pre><code>&lt;style&gt;
+  .note { color: green; }
+&lt;/style&gt;
+&lt;p class="note" style="color: red;"&gt;Text&lt;/p&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-28" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-28">Inline CSS.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-28" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-28">Inline styles have specificity 1000, which beats the class's 10. Inline CSS wins.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does the universal selector * target?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Everything.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">Every element on the page.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a class selector to make all elements with class 'big' have a 24px font size.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Start with a dot.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><pre><code>.big {
+  font-size: 24px;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Can multiple elements share the same class?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Yes.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">Yes, classes are designed to be reused on many elements.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Can multiple elements share the same ID?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">No.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4">No, IDs must be unique on a page.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why is this class selector wrong?<br><pre><code>#highlight { color: yellow; }</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Wrong symbol.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">If highlight is a class, use <code>.highlight</code> with a dot, not <code>#</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write CSS to style all elements with class 'card' AND also have the class 'featured'.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Chain the class selectors without a space.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>.card.featured {
+  border: 3px solid gold;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the specificity of <code>.btn.large</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Two classes.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">20</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a CSS rule to target all buttons that have the 'disabled' attribute.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Use [disabled].</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><pre><code>button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does <code>a[href^="https"]</code> match?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">^ means starts with.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">All <code>&lt;a&gt;</code> tags whose href attribute starts with 'https'.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">The second-level list items are also being styled, but Aarav only wants the top-level ones. Fix:<br><pre><code>.menu li { color: red; }</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Change descendant to child.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">Use <code>.menu &gt; li</code> to target only direct children.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a complete HTML page styling the first letter of a paragraph in red with a bigger font. Use ::first-letter pseudo-element.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Use p::first-letter.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  p::first-letter {
+    color: red;
+    font-size: 32px;
+    font-weight: bold;
+  }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;This paragraph has a fancy first letter.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given: <code>p { color: red !important; } #id p { color: blue; }</code>. What wins?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">!important trumps specificity.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">Red wins because !important overrides specificity.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Build a complete HTML page with a styled nav menu where only the FIRST link is blue (use :first-child).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Use li:first-child a.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  nav ul { list-style: none; display: flex; gap: 20px; }
+  nav li:first-child a { color: blue; font-weight: bold; }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;nav&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/about"&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the specificity of <code>body #main .card p.bold</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">Count each type: 1 element + 1 ID + 2 classes + 1 element.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14">112 (1 element + 100 ID + 10 class + 10 class + 1 element).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Aarav adds a class to override a style but it does not work. Fix:<br><pre><code>&lt;style&gt;
+  #main p { color: red; }
+  .override { color: blue; }
+&lt;/style&gt;
+&lt;div id="main"&gt;
+  &lt;p class="override"&gt;Text&lt;/p&gt;
+&lt;/div&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-15">ID has higher specificity.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-15">#main p has specificity 101, .override has 10. The ID wins. To fix, use #main p.override or add more specificity.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which symbol starts a class selector?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> #</li><li><span class="mcq-option-label">B.</span> .</li><li><span class="mcq-option-label">C.</span> @</li><li><span class="mcq-option-label">D.</span> $</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> Class selectors start with a dot: <code>.classname</code>. The # is for IDs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which symbol starts an ID selector?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> .</li><li><span class="mcq-option-label">B.</span> #</li><li><span class="mcq-option-label">C.</span> *</li><li><span class="mcq-option-label">D.</span> @</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> ID selectors start with a hash: <code>#idname</code>. The . is for classes.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does the universal selector * do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Targets the first element only</li><li><span class="mcq-option-label">B.</span> Targets all elements on the page</li><li><span class="mcq-option-label">C.</span> Targets all classes</li><li><span class="mcq-option-label">D.</span> Targets all IDs</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> The asterisk matches every element. Used in CSS resets to clear default margins and padding.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which has higher specificity: a class or an element selector?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Element</li><li><span class="mcq-option-label">B.</span> Class</li><li><span class="mcq-option-label">C.</span> They are the same</li><li><span class="mcq-option-label">D.</span> Depends on the browser</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> Classes have specificity 10, elements have specificity 1. Classes win when both apply.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does <code>ul li</code> target?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only the first li in ul</li><li><span class="mcq-option-label">B.</span> All li inside ul at any depth</li><li><span class="mcq-option-label">C.</span> Only direct li children of ul</li><li><span class="mcq-option-label">D.</span> All ul elements</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> The space is the descendant selector, matching elements at any depth inside their ancestor.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does <code>ul &gt; li</code> target?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> All li inside ul</li><li><span class="mcq-option-label">B.</span> Only direct li children of ul</li><li><span class="mcq-option-label">C.</span> The first li</li><li><span class="mcq-option-label">D.</span> The last li</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> The > combinator means 'direct child only'. Nested li elements are not matched.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">How do you group selectors to share the same rule?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> With a period</li><li><span class="mcq-option-label">B.</span> With a semicolon</li><li><span class="mcq-option-label">C.</span> With a comma</li><li><span class="mcq-option-label">D.</span> With a plus</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> Commas group selectors: <code>h1, h2, h3 { color: red; }</code></div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Can multiple HTML elements share the same ID?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes</li><li><span class="mcq-option-label">B.</span> No - IDs must be unique per page</li><li><span class="mcq-option-label">C.</span> Only in the head</li><li><span class="mcq-option-label">D.</span> Only with a special attribute</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> IDs are meant to be unique. If you need to target multiple elements, use a class instead.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the specificity of an element selector like <code>p</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> 1</li><li><span class="mcq-option-label">C.</span> 10</li><li><span class="mcq-option-label">D.</span> 100</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> Element selectors have specificity 1. Classes are 10, IDs are 100, inline is 1000.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is the specificity of a class selector like <code>.btn</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1</li><li><span class="mcq-option-label">B.</span> 10</li><li><span class="mcq-option-label">C.</span> 100</li><li><span class="mcq-option-label">D.</span> 1000</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Classes, attributes, and pseudo-classes all have specificity 10.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the specificity of an ID selector like <code>#main</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1</li><li><span class="mcq-option-label">B.</span> 10</li><li><span class="mcq-option-label">C.</span> 100</li><li><span class="mcq-option-label">D.</span> 1000</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> ID selectors have specificity 100. Only inline styles and !important can normally override them.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Which selector targets all input elements with type='email'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> input.email</li><li><span class="mcq-option-label">B.</span> input#email</li><li><span class="mcq-option-label">C.</span> input[type=&#39;email&#39;]</li><li><span class="mcq-option-label">D.</span> input:email</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> Attribute selectors use square brackets: <code>input[type='email']</code></div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does <code>h1 + p</code> select?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> All paragraphs</li><li><span class="mcq-option-label">B.</span> The first paragraph inside h1</li><li><span class="mcq-option-label">C.</span> The paragraph immediately after h1</li><li><span class="mcq-option-label">D.</span> Every paragraph after h1</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> The + is the adjacent sibling combinator. It matches the FIRST p immediately after each h1.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does <code>h1 ~ p</code> select?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The first paragraph after h1</li><li><span class="mcq-option-label">B.</span> All paragraphs after h1 (sharing the same parent)</li><li><span class="mcq-option-label">C.</span> All paragraphs inside h1</li><li><span class="mcq-option-label">D.</span> Paragraphs and h1 together</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> The ~ is the general sibling combinator. It matches every p that comes after an h1 (same parent).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which has higher specificity: <code>.btn</code> or <code>button</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> button</li><li><span class="mcq-option-label">B.</span> .btn</li><li><span class="mcq-option-label">C.</span> They are equal</li><li><span class="mcq-option-label">D.</span> Depends on the order</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Class (10) beats element (1). <code>.btn</code> wins.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the specificity of <code>#main .card p</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 100</li><li><span class="mcq-option-label">B.</span> 111</li><li><span class="mcq-option-label">C.</span> 101</li><li><span class="mcq-option-label">D.</span> 110</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> 1 ID (100) + 1 class (10) + 1 element (1) = 111.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What does <code>li:nth-child(even)</code> target?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only the first li</li><li><span class="mcq-option-label">B.</span> Every li element</li><li><span class="mcq-option-label">C.</span> Every 2nd, 4th, 6th, etc. li</li><li><span class="mcq-option-label">D.</span> Only odd-numbered li elements</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>:nth-child(even)</code> matches even-numbered children (2nd, 4th, 6th, etc.).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Which of the following rules applies to <code>&lt;p class="red" id="special"&gt;Hi&lt;/p&gt;</code>: <br><code>.red { color: red; }</code> <br><code>#special { color: blue; }</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The paragraph is red</li><li><span class="mcq-option-label">B.</span> The paragraph is blue</li><li><span class="mcq-option-label">C.</span> Both apply equally</li><li><span class="mcq-option-label">D.</span> Neither applies</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> #special has specificity 100, .red has 10. The ID wins. Blue paragraph.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">What does <code>a[href^="https"]</code> target?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Any link with https</li><li><span class="mcq-option-label">B.</span> Links whose href STARTS with &#39;https&#39;</li><li><span class="mcq-option-label">C.</span> Links whose href ENDS with &#39;https&#39;</li><li><span class="mcq-option-label">D.</span> Links that contain https anywhere</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>^=</code> means 'starts with'. Use <code>$=</code> for 'ends with' and <code>*=</code> for 'contains'.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">What is the specificity of an inline style?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10</li><li><span class="mcq-option-label">B.</span> 100</li><li><span class="mcq-option-label">C.</span> 1000</li><li><span class="mcq-option-label">D.</span> Infinity</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: C</strong><br><strong>C is correct.</strong> Inline styles have specificity 1000. Only !important can override them.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 21</div>
+                <div class="question-text">Which statement about !important is TRUE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It has no effect on specificity</li><li><span class="mcq-option-label">B.</span> It overrides normal specificity and should be used often</li><li><span class="mcq-option-label">C.</span> It overrides normal specificity but should be avoided</li><li><span class="mcq-option-label">D.</span> It only works in Internet Explorer</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-21"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>!important</code> overrides normal specificity, but overusing it leads to unmaintainable CSS. Use proper specificity instead.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 22</div>
+                <div class="question-text">When two CSS rules have the same specificity, which wins?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The first one declared</li><li><span class="mcq-option-label">B.</span> The last one declared</li><li><span class="mcq-option-label">C.</span> Neither — both apply</li><li><span class="mcq-option-label">D.</span> The browser picks randomly</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-22"><strong>Answer: B</strong><br><strong>B is correct.</strong> With equal specificity, the later rule wins. This is why order matters in CSS files.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 23</div>
+                <div class="question-text">What is the specificity of <code>.nav > li.active a</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 22</li><li><span class="mcq-option-label">B.</span> 23</li><li><span class="mcq-option-label">C.</span> 21</li><li><span class="mcq-option-label">D.</span> 30</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-23"><strong>Answer: A</strong><br><strong>A is correct.</strong> 1 class (10) + 1 element (1) + 1 class (10) + 1 element (1) = 22. Remember that > is not counted.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 24</div>
+                <div class="question-text">Which property is NOT inherited by default?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> color</li><li><span class="mcq-option-label">B.</span> font-family</li><li><span class="mcq-option-label">C.</span> margin</li><li><span class="mcq-option-label">D.</span> line-height</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-24"><strong>Answer: C</strong><br><strong>C is correct.</strong> Margin, padding, border, background — these are not inherited. Text-related properties (color, font, line-height) are inherited.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 25</div>
+                <div class="question-text">Which of the following has the HIGHEST specificity?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> #main .card p</li><li><span class="mcq-option-label">B.</span> .header .nav .item.active</li><li><span class="mcq-option-label">C.</span> html body #main section article p</li><li><span class="mcq-option-label">D.</span> Inline style</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-25"><strong>Answer: D</strong><br><strong>D is correct.</strong> Inline styles have specificity 1000, beating all the others. A has 111, B has 40, C has 105.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Class and ID Styling</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Build a page with 3 paragraphs. One uses id 'intro' (blue), one uses class 'warning' (red), and one has no class or id (default black).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Three paragraphs in blue, red, and black.</div>
+                </div><div class="challenge-constraints">Use both class and ID selectors. Internal CSS.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Class and ID&lt;/title&gt;
+  &lt;style&gt;
+    #intro { color: blue; font-size: 20px; }
+    .warning { color: red; font-weight: bold; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p id=&quot;intro&quot;&gt;Welcome to the page!&lt;/p&gt;
+  &lt;p class=&quot;warning&quot;&gt;Warning: Please save your work.&lt;/p&gt;
+  &lt;p&gt;This is a normal paragraph.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Descendant Selector</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Build a page with an article containing 3 paragraphs, and a separate div with 2 paragraphs. Use descendant selector to make only the paragraphs inside the article red.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Only article paragraphs are red. Div paragraphs stay default.</div>
+                </div><div class="challenge-constraints">Use &lt;code&gt;article p&lt;/code&gt; as the selector.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Descendant Selector&lt;/title&gt;
+  &lt;style&gt;
+    article p { color: red; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;article&gt;
+    &lt;p&gt;Red paragraph 1&lt;/p&gt;
+    &lt;p&gt;Red paragraph 2&lt;/p&gt;
+    &lt;p&gt;Red paragraph 3&lt;/p&gt;
+  &lt;/article&gt;
+  &lt;div&gt;
+    &lt;p&gt;Normal paragraph&lt;/p&gt;
+    &lt;p&gt;Another normal paragraph&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Zebra Stripe Table</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a table of 5 student rows (Aarav, Priya, Rohan, Ananya, Vikram) with a zebra stripe pattern using nth-child. Every other row should have a grey background.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A table with alternating white and grey rows.</div>
+                </div><div class="challenge-constraints">Use &lt;code&gt;tr:nth-child(even)&lt;/code&gt; for striping.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Zebra Table&lt;/title&gt;
+  &lt;style&gt;
+    table { border-collapse: collapse; margin: 20px; font-family: Arial; }
+    th, td { padding: 10px 15px; border: 1px solid #ccc; }
+    thead { background-color: #2c3e50; color: white; }
+    tr:nth-child(even) { background-color: #f5f5f5; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Class&lt;/th&gt;&lt;th&gt;Marks&lt;/th&gt;&lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;&lt;td&gt;Aarav&lt;/td&gt;&lt;td&gt;8A&lt;/td&gt;&lt;td&gt;92&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Priya&lt;/td&gt;&lt;td&gt;8A&lt;/td&gt;&lt;td&gt;95&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Rohan&lt;/td&gt;&lt;td&gt;8B&lt;/td&gt;&lt;td&gt;78&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Ananya&lt;/td&gt;&lt;td&gt;8A&lt;/td&gt;&lt;td&gt;88&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Vikram&lt;/td&gt;&lt;td&gt;8B&lt;/td&gt;&lt;td&gt;85&lt;/td&gt;&lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Navigation with First-child</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a horizontal navigation menu with 5 links. Use :first-child to style the first link with a highlight color, and :last-child to style the last link with a different color.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">5 nav links where the first is one color and the last is another color.</div>
+                </div><div class="challenge-constraints">Use :first-child and :last-child pseudo-classes.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Nav&lt;/title&gt;
+  &lt;style&gt;
+    nav ul { list-style: none; display: flex; gap: 20px; padding: 20px; background: #333; }
+    nav a { color: white; text-decoration: none; padding: 8px 12px; }
+    nav li:first-child a { background: #ff4081; border-radius: 5px; }
+    nav li:last-child a { background: #22c55e; border-radius: 5px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;nav&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/blog&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/work&quot;&gt;Work&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Attribute Selector for Inputs</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a form with text, email, password, and number inputs. Use attribute selectors to style each type with a different border color (blue, green, red, purple).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Four inputs with differently-colored borders based on type.</div>
+                </div><div class="challenge-constraints">Use &lt;code&gt;input[type=&#39;...&#39;]&lt;/code&gt; for each.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Attribute Selectors&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Arial; padding: 30px; }
+    label { display: block; margin-top: 10px; }
+    input { padding: 8px; font-size: 16px; }
+    input[type=&quot;text&quot;] { border: 2px solid blue; }
+    input[type=&quot;email&quot;] { border: 2px solid green; }
+    input[type=&quot;password&quot;] { border: 2px solid red; }
+    input[type=&quot;number&quot;] { border: 2px solid purple; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;form&gt;
+    &lt;label&gt;Name: &lt;input type=&quot;text&quot;&gt;&lt;/label&gt;
+    &lt;label&gt;Email: &lt;input type=&quot;email&quot;&gt;&lt;/label&gt;
+    &lt;label&gt;Password: &lt;input type=&quot;password&quot;&gt;&lt;/label&gt;
+    &lt;label&gt;Age: &lt;input type=&quot;number&quot;&gt;&lt;/label&gt;
+  &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Specificity Demo</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a page that demonstrates specificity: create one paragraph that has an ID, a class, and an inline style. Each rule specifies a different color. Show which one wins.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A paragraph where the inline style wins over the ID and class.</div>
+                </div><div class="challenge-constraints">Include 4 different color rules at different specificities. Comment each rule with its specificity score.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Specificity Demo&lt;/title&gt;
+  &lt;style&gt;
+    /* Specificity 1 */
+    p { color: black; }
+    /* Specificity 10 */
+    .note { color: green; }
+    /* Specificity 100 */
+    #special { color: purple; }
+    /* Specificity 111 */
+    p#special.note { color: orange; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Plain (black, specificity 1)&lt;/p&gt;
+  &lt;p class=&quot;note&quot;&gt;Class only (green, specificity 10)&lt;/p&gt;
+  &lt;p id=&quot;special&quot;&gt;ID only (purple, specificity 100)&lt;/p&gt;
+  &lt;p id=&quot;special&quot; class=&quot;note&quot; style=&quot;color: red;&quot;&gt;All + inline (red wins, specificity 1000)&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Advanced Selector Combo</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a blog post page. Style: (1) only the first paragraph after h1 with a larger font, (2) every link that ends with .pdf in red bold, (3) every third li in a list with a grey background.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A page showing all three selector techniques in action.</div>
+                </div><div class="challenge-constraints">Use adjacent sibling (+), attribute selector ($=), and nth-child.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Blog Post&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Arial; max-width: 700px; margin: auto; padding: 30px; }
+    h1 + p {
+      font-size: 22px;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+    a[href$=&quot;.pdf&quot;] {
+      color: red;
+      font-weight: bold;
+    }
+    li:nth-child(3n) {
+      background-color: #f0f0f0;
+      padding: 5px;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Learning CSS Selectors&lt;/h1&gt;
+  &lt;p&gt;This is the first paragraph (bold and bigger).&lt;/p&gt;
+  &lt;p&gt;This is a normal paragraph.&lt;/p&gt;
+  &lt;p&gt;Another normal paragraph.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;One&lt;/li&gt;
+    &lt;li&gt;Two&lt;/li&gt;
+    &lt;li&gt;Three (grey)&lt;/li&gt;
+    &lt;li&gt;Four&lt;/li&gt;
+    &lt;li&gt;Five&lt;/li&gt;
+    &lt;li&gt;Six (grey)&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;Download: &lt;a href=&quot;guide.pdf&quot;&gt;CSS Guide PDF&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Visit: &lt;a href=&quot;https://example.com&quot;&gt;Example Site&lt;/a&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Complete Card Grid with Variants</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a page with 6 card divs. Each card has a class 'card'. Two cards also have class 'featured'. One card has class 'premium'. Style all cards, then use chained selectors (.card.featured and .card.premium) to apply extra styles to the special ones.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A grid of 6 cards where 2 featured cards and 1 premium card look different from the rest.</div>
+                </div><div class="challenge-constraints">Use chained class selectors without space to apply to elements with multiple classes.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Card Grid&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Arial; background: #eee; padding: 20px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; max-width: 800px; margin: auto; }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      border: 2px solid #ddd;
+    }
+    .card.featured {
+      border-color: #ff4081;
+      background: #fff0f5;
+    }
+    .card.premium {
+      border-color: gold;
+      background: #fffacd;
+      box-shadow: 0 0 20px gold;
+    }
+    h3 { margin: 0 0 10px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;card&quot;&gt;&lt;h3&gt;Card 1&lt;/h3&gt;&lt;p&gt;Normal card&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;card featured&quot;&gt;&lt;h3&gt;Card 2&lt;/h3&gt;&lt;p&gt;Featured card (pink)&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;card&quot;&gt;&lt;h3&gt;Card 3&lt;/h3&gt;&lt;p&gt;Normal card&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;card premium&quot;&gt;&lt;h3&gt;Card 4&lt;/h3&gt;&lt;p&gt;Premium card (gold glow)&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;card featured&quot;&gt;&lt;h3&gt;Card 5&lt;/h3&gt;&lt;p&gt;Another featured&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;card&quot;&gt;&lt;h3&gt;Card 6&lt;/h3&gt;&lt;p&gt;Normal card&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/html-and-css/introduction-to-css/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Introduction to CSS - Styling the Web</span>
+        </a>
+            <a href="/resources/html-and-css/colors-backgrounds-and-gradients/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Colors, Backgrounds, and Gradients</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/html-and-css/css-selectors-and-specificity" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

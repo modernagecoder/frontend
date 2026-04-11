@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headings, Paragraphs, and Text Formatting - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Use h1 to h6, p, strong, em, mark, small, sub, sup, and other text tags to structure content.">
+    <meta name="keywords" content="headings, paragraphs, and text formatting, html and css tutorial, html and css headings, paragraphs, and text formatting, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/headings-paragraphs-and-text">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/headings-paragraphs-and-text">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/headings-paragraphs-and-text">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/headings-paragraphs-and-text">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/headings-paragraphs-and-text">
+    <meta property="og:title" content="Headings, Paragraphs, and Text Formatting - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Use h1 to h6, p, strong, em, mark, small, sub, sup, and other text tags to structure content.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/headings-paragraphs-and-text">
+    <meta name="twitter:title" content="Headings, Paragraphs, and Text Formatting - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Use h1 to h6, p, strong, em, mark, small, sub, sup, and other text tags to structure content.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Headings, Paragraphs, and Text Formatting",
+    "description": "Use h1 to h6, p, strong, em, mark, small, sub, sup, and other text tags to structure content.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/headings-paragraphs-and-text"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/headings-paragraphs-and-text"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Headings, Paragraphs, and Text Formatting",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/headings-paragraphs-and-text"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using Multiple h1 Tags on One Page",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every page should have only one <code>&lt;h1&gt;</code> — the main page title. Use <code>&lt;h2&gt;</code> for major sections. This helps search engines and screen readers understand that the h1 is the top-level topic."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using <br> for Paragraph Spacing",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Do not use multiple <code>&lt;br&gt;</code> tags to create spacing between paragraphs. Use proper <code>&lt;p&gt;</code> tags — browsers automatically add spacing between paragraphs. <code>&lt;br&gt;</code> is only for forced line breaks inside a single paragraph (like in a poem or address)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting to Close Entity Codes",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every HTML entity must end with a semicolon <code>;</code>. <code>&amp;copy;</code> is correct, <code>&amp;copy</code> without the semicolon may or may not work depending on the browser. Always include the semicolon."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Expecting Multiple Spaces to Show",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "HTML collapses multiple spaces, tabs, and newlines into a single space. If you need several forced spaces, use <code>&amp;nbsp;</code> multiple times. For real layout spacing, use CSS (which you will learn later)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using <b> and <i> Instead of <strong> and <em>",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> only change the look. <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code> carry semantic meaning — 'this is important' and 'stress this word'. Screen readers emphasise these when reading aloud. Always prefer <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code>."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Headings, Paragraphs, and Text Formatting</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 3</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">22 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Headings, Paragraphs, and Text Formatting</h1>
+            <a href="/resources/html-and-css/headings-paragraphs-and-text/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are HTML Text Tags?</h2><p>Words are the heart of every web page. Whether it is a blog post, a school assignment, a news article, or a product description — text is what people come to read. HTML gives you a toolbox full of tags to mark up text so it has the right meaning and appearance.</p><p>In this chapter, you will learn how to create <strong>headings</strong> (big titles), <strong>paragraphs</strong> (blocks of text), <strong>line breaks</strong> and <strong>horizontal rules</strong> (visual separators), and use <strong>formatting tags</strong> like bold, italic, highlighted, subscript, superscript, and more. You will also learn about <strong>entity codes</strong> — special codes for characters like &amp;copy; and &amp;nbsp;.</p><h3>Why Different Tags?</h3><p>You might ask: 'Why not just have one big text tag and add styles to it?' The answer is <strong>meaning</strong>. HTML tags tell the browser, screen readers, and search engines what the text <em>means</em>, not just how it looks. A <code>&lt;strong&gt;</code> tag means 'this is important', while a <code>&lt;b&gt;</code> tag just means 'make it bold'. Using the right tag makes your page more accessible and better for SEO.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn Text Tags Properly?</h2><h3>1. Structure Makes Content Readable</h3><p>A wall of text is painful to read. Headings let users scan a page quickly to find what they need. Paragraphs break text into manageable chunks. This is why every newspaper, book, and website uses headings and paragraphs.</p><h3>2. Headings Are Critical for SEO</h3><p>Google reads your headings to understand what your page is about. If you have an <code>&lt;h1&gt;</code> that says 'Learn to Bake a Chocolate Cake', Google knows that is your main topic. Use the right headings and you rank higher in search results.</p><h3>3. Accessibility</h3><p>Blind users navigate the web with screen readers that announce headings. They can press a key to jump between headings to quickly understand the page structure. If you skip heading levels or use them incorrectly, screen reader users have a frustrating experience.</p><h3>4. Semantic Meaning Over Visual Style</h3><p>HTML tags carry <strong>meaning</strong>. <code>&lt;strong&gt;</code> means 'this is important' — browsers show it as bold, but screen readers also emphasise it when reading aloud. <code>&lt;em&gt;</code> means 'stress this word' — shown as italic, also emphasised verbally. Using meaningful tags makes your content work for everyone.</p><h3>5. Professional Writing</h3><p>Any blog, documentation site, or online article uses these tags constantly. If you want to write for the web, you need to know them. Plus, they are easy to learn — you can master all the common ones in an hour.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>Headings: h1 to h6</h3><p>HTML has six heading levels, from <code>&lt;h1&gt;</code> (most important) to <code>&lt;h6&gt;</code> (least important). Browsers give each level a smaller default size.</p><ul><li><code>&lt;h1&gt;</code> — The main title. Use only ONE h1 per page. This is what the page is about.</li><li><code>&lt;h2&gt;</code> — Section titles. Use as many as needed.</li><li><code>&lt;h3&gt;</code> — Sub-section titles inside h2 sections.</li><li><code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>, <code>&lt;h6&gt;</code> — Rarely used, only for very deep hierarchies.</li></ul><p><strong>Important rule:</strong> Only one <code>&lt;h1&gt;</code> per page is the best practice for SEO. Think of it like the title of a book — a book has only one title, not ten.</p><h3>Paragraphs: &lt;p&gt;</h3><p>The <code>&lt;p&gt;</code> tag creates a paragraph. Browsers automatically add vertical space between paragraphs. Each <code>&lt;p&gt;</code> should contain one complete thought or idea. Avoid putting too much text in a single paragraph — break it up for readability.</p><h3>Line Break: &lt;br&gt;</h3><p>The <code>&lt;br&gt;</code> tag forces a line break without starting a new paragraph. It is self-closing (no closing tag needed). Use it sparingly — only when you really need a manual line break, like in a poem or an address.</p><h3>Horizontal Rule: &lt;hr&gt;</h3><p>The <code>&lt;hr&gt;</code> tag draws a horizontal line across the page to visually separate sections. It is also self-closing. Useful for dividing a page into themed sections.</p><h3>Text Formatting Tags</h3><p>HTML has many tags to format text:</p><ul><li><code>&lt;strong&gt;</code> — Important text (displays bold). Semantic.</li><li><code>&lt;em&gt;</code> — Stressed/emphasised text (displays italic). Semantic.</li><li><code>&lt;b&gt;</code> — Plain bold text (no extra meaning). Use <code>&lt;strong&gt;</code> instead for important content.</li><li><code>&lt;i&gt;</code> — Plain italic text. Use <code>&lt;em&gt;</code> instead for stressed content.</li><li><code>&lt;mark&gt;</code> — Highlighted text (yellow background by default).</li><li><code>&lt;small&gt;</code> — Smaller text, often used for fine print or side notes.</li><li><code>&lt;sub&gt;</code> — Subscript (below the line), like H<sub>2</sub>O.</li><li><code>&lt;sup&gt;</code> — Superscript (above the line), like x<sup>2</sup>.</li><li><code>&lt;del&gt;</code> — Deleted text (shown with strikethrough line).</li><li><code>&lt;ins&gt;</code> — Inserted text (shown with underline).</li><li><code>&lt;code&gt;</code> — Computer code (shown in monospace font).</li><li><code>&lt;kbd&gt;</code> — Keyboard input (like 'Press Ctrl+C').</li></ul><h3>Blockquotes</h3><p>The <code>&lt;blockquote&gt;</code> tag is for quoting a block of text from another source. Browsers usually indent blockquotes to set them apart visually. Use this for quotes longer than a line.</p><h3>HTML Entity Codes</h3><p>Some characters are special in HTML because they are part of the syntax. To show them as text, you need <strong>entity codes</strong>:</p><table><tr><th>Character</th><th>Entity Code</th><th>Use Case</th></tr><tr><td>&lt;</td><td>&amp;lt;</td><td>Less-than sign</td></tr><tr><td>&gt;</td><td>&amp;gt;</td><td>Greater-than sign</td></tr><tr><td>&amp;</td><td>&amp;amp;</td><td>Ampersand</td></tr><tr><td>&quot;</td><td>&amp;quot;</td><td>Double quote</td></tr><tr><td>&copy;</td><td>&amp;copy;</td><td>Copyright symbol</td></tr><tr><td>&nbsp;</td><td>&amp;nbsp;</td><td>Non-breaking space</td></tr><tr><td>&reg;</td><td>&amp;reg;</td><td>Registered trademark</td></tr><tr><td>&trade;</td><td>&amp;trade;</td><td>Trademark</td></tr></table><p><code>&amp;nbsp;</code> (non-breaking space) is especially useful — it creates a space that the browser will not collapse, and it prevents the text from wrapping at that point. For example, write <code>Dr.&amp;nbsp;Priya</code> to keep 'Dr.' and 'Priya' on the same line.</p><h3>How HTML Handles Whitespace</h3><p>This is a critical concept. HTML <strong>collapses whitespace</strong>. If you write:</p><pre><code>&lt;p&gt;Hello       World&lt;/p&gt;</code></pre><p>The browser shows: 'Hello World' (only one space, even though you typed many). Multiple spaces, tabs, and line breaks in your HTML source all become a single space on the page. This means you cannot use spaces to position text. For real spacing, use CSS. For forced spaces, use <code>&amp;nbsp;</code>.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">All Six Heading Levels</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Heading Levels&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Heading Level 1 - Biggest&lt;/h1&gt;
+  &lt;h2&gt;Heading Level 2&lt;/h2&gt;
+  &lt;h3&gt;Heading Level 3&lt;/h3&gt;
+  &lt;h4&gt;Heading Level 4&lt;/h4&gt;
+  &lt;h5&gt;Heading Level 5&lt;/h5&gt;
+  &lt;h6&gt;Heading Level 6 - Smallest&lt;/h6&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This example shows all six heading levels. Save it and open in a browser — you will see the headings get progressively smaller from h1 to h6. Use h1 for the main page title (only one per page), h2 for major sections, and h3 for subsections. h4, h5, and h6 are rarely needed.</div><div class="code-example-output">Six headings of decreasing size, from large &#39;Heading Level 1&#39; to small &#39;Heading Level 6&#39;.</div></div>
+<div class="code-example"><div class="code-example-title">A Recipe With Heading and Subheading</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Chocolate Cake Recipe&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Chocolate Cake&lt;/h1&gt;
+  &lt;h2&gt;Made in Just 30 Minutes&lt;/h2&gt;
+  &lt;p&gt;This is a &lt;strong&gt;simple&lt;/strong&gt; and &lt;em&gt;delicious&lt;/em&gt; chocolate cake recipe that anyone can make at home.&lt;/p&gt;
+  &lt;h3&gt;Ingredients&lt;/h3&gt;
+  &lt;p&gt;You will need flour, cocoa powder, sugar, eggs, butter, and milk. All of these are usually available at any local grocery store.&lt;/p&gt;
+  &lt;h3&gt;Steps&lt;/h3&gt;
+  &lt;p&gt;Mix all the ingredients in a bowl, pour into a baking tray, and bake for 25 minutes. Let it cool before serving.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A recipe page uses a clear heading hierarchy: h1 for the recipe name (main topic), h2 for a subtitle, and h3 for the Ingredients and Steps sub-sections. The paragraph uses <code>&lt;strong&gt;</code> to emphasise 'simple' and <code>&lt;em&gt;</code> to stress 'delicious'.</div><div class="code-example-output">A recipe page with a big &#39;Chocolate Cake&#39; title, a subtitle, a paragraph with bold and italic words, and sections for Ingredients and Steps.</div></div>
+<div class="code-example"><div class="code-example-title">Text Formatting Showcase</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Text Formatting&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Text Formatting Tags&lt;/h1&gt;
+  &lt;p&gt;This is &lt;strong&gt;important text&lt;/strong&gt; that stands out.&lt;/p&gt;
+  &lt;p&gt;This is &lt;em&gt;emphasised text&lt;/em&gt; shown in italic.&lt;/p&gt;
+  &lt;p&gt;This is &lt;mark&gt;highlighted text&lt;/mark&gt; with a yellow background.&lt;/p&gt;
+  &lt;p&gt;Water is &lt;strong&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/strong&gt; and x squared is &lt;strong&gt;x&lt;sup&gt;2&lt;/sup&gt;&lt;/strong&gt;.&lt;/p&gt;
+  &lt;p&gt;The price was &lt;del&gt;Rs 500&lt;/del&gt; &lt;ins&gt;Rs 350&lt;/ins&gt; after discount.&lt;/p&gt;
+  &lt;p&gt;Press &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt; to save.&lt;/p&gt;
+  &lt;p&gt;To make a variable, use &lt;code&gt;let name = &quot;Aarav&quot;;&lt;/code&gt; in JavaScript.&lt;/p&gt;
+  &lt;p&gt;&lt;small&gt;This is fine print, like a disclaimer.&lt;/small&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This example showcases almost every text formatting tag: <code>strong</code> (bold/important), <code>em</code> (italic/emphasis), <code>mark</code> (highlight), <code>sub</code> (subscript), <code>sup</code> (superscript), <code>del</code> (strikethrough), <code>ins</code> (inserted/underline), <code>kbd</code> (keyboard key), <code>code</code> (inline code), and <code>small</code> (fine print). Each has a specific meaning and visual style.</div><div class="code-example-output">A page showing various text formatting effects: bold, italic, highlighted yellow, subscript, superscript, strikethrough, keyboard keys, monospace code, and small fine print.</div></div>
+<div class="code-example"><div class="code-example-title">Entity Codes in Action</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Entity Codes&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;HTML Entity Codes&lt;/h1&gt;
+  &lt;p&gt;The copyright symbol is &amp;copy; and the registered symbol is &amp;reg;.&lt;/p&gt;
+  &lt;p&gt;To show HTML tags as text, use &amp;amp;lt; and &amp;amp;gt; like this: &amp;lt;p&amp;gt;Hello&amp;lt;/p&amp;gt;&lt;/p&gt;
+  &lt;p&gt;The ampersand itself is written as &amp;amp;amp; to show &amp;amp; on the page.&lt;/p&gt;
+  &lt;p&gt;Dr.&amp;nbsp;Priya&amp;nbsp;Sharma will stay on one line thanks to non-breaking spaces.&lt;/p&gt;
+  &lt;p&gt;The temperature is 36&amp;deg;C today.&lt;/p&gt;
+  &lt;p&gt;Mathematics: 2 &amp;times; 3 = 6 and 6 &amp;divide; 2 = 3&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Entity codes let you display special characters that have meaning in HTML (like &lt; and &gt;) or that are hard to type (like &copy;, &deg;, &times;). Every entity starts with &amp; and ends with ;. This example shows copyright, registered, less-than, greater-than, ampersand, non-breaking space, degree, multiply, and divide.</div><div class="code-example-output">A page showing copyright symbols, HTML tags as text, the degree symbol for temperature, and math symbols.</div></div>
+<div class="code-example"><div class="code-example-title">Blockquote and Horizontal Rule</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Quotes&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Famous Quotes&lt;/h1&gt;
+  &lt;p&gt;Here is a quote from a great Indian scientist:&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Dream, dream, dream. Dreams transform into thoughts, and thoughts result in action.&lt;/p&gt;
+    &lt;p&gt;- Dr. A. P. J. Abdul Kalam&lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;hr&gt;
+  &lt;p&gt;And another timeless quote:&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Arise, awake, and stop not until the goal is reached.&lt;/p&gt;
+    &lt;p&gt;- Swami Vivekananda&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The <code>&lt;blockquote&gt;</code> tag is for quoting a block of text from another source. Browsers usually indent it and add spacing. Inside a blockquote, you can use other tags like <code>&lt;p&gt;</code>. The <code>&lt;hr&gt;</code> between the two quotes creates a horizontal line as a visual separator.</div><div class="code-example-output">A page with two indented quote blocks, separated by a horizontal line, each showing a famous quote and its author.</div></div>
+<div class="code-example"><div class="code-example-title">Poem With Line Breaks</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Poem&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Twinkle Twinkle&lt;/h1&gt;
+  &lt;p&gt;
+    Twinkle, twinkle, little star,&lt;br&gt;
+    How I wonder what you are.&lt;br&gt;
+    Up above the world so high,&lt;br&gt;
+    Like a diamond in the sky.&lt;br&gt;
+    Twinkle, twinkle, little star,&lt;br&gt;
+    How I wonder what you are.
+  &lt;/p&gt;
+  &lt;hr&gt;
+  &lt;p&gt;&lt;small&gt;Written by Jane Taylor, 1806&lt;/small&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">For a poem, each line should break where the poem line ends. Using separate <code>&lt;p&gt;</code> tags for each line would add too much space. Instead, wrap the whole poem in one <code>&lt;p&gt;</code> and use <code>&lt;br&gt;</code> at the end of each line. The author credit uses <code>&lt;small&gt;</code> for a smaller, attribution-style look.</div><div class="code-example-output">A page titled &#39;Twinkle Twinkle&#39; with the whole poem rendered as a single paragraph where each line is on its own line (thanks to br tags), followed by a horizontal rule and small author attribution.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using Multiple h1 Tags on One Page</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;h1&gt;Welcome&lt;/h1&gt;
+&lt;h1&gt;About Us&lt;/h1&gt;
+&lt;h1&gt;Contact&lt;/h1&gt;</code></pre></div><div class="error-message">The page has no clear main topic for SEO, and screen readers get confused about the page structure.</div><div class="correct-code"><pre><code class="language-python">&lt;h1&gt;Welcome to My Site&lt;/h1&gt;
+&lt;h2&gt;About Us&lt;/h2&gt;
+&lt;h2&gt;Contact&lt;/h2&gt;</code></pre></div><div class="mistake-explanation">Every page should have only one <code>&lt;h1&gt;</code> — the main page title. Use <code>&lt;h2&gt;</code> for major sections. This helps search engines and screen readers understand that the h1 is the top-level topic.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using &lt;br&gt; for Paragraph Spacing</h3>
+                <div class="wrong-code"><pre><code class="language-python">Welcome to my page.&lt;br&gt;&lt;br&gt;&lt;br&gt;Here is some information.&lt;br&gt;&lt;br&gt;&lt;br&gt;And more text.</code></pre></div><div class="error-message">Invalid HTML structure. Browsers show extra spacing, but the text is not inside any proper element.</div><div class="correct-code"><pre><code class="language-python">&lt;p&gt;Welcome to my page.&lt;/p&gt;
+&lt;p&gt;Here is some information.&lt;/p&gt;
+&lt;p&gt;And more text.&lt;/p&gt;</code></pre></div><div class="mistake-explanation">Do not use multiple <code>&lt;br&gt;</code> tags to create spacing between paragraphs. Use proper <code>&lt;p&gt;</code> tags — browsers automatically add spacing between paragraphs. <code>&lt;br&gt;</code> is only for forced line breaks inside a single paragraph (like in a poem or address).</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting to Close Entity Codes</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;p&gt;Copyright &amp;copy 2026&lt;/p&gt;</code></pre></div><div class="error-message">The copyright symbol may not render — the browser may show &#39;Copyright &amp;copy 2026&#39; as text.</div><div class="correct-code"><pre><code class="language-python">&lt;p&gt;Copyright &amp;copy; 2026&lt;/p&gt;</code></pre></div><div class="mistake-explanation">Every HTML entity must end with a semicolon <code>;</code>. <code>&amp;copy;</code> is correct, <code>&amp;copy</code> without the semicolon may or may not work depending on the browser. Always include the semicolon.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Expecting Multiple Spaces to Show</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;p&gt;Hello       World&lt;/p&gt;</code></pre></div><div class="error-message">The browser shows &#39;Hello World&#39; (only one space), not the extra spaces you typed.</div><div class="correct-code"><pre><code class="language-python">&lt;p&gt;Hello&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;World&lt;/p&gt;
+&lt;!-- Or better: use CSS for spacing --&gt;</code></pre></div><div class="mistake-explanation">HTML collapses multiple spaces, tabs, and newlines into a single space. If you need several forced spaces, use <code>&amp;nbsp;</code> multiple times. For real layout spacing, use CSS (which you will learn later).</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using &lt;b&gt; and &lt;i&gt; Instead of &lt;strong&gt; and &lt;em&gt;</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; read this &lt;i&gt;carefully&lt;/i&gt;.&lt;/p&gt;</code></pre></div><div class="error-message">The text looks the same, but screen readers do not emphasise the important word. Less accessible.</div><div class="correct-code"><pre><code class="language-python">&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; read this &lt;em&gt;carefully&lt;/em&gt;.&lt;/p&gt;</code></pre></div><div class="mistake-explanation"><code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> only change the look. <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code> carry semantic meaning — 'this is important' and 'stress this word'. Screen readers emphasise these when reading aloud. Always prefer <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code>.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>HTML has six heading levels from &lt;h1&gt; (biggest, most important) to &lt;h6&gt; (smallest, least important).</li>
+<li>Use only ONE &lt;h1&gt; per page — it represents the main topic of the page and is critical for SEO.</li>
+<li>&lt;p&gt; creates a paragraph. Browsers automatically add vertical space between paragraphs.</li>
+<li>&lt;br&gt; is a self-closing tag that forces a line break. Use it only when you need a manual break, like in a poem or address.</li>
+<li>&lt;hr&gt; draws a horizontal line across the page to visually separate sections.</li>
+<li>&lt;strong&gt; means &#39;important&#39; and &lt;em&gt; means &#39;stressed&#39; — these are semantic tags that screen readers understand. Prefer them over &lt;b&gt; and &lt;i&gt;.</li>
+<li>&lt;mark&gt; highlights text with a yellow background. &lt;small&gt; shows fine print. &lt;del&gt; shows strikethrough. &lt;ins&gt; shows underlined inserted text.</li>
+<li>&lt;sub&gt; creates subscript (like H2O) and &lt;sup&gt; creates superscript (like x squared). &lt;code&gt; shows computer code in monospace font.</li>
+<li>&lt;blockquote&gt; is for quoting a block of text from another source — browsers indent it by default.</li>
+<li>HTML entity codes let you display special characters: &amp;copy; for copyright, &amp;nbsp; for non-breaking space, &amp;lt; for less than, &amp;gt; for greater than, &amp;amp; for ampersand.</li>
+<li>HTML collapses whitespace — multiple spaces, tabs, and newlines become a single space. Use &amp;nbsp; for forced spaces or CSS for layout spacing.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/html-structure-and-boilerplate" class="related-topic-link">HTML Document Structure and Boilerplate</a>
+<a href="/resources/html-and-css/links-and-navigation" class="related-topic-link">Links, Anchors, and Navigation</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/html-structure-and-boilerplate" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">HTML Document Structure and Boilerplate</span>
+        </a>
+            <a href="/resources/html-and-css/links-and-navigation" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Links, Anchors, and Navigation</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/headings-paragraphs-and-text/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

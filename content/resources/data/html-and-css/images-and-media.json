@@ -1,0 +1,842 @@
+{
+  "title": "Images and Media - Bringing Your Pages to Life",
+  "slug": "images-and-media",
+  "language": "html",
+  "chapter": 5,
+  "difficulty": "Beginner",
+  "readingTime": "22 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 57,
+  "seo": {
+    "title": "HTML Images and Media - img, video, audio, figure, alt text, lazy loading | Modern Age Coders",
+    "description": "Learn HTML images with img tag, video and audio elements, figure and figcaption, alt text for accessibility, and lazy loading. 57 hands-on practice questions.",
+    "keywords": "html images, img tag, alt text, html video, html audio, figure figcaption, lazy loading, responsive images, source tag, poster attribute"
+  },
+  "content": {
+    "what": "<h2>What Are Images and Media in HTML?</h2><p>A web page with only text is boring. Images, videos, and audio are what make web pages come alive. A beautiful photograph, an instructional video, or a background music clip — all of these are added using HTML media tags.</p><p>HTML gives you a handful of powerful tags to add media to your pages:</p><ul><li><code>&lt;img&gt;</code> — for images</li><li><code>&lt;video&gt;</code> — for video files</li><li><code>&lt;audio&gt;</code> — for music and sound</li><li><code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code> — for images with captions</li><li><code>&lt;source&gt;</code> — for providing multiple formats to the browser</li></ul><p>All of these are self-closing or specialised tags that let your page show pictures and play media without needing any JavaScript.</p>",
+    "why": "<h2>Why Add Media to Your Pages?</h2><h3>1. Humans Love Visuals</h3><p>Our brains process images 60,000 times faster than text. A single well-chosen photo can communicate more than a whole paragraph of words. When building a recipe page, a product page, or a blog — images make content instantly understandable and engaging.</p><h3>2. Accessibility Through Alt Text</h3><p>Every image should have alt text (alternative text) — a short description that screen readers read aloud for blind users. Alt text also appears if the image fails to load. Good alt text makes your website work for everyone.</p><h3>3. SEO Benefits</h3><p>Google cannot 'see' images directly — it reads alt text to understand what an image is about. Pages with descriptive alt text rank higher in image search results. So good alt text means more visitors.</p><h3>4. Native Video and Audio</h3><p>Before HTML5 (2014), you needed Flash plugins to play videos. Now, <code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code> are built right into HTML. Any modern browser can play media without installing anything.</p><h3>5. Creative Freedom</h3><p>Once you know image and media tags, you can build photo galleries, recipe sites with step images, music players, video tutorials, and so much more. Your pages stop looking like text documents and start looking like real websites.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>The img Tag</h3><p>The <code>&lt;img&gt;</code> tag is self-closing (no closing tag). It has two essential attributes:</p><ul><li><code>src</code> — the source (URL or path to the image file)</li><li><code>alt</code> — alternative text describing the image</li></ul><pre><code>&lt;img src=\"cat.jpg\" alt=\"An orange cat sitting on a window sill\"&gt;</code></pre><p>The src can be a relative path (<code>cat.jpg</code>, <code>images/cat.jpg</code>) or a full URL (<code>https://example.com/cat.jpg</code>).</p><h3>Why alt Text Is Required</h3><p>The <code>alt</code> attribute is not optional — it is essential. Here is why:</p><ol><li><strong>Accessibility:</strong> Screen readers announce the alt text to blind users</li><li><strong>SEO:</strong> Google uses it to understand what your image shows</li><li><strong>Fallback:</strong> If the image fails to load (slow connection, broken URL), the browser shows the alt text instead</li></ol><p>Good alt text describes what the image shows, not just 'image' or 'picture'. For decorative images with no meaning, use <code>alt=\"\"</code> (empty string) — this tells screen readers to skip it.</p><h3>Width and Height Attributes</h3><p>You can set the dimensions of an image with <code>width</code> and <code>height</code> attributes (in pixels):</p><pre><code>&lt;img src=\"cat.jpg\" alt=\"A cat\" width=\"300\" height=\"200\"&gt;</code></pre><p>Always set these attributes — they tell the browser how much space to reserve for the image before it loads, which prevents the page layout from jumping around.</p><h3>figure and figcaption</h3><p>When an image needs a caption, wrap it in a <code>&lt;figure&gt;</code> element with a <code>&lt;figcaption&gt;</code>:</p><pre><code>&lt;figure&gt;\n  &lt;img src=\"eiffel.jpg\" alt=\"Eiffel Tower\"&gt;\n  &lt;figcaption&gt;The Eiffel Tower in Paris, built in 1889.&lt;/figcaption&gt;\n&lt;/figure&gt;</code></pre><p>This is the semantic way to associate a caption with an image. Screen readers understand the relationship.</p><h3>The video Tag</h3><p>The <code>&lt;video&gt;</code> tag plays video files. Basic syntax:</p><pre><code>&lt;video src=\"movie.mp4\" controls width=\"600\"&gt;\n  Your browser does not support video.\n&lt;/video&gt;</code></pre><p>Common attributes:</p><ul><li><code>src</code> — path to the video file</li><li><code>controls</code> — shows play/pause/volume controls</li><li><code>width</code> and <code>height</code> — video player size</li><li><code>autoplay</code> — starts playing automatically (use carefully)</li><li><code>muted</code> — starts muted (required for autoplay in most browsers)</li><li><code>loop</code> — replays when finished</li><li><code>poster</code> — image shown before the video plays</li><li><code>preload</code> — how much to preload (none/metadata/auto)</li></ul><p>The text inside the <code>&lt;video&gt;</code> tag is shown if the browser cannot play video (very old browsers).</p><h3>The source Tag for Multiple Formats</h3><p>Different browsers support different video formats. To be safe, provide multiple formats using <code>&lt;source&gt;</code> tags inside <code>&lt;video&gt;</code>:</p><pre><code>&lt;video controls width=\"600\"&gt;\n  &lt;source src=\"movie.mp4\" type=\"video/mp4\"&gt;\n  &lt;source src=\"movie.webm\" type=\"video/webm\"&gt;\n  Your browser does not support video.\n&lt;/video&gt;</code></pre><p>The browser picks the first format it can play. MP4 works almost everywhere, so it should usually be listed first.</p><h3>The audio Tag</h3><p>The <code>&lt;audio&gt;</code> tag works similarly to video. It plays sound files:</p><pre><code>&lt;audio src=\"song.mp3\" controls&gt;\n  Your browser does not support audio.\n&lt;/audio&gt;</code></pre><p>It has the same attributes as video: <code>controls</code>, <code>autoplay</code>, <code>muted</code>, <code>loop</code>, and can also use <code>&lt;source&gt;</code> tags for multiple formats.</p><h3>Responsive Images with srcset</h3><p>Modern phones have different screen densities. A 'retina' display needs bigger images than a regular monitor. The <code>srcset</code> attribute lets you provide multiple sizes:</p><pre><code>&lt;img src=\"photo.jpg\" srcset=\"photo-1x.jpg 1x, photo-2x.jpg 2x\" alt=\"Photo\"&gt;</code></pre><p>The browser automatically picks the best size based on the user's screen.</p><h3>Lazy Loading</h3><p>By default, browsers load all images on a page immediately. This can slow down pages with many images. The <code>loading=\"lazy\"</code> attribute tells the browser to wait until an image is about to scroll into view:</p><pre><code>&lt;img src=\"big-photo.jpg\" alt=\"A photo\" loading=\"lazy\"&gt;</code></pre><p>This makes pages much faster, especially for image galleries. Use <code>loading=\"lazy\"</code> for images below the fold (not visible when the page first loads).</p><h3>Where to Get Free Images</h3><p>For practice and projects, use free image sites that allow commercial use:</p><ul><li><strong>Unsplash</strong> (unsplash.com) — high-quality photos</li><li><strong>Pexels</strong> (pexels.com) — free photos and videos</li><li><strong>Pixabay</strong> (pixabay.com) — photos, illustrations, and videos</li><li><strong>placeholder.com</strong> or <strong>via.placeholder.com</strong> — placeholder images while developing</li></ul><p>Never steal images from random websites — many are copyrighted. Always use images you have permission to use.</p>",
+    "codeExamples": [
+      {
+        "title": "Basic Image With Alt Text",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>My First Image</title>\n</head>\n<body>\n  <h1>My Pet</h1>\n  <p>Meet Buddy, my golden retriever.</p>\n  <img src=\"https://via.placeholder.com/400x300\" alt=\"A golden retriever dog sitting on grass\" width=\"400\" height=\"300\">\n  <p>He loves playing fetch and going for walks.</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A basic image with all the essential attributes: <code>src</code> for the image URL, <code>alt</code> for the description (critical for accessibility and SEO), and <code>width</code>/<code>height</code> to reserve space on the page before the image loads. The placeholder URL shows a blank 400x300 rectangle — replace it with your real image path.",
+        "output": "A page with a heading 'My Pet', a paragraph, a 400x300 image, and another paragraph."
+      },
+      {
+        "title": "Figure With Caption",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Famous Landmarks</title>\n</head>\n<body>\n  <h1>Famous Indian Landmarks</h1>\n  <figure>\n    <img src=\"https://via.placeholder.com/500x300\" alt=\"Taj Mahal, white marble monument\" width=\"500\" height=\"300\">\n    <figcaption>The Taj Mahal in Agra, built by Shah Jahan in memory of his wife.</figcaption>\n  </figure>\n  <figure>\n    <img src=\"https://via.placeholder.com/500x300\" alt=\"India Gate at night with lights\" width=\"500\" height=\"300\">\n    <figcaption>India Gate in New Delhi, a war memorial for Indian soldiers.</figcaption>\n  </figure>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The <code>&lt;figure&gt;</code> element groups an image with its caption. The <code>&lt;figcaption&gt;</code> is the caption text — it can be above or below the image. This is the semantic way to add captions to images. Screen readers understand the relationship between the image and caption.",
+        "output": "A page with two image figures, each with a caption below it describing a famous Indian landmark."
+      },
+      {
+        "title": "Image Gallery",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Photo Gallery</title>\n</head>\n<body>\n  <h1>Priya's Photo Gallery</h1>\n  <h2>Recent Photos</h2>\n\n  <figure>\n    <img src=\"https://via.placeholder.com/300x200\" alt=\"Sunrise over the mountains\" width=\"300\" height=\"200\" loading=\"lazy\">\n    <figcaption>Sunrise at Manali</figcaption>\n  </figure>\n\n  <figure>\n    <img src=\"https://via.placeholder.com/300x200\" alt=\"Waves crashing on a beach\" width=\"300\" height=\"200\" loading=\"lazy\">\n    <figcaption>Goa Beach</figcaption>\n  </figure>\n\n  <figure>\n    <img src=\"https://via.placeholder.com/300x200\" alt=\"A plate of biryani\" width=\"300\" height=\"200\" loading=\"lazy\">\n    <figcaption>Hyderabadi Biryani</figcaption>\n  </figure>\n\n  <figure>\n    <img src=\"https://via.placeholder.com/300x200\" alt=\"Colourful rangoli design\" width=\"300\" height=\"200\" loading=\"lazy\">\n    <figcaption>Diwali Rangoli</figcaption>\n  </figure>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A simple gallery with four images, each in its own figure with a caption. All images use <code>loading=\"lazy\"</code> so they only load when scrolled into view — this makes the page load much faster. Every image has descriptive alt text for accessibility.",
+        "output": "A photo gallery page with four figures, each showing an image and a caption."
+      },
+      {
+        "title": "Video Player With Poster and Controls",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Video Example</title>\n</head>\n<body>\n  <h1>Watch My Video</h1>\n  <video width=\"600\" controls poster=\"https://via.placeholder.com/600x400\">\n    <source src=\"my-video.mp4\" type=\"video/mp4\">\n    <source src=\"my-video.webm\" type=\"video/webm\">\n    Your browser does not support the video tag.\n  </video>\n  <p>This video shows highlights from my school trip.</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A video player with several best practices: <code>controls</code> shows play/pause/volume buttons. <code>poster</code> is the preview image shown before the video plays. Two <code>&lt;source&gt;</code> tags provide MP4 and WebM formats — the browser picks whichever it supports. The text inside is fallback for very old browsers.",
+        "output": "A video player with a preview image that shows controls when hovered. Click play to watch the video."
+      },
+      {
+        "title": "Audio Player",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Audio Example</title>\n</head>\n<body>\n  <h1>Rohan's Favourite Song</h1>\n  <p>Click play to listen:</p>\n  <audio controls>\n    <source src=\"song.mp3\" type=\"audio/mpeg\">\n    <source src=\"song.ogg\" type=\"audio/ogg\">\n    Your browser does not support the audio element.\n  </audio>\n  <p>Title: 'My Melody'<br>Artist: The Code Band</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A simple audio player. The <code>controls</code> attribute shows the play button, time slider, and volume control. Multiple <code>&lt;source&gt;</code> tags provide MP3 and OGG formats for maximum browser support. MP3 is universal, while OGG is an open format supported by Firefox and Chrome.",
+        "output": "An audio player with play/pause controls and time slider, ready to play the song."
+      },
+      {
+        "title": "Autoplay Muted Looping Video",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Background Video</title>\n</head>\n<body>\n  <h1>Hero Section</h1>\n  <video width=\"800\" autoplay muted loop playsinline>\n    <source src=\"background.mp4\" type=\"video/mp4\">\n    Your browser does not support video.\n  </video>\n  <p>This is how modern websites add looping background videos.</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This is how websites add hero-section background videos. <code>autoplay</code> starts the video automatically. <code>muted</code> is required for autoplay in most browsers (they block autoplay with sound). <code>loop</code> replays the video forever. <code>playsinline</code> prevents mobile devices from opening it fullscreen. Use this sparingly — autoplaying videos can be annoying.",
+        "output": "A video that plays automatically without sound and loops forever, perfect for a website hero section."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Missing alt Attribute",
+        "wrongCode": "<img src=\"cat.jpg\">",
+        "error": "Bad for accessibility and SEO. Screen readers will not describe the image, and the HTML is invalid.",
+        "correctCode": "<img src=\"cat.jpg\" alt=\"An orange tabby cat sitting on a windowsill\">",
+        "explanation": "Every <code>&lt;img&gt;</code> must have an <code>alt</code> attribute. For decorative images with no meaning, use <code>alt=\"\"</code> (empty string). For meaningful images, describe what they show in a few words."
+      },
+      {
+        "title": "Wrong Image Path",
+        "wrongCode": "<img src=\"C:\\Users\\Priya\\Desktop\\cat.jpg\" alt=\"Cat\">",
+        "error": "The image works on Priya's computer but breaks when the website is uploaded to a server.",
+        "correctCode": "<img src=\"images/cat.jpg\" alt=\"Cat\">",
+        "explanation": "Never use absolute file paths from your computer (like C:\\ on Windows). Use relative paths that work on any server. Put your images in a folder inside your project, like <code>images/</code> or <code>assets/</code>, and link using <code>images/cat.jpg</code>."
+      },
+      {
+        "title": "Forgetting the controls Attribute on Video",
+        "wrongCode": "<video src=\"movie.mp4\" width=\"600\"></video>",
+        "error": "The video shows but there are no play/pause buttons — users cannot control it.",
+        "correctCode": "<video src=\"movie.mp4\" width=\"600\" controls></video>",
+        "explanation": "Without the <code>controls</code> attribute, the video has no visible interface. Add <code>controls</code> so users can play, pause, and adjust volume. For background videos, omit controls but add <code>autoplay muted loop</code>."
+      },
+      {
+        "title": "Autoplay Video Without muted",
+        "wrongCode": "<video src=\"movie.mp4\" autoplay></video>",
+        "error": "Modern browsers block autoplay videos that have sound — the video does not play at all.",
+        "correctCode": "<video src=\"movie.mp4\" autoplay muted></video>",
+        "explanation": "Browsers now require <code>muted</code> for <code>autoplay</code> to work, to stop annoying websites from blasting sound. If you want autoplay, add muted as well. Users can then manually unmute if they want."
+      },
+      {
+        "title": "Using Full Computer Path Instead of URL",
+        "wrongCode": "<img src=\"file:///C:/photos/cat.jpg\" alt=\"Cat\">",
+        "error": "The image does not load for other users because they do not have that file.",
+        "correctCode": "<img src=\"https://example.com/photos/cat.jpg\" alt=\"Cat\">\n<!-- Or a relative path: -->\n<img src=\"photos/cat.jpg\" alt=\"Cat\">",
+        "explanation": "Never use <code>file:///</code> URLs — they only work on your own computer. Either upload the image to a web server and use its URL, or keep it in your project folder and use a relative path."
+      }
+    ],
+    "summary": [
+      "The <img> tag displays images. It is self-closing and requires both src (image source) and alt (description).",
+      "Alt text is essential — it describes the image for screen readers, appears when the image fails to load, and helps SEO.",
+      "Always set width and height attributes on images to prevent the page layout from jumping around while images load.",
+      "Wrap images with captions in <figure> and use <figcaption> for the caption text. This is the semantic way to add captions.",
+      "The <video> tag plays video files. Use the controls attribute to show play/pause buttons and poster to set a preview image.",
+      "The <audio> tag plays sound files. It has the same controls, autoplay, muted, and loop attributes as video.",
+      "Use <source> tags inside <video> and <audio> to provide multiple formats — the browser picks the first one it supports.",
+      "For autoplay to work in modern browsers, you must also add the muted attribute. Otherwise browsers block autoplay.",
+      "Use loading=\"lazy\" on images below the fold to make your page load faster — images load only when about to scroll into view.",
+      "Get free images from Unsplash, Pexels, or Pixabay. Never steal copyrighted images from random websites.",
+      "Use relative paths like 'images/cat.jpg' for files in your project, or full URLs starting with https:// for external images."
+    ]
+  },
+  "relatedTopics": ["links-and-navigation", "lists-and-tables"],
+  "practice": {
+    "totalQuestions": 57,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this HTML display?<br><pre><code>&lt;img src=\"cat.jpg\" alt=\"A cat\"&gt;</code></pre>",
+        "hint": "It is an image tag.",
+        "answer": "An image from 'cat.jpg' with the alt text 'A cat' shown if the image fails to load.",
+        "explanation": "The <code>&lt;img&gt;</code> tag displays an image. The <code>src</code> attribute is the image source and <code>alt</code> is the alternative text for accessibility."
+      },
+      {
+        "id": "ts-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write HTML for an image called 'sunset.jpg' with alt text 'A beautiful orange sunset at the beach'.",
+        "hint": "Use <img> with src and alt.",
+        "answer": "<pre><code>&lt;img src=\"sunset.jpg\" alt=\"A beautiful orange sunset at the beach\"&gt;</code></pre>",
+        "explanation": "Every image needs <code>src</code> for the file and <code>alt</code> for the description. Good alt text describes what the image shows."
+      },
+      {
+        "id": "ts-3",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "This image has an accessibility problem. Fix it:<br><pre><code>&lt;img src=\"dog.jpg\"&gt;</code></pre>",
+        "hint": "Screen readers need help.",
+        "answer": "<pre><code>&lt;img src=\"dog.jpg\" alt=\"A brown dog playing in the park\"&gt;</code></pre>",
+        "explanation": "The <code>alt</code> attribute is missing. Screen readers cannot describe the image to blind users without alt text. Always include a meaningful description."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does the alt attribute do?",
+        "hint": "It has multiple purposes.",
+        "answer": "It provides alternative text that is shown if the image fails to load, read by screen readers for accessibility, and used by search engines.",
+        "explanation": "Alt text serves three purposes: accessibility (screen readers), fallback (if image fails), and SEO (search engines understand the image content)."
+      },
+      {
+        "id": "ts-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write HTML for an image that is 500 pixels wide and 300 pixels tall.",
+        "hint": "Use width and height attributes.",
+        "answer": "<pre><code>&lt;img src=\"photo.jpg\" alt=\"A photo\" width=\"500\" height=\"300\"&gt;</code></pre>",
+        "explanation": "Setting <code>width</code> and <code>height</code> reserves space on the page for the image before it loads, preventing layout shifts."
+      },
+      {
+        "id": "ts-6",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "What is wrong with this img tag?<br><pre><code>&lt;img scr=\"cat.jpg\" alt=\"Cat\"&gt;</code></pre>",
+        "hint": "Check the attribute name carefully.",
+        "answer": "<pre><code>&lt;img src=\"cat.jpg\" alt=\"Cat\"&gt;</code></pre>",
+        "explanation": "The attribute is <code>src</code>, not <code>scr</code>. This is a very common typo. The image will not load with the wrong attribute name."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this render?<br><pre><code>&lt;figure&gt;\n  &lt;img src=\"tiger.jpg\" alt=\"A tiger\"&gt;\n  &lt;figcaption&gt;A Bengal tiger in the jungle&lt;/figcaption&gt;\n&lt;/figure&gt;</code></pre>",
+        "hint": "figure groups an image with its caption.",
+        "answer": "An image of a tiger with a caption 'A Bengal tiger in the jungle' shown below (or sometimes above) it.",
+        "explanation": "The <code>&lt;figure&gt;</code> element groups an image and its <code>&lt;figcaption&gt;</code>. The caption is semantically associated with the image."
+      },
+      {
+        "id": "ts-8",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write HTML for a video with controls and a width of 500 pixels.",
+        "hint": "Use <video> with src, controls, and width.",
+        "answer": "<pre><code>&lt;video src=\"movie.mp4\" controls width=\"500\"&gt;\n  Your browser does not support video.\n&lt;/video&gt;</code></pre>",
+        "explanation": "The <code>controls</code> attribute shows play/pause buttons. <code>width</code> sets the player width in pixels. The text inside is fallback for old browsers."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does the controls attribute do on a video tag?",
+        "hint": "It is about the user interface.",
+        "answer": "It shows the built-in video player controls: play/pause button, time slider, volume control, and fullscreen button.",
+        "explanation": "Without <code>controls</code>, the video has no visible buttons. Users cannot play, pause, or control it (unless you add custom JavaScript controls)."
+      },
+      {
+        "id": "ts-10",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Fix this audio tag so users can play it:<br><pre><code>&lt;audio src=\"song.mp3\"&gt;&lt;/audio&gt;</code></pre>",
+        "hint": "Something is needed for the user to interact.",
+        "answer": "<pre><code>&lt;audio src=\"song.mp3\" controls&gt;&lt;/audio&gt;</code></pre>",
+        "explanation": "Without <code>controls</code>, the audio element has no visible interface. Users cannot play it. Add <code>controls</code> to show the built-in player."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write an HTML image tag that uses lazy loading.",
+        "hint": "Use loading=\"lazy\".",
+        "answer": "<pre><code>&lt;img src=\"big-photo.jpg\" alt=\"A big photo\" loading=\"lazy\"&gt;</code></pre>",
+        "explanation": "The <code>loading=\"lazy\"</code> attribute tells the browser to delay loading the image until it is about to scroll into view. This makes pages faster."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does the poster attribute do on a video?",
+        "hint": "It is about what users see before clicking play.",
+        "answer": "It sets the image shown before the video plays. Like a thumbnail or preview image.",
+        "explanation": "<code>poster=\"image.jpg\"</code> displays that image where the video will play until the user clicks play. It is like a movie poster for your video."
+      },
+      {
+        "id": "ts-13",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "This autoplay video does not play. Fix it:<br><pre><code>&lt;video src=\"video.mp4\" autoplay controls&gt;&lt;/video&gt;</code></pre>",
+        "hint": "Modern browsers need one more attribute for autoplay.",
+        "answer": "<pre><code>&lt;video src=\"video.mp4\" autoplay muted controls&gt;&lt;/video&gt;</code></pre>",
+        "explanation": "Modern browsers block autoplay videos with sound. Add <code>muted</code> along with <code>autoplay</code> so the browser allows it to play automatically."
+      },
+      {
+        "id": "ts-14",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Add a video with a poster image 'thumbnail.jpg' and controls, with the video source 'tutorial.mp4'.",
+        "hint": "Combine video, source, controls, and poster.",
+        "answer": "<pre><code>&lt;video controls poster=\"thumbnail.jpg\" width=\"600\"&gt;\n  &lt;source src=\"tutorial.mp4\" type=\"video/mp4\"&gt;\n  Your browser does not support video.\n&lt;/video&gt;</code></pre>",
+        "explanation": "The <code>poster</code> attribute shows 'thumbnail.jpg' before the video plays. <code>controls</code> gives the user play/pause buttons. The source tag specifies the video file and its type."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Why use multiple <source> tags inside a video?",
+        "hint": "Different browsers support different formats.",
+        "answer": "Different browsers support different video formats. Providing multiple sources (like MP4 and WebM) ensures the browser can find one it supports.",
+        "explanation": "Browsers try each <code>&lt;source&gt;</code> in order and use the first format they support. MP4 is almost universal, but WebM is sometimes preferred. Providing both is a safety net."
+      },
+      {
+        "id": "ts-16",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Why will this image not load?<br><pre><code>&lt;img src=\"C:\\Users\\Rohan\\photo.jpg\" alt=\"Photo\"&gt;</code></pre>",
+        "hint": "The path is specific to Rohan's computer.",
+        "answer": "Use a relative path or URL: <pre><code>&lt;img src=\"photo.jpg\" alt=\"Photo\"&gt;\n&lt;!-- Or --&gt;\n&lt;img src=\"https://example.com/photo.jpg\" alt=\"Photo\"&gt;</code></pre>",
+        "explanation": "Absolute file paths from your computer only work on that computer. When you upload the website, the path breaks. Always use relative paths or web URLs."
+      },
+      {
+        "id": "ts-17",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write HTML for a gallery of 4 images with captions using figure and figcaption.",
+        "hint": "Four figure elements, each with an img and figcaption.",
+        "answer": "<pre><code>&lt;figure&gt;\n  &lt;img src=\"photo1.jpg\" alt=\"Photo 1\"&gt;\n  &lt;figcaption&gt;Caption for photo 1&lt;/figcaption&gt;\n&lt;/figure&gt;\n&lt;figure&gt;\n  &lt;img src=\"photo2.jpg\" alt=\"Photo 2\"&gt;\n  &lt;figcaption&gt;Caption for photo 2&lt;/figcaption&gt;\n&lt;/figure&gt;\n&lt;figure&gt;\n  &lt;img src=\"photo3.jpg\" alt=\"Photo 3\"&gt;\n  &lt;figcaption&gt;Caption for photo 3&lt;/figcaption&gt;\n&lt;/figure&gt;\n&lt;figure&gt;\n  &lt;img src=\"photo4.jpg\" alt=\"Photo 4\"&gt;\n  &lt;figcaption&gt;Caption for photo 4&lt;/figcaption&gt;\n&lt;/figure&gt;</code></pre>",
+        "explanation": "Each image gets its own figure with a figcaption. This is the semantic way to build image galleries where each image has a caption."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does loading=\"lazy\" do?",
+        "hint": "It is about performance.",
+        "answer": "It delays loading the image until the user is about to scroll it into view, making the initial page load faster.",
+        "explanation": "Lazy loading improves performance. Instead of loading all images at once, the browser only loads each image when it is needed. This is especially useful for long pages with many images."
+      },
+      {
+        "id": "ts-19",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "This video has no sound and users want to hear it. What is wrong?<br><pre><code>&lt;video src=\"song.mp4\" autoplay muted loop controls&gt;&lt;/video&gt;</code></pre>",
+        "hint": "Look at all the attributes.",
+        "answer": "Remove <code>muted</code> if you want sound. But then <code>autoplay</code> may not work. Either remove muted and accept that the user must click play, or keep muted for autoplay and let users unmute.",
+        "explanation": "The <code>muted</code> attribute forces the video to start without sound. If you want sound, remove it — but know that browsers will then block autoplay. It is a tradeoff."
+      },
+      {
+        "id": "ts-20",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write an audio player with two source formats: 'song.mp3' and 'song.ogg', with controls.",
+        "hint": "audio tag with two source tags.",
+        "answer": "<pre><code>&lt;audio controls&gt;\n  &lt;source src=\"song.mp3\" type=\"audio/mpeg\"&gt;\n  &lt;source src=\"song.ogg\" type=\"audio/ogg\"&gt;\n  Your browser does not support audio.\n&lt;/audio&gt;</code></pre>",
+        "explanation": "Multiple audio formats ensure compatibility. MP3 works everywhere, OGG is supported by Firefox and Chrome. The browser picks the first one it can play."
+      },
+      {
+        "id": "ts-21",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does the empty alt attribute mean: alt=\"\"?",
+        "hint": "It is not a mistake.",
+        "answer": "An empty alt (alt=\"\") tells screen readers that the image is decorative and should be skipped. It is valid and sometimes correct.",
+        "explanation": "For purely decorative images (like dividers, background patterns), use <code>alt=\"\"</code>. This tells screen readers the image has no meaningful content. Never just omit alt — always include it, even if empty."
+      },
+      {
+        "id": "ts-22",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "This image is 4000 pixels wide but the page shows it as 500px. Fix it properly:<br><pre><code>&lt;img src=\"huge-photo.jpg\" alt=\"Photo\" style=\"width:500px\"&gt;</code></pre>",
+        "hint": "Using CSS to shrink a huge image wastes bandwidth.",
+        "answer": "Resize the actual image file to 500px first (using an image editor), then: <pre><code>&lt;img src=\"photo-500.jpg\" alt=\"Photo\" width=\"500\" height=\"333\"&gt;</code></pre>",
+        "explanation": "Using CSS to shrink a huge image still downloads the full 4000px file, wasting bandwidth and slowing the page. Resize the source image file first, then use proper width/height attributes."
+      },
+      {
+        "id": "ts-23",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Add a video with a poster and controls that uses lazy loading — use attributes: width 600, controls, poster 'thumb.jpg', preload metadata.",
+        "hint": "Video does not have loading=\"lazy\" directly, but has preload attribute.",
+        "answer": "<pre><code>&lt;video width=\"600\" controls poster=\"thumb.jpg\" preload=\"metadata\"&gt;\n  &lt;source src=\"video.mp4\" type=\"video/mp4\"&gt;\n&lt;/video&gt;</code></pre>",
+        "explanation": "For videos, use <code>preload=\"metadata\"</code> to load only the video's duration and dimensions initially, not the whole file. The poster shows as a preview. This achieves similar savings to lazy loading."
+      },
+      {
+        "id": "ts-24",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "Ananya wants her image to be centered on the page but it is aligned left. Fix the HTML (not using CSS):<br><pre><code>&lt;img src=\"photo.jpg\" alt=\"Photo\" width=\"400\"&gt;</code></pre>",
+        "hint": "HTML alone cannot center easily, but you can wrap in a block element.",
+        "answer": "<pre><code>&lt;figure style=\"text-align:center\"&gt;\n  &lt;img src=\"photo.jpg\" alt=\"Photo\" width=\"400\"&gt;\n&lt;/figure&gt;\n&lt;!-- Or better: use CSS externally --&gt;</code></pre>",
+        "explanation": "HTML alone does not have a 'center' attribute anymore (it was removed). You need CSS to center images. The cleanest way is to use CSS in a stylesheet, but inline style on a wrapper element works too."
+      },
+      {
+        "id": "ts-25",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a complete HTML page with a heading, an intro paragraph, a figure with an image and caption, a video player with poster, and an audio player. Use proper semantics and lazy loading where appropriate.",
+        "hint": "Combine figure, video, audio all in a complete page.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;title&gt;Media Showcase&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;My Media Showcase&lt;/h1&gt;\n  &lt;p&gt;This page demonstrates HTML images, video, and audio.&lt;/p&gt;\n\n  &lt;figure&gt;\n    &lt;img src=\"photo.jpg\" alt=\"My photo\" width=\"400\" loading=\"lazy\"&gt;\n    &lt;figcaption&gt;A photo from my recent trip&lt;/figcaption&gt;\n  &lt;/figure&gt;\n\n  &lt;h2&gt;Watch My Video&lt;/h2&gt;\n  &lt;video width=\"600\" controls poster=\"thumb.jpg\"&gt;\n    &lt;source src=\"video.mp4\" type=\"video/mp4\"&gt;\n    Your browser does not support video.\n  &lt;/video&gt;\n\n  &lt;h2&gt;Listen to My Song&lt;/h2&gt;\n  &lt;audio controls&gt;\n    &lt;source src=\"song.mp3\" type=\"audio/mpeg\"&gt;\n    Your browser does not support audio.\n  &lt;/audio&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "This page showcases all three media tags: figure with image, video with poster, and audio player. The image uses lazy loading and proper alt text. The video has a preview poster and controls. The audio has fallback text for old browsers."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What attribute is required on every img tag?",
+        "hint": "For accessibility.",
+        "answer": "The <code>alt</code> attribute (for accessibility and fallback).",
+        "explanation": "Every image must have alt text — either describing the image or empty (alt=\"\") for decorative images."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write HTML for an image 'logo.png' with alt 'Company Logo', width 200, height 100.",
+        "hint": "Include all three attributes.",
+        "answer": "<pre><code>&lt;img src=\"logo.png\" alt=\"Company Logo\" width=\"200\" height=\"100\"&gt;</code></pre>",
+        "explanation": "Setting width and height helps the browser reserve space for the image before it loads, preventing layout jumps."
+      },
+      {
+        "id": "mx-3",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "What is wrong?<br><pre><code>&lt;img&gt;&lt;/img&gt;</code></pre>",
+        "hint": "img has specific rules about attributes and closing.",
+        "answer": "The img tag is missing src and alt, and also has an unnecessary closing tag. Correct: <code>&lt;img src=\"pic.jpg\" alt=\"Description\"&gt;</code>",
+        "explanation": "The img tag is self-closing — no <code>&lt;/img&gt;</code> needed. It also requires src (source) and alt (description)."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What tag is used for sound files?",
+        "hint": "Not video.",
+        "answer": "The <code>&lt;audio&gt;</code> tag.",
+        "explanation": "<code>&lt;audio&gt;</code> plays sound files like MP3, WAV, and OGG. It works similarly to the video tag."
+      },
+      {
+        "id": "mx-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write HTML for a figure with an image 'beach.jpg' (alt 'Sandy beach') and caption 'Visit Goa'.",
+        "hint": "Use figure and figcaption.",
+        "answer": "<pre><code>&lt;figure&gt;\n  &lt;img src=\"beach.jpg\" alt=\"Sandy beach\"&gt;\n  &lt;figcaption&gt;Visit Goa&lt;/figcaption&gt;\n&lt;/figure&gt;</code></pre>",
+        "explanation": "figure groups an image with its caption. figcaption provides the caption text below (or above) the image."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the difference between <img src=\"cat.jpg\"> and <img src=\"cat.jpg\" alt=\"A cat\">?",
+        "hint": "Both show the image but behave differently for some users.",
+        "answer": "Both show the image, but only the second has alt text, which is essential for screen readers, search engines, and fallback display if the image fails to load.",
+        "explanation": "Without alt, the image is invisible to blind users and search engines cannot understand it. Always include alt text."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write HTML for a video that autoplays, loops, and has no sound (background video).",
+        "hint": "autoplay + muted + loop.",
+        "answer": "<pre><code>&lt;video src=\"bg.mp4\" autoplay muted loop&gt;&lt;/video&gt;</code></pre>",
+        "explanation": "For a background-style video: <code>autoplay</code> starts it, <code>muted</code> is required for autoplay to work, and <code>loop</code> makes it replay forever. No controls needed for decorative background."
+      },
+      {
+        "id": "mx-8",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Vikram's image loads with a long delay. What attribute can make it faster for below-the-fold images?<br><pre><code>&lt;img src=\"big-photo.jpg\" alt=\"Photo\"&gt;</code></pre>",
+        "hint": "Lazy something.",
+        "answer": "<pre><code>&lt;img src=\"big-photo.jpg\" alt=\"Photo\" loading=\"lazy\"&gt;</code></pre>",
+        "explanation": "<code>loading=\"lazy\"</code> delays loading until the image scrolls into view. Use this for images below the fold (not visible on initial page load)."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this code produce?<br><pre><code>&lt;audio src=\"song.mp3\" controls autoplay&gt;&lt;/audio&gt;</code></pre>",
+        "hint": "Autoplay has limitations.",
+        "answer": "An audio player with controls. However, in most modern browsers, autoplay with sound is blocked unless the user has interacted with the page first.",
+        "explanation": "Browsers block autoplay audio with sound to prevent annoying users. The audio will usually need a user click before it plays. Adding <code>muted</code> is not meaningful for audio since audio is all about sound."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write HTML for a video tag with two source formats: MP4 ('clip.mp4') and WebM ('clip.webm'), with controls.",
+        "hint": "Use source tags inside video.",
+        "answer": "<pre><code>&lt;video controls width=\"600\"&gt;\n  &lt;source src=\"clip.mp4\" type=\"video/mp4\"&gt;\n  &lt;source src=\"clip.webm\" type=\"video/webm\"&gt;\n  Your browser does not support video.\n&lt;/video&gt;</code></pre>",
+        "explanation": "Multiple source tags let the browser pick the format it supports. MP4 works everywhere and should usually be listed first."
+      },
+      {
+        "id": "mx-11",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Why might this image take forever to load?<br><pre><code>&lt;img src=\"https://example.com/huge-8000x6000.jpg\" alt=\"Photo\" width=\"400\"&gt;</code></pre>",
+        "hint": "Think about file size.",
+        "answer": "The image is downloaded at full 8000x6000 resolution even though only 400px is displayed. Use a properly sized image file instead.",
+        "explanation": "Setting width in HTML only changes the display size, not the download size. You still download the full file. For fast pages, save the image at the size you will actually display."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this do?<br><pre><code>&lt;img src=\"photo.jpg\" alt=\"\" loading=\"lazy\"&gt;</code></pre>",
+        "hint": "Empty alt has meaning.",
+        "answer": "Loads a decorative image (marked as decorative with empty alt) lazily — only when it scrolls into view. Screen readers skip it.",
+        "explanation": "Empty alt means the image is decorative and has no semantic meaning. Screen readers skip it. Lazy loading delays loading until needed."
+      },
+      {
+        "id": "mx-13",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write HTML for a complete photo gallery page with 3 figures, each containing an image (placeholder URLs), alt text, figcaption, and lazy loading. Include full boilerplate.",
+        "hint": "Complete page with 3 figures.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n  &lt;title&gt;Gallery&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;My Gallery&lt;/h1&gt;\n  &lt;figure&gt;\n    &lt;img src=\"https://via.placeholder.com/400x300\" alt=\"Mountain landscape\" width=\"400\" height=\"300\" loading=\"lazy\"&gt;\n    &lt;figcaption&gt;Himalayas at sunrise&lt;/figcaption&gt;\n  &lt;/figure&gt;\n  &lt;figure&gt;\n    &lt;img src=\"https://via.placeholder.com/400x300\" alt=\"Beach with waves\" width=\"400\" height=\"300\" loading=\"lazy\"&gt;\n    &lt;figcaption&gt;Goa beach&lt;/figcaption&gt;\n  &lt;/figure&gt;\n  &lt;figure&gt;\n    &lt;img src=\"https://via.placeholder.com/400x300\" alt=\"City skyline\" width=\"400\" height=\"300\" loading=\"lazy\"&gt;\n    &lt;figcaption&gt;Mumbai skyline&lt;/figcaption&gt;\n  &lt;/figure&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "A complete gallery page with three figures. Each image has descriptive alt text, proper dimensions, lazy loading, and a caption. This is a production-quality gallery structure."
+      },
+      {
+        "id": "mx-14",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "This gallery is slow. What three things should be fixed?<br><pre><code>&lt;img src=\"huge1.jpg\"&gt;\n&lt;img src=\"huge2.jpg\"&gt;\n&lt;img src=\"huge3.jpg\"&gt;</code></pre>",
+        "hint": "Alt, size, and loading.",
+        "answer": "Add alt attributes, use properly sized image files, and add loading=\"lazy\":<pre><code>&lt;img src=\"photo1.jpg\" alt=\"Photo 1\" width=\"400\" loading=\"lazy\"&gt;\n&lt;img src=\"photo2.jpg\" alt=\"Photo 2\" width=\"400\" loading=\"lazy\"&gt;\n&lt;img src=\"photo3.jpg\" alt=\"Photo 3\" width=\"400\" loading=\"lazy\"&gt;</code></pre>",
+        "explanation": "Three issues: (1) missing alt attributes hurt accessibility and SEO, (2) huge file sizes slow download, (3) no lazy loading means all images download at once."
+      },
+      {
+        "id": "mx-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does preload=\"none\" do on a video?",
+        "hint": "It is about what the browser downloads.",
+        "answer": "It tells the browser not to preload any video data — only download when the user clicks play. Saves bandwidth but adds a delay when user plays.",
+        "explanation": "The <code>preload</code> attribute has three values: <code>none</code> (download nothing), <code>metadata</code> (only info like duration), and <code>auto</code> (download whole video). Use <code>none</code> or <code>metadata</code> for performance."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which tag displays an image?",
+        "options": {
+          "A": "<image>",
+          "B": "<img>",
+          "C": "<picture>",
+          "D": "<photo>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>&lt;img&gt;</code> tag displays images. <code>&lt;image&gt;</code> is not a valid tag. <code>&lt;picture&gt;</code> exists but wraps multiple sources."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which attribute specifies the image file?",
+        "options": {
+          "A": "href",
+          "B": "src",
+          "C": "source",
+          "D": "file"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>src</code> (source) points to the image file. <code>href</code> is for links, not images."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Why is the alt attribute important?",
+        "options": {
+          "A": "It changes the image color",
+          "B": "It is decorative only",
+          "C": "It is for accessibility, SEO, and fallback if the image fails to load",
+          "D": "It is optional and never needed"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> alt text serves three purposes: screen readers use it, search engines use it, and it displays if the image fails to load."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which tag plays video files?",
+        "options": {
+          "A": "<movie>",
+          "B": "<video>",
+          "C": "<film>",
+          "D": "<play>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>&lt;video&gt;</code> tag plays video files."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which attribute shows play/pause buttons on a video?",
+        "options": {
+          "A": "show",
+          "B": "buttons",
+          "C": "controls",
+          "D": "player"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>controls</code> attribute shows the built-in video player controls."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which element wraps an image with its caption?",
+        "options": {
+          "A": "<caption>",
+          "B": "<figure>",
+          "C": "<img-caption>",
+          "D": "<div>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&lt;figure&gt;</code> wraps an image and its <code>&lt;figcaption&gt;</code> caption."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "Which tag plays audio files?",
+        "options": {
+          "A": "<sound>",
+          "B": "<music>",
+          "C": "<audio>",
+          "D": "<speaker>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>&lt;audio&gt;</code> tag plays audio files like MP3 and WAV."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does loading=\"lazy\" do?",
+        "options": {
+          "A": "Loads the image slowly on purpose",
+          "B": "Delays loading until the image is about to be visible",
+          "C": "Makes the image blurry",
+          "D": "Prevents the image from loading"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Lazy loading delays loading until the image scrolls into view, making pages load faster initially."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does the poster attribute do?",
+        "options": {
+          "A": "Prints a poster",
+          "B": "Sets the image shown before the video plays",
+          "C": "Shows advertisements",
+          "D": "Makes the video into a poster"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>poster</code> is the preview image shown before the video starts playing."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Why provide multiple <source> tags in a video?",
+        "options": {
+          "A": "To play multiple videos at once",
+          "B": "To support different browsers with different format preferences",
+          "C": "For subtitles",
+          "D": "It is required"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Different browsers support different video formats. Multiple sources let the browser pick the first format it supports."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "To autoplay a video in a modern browser, which attribute must be included?",
+        "options": {
+          "A": "play",
+          "B": "start",
+          "C": "muted",
+          "D": "auto"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Modern browsers block autoplay videos with sound. You must also include <code>muted</code> for autoplay to work."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Which is a valid image alt attribute for a decorative divider line?",
+        "options": {
+          "A": "alt=\"image\"",
+          "B": "alt=\"divider.jpg\"",
+          "C": "alt=\"\"",
+          "D": "No alt at all"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> For purely decorative images, use empty alt (<code>alt=\"\"</code>). This tells screen readers to skip it. Never omit alt entirely."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "Which is a good source of free images?",
+        "options": {
+          "A": "Random Google image search results",
+          "B": "Unsplash, Pexels, and Pixabay",
+          "C": "Copy from other websites",
+          "D": "Stock photo sites that require payment"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Unsplash, Pexels, and Pixabay offer free, legal images you can use in your projects. Never steal copyrighted images."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "Which tag element wraps the image caption?",
+        "options": {
+          "A": "<caption>",
+          "B": "<label>",
+          "C": "<figcaption>",
+          "D": "<text>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>&lt;figcaption&gt;</code> is the caption for an image inside a <code>&lt;figure&gt;</code>."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What happens if an image with no alt attribute fails to load?",
+        "options": {
+          "A": "Shows the word 'image'",
+          "B": "Shows the filename",
+          "C": "Shows a broken image icon (or nothing meaningful)",
+          "D": "Crashes the page"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Without alt text, failed images just show a broken icon. With alt, the alt text displays instead, giving context."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Why should you set width and height attributes on images?",
+        "options": {
+          "A": "To make them smaller",
+          "B": "To reserve space and prevent layout shift while loading",
+          "C": "It is required",
+          "D": "For SEO"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> When the browser knows the dimensions, it can reserve the right amount of space before the image loads, preventing content from jumping around."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is the best way to handle a video that needs to autoplay as a background?",
+        "options": {
+          "A": "<video autoplay>",
+          "B": "<video autoplay controls>",
+          "C": "<video autoplay muted loop>",
+          "D": "<video src=\"bg.mp4\">"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Background videos need <code>autoplay</code> + <code>muted</code> (so browser allows autoplay) + <code>loop</code> (so it replays). No controls since it is decorative."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Which is TRUE about responsive images?",
+        "options": {
+          "A": "They need JavaScript",
+          "B": "You can use srcset to provide multiple sizes for different screen densities",
+          "C": "You always load the largest version",
+          "D": "CSS cannot resize images"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>srcset</code> attribute lets you provide multiple image sizes. The browser picks the best one for the user's screen."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "Which is valid HTML for the img tag?",
+        "options": {
+          "A": "<img src=\"cat.jpg\"></img>",
+          "B": "<img>cat.jpg</img>",
+          "C": "<img src=\"cat.jpg\" alt=\"A cat\">",
+          "D": "<image src=\"cat.jpg\">"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> img is self-closing, needs src and alt, and uses <code>&lt;img&gt;</code> not <code>&lt;image&gt;</code>."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "Why should you NOT use absolute file paths like C:/photos/cat.jpg in img src?",
+        "options": {
+          "A": "They are longer",
+          "B": "They only work on your computer and break when the site is uploaded",
+          "C": "HTML forbids them",
+          "D": "Browsers cannot read them"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Absolute paths from your computer only work locally. When you upload the site to a server, those paths no longer exist. Always use relative paths or URLs."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Simple Image With Alt",
+        "difficulty": "Easy",
+        "question": "Create a complete HTML page with a heading 'My Pet' and an image of a pet with proper alt text and dimensions. Use a placeholder URL from via.placeholder.com.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A page with a heading and an image that has all the essential attributes.",
+        "constraints": "Must include alt, width, and height attributes.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>My Pet</title>\n</head>\n<body>\n  <h1>My Pet Dog</h1>\n  <p>Meet Buddy, my golden retriever who loves playing fetch.</p>\n  <img src=\"https://via.placeholder.com/400x300\" alt=\"A golden retriever sitting on grass\" width=\"400\" height=\"300\">\n</body>\n</html>",
+        "explanation": "A basic image with all essential attributes: src for the source, alt for accessibility and SEO, width and height for layout stability.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>My Pet</title>\n</head>\n<body>\n  <h1>My Cat</h1>\n  <img src=\"https://via.placeholder.com/300x300\" alt=\"A black cat with green eyes\" width=\"300\" height=\"300\">\n  <p>This is my cat Mittens.</p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Image With Caption",
+        "difficulty": "Easy",
+        "question": "Create a complete HTML page with a figure containing an image and a figcaption. Topic: a famous Indian landmark.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A page with a figure containing an image and a caption describing the landmark.",
+        "constraints": "Must use figure and figcaption elements.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Indian Landmark</title>\n</head>\n<body>\n  <h1>Famous Indian Landmarks</h1>\n  <figure>\n    <img src=\"https://via.placeholder.com/500x350\" alt=\"Taj Mahal, a white marble monument\" width=\"500\" height=\"350\">\n    <figcaption>The Taj Mahal in Agra, built in 1653 by Emperor Shah Jahan in memory of his wife Mumtaz.</figcaption>\n  </figure>\n</body>\n</html>",
+        "explanation": "The figure element groups an image with its caption. figcaption provides semantic meaning — this is the description of the image above it.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Landmark</title>\n</head>\n<body>\n  <figure>\n    <img src=\"https://via.placeholder.com/500x350\" alt=\"India Gate, a war memorial\" width=\"500\" height=\"350\">\n    <figcaption>India Gate in New Delhi, dedicated to Indian soldiers who died in World War I.</figcaption>\n  </figure>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Image Gallery of 4 Photos",
+        "difficulty": "Medium",
+        "question": "Build a complete HTML page titled 'My Photo Gallery' with 4 figures, each containing an image, alt text, and figcaption. Use lazy loading on all images. Include a heading.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A photo gallery page with 4 captioned images, all lazy-loaded.",
+        "constraints": "All 4 images must use figure, figcaption, descriptive alt, and loading=\"lazy\".",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>My Photo Gallery</title>\n</head>\n<body>\n  <h1>My Photo Gallery</h1>\n  <figure>\n    <img src=\"https://via.placeholder.com/300x200\" alt=\"Sunset at the beach\" width=\"300\" height=\"200\" loading=\"lazy\">\n    <figcaption>Sunset at Goa Beach</figcaption>\n  </figure>\n  <figure>\n    <img src=\"https://via.placeholder.com/300x200\" alt=\"Snow covered mountains\" width=\"300\" height=\"200\" loading=\"lazy\">\n    <figcaption>Himalayas in winter</figcaption>\n  </figure>\n  <figure>\n    <img src=\"https://via.placeholder.com/300x200\" alt=\"Colourful festival lights\" width=\"300\" height=\"200\" loading=\"lazy\">\n    <figcaption>Diwali lights at home</figcaption>\n  </figure>\n  <figure>\n    <img src=\"https://via.placeholder.com/300x200\" alt=\"Green rice fields\" width=\"300\" height=\"200\" loading=\"lazy\">\n    <figcaption>Rice paddies in Kerala</figcaption>\n  </figure>\n</body>\n</html>",
+        "explanation": "A complete gallery with 4 captioned figures. Lazy loading improves performance — images load only when scrolled into view. Each alt text describes what the image shows.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Gallery</title>\n</head>\n<body>\n  <h1>Gallery</h1>\n  <figure><img src=\"https://via.placeholder.com/300\" alt=\"Photo 1\" loading=\"lazy\"><figcaption>Cat 1</figcaption></figure>\n  <figure><img src=\"https://via.placeholder.com/300\" alt=\"Photo 2\" loading=\"lazy\"><figcaption>Cat 2</figcaption></figure>\n  <figure><img src=\"https://via.placeholder.com/300\" alt=\"Photo 3\" loading=\"lazy\"><figcaption>Cat 3</figcaption></figure>\n  <figure><img src=\"https://via.placeholder.com/300\" alt=\"Photo 4\" loading=\"lazy\"><figcaption>Cat 4</figcaption></figure>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Video Player With Poster",
+        "difficulty": "Medium",
+        "question": "Create a complete HTML page with a video player. The video should have controls, a poster image, width 600, and use a source tag to specify an MP4 file.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A page with a video player showing a poster image, controls, and 600px width.",
+        "constraints": "Must use video tag with controls, poster, width, and source tag.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>My Video</title>\n</head>\n<body>\n  <h1>Watch My Video</h1>\n  <video width=\"600\" controls poster=\"https://via.placeholder.com/600x400\">\n    <source src=\"my-video.mp4\" type=\"video/mp4\">\n    Your browser does not support the video tag.\n  </video>\n  <p>Click play to watch the video.</p>\n</body>\n</html>",
+        "explanation": "The video player has all the best-practice attributes: controls for user interaction, poster for the preview image, width for size, and a source tag specifying the MP4 file. Fallback text appears only for very old browsers.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Video</title>\n</head>\n<body>\n  <h1>Video</h1>\n  <video controls width=\"600\" poster=\"thumbnail.jpg\" preload=\"metadata\">\n    <source src=\"video.mp4\" type=\"video/mp4\">\n    <source src=\"video.webm\" type=\"video/webm\">\n    Video not supported.\n  </video>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Audio Player",
+        "difficulty": "Medium",
+        "question": "Create a complete HTML page with an audio player for a song. Include controls, provide two source formats (MP3 and OGG), and add a heading and description.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A page with an audio player that has controls and multiple source formats.",
+        "constraints": "Must use audio tag with controls and two source tags.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>My Song</title>\n</head>\n<body>\n  <h1>Listen to My Song</h1>\n  <p>A peaceful melody for relaxation.</p>\n  <audio controls>\n    <source src=\"song.mp3\" type=\"audio/mpeg\">\n    <source src=\"song.ogg\" type=\"audio/ogg\">\n    Your browser does not support the audio element.\n  </audio>\n  <p>Song: Peaceful Morning<br>Artist: Aarav Singh</p>\n</body>\n</html>",
+        "explanation": "An audio player with multiple source formats ensures maximum compatibility. MP3 works everywhere, OGG is an open format supported by Firefox and Chrome.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Audio</title>\n</head>\n<body>\n  <h1>My Music</h1>\n  <audio controls preload=\"metadata\">\n    <source src=\"track.mp3\" type=\"audio/mpeg\">\n    <source src=\"track.ogg\" type=\"audio/ogg\">\n    Audio not supported.\n  </audio>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Recipe Page With Images",
+        "difficulty": "Hard",
+        "question": "Build a complete recipe page for 'Chocolate Chip Cookies' with a heading, description, a main image (figure with caption), a list of ingredients, and three step images (each in a figure with figcaption). Use lazy loading.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A complete recipe page with multiple captioned images and lazy loading.",
+        "constraints": "Must use figure and figcaption for all images, lazy loading, descriptive alt text, and proper HTML structure.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Chocolate Chip Cookies</title>\n</head>\n<body>\n  <h1>Chocolate Chip Cookies</h1>\n  <p>Learn how to make soft and chewy chocolate chip cookies at home.</p>\n\n  <figure>\n    <img src=\"https://via.placeholder.com/600x400\" alt=\"A plate of freshly baked chocolate chip cookies\" width=\"600\" height=\"400\">\n    <figcaption>The finished cookies - golden brown and delicious</figcaption>\n  </figure>\n\n  <h2>Ingredients</h2>\n  <ul>\n    <li>2 cups flour</li>\n    <li>1 cup butter</li>\n    <li>1 cup sugar</li>\n    <li>2 eggs</li>\n    <li>1 cup chocolate chips</li>\n  </ul>\n\n  <h2>Steps</h2>\n  <figure>\n    <img src=\"https://via.placeholder.com/400x250\" alt=\"Mixing butter and sugar in a bowl\" width=\"400\" height=\"250\" loading=\"lazy\">\n    <figcaption>Step 1: Mix the butter and sugar</figcaption>\n  </figure>\n  <figure>\n    <img src=\"https://via.placeholder.com/400x250\" alt=\"Adding chocolate chips to the dough\" width=\"400\" height=\"250\" loading=\"lazy\">\n    <figcaption>Step 2: Fold in the chocolate chips</figcaption>\n  </figure>\n  <figure>\n    <img src=\"https://via.placeholder.com/400x250\" alt=\"Cookies on a baking tray ready for the oven\" width=\"400\" height=\"250\" loading=\"lazy\">\n    <figcaption>Step 3: Bake at 180C for 12 minutes</figcaption>\n  </figure>\n</body>\n</html>",
+        "explanation": "A complete recipe page with a main hero image (not lazy loaded since it is above the fold), an ingredients list, and three step-by-step images (all lazy loaded because they are below the fold). Every image has descriptive alt text and a caption.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Cookies</title>\n</head>\n<body>\n  <h1>Chocolate Chip Cookies</h1>\n  <figure>\n    <img src=\"hero.jpg\" alt=\"Plate of cookies\" width=\"600\">\n    <figcaption>Delicious cookies</figcaption>\n  </figure>\n  <h2>Ingredients</h2>\n  <ul>\n    <li>Flour, butter, sugar, eggs, chocolate chips</li>\n  </ul>\n  <h2>Steps</h2>\n  <figure><img src=\"s1.jpg\" alt=\"Mixing\" loading=\"lazy\"><figcaption>Mix ingredients</figcaption></figure>\n  <figure><img src=\"s2.jpg\" alt=\"Shaping\" loading=\"lazy\"><figcaption>Shape cookies</figcaption></figure>\n  <figure><img src=\"s3.jpg\" alt=\"Baking\" loading=\"lazy\"><figcaption>Bake 12 min</figcaption></figure>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-7",
+        "title": "Multi-Media Page",
+        "difficulty": "Hard",
+        "question": "Create a complete page that demonstrates all three media types — image (in figure with caption and lazy loading), video (with controls, poster, and two source formats), and audio (with controls and two source formats). Include a heading for each section.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A full page showcasing image, video, and audio tags with best practices.",
+        "constraints": "Must include all three media types with best practice attributes.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Media Showcase</title>\n</head>\n<body>\n  <h1>My Media Showcase</h1>\n  <p>This page demonstrates images, video, and audio in HTML.</p>\n\n  <h2>Featured Image</h2>\n  <figure>\n    <img src=\"https://via.placeholder.com/500x350\" alt=\"A scenic mountain landscape\" width=\"500\" height=\"350\" loading=\"lazy\">\n    <figcaption>The Himalayas at sunrise, photographed by Priya Sharma</figcaption>\n  </figure>\n\n  <h2>Watch the Video</h2>\n  <video width=\"600\" controls poster=\"https://via.placeholder.com/600x400\">\n    <source src=\"tour.mp4\" type=\"video/mp4\">\n    <source src=\"tour.webm\" type=\"video/webm\">\n    Your browser does not support video.\n  </video>\n\n  <h2>Listen to the Audio</h2>\n  <audio controls>\n    <source src=\"narration.mp3\" type=\"audio/mpeg\">\n    <source src=\"narration.ogg\" type=\"audio/ogg\">\n    Your browser does not support audio.\n  </audio>\n</body>\n</html>",
+        "explanation": "A comprehensive media showcase demonstrating every best practice: figure/figcaption for images, multiple video sources for compatibility, multiple audio sources, and proper alt text and semantic structure.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Media</title>\n</head>\n<body>\n  <h1>Media Types</h1>\n  <h2>Image</h2>\n  <figure>\n    <img src=\"pic.jpg\" alt=\"A scene\" loading=\"lazy\">\n    <figcaption>Photo caption</figcaption>\n  </figure>\n  <h2>Video</h2>\n  <video controls width=\"500\" poster=\"t.jpg\">\n    <source src=\"v.mp4\" type=\"video/mp4\">\n    <source src=\"v.webm\" type=\"video/webm\">\n  </video>\n  <h2>Audio</h2>\n  <audio controls>\n    <source src=\"a.mp3\" type=\"audio/mpeg\">\n    <source src=\"a.ogg\" type=\"audio/ogg\">\n  </audio>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-8",
+        "title": "Complete Portfolio With Media",
+        "difficulty": "Hard",
+        "question": "Build a complete portfolio home page with: a navigation bar (3 links), a main heading, a profile picture (figure with caption), a section with an intro video (with controls and poster), a gallery of 3 project screenshots (all in figures with captions and lazy loading), and a contact footer with email and phone links.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A full portfolio home page with navigation, profile image, video, image gallery, and contact info.",
+        "constraints": "Must include nav, figure for images with captions, video with controls and poster, lazy loading, and contact links.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Ananya Singh - Portfolio</title>\n</head>\n<body>\n  <nav>\n    <a href=\"index.html\">Home</a> |\n    <a href=\"projects.html\">Projects</a> |\n    <a href=\"contact.html\">Contact</a>\n  </nav>\n\n  <h1>Ananya Singh</h1>\n  <figure>\n    <img src=\"https://via.placeholder.com/200x200\" alt=\"Profile photo of Ananya Singh\" width=\"200\" height=\"200\">\n    <figcaption>Student developer from Bangalore</figcaption>\n  </figure>\n\n  <h2>Introduction Video</h2>\n  <video width=\"600\" controls poster=\"https://via.placeholder.com/600x400\">\n    <source src=\"intro.mp4\" type=\"video/mp4\">\n    Your browser does not support video.\n  </video>\n\n  <h2>My Projects</h2>\n  <figure>\n    <img src=\"https://via.placeholder.com/400x250\" alt=\"Screenshot of blog website\" width=\"400\" height=\"250\" loading=\"lazy\">\n    <figcaption>Project 1: Personal Blog</figcaption>\n  </figure>\n  <figure>\n    <img src=\"https://via.placeholder.com/400x250\" alt=\"Screenshot of recipe website\" width=\"400\" height=\"250\" loading=\"lazy\">\n    <figcaption>Project 2: Recipe Collection</figcaption>\n  </figure>\n  <figure>\n    <img src=\"https://via.placeholder.com/400x250\" alt=\"Screenshot of photo gallery\" width=\"400\" height=\"250\" loading=\"lazy\">\n    <figcaption>Project 3: Photo Gallery</figcaption>\n  </figure>\n\n  <hr>\n  <h2>Contact</h2>\n  <p>Email: <a href=\"mailto:ananya@example.com\">ananya@example.com</a></p>\n  <p>Phone: <a href=\"tel:+919876543210\">+91 98765 43210</a></p>\n</body>\n</html>",
+        "explanation": "A complete portfolio home page showcasing every media feature from this chapter plus links from chapter 4: navigation, profile figure, video player with poster and controls, a gallery of project screenshots with lazy loading, and contact info with mailto and tel links. This is a production-quality portfolio structure.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Portfolio</title>\n</head>\n<body>\n  <nav><a href=\"index.html\">Home</a> <a href=\"projects.html\">Projects</a> <a href=\"contact.html\">Contact</a></nav>\n  <h1>Rohan Kumar</h1>\n  <figure><img src=\"me.jpg\" alt=\"Rohan\" width=\"200\"><figcaption>Web developer</figcaption></figure>\n  <h2>About Video</h2>\n  <video controls width=\"600\" poster=\"thumb.jpg\"><source src=\"about.mp4\" type=\"video/mp4\"></video>\n  <h2>Projects</h2>\n  <figure><img src=\"p1.jpg\" alt=\"Project 1\" loading=\"lazy\"><figcaption>Blog</figcaption></figure>\n  <figure><img src=\"p2.jpg\" alt=\"Project 2\" loading=\"lazy\"><figcaption>Store</figcaption></figure>\n  <figure><img src=\"p3.jpg\" alt=\"Project 3\" loading=\"lazy\"><figcaption>Game</figcaption></figure>\n  <hr>\n  <p><a href=\"mailto:rohan@example.com\">Email</a> | <a href=\"tel:+910000000000\">Call</a></p>\n</body>\n</html>"
+      }
+    ]
+  }
+}

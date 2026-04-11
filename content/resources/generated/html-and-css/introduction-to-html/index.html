@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to HTML - The Language of the Web - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn what HTML is, how browsers read it, and create your very first web page that you can open in a browser.">
+    <meta name="keywords" content="introduction to html - the language of the web, html and css tutorial, html and css introduction to html - the language of the web, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/introduction-to-html">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/introduction-to-html">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/introduction-to-html">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/introduction-to-html">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/introduction-to-html">
+    <meta property="og:title" content="Introduction to HTML - The Language of the Web - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Learn what HTML is, how browsers read it, and create your very first web page that you can open in a browser.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/introduction-to-html">
+    <meta name="twitter:title" content="Introduction to HTML - The Language of the Web - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Learn what HTML is, how browsers read it, and create your very first web page that you can open in a browser.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Introduction to HTML - The Language of the Web",
+    "description": "Learn what HTML is, how browsers read it, and create your very first web page that you can open in a browser.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/introduction-to-html"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/introduction-to-html"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Introduction to HTML - The Language of the Web",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/introduction-to-html"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting the Closing Tag",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most HTML elements need both an opening tag and a closing tag. The closing tag has a forward slash: <code>&lt;/p&gt;</code>. Without it, the browser does not know where the element ends. While modern browsers often guess correctly for simple tags, you should always close your tags properly."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Wrong Case for Attributes in Quotes",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Attribute values that contain spaces or special characters must be wrapped in quotes. Without quotes, the browser thinks the first word is the value and the rest are extra attributes. Always put quotes around attribute values — it is a simple habit that prevents many bugs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Writing Content Outside the Body Tag",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "All visible content — headings, paragraphs, images, links, lists — must go inside <code>&lt;body&gt;</code>, not inside <code>&lt;head&gt;</code>. The <code>&lt;head&gt;</code> is only for metadata like the page title, character encoding, and links to CSS files. Visible content in the head section is a common beginner mistake."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Misspelling Tag Names",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "HTML has a fixed set of valid tag names. The most common mistakes are typos like <code>hedading</code> instead of <code>heading</code> (or actually <code>h1</code>), <code>paragarph</code> instead of <code>p</code>, and <code>imge</code> instead of <code>img</code>. Always double-check spelling. Valid heading tags are <code>h1</code>, <code>h2</code>, <code>h3</code>, <code>h4</code>, <code>h5</code>, <code>h6</code> — and the paragraph tag is just <code>p</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Saving File Without the .html Extension",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The file extension tells the computer what kind of file it is. A browser only opens files ending with <code>.html</code> or <code>.htm</code>. On Windows, if File Explorer hides extensions, turn them on in View settings. On Mac, make sure TextEdit is in plain text mode before saving."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Introduction to HTML - The Language of the Web</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 1</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">20 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Introduction to HTML - The Language of the Web</h1>
+            <a href="/resources/html-and-css/introduction-to-html/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is HTML?</h2><p><strong>HTML</strong> stands for <strong>HyperText Markup Language</strong>. It is the language that every web page in the world is built with. Open any website — Google, YouTube, Wikipedia, your school website — and behind the pretty pictures and buttons, there is HTML telling the browser what to show.</p><p>The word <em>HyperText</em> just means text with links (you can click a word and jump to another page). The word <em>Markup</em> means we mark the text with special labels called <strong>tags</strong> to tell the browser what each piece of content is — this is a heading, this is a paragraph, this is an image, this is a link.</p><h3>HTML Is Not a Programming Language</h3><p>This surprises many beginners. HTML is a <strong>markup language</strong>, not a programming language. It does not do math, make decisions, or loop through things. It only <em>describes</em> the structure of a page. Think of HTML as the labels on a box: it tells you what is inside, but it does not actually move the box around.</p><h3>The Three Layers of the Web</h3><table><tr><th>Layer</th><th>Role</th><th>Analogy</th></tr><tr><td><code>HTML</code></td><td>Structure — the content and its meaning</td><td>The skeleton (bones) of a body</td></tr><tr><td><code>CSS</code></td><td>Style — how things look</td><td>The skin, hair, and clothes</td></tr><tr><td><code>JavaScript</code></td><td>Behavior — making things move and react</td><td>The movement and muscles</td></tr></table><p>Every modern web page uses all three. HTML is where you start. Once you know HTML, CSS and JavaScript become much easier.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Should You Learn HTML?</h2><p>HTML is the foundation of the entire web. Here is why learning HTML first is the smartest move a young coder can make.</p><h3>1. It Is Everywhere</h3><p>Every single web page you visit — from your favourite game site to a news article — is built with HTML. If you can read HTML, you can peek inside any website and understand how it is built. Right-click any web page and choose <strong>View Page Source</strong> to see the HTML that powers it.</p><h3>2. It Is Super Beginner Friendly</h3><p>HTML does not need to be installed. You do not need a compiler, no strange setup. You only need two things: a text editor (even Notepad works) and a web browser (Chrome, Firefox, Edge). Save a file as <code>.html</code>, double-click it, and the browser shows your creation. That is it.</p><h3>3. You See Your Work Instantly</h3><p>Type a tag, save the file, refresh the browser — boom, you see the result. No waiting, no errors like in other languages. This fast feedback loop makes HTML perfect for learners aged 10-18 who want to build things and see them come alive.</p><h3>4. It Is the Gateway to Everything Else</h3><p>Want to build websites? Start with HTML. Want to learn React, Vue, or any modern framework? They all build HTML under the hood. Want to make your own portfolio, blog, or game site? HTML is step one.</p><h3>5. Creative Power</h3><p>With just HTML (and a little CSS later), you can build a personal profile page, a mini recipe book, a project showcase, or a fan page for your favourite cricket team. There are no limits on what you can create.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>A Tiny Bit of History</h3><p>HTML was invented by <strong>Tim Berners-Lee</strong> in 1991 at CERN (a giant physics lab in Europe). He wanted scientists around the world to share documents that linked to each other. He created three things that became the World Wide Web: the first web server, the first web browser, and HTML. The very first web page ever made is still online — it is just plain text with a few links.</p><p>Over the years HTML has grown. The version we use today is <strong>HTML5</strong>, released in 2014. HTML5 added support for audio, video, canvas drawings, and much more. When you write HTML today, you are writing HTML5.</p><h3>Tags and Elements</h3><p>HTML uses <strong>tags</strong> to label content. A tag looks like this: <code>&lt;p&gt;</code>. Most tags come in pairs — an opening tag and a closing tag. The closing tag has a forward slash:</p><ul><li><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></li><li><code>&lt;h1&gt;This is a heading.&lt;/h1&gt;</code></li></ul><p>The opening tag, the closing tag, and everything in between together form an <strong>element</strong>. So <code>&lt;p&gt;Hello&lt;/p&gt;</code> is one element — a paragraph element containing the word Hello.</p><h3>Self-Closing (Void) Tags</h3><p>Some tags do not have content inside them, so they do not need a closing tag. These are called <strong>void</strong> or <strong>self-closing</strong> tags. Examples:</p><ul><li><code>&lt;img src="cat.jpg" alt="A cat"&gt;</code> — shows an image</li><li><code>&lt;br&gt;</code> — a line break</li><li><code>&lt;hr&gt;</code> — a horizontal line</li><li><code>&lt;input type="text"&gt;</code> — an input box</li></ul><h3>Attributes</h3><p>Tags can have <strong>attributes</strong> — extra information written inside the opening tag. Attributes come in <code>name="value"</code> pairs. For example:</p><p><code>&lt;a href="https://google.com"&gt;Go to Google&lt;/a&gt;</code></p><p>Here <code>&lt;a&gt;</code> is the anchor (link) tag and <code>href</code> is an attribute that tells the browser where to go when clicked. Attributes work like settings on a tag — they customise how it behaves.</p><h3>How the Browser Reads HTML</h3><p>When you open an HTML file, the browser reads it from top to bottom and builds a tree of elements called the <strong>DOM</strong> (Document Object Model). The browser then paints the DOM onto the screen as the web page you see. This all happens in milliseconds.</p><h3>How to Create Your First HTML File</h3><p>Follow these steps to build your first web page:</p><ol><li>Open any text editor (Notepad on Windows, TextEdit on Mac, or VS Code if you have it)</li><li>Type the HTML code from Example 1 below</li><li>Save the file as <code>index.html</code> (make sure it ends with <code>.html</code>, not <code>.txt</code>)</li><li>Double-click the file — your default browser opens and shows your page</li><li>To edit, open the file in your text editor, change something, save, and refresh the browser</li></ol><p>Congratulations — you are now a web developer. Seriously. Every professional started right here.</p><h3>HTML Is Forgiving</h3><p>Unlike programming languages that crash on the smallest mistake, HTML is very forgiving. If you misspell a tag, the browser usually just ignores it. If you forget a closing tag, the browser often fixes it for you. This makes HTML perfect for learning — you will not get scary error messages when you are just starting out.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Your Very First HTML Page</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My First Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello, I am Aarav&lt;/h1&gt;
+  &lt;p&gt;Welcome to my very first web page.&lt;/p&gt;
+  &lt;p&gt;I am learning HTML and it is amazing.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Save this as <code>index.html</code> and double-click it. The browser will show a big heading and two paragraphs. <code>&lt;!DOCTYPE html&gt;</code> tells the browser this is HTML5. <code>&lt;html&gt;</code> wraps everything. <code>&lt;head&gt;</code> holds information about the page (like the title shown on the browser tab). <code>&lt;body&gt;</code> holds the visible content. <code>&lt;h1&gt;</code> is a big heading and <code>&lt;p&gt;</code> is a paragraph.</div><div class="code-example-output">A page with a big heading &#39;Hello, I am Aarav&#39; and two paragraphs below it.</div></div>
+<div class="code-example"><div class="code-example-title">A Profile Card With Multiple Elements</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Priya&#39;s Profile&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Priya Sharma&lt;/h1&gt;
+  &lt;h2&gt;Class 9 Student&lt;/h2&gt;
+  &lt;p&gt;I love coding, mathematics, and painting.&lt;/p&gt;
+  &lt;h3&gt;My Hobbies&lt;/h3&gt;
+  &lt;p&gt;Reading mystery books, solving puzzles, and learning HTML.&lt;/p&gt;
+  &lt;h3&gt;My Goal&lt;/h3&gt;
+  &lt;p&gt;To build a website about my favourite science experiments.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This example uses three different heading levels (<code>h1</code>, <code>h2</code>, <code>h3</code>) to show a hierarchy. The biggest heading is <code>h1</code> (the most important), <code>h2</code> is a sub-heading, and <code>h3</code> is smaller. Paragraphs give details under each heading. Notice how elements are nested neatly inside <code>&lt;body&gt;</code>.</div><div class="code-example-output">A web page titled &#39;Priya&#39;s Profile&#39; with a big name heading, a subtitle, and sections for hobbies and goals.</div></div>
+<div class="code-example"><div class="code-example-title">Using Self-Closing Tags: Image and Line Break</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Self-Closing Tags Demo&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;My Favourite Animal&lt;/h1&gt;
+  &lt;p&gt;I love dogs because they are loyal and playful.&lt;/p&gt;
+  &lt;img src=&quot;https://placedog.net/400/300&quot; alt=&quot;A cute dog&quot;&gt;
+  &lt;hr&gt;
+  &lt;p&gt;First line of text.&lt;br&gt;Second line after a line break.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This example shows three self-closing tags. <code>&lt;img&gt;</code> displays an image — the <code>src</code> attribute is the image address and <code>alt</code> is text shown if the image fails to load (also read by screen readers). <code>&lt;hr&gt;</code> draws a horizontal line across the page. <code>&lt;br&gt;</code> creates a line break inside a paragraph. None of these tags have a closing tag because they do not wrap content.</div><div class="code-example-output">A heading, a paragraph, an image of a dog, a horizontal line, and then a paragraph that splits into two lines.</div></div>
+<div class="code-example"><div class="code-example-title">Links With Attributes</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My Favourite Sites&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Rohan&#39;s Favourite Websites&lt;/h1&gt;
+  &lt;p&gt;Here are some sites I visit every day:&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.google.com&quot;&gt;Visit Google&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.wikipedia.org&quot;&gt;Visit Wikipedia&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://learn.modernagecoders.com&quot;&gt;Modern Age Coders&lt;/a&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The <code>&lt;a&gt;</code> (anchor) tag creates a clickable link. The <code>href</code> attribute is the destination. The text between the opening and closing tags is what the user sees and clicks on. This example has three links inside paragraphs. Click any of them to go to that website.</div><div class="code-example-output">A heading and three blue underlined links that users can click to visit the sites.</div></div>
+<div class="code-example"><div class="code-example-title">Lists: Ordered and Unordered</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My Lists&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Ananya&#39;s Weekend Plan&lt;/h1&gt;
+  &lt;h2&gt;Things To Do (in order)&lt;/h2&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Finish homework&lt;/li&gt;
+    &lt;li&gt;Practice HTML&lt;/li&gt;
+    &lt;li&gt;Go cycling with friends&lt;/li&gt;
+    &lt;li&gt;Watch a movie&lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;h2&gt;Snacks I Love (any order)&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Samosa&lt;/li&gt;
+    &lt;li&gt;Mango&lt;/li&gt;
+    &lt;li&gt;Chocolate&lt;/li&gt;
+    &lt;li&gt;Popcorn&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">HTML has two kinds of lists. <code>&lt;ol&gt;</code> is an ordered (numbered) list — browsers automatically number each item 1, 2, 3. <code>&lt;ul&gt;</code> is an unordered (bullet) list. Inside both, each item goes inside <code>&lt;li&gt;</code> (list item) tags. This shows how HTML tags can be nested neatly inside each other.</div><div class="code-example-output">A numbered list of weekend tasks and a bulleted list of favourite snacks.</div></div>
+<div class="code-example"><div class="code-example-title">Mini Fan Page — Everything Together</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My Cricket Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;My Favourite Cricketer&lt;/h1&gt;
+  &lt;img src=&quot;https://via.placeholder.com/300x200&quot; alt=&quot;Cricket player&quot;&gt;
+  &lt;h2&gt;Why I Admire Him&lt;/h2&gt;
+  &lt;p&gt;He is calm under pressure and never gives up, even when the team is losing.&lt;/p&gt;
+  &lt;h2&gt;His Top Achievements&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Scored a century in the World Cup final&lt;/li&gt;
+    &lt;li&gt;Broke the record for most runs in a season&lt;/li&gt;
+    &lt;li&gt;Led his team to the championship&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;hr&gt;
+  &lt;p&gt;Learn more on &lt;a href=&quot;https://en.wikipedia.org&quot;&gt;Wikipedia&lt;/a&gt;.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This example combines everything you learned so far: headings, paragraphs, an image, a list, a horizontal line, and a link. This is a real mini web page you can actually build in five minutes. Save it, open it, and show your family — you just made your first fan page with only HTML.</div><div class="code-example-output">A complete fan page with a heading, image, subheadings, a bulleted list of achievements, a line, and a link at the bottom.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting the Closing Tag</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;p&gt;This paragraph is missing its closing tag.
+&lt;p&gt;This is another paragraph.</code></pre></div><div class="error-message">The browser tries to guess where the first paragraph ends, which can cause strange layouts, especially inside lists or tables.</div><div class="correct-code"><pre><code class="language-python">&lt;p&gt;This paragraph has a proper closing tag.&lt;/p&gt;
+&lt;p&gt;This is another paragraph.&lt;/p&gt;</code></pre></div><div class="mistake-explanation">Most HTML elements need both an opening tag and a closing tag. The closing tag has a forward slash: <code>&lt;/p&gt;</code>. Without it, the browser does not know where the element ends. While modern browsers often guess correctly for simple tags, you should always close your tags properly.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Wrong Case for Attributes in Quotes</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;img src=cat.jpg alt=My cat&gt;</code></pre></div><div class="error-message">The alt text becomes only &#39;My&#39; because the space ends the value. The browser gets confused.</div><div class="correct-code"><pre><code class="language-python">&lt;img src=&quot;cat.jpg&quot; alt=&quot;My cat&quot;&gt;</code></pre></div><div class="mistake-explanation">Attribute values that contain spaces or special characters must be wrapped in quotes. Without quotes, the browser thinks the first word is the value and the rest are extra attributes. Always put quotes around attribute values — it is a simple habit that prevents many bugs.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Writing Content Outside the Body Tag</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;h1&gt;My Page&lt;/h1&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div><div class="error-message">The heading might still show, but it is incorrect HTML and will cause problems with CSS, JavaScript, and accessibility tools later.</div><div class="correct-code"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;My Page&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div><div class="mistake-explanation">All visible content — headings, paragraphs, images, links, lists — must go inside <code>&lt;body&gt;</code>, not inside <code>&lt;head&gt;</code>. The <code>&lt;head&gt;</code> is only for metadata like the page title, character encoding, and links to CSS files. Visible content in the head section is a common beginner mistake.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Misspelling Tag Names</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;hedading&gt;Welcome&lt;/hedading&gt;
+&lt;paragarph&gt;This is text.&lt;/paragarph&gt;</code></pre></div><div class="error-message">The browser does not recognise &lt;code&gt;&amp;lt;hedading&amp;gt;&lt;/code&gt; or &lt;code&gt;&amp;lt;paragarph&amp;gt;&lt;/code&gt;, so it treats them as plain unknown text with no styling.</div><div class="correct-code"><pre><code class="language-python">&lt;h1&gt;Welcome&lt;/h1&gt;
+&lt;p&gt;This is text.&lt;/p&gt;</code></pre></div><div class="mistake-explanation">HTML has a fixed set of valid tag names. The most common mistakes are typos like <code>hedading</code> instead of <code>heading</code> (or actually <code>h1</code>), <code>paragarph</code> instead of <code>p</code>, and <code>imge</code> instead of <code>img</code>. Always double-check spelling. Valid heading tags are <code>h1</code>, <code>h2</code>, <code>h3</code>, <code>h4</code>, <code>h5</code>, <code>h6</code> — and the paragraph tag is just <code>p</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Saving File Without the .html Extension</h3>
+                <div class="wrong-code"><pre><code class="language-python">File saved as: mypage.txt
+(This contains valid HTML code)</code></pre></div><div class="error-message">When you double-click the file, it opens in a text editor instead of the browser, and HTML tags are shown as plain text.</div><div class="correct-code"><pre><code class="language-python">File saved as: mypage.html</code></pre></div><div class="mistake-explanation">The file extension tells the computer what kind of file it is. A browser only opens files ending with <code>.html</code> or <code>.htm</code>. On Windows, if File Explorer hides extensions, turn them on in View settings. On Mac, make sure TextEdit is in plain text mode before saving.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>HTML stands for HyperText Markup Language and is the foundation of every web page on the internet.</li>
+<li>HTML is a markup language, not a programming language — it describes structure and content but does not make decisions or calculations.</li>
+<li>The web uses three layers: HTML for structure, CSS for style, and JavaScript for behavior. Together they make modern web pages.</li>
+<li>Tim Berners-Lee invented HTML in 1991. The version used today is HTML5, released in 2014.</li>
+<li>HTML uses tags to label content. Most tags come in pairs: an opening tag like &lt;p&gt; and a closing tag like &lt;/p&gt;. Together with the content inside, they form an element.</li>
+<li>Some tags are self-closing and have no content inside them, like &lt;img&gt;, &lt;br&gt;, &lt;hr&gt;, and &lt;input&gt;. These do not need a closing tag.</li>
+<li>Attributes add extra information to tags. They look like name=&quot;value&quot; pairs, for example href=&quot;https://google.com&quot; on an anchor tag.</li>
+<li>To create a web page, write HTML in any text editor, save with a .html extension, and double-click to open in a browser.</li>
+<li>Every HTML file should have a &lt;!DOCTYPE html&gt; at the top and an &lt;html&gt; element containing a &lt;head&gt; (metadata) and a &lt;body&gt; (visible content).</li>
+<li>HTML is forgiving — small mistakes usually do not crash the page, which makes it perfect for beginners to experiment and learn by doing.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/html-structure-and-boilerplate" class="related-topic-link">HTML Document Structure and Boilerplate</a>
+<a href="/resources/html-and-css/headings-paragraphs-and-text" class="related-topic-link">Headings, Paragraphs, and Text Formatting</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            
+            <a href="/resources/html-and-css/html-structure-and-boilerplate" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">HTML Document Structure and Boilerplate</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/introduction-to-html/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

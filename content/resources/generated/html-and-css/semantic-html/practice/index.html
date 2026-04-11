@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Semantic HTML - header, nav, main, section, article, footer | HTML and CSS | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="55+ practice questions on Semantic HTML - header, nav, main, section, article, footer in HTML and CSS. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="semantic html - header, nav, main, section, article, footer practice, html and css questions, html and css practice problems, semantic html - header, nav, main, section, article, footer exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/semantic-html/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/semantic-html/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/semantic-html/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/semantic-html/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/semantic-html/practice">
+    <meta property="og:title" content="Practice Questions - Semantic HTML - header, nav, main, section, article, footer | HTML and CSS | Modern Age Coders">
+    <meta property="og:description" content="55+ practice questions on Semantic HTML - header, nav, main, section, article, footer in HTML and CSS. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/semantic-html/practice">
+    <meta name="twitter:title" content="Practice Questions - Semantic HTML - header, nav, main, section, article, footer | HTML and CSS | Modern Age Coders">
+    <meta name="twitter:description" content="55+ practice questions on Semantic HTML - header, nav, main, section, article, footer in HTML and CSS. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Semantic HTML - header, nav, main, section, article, footer",
+    "description": "55+ practice questions on Semantic HTML - header, nav, main, section, article, footer in HTML and CSS.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Semantic HTML - header, nav, main, section, article, footer"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/semantic-html/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Semantic HTML - header, nav, main, section, article, footer",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/semantic-html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/semantic-html/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css/semantic-html">Semantic HTML - header, nav, main, section, article, footer</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 8</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">55 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Semantic HTML - header, nav, main, section, article, footer</h1>
+            <a href="/resources/html-and-css/semantic-html" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">17</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">14</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which tag represents the main navigation menu of a page?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Short for 'navigation'.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>&lt;nav&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which tag should wrap the unique main content of a page?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">There should be only one of these per page.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>&lt;main&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Convert this div soup to semantic HTML:<br><pre><code>&lt;div class="top"&gt;Logo&lt;/div&gt;
+&lt;div class="middle"&gt;Content&lt;/div&gt;
+&lt;div class="bottom"&gt;Copyright&lt;/div&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Use header, main, and footer.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><pre><code>&lt;header&gt;Logo&lt;/header&gt;
+&lt;main&gt;Content&lt;/main&gt;
+&lt;footer&gt;Copyright&lt;/footer&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which tag is used for a self-contained piece of content like a blog post?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">It should make sense on its own.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>&lt;article&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Create a page footer containing a copyright notice for 'Modern Age Coders' with the current year 2026.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Use footer and copyright entity.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><pre><code>&lt;footer&gt;
+  &lt;p&gt;&amp;copy; 2026 Modern Age Coders. All rights reserved.&lt;/p&gt;
+&lt;/footer&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which tag marks up a date in a machine-readable way?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">It has a datetime attribute.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>&lt;time&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Wrap this image with a figure and caption 'Figure 1: Our team photo'.<br><pre><code>&lt;img src="team.jpg" alt="Our team"&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Use figure and figcaption.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><pre><code>&lt;figure&gt;
+  &lt;img src="team.jpg" alt="Our team"&gt;
+  &lt;figcaption&gt;Figure 1: Our team photo&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which tag is for content related to but separate from the main content (like a sidebar)?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Think 'aside from the main'.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>&lt;aside&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is wrong with this HTML?<br><pre><code>&lt;main&gt;
+  &lt;header&gt;Site Logo&lt;/header&gt;
+  &lt;p&gt;Content&lt;/p&gt;
+&lt;/main&gt;
+&lt;footer&gt;Copyright&lt;/footer&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Where does the site-wide header belong?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">The site header should be OUTSIDE the main tag, not inside. main is only for the unique content.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Wrap this navigation list in a proper semantic tag:<br><pre><code>&lt;ul&gt;
+  &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="/about"&gt;About&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Use the navigation tag.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><pre><code>&lt;nav&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/about"&gt;About&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which semantic tag should you use for a blog post's title, author, and publish date area?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">It is the top of the article.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>&lt;header&gt;</code> (inside the <code>&lt;article&gt;</code>)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Identify what is wrong:<br><pre><code>&lt;main&gt;
+  &lt;h1&gt;Welcome&lt;/h1&gt;
+&lt;/main&gt;
+&lt;main&gt;
+  &lt;h1&gt;More Content&lt;/h1&gt;
+&lt;/main&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">There is a rule about how many of this tag a page can have.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">A page should have only ONE <code>&lt;main&gt;</code>. Combine them into one main with two sections.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Create a semantic layout for a page with: site header containing nav (Home, Blog), main containing one article with title 'Hello World', and a footer with copyright.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">header > nav, main > article, footer.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><pre><code>&lt;header&gt;
+  &lt;h1&gt;My Site&lt;/h1&gt;
+  &lt;nav&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/blog"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;
+&lt;main&gt;
+  &lt;article&gt;
+    &lt;h2&gt;Hello World&lt;/h2&gt;
+    &lt;p&gt;This is my first blog post!&lt;/p&gt;
+  &lt;/article&gt;
+&lt;/main&gt;
+&lt;footer&gt;
+  &lt;p&gt;&amp;copy; 2026 My Site&lt;/p&gt;
+&lt;/footer&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between section and article?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Think about whether the content makes sense alone.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14">article = standalone content that could be reposted elsewhere (blog post). section = a thematic part of a page that only makes sense in context (Features section).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Identify what semantic tag each div should become in this HTML:<br><pre><code>&lt;div class="top"&gt;logo and menu&lt;/div&gt;
+&lt;div class="content"&gt;
+  &lt;div class="post"&gt;blog post&lt;/div&gt;
+  &lt;div class="sidebar"&gt;related&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="bottom"&gt;copyright&lt;/div&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">top=header, content=main, post=article, sidebar=aside, bottom=footer.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><pre><code>&lt;header&gt;logo and menu&lt;/header&gt;
+&lt;main&gt;
+  &lt;article&gt;blog post&lt;/article&gt;
+  &lt;aside&gt;related&lt;/aside&gt;
+&lt;/main&gt;
+&lt;footer&gt;copyright&lt;/footer&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is semantic HTML good for SEO?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Think about what Google sees.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">Google reads your HTML to understand page structure. Semantic tags tell Google what is a heading, what is navigation, what is the main content, and what is an article. This helps rank your page correctly.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Build a semantic layout for a news article: the article has a header with h1 and publish time, 2 paragraphs, a figure with image and caption, and an address with the reporter's name.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">article > header, p, p, figure, address.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><pre><code>&lt;article&gt;
+  &lt;header&gt;
+    &lt;h1&gt;Breaking News&lt;/h1&gt;
+    &lt;time datetime="2026-04-11"&gt;11 April 2026&lt;/time&gt;
+  &lt;/header&gt;
+  &lt;p&gt;First paragraph of the story.&lt;/p&gt;
+  &lt;p&gt;More details follow.&lt;/p&gt;
+  &lt;figure&gt;
+    &lt;img src="news.jpg" alt="News photo"&gt;
+    &lt;figcaption&gt;Photo from the scene.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;address&gt;Reported by Priya Sharma&lt;/address&gt;
+&lt;/article&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does the datetime attribute on the time tag do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">It makes the date readable by computers.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18">It provides a machine-readable version of the date in ISO format (like 2026-04-11), even if the visible text is formatted differently.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Priya wrote this but the page feels wrong semantically. What should the divs become?<br><pre><code>&lt;div class="header"&gt;
+  &lt;div class="title"&gt;Blog&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="posts"&gt;
+  &lt;div class="post"&gt;Post 1&lt;/div&gt;
+  &lt;div class="post"&gt;Post 2&lt;/div&gt;
+&lt;/div&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">header for the header, main for posts, article for each post.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><pre><code>&lt;header&gt;
+  &lt;h1&gt;Blog&lt;/h1&gt;
+&lt;/header&gt;
+&lt;main&gt;
+  &lt;article&gt;Post 1&lt;/article&gt;
+  &lt;article&gt;Post 2&lt;/article&gt;
+&lt;/main&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Should every img tag be wrapped in a figure?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Figure is for specific types of content.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20">No. Use <figure> only for images that are meaningful content (illustrations, diagrams, photos with captions). Decorative images like logos and icons do not need figure.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Build a complete semantic HTML page for a blog with: a site header (logo + nav), main area with 2 blog articles (each with own header and footer), an aside for related posts, and a site footer.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">Combine header, nav, main, article, aside, footer.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21"><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+&lt;header&gt;
+  &lt;h1&gt;Tech Blog&lt;/h1&gt;
+  &lt;nav&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/about"&gt;About&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;
+&lt;main&gt;
+  &lt;article&gt;
+    &lt;header&gt;
+      &lt;h2&gt;Post 1&lt;/h2&gt;
+      &lt;time datetime="2026-04-10"&gt;10 April&lt;/time&gt;
+    &lt;/header&gt;
+    &lt;p&gt;First post content.&lt;/p&gt;
+    &lt;footer&gt;Tags: html&lt;/footer&gt;
+  &lt;/article&gt;
+  &lt;article&gt;
+    &lt;header&gt;
+      &lt;h2&gt;Post 2&lt;/h2&gt;
+      &lt;time datetime="2026-04-09"&gt;9 April&lt;/time&gt;
+    &lt;/header&gt;
+    &lt;p&gt;Second post content.&lt;/p&gt;
+    &lt;footer&gt;Tags: css&lt;/footer&gt;
+  &lt;/article&gt;
+  &lt;aside&gt;
+    &lt;h3&gt;Popular Posts&lt;/h3&gt;
+    &lt;ul&gt;&lt;li&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+  &lt;/aside&gt;
+&lt;/main&gt;
+&lt;footer&gt;
+  &lt;p&gt;&amp;copy; 2026 Tech Blog&lt;/p&gt;
+&lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">How do screen readers benefit from semantic HTML?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">Screen readers announce things and let users navigate.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22">Screen readers can announce landmarks (header, nav, main, footer) and let users jump between them. Users can list all headings, skip to main, or find the nav — none of which works with plain divs.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Rohan wrote this and claims it is semantic. What is still wrong?<br><pre><code>&lt;main&gt;
+  &lt;header&gt;Site Title&lt;/header&gt;
+  &lt;nav&gt;Menu&lt;/nav&gt;
+  &lt;div&gt;Article 1&lt;/div&gt;
+  &lt;div&gt;Article 2&lt;/div&gt;
+&lt;/main&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-23">Two things: site header/nav in wrong place, and divs should be articles.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-23">(1) The site header and nav should be OUTSIDE main, not inside. (2) The divs should be <code>&lt;article&gt;</code> tags since they represent standalone content.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 24</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Is it valid to put a <header> inside an <article>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-24" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-24">Yes, and it has a specific purpose.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-24">Yes, absolutely. An <article> can have its own <header> containing the article's title, author, and publish date. This is separate from the page's main header.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which tag wraps the main navigation of a site?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Short for navigation.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>&lt;nav&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a simple semantic structure: header with h1 'Hello', main with a paragraph 'Welcome', and footer with '2026'.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Three top-level tags.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><pre><code>&lt;header&gt;
+  &lt;h1&gt;Hello&lt;/h1&gt;
+&lt;/header&gt;
+&lt;main&gt;
+  &lt;p&gt;Welcome&lt;/p&gt;
+&lt;/main&gt;
+&lt;footer&gt;
+  &lt;p&gt;2026&lt;/p&gt;
+&lt;/footer&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the maximum number of <main> tags allowed on a page?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">There is exactly one allowed.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">One (exactly one main per page).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which tag is for a blog post, news article, or other standalone content?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">It could be reposted elsewhere and still make sense.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>&lt;article&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What semantic tag should replace the div?<br><pre><code>&lt;div&gt;
+  &lt;p&gt;&amp;copy; 2026 My Site&lt;/p&gt;
+&lt;/div&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Copyright info belongs at the bottom.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>&lt;footer&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Create a semantic section with heading 'Our Services' containing 3 articles (service cards), each with its own h3 and paragraph.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">section > h2, article, article, article.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>&lt;section&gt;
+  &lt;h2&gt;Our Services&lt;/h2&gt;
+  &lt;article&gt;
+    &lt;h3&gt;Web Design&lt;/h3&gt;
+    &lt;p&gt;Beautiful websites.&lt;/p&gt;
+  &lt;/article&gt;
+  &lt;article&gt;
+    &lt;h3&gt;App Development&lt;/h3&gt;
+    &lt;p&gt;Mobile apps for iOS and Android.&lt;/p&gt;
+  &lt;/article&gt;
+  &lt;article&gt;
+    &lt;h3&gt;SEO&lt;/h3&gt;
+    &lt;p&gt;Rank higher on Google.&lt;/p&gt;
+  &lt;/article&gt;
+&lt;/section&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">True or false: an <article> can contain its own <header> and <footer>.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Think about blog posts having titles and tags.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">True. An article commonly has an inner header (title, author, date) and inner footer (tags, share buttons).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Wrap a date in a time tag: '20 March 2026' with a proper datetime attribute.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">ISO format is YYYY-MM-DD.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><pre><code>&lt;time datetime="2026-03-20"&gt;20 March 2026&lt;/time&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is div soup?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">It describes a common mistake.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">Using only <div> tags for everything on a page instead of semantic tags. It means nothing to browsers, search engines, or screen readers.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is this wrong?<br><pre><code>&lt;section&gt;
+  &lt;p&gt;Just some random paragraphs.&lt;/p&gt;
+&lt;/section&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Section should usually have a heading.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">A <code>&lt;section&gt;</code> should have a heading (h1-h6) that names its theme. Without a heading, a plain div is more appropriate.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Create a figure with an image (placeholder) and a caption that says 'Our office building'.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">figure > img, figcaption.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>&lt;figure&gt;
+  &lt;img src="office.jpg" alt="Office building"&gt;
+  &lt;figcaption&gt;Our office building&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the purpose of the <address> tag?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Not for any address - only contact info.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">It holds contact information for the nearest article or for the whole page — email, phone, or author name.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write the semantic markup for a product card: an article with a figure (image), h3 (product name), p (description), p (price), and a button (Buy now).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">article > figure, h3, p, p, button.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><pre><code>&lt;article&gt;
+  &lt;figure&gt;
+    &lt;img src="shoes.jpg" alt="Running shoes"&gt;
+  &lt;/figure&gt;
+  &lt;h3&gt;Running Shoes&lt;/h3&gt;
+  &lt;p&gt;Comfortable shoes for daily runs.&lt;/p&gt;
+  &lt;p&gt;Price: Rs 2499&lt;/p&gt;
+  &lt;button&gt;Buy Now&lt;/button&gt;
+&lt;/article&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Which three benefits does semantic HTML provide?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">Think about search engines, users with disabilities, and other developers.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14">(1) Better SEO (search engines understand the structure). (2) Better accessibility (screen readers can navigate). (3) Better maintainability (easier to read and edit).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">This layout is not properly semantic. List the changes needed:<br><pre><code>&lt;div&gt;Logo&lt;/div&gt;
+&lt;div&gt;&lt;ul&gt;&lt;li&gt;Home&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+&lt;div&gt;
+  &lt;div&gt;Blog post content&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;Copyright&lt;/div&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-15">5 divs to 5 semantic tags.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-15">(1) First div → header. (2) Second div → nav. (3) Third div → main. (4) Inner div → article. (5) Last div → footer.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which tag represents the navigation menu of a website?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;menu&gt;</li><li><span class="mcq-option-label">B.</span> &lt;nav&gt;</li><li><span class="mcq-option-label">C.</span> &lt;navigation&gt;</li><li><span class="mcq-option-label">D.</span> &lt;links&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>&lt;nav&gt;</code> wraps the main navigation links of a site. <code>&lt;menu&gt;</code> exists but is rarely used and not for main nav.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">How many <main> tags should a page have?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Zero</li><li><span class="mcq-option-label">B.</span> Exactly one</li><li><span class="mcq-option-label">C.</span> One per section</li><li><span class="mcq-option-label">D.</span> Unlimited</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> A page should have exactly one <code>&lt;main&gt;</code> containing the unique primary content.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which tag is for a standalone blog post?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;section&gt;</li><li><span class="mcq-option-label">B.</span> &lt;article&gt;</li><li><span class="mcq-option-label">C.</span> &lt;post&gt;</li><li><span class="mcq-option-label">D.</span> &lt;div&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>&lt;article&gt;</code> is for self-contained content like blog posts, news articles, and product cards. <code>&lt;section&gt;</code> is for thematic groupings within a page.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which tag is for content related to but separate from the main content (like a sidebar)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;side&gt;</li><li><span class="mcq-option-label">B.</span> &lt;sidebar&gt;</li><li><span class="mcq-option-label">C.</span> &lt;aside&gt;</li><li><span class="mcq-option-label">D.</span> &lt;extra&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>&lt;aside&gt;</code> is for tangentially related content — sidebars, pull quotes, related links.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What tag should wrap an image with a caption?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;caption&gt;</li><li><span class="mcq-option-label">B.</span> &lt;figure&gt;</li><li><span class="mcq-option-label">C.</span> &lt;img-caption&gt;</li><li><span class="mcq-option-label">D.</span> &lt;picture&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>&lt;figure&gt;</code> wraps content (image, diagram, code) that has a caption using <code>&lt;figcaption&gt;</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which tag holds a machine-readable date?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;date&gt;</li><li><span class="mcq-option-label">B.</span> &lt;time&gt;</li><li><span class="mcq-option-label">C.</span> &lt;datetime&gt;</li><li><span class="mcq-option-label">D.</span> &lt;clock&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>&lt;time&gt;</code> tag with a <code>datetime</code> attribute lets browsers and search engines understand dates.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Which tag is used at the bottom of a page for copyright and site info?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;bottom&gt;</li><li><span class="mcq-option-label">B.</span> &lt;footer&gt;</li><li><span class="mcq-option-label">C.</span> &lt;end&gt;</li><li><span class="mcq-option-label">D.</span> &lt;copyright&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>&lt;footer&gt;</code> wraps the bottom part of a page or section. Commonly holds copyright, contact info, and footer links.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is 'div soup'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A type of CSS</li><li><span class="mcq-option-label">B.</span> A popular framework</li><li><span class="mcq-option-label">C.</span> Using only &lt;div&gt; tags instead of semantic tags</li><li><span class="mcq-option-label">D.</span> A way to style divs</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Div soup is slang for HTML that uses only div tags, giving the page no semantic meaning. Semantic HTML is the fix.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which tag is used for the header of a page or article?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;head&gt;</li><li><span class="mcq-option-label">B.</span> &lt;top&gt;</li><li><span class="mcq-option-label">C.</span> &lt;header&gt;</li><li><span class="mcq-option-label">D.</span> &lt;h1&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>&lt;header&gt;</code> is the semantic header tag. <code>&lt;head&gt;</code> is the meta-information section of an HTML document (not visible).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is the main benefit of using semantic HTML for SEO?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Faster loading</li><li><span class="mcq-option-label">B.</span> Helps search engines understand page structure</li><li><span class="mcq-option-label">C.</span> Automatic translations</li><li><span class="mcq-option-label">D.</span> Better CSS</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Search engines use semantic tags to understand what parts of your page are navigation, main content, headings, and so on. This helps them rank your page correctly.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Where should the site-wide header and footer be placed relative to <main>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Inside &lt;main&gt;</li><li><span class="mcq-option-label">B.</span> As siblings of &lt;main&gt;</li><li><span class="mcq-option-label">C.</span> Inside &lt;body&gt; but wrapped in &lt;main&gt;</li><li><span class="mcq-option-label">D.</span> Anywhere on the page</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> The site header and footer are NOT part of the main content. They should be siblings of <code>&lt;main&gt;</code> (header above, footer below).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Can an <article> contain its own <header> and <footer>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, only the page can have a header</li><li><span class="mcq-option-label">B.</span> Yes, an article can have its own header and footer</li><li><span class="mcq-option-label">C.</span> Only if the article is the only one on the page</li><li><span class="mcq-option-label">D.</span> Only the header, not the footer</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Header and footer belong to their nearest containing element. An article can have its own header (title, author) and footer (tags, metadata).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Which is correct for a list of blog posts on a homepage?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;main&gt;&lt;div class=&#39;post&#39;&gt;...&lt;/div&gt;&lt;/main&gt;</li><li><span class="mcq-option-label">B.</span> &lt;main&gt;&lt;article&gt;...&lt;/article&gt;&lt;article&gt;...&lt;/article&gt;&lt;/main&gt;</li><li><span class="mcq-option-label">C.</span> &lt;main&gt;&lt;section&gt;Post 1&lt;/section&gt;&lt;section&gt;Post 2&lt;/section&gt;&lt;/main&gt;</li><li><span class="mcq-option-label">D.</span> &lt;article&gt;&lt;main&gt;Post 1&lt;/main&gt;&lt;main&gt;Post 2&lt;/main&gt;&lt;/article&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> Each blog post is a standalone piece of content, so wrap each in <code>&lt;article&gt;</code>. The main tag contains all the articles.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which tag should you use for the contact info of a page's author?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;contact&gt;</li><li><span class="mcq-option-label">B.</span> &lt;address&gt;</li><li><span class="mcq-option-label">C.</span> &lt;info&gt;</li><li><span class="mcq-option-label">D.</span> &lt;footer&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>&lt;address&gt;</code> is specifically for the author's contact info. It is NOT for random postal addresses that are part of regular content.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">When should you use <section> over <div>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Never</li><li><span class="mcq-option-label">B.</span> When the content has a heading and is a thematic group</li><li><span class="mcq-option-label">C.</span> For every container</li><li><span class="mcq-option-label">D.</span> Only in the main tag</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Use <code>&lt;section&gt;</code> when you have a thematic group of content, usually with a heading. Use <code>&lt;div&gt;</code> for purely presentational/styling wrappers that have no semantic meaning.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the difference between article and section?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are the same</li><li><span class="mcq-option-label">B.</span> Article is standalone content; section is a thematic part of a page</li><li><span class="mcq-option-label">C.</span> Section is for blog posts; article is for pages</li><li><span class="mcq-option-label">D.</span> Article is bigger than section</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> Article = standalone content that could be reposted elsewhere. Section = a thematic group that only makes sense in context.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Which semantic tag is best for the author and publish date of a blog post?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;aside&gt;</li><li><span class="mcq-option-label">B.</span> &lt;header&gt; (inside the article)</li><li><span class="mcq-option-label">C.</span> &lt;footer&gt;</li><li><span class="mcq-option-label">D.</span> &lt;section&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> The article's own <code>&lt;header&gt;</code> is the right place for its title, author, and publish date — the intro info for that article.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Which tag pair is used to add a caption to an image?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;caption&gt;...&lt;/caption&gt;</li><li><span class="mcq-option-label">B.</span> &lt;figure&gt; with &lt;figcaption&gt;</li><li><span class="mcq-option-label">C.</span> &lt;img-caption&gt;</li><li><span class="mcq-option-label">D.</span> &lt;alt&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> Wrap the image in <code>&lt;figure&gt;</code> and add a <code>&lt;figcaption&gt;</code> inside for the caption.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">Which is the MOST semantic structure for a news website homepage?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;div class=&#39;page&#39;&gt;&lt;div class=&#39;header&#39;&gt;...&lt;div class=&#39;body&#39;&gt;...</li><li><span class="mcq-option-label">B.</span> &lt;header&gt;&lt;nav&gt;...&lt;/nav&gt;&lt;/header&gt;&lt;main&gt;&lt;article&gt;...&lt;/article&gt;&lt;/main&gt;&lt;footer&gt;...&lt;/footer&gt;</li><li><span class="mcq-option-label">C.</span> &lt;main&gt;&lt;header&gt;...&lt;/header&gt;&lt;body&gt;...&lt;/body&gt;&lt;footer&gt;...&lt;/footer&gt;&lt;/main&gt;</li><li><span class="mcq-option-label">D.</span> &lt;section&gt;&lt;section&gt;...&lt;/section&gt;&lt;section&gt;...&lt;/section&gt;&lt;/section&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> Proper semantic structure: site header (with nav) at the top, main containing articles, and site footer at the bottom. The header and footer are siblings of main, not inside it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">Why is semantic HTML better than div soup for accessibility?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It is not, they are the same</li><li><span class="mcq-option-label">B.</span> Screen readers can navigate by landmark tags (header, nav, main, footer)</li><li><span class="mcq-option-label">C.</span> Semantic tags load faster</li><li><span class="mcq-option-label">D.</span> Divs don&#39;t work in modern browsers</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> Screen readers use semantic landmarks to help users navigate quickly. Blind users can jump directly to the main content, skipping repetitive headers and navs. Divs offer no such shortcut.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 21</div>
+                <div class="question-text">Which of these is the BEST use case for the <aside> tag?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The main navigation bar</li><li><span class="mcq-option-label">B.</span> A related posts sidebar next to a blog article</li><li><span class="mcq-option-label">C.</span> The page footer</li><li><span class="mcq-option-label">D.</span> The primary heading of the page</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-21"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>&lt;aside&gt;</code> is for content that is related to the main content but not essential — a related posts sidebar fits perfectly. Navigation is for <code>&lt;nav&gt;</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 22</div>
+                <div class="question-text">An <article> can only exist once per page. True or false?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> True</li><li><span class="mcq-option-label">B.</span> False - you can have as many articles as you want</li><li><span class="mcq-option-label">C.</span> True - only one article is allowed</li><li><span class="mcq-option-label">D.</span> Only if inside main</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-22"><strong>Answer: B</strong><br><strong>B is correct.</strong> You can have unlimited <code>&lt;article&gt;</code> tags on a page. Blog homepages often have many articles — one for each post. Only <code>&lt;main&gt;</code> has the one-per-page rule.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 23</div>
+                <div class="question-text">Which statement about semantic HTML is FALSE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It helps SEO</li><li><span class="mcq-option-label">B.</span> It helps accessibility</li><li><span class="mcq-option-label">C.</span> It makes code harder to maintain</li><li><span class="mcq-option-label">D.</span> It gives HTML meaning</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-23"><strong>Answer: C</strong><br><strong>C is false (and therefore the correct answer).</strong> Semantic HTML makes code EASIER to maintain, not harder. Tags like <code>&lt;article&gt;</code> are self-explanatory compared to <code>&lt;div class="box-3"&gt;</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 24</div>
+                <div class="question-text">Which attribute on <time> makes the date machine-readable?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> date</li><li><span class="mcq-option-label">B.</span> datetime</li><li><span class="mcq-option-label">C.</span> value</li><li><span class="mcq-option-label">D.</span> content</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-24"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>&lt;time datetime="2026-04-11"&gt;</code>. The datetime attribute holds the ISO-formatted date that computers can parse.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 25</div>
+                <div class="question-text">If a page has a sidebar with related articles beside the main content, which two tags should you use?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;main&gt; and &lt;section&gt;</li><li><span class="mcq-option-label">B.</span> &lt;main&gt; and &lt;aside&gt;</li><li><span class="mcq-option-label">C.</span> &lt;article&gt; and &lt;div&gt;</li><li><span class="mcq-option-label">D.</span> &lt;section&gt; and &lt;footer&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-25"><strong>Answer: B</strong><br><strong>B is correct.</strong> Use <code>&lt;main&gt;</code> for the primary content and <code>&lt;aside&gt;</code> for the sidebar with related articles.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Semantic Homepage Layout</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Build a basic semantic page with a header (site title), main (one paragraph of welcome text), and a footer (copyright).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A page with 3 semantic sections: header, main, footer.</div>
+                </div><div class="challenge-constraints">Use header, main, footer tags. No divs.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Home&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;Welcome to Modern Age Coders&lt;/h1&gt;
+  &lt;/header&gt;
+  &lt;main&gt;
+    &lt;p&gt;We teach kids and teens to code. Join us on this journey of learning!&lt;/p&gt;
+  &lt;/main&gt;
+  &lt;footer&gt;
+    &lt;p&gt;&amp;copy; 2026 Modern Age Coders. All rights reserved.&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Site with Navigation</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a semantic page with a header that contains an h1 and a nav with 4 links: Home, About, Blog, Contact.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A header with site title and a 4-link navigation menu.</div>
+                </div><div class="challenge-constraints">Use header, nav, ul, li, and a tags.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My Blog&lt;/title&gt;
+  &lt;style&gt;
+    nav ul { list-style: none; display: flex; gap: 20px; padding: 0; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;Aarav&#39;s Blog&lt;/h1&gt;
+    &lt;nav&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/blog&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Semantic Blog Post</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build an article for a blog post with: inner header (h1 title, author name, time with datetime), 2 paragraphs of content, and an inner footer with tags.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A complete blog post article with title, author, body, and tags.</div>
+                </div><div class="challenge-constraints">Use article, header, time, footer. Real datetime attribute.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Blog Post&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;article&gt;
+    &lt;header&gt;
+      &lt;h1&gt;Why I Love HTML&lt;/h1&gt;
+      &lt;p&gt;By Priya Sharma - &lt;time datetime=&quot;2026-04-11&quot;&gt;11 April 2026&lt;/time&gt;&lt;/p&gt;
+    &lt;/header&gt;
+    &lt;p&gt;HTML is the foundation of the web. Every site starts with HTML. It is simple, powerful, and fun to learn.&lt;/p&gt;
+    &lt;p&gt;I started learning HTML at age 10, and within a month I built my first website. You can too.&lt;/p&gt;
+    &lt;footer&gt;
+      &lt;p&gt;Tags: html, beginners, web-development&lt;/p&gt;
+    &lt;/footer&gt;
+  &lt;/article&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: News Article with Figure</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a semantic news article with: header (h1, time), two paragraphs, a figure with an image (use placeholder URL) and a figcaption, and an address tag for the reporter.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A complete news article layout with figure and reporter contact.</div>
+                </div><div class="challenge-constraints">Use article, header, time, figure, figcaption, address.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;News&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Georgia; max-width: 700px; margin: auto; padding: 20px; }
+    figure img { max-width: 100%; }
+    figcaption { font-style: italic; color: #666; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;article&gt;
+    &lt;header&gt;
+      &lt;h1&gt;India Tops International Coding Olympiad&lt;/h1&gt;
+      &lt;p&gt;&lt;time datetime=&quot;2026-04-10&quot;&gt;10 April 2026&lt;/time&gt;&lt;/p&gt;
+    &lt;/header&gt;
+    &lt;p&gt;Team India won the International Coding Olympiad in Tokyo yesterday, securing 3 gold medals.&lt;/p&gt;
+    &lt;p&gt;The team of 4 students from Mumbai, Delhi, and Bangalore beat 50 other countries in a 3-day competition.&lt;/p&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;https://via.placeholder.com/600x300&quot; alt=&quot;Team India winning the olympiad&quot;&gt;
+      &lt;figcaption&gt;Team India celebrating their win in Tokyo.&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;address&gt;
+      Reported by Rohan Kumar - &lt;a href=&quot;mailto:rohan@news.com&quot;&gt;rohan@news.com&lt;/a&gt;
+    &lt;/address&gt;
+  &lt;/article&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Landing Page with Sections</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a landing page with a header (with nav), main containing 3 sections (About, Features, Contact), and a footer. Each section should have an h2.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A landing page with clearly divided thematic sections.</div>
+                </div><div class="challenge-constraints">Use header, nav, main, section, footer.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Landing Page&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Arial; margin: 0; }
+    header, footer { background: #333; color: white; padding: 20px; }
+    section { padding: 30px 20px; }
+    section:nth-child(even) { background: #f5f5f5; }
+    nav ul { list-style: none; display: flex; gap: 20px; padding: 0; }
+    nav a { color: white; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;SuperSite&lt;/h1&gt;
+    &lt;nav&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#features&quot;&gt;Features&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
+  &lt;main&gt;
+    &lt;section id=&quot;about&quot;&gt;
+      &lt;h2&gt;About Us&lt;/h2&gt;
+      &lt;p&gt;We build awesome stuff.&lt;/p&gt;
+    &lt;/section&gt;
+    &lt;section id=&quot;features&quot;&gt;
+      &lt;h2&gt;Features&lt;/h2&gt;
+      &lt;p&gt;Fast, beautiful, and easy to use.&lt;/p&gt;
+    &lt;/section&gt;
+    &lt;section id=&quot;contact&quot;&gt;
+      &lt;h2&gt;Contact&lt;/h2&gt;
+      &lt;p&gt;Email us at hello@supersite.com&lt;/p&gt;
+    &lt;/section&gt;
+  &lt;/main&gt;
+  &lt;footer&gt;
+    &lt;p&gt;&amp;copy; 2026 SuperSite&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Blog Home with Articles and Sidebar</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a blog homepage with a header (nav), main containing 3 articles and an aside (sidebar with popular posts and author bio), and a footer. Style it so the aside sits beside the articles.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A blog homepage with a main content area and a sidebar.</div>
+                </div><div class="challenge-constraints">Use all major semantic tags. Use flex or grid for layout.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Blog&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Arial; margin: 0; }
+    header, footer { background: #2c3e50; color: white; padding: 20px; }
+    nav ul { list-style: none; padding: 0; display: flex; gap: 20px; }
+    nav a { color: white; text-decoration: none; }
+    main { display: flex; gap: 20px; padding: 20px; max-width: 1000px; margin: auto; }
+    .articles { flex: 2; }
+    aside { flex: 1; background: #f0f0f0; padding: 15px; height: fit-content; }
+    article { background: white; border: 1px solid #ddd; padding: 15px; margin-bottom: 15px; border-radius: 8px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;My Blog&lt;/h1&gt;
+    &lt;nav&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
+  &lt;main&gt;
+    &lt;div class=&quot;articles&quot;&gt;
+      &lt;article&gt;
+        &lt;header&gt;
+          &lt;h2&gt;Post 1&lt;/h2&gt;
+          &lt;time datetime=&quot;2026-04-10&quot;&gt;10 April&lt;/time&gt;
+        &lt;/header&gt;
+        &lt;p&gt;First post.&lt;/p&gt;
+      &lt;/article&gt;
+      &lt;article&gt;
+        &lt;header&gt;
+          &lt;h2&gt;Post 2&lt;/h2&gt;
+          &lt;time datetime=&quot;2026-04-08&quot;&gt;8 April&lt;/time&gt;
+        &lt;/header&gt;
+        &lt;p&gt;Second post.&lt;/p&gt;
+      &lt;/article&gt;
+      &lt;article&gt;
+        &lt;header&gt;
+          &lt;h2&gt;Post 3&lt;/h2&gt;
+          &lt;time datetime=&quot;2026-04-05&quot;&gt;5 April&lt;/time&gt;
+        &lt;/header&gt;
+        &lt;p&gt;Third post.&lt;/p&gt;
+      &lt;/article&gt;
+    &lt;/div&gt;
+    &lt;aside&gt;
+      &lt;h3&gt;Popular Posts&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;HTML Guide&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;CSS Tips&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;h3&gt;About Author&lt;/h3&gt;
+      &lt;p&gt;Ananya is a teen developer from Pune.&lt;/p&gt;
+    &lt;/aside&gt;
+  &lt;/main&gt;
+  &lt;footer&gt;
+    &lt;p&gt;&amp;copy; 2026 My Blog&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Product Catalog Page</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a product catalog: header with nav, main with a section 'Our Products' containing 4 articles (product cards). Each article has a figure (image), h3 (product name), p (description), p (price), and a button. Also add a footer.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A product catalog with 4 semantically correct product cards.</div>
+                </div><div class="challenge-constraints">Use section for grouping, article for each card, figure for images.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Products&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Arial; margin: 0; }
+    header, footer { background: #1a1a2e; color: white; padding: 15px 20px; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; padding: 20px; }
+    article { background: white; border: 1px solid #ddd; padding: 15px; border-radius: 8px; }
+    figure { margin: 0; }
+    figure img { width: 100%; border-radius: 5px; }
+    button { background: #22c55e; color: white; border: none; padding: 8px 15px; cursor: pointer; border-radius: 4px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;Shop&lt;/h1&gt;
+    &lt;nav&gt;
+      &lt;a href=&quot;/&quot; style=&quot;color:white&quot;&gt;Home&lt;/a&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
+  &lt;main&gt;
+    &lt;section&gt;
+      &lt;h2 style=&quot;padding: 20px;&quot;&gt;Our Products&lt;/h2&gt;
+      &lt;div class=&quot;products&quot;&gt;
+        &lt;article&gt;
+          &lt;figure&gt;&lt;img src=&quot;https://via.placeholder.com/200&quot; alt=&quot;Product 1&quot;&gt;&lt;/figure&gt;
+          &lt;h3&gt;Running Shoes&lt;/h3&gt;
+          &lt;p&gt;Comfortable for daily runs.&lt;/p&gt;
+          &lt;p&gt;&lt;strong&gt;Rs 2499&lt;/strong&gt;&lt;/p&gt;
+          &lt;button&gt;Add to Cart&lt;/button&gt;
+        &lt;/article&gt;
+        &lt;article&gt;
+          &lt;figure&gt;&lt;img src=&quot;https://via.placeholder.com/200&quot; alt=&quot;Product 2&quot;&gt;&lt;/figure&gt;
+          &lt;h3&gt;Backpack&lt;/h3&gt;
+          &lt;p&gt;Spacious and durable.&lt;/p&gt;
+          &lt;p&gt;&lt;strong&gt;Rs 1299&lt;/strong&gt;&lt;/p&gt;
+          &lt;button&gt;Add to Cart&lt;/button&gt;
+        &lt;/article&gt;
+        &lt;article&gt;
+          &lt;figure&gt;&lt;img src=&quot;https://via.placeholder.com/200&quot; alt=&quot;Product 3&quot;&gt;&lt;/figure&gt;
+          &lt;h3&gt;Headphones&lt;/h3&gt;
+          &lt;p&gt;Noise cancelling.&lt;/p&gt;
+          &lt;p&gt;&lt;strong&gt;Rs 3999&lt;/strong&gt;&lt;/p&gt;
+          &lt;button&gt;Add to Cart&lt;/button&gt;
+        &lt;/article&gt;
+        &lt;article&gt;
+          &lt;figure&gt;&lt;img src=&quot;https://via.placeholder.com/200&quot; alt=&quot;Product 4&quot;&gt;&lt;/figure&gt;
+          &lt;h3&gt;Water Bottle&lt;/h3&gt;
+          &lt;p&gt;Keeps water cold for 24 hours.&lt;/p&gt;
+          &lt;p&gt;&lt;strong&gt;Rs 699&lt;/strong&gt;&lt;/p&gt;
+          &lt;button&gt;Add to Cart&lt;/button&gt;
+        &lt;/article&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  &lt;/main&gt;
+  &lt;footer&gt;
+    &lt;p&gt;&amp;copy; 2026 Shop&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Convert Div Soup to Semantic HTML</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Take this div-based HTML and rewrite it as fully semantic HTML:<br><code>&lt;div id='top'&gt;Logo&lt;/div&gt;&lt;div id='menu'&gt;...links...&lt;/div&gt;&lt;div id='content'&gt;&lt;div class='card'&gt;Post 1&lt;/div&gt;&lt;div class='card'&gt;Post 2&lt;/div&gt;&lt;/div&gt;&lt;div id='side'&gt;Ads&lt;/div&gt;&lt;div id='bottom'&gt;Copyright&lt;/div&gt;</code></div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">The div-based HTML above</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Fully semantic version with header, nav, main, article, aside, footer.</div>
+                </div><div class="challenge-constraints">Preserve the layout but use only semantic tags (no divs).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;Site Logo&lt;/h1&gt;
+    &lt;nav&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
+  &lt;main&gt;
+    &lt;article&gt;
+      &lt;h2&gt;Post 1&lt;/h2&gt;
+      &lt;p&gt;First post content.&lt;/p&gt;
+    &lt;/article&gt;
+    &lt;article&gt;
+      &lt;h2&gt;Post 2&lt;/h2&gt;
+      &lt;p&gt;Second post content.&lt;/p&gt;
+    &lt;/article&gt;
+    &lt;aside&gt;
+      &lt;h3&gt;Ads&lt;/h3&gt;
+      &lt;p&gt;Advertisement area.&lt;/p&gt;
+    &lt;/aside&gt;
+  &lt;/main&gt;
+  &lt;footer&gt;
+    &lt;p&gt;&amp;copy; 2026 My Site&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/html-and-css/forms-and-inputs/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Forms, Inputs, and Form Validation</span>
+        </a>
+            <a href="/resources/html-and-css/introduction-to-css/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Introduction to CSS - Styling the Web</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/html-and-css/semantic-html" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,750 @@
+{
+  "title": "CSS Transitions and Hover Effects",
+  "slug": "transitions-and-hover-effects",
+  "language": "css",
+  "chapter": 18,
+  "difficulty": "Advanced",
+  "readingTime": "38 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 60,
+  "seo": {
+    "title": "CSS Transitions and Hover Effects - transition-property, cubic-bezier, interactive UI | Modern Age Coders",
+    "description": "Master CSS transitions and hover effects. Learn transition-property, duration, timing-function, cubic-bezier, delay, hover effects like scale, shadow lift, image zoom, underline slide, and non-animatable properties. 60+ practice questions.",
+    "keywords": "css transitions, hover effects css, transition-property, transition-duration, cubic-bezier, timing function, ease-in-out, hover animations, button hover css, image zoom hover, non-animatable properties"
+  },
+  "content": {
+    "what": "<h2>What Are CSS Transitions?</h2><p>A CSS transition is a smooth change from one style value to another over a specified time. Instead of a button instantly changing from purple to pink when you hover over it, a transition lets it fade smoothly over 300 milliseconds. That smoothness is what makes modern websites feel polished and alive.</p><p>Transitions need THREE things:</p><ol><li><strong>A starting state</strong> (the default CSS)</li><li><strong>An ending state</strong> (triggered by :hover, :focus, a class change, etc.)</li><li><strong>A transition rule</strong> telling the browser how to animate between them</li></ol><pre><code>.button {\n  background: #a855f7;\n  transition: background 0.3s ease;\n}\n.button:hover {\n  background: #ec4899;\n}</code></pre><p>That is it. Four lines of CSS give you a beautifully smooth color change on hover — no JavaScript required.</p>",
+    "why": "<h2>Why Learn Transitions and Hover Effects?</h2><h3>1. Modern UI Is Built on Micro-Interactions</h3><p>Every polished website you love uses hover effects: buttons that lift, cards that scale, images that zoom, underlines that slide in. These tiny animations (called micro-interactions) give users feedback and make interfaces feel responsive and alive.</p><h3>2. Zero JavaScript Required</h3><p>Transitions are pure CSS. The browser handles everything: smoothness, timing, performance. This means animations run at 60fps without any runtime overhead from JavaScript. Pure CSS animations are ALWAYS faster than JS animations.</p><h3>3. They Make Changes Feel Natural</h3><p>Instant changes are jarring. When a button suddenly becomes pink, our brain registers 'something glitched'. When it smoothly transitions, our brain registers 'I did that — it responded to me'. Transitions create trust between the user and the interface.</p><h3>4. Essential for Job Portfolios</h3><p>Any frontend developer job interview will test your ability to create smooth hover effects. It is considered a basic skill for modern web design.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The Four Transition Properties</h3><p>CSS transitions have four sub-properties. Each one controls a different aspect of the animation:</p><pre><code>.element {\n  transition-property: background-color;\n  transition-duration: 0.4s;\n  transition-timing-function: ease-in-out;\n  transition-delay: 0s;\n}</code></pre><ul><li><strong>transition-property</strong>: which CSS property to animate (or <code>all</code>)</li><li><strong>transition-duration</strong>: how long the animation takes (seconds or milliseconds)</li><li><strong>transition-timing-function</strong>: the acceleration curve (ease, linear, etc.)</li><li><strong>transition-delay</strong>: wait this long before starting</li></ul><h3>2. The Shorthand (Most Common)</h3><p>In practice, everyone uses the shorthand:</p><pre><code>.element {\n  transition: background-color 0.4s ease-in-out;\n  /* property | duration | timing-function | (optional delay) */\n}\n\n/* Multiple properties */\n.element {\n  transition: background 0.3s, color 0.3s, transform 0.5s;\n}\n\n/* All animatable properties */\n.element {\n  transition: all 0.3s ease;\n}</code></pre><p>Using <code>all</code> is quick but less precise. Listing specific properties is a small performance improvement and avoids surprising animations.</p><h3>3. Timing Functions (The Most Important Choice)</h3><p>The timing function controls the acceleration curve of the animation. This is what makes animations feel organic or robotic:</p><pre><code>transition-timing-function: linear;      /* constant speed */\ntransition-timing-function: ease;        /* slow-start, fast-middle, slow-end (default) */\ntransition-timing-function: ease-in;     /* slow start, fast end */\ntransition-timing-function: ease-out;    /* fast start, slow end (most natural for UI) */\ntransition-timing-function: ease-in-out; /* slow start AND end */\ntransition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55); /* custom curve */</code></pre><p><strong>Rule of thumb</strong>: use <code>ease-out</code> for elements appearing or entering (feels natural), <code>ease-in</code> for elements leaving, and <code>ease-in-out</code> for things that start and end at the same place (toggles).</p><h3>4. Hover Effects (:hover)</h3><p>The <code>:hover</code> pseudo-class applies when the mouse is over the element. Combine with transitions for smooth hover effects:</p><pre><code>.button {\n  background: #a855f7;\n  color: white;\n  padding: 12px 24px;\n  border-radius: 8px;\n  cursor: pointer;\n  transition: background 0.3s, transform 0.2s;\n}\n\n.button:hover {\n  background: #ec4899;\n  transform: scale(1.05);\n}</code></pre><p>Notice we transition both background and transform, but they can have different durations.</p><h3>5. Creative Hover Effects</h3><p><strong>Lift on hover</strong> — classic card effect:</p><pre><code>.card {\n  transition: transform 0.3s, box-shadow 0.3s;\n}\n.card:hover {\n  transform: translateY(-6px);\n  box-shadow: 0 20px 40px rgba(0,0,0,0.15);\n}</code></pre><p><strong>Image zoom inside frame</strong>:</p><pre><code>.frame {\n  overflow: hidden;\n  border-radius: 12px;\n}\n.frame img {\n  transition: transform 0.5s;\n}\n.frame:hover img {\n  transform: scale(1.1);\n}</code></pre><p><strong>Underline slide-in</strong>:</p><pre><code>.link {\n  position: relative;\n}\n.link::after {\n  content: '';\n  position: absolute;\n  left: 0; bottom: -2px;\n  width: 0; height: 2px;\n  background: currentColor;\n  transition: width 0.3s;\n}\n.link:hover::after {\n  width: 100%;\n}</code></pre><h3>6. cursor: pointer</h3><p>Always add <code>cursor: pointer</code> to interactive elements that are not native buttons/links. It tells users 'this is clickable':</p><pre><code>.clickable-card {\n  cursor: pointer;\n}</code></pre><h3>7. Properties You CANNOT Transition</h3><p>Not all CSS properties can be animated. A few important ones that CANNOT:</p><ul><li><code>display</code> (block, none, flex, etc.) — discrete values</li><li><code>height: auto</code> (you need a fixed height or use max-height)</li><li><code>font-family</code></li><li><code>content</code> (inside pseudo-elements)</li></ul><p>For show/hide animations, use <code>opacity</code> and <code>visibility</code> instead of <code>display</code>.</p><h3>8. will-change (Performance Hint)</h3><p>For complex animations, tell the browser what will animate so it can optimize:</p><pre><code>.card {\n  will-change: transform;\n}</code></pre><p>Use sparingly — overuse hurts performance. Only add will-change to elements with heavy animations.</p>",
+    "codeExamples": [
+      {
+        "title": "Button Pack - Six Hover Effects",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; background: #0f172a; padding: 40px; display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; }\n    button { padding: 14px 32px; font-size: 16px; border: none; border-radius: 10px; cursor: pointer; color: white; font-weight: 600; }\n\n    /* 1. Color + scale */\n    .btn1 { background: #a855f7; transition: background 0.3s, transform 0.2s; }\n    .btn1:hover { background: #ec4899; transform: scale(1.08); }\n\n    /* 2. Shadow lift */\n    .btn2 { background: #06b6d4; box-shadow: 0 4px 6px rgba(6, 182, 212, 0.3); transition: transform 0.3s, box-shadow 0.3s; }\n    .btn2:hover { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(6, 182, 212, 0.5); }\n\n    /* 3. Fill slide */\n    .btn3 { background: transparent; border: 2px solid #f59e0b; color: #f59e0b; position: relative; overflow: hidden; z-index: 1; transition: color 0.4s; }\n    .btn3::before { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: #f59e0b; transition: left 0.4s; z-index: -1; }\n    .btn3:hover { color: white; }\n    .btn3:hover::before { left: 0; }\n\n    /* 4. Grow border */\n    .btn4 { background: #0f172a; border: 2px solid #10b981; transition: box-shadow 0.3s, letter-spacing 0.3s; }\n    .btn4:hover { box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.3); letter-spacing: 2px; }\n\n    /* 5. Gradient shift */\n    .btn5 { background: linear-gradient(90deg, #a855f7, #ec4899); background-size: 200% 100%; transition: background-position 0.5s; }\n    .btn5:hover { background-position: 100% 0; }\n\n    /* 6. 3D push */\n    .btn6 { background: #8b5cf6; box-shadow: 0 6px 0 #5b21b6; transition: box-shadow 0.15s, transform 0.15s; }\n    .btn6:hover { box-shadow: 0 2px 0 #5b21b6; transform: translateY(4px); }\n  </style>\n</head>\n<body>\n  <button class=\"btn1\">Aarav</button>\n  <button class=\"btn2\">Priya</button>\n  <button class=\"btn3\">Rohan</button>\n  <button class=\"btn4\">Ishita</button>\n  <button class=\"btn5\">Vivaan</button>\n  <button class=\"btn6\">Anika</button>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Six distinct hover effect patterns: color+scale, shadow lift, fill slide (using a pseudo-element), grow border with letter-spacing, gradient shift, and 3D push-down. Each uses different transition properties. Hover over each button to see the effect.",
+        "output": "Six colorful buttons, each with a different hover animation style."
+      },
+      {
+        "title": "Image Card with Zoom and Overlay",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: #0f172a; font-family: Arial, sans-serif; padding: 40px; display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; margin: 0; }\n    .card {\n      width: 280px;\n      height: 360px;\n      border-radius: 18px;\n      overflow: hidden;\n      position: relative;\n      cursor: pointer;\n      box-shadow: 0 10px 30px rgba(0,0,0,0.4);\n    }\n    .img {\n      width: 100%;\n      height: 100%;\n      transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);\n    }\n    .i1 { background: linear-gradient(135deg, #a855f7, #ec4899); }\n    .i2 { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }\n    .i3 { background: linear-gradient(135deg, #f59e0b, #ef4444); }\n    .card:hover .img { transform: scale(1.15); }\n    .overlay {\n      position: absolute;\n      inset: 0;\n      background: linear-gradient(to top, rgba(0,0,0,0.9), transparent 50%);\n      display: flex;\n      flex-direction: column;\n      justify-content: flex-end;\n      padding: 24px;\n      color: white;\n      transition: background 0.4s;\n    }\n    .overlay h3 {\n      transform: translateY(20px);\n      transition: transform 0.4s;\n      margin-bottom: 6px;\n    }\n    .overlay p {\n      opacity: 0;\n      transform: translateY(20px);\n      transition: opacity 0.4s, transform 0.4s;\n      color: #cbd5e1;\n      font-size: 14px;\n    }\n    .card:hover .overlay h3 { transform: translateY(0); }\n    .card:hover .overlay p { opacity: 1; transform: translateY(0); }\n  </style>\n</head>\n<body>\n  <div class=\"card\">\n    <div class=\"img i1\"></div>\n    <div class=\"overlay\"><h3>Aarav's Photo</h3><p>Sunrise over the Himalayas taken last winter.</p></div>\n  </div>\n  <div class=\"card\">\n    <div class=\"img i2\"></div>\n    <div class=\"overlay\"><h3>Priya's Ocean</h3><p>Waves at Marina Beach during the monsoon.</p></div>\n  </div>\n  <div class=\"card\">\n    <div class=\"img i3\"></div>\n    <div class=\"overlay\"><h3>Rohan's Desert</h3><p>Sand dunes in Jaisalmer at golden hour.</p></div>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Three layered effects on hover: (1) the image zooms in smoothly using <code>transform: scale</code>, (2) the title slides up from below, (3) the description fades in. The <code>overflow: hidden</code> on the card prevents the zoomed image from escaping. The cubic-bezier timing function gives the zoom a natural feel.",
+        "output": "Three image cards. On hover, the image zooms in, the title slides up, and a description fades in."
+      },
+      {
+        "title": "Navigation Links with Sliding Underline",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: #0f172a; color: white; font-family: Arial, sans-serif; margin: 0; padding: 40px; }\n    nav { display: flex; gap: 40px; justify-content: center; padding: 24px; background: #1e293b; border-radius: 12px; }\n    nav a {\n      color: #f1f5f9;\n      text-decoration: none;\n      font-size: 18px;\n      font-weight: 500;\n      position: relative;\n      padding: 4px 0;\n    }\n    nav a::after {\n      content: '';\n      position: absolute;\n      left: 50%;\n      bottom: -4px;\n      width: 0;\n      height: 3px;\n      background: linear-gradient(90deg, #a855f7, #06b6d4);\n      border-radius: 2px;\n      transform: translateX(-50%);\n      transition: width 0.35s cubic-bezier(0.22, 1, 0.36, 1);\n    }\n    nav a:hover::after { width: 100%; }\n    nav a:hover { color: #a855f7; }\n    .content { max-width: 600px; margin: 40px auto; text-align: center; color: #cbd5e1; }\n  </style>\n</head>\n<body>\n  <nav>\n    <a href=\"#\">Home</a>\n    <a href=\"#\">Projects</a>\n    <a href=\"#\">About</a>\n    <a href=\"#\">Contact</a>\n  </nav>\n  <div class=\"content\">\n    <p>Hover over a navigation link above to see the gradient underline slide in from the center.</p>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Each link has a <code>::after</code> pseudo-element styled as a thin gradient bar. It starts with zero width and is centered. On hover, the width transitions to 100%, creating a smooth underline slide-in from the middle. Pure CSS, no JavaScript, no extra HTML.",
+        "output": "A dark nav bar with 4 links. Hovering a link reveals a gradient underline sliding from the center outward."
+      },
+      {
+        "title": "Pricing Card with Complete Hover Animation",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: #f8fafc; font-family: Arial, sans-serif; padding: 40px; display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; }\n    .plan {\n      width: 260px;\n      background: white;\n      border-radius: 16px;\n      padding: 30px 24px;\n      box-shadow: 0 4px 12px rgba(0,0,0,0.06);\n      text-align: center;\n      position: relative;\n      border: 2px solid transparent;\n      transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),\n                  box-shadow 0.4s,\n                  border-color 0.4s;\n    }\n    .plan:hover {\n      transform: translateY(-12px);\n      box-shadow: 0 24px 50px rgba(168, 85, 247, 0.25);\n      border-color: #a855f7;\n    }\n    .plan h2 { color: #334155; font-size: 22px; margin-bottom: 8px; }\n    .plan .price { font-size: 42px; color: #a855f7; font-weight: bold; margin: 16px 0; }\n    .plan .price span { font-size: 16px; color: #64748b; }\n    .plan ul { list-style: none; padding: 0; text-align: left; margin: 20px 0; }\n    .plan li { padding: 8px 0; color: #475569; border-bottom: 1px solid #f1f5f9; font-size: 14px; }\n    .plan button {\n      width: 100%;\n      padding: 12px;\n      background: #a855f7;\n      color: white;\n      border: none;\n      border-radius: 8px;\n      font-size: 15px;\n      font-weight: 600;\n      cursor: pointer;\n      transition: background 0.3s, letter-spacing 0.3s;\n    }\n    .plan button:hover { background: #7c3aed; letter-spacing: 1px; }\n  </style>\n</head>\n<body>\n  <div class=\"plan\">\n    <h2>Starter</h2>\n    <div class=\"price\">Rs 0<span>/mo</span></div>\n    <ul><li>1 student</li><li>5 lessons</li><li>Community</li></ul>\n    <button>Get Started</button>\n  </div>\n  <div class=\"plan\">\n    <h2>Pro</h2>\n    <div class=\"price\">Rs 999<span>/mo</span></div>\n    <ul><li>Unlimited students</li><li>All lessons</li><li>Priority support</li></ul>\n    <button>Get Started</button>\n  </div>\n  <div class=\"plan\">\n    <h2>Team</h2>\n    <div class=\"price\">Rs 2,499<span>/mo</span></div>\n    <ul><li>25 students</li><li>Custom content</li><li>Dedicated mentor</li></ul>\n    <button>Contact Us</button>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Multiple transitions on one element. When you hover a pricing card, three properties animate together: it lifts up 12px, the shadow grows dramatically, and the border color changes from transparent to purple. Each property has the same duration but could be different. The button inside has its own transitions.",
+        "output": "Three pricing cards that each lift, cast a glowing shadow, and gain a purple border on hover."
+      },
+      {
+        "title": "Social Icon Bar with Color Rotation",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: #0f172a; font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }\n    .social {\n      display: flex;\n      gap: 16px;\n    }\n    .social a {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      width: 60px;\n      height: 60px;\n      background: #1e293b;\n      color: #cbd5e1;\n      font-size: 22px;\n      font-weight: bold;\n      text-decoration: none;\n      border-radius: 12px;\n      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);\n    }\n    .social a:hover {\n      transform: translateY(-8px) rotate(-5deg);\n      color: white;\n    }\n    .social a.fb:hover { background: #1877f2; box-shadow: 0 14px 28px rgba(24, 119, 242, 0.4); }\n    .social a.ig:hover { background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045); box-shadow: 0 14px 28px rgba(253, 29, 29, 0.4); }\n    .social a.yt:hover { background: #ff0000; box-shadow: 0 14px 28px rgba(255, 0, 0, 0.4); }\n    .social a.tw:hover { background: #1da1f2; box-shadow: 0 14px 28px rgba(29, 161, 242, 0.4); }\n    .social a.gh:hover { background: #24292e; box-shadow: 0 14px 28px rgba(36, 41, 46, 0.6); }\n  </style>\n</head>\n<body>\n  <div class=\"social\">\n    <a class=\"fb\" href=\"#\">F</a>\n    <a class=\"ig\" href=\"#\">I</a>\n    <a class=\"yt\" href=\"#\">Y</a>\n    <a class=\"tw\" href=\"#\">T</a>\n    <a class=\"gh\" href=\"#\">G</a>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Social media icon bar with a custom cubic-bezier for a slight overshoot bounce on hover. Each icon lifts, rotates 5 degrees, and changes to its brand color. The cubic-bezier(0.34, 1.56, 0.64, 1) creates a springy, playful feel rather than a smooth ease.",
+        "output": "Five dark icon squares in a row. Hovering each lifts it, rotates slightly, and reveals the brand color with a matching glow shadow."
+      },
+      {
+        "title": "Show/Hide Modal Without display",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; background: #f8fafc; padding: 40px; }\n    .open-btn { padding: 12px 24px; background: #a855f7; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; }\n    .overlay {\n      position: fixed;\n      inset: 0;\n      background: rgba(0,0,0,0.6);\n      opacity: 0;\n      visibility: hidden;\n      transition: opacity 0.3s, visibility 0.3s;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n    }\n    .overlay.open { opacity: 1; visibility: visible; }\n    .modal {\n      background: white;\n      padding: 30px;\n      border-radius: 14px;\n      max-width: 400px;\n      transform: scale(0.85);\n      transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);\n    }\n    .overlay.open .modal { transform: scale(1); }\n    .modal h2 { color: #a855f7; margin-bottom: 12px; }\n    .modal p { color: #475569; margin-bottom: 20px; line-height: 1.5; }\n    .close-btn { padding: 10px 20px; background: #e5e7eb; color: #0f172a; border: none; border-radius: 6px; cursor: pointer; }\n  </style>\n</head>\n<body>\n  <button class=\"open-btn\" id=\"openBtn\">Open Modal</button>\n  <div class=\"overlay\" id=\"overlay\">\n    <div class=\"modal\">\n      <h2>Hi, Meera!</h2>\n      <p>This modal fades in and scales up smoothly. Notice we cannot transition display: none, so we use opacity + visibility instead.</p>\n      <button class=\"close-btn\" id=\"closeBtn\">Close</button>\n    </div>\n  </div>\n  <script>\n    const overlay = document.getElementById('overlay');\n    document.getElementById('openBtn').addEventListener('click', () => overlay.classList.add('open'));\n    document.getElementById('closeBtn').addEventListener('click', () => overlay.classList.remove('open'));\n  </script>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This is how to animate a show/hide effect correctly. Since <code>display: none</code> CANNOT be transitioned, we use <code>opacity</code> and <code>visibility</code> together. The modal also scales up with a springy cubic-bezier. JavaScript only toggles a class — all the animation is pure CSS.",
+        "output": "A button that opens a modal with a fade-in overlay and a bouncy scale-up animation on the modal itself."
+      },
+      {
+        "title": "Interactive Menu with Ripple Effect",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { background: #0f172a; color: white; font-family: Arial, sans-serif; padding: 40px; display: flex; justify-content: center; }\n    .menu { background: #1e293b; border-radius: 14px; padding: 12px; min-width: 240px; }\n    .menu-item {\n      display: block;\n      padding: 14px 20px;\n      color: #cbd5e1;\n      text-decoration: none;\n      border-radius: 8px;\n      position: relative;\n      overflow: hidden;\n      transition: color 0.3s, padding-left 0.3s;\n    }\n    .menu-item::before {\n      content: '';\n      position: absolute;\n      left: 0; top: 0;\n      width: 4px; height: 100%;\n      background: linear-gradient(to bottom, #a855f7, #06b6d4);\n      transform: scaleY(0);\n      transform-origin: bottom;\n      transition: transform 0.3s;\n    }\n    .menu-item:hover {\n      color: white;\n      padding-left: 28px;\n      background: rgba(168, 85, 247, 0.1);\n    }\n    .menu-item:hover::before {\n      transform: scaleY(1);\n      transform-origin: top;\n    }\n  </style>\n</head>\n<body>\n  <nav class=\"menu\">\n    <a class=\"menu-item\" href=\"#\">Dashboard</a>\n    <a class=\"menu-item\" href=\"#\">My Projects</a>\n    <a class=\"menu-item\" href=\"#\">Messages</a>\n    <a class=\"menu-item\" href=\"#\">Notifications</a>\n    <a class=\"menu-item\" href=\"#\">Settings</a>\n  </nav>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Each menu item has a pseudo-element bar on the left that starts at <code>scaleY(0)</code> (invisible). On hover, it scales to 1 (full height) AND the transform-origin flips from bottom to top, making the bar appear to slide down from above. Meanwhile, the text shifts right and changes color. Three transitions combined into one elegant effect.",
+        "output": "A dark menu where hovering an item slides a gradient bar down from the top and shifts the text right with a color change."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Trying to Transition display",
+        "wrongCode": ".modal {\n  display: none;\n  transition: display 0.3s;\n}\n.modal.open {\n  display: block;\n}\n/* The transition does nothing — element appears instantly */",
+        "error": "display cannot be animated with CSS transitions. It is a discrete property with no intermediate values. The element appears and disappears instantly.",
+        "correctCode": ".modal {\n  opacity: 0;\n  visibility: hidden;\n  transition: opacity 0.3s, visibility 0.3s;\n}\n.modal.open {\n  opacity: 1;\n  visibility: visible;\n}",
+        "explanation": "Use <code>opacity</code> for the fade effect and <code>visibility</code> to remove the element from accessibility and pointer events after it fades out. Never try to animate display, font-family, or other discrete properties."
+      },
+      {
+        "title": "Applying Transitions to the :hover State Instead of the Base",
+        "wrongCode": ".button { background: #a855f7; }\n.button:hover {\n  background: #ec4899;\n  transition: background 0.3s;\n}\n/* Transition only works when hovering IN, not OUT */",
+        "error": "The transition is defined on :hover. It applies when hovering in (going from default to hover), but not when hovering out (going back to default) — so the hover-in is smooth but the hover-out is instant.",
+        "correctCode": ".button {\n  background: #a855f7;\n  transition: background 0.3s;  /* On the BASE state */\n}\n.button:hover {\n  background: #ec4899;\n}",
+        "explanation": "Always put the <code>transition</code> property on the base (default) state, not inside :hover. That way it applies in both directions — hovering in AND hovering out."
+      },
+      {
+        "title": "Transitioning height: auto",
+        "wrongCode": ".panel {\n  height: 0;\n  transition: height 0.3s;\n}\n.panel.open {\n  height: auto;\n}\n/* The transition fails — auto cannot be animated */",
+        "error": "The browser cannot animate to <code>auto</code> because it does not know the target pixel value in advance. The panel just snaps open.",
+        "correctCode": ".panel {\n  max-height: 0;\n  overflow: hidden;\n  transition: max-height 0.5s ease;\n}\n.panel.open {\n  max-height: 500px;  /* Set a value larger than the expected content */\n}",
+        "explanation": "Use <code>max-height</code> with a value larger than the actual content. Since max-height caps at the content height, setting it to 500px still shows exactly as much as needed, but CAN be animated from 0."
+      },
+      {
+        "title": "Using transition: all When Not Needed",
+        "wrongCode": ".card {\n  transition: all 0.3s;\n}\n/* Every property animates — including unintended ones */",
+        "error": "Using <code>all</code> can create surprising animations when other properties change (for example, adding a class also animates its margin or padding). It is also slightly less performant.",
+        "correctCode": ".card {\n  transition: transform 0.3s, box-shadow 0.3s;\n  /* Only the properties you actually want to animate */\n}",
+        "explanation": "Be explicit about which properties transition. It is both more performant and more predictable. Use <code>all</code> only when you truly want to animate every property that might change."
+      }
+    ],
+    "summary": [
+      "A CSS transition needs a base state, an end state, and a <code>transition</code> rule on the BASE state that describes how to animate between them.",
+      "The shorthand <code>transition: property duration timing-function delay</code> combines all four properties into one declaration.",
+      "Common timing functions: <code>ease</code> (default), <code>linear</code>, <code>ease-in</code>, <code>ease-out</code>, <code>ease-in-out</code>, and custom <code>cubic-bezier()</code>. Use <code>ease-out</code> for elements entering and <code>ease-in-out</code> for toggles.",
+      "You can transition multiple properties by listing them separated by commas: <code>transition: background 0.3s, transform 0.5s, box-shadow 0.4s</code>.",
+      "The <code>:hover</code> pseudo-class combined with transitions creates smooth hover effects for buttons, cards, images, and links — with zero JavaScript.",
+      "Always add <code>cursor: pointer</code> to clickable custom elements (cards, divs with onclick) so users know they can click them.",
+      "Properties that CANNOT be transitioned: <code>display</code>, <code>height: auto</code>, <code>font-family</code>, <code>content</code>. For fade effects use <code>opacity</code> and <code>visibility</code> together.",
+      "For expanding panels, use <code>max-height</code> (not <code>height: auto</code>) with a value larger than the expected content.",
+      "Put the <code>transition</code> on the BASE state, not inside <code>:hover</code>, so the animation works both when entering AND leaving the hover state."
+    ]
+  },
+  "relatedTopics": ["css-animations-and-keyframes", "transforms-2d-and-3d"],
+  "practice": {
+    "totalQuestions": 60,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is a CSS transition?",
+        "hint": "It smooths a style change.",
+        "answer": "A smooth animation from one style value to another over a specified duration, instead of an instant change.",
+        "explanation": "Transitions make UI feel polished by animating property changes over time. For example, a button color fade over 0.3 seconds instead of an instant change."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What are the four transition sub-properties?",
+        "hint": "Property, duration, timing, delay.",
+        "answer": "<code>transition-property</code>, <code>transition-duration</code>, <code>transition-timing-function</code>, <code>transition-delay</code>",
+        "explanation": "The shorthand <code>transition</code> combines all four: <code>transition: property duration timing-function delay;</code>"
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this do?<br><pre><code>.btn {\n  background: red;\n  transition: background 0.5s;\n}\n.btn:hover {\n  background: blue;\n}</code></pre>",
+        "hint": "Smooth color change on hover.",
+        "answer": "The button smoothly fades from red to blue over 0.5 seconds when hovered, and fades back to red over 0.5 seconds when the mouse leaves.",
+        "explanation": "Because the transition is defined on the base state, it applies in BOTH directions — hover in and hover out."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the default transition-timing-function?",
+        "hint": "Four letters.",
+        "answer": "<code>ease</code>",
+        "explanation": "If you do not specify a timing function, the browser uses <code>ease</code>, which starts slow, speeds up in the middle, and slows down at the end."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How do you transition multiple properties?",
+        "hint": "Comma-separated list.",
+        "answer": "<code>transition: background 0.3s, transform 0.5s, box-shadow 0.4s;</code>",
+        "explanation": "Separate each property (with its own duration and timing if desired) with a comma. Each animation runs independently."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is wrong with this code?<br><pre><code>.modal {\n  display: none;\n  transition: display 0.3s;\n}\n.modal.open {\n  display: block;\n}</code></pre>",
+        "hint": "display is not animatable.",
+        "answer": "<code>display</code> cannot be transitioned. It is a discrete property with no intermediate values. The element appears instantly.",
+        "explanation": "Use <code>opacity</code> + <code>visibility</code> instead for fade effects. Example: <code>opacity: 0; visibility: hidden;</code> to <code>opacity: 1; visibility: visible;</code>."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is wrong with this?<br><pre><code>.panel { height: 0; transition: height 0.3s; }\n.panel.open { height: auto; }</code></pre>",
+        "hint": "auto cannot be animated.",
+        "answer": "You cannot transition to or from <code>height: auto</code>. The browser does not know the target pixel value to animate to. The panel snaps open.",
+        "explanation": "Use <code>max-height</code> with a value larger than the content (like 500px). max-height can be animated and will still display only as much content as exists."
+      },
+      {
+        "id": "ts-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why put the <code>transition</code> property on the base state, not inside :hover?",
+        "hint": "Think about hovering out.",
+        "answer": "If the transition is only on :hover, it applies when hovering IN but not when hovering OUT — the hover-out is instant. Putting it on the base state makes it apply in both directions.",
+        "explanation": "The transition rule on the base state says 'whenever this property changes, animate it'. Since both hover-in and hover-out change the property, both get the smooth animation."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>transition: all 0.3s ease</code> mean?",
+        "hint": "Animate every property.",
+        "answer": "Every animatable CSS property that changes will transition over 0.3 seconds using the ease timing function.",
+        "explanation": "<code>all</code> is a catch-all that animates any property that changes. Convenient but sometimes creates unexpected animations on properties you did not mean to animate."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is <code>cubic-bezier()</code>?",
+        "hint": "Custom timing curve.",
+        "answer": "A function that creates a custom acceleration curve for a transition. It takes four control points that define the shape of the curve.",
+        "explanation": "<code>cubic-bezier(0.68, -0.55, 0.27, 1.55)</code> creates a 'back' overshoot effect. Tools like cubic-bezier.com let you visually design the curve."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this do?<br><pre><code>.card {\n  transition: transform 0.3s;\n}\n.card:hover {\n  transform: translateY(-8px);\n}</code></pre>",
+        "hint": "Classic lift effect.",
+        "answer": "On hover, the card smoothly rises 8 pixels upward over 0.3 seconds, creating a lift effect.",
+        "explanation": "<code>translateY(-8px)</code> moves the element up by 8 pixels. The transition makes the movement smooth."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the purpose of <code>cursor: pointer</code>?",
+        "hint": "Visual feedback.",
+        "answer": "It changes the mouse cursor to a hand icon when hovering, signaling to users that the element is clickable.",
+        "explanation": "Always add <code>cursor: pointer</code> to custom clickable elements (divs with onclick, cards, etc.). Native buttons and links get the pointer cursor automatically."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Which timing function is best for elements appearing or entering the screen?",
+        "hint": "Fast start, slow end.",
+        "answer": "<code>ease-out</code>",
+        "explanation": "ease-out starts fast and slows at the end, which feels natural for things coming to rest (like a card sliding into place). ease-in is better for elements leaving."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does <code>will-change: transform</code> do?",
+        "hint": "Performance hint.",
+        "answer": "It tells the browser in advance that the <code>transform</code> property is going to animate, so the browser can optimize by placing the element on its own GPU layer.",
+        "explanation": "Use sparingly. Overusing will-change causes the browser to create too many layers and actually hurts performance. Only apply to elements with heavy, frequent animations."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this do?<br><pre><code>.btn {\n  transition: background 0.3s 0.1s;\n}</code></pre>",
+        "hint": "Third value is the delay.",
+        "answer": "The background animates over 0.3 seconds, but only AFTER a 0.1-second delay.",
+        "explanation": "In the shorthand <code>transition: property duration timing-function delay</code>, the delay is the fourth value (or the second time value, since timing-function is optional)."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which CSS property creates a smooth animation between state changes?",
+        "hint": "Not animation — the other one.",
+        "answer": "<code>transition</code>",
+        "explanation": "<code>transition</code> animates changes between two states. <code>animation</code> (with @keyframes) is for multi-step animations that run automatically."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How do you write a transition duration of 400 milliseconds?",
+        "hint": "Use ms or decimal s.",
+        "answer": "<code>400ms</code> or <code>0.4s</code>",
+        "explanation": "Both units are valid. 1s = 1000ms."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is transitioning <code>transform</code> and <code>opacity</code> considered the 'most performant'?",
+        "hint": "GPU-accelerated.",
+        "answer": "Modern browsers can animate transform and opacity on the GPU without triggering layout recalculation or repaint. Other properties (like width, height, top) cause layout or paint work on the CPU, which is slower.",
+        "explanation": "Rule of thumb: prefer <code>transform</code> (for movement/scale/rotation) and <code>opacity</code> (for fading) over <code>top</code>, <code>left</code>, <code>width</code>, <code>height</code>, for smooth 60fps animations."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is wrong with this hover effect?<br><pre><code>.img { width: 200px; }\n.img:hover {\n  width: 250px;\n  transition: width 0.3s;\n}</code></pre>",
+        "hint": "Where is the transition?",
+        "answer": "The transition is on :hover, so it only applies when hovering IN. When the mouse leaves, the image snaps back instantly instead of shrinking smoothly.",
+        "explanation": "Move the transition to the base rule: <code>.img { width: 200px; transition: width 0.3s; }</code> so it works both ways."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>:hover</code> and <code>:active</code>?",
+        "hint": "One is mouse over; the other is mouse pressed.",
+        "answer": "<code>:hover</code> applies when the mouse is over the element. <code>:active</code> applies when the element is being actively clicked (mouse button held down).",
+        "explanation": "You can use both together for a complete interaction: hover for anticipation, active for click feedback."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is <code>ease-in-out</code>?",
+        "hint": "Slow start AND slow end.",
+        "answer": "A timing function that starts slow, speeds up in the middle, and slows down at the end.",
+        "explanation": "ease-in-out is great for symmetric animations (like toggling on and off) where the element starts and ends at rest in the same way."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Can you transition between two different <code>display</code> values?",
+        "hint": "No, but there is a workaround.",
+        "answer": "No. <code>display</code> is a discrete property. Use <code>opacity</code> and <code>visibility</code> for fade in/out effects instead.",
+        "explanation": "Note: newer browsers support <code>display: none</code> in @keyframes with <code>transition-behavior: allow-discrete</code>, but the classic fix is opacity + visibility."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the purpose of <code>transform-origin</code>?",
+        "hint": "Anchor point for transforms.",
+        "answer": "It sets the pivot point for transforms. Default is center. You can make rotations and scales originate from any point (like top-left, bottom-right, or specific coordinates).",
+        "explanation": "Example: <code>transform-origin: top left; transform: scale(0);</code> scales from the top-left corner instead of the center. Useful for sliding or expanding animations."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Which hover effect uses the least CPU?",
+        "hint": "GPU-friendly properties.",
+        "answer": "Effects using <code>transform</code> and <code>opacity</code>, because both are GPU-accelerated and do not trigger layout recalculation.",
+        "explanation": "Animating width, height, top, left, margin, or padding causes layout work every frame. transform/opacity stays on the GPU for buttery-smooth 60fps."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why are micro-interactions (small hover effects) important in modern UI?",
+        "hint": "User feedback.",
+        "answer": "They give users immediate visual feedback that the interface is responding to their actions, which builds trust and makes interfaces feel alive and polished. Instant changes feel glitchy; smooth transitions feel deliberate.",
+        "explanation": "Every major design system (Material, Apple HIG, Fluent) emphasizes micro-interactions. They are a key part of what makes modern websites feel 'professional'."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which pseudo-class applies when the mouse is over an element?",
+        "hint": "Starts with colon.",
+        "answer": "<code>:hover</code>",
+        "explanation": "<code>:hover</code> matches while the user's pointer is positioned over the element. It does not apply on touch devices without tapping."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How would you delay a transition by half a second?",
+        "hint": "Fourth shorthand value.",
+        "answer": "<code>transition: background 0.3s ease 0.5s;</code>",
+        "explanation": "In the shorthand, the last time value is the delay. Or use the longhand <code>transition-delay: 0.5s</code>."
+      },
+      {
+        "id": "mx-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why should you avoid <code>transition: all</code> in production code?",
+        "hint": "Performance and predictability.",
+        "answer": "Because it animates EVERY animatable property change, including ones you did not intend. It can also be slightly less performant than listing specific properties. Being explicit is more predictable and often faster.",
+        "explanation": "Use <code>transition: all</code> only in prototypes or when you truly want every property to animate. Production code should list what you actually want to animate."
+      },
+      {
+        "id": "mx-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the difference between :hover and :focus?",
+        "hint": "Mouse vs keyboard.",
+        "answer": "<code>:hover</code> applies when the mouse pointer is over the element. <code>:focus</code> applies when the element receives keyboard focus (e.g., tabbed to). For accessibility, always style :focus AND :hover together.",
+        "explanation": "Keyboard users rely on :focus styles. Pattern: <code>.btn:hover, .btn:focus { ... }</code> ensures both mouse and keyboard users get visual feedback."
+      },
+      {
+        "id": "mx-15",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Should you use transitions on a mobile site even though there is no hover?",
+        "hint": "State changes happen on taps too.",
+        "answer": "Yes. Transitions run on ANY state change, not just hover. Taps, focus, class toggles via JavaScript, media query changes — all benefit from transitions. They make mobile UIs feel smooth and responsive.",
+        "explanation": "Mobile does not have true hover, but tapping, expanding menus, and card transitions still use the same CSS transitions for smoothness."
+      },
+      {
+        "id": "mx-16",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is <code>linear</code> timing?",
+        "hint": "Constant speed.",
+        "answer": "The animation progresses at a constant speed from start to finish — no acceleration or deceleration.",
+        "explanation": "Linear feels robotic for most UI. It is useful for continuous animations like loading spinners where constant speed looks correct."
+      },
+      {
+        "id": "mx-17",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>:hover</code> do on a touch device?",
+        "hint": "Think about how touch works.",
+        "answer": "On touch devices, :hover typically activates on tap and stays until the user taps somewhere else. It can feel awkward, which is why touch interactions often prefer :active or JavaScript events.",
+        "explanation": "For touch-friendly designs, use <code>@media (hover: hover)</code> to apply hover effects only on devices that truly support hover."
+      },
+      {
+        "id": "mx-18",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "How would you create a 'button press' effect that happens on click?",
+        "hint": "Use :active.",
+        "answer": "Use the <code>:active</code> pseudo-class with a small scale-down or translateY on click. Example: <code>.btn:active { transform: translateY(2px) scale(0.98); }</code> combined with a transition for smoothness.",
+        "explanation": ":active applies while the mouse button is held down. Combined with transitions, it creates tactile 'press' feedback."
+      },
+      {
+        "id": "mx-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Why might a transition not play even though the property was changed?",
+        "hint": "Common bug: styles changed synchronously without the browser rendering the initial state.",
+        "answer": "If you set the initial and final values in the same synchronous code block (e.g., applying a class immediately after creating the element), the browser may only render the final state and skip the transition.",
+        "explanation": "Fix: force a reflow between the two states, or use <code>requestAnimationFrame</code>/<code>setTimeout</code> to apply the class in the next frame. This lets the browser render the initial state first."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is a CSS transition?",
+        "options": {
+          "A": "A JavaScript animation",
+          "B": "A smooth animation between two state values over time",
+          "C": "A page transition between URLs",
+          "D": "A CSS import statement"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Transitions smoothly animate property changes between a base state and a new state (like on hover)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which is the shorthand syntax?",
+        "options": {
+          "A": "transition: background 0.3s ease;",
+          "B": "transition-all: 0.3s;",
+          "C": "animate: background 0.3s;",
+          "D": "transition: background, 0.3s;"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> The shorthand order is <code>property duration timing-function delay</code>."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which pseudo-class applies when hovering with a mouse?",
+        "options": {
+          "A": ":over",
+          "B": ":hover",
+          "C": ":mouse",
+          "D": ":pointer"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>:hover</code> matches while the user's pointer is positioned over the element."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which of these CANNOT be transitioned?",
+        "options": {
+          "A": "opacity",
+          "B": "transform",
+          "C": "display",
+          "D": "background-color"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>display</code> is a discrete property with no intermediate values. Use opacity + visibility for show/hide animations."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is the default transition-timing-function?",
+        "options": {
+          "A": "linear",
+          "B": "ease",
+          "C": "ease-in",
+          "D": "cubic-bezier"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> If you do not specify a timing function, the browser uses <code>ease</code>."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Which timing function is best for elements entering the screen?",
+        "options": {
+          "A": "linear",
+          "B": "ease-in",
+          "C": "ease-out",
+          "D": "step-end"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> ease-out starts fast and slows down, feeling natural for things coming to rest."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "How do you transition multiple properties with different durations?",
+        "options": {
+          "A": "transition: background 0.3s and transform 0.5s;",
+          "B": "transition: background 0.3s, transform 0.5s;",
+          "C": "transition: background 0.3s; transform 0.5s;",
+          "D": "transition-multi: background 0.3s, transform 0.5s;"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Use a comma to separate multiple property/duration pairs."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Why should the transition be on the BASE state, not :hover?",
+        "options": {
+          "A": "It is faster",
+          "B": "So the animation works both on hover IN and hover OUT",
+          "C": "CSS syntax requires it",
+          "D": "It saves memory"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A transition on the base state applies to any change to that property. If it is only on :hover, the hover-out is instant."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which is BEST for animating show/hide effects?",
+        "options": {
+          "A": "transition: display 0.3s",
+          "B": "opacity + visibility",
+          "C": "width 0 to width auto",
+          "D": "font-size 0 to font-size 16px"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>opacity</code> handles the fade and <code>visibility</code> removes the element from pointer events and accessibility after fading."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What does <code>cursor: pointer</code> do?",
+        "options": {
+          "A": "Moves the cursor to a specific pixel",
+          "B": "Changes the mouse cursor to a hand icon on hover, signaling clickability",
+          "C": "Creates a custom cursor image",
+          "D": "Disables the cursor"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> It changes the cursor to the hand pointer, visually indicating the element is clickable."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What unit cannot be used for transition-duration?",
+        "options": {
+          "A": "s (seconds)",
+          "B": "ms (milliseconds)",
+          "C": "px (pixels)",
+          "D": "0s"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Duration is time, not distance. Use seconds or milliseconds."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "Why is animating <code>transform</code> and <code>opacity</code> the most performant?",
+        "options": {
+          "A": "They are shorter to type",
+          "B": "They are GPU-accelerated and do not trigger layout recalculation",
+          "C": "They were added last to CSS",
+          "D": "They use 32-bit colors"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Modern browsers handle transform and opacity on the GPU without triggering layout or paint, enabling smooth 60fps animations."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What does <code>transition: all 0.3s ease 0.5s</code> mean?",
+        "options": {
+          "A": "Animate all properties for 0.3s, delayed by 0.5s",
+          "B": "Animate all properties for 0.5s, delayed by 0.3s",
+          "C": "Sync 0.3s and 0.5s",
+          "D": "Invalid syntax"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> In the shorthand, the first time is duration (0.3s) and the second is delay (0.5s)."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is <code>cubic-bezier(0.68, -0.55, 0.27, 1.55)</code>?",
+        "options": {
+          "A": "A color function",
+          "B": "A custom easing curve with control points that creates a back-and-overshoot effect",
+          "C": "A grid template",
+          "D": "A function for random values"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> cubic-bezier() takes four control points defining a custom curve. Values outside 0-1 (like -0.55 and 1.55) create overshoot effects."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "Which property animates the movement, scale, or rotation of an element most efficiently?",
+        "options": {
+          "A": "position",
+          "B": "transform",
+          "C": "margin",
+          "D": "float"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> transform uses the GPU and is the most performant way to move, scale, or rotate elements."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "How can you animate an expandable panel from 0 to its content height?",
+        "options": {
+          "A": "transition height 0 to auto",
+          "B": "Use max-height with a value larger than the expected content",
+          "C": "Use display: none to display: block",
+          "D": "Use visibility only"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> max-height can be transitioned and will cap the height at the content's natural size when the transition is complete."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "What is the purpose of <code>will-change</code>?",
+        "options": {
+          "A": "Lock a property so it cannot change",
+          "B": "Hint to the browser which properties will animate so it can optimize",
+          "C": "Mark a property as required",
+          "D": "Cache the current value"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> will-change tells the browser to prepare optimizations (like placing the element on its own GPU layer). Use sparingly."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What does <code>:focus</code> target?",
+        "options": {
+          "A": "The first element on the page",
+          "B": "The element that currently has keyboard or input focus",
+          "C": "Elements being scrolled",
+          "D": "The hovered element"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> :focus matches elements with keyboard focus (e.g., tabbed to). Always style :focus alongside :hover for accessibility."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "Which timing function creates a constant speed throughout the animation?",
+        "options": {
+          "A": "ease",
+          "B": "linear",
+          "C": "ease-out",
+          "D": "cubic-bezier"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> linear has no acceleration curve — it is the same speed from start to finish."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "Why should you avoid transitioning width or left/top?",
+        "options": {
+          "A": "They are deprecated",
+          "B": "They trigger layout recalculation and repaint, causing jank. Prefer transform instead.",
+          "C": "They do not work in transitions",
+          "D": "They only work on text"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Properties like width, left, top, margin trigger layout work every frame. transform runs on the GPU and avoids layout, making it much smoother."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Color-Change Button",
+        "difficulty": "Easy",
+        "description": "Create a button that smoothly transitions from purple to pink on hover, with a 0.4 second duration and ease-in-out timing.",
+        "sampleInput": "Hover over button",
+        "sampleOutput": "Button smoothly fades from purple to pink and back.",
+        "constraints": "Use transition shorthand. Put the transition on the BASE state.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #0f172a; margin: 0; font-family: Arial, sans-serif; }\n  .btn { padding: 14px 32px; background: #a855f7; color: white; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; transition: background 0.4s ease-in-out; }\n  .btn:hover { background: #ec4899; }\n</style>\n</head>\n<body>\n  <button class=\"btn\">Hover Me, Aarav</button>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Lift Card on Hover",
+        "difficulty": "Easy",
+        "description": "Create a card that lifts up 8px and casts a bigger shadow when hovered. Use a 0.3 second transition.",
+        "sampleInput": "Hover over card",
+        "sampleOutput": "Card moves up and shadow grows smoothly.",
+        "constraints": "Use transform: translateY and box-shadow. Transition both.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #f8fafc; margin: 0; font-family: Arial, sans-serif; }\n  .card { width: 260px; padding: 30px; background: white; border-radius: 14px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: transform 0.3s, box-shadow 0.3s; cursor: pointer; }\n  .card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }\n  .card h3 { color: #a855f7; margin: 0 0 8px 0; }\n  .card p { color: #64748b; margin: 0; font-size: 14px; }\n</style>\n</head>\n<body>\n  <div class=\"card\"><h3>Priya's Project</h3><p>A web app built with HTML, CSS, and a whole lot of curiosity.</p></div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Image Zoom Inside Frame",
+        "difficulty": "Medium",
+        "description": "Create an image inside a frame. On hover, the image should zoom in (scale to 1.15) but stay inside the frame boundaries. Use overflow: hidden.",
+        "sampleInput": "Hover over frame",
+        "sampleOutput": "Image scales up smoothly while staying clipped to the frame.",
+        "constraints": "Use overflow: hidden on the frame. Transition transform on the image.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #0f172a; margin: 0; }\n  .frame { width: 300px; height: 220px; border-radius: 16px; overflow: hidden; cursor: pointer; box-shadow: 0 12px 28px rgba(0,0,0,0.4); }\n  .img { width: 100%; height: 100%; background: linear-gradient(135deg, #a855f7, #ec4899, #f59e0b); transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 24px; font-family: Arial, sans-serif; }\n  .frame:hover .img { transform: scale(1.15); }\n</style>\n</head>\n<body>\n  <div class=\"frame\">\n    <div class=\"img\">Rohan's Artwork</div>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Sliding Underline Nav Link",
+        "difficulty": "Medium",
+        "description": "Create a navigation link with a sliding underline effect. The underline should start with 0 width and slide in to 100% on hover. Use a ::after pseudo-element.",
+        "sampleInput": "Hover over link",
+        "sampleOutput": "A colored underline slides in from left to right.",
+        "constraints": "Use ::after. Transition the width property.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #0f172a; margin: 0; font-family: Arial, sans-serif; }\n  .link { color: white; text-decoration: none; font-size: 24px; position: relative; padding: 6px 0; }\n  .link::after { content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 3px; background: linear-gradient(90deg, #a855f7, #06b6d4); transition: width 0.4s ease; }\n  .link:hover::after { width: 100%; }\n</style>\n</head>\n<body>\n  <a href=\"#\" class=\"link\">Ishita's Portfolio</a>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Show/Hide Modal Correctly",
+        "difficulty": "Hard",
+        "description": "Build a modal that opens and closes smoothly. It should NOT use display: none. Use opacity + visibility. Include a button to open and a close button inside the modal.",
+        "sampleInput": "Click open, then close",
+        "sampleOutput": "Modal fades in and scales up smoothly, then fades out.",
+        "constraints": "No display transitions. Use opacity + visibility. Add a scale transform for entry.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { font-family: Arial, sans-serif; padding: 40px; background: #f8fafc; }\n  .open-btn { padding: 12px 24px; background: #a855f7; color: white; border: none; border-radius: 8px; cursor: pointer; }\n  .overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: opacity 0.3s, visibility 0.3s; }\n  .overlay.open { opacity: 1; visibility: visible; }\n  .modal { background: white; padding: 30px; border-radius: 14px; max-width: 400px; transform: scale(0.85); transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1); }\n  .overlay.open .modal { transform: scale(1); }\n  .modal h2 { color: #a855f7; margin-top: 0; }\n  .close-btn { padding: 10px 20px; background: #e5e7eb; border: none; border-radius: 6px; cursor: pointer; }\n</style>\n</head>\n<body>\n  <button class=\"open-btn\" id=\"openBtn\">Open Modal</button>\n  <div class=\"overlay\" id=\"overlay\">\n    <div class=\"modal\">\n      <h2>Hi Vivaan</h2>\n      <p>This modal fades and scales smoothly.</p>\n      <button class=\"close-btn\" id=\"closeBtn\">Close</button>\n    </div>\n  </div>\n  <script>\n    const overlay = document.getElementById('overlay');\n    document.getElementById('openBtn').addEventListener('click', () => overlay.classList.add('open'));\n    document.getElementById('closeBtn').addEventListener('click', () => overlay.classList.remove('open'));\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Interactive Social Icon Bar",
+        "difficulty": "Hard",
+        "description": "Create a row of 4 social icons. On hover, each icon should lift up, rotate slightly, change to its brand color, and cast a glowing shadow. Use a cubic-bezier with overshoot for bounce.",
+        "sampleInput": "Hover each icon",
+        "sampleOutput": "Icons lift and bounce with a colored shadow matching their brand.",
+        "constraints": "Use cubic-bezier for the timing. Transition transform, background, color, and box-shadow.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #0f172a; margin: 0; font-family: Arial, sans-serif; }\n  .bar { display: flex; gap: 16px; }\n  .icon { width: 60px; height: 60px; background: #1e293b; color: #cbd5e1; font-size: 22px; font-weight: bold; display: flex; align-items: center; justify-content: center; text-decoration: none; border-radius: 12px; transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); }\n  .icon:hover { transform: translateY(-8px) rotate(-5deg); color: white; }\n  .fb:hover { background: #1877f2; box-shadow: 0 14px 28px rgba(24, 119, 242, 0.4); }\n  .ig:hover { background: linear-gradient(135deg, #833ab4, #fd1d1d); box-shadow: 0 14px 28px rgba(253, 29, 29, 0.4); }\n  .yt:hover { background: #ff0000; box-shadow: 0 14px 28px rgba(255, 0, 0, 0.4); }\n  .gh:hover { background: #24292e; box-shadow: 0 14px 28px rgba(36, 41, 46, 0.6); }\n</style>\n</head>\n<body>\n  <div class=\"bar\">\n    <a class=\"icon fb\" href=\"#\">F</a>\n    <a class=\"icon ig\" href=\"#\">I</a>\n    <a class=\"icon yt\" href=\"#\">Y</a>\n    <a class=\"icon gh\" href=\"#\">G</a>\n  </div>\n</body>\n</html>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Box Model - Margin, Border, Padding - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Understand the box model, box-sizing, content/padding/border/margin, and why box-sizing: border-box matters.">
+    <meta name="keywords" content="the box model - margin, border, padding, html and css tutorial, html and css the box model - margin, border, padding, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/the-box-model">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/the-box-model">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/the-box-model">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/the-box-model">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/the-box-model">
+    <meta property="og:title" content="The Box Model - Margin, Border, Padding - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Understand the box model, box-sizing, content/padding/border/margin, and why box-sizing: border-box matters.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/the-box-model">
+    <meta name="twitter:title" content="The Box Model - Margin, Border, Padding - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Understand the box model, box-sizing, content/padding/border/margin, and why box-sizing: border-box matters.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "The Box Model - Margin, Border, Padding",
+    "description": "Understand the box model, box-sizing, content/padding/border/margin, and why box-sizing: border-box matters.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/the-box-model"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/the-box-model"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "The Box Model - Margin, Border, Padding",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/the-box-model"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting box-sizing: border-box",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The universal box-sizing reset at the top of your CSS is non-negotiable in modern projects. It makes width and height mean what you expect: the total box size."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Expecting Vertical Margins to Add",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Margin collapse only happens with vertical margins on block elements. Using gap in flex/grid containers avoids it entirely. A common modern approach is to only set margin in one direction."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using margin: 0 auto Without a Width",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "margin: 0 auto only centers when there is leftover horizontal space to distribute. You need an explicit width or max-width smaller than the parent."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing outline with border",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "outline is drawn outside the border and does NOT take up space. The button does not shift. Use outline for focus rings (keyboard accessibility). Never remove outline without providing an alternative focus indicator."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">The Box Model - Margin, Border, Padding</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 13</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">40 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">The Box Model - Margin, Border, Padding</h1>
+            <a href="/resources/html-and-css/the-box-model/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is the Box Model?</h2><p>Every HTML element is rendered as a rectangular box. That box has four layers from the inside out:</p><ol><li><strong>Content</strong> -- the actual text, image, or child elements</li><li><strong>Padding</strong> -- transparent space around the content, inside the border</li><li><strong>Border</strong> -- a line drawn around the padding</li><li><strong>Margin</strong> -- transparent space outside the border, pushing other elements away</li></ol><p>Understanding the box model is non-negotiable. Almost every layout bug beginners run into -- 'why is my element wider than I expected?', 'why is there extra space here?', 'why won't my div center?' -- is a box model issue.</p><pre><code>/* A box with all four parts */
+.card {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #a855f7;
+  margin: 16px;
+}</code></pre>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is the Box Model So Important?</h2><h3>1. Every Layout Problem Is a Box Problem</h3><p>Elements not lining up? Too much space? Card wider than expected? These are almost always box model issues. Once you truly understand how content, padding, border, and margin interact, layout becomes intuitive instead of mysterious.</p><h3>2. content-box vs border-box Changes Everything</h3><p>By default, <code>width: 300px</code> means the <strong>content</strong> is 300px. Padding and border are added on top, making the total bigger. This is counter-intuitive. Almost every modern project uses <code>box-sizing: border-box</code> so that width means 'total box width'. This is a one-line reset that saves hours of debugging.</p><h3>3. Cards, Buttons, and Containers All Use It</h3><p>A card is just a box with padding, border-radius, and box-shadow. A button is a box with padding and background. A container is a box with max-width and auto margins. You will use the box model in literally every component you build.</p><h3>4. Margin Collapsing Trips Up Everyone</h3><p>There is one weird rule: vertical margins between adjacent blocks collapse into the larger one. Beginners lose hours to this. Once you know about it, you know how to avoid it.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Inspecting the Box Model</h3><p>Right-click any element and choose 'Inspect'. In DevTools, look for the box model diagram -- it shows exactly how big the content, padding, border, and margin are. This is the fastest way to debug layout bugs.</p><h3>2. content-box (Default) vs border-box</h3><p>This is the single most important concept in CSS layout.</p><pre><code>/* content-box (default) */
+.box1 {
+  box-sizing: content-box;
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+}
+/* Actual rendered width = 200 + 20 + 20 + 5 + 5 = 250px */
+
+/* border-box */
+.box2 {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+}
+/* Actual rendered width = 200px (padding and border subtract from content) */</code></pre><p>With <strong>content-box</strong>, width means 'the content area'. Padding and border get added on top.</p><p>With <strong>border-box</strong>, width means 'the total box'. Padding and border eat into that total.</p><h3>3. The Universal Reset</h3><p>Almost every modern stylesheet starts with this:</p><pre><code>*, *::before, *::after {
+  box-sizing: border-box;
+}</code></pre><p>This applies border-box to every element and pseudo-element. Now width actually means width. Problem solved for the entire project.</p><h3>4. padding Shorthand</h3><p>padding shorthand accepts 1, 2, 3, or 4 values.</p><pre><code>padding: 20px;              /* all four sides */
+padding: 10px 20px;         /* top/bottom | left/right */
+padding: 10px 20px 30px;    /* top | left/right | bottom */
+padding: 10px 20px 30px 40px; /* top | right | bottom | left (clockwise) */
+
+/* Or individual sides */
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 30px;
+padding-left: 40px;</code></pre><h3>5. border</h3><p>border shorthand: <code>width style color</code>. Border styles: solid, dashed, dotted, double, groove, ridge, inset, outset, none.</p><pre><code>border: 2px solid #a855f7;
+border: 1px dashed gray;
+border: 4px double red;
+
+/* Individual sides */
+border-top: 3px solid black;
+border-bottom: 1px solid #eee;
+
+/* Just one property */
+border-color: red;
+border-width: 2px;
+border-style: dotted;</code></pre><h3>6. border-radius</h3><p>Rounds corners. Works on any box.</p><pre><code>border-radius: 8px;       /* All four corners */
+border-radius: 50%;       /* Circle (if width = height) */
+border-radius: 12px 4px;  /* top-left+bottom-right | top-right+bottom-left */
+border-radius: 20px 0 20px 0;  /* each corner, clockwise from top-left */
+
+/* Individual corners */
+border-top-left-radius: 16px;
+border-bottom-right-radius: 16px;
+
+/* Elliptical corners */
+border-radius: 100px / 50px;  /* horizontal radius / vertical radius */</code></pre><h3>7. margin Shorthand</h3><p>Same 1/2/3/4 value syntax as padding.</p><pre><code>margin: 20px;
+margin: 10px 20px;
+margin: 10px 20px 30px 40px;
+
+margin-top: 20px;
+margin-bottom: 20px;</code></pre><h3>8. margin: 0 auto -- Centering</h3><p>To center a block element horizontally, set <code>margin: 0 auto</code> and give it a width. The browser splits the remaining horizontal space equally.</p><pre><code>.container {
+  max-width: 1200px;
+  margin: 0 auto; /* top-bottom 0, left-right auto */
+}</code></pre><h3>9. Negative Margins</h3><p>Margins can be negative. This pulls the element in the opposite direction or onto a neighbor.</p><pre><code>.overlap {
+  margin-top: -20px; /* pulls up, overlapping the element above */
+}</code></pre><h3>10. Margin Collapsing (Important!)</h3><p>When two vertical margins touch, they collapse into the larger one instead of adding up. This ONLY happens for vertical (top/bottom) margins between block elements.</p><pre><code>&lt;style&gt;
+  h1 { margin-bottom: 30px; }
+  p  { margin-top: 20px; }
+&lt;/style&gt;
+&lt;h1&gt;Title&lt;/h1&gt;
+&lt;p&gt;Paragraph&lt;/p&gt;
+
+/* You might expect 30 + 20 = 50px of space. */
+/* Actual space = 30px (the larger of the two). This is margin collapse. */</code></pre><p>Rules:</p><ul><li>Only vertical margins collapse (not horizontal)</li><li>Only between adjacent block elements (not flex/grid children)</li><li>Only touching margins (no border, padding, or content between them)</li></ul><p>To prevent collapsing: add padding, a border, or use flexbox/grid layouts.</p><h3>11. padding Shorthand Examples</h3><pre><code>.btn { padding: 12px 24px; }   /* classic button: 12px vertical, 24px horizontal */
+.card { padding: 24px; }       /* uniform card padding */</code></pre><h3>12. outline vs border</h3><p>outline is similar to border but:</p><ul><li>It does NOT take up space (draws on top, does not shift layout)</li><li>It goes around the border, not inside it</li><li>It cannot have different values per side</li><li>It is used for focus rings (accessibility)</li></ul><pre><code>button:focus {
+  outline: 3px solid #a855f7;
+  outline-offset: 2px;
+}</code></pre><h3>13. box-shadow</h3><p>Syntax: <code>x-offset y-offset blur spread color</code>. Creates a drop shadow.</p><pre><code>box-shadow: 0 4px 6px rgba(0,0,0,0.1);        /* subtle lift */
+box-shadow: 0 10px 30px rgba(0,0,0,0.15);     /* bigger lift */
+box-shadow: 0 20px 60px rgba(168, 85, 247, 0.3); /* purple glow */
+
+/* Inset shadow (inside the box) */
+box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+
+/* Multiple shadows stacked */
+box-shadow:
+  0 1px 2px rgba(0,0,0,0.08),
+  0 8px 24px rgba(0,0,0,0.12);</code></pre><p>x and y are the offsets (positive down/right), blur softens the edge, spread grows or shrinks the shadow uniformly.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Visualizing the Box Model</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 40px; background: #f3f4f6; }
+    .box {
+      width: 200px;
+      padding: 20px;
+      border: 6px solid #a855f7;
+      margin: 30px;
+      background: #fef3c7;
+      color: #1a1a2e;
+      text-align: center;
+    }
+    .label { color: #6b7280; font-size: 14px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p class=&quot;label&quot;&gt;content-box (default). Actual width = 200 + 20 + 20 + 6 + 6 = 252px.&lt;/p&gt;
+  &lt;div class=&quot;box&quot;&gt;
+    This is the content. Around it is 20px padding, then a 6px purple border, then 30px margin pushing neighbors away.
+  &lt;/div&gt;
+  &lt;p class=&quot;label&quot;&gt;Open DevTools and inspect the box to see the box model layers.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This shows a classic box with all four parts: content (the text), padding (amber space around the text), border (thick purple line), and margin (whitespace outside pushing the paragraphs away). Use DevTools' inspect tool to see each layer highlighted in different colors.</div><div class="code-example-output">A yellow box with a thick purple border and space around it. The content inside is centered text.</div></div>
+<div class="code-example"><div class="code-example-title">content-box vs border-box Comparison</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 40px; }
+    .box {
+      width: 300px;
+      padding: 20px;
+      border: 5px solid #a855f7;
+      margin-bottom: 16px;
+      background: #f3f4f6;
+    }
+    .content-box { box-sizing: content-box; }
+    .border-box  { box-sizing: border-box; }
+    .ruler { width: 350px; border-top: 2px dashed #9ca3af; margin: 8px 0 24px; font-size: 12px; color: #6b7280; text-align: right; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Both have width: 300px&lt;/h2&gt;
+  &lt;p&gt;By Priya Sharma. Notice the difference in actual rendered width.&lt;/p&gt;
+
+  &lt;div class=&quot;box content-box&quot;&gt;content-box: width=300px. Actual total = 300 + 20 + 20 + 5 + 5 = 350px&lt;/div&gt;
+  &lt;div class=&quot;ruler&quot;&gt;350px&lt;/div&gt;
+
+  &lt;div class=&quot;box border-box&quot;&gt;border-box: width=300px. Actual total = 300px (padding and border eat into the 300)&lt;/div&gt;
+  &lt;div class=&quot;ruler&quot;&gt;300px&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Both boxes declare <code>width: 300px</code>, but the first one (content-box) is actually 350px wide because padding and border are added. The second one (border-box) is exactly 300px because padding and border are subtracted from the content area. This is why nearly every project uses border-box.</div><div class="code-example-output">Two gray boxes. The first is visibly wider than the second despite both declaring the same width, because of different box-sizing values.</div></div>
+<div class="code-example"><div class="code-example-title">Card with Border Radius and Shadow</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: #f9fafb; padding: 60px; display: flex; justify-content: center; }
+    .card {
+      width: 320px;
+      background: white;
+      padding: 28px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08), 0 4px 10px rgba(0, 0, 0, 0.04);
+    }
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #a855f7, #06b6d4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+      margin: 0 auto 16px;
+    }
+    h3 { margin: 0 0 4px; text-align: center; color: #1a1a2e; }
+    .role { text-align: center; color: #6b7280; font-size: 14px; margin: 0 0 16px; }
+    .bio { color: #4b5563; line-height: 1.6; font-size: 14px; margin: 0 0 16px; }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: #a855f7;
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;div class=&quot;avatar&quot;&gt;AR&lt;/div&gt;
+    &lt;h3&gt;Aarav Reddy&lt;/h3&gt;
+    &lt;p class=&quot;role&quot;&gt;Full Stack Developer&lt;/p&gt;
+    &lt;p class=&quot;bio&quot;&gt;Loves building things for the web. Currently learning advanced CSS and React. Cricket fan. From Hyderabad.&lt;/p&gt;
+    &lt;button class=&quot;btn&quot;&gt;Follow&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A modern card. Notice the <code>* { box-sizing: border-box }</code> reset at the top. The avatar uses <code>border-radius: 50%</code> to become a circle. The card uses two stacked box-shadows for a realistic depth effect. Padding gives breathing room inside.</div><div class="code-example-output">A clean white profile card with a gradient circular avatar, centered name and role, description, and a full-width purple button.</div></div>
+<div class="code-example"><div class="code-example-title">Centering with margin: 0 auto</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: #e5e7eb; padding: 40px 0; margin: 0; }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+    h1 { color: #a855f7; margin: 0 0 16px; }
+    p { line-height: 1.6; color: #4b5563; margin: 0 0 12px; }
+    .inner {
+      max-width: 400px;
+      margin: 24px auto;
+      padding: 16px;
+      background: #f3f4f6;
+      border-radius: 8px;
+      text-align: center;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;h1&gt;Centered Container&lt;/h1&gt;
+    &lt;p&gt;This container has max-width: 800px and margin: 0 auto. The browser splits the leftover horizontal space equally, centering the container regardless of viewport width. This is the classic way to create a centered page layout without flexbox or grid.&lt;/p&gt;
+    &lt;div class=&quot;inner&quot;&gt;
+      &lt;strong&gt;Inner box also centered&lt;/strong&gt;&lt;br&gt;
+      max-width: 400px; margin: 24px auto;
+    &lt;/div&gt;
+    &lt;p&gt;By Kavya Patel. Resize the window to see the container stay centered.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>margin: 0 auto</code> is the classic block-centering trick. 'auto' on left and right tells the browser to distribute leftover horizontal space equally. It only works when the element has an explicit width (or max-width).</div><div class="code-example-output">A page with an 800px wide white container centered horizontally, containing a heading, paragraphs, and a smaller nested centered box.</div></div>
+<div class="code-example"><div class="code-example-title">Margin Collapse Demo</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f9fafb; }
+    .note { color: #6b7280; font-size: 13px; }
+    .box {
+      background: #fef3c7;
+      padding: 8px 16px;
+      border: 1px solid #f59e0b;
+    }
+    .a { margin-bottom: 40px; }
+    .b { margin-top: 30px; }
+    .fix-wrap { border: 2px dashed #a855f7; padding: 1px; margin-top: 30px; }
+    .fix-wrap .box { margin: 0; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Margin Collapse&lt;/h2&gt;
+  &lt;p class=&quot;note&quot;&gt;Box A has margin-bottom: 40px. Box B has margin-top: 30px. You might expect 70px of space between them. Actual space: 40px (the larger one wins).&lt;/p&gt;
+  &lt;div class=&quot;box a&quot;&gt;Box A (margin-bottom 40px)&lt;/div&gt;
+  &lt;div class=&quot;box b&quot;&gt;Box B (margin-top 30px)&lt;/div&gt;
+  &lt;p class=&quot;note&quot;&gt;Adding padding or a border between them prevents the collapse. Here we wrap Box B in a purple-bordered container that forces its margin to act independently:&lt;/p&gt;
+  &lt;div class=&quot;box a&quot;&gt;Another Box A&lt;/div&gt;
+  &lt;div class=&quot;fix-wrap&quot;&gt;
+    &lt;div class=&quot;box&quot;&gt;Wrapped Box -- no collapse with the previous one.&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;p class=&quot;note&quot;&gt;By Ishaan. Margin collapse is a weird CSS rule that trips up beginners. It only affects vertical margins between block elements.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The first example shows margin collapse: 40px + 30px = 40px total (not 70). The second example prevents it by wrapping the second box in an element with a border, so the margins no longer touch directly and cannot collapse.</div><div class="code-example-output">Two examples stacked: the first shows collapsed margins (smaller gap than expected), the second uses a bordered wrapper to prevent the collapse.</div></div>
+<div class="code-example"><div class="code-example-title">Box Shadows Showcase</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; padding: 40px; background: #f3f4f6; display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; }
+    .card {
+      width: 180px;
+      height: 180px;
+      background: white;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 16px;
+      color: #1a1a2e;
+      font-size: 13px;
+    }
+    .s1 { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+    .s2 { box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12); }
+    .s3 { box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); }
+    .s4 { box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2); }
+    .glow { box-shadow: 0 15px 40px rgba(168, 85, 247, 0.4); }
+    .inset { box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1); background: #f9fafb; }
+    .multi {
+      box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.08),
+        0 8px 16px rgba(0, 0, 0, 0.1),
+        0 24px 48px rgba(0, 0, 0, 0.08);
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;card s1&quot;&gt;1 Subtle&lt;/div&gt;
+  &lt;div class=&quot;card s2&quot;&gt;2 Small&lt;/div&gt;
+  &lt;div class=&quot;card s3&quot;&gt;3 Medium&lt;/div&gt;
+  &lt;div class=&quot;card s4&quot;&gt;4 Large&lt;/div&gt;
+  &lt;div class=&quot;card glow&quot;&gt;5 Purple Glow&lt;/div&gt;
+  &lt;div class=&quot;card inset&quot;&gt;6 Inset&lt;/div&gt;
+  &lt;div class=&quot;card multi&quot;&gt;7 Multi-layer (realistic)&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Seven different shadow styles: from barely visible to large dramatic shadows, colored glows, inset (sunken) shadows, and multi-layered shadows that feel more realistic. Stacking multiple shadows with different blurs produces the most lifelike depth.</div><div class="code-example-output">A grid of white cards, each with a different shadow style -- from barely-there to bold, colored, inset, and layered.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting box-sizing: border-box</h3>
+                <div class="wrong-code"><pre><code class="language-python">.card {
+  width: 100%;
+  padding: 20px;
+  border: 2px solid black;
+}
+/* Card overflows its parent by 44px */</code></pre></div><div class="error-message">width: 100% means the content is 100%. Padding and border add 44px extra, causing the card to overflow.</div><div class="correct-code"><pre><code class="language-python">*, *::before, *::after { box-sizing: border-box; }
+
+.card {
+  width: 100%;
+  padding: 20px;
+  border: 2px solid black;
+}
+/* Now width: 100% includes padding and border. No overflow. */</code></pre></div><div class="mistake-explanation">The universal box-sizing reset at the top of your CSS is non-negotiable in modern projects. It makes width and height mean what you expect: the total box size.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Expecting Vertical Margins to Add</h3>
+                <div class="wrong-code"><pre><code class="language-python">h1 { margin-bottom: 30px; }
+p  { margin-top: 30px; }
+/* Expected 60px gap, actual 30px */</code></pre></div><div class="error-message">Vertical margins between adjacent block elements collapse into the larger one, not added together.</div><div class="correct-code"><pre><code class="language-python">/* Option 1: Use only one margin direction */
+h1 { margin-bottom: 60px; }
+p  { margin-top: 0; }
+
+/* Option 2: Use padding instead */
+/* Option 3: Use flex or grid with gap, which do not collapse */</code></pre></div><div class="mistake-explanation">Margin collapse only happens with vertical margins on block elements. Using gap in flex/grid containers avoids it entirely. A common modern approach is to only set margin in one direction.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using margin: 0 auto Without a Width</h3>
+                <div class="wrong-code"><pre><code class="language-python">.container {
+  margin: 0 auto;
+  /* No width or max-width set */
+}
+/* Does not center -- container is full width already */</code></pre></div><div class="error-message">Without a width or max-width, the container already fills its parent. Auto margins have nothing to distribute, so nothing changes.</div><div class="correct-code"><pre><code class="language-python">.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}</code></pre></div><div class="mistake-explanation">margin: 0 auto only centers when there is leftover horizontal space to distribute. You need an explicit width or max-width smaller than the parent.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing outline with border</h3>
+                <div class="wrong-code"><pre><code class="language-python">button:focus {
+  border: 2px solid blue;
+}
+/* The button shifts 2px when focused because the border takes up space */</code></pre></div><div class="error-message">Adding a border changes the element&#39;s size, making it shift. This looks jarring during keyboard focus.</div><div class="correct-code"><pre><code class="language-python">button:focus {
+  outline: 2px solid blue;
+  outline-offset: 2px;
+}</code></pre></div><div class="mistake-explanation">outline is drawn outside the border and does NOT take up space. The button does not shift. Use outline for focus rings (keyboard accessibility). Never remove outline without providing an alternative focus indicator.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Every element is a box with four layers: content (inside), padding (around content), border (around padding), margin (outside border pushing other elements away).</li>
+<li>box-sizing: content-box (default) means width refers to the content only. Padding and border add to the total. This is counter-intuitive and causes bugs.</li>
+<li>box-sizing: border-box means width refers to the total box. Padding and border subtract from the content area. Almost every modern project uses this via a universal reset: *, *::before, *::after { box-sizing: border-box; }.</li>
+<li>padding and margin shorthands accept 1 to 4 values: all sides / vertical+horizontal / top+horizontal+bottom / top+right+bottom+left (clockwise).</li>
+<li>margin: 0 auto horizontally centers a block element -- but only when it has a defined width or max-width smaller than its parent.</li>
+<li>Vertical margins between adjacent block elements collapse into the larger one (margin collapse). Add padding, a border, or use flex/grid to prevent it.</li>
+<li>border shorthand: width style color (e.g. 2px solid #a855f7). Individual sides: border-top, border-bottom, border-left, border-right.</li>
+<li>border-radius rounds corners. Use 50% on a square to make a circle. Individual corner properties: border-top-left-radius, border-bottom-right-radius, etc.</li>
+<li>outline is drawn around the border and does NOT take up space. Use it for focus rings. Do not remove focus outlines without providing an alternative.</li>
+<li>box-shadow: x-offset y-offset blur spread color. Stack multiple shadows for realistic depth. Use inset for interior shadows. Use rgba with low alpha for subtle lifts.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/display-and-positioning" class="related-topic-link">Display and Positioning (static, relative, absolute, fixed, sticky)</a>
+<a href="/resources/html-and-css/flexbox-complete-guide" class="related-topic-link">Flexbox - The Complete Guide</a>
+<a href="/resources/html-and-css/typography-and-fonts" class="related-topic-link">Typography and Google Fonts</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/typography-and-fonts" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Typography and Google Fonts</span>
+        </a>
+            <a href="/resources/html-and-css/display-and-positioning" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Display and Positioning (static, relative, absolute, fixed, sticky)</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/the-box-model/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

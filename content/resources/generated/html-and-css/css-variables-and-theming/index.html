@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables and Theming (Dark Mode) - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Use CSS custom properties (--variable) for clean code and build a working dark mode toggle with pure CSS.">
+    <meta name="keywords" content="css variables and theming (dark mode), html and css tutorial, html and css css variables and theming (dark mode), learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/css-variables-and-theming">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/css-variables-and-theming">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/css-variables-and-theming">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/css-variables-and-theming">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/css-variables-and-theming">
+    <meta property="og:title" content="CSS Variables and Theming (Dark Mode) - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Use CSS custom properties (--variable) for clean code and build a working dark mode toggle with pure CSS.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/css-variables-and-theming">
+    <meta name="twitter:title" content="CSS Variables and Theming (Dark Mode) - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Use CSS custom properties (--variable) for clean code and build a working dark mode toggle with pure CSS.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "CSS Variables and Theming (Dark Mode)",
+    "description": "Use CSS custom properties (--variable) for clean code and build a working dark mode toggle with pure CSS.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/css-variables-and-theming"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/css-variables-and-theming"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "CSS Variables and Theming (Dark Mode)",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/css-variables-and-theming"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting the Two Dashes in the Variable Name",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CSS custom properties always start with two dashes. Both the definition and the <code>var()</code> reference must include them. This is how the browser distinguishes a custom property from a regular property."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Defining Variables Outside :root Without Scoping Intent",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Put global variables on <code>:root</code> so they are available to the whole document. Only scope variables to a component when you deliberately want that component to be the only one that sees them."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Using a Fallback When the Variable Might Be Missing",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always provide a fallback for variables in reusable components or libraries. The syntax is <code>var(--name, fallback)</code>. This makes your component resilient to being dropped into any project."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting .trim() When Reading a Variable in JavaScript",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The value returned by <code>getPropertyValue</code> preserves any whitespace from the CSS declaration. Always call <code>.trim()</code> before comparing or using the value."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">CSS Variables and Theming (Dark Mode)</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 21</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">50 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">CSS Variables and Theming (Dark Mode)</h1>
+            <a href="/resources/html-and-css/css-variables-and-theming/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are CSS Variables?</h2><p>CSS variables (officially called <strong>custom properties</strong>) let you store a value in one place and reuse it everywhere. Instead of writing <code>#a855f7</code> fifty times in your stylesheet, you write it once as <code>--primary-color: #a855f7</code> and use it as <code>var(--primary-color)</code>.</p><p>They look like regular CSS properties but with two dashes in front:</p><pre><code>:root {
+  --primary-color: #a855f7;
+  --text-color: #f1f5f9;
+  --space-md: 16px;
+}
+
+.button {
+  background: var(--primary-color);
+  color: var(--text-color);
+  padding: var(--space-md);
+}</code></pre><p>If Aarav decides purple should be a slightly different shade, he changes <em>one line</em> and every button, link, and heading on the site updates instantly. That is the superpower of variables.</p><p>Unlike Sass or Less variables (which are compiled away), CSS variables are <strong>live</strong>. They exist in the browser, they respond to media queries, they inherit down the DOM tree, and JavaScript can read and change them at runtime. This is what makes dark mode toggles trivial to build.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Use CSS Variables?</h2><h3>1. DRY - Don't Repeat Yourself</h3><p>Without variables, your brand color appears in 40 places across 10 files. Change it once and you miss three instances. With variables, it lives in one place and everything stays consistent. This is the single biggest maintenance win in CSS.</p><h3>2. Theming Is Almost Free</h3><p>A dark mode toggle used to require duplicating every style rule. With variables, you define colors once, override them inside <code>.dark-mode</code>, and toggle a single class on the body. One line of JavaScript changes the entire theme. Priya built her dark mode in 5 minutes.</p><h3>3. Design Systems and Tokens</h3><p>Professional design systems (Material, Tailwind, Radix, Shopify Polaris) are built on design tokens — named values for colors, spacing, typography, shadows, and radii. CSS variables are the browser-native way to implement tokens. Every modern framework uses them.</p><h3>4. JavaScript Integration</h3><p>Variables are visible to JavaScript through <code>getComputedStyle</code> and <code>setProperty</code>. You can read the current theme color, change it based on user input, animate it, or sync it with a server preference. Sass variables cannot do any of this.</p><h3>5. Scoped Theming</h3><p>Variables are scoped to the element they are declared on and inherited by all descendants. This means you can theme one section differently from another by redefining variables on a wrapper. No class explosion. No specificity wars.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>CSS Variables In Depth</h2><h3>1. Defining Variables on :root</h3><p>The most common place to define variables is on <code>:root</code>, which is equivalent to <code>html</code> but has higher specificity. Variables defined here are available everywhere.</p><pre><code>:root {
+  --primary: #a855f7;
+  --primary-dark: #7c3aed;
+  --accent: #06b6d4;
+  --bg: #0f172a;
+  --text: #f1f5f9;
+  --radius: 12px;
+}</code></pre><h3>2. Using var() with Fallbacks</h3><p>Use <code>var(--name)</code> to read a variable. Provide a fallback for cases where the variable does not exist:</p><pre><code>.button {
+  /* If --primary is missing, use red */
+  background: var(--primary, red);
+  /* You can even nest fallbacks */
+  color: var(--text-color, var(--text, white));
+}</code></pre><p>Fallbacks are a safety net for components that might be dropped into projects where your variables are not defined.</p><h3>3. Scoping - Variables Are Inherited</h3><p>Variables cascade just like other CSS. You can redefine them on a parent element to theme a section:</p><pre><code>.warning-panel {
+  --primary: #ef4444;  /* Red for warnings */
+  --text: white;
+}
+/* Every button, heading, and link inside .warning-panel
+   now uses the warning colors. No extra selectors needed. */</code></pre><h3>4. Spacing Scales and Design Tokens</h3><p>Define a consistent spacing scale so your whole site breathes the same way:</p><pre><code>:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-8: 48px;
+  --space-10: 64px;
+
+  --font-sm: 14px;
+  --font-md: 16px;
+  --font-lg: 20px;
+  --font-xl: 28px;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.15);
+  --shadow-lg: 0 16px 40px rgba(0,0,0,0.25);
+}</code></pre><p>This is how real products ship UI. Designers and developers speak the same language: <code>space-4</code>, <code>radius-md</code>, <code>shadow-lg</code>.</p><h3>5. Dark Mode with Pure CSS</h3><p>The simplest way: toggle a class on the body and redefine the variables inside it.</p><pre><code>:root {
+  --bg: #ffffff;
+  --text: #0f172a;
+  --card: #f8fafc;
+  --border: #e2e8f0;
+}
+
+.dark-mode {
+  --bg: #0f172a;
+  --text: #f1f5f9;
+  --card: #1e293b;
+  --border: #334155;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+}</code></pre><p>Every element that uses <code>var(--bg)</code>, <code>var(--text)</code>, etc., flips automatically when <code>.dark-mode</code> is added to <code>body</code>. The <code>transition</code> makes the change smooth.</p><h3>6. Changing Variables with JavaScript</h3><p>At runtime, variables can be read and written through the style API:</p><pre><code>// Read a variable
+const styles = getComputedStyle(document.documentElement);
+const primary = styles.getPropertyValue('--primary').trim();
+console.log(primary); // "#a855f7"
+
+// Change a variable
+document.documentElement.style.setProperty('--primary', '#ec4899');
+
+// Every element that uses var(--primary) updates instantly</code></pre><p>This is how Ishita builds a live theme picker where a color input updates the whole page as you drag the slider.</p><h3>7. Respecting System Preferences</h3><p>Use the <code>prefers-color-scheme</code> media query to auto-match the user's OS setting:</p><pre><code>:root {
+  --bg: white;
+  --text: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f172a;
+    --text: #f1f5f9;
+  }
+}</code></pre><h3>8. Pure-CSS Dark Mode Toggle (Checkbox Hack)</h3><p>No JavaScript needed. Use a hidden checkbox and the sibling combinator:</p><pre><code>&lt;input type="checkbox" id="theme"&gt;
+&lt;label for="theme"&gt;Toggle theme&lt;/label&gt;
+&lt;main&gt;...&lt;/main&gt;
+
+#theme:checked ~ main {
+  --bg: #0f172a;
+  --text: #f1f5f9;
+}</code></pre><h3>9. Variables in Calculations</h3><p>Variables play beautifully with <code>calc()</code>:</p><pre><code>:root {
+  --space: 8px;
+}
+.section {
+  padding: calc(var(--space) * 3);   /* 24px */
+  margin-block: calc(var(--space) * 6); /* 48px */
+}</code></pre><h3>10. Component-Scoped Variables</h3><p>Define variables on the component itself so it can be themed from the outside with a single property:</p><pre><code>.card {
+  --card-bg: white;
+  --card-border: #e2e8f0;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* Theme override - no new selectors needed */
+.card.danger {
+  --card-bg: #fef2f2;
+  --card-border: #fca5a5;
+}</code></pre><p>This pattern is how libraries like Radix UI and shadcn ship themeable components.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Themed Button Library with Variables</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    :root {
+      --primary: #a855f7;
+      --primary-dark: #7c3aed;
+      --success: #10b981;
+      --danger: #ef4444;
+      --warning: #f59e0b;
+      --text-on-color: #ffffff;
+      --radius: 12px;
+      --space-md: 14px;
+      --space-lg: 28px;
+      --shadow: 0 4px 14px rgba(0,0,0,0.15);
+    }
+    body {
+      font-family: &#39;Segoe UI&#39;, sans-serif;
+      background: #0f172a;
+      padding: 48px 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+    }
+    .btn {
+      padding: var(--space-md) var(--space-lg);
+      border: none;
+      border-radius: var(--radius);
+      color: var(--text-on-color);
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.25); }
+    .btn-primary { background: var(--primary); }
+    .btn-primary:hover { background: var(--primary-dark); }
+    .btn-success { background: var(--success); }
+    .btn-danger  { background: var(--danger); }
+    .btn-warning { background: var(--warning); }
+    .btn-outline { background: transparent; color: var(--primary); border: 2px solid var(--primary); }
+    .btn-outline:hover { background: var(--primary); color: var(--text-on-color); }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;button class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+  &lt;button class=&quot;btn btn-success&quot;&gt;Save&lt;/button&gt;
+  &lt;button class=&quot;btn btn-danger&quot;&gt;Delete&lt;/button&gt;
+  &lt;button class=&quot;btn btn-warning&quot;&gt;Warn&lt;/button&gt;
+  &lt;button class=&quot;btn btn-outline&quot;&gt;Outline&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">One CSS variable per color, radius, spacing, and shadow. Every button uses the same tokens, guaranteeing visual consistency. Change <code>--primary</code> at the top and every primary button (plus the outline button) updates automatically. This is how real component libraries work.</div><div class="code-example-output">A row of colorful modern buttons: purple Primary, green Save, red Delete, amber Warn, and a ghost Outline button. All share the same radius, spacing, and shadow because they read from the same variables.</div></div>
+<div class="code-example"><div class="code-example-title">Dark Mode Toggle with CSS Variables and JavaScript</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    :root {
+      --bg: #ffffff;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --card: #f8fafc;
+      --border: #e2e8f0;
+      --accent: #7c3aed;
+      --shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    body.dark {
+      --bg: #0b1120;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --card: #1e293b;
+      --border: #334155;
+      --accent: #a855f7;
+      --shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: &#39;Segoe UI&#39;, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 40px 24px;
+      transition: background 0.3s, color 0.3s;
+    }
+    .toggle {
+      position: fixed; top: 20px; right: 20px;
+      padding: 10px 20px; background: var(--accent); color: white;
+      border: none; border-radius: 999px; cursor: pointer; font-weight: 600;
+    }
+    h1 { color: var(--accent); margin-bottom: 20px; font-size: 32px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+      max-width: 500px;
+      transition: background 0.3s, border-color 0.3s;
+    }
+    .card p { color: var(--text-muted); margin-top: 8px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;button class=&quot;toggle&quot; id=&quot;themeBtn&quot;&gt;Toggle Theme&lt;/button&gt;
+  &lt;h1&gt;Hi, I am Priya&lt;/h1&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h2&gt;About Me&lt;/h2&gt;
+    &lt;p&gt;I love building interfaces with CSS variables. Click the button in the corner to flip between light and dark themes. Notice how nothing hardcodes a color - everything reads from var().&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;script&gt;
+    var btn = document.getElementById(&#39;themeBtn&#39;);
+    btn.addEventListener(&#39;click&#39;, function() {
+      document.body.classList.toggle(&#39;dark&#39;);
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Variables live on <code>:root</code> for light mode and get overridden on <code>body.dark</code> for dark mode. The JavaScript is just one line: toggle the <code>dark</code> class. Every color across the page flips because they all read from variables. The transition property gives a silky fade when the theme switches.</div><div class="code-example-output">A clean card on a light background with a purple toggle button. Clicking the button smoothly transitions the whole page to a deep navy background with lighter text and card surfaces. Click again to return.</div></div>
+<div class="code-example"><div class="code-example-title">Live Theme Picker with setProperty</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    :root {
+      --primary: #a855f7;
+      --radius: 14px;
+    }
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #0f172a; color: white; padding: 40px; text-align: center; }
+    h1 { color: var(--primary); margin-bottom: 24px; font-size: 36px; }
+    .controls { display: flex; gap: 20px; justify-content: center; margin-bottom: 32px; flex-wrap: wrap; }
+    .controls label { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #cbd5e1; }
+    input[type=&quot;color&quot;], input[type=&quot;range&quot;] { cursor: pointer; }
+    .preview {
+      display: inline-block;
+      padding: 24px 48px;
+      background: var(--primary);
+      color: white;
+      font-weight: 700;
+      font-size: 20px;
+      border-radius: var(--radius);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      transition: background 0.2s, border-radius 0.2s;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Live Theme Picker&lt;/h1&gt;
+  &lt;div class=&quot;controls&quot;&gt;
+    &lt;label&gt;Primary color&lt;input type=&quot;color&quot; id=&quot;colorPick&quot; value=&quot;#a855f7&quot;&gt;&lt;/label&gt;
+    &lt;label&gt;Radius&lt;input type=&quot;range&quot; id=&quot;radiusPick&quot; min=&quot;0&quot; max=&quot;40&quot; value=&quot;14&quot;&gt;&lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;preview&quot;&gt;Rohan&#39;s Button&lt;/div&gt;
+  &lt;script&gt;
+    var root = document.documentElement;
+    document.getElementById(&#39;colorPick&#39;).addEventListener(&#39;input&#39;, function(e) {
+      root.style.setProperty(&#39;--primary&#39;, e.target.value);
+    });
+    document.getElementById(&#39;radiusPick&#39;).addEventListener(&#39;input&#39;, function(e) {
+      root.style.setProperty(&#39;--radius&#39;, e.target.value + &#39;px&#39;);
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Two inputs control live CSS variables. A color picker updates <code>--primary</code> and a range slider updates <code>--radius</code>. The preview element uses both variables, so it updates instantly as the user drags. <code>document.documentElement.style.setProperty</code> writes the variable to the root (&lt;html&gt;) so the whole page sees it.</div><div class="code-example-output">A heading and a purple rounded button. Picking a new color instantly repaints the button and heading. Dragging the radius slider morphs the button from square to pill shape in real time.</div></div>
+<div class="code-example"><div class="code-example-title">Design System Spacing and Typography Scale</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    :root {
+      /* Spacing scale */
+      --s-1: 4px;
+      --s-2: 8px;
+      --s-3: 12px;
+      --s-4: 16px;
+      --s-5: 24px;
+      --s-6: 32px;
+      --s-7: 48px;
+      --s-8: 64px;
+
+      /* Type scale */
+      --t-xs: 12px;
+      --t-sm: 14px;
+      --t-md: 16px;
+      --t-lg: 20px;
+      --t-xl: 28px;
+      --t-2xl: 40px;
+
+      /* Colors */
+      --bg: #fafaf9;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --brand: #7c3aed;
+      --border: #e2e8f0;
+      --radius: 14px;
+      --shadow: 0 4px 14px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; background: var(--bg); padding: var(--s-7); color: var(--text); }
+    .hero {
+      max-width: 720px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: var(--s-7);
+      box-shadow: var(--shadow);
+    }
+    .eyebrow { font-size: var(--t-sm); color: var(--brand); text-transform: uppercase; letter-spacing: 2px; margin-bottom: var(--s-3); }
+    .hero h1 { font-size: var(--t-2xl); margin-bottom: var(--s-4); line-height: 1.15; }
+    .hero p { font-size: var(--t-md); color: var(--muted); margin-bottom: var(--s-5); line-height: 1.6; }
+    .hero .cta {
+      display: inline-block;
+      padding: var(--s-3) var(--s-5);
+      background: var(--brand);
+      color: white;
+      text-decoration: none;
+      border-radius: var(--radius);
+      font-size: var(--t-md);
+      font-weight: 600;
+    }
+    .list { margin-top: var(--s-6); display: grid; gap: var(--s-3); }
+    .list div { padding: var(--s-3) var(--s-4); background: var(--bg); border-radius: var(--s-2); font-size: var(--t-sm); color: var(--muted); }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;section class=&quot;hero&quot;&gt;
+    &lt;div class=&quot;eyebrow&quot;&gt;Design System&lt;/div&gt;
+    &lt;h1&gt;Build with Tokens, Not Magic Numbers&lt;/h1&gt;
+    &lt;p&gt;Every margin, padding, font size, radius, and color on this page comes from a CSS variable. Ishita designed them once. Aarav reuses them everywhere. The whole app breathes with the same rhythm.&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;cta&quot;&gt;Read the Guide&lt;/a&gt;
+    &lt;div class=&quot;list&quot;&gt;
+      &lt;div&gt;Spacing scale: s-1 through s-8&lt;/div&gt;
+      &lt;div&gt;Type scale: t-xs through t-2xl&lt;/div&gt;
+      &lt;div&gt;Radius, shadow, and color tokens&lt;/div&gt;
+      &lt;div&gt;All defined in one place on :root&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Not a single hardcoded number. Every size references a variable from the spacing or type scale. This is the foundation of a design system: rhythm, consistency, and maintainability. If the team decides to tighten spacing, they change the scale in one place and the whole product updates.</div><div class="code-example-output">A clean hero card with an eyebrow label, large heading, paragraph, CTA button, and a list of tokens. Everything is perfectly spaced because it all uses the same 8px-based scale.</div></div>
+<div class="code-example"><div class="code-example-title">Pure CSS Dark Mode Toggle (No JavaScript)</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    :root {
+      --bg: #ffffff;
+      --text: #0f172a;
+      --card: #f1f5f9;
+      --accent: #7c3aed;
+    }
+    /* When the checkbox is checked, redefine variables on body via sibling */
+    #themeSwitch:checked ~ .app {
+      --bg: #0b1120;
+      --text: #f1f5f9;
+      --card: #1e293b;
+      --accent: #a855f7;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; }
+    #themeSwitch { position: absolute; opacity: 0; pointer-events: none; }
+    .app {
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 40px 24px;
+      transition: background 0.3s, color 0.3s;
+    }
+    .switch-label {
+      display: inline-block;
+      padding: 10px 20px;
+      background: var(--accent);
+      color: white;
+      border-radius: 999px;
+      cursor: pointer;
+      font-weight: 600;
+      user-select: none;
+    }
+    .switch-label::before { content: &#39;Dark mode on&#39;; }
+    #themeSwitch:checked ~ .app .switch-label::before { content: &#39;Light mode on&#39;; }
+    h1 { color: var(--accent); margin: 24px 0 12px; font-size: 32px; }
+    .card { background: var(--card); padding: 20px; border-radius: 14px; max-width: 500px; transition: background 0.3s; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;themeSwitch&quot;&gt;
+  &lt;div class=&quot;app&quot;&gt;
+    &lt;label for=&quot;themeSwitch&quot; class=&quot;switch-label&quot;&gt;&lt;/label&gt;
+    &lt;h1&gt;Anika&#39;s Theme Switcher&lt;/h1&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;p&gt;This toggle uses zero JavaScript. The hidden checkbox controls a CSS class, and CSS variables do the rest. The button label even changes with &lt;code&gt;::before { content }&lt;/code&gt;.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The checkbox hack: a hidden <code>&lt;input type="checkbox"&gt;</code> is the state. The <code>&lt;label for="themeSwitch"&gt;</code> acts as the visible button. The selector <code>#themeSwitch:checked ~ .app</code> reassigns the variables when the checkbox is checked. No JavaScript, zero runtime cost.</div><div class="code-example-output">A rounded purple button that says &#39;Dark mode on&#39;. Clicking it flips the whole page to dark mode and the button text changes to &#39;Light mode on&#39;. Everything happens with pure CSS.</div></div>
+<div class="code-example"><div class="code-example-title">Component-Scoped Variables for Card Variants</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; background: #f8fafc; padding: 40px 24px; display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); max-width: 1000px; margin: 0 auto; }
+    /* Base card - defines its own theming variables */
+    .card {
+      --card-bg: #ffffff;
+      --card-border: #e2e8f0;
+      --card-accent: #7c3aed;
+      --card-title: #0f172a;
+      --card-text: #475569;
+
+      background: var(--card-bg);
+      border: 2px solid var(--card-border);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    }
+    .card h3 { color: var(--card-title); margin-bottom: 8px; font-size: 20px; }
+    .card p { color: var(--card-text); font-size: 14px; line-height: 1.6; }
+    .card .tag { display: inline-block; margin-top: 12px; padding: 4px 12px; background: var(--card-accent); color: white; border-radius: 999px; font-size: 12px; font-weight: 600; }
+
+    /* Variants - just override variables, no rewriting */
+    .card.success {
+      --card-bg: #f0fdf4;
+      --card-border: #86efac;
+      --card-accent: #16a34a;
+    }
+    .card.danger {
+      --card-bg: #fef2f2;
+      --card-border: #fca5a5;
+      --card-accent: #dc2626;
+    }
+    .card.warning {
+      --card-bg: #fffbeb;
+      --card-border: #fde047;
+      --card-accent: #d97706;
+    }
+    .card.info {
+      --card-bg: #f0f9ff;
+      --card-border: #7dd3fc;
+      --card-accent: #0284c7;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;card&quot;&gt;&lt;h3&gt;Default&lt;/h3&gt;&lt;p&gt;This is the base card with default theming variables.&lt;/p&gt;&lt;span class=&quot;tag&quot;&gt;Neutral&lt;/span&gt;&lt;/div&gt;
+  &lt;div class=&quot;card success&quot;&gt;&lt;h3&gt;Success&lt;/h3&gt;&lt;p&gt;Vivaan finished his JavaScript chapter! No new code, just new variables.&lt;/p&gt;&lt;span class=&quot;tag&quot;&gt;Completed&lt;/span&gt;&lt;/div&gt;
+  &lt;div class=&quot;card danger&quot;&gt;&lt;h3&gt;Danger&lt;/h3&gt;&lt;p&gt;Watch out - this card overrides only the variables that change color.&lt;/p&gt;&lt;span class=&quot;tag&quot;&gt;Alert&lt;/span&gt;&lt;/div&gt;
+  &lt;div class=&quot;card warning&quot;&gt;&lt;h3&gt;Warning&lt;/h3&gt;&lt;p&gt;One CSS class, four lines of variables, and you get a whole new look.&lt;/p&gt;&lt;span class=&quot;tag&quot;&gt;Review&lt;/span&gt;&lt;/div&gt;
+  &lt;div class=&quot;card info&quot;&gt;&lt;h3&gt;Info&lt;/h3&gt;&lt;p&gt;This is how production libraries (Radix, shadcn, Bootstrap) theme components.&lt;/p&gt;&lt;span class=&quot;tag&quot;&gt;Tip&lt;/span&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The <code>.card</code> component defines its own variables (<code>--card-bg</code>, <code>--card-accent</code>, etc.) and uses them throughout. Variants like <code>.success</code> and <code>.danger</code> simply override those variables. No new selectors for h3, p, or tag - they automatically pick up the new values because they use var(). This is the cleanest way to build variant-heavy component libraries.</div><div class="code-example-output">Five colorful cards in a responsive grid: a neutral gray, a green success, a red danger, an amber warning, and a blue info card. All share identical structure but look completely different because each overrides just a handful of CSS variables.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting the Two Dashes in the Variable Name</h3>
+                <div class="wrong-code"><pre><code class="language-python">:root {
+  primary-color: #a855f7;  /* Not a variable! */
+}
+
+.btn {
+  background: var(primary-color);  /* Error */
+}</code></pre></div><div class="error-message">Without the leading &lt;code&gt;--&lt;/code&gt;, the browser treats &lt;code&gt;primary-color&lt;/code&gt; as an unknown property and ignores the declaration. &lt;code&gt;var()&lt;/code&gt; also requires the dashes.</div><div class="correct-code"><pre><code class="language-python">:root {
+  --primary-color: #a855f7;
+}
+
+.btn {
+  background: var(--primary-color);
+}</code></pre></div><div class="mistake-explanation">CSS custom properties always start with two dashes. Both the definition and the <code>var()</code> reference must include them. This is how the browser distinguishes a custom property from a regular property.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Defining Variables Outside :root Without Scoping Intent</h3>
+                <div class="wrong-code"><pre><code class="language-python">.header {
+  --brand: #a855f7;
+}
+
+.footer .brand-text {
+  color: var(--brand);  /* Undefined here! */
+}</code></pre></div><div class="error-message">Variables are scoped to the element they are declared on and its descendants. &lt;code&gt;.footer&lt;/code&gt; is not inside &lt;code&gt;.header&lt;/code&gt;, so it cannot see &lt;code&gt;--brand&lt;/code&gt;. The color falls back to inherited or initial value.</div><div class="correct-code"><pre><code class="language-python">:root {
+  --brand: #a855f7;  /* Global - available everywhere */
+}
+
+.header { /* ... */ }
+.footer .brand-text {
+  color: var(--brand);  /* Works */
+}</code></pre></div><div class="mistake-explanation">Put global variables on <code>:root</code> so they are available to the whole document. Only scope variables to a component when you deliberately want that component to be the only one that sees them.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Using a Fallback When the Variable Might Be Missing</h3>
+                <div class="wrong-code"><pre><code class="language-python">.widget {
+  /* This widget is dropped into any project */
+  color: var(--widget-text);
+  /* If --widget-text is not defined, color is inherited - surprise! */
+}</code></pre></div><div class="error-message">When a variable is not defined, &lt;code&gt;var()&lt;/code&gt; falls back to the property&#39;s inherited or initial value, which may look broken on a project that does not define your variable.</div><div class="correct-code"><pre><code class="language-python">.widget {
+  color: var(--widget-text, #0f172a);
+  background: var(--widget-bg, #ffffff);
+  /* Now it works even if no variables are defined */
+}</code></pre></div><div class="mistake-explanation">Always provide a fallback for variables in reusable components or libraries. The syntax is <code>var(--name, fallback)</code>. This makes your component resilient to being dropped into any project.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting .trim() When Reading a Variable in JavaScript</h3>
+                <div class="wrong-code"><pre><code class="language-python">const color = getComputedStyle(document.documentElement)
+  .getPropertyValue(&#39;--primary&#39;);
+console.log(color === &#39;#a855f7&#39;); // false!
+console.log(color); // &quot; #a855f7&quot; - leading space</code></pre></div><div class="error-message">&lt;code&gt;getPropertyValue&lt;/code&gt; often returns the value with a leading space. Direct string comparisons fail, and the string cannot be used as-is in some contexts.</div><div class="correct-code"><pre><code class="language-python">const color = getComputedStyle(document.documentElement)
+  .getPropertyValue(&#39;--primary&#39;)
+  .trim();
+console.log(color === &#39;#a855f7&#39;); // true</code></pre></div><div class="mistake-explanation">The value returned by <code>getPropertyValue</code> preserves any whitespace from the CSS declaration. Always call <code>.trim()</code> before comparing or using the value.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>CSS custom properties (variables) are defined with two leading dashes like &lt;code&gt;--primary: #a855f7&lt;/code&gt; and read with &lt;code&gt;var(--primary)&lt;/code&gt;. They are native to the browser, live at runtime, and inherit down the DOM tree.</li>
+<li>Define global variables on &lt;code&gt;:root&lt;/code&gt; so they are available everywhere. Scope variables to a component or section only when you deliberately want local theming.</li>
+<li>Use fallbacks for safety: &lt;code&gt;var(--primary, red)&lt;/code&gt;. Fallbacks keep reusable components working when dropped into projects that do not define your variables.</li>
+<li>Build a spacing and type scale with variables (&lt;code&gt;--s-1&lt;/code&gt; through &lt;code&gt;--s-8&lt;/code&gt;, &lt;code&gt;--t-sm&lt;/code&gt; through &lt;code&gt;--t-2xl&lt;/code&gt;) to give your whole site a consistent visual rhythm. This is the foundation of every design system.</li>
+<li>Dark mode becomes almost free: define color variables on &lt;code&gt;:root&lt;/code&gt;, override them inside a &lt;code&gt;.dark-mode&lt;/code&gt; class, and toggle the class on &lt;code&gt;body&lt;/code&gt;. Every element that uses &lt;code&gt;var()&lt;/code&gt; flips automatically.</li>
+<li>For a pure-CSS dark mode, use the checkbox hack: a hidden checkbox plus &lt;code&gt;:checked ~ .app&lt;/code&gt; selector to override variables. No JavaScript at all.</li>
+<li>Read and write variables from JavaScript with &lt;code&gt;getComputedStyle(el).getPropertyValue(&#39;--name&#39;).trim()&lt;/code&gt; and &lt;code&gt;el.style.setProperty(&#39;--name&#39;, value)&lt;/code&gt;. This enables live theme pickers, color inputs, and user preferences.</li>
+<li>Use the &lt;code&gt;prefers-color-scheme&lt;/code&gt; media query to auto-match the user&#39;s OS dark mode preference. Users love apps that respect their system settings.</li>
+<li>Component-scoped variables let you ship themeable components: define &lt;code&gt;--card-bg&lt;/code&gt;, &lt;code&gt;--card-accent&lt;/code&gt; inside &lt;code&gt;.card&lt;/code&gt;, then override them in &lt;code&gt;.card.success&lt;/code&gt; or &lt;code&gt;.card.danger&lt;/code&gt; for variants without rewriting any selectors.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/modern-css-features" class="related-topic-link">Modern CSS - Container Queries, Subgrid, clamp(), has() Selector</a>
+<a href="/resources/html-and-css/pseudo-classes-and-pseudo-elements" class="related-topic-link">Pseudo-classes and Pseudo-elements</a>
+<a href="/resources/html-and-css/css-animations-and-keyframes" class="related-topic-link">CSS Animations with Keyframes</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/transforms-2d-and-3d" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">CSS Transforms (2D and 3D)</span>
+        </a>
+            <a href="/resources/html-and-css/pseudo-classes-and-pseudo-elements" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Pseudo-classes and Pseudo-elements</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/css-variables-and-theming/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

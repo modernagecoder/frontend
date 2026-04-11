@@ -1,0 +1,744 @@
+{
+  "title": "Responsive Design and Media Queries",
+  "slug": "responsive-design-and-media-queries",
+  "language": "css",
+  "chapter": 17,
+  "difficulty": "Intermediate",
+  "readingTime": "42 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 60,
+  "seo": {
+    "title": "Responsive Design and Media Queries - Mobile-First CSS, Breakpoints, Viewport | Modern Age Coders",
+    "description": "Master responsive web design with media queries, mobile-first workflow, viewport meta tag, rem/em/vw units, common breakpoints (640, 768, 1024, 1280), fluid images, and building fully responsive layouts. 60+ practice questions.",
+    "keywords": "responsive design tutorial, css media queries, mobile-first css, viewport meta, rem em vw units, breakpoints css, responsive navbar, responsive card grid, fluid typography, max-width min-width"
+  },
+  "content": {
+    "what": "<h2>What Is Responsive Design?</h2><p>Responsive design is the practice of building websites that look good and work well on ANY screen size — a 5-inch phone, a 10-inch tablet, a 15-inch laptop, a 27-inch desktop, even a 50-inch TV. Instead of building a separate website for each device, you build ONE site that adapts.</p><p>The three pillars of responsive design are:</p><ol><li><strong>Fluid layouts</strong> — using % and fr units so things stretch and shrink</li><li><strong>Flexible images</strong> — <code>max-width: 100%</code> so pictures never overflow</li><li><strong>Media queries</strong> — changing CSS based on screen width</li></ol><pre><code>/* Media query example */\n@media (min-width: 768px) {\n  .grid {\n    grid-template-columns: repeat(3, 1fr);\n  }\n}</code></pre>",
+    "why": "<h2>Why Learn Responsive Design?</h2><h3>1. Mobile Traffic Is the Majority</h3><p>Over 60 percent of internet traffic now comes from phones. A site that does not work on mobile is a site that most people cannot use. Google even ranks mobile-unfriendly sites lower in search results. If your site is not responsive, you are invisible.</p><h3>2. One Codebase, Every Device</h3><p>Before responsive design, companies built separate mobile sites (m.example.com) and desktop sites. That meant twice the work, twice the bugs, twice the maintenance. Modern responsive design lets you write one HTML/CSS codebase that works everywhere.</p><h3>3. Media Queries Are Superpowers</h3><p>Media queries let you say 'use this CSS on small screens and this CSS on big screens'. You can change layouts, hide or show elements, resize text, and rearrange entire pages based on the viewport. It is one of the most powerful features CSS has.</p><h3>4. Employers Expect It</h3><p>Every professional web developer knows responsive design. It is a basic expectation, not an advanced skill. If you want to build websites professionally, you must master this chapter.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The Viewport Meta Tag (The First Thing!)</h3><p>Without this one line in your HTML head, mobile browsers will render your site at desktop width and scale it down, making text tiny and unreadable:</p><pre><code>&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"&gt;</code></pre><p>This tells mobile browsers: 'use the actual device width and do not scale the page'. Every responsive site starts here. Forget this tag and nothing else works.</p><h3>2. Media Query Syntax</h3><p>A media query says 'if these conditions are true, apply this CSS':</p><pre><code>@media (min-width: 768px) {\n  /* CSS here runs only when viewport is 768px wide or more */\n  body {\n    font-size: 18px;\n  }\n}\n\n@media (max-width: 640px) {\n  /* CSS here runs only when viewport is 640px wide or less */\n  .sidebar {\n    display: none;\n  }\n}</code></pre><p>You can combine conditions with <code>and</code>, <code>or</code> (comma), and <code>not</code>:</p><pre><code>@media (min-width: 768px) and (max-width: 1024px) {\n  /* Only tablets */\n}\n\n@media (max-width: 640px), (orientation: portrait) {\n  /* Phones OR portrait orientation */\n}</code></pre><h3>3. Mobile-First vs Desktop-First</h3><p><strong>Mobile-first</strong> (recommended): write base CSS for mobile, then use <code>min-width</code> media queries to progressively add desktop styles:</p><pre><code>/* Base styles = mobile */\n.grid { grid-template-columns: 1fr; }\n\n/* Tablet and up */\n@media (min-width: 768px) {\n  .grid { grid-template-columns: repeat(2, 1fr); }\n}\n\n/* Desktop and up */\n@media (min-width: 1024px) {\n  .grid { grid-template-columns: repeat(4, 1fr); }\n}</code></pre><p><strong>Desktop-first</strong>: write base styles for desktop, then use <code>max-width</code> queries to override on smaller screens. This was common in the 2010s but is now considered backward. Mobile-first forces you to think mobile first, which usually leads to cleaner code.</p><h3>4. Common Breakpoints</h3><p>Breakpoints are the widths at which your layout changes. There is no 'one true' set, but these are widely used:</p><ul><li><strong>640px</strong> — large phone / phablet</li><li><strong>768px</strong> — tablet (also iPad portrait)</li><li><strong>1024px</strong> — small laptop / iPad landscape</li><li><strong>1280px</strong> — standard desktop</li><li><strong>1536px</strong> — large desktop</li></ul><p>Do not pick breakpoints based on specific devices. Pick them based on where YOUR layout breaks. If your cards start looking squished at 620px, add a breakpoint at 620px.</p><h3>5. Relative Units - Your Best Friends</h3><p>Fixed pixel sizes do not scale. Use relative units so your design adapts:</p><pre><code>font-size: 16px;     /* Absolute — always 16 pixels */\nfont-size: 1rem;     /* Relative to root (html) font-size */\nfont-size: 1.2em;    /* Relative to parent font-size */\nfont-size: 50%;      /* Relative to parent */\nwidth: 100vw;        /* 100% of viewport WIDTH */\nheight: 100vh;       /* 100% of viewport HEIGHT */\nfont-size: 2vmin;    /* 2% of the SMALLER viewport dimension */\nfont-size: 3vmax;    /* 3% of the LARGER viewport dimension */</code></pre><p><strong>rem</strong> is the gold standard for font sizes. It scales if the user increases browser zoom (accessibility) and stays predictable.</p><h3>6. Fluid Images</h3><p>By default, images display at their natural pixel size, which can overflow their container on small screens. The fix is one line:</p><pre><code>img {\n  max-width: 100%;\n  height: auto;\n}</code></pre><p>This means: 'never be wider than your container, and scale height proportionally'. Your images will always fit, no matter the screen size.</p><h3>7. Hiding and Showing Elements</h3><p>Sometimes a desktop sidebar just does not make sense on mobile. You can hide elements at certain sizes:</p><pre><code>@media (max-width: 640px) {\n  .sidebar { display: none; }\n  .mobile-menu { display: block; }\n}\n\n@media (min-width: 641px) {\n  .mobile-menu { display: none; }\n}</code></pre><h3>8. Orientation and Print</h3><pre><code>@media (orientation: portrait) {\n  /* Phone held vertically */\n}\n\n@media (orientation: landscape) {\n  /* Phone held horizontally */\n}\n\n@media print {\n  /* Only when printing */\n  .nav, .footer { display: none; }\n  body { color: black; background: white; }\n}</code></pre>",
+    "codeExamples": [
+      {
+        "title": "Responsive Card Grid (1/2/4 Columns)",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <style>\n    body { font-family: Arial, sans-serif; background: #0f172a; color: white; padding: 20px; margin: 0; }\n    h1 { text-align: center; color: #a855f7; }\n    .grid { display: grid; gap: 16px; max-width: 1200px; margin: 0 auto; grid-template-columns: 1fr; }\n    .card { padding: 24px; border-radius: 14px; color: white; font-weight: 600; }\n    .c1 { background: linear-gradient(135deg, #a855f7, #ec4899); }\n    .c2 { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }\n    .c3 { background: linear-gradient(135deg, #f59e0b, #ef4444); }\n    .c4 { background: linear-gradient(135deg, #10b981, #06b6d4); }\n    .c5 { background: linear-gradient(135deg, #8b5cf6, #3b82f6); }\n    .c6 { background: linear-gradient(135deg, #ec4899, #f59e0b); }\n    .c7 { background: linear-gradient(135deg, #f43f5e, #8b5cf6); }\n    .c8 { background: linear-gradient(135deg, #14b8a6, #84cc16); }\n    @media (min-width: 640px) {\n      .grid { grid-template-columns: repeat(2, 1fr); }\n    }\n    @media (min-width: 1024px) {\n      .grid { grid-template-columns: repeat(4, 1fr); }\n    }\n  </style>\n</head>\n<body>\n  <h1>Responsive Card Grid</h1>\n  <div class=\"grid\">\n    <div class=\"card c1\"><h3>Aarav</h3><p>React Developer</p></div>\n    <div class=\"card c2\"><h3>Priya</h3><p>Designer</p></div>\n    <div class=\"card c3\"><h3>Rohan</h3><p>Backend Engineer</p></div>\n    <div class=\"card c4\"><h3>Ishita</h3><p>AI Researcher</p></div>\n    <div class=\"card c5\"><h3>Vivaan</h3><p>Game Developer</p></div>\n    <div class=\"card c6\"><h3>Anika</h3><p>Product Manager</p></div>\n    <div class=\"card c7\"><h3>Kabir</h3><p>DevOps Engineer</p></div>\n    <div class=\"card c8\"><h3>Meera</h3><p>Data Scientist</p></div>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Mobile-first approach. Base style is 1 column. At 640px (tablet), it becomes 2 columns. At 1024px (desktop), 4 columns. Resize your browser window to see all three layouts. This is the bread-and-butter responsive pattern for team pages, product lists, and blog posts.",
+        "output": "A grid of 8 colorful team cards. On phones: 1 column. On tablets: 2 columns. On desktops: 4 columns."
+      },
+      {
+        "title": "Responsive Navbar with Hamburger Menu",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <style>\n    * { box-sizing: border-box; margin: 0; padding: 0; }\n    body { font-family: Arial, sans-serif; }\n    nav { background: #0f172a; color: white; padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; position: relative; }\n    nav .logo { font-size: 22px; font-weight: bold; color: #a855f7; }\n    nav ul { list-style: none; display: flex; gap: 28px; }\n    nav ul li a { color: white; text-decoration: none; font-size: 15px; }\n    nav ul li a:hover { color: #a855f7; }\n    .hamburger { display: none; background: none; border: none; color: white; font-size: 28px; cursor: pointer; }\n    @media (max-width: 640px) {\n      .hamburger { display: block; }\n      nav ul {\n        position: absolute;\n        top: 100%; left: 0; right: 0;\n        flex-direction: column;\n        background: #1e293b;\n        padding: 20px;\n        gap: 16px;\n        display: none;\n      }\n      nav ul.open { display: flex; }\n    }\n    main { padding: 40px 24px; }\n  </style>\n</head>\n<body>\n  <nav>\n    <div class=\"logo\">SkyBlog</div>\n    <button class=\"hamburger\" id=\"ham\">&#9776;</button>\n    <ul id=\"menu\">\n      <li><a href=\"#\">Home</a></li>\n      <li><a href=\"#\">Articles</a></li>\n      <li><a href=\"#\">About</a></li>\n      <li><a href=\"#\">Contact</a></li>\n    </ul>\n  </nav>\n  <main>\n    <h1>Welcome</h1>\n    <p>Resize the browser below 640px to see the hamburger menu appear.</p>\n  </main>\n  <script>\n    document.getElementById('ham').addEventListener('click', function() {\n      document.getElementById('menu').classList.toggle('open');\n    });\n  </script>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "On desktop, the nav shows inline links. On screens 640px or less, the links hide and a hamburger button appears. Clicking the hamburger toggles the menu with a CSS class. This is the standard responsive navbar pattern you see on almost every modern website.",
+        "output": "A dark navbar with inline menu links on desktop. On phones, links collapse into a hamburger button that expands the menu on click."
+      },
+      {
+        "title": "Fluid Typography with clamp() and vw",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <style>\n    body {\n      font-family: Arial, sans-serif;\n      background: linear-gradient(135deg, #0f172a, #1e293b);\n      color: white;\n      margin: 0;\n      padding: 40px 20px;\n      min-height: 100vh;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n    }\n    h1 {\n      font-size: clamp(2rem, 8vw, 6rem);\n      background: linear-gradient(90deg, #a855f7, #06b6d4, #f59e0b);\n      -webkit-background-clip: text;\n      -webkit-text-fill-color: transparent;\n      background-clip: text;\n      margin-bottom: 16px;\n      text-align: center;\n    }\n    p {\n      font-size: clamp(1rem, 2vw, 1.4rem);\n      max-width: 60ch;\n      line-height: 1.6;\n      text-align: center;\n      color: #cbd5e1;\n    }\n    .info {\n      margin-top: 30px;\n      padding: 14px 20px;\n      background: rgba(168, 85, 247, 0.15);\n      border-left: 4px solid #a855f7;\n      border-radius: 6px;\n      font-size: 14px;\n      max-width: 500px;\n    }\n  </style>\n</head>\n<body>\n  <h1>Fluid Typography</h1>\n  <p>Resize your browser window. Notice how the heading smoothly grows and shrinks as the viewport changes. No breakpoints needed.</p>\n  <div class=\"info\">\n    <strong>clamp(min, preferred, max)</strong> clamps the value between a minimum and maximum. <code>clamp(2rem, 8vw, 6rem)</code> means: never smaller than 2rem, never larger than 6rem, otherwise 8% of viewport width.\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "<code>clamp(min, preferred, max)</code> is the modern way to build fluid typography. The heading scales between 2rem and 6rem based on viewport width, with no media queries needed. This replaces the old approach of writing 5+ breakpoints for different text sizes.",
+        "output": "A full-screen page with a gradient heading that smoothly scales with the browser window width."
+      },
+      {
+        "title": "Print Stylesheet",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <style>\n    body { font-family: Arial, sans-serif; background: #f8fafc; margin: 0; padding: 20px; }\n    .container { max-width: 700px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }\n    nav { background: #0f172a; color: white; padding: 16px; border-radius: 8px; margin-bottom: 20px; }\n    nav a { color: white; margin-right: 20px; text-decoration: none; }\n    footer { margin-top: 30px; padding: 20px; background: #e2e8f0; text-align: center; font-size: 14px; border-radius: 8px; }\n    .print-btn { padding: 10px 20px; background: #a855f7; color: white; border: none; border-radius: 6px; cursor: pointer; }\n    h1 { color: #0f172a; }\n    h2 { color: #a855f7; margin-top: 20px; }\n\n    @media print {\n      body { background: white; padding: 0; }\n      .container { box-shadow: none; border-radius: 0; max-width: 100%; padding: 0; }\n      nav, footer, .print-btn { display: none; }\n      h1 { color: black; font-size: 24pt; }\n      h2 { color: black; font-size: 16pt; }\n      p { font-size: 12pt; color: black; line-height: 1.4; }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"container\">\n    <nav><a href=\"#\">Home</a><a href=\"#\">Articles</a><a href=\"#\">About</a></nav>\n    <h1>How to Make Biryani - by Chef Anika</h1>\n    <button class=\"print-btn\" onclick=\"window.print()\">Print this Recipe</button>\n    <h2>Ingredients</h2>\n    <p>Basmati rice, chicken, yogurt, ginger-garlic paste, saffron, biryani masala, onions, mint, and coriander.</p>\n    <h2>Steps</h2>\n    <p>Marinate the chicken for 30 minutes. Parboil the rice. Layer them in a heavy pot and cook on low heat for 25 minutes.</p>\n    <footer>Copyright 2026 Anika's Kitchen</footer>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Press Ctrl+P (or Cmd+P) and you will see the print preview. The print stylesheet hides the nav, footer, and print button, converts colors to black on white, and removes decorations. This creates a clean, paper-friendly version. Use <code>pt</code> units for print instead of px.",
+        "output": "A recipe page with a nav, article, and footer. When printed, only the article content appears in black on white paper."
+      },
+      {
+        "title": "Landing Page Hero with Responsive Layout",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <style>\n    * { box-sizing: border-box; margin: 0; padding: 0; }\n    body { font-family: Arial, sans-serif; background: #0f172a; color: white; }\n    .hero { padding: 60px 24px; max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px; align-items: center; }\n    .hero-text { text-align: center; }\n    .hero-text h1 { font-size: clamp(2rem, 6vw, 4rem); line-height: 1.1; margin-bottom: 16px; background: linear-gradient(90deg, #a855f7, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }\n    .hero-text p { font-size: clamp(1rem, 2vw, 1.2rem); color: #cbd5e1; max-width: 600px; line-height: 1.5; }\n    .hero-text .btn { display: inline-block; margin-top: 24px; padding: 14px 28px; background: #a855f7; color: white; border-radius: 8px; text-decoration: none; font-weight: 600; }\n    .hero-visual { width: 100%; max-width: 420px; aspect-ratio: 1; border-radius: 20px; background: linear-gradient(135deg, #7c3aed, #ec4899, #f59e0b); box-shadow: 0 30px 60px rgba(168, 85, 247, 0.35); display: flex; align-items: center; justify-content: center; font-size: clamp(2rem, 5vw, 3.5rem); font-weight: bold; }\n    @media (min-width: 900px) {\n      .hero { flex-direction: row; gap: 60px; }\n      .hero-text { text-align: left; flex: 1; }\n      .hero-text p { margin-left: 0; }\n    }\n  </style>\n</head>\n<body>\n  <section class=\"hero\">\n    <div class=\"hero-text\">\n      <h1>Learn to Code. Build the Future.</h1>\n      <p>Join Aarav, Priya, and 10,000 other young coders building real apps, games, and websites with guided mentorship.</p>\n      <a href=\"#\" class=\"btn\">Start Free Trial</a>\n    </div>\n    <div class=\"hero-visual\">Code</div>\n  </section>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A classic hero layout. On phones and tablets, text sits on top of a centered visual (column layout). On screens 900px and wider, they sit side by side (row layout). Fluid typography with <code>clamp()</code> scales the heading smoothly throughout. No fixed pixel font sizes anywhere.",
+        "output": "A landing page hero. On small screens: text above, visual below, centered. On wide screens: text on left, visual on right, side by side."
+      },
+      {
+        "title": "Dark Mode with prefers-color-scheme",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <style>\n    :root {\n      --bg: #ffffff;\n      --text: #0f172a;\n      --card: #f8fafc;\n      --border: #e5e7eb;\n      --primary: #a855f7;\n    }\n    @media (prefers-color-scheme: dark) {\n      :root {\n        --bg: #0f172a;\n        --text: #f1f5f9;\n        --card: #1e293b;\n        --border: #334155;\n        --primary: #a855f7;\n      }\n    }\n    body {\n      background: var(--bg);\n      color: var(--text);\n      font-family: Arial, sans-serif;\n      padding: 30px 20px;\n      margin: 0;\n      transition: background 0.3s, color 0.3s;\n    }\n    .container { max-width: 600px; margin: 0 auto; }\n    .card { background: var(--card); border: 1px solid var(--border); padding: 24px; border-radius: 12px; margin: 16px 0; }\n    h1 { color: var(--primary); }\n    .hint { font-size: 13px; opacity: 0.7; margin-top: 16px; }\n  </style>\n</head>\n<body>\n  <div class=\"container\">\n    <h1>Automatic Dark Mode</h1>\n    <div class=\"card\">\n      <h3>Rohan's Notes</h3>\n      <p>This page uses CSS variables and <code>@media (prefers-color-scheme: dark)</code> to automatically switch themes based on your operating system settings.</p>\n    </div>\n    <div class=\"card\">\n      <h3>How It Works</h3>\n      <p>If your OS is set to dark mode, the dark variables override the light ones. No JavaScript needed.</p>\n    </div>\n    <p class=\"hint\">Tip: Change your OS theme to dark mode and reload. The page will switch automatically.</p>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "<code>@media (prefers-color-scheme: dark)</code> detects the user's OS theme preference. CSS variables get redefined inside that media query. The whole page switches themes automatically — no button, no JavaScript. This is the most elegant dark mode implementation possible.",
+        "output": "A page that displays in light mode or dark mode depending on your OS setting. No button needed."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting the Viewport Meta Tag",
+        "wrongCode": "<!-- Missing viewport meta! -->\n<head>\n  <title>My Site</title>\n</head>",
+        "error": "On mobile devices, the browser renders the site at a default 980px width and scales it down, making text tiny. Media queries may not even trigger correctly.",
+        "correctCode": "<head>\n  <title>My Site</title>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n</head>",
+        "explanation": "The viewport meta tag tells mobile browsers to use the actual device width. Without it, your entire responsive design is broken on phones. This ONE line must be in every responsive HTML file."
+      },
+      {
+        "title": "Using Fixed Pixel Widths Everywhere",
+        "wrongCode": ".container {\n  width: 1200px;\n}\n/* Horizontal scroll on any screen narrower than 1200px */",
+        "error": "The container is always exactly 1200px wide. On smaller screens, it overflows and creates horizontal scrolling, which is a cardinal sin in responsive design.",
+        "correctCode": ".container {\n  max-width: 1200px;   /* Cap, not force */\n  width: 100%;          /* Fill available space up to cap */\n  margin: 0 auto;       /* Center horizontally */\n  padding: 0 20px;      /* Breathing room on small screens */\n}",
+        "explanation": "Use <code>max-width</code> instead of <code>width</code> for containers. This means 'up to 1200px, but shrink on smaller screens'. Combined with <code>margin: 0 auto</code> it centers the content beautifully."
+      },
+      {
+        "title": "Images That Overflow",
+        "wrongCode": "img {\n  /* No rules — uses natural pixel size */\n}\n/* A 2000px wide image breaks every mobile layout */",
+        "error": "Images display at their native pixel size, which overflows narrow containers and causes horizontal scroll. The page becomes unusable on phones.",
+        "correctCode": "img {\n  max-width: 100%;\n  height: auto;\n}",
+        "explanation": "<code>max-width: 100%</code> caps the image at the width of its parent. <code>height: auto</code> keeps the aspect ratio correct. Add this to every responsive site as a default."
+      },
+      {
+        "title": "Media Query Order Matters",
+        "wrongCode": "@media (min-width: 1024px) {\n  .grid { grid-template-columns: repeat(4, 1fr); }\n}\n@media (min-width: 768px) {\n  .grid { grid-template-columns: repeat(2, 1fr); }\n}\n/* On a 1200px screen, the 2-column rule overrides the 4-column rule */",
+        "error": "On desktop, the 2-column rule comes AFTER the 4-column rule and wins the cascade. You see 2 columns instead of 4.",
+        "correctCode": "/* Mobile-first: smallest breakpoint first */\n@media (min-width: 768px) {\n  .grid { grid-template-columns: repeat(2, 1fr); }\n}\n@media (min-width: 1024px) {\n  .grid { grid-template-columns: repeat(4, 1fr); }\n}",
+        "explanation": "With <code>min-width</code> media queries, write them from smallest to largest. Later rules override earlier ones, so the largest breakpoint ends up winning on large screens. Reverse the order for <code>max-width</code> queries."
+      }
+    ],
+    "summary": [
+      "Every responsive site MUST start with <code>&lt;meta name='viewport' content='width=device-width, initial-scale=1'&gt;</code> in the head. Without it, mobile browsers scale your desktop design down and nothing works properly.",
+      "Media queries use the syntax <code>@media (condition) { ... }</code>. Common conditions: min-width, max-width, orientation, prefers-color-scheme, print.",
+      "Mobile-first means writing base CSS for mobile and using <code>min-width</code> queries to progressively add larger-screen styles. This is the preferred modern approach.",
+      "Common breakpoints: 640px (phablet), 768px (tablet), 1024px (small laptop), 1280px (desktop). But pick breakpoints based on where YOUR content breaks, not specific devices.",
+      "Use relative units: <code>rem</code> for font sizes, <code>%</code> and <code>fr</code> for widths, <code>vw</code>/<code>vh</code> for viewport-relative sizes. Avoid fixed pixel sizes for layout dimensions.",
+      "Fluid images: <code>img { max-width: 100%; height: auto; }</code>. One rule that makes every image fit any container.",
+      "<code>clamp(min, preferred, max)</code> creates fluid typography that scales smoothly between limits — no breakpoints needed.",
+      "Use <code>display: none</code> and <code>display: block</code> inside media queries to show and hide elements at different breakpoints (like swapping a desktop nav for a hamburger menu on mobile).",
+      "<code>@media (prefers-color-scheme: dark)</code> detects the user's OS theme for automatic dark mode.",
+      "Always order min-width media queries from smallest to largest. The later rules override earlier ones, so the desktop rules must come last."
+    ]
+  },
+  "relatedTopics": ["css-grid-complete-guide", "flexbox-complete-guide"],
+  "practice": {
+    "totalQuestions": 60,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is responsive web design?",
+        "hint": "Think about different screen sizes.",
+        "answer": "Building one website that looks good and works well on all screen sizes — phones, tablets, laptops, and desktops — without needing separate sites for each.",
+        "explanation": "Responsive design uses fluid layouts, flexible images, and media queries to adapt a single codebase to any viewport."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which HTML tag is MANDATORY for responsive design to work on mobile?",
+        "hint": "Goes in the head.",
+        "answer": "<code>&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"&gt;</code>",
+        "explanation": "Without this meta tag, mobile browsers render your site at desktop width and scale it down, breaking all responsive styles."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this media query mean?<br><pre><code>@media (min-width: 768px) {\n  .sidebar { display: block; }\n}</code></pre>",
+        "hint": "min-width means 'at least this wide'.",
+        "answer": "The sidebar displays as a block ONLY when the viewport is 768px wide or more.",
+        "explanation": "<code>min-width</code> matches when the viewport is at least that wide. On narrower screens, the rule does not apply."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the difference between <code>min-width</code> and <code>max-width</code> in media queries?",
+        "hint": "One is a floor; the other is a ceiling.",
+        "answer": "<code>min-width</code> applies styles when the viewport is that wide OR WIDER. <code>max-width</code> applies when the viewport is that wide OR NARROWER.",
+        "explanation": "Mobile-first uses min-width (smallest styles first, add desktop rules). Desktop-first uses max-width (largest first, narrow overrides)."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>1rem</code> mean?",
+        "hint": "rem = root em.",
+        "answer": "1 times the font-size of the root (html) element, which is 16px by default.",
+        "explanation": "<code>rem</code> is relative to the html element's font-size. If html has font-size: 20px, then 1rem = 20px. This makes scaling the entire site proportional by changing one value."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>100vw</code> mean?",
+        "hint": "vw = viewport width.",
+        "answer": "100 percent of the viewport width — the full width of the browser window.",
+        "explanation": "<code>vw</code> stands for viewport width. <code>1vw</code> is 1 percent of the viewport width. <code>100vw</code> is the full width."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this do?<br><pre><code>img {\n  max-width: 100%;\n  height: auto;\n}</code></pre>",
+        "hint": "Fluid images.",
+        "answer": "Makes every image never exceed the width of its container, and automatically adjusts the height to keep the aspect ratio correct.",
+        "explanation": "<code>max-width: 100%</code> caps the image at its parent's width. <code>height: auto</code> scales the height proportionally. This prevents images from breaking layouts on small screens."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is wrong with this mobile-first CSS?<br><pre><code>@media (min-width: 1024px) {\n  .grid { grid-template-columns: repeat(4, 1fr); }\n}\n@media (min-width: 768px) {\n  .grid { grid-template-columns: repeat(2, 1fr); }\n}</code></pre>",
+        "hint": "Which rule wins on desktop?",
+        "answer": "The order is wrong. On a 1200px screen, BOTH rules match, but the 2-column rule comes LAST and wins. The grid shows 2 columns instead of 4.",
+        "explanation": "With min-width queries, order from SMALLEST to LARGEST so that later (larger) rules override earlier (smaller) ones in the cascade."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>clamp(1rem, 3vw, 2rem)</code> do?",
+        "hint": "clamp(min, preferred, max).",
+        "answer": "The value is 3% of viewport width, clamped to never go below 1rem or above 2rem.",
+        "explanation": "<code>clamp(min, preferred, max)</code> is perfect for fluid typography. On small screens you get 1rem minimum, on large screens 2rem maximum, and in between the text scales smoothly with the viewport."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What media query targets only phones held vertically?",
+        "hint": "Orientation + max-width.",
+        "answer": "<code>@media (max-width: 640px) and (orientation: portrait) { ... }</code>",
+        "explanation": "Combine conditions with <code>and</code>. This matches narrow viewports in portrait orientation — typical of phones held upright."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is mobile-first preferred over desktop-first?",
+        "hint": "Think about complexity and performance.",
+        "answer": "Mobile-first forces you to start with the essential content and layout, then ENHANCE for larger screens. It usually produces simpler CSS, loads faster on mobile (where it matters most), and matches how users actually access the web today.",
+        "explanation": "Desktop-first often means writing complex styles and then stripping them away for mobile, which is harder and more error-prone. Mobile-first builds up, not down."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What are common breakpoints in responsive design?",
+        "hint": "640, 768, 1024, 1280.",
+        "answer": "640px (phablet), 768px (tablet), 1024px (small laptop or tablet landscape), 1280px (standard desktop), and sometimes 1536px (large desktop).",
+        "explanation": "These are widely used but not mandatory. Real best practice: pick breakpoints based on where YOUR layout starts to look bad, not based on specific devices."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Why does <code>width: 100vw</code> sometimes cause horizontal scrolling?",
+        "hint": "Scrollbar width.",
+        "answer": "<code>100vw</code> includes the vertical scrollbar width. If the page has a scrollbar, <code>100vw</code> is wider than the actual visible area, causing a horizontal scroll.",
+        "explanation": "Use <code>width: 100%</code> instead. 100% is relative to the parent's content area, which excludes the scrollbar."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the difference between <code>em</code> and <code>rem</code>?",
+        "hint": "Think about what each is relative to.",
+        "answer": "<code>em</code> is relative to the PARENT element's font-size (can compound when nested). <code>rem</code> is relative to the ROOT (html) element's font-size, so it is always predictable.",
+        "explanation": "If a div has font-size: 20px and its child has font-size: 2em, the child is 40px. Nest another 2em and it becomes 80px — exponential growth. rem avoids this because it always references the html root."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does <code>@media (prefers-color-scheme: dark)</code> detect?",
+        "hint": "Operating system setting.",
+        "answer": "It detects whether the user's operating system is set to dark mode. If so, the CSS inside the query applies automatically.",
+        "explanation": "This is the modern way to implement dark mode. Combined with CSS variables, you can build an automatic dark theme with zero JavaScript."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is <code>@media print</code> used for?",
+        "hint": "Printing.",
+        "answer": "It applies CSS only when the page is being printed (or print-previewed).",
+        "explanation": "Print stylesheets hide nav bars, footers, and buttons, convert colors to black on white, and optimize typography for paper."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What unit is best for font-sizes in responsive design?",
+        "hint": "Scales with root element.",
+        "answer": "<code>rem</code> (or <code>clamp()</code> for fluid typography)",
+        "explanation": "rem scales with the root font-size and respects user browser zoom settings. It is the most accessible choice for text."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why should you use <code>max-width</code> instead of <code>width</code> for containers?",
+        "hint": "Think about narrow screens.",
+        "answer": "<code>max-width</code> caps the container's width but lets it shrink on smaller screens. <code>width</code> forces an exact size, which causes overflow and horizontal scroll on narrow viewports.",
+        "explanation": "<code>max-width: 1200px</code> with <code>margin: 0 auto</code> creates a centered container that caps at 1200px on big screens and fills the viewport on small ones."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this media query mean?<br><pre><code>@media (min-width: 768px) and (max-width: 1023px)</code></pre>",
+        "hint": "Two conditions with 'and'.",
+        "answer": "Applies ONLY when the viewport is between 768px and 1023px wide (typical tablet range).",
+        "explanation": "The <code>and</code> combines conditions — both must be true. This targets tablets specifically, excluding phones (under 768) and desktops (1024+)."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>vmin</code> mean?",
+        "hint": "Minimum of vw and vh.",
+        "answer": "1 percent of the SMALLER of the viewport's width or height.",
+        "explanation": "If the viewport is 800x600, vmin uses 600 (the smaller). <code>1vmin = 6px</code>. Useful for elements that should stay visible regardless of orientation."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this do?<br><pre><code>@media (max-width: 640px) {\n  .desktop-only { display: none; }\n}</code></pre>",
+        "hint": "Hiding elements.",
+        "answer": "Hides elements with the class 'desktop-only' on screens 640px wide or less.",
+        "explanation": "A common pattern: mark elements as desktop-only or mobile-only and hide them with media queries. Useful for swapping a desktop sidebar for a mobile hamburger menu."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "How would you make a three-column desktop layout become a single-column mobile layout?",
+        "hint": "Media query with grid-template-columns.",
+        "answer": "Start with <code>grid-template-columns: 1fr</code> as the base (mobile) style, then use <code>@media (min-width: 768px) { .grid { grid-template-columns: repeat(3, 1fr); } }</code> to expand to 3 columns on tablets and up.",
+        "explanation": "Mobile-first: 1 column is the default, and wider screens progressively add more columns."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>initial-scale=1</code> in the viewport meta tag do?",
+        "hint": "Initial zoom level.",
+        "answer": "Sets the initial zoom level to 1 (100%) when the page first loads, so nothing is zoomed in or out.",
+        "explanation": "Without <code>initial-scale=1</code>, mobile browsers might open the page at a different zoom level, which can break your responsive layout."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Can you use CSS variables inside media queries?",
+        "hint": "Yes, and they redefine based on the query.",
+        "answer": "Yes. You can redefine CSS variables inside a media query, and every element using <code>var(--name)</code> updates automatically at that breakpoint.",
+        "explanation": "Example: <code>@media (max-width: 640px) { :root { --main-padding: 12px; } }</code>. All elements using <code>var(--main-padding)</code> automatically use 12px on small screens."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the difference between <code>display: none</code> and <code>visibility: hidden</code>?",
+        "hint": "One removes from layout; the other just hides.",
+        "answer": "<code>display: none</code> removes the element from the layout entirely (takes no space). <code>visibility: hidden</code> keeps the element in the layout but makes it invisible.",
+        "explanation": "For responsive hiding (like mobile-only elements), use <code>display: none</code> so the element truly disappears and does not take space."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What does <code>ch</code> unit represent?",
+        "hint": "Character width.",
+        "answer": "1 <code>ch</code> is the width of the '0' character in the current font. Useful for setting line widths based on readable character count (like <code>max-width: 60ch</code>).",
+        "explanation": "60-80 characters per line is the optimal reading width. <code>max-width: 65ch</code> on a paragraph gives beautiful, readable typography."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Which is more accessible for font sizes: px or rem?",
+        "hint": "Think about user zoom.",
+        "answer": "<code>rem</code> is more accessible because it respects the user's browser font-size preferences. Users with visual impairments often increase default font-size; rem scales with that, px does not.",
+        "explanation": "Always prefer rem for font sizes in production. It is the accessibility best practice."
+      },
+      {
+        "id": "mx-13",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the 'mobile-first' mindset in design?",
+        "hint": "Essentials first.",
+        "answer": "Designing for the smallest screen first, focusing on essential content and interactions, then progressively enhancing for larger screens. It forces you to prioritize what matters most.",
+        "explanation": "Mobile-first is both a technical approach (CSS with min-width queries) and a design philosophy (smallest constraints first)."
+      },
+      {
+        "id": "mx-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the problem with targeting specific devices like <code>@media (max-width: 480px)</code> (iPhone width)?",
+        "hint": "Device sizes change over time.",
+        "answer": "Device sizes change every year, and there are hundreds of phone sizes. Targeting specific devices creates brittle code. Instead, pick breakpoints where YOUR layout actually needs to change.",
+        "explanation": "Best practice: start with mobile, resize the browser, and add a breakpoint at the first width where your content looks bad. That is your real breakpoint."
+      },
+      {
+        "id": "mx-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does <code>@media (hover: hover)</code> detect?",
+        "hint": "Can the device hover?",
+        "answer": "It detects whether the user's device supports hover interactions (mouse or trackpad). Touch devices typically return 'none'.",
+        "explanation": "Useful for showing hover effects only on desktops. On touch devices, :hover fires on tap and stays until tap elsewhere, which is often awkward."
+      },
+      {
+        "id": "mx-16",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which media query detects dark mode preference?",
+        "hint": "prefers- something.",
+        "answer": "<code>@media (prefers-color-scheme: dark)</code>",
+        "explanation": "This detects the user's OS theme preference. Combined with CSS variables, it enables automatic dark mode with no JavaScript."
+      },
+      {
+        "id": "mx-17",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What does <code>@media (prefers-reduced-motion: reduce)</code> detect?",
+        "hint": "Accessibility for motion-sensitive users.",
+        "answer": "It detects whether the user has asked their OS to reduce motion (for accessibility reasons such as motion sickness). Use it to disable animations.",
+        "explanation": "Example: <code>@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }</code>. Respectful, accessible design."
+      },
+      {
+        "id": "mx-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>max-width: 65ch</code> do on a paragraph?",
+        "hint": "ch is character-width.",
+        "answer": "It limits the paragraph to a maximum width of about 65 characters, which is the ideal readable line length.",
+        "explanation": "The <code>ch</code> unit equals the width of the '0' character. 60-80ch is the sweet spot for comfortable reading, regardless of the font size or screen width."
+      },
+      {
+        "id": "mx-19",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the 'mobile tap zoom' problem and how does the viewport meta tag fix it?",
+        "hint": "Tapping input fields.",
+        "answer": "On iOS, tapping an input with font-size under 16px zooms in automatically. Using <code>initial-scale=1</code> and setting inputs to at least 16px prevents this. Some developers use <code>maximum-scale=1</code> but that harms accessibility — avoid it.",
+        "explanation": "Best practice: set input font-size to 16px or larger. Do NOT disable user zoom — users with low vision rely on pinch-to-zoom."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which meta tag is required for responsive design on mobile?",
+        "options": {
+          "A": "<meta name=\"charset\" content=\"utf-8\">",
+          "B": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+          "C": "<meta name=\"responsive\" content=\"true\">",
+          "D": "<meta name=\"mobile\" content=\"yes\">"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The viewport meta tag tells mobile browsers to use the actual device width instead of rendering at desktop size and scaling down."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does <code>@media (min-width: 768px)</code> mean?",
+        "options": {
+          "A": "Apply the styles only when the screen is EXACTLY 768px wide",
+          "B": "Apply the styles when the viewport is 768px wide OR WIDER",
+          "C": "Apply the styles when the viewport is 768px wide OR NARROWER",
+          "D": "Apply the styles to all screens 768px and smaller"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>min-width</code> is a MINIMUM — the styles apply at that width and above."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is the best unit for font-sizes in responsive design?",
+        "options": {
+          "A": "px",
+          "B": "pt",
+          "C": "rem",
+          "D": "cm"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> rem scales with the root font-size and respects user browser zoom settings, making it the most accessible choice."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "How do you make an image fit inside its container?",
+        "options": {
+          "A": "img { width: 100px; }",
+          "B": "img { max-width: 100%; height: auto; }",
+          "C": "img { resize: auto; }",
+          "D": "img { display: fit; }"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>max-width: 100%</code> caps the image at the parent's width; <code>height: auto</code> keeps the aspect ratio."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does <code>100vh</code> represent?",
+        "options": {
+          "A": "100 pixels",
+          "B": "100% of the viewport height",
+          "C": "100% of the parent height",
+          "D": "100 ems"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>vh</code> is viewport height. 100vh is the full browser window height."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the difference between mobile-first and desktop-first?",
+        "options": {
+          "A": "No difference; they are the same",
+          "B": "Mobile-first uses min-width queries; desktop-first uses max-width queries",
+          "C": "Mobile-first only works on phones",
+          "D": "Desktop-first uses flexbox; mobile-first uses grid"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Mobile-first writes base styles for mobile and progressively enhances with <code>min-width</code> queries. Desktop-first does the opposite using <code>max-width</code>."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is <code>clamp(1rem, 4vw, 3rem)</code>?",
+        "options": {
+          "A": "A typo",
+          "B": "Returns 4vw, clamped between 1rem minimum and 3rem maximum",
+          "C": "Returns the average of 1rem, 4vw, and 3rem",
+          "D": "Returns whichever value is largest"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>clamp(min, preferred, max)</code> clamps the preferred value between the min and max bounds. Perfect for fluid typography."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which CSS unit is relative to the PARENT element's font-size (and can compound when nested)?",
+        "options": {
+          "A": "px",
+          "B": "rem",
+          "C": "em",
+          "D": "vw"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>em</code> is relative to the parent. Nested em values compound (2em inside 2em = 4x the grandparent size). rem avoids this by always referencing the root."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does this do?<br><code>@media (max-width: 640px) { .sidebar { display: none; } }</code>",
+        "options": {
+          "A": "Hides the sidebar on screens 640px or wider",
+          "B": "Hides the sidebar on screens 640px or narrower",
+          "C": "Makes the sidebar 640px wide",
+          "D": "Shows the sidebar only on 640px screens"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>max-width: 640px</code> matches viewports up to 640px. Inside, the sidebar is hidden on small screens."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Why use <code>max-width</code> instead of <code>width</code> for containers?",
+        "options": {
+          "A": "max-width is faster",
+          "B": "max-width caps the size but allows shrinking on small screens; width forces an exact size",
+          "C": "width is deprecated",
+          "D": "They are identical"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>max-width: 1200px</code> means 'up to 1200px but shrink if needed'. <code>width: 1200px</code> forces 1200px and causes overflow on narrow screens."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "Which media query detects dark mode preference from the OS?",
+        "options": {
+          "A": "@media (theme: dark)",
+          "B": "@media (prefers-dark)",
+          "C": "@media (prefers-color-scheme: dark)",
+          "D": "@media (dark-mode: on)"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>prefers-color-scheme</code> reads the user's OS theme setting. Values are <code>light</code> or <code>dark</code>."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "In mobile-first CSS, how should you order min-width media queries?",
+        "options": {
+          "A": "From largest to smallest",
+          "B": "From smallest to largest",
+          "C": "Alphabetical",
+          "D": "Order does not matter"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> With min-width queries, order from smallest to largest. Later rules override earlier ones, so the largest breakpoint wins on desktop."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "Which unit is 1 percent of the viewport width?",
+        "options": {
+          "A": "vh",
+          "B": "vw",
+          "C": "vmin",
+          "D": "em"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>vw</code> is viewport width. 1vw = 1 percent of viewport width. 1vh = 1 percent of viewport height."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "What is the minimum viable responsive CSS for an image?",
+        "options": {
+          "A": "img { float: left; }",
+          "B": "img { width: 100%; }",
+          "C": "img { max-width: 100%; height: auto; }",
+          "D": "img { display: flex; }"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>max-width: 100%</code> prevents overflow, and <code>height: auto</code> preserves aspect ratio. Add this to every responsive site."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Why does <code>width: 100vw</code> sometimes create a horizontal scroll?",
+        "options": {
+          "A": "vw is deprecated",
+          "B": "100vw includes the scrollbar width; use 100% instead",
+          "C": "vw only works on mobile",
+          "D": "Browsers do not support vw"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>100vw</code> is the full viewport including the scrollbar. If a scrollbar exists, 100vw is wider than the visible area. Use <code>100%</code> (relative to parent) to avoid this."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What is a 'breakpoint' in responsive design?",
+        "options": {
+          "A": "A bug in the code",
+          "B": "A width at which the layout changes via a media query",
+          "C": "A pause in animation",
+          "D": "An error handler"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A breakpoint is a viewport width where your CSS changes the layout — typically done with a media query."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "How do you combine two conditions in a media query?",
+        "options": {
+          "A": "@media (min-width: 768px) + (orientation: landscape)",
+          "B": "@media (min-width: 768px) and (orientation: landscape)",
+          "C": "@media (min-width: 768px), (orientation: landscape)",
+          "D": "@media (min-width: 768px) & (orientation: landscape)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Use <code>and</code> for both conditions to be true. Use a comma for 'or' (either condition)."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Which unit is 1 percent of the SMALLER viewport dimension?",
+        "options": {
+          "A": "vw",
+          "B": "vh",
+          "C": "vmin",
+          "D": "vmax"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>vmin</code> uses the smaller of viewport width and height. <code>vmax</code> uses the larger. Handy for keeping elements visible in any orientation."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Easy",
+        "question": "What happens without the viewport meta tag on a mobile browser?",
+        "options": {
+          "A": "The page loads faster",
+          "B": "Mobile browsers render at a default (usually 980px) width and scale down, making text tiny",
+          "C": "Nothing changes",
+          "D": "The browser shows an error"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without the viewport meta tag, mobile browsers assume a desktop width and shrink the page. Text becomes unreadable and responsive styles break."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "Which is BEST for building a responsive card grid WITHOUT any media queries?",
+        "options": {
+          "A": "grid-template-columns: 1fr 1fr 1fr;",
+          "B": "grid-template-columns: repeat(3, 1fr);",
+          "C": "grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));",
+          "D": "display: flex; flex-wrap: nowrap;"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>repeat(auto-fit, minmax(250px, 1fr))</code> creates a grid that adds or removes columns based on container width — a fully responsive layout with zero media queries."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Add the Viewport Meta Tag",
+        "difficulty": "Easy",
+        "description": "Create a basic HTML page with the viewport meta tag, a heading, and a paragraph. The page should display correctly on mobile devices (without scaling down).",
+        "sampleInput": "None",
+        "sampleOutput": "A simple page that looks correct on phones.",
+        "constraints": "Must include the viewport meta tag. Use a readable font size.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Responsive Starter</title>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; font-size: 1rem; line-height: 1.6; color: #0f172a; }\n    h1 { color: #a855f7; }\n  </style>\n</head>\n<body>\n  <h1>Hello from Priya</h1>\n  <p>This is my first responsive page. It works on every screen size.</p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Responsive 1-2-4 Card Grid",
+        "difficulty": "Easy",
+        "description": "Build a grid of 8 cards that shows 1 column on mobile, 2 columns on tablet (640px+), and 4 columns on desktop (1024px+). Use mobile-first media queries. Give each card a name of a student and a different gradient background.",
+        "sampleInput": "None",
+        "sampleOutput": "8 colored cards that rearrange from 1 column to 4 columns as screen widens.",
+        "constraints": "Use mobile-first. Use grid-template-columns and media queries. No JavaScript.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n  body { font-family: Arial, sans-serif; background: #0f172a; padding: 20px; margin: 0; color: white; }\n  .grid { display: grid; grid-template-columns: 1fr; gap: 16px; max-width: 1200px; margin: 0 auto; }\n  .card { padding: 24px; border-radius: 12px; font-weight: bold; }\n  .c1 { background: linear-gradient(135deg, #a855f7, #ec4899); }\n  .c2 { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }\n  .c3 { background: linear-gradient(135deg, #f59e0b, #ef4444); }\n  .c4 { background: linear-gradient(135deg, #10b981, #06b6d4); }\n  .c5 { background: linear-gradient(135deg, #8b5cf6, #3b82f6); }\n  .c6 { background: linear-gradient(135deg, #ec4899, #f59e0b); }\n  .c7 { background: linear-gradient(135deg, #f43f5e, #8b5cf6); }\n  .c8 { background: linear-gradient(135deg, #14b8a6, #84cc16); }\n  @media (min-width: 640px) { .grid { grid-template-columns: repeat(2, 1fr); } }\n  @media (min-width: 1024px) { .grid { grid-template-columns: repeat(4, 1fr); } }\n</style>\n</head>\n<body>\n  <div class=\"grid\">\n    <div class=\"card c1\">Aarav</div>\n    <div class=\"card c2\">Priya</div>\n    <div class=\"card c3\">Rohan</div>\n    <div class=\"card c4\">Ishita</div>\n    <div class=\"card c5\">Vivaan</div>\n    <div class=\"card c6\">Anika</div>\n    <div class=\"card c7\">Kabir</div>\n    <div class=\"card c8\">Meera</div>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Responsive Navbar with Hamburger",
+        "difficulty": "Medium",
+        "description": "Build a navbar that shows all links horizontally on desktop. On screens 640px or smaller, the links should hide behind a hamburger button. Clicking the button toggles the menu.",
+        "sampleInput": "Click hamburger on mobile",
+        "sampleOutput": "Menu appears as a vertical list below the navbar.",
+        "constraints": "Use a media query at 640px. Use classList.toggle in JavaScript.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: Arial, sans-serif; }\n  nav { background: #0f172a; color: white; padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; position: relative; }\n  nav .logo { font-size: 22px; font-weight: bold; color: #a855f7; }\n  nav ul { list-style: none; display: flex; gap: 28px; }\n  nav ul li a { color: white; text-decoration: none; }\n  .hamburger { display: none; background: none; border: none; color: white; font-size: 28px; cursor: pointer; }\n  @media (max-width: 640px) {\n    .hamburger { display: block; }\n    nav ul { position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; background: #1e293b; padding: 20px; display: none; }\n    nav ul.open { display: flex; }\n  }\n</style>\n</head>\n<body>\n<nav>\n  <div class=\"logo\">SkyBlog</div>\n  <button class=\"hamburger\" id=\"ham\">&#9776;</button>\n  <ul id=\"menu\"><li><a href=\"#\">Home</a></li><li><a href=\"#\">Articles</a></li><li><a href=\"#\">About</a></li><li><a href=\"#\">Contact</a></li></ul>\n</nav>\n<script>\n  document.getElementById('ham').addEventListener('click', function() {\n    document.getElementById('menu').classList.toggle('open');\n  });\n</script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Fluid Typography with clamp()",
+        "difficulty": "Medium",
+        "description": "Create a hero section with a heading that uses <code>clamp()</code> for fluid scaling. The heading should be between 2rem minimum and 5rem maximum, with 8vw as the preferred value. Resizing the browser should smoothly scale the heading.",
+        "sampleInput": "Resize browser",
+        "sampleOutput": "Heading smoothly scales between 2rem and 5rem as viewport changes.",
+        "constraints": "Use clamp(). No media queries. Use a gradient text effect.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n  body { font-family: Arial, sans-serif; background: #0f172a; color: white; margin: 0; padding: 60px 20px; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; }\n  h1 { font-size: clamp(2rem, 8vw, 5rem); background: linear-gradient(90deg, #a855f7, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-align: center; margin-bottom: 20px; }\n  p { font-size: clamp(1rem, 2.5vw, 1.3rem); color: #cbd5e1; max-width: 60ch; text-align: center; line-height: 1.6; }\n</style>\n</head>\n<body>\n  <h1>Modern Age Coders</h1>\n  <p>Resize this page. Watch the heading scale smoothly without a single media query. This is fluid typography powered by clamp().</p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Automatic Dark Mode with prefers-color-scheme",
+        "difficulty": "Hard",
+        "description": "Build a page that automatically switches between light and dark mode based on the user's OS setting. Use CSS variables for colors. Include a card with some text. Changing the OS theme should automatically update the page.",
+        "sampleInput": "Change OS theme to dark",
+        "sampleOutput": "Page immediately switches to dark colors without any button click.",
+        "constraints": "Use CSS variables. Use @media (prefers-color-scheme: dark). No JavaScript.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n  :root { --bg: #ffffff; --text: #0f172a; --card: #f8fafc; --border: #e5e7eb; --primary: #a855f7; }\n  @media (prefers-color-scheme: dark) {\n    :root { --bg: #0f172a; --text: #f1f5f9; --card: #1e293b; --border: #334155; --primary: #a855f7; }\n  }\n  body { background: var(--bg); color: var(--text); font-family: Arial, sans-serif; padding: 30px 20px; margin: 0; transition: background 0.3s, color 0.3s; }\n  .container { max-width: 600px; margin: 0 auto; }\n  .card { background: var(--card); border: 1px solid var(--border); padding: 24px; border-radius: 12px; }\n  h1 { color: var(--primary); }\n</style>\n</head>\n<body>\n  <div class=\"container\">\n    <h1>Hi, I am Kavya</h1>\n    <div class=\"card\">\n      <h3>About this page</h3>\n      <p>This page automatically matches your operating system theme. Try switching between light and dark mode in your OS settings.</p>\n    </div>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Full Responsive Landing Page",
+        "difficulty": "Hard",
+        "description": "Build a landing page with a header, hero section (two columns on desktop, stacked on mobile), three feature cards (1 column mobile, 3 columns desktop), and a footer. Use mobile-first CSS and at least two media queries.",
+        "sampleInput": "View on mobile and desktop",
+        "sampleOutput": "Stacked layout on mobile; side-by-side and 3-column grid on desktop.",
+        "constraints": "Mobile-first. Viewport meta tag required. Images should use max-width: 100%.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: Arial, sans-serif; background: #0f172a; color: #f1f5f9; }\n  header { padding: 20px; background: #1e293b; text-align: center; }\n  header h1 { color: #a855f7; }\n  .hero { padding: 40px 20px; display: flex; flex-direction: column; gap: 30px; max-width: 1100px; margin: 0 auto; align-items: center; }\n  .hero-text h2 { font-size: clamp(1.8rem, 5vw, 3rem); margin-bottom: 16px; }\n  .hero-text p { color: #cbd5e1; margin-bottom: 20px; line-height: 1.6; }\n  .hero-visual { width: 100%; max-width: 400px; aspect-ratio: 1; border-radius: 20px; background: linear-gradient(135deg, #7c3aed, #ec4899); }\n  .btn { display: inline-block; padding: 12px 24px; background: #a855f7; color: white; border-radius: 8px; text-decoration: none; }\n  .features { padding: 40px 20px; max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr; gap: 20px; }\n  .feature { background: #1e293b; padding: 24px; border-radius: 12px; }\n  .feature h3 { color: #06b6d4; margin-bottom: 8px; }\n  footer { padding: 20px; background: #1e293b; text-align: center; color: #94a3b8; }\n  @media (min-width: 768px) {\n    .hero { flex-direction: row; padding: 60px 30px; }\n    .hero-text { flex: 1; }\n  }\n  @media (min-width: 1024px) {\n    .features { grid-template-columns: repeat(3, 1fr); }\n  }\n</style>\n</head>\n<body>\n  <header><h1>SkyLearn</h1></header>\n  <section class=\"hero\">\n    <div class=\"hero-text\">\n      <h2>Coding for the Next Generation</h2>\n      <p>Join Aarav, Priya, and 10,000 other young coders learning to build real projects.</p>\n      <a href=\"#\" class=\"btn\">Start Free Trial</a>\n    </div>\n    <div class=\"hero-visual\"></div>\n  </section>\n  <section class=\"features\">\n    <div class=\"feature\"><h3>Live Classes</h3><p>Real instructors, real code, real time.</p></div>\n    <div class=\"feature\"><h3>Projects</h3><p>Build games, apps, and websites.</p></div>\n    <div class=\"feature\"><h3>Community</h3><p>Collaborate with peers across India.</p></div>\n  </section>\n  <footer>&copy; 2026 SkyLearn</footer>\n</body>\n</html>"
+      }
+    ]
+  }
+}

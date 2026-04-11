@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Document Structure and Boilerplate - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Understand the DOCTYPE, html, head, and body tags. Learn the standard boilerplate every HTML page needs.">
+    <meta name="keywords" content="html document structure and boilerplate, html and css tutorial, html and css html document structure and boilerplate, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/html-structure-and-boilerplate">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/html-structure-and-boilerplate">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/html-structure-and-boilerplate">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/html-structure-and-boilerplate">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/html-structure-and-boilerplate">
+    <meta property="og:title" content="HTML Document Structure and Boilerplate - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Understand the DOCTYPE, html, head, and body tags. Learn the standard boilerplate every HTML page needs.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/html-structure-and-boilerplate">
+    <meta name="twitter:title" content="HTML Document Structure and Boilerplate - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Understand the DOCTYPE, html, head, and body tags. Learn the standard boilerplate every HTML page needs.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "HTML Document Structure and Boilerplate",
+    "description": "Understand the DOCTYPE, html, head, and body tags. Learn the standard boilerplate every HTML page needs.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/html-structure-and-boilerplate"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/html-structure-and-boilerplate"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "HTML Document Structure and Boilerplate",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/html-structure-and-boilerplate"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting the DOCTYPE Declaration",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>&lt;!DOCTYPE html&gt;</code> must be the very first line of every HTML page — no spaces or comments before it. It tells the browser to use modern HTML5 rendering. Without it, you get unpredictable behaviour, especially when you start adding CSS."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrong Meta Viewport Tag Syntax",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The viewport tag has a specific syntax. The width must be <code>device-width</code> (with a hyphen), and the scale attribute is <code>initial-scale</code>, not just <code>scale</code>. Memorise this tag exactly. Copy-paste is fine — even professionals do it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Writing Visible Content Inside the Head",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>&lt;head&gt;</code> is only for metadata — title, meta tags, links to CSS, links to scripts. All visible content (headings, paragraphs, images, lists, etc.) must go inside <code>&lt;body&gt;</code>. Mixing them causes invalid HTML and breaks many tools that read your page."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrong Nesting Order",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When you nest tags, they must be closed in the reverse order you opened them. Opening <code>&lt;p&gt;&lt;strong&gt;</code> means you must close <code>&lt;/strong&gt;&lt;/p&gt;</code>. Think of it like closing a nested pair of brackets: the inner one closes first."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Broken HTML Comment Syntax",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "HTML comments start with <code>&lt;!--</code> (with two dashes) and end with <code>--&gt;</code> (with two dashes). One dash is wrong. Also, comments cannot contain two dashes in a row inside them — avoid writing <code>--</code> inside a comment."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">HTML Document Structure and Boilerplate</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 2</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">22 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">HTML Document Structure and Boilerplate</h1>
+            <a href="/resources/html-and-css/html-structure-and-boilerplate/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is an HTML Boilerplate?</h2><p>A <strong>boilerplate</strong> is the standard skeleton code that every HTML page needs to start with. Think of it like the pre-printed lines on a notebook page — before you can write your story, the lines need to be there. Before you can write any HTML content, you need the boilerplate.</p><p>This boilerplate tells the browser three important things: (1) which version of HTML you are using, (2) what language the page is in, (3) how the page should look on phones. Without the boilerplate, the browser has to guess, and it often guesses wrong.</p><h3>The Standard HTML5 Boilerplate</h3><p>Here is what every modern HTML page starts with:</p><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;!-- Your content goes here --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p>Every professional web page uses some version of this. Memorise it. Type it out by hand a few times. Soon it will feel natural.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Does Every Page Need a Boilerplate?</h2><p>You might wonder — why can I not just write some <code>&lt;p&gt;</code> tags and call it a day? Here are the five big reasons.</p><h3>1. Tells the Browser What Version of HTML You Use</h3><p>Over the years, there have been many versions of HTML: HTML 3, HTML 4, XHTML, HTML5. Each works slightly differently. The <code>&lt;!DOCTYPE html&gt;</code> declaration at the top tells the browser 'render this in modern HTML5 mode'. Without it, some browsers fall back to 'quirks mode', which is an ancient weird rendering from the 1990s that can break your layout.</p><h3>2. Sets the Language for Accessibility and SEO</h3><p>The <code>lang="en"</code> attribute on the <code>&lt;html&gt;</code> tag tells screen readers to pronounce words in English, helps browsers offer translation to other languages, and helps search engines show your page to the right audience.</p><h3>3. Handles Special Characters Correctly</h3><p>Without <code>&lt;meta charset="UTF-8"&gt;</code>, characters like 'e', 'n', 'a', or emoji may show as weird garbled symbols. UTF-8 is the universal encoding that handles every language in the world — English, Hindi, Tamil, Chinese, Arabic, everything.</p><h3>4. Makes Your Page Look Right on Phones</h3><p>The viewport meta tag is critical. Without it, your web page will look tiny and zoomed out on a phone, like you are looking at a desktop site through a keyhole. With it, the page fits the screen nicely. More than half of all web browsing happens on phones, so this is not optional.</p><h3>5. Separates Metadata From Content</h3><p>The <code>&lt;head&gt;</code> is for information <em>about</em> the page (title, language, styles). The <code>&lt;body&gt;</code> is for the actual visible content. This separation keeps your code organised and works better with browsers, screen readers, and search engines.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. <!DOCTYPE html></h3><p>This is always the very first line. No spaces above it, nothing before it. It tells the browser 'this is an HTML5 document'. In older versions of HTML (like HTML 4), the DOCTYPE was a long, complicated URL. In HTML5, it is just <code>&lt;!DOCTYPE html&gt;</code> — short and simple.</p><p>If you skip the DOCTYPE, browsers may render your page in 'quirks mode', which emulates ancient buggy behaviour from the 1990s. Your CSS might break, your layout might look wrong. Always include it.</p><h3>2. The <html> Element</h3><p>The <code>&lt;html&gt;</code> element wraps everything else. Inside it are two main children: <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code>. It usually has a <code>lang</code> attribute to set the page's language:</p><ul><li><code>lang="en"</code> for English</li><li><code>lang="hi"</code> for Hindi</li><li><code>lang="ta"</code> for Tamil</li><li><code>lang="fr"</code> for French</li></ul><h3>3. The <head> Element</h3><p>The <code>&lt;head&gt;</code> contains <strong>metadata</strong> — information about the page that is not shown on the page itself. Things that go inside head:</p><ul><li><code>&lt;title&gt;</code> — the text shown on the browser tab</li><li><code>&lt;meta charset="UTF-8"&gt;</code> — the character encoding</li><li><code>&lt;meta name="viewport" ...&gt;</code> — mobile settings</li><li><code>&lt;meta name="description" content="..."&gt;</code> — description for search engines</li><li><code>&lt;link rel="stylesheet" href="style.css"&gt;</code> — link to CSS file</li><li><code>&lt;script src="main.js"&gt;&lt;/script&gt;</code> — link to JavaScript file</li></ul><p>Nothing in the head is displayed as visible content (except the title, which appears on the browser tab, not on the page itself).</p><h3>4. The <title> Element</h3><p>The title is shown:</p><ul><li>On the browser tab at the top of the window</li><li>When you bookmark the page</li><li>In Google search results as the clickable blue link</li><li>When you share the page on social media</li></ul><p>Write a clear, descriptive title. 'My Page' is boring. 'Priya's Art Portfolio - Paintings, Sketches, and Drawings' is better.</p><h3>5. The meta charset Tag</h3><p><code>&lt;meta charset="UTF-8"&gt;</code> should be one of the first things in your head. It tells the browser how to decode the bytes of your file into characters. UTF-8 is the universal standard and supports every language. Without it, special characters might show as gibberish.</p><h3>6. The Viewport Meta Tag</h3><p><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></p><p>This is the most important tag for mobile. Here is what it does:</p><ul><li><strong>width=device-width</strong> — make the page as wide as the phone's screen</li><li><strong>initial-scale=1.0</strong> — do not zoom in or out when the page loads</li></ul><p>Without this tag, phones assume your page is a desktop site and show it zoomed out. Users see tiny text and have to pinch to zoom. With this tag, the page fits the phone naturally.</p><h3>7. The <body> Element</h3><p>Everything the user sees goes inside <code>&lt;body&gt;</code> — headings, paragraphs, images, videos, buttons, forms, everything. Think of it as the stage where the show happens.</p><h3>8. Comments</h3><p>HTML comments are notes for yourself or other developers. The browser ignores them:</p><p><code>&lt;!-- This is a comment. It is invisible on the page. --&gt;</code></p><p>Use comments to explain tricky parts, mark sections of your HTML, or temporarily hide code you are testing. Never write private information in comments because anyone can see them by viewing the page source.</p><h3>9. Nesting Rules</h3><p>HTML elements can be nested inside each other, but the rules are strict:</p><ul><li><strong>Proper:</strong> <code>&lt;p&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/p&gt;</code></li><li><strong>Wrong:</strong> <code>&lt;p&gt;&lt;strong&gt;Bold text&lt;/p&gt;&lt;/strong&gt;</code></li></ul><p>Think of nesting like brackets in maths: <code>[{()}]</code>. Each opening bracket must be closed in the reverse order it was opened. Same with HTML tags.</p><h3>10. Indentation Best Practices</h3><p>HTML does not care about spaces or tabs — you can write everything on one line and it still works. But good developers indent their code so it is easy to read. Every time you nest an element, indent it by 2 spaces. Compare:</p><p><strong>Hard to read:</strong><br><code>&lt;ul&gt;&lt;li&gt;Apple&lt;/li&gt;&lt;li&gt;Mango&lt;/li&gt;&lt;/ul&gt;</code></p><p><strong>Easy to read:</strong></p><pre><code>&lt;ul&gt;
+  &lt;li&gt;Apple&lt;/li&gt;
+  &lt;li&gt;Mango&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">The Complete HTML5 Boilerplate</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;My First Web Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello, World!&lt;/h1&gt;
+  &lt;p&gt;This is my very first HTML5 page with the proper boilerplate.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This is the standard HTML5 boilerplate. Save this as <code>index.html</code> and open it in a browser. You will see a heading and a paragraph. The DOCTYPE on line 1 tells the browser this is HTML5. The <code>lang="en"</code> sets the language to English. The two meta tags in the head set the character encoding and mobile viewport. The title appears on the browser tab. Everything visible goes in the body.</div><div class="code-example-output">A clean page with a big heading &#39;Hello, World!&#39; and a paragraph below it. The browser tab shows &#39;My First Web Page&#39;.</div></div>
+<div class="code-example"><div class="code-example-title">A Page With Comments and Proper Structure</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;About Aarav&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;!-- Main heading section --&gt;
+  &lt;h1&gt;About Aarav&lt;/h1&gt;
+  &lt;p&gt;Hi, I am Aarav. I am learning HTML.&lt;/p&gt;
+
+  &lt;!-- Hobbies section --&gt;
+  &lt;h2&gt;My Hobbies&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Cricket&lt;/li&gt;
+    &lt;li&gt;Painting&lt;/li&gt;
+    &lt;li&gt;Reading&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;!-- Footer note --&gt;
+  &lt;!-- TODO: add a contact form here later --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This page uses HTML comments to label different sections. The browser does not show comments — they are only visible when you view the page source. Comments help you and other developers understand what each part of the code does. Notice the 'TODO' comment reminding yourself to add a contact form later. This is a professional habit.</div><div class="code-example-output">A page with &#39;About Aarav&#39; as the heading, an intro paragraph, a &#39;My Hobbies&#39; sub-heading, and a bulleted list of three hobbies. Comments are not visible.</div></div>
+<div class="code-example"><div class="code-example-title">A Page With Proper Nesting</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Recipe Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Chocolate Cake&lt;/h1&gt;
+  &lt;p&gt;This is a &lt;strong&gt;delicious&lt;/strong&gt; recipe that takes only &lt;em&gt;30 minutes&lt;/em&gt; to prepare.&lt;/p&gt;
+  &lt;h2&gt;Ingredients&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li&gt;2 cups of flour&lt;/li&gt;
+    &lt;li&gt;1 cup of &lt;strong&gt;cocoa powder&lt;/strong&gt;&lt;/li&gt;
+    &lt;li&gt;3 eggs&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This example shows proper nesting. The <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code> tags are nested inside the <code>&lt;p&gt;</code> tag. The <code>&lt;li&gt;</code> items are nested inside the <code>&lt;ul&gt;</code>. Notice how each opening tag is closed before the parent tag closes. This is the correct way to nest HTML.</div><div class="code-example-output">A recipe page with the title, a paragraph where &#39;delicious&#39; is bold and &#39;30 minutes&#39; is italic, and a bulleted list of ingredients where &#39;cocoa powder&#39; is bold.</div></div>
+<div class="code-example"><div class="code-example-title">Viewport Meta Tag Demo</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Mobile Friendly Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Mobile Friendly&lt;/h1&gt;
+  &lt;p&gt;Because of the viewport meta tag, this page fits your phone screen nicely. Try resizing your browser window or opening this page on your phone.&lt;/p&gt;
+  &lt;p&gt;Without the viewport tag, phones would show this page tiny and zoomed out.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Save this and open it on your phone (or use your browser's mobile preview with F12). The text will be readable at phone size. Now try removing the viewport meta tag and reload — the text will look tiny and you will have to pinch to zoom. This tag is what makes your page mobile-friendly.</div><div class="code-example-output">A page that looks normal on desktop and also looks proper on phone screens.</div></div>
+<div class="code-example"><div class="code-example-title">Using Description and Keywords Meta Tags</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;A beginner-friendly guide to learning HTML and CSS by Priya Sharma.&quot;&gt;
+  &lt;meta name=&quot;author&quot; content=&quot;Priya Sharma&quot;&gt;
+  &lt;title&gt;Learn HTML with Priya&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Welcome to My HTML Guide&lt;/h1&gt;
+  &lt;p&gt;This page teaches you the basics of HTML in a simple, fun way.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The <code>description</code> meta tag appears in Google search results below the blue link — it is your chance to tell users what the page is about. The <code>author</code> meta tag credits the creator. These are invisible on the page itself but very important for SEO (Search Engine Optimisation).</div><div class="code-example-output">A simple page with a welcome heading and paragraph. The description appears in Google search results.</div></div>
+<div class="code-example"><div class="code-example-title">Nested Elements with Proper Indentation</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Menu&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Cafe Menu&lt;/h1&gt;
+  &lt;h2&gt;Drinks&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      Hot Drinks
+      &lt;ul&gt;
+        &lt;li&gt;Coffee&lt;/li&gt;
+        &lt;li&gt;Masala Chai&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      Cold Drinks
+      &lt;ul&gt;
+        &lt;li&gt;Mango Lassi&lt;/li&gt;
+        &lt;li&gt;Lemon Soda&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This example shows nested lists. A <code>&lt;ul&gt;</code> is placed inside an <code>&lt;li&gt;</code> to create a sub-list. Notice the clean indentation — every time something is nested inside something else, it is indented by two spaces. This makes the code much easier to read. The browser shows indented sub-lists automatically.</div><div class="code-example-output">A menu with a &#39;Drinks&#39; heading and a bulleted list that has &#39;Hot Drinks&#39; with a sub-list (Coffee, Masala Chai) and &#39;Cold Drinks&#39; with a sub-list (Mango Lassi, Lemon Soda).</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting the DOCTYPE Declaration</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div><div class="error-message">The browser may fall into &#39;quirks mode&#39;, causing CSS to behave strangely and layouts to break in unpredictable ways.</div><div class="correct-code"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div><div class="mistake-explanation">The <code>&lt;!DOCTYPE html&gt;</code> must be the very first line of every HTML page — no spaces or comments before it. It tells the browser to use modern HTML5 rendering. Without it, you get unpredictable behaviour, especially when you start adding CSS.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrong Meta Viewport Tag Syntax</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;meta name=&quot;viewport&quot; content=&quot;width=device, scale=1&quot;&gt;</code></pre></div><div class="error-message">The page may still look zoomed out on phones because the viewport values are wrong.</div><div class="correct-code"><pre><code class="language-python">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</code></pre></div><div class="mistake-explanation">The viewport tag has a specific syntax. The width must be <code>device-width</code> (with a hyphen), and the scale attribute is <code>initial-scale</code>, not just <code>scale</code>. Memorise this tag exactly. Copy-paste is fine — even professionals do it.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Writing Visible Content Inside the Head</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My Page&lt;/title&gt;
+  &lt;h1&gt;Welcome&lt;/h1&gt;
+  &lt;p&gt;This is wrong.&lt;/p&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div><div class="error-message">The browser may still show the heading and paragraph, but it is invalid HTML and causes issues with CSS, JavaScript, and screen readers.</div><div class="correct-code"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Welcome&lt;/h1&gt;
+  &lt;p&gt;This is correct.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div><div class="mistake-explanation">The <code>&lt;head&gt;</code> is only for metadata — title, meta tags, links to CSS, links to scripts. All visible content (headings, paragraphs, images, lists, etc.) must go inside <code>&lt;body&gt;</code>. Mixing them causes invalid HTML and breaks many tools that read your page.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrong Nesting Order</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;p&gt;&lt;strong&gt;This text is bold&lt;/p&gt;&lt;/strong&gt;</code></pre></div><div class="error-message">The browser tries to guess what you meant, which can cause layout issues and invalid HTML.</div><div class="correct-code"><pre><code class="language-python">&lt;p&gt;&lt;strong&gt;This text is bold&lt;/strong&gt;&lt;/p&gt;</code></pre></div><div class="mistake-explanation">When you nest tags, they must be closed in the reverse order you opened them. Opening <code>&lt;p&gt;&lt;strong&gt;</code> means you must close <code>&lt;/strong&gt;&lt;/p&gt;</code>. Think of it like closing a nested pair of brackets: the inner one closes first.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Broken HTML Comment Syntax</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;!- This is a comment -&gt;</code></pre></div><div class="error-message">The comment is not recognized and shows as plain text on the page.</div><div class="correct-code"><pre><code class="language-python">&lt;!-- This is a comment --&gt;</code></pre></div><div class="mistake-explanation">HTML comments start with <code>&lt;!--</code> (with two dashes) and end with <code>--&gt;</code> (with two dashes). One dash is wrong. Also, comments cannot contain two dashes in a row inside them — avoid writing <code>--</code> inside a comment.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>The HTML boilerplate is the standard skeleton every web page needs: DOCTYPE, html, head, body.</li>
+<li>&lt;!DOCTYPE html&gt; must be the very first line. It tells the browser to use modern HTML5 rendering instead of old quirks mode.</li>
+<li>The &lt;html lang=&quot;en&quot;&gt; attribute sets the page language, which helps screen readers, translators, and search engines.</li>
+<li>The &lt;head&gt; contains metadata — information about the page that is not visible on the page itself.</li>
+<li>The &lt;title&gt; tag sets the text shown on the browser tab and in search results. It goes inside the head.</li>
+<li>&lt;meta charset=&quot;UTF-8&quot;&gt; ensures special characters and emoji render correctly. It should be near the top of the head.</li>
+<li>The viewport meta tag &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt; makes your page look right on phones.</li>
+<li>The &lt;body&gt; contains everything the user sees — headings, paragraphs, images, links, lists, and more.</li>
+<li>HTML comments use &lt;!-- and --&gt; and are invisible on the page. Use them to label sections and leave notes for yourself.</li>
+<li>Indent nested elements by 2 spaces to make your code easy to read. HTML does not require indentation, but it is a professional habit.</li>
+<li>Close tags in the reverse order you opened them — just like closing brackets in mathematics.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/introduction-to-html" class="related-topic-link">Introduction to HTML - The Language of the Web</a>
+<a href="/resources/html-and-css/headings-paragraphs-and-text" class="related-topic-link">Headings, Paragraphs, and Text Formatting</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/introduction-to-html" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Introduction to HTML - The Language of the Web</span>
+        </a>
+            <a href="/resources/html-and-css/headings-paragraphs-and-text" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Headings, Paragraphs, and Text Formatting</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/html-structure-and-boilerplate/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

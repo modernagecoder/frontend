@@ -1,0 +1,842 @@
+{
+  "title": "Links and Navigation - Connecting the Web Together",
+  "slug": "links-and-navigation",
+  "language": "html",
+  "chapter": 4,
+  "difficulty": "Beginner",
+  "readingTime": "22 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 57,
+  "seo": {
+    "title": "HTML Links and Navigation - Anchor Tag, href, target, Internal and External Links | Modern Age Coders",
+    "description": "Master HTML links: anchor tag, internal and external URLs, target blank, anchor navigation, mailto, tel, and download attributes. 57 hands-on practice questions.",
+    "keywords": "html links, anchor tag, href attribute, target blank, internal links, external links, mailto, tel, anchor navigation, html navigation"
+  },
+  "content": {
+    "what": "<h2>What Are HTML Links?</h2><p>Links are what make the web a <strong>web</strong>. Without them, the internet would just be a bunch of disconnected pages floating alone. Links are the threads that connect every page to every other page. Click a link and you teleport to another page, another website, another continent, or even back to the same page at a different section.</p><p>Every link in HTML is made with the <code>&lt;a&gt;</code> tag (the 'anchor' tag). The <code>href</code> attribute inside it tells the browser where to go when the user clicks.</p><pre><code>&lt;a href=\"https://www.google.com\"&gt;Go to Google&lt;/a&gt;</code></pre><p>This is the simplest kind of link. The text between the opening and closing tags is what the user sees and clicks on.</p><h3>Why 'Anchor'?</h3><p>The tag is called 'anchor' because in the very first version of the web, links were used to 'anchor' you to a specific place in a document. Over time, they became the primary way to jump between pages. But the name stuck, so we still call it the anchor tag.</p>",
+    "why": "<h2>Why Learn Links Properly?</h2><h3>1. Navigation Is the Backbone of the Web</h3><p>Every website has a menu, a footer, and buttons that take you somewhere. All of these are links. Without links, a website would be one long scrolling page with no way to get around.</p><h3>2. Linking to Other Pages Is Powerful</h3><p>You can send users to any web page in the world with a single link. Share your favourite YouTube video, your project on GitHub, or your photo on Instagram — all with one <code>&lt;a&gt;</code> tag.</p><h3>3. SEO Loves Good Links</h3><p>Google uses links to understand the relationship between pages. If many websites link to your page, Google treats your page as important. Internal links between your own pages also help Google crawl your site.</p><h3>4. Email and Phone Links</h3><p>You can make email addresses and phone numbers clickable. On a phone, clicking a tel link dials the number. Clicking an email link opens the user's email app with the address pre-filled. Super handy for contact pages.</p><h3>5. Anchor Links for Long Pages</h3><p>If your page is long (like a FAQ or a tutorial), you can link to specific sections. Users click a table of contents link and jump directly to that section without scrolling. This is how Wikipedia's 'Contents' box works.</p><h3>6. Professional Habits</h3><p>Knowing when to use <code>target=\"_blank\"</code>, when to add <code>rel=\"noopener noreferrer\"</code>, and how to structure navigation menus are basic skills every web developer needs. Get them right from day one.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>The Basic Anchor Tag</h3><p>A link has two parts: the <code>&lt;a&gt;</code> tag with an <code>href</code> attribute, and the text (or other content) between the opening and closing tags.</p><pre><code>&lt;a href=\"URL_HERE\"&gt;CLICKABLE_TEXT_HERE&lt;/a&gt;</code></pre><p>Examples:</p><ul><li><code>&lt;a href=\"https://www.google.com\"&gt;Google&lt;/a&gt;</code></li><li><code>&lt;a href=\"about.html\"&gt;About Us&lt;/a&gt;</code></li><li><code>&lt;a href=\"#top\"&gt;Back to top&lt;/a&gt;</code></li></ul><h3>Internal Links (Relative Paths)</h3><p>An <strong>internal link</strong> goes to another page within the same website. You use a <strong>relative path</strong> — a path relative to the current HTML file.</p><table><tr><th>Path</th><th>Meaning</th></tr><tr><td><code>about.html</code></td><td>A file in the same folder</td></tr><tr><td><code>./about.html</code></td><td>Same thing (explicit 'same folder')</td></tr><tr><td><code>../index.html</code></td><td>Go up one folder, then find index.html</td></tr><tr><td><code>pages/contact.html</code></td><td>Go into 'pages' folder, find contact.html</td></tr><tr><td><code>../../home.html</code></td><td>Go up two folders, find home.html</td></tr></table><h3>External Links (Absolute URLs)</h3><p>An <strong>external link</strong> goes to another website. You use a complete URL starting with <code>https://</code> or <code>http://</code>.</p><pre><code>&lt;a href=\"https://www.wikipedia.org\"&gt;Wikipedia&lt;/a&gt;</code></pre><p>Always prefer <code>https://</code> over <code>http://</code> — it is the secure version.</p><h3>target=\"_blank\" — Opening Links in a New Tab</h3><p>By default, clicking a link replaces the current page. To open the link in a new browser tab (so users can come back to your page), use <code>target=\"_blank\"</code>:</p><pre><code>&lt;a href=\"https://www.google.com\" target=\"_blank\"&gt;Google&lt;/a&gt;</code></pre><p>However, when you use <code>target=\"_blank\"</code>, there is a security and performance issue. The new tab gets access to the opener tab through the <code>window.opener</code> object, and some browsers may tie both tabs to the same process. To fix this, always add <code>rel=\"noopener noreferrer\"</code>:</p><pre><code>&lt;a href=\"https://www.google.com\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Google&lt;/a&gt;</code></pre><p><strong>noopener</strong> — prevents the new page from using <code>window.opener</code> to control the original page.<br><strong>noreferrer</strong> — does not send the referring URL to the new page (adds extra privacy).</p><h3>Anchor Links (Same-Page Navigation)</h3><p>You can link to a specific section within the same page using an ID. First, give the destination element an <code>id</code>:</p><pre><code>&lt;h2 id=\"chapter-3\"&gt;Chapter 3&lt;/h2&gt;</code></pre><p>Then link to it with <code>#</code> followed by the ID:</p><pre><code>&lt;a href=\"#chapter-3\"&gt;Go to Chapter 3&lt;/a&gt;</code></pre><p>When clicked, the browser scrolls down to that heading. You can also link to an ID on a different page with <code>page.html#chapter-3</code>.</p><h3>mailto: Links</h3><p>A <code>mailto:</code> link opens the user's default email app with the address pre-filled:</p><pre><code>&lt;a href=\"mailto:priya@example.com\"&gt;Email Priya&lt;/a&gt;</code></pre><p>You can even pre-fill the subject and body:</p><pre><code>&lt;a href=\"mailto:priya@example.com?subject=Hello&amp;body=Hi%20Priya\"&gt;Email Priya&lt;/a&gt;</code></pre><p>(Note: spaces in the URL need to be encoded as <code>%20</code>.)</p><h3>tel: Links</h3><p>A <code>tel:</code> link opens the phone dialler on mobile devices (on desktop it may not do much):</p><pre><code>&lt;a href=\"tel:+919876543210\"&gt;Call Us&lt;/a&gt;</code></pre><p>Always include the country code starting with a plus sign. This makes the link work from any country.</p><h3>The download Attribute</h3><p>Adding the <code>download</code> attribute to a link makes the browser download the file instead of opening it:</p><pre><code>&lt;a href=\"resume.pdf\" download&gt;Download Resume&lt;/a&gt;</code></pre><p>You can also rename the downloaded file:</p><pre><code>&lt;a href=\"resume.pdf\" download=\"Priya_Resume.pdf\"&gt;Download&lt;/a&gt;</code></pre><h3>The title Attribute</h3><p>The <code>title</code> attribute creates a tooltip that shows when users hover over the link:</p><pre><code>&lt;a href=\"about.html\" title=\"Learn more about us\"&gt;About&lt;/a&gt;</code></pre><p>Do not rely on this for important information — mobile users cannot see tooltips.</p><h3>Building a Navigation Menu</h3><p>A navigation menu is just a list of links, usually inside a <code>&lt;nav&gt;</code> element:</p><pre><code>&lt;nav&gt;\n  &lt;a href=\"index.html\"&gt;Home&lt;/a&gt;\n  &lt;a href=\"about.html\"&gt;About&lt;/a&gt;\n  &lt;a href=\"contact.html\"&gt;Contact&lt;/a&gt;\n&lt;/nav&gt;</code></pre><p>The <code>&lt;nav&gt;</code> tag is a semantic element that tells browsers and screen readers 'this is the main navigation'. CSS (which you will learn later) makes the menu look pretty.</p>",
+    "codeExamples": [
+      {
+        "title": "Basic Internal and External Links",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>My Links</title>\n</head>\n<body>\n  <h1>Priya's Favourite Links</h1>\n  <h2>Internal Links (Same Site)</h2>\n  <p><a href=\"about.html\">About Me</a></p>\n  <p><a href=\"projects.html\">My Projects</a></p>\n  <p><a href=\"contact.html\">Contact</a></p>\n  <h2>External Links (Other Websites)</h2>\n  <p><a href=\"https://www.google.com\">Google</a></p>\n  <p><a href=\"https://www.wikipedia.org\">Wikipedia</a></p>\n  <p><a href=\"https://learn.modernagecoders.com\">Modern Age Coders</a></p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This shows both kinds of links. Internal links use relative paths like <code>about.html</code> — they point to other files in the same folder. External links use full URLs starting with <code>https://</code>. Both types of links use the same <code>&lt;a&gt;</code> tag.",
+        "output": "A page with two sections of links. Clicking internal links would open pages in the same folder. Clicking external links opens websites like Google and Wikipedia."
+      },
+      {
+        "title": "Opening Links in a New Tab",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>External Resources</title>\n</head>\n<body>\n  <h1>Helpful External Resources</h1>\n  <p>These open in a new tab so you do not lose this page:</p>\n  <p><a href=\"https://www.wikipedia.org\" target=\"_blank\" rel=\"noopener noreferrer\">Wikipedia (new tab)</a></p>\n  <p><a href=\"https://www.github.com\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub (new tab)</a></p>\n  <p><a href=\"https://www.stackoverflow.com\" target=\"_blank\" rel=\"noopener noreferrer\">Stack Overflow (new tab)</a></p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "When you add <code>target=\"_blank\"</code>, the link opens in a new browser tab. For security and privacy, always add <code>rel=\"noopener noreferrer\"</code> along with it. This is the standard for external links.",
+        "output": "A page with three links that each open in a new browser tab when clicked."
+      },
+      {
+        "title": "Anchor Links Within the Same Page",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>HTML Tutorial</title>\n</head>\n<body>\n  <h1>HTML Tutorial</h1>\n\n  <h2>Table of Contents</h2>\n  <ul>\n    <li><a href=\"#intro\">Introduction</a></li>\n    <li><a href=\"#tags\">Tags</a></li>\n    <li><a href=\"#attributes\">Attributes</a></li>\n    <li><a href=\"#conclusion\">Conclusion</a></li>\n  </ul>\n\n  <h2 id=\"intro\">Introduction</h2>\n  <p>HTML stands for HyperText Markup Language. It is used to build web pages.</p>\n\n  <h2 id=\"tags\">Tags</h2>\n  <p>Tags are the building blocks of HTML. Examples include p, h1, and img.</p>\n\n  <h2 id=\"attributes\">Attributes</h2>\n  <p>Attributes add extra information to tags, like href on an anchor tag.</p>\n\n  <h2 id=\"conclusion\">Conclusion</h2>\n  <p>HTML is easy to learn and the foundation of the web.</p>\n  <p><a href=\"#\">Back to Top</a></p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This shows anchor navigation. Each section heading has an <code>id</code> attribute. The table of contents at the top links to those IDs using <code>#</code>. Clicking a link smoothly scrolls to that section. The 'Back to Top' link at the bottom uses just <code>#</code> to go to the top of the page.",
+        "output": "A tutorial page with a clickable table of contents. Clicking any entry jumps to that section of the page."
+      },
+      {
+        "title": "Email, Phone, and Download Links",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Contact Rohan</title>\n</head>\n<body>\n  <h1>Contact Rohan Gupta</h1>\n  <p>Choose your preferred way to contact:</p>\n  <ul>\n    <li>Email: <a href=\"mailto:rohan@example.com\">rohan@example.com</a></li>\n    <li>Phone: <a href=\"tel:+919876543210\">+91 98765 43210</a></li>\n    <li><a href=\"https://via.placeholder.com/150\" download=\"Rohan_Avatar.png\">Download my avatar</a></li>\n  </ul>\n  <h2>Email with Subject and Body</h2>\n  <p><a href=\"mailto:rohan@example.com?subject=Hello%20Rohan&body=Hi%20Rohan%2C%20I%20saw%20your%20website.\">Email with pre-filled message</a></p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Three special kinds of links: <code>mailto:</code> opens the email app, <code>tel:</code> dials the number on mobile, and <code>download</code> makes a file download instead of opening it. The mailto link can also pre-fill subject and body using query parameters. Note that spaces must be encoded as <code>%20</code>.",
+        "output": "A contact page with clickable email and phone links, a download button, and a pre-filled email link."
+      },
+      {
+        "title": "Navigation Menu Example",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Ananya's Site</title>\n</head>\n<body>\n  <nav>\n    <a href=\"index.html\">Home</a> |\n    <a href=\"about.html\">About</a> |\n    <a href=\"projects.html\">Projects</a> |\n    <a href=\"blog.html\">Blog</a> |\n    <a href=\"contact.html\">Contact</a>\n  </nav>\n\n  <h1>Welcome to Ananya's Site</h1>\n  <p>Use the navigation menu above to explore different pages.</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This is a simple horizontal navigation menu using the <code>&lt;nav&gt;</code> semantic element. The pipe characters (|) are used as simple separators between links. In a real project, CSS would make this look much prettier, but this is a functional navigation menu using only HTML.",
+        "output": "A page with a top navigation menu showing 'Home | About | Projects | Blog | Contact', each as a clickable link."
+      },
+      {
+        "title": "Link With Title Tooltip and Relative Paths",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Paths Example</title>\n</head>\n<body>\n  <h1>Different Relative Paths</h1>\n  <h2>Links with Tooltips</h2>\n  <p><a href=\"about.html\" title=\"Learn more about Vikram\">About Me</a></p>\n  <p><a href=\"projects.html\" title=\"See my coding projects\">Projects</a></p>\n\n  <h2>Links to Other Folders</h2>\n  <p><a href=\"pages/gallery.html\">Gallery (in pages folder)</a></p>\n  <p><a href=\"../parent-page.html\">Parent Page (go up one folder)</a></p>\n  <p><a href=\"./same-folder.html\">Same Folder (explicit)</a></p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The <code>title</code> attribute creates a tooltip that appears when users hover over the link. Different path prefixes point to different locations: <code>./</code> is the current folder, <code>../</code> goes up one folder, and just a filename means the same folder. Hover over the first two links and you will see a small yellow tooltip.",
+        "output": "A page with tooltips when hovering over links, and several examples of relative paths."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting the href Attribute",
+        "wrongCode": "<a>Click Me</a>",
+        "error": "The link is not clickable — it just appears as plain text (or blue underlined text that does nothing).",
+        "correctCode": "<a href=\"https://www.google.com\">Click Me</a>",
+        "explanation": "Every <code>&lt;a&gt;</code> tag needs an <code>href</code> attribute to be a functioning link. Without it, the tag may display as styled text, but clicking does nothing."
+      },
+      {
+        "title": "Using target=\"_blank\" Without rel=\"noopener noreferrer\"",
+        "wrongCode": "<a href=\"https://example.com\" target=\"_blank\">Example</a>",
+        "error": "Security and privacy vulnerability — the new tab can access window.opener and the referring URL is shared.",
+        "correctCode": "<a href=\"https://example.com\" target=\"_blank\" rel=\"noopener noreferrer\">Example</a>",
+        "explanation": "Always add <code>rel=\"noopener noreferrer\"</code> when using <code>target=\"_blank\"</code>. <code>noopener</code> prevents the new page from accessing the original via <code>window.opener</code>. <code>noreferrer</code> prevents sending the referring URL."
+      },
+      {
+        "title": "Forgetting https:// for External Links",
+        "wrongCode": "<a href=\"www.google.com\">Google</a>",
+        "error": "The browser treats 'www.google.com' as a relative path inside your site, not as an external URL. Clicking goes to yoursite.com/www.google.com.",
+        "correctCode": "<a href=\"https://www.google.com\">Google</a>",
+        "explanation": "External links must start with <code>https://</code> (or <code>http://</code>). Without it, the browser thinks you mean a file on your own site. Always include the full protocol for external URLs."
+      },
+      {
+        "title": "Anchor Link With ID That Does Not Exist",
+        "wrongCode": "<a href=\"#contact-section\">Go to Contact</a>\n<!-- But there is no element with id=\"contact-section\" -->",
+        "error": "Clicking the link does nothing — there is no target to scroll to.",
+        "correctCode": "<a href=\"#contact-section\">Go to Contact</a>\n<h2 id=\"contact-section\">Contact</h2>",
+        "explanation": "When using anchor links with <code>#</code>, you must have an element with a matching <code>id</code> attribute somewhere on the page. The ID in the href (after #) must match the id attribute exactly — case-sensitive."
+      },
+      {
+        "title": "Wrong mailto Syntax",
+        "wrongCode": "<a href=\"mail:priya@example.com\">Email</a>",
+        "error": "The browser does not recognise 'mail:' as an email link, so clicking does nothing meaningful.",
+        "correctCode": "<a href=\"mailto:priya@example.com\">Email</a>",
+        "explanation": "The correct protocol for email links is <code>mailto:</code> (with 'to' at the end), not <code>mail:</code>. Similarly, phone links use <code>tel:</code>, not <code>phone:</code>."
+      }
+    ],
+    "summary": [
+      "The <a> (anchor) tag creates a link. The href attribute specifies where the link goes.",
+      "Internal links use relative paths like 'about.html' or '../pages/home.html' to point to other files in the same website.",
+      "External links use full URLs starting with 'https://' like 'https://www.google.com'.",
+      "target=\"_blank\" opens the link in a new browser tab, keeping your original page open.",
+      "Always add rel=\"noopener noreferrer\" when using target=\"_blank\" for security and privacy.",
+      "Anchor links use #id to jump to a specific section on the same page. The target element must have a matching id attribute.",
+      "mailto: links open the user's email app with the address pre-filled. You can also pre-fill subject and body.",
+      "tel: links open the phone dialler on mobile devices. Include the country code starting with +.",
+      "The download attribute makes the browser download the file instead of opening it. You can also rename the file.",
+      "The title attribute creates a tooltip when users hover over the link — not visible on mobile, so do not rely on it for critical info.",
+      "Navigation menus are usually wrapped in the <nav> semantic element to tell browsers and screen readers 'this is navigation'."
+    ]
+  },
+  "relatedTopics": ["headings-paragraphs-and-text", "images-and-media"],
+  "practice": {
+    "totalQuestions": 57,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this HTML create?<br><pre><code>&lt;a href=\"https://www.google.com\"&gt;Google&lt;/a&gt;</code></pre>",
+        "hint": "It is a link to Google.",
+        "answer": "A clickable link with the text 'Google' that opens google.com when clicked.",
+        "explanation": "The <code>&lt;a&gt;</code> tag creates a hyperlink. <code>href</code> is the destination and the text between the tags is what the user clicks on."
+      },
+      {
+        "id": "ts-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a link that opens Wikipedia in a new tab.",
+        "hint": "Use target=\"_blank\" and include rel=\"noopener noreferrer\".",
+        "answer": "<pre><code>&lt;a href=\"https://www.wikipedia.org\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Wikipedia&lt;/a&gt;</code></pre>",
+        "explanation": "<code>target=\"_blank\"</code> opens the link in a new tab. <code>rel=\"noopener noreferrer\"</code> is added for security and privacy reasons."
+      },
+      {
+        "id": "ts-3",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "This link does nothing when clicked. Fix it:<br><pre><code>&lt;a&gt;Click Here&lt;/a&gt;</code></pre>",
+        "hint": "Something important is missing.",
+        "answer": "<pre><code>&lt;a href=\"https://example.com\"&gt;Click Here&lt;/a&gt;</code></pre>",
+        "explanation": "The <code>href</code> attribute is missing. Without it, the <code>&lt;a&gt;</code> tag is just styled text that does nothing when clicked."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What kind of link is this?<br><pre><code>&lt;a href=\"about.html\"&gt;About&lt;/a&gt;</code></pre>",
+        "hint": "Does it have a full URL with https?",
+        "answer": "An internal link to a file called 'about.html' in the same folder as the current page.",
+        "explanation": "Because <code>about.html</code> does not start with <code>https://</code>, it is a relative path — an internal link pointing to a file in the same folder."
+      },
+      {
+        "id": "ts-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write an HTML link to send an email to 'ananya@example.com'.",
+        "hint": "Use mailto:",
+        "answer": "<pre><code>&lt;a href=\"mailto:ananya@example.com\"&gt;Email Ananya&lt;/a&gt;</code></pre>",
+        "explanation": "The <code>mailto:</code> protocol in the href opens the user's email app with the specified address pre-filled in the To field."
+      },
+      {
+        "id": "ts-6",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Fix this broken email link:<br><pre><code>&lt;a href=\"mail:priya@example.com\"&gt;Email&lt;/a&gt;</code></pre>",
+        "hint": "The protocol should be something slightly different.",
+        "answer": "<pre><code>&lt;a href=\"mailto:priya@example.com\"&gt;Email&lt;/a&gt;</code></pre>",
+        "explanation": "The correct email protocol is <code>mailto:</code> (with 'to' at the end), not <code>mail:</code>."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does the href=\"#top\" do?",
+        "hint": "# is used for anchor links.",
+        "answer": "It creates an anchor link that jumps to an element with id=\"top\" on the same page.",
+        "explanation": "When the href starts with <code>#</code> followed by an ID, clicking the link scrolls the browser to the element with that id attribute on the current page."
+      },
+      {
+        "id": "ts-8",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write HTML for a link that makes the user download a file called 'report.pdf'.",
+        "hint": "Use the download attribute.",
+        "answer": "<pre><code>&lt;a href=\"report.pdf\" download&gt;Download Report&lt;/a&gt;</code></pre>",
+        "explanation": "The <code>download</code> attribute makes the browser download the linked file instead of opening it. Without this attribute, the browser may try to display the PDF directly."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this render?<br><pre><code>&lt;a href=\"tel:+919876543210\"&gt;Call Us&lt;/a&gt;</code></pre>",
+        "hint": "tel is for phone links.",
+        "answer": "A clickable link saying 'Call Us' that opens the phone dialler on mobile devices.",
+        "explanation": "The <code>tel:</code> protocol creates a link that, on mobile, opens the phone app with the number pre-filled. On desktop, it may open a VoIP app like Skype or do nothing."
+      },
+      {
+        "id": "ts-10",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Fix this external link:<br><pre><code>&lt;a href=\"www.google.com\"&gt;Google&lt;/a&gt;</code></pre>",
+        "hint": "External links need a protocol.",
+        "answer": "<pre><code>&lt;a href=\"https://www.google.com\"&gt;Google&lt;/a&gt;</code></pre>",
+        "explanation": "Without <code>https://</code>, the browser treats 'www.google.com' as a relative path inside your site. External URLs must start with the full protocol."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a link with a tooltip saying 'Click to learn more' that goes to 'about.html'.",
+        "hint": "Use the title attribute.",
+        "answer": "<pre><code>&lt;a href=\"about.html\" title=\"Click to learn more\"&gt;About&lt;/a&gt;</code></pre>",
+        "explanation": "The <code>title</code> attribute creates a small tooltip that appears when users hover over the link with their mouse."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does href=\"../index.html\" mean?",
+        "hint": ".. means 'go up one folder'.",
+        "answer": "Go up one folder from the current location, then find the file 'index.html'.",
+        "explanation": "<code>..</code> in a relative path means 'parent folder'. So <code>../index.html</code> means go up one level and look for index.html there."
+      },
+      {
+        "id": "ts-13",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Create anchor navigation that jumps to 'Section One' on the same page. Write the link AND the target heading.",
+        "hint": "The target needs an id, the link uses # followed by that id.",
+        "answer": "<pre><code>&lt;a href=\"#section-one\"&gt;Go to Section One&lt;/a&gt;\n...\n&lt;h2 id=\"section-one\"&gt;Section One&lt;/h2&gt;</code></pre>",
+        "explanation": "Anchor navigation needs two parts: (1) a link with <code>href=\"#id\"</code>, and (2) a target element with <code>id=\"id\"</code>. Clicking the link scrolls the page to the target."
+      },
+      {
+        "id": "ts-14",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "This link opens in a new tab but has a security issue. Fix it:<br><pre><code>&lt;a href=\"https://example.com\" target=\"_blank\"&gt;Example&lt;/a&gt;</code></pre>",
+        "hint": "Missing a security-related attribute.",
+        "answer": "<pre><code>&lt;a href=\"https://example.com\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Example&lt;/a&gt;</code></pre>",
+        "explanation": "When you open a link in a new tab with <code>target=\"_blank\"</code>, always add <code>rel=\"noopener noreferrer\"</code> to prevent the new tab from accessing your page and to improve privacy."
+      },
+      {
+        "id": "ts-15",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a navigation menu inside a <nav> element with four links: Home, About, Projects, Contact — each pointing to the respective HTML file.",
+        "hint": "Wrap the links in <nav> tags.",
+        "answer": "<pre><code>&lt;nav&gt;\n  &lt;a href=\"index.html\"&gt;Home&lt;/a&gt;\n  &lt;a href=\"about.html\"&gt;About&lt;/a&gt;\n  &lt;a href=\"projects.html\"&gt;Projects&lt;/a&gt;\n  &lt;a href=\"contact.html\"&gt;Contact&lt;/a&gt;\n&lt;/nav&gt;</code></pre>",
+        "explanation": "The <code>&lt;nav&gt;</code> tag is a semantic element that tells browsers and screen readers 'this is the main navigation of the site'. It is the standard container for navigation links."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens when you click this link on a mobile phone?<br><pre><code>&lt;a href=\"tel:+911234567890\"&gt;Call&lt;/a&gt;</code></pre>",
+        "hint": "tel: links on phones do something specific.",
+        "answer": "The phone opens its dialler app with the number +911234567890 already filled in, ready to call.",
+        "explanation": "On mobile devices, <code>tel:</code> links trigger the phone dialler. Users can tap the call button to actually make the call. This is very useful for contact pages."
+      },
+      {
+        "id": "ts-17",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Rohan's anchor link is not jumping anywhere. Find the bug:<br><pre><code>&lt;a href=\"#About\"&gt;Go to About&lt;/a&gt;\n...\n&lt;h2 id=\"about\"&gt;About&lt;/h2&gt;</code></pre>",
+        "hint": "IDs are case-sensitive.",
+        "answer": "The href uses <code>#About</code> (capital A) but the id is <code>about</code> (lowercase). Change the href to <code>#about</code> to match.",
+        "explanation": "HTML IDs are case-sensitive. <code>About</code> and <code>about</code> are different. The href and id must match exactly in case."
+      },
+      {
+        "id": "ts-18",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a link that downloads a file 'profile.jpg' but saves it with the name 'MyProfile.jpg'.",
+        "hint": "The download attribute can have a value.",
+        "answer": "<pre><code>&lt;a href=\"profile.jpg\" download=\"MyProfile.jpg\"&gt;Download Profile&lt;/a&gt;</code></pre>",
+        "explanation": "You can give the <code>download</code> attribute a value to rename the file when saving. The original file stays named 'profile.jpg' on the server, but users download it as 'MyProfile.jpg'."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the difference between href=\"about.html\" and href=\"./about.html\"?",
+        "hint": "Think about relative paths.",
+        "answer": "There is no difference. Both point to 'about.html' in the current folder. The <code>./</code> prefix is optional but sometimes used to be explicit.",
+        "explanation": "<code>./</code> means 'in the current folder' and is the default. Writing <code>./about.html</code> and <code>about.html</code> both point to the same file. The <code>./</code> is only needed in specific cases to disambiguate."
+      },
+      {
+        "id": "ts-20",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a mailto link that pre-fills the subject line with 'Question about HTML'.",
+        "hint": "Use mailto:email?subject=text (spaces become %20).",
+        "answer": "<pre><code>&lt;a href=\"mailto:priya@example.com?subject=Question%20about%20HTML\"&gt;Email Priya&lt;/a&gt;</code></pre>",
+        "explanation": "You can add query parameters to mailto links: <code>?subject=...</code> for the subject, <code>&amp;body=...</code> for the body. Spaces must be encoded as <code>%20</code>."
+      },
+      {
+        "id": "ts-21",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "Fix this complete page — multiple things are wrong:<br><pre><code>&lt;nav&gt;\n  &lt;a&gt;Home&lt;/a&gt;\n  &lt;a href=www.about.com&gt;About&lt;/a&gt;\n  &lt;a href=\"mail:hi@ex.com\"&gt;Contact&lt;/a&gt;\n&lt;/nav&gt;</code></pre>",
+        "hint": "Missing href, missing protocol and quotes, wrong email protocol.",
+        "answer": "<pre><code>&lt;nav&gt;\n  &lt;a href=\"index.html\"&gt;Home&lt;/a&gt;\n  &lt;a href=\"https://www.about.com\"&gt;About&lt;/a&gt;\n  &lt;a href=\"mailto:hi@ex.com\"&gt;Contact&lt;/a&gt;\n&lt;/nav&gt;</code></pre>",
+        "explanation": "Three bugs fixed: (1) Home link was missing href, (2) About link needed <code>https://</code> and quotes, (3) Contact link used <code>mail:</code> instead of <code>mailto:</code>."
+      },
+      {
+        "id": "ts-22",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Create anchor navigation that jumps to different sections of a single page. Include a nav with 3 links (Intro, Main, End) and 3 h2 sections with matching ids. Each section should have a paragraph.",
+        "hint": "Link hrefs start with # and match section ids.",
+        "answer": "<pre><code>&lt;nav&gt;\n  &lt;a href=\"#intro\"&gt;Intro&lt;/a&gt; |\n  &lt;a href=\"#main\"&gt;Main&lt;/a&gt; |\n  &lt;a href=\"#end\"&gt;End&lt;/a&gt;\n&lt;/nav&gt;\n\n&lt;h2 id=\"intro\"&gt;Introduction&lt;/h2&gt;\n&lt;p&gt;Welcome to the page.&lt;/p&gt;\n\n&lt;h2 id=\"main\"&gt;Main Content&lt;/h2&gt;\n&lt;p&gt;This is the main section.&lt;/p&gt;\n\n&lt;h2 id=\"end\"&gt;End&lt;/h2&gt;\n&lt;p&gt;Thanks for reading.&lt;/p&gt;</code></pre>",
+        "explanation": "This creates a functional table of contents. Clicking any nav link scrolls the page to the matching section because the link hrefs use # plus the section id."
+      },
+      {
+        "id": "ts-23",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "This link should download a file but keeps opening it instead. Fix it:<br><pre><code>&lt;a href=\"song.mp3\"&gt;Download Song&lt;/a&gt;</code></pre>",
+        "hint": "Missing an attribute.",
+        "answer": "<pre><code>&lt;a href=\"song.mp3\" download&gt;Download Song&lt;/a&gt;</code></pre>",
+        "explanation": "Without the <code>download</code> attribute, clicking a link to an MP3 file usually opens it in the browser's built-in audio player. Adding <code>download</code> forces a file download instead."
+      },
+      {
+        "id": "ts-24",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a complete HTML page for a contact page with: a heading, a paragraph, email link (mailto), phone link (tel), and a navigation bar at the top with 3 links (Home, About, Contact).",
+        "hint": "Combine nav, mailto, and tel links in a complete page.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;title&gt;Contact&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;nav&gt;\n    &lt;a href=\"index.html\"&gt;Home&lt;/a&gt; |\n    &lt;a href=\"about.html\"&gt;About&lt;/a&gt; |\n    &lt;a href=\"contact.html\"&gt;Contact&lt;/a&gt;\n  &lt;/nav&gt;\n  &lt;h1&gt;Contact Me&lt;/h1&gt;\n  &lt;p&gt;Feel free to reach out through any of these:&lt;/p&gt;\n  &lt;p&gt;Email: &lt;a href=\"mailto:aarav@example.com\"&gt;aarav@example.com&lt;/a&gt;&lt;/p&gt;\n  &lt;p&gt;Phone: &lt;a href=\"tel:+919876543210\"&gt;+91 98765 43210&lt;/a&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "A complete contact page with navigation, contact info using proper mailto and tel protocols, and a structured layout."
+      },
+      {
+        "id": "ts-25",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this mean: href=\"../../home.html\"?",
+        "hint": "Count the number of ..",
+        "answer": "Go up two folders from the current location, then find home.html.",
+        "explanation": "Each <code>../</code> means 'go up one folder'. So <code>../../</code> goes up two folders. This is useful for deeply nested pages that link back to the main site."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this render?<br><pre><code>&lt;a href=\"index.html\"&gt;Home&lt;/a&gt;</code></pre>",
+        "hint": "Relative link to the same folder.",
+        "answer": "A clickable link saying 'Home' that goes to 'index.html' in the same folder.",
+        "explanation": "This is an internal link. The relative path <code>index.html</code> points to a file in the current folder."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a link to call +91 98765 43210 from a phone.",
+        "hint": "Use tel: protocol.",
+        "answer": "<pre><code>&lt;a href=\"tel:+919876543210\"&gt;Call Us&lt;/a&gt;</code></pre>",
+        "explanation": "The <code>tel:</code> protocol opens the phone dialler on mobile devices. Always include the country code."
+      },
+      {
+        "id": "mx-3",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Fix this:<br><pre><code>&lt;a href=google.com&gt;Google&lt;/a&gt;</code></pre>",
+        "hint": "Two issues: missing quotes and missing protocol.",
+        "answer": "<pre><code>&lt;a href=\"https://www.google.com\"&gt;Google&lt;/a&gt;</code></pre>",
+        "explanation": "Attribute values should be in quotes, and external links need the full <code>https://</code> protocol."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does target=\"_blank\" do?",
+        "hint": "Something about how the link opens.",
+        "answer": "It opens the link in a new browser tab instead of replacing the current page.",
+        "explanation": "<code>target=\"_blank\"</code> is the standard way to tell the browser 'open this in a new tab'. Useful for external links so users do not lose your page."
+      },
+      {
+        "id": "mx-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a link to 'gallery.html' inside a folder called 'images'.",
+        "hint": "Use a relative path with a folder.",
+        "answer": "<pre><code>&lt;a href=\"images/gallery.html\"&gt;View Gallery&lt;/a&gt;</code></pre>",
+        "explanation": "To link to a file in a subfolder, use the folder name followed by a slash and the filename. No leading slash is needed."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens with href=\"#\"?",
+        "hint": "Just # with nothing after.",
+        "answer": "Clicking the link scrolls the page to the very top. It is commonly used for 'Back to Top' buttons.",
+        "explanation": "<code>href=\"#\"</code> is a special case — it scrolls to the top of the page. Great for 'Back to Top' links, but use it sparingly."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a navigation menu with 3 links: 'Home' (to index.html), 'About' (in a pages folder, about.html), and 'Parent' (up one folder to main.html).",
+        "hint": "Three different path styles.",
+        "answer": "<pre><code>&lt;nav&gt;\n  &lt;a href=\"index.html\"&gt;Home&lt;/a&gt;\n  &lt;a href=\"pages/about.html\"&gt;About&lt;/a&gt;\n  &lt;a href=\"../main.html\"&gt;Parent&lt;/a&gt;\n&lt;/nav&gt;</code></pre>",
+        "explanation": "This menu shows three relative path styles: same folder, subfolder, and parent folder."
+      },
+      {
+        "id": "mx-8",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Neha's link does not work. What is wrong?<br><pre><code>&lt;a href=\"#section1\" target=\"_blank\"&gt;Go to Section&lt;/a&gt;</code></pre>",
+        "hint": "Anchor links and target=\"_blank\" do not mix well.",
+        "answer": "Remove <code>target=\"_blank\"</code> — it opens a new blank tab instead of scrolling to the section. Or, if you really want a new tab, it is better to use a new page for that section.",
+        "explanation": "Anchor links (those starting with #) are meant to scroll the current page. Combining with <code>target=\"_blank\"</code> opens a new tab to the same page, which is confusing for users."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this download link do?<br><pre><code>&lt;a href=\"cv.pdf\" download=\"Priya_CV.pdf\"&gt;Download&lt;/a&gt;</code></pre>",
+        "hint": "The download attribute can rename the file.",
+        "answer": "Clicking downloads the file 'cv.pdf' from the server but saves it with the filename 'Priya_CV.pdf' on the user's computer.",
+        "explanation": "The value of the <code>download</code> attribute is the filename to use when saving. The original file on the server keeps its name."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Create a mailto link with both subject and body. Email: rohan@example.com, subject: 'Hi', body: 'Hello Rohan'.",
+        "hint": "Use ?subject=... &body=... and encode spaces as %20.",
+        "answer": "<pre><code>&lt;a href=\"mailto:rohan@example.com?subject=Hi&amp;body=Hello%20Rohan\"&gt;Email Rohan&lt;/a&gt;</code></pre>",
+        "explanation": "Use <code>?</code> for the first parameter and <code>&amp;</code> for the rest. Spaces in the body must be encoded as <code>%20</code>. Note the <code>&amp;</code> is the encoded form of the ampersand in HTML."
+      },
+      {
+        "id": "mx-11",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Vikram's anchor link scrolls to the wrong section. Find the bug:<br><pre><code>&lt;a href=\"# faq\"&gt;FAQ&lt;/a&gt;\n...\n&lt;h2 id=\"faq\"&gt;FAQ&lt;/h2&gt;</code></pre>",
+        "hint": "Extra whitespace in the href.",
+        "answer": "<pre><code>&lt;a href=\"#faq\"&gt;FAQ&lt;/a&gt;</code></pre>",
+        "explanation": "There should be no space between <code>#</code> and the id. <code># faq</code> has a space which makes it not match the id <code>faq</code>."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the difference between href=\"page.html\" and href=\"/page.html\"?",
+        "hint": "The leading slash matters.",
+        "answer": "<code>page.html</code> is relative to the current folder. <code>/page.html</code> is absolute from the site root — it always goes to yoursite.com/page.html regardless of where the current page is.",
+        "explanation": "A leading slash makes a path absolute from the website root. Without it, the path is relative to the current file's folder. This is an important distinction when your site has multiple folders."
+      },
+      {
+        "id": "mx-13",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a complete HTML page with: header nav (3 links), h1 'FAQ', three h2 sections with ids, a table of contents linking to each section, and each section has a 'Back to Top' link.",
+        "hint": "Anchor links everywhere.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;title&gt;FAQ&lt;/title&gt;\n&lt;/head&gt;\n&lt;body id=\"top\"&gt;\n  &lt;nav&gt;\n    &lt;a href=\"index.html\"&gt;Home&lt;/a&gt; |\n    &lt;a href=\"about.html\"&gt;About&lt;/a&gt; |\n    &lt;a href=\"faq.html\"&gt;FAQ&lt;/a&gt;\n  &lt;/nav&gt;\n  &lt;h1&gt;Frequently Asked Questions&lt;/h1&gt;\n  &lt;p&gt;Jump to:&lt;/p&gt;\n  &lt;ul&gt;\n    &lt;li&gt;&lt;a href=\"#q1\"&gt;Question 1&lt;/a&gt;&lt;/li&gt;\n    &lt;li&gt;&lt;a href=\"#q2\"&gt;Question 2&lt;/a&gt;&lt;/li&gt;\n    &lt;li&gt;&lt;a href=\"#q3\"&gt;Question 3&lt;/a&gt;&lt;/li&gt;\n  &lt;/ul&gt;\n\n  &lt;h2 id=\"q1\"&gt;Question 1: What is HTML?&lt;/h2&gt;\n  &lt;p&gt;HTML stands for HyperText Markup Language.&lt;/p&gt;\n  &lt;p&gt;&lt;a href=\"#top\"&gt;Back to Top&lt;/a&gt;&lt;/p&gt;\n\n  &lt;h2 id=\"q2\"&gt;Question 2: Who invented HTML?&lt;/h2&gt;\n  &lt;p&gt;Tim Berners-Lee in 1991.&lt;/p&gt;\n  &lt;p&gt;&lt;a href=\"#top\"&gt;Back to Top&lt;/a&gt;&lt;/p&gt;\n\n  &lt;h2 id=\"q3\"&gt;Question 3: Is HTML a programming language?&lt;/h2&gt;\n  &lt;p&gt;No, it is a markup language.&lt;/p&gt;\n  &lt;p&gt;&lt;a href=\"#top\"&gt;Back to Top&lt;/a&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "This is a full FAQ page with anchor navigation. Notice how <code>id=\"top\"</code> on the body allows 'Back to Top' links to scroll the whole page up. Each question has an id for the TOC links."
+      },
+      {
+        "id": "mx-14",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "This external link opens in the same tab but should open in a new tab with security. Fix it:<br><pre><code>&lt;a href=\"https://github.com\"&gt;GitHub&lt;/a&gt;</code></pre>",
+        "hint": "Two attributes needed.",
+        "answer": "<pre><code>&lt;a href=\"https://github.com\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;GitHub&lt;/a&gt;</code></pre>",
+        "explanation": "Add <code>target=\"_blank\"</code> to open in a new tab, and <code>rel=\"noopener noreferrer\"</code> for security and privacy. This is the standard pattern for external links."
+      },
+      {
+        "id": "mx-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What happens when you click this link on desktop vs mobile?<br><pre><code>&lt;a href=\"tel:+911234567890\"&gt;Call&lt;/a&gt;</code></pre>",
+        "hint": "Different devices handle tel: differently.",
+        "answer": "On mobile, it opens the phone dialler with the number ready to call. On desktop, it may open Skype or another VoIP app, or show a 'choose an app' prompt, or do nothing.",
+        "explanation": "The behaviour of <code>tel:</code> links depends on what apps are installed. Mobile devices reliably open the phone app. Desktops may or may not have an appropriate handler set up."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which tag creates a hyperlink?",
+        "options": {
+          "A": "<link>",
+          "B": "<a>",
+          "C": "<href>",
+          "D": "<hyperlink>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>&lt;a&gt;</code> (anchor) tag creates hyperlinks. The <code>&lt;link&gt;</code> tag is for linking CSS files in the head."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which attribute specifies where a link goes?",
+        "options": {
+          "A": "src",
+          "B": "url",
+          "C": "href",
+          "D": "link"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>href</code> (hypertext reference) attribute holds the destination URL."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does target=\"_blank\" do?",
+        "options": {
+          "A": "Opens the link in the same tab",
+          "B": "Opens the link in a new tab",
+          "C": "Makes the link red",
+          "D": "Disables the link"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>target=\"_blank\"</code> opens the link in a new browser tab."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the correct protocol for email links?",
+        "options": {
+          "A": "email:",
+          "B": "mail:",
+          "C": "mailto:",
+          "D": "send:"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>mailto:</code> is the correct protocol. It opens the user's email app with the address pre-filled."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is the correct protocol for phone links?",
+        "options": {
+          "A": "phone:",
+          "B": "tel:",
+          "C": "call:",
+          "D": "mobile:"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>tel:</code> is the standard protocol for phone links. Include the country code with a plus sign."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which character starts an anchor link (same-page jump)?",
+        "options": {
+          "A": "@",
+          "B": "$",
+          "C": "#",
+          "D": "&"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>#</code> symbol is used in href values to link to an element on the same page by its id."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "Which attribute forces a file to download when clicked?",
+        "options": {
+          "A": "save",
+          "B": "download",
+          "C": "get",
+          "D": "file"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>download</code> attribute tells the browser to download the file rather than open it."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which attribute shows a tooltip when hovering?",
+        "options": {
+          "A": "tooltip",
+          "B": "hover",
+          "C": "title",
+          "D": "label"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>title</code> attribute creates a tooltip that appears when hovering over an element with a mouse."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does ../ mean in a relative path?",
+        "options": {
+          "A": "Current folder",
+          "B": "Go up one folder",
+          "C": "Root folder",
+          "D": "Home folder"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>../</code> means 'parent folder' (go up one level). Use <code>../../</code> to go up two levels."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Why add rel=\"noopener noreferrer\" to links with target=\"_blank\"?",
+        "options": {
+          "A": "To make the link red",
+          "B": "For security and privacy reasons",
+          "C": "It is required by HTML",
+          "D": "To disable the link"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>noopener</code> prevents the new tab from accessing your page via window.opener, and <code>noreferrer</code> does not send the referring URL, improving both security and privacy."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What is wrong with href=\"www.google.com\"?",
+        "options": {
+          "A": "It is missing https://",
+          "B": "There are too many w's",
+          "C": "Nothing is wrong",
+          "D": ".com is not valid"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> Without <code>https://</code> or <code>http://</code>, the browser treats this as a relative path and looks for a folder named 'www.google.com' on your site."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "To link to an element with id=\"contact\", the href should be:",
+        "options": {
+          "A": "href=\"contact\"",
+          "B": "href=\"@contact\"",
+          "C": "href=\"#contact\"",
+          "D": "href=\"id:contact\""
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Anchor links use <code>#</code> followed by the element's id to jump to it on the same page."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "Which HTML element wraps navigation links?",
+        "options": {
+          "A": "<menu>",
+          "B": "<nav>",
+          "C": "<navigation>",
+          "D": "<links>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>&lt;nav&gt;</code> element is the semantic container for main navigation links."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "What does href=\"./about.html\" mean?",
+        "options": {
+          "A": "about.html in the root folder",
+          "B": "about.html in the current folder (explicit)",
+          "C": "about.html in the parent folder",
+          "D": "Invalid syntax"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>./</code> means 'current folder' (explicit). It is the same as just writing <code>about.html</code>."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What does href=\"#\" do?",
+        "options": {
+          "A": "Does nothing",
+          "B": "Reloads the page",
+          "C": "Scrolls to the top of the page",
+          "D": "Opens a popup"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>href=\"#\"</code> is a special case that scrolls the page to the top. It is often used for 'Back to Top' links."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "In a mailto link, how do you add a subject?",
+        "options": {
+          "A": "mailto:email&subject=Hi",
+          "B": "mailto:email?subject=Hi",
+          "C": "mailto:email/subject=Hi",
+          "D": "mailto:email:subject=Hi"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Use <code>?</code> for the first parameter and <code>&amp;</code> for additional parameters, like: <code>mailto:x@y.com?subject=Hi&amp;body=Hello</code>."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "Which of these is an ABSOLUTE path (from site root)?",
+        "options": {
+          "A": "page.html",
+          "B": "./page.html",
+          "C": "/page.html",
+          "D": "../page.html"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> A leading slash makes the path absolute from the website root. <code>/page.html</code> always points to yoursite.com/page.html regardless of the current folder."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What does href=\"../../index.html\" mean?",
+        "options": {
+          "A": "Go to index.html in the current folder",
+          "B": "Go up one folder to index.html",
+          "C": "Go up two folders to index.html",
+          "D": "Go to the root folder's index.html"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Each <code>../</code> moves up one folder. Two of them moves up two folders, then finds index.html there."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "What is wrong with <a href=\"#About\">Link</a> when the target is <h2 id=\"about\">About</h2>?",
+        "options": {
+          "A": "Nothing",
+          "B": "IDs are case-sensitive — 'About' and 'about' do not match",
+          "C": "Anchor links do not work with h2",
+          "D": "IDs cannot contain lowercase letters"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> HTML IDs are case-sensitive. <code>#About</code> will not find an element with <code>id=\"about\"</code>."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "Which is the BEST practice for an external link?",
+        "options": {
+          "A": "<a href=\"https://site.com\">Site</a>",
+          "B": "<a href=\"https://site.com\" target=\"_blank\">Site</a>",
+          "C": "<a href=\"https://site.com\" target=\"_blank\" rel=\"noopener noreferrer\">Site</a>",
+          "D": "<a href=\"site.com\" target=\"_blank\">Site</a>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The best practice for external links is to use full https URL, open in a new tab, and add <code>rel=\"noopener noreferrer\"</code> for security and privacy."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Basic Navigation Page",
+        "difficulty": "Easy",
+        "question": "Create an HTML page with a nav element containing 4 internal links: Home (index.html), About (about.html), Projects (projects.html), Contact (contact.html). Include a heading and a welcome paragraph.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A page with a navigation bar at the top and welcome content.",
+        "constraints": "Must use the <nav> element and relative paths for all links.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Home</title>\n</head>\n<body>\n  <nav>\n    <a href=\"index.html\">Home</a> |\n    <a href=\"about.html\">About</a> |\n    <a href=\"projects.html\">Projects</a> |\n    <a href=\"contact.html\">Contact</a>\n  </nav>\n  <h1>Welcome to my site</h1>\n  <p>Use the navigation above to explore different pages.</p>\n</body>\n</html>",
+        "explanation": "The <nav> element semantically marks the navigation area. The pipe characters separate the links visually. This is the foundation of every website's navigation.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Home</title>\n</head>\n<body>\n  <nav>\n    <ul>\n      <li><a href=\"index.html\">Home</a></li>\n      <li><a href=\"about.html\">About</a></li>\n      <li><a href=\"projects.html\">Projects</a></li>\n      <li><a href=\"contact.html\">Contact</a></li>\n    </ul>\n  </nav>\n  <h1>Welcome</h1>\n  <p>Explore the site.</p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "External Links Page",
+        "difficulty": "Easy",
+        "question": "Build an HTML page titled 'My Favourite Sites' with 5 external links to your favourite websites. Each link must open in a new tab and have rel=\"noopener noreferrer\".",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A page listing 5 external websites as clickable links that all open in new tabs.",
+        "constraints": "All external links must have target=\"_blank\" and rel=\"noopener noreferrer\".",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>My Favourite Sites</title>\n</head>\n<body>\n  <h1>My Favourite Sites</h1>\n  <ul>\n    <li><a href=\"https://www.google.com\" target=\"_blank\" rel=\"noopener noreferrer\">Google</a></li>\n    <li><a href=\"https://www.wikipedia.org\" target=\"_blank\" rel=\"noopener noreferrer\">Wikipedia</a></li>\n    <li><a href=\"https://www.youtube.com\" target=\"_blank\" rel=\"noopener noreferrer\">YouTube</a></li>\n    <li><a href=\"https://github.com\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a></li>\n    <li><a href=\"https://learn.modernagecoders.com\" target=\"_blank\" rel=\"noopener noreferrer\">Modern Age Coders</a></li>\n  </ul>\n</body>\n</html>",
+        "explanation": "Each external link opens in a new tab so users can come back to your page. The <code>rel=\"noopener noreferrer\"</code> attributes are security best practices.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Favourite Sites</title>\n</head>\n<body>\n  <h1>Favourites</h1>\n  <p><a href=\"https://www.bbc.com\" target=\"_blank\" rel=\"noopener noreferrer\">BBC News</a></p>\n  <p><a href=\"https://www.khanacademy.org\" target=\"_blank\" rel=\"noopener noreferrer\">Khan Academy</a></p>\n  <p><a href=\"https://www.nasa.gov\" target=\"_blank\" rel=\"noopener noreferrer\">NASA</a></p>\n  <p><a href=\"https://www.cricbuzz.com\" target=\"_blank\" rel=\"noopener noreferrer\">Cricbuzz</a></p>\n  <p><a href=\"https://www.isro.gov.in\" target=\"_blank\" rel=\"noopener noreferrer\">ISRO</a></p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Contact Page With Email and Phone",
+        "difficulty": "Medium",
+        "question": "Create a contact page for 'Priya Sharma' with a heading, a welcome paragraph, an email link (mailto), a phone link (tel), and a link to download her resume (resume.pdf) with the download attribute.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A functional contact page with clickable email, phone, and download links.",
+        "constraints": "Must include mailto, tel, and download attributes.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Contact Priya Sharma</title>\n</head>\n<body>\n  <h1>Contact Priya Sharma</h1>\n  <p>Feel free to reach out using any of the options below:</p>\n  <p>Email: <a href=\"mailto:priya@example.com\">priya@example.com</a></p>\n  <p>Phone: <a href=\"tel:+919876543210\">+91 98765 43210</a></p>\n  <p><a href=\"resume.pdf\" download=\"Priya_Resume.pdf\">Download Resume</a></p>\n</body>\n</html>",
+        "explanation": "This contact page uses three special link types: mailto for email, tel for phone, and download to force a file download. All are essential for any real contact page.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Contact</title>\n</head>\n<body>\n  <h1>Contact Me</h1>\n  <p>Reach out:</p>\n  <ul>\n    <li>Email: <a href=\"mailto:priya@example.com?subject=Hello\">priya@example.com</a></li>\n    <li>Phone: <a href=\"tel:+919876543210\">+91 98765 43210</a></li>\n    <li><a href=\"priya-cv.pdf\" download>Download CV</a></li>\n  </ul>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Table of Contents With Anchor Links",
+        "difficulty": "Medium",
+        "question": "Build an HTML page titled 'HTML Beginner Guide' with a table of contents linking to 4 sections (Introduction, Tags, Attributes, Conclusion). Each section should have a matching id and a 'Back to Top' link.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A single-page guide with clickable table of contents and back-to-top links.",
+        "constraints": "Use anchor links (href=\"#id\") and matching id attributes on headings.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>HTML Beginner Guide</title>\n</head>\n<body id=\"top\">\n  <h1>HTML Beginner Guide</h1>\n  <h2>Table of Contents</h2>\n  <ul>\n    <li><a href=\"#intro\">Introduction</a></li>\n    <li><a href=\"#tags\">Tags</a></li>\n    <li><a href=\"#attributes\">Attributes</a></li>\n    <li><a href=\"#conclusion\">Conclusion</a></li>\n  </ul>\n\n  <h2 id=\"intro\">Introduction</h2>\n  <p>HTML stands for HyperText Markup Language and is the foundation of the web.</p>\n  <p><a href=\"#top\">Back to Top</a></p>\n\n  <h2 id=\"tags\">Tags</h2>\n  <p>Tags like p, h1, and img are the building blocks of HTML pages.</p>\n  <p><a href=\"#top\">Back to Top</a></p>\n\n  <h2 id=\"attributes\">Attributes</h2>\n  <p>Attributes like href and src give extra information to tags.</p>\n  <p><a href=\"#top\">Back to Top</a></p>\n\n  <h2 id=\"conclusion\">Conclusion</h2>\n  <p>HTML is easy to learn and essential for building websites.</p>\n  <p><a href=\"#top\">Back to Top</a></p>\n</body>\n</html>",
+        "explanation": "The body has <code>id=\"top\"</code> so the 'Back to Top' links can scroll up. Each section heading has an id that matches the corresponding TOC link. This is a classic pattern for long single-page guides.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Guide</title>\n</head>\n<body>\n  <h1 id=\"top\">HTML Guide</h1>\n  <nav>\n    <a href=\"#s1\">1. Intro</a> |\n    <a href=\"#s2\">2. Tags</a> |\n    <a href=\"#s3\">3. Attributes</a> |\n    <a href=\"#s4\">4. Conclusion</a>\n  </nav>\n  <h2 id=\"s1\">Introduction</h2>\n  <p>Welcome.</p>\n  <h2 id=\"s2\">Tags</h2>\n  <p>Building blocks.</p>\n  <h2 id=\"s3\">Attributes</h2>\n  <p>Extra info.</p>\n  <h2 id=\"s4\">Conclusion</h2>\n  <p>You made it.</p>\n  <a href=\"#top\">Top</a>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Multi-Folder Navigation",
+        "difficulty": "Medium",
+        "question": "Write an HTML page that demonstrates different relative paths. Include links to: a file in the same folder (about.html), a file in a sub-folder (pages/gallery.html), a file in the parent folder (../main.html), and a file going up two folders (../../root.html).",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A page demonstrating four different relative path styles.",
+        "constraints": "Must include examples of same folder, sub folder, parent folder, and up two folders.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Path Examples</title>\n</head>\n<body>\n  <h1>Relative Path Examples</h1>\n  <h2>Same Folder</h2>\n  <p><a href=\"about.html\">About (same folder)</a></p>\n  <h2>Sub Folder</h2>\n  <p><a href=\"pages/gallery.html\">Gallery (pages subfolder)</a></p>\n  <h2>Parent Folder</h2>\n  <p><a href=\"../main.html\">Main (parent folder)</a></p>\n  <h2>Up Two Folders</h2>\n  <p><a href=\"../../root.html\">Root (up two folders)</a></p>\n</body>\n</html>",
+        "explanation": "This page shows the four most common relative path patterns: same folder, into a subfolder, up one folder, and up two folders. Understanding these is essential for organizing multi-page websites.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Paths</title>\n</head>\n<body>\n  <h1>Paths Demo</h1>\n  <ul>\n    <li><a href=\"./about.html\">Same folder (explicit)</a></li>\n    <li><a href=\"gallery/photos.html\">Into gallery folder</a></li>\n    <li><a href=\"../parent.html\">Up one</a></li>\n    <li><a href=\"../../root.html\">Up two</a></li>\n  </ul>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Complete FAQ Page",
+        "difficulty": "Hard",
+        "question": "Create a complete FAQ page titled 'Frequently Asked Questions' with at least 5 questions. Include a table of contents at the top that links to each question, each question has an id, and each answer section has a 'Back to Top' link. Add navigation to 'Home' at the top.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A full FAQ page with working anchor navigation and back-to-top links.",
+        "constraints": "Include nav, anchor links, matching ids, and back-to-top functionality.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>FAQ</title>\n</head>\n<body id=\"top\">\n  <nav>\n    <a href=\"index.html\">Home</a> |\n    <a href=\"faq.html\">FAQ</a> |\n    <a href=\"contact.html\">Contact</a>\n  </nav>\n  <h1>Frequently Asked Questions</h1>\n  <p>Click any question to jump to the answer:</p>\n  <ul>\n    <li><a href=\"#q1\">What is HTML?</a></li>\n    <li><a href=\"#q2\">Who invented HTML?</a></li>\n    <li><a href=\"#q3\">Is HTML hard to learn?</a></li>\n    <li><a href=\"#q4\">Do I need to install anything?</a></li>\n    <li><a href=\"#q5\">Where can I practice?</a></li>\n  </ul>\n\n  <h2 id=\"q1\">What is HTML?</h2>\n  <p>HTML stands for HyperText Markup Language. It is the language used to create web pages.</p>\n  <p><a href=\"#top\">Back to Top</a></p>\n\n  <h2 id=\"q2\">Who invented HTML?</h2>\n  <p>Tim Berners-Lee invented HTML in 1991 at CERN.</p>\n  <p><a href=\"#top\">Back to Top</a></p>\n\n  <h2 id=\"q3\">Is HTML hard to learn?</h2>\n  <p>No, HTML is one of the easiest languages to learn. You can build your first web page in minutes.</p>\n  <p><a href=\"#top\">Back to Top</a></p>\n\n  <h2 id=\"q4\">Do I need to install anything?</h2>\n  <p>No, you just need a text editor and a web browser. Both are already on your computer.</p>\n  <p><a href=\"#top\">Back to Top</a></p>\n\n  <h2 id=\"q5\">Where can I practice?</h2>\n  <p>Modern Age Coders has many free resources and practice exercises for beginners.</p>\n  <p><a href=\"#top\">Back to Top</a></p>\n</body>\n</html>",
+        "explanation": "A complete FAQ page with navigation, table of contents, and back-to-top links for every answer. This is exactly how professional FAQ pages are structured.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>FAQ</title>\n</head>\n<body>\n  <h1 id=\"top\">FAQ</h1>\n  <nav><a href=\"index.html\">Home</a></nav>\n  <ul>\n    <li><a href=\"#q1\">Q1</a></li>\n    <li><a href=\"#q2\">Q2</a></li>\n    <li><a href=\"#q3\">Q3</a></li>\n    <li><a href=\"#q4\">Q4</a></li>\n    <li><a href=\"#q5\">Q5</a></li>\n  </ul>\n  <h2 id=\"q1\">Question 1</h2>\n  <p>Answer.</p>\n  <a href=\"#top\">Top</a>\n  <h2 id=\"q2\">Question 2</h2>\n  <p>Answer.</p>\n  <a href=\"#top\">Top</a>\n  <h2 id=\"q3\">Question 3</h2>\n  <p>Answer.</p>\n  <a href=\"#top\">Top</a>\n  <h2 id=\"q4\">Question 4</h2>\n  <p>Answer.</p>\n  <a href=\"#top\">Top</a>\n  <h2 id=\"q5\">Question 5</h2>\n  <p>Answer.</p>\n  <a href=\"#top\">Top</a>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-7",
+        "title": "Social Media Links",
+        "difficulty": "Hard",
+        "question": "Create a personal landing page for 'Vikram Kumar' with navigation (Home, Blog, Contact), a heading, an intro paragraph, and a section with links to 5 social media profiles — each opening in a new tab with proper security. Also include an email and phone link.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A complete landing page with nav, intro, social media links (new tab + security), and contact info.",
+        "constraints": "All external links must have target blank with security. Include mailto and tel too.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Vikram Kumar</title>\n</head>\n<body>\n  <nav>\n    <a href=\"index.html\">Home</a> |\n    <a href=\"blog.html\">Blog</a> |\n    <a href=\"contact.html\">Contact</a>\n  </nav>\n\n  <h1>Hi, I am Vikram Kumar</h1>\n  <p>A 15-year-old coder from Pune who loves HTML, CSS, and JavaScript.</p>\n\n  <h2>Find me online</h2>\n  <ul>\n    <li><a href=\"https://github.com/vikram\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a></li>\n    <li><a href=\"https://twitter.com/vikram\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a></li>\n    <li><a href=\"https://linkedin.com/in/vikram\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a></li>\n    <li><a href=\"https://instagram.com/vikram\" target=\"_blank\" rel=\"noopener noreferrer\">Instagram</a></li>\n    <li><a href=\"https://youtube.com/@vikram\" target=\"_blank\" rel=\"noopener noreferrer\">YouTube</a></li>\n  </ul>\n\n  <h2>Direct Contact</h2>\n  <p>Email: <a href=\"mailto:vikram@example.com\">vikram@example.com</a></p>\n  <p>Phone: <a href=\"tel:+919876543210\">+91 98765 43210</a></p>\n</body>\n</html>",
+        "explanation": "A complete landing page for a personal brand. Internal navigation uses relative paths, external social media links use full URLs with target blank and security, and direct contact uses mailto and tel protocols.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Vikram</title>\n</head>\n<body>\n  <nav>\n    <a href=\"index.html\">Home</a>\n    <a href=\"blog.html\">Blog</a>\n    <a href=\"contact.html\">Contact</a>\n  </nav>\n  <h1>Vikram Kumar</h1>\n  <p>Young coder.</p>\n  <h2>Socials</h2>\n  <p><a href=\"https://github.com/vk\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a></p>\n  <p><a href=\"https://x.com/vk\" target=\"_blank\" rel=\"noopener noreferrer\">X</a></p>\n  <p><a href=\"https://linkedin.com/in/vk\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a></p>\n  <p><a href=\"https://instagram.com/vk\" target=\"_blank\" rel=\"noopener noreferrer\">Instagram</a></p>\n  <p><a href=\"https://dev.to/vk\" target=\"_blank\" rel=\"noopener noreferrer\">Dev.to</a></p>\n  <p>Email: <a href=\"mailto:vk@example.com\">vk@example.com</a></p>\n  <p>Call: <a href=\"tel:+911234567890\">+91 12345 67890</a></p>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-8",
+        "title": "Portfolio With Full Navigation",
+        "difficulty": "Hard",
+        "question": "Build a complete portfolio home page with: nav bar (5 links — Home, About, Projects, Blog, Contact), main heading, intro paragraph, a section with 3 project links (each going to projects/projectN.html), a 'Download CV' link, and a footer section with email, phone, and 3 social media links that open in new tabs with security.",
+        "expectedInput": "(No input required)",
+        "expectedOutput": "A complete portfolio home page with all navigation elements and multiple link types.",
+        "constraints": "Must use nav, relative paths, download attribute, mailto, tel, target blank + rel.",
+        "solution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Neha Patel - Portfolio</title>\n</head>\n<body>\n  <nav>\n    <a href=\"index.html\">Home</a> |\n    <a href=\"about.html\">About</a> |\n    <a href=\"projects.html\">Projects</a> |\n    <a href=\"blog.html\">Blog</a> |\n    <a href=\"contact.html\">Contact</a>\n  </nav>\n\n  <h1>Neha Patel - Student Developer</h1>\n  <p>Welcome to my portfolio. I am a 16-year-old from Mumbai passionate about web development and design.</p>\n\n  <h2>My Projects</h2>\n  <ul>\n    <li><a href=\"projects/project1.html\">Personal Blog</a></li>\n    <li><a href=\"projects/project2.html\">Recipe Collection</a></li>\n    <li><a href=\"projects/project3.html\">Photo Gallery</a></li>\n  </ul>\n\n  <p><a href=\"neha-cv.pdf\" download=\"Neha_Patel_CV.pdf\">Download My CV</a></p>\n\n  <hr>\n\n  <h2>Contact</h2>\n  <p>Email: <a href=\"mailto:neha@example.com\">neha@example.com</a></p>\n  <p>Phone: <a href=\"tel:+919876543210\">+91 98765 43210</a></p>\n\n  <h3>Follow Me</h3>\n  <p>\n    <a href=\"https://github.com/neha\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a> |\n    <a href=\"https://linkedin.com/in/neha\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a> |\n    <a href=\"https://twitter.com/neha\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>\n  </p>\n</body>\n</html>",
+        "explanation": "A complete portfolio page demonstrating every link concept from this chapter: nav, internal links, relative paths with folders, download attribute with custom filename, mailto, tel, and external links with security.",
+        "alternativeSolution": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Portfolio</title>\n</head>\n<body>\n  <nav>\n    <a href=\"index.html\">Home</a>\n    <a href=\"about.html\">About</a>\n    <a href=\"projects.html\">Projects</a>\n    <a href=\"blog.html\">Blog</a>\n    <a href=\"contact.html\">Contact</a>\n  </nav>\n  <h1>Portfolio</h1>\n  <p>Hi, I am a developer.</p>\n  <h2>Projects</h2>\n  <ol>\n    <li><a href=\"projects/p1.html\">Project 1</a></li>\n    <li><a href=\"projects/p2.html\">Project 2</a></li>\n    <li><a href=\"projects/p3.html\">Project 3</a></li>\n  </ol>\n  <p><a href=\"cv.pdf\" download>Download CV</a></p>\n  <hr>\n  <p>Email: <a href=\"mailto:me@example.com\">me@example.com</a></p>\n  <p>Phone: <a href=\"tel:+910000000000\">Call</a></p>\n  <p><a href=\"https://github.com\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a></p>\n  <p><a href=\"https://linkedin.com\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a></p>\n  <p><a href=\"https://twitter.com\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a></p>\n</body>\n</html>"
+      }
+    ]
+  }
+}

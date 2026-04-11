@@ -1,0 +1,908 @@
+{
+  "title": "Colors, Backgrounds, and Gradients",
+  "slug": "colors-backgrounds-and-gradients",
+  "language": "css",
+  "chapter": 11,
+  "difficulty": "Intermediate",
+  "readingTime": "40 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "CSS Colors, Backgrounds, and Gradients - hex, rgb, hsl, linear-gradient, radial-gradient | Modern Age Coders",
+    "description": "Master CSS colors and backgrounds. Learn hex, rgb, rgba, hsl, hsla, currentColor, background-image, background-size, background-position, linear-gradient, radial-gradient, conic-gradient, and multiple backgrounds. 58+ practice questions with complete runnable HTML examples.",
+    "keywords": "css colors, css hex colors, css rgb, css hsl, css background-image, css linear-gradient, css radial-gradient, css conic-gradient, background-size cover, multiple backgrounds css, css gradient tutorial, hero overlay css"
+  },
+  "content": {
+    "what": "<h2>What Are Colors, Backgrounds, and Gradients?</h2><p>Colors and backgrounds are what give a website its personality. A page with plain black text on white looks like a document. Add a gradient, a background image, and a carefully chosen color scheme, and suddenly it feels like a polished product.</p><p>In this chapter you will learn every way to specify a color in CSS (named, hex, rgb, hsl), every way to apply a background (solid, image, gradient), and how to combine them to create hero sections, buttons, cards, and overlays that look professional.</p><pre><code>/* All of these produce the same red color */\ncolor: red;\ncolor: #ff0000;\ncolor: #f00;\ncolor: rgb(255, 0, 0);\ncolor: rgba(255, 0, 0, 1);\ncolor: hsl(0, 100%, 50%);\ncolor: hsla(0, 100%, 50%, 1);</code></pre>",
+    "why": "<h2>Why Do Colors and Backgrounds Matter?</h2><h3>1. They Define Your Brand</h3><p>Instagram is gradient pink-orange-purple. Netflix is black and red. YouTube is white and red. A consistent color palette makes a site feel intentional. You will learn how to choose and apply colors using the formats professionals actually use.</p><h3>2. HSL Is Easier to Tweak Than Hex</h3><p>Want a slightly lighter blue? With hex you have to guess (#3b82f6 to... what?). With HSL, just change the lightness value: <code>hsl(217, 91%, 60%)</code> becomes <code>hsl(217, 91%, 70%)</code>. Designers love HSL for this reason.</p><h3>3. Gradients Are Everywhere in Modern Design</h3><p>Stripe, Linear, Vercel, Apple -- every modern landing page uses gradients. A gradient button, a gradient hero, a gradient text effect. You will learn linear, radial, and conic gradients, plus how to layer them over images for hero sections.</p><h3>4. Backgrounds Are How You Build Heroes</h3><p>The hero section of almost every website is a background image with a dark overlay and centered text. You will learn the exact CSS to build one: background-image, background-size, background-position, and a gradient overlay.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Named Colors</h3><p>CSS has about 140 named colors: <code>red</code>, <code>blue</code>, <code>green</code>, <code>tomato</code>, <code>rebeccapurple</code>, <code>cornflowerblue</code>, <code>mediumseagreen</code>, and more. Good for prototyping, but you will rarely use them in real projects because you need exact brand colors.</p><pre><code>h1 { color: rebeccapurple; }\np  { color: slategray; }\nbtn { background: tomato; }</code></pre><h3>2. Hex Colors</h3><p>Hex is the most common format. A <code>#</code> followed by 6 hexadecimal digits (0-9, a-f). The pattern is <code>#RRGGBB</code>: two digits for red, two for green, two for blue. Each pair goes from 00 (none) to ff (max = 255).</p><pre><code>#ff0000  /* pure red */\n#00ff00  /* pure green */\n#0000ff  /* pure blue */\n#ffffff  /* white */\n#000000  /* black */\n#a855f7  /* purple brand color */\n#f59e0b  /* amber */\n\n/* Shorthand: if each pair has the same digit, you can write 3 digits */\n#f00  /* same as #ff0000 */\n#fff  /* same as #ffffff */\n#09c  /* same as #0099cc */\n\n/* 8-digit hex includes alpha (transparency) */\n#ff0000ff  /* red, fully opaque */\n#ff000080  /* red, 50% transparent */</code></pre><h3>3. rgb() and rgba()</h3><p>RGB takes three numbers (0-255) for red, green, blue. RGBA adds a fourth number (0-1) for alpha (opacity).</p><pre><code>color: rgb(255, 0, 0);          /* red */\ncolor: rgb(168, 85, 247);       /* brand purple */\n\n/* With alpha (transparency) */\nbackground: rgba(0, 0, 0, 0.5); /* black at 50% opacity */\nbackground: rgba(168, 85, 247, 0.2); /* purple tint */\n\n/* Modern syntax (no commas, slash before alpha) */\ncolor: rgb(255 0 0);\ncolor: rgb(255 0 0 / 0.5);</code></pre><h3>4. hsl() and hsla() -- The Designer's Favorite</h3><p>HSL stands for <strong>Hue</strong> (0-360 on the color wheel), <strong>Saturation</strong> (0% gray to 100% vivid), <strong>Lightness</strong> (0% black, 50% normal, 100% white).</p><pre><code>color: hsl(0, 100%, 50%);    /* red -- hue 0 */\ncolor: hsl(120, 100%, 50%);  /* green -- hue 120 */\ncolor: hsl(240, 100%, 50%);  /* blue -- hue 240 */\ncolor: hsl(270, 90%, 65%);   /* brand purple */\n\n/* Tweaking is easy: same hue, different lightness */\ncolor: hsl(270, 90%, 40%);  /* darker purple */\ncolor: hsl(270, 90%, 75%);  /* lighter purple */\n\n/* With alpha */\nbackground: hsla(270, 90%, 65%, 0.3);</code></pre><p>HSL makes it trivial to build light/dark variants of the same color. Change lightness and you stay in the same color family.</p><h3>5. currentColor Keyword</h3><p><code>currentColor</code> is a special keyword that means 'whatever the current color property is'. It lets you reuse the text color for borders, SVG strokes, and more.</p><pre><code>.btn {\n  color: #a855f7;\n  border: 2px solid currentColor; /* border is also #a855f7 */\n}\n.btn:hover {\n  color: #06b6d4; /* border updates automatically too */\n}</code></pre><h3>6. background-color</h3><p>The simplest background. Takes any color value.</p><pre><code>body { background-color: #f3f4f6; }\n.card { background-color: hsl(270, 90%, 98%); }</code></pre><h3>7. background-image and background-size</h3><p>Use <code>background-image: url('...')</code> to add an image. Then control how it fits with <code>background-size</code>.</p><pre><code>.hero {\n  background-image: url('hero.jpg');\n  background-size: cover;     /* fills container, may crop */\n  background-size: contain;   /* fits inside, may leave space */\n  background-size: 200px;     /* exact size */\n  background-size: 100% 50%;  /* width height */\n}</code></pre><ul><li><strong>cover</strong>: scale to fill, crop what does not fit. Best for heroes.</li><li><strong>contain</strong>: scale to fit entirely, may leave empty space.</li><li><strong>Exact value</strong>: pixels or percentages.</li></ul><h3>8. background-position</h3><p>Controls where the image is placed inside the container.</p><pre><code>background-position: center center; /* default for heroes */\nbackground-position: top right;\nbackground-position: 50% 50%;\nbackground-position: 20px 40px;</code></pre><h3>9. background-repeat</h3><p>By default, backgrounds tile (repeat) if smaller than the container. Usually you want <code>no-repeat</code>.</p><pre><code>background-repeat: no-repeat;\nbackground-repeat: repeat-x;   /* horizontal tile */\nbackground-repeat: repeat-y;   /* vertical tile */\nbackground-repeat: round;      /* stretch to fit without clipping */</code></pre><h3>10. background-attachment (Parallax)</h3><p><code>background-attachment: fixed</code> makes the background stay still while the page scrolls -- a simple parallax effect.</p><pre><code>.parallax {\n  background-image: url('mountains.jpg');\n  background-size: cover;\n  background-attachment: fixed;\n}</code></pre><h3>11. Shorthand background Property</h3><p>You can combine all background properties in one line.</p><pre><code>background: #f3f4f6 url('hero.jpg') no-repeat center center / cover;\n/* color | image | repeat | position / size */</code></pre><h3>12. linear-gradient</h3><p>A linear gradient transitions between two or more colors along a straight line. No image file needed.</p><pre><code>background: linear-gradient(to right, #a855f7, #06b6d4);\nbackground: linear-gradient(to bottom, red, yellow);\nbackground: linear-gradient(45deg, #a855f7, #ec4899);\nbackground: linear-gradient(135deg, #667eea, #764ba2);\n\n/* Multiple color stops */\nbackground: linear-gradient(to right, red, yellow, green, blue, purple);\n\n/* Stops at specific positions */\nbackground: linear-gradient(to right, #a855f7 0%, #a855f7 50%, #06b6d4 50%, #06b6d4 100%);</code></pre><p>Direction keywords: <code>to top</code>, <code>to right</code>, <code>to bottom</code>, <code>to left</code>, <code>to top right</code>, etc. Or use any angle: <code>0deg</code> is to top, <code>90deg</code> is to right, <code>180deg</code> is to bottom, <code>45deg</code> is top-right diagonal.</p><h3>13. radial-gradient</h3><p>A radial gradient starts from a point and spreads outward in circles or ellipses.</p><pre><code>background: radial-gradient(circle, #a855f7, #1a1a2e);\nbackground: radial-gradient(ellipse at top, #fef3c7, #f59e0b);\nbackground: radial-gradient(circle at 30% 70%, white, transparent 60%);</code></pre><h3>14. conic-gradient</h3><p>A conic gradient rotates colors around a center point (like a pie chart or color wheel).</p><pre><code>background: conic-gradient(red, yellow, green, cyan, blue, magenta, red);\nbackground: conic-gradient(from 90deg, #a855f7, #06b6d4, #a855f7);</code></pre><h3>15. Multiple Backgrounds</h3><p>You can stack multiple backgrounds by separating them with commas. The first one listed is on top.</p><pre><code>background:\n  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  /* dark overlay on top */\n  url('hero.jpg') no-repeat center / cover;           /* image underneath */</code></pre><p>This is the exact technique for creating a hero section with dark overlay.</p>",
+    "codeExamples": [
+      {
+        "title": "Color Format Showcase",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; background: #f9fafb; }\n    h1 { color: rebeccapurple; }\n    .swatch {\n      display: inline-block;\n      width: 160px;\n      padding: 20px;\n      margin: 6px;\n      color: white;\n      font-family: monospace;\n      border-radius: 10px;\n      text-align: center;\n      font-size: 13px;\n    }\n    .named   { background: tomato; }\n    .hex6    { background: #a855f7; }\n    .hex3    { background: #0bf; }\n    .rgb     { background: rgb(6, 182, 212); }\n    .rgba    { background: rgba(245, 158, 11, 0.7); color: #1a1a2e; }\n    .hsl     { background: hsl(330, 90%, 60%); }\n    .hsla    { background: hsla(270, 90%, 40%, 0.85); }\n    .currentc {\n      color: #0369a1;\n      background: white;\n      border: 4px solid currentColor;\n    }\n  </style>\n</head>\n<body>\n  <h1>Every Way to Write a Color</h1>\n  <p>By Aarav, exploring CSS color formats:</p>\n  <div class=\"swatch named\">named: tomato</div>\n  <div class=\"swatch hex6\">hex: #a855f7</div>\n  <div class=\"swatch hex3\">short hex: #0bf</div>\n  <div class=\"swatch rgb\">rgb(6,182,212)</div>\n  <div class=\"swatch rgba\">rgba(245,158,11,0.7)</div>\n  <div class=\"swatch hsl\">hsl(330,90%,60%)</div>\n  <div class=\"swatch hsla\">hsla(270,90%,40%,0.85)</div>\n  <div class=\"swatch currentc\">currentColor border</div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A visual showcase of eight color formats. Notice that <code>currentColor</code> lets the border reuse whatever <code>color</code> is set -- change the text color and the border changes with it.",
+        "output": "A grid of colored rectangles, each labeled with the color format used to create it."
+      },
+      {
+        "title": "Hero Section with Gradient Overlay",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    * { margin: 0; padding: 0; box-sizing: border-box; }\n    body { font-family: Arial, sans-serif; }\n    .hero {\n      height: 100vh;\n      background:\n        linear-gradient(135deg, rgba(168, 85, 247, 0.75), rgba(6, 182, 212, 0.55)),\n        url('https://picsum.photos/1600/900?random=3') no-repeat center / cover;\n      color: white;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      text-align: center;\n      padding: 40px;\n    }\n    .hero h1 { font-size: 56px; margin-bottom: 16px; text-shadow: 0 2px 20px rgba(0,0,0,0.4); }\n    .hero p { font-size: 20px; opacity: 0.95; max-width: 600px; margin-bottom: 30px; }\n    .cta {\n      padding: 14px 36px;\n      background: white;\n      color: #a855f7;\n      border: none;\n      border-radius: 50px;\n      font-size: 16px;\n      font-weight: bold;\n      cursor: pointer;\n    }\n    .cta:hover { background: #f3f4f6; }\n  </style>\n</head>\n<body>\n  <section class=\"hero\">\n    <h1>Welcome, Priya</h1>\n    <p>Start your coding journey today. Build beautiful websites with HTML and CSS.</p>\n    <button class=\"cta\">Get Started</button>\n  </section>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The classic hero pattern. Two backgrounds stacked: a purple-to-cyan gradient on top (at partial opacity) and a background image underneath. The gradient provides contrast so the white text is always readable no matter the image.",
+        "output": "A full-screen hero with a purple-cyan gradient over a background image, centered heading, tagline, and a white call-to-action button."
+      },
+      {
+        "title": "Rainbow Gradient Button",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 40px; background: #0f172a; text-align: center; }\n    h1 { color: white; }\n    .rainbow-btn {\n      padding: 16px 48px;\n      font-size: 20px;\n      font-weight: bold;\n      color: white;\n      border: none;\n      border-radius: 50px;\n      background: linear-gradient(90deg, #ff0080, #ff8c00, #ffd700, #00ff00, #00bfff, #8a2be2, #ff0080);\n      background-size: 300% 100%;\n      cursor: pointer;\n      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);\n      transition: background-position 0.6s, transform 0.2s;\n    }\n    .rainbow-btn:hover {\n      background-position: 100% 0;\n      transform: translateY(-3px);\n    }\n    .rainbow-btn:active { transform: translateY(0); }\n  </style>\n</head>\n<body>\n  <h1>Rainbow Button by Kavya</h1>\n  <button class=\"rainbow-btn\">Click Me</button>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A linear gradient with 7 color stops makes a rainbow. <code>background-size: 300% 100%</code> makes the gradient wider than the button. On hover, <code>background-position</code> slides the gradient to reveal a different part, creating an animated rainbow shift.",
+        "output": "A rainbow-colored pill button. On hover, the colors slide across and the button lifts up slightly."
+      },
+      {
+        "title": "Radial Glow Card",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; background: #0f0f1a; padding: 40px; display: flex; justify-content: center; }\n    .glow-card {\n      width: 320px;\n      padding: 40px 30px;\n      border-radius: 16px;\n      background:\n        radial-gradient(circle at 30% 20%, rgba(168, 85, 247, 0.6), transparent 60%),\n        radial-gradient(circle at 80% 80%, rgba(6, 182, 212, 0.5), transparent 55%),\n        #1a1a2e;\n      color: white;\n      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);\n      text-align: center;\n    }\n    .glow-card h2 { margin: 0 0 12px; font-size: 24px; }\n    .glow-card p { margin: 0; opacity: 0.85; line-height: 1.6; }\n    .badge {\n      display: inline-block;\n      padding: 4px 12px;\n      border-radius: 999px;\n      background: rgba(168, 85, 247, 0.25);\n      color: #d8b4fe;\n      font-size: 12px;\n      margin-bottom: 16px;\n    }\n  </style>\n</head>\n<body>\n  <div class=\"glow-card\">\n    <div class=\"badge\">NEW</div>\n    <h2>Dashboard Pro</h2>\n    <p>Student of the month: Ishaan Sharma. He completed 12 projects this term.</p>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Two radial gradients are stacked to create glowing spots in different corners. Each fades to <code>transparent</code> so they blend with the base dark color underneath. This is a popular technique for modern SaaS cards.",
+        "output": "A dark rounded card with a purple glow in the top-left and a cyan glow in the bottom-right, with white text in the center."
+      },
+      {
+        "title": "Conic Gradient Pie Chart",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 40px; text-align: center; background: #f9fafb; }\n    h1 { color: #1a1a2e; }\n    .pie {\n      width: 240px;\n      height: 240px;\n      border-radius: 50%;\n      margin: 20px auto;\n      background: conic-gradient(\n        #a855f7 0% 40%,\n        #06b6d4 40% 65%,\n        #f59e0b 65% 85%,\n        #ec4899 85% 100%\n      );\n      box-shadow: 0 10px 30px rgba(0,0,0,0.15);\n    }\n    .legend { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; font-size: 14px; }\n    .legend div { display: flex; align-items: center; gap: 6px; }\n    .dot { width: 14px; height: 14px; border-radius: 50%; }\n  </style>\n</head>\n<body>\n  <h1>Time Spent This Week</h1>\n  <div class=\"pie\"></div>\n  <div class=\"legend\">\n    <div><span class=\"dot\" style=\"background:#a855f7\"></span>Coding 40%</div>\n    <div><span class=\"dot\" style=\"background:#06b6d4\"></span>Maths 25%</div>\n    <div><span class=\"dot\" style=\"background:#f59e0b\"></span>Reading 20%</div>\n    <div><span class=\"dot\" style=\"background:#ec4899\"></span>Play 15%</div>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "A conic gradient with hard color stops (e.g. <code>#a855f7 0% 40%</code>) creates pie chart slices. Each color transition is sharp because start and end percentages are different values. <code>border-radius: 50%</code> turns the square div into a circle.",
+        "output": "A four-color pie chart showing weekly activity distribution with a legend below."
+      },
+      {
+        "title": "Fixed Parallax Background",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    * { margin: 0; padding: 0; box-sizing: border-box; }\n    body { font-family: Arial, sans-serif; line-height: 1.6; }\n    section { padding: 80px 20px; text-align: center; }\n    .panel-1 { background: #f3f4f6; }\n    .parallax {\n      min-height: 500px;\n      background:\n        linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.55)),\n        url('https://picsum.photos/1600/900?random=7') no-repeat center / cover;\n      background-attachment: fixed;\n      color: white;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n    }\n    .parallax h2 { font-size: 48px; text-shadow: 0 2px 10px rgba(0,0,0,0.5); }\n    .panel-2 { background: #1a1a2e; color: white; }\n  </style>\n</head>\n<body>\n  <section class=\"panel-1\">\n    <h2>Scroll down to see parallax</h2>\n    <p>Created by Riya Patel as a demo.</p>\n  </section>\n  <section class=\"parallax\">\n    <h2>I stay in place</h2>\n  </section>\n  <section class=\"panel-2\">\n    <h2>Keep scrolling</h2>\n    <p>The middle section has a fixed background while you scroll past it.</p>\n  </section>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "<code>background-attachment: fixed</code> pins the background image to the viewport instead of scrolling with the element. As you scroll past the parallax section, the image stays put and the content slides over it. The dark overlay keeps text readable.",
+        "output": "Three sections stacked vertically. Scrolling shows the middle section's background image staying still while the rest of the page scrolls normally."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting no-repeat on Background Images",
+        "wrongCode": ".hero {\n  background-image: url('hero.jpg');\n  background-size: 300px;\n}",
+        "error": "The image tiles and repeats across the section, creating an ugly grid pattern.",
+        "correctCode": ".hero {\n  background-image: url('hero.jpg');\n  background-size: 300px;\n  background-repeat: no-repeat;\n}",
+        "explanation": "By default, backgrounds repeat in both directions. For nearly every real-world hero or banner you want <code>background-repeat: no-repeat</code>. Only use repeat for genuinely tileable textures."
+      },
+      {
+        "title": "Wrong Order in Multiple Backgrounds",
+        "wrongCode": "background:\n  url('hero.jpg') no-repeat center / cover,\n  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));",
+        "error": "The image covers the gradient completely. You see the image but no overlay.",
+        "correctCode": "background:\n  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),\n  url('hero.jpg') no-repeat center / cover;",
+        "explanation": "In multiple backgrounds, the <strong>first one listed is on top</strong>. Put the overlay first, then the image. The image is the bottom layer."
+      },
+      {
+        "title": "Using rgb() without Alpha for Transparency",
+        "wrongCode": ".overlay {\n  background: rgb(0, 0, 0);\n  opacity: 0.5; /* this fades the whole element including children */\n}",
+        "error": "opacity fades everything inside the element (text, images, children), not just the background.",
+        "correctCode": ".overlay {\n  background: rgba(0, 0, 0, 0.5); /* only the background is semi-transparent */\n}",
+        "explanation": "Use <code>rgba</code> or <code>hsla</code> to make only the background translucent. The <code>opacity</code> property affects the entire element and its children -- rarely what you want for an overlay."
+      },
+      {
+        "title": "Hex Shorthand Only Works with Matching Pairs",
+        "wrongCode": "color: #a85; /* tried to shorten #a855f7 */",
+        "error": "#a85 is not #a855f7 -- it is equivalent to #aa8855 (each digit is doubled).",
+        "correctCode": "color: #a855f7; /* use full 6-digit hex */\n/* 3-digit shorthand ONLY works when both digits in each pair match: #f00, #39c, #fff */",
+        "explanation": "3-digit hex expands each digit into a pair: <code>#09c</code> means <code>#0099cc</code>. You cannot shorten a color unless every pair already has the same digit."
+      }
+    ],
+    "summary": [
+      "Colors can be written as named (red), hex (#ff0000 or #f00), rgb/rgba, or hsl/hsla. Use hex for brand colors and HSL when you need to tweak lightness or build variants.",
+      "rgba() and hsla() include an alpha channel (0 to 1) for transparency. Use them for overlays and tints instead of the opacity property, which fades the entire element.",
+      "currentColor means 'whatever the current color property is'. Use it for borders and SVGs that should match the text color automatically.",
+      "background-color sets a solid color. background-image: url(...) loads an image. background-size controls fitting: cover (fill, may crop), contain (fit fully, may leave space), or exact values.",
+      "background-position places the image (center center, top right, percentages, or pixel values). background-repeat: no-repeat stops images from tiling.",
+      "background-attachment: fixed creates a simple parallax effect -- the background stays in place as the page scrolls.",
+      "The shorthand background property combines color, image, repeat, position / size in one line: background: #fff url('x.jpg') no-repeat center / cover;",
+      "linear-gradient(direction, color1, color2, ...) creates a straight gradient. Direction can be a keyword (to right, to bottom right) or an angle (45deg, 135deg).",
+      "radial-gradient creates a gradient from a center point outward. conic-gradient rotates colors around a point -- perfect for pie charts and color wheels.",
+      "Multiple backgrounds are comma-separated. The first one listed sits on top. To make a hero section, stack a gradient overlay on top of a background image."
+    ]
+  },
+  "relatedTopics": ["introduction-to-css", "typography-and-fonts", "the-box-model"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What color is produced by <code>#f00</code>?",
+        "hint": "3-digit hex shorthand doubles each digit.",
+        "answer": "Pure red. <code>#f00</code> expands to <code>#ff0000</code>.",
+        "explanation": "3-digit shorthand: each digit is doubled. f becomes ff, 0 becomes 00. So #f00 is #ff0000 which is pure red."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which color is this?<br><pre><code>color: rgb(0, 255, 0);</code></pre>",
+        "hint": "RGB order is red, green, blue.",
+        "answer": "Pure green.",
+        "explanation": "Red is 0, green is max (255), blue is 0. This is pure green, equivalent to #00ff00 or the named color 'lime'."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does the alpha value in <code>rgba(0, 0, 0, 0.5)</code> mean?",
+        "hint": "Alpha controls transparency.",
+        "answer": "The color is 50% opaque (semi-transparent).",
+        "explanation": "Alpha ranges from 0 (fully transparent) to 1 (fully opaque). 0.5 is halfway -- 50% transparent black."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "In <code>hsl(270, 90%, 65%)</code>, what does 270 represent?",
+        "hint": "HSL stands for Hue, Saturation, Lightness.",
+        "answer": "The hue -- a position on the color wheel (0-360). 270 is purple.",
+        "explanation": "Hue goes from 0 (red) to 120 (green) to 240 (blue) back to 360 (red). 270 sits between blue (240) and red (360), giving purple."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>background-size: cover</code> do?",
+        "hint": "Think about how the image fills the container.",
+        "answer": "Scales the image to fully fill the container, cropping parts that do not fit.",
+        "explanation": "cover preserves aspect ratio and fills the entire container. Anything that does not fit is cropped. Contrast with 'contain' which fits the entire image but may leave empty space."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the default value of <code>background-repeat</code>?",
+        "hint": "Without setting it, images tile by default.",
+        "answer": "<code>repeat</code> -- the image tiles in both directions.",
+        "explanation": "By default CSS repeats backgrounds. You almost always want <code>no-repeat</code> for hero images and banners."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How do you create a linear gradient from purple to cyan going left to right?",
+        "hint": "Use the direction keyword 'to right'.",
+        "answer": "<code>background: linear-gradient(to right, #a855f7, #06b6d4);</code>",
+        "explanation": "'to right' means the gradient starts on the left and ends on the right. Colors are listed in order from start to end."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does the 45deg angle mean in <code>linear-gradient(45deg, red, blue)</code>?",
+        "hint": "0deg points up, angles go clockwise.",
+        "answer": "The gradient goes from bottom-left to top-right at a 45-degree angle.",
+        "explanation": "In CSS gradients, 0deg points up (to top), 90deg points right, 180deg points down, 270deg points left. 45deg is halfway between up and right -- top-right diagonal."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Does <code>border: 2px solid currentColor</code> work?",
+        "hint": "currentColor refers to the color property.",
+        "answer": "Yes. The border uses whatever value <code>color</code> is set to.",
+        "explanation": "currentColor is a keyword that evaluates to the current value of the color property. It is useful for borders, SVG strokes, and outlines that should match the text color."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between <code>contain</code> and <code>cover</code> for background-size?",
+        "hint": "One crops, one leaves space.",
+        "answer": "<code>cover</code> scales the image to fill the entire container, cropping anything that does not fit. <code>contain</code> scales the image so the entire image fits inside the container, which may leave empty space.",
+        "explanation": "Use cover for hero sections (you want the image to fill everything). Use contain when the full image must be visible, like a logo in a header."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What color does <code>hsl(0, 0%, 50%)</code> produce?",
+        "hint": "Saturation is 0%.",
+        "answer": "Medium gray.",
+        "explanation": "When saturation is 0%, the color is grayscale regardless of the hue. Lightness of 50% gives medium gray (#808080)."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the result?<br><pre><code>.box {\n  background: linear-gradient(to right, #a855f7 0%, #a855f7 50%, #06b6d4 50%, #06b6d4 100%);\n}</code></pre>",
+        "hint": "Both stops at 50% create a hard edge.",
+        "answer": "A hard-edge two-color split: purple on the left half, cyan on the right half, with no blend.",
+        "explanation": "When two stops share the same position (both at 50%), there is no transition between them -- creating a sharp line instead of a smooth gradient."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the full expansion of <code>#09c</code>?",
+        "hint": "Each digit doubles.",
+        "answer": "<code>#0099cc</code>",
+        "explanation": "3-digit hex doubles each character: 0 becomes 00, 9 becomes 99, c becomes cc. So #09c = #0099cc."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this shorthand do?<br><pre><code>background: #f3f4f6 url('bg.jpg') no-repeat center / cover;</code></pre>",
+        "hint": "The shorthand order is color image repeat position / size.",
+        "answer": "Sets background color to #f3f4f6, loads bg.jpg as the image, prevents repeating, centers it, and sizes it with cover.",
+        "explanation": "The / separates position and size in the shorthand. Everything before / is position (center), everything after is size (cover)."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the result?<br><pre><code>.hero {\n  background:\n    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),\n    url('photo.jpg') no-repeat center / cover;\n}</code></pre>",
+        "hint": "Multiple backgrounds stack. First is on top.",
+        "answer": "The photo is displayed as a centered covered background with a 60% opaque black overlay on top, darkening it for text readability.",
+        "explanation": "This is the hero overlay pattern. The dark gradient sits on top of the image, making any text placed over it white-readable."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What shape does <code>radial-gradient(circle, red, blue)</code> create?",
+        "hint": "radial-gradient starts from a center point.",
+        "answer": "A red center fading outward to blue edges in a circular pattern.",
+        "explanation": "The 'circle' shape keyword forces a circular gradient (otherwise ellipses stretch with the container). Red is at the center, blue at the far edge."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>background-attachment: fixed</code> do?",
+        "hint": "It changes how the image moves during scrolling.",
+        "answer": "The background image stays fixed relative to the viewport and does not scroll with the page, creating a parallax effect.",
+        "explanation": "Normally backgrounds scroll with their element. Fixed pins them to the viewport so the content scrolls over a stationary background."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged as the computed background-color?<br><pre><code>&lt;style&gt;.x { background: hsl(120, 100%, 50%); }&lt;/style&gt;\n&lt;div class=\"x\"&gt;Hi&lt;/div&gt;</code></pre>",
+        "hint": "Computed values are returned in rgb format.",
+        "answer": "<code>rgb(0, 255, 0)</code>",
+        "explanation": "Even though the source was HSL, browsers resolve it to rgb in computed styles. hsl(120, 100%, 50%) is pure green = rgb(0, 255, 0)."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How would you write red at 30% opacity using HSLA?",
+        "hint": "Red is hue 0, full saturation, 50% lightness.",
+        "answer": "<code>hsla(0, 100%, 50%, 0.3)</code>",
+        "explanation": "Hue 0 = red. Saturation 100% = fully saturated. Lightness 50% = normal brightness. Alpha 0.3 = 30% opaque."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>opacity: 0.5</code> and <code>background: rgba(0,0,0,0.5)</code>?",
+        "hint": "Think about what gets faded.",
+        "answer": "<code>opacity: 0.5</code> fades the entire element including all text and children. <code>rgba</code> only makes the background semi-transparent while keeping text fully opaque.",
+        "explanation": "Always use rgba/hsla for overlays where you want readable text on top. Use opacity only when you want the whole element to fade."
+      },
+      {
+        "id": "ts-21",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the effect?<br><pre><code>.stripes {\n  background: repeating-linear-gradient(45deg, #a855f7 0 20px, #06b6d4 20px 40px);\n}</code></pre>",
+        "hint": "repeating-linear-gradient loops the pattern.",
+        "answer": "Diagonal purple and cyan stripes at 45 degrees, each 20px wide, repeating across the box.",
+        "explanation": "repeating-linear-gradient repeats the given color stops across the element, creating stripe patterns. Each stop's range (0 to 20px, 20px to 40px) defines the stripe width."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What happens?<br><pre><code>.box {\n  color: #06b6d4;\n  border: 3px solid currentColor;\n}\n.box:hover { color: #f59e0b; }</code></pre>",
+        "hint": "currentColor follows the color property.",
+        "answer": "Initially the text and border are cyan. On hover, both change to amber because currentColor follows the color property.",
+        "explanation": "Because border uses currentColor, changing color on hover also updates the border. This avoids writing two rules for color and border-color."
+      },
+      {
+        "id": "ts-23",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this create?<br><pre><code>background: conic-gradient(from 45deg, red, yellow, green, cyan, blue, magenta, red);</code></pre>",
+        "hint": "conic-gradient rotates colors around the center. 'from' sets the start angle.",
+        "answer": "A rainbow color wheel starting at 45 degrees (top-right) and rotating around the center.",
+        "explanation": "conic-gradient is perfect for color wheels and pie charts. The 'from' keyword rotates where the gradient starts. Ending with the same color (red) as it started creates a smooth full rotation."
+      },
+      {
+        "id": "ts-24",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the difference between <code>background-size: contain</code> and <code>background-size: 100% 100%</code>?",
+        "hint": "One preserves aspect ratio, one does not.",
+        "answer": "<code>contain</code> preserves the image's aspect ratio while fitting inside the container (may leave empty space). <code>100% 100%</code> stretches the image to exactly fill the container, possibly distorting it.",
+        "explanation": "Use contain when you need the full image visible. Use 100% 100% only if distortion does not matter. Use cover when you want to fill without distortion but can accept cropping."
+      },
+      {
+        "id": "ts-25",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why do designers often prefer HSL over hex for building color palettes?",
+        "hint": "Think about making a lighter or darker shade of the same color.",
+        "answer": "HSL lets you tweak a color easily: change lightness for variants (darker/lighter), change saturation for muted versions, keep the same hue for family consistency. With hex, you have to guess new values or use a color picker. HSL is more intuitive for building design systems.",
+        "explanation": "Example: primary hsl(270, 90%, 65%), hover hsl(270, 90%, 55%) (darker), disabled hsl(270, 30%, 65%) (desaturated). All three share the same hue family and are trivially derived."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What color is <code>#000000</code>?",
+        "hint": "All channels are 0.",
+        "answer": "Pure black.",
+        "explanation": "All RGB channels are 0, which means no light of any color. That is black."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What color is <code>#ffffff</code>?",
+        "hint": "All channels are max.",
+        "answer": "Pure white.",
+        "explanation": "All RGB channels are ff (255), which means full intensity of red, green, and blue combined = white."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which format lets you set transparency: rgb or rgba?",
+        "hint": "The extra letter stands for alpha.",
+        "answer": "rgba. The 'a' is alpha (opacity).",
+        "explanation": "rgba(red, green, blue, alpha) adds a fourth value for opacity from 0 (transparent) to 1 (opaque)."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>background-position: top right</code> do?",
+        "hint": "Two values: vertical then horizontal? Or horizontal then vertical?",
+        "answer": "Places the background image at the top-right corner of the container.",
+        "explanation": "background-position accepts vertical and horizontal keywords in either order for named values: 'top right' and 'right top' mean the same thing."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the shorthand for <code>background-image: url(pic.jpg); background-repeat: no-repeat;</code>?",
+        "hint": "Use the background shorthand.",
+        "answer": "<code>background: url(pic.jpg) no-repeat;</code>",
+        "explanation": "The background shorthand accepts image and repeat values (and more) in a single declaration."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What gradient direction does <code>180deg</code> point?",
+        "hint": "0deg is to top.",
+        "answer": "Downward (to bottom).",
+        "explanation": "In CSS gradients: 0deg = to top, 90deg = to right, 180deg = to bottom, 270deg = to left. 180deg rotates half a circle from up to down."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How do you make a gradient overlay over an image in one background declaration?",
+        "hint": "Multiple backgrounds are comma-separated. Overlay goes first.",
+        "answer": "<code>background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img.jpg') center/cover no-repeat;</code>",
+        "explanation": "The gradient is listed first so it sits on top. The image is second and acts as the bottom layer. Use rgba in the gradient for the darkening effect."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>background-size: 200px 100px</code> do?",
+        "hint": "Two values = width and height.",
+        "answer": "Sets the background image to exactly 200px wide and 100px tall.",
+        "explanation": "When two values are given, the first is width and the second is height. This ignores aspect ratio and may distort the image."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the computed color for <code>hsl(210, 100%, 50%)</code>?",
+        "hint": "Hue 210 is between green (120) and blue (240).",
+        "answer": "A bright blue with a slight cyan tint -- roughly rgb(0, 128, 255).",
+        "explanation": "Hue 210 is closer to blue (240) than to cyan (180), giving a bright azure blue. At full saturation and 50% lightness, you get the pure version of that hue."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this rule do?<br><pre><code>.hero { background-position: 50% 80%; }</code></pre>",
+        "hint": "Percentages in background-position are relative to the container minus image.",
+        "answer": "Centers the image horizontally and positions it 80% from the top (low down).",
+        "explanation": "50% horizontally = center. 80% vertically means the point 80% down the image aligns with 80% down the container. This is useful for keeping faces visible in portrait photos."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this gradient look like?<br><pre><code>background: linear-gradient(to bottom right, #a855f7, #ec4899, #f59e0b);</code></pre>",
+        "hint": "Three colors and a diagonal direction.",
+        "answer": "A diagonal gradient from top-left to bottom-right with purple at the top-left, pink in the middle, and amber at the bottom-right.",
+        "explanation": "With three colors, they are spaced evenly (0%, 50%, 100%) by default. 'to bottom right' goes from the top-left corner to the bottom-right corner."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When would you choose <code>background-size: contain</code> over <code>cover</code>?",
+        "hint": "Think about which images must be shown in full.",
+        "answer": "Use contain when the whole image must always be visible (logos, product photos, illustrations). Use cover when the image is decorative and can be cropped (hero backgrounds, banner photos).",
+        "explanation": "Cover fills the container by cropping the image edges. Contain fits the entire image with no cropping but may leave empty strips of container showing."
+      },
+      {
+        "id": "mx-13",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is HSL easier to tweak than hex?",
+        "hint": "Imagine making 'slightly lighter blue'.",
+        "answer": "In HSL, you just change the lightness value (e.g. 50% to 60%) to get a lighter version. In hex, you have to guess a new combination of digits, which is not intuitive.",
+        "explanation": "HSL maps to human perception (hue/saturation/lightness) while hex is just arbitrary RGB values in hex notation. Designers adjust lightness constantly."
+      },
+      {
+        "id": "mx-14",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why would you use <code>currentColor</code> for a button border?",
+        "hint": "What happens on hover when text color changes?",
+        "answer": "The border automatically matches the text color, even when you change color on hover. One property (color) controls both text and border, reducing duplicate code.",
+        "explanation": "Without currentColor you would need to set both color and border-color on hover. With currentColor, the border follows color automatically."
+      },
+      {
+        "id": "mx-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this shorthand set?<br><pre><code>background: #0f172a url('stars.png') repeat fixed top left;</code></pre>",
+        "hint": "Parse each piece: color, image, repeat, attachment, position.",
+        "answer": "Dark navy background color, stars.png image that tiles in both directions, stays fixed as the page scrolls, positioned starting at the top-left.",
+        "explanation": "The shorthand accepts color, image, repeat, attachment, and position all at once. Perfect for a starfield background that does not move when scrolling."
+      },
+      {
+        "id": "mx-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the difference between these two gradients?<br><pre><code>a: linear-gradient(to right, red, blue);\nb: linear-gradient(90deg, red, blue);</code></pre>",
+        "hint": "to right = ?deg.",
+        "answer": "They are identical. 'to right' and '90deg' both mean the gradient runs from left to right.",
+        "explanation": "In CSS gradients: to top = 0deg, to right = 90deg, to bottom = 180deg, to left = 270deg. Both syntaxes are valid."
+      },
+      {
+        "id": "mx-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does <code>radial-gradient(circle at 20% 30%, white, black)</code> do?",
+        "hint": "at sets the center point.",
+        "answer": "Creates a circular radial gradient centered at 20% from the left and 30% from the top, with white at the center fading to black at the edges.",
+        "explanation": "The 'at' keyword positions the gradient center. By default, radial gradients are centered, but 'at' lets you place the origin anywhere."
+      },
+      {
+        "id": "mx-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What color is <code>hsl(0, 50%, 90%)</code>?",
+        "hint": "High lightness means pale.",
+        "answer": "A very pale pink (desaturated light red).",
+        "explanation": "Hue 0 is red. 50% saturation makes it muted. 90% lightness makes it very light. Together: a soft, pale pink like a rose petal."
+      },
+      {
+        "id": "mx-19",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why put the overlay gradient FIRST in a multiple background declaration?",
+        "hint": "Layer order.",
+        "answer": "In CSS multiple backgrounds, the first one listed is painted on top of the others. To darken an image with an overlay, the overlay must be above the image in the stack, so it comes first in the declaration.",
+        "explanation": "This is counter-intuitive because normally 'first' means 'bottom'. In backgrounds, first means 'top layer'. Put your overlays first and the base image last."
+      },
+      {
+        "id": "mx-20",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "How would you create a glassmorphism effect using background colors?",
+        "hint": "Use rgba + backdrop-filter blur.",
+        "answer": "Use a semi-transparent white or dark background like <code>background: rgba(255,255,255,0.1);</code> combined with <code>backdrop-filter: blur(10px);</code> and a subtle border like <code>border: 1px solid rgba(255,255,255,0.2);</code>.",
+        "explanation": "Glassmorphism relies on semi-transparent backgrounds and backdrop blur to create a frosted glass look. The content behind shows through but is blurred."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which is the correct hex shorthand for red?",
+        "options": {
+          "A": "#red",
+          "B": "#f00",
+          "C": "#r00",
+          "D": "#fff000"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> #f00 is the 3-digit shorthand for #ff0000 (pure red). Each digit is doubled."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the alpha value in rgba()?",
+        "options": {
+          "A": "Transparency (0 to 1)",
+          "B": "Brightness",
+          "C": "Saturation",
+          "D": "Hue"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Alpha controls opacity: 0 is fully transparent, 1 is fully opaque."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does HSL stand for?",
+        "options": {
+          "A": "Hex, Shade, Light",
+          "B": "Hue, Shine, Layer",
+          "C": "Hue, Saturation, Lightness",
+          "D": "High, Soft, Low"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> HSL = Hue (color wheel position 0-360), Saturation (0-100%), Lightness (0-100%)."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which background-size value fills the container, cropping if needed?",
+        "options": {
+          "A": "fit",
+          "B": "contain",
+          "C": "cover",
+          "D": "fill"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> cover fills the container and preserves aspect ratio, cropping whatever does not fit."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is the default background-repeat value?",
+        "options": {
+          "A": "no-repeat",
+          "B": "repeat",
+          "C": "repeat-x",
+          "D": "round"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> By default CSS tiles backgrounds in both directions. Use no-repeat to stop this."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which creates a linear gradient from left to right?",
+        "options": {
+          "A": "linear-gradient(up, red, blue)",
+          "B": "linear-gradient(to right, red, blue)",
+          "C": "gradient(left-right, red, blue)",
+          "D": "linear(red to blue)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> 'to right' means starting from the left, ending on the right. Same as 90deg."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "How do you stop a background image from tiling?",
+        "options": {
+          "A": "background-tile: off",
+          "B": "background-repeat: none",
+          "C": "background-repeat: no-repeat",
+          "D": "background: single"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> background-repeat: no-repeat disables tiling. 'none' is not a valid value."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Easy",
+        "question": "Which function creates a circular gradient from the center outward?",
+        "options": {
+          "A": "linear-gradient()",
+          "B": "radial-gradient()",
+          "C": "conic-gradient()",
+          "D": "circle-gradient()"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> radial-gradient creates a gradient that starts from a point and spreads outward."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Easy",
+        "question": "Which color format supports transparency?",
+        "options": {
+          "A": "Named colors",
+          "B": "3-digit hex (#f00)",
+          "C": "rgba() and hsla()",
+          "D": "rgb() only"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> rgba and hsla have a 4th alpha value. Modern browsers also accept 8-digit hex and rgb() with a slash for alpha."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Easy",
+        "question": "What does <code>currentColor</code> refer to?",
+        "options": {
+          "A": "The last color used on the page",
+          "B": "The value of the color property",
+          "C": "The browser default color",
+          "D": "A random color"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> currentColor always refers to whatever the element's color property is currently set to."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "In multiple backgrounds separated by commas, which layer is on top?",
+        "options": {
+          "A": "The last one listed",
+          "B": "The first one listed",
+          "C": "The largest one",
+          "D": "The alphabetically first"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In CSS multiple backgrounds, the first one in the comma-separated list is painted on top."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Which angle equals <code>to right</code>?",
+        "options": {
+          "A": "0deg",
+          "B": "45deg",
+          "C": "90deg",
+          "D": "180deg"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> 0deg = to top, 90deg = to right, 180deg = to bottom, 270deg = to left."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "Why use rgba instead of opacity for a dark overlay?",
+        "options": {
+          "A": "rgba is faster",
+          "B": "opacity fades the element AND its children, rgba only fades the background",
+          "C": "opacity does not work on overlays",
+          "D": "There is no difference"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> opacity affects everything inside the element. rgba only makes the background translucent while keeping children fully visible."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "Which creates a parallax scroll effect?",
+        "options": {
+          "A": "background-attachment: scroll",
+          "B": "background-attachment: fixed",
+          "C": "background-position: fixed",
+          "D": "position: sticky on background"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> background-attachment: fixed keeps the background stationary while the page scrolls."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "In the hex #a855f7, what does the 'f7' represent?",
+        "options": {
+          "A": "Red channel",
+          "B": "Green channel",
+          "C": "Blue channel",
+          "D": "Alpha channel"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Hex order is #RRGGBB. The last two digits (f7) are the blue channel."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What does hsl(0, 0%, 100%) produce?",
+        "options": {
+          "A": "Black",
+          "B": "Red",
+          "C": "White",
+          "D": "Gray"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Any hue with 0% saturation and 100% lightness is pure white."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "Which gradient is best suited for a pie chart?",
+        "options": {
+          "A": "linear-gradient",
+          "B": "radial-gradient",
+          "C": "conic-gradient",
+          "D": "repeating-linear-gradient"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> conic-gradient rotates colors around a center, which matches pie chart slices exactly."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "What does this background-size value do: <code>background-size: 200px 100px;</code>?",
+        "options": {
+          "A": "Scales proportionally to fit 200x100",
+          "B": "Forces the image to exactly 200px wide and 100px tall",
+          "C": "Sets a 200x100 container",
+          "D": "Invalid syntax"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Two explicit values set width and height exactly, which may stretch or squash the image."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "How would you create horizontal stripes with a repeating gradient?",
+        "options": {
+          "A": "repeating-linear-gradient(to right, red 0 20px, blue 20px 40px)",
+          "B": "repeating-linear-gradient(to bottom, red 0 20px, blue 20px 40px)",
+          "C": "radial-gradient(red, blue)",
+          "D": "conic-gradient(red, blue)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> 'to bottom' stacks the stripes vertically, creating horizontal bands. Each color stop defines one stripe width."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Medium",
+        "question": "What is the shorthand for background: color image no-repeat center / cover?",
+        "options": {
+          "A": "background: red url('x.jpg') no-repeat center / cover;",
+          "B": "background: cover center no-repeat url('x.jpg') red;",
+          "C": "background: red, url('x.jpg'), no-repeat, center, cover;",
+          "D": "background-all: red url('x.jpg') no-repeat center cover;"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> The correct shorthand order is color, image, repeat, position / size. The / separates position from size."
+      },
+      {
+        "id": "mcq-21",
+        "difficulty": "Hard",
+        "question": "You want to darken a hero image with a 50% black overlay. Which is correct?",
+        "options": {
+          "A": "background: url('x.jpg'), rgba(0,0,0,0.5);",
+          "B": "background: url('x.jpg') rgba(0,0,0,0.5);",
+          "C": "background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('x.jpg') center/cover;",
+          "D": "background: url('x.jpg'); filter: brightness(50%);"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A solid black gradient at 0.5 alpha acts as an overlay on top of the image. rgba colors cannot be layered directly on images in background shorthand."
+      },
+      {
+        "id": "mcq-22",
+        "difficulty": "Hard",
+        "question": "What does <code>hsl(270, 90%, 65%)</code> look like compared to <code>hsl(270, 90%, 40%)</code>?",
+        "options": {
+          "A": "They are identical",
+          "B": "65% is lighter purple, 40% is darker purple",
+          "C": "65% is more saturated",
+          "D": "65% is a different hue"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Both have the same hue (270 = purple) and saturation (90%). Only lightness differs: 65% is lighter, 40% is darker."
+      },
+      {
+        "id": "mcq-23",
+        "difficulty": "Hard",
+        "question": "Which is NOT a valid way to specify a color in CSS?",
+        "options": {
+          "A": "#a855f7",
+          "B": "rgb(168 85 247)",
+          "C": "hsl(270, 90%, 65%)",
+          "D": "color(168, 85, 247)"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> color() is not a standard CSS color function. The others are all valid. Modern rgb/hsl allow space-separated syntax too."
+      },
+      {
+        "id": "mcq-24",
+        "difficulty": "Hard",
+        "question": "Why might <code>background-size: contain</code> leave empty strips?",
+        "options": {
+          "A": "It is a browser bug",
+          "B": "It preserves aspect ratio while fitting the entire image inside, so if the container has different proportions, some space is unused",
+          "C": "It ignores the image size",
+          "D": "It only works on squares"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> contain always shows the whole image with aspect ratio preserved. When container and image have different proportions, you see empty strips on two sides."
+      },
+      {
+        "id": "mcq-25",
+        "difficulty": "Hard",
+        "question": "What is the advantage of using currentColor for borders?",
+        "options": {
+          "A": "It loads faster",
+          "B": "You only change one property (color) and the border updates automatically",
+          "C": "Borders cannot use other color values",
+          "D": "It makes borders transparent"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> currentColor links border-color to the color property. Change color on hover and the border changes with it, eliminating duplicate rules."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Rainbow Text",
+        "difficulty": "Easy",
+        "description": "Create a heading that says 'Hello, Aarav!' with a rainbow gradient applied to the text (not the background). Use background-clip: text and a linear gradient.",
+        "sampleInput": "Open the HTML file",
+        "sampleOutput": "The heading text shows in a red-orange-yellow-green-blue-purple gradient.",
+        "constraints": "Use background-image with a linear-gradient, background-clip: text, and color: transparent to make the gradient appear through the text.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  body { font-family: Arial, sans-serif; background: #0f172a; padding: 60px; text-align: center; }\n  h1 {\n    font-size: 80px;\n    background: linear-gradient(90deg, #ff0080, #ff8c00, #ffd700, #00ff00, #00bfff, #8a2be2);\n    -webkit-background-clip: text;\n    background-clip: text;\n    color: transparent;\n  }\n</style></head>\n<body>\n  <h1>Hello, Aarav!</h1>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Color Palette Card",
+        "difficulty": "Easy",
+        "description": "Create a card that displays 5 color swatches. Each swatch should show the color and its hex code underneath. Use #a855f7, #06b6d4, #f59e0b, #ec4899, #10b981.",
+        "sampleInput": "Open the HTML file",
+        "sampleOutput": "A horizontal row of 5 colored squares with hex codes underneath.",
+        "constraints": "Use flex layout and inline-block. No JavaScript.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  body { font-family: Arial, sans-serif; padding: 40px; background: #f9fafb; }\n  .palette { display: flex; gap: 12px; }\n  .swatch { text-align: center; font-family: monospace; font-size: 12px; }\n  .swatch div {\n    width: 90px;\n    height: 90px;\n    border-radius: 10px;\n    margin-bottom: 6px;\n    box-shadow: 0 4px 10px rgba(0,0,0,0.1);\n  }\n</style></head>\n<body>\n  <h2>Priya's Palette</h2>\n  <div class=\"palette\">\n    <div class=\"swatch\"><div style=\"background:#a855f7\"></div>#a855f7</div>\n    <div class=\"swatch\"><div style=\"background:#06b6d4\"></div>#06b6d4</div>\n    <div class=\"swatch\"><div style=\"background:#f59e0b\"></div>#f59e0b</div>\n    <div class=\"swatch\"><div style=\"background:#ec4899\"></div>#ec4899</div>\n    <div class=\"swatch\"><div style=\"background:#10b981\"></div>#10b981</div>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Hero Section with Overlay",
+        "difficulty": "Medium",
+        "description": "Build a full-viewport hero section with a background image (use any public image URL), a dark gradient overlay (from 0.7 to 0.3 top to bottom), centered white heading that says 'Welcome, Kavya', a subtitle, and a button.",
+        "sampleInput": "Open the HTML file",
+        "sampleOutput": "Full-screen hero with a darkened background image and centered text.",
+        "constraints": "Use multiple backgrounds in one declaration. No JavaScript. Use flexbox for centering.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  * { margin: 0; padding: 0; box-sizing: border-box; }\n  body { font-family: Arial, sans-serif; }\n  .hero {\n    height: 100vh;\n    background:\n      linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)),\n      url('https://picsum.photos/1600/900?random=1') no-repeat center / cover;\n    color: white;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    padding: 30px;\n  }\n  .hero h1 { font-size: 64px; margin-bottom: 16px; }\n  .hero p { font-size: 20px; margin-bottom: 30px; max-width: 500px; }\n  .cta { padding: 14px 36px; background: #a855f7; color: white; border: none; border-radius: 50px; font-size: 16px; cursor: pointer; }\n</style></head>\n<body>\n  <section class=\"hero\">\n    <h1>Welcome, Kavya</h1>\n    <p>Discover amazing courses designed just for you.</p>\n    <button class=\"cta\">Get Started</button>\n  </section>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Gradient Button Collection",
+        "difficulty": "Medium",
+        "description": "Create four gradient buttons side by side. Each uses a different gradient: purple-to-pink, cyan-to-blue, orange-to-red, green-to-teal. All buttons should have white text, rounded corners, and a shadow.",
+        "sampleInput": "Open the HTML file",
+        "sampleOutput": "Four horizontally arranged rounded buttons, each with a different gradient.",
+        "constraints": "Use linear-gradient. Use flex for layout. No JavaScript.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  body { font-family: Arial, sans-serif; background: #0f172a; padding: 60px; }\n  .group { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }\n  button {\n    padding: 14px 32px;\n    color: white;\n    border: none;\n    border-radius: 50px;\n    font-size: 16px;\n    font-weight: bold;\n    cursor: pointer;\n    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);\n  }\n  .btn-1 { background: linear-gradient(90deg, #a855f7, #ec4899); }\n  .btn-2 { background: linear-gradient(90deg, #06b6d4, #3b82f6); }\n  .btn-3 { background: linear-gradient(90deg, #f97316, #ef4444); }\n  .btn-4 { background: linear-gradient(90deg, #10b981, #14b8a6); }\n</style></head>\n<body>\n  <div class=\"group\">\n    <button class=\"btn-1\">Purple Pink</button>\n    <button class=\"btn-2\">Ocean</button>\n    <button class=\"btn-3\">Sunset</button>\n    <button class=\"btn-4\">Forest</button>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Radial Spotlight Card",
+        "difficulty": "Hard",
+        "description": "Create a dark profile card for 'Ishaan Sharma'. The card should have a radial-gradient spotlight glowing from the top-left corner in purple, fading to the dark base color. Include a circular avatar placeholder, name, and title.",
+        "sampleInput": "Open the HTML file",
+        "sampleOutput": "A dark card with a glowing purple spotlight effect in the top-left corner, showing the profile.",
+        "constraints": "Use radial-gradient with 'at' keyword. Use border-radius: 50% for the avatar. No JavaScript.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  body { font-family: Arial, sans-serif; background: #020617; padding: 60px; display: flex; justify-content: center; }\n  .card {\n    width: 340px;\n    padding: 40px 30px;\n    border-radius: 16px;\n    background:\n      radial-gradient(circle at 20% 20%, rgba(168, 85, 247, 0.45), transparent 60%),\n      #0f172a;\n    color: white;\n    border: 1px solid rgba(255, 255, 255, 0.08);\n    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);\n    text-align: center;\n  }\n  .avatar {\n    width: 100px;\n    height: 100px;\n    border-radius: 50%;\n    background: linear-gradient(135deg, #a855f7, #06b6d4);\n    margin: 0 auto 20px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 36px;\n    font-weight: bold;\n    color: white;\n  }\n  h3 { margin: 0 0 6px; font-size: 22px; }\n  p { margin: 0; color: #94a3b8; font-size: 14px; }\n</style></head>\n<body>\n  <div class=\"card\">\n    <div class=\"avatar\">IS</div>\n    <h3>Ishaan Sharma</h3>\n    <p>Student of the Month</p>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Conic Pie Chart",
+        "difficulty": "Hard",
+        "description": "Use conic-gradient to build a pie chart of weekly study time: Coding 40%, Maths 30%, Reading 20%, Play 10%. Show a legend with matching colors.",
+        "sampleInput": "Open the HTML file",
+        "sampleOutput": "A circular pie chart with 4 slices and a labeled legend.",
+        "constraints": "Use conic-gradient with hard stops (same percentage for end of one color and start of next). Circle uses border-radius: 50%.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  body { font-family: Arial, sans-serif; padding: 40px; text-align: center; background: #f9fafb; }\n  .pie {\n    width: 260px;\n    height: 260px;\n    border-radius: 50%;\n    margin: 20px auto;\n    background: conic-gradient(\n      #a855f7 0 40%,\n      #06b6d4 40% 70%,\n      #f59e0b 70% 90%,\n      #ec4899 90% 100%\n    );\n    box-shadow: 0 15px 35px rgba(0,0,0,0.15);\n  }\n  .legend { display: flex; justify-content: center; flex-wrap: wrap; gap: 16px; font-size: 14px; }\n  .item { display: flex; align-items: center; gap: 6px; }\n  .dot { width: 16px; height: 16px; border-radius: 50%; }\n</style></head>\n<body>\n  <h2>Riya's Study Week</h2>\n  <div class=\"pie\"></div>\n  <div class=\"legend\">\n    <div class=\"item\"><span class=\"dot\" style=\"background:#a855f7\"></span>Coding 40%</div>\n    <div class=\"item\"><span class=\"dot\" style=\"background:#06b6d4\"></span>Maths 30%</div>\n    <div class=\"item\"><span class=\"dot\" style=\"background:#f59e0b\"></span>Reading 20%</div>\n    <div class=\"item\"><span class=\"dot\" style=\"background:#ec4899\"></span>Play 10%</div>\n  </div>\n</body>\n</html>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography and Google Fonts - HTML and CSS Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Control font-family, size, weight, line-height, letter-spacing, text-align. Use Google Fonts in your projects.">
+    <meta name="keywords" content="typography and google fonts, html and css tutorial, html and css typography and google fonts, learn html and css">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/html-and-css/typography-and-fonts">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/html-and-css/typography-and-fonts">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/html-and-css/typography-and-fonts">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/html-and-css/typography-and-fonts">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/html-and-css/typography-and-fonts">
+    <meta property="og:title" content="Typography and Google Fonts - HTML and CSS Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Control font-family, size, weight, line-height, letter-spacing, text-align. Use Google Fonts in your projects.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/html-and-css/typography-and-fonts">
+    <meta name="twitter:title" content="Typography and Google Fonts - HTML and CSS Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Control font-family, size, weight, line-height, letter-spacing, text-align. Use Google Fonts in your projects.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Typography and Google Fonts",
+    "description": "Control font-family, size, weight, line-height, letter-spacing, text-align. Use Google Fonts in your projects.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/html-and-css/typography-and-fonts"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/html-and-css/typography-and-fonts"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HTML and CSS",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Typography and Google Fonts",
+        "item": "https://learn.modernagecoders.com/resources/html-and-css/typography-and-fonts"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting Quotes Around Font Names with Spaces",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Any font name with spaces must be wrapped in quotes. Single-word fonts like <code>Arial</code> or <code>Georgia</code> do not need quotes, but it is fine (and consistent) to always quote them."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using px for line-height",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Unitless line-height multiplies by the element's own font-size. Fixed px line-height breaks when children have different font sizes. Always use unitless line-height like 1.5 or 1.6."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Loading Too Many Google Font Weights",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Only load the weights you actually use. Most designs need 2-3 weights. Loading all 9 can add 500KB+ to your page for no visual benefit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting font-display: swap",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always include <code>&display=swap</code>. This tells the browser to show the fallback font immediately, then swap to the web font when it loads. Much better user experience."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/html-and-css">HTML and CSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Typography and Google Fonts</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 12</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">38 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Typography and Google Fonts</h1>
+            <a href="/resources/html-and-css/typography-and-fonts/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Typography in CSS?</h2><p>Typography is the art of arranging text to make it beautiful and readable. Good typography is the difference between a page that looks amateur and one that looks professional. The same content with different fonts, sizes, line heights, and spacing can feel like two completely different websites.</p><p>In this chapter you will learn every CSS property that affects text: the font itself, its size, weight, style, spacing, alignment, decoration, and transformation. You will also learn how to use Google Fonts (free, beautiful web fonts) in your own projects.</p><pre><code>body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  color: #1a1a2e;
+}</code></pre>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Does Typography Matter?</h2><h3>1. 90% of the Web Is Text</h3><p>Most of what people read on the web is text. Blog posts, product descriptions, articles, forms. If your typography is bad, your users struggle to read and bounce. If your typography is great, they stay longer, understand better, and trust your site more.</p><h3>2. Fonts Set the Entire Mood</h3><p>Switch a site from <strong>Times New Roman</strong> to <strong>Inter</strong> and it feels modern. Switch to <strong>Playfair Display</strong> and it feels editorial. Switch to <strong>Fira Code</strong> and it feels technical. You cannot design a look without thinking about the font.</p><h3>3. Google Fonts Is Free and Amazing</h3><p>Google Fonts gives you thousands of professional-quality fonts for free. A single <code>&lt;link&gt;</code> tag in your HTML and you can use fonts like Poppins, Inter, Montserrat, Playfair Display, and many more. This chapter will show you exactly how.</p><h3>4. Fluid Typography Is the Modern Way</h3><p>Responsive design used to require media queries to change font sizes. Now you can write <code>font-size: clamp(16px, 2vw, 24px)</code> and the text automatically scales with the viewport. One line replaces multiple media queries.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. font-family and Fallbacks</h3><p>font-family specifies which font to use. You list multiple fonts as fallbacks in case the first one is not available. Always end with a generic family (serif, sans-serif, monospace).</p><pre><code>body {
+  font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+}
+code {
+  font-family: 'Fira Code', 'Courier New', monospace;
+}
+h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+}</code></pre><p>Rule: fonts with a space in the name must be quoted (<code>'Fira Code'</code>). Single-word fonts do not need quotes (<code>Arial</code>).</p><h3>2. System Font Stack</h3><p>The system font stack uses whatever font the user's operating system uses for its interface. It loads instantly (no download) and looks native on every platform.</p><pre><code>body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}</code></pre><p>This gives you San Francisco on macOS/iOS, Segoe UI on Windows, Roboto on Android, and fallbacks for everything else.</p><h3>3. Google Fonts</h3><p>Visit fonts.google.com, pick a font, copy the <code>&lt;link&gt;</code> tag, paste it in your HTML head, then use the font-family name.</p><pre><code>&lt;!-- In HTML head --&gt;
+&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
+&lt;link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet"&gt;
+
+&lt;!-- In CSS --&gt;
+body { font-family: 'Poppins', sans-serif; }
+h1 { font-weight: 800; }</code></pre><p>The <code>wght@400;600;800</code> part tells Google which weights to download. Only request the ones you use -- fewer weights means faster page load.</p><h3>4. font-size Units</h3><ul><li><strong>px</strong>: absolute pixels. <code>font-size: 16px</code>. Fixed and predictable.</li><li><strong>em</strong>: relative to parent font-size. <code>1.5em</code> = 1.5x parent. Compounds if nested.</li><li><strong>rem</strong>: relative to root (html) font-size. <code>1.5rem</code> = 1.5x root. Does not compound. Preferred for most sizing.</li><li><strong>%</strong>: relative to parent font-size (like em).</li><li><strong>vw</strong>: viewport width. <code>5vw</code> = 5% of browser width. Scales with screen.</li><li><strong>clamp(min, preferred, max)</strong>: fluid typography that scales between a minimum and maximum.</li></ul><pre><code>h1 {
+  font-size: clamp(24px, 4vw, 48px);
+  /* At least 24px, grows with viewport width, caps at 48px */
+}</code></pre><h3>5. font-weight</h3><p>Weight values: <code>100</code> (thin) to <code>900</code> (black). Or keywords: <code>normal</code> (400), <code>bold</code> (700), <code>lighter</code>, <code>bolder</code>.</p><pre><code>h1 { font-weight: 800; }    /* Extra bold */
+p  { font-weight: 400; }    /* Normal */
+em { font-weight: 500; }    /* Medium */</code></pre><p>Only weights you loaded in Google Fonts are available. If you load 400 and 700, asking for 600 will fall back to the closest one.</p><h3>6. font-style</h3><p>Values: <code>normal</code>, <code>italic</code>, <code>oblique</code>.</p><pre><code>em { font-style: italic; }
+.quote { font-style: italic; color: #6b7280; }</code></pre><h3>7. line-height</h3><p>Vertical space between lines. Use <strong>unitless</strong> values like <code>1.5</code> or <code>1.6</code> instead of px. Unitless values multiply by the element's font-size, and children inherit the multiplier (not the computed value) -- which behaves correctly.</p><pre><code>body { line-height: 1.6; }          /* GOOD */
+body { line-height: 24px; }         /* Bad -- does not scale with font-size */
+
+h1 { line-height: 1.2; }            /* Tight for headings */
+p  { line-height: 1.6; }            /* Airy for paragraphs */</code></pre><h3>8. letter-spacing and word-spacing</h3><p>Adjust the space between letters and words. Negative values tighten, positive values loosen.</p><pre><code>h1 { letter-spacing: -0.02em; } /* Slightly tighter */
+.small-caps {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;          /* Loose uppercase looks elegant */
+  font-size: 12px;
+}
+
+p { word-spacing: 2px; }</code></pre><h3>9. text-align</h3><p>Values: <code>left</code> (default), <code>right</code>, <code>center</code>, <code>justify</code>.</p><pre><code>h1 { text-align: center; }
+.quote { text-align: right; }</code></pre><h3>10. text-decoration</h3><p>Controls underlines, strikethroughs, and overlines. Common on links.</p><pre><code>a { text-decoration: none; }                          /* remove underline */
+a:hover { text-decoration: underline; }
+del { text-decoration: line-through; }
+.fancy { text-decoration: underline wavy #a855f7; }   /* modern shorthand */</code></pre><h3>11. text-transform</h3><p>Changes letter case visually (HTML stays the same).</p><pre><code>.upper { text-transform: uppercase; }
+.lower { text-transform: lowercase; }
+.cap   { text-transform: capitalize; }</code></pre><h3>12. text-shadow</h3><p>Adds a shadow behind text. Syntax: <code>x-offset y-offset blur color</code>.</p><pre><code>h1 { text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); }
+
+/* Multiple shadows create glows and 3D effects */
+h1 {
+  text-shadow:
+    0 0 10px #a855f7,
+    0 0 20px #a855f7,
+    0 0 40px #a855f7;
+}</code></pre><h3>13. @font-face for Custom Fonts</h3><p>If you have a custom font file, use @font-face to declare it, then use it like any other font.</p><pre><code>@font-face {
+  font-family: 'MyCustomFont';
+  src: url('fonts/mycustom.woff2') format('woff2'),
+       url('fonts/mycustom.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; /* Show fallback while loading */
+}
+
+body { font-family: 'MyCustomFont', sans-serif; }</code></pre><h3>14. font-display: swap</h3><p><code>font-display: swap</code> tells the browser: show the fallback font immediately, then swap to the web font when it loads. This prevents invisible text during font loading (known as FOIT). Always include it.</p><h3>15. Web-Safe Fonts</h3><p>Fonts installed on almost every device. Safe to use without loading anything: Arial, Georgia, Times New Roman, Courier New, Verdana, Tahoma, Trebuchet MS, Impact. Use them as fallbacks or when you need zero load time.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Google Fonts with Poppins</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;
+  &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;style&gt;
+    body {
+      font-family: &#39;Poppins&#39;, -apple-system, sans-serif;
+      padding: 40px;
+      background: #f9fafb;
+      color: #1a1a2e;
+      line-height: 1.6;
+    }
+    h1 { font-weight: 800; font-size: 48px; margin: 0 0 8px; }
+    h2 { font-weight: 600; font-size: 24px; color: #a855f7; margin: 24px 0 8px; }
+    .light { font-weight: 300; color: #6b7280; }
+    p { font-weight: 400; font-size: 16px; max-width: 640px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Modern Typography&lt;/h1&gt;
+  &lt;p class=&quot;light&quot;&gt;A guide by Aarav Patel&lt;/p&gt;
+  &lt;h2&gt;Why fonts matter&lt;/h2&gt;
+  &lt;p&gt;Choosing the right font gives your content a voice. Poppins is a modern geometric sans-serif that feels clean and professional. It works beautifully for headings, buttons, and body text.&lt;/p&gt;
+  &lt;h2&gt;Weights available&lt;/h2&gt;
+  &lt;p&gt;This page loads four weights: 300 light, 400 normal, 600 semibold, and 800 extra bold. Each weight expresses a different mood.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Google Fonts are loaded with a <code>&lt;link&gt;</code> tag in the HTML head. The <code>wght@300;400;600;800</code> parameter requests four specific weights. <code>display=swap</code> ensures text is visible during load. In CSS, just reference <code>'Poppins'</code> as a normal font-family with a fallback stack.</div><div class="code-example-output">A page with a bold Poppins heading, a light gray subtitle, purple section headers, and well-spaced body text.</div></div>
+<div class="code-example"><div class="code-example-title">Fluid Typography with clamp()</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      padding: 40px 5%;
+      margin: 0;
+      background: #1a1a2e;
+      color: white;
+      line-height: 1.5;
+    }
+    h1 {
+      font-size: clamp(32px, 6vw, 72px);
+      line-height: 1.1;
+      margin: 0 0 16px;
+      background: linear-gradient(90deg, #a855f7, #06b6d4);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    h2 {
+      font-size: clamp(20px, 3vw, 32px);
+      margin: 32px 0 8px;
+    }
+    p {
+      font-size: clamp(16px, 1.5vw, 18px);
+      max-width: 60ch;
+      color: #cbd5e1;
+    }
+    .tiny { font-size: clamp(12px, 1vw, 14px); color: #94a3b8; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Resize your browser&lt;/h1&gt;
+  &lt;p class=&quot;tiny&quot;&gt;Fluid typography example by Priya Sharma&lt;/p&gt;
+  &lt;p&gt;All headings and paragraphs on this page use &lt;strong&gt;clamp()&lt;/strong&gt; to scale fluidly. There is no media query. As you make the window wider, the text grows smoothly between its minimum and maximum.&lt;/p&gt;
+  &lt;h2&gt;How it works&lt;/h2&gt;
+  &lt;p&gt;clamp(min, preferred, max) takes three values: the smallest size allowed, the desired size (usually a viewport unit), and the largest size. The browser picks whichever is valid within the range.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation"><code>clamp(32px, 6vw, 72px)</code> means: never smaller than 32px, never larger than 72px, and at sizes in between, use 6% of the viewport width. Resize the browser to see the text scale smoothly. No media queries needed.</div><div class="code-example-output">A dark page where headings and paragraphs smoothly scale as you resize the browser window.</div></div>
+<div class="code-example"><div class="code-example-title">Beautiful Blog Post Typography</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;
+  &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&amp;family=Inter:wght@400;600&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;style&gt;
+    body {
+      font-family: &#39;Merriweather&#39;, Georgia, serif;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 60px 20px;
+      line-height: 1.75;
+      color: #1a202c;
+      background: #fefefe;
+    }
+    h1 {
+      font-family: &#39;Inter&#39;, sans-serif;
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      margin: 0 0 8px;
+    }
+    .meta {
+      font-family: &#39;Inter&#39;, sans-serif;
+      font-size: 14px;
+      color: #64748b;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    p { font-size: 18px; margin-bottom: 20px; }
+    p::first-line { font-weight: 700; }
+    blockquote {
+      border-left: 4px solid #a855f7;
+      padding: 8px 20px;
+      margin: 30px 0;
+      font-style: italic;
+      color: #4b5563;
+    }
+    a { color: #a855f7; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Learning to Code at 13&lt;/h1&gt;
+  &lt;p class=&quot;meta&quot;&gt;By Kavya Reddy - April 11, 2026&lt;/p&gt;
+  &lt;p&gt;When I started coding, I had no idea what a variable was. My teacher Mr Verma told me just to type along and it would start making sense. He was right.&lt;/p&gt;
+  &lt;blockquote&gt;The best way to learn to code is to build things you care about.&lt;/blockquote&gt;
+  &lt;p&gt;Two years later, I have built a snake game, a to-do app, and my own website. If you are just starting, pick a font like &lt;a href=&quot;#&quot;&gt;Merriweather&lt;/a&gt; for your blog and your posts will look instantly more professional.&lt;/p&gt;
+  &lt;p&gt;The tricks are simple: use a serif font, keep paragraph width around 60-70 characters, set line-height to 1.6 or higher, and pick a strong sans-serif for headings.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This uses two Google Fonts: Merriweather (serif) for body text and Inter (sans-serif) for headings. max-width: 680px limits line length for comfortable reading. line-height: 1.75 gives airy spacing. A blockquote with a colored left border is a classic blog pattern.</div><div class="code-example-output">A polished blog post layout with a bold Inter heading, italic blockquote, and easy-to-read serif body text.</div></div>
+<div class="code-example"><div class="code-example-title">Text Shadow Glow Effect</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body {
+      font-family: Arial, sans-serif;
+      background: #0a0a0f;
+      padding: 100px 40px;
+      text-align: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    .neon {
+      color: #fff;
+      font-size: 72px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-shadow:
+        0 0 4px #fff,
+        0 0 10px #a855f7,
+        0 0 20px #a855f7,
+        0 0 40px #a855f7,
+        0 0 80px #a855f7;
+    }
+    .subtitle {
+      color: #06b6d4;
+      font-size: 24px;
+      margin-top: 24px;
+      text-shadow:
+        0 0 8px #06b6d4,
+        0 0 20px #06b6d4;
+    }
+    .soft {
+      color: white;
+      font-size: 18px;
+      margin-top: 40px;
+      text-shadow: 0 2px 20px rgba(168, 85, 247, 0.5);
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1 class=&quot;neon&quot;&gt;RIYA&lt;/h1&gt;
+  &lt;p class=&quot;subtitle&quot;&gt;Codes After Midnight&lt;/p&gt;
+  &lt;p class=&quot;soft&quot;&gt;A simple soft glow for comparison.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Multiple text-shadows create a neon glow effect. Each shadow adds a larger, softer glow on top of the previous one. The innermost shadow is white to brighten the letters, and outer shadows are purple for the halo.</div><div class="code-example-output">A dark page with a glowing neon purple &#39;RIYA&#39; title and a cyan subtitle, all with dramatic shadow effects.</div></div>
+<div class="code-example"><div class="code-example-title">Monospace Code Block with Fira Code</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;
+  &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;style&gt;
+    body { font-family: system-ui, sans-serif; padding: 40px; background: #f3f4f6; color: #1a1a2e; }
+    h1 { margin-bottom: 24px; }
+    pre {
+      font-family: &#39;Fira Code&#39;, &#39;Courier New&#39;, monospace;
+      font-size: 14px;
+      line-height: 1.6;
+      background: #1a1a2e;
+      color: #f1f5f9;
+      padding: 20px 24px;
+      border-radius: 10px;
+      overflow-x: auto;
+      letter-spacing: 0;
+    }
+    .keyword { color: #c084fc; font-weight: 600; }
+    .string  { color: #a7f3d0; }
+    .comment { color: #6b7280; font-style: italic; }
+    code { font-family: &#39;Fira Code&#39;, monospace; background: #e5e7eb; padding: 2px 6px; border-radius: 4px; font-size: 14px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;A snippet from Ishaan&#39;s first program&lt;/h1&gt;
+  &lt;p&gt;Declare a variable with &lt;code&gt;let&lt;/code&gt; and print it:&lt;/p&gt;
+  &lt;pre&gt;&lt;span class=&quot;comment&quot;&gt;// First program&lt;/span&gt;
+&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; name = &lt;span class=&quot;string&quot;&gt;&#39;Ishaan&#39;&lt;/span&gt;;
+&lt;span class=&quot;keyword&quot;&gt;console&lt;/span&gt;.log(&lt;span class=&quot;string&quot;&gt;&#39;Hello, &#39;&lt;/span&gt; + name);&lt;/pre&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Fira Code is a monospace font designed for code with programming ligatures. It is loaded from Google Fonts. The <code>pre</code> block preserves whitespace and uses the monospace font. Inline <code>code</code> tags use the same font with a light background.</div><div class="code-example-output">A page with a dark code block showing a JavaScript snippet in Fira Code font with purple keywords, green strings, and gray comments.</div></div>
+<div class="code-example"><div class="code-example-title">Font Shorthand and Text Transforms</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 40px; background: white; color: #1a1a2e; }
+    .card {
+      padding: 24px;
+      border-radius: 12px;
+      background: #f9fafb;
+      margin-bottom: 16px;
+      max-width: 500px;
+    }
+    .title { font: italic bold 20px/1.3 Georgia, serif; margin: 0 0 8px; }
+    .eyebrow { font: 600 12px/1 Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.15em; color: #a855f7; margin: 0 0 4px; }
+    .price { font: bold 28px/1 system-ui, sans-serif; color: #06b6d4; margin: 0; }
+    .strike { text-decoration: line-through; color: #9ca3af; font-weight: normal; font-size: 18px; margin-left: 8px; }
+    .quote { font-style: italic; color: #4b5563; border-left: 3px solid #a855f7; padding-left: 16px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;p class=&quot;eyebrow&quot;&gt;LIMITED OFFER&lt;/p&gt;
+    &lt;h2 class=&quot;title&quot;&gt;Frontend Masterclass&lt;/h2&gt;
+    &lt;p class=&quot;price&quot;&gt;Rs 2,999 &lt;span class=&quot;strike&quot;&gt;Rs 4,999&lt;/span&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;p class=&quot;quote&quot;&gt;&quot;This course changed the way I think about design.&quot; - Meera Nair&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The <code>font</code> shorthand combines style, weight, size, line-height, and family in one line: <code>font: italic bold 20px/1.3 Georgia, serif;</code>. The eyebrow label uses text-transform and letter-spacing to create a polished uppercase look. text-decoration: line-through creates the crossed-out original price.</div><div class="code-example-output">Two cards: a product card with an uppercase eyebrow, italic title, and strike-through original price; and a testimonial card with an italic quote and colored left border.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting Quotes Around Font Names with Spaces</h3>
+                <div class="wrong-code"><pre><code class="language-python">body { font-family: Times New Roman, serif; }</code></pre></div><div class="error-message">The browser tries to parse &#39;Times&#39;, &#39;New&#39;, and &#39;Roman&#39; as three separate font names, failing.</div><div class="correct-code"><pre><code class="language-python">body { font-family: &#39;Times New Roman&#39;, serif; }</code></pre></div><div class="mistake-explanation">Any font name with spaces must be wrapped in quotes. Single-word fonts like <code>Arial</code> or <code>Georgia</code> do not need quotes, but it is fine (and consistent) to always quote them.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using px for line-height</h3>
+                <div class="wrong-code"><pre><code class="language-python">body { font-size: 16px; line-height: 24px; }
+h1 { font-size: 32px; /* line-height is STILL 24px -- too tight! */ }</code></pre></div><div class="error-message">Children inherit the fixed 24px line-height. A 32px heading with 24px line-height overlaps badly.</div><div class="correct-code"><pre><code class="language-python">body { font-size: 16px; line-height: 1.5; }
+h1 { font-size: 32px; /* line-height is now 32 * 1.5 = 48px */ }</code></pre></div><div class="mistake-explanation">Unitless line-height multiplies by the element's own font-size. Fixed px line-height breaks when children have different font sizes. Always use unitless line-height like 1.5 or 1.6.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Loading Too Many Google Font Weights</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</code></pre></div><div class="error-message">This loads 9 font weights. Each weight is a separate file download, slowing page load significantly.</div><div class="correct-code"><pre><code class="language-python">&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</code></pre></div><div class="mistake-explanation">Only load the weights you actually use. Most designs need 2-3 weights. Loading all 9 can add 500KB+ to your page for no visual benefit.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting font-display: swap</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Inter:wght@400;700&quot; rel=&quot;stylesheet&quot;&gt;</code></pre></div><div class="error-message">Without display=swap, text is invisible until the font downloads (FOIT - Flash of Invisible Text). Users see blank content for up to 3 seconds.</div><div class="correct-code"><pre><code class="language-python">&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</code></pre></div><div class="mistake-explanation">Always include <code>&display=swap</code>. This tells the browser to show the fallback font immediately, then swap to the web font when it loads. Much better user experience.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>font-family lists fonts as fallbacks, ending with a generic family (serif, sans-serif, monospace). Quote any font name containing spaces: &#39;Times New Roman&#39;.</li>
+<li>System font stack (-apple-system, Segoe UI, Roboto) uses the OS default font. Instant load, native look on every platform. Great default choice.</li>
+<li>Google Fonts is free and easy: add a link tag in HTML head, use the font-family name in CSS. Always include display=swap to prevent invisible text during load.</li>
+<li>font-size units: px (absolute), em (relative to parent), rem (relative to root -- preferred), vw (viewport width), clamp() (fluid). Use rem for consistent sizing.</li>
+<li>clamp(min, preferred, max) creates fluid typography: clamp(24px, 4vw, 48px) scales between 24 and 48 as the viewport changes. Replaces media queries.</li>
+<li>font-weight goes from 100 (thin) to 900 (black). Only weights you loaded are available. Keywords: normal = 400, bold = 700.</li>
+<li>line-height should be unitless (1.5, 1.6). Unitless values scale correctly when children have different font sizes. Never use px for line-height on parent elements.</li>
+<li>letter-spacing tightens or loosens character spacing. Negative values (-0.02em) for big headings. Positive values (0.1em) for uppercase labels.</li>
+<li>text-transform changes case visually: uppercase, lowercase, capitalize. The HTML source stays the same; only display changes.</li>
+<li>text-shadow syntax: x-offset y-offset blur color. Stack multiple shadows for neon glows, 3D effects, and drop shadows. @font-face loads custom fonts; always include font-display: swap.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/html-and-css/colors-backgrounds-and-gradients" class="related-topic-link">Colors, Backgrounds, and Gradients</a>
+<a href="/resources/html-and-css/introduction-to-css" class="related-topic-link">Introduction to CSS - Styling the Web</a>
+<a href="/resources/html-and-css/the-box-model" class="related-topic-link">The Box Model - Margin, Border, Padding</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/html-and-css/colors-backgrounds-and-gradients" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Colors, Backgrounds, and Gradients</span>
+        </a>
+            <a href="/resources/html-and-css/the-box-model" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">The Box Model - Margin, Border, Padding</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/html-and-css/typography-and-fonts/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

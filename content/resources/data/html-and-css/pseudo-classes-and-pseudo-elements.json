@@ -1,0 +1,697 @@
+{
+  "title": "Pseudo-classes and Pseudo-elements",
+  "slug": "pseudo-classes-and-pseudo-elements",
+  "language": "css",
+  "chapter": 22,
+  "difficulty": "Advanced",
+  "readingTime": "50 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 56,
+  "seo": {
+    "title": "CSS Pseudo-classes and Pseudo-elements - :hover, :nth-child, ::before, ::after | Modern Age Coders",
+    "description": "Master CSS pseudo-classes (:hover, :focus, :nth-child, :not, :is, :has) and pseudo-elements (::before, ::after, ::selection, ::marker). Build tooltips, ribbons, custom bullets, and creative effects without extra HTML. 56+ practice questions.",
+    "keywords": "css pseudo class, css pseudo element, hover focus, nth-child, before after, ::before, ::after, css :not, css :is, :where, :has selector, ::selection, ::marker, ::placeholder"
+  },
+  "content": {
+    "what": "<h2>What Are Pseudo-classes and Pseudo-elements?</h2><p>Pseudo-classes and pseudo-elements are two of the most powerful features in CSS. They let you style elements based on state, position, or relationship — and even insert content that does not exist in the HTML.</p><h3>Pseudo-classes (single colon)</h3><p>A <strong>pseudo-class</strong> selects an element based on a state or position. Examples: <code>:hover</code> (when the user points at it), <code>:focus</code> (when it is keyboard-focused), <code>:nth-child(2n)</code> (when it is the even-numbered child), <code>:checked</code> (when a checkbox is ticked).</p><pre><code>button:hover { background: purple; }\ninput:focus { outline: 2px solid cyan; }\nli:nth-child(odd) { background: #f1f5f9; }</code></pre><h3>Pseudo-elements (double colon)</h3><p>A <strong>pseudo-element</strong> targets a part of an element — or injects a 'fake' element. Examples: <code>::before</code> and <code>::after</code> inject content, <code>::first-letter</code> targets the first character, <code>::selection</code> styles selected text, <code>::placeholder</code> styles the placeholder inside inputs.</p><pre><code>.card::before {\n  content: 'NEW';\n  background: red;\n  color: white;\n  padding: 4px 8px;\n}</code></pre><p>Why two colons for pseudo-elements? In CSS3, pseudo-elements got their own double-colon syntax (<code>::before</code>) to distinguish them from pseudo-classes. Browsers still accept the old single-colon form for backwards compatibility, but double colons are the modern standard.</p>",
+    "why": "<h2>Why Learn Pseudo-classes and Pseudo-elements?</h2><h3>1. Interactivity Without JavaScript</h3><p>Hover effects, focus rings, checked states, form validation styling — all handled with CSS. No JavaScript, no event listeners, no bundle size. <code>:hover</code>, <code>:focus</code>, <code>:valid</code>, and <code>:invalid</code> handle the majority of interactive UI in a browser.</p><h3>2. Less HTML, More Creativity</h3><p>Need a decorative corner on a card? A tooltip arrow? A quote mark before a blockquote? A ribbon banner? None of these need extra HTML elements. <code>::before</code> and <code>::after</code> let you inject the content purely from CSS, keeping your HTML clean and semantic.</p><h3>3. Pattern-Based Styling</h3><p>Style every other row of a table, every third item in a grid, or only the last element of a list — without adding class names. <code>:nth-child()</code> is like a tiny query language for DOM position. Anika styled her entire homework table in 3 lines of CSS.</p><h3>4. Modern Selectors Unlock New Patterns</h3><p>Newer pseudo-classes like <code>:is()</code>, <code>:where()</code>, and especially <code>:has()</code> (the parent selector) let you write cleaner CSS and style elements based on what they contain. Things that used to require JavaScript now work with a single selector.</p><h3>5. Accessibility for Free</h3><p><code>:focus-visible</code> shows focus rings only for keyboard users, not mouse clicks. <code>:hover</code> does nothing on touch devices, so you never punish mobile users. Semantic pseudo-classes make your site work well for every input device.</p>",
+    "explanation": "<h2>A Tour of the Most Useful Pseudo-classes and Pseudo-elements</h2><h3>1. Interaction States</h3><pre><code>a:link    { color: #7c3aed; }  /* unvisited */\na:visited { color: #db2777; }  /* already visited */\na:hover   { color: #ec4899; text-decoration: underline; }\na:active  { color: #f43f5e; }  /* the instant it is clicked */\n\nbutton:focus         { outline: 2px solid #06b6d4; }\nbutton:focus-visible { outline: 2px solid #06b6d4; } /* keyboard only */\nbutton:disabled      { opacity: 0.5; cursor: not-allowed; }</code></pre><p><code>:focus-visible</code> is the modern choice: it only shows the focus ring when the user navigates with the keyboard, not when they click with a mouse. Clean and accessible.</p><h3>2. Form States</h3><pre><code>input:required { border-left: 3px solid #f59e0b; }\ninput:valid    { border-color: #10b981; }\ninput:invalid  { border-color: #ef4444; }\ninput:disabled { background: #f1f5f9; }\ninput:checked  { accent-color: #a855f7; }\n\n/* Placeholder-shown: input is empty */\ninput:placeholder-shown { font-style: italic; color: #94a3b8; }</code></pre><p>This lets you show live validation feedback without any JavaScript. A red border appears the moment the user's input becomes invalid.</p><h3>3. Structural / Positional</h3><pre><code>li:first-child { font-weight: bold; }\nli:last-child  { border-bottom: none; }\nli:nth-child(2) { color: red; }\nli:nth-child(odd)  { background: #f8fafc; } /* 1st, 3rd, 5th... */\nli:nth-child(even) { background: #ffffff; } /* 2nd, 4th, 6th... */\nli:nth-child(3n)   { color: purple; }       /* every 3rd */\nli:nth-child(3n+1) { color: teal; }         /* 1st, 4th, 7th... */\n\nli:only-child { color: gray; } /* the only child of its parent */\nli:empty      { display: none; } /* has no content */</code></pre><p>Zebra stripes for tables take 2 lines. Highlighting every third grid item takes 1. This is what designers mean when they say 'pattern-based' styling.</p><h3>4. Negation and Grouping: :not(), :is(), :where()</h3><pre><code>/* Not: exclude something */\nli:not(.active) { color: gray; }\nbutton:not(:disabled):hover { background: purple; }\n\n/* Is: group selectors without copying */\n:is(h1, h2, h3) { font-family: 'Syne', sans-serif; }\n/* Equivalent to: h1, h2, h3 { ... } but composable */\n\n/* Where: like :is() but with zero specificity */\n:where(article, section) p { line-height: 1.7; }\n/* zero specificity means it is easy to override */</code></pre><h3>5. The Parent Selector: :has()</h3><p>For years CSS only looked downward. <code>:has()</code> finally lets you select a parent based on its children. This is the biggest new CSS feature in a decade.</p><pre><code>/* Style a card that contains an image */\n.card:has(img) { padding: 0; }\n\n/* Style a form that has an invalid input */\nform:has(:invalid) button { opacity: 0.5; pointer-events: none; }\n\n/* Style a label that has a checked checkbox */\nlabel:has(input:checked) { background: #7c3aed; color: white; }</code></pre><h3>6. Target and Empty</h3><pre><code>section:target { background: #fef3c7; } /* the section matching #hash in URL */\ndiv:empty { display: none; } /* element with no content at all */</code></pre><h3>7. Pseudo-elements: ::before and ::after</h3><p>These inject a 'fake' element at the start or end of an element's content. They need the <code>content</code> property to render.</p><pre><code>blockquote::before { content: '\"'; font-size: 64px; color: #a855f7; }\nblockquote::after  { content: '\"'; font-size: 64px; color: #a855f7; }\n\n.new::after {\n  content: 'NEW';\n  background: red;\n  color: white;\n  padding: 2px 8px;\n  border-radius: 999px;\n  margin-left: 8px;\n  font-size: 11px;\n}\n\n.tooltip::after {\n  content: attr(data-tip); /* read the data-tip attribute */\n  position: absolute;\n  bottom: -30px; left: 0;\n  background: black; color: white;\n  padding: 4px 8px; border-radius: 6px;\n  opacity: 0; transition: opacity 0.2s;\n}\n.tooltip:hover::after { opacity: 1; }</code></pre><h3>8. Text Pseudo-elements</h3><pre><code>p::first-letter { font-size: 3em; float: left; color: #7c3aed; }\np::first-line   { font-weight: bold; }\n::selection     { background: #a855f7; color: white; }\n::placeholder   { color: #94a3b8; font-style: italic; }\nli::marker      { color: #7c3aed; font-size: 1.2em; }</code></pre><p><code>::selection</code> styles the highlighted text when a user selects anything. <code>::placeholder</code> styles the hint text inside form inputs. <code>::marker</code> targets the bullet or number of a list item — you can finally color bullets without extra markup.</p><h3>9. Creative Patterns</h3><pre><code>/* Ribbon on a card */\n.card::before {\n  content: 'SALE';\n  position: absolute; top: 12px; right: -28px;\n  background: #ef4444; color: white;\n  padding: 4px 36px; font-size: 12px;\n  transform: rotate(45deg);\n}\n\n/* Animated underline on hover */\n.nav a { position: relative; }\n.nav a::after {\n  content: '';\n  position: absolute;\n  left: 0; bottom: -4px;\n  width: 100%; height: 2px;\n  background: #a855f7;\n  transform: scaleX(0);\n  transform-origin: right;\n  transition: transform 0.3s;\n}\n.nav a:hover::after {\n  transform: scaleX(1);\n  transform-origin: left;\n}</code></pre><p>No extra HTML, no JavaScript — just a sliding underline that knows which direction to grow from.</p>",
+    "codeExamples": [
+      {
+        "title": "Zebra Stripe Table with :nth-child",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 40px; }\n    h1 { color: #7c3aed; margin-bottom: 16px; }\n    table { border-collapse: collapse; width: 100%; max-width: 700px; background: white; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-radius: 12px; overflow: hidden; }\n    th { background: #7c3aed; color: white; padding: 14px; text-align: left; }\n    td { padding: 12px 14px; color: #334155; }\n    tr:nth-child(even) { background: #f1f5f9; }\n    tr:hover { background: #ede9fe; }\n    tr:last-child td { font-weight: bold; color: #7c3aed; }\n  </style>\n</head>\n<body>\n  <h1>Student Scores</h1>\n  <table>\n    <thead><tr><th>Student</th><th>Chapter</th><th>Score</th></tr></thead>\n    <tbody>\n      <tr><td>Aarav</td><td>Variables</td><td>94</td></tr>\n      <tr><td>Priya</td><td>Variables</td><td>91</td></tr>\n      <tr><td>Rohan</td><td>Variables</td><td>88</td></tr>\n      <tr><td>Ishita</td><td>Variables</td><td>97</td></tr>\n      <tr><td>Vivaan</td><td>Variables</td><td>85</td></tr>\n      <tr><td>Anika</td><td>Variables</td><td>99</td></tr>\n      <tr><td>Class Average</td><td>---</td><td>92.3</td></tr>\n    </tbody>\n  </table>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "<code>tr:nth-child(even)</code> gives every even-numbered row a light background for zebra striping. <code>tr:hover</code> highlights the row the user is pointing at. <code>tr:last-child td</code> styles the summary row. All three effects come from pseudo-classes with zero extra HTML.",
+        "output": "A clean table with purple header, zebra-striped rows, a subtle hover highlight, and a bold purple summary row at the bottom."
+      },
+      {
+        "title": "Tooltip Using ::after and attr()",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: 'Segoe UI', sans-serif; background: #0f172a; color: #f1f5f9; padding: 80px 40px; display: flex; gap: 40px; justify-content: center; }\n    .tip {\n      position: relative;\n      padding: 12px 24px;\n      background: #7c3aed;\n      color: white;\n      border-radius: 10px;\n      cursor: pointer;\n      font-weight: 600;\n    }\n    .tip::after {\n      content: attr(data-tip);\n      position: absolute;\n      left: 50%;\n      bottom: calc(100% + 10px);\n      transform: translateX(-50%);\n      background: #0b1120;\n      color: #e2e8f0;\n      padding: 8px 14px;\n      border-radius: 8px;\n      font-size: 13px;\n      font-weight: 400;\n      white-space: nowrap;\n      box-shadow: 0 6px 16px rgba(0,0,0,0.4);\n      opacity: 0;\n      pointer-events: none;\n      transition: opacity 0.2s, transform 0.2s;\n    }\n    .tip::before {\n      content: '';\n      position: absolute;\n      left: 50%;\n      bottom: calc(100% + 4px);\n      transform: translateX(-50%);\n      border: 6px solid transparent;\n      border-top-color: #0b1120;\n      opacity: 0;\n      transition: opacity 0.2s;\n    }\n    .tip:hover::after,\n    .tip:hover::before {\n      opacity: 1;\n      transform: translateX(-50%) translateY(-4px);\n    }\n  </style>\n</head>\n<body>\n  <button class=\"tip\" data-tip=\"Meera's latest project\">Hover me</button>\n  <button class=\"tip\" data-tip=\"Click to save changes\">Save</button>\n  <button class=\"tip\" data-tip=\"Warning: this deletes everything\">Delete</button>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Each button has a <code>data-tip</code> attribute. The CSS injects that attribute's text via <code>::after</code> using <code>content: attr(data-tip)</code>. The <code>::before</code> draws a tiny triangle pointer. Both are hidden with opacity: 0 and revealed on hover. No JavaScript, one CSS rule per button.",
+        "output": "Three purple buttons. Hovering any button reveals a dark tooltip above it with a small downward-pointing arrow, showing the text from the data-tip attribute."
+      },
+      {
+        "title": "Custom Blockquote with ::before and ::after",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: 'Georgia', serif; background: #fafaf9; padding: 60px 40px; color: #0f172a; max-width: 720px; margin: 0 auto; }\n    blockquote {\n      position: relative;\n      background: white;\n      padding: 48px 48px 48px 64px;\n      border-left: 5px solid #7c3aed;\n      border-radius: 0 12px 12px 0;\n      font-size: 22px;\n      line-height: 1.5;\n      color: #334155;\n      box-shadow: 0 10px 30px rgba(0,0,0,0.08);\n      margin: 40px 0;\n    }\n    blockquote::before {\n      content: open-quote;\n      position: absolute;\n      top: -20px;\n      left: 12px;\n      font-size: 120px;\n      line-height: 1;\n      color: #a855f7;\n      font-family: 'Georgia', serif;\n    }\n    blockquote::after {\n      content: '';\n      position: absolute;\n      right: 20px; bottom: 20px;\n      width: 40px; height: 3px;\n      background: linear-gradient(90deg, #a855f7, #ec4899);\n      border-radius: 2px;\n    }\n    blockquote cite {\n      display: block;\n      margin-top: 16px;\n      font-size: 14px;\n      color: #7c3aed;\n      font-style: normal;\n      font-weight: 700;\n    }\n  </style>\n</head>\n<body>\n  <blockquote>\n    Learning to code changed how I think about problems. CSS variables and pseudo-elements made me fall in love with design.\n    <cite>- Ishita, age 15</cite>\n  </blockquote>\n  <blockquote>\n    You do not need a JavaScript library for nice quotation marks. ::before and ::after handle it beautifully.\n    <cite>- Meera, age 13</cite>\n  </blockquote>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "<code>::before</code> uses <code>content: open-quote</code> to render a large purple quote mark floating above the top-left. <code>::after</code> draws a small decorative gradient bar in the bottom-right. No extra HTML, and the quotes scale with the text automatically.",
+        "output": "Two elegant blockquotes. Each has a large decorative purple opening quote mark in the top-left, a purple left border, a subtle gradient accent in the bottom-right, and a styled citation."
+      },
+      {
+        "title": "Sliding Underline on Nav Links",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    * { box-sizing: border-box; margin: 0; padding: 0; }\n    body { font-family: 'Segoe UI', sans-serif; background: #0f172a; color: white; min-height: 100vh; }\n    nav { display: flex; gap: 32px; padding: 24px 40px; background: #0b1120; border-bottom: 1px solid #1e293b; }\n    nav a {\n      position: relative;\n      color: #cbd5e1;\n      text-decoration: none;\n      font-size: 16px;\n      padding: 6px 0;\n      transition: color 0.2s;\n    }\n    nav a::after {\n      content: '';\n      position: absolute;\n      left: 0;\n      bottom: 0;\n      width: 100%;\n      height: 2px;\n      background: linear-gradient(90deg, #a855f7, #06b6d4);\n      transform: scaleX(0);\n      transform-origin: right;\n      transition: transform 0.3s ease;\n    }\n    nav a:hover {\n      color: white;\n    }\n    nav a:hover::after {\n      transform: scaleX(1);\n      transform-origin: left;\n    }\n    main { padding: 80px 40px; text-align: center; }\n    h1 { color: #a855f7; font-size: 40px; }\n  </style>\n</head>\n<body>\n  <nav>\n    <a href=\"#\">Home</a>\n    <a href=\"#\">Projects</a>\n    <a href=\"#\">Blog</a>\n    <a href=\"#\">Contact</a>\n  </nav>\n  <main>\n    <h1>Vivaan's Portfolio</h1>\n  </main>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Each nav link has a 2px gradient bar injected via <code>::after</code>. It starts at <code>scaleX(0)</code> (invisible) with <code>transform-origin: right</code>. On hover it scales to 1 with <code>transform-origin: left</code>, creating a slide-in effect. When the mouse leaves, it retracts back to the right. Pure CSS, no JavaScript.",
+        "output": "A navigation bar with 4 links. Hovering any link reveals a gradient bar that slides in from the left. Moving away slides it back out to the right."
+      },
+      {
+        "title": "Form Validation Styling with :valid and :invalid",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 40px; display: flex; justify-content: center; }\n    .form { background: white; padding: 32px; border-radius: 16px; max-width: 400px; width: 100%; box-shadow: 0 10px 30px rgba(0,0,0,0.08); }\n    h2 { color: #0f172a; margin-bottom: 24px; }\n    label { display: block; margin-bottom: 16px; font-size: 13px; color: #475569; }\n    input {\n      display: block;\n      width: 100%;\n      padding: 12px;\n      margin-top: 6px;\n      border: 2px solid #e2e8f0;\n      border-radius: 8px;\n      font-size: 15px;\n      outline: none;\n      transition: border-color 0.2s;\n    }\n    input:focus { border-color: #7c3aed; }\n    input:placeholder-shown { font-style: italic; }\n    input:not(:placeholder-shown):valid { border-color: #10b981; }\n    input:not(:placeholder-shown):invalid { border-color: #ef4444; }\n    input:required + .req::before { content: ' *'; color: #ef4444; }\n    button {\n      width: 100%;\n      padding: 12px;\n      background: #7c3aed;\n      color: white;\n      border: none;\n      border-radius: 8px;\n      font-size: 16px;\n      font-weight: 600;\n      cursor: pointer;\n      margin-top: 8px;\n    }\n    button:disabled { opacity: 0.4; cursor: not-allowed; }\n    form:has(input:invalid) button { opacity: 0.4; cursor: not-allowed; }\n  </style>\n</head>\n<body>\n  <form class=\"form\">\n    <h2>Sign Up</h2>\n    <label>Name<input type=\"text\" placeholder=\"Your name\" minlength=\"2\" required></label>\n    <label>Email<input type=\"email\" placeholder=\"you@example.com\" required></label>\n    <label>Age<input type=\"number\" placeholder=\"10-18\" min=\"10\" max=\"18\" required></label>\n    <button type=\"submit\">Create Account</button>\n  </form>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Inputs get a green border when valid and a red border when invalid — but only once the user has started typing (<code>:not(:placeholder-shown)</code>). The <code>form:has(input:invalid) button</code> rule disables the submit button whenever any input is invalid. All validation styling is pure CSS — no JavaScript.",
+        "output": "A clean signup form. As you type, fields turn green when valid and red when invalid. The submit button is disabled until every field is valid."
+      },
+      {
+        "title": "Ribbon and Badge Effects with ::before",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 40px; display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); max-width: 1000px; margin: 0 auto; }\n    .product {\n      position: relative;\n      background: white;\n      border-radius: 16px;\n      padding: 24px;\n      box-shadow: 0 6px 20px rgba(0,0,0,0.08);\n      overflow: hidden;\n    }\n    .product h3 { color: #0f172a; font-size: 20px; margin-bottom: 8px; }\n    .product p { color: #64748b; font-size: 14px; line-height: 1.6; }\n    .product .price { display: block; margin-top: 16px; font-size: 24px; font-weight: 700; color: #7c3aed; }\n\n    /* Ribbon on the top-right corner */\n    .product.sale::before {\n      content: 'SALE';\n      position: absolute;\n      top: 18px; right: -40px;\n      background: #ef4444;\n      color: white;\n      padding: 6px 46px;\n      font-size: 12px;\n      font-weight: 800;\n      letter-spacing: 1px;\n      transform: rotate(45deg);\n      box-shadow: 0 4px 10px rgba(0,0,0,0.2);\n    }\n\n    /* NEW badge */\n    .product.new::after {\n      content: 'NEW';\n      position: absolute;\n      top: 16px; left: 16px;\n      background: linear-gradient(135deg, #a855f7, #ec4899);\n      color: white;\n      padding: 4px 10px;\n      border-radius: 999px;\n      font-size: 11px;\n      font-weight: 700;\n      letter-spacing: 1px;\n    }\n  </style>\n</head>\n<body>\n  <div class=\"product sale\">\n    <h3>Ishita's HTML Book</h3>\n    <p>Learn HTML and CSS from scratch with 50 projects.</p>\n    <span class=\"price\">Rs 499</span>\n  </div>\n  <div class=\"product new\">\n    <h3>Aarav's CSS Guide</h3>\n    <p>Master CSS variables, Grid, and animations.</p>\n    <span class=\"price\">Rs 399</span>\n  </div>\n  <div class=\"product sale new\">\n    <h3>Kavya's JS Bundle</h3>\n    <p>JavaScript basics to advanced in one bundle.</p>\n    <span class=\"price\">Rs 899</span>\n  </div>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "<code>.product.sale::before</code> injects a rotated red ribbon in the corner. <code>.product.new::after</code> injects a pill-shaped gradient badge in the top-left. The third card uses both classes and shows both decorations at once. No extra markup — just pseudo-elements.",
+        "output": "Three product cards. The first has a diagonal red SALE ribbon in the top-right corner. The second has a purple-pink NEW badge in the top-left. The third has both decorations at the same time."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting the content Property on ::before and ::after",
+        "wrongCode": ".card::before {\n  background: red;\n  width: 20px;\n  height: 20px;\n  /* No content property - nothing renders! */\n}",
+        "error": "The pseudo-element does not appear at all. Without <code>content</code>, <code>::before</code> and <code>::after</code> are not generated by the browser.",
+        "correctCode": ".card::before {\n  content: '';  /* Even an empty string works */\n  background: red;\n  width: 20px;\n  height: 20px;\n  display: block;\n}",
+        "explanation": "The <code>content</code> property is <em>required</em> for <code>::before</code> and <code>::after</code>. An empty string <code>content: ''</code> is fine when you only want a decorative shape. Without content, the browser simply does not render the pseudo-element."
+      },
+      {
+        "title": "Misreading :nth-child() Formulas",
+        "wrongCode": "/* Wanted every 3rd row, starting from the first */\ntr:nth-child(3n) {\n  background: #f1f5f9;\n}\n/* This selects the 3rd, 6th, 9th... - NOT the 1st, 4th, 7th! */",
+        "error": "The pattern starts at row 3 instead of row 1. <code>3n</code> means 3, 6, 9, 12 (n starting at 1 internally, or 0 giving 0 which does not exist).",
+        "correctCode": "tr:nth-child(3n+1) {\n  background: #f1f5f9;\n  /* Now selects 1st, 4th, 7th... */\n}",
+        "explanation": "The formula is <code>an+b</code> where n goes 0, 1, 2, 3... and the result must be a positive integer. <code>3n+1</code> gives 1, 4, 7, 10. <code>3n</code> gives 3, 6, 9. Sketch a few values to check your formula."
+      },
+      {
+        "title": "Single Colon vs Double Colon Confusion",
+        "wrongCode": ".card:before {\n  content: 'NEW';\n}\n/* This works but is the old syntax */",
+        "error": "It still works in most browsers for backwards compatibility, but it mixes up the meaning of pseudo-classes (single colon) and pseudo-elements (double colon).",
+        "correctCode": ".card::before {\n  content: 'NEW';\n}\n/* Modern CSS3 syntax - use this */",
+        "explanation": "Pseudo-classes use one colon (<code>:hover</code>, <code>:first-child</code>). Pseudo-elements use two colons (<code>::before</code>, <code>::after</code>, <code>::first-letter</code>). The double colon was introduced in CSS3 to distinguish them. Always use two colons for pseudo-elements in new code."
+      },
+      {
+        "title": "Using :hover on Interactive States Alone (No Keyboard Support)",
+        "wrongCode": "button:hover {\n  background: purple;\n  outline: 2px solid cyan;\n}\n/* Keyboard users see no feedback! */",
+        "error": "Users who navigate with the keyboard (Tab key) get no visual feedback because only <code>:hover</code> is styled, not <code>:focus</code>.",
+        "correctCode": "button:hover,\nbutton:focus-visible {\n  background: purple;\n  outline: 2px solid cyan;\n}",
+        "explanation": "Always pair <code>:hover</code> with <code>:focus-visible</code> (or <code>:focus</code>) so keyboard users see the same affordance as mouse users. <code>:focus-visible</code> is preferred because it only shows the ring for keyboard focus, not for mouse clicks."
+      }
+    ],
+    "summary": [
+      "Pseudo-classes (single colon, like <code>:hover</code>, <code>:focus</code>, <code>:nth-child</code>) select elements based on state or position. Pseudo-elements (double colon, like <code>::before</code>, <code>::after</code>, <code>::first-letter</code>) target parts of an element or inject new content.",
+      "<code>:hover</code>, <code>:focus</code>, <code>:focus-visible</code>, <code>:active</code>, <code>:disabled</code>, and <code>:checked</code> handle the majority of interactive UI states without JavaScript. Always pair <code>:hover</code> with <code>:focus-visible</code> for accessibility.",
+      "Form validation styling is free: <code>:valid</code>, <code>:invalid</code>, <code>:required</code>, and <code>:placeholder-shown</code> let you show live feedback as the user types. Combine <code>:not(:placeholder-shown)</code> with <code>:invalid</code> to only show red after the user has started typing.",
+      "<code>:nth-child(an+b)</code> is a tiny query language: <code>odd</code>, <code>even</code>, <code>2n</code>, <code>3n+1</code>, etc. Use it for zebra stripes, grid patterns, and highlighting specific items without extra classes.",
+      "<code>:not()</code> excludes, <code>:is()</code> groups selectors without rewriting them, and <code>:where()</code> is like <code>:is()</code> but with zero specificity (useful for base styles that are easy to override).",
+      "<code>:has()</code> is the parent selector — finally. Style an element based on what it contains: <code>form:has(:invalid) button</code>, <code>.card:has(img)</code>, <code>label:has(input:checked)</code>. This used to require JavaScript.",
+      "<code>::before</code> and <code>::after</code> require a <code>content</code> property to render. Even <code>content: ''</code> is enough for a pure decoration. They can read attributes with <code>content: attr(data-tip)</code> — perfect for tooltips.",
+      "<code>::first-letter</code> and <code>::first-line</code> style the first character or line of a paragraph (drop caps, magazine styling). <code>::selection</code> styles highlighted text. <code>::placeholder</code> styles form placeholders. <code>::marker</code> styles list bullets or numbers.",
+      "Creative patterns are mostly pseudo-elements: ribbons, badges, tooltips, sliding underlines, quote marks, custom bullets, decorative lines. All without adding a single extra HTML element."
+    ]
+  },
+  "relatedTopics": ["css-selectors-and-specificity", "css-animations-and-keyframes", "modern-css-features"],
+  "practice": {
+    "totalQuestions": 56,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this select?<br><pre><code>button:hover { background: purple; }</code></pre>",
+        "hint": "Think about when.",
+        "answer": "Buttons when the mouse is pointing at them. The background turns purple during hover and reverts when the mouse leaves.",
+        "explanation": "<code>:hover</code> is a state pseudo-class. Styles inside it apply only while the user's pointer is over the element."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many colons before 'before'?<br><pre><code>.card___before { content: ''; }</code></pre>",
+        "hint": "Pseudo-elements got a double colon in CSS3.",
+        "answer": "Two colons: <code>.card::before</code>.",
+        "explanation": "Pseudo-elements use two colons in CSS3+ (<code>::before</code>, <code>::after</code>). Pseudo-classes use one colon (<code>:hover</code>, <code>:focus</code>)."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>li:first-child</code> select?",
+        "hint": "Which one in the list?",
+        "answer": "The first <code>li</code> inside its parent.",
+        "explanation": "<code>:first-child</code> matches an element that is the first child of its parent. It is common for removing top borders or styling headers differently."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>::before</code> need to actually render?",
+        "hint": "A required property.",
+        "answer": "The <code>content</code> property. Even <code>content: ''</code> (empty string) works.",
+        "explanation": "Without <code>content</code>, the browser does not generate the pseudo-element. For purely decorative shapes, use <code>content: ''</code> and set width, height, background, and position."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which rows does this style?<br><pre><code>tr:nth-child(odd) { background: #f1f5f9; }</code></pre>",
+        "hint": "Odd means 1, 3, 5...",
+        "answer": "Rows 1, 3, 5, 7... (the 1st, 3rd, 5th, etc.)",
+        "explanation": "<code>odd</code> is a keyword for <code>2n+1</code>. It selects every other row starting with the first."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>input:checked</code> select?",
+        "hint": "For checkboxes and radios.",
+        "answer": "Checkboxes and radio buttons that are currently ticked.",
+        "explanation": "<code>:checked</code> matches checkbox or radio inputs in the checked state, and also <code>&lt;option&gt;</code> elements that are selected."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>a:visited</code> target?",
+        "hint": "Browser history.",
+        "answer": "Links the user has already visited (according to browser history).",
+        "explanation": "For privacy reasons, browsers restrict what <code>:visited</code> can style — typically only color, background-color, border-color, and outline-color."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which element does <code>p::first-letter</code> target?",
+        "hint": "Drop caps.",
+        "answer": "The very first character of the paragraph.",
+        "explanation": "<code>::first-letter</code> is used for magazine-style drop caps. You can make it large, colored, and floated."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the difference between <code>:focus</code> and <code>:focus-visible</code>?",
+        "hint": "Mouse vs keyboard.",
+        "answer": "<code>:focus</code> matches any focused element (including clicks). <code>:focus-visible</code> only matches when the browser determines the focus is keyboard-driven, so mouse users do not see outlines.",
+        "explanation": "<code>:focus-visible</code> is the modern choice for focus rings: accessible for keyboard users, invisible for mouse users. Pair it with <code>:hover</code> for full interaction feedback."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why is <code>content: attr(data-tip)</code> powerful?",
+        "hint": "It reads from HTML.",
+        "answer": "It lets a pseudo-element display text from an HTML attribute. Each element can have different tooltip text set via <code>data-tip=\"...\"</code>, and one CSS rule handles them all.",
+        "explanation": "<code>attr()</code> reads the value of an HTML attribute and inserts it as content. It is the easiest way to build attribute-driven tooltips without JavaScript."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Which items does this select?<br><pre><code>li:nth-child(3n+2) { color: red; }</code></pre>",
+        "hint": "Start n at 0: 3(0)+2, 3(1)+2, 3(2)+2...",
+        "answer": "Items 2, 5, 8, 11...",
+        "explanation": "n starts at 0: 3(0)+2 = 2, 3(1)+2 = 5, 3(2)+2 = 8, 3(3)+2 = 11. So every third item starting from the second."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this do?<br><pre><code>li:not(.active) { opacity: 0.5; }</code></pre>",
+        "hint": "Negation.",
+        "answer": "Makes every <code>li</code> that does NOT have the class <code>active</code> 50% transparent. The active item stays fully visible.",
+        "explanation": "<code>:not(selector)</code> excludes elements matching the inner selector. This is a clean way to dim non-active items without adding a second class."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What selector groups these?<br><pre><code>h1, h2, h3 { font-family: 'Syne'; }</code></pre>",
+        "hint": "Use a function that groups.",
+        "answer": "<code>:is(h1, h2, h3) { font-family: 'Syne'; }</code>",
+        "explanation": "<code>:is()</code> groups selectors in one place. It is especially useful for complex combinations: <code>:is(header, footer) :is(h1, h2)</code> is shorter than writing all four combinations out."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>:is()</code> and <code>:where()</code>?",
+        "hint": "Specificity.",
+        "answer": "<code>:is()</code> takes the highest specificity of its arguments. <code>:where()</code> has zero specificity, which makes it easy to override.",
+        "explanation": "<code>:where()</code> is perfect for base styles in component libraries: they apply but are trivial to override. <code>:is()</code> is for when you want normal specificity."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this select?<br><pre><code>label:has(input:checked) { background: #7c3aed; }</code></pre>",
+        "hint": ":has() is the parent selector.",
+        "answer": "Labels that contain a checked input. The label itself turns purple when the checkbox inside it is ticked.",
+        "explanation": "<code>:has()</code> finally lets CSS look inward and style a parent based on its descendants. This used to require JavaScript to add a class to the label."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What renders here?<br><pre><code>.new::after {\n  content: 'NEW';\n  color: red;\n}</code></pre>",
+        "hint": "Injected text.",
+        "answer": "The text 'NEW' in red appears at the end of every element with class <code>new</code>.",
+        "explanation": "<code>::after</code> injects a pseudo-element at the end of the element's content. Its <code>content</code> property specifies what to show."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Is this valid? <br><pre><code>input:invalid { border-color: red; }</code></pre>",
+        "hint": "Form validation pseudo-class.",
+        "answer": "Yes. <code>:invalid</code> matches form inputs whose value does not satisfy their validation rules (email, required, minlength, min/max, pattern, etc.).",
+        "explanation": "<code>:invalid</code> is a pseudo-class that activates when the input's current value fails validation. Pair it with <code>:not(:placeholder-shown)</code> so empty fields do not show red immediately."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens when the user selects text?<br><pre><code>::selection { background: #a855f7; color: white; }</code></pre>",
+        "hint": "Highlighted text styling.",
+        "answer": "When the user highlights any text on the page, the background becomes purple and the text becomes white.",
+        "explanation": "<code>::selection</code> styles text that is currently selected by the user. It is a quick way to customize the highlight color to match your brand."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this style?<br><pre><code>li::marker { color: #7c3aed; font-size: 1.3em; }</code></pre>",
+        "hint": "List item decoration.",
+        "answer": "The bullet point (or number) of each list item becomes purple and slightly larger.",
+        "explanation": "<code>::marker</code> targets the bullet or number of a list item. It was very limited historically; now you can color and size it directly without extra markup."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>div:empty { display: none; }</code> do?",
+        "hint": "Empty means no content at all.",
+        "answer": "Any <code>div</code> that has no content (no text, no children, not even whitespace) is hidden.",
+        "explanation": "<code>:empty</code> matches elements with no children and no text. Useful for auto-hiding container elements that might or might not have content depending on data."
+      },
+      {
+        "id": "ts-21",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this do?<br><pre><code>section:target { background: #fef3c7; }</code></pre>",
+        "hint": "URL fragments.",
+        "answer": "When the URL contains <code>#sectionId</code> matching the section's id, that section gets a yellow background.",
+        "explanation": "<code>:target</code> matches the element whose id matches the URL fragment. It is perfect for highlighting the currently-linked section in a table of contents."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Which elements does this style?<br><pre><code>input:placeholder-shown { font-style: italic; }</code></pre>",
+        "hint": "When the placeholder is visible.",
+        "answer": "Inputs that are currently showing their placeholder (i.e., empty inputs with a placeholder attribute).",
+        "explanation": "<code>:placeholder-shown</code> matches inputs that are displaying their placeholder — essentially, empty inputs. Combined with <code>:not()</code>, it can tell you 'the user has typed something'."
+      },
+      {
+        "id": "ts-23",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why should you pair <code>:hover</code> with <code>:focus-visible</code>?",
+        "hint": "Keyboard users.",
+        "answer": "Keyboard users cannot hover. Pairing <code>:hover</code> with <code>:focus-visible</code> ensures they see the same feedback as mouse users when they tab to an element.",
+        "explanation": "Accessibility: every interactive element should show feedback for both pointer and keyboard input. <code>:focus-visible</code> is specifically for keyboard-driven focus and does not trigger on mouse clicks."
+      },
+      {
+        "id": "ts-24",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the purpose of <code>:where()</code> in a CSS library?",
+        "hint": "Think about overrides.",
+        "answer": "<code>:where()</code> has zero specificity, so base styles inside it are trivially overridable by the user's own CSS. Libraries use it to provide defaults that do not fight with user code.",
+        "explanation": "Specificity wars are a top pain point in large codebases. <code>:where()</code> lets libraries ship sensible defaults that the user can override with even the simplest selectors."
+      },
+      {
+        "id": "ts-25",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this select?<br><pre><code>article p:first-of-type::first-line { font-weight: bold; }</code></pre>",
+        "hint": "Combine a pseudo-class and a pseudo-element.",
+        "answer": "The first line of text in the first <code>p</code> element inside any <code>article</code>. Just that first line is bold.",
+        "explanation": "Pseudo-classes and pseudo-elements can stack. <code>:first-of-type</code> picks the first p; <code>::first-line</code> narrows to just its visual first line. Classic magazine lead-in styling."
+      },
+      {
+        "id": "ts-26",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this select?<br><pre><code>form:has(input:invalid) button[type=\"submit\"] { opacity: 0.4; pointer-events: none; }</code></pre>",
+        "hint": ":has() checks descendants.",
+        "answer": "The submit button of any form that contains an invalid input. The button becomes faded and unclickable until all inputs become valid.",
+        "explanation": "This is a classic <code>:has()</code> use case: disable submit while any field is invalid, no JavaScript required. The parent selector was the missing piece of CSS for years."
+      },
+      {
+        "id": "ts-27",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is odd about this?<br><pre><code>.cards > div:nth-child(3n) { border: 2px solid red; }</code></pre>",
+        "hint": "Direct children only.",
+        "answer": "Only direct <code>div</code> children of <code>.cards</code> are considered. Nested divs inside other children are ignored. Every third direct child gets a red border.",
+        "explanation": "The <code>&gt;</code> combinator limits the selection to direct children. Combined with <code>:nth-child(3n)</code>, you target every third direct div, skipping descendants."
+      },
+      {
+        "id": "ts-28",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Does this work as an animated underline?<br><pre><code>a::after {\n  content: '';\n  display: block;\n  width: 0;\n  height: 2px;\n  background: #a855f7;\n  transition: width 0.3s;\n}\na:hover::after { width: 100%; }</code></pre>",
+        "hint": "Yes, but check direction.",
+        "answer": "Yes. On hover, the underline grows from width 0 to 100% over 0.3s. The direction is left-to-right (default origin).",
+        "explanation": "You can animate <code>width</code> on pseudo-elements. For a scaleX-based approach (smoother), use <code>transform: scaleX(0)</code> with <code>transform-origin</code>."
+      },
+      {
+        "id": "ts-29",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is wrong with this?<br><pre><code>.product.sale::before {\n  content: 'SALE';\n}\n.product::before {\n  content: '';\n  background: #f0f0f0;\n  width: 100%; height: 100%;\n}</code></pre>",
+        "hint": "Only one ::before per element.",
+        "answer": "An element can only have ONE <code>::before</code>. The more specific selector wins. You cannot have two ::before pseudo-elements on the same element stacking.",
+        "explanation": "Each element has exactly one <code>::before</code> and one <code>::after</code>. If multiple rules apply, they merge via normal cascade rules — the most specific wins. To have multiple decorations, use <code>::before</code> and <code>::after</code> together, or wrap with another element."
+      },
+      {
+        "id": "ts-30",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "How would you disable a submit button while any form input is invalid, without JavaScript?",
+        "hint": "Use :has() and :invalid.",
+        "answer": "<code>form:has(:invalid) button[type=\"submit\"] { opacity: 0.4; pointer-events: none; }</code>",
+        "explanation": "<code>:has()</code> walks up to the form and checks for an invalid descendant. <code>:invalid</code> matches any input that fails its HTML5 validation rules. Pure CSS, reactive to typing."
+      },
+      {
+        "id": "ts-31",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is <code>:hover</code> a bad idea as the only interaction trigger on mobile?",
+        "hint": "Touch devices.",
+        "answer": "Touch devices do not have a persistent hover state. A finger tap is a click, not a hover. Relying only on <code>:hover</code> to reveal important content makes mobile users miss it entirely.",
+        "explanation": "On touch devices, <code>:hover</code> fires briefly (or not at all) on tap. Always make important content reachable by tap/click, and treat hover effects as a bonus for pointer users."
+      },
+      {
+        "id": "ts-32",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What problem does <code>::first-letter</code> solve that extra HTML would also solve?",
+        "hint": "Semantics.",
+        "answer": "It styles the first character for a drop cap effect without wrapping it in a <code>&lt;span&gt;</code>. Keeps the HTML clean and semantic — the visual decoration does not pollute the content.",
+        "explanation": "Separation of concerns: HTML holds content, CSS holds decoration. <code>::first-letter</code> lets you achieve the drop cap in CSS alone, avoiding meaningless wrapper spans in your markup."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which selector styles the first child of its parent?",
+        "options": {
+          "A": ":first-of",
+          "B": ":first-child",
+          "C": ":child-first",
+          "D": ":only-child"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>:first-child</code> matches an element that is the first child of its parent."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "How many colons does a pseudo-element use in modern CSS?",
+        "options": {
+          "A": "Zero",
+          "B": "One",
+          "C": "Two",
+          "D": "Three"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Pseudo-elements use two colons (<code>::before</code>, <code>::after</code>, <code>::first-letter</code>) in CSS3+. Pseudo-classes use one colon."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What property is required for <code>::before</code> to render?",
+        "options": {
+          "A": "display",
+          "B": "content",
+          "C": "visibility",
+          "D": "position"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without a <code>content</code> property, <code>::before</code> and <code>::after</code> do not render at all. Even <code>content: ''</code> is enough."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which pseudo-class matches when the mouse is over the element?",
+        "options": {
+          "A": ":click",
+          "B": ":hover",
+          "C": ":point",
+          "D": ":over"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>:hover</code> matches when the pointer is over the element and is one of the most common interaction styles."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which selector picks every even list item?",
+        "options": {
+          "A": "li:nth-child(even)",
+          "B": "li:even-child",
+          "C": "li:even",
+          "D": "li::even"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>:nth-child(even)</code> matches every even child (2nd, 4th, 6th...). <code>odd</code> and formulas like <code>2n+1</code> also work."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which pseudo-class matches a checked checkbox?",
+        "options": {
+          "A": ":selected",
+          "B": ":checked",
+          "C": ":ticked",
+          "D": ":active"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>:checked</code> matches checkboxes and radios that are currently in the checked state, as well as selected options."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "How do you style selected text on a page?",
+        "options": {
+          "A": ":selected",
+          "B": "::highlight",
+          "C": "::selection",
+          "D": ":active"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>::selection</code> styles text that the user has currently highlighted."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Easy",
+        "question": "Which selector targets the placeholder text inside an input?",
+        "options": {
+          "A": "input:placeholder",
+          "B": "input::placeholder",
+          "C": "input.placeholder",
+          "D": "input:hint"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>::placeholder</code> is a pseudo-element (double colon) that styles the placeholder text inside form inputs."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does <code>li:nth-child(3n)</code> select?",
+        "options": {
+          "A": "The first 3 items",
+          "B": "Items 1, 2, 3",
+          "C": "Every 3rd item (3, 6, 9...)",
+          "D": "Items after the third"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>3n</code> with n starting at 0 gives 0, 3, 6, 9... The 0th does not exist, so the pattern is 3rd, 6th, 9th, etc."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "How do you read an HTML attribute as content inside ::after?",
+        "options": {
+          "A": "content: var(data-tip)",
+          "B": "content: attr(data-tip)",
+          "C": "content: $data-tip",
+          "D": "content: @data-tip"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>attr()</code> reads an HTML attribute value. It is the standard way to drive tooltips and badges from <code>data-*</code> attributes."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Which selector has zero specificity?",
+        "options": {
+          "A": ":is()",
+          "B": ":not()",
+          "C": ":where()",
+          "D": ":has()"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>:where()</code> has zero specificity, making its styles trivially overridable. <code>:is()</code> takes the specificity of its most specific argument."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "What does <code>form:has(:invalid) button</code> select?",
+        "options": {
+          "A": "Buttons that are invalid",
+          "B": "Buttons inside a form that contains any invalid field",
+          "C": "Invalid forms only",
+          "D": "Nothing - :has() does not exist"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>:has()</code> is the parent selector: it matches a form that contains an invalid descendant, then the rule applies to buttons inside that form."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "Which pseudo-class only applies when the focus came from the keyboard?",
+        "options": {
+          "A": ":focus",
+          "B": ":focus-visible",
+          "C": ":keyboard",
+          "D": ":tab"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>:focus-visible</code> is shown only when the browser determines the focus is keyboard-driven, keeping the UI clean for mouse users while remaining accessible."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "Which selector matches the element whose id is the URL fragment?",
+        "options": {
+          "A": ":anchor",
+          "B": ":url",
+          "C": ":target",
+          "D": ":fragment"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>:target</code> matches the element whose id corresponds to the current URL fragment (the part after <code>#</code>)."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "What does <code>:not(.active)</code> match?",
+        "options": {
+          "A": "Elements with class active",
+          "B": "Elements without the class active",
+          "C": "All elements",
+          "D": "Only the active element"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>:not(selector)</code> matches elements that do NOT match the inner selector. This is a clean way to style everything except one item."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Can you have two <code>::before</code> pseudo-elements on the same element?",
+        "options": {
+          "A": "Yes, they stack",
+          "B": "No, an element has only one ::before",
+          "C": "Yes, if they have different content",
+          "D": "Only with JavaScript"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Each element has exactly one <code>::before</code> and one <code>::after</code>. Multiple rules for the same pseudo-element merge via normal cascade."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "Which selector picks only the first paragraph inside each article?",
+        "options": {
+          "A": "article p:first",
+          "B": "article p:first-child",
+          "C": "article p:first-of-type",
+          "D": "Both B and C can work - C is safer if the article has other elements first"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> <code>:first-child</code> only matches if the <code>p</code> is literally the first child. <code>:first-of-type</code> matches the first p regardless of what other elements come before it. Choose based on your HTML."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What does <code>input:not(:placeholder-shown):invalid</code> match?",
+        "options": {
+          "A": "Empty inputs",
+          "B": "Inputs the user has typed in AND which are currently invalid",
+          "C": "All invalid inputs",
+          "D": "All inputs with placeholders"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>:not(:placeholder-shown)</code> means 'the placeholder is NOT showing', i.e., the input has content. Combined with <code>:invalid</code>, it only shows red errors after the user starts typing."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Zebra-Striped Leaderboard",
+        "difficulty": "Easy",
+        "description": "Build a leaderboard table with 8 students (Aarav, Priya, Rohan, Ishita, Vivaan, Anika, Kavya, Meera). Use <code>:nth-child(even)</code> for zebra stripes, <code>:hover</code> to highlight the row the mouse is on, and <code>:first-child</code> to make the top row (the winner) stand out with a gold background.",
+        "sampleInput": "None",
+        "sampleOutput": "A leaderboard with alternating rows, a highlighted winner row, and a hover effect on each row.",
+        "constraints": "Use only pseudo-classes. No extra classes on rows.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 40px; }\n  h1 { color: #7c3aed; text-align: center; margin-bottom: 20px; }\n  table { border-collapse: collapse; width: 100%; max-width: 600px; margin: 0 auto; background: white; border-radius: 14px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.08); }\n  th { background: #0f172a; color: white; padding: 16px; text-align: left; }\n  td { padding: 14px 16px; color: #334155; }\n  tbody tr:nth-child(even) { background: #f1f5f9; }\n  tbody tr:hover { background: #ede9fe; cursor: pointer; }\n  tbody tr:first-child { background: linear-gradient(90deg, #fef3c7, #fde68a); font-weight: bold; }\n  tbody tr:first-child td:first-child::before { content: 'Winner! '; color: #d97706; }\n</style>\n</head>\n<body>\n  <h1>Weekly Leaderboard</h1>\n  <table>\n    <thead><tr><th>Rank</th><th>Student</th><th>Score</th></tr></thead>\n    <tbody>\n      <tr><td>1</td><td>Kavya</td><td>99</td></tr>\n      <tr><td>2</td><td>Ishita</td><td>97</td></tr>\n      <tr><td>3</td><td>Aarav</td><td>94</td></tr>\n      <tr><td>4</td><td>Priya</td><td>91</td></tr>\n      <tr><td>5</td><td>Meera</td><td>89</td></tr>\n      <tr><td>6</td><td>Rohan</td><td>88</td></tr>\n      <tr><td>7</td><td>Vivaan</td><td>85</td></tr>\n      <tr><td>8</td><td>Anika</td><td>82</td></tr>\n    </tbody>\n  </table>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Custom Tooltip with ::after",
+        "difficulty": "Easy",
+        "description": "Create 4 buttons with different hover tooltips. The tooltip text must come from a <code>data-tip</code> attribute using <code>content: attr(data-tip)</code>. The tooltip should appear above the button on hover with a small arrow pointing down, and fade in smoothly.",
+        "sampleInput": "Hover over any button",
+        "sampleOutput": "A dark tooltip with the attribute text appears above the button with a fade-in animation and an arrow.",
+        "constraints": "Use ::after for the tooltip body, ::before for the arrow. Use attr() for content. No JavaScript.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { font-family: 'Segoe UI', sans-serif; background: #0f172a; padding: 100px 40px; display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; }\n  .btn { position: relative; padding: 14px 24px; background: #7c3aed; color: white; border: none; border-radius: 10px; font-weight: 600; cursor: pointer; font-size: 15px; }\n  .btn::after {\n    content: attr(data-tip);\n    position: absolute;\n    left: 50%;\n    bottom: calc(100% + 12px);\n    transform: translateX(-50%);\n    background: #0b1120;\n    color: #e2e8f0;\n    padding: 8px 14px;\n    border-radius: 8px;\n    font-size: 13px;\n    white-space: nowrap;\n    box-shadow: 0 8px 20px rgba(0,0,0,0.4);\n    opacity: 0;\n    pointer-events: none;\n    transition: opacity 0.2s, transform 0.2s;\n  }\n  .btn::before {\n    content: '';\n    position: absolute;\n    left: 50%;\n    bottom: calc(100% + 6px);\n    transform: translateX(-50%);\n    border: 6px solid transparent;\n    border-top-color: #0b1120;\n    opacity: 0;\n    transition: opacity 0.2s;\n  }\n  .btn:hover::after, .btn:hover::before {\n    opacity: 1;\n    transform: translateX(-50%) translateY(-4px);\n  }\n</style>\n</head>\n<body>\n  <button class=\"btn\" data-tip=\"Start Aarav's quiz now\">Start Quiz</button>\n  <button class=\"btn\" data-tip=\"Save Priya's progress\">Save</button>\n  <button class=\"btn\" data-tip=\"Export Rohan's report\">Export</button>\n  <button class=\"btn\" data-tip=\"Warning: Delete Ishita's project\">Delete</button>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Form Validation Styling",
+        "difficulty": "Medium",
+        "description": "Build a sign-up form with 4 inputs (name, email, age, password). Use <code>:valid</code> and <code>:invalid</code> to show green/red borders. Use <code>:not(:placeholder-shown)</code> so empty fields do not show red. Use <code>form:has(:invalid)</code> to disable the submit button while any field is invalid. No JavaScript at all.",
+        "sampleInput": "Type into fields",
+        "sampleOutput": "Fields turn green when valid, red when invalid. Submit button is disabled until all fields are valid.",
+        "constraints": "Zero JavaScript. Use only pseudo-classes and :has().",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 40px; display: flex; justify-content: center; }\n  form { background: white; padding: 32px; border-radius: 16px; max-width: 420px; width: 100%; box-shadow: 0 10px 30px rgba(0,0,0,0.08); }\n  h2 { color: #0f172a; margin-bottom: 20px; }\n  label { display: block; margin-bottom: 16px; font-size: 13px; color: #475569; }\n  input {\n    display: block;\n    width: 100%;\n    padding: 12px;\n    margin-top: 6px;\n    border: 2px solid #e2e8f0;\n    border-radius: 8px;\n    font-size: 15px;\n    outline: none;\n    transition: border-color 0.2s;\n  }\n  input:focus { border-color: #7c3aed; }\n  input:placeholder-shown { font-style: italic; color: #94a3b8; }\n  input:not(:placeholder-shown):valid { border-color: #10b981; }\n  input:not(:placeholder-shown):invalid { border-color: #ef4444; }\n  button {\n    width: 100%;\n    padding: 12px;\n    background: #7c3aed;\n    color: white;\n    border: none;\n    border-radius: 8px;\n    font-size: 16px;\n    font-weight: 600;\n    cursor: pointer;\n    margin-top: 8px;\n    transition: opacity 0.2s;\n  }\n  form:has(input:invalid) button {\n    opacity: 0.4;\n    cursor: not-allowed;\n    pointer-events: none;\n  }\n</style>\n</head>\n<body>\n  <form>\n    <h2>Vivaan's Sign Up</h2>\n    <label>Name<input type=\"text\" placeholder=\"Your full name\" minlength=\"2\" required></label>\n    <label>Email<input type=\"email\" placeholder=\"you@example.com\" required></label>\n    <label>Age<input type=\"number\" placeholder=\"10 to 18\" min=\"10\" max=\"18\" required></label>\n    <label>Password<input type=\"password\" placeholder=\"At least 6 characters\" minlength=\"6\" required></label>\n    <button type=\"submit\">Create Account</button>\n  </form>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Sliding Underline Navigation",
+        "difficulty": "Medium",
+        "description": "Build a horizontal nav with 5 links (Home, Projects, Blog, About, Contact). Each link should have an animated gradient underline that slides in from the left on hover and slides out to the right on mouse leave. Use <code>::after</code> with transform scaleX and transform-origin.",
+        "sampleInput": "Hover over nav links",
+        "sampleOutput": "A gradient underline slides in from the left on hover and retracts to the right when leaving.",
+        "constraints": "No JavaScript. Use ::after for the underline. Use transform-origin for direction.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n  body { font-family: 'Segoe UI', sans-serif; background: #0f172a; color: white; min-height: 100vh; }\n  nav { display: flex; gap: 40px; padding: 28px 48px; background: #0b1120; border-bottom: 1px solid #1e293b; }\n  nav a {\n    position: relative;\n    color: #cbd5e1;\n    text-decoration: none;\n    font-size: 16px;\n    padding: 8px 0;\n    transition: color 0.2s;\n  }\n  nav a::after {\n    content: '';\n    position: absolute;\n    left: 0;\n    bottom: 0;\n    width: 100%;\n    height: 3px;\n    background: linear-gradient(90deg, #a855f7, #06b6d4);\n    transform: scaleX(0);\n    transform-origin: right;\n    transition: transform 0.35s ease;\n  }\n  nav a:hover { color: white; }\n  nav a:hover::after {\n    transform: scaleX(1);\n    transform-origin: left;\n  }\n  main { padding: 80px 48px; text-align: center; }\n  main h1 { color: #a855f7; font-size: 44px; background: linear-gradient(135deg, #a855f7, #06b6d4); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }\n  main p { color: #94a3b8; margin-top: 12px; }\n</style>\n</head>\n<body>\n  <nav>\n    <a href=\"#\">Home</a>\n    <a href=\"#\">Projects</a>\n    <a href=\"#\">Blog</a>\n    <a href=\"#\">About</a>\n    <a href=\"#\">Contact</a>\n  </nav>\n  <main>\n    <h1>Anika's Portfolio</h1>\n    <p>Hover over the nav links above to see the sliding underline effect.</p>\n  </main>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Product Cards with Ribbons and Badges",
+        "difficulty": "Hard",
+        "description": "Build a grid of 4 product cards. Each card has a title, description, and price. Use <code>::before</code> to add a diagonal 'SALE' ribbon in the top-right corner on <code>.sale</code> cards. Use <code>::after</code> to add a gradient 'NEW' pill badge on <code>.new</code> cards. One card should have both. Use Indian-themed product names.",
+        "sampleInput": "None",
+        "sampleOutput": "Four product cards with different combinations of SALE ribbon and NEW badge.",
+        "constraints": "Use ::before for ribbon, ::after for badge. No extra HTML elements for the decorations.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 40px; display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); max-width: 1000px; margin: 0 auto; }\n  .product {\n    position: relative;\n    background: white;\n    border-radius: 16px;\n    padding: 24px;\n    box-shadow: 0 6px 20px rgba(0,0,0,0.08);\n    overflow: hidden;\n    transition: transform 0.2s;\n  }\n  .product:hover { transform: translateY(-4px); }\n  .product h3 { color: #0f172a; font-size: 20px; margin-bottom: 8px; }\n  .product p { color: #64748b; font-size: 14px; line-height: 1.6; }\n  .product .price { display: block; margin-top: 16px; font-size: 24px; font-weight: 700; color: #7c3aed; }\n  .product.sale::before {\n    content: 'SALE';\n    position: absolute;\n    top: 22px; right: -44px;\n    background: #ef4444;\n    color: white;\n    padding: 6px 50px;\n    font-size: 12px;\n    font-weight: 800;\n    letter-spacing: 2px;\n    transform: rotate(45deg);\n    box-shadow: 0 4px 12px rgba(0,0,0,0.2);\n  }\n  .product.new::after {\n    content: 'NEW';\n    position: absolute;\n    top: 16px; left: 16px;\n    background: linear-gradient(135deg, #a855f7, #ec4899);\n    color: white;\n    padding: 4px 12px;\n    border-radius: 999px;\n    font-size: 11px;\n    font-weight: 700;\n    letter-spacing: 1px;\n    box-shadow: 0 2px 8px rgba(168, 85, 247, 0.4);\n  }\n</style>\n</head>\n<body>\n  <div class=\"product sale\">\n    <h3>Aarav's HTML Workbook</h3>\n    <p>50 hands-on projects to master HTML from scratch.</p>\n    <span class=\"price\">Rs 499</span>\n  </div>\n  <div class=\"product new\">\n    <h3>Priya's CSS Masterclass</h3>\n    <p>Grid, Flexbox, variables, and animations in one guide.</p>\n    <span class=\"price\">Rs 399</span>\n  </div>\n  <div class=\"product sale new\">\n    <h3>Ishita's JS Bundle</h3>\n    <p>JavaScript basics to advanced topics with 25 projects.</p>\n    <span class=\"price\">Rs 899</span>\n  </div>\n  <div class=\"product\">\n    <h3>Rohan's Portfolio Template</h3>\n    <p>A modern portfolio theme you can customize easily.</p>\n    <span class=\"price\">Rs 299</span>\n  </div>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Pure CSS Accordion with :has() and :target",
+        "difficulty": "Hard",
+        "description": "Build a FAQ accordion with 4 questions using only HTML and CSS. Use <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code> elements. Style the open state with <code>[open]</code> or <code>::marker</code>. Use <code>::before</code> to add a plus/minus indicator that changes when the section is expanded. No JavaScript.",
+        "sampleInput": "Click a question to expand it",
+        "sampleOutput": "A clean FAQ with plus icons that turn into minus icons when expanded, and smooth hover states.",
+        "constraints": "Use only HTML and CSS. Use details/summary. Use pseudo-elements for the indicator.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 40px; max-width: 680px; margin: 0 auto; }\n  h1 { color: #7c3aed; text-align: center; margin-bottom: 24px; }\n  details {\n    background: white;\n    border: 1px solid #e2e8f0;\n    border-radius: 12px;\n    margin-bottom: 12px;\n    overflow: hidden;\n    transition: box-shadow 0.2s;\n  }\n  details:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.08); }\n  details[open] { box-shadow: 0 10px 30px rgba(124, 58, 237, 0.15); border-color: #c4b5fd; }\n  summary {\n    padding: 18px 48px 18px 20px;\n    cursor: pointer;\n    color: #0f172a;\n    font-weight: 600;\n    font-size: 16px;\n    position: relative;\n    list-style: none;\n  }\n  summary::-webkit-details-marker { display: none; }\n  summary::after {\n    content: '+';\n    position: absolute;\n    right: 20px;\n    top: 50%;\n    transform: translateY(-50%);\n    color: #7c3aed;\n    font-size: 24px;\n    font-weight: 300;\n    transition: transform 0.3s, content 0.3s;\n  }\n  details[open] summary::after {\n    content: '-';\n    transform: translateY(-50%) rotate(180deg);\n  }\n  details p {\n    padding: 0 20px 18px;\n    color: #64748b;\n    line-height: 1.6;\n    font-size: 15px;\n    margin: 0;\n  }\n</style>\n</head>\n<body>\n  <h1>Meera's FAQ</h1>\n  <details>\n    <summary>Do I need JavaScript for this accordion?</summary>\n    <p>No! The &lt;details&gt; and &lt;summary&gt; HTML elements handle open/close state natively. The plus/minus icon is pure CSS via ::after.</p>\n  </details>\n  <details>\n    <summary>How does the plus icon become a minus?</summary>\n    <p>The ::after pseudo-element reads a different content value when the details element has the [open] attribute: 'details[open] summary::after { content: \"-\"; }'.</p>\n  </details>\n  <details>\n    <summary>Is this accessible?</summary>\n    <p>Yes. The &lt;details&gt; element is keyboard accessible out of the box, it announces its state to screen readers, and it works without any custom ARIA attributes.</p>\n  </details>\n  <details>\n    <summary>Can I animate the expand?</summary>\n    <p>Yes, modern browsers support interpolate-size: allow-keywords to animate height from auto. Or use max-height with a transition for a classic effect.</p>\n  </details>\n</body>\n</html>"
+      }
+    ]
+  }
+}
