@@ -440,6 +440,84 @@
   to = "/src/pages/best-coding-class-in-varanasi.html"
   status = 200
 
+# Tier 3 City Pages — April 2026
+[[redirects]]
+  from = "/best-coding-class-in-mysore"
+  to = "/src/pages/best-coding-class-in-mysore.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-mangalore"
+  to = "/src/pages/best-coding-class-in-mangalore.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-thiruvananthapuram"
+  to = "/src/pages/best-coding-class-in-thiruvananthapuram.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-kozhikode"
+  to = "/src/pages/best-coding-class-in-kozhikode.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-madurai"
+  to = "/src/pages/best-coding-class-in-madurai.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-trichy"
+  to = "/src/pages/best-coding-class-in-trichy.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-goa"
+  to = "/src/pages/best-coding-class-in-goa.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-faridabad"
+  to = "/src/pages/best-coding-class-in-faridabad.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-meerut"
+  to = "/src/pages/best-coding-class-in-meerut.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-nashik"
+  to = "/src/pages/best-coding-class-in-nashik.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-aurangabad"
+  to = "/src/pages/best-coding-class-in-aurangabad.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-hubli"
+  to = "/src/pages/best-coding-class-in-hubli.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-jabalpur"
+  to = "/src/pages/best-coding-class-in-jabalpur.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-raipur"
+  to = "/src/pages/best-coding-class-in-raipur.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-jodhpur"
+  to = "/src/pages/best-coding-class-in-jodhpur.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-udaipur"
+  to = "/src/pages/best-coding-class-in-udaipur.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-shimla"
+  to = "/src/pages/best-coding-class-in-shimla.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-imphal"
+  to = "/src/pages/best-coding-class-in-imphal.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-gangtok"
+  to = "/src/pages/best-coding-class-in-gangtok.html"
+  status = 200
+
 [[redirects]]
   from = "/love"
   to = "/lovewall/dist/index.html"
