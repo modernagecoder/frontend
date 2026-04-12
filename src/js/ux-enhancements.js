@@ -274,6 +274,35 @@
     }
 
     // ──────────────────────────────────────────────────────────
+    // 6b. SECTION REVEAL — global IntersectionObserver for
+    // .section elements that start at opacity:0 and need
+    // .animate-in to become visible.
+    // ──────────────────────────────────────────────────────────
+    function initSectionReveal() {
+        if (!('IntersectionObserver' in window)) {
+            // Fallback: show all sections immediately
+            document.querySelectorAll('.section').forEach(function (s) {
+                s.classList.add('animate-in');
+            });
+            return;
+        }
+        var observer = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.05 });
+
+        document.querySelectorAll('.section').forEach(function (s) {
+            if (!s.classList.contains('animate-in')) {
+                observer.observe(s);
+            }
+        });
+    }
+
+    // ──────────────────────────────────────────────────────────
     // INIT — kick everything off when DOM is ready
     // ──────────────────────────────────────────────────────────
     ready(function () {
@@ -283,6 +312,7 @@
         try { initStickyMobileCTA(); } catch (e) { }
         try { initActiveSectionNav(); } catch (e) { }
         try { initDevBranchBadge(); } catch (e) { }
+        try { initSectionReveal(); } catch (e) { }
     });
 
     // ──────────────────────────────────────────────────────────
