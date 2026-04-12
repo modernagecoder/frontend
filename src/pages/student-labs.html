@@ -8,1042 +8,1578 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-N8BM164YJP');
         gtag('config', 'AW-16910316353');
     </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Labs - Modern Age Coders</title>
-    <!-- Meta Pixel -->
-    <script src="/js/meta-pixel.js"></script>
 
-
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
-    <link rel="stylesheet" href="/css/keyboard-navigation.css">
-
-    <style>
-        /* Page-specific overrides */
-        .student-projects-page main {
-            padding-top: 100px;
-        }
-
-        .student-projects-page .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .student-projects-page h1 {
-            font-size: clamp(2rem, 5vw, 3rem);
-            text-align: center;
-            margin: 0 0 1rem;
-            background: linear-gradient(135deg, #a855f7, #4ecdc4);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .student-projects-page .subtitle {
-            text-align: center;
-            font-size: clamp(1rem, 3vw, 1.2rem);
-            color: #CBD5E1;
-            margin-bottom: 2rem;
-        }
-
-        .student-projects-page .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(min(100%, 350px), 1fr));
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-
-        .student-projects-page .project-card {
-            background: rgba(30, 30, 50, 0.95) !important;
-            border: 2px solid rgba(168, 85, 247, 0.4) !important;
-            border-radius: 20px !important;
-            overflow: visible !important;
-            cursor: pointer !important;
-            transition: all 0.3s ease !important;
-            height: auto !important;
-            min-height: auto !important;
-            display: flex !important;
-            flex-direction: column !important;
-        }
-
-        .student-projects-page .project-card:hover {
-            transform: translateY(-10px);
-            border-color: rgba(168, 85, 247, 0.8);
-            box-shadow: 0 20px 60px rgba(168, 85, 247, 0.4);
-        }
-
-        .student-projects-page .project-image {
-            width: 100%;
-            height: 220px;
-            background: linear-gradient(135deg, rgba(168, 85, 247, 0.3), rgba(78, 205, 196, 0.3));
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 5rem;
-            position: relative;
-        }
-
-        .student-projects-page .project-info {
-            padding: 25px !important;
-            background: rgba(20, 20, 35, 0.95) !important;
-            display: block !important;
-            visibility: visible !important;
-            opacity: 1 !important;
-        }
-
-        .student-projects-page .project-title {
-            font-size: clamp(1.3rem, 4vw, 1.6rem) !important;
-            font-weight: 700 !important;
-            color: #FFFFFF !important;
-            margin-bottom: 12px !important;
-            line-height: 1.3 !important;
-            display: block !important;
-            visibility: visible !important;
-            opacity: 1 !important;
-        }
-
-        .student-projects-page .project-student {
-            font-size: clamp(0.95rem, 3vw, 1.05rem) !important;
-            color: #a855f7 !important;
-            font-weight: 600 !important;
-            margin-bottom: 15px !important;
-            display: block !important;
-            visibility: visible !important;
-            opacity: 1 !important;
-        }
-
-        .student-projects-page .project-description {
-            color: #CBD5E1 !important;
-            font-size: clamp(0.9rem, 2.5vw, 1rem) !important;
-            line-height: 1.7 !important;
-            margin-bottom: 15px !important;
-            display: block !important;
-            visibility: visible !important;
-            opacity: 1 !important;
-        }
-
-        .student-projects-page .tags {
-            display: flex !important;
-            flex-wrap: wrap !important;
-            gap: 8px !important;
-            margin-bottom: 15px !important;
-            visibility: visible !important;
-            opacity: 1 !important;
-        }
-
-        .student-projects-page .tag {
-            padding: 6px 14px !important;
-            background: rgba(168, 85, 247, 0.15) !important;
-            border: 1px solid rgba(168, 85, 247, 0.4) !important;
-            border-radius: 15px !important;
-            font-size: 0.85rem !important;
-            color: #E0E0E0 !important;
-            display: inline-block !important;
-            visibility: visible !important;
-            opacity: 1 !important;
-        }
-
-        .student-projects-page .project-link {
-            display: inline-block !important;
-            padding: 12px 24px !important;
-            background: linear-gradient(135deg, #a855f7, #4ecdc4) !important;
-            color: white !important;
-            text-decoration: none !important;
-            border-radius: 10px !important;
-            font-weight: 600 !important;
-            margin-top: 10px !important;
-            transition: all 0.3s ease !important;
-            visibility: visible !important;
-            opacity: 1 !important;
-        }
-
-        .student-projects-page .project-link:hover {
-            transform: translateX(5px);
-            box-shadow: 0 4px 15px rgba(168, 85, 247, 0.5);
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .student-projects-page main {
-                padding-top: 90px;
-            }
-
-            .student-projects-page .container {
-                padding: 15px;
-            }
-
-            .student-projects-page .projects-grid {
-                gap: 1.5rem;
-            }
-
-            .student-projects-page .project-image {
-                height: 180px;
-                font-size: 4rem;
-            }
-
-            .student-projects-page .project-info {
-                padding: 20px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .student-projects-page main {
-                padding-top: 80px;
-            }
-
-            .student-projects-page .container {
-                padding: 10px;
-            }
-
-            .student-projects-page .project-image {
-                height: 160px;
-                font-size: 3.5rem;
-            }
-
-            .student-projects-page .project-info {
-                padding: 15px;
-            }
-
-            .student-projects-page .project-link {
-                padding: 10px 20px;
-                font-size: 0.9rem;
-            }
-        }
-    </style>
+    <!-- SEO Meta Tags -->
+    <title>Student Labs — Real Coding Projects by Kids, Teens & Students | Modern Age Coders</title>
+    <meta name="description"
+        content="Explore 14+ real coding projects built by students at Modern Age Coders — games, AI chatbots, web apps & tools. See what kids, teens & college students build with Python, JavaScript, React, Firebase & more.">
+    <meta name="keywords"
+        content="student coding projects, kids coding portfolio, teen coding projects, student built apps, coding projects for beginners, learn to code projects, javascript projects, python projects for kids, student web development, coding class projects">
+    <meta name="author" content="Modern Age Coders">
+    <link rel="canonical" href="https://learn.modernagecoders.com/student-labs">
     <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/student-labs" />
     <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/student-labs" />
     <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/student-labs" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <meta name="theme-color" content="#a855f7">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/student-labs">
+    <meta property="og:title" content="Student Labs — Real Coding Projects Built by Our Students">
+    <meta property="og:description"
+        content="Explore 14+ real coding projects built by students at Modern Age Coders — games, AI chatbots, web apps & tools.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+    <meta property="og:site_name" content="Modern Age Coders">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Student Labs — Real Coding Projects by Kids, Teens & Students">
+    <meta name="twitter:description"
+        content="14+ real projects built by students — games, AI chatbots, web apps & tools. See what coding education looks like.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+    <!-- Meta Pixel -->
+    <script src="/js/meta-pixel.js"></script>
+
+    <!-- Structured Data — BreadcrumbList -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Student Labs", "item": "https://learn.modernagecoders.com/student-labs"}
+      ]
+    }
+    </script>
+
+    <!-- Structured Data — ItemList (Projects) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Student Labs — Real Coding Projects",
+      "description": "A showcase of 14+ real coding projects built by students at Modern Age Coders",
+      "url": "https://learn.modernagecoders.com/student-labs",
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Student Projects",
+        "numberOfItems": 14,
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "The Beautiful Mind — Focus & Brain-Strength Game", "url": "https://mind.modernagecoders.com"},
+          {"@type": "ListItem", "position": 2, "name": "Misti — AI Chatbot for Maths & Coding", "url": "https://misti.modernagecoders.com"},
+          {"@type": "ListItem", "position": 3, "name": "Babu — 90 Second Maths Challenge", "url": "https://babu.modernagecoders.com"},
+          {"@type": "ListItem", "position": 4, "name": "SkyCast — Weather Forecast App", "url": "https://krish-shroff.github.io/AuraWeatherTech/"},
+          {"@type": "ListItem", "position": 5, "name": "HugSelle — AI Smile Generator", "url": "https://hugselle.modernagecoders.com"},
+          {"@type": "ListItem", "position": 6, "name": "Moxo — Company Landing Page", "url": "https://moxo.modernagecoders.com"},
+          {"@type": "ListItem", "position": 7, "name": "Baby — Typing Speed Challenge", "url": "https://baby.modernagecoders.com"},
+          {"@type": "ListItem", "position": 8, "name": "MyDay — Social Productivity Organizer", "url": "https://myday.modernagecoders.com"},
+          {"@type": "ListItem", "position": 9, "name": "FreshTrack — Food Expiry Tracker", "url": "https://freshtrackpro.netlify.app/"},
+          {"@type": "ListItem", "position": 10, "name": "Pracy — Coding Practice Platform", "url": "https://astounding-flan-f18e08.netlify.app/"},
+          {"@type": "ListItem", "position": 11, "name": "Word Counter Website", "url": "https://vanshagarwalwordcounter-sys.github.io/WordCounter/"},
+          {"@type": "ListItem", "position": 12, "name": "Life Span Tracker", "url": "https://lifespantracker.netlify.app/"},
+          {"@type": "ListItem", "position": 13, "name": "Simon Game", "url": "http://yashaswi-2017.my.canva.site"},
+          {"@type": "ListItem", "position": 14, "name": "Image Slider Website", "url": "https://robo23middle-stack.github.io/scenes/"}
+        ]
+      },
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com"
+      }
+    }
+    </script>
+
+    <!-- Structured Data — FAQ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://learn.modernagecoders.com/"
+          "@type": "Question",
+          "name": "What projects can beginners build after learning to code?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Beginners can build exciting projects like word counters, image sliders, memory games (like Simon Game), and simple calculators. As they progress, they move on to weather apps, typing challenges, and interactive websites. Our students typically build their first project within 2-3 months of starting."}
         },
         {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Student Labs",
-          "item": "https://learn.modernagecoders.com/student-labs"
+          "@type": "Question",
+          "name": "How long does it take for a student to build a complete project?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Simple projects like a word counter or image slider take 1-2 weeks. Intermediate projects like weather apps or food trackers take 3-4 weeks. Advanced projects like AI chatbots, brain-training games, or full-stack platforms can take 2-3 months. Our instructors guide students through every step."}
+        },
+        {
+          "@type": "Question",
+          "name": "Do students get certificates for their projects?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes! Students receive a project completion certificate for every major project they build. These certificates can be added to college applications, LinkedIn profiles, and resumes. We also showcase the best projects here on Student Labs."}
+        },
+        {
+          "@type": "Question",
+          "name": "What technologies will students learn to build these projects?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Students learn industry-standard technologies including HTML, CSS, JavaScript, Python, React, Node.js, MongoDB, Firebase, and AI/ML frameworks. The specific tech stack depends on the course and project chosen."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can my child's project be featured on Student Labs?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Absolutely! Any student enrolled in our courses can submit their completed project for review. Projects that demonstrate creativity, technical skill, and completeness are featured on this page with the student's name and a live link to their project."}
+        },
+        {
+          "@type": "Question",
+          "name": "What age groups can participate in project-based learning?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Our project-based learning is designed for all ages — kids (6-12), teens (13-18), college students, and working professionals. Projects are tailored to each age group's skill level, from Scratch games for young kids to full-stack AI applications for advanced learners."}
         }
       ]
     }
     </script>
-    <!-- Phase 6 UI/UX Polish -->
-    <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p6">
-    <script src="/js/ux-enhancements.js" defer></script>
-    <script src="/js/hover-prefetch.js" defer></script>
-    <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
-    <!-- Phase 7 Distinctive Identity -->
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/css/keyboard-navigation.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+
+    <style>
+        /* ============================================================
+           STUDENT LABS PAGE — Complete Styles
+           ============================================================ */
+
+        .labs-page {
+            --accent-purple: #a855f7;
+            --accent-teal: #4ecdc4;
+            --accent-amber: #f59e0b;
+            --accent-pink: #ec4899;
+            --accent-green: #10b981;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --card-bg: rgba(20, 20, 40, 0.95);
+            --card-border: rgba(168, 85, 247, 0.25);
+            --glass-bg: rgba(30, 30, 50, 0.6);
+        }
+
+        /* ── Hero ── */
+        .labs-hero {
+            text-align: center;
+            padding: 6rem 2rem 3rem;
+            position: relative;
+        }
+        .labs-hero-eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            padding: 0.4rem 1.2rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1.5rem;
+        }
+        .labs-hero h1 {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(2.2rem, 5vw, 3.5rem);
+            font-weight: 800;
+            color: var(--text-primary);
+            line-height: 1.15;
+            margin-bottom: 1rem;
+        }
+        .labs-hero h1 span {
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .labs-hero p {
+            font-size: clamp(1rem, 2vw, 1.2rem);
+            color: var(--text-secondary);
+            max-width: 650px;
+            margin: 0 auto 2rem;
+            line-height: 1.7;
+        }
+
+        /* Stats strip */
+        .labs-stats {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+        .labs-stat {
+            text-align: center;
+        }
+        .labs-stat-number {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .labs-stat-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .labs-hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.9rem 2rem;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            color: #fff;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .labs-hero-cta:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(168, 85, 247, 0.4);
+        }
+
+        /* ── Section Common ── */
+        .labs-section {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        .labs-section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .labs-section-header h2 {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 0.75rem;
+        }
+        .labs-section-header h2 span {
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .labs-section-header p {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* ── Filter Tabs ── */
+        .labs-filters {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 2.5rem;
+        }
+        .labs-filter-btn {
+            padding: 0.5rem 1.3rem;
+            border: 1px solid var(--card-border);
+            background: transparent;
+            color: var(--text-secondary);
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .labs-filter-btn:hover,
+        .labs-filter-btn.active {
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            color: #fff;
+            border-color: transparent;
+        }
+
+        /* ── Projects Grid ── */
+        .labs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+            gap: 2rem;
+        }
+
+        /* ── Modern Glass Card ── */
+        .labs-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 18px;
+            overflow: hidden;
+            transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+        }
+        .labs-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(168, 85, 247, 0.6);
+            box-shadow: 0 20px 50px rgba(168, 85, 247, 0.2);
+        }
+        .labs-card-img {
+            height: 200px;
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0.15), rgba(78, 205, 196, 0.15));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .labs-card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .labs-card-img .card-emoji {
+            font-size: 4rem;
+        }
+        .labs-card-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+        .badge-game { background: rgba(168, 85, 247, 0.85); }
+        .badge-ai { background: rgba(236, 72, 153, 0.85); }
+        .badge-webapp { background: rgba(78, 205, 196, 0.85); }
+        .badge-tool { background: rgba(245, 158, 11, 0.85); }
+        .labs-card-featured {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: #fff;
+            background: linear-gradient(135deg, #f59e0b, #ef4444);
+        }
+        .labs-card-body {
+            padding: 1.4rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .labs-card-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.4rem;
+            line-height: 1.3;
+        }
+        .labs-card-student {
+            font-size: 0.85rem;
+            color: var(--accent-purple);
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+        .labs-card-desc {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            flex: 1;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .labs-card-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 1rem;
+        }
+        .labs-tag {
+            padding: 3px 10px;
+            border-radius: 50px;
+            font-size: 0.72rem;
+            font-weight: 600;
+            border: 1px solid;
+        }
+        .labs-tag-purple { color: #c084fc; background: rgba(168,85,247,0.1); border-color: rgba(168,85,247,0.3); }
+        .labs-tag-teal { color: #5eead4; background: rgba(78,205,196,0.1); border-color: rgba(78,205,196,0.3); }
+        .labs-tag-amber { color: #fbbf24; background: rgba(245,158,11,0.1); border-color: rgba(245,158,11,0.3); }
+        .labs-tag-pink { color: #f472b6; background: rgba(236,72,153,0.1); border-color: rgba(236,72,153,0.3); }
+        .labs-card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .labs-card-link {
+            color: var(--accent-teal);
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .labs-card-link:hover { color: #fff; }
+        .labs-card-difficulty {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+        .diff-beginner { color: var(--accent-green); }
+        .diff-intermediate { color: var(--accent-amber); }
+        .diff-advanced { color: var(--accent-pink); }
+
+        /* ── Featured Spotlight ── */
+        .labs-featured {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+        .labs-featured-card {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: transform 0.35s ease, box-shadow 0.35s ease;
+        }
+        .labs-featured-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 50px rgba(168, 85, 247, 0.15);
+        }
+        .labs-featured-img {
+            min-height: 280px;
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0.15), rgba(78, 205, 196, 0.15));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .labs-featured-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .labs-featured-body {
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .labs-featured-body h3 {
+            font-family: 'Syne', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+        .labs-featured-body .featured-student {
+            font-size: 0.9rem;
+            color: var(--accent-purple);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .labs-featured-body p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 1rem;
+        }
+        .labs-featured-learned {
+            background: rgba(168, 85, 247, 0.08);
+            border: 1px solid rgba(168, 85, 247, 0.2);
+            border-radius: 12px;
+            padding: 1rem;
+            margin-bottom: 1.2rem;
+        }
+        .labs-featured-learned h4 {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--accent-purple);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+        .labs-featured-learned p {
+            font-size: 0.85rem;
+            margin-bottom: 0;
+        }
+        .labs-featured-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.7rem 1.5rem;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            color: #fff;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+            width: fit-content;
+        }
+        .labs-featured-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(168,85,247,0.3);
+        }
+
+        /* ── Tech Grid ── */
+        .labs-tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 1.2rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .labs-tech-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.6rem;
+            padding: 1.5rem 1rem;
+            background: var(--glass-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            text-decoration: none;
+            transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+        }
+        .labs-tech-item:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-purple);
+            box-shadow: 0 10px 30px rgba(168, 85, 247, 0.15);
+        }
+        .labs-tech-icon {
+            font-size: 2.2rem;
+        }
+        .labs-tech-name {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-align: center;
+        }
+
+        /* ── Journey Timeline ── */
+        .labs-journey {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            position: relative;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .labs-journey::before {
+            content: '';
+            position: absolute;
+            top: 50px;
+            left: 10%;
+            right: 10%;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent-purple), var(--accent-teal));
+            z-index: 0;
+        }
+        .labs-journey-step {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            text-decoration: none;
+        }
+        .labs-journey-number {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #fff;
+            border: 3px solid #0a0a1a;
+        }
+        .labs-journey-step h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.4rem;
+        }
+        .labs-journey-step p {
+            font-size: 0.82rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        /* ── Course Cards ── */
+        .labs-courses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+            gap: 1.5rem;
+        }
+        .labs-course-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 1.8rem;
+            text-decoration: none;
+            transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+        .labs-course-card:hover {
+            transform: translateY(-6px);
+            border-color: var(--accent-purple);
+            box-shadow: 0 15px 40px rgba(168, 85, 247, 0.15);
+        }
+        .labs-course-icon {
+            font-size: 2.5rem;
+        }
+        .labs-course-card h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        .labs-course-card p {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            flex: 1;
+        }
+        .labs-course-link {
+            color: var(--accent-teal);
+            font-weight: 700;
+            font-size: 0.85rem;
+        }
+
+        /* ── CTA Banner ── */
+        .labs-cta {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, rgba(168,85,247,0.12), rgba(78,205,196,0.08));
+            border-top: 1px solid rgba(168,85,247,0.15);
+            border-bottom: 1px solid rgba(168,85,247,0.15);
+        }
+        .labs-cta h2 {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 0.75rem;
+        }
+        .labs-cta p {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 550px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .labs-cta-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 2.5rem;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            color: #fff;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.05rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .labs-cta-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 35px rgba(168,85,247,0.4);
+        }
+
+        /* ── FAQ ── */
+        .labs-faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .labs-faq-item {
+            background: var(--glass-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 14px;
+            overflow: hidden;
+            transition: border-color 0.3s;
+        }
+        .labs-faq-item.active {
+            border-color: var(--accent-purple);
+        }
+        .labs-faq-q {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 1.5rem;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            transition: background 0.2s;
+        }
+        .labs-faq-q:hover {
+            background: rgba(168,85,247,0.05);
+        }
+        .labs-faq-q .faq-icon {
+            font-size: 1.2rem;
+            color: var(--accent-purple);
+            transition: transform 0.3s;
+        }
+        .labs-faq-item.active .faq-icon {
+            transform: rotate(45deg);
+        }
+        .labs-faq-a {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+        .labs-faq-a-inner {
+            padding: 0 1.5rem 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* ── Testimonials ── */
+        .labs-testimonials {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(min(100%, 400px), 1fr));
+            gap: 1.5rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .labs-testimonial {
+            background: var(--glass-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 2rem;
+        }
+        .labs-testimonial-text {
+            font-size: 1rem;
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+        .labs-testimonial-author {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--accent-purple);
+        }
+        .labs-testimonial-role {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 768px) {
+            .labs-hero { padding: 5rem 1.5rem 2rem; }
+            .labs-section { padding: 3rem 1.5rem; }
+            .labs-featured-card { grid-template-columns: 1fr; }
+            .labs-featured-img { min-height: 200px; }
+            .labs-journey {
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem 1rem;
+            }
+            .labs-journey::before { display: none; }
+            .labs-stats { gap: 1.5rem; }
+        }
+        @media (max-width: 480px) {
+            .labs-hero { padding: 4.5rem 1rem 1.5rem; }
+            .labs-section { padding: 2.5rem 1rem; }
+            .labs-journey { grid-template-columns: 1fr; }
+            .labs-grid { grid-template-columns: 1fr; }
+            .labs-tech-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+    </style>
+
+    <!-- Phase 6 & 7 UI/UX -->
     <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p7">
     <link rel="stylesheet" href="/css/pages/identity.css?v=20260411-p7">
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
-    <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
 </head>
 
-<body class="student-projects-page">
+<body class="labs-page">
     <a href="#main" class="skip-link">Skip to main content</a>
-
     <canvas id="background-canvas"></canvas>
 
-    <!-- ============================================ -->
-    <!-- NAVIGATION COMPONENT                         -->
-    <!-- Loaded from: /components/nav.html            -->
-    <!-- ============================================ -->
-    <!-- BEGIN_INLINED_NAV -->
-<style>
-    .callback-nav-btn {
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
-        padding: 8px 16px;
-        background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
-        color: white;
-        border: none;
-        border-radius: 25px;
-        font-size: 14px;
-        font-weight: 600;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
-    }
-
-    .callback-nav-btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
-    }
-
-    .callback-nav-btn svg {
-        flex-shrink: 0;
-    }
-
-    @media (max-width: 768px) {
-        .callback-nav-btn span {
-            display: none;
-        }
-
-        .callback-nav-btn {
-            padding: 10px;
-        }
-    }
-</style>
-
-<header>
-    <nav>
-        <div class="navbar">
-            <div class="nav-container">
-                <a href="/" class="logo">
-                    <img style="border-radius: 10px;" src="/images/logo.svg" alt="Modern Age Coders Logo"
-                        class="logo-img" loading="lazy">
-                    <span class="logo-text">Modern Age Coders</span>
-                </a>
-                <ul class="nav-menu" id="navMenu">
-                    <!-- <li class="nav-item"><a href="/" class="nav-link">Home</a></li> -->
-                    <li class="nav-item dropdown">
-                        <a href="/courses" class="nav-link">Courses
-                            <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;" fill="currentColor"
-                                viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                        <div class="dropdown-content">
-                            <a href="/courses" class="dropdown-item"
-                                style="font-weight: bold; border-bottom: 1px solid rgba(168, 85, 247, 0.3); margin-bottom: 0.5rem; padding-bottom: 0.75rem;">View
-                                All Courses</a>
-                            <a href="/courses/coding/kids" class="dropdown-item">For Kids (Ages 6-12)</a>
-                            <a href="/courses/coding/teens" class="dropdown-item">For Teens (Ages 13-18)</a>
-                            <a href="/courses/coding/college" class="dropdown-item">For College Students</a>
-                            <a href="/courses/coding/college" class="dropdown-item">For Professionals</a>
-                            <a href="/courses/coding/corporate" class="dropdown-item">Customized Training</a>
-                            <a href="/courses/coding/girls" class="dropdown-item highlight">Special For Girls</a>
-                            <a href="/summer-coding-camp" class="dropdown-item highlight">Summer Coding Camp</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="/coding-challenges" class="nav-link">Practice
-                            <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;" fill="currentColor"
-                                viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                        <div class="dropdown-content">
-                            <a href="/coding-challenges" class="dropdown-item" style="font-weight: bold;">Coding
-                                Challenges</a>
-                            <a href="/maths-challenges" class="dropdown-item" style="font-weight: bold;">Maths
-                                Challenges</a>
-                            <a href="/mistakes-students-make" class="dropdown-item">Mistakes Students Make</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="/student-labs" class="nav-link">Tools
-                            <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;" fill="currentColor"
-                                viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                        <div class="dropdown-content">
-                            <a href="/beat-the-babu" class="dropdown-item">Beat the Babu</a>
-                            <a href="/aura" class="dropdown-item">Aura</a>
-                            <a href="https://mind.modernagecoders.com" class="dropdown-item">Beautiful Mind</a>
-                            <a href="https://zap.modernagecoders.com" class="dropdown-item">Zap</a>
-                          
-                            <a href="https://envision.modernagecoders.com" class="dropdown-item">Envision</a>
-                            <a href="https://misti.modernagecoders.com" class="dropdown-item">Misti AI</a>
-                            <a href="https://deep64.modernagecoders.com" class="dropdown-item">Deep 64</a>
-
-
-
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="/love" class="nav-link" style="color: #ec4899; font-weight: 600;">
-                            <svg style="width: 16px; height: 16px; margin-right: 4px; fill: #ec4899;"
-                                viewBox="0 0 24 24">
-                                <path
-                                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                            </svg>
-                            Love
-                            <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;" fill="currentColor"
-                                viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                        <div class="dropdown-content">
-                            <a href="/love" class="dropdown-item" style="font-weight: bold;">Wall of Love</a>
-                            <a href="/success-stories" class="dropdown-item">Success Stories</a>
-                            <a href="/student-labs" class="dropdown-item">Student Labs</a>
-                        </div>
-                    </li>
-                    <!-- <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li> -->
-                    <li class="nav-item"><a href="/pricing" class="nav-link">Pricing</a></li>
-                    <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-                    <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
-
-                    <li class="nav-item">
-                        <button type="button" class="callback-nav-btn" onclick="openCallbackModal()">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2.5">
-                                <path
-                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-                                </path>
-                            </svg>
-                            <span></span>
-                        </button>
-                    </li>
-                    <li class="nav-item" style="margin-left: 10px;"><a href="https://dashboard.modernagecoders.com" target="_blank" class="cta-button"
-                            style="padding: 0.6rem 2rem !important;">Login</a></li>
-                </ul>
-                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-        </div>
-    </nav>
-</header>
-
-<!-- Callback Modal -->
-<div id="callbackModalOverlay"
-    style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:99999; align-items:center; justify-content:center;">
-    <div
-        style="background:#fff; border-radius:20px; padding:40px; max-width:400px; width:90%; text-align:center; position:relative; box-shadow:0 25px 50px rgba(0,0,0,0.25);">
-        <button type="button" onclick="closeCallbackModal()"
-            style="position:absolute; top:15px; right:15px; width:32px; height:32px; border:none; background:#f3f4f6; border-radius:50%; font-size:20px; cursor:pointer; color:#666;">&times;</button>
-        <div
-            style="width:80px; height:80px; background:linear-gradient(135deg,#fef3c7,#fde68a); border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 20px;">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="1.5">
-                <path
-                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-                </path>
-            </svg>
-        </div>
-        <h3 style="font-size:24px; font-weight:700; color:#1f2937; margin:0 0 8px;">Request a Callback</h3>
-        <p style="font-size:15px; color:#6b7280; margin:0 0 25px;">Enter your number, we'll call you right back!</p>
-        <form id="callbackForm" onsubmit="submitCallback(event)" style="display:flex; flex-direction:column; gap:15px;">
-            <div
-                style="display:flex; align-items:center; background:#f9fafb; border:2px solid #e5e7eb; border-radius:12px; overflow:hidden;">
-                <span
-                    style="padding:14px 12px; background:#f3f4f6; color:#6b7280; font-weight:600; border-right:2px solid #e5e7eb;">+91</span>
-                <input type="tel" id="callbackPhoneInput" placeholder="Enter phone number" maxlength="10" required
-                    style="flex:1; padding:14px 15px; border:none; background:transparent; font-size:16px; color:#1f2937; outline:none;">
-            </div>
-            <button type="submit" id="callbackSubmitBtn"
-                style="padding:14px 24px; background:linear-gradient(135deg,#f59e0b,#d97706); color:#fff; border:none; border-radius:12px; font-size:16px; font-weight:600; cursor:pointer;">Call
-                Me Back</button>
-        </form>
-        <div id="callbackSuccessMsg" style="display:none; padding:20px 0;">
-            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"
-                style="margin-bottom:15px;">
-                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                <polyline points="22 4 12 14.01 9 11.01"></polyline>
-            </svg>
-            <h4 style="font-size:20px; font-weight:700; color:#10b981; margin:0 0 8px;">Response Received!</h4>
-            <p style="font-size:14px; color:#6b7280; margin:0;">We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).</p>
-        </div>
-    </div>
-</div>
-<!-- END_INLINED_NAV -->
-    </div>
+    <div id="nav-placeholder"></div>
 
     <main id="main">
-        <div class="container">
-            <h1>🧪 Student Labs - Experiments & Projects</h1>
-            <p class="subtitle">🔬 Explore innovative experiments and creative projects crafted by our brilliant
-                students in the lab</p>
-            <br><br>
-            <div class="projects-grid" id="projectsGrid"></div>
-        </div>
-    </main>
 
-    <script>
-        const projects = [
-            {
-                title: "Babu - 90 Second Maths Challenge",
-                student: "Modern Age Coders",
-                description: "An exciting 90-second maths challenge game where users solve random math problems under time pressure. It features a dynamic leaderboard powered by Firebase/MongoDB, updating scores in real time to show top performers instantly.",
-                tags: ["HTML", "CSS", "JavaScript", "Firebase", "MongoDB"],
-                link: "https://babu.modernagecoders.com",
-                image: "/images/projects/babu.webp"
-            },
-            {
-                title: "SkyCast - Weather Forecast App",
-                student: "Krish",
-                description: "An interactive weather forecasting website that provides real-time weather updates for any country entered by the user. It displays temperature, humidity, wind speed, and weather conditions in a clean and responsive interface.",
-                tags: ["HTML", "CSS", "JavaScript", "API"],
-                link: "https://krish-shroff.github.io/AuraWeatherTech/",
-                image: "/images/projects/skycast.webp"
-            },
+        <!-- ═══════ SECTION 1: HERO ═══════ -->
+        <section class="labs-hero">
+            <span class="labs-hero-eyebrow">Student Labs</span>
+            <h1>Built by Students,<br>Powered by <span>Curiosity</span></h1>
+            <p>Real projects built by real learners — from games and AI chatbots to weather apps and productivity tools. See what our students create when learning meets imagination.</p>
 
-            {
-                title: "Word Counter Website",
-                student: "Vansh",
-                description: "A simple yet powerful tool that counts the number of words, sentences, and paragraphs from the user's input text. It helps users analyze their writing with instant, real-time results and a clean, responsive interface.",
-                tags: ["HTML", "CSS", "JavaScript"],
-                link: "https://vanshagarwalwordcounter-sys.github.io/WordCounter/",
-                image: "/images/projects/wordcounter.webp"
-            },
-
-            {
-                title: "Life Span Tracker",
-                student: "Manay",
-                description: "A simple, insightful, and interactive web tool that helps users calculate their expected lifespan, understand how many days, months, and years they have already lived, and visualize their remaining time using clean UI and smart APIs. It motivates users to use their time wisely and build better habits through awareness.",
-                tags: ["HTML", "CSS", "JavaScript", "APIs", "Date Calculations", "Frontend Tools"],
-                link: "https://lifespantracker.netlify.app/",  // replace with actual link if available
-                image: "/images/projects/lifespan.webp"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-            },
-            {
-                title: "Simon Game",
-                student: "Yashaswi",
-                description: "A fun and interactive memory-based game where players repeat the sequence of colors and sounds given by Simon. Each level adds a new challenge, making it both entertaining and brain-boosting for kids and beginners learning logic and focus.",
-                tags: ["HTML", "CSS", "JavaScript"],
-                link: "http://yashaswi-2017.my.canva.site",
-                image: "/images/projects/simongame.webp"
-            },
-
-            {
-                title: "The Beautiful Mind",
-                student: "Modern Age Coders",
-                description: "A scientifically designed focus and brain-strength game that challenges players across 15 progressive levels. Each level tests attention, control, and mental endurance with increasing complexity. The platform integrates real-time progress tracking and leaderboard systems to evaluate consistency, speed, and accuracy, making it a strong demonstration of modern front-end and cloud-based application development.",
-                tags: [
-                    "HTML",
-                    "CSS",
-                    "JavaScript",
-                    "Firebase",
-                    "Firebase Realtime Database",
-                    "Firestore",
-                    "Authentication",
-                    "React",
-                    "Angular",
-                    "Single Page Application",
-                    "Game Logic",
-                    "State Management",
-                    "UI/UX Design"
-                ],
-                link: "https://mind.modernagecoders.com",
-                image: "/images/projects/mindgame.webp"
-            }
-            ,
-
-            {
-                title: "Baby - Typing Speed Challenge",
-                student: "Kritika",
-                description: "An engaging typing speed challenge where users test how fast and accurately they can type within a given time. It features a live leaderboard connected to a MongoDB backend, tracking and displaying top performers in real time.",
-                tags: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
-                link: "https://baby.modernagecoders.com",
-                image: "/images/projects/baby.webp"
-            },
-            {
-                title: "HugSelle - AI Smile Generator",
-                student: "Anurag",
-                description: "A heartwarming AI-powered web app built using Python, Machine Learning, HTML, CSS, and JavaScript that detects your mood and generates uplifting quotes, visuals, or patterns to make you smile. A creative blend of technology and positivity!",
-                tags: ["Python", "Machine Learning", "HTML", "CSS", "JavaScript", "AI"],
-                link: "https://hugselle.modernagecoders.com",  // replace with actual link if available
-                image: "/images/projects/hugselle.webp"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-            },
-
-            {
-                title: "Moxo - Company Landing Page",
-                student: "isha",
-                description: "A stunning and modern landing page built for the fictional company 'Moxo' using HTML, CSS, JavaScript, and GSAP. It features smooth parallax scrolling, advanced animations, and elegant section transitions that bring the brand to life with a premium look and feel.",
-                tags: ["HTML", "CSS", "JavaScript", "GSAP", "Parallax"],
-                link: "https://moxo.modernagecoders.com",  // replace with actual link if available
-                image: "/images/projects/moxo.webp"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-            },
-
-            {
-                title: "FreshTrack - Food Expiry Tracker",
-                student: "Tanish",
-                description: "A smart food management system that helps users track and manage food expiry dates efficiently. Users can add, update, and delete food items while the app checks expiry automatically. Built with HTML, CSS, JavaScript, MongoDB, and local storage for real-time and offline tracking.",
-                tags: ["HTML", "CSS", "JavaScript", "MongoDB", "Local Storage"],
-                link: "https://freshtrackpro.netlify.app/",  // replace with actual link if available
-                image: "/images/projects/fresh.webp"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-            },
-            {
-                title: "Pracy - Coding Practice & Quiz Platform",
-                student: "Rohan",
-                description: "An all-in-one coding practice website where users can learn, solve, and test their knowledge across multiple programming languages. It includes interactive coding challenges, quizzes, and score tracking to help students strengthen logic and problem-solving skills.",
-                tags: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
-                link: "https://astounding-flan-f18e08.netlify.app/",  // replace with actual link if available
-                image: "/images/projects/pracy.webp"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-            },
-
-            {
-                title: "Misti - AI Chatbot for Maths & Coding",
-                student: "Harshit",
-                description: "An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations. Misti uses advanced Python AI frameworks, integrates top AI model APIs, and provides a smooth chat interface built with HTML, CSS, and JavaScript. It stores conversation history and learning progress using a secure database to deliver a personalized learning experience.",
-                tags: ["Python", "AI Frameworks", "LLM APIs", "HTML", "CSS", "JavaScript", "Database", "Backend Integration", "Math & Coding Solver"],
-                link: "https://misti.modernagecoders.com",  // replace with actual link if available
-                image: "/images/projects/misti.webp"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-            }
-            ,
-
-            {
-                title: "MyDay - Social Productivity & Task Organizer",
-                student: "Vedant",
-                description: "A beautifully designed productivity and calendar-based platform that helps users organize their daily tasks, set goals, and stay consistent. It also allows users to view others' daily plans for inspiration, creating a social and motivating community around productivity.",
-                tags: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB", "Calendar API", "python"],
-                link: "https://myday.modernagecoders.com",  // replace with actual link if available
-                image: "/images/projects/myday.webp"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-            },
-            {
-                title: "Image Slider Website",
-                student: "Somraj",
-                description: "A visually appealing website featuring a smooth image carousel where users can view images sliding automatically or manually using navigation controls. Designed with responsive layout and transition effects for a better user experience.",
-                tags: ["HTML", "CSS", "JavaScript"],
-                link: "https://robo23middle-stack.github.io/scenes/",
-                image: "/images/projects/slider.webp"
-            }
-
-            /* {
-      title: "ChatBot - AI Question Answering System",
-      student: "Yashvi",
-      description: "An intelligent chatbot built using Python, NLP, and Machine Learning that can answer user questions based on trained data. It integrates APIs and language models to understand natural queries, respond meaningfully, and continuously improve through user interactions.",
-      tags: ["Python", "NLP", "Machine Learning", "API", "HTML", "CSS", "JavaScript"],
-      link: "https://learn.modernagecoders.com",  // replace with actual link if available
-      image: "/images/projects/chatbot.webp"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-  },*/
-
-        ];
-
-        const grid = document.getElementById('projectsGrid');
-
-        function displayProjects(projectsToShow) {
-            grid.innerHTML = '';
-
-            projectsToShow.forEach(project => {
-                const card = document.createElement('div');
-                card.className = 'project-card';
-
-                card.innerHTML = `
-                    <div class="project-image">
-                        ${project.image ?
-                        `<img src="${project.image}" alt="${project.title}" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">` :
-                        '🚀'
-                    }
-                    </div>
-                    <div class="project-info">
-                        <h3 class="project-title">${project.title}</h3>
-                        <div class="project-student">👤 ${project.student}</div>
-                        <p class="project-description">${project.description}</p>
-                        <div class="tags">
-                            ${project.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
-                        </div>
-                        <a href="${project.link}" target="_blank" class="project-link">View Project -> </a>
-                    </div>
-                `;
-
-                card.addEventListener('click', function (e) {
-                    if (!e.target.closest('.project-link')) {
-                        window.open(project.link, '_blank');
-                    }
-                });
-
-                grid.appendChild(card);
-            });
-        }
-
-        displayProjects(projects);
-    </script>
-
-    <script src="/js/main.js"></script>
-    <script src="/js/unified-mobile-nav.js"></script>
-    <script src="/js/mobile-navigation.js"></script>
-    <!-- ============================================ -->
-    <!-- COMPONENT LOADER SCRIPT                      -->
-    <!-- Loads navigation and footer components       -->
-    <!-- ============================================ -->
-    <script src="/js/callback-modal.js"></script>
-    <!-- ============================================ -->
-    <!-- FOOTER COMPONENT                             -->
-    <!-- Loaded from: /components/footer.html         -->
-    <!-- ============================================ -->
-    <!-- BEGIN_INLINED_FOOTER -->
-<footer class="site-footer">
-    <div class="footer-container">
-        <div class="footer-grid">
-            <div class="footer-column">
-                <a href="/" class="logo">
-                    <img src="/images/logo.svg" alt="Modern Age Coders Logo" class="logo-img" loading="lazy">
-                    <span class="logo-text">Modern Age Coders</span>
-                </a>
-                <p class="footer-tagline">Forging the next generation of innovators.</p>
-                <div class="social-links">
-
-                    <a href="https://instagram.com/modern_age_coders" target="_blank" rel="noopener"
-                        aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                        </svg></a>
-                    <a href="https://www.youtube.com/@modernagecoders" target="_blank" rel="noopener"
-                        aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-                        </svg></a>
-                    <a href="https://www.linkedin.com/in/shivam-khemka-948a2a277" target="_blank" rel="noopener"
-                        aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                        </svg></a>
-                    <a href="https://github.com/modernagecoder" target="_blank" rel="noopener" aria-label="GitHub"><svg
-                            viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                        </svg></a>
+            <div class="labs-stats">
+                <div class="labs-stat">
+                    <div class="labs-stat-number">14+</div>
+                    <div class="labs-stat-label">Projects</div>
+                </div>
+                <div class="labs-stat">
+                    <div class="labs-stat-number">12+</div>
+                    <div class="labs-stat-label">Students</div>
+                </div>
+                <div class="labs-stat">
+                    <div class="labs-stat-number">8+</div>
+                    <div class="labs-stat-label">Technologies</div>
+                </div>
+                <div class="labs-stat">
+                    <div class="labs-stat-number">100%</div>
+                    <div class="labs-stat-label">Student Built</div>
                 </div>
             </div>
-            <div class="footer-column">
-                <h3 class="footer-heading">Quick Links</h3>
-                <ul class="footer-links">
-                    <li><a href="/about">About Us</a></li>
-                    <li><a href="/blog">Blog</a></li>
-                    <li><a href="/courses">Courses</a></li>
-                    <li><a href="/success-stories">Success Stories</a></li>
-                    <li><a href="/free-resources">Free Resources</a></li>
-                    <li><a href="/business-solutions">Business Solutions</a></li>
-                    <li><a href="/student-labs">Student Labs</a></li>
-                    <li><a href="/love">Wall of Love</a></li>
-                    <li><a href="/beat-the-babu">Beat the Babu Game</a></li>
-                    <li><a href="/aura">Aura Type Game</a></li>
-                    <li><a href="https://mind.modernagecoders.com">The Beautiful Mind</a></li>
-                    <li><a href="/pricing">Pricing</a></li>
-                    <li><a href="/faq">FAQ</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="/python-and-ai-classes-for-kids-teens">Python &amp; AI for Kids &amp; Teens</a></li>
-                    <li><a href="/coding-classes-for-girls">Coding Classes for Girls</a></li>
-                    <li><a href="/best-coding-classes-online">Best Coding Classes Online</a></li>
-                    <li><a href="/ai-ml-course-for-teens">AI &amp; ML Course for Teens</a></li>
-                    <li><a href="/java-programming-for-kids-teens">Java Programming for Kids &amp; Teens</a></li>
-                </ul>
+
+            <a href="/book-demo" class="labs-hero-cta">Start Your Coding Journey &rarr;</a>
+        </section>
+
+        <!-- ═══════ SECTION 2: FILTER + PROJECTS GRID ═══════ -->
+        <section class="labs-section" id="projects">
+            <div class="labs-section-header">
+                <h2>Explore Student <span>Projects</span></h2>
+                <p>Browse projects by category — every project was built by a student as part of their learning journey</p>
             </div>
-            <div class="footer-column">
-                <h3 class="footer-heading">Categories</h3>
-                <ul class="footer-links">
-                    <li><a href="/category/kids">For Kids</a></li>
-                    <li><a href="/category/teens">For Teens</a></li>
-                    <li><a href="/category/college">For College</a></li>
-                    <li><a href="/category/professionals">For Professionals</a></li>
-                    <li><a href="/category/corporate">For Corporate</a></li>
-                    <li><a href="/summer-coding-camp">Summer Coding Camp</a></li>
-                    <li><a href="/summer-coding-camp-kids">Summer Coding Camp For Kids</a></li>
-                    <li><a href="/summer-coding-camp-teens">Summer Coding Camp For Teens</a></li>
-                    <li><a href="/summer-coding-camp-adults">Summer Coding Camp For Adults</a></li>
-                    <li><a href="/best-coding-class-in-kolkata">Best Coding Class in
-                            Kolkata</a></li>
-                    <li><a href="/best-coding-class-in-hyderabad">Best Coding Class in
-                            Hyderabad</a></li>
-                    <li><a href="/best-coding-class-in-bengaluru">Best Coding Class in
-                            Bengaluru</a></li>
-                    <li><a href="/best-coding-class-in-pune">Best Coding Class in
-                            Pune</a></li>
-                    <li><a href="/best-coding-class-in-chennai">Best Coding Class in
-                            Chennai</a></li>
-                    <li><a href="/best-coding-class-in-ahmedabad">Best Coding Class in
-                            Ahmedabad</a></li>
-                    <li><a href="/best-coding-class-in-delhi">Best Coding Class in
-                            Delhi</a></li>
-                    <li><a href="/best-coding-class-in-indore">Best Coding Class in
-                            Indore</a></li>
-                    <li><a href="/best-coding-class-in-mumbai">Best Coding Class in
-                            Mumbai</a></li>
-                    <li><a href="/coding-classes-for-la-martiniere-boys-kolkata">La Martiniere Boys Coding</a></li>
-                    <li><a href="/coding-classes-for-la-martiniere-girls-kolkata">La Martiniere Girls Coding</a></li>
 
-                </ul>
+            <div class="labs-filters">
+                <button class="labs-filter-btn active" data-filter="all">All Projects</button>
+                <button class="labs-filter-btn" data-filter="game">Games</button>
+                <button class="labs-filter-btn" data-filter="ai">AI &amp; ML</button>
+                <button class="labs-filter-btn" data-filter="webapp">Web Apps</button>
+                <button class="labs-filter-btn" data-filter="tool">Tools</button>
             </div>
-            <div class="footer-column">
-                <h3 class="footer-heading">Contact & Legal</h3>
-                <ul class="footer-links">
-                    <li><a href="tel:+919123366161">+91 9123366161</a></li>
-                    <li><a href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a></li>
-                    <li><a href="/privacy">Privacy Policy</a></li>
-                    <li><a href="/terms">Terms of Service</a></li>
-                    <li><a href="/cancellation">Cancellation Policy</a></li>
-                    <li><a href="/refund">Refund Policy</a></li>
-                </ul>
+
+            <div class="labs-grid">
+                <!-- Card 1 — The Beautiful Mind -->
+                <article class="labs-card" data-category="game" onclick="window.open('https://mind.modernagecoders.com','_blank')">
+                    <div class="labs-card-img">
+                        <img src="/images/projects/mindgame.webp" alt="The Beautiful Mind — Focus and brain-strength game" loading="lazy">
+                        <span class="labs-card-badge badge-game">Game</span>
+                        <span class="labs-card-featured">Featured</span>
+                    </div>
+                    <div class="labs-card-body">
+                        <h3 class="labs-card-title">The Beautiful Mind</h3>
+                        <div class="labs-card-student">by Modern Age Coders</div>
+                        <p class="labs-card-desc">A scientifically designed focus and brain-strength game with 15 progressive levels. Tests attention, control, and mental endurance with real-time progress tracking and leaderboard systems.</p>
+                        <div class="labs-card-tags">
+                            <span class="labs-tag labs-tag-purple">React</span>
+                            <span class="labs-tag labs-tag-amber">Firebase</span>
+                            <span class="labs-tag labs-tag-teal">JavaScript</span>
+                            <span class="labs-tag labs-tag-pink">Game Logic</span>
+                        </div>
+                        <div class="labs-card-footer">
+                            <a href="https://mind.modernagecoders.com" target="_blank" rel="noopener" class="labs-card-link">View Project &rarr;</a>
+                            <span class="labs-card-difficulty diff-advanced">Advanced</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 2 — Misti AI -->
+                <article class="labs-card" data-category="ai" onclick="window.open('https://misti.modernagecoders.com','_blank')">
+                    <div class="labs-card-img">
+                        <img src="/images/projects/misti.webp" alt="Misti — AI chatbot for maths and coding" loading="lazy">
+                        <span class="labs-card-badge badge-ai">AI &amp; ML</span>
+                        <span class="labs-card-featured">Featured</span>
+                    </div>
+                    <div class="labs-card-body">
+                        <h3 class="labs-card-title">Misti — AI Chatbot for Maths &amp; Coding</h3>
+                        <div class="labs-card-student">by Harshit</div>
+                        <p class="labs-card-desc">An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations using advanced Python AI frameworks and LLM APIs.</p>
+                        <div class="labs-card-tags">
+                            <span class="labs-tag labs-tag-purple">Python</span>
+                            <span class="labs-tag labs-tag-pink">AI/ML</span>
+                            <span class="labs-tag labs-tag-teal">LLM APIs</span>
+                        </div>
+                        <div class="labs-card-footer">
+                            <a href="https://misti.modernagecoders.com" target="_blank" rel="noopener" class="labs-card-link">View Project &rarr;</a>
+                            <span class="labs-card-difficulty diff-advanced">Advanced</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 3 — Babu -->
+                <article class="labs-card" data-category="game" onclick="window.open('https://babu.modernagecoders.com','_blank')">
+                    <div class="labs-card-img">
+                        <img src="/images/projects/babu.webp" alt="Babu — 90 second maths challenge game" loading="lazy">
+                        <span class="labs-card-badge badge-game">Game</span>
+                        <span class="labs-card-featured">Featured</span>
+                    </div>
+                    <div class="labs-card-body">
+                        <h3 class="labs-card-title">Babu — 90 Second Maths Challenge</h3>
+                        <div class="labs-card-student">by Modern Age Coders</div>
+                        <p class="labs-card-desc">An exciting 90-second maths challenge game with random math problems under time pressure. Features a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.</p>
+                        <div class="labs-card-tags">
+                            <span class="labs-tag labs-tag-teal">JavaScript</span>
+                            <span class="labs-tag labs-tag-amber">Firebase</span>
+                            <span class="labs-tag labs-tag-purple">MongoDB</span>
+                        </div>
+                        <div class="labs-card-footer">
+                            <a href="https://babu.modernagecoders.com" target="_blank" rel="noopener" class="labs-card-link">View Project &rarr;</a>
+                            <span class="labs-card-difficulty diff-advanced">Advanced</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 4 — SkyCast -->
+                <article class="labs-card" data-category="webapp" onclick="window.open('https://krish-shroff.github.io/AuraWeatherTech/','_blank')">
+                    <div class="labs-card-img">
+                        <img src="/images/projects/skycast.webp" alt="SkyCast — Weather forecast web application" loading="lazy">
+                        <span class="labs-card-badge badge-webapp">Web App</span>
+                    </div>
+                    <div class="labs-card-body">
+                        <h3 class="labs-card-title">SkyCast — Weather Forecast App</h3>
+                        <div class="labs-card-student">by Krish</div>
+                        <p class="labs-card-desc">An interactive weather forecasting website providing real-time weather updates for any location. Displays temperature, humidity, wind speed, and conditions in a clean responsive interface.</p>
+                        <div class="labs-card-tags">
+                            <span class="labs-tag labs-tag-teal">JavaScript</span>
+                            <span class="labs-tag labs-tag-amber">API</span>
+                            <span class="labs-tag labs-tag-purple">HTML/CSS</span>
+                        </div>
+                        <div class="labs-card-footer">
+                            <a href="https://krish-shroff.github.io/AuraWeatherTech/" target="_blank" rel="noopener" class="labs-card-link">View Project &rarr;</a>
+                            <span class="labs-card-difficulty diff-intermediate">Intermediate</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 5 — HugSelle -->
+                <article class="labs-card" data-category="ai" onclick="window.open('https://hugselle.modernagecoders.com','_blank')">
+                    <div class="labs-card-img">
+                        <img src="/images/projects/hugselle.webp" alt="HugSelle — AI-powered smile generator" loading="lazy">
+                        <span class="labs-card-badge badge-ai">AI &amp; ML</span>
+                    </div>
+                    <div class="labs-card-body">
+                        <h3 class="labs-card-title">HugSelle — AI Smile Generator</h3>
+                        <div class="labs-card-student">by Anurag</div>
+                        <p class="labs-card-desc">A heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile. A creative blend of technology and positivity.</p>
+                        <div class="labs-card-tags">
+                            <span class="labs-tag labs-tag-purple">Python</span>
+                            <span class="labs-tag labs-tag-pink">Machine Learning</span>
+                            <span class="labs-tag labs-tag-teal">AI</span>
+                        </div>
+                        <div class="labs-card-footer">
+                            <a href="https://hugselle.modernagecoders.com" target="_blank" rel="noopener" class="labs-card-link">View Project &rarr;</a>
+                            <span class="labs-card-difficulty diff-advanced">Advanced</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 6 — Moxo -->
+                <article class="labs-card" data-category="webapp" onclick="window.open('https://moxo.modernagecoders.com','_blank')">
+                    <div class="labs-card-img">
+                        <img src="/images/projects/moxo.webp" alt="Moxo — Modern company landing page with animations" loading="lazy">
+                        <span class="labs-card-badge badge-webapp">Web App</span>
+                    </div>
+                    <div class="labs-card-body">
+                        <h3 class="labs-card-title">Moxo — Company Landing Page</h3>
+                        <div class="labs-card-student">by Isha</div>
+                        <p class="labs-card-desc">A stunning modern landing page with smooth parallax scrolling, advanced GSAP animations, and elegant section transitions that bring the brand to life with a premium look.</p>
+                        <div class="labs-card-tags">
+                            <span class="labs-tag labs-tag-teal">JavaScript</span>
+                            <span class="labs-tag labs-tag-purple">GSAP</span>
+                            <span class="labs-tag labs-tag-amber">Parallax</span>
+                        </div>
+                        <div class="labs-card-footer">
+                            <a href="https://moxo.modernagecoders.com" target="_blank" rel="noopener" class="labs-card-link">View Project &rarr;</a>
+                            <span class="labs-card-difficulty diff-advanced">Advanced</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 7 — Baby -->
+                <article class="labs-card" data-category="game" onclick="window.open('https://baby.modernagecoders.com','_blank')">
+                    <div class="labs-card-img">
+                        <img src="/images/projects/baby.webp" alt="Baby — Typing speed challenge game" loading="lazy">
+                        <span class="labs-card-badge badge-game">Game</span>
+                    </div>
+                    <div class="labs-card-body">
+                        <h3 class="labs-card-title">Baby — Typing Speed Challenge</h3>
+                        <div class="labs-card-student">by Kritika</div>
+                        <p class="labs-card-desc">An engaging typing speed challenge where users test how fast and accurately they can type. Features a live leaderboard connected to a MongoDB backend tracking top performers.</p>
+                        <div class="labs-card-tags">
+                            <span class="labs-tag labs-tag-teal">JavaScript</span>
+                            <span class="labs-tag labs-tag-purple">Node.js</span>
+                            <span class="labs-tag labs-tag-amber">MongoDB</span>
+                        </div>
+                        <div class="labs-card-footer">
+                            <a href="https://baby.modernagecoders.com" target="_blank" rel="noopener" class="labs-card-link">View Project &rarr;</a>
+                            <span class="labs-card-difficulty diff-intermediate">Intermediate</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 8 — MyDay -->
+                <article class="labs-card" data-category="webapp" onclick="window.open('https://myday.modernagecoders.com','_blank')">
+                    <div class="labs-card-img">
+                        <img src="/images/projects/myday.webp" alt="MyDay — Social productivity and task organizer" loading="lazy">
+                        <span class="labs-card-badge badge-webapp">Web App</span>
+                    </div>
+                    <div class="labs-card-body">
+                        <h3 class="labs-card-title">MyDay — Social Productivity Organizer</h3>
+                        <div class="labs-card-student">by Vedant</div>
+                        <p class="labs-card-desc">A beautifully designed productivity platform that helps users organize daily tasks, set goals, and stay consistent. View others' plans for inspiration in a motivating community.</p>
+                        <div class="labs-card-tags">
+                            <span class="labs-tag labs-tag-teal">JavaScript</span>
+                            <span class="labs-tag labs-tag-purple">Node.js</span>
+                            <span class="labs-tag labs-tag-amber">MongoDB</span>
+                            <span class="labs-tag labs-tag-pink">Python</span>
+                        </div>
+                        <div class="labs-card-footer">
+                            <a href="https://myday.modernagecoders.com" target="_blank" rel="noopener" class="labs-card-link">View Project &rarr;</a>
+                            <span class="labs-card-difficulty diff-advanced">Advanced</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 9 — FreshTrack -->
+                <article class="labs-card" data-category="webapp" onclick="window.open('https://freshtrackpro.netlify.app/','_blank')">
+                    <div class="labs-card-img">
+                        <img src="/images/projects/fresh.webp" alt="FreshTrack — Food expiry tracker application" loading="lazy">
+                        <span class="labs-card-badge badge-webapp">Web App</span>
+                    </div>
+                    <div class="labs-card-body">
+                        <h3 class="labs-card-title">FreshTrack — Food Expiry Tracker</h3>
+                        <div class="labs-card-student">by Tanish</div>
+                        <p class="labs-card-desc">A smart food management system to track expiry dates efficiently. Add, update, and delete items while the app checks expiry automatically with real-time and offline tracking.</p>
+                        <div class="labs-card-tags">
+                            <span class="labs-tag labs-tag-teal">JavaScript</span>
+                            <span class="labs-tag labs-tag-amber">MongoDB</span>
+                            <span class="labs-tag labs-tag-purple">Local Storage</span>
+                        </div>
+                        <div class="labs-card-footer">
+                            <a href="https://freshtrackpro.netlify.app/" target="_blank" rel="noopener" class="labs-card-link">View Project &rarr;</a>
+                            <span class="labs-card-difficulty diff-intermediate">Intermediate</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 10 — Pracy -->
+                <article class="labs-card" data-category="webapp" onclick="window.open('https://astounding-flan-f18e08.netlify.app/','_blank')">
+                    <div class="labs-card-img">
+                        <img src="/images/projects/pracy.webp" alt="Pracy — Coding practice and quiz platform" loading="lazy">
+                        <span class="labs-card-badge badge-webapp">Web App</span>
+                    </div>
+                    <div class="labs-card-body">
+                        <h3 class="labs-card-title">Pracy — Coding Practice &amp; Quiz Platform</h3>
+                        <div class="labs-card-student">by Rohan</div>
+                        <p class="labs-card-desc">An all-in-one coding practice website with interactive challenges, quizzes, and score tracking across multiple programming languages to strengthen logic and problem-solving.</p>
+                        <div class="labs-card-tags">
+                            <span class="labs-tag labs-tag-teal">JavaScript</span>
+                            <span class="labs-tag labs-tag-purple">Node.js</span>
+                            <span class="labs-tag labs-tag-amber">MongoDB</span>
+                        </div>
+                        <div class="labs-card-footer">
+                            <a href="https://astounding-flan-f18e08.netlify.app/" target="_blank" rel="noopener" class="labs-card-link">View Project &rarr;</a>
+                            <span class="labs-card-difficulty diff-intermediate">Intermediate</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 11 — Word Counter -->
+                <article class="labs-card" data-category="tool" onclick="window.open('https://vanshagarwalwordcounter-sys.github.io/WordCounter/','_blank')">
+                    <div class="labs-card-img">
+                        <img src="/images/projects/wordcounter.webp" alt="Word Counter — Text analysis tool" loading="lazy">
+                        <span class="labs-card-badge badge-tool">Tool</span>
+                    </div>
+                    <div class="labs-card-body">
+                        <h3 class="labs-card-title">Word Counter Website</h3>
+                        <div class="labs-card-student">by Vansh</div>
+                        <p class="labs-card-desc">A simple yet powerful tool that counts words, sentences, and paragraphs from user input with instant real-time results and a clean responsive interface.</p>
+                        <div class="labs-card-tags">
+                            <span class="labs-tag labs-tag-purple">HTML</span>
+                            <span class="labs-tag labs-tag-teal">CSS</span>
+                            <span class="labs-tag labs-tag-amber">JavaScript</span>
+                        </div>
+                        <div class="labs-card-footer">
+                            <a href="https://vanshagarwalwordcounter-sys.github.io/WordCounter/" target="_blank" rel="noopener" class="labs-card-link">View Project &rarr;</a>
+                            <span class="labs-card-difficulty diff-beginner">Beginner</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 12 — Life Span Tracker -->
+                <article class="labs-card" data-category="tool" onclick="window.open('https://lifespantracker.netlify.app/','_blank')">
+                    <div class="labs-card-img">
+                        <img src="/images/projects/lifespan.webp" alt="Life Span Tracker — Interactive lifespan calculator" loading="lazy">
+                        <span class="labs-card-badge badge-tool">Tool</span>
+                    </div>
+                    <div class="labs-card-body">
+                        <h3 class="labs-card-title">Life Span Tracker</h3>
+                        <div class="labs-card-student">by Manay</div>
+                        <p class="labs-card-desc">An interactive web tool that calculates expected lifespan, shows days/months/years lived, and visualizes remaining time to motivate better habits through awareness.</p>
+                        <div class="labs-card-tags">
+                            <span class="labs-tag labs-tag-teal">JavaScript</span>
+                            <span class="labs-tag labs-tag-amber">APIs</span>
+                            <span class="labs-tag labs-tag-purple">Date Calc</span>
+                        </div>
+                        <div class="labs-card-footer">
+                            <a href="https://lifespantracker.netlify.app/" target="_blank" rel="noopener" class="labs-card-link">View Project &rarr;</a>
+                            <span class="labs-card-difficulty diff-intermediate">Intermediate</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 13 — Simon Game -->
+                <article class="labs-card" data-category="game" onclick="window.open('http://yashaswi-2017.my.canva.site','_blank')">
+                    <div class="labs-card-img">
+                        <img src="/images/projects/simongame.webp" alt="Simon Game — Memory based color sequence game" loading="lazy">
+                        <span class="labs-card-badge badge-game">Game</span>
+                    </div>
+                    <div class="labs-card-body">
+                        <h3 class="labs-card-title">Simon Game</h3>
+                        <div class="labs-card-student">by Yashaswi</div>
+                        <p class="labs-card-desc">A fun interactive memory-based game where players repeat color and sound sequences. Each level adds a new challenge, making it brain-boosting for kids learning logic and focus.</p>
+                        <div class="labs-card-tags">
+                            <span class="labs-tag labs-tag-purple">HTML</span>
+                            <span class="labs-tag labs-tag-teal">CSS</span>
+                            <span class="labs-tag labs-tag-amber">JavaScript</span>
+                        </div>
+                        <div class="labs-card-footer">
+                            <a href="http://yashaswi-2017.my.canva.site" target="_blank" rel="noopener" class="labs-card-link">View Project &rarr;</a>
+                            <span class="labs-card-difficulty diff-beginner">Beginner</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 14 — Image Slider -->
+                <article class="labs-card" data-category="tool" onclick="window.open('https://robo23middle-stack.github.io/scenes/','_blank')">
+                    <div class="labs-card-img">
+                        <img src="/images/projects/slider.webp" alt="Image Slider — Responsive image carousel website" loading="lazy">
+                        <span class="labs-card-badge badge-tool">Tool</span>
+                    </div>
+                    <div class="labs-card-body">
+                        <h3 class="labs-card-title">Image Slider Website</h3>
+                        <div class="labs-card-student">by Somraj</div>
+                        <p class="labs-card-desc">A visually appealing website with a smooth image carousel — auto or manual navigation with responsive layout and beautiful transition effects.</p>
+                        <div class="labs-card-tags">
+                            <span class="labs-tag labs-tag-purple">HTML</span>
+                            <span class="labs-tag labs-tag-teal">CSS</span>
+                            <span class="labs-tag labs-tag-amber">JavaScript</span>
+                        </div>
+                        <div class="labs-card-footer">
+                            <a href="https://robo23middle-stack.github.io/scenes/" target="_blank" rel="noopener" class="labs-card-link">View Project &rarr;</a>
+                            <span class="labs-card-difficulty diff-beginner">Beginner</span>
+                        </div>
+                    </div>
+                </article>
             </div>
-        </div>
+        </section>
 
-        <div class="footer-bottom">
-            <p id="copyright"></p>
-        </div>
+        <!-- ═══════ SECTION 3: FEATURED PROJECTS SPOTLIGHT ═══════ -->
+        <section class="labs-section">
+            <div class="labs-section-header">
+                <h2>Featured <span>Spotlight</span></h2>
+                <p>Our top student projects that demonstrate exceptional creativity and technical skill</p>
+            </div>
 
-    </div>
-</footer>
+            <div class="labs-featured">
+                <!-- Featured 1 — The Beautiful Mind -->
+                <div class="labs-featured-card">
+                    <div class="labs-featured-img">
+                        <img src="/images/projects/mindgame.webp" alt="The Beautiful Mind game screenshot" loading="lazy">
+                    </div>
+                    <div class="labs-featured-body">
+                        <h3>The Beautiful Mind</h3>
+                        <div class="featured-student">by Modern Age Coders Team</div>
+                        <p>A scientifically designed focus and brain-strength game that challenges players across 15 progressive levels. Each level tests attention, control, and mental endurance with increasing complexity, integrating real-time progress tracking and leaderboard systems.</p>
+                        <div class="labs-featured-learned">
+                            <h4>What Students Learned</h4>
+                            <p>React component architecture, Firebase real-time database, state management patterns, game loop design, and responsive UI/UX principles.</p>
+                        </div>
+                        <a href="https://mind.modernagecoders.com" target="_blank" rel="noopener" class="labs-featured-link">Play the Game &rarr;</a>
+                    </div>
+                </div>
 
-<!-- Misti AI Floating Chat Button - Above WhatsApp -->
-<a href="https://misti.modernagecoders.com" target="_blank" rel="noopener noreferrer" class="misti-chat-btn"
-    aria-label="Chat with Misti AI"
-    style="position: fixed !important; bottom: 92px !important; right: 24px !important; z-index: 2147483646 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
-    <span class="misti-label"
-        style="background: linear-gradient(135deg, #a855f7, #8b5cf6); color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Ask
-        Misti AI</span>
-    <div class="misti-icon"
-        style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: linear-gradient(135deg, #a855f7, #8b5cf6); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round" style="min-width: 26px; min-height: 26px;">
-            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-        </svg>
-    </div>
-</a>
-<!-- WhatsApp Floating Chat Button -->
-<a href="https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!"
-    target="_blank" rel="noopener noreferrer" class="wa-float-btn" aria-label="Chat on WhatsApp"
-    style="position: fixed !important; bottom: 24px !important; right: 24px !important; z-index: 2147483645 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
-    <span class="wa-label"
-        style="background: #25D366; color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Chat
-        with us</span>
-    <div class="wa-icon"
-        style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff" style="min-width: 26px; min-height: 26px;">
-            <path
-                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-        </svg>
-    </div>
-</a>
+                <!-- Featured 2 — Misti AI -->
+                <div class="labs-featured-card">
+                    <div class="labs-featured-img">
+                        <img src="/images/projects/misti.webp" alt="Misti AI chatbot interface" loading="lazy">
+                    </div>
+                    <div class="labs-featured-body">
+                        <h3>Misti — AI Chatbot</h3>
+                        <div class="featured-student">by Harshit</div>
+                        <p>An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations. Uses advanced Python AI frameworks and integrates top AI model APIs for a personalized learning experience.</p>
+                        <div class="labs-featured-learned">
+                            <h4>What Students Learned</h4>
+                            <p>Python AI frameworks, LLM API integration, prompt engineering, backend architecture, database design for conversation history, and full-stack deployment.</p>
+                        </div>
+                        <a href="https://misti.modernagecoders.com" target="_blank" rel="noopener" class="labs-featured-link">Try Misti AI &rarr;</a>
+                    </div>
+                </div>
 
+                <!-- Featured 3 — Babu -->
+                <div class="labs-featured-card">
+                    <div class="labs-featured-img">
+                        <img src="/images/projects/babu.webp" alt="Babu maths challenge game" loading="lazy">
+                    </div>
+                    <div class="labs-featured-body">
+                        <h3>Babu — 90s Maths Challenge</h3>
+                        <div class="featured-student">by Modern Age Coders Team</div>
+                        <p>An exciting 90-second maths challenge game where users solve random math problems under time pressure. Features a dynamic leaderboard powered by Firebase/MongoDB, updating scores in real time to show top performers instantly.</p>
+                        <div class="labs-featured-learned">
+                            <h4>What Students Learned</h4>
+                            <p>Real-time database operations, timer-based game mechanics, leaderboard algorithms, responsive design, and cloud deployment with Firebase.</p>
+                        </div>
+                        <a href="https://babu.modernagecoders.com" target="_blank" rel="noopener" class="labs-featured-link">Take the Challenge &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- ═══════ SECTION 4: TECHNOLOGIES ═══════ -->
+        <section class="labs-section">
+            <div class="labs-section-header">
+                <h2>Technologies Our <span>Students Use</span></h2>
+                <p>Industry-standard tools and languages — the same ones used by top tech companies worldwide</p>
+            </div>
 
+            <div class="labs-tech-grid">
+                <a href="/python-and-ai-classes-for-kids-teens" class="labs-tech-item">
+                    <span class="labs-tech-icon">&#x1F40D;</span>
+                    <span class="labs-tech-name">Python</span>
+                </a>
+                <a href="/courses" class="labs-tech-item">
+                    <span class="labs-tech-icon">&#x26A1;</span>
+                    <span class="labs-tech-name">JavaScript</span>
+                </a>
+                <a href="/courses" class="labs-tech-item">
+                    <span class="labs-tech-icon">&#x1F310;</span>
+                    <span class="labs-tech-name">HTML &amp; CSS</span>
+                </a>
+                <a href="/courses" class="labs-tech-item">
+                    <span class="labs-tech-icon">&#x269B;&#xFE0F;</span>
+                    <span class="labs-tech-name">React</span>
+                </a>
+                <a href="/courses" class="labs-tech-item">
+                    <span class="labs-tech-icon">&#x1F5A5;&#xFE0F;</span>
+                    <span class="labs-tech-name">Node.js</span>
+                </a>
+                <a href="/courses" class="labs-tech-item">
+                    <span class="labs-tech-icon">&#x1F343;</span>
+                    <span class="labs-tech-name">MongoDB</span>
+                </a>
+                <a href="/courses" class="labs-tech-item">
+                    <span class="labs-tech-icon">&#x1F525;</span>
+                    <span class="labs-tech-name">Firebase</span>
+                </a>
+                <a href="/ai-ml-course-for-teens" class="labs-tech-item">
+                    <span class="labs-tech-icon">&#x1F916;</span>
+                    <span class="labs-tech-name">AI &amp; ML</span>
+                </a>
+                <a href="/courses" class="labs-tech-item">
+                    <span class="labs-tech-icon">&#x1F3AC;</span>
+                    <span class="labs-tech-name">GSAP</span>
+                </a>
+                <a href="/courses" class="labs-tech-item">
+                    <span class="labs-tech-icon">&#x1F517;</span>
+                    <span class="labs-tech-name">REST APIs</span>
+                </a>
+            </div>
+        </section>
 
+        <!-- ═══════ SECTION 5: LEARNING JOURNEY ═══════ -->
+        <section class="labs-section">
+            <div class="labs-section-header">
+                <h2>From Beginner to <span>Builder</span></h2>
+                <p>Every student project here started with a single line of code — here's the journey</p>
+            </div>
 
-<style>
-    /* Misti AI Button Hover */
-    .misti-chat-btn:hover .misti-icon {
-        transform: scale(1.08);
-        box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
-    }
+            <div class="labs-journey">
+                <a href="/courses" class="labs-journey-step">
+                    <div class="labs-journey-number">1</div>
+                    <h3>Learn Fundamentals</h3>
+                    <p>Start with HTML, CSS, Python, or JavaScript basics in our structured courses</p>
+                </a>
+                <a href="/coding-challenges" class="labs-journey-step">
+                    <div class="labs-journey-number">2</div>
+                    <h3>Build Mini Projects</h3>
+                    <p>Apply skills through guided coding challenges and small practice projects</p>
+                </a>
+                <a href="/courses" class="labs-journey-step">
+                    <div class="labs-journey-number">3</div>
+                    <h3>Create Full Apps</h3>
+                    <p>Design and build complete applications with databases, APIs, and real users</p>
+                </a>
+                <a href="/student-labs" class="labs-journey-step">
+                    <div class="labs-journey-number">4</div>
+                    <h3>Showcase in Labs</h3>
+                    <p>Deploy your project live and get featured on Student Labs for the world to see</p>
+                </a>
+            </div>
+        </section>
 
-    .misti-chat-btn:hover .misti-label {
-        box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
-    }
+        <!-- ═══════ SECTION 6: EXPLORE COURSES ═══════ -->
+        <section class="labs-section">
+            <div class="labs-section-header">
+                <h2>Explore Our <span>Courses</span></h2>
+                <p>Learn the skills to build projects like these — courses for every age and skill level</p>
+            </div>
 
-    /* WhatsApp Button Hover */
-    .wa-float-btn:hover .wa-icon {
-        transform: scale(1.08);
-        box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
-    }
+            <div class="labs-courses-grid">
+                <a href="/python-and-ai-classes-for-kids-teens" class="labs-course-card">
+                    <span class="labs-course-icon">&#x1F40D;</span>
+                    <h3>Python &amp; AI for Kids &amp; Teens</h3>
+                    <p>Learn Python programming and artificial intelligence with hands-on projects. Build chatbots, games, and AI tools.</p>
+                    <span class="labs-course-link">Explore Course &rarr;</span>
+                </a>
+                <a href="/ai-ml-course-for-teens" class="labs-course-card">
+                    <span class="labs-course-icon">&#x1F916;</span>
+                    <h3>AI &amp; Machine Learning for Teens</h3>
+                    <p>Dive into machine learning, neural networks, and AI model building. Create intelligent applications from scratch.</p>
+                    <span class="labs-course-link">Explore Course &rarr;</span>
+                </a>
+                <a href="/java-programming-for-kids-teens" class="labs-course-card">
+                    <span class="labs-course-icon">&#x2615;</span>
+                    <h3>Java Programming</h3>
+                    <p>Master Java fundamentals, OOP concepts, and build apps. Perfect for competitive programming and Android development.</p>
+                    <span class="labs-course-link">Explore Course &rarr;</span>
+                </a>
+                <a href="/coding-classes-for-girls" class="labs-course-card">
+                    <span class="labs-course-icon">&#x1F4AA;</span>
+                    <h3>Coding Classes for Girls</h3>
+                    <p>Empowering girls through technology — learn to code in a supportive, encouraging environment with female mentors.</p>
+                    <span class="labs-course-link">Explore Course &rarr;</span>
+                </a>
+                <a href="/best-coding-classes-online" class="labs-course-card">
+                    <span class="labs-course-icon">&#x1F4BB;</span>
+                    <h3>Best Coding Classes Online</h3>
+                    <p>Live 1-on-1 online coding classes with expert instructors. Learn HTML, CSS, JavaScript, Python, and more.</p>
+                    <span class="labs-course-link">Explore Course &rarr;</span>
+                </a>
+                <a href="/summer-coding-camp" class="labs-course-card">
+                    <span class="labs-course-icon">&#x2600;&#xFE0F;</span>
+                    <h3>Summer Coding Camp</h3>
+                    <p>Intensive summer program — build a complete project in weeks. Perfect for school breaks and skill acceleration.</p>
+                    <span class="labs-course-link">Explore Course &rarr;</span>
+                </a>
+            </div>
+        </section>
 
-    .wa-float-btn:hover .wa-label {
-        box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
-    }
+        <!-- ═══════ SECTION 7: CTA BANNER ═══════ -->
+        <section class="labs-cta">
+            <h2>Ready to Build Something Amazing?</h2>
+            <p>Book a free demo class and start your coding journey. Your project could be featured here next.</p>
+            <a href="/book-demo" class="labs-cta-btn">Book a Free Demo Class &rarr;</a>
+        </section>
 
-    /* Mobile - Hide labels, show only icons */
-    @media (max-width: 768px) {
+        <!-- ═══════ SECTION 8: FAQ ═══════ -->
+        <section class="labs-section">
+            <div class="labs-section-header">
+                <h2>Frequently Asked <span>Questions</span></h2>
+                <p>Everything you need to know about our project-based learning approach</p>
+            </div>
 
-        .misti-label,
-        .wa-label {
-            display: none !important;
-            visibility: hidden !important;
-        }
+            <div class="labs-faq-list">
+                <div class="labs-faq-item">
+                    <div class="labs-faq-q" onclick="toggleFaq(this)">
+                        <span>What projects can beginners build after learning to code?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="labs-faq-a">
+                        <div class="labs-faq-a-inner">Beginners can build exciting projects like word counters, image sliders, memory games (like Simon Game), and simple calculators. As they progress, they move on to weather apps, typing challenges, and interactive websites. Our students typically build their first project within 2-3 months of starting.</div>
+                    </div>
+                </div>
+                <div class="labs-faq-item">
+                    <div class="labs-faq-q" onclick="toggleFaq(this)">
+                        <span>How long does it take to build a complete project?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="labs-faq-a">
+                        <div class="labs-faq-a-inner">Simple projects like a word counter or image slider take 1-2 weeks. Intermediate projects like weather apps or food trackers take 3-4 weeks. Advanced projects like AI chatbots, brain-training games, or full-stack platforms can take 2-3 months. Our instructors guide students through every step.</div>
+                    </div>
+                </div>
+                <div class="labs-faq-item">
+                    <div class="labs-faq-q" onclick="toggleFaq(this)">
+                        <span>Do students get certificates for their projects?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="labs-faq-a">
+                        <div class="labs-faq-a-inner">Yes! Students receive a project completion certificate for every major project they build. These certificates can be added to college applications, LinkedIn profiles, and resumes. We also showcase the best projects here on Student Labs.</div>
+                    </div>
+                </div>
+                <div class="labs-faq-item">
+                    <div class="labs-faq-q" onclick="toggleFaq(this)">
+                        <span>What technologies will students learn to build these projects?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="labs-faq-a">
+                        <div class="labs-faq-a-inner">Students learn industry-standard technologies including HTML, CSS, JavaScript, Python, React, Node.js, MongoDB, Firebase, and AI/ML frameworks. The specific tech stack depends on the course and project chosen.</div>
+                    </div>
+                </div>
+                <div class="labs-faq-item">
+                    <div class="labs-faq-q" onclick="toggleFaq(this)">
+                        <span>Can my child's project be featured on Student Labs?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="labs-faq-a">
+                        <div class="labs-faq-a-inner">Absolutely! Any student enrolled in our courses can submit their completed project for review. Projects that demonstrate creativity, technical skill, and completeness are featured on this page with the student's name and a live link to their project.</div>
+                    </div>
+                </div>
+                <div class="labs-faq-item">
+                    <div class="labs-faq-q" onclick="toggleFaq(this)">
+                        <span>What age groups can participate in project-based learning?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="labs-faq-a">
+                        <div class="labs-faq-a-inner">Our project-based learning is designed for all ages — kids (6-12), teens (13-18), college students, and working professionals. Projects are tailored to each age group's skill level, from Scratch games for young kids to full-stack AI applications for advanced learners.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        .misti-chat-btn {
-            bottom: 88px !important;
-            right: 16px !important;
-        }
+        <!-- ═══════ SECTION 9: TESTIMONIALS ═══════ -->
+        <section class="labs-section">
+            <div class="labs-section-header">
+                <h2>What Students <span>Say</span></h2>
+                <p>Hear from students who built their projects at Modern Age Coders</p>
+            </div>
 
-        .wa-float-btn {
-            bottom: 20px !important;
-            right: 16px !important;
-        }
+            <div class="labs-testimonials">
+                <div class="labs-testimonial">
+                    <p class="labs-testimonial-text">"Building the Misti AI chatbot was the most exciting thing I've done. I went from knowing nothing about AI to deploying a full working chatbot that actually helps people solve maths problems. The instructors made it feel possible."</p>
+                    <div class="labs-testimonial-author">Harshit</div>
+                    <div class="labs-testimonial-role">Student, AI &amp; ML Course</div>
+                </div>
+                <div class="labs-testimonial">
+                    <p class="labs-testimonial-text">"I never thought I could build a real website with animations and parallax effects at my age. The Moxo project taught me GSAP, JavaScript, and how to think like a designer. Now I'm building websites for fun!"</p>
+                    <div class="labs-testimonial-author">Isha</div>
+                    <div class="labs-testimonial-role">Student, Web Development Course</div>
+                </div>
+            </div>
+        </section>
 
-        .misti-icon,
-        .wa-icon {
-            width: 52px !important;
-            height: 52px !important;
-            min-width: 52px !important;
-            min-height: 52px !important;
-        }
-    }
-</style>
+    </main>
 
-<!-- Lenis Smooth Scrolling -->
-<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        if (typeof Lenis !== 'undefined') {
-            const lenis = new Lenis({
-                duration: 1.2,
-                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-                direction: 'vertical',
-                gestureDirection: 'vertical',
-                smooth: true,
-                mouseMultiplier: 1,
-                smoothTouch: false,
-                touchMultiplier: 2,
-                infinite: false,
-            });
+    <div id="footer-placeholder"></div>
 
-            function raf(time) {
-                lenis.raf(time);
-                requestAnimationFrame(raf);
-            }
-            requestAnimationFrame(raf);
-
-            // Handle smooth scrolling for anchor links using Lenis
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    const targetId = this.getAttribute('href');
-                    if (targetId && targetId !== '#') {
-                        const targetElement = document.querySelector(targetId);
-                        if (targetElement) {
-                            e.preventDefault();
-                            lenis.scrollTo(targetElement);
-                        }
+    <!-- ═══════ SCRIPTS ═══════ -->
+    <script>
+        // Filter functionality
+        document.querySelectorAll('.labs-filter-btn').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.labs-filter-btn').forEach(function(b) { b.classList.remove('active'); });
+                btn.classList.add('active');
+                var filter = btn.getAttribute('data-filter');
+                document.querySelectorAll('.labs-card').forEach(function(card) {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = '';
+                    } else {
+                        card.style.display = 'none';
                     }
                 });
             });
-        }
-    });
+        });
 
-</script>
-<!-- END_INLINED_FOOTER -->
+        // FAQ accordion
+        function toggleFaq(el) {
+            var item = el.parentElement;
+            var answer = item.querySelector('.labs-faq-a');
+            var isActive = item.classList.contains('active');
 
-    <!-- Misti AI Floating Chat Button - Above WhatsApp -->
-    <a href="https://misti.modernagecoders.com" target="_blank" rel="noopener noreferrer" class="misti-chat-btn"
-        aria-label="Chat with Misti AI"
-        style="position: fixed !important; bottom: 92px !important; right: 24px !important; z-index: 2147483646 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
-        <span class="misti-label"
-            style="background: linear-gradient(135deg, #a855f7, #8b5cf6); color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Ask
-            Misti AI</span>
-        <div class="misti-icon"
-            style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: linear-gradient(135deg, #a855f7, #8b5cf6); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round" style="min-width: 26px; min-height: 26px;">
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-            </svg>
-        </div>
-    </a>
-    <!-- WhatsApp Floating Chat Button -->
-    <a href="https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!"
-        target="_blank" rel="noopener noreferrer" class="wa-float-btn" aria-label="Chat on WhatsApp"
-        style="position: fixed !important; bottom: 24px !important; right: 24px !important; z-index: 2147483645 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
-        <span class="wa-label"
-            style="background: #25D366; color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Chat
-            with us</span>
-        <div class="wa-icon"
-            style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff" style="min-width: 26px; min-height: 26px;">
-                <path
-                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-            </svg>
-        </div>
-    </a>
+            // Close all
+            document.querySelectorAll('.labs-faq-item').forEach(function(i) {
+                i.classList.remove('active');
+                i.querySelector('.labs-faq-a').style.maxHeight = '0';
+            });
 
-    <style>
-        /* Misti AI Button Hover */
-        .misti-chat-btn:hover .misti-icon {
-            transform: scale(1.08);
-            box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
-        }
-
-        .misti-chat-btn:hover .misti-label {
-            box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
-        }
-
-        /* WhatsApp Button Hover */
-        .wa-float-btn:hover .wa-icon {
-            transform: scale(1.08);
-            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
-        }
-
-        .wa-float-btn:hover .wa-label {
-            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
-        }
-
-        /* Mobile - Hide labels, show only icons */
-        @media (max-width: 768px) {
-
-            .misti-label,
-            .wa-label {
-                display: none !important;
-                visibility: hidden !important;
-            }
-
-            .misti-chat-btn {
-                bottom: 88px !important;
-                right: 16px !important;
-            }
-
-            .wa-float-btn {
-                bottom: 20px !important;
-                right: 16px !important;
-            }
-
-            .misti-icon,
-            .wa-icon {
-                width: 52px !important;
-                height: 52px !important;
-                min-width: 52px !important;
-                min-height: 52px !important;
+            // Toggle current
+            if (!isActive) {
+                item.classList.add('active');
+                answer.style.maxHeight = answer.scrollHeight + 'px';
             }
         }
-    </style>
-
-
-    <!-- Components inlined at build time -->
-    <script>
-        (function () {
-            // Fire componentsLoaded event for backward compatibility
-            document.dispatchEvent(new CustomEvent('componentsLoaded'));
-            // Set copyright year
-            var c = document.getElementById('copyright');
-            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
-        })();
     </script>
 
-    <!-- Components inlined at build time -->
+    <!-- Background Canvas Animation -->
     <script>
-        (function () {
-            // Fire componentsLoaded event for backward compatibility
-            document.dispatchEvent(new CustomEvent('componentsLoaded'));
-            // Set copyright year
-            var c = document.getElementById('copyright');
-            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
-        })();
+        var canvas = document.getElementById('background-canvas');
+        if (canvas) {
+            var ctx = canvas.getContext('2d');
+            var particles = [];
+            var symbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', 'return', '//', '&&', '||', 'def', 'class'];
+
+            function resizeCanvas() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+
+            function createParticles() {
+                particles = [];
+                var count = Math.min(Math.floor(window.innerWidth / 35), 40);
+                for (var i = 0; i < count; i++) {
+                    particles.push({
+                        x: Math.random() * canvas.width,
+                        y: Math.random() * canvas.height,
+                        char: symbols[Math.floor(Math.random() * symbols.length)],
+                        size: Math.random() * 12 + 10,
+                        speed: Math.random() * 0.3 + 0.1,
+                        opacity: Math.random() * 0.12 + 0.04,
+                        rotation: Math.random() * Math.PI * 2,
+                        rotationSpeed: (Math.random() - 0.5) * 0.008
+                    });
+                }
+            }
+
+            function animate() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                particles.forEach(function(p) {
+                    p.y -= p.speed;
+                    p.rotation += p.rotationSpeed;
+                    if (p.y < -30) {
+                        p.y = canvas.height + 30;
+                        p.x = Math.random() * canvas.width;
+                    }
+                    ctx.save();
+                    ctx.translate(p.x, p.y);
+                    ctx.rotate(p.rotation);
+                    ctx.font = p.size + 'px monospace';
+                    ctx.fillStyle = 'rgba(168, 85, 247, ' + p.opacity + ')';
+                    ctx.fillText(p.char, 0, 0);
+                    ctx.restore();
+                });
+                requestAnimationFrame(animate);
+            }
+
+            window.addEventListener('resize', function() { resizeCanvas(); createParticles(); });
+            resizeCanvas();
+            createParticles();
+            animate();
+        }
     </script>
 
-    <!-- Components inlined at build time -->
-    <script>
-        (function () {
-            // Fire componentsLoaded event for backward compatibility
-            document.dispatchEvent(new CustomEvent('componentsLoaded'));
-            // Set copyright year
-            var c = document.getElementById('copyright');
-            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
-        })();
-    </script>
-
-    <!-- Components inlined at build time -->
-    <script>
-        (function() {
-            // Fire componentsLoaded event for backward compatibility
-            document.dispatchEvent(new CustomEvent('componentsLoaded'));
-            // Set copyright year
-            var c = document.getElementById('copyright');
-            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
-        })();
-    </script>
+    <script src="/js/unified-mobile-nav.js"></script>
+    <script src="/js/callback-modal.js"></script>
+    <script src="/js/keyboard-navigation.js"></script>
+    <script src="/js/tab-accessibility.js"></script>
 </body>
 
 </html>
