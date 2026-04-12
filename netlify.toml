@@ -379,6 +379,67 @@
   to = "/src/pages/best-coding-class-in-coimbatore.html"
   status = 200
 
+# Tier 2 City Pages — April 2026
+[[redirects]]
+  from = "/best-coding-class-in-vadodara"
+  to = "/src/pages/best-coding-class-in-vadodara.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-visakhapatnam"
+  to = "/src/pages/best-coding-class-in-visakhapatnam.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-patna"
+  to = "/src/pages/best-coding-class-in-patna.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-ranchi"
+  to = "/src/pages/best-coding-class-in-ranchi.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-bhubaneswar"
+  to = "/src/pages/best-coding-class-in-bhubaneswar.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-dehradun"
+  to = "/src/pages/best-coding-class-in-dehradun.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-guwahati"
+  to = "/src/pages/best-coding-class-in-guwahati.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-amritsar"
+  to = "/src/pages/best-coding-class-in-amritsar.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-rajkot"
+  to = "/src/pages/best-coding-class-in-rajkot.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-kanpur"
+  to = "/src/pages/best-coding-class-in-kanpur.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-agra"
+  to = "/src/pages/best-coding-class-in-agra.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-varanasi"
+  to = "/src/pages/best-coding-class-in-varanasi.html"
+  status = 200
+
 [[redirects]]
   from = "/love"
   to = "/lovewall/dist/index.html"
