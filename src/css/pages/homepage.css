@@ -1,0 +1,506 @@
+/**
+ * pages/homepage.css — Homepage elevation layer
+ * Phase 2 Visual Design Elevation
+ *
+ * Design philosophy: ENHANCE, don't replace. The existing CSS already has
+ * sophisticated category-aware hover states for cards. We add polish where
+ * the site lacks it: hero mesh gradient, typography optical tuning, button
+ * shimmer, form focus glow, section dividers, branded scrollbar.
+ *
+ * Everything is scoped to body.index-page so other pages stay untouched.
+ * Rules are unlayered so they compete with existing CSS via source order.
+ */
+
+/* ============================================================
+   HERO — Mesh gradient + noise texture (anti-AI aesthetic)
+   The existing hero::before is a single radial gradient that animates.
+   We replace it with a richer multi-layer mesh and add a noise overlay.
+   ============================================================ */
+body.index-page .hero-section {
+    position: relative;
+    isolation: isolate;
+}
+
+body.index-page .hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    background-image:
+        radial-gradient(ellipse 80% 50% at 20% 30%, rgba(168, 85, 247, 0.14) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 40% at 80% 20%, rgba(78, 205, 196, 0.09) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 60% at 50% 85%, rgba(236, 72, 153, 0.07) 0%, transparent 60%),
+        radial-gradient(ellipse 40% 30% at 90% 70%, rgba(245, 158, 11, 0.05) 0%, transparent 60%);
+    border-radius: inherit;
+    animation: none;
+}
+
+body.index-page .hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.035;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    background-size: 200px 200px;
+    border-radius: inherit;
+}
+
+/* Ensure hero content sits above decorative pseudo elements */
+body.index-page .hero-section>* {
+    position: relative;
+    z-index: 1;
+}
+
+/* ============================================================
+   TYPOGRAPHY OPTICAL TUNING — heading polish
+   ============================================================ */
+body.index-page h1 {
+    letter-spacing: -0.03em;
+    text-wrap: balance;
+    font-feature-settings: 'kern' 1, 'liga' 1, 'ss01' 1, 'cv01' 1;
+}
+
+body.index-page h2 {
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+    font-feature-settings: 'kern' 1, 'liga' 1;
+}
+
+body.index-page h3 {
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+}
+
+body.index-page p {
+    text-wrap: pretty;
+}
+
+body.index-page .hero-text h1 {
+    font-feature-settings: 'kern' 1, 'liga' 1, 'ss01' 1;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.035em;
+}
+
+body.index-page .hero-text p {
+    letter-spacing: 0.005em;
+    text-wrap: pretty;
+    max-width: 56ch;
+}
+
+/* Eyebrow labels — uppercase tracked out for authority */
+body.index-page .stat-label {
+    letter-spacing: 0.08em;
+}
+
+/* Tabular numbers for stats */
+body.index-page .stat-number {
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+}
+
+/* ============================================================
+   SECTION TRANSITIONS — subtle gradient divider between sections
+   ============================================================ */
+body.index-page section.section:not(.hero-section):not(:first-of-type) {
+    position: relative;
+}
+
+body.index-page section.section:not(.hero-section):not(:first-of-type)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18%;
+    right: 18%;
+    height: 1px;
+    background: linear-gradient(90deg,
+            transparent 0%,
+            rgba(168, 85, 247, 0.12) 25%,
+            rgba(78, 205, 196, 0.12) 75%,
+            transparent 100%);
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+/* ============================================================
+   CTA BUTTONS — shimmer sweep on hover (premium feel)
+   The existing .cta-button has its own ::before. We add a ::after
+   for the shimmer overlay so we don't conflict with the existing pseudo.
+   ============================================================ */
+body.index-page .cta-button {
+    position: relative;
+    overflow: hidden;
+}
+
+body.index-page .cta-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(120deg,
+            transparent 30%,
+            rgba(255, 255, 255, 0.18) 50%,
+            transparent 70%);
+    transform: translateX(-110%);
+    transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    pointer-events: none;
+    z-index: 1;
+}
+
+body.index-page .cta-button:hover::after {
+    transform: translateX(110%);
+}
+
+/* Keep button content above the shimmer overlay */
+body.index-page .cta-button>* {
+    position: relative;
+    z-index: 2;
+}
+
+/* ============================================================
+   FORM INPUTS — branded purple focus glow
+   ============================================================ */
+body.index-page #contact input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]):focus,
+body.index-page #contact textarea:focus,
+body.index-page #contact select:focus,
+body.index-page .try-coding-section input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]):focus,
+body.index-page .try-coding-section textarea:focus,
+body.index-page .try-coding-section select:focus {
+    border-color: rgba(168, 85, 247, 0.7) !important;
+    box-shadow:
+        0 0 0 3px rgba(168, 85, 247, 0.16),
+        0 4px 24px rgba(168, 85, 247, 0.1) !important;
+    outline: none !important;
+}
+
+/* ============================================================
+   POPULAR COURSE CHIPS — refined hover with branded glow
+   ============================================================ */
+body.index-page .course-chip {
+    transition:
+        transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+        box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        border-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+body.index-page .course-chip:hover {
+    transform: translateY(-3px) scale(1.02);
+}
+
+body.index-page .course-chip:active {
+    transform: translateY(-1px) scale(0.99);
+    transition-duration: 0.1s;
+}
+
+/* ============================================================
+   STATS — refined hover lift
+   ============================================================ */
+body.index-page .stat-item {
+    transition:
+        transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+        box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+body.index-page .stat-item:hover {
+    transform: translateY(-3px);
+}
+
+/* ============================================================
+   SKIP LINK — visible on focus for accessibility
+   ============================================================ */
+body.index-page .skip-link {
+    position: absolute;
+    top: -200%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #7c3aed, #a855f7);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0 0 1rem 1rem;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+    z-index: 9999;
+    text-decoration: none;
+    transition: top 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+body.index-page .skip-link:focus {
+    top: 0;
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+/* ============================================================
+   SCROLLBAR — slimmer, branded
+   ============================================================ */
+body.index-page::-webkit-scrollbar {
+    width: 10px;
+}
+
+body.index-page::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+body.index-page::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(168, 85, 247, 0.4), rgba(78, 205, 196, 0.35));
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+body.index-page::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, rgba(168, 85, 247, 0.6), rgba(78, 205, 196, 0.5));
+    background-clip: padding-box;
+}
+
+/* ============================================================
+   ::SELECTION — branded text selection
+   ============================================================ */
+body.index-page ::selection {
+    background: rgba(168, 85, 247, 0.4);
+    color: #fff;
+}
+
+body.index-page ::-moz-selection {
+    background: rgba(168, 85, 247, 0.4);
+    color: #fff;
+}
+
+/* ============================================================
+   PHASE 4 — BACK-TO-TOP BUTTON
+   ============================================================ */
+#mac-back-to-top {
+    position: fixed;
+    right: clamp(1rem, 3vw, 2rem);
+    bottom: clamp(6.5rem, 12vw, 8.5rem);
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #c084fc 100%);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 50%;
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.35),
+        0 0 30px rgba(168, 85, 247, 0.35);
+    cursor: pointer;
+    z-index: 9998;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px) scale(0.85);
+    transition:
+        opacity 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1),
+        visibility 0.35s,
+        box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+#mac-back-to-top.is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+}
+
+#mac-back-to-top:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow:
+        0 12px 32px rgba(0, 0, 0, 0.4),
+        0 0 40px rgba(168, 85, 247, 0.55);
+}
+
+#mac-back-to-top:active {
+    transform: translateY(-1px) scale(0.95);
+    transition-duration: 0.1s;
+}
+
+#mac-back-to-top svg {
+    pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    #mac-back-to-top {
+        width: 44px;
+        height: 44px;
+        right: 0.85rem;
+        bottom: 7.5rem;
+    }
+}
+
+/* ============================================================
+   PHASE 4 — STICKY MOBILE CTA BAR
+   Fixed bottom bar visible only on mobile (<= 768px), appears
+   after the user scrolls past the hero. Always-accessible
+   conversion path without interfering with content.
+   ============================================================ */
+#mac-sticky-cta {
+    display: none;
+    /* hidden on desktop; the JS only injects it on mobile, but this is a safety net */
+}
+
+@media (max-width: 768px) {
+    #mac-sticky-cta {
+        display: block;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9997;
+        padding: 0.75rem 0.85rem calc(0.75rem + env(safe-area-inset-bottom));
+        background: linear-gradient(180deg,
+                rgba(8, 8, 16, 0.7) 0%,
+                rgba(8, 8, 16, 0.95) 100%);
+        backdrop-filter: blur(20px) saturate(160%);
+        -webkit-backdrop-filter: blur(20px) saturate(160%);
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        opacity: 0;
+        transform: translateY(100%);
+        transition:
+            opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+            transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+        pointer-events: none;
+    }
+
+    #mac-sticky-cta.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+
+    #mac-sticky-cta .mac-sticky-cta__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.625rem;
+        width: 100%;
+        min-height: 52px;
+        padding: 0.85rem 1.25rem;
+        background: linear-gradient(135deg, #d97706 0%, #f59e0b 50%, #fbbf24 100%);
+        color: #1a1a1a;
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        border-radius: 0.875rem;
+        box-shadow:
+            0 8px 24px rgba(245, 158, 11, 0.4),
+            0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+        transition: transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    #mac-sticky-cta .mac-sticky-cta__btn:active {
+        transform: scale(0.97);
+    }
+
+    #mac-sticky-cta .mac-sticky-cta__btn svg {
+        flex-shrink: 0;
+    }
+
+    /* When sticky CTA is showing, lift the floating WhatsApp/Misti buttons
+       and the back-to-top so they don't get hidden behind it. */
+    #mac-sticky-cta.is-visible~* .floating-whatsapp-bottom,
+    #mac-sticky-cta.is-visible~#mac-back-to-top {
+        bottom: calc(7rem + env(safe-area-inset-bottom));
+    }
+}
+
+/* ============================================================
+   PHASE 4 — ACTIVE SECTION NAV INDICATOR
+   Subtle dot below the active nav link as user scrolls.
+   ============================================================ */
+body.index-page .nav-menu a.is-current-section,
+body.index-page .nav-link.is-current-section {
+    color: #fff;
+    position: relative;
+}
+
+body.index-page .nav-menu a.is-current-section::after,
+body.index-page .nav-link.is-current-section::after {
+    content: '';
+    position: absolute;
+    bottom: 0.4rem;
+    left: 50%;
+    width: 4px;
+    height: 4px;
+    background: linear-gradient(135deg, #a855f7, #4ecdc4);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 8px rgba(168, 85, 247, 0.6);
+}
+
+/* ============================================================
+   PHASE 4 — REDUCED MOTION GUARD
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+
+    #mac-back-to-top,
+    #mac-sticky-cta {
+        transition: opacity 0.01ms !important;
+        transform: none !important;
+    }
+
+    #mac-back-to-top.is-visible,
+    #mac-sticky-cta.is-visible {
+        transform: none !important;
+    }
+}
+
+/* ============================================================
+   MOBILE TOUCH POLISH — branded tap highlight
+   ============================================================ */
+@media (hover: none) and (pointer: coarse) {
+
+    body.index-page .course-chip:hover {
+        transform: none;
+    }
+
+    body.index-page .course-chip:active {
+        transform: scale(0.96);
+        transition-duration: 0.1s;
+    }
+
+    body.index-page .cta-button:hover::after {
+        transform: translateX(-110%);
+    }
+
+    body.index-page a,
+    body.index-page button {
+        -webkit-tap-highlight-color: rgba(168, 85, 247, 0.18);
+    }
+}
+
+/* ============================================================
+   REDUCED MOTION — disable decorative motion
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+
+    body.index-page .cta-button::after,
+    body.index-page .hero-section::before,
+    body.index-page .hero-section::after {
+        display: none;
+    }
+
+    body.index-page .stat-item:hover,
+    body.index-page .course-chip:hover {
+        transform: none;
+    }
+}

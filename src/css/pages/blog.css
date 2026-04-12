@@ -1,0 +1,223 @@
+/**
+ * pages/blog.css — Blog listing + Blog post page elevation
+ * Phase 6 Page-by-Page Polish
+ *
+ * Polishes both .blog-page (listing) and .blog-detail-page (individual posts).
+ * Adds hero mesh, polishes blog cards, refines reading typography.
+ */
+
+/* ============================================================
+   BLOG LISTING PAGE
+   ============================================================ */
+body.blog-page .blog-hero,
+body.blog-page main>section:first-of-type {
+    position: relative;
+    isolation: isolate;
+}
+
+body.blog-page .blog-hero::before,
+body.blog-page main>section:first-of-type::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    background-image:
+        radial-gradient(ellipse 80% 50% at 25% 30%, rgba(168, 85, 247, 0.12) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 40% at 78% 25%, rgba(78, 205, 196, 0.08) 0%, transparent 60%);
+}
+
+body.blog-page .blog-hero>*,
+body.blog-page main>section:first-of-type>* {
+    position: relative;
+    z-index: 1;
+}
+
+/* Blog card hover */
+body.blog-page .blog-card,
+body.blog-page article {
+    transition:
+        transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        box-shadow 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        border-color 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+body.blog-page .blog-card:hover {
+    transform: translateY(-6px);
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.4),
+        0 0 60px rgba(168, 85, 247, 0.15);
+}
+
+/* ============================================================
+   BLOG DETAIL PAGE (individual blog post)
+   ============================================================ */
+body.blog-detail-page .blog-hero {
+    position: relative;
+    isolation: isolate;
+}
+
+body.blog-detail-page .blog-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    background-image:
+        radial-gradient(ellipse 80% 50% at 25% 30%, rgba(168, 85, 247, 0.13) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 40% at 78% 25%, rgba(78, 205, 196, 0.09) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 50% at 50% 85%, rgba(245, 158, 11, 0.06) 0%, transparent 60%);
+}
+
+body.blog-detail-page .blog-hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.035;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    background-size: 200px 200px;
+}
+
+body.blog-detail-page .blog-hero>* {
+    position: relative;
+    z-index: 1;
+}
+
+/* Blog title — refined typography */
+body.blog-detail-page .blog-hero-title,
+body.blog-detail-page article h1 {
+    letter-spacing: -0.04em;
+    text-wrap: balance;
+    font-feature-settings: 'kern' 1, 'liga' 1, 'ss01' 1;
+}
+
+/* ============================================================
+   BLOG READING WIDTH — much wider for comfortable reading
+   The existing CSS has .blog-content-section at max-width: 600px
+   which is way too narrow on desktop. Override to a generous
+   reading column.
+   ============================================================ */
+body.blog-detail-page .blog-content-section,
+body.blog-detail-page .blog-content,
+body.blog-detail-page article {
+    max-width: 920px !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: clamp(1rem, 4vw, 3rem) !important;
+    padding-right: clamp(1rem, 4vw, 3rem) !important;
+}
+
+@media (min-width: 1400px) {
+
+    body.blog-detail-page .blog-content-section,
+    body.blog-detail-page .blog-content,
+    body.blog-detail-page article {
+        max-width: 1000px !important;
+    }
+}
+
+/* Paragraphs inside blog get a generous but readable width */
+body.blog-detail-page .blog-content p,
+body.blog-detail-page .blog-content-section p,
+body.blog-detail-page article p {
+    max-width: 75ch;
+    /* ~720-820px at 18px — optimal for reading */
+    text-wrap: pretty;
+    font-size: clamp(1.05rem, 1.4vw, 1.18rem);
+    line-height: 1.75;
+}
+
+/* Allow images, code blocks, embeds to fill the wider container */
+body.blog-detail-page .blog-content img,
+body.blog-detail-page .blog-content-section img,
+body.blog-detail-page .blog-content pre,
+body.blog-detail-page .blog-content-section pre,
+body.blog-detail-page .blog-content table,
+body.blog-detail-page .blog-content-section table,
+body.blog-detail-page .blog-content iframe,
+body.blog-detail-page .blog-content-section iframe {
+    max-width: 100%;
+    width: auto;
+}
+
+body.blog-detail-page .blog-content h2,
+body.blog-detail-page .blog-content-section h2,
+body.blog-detail-page .blog-content h3,
+body.blog-detail-page .blog-content-section h3 {
+    margin-top: 2.5em;
+    letter-spacing: -0.02em;
+    max-width: none;
+}
+
+body.blog-detail-page .blog-content h2 {
+    font-size: clamp(1.75rem, 3vw, 2.25rem);
+}
+
+body.blog-detail-page .blog-content h3 {
+    font-size: clamp(1.35rem, 2.5vw, 1.65rem);
+}
+
+/* Code blocks in blog posts */
+body.blog-detail-page .blog-content pre {
+    border-radius: 0.875rem;
+    overflow-x: auto;
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.3),
+        0 0 0 1px rgba(168, 85, 247, 0.15) inset;
+}
+
+/* Blockquotes */
+body.blog-detail-page .blog-content blockquote {
+    border-left: 3px solid rgba(168, 85, 247, 0.6);
+    padding-left: 1.5rem;
+    color: #cbd5e1;
+    font-style: italic;
+}
+
+/* Author avatar */
+body.blog-detail-page .author-avatar {
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+body.blog-detail-page .author-info:hover .author-avatar {
+    transform: scale(1.06);
+}
+
+/* Reading progress bar — added by JS at top of viewport */
+.mac-reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background: transparent;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.mac-reading-progress__bar {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, #7c3aed 0%, #a855f7 50%, #4ecdc4 100%);
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+    transition: width 0.1s linear;
+}

@@ -1,0 +1,58 @@
+/**
+ * pages/courses-listing.css — Courses listing page elevation
+ * Phase 6 Page-by-Page Polish
+ *
+ * Adds hero mesh, polishes course card hover.
+ */
+
+body.courses-page main>section:first-of-type,
+body.courses-page .courses-hero,
+body.courses-page .course-hero {
+    position: relative;
+    isolation: isolate;
+}
+
+body.courses-page main>section:first-of-type::before,
+body.courses-page .courses-hero::before,
+body.courses-page .course-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    background-image:
+        radial-gradient(ellipse 80% 50% at 25% 30%, rgba(168, 85, 247, 0.13) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 40% at 78% 25%, rgba(78, 205, 196, 0.09) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 50% at 50% 85%, rgba(245, 158, 11, 0.06) 0%, transparent 60%);
+}
+
+body.courses-page main>section:first-of-type>*,
+body.courses-page .courses-hero>*,
+body.courses-page .course-hero>* {
+    position: relative;
+    z-index: 1;
+}
+
+/* Course filter chips */
+body.courses-page .filter-chip,
+body.courses-page .category-chip {
+    transition:
+        transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+        box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+body.courses-page .filter-chip:hover,
+body.courses-page .category-chip:hover {
+    transform: translateY(-2px) scale(1.02);
+}
+
+/* H1 polish */
+body.courses-page h1 {
+    letter-spacing: -0.04em;
+    text-wrap: balance;
+}

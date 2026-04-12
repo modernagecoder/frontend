@@ -1,0 +1,114 @@
+/**
+ * pages/landing.css — City and school landing page elevation
+ * Phase 6 Page-by-Page Polish
+ *
+ * Polishes city/school landing pages (best-coding-class-in-*, dps-*, etc.).
+ * Adds hero mesh, branded course cards, conversion-optimized polish.
+ */
+
+body.best-coding-page .hero-section,
+body.best-coding-page main>section:first-of-type,
+body.landing-page .hero-section {
+    position: relative;
+    isolation: isolate;
+}
+
+body.best-coding-page .hero-section::before,
+body.best-coding-page main>section:first-of-type::before,
+body.landing-page .hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    background-image:
+        radial-gradient(ellipse 80% 50% at 25% 30%, rgba(168, 85, 247, 0.14) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 40% at 78% 25%, rgba(78, 205, 196, 0.09) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 60% at 50% 85%, rgba(236, 72, 153, 0.07) 0%, transparent 60%),
+        radial-gradient(ellipse 40% 30% at 90% 70%, rgba(245, 158, 11, 0.05) 0%, transparent 60%);
+}
+
+body.best-coding-page .hero-section::after,
+body.best-coding-page main>section:first-of-type::after,
+body.landing-page .hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.035;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    background-size: 200px 200px;
+}
+
+body.best-coding-page .hero-section>*,
+body.best-coding-page main>section:first-of-type>*,
+body.landing-page .hero-section>* {
+    position: relative;
+    z-index: 1;
+}
+
+/* Hero h1 */
+body.best-coding-page .hero-section h1,
+body.landing-page .hero-section h1 {
+    letter-spacing: -0.04em;
+    text-wrap: balance;
+    font-feature-settings: 'kern' 1, 'liga' 1, 'ss01' 1;
+}
+
+/* City-specific course cards */
+body.best-coding-page .course-card,
+body.best-coding-page [class*="course-card"] {
+    transition:
+        transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        box-shadow 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+body.best-coding-page .course-card:hover {
+    transform: translateY(-6px);
+    box-shadow:
+        0 24px 60px rgba(0, 0, 0, 0.4),
+        0 0 60px rgba(168, 85, 247, 0.18);
+}
+
+/* Trust signals (stats, ratings) — refined */
+body.best-coding-page .stat-item,
+body.best-coding-page [class*="stat-card"] {
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+body.best-coding-page .stat-item:hover {
+    transform: translateY(-3px);
+}
+
+/* CTA section emphasis */
+body.best-coding-page .cta-section,
+body.best-coding-page [class*="cta-block"] {
+    position: relative;
+}
+
+body.best-coding-page .cta-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(ellipse 60% 50% at 50% 50%, rgba(168, 85, 247, 0.08) 0%, transparent 60%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+body.best-coding-page .cta-section>* {
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,103 @@
+/**
+ * pages/course-detail.css — Individual course detail page elevation
+ * Phase 6 Page-by-Page Polish
+ *
+ * Polishes the course-hero with mesh, the enrollment sidebar,
+ * and curriculum modules. Scoped to body.course-detail-page.
+ */
+
+body.course-detail-page .course-hero {
+    position: relative;
+    isolation: isolate;
+}
+
+body.course-detail-page .course-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    background-image:
+        radial-gradient(ellipse 80% 50% at 25% 30%, rgba(168, 85, 247, 0.14) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 40% at 80% 25%, rgba(78, 205, 196, 0.09) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 60% at 50% 85%, rgba(245, 158, 11, 0.06) 0%, transparent 60%);
+}
+
+body.course-detail-page .course-hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.035;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    background-size: 200px 200px;
+}
+
+body.course-detail-page .course-hero>* {
+    position: relative;
+    z-index: 1;
+}
+
+/* Course title — typography polish */
+body.course-detail-page .course-hero-title,
+body.course-detail-page .course-title {
+    letter-spacing: -0.04em;
+    text-wrap: balance;
+    font-feature-settings: 'kern' 1, 'liga' 1, 'ss01' 1;
+}
+
+/* Meta badges — refined hover */
+body.course-detail-page .meta-badge,
+body.course-detail-page [class*="badge"] {
+    transition:
+        transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+        box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+body.course-detail-page .meta-badge:hover,
+body.course-detail-page [class*="badge"]:hover {
+    transform: translateY(-2px);
+}
+
+/* Curriculum modules — accordion polish */
+body.course-detail-page .curriculum-module,
+body.course-detail-page [class*="module-card"],
+body.course-detail-page [class*="lesson-card"] {
+    transition:
+        transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        border-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+body.course-detail-page .curriculum-module:hover,
+body.course-detail-page [class*="module-card"]:hover {
+    box-shadow:
+        0 12px 32px rgba(0, 0, 0, 0.3),
+        0 0 40px rgba(168, 85, 247, 0.15);
+}
+
+/* Enrollment sidebar — sticky polish */
+body.course-detail-page .enroll-sidebar,
+body.course-detail-page .enrollment-card,
+body.course-detail-page [class*="enroll-cta"] {
+    transition: box-shadow 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+body.course-detail-page .enroll-sidebar:hover,
+body.course-detail-page .enrollment-card:hover {
+    box-shadow:
+        0 24px 60px rgba(0, 0, 0, 0.4),
+        0 0 60px rgba(168, 85, 247, 0.2);
+}

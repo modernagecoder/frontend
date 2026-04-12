@@ -1,0 +1,347 @@
+/**
+ * base.css — Body, typography, and document defaults
+ * Phase 1 CSS Architecture Overhaul
+ */
+
+@layer base {
+
+    /* ============================================================
+       BODY — Canvas for the entire site
+       ============================================================ */
+    body {
+        font-family: var(--font-body);
+        font-size: var(--text-base);
+        font-weight: var(--weight-regular);
+        line-height: var(--leading-relaxed);
+        color: var(--color-text);
+        background: var(--color-surface);
+        overflow-x: hidden;
+        min-height: 100vh;
+        padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    }
+
+    /* Ambient background — replaces canvas animation for much better perf.
+       Subtle mesh of overlapping radial gradients creates organic depth. */
+    body::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+        pointer-events: none;
+        background-image:
+            radial-gradient(ellipse 70% 50% at 15% 20%, rgba(168, 85, 247, 0.08) 0%, transparent 60%),
+            radial-gradient(ellipse 60% 40% at 85% 30%, rgba(78, 205, 196, 0.06) 0%, transparent 60%),
+            radial-gradient(ellipse 50% 60% at 50% 80%, rgba(236, 72, 153, 0.05) 0%, transparent 60%),
+            radial-gradient(ellipse 40% 50% at 10% 80%, rgba(245, 158, 11, 0.04) 0%, transparent 60%);
+        background-color: var(--color-surface);
+    }
+
+    /* ============================================================
+       HEADINGS
+       ============================================================ */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--font-display);
+        font-weight: var(--weight-extrabold);
+        line-height: var(--leading-tight);
+        color: var(--color-text);
+        text-wrap: balance;
+        /* Prevent orphaned words in headings */
+    }
+
+    h1 {
+        font-size: var(--text-5xl);
+        letter-spacing: var(--tracking-tight);
+        font-weight: var(--weight-extrabold);
+    }
+
+    h2 {
+        font-size: var(--text-4xl);
+        letter-spacing: var(--tracking-tight);
+        font-weight: var(--weight-bold);
+    }
+
+    h3 {
+        font-size: var(--text-2xl);
+        letter-spacing: var(--tracking-normal);
+        font-weight: var(--weight-bold);
+        line-height: var(--leading-snug);
+    }
+
+    h4 {
+        font-size: var(--text-xl);
+        letter-spacing: var(--tracking-normal);
+        font-weight: var(--weight-semibold);
+        line-height: var(--leading-snug);
+    }
+
+    h5 {
+        font-size: var(--text-lg);
+        font-weight: var(--weight-semibold);
+        line-height: var(--leading-snug);
+    }
+
+    h6 {
+        font-size: var(--text-base);
+        font-weight: var(--weight-semibold);
+        letter-spacing: var(--tracking-wide);
+        line-height: var(--leading-snug);
+    }
+
+    /* ============================================================
+       PARAGRAPHS & TEXT
+       ============================================================ */
+    p {
+        color: var(--color-text-secondary);
+        line-height: var(--leading-relaxed);
+        text-wrap: pretty;
+        /* Smarter line-break decisions */
+    }
+
+    p+p {
+        margin-top: 1em;
+    }
+
+    /* Max reading width for prose */
+    .prose p,
+    .blog-content p,
+    article p {
+        max-width: var(--max-width-text);
+    }
+
+    strong,
+    b {
+        font-weight: var(--weight-bold);
+        color: var(--color-text);
+    }
+
+    em,
+    i {
+        font-style: italic;
+    }
+
+    small {
+        font-size: var(--text-sm);
+        color: var(--color-text-muted);
+    }
+
+    /* ============================================================
+       LINKS — base styling, components override as needed
+       ============================================================ */
+    a {
+        color: var(--color-primary-light);
+        text-decoration: none;
+        transition: color var(--duration-fast) var(--ease-out);
+    }
+
+    a:hover {
+        color: var(--color-primary);
+    }
+
+    /* Accessible focus — visible for keyboard users only */
+    :focus-visible {
+        outline: 2px solid var(--color-primary);
+        outline-offset: 3px;
+        border-radius: 4px;
+    }
+
+    :focus:not(:focus-visible) {
+        outline: none;
+    }
+
+    /* ============================================================
+       CODE
+       ============================================================ */
+    code,
+    kbd,
+    samp,
+    pre {
+        font-family: var(--font-mono);
+        font-size: 0.9em;
+        font-variant-ligatures: contextual;
+    }
+
+    code {
+        background: rgba(255, 255, 255, 0.06);
+        padding: 0.15em 0.4em;
+        border-radius: var(--radius-sm);
+        color: var(--color-primary-light);
+        border: 1px solid var(--glass-border);
+    }
+
+    pre {
+        background: var(--glass-bg-dense);
+        border: 1px solid var(--glass-border);
+        border-radius: var(--radius-md);
+        padding: var(--space-4);
+        overflow-x: auto;
+        line-height: var(--leading-normal);
+    }
+
+    pre code {
+        background: none;
+        border: none;
+        padding: 0;
+        color: var(--color-text);
+    }
+
+    /* ============================================================
+       BLOCKQUOTE
+       ============================================================ */
+    blockquote {
+        border-left: 3px solid var(--color-primary);
+        padding-left: var(--space-4);
+        margin: var(--space-4) 0;
+        color: var(--color-text-secondary);
+        font-style: italic;
+    }
+
+    /* ============================================================
+       HR
+       ============================================================ */
+    hr {
+        border: none;
+        height: 1px;
+        background: linear-gradient(90deg,
+                transparent,
+                var(--glass-border),
+                transparent);
+        margin: var(--space-8) 0;
+    }
+
+    /* ============================================================
+       LISTS
+       ============================================================ */
+    ul,
+    ol {
+        color: var(--color-text-secondary);
+        line-height: var(--leading-relaxed);
+    }
+
+    ul:not([class]),
+    ol:not([class]) {
+        padding-left: 1.5em;
+    }
+
+    ul:not([class]) li,
+    ol:not([class]) li {
+        margin-bottom: 0.4em;
+    }
+
+    /* ============================================================
+       TABLES
+       ============================================================ */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: var(--space-4) 0;
+    }
+
+    th,
+    td {
+        padding: var(--space-3) var(--space-4);
+        text-align: left;
+        border-bottom: 1px solid var(--glass-border);
+    }
+
+    th {
+        font-weight: var(--weight-semibold);
+        color: var(--color-text);
+    }
+
+    /* ============================================================
+       IMAGES & MEDIA
+       ============================================================ */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Prevent layout shift for images with known aspect ratios */
+    img[width][height] {
+        height: auto;
+    }
+
+    /* ============================================================
+       SCROLLBAR — branded, subtle
+       ============================================================ */
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: rgba(168, 85, 247, 0.4) transparent;
+    }
+
+    *::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+
+    *::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background: rgba(168, 85, 247, 0.35);
+        border-radius: var(--radius-full);
+        border: 2px solid transparent;
+        background-clip: padding-box;
+    }
+
+    *::-webkit-scrollbar-thumb:hover {
+        background: rgba(168, 85, 247, 0.6);
+        background-clip: padding-box;
+        border: 2px solid transparent;
+    }
+
+    /* ============================================================
+       SKIP LINK — accessibility
+       ============================================================ */
+    .skip-link {
+        position: absolute;
+        top: -100%;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--color-primary);
+        color: white;
+        padding: var(--space-3) var(--space-5);
+        border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+        font-weight: var(--weight-semibold);
+        z-index: var(--z-max);
+        transition: top var(--duration-fast) var(--ease-out);
+    }
+
+    .skip-link:focus {
+        top: 0;
+        color: white;
+        outline: 2px solid white;
+        outline-offset: 2px;
+    }
+
+    /* ============================================================
+       PRINT STYLES
+       ============================================================ */
+    @media print {
+        body {
+            background: white;
+            color: black;
+        }
+
+        body::before {
+            display: none;
+        }
+
+        nav,
+        footer,
+        .no-print {
+            display: none !important;
+        }
+
+        a {
+            text-decoration: underline;
+            color: black;
+        }
+    }
+}

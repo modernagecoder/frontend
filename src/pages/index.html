@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+    <!-- Google Analytics stub: defines window.gtag/dataLayer so page code can
+         queue events. The actual gtag.js script is loaded after window.load
+         (see end of body) so it does NOT block rendering. -->
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+        window.gtag = function () { window.dataLayer.push(arguments); };
         gtag('js', new Date());
-
         gtag('config', 'G-N8BM164YJP');
         gtag('config', 'AW-16910316353');
     </script>
@@ -124,19 +124,232 @@
     }
     </script>
 
-    <!-- Meta Pixel -->
-    <script src="/js/meta-pixel.js"></script>
+    <!-- Phase 5 SEO additions: BreadcrumbList, AggregateRating, ItemList, Offers, WebPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://learn.modernagecoders.com/#webpage",
+          "url": "https://learn.modernagecoders.com/",
+          "name": "Modern Age Coders - Online Coding & Maths Classes for All Ages",
+          "isPartOf": {
+            "@id": "https://learn.modernagecoders.com/#website"
+          },
+          "about": {
+            "@id": "https://learn.modernagecoders.com/#organization"
+          },
+          "description": "Online coding and maths classes for ages 6-65. Live 1-on-1 sessions with expert instructors. Students from 15+ countries.",
+          "inLanguage": "en",
+          "datePublished": "2020-01-01",
+          "dateModified": "2026-04-11",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://learn.modernagecoders.com/images/og-modern-age-coders.png"
+          },
+          "breadcrumb": {
+            "@id": "https://learn.modernagecoders.com/#breadcrumb"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://learn.modernagecoders.com/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://learn.modernagecoders.com/"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://learn.modernagecoders.com/#organization-rating",
+          "name": "Modern Age Coders",
+          "url": "https://learn.modernagecoders.com",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "247",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://learn.modernagecoders.com/#popular-courses",
+          "name": "Popular Courses at Modern Age Coders",
+          "description": "Top-rated coding and maths programs for kids, teens, college students, and professionals",
+          "itemListOrder": "https://schema.org/ItemListOrderAscending",
+          "numberOfItems": 12,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "url": "https://learn.modernagecoders.com/courses/python-programming-masterclass-zero-to-advanced-college",
+              "name": "Python Programming Masterclass"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "url": "https://learn.modernagecoders.com/courses/python-ai-automation-masterclass-college",
+              "name": "Python AI Automation Masterclass"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "url": "https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens",
+              "name": "AI/ML Masterclass for Teens"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "url": "https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college",
+              "name": "AI/ML Complete Masterclass"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "url": "https://learn.modernagecoders.com/courses/full-stack-web-development-masterclass-college",
+              "name": "Full Stack Web Development"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "url": "https://learn.modernagecoders.com/courses/mern-stack-development-masterclass-college",
+              "name": "MERN Stack Development"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "url": "https://learn.modernagecoders.com/courses/complete-app-development-masterclass",
+              "name": "Complete App Development"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "url": "https://learn.modernagecoders.com/courses/kids-coding-blocks-masterclass",
+              "name": "Kids Coding Blocks Masterclass"
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "url": "https://learn.modernagecoders.com/courses/kids-ai-mastery-course",
+              "name": "Kids AI Mastery"
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "url": "https://learn.modernagecoders.com/coding-classes-for-girls",
+              "name": "Coding Classes for Girls"
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "url": "https://learn.modernagecoders.com/courses/competitive-programming-masterclass-college",
+              "name": "Competitive Programming Masterclass"
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "url": "https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college",
+              "name": "Data Analysis Mastery"
+            }
+          ]
+        },
+        {
+          "@type": "Service",
+          "@id": "https://learn.modernagecoders.com/#group-classes-offer",
+          "serviceType": "Online Coding & Maths Group Classes",
+          "provider": {
+            "@type": "EducationalOrganization",
+            "name": "Modern Age Coders",
+            "url": "https://learn.modernagecoders.com"
+          },
+          "areaServed": "Worldwide",
+          "offers": {
+            "@type": "Offer",
+            "name": "Group Classes",
+            "description": "Weekly two classes, collaborative projects, interactive sessions, certificate on completion",
+            "price": "1499",
+            "priceCurrency": "INR",
+            "priceValidUntil": "2026-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://learn.modernagecoders.com/pricing",
+            "category": "Education"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://learn.modernagecoders.com/#personalized-classes-offer",
+          "serviceType": "Online Personalized 1-on-1 Coding & Maths Classes",
+          "provider": {
+            "@type": "EducationalOrganization",
+            "name": "Modern Age Coders",
+            "url": "https://learn.modernagecoders.com"
+          },
+          "areaServed": "Worldwide",
+          "offers": {
+            "@type": "Offer",
+            "name": "Personalized 1-on-1 Classes",
+            "description": "Weekly two 1-on-1 classes, customized curriculum, flexible scheduling, dedicated mentorship, certificate on completion",
+            "price": "2499",
+            "priceCurrency": "INR",
+            "priceValidUntil": "2026-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://learn.modernagecoders.com/pricing",
+            "category": "Education"
+          }
+        }
+      ]
+    }
+    </script>
 
-    <!-- Preconnect for performance -->
-    <link rel="preconnect" href="https://connect.facebook.net">
-    <link rel="preconnect" href="https://backend-modernagecoders.vercel.app">
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <!-- Meta Pixel — deferred so it doesn't block parsing -->
+    <script src="/js/meta-pixel.js" defer></script>
+
+    <!-- Preconnect for performance — establish early connections -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://connect.facebook.net" crossorigin>
+    <link rel="preconnect" href="https://backend-modernagecoders.vercel.app" crossorigin>
+
+    <!-- DNS prefetch — for less-critical third parties -->
     <link rel="dns-prefetch" href="https://lh3.googleusercontent.com">
+    <link rel="dns-prefetch" href="https://checkout.razorpay.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://wa.me">
 
-    <!-- Critical CSS inlined for instant first paint -->
+    <!-- Preload critical CSS for early download (parser-blocking saved) -->
+    <link rel="preload" href="/css/style.css?v=20260325" as="style">
+    <link rel="preload" href="/css/index-bundle.css?v=20260325" as="style">
+    <link rel="preload" href="/css/core.css?v=20260411" as="style">
+    <link rel="preload" href="/css/pages/homepage.css?v=20260411-p4" as="style">
+
+    <!-- Preload above-the-fold logo (LCP candidate) -->
+    <link rel="preload" href="/images/logo.svg" as="image" fetchpriority="high">
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="/css/style.css?v=20260325">
     <link rel="stylesheet" href="/css/index-bundle.css?v=20260325">
 
+    <!-- Phase 1 UI/UX Overhaul: new design system (elevation layer) -->
+    <link rel="stylesheet" href="/css/core.css?v=20260411">
+    <link rel="stylesheet" href="/css/pages/homepage.css?v=20260411-p4">
+
+    <!-- Phase 7.1 Distinctive Identity + Artistic Hero -->
+    <link rel="stylesheet" href="/css/pages/identity.css?v=20260411-p7-7">
+
+    <!-- Prefetch likely-next pages (idle bandwidth) -->
+    <link rel="prefetch" href="/courses">
+    <link rel="prefetch" href="/about">
+
+    <!-- Phase 6 UI/UX Polish -->
+    <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p6">
+    <script src="/js/ux-enhancements.js" defer></script>
+    <script src="/js/hover-prefetch.js" defer></script>
+    <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
 </head>
 
 <body class="index-page">
@@ -191,7 +404,7 @@
             <div class="nav-container">
                 <a href="/" class="logo">
                     <img style="border-radius: 10px;" src="/images/logo.svg" alt="Modern Age Coders Logo"
-                        class="logo-img" loading="lazy">
+                        class="logo-img" width="40" height="40" fetchpriority="high">
                     <span class="logo-text">Modern Age Coders</span>
                 </a>
                 <ul class="nav-menu" id="navMenu">
@@ -352,8 +565,9 @@
 </div>
 <!-- END_INLINED_NAV -->
 
-    <main id="main">
-        <section class="section hero-section" style="padding-top: 5rem; padding-bottom: 3rem;">
+    <main id="main" role="main" aria-label="Modern Age Coders homepage">
+        <section class="section hero-section" aria-label="Hero — Maths and Code made for each other"
+            style="padding-top: 5rem; padding-bottom: 3rem;">
             <div class="hero-text">
                 <h1 id="hero-main-title"><span style="white-space: nowrap;"><span class="highlight-ma">Ma</span>ths +
                         Co<span class="highlight-de">de</span></span><br><span class="highlight-made">Made</span> for
@@ -364,7 +578,7 @@
                     endless possibilities. Join us in shaping young minds where problem-solving meets innovation.</p> -->
 
                 <p>
-                    We don't just teach coding and maths. We teach you how to think, build, and solve problems that
+                    We don't just teach coding and maths. We teach you how to <span class="hero-emphasis">think, build, and solve problems</span> that
                     actually matter. Just real skills that work in the real world at any age, any stage.
                 </p>
 
@@ -3899,7 +4113,7 @@
         <div class="footer-grid">
             <div class="footer-column">
                 <a href="/" class="logo">
-                    <img src="/images/logo.svg" alt="Modern Age Coders Logo" class="logo-img" loading="lazy">
+                    <img src="/images/logo.svg" alt="Modern Age Coders Logo" class="logo-img" width="40" height="40" loading="lazy" decoding="async">
                     <span class="logo-text">Modern Age Coders</span>
                 </a>
                 <p class="footer-tagline">Forging the next generation of innovators.</p>
@@ -4084,7 +4298,7 @@
 </style>
 
 <!-- Lenis Smooth Scrolling -->
-<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script src="/js/vendor/lenis-1.1.20.min.js" defer></script>
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         if (typeof Lenis !== 'undefined') {
@@ -4178,20 +4392,15 @@
     <!-- PERF FIX: Removed 2 duplicate componentsLoaded scripts that were
          firing the event 3 times and attaching redundant scroll listeners -->
 
-    <!-- Google Analytics - deferred to not block rendering -->
+    <!-- Google Analytics — load gtag.js after window.load (no render-blocking).
+         The gtag()/dataLayer stub in <head> queued events; this script then
+         loads the real GA which drains the queue automatically. -->
     <script>
-        window.addEventListener('load', function() {
+        window.addEventListener('load', function () {
             var s = document.createElement('script');
             s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
             s.async = true;
             document.head.appendChild(s);
-            s.onload = function() {
-                window.dataLayer = window.dataLayer || [];
-                function gtag() { dataLayer.push(arguments); }
-                gtag('js', new Date());
-                gtag('config', 'G-N8BM164YJP');
-                gtag('config', 'AW-16910316353');
-            };
         });
     </script>
 
@@ -4207,6 +4416,23 @@
             var c = document.getElementById('copyright');
             if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
         })();
+    </script>
+
+    <!-- Phase 3 Performance: hover-prefetch for instant internal navigation -->
+    <script src="/js/hover-prefetch.js" defer></script>
+
+    <!-- Phase 4 UX: back-to-top, form auto-save, modal focus trap, sticky mobile CTA, active nav -->
+    <script src="/js/ux-enhancements.js" defer></script>
+
+    <!-- Phase 3 Performance: register service worker for caching/offline -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js').catch(function (e) {
+                    /* Service worker registration failed — fail silently in production */
+                });
+            });
+        }
     </script>
 </body>
 

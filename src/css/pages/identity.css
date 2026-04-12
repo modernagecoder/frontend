@@ -1,0 +1,906 @@
+/**
+ * pages/identity.css — Phase 7 Distinctive Identity Layer
+ * Modern Age Coders — "Editorial Workshop" aesthetic with brand purple accents
+ *
+ * GOAL: Make the site stop reading as "AI-generated" by replacing the
+ * generic SaaS purple/cyan/glass-morphism palette with a warm, sophisticated
+ * editorial direction (sunset coral, sage, saffron) — while still using the
+ * Modern Age Coders BRAND PURPLES sparingly as artistic signature accents.
+ *
+ * FOUNDATION palette (Editorial Workshop — replaces the AI-tells):
+ *   sunset coral   #ff7e54   PRIMARY      replaces #a855f7 purple
+ *   sage           #86b89a   SECONDARY    replaces #4ecdc4 cyan
+ *   saffron        #f5b942   TERTIARY     replaces #f59e0b amber
+ *   warm cream     #f5e8c7   TEXT         replaces #f8fafc white
+ *   warm ink       #0f0d18   SURFACE      replaces #000002 black
+ *
+ * BRAND ACCENTS (used artistically, in 5-10% of design moments only):
+ *   deep indigo    #3d2a78   brand "ink"  signature touches, premium badges
+ *   soft lavender  #dde0fa   brand "wash" subtle backgrounds, hover states
+ *   bright violet  #a96ef4   brand "spark" sparks, dots, accent strokes
+ *
+ * Loaded LAST after global.css and any page CSS so its overrides win.
+ * Single file — delete it to roll back to Phase 6 instantly.
+ */
+
+/* ============================================================
+   FONT LOADING — Fraunces editorial serif (variable font)
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..900,30..100,0..1&display=swap');
+
+/* ============================================================
+   COLOR REVOLUTION — override the AI-tells via :root tokens
+   ============================================================ */
+:root {
+    /* Foundation: Editorial Workshop palette */
+    --color-primary: #ff7e54;
+    --color-primary-light: #ffa17a;
+    --color-primary-dark: #d96a44;
+    --color-primary-deep: #b85631;
+
+    --color-secondary: #86b89a;
+    --color-secondary-light: #a5cba6;
+    --color-secondary-dark: #5a8c70;
+
+    --color-warm: #f5b942;
+    --color-warm-light: #ffd680;
+    --color-warm-dark: #c9853a;
+
+    --color-pink: #d4a5a5;
+    --color-pink-light: #e5c0c0;
+
+    /* Warmer surface — escapes the cold dark mode cliché */
+    --color-surface: #0f0d18;
+    --color-surface-raised: #1a1726;
+    --color-surface-elevated: rgba(26, 23, 38, 0.92);
+    --color-surface-overlay: rgba(15, 13, 24, 0.92);
+
+    /* Warm cream text instead of cool white */
+    --color-text: #f5e8c7;
+    --color-text-secondary: #c9b896;
+    --color-text-muted: #8a7d68;
+    --color-text-subtle: #5a5044;
+
+    /* === BRAND ACCENT TOKENS === */
+    --brand-ink: #3d2a78;
+    --brand-wash: #dde0fa;
+    --brand-spark: #a96ef4;
+    --brand-spark-soft: rgba(169, 110, 244, 0.18);
+
+    /* Replace the AI 135deg gradients with non-default angles + warm stops */
+    --gradient-primary: linear-gradient(112deg, #d96a44 0%, #ff7e54 35%, #f5b942 100%);
+    --gradient-secondary: linear-gradient(112deg, #5a8c70 0%, #86b89a 50%, #a5cba6 100%);
+    --gradient-warm: linear-gradient(112deg, #c9853a 0%, #f5b942 50%, #ffd680 100%);
+    --gradient-pink: linear-gradient(112deg, #b88080 0%, #d4a5a5 50%, #e5c0c0 100%);
+    --gradient-hero: linear-gradient(127deg, #d96a44 0%, #ff7e54 28%, #f5b942 65%, #86b89a 100%);
+    --gradient-brand: linear-gradient(112deg, #ff7e54 0%, #f5b942 50%, #86b89a 100%);
+
+    /* Glow shadows re-tinted with warm coral */
+    --glow-primary: rgba(255, 126, 84, 0.5);
+    --glow-primary-soft: rgba(255, 126, 84, 0.18);
+    --glow-secondary: rgba(134, 184, 154, 0.4);
+    --glow-secondary-soft: rgba(134, 184, 154, 0.15);
+    --glow-warm: rgba(245, 185, 66, 0.45);
+    --glow-warm-soft: rgba(245, 185, 66, 0.15);
+    --glow-pink: rgba(212, 165, 165, 0.4);
+
+    /* Card shadows — warmer, less computer-y */
+    --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.32);
+    --shadow-card-hover: 0 20px 50px rgba(0, 0, 0, 0.45), 0 0 40px rgba(255, 126, 84, 0.15);
+    --shadow-glow-primary: 0 0 40px rgba(255, 126, 84, 0.18);
+    --shadow-glow-primary-lg: 0 0 60px rgba(255, 126, 84, 0.28);
+    --shadow-glow-secondary: 0 0 40px rgba(134, 184, 154, 0.18);
+    --shadow-glow-warm: 0 0 40px rgba(245, 185, 66, 0.18);
+    --shadow-btn-primary: 0 4px 20px rgba(255, 126, 84, 0.35);
+    --shadow-btn-primary-hover: 0 10px 32px rgba(255, 126, 84, 0.5);
+    --shadow-btn-warm: 0 4px 20px rgba(245, 185, 66, 0.35);
+    --shadow-btn-warm-hover: 0 10px 32px rgba(245, 185, 66, 0.5);
+    --shadow-focus: 0 0 0 3px rgba(255, 126, 84, 0.3);
+
+    /* Glass morphism — warmer tints */
+    --glass-bg: rgba(26, 23, 38, 0.78);
+    --glass-bg-dense: rgba(15, 13, 24, 0.92);
+    --glass-bg-subtle: rgba(26, 23, 38, 0.5);
+    --glass-bg-light: rgba(26, 23, 38, 0.78);
+    --glass-bg-dark: rgba(15, 13, 24, 0.92);
+    --glass-border: rgba(245, 232, 199, 0.1);
+    --glass-border-hover: rgba(245, 232, 199, 0.22);
+    --glass-hover-bg-light: rgba(36, 32, 50, 0.88);
+    --glass-hover-border: rgba(245, 232, 199, 0.22);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.32);
+    --glass-shadow-hover: 0 20px 50px rgba(0, 0, 0, 0.45), 0 0 40px rgba(255, 126, 84, 0.12);
+    --glass-hover-shadow: 0 20px 50px rgba(0, 0, 0, 0.45), 0 0 40px rgba(255, 126, 84, 0.12);
+
+    /* Legacy aliases — keep existing CSS that uses old variable names working */
+    --primary-glow-color: rgba(255, 126, 84, 0.5);
+    --secondary-glow-color: rgba(134, 184, 154, 0.4);
+    --math-glow-color: rgba(245, 185, 66, 0.45);
+    --ai-glow-color: rgba(212, 165, 165, 0.4);
+}
+
+/* ============================================================
+   EDITORIAL TYPOGRAPHY — Fraunces serif for headlines only
+   Body stays in Inter for readability + speed
+   ============================================================ */
+h1,
+h2,
+.section-title,
+.hero-title,
+[class*="hero-title"],
+[class*="page-title"] {
+    font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
+    font-feature-settings: 'kern' 1, 'liga' 1, 'ss01' 1, 'cv11' 1;
+    font-optical-sizing: auto;
+}
+
+h1 {
+    font-weight: 800;
+    font-variation-settings: 'opsz' 144, 'SOFT' 50, 'WONK' 1;
+    letter-spacing: -0.045em;
+}
+
+h2 {
+    font-weight: 700;
+    font-variation-settings: 'opsz' 96, 'SOFT' 30, 'WONK' 0;
+    letter-spacing: -0.028em;
+}
+
+/* Italic accent — Fraunces italic is the secret weapon */
+em,
+i,
+.identity-italic,
+blockquote {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-variation-settings: 'opsz' 144, 'SOFT' 100;
+}
+
+/* ============================================================
+   PAPER GRAIN OVERLAY — replaces digital noise with warm grain
+   Sits above everything as a fixed overlay, super subtle.
+   ============================================================ */
+body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0.05;
+    mix-blend-mode: overlay;
+    background-image: url('/images/textures/paper.svg');
+    background-size: 320px 320px;
+    background-repeat: repeat;
+}
+
+/* Reduced motion / data-saver: skip the texture for clarity */
+@media (prefers-reduced-motion: reduce) {
+    body::after {
+        display: none;
+    }
+}
+
+/* ============================================================
+   HERO MESH GRADIENT — re-tinted with editorial palette
+   Override the Phase 2 mesh gradient on every page's hero
+   ============================================================ */
+body.index-page .hero-section::before,
+body.about-page .about-hero-new::before,
+body.pricing-page main>section:first-of-type::before,
+body.pricing-page .pricing-hero::before,
+body.contact-page main>section:first-of-type::before,
+body.contact-page .contact-hero::before,
+body.courses-page .course-hero::before,
+body.course-detail-page .course-hero::before,
+body.blog-detail-page .blog-hero::before,
+body.blog-page .blog-hero::before,
+body.best-coding-page .hero-section::before,
+body.faq-page .faq-hero::before {
+    background-image:
+        radial-gradient(ellipse 80% 50% at 22% 28%, rgba(255, 126, 84, 0.16) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 40% at 78% 22%, rgba(134, 184, 154, 0.10) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 60% at 50% 85%, rgba(245, 185, 66, 0.08) 0%, transparent 60%),
+        radial-gradient(ellipse 30% 25% at 90% 70%, rgba(169, 110, 244, 0.06) 0%, transparent 60%) !important;
+}
+
+/* ============================================================
+   CTA BUTTONS — coral gradient instead of purple
+   Override existing .cta-button background
+   ============================================================ */
+.cta-button:not(.secondary):not(.cta-secondary):not(.cta-ghost) {
+    background: linear-gradient(112deg, #d96a44 0%, #ff7e54 50%, #f5b942 100%) !important;
+    box-shadow: 0 4px 20px rgba(255, 126, 84, 0.35) !important;
+    border-color: rgba(245, 232, 199, 0.18) !important;
+    color: #fff !important;
+}
+
+.cta-button:not(.secondary):not(.cta-secondary):not(.cta-ghost):hover {
+    box-shadow: 0 10px 32px rgba(255, 126, 84, 0.5) !important;
+}
+
+/* ============================================================
+   CTA BUTTON SECONDARY — clean outlined ghost button
+   The existing .cta-button.secondary uses purple text + purple border.
+   With our coral palette that's unreadable. Restore as a clean white
+   outlined button that pairs visually with the primary coral CTA.
+   ============================================================ */
+.cta-button.secondary {
+    background: transparent !important;
+    color: var(--color-text) !important;
+    border: 2px solid rgba(255, 126, 84, 0.55) !important;
+    box-shadow: 0 4px 16px rgba(255, 126, 84, 0.12) !important;
+}
+
+.cta-button.secondary span,
+.cta-button.secondary>* {
+    color: var(--color-text) !important;
+    background: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    -webkit-text-fill-color: var(--color-text) !important;
+}
+
+.cta-button.secondary:hover {
+    background: rgba(255, 126, 84, 0.1) !important;
+    border-color: rgba(255, 126, 84, 0.85) !important;
+    box-shadow: 0 8px 24px rgba(255, 126, 84, 0.22) !important;
+    color: var(--color-text) !important;
+}
+
+.cta-button.secondary:hover span,
+.cta-button.secondary:hover>* {
+    color: var(--color-text) !important;
+    -webkit-text-fill-color: var(--color-text) !important;
+}
+
+/* ============================================================
+   BACK-TO-TOP BUTTON — coral gradient with brand purple ring
+   Override the Phase 4 purple gradient
+   ============================================================ */
+#mac-back-to-top {
+    background: linear-gradient(112deg, #d96a44 0%, #ff7e54 50%, #f5b942 100%) !important;
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.4),
+        0 0 30px rgba(255, 126, 84, 0.4),
+        0 0 0 1px rgba(169, 110, 244, 0.35) inset !important;
+}
+
+#mac-back-to-top:hover {
+    box-shadow:
+        0 12px 32px rgba(0, 0, 0, 0.45),
+        0 0 40px rgba(255, 126, 84, 0.55),
+        0 0 0 1px rgba(169, 110, 244, 0.5) inset !important;
+}
+
+/* ============================================================
+   STICKY MOBILE CTA — keep warm but with brand purple top accent
+   ============================================================ */
+@media (max-width: 768px) {
+    #mac-sticky-cta {
+        border-top: 1px solid rgba(169, 110, 244, 0.3) !important;
+    }
+
+    #mac-sticky-cta .mac-sticky-cta__btn {
+        background: linear-gradient(112deg, #c9853a 0%, #f5b942 50%, #ffd680 100%) !important;
+        box-shadow:
+            0 8px 24px rgba(245, 185, 66, 0.45),
+            0 0 0 1px rgba(0, 0, 0, 0.1) inset !important;
+    }
+}
+
+/* ============================================================
+   BRANDED SCROLLBAR — coral + sage instead of purple + cyan
+   ============================================================ */
+*::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(255, 126, 84, 0.45), rgba(134, 184, 154, 0.4)) !important;
+    background-clip: padding-box !important;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, rgba(255, 126, 84, 0.65), rgba(134, 184, 154, 0.55)) !important;
+    background-clip: padding-box !important;
+}
+
+html {
+    scrollbar-color: rgba(255, 126, 84, 0.45) transparent !important;
+}
+
+/* ============================================================
+   TEXT SELECTION — uses BRAND lavender (artistic signature)
+   ============================================================ */
+::selection {
+    background: rgba(169, 110, 244, 0.45) !important;
+    color: #fff !important;
+}
+
+::-moz-selection {
+    background: rgba(169, 110, 244, 0.45) !important;
+    color: #fff !important;
+}
+
+/* ============================================================
+   SECTION DIVIDERS — coral + sage gradient lines
+   ============================================================ */
+body section.section:not(.hero-section):not(:first-of-type)::before,
+body main>section:not(.hero-section):not(:first-of-type)::before {
+    background: linear-gradient(90deg,
+            transparent 0%,
+            rgba(255, 126, 84, 0.15) 25%,
+            rgba(134, 184, 154, 0.15) 75%,
+            transparent 100%) !important;
+}
+
+/* ============================================================
+   FORM INPUT FOCUS GLOW — coral instead of purple
+   ============================================================ */
+input:not([type="submit"]):not([type="button"]):not([type="reset"]):not([type="radio"]):not([type="checkbox"]):focus,
+textarea:focus,
+select:focus {
+    border-color: rgba(255, 126, 84, 0.7) !important;
+    box-shadow:
+        0 0 0 3px rgba(255, 126, 84, 0.18),
+        0 4px 24px rgba(255, 126, 84, 0.12) !important;
+}
+
+/* ============================================================
+   FOCUS-VISIBLE — coral outline for keyboard users
+   ============================================================ */
+:focus-visible {
+    outline: 2px solid rgba(255, 126, 84, 0.7) !important;
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+
+/* ============================================================
+   TAP HIGHLIGHT — branded coral on touch
+   ============================================================ */
+@media (hover: none) and (pointer: coarse) {
+
+    a,
+    button,
+    [role="button"] {
+        -webkit-tap-highlight-color: rgba(255, 126, 84, 0.18) !important;
+    }
+}
+
+/* ============================================================
+   HAND-DRAWN UNDERLINE — for emphasis on key words
+   Add class="identity-underline" to any inline element
+   ============================================================ */
+.identity-underline {
+    background-image: url('/images/decorations/marker-underline.svg');
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 0.4em;
+    padding-bottom: 0.12em;
+}
+
+/* ============================================================
+   BRAND STICKER BADGE — slight rotation, brand purple
+   Use sparingly for "premium" or "new" tags
+   ============================================================ */
+.identity-sticker,
+.identity-sticker-brand {
+    display: inline-block;
+    padding: 0.4em 0.85em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 0.72em;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 4px;
+    transform: rotate(-2deg);
+    transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.identity-sticker {
+    background: var(--color-primary);
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+.identity-sticker-brand {
+    background: var(--brand-ink);
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 1px var(--brand-spark) inset;
+}
+
+.identity-sticker:hover,
+.identity-sticker-brand:hover {
+    transform: rotate(-3deg) scale(1.04);
+}
+
+/* ============================================================
+   STAT NUMBERS — sparkle decoration + warm color
+   ============================================================ */
+.stat-number,
+[class*="stat-num"] {
+    background: linear-gradient(112deg, #ff7e54 0%, #f5b942 100%) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    color: transparent !important;
+    position: relative;
+}
+
+/* ============================================================
+   BLOG DROP CAP — first paragraph gets a Fraunces drop cap
+   Editorial design moment for blog posts only
+   ============================================================ */
+body.blog-detail-page .blog-content>p:first-of-type::first-letter,
+body.blog-detail-page .blog-content-section>p:first-of-type::first-letter,
+body.blog-detail-page article>p:first-of-type::first-letter {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 4.2em;
+    font-weight: 800;
+    font-variation-settings: 'opsz' 144, 'SOFT' 100;
+    float: left;
+    line-height: 0.82;
+    margin: 0.08em 0.12em -0.05em 0;
+    color: var(--color-primary);
+    font-style: italic;
+}
+
+/* ============================================================
+   BLOG PULL QUOTES — editorial style with brand purple bar
+   ============================================================ */
+body.blog-detail-page blockquote {
+    font-family: 'Fraunces', Georgia, serif !important;
+    font-style: italic;
+    font-size: 1.35em !important;
+    line-height: 1.45 !important;
+    font-variation-settings: 'opsz' 144, 'SOFT' 100;
+    border-left: 4px solid var(--brand-spark) !important;
+    padding: 0.5em 0 0.5em 1.5em !important;
+    margin: 2em 0 !important;
+    color: var(--color-text) !important;
+    position: relative;
+    background: linear-gradient(90deg, rgba(169, 110, 244, 0.06), transparent 60%);
+}
+
+body.blog-detail-page blockquote::before {
+    content: '\201C';
+    position: absolute;
+    top: -0.25em;
+    left: 0.15em;
+    font-size: 4em;
+    color: var(--brand-spark);
+    opacity: 0.3;
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: normal;
+    pointer-events: none;
+}
+
+/* ============================================================
+   BRAND SIGNATURE TOUCHES — brand purple used artistically
+   Tiny moments where brand purple appears as a "signature"
+   ============================================================ */
+
+/* 1. Skip link uses brand ink */
+.skip-link {
+    background: linear-gradient(135deg, var(--brand-ink) 0%, var(--brand-spark) 100%) !important;
+}
+
+/* 2. Active nav link indicator dot uses brand purple gradient */
+body .nav-menu a.is-current-section::after,
+body .nav-link.is-current-section::after {
+    background: linear-gradient(135deg, var(--brand-spark) 0%, var(--color-primary) 100%) !important;
+    box-shadow: 0 0 8px rgba(169, 110, 244, 0.6) !important;
+}
+
+/* 3. Dev badge stays brand purple — already correct */
+
+/* 4. Focus rings on tab buttons / highlights use brand purple subtly */
+[role="tab"]:focus-visible,
+.tab-button:focus-visible {
+    outline-color: var(--brand-spark) !important;
+}
+
+/* 5. The "most popular" / "recommended" pricing badge gets brand treatment */
+.pricing-card.recommended,
+.pricing-card.featured,
+.price-card.featured,
+[class*="recommended"],
+[class*="popular"] {
+    position: relative;
+}
+
+.pricing-card.recommended::before,
+.pricing-card.featured::before,
+[class*="popular-badge"] {
+    background: linear-gradient(135deg, var(--brand-ink) 0%, var(--brand-spark) 100%) !important;
+}
+
+/* ============================================================
+   CARD HOVER — slight rotation = editorial imperfection
+   The 0.4deg rotation reads as "intentional, hand-placed"
+   ============================================================ */
+.course-card:hover,
+.course-card-minimal:hover {
+    transform: translateY(-6px) rotate(-0.35deg) !important;
+}
+
+.feature-card:hover {
+    transform: translateY(-4px) rotate(0.3deg) !important;
+}
+
+/* Touch devices: skip the rotation, use scale */
+@media (hover: none) and (pointer: coarse) {
+
+    .course-card:active,
+    .course-card-minimal:active,
+    .feature-card:active {
+        transform: scale(0.98) !important;
+    }
+}
+
+/* ============================================================
+   HERO SYMBOL RECOLOR — match { ;</>; } to editorial palette
+   Braces: coral → saffron (warm, matches hero)
+   Semicolons: sage → coral (organic, warm)
+   Center </> : keep amber (already warm)
+   Glow: retinted to warm coral instead of purple/blue
+   ============================================================ */
+body.index-page .sym-brace {
+    background-image: linear-gradient(90deg, #ff7e54, #f5b942) !important;
+    filter: drop-shadow(0 0 22px rgba(255, 126, 84, 0.55)) !important;
+}
+
+body.index-page .sym-semi {
+    background-image: linear-gradient(90deg, #86b89a, #a5cba6) !important;
+    filter: drop-shadow(0 0 18px rgba(134, 184, 154, 0.5)) !important;
+}
+
+body.index-page .sym-math-e {
+    filter: drop-shadow(0 0 18px rgba(245, 185, 66, 0.55)) !important;
+}
+
+body.index-page .sym-math-x {
+    filter: drop-shadow(0 0 18px rgba(245, 185, 66, 0.55)) !important;
+}
+
+body.index-page .ambient-glow {
+    background: radial-gradient(circle,
+            rgba(255, 126, 84, 0.25) 0%,
+            rgba(245, 185, 66, 0.15) 30%,
+            rgba(134, 184, 154, 0.08) 60%,
+            transparent 80%) !important;
+}
+
+/* ============================================================
+   VIEW ALL COURSES BUTTON — engaging coral outline with shimmer
+   ============================================================ */
+.view-more-button {
+    position: relative;
+    overflow: hidden;
+    color: var(--color-text) !important;
+    border: 2px solid rgba(255, 126, 84, 0.5) !important;
+    background: rgba(255, 126, 84, 0.06) !important;
+    transition:
+        transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+        box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        border-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        background 0.3s ease !important;
+}
+
+.view-more-button:hover {
+    transform: translateY(-3px) !important;
+    border-color: rgba(255, 126, 84, 0.85) !important;
+    background: rgba(255, 126, 84, 0.12) !important;
+    box-shadow:
+        0 8px 28px rgba(255, 126, 84, 0.25),
+        0 0 0 1px rgba(245, 232, 199, 0.08) inset !important;
+    color: #fff !important;
+}
+
+.view-more-button:active {
+    transform: translateY(-1px) scale(0.97) !important;
+    transition-duration: 0.1s !important;
+}
+
+/* Shimmer on hover */
+.view-more-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(120deg,
+            transparent 30%,
+            rgba(255, 255, 255, 0.15) 50%,
+            transparent 70%);
+    transform: translateX(-110%);
+    transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    pointer-events: none;
+}
+
+.view-more-button:hover::after {
+    transform: translateX(110%);
+}
+
+/* ============================================================
+   PHASE 7.1 — HERO ARTISTIC REDESIGN
+   ============================================================
+   The homepage hero becomes a piece of editorial art:
+     1. Each highlighted word (Ma / de / Made) becomes a hand-drawn
+        "highlighter pen" stroke in a different color, like a student
+        marking key terms in a textbook. ON-BRAND for an EDUCATION site.
+     2. Subtle math equation (∫ƒ) and code bracket ({ }) watermarks
+        float behind the text — reinforcing the brand concept visually.
+     3. A coral hairline accent above the H1 — editorial design moment.
+     4. The H1 uses Fraunces' WONK axis for maximum character.
+     5. Hand-drawn corner sparkle decoration (top-right of hero card).
+
+   Total result: instantly distinctive, anti-AI, on-brand, READABLE.
+   ============================================================ */
+
+/* Make hero-text a positioning context for watermarks */
+body.index-page .hero-text {
+    position: relative;
+    z-index: 2;
+    /* sit above the watermarks */
+}
+
+/* === MATH EQUATION WATERMARK — top-left of hero text === */
+body.index-page .hero-text::before {
+    content: '∫ƒ';
+    position: absolute;
+    top: -12%;
+    left: -10%;
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: clamp(7rem, 16vw, 15rem);
+    line-height: 0.85;
+    color: rgba(245, 232, 199, 0.045);
+    letter-spacing: -0.05em;
+    pointer-events: none;
+    z-index: -1;
+    user-select: none;
+    font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+    transform: rotate(-4deg);
+}
+
+/* === CODE BRACKET WATERMARK — bottom-right of hero text === */
+body.index-page .hero-text::after {
+    content: '{}';
+    position: absolute;
+    bottom: -16%;
+    right: -8%;
+    font-family: 'Fira Code', 'JetBrains Mono', monospace;
+    font-weight: 200;
+    font-size: clamp(7rem, 15vw, 14rem);
+    line-height: 0.85;
+    color: rgba(255, 126, 84, 0.045);
+    letter-spacing: 0.1em;
+    pointer-events: none;
+    z-index: -1;
+    user-select: none;
+    transform: rotate(2deg);
+}
+
+/* === CORAL HAIRLINE ACCENT above the H1 === */
+body.index-page .hero-text h1 {
+    position: relative;
+    font-variation-settings: 'opsz' 144, 'SOFT' 80, 'WONK' 1 !important;
+    letter-spacing: -0.04em !important;
+    line-height: 1.06 !important;
+}
+
+body.index-page .hero-text h1::before {
+    content: '';
+    display: block;
+    width: 3.25rem;
+    height: 3px;
+    margin-bottom: 1.1rem;
+    background: linear-gradient(90deg,
+            var(--color-primary) 0%,
+            var(--color-warm) 100%);
+    border-radius: 2px;
+    box-shadow: 0 0 12px rgba(255, 126, 84, 0.4);
+}
+
+/* === BOLD CORAL HIGHLIGHT — Ma, de, Made ===
+   Ma + de = Made  →  Maths + Code = Made for Each Other
+   All three get the SAME coral/saffron highlighter so the
+   wordplay reads clearly. Bigger text + warm glow = focus.
+   ============================================================ */
+
+body.index-page .hero-text h1 .highlight-ma,
+body.index-page .hero-text h1 .highlight-de,
+body.index-page .hero-text h1 .highlight-made {
+    background: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    -webkit-text-fill-color: #fff !important;
+    color: #fff !important;
+    position: relative;
+    display: inline;
+    z-index: 1;
+    padding: 0 0.06em;
+    font-size: 1.06em;
+    font-weight: 900 !important;
+    text-shadow: 0 2px 12px rgba(255, 126, 84, 0.4);
+}
+
+/* The highlight mark — warm coral/saffron behind text */
+body.index-page .hero-text h1 .highlight-ma::before,
+body.index-page .hero-text h1 .highlight-de::before,
+body.index-page .hero-text h1 .highlight-made::before {
+    content: '';
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    top: 10%;
+    bottom: 2%;
+    z-index: -1;
+    border-radius: 4px 6px 4px 5px;
+    pointer-events: none;
+    background: linear-gradient(105deg,
+            rgba(217, 106, 68, 0.78) 0%,
+            rgba(255, 126, 84, 0.82) 30%,
+            rgba(245, 185, 66, 0.75) 70%,
+            rgba(217, 106, 68, 0.72) 100%);
+    box-shadow:
+        0 3px 16px rgba(255, 126, 84, 0.4),
+        0 0 40px rgba(255, 126, 84, 0.18);
+}
+
+/* Slight skew variation — hand-drawn feel */
+body.index-page .hero-text h1 .highlight-ma::before {
+    transform: skewY(-0.8deg);
+}
+
+body.index-page .hero-text h1 .highlight-de::before {
+    transform: skewY(0.5deg);
+}
+
+body.index-page .hero-text h1 .highlight-made::before {
+    transform: skewY(-0.6deg);
+}
+
+/* === SMALL DECORATIVE STAR after "Other." === */
+body.index-page .hero-text h1::after {
+    content: '✦';
+    display: inline-block;
+    margin-left: 0.35em;
+    font-size: 0.55em;
+    font-weight: 300;
+    color: var(--color-primary);
+    vertical-align: middle;
+    line-height: 1;
+    transform: translateY(-0.25em) rotate(8deg);
+    text-shadow: 0 0 12px rgba(255, 126, 84, 0.4);
+    /* Animated subtle pulse */
+    animation: heroSparklePulse 3.5s ease-in-out infinite;
+}
+
+@keyframes heroSparklePulse {
+
+    0%,
+    100% {
+        opacity: 0.85;
+        transform: translateY(-0.25em) rotate(8deg) scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(-0.25em) rotate(8deg) scale(1.08);
+    }
+}
+
+/* === HERO PARAGRAPH — refined editorial styling === */
+body.index-page .hero-text p {
+    color: var(--color-text-secondary) !important;
+    font-size: clamp(1.05rem, 1.4vw, 1.2rem);
+    line-height: 1.7;
+    max-width: 52ch;
+    text-wrap: pretty;
+    letter-spacing: 0.005em;
+}
+
+/* First letter of paragraph gets a tiny coral accent */
+body.index-page .hero-text>p:first-of-type::first-letter {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+/* "think, build, and solve problems" — stands out with emphasis */
+body.index-page .hero-emphasis {
+    color: #fff !important;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Fraunces', Georgia, serif;
+    font-variation-settings: 'opsz' 144, 'SOFT' 100;
+    position: relative;
+    padding-bottom: 2px;
+    background-image: linear-gradient(90deg,
+        rgba(255, 126, 84, 0.6) 0%,
+        rgba(245, 185, 66, 0.5) 100%);
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+}
+
+/* === CODING TOGGLE — warm coral/saffron to match editorial theme === */
+body.index-page .hero-toggle-input[value="coding"]:checked~.hero-toggle-track .hero-toggle-slider {
+    background: linear-gradient(135deg, #d96a44 0%, #ff7e54 50%, #f5b942 100%) !important;
+    box-shadow: 0 4px 14px rgba(255, 126, 84, 0.5) !important;
+}
+
+/* Maths toggle — sage to saffron (warm but distinct from Coding) */
+body.index-page .hero-toggle-input[value="maths"]:checked~.hero-toggle-track .hero-toggle-slider {
+    background: linear-gradient(135deg, #86b89a 0%, #f5b942 100%) !important;
+    box-shadow: 0 4px 14px rgba(134, 184, 154, 0.45) !important;
+}
+
+/* Toggle track border — warmer */
+body.index-page .hero-toggle-track {
+    border-color: rgba(245, 232, 199, 0.12) !important;
+}
+
+/* === HERO CARD — refined border with coral hairline === */
+body.index-page .hero-section {
+    border-color: rgba(245, 232, 199, 0.08) !important;
+    box-shadow:
+        var(--shadow-card),
+        0 0 0 1px rgba(255, 126, 84, 0.05) inset !important;
+}
+
+/* === RESPONSIVE — make watermarks smaller on mobile === */
+@media (max-width: 768px) {
+
+    body.index-page .hero-text::before {
+        font-size: 6rem;
+        top: -8%;
+        left: -8%;
+        opacity: 0.6;
+    }
+
+    body.index-page .hero-text::after {
+        font-size: 6rem;
+        bottom: -10%;
+        right: -6%;
+        opacity: 0.7;
+    }
+
+    body.index-page .hero-text h1::before {
+        width: 2.5rem;
+        height: 2.5px;
+        margin-bottom: 0.85rem;
+    }
+}
+
+/* === REDUCED MOTION — disable sparkle animation === */
+@media (prefers-reduced-motion: reduce) {
+    body.index-page .hero-text h1::after {
+        animation: none;
+    }
+}
+
+/* ============================================================
+   CARD BORDER ACCENT — top gradient line uses brand purple
+   The Phase 1 .c-card has a top accent line; we re-tint it
+   ============================================================ */
+.c-card::before {
+    background: linear-gradient(90deg,
+            transparent 0%,
+            var(--brand-spark) 30%,
+            var(--color-primary) 70%,
+            transparent 100%) !important;
+}
+
+/* ============================================================
+   PRINT STYLES — friendly editorial print
+   ============================================================ */
+@media print {
+    body::after {
+        display: none;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-family: 'Fraunces', Georgia, serif !important;
+        color: #000 !important;
+    }
+}

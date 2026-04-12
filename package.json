@@ -16,6 +16,7 @@
     "validate:headings": "node scripts/validate-heading-hierarchy.js",
     "test:performance": "node scripts/simple-performance-test.js",
     "build:inline": "node scripts/inline-components.js",
+    "build:core-css": "node scripts/build-core-css.js",
     "minify": "node scripts/minify.js"
   },
   "dependencies": {

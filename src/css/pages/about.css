@@ -1,0 +1,93 @@
+/**
+ * pages/about.css — About page elevation
+ * Phase 6 Page-by-Page Polish
+ *
+ * Applies hero mesh + noise to the About hero, refines typography,
+ * polishes stat blocks. Scoped to body.about-page.
+ */
+
+body.about-page .about-hero-new {
+    position: relative;
+    isolation: isolate;
+}
+
+body.about-page .about-hero-new::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    background-image:
+        radial-gradient(ellipse 70% 50% at 25% 30%, rgba(168, 85, 247, 0.13) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 40% at 78% 25%, rgba(78, 205, 196, 0.09) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 50% at 50% 85%, rgba(245, 158, 11, 0.06) 0%, transparent 60%);
+    border-radius: inherit;
+}
+
+body.about-page .about-hero-new::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.035;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    background-size: 200px 200px;
+    border-radius: inherit;
+}
+
+body.about-page .about-hero-new>* {
+    position: relative;
+    z-index: 1;
+}
+
+/* Stats block polish — branded glow on hover */
+body.about-page .stats-grid .stat-card,
+body.about-page [class*="stat-"]:not(.stat-number):not(.stat-label) {
+    transition:
+        transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+        box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+body.about-page .stats-grid .stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 32px rgba(168, 85, 247, 0.18);
+}
+
+/* Hero h1 — extra-tight optical tracking */
+body.about-page .about-hero-new h1 {
+    letter-spacing: -0.04em;
+    text-wrap: balance;
+}
+
+/* Section dividers between major sections */
+body.about-page main>section+section {
+    position: relative;
+}
+
+body.about-page main>section+section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18%;
+    right: 18%;
+    height: 1px;
+    background: linear-gradient(90deg,
+            transparent 0%,
+            rgba(168, 85, 247, 0.12) 25%,
+            rgba(78, 205, 196, 0.12) 75%,
+            transparent 100%);
+    pointer-events: none;
+    opacity: 0.7;
+}

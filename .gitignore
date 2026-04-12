@@ -36,3 +36,14 @@ desktop.ini
 # Netlify
 .netlify/
 .claude/
+
+# Playwright MCP artifacts
+.playwright-mcp/
+
+# Phase screenshots (dev testing)
+*.jpeg
+phase*.png
+baseline*.png
+
+# Plan files
+image-prompts-for-blogs.md

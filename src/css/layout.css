@@ -1,0 +1,271 @@
+/**
+ * layout.css — Container, section, grid systems
+ * Phase 1 CSS Architecture Overhaul
+ */
+
+@layer layout {
+
+    /* ============================================================
+       CONTAINERS
+       ============================================================ */
+    .container,
+    .l-container {
+        width: 100%;
+        max-width: var(--max-width);
+        margin-inline: auto;
+        padding-inline: var(--space-container-x);
+    }
+
+    .container--narrow,
+    .l-container--narrow {
+        max-width: var(--max-width-narrow);
+    }
+
+    .container--wide,
+    .l-container--wide {
+        max-width: var(--max-width-wide);
+    }
+
+    .container--full,
+    .l-container--full {
+        max-width: var(--max-width-full);
+    }
+
+    /* ============================================================
+       SECTIONS — vertical rhythm
+       ============================================================ */
+    .l-section {
+        position: relative;
+        padding-block: var(--space-section);
+    }
+
+    .l-section--lg {
+        padding-block: var(--space-section-lg);
+    }
+
+    .l-section--sm {
+        padding-block: clamp(2rem, 4vw, 4rem);
+    }
+
+    /* Gradient divider between consecutive new-system sections */
+    .l-section+.l-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 15%;
+        right: 15%;
+        height: 1px;
+        background: linear-gradient(90deg,
+                transparent 0%,
+                var(--glass-border) 20%,
+                var(--glass-border) 80%,
+                transparent 100%);
+    }
+
+    /* ============================================================
+       GRID SYSTEMS
+       ============================================================ */
+    .l-grid {
+        display: grid;
+        gap: var(--space-card-gap);
+    }
+
+    .l-grid--2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .l-grid--3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .l-grid--4 {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    /* Responsive auto-fill grid — the workhorse for card layouts */
+    .l-grid--auto {
+        grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
+    }
+
+    .l-grid--auto-sm {
+        grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
+    }
+
+    .l-grid--auto-lg {
+        grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
+    }
+
+    @media (max-width: 1024px) {
+        .l-grid--4 {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .l-grid--3 {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+    }
+
+    @media (max-width: 640px) {
+
+        .l-grid--2,
+        .l-grid--3,
+        .l-grid--4 {
+            grid-template-columns: 1fr;
+        }
+
+        .l-grid {
+            gap: var(--space-4);
+        }
+    }
+
+    /* ============================================================
+       FLEX HELPERS (minimal — prefer grid for layout)
+       ============================================================ */
+    .l-flex {
+        display: flex;
+    }
+
+    .l-flex--col {
+        flex-direction: column;
+    }
+
+    .l-flex--center {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .l-flex--between {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .l-flex--wrap {
+        flex-wrap: wrap;
+    }
+
+    .l-flex--gap-sm {
+        gap: var(--space-2);
+    }
+
+    .l-flex--gap {
+        gap: var(--space-4);
+    }
+
+    .l-flex--gap-lg {
+        gap: var(--space-6);
+    }
+
+    /* ============================================================
+       STACK — vertical spacing rhythm
+       ============================================================ */
+    .l-stack>*+* {
+        margin-top: var(--space-4);
+    }
+
+    .l-stack--sm>*+* {
+        margin-top: var(--space-2);
+    }
+
+    .l-stack--lg>*+* {
+        margin-top: var(--space-6);
+    }
+
+    .l-stack--xl>*+* {
+        margin-top: var(--space-8);
+    }
+
+    /* ============================================================
+       SECTION HEADER — title + subtitle pattern
+       ============================================================ */
+    .l-section-header {
+        text-align: center;
+        max-width: 780px;
+        margin-inline: auto;
+        margin-bottom: clamp(2rem, 4vw, 4rem);
+    }
+
+    .l-section-header h2,
+    .l-section-header .section-title {
+        margin-bottom: var(--space-3);
+    }
+
+    .l-section-header p,
+    .l-section-header .section-subtitle {
+        font-size: var(--text-lg);
+        color: var(--color-text-muted);
+        max-width: 600px;
+        margin-inline: auto;
+    }
+
+    /* ============================================================
+       SCROLL REVEAL — base state for sections animated in on scroll
+       The JS in mainbundle.js adds .is-visible when the element
+       enters the viewport.
+       ============================================================ */
+    .l-reveal {
+        opacity: 0;
+        transform: translateY(24px);
+        transition:
+            opacity 0.7s var(--ease-out),
+            transform 0.7s var(--ease-out);
+        will-change: opacity, transform;
+    }
+
+    .l-reveal.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* Staggered children — each child animates 80ms after the previous */
+    .l-reveal.is-visible>*:nth-child(1) {
+        transition-delay: 0ms;
+    }
+
+    .l-reveal.is-visible>*:nth-child(2) {
+        transition-delay: 80ms;
+    }
+
+    .l-reveal.is-visible>*:nth-child(3) {
+        transition-delay: 160ms;
+    }
+
+    .l-reveal.is-visible>*:nth-child(4) {
+        transition-delay: 240ms;
+    }
+
+    .l-reveal.is-visible>*:nth-child(5) {
+        transition-delay: 320ms;
+    }
+
+    .l-reveal.is-visible>*:nth-child(6) {
+        transition-delay: 400ms;
+    }
+
+    /* ============================================================
+       ASPECT RATIOS — kills force-image-size.css hacks
+       ============================================================ */
+    .l-aspect-square {
+        aspect-ratio: 1 / 1;
+    }
+
+    .l-aspect-video {
+        aspect-ratio: 16 / 9;
+    }
+
+    .l-aspect-card {
+        aspect-ratio: 16 / 10;
+    }
+
+    .l-aspect-portrait {
+        aspect-ratio: 3 / 4;
+    }
+
+    .l-aspect-square>img,
+    .l-aspect-video>img,
+    .l-aspect-card>img,
+    .l-aspect-portrait>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

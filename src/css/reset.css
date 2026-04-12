@@ -1,0 +1,126 @@
+/**
+ * reset.css — Modern CSS reset
+ * Phase 1 CSS Architecture Overhaul
+ *
+ * Replaces scattered resets across style.css, course.css, pricing.css, best-coding-class.css.
+ * Based on Josh Comeau's modern CSS reset with brand-specific selection styling.
+ */
+
+@layer reset {
+
+    /* Box-sizing inheritance pattern */
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    /* Remove default margins */
+    * {
+        margin: 0;
+    }
+
+    /* Smooth font rendering */
+    html {
+        -webkit-text-size-adjust: 100%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        scroll-behavior: smooth;
+        -webkit-tap-highlight-color: rgba(168, 85, 247, 0.15);
+    }
+
+    body {
+        line-height: var(--leading-normal);
+        min-height: 100vh;
+    }
+
+    /* Better image defaults */
+    img,
+    picture,
+    video,
+    canvas,
+    svg {
+        display: block;
+        max-width: 100%;
+    }
+
+    img {
+        height: auto;
+        font-style: italic;
+        background-repeat: no-repeat;
+        background-size: cover;
+        shape-margin: 1rem;
+    }
+
+    /* Inherit fonts for form elements */
+    input,
+    button,
+    textarea,
+    select {
+        font: inherit;
+        color: inherit;
+    }
+
+    button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+    }
+
+    /* Avoid text overflow */
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        overflow-wrap: break-word;
+    }
+
+    /* Root stacking context */
+    #root,
+    #__next,
+    #main {
+        isolation: isolate;
+    }
+
+    /* Remove list styles from semantic lists when inside nav etc */
+    ul[role='list'],
+    ol[role='list'] {
+        list-style: none;
+        padding: 0;
+    }
+
+    /* Anchor defaults — actual styling lives in base.css */
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    /* Selection — brand purple */
+    ::selection {
+        background: var(--color-primary);
+        color: #fff;
+    }
+
+    ::-moz-selection {
+        background: var(--color-primary);
+        color: #fff;
+    }
+
+    /* Respect user's motion preferences — single authoritative rule */
+    @media (prefers-reduced-motion: reduce) {
+
+        *,
+        *::before,
+        *::after {
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+            scroll-behavior: auto !important;
+        }
+    }
+}
