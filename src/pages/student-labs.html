@@ -18,7 +18,7 @@
     <!-- SEO Meta Tags -->
     <title>Student Labs — Real Coding Projects by Kids, Teens & Students | Modern Age Coders</title>
     <meta name="description"
-        content="Explore 14+ real coding projects built by students at Modern Age Coders — games, AI chatbots, web apps & tools. See what kids, teens & college students build with Python, JavaScript, React, Firebase & more.">
+        content="Explore real coding projects built by students at Modern Age Coders — games, AI chatbots, web apps & tools. See what kids, teens & college students build with Python, JavaScript, React, Firebase & more.">
     <meta name="keywords"
         content="student coding projects, kids coding portfolio, teen coding projects, student built apps, coding projects for beginners, learn to code projects, javascript projects, python projects for kids, student web development, coding class projects">
     <meta name="author" content="Modern Age Coders">
@@ -40,7 +40,7 @@
     <meta property="og:url" content="https://learn.modernagecoders.com/student-labs">
     <meta property="og:title" content="Student Labs — Real Coding Projects Built by Our Students">
     <meta property="og:description"
-        content="Explore 14+ real coding projects built by students at Modern Age Coders — games, AI chatbots, web apps & tools.">
+        content="Explore real coding projects built by students at Modern Age Coders — games, AI chatbots, web apps & tools.">
     <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
     <meta property="og:site_name" content="Modern Age Coders">
     <meta property="og:locale" content="en_IN">
@@ -49,7 +49,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Student Labs — Real Coding Projects by Kids, Teens & Students">
     <meta name="twitter:description"
-        content="14+ real projects built by students — games, AI chatbots, web apps & tools. See what coding education looks like.">
+        content="Real projects built by students — games, AI chatbots, web apps & tools. See what coding education looks like.">
     <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
 
     <!-- Meta Pixel -->
@@ -73,7 +73,7 @@
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       "name": "Student Labs — Real Coding Projects",
-      "description": "A showcase of 14+ real coding projects built by students at Modern Age Coders",
+      "description": "A showcase of real coding projects built by students at Modern Age Coders",
       "url": "https://learn.modernagecoders.com/student-labs",
       "mainEntity": {
         "@type": "ItemList",
@@ -170,10 +170,17 @@
             --glass-bg: rgba(30, 30, 50, 0.6);
         }
 
+        /* ── Page-level main override ── */
+        body.labs-page main {
+            padding: 100px 0 0;
+            gap: 0;
+            align-items: stretch;
+        }
+
         /* ── Hero ── */
         .labs-hero {
             text-align: center;
-            padding: 6rem 2rem 3rem;
+            padding: 3rem 2rem;
             position: relative;
         }
         .labs-hero-eyebrow {
@@ -450,102 +457,6 @@
         .diff-intermediate { color: var(--accent-amber); }
         .diff-advanced { color: var(--accent-pink); }
 
-        /* ── Featured Spotlight ── */
-        .labs-featured {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 2rem;
-        }
-        .labs-featured-card {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 20px;
-            overflow: hidden;
-            transition: transform 0.35s ease, box-shadow 0.35s ease;
-        }
-        .labs-featured-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 20px 50px rgba(168, 85, 247, 0.15);
-        }
-        .labs-featured-img {
-            min-height: 280px;
-            background: linear-gradient(135deg, rgba(168, 85, 247, 0.15), rgba(78, 205, 196, 0.15));
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            overflow: hidden;
-        }
-        .labs-featured-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .labs-featured-body {
-            padding: 2rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        .labs-featured-body h3 {
-            font-family: 'Syne', sans-serif;
-            font-size: 1.5rem;
-            font-weight: 800;
-            color: var(--text-primary);
-            margin-bottom: 0.5rem;
-        }
-        .labs-featured-body .featured-student {
-            font-size: 0.9rem;
-            color: var(--accent-purple);
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-        .labs-featured-body p {
-            font-size: 0.95rem;
-            color: var(--text-secondary);
-            line-height: 1.7;
-            margin-bottom: 1rem;
-        }
-        .labs-featured-learned {
-            background: rgba(168, 85, 247, 0.08);
-            border: 1px solid rgba(168, 85, 247, 0.2);
-            border-radius: 12px;
-            padding: 1rem;
-            margin-bottom: 1.2rem;
-        }
-        .labs-featured-learned h4 {
-            font-size: 0.8rem;
-            font-weight: 700;
-            color: var(--accent-purple);
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            margin-bottom: 0.5rem;
-        }
-        .labs-featured-learned p {
-            font-size: 0.85rem;
-            margin-bottom: 0;
-        }
-        .labs-featured-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.7rem 1.5rem;
-            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
-            color: #fff;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: 700;
-            font-size: 0.9rem;
-            transition: transform 0.3s, box-shadow 0.3s;
-            width: fit-content;
-        }
-        .labs-featured-link:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(168,85,247,0.3);
-        }
-
         /* ── Tech Grid ── */
         .labs-tech-grid {
             display: grid;
@@ -572,7 +483,9 @@
             box-shadow: 0 10px 30px rgba(168, 85, 247, 0.15);
         }
         .labs-tech-icon {
-            font-size: 2.2rem;
+            font-size: 1.6rem;
+            font-family: 'Fira Code', 'Courier New', monospace;
+            font-weight: 700;
         }
         .labs-tech-name {
             font-size: 0.85rem;
@@ -605,6 +518,9 @@
             position: relative;
             z-index: 1;
             text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .labs-journey-number {
             width: 56px;
@@ -655,7 +571,9 @@
             box-shadow: 0 15px 40px rgba(168, 85, 247, 0.15);
         }
         .labs-course-icon {
-            font-size: 2.5rem;
+            font-size: 1.8rem;
+            font-family: 'Fira Code', 'Courier New', monospace;
+            font-weight: 700;
         }
         .labs-course-card h3 {
             font-size: 1.1rem;
@@ -800,10 +718,9 @@
 
         /* ── Responsive ── */
         @media (max-width: 768px) {
-            .labs-hero { padding: 5rem 1.5rem 2rem; }
-            .labs-section { padding: 3rem 1.5rem; }
-            .labs-featured-card { grid-template-columns: 1fr; }
-            .labs-featured-img { min-height: 200px; }
+            body.labs-page main { padding-top: 90px; }
+            .labs-hero { padding: 2rem 1.5rem; }
+            .labs-section { padding: 2.5rem 1.5rem; }
             .labs-journey {
                 grid-template-columns: 1fr 1fr;
                 gap: 2rem 1rem;
@@ -812,8 +729,9 @@
             .labs-stats { gap: 1.5rem; }
         }
         @media (max-width: 480px) {
-            .labs-hero { padding: 4.5rem 1rem 1.5rem; }
-            .labs-section { padding: 2.5rem 1rem; }
+            body.labs-page main { padding-top: 80px; }
+            .labs-hero { padding: 1.5rem 1rem; }
+            .labs-section { padding: 2rem 1rem; }
             .labs-journey { grid-template-columns: 1fr; }
             .labs-grid { grid-template-columns: 1fr; }
             .labs-tech-grid { grid-template-columns: repeat(3, 1fr); }
@@ -839,19 +757,19 @@
         <section class="labs-hero">
             <span class="labs-hero-eyebrow">Student Labs</span>
             <h1>Built by Students,<br>Powered by <span>Curiosity</span></h1>
-            <p>Real projects built by real learners — from games and AI chatbots to weather apps and productivity tools. See what our students create when learning meets imagination.</p>
+            <p>Hundreds of projects built by our students worldwide — from games and AI chatbots to weather apps and productivity tools. Here are some of the best from our labs.</p>
 
             <div class="labs-stats">
                 <div class="labs-stat">
-                    <div class="labs-stat-number">14+</div>
-                    <div class="labs-stat-label">Projects</div>
+                    <div class="labs-stat-number">500+</div>
+                    <div class="labs-stat-label">Projects Built</div>
                 </div>
                 <div class="labs-stat">
-                    <div class="labs-stat-number">12+</div>
+                    <div class="labs-stat-number">350+</div>
                     <div class="labs-stat-label">Students</div>
                 </div>
                 <div class="labs-stat">
-                    <div class="labs-stat-number">8+</div>
+                    <div class="labs-stat-number">15+</div>
                     <div class="labs-stat-label">Technologies</div>
                 </div>
                 <div class="labs-stat">
@@ -867,7 +785,7 @@
         <section class="labs-section" id="projects">
             <div class="labs-section-header">
                 <h2>Explore Student <span>Projects</span></h2>
-                <p>Browse projects by category — every project was built by a student as part of their learning journey</p>
+                <p>A curated selection of student work — browse by category to see what our learners are building</p>
             </div>
 
             <div class="labs-filters">
@@ -1194,68 +1112,7 @@
             </div>
         </section>
 
-        <!-- ═══════ SECTION 3: FEATURED PROJECTS SPOTLIGHT ═══════ -->
-        <section class="labs-section">
-            <div class="labs-section-header">
-                <h2>Featured <span>Spotlight</span></h2>
-                <p>Our top student projects that demonstrate exceptional creativity and technical skill</p>
-            </div>
-
-            <div class="labs-featured">
-                <!-- Featured 1 — The Beautiful Mind -->
-                <div class="labs-featured-card">
-                    <div class="labs-featured-img">
-                        <img src="/images/projects/mindgame.webp" alt="The Beautiful Mind game screenshot" loading="lazy">
-                    </div>
-                    <div class="labs-featured-body">
-                        <h3>The Beautiful Mind</h3>
-                        <div class="featured-student">by Modern Age Coders Team</div>
-                        <p>A scientifically designed focus and brain-strength game that challenges players across 15 progressive levels. Each level tests attention, control, and mental endurance with increasing complexity, integrating real-time progress tracking and leaderboard systems.</p>
-                        <div class="labs-featured-learned">
-                            <h4>What Students Learned</h4>
-                            <p>React component architecture, Firebase real-time database, state management patterns, game loop design, and responsive UI/UX principles.</p>
-                        </div>
-                        <a href="https://mind.modernagecoders.com" target="_blank" rel="noopener" class="labs-featured-link">Play the Game &rarr;</a>
-                    </div>
-                </div>
-
-                <!-- Featured 2 — Misti AI -->
-                <div class="labs-featured-card">
-                    <div class="labs-featured-img">
-                        <img src="/images/projects/misti.webp" alt="Misti AI chatbot interface" loading="lazy">
-                    </div>
-                    <div class="labs-featured-body">
-                        <h3>Misti — AI Chatbot</h3>
-                        <div class="featured-student">by Harshit</div>
-                        <p>An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations. Uses advanced Python AI frameworks and integrates top AI model APIs for a personalized learning experience.</p>
-                        <div class="labs-featured-learned">
-                            <h4>What Students Learned</h4>
-                            <p>Python AI frameworks, LLM API integration, prompt engineering, backend architecture, database design for conversation history, and full-stack deployment.</p>
-                        </div>
-                        <a href="https://misti.modernagecoders.com" target="_blank" rel="noopener" class="labs-featured-link">Try Misti AI &rarr;</a>
-                    </div>
-                </div>
-
-                <!-- Featured 3 — Babu -->
-                <div class="labs-featured-card">
-                    <div class="labs-featured-img">
-                        <img src="/images/projects/babu.webp" alt="Babu maths challenge game" loading="lazy">
-                    </div>
-                    <div class="labs-featured-body">
-                        <h3>Babu — 90s Maths Challenge</h3>
-                        <div class="featured-student">by Modern Age Coders Team</div>
-                        <p>An exciting 90-second maths challenge game where users solve random math problems under time pressure. Features a dynamic leaderboard powered by Firebase/MongoDB, updating scores in real time to show top performers instantly.</p>
-                        <div class="labs-featured-learned">
-                            <h4>What Students Learned</h4>
-                            <p>Real-time database operations, timer-based game mechanics, leaderboard algorithms, responsive design, and cloud deployment with Firebase.</p>
-                        </div>
-                        <a href="https://babu.modernagecoders.com" target="_blank" rel="noopener" class="labs-featured-link">Take the Challenge &rarr;</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ═══════ SECTION 4: TECHNOLOGIES ═══════ -->
+        <!-- ═══════ SECTION 3: TECHNOLOGIES ═══════ -->
         <section class="labs-section">
             <div class="labs-section-header">
                 <h2>Technologies Our <span>Students Use</span></h2>
@@ -1264,43 +1121,43 @@
 
             <div class="labs-tech-grid">
                 <a href="/python-and-ai-classes-for-kids-teens" class="labs-tech-item">
-                    <span class="labs-tech-icon">&#x1F40D;</span>
+                    <span class="labs-tech-icon" style="color:#3776AB;">Py</span>
                     <span class="labs-tech-name">Python</span>
                 </a>
                 <a href="/courses" class="labs-tech-item">
-                    <span class="labs-tech-icon">&#x26A1;</span>
+                    <span class="labs-tech-icon" style="color:#F7DF1E;">JS</span>
                     <span class="labs-tech-name">JavaScript</span>
                 </a>
                 <a href="/courses" class="labs-tech-item">
-                    <span class="labs-tech-icon">&#x1F310;</span>
+                    <span class="labs-tech-icon" style="color:#E34F26;">&lt;/&gt;</span>
                     <span class="labs-tech-name">HTML &amp; CSS</span>
                 </a>
                 <a href="/courses" class="labs-tech-item">
-                    <span class="labs-tech-icon">&#x269B;&#xFE0F;</span>
+                    <span class="labs-tech-icon" style="color:#61DAFB;">Re</span>
                     <span class="labs-tech-name">React</span>
                 </a>
                 <a href="/courses" class="labs-tech-item">
-                    <span class="labs-tech-icon">&#x1F5A5;&#xFE0F;</span>
+                    <span class="labs-tech-icon" style="color:#339933;">N</span>
                     <span class="labs-tech-name">Node.js</span>
                 </a>
                 <a href="/courses" class="labs-tech-item">
-                    <span class="labs-tech-icon">&#x1F343;</span>
+                    <span class="labs-tech-icon" style="color:#47A248;">DB</span>
                     <span class="labs-tech-name">MongoDB</span>
                 </a>
                 <a href="/courses" class="labs-tech-item">
-                    <span class="labs-tech-icon">&#x1F525;</span>
+                    <span class="labs-tech-icon" style="color:#FFCA28;">Fb</span>
                     <span class="labs-tech-name">Firebase</span>
                 </a>
                 <a href="/ai-ml-course-for-teens" class="labs-tech-item">
-                    <span class="labs-tech-icon">&#x1F916;</span>
+                    <span class="labs-tech-icon" style="color:#ec4899;">AI</span>
                     <span class="labs-tech-name">AI &amp; ML</span>
                 </a>
                 <a href="/courses" class="labs-tech-item">
-                    <span class="labs-tech-icon">&#x1F3AC;</span>
+                    <span class="labs-tech-icon" style="color:#88CE02;">GS</span>
                     <span class="labs-tech-name">GSAP</span>
                 </a>
                 <a href="/courses" class="labs-tech-item">
-                    <span class="labs-tech-icon">&#x1F517;</span>
+                    <span class="labs-tech-icon" style="color:#4ecdc4;">{}</span>
                     <span class="labs-tech-name">REST APIs</span>
                 </a>
             </div>
@@ -1346,37 +1203,37 @@
 
             <div class="labs-courses-grid">
                 <a href="/python-and-ai-classes-for-kids-teens" class="labs-course-card">
-                    <span class="labs-course-icon">&#x1F40D;</span>
+                    <span class="labs-course-icon" style="color:#3776AB;">Py</span>
                     <h3>Python &amp; AI for Kids &amp; Teens</h3>
                     <p>Learn Python programming and artificial intelligence with hands-on projects. Build chatbots, games, and AI tools.</p>
                     <span class="labs-course-link">Explore Course &rarr;</span>
                 </a>
                 <a href="/ai-ml-course-for-teens" class="labs-course-card">
-                    <span class="labs-course-icon">&#x1F916;</span>
+                    <span class="labs-course-icon" style="color:#ec4899;">AI</span>
                     <h3>AI &amp; Machine Learning for Teens</h3>
                     <p>Dive into machine learning, neural networks, and AI model building. Create intelligent applications from scratch.</p>
                     <span class="labs-course-link">Explore Course &rarr;</span>
                 </a>
                 <a href="/java-programming-for-kids-teens" class="labs-course-card">
-                    <span class="labs-course-icon">&#x2615;</span>
+                    <span class="labs-course-icon" style="color:#f89820;">Ja</span>
                     <h3>Java Programming</h3>
                     <p>Master Java fundamentals, OOP concepts, and build apps. Perfect for competitive programming and Android development.</p>
                     <span class="labs-course-link">Explore Course &rarr;</span>
                 </a>
                 <a href="/coding-classes-for-girls" class="labs-course-card">
-                    <span class="labs-course-icon">&#x1F4AA;</span>
+                    <span class="labs-course-icon" style="color:#a855f7;">&lt;G&gt;</span>
                     <h3>Coding Classes for Girls</h3>
                     <p>Empowering girls through technology — learn to code in a supportive, encouraging environment with female mentors.</p>
                     <span class="labs-course-link">Explore Course &rarr;</span>
                 </a>
                 <a href="/best-coding-classes-online" class="labs-course-card">
-                    <span class="labs-course-icon">&#x1F4BB;</span>
+                    <span class="labs-course-icon" style="color:#4ecdc4;">//</span>
                     <h3>Best Coding Classes Online</h3>
                     <p>Live 1-on-1 online coding classes with expert instructors. Learn HTML, CSS, JavaScript, Python, and more.</p>
                     <span class="labs-course-link">Explore Course &rarr;</span>
                 </a>
                 <a href="/summer-coding-camp" class="labs-course-card">
-                    <span class="labs-course-icon">&#x2600;&#xFE0F;</span>
+                    <span class="labs-course-icon" style="color:#f59e0b;">SC</span>
                     <h3>Summer Coding Camp</h3>
                     <p>Intensive summer program — build a complete project in weeks. Perfect for school breaks and skill acceleration.</p>
                     <span class="labs-course-link">Explore Course &rarr;</span>
