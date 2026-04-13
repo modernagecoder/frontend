@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "slug": "how-to-write-a-leap-year-program-in-python",
+    "title": "How to Write a Leap Year Program in Python (3 Simple Methods)",
+    "description": "Need to write a leap year program in Python? Learn the calendar logic, see the step-by-step code, and discover the built-in module that does it for you.",
+    "keywords": [
+      "leap year program python",
+      "python leap year",
+      "check leap year python",
+      "leap year code python",
+      "python calendar module",
+      "leap year logic",
+      "python beginner program"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-04-15",
+    "dateModified": "2026-04-15",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "Beginner Programming",
+      "Leap Year",
+      "Python Tutorial",
+      "Logic Building"
+    ],
+    "readTime": "8 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "How to Write a Leap Year Program in Python (3 Simple Methods)",
+    "featuredImage": {
+      "url": "https://ik.imagekit.io/qnvuzyjls/How%20to%20Write%20a%20Leap%20Year%20Program%20in%20Python%20(3%20Simple%20Methods)",
+      "alt": "How to Write a Leap Year Program in Python (3 Simple Methods)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Figuring out if a given year is a leap year sounds incredibly simple until you actually sit down and try to code it. It is one of the most common beginner exercises—and a frequent technical interview question—because it tests your ability to use operators and combine multiple conditions without breaking your program's logic."
+      },
+      {
+        "type": "paragraph",
+        "text": "In this guide, we will break down the actual math behind leap years, write the code using basic if-else statements, optimize it into a clean one-liner, and reveal the built-in Python trick that does all the work for you. Let's dive in."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Logic Behind a Leap Year (It's Not Just Every 4 Years)",
+        "id": "leap-year-logic"
+      },
+      {
+        "type": "paragraph",
+        "text": "The most common mistake beginners make is assuming a leap year happens exactly every four years, no matter what. If you code that logic, your program will fail test cases for years like 1900 or 2100."
+      },
+      {
+        "type": "paragraph",
+        "text": "Because it takes the Earth approximately 365.2425 days to orbit the sun (not exactly 365.25), the Gregorian calendar uses a very specific set of rules to keep our seasons aligned. Here are the actual rules your code needs to follow:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "The year must be evenly divisible by 4.",
+          "BUT if the year is also evenly divisible by 100, it is NOT a leap year.",
+          "UNLESS the year is also evenly divisible by 400. Then it IS a leap year."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "To check if a number is \"evenly divisible\" by another number, we don't use standard division. We use the modulo operator (%), which returns the remainder of a division problem. If <code>year % 4 == 0</code>, it means there is no remainder, so it divides perfectly. If you are still getting the hang of how Python handles division and remainders, taking a few minutes to review <a href='https://learn.modernagecoders.com/blog/what-is-floor-division-in-python' target='_blank' rel='noopener noreferrer'>understanding operators like floor division in Python</a> will make this math much easier to grasp."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 1: The Standard if-elif-else Approach",
+        "id": "method-1-standard"
+      },
+      {
+        "type": "paragraph",
+        "text": "Let's write this out using standard conditional logic. We will put our logic inside a reusable function. Learning the <a href='https://learn.modernagecoders.com/blog/advantages-functions-python-why-every-coder-should-use-them' target='_blank' rel='noopener noreferrer'>advantages of functions in Python</a> early on is crucial because it keeps your code clean and allows you to test multiple years without rewriting the logic."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the standard, step-by-step approach:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def check_leap_year(year):\n    # Rule 1: Is it divisible by 4?\n    if year % 4 == 0:\n        # Rule 2: Is it also divisible by 100?\n        if year % 100 == 0:\n            # Rule 3: Is it ALSO divisible by 400?\n            if year % 400 == 0:\n                return True\n            else:\n                return False\n        else:\n            return True\n    else:\n        return False\n\n# Testing the function\nuser_year = int(input(\"Enter a year to check: \"))\n\nif check_leap_year(user_year):\n    print(f\"{user_year} is a leap year!\")\nelse:\n    print(f\"{user_year} is not a leap year.\")"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>How it works:</strong> The code takes a year and filters it through nested if statements. It first checks if the year is divisible by 4. If it is, it moves deeper to check the 100 rule, and then the 400 rule. It is highly readable and explicitly follows the calendar logic step-by-step."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 2: The Optimized One-Liner",
+        "id": "method-2-optimized"
+      },
+      {
+        "type": "paragraph",
+        "text": "While the nested if-else block above works perfectly, it is a bit bulky. Professional developers try to avoid heavily nested code (often called the \"Arrow Anti-Pattern\" because the indentation looks like a sideways arrow)."
+      },
+      {
+        "type": "paragraph",
+        "text": "We can use Python's logical operators—<code>and</code> and <code>or</code>—to combine all three calendar rules into a single, clean line of code."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def is_leap_year(year):\n    # A year is a leap year if it is divisible by 4 AND NOT 100, OR if it is divisible by 400.\n    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):\n        return True\n    else:\n        return False\n\n# You can even shrink the function down to just returning the evaluated boolean:\n# return (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Why it's better:</strong> This is much more \"Pythonic.\" The code evaluates the left side of the <code>or</code> statement first. If the year is a normal leap year (like 2024), it passes. If it is a century year (like 2000), the left side fails, but the right side (<code>year % 400 == 0</code>) catches it and correctly identifies it as a leap year."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 3: Using Python's Built-in calendar Module",
+        "id": "method-3-calendar-module"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is a secret: you almost never have to write this math from scratch in a real-world software project. Python has a massive standard library filled with pre-written modules that handle common tasks for you."
+      },
+      {
+        "type": "paragraph",
+        "text": "For dates and times, you can just import the <code>calendar</code> module."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import calendar\n\nyear = 2026\n\nif calendar.isleap(year):\n    print(f\"{year} is a leap year.\")\nelse:\n    print(f\"{year} is not a leap year.\")"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>The Cheat Code:</strong> By calling <code>calendar.isleap()</code>, Python runs the optimized C-level code in the background and instantly returns <code>True</code> or <code>False</code>. If you are building an application that relies heavily on dates, I highly recommend browsing the official <a href='https://docs.python.org/3/library/calendar.html' target='_blank' rel='noopener noreferrer'>Python Calendar Module documentation</a> to see what else you can automate."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Common Mistakes Beginners Make",
+        "id": "common-mistakes"
+      },
+      {
+        "type": "paragraph",
+        "text": "If your leap year program is crashing or returning the wrong answers, check for these two massive beginner pitfalls:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Mistake 1: Forgetting to Convert User Input"
+      },
+      {
+        "type": "paragraph",
+        "text": "When you use the <code>input()</code> function, Python assumes everything the user types is a text string. You cannot do math on a string."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Wrong:</strong> <code>year = input(\"Enter year: \")</code> → <code>year % 4</code> will crash."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Right:</strong> <code>year = int(input(\"Enter year: \"))</code> → Safely converts the text \"2024\" into the number 2024."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Mistake 2: Using Division Instead of Modulo"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you write <code>year / 4 == 0</code>, your program will never work. Standard division (/) returns a decimal (e.g., 2024 / 4 = 506.0). Modulo (%) returns the remainder. You need to check if the remainder is zero. If you are still confused by the century math, check out this excellent breakdown on <a href='https://www.mathsisfun.com/leap-years.html' target='_blank' rel='noopener noreferrer'>Math is Fun: Leap Years</a> to reinforce why the 100/400 rule is necessary."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Conclusion",
+        "id": "conclusion"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mastering the leap year program in Python is an excellent milestone. It forces you to think about edge cases (like the year 2000 vs 2100) and proves you know how to string together logical operators."
+      },
+      {
+        "type": "paragraph",
+        "text": "Your next challenge? Try combining this script with a menu-driven interface, or build a program that asks the user for a year and tells them exactly how many days are in that specific year's February. If you want to review the core concepts you used today, keep our <a href='https://learn.modernagecoders.com/blog/python-for-beginners' target='_blank' rel='noopener noreferrer'>comprehensive Python for beginners guide</a> bookmarked."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ready to solidify your logic skills and start building applications that actually matter? Check out the professional Python masterclasses at Modern Age Coders. We will take you from writing basic math scripts to engineering full-stack software."
+      }
+    ]
+  },
+  "relatedPosts": [
+    "top-10-java-programs-every-college-student-must-know",
+    "why-python-most-powerful-skill-professionals-today",
+    "working-professionals-upskill-coding-without-quitting-job"
+  ]
+}
+
