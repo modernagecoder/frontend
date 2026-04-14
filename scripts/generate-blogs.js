@@ -53,7 +53,7 @@ class BlogGenerator {
      */
     preloadCourseMetadata() {
         try {
-            const courseFiles = fs.readdirSync(this.courseDataDir).filter(f => f.endsWith('.json'));
+            const courseFiles = fs.readdirSync(this.courseDataDir).filter(f => f.endsWith('.json') && f !== 'courses-config.json');
             this.allCourseMeta = courseFiles.map(file => {
                 try {
                     const data = JSON.parse(fs.readFileSync(path.join(this.courseDataDir, file), 'utf8'));
