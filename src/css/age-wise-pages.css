@@ -1,0 +1,1133 @@
+/* ============================================================
+   age-wise-pages.css
+   Shared stylesheet for /coding-for-[age]-year-olds pages.
+   Each page sets its own --age-accent + --age-accent-2 via an
+   inline style on body.age-page (see per-page <style> tail).
+   ============================================================ */
+
+:root {
+    --age-accent: #14b8a6;
+    --age-accent-2: #a855f7;
+    --age-ink: #f1f5f9;
+    --age-ink-dim: #94a3b8;
+    --age-surface: #0f0f1a;
+    --age-surface-2: #181826;
+    --age-border: rgba(168, 85, 247, 0.18);
+    --age-radius: 18px;
+}
+
+/* ---------- body + containers ---------- */
+body.age-page {
+    background: #000002;
+    color: var(--age-ink);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    overflow-x: hidden;
+}
+
+body.age-page main {
+    position: relative;
+    z-index: 2;
+}
+
+.age-wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.age-section {
+    padding: 96px 0;
+    position: relative;
+}
+
+.age-section + .age-section {
+    border-top: 1px solid var(--age-border);
+}
+
+.age-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    background: color-mix(in oklab, var(--age-accent) 18%, transparent);
+    border: 1px solid color-mix(in oklab, var(--age-accent) 45%, transparent);
+    border-radius: 999px;
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--age-accent);
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.age-h2 {
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: clamp(32px, 4.2vw, 52px);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin: 0 0 18px;
+    color: #fff;
+}
+
+.age-lede {
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--age-ink-dim);
+    max-width: 780px;
+    margin: 0 0 48px;
+}
+
+/* ---------- HERO ---------- */
+.age-hero {
+    position: relative;
+    padding: 140px 0 96px;
+    overflow: hidden;
+}
+
+.age-hero::before {
+    content: "";
+    position: absolute;
+    inset: -20% -10% auto auto;
+    width: 640px;
+    height: 640px;
+    background: radial-gradient(circle at 30% 30%, color-mix(in oklab, var(--age-accent) 30%, transparent), transparent 60%);
+    filter: blur(40px);
+    z-index: 0;
+}
+
+.age-hero::after {
+    content: "";
+    position: absolute;
+    inset: auto auto -30% -15%;
+    width: 520px;
+    height: 520px;
+    background: radial-gradient(circle at 70% 70%, color-mix(in oklab, var(--age-accent-2) 25%, transparent), transparent 65%);
+    filter: blur(50px);
+    z-index: 0;
+}
+
+.age-hero-grid {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 64px;
+    align-items: center;
+}
+
+.age-hero h1 {
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: clamp(40px, 6vw, 76px);
+    line-height: 1.02;
+    letter-spacing: -0.03em;
+    margin: 18px 0 22px;
+    color: #fff;
+}
+
+.age-hero h1 .age-hl {
+    background: linear-gradient(105deg, var(--age-accent) 0%, var(--age-accent-2) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.age-hero-sub {
+    font-size: 19px;
+    line-height: 1.65;
+    color: #cbd5e1;
+    max-width: 560px;
+    margin: 0 0 36px;
+}
+
+.age-cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-bottom: 48px;
+}
+
+.age-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 28px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    transition: transform .2s ease, box-shadow .2s ease;
+    cursor: pointer;
+    border: 0;
+}
+
+.age-btn-primary {
+    background: linear-gradient(135deg, var(--age-accent), var(--age-accent-2));
+    color: #fff;
+    box-shadow: 0 10px 28px -12px color-mix(in oklab, var(--age-accent) 70%, transparent);
+}
+
+.age-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 36px -10px color-mix(in oklab, var(--age-accent) 80%, transparent);
+}
+
+.age-btn-ghost {
+    background: transparent;
+    color: #f1f5f9;
+    border: 1.5px solid rgba(255, 255, 255, 0.22);
+}
+
+.age-btn-ghost:hover {
+    border-color: var(--age-accent);
+    color: var(--age-accent);
+}
+
+/* trust strip */
+.age-trust {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 22px 24px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--age-border);
+    border-radius: 14px;
+    backdrop-filter: blur(10px);
+}
+
+.age-trust-item strong {
+    display: block;
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 2px;
+}
+
+.age-trust-item span {
+    font-size: 12.5px;
+    color: var(--age-ink-dim);
+    line-height: 1.35;
+}
+
+/* age badge — the signature medallion */
+.age-badge-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1/1;
+    max-width: 420px;
+    margin-left: auto;
+    display: grid;
+    place-items: center;
+}
+
+.age-badge-rings {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 1px solid color-mix(in oklab, var(--age-accent) 30%, transparent);
+    animation: ageRingRot 18s linear infinite;
+}
+
+.age-badge-rings:nth-child(2) {
+    inset: 8%;
+    border-style: dashed;
+    border-color: color-mix(in oklab, var(--age-accent-2) 35%, transparent);
+    animation-duration: 24s;
+    animation-direction: reverse;
+}
+
+.age-badge-rings:nth-child(3) {
+    inset: 16%;
+    border-color: color-mix(in oklab, var(--age-accent) 50%, transparent);
+    animation-duration: 14s;
+}
+
+.age-badge-core {
+    position: relative;
+    width: 64%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, color-mix(in oklab, var(--age-accent) 50%, #0f0f1a) 0%, #0f0f1a 70%);
+    box-shadow:
+        inset 0 2px 20px rgba(255, 255, 255, 0.05),
+        0 30px 60px -20px color-mix(in oklab, var(--age-accent) 40%, transparent);
+    display: grid;
+    place-items: center;
+}
+
+.age-badge-core .num {
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: clamp(80px, 10vw, 140px);
+    line-height: 1;
+    letter-spacing: -0.04em;
+    background: linear-gradient(180deg, #fff, color-mix(in oklab, var(--age-accent) 60%, #fff));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.age-badge-core .lbl {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    color: var(--age-ink-dim);
+    margin-top: 4px;
+}
+
+@keyframes ageRingRot {
+    to { transform: rotate(360deg); }
+}
+
+/* floating chips on hero */
+.age-badge-chip {
+    position: absolute;
+    padding: 8px 14px;
+    background: rgba(15, 15, 26, 0.92);
+    border: 1px solid var(--age-border);
+    border-radius: 999px;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #f1f5f9;
+    backdrop-filter: blur(6px);
+    animation: ageChipFloat 6s ease-in-out infinite;
+}
+
+.age-badge-chip::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--age-accent);
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.age-badge-chip.c1 { top: 8%; left: -8%; }
+.age-badge-chip.c2 { top: 38%; right: -10%; animation-delay: 1.5s; }
+.age-badge-chip.c3 { bottom: 6%; left: 4%; animation-delay: 3s; }
+
+@keyframes ageChipFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
+
+/* ---------- Why this age block (3 columns) ---------- */
+.age-why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.age-why-card {
+    padding: 32px 28px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.015));
+    border: 1px solid var(--age-border);
+    border-radius: var(--age-radius);
+    position: relative;
+    overflow: hidden;
+}
+
+.age-why-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 64px;
+    height: 2px;
+    background: linear-gradient(90deg, var(--age-accent), transparent);
+}
+
+.age-why-card h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 12px;
+    color: #fff;
+}
+
+.age-why-card p {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #cbd5e1;
+    margin: 0;
+}
+
+.age-why-index {
+    font-family: 'Fira Code', monospace;
+    font-size: 12px;
+    color: var(--age-accent);
+    letter-spacing: 0.2em;
+    margin-bottom: 12px;
+    display: block;
+}
+
+/* ---------- Project shelf ---------- */
+.age-shelf {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.age-shelf-card {
+    position: relative;
+    padding: 28px 24px 24px;
+    background: var(--age-surface);
+    border: 1px solid var(--age-border);
+    border-radius: var(--age-radius);
+    transition: transform .3s cubic-bezier(.2,.8,.2,1), box-shadow .3s ease, border-color .3s ease;
+    overflow: hidden;
+}
+
+.age-shelf-card:hover {
+    transform: translateY(-4px) rotate(-0.4deg);
+    border-color: color-mix(in oklab, var(--age-accent) 60%, transparent);
+    box-shadow: 0 24px 60px -26px color-mix(in oklab, var(--age-accent) 55%, transparent);
+}
+
+.age-shelf-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--age-accent));
+}
+
+.age-shelf-sticker {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    padding: 4px 10px;
+    font-family: 'Fira Code', monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    background: color-mix(in oklab, var(--age-accent) 18%, transparent);
+    color: var(--age-accent);
+    border: 1px solid color-mix(in oklab, var(--age-accent) 45%, transparent);
+    border-radius: 6px;
+    transform: rotate(2deg);
+}
+
+.age-shelf-ico {
+    width: 44px;
+    height: 44px;
+    border-radius: 11px;
+    background: linear-gradient(135deg, color-mix(in oklab, var(--age-accent) 30%, transparent), color-mix(in oklab, var(--age-accent-2) 30%, transparent));
+    display: grid;
+    place-items: center;
+    margin-bottom: 18px;
+    color: var(--age-accent);
+}
+
+.age-shelf-card h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 19px;
+    margin: 0 0 8px;
+    color: #fff;
+}
+
+.age-shelf-card p {
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: #cbd5e1;
+    margin: 0 0 16px;
+}
+
+.age-shelf-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.age-shelf-tag {
+    font-size: 11.5px;
+    padding: 3px 9px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: #cbd5e1;
+    font-family: 'Fira Code', monospace;
+}
+
+/* ---------- Roadmap timeline ---------- */
+.age-timeline {
+    position: relative;
+    padding-left: 28px;
+    border-left: 2px dashed color-mix(in oklab, var(--age-accent) 55%, transparent);
+}
+
+.age-step {
+    position: relative;
+    padding: 0 0 42px 28px;
+}
+
+.age-step::before {
+    content: "";
+    position: absolute;
+    left: -37px;
+    top: 4px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--age-surface);
+    border: 3px solid var(--age-accent);
+    box-shadow: 0 0 0 4px color-mix(in oklab, var(--age-accent) 20%, transparent);
+}
+
+.age-step-label {
+    font-family: 'Fira Code', monospace;
+    font-size: 12px;
+    color: var(--age-accent);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.age-step h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 22px;
+    margin: 0 0 8px;
+    color: #fff;
+}
+
+.age-step p {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #cbd5e1;
+    margin: 0 0 10px;
+}
+
+.age-step ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.age-step ul li {
+    font-size: 12.5px;
+    padding: 4px 10px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--age-border);
+    border-radius: 6px;
+    font-family: 'Fira Code', monospace;
+    color: #cbd5e1;
+}
+
+/* ---------- Class format options (1:1 vs Group) ---------- */
+.age-format-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+}
+
+.age-format-card {
+    padding: 36px 32px;
+    border-radius: var(--age-radius);
+    border: 1px solid var(--age-border);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01));
+    position: relative;
+}
+
+.age-format-card.primary {
+    border-color: color-mix(in oklab, var(--age-accent) 60%, transparent);
+    background:
+        radial-gradient(80% 60% at 100% 0%, color-mix(in oklab, var(--age-accent) 15%, transparent), transparent 60%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.01));
+}
+
+.age-format-tag {
+    font-family: 'Fira Code', monospace;
+    font-size: 12px;
+    color: var(--age-accent);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.age-format-card h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 26px;
+    margin: 0 0 12px;
+    color: #fff;
+}
+
+.age-format-card p {
+    font-size: 15px;
+    color: #cbd5e1;
+    line-height: 1.65;
+    margin: 0 0 20px;
+}
+
+.age-format-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+    display: grid;
+    gap: 10px;
+}
+
+.age-format-list li {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    font-size: 14.5px;
+    color: #e2e8f0;
+    line-height: 1.5;
+}
+
+.age-format-list li::before {
+    content: "→";
+    color: var(--age-accent);
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.age-format-price {
+    padding-top: 18px;
+    border-top: 1px solid var(--age-border);
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.age-format-price strong {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 26px;
+    color: #fff;
+}
+
+.age-format-price span {
+    font-size: 13px;
+    color: var(--age-ink-dim);
+}
+
+/* ---------- Compare neighbours table ---------- */
+.age-compare {
+    overflow: hidden;
+    border-radius: var(--age-radius);
+    border: 1px solid var(--age-border);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+}
+
+.age-compare table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.age-compare th,
+.age-compare td {
+    padding: 18px 22px;
+    text-align: left;
+    border-bottom: 1px solid var(--age-border);
+    font-size: 14.5px;
+    color: #e2e8f0;
+    vertical-align: top;
+}
+
+.age-compare th {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.age-compare td.highlight {
+    background: color-mix(in oklab, var(--age-accent) 12%, transparent);
+    color: #fff;
+    border-left: 2px solid var(--age-accent);
+}
+
+.age-compare a {
+    color: var(--age-accent);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.age-compare a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Testimonials ---------- */
+.age-reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.age-review {
+    padding: 28px 26px;
+    background: var(--age-surface-2);
+    border: 1px solid var(--age-border);
+    border-radius: var(--age-radius);
+    position: relative;
+}
+
+.age-review::before {
+    content: "\201C";
+    position: absolute;
+    top: 6px;
+    right: 20px;
+    font-family: 'Plus Jakarta Sans', Georgia, serif;
+    font-size: 96px;
+    line-height: 1;
+    color: color-mix(in oklab, var(--age-accent) 35%, transparent);
+    font-weight: 800;
+}
+
+.age-review p {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #e2e8f0;
+    margin: 0 0 18px;
+}
+
+.age-review-by {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 16px;
+    border-top: 1px solid var(--age-border);
+}
+
+.age-review-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--age-accent), var(--age-accent-2));
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    flex-shrink: 0;
+}
+
+.age-review-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+}
+
+.age-review-meta {
+    font-size: 12.5px;
+    color: var(--age-ink-dim);
+    display: block;
+}
+
+/* ---------- FAQ ---------- */
+.age-faq {
+    display: grid;
+    gap: 12px;
+    max-width: 880px;
+}
+
+.age-faq-item {
+    border: 1px solid var(--age-border);
+    border-radius: 14px;
+    background: var(--age-surface-2);
+    overflow: hidden;
+    transition: border-color .25s ease;
+}
+
+.age-faq-item[open] {
+    border-color: color-mix(in oklab, var(--age-accent) 55%, transparent);
+}
+
+.age-faq-item summary {
+    padding: 22px 26px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    font-size: 16.5px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.age-faq-item summary::-webkit-details-marker { display: none; }
+
+.age-faq-item summary::after {
+    content: "+";
+    font-family: 'Fira Code', monospace;
+    font-size: 24px;
+    color: var(--age-accent);
+    font-weight: 400;
+    transition: transform .25s ease;
+}
+
+.age-faq-item[open] summary::after {
+    content: "\2013";
+}
+
+.age-faq-body {
+    padding: 0 26px 22px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #cbd5e1;
+}
+
+/* ---------- Lead form + related chips ---------- */
+.age-form-wrap {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.age-form-box {
+    padding: 36px 32px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.015));
+    border: 1px solid var(--age-border);
+    border-radius: var(--age-radius);
+}
+
+.age-form-box h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 26px;
+    color: #fff;
+    margin: 0 0 8px;
+}
+
+.age-form-box p {
+    font-size: 14.5px;
+    color: var(--age-ink-dim);
+    margin: 0 0 22px;
+}
+
+.age-form-row {
+    display: grid;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.age-form-row.two {
+    grid-template-columns: 1fr 1fr;
+}
+
+.age-input,
+.age-select {
+    width: 100%;
+    padding: 13px 15px;
+    background: #1e1e32;
+    border: 1px solid rgba(168, 85, 247, 0.3);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-family: inherit;
+    outline: none;
+    transition: border-color .2s;
+}
+
+.age-input:focus,
+.age-select:focus {
+    border-color: var(--age-accent);
+}
+
+.age-input::placeholder {
+    color: #64748b;
+}
+
+.age-form-submit {
+    width: 100%;
+    margin-top: 8px;
+    padding: 16px 28px;
+    background: linear-gradient(135deg, var(--age-accent), var(--age-accent-2));
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.age-form-submit:hover {
+    transform: translateY(-2px);
+}
+
+.age-form-note {
+    font-size: 12.5px;
+    color: var(--age-ink-dim);
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* related chips */
+.age-related h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    margin: 0 0 16px;
+}
+
+.age-chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.age-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--age-border);
+    color: #e2e8f0;
+    text-decoration: none;
+    font-size: 13.5px;
+    transition: all .2s;
+}
+
+.age-chip:hover {
+    border-color: var(--age-accent);
+    color: var(--age-accent);
+    transform: translateY(-1px);
+}
+
+.age-chip small {
+    font-family: 'Fira Code', monospace;
+    font-size: 10.5px;
+    color: var(--age-ink-dim);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 960px) {
+    .age-hero { padding: 110px 0 72px; }
+    .age-hero-grid { grid-template-columns: 1fr; gap: 48px; }
+    .age-badge-wrap { max-width: 320px; margin: 0 auto; }
+    .age-why-grid,
+    .age-shelf,
+    .age-reviews { grid-template-columns: 1fr 1fr; }
+    .age-format-grid { grid-template-columns: 1fr; }
+    .age-form-wrap { grid-template-columns: 1fr; }
+    .age-trust { grid-template-columns: 1fr 1fr; }
+    .age-section { padding: 72px 0; }
+}
+
+@media (max-width: 640px) {
+    .age-why-grid,
+    .age-shelf,
+    .age-reviews { grid-template-columns: 1fr; }
+    .age-hero h1 { font-size: clamp(36px, 9vw, 52px); }
+    .age-compare th,
+    .age-compare td { padding: 14px 14px; font-size: 13.5px; }
+    .age-wrap { padding: 0 18px; }
+    .age-form-row.two { grid-template-columns: 1fr; }
+    .age-badge-chip { font-size: 11px; padding: 6px 10px; }
+    .age-badge-chip.c1 { left: -4%; }
+    .age-badge-chip.c2 { right: -2%; }
+    .age-section { padding: 60px 0; }
+    .age-format-card { padding: 28px 22px; }
+}
+
+/* ---------- Courses grid ---------- */
+.age-courses {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.age-course-card {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.015));
+    border: 1px solid var(--age-border);
+    border-radius: 16px;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    overflow: hidden;
+    transition: transform .28s ease, border-color .28s ease, box-shadow .28s ease;
+}
+
+.age-course-card:hover {
+    transform: translateY(-4px);
+    border-color: color-mix(in oklab, var(--age-accent) 60%, transparent);
+    box-shadow: 0 22px 48px -20px color-mix(in oklab, var(--age-accent) 55%, transparent);
+}
+
+.age-course-thumb {
+    position: relative;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background: #0b0b16;
+}
+
+.age-course-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform .5s ease;
+}
+
+.age-course-card:hover .age-course-thumb img {
+    transform: scale(1.05);
+}
+
+.age-course-thumb::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 40%, rgba(10,10,20,.78) 100%);
+    pointer-events: none;
+}
+
+.age-course-pill {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: 2;
+    padding: 5px 10px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(6px);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: 'Fira Code', monospace;
+    letter-spacing: 0.05em;
+    border: 1px solid rgba(255,255,255,0.12);
+}
+
+.age-course-body {
+    padding: 18px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.age-course-card h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16.5px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    color: #fff;
+    line-height: 1.3;
+}
+
+.age-course-card p {
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: #cbd5e1;
+    margin: 0 0 14px;
+    flex: 1;
+}
+
+.age-course-meta {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+.age-course-meta span {
+    font-size: 10.5px;
+    padding: 3px 8px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    color: #cbd5e1;
+    font-family: 'Fira Code', monospace;
+    letter-spacing: 0.05em;
+}
+
+.age-course-view {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12.8px;
+    font-weight: 700;
+    color: var(--age-accent);
+    letter-spacing: 0.02em;
+}
+
+@media (max-width: 1024px) {
+    .age-courses { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 760px) {
+    .age-courses { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 460px) {
+    .age-courses { grid-template-columns: 1fr; }
+}
+
+/* ---------- Skip-the-basics callout ---------- */
+.age-skip {
+    margin-top: 36px;
+    padding: 28px 32px;
+    border-radius: var(--age-radius);
+    border: 1px solid color-mix(in oklab, var(--age-accent) 45%, transparent);
+    background:
+        radial-gradient(60% 120% at 0% 50%, color-mix(in oklab, var(--age-accent) 18%, transparent), transparent 60%),
+        linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.015));
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 22px;
+    align-items: center;
+}
+
+.age-skip-badge {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, var(--age-accent), var(--age-accent-2));
+    color: #fff;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+}
+
+.age-skip-body h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0 0 4px;
+    font-size: 18.5px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.age-skip-body p {
+    margin: 0;
+    font-size: 14.5px;
+    color: #cbd5e1;
+    line-height: 1.55;
+}
+
+.age-skip-body p strong {
+    color: var(--age-accent);
+    font-weight: 700;
+}
+
+@media (max-width: 760px) {
+    .age-skip {
+        grid-template-columns: 1fr;
+        text-align: left;
+        padding: 22px 22px;
+    }
+}
+

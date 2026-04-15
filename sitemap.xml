@@ -294,6 +294,59 @@
     <priority>0.85</priority>
   </url>
 
+  <!-- Age-wise Coding Pages (10 pages) -->
+  <url><loc>https://learn.modernagecoders.com/coding-for-8-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-9-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-10-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-11-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-12-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-13-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-14-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-15-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-16-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-17-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+
+  <!-- Grade-wise Coding Pages (9 pages) -->
+  <url><loc>https://learn.modernagecoders.com/coding-for-class-4</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-class-5</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-class-6</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-class-7</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-class-8</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-class-9</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-class-10</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-class-11</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-class-12</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+
+  <!-- Board-specific Coding Pages (8 pages) -->
+  <url><loc>https://learn.modernagecoders.com/coding-for-cbse-students</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-icse-students</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/coding-for-igcse-students</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/computer-applications-icse-class-10</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/computer-science-class-11-cbse</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/computer-science-class-12-cbse</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/computer-science-class-11-icse</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/computer-science-class-12-icse</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+
+  <!-- Python-specific landing pages (18 pages) -->
+  <url><loc>https://learn.modernagecoders.com/python-for-9-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-10-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-11-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-12-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-13-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-14-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-15-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-16-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-17-year-olds</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-beginners-kids</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-projects-for-kids</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-class-6</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-class-7</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-class-8</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-class-9</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-class-10</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-class-11-cbse</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://learn.modernagecoders.com/python-for-class-12-cbse</loc><lastmod>2026-04-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+
   <!-- SEO Landing Pages -->
   <url>
     <loc>https://learn.modernagecoders.com/python-and-ai-classes-for-kids-teens</loc>

@@ -139,7 +139,7 @@
        TYPOGRAPHY
        ============================================================ */
     --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    --font-display: 'Syne', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-display: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     --font-mono: 'Fira Code', 'JetBrains Mono', 'Consolas', 'Monaco', monospace;
 
     /* Fluid type scale (mobile minimum → desktop maximum) */

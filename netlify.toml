@@ -1279,6 +1279,194 @@
   to = "/src/pages/coding-classes-near-uluberia-howrah.html"
   status = 200
 
+# Age-wise coding pages (10 pages)
+[[redirects]]
+  from = "/coding-for-8-year-olds"
+  to = "/src/pages/coding-for-8-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-9-year-olds"
+  to = "/src/pages/coding-for-9-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-10-year-olds"
+  to = "/src/pages/coding-for-10-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-11-year-olds"
+  to = "/src/pages/coding-for-11-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-12-year-olds"
+  to = "/src/pages/coding-for-12-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-13-year-olds"
+  to = "/src/pages/coding-for-13-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-14-year-olds"
+  to = "/src/pages/coding-for-14-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-15-year-olds"
+  to = "/src/pages/coding-for-15-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-16-year-olds"
+  to = "/src/pages/coding-for-16-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-17-year-olds"
+  to = "/src/pages/coding-for-17-year-olds.html"
+  status = 200
+
+# Grade-wise coding pages (9 pages)
+[[redirects]]
+  from = "/coding-for-class-4"
+  to = "/src/pages/coding-for-class-4.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-class-5"
+  to = "/src/pages/coding-for-class-5.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-class-6"
+  to = "/src/pages/coding-for-class-6.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-class-7"
+  to = "/src/pages/coding-for-class-7.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-class-8"
+  to = "/src/pages/coding-for-class-8.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-class-9"
+  to = "/src/pages/coding-for-class-9.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-class-10"
+  to = "/src/pages/coding-for-class-10.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-class-11"
+  to = "/src/pages/coding-for-class-11.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-class-12"
+  to = "/src/pages/coding-for-class-12.html"
+  status = 200
+
+# Board-specific coding pages (8 pages)
+[[redirects]]
+  from = "/coding-for-cbse-students"
+  to = "/src/pages/coding-for-cbse-students.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-icse-students"
+  to = "/src/pages/coding-for-icse-students.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-igcse-students"
+  to = "/src/pages/coding-for-igcse-students.html"
+  status = 200
+[[redirects]]
+  from = "/computer-applications-icse-class-10"
+  to = "/src/pages/computer-applications-icse-class-10.html"
+  status = 200
+[[redirects]]
+  from = "/computer-science-class-11-cbse"
+  to = "/src/pages/computer-science-class-11-cbse.html"
+  status = 200
+[[redirects]]
+  from = "/computer-science-class-12-cbse"
+  to = "/src/pages/computer-science-class-12-cbse.html"
+  status = 200
+[[redirects]]
+  from = "/computer-science-class-11-icse"
+  to = "/src/pages/computer-science-class-11-icse.html"
+  status = 200
+[[redirects]]
+  from = "/computer-science-class-12-icse"
+  to = "/src/pages/computer-science-class-12-icse.html"
+  status = 200
+
+# Python-specific landing pages (18 pages)
+[[redirects]]
+  from = "/python-for-9-year-olds"
+  to = "/src/pages/python-for-9-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-10-year-olds"
+  to = "/src/pages/python-for-10-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-11-year-olds"
+  to = "/src/pages/python-for-11-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-12-year-olds"
+  to = "/src/pages/python-for-12-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-13-year-olds"
+  to = "/src/pages/python-for-13-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-14-year-olds"
+  to = "/src/pages/python-for-14-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-15-year-olds"
+  to = "/src/pages/python-for-15-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-16-year-olds"
+  to = "/src/pages/python-for-16-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-17-year-olds"
+  to = "/src/pages/python-for-17-year-olds.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-beginners-kids"
+  to = "/src/pages/python-for-beginners-kids.html"
+  status = 200
+[[redirects]]
+  from = "/python-projects-for-kids"
+  to = "/src/pages/python-projects-for-kids.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-class-6"
+  to = "/src/pages/python-for-class-6.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-class-7"
+  to = "/src/pages/python-for-class-7.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-class-8"
+  to = "/src/pages/python-for-class-8.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-class-9"
+  to = "/src/pages/python-for-class-9.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-class-10"
+  to = "/src/pages/python-for-class-10.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-class-11-cbse"
+  to = "/src/pages/python-for-class-11-cbse.html"
+  status = 200
+[[redirects]]
+  from = "/python-for-class-12-cbse"
+  to = "/src/pages/python-for-class-12-cbse.html"
+  status = 200
+
 # 404 fallback
 [[redirects]]
   from = "/*"

@@ -61,6 +61,59 @@
 /maths-class-10 /src/pages/maths-class-10.html 200
 /search /src/pages/search.html 200
 
+# Age-wise coding pages (clean URLs)
+/coding-for-8-year-olds /src/pages/coding-for-8-year-olds.html 200
+/coding-for-9-year-olds /src/pages/coding-for-9-year-olds.html 200
+/coding-for-10-year-olds /src/pages/coding-for-10-year-olds.html 200
+/coding-for-11-year-olds /src/pages/coding-for-11-year-olds.html 200
+/coding-for-12-year-olds /src/pages/coding-for-12-year-olds.html 200
+/coding-for-13-year-olds /src/pages/coding-for-13-year-olds.html 200
+/coding-for-14-year-olds /src/pages/coding-for-14-year-olds.html 200
+/coding-for-15-year-olds /src/pages/coding-for-15-year-olds.html 200
+/coding-for-16-year-olds /src/pages/coding-for-16-year-olds.html 200
+/coding-for-17-year-olds /src/pages/coding-for-17-year-olds.html 200
+
+# Grade-wise coding pages (clean URLs)
+/coding-for-class-4 /src/pages/coding-for-class-4.html 200
+/coding-for-class-5 /src/pages/coding-for-class-5.html 200
+/coding-for-class-6 /src/pages/coding-for-class-6.html 200
+/coding-for-class-7 /src/pages/coding-for-class-7.html 200
+/coding-for-class-8 /src/pages/coding-for-class-8.html 200
+/coding-for-class-9 /src/pages/coding-for-class-9.html 200
+/coding-for-class-10 /src/pages/coding-for-class-10.html 200
+/coding-for-class-11 /src/pages/coding-for-class-11.html 200
+/coding-for-class-12 /src/pages/coding-for-class-12.html 200
+
+# Board-specific coding pages (clean URLs)
+/coding-for-cbse-students /src/pages/coding-for-cbse-students.html 200
+/coding-for-icse-students /src/pages/coding-for-icse-students.html 200
+/coding-for-igcse-students /src/pages/coding-for-igcse-students.html 200
+/computer-applications-icse-class-10 /src/pages/computer-applications-icse-class-10.html 200
+/computer-science-class-11-cbse /src/pages/computer-science-class-11-cbse.html 200
+/computer-science-class-12-cbse /src/pages/computer-science-class-12-cbse.html 200
+/computer-science-class-11-icse /src/pages/computer-science-class-11-icse.html 200
+/computer-science-class-12-icse /src/pages/computer-science-class-12-icse.html 200
+
+# Python-specific landing pages (clean URLs)
+/python-for-9-year-olds /src/pages/python-for-9-year-olds.html 200
+/python-for-10-year-olds /src/pages/python-for-10-year-olds.html 200
+/python-for-11-year-olds /src/pages/python-for-11-year-olds.html 200
+/python-for-12-year-olds /src/pages/python-for-12-year-olds.html 200
+/python-for-13-year-olds /src/pages/python-for-13-year-olds.html 200
+/python-for-14-year-olds /src/pages/python-for-14-year-olds.html 200
+/python-for-15-year-olds /src/pages/python-for-15-year-olds.html 200
+/python-for-16-year-olds /src/pages/python-for-16-year-olds.html 200
+/python-for-17-year-olds /src/pages/python-for-17-year-olds.html 200
+/python-for-beginners-kids /src/pages/python-for-beginners-kids.html 200
+/python-projects-for-kids /src/pages/python-projects-for-kids.html 200
+/python-for-class-6 /src/pages/python-for-class-6.html 200
+/python-for-class-7 /src/pages/python-for-class-7.html 200
+/python-for-class-8 /src/pages/python-for-class-8.html 200
+/python-for-class-9 /src/pages/python-for-class-9.html 200
+/python-for-class-10 /src/pages/python-for-class-10.html 200
+/python-for-class-11-cbse /src/pages/python-for-class-11-cbse.html 200
+/python-for-class-12-cbse /src/pages/python-for-class-12-cbse.html 200
+
 # Additional pages (clean URLs)
 /projects /student-labs 301!
 /student-projects /student-labs 301!
