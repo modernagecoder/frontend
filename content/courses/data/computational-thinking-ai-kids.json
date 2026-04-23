@@ -1,0 +1,1137 @@
+{
+  "meta": {
+    "slug": "cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8",
+    "title": "CBSE Computational Thinking & AI Course for Kids (Classes 3-8) | Complete Beginner to AI Project Builder",
+    "description": "India's most detailed CBSE-aligned Computational Thinking & Artificial Intelligence course for Kids (Ages 8-13, Classes 3 to 8). Built around the official CBSE Computational Thinking and AI framework introduced by NCERT & CBSE. Covers decomposition, pattern recognition, abstraction, algorithms, Scratch, AI for Kids, Teachable Machine, AI Project Cycle (4Ws), ethics, Sustainable Development Goals (SDGs), robotics & 50+ hands-on projects. Live 1-on-1 and group classes with expert mentors. Perfect preparation for CBSE Class 9 AI (Code 417) & Class 11-12 AI (Code 843).",
+    "keywords": [
+      "CBSE computational thinking course for kids",
+      "CBSE AI course for kids",
+      "computational thinking and AI CBSE",
+      "CBSE artificial intelligence class 3",
+      "CBSE artificial intelligence class 4",
+      "CBSE artificial intelligence class 5",
+      "CBSE artificial intelligence class 6",
+      "CBSE artificial intelligence class 7",
+      "CBSE artificial intelligence class 8",
+      "computational thinking for kids India",
+      "AI curriculum CBSE primary",
+      "AI curriculum CBSE middle school",
+      "CBSE AI project cycle",
+      "4Ws problem scoping CBSE",
+      "decomposition pattern recognition abstraction algorithms",
+      "NCERT computational thinking",
+      "CBSE coding and AI curriculum",
+      "CBSE AI class 6 to 8 textbook",
+      "Scratch programming for CBSE kids",
+      "Teachable Machine for kids",
+      "AI for kids India",
+      "kids AI course India",
+      "CBSE AI 417 foundation course",
+      "CBSE AI 843 foundation course",
+      "AI and computational thinking preparation",
+      "AI education for children",
+      "algorithmic thinking for kids",
+      "logical reasoning for kids",
+      "block coding for kids CBSE",
+      "AI ethics for kids",
+      "sustainable development goals AI",
+      "machine learning for kids",
+      "coding and AI CBSE primary classes",
+      "best CBSE AI course online",
+      "AI tutor for kids India",
+      "online AI classes for kids",
+      "live AI classes for kids",
+      "AI summer camp CBSE kids",
+      "CBSE skill subject AI",
+      "AI project CBSE class 6",
+      "AI project CBSE class 7",
+      "AI project CBSE class 8",
+      "CBSE computational thinking syllabus",
+      "NCERT AI handbook kids",
+      "coding with AI for kids India",
+      "CBSE technology curriculum",
+      "future-ready AI skills for kids",
+      "ATL AI module for schools",
+      "Atal Tinkering Lab AI",
+      "AI olympiad preparation kids",
+      "CBSE AI competition kids"
+    ],
+    "category": "CBSE School Curriculum - Computational Thinking & Artificial Intelligence",
+    "price": {
+      "group": "₹1,499/month (2 classes per week)",
+      "personal": "₹2,499/month (1-on-1 mentorship)",
+      "lifetime": "₹19,999 (one-time, lifetime access + certification)"
+    },
+    "duration": "9 months (40 weeks, expandable to 12-month mastery track)",
+    "level": "Absolute Beginner (Class 3-5) to Intermediate AI Project Builder (Class 6-8)",
+    "commitment": "5-7 hours/week (2 live classes + self-practice)",
+    "certification": "Certified Young Computational Thinker & AI Innovator (CBSE-aligned)",
+    "image_path": "ct-ai-kids.webp",
+    "boards_covered": ["CBSE Computational Thinking & AI Curriculum", "NCERT Aligned", "CBSE Skill Subject AI (Code 417) Foundation", "Atal Tinkering Lab Compatible"],
+    "batch_info": "Separate age-appropriate batches: Primary (Class 3-5, Ages 8-10) and Middle School (Class 6-8, Ages 11-13). Curriculum, pace, and project difficulty are customized per age group.",
+    "aligned_with": [
+      "CBSE Circular on Artificial Intelligence curriculum",
+      "NCERT Computational Thinking framework",
+      "CBSE Skill Education policy",
+      "NEP 2020 - 21st century skills mandate",
+      "CBSE AI Integration with other subjects initiative"
+    ]
+  },
+  "program_overview": {
+    "title": "CBSE Computational Thinking & AI Masterclass for Kids (Classes 3-8)",
+    "tagline": "From Curiosity to Creating AI — The Future-Ready Child Starts Here!",
+    "description": "The Central Board of Secondary Education (CBSE) has officially integrated Computational Thinking and Artificial Intelligence into the foundational and middle school curriculum as a core 21st-century skill. This comprehensive 9-month program is specifically designed to give your child a deep, hands-on mastery of both Computational Thinking and AI — completely aligned with CBSE's framework, NCERT's AI handbooks, and the National Education Policy (NEP) 2020.\n\nYour child will learn to think like a scientist, reason like a mathematician, solve like an engineer, and create like an AI researcher. Starting with unplugged thinking activities (no screens!), we gradually introduce Scratch block coding, AI concepts through stories and games, Google's Teachable Machine, the official CBSE AI Project Cycle (Problem Scoping with 4Ws → Data Acquisition → Data Exploration → Modelling → Evaluation), AI Ethics, Sustainable Development Goals (SDGs), and culminate in real AI projects your child will proudly showcase.\n\nBy the end, your child will have built 50+ projects, understood how Netflix, Alexa, YouTube and self-driving cars really work, and will be fully prepared for CBSE AI Class 9 (Code 417) and later AI Class 11-12 (Code 843).",
+    "what_makes_this_different": [
+      "100% aligned with the official CBSE Computational Thinking & AI framework",
+      "Separate, age-appropriate tracks for Classes 3-5 and Classes 6-8",
+      "Follows the CBSE AI Project Cycle methodology used in board curriculum",
+      "Mix of unplugged (no-screen) and plugged (digital) activities — healthy screen time",
+      "Uses exact tools CBSE recommends: Scratch, Teachable Machine, Code.org, MIT App Inventor, Python (for Class 8)",
+      "Direct preparation for CBSE AI Class 9-10 (Code 417) & Class 11-12 (Code 843)",
+      "AI Ethics, Bias, Privacy & SDG integration from day one",
+      "Live expert-led classes + parent progress reports + project showcase days",
+      "50+ original AI & CT projects for school portfolio and competitions",
+      "Compatible with Atal Tinkering Lab (ATL) and CBSE AI School projects"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): Unplugged Computational Thinking, Scratch Basics, What is AI? (Classes 3-5 level)",
+      "phase_2": "Building (Months 4-6): Advanced Scratch, AI Domains (CV/NLP/Data), Teachable Machine, AI Project Cycle (Classes 6-8 level)",
+      "phase_3": "Creating (Months 7-8): Real AI Projects, Python intro, Ethics & SDG AI Solutions, Mini-hackathon",
+      "phase_4": "Mastery (Month 9): CBSE-style AI Capstone Project, Portfolio, Certification & Transition to CBSE AI Class 9 (417)"
+    },
+    "career_outcomes": [
+      "Strong foundation for CBSE AI Class 9-10 (Subject Code 417)",
+      "Strong foundation for CBSE AI Class 11-12 (Subject Code 843)",
+      "Eligible for National AI Olympiads, CBSE AI Hackathons, ATL Marathons",
+      "Future pathway to AI Engineer, Data Scientist, ML Researcher, Robotics Engineer",
+      "Improved performance in Maths, Science & English (verified by 87% of parents)",
+      "School portfolio with 50+ documented AI & CT projects"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Computational Thinking Foundations (Months 1-3, Weeks 1-13) — Aligned to CBSE Classes 3-5",
+    "description": "Build the four pillars of Computational Thinking — Decomposition, Pattern Recognition, Abstraction and Algorithms — through unplugged activities, games, storytelling and block coding. No prior coding or computer experience required. Perfect for CBSE Classes 3, 4 and 5 students.",
+    "month_1": {
+      "title": "Month 1: The Four Pillars of Computational Thinking (Unplugged + Intro to Scratch)",
+      "weeks": "Week 1-4",
+      "week_1": {
+        "title": "Introduction to Computational Thinking & Why It Matters",
+        "topics": [
+          "What is Computational Thinking? (Definition as per CBSE/NCERT framework)",
+          "How do computers 'think'? (Simple explanation for kids)",
+          "Difference between a human brain and a computer",
+          "The 4 pillars of CT: Decomposition, Pattern Recognition, Abstraction, Algorithms",
+          "Real-life CT: Brushing teeth, making sandwich, getting ready for school",
+          "CT all around us: Traffic signals, recipes, board games",
+          "Growth mindset & making mistakes — the scientist way",
+          "Introduction to the CBSE CT framework (age-appropriate)",
+          "Thinking journal: Your child's first CT diary",
+          "Family CT challenge: Find 5 algorithms at home"
+        ],
+        "projects": [
+          "Create a 'How I Get Ready for School' step-by-step poster",
+          "Break down making Maggi into 10 precise steps (Decomposition)",
+          "CT Thinking Diary — daily entries for a week"
+        ],
+        "practice": "Daily 10-minute unplugged CT game from our parent pack"
+      },
+      "week_2": {
+        "title": "Decomposition — Breaking Big Problems Into Small Ones",
+        "topics": [
+          "What is Decomposition?",
+          "Why decomposition matters (examples: school projects, cleaning room)",
+          "Decomposing a drawing into shapes",
+          "Decomposing a birthday party plan",
+          "Tree diagrams and mind maps for decomposition",
+          "Decomposing a school timetable",
+          "Decomposing a game into rules",
+          "Practice: Decompose 10 everyday tasks",
+          "When decomposition helps (and when it doesn't)",
+          "Team decomposition: Family project breakdown"
+        ],
+        "projects": [
+          "Decompose your favorite board game into its smallest rules",
+          "Plan a pretend birthday party using only decomposition",
+          "Create a decomposition poster for any Class subject"
+        ],
+        "practice": "Decompose one new task every day — parent signs logbook"
+      },
+      "week_3": {
+        "title": "Pattern Recognition — The Secret Skill of Scientists",
+        "topics": [
+          "What are patterns? (Visual, numerical, behavioral, musical)",
+          "Patterns in nature: leaves, flowers, honeycomb, zebra stripes",
+          "Patterns in math tables (2, 5, 10 tables)",
+          "Patterns in Indian festivals & seasons",
+          "Spotting patterns in stories & rhymes",
+          "Patterns in our daily routine",
+          "Why AI uses pattern recognition (face unlock, Netflix recommendations)",
+          "Pattern puzzles and Sudoku for kids (4x4)",
+          "Creating your own patterns",
+          "Pattern break: Finding the 'odd one out'"
+        ],
+        "projects": [
+          "Pattern hunt journal — photograph 20 patterns around you",
+          "Design a Rangoli using mathematical patterns",
+          "Create a pattern-based memory game"
+        ],
+        "practice": "Spot 5 new patterns daily"
+      },
+      "week_4": {
+        "title": "Abstraction & Algorithms — Recipes for Computers",
+        "topics": [
+          "What is Abstraction? (Keeping important, ignoring rest)",
+          "Maps as abstractions (Metro map, school map)",
+          "What is an Algorithm? Step-by-step instructions",
+          "Recipes as algorithms",
+          "Algorithms for brushing teeth, tying shoelaces",
+          "Sequence matters — why order is important",
+          "Introduction to Flowcharts (shapes and arrows)",
+          "First flowchart: Morning routine",
+          "Writing your first algorithm on paper",
+          "Robot Game: Human Robot — algorithms in action"
+        ],
+        "projects": [
+          "Write the 'Perfect Algorithm' for making your favorite food",
+          "Design a flowchart adventure story",
+          "Program your family to be 'robots' and follow your algorithm"
+        ],
+        "practice": "Write one algorithm per day for any daily task"
+      }
+    },
+    "month_2": {
+      "title": "Month 2: First Coding with Scratch — Where CT Meets Computers",
+      "weeks": "Week 5-8",
+      "week_5": {
+        "title": "Welcome to Scratch — The Block Coding Playground",
+        "topics": [
+          "Introduction to Scratch (MIT) — why CBSE recommends it",
+          "Scratch interface tour: Stage, Sprites, Blocks, Scripts",
+          "Motion blocks: Move, turn, glide",
+          "Your first Scratch program: Make the cat dance",
+          "Saving and managing Scratch projects",
+          "Scratch account creation (parent-supervised)",
+          "Connecting CT to Scratch: Every program = an algorithm",
+          "Changing costumes & backgrounds",
+          "Sound blocks — making your sprite speak in Hindi/English",
+          "First creative project: Digital greeting card"
+        ],
+        "projects": [
+          "Animated birthday card for a family member",
+          "Dancing cat in 5 different backgrounds",
+          "Digital storybook cover with your name"
+        ],
+        "practice": "Explore one new Scratch block daily"
+      },
+      "week_6": {
+        "title": "Events, Loops & Repeat — Making Programs Powerful",
+        "topics": [
+          "Events in Scratch: 'When flag clicked', key press, sprite click",
+          "Loops: Repeat, forever (why loops save time)",
+          "Real-life loops: brushing teeth 20 times, school bell rings 6 times",
+          "Nested loops for patterns",
+          "Pen tool — drawing geometric shapes with code",
+          "Drawing squares, triangles, hexagons with loops",
+          "Spiral drawings with loops",
+          "Variables introduction — boxes that hold information",
+          "Score counter in a simple game",
+          "Name input using 'Ask' block"
+        ],
+        "projects": [
+          "Geometric art generator (shapes with pen + loops)",
+          "Simple counting game",
+          "Animated alphabet learning app"
+        ],
+        "practice": "Create one new looping animation daily"
+      },
+      "week_7": {
+        "title": "Decisions, Conditions & Interactive Stories",
+        "topics": [
+          "If-then blocks — decisions in code",
+          "If-else blocks — choosing between two options",
+          "Comparison: Less than, greater than, equal to",
+          "Interactive stories with choices",
+          "Keyboard-controlled sprites",
+          "Sprite-to-sprite interaction (touching, bouncing)",
+          "Adding sound effects for actions",
+          "Timer and countdown",
+          "Changing background on condition",
+          "Branching storylines"
+        ],
+        "projects": [
+          "'Choose Your Adventure' interactive story",
+          "Keyboard-controlled character runner",
+          "Quiz game with If-Else logic (Science or GK quiz)"
+        ],
+        "practice": "Add If-Else logic to previous projects"
+      },
+      "week_8": {
+        "title": "First Mini Capstone: Build Your Own Scratch Game",
+        "topics": [
+          "Game design basics for kids",
+          "Planning: storyboarding before coding",
+          "Combining motion, events, loops, conditions",
+          "Scoring systems",
+          "Lives and Game Over screens",
+          "Winning and losing conditions",
+          "Play-testing & debugging",
+          "Sharing with friends and family",
+          "Publishing to Scratch studio",
+          "Presenting your project"
+        ],
+        "projects": [
+          "CAPSTONE 1: Complete Scratch game (Catch the Stars, Maze Runner, or Pong)",
+          "Record a project showcase video (2 mins)",
+          "Write a simple README for your game"
+        ],
+        "assessment": "Phase 1 Mid-Milestone: Scratch Project Certification"
+      }
+    },
+    "month_3": {
+      "title": "Month 3: What is AI? — Your First Encounter with Artificial Intelligence",
+      "weeks": "Week 9-13",
+      "week_9": {
+        "title": "AI All Around Us — Seeing AI Everywhere",
+        "topics": [
+          "What is Intelligence? What makes humans smart?",
+          "What is Artificial Intelligence? (Simple CBSE-aligned definition)",
+          "AI vs ordinary computer programs — the key difference",
+          "AI in daily life: Alexa, Siri, YouTube, Netflix, Google Maps, face unlock",
+          "History of AI: From chess computers to ChatGPT (kid-friendly timeline)",
+          "The 3 ways AI learns: Supervised, Unsupervised, Reinforcement (simplified)",
+          "AI vs Robots — are they the same?",
+          "Famous AI success stories (AlphaGo, Watson, self-driving cars)",
+          "Things AI is good at (and not good at)",
+          "Where does AI go wrong? (Introduction to bias)"
+        ],
+        "projects": [
+          "AI Spotter Journal — find 30 examples of AI in your home & neighborhood",
+          "Draw an 'AI Timeline' poster",
+          "Interview a parent/grandparent: 'What was life before AI?'"
+        ],
+        "practice": "Identify AI vs non-AI apps on family phone"
+      },
+      "week_10": {
+        "title": "How Does AI 'See' — Introduction to Computer Vision",
+        "topics": [
+          "How do humans see? (Eyes + brain)",
+          "How do computers 'see'? (Cameras + AI)",
+          "Pixels, colors, and images for computers",
+          "Introduction to Computer Vision (CV domain of AI)",
+          "Face detection vs face recognition",
+          "Object detection (cars, traffic signs, animals)",
+          "QR codes — a simple CV example",
+          "Medical imaging — how AI detects diseases",
+          "Ethics: Is face recognition always good?",
+          "Fun hands-on: Training a simple image classifier with Teachable Machine"
+        ],
+        "projects": [
+          "Train a Teachable Machine model to recognize 'happy face vs sad face'",
+          "Train a model to classify 3 objects you own",
+          "Poster: '10 places where Computer Vision is used'"
+        ],
+        "practice": "Spot 5 Computer Vision apps daily"
+      },
+      "week_11": {
+        "title": "How Does AI 'Listen & Talk' — Natural Language & Speech",
+        "topics": [
+          "How computers understand language (Natural Language Processing intro)",
+          "Speech-to-Text: How Alexa & Google understand you",
+          "Text-to-Speech: How computers talk back",
+          "Chatbots — kid-friendly intro",
+          "Simple rule-based chatbot in Scratch",
+          "Language translation with AI",
+          "Voice assistants: Alexa, Google Home, Siri",
+          "How AI learns Hindi, Tamil, English, Bengali and other languages",
+          "Spam detection in email — a NLP example",
+          "Ethics: When should you trust a chatbot?"
+        ],
+        "projects": [
+          "Build a rule-based chatbot in Scratch (answers 10 common questions)",
+          "Record voice commands and explore Google Assistant",
+          "Design a friendly AI assistant for elderly people"
+        ],
+        "practice": "Talk to voice assistants and note what works, what doesn't"
+      },
+      "week_12": {
+        "title": "Introduction to the CBSE AI Project Cycle (4Ws & Beyond)",
+        "topics": [
+          "What is the AI Project Cycle? (Official CBSE framework)",
+          "The 5 stages: Problem Scoping → Data Acquisition → Data Exploration → Modelling → Evaluation",
+          "Stage 1: Problem Scoping using 4Ws (Who, What, Where, Why)",
+          "Practice: Apply 4Ws to a school problem",
+          "Stage 2: Data Acquisition — what is data?",
+          "Types of data: Images, text, numbers, sound",
+          "Stage 3: Data Exploration — looking for patterns",
+          "Graphs and charts for young kids",
+          "Stage 4 preview: What is a 'model'?",
+          "Stage 5 preview: How do we know AI is right?"
+        ],
+        "projects": [
+          "Apply the 4Ws to 'Why do kids waste food in school canteen?'",
+          "Collect data on weather for 7 days and draw a chart",
+          "Create an AI Project Cycle poster for classroom"
+        ],
+        "practice": "Use 4Ws on one problem every day"
+      },
+      "week_13": {
+        "title": "Phase 1 Capstone — Your First AI-Assisted Project",
+        "topics": [
+          "Choosing a community problem",
+          "Applying the full AI Project Cycle",
+          "Combining Scratch + Teachable Machine",
+          "Documentation & presentation",
+          "Demonstrating to parents and peers",
+          "Getting feedback and improving",
+          "Celebrating first success",
+          "Preparing for Phase 2"
+        ],
+        "projects": [
+          "CAPSTONE 2: AI-powered Scratch project solving a home problem (e.g. lost item finder, pet mood detector, uniform checker)",
+          "3-slide presentation",
+          "2-minute demo video"
+        ],
+        "assessment": "CBSE CT & AI Foundation Certificate (Classes 3-5 level)"
+      }
+    }
+  },
+  "phase_2_middle_school": {
+    "title": "PHASE 2: AI Builder Track (Months 4-6, Weeks 14-26) — Aligned to CBSE Classes 6-8",
+    "description": "Dive deep into Artificial Intelligence with the official CBSE Classes 6-8 AI curriculum. Master the full AI Project Cycle, explore all three domains of AI (Data, Computer Vision, Natural Language Processing), begin Python programming, and build real AI-powered applications that solve real-world problems.",
+    "month_4": {
+      "title": "Month 4: Mastering the CBSE AI Project Cycle",
+      "weeks": "Week 14-17",
+      "week_14_15": {
+        "title": "Problem Scoping & Data Acquisition (Deep Dive)",
+        "topics": [
+          "Problem Scoping — 4Ws in detail (Who, What, Where, Why)",
+          "Stakeholder identification",
+          "Framing the problem statement",
+          "SDG (Sustainable Development Goals) connection — mandated by CBSE",
+          "Selecting SDG goals for your AI project",
+          "Data types: Structured (tables), Unstructured (images, text, audio)",
+          "Sources of data: Surveys, sensors, public datasets (Kaggle for kids), APIs",
+          "Data privacy basics — why it matters",
+          "How to design a survey (Google Forms)",
+          "Collecting data ethically",
+          "Data cleaning basics — removing mistakes",
+          "Introduction to CSV files"
+        ],
+        "projects": [
+          "Create a full CBSE-format AI Project Cycle document",
+          "Design and conduct a survey in your school (30 responses)",
+          "Map your project to 2 SDG goals"
+        ],
+        "practice": "Practice 4Ws on 3 new problems weekly"
+      },
+      "week_16_17": {
+        "title": "Data Exploration & Visualization",
+        "topics": [
+          "Data exploration — why we look at data",
+          "Types of charts: Bar, Line, Pie, Scatter (when to use which)",
+          "Google Sheets / MS Excel for data exploration",
+          "Making charts in Google Sheets",
+          "Finding outliers and missing values",
+          "Mean, median, mode for kids",
+          "Data stories — telling the truth with data",
+          "Avoiding misleading graphs",
+          "Introduction to data visualization best practices",
+          "Creating infographics in Canva",
+          "Interpretation — what does the data say?",
+          "Designing a data dashboard"
+        ],
+        "projects": [
+          "Collect and visualize your class's screen time data",
+          "Analyze a public dataset on air pollution in Indian cities",
+          "Create a data-driven infographic on a CBSE social topic"
+        ],
+        "practice": "Make one chart from real data every day"
+      }
+    },
+    "month_5": {
+      "title": "Month 5: AI Domains — Data, Computer Vision, NLP",
+      "weeks": "Week 18-21",
+      "week_18": {
+        "title": "Data Science — Teaching Computers to Predict",
+        "topics": [
+          "What is Data Science?",
+          "Prediction vs Classification vs Clustering",
+          "Linear thinking in predictions (temperature, prices)",
+          "Classification with Teachable Machine (extended)",
+          "Clustering explained with sorting toys game",
+          "K-Means clustering — simplified",
+          "Decision Trees — kids' explanation",
+          "Building your first decision tree by hand",
+          "Orange Data Mining — visual ML for kids",
+          "Installing & exploring Orange Data Mining",
+          "Uploading a dataset in Orange",
+          "Running your first ML model visually"
+        ],
+        "projects": [
+          "Decision tree: 'What should I wear today?'",
+          "Clustering project: Group your toys using K-Means thinking",
+          "Orange ML: Predict if a student will pass based on study hours"
+        ],
+        "practice": "Solve one ML thinking puzzle daily"
+      },
+      "week_19": {
+        "title": "Computer Vision — Deep Dive",
+        "topics": [
+          "Pixels, RGB, grayscale explained",
+          "Image classification vs object detection vs image generation",
+          "Training a custom Teachable Machine model (10+ classes)",
+          "Exporting Teachable Machine models to Scratch",
+          "Using TM models inside Scratch for interactive projects",
+          "Face filters — how Snapchat/Instagram works (simplified)",
+          "OCR (Optical Character Recognition) — reading handwriting",
+          "Medical AI — skin disease, X-ray detection (kid-safe intro)",
+          "Real-world case studies (Indian startups using CV)",
+          "Ethics: Deepfakes & misuse of CV",
+          "CBSE sample CV project ideas",
+          "Planning your own CV project"
+        ],
+        "projects": [
+          "Build a Teachable Machine + Scratch 'Hand Gesture Controlled Game'",
+          "Create an attendance system using facial recognition (Teachable Machine)",
+          "Design a 'litter detector' for clean India initiative (SDG)"
+        ],
+        "practice": "Train one TM model daily"
+      },
+      "week_20": {
+        "title": "Natural Language Processing — Making Machines Understand Us",
+        "topics": [
+          "Words as data — how computers read text",
+          "Tokenization — splitting sentences into words",
+          "Bag of Words model (simplified)",
+          "Sentiment analysis — is this message happy or sad?",
+          "Chatbot building blocks",
+          "Rule-based vs AI-based chatbots",
+          "Dialogflow / simple chatbot builders for kids",
+          "Voice input & output in Scratch 3 (speech extensions)",
+          "Translation AI — how Google Translate works",
+          "NLP use cases in India (Bhashini, regional languages)",
+          "Spam filters — a classic NLP task",
+          "Limitations of NLP — why AI gets confused"
+        ],
+        "projects": [
+          "Build a Scratch-based mood-detecting journal bot",
+          "Create a voice-controlled calculator",
+          "Build a Hindi-English translation assistant prototype"
+        ],
+        "practice": "Analyze sentiment of 10 messages daily"
+      },
+      "week_21": {
+        "title": "AI Ethics, Bias & Responsible AI (CBSE Mandatory Module)",
+        "topics": [
+          "Why AI ethics matters — CBSE emphasis",
+          "What is AI bias? (Famous case studies)",
+          "Gender, racial, cultural bias in AI",
+          "Case study: Biased resume screening AI",
+          "Privacy & AI — your data is valuable",
+          "Consent in the AI age",
+          "Deepfakes & misinformation",
+          "Environmental cost of AI (energy, water)",
+          "AI & Jobs — what the future holds",
+          "Responsible AI principles (fairness, accountability, transparency)",
+          "Asimov's 3 Laws of Robotics (kid-friendly)",
+          "Designing ethical AI — a framework for kids"
+        ],
+        "projects": [
+          "Ethics poster: 'Our Family's AI Rules'",
+          "Case study presentation: Find an example of AI bias",
+          "Design an 'AI Ethics Checklist' for classroom use"
+        ],
+        "practice": "Daily AI ethics journal"
+      }
+    },
+    "month_6": {
+      "title": "Month 6: Modelling & Evaluation + First Python Steps",
+      "weeks": "Week 22-26",
+      "week_22": {
+        "title": "Modelling — How Machines Learn",
+        "topics": [
+          "What is a model?",
+          "Supervised learning (with labeled examples)",
+          "Unsupervised learning (finding patterns alone)",
+          "Reinforcement learning (learning from reward)",
+          "Training, validation and testing data",
+          "Overfitting & underfitting — kids' analogy",
+          "Accuracy, error, confusion matrix basics",
+          "When models fail",
+          "Improving a model",
+          "Retraining & iterating",
+          "Google's Teachable Machine: Advanced usage",
+          "Introduction to MIT App Inventor for AI apps"
+        ],
+        "projects": [
+          "Train, test and evaluate 3 different TM models",
+          "Build an MIT App Inventor app that uses a trained AI model",
+          "Improve an existing model by adding more data"
+        ],
+        "practice": "Evaluate one model daily"
+      },
+      "week_23": {
+        "title": "Evaluation & Deployment",
+        "topics": [
+          "Evaluation metrics (simplified)",
+          "Precision, Recall — kid-friendly explanations",
+          "F1 Score in simple terms",
+          "When AI shouldn't be deployed",
+          "Real-world deployment examples",
+          "User testing with friends and family",
+          "Feedback & iteration cycle",
+          "Packaging & sharing AI projects",
+          "Hosting AI apps (Teachable Machine, MIT App Inventor, Glitch)",
+          "Presenting AI projects to non-technical people",
+          "Creating project documentation",
+          "CBSE AI project report format"
+        ],
+        "projects": [
+          "Deploy one AI app for family use (MIT App Inventor)",
+          "Write a CBSE-format AI Project Report (5 pages)",
+          "Conduct 3 user-testing sessions"
+        ],
+        "practice": "Get feedback from 3 people per project"
+      },
+      "week_24_25": {
+        "title": "Introduction to Python for AI (CBSE Class 8 Transition)",
+        "topics": [
+          "Why Python? The language of AI & CBSE Class 9+",
+          "Installing Python & Thonny (kid-friendly IDE)",
+          "Google Colab — Python in the browser",
+          "Variables, data types, print statement",
+          "Input & simple calculations",
+          "If-else in Python",
+          "Loops (for, while)",
+          "Lists — storing multiple items",
+          "Functions — reusable code",
+          "Random module — fun first projects",
+          "Turtle module — drawing with Python",
+          "First AI-like program in Python (rule-based chatbot)"
+        ],
+        "projects": [
+          "Python turtle — draw Indian flag, mandala, geometric art",
+          "Python rule-based chatbot",
+          "Dice roller, number guessing, quiz game in Python"
+        ],
+        "practice": "Write 10 Python lines daily"
+      },
+      "week_26": {
+        "title": "Phase 2 Capstone — End-to-End AI Project",
+        "topics": [
+          "Full AI Project Cycle application",
+          "Scratch + Teachable Machine + Python integration",
+          "SDG alignment",
+          "Documentation",
+          "Showcase preparation",
+          "Peer review",
+          "Parent-teacher showcase",
+          "Competition readiness"
+        ],
+        "projects": [
+          "CAPSTONE 3: Full AI Project solving a community problem (choose any SDG)",
+          "Examples: Plant disease detector, School waste tracker, Elderly help chatbot, Road safety app",
+          "Complete CBSE-format report + video + live demo"
+        ],
+        "assessment": "CBSE CT & AI Builder Certificate (Classes 6-8 level)"
+      }
+    }
+  },
+  "phase_3_creator": {
+    "title": "PHASE 3: Young AI Creator Track (Months 7-8, Weeks 27-34)",
+    "description": "Advance beyond the CBSE Class 6-8 level into true AI project creation. Build 8+ real AI projects, participate in mock hackathons, understand emerging AI technologies, and prepare for Olympiads and competitions.",
+    "month_7": {
+      "title": "Month 7: Advanced AI Tools & Projects",
+      "weeks": "Week 27-30",
+      "week_27": {
+        "title": "Generative AI for Kids — Safe Exploration",
+        "topics": [
+          "What is Generative AI? (ChatGPT, DALL-E, Gemini simplified)",
+          "How GenAI is different from earlier AI",
+          "Using GenAI safely — age-appropriate rules",
+          "Prompt Engineering basics for kids",
+          "Creating AI art (safe, kid-friendly tools)",
+          "AI writing helpers for schoolwork (ethical use)",
+          "AI as a homework helper vs homework doer (boundary setting)",
+          "Citing AI in school assignments",
+          "Creativity + AI = Superpower",
+          "AI music generation introduction",
+          "AI video generation basics",
+          "Ethics of GenAI — hallucinations & misinformation"
+        ],
+        "projects": [
+          "Generate a storybook cover with AI and Canva",
+          "Design an AI-generated bookmark",
+          "Write a 300-word story with AI assistance (document your prompts)"
+        ],
+        "practice": "Daily prompt engineering journal"
+      },
+      "week_28": {
+        "title": "Robotics & AI — Bringing AI to the Real World",
+        "topics": [
+          "What is a robot? Robot vs AI",
+          "mBot, LEGO Mindstorms, Spike — kid-friendly robots",
+          "Sensors: ultrasonic, light, touch, camera",
+          "Actuators: motors, servos, LEDs",
+          "Virtual robotics — VEXcode VR",
+          "Line-following robot (simulated)",
+          "Obstacle-avoidance robot (simulated)",
+          "Adding AI to robots — computer vision for robots",
+          "Humanoid robots (Sophia, Optimus) overview",
+          "Indian robotics — ISRO, DRDO, startups",
+          "Future of robotics in homes & hospitals",
+          "Robotics competitions in India (WRO, FLL)"
+        ],
+        "projects": [
+          "Program a virtual robot in VEXcode VR",
+          "Design a line-following robot algorithm",
+          "Storyboard: 'A day with your personal AI robot'"
+        ],
+        "practice": "Daily robotics simulation"
+      },
+      "week_29": {
+        "title": "AI for Sustainable Development Goals (SDGs)",
+        "topics": [
+          "Overview of 17 UN SDGs (CBSE mandatory)",
+          "How AI is helping each SDG (case studies)",
+          "AI for Clean Water (Goal 6)",
+          "AI for Quality Education (Goal 4)",
+          "AI for Zero Hunger (Goal 2)",
+          "AI for Climate Action (Goal 13)",
+          "AI for Good Health (Goal 3)",
+          "Indian AI-for-Good examples (Swasth, eSanjeevani)",
+          "Designing an SDG-aligned AI project",
+          "Finding SDG datasets (UN, Government of India)",
+          "Measuring impact",
+          "Youth AI-for-Good competitions (Google, UNICEF)"
+        ],
+        "projects": [
+          "Choose one SDG, design a complete AI solution",
+          "Build a prototype of the solution",
+          "Write an impact report (2 pages)"
+        ],
+        "practice": "Daily SDG research"
+      },
+      "week_30": {
+        "title": "App-Based AI Projects with MIT App Inventor",
+        "topics": [
+          "App design principles",
+          "MIT App Inventor advanced",
+          "Integrating Personal Image Classifier",
+          "Using Look Extension for AI",
+          "Adding voice recognition to apps",
+          "Text-to-speech in apps",
+          "Connecting to Firebase for data",
+          "Publishing APKs and sharing",
+          "UI/UX for kids",
+          "App store basics (concept only)",
+          "App monetization (for future reference)",
+          "Making your app accessible"
+        ],
+        "projects": [
+          "AI-powered plant identifier app",
+          "Voice-command note app",
+          "Flash card memorizer with NLP"
+        ],
+        "practice": "Build one mini app weekly"
+      }
+    },
+    "month_8": {
+      "title": "Month 8: Mini-Hackathon & Olympiad Prep",
+      "weeks": "Week 31-34",
+      "week_31_32": {
+        "title": "Competition Preparation & Mini-Hackathon",
+        "topics": [
+          "What is a hackathon? Format and rules",
+          "Team formation strategies",
+          "Idea generation (design sprints)",
+          "Rapid prototyping",
+          "Pitching an AI idea (Pixar method)",
+          "Creating a great demo video",
+          "Presenting to judges (body language, voice)",
+          "Handling Q&A",
+          "Time management during competitions",
+          "Famous CBSE AI competitions (CBSE AI Hackathon, Intel AI Youth)",
+          "Indian AI Olympiads (IIRC, TechXcelerate)",
+          "International AI for Good competitions"
+        ],
+        "projects": [
+          "Full 48-hour mini-hackathon (home edition)",
+          "Original AI project + pitch + demo",
+          "3-minute pitch video for portfolio"
+        ],
+        "practice": "Daily idea generation"
+      },
+      "week_33_34": {
+        "title": "AI Olympiad & CBSE Competition Preparation",
+        "topics": [
+          "AI Olympiad syllabus overview",
+          "CBSE AI Hackathon past problems",
+          "Logical reasoning practice",
+          "Python/Scratch speed challenges",
+          "AI vocabulary & concepts test prep",
+          "Time-bound problem solving",
+          "Mock Olympiad rounds",
+          "AI puzzle solving (riddles, pattern tests)",
+          "Math for AI — proportion, averages, probability basics",
+          "Debate: 'Is AI dangerous?' (public speaking)",
+          "Essay writing: AI in India 2030",
+          "Portfolio polishing"
+        ],
+        "projects": [
+          "Complete 5 mock Olympiad rounds",
+          "Submit to one real CBSE/Intel AI competition",
+          "AI essay for school magazine"
+        ],
+        "practice": "Daily timed practice"
+      }
+    }
+  },
+  "phase_4_mastery": {
+    "title": "PHASE 4: Mastery & Transition (Month 9, Weeks 35-40)",
+    "description": "Final capstone project, portfolio creation, CBSE AI Class 9 (Code 417) readiness test, and graduation ceremony.",
+    "month_9": {
+      "title": "Month 9: Capstone, Portfolio & Certification",
+      "weeks": "Week 35-40",
+      "week_35_36": {
+        "title": "Grand Capstone Project (Full AI Lifecycle)",
+        "topics": [
+          "Selecting a real community problem",
+          "Deep stakeholder interviews",
+          "Complete AI Project Cycle execution",
+          "Multi-week project management",
+          "Using Git/GitHub basics for kids",
+          "Version control & backup",
+          "Collaboration with classmates",
+          "Expert mentor review sessions",
+          "Iterative development",
+          "User testing with 10+ real users",
+          "Formal CBSE-style report writing (10 pages)",
+          "Presentation mastery"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Full AI solution for a real community issue",
+          "Complete CBSE-style report (cover, abstract, methodology, results, ethics, SDG alignment)",
+          "Public GitHub portfolio with documentation"
+        ]
+      },
+      "week_37_38": {
+        "title": "Portfolio, LinkedIn (with parental guidance) & Public Showcase",
+        "topics": [
+          "Portfolio website building",
+          "Personal branding for young creators",
+          "Creating a project showcase page",
+          "Video editing for project demos",
+          "Writing project stories (journalistic style)",
+          "Social media presentation (parent-managed)",
+          "Preparing for school science fair",
+          "Public speaking — mini TED-talk format",
+          "Handling feedback gracefully",
+          "Connecting with peer creators",
+          "Maintaining lifelong learning habits",
+          "Giving back — teach a younger friend"
+        ],
+        "deliverables": [
+          "Personal portfolio site (Netlify/GitHub Pages)",
+          "50+ projects documented with screenshots and videos",
+          "10-minute live showcase presentation"
+        ]
+      },
+      "week_39": {
+        "title": "CBSE AI Class 9 (Code 417) Readiness Test & Beyond",
+        "topics": [
+          "CBSE Class 9 AI (417) curriculum overview",
+          "CBSE Class 11-12 AI (843) curriculum preview",
+          "Sample past papers (Class 9 AI)",
+          "Practical file requirements",
+          "Employability skills (part of CBSE AI curriculum)",
+          "Self-management, ICT, Entrepreneurial, Green skills",
+          "Mock Class 9 AI assessment",
+          "Gap identification",
+          "Personalized next-step recommendation",
+          "Transition pathway plan",
+          "Parent conference",
+          "Learning roadmap for next 3 years"
+        ],
+        "assessment": "CBSE AI Class 9 (Code 417) Readiness Certification"
+      },
+      "week_40": {
+        "title": "Graduation & Lifetime Alumni Induction",
+        "topics": [
+          "Final skill assessment",
+          "Certification ceremony (virtual + physical certificate)",
+          "Alumni community induction",
+          "Access to future courses and updates",
+          "Mentor allocation for next year",
+          "Community contribution opportunities",
+          "Celebrating every student's journey",
+          "Setting 3-year learning goals"
+        ],
+        "deliverables": [
+          "CBSE-Aligned Computational Thinking & AI Certificate for Kids",
+          "50+ Project Portfolio",
+          "LinkedIn-shareable digital badge",
+          "Lifetime alumni community access",
+          "Next-level course pathway plan"
+        ],
+        "assessment": "CERTIFIED YOUNG COMPUTATIONAL THINKER & AI INNOVATOR — Ready for CBSE Class 9 AI (417) and beyond!"
+      }
+    }
+  },
+  "cbse_alignment": {
+    "title": "100% Aligned with CBSE Computational Thinking & AI Framework",
+    "description": "Every topic in this course maps to CBSE's official AI curriculum for classes 3-8, ensuring your child is future-ready for formal CBSE AI schooling.",
+    "mapping": [
+      {
+        "class": "Class 3",
+        "cbse_topic": "Introduction to CT, unplugged activities, basic patterns",
+        "our_coverage": "Weeks 1-4 fully cover and exceed CBSE Class 3 CT syllabus"
+      },
+      {
+        "class": "Class 4",
+        "cbse_topic": "Algorithms, flowcharts, basic sequencing",
+        "our_coverage": "Week 4 + Month 2 go deeper than Class 4 CBSE requirements"
+      },
+      {
+        "class": "Class 5",
+        "cbse_topic": "Block coding intro, Scratch basics, AI awareness",
+        "our_coverage": "Full Month 2 + Week 9 matches Class 5 CBSE AI chapter"
+      },
+      {
+        "class": "Class 6",
+        "cbse_topic": "Scratch advanced, introduction to AI, AI Project Cycle intro",
+        "our_coverage": "Months 3-4 cover CBSE Class 6 AI unit fully"
+      },
+      {
+        "class": "Class 7",
+        "cbse_topic": "Full AI Project Cycle, AI domains, Data Science intro",
+        "our_coverage": "Months 4-5 cover Class 7 CBSE AI chapters fully"
+      },
+      {
+        "class": "Class 8",
+        "cbse_topic": "Python intro, advanced AI projects, ethics, SDGs",
+        "our_coverage": "Months 5-8 exceed Class 8 CBSE AI expectations"
+      }
+    ]
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: 10+ unplugged CT activities, 8+ Scratch projects, 3+ AI awareness projects",
+      "Phase 2: 6+ full AI Project Cycle projects, 5+ Teachable Machine models, 2+ Python projects",
+      "Phase 3: 8+ advanced AI projects, 3+ robotics simulations, 2+ MIT App Inventor apps",
+      "Phase 4: 1 grand capstone + portfolio of 50+ documented projects",
+      "Total: 50+ projects with full CBSE-style documentation"
+    ],
+    "tools_and_platforms_covered": [
+      "Scratch (MIT) — primary block coding",
+      "Scratch Jr (for younger Class 3-4 students)",
+      "Code.org (supplementary)",
+      "Teachable Machine (Google)",
+      "Orange Data Mining (visual ML)",
+      "MIT App Inventor (AI apps)",
+      "Python 3 (Thonny IDE + Google Colab)",
+      "Google Sheets (data exploration)",
+      "Canva (infographics & presentations)",
+      "VEXcode VR (virtual robotics)",
+      "Dialogflow (chatbots)",
+      "GitHub (portfolio, Phase 4)",
+      "Netlify / GitHub Pages (portfolio hosting)"
+    ],
+    "skills_mastered": [
+      "Computational Thinking: 4 pillars mastery (Decomposition, Pattern Recognition, Abstraction, Algorithms)",
+      "Block Coding: Scratch advanced level (events, loops, conditions, variables, broadcasts, cloning)",
+      "AI Fundamentals: CV, NLP, Data Science, ML basics, ethics, bias",
+      "AI Project Cycle: Full CBSE-aligned 5-stage process",
+      "Data literacy: Collection, cleaning, visualization, interpretation",
+      "Python basics: Variables, loops, conditions, lists, functions, turtle, random",
+      "Prompt engineering (GenAI): Safe, effective, age-appropriate",
+      "Project management: Planning, execution, documentation, presentation",
+      "Soft skills: Public speaking, teamwork, critical thinking, empathy",
+      "Research: Surveys, datasets, stakeholder interviews, impact reporting",
+      "Ethics: Bias, privacy, responsibility, SDG alignment",
+      "Technology literacy: Apps, AI, IoT basics, robotics simulation"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 x 60-min expert-led sessions/week",
+      "self_practice": "2-3 hours/week",
+      "project_work": "1-2 hours/week",
+      "parent_engagement": "30 mins/week progress review",
+      "total_per_week": "5-7 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly live classes with CBSE-trained AI instructors",
+      "one_on_one": "Fortnightly 1-on-1 mentor check-ins",
+      "parent_reports": "Monthly detailed progress reports for parents",
+      "community": "Kids-only private community (moderated)",
+      "feedback": "Weekly project reviews with feedback",
+      "resources": "Full access to curated AI resource library",
+      "lifetime_access": "All content + future CBSE curriculum updates included",
+      "doubt_support": "WhatsApp group + ticket system with <12 hr response time",
+      "parent_workshops": "Quarterly AI-for-Parents sessions"
+    },
+    "certification": {
+      "phase_certificates": "Separate certificate after each phase (4 total)",
+      "final_certificate": "Certified Young Computational Thinker & AI Innovator",
+      "linkedin_badge": "Shareable digital badge for LinkedIn/school profile",
+      "school_recognition": "Recognized by 400+ CBSE & ICSE schools (and growing)",
+      "portfolio_projects": "50+ documented CBSE-style AI projects",
+      "cbse_class_9_readiness": "CBSE AI Class 9 (Code 417) Readiness Certificate"
+    }
+  },
+  "prerequisites": {
+    "age": "8-13 years (Classes 3 to 8)",
+    "coding_experience": "None — absolute beginners welcome",
+    "equipment": "Laptop/desktop with stable internet (4 Mbps+), webcam, headphones",
+    "software": "All free — Scratch, Python, Teachable Machine, Orange (we guide installation)",
+    "time_commitment": "5-7 hours per week (2 live classes + self-practice)",
+    "english": "Basic reading ability (Class 3+ level)",
+    "parent_support": "Minimum 30 mins/week to review progress",
+    "motivation": "Curiosity, willingness to make mistakes, excitement to build"
+  },
+  "who_is_this_for": {
+    "primary_students": "CBSE students in Classes 3-8 looking to master Computational Thinking and AI",
+    "other_boards": "ICSE, IB, State Board and International students — curriculum is fully transferable",
+    "homeschoolers": "Perfect structured AI curriculum for homeschool families",
+    "gifted_children": "Advanced learners ready to go beyond school curriculum",
+    "competition_aspirants": "Kids preparing for AI Olympiads, CBSE Hackathons, Intel AI Youth challenges",
+    "cbse_school_students": "Students whose schools already teach CBSE AI curriculum and want deeper mastery",
+    "parents_of_future_engineers": "Parents preparing kids for future AI-driven careers",
+    "anyone": "Any 8-13 year-old curious about how AI, Alexa, ChatGPT and self-driving cars work"
+  },
+  "career_paths_after_completion": [
+    "Direct pathway to CBSE AI Class 9-10 (Code 417)",
+    "Direct pathway to CBSE AI Class 11-12 (Code 843)",
+    "Future AI Engineer / ML Engineer",
+    "Future Data Scientist",
+    "Future Robotics Engineer",
+    "Future Prompt Engineer / AI Product Designer",
+    "Future AI Ethics Researcher",
+    "Future Computer Science Researcher",
+    "Future Tech Entrepreneur",
+    "Any career benefiting from computational & analytical thinking (medicine, law, business, arts)"
+  ],
+  "salary_expectations": {
+    "immediate_academic": "Significant improvement in Maths, Science, English board scores",
+    "scholarships": "Eligible for NTSE, KVPY (junior), AI scholarships (Intel, Samsung, Microsoft)",
+    "competitions": "Prize money up to ₹1 Lakh from CBSE/Intel AI competitions",
+    "future_ai_engineer": "₹12-40 LPA starting salary in India (2030 projections)",
+    "future_ml_engineer": "₹15-60 LPA (FAANG-level) with continued learning",
+    "international_opportunities": "Stanford, MIT, Carnegie Mellon pipeline — early CT/AI exposure is a key admissions signal",
+    "entrepreneurship": "Unlimited — India's AI startup ecosystem is exploding"
+  },
+  "course_guarantees": {
+    "money_back": "30-day 100% money-back guarantee — no questions asked",
+    "cbse_alignment": "100% CBSE framework alignment guarantee",
+    "improvement": "Guaranteed measurable improvement in logical reasoning",
+    "support": "Response within 12 hours for any doubt, 7 days a week",
+    "updates": "Free lifetime access to all future curriculum updates",
+    "certificate": "Industry-recognized CBSE-aligned certification",
+    "portfolio": "50+ project portfolio ready for school admissions and competitions",
+    "class_9_ai_readiness": "Guaranteed readiness for CBSE AI Class 9 (Code 417)"
+  },
+  "faqs": [
+    {
+      "question": "Is this course officially approved by CBSE?",
+      "answer": "Our course is 100% aligned with the official CBSE Computational Thinking & Artificial Intelligence framework and NCERT AI handbooks. While CBSE does not 'approve' external courses, we have designed every module to match CBSE syllabus for Classes 3-8 AI curriculum. Students completing this program will be ahead of CBSE AI Class 9 (Code 417) requirements. Our students from 400+ CBSE/ICSE schools have successfully used this course as supplementary and even replacement learning."
+    },
+    {
+      "question": "My child is in Class 3, is this course too advanced?",
+      "answer": "Absolutely not! Phase 1 (Months 1-3) is specifically designed for Classes 3-5 with unplugged activities, Scratch basics, and AI awareness — no technical prerequisite. We have separate age-appropriate batches for Primary (Classes 3-5) and Middle School (Classes 6-8). Younger children progress at their own pace and reach Phase 2 when ready. Many Class 3 students complete the full 9 months successfully with proper pacing."
+    },
+    {
+      "question": "My child is in Class 8 — isn't this too basic?",
+      "answer": "Class 8 students enter directly into Phase 2 (Month 4) after a quick diagnostic, then progress through Python, advanced AI projects, GenAI, robotics, and capstone projects that are well beyond the CBSE Class 8 AI chapter. By the end, they are not just ready for CBSE AI Class 9 (Code 417) — they are 6-12 months ahead of it. We also offer optional Phase 3+ advanced tracks for ambitious Class 8 students."
+    },
+    {
+      "question": "Does this course prepare for CBSE AI Class 9 (Code 417)?",
+      "answer": "Yes, this is one of our core outcomes. Phase 4 includes an explicit CBSE Class 9 AI (Code 417) Readiness Test. Students who complete this course are fully prepared to excel in the Class 9-10 CBSE AI curriculum, including Communication Skills, Self-Management, ICT Skills, Entrepreneurial Skills, Green Skills, Introduction to AI, AI Project Cycle, Neural Networks intro, Python intro, and Ethics of AI. Many of our students score 95+ in their Class 9-10 AI board exams."
+    },
+    {
+      "question": "How is this different from school AI classes?",
+      "answer": "Most CBSE school AI classes cover the curriculum at surface level due to 1-2 hours/week time constraints. Our course goes 10x deeper with 5-7 hours/week, live expert instruction, 50+ hands-on projects, CBSE-format project documentation, and continuous feedback. We also include cutting-edge topics (GenAI, Prompt Engineering, Robotics simulation, MIT App Inventor) that most school curricula skip. Result: our students don't just pass AI — they create AI."
+    },
+    {
+      "question": "Is Python necessary at this age?",
+      "answer": "Python is introduced only in Month 6 (Class 8 level), and even then in a gentle, kid-friendly way using Turtle graphics and simple games. CBSE introduces Python officially in Class 8 AI chapter and heavily in Class 9 (Code 417). Starting early gives your child a huge advantage. Younger kids (Classes 3-6) focus on Scratch and unplugged CT, which pedagogically is the right progression."
+    },
+    {
+      "question": "What if my child misses a class?",
+      "answer": "All live classes are recorded and available in your student dashboard within 24 hours with high-quality playback, chapter bookmarks, and parallel homework assignments. For important missed sessions, your mentor provides a complimentary 1-on-1 catch-up call. You never fall behind."
+    },
+    {
+      "question": "Are the projects CBSE-board-exam standard?",
+      "answer": "Yes. All capstone projects follow the official CBSE AI Project Cycle format (Problem Scoping → Data Acquisition → Data Exploration → Modelling → Evaluation). Reports are written in CBSE practical file format with abstract, methodology, SDG alignment, ethics consideration, and results — exactly the format required by CBSE AI board exams for Class 9-12."
+    },
+    {
+      "question": "How much screen time does this course require?",
+      "answer": "We are very mindful of healthy screen time, especially for younger kids. Phase 1 (Classes 3-5) is 60-70% unplugged (no-screen) activities — puzzles, paper flowcharts, human-robot games, nature pattern hunts. Total screen time averages 3-4 hours/week for Phase 1 and 5-6 hours/week for Phases 2-4. We encourage physical activity, outdoor breaks, and offline thinking time throughout."
+    },
+    {
+      "question": "Will my child be ready for AI competitions?",
+      "answer": "Absolutely — Phase 3 Week 31-34 is dedicated competition preparation. Our students regularly participate in and win CBSE AI Hackathons, Intel AI Youth Challenge, Samsung Innovation Campus, Microsoft AI for Good, and India AI Olympiad. Past students have won prizes ranging from ₹10,000 to ₹1,00,000 and secured admissions to top engineering colleges with AI portfolios built through this course."
+    },
+    {
+      "question": "Do parents need technical knowledge?",
+      "answer": "Zero technical knowledge needed. We provide parent-friendly weekly progress reports, quarterly AI-for-Parents workshops, and a simple parent dashboard. Many of our most successful students have parents from non-technical backgrounds. In fact, we encourage parents to 'learn alongside' for the first month — it's a beautiful bonding experience!"
+    },
+    {
+      "question": "How do I know this course is right for my child?",
+      "answer": "Book a FREE diagnostic session with our CBSE AI expert. We will assess your child's current level, interests, and goals, then recommend whether they should join Primary (Classes 3-5) or Middle School (Classes 6-8) batch. If we feel this course is not the right fit, we will honestly tell you — we only enroll students who will truly benefit."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "problem-solving-and-computational-thinking-for-kids",
+      "title": "Problem Solving & Computational Thinking for Kids",
+      "description": "Pure CT focus without AI — great complementary program"
+    },
+    {
+      "slug": "python-ai-kids-masterclass",
+      "title": "Python for Kids",
+      "description": "Deepen Python skills after completing CT & AI course"
+    },
+    {
+      "slug": "scratch-programming-complete-course",
+      "title": "Scratch Programming Complete Course",
+      "description": "Full Scratch mastery if your child loves block coding"
+    },
+    {
+      "slug": "kids-ai-mastery-course",
+      "title": "AI Tools for Kids",
+      "description": "Practical AI tools exploration — complements this CBSE course"
+    },
+    {
+      "slug": "cbse-icse-computer-science-class-11-12-python-java-complete-course",
+      "title": "Computer Science Class 11-12 (CBSE & ICSE)",
+      "description": "The natural next step after completing this course through Class 10"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why CBSE-Aligned Computational Thinking & AI Mastery Now?",
+    "paragraphs": [
+      "The Central Board of Secondary Education (CBSE) has officially made Computational Thinking and Artificial Intelligence part of the foundational curriculum for all students from Class 3 to Class 12. This is not optional any more — it is the new 'literacy' of the 21st century. Schools across India are rapidly integrating AI, but most lack the depth, time, and expert faculty needed to truly master this subject. This course fills that gap completely.",
+      "Unlike generic coding courses, this program is built around CBSE's exact pedagogical framework: the 4 pillars of Computational Thinking and the 5-stage AI Project Cycle. Every project your child builds follows CBSE-board-exam format. Every topic maps directly to NCERT AI handbooks and the CBSE Skill Subject AI curriculum (Code 417 for Class 9-10, Code 843 for Class 11-12).",
+      "Starting early (Class 3-8) creates compounding benefits: your child develops logical reasoning that boosts Maths and Science scores, cultivates problem-solving confidence, builds a tangible portfolio of 50+ AI projects useful for board practical files, school competitions, and eventually IIT/NIT/top college admissions. More importantly, they learn to use AI ethically and creatively — not just consume it."
+    ],
+    "highlights": [
+      "100% CBSE Computational Thinking & AI framework aligned",
+      "Separate tracks for Classes 3-5 and Classes 6-8",
+      "CBSE-format AI Project Cycle documentation for every capstone",
+      "Direct preparation for CBSE AI Class 9-10 (Code 417) & 11-12 (Code 843)",
+      "50+ hands-on projects for school portfolio and competitions",
+      "Live expert classes, lifetime access, parent progress reports",
+      "Compatible with Atal Tinkering Lab (ATL) initiatives",
+      "Prize-winning project guidance for AI competitions & hackathons"
+    ]
+  },
+  "success_metrics": {
+    "students_enrolled": "1,850+",
+    "cbse_schools_using_our_program": "400+",
+    "average_improvement_in_maths_science": "34%",
+    "students_won_ai_competitions": "185+",
+    "parent_satisfaction": "96%",
+    "progression_to_cbse_ai_417": "92% continue to CBSE AI Class 9-10",
+    "portfolio_average_projects": "52 projects per student",
+    "course_completion_rate": "87%"
+  }
+}

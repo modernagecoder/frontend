@@ -217,6 +217,42 @@ section.course-hero {
     white-space: nowrap;
 }
 
+/* ========================================
+   MOBILE STACKING FIX
+   On mobile, the hero flex layout becomes vertical and the
+   course/blog hero image sits directly below the share button.
+   The dropdown opens downward and was being covered by the
+   image because both siblings share the same stacking context.
+   Explicitly elevate the content (and the share container) above
+   the image so the dropdown renders on top.
+   ======================================== */
+@media (max-width: 768px) {
+    .course-hero,
+    .blog-hero,
+    section.course-hero,
+    section.blog-hero {
+        position: relative;
+    }
+
+    .course-hero-content,
+    .blog-hero-content,
+    .hero-content {
+        position: relative !important;
+        z-index: 20 !important;
+    }
+
+    .course-hero-image,
+    .blog-hero-image {
+        position: relative;
+        z-index: 1 !important;
+    }
+
+    .share-button-container {
+        position: relative;
+        z-index: 9999 !important;
+    }
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
     .share-button {

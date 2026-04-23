@@ -141,6 +141,22 @@
         "personal": { "amount": 2499, "display": "₹2,499/month" },
         "lifetime": { "amount": 24999, "display": "₹24,999" }
       }
+    },
+    "cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8": {
+      "name": "CBSE Computational Thinking & AI for Kids (Classes 3-8)",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "personal": { "amount": 2499, "display": "₹2,499/month" },
+        "lifetime": { "amount": 19999, "display": "₹19,999" }
+      }
+    },
+    "cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843": {
+      "name": "CBSE Computational Thinking & AI for Teens (Class 9-12, Code 417 & 843)",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "personal": { "amount": 2999, "display": "₹2,999/month" },
+        "lifetime": { "amount": 29999, "display": "₹29,999" }
+      }
     }
   },
   "notes": {

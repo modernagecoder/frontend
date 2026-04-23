@@ -243,6 +243,23 @@ body.mobile-menu-open {
 }
 
 /* ========================================
+   HIDE FLOATING ACTION BUTTONS WHEN MOBILE NAV IS OPEN
+   Prevents WhatsApp / Misti AI / callback buttons from
+   overlapping the full-screen nav drawer.
+   ======================================== */
+@media (max-width: 900px) {
+    body.mobile-menu-open .wa-float-btn,
+    body.mobile-menu-open .misti-chat-btn,
+    body.mobile-menu-open .callback-float-btn,
+    body.mobile-menu-open .share-button-container.floating {
+        opacity: 0 !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
+        transition: opacity 0.2s ease, visibility 0.2s ease !important;
+    }
+}
+
+/* ========================================
    ACCESSIBILITY IMPROVEMENTS
    ======================================== */
 
